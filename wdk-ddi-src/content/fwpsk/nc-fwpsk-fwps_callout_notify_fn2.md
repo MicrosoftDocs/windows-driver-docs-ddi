@@ -94,7 +94,7 @@ A pointer to the management identifier for the filter, as specified by the appli
 
 [in, out]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> structure. This structure
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.
      
 
@@ -185,7 +185,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 This function is essentially identical to the previous version, 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>. The only difference is the 
-       updated <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> structure pointed to by the 
+       updated <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a> structure pointed to by the 
        <i>filter</i> parameter.
 
 ## -see-also
@@ -194,7 +194,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a>
 
 
 

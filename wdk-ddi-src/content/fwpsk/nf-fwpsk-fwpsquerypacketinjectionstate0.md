@@ -104,7 +104,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
     <i>netBufferList</i> should not be further modified or pended as part of a cloning and injection
     procedure. In this case, the callout should set the 
     <b>actionType</b> member of the 
-    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure pointed to
+    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure pointed to
     by the 
     <i>classifyOut</i> parameter of the 
     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to one of the following
@@ -112,7 +112,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
 
 ## -see-also
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a>
 
 
 

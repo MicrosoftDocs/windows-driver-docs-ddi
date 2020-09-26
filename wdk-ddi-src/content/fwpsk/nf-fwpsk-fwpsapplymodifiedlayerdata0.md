@@ -108,7 +108,7 @@ When set, this flag specifies that data at the layer of the pended classify acti
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
 
 
 

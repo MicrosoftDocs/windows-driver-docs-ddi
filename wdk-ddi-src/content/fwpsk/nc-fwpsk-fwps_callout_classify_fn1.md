@@ -87,7 +87,7 @@ A pointer to context data associated with the callout driver by the filter engin
 
 [in]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a> structure. This structure
      describes the filter that specifies the callout for the filter's action.
 
 ### -param flowContext 
@@ -102,7 +102,7 @@ A UINT64-typed variable that contains the context associated with the data flow.
 
 [in, out]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure that
      receives any data that the 
      <i>classifyFn1</i> callout function returns to the caller.
 
@@ -118,7 +118,7 @@ The filter engine calls a callout's
 A callout's 
     <i>classifyFn1</i> callout function should clear the FWPS_RIGHT_ACTION_WRITE flag in the 
     <b>rights</b> member of the 
-    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure in any of
+    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure in any of
     the following situations:
 
 <ul>
@@ -126,7 +126,7 @@ A callout's
 When the 
       <i>classifyFn1</i> callout function sets the 
       <b>actionType</b> member of the 
-      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure to
+      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure to
       FWP_ACTION_BLOCK.
 
 </li>
@@ -134,10 +134,10 @@ When the
 When the 
       <i>classifyFn1</i> callout function sets the 
       <b>actionType</b> member of the 
-      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure to
+      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure to
       FWP_ACTION_PERMIT and the FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT flag is set in the 
       <b>Flags</b> member of the 
-      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure.
+      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a> structure.
 
 </li>
 <li>
@@ -167,11 +167,11 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a>
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
 
 
 
