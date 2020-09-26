@@ -10,16 +10,14 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: ieee
 f1_keywords:
- - 1394
+ - 1394,
  - 1394/1394
 ---
 
 # 1394.h header
-
 
 ## -description
 
 This header is used by ieee. For more information, see:
 
 - [IEEE 1394 bus](../_ieee/index.md)
-
