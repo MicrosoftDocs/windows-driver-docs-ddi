@@ -254,7 +254,7 @@ If the original inbound packet data had been subject to IPsec policy enforcement
 To allow IPsec to process inbound packets first, the callout that inspects the transport layer data
     must have a lower value of 
     <b>subLayerWeight</b> in the 
-    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure than the universal
+    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0">FWPS_FILTER0</a> structure than the universal
     sublayer. In addition, the callout driver must not intercept tunnel-mode packets for which the
     combination of 
     <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">
@@ -307,7 +307,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0">FWPS_FILTER0</a>
 
 
 

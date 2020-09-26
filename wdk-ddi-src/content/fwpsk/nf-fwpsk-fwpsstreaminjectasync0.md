@@ -314,7 +314,7 @@ A callout can pend a data segment by first cloning it with a call to the
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsclonestreamdata0">FwpsCloneStreamData0</a> function,
     followed by blocking the data segment by setting FWP_ACTION_BLOCK in the 
     <b>actionType</b> member of the 
-    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure.
+    <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure.
 
 Injected stream data will not be reindicated to the callout, but it will be made available to stream
     callouts from lower-weight sublayers.

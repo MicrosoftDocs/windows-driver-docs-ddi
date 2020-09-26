@@ -75,7 +75,7 @@ The classification handle that identifies the callout driver's processing at the
 
 [in, optional]
 A pointer to a deep copy of the 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that was originally
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure that was originally
      passed to the 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> call when the classification was pended. When classifying asynchronously, the members
      of this structure can be set the same way as they would be in the callout driver's 
@@ -97,7 +97,7 @@ After calling this function,
 
 ## -see-also
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a>
 
 
 

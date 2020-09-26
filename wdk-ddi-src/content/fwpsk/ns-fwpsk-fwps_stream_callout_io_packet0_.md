@@ -136,7 +136,7 @@ The stream connection should be dropped. A callout's
        the 
        <b>streamAction</b> member to this value if the 
        <b>action.type</b> member of the 
-       <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure that the filter
+       <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0">FWPS_FILTER0</a> structure that the filter
        engine passed to the callout driver's 
        classifyFn callout function contains the value <b>FWP_ACTION_CALLOUT_UNKNOWN</b>. If a callout's 
        classifyFn callout function sets the 

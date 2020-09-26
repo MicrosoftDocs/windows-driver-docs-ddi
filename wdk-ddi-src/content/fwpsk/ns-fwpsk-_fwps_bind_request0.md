@@ -79,7 +79,7 @@ The value of the
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>.
 
 ## -remarks
 
@@ -123,7 +123,7 @@ This structure acts as a linked list that contains a record of all changes made 
 
 ## -see-also
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
 
 
 

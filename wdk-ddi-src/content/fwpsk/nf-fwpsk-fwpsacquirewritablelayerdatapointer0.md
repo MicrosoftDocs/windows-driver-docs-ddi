@@ -70,7 +70,7 @@ The value of the
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>.
 
 ### -param flags 
 
@@ -131,7 +131,7 @@ An error occurred.
 
 ## -remarks
 
-<b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure:<ul>
+<b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure:<ul>
 <li><i>classifyOut</i>-><b>actionType</b> = <b>FWP_ACTION_BLOCK</b></li>
 <li><i>classifyOut</i>-><b>rights</b> = ~<b>FWPS_RIGHT_ACTION_WRITE</b></li>
 </ul>
@@ -166,7 +166,7 @@ The following structures are defined to contain modifiable layer data. The point
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a>
 
 
 
@@ -174,7 +174,7 @@ The following structures are defined to contain modifiable layer data. The point
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
 
 
 
