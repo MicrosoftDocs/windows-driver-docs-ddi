@@ -58,17 +58,17 @@ Pointer to a variable that receives the file handle if the call is successful. T
 ### -param DesiredAccess 
 
 [in]
-A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#desiredaccess) for more information about this parameter and for the list of flag values.
+A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter and for the list of flag values.
 
 ### -param ObjectAttributes 
 
 [in]
-Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#objectattributes) for more information and for a description of each structure member.
+Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information and for a description of each structure member.
 
 ### -param IoStatusBlock 
 
 [out]
-Pointer to an [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#iostatusblock).
+Pointer to an [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
 ### -param AllocationSize 
 
@@ -83,17 +83,17 @@ Explicitly specified attributes are applied only when the file is created, super
 ### -param ShareAccess 
 
 [in]
-Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#shareaccess) for more details and for the list of flags.
+Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
 ### -param Disposition 
 
 [in]
-Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#disposition) for the list of possible values.
+Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible values.
 
 ### -param CreateOptions 
 
 [in]
-Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#createoptions).
+Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
 ### -param EaBuffer 
 
@@ -118,11 +118,11 @@ Drivers must set this parameter to **NULL**.
 ### -param Options 
 
 [in]
-Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#options) for the list of possible options.
+Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible options.
 
 ## -returns
 
-**IoCreateFile** either returns STATUS_SUCCESS or an appropriate error status. NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#returns) for a list of possible return codes.
+**IoCreateFile** either returns STATUS_SUCCESS or an appropriate error status. NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#return-value) for a list of possible return codes.
 
 ## -remarks
 
@@ -217,7 +217,7 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md)
 
-[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#desiredaccess)
+[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) (**DesiredAccess** parameter)
 
 [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes)
 

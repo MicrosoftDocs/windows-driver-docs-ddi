@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeStringToUTF8String
-title: RtlUnicodeStringToUTF8String function
+title: RtlUnicodeStringToUTF8String function (ntifs.h)
 description: RtlUnicodeStringToUTF8String converts the specified Unicode string to a UTF-8 string.
 tech.root: ifsk
 ms.assetid: 8c1e181a-7737-4e26-8fc1-a00ed16673e9

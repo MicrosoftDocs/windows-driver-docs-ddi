@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi._POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
-title: POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
+title: POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES (ntpoapi.h)
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows

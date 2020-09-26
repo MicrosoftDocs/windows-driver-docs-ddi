@@ -43,16 +43,10 @@ api_name:
 
 # RtlIsStateSeparationEnabled function
 
-
 ## -description
 
-			
-            Checks if the SKU for the current context supports multiple
-    sessions.
+Checks if the SKU for the current context supports multiple sessions.
 
 ## -returns
 
- TRUE indicates state separation enabled;
-
-    FALSE otherwise.
-
+TRUE indicates state separation enabled and FALSE otherwise.

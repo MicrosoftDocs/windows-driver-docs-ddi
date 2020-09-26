@@ -237,7 +237,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
 
-      When the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is completed, the  members of the caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure are set to  the values in the following table.
+When the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is completed, the  members of the caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure are set to  the values in the following table.
 
 <table>
 <tr>
