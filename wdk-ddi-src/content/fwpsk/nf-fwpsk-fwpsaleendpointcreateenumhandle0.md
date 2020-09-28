@@ -65,7 +65,7 @@ Handle for an open session with the filter engine. This handle is obtained when 
 
 [in, optional]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_enum_template0_">
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_enum_template0">
      FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</a> structure that contains parameters to narrow the endpoint
      enumeration results.
 

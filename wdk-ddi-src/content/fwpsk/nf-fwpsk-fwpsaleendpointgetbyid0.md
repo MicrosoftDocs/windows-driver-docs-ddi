@@ -70,7 +70,7 @@ The unique endpoint identifier.
 
 [out]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0_">
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0">
      FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure that contains the properties of the endpoint.
 
 ## -returns
