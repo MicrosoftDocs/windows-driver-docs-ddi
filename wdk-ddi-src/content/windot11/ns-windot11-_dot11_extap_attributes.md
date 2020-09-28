@@ -52,23 +52,19 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
-  driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
+> [!Important] 
+> The [Native 802.11 Wireless LAN](/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](/windows-hardware/drivers/network/wifi-universal-driver-model).
+
+The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
 
 ## -struct-fields
 
 ### -field Header
 
-The type, revision, and size of the DOT11_EXTAP_ATTRIBUTES structure. This member is formatted as
-     an
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the DOT11_EXTAP_ATTRIBUTES structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.
 
 
-The miniport driver must set the members of
-     <b>Header</b> to the following values:
-
-
-
+The miniport driver must set the members of **Header** to the following values:
 
 
 #### Type
@@ -81,196 +77,90 @@ This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 This member must be set to DOT11_EXTAP_ATTRIBUTES_REVISION_1.
 
-
-
 #### Size
 
-This member must be set to
-       <b>sizeof</b>(DOT11_EXTAP_ATTRIBUTES).
+This member must be set to **sizeof**(DOT11_EXTAP_ATTRIBUTES).
 
-For more information about these members, see
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+For more information about these members, see [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md).
 
 ### -field uScanSSIDListSize
 
-The maximum number of service set identifiers (SSIDs) supported by the 802.11 station for scan
-     operations. The 802.11 station must support an SSID list of at least four entries.
+The maximum number of service set identifiers (SSIDs) supported by the 802.11 station for scan operations. The 802.11 station must support an SSID list of at least four entries.
 
-
-The SSID list that the 802.11 station uses for scanning is specified when
-     <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
-     set.
+The SSID list that the 802.11 station uses for scanning is specified when [OID_DOT11_SCAN_REQUEST](/windows-hardware/drivers/network/oid-dot11-scan-request) is set.
 
 ### -field uDesiredSSIDListSize
 
-The maximum number of entries in the desired list of basic service set identifiers (BSSIDs)
-     supported by the 802.11 station. The 802.11 station must support a BSSID list with at least one entry.
+The maximum number of entries in the desired list of basic service set identifiers (BSSIDs)supported by the 802.11 station. The 802.11 station must support a BSSID list with at least one entry.
 
 
-For more information about the desired BSSID list, see
-     <a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
-     OID_DOT11_DESIRED_BSSID_LIST</a>.
+For more information about the desired BSSID list, see [OID_DOT11_DESIRED_BSSID_LIST](/windows-hardware/drivers/network/oid-dot11-desired-bssid-list).
 
 ### -field uPrivacyExemptionListSize
 
 The maximum number of entries in the privacy exemption list supported by the 802.11 station. The
-     802.11 station must support a privacy exemption list with at least one entry.
+802.11 station must support a privacy exemption list with at least one entry.
 
-
-For more information about the privacy exemption list, see
-     <a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
-     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
+For more information about the privacy exemption list, see [OID_DOT11_PRIVACY_EXEMPTION_LIST](/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list).
 
 ### -field uAssociationTableSize
 
-The maximum number of associations that the 802.11 station can support simultaneously. The 802.11
-     station must support an association list that has at least one entry. A NIC should typically be able to
-     support at least 32 associations simultaneously.
+The maximum number of associations that the 802.11 station can support simultaneously. The 802.11 station must support an association list that has at least one entry. A NIC should typically be able to support at least 32 associations simultaneously.
 
 
-If the NIC supports any authentication and cipher algorithms that require
-     <a href="/windows-hardware/drivers/network/key-mapping-keys">key-Mapping keys</a>, it must support at least
-     the number of entries in its key-mapping key table.
+If the NIC supports any authentication and cipher algorithms that require [key-Mapping keys](/windows-hardware/drivers/network/key-mapping-keys), it must support at least the number of entries in its key-mapping key table.
 
 ### -field uDefaultKeyTableSize
 
 The maximum number of cipher keys the 802.11 station supports for the default key and per-station
-     default key tables.
+default key tables.
 
-
-For standard 802.11 cipher algorithms, the 802.11 station must support a table size of at least four
-     cipher keys. For cipher algorithms developed by the independent hardware vendor (IHV), the table size
-     can be four or greater.
+For standard 802.11 cipher algorithms, the 802.11 station must support a table size of at least four cipher keys. For cipher algorithms developed by the independent hardware vendor (IHV), the table size can be four or greater.
 
 ### -field uWEPKeyValueMaxLength
 
 The maximum length, in bytes, of a WEP cipher key supported by the 802.11 station.
 
+The following table lists the minimum and maximum key lengths, in bytes, for the various WEP cipher values defined through DOT11_CIPHER_ALGORITHM(..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md).
 
-The following table lists the minimum and maximum key lengths, in bytes, for the various WEP cipher
-     values defined through
-     <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
-
-<table>
-<tr>
-<th>
-        WEP cipher
-
-       </th>
-<th>
-        Minimum key length
-
-       </th>
-<th>
-        Maximum key length
-
-       </th>
-</tr>
-<tr>
-<td>
-<b>DOT11_CIPHER_ALGO_WEP40</b>
-
-</td>
-<td>
-5
-
-</td>
-<td>
-5
-
-</td>
-</tr>
-<tr>
-<td>
-<b>DOT11_CIPHER_ALGO_WEP104</b>
-
-</td>
-<td>
-13
-
-</td>
-<td>
-13
-
-</td>
-</tr>
-<tr>
-<td>
-<b>DOT11_CIPHER_ALGO_WEP</b>
-
-</td>
-<td>
-13
-
-</td>
-<td>
-Any length supported by the 802.11 station
-
-</td>
-</tr>
-</table>
+|WEP cipher|Minimum key length|Maximum key length|
+|--- |--- |--- |
+|**DOT11_CIPHER_ALGO_WEP40**|5|5|
+|**DOT11_CIPHER_ALGO_WEP104**|13|13|
+|**DOT11_CIPHER_ALGO_WEP**|13|Any length supported by the 802.11 station|
 
 ### -field bStrictlyOrderedServiceClassImplemented
 
-A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station supports the IEEE 802.11
-     StrictlyOrdered service class for media access control (MAC) service data unit (MSDU) packet delivery.
+A Boolean value that, if set to **TRUE**, specifies that the 802.11 station supports the IEEE 802.11 StrictlyOrdered service class for media access control (MAC) service data unit (MSDU) packet delivery.
 
-
-For more information about the StrictlyOrdered service class, refer to Clause 5.1.3 of the IEEE
-     802.11-2012 standard.
+For more information about the StrictlyOrdered service class, refer to Clause 5.1.3 of the IEEE 802.11-2012 standard.
 
 ### -field uNumSupportedCountryOrRegionStrings
 
-The number of country or region strings supported by the 802.11 station. If the 802.11 station
-     supports multiple regulatory domains as specified by the IEEE 802.11d-2001 standard, each country or
-     region string identifies a regulatory domain supported by the 802.11 station.
+The number of country or region strings supported by the 802.11 station. If the 802.11 station supports multiple regulatory domains as specified by the IEEE 802.11d-2001 standard, each country or region string identifies a regulatory domain supported by the 802.11 station.
 
-
-If the 802.11 station does not support the IEEE 802.11d-2001 standard, the miniport driver must set
-     <b>uNumSupportedCountryOrRegionStrings</b> to zero.
+If the 802.11 station does not support the IEEE 802.11d-2001 standard, the miniport driver must set **uNumSupportedCountryOrRegionStrings** to zero.
 
 ### -field pSupportedCountryOrRegionStrings
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
-     station. Each entry in the array is formatted as a
-     <a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-     DOT11_COUNTRY_OR_REGION_STRING</a> structure.
+station. Each entry in the array is formatted as a [DOT11_COUNTRY_OR_REGION_STRING](/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string) structure.
 
 ### -field uInfraNumSupportedUcastAlgoPairs
 
-The number of authentication and cipher algorithms supported by the 802.11 station for sending and
-     receiving unicast packets when configured for operation in an infrastructure basic service set (BSS)
-     network. The
-     <b>uInfraNumSupportedUcastAlgoPairs</b> member must be the number of
-     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a> structures in
-     the array referenced by the
-     <b>pInfraSupportedUcastAlgoPairs</b> member.
+The number of authentication and cipher algorithms supported by the 802.11 station for sending and receiving unicast packets when configured for operation in an infrastructure basic service set (BSS) network. The **uInfraNumSupportedUcastAlgoPairs** member must be the number of [DOT11_AUTH_CIPHER_PAIR](..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md) structures in the array referenced by the **pInfraSupportedUcastAlgoPairs** member.
 
 ### -field pInfraSupportedUcastAlgoPairs
 
-A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
-     sending and receiving unicast packets in an infrastructure BSS network. Each entry in the array is
-     formatted as a
-     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
-     DOT11_AUTH_CIPHER_PAIR</a> structure.
+A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for sending and receiving unicast packets in an infrastructure BSS network. Each entry in the array is formatted as a [DOT11_AUTH_CIPHER_PAIR](..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md) structure.
 
 ### -field uInfraNumSupportedMcastAlgoPairs
 
-The number of authentication and cipher algorithms supported by the 802.11 station for sending and
-     receiving multicast and broadcast packets when configured for operation in an infrastructure basic
-     service set (BSS) network. The
-     <b>uInfraNumSupportedMcastAlgoPairs</b> member must be the number of
-     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a> structures in
-     the array referenced by the
-     <b>pInfraSupportedMcastAlgoPairs</b> member.
+The number of authentication and cipher algorithms supported by the 802.11 station for sending and receiving multicast and broadcast packets when configured for operation in an infrastructure basic service set (BSS) network. The **uInfraNumSupportedMcastAlgoPairs** member must be the number of [DOT11_AUTH_CIPHER_PAIR](..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md) structures in the array referenced by the **pInfraSupportedMcastAlgoPairs** member.
 
 ### -field pInfraSupportedMcastAlgoPairs
 
-A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
-     sending and receiving multicast and broadcast packets in an infrastructure BSS network. Each entry in
-     the array is formatted as a
-     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
-     DOT11_AUTH_CIPHER_PAIR</a> structure.
+A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for sending and receiving multicast and broadcast packets in an infrastructure BSS network. Each entry in the array is formatted as a [DOT11_AUTH_CIPHER_PAIR](..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md) structure.
 
 ## -syntax
 
@@ -295,34 +185,31 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+[OID_DOT11_DESIRED_BSSID_LIST](/windows-hardware/drivers/network/oid-dot11-desired-bssid-list)
+
+
+[DOT11_EXTAP_ATTRIBUTES](..\windot11\ns-windot11-_dot11_extap_attributes.md)
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+[DOT11_COUNTRY_OR_REGION_STRING](/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string)
 
 
 
-<a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-   DOT11_COUNTRY_OR_REGION_STRING</a>
+[DOT11_AUTH_CIPHER_PAIR](..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md)
 
 
 
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+[DOT11_CIPHER_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md)
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+[OID_DOT11_PRIVACY_EXEMPTION_LIST](/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list)
 
 
 
-<a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+[OID_DOT11_SCAN_REQUEST](/windows-hardware/drivers/network/oid-dot11-scan-request)
 
 
 
-<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+[NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)

@@ -48,9 +48,11 @@ api_name:
 
 NDIS calls the MiniportWdiIdleNotification handler   function to start the NDIS selective suspend operation on an idle network adapter. Through this operation, the network adapter is suspended and transitioned to a low-power state.
 
-This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
-<div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_IDLE_NOTIFICATION</b> type. For more
-   information, see the following Examples section.</div><div> </div>
+This is a WDI miniport handler inside [NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS](ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md).
+
+> [!Note]
+> You must declare the function by using the **MINIPORT_WDI_IDLE_NOTIFICATION** type. For more
+   information, see the following Examples section.
 
 ## -parameters
 
@@ -72,14 +74,13 @@ MiniportWdiIdleNotification can return any of the following return values.
 
 |Return code|Description|
 |--- |--- |
-|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisWdiIdleNotificationComplete](/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_complete). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from [MiniportWdiIdleNotification](/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_idle_notification).|
-|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** [MiniportWdiIdleNotification](/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_idle_notification) must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
+|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisWdiIdleNotificationComplete](nc-dot11wdi-ndis_wdi_idle_notification_complete.md). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from [MiniportWdiIdleNotification](nc-dot11wdi-miniport_wdi_idle_notification.md).|
+|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** [MiniportWdiIdleNotification](nc-dot11wdi-miniport_wdi_idle_notification.md) must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
 |**NDIS_STATUS_FAILURE**|The miniport driver could not issue a bus-specific IRP successfully.|
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+[NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS](ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md)
 
 
-
-<a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_complete">NdisWdiIdleNotificationComplete</a>
+[NdisWdiIdleNotificationComplete](nc-dot11wdi-ndis_wdi_idle_notification_complete.md)

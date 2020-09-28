@@ -76,7 +76,7 @@ The type of virtual switch event  specified as one of the [FWPS_VSWITCH_EVENT_TY
 A pointer to an [NDIS_SWITCH_PARAMETERS](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters) structure that contains information about a virtual switch.
 
 
-> [!NOTE] 
+> [!NOTE]
 > The information in the [NDIS_SWITCH_PARAMETERS](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters) structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the **NumSwitchPorts** and **IsActive** members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.
 
 ### -param portId 
@@ -89,7 +89,7 @@ The source switch port identifier.
 
 The location of the run-time state output result buffer.
 
-### -param runtimeStateLength 
+### -param runtimeStateLength
 
 [out]
 The length, in bytes, of the run-time state information in the run-time state buffer.
