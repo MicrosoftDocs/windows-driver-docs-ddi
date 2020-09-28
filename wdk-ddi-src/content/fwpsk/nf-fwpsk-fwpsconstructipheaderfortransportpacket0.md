@@ -140,7 +140,7 @@ An optional handle that indicates the stack transport endpoint in the send data 
 An optional pointer to a buffer that contains socket control data specified by the 
      <b>WSASendMsg</b> function, which is described in the Microsoft Windows SDK documentation. For
      information about the WSACMSGHDR type, see 
-     <a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
+     <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>.
      
 
 If present, socket control data is provided to a callout with the 
@@ -303,7 +303,7 @@ Call
 
 
 
-<a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>
 
 
 

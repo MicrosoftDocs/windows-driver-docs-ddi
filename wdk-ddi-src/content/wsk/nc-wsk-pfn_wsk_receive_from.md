@@ -88,7 +88,7 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 A pointer to a caller-allocated buffer that receives the control information that is associated
      with the received datagram. The control information data that is associated with a datagram is made up
      of one or more control data objects, each of which begins with a 
-     <a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
+     <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information present for the received datagram, the contents of the buffer are undefined. This pointer is
      optional and can be <b>NULL</b>. If the 
      <i>ControlInfoLength</i> parameter is <b>NULL</b>, the 
@@ -261,7 +261,7 @@ If the
 
 ## -see-also
 
-<a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>
 
 
 

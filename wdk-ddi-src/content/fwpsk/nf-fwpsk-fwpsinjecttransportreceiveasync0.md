@@ -311,7 +311,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0">FWPS_FILTER_CONDITION0</a>
 
 
 

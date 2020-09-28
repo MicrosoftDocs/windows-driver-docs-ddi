@@ -67,7 +67,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 [in]
 A pointer to an
-     <a href="/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a> structure.
+     <a href="/windows/win32/api/l2cmn/ns-l2cmn-l2_notification_data">L2_NOTIFICATION_DATA</a> structure.
 
 
 
@@ -100,7 +100,7 @@ If the IHV Extensions DLL allocated memory for the notification data referenced 
 
 ## -see-also
 
-<a href="/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a>
+<a href="/windows/win32/api/l2cmn/ns-l2cmn-l2_notification_data">L2_NOTIFICATION_DATA</a>
 
 
 
