@@ -3,9 +3,6 @@
   "headers": [
     "customwpp.ini",
     "wdtf.h",
-    "wdtfdriverpackageaction.h",
-    "wdtfdriversetupdeviceaction.h",
-    "wdtfdriversetupsystemaction.h",
     "wdtfedtaction.h",
     "wdtfinterfaces.h",
     "wdtfpnpaction.h",
