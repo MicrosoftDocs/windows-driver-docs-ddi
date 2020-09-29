@@ -1,10 +1,11 @@
 ---
 UID: NF:iddcx.IddCxAdapterDisplayConfigUpdate
 title: IddCxAdapterDisplayConfigUpdate function
-description: Called when a new display configuration is received by the driver.
+author: windows-driver-content
+description: IddCxAdapterDisplayConfigUpdate updates the display configuration for the remote session.
 tech.root: display
 ms.assetid: 38d12545-6ee4-49d2-93ba-c9c1fa89c968
-ms.date: 04/04/2019
+ms.date: 09/24/2020
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
 ms.keywords: IddCxAdapterDisplayConfigUpdate
 req.header: iddcx.h
@@ -45,26 +46,34 @@ dev_langs:
 
 # IddCxAdapterDisplayConfigUpdate function
 
-
 ## -description
 
-Called when a new display configuration is received by the driver.
+**IddCxAdapterDisplayConfigUpdate** updates the display configuration for the remote session.
 
 ## -parameters
 
 ### -param AdapterObject
 
-The adapter object of the remote adapter that the display configuration is specified for.
+[in] The adapter object of the remote adapter that the display configuration is specified for.
 
 ### -param pInArgs
 
-Input arguments of function,
+[in] Pointer to an [**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
 
 ## -returns
 
-If STATUS_SUCCESS is returned then the OS has stored the new display configuration specified and asynchronously the changes will reconfigure the swapchains for the monitors as requested. This call will first flush any pending monitor arrivals or departures will be process to ensure list of monitor is current. If the call determines the supplied display configuration is not currently supported by the driver it will return STATUS_INVALID_PARAMETER and the reason will be logged using WPP for debugging purposes, for example is a given resolution/refresh rate are not supported or if an invalid monitor is specified.
+**IddCxAdapterDisplayConfigUpdate** returns STATUS_SUCCESS upon success; otherwise, it returns an appropriate error code. See Remarks.
 
 ## -remarks
 
+An indirect display driver (IDD) calls **IddCxAdapterDisplayConfigUpdate** when it receives a new display configuration.
+
+The OS returns STATUS_SUCCESS if it has stored the newly specified display configuration. These changes will asynchronously reconfigure the swapchains for the monitors as requested. **IddCxAdapterDisplayConfigUpdate** will first flush any pending monitor arrivals, and process departures to ensure that the list of monitors is current.
+
+If **IddCxAdapterDisplayConfigUpdate** determines that the supplied display configuration is not currently supported by the driver, it returns STATUS_INVALID_PARAMETER and logs the reason using WPP for debugging purposes. For example, a driver might not support a specified resolution/refresh rate, or an invalid monitor might be specified.
+
+**IddCxAdapterDisplayConfigUpdate** returns STATUS_GRAPHICS_INDIRECT_DISPLAY_DEVICE_STOPPED if the session this configuration change is targeted to gets disconnected or if the session adapter is being stopped.
+
 ## -see-also
 
+[**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adaptersetrenderadapter.md)
