@@ -2,7 +2,7 @@
 UID: NA:checksumtypes
 title: Checksumtypes.h header
 ms.assetid: 191B3590-DB72-4E6F-B716-E536CE042E09
-ms.date: 01/30/19
+ms.date: 09/28/2020
 keywords: ["Checksumtypes.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
