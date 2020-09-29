@@ -12,6 +12,7 @@ metadata:
   ms.prod: windows-hardware
   ms.technology: windows-devices
   services: wdk
+  ms.custom: contperfq2
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 # TODO: move text blocks into other topics, use action phrases as titles (About x; Order, set up, copy, return; Manage device; View requirements; Troubleshoot)
