@@ -56,7 +56,7 @@ The filter engine calls a callout's
 
 [in]
 A pointer to an 
-     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure. This
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0">FWPS_INCOMING_VALUES0</a> structure. This
      structure contains the values for each of the data fields in the layer being filtered.
 
 ### -param inMetaValues 
@@ -180,7 +180,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0">FWPS_INCOMING_VALUES0</a>
 
 
 

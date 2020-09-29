@@ -51,7 +51,7 @@ product:
 
 ### -param ObjectAttributes
 
-Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that contains the file's attributes, including file name.
+Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-object_attributes) structure that contains the file's attributes, including file name.
 
 ### -param IoStatusBlock
 
@@ -104,4 +104,4 @@ Callers of **NtQueryInformationByName** must be running at IRQL = PASSIVE_LEVEL 
 
 [**NtQueryInformationFile**](./nf-ntifs-ntqueryinformationfile.md)
 
-[OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes)
+[OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-object_attributes)

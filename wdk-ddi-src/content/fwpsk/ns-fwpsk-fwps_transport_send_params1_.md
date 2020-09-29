@@ -106,7 +106,7 @@ typedef struct {
 
 An optional pointer to a buffer that contains socket control data specified by the 
       <a href="/windows/win32/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function. For information about the <b>WSACMSGHDR</b> type, see 
-      <a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
+      <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>.
 
 If present, socket control data is provided to a callout with the 
       <b>controlData</b> member of the 
@@ -139,7 +139,7 @@ The length, in bytes, of the
 
 ## -see-also
 
-<a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>
 
 
 
