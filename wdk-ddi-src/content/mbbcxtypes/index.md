@@ -18,5 +18,3 @@ f1_keywords:
 ---
 
 # Mbbcxtypes.h header
-
-

@@ -47,10 +47,10 @@ api_name:
 
 ## -description
 
-The 
-  <b>FwpsApplyModifiedLayerData0</b> function applies changes to layer-specific data made after a call to 
-  <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a>.
-<div class="alert"><b>Note</b>  <b>FwpsApplyModifiedLayerData0</b> is a specific version of <b>FwpsApplyModifiedLayerData</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The **FwpsApplyModifiedLayerData0** function applies changes to layer-specific data made after a call to [FwpsAcquireWritableLayerDataPointer0](nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md).
+
+> [!Note]
+> **FwpsApplyModifiedLayerData0** is a specific version of **FwpsApplyModifiedLayerData**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
 
 ## -parameters
 
@@ -58,71 +58,46 @@ The
 
 [in]
 The classification handle that identifies the callout driver's processing at the current layer.
-     This handle is obtained by calling 
-     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
-     FwpsAcquireClassifyHandle0</a>.
+This handle is obtained by calling [FwpsAcquireClassifyHandle0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0).
 
 ### -param modifiedLayerData 
 
 [in]
-The data buffer obtained by calling 
-     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a> with members modified by the callout driver. Supported data
-     types are defined as structures.
+The data buffer obtained by calling [FwpsAcquireWritableLayerDataPointer0](nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md) with members modified by the callout driver. Supported data types are defined as structures.
 
-### -param flags 
+### -param flags
 
 [in]
 
-      The options to use with this function call. This flag can have the following
-      value.
+The options to use with this function call. This flag can have the following value.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS"></a><a id="fwps_classify_flag_reauthorize_if_modified_by_others"></a><dl>
-<dt><b>FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-When set, this flag specifies that data at the layer of the pended classify action should be reauthorized if another callout driver modifies the data before the classification is completed. Use this flag only with pended classify and not inline classify, as its use with inline classify can lead to indeterminate results. If you do call this API for inline classify, set flags to zero.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|**FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS**|When set, this flag specifies that data at the layer of the pended classify action should be reauthorized if another callout driver modifies the data before the classification is completed. Use this flag only with pended classify and not inline classify, as its use with inline classify can lead to indeterminate results. If you do call this API for inline classify, set flags to zero.|
 
 ## -remarks
 
-<b>FwpsApplyModifiedLayerData0</b> should be called once for every call made to 
-    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a>, even if the callout driver didn't modify any data.
+**FwpsApplyModifiedLayerData0** should be called once for every call made to[FwpsAcquireWritableLayerDataPointer0](nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md), even if the callout driver didn't modify any data.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
+[FWPS_BIND_REQUEST0](ns-fwpsk-_fwps_bind_request0.md)
+
+[FWPS_CONNECT_REQUEST0](ns-fwpsk-_fwps_connect_request0.md)
+
+
+[FWPS_FILTER1](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1)
+
+
+[FwpsAcquireClassifyHandle0](nf-fwpsk-fwpsacquireclassifyhandle0.md)
+
+
+[FwpsAcquireWritableLayerDataPointer0](nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_connect_request0">FWPS_CONNECT_REQUEST0</a>
+[FwpsReleaseClassifyHandle0](nf-fwpsk-fwpsreleaseclassifyhandle0.md)
 
 
 
-<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">FwpsAcquireClassifyHandle0</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
-   FwpsAcquireWritableLayerDataPointer0</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+[classifyFn](/windows-hardware/drivers/ddi/_netvista/)
