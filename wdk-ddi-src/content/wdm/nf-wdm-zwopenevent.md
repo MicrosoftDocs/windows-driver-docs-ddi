@@ -123,7 +123,7 @@ The <i>ObjectAttributes</i> structure was not supplied or contained an invalid p
 </dl>
 </td>
 <td width="60%">
-The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure that was invalid. 
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was invalid. 
 
 </td>
 </tr>

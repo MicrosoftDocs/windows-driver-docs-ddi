@@ -120,7 +120,7 @@ Indicates, when **TRUE**, that the HBA is a bus master. The Storport driver init
 
 ### -field MapBuffers
 
-Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the **MapBuffers** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md).
+Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the **MapBuffers** member of [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)).
 
 ### -field MaximumNumberOfTargets
 
@@ -132,11 +132,11 @@ A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initial
 
 ## -remarks
 
-Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
+Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
 
 ## -see-also
 
-[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)
+[**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1))
 
 [**HwStorInitialize**](nc-storport-hw_initialize.md)
 

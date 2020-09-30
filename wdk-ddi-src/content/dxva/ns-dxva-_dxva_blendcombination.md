@@ -66,7 +66,7 @@ This value cannot be equal to <b>wPictureSourceIndex</b> unless back-end hardwar
 
 ### -field PictureSourceRect16thPel
 
-Specifies the area of the source picture to be combined with the graphic image as a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure. Dimensions are specified in units of one-sixteenth of the distance between sample values of the luminance component. (In other words, the members in the RECT structure are fixed-point representations that have 28 bits before the binary point and 4 bits after the binary point.) This one-sixteenth sample accuracy allows <b>PictureSourceRect16thPel</b> to contain the same accuracy as the <i>frame_centre_horizontal_offset</i> and <i>frame_centre_vertical_offset</i> pan-scan variables in MPEG-2 video.
+Specifies the area of the source picture to be combined with the graphic image as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure. Dimensions are specified in units of one-sixteenth of the distance between sample values of the luminance component. (In other words, the members in the RECT structure are fixed-point representations that have 28 bits before the binary point and 4 bits after the binary point.) This one-sixteenth sample accuracy allows <b>PictureSourceRect16thPel</b> to contain the same accuracy as the <i>frame_centre_horizontal_offset</i> and <i>frame_centre_vertical_offset</i> pan-scan variables in MPEG-2 video.
 
 If the <b>bConfigPictureResizing</b> member of DXVA_ConfigAlphaCombine is zero, all dimensions in <b>PictureSourceRect16thPel</b> must be integer multiples of 16.
 
@@ -78,11 +78,11 @@ If the <b>bConfigPictureResizing</b> member of <a href="/windows-hardware/driver
 
 ### -field GraphicSourceRect
 
-Specifies the area of the source graphic image as a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure. This area is combined with the part of the source picture specified by <b>PictureSourceRect16thPel</b> to create the alpha-blended picture.
+Specifies the area of the source graphic image as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure. This area is combined with the part of the source picture specified by <b>PictureSourceRect16thPel</b> to create the alpha-blended picture.
 
 ### -field GraphicDestinationRect
 
-Specifies the area of the destination graphic image as a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure.
+Specifies the area of the destination graphic image as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure.
 
 If the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine is zero, the destination picture must have the same width and height as the area specified by <b>GraphicSourceRect</b>. If <b>GraphicDestinationRect</b> differs in size from <b>GraphicSourceRect</b>, the resampling method to be applied to the graphic image is not specified. However, the resampling method used should have a quality that is at least equivalent to a bilinear resampling of an AYUV surface that represents the blending information.
 
@@ -110,7 +110,7 @@ The following sections show the restrictions placed on the <b>left</b>, <b>right
 
 <h3><a id="ddk_dxva_blendcombination_gg"></a><a id="DDK_DXVA_BLENDCOMBINATION_GG"></a></h3>
 <h3><a id="RECT_Structure_Restrictions_for_PictureSourceRect16thPel"></a><a id="rect_structure_restrictions_for_picturesourcerect16thpel"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTURESOURCERECT16THPEL"></a>RECT Structure Restrictions for PictureSourceRect16thPel</h3>
-The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
+The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
 
 <ul>
 <li>
@@ -151,7 +151,7 @@ For example, if <b>PictureSourceRect16thPel</b> is used to select an entire MPEG
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_PictureDestinationRect"></a><a id="rect_structure_restrictions_for_picturedestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTUREDESTINATIONRECT"></a>RECT Structure Restrictions for PictureDestinationRect</h3>
-The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> dimensions for <b>PictureDestinationRect</b>:
+The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> dimensions for <b>PictureDestinationRect</b>:
 
 <ul>
 <li>
@@ -163,7 +163,7 @@ The following restrictions apply to the <a href="/windows/win32/api/windef/ns-wi
 
 </li>
 <li>
-If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b> (only allowed if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero), all of the <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> members must have the value zero and <b>PictureSourceRect16thPel</b> must also specify all values having the value zero.
+If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b> (only allowed if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero), all of the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> members must have the value zero and <b>PictureSourceRect16thPel</b> must also specify all values having the value zero.
 
 </li>
 <li>
@@ -176,7 +176,7 @@ If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine is 1, <b>right<
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_GraphicSourceRect"></a><a id="rect_structure_restrictions_for_graphicsourcerect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICSOURCERECT"></a>RECT Structure Restrictions for GraphicSourceRect</h3>
-If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphaload">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>GraphicSourceRect</b>:
+If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphaload">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> dimensions of <b>GraphicSourceRect</b>:
 
 <ul>
 <li>
@@ -213,7 +213,7 @@ If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>,
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_GraphicDestinationRect"></a><a id="rect_structure_restrictions_for_graphicdestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICDESTINATIONRECT"></a>RECT Structure Restrictions for GraphicDestinationRect</h3>
-The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
+The following restrictions apply to the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
 
 <ul>
 <li><b>left</b> and <b>top</b> must be greater than or equal to zero, unless this requirement conflicts with the need to offset the graphic by eight samples. This is the case in the following scenarios:<ul>
@@ -299,4 +299,4 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

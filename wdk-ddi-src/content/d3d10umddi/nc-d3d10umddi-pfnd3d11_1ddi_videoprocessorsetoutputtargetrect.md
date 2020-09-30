@@ -74,7 +74,7 @@ If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> paramet
 
 *pOutputRect* [in]
 
-A  pointer to a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the target rectangle. 
+A  pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the target rectangle. 
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
 
@@ -95,4 +95,4 @@ If this function is never called, or if the <i>Enable</i> parameter is FALSE, th
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

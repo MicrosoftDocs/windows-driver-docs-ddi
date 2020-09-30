@@ -66,19 +66,19 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 ### -field DstPoint
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
+[in] A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that describes the destination point where the source texture is copied.
 
 ### -field SrcRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the source texture to copy to the destination point.
 
 ## -see-also
 
-<a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
 
 
 

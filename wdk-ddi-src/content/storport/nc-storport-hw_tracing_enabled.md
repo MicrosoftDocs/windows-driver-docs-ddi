@@ -76,5 +76,5 @@ HW_TRACING_ENABLED (
 
 ## -see-also
 
-[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)
+[**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1))
 

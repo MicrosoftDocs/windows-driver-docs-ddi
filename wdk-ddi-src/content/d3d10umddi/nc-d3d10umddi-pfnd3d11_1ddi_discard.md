@@ -70,7 +70,7 @@ A pointer to a handle to the resource or to the view that is to be discarded.
 
 *pRects* [in, optional]
 
-An optional array of <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
+An optional array of <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
 
 ### -param NumRects
 
@@ -78,7 +78,7 @@ The number of rectangles in the array that the  <i>pRects</i> parameter specifie
 
 ## -remarks
 
-The D3D10_DDI_RECT structure is defined as a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure.
+The D3D10_DDI_RECT structure is defined as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure.
 
 ```cpp
 typedef RECT D3D10_DDI_RECT;

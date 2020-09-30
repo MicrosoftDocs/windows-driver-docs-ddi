@@ -58,7 +58,7 @@ The D3DDDIARG_CAPTURETOSYSMEM structure describes the parameters of a bit-block 
 
 ### -field SrcRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the source rectangle.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the source rectangle.
 
 ### -field hDstResource
 
@@ -70,7 +70,7 @@ The D3DDDIARG_CAPTURETOSYSMEM structure describes the parameters of a bit-block 
 
 ### -field DstRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the destination rectangle.
 
 ## -remarks
 
@@ -86,4 +86,4 @@ Because the source resource that is specified by the <b>hSrcResource</b> member 
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
