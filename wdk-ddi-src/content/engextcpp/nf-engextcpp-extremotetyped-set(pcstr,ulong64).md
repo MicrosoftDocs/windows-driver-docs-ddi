@@ -71,7 +71,7 @@ This method does not return a value.
 
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set (PCSTR)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set (PCSTR)</a>
 
 
 

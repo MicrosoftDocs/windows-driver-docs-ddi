@@ -68,7 +68,7 @@ The typed data can also be set or changed using the following methods:
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 </li>
@@ -132,7 +132,7 @@ The typed data can also be set or changed using the following methods:
 
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 

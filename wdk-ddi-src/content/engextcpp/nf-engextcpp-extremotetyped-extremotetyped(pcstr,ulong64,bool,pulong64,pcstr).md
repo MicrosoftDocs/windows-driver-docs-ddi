@@ -83,7 +83,7 @@ For more information about <i>CacheCookie</i>, see the following methods:
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 </li>
@@ -152,7 +152,7 @@ The name of a field in the typed data that contains the pointer to the next item
 
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 
