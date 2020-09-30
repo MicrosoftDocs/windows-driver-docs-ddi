@@ -91,7 +91,7 @@ The initial state of the event object. Set to **TRUE** to initialize the event o
 | **STATUS_INSUFFICIENT_RESOURCES** | Resources required by this function could not be allocated. |
 | **STATUS_INVALID_PARAMETER**      | The supplied *ObjectAttributes* structure contained an invalid parameter value. |
 | **STATUS_INVALID_PARAMETER_4**    | The specified *EventType* parameter was invalid. |
-| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-object_attributes) structure that was invalid. |
+| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that was invalid. |
 | **STATUS_OBJECT_PATH_SYNTAX_BAD** | The *ObjectAttributes* parameter did not contain a **RootDirectory** member, but the **ObjectName** member in the **OBJECT_ATTRIBUTES** structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. |
 | **STATUS_PRIVILEGE_NOT_HELD**     | The caller did not have the required privilege to create a handle with the access specified in the *DesiredAccess* parameter. |
 

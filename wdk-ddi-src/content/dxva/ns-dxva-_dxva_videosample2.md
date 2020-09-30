@@ -88,7 +88,7 @@ Pointer to a <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">
 
 ### -field rcSrc
 
-Specifies a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
+Specifies a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
 
 ### -field rcDst
 
@@ -138,4 +138,4 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

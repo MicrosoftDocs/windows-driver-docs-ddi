@@ -54,7 +54,7 @@ The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware
 
 ### -field SrcRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
 The source rectangle can exceed the bounds of the source surface.
 
@@ -64,7 +64,7 @@ For more information, see the Remarks section.
 
 ### -field DstRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
 The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle.
 
@@ -153,4 +153,4 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

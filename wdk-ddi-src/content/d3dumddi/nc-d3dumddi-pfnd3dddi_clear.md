@@ -71,7 +71,7 @@ The number of rectangles in the array at <b>pRect</b> to be cleared. If the numb
 
 *pRect* [in]
 
- An array of <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures that indicate the rectangular areas of the buffer that the driver should clear.
+ An array of <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structures that indicate the rectangular areas of the buffer that the driver should clear.
 
 ## -returns
 
@@ -109,4 +109,4 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> > 0) and D3DC
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

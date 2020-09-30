@@ -122,7 +122,7 @@ Miniport driver should ignore this member.
 
 ### -field SrbExtension
 
-A pointer to the SRB extension. A miniport driver must not use this member if it set **SrbExtensionSize** to zero in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the [**StorPortGetPhysicalAddress**](nf-storport-storportgetphysicaladdress.md) routine.
+A pointer to the SRB extension. A miniport driver must not use this member if it set **SrbExtensionSize** to zero in the [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the [**StorPortGetPhysicalAddress**](nf-storport-storportgetphysicaladdress.md) routine.
 
 ### -field PowerAction
 

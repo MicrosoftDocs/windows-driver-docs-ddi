@@ -207,7 +207,7 @@ A pointer to the virtual miniport driver's [**HwStorCleanupTracing**](nc-storpor
 
 ## -remarks
 
-If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure instead of **VIRTUAL_HW_INITIALIZATION_DATA**.
+If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure instead of **VIRTUAL_HW_INITIALIZATION_DATA**.
 
 ## -see-also
 

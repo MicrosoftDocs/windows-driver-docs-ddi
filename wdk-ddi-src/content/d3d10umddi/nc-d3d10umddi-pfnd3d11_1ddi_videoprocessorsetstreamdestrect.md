@@ -80,7 +80,7 @@ If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> para
 
 *pDestRect* [in]
 
-A pointer to a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the destination rectangle.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the destination rectangle.
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div>
 <div> </div>
@@ -97,4 +97,4 @@ The default destination rectangle is an empty rectangle (0, 0, 0, 0). If the <i>
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
