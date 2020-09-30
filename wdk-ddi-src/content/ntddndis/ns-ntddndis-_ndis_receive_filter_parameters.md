@@ -111,23 +111,12 @@ The driver sets the
 
 A bitwise OR of the following flags.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE"></a><a id="ndis_receive_filter_packet_encapsulation_gre"></a><dl>
-<dt><b>NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-If this flag is set on the receive filter, the network adapter  must match this MAC address in the inner Ethernet frame in GRE encapsulated packets.
+|Version|Value|Meaning|
+|--- |--- |--- |
+|NDIS 6.50 and later|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in encapsulated packets.|
+NDIS 6.20 through NDIS 6.40|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in GRE encapsulated packets.|
 
-</td>
-</tr>
-</table>
+
 
 ### -field FilterType
 
