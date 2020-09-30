@@ -92,7 +92,7 @@ The cache cookie to use for caching the type information.  If <i>CacheCookie</i>
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 </li>
@@ -129,7 +129,7 @@ Specifies whether the list is singly-linked or doubly-linked.  If <i>Double</i> 
 
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 

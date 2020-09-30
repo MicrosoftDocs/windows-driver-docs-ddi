@@ -102,7 +102,7 @@ An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extrem
 
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
 
 
 
