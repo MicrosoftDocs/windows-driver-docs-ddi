@@ -64,7 +64,7 @@ Call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-net
 
 [Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
-[**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_packet_filter__capabilities_init.md)
+[**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_packet_filter_capabilities_init.md)
 
 [**NetAdapterWakeSetPacketFilterCapabilities**](../netadapter/nf-netadapter-netadapterwakesetpacketfiltercapabilities.md)
 
