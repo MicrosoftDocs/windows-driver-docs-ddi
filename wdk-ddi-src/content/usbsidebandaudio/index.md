@@ -16,11 +16,8 @@ f1_keywords:
 
 # Usbsidebandaudio.h header
 
-
-The header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows USB Audio Driver. 
+The header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows USB Audio Driver.
 
 For more information, see:
 
-- [Audio](../_audio/index.md)
-
-
+[Audio](../_audio/index.md)

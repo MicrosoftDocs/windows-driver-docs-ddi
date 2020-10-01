@@ -55,19 +55,19 @@ The **PCCONNECTION_DESCRIPTOR** structure describes a single data-path connectio
 
 ### -field FromNode
 
-Specifies a node ID. This member identifies the node on the upstream end of the connection. If this end of the connection is an input (sink) pin on the filter--not a logical pin on a node--set this member to the null node-ID value, [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)).
+Specifies a node ID. This member identifies the node on the upstream end of the connection. If this end of the connection is an input (sink) pin on the filter--not a logical pin on a node--set this member to the null node-ID value, [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)).
 
 ### -field FromNodePin
   
-Specifies a pin ID. This member identifies the pin on the upstream end of the connection. If the **FromNode** member is set to [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)), the pin on this end of the connection is an input (sink) pin on the filter. Otherwise, it is a logical pin on an internal node.
+Specifies a pin ID. This member identifies the pin on the upstream end of the connection. If the **FromNode** member is set to [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)), the pin on this end of the connection is an input (sink) pin on the filter. Otherwise, it is a logical pin on an internal node.
 
 ### -field ToNode
   
-Specifies a node ID. This member identifies the node on the downstream end of the connection. If this end of the connection is an output (source) pin on the filter--not a logical pin on a node--set this member to the null node-ID value, [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)).
+Specifies a node ID. This member identifies the node on the downstream end of the connection. If this end of the connection is an output (source) pin on the filter--not a logical pin on a node--set this member to the null node-ID value, [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)).
 
 ### -field ToNodePin
   
-Specifies a pin ID. This member identifies the pin on the downstream end of the connection. If the **ToNode** member is set to [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)), the pin on this end of the connection is an output (source) pin on the filter. Otherwise, it is a logical pin on an internal node.
+Specifies a pin ID. This member identifies the pin on the downstream end of the connection. If the **ToNode** member is set to [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)), the pin on this end of the connection is an output (source) pin on the filter. Otherwise, it is a logical pin on an internal node.
 
 ## -remarks
 
@@ -91,7 +91,7 @@ A simple node with a single input and a single output typically numbers its inpu
 
 More complex nodes might require standardized pin IDs in order to allow clients to more easily determine the assignment of functions to specific pins. For example, the [**KSNODETYPE_ACOUSTIC_ECHO_CANCEL**](https://msdn.microsoft.com/library/ff537150(v=vs.85)) node uses standardized IDs for its four pins.
 
-When the pin on one end of a connection is an input or output pin on the filter rather than a logical pin on a node, set the **FromNode** or **ToNode** member (depending on which end of the connection you are specifying) to the null node-ID value, [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)).
+When the pin on one end of a connection is an input or output pin on the filter rather than a logical pin on a node, set the **FromNode** or **ToNode** member (depending on which end of the connection you are specifying) to the null node-ID value, [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)).
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the **PCCONNECTION_DESCRIPTOR** structure. In this document, the term _pin_ refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 
@@ -99,11 +99,11 @@ The [**IMiniport::GetDescription**](/drivers/ddi/portcls/nf-portcls-iminiport-ge
 
 For a simple code example that shows how the **PCCONNECTION_DESCRIPTOR** structure is used, see [Exposing Filter Topology](https://msdn.microsoft.com/library/ff536378(v=vs.85)).
 
-The [**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)) constant is the null node ID for the **FromNode** or **ToNode** field in a **PCCONNECTION_DESCRIPTOR** structure.
+The [**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)) constant is the null node ID for the **FromNode** or **ToNode** field in a **PCCONNECTION_DESCRIPTOR** structure.
 
-If the structure's **FromNode** or **ToNode** member is set to[**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)), the pin on this end of the connection is an input or output pin on the filter. Otherwise, it is a logical pin on a node inside the filter.
+If the structure's **FromNode** or **ToNode** member is set to[**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)), the pin on this end of the connection is an input or output pin on the filter. Otherwise, it is a logical pin on a node inside the filter.
 
-[**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85)) is defined to be the value ((ULONG)-1).
+[**PCFILTER_NODE**](/previous-versions/ff537695(v=vs.85)) is defined to be the value ((ULONG)-1).
 
 ## -requirements
 
@@ -119,6 +119,6 @@ Portcls.h (include Portcls.h)
 
 [**KSTOPOLOGY_CONNECTION**](https://msdn.microsoft.com/library/ff567148(v=vs.85))
 
-[**PCFILTER_NODE**](https://msdn.microsoft.com/library/ff537695(v=vs.85))
+[**PCFILTER_NODE**](/previous-versions//ff537695(v=vs.85))
 
 [**PCFILTER_DESCRIPTOR**](https://msdn.microsoft.com/library/ff537694(v=vs.85))
