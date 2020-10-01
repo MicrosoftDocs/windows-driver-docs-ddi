@@ -47,40 +47,31 @@ api_name:
 
 ## -description
 
-The 
-  <b>FwpmEngineOpen0</b> function opens a session to the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmEngineOpen0</b> is a specific version of <b>FwpmEngineOpen</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The **FwpmEngineOpen0** function opens a session to the filter engine.
+> [!Note]
+> **FwpmEngineOpen0** is a specific version of **FwpmEngineOpen**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
 
 ## -parameters
 
 ### -param serverName 
 
 [in, optional]
-A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which
-     the session to the filter engine is opened. Callout drivers must specify <b>NULL</b> for this parameter.
+A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which the session to the filter engine is opened. Callout drivers must specify <b>NULL</b> for this parameter.
 
 ### -param authnService 
 
 [in]
-The authentication service to use. For a list of valid choices for this parameter, see
-     Authentication-Service Constants in the RPC section in the Microsoft Windows SDK documentation. Callout
-     drivers must specify either RPC_C_AUTHN_WINNT or RPC_C_AUTHN_DEFAULT for this parameter.
+The authentication service to use. For a list of valid choices for this parameter, see Authentication-Service Constants in the RPC section in the Microsoft Windows SDK documentation. Callout drivers must specify either RPC_C_AUTHN_WINNT or RPC_C_AUTHN_DEFAULT for this parameter.
 
 ### -param authIdentity 
 
 [in, optional]
-A pointer to a <b>SEC_WINNT_AUTH_IDENTITY_W</b> structure that contains the authentication and
-     authorization credentials for accessing the filter engine. This parameter is ignored when the 
-     <b>FwpmEngineOpen0</b> function is called from a callout driver. Callout drivers should set this
-     parameter to <b>NULL</b>.
+A pointer to a **SEC_WINNT_AUTH_IDENTITY_W** structure that contains the authentication and authorization credentials for accessing the filter engine. This parameter is ignored when the **FwpmEngineOpen0** function is called from a callout driver. Callout drivers should set this parameter to **NULL**.
 
 ### -param session 
 
 [in, optional]
-A pointer to an 
-     <a href="/previous-versions/windows/hardware/drivers/ff550083(v=vs.85)">FWPM_SESSION0</a> structure that defines
-     session-specific parameters for the session being opened. This pointer is optional and can be
-     <b>NULL</b>.
+A pointer to an [FWPM_SESSION0](/previous-versions/windows/hardware/drivers/ff550083(v=vs.85)) structure that defines session-specific parameters for the session being opened. This pointer is optional and can be **NULL**.
 
 ### -param engineHandle 
 
@@ -89,87 +80,48 @@ A pointer to a variable that receives a handle for the open session to the filte
 
 ## -returns
 
-The 
-     <b>FwpmEngineOpen0</b> function returns one of the following NTSTATUS codes.
+The **FwpmEngineOpen0** function returns one of the following NTSTATUS codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-A session to the filter engine was successfully opened. The variable pointed to by the 
-       <i>engineHandle</i> parameter contains a handle for the open session.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>Other status codes</b></dt>
-</dl>
-</td>
-<td width="60%">
-An error occurred.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**STATUS_SUCCESS**|A session to the filter engine was successfully opened. The variable pointed to by the _engineHandle_ parameter contains a handle for the open session.|
+|**Other status codes**|An error occurred.|
 
 ## -remarks
 
-A callout driver calls the 
-    <b>FwpmEngineOpen0</b> function to open a session to the filter engine. A handle to an open session to the
-    filter engine is a required parameter to most of the <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>
-<a href="https://answers.microsoft.com/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f"> management functions</a>.
+A callout driver calls the **FwpmEngineOpen0** function to open a session to the filter engine. A handle to an open session to the
+filter engine is a required parameter to most of the [Windows Filtering Platform management functions](/windows/win32/fwp/fwp-mgmt-functions).
 
-Callout drivers normally do not need to open a session to the filter engine because callout drivers
-    typically do not call any of the <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> management functions.
+Callout drivers normally do not need to open a session to the filter engine because callout drivers typically do not call any of the [Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page) management functions.
 
-For a callout driver to successfully open a session to the filter engine, the filter engine
-    must be currently running at the time that the callout driver calls the 
-    <b>FwpmEngineOpen0</b> function. A callout driver can call the 
-    <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0">FwpmBfeStateGet0</a> function to obtain the
-    current state of the filter engine. Before calling <b>FwpmBfeStateGet0</b>, the callout driver must call the 
-    <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that will be called whenever
-    there is a change in the state of the filter engine.
+For a callout driver to successfully open a session to the filter engine, the filter engine must be currently running at the time that the callout driver calls the **FwpmEngineOpen0** function. A callout driver can call the [FwpmBfeStateGet0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0) function to obtain the current state of the filter engine. Before calling **FwpmBfeStateGet0**, the callout driver must call the [FwpmBfeStateSubscribeChanges0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0) function to register a callback function that will be called whenever there is a change in the state of the filter engine.
 
-After a callout driver has finished accessing the filter engine, it calls the 
-    <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0">FwpmEngineClose0</a> function to close the
-    open session to the filter engine.
+After a callout driver has finished accessing the filter engine, it calls the [FwpmEngineClose0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0) function to close the open session to the filter engine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0">FwpmBfeStateGet0</a>
+[FwpmBfeStateGet0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
-   FwpmBfeStateSubscribeChanges0</a>
+[FwpmBfeStateSubscribeChanges0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
+[FwpmCalloutAdd0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a>
+[FwpmCalloutDeleteById0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
+[FwpmCalloutDeleteByKey0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0)
 
 
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0">FwpmEngineClose0</a>
+[FwpmEngineClose0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0)
 
 
 
-<a href="/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
-   Platform Functions</a>
+[Other Windows Filtering Platform Functions](/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions)

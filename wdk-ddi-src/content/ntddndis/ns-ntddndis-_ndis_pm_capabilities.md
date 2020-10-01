@@ -108,7 +108,7 @@ The miniport driver must be able to issue an <a href="/windows-hardware/drivers/
 
 </li>
 </ul>
-For more information about this power management capability, see <a href="/windows-hardware/drivers/network/ndis-wake-reason-status-indications-ref">NDIS Wake Reason Status Indications</a>.
+For more information about this power management capability, see <a href="/windows-hardware/drivers/network/overview-of-ndis-wake-reason-statue-indications">NDIS Wake Reason Status Indications</a>.
 
 
 
