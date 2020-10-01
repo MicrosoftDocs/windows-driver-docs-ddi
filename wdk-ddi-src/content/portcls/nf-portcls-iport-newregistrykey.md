@@ -89,14 +89,14 @@ If the RegistryKeyType parameter has the value GeneralRegistryKey, then the NewR
 
 The caller should set the RegistryKeyType parameter to one of the enumeration values shown in the following table.
 
-RegistryKeyType Value | Meaning 
-----------------------|-----------
-GeneralRegistryKey | Provide generic access to any key type. Opens the key if it exists or creates the key if it does not.
- DeviceRegistryKey | Open an existing key containing device-specific information.
- DriverRegistryKey |  Open an existing key containing driver-specific information.
- HwProfileRegistryKey | Open an existing key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific.
-DeviceInterfaceRegistryKey | Open an existing registry key containing information about a particular device-interface instance.
- 
+| RegistryKeyType Value      | Meaning                                                                                                                                                                                       |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GeneralRegistryKey         | Provide generic access to any key type. Opens the key if it exists or creates the key if it does not.                                                                                         |
+| DeviceRegistryKey          | Open an existing key containing device-specific information.                                                                                                                                  |
+| DriverRegistryKey          | Open an existing key containing driver-specific information.                                                                                                                                  |
+| HwProfileRegistryKey       | Open an existing key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. |
+| DeviceInterfaceRegistryKey | Open an existing registry key containing information about a particular device-interface instance.                                                                                            |
+
 For a RegistryKeyType value of GeneralRegistryKey, the caller must provide a valid ObjectAttributes parameter value, and the CreateOptions and Disposition parameters are optional. For any other RegistryKeyType value, the caller must provide a valid DeviceObject parameter value, and the CreateOptions and Disposition parameters are not used.
 
 The ObjectAttributes parameter points to an opaque structure of type OBJECT_ATTRIBUTES that contains object attributes such as key name and security descriptor. Use the InitializeObjectAttributes macro to initialize the structure. In the Attributes parameter for this macro, set the OBJ_KERNEL_HANDLE flag unless you intend to allow non-secure, user-mode applications to have read/write access to the registry key.

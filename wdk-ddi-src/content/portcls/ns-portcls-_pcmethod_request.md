@@ -121,6 +121,4 @@ The WDM audio subsystem does not currently support method requests.
 
 <a href="/previous-versions/ff537695(v=vs.85)">PCFILTER_NODE</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcmethod_item">PCMETHOD_ITEM</a>
