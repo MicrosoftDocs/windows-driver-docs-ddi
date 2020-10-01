@@ -72,5 +72,3 @@ This function, along with a few other set capability functions (see below), is t
 
 [NetAdapterSetLinkLayerCapabilities](nf-netadapter-netadaptersetlinklayercapabilities.md)
 
-[NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md)
-

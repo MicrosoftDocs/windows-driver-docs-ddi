@@ -172,17 +172,11 @@ An error occurred.
 
 ## -remarks
 
-A callout driver calls the 
-    <b>FwpmBfeStateSubscribeChanges0</b> function to register a callback function that is called whenever
-    there is a change to the state of the filter engine. 
+A callout driver calls the <b>FwpmBfeStateSubscribeChanges0</b> function to register a callback function that is called whenever
+there is a change to the state of the filter engine. 
 
-For example, a callout driver cannot open a session to the filter
-    engine by calling  the <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function unless the filter engine is currently running. A callout driver can use the <b>FWPM_SERVICE_RUNNING</b>
-    notification to open a session to the filter engine so that it can make calls to the other Windows
-    Filtering Platform 
-    <a href="https://answers.microsoft.com/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f">management functions</a>. Similarly, a
-    callout driver can use the <b>FWPM_SERVICE_STOP_PENDING</b> notification to perform any cleanup before the
-    filter engine is stopped.
+For example, a callout driver cannot open a session to the filter engine by calling  the <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function unless the filter engine is currently running. A callout driver can use the <b>FWPM_SERVICE_RUNNING</b> notification to open a session to the filter engine so that it can make calls to the other [Windows
+Filtering Platform management functions](/windows/win32/fwp/fwp-mgmt-functions). Similarly, a callout driver can use the <b>FWPM_SERVICE_STOP_PENDING</b> notification to perform any cleanup before the filter engine is stopped.
 
 A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling the <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0">FwpmBfeStateGet0</a> function to retrieve the current state of the filter engine. After  the call to <b>FwpmBfeStateSubscribeChanges0</b> returns, the callout driver can call 
     <b>FwpmBfeStateGet0</b> at any time.
