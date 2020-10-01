@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The **PCCONNECTION_DESCRIPTOR** structure describes a single data-path connection inside a KS filter. A filter's internal topology can be specified by an array of **PCCONNECTION_DESCRIPTOR** structures. A WDM audio adapter driver returns an array of these structures in response to a [**IMiniport::GetDescription**](https://msdn.microsoft.com/library/ff536765(v=vs.85)) call or a [**KSPROPERTY_TOPOLOGY_CONNECTIONS**](https://msdn.microsoft.com/library/ff565802(v=vs.85)) get-property request. **PCCONNECTION_DESCRIPTOR** is an alias for [**KSTOPOLOGY_CONNECTION**](https://msdn.microsoft.com/library/ff567148(v=vs.85)).
+The **PCCONNECTION_DESCRIPTOR** structure describes a single data-path connection inside a KS filter. A filter's internal topology can be specified by an array of **PCCONNECTION_DESCRIPTOR** structures. A WDM audio adapter driver returns an array of these structures in response to a [**IMiniport::GetDescription**](/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription) call or a [**KSPROPERTY_TOPOLOGY_CONNECTIONS**](/windows-hardware/drivers/stream/ksproperty-topology-connections) get-property request. **PCCONNECTION_DESCRIPTOR** is an alias for [**KSTOPOLOGY_CONNECTION**](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection).
 
 ## -struct-fields
 
@@ -95,7 +95,7 @@ When the pin on one end of a connection is an input or output pin on the filter 
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the **PCCONNECTION_DESCRIPTOR** structure. In this document, the term _pin_ refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 
-The [**IMiniport::GetDescription**](https://msdn.microsoft.com/library/ff536765(v=vs.85)) method outputs a [**PCFILTER_DESCRIPTOR**](https://msdn.microsoft.com/library/ff537694(v=vs.85)) structure that contains a pointer to a **PCCONNECTION_DESCRIPTOR** array.
+The [**IMiniport::GetDescription**](/drivers/ddi/portcls/nf-portcls-iminiport-getdescription) method outputs a [**PCFILTER_DESCRIPTOR**](https://msdn.microsoft.com/library/ff537694(v=vs.85)) structure that contains a pointer to a **PCCONNECTION_DESCRIPTOR** array.
 
 For a simple code example that shows how the **PCCONNECTION_DESCRIPTOR** structure is used, see [Exposing Filter Topology](https://msdn.microsoft.com/library/ff536378(v=vs.85)).
 
