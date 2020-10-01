@@ -72,6 +72,7 @@ Specifies the type of caching that the client requests for the audio buffer. Thi
 ## -returns
 
 This method returns NTSTATUS. AllocateAudioBuffer returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error status code. The following table shows some of the possible error status codes.
+
 | Return code                   | Description                                                                 |
 | ----------------------------- | --------------------------------------------------------------------------- |
 | STATUS_UNSUCCESSFUL           | The driver does not support the specified combination of buffer attributes. |
