@@ -58,7 +58,7 @@ This property is write-only.
 
 The **Value** (put_Value) property passes the new value as a Variant. Here is what the receiving function expects in the Variant type, and where the function will look for the new value, depending on the different parameter data types:
 
-|| Parameter DataType | Variant type | Variant value |
+| Parameter DataType | Variant type | Variant value |
 |--|--|--|
 | PrintSchemaParameterDataType_Integer | V_VT(pVar) is VT_I4 | V_I4(pVar) |
 | PrintSchemaParameterDataType_NumericString | V_VT(pVar) is VT_BSTR | V_BSTR(pVar) |

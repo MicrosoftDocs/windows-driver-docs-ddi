@@ -51,7 +51,7 @@ For more information about the four data types that you can use with the `<psf:P
 
 ## -see-also
 
-[IPrintSchemaElement](printerextension/nn-printerextension-iprintschemaelement.md)
+[IPrintSchemaElement](nn-printerextension-iprintschemaelement.md)
 
 [IPrintSchematicket2::GetParameterInitializer](nf-printerextension-iprintschematicket2-getparameterinitializer.md)
 
