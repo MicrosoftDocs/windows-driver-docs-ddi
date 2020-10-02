@@ -48,7 +48,7 @@ api_name:
 
 The **Value** (put_Value) property modifies the value of the [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md) object.
 
-In PrintTicket XML, that's the value of the `<psf:Value>` child element for the `<psf:ParameterInit>` element.
+In PrintTicket XML, that's the value of the **psf:Value** child element for the **psf:ParameterInit** element.
 
 This property is write-only.
 

@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md) object, and it  represents the `<psf:ParameterDef>` element in the PrintCapabilites XML.
+The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md) object, and it  represents the **psf:ParameterDef** element in the PrintCapabilites XML.
 
  The keyword name and keyword namespace URI specify the **IPrintSchemaParameterDefinition** object to be retrieved.
 
@@ -72,11 +72,11 @@ The **GetParameterDefinition** method returns an **HRESULT** value. If the prope
 
 ## -remarks
 
-To be consistent with [IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md), the **GetParameterDefinition** method works for any `<psf:ParameterDef>` element that is defined in the public keyword namespaces.  The **GetParameterDefinition** method also works for any IHV-defined  private keyword namespace that uses  either the StringParamType or the IntegerParamType data type.
+To be consistent with [IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md), the **GetParameterDefinition** method works for any **psf:ParameterDef** element that is defined in the public keyword namespaces.  The **GetParameterDefinition** method also works for any IHV-defined  private keyword namespace that uses  either the StringParamType or the IntegerParamType data type.
 
-When you use the `<psf:ParameterDef>` element with the QNameParamType or the DecimalParamType data type, **GetParameterDefinition** will return HRESULT_FROM_WIN32 (ERROR_NOT_SUPPORTED).
+When you use the **psf:ParameterDef** element with the QNameParamType or the DecimalParamType data type, **GetParameterDefinition** will return HRESULT_FROM_WIN32 (ERROR_NOT_SUPPORTED).
 
-For more information about the data types that you can use with the `<psf:ParameterDef>` element, see section 2.1.3.1 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
+For more information about the data types that you can use with the **psf:ParameterDef** element, see section 2.1.3.1 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
 
 ## -see-also
 
