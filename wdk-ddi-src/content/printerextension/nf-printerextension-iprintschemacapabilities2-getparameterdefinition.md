@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md) object, and it  represents the `<psf:ParameterDef\>` element in the PrintCapabilites XML.
+The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md) object, and it  represents the `<psf:ParameterDef>` element in the PrintCapabilites XML.
 
  The keyword name and keyword namespace URI specify the **IPrintSchemaParameterDefinition** object to be retrieved.
 
