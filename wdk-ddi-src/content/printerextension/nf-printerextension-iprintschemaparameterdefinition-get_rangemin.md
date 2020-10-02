@@ -5,7 +5,7 @@ description: The RangeMin property gets the minimum value of the allowed data ra
 old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 tech.root: print
 ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
-ms.date: 04/20/2018
+ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterDefinition::get_RangeMin"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition.get_RangeMin, IPrintSchemaParameterDefinition::RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
 req.header: printerextension.h
@@ -44,10 +44,9 @@ api_name:
 
 # IPrintSchemaParameterDefinition::get_RangeMin
 
-
 ## -description
 
-The <b>RangeMin</b> property gets the minimum value of the allowed data range.
+The **RangeMin** property gets the minimum value of the allowed data range.
 
 This property is read-only.
 
@@ -55,10 +54,10 @@ This property is read-only.
 
 ## -remarks
 
-For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by  <b>RangeMin</b> maps to the <psf:MinValue> property value of the Print Schema parameter definition. This minimum value shows the minimum integer value that the driver supports.
+For the **PrintSchemaParameterDataType_Integer** data type, the value returned by  **RangeMin** maps to the <psf:MinValue> property value of the Print Schema parameter definition. This minimum value shows the minimum integer value that the driver supports.
 
-For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the <psf:MinLength> property value of the Print Schema parameter definition. This minimum value shows the minimum length of string that the driver supports.
+For the **PrintSchemaParameterDataType_NumericString** and **PrintSchemaParameterDataType_String**  data types, this maps to the **psf:MinLength** property value of the Print Schema parameter definition. This minimum value shows the minimum length of string that the driver supports.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+[IPrintSchemaParameterDefinition](nn-printerextension-iprintschemaparameterdefinition.md)
