@@ -88,7 +88,7 @@ The SRB is expected to be completed when SCSI status is received. When the Storp
   * Storport discards the original Srb and issues a new Srb, including calls to **HwStorBuildIo** and **HwStorStartIo**. All data in the SrbExtension will be lost.
   * Because a new SRB is issued, the miniport must make sure that it never issues SRB_STATUS_BUSY in the middle of a SCSI transaction. After the transaction is started, it must be completed or canceled.  Hardware busy states during the transaction must be handled by the miniport driver.
 
-The name **HwStorStartIo** is a placeholder to describe the miniport routine set in the **HwStartIo** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure. This structure is passed in the *HwInitializationData* parameter of [**StorPortInitialize**](nf-storport-storportinitialize.md). The actual prototype of this routine is defined in Storport.h as follows:
+The name **HwStorStartIo** is a placeholder to describe the miniport routine set in the **HwStartIo** member of [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure. This structure is passed in the *HwInitializationData* parameter of [**StorPortInitialize**](nf-storport-storportinitialize.md). The actual prototype of this routine is defined in Storport.h as follows:
 
 ```cpp
 typedef

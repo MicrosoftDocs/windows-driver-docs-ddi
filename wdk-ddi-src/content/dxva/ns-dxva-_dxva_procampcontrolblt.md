@@ -58,7 +58,7 @@ Specifies the size of this structure in bytes.
 
 ### -field DstRect
 
-Specifies the destination rectangle as a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
+Specifies the destination rectangle as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
 
 ### -field SrcRect
 

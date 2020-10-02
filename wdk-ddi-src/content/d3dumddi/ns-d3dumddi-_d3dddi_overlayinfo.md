@@ -62,7 +62,7 @@ The D3DDDI_OVERLAYINFO structure describes information about an overlay.
 
 ### -field DstRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle, which contains the output coordinates for the display.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the destination rectangle, which contains the output coordinates for the display.
 
 ### -field SrcRect
 
@@ -110,7 +110,7 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
 
 
 

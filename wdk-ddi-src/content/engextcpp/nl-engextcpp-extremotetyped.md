@@ -85,7 +85,7 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">Set(pcstr)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">Set(pcstr)</a>
 
 
 </dd>

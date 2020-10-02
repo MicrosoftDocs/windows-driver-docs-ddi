@@ -63,7 +63,7 @@ System-assigned number of the I/O bus to which the HBA is connected. Miniport dr
 
 ### -field AdapterInterfaceType
 
-The I/O bus interface. Storport initializes this member to the value specified by the miniport driver in the [**HW_INITIALIZATION_DATA**](./ns-storport-_hw_initialization_data~r1.md) structure. Miniport drivers must not modify this member.
+The I/O bus interface. Storport initializes this member to the value specified by the miniport driver in the [**HW_INITIALIZATION_DATA**](./(/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure. Miniport drivers must not modify this member.
 
 ### -field BusInterruptLevel
 
@@ -270,13 +270,13 @@ Storport does not follow SCSIPort's model (which re-initializes the device exten
 
 ### -field SpecificLuExtensionSize
 
-Size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](./ns-storport-_hw_initialization_data~r1.md) structure sent in the [**StorPortInitialize**](./nf-storport-storportinitialize.md) routine.
+Size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](./(/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure sent in the [**StorPortInitialize**](./nf-storport-storportinitialize.md) routine.
 
 Set this member to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as [**StorPortGetUncachedExtension**](./nf-storport-storportgetuncachedextension.md).
 
 ### -field SrbExtensionSize
 
-Size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](./ns-storport-_hw_initialization_data~r1.md) structure sent in the [**StorPortInitialize**](./nf-storport-storportinitialize.md) routine.
+Size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](./(/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure sent in the [**StorPortInitialize**](./nf-storport-storportinitialize.md) routine.
 
 Set this member before calling [**StorPortGetUncachedExtension**](./nf-storport-storportgetuncachedextension.md) to change the size of per-request storage based on **NumberOfPhysicalBreaks**. Set this member to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as **ScsiPortGetUncachedExtension**.
 
@@ -399,7 +399,7 @@ The Storport driver allocates and initializes this structure, supplies as much H
 
 [**ACCESS_RANGE**](./ns-storport-_access_range.md)
 
-[**HW_INITIALIZATION_DATA**](./ns-storport-_hw_initialization_data~r1.md)
+[**HW_INITIALIZATION_DATA**](./(/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1))
 
 [*HwMSInterruptRoutine*](./nc-storport-hw_message_signaled_interrupt_routine.md)
 
