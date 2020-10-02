@@ -41,7 +41,6 @@ product:
 
 # DXGKCB_REPORT_DIAGNOSTIC callback function
 
-
 ## -description
 
 Implemented by the kernel mode driver to report diagnostic logging.
@@ -54,7 +53,7 @@ A handle to a display device adapter.
 
 ### -param pDiagnostic
 
-Pointer to a [_DXGK_DIAGNOSTIC_HEADER](C:\drivers\wdk-ddi\wdk-ddi-src\content\dispmprt\ns-dispmprt-_dxgk_diagnostic_header.md) structure that contains the diagnostic event report.
+Pointer to a [DXGK_DIAGNOSTIC_HEADER](ns-dispmprt-_dxgk_diagnostic_header.md) structure that contains the diagnostic event report.
 
 ## -returns
 
@@ -80,8 +79,8 @@ DXGKCB_REPORT_DIAGNOSTIC DxgkcbReportDiagnostic;
 
 _IRQL_requires_same_ DxgkcbReportDiagnostic
 (
-	HANDLE DeviceHandle
-	IN_PDXGK_DIAGNOSTIC_HEADER pDiagnostic
+    HANDLE DeviceHandle
+    IN_PDXGK_DIAGNOSTIC_HEADER pDiagnostic
 )
 {...}
 
@@ -89,4 +88,3 @@ DXGKCB_REPORT_DIAGNOSTIC
 
 
 ```
-

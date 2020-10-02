@@ -37,7 +37,6 @@ dev_langs:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 **IOCTL_MIPI_DSI_QUERY_CAPS** retrieves the basic capabilities of the MIPI DSI interface exposed by the graphics driver, and identification information from the panel.
@@ -79,13 +78,13 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 Mobile Industry Processor Interface (MIPI) Digital Serial Interface(DSI) IOCTLs must be handled by the monitor, oem-panel, or port/miniport driver.
 
-The OEM panel driver should initialize by using **IOCTL_MIPI_DSI_QUERY_CAPS** which provides information to allow the OEM panel driver to verify driver support and provides the raw level 1 DDB data from the display to allow one panel driver to support multiple devices and to confirm that there is no mismatch. The capabilities are returned in a [**DXGK_DSI_CAPS**](../dispmprt/ns-dispmprt-dxgk_dsi_caps.md) structure. It is responsibility of the OEM panel driver to validate DSI capability, and compatibility with the panel since neither the graphics driver nor the OS has sufficient information to do so, particularly for any manufacturer defined or undefined elements.
+The OEM panel driver should initialize by using **IOCTL_MIPI_DSI_QUERY_CAPS** which provides information to allow the OEM panel driver to verify driver support and provides the raw level 1 DDB data from the display to allow one panel driver to support multiple devices and to confirm that there is no mismatch. The capabilities are returned in a [**DXGK_DSI_CAPS**](../dispmprt/ns-dispmprt-dxgkddi_dsi_caps.md) structure. It is responsibility of the OEM panel driver to validate DSI capability, and compatibility with the panel since neither the graphics driver nor the OS has sufficient information to do so, particularly for any manufacturer defined or undefined elements.
 
-The OS translates the query IOCTL into a call to [**DsiQueryCaps**](../dispmprt/nc-dispmprt_dxgk_dsicaps.md), passing in the target id of the monitor as input and the caps structure for output. The graphics driver should fill in the requested fields, using cached information if available since the data should be static. Since the OS needs the **TargetMaximumReturnPacketSize** value for packet validation, it may request the capabilities from the graphics driver before receiving a request from the panel driver.
+The OS translates the query IOCTL into a call to [**DsiQueryCaps**](../dispmprt/nc-dispmprt-dxgkddi_dsicaps.md), passing in the target id of the monitor as input and the caps structure for output. The graphics driver should fill in the requested fields, using cached information if available since the data should be static. Since the OS needs the **TargetMaximumReturnPacketSize** value for packet validation, it may request the capabilities from the graphics driver before receiving a request from the panel driver.
 
 ## -see-also
 
-[**DsiQueryCaps**](../dispmprt/nc-dispmprt_dxgk_dsicaps.md)
+[**DsiQueryCaps**](../dispmprt/nc-dispmprt-dxgkddi_dsicaps.md)
 
 [**DXGK_DSI_CAPS**](../dispmprt/ns-dispmprt-dxgk_dsi_caps.md)
 

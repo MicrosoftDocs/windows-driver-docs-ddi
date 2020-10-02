@@ -40,10 +40,9 @@ product:
 
 # _DXGKARGCB_PINFRAMEBUFFERFORSAVE structure
 
-
 ## -description
 
-Arguments used by the [DxgkcbPinFrameBufferForSave](C:\drivers\wdk-ddi\wdk-ddi-src\content\d3dkmddi\nc-d3dkmddi-dxgkcb_pinframebufferforsave.md) callback function, to pin frame buffer for save.
+Arguments used by the [DxgkcbPinFrameBufferForSave](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md) callback function, to pin frame buffer for save.
 
 ## -struct-fields
 
@@ -63,5 +62,4 @@ An MDL pointing to the pages of the frame buffer save area. These pages are guar
 
 ## -see-also
 
-[DxgkcbPinFrameBufferForSave](C:\drivers\wdk-ddi\wdk-ddi-src\content\d3dkmddi\nc-d3dkmddi-dxgkcb_pinframebufferforsave.md)
-
+[DxgkcbPinFrameBufferForSave](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md)

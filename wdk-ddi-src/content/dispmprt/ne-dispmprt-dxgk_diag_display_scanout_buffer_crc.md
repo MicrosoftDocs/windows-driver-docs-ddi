@@ -37,7 +37,6 @@ dev_langs:
 
 # DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC enumeration
 
-
 ## -description
 
 The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC** enum provides CRC information for the current buffer being scanned out during diagnostic data collection.
@@ -66,13 +65,13 @@ Driver should return this value if the hardware doesn't support calculating the 
 
 ## -remarks
 
-The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC** enum is a member of the [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_display_scanout_buffer_content.md) structure, which is passed as a member of the [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md) structure in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
+The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC** enum is a member of the [**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_scanout_buffer_content.md) structure, which is passed as a member of the [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md) structure in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
 
 If the hardware supports performing a CRC calculation on the final scanned out pixels then the driver should enable it. If the driver would need a reference black CRC to check against the current CRC then it should always cache the reference one. If the reference CRC depends on the current mode then it should change the reference on mode changes.
 
 ## -see-also
 
-[**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_display_scanout_buffer_content.md)
+[**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_scanout_buffer_content.md)
 
 [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM**](ns-dispmprt-dxgk_diag_display_scanout_buffer_histogram.md)
 
@@ -81,4 +80,3 @@ If the hardware supports performing a CRC calculation on the final scanned out p
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
-

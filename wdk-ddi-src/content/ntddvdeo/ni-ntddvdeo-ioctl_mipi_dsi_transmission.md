@@ -37,7 +37,6 @@ dev_langs:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 Mipi (mobile industry processor interface) DCS IOCLTs must be handled by the monitor, oem-panel, or port/miniport driver.
@@ -71,8 +70,7 @@ At least ```sizeof(DXGK_DSI_TRANSMISSION) + ((PacketCount - 1) * sizeof(DXGK_DSI
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -88,7 +86,7 @@ The OEM panel driver is responsible for ensuring that the transmissions it reque
 
 **IOCTL_MIPI_DSI_TRANSMISSION** is used to request a transmission to the peripheral containing one or more DSI packets. The panel driver must always initialize **TotalBufferSize**, **PacketCount** and the first three BYTES of each packet. The panel driver may override the default behavior using non-zero values for **TransmissionMode**, **ReportMipiErrors**, **ClearMipiErrors**, **SecondaryPort**, **ManufacturingMode** and **FinalCommandExtraPayload**. All uninitialized values must be set to zero.
 
-The OS will ensure that the sequence of DSI packets is well-formed, with valid info in all defined fields and correct buffer sizes. The OS is responsible for initializing the **FailedPacket** field to DXGK_DSI_INVALID_PACKET_INDEX so that further validation in the OS or driver only needs to set the field if a problem is found with a particular packet. If the [**DXGK_DSI_TRANSMISSION**](../dispmprt/ns-dispmprt-dxgk_dsi_transmission.md) is not well-formed, the OS will set the DXGK_HOST_DSI_INVALID_TRANSMISSION flag in the **HostErrors** field to distinguish this from other invalid params errors.
+The OS will ensure that the sequence of DSI packets is well-formed, with valid info in all defined fields and correct buffer sizes. The OS is responsible for initializing the **FailedPacket** field to DXGK_DSI_INVALID_PACKET_INDEX so that further validation in the OS or driver only needs to set the field if a problem is found with a particular packet. If the [**DXGK_DSI_TRANSMISSION**](../dispmprt/ns-dispmprt-dxgk_dsi_transmission.md) structure is not well-formed, the OS will set the DXGK_HOST_DSI_INVALID_TRANSMISSION flag in the **HostErrors** field to distinguish this from other invalid params errors.
 
 To be considered well-formed, the following must all be true:
 
@@ -119,9 +117,9 @@ Data type value | Description
 
 Generic read and write commands require understanding the panel specification so the expectation is that these commands can be used freely by the panel driver without causing problems for the graphics driver as long as the bus is not used excessively.  Similarly, DCS MCS commands are explicitly defined for manufacturer use so there should be no problem with interference between the graphics driver and the panel driver.
 
-For DCS UCS, undefined commands are not expected to be used by the graphics driver, so the OS will allow them to be used by the panel driver although there is clearly a risk that future [MIPI-DCS](#MIPI-DCS) spec changes define the command so MCS commands are preferred.
+For DCS UCS, undefined commands are not expected to be used by the graphics driver, so the OS will allow them to be used by the panel driver although there is clearly a risk that future [MIPI-DCS](https://www.mipi.org/specifications/display-command-set) spec changes define the command so MCS commands are preferred.
 
-Standardized DCS UCS commands will be used by the graphics driver during normal operation and are potentially usable by the panel driver so the risk of commands sent by the OEM panel driver causing problems with subsequent graphics driver commands needs to be mitigated.  To do this, the OS will parse DCS commands and reject packets which are expected to cause conflicts unless the OEM panel driver sets the `ManufacturingMode` flag and the OS confirms that the system is in manufacturing mode.  If the flag is set but the system is not in manufacturing mode, the transmission IOCTL will be completed with the [DXGK_HOST_DSI_INVALID_TRANSMISSION](#DXGK_HOST_DSI_INVALID_TRANSMISSION) flag set in the `HostErrors` field without calling the graphics driver.
+Standardized DCS UCS commands will be used by the graphics driver during normal operation and are potentially usable by the panel driver so the risk of commands sent by the OEM panel driver causing problems with subsequent graphics driver commands needs to be mitigated.  To do this, the OS will parse DCS commands and reject packets which are expected to cause conflicts unless the OEM panel driver sets the `ManufacturingMode` flag and the OS confirms that the system is in manufacturing mode.  If the flag is set but the system is not in manufacturing mode, the transmission IOCTL will be completed with the **DXGK_HOST_DSI_INVALID_TRANSMISSION** flag set in the `HostErrors` field without calling the graphics driver.
 
 Conditions which would require a fully defined transaction instead of using a transmission would be where:
 
@@ -170,7 +168,7 @@ UCS commands that the OS will reject
 
 Hex | Command
 --- | -------
-01h | soft_reset - note, this must be sent via an [IOCTL_MIPI_DSI_RESET](#IOCTL_MIPI_DSI_RESET)
+01h | soft_reset - note, this must be sent via an [IOCTL_MIPI_DSI_RESET](ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 10h | enter_sleep_mode
 11h | exit_sleep_mode
 12h | enter_partial_mode
@@ -208,7 +206,7 @@ A9h | read_PPS_continue
 
 ### Graphics Driver Implementation
 
-If the transmission passes OS validation, the OS passes the buffer to the graphics driver using [**DsiTransmission**](../dispmprt/nc-dispmprt_dxgk_dsitransmission.md).
+If the transmission passes OS validation, the OS passes the buffer to the graphics driver using [**DsiTransmission**](../dispmprt/nc-dispmprt-dxgkddi_dsitransmission.md).
 
 Adding OEM transmissions into an interface which is already being used to send both pixel and control data based on OS requests and the needs of peripheral control, inevitably means that the graphics driver will need to enhance its internal sequencing to ensure that this additional stream of packets can be incorporated correctly. The graphics driver must not reorder packets within a transmission from the OEM panel driver and must send the entire sequence uninterrupted and without interleaving of other packets. The graphics driver is not required to maintain the order of its own packets with respect to the time of arrival of OEM panel transmission request, so may elect to send packets to set up the following frame before (or after) sending an OEM panel transmission. If completion of a started OEM panel transmission threatens to cause critical packets to miss their time window, the driver should report the transmission as cancelled. If a transmission has not started but the driver expects it to cause critical packets to miss their time window, the driver should defer starting the transmission until the next blanking period.  If deferring an OEM panel transmission would cause it to have been waiting for more than two frames to start, the driver should report the transmission as dropped.
 
@@ -230,7 +228,7 @@ To ensure that output is returned to the caller to provide details of any errors
 
 ## -see-also
 
-[**DsiTransmission**](../dispmprt/nc-dispmprt_dxgk_dsitransmission.md)
+[**DsiTransmission**](../dispmprt/nc-dispmprt-dxgkddi_dsitransmission.md)
 
 [**DXGK_DSI_PACKET**](../dispmprt/ns-dispmprt-dxgk_dsi_packet.md)
 
