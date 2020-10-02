@@ -2,7 +2,7 @@
 UID: NC:iddcx.PFN_IDDCXGETVERSION
 title: PFN_IDDCXGETVERSION
 description: PFN_IDDCXGETVERSION is a pointer to a system-implemented function that gets the IddCx (Indirect Display Driver Class eXtension) version.
-ms.date: 09/24/2020
+ms.date: 09/28/2020
 ms.topic: language-reference
 tech.root: display
 ms.assetid: 06986111-4609-40ca-942c-126941817e8d
@@ -61,7 +61,7 @@ dev_langs:
 
 ## -remarks
 
-IDDs should not directly call the function that **PFN_IDDCXGETVERSION** points to. Instead, the IDD should call [**IddCxGetVersion**](nf-iddcx-iddcxgetversion.md) to get the IddCx version.
+An indirect display driver (IDD) should not use this pointer to directly call the function that it points to. IDDs should instead call [**IddCxGetVersion**](nf-iddcx-iddcxgetversion.md).
 
 ## -see-also
 
