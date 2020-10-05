@@ -58,23 +58,23 @@ The flags should be a combination of:
 
 | Flag | Description |
 | --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing GSO on IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing GSO on IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing GSO on IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing GSO on IPv6 packets with extensions |
+| NetAdapterOffloadLayer3FlagIPv4NoOptions | Set if the NIC is capable of performing GSO on IPv4 packets without options |
+| NetAdapterOffloadLayer3FlagIPv4WithOptions | Set if the NIC is capable of performing GSO on IPv4 packets with options |
+| NetAdapterOffloadLayer3FlagIPv6NoExtensions | Set if the NIC is capable of performing GSO on IPv6 packets without extensions |
+| NetAdapterOffloadLayer3FlagIPv6WithExtensions | Set if the NIC is capable of performing GSO on IPv6 packets with extensions |
 
 
 ### -field Layer4Flags
 
-Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully perform generic send offload (GSO) on. The `NetAdapterOffloadFlagTcpWithoutOptions` flag must be set if LSO is supported by the NIC. The `NetAdapterOffloadFlagUdp` flag must be set if USO is supported by the NIC.
+Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully perform generic send offload (GSO) on. The `NetAdapterOffloadLayer4FlagTcpNoOptions` flag must be set if LSO is supported by the NIC. The `NetAdapterOffloadLayer4FlagUdp` flag must be set if USO is supported by the NIC.
 
 The flags should be a combination of:
 
 | Flag | Description |
 | --- | --- |
-| NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of performing LSO on TCP packets without options |
-| NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of performing LSO on TCP packets with options |
-| NetAdapterOffloadFlagUdp | Set if the NIC is capable of performing USO on UDP packets |
+| NetAdapterOffloadLayer4FlagTcpNoOptions | Set if the NIC is capable of performing LSO on TCP packets without options |
+| NetAdapterOffloadLayer4FlagTcpWithOptions | Set if the NIC is capable of performing LSO on TCP packets with options |
+| NetAdapterOffloadLayer4FlagUdp | Set if the NIC is capable of performing USO on UDP packets |
 
 ### -field Layer4OffsetLimit
 
