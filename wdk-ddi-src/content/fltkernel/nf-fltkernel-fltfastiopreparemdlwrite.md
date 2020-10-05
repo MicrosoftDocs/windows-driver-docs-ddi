@@ -90,7 +90,7 @@ The <b>FltFastIoPrepareMdlWrite</b> routine returns <b>TRUE</b> if the operation
 
 ## -remarks
 
-<b>FltFastIoPrepareMdlWrite</b> is similar to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>, except that <b>FltFastIoPrepareMdlWrite</b> does not copy data to the cache. Instead, the physical pages that the caller will overwrite are locked in memory, and <b>FltFastIoPrepareMdlWrite</b> returns one or more memory descriptor lists (MDLs) that point to the specified byte range. The locked pages remain locked until the caller calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlwritecomplete">FltFastIoMdlWriteComplete</a>. Thus each call to <b>FltFastIoPrepareMdlWrite</b> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
+<b>FltFastIoPrepareMdlWrite</b> is similar to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>, except that <b>FltFastIoPrepareMdlWrite</b> does not copy data to the cache. Instead, the physical pages that the caller will overwrite are locked in memory, and <b>FltFastIoPrepareMdlWrite</b> returns one or more memory descriptor lists (MDLs) that point to the specified byte range. The locked pages remain locked until the caller calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlwritecomplete">FltFastIoMdlWriteComplete</a>.
 
 The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetsystemaddressformdlsafe">MmGetSystemAddressForMdlSafe</a>.
 
