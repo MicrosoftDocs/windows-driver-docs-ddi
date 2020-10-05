@@ -59,10 +59,6 @@ A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES*
 
 Flags specifying the layer 3 protocol variations that the NIC can successfully perform Tx checksum on.
 
-### -param Layer4Flags
-
-Flags specifying the layer 4 protocol variations that the NIC can successfully perform Tx checksum on.
-
 ### -param EvtAdapterOffloadSetTxChecksum
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback function.
