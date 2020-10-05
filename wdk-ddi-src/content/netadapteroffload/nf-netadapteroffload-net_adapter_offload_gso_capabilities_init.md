@@ -55,9 +55,13 @@ The **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** method initializes a [**NET_AD
 
 A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
 
-### -param TcpFlags
+### -param Layer3Flags
 
-Flags specifying the layer 3 protocols and TCP variations contained in packets that the NIC can successfully segment.
+Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully segment.
+
+### -param Layer4Flags
+
+Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully segment.
 
 ### -param MaximumOffloadSize
 

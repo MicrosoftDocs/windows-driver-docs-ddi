@@ -50,33 +50,30 @@ The **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES** structure describes a network inter
 
 The size of this structure, in bytes.
  
-### -field TcpFlags
+### -field Layer3Flags
 
-Flags specifying the layer 3 protocols and TCP variations contained in packets that the NIC can successfully perform large send offload (LSO) on. The `NetAdapterOffloadFlagTcpWithoutOptions` flag must be set if LSO is supported by the NIC.
+Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully perform generic send offload (GSO) on. 
 
 The flags should be a combination of:
 
 | Flag | Description |
 | --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing LSO on IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing LSO on IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing LSO on IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing LSO on IPv6 packets with extensions |
+| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing GSO on IPv4 packets without options |
+| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing GSO on IPv4 packets with options |
+| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing GSO on IPv6 packets without extensions |
+| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing GSO on IPv6 packets with extensions |
+
+
+### -field Layer4Flags
+
+Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully perform generic send offload (GSO) on. The `NetAdapterOffloadFlagTcpWithoutOptions` flag must be set if LSO is supported by the NIC. The `NetAdapterOffloadFlagUdp` flag must be set if USO is supported by the NIC.
+
+The flags should be a combination of:
+
+| Flag | Description |
+| --- | --- |
 | NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of performing LSO on TCP packets without options |
 | NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of performing LSO on TCP packets with options |
-
-### -field UdpFlags
-
-Flags specifying the layer 3 protocols and UDP variations contained in packets that the NIC can successfully perform UDP send offload (USO) on. The `NetAdapterOffloadFlagUdp` flag must be set if USO is supported by the NIC.
-
-The flags should be a combination of:
-
-| Flag | Description |
-| --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing USO on IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing USO on IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing USO on IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing USO on IPv6 packets with extensions |
 | NetAdapterOffloadFlagUdp | Set if the NIC is capable of performing USO on UDP packets |
 
 ### -field Layer4OffsetLimit
