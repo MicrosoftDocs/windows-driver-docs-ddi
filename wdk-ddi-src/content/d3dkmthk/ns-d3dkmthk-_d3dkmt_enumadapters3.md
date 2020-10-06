@@ -41,7 +41,6 @@ dev_langs:
 
 # D3DKMT_ENUMADAPTERS3 structure
 
-
 ## -description
 
 Supplies information about adapters on the system.
@@ -50,7 +49,13 @@ Supplies information about adapters on the system.
 
 ### -field Filter
 
-[in] A [**D3DKMT_ENUMADAPTERS_FILTER**](ns-d3dkmthk-_d3dkmdt_enumadapters_filter.md) union containing filter flags for the enumeration.
+[in] A **D3DKMT_ENUMADAPTERS_FILTER** union containing filter flags for the enumeration. The struct in **Filter** can be a bitwise OR of the following values. See Remarks for more information.
+
+| Value | Meaning |
+| ----- | ------- |
+| IncludeComputeOnly | When set, enumerate ComputeOnly adapters. |
+| IncludeDisplayOnly | When set, enumerate DisplayOnly adapters. |
+| Reserved           | Reserved; do not use.                     |
 
 ### -field NumAdapters
 
@@ -68,13 +73,15 @@ On input, **NumAdapters** specifies how many adapters can be returned in the emp
 
 ## -remarks
 
+Adapters will still be enumerated if no flags are set in **Filter**, but [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md) will enumerate fewer adapters than [**D3DKMTEnumAdapters2**](nf-d3dkmthk-d3dkmtenumadapters2.md). Specifically, **D3DKMTEnumAdapters3** will:
+
+- Leave out ComputeOnly adapters from the default enumeration, to avoid breaking applications.
+- Leave out DisplayOnly adapters from the default enumeration.
+
 ## -see-also
 
 [**D3DKMT_ADAPTERINFO**](ns-d3dkmthk-_d3dkmt_adapterinfo.md)
 
-[**D3DKMT_ENUMADAPTERS_FILTER**](ns-d3dkmthk-_d3dkmdt_enumadapters_filter.md)
-
 [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md)
 
 [**PFND3DKMT_ENUMADAPTERS3**](nc-d3dkmthk-pfnd3dkmt_enumadapters3.md)
-

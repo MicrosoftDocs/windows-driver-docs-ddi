@@ -47,7 +47,6 @@ api_name:
 
 # _STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
 
-
 ## -description
 
 The **STOR_DEVICE_CAPABILITIES_EX** structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
@@ -136,13 +135,13 @@ Reserved bits.
 
 When a miniport driver receives an SRB in its [**HwStorStartIo**](nc-storport-hw_startio.md) routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md) structure. If the **PnPAction** member of the SRB is **StorQueryCapabilities**, the miniport can return a **STOR_DEVICE_CAPABILITIES_EX** structure in the **DataBuffer** member of the SRB.
 
-The eject, removal, and install characteristics for the device are set in the **STOR_DEVICE_CAPABILITIES_EX** structure. To support the use of this structure, the miniport must set the  STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES flag in the  **FeatureSupport** flags member in [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) before calling [**StorPortInitialize**](nf-storport-storportinitialize.md).
+The eject, removal, and install characteristics for the device are set in the **STOR_DEVICE_CAPABILITIES_EX** structure. To support the use of this structure, the miniport must set the  STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES flag in the  **FeatureSupport** flags member in [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) before calling [**StorPortInitialize**](nf-storport-storportinitialize.md).
 
 ## -see-also
 
 [**DEVICE_CAPABILITIES**](../wdm/ns-wdm-_device_capabilities.md)
 
-[**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1))
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
 [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md)
 

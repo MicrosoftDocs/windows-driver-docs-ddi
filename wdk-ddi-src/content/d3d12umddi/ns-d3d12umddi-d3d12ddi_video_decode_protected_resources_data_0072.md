@@ -45,7 +45,7 @@ Data structure used to check for video decode protected resource support capabil
 
 ### -field NodeIndex
 
-[in] In multi-adapter operation, this value indicates which physical adapter of the device this operation applies to.
+[in] In multi-adapter operation, this value indicates which physical adapter of the device that this operation applies to.
 
 ### -field Configuration
 
@@ -57,7 +57,7 @@ Data structure used to check for video decode protected resource support capabil
 
 ## -remarks
 
-This structure is the data used when querying [**D3D12DDICAPS_TYPE_VIDEO_0072_DECODE_PROTECTED_RESOURCES**]((ne-d3d12umddi-d3d12ddicaps_type_video_0020.md)) via [**PFND3D12DDI_VIDEO_GETCAPS**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md).
+This structure is the data used when querying [**D3D12DDICAPS_TYPE_VIDEO_0072_DECODE_PROTECTED_RESOURCES**](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md) via [**PFND3D12DDI_VIDEO_GETCAPS**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md).
 
 See the [D3D Video Protected Resource Support Specification](https://microsoft.github.io/DirectX-Specs/d3d/D3D12_Video_ProtectedResourceSupport.html) for more information.
 
@@ -70,4 +70,3 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 [**D3D12DDICAPS_TYPE_VIDEO_0020**](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md)
 
 [**PFND3D12DDI_VIDEO_GETCAPS**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md)
-

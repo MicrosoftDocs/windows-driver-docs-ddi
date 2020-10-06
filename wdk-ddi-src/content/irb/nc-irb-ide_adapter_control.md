@@ -43,117 +43,43 @@ api_name:
 
 # IDE_ADAPTER_CONTROL callback function
 
-
 ## -description
 
-The <i>AtaAdapterControl</i> miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The *AtaAdapterControl* miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.
+
+> [!NOTE]
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -parameters
 
-### -param ControllerExtension 
+### -param ControllerExtension
 
-[in]
-A pointer to the controller extension.
+[in] A pointer to the controller extension.
 
-### -param ControlAction 
+### -param ControlAction
 
-[in]
-
-      One of five actions that the miniport driver must perform as defined in the following table.
+[in] One of five actions that the miniport driver must perform as defined in the following table.
   
+| ControlAction | Parameters | Description |
+| ------------- | ---------- | ----------- |
+| IdeStart     | IDE_CONTROLLER_CONFIGURATION | Indicates that the adapter is being started. The miniport driver should update the member in the [**IDE_CONTROLLER_CONFIGURATION**](ns-irb-_ide_controller_configuration.md) structure. If it is required, the miniport driver could obtain its hardware resources from the **IDE_CONTROLLER_CONFIGURATION** structure. |
+| IdeStop      | None | The miniport driver should stop using any resources that are allocated for this controller. Be aware that the port driver guarantees that all the channels that  are exposed by the adapter are stopped before it stops the adapter. |
+| IdePowerUp   | None | Indicates that the adapter is being turned on. Anything that does not persist across a power cycle must be configured during IdePowerUp. |
+| IdePowerDown | None | Indicates that the adapter is being turned off. |
+| IdeVendorDefined | None | Indicates that the miniport driver should perform a vendor-defined control action. |
 
-<table>
-<tr>
-<th>ControlAction</th>
-<th>Parameters</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-IdeStart
+### -param Parameters
 
-</td>
-<td>
-IDE_CONTROLLER_CONFIGURATION
-
-</td>
-<td>
-Indicates that the adapter is being started. The miniport driver should update the member in the <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a> structure. If it is required, the miniport driver could obtain its hardware resources from the <b>IDE_CONTROLLER_CONFIGURATION</b> structure.
-
-</td>
-</tr>
-<tr>
-<td>
-IdeStop
-
-</td>
-<td>
-None
-
-</td>
-<td>
-The miniport driver should stop using any resources that are allocated for this controller. Be aware that the port driver guarantees that all the channels that  are exposed by the adapter are stopped before it stops the adapter.
-
-</td>
-</tr>
-<tr>
-<td>
-IdePowerUp
-
-</td>
-<td>
-None
-
-</td>
-<td>
-Indicates that the adapter is being turned on. Anything that does not persist across a power cycle must be configured during IdePowerUp.  
-
-</td>
-</tr>
-<tr>
-<td>
-IdePowerDown
-
-</td>
-<td>
-None
-
-</td>
-<td>
-Indicates that the adapter is being turned off.
-
-</td>
-</tr>
-<tr>
-<td>
-IdeVendorDefined
-
-</td>
-<td>
-None
-
-</td>
-<td>
-Indicates that the miniport driver should perform a vendor-defined control action..
-
-</td>
-</tr>
-</table>
-
-### -param Parameters 
-
-[in, out]
-Parameters associated with the given action.
+[in, out] Parameters associated with the given action.
 
 ## -returns
 
-The miniport driver must return <b>TRUE</b> to acknowledge the completion of the requested action. A return value of <b>FALSE</b> indicates that the miniport driver was unable to complete the action successfully. A return value of <b>FALSE</b> for certain actions might cause the device installation to fail.
+The miniport driver must return **TRUE** to acknowledge the completion of the requested action. A return value of **FALSE** indicates that the miniport driver was unable to complete the action successfully. A return value of **FALSE** for certain actions might cause the device installation to fail.
 
 ## -remarks
 
-The port driver guarantees that there is no outstanding I/O on the adapter before it invokes the <i>AtaAdapterControl</i> routine.
+The port driver guarantees that there is no outstanding I/O on the adapter before it invokes the *AtaAdapterControl* routine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
+[**IDE_CONTROLLER_CONFIGURATION**](ns-irb-_ide_controller_configuration.md)

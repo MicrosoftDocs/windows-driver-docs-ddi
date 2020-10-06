@@ -42,7 +42,6 @@ dev_langs:
 
 # PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 callback function
 
-
 ## -description
 
 Queries the driver for resource requirements to build an acceleration structure.
@@ -51,34 +50,30 @@ Queries the driver for resource requirements to build an acceleration structure.
 
 ### -param Arg1
 
-A handle to the device.
+[in] A handle to the device.
 
 ### -param Arg2
 
-*_In_*
-
-Pointer to a [D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_inputs_0054.md) structure that contains the inputs.
+[in] Pointer to a [D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_inputs_0054.md) structure that contains the inputs.
 
 ### -param Arg3
 
-*_Out_*
-
-Pointer to a [D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054](ns-d3d12umddi-d3d12ddi_raytracing_acceleration_structure_prebuild_info_0054.md) structure that contains prebuild info.
+[out] Pointer to a [D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054](ns-d3d12umddi-d3d12ddi_raytracing_acceleration_structure_prebuild_info_0054.md) structure that contains prebuild info.
 
 ## -prototype
 
 ```cpp
 //Declaration
 
-PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054; 
+PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054;
 
 // Definition
 
-void Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054 
+void Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054
 (
-	D3D12DDI_HDEVICE Arg1
-	CONST D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054 *
-	D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 *
+    D3D12DDI_HDEVICE Arg1
+    CONST D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054 *
+    D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 *
 )
 {...}
 
@@ -86,10 +81,12 @@ void Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054
 
 ## -remarks
 
-The result of this callback function lets the application provide the correct amount of output storage and scratch storage to [BuildRaytracingAccelerationStructure](C:\Display\WorkingDDIs\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_build_raytracing_acceleration_structure_0054.md) given the same geometry.
-
+The result of this callback function lets the application provide the correct amount of output storage and scratch storage to [BuildRaytracingAccelerationStructure](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-buildraytracingaccelerationstructure) given the same geometry.
 
 This method is on the device as opposed to command list on the assumption that drivers must be able to calculate resource requirements for an acceleration structure build from only looking at the CPU visible portions of the call, without having to dereference any pointers to GPU memory containing actual vertex data, index data, etc.
 
 ## -see-also
 
+[D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_inputs_0054.md)
+
+[D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054](ns-d3d12umddi-d3d12ddi_raytracing_acceleration_structure_prebuild_info_0054.md)

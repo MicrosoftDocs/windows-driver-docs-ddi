@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MODE_BEHAVIOR_FLAGS
-title: _DXGK_MODE_BEHAVIOR_FLAGS (d3dkmddi.h)
+title: DXGK_MODE_BEHAVIOR_FLAGS (d3dkmddi.h)
 description: The high-level mode and setting behaviors which the OS may request.
 ms.assetid: 309de6f3-d699-475b-a667-9d16cdf779d9
 ms.date: 10/14/2019
@@ -38,8 +38,7 @@ product:
  - Windows
 ---
 
-# _DXGK_MODE_BEHAVIOR_FLAGS structure
-
+# DXGK_MODE_BEHAVIOR_FLAGS structure
 
 ## -description
 
@@ -65,7 +64,7 @@ Reserved.
 
 The following table describes how the driver should set the value of **ColorimetricControl** in the **Satisfied** and **NotSatisfied** members of the [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md) structure.
 
-|| Satisfied.ColorimetricControl | NotSatisfied.ColorimetricControl |
+| Driver support | Satisfied.ColorimetricControl | NotSatisfied.ColorimetricControl |
 |:-- | -- | -- |
 | Driver supports controlling the color enhancements and successfully changed the state requested in **Request.ColorimetricControl** | 1| 0|
 | Driver supports controlling the color enhancements but was unsuccessful in changing the state requested in **Request.ColorimetricControl** | 0| 1|
@@ -74,4 +73,3 @@ The following table describes how the driver should set the value of **Colorimet
 ## -see-also
 
 [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md)
-

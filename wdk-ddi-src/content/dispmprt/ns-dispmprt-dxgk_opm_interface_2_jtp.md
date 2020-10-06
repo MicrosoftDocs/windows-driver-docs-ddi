@@ -43,10 +43,9 @@ dev_langs:
 
 # DXGK_OPM_INTERFACE_2_JTP structure
 
-
 ## -description
 
-Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt_opm_interface_2.md) (JTP = January Technical Preview).
+Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt-dxgk_opm_interface_2.md) (JTP = January Technical Preview).
 
 ## -struct-fields
 
@@ -85,4 +84,3 @@ Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt_opm_interface_2.md) (JTP = January Te
 ## -remarks
 
 ## -see-also
-

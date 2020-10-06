@@ -44,56 +44,46 @@ api_name:
 
 # FltAllocateCallbackDataEx function
 
-
 ## -description
 
-The <b>FltAllocateCallbackDataEx</b> routine allocates a callback data structure and can preallocate memory for additional structures that a minifilter driver can use to initiate an I/O request.
+The **FltAllocateCallbackDataEx** routine allocates a callback data structure and can preallocate memory for additional structures that a minifilter driver can use to initiate an I/O request.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-An opaque instance pointer to the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque instance pointer to the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param FileObject 
+### -param FileObject
 
-[in, optional]
-A pointer to a file object to be used in the I/O operation. This parameter is optional and can be <b>NULL</b>.
+[in/optional] Pointer to a file object to be used in the I/O operation. This parameter is optional and can be **NULL**. Set **FileObject** to **NULL** if this is a CREATE operation.
 
-### -param Flags 
+### -param Flags
 
-[in]
-A value of zero or the following flag:
-
-        FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY
+[in] A value of zero or the following flag: FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY
 
 If this flag is set, the routine preallocates all the memory needed by the filter manager for additional structures to be used in an I/O request.
 
-### -param RetNewCallbackData 
+### -param RetNewCallbackData
 
-[out]
-A pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure.
+[out] Pointer to a caller-allocated variable that receives the address of the newly allocated callback data [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure.
 
 ## -returns
 
-The <b>FltAllocateCallbackDataEx</b> routine returns STATUS_SUCCESS on success or STATUS_INSUFFICIENT_RESOURCES if the routine encountered a pool allocation failure when attempting to allocate the callback data structure or if the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY flag is set and additional memory could not be allocated.
+The **FltAllocateCallbackDataEx** routine returns STATUS_SUCCESS on success or STATUS_INSUFFICIENT_RESOURCES if the routine encountered a pool allocation failure when attempting to allocate the callback data structure or if the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY flag is set and additional memory could not be allocated.
 
 ## -remarks
 
-If the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY flag is set, the routine allocates all the memory needed for additional filter manager structures to be used in a subsequent I/O request. Using this flag enables a minifilter to preallocate one or more callback data structures to be used for issuing I/O requests under low memory conditions or in situations where recovering from a memory allocation failure might be complicated. 
+If the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY flag is set, the routine allocates all the memory needed for additional filter manager structures to be used in a subsequent I/O request. Using this flag enables a minifilter to preallocate one or more callback data structures to be used for issuing I/O requests under low memory conditions or in situations where recovering from a memory allocation failure might be complicated.
 
-<div class="alert"><b>Note</b>   The additional allocated memory is for use by the filter manager. The file system or other filters can still fail the I/O request due to an out-of-memory condition.</div>
-<div> </div>
-Set <i>FileObject</i> to <b>NULL</b> if this is a CREATE operation.
+> [!NOTE]
+> The additional allocated memory is for use by the filter manager. The file system or other filters can still fail the I/O request due to an out-of-memory condition.
 
-<div class="alert"><b>Important</b>    The comments for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a> apply to <b>FltAllocateCallbackDataEx</b> as well. Review that information in order to select the correct routine for your design. </div>
-<div> </div>
+> [!IMPORTANT]
+> The comments for [**FltAllocateCallbackData**](nf-fltkernel-fltallocatecallbackdata.md) apply to **FltAllocateCallbackDataEx** as well. Review that information in order to select the correct routine for your design.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a>
+[**FltAllocateCallbackData**](nf-fltkernel-fltallocatecallbackdata.md)

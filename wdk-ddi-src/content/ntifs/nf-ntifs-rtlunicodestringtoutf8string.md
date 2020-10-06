@@ -42,7 +42,6 @@ product:
 
 # RtlUnicodeStringToUTF8String function (ntifs.h)
 
-
 ## -description
 
 **RtlUnicodeStringToUTF8String** converts the specified Unicode string into a UTF-8 string.
@@ -59,7 +58,7 @@ Pointer to the Unicode string to be converted to UTF-8.
 
 ### -param AllocateDestinationString
 
-Boolean value. When set TRUE, **RtlUnicodeStringToUTF8String** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUnicodeStringToUTF8String** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUTF8String**](nf-ntifs-rtlfreeutf8string.md).
+Boolean value. When set TRUE, **RtlUnicodeStringToUTF8String** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUnicodeStringToUTF8String** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUTF8String**](../wdm/nf-wdm-rtlfreeutf8string.md).
 
 ## -returns
 
@@ -82,11 +81,10 @@ The UTF-8 output string is null-terminated only if the Unicode input string is n
 
 The [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md) routine converts a UTF-8 string to a Unicode string.
 
-You can use the **RtlUnicodeStringToUTF8String** and [**RtlUTF8StringToUnicodeString**]((nf-ntifs-rtlutf8stringtounicodestring.md)) routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
+You can use the **RtlUnicodeStringToUTF8String** and [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md) routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
 
 ## -see-also
 
-[**RtlFreeUTF8String**](nf-ntifs-rtlfreeutf8string.md)
+[**RtlFreeUTF8String**](../wdm/nf-wdm-rtlfreeutf8string.md)
 
 [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md)
-

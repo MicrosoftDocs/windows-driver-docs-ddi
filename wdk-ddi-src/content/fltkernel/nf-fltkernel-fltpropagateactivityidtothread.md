@@ -43,82 +43,42 @@ api_name:
 
 # FltPropagateActivityIdToThread function
 
-
 ## -description
 
-The <b>FltPropagateActivityIdToThread</b> routine associates the activity ID from the  IRP in the minifilter's callback data with the current thread.
+The **FltPropagateActivityIdToThread** routine associates the activity ID from the  IRP in the minifilter's callback data with the current thread.
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData
 
-[in]
-A pointer to the callback data containing the request with an associated activity ID.
+[in] Pointer to the callback data containing the request with an associated activity ID.
 
 ### -param PropagateId
 
-<p>A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.</p>
+[in/out] Pointer to a caller allocated **GUID** that stores the activity ID for the current thread.
 
-### -param OriginalId 
+### -param OriginalId
 
-[out]
-On return, the <b>GUID</b> pointer referenced by <i>OriginalId</i> points to the activity ID that was previously set for the thread.
+[out] On return, the **GUID** pointer referenced by **OriginalId** points to the activity ID that was previously set for the thread.
 
 ## -returns
 
-<b>FltPropagateActivityIdToThread</b> returns one of the following <b>NTSTATUS</b> values.
+**FltPropagateActivityIdToThread** returns one of the following **NTSTATUS** values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The callback data does not contain a request for an IRP operation.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No activity ID is associated with the request in <i>CallbackData</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_NOT_SUPPORTED | The callback data does not contain a request for an IRP operation. |
+| STATUS_NOT_FOUND | No activity ID is associated with the request in **CallbackData**. |
+| STATUS_SUCCESS | An activity ID was returned in the **GUID** value pointed to by **OriginalId**. |
 
 ## -remarks
 
-The <b>FltPropagateActivityIdToThread</b> routine is  used by trace aware minifilters. A minifilter will use this routine to attach the activity ID from an IRP   to a worker thread processing I/O for the request.
+The **FltPropagateActivityIdToThread** routine is used by trace aware minifilters. A minifilter uses this routine to attach the activity ID from an IRP to a worker thread processing I/O for the request.
 
-    A minifilter must call <b>IoClearActivityIdThread</b> with the pointer in <i>OriginalId</i> before
-    returning control from the worker thread if the call to <b>FltPropagateActivityIdToThread</b> was successful.
+A minifilter must call **IoClearActivityIdThread** with the pointer in **OriginalId** before returning control from the worker thread if the call to **FltPropagateActivityIdToThread** was successful.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetactivityidcallbackdata">FltGetActivityIdCallbackData</a>
+[**FltGetActivityIdCallbackData**](nf-fltkernel-fltgetactivityidcallbackdata.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetactivityidcallbackdata">FltSetActivityIdCallbackData</a>
+[**FltSetActivityIdCallbackData**](nf-fltkernel-fltsetactivityidcallbackdata.md)

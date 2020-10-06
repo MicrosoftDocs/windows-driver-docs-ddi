@@ -45,7 +45,6 @@ api_name:
 
 # _DXGK_ALLOCATIONINFOFLAGS structure
 
-
 ## -description
 
 The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation.
@@ -54,7 +53,7 @@ The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation.
 
 ### -field CpuVisible
 
-[out] A UINT value that specifies whether the allocation is directly accessible by the CPU. The display miniport driver must set this flag for the user-mode display driver to successfully call the [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb) function on the allocation. If this flag is not set on the allocation, **pfnLockCb** returns an error.
+[out] A UINT value that specifies whether the allocation is directly accessible by the CPU. The display miniport driver must set this flag for the user-mode display driver to successfully call the [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md) function on the allocation. If this flag is not set on the allocation, **pfnLockCb** returns an error.
 
 Note that only the process that created a shared allocation can lock that allocation.
 
