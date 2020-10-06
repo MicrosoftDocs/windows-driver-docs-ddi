@@ -1,15 +1,15 @@
 ---
 UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM (netadapteroffload.h)
-description: The EvtNetAdapterOffloadSetRxChecksum callback function is implemented by the client driver to set changes in Rx checksum offload capabilities.
+description: The client driver implements the EvtNetAdapterOffloadSetRxChecksum callback function to set changes in Rx checksum offload capabilities.
 tech.root: netvista
 ms.assetid: 
-ms.date: 08/10/2020
+ms.date: 10/06/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM"
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -43,7 +43,7 @@ ms.custom: Fe
 
 ## -description
 
-The *EvtNetAdapterOffloadSetRxChecksum* callback function is implemented by the client driver to query changes in active Rx checksum offload capabilities and update the hardware accordingly.
+The client driver implements the *EvtNetAdapterOffloadSetRxChecksum* callback function to query changes in active Rx checksum offload capabilities and update the hardware accordingly.
 
 ## -prototype
 
@@ -67,11 +67,11 @@ VOID EvtNetAdapterOffloadSetRxChecksum
 
 ### -param Adapter
 
-A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Offload 
 
-A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
+[_In_] A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
 ## -remarks
 
@@ -80,8 +80,6 @@ Register your implementation of this callback function by setting the appropriat
 For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
 
 ## -see-also
-
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 

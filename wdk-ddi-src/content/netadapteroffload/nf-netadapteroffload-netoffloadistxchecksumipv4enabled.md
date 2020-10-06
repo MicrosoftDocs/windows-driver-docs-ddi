@@ -1,18 +1,16 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsTxChecksumIPv4Enabled
 title: NetOffloadIsTxChecksumIPv4Enabled function (netadapteroffload.h)
-author: windows-driver-content
-description: The NetOffloadIsTxChecksumIPv4Enabled method determines whether a net adapter has Tx IPv4 checksum offload enabled.
+description: The NetOffloadIsTxChecksumIPv4Enabled function determines whether a net adapter has Tx IPv4 checksum offload enabled.
 tech.root: netvista
-ms.assetid: c56d63ef-d111-44e3-a2e7-226bc45dc357
-ms.author: windowsdriverdev
-ms.date: 01/17/2019
+ms.assetid:
+ms.date: 10/06/2020
 keywords: ["NetOffloadIsTxChecksumIPv4Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsTxChecksumIPv4Enabled"
 ms.keywords: NetOffloadIsTxChecksumIPv4Enabled
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -46,24 +44,24 @@ targetos: Windows
 
 ## -description
 
-The **NetOffloadIsTxChecksumIPv4Enabled** method determines whether a net adapter has Tx IPv4 checksum offload enabled.
+The **NetOffloadIsTxChecksumIPv4Enabled** function determines whether a net adapter has Tx IPv4 checksum offload enabled.
 
 ## -parameters
 
 ### -param Offload
 
-A NETOFFLOAD object that represents the net adapter's Tx checksum capabilities.
+[_In_] A NETOFFLOAD object that represents the net adapter's Tx checksum capabilities.
 
 ## -returns
 
-Returns **TRUE** if Tx IPv4 checksum offload is enabled, or **FALSE** if it is not.
+Returns **TRUE** if Tx IPv4 checksum offload is enabled. Otherwise, returns **FALSE**.
 
 ## -remarks
 
-Client drivers typically call this method during their [*EvtNetAdapterOffloadSetTxChecksum*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback to test whether an updated set of active Tx checksum capabilities includes Tx IPv4 checksum offload.
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetTxChecksum*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback to test whether an updated set of active Tx checksum capabilities includes Tx IPv4 checksum offload.
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md)

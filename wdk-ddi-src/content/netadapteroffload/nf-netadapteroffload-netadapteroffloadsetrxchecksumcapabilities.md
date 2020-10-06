@@ -1,16 +1,16 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetRxChecksumCapabilities
 title: NetAdapterOffloadSetRxChecksumCapabilities function (netadapteroffload.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware Rx checksum offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware Rx checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 
-ms.date: 08/10/2020
+ms.date: 10/06/2020
 keywords: ["NetAdapterOffloadSetRxChecksumCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetRxChecksumCapabilities"
 ms.keywords: NetAdapterOffloadSetRxChecksumCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -44,25 +44,23 @@ ms.custom: Fe
 
 ## -description
 
-The **NetAdapterOffloadSetRxChecksumCapabilities** method sets the hardware Rx checksum offload capabilities of a network adapter.
+The **NetAdapterOffloadSetRxChecksumCapabilities** function sets the hardware Rx checksum offload capabilities of a network adapter.
 
 ## -parameters
 
 ### -param Adapter
 
-A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param HardwareCapabilities
+### -param Capabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure that describes the hardware's Rx checksum offload capabilities.
+[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure that describes the hardware's Rx checksum offload capabilities.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
-
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 

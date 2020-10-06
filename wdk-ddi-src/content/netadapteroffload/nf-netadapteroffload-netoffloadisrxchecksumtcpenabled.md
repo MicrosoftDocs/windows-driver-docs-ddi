@@ -1,18 +1,16 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsRxChecksumTcpEnabled
 title: NetOffloadIsRxChecksumTcpEnabled function (netadapteroffload.h)
-author: windows-driver-content
-description: The NetOffloadIsRxChecksumTcpEnabled method determines whether a net adapter has Rx TCP checksum offload enabled.
+description: The NetOffloadIsRxChecksumTcpEnabled function determines whether a net adapter has Rx TCP checksum offload enabled.
 tech.root: netvista
-ms.assetid: c56d63ef-d111-44e3-a2e7-226bc45dc357
-ms.author: windowsdriverdev
-ms.date: 01/17/2019
+ms.assetid:
+ms.date: 10/06/2020
 keywords: ["NetOffloadIsRxChecksumTcpEnabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRxChecksumTcpEnabled"
 ms.keywords: NetOffloadIsRxChecksumTcpEnabled
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -46,24 +44,24 @@ targetos: Windows
 
 ## -description
 
-The **NetOffloadIsRxChecksumTcpEnabled** method determines whether a net adapter has Rx TCP checksum offload enabled.
+The **NetOffloadIsRxChecksumTcpEnabled** function determines whether a net adapter has Rx TCP checksum offload enabled.
 
 ## -parameters
 
 ### -param Offload
 
-A NETOFFLOAD object that represents the net adapter's Rx checksum capabilities.
+[_In_] A NETOFFLOAD object that represents the net adapter's Rx checksum capabilities.
 
 ## -returns
 
-Returns **TRUE** if Rx TCP checksum offload is enabled, or **FALSE** if it is not.
+Returns **TRUE** if Rx TCP checksum offload is enabled. Otherwise, returns **FALSE**.
 
 ## -remarks
 
-Client drivers typically call this method during their [*EvtNetAdapterOffloadSetRxChecksum*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback to test whether an updated set of active Rx checksum capabilities includes Rx TCP checksum offload.
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetRxChecksum*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback to test whether an updated set of active Rx checksum capabilities includes Rx TCP checksum offload.
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md)

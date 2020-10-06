@@ -1,16 +1,16 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetTxChecksumCapabilities
 title: NetAdapterOffloadSetTxChecksumCapabilities function (netadapteroffload.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware Tx checksum offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware Tx checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 
-ms.date: 08/10/2020
+ms.date: 10/06/2020
 keywords: ["NetAdapterOffloadSetTxChecksumCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetTxChecksumCapabilities"
 ms.keywords: NetAdapterOffloadSetTxChecksumCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -44,25 +44,23 @@ ms.custom: Fe
 
 ## -description
 
-The **NetAdapterOffloadSetTxChecksumCapabilities** method sets the hardware Tx checksum offload capabilities of a network adapter.
+The **NetAdapterOffloadSetTxChecksumCapabilities** function sets the hardware Tx checksum offload capabilities of a network adapter.
 
 ## -parameters
 
 ### -param Adapter
 
-A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param HardwareCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
+[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
-
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 

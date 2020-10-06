@@ -4,13 +4,13 @@ title: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for Tx checksum offload.
 tech.root: netvista
 ms.assetid:
-ms.date: 08/10/2020
+ms.date: 10/06/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure"]
 f1_keywords:
  - "netadapteroffload/_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, 
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -90,8 +90,6 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD
 Call [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md) to initialize this structure. The client driver passes an initialized **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES** structure as a parameter to [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md).
 
 ## -see-also
-
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
