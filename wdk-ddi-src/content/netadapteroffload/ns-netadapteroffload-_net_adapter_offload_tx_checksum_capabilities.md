@@ -56,10 +56,10 @@ The flags should be a combination of:
 
 | Flag | Description |
 | --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing IPv4 checksum offload or TCP/UDP checksum offload on IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing Tx checksum offload on IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets with extensions |
+| NetAdapterOffloadLayer3FlagIPv4NoOptions | Set if the NIC is capable of performing IPv4 checksum offload or TCP/UDP checksum offload on IPv4 packets without options |
+| NetAdapterOffloadLayer3FlagIPv4WithOptions | Set if the NIC is capable of performing Tx checksum offload on IPv4 packets with options |
+| NetAdapterOffloadLayer3FlagIPv6NoExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets without extensions |
+| NetAdapterOffloadLayer3FlagIPv6WithExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets with extensions |
 
 ### -field Layer4Flags
 
@@ -69,10 +69,10 @@ The flags should be a combination of:
 
 | Flag | Description |
 | --- | --- |
-| NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of performing TCP checksum offload |
-| NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of performing Tx checksum offload on TCP packets with options |
-| NetAdapterOffloadFlagUdp | Set if the NIC is capable of performing UDP checksum offload |
-
+| NetAdapterOffloadLayer4FlagTcpNoOptions | Set if the NIC is capable of performing TCP checksum offload |
+| NetAdapterOffloadLayer4FlagTcpWithOptions | Set if the NIC is capable of performing Tx checksum offload on TCP packets with options |
+| NetAdapterOffloadLayer4FlagUdp | Set if the NIC is capable of performing UDP checksum offload |
+ 
 ### -field Layer3HeaderOffsetLimit
 
 The maximum layer 3 header offset that the NIC supports in bytes. This member is optional.
