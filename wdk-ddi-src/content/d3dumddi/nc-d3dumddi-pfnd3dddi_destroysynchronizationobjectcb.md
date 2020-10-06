@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnDestroySynchronizationObjectCb"
+ - PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB
+ - d3dumddi/PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +45,10 @@ product:
 
 # PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB callback function
 
+
 ## -description
 
-The <b>pfnDestroySynchronizationObjectCb</b> function destroys the synchronization object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a> function.
+The <b>pfnDestroySynchronizationObjectCb</b> function destroys the synchronization object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a> function.
 
 ## -parameters
 
@@ -58,7 +60,7 @@ A handle to a display device (that is, the graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroysynchronizationobject">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains a handle to the synchronization object to destroy.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroysynchronizationobject">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains a handle to the synchronization object to destroy.
 
 ## -returns
 
@@ -68,15 +70,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |S_OK|The synchronization object was successfully destroyed.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
- 
+
 
 This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroysynchronizationobject">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroysynchronizationobject">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a>

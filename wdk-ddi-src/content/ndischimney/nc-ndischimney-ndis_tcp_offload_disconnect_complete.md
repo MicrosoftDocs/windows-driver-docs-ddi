@@ -8,8 +8,6 @@ ms.assetid: e862d9fe-a60c-4397-95ce-62aa1ef17eae
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
-f1_keywords:
- - "ndischimney/NdisTcpOffloadDisconnectComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndischimney.h
-api_name:
-- NdisTcpOffloadDisconnectComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE
+ - ndischimney/NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisTcpOffloadDisconnectComplete
 ---
 
 # NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function
@@ -47,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 An offload target calls the 
   <b>NdisTcpOffloadDisconnectComplete</b> function to complete a disconnect request that was initiated by a
   previous call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
+  <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
   MiniportTcpOffloadDisconnect</a> function of the offload target.
-
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle that the offload target obtained in a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a single 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The offload
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The offload
      target obtained this pointer as an input parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
      MiniportTcpOffloadDisconnect</a> function.
 
-
 ## -remarks
-
-
 
 <b>Completing an Abortive Disconnect
     </b>
@@ -93,7 +85,7 @@ If the offload target issued an abortive disconnect, it must do the following be
 Complete all outstanding send requests on the connection with a status value of
       NDIS_STATUS_REQUEST_ABORTED. The offload target writes this status value to the 
       <b>Status</b> member of each NET_BUFFER_LIST structure in the linked list that it passes to the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">
+      <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">
       NdisTcpOffloadSendComplete</a> function.
 
 </li>
@@ -102,7 +94,7 @@ Write a status value to the
       <b>Status</b> member of the NET_BUFFER_LIST structure pointed to by the 
       <i>NetBufferList</i> pointer. A status value of NDIS_STATUS_SUCCESS indicates that the offload target
       successfully sent the RST segment. For a description of the allowable status values, see 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
 
 </li>
 </ul>
@@ -132,14 +124,14 @@ Write a status value to the
 <li>
 Specify the number of user data bytes that were sent and successfully acknowledged. The offload
       target does this by calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro with an 
+      <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro with an 
       <i>id</i> of 
       <b>TcpOffloadBytesTransferred</b>.
 
 </li>
 <li>
 Call the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
       NdisAdvanceNetBufferDataStart</a> function. The 
       <i>NetBufferList</i> parameter should point to the NET_BUFFER structure associated with the
       NET_BUFFER_LIST structure that the offload target passes to the 
@@ -154,49 +146,39 @@ Call the
 Note that the 
     <b>NdisTcpOffloadDisconnectComplete</b> function returns only the NET_BUFFER_LIST structure and associated
     structures that NDIS passed to the offload target's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
     MiniportTcpOffloadDisconnect</a> function. The 
     <b>NdisTcpOffloadDisconnectComplete</b> function cannot return NET_BUFFER_LIST structures that NDIS passed
     in previous calls to the offload target's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_send_handler">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_send_handler">
     MiniportTcpOffloadSend</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
    MiniportTcpOffloadDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
    NdisAdvanceNetBufferDataStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>

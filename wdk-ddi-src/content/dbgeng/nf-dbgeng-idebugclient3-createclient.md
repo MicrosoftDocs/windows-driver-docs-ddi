@@ -8,8 +8,6 @@ ms.assetid: 61733b3e-87e9-4bb1-bed0-44efeffd7e4f
 ms.date: 05/03/2018
 keywords: ["IDebugClient3::CreateClient"]
 ms.keywords: CreateClient, CreateClient method [Windows Debugging], CreateClient method [Windows Debugging],IDebugClient interface, CreateClient method [Windows Debugging],IDebugClient2 interface, CreateClient method [Windows Debugging],IDebugClient3 interface, CreateClient method [Windows Debugging],IDebugClient4 interface, CreateClient method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],CreateClient method, IDebugClient2 interface [Windows Debugging],CreateClient method, IDebugClient2::CreateClient, IDebugClient3 interface [Windows Debugging],CreateClient method, IDebugClient3.CreateClient, IDebugClient3::CreateClient, IDebugClient4 interface [Windows Debugging],CreateClient method, IDebugClient4::CreateClient, IDebugClient5 interface [Windows Debugging],CreateClient method, IDebugClient5::CreateClient, IDebugClient::CreateClient, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, dbgeng/IDebugClient2::CreateClient, dbgeng/IDebugClient3::CreateClient, dbgeng/IDebugClient4::CreateClient, dbgeng/IDebugClient5::CreateClient, dbgeng/IDebugClient::CreateClient, debugger.createclient
-f1_keywords:
- - "dbgeng/IDebugClient.CreateClient"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.CreateClient
-- IDebugClient2.CreateClient
-- IDebugClient3.CreateClient
-- IDebugClient4.CreateClient
-- IDebugClient5.CreateClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient3::CreateClient
+ - dbgeng/IDebugClient3::CreateClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.CreateClient
+ - IDebugClient2.CreateClient
+ - IDebugClient3.CreateClient
+ - IDebugClient4.CreateClient
+ - IDebugClient5.CreateClient
 ---
 
 # IDebugClient3::CreateClient
@@ -51,25 +50,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>CreateClient</b> method creates a new client object for the current thread.
-
 
 ## -parameters
 
+### -param Client 
 
-
-
-### -param Client [out]
-
+[out]
 Receives an interface pointer for the new client.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details. 
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details. 
 
 <table>
 <tr>
@@ -88,14 +80,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates a client that may be used in the current thread.
 
@@ -103,38 +89,28 @@ Clients are specific to the thread that created them.  Calls from other threads 
 
 All callbacks for a client are made in the thread with which the client was created.
 
-For more information about client objects and how they are used in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>.
-
-
-
+For more information about client objects and how they are used in the debugger engine, see <a href="/windows-hardware/drivers/debugger/client-objects">Client Objects</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugcreate">DebugCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugcreate">DebugCreate</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>

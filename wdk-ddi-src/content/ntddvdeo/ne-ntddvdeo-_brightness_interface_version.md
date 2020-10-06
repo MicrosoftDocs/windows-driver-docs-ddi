@@ -4,35 +4,39 @@ title: _BRIGHTNESS_INTERFACE_VERSION (ntddvdeo.h)
 description: Specifies the brightness interface versions.
 ms.assetid: 2d13834a-bed3-4906-9a5c-778864173641
 ms.date: 10/19/2018
-keywords: ["_BRIGHTNESS_INTERFACE_VERSION enumeration"]
-f1_keywords:
- - "ntddvdeo/_BRIGHTNESS_INTERFACE_VERSION"
+keywords: ["BRIGHTNESS_INTERFACE_VERSION enumeration"]
 ms.keywords: _BRIGHTNESS_INTERFACE_VERSION, BRIGHTNESS_INTERFACE_VERSION,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: BRIGHTNESS_INTERFACE_VERSION
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _BRIGHTNESS_INTERFACE_VERSION
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _BRIGHTNESS_INTERFACE_VERSION
+ - ntddvdeo/_BRIGHTNESS_INTERFACE_VERSION
+ - BRIGHTNESS_INTERFACE_VERSION
+ - ntddvdeo/BRIGHTNESS_INTERFACE_VERSION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _BRIGHTNESS_INTERFACE_VERSION
+product:
+ - Windows
 ---
 
 # _BRIGHTNESS_INTERFACE_VERSION enumeration
+
 
 ## -description
 

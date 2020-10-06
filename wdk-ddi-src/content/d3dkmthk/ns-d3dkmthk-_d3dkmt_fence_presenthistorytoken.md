@@ -5,10 +5,8 @@ description: The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence p
 old-location: display\d3dkmt_fence_presenthistorytoken.htm
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
+keywords: ["D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken
-f1_keywords:
- - "d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_FENCE_PRESENTHISTORYTOKEN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
+f1_keywords:
+ - _D3DKMT_FENCE_PRESENTHISTORYTOKEN
+ - d3dkmthk/_D3DKMT_FENCE_PRESENTHISTORYTOKEN
+ - D3DKMT_FENCE_PRESENTHISTORYTOKEN
+ - d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ---
 
 # _D3DKMT_FENCE_PRESENTHISTORYTOKEN structure
@@ -47,27 +48,14 @@ req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
 
 ## -description
 
-
 The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Key
 
-[in] A 64-bit value that specifies the key for the fence. 
-
+[in] A 64-bit value that specifies the key for the fence.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>

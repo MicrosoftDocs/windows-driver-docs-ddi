@@ -8,8 +8,6 @@ ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.date: 04/30/2018
 keywords: ["IoCancelIrp function"]
 ms.keywords: IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, kernel.iocancelirp, wdm/IoCancelIrp
-f1_keywords:
- - "wdm/IoCancelIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCancelIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCancelIrp
+ - wdm/IoCancelIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCancelIrp
 ---
 
 # IoCancelIrp function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCancelIrp</b> routine sets the cancel bit in a given IRP and calls the cancel routine for the IRP if there is one.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 A pointer to the IRP to be canceled.
-
 
 ## -returns
 
-
-
 <b>IoCancelIrp</b> returns <b>TRUE</b> if the IRP had a cancel routine and this routine was called. Otherwise, it returns <b>FALSE</b>. In either case, the IRP's cancel bit is set to <b>TRUE</b>. For more information, see Remarks.
 
-
-
-
 ## -remarks
-
-
 
 If the IRP has a cancel routine, <b>IoCancelIrp</b> sets the cancel bit and calls the cancel routine.
 
@@ -82,16 +69,6 @@ If a driver that does not own the IRP calls <b>IoCancelIrp</b>, the results are 
 
 An intermediate driver should not arbitrarily call <b>IoCancelIrp</b> unless that driver created the IRP passed in the call. Otherwise, the intermediate driver might cancel an IRP that some higher-level driver is tracking for purposes of its own.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>

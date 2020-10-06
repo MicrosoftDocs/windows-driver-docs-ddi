@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_subscribe_device_service_events.htm
 tech.root: netvista
 ms.assetid: 99A772EF-C67C-48B0-A3F9-0B32A14247D6
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure"]
+keywords: ["NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure"]
 ms.keywords: "*PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, ndiswwan/NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, ndiswwan/PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, netvista.ndis_wwan_subscribe_device_service_events"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, *PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+f1_keywords:
+ - _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - ndiswwan/_NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - ndiswwan/PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - ndiswwan/NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
 ---
 
 # _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, *PNDIS_WWAN_SUBSCRIBE_
 
 ## -description
 
-
 The NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure encapsulates data for OID_WWAN_SUBSCRIBE_DEVICE_SERVICES_EVENTS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,8 +102,7 @@ sizeof(NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field DeviceServiceListHeader
 
@@ -115,14 +112,6 @@ This is the list of device service that the MB service has subscribed for NDIS_S
 
 This member points to the list of the GUIDs (WwanStructDeviceServiceGuid) by using the WWAN_LIST_HEADER structure.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>

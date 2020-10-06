@@ -7,8 +7,6 @@ ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback function"]
 ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
-f1_keywords:
- - "d3d10umddi/ResourceResolveSubresource"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- ResourceResolveSubresource
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
+ - d3d10umddi/PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - ResourceResolveSubresource
 ---
 
 # PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>ResourceResolveSubresource</i> function resolves multiple samples to one pixel.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -92,14 +86,9 @@ An index that indicates the source subresource to resolve from.
 
 A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
 
-
-
 ## -remarks
 
-
-
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 
@@ -109,7 +98,7 @@ The driver can use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 The algorithm to resolve multiple samples to one pixel depends on the implementation. 
 
-The resolve operation shares similar restrictions to copy operations that occur in calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy">ResourceCopy</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion">ResourceCopyRegion</a> functions. That is, both source and destination resources must be the same type (for example, Texture2D), and no stretching or format conversions can occur. The driver can resolve only a whole subresource; therefore, both the source and destination subresources must be equal in dimensions. Because of typeless resources, the following interactions can exist with either the source or destination resource format: 
+The resolve operation shares similar restrictions to copy operations that occur in calls to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy">ResourceCopy</a> and <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion">ResourceCopyRegion</a> functions. That is, both source and destination resources must be the same type (for example, Texture2D), and no stretching or format conversions can occur. The driver can resolve only a whole subresource; therefore, both the source and destination subresources must be equal in dimensions. Because of typeless resources, the following interactions can exist with either the source or destination resource format: 
 
 <ul>
 <li>
@@ -126,23 +115,14 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy">ResourceCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy">ResourceCopy</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion">ResourceCopyRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion">ResourceCopyRegion</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>

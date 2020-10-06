@@ -8,8 +8,6 @@ ms.assetid: 8aa5a8a6-2024-4b3e-a500-5a484d937a62
 ms.date: 03/29/2018
 keywords: ["StorPortAcquireMSISpinLock function"]
 ms.keywords: StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], storage.storportacquiremsispinlock, storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml
-f1_keywords:
- - "storport/StorPortAcquireMSISpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortAcquireMSISpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortAcquireMSISpinLock
+ - storport/StorPortAcquireMSISpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortAcquireMSISpinLock
 ---
 
 # StorPortAcquireMSISpinLock function
@@ -47,106 +46,45 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortAcquireMSISpinLock</b> routine acquires the message signaled interrupt (MSI) spin lock that is associated with the specified message. 
-
+The **StorPortAcquireMSISpinLock** routine acquires the message signaled interrupt (MSI) spin lock that is associated with the specified message.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
-
 
 ### -param MessageId
 
-<p>The identifier of the message whose spin lock the caller acquires.</p>
+The identifier of the message whose spin lock the caller acquires.
 
+### -param OldIrql 
 
-### -param OldIrql [in]
-
-A pointer to the storage for the original IRQL value to be used in a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a>.
-
+[in]
+A pointer to the storage for the original IRQL value to be used in a subsequent call to [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md).
 
 ## -returns
 
+**StorPortAcquireMSISpinLock** returns one of the following values:
 
-
-<b>StorPortAcquireMSISpinLock</b> returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the spin lock was acquired successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>HwDeviceExtension</i> was <b>NULL</b>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| ----------- | ----------- |
+| **STOR_STATUS_NOT_IMPLEMENTED** | This function is not implemented on the active operating system. |
+| **STOR_STATUS_SUCCESS** | Indicates that the spin lock was acquired successfully. |
+| **STOR_STATUS_INVALID_PARAMETER** | The *HwDeviceExtension* was **NULL**. |
 
 ## -remarks
 
+A miniport driver calls the **StorPortAcquireMSISpinLock** routine to acquire the MSI spin lock for a particular message. To release the spin lock, the miniport driver calls the [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md) routine. This routine is used by a miniport drivers to acquire a  the MSI spin lock for an individual message only when the **InterruptSynchronizationMode** member of the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure is set to **InterruptSynchronizePerMessage**.
 
-
-A miniport driver calls the <b>StorPortAcquireMSISpinLock</b> routine to acquire the MSI spin lock for a particular message. To release the spin lock, the miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a> routine. This routine is used by a miniport drivers to acquire a  the MSI spin lock for an individual message only when the <b>InterruptSynchronizationMode</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure is set to <b>InterruptSynchronizePerMessage</b>.
-
-When a miniport needs to synchronize with all messages, it can use one call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a> which will acquire a lock for each message in the proper order.
-
-
-
+When a miniport needs to synchronize with all messages, it can use one call to [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md) which will acquire a lock for each message in the proper order.
 
 ## -see-also
 
+[**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
+[**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a>
- 
-
- 
+[**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
 

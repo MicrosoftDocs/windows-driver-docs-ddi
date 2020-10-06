@@ -8,8 +8,6 @@ ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
 ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
-f1_keywords:
- - "ndischimney/ProtocolTcpOffloadForwardComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- ProtocolTcpOffloadForwardComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER
+ - ndischimney/TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - ProtocolTcpOffloadForwardComplete
 ---
 
 # TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function
@@ -47,41 +46,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 NDIS calls a protocol or intermediate driver's 
   <i>ProtocolTcpOffloadForwardComplete</i> function to complete a forward operation that the driver previously
   initiated by calling the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpdisconnect">
+  <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpdisconnect">
   NdisOffloadTcpForward</a> function.
-
 
 ## -parameters
 
+### -param ProtocolBindingContext 
 
-
-
-### -param ProtocolBindingContext [in]
-
+[in]
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <b>NdisOffloadTcpForward</b> function.
 
-
 ## -remarks
-
-
 
 In response to an underlying driver's or offload target's call to the 
     <b>NdisOffloadTcpForwardComplete</b> function, NDIS calls the overlying protocol driver's or intermediate
@@ -110,33 +102,23 @@ In response, NDIS calls the overlying driver's or host stack's
     to the 
     <b>NdisOffloadTcpForwardComplete</b> function.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_forward_handler">MiniportTcpOffloadForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_forward_handler">MiniportTcpOffloadForward</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpforward">NdisOffloadTcpForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpforward">NdisOffloadTcpForward</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
    NdisTcpOffloadForwardComplete</a>
- 
-
- 
-

@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLastMcbEntry function"]
 ms.keywords: FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupLastMcbEntry"
+ - "FsRtlLookupLastMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlLookupLastMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlLookupLastMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a> instead.
+The <b>FsRtlLookupLastMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a> instead.
 
 
 ## -parameters
@@ -69,8 +68,3 @@ TBD
 ### -param Lbn
 
 TBD
-
-
-
-
-

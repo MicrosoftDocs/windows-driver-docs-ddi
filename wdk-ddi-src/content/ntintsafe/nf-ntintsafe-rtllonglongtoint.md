@@ -8,8 +8,6 @@ ms.assetid: CED66199-041A-432D-99C6-002D7BC83775
 ms.date: 04/30/2018
 keywords: ["RtlLongLongToInt function"]
 ms.keywords: RtlLongLongToInt, RtlLongLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoint, ntintsafe/RtlLongLongToInt
-f1_keywords:
- - "ntintsafe/RtlLongLongToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlLongLongToInt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlLongLongToInt
+ - ntintsafe/RtlLongLongToInt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlLongLongToInt
 ---
 
 # RtlLongLongToInt function
@@ -47,28 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>LONGLONG</b> to a value of type <b>INT</b>.
-
 
 ## -parameters
 
+### -param llOperand 
 
-
-
-### -param llOperand [in]
-
+[in]
 The value to be converted.
 
+### -param piResult 
 
-### -param piResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -92,5 +90,4 @@ This function uses the following alternate name:
 <li>RtlInt64ToInt32
 </li>
 </ul>
-
 

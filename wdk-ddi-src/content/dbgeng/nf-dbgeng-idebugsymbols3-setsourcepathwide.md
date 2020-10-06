@@ -8,8 +8,6 @@ ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::SetSourcePathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSourcePathWide method, IDebugSymbols3.SetSourcePathWide, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.SetSourcePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.SetSourcePathWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::SetSourcePathWide
+ - dbgeng/IDebugSymbols3::SetSourcePathWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.SetSourcePathWide
 ---
 
 # IDebugSymbols3::SetSourcePathWide
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetSourcePathWide</b>  method sets the source path.
-
 
 ## -parameters
 
+### -param Path 
 
-
-
-### -param Path [in]
-
+[in]
 Specifies the new source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.
-
 
 ## -returns
 
-
-
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -84,37 +76,21 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The source path is used by the engine when searching for source files.
 
-For more information about manipulating the source path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/source-path">Source Path</a>.
-
-
-
+For more information about manipulating the source path, see <a href="/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="/windows-hardware/drivers/debugger/source-path">Source Path</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendsourcepath">AppendSourcePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendsourcepath">AppendSourcePath</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepath">GetSourcePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepath">GetSourcePath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

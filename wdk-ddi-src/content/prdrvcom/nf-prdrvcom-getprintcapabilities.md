@@ -10,6 +10,7 @@ keywords: ["GetPrintCapabilities function"]
 ms.keywords: GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml
 f1_keywords:
  - "prdrvcom/IPrintTicketProvider.GetPrintCapabilities"
+ - "IPrintTicketProvider.GetPrintCapabilities"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintTicketProvider.GetPrintCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,13 +55,13 @@ The <code>IPrintTicketProvider::GetPrintCapabilities</code> method queries the p
 
 
 
-### -param pPrintTicket [in]
-
+### -param pPrintTicket 
+[in]
 A pointer to the print ticket. The settings of the print ticket constrain the device capabilities.
 
 
-### -param ppCapabilities [out]
-
+### -param ppCapabilities 
+[out]
 A pointer to a variable that receives the address of the device capabilities document. 
 
 

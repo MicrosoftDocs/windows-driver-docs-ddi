@@ -8,8 +8,6 @@ ms.assetid: 177AF27E-3EBA-4D43-BAF2-11834784F762
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function"]
 ms.keywords: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], buses.ucm_connector_pd_conn_state_changed_params_init, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
-f1_keywords:
- - "ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmmanager.h
-api_name:
-- UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+ - ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmmanager.h
+api_name:
+ - UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
 ---
 
 # UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
-
+Initializes a <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
 
 ## -parameters
 
+### -param Params 
 
+[out]
+Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
 
+### -param PdConnState 
 
-### -param Params [out]
-
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
-
-
-### -param PdConnState [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_pd_conn_state">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
-
+[in]
+A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_pd_conn_state">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpdconnectionstatechanged">UcmConnectorPdConnectionStateChanged</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpdconnectionstatechanged">UcmConnectorPdConnectionStateChanged</a>

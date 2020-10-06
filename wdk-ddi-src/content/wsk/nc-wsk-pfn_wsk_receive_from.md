@@ -8,8 +8,6 @@ ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_RECEIVE_FROM callback function"]
 ms.keywords: PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM callback, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
-f1_keywords:
- - "wsk/WskReceiveFrom"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskReceiveFrom
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_RECEIVE_FROM
+ - wsk/PFN_WSK_RECEIVE_FROM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskReceiveFrom
 ---
 
 # PFN_WSK_RECEIVE_FROM callback function
@@ -47,63 +46,57 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskReceiveFrom</b> function receives a datagram and any associated control information from a remote
   transport address.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket from which to receive the datagram.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to an initialized 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that receives the datagram from the socket.
-
 
 ### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      received datagram originated. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
      the WSK application specified when it created the datagram socket. This pointer is optional and can be
      <b>NULL</b>.
 
-
 ### -param ControlLength
 
+### -param ControlInfo 
 
-### -param ControlInfo [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that receives the control information that is associated
      with the received datagram. The control information data that is associated with a datagram is made up
      of one or more control data objects, each of which begins with a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
+     <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information present for the received datagram, the contents of the buffer are undefined. This pointer is
      optional and can be <b>NULL</b>. If the 
      <i>ControlInfoLength</i> parameter is <b>NULL</b>, the 
      <i>ControlInfo</i> parameter should be <b>NULL</b>.
 
+### -param ControlFlags 
 
-### -param ControlFlags [out, optional]
-
+[out, optional]
 A pointer to a ULONG-typed variable that receives the bitwise OR of a combination of the following
      flags:
      
@@ -142,12 +135,12 @@ The control information data was truncated because the number of bytes of contro
 
 This parameter is optional and can be <b>NULL</b>.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 
@@ -161,10 +154,7 @@ A pointer to a ULONG-typed variable that specifies the size of the buffer that i
      <b>NULL</b>. If this parameter is <b>NULL</b>, the 
      <i>ControlInfo</i> parameter is ignored.
 
-
 ## -returns
-
-
 
 <b>WskReceiveFrom</b> returns one of the following NTSTATUS codes:
 
@@ -211,7 +201,7 @@ The WSK subsystem could not receive the datagram from the socket immediately. Th
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -228,22 +218,16 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the WSK application has set a fixed remote transport address for the datagram socket, datagrams
     that are received from any other remote transport address will be discarded by the WSK subsystem. For
     more information about setting the remote transport address for a datagram socket, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>.
+    <a href="/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 If a WSK application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a> event callback
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a> event callback
     function is enabled on a datagram socket and the application also has a pending call to the 
     <b>WskReceiveFrom</b> function on the same datagram socket, then, when datagrams arrive, the pending call
     to the 
@@ -263,7 +247,7 @@ If a WSK application's
 
 If the 
     <b>WskReceiveFrom</b> function returns STATUS_PENDING, the MDL chain that is described in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that is pointed to by the 
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter must remain locked in memory until the IRP is completed. In addition, the variable
     that is pointed to by the 
     <i>ControlInfoLength</i> parameter, the buffer that is pointed to by the 
@@ -275,53 +259,43 @@ If the
     variables on the stack, it cannot return from the function that calls the 
     <b>WskReceiveFrom</b> function until after the IRP is completed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>

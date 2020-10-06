@@ -8,8 +8,6 @@ ms.assetid: 689BF221-22CA-43B4-A5EB-ECE0B78F520B
 ms.date: 02/15/2018
 keywords: ["NfcCxUnregisterSequenceHandler function"]
 ms.keywords: NfcCxUnregisterSequenceHandler, NfcCxUnregisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxUnregisterSequenceHandler, nfpdrivers._nfccxunregistersequencehandler
-f1_keywords:
- - "nfccx/NfcCxUnregisterSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NfcCx.dll
-api_name:
-- NfcCxUnregisterSequenceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NfcCxUnregisterSequenceHandler
+ - nfccx/NfcCxUnregisterSequenceHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NfcCx.dll
+api_name:
+ - NfcCxUnregisterSequenceHandler
 ---
 
 # NfcCxUnregisterSequenceHandler function
@@ -47,47 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Called by the client driver during device shutdown to unregister for the previously registered sequence handler callback.
 
-
 ## -parameters
-
-
-
 
 ### -param Device
 
 A handle to a framework device object.
 
-
 ### -param Sequence
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
-
+An <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns STATUS_SUCCESS.
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

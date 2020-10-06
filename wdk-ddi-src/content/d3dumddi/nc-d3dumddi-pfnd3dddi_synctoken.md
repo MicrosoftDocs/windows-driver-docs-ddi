@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_SYNCTOKEN"
+ - PFND3DDDI_SYNCTOKEN
+ - d3dumddi/PFND3DDDI_SYNCTOKEN
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DDDI_SYNCTOKEN callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: f3fa5212-66c1-45f8-a96f-78d1f2f01fe8
 ms.date: 05/02/2018
 keywords: ["RILGEOLOCATIONREQUESTINFO structure"]
 ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo, ntddrilapitypes/RILGEOLOCATIONREQUESTINFO"
-f1_keywords:
- - "rilapitypes/RILGEOLOCATIONREQUESTINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,43 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGEOLOCATIONREQUESTINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
+f1_keywords:
+ - RILGEOLOCATIONREQUESTINFO
+ - rilapitypes/RILGEOLOCATIONREQUESTINFO
+ - LPRILGEOLOCATIONREQUESTINFO
+ - rilapitypes/LPRILGEOLOCATIONREQUESTINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGEOLOCATIONREQUESTINFO
 ---
 
-# RILGEOLOCATIONREQUESTINFO structure
+# RILGEOLOCATIONREQUESTINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwLatitude
 
-
 ### -field dwLongitude
-
 
 ### -field dwAltitude
 

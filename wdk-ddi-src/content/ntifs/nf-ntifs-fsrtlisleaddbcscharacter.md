@@ -8,8 +8,6 @@ ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.date: 04/16/2018
 keywords: ["FsRtlIsLeadDbcsCharacter macro"]
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
-f1_keywords:
- - "ntifs/FsRtlIsLeadDbcsCharacter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlIsLeadDbcsCharacter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlIsLeadDbcsCharacter
+ - ntifs/FsRtlIsLeadDbcsCharacter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlIsLeadDbcsCharacter
 ---
 
 # FsRtlIsLeadDbcsCharacter macro
@@ -47,50 +46,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>FsRtlIsLeadDbcsCharacter</b> macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS). 
-
+The <b>FsRtlIsLeadDbcsCharacter</b> macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS).
 
 ## -parameters
-
-
-
 
 ### -param DBCS_CHAR
 
 <p>The character to be tested.</p>
 
-
-
-
-
-
 ## -remarks
-
-
 
 Lead bytes are unique to double-byte character sets. A lead byte introduces a double-byte character. Lead bytes occupy a specific range of byte values. The <b>FsRtlIsLeadDbcsCharacter</b> macro uses the system code page to check lead-byte ranges.  
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs">FsRtlDissectDbcs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs">FsRtlDissectDbcs</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards">FsRtlDoesDbcsContainWildCards</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards">FsRtlDoesDbcsContainWildCards</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression">FsRtlIsDbcsInExpression</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression">FsRtlIsDbcsInExpression</a>

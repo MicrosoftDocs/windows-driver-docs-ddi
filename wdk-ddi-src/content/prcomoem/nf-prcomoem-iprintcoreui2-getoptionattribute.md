@@ -8,8 +8,6 @@ ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::GetOptionAttribute"]
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptionAttribute method, IPrintCoreUI2.GetOptionAttribute, IPrintCoreUI2::GetOptionAttribute, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.GetOptionAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.GetOptionAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::GetOptionAttribute
+ - prcomoem/IPrintCoreUI2::GetOptionAttribute
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.GetOptionAttribute
 ---
 
 # IPrintCoreUI2::GetOptionAttribute
@@ -47,63 +46,56 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::GetOptionAttribute</code> method retrieves the option attribute list or the value of a specific option attribute.
-
 
 ## -parameters
 
+### -param poemuiobj 
 
+[in]
+Pointer to the current context, an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param poemuiobj [in]
-
-Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
-
-
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pszFeatureKeyword 
 
-### -param pszFeatureKeyword [in]
+[in]
+Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for.
 
-Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for. 
+### -param pszOptionKeyword 
 
+[in]
+Pointer to a caller-supplied buffer containing an ASCII string specifying the single option keyword to query for. This value can be obtained from a prior call to <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">IPrintCoreUI2::EnumOptions</a>.
 
-### -param pszOptionKeyword [in]
+### -param pszAttribute 
 
-Pointer to a caller-supplied buffer containing an ASCII string specifying the single option keyword to query for. This value can be obtained from a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">IPrintCoreUI2::EnumOptions</a>. 
-
-
-### -param pszAttribute [in]
-
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported attribute names for the option, as opposed to specifying a specific attribute name for the option.
 
+### -param pdwDataType 
 
-### -param pdwDataType [out]
+[out]
+Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration.
 
-Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration.
+### -param pbData 
 
-
-### -param pbData [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -163,49 +155,33 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
 
-If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the option. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the option. This list is terminated with two null characters.
+If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the option. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the option. This list is terminated with two null characters.
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getoptionattribute">Using GetOptionAttribute</a>.
-
-
-
+For more information, see <a href="/windows-hardware/drivers/print/using-getoptionattribute">Using GetOptionAttribute</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">IPrintCoreUI2::EnumOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">IPrintCoreUI2::EnumOptions</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getfeatureattribute">IPrintCoreUI2::GetFeatureAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getfeatureattribute">IPrintCoreUI2::GetFeatureAttribute</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getglobalattribute">IPrintCoreUI2::GetGlobalAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getglobalattribute">IPrintCoreUI2::GetGlobalAttribute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>

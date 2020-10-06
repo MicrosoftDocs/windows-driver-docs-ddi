@@ -5,37 +5,39 @@ description: Represents additional decode parameters.
 ms.assetid: 24258007-5a94-4292-92d7-36e280c73fc8
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structure"]
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC, D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC,
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
+ - d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
+product:
+ - Windows
 ---
 
 # D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structure
+
 
 ## -description
 
@@ -73,7 +75,6 @@ A pointer to an array of D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK st
 
 >**Note**  Values in the sub sample mapping blocks are relative to the start of the decode buffer.
 
-
 ### -field SubSampleMappingCount
 
 The number of D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structures specified in the pSubSampleMappingBlocks parameter. If pSubSampleMappingBlocks is NULL, set this member to zero.
@@ -100,3 +101,4 @@ If this value is zero, all bytes each encrypted region mapping are encrypted, i.
 ## -remarks
 
 ## -see-also
+

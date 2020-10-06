@@ -6,10 +6,8 @@ old-location: acpi\acpi_get_device_specific_data.htm
 tech.root: acpi
 ms.assetid: F7B4E80F-AB83-4E0F-9933-D953744A1970
 ms.date: 02/15/2018
-keywords: ["_ACPI_GET_DEVICE_SPECIFIC_DATA structure"]
+keywords: ["ACPI_GET_DEVICE_SPECIFIC_DATA structure"]
 ms.keywords: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA"
-f1_keywords:
- - "acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_GET_DEVICE_SPECIFIC_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
+f1_keywords:
+ - _ACPI_GET_DEVICE_SPECIFIC_DATA
+ - acpiioct/_ACPI_GET_DEVICE_SPECIFIC_DATA
+ - PACPI_GET_DEVICE_SPECIFIC_DATA
+ - acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA
+ - ACPI_GET_DEVICE_SPECIFIC_DATA
+ - acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_GET_DEVICE_SPECIFIC_DATA
 ---
 
 # _ACPI_GET_DEVICE_SPECIFIC_DATA structure
@@ -47,29 +50,21 @@ req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
 
 ## -description
 
-
 The ACPI_GET_DEVICE_SPECIFIC_DATA structure contains input arguments for the IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 A unique identifier for the IOCTL.
 
-
 ### -field Section
 
 A GUID specified by the caller.
 
-
 ### -field PropertyNameLength
 
 The length of the property name.
-
 
 ### -field PropertyName
 

@@ -6,10 +6,8 @@ old-location: display\formatop.htm
 tech.root: display
 ms.assetid: e846a41a-9d9c-4ccb-a478-260f333333f1
 ms.date: 05/10/2018
-keywords: ["_FORMATOP structure"]
+keywords: ["FORMATOP structure"]
 ms.keywords: D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, FORMATOP, FORMATOP structure [Display Devices], FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP_BUMPMAP (0x00010000L), FORMATOP_CAPTURE (0x08000000L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), FORMATOP_CUBETEXTURE (0x00000004L), FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_DMAP (0x00020000L), FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_NOALPHABLEND (0x00200000L), FORMATOP_NOFILTER (0x00040000L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_PLANAR (0x02000000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L), FORMATOP_SRGBREAD (0x00008000L), FORMATOP_SRGBWRITE (0x00100000L), FORMATOP_TEXTURE (0x00000001L), FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_ZSTENCIL (0x00000040L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), _FORMATOP, d3dumddi/FORMATOP, display.formatop
-f1_keywords:
- - "d3dumddi/FORMATOP"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- FORMATOP
-product:
-- Windows
 targetos: Windows
 req.typenames: FORMATOP
+f1_keywords:
+ - _FORMATOP
+ - d3dumddi/_FORMATOP
+ - FORMATOP
+ - d3dumddi/FORMATOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - FORMATOP
 ---
 
 # _FORMATOP structure
@@ -47,19 +48,13 @@ req.typenames: FORMATOP
 
 ## -description
 
-
 The <b>FORMATOP</b> structure describes a surface format and operations that can be performed with such a surface.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Format
 
-[in] The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
-
+[in] The <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
 
 ### -field Operations
 
@@ -197,7 +192,7 @@ Surfaces of this format cannot be used with alpha blending.
 
 #### FORMATOP_AUTOGENMIPMAP (0x00400000L)
 
-The sublevels of MIP-mapped textures with this format can be automatically generated. For the driver to receive calls to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_generatemipsublevels">GenerateMipSubLevels</a> function, this flag must be exposed.
+The sublevels of MIP-mapped textures with this format can be automatically generated. For the driver to receive calls to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_generatemipsublevels">GenerateMipSubLevels</a> function, this flag must be exposed.
 
 
 
@@ -209,13 +204,13 @@ A vertex texture sampler can use surfaces of this format. That is, only surfaces
 
 #### FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L)
 
-Surfaces of this format can only be conditionally used for texture mapping of 2-D textures with dimensions that are not powers of 2. For more information, see the definitions for D3DPTEXTURECAPS_POW2 and D3DPTEXTURECAPS_NONPOW2CONDITIONAL in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> reference page.
+Surfaces of this format can only be conditionally used for texture mapping of 2-D textures with dimensions that are not powers of 2. For more information, see the definitions for D3DPTEXTURECAPS_POW2 and D3DPTEXTURECAPS_NONPOW2CONDITIONAL in the <a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> reference page.
 
 
 
 #### FORMATOP_PLANAR (0x02000000L)
 
-Surfaces of this format are planar versus packed. The Direct3D runtime must allocate a buffer if it calls the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function on a surface with a planar format while the surface is lost and the typical calculation of pitch multiplied times height is not possible. Most formats are packed except for those that the Microsoft DirectX Video Acceleration uses (for example, YUV formats).
+Surfaces of this format are planar versus packed. The Direct3D runtime must allocate a buffer if it calls the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function on a surface with a planar format while the surface is lost and the typical calculation of pitch multiplied times height is not possible. Most formats are packed except for those that the Microsoft DirectX Video Acceleration uses (for example, YUV formats).
 
 
 
@@ -227,7 +222,7 @@ Surfaces of this format are used for overlay operations.
 
 #### FORMATOP_CAPTURE (0x08000000L)
 
-If the <b>VideoEncoder</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as capture buffers.
+If the <b>VideoEncoder</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as capture buffers.
 
 Supported starting with Windows 8.
 
@@ -235,7 +230,7 @@ Supported starting with Windows 8.
 
 #### FORMATOP_VIDEO_ENCODER (0x10000000L)
 
-If the <b>VideoEncoder</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as video encoder input resources.
+If the <b>VideoEncoder</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as video encoder input resources.
 
 Supported starting with Windows 8.
 
@@ -247,45 +242,34 @@ Surfaces of this format support a multiplane overlay.
 
 Supported starting with Windows 8.
 
-
 ### -field FlipMsTypes
 
 [out] A 32-bitmask for full-screen multiple sampling.
-
 
 ### -field BltMsTypes
 
 [out] A 32-bitmask for windowed multiple sampling.
 
-
 ### -field PrivateFormatBitCount
 
-[out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration type). 
-
+[out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration type).
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags2">D3DDDI_RESOURCEFLAGS2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>

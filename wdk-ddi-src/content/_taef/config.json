@@ -2,7 +2,7 @@
   "tech": "taef",
   "headers": [
     "wexlogtrace.h",
-    "wextestclass.h",
+    "wextestclass.h"
   ],
   "displayName": "Test Authoring and Execution Framework (TAEF)"  
 }

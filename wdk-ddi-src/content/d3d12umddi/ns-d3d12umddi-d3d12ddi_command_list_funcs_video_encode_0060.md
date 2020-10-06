@@ -1,11 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060
 title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060
-author: windows-driver-content
 description: Command list functions for video encode, version D3D12DDI_FEATURE_VERSION_VIDEO_0060.
 tech.root: display
 ms.assetid: 2b4b7e91-98c6-4db4-bc98-8bd0e7b486c7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060 structure"]
 ms.prod: windows-hardware
@@ -27,7 +25,8 @@ req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060"
+ - D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060
+ - d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060
 topic_type:
  - apiref
 api_type:
@@ -43,6 +42,7 @@ dev_langs:
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060 structure
+
 
 ## -description
 

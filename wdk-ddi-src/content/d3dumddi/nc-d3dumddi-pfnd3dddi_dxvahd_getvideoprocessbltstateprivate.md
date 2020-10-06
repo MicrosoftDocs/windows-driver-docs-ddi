@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GetVideoProcessBltStatePrivate"
+ - PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
+ - d3dumddi/PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback function
+
 
 ## -description
 
@@ -61,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve.
 
 ## -returns
 
@@ -74,5 +76,4 @@ The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>

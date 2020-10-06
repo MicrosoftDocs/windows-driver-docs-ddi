@@ -6,10 +6,8 @@ old-location: buses\usbfn_direction.htm
 tech.root: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.date: 05/07/2018
-keywords: ["_USBFN_DIRECTION enumeration"]
+keywords: ["USBFN_DIRECTION enumeration"]
 ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
-f1_keywords:
- - "usbfnbase/USBFN_DIRECTION"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbfnbase.h
-api_name:
-- USBFN_DIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
+f1_keywords:
+ - _USBFN_DIRECTION
+ - usbfnbase/_USBFN_DIRECTION
+ - PUSBFN_DIRECTION
+ - usbfnbase/PUSBFN_DIRECTION
+ - USBFN_DIRECTION
+ - usbfnbase/USBFN_DIRECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbfnbase.h
+api_name:
+ - USBFN_DIRECTION
 ---
 
 # _USBFN_DIRECTION enumeration
@@ -47,39 +50,29 @@ req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
 
 ## -description
 
-
 Defines the USB data transfer direction types.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UsbfnDirectionMinimum
 
 The minimum value in this enumeration.
 
-
 ### -field UsbfnDirectionIn
 
 The transfer is to the host from an endpoint.
-
 
 ### -field UsbfnDirectionOut
 
 The transfer is from the host to the endpoint.
 
-
 ### -field UsbfnDirectionTx
 
-The bus transfer to the host from the device. 
-
+The bus transfer to the host from the device.
 
 ### -field UsbfnDirectionRx
 
 The bus transfer is from the host to the device.
-
 
 ### -field UsbfnDirectionMaximum
 

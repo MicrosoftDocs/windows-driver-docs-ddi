@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2winfo.htm
 tech.root: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2WINFO structure"]
+keywords: ["D3DHAL_DP2WINFO structure"]
 ms.keywords: "*LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], _D3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2WINFO"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2WINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2WINFO
+f1_keywords:
+ - _D3DHAL_DP2WINFO
+ - d3dhal/_D3DHAL_DP2WINFO
+ - D3DHAL_DP2WINFO
+ - d3dhal/D3DHAL_DP2WINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2WINFO
 ---
 
 # _D3DHAL_DP2WINFO structure
@@ -47,28 +48,19 @@ req.typenames: D3DHAL_DP2WINFO
 
 ## -description
 
-
 The D3DHAL_DP2WINFO structure is used to inform the driver of the w-range to be used for w-buffering.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dvWNear
-
 
 ### -field dvWFar
 
 Specify the near and far limit of the w-buffer, respectively. These members can be any valid floating-point values.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2WINFO structure from the command buffer and updates the driver's scaling parameters for w-buffering when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_WINFO.
+The <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2WINFO structure from the command buffer and updates the driver's scaling parameters for w-buffering when <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_WINFO.
 
 One D3DHAL_DP2WINFO structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
@@ -76,24 +68,14 @@ The driver should update the w-buffer portion of its internal rendering context 
 
 Video adapters that do not support this feature should ignore and skip over these instructions and continue processing the rest of the command buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_WINFO
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

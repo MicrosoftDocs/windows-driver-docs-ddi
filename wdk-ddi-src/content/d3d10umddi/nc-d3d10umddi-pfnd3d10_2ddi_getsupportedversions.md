@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/GetSupportedVersions"
+ - PFND3D10_2DDI_GETSUPPORTEDVERSIONS
+ - d3d10umddi/PFND3D10_2DDI_GETSUPPORTEDVERSIONS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback function
+
 
 ## -description
 
@@ -75,17 +77,16 @@ A pointer to a block of memory that receives the array of Direct3D interface ver
 
 ## -remarks
 
-When the Direct3D runtime calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openadapter">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function.
+When the Direct3D runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openadapter">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openadapter">D3D10DDIARG_OPENADAPTER</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openadapter">D3D10DDIARG_OPENADAPTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddi_adapterfuncs">D3D10_2DDI_ADAPTERFUNCS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddi_adapterfuncs">D3D10_2DDI_ADAPTERFUNCS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10_2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10_2</a>

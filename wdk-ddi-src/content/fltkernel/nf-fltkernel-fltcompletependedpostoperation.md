@@ -8,8 +8,6 @@ ms.assetid: 633c9766-f92b-436a-bac9-f77702888a3d
 ms.date: 04/16/2018
 keywords: ["FltCompletePendedPostOperation function"]
 ms.keywords: FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, ifsk.fltcompletependedpostoperation
-f1_keywords:
- - "fltkernel/FltCompletePendedPostOperation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCompletePendedPostOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCompletePendedPostOperation
+ - fltkernel/FltCompletePendedPostOperation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCompletePendedPostOperation
 ---
 
 # FltCompletePendedPostOperation function
@@ -48,53 +47,31 @@ req.typenames:
 
 ## -description
 
-
-<b>FltCompletePendedPostOperation</b> resumes completion processing for an I/O operation that was pended in a minifilter driver's postoperation callback routine. 
-
+<b>FltCompletePendedPostOperation</b> resumes completion processing for an I/O operation that was pended in a minifilter driver's postoperation callback routine.
 
 ## -parameters
 
+### -param CallbackData 
 
-
-
-### -param CallbackData [in]
-
-Pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be <b>NULL</b>. 
-
+[in]
+Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
 
-
-
-When a minifilter driver's postoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine posts an I/O operation to a work queue and returns FLT_POSTOP_MORE_PROCESSING_REQUIRED, the Filter Manager stops performing completion processing for the operation. When the operation is eventually dequeued and processed, the minifilter driver can call <b>FltCompletePendedPostOperation</b> to return control of the operation to the Filter Manager, which then resumes completion processing. 
-
-
-
+When a minifilter driver's postoperation callback (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine posts an I/O operation to a work queue and returns FLT_POSTOP_MORE_PROCESSING_REQUIRED, the Filter Manager stops performing completion processing for the operation. When the operation is eventually dequeued and processed, the minifilter driver can call <b>FltCompletePendedPostOperation</b> to return control of the operation to the Filter Manager, which then resumes completion processing.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>

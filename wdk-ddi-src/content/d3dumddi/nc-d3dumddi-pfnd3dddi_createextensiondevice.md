@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateExtensionDevice"
+ - PFND3DDDI_CREATEEXTENSIONDEVICE
+ - d3dumddi/PFND3DDDI_CREATEEXTENSIONDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_CREATEEXTENSIONDEVICE callback function
 
+
 ## -description
 
 The <b>CreateExtensionDevice</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) extension device.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
 
 ## -returns
 
@@ -67,13 +69,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The extension device is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateExtensionDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice)  could not allocate the required memory for it to complete. |
+| **E_OUTOFMEMORY** | [CreateExtensionDevice]()  could not allocate the required memory for it to complete. |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyextensiondevice">DestroyExtensionDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyextensiondevice">DestroyExtensionDevice</a>

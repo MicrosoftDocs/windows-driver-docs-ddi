@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumPathsFromSource"
+ - DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback function
 
+
 ## -description
 
 The <b>pfnGetNumPathsFromSource</b> function returns the number of video present paths that contain a specified video present source.
@@ -52,7 +54,7 @@ The <b>pfnGetNumPathsFromSource</b> function returns the number of video present
 
 ### -param hVidPnTopology
 
-[in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
+[in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
 
 ### -param VidPnSourceId
 
@@ -76,7 +78,7 @@ The <b>pfnGetNumPathsFromSource</b> function returns one of the following values
 
 A topology is a collection paths, each of which contains a (source, target) pair. It is possible for a particular source to appear in more than one path. For example, one source can be paired with two distinct targets in the case of a clone view.
 
-VidPN source identifiers are assigned by the operating system. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
+VidPN source identifiers are assigned by the operating system. <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
 
 The D3DKMDT_HVIDPNTOPOLOGY data type is defined in <i>D3dkmdt.h</i>.
 
@@ -84,5 +86,4 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths">pfnGetNumPaths</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths">pfnGetNumPaths</a>

@@ -8,8 +8,6 @@ ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.date: 04/16/2018
 keywords: ["SeSetSecurityDescriptorInfoEx function"]
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
-f1_keywords:
- - "ntifs/SeSetSecurityDescriptorInfoEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeSetSecurityDescriptorInfoEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeSetSecurityDescriptorInfoEx
+ - ntifs/SeSetSecurityDescriptorInfoEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeSetSecurityDescriptorInfoEx
 ---
 
 # SeSetSecurityDescriptorInfoEx function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeSetSecurityDescriptorInfoEx</b> routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE).
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in, optional]
-
+[in, optional]
 Pointer to the object whose security descriptor is to be modified. This is used to update security quota information.
 
+### -param SecurityInformation 
 
-### -param SecurityInformation [in]
-
+[in]
 Pointer to a value specifying which security information is to be set. Can be a combination of one or more of the following. 
 
 <table>
@@ -111,21 +106,19 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ModificationDescriptor
 
 <p>The input security descriptor to be applied to the object. The caller of this routine is expected to probe and capture the passed security descriptor before calling, and to release it after calling.</p>
 
+### -param ObjectsSecurityDescriptor 
 
-### -param ObjectsSecurityDescriptor [in, out]
-
+[in, out]
 Pointer to a pointer to the object's security descriptor. The security descriptor must be in self-relative format. This structure must be deallocated by the caller.
 
+### -param AutoInheritFlags 
 
-### -param AutoInheritFlags [in]
-
+[in]
 Bitmask that controls automatic inheritance of ACEs. Set to the logical OR of one or more of the following bit flags: 
 
 <table>
@@ -154,11 +147,10 @@ If this flag is set, the SACL is treated as an auto-inherit SACL and is processe
 </td>
 </tr>
 </table>
- 
 
+### -param PoolType 
 
-### -param PoolType [in]
-
+[in]
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
 
 <ul>
@@ -169,17 +161,14 @@ Specifies the pool type to use when allocating a new security descriptor, which 
 </ul>
 Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL >= DISPATCH_LEVEL or in an arbitrary thread context. 
 
-<b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
+<b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used.
 
+### -param GenericMapping 
 
-### -param GenericMapping [in]
-
+[in]
 Pointer to a GENERIC_MAPPING structure that specifies the mapping of generic to specific and standard access types for the object being accessed. This mapping structure is expected to be safe to access (that is, captured if necessary) prior to be passed to this routine.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -220,14 +209,8 @@ The object does not have a security descriptor.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>AutoInheritFlags</i> parameter is zero, the effect of calling <b>SeSetSecurityDescriptorInfoEx</b> is the same as that of calling <b>SeSetSecurityDescriptorInfo</b>.
 
@@ -253,64 +236,54 @@ If <i>AutoInheritFlags</i> specifies the SEF_SACL_AUTO_INHERIT bit, <b>SeSetSecu
 
 For more information about access control and ACE inheritance, see the Security section of the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcreatesecuritydescriptor">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcreatesecuritydescriptor">RtlCreateSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreatesecuritydescriptorrelative">RtlCreateSecurityDescriptorRelative</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreatesecuritydescriptorrelative">RtlCreateSecurityDescriptorRelative</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtllengthsecuritydescriptor">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtllengthsecuritydescriptor">RtlLengthSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsetdaclsecuritydescriptor">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsetdaclsecuritydescriptor">RtlSetDaclSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetownersecuritydescriptor">RtlSetOwnerSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetownersecuritydescriptor">RtlSetOwnerSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysecuritydescriptorinfo">SeQuerySecurityDescriptorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysecuritydescriptorinfo">SeQuerySecurityDescriptorInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetsecuritydescriptorinfo">SeSetSecurityDescriptorInfo</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetsecuritydescriptorinfo">SeSetSecurityDescriptorInfo</a>

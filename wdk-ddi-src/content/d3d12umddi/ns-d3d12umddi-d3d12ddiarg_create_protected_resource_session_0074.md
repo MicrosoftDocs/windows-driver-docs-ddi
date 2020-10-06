@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074
 f1_keywords:
+ - D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074
  - d3d12umddi/D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074
 dev_langs:
  - c++
@@ -59,3 +60,4 @@ See the [Protected Resources Specification](https://microsoft.github.io/DirectX-
 [**PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0074**](nc-d3d12umddi-pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0074.md)
 
 [**PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074**](nc-d3d12umddi-pfnd3d12ddi_createprotectedresourcesession_0074.md)
+

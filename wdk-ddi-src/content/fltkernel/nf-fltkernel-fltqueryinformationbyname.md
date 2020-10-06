@@ -6,43 +6,43 @@ tech.root: ifsk
 ms.assetid: dac542b8-eaea-4065-ae36-1433a6589ac3
 ms.date: 09/14/2018
 keywords: ["FltQueryInformationByName function"]
-f1_keywords:
- - "fltkernel/FltQueryInformationByName"
 ms.keywords: FltQueryInformationByName
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- fltmgr.sys
-api_name: 
-- FltQueryInformationByName
-product:
-- Windows
 targetos: Windows
-dev_langs:
-- c++
 ms.custom: RS5
+f1_keywords:
+ - FltQueryInformationByName
+ - fltkernel/FltQueryInformationByName
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryInformationByName
+dev_langs:
+ - c++
 ---
 
 # FltQueryInformationByName function
+
 
 ## -description
 
@@ -96,3 +96,4 @@ This function returns requested information about a file without opening the act
 If *Instance* is non-**NULL** then the create will be targeted to the specified instance, calling all filters below the current filter before     sending the I/O down. If *Instance* is **NULL**, the I/O will be always sent to the top of the filter stack.
 
 ## -see-also
+

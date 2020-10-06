@@ -6,10 +6,8 @@ old-location: storage\mpio_drive_info.htm
 tech.root: storage
 ms.assetid: 38d79fae-9701-4e92-bf73-4732e02c17ab
 ms.date: 03/29/2018
-keywords: ["_MPIO_DRIVE_INFO structure"]
+keywords: ["MPIO_DRIVE_INFO structure"]
 ms.keywords: "*PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], PMPIO_DRIVE_INFO, PMPIO_DRIVE_INFO structure pointer [Storage Devices], _MPIO_DRIVE_INFO, mpiowmi/MPIO_DRIVE_INFO, mpiowmi/PMPIO_DRIVE_INFO, storage.mpio_drive_info, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml"
-f1_keywords:
- - "mpiowmi/MPIO_DRIVE_INFO"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiowmi.h
-api_name:
-- MPIO_DRIVE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DRIVE_INFO, *PMPIO_DRIVE_INFO
+f1_keywords:
+ - _MPIO_DRIVE_INFO
+ - mpiowmi/_MPIO_DRIVE_INFO
+ - PMPIO_DRIVE_INFO
+ - mpiowmi/PMPIO_DRIVE_INFO
+ - MPIO_DRIVE_INFO
+ - mpiowmi/MPIO_DRIVE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiowmi.h
+api_name:
+ - MPIO_DRIVE_INFO
 ---
 
 # _MPIO_DRIVE_INFO structure
@@ -47,29 +50,21 @@ req.typenames: MPIO_DRIVE_INFO, *PMPIO_DRIVE_INFO
 
 ## -description
 
-
 The MPIO_DRIVE_INFO structure represents a multi-path disk in the system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberPaths
 
 An unsigned 32-bitfield that represents the number of paths to the LUN.
 
-
 ### -field Name
 
 A string field (of maximum length 63 characters) that returns the device name that was created by MPIO for the LUN.
 
-
 ### -field SerialNumber
 
 A string field (of maximum length 63 characters) that returns the serial number that was created for the LUN by either the DSM or by MPIO itself.
-
 
 ### -field DsmName
 

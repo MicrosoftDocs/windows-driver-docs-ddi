@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_base_stations_info.htm
 tech.root: netvista
 ms.assetid: 7C0E0903-F564-4F2B-95F9-FA8512FEF61B
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_BASE_STATIONS_INFO structure"]
+keywords: ["NDIS_WWAN_BASE_STATIONS_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO, netvista.ndis_wwan_base_stations_info"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_BASE_STATIONS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO
+f1_keywords:
+ - _NDIS_WWAN_BASE_STATIONS_INFO
+ - ndiswwan/_NDIS_WWAN_BASE_STATIONS_INFO
+ - PNDIS_WWAN_BASE_STATIONS_INFO
+ - ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO
+ - NDIS_WWAN_BASE_STATIONS_INFO
+ - ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_BASE_STATIONS_INFO
 ---
 
 # _NDIS_WWAN_BASE_STATIONS_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO
 
 ## -description
 
-
-The <b>NDIS_WWAN_BASE_STATIONS_INFO</b> structure contains information about both serving and neighboring base stations. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-base-stations-info">NDIS_STATUS_WWAN_BASE_STATIONS_INFO</a> status notification in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a> query request.
-
+The <b>NDIS_WWAN_BASE_STATIONS_INFO</b> structure contains information about both serving and neighboring base stations. It is used in the <a href="/windows-hardware/drivers/network/ndis-status-wwan-base-stations-info">NDIS_STATUS_WWAN_BASE_STATIONS_INFO</a> status notification in response to a previous <a href="/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a> query request.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,8 +102,7 @@ sizeof(NDIS_WWAN_BASE_STATIONS_INFO)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -159,37 +156,27 @@ The operation failed because the device does not support this OID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BaseStationsInfo
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a> structure that represents information about both serving and neighboring base stations.
-
+A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a> structure that represents information about both serving and neighboring base stations.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/network/ndis-status-wwan-base-stations-info">NDIS_STATUS_WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-base-stations-info">NDIS_STATUS_WWAN_BASE_STATIONS_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a>

@@ -7,8 +7,6 @@ ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEDEVICE callback function"]
 ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, PFND3DKMT_CREATEDEVICE callback, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateDevice"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,23 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTCreateDevice
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_CREATEDEVICE
+ - d3dkmthk/PFND3DKMT_CREATEDEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTCreateDevice
 ---
 
 # PFND3DKMT_CREATEDEVICE callback function
+
 
 ## -description
 
@@ -54,7 +54,7 @@ The <b>D3DKMTCreateDevice</b> function creates a kernel-mode device context.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
 
 ## -returns
 
@@ -65,10 +65,10 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | The device context was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateDevice](./nf-d3dkmthk-d3dkmtcreatedevice.md)  could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a>

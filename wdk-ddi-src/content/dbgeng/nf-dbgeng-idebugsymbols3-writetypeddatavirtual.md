@@ -8,8 +8,6 @@ ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::WriteTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols3.WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, dbgeng/IDebugSymbols::WriteTypedDataVirtual, debugger.writetypeddatavirtual
-f1_keywords:
- - "dbgeng/IDebugSymbols.WriteTypedDataVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.WriteTypedDataVirtual
-- IDebugSymbols2.WriteTypedDataVirtual
-- IDebugSymbols3.WriteTypedDataVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::WriteTypedDataVirtual
+ - dbgeng/IDebugSymbols3::WriteTypedDataVirtual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.WriteTypedDataVirtual
+ - IDebugSymbols2.WriteTypedDataVirtual
+ - IDebugSymbols3.WriteTypedDataVirtual
 ---
 
 # IDebugSymbols3::WriteTypedDataVirtual
@@ -49,50 +48,43 @@ req.typenames:
 
 ## -description
 
-
 The <b>WriteTypedDataVirtual</b> method writes data to the target's virtual address space.  The number of bytes written is the size of the specified type.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the location in the target's virtual address space where the data will be written.
 
+### -param Module 
 
-### -param Module [in]
-
+[in]
 Specifies the base address of the module containing the type.
 
+### -param TypeId 
 
-### -param TypeId [in]
-
+[in]
 Specifies the type ID of the type.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Specifies the buffer containing the data to be written.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be written.
 
+### -param BytesWritten 
 
-### -param BytesWritten [out, optional]
-
+[out, optional]
 Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -122,18 +114,9 @@ The method was successful.  All the bytes in the buffer <i>Buffer</i> were writt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This is a convenience method.  The same result can be obtained by calling <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>.
 
-
-This is a convenience method.  The same result can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>.
-
-For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
-
-
-
+For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.

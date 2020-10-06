@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO"
+ - "PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -76,8 +77,8 @@ A handle to a meta-command.
 
 The index of the parameter.
 
-### -param D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO * [out]
-
+### -param D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO * 
+[out]
 A pointer to a D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO structure that contains the meta-command's required parameter info.
 
 ## -returns

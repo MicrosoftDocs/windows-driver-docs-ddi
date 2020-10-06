@@ -8,8 +8,6 @@ ms.assetid: b72e3b7d-000b-4827-aa06-699a0bcc1840
 ms.date: 05/10/2018
 keywords: ["VideoPortInterlockedDecrement function"]
 ms.keywords: VideoPortInterlockedDecrement, VideoPortInterlockedDecrement function [Display Devices], VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, display.videoportinterlockeddecrement, video/VideoPortInterlockedDecrement
-f1_keywords:
- - "video/VideoPortInterlockedDecrement"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortInterlockedDecrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortInterlockedDecrement
+ - video/VideoPortInterlockedDecrement
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortInterlockedDecrement
 ---
 
 # VideoPortInterlockedDecrement function
@@ -47,51 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortInterlockedDecrement</b> function decrements a caller-supplied variable as an atomic operation.
-
 
 ## -parameters
 
+### -param Addend 
 
-
-
-### -param Addend [in]
-
+[in]
 Pointer to the variable to be decremented.
-
 
 ## -returns
 
-
-
 <b>VideoPortInterlockedDecrement</b> returns the decremented value.
-
-
-
 
 ## -remarks
 
-
-
 When possible and whenever appropriate, <b>VideoPortInterlockedDecrement</b> is implemented inline by the compiler. It can be safely used on pageable data.
 
-This function is atomic only with respect to other <b>VideoPortInterlocked</b><i>Xxx</i> calls. 
-
-
-
+This function is atomic only with respect to other <b>VideoPortInterlocked</b><i>Xxx</i> calls.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedexchange">VideoPortInterlockedExchange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedexchange">VideoPortInterlockedExchange</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedincrement">VideoPortInterlockedIncrement</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedincrement">VideoPortInterlockedIncrement</a>

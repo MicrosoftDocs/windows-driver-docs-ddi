@@ -6,10 +6,8 @@ old-location: storage\storage_zone_group.htm
 tech.root: storage
 ms.assetid: 71CEEE58-22CC-4FB4-83E1-5FCC6563D1D2
 ms.date: 03/29/2018
-keywords: ["_STORAGE_ZONE_GROUP structure"]
+keywords: ["STORAGE_ZONE_GROUP structure"]
 ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"
-f1_keywords:
- - "ntddstor/STORAGE_ZONE_GROUP"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- STORAGE_ZONE_GROUP
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+f1_keywords:
+ - _STORAGE_ZONE_GROUP
+ - ntddstor/_STORAGE_ZONE_GROUP
+ - PSTORAGE_ZONE_GROUP
+ - ntddstor/PSTORAGE_ZONE_GROUP
+ - STORAGE_ZONE_GROUP
+ - ntddstor/STORAGE_ZONE_GROUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - STORAGE_ZONE_GROUP
 ---
 
 # _STORAGE_ZONE_GROUP structure
@@ -47,27 +50,18 @@ req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field ZoneCount
 
 N/A
 
-
 ### -field ZoneType
 
 N/A
-
 
 ### -field ZoneSize
 

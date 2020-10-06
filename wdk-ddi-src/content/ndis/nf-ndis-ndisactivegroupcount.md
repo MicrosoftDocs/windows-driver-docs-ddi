@@ -8,8 +8,6 @@ ms.assetid: f9dbeede-b4f2-4748-8a95-692f09ded787
 ms.date: 05/02/2018
 keywords: ["NdisActiveGroupCount function"]
 ms.keywords: NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount
-f1_keywords:
- - "ndis/NdisActiveGroupCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisActiveGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisActiveGroupCount
+ - ndis/NdisActiveGroupCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisActiveGroupCount
 ---
 
 # NdisActiveGroupCount function
@@ -48,43 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisActiveGroupCount</b> function returns the number of processor groups that are currently active in the
   local computer system.
 
-
 ## -returns
-
-
 
 <b>NdisActiveGroupCount</b> returns a USHORT value for the number of processor groups that are currently
      active and are included in the local computer system. The number of groups is a zero-based value.
 
-
-
-
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisActiveGroupCount</b> function to obtain the number of processor groups that are currently active
     and are included in the local computer system.
 
 To obtain the maximum number of groups, call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismaxgroupcount">NdisMaxGroupCount</a> function.
-
-
-
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismaxgroupcount">NdisMaxGroupCount</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismaxgroupcount">NdisMaxGroupCount</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismaxgroupcount">NdisMaxGroupCount</a>

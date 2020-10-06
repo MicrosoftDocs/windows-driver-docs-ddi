@@ -6,47 +6,51 @@ old-location: display\driver_initialization_data.htm
 tech.root: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.date: 10/14/2019
-keywords: ["_DRIVER_INITIALIZATION_DATA structure"]
+keywords: ["DRIVER_INITIALIZATION_DATA structure"]
 ms.keywords: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA"
-f1_keywords:
- - "dispmprt/DRIVER_INITIALIZATION_DATA"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dispmprt.h
-api_name:
-- DRIVER_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
+f1_keywords:
+ - _DRIVER_INITIALIZATION_DATA
+ - dispmprt/_DRIVER_INITIALIZATION_DATA
+ - PDRIVER_INITIALIZATION_DATA
+ - dispmprt/PDRIVER_INITIALIZATION_DATA
+ - DRIVER_INITIALIZATION_DATA
+ - dispmprt/DRIVER_INITIALIZATION_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dispmprt.h
+api_name:
+ - DRIVER_INITIALIZATION_DATA
 ---
 
 # _DRIVER_INITIALIZATION_DATA structure
 
+
 ## -description
 
-The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
+The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 
 ## -struct-fields
 
@@ -212,7 +216,7 @@ A pointer to the display miniport driver's <a href="../d3dkmddi/nc-d3dkmddi-dxgk
 
 ### -field DxgkDdiSetVidPnSourceAddress
 
-A pointer to the display miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function.
+A pointer to the display miniport driver's <a href="/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function.
 
 ### -field DxgkDdiSetVidPnSourceVisibility
 
@@ -308,7 +312,7 @@ A pointer to the display miniport driver's <a href="nc-dispmprt-dxgkddi_link_dev
 A pointer to the display miniport driver's <a href="../d3dkmddi/nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat.md">DxgkDdiSetDisplayPrivateDriverFormat</a> function.
 
 > [!NOTE]
-> The following [reserved functions](https://docs.microsoft.com/windows-hardware/drivers/display/dispmprt-h---reserved) declared in *dispmrt.h* are available beginning with Windows 7:
+> The following [reserved functions](/windows-hardware/drivers/display/dispmprt-h---reserved) declared in *dispmrt.h* are available beginning with Windows 7:
 
 ### -field DxgkDdiDescribePageTable
 
@@ -426,7 +430,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkDdiPowerRuntimeControlRequest
 
-A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 Supported starting with Windows 8.
 
@@ -508,16 +512,13 @@ A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2](../d3dkmddi/nc-d3dkmdd
 
 ### -field DxgkDdiCreateProcess
 
-
 A pointer to the [DXGKDDI_CREATEPROCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess.md) callback function.
 
 ### -field DxgkDdiDestroyProcess
 
-
 A pointer to the [DXGKDDI_DESTROYPROCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_destroyprocess.md) callback function.
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
-
 
 A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](../d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md) callback function.
 
@@ -590,7 +591,6 @@ A pointer to the [DXGKDDI_SUBMITCOMMANDTOHWQUEUE](../d3dkmddi/nc-d3dkmddi-dxgkdd
 A pointer to the [DXGKDDI_SWITCHTOHWCONTEXTLIST](../d3dkmddi/nc-d3dkmddi-dxgkddi_switchtohwcontextlist.md) callback function.
 
 ### -field DxgkDdiResetHwEngine
-
 
 ### -field DxgkDdiCreatePeriodicFrameNotification
 
@@ -821,4 +821,4 @@ typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
+<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>

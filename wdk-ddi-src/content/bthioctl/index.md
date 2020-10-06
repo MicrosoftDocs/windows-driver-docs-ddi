@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: bltooth
+f1_keywords:
+ - bthioctl
+ - bthioctl/bthioctl
 ---
 
 # Bthioctl.h header
@@ -18,7 +19,7 @@ tech.root: bltooth
 
 ## -description
 
-
 This header is used by bltooth. For more information, see:
 
 - [Bluetooth](../_bltooth/index.md)
+

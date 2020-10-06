@@ -6,10 +6,11 @@ old-location: pos\linedisplayglyphdefinitiondata.htm
 tech.root: pos
 ms.assetid: D2F27B23-2B77-42C8-A7D5-61AB6BCEC77D
 ms.date: 02/23/2018
-keywords: ["_LineDisplayGlyphDefinitionData structure"]
+keywords: ["LineDisplayGlyphDefinitionData structure"]
 ms.keywords: LineDisplayGlyphDefinitionData, LineDisplayGlyphDefinitionData structure, _LineDisplayGlyphDefinitionData, pointofservicedriverinterface/LineDisplayGlyphDefinitionData, pos.linedisplayglyphdefinitiondata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayGlyphDefinitionData"
+ - "LineDisplayGlyphDefinitionData"
 req.header: pointofservicedriverinterface.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - LineDisplayGlyphDefinitionData
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplayGlyphDefinitionData
 ---

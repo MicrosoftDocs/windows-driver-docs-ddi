@@ -10,6 +10,7 @@ keywords: ["RILRESETMODEMCONFIGPARAMETER enumeration"]
 ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, netvista.rilresetmodemconfigparameter, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX
 f1_keywords:
  - "ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER"
+ - "RILRESETMODEMCONFIGPARAMETER"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRESETMODEMCONFIGPARAMETER
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRESETMODEMCONFIGPARAMETER
 ---

@@ -8,8 +8,6 @@ ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.date: 04/30/2018
 keywords: ["RtlStringCchPrintfA function"]
 ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchPrintfW
-- RtlStringCchPrintfA
-- RtlStringCchPrintfW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchPrintfA
+ - ntstrsafe/RtlStringCchPrintfA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchPrintfW
+ - RtlStringCchPrintfA
+ - RtlStringCchPrintfW
 ---
 
 # RtlStringCchPrintfA function
@@ -50,29 +49,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
-
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [out]
-
+[out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list.
 
+### -param cchDest 
 
-### -param cchDest [in]
+[in]
+The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is <b>NTSTRSAFE_MAX_CCH</b>.
 
-The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is <b>NTSTRSAFE_MAX_CCH</b>. 
+### -param pszFormat 
 
-
-### -param pszFormat [in]
-
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
-
+[in]
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
 
 ### -param param
 
@@ -85,12 +79,9 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.
 
-
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -139,14 +130,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> should be used instead of the following functions:
 
@@ -211,53 +196,39 @@ L"string"
 
 If  <i>pszDest </i>and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, behavior of the function is undefined.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfexa">RtlStringCchPrintfEx</a>.
+Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfexa">RtlStringCchPrintfEx</a>.
 
 
 #### Examples
 
 The following example shows a simple use of <b>RtlStringCchPrintfW</b> using four arguments.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR pszDest[30]; 
+
+```
+WCHAR pszDest[30]; 
 size_t cchDest = 30;
 
 LPCWSTR pszFormat = L"%s %d + %d = %d.";
 WCHAR* pszTxt = L"The answer is";
 
 NTSTATUS status = 
-    RtlStringCchPrintfW(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);</pre>
-</td>
-</tr>
-</table></span></div>
+    RtlStringCchPrintfW(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
+```
+
 The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfa">RtlStringCbPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfa">RtlStringCbPrintf</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfexa">RtlStringCchPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfexa">RtlStringCchPrintfEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>

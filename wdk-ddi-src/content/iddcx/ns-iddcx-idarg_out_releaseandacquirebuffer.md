@@ -8,8 +8,6 @@ ms.assetid: d6092c73-b8fb-4f05-97ce-8a6fe67a2b18
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_RELEASEANDACQUIREBUFFER structure"]
 ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
-f1_keywords:
- - "iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_RELEASEANDACQUIREBUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_RELEASEANDACQUIREBUFFER
+ - iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_RELEASEANDACQUIREBUFFER
 ---
 
 # IDARG_OUT_RELEASEANDACQUIREBUFFER structure
@@ -47,19 +46,12 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the 
              acquired swap chain buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MetaData
 
-
                      [out] Per-frame metadata and frame information.
-                 
 

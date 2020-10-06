@@ -8,8 +8,6 @@ ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
 ms.date: 02/23/2018
 keywords: ["EtwWrite function"]
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
-f1_keywords:
- - "wdm/EtwWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- EtwWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EtwWrite
+ - wdm/EtwWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - EtwWrite
 ---
 
 # EtwWrite function
@@ -47,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>EtwWrite</b> function is a tracing function for publishing events in your kernel-mode driver code. 
-
+The <b>EtwWrite</b> function is a tracing function for publishing events in your kernel-mode driver code.
 
 ## -parameters
 
+### -param RegHandle 
 
+[in]
+A pointer to the event provider registration handle, which is returned by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
 
+### -param EventDescriptor 
 
-### -param RegHandle [in]
+[in]
+A pointer to the <a href="/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
-A pointer to the event provider registration handle, which is returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
+### -param ActivityId 
 
+[in, optional]
+The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing.
 
-### -param EventDescriptor [in]
+### -param UserDataCount 
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure. 
-
-
-### -param ActivityId [in, optional]
-
-The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing. 
-
-
-### -param UserDataCount [in]
-
+[in]
 The number of EVENT_DATA_DESCRIPTOR structures in <i>UserData</i>.
 
+### -param UserData 
 
-### -param UserData [in, optional]
-
-A pointer to the array of EVENT_DATA_DESCRIPTOR structures. 
-
+[in, optional]
+A pointer to the array of EVENT_DATA_DESCRIPTOR structures.
 
 ## -returns
-
-
 
 If the event was successfully published, <b>EtwWrite</b> returns STATUS_SUCCESS.
 
@@ -108,13 +100,9 @@ Events can be lost for several reasons; for example, if the event rate is too hi
 
 
 <h3><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> 
+
+```
+ 
  //
  // Register the provider with ETW in DriverEntry
  // Unregister the provider in DriverUnload 
@@ -149,63 +137,48 @@ Events can be lost for several reasons; for example, if the event rate is too hi
  EventDataDescriptor); // Array of data descriptors
     }              
 
-//</pre>
-</td>
-</tr>
-</table></span></div>
-
+//
+```
 
 
 ## -remarks
 
-
-
-The <b>EtwWrite</b> function is the kernel-mode equivalent of the user-mode <b>EventWrite</b> function. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
+The <b>EtwWrite</b> function is the kernel-mode equivalent of the user-mode <b>EventWrite</b> function. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
 
 Before you can call <b>EtwWrite</b> function to publish an event, you must register the provider with <b>EtwRegister</b>. No tracing calls should be made that fall outside of the code bounded by the <b>EtwRegister</b> and <b>EtwUnregister</b> functions. For the best performance, you can call the <b>EtwRegister</b> function in your <b>DriverEntry</b> routine and the <b>EtwUnregister</b> function in your <b>DriverUnload</b> routine.
 
 If you are using the optional <i>UserData</i> parameter in the <b>EtwWrite</b> function to log additional event data, you can use the <b>EventDataDescCreate</b> macro to simplify the creation of the EVENT_DATA_DESCRIPTOR structures. The following example uses the <b>EventDataDescCreate</b> macro to initialize EVENT_DATA_DESCRIPTOR structures with  the name of the device and its status. The <b>EventDataDescCreate</b> macro stores pointers to the data (that is, it does not store copies of the data). The pointers must remain valid until the call to <b>EtwWrite</b> returns.
 
-You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>, <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
-
-
-
+You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>, <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwunregister">EtwUnregister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwunregister">EtwUnregister</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring">EtwWriteString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring">EtwWriteString</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer">EtwWriteTransfer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer">EtwWriteTransfer</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
- 
-
- 
-
+<a href="/windows/win32/api/evntprov/nf-evntprov-eventdatadesccreate">EventDataDescCreate</a>

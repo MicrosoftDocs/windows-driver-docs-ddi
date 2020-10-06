@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SETTARGETGAMMA"
+ - DXGKDDI_SETTARGETGAMMA
+ - d3dkmddi/DXGKDDI_SETTARGETGAMMA
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_SETTARGETGAMMA callback function
 
+
 ## -description
 
 Allows the gamma LUT to be set on a path which is identified by the target id.<div class="alert"><b>Note</b>  This is functionally equivalent to the DxgkDdi_UpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_GAMMA_RAMP field is changed.</div>
@@ -57,7 +59,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetGammaArg
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settargetgamma">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settargetgamma">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
 
 ## -returns
 
@@ -69,4 +71,3 @@ If this routine succeeds, it returns STATUS_SUCCESS.
 ## -remarks
 
 This function is always called at PASSIVE level so the supporting code should be made pageable.
-

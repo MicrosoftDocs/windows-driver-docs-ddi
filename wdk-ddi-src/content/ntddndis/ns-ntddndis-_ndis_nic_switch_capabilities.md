@@ -6,10 +6,8 @@ old-location: netvista\ndis_nic_switch_capabilities.htm
 tech.root: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.date: 05/16/2019
-keywords: ["_NDIS_NIC_SWITCH_CAPABILITIES structure"]
+keywords: ["NDIS_NIC_SWITCH_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
+f1_keywords:
+ - _NDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/_NDIS_NIC_SWITCH_CAPABILITIES
+ - PNDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES
+ - NDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/NDIS_NIC_SWITCH_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_CAPABILITIES
 ---
 
 # _NDIS_NIC_SWITCH_CAPABILITIES structure
@@ -47,18 +50,13 @@ req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 
 ## -description
 
-
 The <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure specifies the capabilities of a NIC switch on the network adapter.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -92,16 +90,13 @@ Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
-
 ### -field NdisReserved1
 
 Reserved for NDIS.
-
 
 ### -field NumTotalMacAddresses
 
@@ -128,11 +123,9 @@ A ULONG value that contains the number of VLANs that are supported for each port
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved3
 
 Reserved for NDIS.
-
 
 ### -field NicSwitchCapabilities
 
@@ -178,9 +171,9 @@ If set to **1**, specifies that the NIC has a limitation on indirection table si
 
 <div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later.</div>
 
-This flag, introduced with NDIS 6.60, specifies that a NIC switch can be created without the use of SR-IOV. This flag allows for separating a NIC switch from the \*SRIOV keyword, meaning that a NIC switch can be created via [OID_NIC_SWITCH_CREATE_SWITCH](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch) even if \*SRIOV = 0.
+This flag, introduced with NDIS 6.60, specifies that a NIC switch can be created without the use of SR-IOV. This flag allows for separating a NIC switch from the \*SRIOV keyword, meaning that a NIC switch can be created via [OID_NIC_SWITCH_CREATE_SWITCH](/windows-hardware/drivers/network/oid-nic-switch-create-switch) even if \*SRIOV = 0.
 
-For more information about reporting NIC switch capabilities for NDIS 6.60 and later miniport drivers, see [Determining NIC Switch Capabilities](https://docs.microsoft.com/windows-hardware/drivers/network/determining-nic-switch-capabilities).
+For more information about reporting NIC switch capabilities for NDIS 6.60 and later miniport drivers, see [Determining NIC Switch Capabilities](/windows-hardware/drivers/network/determining-nic-switch-capabilities).
 
 #### NDIS_NIC_SWITCH_CAPS_VLAN_SUPPORTED
 
@@ -202,11 +195,11 @@ If this flag is not set, all nondefault VPorts must be configured symmetrically 
 
 Regardless of whether this flag is set, the NIC switch must support the ability to set the number of queue pairs on the default VPort. These may differ from the number of queue-pairs that are set on the nondefault VPorts.
 
-<div class="alert"><b>Note</b>  A queue pair consists of a transmit queue and receive queue. Queue pairs associated with the default VPort are configured at the time of switch creation through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>.
-One or more queue pairs are configured on a nondefault VPort through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
+<div class="alert"><b>Note</b>  A queue pair consists of a transmit queue and receive queue. Queue pairs associated with the default VPort are configured at the time of switch creation through an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>.
+One or more queue pairs are configured on a nondefault VPort through an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 </div>
 <div> </div>
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
+For more information, see <a href="/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
 
 
@@ -230,15 +223,13 @@ This flag specifies that the nondefault VPorts can be created in a non-reserved 
 <div> </div>
 If this flag is set, available nondefault VPorts are created and assigned to the PF and allocated VFs. However, this mechanism does not reserve nondefault VPorts for VF creation and assignment. As a result, situations may occur where a VF may not be assigned a VPort if the pool has been exhausted of available VPorts.
 
-<div class="alert"><b>Note</b>  If a VF cannot be assigned a VPort, packet traffic over the VF occurs over the SR-IOV synthetic data path. For more information about this data path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sr-iov-data-paths">SR-IOV Data Paths</a>.</div>
+<div class="alert"><b>Note</b>  If a VF cannot be assigned a VPort, packet traffic over the VF occurs over the SR-IOV synthetic data path. For more information about this data path, see <a href="/windows-hardware/drivers/network/sr-iov-data-paths">SR-IOV Data Paths</a>.</div>
 <div> </div>
 If this flag is not set, the creation and assignment of nondefault VPorts is reserved for VF assignment.  Additional nondefault VPorts  can be created and assigned to the PF. 
 
-For more information about VMQ, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
+For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
 
-For more information about VPorts, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-virtual-ports">Managing Virtual Ports</a>.
-
-
+For more information about VPorts, see <a href="/windows-hardware/drivers/network/managing-virtual-ports">Managing Virtual Ports</a>.
 
 ### -field MaxNumSwitches
 
@@ -259,13 +250,12 @@ A ULONG value that specifies the maximum number of VPorts that can be created on
 
 Reserved for NDIS.
 
-
 ### -field MaxNumVFs
 
 A ULONG value that specifies the maximum number of VFs that can be created on the NIC switch. 
 
 <div class="alert"><b>Note</b>  Depending on the available hardware resources on the network adapter, the miniport driver can set the <b>MaxNumVFs</b> member to a value that is less than its <b>*NumVFs</b>
-keyword. For more information about this keyword, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/standardized-inf-keywords-for-sr-iov">Standardized INF Keywords for SR-IOV</a>.</div>
+keyword. For more information about this keyword, see <a href="/windows-hardware/drivers/network/standardized-inf-keywords-for-sr-iov">Standardized INF Keywords for SR-IOV</a>.</div>
 <div> </div>
 
 ### -field MaxNumQueuePairs
@@ -279,48 +269,39 @@ A ULONG value that specifies the maximum number of queue pairs that can be assig
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved6
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved7
 
 Reserved for NDIS.
 
-
 ### -field MaxNumQueuePairsPerNonDefaultVPort
 
 A ULONG value that specifies the maximum number of queue pairs that can be assigned to a nondefault VPort. 
 
-This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
-
+This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
 ### -field NdisReserved8
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved9
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved10
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved11
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved12
 
 Reserved for NDIS.
-
 
 ### -field MaxNumMacAddresses
 
@@ -333,53 +314,41 @@ A ULONG value that specifies the maximum number of unicast MAC address filters t
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved14
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved15
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved16
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved17
 
 Reserved for NDIS.
 
-
 ### -field MaxNumRssCapableNonDefaultPFVPorts
 
-A ULONG value that specifies the maximum number of RSS-capable non-default PFVPorts. 
-
+A ULONG value that specifies the maximum number of RSS-capable non-default PFVPorts.
 
 ### -field NumberOfIndirectionTableEntriesForDefaultVPort
 
 A ULONG value that specifies the number of indirection table entries for the default VPort.
 
-
 ### -field NumberOfIndirectionTableEntriesPerNonDefaultPFVPort
 
 A ULONG value that specifies the number of indirection table entries for each non-default PFVPort.
-
 
 ### -field MaxNumQueuePairsForDefaultVPort
 
 A ULONG value that specifies the maximum number of queue pairs that can be assigned to the default VPort. 
 
-This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
-
+This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
 ## -remarks
-
-
-
 
     The <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure is used in the 
     members of the following structures:
@@ -388,62 +357,52 @@ This value is specified in powers of 2, and provides for asymmetric configuratio
 <li>
 The <b>HardwareNicSwitchCapabilities</b> and 
     <b>CurrentNicSwitchCapabilities</b> members of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
     NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure.
 
 </li>
 <li>
 The 
     <b>NicSwitchCapabilities</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
     NDIS_FILTER_ATTACH_PARAMETERS</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structures. 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structures. 
 
 </li>
 </ul>
-OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">
+OID query requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">
     OID_NIC_SWITCH_CURRENT_CAPABILITIES</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
+    <a href="/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
     OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a> return an <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>

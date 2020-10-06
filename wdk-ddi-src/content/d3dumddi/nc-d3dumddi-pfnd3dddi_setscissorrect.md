@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetScissorRect"
+ - PFND3DDDI_SETSCISSORRECT
+ - d3dumddi/PFND3DDDI_SETSCISSORRECT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_SETSCISSORRECT callback function
 
+
 ## -description
 
 The <i>SetScissorRect</i> function marks a portion of a render target that rendering is confined to.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pRect* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
 
 ## -returns
 
@@ -66,9 +68,8 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

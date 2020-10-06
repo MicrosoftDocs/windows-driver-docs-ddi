@@ -5,10 +5,8 @@ description: The DXGKARG_CREATEOVERLAY structure describes parameters to create 
 old-location: display\dxgkarg_createoverlay.htm
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_CREATEOVERLAY structure"]
+keywords: ["DXGKARG_CREATEOVERLAY structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
-f1_keywords:
- - "d3dkmddi/DXGKARG_CREATEOVERLAY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_CREATEOVERLAY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CREATEOVERLAY
+f1_keywords:
+ - _DXGKARG_CREATEOVERLAY
+ - d3dkmddi/_DXGKARG_CREATEOVERLAY
+ - DXGKARG_CREATEOVERLAY
+ - d3dkmddi/DXGKARG_CREATEOVERLAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_CREATEOVERLAY
 ---
 
 # _DXGKARG_CREATEOVERLAY structure
@@ -47,41 +48,26 @@ req.typenames: DXGKARG_CREATEOVERLAY
 
 ## -description
 
-
 The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
-
 
 ## -struct-fields
 
-
-
-
 ### -field VidPnSourceId
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the overlay is displayed on. 
-
+[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the overlay is displayed on.
 
 ### -field OverlayInfo
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
-
+[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
 
 ### -field hOverlay
 
 [out] A handle to the newly created overlay.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>

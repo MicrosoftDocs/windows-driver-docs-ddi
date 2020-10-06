@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/GetCaps"
+ - PFND3D10_2DDI_GETCAPS
+ - d3d10umddi/PFND3D10_2DDI_GETCAPS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10_2DDI_GETCAPS callback function
+
 
 ## -description
 
@@ -60,7 +62,7 @@ A handle that identifies the graphics adapter.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 ## -returns
 
@@ -73,11 +75,10 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -remarks
 
-The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member).
+The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddi_adapterfuncs">D3D10_2DDI_ADAPTERFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddi_adapterfuncs">D3D10_2DDI_ADAPTERFUNCS</a>

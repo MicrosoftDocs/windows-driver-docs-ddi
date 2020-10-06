@@ -6,10 +6,8 @@ old-location: display\d3dddicb_reclaimallocations.htm
 tech.root: display
 ms.assetid: 61c8fdbf-b003-4caa-af13-ba6f1e22400c
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_RECLAIMALLOCATIONS structure"]
+keywords: ["D3DDDICB_RECLAIMALLOCATIONS structure"]
 ms.keywords: D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations
-f1_keywords:
- - "d3dumddi/D3DDDICB_RECLAIMALLOCATIONS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDICB_RECLAIMALLOCATIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_RECLAIMALLOCATIONS
+f1_keywords:
+ - _D3DDDICB_RECLAIMALLOCATIONS
+ - d3dumddi/_D3DDDICB_RECLAIMALLOCATIONS
+ - D3DDDICB_RECLAIMALLOCATIONS
+ - d3dumddi/D3DDDICB_RECLAIMALLOCATIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDICB_RECLAIMALLOCATIONS
 ---
 
 # _D3DDDICB_RECLAIMALLOCATIONS structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_RECLAIMALLOCATIONS
 
 ## -description
 
-
-Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocationscb">pfnReclaimAllocationsCb</a> function.
-
+Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the  <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocationscb">pfnReclaimAllocationsCb</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field pResources
 
@@ -71,7 +67,6 @@ If <b>pResources</b> is not <b>NULL</b>, the <b>HandleList</b> member must be <b
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
-
 ### -field pDiscarded
 
 [out] An  array of Boolean values that specify whether each resource or allocation was discarded.
@@ -82,27 +77,18 @@ The DirectX graphics kernel subsystem sets each Boolean value to <b>TRUE</b> if 
 
 The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>NULL</b>, the content of the resource or allocation can be assumed to be lost. If the driver does not need the content of the resource or allocation, setting <b>pDiscarded</b> to <b>NULL</b> might improve performance.
 
-
 ### -field NumAllocations
 
 [in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createresource">CreateResource(D3D11)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createresource">CreateResource(D3D11)</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocationscb">pfnReclaimAllocationsCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocationscb">pfnReclaimAllocationsCb</a>

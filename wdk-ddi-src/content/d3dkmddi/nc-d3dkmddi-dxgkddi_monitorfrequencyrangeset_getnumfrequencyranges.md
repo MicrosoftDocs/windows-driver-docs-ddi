@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumFrequencyRanges"
+ - DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
+ - d3dkmddi/DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback function
 
+
 ## -description
 
 The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descriptors in a specified monitor frequency range set object.
@@ -52,7 +54,7 @@ The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descri
 
 ### -param hMonitorFrequencyRangeSet
 
-[in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <b>pfnGetMonitorFrequencyRangeSet</b> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+[in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <b>pfnGetMonitorFrequencyRangeSet</b> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
 ### -param pNumMonitorFrequencyRanges
 
@@ -67,4 +69,3 @@ The <b>pfnGetNumFrequencyRanges</b> function returns one of the following values
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
-

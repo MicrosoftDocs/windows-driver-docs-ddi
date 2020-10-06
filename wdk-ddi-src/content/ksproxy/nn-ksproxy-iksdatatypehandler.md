@@ -8,8 +8,6 @@ ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.date: 04/23/2018
 keywords: ["IKsDataTypeHandler interface"]
 ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices],described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
-f1_keywords:
- - "ksproxy/IKsDataTypeHandler"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsDataTypeHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsDataTypeHandler
+ - ksproxy/IKsDataTypeHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsDataTypeHandler
 ---
 
 # IKsDataTypeHandler interface
@@ -47,24 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IKsDataTypeHandler</b> interface provides methods that perform optional preprocessing and postprocessing of media samples. This interface also can return the size of extra stream header information that is required for processing and can determine if a particular media type is within a given set of kernel streaming data ranges. 
 
 The IID for this interface is IID_IKsDataTypeHandler.
 
-
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -remarks
 
-
-
-In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a> interface. 
+In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a> interface. 
 
 A data type handler is typically loaded during the pin connection process, and unloaded when the connection is broken. However, a data type handler is sometimes loaded briefly for other purposes. For instance, if an application uses DirectShow's <b>IAMStreamConfig::SetFormat</b> method, the application possibly uses a data type handler to complete a partial media type parameter sent to the method. 
 
@@ -74,16 +69,6 @@ On a data type handler create request through <b>CoCreateInstance</b>, the serve
 
 For more information about <b>IAMStreamConfig::SetFormat</b> and <b>CoCreateInstance</b>, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a>

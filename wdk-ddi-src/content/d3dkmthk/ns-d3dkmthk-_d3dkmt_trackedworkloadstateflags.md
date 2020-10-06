@@ -4,9 +4,10 @@ title: _D3DKMT_TRACKEDWORKLOADSTATEFLAGS (d3dkmthk.h)
 description: Flags that represent the correct GPU configuration including the appropriate frequencies, when the workload level modifies the power level of the context.
 ms.assetid: d9c090e6-85f7-4fa1-b156-268155f18142
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_TRACKEDWORKLOADSTATEFLAGS structure"]
+keywords: ["D3DKMT_TRACKEDWORKLOADSTATEFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADSTATEFLAGS"
+ - "_D3DKMT_TRACKEDWORKLOADSTATEFLAGS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADSTATEFLAGS, D3DKMT_TRACKEDWORKLOADSTATEFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_TRACKEDWORKLOADSTATEFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

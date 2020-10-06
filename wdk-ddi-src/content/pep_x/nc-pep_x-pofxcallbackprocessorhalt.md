@@ -8,8 +8,6 @@ ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKPROCESSORHALT callback function"]
 ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt
-f1_keywords:
- - "pep_x/ProcessorHalt"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pepfx.h
-api_name:
-- ProcessorHalt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - POFXCALLBACKPROCESSORHALT
+ - pep_x/POFXCALLBACKPROCESSORHALT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pepfx.h
+api_name:
+ - ProcessorHalt
 ---
 
-# POFXCALLBACKPROCESSORHALT callback function
+# POFXCALLBACKPROCESSORHALT callback function (pep_x.h)
 
 
 ## -description
 
-
 The <b>ProcessorHalt</b> routine prepares the processor to be halted.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Flags that indicate the properties of the idle state that the processor will enter. The <i>Flags</i> parameter is set to zero or to the bitwise-OR of one or more of the following flag bits.
 
 <table>
@@ -92,22 +87,18 @@ Flags that indicate the properties of the idle state that the processor will ent
 <td></td>
 </tr>
 </table>
- 
 
+### -param Context 
 
-### -param Context [in, out, optional]
+[in, out, optional]
+A pointer to a PEP-defined processor-halt context. This pointer is passed as a parameter to the <i>Halt</i> callback routine. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
 
-A pointer to a PEP-defined processor-halt context. This pointer is passed as a parameter to the <i>Halt</i> callback routine. This context is opaque to the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+### -param Halt 
 
-
-### -param Halt [in]
-
+[in]
 A pointer to a PEP-implemented <i>Halt</i> callback routine. PoFx calls this routine after preparations to halt the processor have been completed. During this callback, the PEP is expected to transition the processor to the <i>halted</i> state.
 
-
 ## -returns
-
-
 
 <b>ProcessorHalt</b> returns STATUS_SUCCESS if the processor is successfully prepared to be halted. Possible error return values include the following status code.
 
@@ -139,20 +130,14 @@ The PEP's <i>Halt</i> callback routine unexpectedly returned from an idle state 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorHalt</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>ProcessorHalt</b> routine.
+This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorHalt</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>ProcessorHalt</b> routine.
 
 Before halting the processor, the PEP calls the <b>ProcessorHalt</b> routine to give PoFx an opportunity to save the processor's hardware context. If necessary, <b>ProcessorHalt</b> saves this state internally in PoFx so that the state can later be restored when the processor exits the idle state. After preparing the processor to enter the idle state, <b>ProcessorHalt</b> calls the PEP's <i>Halt</i> callback routine to halt the processor.
 
-As part of the PEP's handling of a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a> notification, the PEP must transition the processor to the idle state that the PEP has selected. The following are the two ways to enter the processor idle state:
+As part of the PEP's handling of a  <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a> notification, the PEP must transition the processor to the idle state that the PEP has selected. The following are the two ways to enter the processor idle state:
 
 <ul>
 <li>For a processor idle state in which the processor's caches remain coherent so that all system and processor state is maintained, the PEP can enter the idle state directly without first calling <b>ProcessorHalt</b>.</li>
@@ -190,20 +175,10 @@ If the <i>Flags</i> parameter contains an illegal combination of flag bits, <b>P
 
 The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>

@@ -8,8 +8,6 @@ ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.date: 04/16/2018
 keywords: ["SeCreateClientSecurityFromSubjectContext function"]
 ms.keywords: SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml
-f1_keywords:
- - "ntifs/SeCreateClientSecurityFromSubjectContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeCreateClientSecurityFromSubjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeCreateClientSecurityFromSubjectContext
+ - ntifs/SeCreateClientSecurityFromSubjectContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeCreateClientSecurityFromSubjectContext
 ---
 
 # SeCreateClientSecurityFromSubjectContext function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeCreateClientSecurityFromSubjectContext</b> routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call <b>SeImpersonateClientEx</b>.
-
 
 ## -parameters
 
+### -param SubjectContext 
 
-
-
-### -param SubjectContext [in]
-
+[in]
 Pointer to the security subject context of the client to be impersonated.
 
+### -param ClientSecurityQos 
 
-### -param ClientSecurityQos [in]
-
+[in]
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
 
+### -param ServerIsRemote 
 
-### -param ServerIsRemote [in]
-
+[in]
 Set to <b>TRUE</b> if the server of the client's request is remote.
 
+### -param ClientContext 
 
-### -param ClientContext [out]
-
+[out]
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -118,14 +110,8 @@ The client's effective token cannot be passed on for use by another server, beca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SeCreateClientSecurityFromSubjectContext</b> initializes a client security context block to represent a client's security context.
 
@@ -135,24 +121,14 @@ Each call to <b>SeCreateClientSecurityFromSubjectContext</b> must be matched by 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sedeleteclientsecurity">SeDeleteClientSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sedeleteclientsecurity">SeDeleteClientSecurity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a>

@@ -8,8 +8,6 @@ ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::DrvUpdateUISetting"]
 ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],DrvUpdateUISetting method, IPrintCoreUI2.DrvUpdateUISetting, IPrintCoreUI2::DrvUpdateUISetting, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.DrvUpdateUISetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintCoreUI2.DrvUpdateUISetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::DrvUpdateUISetting
+ - prcomoem/IPrintCoreUI2::DrvUpdateUISetting
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintCoreUI2.DrvUpdateUISetting
 ---
 
 # IPrintCoreUI2::DrvUpdateUISetting
@@ -47,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::DrvUpdateUISetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
-
 
 ## -parameters
 
-
-
-
 ### -param pci
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure. 
-
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 ### -param pOptItem
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure describing a user interface option item.
-
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure describing a user interface option item.
 
 ### -param dwPreviousSelection
 
-Not used. 
-
+Not used.
 
 ### -param dwMode
 
@@ -111,12 +102,8 @@ The supplied option item belongs to the Device Settings page of the printer prop
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -159,39 +146,23 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is inherited from the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>, and can be called only by Windows XP Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. When this method is supported, it has the same behavior as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting">IPrintOemDriverUI::DrvUpdateUISetting</a>. When it is not supported, this method should return E_NOTIMPL.
-
-
-
+This method is inherited from the <a href="/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>, and can be called only by Windows XP Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. When this method is supported, it has the same behavior as <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting">IPrintOemDriverUI::DrvUpdateUISetting</a>. When it is not supported, this method should return E_NOTIMPL.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting">IPrintOemDriverUI::DrvUpdateUISetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting">IPrintOemDriverUI::DrvUpdateUISetting</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a>

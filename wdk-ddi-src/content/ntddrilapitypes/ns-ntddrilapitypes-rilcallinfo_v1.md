@@ -8,8 +8,6 @@ ms.assetid: eae7108f-94d5-4147-b554-189c1a356641
 ms.date: 05/02/2018
 keywords: ["RILCALLINFO_V1 structure"]
 ms.keywords: "*LPRILCALLINFO_V1, RILCALLINFO_V1, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v1, ntddrilapitypes/RILCALLINFO_V1"
-f1_keywords:
- - "ntddrilapitypes/RILCALLINFO_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,82 +25,64 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V1, *LPRILCALLINFO_V1
+f1_keywords:
+ - RILCALLINFO_V1
+ - ntddrilapitypes/RILCALLINFO_V1
+ - LPRILCALLINFO_V1
+ - ntddrilapitypes/LPRILCALLINFO_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLINFO_V1
 ---
 
-# RILCALLINFO_V1 structure
+# RILCALLINFO_V1 structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field dwID
 
-
 ### -field dwDirection
-
 
 ### -field dwStatus
 
-
 ### -field dwType
-
 
 ### -field dwMultiparty
 
-
 ### -field raAddress
-
 
 ### -field rsaSubAddress
 
-
 ### -field wszDescription
-
 
 ### -field dwNumberPresentationIndicator
 
-
 ### -field dwNamePresentationIndicator
-
 
 ### -field fAlienCall
 
-
 ### -field dwDisconnectInitiator
 
-
 ### -field dwDisconnectReason
-
 
 ### -field stDisconnectDetails
 

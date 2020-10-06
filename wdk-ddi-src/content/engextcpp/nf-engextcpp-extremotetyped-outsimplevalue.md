@@ -8,8 +8,6 @@ ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::OutSimpleValue"]
 ms.keywords: EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped interface [Windows Debugging],OutSimpleValue method, ExtRemoteTyped.OutSimpleValue, ExtRemoteTyped::OutSimpleValue, OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outsimplevalue
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.OutSimpleValue"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.OutSimpleValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::OutSimpleValue
+ - engextcpp/ExtRemoteTyped::OutSimpleValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.OutSimpleValue
 ---
 
 # ExtRemoteTyped::OutSimpleValue
@@ -47,41 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutSimpleValue</b> method prints the value of the typed data represented by this object.
-
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -remarks
 
-
-
-The <b>OutSimpleValue</b> method does not print as much detail as the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outfullvalue">ExtRemoteTyped::OutFullValue</a> method.
+The <b>OutSimpleValue</b> method does not print as much detail as the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outfullvalue">ExtRemoteTyped::OutFullValue</a> method.
 
 The value is sent to the debugger engine's output callbacks.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outfullvalue">ExtRemoteTyped::OutFullValue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outfullvalue">ExtRemoteTyped::OutFullValue</a>

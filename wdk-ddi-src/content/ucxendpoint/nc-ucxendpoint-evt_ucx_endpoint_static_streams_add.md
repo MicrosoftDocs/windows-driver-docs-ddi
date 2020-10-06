@@ -8,8 +8,6 @@ ms.assetid: 76f94f19-894a-47af-a407-8e14263f1143
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback, EvtUcxEndpointStaticStreamsAdd, EvtUcxEndpointStaticStreamsAdd callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_add, ucxendpoint/EvtUcxEndpointStaticStreamsAdd
-f1_keywords:
- - "ucxendpoint/PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ucxendpoint.h
-api_name:
-- PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
+ - ucxendpoint/EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ucxendpoint.h
+api_name:
+ - PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
 ---
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function
@@ -47,25 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation that UCX calls to create static streams.
-
 
 ## -parameters
 
-
-
-
 ### -param UcxEndpoint
 
+### -param NumberOfStreams 
 
-### -param NumberOfStreams [in]
-
+[in]
 The number of non-default streams to create.
 
+### -param UcxStaticStreamsInit 
 
-### -param UcxStaticStreamsInit [in]
-
+[in]
 A pointer to an opaque structure containing
         initialization information.  This structure is managed by UCX.
 
@@ -74,40 +68,28 @@ A pointer to an opaque structure containing
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
-
 ## -returns
-
-
 
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
 
-
-
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-This callback function creates a UCX static streams object by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamscreate">UcxStaticStreamsCreate</a>
- method. Only one UCX static streams object can be associated with a single endpoint.  The driver then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamssetstreaminfo">UcxStaticStreamsSetStreamInfo</a>
+This callback function creates a UCX static streams object by calling the <a href="/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamscreate">UcxStaticStreamsCreate</a>
+ method. Only one UCX static streams object can be associated with a single endpoint.  The driver then calls <a href="/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamssetstreaminfo">UcxStaticStreamsSetStreamInfo</a>
  once per stream to create a queue for each stream.
 
 A static streams object is not enabled
-    until UCX calls the client driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback function.
+    until UCX calls the client driver's <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback function.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 Endpoint_EvtEndpointStaticStreamsAdd(
     UCXENDPOINT         UcxEndpoint,
     ULONG               NumberOfStreams,
@@ -140,9 +122,5 @@ Endpoint_EvtEndpointStaticStreamsAdd(
 
             UcxStaticStreamsSetStreamInfo(ucxStaticStreams, &streamInfo);
         }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
-
+```

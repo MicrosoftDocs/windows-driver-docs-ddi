@@ -6,10 +6,8 @@ old-location: display\d3dddicb_destroycontext.htm
 tech.root: display
 ms.assetid: 31f1577d-72ba-495a-97e4-0569bdbc0ed7
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_DESTROYCONTEXT structure"]
+keywords: ["D3DDDICB_DESTROYCONTEXT structure"]
 ms.keywords: D3DDDICB_DESTROYCONTEXT, D3DDDICB_DESTROYCONTEXT structure [Display Devices], D3D_param_Structs_40e3c0f9-b30b-4fab-8b4a-a1809f03d0ba.xml, _D3DDDICB_DESTROYCONTEXT, d3dumddi/D3DDDICB_DESTROYCONTEXT, display.d3dddicb_destroycontext
-f1_keywords:
- - "d3dumddi/D3DDDICB_DESTROYCONTEXT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_DESTROYCONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DESTROYCONTEXT
+f1_keywords:
+ - _D3DDDICB_DESTROYCONTEXT
+ - d3dumddi/_D3DDDICB_DESTROYCONTEXT
+ - D3DDDICB_DESTROYCONTEXT
+ - d3dumddi/D3DDDICB_DESTROYCONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_DESTROYCONTEXT
 ---
 
 # _D3DDDICB_DESTROYCONTEXT structure
@@ -47,31 +48,18 @@ req.typenames: D3DDDICB_DESTROYCONTEXT
 
 ## -description
 
-
 The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destroy.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hContext
 
-[in] A handle that the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function returns and that identifies the context to destroy. 
-
+[in] A handle that the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function returns and that identifies the context to destroy.
 
 ## -see-also
 
+<a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroycontextcb">pfnDestroyContextCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroycontextcb">pfnDestroyContextCb</a>

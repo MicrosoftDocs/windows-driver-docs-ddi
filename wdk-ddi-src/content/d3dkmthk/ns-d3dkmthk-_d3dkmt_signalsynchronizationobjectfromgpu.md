@@ -5,10 +5,8 @@ description: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU is used with D3DKMTSignal
 old-location: display\d3dkmt_signalsynchronizationobjectfromgpu.htm
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure"]
+keywords: ["D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure"]
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_signalsynchronizationobjectfromgpu
-f1_keywords:
- - "d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+f1_keywords:
+ - _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+ - d3dkmthk/_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+ - D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+ - d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ---
 
 # _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure
@@ -47,48 +48,30 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 
 ## -description
 
-
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
-
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
 
 ## -struct-fields
-
-
-
 
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream.
 
-
 ### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
-
 
 ### -field ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
-
 ### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
-
 
 ### -field Reserved
 
 This member is reserved and should be set to zero.
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a>

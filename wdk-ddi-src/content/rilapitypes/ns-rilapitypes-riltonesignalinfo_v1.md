@@ -8,8 +8,6 @@ ms.assetid: 3434112f-54b4-4494-8514-fd3d8dc33329
 ms.date: 05/02/2018
 keywords: ["RILTONESIGNALINFO_V1 structure"]
 ms.keywords: "*LPRILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v1, ntddrilapitypes/RILTONESIGNALINFO_V1"
-f1_keywords:
- - "rilapitypes/RILTONESIGNALINFO_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILTONESIGNALINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILTONESIGNALINFO_V1, *LPRILTONESIGNALINFO_V1
+f1_keywords:
+ - RILTONESIGNALINFO_V1
+ - rilapitypes/RILTONESIGNALINFO_V1
+ - LPRILTONESIGNALINFO_V1
+ - rilapitypes/LPRILTONESIGNALINFO_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILTONESIGNALINFO_V1
 ---
 
-# RILTONESIGNALINFO_V1 structure
+# RILTONESIGNALINFO_V1 structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwGPPTone
 
-
 ### -field dwGPP2Tone
-
 
 ### -field dwGPP2IsdnAlerting
 

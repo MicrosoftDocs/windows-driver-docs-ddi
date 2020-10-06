@@ -8,8 +8,6 @@ ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.date: 04/30/2018
 keywords: ["RtlStringCchVPrintfW function"]
 ms.keywords: RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfA, ntstrsafe/RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchVPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchVPrintfW
-- RtlStringCchVPrintfA
-- RtlStringCchVPrintfW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchVPrintfW
+ - ntstrsafe/RtlStringCchVPrintfW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchVPrintfW
+ - RtlStringCchVPrintfA
+ - RtlStringCchVPrintfW
 ---
 
 # RtlStringCchVPrintfW function
@@ -50,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchVPrintfW</b> and <b>RtlStringCchVPrintfA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
-
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [out]
-
+[out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>.
 
+### -param cchDest 
 
-### -param cchDest [in]
-
+[in]
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
+### -param pszFormat 
 
-### -param pszFormat [in]
-
+[in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
 
+### -param argList 
 
-### -param argList [in]
-
+[in]
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
-
 
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -132,14 +124,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchVPrintfW</b> and <b>RtlStringCchVPrintfA</b> should be used instead of the following functions: 
 
@@ -206,28 +192,18 @@ L"string"
 
 If <i>pszDest</i> and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, the behavior of the function is undefined.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>.
+Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfa">RtlStringCchPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfa">RtlStringCchPrintf</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>

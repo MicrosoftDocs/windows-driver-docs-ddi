@@ -8,8 +8,6 @@ ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.date: 02/26/2018
 keywords: ["WdfCompanionTargetWdmGetCompanionProcess function"]
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
-f1_keywords:
- - "wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompaniontarget.h
-api_name:
-- WdfCompanionTargetWdmGetCompanionProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCompanionTargetWdmGetCompanionProcess
+ - wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompaniontarget.h
+api_name:
+ - WdfCompanionTargetWdmGetCompanionProcess
 ---
 
 # WdfCompanionTargetWdmGetCompanionProcess function
@@ -47,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param CompanionTarget 
 
-
-
-### -param CompanionTarget [in]
+[in]
 

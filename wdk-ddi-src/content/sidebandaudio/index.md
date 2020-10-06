@@ -8,15 +8,15 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - sidebandaudio
+ - sidebandaudio/sidebandaudio
 ---
 
 # sidebandaudio.h header
 
+The sidebandaudio.h header is used by audio. For more information, see:
 
-This header is used by audio. For more information, see:
-
-- [Audio](../_audio/index.md)
+[Audio](../_audio/index.md)

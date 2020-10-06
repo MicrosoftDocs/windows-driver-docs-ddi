@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DeletePixelShader"
+ - PFND3DDDI_DELETEPIXELSHADER
+ - d3dumddi/PFND3DDDI_DELETEPIXELSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DELETEPIXELSHADER callback function
+
 
 ## -description
 
@@ -66,13 +68,12 @@ A handle to the pixel shader code object.
 
 ## -remarks
 
-The <b>DeletePixelShader</b> function notifies the driver about the deletion of the pixel shader code object that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a> function created. The driver can then clean up any driver-side resources that are associated with the pixel shader code.
+The <b>DeletePixelShader</b> function notifies the driver about the deletion of the pixel shader code object that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a> function created. The driver can then clean up any driver-side resources that are associated with the pixel shader code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

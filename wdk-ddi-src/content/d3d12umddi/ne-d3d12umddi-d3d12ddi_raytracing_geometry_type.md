@@ -20,7 +20,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TYPE"
+ - D3D12DDI_RAYTRACING_GEOMETRY_TYPE
+ - d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TYPE
 topic_type:
  - apiref
 api_type:
@@ -36,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_RAYTRACING_GEOMETRY_TYPE enumeration
+
 
 ## -description
 

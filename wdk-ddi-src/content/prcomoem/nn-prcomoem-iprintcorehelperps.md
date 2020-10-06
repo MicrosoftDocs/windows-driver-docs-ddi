@@ -8,8 +8,6 @@ ms.assetid: 2be594f1-1eb1-42e0-a345-ee7edf4d96dd
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperPS interface"]
 ms.keywords: IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], IPrintCoreHelperPS interface [Print Devices],described, prcomoem/IPrintCoreHelperPS, print.iprintcorehelperps_interface, print_unidrv-pscript_allplugins_793ff9db-3ae7-4c10-a84e-bc974a72529e.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelperPS"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreHelperPS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelperPS
+ - prcomoem/IPrintCoreHelperPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreHelperPS
 ---
 
 # IPrintCoreHelperPS interface
@@ -47,14 +46,11 @@ req.typenames:
 
 ## -description
 
-
-This section describes the methods that are defined for the <b>IPrintCoreHelperPS</b> COM interface. 
-
+This section describes the methods that are defined for the <b>IPrintCoreHelperPS</b> COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperPS</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperPS</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperPS</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperPS</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

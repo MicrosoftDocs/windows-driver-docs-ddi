@@ -1,62 +1,65 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA_EX
 title: _KBUGCHECK_SECONDARY_DUMP_DATA_EX
-author: windows-driver-content
 description: 
-tech.root:
+tech.root: 
 ms.assetid: 85ff55ca-e626-4214-9844-2eac78b9dcc5
-ms.author: windowsdriverdev
 ms.date: 06/03/2019
-keywords: ["_KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"]
-f1_keywords:
- - "wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
-ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA_EX, KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX, 
+keywords: ["KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"]
+ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA_EX, KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX,
 req.header: wdm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wdm.h
-api_name: 
-- _KBUGCHECK_SECONDARY_DUMP_DATA_EX
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _KBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - PKBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - wdm/PKBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - KBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - wdm/KBUGCHECK_SECONDARY_DUMP_DATA_EX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - _KBUGCHECK_SECONDARY_DUMP_DATA_EX
+product:
+ - Windows
 ---
 
 # _KBUGCHECK_SECONDARY_DUMP_DATA_EX structure
 
+
 ## -description
 
-The <b>KBUGCHECK_SECONDARY_DUMP_DATA_EX</b> structure describes multipart data to be written by [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine to the crash dump file.
-
+The <b>KBUGCHECK_SECONDARY_DUMP_DATA_EX</b> structure describes multipart data to be written by [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine to the crash dump file.
 
 ## -struct-fields
 
 ### -field InBuffer
 
 Pointer to a buffer that is allocated by the system.
- 
+
 ### -field InBufferLength
 
 Specifies the size of the buffer, in bytes, specified by the <b>InBuffer</b> member.
- 
+
 ### -field MaximumAllowed
 
-Specifies the maximum amount of data that the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) routine can write to the crash dump file.
+Specifies the maximum amount of data that the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) routine can write to the crash dump file.
 
 ### -field Guid
 
@@ -91,7 +94,7 @@ Indicates that the <b>Address</b> member contains a physical address.
 Indicates that the callback routine requests that it be called again so that it can add more pages.
 
 The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
- 
+
 ### -field DumpType
 
 One of the following dump types.
@@ -107,11 +110,11 @@ One of the following dump types.
     DUMP_TYPE_BITMAP_KERNEL     = 6,
     DUMP_TYPE_AUTOMATIC         = 7
 ```
- 
+
 ### -field BugCheckCode
 
 Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
- 
+
 ### -field BugCheckParameter1
 
 Bug Check Parameter 1. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
@@ -127,12 +130,12 @@ Bug Check Parameter 3. The bug check parameters inform the callback the bugcheck
 ### -field BugCheckParameter4
 
 Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
- 
+
 ## -remarks
 
-For more information about bug check callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about bug check callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
-[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)
+<a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)

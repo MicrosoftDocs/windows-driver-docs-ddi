@@ -8,8 +8,6 @@ ms.assetid: af6ecdb7-8713-460d-8fd9-ef027ac15b39
 ms.date: 04/16/2018
 keywords: ["FsRtlRemoveDotsFromPath function"]
 ms.keywords: FsRtlRemoveDotsFromPath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath
-f1_keywords:
- - "ntifs/FsRtlRemoveDotsFromPath"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRemoveDotsFromPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlRemoveDotsFromPath
+ - ntifs/FsRtlRemoveDotsFromPath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRemoveDotsFromPath
 ---
 
 # FsRtlRemoveDotsFromPath function
@@ -47,80 +46,52 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlRemoveDotsFromPath</b> routine removes unnecessary occurrences of '.' and '..' from the specified path.
-
 
 ## -parameters
 
+### -param OriginalString 
 
-
-
-### -param OriginalString [in, out]
-
+[in, out]
 A pointer to the buffer to be processed.
 
+### -param PathLength 
 
-### -param PathLength [in]
-
+[in]
 The length of buffer (in bytes).
 
+### -param NewLength 
 
-### -param NewLength [out]
-
+[out]
 A pointer to the new length of the buffer, after processing.
-
 
 ## -returns
 
-
-
 The<b> FsRtlRemoveDotsFromPath</b> routine returns either STATUS_SUCCESS value for success or STATUS_IO_REPARSE_DATA_INVALID if the operation could not be completed.
-
-
-
 
 ## -remarks
 
-
-
 This routine would take a path as <i>OriginalString</i> like the following example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\dir1\dir2\..\dir3\.\file.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\dir1\dir2\..\dir3\.\file.txt
+```
+
 The routine would modify <i>OriginalString</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\dir1\dir3\file.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\dir1\dir3\file.txt
+```
+
 The routine will fail with STATUS_IO_REPARSE_DATA_INVALID if any of the following strings are passed as <i>OriginalString</i>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\..
+
+```
+\..
 ..
-..\anyOtherContent</pre>
-</td>
-</tr>
-</table></span></div>
+..\anyOtherContent
+```
 
 

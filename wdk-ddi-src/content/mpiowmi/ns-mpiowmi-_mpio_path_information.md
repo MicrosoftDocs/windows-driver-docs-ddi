@@ -6,10 +6,8 @@ old-location: storage\mpio_path_information.htm
 tech.root: storage
 ms.assetid: 12383ae0-69c8-4546-9560-08aa4a50de8e
 ms.date: 03/29/2018
-keywords: ["_MPIO_PATH_INFORMATION structure"]
+keywords: ["MPIO_PATH_INFORMATION structure"]
 ms.keywords: "*PMPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices], PMPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION structure pointer [Storage Devices], _MPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, mpiowmi/PMPIO_PATH_INFORMATION, storage.mpio_path_information, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml"
-f1_keywords:
- - "mpiowmi/MPIO_PATH_INFORMATION"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiowmi.h
-api_name:
-- MPIO_PATH_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION
+f1_keywords:
+ - _MPIO_PATH_INFORMATION
+ - mpiowmi/_MPIO_PATH_INFORMATION
+ - PMPIO_PATH_INFORMATION
+ - mpiowmi/PMPIO_PATH_INFORMATION
+ - MPIO_PATH_INFORMATION
+ - mpiowmi/MPIO_PATH_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiowmi.h
+api_name:
+ - MPIO_PATH_INFORMATION
 ---
 
 # _MPIO_PATH_INFORMATION structure
@@ -47,24 +50,17 @@ req.typenames: MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION
 
 ## -description
 
-
 The MPIO_PATH_INFORMATION structure represents a top-level view of all the paths that are under MPIO control. To query the path information, the request must be sent to the MPIO control object by using its WMI instance name.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberPaths
 
 An unsigned 32-bitfield that represents the total number of paths that MPIO is aware of.
 
-
 ### -field Pad
 
 Should be zero.
-
 
 ### -field PathList
 

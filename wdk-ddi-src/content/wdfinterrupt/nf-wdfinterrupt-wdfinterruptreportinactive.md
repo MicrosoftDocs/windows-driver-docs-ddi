@@ -8,8 +8,6 @@ ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.date: 02/26/2018
 keywords: ["WdfInterruptReportInactive function"]
 ms.keywords: WdfInterruptReportInactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive
-f1_keywords:
- - "wdfinterrupt/WdfInterruptReportInactive"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfInterruptReportInactive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfInterruptReportInactive
+ - wdfinterrupt/WdfInterruptReportInactive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfInterruptReportInactive
 ---
 
 # WdfInterruptReportInactive function
@@ -48,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    
   The <b>WdfInterruptReportInactive</b> method informs the system that the interrupt is no longer active and the driver is not expecting interrupt requests on the associated lines.
 
-
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in]
-
+[in]
 A handle to a framework interrupt object.
 
-
 ## -remarks
-
-
 
 Only drivers that implement functional state power management call <b>WdfInterruptReportInactive</b>.
 
 When a driver calls <b>WdfInterruptReportInactive</b>, the power management framework (PoFx) can then  perform related power management tasks.
 
-Typically, a driver calls <b>WdfInterruptReportInactive</b> from either its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> routine, or from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> when <i>State</i> is greater than zero  (indicating a low-power Fx state).
+Typically, a driver calls <b>WdfInterruptReportInactive</b> from either its  <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> routine, or from <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> when <i>State</i> is greater than zero  (indicating a low-power Fx state).
 
-If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
+If your driver calls this method on an operating system earlier than Windows 8, <a href="/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
 #### Examples
 
-The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 ```cpp
 VOID
@@ -130,15 +122,6 @@ MyComponentIdleStateCallback(
 
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptreportactive">WdfInterruptReportActive</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptreportactive">WdfInterruptReportActive</a>

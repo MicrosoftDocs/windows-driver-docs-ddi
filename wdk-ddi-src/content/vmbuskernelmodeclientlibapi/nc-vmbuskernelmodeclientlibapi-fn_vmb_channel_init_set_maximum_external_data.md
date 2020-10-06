@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 09e113ef-d1a5-444a-99c9-06a2a46c9734
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA callback function
+
 
 ## -description
 
@@ -48,25 +48,6 @@ ms.custom: RS5
 The <b>VmbChannelInitSetMaximumExternalData</b> function sets the maximum size and chain length of data that is described by a
 packet, but not directly sent in the packet. That is, the maximum size of the
 buffer described by an <b>ExternalDataMdl</b>.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA FnVmbChannelInitSetMaximumExternalData; 
-
-// Definition
-
-NTSTATUS FnVmbChannelInitSetMaximumExternalData 
-(
-	VMBCHANNEL Channel
-	UINT32 DataSize
-	UINT32 ChainLength
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -137,6 +118,25 @@ The <i>ChainLength</i> value is  invalid. Zero (0) is invalid.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA FnVmbChannelInitSetMaximumExternalData; 
+
+// Definition
+
+NTSTATUS FnVmbChannelInitSetMaximumExternalData 
+(
+	VMBCHANNEL Channel
+	UINT32 DataSize
+	UINT32 ChainLength
+)
+{...}
+
+```
+
 ## -remarks
 
 The KMCL ensures that your ring buffers are large enough to send packets that contain buffers in the specified limits.
@@ -147,3 +147,4 @@ The KMCL ensures that your ring buffers are large enough to send packets that co
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

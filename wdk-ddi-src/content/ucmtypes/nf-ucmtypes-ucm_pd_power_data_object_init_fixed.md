@@ -8,8 +8,6 @@ ms.assetid: AC51EA77-7F5B-42DE-B366-7BCE46AA5097
 ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], buses.ucm_pd_power_data_object_init_fixed, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
-f1_keywords:
- - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmtypes.h
-api_name:
-- UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
+ - ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmtypes.h
+api_name:
+ - UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
 ---
 
 # UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function
@@ -47,38 +46,21 @@ req.typenames:
 
 ## -description
 
-
-Initializes a to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
-
+Initializes a to the <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
 
 ## -parameters
 
+### -param Pdo 
 
-
-
-### -param Pdo [out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
-
+[out]
+A pointer to a <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
 
 ## -remarks
-
-
 
 For different types of Power Data Objects, see the power delivery specification. 
 
 This function initializes the structure and sets Power Data Object as a Fixed Supply type. The client driver must set the remaining members with values relevant to the specific object type.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a>

@@ -8,8 +8,6 @@ ms.assetid: fd14e983-ea4b-41f2-973d-88b114306e75
 ms.date: 05/02/2018
 keywords: ["NdisMInvalidateOffloadComplete function"]
 ms.keywords: NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInvalidateOffloadComplete, netvista.ndisminvalidateoffloadcomplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml
-f1_keywords:
- - "ndischimney/NdisMInvalidateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NdisMInvalidateOffloadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMInvalidateOffloadComplete
+ - ndischimney/NdisMInvalidateOffloadComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisMInvalidateOffloadComplete
 ---
 
 # NdisMInvalidateOffloadComplete function
@@ -47,41 +46,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 An offload target calls the 
   <b>NdisMInvalidateOffloadComplete</b> function to complete an invalidate offload operation that was
   initiated by a previous call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
+  <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
   MiniportInvalidateOffload</a> function of the offload target.
-
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle that the offload target obtained in a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
+### -param OffloadBlockList 
 
-### -param OffloadBlockList [in]
-
+[in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The ofload target obtained this pointer as an input
      parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
      MiniportInvalidateOffload</a> function.
 
-
 ## -remarks
-
-
 
 Before calling the 
     <b>NdisMInvalidateOffloadComplete</b> function, the offload target must write either of the following
@@ -106,24 +98,15 @@ The invalidate operation did not succeed. In this case, the offload target has s
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>

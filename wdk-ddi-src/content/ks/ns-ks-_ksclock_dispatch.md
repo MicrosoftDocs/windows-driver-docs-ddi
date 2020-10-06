@@ -6,10 +6,8 @@ old-location: stream\ksclock_dispatch.htm
 tech.root: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.date: 04/23/2018
-keywords: ["_KSCLOCK_DISPATCH structure"]
+keywords: ["KSCLOCK_DISPATCH structure"]
 ms.keywords: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], _KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, stream.ksclock_dispatch"
-f1_keywords:
- - "ks/KSCLOCK_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSCLOCK_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
+f1_keywords:
+ - _KSCLOCK_DISPATCH
+ - ks/_KSCLOCK_DISPATCH
+ - PKSCLOCK_DISPATCH
+ - ks/PKSCLOCK_DISPATCH
+ - KSCLOCK_DISPATCH
+ - ks/KSCLOCK_DISPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSCLOCK_DISPATCH
 ---
 
 # _KSCLOCK_DISPATCH structure
+
 
 ## -description
 
@@ -52,7 +56,7 @@ The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to impl
 
 ### -field SetTimer
 
-Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding **CancelTimer** function must also be provided. This is set to **NULL** if the default [KeSetTimerEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex) function is used to approximate the next notification time. This would normally be set only if a **KeSetTimerEx** function was being used. The function must have the same characteristics as the default function.
+Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding **CancelTimer** function must also be provided. This is set to **NULL** if the default [KeSetTimerEx](../wdm/nf-wdm-kesettimerex.md) function is used to approximate the next notification time. This would normally be set only if a **KeSetTimerEx** function was being used. The function must have the same characteristics as the default function.
 
 The function should be prototyped as follows:
 
@@ -91,7 +95,7 @@ The current clock time should be returned and the current system time should be 
 
 ### -field Resolution
 
-A pointer to a function to specify the resolution of the clock. This corresponds to the KS property [KSPROPERTY_CLOCK_RESOLUTION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution). This function should report the granularity in terms of 100-nanosecond units. For more information, see the KS documentation on KSPROPERTY_CLOCK_RESOLUTION.
+A pointer to a function to specify the resolution of the clock. This corresponds to the KS property [KSPROPERTY_CLOCK_RESOLUTION](/windows-hardware/drivers/stream/ksproperty-clock-resolution). This function should report the granularity in terms of 100-nanosecond units. For more information, see the KS documentation on KSPROPERTY_CLOCK_RESOLUTION.
 
 The function should be prototyped as follows:
 
@@ -102,14 +106,14 @@ void Resolution (IN PKSPIN Pin,
 
 ## -see-also
 
-[KDPC](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess)
+[KDPC](/windows-hardware/drivers/kernel/eprocess)
 
-[KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin)
+[KSPIN](./ns-ks-_kspin.md)
 
-[KSPIN_DISPATCH](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch)
+[KSPIN_DISPATCH](./ns-ks-_kspin_dispatch.md)
 
-[KSPROPERTY_CLOCK_RESOLUTION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution)
+[KSPROPERTY_CLOCK_RESOLUTION](/windows-hardware/drivers/stream/ksproperty-clock-resolution)
 
-[KSRESOLUTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution)
+[KSRESOLUTION](./ns-ks-ksresolution.md)
 
-[KeSetTimerEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex)
+[KeSetTimerEx](../wdm/nf-wdm-kesettimerex.md)

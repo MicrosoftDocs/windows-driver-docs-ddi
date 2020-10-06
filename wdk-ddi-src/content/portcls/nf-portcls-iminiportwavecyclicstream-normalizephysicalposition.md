@@ -8,8 +8,6 @@ ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveCyclicStream::NormalizePhysicalPosition"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],NormalizePhysicalPosition method, IMiniportWaveCyclicStream.NormalizePhysicalPosition, IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
-f1_keywords:
- - "portcls/IMiniportWaveCyclicStream.NormalizePhysicalPosition"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportWaveCyclicStream.NormalizePhysicalPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportWaveCyclicStream::NormalizePhysicalPosition
+ - portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportWaveCyclicStream.NormalizePhysicalPosition
 ---
 
 # IMiniportWaveCyclicStream::NormalizePhysicalPosition
@@ -47,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <code>NormalizePhysicalPosition</code> method converts a physical buffer position to a time-based value.
-
 
 ## -parameters
 
+### -param PhysicalPosition 
 
-
-
-### -param PhysicalPosition [in, out]
-
+[in, out]
 Pointer to a caller-allocated variable that contains either the physical position or the time-based value. On entry, this buffer contains the physical-position value to convert. On return, the buffer contains the converted value, which is time-based.
-
 
 ## -returns
 
-
-
 <code>NormalizePhysicalPosition</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
 <i>PhysicalPosition</i> is both an input and an output parameter. Given a physical position based on the actual number of bytes transferred, <code>NormalizePhysicalPosition</code> converts the position to a time-based value of 100-nanosecond units.
-
-
 

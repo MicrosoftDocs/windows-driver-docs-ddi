@@ -8,8 +8,6 @@ ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.date: 03/29/2018
 keywords: ["StorPortPoFxPowerControl function"]
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
-f1_keywords:
- - "storport/StorPortPoFxPowerControl"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- storport.lib
-- storport.dll
-api_name:
-- StorPortPoFxPowerControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortPoFxPowerControl
+ - storport/StorPortPoFxPowerControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - storport.lib
+ - storport.dll
+api_name:
+ - StorPortPoFxPowerControl
 ---
 
 # StorPortPoFxPowerControl function
@@ -48,58 +47,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortPoFxPowerControl</b> routine sends a power control request to the power management framework (PoFx) to forward to the power engine plug-in (PEP).
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
-A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>.
-
+[in]
+A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>.
 
 ### -param Address
 
 <p>A pointer to the power control code. This code is a GUID value that specifies the requested operation.</p>
 
+### -param PowerControlCode 
 
-### -param PowerControlCode [in]
-
+[in]
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
+### -param InBuffer 
 
-### -param InBuffer [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
+### -param InBufferSize 
 
-### -param InBufferSize [in]
-
+[in]
 The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, set <i>InBufferSize</i> to zero.
 
+### -param OutBuffer 
 
-### -param OutBuffer [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that is to contain the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
+### -param OutBufferSize 
 
-### -param OutBufferSize [in]
-
+[in]
 The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, set <i>OutBufferSize</i> to zero.
 
+### -param BytesReturned 
 
-### -param BytesReturned [out, optional]
-
+[out, optional]
 A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written will be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need to know how many bytes were written to the output buffer.
 
-
 ## -returns
-
-
 
 The <b>StorPortPoFxPowerControl</b> routine returns one of these status codes:
 
@@ -172,33 +163,17 @@ The power control operation was unsuccessful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A minport driver calls this routine to send a power control request directly to the PEP. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PEP and is not observed by other device drivers in the device stack. During a <b>StorPortPoFxPowerControl</b> call, the PEP synchronously performs the requested operation.
 
-Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
-
-
-
+Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> and <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>

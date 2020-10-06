@@ -5,10 +5,8 @@ description: Arguments for the DxgkDdiGetPostCompositionCaps function.
 old-location: display\dxgkarg_getpostcompositioncaps.htm
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_GETPOSTCOMPOSITIONCAPS structure"]
+keywords: ["DXGKARG_GETPOSTCOMPOSITIONCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
-f1_keywords:
- - "d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_GETPOSTCOMPOSITIONCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
+f1_keywords:
+ - _DXGKARG_GETPOSTCOMPOSITIONCAPS
+ - d3dkmddi/_DXGKARG_GETPOSTCOMPOSITIONCAPS
+ - DXGKARG_GETPOSTCOMPOSITIONCAPS
+ - d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_GETPOSTCOMPOSITIONCAPS
 ---
 
 # _DXGKARG_GETPOSTCOMPOSITIONCAPS structure
@@ -47,24 +48,17 @@ req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 
 ## -description
 
-
 Arguments for the DxgkDdiGetPostCompositionCaps function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VidPnSourceId
 
 [in] Indicates the VidPn source for which post composition capabilities are queried.
 
-
 ### -field MaxStretchFactor
 
 [out] Indicates the maximum stretch factor that can be applied.
-
 
 ### -field MaxShrinkFactor
 

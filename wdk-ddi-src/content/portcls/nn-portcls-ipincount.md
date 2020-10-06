@@ -8,8 +8,6 @@ ms.assetid: 9e02584a-4c65-4400-b06e-58ba095c8dd0
 ms.date: 05/08/2018
 keywords: ["IPinCount interface"]
 ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices],described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
-f1_keywords:
- - "portcls/IPinCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPinCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPinCount
+ - portcls/IPinCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPinCount
 ---
 
 # IPinCount interface
 
 
 ## -description
-
 
 The <code>IPinCount</code> interface provides a means for the miniport driver to monitor and manipulate its pin counts dynamically as pins are instantiated and closed. This interface is implemented in the miniport driver. To determine whether a miniport driver supports this interface, the port driver calls the miniport object's <b>QueryInterface</b> method with REFIID <b>IID_IPinCount</b>. <code>IPinCount</code> inherits from the <b>IUnknown</b> interface.
 
@@ -68,7 +66,6 @@ When opening a "heavyweight" stream, the miniport driver might need to decrement
 
 The process is reversed when a "heavyweight" stream is closed. The available pin count might increase by more than one in order to reflect the fact that two or more "lightweight" streams can be created from the newly freed resources.
 
-If a miniport driver does not support the <code>IPinCount</code> interface, the port driver uses the statically initialized pin counts in the filter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a> array.
+If a miniport driver does not support the <code>IPinCount</code> interface, the port driver uses the statically initialized pin counts in the filter's <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a> array.
 
 The <code>IPinCount</code> interface provides a single method. The port driver that is bound to the miniport driver calls this method in response to a pin-count query.
-

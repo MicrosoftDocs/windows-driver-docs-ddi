@@ -8,8 +8,6 @@ ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
 ms.date: 10/29/2019
 keywords: ["FWPS_CALLOUT_NOTIFY_FN2 callback function"]
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2 callback, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
-f1_keywords:
- - "fwpsk/notifyFn2"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Fwpsk.h
-api_name:
-- notifyFn2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_CALLOUT_NOTIFY_FN2
+ - fwpsk/FWPS_CALLOUT_NOTIFY_FN2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpsk.h
+api_name:
+ - notifyFn2
 ---
 
 # FWPS_CALLOUT_NOTIFY_FN2 callback function
@@ -47,21 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls a callout's 
   <i>notifyFn2</i> callout function to notify the callout driver about events that are associated with the
-  callout.<div class="alert"><b>Note</b>  <i>notifyFn2</i> is the specific version of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">notifyFn</a> used in Windows 8 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> is available.</div>
+  callout.<div class="alert"><b>Note</b>  <i>notifyFn2</i> is the specific version of <a href="/windows-hardware/drivers/ddi/_netvista/">notifyFn</a> used in Windows 8 and later. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a> is available. For Windows Vista, <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> is available.</div>
 <div> </div>
-
-
 
 ## -parameters
 
+### -param notifyType 
 
-
-
-### -param notifyType [in]
-
+[in]
 A value that indicates the type of notification that the filter engine is sending to the callout.
      Valid values for this parameter are:
      
@@ -88,19 +82,19 @@ A filter is being deleted from the filter engine that specifies the callout for 
 
 A maximum value for testing purposes.
 
+### -param filterKey 
 
-### -param filterKey [in]
-
+[in]
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be NULL if the 
      <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see the
      following Remarks section.
 
+### -param filter 
 
-### -param filter [in, out]
-
+[in, out]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> structure. This structure
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.
      
 
@@ -109,7 +103,7 @@ A callout driver's
      <b>Context</b> member of this structure to point to a callout driver-supplied context structure when the
      filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
      used by the callout driver's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function to preserve
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function to preserve
      any driver-specific data or state information between calls by the filter engine to the callout driver's     
      <i>classifyFn2</i> callout function.
 
@@ -117,10 +111,7 @@ A callout driver's
      <i>notifyFn2</i> function can clean up any context associated with the filter when the filter is deleted
      from the filter engine.
 
-
 ## -returns
-
-
 
 A callout's 
      <i>notifyFn2</i> function returns one of the following NTSTATUS codes.
@@ -157,17 +148,11 @@ An error occurred. If the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A callout driver registers a callout's callout functions with the filter engine by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function.
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function.
 
 The filter engine calls a callout driver's 
     <i>notifyFn2</i> function to notify the callout driver about events that are associated with the callout.
@@ -188,7 +173,7 @@ If a callout driver registers a callout with the filter engine after filters tha
     for the filter's action, the callout driver must call the appropriate management functions to enumerate
     all the filters in the filter engine and sort through the resulting list of filters to find those that
     specify the callout for the filter's action. See 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
+    <a href="/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
     Windows Filtering Platform Functions</a> for more information about calling these functions.
 
 When a filter that specifies a callout for the filter's action is deleted from the filter engine, the
@@ -196,43 +181,33 @@ When a filter that specifies a callout for the filter's action is deleted from t
     <i>notifyFn2</i> function and passes FWP_CALLOUT_NOTIFY_DELETE_FILTER in the 
     <i>notifyType</i> parameter and NULL in the 
     <i>filterKey</i> parameter. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/processing-notify-callouts">Processing Notify Callouts</a>.
+    <a href="/windows-hardware/drivers/network/processing-notify-callouts">Processing Notify Callouts</a>.
 
 This function is essentially identical to the previous version, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>. The only difference is the 
-       updated <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> structure pointed to by the 
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>. The only difference is the 
+       updated <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a> structure pointed to by the 
        <i>filter</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter2">FWPS_FILTER2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a>
+<a href="/windows-hardware/drivers/ddi/_netvista/">notifyFn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">notifyFn</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>

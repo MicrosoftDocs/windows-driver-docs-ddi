@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - procgrp
+ - procgrp/procgrp
 ---
 
 # Procgrp.h header
@@ -18,7 +19,7 @@ tech.root: kernel
 
 ## -description
 
-
 This provides the new kernel programming interfaces for device drivers to run on downlevel systems. The library implements wrapper functions for processor-group <b>Ke<i>Xxx</i></b> routines.
 
 - [Windows kernel](../_kernel/index.md)
+

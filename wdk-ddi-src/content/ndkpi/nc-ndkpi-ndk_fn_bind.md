@@ -8,8 +8,6 @@ ms.assetid: F363C538-A5D7-4A08-B7CD-CA7D7346AC10
 ms.date: 05/02/2018
 keywords: ["NDK_FN_BIND callback function"]
 ms.keywords: NDK_FN_BIND, NDK_FN_BIND callback, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkBind, NdkBind callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBind, netvista.ndk_fn_bind
-f1_keywords:
- - "ndkpi/NdkBind"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkBind
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_BIND
+ - ndkpi/NDK_FN_BIND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkBind
 ---
 
 # NDK_FN_BIND callback function
@@ -47,49 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkBind</i> (<i>NDK_FN_BIND</i>) function binds a memory window to a specific sub-region of a memory region (MR).
-
 
 ## -parameters
 
+### -param pNdkQp 
 
+[in]
+A pointer to an NDK queue pair (QP) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
+### -param RequestContext 
 
-### -param pNdkQp [in]
+[in, optional]
+A context value to return in the <b>RequestContext</b> member of the <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
-A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
+### -param pMr 
 
+[in]
+A pointer to an NDK memory region (MR) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
-### -param RequestContext [in, optional]
+### -param pMw 
 
-A context value to return in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
+[in]
+A pointer to an NDK memory window (MW) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 
+### -param VirtualAddress 
 
-### -param pMr [in]
-
-A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
-
-
-### -param pMw [in]
-
-A pointer to an NDK memory window (MW) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
-
-
-### -param VirtualAddress [in]
-
+[in]
 A virtual address that must be greater than or equal to the virtual address of the MDL for the MR and less than the virtual address of the MDL for the MR plus the value in the <i>Length</i> parameter.
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro to obtain the virtual address of the MDL for the MR.
+Use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro to obtain the virtual address of the MDL for the MR.
 
+### -param Length 
 
-### -param Length [in]
+[in]
+The length of the MR to bind to the MW.
 
-The length of the MR to bind to the MW. 
+### -param Flags 
 
-
-### -param Flags [in]
-
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>
@@ -148,19 +143,15 @@ Enable write access to the memory window for any connected peer. To access the m
 </dl>
 </td>
 <td width="60%">
-Indicates to the NDK provider that it may defer indicating the request to hardware for processing. For more information about this flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>.
+Indicates to the NDK provider that it may defer indicating the request to hardware for processing. For more information about this flag, see <a href="/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>.
 
 <b>Note</b>  This flag is supported only in NDKPI 1.2 (Windows Server 2012 R2) and later.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
      <i>NdkBind</i> function returns one of the following NTSTATUS codes.
@@ -216,61 +207,45 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>NdkBind</i> binds a memory window (MW) to a specific sub-region of a memory region (MR).
 
 The address in the <i>VirtualAddress</i> parameter must be an address within the virtually contiguous region that is described by the MDL chain that was specified during memory registration. The address must be treated by the provider as an index into the memory region. The address must not be used by the provider as a valid virtual address for reading or writing buffer contents.
 
-After this call returns, the remote token will be available with the <i>NdkGetRemotetokenFromMw</i> function (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_remote_token_from_mw">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>).
+After this call returns, the remote token will be available with the <i>NdkGetRemotetokenFromMw</i> function (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_remote_token_from_mw">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>).
 
 This function does not support a zero-based virtual address.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+<a href="/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>
+<a href="/windows-hardware/drivers/network/ndkpi-work-request-posting-requirements">NDKPI Work Request Posting Requirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-work-request-posting-requirements">NDKPI Work Request Posting Requirements</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_remote_token_from_mw">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_remote_token_from_mw">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>

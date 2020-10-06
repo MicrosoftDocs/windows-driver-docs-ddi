@@ -8,8 +8,6 @@ ms.assetid: 9ba6f693-b0b7-4176-b951-7bb259bec391
 ms.date: 04/16/2018
 keywords: ["RtlNtStatusToDosError function"]
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], ifsk.rtlntstatustodoserror, ntifs/RtlNtStatusToDosError, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml
-f1_keywords:
- - "ntifs/RtlNtStatusToDosError"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlNtStatusToDosError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNtStatusToDosError
+ - ntifs/RtlNtStatusToDosError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNtStatusToDosError
 ---
 
 # RtlNtStatusToDosError function
@@ -47,36 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlNtStatusToDosError</b> routine converts the specified NTSTATUS code to its equivalent system error code. 
-
+The <b>RtlNtStatusToDosError</b> routine converts the specified NTSTATUS code to its equivalent system error code.
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 The NTSTATUS code to be converted.
-
 
 ## -returns
 
-
-
 <b>RtlNtStatusToDosError</b> returns the corresponding system error code. Error codes are defined in <i>Winerror.h</i>.
 
-<b>RtlNtStatusToDosError</b> returns ERROR_MR_MID_NOT_FOUND when the specified NTSTATUS code does not have a corresponding system error code. For more information about system error codes, see  <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. 
-
-
-
+<b>RtlNtStatusToDosError</b> returns ERROR_MR_MID_NOT_FOUND when the specified NTSTATUS code does not have a corresponding system error code. For more information about system error codes, see  <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
-
-
-There is no function that provides the inverse functionality of <b>RtlNtStatusToDosError</b>, converting a system error code to its corresponding NTSTATUS code. 
-
-
-
+There is no function that provides the inverse functionality of <b>RtlNtStatusToDosError</b>, converting a system error code to its corresponding NTSTATUS code.

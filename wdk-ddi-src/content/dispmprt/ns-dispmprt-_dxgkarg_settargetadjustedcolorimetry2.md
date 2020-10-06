@@ -4,41 +4,45 @@ title: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 (dispmprt.h)
 description: Arguments used in the DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function.
 ms.assetid: 5d6faac0-b479-4a4b-8d10-6607607fa5d5
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2"
-ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, 
+keywords: ["DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure"]
+ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- dispmprt.h
-api_name: 
-- _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+ - dispmprt/_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+ - PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+ - dispmprt/PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+ - DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+ - dispmprt/DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure
+
 
 ## -description
 
@@ -55,6 +59,7 @@ The identifier of a display adapter's video present target.
 A [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) structure containing the colorimetry related fields for the monitor attached to this target after the OS has processed the display device descriptor, all overrides and any adjustments.
 
 ### -field SdrWhiteLevel
+
  
 This represents the SDR (standard dynamic range) white level value in nits for all SDR content displayed to the video present target.
 
@@ -75,3 +80,4 @@ The driver is also potentially responsible for boosting the contents of an SDR M
 ## -remarks
 
 ## -see-also
+

@@ -5,39 +5,38 @@ description: The EnumerateModules method creates an enumerator which will enumer
 ms.assetid: 1eb51e30-762b-4c52-9297-52a620fd8104
 ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::EnumerateModules"]
-f1_keywords:
- - "dbgmodel/IDebugHostSymbols.EnumerateModules"
 ms.keywords: IDebugHostSymbols::EnumerateModules, EnumerateModules, IDebugHostSymbols.EnumerateModules, IDebugHostSymbols::EnumerateModules, IDebugHostSymbols.EnumerateModules
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostSymbols.EnumerateModules
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostSymbols::EnumerateModules
+ - dbgmodel/IDebugHostSymbols::EnumerateModules
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostSymbols.EnumerateModules
 ---
 
 # IDebugHostSymbols::EnumerateModules
@@ -45,18 +44,20 @@ ms.custom: RS5
 
 ## -description
 
-The EnumerateModules method creates an enumerator which will enumerate every module available in a particular host context. That host context might encapsulate a process context or it might encapsulate something like the Windows kernel. 
+The EnumerateModules method creates an enumerator which will enumerate every module available in a particular host context. That host context might encapsulate a process context or it might encapsulate something like the Windows kernel.
 
 ## -parameters
 
 ### -param context
+
 The host context for which to enumerate every loaded module.
 
 ### -param moduleEnum
+
 An enumerator which will enumerate every module loaded into the given context will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -97,4 +98,6 @@ if (SUCCEEDED(spHost.As(&spSym)))
 ```
 
 ## -see-also
+
 [IDebugHostSymbols interface](nn-dbgmodel-idebughostsymbols.md)
+

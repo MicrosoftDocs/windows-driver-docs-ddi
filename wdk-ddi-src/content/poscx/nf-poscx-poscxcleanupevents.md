@@ -8,8 +8,6 @@ ms.assetid: AD97BA14-8786-47A2-B551-2DB6FC7F83A8
 ms.date: 02/23/2018
 keywords: ["PosCxCleanupEvents function"]
 ms.keywords: PosCxCleanupEvents, PosCxCleanupEvents function, pos.poscxcleanupevents, poscx/PosCxCleanupEvents
-f1_keywords:
- - "poscx/PosCxCleanupEvents"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxCleanupEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxCleanupEvents
+ - poscx/PosCxCleanupEvents
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxCleanupEvents
 ---
 
 # PosCxCleanupEvents function
+
 
 ## -description
 
@@ -51,11 +51,13 @@ PosCxCleanupEvents is called to clean up all pending events for a given caller, 
 
 ## -parameters
 
-### -param device [in]
+### -param device 
 
+[in]
 A handle to a framework device object that represents the device.
 
-### -param fileObject [in]
+### -param fileObject 
 
+[in]
 A handle to a framework file object for which all pending events should be cleaned up.
 

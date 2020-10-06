@@ -8,8 +8,6 @@ ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.date: 04/23/2018
 keywords: ["KsSetMajorFunctionHandler function"]
 ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
-f1_keywords:
- - "ks/KsSetMajorFunctionHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsSetMajorFunctionHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsSetMajorFunctionHandler
+ - ks/KsSetMajorFunctionHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsSetMajorFunctionHandler
 ---
 
 # KsSetMajorFunctionHandler function
+
 
 ## -description
 
@@ -51,12 +51,14 @@ The **KsSetMajorFunctionHandler** function sets the handler for a specified majo
 
 ## -parameters
 
-### -param DriverObject [in]
+### -param DriverObject 
 
+[in]
 Specifies the driver object whose major function is to be handled.
 
-### -param MajorFunction [in]
+### -param MajorFunction 
 
+[in]
 Specifies the major function identifier to be handled. This sets the major function pointer in the driver object to an internal function that then dispatches to the **KSDISPATCH_TABLE** function. The pointer to this table is assumed to be the first element in a structure pointed to by **FsContext** in the file object of the specific IRP being dispatched. The valid major function identifiers are as listed.
 
 | Identifier | Description |
@@ -84,3 +86,4 @@ KSDISPATCH_FASTIO
 ```
 
 This flag may be used to specify that the fast I/O entry should be set rather than the IRP-based entry.
+

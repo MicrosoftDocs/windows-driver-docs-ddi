@@ -8,8 +8,6 @@ ms.assetid: 586820c5-5662-4f2d-9413-d06b9794173a
 ms.date: 03/29/2018
 keywords: ["ChangerSetAccess function"]
 ms.keywords: ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, mcd/ChangerSetAccess, storage.changersetaccess
-f1_keywords:
- - "mcd/ChangerSetAccess"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- ChangerSetAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerSetAccess
+ - mcd/ChangerSetAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - ChangerSetAccess
 ---
 
 # ChangerSetAccess function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-<b>ChangerSetAccess</b> handles the device-specific aspects of a device-control IRP with the IOCTL code<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_access"> IOCTL_CHANGER_SET_ACCESS</a>. 
-
+<b>ChangerSetAccess</b> handles the device-specific aspects of a device-control IRP with the IOCTL code<a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_access"> IOCTL_CHANGER_SET_ACCESS</a>.
 
 ## -parameters
 
+### -param DeviceObject 
 
+[in]
+Pointer to the device object that represents the changer.
 
+### -param Irp 
 
-### -param DeviceObject [in]
-
-Pointer to the device object that represents the changer. 
-
-
-### -param Irp [in]
-
-Pointer to the IRP. 
-
+[in]
+Pointer to the IRP.
 
 ## -returns
-
-
 
 If the changer supports setting access, <b>ChangerSetAccess</b> returns the STATUS_<i>XXX </i>value returned by the system port driver or one of the following values:
       
@@ -81,18 +73,13 @@ STATUS_INVALID_PARAMETER
 
 If the changer does not support setting access, ChangerSetAccess returns STATUS_INVALID_DEVICE_REQUEST.
 
-
-
-
 ## -remarks
-
-
 
 This routine is required.
 
 <b>ChangerSetAccess</b> locks or unlocks a changer's IEport, door, or keypad, and extends or retracts an IEport.
 
-The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerSetAccess</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a> structure as an input parameter that indicates the element to set and the operation to perform.
+The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerSetAccess</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a> structure as an input parameter that indicates the element to set and the operation to perform.
 
 <b>ChangerSetAccess</b> first checks for unsupported elements and operations, and returns the appropriate status code for those it doesn't support.
 
@@ -100,24 +87,14 @@ Next, <b>ChangerSetAccess</b> translates the zero-based element address passed b
 
 Finally, <b>ChangerSetAccess</b> builds an SRB with a CDB for the given operation on the given element and sends it to the system port driver. The command to use depends on the changer. For example, the Exabyte miniclass driver uses the SCSI command PREVENT ALLOW MEDIUM REMOVAL to lock or unlock a changer door and MOVE MEDIUM to extend or retract an IEport.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>

@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VARIABLE_SHADING_RATE_TIER
 title: D3D12DDI_VARIABLE_SHADING_RATE_TIER
-author: windows-driver-content
 description: Indicates the tier at which variable rate shading occurs.
 tech.root: display
 ms.assetid: 52c5d637-560d-4bf7-99f9-484adbbadfd3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VARIABLE_SHADING_RATE_TIER enumeration"]
 ms.keywords: D3D12DDI_VARIABLE_SHADING_RATE_TIER, D3D12DDI_VARIABLE_SHADING_RATE_TIER,
@@ -22,7 +20,8 @@ req.typenames: D3D12DDI_VARIABLE_SHADING_RATE_TIER
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_VARIABLE_SHADING_RATE_TIER"
+ - D3D12DDI_VARIABLE_SHADING_RATE_TIER
+ - d3d12umddi/D3D12DDI_VARIABLE_SHADING_RATE_TIER
 topic_type:
  - apiref
 api_type:
@@ -38,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_VARIABLE_SHADING_RATE_TIER enumeration
+
 
 ## -description
 

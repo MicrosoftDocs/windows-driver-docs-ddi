@@ -8,8 +8,6 @@ ms.assetid: aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a
 ms.date: 02/26/2018
 keywords: ["EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess
-f1_keywords:
- - "wdfdevice/EvtDeviceWdmIrpPreprocess"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfdevice.h
-api_name:
-- EvtDeviceWdmIrpPreprocess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDFDEVICE_WDM_IRP_PREPROCESS
+ - wdfdevice/EVT_WDFDEVICE_WDM_IRP_PREPROCESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfdevice.h
+api_name:
+ - EvtDeviceWdmIrpPreprocess
 ---
 
 # EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function
@@ -47,58 +46,45 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceWdmIrpPreprocess</i> event callback function receives an IRP before the framework processes the IRP.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
-
+[in, out]
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
 ## -returns
-
-
 
 The <i>EvtDeviceWdmIrpPreprocess</i> callback function must:
 
 
 <ul>
-<li>Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b>, and return the same value (after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>), if the callback function successfully completes the received IRP.</li>
-<li>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>FALSE</b>, and return the same value (after calling IoCompleteRequest), if the callback function detects an error. </li>
-<li>Return STATUS_PENDING, if the callback function calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>. 
+<li>Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b>, and return the same value (after calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>), if the callback function successfully completes the received IRP.</li>
+<li>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>FALSE</b>, and return the same value (after calling IoCompleteRequest), if the callback function detects an error. </li>
+<li>Return STATUS_PENDING, if the callback function calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>. 
 </li>
-<li>Return the value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> method returns, if the callback function calls that method. 
+<li>Return the value that the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> method returns, if the callback function calls that method. 
 </li>
 </ul>
 
-
-
-
-
 ## -remarks
 
-
-
-To register an <i>EvtDeviceWdmIrpPreprocess</i> callback function, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>. 
+To register an <i>EvtDeviceWdmIrpPreprocess</i> callback function, your driver must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>. 
 
 Your driver can use an <i>EvtDeviceWdmIrpPreprocess</i> callback function to do any, or all, of the following:
 
 <ul>
 <li>
- Handle an IRP that the framework does not support, by following the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-irps">WDM rules for handling IRPs</a>. 
+ Handle an IRP that the framework does not support, by following the <a href="/windows-hardware/drivers/kernel/handling-irps">WDM rules for handling IRPs</a>. 
 
 </li>
 <li>
@@ -110,29 +96,18 @@ Your driver can use an <i>EvtDeviceWdmIrpPreprocess</i> callback function to do 
 
 </li>
 </ul>
-For more information about how to implement an <i>EvtDeviceWdmIrpPreprocess</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-wdm-irps-outside-of-the-framework">Handling WDM IRPs Outside of the Framework</a>.
+For more information about how to implement an <i>EvtDeviceWdmIrpPreprocess</i> callback function, see <a href="/windows-hardware/drivers/wdf/handling-wdm-irps-outside-of-the-framework">Handling WDM IRPs Outside of the Framework</a>.
 
-If you want the framework to subsequently handle the IRP as it would if the <i>EvtDeviceWdmIrpPreprocess</i> callback function had not been called, the callback function must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> to return the IRP to the framework.
+If you want the framework to subsequently handle the IRP as it would if the <i>EvtDeviceWdmIrpPreprocess</i> callback function had not been called, the callback function must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> to return the IRP to the framework.
 
-If your driver registers an <i>EvtDeviceWdmIrpPreprocess</i> callback function, the framework adds an additional <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> to IRPs that the callback function receives. The additional I/O stack location allows the callback function to set an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>.
+If your driver registers an <i>EvtDeviceWdmIrpPreprocess</i> callback function, the framework adds an additional <a href="/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> to IRPs that the callback function receives. The additional I/O stack location allows the callback function to set an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine before it calls <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>.
 
-The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of the calling thread. The IRQL is determined by the type of IRP that the framework is passing to <i>EvtDeviceWdmIrpPreprocess</i>. For example, if the PnP manager sends <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> at IRQL = PASSIVE_LEVEL, the framework calls <i>EvtDeviceWdmIrpPreprocess</i> at IRQL = PASSIVE_LEVEL.
-
-
-
-
+The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of the calling thread. The IRQL is determined by the type of IRP that the framework is passing to <i>EvtDeviceWdmIrpPreprocess</i>. For example, if the PnP manager sends <a href="/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> at IRQL = PASSIVE_LEVEL, the framework calls <i>EvtDeviceWdmIrpPreprocess</i> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>

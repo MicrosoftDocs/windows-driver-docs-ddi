@@ -8,8 +8,6 @@ ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.date: 05/02/2018
 keywords: ["NdisStallExecution macro"]
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
-f1_keywords:
- - "ndis/NdisStallExecution"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisStallExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisStallExecution
+ - ndis/NdisStallExecution
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisStallExecution
 ---
 
 # NdisStallExecution macro
@@ -47,24 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisStallExecution</b> function stalls the caller on the current processor for a given interval.
 
-
 ## -parameters
-
-
-
 
 ### -param MicroSecondsToStall
 
 The number of microseconds to delay. A driver should specify no more than 50 microseconds.
 
-
 ## -remarks
-
-
 
 <b>NdisStallExecution</b> is a processor-dependent function that busy-waits for at least the specified
     number of microseconds, but not significantly longer.
@@ -74,31 +65,21 @@ This function should be called by drivers that must wait for an interval of more
     microseconds that they specify.
 
 If a driver must wait for an interval longer than 50 microseconds, it should call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsleep">NdisMSleep</a> function. Note that callers of 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsleep">NdisMSleep</a> function. Note that callers of 
     <b>NdisMSleep</b> run at IRQL < DISPATCH_LEVEL.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsleep">NdisMSleep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsleep">NdisMSleep</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissettimerobject">NdisSetTimerObject</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissettimerobject">NdisSetTimerObject</a>

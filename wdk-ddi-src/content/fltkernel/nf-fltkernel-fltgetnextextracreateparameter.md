@@ -8,8 +8,6 @@ ms.assetid: 8eae5ac8-9da5-475f-8fbb-5e118bad4e67
 ms.date: 04/16/2018
 keywords: ["FltGetNextExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_c458316b-2dd7-4ff2-a59f-a6dfbd659f47.xml, FltGetNextExtraCreateParameter, FltGetNextExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltGetNextExtraCreateParameter, ifsk.fltgetnextextracreateparameter
-f1_keywords:
- - "fltkernel/FltGetNextExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetNextExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetNextExtraCreateParameter
+ - fltkernel/FltGetNextExtraCreateParameter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetNextExtraCreateParameter
 ---
 
 # FltGetNextExtraCreateParameter function
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltGetNextExtraCreateParameter</b> routine returns a pointer to the next (or first) extra create parameter context structure (ECP) in a given ECP list.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
+### -param EcpList 
 
-### -param EcpList [in]
-
+[in]
 Pointer to the ECP list to examine.
 
+### -param CurrentEcpContext 
 
-### -param CurrentEcpContext [in, optional]
-
+[in, optional]
 Optional pointer to an ECP in the given ECP list.  If present, <b>FltGetNextExtraCreateParameter</b> returns the ECP after the <i>CurrentEcpContext</i> ECP.  If <i>CurrentEcpContext</i> is <b>NULL</b>, <b>FltGetNextExtraCreateParameter</b> returns the first ECP in the list.
 
+### -param NextEcpType 
 
-### -param NextEcpType [out, optional]
-
+[out, optional]
 Optional parameter that receives a pointer to the GUID of the returned ECP.
 
+### -param NextEcpContext 
 
-### -param NextEcpContext [out, optional]
-
+[out, optional]
 Optional parameter that receives a pointer to the returned ECP.
 
+### -param NextEcpContextSize 
 
-### -param NextEcpContextSize [out, optional]
-
+[out, optional]
 Optional parameter that receives the size, in bytes, of the returned ECP.
 
-
 ## -returns
-
-
 
 <b>FltGetNextExtraCreateParameter</b> returns one of the following NTSTATUS values:
 
@@ -131,77 +123,61 @@ The <i>EcpList</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is available starting with Windows Vista. 
 
 The<b>FltGetNextExtraCreateParameter</b> routine processes an ECP list in a non-circular manner.  That is, if the ECP pointed to by the <i>CurrentEcpContext</i> parameter is the last ECP element in the ECP list, there is no "next" ECP in the list and the routine returns STATUS_NOT_FOUND.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist">FltAllocateExtraCreateParameterList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist">FltAllocateExtraCreateParameterList</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist">FltFreeExtraCreateParameterList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist">FltFreeExtraCreateParameterList</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata">FltGetEcpListFromCallbackData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata">FltGetEcpListFromCallbackData</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter">FltInsertExtraCreateParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter">FltInsertExtraCreateParameter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>

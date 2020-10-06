@@ -5,39 +5,38 @@ description: The OverrideContextObject method is an method which is used to perm
 ms.assetid: bb28b47c-7311-4572-9d87-0331a5cc728a
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::OverrideContextObject"]
-f1_keywords:
- - "dbgmodel/IModelKeyReference2.OverrideContextObject"
 ms.keywords: IModelKeyReference2::OverrideContextObject, OverrideContextObject, IModelKeyReference2.OverrideContextObject, IModelKeyReference2::OverrideContextObject, IModelKeyReference2.OverrideContextObject
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelKeyReference2.OverrideContextObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelKeyReference2::OverrideContextObject
+ - dbgmodel/IModelKeyReference2::OverrideContextObject
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelKeyReference2.OverrideContextObject
 ---
 
 # IModelKeyReference2::OverrideContextObject
@@ -45,14 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-The OverrideContextObject method (only present on [IModelKeyReference2](nn-dbgmodel-imodelkeyreference2.md)) is an advanced method which is used to permanently alter the context object which this key reference will pass to any underlying property accessor's GetValue or SetValue methods. The object passed to this method will also be returned from a call to GetContextObject. This method can be used by script providers to replicate certain dynamic language behaviors. Most clients should not call this method. 
+The OverrideContextObject method (only present on [IModelKeyReference2](nn-dbgmodel-imodelkeyreference2.md)) is an advanced method which is used to permanently alter the context object which this key reference will pass to any underlying property accessor's GetValue or SetValue methods. The object passed to this method will also be returned from a call to GetContextObject. This method can be used by script providers to replicate certain dynamic language behaviors. Most clients should not call this method.
 
 ## -parameters
 
 ### -param newContextObject
+
 The new context object to pass to any underlying property accessor's GetValue or SetValue methods.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -85,3 +86,4 @@ if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
 ## -see-also
 
 [IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
+

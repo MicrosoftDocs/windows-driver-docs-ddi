@@ -6,10 +6,8 @@ old-location: netvista\ndis_ipsec_offload_v2.htm
 tech.root: netvista
 ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
 ms.date: 05/02/2018
-keywords: ["_NDIS_IPSEC_OFFLOAD_V2 structure"]
+keywords: ["NDIS_IPSEC_OFFLOAD_V2 structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml"
-f1_keywords:
- - "ntddndis/NDIS_IPSEC_OFFLOAD_V2"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_IPSEC_OFFLOAD_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
+f1_keywords:
+ - _NDIS_IPSEC_OFFLOAD_V2
+ - ntddndis/_NDIS_IPSEC_OFFLOAD_V2
+ - PNDIS_IPSEC_OFFLOAD_V2
+ - ntddndis/PNDIS_IPSEC_OFFLOAD_V2
+ - NDIS_IPSEC_OFFLOAD_V2
+ - ntddndis/NDIS_IPSEC_OFFLOAD_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_IPSEC_OFFLOAD_V2
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V2 structure
@@ -47,42 +50,33 @@ req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
 
 ## -description
 
-
 <p class="CCE_Message">[The IPsec Task Offload feature is deprecated and should not be used.]
 
 The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec)
   version 2 task offload capabilities in the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
-
+  <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field Encapsulation
 
 The MAC encapsulation types that are supported for IPsec offload. For more information about this
      member, see the following Remarks section.
 
-
 ### -field IPv6Supported
 
 A BOOLEAN value that is set to <b>TRUE</b> if IPsec offload processing on IPv6 traffic is supported.
      Otherwise, this member is <b>FALSE</b>.
-
 
 ### -field IPv4Options
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC supports IPsec offload of packets with IPv4
      options. Otherwise, this member is <b>FALSE</b>.
 
-
 ### -field IPv6NonIPsecExtensionHeaders
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC supports IPsec offload processing for packets with
      non-IPsec IPv6 extension headers in addition to IPsec headers. Otherwise, this member is <b>FALSE</b>.
-
 
 ### -field Ah
 
@@ -90,13 +84,11 @@ A BOOLEAN value that is set to <b>TRUE</b> if the NIC can perform IPsec offload 
      receive packets that contain an authentication header (AH) security payload. Otherwise, this member is
      <b>FALSE</b>.
 
-
 ### -field Esp
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC can perform IPsec offload operations on send and
      receive packets that contain an encapsulating security payload (ESP). Otherwise, this member is
      <b>FALSE</b>.
-
 
 ### -field AhEspCombined
 
@@ -104,13 +96,11 @@ A BOOLEAN value that is set to <b>TRUE</b> if the NIC can perform IPsec offload 
      receive packets that contain both an AH payload and an ESP payload. Otherwise, this member is
      <b>FALSE</b>.
 
-
 ### -field Transport
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC can process security payloads for the
      transport-mode portion of send and receive packets. (The transport-mode portion of a packet pertains to
      an end-to-end connection.) Otherwise, this member is <b>FALSE</b>.
-
 
 ### -field Tunnel
 
@@ -130,29 +120,26 @@ A BOOLEAN value that is set to <b>TRUE</b> if the NIC can process security paylo
      is <b>FALSE</b>. The transport-mode portion of a packet pertains to an end-to-end connection. The tunnel-mode
      portion of a packet pertains to a tunnel connection.
 
-
 ### -field LsoSupported
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC supports large send offload (LSO). Otherwise, this
      member is <b>FALSE</b>. Note that the LSO capabilities of the NIC are specified in the 
      <b>LsoV1</b> or 
      <b>LsoV2</b> members of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure. The 
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure. The 
      <b>LsoSupported</b> flag indicates that the capabilities that are specified in those members are also
      valid if the connection is secured with IPsec.
-
 
 ### -field ExtendedSequenceNumbers
 
 A BOOLEAN value that is set to <b>TRUE</b> if the NIC supports IPsec extended sequence numbers.
      Otherwise, this member is <b>FALSE</b>.
 
-
 ### -field UdpEsp
 
 The types of UDP-encapsulated ESP data packets that the NIC can parse. For a description of the
      UDP-encapsulation types, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/udp-esp-encapsulation-types">UDP-ESP Encapsulation Types</a>. This
+     <a href="/windows-hardware/drivers/network/udp-esp-encapsulation-types">UDP-ESP Encapsulation Types</a>. This
      member can be one or more of the following flags:
      
 
@@ -193,7 +180,6 @@ IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-e
 
 IPsec offload is supported for the tunnel-mode portion of a packet that is not UDP-encapsulated.
        The transport-mode portion of a packet is UDP-encapsulated and ESP-protected.
-
 
 ### -field AuthenticationAlgorithms
 
@@ -244,7 +230,6 @@ The NIC can use the AES-GMAC 192 algorithm for computing or validating a cryptog
 
 The NIC can use the AES-GMAC 256 algorithm for computing or validating a cryptographic
        checksum.
-
 
 ### -field EncryptionAlgorithms
 
@@ -316,21 +301,17 @@ The NIC can use the AES-CBC 192 algorithm for encrypting and decrypting ESP payl
 
 The NIC can use the AES-CBC 256 algorithm for encrypting and decrypting ESP payloads.
 
-
 ### -field SaOffloadCapacity
 
 The number of SA bundles, which might include ESP or AH or both, that can be offloaded to the NIC.
      The TCP/IP maintains a count of the number of offloaded SA bundles and should not add more than the
      maximum number of SA bundles that the miniport driver reported.
 
-
 ## -remarks
-
-
 
 In NDIS 6.1 and later versions, the NDIS_IPSEC_OFFLOAD_V2 structure is used in the 
     <b>IPsecV2</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure. The
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure. The
     NDIS_IPSEC_OFFLOAD_V2 structure specifies the current or supported capabilities that a miniport adapter
     provides for IPsec offload processing.
 
@@ -338,21 +319,21 @@ In NDIS 6.1 and later versions, the NDIS_IPSEC_OFFLOAD_V2 structure is used in t
     <b>Tunnel</b> member.</div>
 <div> </div>
 NDIS_OFFLOAD is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
+    <a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 For 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
+    <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
     the NDIS_OFFLOAD structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offload capabilities change, a miniport driver reports the new capabilities in an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
+    <a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 The 
@@ -360,14 +341,14 @@ The
     adapter supports for IPsec offload.
 
 In response to an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> query request, NDIS provides a bitwise OR of the encapsulation
     flags, which indicate the supported encapsulation settings, in the 
     <b>Encapsulation</b> member. Miniport drivers must provide Ethernet encapsulation
     (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
 For an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
+    <a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication, the miniport driver provides a bitwise
     OR of the encapsulation flags, which indicate the current capabilities, in the 
     <b>Encapsulation</b> member.
@@ -375,52 +356,40 @@ For an
 The following flags are defined for the 
     <b>Encapsulation</b> member:
 
-
-
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v1">NDIS_IPSEC_OFFLOAD_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v1">NDIS_IPSEC_OFFLOAD_V1</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
+<a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>

@@ -1,40 +1,44 @@
 ---
 UID: NE:ntddstor._DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 title: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
-author: windows-driver-content
 description: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE identifies the data type to be queried.
 tech.root: storage
 ms.assetid: 9f0e23b4-015f-41f7-861f-b474c4e85444
-ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: enum
-f1_keywords:
- - "ntddstor/DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE"
-ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, 
+ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+ - ntddstor/_DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+ - PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+ - ntddstor/PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+ - DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+ - ntddstor/DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
+product:
+ - Windows
 ---
 
 # DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE enumeration
+
 
 ## -description
 
@@ -67,3 +71,4 @@ The [DEVICE_INTERNAL_STATUS_DATA_SET](ne-ntddstor-device_internal_status_data_se
 [GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST](ns-ntddstor-get_device_internal_status_data_request.md)
 
 [IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG](ni-ntddstor-ioctl_storage_get_device_internal_log.md)
+

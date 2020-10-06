@@ -8,8 +8,6 @@ ms.assetid: 1E1AC024-D628-4E31-80EF-8E929B8449FE
 ms.date: 02/15/2018
 keywords: ["NfcCxDeviceDeinitialize function"]
 ms.keywords: NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize
-f1_keywords:
- - "nfccx/NfcCxDeviceDeinitialize"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Nfccsstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NfcCx.dll
-api_name:
-- NfcCxDeviceDeinitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NfcCxDeviceDeinitialize
+ - nfccx/NfcCxDeviceDeinitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NfcCx.dll
+api_name:
+ - NfcCxDeviceDeinitialize
 ---
 
 # NfcCxDeviceDeinitialize function
@@ -47,40 +46,22 @@ req.typenames:
 
 ## -description
 
-
 Called by the client driver after a WDF device has been created during the AddDevice routine.
 
-
 ## -parameters
-
-
-
 
 ### -param Device
 
 A handle to a framework device object.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

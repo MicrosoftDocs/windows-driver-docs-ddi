@@ -8,8 +8,6 @@ ms.assetid: dd833373-2879-49f0-9b16-fddb2f7495c1
 ms.date: 05/02/2018
 keywords: ["NdisReleaseSpinLock macro"]
 ms.keywords: NdisReleaseSpinLock, NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisReleaseSpinLock, ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, netvista.ndisreleasespinlock
-f1_keywords:
- - "ndis/NdisReleaseSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisReleaseSpinLock
+ - ndis/NdisReleaseSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisReleaseSpinLock
 ---
 
 # NdisReleaseSpinLock macro
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisReleaseSpinLock</b> function releases a spin lock that was acquired in a preceding call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> function.
-
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> function.
 
 ## -parameters
 
+### -param _SpinLock 
 
-
-
-### -param _SpinLock [in]
-
+[in]
 Pointer to the acquired spin lock to be released.
-
 
 ## -remarks
 
-
-
 A driver must initialize its spin lock with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> before it calls
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> before it calls
     any other 
     <b>Ndis..SpinLock</b> function to access the resources protected by that spin lock.
 
 A driver must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> to acquire the
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> to acquire the
     spin lock before it can call 
     <b>NdisReleaseSpinLock</b>. Each call to 
     <b>NdisAcquireSpinLock</b> requires a reciprocal call to 
@@ -91,27 +83,17 @@ Any spin lock acquired with
     <b>NdisDprReleaseSpinLock</b>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">NdisDprAcquireSpinLock</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">NdisDprAcquireSpinLock</a>

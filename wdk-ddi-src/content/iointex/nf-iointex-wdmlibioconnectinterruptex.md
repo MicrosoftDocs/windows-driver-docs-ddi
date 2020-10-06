@@ -8,8 +8,6 @@ ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.date: 04/30/2018
 keywords: ["WdmlibIoConnectInterruptEx function"]
 ms.keywords: IoConnectInterruptEx, WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex
-f1_keywords:
- - "iointex/WdmlibIoConnectInterruptEx"
 req.header: iointex.h
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- WdmlibIoConnectInterruptEx
-- IoConnectInterruptEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdmlibIoConnectInterruptEx
+ - iointex/WdmlibIoConnectInterruptEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WdmlibIoConnectInterruptEx
+ - IoConnectInterruptEx
 ---
 
 # WdmlibIoConnectInterruptEx function
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>WdmlibIoConnectInterruptEx</b> function registers an interrupt-handling routine for a device's interrupts.
-
 
 ## -parameters
 
+### -param Parameters 
 
-
-
-### -param Parameters [in, out]
-
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
-
+[in, out]
+Pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
 
 ## -returns
-
-
 
 The function returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error value on failure. Possible error values include:
 
@@ -129,50 +121,34 @@ One of the arguments was not found. For example, the specified device has no int
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WdmlibIoConnectInterruptEx</b>
            can be used to register an interrupt-handling routine for both traditional line-based interrupts (such as that supported by the PCI bus), and the newer message-signaled interrupts (such as that supported by PCI versions 2.2 and 3.0). 
 
-Drivers register an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine for line-based interrupts, and an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kmessage_service_routine">InterruptMessageService</a> routine for message-signaled interrupts. For more information about how to specify the members of <i>Parameters</i> in each case, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
+Drivers register an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine for line-based interrupts, and an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kmessage_service_routine">InterruptMessageService</a> routine for message-signaled interrupts. For more information about how to specify the members of <i>Parameters</i> in each case, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
-<b>WdmlibIoConnectInterruptEx</b> updates the members of <i>Parameters</i> to provide information about the device's interrupts. For more information about the information provided by <b>WdmlibIoConnectInterruptEx</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
+<b>WdmlibIoConnectInterruptEx</b> updates the members of <i>Parameters</i> to provide information about the device's interrupts. For more information about the information provided by <b>WdmlibIoConnectInterruptEx</b>, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
-Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> to unregister a routine registered with <b>WdmlibIoConnectInterruptEx</b>.
+Use <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> to unregister a routine registered with <b>WdmlibIoConnectInterruptEx</b>.
 
 The driver should not program its device to generate interrupts until it has connected its ISR. Thus, the ISR cannot fire before <b>WdmlibIoConnectInterruptEx</b> returns. However, there are certain devices, such as buttons, that are not programmable. For those devices, the driver should be prepared to handle the ISR as soon as it calls <b>WdmlibIoConnectInterruptEx</b>. The interrupt line may already be asserted when <b>WdmlibIoConnectInterruptEx</b> is called and can fire immediately after the line is enabled at the interrupt controller, before the <b>WdmlibIoConnectInterruptEx</b> call unwinds. 
 
-For more information about registering an interrupt-handling routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/registering-an-isr">Registering an ISR</a>.
-
-
-
+For more information about registering an interrupt-handling routine, see <a href="/windows-hardware/drivers/kernel/registering-an-isr">Registering an ISR</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kmessage_service_routine">InterruptMessageService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kmessage_service_routine">InterruptMessageService</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a>

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiFormatHistoryBuffer"
+ - DXGKDDI_FORMATHISTORYBUFFER
+ - d3dkmddi/DXGKDDI_FORMATHISTORYBUFFER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_FORMATHISTORYBUFFER callback function
 
+
 ## -description
 
  Copies unformatted data from the history buffer into a buffer that's properly formatted to be submitted to the Event Tracing for Windows (ETW) facility.
@@ -56,7 +58,7 @@ A handle to the device context for the DMA buffer that contains the unformatted 
 
 ### -param pFormatData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a> structure that contains data about how to format the history buffer.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a> structure that contains data about how to format the history buffer.
 
 ## -returns
 
@@ -64,5 +66,4 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a>

@@ -8,8 +8,6 @@ ms.assetid: 16ea6100-6e3e-4e50-9055-4396deb39a37
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::HasContext"]
 ms.keywords: HasContext, HasContext method [Windows Device Testing Framework], HasContext method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasContext method, IWDTFTarget2.HasContext, IWDTFTarget2::HasContext, Microsoft.WDTF.IWDTFTarget2.HasContext, Microsoft::WDTF::IWDTFTarget2::HasContext, dtf.iwdtftarget2_hascontext, wdtf/IWDTFTarget2::HasContext
-f1_keywords:
- - "wdtf/IWDTFTarget2.HasContext"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.HasContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::HasContext
+ - wdtf/IWDTFTarget2::HasContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.HasContext
 ---
 
 # IWDTFTarget2::HasContext
@@ -47,41 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Determines whether a given context exists for the target.
-
 
 ## -parameters
 
+### -param Tag 
 
-
-
-### -param Tag [in]
-
+[in]
 The context name.
 
+### -param pResult 
 
-### -param pResult [out, retval]
-
+[out, retval]
 True if the named context exists; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>

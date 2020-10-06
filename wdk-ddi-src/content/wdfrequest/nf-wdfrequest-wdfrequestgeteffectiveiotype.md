@@ -8,8 +8,6 @@ ms.assetid: ED63E47F-B91F-49DC-9CE9-8CFE8F670B16
 ms.date: 02/26/2018
 keywords: ["WdfRequestGetEffectiveIoType function"]
 ms.keywords: WdfRequestGetEffectiveIoType, WdfRequestGetEffectiveIoType method, wdf.wdfrequestgeteffectiveiotype, wdfrequest/WdfRequestGetEffectiveIoType
-f1_keywords:
- - "wdfrequest/WdfRequestGetEffectiveIoType"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfRequestGetEffectiveIoType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestGetEffectiveIoType
+ - wdfrequest/WdfRequestGetEffectiveIoType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfRequestGetEffectiveIoType
 ---
 
 # WdfRequestGetEffectiveIoType function
@@ -47,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestGetEffectiveIoType</b> method returns the buffer access method that UMDF is using for the data buffers of the specified I/O request.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
-
 
 ## -returns
 
-
-
-<b>WdfRequestGetEffectiveIoType</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that identifies the buffer access method that UMDF is using for the I/O request's data buffers. 
-
-
-
+<b>WdfRequestGetEffectiveIoType</b> returns a <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that identifies the buffer access method that UMDF is using for the I/O request's data buffers.
 
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-buffer-access-methods-in-umdf-drivers">Managing Buffer Access Methods in UMDF Drivers</a>.
+For more information, see <a href="/windows-hardware/drivers/wdf/managing-buffer-access-methods-in-umdf-drivers">Managing Buffer Access Methods in UMDF Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can determine the buffer access method for the specified write request.
+The following code example shows how an <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can determine the buffer access method for the specified write request.
 
 ```cpp
 VOID
@@ -104,15 +91,6 @@ MyDrvEvtIoWrite(
 
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>

@@ -6,10 +6,8 @@ old-location: buses\usb_pipe_info.htm
 tech.root: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
 ms.date: 05/07/2018
-keywords: ["_USB_PIPE_INFO structure"]
+keywords: ["USB_PIPE_INFO structure"]
 ms.keywords: "*PUSB_PIPE_INFO, PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], _USB_PIPE_INFO, buses.usb_pipe_info, usbioctl/PUSB_PIPE_INFO, usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml"
-f1_keywords:
- - "usbioctl/USB_PIPE_INFO"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbioctl.h
-api_name:
-- USB_PIPE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_PIPE_INFO, *PUSB_PIPE_INFO
+f1_keywords:
+ - _USB_PIPE_INFO
+ - usbioctl/_USB_PIPE_INFO
+ - PUSB_PIPE_INFO
+ - usbioctl/PUSB_PIPE_INFO
+ - USB_PIPE_INFO
+ - usbioctl/USB_PIPE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbioctl.h
+api_name:
+ - USB_PIPE_INFO
 ---
 
 # _USB_PIPE_INFO structure
@@ -47,28 +50,19 @@ req.typenames: USB_PIPE_INFO, *PUSB_PIPE_INFO
 
 ## -description
 
-
-The <b>USB_PIPE_INFO</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a> structure and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request to obtain information about a connection and its associated pipes.
-
+The <b>USB_PIPE_INFO</b> structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a> structure and the <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request to obtain information about a connection and its associated pipes.
 
 ## -struct-fields
 
-
-
-
 ### -field EndpointDescriptor
 
-Describes the endpoint descriptor. For more information about the endpoint descriptor, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>.
-
+Describes the endpoint descriptor. For more information about the endpoint descriptor, see <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>.
 
 ### -field ScheduleOffset
 
-Indicates the schedule offset assigned to the endpoint for this pipe. See the remarks section for a discussion of the range of values that this member can take. 
-
+Indicates the schedule offset assigned to the endpoint for this pipe. See the remarks section for a discussion of the range of values that this member can take.
 
 ## -remarks
-
-
 
 The USB specification labels isochronous and interrupt transfers as "periodic," because certain periods of transmission time are set aside for these types of transfers. The port driver further divides these periods into "schedule offsets" and distributes the available offsets between those endpoints that are doing periodic transfers. The number of offsets that are available depends on the period. The following table lists the offset values that are available for each period.
 
@@ -138,26 +132,15 @@ The USB specification labels isochronous and interrupt transfers as "periodic," 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>

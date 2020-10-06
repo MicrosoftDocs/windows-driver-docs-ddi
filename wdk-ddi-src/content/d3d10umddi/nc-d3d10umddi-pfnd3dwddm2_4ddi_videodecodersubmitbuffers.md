@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS"
+ - PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
+ - d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS callback function
+
 
 ## -description
 

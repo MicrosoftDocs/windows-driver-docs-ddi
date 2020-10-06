@@ -8,8 +8,6 @@ ms.assetid: 8489dc63-8e92-45c9-b4a8-593b511743b0
 ms.date: 05/02/2018
 keywords: ["NdisCmModifyCallQoSComplete function"]
 ms.keywords: NdisCmModifyCallQoSComplete, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, ndis/NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete
-f1_keywords:
- - "ndis/NdisCmModifyCallQoSComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmModifyCallQoSComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmModifyCallQoSComplete
+ - ndis/NdisCmModifyCallQoSComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmModifyCallQoSComplete
 ---
 
 # NdisCmModifyCallQoSComplete function
@@ -48,50 +47,43 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmModifyCallQoSComplete</b> indicates the completion of the client's request, for which the call
   manager previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the client's request to modify the QoS on this VC, either
      NDIS_STATUS_SUCCESS or any CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle to the VC, obtained from the 
      <i>CallMgrVcContext</i> passed in to the CM's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">
      ProtocolCmModifyCallQoS</a> function for this request.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to a structure of type 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> specifying a QoS
+     <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> specifying a QoS
      acceptable to the call manager and underlying miniport driver if 
      <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
-
 ## -remarks
-
-
 
 A call to 
     <b>NdisCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
     ProtocolClModifyCallQoSComplete</a> function.
 
 Because the CM can modify the client-supplied call parameters that were input to its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">
     ProtocolCmModifyCallQoS</a> function before it calls 
     <b>NdisCmModifyCallQoSComplete</b>, the client's 
     <i>ProtocolClModifyCallQoSComplete</i> function examines the QoS to determine whether it is acceptable to
@@ -104,33 +96,23 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmModifyCallQoSComplete</b> instead.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmodifycallqoscomplete">NdisMCmModifyCallQosComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmodifycallqoscomplete">NdisMCmModifyCallQosComplete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
    ProtocolClModifyCallQoSComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">ProtocolCmModifyCallQoS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">ProtocolCmModifyCallQoS</a>

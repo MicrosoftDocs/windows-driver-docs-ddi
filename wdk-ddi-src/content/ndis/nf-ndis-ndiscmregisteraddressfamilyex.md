@@ -8,8 +8,6 @@ ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.date: 05/02/2018
 keywords: ["NdisCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
-f1_keywords:
- - "ndis/NdisCmRegisterAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmRegisterAddressFamilyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmRegisterAddressFamilyEx
+ - ndis/NdisCmRegisterAddressFamilyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmRegisterAddressFamilyEx
 ---
 
 # NdisCmRegisterAddressFamilyEx function
@@ -48,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisCmRegisterAddressFamilyEx</b> function registers an address family (AF) for communication between
   CoNDIS drivers.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 A handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. This handle
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. This handle
      identifies the binding to associate with the AF.
 
+### -param AddressFamily 
 
-### -param AddressFamily [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
+     <a href="/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
      the call manager and the AF that it supports for the binding that 
      <i>NdisBindingHandle</i> specifies.
      
 
 The pointer for 
      <i>AddressFamily</i> becomes an input parameter to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
      ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same CoNDIS
      miniport adapter.
 
-
 ## -returns
-
-
 
 <b>NdisCmRegisterAddressFamilyEx</b> can return any of the following:
 
@@ -102,7 +94,7 @@ The pointer for
 <td width="60%">
 The protocol driver registered the AF that the 
        <i>AddressFamily</i> points to, so NDIS will call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
+       <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
        ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind themselves to the same
        miniport adapter.
 
@@ -153,32 +145,26 @@ The caller's binding is being closed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 NDIS stand-alone call managers, which register as NDIS protocol drivers by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
     NdisRegisterProtocolDriver</a> function, should call the 
     <b>NdisCmRegisterAddressFamilyEx</b> function to register an AF. Miniport call managers (MCMs) must
     instead call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
     NdisMCmRegisterAddressFamilyEx</a> function.
 
 To register an AF for a binding, the stand-alone call manager should call 
     <b>NdisCmRegisterAddressFamilyEx</b> from the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
     ProtocolBindAdapterEx</a> function.
 
 A stand-alone call manager's 
     <i>ProtocolBindAdapterEx</i> function first establishes the binding to the underlying miniport driver by
     calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. Each time
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. Each time
     NDIS calls 
     <i>ProtocolBindAdapterEx</i> with another handle at the 
     <i>BindContext</i> parameter, 
@@ -191,43 +177,33 @@ The call manager can support more than one AF and can support more than one AF f
     adapter.
 
 When a call manager's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
     returns control after a successful binding operation, NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">
     ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same miniport
     adapter.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
    NdisMCmRegisterAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>

@@ -8,8 +8,6 @@ ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.date: 03/29/2018
 keywords: ["UFS_DEVICE_HEALTH_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], storage.ufs_device_health_descriptor, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR"
-f1_keywords:
- - "ufs/UFS_DEVICE_HEALTH_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ufs.h
-api_name:
-- UFS_DEVICE_HEALTH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR
+f1_keywords:
+ - PUFS_DEVICE_HEALTH_DESCRIPTOR
+ - ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR
+ - UFS_DEVICE_HEALTH_DESCRIPTOR
+ - ufs/UFS_DEVICE_HEALTH_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ufs.h
+api_name:
+ - UFS_DEVICE_HEALTH_DESCRIPTOR
 ---
 
 # UFS_DEVICE_HEALTH_DESCRIPTOR structure
@@ -47,24 +48,17 @@ req.typenames: UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR
 
 ## -description
 
-
-The <b>UFS_DEVICE_HEALTH_DESCRIPTOR</b> structure describes the health of a device. 
-
+The <b>UFS_DEVICE_HEALTH_DESCRIPTOR</b> structure describes the health of a device.
 
 ## -struct-fields
-
-
-
 
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
-
 ### -field bDescriptorIDN
 
 Specifies the descriptor's Identification value. <b>UFS_DEVICE_HEALTH_DESCRIPTOR </b>will have a value of <b>UFS_DESC_HEALTH_IDN</b>.
-
 
 ### -field bPreEOLInfo
 
@@ -98,8 +92,6 @@ reserved blocks.</td>
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bDeviceLifeTimeEstA
 
@@ -163,13 +155,10 @@ reserved blocks.</td>
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bDeviceLifeTimeEstB
 
 <b>bDeviceLifeTimeEstB</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method B. Contains the same possible values as <b>bDeviceLifeTimeEstA</b>.
-
 
 ### -field VendorPropInfo
 
@@ -182,12 +171,7 @@ reserved blocks.</td>
 
 Reserved for vendor use.
 
-
 ## -remarks
 
-
-
 The UFS Host Controller contains a series of configurable Descriptor Tables, which allow the driver to query and configure the host controller’s capabilities. Query the Requested Descriptor from the Descriptor Table on the device.
-
-
 

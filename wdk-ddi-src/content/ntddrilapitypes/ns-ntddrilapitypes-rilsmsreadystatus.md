@@ -8,8 +8,6 @@ ms.assetid: 0f2d6a06-18af-4e7a-9f88-c81d98575f56
 ms.date: 05/02/2018
 keywords: ["RILSMSREADYSTATUS structure"]
 ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus, ntddrilapitypes/RILSMSREADYSTATUS"
-f1_keywords:
- - "ntddrilapitypes/RILSMSREADYSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,43 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSMSREADYSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSREADYSTATUS, *LPRILSMSREADYSTATUS
+f1_keywords:
+ - RILSMSREADYSTATUS
+ - ntddrilapitypes/RILSMSREADYSTATUS
+ - LPRILSMSREADYSTATUS
+ - ntddrilapitypes/LPRILSMSREADYSTATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSMSREADYSTATUS
 ---
 
-# RILSMSREADYSTATUS structure
+# RILSMSREADYSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field dwReadyState
 

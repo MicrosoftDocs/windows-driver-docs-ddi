@@ -8,8 +8,6 @@ ms.assetid: f62b63e3-011b-43ef-b7f5-769aa00ff3ca
 ms.date: 05/03/2018
 keywords: ["wiasReadPropBin function"]
 ms.keywords: image.wiasreadpropbin, wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasReadPropBin"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasReadPropBin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasReadPropBin
+ - wiamdef/wiasReadPropBin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasReadPropBin
 ---
 
 # wiasReadPropBin function
+
 
 ## -description
 
@@ -50,20 +50,23 @@ The **wiasReadPropBin** function retrieves a binary-data property value from a W
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param ppbVal [out]
+### -param ppbVal 
 
+[out]
 Pointer to a memory location that receives the address of a buffer allocated by this function. Upon return, the buffer contains the property's binary data.
 
-### -param ppbValOld [out, optional]
+### -param ppbValOld 
 
+[out, optional]
 Pointer to a memory location that receives the address of a buffer allocated by the minidriver. Upon return, the buffer contains the previous value of the property's binary data. If this information is not needed, this parameter can be set to **NULL**.
 
 ### -param bMustExist
@@ -74,20 +77,20 @@ Indicates whether the property must exist. If set to **TRUE**, the property must
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
-This function allocates a buffer and stores its address in the *ppbVal* parameter. The minidriver must free the buffer by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
+This function allocates a buffer and stores its address in the *ppbVal* parameter. The minidriver must free the buffer by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 ## -see-also
 
-[wiasReadPropFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropfloat)
+[wiasReadPropFloat](./nf-wiamdef-wiasreadpropfloat.md)
 
-[wiasReadPropGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropguid)
+[wiasReadPropGuid](./nf-wiamdef-wiasreadpropguid.md)
 
-[wiasReadPropLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadproplong)
+[wiasReadPropLong](./nf-wiamdef-wiasreadproplong.md)
 
-[wiasReadPropStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropstr)
+[wiasReadPropStr](./nf-wiamdef-wiasreadpropstr.md)
 
-[wiasWritePropBin](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin)
+[wiasWritePropBin](./nf-wiamdef-wiaswritepropbin.md)

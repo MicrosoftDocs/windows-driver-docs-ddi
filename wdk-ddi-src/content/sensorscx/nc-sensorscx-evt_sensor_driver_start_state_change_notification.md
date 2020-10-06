@@ -8,8 +8,6 @@ ms.assetid: 93C2ABCE-15C9-4EE4-A9B5-A81788DB608C
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], sensors.evt_sensor_driver_start_state_change_notification, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-f1_keywords:
- - "sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- sensorscx.h
-api_name:
-- EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
+ - sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - sensorscx.h
+api_name:
+ - EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 ---
 
 # EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function
@@ -47,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
 Used to start a state change notification.
 
-
 ## -parameters
-
-
-
 
 ### -param Sensors
 
 [in] Holds information on the sensors handled by the sensor driver.
 
-
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if completed successfully.
-
-
 

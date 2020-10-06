@@ -5,10 +5,8 @@ description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidin.htm
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.date: 05/10/2018
-keywords: ["_DXGK_QUERYDISPLAYIDIN structure"]
+keywords: ["DXGK_QUERYDISPLAYIDIN structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
-f1_keywords:
- - "d3dkmddi/DXGK_QUERYDISPLAYIDIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_QUERYDISPLAYIDIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYDISPLAYIDIN
+f1_keywords:
+ - _DXGK_QUERYDISPLAYIDIN
+ - d3dkmddi/_DXGK_QUERYDISPLAYIDIN
+ - DXGK_QUERYDISPLAYIDIN
+ - d3dkmddi/DXGK_QUERYDISPLAYIDIN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_QUERYDISPLAYIDIN
 ---
 
 # _DXGK_QUERYDISPLAYIDIN structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_QUERYDISPLAYIDIN
 
 ## -description
 
-
 Used to query a display ID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TargetId
 

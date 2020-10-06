@@ -8,8 +8,6 @@ ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.date: 04/23/2018
 keywords: ["KSIRP_REMOVAL_OPERATION enumeration"]
 ms.keywords: KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation
-f1_keywords:
- - "ks/KSIRP_REMOVAL_OPERATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSIRP_REMOVAL_OPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSIRP_REMOVAL_OPERATION
+f1_keywords:
+ - KSIRP_REMOVAL_OPERATION
+ - ks/KSIRP_REMOVAL_OPERATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSIRP_REMOVAL_OPERATION
 ---
 
 # KSIRP_REMOVAL_OPERATION enumeration
@@ -47,23 +46,13 @@ req.typenames: KSIRP_REMOVAL_OPERATION
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KsAcquireOnly
 
-
 ### -field KsAcquireAndRemove
 
-
 ### -field KsAcquireOnlySingleItem
-
 
 ### -field KsAcquireAndRemoveOnlySingleItem
 

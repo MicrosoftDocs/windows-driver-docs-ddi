@@ -8,8 +8,6 @@ ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.date: 03/29/2018
 keywords: ["ScsiPortWmiPostProcess function"]
 ms.keywords: ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess
-f1_keywords:
- - "scsiwmi/ScsiPortWmiPostProcess"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiwmi.h
-api_name:
-- ScsiPortWmiPostProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortWmiPostProcess
+ - scsiwmi/ScsiPortWmiPostProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiwmi.h
+api_name:
+ - ScsiPortWmiPostProcess
 ---
 
 # ScsiPortWmiPostProcess function
@@ -47,33 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortWmiPostProcess</b> routine updates a request context for a WMI SRB.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param RequestContext 
 
-
-
-### -param RequestContext [in]
-
+[in]
 A pointer to the request context for this SRB.
 
+### -param SrbStatus 
 
-### -param SrbStatus [in]
-
+[in]
 Specifies any valid SRB status. If the output buffer passed to the miniport driver was too small to contain all of the data from a request, the miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN.
 
+### -param BufferUsed 
 
-### -param BufferUsed [in]
-
+[in]
 If <i>SrbStatus</i> indicates success, the miniport driver sets <i>BufferUsed</i> to the number of bytes of data written to the buffer. If <i>SrbStatus</i> is SRB_STATUS_DATA_OVERRUN, the miniport driver sets <i>BufferUsed</i> to the number of bytes required to complete the SRB successfully.
 
-
 ## -remarks
-
-
 
 A miniport driver must call <b>ScsiPortWmiPostProcess</b> after the WMI SRB request has been processed and is ready to be completed.
 
@@ -83,28 +76,18 @@ For pending SRBs, <b>ScsiPortWmiPostProcess</b> is called after the SRB has been
 
 If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <i>BufferUsed</i>, successive identical WMI SRBs with an allocated buffer equal to or greater than <i>BufferUsed</i> bytes should succeed. This should be achieved if the driver sets the exact value for <i>BufferUsed</i> that is needed to complete the request when calling <b>ScsiPortWmiPostProcess</b> with <i>SrbStatus</i> equal to SRB_STATUS_DATA_OVERRUN. For a variable-sized output structure, the input data buffer of the SRB should have enough information to determine the exact <i>BufferUsed</i> value. If the input data buffer does not contain enough information, the driver should never fail the same SRB two times with SRB_STATUS_DATA_OVERRUN. Instead, the driver should set SRB_STATUS_DATA_OVERRUN and request the minimum size necessary for the output buffer first, and then set SRB_STATUS_SUCCESS and indicate the failure in the contents of the output buffer.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
+<a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnsize">ScsiPortWmiGetReturnSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnsize">ScsiPortWmiGetReturnSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnstatus">ScsiPortWmiGetReturnStatus</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnstatus">ScsiPortWmiGetReturnStatus</a>

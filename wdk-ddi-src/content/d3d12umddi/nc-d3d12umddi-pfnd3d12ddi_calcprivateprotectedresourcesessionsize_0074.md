@@ -10,7 +10,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0074"
+ - PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0074
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0074
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,6 +42,7 @@ product:
 ---
 
 # PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0074 callback function
+
 
 ## -description
 
@@ -71,3 +73,4 @@ See the [Protected Resources Specification](https://microsoft.github.io/DirectX-
 [**D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074**](ns-d3d12umddi-d3d12ddiarg_create_protected_resource_session_0074.md)
 
 [**PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074**](nc-d3d12umddi-pfnd3d12ddi_createprotectedresourcesession_0074.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.date: 03/29/2018
 keywords: ["PSCSIWMI_SET_DATABLOCK callback function"]
 ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK callback, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
-f1_keywords:
- - "scsiwmi/HwScsiWmiSetDataBlock"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- scsiwmi.h
-api_name:
-- HwScsiWmiSetDataBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSCSIWMI_SET_DATABLOCK
+ - scsiwmi/PSCSIWMI_SET_DATABLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - scsiwmi.h
+api_name:
+ - HwScsiWmiSetDataBlock
 ---
 
 # PSCSIWMI_SET_DATABLOCK callback function
@@ -47,86 +46,65 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver's <b>HwScsiWmiSetDataBlock</b> routine is called to change all data items in a single instance of a data block. This routine is optional.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param DeviceContext 
 
+[in]
+Points to the miniport driver-defined context value passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
+### -param RequestContext 
 
-### -param DeviceContext [in]
+[in]
+Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-Points to the miniport driver-defined context value passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
+### -param GuidIndex 
 
+[in]
+Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param RequestContext [in]
+### -param InstanceIndex 
 
-Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
-
-
-### -param GuidIndex [in]
-
-Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
-
-
-### -param InstanceIndex [in]
-
+[in]
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Points to a buffer that contains new values for the instance.
-
 
 ## -returns
 
-
-
-<b>HwScsiWmiSetDataBlock</b> returns SRB_STATUS_PENDING if the request is pending, or a nonzero SRB status value if the request was completed.  The SRB status value returned by this routine is the same as what was passed in to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>.
-
-
-
+<b>HwScsiWmiSetDataBlock</b> returns SRB_STATUS_PENDING if the request is pending, or a nonzero SRB status value if the request was completed.  The SRB status value returned by this routine is the same as what was passed in to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>.
 
 ## -remarks
 
+When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb->WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiSetDataBlock</b> routine if <i>MinorFunction</i> indicates a request to change an instance of a data block.
 
-
-When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb->WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiSetDataBlock</b> routine if <i>MinorFunction</i> indicates a request to change an instance of a data block.
-
-If a miniport driver does not implement a <b>HwScsiWmiSetDataBlock</b> routine, it must set <b>SetWmiDataBlock</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. In this case, the port driver returns SRB_STATUS_ERROR to the caller.
+If a miniport driver does not implement a <b>HwScsiWmiSetDataBlock</b> routine, it must set <b>SetWmiDataBlock</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. In this case, the port driver returns SRB_STATUS_ERROR to the caller.
 
 If the miniport driver implements <b>HwScsiWmiSetDataBlock</b> it should change the instance of the data block to the new values from the buffer.
 
 If all of the items in the data block are read-only, the miniport driver should return SRB_STATUS_ERROR. Otherwise, the miniport driver changes the items it can and returns SRB_STATUS_SUCCESS.
 
-The miniport driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a> with an appropriate <i>SrbStatus</i> value when the request is completed. If the request does not pend, <b>ScsiPortWmiPostProcess</b> should be called in the <b>HwScsiWmiSetDataBlock</b> callback. Otherwise, <b>ScsiPortWmiPostProcess</b> should be called when the request is actually completed.
-
-
-
+The miniport driver should call <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a> with an appropriate <i>SrbStatus</i> value when the request is completed. If the request does not pend, <b>ScsiPortWmiPostProcess</b> should be called in the <b>HwScsiWmiSetDataBlock</b> callback. Otherwise, <b>ScsiPortWmiPostProcess</b> should be called when the request is actually completed.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-_scsiwmilib_context">SCSI_WMILIB_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-_scsiwmilib_context">SCSI_WMILIB_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>

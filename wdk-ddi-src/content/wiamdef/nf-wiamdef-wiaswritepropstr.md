@@ -8,8 +8,6 @@ ms.assetid: 542e4196-164b-4ae1-87ad-2d6adb9c8904
 ms.date: 05/03/2018
 keywords: ["wiasWritePropStr function"]
 ms.keywords: image.wiaswritepropstr, wiamdef/wiasWritePropStr, wiasFncs_f1b2ee2f-f9a1-4d10-9ffa-47a6c10c4a92.xml, wiasWritePropStr, wiasWritePropStr function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasWritePropStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasWritePropStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasWritePropStr
+ - wiamdef/wiasWritePropStr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasWritePropStr
 ---
 
 # wiasWritePropStr function
@@ -47,62 +46,44 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasWritePropStr</b> function writes a single string property value to a WIA item.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the property identifier.
 
+### -param bstr 
 
-### -param bstr [in, optional]
-
+[in, optional]
 Specifies the string property value to write to the item.
-
 
 ## -returns
 
-
-
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropstr">wiasReadPropStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropstr">wiasReadPropStr</a>
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin">wiasWritePropBin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin">wiasWritePropBin</a>
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropfloat">wiasWritePropFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropfloat">wiasWritePropFloat</a>
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropguid">wiasWritePropGuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropguid">wiasWritePropGuid</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong">wiasWritePropLong</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong">wiasWritePropLong</a>

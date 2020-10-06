@@ -6,10 +6,8 @@ old-location: netvista\pd_buffer_8021q_info.htm
 tech.root: netvista
 ms.assetid: B5B2051E-C62F-4E3D-9C52-DE46145A2C24
 ms.date: 05/02/2018
-keywords: ["_PD_BUFFER_8021Q_INFO structure"]
+keywords: ["PD_BUFFER_8021Q_INFO structure"]
 ms.keywords: PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, ndis/PPD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info
-f1_keywords:
- - "ndis/PD_BUFFER_8021Q_INFO"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- PD_BUFFER_8021Q_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_8021Q_INFO
+f1_keywords:
+ - _PD_BUFFER_8021Q_INFO
+ - ndis/_PD_BUFFER_8021Q_INFO
+ - PD_BUFFER_8021Q_INFO
+ - ndis/PD_BUFFER_8021Q_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - PD_BUFFER_8021Q_INFO
 ---
 
 # _PD_BUFFER_8021Q_INFO structure
@@ -47,24 +48,17 @@ req.typenames: PD_BUFFER_8021Q_INFO
 
 ## -description
 
-
 This structure contains the IEEE 802.1Q information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UserPriority
 
 The user priority.
 
-
 ### -field CanonicalFormatId
 
 The canonical format ID.
-
 
 ### -field VlanId
 

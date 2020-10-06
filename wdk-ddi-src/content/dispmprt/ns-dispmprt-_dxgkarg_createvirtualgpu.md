@@ -1,48 +1,52 @@
 ---
 UID: NS:dispmprt._DXGKARG_CREATEVIRTUALGPU
 title: _DXGKARG_CREATEVIRTUALGPU
-author: windows-driver-content
 description: Arguments used to create a virtual GPU.
 tech.root: display
 ms.assetid: da667fb0-59b5-4240-bdf6-a170642f650d
-ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKARG_CREATEVIRTUALGPU structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_CREATEVIRTUALGPU"
+ms.date: 04/04/2019
+keywords: ["DXGKARG_CREATEVIRTUALGPU structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKARG_CREATEVIRTUALGPU, DXGKARG_CREATEVIRTUALGPU, *PDXGKARG_CREATEVIRTUALGPU, 
+ms.keywords: _DXGKARG_CREATEVIRTUALGPU, DXGKARG_CREATEVIRTUALGPU, *PDXGKARG_CREATEVIRTUALGPU,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_CREATEVIRTUALGPU, *PDXGKARG_CREATEVIRTUALGPU
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKARG_CREATEVIRTUALGPU
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKARG_CREATEVIRTUALGPU
+ - dispmprt/_DXGKARG_CREATEVIRTUALGPU
+ - PDXGKARG_CREATEVIRTUALGPU
+ - dispmprt/PDXGKARG_CREATEVIRTUALGPU
+ - DXGKARG_CREATEVIRTUALGPU
+ - dispmprt/DXGKARG_CREATEVIRTUALGPU
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_CREATEVIRTUALGPU
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKARG_CREATEVIRTUALGPU structure
+
 
 ## -description
 
@@ -79,9 +83,11 @@ First *NumMemorySegment* entries describe information about local memory segment
 The number of valid elements in the EngineInfo array.  This is deprecated and should be zero.
 
 ### -field EngineInfo
+
  
 Specifies physical engines, which should be used when creating a vGPU with the given profile. This is deprecated and should be zero.
 
 ## -remarks
 
 ## -see-also
+

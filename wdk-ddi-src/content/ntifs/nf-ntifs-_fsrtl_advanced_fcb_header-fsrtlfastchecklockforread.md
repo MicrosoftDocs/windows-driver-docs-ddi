@@ -8,8 +8,6 @@ ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.date: 04/16/2018
 keywords: ["FsRtlFastCheckLockForRead function"]
 ms.keywords: FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, ifsk.fsrtlfastchecklockforread, ntifs/FsRtlFastCheckLockForRead
-f1_keywords:
- - "ntifs/FsRtlFastCheckLockForRead"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlFastCheckLockForRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlFastCheckLockForRead
+ - ntifs/FsRtlFastCheckLockForRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlFastCheckLockForRead
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlFastCheckLockForRead function
@@ -50,69 +49,52 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlFastCheckLockForRead</b> routine determines whether the specified process has read access to a locked byte range of a file.
-
 
 ## -parameters
 
+### -param FileLock 
 
+[in]
+A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
+### -param StartingByte 
 
-### -param FileLock [in]
-
-A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
-
-
-### -param StartingByte [in]
-
+[in]
 A pointer to a variable that specifies the starting byte offset within the file of the byte range to check.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 A pointer to a variable that specifies the length, in bytes, of the range to check.
 
+### -param Key 
 
-### -param Key [in]
-
+[in]
 The key for the byte range lock.
 
+### -param FileObject 
 
-### -param FileObject [in]
-
+[in]
 A pointer to the file object for the file.
 
+### -param ProcessId 
 
-### -param ProcessId [in]
-
+[in]
 A pointer to the EPROCESS for the process.
-
 
 ## -returns
 
-
-
 The <b>FsRtlFastCheckLockForRead</b> routine returns <b>TRUE</b> if the specified process has read access, <b>FALSE</b> otherwise.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite">FsRtlFastCheckLockForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite">FsRtlFastCheckLockForWrite</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>

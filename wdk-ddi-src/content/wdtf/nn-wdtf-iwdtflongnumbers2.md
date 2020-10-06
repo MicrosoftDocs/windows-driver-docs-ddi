@@ -8,8 +8,6 @@ ms.assetid: 2a6c4cf7-179e-4e20-bab4-a4181a0ee64c
 ms.date: 04/04/2018
 keywords: ["IWDTFLongNumbers2 interface"]
 ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLongNumbers2, dtf.iwdtflongnumbers2, wdtf/IWDTFLongNumbers2
-f1_keywords:
- - "wdtf/IWDTFLongNumbers2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLongNumbers2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLongNumbers2
+ - wdtf/IWDTFLongNumbers2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLongNumbers2
 ---
 
 # IWDTFLongNumbers2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for a collection of long numbers.
-
 
 ## -inheritance
 

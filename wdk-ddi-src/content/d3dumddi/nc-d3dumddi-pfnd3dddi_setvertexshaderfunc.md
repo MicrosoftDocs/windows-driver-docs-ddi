@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetVertexShaderFunc"
+ - PFND3DDDI_SETVERTEXSHADERFUNC
+ - d3dumddi/PFND3DDDI_SETVERTEXSHADERFUNC
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETVERTEXSHADERFUNC callback function
+
 
 ## -description
 
@@ -68,9 +70,8 @@ A handle to the vertex shader code object.
 
 After setting the vertex shader code, all of the drawing operations use that code until another code is selected.
 
-For user-mode display drivers that support vertex shaders before version 2.0, the Microsoft Direct3D runtime passes 0 in the <i>hShaderHandle</i> parameter to indicate a fixed-function pipeline. For user-mode display drivers that support vertex shader version 2.0 or later, the runtime converts Direct3D fixed-function vertex state to vertex shader version 2.0. For more information fixed-function state, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/converting-the-direct3d-fixed-function-state">Converting the Direct3D Fixed-Function State</a>.
+For user-mode display drivers that support vertex shaders before version 2.0, the Microsoft Direct3D runtime passes 0 in the <i>hShaderHandle</i> parameter to indicate a fixed-function pipeline. For user-mode display drivers that support vertex shader version 2.0 or later, the runtime converts Direct3D fixed-function vertex state to vertex shader version 2.0. For more information fixed-function state, see <a href="/windows-hardware/drivers/display/converting-the-direct3d-fixed-function-state">Converting the Direct3D Fixed-Function State</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

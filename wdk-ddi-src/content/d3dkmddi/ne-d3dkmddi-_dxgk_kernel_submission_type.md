@@ -4,38 +4,40 @@ title: _DXGK_KERNEL_SUBMISSION_TYPE (d3dkmddi.h)
 description: Specifies the kernel submission type in the GPU work submission to the hardware queue.
 ms.assetid: 9e42f4e6-bdd8-4b9e-9038-08edececb86e
 ms.date: 10/19/2018
-keywords: ["_DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
-f1_keywords:
- - "d3dkmddi/_DXGK_KERNEL_SUBMISSION_TYPE"
-ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE, 
+keywords: ["DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
+ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_KERNEL_SUBMISSION_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmddi.h
-api_name: 
-- _DXGK_KERNEL_SUBMISSION_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_KERNEL_SUBMISSION_TYPE
+ - d3dkmddi/_DXGK_KERNEL_SUBMISSION_TYPE
+ - DXGK_KERNEL_SUBMISSION_TYPE
+ - d3dkmddi/DXGK_KERNEL_SUBMISSION_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_KERNEL_SUBMISSION_TYPE
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_KERNEL_SUBMISSION_TYPE enumeration
+
 
 ## -description
 
@@ -58,3 +60,4 @@ Present BLT (bit block transfer).
 ## -remarks
 
 ## -see-also
+

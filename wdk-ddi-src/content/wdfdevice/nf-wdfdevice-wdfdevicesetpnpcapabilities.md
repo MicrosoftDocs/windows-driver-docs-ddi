@@ -8,8 +8,6 @@ ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.date: 02/26/2018
 keywords: ["WdfDeviceSetPnpCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, kmdf.wdfdevicesetpnpcapabilities, wdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
-f1_keywords:
- - "wdfdevice/WdfDeviceSetPnpCapabilities"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceSetPnpCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceSetPnpCapabilities
+ - wdfdevice/WdfDeviceSetPnpCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceSetPnpCapabilities
 ---
 
 # WdfDeviceSetPnpCapabilities function
@@ -50,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetPnpCapabilities</b> method reports a device's Plug and Play capabilities.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param PnpCapabilities 
 
-### -param PnpCapabilities [in]
-
-A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a> structure.
-
+[in]
+A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a> structure.
 
 ## -remarks
 
@@ -83,30 +77,30 @@ A driver typically calls <b>WdfDeviceSetPnpCapabilities</b> from within one of t
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
+<a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> (if the <i>PreviousState</i> parameter's value is <b>WdfPowerDeviceD3Final</b>) 
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> (if the <i>PreviousState</i> parameter's value is <b>WdfPowerDeviceD3Final</b>) 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init">EvtDeviceSelfManagedIoInit</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init">EvtDeviceSelfManagedIoInit</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device">EvtChildListCreateDevice</a>
+<a href="/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device">EvtChildListCreateDevice</a>
 
 
 </li>
@@ -130,23 +124,14 @@ WdfDeviceSetPnpCapabilities(
                             );
 ```
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_pnp_capabilities_init">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_pnp_capabilities_init">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetpowercapabilities">WdfDeviceSetPowerCapabilities</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetpowercapabilities">WdfDeviceSetPowerCapabilities</a>

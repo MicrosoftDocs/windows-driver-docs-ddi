@@ -1,15 +1,14 @@
 ---
 UID: NS:ntddvdeo._MIPI_DSI2_TRANSMISSION
 title: MIPI_DSI2_TRANSMISSION
-author: windows-driver-content
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) transmission.
 tech.root: display
 ms.assetid: b9d200d1-255d-40ef-b42b-33b374168ae0
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_TRANSMISSION structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_TRANSMISSION"
+ - "MIPI_DSI2_TRANSMISSION"
 ms.keywords: MIPI_DSI2_TRANSMISSION, MIPI_DSI2_TRANSMISSION, *PMIPI_DSI2_TRANSMISSION_OUTPUT, MIPI_DSI2_TRANSMISSION_INPUT, *PMIPI_DSI2_TRANSMISSION_INPUT, MIPI_DSI2_TRANSMISSION_OUTPUT
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +31,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - MIPI_DSI2_TRANSMISSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

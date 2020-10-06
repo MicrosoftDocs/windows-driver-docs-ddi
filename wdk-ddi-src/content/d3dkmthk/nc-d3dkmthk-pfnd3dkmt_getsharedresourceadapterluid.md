@@ -5,47 +5,57 @@ description: Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a l
 ms.assetid: 1174993c-ffbb-449f-8bee-6ac2ad947dd0
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmthk.h
-api_name: 
-- PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
+ - d3dkmthk/PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID callback function
 
+
 ## -description
 
 Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
+
+## -parameters
+
+### -param Arg1
+
+Pointer to a [D3DKMT_GETSHAREDRESOURCEADAPTERLUID](ns-d3dkmthk-_d3dkmt_getsharedresourceadapterluid.md) structure.
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -64,20 +74,7 @@ NTSTATUS Pfnd3dkmtGetsharedresourceadapterluid
 
 ```
 
-## -parameters
-
-### -param Arg1
-
-Pointer to a [D3DKMT_GETSHAREDRESOURCEADAPTERLUID](ns-d3dkmthk-_d3dkmt_getsharedresourceadapterluid.md) structure.
-
-## -returns
-
-Returns NTSTATUS.
-
-
 ## -remarks
 
-
-
-
 ## -see-also
+

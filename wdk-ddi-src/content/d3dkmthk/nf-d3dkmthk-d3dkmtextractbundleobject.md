@@ -9,6 +9,7 @@ keywords: ["D3DKMTExtractBundleObject function"]
 ms.keywords: D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
 f1_keywords:
  - "d3dkmthk/D3DKMTExtractBundleObject"
+ - "D3DKMTExtractBundleObject"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTExtractBundleObject
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

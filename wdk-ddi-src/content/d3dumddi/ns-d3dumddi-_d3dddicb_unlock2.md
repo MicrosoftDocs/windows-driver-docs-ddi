@@ -6,10 +6,8 @@ old-location: display\d3dddicb_unlock2.htm
 tech.root: display
 ms.assetid: 3ACE32ED-75C5-440D-BAA1-470C4E043299
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_UNLOCK2 structure"]
+keywords: ["D3DDDICB_UNLOCK2 structure"]
 ms.keywords: D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], _D3DDDICB_UNLOCK2, d3dumddi/D3DDDICB_UNLOCK2, display.d3dddicb_unlock2
-f1_keywords:
- - "d3dumddi/D3DDDICB_UNLOCK2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_UNLOCK2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_UNLOCK2
+f1_keywords:
+ - _D3DDDICB_UNLOCK2
+ - d3dumddi/_D3DDDICB_UNLOCK2
+ - D3DDDICB_UNLOCK2
+ - d3dumddi/D3DDDICB_UNLOCK2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_UNLOCK2
 ---
 
 # _D3DDDICB_UNLOCK2 structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_UNLOCK2
 
 ## -description
 
-
 <b>D3DDDICB_UNLOCK2</b> describes an allocation to unlock.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 

@@ -8,8 +8,6 @@ ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
 ms.date: 04/30/2018
 keywords: ["ExAcquireSharedStarveExclusive function"]
 ms.keywords: ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
-f1_keywords:
- - "wdm/ExAcquireSharedStarveExclusive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAcquireSharedStarveExclusive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAcquireSharedStarveExclusive
+ - wdm/ExAcquireSharedStarveExclusive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAcquireSharedStarveExclusive
 ---
 
 # ExAcquireSharedStarveExclusive function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>ExAcquireSharedStarveExclusive</b> routine acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource. 
-
+The <b>ExAcquireSharedStarveExclusive</b> routine acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource.
 
 ## -parameters
 
+### -param Resource 
 
-
-
-### -param Resource [in, out]
-
+[in, out]
 A pointer to the resource to be acquired for shared access.
 
+### -param Wait 
 
-### -param Wait [in]
-
+[in]
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
-
 
 ## -returns
 
-
-
 <b>ExAcquireSharedStarveExclusive</b> returns <b>TRUE</b> if the requested access is granted. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and shared access cannot be granted immediately.
 
-
-
-
 ## -remarks
-
-
 
 Whether or when the caller is given shared access to the given resource depends on the following:
 
@@ -101,40 +88,30 @@ If the resource is currently owned as exclusive by another thread, the caller ei
 </ul>
 Callers of <b>ExAcquireSharedStarveExclusive</b> usually need quick access to a shared resource in order to save an exclusive accessor from doing redundant work. For example, a file system might call this routine to modify a cached resource, such as a BCB pinned in the cache, before the cache manager can acquire exclusive access to the resource and write the cache out to disk.
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
 
-The caller can release the resource by calling either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a>.
-
-
-
+The caller can release the resource by calling either <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a> or <a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>.
 
 ## -see-also
 
+<a href="/previous-versions/ff544363(v=vs.85)">ExAcquireResourceSharedLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a>
+<a href="/previous-versions/ff544370(v=vs.85)">ExAcquireSharedWaitForExclusive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544370">ExAcquireSharedWaitForExclusive</a>
+<a href="/previous-versions/ff544558(v=vs.85)">ExConvertExclusiveToSharedLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544558">ExConvertExclusiveToSharedLite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetexclusivewaitercount">ExGetExclusiveWaiterCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetexclusivewaitercount">ExGetExclusiveWaiterCount</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>

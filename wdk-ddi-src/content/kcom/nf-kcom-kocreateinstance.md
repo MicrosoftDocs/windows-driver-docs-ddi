@@ -8,8 +8,6 @@ ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.date: 04/23/2018
 keywords: ["KoCreateInstance function"]
 ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
-f1_keywords:
- - "kcom/KoCreateInstance"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KoCreateInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KoCreateInstance
+ - kcom/KoCreateInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KoCreateInstance
 ---
 
 # KoCreateInstance function
@@ -48,47 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <i>This function is intended for internal use only.</i>
 
-The <b>KoCreateInstance</b> function creates an object of the class with the specified CLSID. 
-
+The <b>KoCreateInstance</b> function creates an object of the class with the specified CLSID.
 
 ## -parameters
 
+### -param ClassId 
 
-
-
-### -param ClassId [in]
-
+[in]
 The CLSID of the object to create an instance of.
 
+### -param UnkOuter 
 
-### -param UnkOuter [in, optional]
-
+[in, optional]
 The outer unknown object to pass to the new instance.
 
+### -param ClsContext 
 
-### -param ClsContext [in]
-
+[in]
 The context in which to create the instance. This must be CLSCTX_KERNEL_SERVER.
 
+### -param InterfaceId 
 
-### -param InterfaceId [in]
-
+[in]
 Reference to the identifier of the interface that will communicate with the object.
 
+### -param Interface 
 
-### -param Interface [out]
-
+[out]
 Address of the pointer variable that receives the new interface pointer specified in <i>InterfaceId</i>.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if the instance was successfully created. Otherwise, it returns an error.
-
-
 

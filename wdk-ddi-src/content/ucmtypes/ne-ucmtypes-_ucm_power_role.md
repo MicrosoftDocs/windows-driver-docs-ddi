@@ -6,10 +6,8 @@ old-location: buses\ucm_power_role.htm
 tech.root: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.date: 05/07/2018
-keywords: ["_UCM_POWER_ROLE enumeration"]
+keywords: ["UCM_POWER_ROLE enumeration"]
 ms.keywords: UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource
-f1_keywords:
- - "ucmtypes/UCM_POWER_ROLE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmtypes.h
-api_name:
-- UCM_POWER_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_POWER_ROLE
+f1_keywords:
+ - _UCM_POWER_ROLE
+ - ucmtypes/_UCM_POWER_ROLE
+ - UCM_POWER_ROLE
+ - ucmtypes/UCM_POWER_ROLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmtypes.h
+api_name:
+ - UCM_POWER_ROLE
 ---
 
 # _UCM_POWER_ROLE enumeration
@@ -47,45 +48,30 @@ req.typenames: UCM_POWER_ROLE
 
 ## -description
 
-
-Defines power roles of USB Type-C connected devices. 
-
+Defines power roles of USB Type-C connected devices.
 
 ## -enum-fields
-
-
-
 
 ### -field UcmPowerRoleInvalid
 
 Indicates the power role state is invalid.
 
-
 ### -field UcmPowerRoleSink
 
 Indicates the power role is set to sink power.
 
-
 ### -field UcmPowerRoleSource
 
-Indicates the power role is set to source power. 
-
+Indicates the power role is set to source power.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_power_role">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_power_role">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
+<a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config">UCM_CONNECTOR_PD_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config">UCM_CONNECTOR_PD_CONFIG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpowerdirectionchanged">UcmConnectorPowerDirectionChanged</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpowerdirectionchanged">UcmConnectorPowerDirectionChanged</a>

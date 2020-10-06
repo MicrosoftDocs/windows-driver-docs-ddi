@@ -6,10 +6,8 @@ old-location: audio\keywordid.htm
 tech.root: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.date: 05/08/2018
-keywords: ["__MIDL_IKeywordDetectorOemAdapter_0002 enumeration"]
+keywords: ["_MIDL_IKeywordDetectorOemAdapter_0002 enumeration"]
 ms.keywords: KEYWORDID, KEYWORDID enumeration [Audio Devices], KwInvalid, KwSelection, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/ KwVoiceAssistant, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid
-f1_keywords:
- - "keyworddetectoroemadapter/KEYWORDID"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- KeywordDetectorOemAdapter.h
-api_name:
-- KEYWORDID
-product:
-- Windows
 targetos: Windows
 req.typenames: KEYWORDID
+f1_keywords:
+ - __MIDL_IKeywordDetectorOemAdapter_0002
+ - keyworddetectoroemadapter/__MIDL_IKeywordDetectorOemAdapter_0002
+ - KEYWORDID
+ - keyworddetectoroemadapter/KEYWORDID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - KeywordDetectorOemAdapter.h
+api_name:
+ - KEYWORDID
 ---
 
 # __MIDL_IKeywordDetectorOemAdapter_0002 enumeration
@@ -47,24 +48,17 @@ req.typenames: KEYWORDID
 
 ## -description
 
-
 The <b>KEYWORDID</b> enumeration identifies the phrase text/function of a keyword. The value is also be used in the Windows Biometric Service adapters.
 
-
 ## -enum-fields
-
-
-
 
 ### -field KwInvalid
 
 Indicates that the keyword was invalid.
 
-
 ### -field KwVoiceAssistant
 
 Indicates that the "hey Cortana" keyword was used.
-
 
 ### -field KwSelection
 

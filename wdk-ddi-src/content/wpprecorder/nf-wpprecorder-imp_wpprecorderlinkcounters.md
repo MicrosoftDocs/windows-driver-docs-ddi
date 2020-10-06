@@ -8,8 +8,6 @@ ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.date: 02/23/2018
 keywords: ["imp_WppRecorderLinkCounters function"]
 ms.keywords: WppRecorderLinkCounters, devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
-f1_keywords:
- - "wpprecorder/imp_WppRecorderLinkCounters"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wpprecorder.h
-api_name:
-- imp_WppRecorderLinkCounters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - imp_WppRecorderLinkCounters
+ - wpprecorder/imp_WppRecorderLinkCounters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wpprecorder.h
+api_name:
+ - imp_WppRecorderLinkCounters
 ---
 
 # imp_WppRecorderLinkCounters function
@@ -47,30 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs captured in different buffers by a driver.
 
-
 ## -parameters
-
-
-
 
 ### -param WppCb
 
 <p>ID of the counter whose current value is to be read.</p>
 
+### -param CounterOwner 
 
-### -param CounterOwner [in]
-
+[in]
 ID of the counter whose current value is to be read.
-
 
 ## -returns
 
-
-
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values
-
-
-
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values

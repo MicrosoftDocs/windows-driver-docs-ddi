@@ -5,44 +5,44 @@ description: The FltAcquirePushLockExclusiveEx routine acquires the given push l
 ms.assetid: 522e77d0-1de3-472c-abb1-5f147f247d6e
 ms.date: 10/19/2018
 keywords: ["FltAcquirePushLockExclusiveEx function"]
-f1_keywords:
- - "fltkernel/FltAcquirePushLockExclusiveEx"
 ms.keywords: FltAcquirePushLockExclusiveEx
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: FltMgr.lib
-req.dll:
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- fltmgr.lib
-- fltmgr.sys
-api_name: 
-- FltAcquirePushLockExclusiveEx
-product:
-- Windows
 targetos: Windows
-dev_langs:
-- c++
 ms.custom: RS5
+f1_keywords:
+ - FltAcquirePushLockExclusiveEx
+ - fltkernel/FltAcquirePushLockExclusiveEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.lib
+ - fltmgr.sys
+api_name:
+ - FltAcquirePushLockExclusiveEx
+dev_langs:
+ - c++
 ---
 
 # FltAcquirePushLockExclusiveEx function
+
 
 ## -description
 
@@ -52,10 +52,10 @@ The **FltAcquirePushLockExclusiveEx** routine acquires the given push lock for e
 
 ### -param 
 
-### -param PushLock [in, out]
+### -param PushLock 
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
-
+[in, out]
+Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
 
 ### -param Flags
 
@@ -65,7 +65,7 @@ A bitmask of flags that control the attributes of the lock.
 
 <b>FltAcquirePushLockExclusiveEx</b> acquires the given push lock for exclusive access by the calling thread. 
 
-Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
+Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
 Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive or shared access, the thread will hang. 
 

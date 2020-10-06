@@ -6,10 +6,8 @@ old-location: kernel\pep_component_platform_constraints.htm
 tech.root: kernel
 ms.assetid: F7C2DFCC-DB74-4E2E-B252-4897FA320C03
 ms.date: 01/11/2019
-keywords: ["_PEP_COMPONENT_PLATFORM_CONSTRAINTS structure"]
+keywords: ["PEP_COMPONENT_PLATFORM_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PPEP_COMPONENT_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PLATFORM_CONSTRAINTS, kernel.pep_component_platform_constraints, pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS, pepfx/PPEP_COMPONENT_PLATFORM_CONSTRAINTS"
-f1_keywords:
- - "pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_COMPONENT_PLATFORM_CONSTRAINTS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_PLATFORM_CONSTRAINTS, *PPEP_COMPONENT_PLATFORM_CONSTRAINTS
+f1_keywords:
+ - _PEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - pepfx/_PEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - PPEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - pepfx/PPEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - PEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_COMPONENT_PLATFORM_CONSTRAINTS
 ---
 
-# _PEP_COMPONENT_PLATFORM_CONSTRAINTS structure
+# _PEP_COMPONENT_PLATFORM_CONSTRAINTS structure (pepfx.h)
+
 
 ## -description
 
@@ -64,18 +68,18 @@ The **PEP_COMPONENT_PLATFORM_CONSTRAINTS** structure describes the lowest-powere
 
 ### -field PlatformStateCount
 
-[in] The number of elements in the **MinimumFStates** array. The array contains one element for each platform idle state. The Windows [power management framework (PoFx)](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) previously sent a [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md) notification to the PEP to determine the number of supported platform idle states.
+[in] The number of elements in the **MinimumFStates** array. The array contains one element for each platform idle state. The Windows [power management framework (PoFx)](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) previously sent a [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md) notification to the PEP to determine the number of supported platform idle states.
 
 ## -remarks
 
-This structure is used by the [PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_component_idle_constraints) notification. All four members of the structure contain input values that PoFx supplies when this notification is sent. PoFx allocates the buffer pointed to by the **MinimumFStates** member, and the PEP writes to this buffer in response to the notification.
+This structure is used by the [PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_component_idle_constraints) notification. All four members of the structure contain input values that PoFx supplies when this notification is sent. PoFx allocates the buffer pointed to by the **MinimumFStates** member, and the PEP writes to this buffer in response to the notification.
 
 ## -see-also
 
 [PEP_DEVICE_REGISTER_V2](ns-pepfx-_pep_device_register_v2.md)
 
-[PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_component_idle_constraints)
+[PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_component_idle_constraints)
 
-[PEP_DPM_REGISTER_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_register_device)
+[PEP_DPM_REGISTER_DEVICE](/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_register_device)
 
 [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md)

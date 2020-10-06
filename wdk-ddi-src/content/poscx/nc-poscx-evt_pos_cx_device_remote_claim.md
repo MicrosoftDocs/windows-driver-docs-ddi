@@ -8,8 +8,6 @@ ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
 ms.date: 02/23/2018
 keywords: ["EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM callback, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
-f1_keywords:
- - "poscx/EvtPosCxDeviceRemoteClaim"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- poscx.h
-api_name:
-- EvtPosCxDeviceRemoteClaim
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - EVT_POS_CX_DEVICE_REMOTE_CLAIM
+ - poscx/EVT_POS_CX_DEVICE_REMOTE_CLAIM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - poscx.h
+api_name:
+ - EvtPosCxDeviceRemoteClaim
 ---
 
 # EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function
@@ -48,48 +47,31 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 The 
   EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from
 unclaimed to claimed and allows the driver to do additional work. This callback is typically only used with network connected devices that require additional logic for handling ownership transitions.
 
-<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
+<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
 semantics.
-
 
 ## -parameters
 
+### -param device 
 
-
-
-### -param device [in]
-
+[in]
 A handle to a framework device object that represents the device.
 
+### -param deviceInterfaceTag 
 
-### -param deviceInterfaceTag [in]
-
+[in]
 An identifier used to specify which interface is being claimed in a multi-function device.  For a single-interface device, this value should be 0.
 
-
 ## -returns
-
-
 
 If the operation is successful, the callback function must return STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE.
 
 If the driver is unable to complete the remote claim transaction, it should return STATUS_ACCESS_DENIED so that the failure will bubble up to the application.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>

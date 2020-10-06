@@ -8,8 +8,6 @@ ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.date: 05/03/2018
 keywords: ["WIAS_LERROR macro"]
 ms.keywords: IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR, WIAS_LERROR macro [Imaging Devices], image.wias_lerror, wiamdef/WIAS_LERROR
-f1_keywords:
- - "wiautil/WIAS_LERROR"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,26 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_LERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_LERROR
+ - wiautil/WIAS_LERROR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_LERROR
 ---
 
-# WIAS_LERROR macro
+# WIAS_LERROR macro (wiautil.h)
+
 
 ## -description
 
-The WIAS_LERROR macro is obsolete. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is obsolete. It is recommended that the [WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md) macro be used instead.
 
 The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
@@ -62,7 +62,7 @@ The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
 - **lResId** - Specifies the resource ID. This value should be set to **WIALOG_NO_RESOURCE_ID**.
 
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](../wia_lh/nn-wia_lh-iwialog.md).
 
 ## -remarks
 
@@ -73,14 +73,14 @@ WIAS_LERROR(g_pIWiaLog, WIALOG_NO_RESOURCE_ID,
 ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-The WIAS_LERROR macro is not recommended, because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is not recommended, because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md) macro be used instead.
 
 ## -see-also
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md)
 
-[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
+[WIAS_LHRESULT](../wiamdef/nf-wiamdef-wias_lhresult.md)
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+[WIAS_LTRACE](../wiamdef/nf-wiamdef-wias_ltrace.md)
 
-[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
+[WIAS_LWARNING](../wiamdef/nf-wiamdef-wias_lwarning.md)

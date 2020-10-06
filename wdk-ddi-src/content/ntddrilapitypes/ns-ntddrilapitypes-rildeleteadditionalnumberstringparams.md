@@ -8,8 +8,6 @@ ms.assetid: 89ae70b9-56d9-4169-8bbd-0eb2d916a928
 ms.date: 05/02/2018
 keywords: ["RILDELETEADDITIONALNUMBERSTRINGPARAMS structure"]
 ms.keywords: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeleteadditionalnumberstringparams, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
-f1_keywords:
- - "ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILDELETEADDITIONALNUMBERSTRINGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDELETEADDITIONALNUMBERSTRINGPARAMS, *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
+f1_keywords:
+ - RILDELETEADDITIONALNUMBERSTRINGPARAMS
+ - ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS
+ - LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
+ - ntddrilapitypes/LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILDELETEADDITIONALNUMBERSTRINGPARAMS
 ---
 
-# RILDELETEADDITIONALNUMBERSTRINGPARAMS structure
+# RILDELETEADDITIONALNUMBERSTRINGPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hUiccApp
-
 
 ### -field dwNumId
 

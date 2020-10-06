@@ -27,6 +27,7 @@ api_location:
 api_name:
  - D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 f1_keywords:
+ - D3D12DDI_RAYTRACING_PIPELINE_FLAGS
  - d3d12umddi/D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 dev_langs:
  - c++
@@ -44,11 +45,11 @@ No additional ray flags.
 
 ### -field D3D12DDI_RAYTRACING_PIPELINE_FLAG_SKIP_TRIANGLES
 
-For any [**TraceRay**](https://docs.microsoft.com/windows/win32/direct3d12/traceray-function) call within this raytracing pipeline, add in the RAY_FLAG_SKIP_TRIANGLES Ray flag. The resulting combination of ray flags must be valid. Implementations may be able to optimize pipelines knowing that a particular primitive type need not be considered.
+For any [**TraceRay**](/windows/win32/direct3d12/traceray-function) call within this raytracing pipeline, add in the RAY_FLAG_SKIP_TRIANGLES Ray flag. The resulting combination of ray flags must be valid. Implementations may be able to optimize pipelines knowing that a particular primitive type need not be considered.
 
 ### -field D3D12DDI_RAYTRACING_PIPELINE_FLAG_SKIP_PROCEDURAL_PRIMITIVES
 
-For any [**TraceRay**](https://docs.microsoft.com/windows/win32/direct3d12/traceray-function) call within this raytracing pipeline, add in the RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES Ray flag. The resulting combination of ray flags must be valid. Implementations may be able to optimize pipelines knowing that a particular primitive type need not be considered.
+For any [**TraceRay**](/windows/win32/direct3d12/traceray-function) call within this raytracing pipeline, add in the RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES Ray flag. The resulting combination of ray flags must be valid. Implementations may be able to optimize pipelines knowing that a particular primitive type need not be considered.
 
 ## -remarks
 

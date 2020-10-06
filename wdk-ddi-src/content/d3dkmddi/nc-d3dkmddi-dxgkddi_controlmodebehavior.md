@@ -1,66 +1,50 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CONTROLMODEBEHAVIOR
 title: DXGKDDI_CONTROLMODEBEHAVIOR
-author: windows-driver-content
 description: The DxgkDdiControlModeBehavior function requests high-level mode enumeration and settings behaviors.
 tech.root: display
 ms.assetid: a98fa9dd-f514-4e30-8c77-71a424c1675c
-ms.author: windowsdriverdev
 ms.date: 10/14/2019
 keywords: ["DXGKDDI_CONTROLMODEBEHAVIOR callback function"]
 req.header: d3dkmddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - UserDefined
-api_location: 
- - d3dkmddi.h
-api_name: 
- - DXGKDDI_CONTROLMODEBEHAVIOR
-product: 
- - Windows
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKDDI_CONTROLMODEBEHAVIOR
+product:
+ - Windows
+f1_keywords:
+ - DXGKDDI_CONTROLMODEBEHAVIOR
+ - d3dkmddi/DXGKDDI_CONTROLMODEBEHAVIOR
 ---
 
 # DXGKDDI_CONTROLMODEBEHAVIOR callback function
 
+
 ## -description
 
 The **DxgkDdiControlModeBehavior** function requests high-level mode enumeration and settings behaviors.
-
-## -prototype
-
-```cpp
-//Declaration
-
-DXGKDDI_CONTROLMODEBEHAVIOR DxgkddiControlmodebehavior;
-
-// Definition
-
-NTSTATUS DxgkddiControlmodebehavior
-(
-    IN_CONST_HANDLE hAdapter,
-    INOUT_PDXGKARG_CONTROLMODEBEHAVIOR pControlModeBehaviorArg
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -82,8 +66,27 @@ NTSTATUS DxgkddiControlmodebehavior
 | STATUS_NO_MEMORY      | There is insufficient memory to complete this request. |
 | STATUS_GRAPHICS_*XXX* | One of the invalid parameter codes that can be returned by the OS via DXGDDI_VIDPN* interfaces. These codes should occur only during development since they indicate a bug in the driver or OS. |
 
+## -prototype
+
+```cpp
+//Declaration
+
+DXGKDDI_CONTROLMODEBEHAVIOR DxgkddiControlmodebehavior;
+
+// Definition
+
+NTSTATUS DxgkddiControlmodebehavior
+(
+    IN_CONST_HANDLE hAdapter,
+    INOUT_PDXGKARG_CONTROLMODEBEHAVIOR pControlModeBehaviorArg
+)
+{...}
+
+```
+
 ## -remarks
 
 ## -see-also
 
 [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md)
+

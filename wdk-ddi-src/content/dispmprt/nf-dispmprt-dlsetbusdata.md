@@ -1,48 +1,47 @@
 ---
 UID: NF:dispmprt.DlSetBusData
 title: DlSetBusData function
-author: windows-driver-content
 description: Sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 tech.root: display
 ms.assetid: 1c96d9b5-e074-41da-8867-a858d280fa10
-ms.author: windowsdriverdev
-ms.date: 04/04/2019 
+ms.date: 04/04/2019
 keywords: ["DlSetBusData function"]
-f1_keywords:
- - "dispmprt/DlSetBusData"
 ms.keywords: DlSetBusData
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Displib.lib
-- Displib.dll
-api_name: 
-- DlSetBusData
-product: 
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - DlSetBusData
+ - dispmprt/DlSetBusData
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Displib.lib
+ - Displib.dll
+api_name:
+ - DlSetBusData
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DlSetBusData function
@@ -78,7 +77,6 @@ Specifies the byte offset within the PCI_COMMON_CONFIG structure at which the ca
 
 Specifies the number of bytes in *Buffer*.
 
-
 ## -returns
 
 This function returns ULONG.
@@ -86,3 +84,4 @@ This function returns ULONG.
 ## -remarks
 
 ## -see-also
+

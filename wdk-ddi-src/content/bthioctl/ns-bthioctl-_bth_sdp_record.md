@@ -6,10 +6,8 @@ old-location: bltooth\bth_sdp_record.htm
 tech.root: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.date: 04/27/2018
-keywords: ["_BTH_SDP_RECORD structure"]
+keywords: ["BTH_SDP_RECORD structure"]
 ms.keywords: "*PBTH_SDP_RECORD, BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], PBTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], _BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, bthioctl/BTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD"
-f1_keywords:
- - "bthioctl/BTH_SDP_RECORD"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthioctl.h
-api_name:
-- BTH_SDP_RECORD
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
+f1_keywords:
+ - _BTH_SDP_RECORD
+ - bthioctl/_BTH_SDP_RECORD
+ - PBTH_SDP_RECORD
+ - bthioctl/PBTH_SDP_RECORD
+ - BTH_SDP_RECORD
+ - bthioctl/BTH_SDP_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthioctl.h
+api_name:
+ - BTH_SDP_RECORD
 ---
 
 # _BTH_SDP_RECORD structure
@@ -47,15 +50,10 @@ req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
 
 ## -description
 
-
 The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the
   local SDP server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fSecurity
 
@@ -119,8 +117,6 @@ No security is required to access this record.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fOptions
 
@@ -156,12 +152,8 @@ The record should be obtainable if specifically requested, but it should not be 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCodService
-
-
 
 ######  Possible values include:
 
@@ -201,39 +193,22 @@ The record should be obtainable if specifically requested, but it should not be 
 
 #### COD_SERVICE_TELEPHONY
 
-
 ### -field recordLength
 
 The size, in bytes, of the record.
 
-
 ### -field record
-
 
       The SDP record in its raw stream format. The first byte is defined in this structure, with the
       entire record following it.
-     
-
 
 ## -remarks
 
-
-
 This structure is passed as the input buffer and output buffer of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
     IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
- 
-
- 
-

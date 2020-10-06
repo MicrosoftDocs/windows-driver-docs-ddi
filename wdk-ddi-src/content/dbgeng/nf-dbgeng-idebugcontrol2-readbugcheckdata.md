@@ -8,8 +8,6 @@ ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::ReadBugCheckData"]
 ms.keywords: IDebugControl interface [Windows Debugging],ReadBugCheckData method, IDebugControl2 interface [Windows Debugging],ReadBugCheckData method, IDebugControl2.ReadBugCheckData, IDebugControl2::ReadBugCheckData, IDebugControl3 interface [Windows Debugging],ReadBugCheckData method, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData, ReadBugCheckData method [Windows Debugging], ReadBugCheckData method [Windows Debugging],IDebugControl interface, ReadBugCheckData method [Windows Debugging],IDebugControl2 interface, ReadBugCheckData method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata
-f1_keywords:
- - "dbgeng/IDebugControl.ReadBugCheckData"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.ReadBugCheckData
-- IDebugControl2.ReadBugCheckData
-- IDebugControl3.ReadBugCheckData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::ReadBugCheckData
+ - dbgeng/IDebugControl2::ReadBugCheckData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.ReadBugCheckData
+ - IDebugControl2.ReadBugCheckData
+ - IDebugControl3.ReadBugCheckData
 ---
 
 # IDebugControl2::ReadBugCheckData
@@ -49,43 +48,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadBugCheckData</b> method reads the kernel bug check code and related parameters.
-
 
 ## -parameters
 
+### -param Code 
 
-
-
-### -param Code [out]
-
+[out]
 Receives the bug check code.
 
+### -param Arg1 
 
-### -param Arg1 [out]
-
+[out]
 Receives the first parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
+### -param Arg2 
 
-### -param Arg2 [out]
-
+[out]
 Receives the second parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
+### -param Arg3 
 
-### -param Arg3 [out]
-
+[out]
 Receives the third parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
+### -param Arg4 
 
-### -param Arg4 [out]
-
+[out]
 Receives the fourth parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -106,18 +98,10 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
-
-
 This method is only available in kernel-mode debugging.
 
-For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-checks--blue-screens-">Bug Checks (Blue Screens)</a>.
-
-
-
+For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="/windows-hardware/drivers/debugger/bug-checks--blue-screens-">Bug Checks (Blue Screens)</a>.

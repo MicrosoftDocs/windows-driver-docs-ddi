@@ -28,18 +28,20 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - KeShouldYieldProcessor
 f1_keywords:
+ - KeShouldYieldProcessor
  - wdm/KeShouldYieldProcessor
 dev_langs:
  - c++
 ---
 
 # KeShouldYieldProcessor function
+
 
 ## -description
 

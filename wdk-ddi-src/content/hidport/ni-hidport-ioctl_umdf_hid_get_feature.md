@@ -8,8 +8,6 @@ ms.assetid: F22C5B0D-2E8B-4837-AC10-B3CEE56A336D
 ms.date: 04/30/2018
 keywords: ["IOCTL_UMDF_HID_GET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
-f1_keywords:
- - "hidport/IOCTL_UMDF_HID_GET_FEATURE"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Hidport.h
-api_name:
-- IOCTL_UMDF_HID_GET_FEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_UMDF_HID_GET_FEATURE
+ - hidport/IOCTL_UMDF_HID_GET_FEATURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Hidport.h
+api_name:
+ - IOCTL_UMDF_HID_GET_FEATURE
 ---
 
 # IOCTL_UMDF_HID_GET_FEATURE IOCTL
@@ -47,74 +46,44 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_UMDF_HID_GET_FEATURE</b> 
-   control code obtains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts">feature report</a> from a HIDClass device.
-
+   control code obtains a <a href="/windows-hardware/drivers/hid/introduction-to-hid-concepts">feature report</a> from a HIDClass device.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-A UMDF-based driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a> to retrieve a requester-allocated input buffer that contains the report ID of the collection.
-
+A UMDF-based driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a> to retrieve a requester-allocated input buffer that contains the report ID of the collection.
 
 ### -input-buffer-length
 
-The size of the buffer obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a>.
-
+The size of the buffer obtained by calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a>.
 
 ### -output-buffer
 
-A UMDF-based driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFRequest::GetOutputMemory</a> to retrieve a requester-allocated output buffer. The driver uses the buffer to return a feature report.
-
+A UMDF-based driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFRequest::GetOutputMemory</a> to retrieve a requester-allocated output buffer. The driver uses the buffer to return a feature report.
 
 ### -output-buffer-length
 
-The size of the buffer that is retrieved by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>.
-
+The size of the buffer that is retrieved by calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 HID minidrivers that carry out the I/O to the device must also:
 
 <ul>
-<li>Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-setinformation">IWDFRequest::SetInformation</a> to set the number of bytes transferred from the device.</li>
-<li>Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-complete">IWDFRequest::Complete</a> with S_OK to complete the request without error. Otherwise, set the appropriate HRESULT error code.</li>
+<li>Call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-setinformation">IWDFRequest::SetInformation</a> to set the number of bytes transferred from the device.</li>
+<li>Call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-complete">IWDFRequest::Complete</a> with S_OK to complete the request without error. Otherwise, set the appropriate HRESULT error code.</li>
 </ul>
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature">IOCTL_HID_GET_FEATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_umdf_hid_set_feature">IOCTL_UMDF_HID_SET_FEATURE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_umdf_hid_set_feature">IOCTL_UMDF_HID_SET_FEATURE</a>

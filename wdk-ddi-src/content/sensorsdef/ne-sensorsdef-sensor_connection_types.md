@@ -5,33 +5,35 @@ description: Defines the types of sensor device connections.
 ms.assetid: a2db361a-04a1-40d7-b8f3-ce8e554621f7
 ms.date: 08/03/2018
 keywords: ["SENSOR_CONNECTION_TYPES enumeration"]
-f1_keywords:
- - "sensorsdef/SENSOR_CONNECTION_TYPES"
 ms.keywords: SENSOR_CONNECTION_TYPES, SENSOR_CONNECTION_TYPES,
 req.header: sensorsdef.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: SENSOR_CONNECTION_TYPES
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- sensorsdef.h
-api_name:
-- SENSOR_CONNECTION_TYPES
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - SENSOR_CONNECTION_TYPES
+ - sensorsdef/SENSOR_CONNECTION_TYPES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sensorsdef.h
+api_name:
+ - SENSOR_CONNECTION_TYPES
+product:
+ - Windows
 ---
 
 # SENSOR_CONNECTION_TYPES enumeration
+
 
 ## -description
 

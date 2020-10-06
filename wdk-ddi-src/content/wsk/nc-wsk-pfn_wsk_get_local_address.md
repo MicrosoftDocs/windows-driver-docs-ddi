@@ -8,8 +8,6 @@ ms.assetid: 13cd4199-63f8-49f3-a12f-86e1d367b4aa
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_GET_LOCAL_ADDRESS callback function"]
 ms.keywords: PFN_WSK_GET_LOCAL_ADDRESS, PFN_WSK_GET_LOCAL_ADDRESS callback, WskGetLocalAddress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetlocaladdress, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
-f1_keywords:
- - "wsk/WskGetLocalAddress"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskGetLocalAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_GET_LOCAL_ADDRESS
+ - wsk/PFN_WSK_GET_LOCAL_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskGetLocalAddress
 ---
 
 # PFN_WSK_GET_LOCAL_ADDRESS callback function
@@ -47,25 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskGetLocalAddress</b> function retrieves the local transport address of a socket.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being queried.
 
+### -param LocalAddress 
 
-### -param LocalAddress [out]
-
+[out]
 A pointer to a caller-allocated buffer that receives the local transport address for the socket.
      The buffer must be located in non-paged memory. The buffer must also be large enough to contain the
      specific SOCKADDR structure type that corresponds to the address family that the WSK application
@@ -76,18 +71,15 @@ For a connection-oriented socket that the WSK application accepted on a listenin
      family is the same as the address family that the WSK application specified when it created the
      listening socket.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the retrieve operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskGetLocalAddress</b> returns one of the following NTSTATUS codes:
 
@@ -143,7 +135,7 @@ The socket is not bound to a local transport address. The IRP will be completed 
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -160,21 +152,15 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskGetLocalAddress</b> function only on a socket that has been bound to a local transport address.
 
 A listening, datagram, or stream socket is bound to a local transport address when the WSK application
     calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function.
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function.
 
 A connection-oriented socket is bound to a local transport address in one of the following ways:
 
@@ -186,7 +172,7 @@ The WSK application calls the
 </li>
 <li>
 The WSK application creates, binds, and connects the socket by calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function.
+      <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function.
 
 </li>
 <li>
@@ -213,66 +199,56 @@ If the
     stack, it cannot return from the function that calls the 
     <b>WskGetLocalAddress</b> function until after the IRP is completed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_stream_dispatch">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_stream_dispatch">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_connect">WskConnect</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_connect">WskConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

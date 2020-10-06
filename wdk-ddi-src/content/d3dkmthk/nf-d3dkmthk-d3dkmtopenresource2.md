@@ -7,8 +7,6 @@ ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenResource2 function"]
 ms.keywords: D3DKMTOpenResource2, D3DKMTOpenResource2 function [Display Devices], d3dkmthk/D3DKMTOpenResource2, display.d3dkmtopenresource2
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenResource2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,23 +24,24 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTOpenResource2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenResource2
+ - d3dkmthk/D3DKMTOpenResource2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTOpenResource2
 ---
 
 # D3DKMTOpenResource2 function
@@ -50,21 +49,11 @@ req.typenames:
 
 ## -description
 
-
 Reserved for system use. Do not use in your driver.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 

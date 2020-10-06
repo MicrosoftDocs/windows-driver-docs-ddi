@@ -8,8 +8,6 @@ ms.assetid: 0f43b2be-d371-42d8-825b-56362de05c5e
 ms.date: 05/02/2018
 keywords: ["RILUICCSERVICEPARAMS structure"]
 ms.keywords: "*LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceparams, ntddrilapitypes/RILUICCSERVICEPARAMS"
-f1_keywords:
- - "rilapitypes/RILUICCSERVICEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,43 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCSERVICEPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
+f1_keywords:
+ - RILUICCSERVICEPARAMS
+ - rilapitypes/RILUICCSERVICEPARAMS
+ - LPRILUICCSERVICEPARAMS
+ - rilapitypes/LPRILUICCSERVICEPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCSERVICEPARAMS
 ---
 
-# RILUICCSERVICEPARAMS structure
+# RILUICCSERVICEPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field service
-
 
 ### -field fHasLockVerification
 
-
 ### -field lockCredential
-
 
 ### -field fEnable
 

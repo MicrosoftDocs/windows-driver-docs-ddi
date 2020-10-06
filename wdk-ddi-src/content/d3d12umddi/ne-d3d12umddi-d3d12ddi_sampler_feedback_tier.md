@@ -27,6 +27,7 @@ api_location:
 api_name:
  - D3D12DDI_SAMPLER_FEEDBACK_TIER
 f1_keywords:
+ - D3D12DDI_SAMPLER_FEEDBACK_TIER
  - d3d12umddi/D3D12DDI_SAMPLER_FEEDBACK_TIER
 dev_langs:
  - c++
@@ -57,3 +58,4 @@ A driver can return a supported tier in [**D3D12DDI_D3D12_OPTIONS_DATA_0073**](n
 ## -see-also
 
 [**D3D12DDI_D3D12_OPTIONS_DATA_0073**](ns-d3d12umddi-d3d12ddi_d3d12_options_data_0073.md)
+

@@ -6,10 +6,8 @@ old-location: buses\ucm_pd_request_data_object.htm
 tech.root: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.date: 05/07/2018
-keywords: ["_UCM_PD_REQUEST_DATA_OBJECT structure"]
+keywords: ["UCM_PD_REQUEST_DATA_OBJECT structure"]
 ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
-f1_keywords:
- - "ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucmtypes.h
-api_name:
-- UCM_PD_REQUEST_DATA_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+f1_keywords:
+ - _UCM_PD_REQUEST_DATA_OBJECT
+ - ucmtypes/_UCM_PD_REQUEST_DATA_OBJECT
+ - PUCM_PD_REQUEST_DATA_OBJECT
+ - ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT
+ - UCM_PD_REQUEST_DATA_OBJECT
+ - ucmtypes/UCM_PD_REQUEST_DATA_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucmtypes.h
+api_name:
+ - UCM_PD_REQUEST_DATA_OBJECT
 ---
 
 # _UCM_PD_REQUEST_DATA_OBJECT structure
@@ -47,130 +50,99 @@ req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 
 ## -description
 
-
 Describes a Request Data Object (RDO). For information about these members, see the <a href="https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50">Power Delivery specification</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Ul
 
 Size of the structure.
 
-
 ### -field Common
-
 
 ### -field Common.Reserved1
 
 Reserved.
 
-
 ### -field Common.ObjectPosition
 
 Object position.
-
 
 ### -field Common.Reserved2
 
 Reserved.
 
-
 ### -field FixedAndVariableRdo
-
 
 ### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
 
 Maximum current in 10 mA units.
 
-
 ### -field FixedAndVariableRdo.OperatingCurrentIn10mA
 
 Operating current in 10mA units.
-
 
 ### -field FixedAndVariableRdo.Reserved1
 
 Reserved.
 
-
 ### -field FixedAndVariableRdo.NoUsbSuspend
 
 Indicates support for USB suspend.
 
-
-
-
 ### -field FixedAndVariableRdo.UsbCommunicationCapable
 
-USB communication capable. 
-
+USB communication capable.
 
 ### -field FixedAndVariableRdo.CapabilityMismatch
 
-Capability Mismatch 
-
+Capability Mismatch
 
 ### -field FixedAndVariableRdo.GiveBackFlag
 
 GiveBack Flag.
 
-
 ### -field FixedAndVariableRdo.ObjectPosition
 
 Object Position.
-
 
 ### -field FixedAndVariableRdo.Reserved2
 
 Reserved for future use.
 
-
 ### -field BatteryRdo
-
 
 ### -field BatteryRdo.MaximumOperatingPowerIn250mW
 
-Maximum Operating Power in 250mW units. 
-
+Maximum Operating Power in 250mW units.
 
 ### -field BatteryRdo.OperatingPowerIn250mW
 
 Operating Power in 250mW units.
 
-
 ### -field BatteryRdo.Reserved1
 
 Reserved for future use.
 
-
 ### -field BatteryRdo.NoUsbSuspend
 
- USB Suspend. 
-
+ USB Suspend.
 
 ### -field BatteryRdo.UsbCommunicationCapable
 
 USB Communications Capable.
 
-
 ### -field BatteryRdo.CapabilityMismatch
 
-Capability Mismatch. 
-
+Capability Mismatch.
 
 ### -field BatteryRdo.GiveBackFlag
 
-GiveBack Flag. 
-
+GiveBack Flag.
 
 ### -field BatteryRdo.ObjectPosition
 
 Object Position.
-
 
 ### -field BatteryRdo.Reserved2
 

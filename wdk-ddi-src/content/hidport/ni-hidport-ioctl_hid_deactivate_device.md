@@ -8,8 +8,6 @@ ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_DEACTIVATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_HID_DEACTIVATE_DEVICE, IOCTL_HID_DEACTIVATE_DEVICE control, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_deactivate_device, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml, hidport/IOCTL_HID_DEACTIVATE_DEVICE
-f1_keywords:
- - "hidport/IOCTL_HID_DEACTIVATE_DEVICE"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidport.h
-api_name:
-- IOCTL_HID_DEACTIVATE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_DEACTIVATE_DEVICE
+ - hidport/IOCTL_HID_DEACTIVATE_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidport.h
+api_name:
+ - IOCTL_HID_DEACTIVATE_DEVICE
 ---
 
 # IOCTL_HID_DEACTIVATE_DEVICE IOCTL
@@ -47,57 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains the collection identifier, as a ULONG value, of the collection that is ceasing operations.
 
-
 ### -input-buffer-length
 
 The length of a ULONG value.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
 
        HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
@@ -113,14 +88,6 @@ None
 </ul>
 HID minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and must not change the contents of the <b>Status</b> field.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/hh439611(v=vs.85)">IOCTL_HID_ACTIVATE_DEVICE</a>
- 
-
- 
-
+<a href="/previous-versions/hh439611(v=vs.85)">IOCTL_HID_ACTIVATE_DEVICE</a>

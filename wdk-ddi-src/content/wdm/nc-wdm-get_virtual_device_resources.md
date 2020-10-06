@@ -8,39 +8,38 @@ ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
 ms.date: 02/24/2018
 keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
-f1_keywords:
- - "wdm/GetResources"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetResources
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
+f1_keywords:
+ - GET_VIRTUAL_DEVICE_RESOURCES
+ - wdm/GET_VIRTUAL_DEVICE_RESOURCES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetResources
 ---
 
 # GET_VIRTUAL_DEVICE_RESOURCES callback
@@ -48,12 +47,21 @@ req.product: Windows 10 or later.
 
 ## -description
 
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
+## -parameters
 
+### -param Context 
+
+[in, out]
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+
+### -param CapturedBusNumbers 
+
+[out]
+A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the number of PCIe buses that have been captured for use by the SR-IOV PF of the device.
 
 ## -prototype
-
 
 ```cpp
 GET_VIRTUAL_DEVICE_RESOURCES GetResources;
@@ -65,25 +73,7 @@ VOID GetResources(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context [in, out]
-
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
-
-
-### -param CapturedBusNumbers [out]
-
-A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the number of PCIe buses that have been captured for use by the SR-IOV PF of the device.
-
-
 ## -remarks
-
-
 
 A PCIe device typically consumes resources on a single PCI bus.  The PCI driver assigns a device to a PCI bus by writing the bus number into the Secondary Bus Number register and Subordinate Bus Number register in the upstream bridge port. This port is a PCI-to-PCI bridge within a PCIe root port or a PCIe switch port.
 
@@ -123,14 +113,11 @@ Writes a value that is larger than the device’s bus number into the PCIe Subor
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
-
-
-
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -139,11 +126,3 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <b></b>
-
-
-
- 
-
- 
-
-

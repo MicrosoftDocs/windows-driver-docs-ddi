@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnShaderCacheStoreValueCb"
+ - PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
+ - d3d12umddi/PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 callback function
+
 
 ## -description
 
@@ -80,9 +82,8 @@ The length of the output value.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-Access this callback by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
-
+Access this callback by using the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.

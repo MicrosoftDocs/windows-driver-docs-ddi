@@ -7,8 +7,6 @@ ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.date: 05/10/2018
 keywords: ["D3DKMTReleaseProcessVidPnSourceOwners function"]
 ms.keywords: D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners
-f1_keywords:
- - "d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,26 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTReleaseProcessVidPnSourceOwners
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTReleaseProcessVidPnSourceOwners
+ - d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTReleaseProcessVidPnSourceOwners
 ---
 
 # D3DKMTReleaseProcessVidPnSourceOwners function
+
 
 ## -description
 
@@ -69,3 +69,4 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
+

@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupMcbEntry function"]
 ms.keywords: FsRtlLookupMcbEntry, FsRtlLookupMcbEntry function [Installable File System Drivers], fsrtlref_2f0e31c1-e938-4e83-9547-6999c5fb8cb4.xml, ifsk.fsrtllookupmcbentry, ntifs/FsRtlLookupMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupMcbEntry"
+ - "FsRtlLookupMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlLookupMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-<b>FsRtlLookupMcbEntry</b> is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry">FsRtlLookupLargeMcbEntry</a> instead.
+<b>FsRtlLookupMcbEntry</b> is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry">FsRtlLookupLargeMcbEntry</a> instead.
 
 
 ## -parameters
@@ -79,8 +78,3 @@ TBD
 ### -param Index
 
 TBD
-
-
-
-
-

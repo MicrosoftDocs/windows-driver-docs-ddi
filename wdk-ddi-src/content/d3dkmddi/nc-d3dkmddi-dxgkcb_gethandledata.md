@@ -7,8 +7,6 @@ ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415
 ms.date: 05/10/2018
 keywords: ["DXGKCB_GETHANDLEDATA callback function"]
 ms.keywords: DXGKCB_GETHANDLEDATA, DXGKCB_GETHANDLEDATA callback, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
-f1_keywords:
- - "d3dkmddi/DxgkCbGetHandleData"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkCbGetHandleData
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_GETHANDLEDATA
+ - d3dkmddi/DXGKCB_GETHANDLEDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkCbGetHandleData
 ---
 
 # DXGKCB_GETHANDLEDATA callback function
@@ -47,35 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkCbGetHandleData</i> function retrieves the private data that is associated with an allocation.
-
 
 ## -parameters
 
-
-
-
-
-
-
-
-
-
-#### -param
+## -param
 
 *pData*
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure that describes the allocation data to retrieve.
-
+[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure that describes the allocation data to retrieve.
 
 ## -returns
 
-
-
 <i>DxgkCbGetHandleData</i> returns a buffer that contains the private data for the allocation.
 
-If <i>DxgkCbGetHandleData</i> returns a <b>NULL</b> pointer, the Microsoft DirectX graphics kernel subsystem was unable to resolve the handle that is supplied in the <b>hObject</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure to private data because, for example, of the following possible reasons: 
+If <i>DxgkCbGetHandleData</i> returns a <b>NULL</b> pointer, the Microsoft DirectX graphics kernel subsystem was unable to resolve the handle that is supplied in the <b>hObject</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure to private data because, for example, of the following possible reasons: 
 
 <ul>
 <li>An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug. </li>
@@ -83,21 +68,16 @@ If <i>DxgkCbGetHandleData</i> returns a <b>NULL</b> pointer, the Microsoft Direc
 </ul>
 If a <b>NULL</b> pointer is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
 
-
-
-
 ## -remarks
 
+When the DirectX graphics kernel subsystem calls the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function to create handles to allocations, the display miniport driver can create private data for each allocation handle. The display miniport driver can subsequently call the <b>DxgkCbGetHandleData</b> function to retrieve private data for each graphics subsystem-specific handle. Therefore, the display miniport driver is not required to maintain a private allocation handle table. 
 
-
-When the DirectX graphics kernel subsystem calls the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function to create handles to allocations, the display miniport driver can create private data for each allocation handle. The display miniport driver can subsequently call the <b>DxgkCbGetHandleData</b> function to retrieve private data for each graphics subsystem-specific handle. Therefore, the display miniport driver is not required to maintain a private allocation handle table. 
-
-If the <b>DeviceSpecific</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure that <i>pData</i> points to, <b>DxgkCbGetHandleData</b> returns the device-specific data that is associated with the device-specific handle that the driver returned from the call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function. Note that the <b>DeviceSpecific</b> bit-field flag is valid only if the display miniport driver also sets the <b>Type</b> member of DXGKARGCB_GETHANDLEDATA to the DXGK_HANDLE_ALLOCATION enumeration value for the handle in the <b>hObject</b> member of DXGKARGCB_GETHANDLEDATA.
+If the <b>DeviceSpecific</b> bit-field flag is set in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a> structure that <i>pData</i> points to, <b>DxgkCbGetHandleData</b> returns the device-specific data that is associated with the device-specific handle that the driver returned from the call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function. Note that the <b>DeviceSpecific</b> bit-field flag is valid only if the display miniport driver also sets the <b>Type</b> member of DXGKARGCB_GETHANDLEDATA to the DXGK_HANDLE_ALLOCATION enumeration value for the handle in the <b>hObject</b> member of DXGKARGCB_GETHANDLEDATA.
 
 
 #### Examples
 
-The following code example shows an implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> in which <b>DxgkCbGetHandleData</b> is called.
+The following code example shows an implementation of <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> in which <b>DxgkCbGetHandleData</b> is called.
 
 ```cpp
 NTSTATUS
@@ -128,23 +108,14 @@ DxgkDdiOpenAllocation(
 }
 ```
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>

@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DSI_CONTROL_TRANSMISSION_MODE
  - DXGK_DSI_CONTROL_TRANSMISSION_MODE
 f1_keywords:
+ - _DXGK_DSI_CONTROL_TRANSMISSION_MODE
  - dispmprt/_DXGK_DSI_CONTROL_TRANSMISSION_MODE
+ - DXGK_DSI_CONTROL_TRANSMISSION_MODE
  - dispmprt/DXGK_DSI_CONTROL_TRANSMISSION_MODE
 dev_langs:
  - c++
 ---
 
 # DXGK_DSI_CONTROL_TRANSMISSION_MODE enumeration
+
 
 ## -description
 
@@ -56,3 +59,4 @@ Write packets should use high-speed transmission mode or failed if that is not a
 ## -remarks
 
 ## -see-also
+

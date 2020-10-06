@@ -6,10 +6,8 @@ old-location: display\dxgk_pte.htm
 tech.root: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.date: 05/10/2018
-keywords: ["_DXGK_PTE structure"]
+keywords: ["DXGK_PTE structure"]
 ms.keywords: DXGK_PTE, DXGK_PTE structure [Display Devices], DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, _DXGK_PTE, d3dukmdt/DXGK_PTE, display.dxgk_pte
-f1_keywords:
- - "d3dukmdt/DXGK_PTE"
 req.header: d3dukmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGK_PTE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
+f1_keywords:
+ - _DXGK_PTE
+ - d3dukmdt/_DXGK_PTE
+ - DXGK_PTE
+ - d3dukmdt/DXGK_PTE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGK_PTE
 ---
 
 # _DXGK_PTE structure
@@ -47,19 +48,13 @@ req.typenames: DXGK_PTE
 
 ## -description
 
-
-A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation. 
-
+A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation.
 
 ## -struct-fields
-
-
-
 
 ### -field Valid
 
 When set, this indicates that the entry is valid. Accessing an invalid entry leads to an unrecoverable address fault, unless the <b>Zero</b> flag is set.
-
 
 ### -field Zero
 
@@ -67,16 +62,13 @@ When set with <b>Valid</b> = 1, the access to the entry lead to returning the ze
 
 Supported starting with Windows 10.
 
-
 ### -field CacheCoherent
 
 When set, this indicates that the memory page is cache coherent between CPU and GPU.
 
-
 ### -field ReadOnly
 
 When set, this indicates that the memory page is read only.
-
 
 ### -field NoExecute
 
@@ -84,18 +76,15 @@ When set, this  indicates that the memory page contains data, which should not b
 
 Supported starting with Windows 10.
 
-
 ### -field Segment
 
-A zero-based GPU memory segment identifier where the corresponding memory page is located. The segment zero is reserved for system memory. 
-
+A zero-based GPU memory segment identifier where the corresponding memory page is located. The segment zero is reserved for system memory.
 
 ### -field LargePage
 
-The bit can be set only when the kernel mode driver sets the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgk-virtualaddresscaps">DXGK_VIRTUALADDRESSCAPS</a>::<b>GpuMmu</b>.<b>LargePageSupported</b> cap. When set the page table address (<b>PageTableAddress</b> + <b>SegmentId</b>) is the memory address of an allocation. The allocation size is equal to the virtual address range, covered by the lower page table level. This flag cannot be set for the leaf page tables.
+The bit can be set only when the kernel mode driver sets the <a href="/windows-hardware/drivers/display/dxgk-virtualaddresscaps">DXGK_VIRTUALADDRESSCAPS</a>::<b>GpuMmu</b>.<b>LargePageSupported</b> cap. When set the page table address (<b>PageTableAddress</b> + <b>SegmentId</b>) is the memory address of an allocation. The allocation size is equal to the virtual address range, covered by the lower page table level. This flag cannot be set for the leaf page tables.
 
 Supported starting with Windows 10.
-
 
 ### -field PhysicalAdapterIndex
 
@@ -103,37 +92,28 @@ Defines a physical adapter index in a linked display adapter configuration. PTEs
 
 Supported starting with Windows 10.
 
-
 ### -field PageTablePageSize
 
-For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
+For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
 
 Supported starting with Windows 10.
 
-
 ### -field SystemReserved0
-
- 
-
 
 ### -field Reserved
 
 Reserved for system use and will be set to zero.
 
-
 ### -field Flags
 
 The unmasked value of the structure.
 
-
 ### -field PageAddress
 
 The high 52 bits of the 64 bit physical address of a memory page. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
-
 
 ### -field PageTableAddress
 
 The high 52 bits of the 64 bit physical address of a lower level page table. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 
 Supported starting with Windows 10.
-

@@ -8,8 +8,6 @@ ms.assetid: bd30a156-0414-486c-92c4-21c33d32f9b8
 ms.date: 05/02/2018
 keywords: ["RILSETNOTIFICATIONFILTERSTATEPARAMS structure"]
 ms.keywords: "*LPRILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetnotificationfilterstateparams, ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
-f1_keywords:
- - "rilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETNOTIFICATIONFILTERSTATEPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETNOTIFICATIONFILTERSTATEPARAMS, *LPRILSETNOTIFICATIONFILTERSTATEPARAMS
+f1_keywords:
+ - RILSETNOTIFICATIONFILTERSTATEPARAMS
+ - rilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS
+ - LPRILSETNOTIFICATIONFILTERSTATEPARAMS
+ - rilapitypes/LPRILSETNOTIFICATIONFILTERSTATEPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETNOTIFICATIONFILTERSTATEPARAMS
 ---
 
-# RILSETNOTIFICATIONFILTERSTATEPARAMS structure
+# RILSETNOTIFICATIONFILTERSTATEPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwFilterMask
-
 
 ### -field dwFilterState
 

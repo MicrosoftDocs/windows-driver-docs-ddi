@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SHADING_RATE_COMBINER_0062
 title: D3D12DDI_SHADING_RATE_COMBINER_0062
-author: windows-driver-content
 description: Indicates the type of combiner used to combine two shading rates A and B, where A is the pipeline/render state (per draw) shading rate, and B is one of the following types of shading rates.
 tech.root: display
 ms.assetid: d1613af5-477e-42cf-a804-f830b82ce2bf
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_SHADING_RATE_COMBINER_0062 enumeration"]
 ms.keywords: D3D12DDI_SHADING_RATE_COMBINER_0062, D3D12DDI_SHADING_RATE_COMBINER_0062,
@@ -22,7 +20,8 @@ req.typenames: D3D12DDI_SHADING_RATE_COMBINER_0062
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_SHADING_RATE_COMBINER_0062"
+ - D3D12DDI_SHADING_RATE_COMBINER_0062
+ - d3d12umddi/D3D12DDI_SHADING_RATE_COMBINER_0062
 topic_type:
  - apiref
 api_type:
@@ -38,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_SHADING_RATE_COMBINER_0062 enumeration
+
 
 ## -description
 

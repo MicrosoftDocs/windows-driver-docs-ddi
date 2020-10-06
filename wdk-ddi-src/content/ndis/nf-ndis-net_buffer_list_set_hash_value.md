@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 4c72d349-dc74-42b5-ae97-2e68f18285fa
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SET_HASH_VALUE macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_SET_HASH_VALUE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_VALUE
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_LIST_SET_HASH_VALUE
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_LIST_SET_HASH_VALUE
+ - ndis/NET_BUFFER_LIST_SET_HASH_VALUE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_SET_HASH_VALUE
 ---
 
 # NET_BUFFER_LIST_SET_HASH_VALUE macro
@@ -59,7 +57,7 @@ The hash value, which is formatted as a ULONG.
 
 ## -remarks
 
-For more information about the hash value, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions)
+For more information about the hash value, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions)
 
 ## -see-also
 

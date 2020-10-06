@@ -8,8 +8,6 @@ ms.assetid: ede0a18a-cd3b-4fbb-a16b-e7493940d633
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_MAKE_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall
-f1_keywords:
- - "ndis/ProtocolCmMakeCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmMakeCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_MAKE_CALL
+ - ndis/PROTOCOL_CM_MAKE_CALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmMakeCall
 ---
 
 # PROTOCOL_CM_MAKE_CALL callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmMakeCall</i> function is a required function that sets up media specific parameters for a
@@ -56,40 +54,35 @@ The
 
 ## -parameters
 
+### -param CallMgrVcContext 
 
-
-
-### -param CallMgrVcContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call managers maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in, out]
-
+[in, out]
 Pointer to a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
+     <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the parameters, specified by a connection-oriented client, for this outgoing call.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in, optional]
-
+[in, optional]
 Specifies a handle, supplied by NDIS, that uniquely identifies the initial party on the multipoint
      virtual connection. This handle is opaque to the call manager and reserved for NDIS library use. This
      handle is <b>NULL</b> if the client is not setting up an outgoing multipoint call.
 
+### -param CallMgrPartyContext 
 
-### -param CallMgrPartyContext [out, optional]
-
+[out, optional]
 On return, specifies a handle to a call manager-supplied context area in which the call manager
      maintains state about the initial party on the multipoint call. If 
      <i>NdisPartyHandle</i> is <b>NULL</b>, this handle must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmMakeCall</i> returns the status of its operation(s) as one of the following values:
 
@@ -119,7 +112,7 @@ Indicates that the call manager successfully allocated the necessary resources t
 <td width="60%">
 Indicates that the call manager will complete the request to make a call asynchronously. When
        the call manager has completed all operations for making a call, it must call 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmakecallcomplete">NdisCmMakeCallComplete</a> to signal
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmakecallcomplete">NdisCmMakeCallComplete</a> to signal
        NDIS that this call has been completed.
 
 </td>
@@ -150,14 +143,8 @@ Indicates that the call manager was unable to activate a virtual connection beca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If 
     <i>ProtocolCmMakeCall</i> is given an explicit 
@@ -176,15 +163,15 @@ If
 
 If a call manager is required to communication with networking hardware (such as a networking switch)
     it should use a virtual connection to the network control device that it established in its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
     Call managers communicate with their network hardware through the miniport driver by calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
     Miniport drivers with integrated call-management support will not call 
     <b>NdisCoSendNetBufferLists</b>, but rather will transmit the data themselves.
 
 After a call manager has done all necessary communication with its networking hardware as required by
     its medium, call managers must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>.
 
 If this call was a multipoint call, after the call manager has communicated with the networking
     hardware, verified call parameters, and allocated and initialized its per-party state data, the address
@@ -192,16 +179,11 @@ If this call was a multipoint call, after the call manager has communicated with
     <i>CallMgrPartyContext</i> before returning control to NDIS. The handle is set by dereferencing the handle
     and storing a pointer to the state block as the value of the handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*CallMgrPartyContext = SomeBuffer ;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+*CallMgrPartyContext = SomeBuffer ;
+```
+
 If 
     <i>ProtocolCmMakeCall</i> has completed the required operations for its network and the VC has been
     successfully activated through 
@@ -218,29 +200,20 @@ After
     this call.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCmMakeCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCmMakeCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmMakeCall</i> function that is named "MyCmMakeCall", use the <b>PROTOCOL_CM_MAKE_CALL</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_MAKE_CALL MyCmMakeCall;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CM_MAKE_CALL MyCmMakeCall;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmMakeCall(
     NDIS_HANDLE  CallMgrVcContext,
@@ -248,36 +221,25 @@ NDIS_STATUS
     NDIS_HANDLE  NdisPartyHandle,
     PNDIS_HANDLE  CallMgrPartyContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CM_MAKE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_MAKE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>PROTOCOL_CM_MAKE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_MAKE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmakecallcomplete">NdisCmMakeCallComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmakecallcomplete">NdisCmMakeCallComplete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>

@@ -8,8 +8,6 @@ ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.date: 04/16/2018
 keywords: ["FltCloseSectionForDataScan function"]
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
-f1_keywords:
- - "fltkernel/FltCloseSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCloseSectionForDataScan
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCloseSectionForDataScan
+ - fltkernel/FltCloseSectionForDataScan
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCloseSectionForDataScan
 ---
 
 # FltCloseSectionForDataScan function
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltCloseSectionForDataScan</b> routine closes a section object associated with a file stream.
-
 
 ## -parameters
 
+### -param SectionContext 
 
-
-
-### -param SectionContext [in]
-
-A pointer to the section context to close. 
-
+[in]
+A pointer to the section context to close.
 
 ## -returns
-
-
 
 <b>FltCloseSectionForDataScan</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following.
 
@@ -80,7 +72,7 @@ A pointer to the section context to close.
 </dl>
 </td>
 <td width="60%">
-The section context was not properly created. An allocated section context must first be passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a>. This is an error code. 
+The section context was not properly created. An allocated section context must first be passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a>. This is an error code. 
 
 </td>
 </tr>
@@ -96,37 +88,21 @@ The section context is already closed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Minifilters use the <b>FltCloseSectionForDataScan</b> routine to deallocate  and remove a section context from a file object. All previously allocated section contexts passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a> must be passed to <b>FltCloseSectionForDataScan</b>. Otherwise, minifilters can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> if the section context was allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a> but no section was created with  <b>FltCreateSectionForDataScan</b>.
+Minifilters use the <b>FltCloseSectionForDataScan</b> routine to deallocate  and remove a section context from a file object. All previously allocated section contexts passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a> must be passed to <b>FltCloseSectionForDataScan</b>. Otherwise, minifilters can call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> if the section context was allocated with <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a> but no section was created with  <b>FltCreateSectionForDataScan</b>.
 
 After <b>FltCloseSectionForDataScan</b> returns, operations that conflict with the section  described by <i>SectionContext</i> will not be synchronized by the filter manager.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>

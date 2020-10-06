@@ -6,10 +6,8 @@ old-location: netvista\ipsec_offload_v2_add_sa_ex.htm
 tech.root: netvista
 ms.assetid: ecb2ae2e-d57d-4192-965b-2ac9b16debf3
 ms.date: 05/02/2018
-keywords: ["_IPSEC_OFFLOAD_V2_ADD_SA_EX structure"]
+keywords: ["IPSEC_OFFLOAD_V2_ADD_SA_EX structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, netvista.ipsec_offload_v2_add_sa_ex"
-f1_keywords:
- - "ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- IPSEC_OFFLOAD_V2_ADD_SA_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_ADD_SA_EX, *PIPSEC_OFFLOAD_V2_ADD_SA_EX
+f1_keywords:
+ - _IPSEC_OFFLOAD_V2_ADD_SA_EX
+ - ndis/_IPSEC_OFFLOAD_V2_ADD_SA_EX
+ - PIPSEC_OFFLOAD_V2_ADD_SA_EX
+ - ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX
+ - IPSEC_OFFLOAD_V2_ADD_SA_EX
+ - ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - IPSEC_OFFLOAD_V2_ADD_SA_EX
 ---
 
 # _IPSEC_OFFLOAD_V2_ADD_SA_EX structure
@@ -47,28 +50,22 @@ req.typenames: IPSEC_OFFLOAD_V2_ADD_SA_EX, *PIPSEC_OFFLOAD_V2_ADD_SA_EX
 
 ## -description
 
-
 <p class="CCE_Message">[The IPsec Task Offload feature is deprecated and should not be used.]
 
 The IPSEC_OFFLOAD_V2_ADD_SA_EX structure defines information about a security association (SA) that a
   miniport driver should add to a NIC.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      IPSEC_OFFLOAD_V2_ADD_SA_EX structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
      <b>Revision</b> member to NDIS_IPSEC_OFFLOAD_V2_ADD_SA_EX_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_IPSEC_OFFLOAD_V2_ADD_SA_EX_REVISION_1.
-
 
 ### -field NumExtHdrs
 
@@ -141,8 +138,6 @@ UDP ESP
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -166,49 +161,41 @@ If this flag is set, the addresses are IPv6. Otherwise, the addresses are IPv4
 
 If this flag is set, the SA is inbound. Otherwise, the SA is outbound.
 
-
 ### -field IPv4Endpoints
 
 The IPv4 endpoint addresses. This structure contains the following members:
-
 
 ### -field IPv4Endpoints.SrcAddr
 
 The IPv4 address of the source host (the host that is sending the packets).
 
-
 ### -field IPv4Endpoints.DestAddr
 
 The IPv4 address of the destination host (the host that is receiving the packets).
-
 
 ### -field IPv6Endpoints
 
 The IPv6 endpoint addresses. This structure contains the following members:
 
-
 ### -field IPv6Endpoints.SrcAddr
 
 The IPv6 address of the source host (the host that is sending the packets).
-
 
 ### -field IPv6Endpoints.DestAddr
 
 The IPv6 address of the destination host (the host that is receiving the packets).
 
-
 ### -field OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the     
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa-ex">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a> request. The TCP/IP transport must specify this handle in the     
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
+     <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa-ex">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a> request. The TCP/IP transport must specify this handle in the     
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
      NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
      NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a> structure before passing a send packet to the
      miniport driver. The TCP/IP transport must also specify this handle when deleting the SA with an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+     <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
      OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a> request.
-
 
 ### -field UdpEspEncapsulation
 
@@ -250,13 +237,12 @@ The tunnel-mode portion of a packet is UDP-encapsulated. The transport-mode port
 The tunnel-mode portion of a packet is not UDP-encapsulated. The transport-mode portion of a
        packet is UDP-encapsulated and ESP-protected.
 
-
 ### -field SecAssoc
 
 An array with two elements that contain the information about the IPsec operations (AH, ESP, or
      both) for the SA. The number of provided elements is specified in the 
      <b>NumExtHdrs</b> member. The information for each IPsec operations is formatted as an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
      IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure, which is described below.
      
 
@@ -268,12 +254,10 @@ The TCP/IP transport specifies one or two IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION 
      in which the miniport driver should perform the operations for each SA. Only one combination of
      operations is supported: encryption/decryption (ESP) followed by authentication (AH).
 
-
 ### -field KeyLength
 
 The length, in bytes, of the buffer at 
      <b>KeyOffset</b>.
-
 
 ### -field KeyOffset
 
@@ -281,32 +265,27 @@ The offset, in bytes, from the beginning of the IPSEC_OFFLOAD_V2_ADD_SA_EX struc
      <b>SecAssoc</b>. If both an encryption algorithm and an authentication algorithm are specified by the 
      <b>EncryptionAlgorithm</b> and 
      <b>AuthenticationAlgorithm</b> members of an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
      IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure, the buffer at 
      <b>KeyOffset</b> contains key information for one followed by the other. The beginning and the length of
      the key are specified by the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a> structure's <b>KeyOffsetBytes</b> and 
      <b>KeyLength</b> members, respectively.
-
 
 ### -field SourceSwitchPortId
 
 Reserved.
 
-
 ### -field VlanId
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The IPSEC_OFFLOAD_V2_ADD_SA_EX structure specifies a security SA that should be added. The IPSEC_OFFLOAD_V2_ADD_SA_EX structure is
     used with the     
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa-ex">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a> OID.
+    <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa-ex">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a> OID.
 
 The IPSEC_OFFLOAD_V2_ADD_SA_EX structure specifies the source and destination, as well as the IP
     protocols, to which the SA applies. This filter pertains to a transport-mode connection--that is, an
@@ -320,52 +299,42 @@ If a member is set to zero, that parameter is not used to filter packets for the
     sending any type of packet to any destination host.
 
 This structure is nearly identical to the previous version, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>. The <b>Next</b> and <b>KeyData</b> members have been removed. The <b>KeyOffset</b>, <b>SourceSwitchPortId</b> and <b>VlanId</b> members have been added.
-
-
-
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>. The <b>Next</b> and <b>KeyData</b> members have been removed. The <b>KeyOffset</b>, <b>SourceSwitchPortId</b> and <b>VlanId</b> members have been added.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
- 
-
- 
-

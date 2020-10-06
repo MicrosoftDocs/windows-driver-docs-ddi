@@ -8,8 +8,6 @@ ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
-f1_keywords:
- - "ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- IOCTL_EHSTOR_DEVICE_SILO_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_EHSTOR_DEVICE_SILO_COMMAND
+ - ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - IOCTL_EHSTOR_DEVICE_SILO_COMMAND
 ---
 
 # IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL
@@ -47,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 This IOCTL issues a silo command to the targeted silo on the device. Both input and output data are structured according to the definition of silo commands, as found in the IEEE 1667 specification document.
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a>.
-
+The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a>.
 
 ### -input-buffer-length
 
-The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a> structure.
-
+The length of a <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a> structure.
 
 ### -output-buffer
 
 The output buffer contains the output data returned directly from the device response to this silo command. The structure of this output data is assumed to be shared knowledge between the client issuing this IOCTL and the device.
 
-
 ### -output-buffer-length
 
 The length of the buffer.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -123,5 +99,3 @@ STATUS_BUFFER_TOO_SMALL - The output buffer length supplied is of insufficient s
 
 </dd>
 </dl>
-
-

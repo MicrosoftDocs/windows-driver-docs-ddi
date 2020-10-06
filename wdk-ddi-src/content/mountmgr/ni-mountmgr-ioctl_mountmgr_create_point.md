@@ -8,8 +8,6 @@ ms.assetid: 580af31d-4122-48fe-a9da-097787f87620
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTMGR_CREATE_POINT IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_CREATE_POINT, IOCTL_MOUNTMGR_CREATE_POINT control, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, storage.ioctl_mountmgr_create_point
-f1_keywords:
- - "mountmgr/IOCTL_MOUNTMGR_CREATE_POINT"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mountmgr.h
-api_name:
-- IOCTL_MOUNTMGR_CREATE_POINT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTMGR_CREATE_POINT
+ - mountmgr/IOCTL_MOUNTMGR_CREATE_POINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mountmgr.h
+api_name:
+ - IOCTL_MOUNTMGR_CREATE_POINT
 ---
 
 # IOCTL_MOUNTMGR_CREATE_POINT IOCTL
@@ -47,8 +46,7 @@ req.typenames:
 
 ## -description
 
-
-The mount manager clients can use this IOCTL to request that the mount manager create a persistent symbolic link name for the indicated volume. For a discussion of the various sorts of persistent symbolic links managed by the mount manager, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+The mount manager clients can use this IOCTL to request that the mount manager create a persistent symbolic link name for the indicated volume. For a discussion of the various sorts of persistent symbolic links managed by the mount manager, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 The input to this request is the persistent symbolic link name to be created and a name that is already valid for purposes of identifying the volume. The name given for purposes of identifying the volume can be of any type: a unique volume name, a symbolic link name, or a nonpersistent device name. If the new persistent name is not already in use, the call will succeed and the mount manager database will be modified to reflect that the new persistent name belongs to the volume. If the mount manager database already contains the new persistent name but the volume that owns that name is not in the system, this call will overwrite ownership of the given persistent name.
 
@@ -58,16 +56,12 @@ The mount manager enforces a policy of at most one persistent drive letter per v
 
 If IOCTL_MOUNTMGR_CREATE_POINT specifies a drive letter, the drive letter must be upper case.
 
-Note that a client can discover whether the mount manager has received the MOUNTDEV_MOUNTED_DEVICE_GUID device interface notification for its volume by querying the mount manager with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>.
+Note that a client can discover whether the mount manager has received the MOUNTDEV_MOUNTED_DEVICE_GUID device interface notification for its volume by querying the mount manager with <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>.
 
 In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POINT to send the mount manager a device object name and its corresponding symbolic link:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    // The persistent symbolic link is a drive letter in
+
+```
+    // The persistent symbolic link is a drive letter in
     // this case:
     wsprintf(dosBuffer, L"\\DosDevices\\%C:", DriveLetter);
     RtlInitUnicodeString(&dosName, dosBuffer);
@@ -110,53 +104,31 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
     // Send the irp to the mount manager requesting
     // that a new mount point (persistent symbolic link)
     // be created for the indicated volume.
-    status = IoCallDriver(deviceObject, irp);</pre>
-</td>
-</tr>
-</table></span></div>
+    status = IoCallDriver(deviceObject, irp);
+```
+
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-The mount point manager places a header, defined as the structure <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_create_point_input">MOUNTMGR_CREATE_POINT_INPUT</a> in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The mount manager inserts the newly-assigned persistent symbolic link name at the address pointed to by the <i>SymbolicLinkNameOffset</i> member of this structure, and it inserts the nonpersistent device name at the address pointed to by the <i>DeviceNameOffset</i> member of this structure. 
-
+The mount point manager places a header, defined as the structure <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_create_point_input">MOUNTMGR_CREATE_POINT_INPUT</a> in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The mount manager inserts the newly-assigned persistent symbolic link name at the address pointed to by the <i>SymbolicLinkNameOffset</i> member of this structure, and it inserts the nonpersistent device name at the address pointed to by the <i>DeviceNameOffset</i> member of this structure.
 
 ### -input-buffer-length
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTMGR_CREATE_POINT_INPUT).
 
-
 ### -output-buffer
 
 None
-
 
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -164,14 +136,6 @@ If the operation is successful, the <b>Status</b> field is set to STATUS_SUCCESS
 
 If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CREATE_POINT_INPUT), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_create_point_input">MOUNTMGR_CREATE_POINT_INPUT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_create_point_input">MOUNTMGR_CREATE_POINT_INPUT</a>

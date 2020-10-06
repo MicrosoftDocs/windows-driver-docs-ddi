@@ -8,8 +8,6 @@ ms.assetid: c74f5633-49bf-4c8d-8702-89723067753a
 ms.date: 04/23/2018
 keywords: ["BdaUninitFilter function"]
 ms.keywords: BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter, stream.bdauninitfilter
-f1_keywords:
- - "bdasup/BdaUninitFilter"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Bdasup.lib
-- Bdasup.dll
-api_name:
-- BdaUninitFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - BdaUninitFilter
+ - bdasup/BdaUninitFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Bdasup.lib
+ - Bdasup.dll
+api_name:
+ - BdaUninitFilter
 ---
 
 # BdaUninitFilter function
@@ -48,51 +47,29 @@ req.typenames:
 
 ## -description
 
-
-The <b>BdaUninitFilter</b> function removes the BDA filter context from the associated filter instance. 
-
+The <b>BdaUninitFilter</b> function removes the BDA filter context from the associated filter instance.
 
 ## -parameters
 
+### -param pKSFilter 
 
-
-
-### -param pKSFilter [in]
-
+[in]
 Points to the filter from which to remove the BDA filter context.
-
 
 ## -returns
 
-
-
-Returns STATUS_SUCCESS or an appropriate error code. 
-
-
-
+Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-
-
 The <b>BdaUninitFilter</b> function exists only to support legacy drivers and is, therefore, obsolete. That is, new BDA minidriver implementations should not call <b>BdaUninitFilter</b>. 
 
-In Windows XP and later, the BDA support driver (<i>Bdasup.sys</i>) automatically handles removing the BDA filter context associated with a filter instance. When a BDA minidriver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter">BdaInitFilter</a>, the BDA support driver creates its own BDA filter context. This BDA filter context is hidden from the BDA minidriver. However, when required, the BDA support driver can access this BDA filter context. The BDA support driver adds a pointer to this BDA filter context to the object bag for the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> object. When the associated KSFILTER object is destroyed, AVStream requests that the BDA support driver delete this BDA filter context from the object bag. In this way, the BDA support driver can destroy this BDA filter context without requiring intervention by the BDA minidriver.
-
-
-
+In Windows XP and later, the BDA support driver (<i>Bdasup.sys</i>) automatically handles removing the BDA filter context associated with a filter instance. When a BDA minidriver calls <a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter">BdaInitFilter</a>, the BDA support driver creates its own BDA filter context. This BDA filter context is hidden from the BDA minidriver. However, when required, the BDA support driver can access this BDA filter context. The BDA support driver adds a pointer to this BDA filter context to the object bag for the associated <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> object. When the associated KSFILTER object is destroyed, AVStream requests that the BDA support driver delete this BDA filter context from the object bag. In this way, the BDA support driver can destroy this BDA filter context without requiring intervention by the BDA minidriver.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter">BdaInitFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter">BdaInitFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>

@@ -8,8 +8,6 @@ ms.assetid: 70745b03-f9a3-4398-b41a-dc75bd16ffe0
 ms.date: 05/02/2018
 keywords: ["NdisMRemoveMiniport function"]
 ms.keywords: NdisMRemoveMiniport, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, ndis/NdisMRemoveMiniport, netvista.ndismremoveminiport
-f1_keywords:
- - "ndis/NdisMRemoveMiniport"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRemoveMiniport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRemoveMiniport
+ - ndis/NdisMRemoveMiniport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRemoveMiniport
 ---
 
 # NdisMRemoveMiniport function
@@ -48,26 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMRemoveMiniport</b> function removes the specified miniport driver adapter that the miniport driver
   has determined is unrecoverable from the system.
 
-
 ## -parameters
-
-
-
 
 ### -param MiniportHandle
 
 The handle to the initialized miniport adapter that the miniport driver has determined is
      unrecoverable.
 
-
 ## -returns
-
-
 
 <b>NdisMRemoveMiniport</b> can return either of the following:
 
@@ -99,14 +90,8 @@ An attempt to remove the miniport adapter failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a miniport driver has determined that a particular miniport adapter has failed and is
     unrecoverable, the miniport driver can call 
@@ -116,6 +101,4 @@ If a miniport driver has determined that a particular miniport adapter has faile
 For example, if a miniport driver detects that a miniport adapter is resetting very frequently and is
     causing the computer to freeze every few seconds, the driver can request NDIS to remove the miniport
     adapter.
-
-
 

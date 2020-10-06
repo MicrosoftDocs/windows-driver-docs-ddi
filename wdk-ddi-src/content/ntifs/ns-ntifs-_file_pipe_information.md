@@ -6,10 +6,8 @@ old-location: ifsk\file_pipe_information.htm
 tech.root: ifsk
 ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.date: 04/16/2018
-keywords: ["_FILE_PIPE_INFORMATION structure"]
+keywords: ["FILE_PIPE_INFORMATION structure"]
 ms.keywords: "*PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_INFORMATION, ifsk.file_pipe_information, ntifs/FILE_PIPE_INFORMATION, ntifs/PFILE_PIPE_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_PIPE_INFORMATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_PIPE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
+f1_keywords:
+ - _FILE_PIPE_INFORMATION
+ - ntifs/_FILE_PIPE_INFORMATION
+ - PFILE_PIPE_INFORMATION
+ - ntifs/PFILE_PIPE_INFORMATION
+ - FILE_PIPE_INFORMATION
+ - ntifs/FILE_PIPE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_PIPE_INFORMATION
 ---
 
 # _FILE_PIPE_INFORMATION structure
@@ -47,14 +50,9 @@ req.typenames: FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
 
 ## -description
 
-
 The <b>FILE_PIPE_INFORMATION</b> structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ReadMode
 
@@ -76,8 +74,6 @@ One of the following values.
 <td>Data is read from the pipe as a stream of messages.</td>
 </tr>
 </table>
- 
-
 
 ### -field CompletionMode
 
@@ -99,12 +95,8 @@ One of the following values.
 <td>Non-blocking mode </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 If <b>ReadMode</b> is set to FILE_PIPE_BYTE_STREAM_MODE, any attempt to change it must fail with a STATUS_INVALID_PARAMETER error code.
 
@@ -114,7 +106,4 @@ When <b>CompletionMode</b> is set to FILE_PIPE_QUEUE_OPERATION, if the pipe is c
 <div> </div>
 When <b>CompletionMode</b> is set to FILE_PIPE_COMPLETE_OPERATION, if the pipe is being connected to, read to, or written from, the operation is completed immediately. 
 
-For information about pipes, see <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
-
-
-
+For information about pipes, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.

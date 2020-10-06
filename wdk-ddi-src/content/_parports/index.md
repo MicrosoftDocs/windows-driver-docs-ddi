@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Parallel Ports
@@ -20,49 +18,13 @@ Overview of the Parallel Ports technology.
 
 To develop Parallel Ports, you need these headers:
 
- * [gpio.h](../gpio/index.md)
- * [gpioclx.h](../gpioclx/index.md)
- * [ntddpar.h](../ntddpar/index.md)
- * [ntddser.h](../ntddser/index.md)
- * [parallel.h](../parallel/index.md)
+* [gpio.h](../gpio/index.md)
+* [gpioclx.h](../gpioclx/index.md)
+* [ntddpar.h](../ntddpar/index.md)
+* [ntddser.h](../ntddser/index.md)
+* [parallel.h](../parallel/index.md)
 
-For the programming guide, see [Parallel Ports](https://docs.microsoft.com/windows-hardware/drivers/parports).
-
-## Callback functions
-
-| Title   | Description   |
-| ---- |:---- |
-| [PDETERMINE_IEEE_MODES callback](../parallel/nc-parallel-pdetermine_ieee_modes.md) | The PDETERMINE_IEEE_MODES-typed callback routine determines which IEEE 1284 protocols a parallel device supports. The system-supplied bus driver for parallel ports supplies this routine. |
-| [PNEGOTIATE_IEEE_MODE callback](../parallel/nc-parallel-pnegotiate_ieee_mode.md) | The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and reverse protocols that the system-supplied bus driver for parallel ports supports from among those specified by the caller. |
-| [PPARALLEL_CLEAR_CHIP_MODE callback](../parallel/nc-parallel-pparallel_clear_chip_mode.md) | The PPARALLEL_CLEAR_CHIP_MODE-typed callback routine clears the operating mode of a parallel port by resetting the communication mode of the host chipset to IEEE 1284-compatibility mode. |
-| [PPARALLEL_DESELECT_ROUTINE callback](../parallel/nc-parallel-pparallel_deselect_routine.md) | The PPARALLEL_DESELECT_ROUTINE-typed callback routine deselects either an IEEE 1284.3 daisy chain device or an IEEE 1284 end-of-chain device that is attached to a parallel port. |
-| [PPARALLEL_FREE_ROUTINE callback](../parallel/nc-parallel-pparallel_free_routine.md) | The PPARALLEL_FREE_ROUTINE-typed callback routine frees a parallel port. The system-supplied function driver for parallel ports supplies this routine. |
-| [PPARALLEL_IEEE_FWD_TO_REV callback](../parallel/nc-parallel-pparallel_ieee_fwd_to_rev.md) | The PPARALLEL_IEEE_FWD_TO_REV-typed callback routine changes the transfer mode from forward to reverse. The system-supplied bus driver for parallel ports supplies this routine. |
-| [PPARALLEL_IEEE_REV_TO_FWD callback](../parallel/nc-parallel-pparallel_ieee_rev_to_fwd.md) | The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the transfer mode from reverse to forward. The system-supplied bus driver for parallel ports supplies this routine. |
-| [PPARALLEL_QUERY_WAITERS_ROUTINE callback](../parallel/nc-parallel-pparallel_query_waiters_routine.md) | The PPARALLEL_QUERY_WAITERS_ROUTINE-typed callback routine returns the number of IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE and IOCTL_INTERNAL_SELECT_DEVICE requests that are queued on the work queue of a parallel port. |
-| [PPARALLEL_READ callback](../parallel/nc-parallel-pparallel_read.md) | The PPARALLEL_READ-typed callback routine reads data from a parallel device. The system-supplied bus driver for parallel ports supplies this routine. |
-| [PPARALLEL_SET_CHIP_MODE callback](../parallel/nc-parallel-pparallel_set_chip_mode.md) | The PPARALLEL_SET_CHIP_MODE-typed callback routine sets the operating mode of a parallel port. The system-supplied function driver for parallel ports supplies this routine. |
-| [PPARALLEL_TRY_ALLOCATE_ROUTINE callback](../parallel/nc-parallel-pparallel_try_allocate_routine.md) | The PPARALLEL_TRY_ALLOCATE_ROUTINE-typed (ISR) callback routine attempts to allocate a parallel port at IRQL = DIRQL. The system-supplied function driver for parallel ports supplies this routine. |
-| [PPARALLEL_TRY_SELECT_ROUTINE callback](../parallel/nc-parallel-pparallel_try_select_routine.md) | The PPARALLEL_TRY_SELECT_ROUTINE-typed callback routine selects an IEEE 1284.3 daisy chain device or an IEEE 1284 end-of-chain device that is attached to a parallel port. The system-supplied function driver for parallel ports supplies this routine. |
-| [PPARALLEL_WRITE callback](../parallel/nc-parallel-pparallel_write.md) | The PPARALLEL_WRITE-typed callback routine writes data to a parallel device. The system-supplied bus driver for parallel ports supplies this routine. |
-| [PTERMINATE_IEEE_MODE callback](../parallel/nc-parallel-pterminate_ieee_mode.md) | The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE operating mode and sets the mode to IEEE 1284-compatible. The system-supplied bus driver for parallel ports supplies this routine. |
-
-## Structures
-
-| Title   | Description   |
-| ---- |:---- |
-| [_MORE_PARALLEL_PORT_INFORMATION structure](../parallel/ns-parallel-_more_parallel_port_information.md) | The MORE_PARALLEL_PORT_INFORMATION structure specifies information about the system interface that supports the operation of a parallel port. |
-| [_PARALLEL_1284_COMMAND structure](../parallel/ns-parallel-_parallel_1284_command.md) | The PARALLEL_1284_COMMAND structure specifies information that a client uses to select and deselect an IEEE 1284.3 daisy-chain device or an IEEE 1284 end-of-chain device. |
-| [_PARALLEL_CHIP_MODE structure](../parallel/ns-parallel-_parallel_chip_mode.md) | The PARALLEL_CHIP_MODE structure specifies the operating mode of a parallel port. |
-| [_PARALLEL_INTERRUPT_INFORMATION structure](../parallel/ns-parallel-_parallel_interrupt_information.md) | The PARALLEL_INTERRUPT_INFORMATION structure specifies information that a kernel-mode driver can use in the context of an ISR that the driver connects to a parallel port. |
-| [_PARALLEL_INTERRUPT_SERVICE_ROUTINE structure](../parallel/ns-parallel-_parallel_interrupt_service_routine.md) | The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrupt services that a kernel-mode driver can connect to the operation of a parallel port. |
-| [_PARALLEL_PNP_INFORMATION structure](../parallel/ns-parallel-_parallel_pnp_information.md) | The PARALLEL_PNP_INFORMATION structure specifies information about the capabilities of a parallel port. |
-| [_PARALLEL_PORT_INFORMATION structure](../parallel/ns-parallel-_parallel_port_information.md) | The PARALLEL_PORT_INFORMATION structure specifies information about the resources assigned to a parallel port, the capabilities of the parallel port, and pointers to callback routines that a kernel-mode driver can use to operate the parallel port. |
-| [_PARCLASS_INFORMATION structure](../parallel/ns-parallel-_parclass_information.md) | The PARCLASS_INFORMATION structure specifies information about a parallel port, pointers to callback routines to operate a parallel port, and pointers to callback routines to read and write to a parallel device. |
-| [_PARCLASS_NEGOTIATION_MASK structure](../ntddpar/ns-ntddpar-_parclass_negotiation_mask.md) | The PARCLASS_NEGOTIATION_MASK structure specifies the read and write protocols that a driver selects for a parallel device. |
-| [_PAR_DEVICE_ID_SIZE_INFORMATION structure](../ntddpar/ns-ntddpar-_par_device_id_size_information.md) | The PAR_DEVICE_ID_SIZE_INFORMATION structure specifies the size, in bytes, of a buffer that can hold the IEEE 1284 device ID of a parallel device and a NULL terminator. |
-| [_PAR_QUERY_INFORMATION structure](../ntddpar/ns-ntddpar-_par_query_information.md) | The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel port. |
-| [_PAR_SET_INFORMATION structure](../ntddpar/ns-ntddpar-_par_set_information.md) | The PAR_SET_INFORMATION structure specifies the initial operating status of a parallel port. |
+For the programming guide, see [Parallel Ports](/windows-hardware/drivers/parports).
 
 ## I/O control codes
 

@@ -8,8 +8,6 @@ ms.assetid: b55d0995-efd8-4a61-85e9-970559e21a88
 ms.date: 05/02/2018
 keywords: ["NdisMCmDeleteVc function"]
 ms.keywords: NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc
-f1_keywords:
- - "ndis/NdisMCmDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmDeleteVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDeleteVc
+ - ndis/NdisMCmDeleteVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmDeleteVc
 ---
 
 # NdisMCmDeleteVc function
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDeleteVc</b> destroys a caller-created VC.
-
 
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
      from 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>.
 
 ## -returns
-
-
 
 <b>NdisMCmDeleteVc</b> can return one of the following:
 
@@ -98,24 +90,18 @@ The VC is still active, so it could not be deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an MCM driver calls 
     <b>NdisMCmDeleteVc</b>, there must be no outstanding calls on the given VC and that VC must have been
     deactivated. To meet these requirements implies that the MCM driver has already called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a> with the given 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a> with the given 
     <i>NdisVcHandle</i> successfully.
 
 Only the driver that created a particular VC can delete that VC. A call to 
     <b>NdisMCmDeleteVc</b> causes NDIS to call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function of the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function of the
     client with which the caller shares the 
     <i>NdisVcHandle</i> .
 
@@ -124,10 +110,10 @@ When
     <i>NdisVcHandle</i> is no longer valid. The MCM driver can release the resources it allocated to maintain
     state about the deleted VC or prepare them for reuse in a subsequent incoming-call notification after it
     calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>.
 
 The driver writer determines whether an MCM driver has an (internal) 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a> function that the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a> function that the
     driver calls in the context of tearing down connections for outgoing and incoming calls.
 
 Only connection-oriented miniport drivers that provide integrated call-management support can call 
@@ -135,36 +121,26 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCoDeleteVc</b> instead.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>

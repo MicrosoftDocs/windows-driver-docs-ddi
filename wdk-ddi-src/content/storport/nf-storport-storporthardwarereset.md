@@ -1,48 +1,48 @@
 ---
 UID: NF:storport.StorPortHardwareReset
 title: StorPortHardwareReset function
-author: windows-driver-content
 description: A miniport can call StorPortHardwareReset to issue a hardware reset.
 tech.root: storage
 ms.assetid: 99e1fcdc-a727-4198-b02e-f4906f7b3d69
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortHardwareReset
 req.header: storport.h
-f1_keywords:
- - "storport/StorPortHardwareReset"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortHardwareReset
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortHardwareReset
+ - storport/StorPortHardwareReset
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortHardwareReset
+product:
+ - Windows
 ---
 
 # StorPortHardwareReset function
+
 
 ## -description
 
@@ -71,7 +71,7 @@ A [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md) enum that 
 
 ## -remarks
 
-See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
+See [Resetting and recovering a device](/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
 ) for more details.
 
 ## -see-also

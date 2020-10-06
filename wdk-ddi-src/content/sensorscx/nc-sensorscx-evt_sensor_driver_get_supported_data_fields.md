@@ -8,8 +8,6 @@ ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
-f1_keywords:
- - "sensorscx/EvtSensorGetSupportedDataFields"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- SensorsCx.h
-api_name:
-- EvtSensorGetSupportedDataFields
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
+ - sensorscx/EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - SensorsCx.h
+api_name:
+ - EvtSensorGetSupportedDataFields
 ---
 
 # EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function
@@ -47,63 +46,38 @@ req.typenames:
 
 ## -description
 
-
 This callback function returns a list of data fields supported by the specified sensor.
 
-For more information about data fields, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>.
-
+For more information about data fields, see <a href="/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>.
 
 ## -parameters
-
-
-
 
 ### -param Sensor
 
 [in] A reference to a sensor object.
 
-
 ### -param pDataFields
 
-[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>.
-
+[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>.
 
 ### -param pSize 
 
 [out] The size of *pDataFields*.
 
-
 ## -returns
-
-
 
 This function returns STATUS_SUCCESS when completed successfully.
 
 <b>Note</b> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 This function must be implemented by the driver and is called by the class extension.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>

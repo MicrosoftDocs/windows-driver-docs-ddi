@@ -8,12 +8,10 @@ ms.assetid: bc348f40-aaa4-4cd4-9dee-c02748d7412c
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::GetNextSiblingItem"]
 ms.keywords: DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetNextSiblingItem method, IWiaDrvItem.GetNextSiblingItem, IWiaDrvItem::GetNextSiblingItem, image.iwiadrvitem_getnextsiblingitem, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.GetNextSiblingItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.GetNextSiblingItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::GetNextSiblingItem
+ - wiamindr_lh/IWiaDrvItem::GetNextSiblingItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.GetNextSiblingItem
 ---
 
 # IWiaDrvItem::GetNextSiblingItem
+
 
 ## -description
 
@@ -62,16 +62,16 @@ Points to a memory location that will receive the address of the **IWiaDrvItem**
 
 ## -returns
 
-If the method succeeds, it stores a pointer to the next sibling item in *ppISiblingItem* and returns S_OK. If there are no more items in the folder, the method returns S_FALSE. If the method fails, it returns a standard COM error code. 
+If the method succeeds, it stores a pointer to the next sibling item in *ppISiblingItem* and returns S_OK. If there are no more items in the folder, the method returns S_FALSE. If the method fails, it returns a standard COM error code.
 
 ## -remarks
 
-Minidrivers obtain a pointer to the first child item in a folder by calling [IWiaDrvItem::GetFirstChildItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem). Minidrivers can then obtain the sibling items of this child item in the folder by making successive calls to **IWiaDrvItem::GetNextSiblingItem**.
+Minidrivers obtain a pointer to the first child item in a folder by calling [IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md). Minidrivers can then obtain the sibling items of this child item in the folder by making successive calls to **IWiaDrvItem::GetNextSiblingItem**.
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[IWiaDrvItem::GetFirstChildItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem)
+[IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md)
 
-[IWiaDrvItem::GetParentItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem)
+[IWiaDrvItem::GetParentItem](./nf-wiamindr_lh-iwiadrvitem-getparentitem.md)

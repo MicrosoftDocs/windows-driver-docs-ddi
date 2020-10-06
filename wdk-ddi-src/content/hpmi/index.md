@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: battery
+f1_keywords:
+ - hpmi
+ - hpmi/hpmi
 ---
 
 # Hpmi.h header
@@ -18,7 +19,7 @@ tech.root: battery
 
 ## -description
 
-
 This header is used by battery. For more information, see:
 
 - [Battery](../_battery/index.md)
+

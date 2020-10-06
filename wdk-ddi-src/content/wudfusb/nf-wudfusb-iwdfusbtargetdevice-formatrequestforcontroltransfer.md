@@ -8,8 +8,6 @@ ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::FormatRequestForControlTransfer"]
 ms.keywords: FormatRequestForControlTransfer, FormatRequestForControlTransfer method, FormatRequestForControlTransfer method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,FormatRequestForControlTransfer method, IWDFUsbTargetDevice.FormatRequestForControlTransfer, IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer
-f1_keywords:
- - "wudfusb/IWDFUsbTargetDevice.FormatRequestForControlTransfer"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetDevice.FormatRequestForControlTransfer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetDevice::FormatRequestForControlTransfer
+ - wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetDevice.FormatRequestForControlTransfer
 ---
 
 # IWDFUsbTargetDevice::FormatRequestForControlTransfer
@@ -47,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatRequestForControlTransfer</b> method formats an I/O request object for a USB control transfer.
 
-
 ## -parameters
 
+### -param pRequest 
 
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format.
 
+### -param SetupPacket 
 
-### -param pRequest [in]
+[in]
+A pointer to a <a href="/windows/win32/api/winusb/ns-winusb-winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format. 
+### -param pMemory 
 
+[in, optional]
+A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
 
-### -param SetupPacket [in]
+### -param TransferOffset 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winusb/ns-winusb-_winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
-
-
-### -param pMemory [in, optional]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
-
-
-### -param TransferOffset [in, optional]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
-
+[in, optional]
+A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
 
 ## -returns
-
-
 
 <b>FormatRequestForControlTransfer</b> returns one of the following values: 
 
@@ -97,7 +89,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-formatrequestforcontroltransfer">FormatRequestForControlTransfer</a> successfully formatted an I/O request object. 
+<a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-formatrequestforcontroltransfer">FormatRequestForControlTransfer</a> successfully formatted an I/O request object. 
 
 </td>
 </tr>
@@ -109,7 +101,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-formatrequestforcontroltransfer">FormatRequestForControlTransfer</a> encountered an allocation failure.
+<a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-formatrequestforcontroltransfer">FormatRequestForControlTransfer</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -125,29 +117,19 @@ The memory offset that the <i>TransferOffset</i> parameter specified was invalid
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/O request for a control transfer operation, the framework can subsequently send the request to the I/O target.
 
 
 #### Examples
 
-The following code example is taken from the <a href="https://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
+The following code example is taken from the <a href="/samples/browse/?redirectedfrom=MSDN-samples">wdf_osrfx2_lab</a> sample in the WDK.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    WINUSB_CONTROL_SETUP_PACKET setupPacket;
+
+```
+    WINUSB_CONTROL_SETUP_PACKET setupPacket;
 
     ULONG bytesTransferred;
 
@@ -216,32 +198,22 @@ CMyDevice::SendControlTransferSynchronously(
                                                                    NULL); //TransferOffset
     }                                                          
       
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+<a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>

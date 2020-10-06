@@ -5,10 +5,8 @@ description: Defines a resource allocation in a call to the GetCaptureHandle fun
 old-location: display\d3d11_1ddi_getcapturehandledata.htm
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.date: 05/10/2018
-keywords: ["_D3D11_1DDI_GETCAPTUREHANDLEDATA structure"]
+keywords: ["D3D11_1DDI_GETCAPTUREHANDLEDATA structure"]
 ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], _D3D11_1DDI_GETCAPTUREHANDLEDATA, d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_GETCAPTUREHANDLEDATA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+f1_keywords:
+ - _D3D11_1DDI_GETCAPTUREHANDLEDATA
+ - d3d10umddi/_D3D11_1DDI_GETCAPTUREHANDLEDATA
+ - D3D11_1DDI_GETCAPTUREHANDLEDATA
+ - d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # _D3D11_1DDI_GETCAPTUREHANDLEDATA structure
@@ -47,21 +48,15 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 ## -description
 
-
-Defines a resource allocation in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a> function.
-
+Defines a resource allocation in a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 [in] The handle to the resource for which the allocation handle is to be obtained.
 
-The Direct3D version 11 and later runtime will have already verified that this resource was created using the <b>D3D11_DDI_BIND_CAPTURE</b> value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a> enumeration.
-
+The Direct3D version 11 and later runtime will have already verified that this resource was created using the <b>D3D11_DDI_BIND_CAPTURE</b> value in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a> enumeration.
 
 ### -field ArrayIndex
 
@@ -69,11 +64,9 @@ The Direct3D version 11 and later runtime will have already verified that this r
 
 If the resource was not created as a texture array, this value is zero. For a texture array, the Direct3D version 11 and later runtime will have already verified that the array is valid.
 
-
 ### -field hAllocation
 
 [out] The driver-provided address of the kernel mode allocation handle associated with this allocation.
-
 
 ### -field DataOffset
 
@@ -81,34 +74,20 @@ If the resource was not created as a texture array, this value is zero. For a te
 
 If the resource was not created as a texture array, this value is typically zero.  For a texture array, this value is the offset of the array element data within the allocation.
 
-
 ### -field DataSize
 
 [out] The driver-provided size of the requested data within the allocation.
 
 If the resource was not created as a texture array, this value is typically the size of the allocation, in bytes.  For a texture array, this value is the size of the element data within the allocation.
 
-
 ## -remarks
 
-
-
-When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a> function is called, the driver updates the structure with the kernel mode allocation handle associated with the specified resource, as well as the size of the resource data and its offset within an allocated block of memory.
-
-
-
+When the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a> function is called, the driver updates the structure with the kernel mode allocation handle associated with the specified resource, as well as the size of the resource data and its offset within an allocated block of memory.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a>

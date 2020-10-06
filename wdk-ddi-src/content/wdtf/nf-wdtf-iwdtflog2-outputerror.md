@@ -8,8 +8,6 @@ ms.assetid: 6a85b0a6-0dff-4dea-86a1-93fd4258900e
 ms.date: 04/04/2018
 keywords: ["IWDTFLOG2::OutputError"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputError method, IWDTFLOG2.OutputError, IWDTFLOG2::OutputError, Microsoft.WDTF.IWDTFLOG2.OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, OutputError, OutputError method [Windows Device Testing Framework], OutputError method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputerror, wdtf/IWDTFLOG2::OutputError
-f1_keywords:
- - "wdtf/IWDTFLOG2.OutputError"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLOG2.OutputError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLOG2::OutputError
+ - wdtf/IWDTFLOG2::OutputError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLOG2.OutputError
 ---
 
 # IWDTFLOG2::OutputError
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Writes an error entry to the test case log.
-
 
 ## -parameters
 
+### -param sErrorString 
 
-
-
-### -param sErrorString [in]
-
+[in]
 The error string.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>

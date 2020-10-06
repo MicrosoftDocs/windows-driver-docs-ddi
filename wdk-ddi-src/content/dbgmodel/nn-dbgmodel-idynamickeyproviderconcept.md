@@ -5,37 +5,37 @@ description: If a client wants to take over the storage of keys and values for a
 ms.assetid: f7a64209-5764-4a95-b099-0a0a04599ea4
 ms.date: 07/13/2018
 keywords: ["IDynamicKeyProviderConcept interface"]
-f1_keywords:
- - "dbgmodel/IDynamicKeyProviderConcept"
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDynamicKeyProviderConcept
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDynamicKeyProviderConcept
+ - dbgmodel/IDynamicKeyProviderConcept
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDynamicKeyProviderConcept
 ---
 
 # IDynamicKeyProviderConcept interface
+
 
 ## -description
 
@@ -44,7 +44,9 @@ If a client wants to take over the storage of keys and values for an object, it 
 The object is a dynamic provider of keys and wishes to take over all key queries from the core data model. This interface is typically used as a bridge to dynamic languages such as JavaScript.
 
 ## -inheritance
-IDynamicKeyProviderConcept interits from IUnknown. 
+
+IDynamicKeyProviderConcept interits from IUnknown.
+
 ## -remarks
 
 **Dynamic Provider Concepts**
@@ -53,9 +55,8 @@ While the data model itself normally handles key and concept management for obje
 
 If both are implemented, the dynamic key provider concept must be added before the dynamic concept provider concept. 
 Both of these concepts are special. They effectively flip a switch on the object changing it from "statically managed" to "dynamically managed". These concepts can only be set if there are no keys/concepts managed by the data model on the object. Once these concepts are added to an object, the action of doing this is irrevocable. 
-There is an additional semantic difference around extensibility between an [IModelObject](nn-dbgmodel-imodelobject.md) which is a dynamic concept provider and one that is not. These concepts are intended to allow clients to create bridges between the data model and dynamic language systems such as JavaScript. The data model has a concept of extensibility that differs somewhat fundamentally from systems like JavaScript in that there is a tree of parent models rather than a linear chain like the JavaScript prototype chain. To allow a better relationship to such systems, an [IModelObject](nn-dbgmodel-imodelobject.md) which is a dynamic concept provider has a single data model parent. That single data model parent is a normal [IModelObject](nn-dbgmodel-imodelobject.md) which can have an arbitrary number of parent models as is typical for the data model. Any requests to the dynamic concept provider to add or remove parents are automatically redirected to the single parent. From an outsider's perspective, it looks as though the dynamic concept provider has a normal tree style chain of parent models. The implementer of the dynamic concept provider concept is the only object (outside of the core data model) that is aware of the intermediate single parent. That single parent can be linked against the dynamic language system to provide a bridge (e.g.: placed into the JavaScript prototype chain). 
-
+There is an additional semantic difference around extensibility between an [IModelObject](nn-dbgmodel-imodelobject.md) which is a dynamic concept provider and one that is not. These concepts are intended to allow clients to create bridges between the data model and dynamic language systems such as JavaScript. The data model has a concept of extensibility that differs somewhat fundamentally from systems like JavaScript in that there is a tree of parent models rather than a linear chain like the JavaScript prototype chain. To allow a better relationship to such systems, an [IModelObject](nn-dbgmodel-imodelobject.md) which is a dynamic concept provider has a single data model parent. That single data model parent is a normal [IModelObject](nn-dbgmodel-imodelobject.md) which can have an arbitrary number of parent models as is typical for the data model. Any requests to the dynamic concept provider to add or remove parents are automatically redirected to the single parent. From an outsider's perspective, it looks as though the dynamic concept provider has a normal tree style chain of parent models. The implementer of the dynamic concept provider concept is the only object (outside of the core data model) that is aware of the intermediate single parent. That single parent can be linked against the dynamic language system to provide a bridge (e.g.: placed into the JavaScript prototype chain).
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

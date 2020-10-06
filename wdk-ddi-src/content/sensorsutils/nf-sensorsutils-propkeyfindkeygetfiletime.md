@@ -6,40 +6,39 @@ ms.assetid: 87d6d150-2b52-468a-b6da-45179bf823cb
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetFileTime function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropKeyFindKeyGetFileTime"
 ms.keywords: PropKeyFindKeyGetFileTime
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropKeyFindKeyGetFileTime
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropKeyFindKeyGetFileTime
+ - sensorsutils/PropKeyFindKeyGetFileTime
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropKeyFindKeyGetFileTime
+product:
+ - Windows
 ---
 
 # PropKeyFindKeyGetFileTime function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine gets a FILETIME value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
-
 
 ## -parameters
 
@@ -75,3 +73,4 @@ This function returns the following NTSTATUS codes:
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 22f5e525-bdf8-4047-9b77-6523cb59f090
 ms.date: 04/16/2018
 keywords: ["RxSetDomainForMailslotBroadcast function"]
 ms.keywords: RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], ifsk.rxsetdomainformailslotbroadcast, mrx/RxSetDomainForMailslotBroadcast, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml
-f1_keywords:
- - "mrx/RxSetDomainForMailslotBroadcast"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mrx.h
-api_name:
-- RxSetDomainForMailslotBroadcast
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxSetDomainForMailslotBroadcast
+ - mrx/RxSetDomainForMailslotBroadcast
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mrx.h
+api_name:
+ - RxSetDomainForMailslotBroadcast
 ---
 
 # RxSetDomainForMailslotBroadcast function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-<b>RxSetDomainForMailslotBroadcast</b> is called by a network mini-redirector driver to set the domain used for mailslot broadcasts if mailslots are supported by the driver. 
-
+<b>RxSetDomainForMailslotBroadcast</b> is called by a network mini-redirector driver to set the domain used for mailslot broadcasts if mailslots are supported by the driver.
 
 ## -parameters
 
+### -param DomainName 
 
-
-
-### -param DomainName [in]
-
-A pointer to a buffer that contains a zero-terminated Unicode string that names the domain to use for mailslots. 
-
+[in]
+A pointer to a buffer that contains a zero-terminated Unicode string that names the domain to use for mailslots.
 
 ## -returns
-
-
 
 <b>RxSetDomainForMailslotBroadcast</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
 
@@ -84,45 +76,29 @@ There were insufficient resources to complete this routine. The memory allocatio
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A network mini-redirector registers with RDBSS whenever the driver is loaded by the kernel and unregisters with RDBSS when the driver is unloaded. This registration process is a two-way hand shake in which the network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. RDBSS completes the registration and initialization process by calling <b>MrxStart</b>, one of the callback routines exported by the network mini-redirector and passed in as part of the dispatch table to <b>RxRegisterMinirdr</b>.
 
 One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates whether the network mini-redirector supports mailslots. A network mini-redirector would normally call <b>RxSetDomainForMailslotBroadcast</b> from the <b>MrxStart</b> routine or as part of an external request to start the driver initiated by a file system control (FSCTRL) or an I/O control (IOCTL) request from a user-mode application or service.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMinirdr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMinirdr</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstopminirdr">RxStopMinirdr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstopminirdr">RxStopMinirdr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-__rxfillandinstallfastiodispatch">__RxFillAndInstallFastIoDispatch</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-__rxfillandinstallfastiodispatch">__RxFillAndInstallFastIoDispatch</a>

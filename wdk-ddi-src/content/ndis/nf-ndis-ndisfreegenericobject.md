@@ -8,8 +8,6 @@ ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.date: 05/02/2018
 keywords: ["NdisFreeGenericObject function"]
 ms.keywords: NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject
-f1_keywords:
- - "ndis/NdisFreeGenericObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeGenericObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeGenericObject
+ - ndis/NdisFreeGenericObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeGenericObject
 ---
 
 # NdisFreeGenericObject function
@@ -48,48 +47,31 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisFreeGenericObject</b> function to free a generic object that was created with the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">
   NdisAllocateGenericObject</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisObject
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure to be
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure to be
      freed.
 
 ## -remarks
 
-
-
 An NDIS handle is required to allocate some NDIS resources (for example, buffer pools). Components
     that do not otherwise have an NDIS handle use a pointer to an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure as an NDIS
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure as an NDIS
     handle. All resources that were allocated with this generic object pointer as the handle must be freed
     before freeing the generic object.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">NdisAllocateGenericObject</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">NdisAllocateGenericObject</a>

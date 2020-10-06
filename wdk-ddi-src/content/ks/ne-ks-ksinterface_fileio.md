@@ -8,8 +8,6 @@ ms.assetid: B8965A1A-4EF9-4FCA-8ED0-60F720331AC4
 ms.date: 04/23/2018
 keywords: ["KSINTERFACE_FILEIO enumeration"]
 ms.keywords: KSINTERFACE_FILEIO, KSINTERFACE_FILEIO enumeration [Streaming Media Devices], KSINTERFACE_FILEIO_STREAMING, ks/KSINTERFACE_FILEIO, ks/KSINTERFACE_FILEIO_STREAMING, stream.ksinterface_fileio
-f1_keywords:
- - "ks/KSINTERFACE_FILEIO"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSINTERFACE_FILEIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSINTERFACE_FILEIO
+f1_keywords:
+ - KSINTERFACE_FILEIO
+ - ks/KSINTERFACE_FILEIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSINTERFACE_FILEIO
 ---
 
 # KSINTERFACE_FILEIO enumeration
@@ -47,14 +46,7 @@ req.typenames: KSINTERFACE_FILEIO
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KSINTERFACE_FILEIO_STREAMING
 

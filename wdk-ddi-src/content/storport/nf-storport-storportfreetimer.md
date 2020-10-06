@@ -8,8 +8,6 @@ ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.date: 03/29/2018
 keywords: ["StorPortFreeTimer function"]
 ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
-f1_keywords:
- - "storport/StorPortFreeTimer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortFreeTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreeTimer
+ - storport/StorPortFreeTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortFreeTimer
 ---
 
 # StorPortFreeTimer function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-Frees a Storport timer context object previously created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a> routine.
-
+Frees a Storport timer context object previously created by the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a> routine.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param TimerHandle 
 
-### -param TimerHandle [in]
-
-A pointer to an opaque buffer for the timer context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
-
+[in]
+A pointer to an opaque buffer for the timer context returned by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
 
 ## -returns
-
-
 
 The <b>StorPortFreeTimer</b> routine returns one of these status codes:
 
@@ -133,35 +125,19 @@ The timer is already free.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer needed or when the miniport receives a PnP SRB notification  that the adapter is removed.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportrequesttimer">StorPortRequestTimer</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportrequesttimer">StorPortRequestTimer</a>

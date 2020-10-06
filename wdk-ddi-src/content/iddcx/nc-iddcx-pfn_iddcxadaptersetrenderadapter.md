@@ -1,88 +1,74 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
-author: windows-driver-content
-description: 
+description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
 ms.author: windowsdriverdev
-ms.date: 08/19/2019
-keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback function"]
-f1_keywords:
- - "iddcx/PFN_IDDCXADAPTERSETRENDERADAPTER"
+ms.date: 09/24/2020
+keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback pointer"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - UserDefined
-api_location: 
- - iddcx.h
-api_name: 
- - PFN_IDDCXADAPTERSETRENDERADAPTER
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - PFN_IDDCXADAPTERSETRENDERADAPTER
+ - iddcx/PFN_IDDCXADAPTERSETRENDERADAPTER
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - PFN_IDDCXADAPTERSETRENDERADAPTER
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
-# *PFN_IDDCXADAPTERSETRENDERADAPTER callback function
+# PFN_IDDCXADAPTERSETRENDERADAPTER callback function
 
 ## -description
 
-Implemented by the client driver to ... 
-
-## -prototype
-
-```
-//Declaration
-
-*PFN_IDDCXADAPTERSETRENDERADAPTER *PfnIddcxadaptersetrenderadapter; 
-
-// Definition
-
-VOID *PfnIddcxadaptersetrenderadapter 
-(
-	PIDD_DRIVER_GLOBALS DriverGlobals
-	IDDCX_ADAPTER AdapterObject
-	 const IDARG_IN_ADAPTERSETRENDERADAPTER *pInArgs
-)
-{...}
-
-```
+**PFN_IDDCXADAPTERSETRENDERADAPTER** is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 
 ## -parameters
 
 ### -param DriverGlobals
 
+[in] Pointer to an [**IDD_DRIVER_GLOBALS**](/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idd_driver_globals) structure containing system-defined per-driver data.
+
 ### -param AdapterObject
+
+[in] The adapter object of the adapter for which the rendering adapter preference is being set.
 
 ### -param pInArgs
 
-
+[in] Input arguments.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
+An indirect display driver (IDD) should call [**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md) to set their rendering adapter preference. IDDs should not directly call the function that **PFN_IDDCXADAPTERSETRENDERADAPTER** points to.
 
 ## -see-also
+
+[**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md)

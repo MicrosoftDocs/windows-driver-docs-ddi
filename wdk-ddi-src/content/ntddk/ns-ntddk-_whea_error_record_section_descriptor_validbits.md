@@ -6,10 +6,8 @@ old-location: whea\whea_error_record_section_descriptor_validbits.htm
 tech.root: whea
 ms.assetid: 7d1f192b-75fe-4ee0-b162-401230299562
 ms.date: 02/20/2018
-keywords: ["_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure"]
+keywords: ["WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, whea.whea_error_record_section_descriptor_validbits, whearef_0e13e9d6-57cb-44bd-825e-d9cab5c138c8.xml"
-f1_keywords:
- - "ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, *PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+f1_keywords:
+ - _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+ - ntddk/_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+ - PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+ - ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+ - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+ - ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
 ---
 
 # _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure
@@ -47,56 +50,32 @@ req.typenames: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, *PWHEA_ERROR_RECO
 
 ## -description
 
-
-The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure contain valid data.
-
+The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure contain valid data.
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYSTRUCTNAME.FRUId
 
 A single bit that indicates that the <b>FRUId</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
 
-
 ### -field DUMMYSTRUCTNAME.FRUText
 
 A single bit that indicates that the <b>FRUText</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
-
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
-
 ### -field AsUCHAR
 
 A UCHAR representation of the contents of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union.
 
-
 ## -remarks
 
-
-
-A WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure.
-
-
-
+A WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>

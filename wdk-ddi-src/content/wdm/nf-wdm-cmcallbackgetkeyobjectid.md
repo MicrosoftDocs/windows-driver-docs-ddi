@@ -8,8 +8,6 @@ ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.date: 04/30/2018
 keywords: ["CmCallbackGetKeyObjectID function"]
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
-f1_keywords:
- - "wdm/CmCallbackGetKeyObjectID"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CmCallbackGetKeyObjectID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CmCallbackGetKeyObjectID
+ - wdm/CmCallbackGetKeyObjectID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CmCallbackGetKeyObjectID
 ---
 
 # CmCallbackGetKeyObjectID function
@@ -47,40 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>CmCallbackGetKeyObjectID</b> routine retrieves the unique identifier and object name that are associated with a specified registry key object.
-<div class="alert"><b>Note</b>  Starting with Windows 8, registry filter drivers should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a> routine instead of <b>CmCallbackGetKeyObjectID</b>. For more information, see Remarks.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting with Windows 8, registry filter drivers should call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a> routine instead of <b>CmCallbackGetKeyObjectID</b>. For more information, see Remarks.</div><div> </div>
 
 ## -parameters
 
+### -param Cookie 
 
+[in]
+The cookie value that the driver previously obtained by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine.
 
+### -param Object 
 
-### -param Cookie [in]
+[in]
+The pointer value that the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> callback routine received in the <b>Object</b> member of one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
 
-The cookie value that the driver previously obtained by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine.
-
-
-### -param Object [in]
-
-The pointer value that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> callback routine received in the <b>Object</b> member of one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
-
-<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.</div>
+<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="/windows-hardware/drivers/kernel/invalid-key-object-pointers-in-registry-notifications">Invalid Key Object Pointers in Registry Notifications</a>.</div>
 <div> </div>
 
-### -param ObjectID [out, optional]
+### -param ObjectID 
 
+[out, optional]
 A pointer to a location that receives a pointer to the unique identifier that represents the registry key that <i>Object</i> specifies. This parameter is optional and can be <b>NULL</b>.
 
+### -param ObjectName 
 
-### -param ObjectName [out, optional]
-
-A pointer to a location that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
-
+[out, optional]
+A pointer to a location that receives a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>CmCallbackGetKeyObjectID</b> returns STATUS_SUCCESS if the operation succeeds. Possible error return values include the following status code.
 
@@ -101,16 +95,10 @@ The <i>Cookie</i> or <i>Object</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>CmCallbackGetKeyObjectID</b> routine is available starting with Windows Vista. An improved version of this routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a>, is available starting with Windows 8. Drivers that run only in Windows 8 and later versions of Windows should call <b>CmCallbackGetKeyObjectIDEx</b> instead of <b>CmCallbackGetKeyObjectID</b>.
+The <b>CmCallbackGetKeyObjectID</b> routine is available starting with Windows Vista. An improved version of this routine, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a>, is available starting with Windows 8. Drivers that run only in Windows 8 and later versions of Windows should call <b>CmCallbackGetKeyObjectIDEx</b> instead of <b>CmCallbackGetKeyObjectID</b>.
 
 Drivers can use <b>CmCallbackGetKeyObjectID</b> to obtain the registry key identifier, the object name, or both, by supplying non-<b>NULL</b> values for the <i>ObjectID</i> or <i>ObjectName</i> parameters.
 
@@ -120,34 +108,24 @@ The driver must not modify the object name.
 
 If two registry key objects represent the same registry key, the key identifiers for both objects are identical.
 
-For more information about <b>CmCallbackGetKeyObjectID</b> and registry filtering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
-
-
-
+For more information about <b>CmCallbackGetKeyObjectID</b> and registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

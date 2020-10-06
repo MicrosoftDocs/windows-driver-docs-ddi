@@ -6,10 +6,8 @@ old-location: display\d3dddiarg_decodeextensionexecute.htm
 tech.root: display
 ms.assetid: 10c69928-a12f-4583-a3cc-7c4a81da4b03
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_DECODEEXTENSIONEXECUTE structure"]
+keywords: ["D3DDDIARG_DECODEEXTENSIONEXECUTE structure"]
 ms.keywords: D3DDDIARG_DECODEEXTENSIONEXECUTE, D3DDDIARG_DECODEEXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_f1b48d7e-6774-465e-99fd-29aaaf0726e1.xml, _D3DDDIARG_DECODEEXTENSIONEXECUTE, d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE, display.d3dddiarg_decodeextensionexecute
-f1_keywords:
- - "d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDIARG_DECODEEXTENSIONEXECUTE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DECODEEXTENSIONEXECUTE
+f1_keywords:
+ - _D3DDDIARG_DECODEEXTENSIONEXECUTE
+ - d3dumddi/_D3DDDIARG_DECODEEXTENSIONEXECUTE
+ - D3DDDIARG_DECODEEXTENSIONEXECUTE
+ - d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDIARG_DECODEEXTENSIONEXECUTE
 ---
 
 # _D3DDDIARG_DECODEEXTENSIONEXECUTE structure
@@ -47,66 +48,46 @@ req.typenames: D3DDDIARG_DECODEEXTENSIONEXECUTE
 
 ## -description
 
-
 The D3DDDIARG_DECODEEXTENSIONEXECUTE structure describes a nonstandard Microsoft DirectX Video Acceleration (VA) decode operation to perform.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hDecode
 
-[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
-
+[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
 
 ### -field Function
 
 [in] A specific decode operation to perform. The possible values for this member are defined by the nonstandard decode device.
 
-
 ### -field pPrivateInput
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the decode operation.
-
+[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the decode operation.
 
 ### -field pPrivateOutput
 
 [out] A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the decode operation that the driver returns.
 
-
 ### -field NumBuffers
 
 [in] The number of buffers in the list that is pointed to by <b>pBuffers</b>.
 
-
 ### -field pBuffers
 
-
-      [in] A pointer to a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that a nonstandard decoder uses to perform a decode operation.
-     
-
+      [in] A pointer to a list of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that a nonstandard decoder uses to perform a decode operation.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeextensionexecute">DecodeExtensionExecute</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeextensionexecute">DecodeExtensionExecute</a>

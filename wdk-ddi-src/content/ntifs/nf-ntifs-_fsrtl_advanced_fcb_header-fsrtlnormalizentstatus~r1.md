@@ -10,6 +10,7 @@ keywords: ["FsRtlNormalizeNtstatus function"]
 ms.keywords: FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, ifsk.fsrtlnormalizentstatus, ntifs/FsRtlNormalizeNtstatus
 f1_keywords:
  - "ntifs/FsRtlNormalizeNtstatus"
+ - "FsRtlNormalizeNtstatus"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNormalizeNtstatus
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlNormalizeNtstatus</b> routine translates an arbitrary exception into
 
 
 
-### -param Exception [in]
-
+### -param Exception 
+[in]
 Status value of the exception.
 
 
-### -param GenericException [in]
-
+### -param GenericException 
+[in]
 Generic status value to return if <i>Exception</i> is not within the set of exceptions handled by the filter.
 
 
@@ -80,8 +79,7 @@ Generic status value to return if <i>Exception</i> is not within the set of exce
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected">FsRtlIsNtstatusExpected</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected">FsRtlIsNtstatusExpected</a>
  
 
  
-

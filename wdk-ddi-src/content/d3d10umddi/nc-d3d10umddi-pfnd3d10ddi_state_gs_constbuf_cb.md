@@ -7,8 +7,6 @@ ms.assetid: 02468226-f0a4-4f24-a7f9-61a3b67dffb1
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_STATE_GS_CONSTBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_GS_CONSTBUF_CB, PFND3D10DDI_STATE_GS_CONSTBUF_CB callback, d3d10state_functions_d0994a2d-dd79-490e-b35a-04719bfa1450.xml, d3d10umddi/pfnStateGsConstBufCb, display.pfnstategsconstbufcb, pfnStateGsConstBufCb, pfnStateGsConstBufCb callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnStateGsConstBufCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- pfnStateGsConstBufCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_STATE_GS_CONSTBUF_CB
+ - d3d10umddi/PFND3D10DDI_STATE_GS_CONSTBUF_CB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - pfnStateGsConstBufCb
 ---
 
 # PFND3D10DDI_STATE_GS_CONSTBUF_CB callback function
@@ -47,20 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>pfnStateGsConstBufCb</b> function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader constant buffer state.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 *hRuntimeDevice* [in]
 
-A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function.
+A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function.
 
 ### -param Arg2
 
@@ -72,22 +66,12 @@ The total number of constant buffers. The number can be -1, which specifies that
 
 *Base* [in]
 
-The beginning constant buffer for which the runtime should refresh state. 
-
-
-
+The beginning constant buffer for which the runtime should refresh state.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>

@@ -8,8 +8,6 @@ ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.date: 05/08/2018
 keywords: ["IPortClsVersion interface"]
 ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices],described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
-f1_keywords:
- - "portcls/IPortClsVersion"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsVersion
+ - portcls/IPortClsVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsVersion
 ---
 
 # IPortClsVersion interface
@@ -47,38 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPortClsVersion</code> interface is used by a miniport driver to identify the version of the Windows operating system that the driver is running on. The port driver implements this interface and exposes it to the miniport driver. 
 
 To determine whether a port driver supports the <code>IPortClsVersion</code> interface, the miniport driver calls the port object's <b>QueryInterface</b> method with REFIID <b>IID_IPortClsVersion</b>. The following port types support <code>IPortClsVersion</code>:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
+<a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iporttopology">IPortTopology</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iporttopology">IPortTopology</a>
 
 
 </dd>

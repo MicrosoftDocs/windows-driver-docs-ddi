@@ -1,44 +1,48 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_ENDURANCE_INFO
 title: STORAGE_HW_ENDURANCE_INFO
-author: windows-driver-content
 description: A storage port driver uses the **STORAGE_HW_ENDURANCE_INFO** structure to report a device's endurance information.
 tech.root: storage
 ms.assetid: a2572a43-05b5-45c1-9c4e-c40281affb63
-ms.author: windowsdriverdev
 ms.date: 03/13/2019
 keywords: ["STORAGE_HW_ENDURANCE_INFO structure"]
-f1_keywords:
- - "ntddstor/STORAGE_HW_ENDURANCE_INFO"
-ms.keywords: STORAGE_HW_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO, 
+ms.keywords: STORAGE_HW_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO
-topic_type: 
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _STORAGE_HW_ENDURANCE_INFO
+ - ntddstor/_STORAGE_HW_ENDURANCE_INFO
+ - PSTORAGE_HW_ENDURANCE_INFO
+ - ntddstor/PSTORAGE_HW_ENDURANCE_INFO
+ - STORAGE_HW_ENDURANCE_INFO
+ - ntddstor/STORAGE_HW_ENDURANCE_INFO
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - ntddstor.h
-api_name: 
+api_name:
  - STORAGE_HW_ENDURANCE_INFO
 product:
  - Windows
-targetos: Windows
-ms.custom: 19H1
 ---
 
 # STORAGE_HW_ENDURANCE_INFO structure
+
 
 ## -description
 
@@ -51,6 +55,7 @@ A storage port driver uses the STORAGE_HW_ENDURANCE_INFO structure to report a d
 Bitmask that indicates which of the remaining members contain valid data. Can be any of the combination of the following bits:
 
 | Bit | Meaning |
+|-|-|
 | 0 | The *GroupId* member contains valid data. |
 | 1 | The *Flags* member contains valid data. |
 | 2 | The *LifePercentage* member contains valid data. |
@@ -94,3 +99,4 @@ This structure is a member of [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor
 [IOCTL_SCSI_MINIPORT](../ntddscsi/ni-ntddscsi-ioctl_scsi_miniport.md)
 
 [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor.md)
+

@@ -8,8 +8,6 @@ ms.assetid: a9da40fa-59b7-4d2b-978f-1785a51eeaed
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetSymbolOptions"]
 ms.keywords: GetSymbolOptions, GetSymbolOptions method [Windows Debugging], GetSymbolOptions method [Windows Debugging],IDebugSymbols interface, GetSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, GetSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols2 interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols2.GetSymbolOptions, IDebugSymbols2::GetSymbolOptions, IDebugSymbols3 interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols3::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, dbgeng/IDebugSymbols2::GetSymbolOptions, dbgeng/IDebugSymbols3::GetSymbolOptions, dbgeng/IDebugSymbols::GetSymbolOptions, debugger.getsymboloptions
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetSymbolOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbghelp.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetSymbolOptions
-- IDebugSymbols2.GetSymbolOptions
-- IDebugSymbols3.GetSymbolOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols2::GetSymbolOptions
+ - dbgeng/IDebugSymbols2::GetSymbolOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetSymbolOptions
+ - IDebugSymbols2.GetSymbolOptions
+ - IDebugSymbols3.GetSymbolOptions
 ---
 
 # IDebugSymbols2::GetSymbolOptions
@@ -49,25 +48,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolOptions</b> method returns the engine's global symbol options.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [out]
-
-Receives the symbol options bit-set.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
-
+[out]
+Receives the symbol options bit-set.  For a description of the bit flags, see <a href="/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -86,47 +78,31 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
-
-
-
+For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsymboloptions">AddSymbolOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsymboloptions">AddSymbolOptions</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-removesymboloptions">RemoveSymbolOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-removesymboloptions">RemoveSymbolOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymboloptions">SetSymbolOptions</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymboloptions">SetSymbolOptions</a>

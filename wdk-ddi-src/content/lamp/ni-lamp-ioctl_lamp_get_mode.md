@@ -8,8 +8,6 @@ ms.assetid: 741FFB14-B6F1-452B-AD8A-E82C0E34CB6A
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_MODE, IOCTL_LAMP_GET_MODE control, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_MODE, stream.ioctl_lamp_get_mode
-f1_keywords:
- - "lamp/IOCTL_LAMP_GET_MODE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_GET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_GET_MODE
+ - lamp/IOCTL_LAMP_GET_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_GET_MODE
 ---
 
 # IOCTL_LAMP_GET_MODE IOCTL
+
 
 ## -description
 
@@ -57,11 +57,11 @@ The **IOCTL_LAMP_GET_MODE** control code queries the mode with which the lamp is
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](./ne-lamp-lamp_mode.md).
 
 ### -input-buffer-length
 
-Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
+Length of [LAMP_MODE](./ne-lamp-lamp_mode.md).
 
 ### -output-buffer
 

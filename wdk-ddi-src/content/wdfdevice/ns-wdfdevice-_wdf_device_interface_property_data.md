@@ -6,10 +6,8 @@ old-location: wdf\wdf_device_interface_property_data.htm
 tech.root: wdf
 ms.assetid: 2AC9E23B-928E-480F-A208-5A2DE92AEF4B
 ms.date: 02/26/2018
-keywords: ["_WDF_DEVICE_INTERFACE_PROPERTY_DATA structure"]
+keywords: ["WDF_DEVICE_INTERFACE_PROPERTY_DATA structure"]
 ms.keywords: "*PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer, WDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure, _WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdf.wdf_device_interface_property_data, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA"
-f1_keywords:
- - "wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_DEVICE_INTERFACE_PROPERTY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA
+f1_keywords:
+ - _WDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - wdfdevice/_WDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - PWDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - WDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_DEVICE_INTERFACE_PROPERTY_DATA
 ---
 
 # _WDF_DEVICE_INTERFACE_PROPERTY_DATA structure
@@ -47,26 +50,19 @@ req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPER
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure describes a device interface property.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field InterfaceClassGUID
 
 A pointer to a GUID that identifies the device interface class.
-
 
 ### -field ReferenceString
 
@@ -74,70 +70,55 @@ A pointer to a <b>UNICODE_STRING</b> structure that describes a reference
     string for the device interface. This parameter is optional and can
     be NULL.
 
-
 ### -field PropertyKey
 
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device 
     property key.
 
-
 ### -field Lcid
 
-Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
-
+Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
 ### -field Flags
 
 Not currently used. Set this member to zero.
 
-
 ## -remarks
-
-
 
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure is used as input to the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty">WdfDeviceAllocAndQueryInterfaceProperty</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty">WdfDeviceAllocAndQueryInterfaceProperty</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
 </li>
 </ul>
-Drivers should initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>.
+Drivers should initialize this structure by calling <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>.
 
 
 #### Examples
 
-For an example of how to use <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>.
+For an example of how to use <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b>, see <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty">WdfDeviceAllocAndQueryInterfaceProperty</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>

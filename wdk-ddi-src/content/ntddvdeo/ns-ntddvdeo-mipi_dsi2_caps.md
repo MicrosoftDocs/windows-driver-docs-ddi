@@ -1,15 +1,14 @@
 ---
 UID: NS:ntddvdeo._MIPI_DSI2_CAPS
 title: MIPI_DSI2_CAPS
-author: windows-driver-content
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) caps.
 tech.root: display
 ms.assetid: d522bb54-dc96-4cb5-afed-3eb096143882
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_CAPS structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_CAPS"
+ - "MIPI_DSI2_CAPS"
 ms.keywords: MIPI_DSI2_CAPS, MIPI_DSI2_CAPS, *PMIPI_DSI2_CAPS, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +31,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - MIPI_DSI2_CAPS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

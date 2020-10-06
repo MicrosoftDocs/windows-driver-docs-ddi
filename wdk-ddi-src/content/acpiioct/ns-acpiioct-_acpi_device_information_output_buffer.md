@@ -5,11 +5,9 @@ description: The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output
 old-location: acpi\acpi_device_information_output_buffer.htm
 tech.root: acpi
 ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
-ms.date: 02/15/2018
-keywords: ["_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure"]
+ms.date: 08/26/2020
+keywords: ["ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
-f1_keywords:
- - "acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+f1_keywords:
+ - _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - acpiioct/_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---
 
 # _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure
+
 
 ## -description
 
@@ -102,7 +106,7 @@ The offset from the beginning of this structure to the beginning of the **Instan
 
 A number identifying the class of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for baseclass code definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for baseclass code definitions.
 
 ### -field HardwareRevision
 
@@ -112,7 +116,7 @@ A number identifying the hardware revision of the device.
 
 A number identifying the programming interface of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for class programming interface definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for class programming interface definitions.
 
 ### -field Reserved1
 
@@ -122,7 +126,7 @@ Reserved. Do not use.
 
 A number identifying the subclass of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for subclass code definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for subclass code definitions.
 
 ## -remarks
 
@@ -142,4 +146,4 @@ A string of **InstanceIDLength** in length which contains a number that uniquely
 
 ## -see-also
 
-[IOCTL_ACPI_GET_DEVICE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information)
+[IOCTL_ACPI_GET_DEVICE_INFORMATION](./ni-acpiioct-ioctl_acpi_get_device_information.md)

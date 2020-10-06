@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetName
 title: IDataModelScriptTemplate::GetName (dbgmodel.h)
-description: The GetName method returns a name of the template. 
+description: The GetName method returns a name of the template.
 ms.assetid: c5df4066-3417-43b9-bf16-a6039c73dd18
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplate::GetName"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptTemplate.GetName"
 ms.keywords: IDataModelScriptTemplate::GetName, GetName, IDataModelScriptTemplate.GetName, IDataModelScriptTemplate::GetName, IDataModelScriptTemplate.GetName
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptTemplate.GetName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptTemplate::GetName
+ - dbgmodel/IDataModelScriptTemplate::GetName
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptTemplate.GetName
 ---
 
 # IDataModelScriptTemplate::GetName
@@ -45,7 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetName method returns a name of the template. This may fail with E_NOTIMPL if the template does not have a name. The single default template (if such exists) is not required to have a name. All other templates are. These names may be presented in a user interface as part of a menu to select which template is to be created. 
+The GetName method returns a name of the template. This may fail with E_NOTIMPL if the template does not have a name. The single default template (if such exists) is not required to have a name. All other templates are. These names may be presented in a user interface as part of a menu to select which template is to be created.
 
 ## -parameters
 
@@ -53,8 +52,8 @@ The GetName method returns a name of the template. This may fail with E_NOTIMPL 
 
 The name of the template is returned here as a string allocated via the SysAllocString function. The caller is responsible for freeing this string with SysFreeString.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -62,3 +61,4 @@ This method returns HRESULT that indicates success or failure.
 ## -see-also
 
 [IDataModelScriptTemplate interface](nn-dbgmodel-idatamodelscripttemplate.md)
+

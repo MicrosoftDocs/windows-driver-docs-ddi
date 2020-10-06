@@ -6,10 +6,8 @@ old-location: kernel\cm_int13_drive_parameter.htm
 tech.root: kernel
 ms.assetid: eee1070f-c821-42bd-a0c9-d429fac6305b
 ms.date: 04/30/2018
-keywords: ["_CM_INT13_DRIVE_PARAMETER structure"]
+keywords: ["CM_INT13_DRIVE_PARAMETER structure"]
 ms.keywords: "*PCM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER structure [Kernel-Mode Driver Architecture], PCM_INT13_DRIVE_PARAMETER, PCM_INT13_DRIVE_PARAMETER structure pointer [Kernel-Mode Driver Architecture], _CM_INT13_DRIVE_PARAMETER, kernel.cm_int13_drive_parameter, kstruct_a_4d629962-92d1-446d-890b-196893ea37a0.xml, wdm/CM_INT13_DRIVE_PARAMETER, wdm/PCM_INT13_DRIVE_PARAMETER"
-f1_keywords:
- - "wdm/CM_INT13_DRIVE_PARAMETER"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- CM_INT13_DRIVE_PARAMETER
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_INT13_DRIVE_PARAMETER, *PCM_INT13_DRIVE_PARAMETER
+f1_keywords:
+ - _CM_INT13_DRIVE_PARAMETER
+ - wdm/_CM_INT13_DRIVE_PARAMETER
+ - PCM_INT13_DRIVE_PARAMETER
+ - wdm/PCM_INT13_DRIVE_PARAMETER
+ - CM_INT13_DRIVE_PARAMETER
+ - wdm/CM_INT13_DRIVE_PARAMETER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - CM_INT13_DRIVE_PARAMETER
 ---
 
 # _CM_INT13_DRIVE_PARAMETER structure
@@ -47,51 +50,34 @@ req.typenames: CM_INT13_DRIVE_PARAMETER, *PCM_INT13_DRIVE_PARAMETER
 
 ## -description
 
-
 The <b>CM_INT13_DRIVE_PARAMETER</b> structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a disk controller if the system can collect this information during the boot process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DriveSelect
 
 The drive selected value.
 
-
 ### -field MaxCylinders
 
 The maximum number of cylinders.
-
 
 ### -field SectorsPerTrack
 
 The number of sectors per track.
 
-
 ### -field MaxHeads
 
 The maximum number of heads.
 
-
 ### -field NumberDrives
 
-The number of drives. 
-
+The number of drives.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>

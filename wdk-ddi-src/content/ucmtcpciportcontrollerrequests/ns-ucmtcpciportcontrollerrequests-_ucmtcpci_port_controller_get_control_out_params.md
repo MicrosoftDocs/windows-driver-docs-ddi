@@ -6,10 +6,8 @@ old-location: buses\ucmtcpci_port_controller_get_control_out_params.htm
 tech.root: usbref
 ms.assetid: c75167cb-14c9-4189-961a-97a50c84d6be
 ms.date: 05/07/2018
-keywords: ["_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure"]
+keywords: ["UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, buses.ucmtcpci_port_controller_get_control_out_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
-f1_keywords:
- - "ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmtcpciportcontrollerrequests.h
-api_name:
-- UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+f1_keywords:
+ - _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmtcpciportcontrollerrequests.h
+api_name:
+ - UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure
@@ -47,52 +50,31 @@ req.typenames: UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, *PUCMTCPCI_PORT_
 
 ## -description
 
-
-
              Stores the values of all control registers of the port controller retrieved by the 
-             <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
-
+             <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
 
 ## -struct-fields
 
-
-
-
 ### -field TCPCControl
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL</b> structure that describes the TCPC_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ### -field RoleControl
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL</b> structure that describes the ROLE_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ### -field FaultControl
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL</b> structure that describes the FAULT_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ### -field PowerControl
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL</b> structure that describes the FAULT_POWER Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>

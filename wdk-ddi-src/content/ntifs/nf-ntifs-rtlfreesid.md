@@ -8,8 +8,6 @@ ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
 ms.date: 04/16/2018
 keywords: ["RtlFreeSid function"]
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
-f1_keywords:
- - "ntifs/RtlFreeSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- RtlFreeSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFreeSid
+ - ntifs/RtlFreeSid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - RtlFreeSid
 ---
 
 # RtlFreeSid function
@@ -47,20 +46,11 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlFreeSid</b> routine is reserved for system use. 
-
+The <b>RtlFreeSid</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param Sid
 
 <p>Reserved.</p>
-
-
-
-
 

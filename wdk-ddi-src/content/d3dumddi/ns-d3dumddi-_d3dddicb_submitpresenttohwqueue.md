@@ -4,41 +4,43 @@ title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE (d3dumddi.h)
 description: Arguments used by the PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 47ca9041-9e7a-4afa-9e82-0148f8985078
 ms.date: 10/19/2018
-keywords: ["_D3DDDICB_SUBMITPRESENTTOHWQUEUE structure"]
-f1_keywords:
- - "d3dumddi/_D3DDDICB_SUBMITPRESENTTOHWQUEUE"
-ms.keywords: _D3DDDICB_SUBMITPRESENTTOHWQUEUE, D3DDDICB_SUBMITPRESENTTOHWQUEUE, 
+keywords: ["D3DDDICB_SUBMITPRESENTTOHWQUEUE structure"]
+ms.keywords: _D3DDDICB_SUBMITPRESENTTOHWQUEUE, D3DDDICB_SUBMITPRESENTTOHWQUEUE,
 req.header: d3dumddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DDDICB_SUBMITPRESENTTOHWQUEUE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dumddi.h
-api_name: 
-- _D3DDDICB_SUBMITPRESENTTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5, 19H1
+f1_keywords:
+ - _D3DDDICB_SUBMITPRESENTTOHWQUEUE
+ - d3dumddi/_D3DDDICB_SUBMITPRESENTTOHWQUEUE
+ - D3DDDICB_SUBMITPRESENTTOHWQUEUE
+ - d3dumddi/D3DDDICB_SUBMITPRESENTTOHWQUEUE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - _D3DDDICB_SUBMITPRESENTTOHWQUEUE
 dev_langs:
  - c++
-ms.custom: RS5, 19H1
 ---
 
 # _D3DDDICB_SUBMITPRESENTTOHWQUEUE structure
+
 
 ## -description
 
@@ -67,15 +69,17 @@ The number of broadcast hardware queues.
 The total size in bytes of the private data buffer.
 
 ### -field pPrivateDriverData
+
  
 Pointer to the private data to pass to DdiPresent.
 
 ### -field bOptimizeForComposition
- 
+
 ### -field SyncIntervalOverrideValid
- 
+
 ### -field SyncIntervalOverride
 
 ## -remarks
 
 ## -see-also
+

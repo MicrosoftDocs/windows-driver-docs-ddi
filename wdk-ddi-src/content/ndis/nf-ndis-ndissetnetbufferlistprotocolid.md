@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: e2af0fa5-6f94-4406-a5c9-20f114316d6d
 ms.date: 04/13/2018
 keywords: ["NdisSetNetBufferListProtocolId macro"]
-f1_keywords:
- - "ndis/NdisSetNetBufferListProtocolId"
 ms.keywords: NdisSetNetBufferListProtocolId
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NdisSetNetBufferListProtocolId
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NdisSetNetBufferListProtocolId
+ - ndis/NdisSetNetBufferListProtocolId
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisSetNetBufferListProtocolId
 ---
 
 # NdisSetNetBufferListProtocolId macro
@@ -86,3 +84,4 @@ Miniport, filter, and intermediate drivers set the protocol identifier to zero.
 [**NdisAllocateNetBufferListPool**](nf-ndis-ndisallocatenetbufferlistpool.md)
 
 [**NdisGetNetBufferListProtocolId**](nf-ndis-ndisgetnetbufferlistprotocolid.md)
+

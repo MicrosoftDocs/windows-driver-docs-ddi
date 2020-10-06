@@ -7,8 +7,6 @@ ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_ENUMADAPTERS callback function"]
 ms.keywords: D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, PFND3DKMT_ENUMADAPTERS callback, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters
-f1_keywords:
- - "d3dkmthk/D3DKMTEnumAdapters"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,23 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMTEnumAdapters
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_ENUMADAPTERS
+ - d3dkmthk/PFND3DKMT_ENUMADAPTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMTEnumAdapters
 ---
 
 # PFND3DKMT_ENUMADAPTERS callback function
+
 
 ## -description
 
@@ -54,7 +54,7 @@ Enumerates all graphics adapters on the system.
 
 *pEnumAdapters* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
 
 ## -returns
 
@@ -64,7 +64,7 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The enumeration was successful.|
 |STATUS_INVALID_PARAMETER|The  pEnumAdapters parameter was validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks
@@ -73,5 +73,4 @@ The operating system enumerates graphics adapters in the same sequence as their 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a>
- 
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a>

@@ -6,10 +6,11 @@ old-location: pos\linedisplaycharacterdata.htm
 tech.root: pos
 ms.assetid: EBD3CE63-A5ED-49FB-904F-1EF6A402ED64
 ms.date: 02/23/2018
-keywords: ["_LineDisplayCharacterData structure"]
+keywords: ["LineDisplayCharacterData structure"]
 ms.keywords: LineDisplayCharacterData, LineDisplayCharacterData structure, PLineDisplayCharacterData, PLineDisplayCharacterData structure pointer, _LineDisplayCharacterData, pointofservicedriverinterface/LineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, pos.linedisplaycharacterdata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayCharacterData"
+ - "LineDisplayCharacterData"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - LineDisplayCharacterData
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplayCharacterData
 ---

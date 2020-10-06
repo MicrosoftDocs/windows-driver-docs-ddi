@@ -8,8 +8,6 @@ ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
 ms.date: 05/07/2018
 keywords: ["UcxControllerCreate function"]
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
-f1_keywords:
- - "ucxcontroller/UcxControllerCreate"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxcontroller.h
-api_name:
-- UcxControllerCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - UcxControllerCreate
+ - ucxcontroller/UcxControllerCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxcontroller.h
+api_name:
+ - UcxControllerCreate
 ---
 
 # UcxControllerCreate function
@@ -48,54 +47,42 @@ ms.custom: RS5
 
 ## -description
 
-
 Creates a host controller object.
-
 
 ## -parameters
 
+### -param Device 
 
+[in]
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+### -param Config 
 
-### -param Device [in]
-
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
-
-
-### -param Config [in]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure that the client driver initialized by calling UCX_CONTROLLER_CONFIG_INIT. The structure contains configuration
+[in]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure that the client driver initialized by calling UCX_CONTROLLER_CONFIG_INIT. The structure contains configuration
         information required to create the object.
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
+[in, optional]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the controller object.
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the controller object. 
+### -param Controller 
 
-
-### -param Controller [out]
-
+[out]
 A pointer to a variable that receives a handle to the new controller object.
-
 
 ## -returns
 
-
-
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-
-
-
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
 
+The client driver for the host controller must call this method after the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. The parent of the new host controller object is the framework device object. 
 
+During this call, the client driver-supplied event callback implementations are also registered. Supply function  pointers to those functions by call setting appropriate members of <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>. 
 
-The client driver for the host controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. The parent of the new host controller object is the framework device object. 
-
-During this call, the client driver-supplied event callback implementations are also registered. Supply function  pointers to those functions by call setting appropriate members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>. 
-
-If the parent type is PCI, then initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_pci_info">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>. If the parent is ACPI, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_acpi_info">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a> instead. 
+If the parent type is PCI, then initialize the <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> by calling <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_pci_info">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>. If the parent is ACPI, call <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_acpi_info">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a> instead. 
 
 The method creates various queues required to handle IOCTL requests sent to the USB device. 
 
@@ -104,13 +91,9 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     WDF_OBJECT_ATTRIBUTES                   objectAttributes;
     UCX_CONTROLLER_CONFIG                   ucxControllerConfig;
     UCXCONTROLLER                           ucxController;
@@ -140,20 +123,10 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
     ucxControllerContext = GetUcxControllerContext(ucxController);
     ucxControllerContext->WdfDevice = wdfDevice;
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>

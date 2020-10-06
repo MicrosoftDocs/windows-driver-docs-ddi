@@ -8,8 +8,6 @@ ms.assetid: e89e9108-28a1-46ac-8694-047a656dcb74
 ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_ANALOGVIDEO structure"]
 ms.keywords: "*PKS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_ANALOGVIDEO, ksmedia/PKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, tagKS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml"
-f1_keywords:
- - "ksmedia/KS_DATARANGE_ANALOGVIDEO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_DATARANGE_ANALOGVIDEO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_ANALOGVIDEO, *PKS_DATARANGE_ANALOGVIDEO
+f1_keywords:
+ - tagKS_DATARANGE_ANALOGVIDEO
+ - ksmedia/tagKS_DATARANGE_ANALOGVIDEO
+ - PKS_DATARANGE_ANALOGVIDEO
+ - ksmedia/PKS_DATARANGE_ANALOGVIDEO
+ - KS_DATARANGE_ANALOGVIDEO
+ - ksmedia/KS_DATARANGE_ANALOGVIDEO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_DATARANGE_ANALOGVIDEO
 ---
 
 # tagKS_DATARANGE_ANALOGVIDEO structure
@@ -47,36 +50,22 @@ req.typenames: KS_DATARANGE_ANALOGVIDEO, *PKS_DATARANGE_ANALOGVIDEO
 
 ## -description
 
-
 The KS_DATARANGE_ANALOGVIDEO structure describes an analog video stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataRange
 
 Specifies the major identifier for the format.
 
-
 ### -field AnalogVideoInfo
 
-Specifies the details of the analog video stream. 
-
+Specifies the details of the analog video stream.
 
 ## -see-also
 
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>

@@ -6,14 +6,12 @@ old-location: image\wia_property_info.htm
 tech.root: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.date: 05/03/2018
-keywords: ["_WIA_PROPERTY_INFO structure"]
+keywords: ["WIA_PROPERTY_INFO structure"]
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
-f1_keywords:
- - "wiamindr_lh/WIA_PROPERTY_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIA_PROPERTY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
+f1_keywords:
+ - _WIA_PROPERTY_INFO
+ - wiamindr_lh/_WIA_PROPERTY_INFO
+ - PWIA_PROPERTY_INFO
+ - wiamindr_lh/PWIA_PROPERTY_INFO
+ - WIA_PROPERTY_INFO
+ - wiamindr_lh/WIA_PROPERTY_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIA_PROPERTY_INFO
 ---
 
 # _WIA_PROPERTY_INFO structure
+
 
 ## -description
 
@@ -52,7 +56,7 @@ The WIA_PROPERTY_INFO structure is used to store default access and valid value 
 
 ### -field lAccessFlags
 
-Specifies the access and property attribute flags for a property. For more information, see [Property Attributes](https://docs.microsoft.com/windows/win32/wia/-wia-property-attributes).
+Specifies the access and property attribute flags for a property. For more information, see [Property Attributes](/windows/win32/wia/-wia-property-attributes).
 
 ### -field vt
 
@@ -76,7 +80,7 @@ Specifies the variant data type for the property. This member, which can be one 
 
 - VT_BSTR
 
-For more information, see [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant).
+For more information, see [PROPVARIANT](/windows/win32/api/propidl/ns-propidl-propvariant).
 
 ### -field ValidVal
 
@@ -212,7 +216,7 @@ For a different property whose valid values are defined by a list of three GUID 
 
 A property whose valid values are defined by a bitset of the values 0x01, 0x02, 0x04, and 0x08 would have the WIA_PROP_FLAG bit set in **lAccessFlags**, and **vt** would be set to VT_UI4. For such a property, the value stored in **Flag.ValidBits** would be 0x0F, the bitwise OR of the four flag values previously mentioned.
 
-The following examples show how to use array data with WIA_PROPERTY_INFO and how to call [wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple) to set your property values.
+The following examples show how to use array data with WIA_PROPERTY_INFO and how to call [wiasWriteMultiple](../wiamdef/nf-wiamdef-wiaswritemultiple.md) to set your property values.
 
 Initialization might look like the following example:
 
@@ -244,8 +248,8 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ```
 
 > [!NOTE]
-> WIA uses the COM [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) type, [VARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+> WIA uses the COM [PROPVARIANT](/windows/win32/api/propidl/ns-propidl-propvariant) type, [VARIANT](/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
 
 ## -see-also
 
-[wiasSetItemPropAttribs](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropattribs)
+[wiasSetItemPropAttribs](../wiamdef/nf-wiamdef-wiassetitempropattribs.md)

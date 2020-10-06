@@ -6,40 +6,39 @@ ms.assetid: 75d16f0b-ded0-49fe-b2a3-ee751f05391c
 ms.date: 08/08/2018
 keywords: ["PropertiesListCopy function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropertiesListCopy"
 ms.keywords: PropertiesListCopy
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropertiesListCopy
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropertiesListCopy
+ - sensorsutils/PropertiesListCopy
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropertiesListCopy
+product:
+ - Windows
 ---
 
 # PropertiesListCopy function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine copies a properties list from source to target.
-
 
 ## -parameters
 
@@ -71,3 +69,4 @@ This function returns:
 ## -remarks
 
 ## -see-also
+

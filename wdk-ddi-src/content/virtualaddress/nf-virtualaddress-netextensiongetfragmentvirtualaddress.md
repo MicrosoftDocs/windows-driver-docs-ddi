@@ -1,45 +1,44 @@
 ---
 UID: NF:virtualaddress.NetExtensionGetFragmentVirtualAddress
 title: NetExtensionGetFragmentVirtualAddress function (virtualaddress.h)
-author: windows-driver-content
-description: The NetExtensionGetFragmentVirtualAddress method retrieves the virtual address extension information for a net fragment.
+description: The NetExtensionGetFragmentVirtualAddress function retrieves the virtual address extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 054DB38D-7496-424F-A521-A2368878F690
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentVirtualAddress function"]
-f1_keywords:
- - "virtualaddress/NetExtensionGetFragmentVirtualAddress"
 ms.keywords: NetExtensionGetFragmentVirtualAddress
 req.header: virtualaddress.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- virtualaddress.h
-api_name: 
-- NetExtensionGetFragmentVirtualAddress
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetExtensionGetFragmentVirtualAddress
+ - virtualaddress/NetExtensionGetFragmentVirtualAddress
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - virtualaddress.h
+api_name:
+ - NetExtensionGetFragmentVirtualAddress
+product:
+ - Windows
 ---
 
 # NetExtensionGetFragmentVirtualAddress function
@@ -47,7 +46,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetExtensionGetFragmentVirtualAddress** method retrieves the virtual address extension information for a net fragment.
+The **NetExtensionGetFragmentVirtualAddress** function retrieves the virtual address extension information for a net fragment.
 
 ## -parameters
 
@@ -65,14 +64,14 @@ Returns a pointer to a [**NET_FRAGMENT_VIRTUAL_ADDRESS**](../virtualaddresstypes
 
 ## -remarks
 
-NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the virtual address offset from the queue context to pass to **NetExtensionGetFragmentVirtualAddress**.
+NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the virtual address offset from the queue context to pass to **NetExtensionGetFragmentVirtualAddress**.
 
-This method is a wrapper method around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
+This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md).
 
 ## -see-also
 
-[Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+[Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md)

@@ -8,8 +8,6 @@ ms.assetid: 5f735c98-26a6-4644-9fd4-b832ac9379c2
 ms.date: 05/02/2018
 keywords: ["NdisUpcaseUnicodeString macro"]
 ms.keywords: NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring
-f1_keywords:
- - "ndis/NdisUpcaseUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisUpcaseUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisUpcaseUnicodeString
+ - ndis/NdisUpcaseUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisUpcaseUnicodeString
 ---
 
 # NdisUpcaseUnicodeString macro
 
 
 ## -description
-
 
 The 
   <b>NdisUpcaseUnicodeString</b> function converts a copy of a given Unicode string to upper case and returns
@@ -56,34 +54,22 @@ The
 
 ## -parameters
 
-
-
-
 ### -param _d
 
 A pointer to a caller-allocated buffer in which to return the converted string.
-
 
 ### -param _s
 
 A pointer to the source Unicode string to be converted to upper case.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

@@ -8,8 +8,6 @@ ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.date: 04/23/2018
 keywords: ["KSRESET enumeration"]
 ms.keywords: KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_BEGIN, KSRESET_END, ks/KSRESET, ks/KSRESET_BEGIN, ks/KSRESET_END, stream.ksreset
-f1_keywords:
- - "ks/KSRESET"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSRESET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRESET
+f1_keywords:
+ - KSRESET
+ - ks/KSRESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSRESET
 ---
 
 # KSRESET enumeration
@@ -47,17 +46,9 @@ req.typenames: KSRESET
 
 ## -description
 
-
-
-
-
 ## -enum-fields
 
-
-
-
 ### -field KSRESET_BEGIN
-
 
 ### -field KSRESET_END
 

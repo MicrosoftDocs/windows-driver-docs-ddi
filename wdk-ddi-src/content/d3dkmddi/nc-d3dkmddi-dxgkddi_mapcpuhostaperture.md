@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiMapCpuHostAperture"
+ - DXGKDDI_MAPCPUHOSTAPERTURE
+ - d3dkmddi/DXGKDDI_MAPCPUHOSTAPERTURE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_MAPCPUHOSTAPERTURE callback function
 
+
 ## -description
 
 <b>DxgkDdiMapCpuHostAperture</b> is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
@@ -58,9 +60,8 @@ A handle to the display adapter.
 
 *Map* [in]
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_mapcpuhostaperture">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_mapcpuhostaperture">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 ## -returns
 
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
-

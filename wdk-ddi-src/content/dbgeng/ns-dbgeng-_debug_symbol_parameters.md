@@ -6,10 +6,8 @@ old-location: debugger\debug_symbol_parameters.htm
 tech.root: debugger
 ms.assetid: c73ea2b0-e87a-4fb1-9164-ff14d43f1426
 ms.date: 05/03/2018
-keywords: ["_DEBUG_SYMBOL_PARAMETERS structure"]
+keywords: ["DEBUG_SYMBOL_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], PDEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, _DEBUG_SYMBOL_PARAMETERS, dbgeng/DEBUG_SYMBOL_PARAMETERS, dbgeng/PDEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters"
-f1_keywords:
- - "dbgeng/DEBUG_SYMBOL_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_SYMBOL_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS
+f1_keywords:
+ - _DEBUG_SYMBOL_PARAMETERS
+ - dbgeng/_DEBUG_SYMBOL_PARAMETERS
+ - PDEBUG_SYMBOL_PARAMETERS
+ - dbgeng/PDEBUG_SYMBOL_PARAMETERS
+ - DEBUG_SYMBOL_PARAMETERS
+ - dbgeng/DEBUG_SYMBOL_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_SYMBOL_PARAMETERS
 ---
 
 # _DEBUG_SYMBOL_PARAMETERS structure
@@ -47,41 +50,30 @@ req.typenames: DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS
 
 ## -description
 
-
 The <b>DEBUG_SYMBOL_PARAMETERS</b> structure describes a symbol in a symbol group.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Module
 
 The location in the target's virtual address space of the base of the module to which the symbol belongs.
 
-
 ### -field TypeId
 
 The type ID of the symbol.
-
 
 ### -field ParentSymbol
 
 The index within the symbol group of the symbol's parent symbol.  If the parent symbol is not known, <b>ParentSymbol</b> is DEBUG_ANY_ID.
 
-
 ### -field SubElements
 
 The number of children of the symbol.  If this symbol has never been expanded within this symbol group, this number will be an estimate that is based on the symbol's type.
 
-
 ### -field Flags
 
-The symbol flags.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-symbol-xxx">DEBUG_SYMBOL_XXX</a> for details.
-
+The symbol flags.  See <a href="/windows-hardware/drivers/debugger/debug-symbol-xxx">DEBUG_SYMBOL_XXX</a> for details.
 
 ### -field Reserved
 
 Set to zero.
-

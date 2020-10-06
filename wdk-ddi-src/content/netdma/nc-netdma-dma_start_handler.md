@@ -8,8 +8,6 @@ ms.assetid: 0926e8c4-f2ca-401f-abe8-76aec359a1e2
 ms.date: 05/02/2018
 keywords: ["DMA_START_HANDLER callback function"]
 ms.keywords: DMA_START_HANDLER, DMA_START_HANDLER callback, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma
-f1_keywords:
- - "netdma/ProviderStartDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderStartDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_START_HANDLER
+ - netdma/DMA_START_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderStartDma
 ---
 
 # DMA_START_HANDLER callback function
@@ -47,45 +46,41 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div>
 
 The <i>ProviderStartDma</i> function starts a DMA transfer on the specified DMA channel.
 
-
 ## -parameters
 
+### -param ProviderChannelContext 
 
-
-
-### -param ProviderChannelContext [in]
-
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
+     <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
+### -param DescriptorVirtualAddress 
 
-### -param DescriptorVirtualAddress [in]
-
+[in]
 A pointer to the virtual address of the first 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure in a linked
+     <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure in a linked
      list of DMA descriptors. The corresponding physical address is specified at the 
      <i>DescriptorPhysicalAddress</i> parameter.
 
+### -param DescriptorPhysicalAddress 
 
-### -param DescriptorPhysicalAddress [in]
-
+[in]
 A pointer to the physical address of the first DMA descriptor in a linked list of DMA descriptors.
      The corresponding virtual address is specified at the 
      <i>DescriptorVirtualAddress</i> parameter.
 
+### -param DescriptorCount 
 
-### -param DescriptorCount [in]
-
+[in]
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
      
@@ -96,8 +91,6 @@ The number of DMA descriptors at
 <div> </div>
 
 ## -returns
-
-
 
 <i>ProviderStartDma</i> returns one of the following status values:
 
@@ -140,27 +133,21 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The NetDMA interface calls a DMA provider driver's 
     <i>ProviderStartDma</i> function to start a DMA transfer. The NetDMA interface can call 
     <i>ProviderStartDma</i> at any time after a DMA channel is allocated. The NetDMA interface must call 
     <i>ProviderStartDma</i> after it calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_reset_handler">ProviderResetChannel</a>, or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>, 
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_reset_handler">ProviderResetChannel</a>, or 
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
     ProviderAllocateDmaChannel</a> function for a DMA channel.
 
 The source of the DMA transfer is a linked list of DMA descriptors. The 
     <b>NextDescriptor</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure at the 
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure at the 
     <i>DescriptorVirtualAddress</i> parameter contains the physical address of the next NET_DMA_DESCRIPTOR
     structure in the linked list.
 
@@ -168,9 +155,9 @@ The source of the DMA transfer is a linked list of DMA descriptors. The
     NULL-terminated. The 
     <b>NextDescriptor</b> member in the last descriptor in the linked list specifies the physical address of
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure that will be
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure that will be
     used in the subsequent call to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function. A NetDMA 2.0
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function. A NetDMA 2.0
     provider driver can cache the address in 
     <b>NextDescriptor</b> and use this address as the beginning of the linked list for the next Append
     operation.</div>
@@ -182,38 +169,28 @@ To perform the start operation, the DMA provider must disregard the existing DMA
 
 After 
     <i>ProviderStartDma</i> starts the initial DMA transfer, the NetDMA interface can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append
     additional data to the transfer.
 
 NetDMA calls 
     <i>ProviderStartDma</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_reset_handler">ProviderResetChannel</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_reset_handler">ProviderResetChannel</a>

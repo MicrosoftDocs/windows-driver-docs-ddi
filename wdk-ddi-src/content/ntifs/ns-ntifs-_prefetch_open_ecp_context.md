@@ -6,10 +6,8 @@ old-location: ifsk\prefetch_open_ecp_context.htm
 tech.root: ifsk
 ms.assetid: 199a3003-a7dd-48a3-aa76-550332be26f3
 ms.date: 04/16/2018
-keywords: ["_PREFETCH_OPEN_ECP_CONTEXT structure"]
+keywords: ["PREFETCH_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PPREFETCH_OPEN_ECP_CONTEXT, ECP_Structures_bd946e05-ef42-4fcc-93f8-bf96b6440817.xml, PPREFETCH_OPEN_ECP_CONTEXT, PPREFETCH_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PREFETCH_OPEN_ECP_CONTEXT, PREFETCH_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _PREFETCH_OPEN_ECP_CONTEXT, ifsk.prefetch_open_ecp_context, ntifs/PPREFETCH_OPEN_ECP_CONTEXT, ntifs/PREFETCH_OPEN_ECP_CONTEXT"
-f1_keywords:
- - "ntifs/PREFETCH_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- PREFETCH_OPEN_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
+f1_keywords:
+ - _PREFETCH_OPEN_ECP_CONTEXT
+ - ntifs/_PREFETCH_OPEN_ECP_CONTEXT
+ - PPREFETCH_OPEN_ECP_CONTEXT
+ - ntifs/PPREFETCH_OPEN_ECP_CONTEXT
+ - PREFETCH_OPEN_ECP_CONTEXT
+ - ntifs/PREFETCH_OPEN_ECP_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - PREFETCH_OPEN_ECP_CONTEXT
 ---
 
 # _PREFETCH_OPEN_ECP_CONTEXT structure
@@ -47,25 +50,17 @@ req.typenames: PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
 
 ## -description
 
-
-The PREFETCH_OPEN_ECP_CONTEXT structure communicates whether the prefetcher performs a given open request on a file. 
-
+The PREFETCH_OPEN_ECP_CONTEXT structure communicates whether the prefetcher performs a given open request on a file.
 
 ## -struct-fields
 
-
-
-
 ### -field Context
 
-A pointer to an opaque context that is associated with the open request. 
-
+A pointer to an opaque context that is associated with the open request.
 
 ## -remarks
 
-
-
-The prefetcher is a component of the operating system that is tightly integrated with the cache manager and the memory manager to make disk accesses more efficient and therefore improve performance. If other components interfere with the prefetcher, system performance decreases and might deadlock. Therefore, the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file to communicate that the prefetcher has performed an open request on the file. The prefetcher uses the GUID_ECP_PREFETCH_OPEN GUID in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine to attach the PREFETCH_OPEN_ECP_CONTEXT structure. A file system filter driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfindextracreateparameter">FltFindExtraCreateParameter</a> routine to determine whether PREFETCH_OPEN_ECP_CONTEXT is attached to the file and then take appropriate action. The file system filter driver should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisecpfromusermode">FltIsEcpFromUserMode</a> routine to determine whether the PREFETCH_OPEN_ECP_CONTEXT context structure originated from kernel mode. To prevent malicious applications from spoofing the prefetcher, the file system filter driver should not accept PREFETCH_OPEN_ECP_CONTEXT if it originated from user mode.
+The prefetcher is a component of the operating system that is tightly integrated with the cache manager and the memory manager to make disk accesses more efficient and therefore improve performance. If other components interfere with the prefetcher, system performance decreases and might deadlock. Therefore, the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file to communicate that the prefetcher has performed an open request on the file. The prefetcher uses the GUID_ECP_PREFETCH_OPEN GUID in a call to the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a> or <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine to attach the PREFETCH_OPEN_ECP_CONTEXT structure. A file system filter driver can call the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfindextracreateparameter">FltFindExtraCreateParameter</a> routine to determine whether PREFETCH_OPEN_ECP_CONTEXT is attached to the file and then take appropriate action. The file system filter driver should call the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisecpfromusermode">FltIsEcpFromUserMode</a> routine to determine whether the PREFETCH_OPEN_ECP_CONTEXT context structure originated from kernel mode. To prevent malicious applications from spoofing the prefetcher, the file system filter driver should not accept PREFETCH_OPEN_ECP_CONTEXT if it originated from user mode.
 
 After the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file, all additional prefetcher activity for the file involves the file object that has PREFETCH_OPEN_ECP_CONTEXT attached. If a file system filter driver must identify prefetcher file system requests other than create requests, the file system filter driver should maintain its own state (for example, filter manager handle contexts). The file system filter driver maintains its own state in order to determine whether a particular file object is a prefetcher file object.
 
@@ -115,9 +110,6 @@ Pass prefetcher operations through without issuing other file system requests.
 </ul>
 For any application or driver to access any of the data that is being prefetched, it must open its own handle to the file or create a section or both.
 
-For information about how to use ECPs to associate additional information with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> operation on a file, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
+For information about how to use ECPs to associate additional information with an <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> operation on a file, see <a href="/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
 
-The PREFETCH_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about a prefetcher open ECP only. For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
-
-
-
+The PREFETCH_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about a prefetcher open ECP only. For more information about this issue, see <a href="/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.

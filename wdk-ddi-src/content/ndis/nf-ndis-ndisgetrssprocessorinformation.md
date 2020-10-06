@@ -8,8 +8,6 @@ ms.assetid: 0da022d5-7294-4780-bab8-119ff6385abf
 ms.date: 05/02/2018
 keywords: ["NdisGetRssProcessorInformation function"]
 ms.keywords: NdisGetRssProcessorInformation, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, netvista.ndisgetrssprocessorinformation
-f1_keywords:
- - "ndis/NdisGetRssProcessorInformation"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetRssProcessorInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetRssProcessorInformation
+ - ndis/NdisGetRssProcessorInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetRssProcessorInformation
 ---
 
 # NdisGetRssProcessorInformation function
@@ -48,52 +47,44 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisGetRssProcessorInformation</b> function retrieves information about the set of processors that a
   miniport driver must use for receive side scaling (RSS).
 
-
 ## -parameters
 
+### -param NdisHandle 
 
-
-
-### -param NdisHandle [in]
-
+[in]
 An NDIS instance handle that was obtained during caller initialization. NDIS drivers can use the
      handles from the following functions:
      
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
+### -param RssProcessorInfo 
 
-
-### -param RssProcessorInfo [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer where NDIS puts the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a> structure
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a> structure
      and an array of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that
      contain information about the RSS processor set. The caller provides the length of the buffer in the 
      <i>Size</i> parameter.
 
+### -param Size 
 
-### -param Size [in, out]
-
+[in, out]
 A pointer to a value that is the size, in bytes, of the buffer that the caller provided. When the
      function returns, this member contains either the amount of data that NDIS put in the buffer or the
      required size of the buffer if the buffer was too short.
 
-
 ## -returns
-
-
 
 <b>NdisGetRssProcessorInformation</b> can return one of the following status values:
 
@@ -127,14 +118,8 @@ The size that was specified in
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisGetRssProcessorInformation</b> function to retrieve information about the receive side scaling
@@ -142,39 +127,29 @@ NDIS drivers call the
 
 RSS-capable miniport drivers that support MSI-X call 
     <b>NdisGetRssProcessorInformation</b> in their 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
     MiniportFilterResourceRequirements</a> function. Miniport drivers set the interrupt affinity of the
     allocated MSI-X messages to the RSS processors that are specified in the 
     <b>RssProcessors</b> member of the 
     <i>RssProcessorInfo</i> parameter.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
    MiniportFilterResourceRequirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>

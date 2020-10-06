@@ -8,8 +8,6 @@ ms.assetid: 2526E8BD-316F-4B8D-9CC4-66F4E3B7D708
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
-f1_keywords:
- - "fwpsk/vSwitchFilterEngineReorderNotifyRn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fwpsk.h
-api_name:
-- vSwitchFilterEngineReorderNotifyRn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0
+ - fwpsk/FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fwpsk.h
+api_name:
+ - vSwitchFilterEngineReorderNotifyRn
 ---
 
 # FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function
@@ -47,42 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls the  <i>vSwitchFilterEngineReorderNotifyRn</i> (<i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</i>) callout function to notify the callout driver about events that are associated the virtual switch  filter engine reordering.
 
-<div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK</i>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+<div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK</i>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 
 ## -parameters
 
+### -param notifyContext 
 
-
-
-### -param notifyContext [in, optional]
-
-A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+[in, optional]
+A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
+### -param completionContext 
 
-### -param completionContext [in]
-
+[in]
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
+### -param isInRequiredPosition 
 
-
-
-### -param isInRequiredPosition [in]
-
+[in]
 A BOOLEAN value that is set to TRUE if the filter is in the required position in the filter stack or FALSE if it is not.
 
+### -param vSwitchExtensionLwfList 
 
-### -param vSwitchExtensionLwfList [in]
-
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
-
+[in]
+An <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
 
 ## -returns
-
-
 
 A callout's 
   
@@ -116,19 +107,13 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver registers a 
   
   <i>vSwitchFilterEngineReorderNotifyRn</i> function  by calling      
-    the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+    the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function.
 
 By default, the WFP virtual switch extension is positioned as the first filtering extension at virtual switch ingress. (Therefore, it is also the last extension at virtual switch egress). This is usually the best position, because the WFP extension can intercept packets before any other extensions can modify them at ingress. Also, the WFP extension can intercept packets after all packet modifications are done at egress.
@@ -137,50 +122,40 @@ By default, the WFP virtual switch extension is positioned as the first filterin
 
 However, because an administrator can reorder any virtual switch extensions of the same class, the WFP extension can be reordered out of the default position. After a reorder occurs, a WFP client’s filters could be bypassed and might need to be adjusted.
 
-If the <i>vSwitchFilterEngineReorderNotifyRn</i> callback is registered, the callout driver is notified when a virtual switch reorder is occurring. The callout driver receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure with an ordered list of current virtual switch extensions in the <i>vSwitchExtensionLwfList</i> parameter.
+If the <i>vSwitchFilterEngineReorderNotifyRn</i> callback is registered, the callout driver is notified when a virtual switch reorder is occurring. The callout driver receives an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure with an ordered list of current virtual switch extensions in the <i>vSwitchExtensionLwfList</i> parameter.
 
-If the virtual switch extensions are reordered, the WFP extension is  paused (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>) and restarted (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>). From the WFP filter <i>FilterRestart</i> call, the WFP filter driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a> function to obtain an ordered list of virtual switch extension filters.  If the WFP extension is not in the default position, then the filter driver notifies the callout drivers.
+If the virtual switch extensions are reordered, the WFP extension is  paused (see <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>) and restarted (see <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>). From the WFP filter <i>FilterRestart</i> call, the WFP filter driver calls the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a> function to obtain an ordered list of virtual switch extension filters.  If the WFP extension is not in the default position, then the filter driver notifies the callout drivers.
 
 A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorderNotifyRn</i>.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartcomplete">NdisFRestartComplete</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartcomplete">NdisFRestartComplete</a>

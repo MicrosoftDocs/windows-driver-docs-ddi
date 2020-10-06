@@ -8,8 +8,6 @@ ms.assetid: 190adc75-7274-49e2-a9b6-2897168df091
 ms.date: 05/10/2018
 keywords: ["PDRIVER_IO_PORT_ULONG_STRING callback function"]
 ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, PDRIVER_IO_PORT_ULONG_STRING callback, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
-f1_keywords:
- - "video/SvgaHwIoPortUlongString"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- SvgaHwIoPortUlongString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDRIVER_IO_PORT_ULONG_STRING
+ - video/PDRIVER_IO_PORT_ULONG_STRING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - SvgaHwIoPortUlongString
 ---
 
 # PDRIVER_IO_PORT_ULONG_STRING callback function
@@ -47,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 <i>SvgaHwIoPortUlongString</i> traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of ULONG-sized data.
 
-
 ## -parameters
-
-
-
 
 ### -param Context
 
 Specifies the miniport driver-determined context value that was set in the <b>EmulatorAccessEntriesContext</b> member of VIDEO_PORT_CONFIG_INFO.
 
-
 ### -param Port
 
 Specifies the mapped I/O port to be trapped.
-
 
 ### -param AccessMode
 
@@ -76,32 +68,21 @@ Specifies the type of access allowed, which can be one or a combination (ORed) o
 <dt>EMULATOR_WRITE_ACCESS</dt>
 </dl>
 
-
-
 ### -param Data
 
 Pointer to the ULONG data string to be transferred. The string is hooked out one value at a time until it is all used.
-
 
 ### -param DataLength
 
 Specifies the number of ULONG values in the string.
 
-
 ## -returns
-
-
 
 <i>SvgaHwIoPortUlongString</i> returns the final status of the operation.
 
-
-
-
 ## -remarks
 
-
-
-Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SVGA Functions</a>.)
+Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="/windows-hardware/drivers/ddi/index">SVGA Functions</a>.)
 
 <i>SvgaHwIoPortUlongString</i> intercepts any range access attempted by a full-screen MS-DOS application issuing either or both of the instructions <b>REP OUTSD DX, ESI</b> and <b>REP INSD EDI, DX</b>.
 
@@ -113,40 +94,30 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 <i>SvgaHwIoPortUlongString</i> should be made pageable.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_emulator_access_entry">EMULATOR_ACCESS_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_emulator_access_entry">EMULATOR_ACCESS_ENTRY</a>
+<a href="/windows-hardware/drivers/ddi/index">SVGA Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SVGA Functions</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pdriver_io_port_ulong">SvgaHwIoPortUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pdriver_io_port_ulong">SvgaHwIoPortUlong</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>

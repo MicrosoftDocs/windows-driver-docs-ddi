@@ -1,43 +1,43 @@
 ---
 UID: NE:dispmprt._DXGK_DIAGNOSTICINFO_TYPE
 title: DXGK_DIAGNOSTICINFO_TYPE
-author: windows-driver-content
 description: Indicates the type of information the driver needs to collect.
 tech.root: display
 ms.assetid: 5f03ca69-7923-4245-89b4-7300d3ba50ab
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 keywords: ["DXGK_DIAGNOSTICINFO_TYPE enumeration"]
-f1_keywords:
- - "dispmprt/DXGK_DIAGNOSTICINFO_TYPE"
-ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE, 
+ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTICINFO_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - DXGK_DIAGNOSTICINFO_TYPE
-product:
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_DIAGNOSTICINFO_TYPE
+ - dispmprt/_DXGK_DIAGNOSTICINFO_TYPE
+ - DXGK_DIAGNOSTICINFO_TYPE
+ - dispmprt/DXGK_DIAGNOSTICINFO_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_DIAGNOSTICINFO_TYPE
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DXGK_DIAGNOSTICINFO_TYPE enumeration
+
 
 ## -description
 
@@ -68,3 +68,4 @@ Collect black box data for black screen scenarios in calls to [**DxgkDdiGetDispl
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)
+

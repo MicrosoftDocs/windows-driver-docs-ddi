@@ -6,10 +6,8 @@ old-location: storage\setfc3mgmtinfo_out.htm
 tech.root: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.date: 03/29/2018
-keywords: ["_SetFC3MgmtInfo_OUT structure"]
+keywords: ["SetFC3MgmtInfo_OUT structure"]
 ms.keywords: "*PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], _SetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, hbapiwmi/SetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml"
-f1_keywords:
- - "hbapiwmi/SetFC3MgmtInfo_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- SetFC3MgmtInfo_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT
+f1_keywords:
+ - _SetFC3MgmtInfo_OUT
+ - hbapiwmi/_SetFC3MgmtInfo_OUT
+ - PSetFC3MgmtInfo_OUT
+ - hbapiwmi/PSetFC3MgmtInfo_OUT
+ - SetFC3MgmtInfo_OUT
+ - hbapiwmi/SetFC3MgmtInfo_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - SetFC3MgmtInfo_OUT
 ---
 
 # _SetFC3MgmtInfo_OUT structure
@@ -47,36 +50,18 @@ req.typenames: SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT
 
 ## -description
 
-
-The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a> WMI method to the WMI client.
-
+The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a> WMI method to the WMI client.
 
 ## -struct-fields
 
-
-
-
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
-
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ## -remarks
 
-
-
-The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
-
-
-
+The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a>

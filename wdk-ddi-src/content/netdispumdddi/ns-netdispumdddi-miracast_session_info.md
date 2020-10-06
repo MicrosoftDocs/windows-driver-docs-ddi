@@ -8,8 +8,6 @@ ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.date: 05/10/2018
 keywords: ["MIRACAST_SESSION_INFO structure"]
 ms.keywords: MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO
-f1_keywords:
- - "netdispumdddi/MIRACAST_SESSION_INFO"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_SESSION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_SESSION_INFO
+f1_keywords:
+ - MIRACAST_SESSION_INFO
+ - netdispumdddi/MIRACAST_SESSION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_SESSION_INFO
 ---
 
 # MIRACAST_SESSION_INFO structure
@@ -47,29 +46,21 @@ req.typenames: MIRACAST_SESSION_INFO
 
 ## -description
 
-
 Contains info on a wireless display (Miracast) connected session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MonitorConnected
 
 If set, the monitor (the source) is connected to a Miracast sink.
 
-
 ### -field ReducedModeListDueToBandwidth
 
 If set, the user-mode driver has reduced the modes exposed to the operating system based on the current suggested encode rate.
 
-
 ### -field Reserved
 
 Reserved for system use and should be set to zero.
-
 
 ### -field Value
 

@@ -6,10 +6,8 @@ old-location: ieee\irb_req_get_local_host_information.htm
 tech.root: IEEE
 ms.assetid: 172579A1-9B81-42C7-BAC9-C977C69E7E45
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_GET_LOCAL_HOST_INFORMATION structure"]
+keywords: ["IRB_REQ_GET_LOCAL_HOST_INFORMATION structure"]
 ms.keywords: 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, IEEE.irb_req_get_local_host_information, IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses], _IRB_REQ_GET_LOCAL_HOST_INFORMATION
-f1_keywords:
- - "1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_GET_LOCAL_HOST_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_LOCAL_HOST_INFORMATION
+f1_keywords:
+ - _IRB_REQ_GET_LOCAL_HOST_INFORMATION
+ - 1394/_IRB_REQ_GET_LOCAL_HOST_INFORMATION
+ - IRB_REQ_GET_LOCAL_HOST_INFORMATION
+ - 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_GET_LOCAL_HOST_INFORMATION
 ---
 
 # _IRB_REQ_GET_LOCAL_HOST_INFORMATION structure
@@ -47,14 +48,9 @@ req.typenames: IRB_REQ_GET_LOCAL_HOST_INFORMATION
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 bus driver to carry out a GetLocalHostInformation request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nLevel
 
@@ -148,8 +144,6 @@ Requests the port driver to return the host controller's capability flags and th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Information
 
@@ -167,7 +161,7 @@ GET_HOST_UNIQUE_ID
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info1">GET_LOCAL_HOST_INFO1</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info1">GET_LOCAL_HOST_INFO1</a>
 
 
 </td>
@@ -179,7 +173,7 @@ GET_HOST_CAPABILITIES
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
 
 
 </td>
@@ -191,7 +185,7 @@ GET_POWER_SUPPLIED
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info3">GET_LOCAL_HOST_INFO3</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info3">GET_LOCAL_HOST_INFO3</a>
 
 
 </td>
@@ -203,7 +197,7 @@ GET_PHYS_ADDR_ROUTINE
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info4">GET_LOCAL_HOST_INFO4</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info4">GET_LOCAL_HOST_INFO4</a>
 
 
 </td>
@@ -215,7 +209,7 @@ GET_HOST_CONFIG_ROM
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info5">GET_LOCAL_HOST_INFO5</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info5">GET_LOCAL_HOST_INFO5</a>
 
 
 </td>
@@ -227,7 +221,7 @@ GET_HOST_CSR_CONTENTS
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
 
 
 </td>
@@ -239,7 +233,7 @@ GET_HOST_DMA_CAPABILITIES
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info7_w2k">GET_LOCAL_HOST_INFO7</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info7_w2k">GET_LOCAL_HOST_INFO7</a>
 
 
 </td>
@@ -251,11 +245,9 @@ GET_HOST_DDI_VERSION
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info8">GET_LOCAL_HOST_INFO8</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info8">GET_LOCAL_HOST_INFO8</a>
 
 
 </td>
 </tr>
 </table>
- 
-

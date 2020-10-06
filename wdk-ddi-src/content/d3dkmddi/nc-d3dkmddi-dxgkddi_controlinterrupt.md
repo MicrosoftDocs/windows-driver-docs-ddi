@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiControlInterrupt"
+ - DXGKDDI_CONTROLINTERRUPT
+ - d3dkmddi/DXGKDDI_CONTROLINTERRUPT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_CONTROLINTERRUPT callback function
 
+
 ## -description
 
 The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interrupt type on the graphics hardware.
@@ -52,11 +54,11 @@ The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interr
 
 ### -param hAdapter
 
-[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ### -param InterruptType
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>-type value that supplies the interrupt type.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>-type value that supplies the interrupt type.
 
 ### -param EnableInterrupt
 
@@ -73,7 +75,7 @@ The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interr
 
 ## -remarks
 
-The display miniport driver's <i>DxgkDdiControlInterrupt</i> function can enable or disable the specified interrupt type. However, <i>DxgkDdiControlInterrupt</i> is not required to disable the interrupt type if the driver requires the interrupt type for an internal purpose. A call to <i>DxgkDdiControlInterrupt</i> to enable the specified interrupt type indicates that the operating system requires that the driver call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a> function to report when the interrupt type is triggered on the graphics hardware.
+The display miniport driver's <i>DxgkDdiControlInterrupt</i> function can enable or disable the specified interrupt type. However, <i>DxgkDdiControlInterrupt</i> is not required to disable the interrupt type if the driver requires the interrupt type for an internal purpose. A call to <i>DxgkDdiControlInterrupt</i> to enable the specified interrupt type indicates that the operating system requires that the driver call the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a> function to report when the interrupt type is triggered on the graphics hardware.
 
 Currently, the Microsoft DirectX graphics kernel subsystem specifies only the DXGK_INTERRUPT_CRTC_VSYNC interrupt type in the <i>InterruptType</i> parameter. A call to <i>DxgkDdiControlInterrupt</i> to enable the DXGK_INTERRUPT_CRTC_VSYNC interrupt type indicates for the driver to control vertical retrace interrupt. During every vertical retrace period and immediately after the primary surface address specified in the DAC register is latched and scanned out, the interrupt should be triggered and reported. 
 
@@ -83,13 +85,12 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>

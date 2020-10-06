@@ -8,8 +8,6 @@ ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.date: 04/23/2018
 keywords: ["KsProbeStreamIrp function"]
 ms.keywords: KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp
-f1_keywords:
- - "ks/KsProbeStreamIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsProbeStreamIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsProbeStreamIrp
+ - ks/KsProbeStreamIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsProbeStreamIrp
 ---
 
 # KsProbeStreamIrp function
@@ -48,49 +47,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsProbeStreamIrp</b> function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header. This is useful when localizing exception handling or performing asynchronous work on an IRP. The resulting IRP is in essentially the METHOD_OUT_DIRECT or METHOD_IN_DIRECT format, with the exception that the access to the data buffer may be <b>IoModifyAccess</b>, depending on the flags passed to this function or the flags in the stream header. 
-
+The <b>KsProbeStreamIrp</b> function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header. This is useful when localizing exception handling or performing asynchronous work on an IRP. The resulting IRP is in essentially the METHOD_OUT_DIRECT or METHOD_IN_DIRECT format, with the exception that the access to the data buffer may be <b>IoModifyAccess</b>, depending on the flags passed to this function or the flags in the stream header.
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, out]
-
+[in, out]
 Specifies the IRP whose input and output buffers are to be mapped. The requester mode of the IRP is used when probing the buffers.
 
+### -param ProbeFlags 
 
-### -param ProbeFlags [in]
-
+[in]
 Specifies flags specifying how to probe the streaming IRP; the flags are listed in the following table.
 
-
 ### -param OPTIONAL
-
-
-
-
-
 
 #### - HeaderSize [in, optional]
 
 Specifies the size to validate each header against passed to this client, or zero if no validation is to be done. If used, it is assumed that the entire buffer passed is a multiple of this header size, unless the buffer instead contains a single format change header.
 
-
 ## -returns
-
-
 
 The <b>KsProbeStreamIrp</b> function returns STATUS_SUCCESS if successful, or it returns a memory or access error.
 
-
-
-
 ## -remarks
-
-
 
 If the function is used only to allocate MDL's and not to probe and lock the addresses, the caller must have a completion routine to clean up the MDL's. For instance, a just-in-time locking mechanism can allocate the MDL list but only lock memory as needed. The client must provide cleanup code to remove the partially locked MDL list before the IRP is completed, presumably in a completion routine.
 
@@ -164,7 +145,4 @@ For a Stream Write, allows the KSSTREAM_HEADER_OPTIONSF_TYPECHANGED flag to be s
 </td>
 </tr>
 </table>
- 
-
-
 

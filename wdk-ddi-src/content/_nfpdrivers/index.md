@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Near field communications (NFC)
@@ -21,14 +19,12 @@ Overview of the Near field communications (NFC) technology.
 To develop Near field communications (NFC), you need these headers:
 
  * [nfccx.h](../nfccx/index.md)
- * [nfccxbugcodes.h](../nfccxbugcodes/index.md)
- * [nfccxfuncenum.h](../nfccxfuncenum/index.md)
  * [nfcradiodev.h](../nfcradiodev/index.md)
  * [nfcsedev.h](../nfcsedev/index.md)
  * [nfpdev.h](../nfpdev/index.md)
  * [winsmcrd.h](../winsmcrd/index.md)
 
-For the programming guide, see [Near field communications (NFC)](https://docs.microsoft.com/windows-hardware/drivers/nfc).
+For the programming guide, see [Near field communications (NFC)](/windows-hardware/drivers/nfc).
 
 ## Functions
 

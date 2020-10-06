@@ -6,10 +6,8 @@ old-location: netvista\tcp_offload_state_delegated.htm
 tech.root: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.date: 05/02/2018
-keywords: ["_TCP_OFFLOAD_STATE_DELEGATED structure"]
+keywords: ["TCP_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
-f1_keywords:
- - "ndischimney/TCP_OFFLOAD_STATE_DELEGATED"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- TCP_OFFLOAD_STATE_DELEGATED
-product:
-- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED
+f1_keywords:
+ - _TCP_OFFLOAD_STATE_DELEGATED
+ - ndischimney/_TCP_OFFLOAD_STATE_DELEGATED
+ - PTCP_OFFLOAD_STATE_DELEGATED
+ - ndischimney/PTCP_OFFLOAD_STATE_DELEGATED
+ - TCP_OFFLOAD_STATE_DELEGATED
+ - ndischimney/TCP_OFFLOAD_STATE_DELEGATED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - TCP_OFFLOAD_STATE_DELEGATED
 ---
 
 # _TCP_OFFLOAD_STATE_DELEGATED structure
@@ -47,28 +50,22 @@ req.typenames: TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The TCP_OFFLOAD_STATE_DELEGATED structure contains the delegated variables of a TCP connection state
   object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
      sets the 
      <b>Length</b> member of 
      <b>Header</b> to the size, in bytes, of the TCP_OFFLOAD_STATE_DELEGATED structure. The 
      <b>RecognizedOptions</b> member of 
      <b>Header</b> is reserved.
-
 
 ### -field State
 
@@ -160,115 +157,93 @@ Waiting for enough time to pass to ensure that the remote TCP received the ackno
      <b>TcpConnectionTimeWait</b> state. The host stack can query, update, invalidate, or terminate a TCP
      connection regardless of the connection state.
 
-
 ### -field Flags
 
 Reserved for system use.
-
 
 ### -field RcvNxt
 
 The sequence number for the next receive segment (see RCV.NEXT in RFC 793).
 
-
 ### -field RcvWnd
 
 The receive window size, in bytes (see RCV.WND in RFC 793).
 
-
 ### -field SndUna
 
-The sequence number for the first byte of unacknowledged data (see SND.UNA in RFC 793). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
-
+The sequence number for the first byte of unacknowledged data (see SND.UNA in RFC 793). For more information, see <a href="/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
 
 ### -field SndNxt
 
-The sequence number for the next byte to send on the connection (see SND.NXT in RFC 793). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
-
+The sequence number for the next byte to send on the connection (see SND.NXT in RFC 793). For more information, see <a href="/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
 
 ### -field SndMax
 
-The maximum sequence number that has been sent on the connection. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
-
+The maximum sequence number that has been sent on the connection. For more information, see <a href="/windows-hardware/drivers/network/send-data-that-contains-data-to-be-retransmitted">Send Data That Contains Data to Be Retransmitted</a>.
 
 ### -field SndWnd
 
 The send window size, in bytes (see SND.WND in RFC 793).
 
-
 ### -field MaxSndWnd
 
 The maximum send window size, in bytes (see RFC 813).
-
 
 ### -field SendWL1
 
 The segment sequence number used for the last window update (see SND.WL1 in RFC 793).
 
-
 ### -field CWnd
 
 The congestion window size, in bytes (see cwnd in RFC 2581).
 
-
 ### -field SsThresh
 
 The slow start threshold, in bytes (see ssthresh in RFC 2581).
-
 
 ### -field SRtt
 
 The smoothed round-trip time, in clock ticks (see SRTT in RFCs 793 and 2988). Maintained on a per
      connection basis because it takes into account path, host, and sometimes application behavior.
 
-
 ### -field RttVar
 
 The round trip time variation, in clock ticks (see RTTVAR in RFC 2988).
 
-
 ### -field TsRecent
 
 The timestamp value to send in the next ACK (see TS.Recent in RFC 1323)
-
 
 ### -field TsRecentAge
 
 The length of time, in clock ticks, since the most recent timestamp was received (see RFC
      1323).
 
-
 ### -field TsTime
 
 The current value of the adjusted timestamp.
-
 
 ### -field TotalRT
 
 The total time, in clock ticks, that has been spent retransmitting the current TCP segment.
 
-
 ### -field DupAckCount
 
 The number of ACKs that have been accepted for the same sequence number (see RFC 1323).
 
-
 ### -field SndWndProbeCount
 
 The current send window probe round. For a description of the send window probe round, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/persist-timer">Persist Timer</a>.
-
+     <a href="/windows-hardware/drivers/network/persist-timer">Persist Timer</a>.
 
 ### -field KeepAlive
 
 This member is a union that consists of the following members:
 
-
 ### -field KeepAlive.ProbeCount
 
 The number of keepalive probes that have been sent that have not received a response (see RFC
       1122).
-
 
 ### -field KeepAlive.TimeoutDelta
 
@@ -278,16 +253,13 @@ The time remaining, in clock ticks, until the next keepalive timeout (see RFC 11
       the offload target should return -1 in this member when responding to a call to the
       MiniportQueryOffload function or the MiniportTerminateOffload function.
 
-
 ### -field Retransmit
 
 This member is a union that consists of the following members:
 
-
 ### -field Retransmit.Count
 
 The number of retransmits that have been sent (see RFC 2581).
-
 
 ### -field Retransmit.TimeoutDelta
 
@@ -298,14 +270,13 @@ The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2
       retransmit timer is not running, the offload target should return -1 in this member when responding to
       a call to the MiniportQueryOffload function or the MiniportTerminateOffload function.
 
-
 ### -field SendDataHead
 
 A pointer to a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This
        NET_BUFFER_LIST structure is in the linked list that is pointed to by the 
        <b>NetBufferListChain</b> member of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that immediately precedes the
        TCP_OFFLOAD_STATE_DELEGATED structure. If the 
        <b>NetBufferListChain</b> pointer is <b>NULL</b>, 
@@ -318,14 +289,13 @@ The
 
 This variable is used only in an initiate offload or terminate offload operation. For more
        information about how this variable is used, see 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
-
+       <a href="/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
+       <a href="/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
 
 ### -field SendDataTail
 
 A pointer to a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This
        NET_BUFFER_LIST structure is in the linked list that is pointed to by the NetBufferListChain member of
        the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that immediately precedes the
        TCP_OFFLOAD_STATE_DELEGATED structure. If the NetBufferListChain pointer is <b>NULL</b>, SendDataTail is not
@@ -337,12 +307,10 @@ The SendDataTail pointer points to the last NET_BUFFER_LIST structure whose NET_
 
 This variable is used only in an initiate offload or terminate offload operation. For more
        information about how this variable is used, see 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
+       <a href="/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
        Operation</a> and 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
+       <a href="/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
        Operation</a>
-
-
 
 ### -field SendBacklogSize
 
@@ -358,7 +326,7 @@ The offload target specifies this value to indicate the number of data bytes tha
 
 The host stack can query the TCP delegated state for the connection to obtain the send backlog
        size. In addition, the offload target can indicate a change in the send backlog size by calling the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">
        NdisTcpOffloadEventHandler</a> function.
 
 If the offload target does not support the send-backlog-size feature, it must write a value of
@@ -366,16 +334,14 @@ If the offload target does not support the send-backlog-size feature, it must wr
        <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
        <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
 
-
 ### -field BufferedData
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
       offloading a TCP connection. (For more information, see 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
+      <a href="/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
       offload target can pass such data to the host stack when uploading a TCP connection. (For more
       information, see 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
-
+      <a href="/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
 
 ### -field ReceiveBacklogSize
 
@@ -389,17 +355,9 @@ If the offload target does not support the receive backlog size feature, it shou
       0xFFFFFFFF to 
       <b>ReceiveBacklogSize</b> .
 
-
 ### -field DWnd
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The host stack provides initial values for the TCP delegated variables when it offloads these
     variables to the offload target. After it is offloaded, the TCP delegated variables are owned and
@@ -407,50 +365,40 @@ The host stack provides initial values for the TCP delegated variables when it o
     delegated variable. The offload target does not notify the host stack of changes to the values of
     offloaded TCP delegated variables. However, the host stack can query the value of offloaded TCP delegated
     variables, which causes NDIS to call the offload target's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a> function.
     When the host stack terminates the offload of the TCP connection state object by causing NDIS to call the
     offload target's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">
     MiniportTerminateOffload</a> function, the offload target passes the value of the TCP delegated
     variables in the terminated TCP connection state object back to the host stack.
 
 When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is associated with an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
     Revision member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of the
     TCP_OFFLOAD_STATE_DELEGATED structure.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>

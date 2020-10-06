@@ -8,8 +8,6 @@ ms.assetid: 8c1f6cd3-f54b-4104-bd14-63d2c284946c
 ms.date: 04/30/2018
 keywords: ["RtlConvertLongToLargeInteger function"]
 ms.keywords: RtlConvertLongToLargeInteger, RtlConvertLongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_f56a300b-e5d3-4f08-8d38-f124f73ada9f.xml, kernel.rtlconvertlongtolargeinteger, wdm/RtlConvertLongToLargeInteger
-f1_keywords:
- - "wdm/RtlConvertLongToLargeInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlConvertLongToLargeInteger
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlConvertLongToLargeInteger
+ - wdm/RtlConvertLongToLargeInteger
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlConvertLongToLargeInteger
 ---
 
 # RtlConvertLongToLargeInteger function
@@ -47,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlConvertLongToLargeInteger</b> routine converts the input signed integer to a signed large integer.
-
 
 ## -parameters
 
+### -param SignedInteger 
 
-
-
-### -param SignedInteger [in]
-
+[in]
 Specifies an integer of type LONG.
-
 
 ## -returns
 
-
-
 <b>RtlConvertLongToLargeInteger</b> returns the large integer result.
-
-
-
 
 ## -remarks
 
-
-
-This routine is not supported in Windows XP. Use native support for <b>__int64</b> instead. 
-
-
+This routine is not supported in Windows XP. Use native support for <b>__int64</b> instead.
 

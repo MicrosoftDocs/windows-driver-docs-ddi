@@ -8,8 +8,6 @@ ms.assetid: B74F44E4-AD7A-46EE-81B0-E2BD2FB79A5B
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_START_ADAPTER_OPERATION callback function"]
 ms.keywords: "(*MINIPORT_WDI_START_OPERATION_HANDLER), (*MINIPORT_WDI_START_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_START_ADAPTER_OPERATION, MINIPORT_WDI_START_ADAPTER_OPERATION callback, MiniportWdiStartAdapterOperation, MiniportWdiStartAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStartAdapterOperation, netvista.miniportwdistartoperation"
-f1_keywords:
- - "dot11wdi/(*MINIPORT_WDI_START_OPERATION_HANDLER)"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- (*MINIPORT_WDI_START_OPERATION_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_START_ADAPTER_OPERATION
+ - dot11wdi/MINIPORT_WDI_START_ADAPTER_OPERATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - (*MINIPORT_WDI_START_OPERATION_HANDLER)
 ---
 
 # MINIPORT_WDI_START_ADAPTER_OPERATION callback function
@@ -47,26 +46,20 @@ req.typenames:
 
 ## -description
 
+The MiniportWdiStartAdapterOperation handler function can be used by the IHV driver to perform any additional <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> tasks. The IHV miniport can also use it as a hint that the Microsoft component has finished initializing the miniport and the miniport can start any needed background activities.
 
-The MiniportWdiStartAdapterOperation handler function can be used by the IHV driver to perform any additional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> tasks. The IHV miniport can also use it as a hint that the Microsoft component has finished initializing the miniport and the miniport can start any needed background activities.
-
-This is an optional WDI miniport handler inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
+This is an optional WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_START_ADAPTER_OPERATION</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to the context area that the miniport driver allocated.
 
-
 ## -returns
-
-
 
 MiniportWdiStartAdapterOperation can return any of the following return values.
 
@@ -98,22 +91,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>

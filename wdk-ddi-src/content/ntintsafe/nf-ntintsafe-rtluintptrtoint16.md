@@ -8,8 +8,6 @@ ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
 ms.date: 04/30/2018
 keywords: ["RtlUIntPtrToInt16 function"]
 ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
-f1_keywords:
- - "ntintsafe/RtlUIntPtrToInt16"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUIntPtrToInt16
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUIntPtrToInt16
+ - ntintsafe/RtlUIntPtrToInt16
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUIntPtrToInt16
 ---
 
 # RtlUIntPtrToInt16 function
@@ -47,30 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>UINT_PTR</b> to a value of type <b>INT16</b>.
-
 
 ## -parameters
 
+### -param uOperand 
 
-
-
-### -param uOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pi16Result 
 
-### -param pi16Result [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

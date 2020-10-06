@@ -8,8 +8,6 @@ ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
 ms.date: 02/13/2020
 keywords: ["FltCreateFile function"]
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
-f1_keywords:
- - "fltkernel/FltCreateFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateFile
+ - fltkernel/FltCreateFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltCreateFile
 ---
 
 # FltCreateFile function
@@ -51,65 +50,65 @@ Minifilter drivers call **FltCreateFile** to create a new file or open an existi
 
 ## -parameters
 
-### -param Filter [in]
+### -param Filter
 
-An opaque filter pointer for the caller.
+[in] An opaque filter pointer for the caller.
 
-### -param Instance [in, optional]
+### -param Instance
 
-An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
+[in, optional] An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
 
-### -param FileHandle [out]
+### -param FileHandle
 
-A pointer to a caller-allocated variable that receives the file handle if the call to **FltCreateFile** is successful.
+[out] A pointer to a caller-allocated variable that receives the file handle if the call to **FltCreateFile** is successful.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess
 
-A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#desiredaccess) for more information about this parameter and for the list of flag values.
+[in] A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter and for the list of flag values.
 
-### -param ObjectAttributes [in]
+### -param ObjectAttributes
 
-Pointer to an opaque [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#objectattributes) for more information and for a description of each structure member.
+[in] Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information and for a description of each structure member.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock
 
-Pointer to an [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#iostatusblock) for more information about this parameter.
+[out] Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter.
 
-### -param AllocationSize [in, optional]
+### -param AllocationSize
 
-Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
+[in, optional] Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes [in]
+### -param FileAttributes
 
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. See the *FileAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#fileattributes) for more details and for the list of flags.
+[in] Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. See the *FileAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
-### -param ShareAccess [in]
+### -param ShareAccess
 
-Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#shareaccess) for more details and for the list of flags.
+[in] Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
-### -param CreateDisposition [in]
+### -param CreateDisposition
 
-Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#disposition) for the list of possible values.
+[in] Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible values.
 
-### -param CreateOptions [in]
+### -param CreateOptions
 
-Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#createoptions).
+[in] Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
-### -param EaBuffer [in, optional]
+### -param EaBuffer
 
-A pointer to a caller-supplied [FILE_FULL_EA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information)-structured buffer containing extended attribute (EA) information to be applied to the file.
+[in, optional] A pointer to a caller-supplied [FILE_FULL_EA_INFORMATION](../wdm/ns-wdm-_file_full_ea_information.md)-structured buffer containing extended attribute (EA) information to be applied to the file.
 
-### -param EaLength [in]
+### -param EaLength
 
-Length, in bytes, of *EaBuffer*.
+[in] Length, in bytes, of *EaBuffer*.
 
-### -param Flags [in]
+### -param Flags
 
-Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#options) for the list of possible options.
+[in] Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible options.
 
 ## -returns
 
-**FltCreateFile** returns STATUS_SUCCESS or an appropriate NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#returns) for a list of possible return codes.
+**FltCreateFile** returns STATUS_SUCCESS or an appropriate NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for a list of possible return codes.
 
 > [!NOTE]
 >
@@ -117,9 +116,9 @@ Specifies options to be used during the creation of the create request. See the 
 
 ## -remarks
 
-On versions of Windows earlier than Microsoft Windows Update Rollup for Windows 2000 SP4 and Windows Server 2003 SP1, minifilter drivers should call **FltCreateFile** instead of [**IoCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile), [**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint), or [**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) to obtain a file handle for use with **Zw***Xxx* I/O routines such as [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) and [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile).
+On versions of Windows earlier than Microsoft Windows Update Rollup for Windows 2000 SP4 and Windows Server 2003 SP1, minifilter drivers should call **FltCreateFile** instead of [**IoCreateFile**](../wdm/nf-wdm-iocreatefile.md), [**IoCreateFileSpecifyDeviceObjectHint**](../ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint.md), or [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) to obtain a file handle for use with **Zw***Xxx* I/O routines such as [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) and [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md).
 
-On Microsoft Windows Update Rollup for Windows 2000 SP4, Windows Server 2003 SP1 and later, minifilter drivers can use [**FltCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex) to obtain a file object pointer for use with **Flt*Xxx*File** routines such as [**FltReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreadfile) and [**FltWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltwritefile). On earlier versions of Windows, the handle obtained from **FltCreateFile** can be converted into a file object pointer by calling [**ObReferenceObjectByHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle) as follows:
+On Microsoft Windows Update Rollup for Windows 2000 SP4, Windows Server 2003 SP1 and later, minifilter drivers can use [**FltCreateFileEx**](./nf-fltkernel-fltcreatefileex.md) to obtain a file object pointer for use with **Flt*Xxx*File** routines such as [**FltReadFile**](./nf-fltkernel-fltreadfile.md) and [**FltWriteFile**](./nf-fltkernel-fltwritefile.md). On earlier versions of Windows, the handle obtained from **FltCreateFile** can be converted into a file object pointer by calling [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md) as follows:
 
 ```NTSTATUS status;
 status = ObReferenceObjectByHandle(
@@ -138,7 +137,7 @@ There are two alternate ways to specify the name of the file to be created or op
 * As a fully qualified pathname, supplied in the **ObjectName** member of the input *ObjectAttributes*.
 * As a pathname relative to the directory file represented by the handle in the **RootDirectory** member of the input *ObjectAttributes*.
 
-Any handle that is obtained from **FltCreateFile** must eventually be released by calling [**FltClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclose).
+Any handle that is obtained from **FltCreateFile** must eventually be released by calling [**FltClose**](./nf-fltkernel-fltclose.md).
 
 Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **FltCreateFile**. Setting this attribute restricts the use of the handle that is returned by **FltCreateFile** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
@@ -157,12 +156,12 @@ Certain *DesiredAccess* flags and combinations of flags have the following effec
 
 The *ShareAccess* parameter determines whether separate threads can access the same file, possibly simultaneously. If both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of **FltCreateFile** does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file because the original caller is given exclusive access to the file.
 
-For a shared file to be successfully opened, the requested *DesiredAccess* to the file must be compatible with both the *DesiredAccess* and *ShareAccess* specifications of all preceding opens that have not yet been released with [FltClose](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclose). That is, the *DesiredAccess* specified to **FltCreateFile** for a given file must not conflict with the accesses that other openers of the file have disallowed.
+For a shared file to be successfully opened, the requested *DesiredAccess* to the file must be compatible with both the *DesiredAccess* and *ShareAccess* specifications of all preceding opens that have not yet been released with [FltClose](./nf-fltkernel-fltclose.md). That is, the *DesiredAccess* specified to **FltCreateFile** for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
 > [!NOTE]
-> If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the *Flags* parameter, the I/O manager ignores the *ShareAccess* parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the *ShareAccess *parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. Additionally, note that when IO_IGNORE_SHARE_ACCESS_CHECK is specified, the file system does not track the current open's desired access or shared access. Because of this, subsequent open calls on the same file may succeed.
+> If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the *Flags* parameter, the I/O manager ignores the *ShareAccess* parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the *ShareAccess* parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. Additionally, note that when IO_IGNORE_SHARE_ACCESS_CHECK is specified, the file system does not track the current open's desired access or shared access. Because of this, subsequent open calls on the same file may succeed.
 
-The *CreateDisposition* value FILE_SUPERSEDE requires that the caller have DELETE access to an existing file object. If so, a successful call to **FltCreateFile** with FILE_SUPERSEDE on an existing file effectively deletes that file and then recreates it. This implies that if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess *parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
+The *CreateDisposition* value FILE_SUPERSEDE requires that the caller have DELETE access to an existing file object. If so, a successful call to **FltCreateFile** with FILE_SUPERSEDE on an existing file effectively deletes that file and then recreates it. This implies that if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess* parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
 
 The *CreateDisposition* values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If **FltCreateFile** is called with an existing file and either of these *CreateDisposition* values, the file is replaced.
 
@@ -175,12 +174,12 @@ The *CreateOptions* FILE_DIRECTORY_FILE value specifies that the file to be crea
 
 The *CreateOptions* FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this value places certain restrictions on the caller's parameters to **Zw..File** routines, including the following:
 
-* Any byte *Offset* value passed to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile) must be a multiple of the sector size.
+* Any byte *Offset* value passed to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) or [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md) must be a multiple of the sector size.
 * The *Length* passed to **ZwReadFile** or **ZwWriteFile** must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in fewer significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
-* Buffers must be aligned in accordance with the alignment requirement of the underlying storage device. This information can be obtained by calling **FltCreateFile** to get a handle for the file object that represents the physical device and then calling [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile) with that handle, specifying FileAlignmentInformation as the *FileInformationClass*. For more information about the system FILE_*XXX*_ALIGNMENT values, which are defined in ntifs.h, see [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) and [Initializing a Device Object](https://docs.microsoft.com/windows-hardware/drivers/kernel/initializing-a-device-object).
-* Calls to [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
+* Buffers must be aligned in accordance with the alignment requirement of the underlying storage device. This information can be obtained by calling **FltCreateFile** to get a handle for the file object that represents the physical device and then calling [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md) with that handle, specifying FileAlignmentInformation as the *FileInformationClass*. For more information about the system FILE_*XXX*_ALIGNMENT values, which are defined in ntifs.h, see [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md) and [Initializing a Device Object](/windows-hardware/drivers/kernel/initializing-a-device-object).
+* Calls to [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
 
-The *CreateOptions* FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that the file is being opened for synchronous I/O. This means that all I/O operations on the file are to be synchronous as long as they occur through the file object that the returned *FileHandle* refers to. All I/O on such a file is serialized across all threads by using the returned handle. With either of these *CreateOptions* set, the I/O Manager maintains the current file position offset in the file object's **CurrentByteOffset** field. This offset can be used in calls to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) and [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile). It can also be queried or set by calling [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile) or [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile).
+The *CreateOptions* FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that the file is being opened for synchronous I/O. This means that all I/O operations on the file are to be synchronous as long as they occur through the file object that the returned *FileHandle* refers to. All I/O on such a file is serialized across all threads by using the returned handle. With either of these *CreateOptions* set, the I/O Manager maintains the current file position offset in the file object's **CurrentByteOffset** field. This offset can be used in calls to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) and [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md). It can also be queried or set by calling [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md) or [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md).
 
 If the *CreateOptions* FILE_OPEN_REPARSE_POINT flag is not specified and **FltCreateFile** attempts to open a file with a reparse point, normal reparse point processing occurs for the file.  If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does not occur and **FltCreateFile** attempts to directly open the reparse point file.  In either case, if the open operation was successful, **FltCreateFile** returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. **FltCreateFile** never returns STATUS_REPARSE.
 
@@ -210,7 +209,7 @@ Step three makes this practical only for filter oplocks. The handle opened in st
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Minifilter drivers must use [**FltSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile), not [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile), to rename a file.
+Minifilter drivers must use [**FltSetInformationFile**](./nf-fltkernel-fltsetinformationfile.md), not [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md), to rename a file.
 
 > [!NOTE]
 > If you try to open a volume but only specify a combination of the following flags for the *DesiredAccess* parameter, **FltCreateFile** will open a handle, independent of the file system, that has direct access to the storage device for the volume.
@@ -221,46 +220,46 @@ Minifilter drivers must use [**FltSetInformationFile**](https://docs.microsoft.c
 > * WRITE_OWNER
 > * SYNCHRONIZE
 >
-> You must not use **FltCreateFile** to open a handle with direct access to the storage device for the volume or you will leak system resources. If you want to open a handle with direct access to a storage device, call the [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex), [**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint), or [**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) function instead.
+> You must not use **FltCreateFile** to open a handle with direct access to the storage device for the volume or you will leak system resources. If you want to open a handle with direct access to a storage device, call the [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md), [**IoCreateFileSpecifyDeviceObjectHint**](../ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint.md), or [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) function instead.
 
 ## -see-also
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
-[ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
+[ACL](../wdm/ns-wdm-_acl.md)
 
-[DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md)
 
-[FILE_FULL_EA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information)
+[FILE_FULL_EA_INFORMATION](../wdm/ns-wdm-_file_full_ea_information.md)
 
-[**FltClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclose)
+[**FltClose**](./nf-fltkernel-fltclose.md)
 
-[**FltCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex)
+[**FltCreateFileEx**](./nf-fltkernel-fltcreatefileex.md)
 
-[**FltCreateFileEx2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
+[**FltCreateFileEx2**](./nf-fltkernel-fltcreatefileex2.md)
 
-[**FltReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreadfile)
+[**FltReadFile**](./nf-fltkernel-fltreadfile.md)
 
-[**FltWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltwritefile)
+[**FltWriteFile**](./nf-fltkernel-fltwritefile.md)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[**IoCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile)
+[**IoCreateFile**](../wdm/nf-wdm-iocreatefile.md)
 
-[**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint)
+[**IoCreateFileSpecifyDeviceObjectHint**](../ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint.md)
 
-[**ObReferenceObjectByHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle)
+[**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md)
 
-[SECURITY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
+[SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md)
 
-[UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md)
 
-[**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+[**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md)

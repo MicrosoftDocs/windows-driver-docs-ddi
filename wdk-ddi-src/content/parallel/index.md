@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: gpio
+f1_keywords:
+ - parallel
+ - parallel/parallel
 ---
 
 # Parallel.h header
@@ -18,7 +19,7 @@ tech.root: gpio
 
 ## -description
 
-
 This header is used by parports. For more information, see:
 
 - [Parallel Ports](../_parports/index.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 2fbe08ca-a9eb-4e3b-aa28-1ff34ad22a46
 ms.date: 05/07/2018
 keywords: ["USBD_ValidateConfigurationDescriptor function"]
 ms.keywords: USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
-f1_keywords:
- - "usbdlib/USBD_ValidateConfigurationDescriptor"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Usbd.lib
-- Usbd.dll
-api_name:
-- USBD_ValidateConfigurationDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBD_ValidateConfigurationDescriptor
+ - usbdlib/USBD_ValidateConfigurationDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Usbd.lib
+ - Usbd.dll
+api_name:
+ - USBD_ValidateConfigurationDescriptor
 ---
 
 # USBD_ValidateConfigurationDescriptor function
@@ -48,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBD_ValidateConfigurationDescriptor</b> routine validates all descriptors returned by a device in its response to a configuration descriptor request.
-
 
 ## -parameters
 
+### -param ConfigDesc 
 
+[in]
+Pointer to a configuration descriptor that includes all interface, endpoint, vendor, and class-specific descriptors retrieved from a USB device.
 
+### -param BufferLength 
 
-### -param ConfigDesc [in]
-
-Pointer to a configuration descriptor that includes all interface, endpoint, vendor, and class-specific descriptors retrieved from a USB device.  
-
-
-### -param BufferLength [in]
-
+[in]
 Size, in bytes, of the configuration descriptor being validated.
 
+### -param Level 
 
-### -param Level [in]
-
+[in]
 Level of validation to be performed.  The following are valid values:
 
 <ul>
@@ -78,32 +73,20 @@ Level of validation to be performed.  The following are valid values:
 <li>3-In addition to the validation for levels 1 and 2, level 3 validates plus validates the number of endpoints in each interface, enforces the USB specification's descriptor <b>bLength</b> sizes, and verifies that all interface numbers are in sequential order.</li>
 </ul>
 
-### -param Offset [out]
+### -param Offset 
 
+[out]
   Offset within configuration descriptor where validation failed.  Only valid when a status other than USBD_STATUS_SUCCESS is returned.
 
+### -param Tag 
 
-### -param Tag [in, optional]
-
-Pool tag used by <b>USBD_ValidateConfigurationDescriptor</b> when allocating memory.  
-
+[in, optional]
+Pool tag used by <b>USBD_ValidateConfigurationDescriptor</b> when allocating memory.
 
 ## -returns
 
-
-
 USBD_STATUS_SUCCESS, or appropriate USBD error code if validation failed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>

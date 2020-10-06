@@ -8,8 +8,6 @@ ms.assetid: 78541C4C-AA0E-4C1F-A7B5-E2A39DF5E2CE
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_SET_INTENSITY_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_INTENSITY_WHITE, IOCTL_LAMP_SET_INTENSITY_WHITE control, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_WHITE, stream.ioctl_lamp_set_intensity_white
-f1_keywords:
- - "lamp/IOCTL_LAMP_SET_INTENSITY_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_SET_INTENSITY_WHITE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_SET_INTENSITY_WHITE
+ - lamp/IOCTL_LAMP_SET_INTENSITY_WHITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_SET_INTENSITY_WHITE
 ---
 
 # IOCTL_LAMP_SET_INTENSITY_WHITE IOCTL
+
 
 ## -description
 
@@ -57,11 +57,11 @@ The **IOCTL_LAMP_SET_INTENSITY_WHITE** control code sets the lamp to the specifi
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_white) structure.
+`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_WHITE](./ns-lamp-lamp_intensity_white.md) structure.
 
 ### -input-buffer-length
 
-Length of a [LAMP_INTENSITY_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_white) structure.
+Length of a [LAMP_INTENSITY_WHITE](./ns-lamp-lamp_intensity_white.md) structure.
 
 ### -output-buffer
 

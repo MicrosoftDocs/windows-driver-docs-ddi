@@ -8,8 +8,6 @@ ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyDetach function"]
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach
-f1_keywords:
- - "ufxclient/UfxDeviceNotifyDetach"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceNotifyDetach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceNotifyDetach
+ - ufxclient/UfxDeviceNotifyDetach
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceNotifyDetach
 ---
 
 # UfxDeviceNotifyDetach function
@@ -47,35 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Notifies UFX that the device's  USB cable has been detached.
-
 
 ## -parameters
 
+### -param UfxDevice 
 
-
-
-### -param UfxDevice [in]
-
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
+[in]
+A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ## -remarks
 
-
-
 This method is called by the client driver when it receives a USB cable detach event. Once the detach event is processed, all endpoints should be disabled and device should move to a low power mode.
 
-The client driver typically calls <b>UfxDeviceNotifyDetach</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, as shown in the following example.
+The client driver typically calls <b>UfxDeviceNotifyDetach</b> from its <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, as shown in the following example.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+
+```
+VOID 
 DeviceInterrupt_EvtInterruptDpc (
     _In_ WDFINTERRUPT Interrupt,
     _In_ WDFOBJECT AssociatedObject
@@ -165,9 +153,5 @@ Arguments:
     WdfSpinLockRelease(ControllerContext->DpcLock);
 
     TraceExit();
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```

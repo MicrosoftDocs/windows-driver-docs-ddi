@@ -8,53 +8,63 @@ ms.assetid: 10842352-4201-477f-b1ea-8ed9181a6012
 ms.date: 02/16/2018
 keywords: ["RILNETWORKCODEPARAMMASK enumeration"]
 ms.keywords: RILNETWORKCODEPARAMMASK, RILNETWORKCODEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NETWORKCODE_ALL, RIL_PARAM_NETWORKCODE_EXECUTOR, RIL_PARAM_NETWORKCODE_MCC, RIL_PARAM_NETWORKCODE_MNC, RIL_PARAM_NETWORKCODE_NID, RIL_PARAM_NETWORKCODE_RI, RIL_PARAM_NETWORKCODE_SID, netvista.rilnetworkcodeparammask, rilapitypes/RILNETWORKCODEPARAMMASK, rilapitypes/RIL_PARAM_NETWORKCODE_ALL, rilapitypes/RIL_PARAM_NETWORKCODE_EXECUTOR, rilapitypes/RIL_PARAM_NETWORKCODE_MCC, rilapitypes/RIL_PARAM_NETWORKCODE_MNC, rilapitypes/RIL_PARAM_NETWORKCODE_NID, rilapitypes/RIL_PARAM_NETWORKCODE_RI, rilapitypes/RIL_PARAM_NETWORKCODE_SID
-f1_keywords:
- - "ntddrilapitypes/RILNETWORKCODEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILNETWORKCODEPARAMMASK
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILNETWORKCODEPARAMMASK
+f1_keywords:
+ - RILNETWORKCODEPARAMMASK
+ - ntddrilapitypes/RILNETWORKCODEPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILNETWORKCODEPARAMMASK
 ---
 
-# RILNETWORKCODEPARAMMASK enumeration
+# RILNETWORKCODEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILNETWORKCODEPARAMMASK.
 
+## -enum-fields
 
+### -field RIL_PARAM_NETWORKCODE_EXECUTOR
 
+### -field RIL_PARAM_NETWORKCODE_MCC
+
+### -field RIL_PARAM_NETWORKCODE_MNC
+
+### -field RIL_PARAM_NETWORKCODE_SID
+
+### -field RIL_PARAM_NETWORKCODE_NID
+
+### -field RIL_PARAM_NETWORKCODE_RI
+
+### -field RIL_PARAM_NETWORKCODE_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILNETWORKCODEPARAMMASK {
@@ -69,41 +79,6 @@ enum RILNETWORKCODEPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_NETWORKCODE_EXECUTOR
-
-
-### -field RIL_PARAM_NETWORKCODE_MCC
-
-
-### -field RIL_PARAM_NETWORKCODE_MNC
-
-
-### -field RIL_PARAM_NETWORKCODE_SID
-
-
-### -field RIL_PARAM_NETWORKCODE_NID
-
-
-### -field RIL_PARAM_NETWORKCODE_RI
-
-
-### -field RIL_PARAM_NETWORKCODE_ALL
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

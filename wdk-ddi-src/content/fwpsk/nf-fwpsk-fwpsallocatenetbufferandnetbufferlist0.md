@@ -8,8 +8,6 @@ ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.date: 05/02/2018
 keywords: ["FwpsAllocateNetBufferAndNetBufferList0 function"]
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
-f1_keywords:
- - "fwpsk/FwpsAllocateNetBufferAndNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAllocateNetBufferAndNetBufferList0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAllocateNetBufferAndNetBufferList0
+ - fwpsk/FwpsAllocateNetBufferAndNetBufferList0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAllocateNetBufferAndNetBufferList0
 ---
 
 # FwpsAllocateNetBufferAndNetBufferList0 function
@@ -48,71 +47,65 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsAllocateNetBufferAndNetBufferList0</b> function allocates a new 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
-<div class="alert"><b>Note</b>  <b>FwpsAllocateNetBufferAndNetBufferList0</b> is a specific version of <b>FwpsAllocateNetBufferAndNetBufferList</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+<div class="alert"><b>Note</b>  <b>FwpsAllocateNetBufferAndNetBufferList0</b> is a specific version of <b>FwpsAllocateNetBufferAndNetBufferList</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param poolHandle 
 
-
-
-### -param poolHandle [in]
-
+[in]
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function.
 
+### -param contextSize 
 
-### -param contextSize [in]
-
+[in]
 The size, in bytes, of used data space in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the callout driver. The value of this parameter must be a multiple of the value defined
      by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
+### -param contextBackFill 
 
-### -param contextBackFill [in]
-
+[in]
 The size, in bytes, of 
      unused data space (backfill space) that the callout driver requires. The 
      <b>FwpsAllocateNetBufferAndNetBufferList0</b> function adds this value to the value specified in the 
      <i>ContextSize</i> parameter and allocates additional space. The value of this parameter must be a
      multiple of the value defined by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
+### -param mdlChain 
 
-### -param mdlChain [in, optional]
-
+[in, optional]
 A pointer to an MDL chain that is used to initialize the preallocated NET_BUFFER structure. This
      parameter is optional and can be <b>NULL</b>.
 
+### -param dataOffset 
 
-### -param dataOffset [in]
-
+[in]
 The initial offset, in bytes, from the start of the buffer to the start of the 
      used data space in the MDL chain. Data space ahead of this offset is 
      unused data space. Therefore, this value also represents the initial amount of available backfill
      space in the MDL chain.
 
+### -param dataLength 
 
-### -param dataLength [in]
-
+[in]
 The length, in bytes, of the 
      used data space in the MDL chain.
 
+### -param netBufferList 
 
-### -param netBufferList [out]
-
+[out]
 A pointer to a variable that receives a pointer to the new 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -returns
-
-
 
 The 
      <b>FwpsAllocateNetBufferAndNetBufferList0</b> function returns one of the following NTSTATUS
@@ -131,7 +124,7 @@ The
 </td>
 <td width="60%">
 The new 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was
        successfully allocated.
 
 </td>
@@ -148,61 +141,45 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A callout driver calls the 
     <b>FwpsAllocateNetBufferAndNetBufferList0</b> function to allocate a new 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 This function is a wrapper around the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
     NdisAllocateNetBufferAndNetBufferList</a> function, but it is specialized for use by WFP 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
+    <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
 
-After the data described by the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure has been successfully injected into the
+After the data described by the new <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure has been successfully injected into the
     network stack, the callout driver frees the new <b>NET_BUFFER_LIST</b> structure by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">
     FwpsFreeNetBufferList0</a> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>

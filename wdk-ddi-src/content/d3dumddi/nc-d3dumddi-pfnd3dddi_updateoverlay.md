@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/UpdateOverlay"
+ - PFND3DDDI_UPDATEOVERLAY
+ - d3dumddi/PFND3DDDI_UPDATEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_UPDATEOVERLAY callback function
 
+
 ## -description
 
 The <i>UpdateOverlay</i> function reconfigures or moves an overlay that is being displayed.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
 
 ## -returns
 
@@ -78,9 +80,8 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

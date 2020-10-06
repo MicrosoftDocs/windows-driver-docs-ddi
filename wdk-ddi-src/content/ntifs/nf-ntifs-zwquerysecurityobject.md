@@ -8,8 +8,6 @@ ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.date: 04/30/2018
 keywords: ["ZwQuerySecurityObject function"]
 ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
-f1_keywords:
- - "ntifs/ZwQuerySecurityObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQuerySecurityObject
-- NtQuerySecurityObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQuerySecurityObject
+ - ntifs/ZwQuerySecurityObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQuerySecurityObject
+ - NtQuerySecurityObject
 ---
 
 # ZwQuerySecurityObject function
@@ -48,23 +47,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>ZwQuerySecurityObject</b> routine retrieves a copy of an object's security descriptor. 
-
+The <b>ZwQuerySecurityObject</b> routine retrieves a copy of an object's security descriptor.
 
 ## -parameters
 
+### -param Handle 
 
+[in]
+Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter.
 
+### -param SecurityInformation 
 
-### -param Handle [in]
-
-Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. 
-
-
-### -param SecurityInformation [in]
-
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be queried.
+[in]
+Pointer to a <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be queried.
 
 <table>
 <tr>
@@ -112,27 +107,23 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 </td>
 </tr>
 </table>
- 
 
+### -param SecurityDescriptor 
 
-### -param SecurityDescriptor [out]
+[out]
+Caller-allocated buffer that <b>ZwQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format.
 
-Caller-allocated buffer that <b>ZwQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
+### -param Length 
 
+[in]
+Size, in bytes, of the buffer pointed to by <i>SecurityDescriptor</i>.
 
-### -param Length [in]
+### -param LengthNeeded 
 
-Size, in bytes, of the buffer pointed to by <i>SecurityDescriptor</i>. 
-
-
-### -param LengthNeeded [out]
-
-Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor. 
-
+[out]
+Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor.
 
 ## -returns
-
-
 
 <b>ZwQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
@@ -186,14 +177,8 @@ The buffer is too small for the security descriptor. None of the security inform
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. 
 
@@ -201,38 +186,28 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a> instead of <b>ZwQuerySecurityObject</b>. 
+Minifilters should call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a> instead of <b>ZwQuerySecurityObject</b>. 
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
-
-
-
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>
- 
-
- 
-

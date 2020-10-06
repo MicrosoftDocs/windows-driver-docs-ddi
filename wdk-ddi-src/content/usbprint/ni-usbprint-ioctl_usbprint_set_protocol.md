@@ -1,44 +1,44 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_SET_PROTOCOL
 title: IOCTL_USBPRINT_SET_PROTOCOL
-author: windows-driver-content
 description: Set the current printer protocol code of the USB printer interface.
 tech.root: print
 ms.assetid: a7498e8a-e4d4-40d8-be9c-f54a474bb8e6
-ms.author: windowsdriverdev
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_SET_PROTOCOL IOCTL"]
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_SET_PROTOCOL"
 ms.custom: 19H1
 req.header: usbprint.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - usbprint.h
-api_name: 
- - IOCTL_USBPRINT_SET_PROTOCOL
-product: 
- - Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+f1_keywords:
+ - IOCTL_USBPRINT_SET_PROTOCOL
+ - usbprint/IOCTL_USBPRINT_SET_PROTOCOL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_SET_PROTOCOL
+product:
+ - Windows
 ---
 
 # IOCTL_USBPRINT_SET_PROTOCOL IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -67,7 +67,7 @@ NULL
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 

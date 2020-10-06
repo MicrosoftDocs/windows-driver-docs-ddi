@@ -8,8 +8,6 @@ ms.assetid: 884C8141-2A15-4BAE-8A5C-73355BD84D53
 ms.date: 02/15/2018
 keywords: ["GNSS_V2UPL_NI_INFO structure"]
 ms.keywords: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO structure [Sensor Devices], PGNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO structure pointer [Sensor Devices], gnss.gnss_v2upl_ni_info, gnssdriver/GNSS_V2UPL_NI_INFO, gnssdriver/PGNSS_V2UPL_NI_INFO"
-f1_keywords:
- - "gnssdriver/GNSS_V2UPL_NI_INFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_V2UPL_NI_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+f1_keywords:
+ - PGNSS_V2UPL_NI_INFO
+ - gnssdriver/PGNSS_V2UPL_NI_INFO
+ - GNSS_V2UPL_NI_INFO
+ - gnssdriver/GNSS_V2UPL_NI_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_V2UPL_NI_INFO
 ---
 
 # GNSS_V2UPL_NI_INFO structure
@@ -47,24 +48,17 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 ## -description
 
-
 This structure contains V2UPL NI information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field RequestorId
 

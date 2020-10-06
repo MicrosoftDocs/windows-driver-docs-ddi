@@ -8,12 +8,10 @@ ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvFreeDrvItemContext"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvFreeDrvItemContext method, IWiaMiniDrv.drvFreeDrvItemContext, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvFreeDrvItemContext"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvFreeDrvItemContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvFreeDrvItemContext
+ - wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvFreeDrvItemContext
 ---
 
 # IWiaMiniDrv::drvFreeDrvItemContext
+
 
 ## -description
 
@@ -84,16 +84,16 @@ Points to a memory location that will receive a status code for this method. If 
 
 On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code in the memory pointed to by *plDevErrVal*.
 
-The value pointed to by *plDevErrVal* can be converted to a string by calling  [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
+The value pointed to by *plDevErrVal* can be converted to a string by calling  [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
 ## -remarks
 
-When a driver item is deleted, the WIA service frees the driver item context. This method informs the minidriver that the context is ready to be freed. The minidriver should free any memory that it allocated for the context. For example, in  [IWiaMiniDrv::drvReadItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties), a camera minidriver might allocate a cache to store the thumbnail for an item, and store a pointer to this cache in the driver item context. The minidriver would then free the cache in this method.
+When a driver item is deleted, the WIA service frees the driver item context. This method informs the minidriver that the context is ready to be freed. The minidriver should free any memory that it allocated for the context. For example, in  [IWiaMiniDrv::drvReadItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md), a camera minidriver might allocate a cache to store the thumbnail for an item, and store a pointer to this cache in the driver item context. The minidriver would then free the cache in this method.
 
 ## -see-also
 
- [IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+ [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
- [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+ [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
- [IWiaMiniDrv::drvReadItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties)
+ [IWiaMiniDrv::drvReadItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md)

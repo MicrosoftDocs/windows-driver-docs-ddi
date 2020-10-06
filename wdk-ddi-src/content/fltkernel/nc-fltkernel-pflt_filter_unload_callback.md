@@ -8,8 +8,6 @@ ms.assetid: 746f13f5-c92d-4dae-8fd7-4c9fdfa9e044
 ms.date: 05/09/2019
 keywords: ["PFLT_FILTER_UNLOAD_CALLBACK callback function"]
 ms.keywords: FilterUnloadCallback, FilterUnloadCallback routine [Installable File System Drivers], FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, ifsk.pflt_filter_unload_callback
-f1_keywords:
- - "fltkernel/FilterUnloadCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- FilterUnloadCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_FILTER_UNLOAD_CALLBACK
+ - fltkernel/PFLT_FILTER_UNLOAD_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - FilterUnloadCallback
 ---
 
 # PFLT_FILTER_UNLOAD_CALLBACK callback function
+
 
 ## -description
 
@@ -80,7 +80,7 @@ When a minifilter driver does register a *FilterUnloadCallback* routine:
 
 * If the FLTFL_FILTER_UNLOAD_MANDATORY flag is set in the *Flags* parameter, the unload operation is mandatory, and the minifilter driver cannot prevent itself from being unloaded.
 
-See [Loading and Unloading](https://docs.microsoft.com/windows-hardware/drivers/ifs/loading-and-unloading) for more information about possible unload causes and the minifilter driver unload process.
+See [Loading and Unloading](/windows-hardware/drivers/ifs/loading-and-unloading) for more information about possible unload causes and the minifilter driver unload process.
 
 ## -see-also
 

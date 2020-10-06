@@ -8,38 +8,37 @@ ms.assetid: bca93bca-96f6-46bb-ba24-9f39b5ad1ab4
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parports.ioctl_internal_parallel_clear_chip_mode
-f1_keywords:
- - "parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- parallel.h
-api_name:
-- IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
+ - parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - parallel.h
+api_name:
+ - IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
 ---
 
 # IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL
@@ -48,58 +47,36 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
-
 The <b>IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</b> request clears the operating mode of a parallel port.
 
-For more information see, <a href="https://docs.microsoft.com/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
-
+For more information see, <a href="/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\parallel\ns-parallel-_parallel_chip_mode.md">PARALLEL_CHIP_MODE</a> structure that the client allocates to input chip mode information. The client sets the <b>ModeFlags</b> member to the current operating mode.
 
-
 ### -input-buffer-length
 
 The request sets the <b>Parameters.DeviceIoControl.InputBufferLength</b> member to the size, in bytes, of a PARALLEL_CHIP_MODE structure.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -119,7 +96,6 @@ The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is l
 
 The specified operating mode is not the same as the current operating mode of the parallel port.
 
-
 ## -see-also
 
 <a href="..\parallel\ns-parallel-_parallel_chip_mode.md">PARALLEL_CHIP_MODE</a>
@@ -127,11 +103,3 @@ The specified operating mode is not the same as the current operating mode of th
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
-
-
-
- 
-
- 
-
-

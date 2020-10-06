@@ -16,6 +16,8 @@
     "lsotypes.h",
     "mbbcx.h",
     "mbbcxtypes.h",
+    "mdl.h",
+    "mdltypes.h",
     "miniport.h",
     "ndis.h",
     "ndischimney.h",
@@ -34,10 +36,7 @@
     "netpnp.h",
     "netpoweroffload.h",
     "netpoweroffloadlist.h",
-    "netpowersettings.h",
     "netreceivescaling.h",
-    "netrequest.h",
-    "netrequestqueue.h",
     "netringiterator.h",
     "netrxqueue.h",
     "nettxqueue.h",
@@ -47,6 +46,8 @@
     "ntddrilapitypes.h",
     "oemrilapitypes.h",
     "packet.h",
+    "returncontext.h",
+    "returncontexttypes.h",
     "rilapi.h",
     "rilapitypes.h",
     "ring.h",
@@ -65,7 +66,7 @@
     "wlantypes.h",
     "wlclient.h",
     "wsk.h",
-    "wwan.h",
+    "wwan.h"
   ],
   "displayName": "Networking drivers for Windows Vista and later"
 }

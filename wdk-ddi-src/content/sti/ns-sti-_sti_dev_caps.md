@@ -6,10 +6,8 @@ old-location: image\sti_dev_caps.htm
 tech.root: image
 ms.assetid: 99e0f896-19d2-4895-8b01-deaf30ec5fe9
 ms.date: 05/03/2018
-keywords: ["_STI_DEV_CAPS structure"]
+keywords: ["STI_DEV_CAPS structure"]
 ms.keywords: "*PSTI_DEV_CAPS, PSTI_DEV_CAPS, PSTI_DEV_CAPS structure pointer [Imaging Devices], STI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], _STI_DEV_CAPS, image.sti_dev_caps, sti/PSTI_DEV_CAPS, sti/STI_DEV_CAPS, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml"
-f1_keywords:
- - "sti/STI_DEV_CAPS"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sti.h
-api_name:
-- STI_DEV_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
+f1_keywords:
+ - _STI_DEV_CAPS
+ - sti/_STI_DEV_CAPS
+ - PSTI_DEV_CAPS
+ - sti/PSTI_DEV_CAPS
+ - STI_DEV_CAPS
+ - sti/STI_DEV_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sti.h
+api_name:
+ - STI_DEV_CAPS
 ---
 
 # _STI_DEV_CAPS structure
@@ -47,14 +50,9 @@ req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
 
 ## -description
 
-
-The STI_DEV_CAPS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_wia_device_informationw">STI_WIA_DEVICE_INFORMATION</a> structures.
-
+The STI_DEV_CAPS structure is used as a parameter to the <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> and <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_wia_device_informationw">STI_WIA_DEVICE_INFORMATION</a> structures.
 
 ## -struct-fields
-
-
-
 
 ### -field dwGeneric
 
@@ -82,7 +80,7 @@ The still image server will generate a <b>GUID_DeviceArrivedLaunch</b> event whe
 
 #### STI_GENCAP_NOTIFICATIONS
 
-The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>).
+The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>).
 
 
 
@@ -90,7 +88,7 @@ The device supports event notifications (either asynchronously or through pollin
 
 #### STI_GENCAP_POLLING_NEEDED
 
-The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>).
+The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>).
 
 
 
@@ -108,5 +106,4 @@ A driver with more features exists. An IHV driver with a full set of features sh
 
 The user-mode still image driver is WIA-capable.
 
-The values assigned to these flags are based on registry contents that the <b>Capabilities</b> entry for the device's setup information (INF) file supplies. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/inf-files-for-still-image-devices">INF Files for Still Image Devices</a>.
-
+The values assigned to these flags are based on registry contents that the <b>Capabilities</b> entry for the device's setup information (INF) file supplies. See <a href="/windows-hardware/drivers/image/inf-files-for-still-image-devices">INF Files for Still Image Devices</a>.

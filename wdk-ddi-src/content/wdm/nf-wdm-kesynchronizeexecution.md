@@ -8,8 +8,6 @@ ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.date: 04/30/2018
 keywords: ["KeSynchronizeExecution function"]
 ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
-f1_keywords:
- - "wdm/KeSynchronizeExecution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DIRQL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSynchronizeExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSynchronizeExecution
+ - wdm/KeSynchronizeExecution
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSynchronizeExecution
 ---
 
 # KeSynchronizeExecution function
@@ -47,48 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSynchronizeExecution</b> routine synchronizes the execution of the specified routine with the interrupt service routine (ISR) that is assigned to a set of one or more interrupt objects.
-
 
 ## -parameters
 
+### -param Interrupt 
 
+[in, out]
+A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
 
+### -param SynchronizeRoutine 
 
-### -param Interrupt [in, out]
+[in]
+Specifies a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
 
-A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
+### -param SynchronizeContext 
 
-
-### -param SynchronizeRoutine [in]
-
-Specifies a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
-
-
-### -param SynchronizeContext [in, optional]
-
-A pointer to a caller-supplied context value to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine when it is called.
-
+[in, optional]
+A pointer to a caller-supplied context value to be passed to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine when it is called.
 
 ## -returns
 
-
-
 <b>KeSynchronizeExecution</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 When this routine is called, the following occurs:
 
 <ol>
 <li>
-The IRQL is raised to the <i>SynchronizeIrql</i> value specified in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>.
+The IRQL is raised to the <i>SynchronizeIrql</i> value specified in the call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>.
 
 </li>
 <li>
@@ -96,7 +83,7 @@ Access to <i>SynchronizeContext</i> is synchronized with the assigned ISR by acq
 
 </li>
 <li>
-The specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine is called with the <i>SynchronizeContext</i> value as its parameter.
+The specified <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine is called with the <i>SynchronizeContext</i> value as its parameter.
 
 </li>
 </ol>
@@ -104,22 +91,12 @@ If the ISR runs at DIRQL >= DISPATCH_LEVEL, the <i>SynchCritSection</i> routine 
 
 Callers of <b>KeSynchronizeExecution</b> must be running at IRQL <= DIRQL; that is, at an IRQL that is less than or equal to the value of the <b>SynchronizeIrql</b> value that the caller specified when it registered its ISR with <b>IoConnectInterrupt</b> or <b>IoConnectInterruptEx</b>.
 
-Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to synchronize execution of a <i>SynchCritSection</i> routine with an ISR that runs at IRQL = PASSIVE_LEVEL. In earlier versions of Windows, <b>KeSynchronizeExecution</b> can synchronize execution only with an ISR that runs at IRQL >= DISPATCH_LEVEL. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-passive-level-interrupt-handling-routines">Using Passive-Level Interrupt Service Routines</a>.
-
-
-
+Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to synchronize execution of a <i>SynchCritSection</i> routine with an ISR that runs at IRQL = PASSIVE_LEVEL. In earlier versions of Windows, <b>KeSynchronizeExecution</b> can synchronize execution only with an ISR that runs at IRQL >= DISPATCH_LEVEL. For more information, see <a href="/windows-hardware/drivers/kernel/using-passive-level-interrupt-handling-routines">Using Passive-Level Interrupt Service Routines</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>

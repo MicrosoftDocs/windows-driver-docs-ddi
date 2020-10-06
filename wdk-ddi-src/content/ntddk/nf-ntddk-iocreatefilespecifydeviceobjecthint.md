@@ -8,8 +8,6 @@ ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.date: 04/16/2018
 keywords: ["IoCreateFileSpecifyDeviceObjectHint function"]
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
-f1_keywords:
- - "ntddk/IoCreateFileSpecifyDeviceObjectHint"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateFileSpecifyDeviceObjectHint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateFileSpecifyDeviceObjectHint
+ - ntddk/IoCreateFileSpecifyDeviceObjectHint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateFileSpecifyDeviceObjectHint
 ---
 
 # IoCreateFileSpecifyDeviceObjectHint function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCreateFileSpecifyDeviceObjectHint</b> routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system.
-
 
 ## -parameters
 
+### -param FileHandle 
 
+[out]
+A pointer to a variable that receives a handle for the file object if this call is successful.
 
+### -param DesiredAccess 
 
-### -param FileHandle [out]
-
-A pointer to a variable that receives a handle for the file object if this call is successful. 
-
-
-### -param DesiredAccess [in]
-
+[in]
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects.
 
 <table>
@@ -116,7 +111,7 @@ READ_CONTROL
 
 </td>
 <td>
-The access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>) and ownership information associated with the file can be read.
+The access control list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>) and ownership information associated with the file can be read.
 
 </td>
 </tr>
@@ -166,7 +161,7 @@ WRITE_DAC
 
 </td>
 <td>
-The discretionary access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) associated with the file can be written.
+The discretionary access control list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) associated with the file can be written.
 
 </td>
 </tr>
@@ -283,10 +278,10 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 
 The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>DesiredAccess</i> flags are incompatible with creating or opening a directory file.
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in]
-
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
+[in]
+A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
 
 <table>
 <tr>
@@ -344,12 +339,11 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </td>
 </tr>
 </table>
- 
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
+[out]
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
 
 FILE_CREATED
 
@@ -363,14 +357,14 @@ FILE_EXISTS
 
 FILE_DOES_NOT_EXIST
 
+### -param AllocationSize 
 
-### -param AllocationSize [in, optional]
+[in, optional]
+Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded. 
+### -param FileAttributes 
 
-
-### -param FileAttributes [in]
-
+[in]
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by any other flag or by an ORed combination of compatible flags. Possible <i>FileAttributes</i> flags include the following. 
 
 <table>
@@ -439,11 +433,10 @@ A temporary file should be created.
 </td>
 </tr>
 </table>
- 
 
+### -param ShareAccess 
 
-### -param ShareAccess [in]
-
+[in]
 Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Options</i> parameter, the I/O manager ignores this parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
 
 <table>
@@ -482,11 +475,10 @@ The file can be opened for delete access by other threads.
 </td>
 </tr>
 </table>
- 
 
+### -param Disposition 
 
-### -param Disposition [in]
-
+[in]
 Specifies a value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described following.
 
 <table>
@@ -555,11 +547,10 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </td>
 </tr>
 </table>
- 
 
+### -param CreateOptions 
 
-### -param CreateOptions [in]
-
+[in]
 Specifies the options to be applied when creating or opening the file. These options are specified as a compatible combination of the following flags.
 
 <table>
@@ -693,7 +684,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-Delete the file when the last handle to it is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. 
+Delete the file when the last handle to it is passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. 
 
 </td>
 </tr>
@@ -740,31 +731,30 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 </td>
 </tr>
 </table>
- 
 
+### -param EaBuffer 
 
-### -param EaBuffer [in, optional]
+[in, optional]
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file.
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
+### -param EaLength 
 
+[in]
+The length, in bytes, of <i>EaBuffer</i>.
 
-### -param EaLength [in]
+### -param CreateFileType 
 
-The length, in bytes, of <i>EaBuffer</i>. 
+[in]
+Drivers must set this parameter to CreateFileTypeNone.
 
+### -param InternalParameters 
 
-### -param CreateFileType [in]
+[in, optional]
+Drivers must set this parameter to <b>NULL</b>.
 
-Drivers must set this parameter to CreateFileTypeNone. 
+### -param Options 
 
-
-### -param InternalParameters [in, optional]
-
-Drivers must set this parameter to <b>NULL</b>. 
-
-
-### -param Options [in]
-
+[in]
 Specifies options to be used during the creation of the create request. The following table lists the available options.
 
 <table>
@@ -793,17 +783,13 @@ Indicates that the I/O manager should not perform share-access checks on the fil
 </td>
 </tr>
 </table>
- 
 
+### -param DeviceObject 
 
-### -param DeviceObject [in, optional]
-
-A pointer to the device object to which the create request is to be sent. The device object must be a filter or file system device object in the file system driver stack for the volume on which the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request will be sent to the device object at the top of the driver stack. 
-
+[in, optional]
+A pointer to the device object to which the create request is to be sent. The device object must be a filter or file system device object in the file system driver stack for the volume on which the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request will be sent to the device object at the top of the driver stack.
 
 ## -returns
-
-
 
 <b>IoCreateFileSpecifyDeviceObjectHint</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -850,17 +836,13 @@ The file or directory name contains a mount point that resolves to a volume othe
 </div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 This routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system. Filters that are attached above the specified device object in the driver stack do not receive the create request.  
 
-<div class="alert"><b>Note</b>  The Windows Vista <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine is similar to the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine but provides greater functionality than the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, including access to extra create parameters (ECPs) and transaction information.</div>
+<div class="alert"><b>Note</b>  The Windows Vista <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine is similar to the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine but provides greater functionality than the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, including access to extra create parameters (ECPs) and transaction information.</div>
 <div> </div>
-If you use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine instead of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, note that the <i>DriverContext</i> parameter of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine has been moved to the <b>DeviceObjectHint</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a> structure.  The IO_DRIVER_CREATE_CONTEXT structure is passed into the <b>IoCreateFileEx</b> routine through its <i>DriverContext</i> parameter.
+If you use the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine instead of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, note that the <i>DriverContext</i> parameter of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine has been moved to the <b>DeviceObjectHint</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a> structure.  The IO_DRIVER_CREATE_CONTEXT structure is passed into the <b>IoCreateFileEx</b> routine through its <i>DriverContext</i> parameter.
 
 File system filter drivers call <b>IoCreateFileSpecifyDeviceObjectHint</b> to send a create request only to a specified device object, the filters attached below it, and the file system. Filters attached above the specified device object in the driver stack do not receive the create request. The same is <b>true</b> for any cleanup or close requests on the file object that is created by <b>IoCreateFileSpecifyDeviceObjectHint</b>. 
 
@@ -876,7 +858,7 @@ As a pathname relative to the directory file that is represented by the handle i
 
 </li>
 </ol>
-Any handle that is obtained from <b>IoCreateFileSpecifyDeviceObjectHint</b> must eventually be released by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. 
+Any handle that is obtained from <b>IoCreateFileSpecifyDeviceObjectHint</b> must eventually be released by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. 
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateFileSpecifyDeviceObjectHint</b>. This restricts the use of the handle that is returned by <b>IoCreateFileSpecifyDeviceObjectHint</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
@@ -902,7 +884,7 @@ If only the FILE_EXECUTE and SYNCHRONIZE flags are set, the caller cannot direct
 </ul>
 The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of <b>IoCreateFileSpecifyDeviceObjectHint</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file: that is, the original caller is given exclusive access to the file. 
 
-In order for a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. That is, the <i>DesiredAccess</i> specified to <b>IoCreateFileSpecifyDeviceObjectHint</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
+In order for a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. That is, the <i>DesiredAccess</i> specified to <b>IoCreateFileSpecifyDeviceObjectHint</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
 
 
 <div class="alert"><b>Note</b>    If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the <i>Options</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the <i>ShareAccess </i>parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. </div>
@@ -931,23 +913,23 @@ The <i>CreateOptions</i> FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file s
 
 <ul>
 <li>
-Any byte <i>Offset</i> value that is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size of the underlying device. 
+Any byte <i>Offset</i> value that is passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size of the underlying device. 
 
 </li>
 <li>
-The <i>Length</i> that is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
+The <i>Length</i> that is passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFileSpecifyDeviceObjectHint</b> to get a handle for the file object that represents the physical device and then calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. 
+Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFileSpecifyDeviceObjectHint</b> to get a handle for the file object that represents the physical device and then calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. 
 
 </li>
 <li>
-Calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
+Calls to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
 
 </li>
 </ul>
-The mutually exclusive <i>CreateOptions</i>, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. With either of these <i>CreateOptions</i>, the <i>DesiredAccess</i> SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>. Its position also can be queried by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>, or set by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.  
+The mutually exclusive <i>CreateOptions</i>, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. With either of these <i>CreateOptions</i>, the <i>DesiredAccess</i> SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>. Its position also can be queried by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>, or set by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.  
 
 If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is not specified and <b>IoCreateFileSpecifyDeviceObjectHint</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file.  If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does not occur and <b>IoCreateFileSpecifyDeviceObjectHint</b> attempts to directly open the reparse point file.  In either case, if the open operation was successful, <b>IoCreateFileSpecifyDeviceObjectHint</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>IoCreateFileSpecifyDeviceObjectHint</b> never returns STATUS_REPARSE.
 
@@ -986,72 +968,62 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</b> contains a reparse point, the reparse point must resolve to the same volume where the file or directory resides.  If it does not, either the error STATUS_INVALID_DEVICE_OBJECT_PARAMETER or STATUS_MOUNT_POINT_NOT_RESOLVED is returned.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a>
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckeabuffervalidity">IoCheckEaBufferValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckeabuffervalidity">IoCheckEaBufferValidity</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>

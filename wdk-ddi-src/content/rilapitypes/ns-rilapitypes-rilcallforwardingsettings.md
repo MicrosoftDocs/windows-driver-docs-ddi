@@ -8,8 +8,6 @@ ms.assetid: 3603bc82-0058-43bd-9d45-90c198a20040
 ms.date: 05/02/2018
 keywords: ["RILCALLFORWARDINGSETTINGS structure"]
 ms.keywords: "*LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettings, ntddrilapitypes/RILCALLFORWARDINGSETTINGS"
-f1_keywords:
- - "rilapitypes/RILCALLFORWARDINGSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,52 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLFORWARDINGSETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS
+f1_keywords:
+ - RILCALLFORWARDINGSETTINGS
+ - rilapitypes/RILCALLFORWARDINGSETTINGS
+ - LPRILCALLFORWARDINGSETTINGS
+ - rilapitypes/LPRILCALLFORWARDINGSETTINGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLFORWARDINGSETTINGS
 ---
 
-# RILCALLFORWARDINGSETTINGS structure
+# RILCALLFORWARDINGSETTINGS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwStatus
-
 
 ### -field dwInfoClasses
 
-
 ### -field raAddress
 
-
 ### -field rsaSubAddress
-
 
 ### -field dwDelayTime
 

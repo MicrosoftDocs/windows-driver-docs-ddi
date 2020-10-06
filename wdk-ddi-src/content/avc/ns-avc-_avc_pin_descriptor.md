@@ -6,10 +6,8 @@ old-location: stream\avc_pin_descriptor.htm
 tech.root: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.date: 04/23/2018
-keywords: ["_AVC_PIN_DESCRIPTOR structure"]
+keywords: ["AVC_PIN_DESCRIPTOR structure"]
 ms.keywords: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], PAVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, stream.avc_pin_descriptor"
-f1_keywords:
- - "avc/AVC_PIN_DESCRIPTOR"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avc.h
-api_name:
-- AVC_PIN_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR
+f1_keywords:
+ - _AVC_PIN_DESCRIPTOR
+ - avc/_AVC_PIN_DESCRIPTOR
+ - PAVC_PIN_DESCRIPTOR
+ - avc/PAVC_PIN_DESCRIPTOR
+ - AVC_PIN_DESCRIPTOR
+ - avc/AVC_PIN_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avc.h
+api_name:
+ - AVC_PIN_DESCRIPTOR
 ---
 
 # _AVC_PIN_DESCRIPTOR structure
+
 
 ## -description
 
@@ -64,15 +68,15 @@ An optional output parameter specifying a data range intersect handler associate
 
 ### -field Context
 
-An optional output parameter specifying a value to be passed to the **IntersectHandler** when it is called during format negotiation. For more information about what an intersect handler is, see [DataRange Intersections in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream).
+An optional output parameter specifying a value to be passed to the **IntersectHandler** when it is called during format negotiation. For more information about what an intersect handler is, see [DataRange Intersections in AVStream](/windows-hardware/drivers/stream/data-range-intersections-in-avstream).
 
 ## -remarks
 
-This structure is used with the [AVC_FUNCTION_GET_PIN_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-pin-descriptor) function code.
+This structure is used with the [AVC_FUNCTION_GET_PIN_DESCRIPTOR](/windows-hardware/drivers/stream/avc-function-get-pin-descriptor) function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
 
-For information about building and sending an AV/C command, see [How to Use Avc.sys](https://docs.microsoft.com/windows-hardware/drivers/stream/using-avc-sys).
+For information about building and sending an AV/C command, see [How to Use Avc.sys](/windows-hardware/drivers/stream/using-avc-sys).
 
 A description of the members of the **KSPIN_DESCRIPTOR** structure used in AVC_PIN_DESCRIPTOR follows:
 
@@ -100,8 +104,8 @@ typedef struct {
 
 ## -see-also
 
-[AV/C Intersect Handler](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/nc-avc-pfnavcintersecthandler)
+[AV/C Intersect Handler](./nc-avc-pfnavcintersecthandler.md)
 
-[AVC_MULTIFUNC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb)
+[AVC_MULTIFUNC_IRB](./ns-avc-_avc_multifunc_irb.md)
 
-[KSPIN_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor)
+[KSPIN_DESCRIPTOR](../ks/ns-ks-kspin_descriptor.md)

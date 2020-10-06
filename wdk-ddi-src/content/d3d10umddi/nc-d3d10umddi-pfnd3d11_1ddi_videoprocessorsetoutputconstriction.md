@@ -7,8 +7,6 @@ ms.assetid: 4b34a76b-2e56-4656-9112-ad2e1d53525d
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback, d3d10umddi/pfnVideoProcessorSetOutputConstriction, display.videoprocessorsetoutputconstriction, pfnVideoProcessorSetOutputConstriction, pfnVideoProcessorSetOutputConstriction callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetOutputConstriction"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetOutputConstriction
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetOutputConstriction
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback function
@@ -47,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Sets the amount of downsampling to perform on the output.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -68,13 +60,13 @@ A handle to the display device (graphics context).
 
 *hVideoProcessor* [in]
 
-A handle to the video processor object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
+A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
 *Enabled* [in]
 
-If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
+If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored.
 
 ### -param Arg4
 
@@ -82,12 +74,7 @@ If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and
 
 The sampling size.
 
-
-
-
 ## -remarks
-
-
 
 Downsampling is sometimes used to reduce the quality of premium content when other forms of content protection are not available. 
 
@@ -101,20 +88,11 @@ The width and height of the <i>ConstrictonSize</i> parameter must be greater tha
 
 
 
-The driver reports its ability to support downsampling through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a> function. If the driver supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, it supports the ability to downsample the composed image.
+The driver reports its ability to support downsampling through the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a> function. If the driver supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, it supports the ability to downsample the composed image.
 
 <div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputConstriction</b> function.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>

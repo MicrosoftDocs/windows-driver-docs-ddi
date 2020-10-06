@@ -5,37 +5,37 @@ description: An (IDebugHostSymbol derived) interface to a particular type.
 ms.assetid: e0f687cc-99bd-4ea7-a809-81e46a0d4f0c
 ms.date: 06/11/2019
 keywords: ["IDebugHostType2 interface"]
-f1_keywords:
- - "dbgmodel/IDebugHostType2"
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType2
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType2
+ - dbgmodel/IDebugHostType2
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType2
 ---
 
 # IDebugHostType2 interface
+
 
 ## -description
 
@@ -46,9 +46,11 @@ A given language/native type is described by the IDebugHostType2 or [IDebugHostT
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IDebugHostType2 interits from [IDebugHostType](nn-dbgmodel-idebughosttype.md). 
+
+IDebugHostType2 interits from [IDebugHostType](nn-dbgmodel-idebughosttype.md).
+
 ## -remarks
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

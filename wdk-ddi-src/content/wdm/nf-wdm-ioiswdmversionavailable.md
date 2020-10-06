@@ -8,8 +8,6 @@ ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.date: 04/30/2018
 keywords: ["IoIsWdmVersionAvailable function"]
 ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
-f1_keywords:
- - "wdm/IoIsWdmVersionAvailable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoIsWdmVersionAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoIsWdmVersionAvailable
+ - wdm/IoIsWdmVersionAvailable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoIsWdmVersionAvailable
 ---
 
 # IoIsWdmVersionAvailable function
@@ -47,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoIsWdmVersionAvailable</b> routine checks whether a given WDM version is supported by the operating system.
-
 
 ## -parameters
 
+### -param MajorVersion 
 
-
-
-### -param MajorVersion [in]
-
+[in]
 Specifies the major version number of WDM that is requested.
 
+### -param MinorVersion 
 
-### -param MinorVersion [in]
-
+[in]
 Specifies the minor version number of WDM that is requested.
-
 
 ## -returns
 
-
-
 <b>IoIsWdmVersionAvailable</b> returns <b>TRUE</b> if the version of WDM that the operating system provides is greater than or equal to the version number of WDM being requested. Otherwise, it returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
-Drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
+Drivers should use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
 
 Cross-platform drivers should use this routine to check the WDM version before performing any operations that vary by platform or are not supported in all versions of WDM.
 
@@ -226,25 +213,16 @@ Later versions of WDM support all the features available in earlier versions of 
 
 The following call returns <b>TRUE</b> on any of the listed operating systems, because all these systems support all the features of WDM 1.0:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>bVersion = IoIsWdmVersionAvailable(1,0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+bVersion = IoIsWdmVersionAvailable(1,0);
+```
+
 The following example shows how a driver can dynamically detect the current operating system:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (IoIsWdmVersionAvailable(1, 0x10)) {
+
+```
+if (IoIsWdmVersionAvailable(1, 0x10)) {
     //
     //If WDM 1.10 is supported, this is Windows 2000
     //or better.
@@ -259,22 +237,11 @@ The following example shows how a driver can dynamically detect the current oper
     //WDM 1.0 is always supported, so this is Windows 98, 
     //Windows 98 SE, or better.
     //
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TRUE</b> on Windows Me, Windows 2000, and any succeeding operating systems, but <b>FALSE</b> on Windows 98 and Windows 98 SE.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a>

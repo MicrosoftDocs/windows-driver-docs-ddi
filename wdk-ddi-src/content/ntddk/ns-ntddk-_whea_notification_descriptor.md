@@ -6,10 +6,8 @@ old-location: whea\whea_notification_descriptor.htm
 tech.root: whea
 ms.assetid: 5b228bb8-dd31-484d-b87a-ec7fed433a4a
 ms.date: 02/20/2018
-keywords: ["_WHEA_NOTIFICATION_DESCRIPTOR structure"]
+keywords: ["WHEA_NOTIFICATION_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_NOTIFICATION_DESCRIPTOR, AsUSHORT, ErrorThresholdRW, ErrorThresholdWindowRW, PollIntervalRW, Reserved, SwitchToPollingThresholdRW, SwitchToPollingWindowRW, WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT, WHEA_NOTIFICATION_TYPE_NMI, WHEA_NOTIFICATION_TYPE_POLLED, WHEA_NOTIFICATION_TYPE_SCI, _WHEA_NOTIFICATION_DESCRIPTOR, ntddk/WHEA_NOTIFICATION_DESCRIPTOR, whea.whea_notification_descriptor, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml"
-f1_keywords:
- - "ntddk/WHEA_NOTIFICATION_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- WHEA_NOTIFICATION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
+f1_keywords:
+ - _WHEA_NOTIFICATION_DESCRIPTOR
+ - ntddk/_WHEA_NOTIFICATION_DESCRIPTOR
+ - PWHEA_NOTIFICATION_DESCRIPTOR
+ - ntddk/PWHEA_NOTIFICATION_DESCRIPTOR
+ - WHEA_NOTIFICATION_DESCRIPTOR
+ - ntddk/WHEA_NOTIFICATION_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - WHEA_NOTIFICATION_DESCRIPTOR
 ---
 
 # _WHEA_NOTIFICATION_DESCRIPTOR structure
@@ -47,14 +50,9 @@ req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
 
 ## -description
 
-
 The <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure describes the notification mechanism that is used by an error source.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -116,25 +114,18 @@ The error source notifies the LLHEH for the error source by means of a service c
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Length
 
 The size, in bytes, of the <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure.
 
-
 ### -field Flags
 
 A WHEA_NOTIFICATION_FLAGS union that indicates which of the members of the <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure can be written to by the operating system. The WHEA_NOTIFICATION_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_NOTIFICATION_FLAGS {
+
+```
+typedef union _WHEA_NOTIFICATION_FLAGS {
   struct {
     USHORT  PollIntervalRW:1;
     USHORT  SwitchToPollingThresholdRW:1;
@@ -144,10 +135,9 @@ A WHEA_NOTIFICATION_FLAGS union that indicates which of the members of the <b>WH
     USHORT  Reserved:11;
   };
   USHORT  AsUSHORT;
-} WHEA_NOTIFICATION_FLAGS, *PWHEA_NOTIFICATION_FLAGS</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_NOTIFICATION_FLAGS, *PWHEA_NOTIFICATION_FLAGS
+```
+
 <table>
 <tr>
 <th>Value</th>
@@ -224,291 +214,181 @@ A single bit that indicates that the operating system can write to the <b>u.</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field u
 
-A union of structures that are specific to each different type of notification mechanism. 
-
+A union of structures that are specific to each different type of notification mechanism.
 
 ### -field u.Polled
 
 A structure that describes the notification mechanism when the <b>Type</b> member is set to WHEA_NOTIFICATION_TYPE_POLLED.
 
-
 ### -field u.Polled.PollInterval
 
 The interval, in milliseconds, that the LLHEH for the error source should poll the error status registers to check for an error condition.
-
 
 ### -field u.Interrupt
 
 A structure that describes the notification mechanism when the <b>Type</b> member is set to WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT.
 
-
 ### -field u.Interrupt.PollInterval
 
 The interval, in milliseconds, that the LLHEH for the error source should poll the error status registers to check for an error condition if the error source is switched out of interrupt mode.
-
 
 ### -field u.Interrupt.Vector
 
 The interrupt vector for the error source.
 
-
 ### -field u.Interrupt.SwitchToPollingThreshold
 
 The number of errors that must occur within the time specified by the <b>SwitchToPollingWindow</b> member before the error source is switched to polling mode.
-
 
 ### -field u.Interrupt.SwitchToPollingWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>SwitchToPollingThreshold</b> member must occur before the error source is switched to polling mode.
 
-
 ### -field u.Interrupt.ErrorThreshold
 
 The number of errors that must occur within the time specified by the <b>ErrorThresholdWindow</b> member before an error from the error source is processed by the operating system.
-
 
 ### -field u.Interrupt.ErrorThresholdWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>ErrorThreshold</b> member must occur before an error from the error source is processed by the operating system.
 
-
 ### -field u.LocalInterrupt
 
 A structure that describes the notification mechanism when the <b>Type</b> member is set to WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT.
-
 
 ### -field u.LocalInterrupt.PollInterval
 
 The interval, in milliseconds, that the LLHEH for the error source should poll the error status registers to check for an error condition if the error source is switched out of interrupt mode.
 
-
 ### -field u.LocalInterrupt.Vector
 
 The interrupt vector for the error source.
-
 
 ### -field u.LocalInterrupt.SwitchToPollingThreshold
 
 The number of errors that must occur within the time specified by the <b>SwitchToPollingWindow</b> member before the error source is switched to polling mode.
 
-
 ### -field u.LocalInterrupt.SwitchToPollingWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>SwitchToPollingThreshold</b> member must occur before the error source is switched to polling mode.
-
 
 ### -field u.LocalInterrupt.ErrorThreshold
 
 The number of errors that must occur within the time specified by the <b>ErrorThresholdWindow</b> member before an error from the error source is processed by the operating system.
 
-
 ### -field u.LocalInterrupt.ErrorThresholdWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>ErrorThreshold</b> member must occur before an error from the error source is processed by the operating system.
-
 
 ### -field u.Sci
 
  A structure that describes the notification mechanism when the <b>Type</b> member is set to WHEA_NOTIFICATION_TYPE_SCI.
 
-
 ### -field u.Sci.PollInterval
 
 The interval, in milliseconds, that the LLHEH for the error source should poll the error status registers to check for an error condition if the error source is switched out of interrupt mode.
-
 
 ### -field u.Sci.Vector
 
 The interrupt vector for the error source.
 
-
 ### -field u.Sci.SwitchToPollingThreshold
 
 The number of errors that must occur within the time specified by the <b>SwitchToPollingWindow</b> member before the error source is switched to polling mode.
-
 
 ### -field u.Sci.SwitchToPollingWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>SwitchToPollingThreshold</b> member must occur before the error source is switched to polling mode.
 
-
 ### -field u.Sci.ErrorThreshold
 
 The number of errors that must occur within the time specified by the <b>ErrorThresholdWindow</b> member before an error from the error source is processed by the operating system.
-
 
 ### -field u.Sci.ErrorThresholdWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>ErrorThreshold</b> member must occur before an error from the error source is processed by the operating system.
 
-
 ### -field u.Nmi
 
 A structure that describes the notification mechanism when the <b>Type</b> member is set to WHEA_NOTIFICATION_TYPE_NMI.
-
 
 ### -field u.Nmi.PollInterval
 
 The interval, in milliseconds, that the LLHEH for the error source should poll the error status registers to check for an error condition if the error source is switched out of interrupt mode.
 
-
 ### -field u.Nmi.Vector
 
 The interrupt vector for the error source.
-
 
 ### -field u.Nmi.SwitchToPollingThreshold
 
 The number of errors that must occur within the time specified by the <b>SwitchToPollingWindow</b> member before the error source is switched to polling mode.
 
-
 ### -field u.Nmi.SwitchToPollingWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>SwitchToPollingThreshold</b> member must occur before the error source is switched to polling mode.
-
 
 ### -field u.Nmi.ErrorThreshold
 
 The number of errors that must occur within the time specified by the <b>ErrorThresholdWindow</b> member before an error from the error source is processed by the operating system.
 
-
 ### -field u.Nmi.ErrorThresholdWindow
 
 The window of time, in seconds, in which the number of errors specified by the <b>ErrorThreshold</b> member must occur before an error from the error source is processed by the operating system.
 
-
 ### -field u.Sea
-
- 
-
 
 ### -field u.Sea.PollInterval
 
- 
-
-
 ### -field u.Sea.Vector
-
- 
-
 
 ### -field u.Sea.SwitchToPollingThreshold
 
- 
-
-
 ### -field u.Sea.SwitchToPollingWindow
-
- 
-
 
 ### -field u.Sea.ErrorThreshold
 
- 
-
-
 ### -field u.Sea.ErrorThresholdWindow
-
- 
-
 
 ### -field u.Sei
 
- 
-
-
 ### -field u.Sei.PollInterval
-
- 
-
 
 ### -field u.Sei.Vector
 
- 
-
-
 ### -field u.Sei.SwitchToPollingThreshold
-
- 
-
 
 ### -field u.Sei.SwitchToPollingWindow
 
- 
-
-
 ### -field u.Sei.ErrorThreshold
-
- 
-
 
 ### -field u.Sei.ErrorThresholdWindow
 
- 
-
-
 ### -field u.Gsiv
-
- 
-
 
 ### -field u.Gsiv.PollInterval
 
- 
-
-
 ### -field u.Gsiv.Vector
-
- 
-
 
 ### -field u.Gsiv.SwitchToPollingThreshold
 
- 
-
-
 ### -field u.Gsiv.SwitchToPollingWindow
-
- 
-
 
 ### -field u.Gsiv.ErrorThreshold
 
- 
-
-
 ### -field u.Gsiv.ErrorThresholdWindow
-
- 
-
-
-
 
 ## -remarks
 
-
-
-A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor">WHEA_GENERIC_ERROR_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a> structures.
-
-
-
+A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor">WHEA_GENERIC_ERROR_DESCRIPTOR</a> and <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a> structures.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>

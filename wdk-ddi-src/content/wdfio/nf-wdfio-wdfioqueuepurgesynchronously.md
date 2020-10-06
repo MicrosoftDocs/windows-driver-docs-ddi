@@ -8,8 +8,6 @@ ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.date: 02/26/2018
 keywords: ["WdfIoQueuePurgeSynchronously function"]
 ms.keywords: DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously method, kmdf.wdfioqueuepurgesynchronously, wdf.wdfioqueuepurgesynchronously, wdfio/WdfIoQueuePurgeSynchronously
-f1_keywords:
- - "wdfio/WdfIoQueuePurgeSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueuePurgeSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueuePurgeSynchronously
+ - wdfio/WdfIoQueuePurgeSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueuePurgeSynchronously
 ---
 
 # WdfIoQueuePurgeSynchronously function
@@ -50,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueuePurgeSynchronously</b> method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests and driver-owned cancellable requests.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to a framework queue object.
-
 
 ## -remarks
 
@@ -76,16 +70,16 @@ After a driver calls <b>WdfIoQueuePurgeSynchronously</b>, the framework stops ad
 
 <b>WdfIoQueuePurgeSynchronously</b> returns after all the unprocessed and driver-owned requests are completed or canceled.
 
-After a driver has purged an I/O queue, it can restart the queue by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestart">WdfIoQueueStart</a>.
+After a driver has purged an I/O queue, it can restart the queue by calling <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestart">WdfIoQueueStart</a>.
 
 Do not call <b>WdfIoQueuePurgeSynchronously</b> from the following queue object event callback functions, regardless of the queue with which the event callback function is associated:
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a>
-For more information about the <b>WdfIoQueuePurgeSynchronously</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+<a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a>
+<a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a>
+<a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a>
+<a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a>
+<a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a>
+For more information about the <b>WdfIoQueuePurgeSynchronously</b> method, see <a href="/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples
@@ -96,15 +90,6 @@ The following code example purges a specified I/O queue.
 WdfIoQueuePurgeSynchronously(ReadQueue);
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>

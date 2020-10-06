@@ -8,8 +8,6 @@ ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.date: 05/09/2019
 keywords: ["StorPortNotification function"]
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
-f1_keywords:
- - "storport/StorPortNotification"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortNotification
+ - storport/StorPortNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortNotification
 ---
 
 # StorPortNotification function
+
 
 ## -description
 
@@ -80,20 +80,15 @@ BusChangeDetected
 <td>
 Indicates that a target device might have been added or removed from a dynamic bus. To use this notification type, include an optional PathId parameter to indicate the SCSI port or bus where the change was detected.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ UCHAR                  PathId
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -104,21 +99,16 @@ IoTargetRequestServiceTime
 <td>
 Indicates to Storport the amount of time that was required to process a specified request.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_ SCSI_NOTIFICATION_TYPE NotificationType,
   _In_ PVOID                  HwDeviceExtension,
   _In_ ULONGLONG              Duration,
   _In_ PSCSI_REQUEST_BLOCK    Srb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 Duration [in]
 
@@ -156,22 +146,17 @@ QueryTickCount
 
 </td>
 <td>
-This notification type returns a LARGE_INTEGER that holds the value from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerytickcount">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
+This notification type returns a LARGE_INTEGER that holds the value from <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerytickcount">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_    SCSI_NOTIFICATION_TYPE NotificationType,
   _In_    PVOID                  HwDeviceExtension,
   _Inout_ PLARGE_INTEGER         TickCount
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -182,20 +167,15 @@ RequestComplete
 <td>
 Indicates that the given SRB has finished. After this notification is sent, the port driver owns the request. The Srb parameter represents a pointer to the completed SCSI request block. The miniport driver must not attempt to access the request in Srb, and it must not pass Srb to another routine.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_ SCSI_NOTIFICATION_TYPE NotificationType,
   _In_ PVOID                  HwDeviceExtension,
   _In_ PSCSI_REQUEST_BLOCK    Srb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -204,23 +184,18 @@ RequestTimerCall
 
 </td>
 <td>
-Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a> routine in the requested number of microseconds.
+Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a> routine in the requested number of microseconds.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_ SCSI_NOTIFICATION_TYPE NotificationType,
   _In_ PVOID                  HwDeviceExtension,
   _In_ PHW_TIMER              HwStorTimer,
   _In_ ULONG                  MiniportTimerValue
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 HwStorTimer [in]
 
@@ -252,23 +227,18 @@ WMIEvent
 <td>
 Indicates that the miniport driver has detected an event for which one or more WMI data consumers are registered. Note that the <b>WmiEvent</b> parameter is limited to a maximum of 128 bytes. If <b>WmiEvent</b> is larger than 128 bytes, it will be ignored.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_     PWNODE_EVENT_ITEM      WMIEvent,
   _In_     UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 WMIEvent [in]
 
@@ -295,24 +265,19 @@ WMIReregister
 
 </td>
 <td>
-Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>.
+Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID StorPortNotification(
+
+```cpp
+VOID StorPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_     UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 PathId [in]
 

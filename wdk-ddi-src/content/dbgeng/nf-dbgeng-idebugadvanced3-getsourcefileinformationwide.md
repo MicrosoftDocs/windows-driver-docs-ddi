@@ -8,8 +8,6 @@ ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced3::GetSourceFileInformationWide"]
 ms.keywords: GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformationWide method, IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
-f1_keywords:
- - "dbgeng/IDebugAdvanced3.GetSourceFileInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugAdvanced3.GetSourceFileInformationWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugAdvanced3::GetSourceFileInformationWide
+ - dbgeng/IDebugAdvanced3::GetSourceFileInformationWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugAdvanced3.GetSourceFileInformationWide
 ---
 
 # IDebugAdvanced3::GetSourceFileInformationWide
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSourceFileInformationWide</b> method returns specified information about a source file.
-
 
 ## -parameters
 
+### -param Which 
 
-
-
-### -param Which [in]
-
+[in]
 Specifies the piece of information to return.  The <i>Which</i> parameter can take one of the values in the following table.
 
 
@@ -66,50 +61,47 @@ Specifies the piece of information to return.  The <i>Which</i> parameter can ta
 
 #### DEBUG_SRCFILE_SYMBOL_TOKEN
 
-Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+Returns a token representing the specified source file on a source server.  This token can be passed to <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
 
 
 
 #### DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
 
-Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
+Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string.
 
+### -param SourceFile 
 
-### -param SourceFile [in]
+[in]
+Specifies the source file whose information is being requested.  The source file is looked up on all the source servers in the source path.
 
-Specifies the source file whose information is being requested.  The source file is looked up on all the source servers in the source path. 
+### -param Arg64 
 
+[in]
+Specifies a 64-bit argument.  The value of <i>Which</i> specifies the module whose symbol token is requested.  Regardless of the value of <i>Which</i>, <i>Arg64</i> is a location within the memory allocation of the module.
 
-### -param Arg64 [in]
+### -param Arg32 
 
-Specifies a 64-bit argument.  The value of <i>Which</i> specifies the module whose symbol token is requested.  Regardless of the value of <i>Which</i>, <i>Arg64</i> is a location within the memory allocation of the module.  
+[in]
+Specifies a 32-bit argument.  This parameter is currently unused.
 
+### -param Buffer 
 
-### -param Arg32 [in]
-
-Specifies a 32-bit argument.  This parameter is currently unused.   
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the requested symbol information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>NULL</b>, <i>BufferSize</i> must also be <b>NULL</b>.
 
+### -param InfoSize 
 
-### -param InfoSize [out, optional]
-
+[out, optional]
 Specifies the size in bytes of the information returned to the <i>Buffer</i> buffer. This parameter can be NULL if the data is not required.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -139,31 +131,15 @@ The method was successful. However, the information would not fit in the <i>Buff
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about source files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.
-
-
-
+For more information about source files, see <a href="/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>

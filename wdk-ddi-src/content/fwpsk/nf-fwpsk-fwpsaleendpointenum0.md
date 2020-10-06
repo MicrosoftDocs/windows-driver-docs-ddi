@@ -8,8 +8,6 @@ ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointEnum0 function"]
 ms.keywords: FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml
-f1_keywords:
- - "fwpsk/FwpsAleEndpointEnum0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAleEndpointEnum0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAleEndpointEnum0
+ - fwpsk/FwpsAleEndpointEnum0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAleEndpointEnum0
 ---
 
 # FwpsAleEndpointEnum0 function
@@ -48,54 +47,48 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsAleEndpointEnum0</b> function enumerates application layer enforcement (ALE) endpoints.
-<div class="alert"><b>Note</b>  <b>FwpsAleEndpointEnum0</b> is a specific version of <b>FwpsAleEndpointEnum</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAleEndpointEnum0</b> is a specific version of <b>FwpsAleEndpointEnum</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
+     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
+### -param enumHandle 
 
-### -param enumHandle [in]
-
+[in]
 The enumeration handle created by a previous call to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">FwpsAleEndpointDestroyEnumHandle0</a>.
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">FwpsAleEndpointDestroyEnumHandle0</a>.
 
+### -param numEntriesRequested 
 
-### -param numEntriesRequested [in]
-
+[in]
 The maximum number of endpoint property entries to return. The actual number of entries enumerated
      is returned in 
      <i>numEntriesReturned</i>. The actual number is less than the requested number only if fewer endpoints
      than the requested are present.
 
+### -param entries 
 
-### -param entries [out]
-
+[out]
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0_">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
      single endpoint. The array contains as many elements as the value returned in 
      <i>numEntriesReturned</i>.
 
+### -param numEntriesReturned 
 
-### -param numEntriesReturned [out]
-
+[out]
 On return, the number of elements in the array of endpoint property structures pointed to by 
      <i>entries</i>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAleEndpointEnum0</b> function returns one of the following NTSTATUS codes.
@@ -128,17 +121,11 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To enumerate ALE endpoints, the callout driver must first obtain an enumeration handle by calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">FwpsAleEndpointCreateEnumHandle0</a>. The handle returned is associated with any parameters specified
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">FwpsAleEndpointCreateEnumHandle0</a>. The handle returned is associated with any parameters specified
     in the optional 
     <i>enumTemplate</i> parameter of 
     <b>FwpsAleEndpointCreateEnumHandle0</b>.
@@ -148,39 +135,29 @@ After obtaining a handle, the callout driver can call
     of the handle.
 
 When finished examining endpoint properties, the callout driver must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">FwpsAleEndpointDestroyEnumHandle0</a> to release the system resources associated with the enumeration
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">FwpsAleEndpointDestroyEnumHandle0</a> to release the system resources associated with the enumeration
     handle.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">
    FwpsAleEndpointCreateEnumHandle0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">
    FwpsAleEndpointDestroyEnumHandle0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetbyid0">FwpsAleEndpointGetById0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetbyid0">FwpsAleEndpointGetById0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetsecurityinfo0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetsecurityinfo0">
    FwpsAleEndpointGetSecurityInfo0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointsetsecurityinfo0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointsetsecurityinfo0">
    FwpsAleEndpointSetSecurityInfo0</a>
- 
-
- 
-

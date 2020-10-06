@@ -6,10 +6,8 @@ old-location: netvista\wwan_sms_read.htm
 tech.root: netvista
 ms.assetid: 920ca041-7fc8-4c6b-bc1a-7bf41dffcf7b
 ms.date: 05/02/2018
-keywords: ["_WWAN_SMS_READ structure"]
+keywords: ["WWAN_SMS_READ structure"]
 ms.keywords: "*PWWAN_SMS_READ, PWWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, _WWAN_SMS_READ, netvista.wwan_sms_read, wwan/PWWAN_SMS_READ, wwan/WWAN_SMS_READ"
-f1_keywords:
- - "wwan/WWAN_SMS_READ"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_READ, *PWWAN_SMS_READ
+f1_keywords:
+ - _WWAN_SMS_READ
+ - wwan/_WWAN_SMS_READ
+ - PWWAN_SMS_READ
+ - wwan/PWWAN_SMS_READ
+ - WWAN_SMS_READ
+ - wwan/WWAN_SMS_READ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_READ
 ---
 
 # _WWAN_SMS_READ structure
@@ -47,14 +50,9 @@ req.typenames: WWAN_SMS_READ, *PWWAN_SMS_READ
 
 ## -description
 
-
 The WWAN_SMS_READ structure represents the format and filter of SMS messages to read.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SmsFormat
 
@@ -64,7 +62,6 @@ The format in which the miniport driver should return messages for
 
 <b>WwanSmsFormatCdma</b> applies only to CDMA-based devices. CDMA-based devices support only the 
      <b>WwanSmsFormatCdma</b> format.
-
 
 ### -field ReadFilter
 
@@ -76,22 +73,14 @@ Represents the filter upon which the miniport driver should retrieve the message
      <b>draft</b>, or 
      <b>sent</b> flags.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_read">NDIS_WWAN_SMS_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_read">NDIS_WWAN_SMS_READ</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>

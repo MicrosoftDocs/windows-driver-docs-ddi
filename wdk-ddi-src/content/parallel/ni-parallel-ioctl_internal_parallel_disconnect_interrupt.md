@@ -8,38 +8,37 @@ ms.assetid: 9ca488b1-30d3-44dc-acb3-87d97e439393
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT control code [Parallel Ports], cisspd_d98e5171-686e-41de-96fd-4615eaad82f3.xml, parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, parports.ioctl_internal_parallel_disconnect_interrupt
-f1_keywords:
- - "parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- parallel.h
-api_name:
-- IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
+ - parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - parallel.h
+api_name:
+ - IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
 ---
 
 # IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT IOCTL
@@ -48,56 +47,35 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
-
 The <b>IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</b> request disconnects an interrupt service routine (and an optional deferred port check service routine) that was connected by using an <a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a> request. Only kernel-mode drivers can connect and disconnect an interrupt routine.
-<div class="alert"><b>Note</b>    Microsoft does not recommend using a client-supplied interrupt routine. The use of interrupts might cause system instability. By default, the connect interrupt request is disabled. For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543934(v=vs.85)">Connecting an Interrupt Service Routine to a ParallelPort</a>.</div><div> </div>
+<div class="alert"><b>Note</b>    Microsoft does not recommend using a client-supplied interrupt routine. The use of interrupts might cause system instability. By default, the connect interrupt request is disabled. For more information, see <a href="/previous-versions/ff543934(v=vs.85)">Connecting an Interrupt Service Routine to a ParallelPort</a>.</div><div> </div>
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a> structure that the client allocates for the input of interrupt service information.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PARALLEL_INTERRUPT_SERVICE_ROUTINE structure.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -117,7 +95,6 @@ The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is l
 
 The specified interrupt service routine is not connected.
 
-
 ## -see-also
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
@@ -129,11 +106,3 @@ The specified interrupt service routine is not connected.
 
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
-
-
-
- 
-
- 
-
-

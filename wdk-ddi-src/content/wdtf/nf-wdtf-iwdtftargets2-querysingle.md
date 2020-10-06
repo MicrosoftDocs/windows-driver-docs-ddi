@@ -8,8 +8,6 @@ ms.assetid: d9aa36b6-8ce4-41dd-96a8-104fa9094405
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::QuerySingle"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],QuerySingle method, IWDTFTargets2.QuerySingle, IWDTFTargets2::QuerySingle, Microsoft.WDTF.IWDTFTargets2.QuerySingle, Microsoft::WDTF::IWDTFTargets2::QuerySingle, QuerySingle, QuerySingle method [Windows Device Testing Framework], QuerySingle method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_querysingle, wdtf/IWDTFTargets2::QuerySingle
-f1_keywords:
- - "wdtf/IWDTFTargets2.QuerySingle"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTargets2.QuerySingle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTargets2::QuerySingle
+ - wdtf/IWDTFTargets2::QuerySingle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTargets2.QuerySingle
 ---
 
 # IWDTFTargets2::QuerySingle
@@ -47,41 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Returns a single item from the collection.
-
 
 ## -parameters
 
+### -param SDEL 
 
-
-
-### -param SDEL [in]
-
+[in]
 The SDEL query string.
 
+### -param ppTarget 
 
-### -param ppTarget [out, retval]
-
+[out, retval]
 The requested item.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>

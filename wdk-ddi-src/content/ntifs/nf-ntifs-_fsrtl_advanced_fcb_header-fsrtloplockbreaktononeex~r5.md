@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockBreakToNoneEx function"]
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNoneEx"
+ - "FsRtlOplockBreakToNoneEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockBreakToNoneEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,18 +55,18 @@ The <b>FsRtlOplockBreakToNoneEx</b> routine breaks all opportunistic locks (oplo
 
 
 
-### -param Oplock [in, out]
+### -param Oplock 
+[in, out]
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
-
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP for the I/O operation.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockBreakToNoneEx</b>. The <i>Flags</i> parameter has the following options:
 
 
@@ -79,31 +78,26 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. Typically, this flag is only used if the IRP that the <i>Irp</i> parameter points to declares an IRP_MJ_CREATE operation.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
 
-### -param CompletionRoutine [in, optional]
-
+### -param CompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed.
 
 This routine is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
 (*POPLOCK_WAIT_COMPLETE_ROUTINE) (
       IN PVOID Context,
       IN PIRP Irp
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 This routine has the following parameters:
 
 
@@ -121,26 +115,21 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 A pointer to the IRP for the I/O operation.
 
 
-### -param PostIrpRoutine [in, optional]
-
+### -param PostIrpRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>.
 
 This routine is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
 (*POPLOCK_FS_PREPOST_IRP) (
       IN PVOID Context,
       IN PIRP Irp
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -212,7 +201,7 @@ An opportunistic lock break (oplock) is underway. STATUS_OPLOCK_BREAK_IN_PROGRES
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreaktononeex">FltOplockBreakToNoneEx</a> instead of <b>FsRtlOplockBreakToNoneEx</b>.
+Minifilters should call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreaktononeex">FltOplockBreakToNoneEx</a> instead of <b>FsRtlOplockBreakToNoneEx</b>.
 
 
 
@@ -222,12 +211,11 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreaktononeex">FltOplockBreakToNoneEx</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreaktononeex">FltOplockBreakToNoneEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
  
 
  
-

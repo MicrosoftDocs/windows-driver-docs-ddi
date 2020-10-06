@@ -8,8 +8,6 @@ ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.date: 04/16/2018
 keywords: ["PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function"]
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
-f1_keywords:
- - "mrx/MRxCompleteBufferingStateChangeRequest"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxCompleteBufferingStateChangeRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_CHANGE_BUFFERING_STATE_CALLDOWN
+ - mrx/PMRX_CHANGE_BUFFERING_STATE_CALLDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxCompleteBufferingStateChangeRequest
 ---
 
 # PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed. 
-
+The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed.
 
 ## -parameters
 
+### -param RxContext 
 
-
-
-### -param RxContext [in, out]
-
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
+### -param SrvOpen 
 
-### -param SrvOpen [in, out]
-
+[in, out]
 A pointer to a context parameter for use by the network mini-redirector callback routine.
 
+### -param MRxContext 
 
-### -param MRxContext [in]
-
+[in]
 A pointer to the SRV_OPEN structure and the associated FCB structure to be changed.
 
-
 ## -returns
-
-
 
 <i>MRxCompleteBufferingStateChangeRequest</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
 
@@ -94,14 +86,8 @@ An option in the  buffering request change is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling <i>MRxCompleteBufferingStateChangeRequest</i>, RDBSS:
 
@@ -137,22 +123,12 @@ If lock buffering is enabled, <i>MRxCompleteBufferingStateChangeRequest</i> will
 
 The Server Message Block (SMB) redirector uses <i>MRxCompleteBufferingStateChangeRequest</i> to send an oplock break response or to close the handle on an oplock break if the file is no longer in use. Byte range locks that need to be flushed out to the server are passed to the network mini-redirector in the <b>LowIoContext.ParamsFor.Locks.LockList</b> member of the RX_CONTEXT structure. The new oplock level is passed in the <i>MrxContext</i> parameter.
 
-RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i>. 
-
-
-
+RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>

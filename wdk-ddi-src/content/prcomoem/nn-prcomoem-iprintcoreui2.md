@@ -8,8 +8,6 @@ ms.assetid: e2d2e486-d69d-4a6d-aaab-a7b8806665b4
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2 interface"]
 ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], IPrintCoreUI2 interface [Print Devices],described, prcomoem/IPrintCoreUI2, print.iprintcoreui2_interface, print_unidrv-pscript_ui_e96a2262-fab6-4128-b312-90fde72006e0.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2
+ - prcomoem/IPrintCoreUI2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2
 ---
 
 # IPrintCoreUI2 interface
@@ -47,16 +46,13 @@ req.typenames:
 
 ## -description
 
+This section describes the methods defined for the <a href="/windows-hardware/drivers/print/iprintcoreui2-com-interface">IPrintCoreUI2 COM Interface</a>.
 
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintcoreui2-com-interface">IPrintCoreUI2 COM Interface</a>.
-
-This interface inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>. The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
-
+This interface inherits from the <a href="/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>. The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

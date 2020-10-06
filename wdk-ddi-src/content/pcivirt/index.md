@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - pcivirt
+ - pcivirt/pcivirt
 ---
 
 # Pcivirt.h header
@@ -40,7 +41,7 @@ The system to be used for SR-IOV device assignment must meet the requirements fo
 
 More information here:
 
-[Everything you wanted to know about SR-IOV in Hyper-V. Part 1](https://blogs.technet.microsoft.com/jhoward/2012/03/12/everything-you-wanted-to-know-about-sr-iov-in-hyper-v-part-1/)
+[Everything you wanted to know about SR-IOV in Hyper-V. Part 1](/archive/blogs/jhoward/everything-you-wanted-to-know-about-sr-iov-in-hyper-v-part-1)
 
 [Discrete Device Assignment — Description and background](https://techcommunity.microsoft.com/t5/Virtualization/bg-p/Virtualization)
 
@@ -127,4 +128,3 @@ The virtualization stack is responsible for sending the appropriate messages to 
 - The virtualization stack queries the devices about PnP events by sending IOCTL_SRIOV_NOTIFICATION requests. The PF driver can inform the virtualization stack of a PnP event by completing the IOCTL_SRIOV_NOTIFICATION request.
 
 - The virtualization stack unblocks those events by sending IOCTL_SRIOV_EVENT_COMPLETE.
-

@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060
 title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060
-author: windows-driver-content
 description: Calculates the video motion vector heap size.
 tech.root: display
 ms.assetid: 5f8f7d0d-b272-4c83-813e-69110acc9c29
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060 callback function"]
 ms.prod: windows-hardware
@@ -30,7 +28,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060"
+ - PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060
 topic_type:
  - apiref
 api_type:
@@ -46,6 +45,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060 callback function
+
 
 ## -description
 

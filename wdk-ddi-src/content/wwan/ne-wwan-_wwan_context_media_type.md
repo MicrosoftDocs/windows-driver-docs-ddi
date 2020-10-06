@@ -5,35 +5,41 @@ description: The WWAN_CONTEXT_MEDIA_TYPE enumeration specifies the type of media
 tech.root: netvista
 ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
 ms.date: 08/22/2018
-keywords: ["_WWAN_CONTEXT_MEDIA_TYPE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_CONTEXT_MEDIA_TYPE"
-ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE, 
+keywords: ["WWAN_CONTEXT_MEDIA_TYPE enumeration"]
+ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_CONTEXT_MEDIA_TYPE
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_CONTEXT_MEDIA_TYPE
+ - wwan/_WWAN_CONTEXT_MEDIA_TYPE
+ - PWWAN_CONTEXT_MEDIA_TYPE
+ - wwan/PWWAN_CONTEXT_MEDIA_TYPE
+ - WWAN_CONTEXT_MEDIA_TYPE
+ - wwan/WWAN_CONTEXT_MEDIA_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_CONTEXT_MEDIA_TYPE
+product:
+ - Windows
 ---
 
 # _WWAN_CONTEXT_MEDIA_TYPE enumeration
+
 
 ## -description
 
@@ -66,3 +72,4 @@ This enumeration is used in the [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.m
 [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md)
 
 [**WWAN_SET_CONTEXT_V2**](ns-wwan-_wwan_set_context_v2.md)
+

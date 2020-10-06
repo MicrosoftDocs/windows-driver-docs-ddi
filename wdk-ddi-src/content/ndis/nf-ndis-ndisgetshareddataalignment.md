@@ -8,8 +8,6 @@ ms.assetid: 561315b4-8866-4f48-8138-12b1a38f743e
 ms.date: 05/02/2018
 keywords: ["NdisGetSharedDataAlignment function"]
 ms.keywords: NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment
-f1_keywords:
- - "ndis/NdisGetSharedDataAlignment"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetSharedDataAlignment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetSharedDataAlignment
+ - ndis/NdisGetSharedDataAlignment
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetSharedDataAlignment
 ---
 
 # NdisGetSharedDataAlignment function
@@ -48,24 +47,15 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisGetSharedDataAlignment</b> returns the preferred alignment for memory structures that can be shared
   by more than one processor.
 
-
 ## -returns
-
-
 
 The boundary value, in bytes, on which drivers should align structures that can be shared by more
      than one processor.
 
-
-
-
 ## -remarks
-
-
 
 Use 
     <b>NdisGetSharedDataAlignment</b> to determine the best alignment for data structures that will be shared
@@ -74,6 +64,4 @@ Use
 
 System support for 
     <b>NdisGetSharedDataAlignment</b> is available in Windows XP and later versions.
-
-
 

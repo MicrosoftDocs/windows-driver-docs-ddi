@@ -8,8 +8,6 @@ ms.assetid: b616a105-3c4b-42b7-8352-a1f35479572e
 ms.date: 05/10/2018
 keywords: ["EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
-f1_keywords:
- - "iddcx/PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- iddcx.h
-api_name:
-- PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION
+ - iddcx/EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION
 ---
 
 # EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b> is called by the OS to get OPM information.
-
 
 ## -parameters
 
+### -param OpmCxtObject 
 
-
-
-### -param OpmCxtObject [in]
-
+[in]
 The object for the OPM context that information will be gotten from.
 
+### -param pInArgs 
 
-### -param pInArgs [in]
-
+[in]
 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
 
+### -param pOutArgs 
 
-### -param pOutArgs [out]
-
+[out]
 Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
-
 
 ## -returns
 
-
-
-
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-                    
-
-
-
+(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.

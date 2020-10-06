@@ -5,10 +5,8 @@ description: Used to set the VidPN source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SETVIDPNSOURCEOWNER2 structure"]
+keywords: ["D3DKMT_SETVIDPNSOURCEOWNER2 structure"]
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2
-f1_keywords:
- - "d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_SETVIDPNSOURCEOWNER2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETVIDPNSOURCEOWNER2
+f1_keywords:
+ - _D3DKMT_SETVIDPNSOURCEOWNER2
+ - d3dkmthk/_D3DKMT_SETVIDPNSOURCEOWNER2
+ - D3DKMT_SETVIDPNSOURCEOWNER2
+ - d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_SETVIDPNSOURCEOWNER2
 ---
 
 # _D3DKMT_SETVIDPNSOURCEOWNER2 structure
@@ -47,19 +48,13 @@ req.typenames: D3DKMT_SETVIDPNSOURCEOWNER2
 
 ## -description
 
-
 Used to set the VidPN source owner.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version1
 
 The previous method used to set the VidPN source owner.
-
 
 ### -field pVidPnSourceNtHandles
 

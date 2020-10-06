@@ -5,10 +5,11 @@ description: Used to get the indicated process.
 old-location: display\d3dkmt-getprocessdevicelostsupport.htm
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure"]
+keywords: ["D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure"]
 ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
+ - "D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_GETPROCESSDEVICELOSTSUPPORT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT

@@ -8,8 +8,6 @@ ms.assetid: 9CF6C8FC-869A-4667-9859-845BFF093549
 ms.date: 02/23/2018
 keywords: ["SeEtwWriteKMCveEvent function"]
 ms.keywords: SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent
-f1_keywords:
- - "wdm/SeEtwWriteKMCveEvent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- SeEtwWriteKMCveEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeEtwWriteKMCveEvent
+ - wdm/SeEtwWriteKMCveEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - SeEtwWriteKMCveEvent
 ---
 
 # SeEtwWriteKMCveEvent function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.   
-
+The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.
 
 ## -parameters
 
+### -param CveId 
 
+[in]
+A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="http://go.microsoft.com/fwlink/?LinkId=798519">here</a>
 
+### -param AdditionalDetails 
 
-### -param CveId [in]
-
-A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="ttp://go.microsoft.com/fwlink/?LinkId=798519">here</a>
-
-
-### -param AdditionalDetails [in, optional]
-
+[in, optional]
 A pointer to a string giving additional details that the event producer may want to provide to the consumer of this event.
 
-
 ## -returns
-
-
 
 <b>SeEtwWriteKMCveEvent</b> returns one of the following values:
 
@@ -97,19 +89,13 @@ The driver was successfully published
 <td width="60%">
 Invalid pointer to CVE-ID passed
 
-<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
+<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
 <div> </div>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b> 	SeEtwWriteKMCveEvent</b> function publishes a CVE-based event. This function should be called only in scenarios where an attempt to exploit a known, patched vulnerability is detected by the application. Ideally, this function call should be added as part of the fix (update) itself. 
  The default consumer for this event is EventLog-System. To enable another consumer, the provider can be added to the consumer session.
@@ -122,13 +108,9 @@ Source Name: Microsoft-Windows-Audit-CVE or CVE-Audit
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 
 NTStatus status;
 UNICODE_STRING CVEID;
@@ -142,9 +124,5 @@ RtlInitUnicodeString(&EventDetails, L”Vulnerable request with data is logged i
 status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 
 //
-</pre>
-</td>
-</tr>
-</table></span></div>
 
-
+```

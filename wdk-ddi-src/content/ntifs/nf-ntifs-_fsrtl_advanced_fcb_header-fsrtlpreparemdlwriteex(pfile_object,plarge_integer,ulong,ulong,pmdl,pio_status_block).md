@@ -10,6 +10,7 @@ keywords: ["FsRtlPrepareMdlWriteEx function"]
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
 f1_keywords:
  - "ntifs/FsRtlPrepareMdlWriteEx"
+ - "FsRtlPrepareMdlWriteEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlPrepareMdlWriteEx
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,34 +58,34 @@ The <b>FsRtlPrepareMdlWriteEx</b> routine returns a linked list of memory descri
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the data to write to the cache.
 
 
-### -param LockKey [in]
-
+### -param LockKey 
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock. The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-### -param MdlChain [out]
-
+### -param MdlChain 
+[out]
 On output, a pointer to a linked list of memory descriptor lists (MDLs) that point to the byte range within the cached data.
 
 
-### -param IoStatus [out]
-
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+### -param IoStatus 
+[out]
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ## -returns
@@ -125,9 +124,9 @@ If fast I/O is available for the file system, the <b>FsRtlPrepareMdlWriteEx</b> 
 
  If fast I/O is not enabled, <b>FsRtlPrepareMdlWriteEx</b> will generate a synchronous IRP based MDL write prepare and return the MDLs allocated from the request.
 
-The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
+The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
 
-Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>.
+Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlwritecomplete">CcMdlWriteComplete</a>.
 
 
 
@@ -137,16 +136,15 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlwritecomplete">CcMdlWriteComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
  
 
  
-

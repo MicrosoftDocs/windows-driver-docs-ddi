@@ -8,8 +8,6 @@ ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTOutputStream::GetPacketCount"]
 ms.keywords: GetPacketCount, GetPacketCount method [Audio Devices], GetPacketCount method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetPacketCount method, IMiniportWaveRTOutputStream.GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, portcls/IMiniportWaveRTOutputStream::GetPacketCount
-f1_keywords:
- - "portcls/IMiniportWaveRTOutputStream.GetPacketCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Passive level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportWaveRTOutputStream.GetPacketCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportWaveRTOutputStream::GetPacketCount
+ - portcls/IMiniportWaveRTOutputStream::GetPacketCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportWaveRTOutputStream.GetPacketCount
 ---
 
 # IMiniportWaveRTOutputStream::GetPacketCount
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 GetPacketCount returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
-
 
 ## -parameters
 
+### -param pPacketCount 
 
-
-
-### -param pPacketCount [out]
-
-pPacketCount returns the number of packets completely transferred from the WaveRT buffer into hardware. 
-
-
+[out]
+pPacketCount returns the number of packets completely transferred from the WaveRT buffer into hardware.
 
 ## -returns
 
-
-
 <code>GetPacketCount</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 From the packet count, the OS can derive the stream position of the packets it writes into the WaveRT buffer. The OS can also derive the WaveRT buffer position of the next packet to write within the WaveRT buffer. For WaveRT drivers, the driver signals a single notification event as it transfers data from each packet of the WaveRT buffer. Therefore the event alone cannot indicate which packet within the WaveRT buffer is being transferred. In normal operation this is not a concern but in underflow cases correction is more easily achieved by querying the packet count from which the OS can determine which packet to write next.
 
@@ -85,16 +71,6 @@ The OS may get this property at any time. However it generally gets this propert
 
 The driver should reset the packet count to 0 when the stream is in KSSTATE_STOP.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>

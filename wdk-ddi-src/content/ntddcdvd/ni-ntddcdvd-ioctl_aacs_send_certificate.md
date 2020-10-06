@@ -8,8 +8,6 @@ ms.assetid: e56b2d31-cb59-489d-ab12-7657406ba67a
 ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_SEND_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_SEND_CERTIFICATE, IOCTL_AACS_SEND_CERTIFICATE control, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, storage.ioctl_aacs_send_certificate
-f1_keywords:
- - "ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdvd.h
-api_name:
-- IOCTL_AACS_SEND_CERTIFICATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_AACS_SEND_CERTIFICATE
+ - ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdvd.h
+api_name:
+ - IOCTL_AACS_SEND_CERTIFICATE
 ---
 
 # IOCTL_AACS_SEND_CERTIFICATE IOCTL
@@ -47,65 +46,36 @@ req.typenames:
 
 ## -description
 
-
-Sends the host certificate to the logical unit. 
-
+Sends the host certificate to the logical unit.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains host certificate of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a>.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains host certificate of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a>.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(AACS_SEND_CERTIFICATE). 
-
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(AACS_SEND_CERTIFICATE).
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(AACS_SEND_CERTIFICATE). 
-
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(AACS_SEND_CERTIFICATE).
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Information</b> field is set to the number of bytes transferred. The <b>Status</b> field is set to STATUS_SUCCESS or possibly STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -remarks
 
-
-
 The IOCTL_AACS_SEND_CERTIFICATE request corresponds to the step in the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth) in which the host sends its certificate and nonce to the drive. For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).
-
-
-

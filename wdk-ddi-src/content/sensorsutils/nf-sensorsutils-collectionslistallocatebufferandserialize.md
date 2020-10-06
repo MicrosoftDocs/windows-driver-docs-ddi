@@ -5,41 +5,40 @@ description: This routine allocates a buffer and then serializes a sensor collec
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
 ms.date: 08/07/2018
 keywords: ["CollectionsListAllocateBufferAndSerialize function"]
-f1_keywords:
- - "sensorsutils/CollectionsListAllocateBufferAndSerialize"
 tech.root: sensors
 ms.keywords: CollectionsListAllocateBufferAndSerialize
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- CollectionsListAllocateBufferAndSerialize
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - CollectionsListAllocateBufferAndSerialize
+ - sensorsutils/CollectionsListAllocateBufferAndSerialize
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - CollectionsListAllocateBufferAndSerialize
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # CollectionsListAllocateBufferAndSerialize function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine allocates a buffer and then serializes a sensor collection list to it. On success, callers must use [SerializationBufferFree](nf-sensorsutils-serializationbufferfree.md) to free the buffer.
-
 
 ## -parameters
 
@@ -71,3 +69,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

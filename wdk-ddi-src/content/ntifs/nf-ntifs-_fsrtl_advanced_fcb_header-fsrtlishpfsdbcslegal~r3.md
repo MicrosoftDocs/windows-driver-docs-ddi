@@ -10,6 +10,7 @@ keywords: ["FsRtlIsHpfsDbcsLegal function"]
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 f1_keywords:
  - "ntifs/FsRtlIsHpfsDbcsLegal"
+ - "FsRtlIsHpfsDbcsLegal"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlIsHpfsDbcsLegal
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,23 +55,23 @@ The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified ANSI or
 
 
 
-### -param DbcsName [in]
-
+### -param DbcsName 
+[in]
 A pointer to the string to be tested.
 
 
-### -param WildCardsPermissible [in]
-
+### -param WildCardsPermissible 
+[in]
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
-### -param PathNamePermissible [in]
-
+### -param PathNamePermissible 
+[in]
 Set to <b>TRUE</b> if <i>DbcsName</i> can be a full pathname containing backslash characters, <b>FALSE</b> if it can only be a file name.
 
 
-### -param LeadingBackslashPermissible [in]
-
+### -param LeadingBackslashPermissible 
+[in]
 Set to <b>TRUE</b> if a single leading backslash is permissible in the file or pathname, <b>FALSE</b> otherwise.
 
 
@@ -111,7 +110,7 @@ HPFS file names are case-preserving, but not case insensitive. Lowercase file na
 
 </li>
 </ol>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 
 
@@ -121,8 +120,7 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
  
 
  
-

@@ -8,8 +8,6 @@ ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
 ms.date: 04/16/2018
 keywords: ["FltQueryQuotaInformationFile function"]
 ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
-f1_keywords:
- - "fltkernel/FltQueryQuotaInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryQuotaInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryQuotaInformationFile
+ - fltkernel/FltQueryQuotaInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryQuotaInformationFile
 ---
 
 # FltQueryQuotaInformationFile function
@@ -47,73 +46,66 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltQueryQuotaInformationFile</b> routine retrieves quota entries associated with a file object.
-
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+An opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+A file object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>.
 
-An opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param IoStatusBlock 
 
-
-### -param FileObject [in]
-
-A file object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param IoStatusBlock [out]
-
+[out]
 A caller-supplied <b>IO_STATUS_BLOCK</b> to receive the result of the call to <b>FltQueryQuotaInformationFile</b>. If the call  fails because of an invalid <b>SID</b> list, the <b>Information</b> field will contain the location in <i>SidList</i> where the error occurred.
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information"> FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned.
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information"> FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned. 
+### -param Length 
 
+[in]
+The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
-### -param Length [in]
+### -param ReturnSingleEntry 
 
-The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
+[in]
+Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should return only the first entry that is found.
 
+### -param SidList 
 
-### -param ReturnSingleEntry [in]
+[in, optional]
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that specifies the quota information to be queried. This parameter is optional and can be <b>NULL</b>.
 
-Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should return only the first entry that is found. 
+### -param SidListLength 
 
+[in]
+The length, in bytes, of the buffer that the <i>SidList</i> parameter points to.
 
-### -param SidList [in, optional]
+### -param StartSid 
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that specifies the quota information to be queried. This parameter is optional and can be <b>NULL</b>. 
+[in, optional]
+The index of the entry at which to begin scanning the file's quota information list. This parameter is ignored if the <i>SidList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>.
 
+### -param RestartScan 
 
-### -param SidListLength [in]
+[in]
+Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should begin the scan at the first entry in the file's quota information list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryQuotaInformationFile</b>.
 
-The length, in bytes, of the buffer that the <i>SidList</i> parameter points to. 
+### -param LengthReturned 
 
-
-### -param StartSid [in, optional]
-
-The index of the entry at which to begin scanning the file's quota information list. This parameter is ignored if the <i>SidList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param RestartScan [in]
-
-Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should begin the scan at the first entry in the file's quota information list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryQuotaInformationFile</b>. 
-
-
-### -param LengthReturned [out, optional]
-
-A pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>Buffer</i>. This parameter is optional and can be <b>NULL</b>. 
-
+[out, optional]
+A pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>Buffer</i>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltQueryQuotaInformationFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following. 
 
@@ -134,26 +126,15 @@ The instance or volume is being torn down. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetquotainformationfile">FltSetQuotaInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetquotainformationfile">FltSetQuotaInformationFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567064">ZwQueryQuotaInformationFile</a>
- 
-
- 
-
+<a href="/previous-versions/ff567064(v=vs.85)">ZwQueryQuotaInformationFile</a>

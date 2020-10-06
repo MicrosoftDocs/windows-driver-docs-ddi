@@ -6,10 +6,8 @@ old-location: nfpdrivers\_secure_element_event_type.htm
 tech.root: nfpdrivers
 ms.assetid: 45DCE635-6F28-4BE1-8362-568409FA8B1B
 ms.date: 02/15/2018
-keywords: ["_SECURE_ELEMENT_EVENT_TYPE enumeration"]
+keywords: ["SECURE_ELEMENT_EVENT_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_EVENT_TYPE, ApplicationSelected, ExternalReaderArrival, ExternalReaderDeparture, HceActivated, HceDeactivated, SECURE_ELEMENT_EVENT_TYPE, Transaction, _SECURE_ELEMENT_EVENT_TYPE, _SECURE_ELEMENT_EVENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/ApplicationSelected, nfcsedev/ExternalReaderArrival, nfcsedev/ExternalReaderDeparture, nfcsedev/HceActivated, nfcsedev/HceDeactivated, nfcsedev/Transaction, nfcsedev/_SECURE_ELEMENT_EVENT_TYPE, nfpdrivers._secure_element_event_type"
-f1_keywords:
- - "nfcsedev/SECURE_ELEMENT_EVENT_TYPE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- SECURE_ELEMENT_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_TYPE, *PSECURE_ELEMENT_EVENT_TYPE
+f1_keywords:
+ - _SECURE_ELEMENT_EVENT_TYPE
+ - nfcsedev/_SECURE_ELEMENT_EVENT_TYPE
+ - PSECURE_ELEMENT_EVENT_TYPE
+ - nfcsedev/PSECURE_ELEMENT_EVENT_TYPE
+ - SECURE_ELEMENT_EVENT_TYPE
+ - nfcsedev/SECURE_ELEMENT_EVENT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - SECURE_ELEMENT_EVENT_TYPE
 ---
 
 # _SECURE_ELEMENT_EVENT_TYPE enumeration
@@ -47,39 +50,29 @@ req.typenames: SECURE_ELEMENT_EVENT_TYPE, *PSECURE_ELEMENT_EVENT_TYPE
 
 ## -description
 
-
 Indicates the type of secure element events.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ExternalReaderArrival
 
 This event is fired when an external reader has established a connection with the indicated secure element. No other parameters are given for this event.
 
-
 ### -field ExternalReaderDeparture
 
 This event is fired when an external reader has terminated a connection with the indicated secure element. No other parameters are given for this event.
-
 
 ### -field ApplicationSelected
 
 This event is fired when the external reader has issued a “SELECT” command to select an application on the specified secure element. Additionally, the event notification includes the application ID (AID) of the selected application. Not all types of secure elements support the ability to raise this event.
 
-
 ### -field Transaction
 
 This event is fired when an application that is operating within the secure element notifies the controller that some form of action has occurred. This event sends a list of parameters that is coded in BER-TLV fields. This event is mapped to EVT_TRANSACTION.
 
-
 ### -field HceActivated
 
 This event is fired when a listen mode interface is activated to the device host. This event sends the current connection ID, activated RF protocol, and technology.
-
 
 ### -field HceDeactivated
 

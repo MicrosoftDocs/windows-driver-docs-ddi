@@ -8,8 +8,6 @@ ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.date: 05/03/2018
 keywords: ["WritePhysical function"]
 ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical
-f1_keywords:
- - "wdbgexts/WritePhysical"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dbgeng.h
-api_name:
-- WritePhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WritePhysical
+ - wdbgexts/WritePhysical
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dbgeng.h
+api_name:
+ - WritePhysical
 ---
 
 # WritePhysical function
@@ -47,40 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>WritePhysical</b> function writes to physical memory.
-
 
 ## -parameters
 
+### -param address 
 
-
-
-### -param address [in]
-
+[in]
 Specifies the physical address to write.
 
+### -param buf 
 
-### -param buf [in]
-
+[in]
 Specifies the address of an array of bytes to hold the data that is written.
 
+### -param size 
 
-### -param size [in]
+[in]
+Specifies the number of bytes to write.
 
-Specifies the number of bytes to write. 
+### -param sizew 
 
-
-### -param sizew [out, optional]
-
+[out, optional]
 Receives the number of bytes actually written.
-
 
 ## -remarks
 
-
-
-For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details.
-
-
-
+For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details.

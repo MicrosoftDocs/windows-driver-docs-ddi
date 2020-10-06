@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB
 title: PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB
-author: windows-driver-content
 description: Creates a GPU synchronization object that a device context can signal and wait for. Used by WDDM 2.6 and later user-mode display drivers.
 tech.root: display
 ms.assetid: fa9dd71f-6178-4fe3-9519-dfca15f76c81
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB callback function"]
 ms.prod: windows-hardware
@@ -30,7 +28,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB"
+ - PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB
+ - d3d12umddi/PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB
 topic_type:
  - apiref
 api_type:
@@ -46,6 +45,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB callback function
+
 
 ## -description
 

@@ -5,10 +5,8 @@ description: The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a 
 old-location: display\d3dkmdt_displaymode_flags.htm
 ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789
 ms.date: 05/10/2018
-keywords: ["_D3DKMDT_DISPLAYMODE_FLAGS structure"]
+keywords: ["D3DKMDT_DISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, _D3DKMDT_DISPLAYMODE_FLAGS, d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, display.d3dkmdt_displaymode_flags
-f1_keywords:
- - "d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMDT_DISPLAYMODE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMDT_DISPLAYMODE_FLAGS
+f1_keywords:
+ - _D3DKMDT_DISPLAYMODE_FLAGS
+ - d3dkmthk/_D3DKMDT_DISPLAYMODE_FLAGS
+ - D3DKMDT_DISPLAYMODE_FLAGS
+ - d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMDT_DISPLAYMODE_FLAGS
 ---
 
 # _D3DKMDT_DISPLAYMODE_FLAGS structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMDT_DISPLAYMODE_FLAGS
 
 ## -description
 
-
 The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ValidatedAgainstMonitorCaps
 
@@ -68,7 +64,6 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 
 Supported starting with Windows 8.
 
-
 ### -field RoundedFakeMode
 
 A Boolean value that specifies whether the display mode is rounded.
@@ -81,19 +76,17 @@ Setting this member is equivalent to setting the second bit of a 32-bit value (0
 
 Supported starting with Windows 8.
 
-
 ### -field ModePruningReason
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
 Setting this member is equivalent to setting bits 4 through 7 of a 32-bit value (0x0000003C).
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
 This member is equivalent to bits 4 through 7 of a 32-bit value (0x0000003C). 
 
 Supported starting with Windows 8.
-
 
 ### -field Stereo
 
@@ -105,27 +98,19 @@ Setting this member is equivalent to setting the eighth bit of a 32-bit value (0
 
 Supported starting with Windows 8.
 
-
 ### -field AdvancedScanCapable
 
 [in] A UINT value that specifies whether the driver supports the advanced scan capability.
 
-The driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to <b>D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN</b>.
+The driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to <b>D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN</b>.
 
 Setting this member is equivalent to setting the ninth bit of a 32-bit value (0x00000100).
 
 Supported starting with Windows 8.
 
-
 ### -field PreferredTiming
 
- 
-
-
 ### -field PhysicalModeSupported
-
- 
-
 
 ### -field Reserved
 
@@ -137,18 +122,10 @@ Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) 
 
 Supported starting with Windows 8.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>

@@ -8,8 +8,6 @@ ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.date: 04/20/2018
 keywords: ["IPrintOemDriverUni::DrvGetGPDData"]
 ms.keywords: DrvGetGPDData, DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetGPDData method, IPrintOemDriverUni.DrvGetGPDData, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
-f1_keywords:
- - "prcomoem/IPrintOemDriverUni.DrvGetGPDData"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemDriverUni.DrvGetGPDData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemDriverUni::DrvGetGPDData
+ - prcomoem/IPrintOemDriverUni::DrvGetGPDData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemDriverUni.DrvGetGPDData
 ---
 
 # IPrintOemDriverUni::DrvGetGPDData
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
-The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file.
-
+The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's <a href="/windows-hardware/drivers/">GPD</a> file.
 
 ## -parameters
 
-
-
-
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
-
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param dwType
 
@@ -81,32 +74,24 @@ The method returns the string associated with a GPD file's *<b>OEMCustomData</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pInputData
 
 Reserved. Must be zero.
 
-
 ### -param pBuffer
 
 Caller-supplied pointer to a buffer to receive the requested information.
-
 
 ### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
-
 ### -param pcbNeeded
 
 Receives the driver-supplied minimum buffer size, in bytes, required to contain the requested information.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -149,16 +134,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the buffer specified by <i>pBuffer</i> and <i>cbSize</i> is too small to receive the requested information, Unidrv supplies the required buffer size in the location pointed to by <i>pcbNeeded</i>, returns E_FAIL, and sets the error code to ERROR_INSUFFICIENT_BUFFER.
-
-
-

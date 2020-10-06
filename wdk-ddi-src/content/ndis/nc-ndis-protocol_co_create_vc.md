@@ -8,8 +8,6 @@ ms.assetid: b086dd24-74f5-474a-8684-09bf92ac731b
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_CREATE_VC callback function"]
 ms.keywords: PROTOCOL_CO_CREATE_VC, PROTOCOL_CO_CREATE_VC callback, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
-f1_keywords:
- - "ndis/ProtocolCoCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoCreateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_CREATE_VC
+ - ndis/PROTOCOL_CO_CREATE_VC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoCreateVc
 ---
 
 # PROTOCOL_CO_CREATE_VC callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoCreateVc</i> function is a required function that allocates resources necessary for a call
@@ -56,37 +54,32 @@ The
 
 ## -parameters
 
+### -param ProtocolAfContext 
 
-
-
-### -param ProtocolAfContext [in]
-
+[in]
 Specifies the handle to a protocol-allocated context area in which the call manager or client
      maintains its per-open state. The call manager supplied this handle from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function. The client
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function. The client
      supplied this handle when it called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> from
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> from
      its 
      <i>ProtocolCoAfRegisterNotify</i> function.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies a handle, supplied by NDIS, that uniquely identifies this virtual connection. This
      handle is opaque to the protocol driver and reserved for NDIS library use. However, the call manager and
      client must save this handle to pass in subsequent calls to 
      <b>NdisCo/Cl/Cm/MCm<i>Xxx</i></b> functions that concern this VC.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [out]
-
+[out]
 Specifies the handle to a protocol-supplied context area in which the call manager or client
      maintains state about this virtual connection.
 
-
 ## -returns
-
-
 
 <i>ProtocolCoCreateVc</i> returns the status of its operation(s) as one of the following values:
 
@@ -137,25 +130,19 @@ Indicates that the call manager or client could not set itself into a state wher
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>ProtocolCoCreateVc</i> function of a call manager or client is called whenever the corresponding client
     or call manager, respectively, calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>. Clients initiate the
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>. Clients initiate the
     creation of VCs in the process of setting up their outgoing calls before they call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>. A call manager initiates
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>. A call manager initiates
     the creation of a VC in the process of notifying its client that the CM received an incoming call offer
     from a remote node that is directed to a SAP already registered with the CM by that client before the CM
     calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">
     NdisCmDispatchIncomingCall</a>.
 
 <i>ProtocolCoCreateVc</i> performs any necessary allocations of dynamic resources and structures that the
@@ -177,16 +164,11 @@ When a call manager or client has allocated memory for its own per-VC data and i
     this, dereference the handle and store a pointer to the protocol-allocated data area as the value of the
     handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*ProtocolVcContext = SomeBuffer;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+*ProtocolVcContext = SomeBuffer;
+```
+
 If 
     <i>ProtocolCoCreateVc</i> cannot allocate the resource it needs to carry out subsequent network I/O
     operations, it should free all resources that were allocated for this VC and return control with a status
@@ -204,7 +186,7 @@ Calls to
 
 After a call manager's 
     <i>ProtocolCoCreateVc</i> function returns control, the call manager's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function will be
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function will be
     called to establish a connection to a remote node. Call managers should not take any action in 
     <i>ProtocolCmMakeCall</i> that actually establishes a call because it is possible the VC will be destroyed
     before a call is established due to an error condition in another component of connection-oriented
@@ -212,82 +194,62 @@ After a call manager's
 
 After a client's 
     <i>ProtocolCoCreateVc</i> function returns control, the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a> function
     will be notified when a remote-initiated request to connect on a SAP previously registered by the client
     comes in over the network.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCoCreateVc</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCoCreateVc</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCoCreateVc</i> function that is named "MyCoCreateVc", use the <b>PROTOCOL_CO_CREATE_VC</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CO_CREATE_VC MyCoCreateVc;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CO_CREATE_VC MyCoCreateVc;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyCoCreateVc(
     NDIS_HANDLE  ProtocolAfContext,
     NDIS_HANDLE  NdisVcHandle,
     PNDIS_HANDLE  ProtocolVcContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>PROTOCOL_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>

@@ -6,10 +6,8 @@ old-location: whea\whea_xpf_nmi_descriptor.htm
 tech.root: whea
 ms.assetid: 4ffacbd6-dcdf-48a2-bf1e-6923d825bb09
 ms.date: 02/20/2018
-keywords: ["_WHEA_XPF_NMI_DESCRIPTOR structure"]
+keywords: ["WHEA_XPF_NMI_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_NMI_DESCRIPTOR, ntddk/PWHEA_XPF_NMI_DESCRIPTOR, ntddk/WHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor, whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml"
-f1_keywords:
- - "ntddk/WHEA_XPF_NMI_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_XPF_NMI_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_NMI_DESCRIPTOR, *PWHEA_XPF_NMI_DESCRIPTOR
+f1_keywords:
+ - _WHEA_XPF_NMI_DESCRIPTOR
+ - ntddk/_WHEA_XPF_NMI_DESCRIPTOR
+ - PWHEA_XPF_NMI_DESCRIPTOR
+ - ntddk/PWHEA_XPF_NMI_DESCRIPTOR
+ - WHEA_XPF_NMI_DESCRIPTOR
+ - ntddk/WHEA_XPF_NMI_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_XPF_NMI_DESCRIPTOR
 ---
 
 # _WHEA_XPF_NMI_DESCRIPTOR structure
@@ -47,41 +50,22 @@ req.typenames: WHEA_XPF_NMI_DESCRIPTOR, *PWHEA_XPF_NMI_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_XPF_NMI_DESCRIPTOR structure describes a nonmaskable interrupt (NMI) error source for an x86 or x64 processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_XPFNMI.
 
-
 ### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
-
 ## -remarks
 
-
-
-A WHEA_XPF_NMI_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
-
-
-
+A WHEA_XPF_NMI_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>

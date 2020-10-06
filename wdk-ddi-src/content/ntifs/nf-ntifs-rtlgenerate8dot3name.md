@@ -8,8 +8,6 @@ ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.date: 04/16/2018
 keywords: ["RtlGenerate8dot3Name function"]
 ms.keywords: RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, ntifs/RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
-f1_keywords:
- - "ntifs/RtlGenerate8dot3Name"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlGenerate8dot3Name
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlGenerate8dot3Name
+ - ntifs/RtlGenerate8dot3Name
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlGenerate8dot3Name
 ---
 
 # RtlGenerate8dot3Name function
@@ -47,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlGenerate8dot3Name</b> routine generates a short (8.3) name for the specified long file name. 
-
+The <b>RtlGenerate8dot3Name</b> routine generates a short (8.3) name for the specified long file name.
 
 ## -parameters
 
+### -param Name 
 
+[in]
+Pointer to a Unicode string containing the long name for the file. Any leading periods in this file name are skipped during generation of a corresponding short name.
 
+### -param AllowExtendedCharacters 
 
-### -param Name [in]
+[in]
+Set to <b>TRUE</b> if the generated short file name can contain extended characters. Set to <b>FALSE</b> if the generated short file name must contain only characters within the current code page's ANSI or OEM range from 0x20 (space) through 0x7f (DEL).
 
-Pointer to a Unicode string containing the long name for the file. Any leading periods in this file name are skipped during generation of a corresponding short name. 
+### -param Context 
 
-
-### -param AllowExtendedCharacters [in]
-
-Set to <b>TRUE</b> if the generated short file name can contain extended characters. Set to <b>FALSE</b> if the generated short file name must contain only characters within the current code page's ANSI or OEM range from 0x20 (space) through 0x7f (DEL). 
-
-
-### -param Context [in, out]
-
+[in, out]
 Pointer to a caller-allocated buffer for use by <b>RtlGenerate8dot3Name</b>. Before calling <b>RtlGenerate8dot3Name</b> for the first time to translate the given long file name, the caller is responsible for filling the buffer with zeros.
 
+### -param Name8dot3 
 
-### -param Name8dot3 [in, out]
-
-Pointer to a caller-allocated buffer to receive the generated short file name. The size of this buffer must be at least 24 bytes (12 Unicode characters). 
-
+[in, out]
+Pointer to a caller-allocated buffer to receive the generated short file name. The size of this buffer must be at least 24 bytes (12 Unicode characters).
 
 ## -returns
 
-
-
 This routine returns STATUS_SUCCESS if a short name is successfully generated. It returns STATUS_FILE_SYSTEM_LIMITATION if the system can not generate a unique short name for a given file. It returns this error after 1 million retry attempts for a single given long name.
 
-
-
-
 ## -remarks
-
-
 
 <b>RtlGenerate8dot3Name</b> returns a generated short name with at most eight characters, followed immediately by a period and up to three more characters. 
 
@@ -117,26 +104,16 @@ Square brackets
 
 </li>
 </ul>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlisnamelegaldos8dot3">RtlIsNameLegalDOS8Dot3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlisnamelegaldos8dot3">RtlIsNameLegalDOS8Dot3</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlisvalidoemcharacter">RtlIsValidOemCharacter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlisvalidoemcharacter">RtlIsValidOemCharacter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053"
+ - PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
+ - d3d12umddi/PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053 callback function
+
 
 ## -description
 
@@ -60,7 +62,6 @@ Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0053](ns-d3d12umd
 ### -param pInputArguments
 
 Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053](ns-d3d12umddi-d3d12ddi_resolve_video_motion_vector_heap_input_0053.md) structure containing input arguments.
-
 
 ## -prototype
 

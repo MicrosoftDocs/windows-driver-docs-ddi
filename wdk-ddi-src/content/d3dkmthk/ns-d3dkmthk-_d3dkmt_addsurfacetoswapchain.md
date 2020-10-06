@@ -5,10 +5,11 @@ description: Used to add a surface to the swapchain.
 old-location: display\d3dkmt-addsurfacetoswapchain.htm
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_ADDSURFACETOSWAPCHAIN structure"]
+keywords: ["D3DKMT_ADDSURFACETOSWAPCHAIN structure"]
 ms.keywords: D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN"
+ - "D3DKMT_ADDSURFACETOSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_ADDSURFACETOSWAPCHAIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ADDSURFACETOSWAPCHAIN

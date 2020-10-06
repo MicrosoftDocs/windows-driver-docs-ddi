@@ -8,8 +8,6 @@ ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
 ms.date: 02/26/2018
 keywords: ["WDF_WORKITEM_CONFIG_INIT function"]
 ms.keywords: DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT function, kmdf.wdf_workitem_config_init, wdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT
-f1_keywords:
- - "wdfworkitem/WDF_WORKITEM_CONFIG_INIT"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfworkitem.h
-api_name:
-- WDF_WORKITEM_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WORKITEM_CONFIG_INIT
+ - wdfworkitem/WDF_WORKITEM_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfworkitem.h
+api_name:
+ - WDF_WORKITEM_CONFIG_INIT
 ---
 
 # WDF_WORKITEM_CONFIG_INIT function
@@ -47,59 +46,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_WORKITEM_CONFIG_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure.
-
+The <b>WDF_WORKITEM_CONFIG_INIT</b> function initializes a driver's <a href="/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure.
 
 ## -parameters
 
+### -param Config 
 
+[out]
+A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure to initialize.
 
+### -param EvtWorkItemFunc 
 
-### -param Config [out]
-
-A pointer to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure to initialize.
-
-
-### -param EvtWorkItemFunc [in]
-
-The address of the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> event callback function.
-
+[in]
+The address of the driver's <a href="/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> event callback function.
 
 ## -remarks
 
+Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
-
-Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
-
-The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>Config</i> parameter to <b>TRUE</b>.
+The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>Config</i> parameter to <b>TRUE</b>.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
+For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>

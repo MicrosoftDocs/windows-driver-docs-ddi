@@ -8,8 +8,6 @@ ms.assetid: ae70c0e5-0ce0-4e44-983c-9bc0f9a1f600
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml, display.ioctl_video_set_child_state_configuration, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
+ - ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
 ---
 
 # IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION IOCTL
@@ -47,90 +46,44 @@ req.typenames:
 
 ## -description
 
-
-
-Performs a display device switch, a state change in which the video signal going to one display device is sent to another, possibly different type of display device. After the display device switch, the video signal can be sent to one or both display devices. When the video port driver receives a notification to switch display devices, it sends this IOCTL to the miniport driver. Normally, this IOCTL is sent after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_validate_child_state_configuration">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a> indicates that the miniport driver is ready to make the switch. If the miniport driver is capable of switching display devices, it should do so and set the <b>Status</b> member of <b>StatusBlock</b> to NO_ERROR.
+Performs a display device switch, a state change in which the video signal going to one display device is sent to another, possibly different type of display device. After the display device switch, the video signal can be sent to one or both display devices. When the video port driver receives a notification to switch display devices, it sends this IOCTL to the miniport driver. Normally, this IOCTL is sent after <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_validate_child_state_configuration">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a> indicates that the miniport driver is ready to make the switch. If the miniport driver is capable of switching display devices, it should do so and set the <b>Status</b> member of <b>StatusBlock</b> to NO_ERROR.
 
 If the miniport driver is not capable of performing the display device switch, it can set the <b>Status</b> member of <b>StatusBlock</b> to an appropriate error value (described in the <b>StatusBlock</b> section), choosing not to handle the request. Although this request is optional, it is highly recommended that the miniport driver handle this request. Failure to do so forces a call to the BIOS to handle the display device switch, which can be very inefficient, and can have an adverse effect on the system's robustness. 
 
-IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION is synchronous. After this IOCTL is sent, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_get_child_state">IOCTL_VIDEO_GET_CHILD_STATE</a> should reflect the new state. 
+IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION is synchronous. After this IOCTL is sent, <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_get_child_state">IOCTL_VIDEO_GET_CHILD_STATE</a> should reflect the new state. 
 
 This request is modal.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a> structure.
-
+The VRP <b>InputBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a> structure.
 
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The miniport driver sets the <b>Status</b> member to NO_ERROR if it is capable of performing the display device switch. If it is not able to carry out this operation, the miniport driver can set <b>Status</b> to an appropriate error value, or do nothing at all.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_get_child_state">IOCTL_VIDEO_GET_CHILD_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_get_child_state">IOCTL_VIDEO_GET_CHILD_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_validate_child_state_configuration">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_validate_child_state_configuration">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a>

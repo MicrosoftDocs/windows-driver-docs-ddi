@@ -5,37 +5,37 @@ description: Used to specify what type of UAV access to perform within the Rende
 ms.assetid: 818b0fec-d52b-419f-b14e-86db6fc07e1a
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS"
-ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, 
+ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
+ - d3d12umddi/D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration
+
 
 ## -description
 
@@ -60,3 +60,4 @@ Indicates that the Render Pass allows write access.
 UAV bindings via root tables or root descriptors are inherited into Render Passes, and are propagated out of Render Passes.
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperUni::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumOptions method, IPrintCoreHelperUni.EnumOptions, IPrintCoreHelperUni::EnumOptions, prcomoem/IPrintCoreHelperUni::EnumOptions, print.iprintcorehelperuni_enumoptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelperUni.EnumOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintCoreHelperUni.EnumOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelperUni::EnumOptions
+ - prcomoem/IPrintCoreHelperUni::EnumOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintCoreHelperUni.EnumOptions
 ---
 
 # IPrintCoreHelperUni::EnumOptions
@@ -47,27 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <code>IPrintCoreHelperUni::EnumOptions</code> method gets a list of available options for the given feature. 
-
+The <code>IPrintCoreHelperUni::EnumOptions</code> method gets a list of available options for the given feature.
 
 ## -parameters
 
+### -param pszFeatureKeyword 
 
-
-
-### -param pszFeatureKeyword [in]
-
-An ANSI character string that contains the feature whose options are requested. 
-
+[in]
+An ANSI character string that contains the feature whose options are requested.
 
 ### -param pOptionList
 
+### -param pdwNumOptions 
 
-
-
-### -param pdwNumOptions [out]
-
+[out]
 A pointer to a variable that receives the number of options in the option array that is pointed to by the <i>pOptionList</i> parameter.
 
 
@@ -75,40 +67,22 @@ A pointer to a variable that receives the number of options in the option array 
 
 A pointer to an array of ANSI character strings that contain all of the options for the feature specified in the <i>pszFeatureKeyword</i> parameter. <code>IPrintCoreHelperUni::EnumOptions</code> is responsible for allocating the memory for the array. The last element of the array must be a <b>NULL</b> string.
 
-
 ## -returns
-
-
 
 <code>IPrintCoreHelperUni::EnumOptions</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
-
-
-
 ## -remarks
-
-
 
 When <code>IPrintCoreHelperUni::EnumOptions</code> returns, the option list contains all options, regardless of constraints or other factors.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumconstrainedoptions">IPrintCoreHelperUni::EnumConstrainedOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumconstrainedoptions">IPrintCoreHelperUni::EnumConstrainedOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumfeatures">IPrintCoreHelperUni::EnumFeatures</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumfeatures">IPrintCoreHelperUni::EnumFeatures</a>

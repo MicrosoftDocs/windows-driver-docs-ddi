@@ -6,10 +6,8 @@ old-location: stream\ksmpegvid_rect.htm
 tech.root: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.date: 04/23/2018
-keywords: ["_KSMPEGVID_RECT structure"]
+keywords: ["KSMPEGVID_RECT structure"]
 ms.keywords: "*PKSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], _KSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml"
-f1_keywords:
- - "ksmedia/KSMPEGVID_RECT"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSMPEGVID_RECT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
+f1_keywords:
+ - _KSMPEGVID_RECT
+ - ksmedia/_KSMPEGVID_RECT
+ - PKSMPEGVID_RECT
+ - ksmedia/PKSMPEGVID_RECT
+ - KSMPEGVID_RECT
+ - ksmedia/KSMPEGVID_RECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSMPEGVID_RECT
 ---
 
 # _KSMPEGVID_RECT structure
@@ -47,22 +50,13 @@ req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 
 ## -description
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field StartX
 
-
 ### -field StartY
 
-
 ### -field EndX
-
 
 ### -field EndY
 

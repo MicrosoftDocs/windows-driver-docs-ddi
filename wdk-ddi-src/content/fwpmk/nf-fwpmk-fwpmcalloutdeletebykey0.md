@@ -8,8 +8,6 @@ ms.assetid: b4c3cb7e-9c4a-40a5-a11b-952562c4790b
 ms.date: 05/02/2018
 keywords: ["FwpmCalloutDeleteByKey0 function"]
 ms.keywords: FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutDeleteByKey0, netvista.fwpmcalloutdeletebykey0, wfp_ref_2_funct_2_fwpm_606dbd2f-8df7-497b-8feb-ba7aedbabedb.xml
-f1_keywords:
- - "fwpmk/FwpmCalloutDeleteByKey0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpmCalloutDeleteByKey0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpmCalloutDeleteByKey0
+ - fwpmk/FwpmCalloutDeleteByKey0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpmCalloutDeleteByKey0
 ---
 
 # FwpmCalloutDeleteByKey0 function
@@ -48,34 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpmCalloutDeleteByKey0</b> function deletes a callout from the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmCalloutDeleteByKey0</b> is a specific version of <b>FwpmCalloutDeleteByKey</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmCalloutDeleteByKey0</b> is a specific version of <b>FwpmCalloutDeleteByKey</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
+     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
+### -param key 
 
-### -param key [in]
-
+[in]
 A pointer to a GUID that uniquely identifies the callout that is being deleted from the filter
      engine. This must be a pointer to the same GUID that was specified when the callout driver called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a> function to add the
+     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a> function to add the
      callout to the filter engine.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpmCalloutDeleteByKey0</b> function returns one of the following NTSTATUS codes.
@@ -131,43 +124,27 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpmCalloutDeleteByKey0</b> function to delete a callout from the filter engine, using the GUID key to
     identify the callout to be deleted.
 
 Callout drivers do not typically delete their callouts from the filter engine. In most situations, this
-    is handled by a user-mode <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> management application.
+    is handled by a user-mode <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> management application.
 
 A callout can be deleted from the filter engine only if there are no filters in the filter engine that
     specify the callout for the filter's action.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
+<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>

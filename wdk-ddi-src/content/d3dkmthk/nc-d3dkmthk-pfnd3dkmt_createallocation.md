@@ -7,8 +7,6 @@ ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEALLOCATION callback function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,28 +24,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTCreateAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_CREATEALLOCATION
+ - d3dkmthk/PFND3DKMT_CREATEALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTCreateAllocation
 ---
 
 # PFND3DKMT_CREATEALLOCATION callback function
 
+
 ## -description
 
 The <b>D3DKMTCreateAllocation</b> function creates allocations of system or video memory.
-
 
 ## -parameters
 
@@ -55,7 +54,7 @@ The <b>D3DKMTCreateAllocation</b> function creates allocations of system or vide
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a> structure that contains information for creating allocations.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a> structure that contains information for creating allocations.
 
 ## -returns
 
@@ -66,9 +65,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | Allocations were successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation)  could not complete because of insufficient memory. | 
-| **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation)  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. | 
- 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateAllocation](./nf-d3dkmthk-d3dkmtcreateallocation.md)  could not complete because of insufficient memory. | 
+| **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation](./nf-d3dkmthk-d3dkmtcreateallocation.md)  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. | 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks
@@ -152,4 +151,4 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a>

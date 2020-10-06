@@ -8,8 +8,6 @@ ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.date: 02/15/2018
 keywords: ["GNSS_GEOFENCE_CREATE_PARAM structure"]
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_create_param, gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM"
-f1_keywords:
- - "gnssdriver/GNSS_GEOFENCE_CREATE_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_GEOFENCE_CREATE_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM
+f1_keywords:
+ - PGNSS_GEOFENCE_CREATE_PARAM
+ - gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM
+ - GNSS_GEOFENCE_CREATE_PARAM
+ - gnssdriver/GNSS_GEOFENCE_CREATE_PARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_GEOFENCE_CREATE_PARAM
 ---
 
 # GNSS_GEOFENCE_CREATE_PARAM structure
@@ -47,24 +48,17 @@ req.typenames: GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM
 
 ## -description
 
-
 This structure defines the parameters for creating a geofence in the GNSS engine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field AlertTypes
 
@@ -78,18 +72,15 @@ If the HLOS sets both the bitmasks, the GNSS engine must track the geofence all 
 
 In all cases, the GNSS engine must separately raise the global tracking status alert if it is unable to track the geofences (irrespective of their alert settings).
 
-
 ### -field InitialState
 
 Indicates the initial state of the specific geofence, as seen by the HLOS.  The GNSS engine must use this state as the starting state of the geofence, as opposed always starting from the GNSS_GeofenceState_Unknown state. This allows the GNSS engine to stay in sync with the HLOS in terms of the geofence states and get around any differences in geofence entry or  exit detection logic between the GNSS engine and the HLOS.
 
 As the GNSS engine starts tracking the newly added geofence, if it determines that the geofence is in a different state than this initial state, it should raise the appropriate alert. Conversely, if the states are identical, no alert should be raised.
 
-
 ### -field Boundary
 
 The actual boundary of the geofence.
-
 
 ### -field Unused
 
@@ -102,12 +93,7 @@ The actual boundary of the geofence.
 
 Padding buffer.
 
-
 ## -remarks
 
-
-
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
-
-
 

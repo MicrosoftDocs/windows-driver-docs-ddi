@@ -6,10 +6,8 @@ old-location: netvista\tcp_offload_stats.htm
 tech.root: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.date: 05/02/2018
-keywords: ["_TCP_OFFLOAD_STATS structure"]
+keywords: ["TCP_OFFLOAD_STATS structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"
-f1_keywords:
- - "ndischimney/TCP_OFFLOAD_STATS"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- TCP_OFFLOAD_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
+f1_keywords:
+ - _TCP_OFFLOAD_STATS
+ - ndischimney/_TCP_OFFLOAD_STATS
+ - PTCP_OFFLOAD_STATS
+ - ndischimney/PTCP_OFFLOAD_STATS
+ - TCP_OFFLOAD_STATS
+ - ndischimney/TCP_OFFLOAD_STATS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - TCP_OFFLOAD_STATS
 ---
 
 # _TCP_OFFLOAD_STATS structure
@@ -47,19 +50,14 @@ req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The TCP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a
   query of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a> or 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>.
-
+  <a href="/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a> or 
+  <a href="/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field InSegments
 
@@ -68,25 +66,21 @@ The total number of segments received on offloaded TCP connections, including th
      <b>InErrors</b> ). This count includes segments received on currently established connections. See 
      <i>tcpInSegs</i> in RFC 1156.
 
-
 ### -field OutSegments
 
 The total number of segments sent on offloaded TCP connections, including those on current
      connections but excluding those containing only retransmitted octets. See 
      <i>tcpOutSegs</i> in RFC 1156.
 
-
 ### -field CurrentlyEstablished
 
 The number of TCP connections for which the current state is either ESTABLISHED or CLOSE-WAIT. See     
      <i>tcpCurrEstab</i> in RFC 1156.
 
-
 ### -field ResetEstablished
 
 The number of times that offloaded TCP connections have made a direct transition to the CLOSED
      state from either the ESTABLISHED state or the CLOSE-WAIT state.
-
 
 ### -field RetransmittedSegments
 
@@ -94,23 +88,18 @@ The total number of segments retransmitted on offloaded TCP connections--that is
      TCP segments transmitted that contain one or more previously transmitted octets. See 
      <i>tcpRetransSegs</i> in RFC 1156.
 
-
 ### -field InErrors
 
 The number of packets received on offloaded TCP connections that contained one or more
      TCP-specific errors that prevented the offload target from delivering the packets. See 
      <i>ifInErrors</i> in RFC 1156.
 
-
 ### -field OutResets
 
 The number of segments transmitted on offloaded TCP connections with the RST bit set in the TCP
      header.
 
-
 ## -remarks
-
-
 
 The statistics in the TCP_OFFLOAD_STATS structure pertain only to offloaded TCP connections. The
     offload target must not include counts for TCP segments on connections that haven't been offloaded. The
@@ -123,14 +112,14 @@ If an offload target has more than one network interface, it must maintain a sep
     traffic.
 
 If an offload target's TCP chimney capabilities are enabled (see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a>) and if at least one
+    <a href="/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a>) and if at least one
     offloaded path state object has been offloaded to the offload target, the offload target can process a
     received packet that has a corrupted TCP header (but a valid IP header) in one of two ways:
 
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.
@@ -160,20 +149,10 @@ Note that the host stack supplies a TCP_OFFLOAD_STATS structure when setting OID
 All of the counters that supply the values for the TCP_OFFLOAD_STATS structure wrap (restart from
     zero) when incremented beyond their maximum counts.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>

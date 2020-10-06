@@ -6,10 +6,8 @@ old-location: stream\bus_interface_swenum.htm
 tech.root: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.date: 04/23/2018
-keywords: ["_BUS_INTERFACE_SWENUM structure"]
+keywords: ["BUS_INTERFACE_SWENUM structure"]
 ms.keywords: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], _BUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, stream.bus_interface_swenum, swenum/BUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM"
-f1_keywords:
- - "swenum/BUS_INTERFACE_SWENUM"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- swenum.h
-api_name:
-- BUS_INTERFACE_SWENUM
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
+f1_keywords:
+ - _BUS_INTERFACE_SWENUM
+ - swenum/_BUS_INTERFACE_SWENUM
+ - PBUS_INTERFACE_SWENUM
+ - swenum/PBUS_INTERFACE_SWENUM
+ - BUS_INTERFACE_SWENUM
+ - swenum/BUS_INTERFACE_SWENUM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - swenum.h
+api_name:
+ - BUS_INTERFACE_SWENUM
 ---
 
 # _BUS_INTERFACE_SWENUM structure
@@ -47,40 +50,29 @@ req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
 
 ## -description
 
-
 The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator object's interface.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Interface
 
-Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
-
+Specifies the exported <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 ### -field ReferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a> routine.
-
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a> routine.
 
 ### -field DereferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a> routine.
-
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a> routine.
 
 ### -field QueryReferenceString
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a> routine.
-
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a> routine.
 
 ## -remarks
 
-
-
-A driver obtains a BUS_INTERFACE_SWENUM interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
+A driver obtains a BUS_INTERFACE_SWENUM interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
 
 <ul>
 <li>
@@ -104,5 +96,3 @@ If your request is successful, the system fills in the BUS_INTERFACE_SWENUM stru
 
 </li>
 </ul>
-
-

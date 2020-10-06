@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_INITIALIZE_META_COMMAND_0052"
+ - PFND3D12DDI_INITIALIZE_META_COMMAND_0052
+ - d3d12umddi/PFND3D12DDI_INITIALIZE_META_COMMAND_0052
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_INITIALIZE_META_COMMAND_0052 callback function
+
 
 ## -description
 

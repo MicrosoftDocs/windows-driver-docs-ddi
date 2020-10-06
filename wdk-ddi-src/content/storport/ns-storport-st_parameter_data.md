@@ -8,8 +8,6 @@ ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.date: 03/29/2018
 keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
-f1_keywords:
- - "storport/ST_PARAMETER_DATA"
 req.header: storport.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -27,60 +25,48 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsi.h
-api_name:
-- ST_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
+f1_keywords:
+ - PST_PARAMETER_DATA
+ - storport/PST_PARAMETER_DATA
+ - ST_PARAMETER_DATA
+ - storport/ST_PARAMETER_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsi.h
+api_name:
+ - ST_PARAMETER_DATA
 ---
 
-# ST_PARAMETER_DATA structure
+# ST_PARAMETER_DATA structure (storport.h)
 
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>ST_PARAMETER_DATA</b> structure contains the parameter list for the set timestamp command. 
-
+The <b>ST_PARAMETER_DATA</b> structure contains the parameter list for the set timestamp command.
 
 ## -struct-fields
-
-
-
 
 ### -field Reserved1
 
 Reserved for future use.
-
 
 ### -field Timestamp
 
 Specifies the value to which a device clock shall be initialized. The timestamp
 should be the number of milliseconds that have elapsed since midnight, 1 January 1970 UT.
 
-
 ### -field Reserved2
 
 Reserved for future use.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>

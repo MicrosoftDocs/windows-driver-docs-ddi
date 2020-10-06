@@ -8,8 +8,6 @@ ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.date: 04/30/2018
 keywords: ["WMI_SET_DATAITEM_CALLBACK callback function"]
 ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, WMI_SET_DATAITEM_CALLBACK callback, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
-f1_keywords:
- - "wmilib/DpWmiSetDataItem"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wmilib.h
-api_name:
-- DpWmiSetDataItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WMI_SET_DATAITEM_CALLBACK
+ - wmilib/WMI_SET_DATAITEM_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wmilib.h
+api_name:
+ - DpWmiSetDataItem
 ---
 
 # WMI_SET_DATAITEM_CALLBACK callback function
@@ -47,76 +46,64 @@ req.typenames:
 
 ## -description
 
-
 The <i>DpWmiSetDataItem</i> routine changes a single data item in an instance of a data block. This routine is optional.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
+[in]
+Pointer to the driver's WDM <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
+### -param Irp 
 
-### -param DeviceObject [in]
-
-Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
-
-
-### -param Irp [in]
-
+[in]
 Pointer to the IRP.
 
+### -param GuidIndex 
 
-### -param GuidIndex [in]
+[in]
+Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
-Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. 
+### -param InstanceIndex 
 
-
-### -param InstanceIndex [in]
-
+[in]
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> is a zero-based value that specifies the instance.
 
+### -param DataItemId 
 
-### -param DataItemId [in]
-
+[in]
 Specifies the ID of the data item to set.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to a buffer that contains the new value for the data item.
-
 
 ## -returns
 
-
-
 <i>DpWmiSetDataItem</i> returns STATUS_SUCCESS or an appropriate error code such as the following:
-
-
-
 
 ## -remarks
 
+WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to an <a href="/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
 
-
-WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
-
-Do not implement <i>DpWmiSetDataItem</i> unless you are sure that a system-supplied user-mode component requires this capability. If you implement a <i>DpWmiSetDataItem</i> routine, the driver must place the routine's address in the <b>SetWmiDataItem</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that it passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. If you do not implement a <i>DpWmiSetDataItem</i> routine, the driver must set <b>SetWmiDataItem</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
+Do not implement <i>DpWmiSetDataItem</i> unless you are sure that a system-supplied user-mode component requires this capability. If you implement a <i>DpWmiSetDataItem</i> routine, the driver must place the routine's address in the <b>SetWmiDataItem</b> member of the <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that it passes to <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. If you do not implement a <i>DpWmiSetDataItem</i> routine, the driver must set <b>SetWmiDataItem</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
 
 <ul>
 <li>
-Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure.
+Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure.
 
 </li>
 <li>
-Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmiguidreginfo">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
+Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmiguidreginfo">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
 
 </li>
 <li>
@@ -140,26 +127,16 @@ Do not assume the thread context is that of the initiating user-mode application
 
 This routine can be pageable.
 
-For more information about implementing this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
-
-
-
+For more information about implementing this routine, see <a href="/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>

@@ -8,8 +8,6 @@ ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.date: 04/16/2018
 keywords: ["RxAssociateContextWithMid function"]
 ms.keywords: RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, midatlax/RxAssociateContextWithMid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml
-f1_keywords:
- - "midatlax/RxAssociateContextWithMid"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- midatlax.h
-api_name:
-- RxAssociateContextWithMid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxAssociateContextWithMid
+ - midatlax/RxAssociateContextWithMid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - midatlax.h
+api_name:
+ - RxAssociateContextWithMid
 ---
 
 # RxAssociateContextWithMid function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
-<b>RxAssociateContextWithMid</b> associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS. 
-
+<b>RxAssociateContextWithMid</b> associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS.
 
 ## -parameters
-
-
-
 
 ### -param MidAtlas
 
 <p>A pointer to the MID_ATLAS data structure.</p>
 
-
 ### -param Context
 
 <p>A pointer to the context.</p>
-
 
 ### -param NewMid
 
 <p>A pointer to the multiplex ID to be associated with the context.</p>
 
-
-
-
 ## -returns
-
-
 
 <b>RxAssociateContextWithMid</b> returns STATUS_SUCCESS on success or one of the following error values: 
 
@@ -107,45 +94,29 @@ This error is returned for several cases including when the number of MIDs alrea
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. A MID is a component of a MID_ATLAS data structure allocated by calling <b>RxCreateMidAtlas</b>. A MID_MAP data structure is allocated and used for mapping MIDs to RX_CONTEXT data structures. <b>RxAssociateContextWithMid</b> allocates non-paged pool memory when creating a new MID_MAP data structure.
 
-The <i>pContext</i> parameter can be any opaque context but it is commonly an RX_CONTEXT. 
-
-
-
+The <i>pContext</i> parameter can be any opaque context but it is commonly an RX_CONTEXT.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxcreatemidatlas">RxCreateMidAtlas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxcreatemidatlas">RxCreateMidAtlas</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxdestroymidatlas">RxDestroyMidAtlas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxdestroymidatlas">RxDestroyMidAtlas</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapanddissociatemidfromcontext">RxMapAndDissociateMidFromContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapanddissociatemidfromcontext">RxMapAndDissociateMidFromContext</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapmidtocontext">RxMapMidToContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapmidtocontext">RxMapMidToContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxreassociatemid">RxReassociateMid</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxreassociatemid">RxReassociateMid</a>

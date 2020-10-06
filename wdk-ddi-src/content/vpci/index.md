@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: pci
+f1_keywords:
+ - vpci
+ - vpci/vpci
 ---
 
 # Vpci.h header
@@ -18,5 +19,5 @@ tech.root: pci
 
 ## -description
 
-
 This header contains common types and prototypes for a virtual PCI driver.
+

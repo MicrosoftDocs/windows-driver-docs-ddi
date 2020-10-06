@@ -6,10 +6,8 @@ old-location: buses\ucx_controller_parent_bus_type.htm
 tech.root: usbref
 ms.assetid: FD78074D-E128-4085-A178-0133C9256E42
 ms.date: 05/07/2018
-keywords: ["_UCX_CONTROLLER_PARENT_BUS_TYPE enumeration"]
+keywords: ["UCX_CONTROLLER_PARENT_BUS_TYPE enumeration"]
 ms.keywords: UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypeCustom, UcxControllerParentBusTypePci, _UCX_CONTROLLER_PARENT_BUS_TYPE, buses.ucx_controller_parent_bus_type, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypePci
-f1_keywords:
- - "ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucxcontroller.h
-api_name:
-- UCX_CONTROLLER_PARENT_BUS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_PARENT_BUS_TYPE
+f1_keywords:
+ - _UCX_CONTROLLER_PARENT_BUS_TYPE
+ - ucxcontroller/_UCX_CONTROLLER_PARENT_BUS_TYPE
+ - UCX_CONTROLLER_PARENT_BUS_TYPE
+ - ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - UCX_CONTROLLER_PARENT_BUS_TYPE
 ---
 
 # _UCX_CONTROLLER_PARENT_BUS_TYPE enumeration
@@ -47,42 +48,24 @@ req.typenames: UCX_CONTROLLER_PARENT_BUS_TYPE
 
 ## -description
 
-
 The <b>UCX_CONTROLLER_PARENT_BUS_TYPE</b> enumeration defines the parent bus type.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UcxControllerParentBusTypeCustom
 
 Custom bus type.
 
-
 ### -field UcxControllerParentBusTypePci
 
 Parent bus is PCI.
-
 
 ### -field UcxControllerParentBusTypeAcpi
 
 Parent is ACPI.
 
-
 ### -field UcxControllerParentBusTypeMaUsb
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>

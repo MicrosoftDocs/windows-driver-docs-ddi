@@ -8,8 +8,6 @@ ms.assetid: fddfd724-c3ba-4908-a60f-70c4934efb49
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SOCKET callback function"]
 ms.keywords: PFN_WSK_SOCKET, PFN_WSK_SOCKET callback, WskSocket, WskSocket callback function [Network Drivers Starting with Windows Vista], netvista.wsksocket, wsk/WskSocket, wskref_37c59d39-d8fd-4e3f-9f69-c0874e1801ed.xml
-f1_keywords:
- - "wsk/WskSocket"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskSocket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_SOCKET
+ - wsk/PFN_WSK_SOCKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskSocket
 ---
 
 # PFN_WSK_SOCKET callback function
@@ -47,35 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskSocket</b> function creates a new socket and returns a pointer to the associated socket object.
 
-
 ## -parameters
 
+### -param Client 
 
-
-
-### -param Client [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
+     <a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
+### -param AddressFamily 
 
-### -param AddressFamily [in]
-
+[in]
 The address family for the socket that is being created. For more information about supported
      address families, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
+### -param SocketType 
 
-### -param SocketType [in]
-
+[in]
 The type of socket that is being created. The following socket types are supported:
      
 
@@ -100,20 +95,20 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 For more information about the socket types that are supported for each supported address family, see     
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
+### -param Protocol 
 
-### -param Protocol [in]
-
+[in]
 The transport protocol for the socket that is being created. For more information about the
      protocols that are supported for each supported address family, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A flag that specifies the WSK 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
+     <a href="/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
      socket that is being created. This parameter can be one of the following flags:
      
 
@@ -155,21 +150,21 @@ A stream socket will be created that can either be used to listen for incoming c
 If a WSK application does not specify any of the preceding flags, 
      <b>WskSocket</b> creates a basic socket.
 
+### -param SocketContext 
 
-### -param SocketContext [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied context for the socket that is being created. The WSK subsystem
      passes this pointer to the socket's event callback functions. The context information is opaque to the
      WSK subsystem and must be stored in non-paged memory. If the WSK application will not be enabling any
      event callback functions on the new socket, it should set this pointer to <b>NULL</b>. For a basic socket, this
      pointer should always be <b>NULL</b>.
 
+### -param Dispatch 
 
-### -param Dispatch [in, optional]
-
+[in, optional]
 A pointer to a constant client dispatch structure. This structure is a dispatch table that
      contains pointers to the event callback functions for the new socket. Depending on the WSK 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
+     <a href="/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
      (as specified by the 
      <i>Flags</i> parameter), this parameter is a pointer to one of the following structures.
      
@@ -186,7 +181,7 @@ WSK_FLAG_LISTEN_SOCKET
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 </td>
@@ -198,7 +193,7 @@ WSK_FLAG_DATAGRAM_SOCKET
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_datagram_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_datagram_dispatch">
          WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
@@ -211,7 +206,7 @@ WSK_FLAG_CONNECTION_SOCKET
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
          WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
@@ -224,7 +219,7 @@ WSK_FLAG_STREAM_SOCKET
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_stream_dispatch">WSK_CLIENT_STREAM_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_stream_dispatch">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 </td>
@@ -238,31 +233,31 @@ If the WSK application will not be enabling all of the event callback functions 
      it should set the 
      <i>Dispatch</i> pointer to <b>NULL</b>. For a basic socket, this pointer should always be <b>NULL</b>.
 
+### -param OwningProcess 
 
-### -param OwningProcess [in, optional]
-
+[in, optional]
 A pointer to the process from which the WSK subsystem will retrieve the security context to use
      when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. To specify the current process, a WSK
      application sets this pointer to <b>NULL</b>.
 
+### -param OwningThread 
 
-### -param OwningThread [in, optional]
-
+[in, optional]
 A pointer to a specific thread from which the WSK subsystem will retrieve the security context to
      use when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. If a WSK application does not need to
      specify a specific thread, it sets this pointer to <b>NULL</b>.
 
+### -param SecurityDescriptor 
 
-### -param SecurityDescriptor [in, optional]
-
+[in, optional]
 A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descriptor to apply to
      the socket that is being created. The security descriptor controls the sharing of the local transport
      address to which the socket is bound. If a WSK application specifies a non-<b>NULL</b> pointer, it must specify
      a pointer to a cached copy of a security descriptor that was obtained by calling the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-cache-sd">WSK_CACHE_SD</a> control code. To specify a
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function with the 
+     <a href="/windows-hardware/drivers/network/wsk-cache-sd">WSK_CACHE_SD</a> control code. To specify a
      default security descriptor that does not allow sharing of the local transport address, a WSK
      application sets 
      <i>SecurityDescriptor</i> to <b>NULL</b>.
@@ -271,18 +266,15 @@ A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descrip
 For more information about the SECURITY_DESCRIPTOR structure, see the reference page for
      SECURITY_DESCRIPTOR in the Microsoft Windows SDK documentation.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskSocket</b> returns one of the following NTSTATUS codes:
 
@@ -327,25 +319,19 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the IRP is completed with success status, the 
     <b>IoStatus.Information</b> field of the IRP contains a pointer to a socket object structure (
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>) for the new socket.
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>) for the new socket.
 
 A WSK application can obtain a list of available transport protocols by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-transport-list-query">WSK_TRANSPORT_LIST_QUERY</a> control
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function with the 
+    <a href="/windows-hardware/drivers/network/wsk-transport-list-query">WSK_TRANSPORT_LIST_QUERY</a> control
     code. 
     <b>WskControlClient</b> returns a list of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_transport">WSK_TRANSPORT</a> structures that contains all of
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_transport">WSK_TRANSPORT</a> structures that contains all of
     the valid combinations of the 
     <i>AddressFamily</i>, 
     <i>SocketType</i>, and 
@@ -354,7 +340,7 @@ A WSK application can obtain a list of available transport protocols by calling 
 When a WSK application successfully creates a new socket, all of the event callback functions on the
     new socket are disabled by default. For more information about enabling any of the new socket's event
     callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer for the 
@@ -365,61 +351,51 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
     on behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is
     closed.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_datagram_dispatch">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_datagram_dispatch">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_stream_dispatch">WSK_CLIENT_STREAM_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_stream_dispatch">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

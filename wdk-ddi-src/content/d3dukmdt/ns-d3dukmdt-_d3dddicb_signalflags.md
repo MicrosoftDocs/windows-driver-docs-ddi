@@ -6,10 +6,8 @@ old-location: display\d3dddicb_signalflags.htm
 tech.root: display
 ms.assetid: 1efe98c4-021b-4312-bbcc-52267e528b5f
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_SIGNALFLAGS structure"]
+keywords: ["D3DDDICB_SIGNALFLAGS structure"]
 ms.keywords: D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices], D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml, _D3DDDICB_SIGNALFLAGS, d3dukmdt/D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags
-f1_keywords:
- - "d3dukmdt/D3DDDICB_SIGNALFLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDICB_SIGNALFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALFLAGS
+f1_keywords:
+ - _D3DDDICB_SIGNALFLAGS
+ - d3dukmdt/_D3DDDICB_SIGNALFLAGS
+ - D3DDDICB_SIGNALFLAGS
+ - d3dukmdt/D3DDDICB_SIGNALFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDICB_SIGNALFLAGS
 ---
 
 # _D3DDDICB_SIGNALFLAGS structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_SIGNALFLAGS
 
 ## -description
 
-
-The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> functions.
-
+The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a> or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field SignalAtSubmission
 
@@ -62,12 +58,11 @@ A UINT value that specifies whether a context should signal synchronization obje
 
 Setting this member is equivalent to setting the first bit of the 32-bit  <b>Value</b> member (0x00000001).
 
-
 ### -field EnqueueCpuEvent
 
-A UINT value that modifies the behavior of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> function. When this member is set,  the event specified by the <b>CpuEventHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a> structure is signaled when all contexts specified in  <b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</b>  process the signal command.
+A UINT value that modifies the behavior of the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> function. When this member is set,  the event specified by the <b>CpuEventHandle</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a> structure is signaled when all contexts specified in  <b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</b>  process the signal command.
 
-If this member is set,  members of  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>  structure that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> function's <i>pData</i> parameter points to are restricted as follows:
+If this member is set,  members of  the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>  structure that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> function's <i>pData</i> parameter points to are restricted as follows:
 
 <ul>
 <li><b>ObjectCount</b> must be zero.</li>
@@ -77,16 +72,9 @@ Setting this member is equivalent to setting the second bit of the 32-bit  <b>Va
 
 Supported starting with Windows 8.
 
-
 ### -field AllowFenceRewind
 
- 
-
-
 ### -field DXGK_SIGNAL_FLAG_INTERNAL0
-
- 
-
 
 ### -field Reserved
 
@@ -98,31 +86,22 @@ Supported starting with Windows 8.
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A member in the union that is contained in D3DDDICB_SIGNALFLAGS that can hold one 32-bit value that identifies signaling behavior.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject2">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a>

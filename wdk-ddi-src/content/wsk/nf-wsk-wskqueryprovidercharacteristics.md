@@ -8,8 +8,6 @@ ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.date: 05/02/2018
 keywords: ["WskQueryProviderCharacteristics function"]
 ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
-f1_keywords:
- - "wsk/WskQueryProviderCharacteristics"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- netio.lib
-- netio.dll
-api_name:
-- WskQueryProviderCharacteristics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WskQueryProviderCharacteristics
+ - wsk/WskQueryProviderCharacteristics
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - netio.lib
+ - netio.dll
+api_name:
+ - WskQueryProviderCharacteristics
 ---
 
 # WskQueryProviderCharacteristics function
@@ -48,32 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskQueryProviderCharacteristics</b> function queries the range of WSK NPI versions supported by the WSK
   subsystem.
 
-
 ## -parameters
 
+### -param WskRegistration 
 
-
-
-### -param WskRegistration [in]
-
+[in]
 A pointer to the memory location initialized by 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.
 
+### -param WskProviderCharacteristics 
 
-### -param WskProviderCharacteristics [out]
-
+[out]
 A pointer to the range of WSK NPI versions supported by the WSK subsystem.
 
-
 ## -returns
-
-
 
 <b>WskQueryProviderCharacteristics</b> returns one of the following NTSTATUS codes:
 
@@ -116,32 +108,16 @@ The query failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 WSK clients can use this function to determine the WSK NPI versions supported by the WSK
     subsystem.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_characteristics">WSK_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_characteristics">WSK_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>

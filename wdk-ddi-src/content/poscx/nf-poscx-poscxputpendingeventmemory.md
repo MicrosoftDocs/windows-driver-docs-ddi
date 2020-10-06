@@ -8,8 +8,6 @@ ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
 ms.date: 02/23/2018
 keywords: ["PosCxPutPendingEventMemory function"]
 ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
-f1_keywords:
- - "poscx/PosCxPutPendingEventMemory"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxPutPendingEventMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxPutPendingEventMemory
+ - poscx/PosCxPutPendingEventMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxPutPendingEventMemory
 ---
 
 # PosCxPutPendingEventMemory function
@@ -48,43 +47,36 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 PosCxPutPendingEventMemory tries to delegate a memory object containing the 
       event data to a waiting caller. 
       If the target caller does not have a read request waiting, the new event is added to 
       the designated event queue (control or data).
 
-
 ## -parameters
 
+### -param device 
 
-
-
-### -param device [in]
-
+[in]
 A handle to a framework device object that represents the device.
 
+### -param deviceInterfaceTag 
 
-### -param deviceInterfaceTag [in]
-
+[in]
 The device interface associated with the event.  By default, only
           file objects that have the same tag will receive this event.
 
+### -param eventMemory 
 
-### -param eventMemory [in]
-
+[in]
 The new event data memory object that contains both the point-of-service event header 
           and the data. PosCx will take over ownership of this passed in memory object.
 
+### -param eventAttr 
 
-### -param eventAttr [in]
-
+[in]
 The event attributes.
 
-
 ## -returns
-
-
 
 Possible return values are:
 
@@ -108,18 +100,7 @@ Possible return values are:
 <td>Other appropriate failure error codes.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>

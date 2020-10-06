@@ -8,8 +8,6 @@ ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.date: 03/29/2018
 keywords: ["StorPortInitializeWorker function"]
 ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storage.storportinitializeworker, storport/StorPortInitializeWorker
-f1_keywords:
- - "storport/StorPortInitializeWorker"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInitializeWorker
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializeWorker
+ - storport/StorPortInitializeWorker
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInitializeWorker
 ---
 
 # StorPortInitializeWorker function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Creates a new Storport work item that runs in a system worker thread.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Worker 
 
-### -param Worker [out]
-
+[out]
 A pointer to an opaque buffer that holds context information for the work item.
 
-
 ## -returns
-
-
 
 The <b>StorPortInitializeWorker</b> routine returns one of these status codes:
 
@@ -122,37 +114,21 @@ The work item was successfully initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a> or <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>.
 
-
-The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>.
-
-If the miniport uses the work item during IO processing, we recommended that <b>StorPortInitializeWorker</b> be called during the miniport's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that resources are available when needed.
-
-
-
+If the miniport uses the work item during IO processing, we recommended that <b>StorPortInitializeWorker</b> be called during the miniport's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that resources are available when needed.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>

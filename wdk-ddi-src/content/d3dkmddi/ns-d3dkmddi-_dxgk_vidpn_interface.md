@@ -5,10 +5,8 @@ description: The DXGK_VIDPN_INTERFACE structure contains pointers to functions t
 old-location: display\dxgk_vidpn_interface.htm
 ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.date: 05/10/2018
-keywords: ["_DXGK_VIDPN_INTERFACE structure"]
+keywords: ["DXGK_VIDPN_INTERFACE structure"]
 ms.keywords: DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE structure [Display Devices], DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, _DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, display.dxgk_vidpn_interface
-f1_keywords:
- - "d3dkmddi/DXGK_VIDPN_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_VIDPN_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_VIDPN_INTERFACE
+f1_keywords:
+ - _DXGK_VIDPN_INTERFACE
+ - d3dkmddi/_DXGK_VIDPN_INTERFACE
+ - DXGK_VIDPN_INTERFACE
+ - d3dkmddi/DXGK_VIDPN_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_VIDPN_INTERFACE
 ---
 
 # _DXGK_VIDPN_INTERFACE structure
@@ -47,77 +48,56 @@ req.typenames: DXGK_VIDPN_INTERFACE
 
 ## -description
 
-
-The DXGK_VIDPN_INTERFACE structure contains pointers to functions that belong to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">VidPn interface</a>, which is implemented by the video present network (VidPN) manager.
-
+The DXGK_VIDPN_INTERFACE structure contains pointers to functions that belong to the <a href="/windows-hardware/drivers/ddi/index">VidPn interface</a>, which is implemented by the video present network (VidPN) manager.
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_vidpn_interface_version">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the interface.
-
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_vidpn_interface_version">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the interface.
 
 ### -field pfnGetTopology
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function.
 
 ### -field pfnAcquireSourceModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function.
 
 ### -field pfnReleaseSourceModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasesourcemodeset">pfnReleaseSourceModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasesourcemodeset">pfnReleaseSourceModeSet</a> function.
 
 ### -field pfnCreateNewSourceModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a> function.
 
 ### -field pfnAssignSourceModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assignsourcemodeset">pfnAssignSourceModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assignsourcemodeset">pfnAssignSourceModeSet</a> function.
 
 ### -field pfnAssignMultisamplingMethodSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assignmultisamplingmethodset">pfnAssignMultisamplingMethodSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assignmultisamplingmethodset">pfnAssignMultisamplingMethodSet</a> function.
 
 ### -field pfnAcquireTargetModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset">pfnAcquireTargetModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset">pfnAcquireTargetModeSet</a> function.
 
 ### -field pfnReleaseTargetModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset">pfnReleaseTargetModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset">pfnReleaseTargetModeSet</a> function.
 
 ### -field pfnCreateNewTargetModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset">pfnCreateNewTargetModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset">pfnCreateNewTargetModeSet</a> function.
 
 ### -field pfnAssignTargetModeSet
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assigntargetmodeset">pfnAssignTargetModeSet</a> function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_assigntargetmodeset">pfnAssignTargetModeSet</a> function.
 
 ## -remarks
 
+The display miniport driver calls <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_queryvidpninterface">DxgkCbQueryVidPnInterface</a> to obtain a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 
-
-The display miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_queryvidpninterface">DxgkCbQueryVidPnInterface</a> to obtain a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
-
-For more information about the VidPN interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.
-
-
-
+For more information about the VidPN interface, see <a href="/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.

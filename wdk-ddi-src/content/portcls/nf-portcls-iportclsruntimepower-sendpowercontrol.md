@@ -8,8 +8,6 @@ ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.date: 05/08/2018
 keywords: ["IPortClsRuntimePower::SendPowerControl"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],SendPowerControl method, IPortClsRuntimePower.SendPowerControl, IPortClsRuntimePower::SendPowerControl, SendPowerControl, SendPowerControl method [Audio Devices], SendPowerControl method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_sendpowercontrol, portcls/IPortClsRuntimePower::SendPowerControl
-f1_keywords:
- - "portcls/IPortClsRuntimePower.SendPowerControl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IPortClsRuntimePower.SendPowerControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsRuntimePower::SendPowerControl
+ - portcls/IPortClsRuntimePower::SendPowerControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IPortClsRuntimePower.SendPowerControl
 ---
 
 # IPortClsRuntimePower::SendPowerControl
@@ -47,66 +46,49 @@ req.typenames:
 
 ## -description
 
-
 The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
-
 
 ## -parameters
 
+### -param _DeviceObject 
 
-
-
-### -param _DeviceObject [in]
-
+[in]
 The device object.
 
+### -param _PowerControlCode 
 
-### -param _PowerControlCode [in]
-
+[in]
 The power control code to be sent to the audio adapter.
 
+### -param _InBuffer 
 
-### -param _InBuffer [in, optional]
-
+[in, optional]
 The input buffer.
 
+### -param _InBufferSize 
 
-### -param _InBufferSize [in]
-
+[in]
 The size of the input buffer.
 
+### -param _OutBuffer 
 
-### -param _OutBuffer [out, optional]
-
+[out, optional]
 The output buffer.
 
+### -param _OutBufferSize 
 
-### -param _OutBufferSize [in]
-
+[in]
 The size of the output buffer.
 
+### -param _BytesReturned 
 
-### -param _BytesReturned [out, optional]
-
+[out, optional]
 The number of bytes returned.
-
 
 ## -returns
 
-
-
 The <code>SendPowerControl</code> method returns STATUS_SUCCESS, if the call is successful. Otherwise, it returns the appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>

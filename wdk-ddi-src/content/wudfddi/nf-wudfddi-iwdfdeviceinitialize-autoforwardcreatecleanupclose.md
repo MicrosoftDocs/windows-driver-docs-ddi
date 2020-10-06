@@ -8,8 +8,6 @@ ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.date: 02/26/2018
 keywords: ["IWDFDeviceInitialize::AutoForwardCreateCleanupClose"]
 ms.keywords: AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,AutoForwardCreateCleanupClose method, IWDFDeviceInitialize.AutoForwardCreateCleanupClose, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
-f1_keywords:
- - "wudfddi/IWDFDeviceInitialize.AutoForwardCreateCleanupClose"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDeviceInitialize.AutoForwardCreateCleanupClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDeviceInitialize::AutoForwardCreateCleanupClose
+ - wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDeviceInitialize.AutoForwardCreateCleanupClose
 ---
 
 # IWDFDeviceInitialize::AutoForwardCreateCleanupClose
@@ -47,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AutoForwardCreateCleanupClose</b> method controls when create, cleanup, and close notifications are forwarded to the next lower driver in the device stack.
 
-
 ## -parameters
 
+### -param State 
 
-
-
-### -param State [in]
-
+[in]
 A WDF_TRI_STATE-typed value that identifies the state of automatic forwarding. The following table shows the possible values.
 
 <table>
@@ -98,12 +93,8 @@ The framework synchronously forwards create, cleanup, and close notifications to
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 If the UMDF driver passes <b>WdfUseDefault</b> for the <i>State</i> parameter in a call to <b>AutoForwardCreateCleanupClose</b>, the framework uses a default forwarding scheme for create, cleanup, and close notifications that depends on whether the driver is a filter or function driver:
 
@@ -117,32 +108,22 @@ If the driver is a function driver, the default forwarding scheme is not to forw
 
 </li>
 </ul>
-If the framework is set up for forwarding, it forwards cleanup and close notifications regardless of whether the driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackcleanup-oncleanupfile">IFileCallbackCleanup::OnCleanupFile</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">IFileCallbackClose::OnCloseFile</a> interface methods. However, the framework automatically forwards create requests only if the driver does not support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a> method. If the driver supports <b>IQueueCallbackCreate::OnCreateFile</b>, the framework forwards create requests only if the driver explicitly set up forwarding (<b>WdfTrue</b>) to the next lower driver. 
+If the framework is set up for forwarding, it forwards cleanup and close notifications regardless of whether the driver supports the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackcleanup-oncleanupfile">IFileCallbackCleanup::OnCleanupFile</a> and <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">IFileCallbackClose::OnCloseFile</a> interface methods. However, the framework automatically forwards create requests only if the driver does not support the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a> method. If the driver supports <b>IQueueCallbackCreate::OnCreateFile</b>, the framework forwards create requests only if the driver explicitly set up forwarding (<b>WdfTrue</b>) to the next lower driver. 
 
-For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClose</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/preventing-an-imbalance-of-create-and-close-notifications-to-a-driver">Preventing an Imbalance of Create and Close Notifications to a Driver</a>. 
-
-
-
+For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClose</b>, see <a href="/windows-hardware/drivers/wdf/preventing-an-imbalance-of-create-and-close-notifications-to-a-driver">Preventing an Imbalance of Create and Close Notifications to a Driver</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackcleanup-oncleanupfile">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackcleanup-oncleanupfile">IFileCallbackCleanup::OnCleanupFile</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">IFileCallbackClose::OnCloseFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">IFileCallbackClose::OnCloseFile</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>

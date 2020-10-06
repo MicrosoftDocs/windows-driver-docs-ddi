@@ -8,8 +8,6 @@ ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaParameterDefinition::get_UnitType"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
-f1_keywords:
- - "printerextension/IPrintSchemaParameterDefinition.UnitType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaParameterDefinition.UnitType
-- IPrintSchemaParameterDefinition.get_UnitType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaParameterDefinition::get_UnitType
+ - printerextension/IPrintSchemaParameterDefinition::get_UnitType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaParameterDefinition.UnitType
+ - IPrintSchemaParameterDefinition.get_UnitType
 ---
 
 # IPrintSchemaParameterDefinition::get_UnitType
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>UnitType</b> property gets the unit type.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>

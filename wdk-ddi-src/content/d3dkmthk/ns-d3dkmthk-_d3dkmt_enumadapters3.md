@@ -4,38 +4,39 @@ title: _D3DKMT_ENUMADAPTERS3 (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: 82fbef6f-b3ce-4ab8-b5af-cbb219593d3f
 ms.date: 03/24/2020
-keywords: ["_D3DKMT_ENUMADAPTERS3 structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_ENUMADAPTERS3"
-ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3, 
+keywords: ["D3DKMT_ENUMADAPTERS3 structure"]
+ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_ENUMADAPTERS3
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_ENUMADAPTERS3
-product:
-- Windows
 targetos: Windows
-ms.custom:
+ms.custom: 
+tech.root: display
+f1_keywords:
+ - _D3DKMT_ENUMADAPTERS3
+ - d3dkmthk/_D3DKMT_ENUMADAPTERS3
+ - D3DKMT_ENUMADAPTERS3
+ - d3dkmthk/D3DKMT_ENUMADAPTERS3
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_ENUMADAPTERS3
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_ENUMADAPTERS3 structure
@@ -48,7 +49,13 @@ Supplies information about adapters on the system.
 
 ### -field Filter
 
-[in] A [**D3DKMT_ENUMADAPTERS_FILTER**](ns-d3dkmthk-_d3dkmdt_enumadapters_filter.md) union containing filter flags for the enumeration.
+[in] A **D3DKMT_ENUMADAPTERS_FILTER** union containing filter flags for the enumeration. The struct in **Filter** can be a bitwise OR of the following values. See Remarks for more information.
+
+| Value | Meaning |
+| ----- | ------- |
+| IncludeComputeOnly | When set, enumerate ComputeOnly adapters. |
+| IncludeDisplayOnly | When set, enumerate DisplayOnly adapters. |
+| Reserved           | Reserved; do not use.                     |
 
 ### -field NumAdapters
 
@@ -66,11 +73,14 @@ On input, **NumAdapters** specifies how many adapters can be returned in the emp
 
 ## -remarks
 
+Adapters will still be enumerated if no flags are set in **Filter**, but [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md) will enumerate fewer adapters than [**D3DKMTEnumAdapters2**](nf-d3dkmthk-d3dkmtenumadapters2.md). Specifically, **D3DKMTEnumAdapters3** will:
+
+- Leave out ComputeOnly adapters from the default enumeration, to avoid breaking applications.
+- Leave out DisplayOnly adapters from the default enumeration.
+
 ## -see-also
 
 [**D3DKMT_ADAPTERINFO**](ns-d3dkmthk-_d3dkmt_adapterinfo.md)
-
-[**D3DKMT_ENUMADAPTERS_FILTER**](ns-d3dkmthk-_d3dkmdt_enumadapters_filter.md)
 
 [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md)
 

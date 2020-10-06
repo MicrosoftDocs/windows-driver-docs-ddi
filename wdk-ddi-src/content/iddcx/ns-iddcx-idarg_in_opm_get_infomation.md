@@ -8,8 +8,6 @@ ms.assetid: 14d0585d-6fa1-4934-a4f2-fe5e20d4a324
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_OPM_GET_INFOMATION structure"]
 ms.keywords: IDARG_IN_OPM_GET_INFOMATION, IDARG_IN_OPM_GET_INFOMATION structure [Display Devices], display.idarg_in_opm_get_infomation, iddcx/IDARG_IN_OPM_GET_INFOMATION
-f1_keywords:
- - "iddcx/IDARG_IN_OPM_GET_INFOMATION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_OPM_GET_INFOMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_OPM_GET_INFOMATION
+ - iddcx/IDARG_IN_OPM_GET_INFOMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_OPM_GET_INFOMATION
 ---
 
 # IDARG_IN_OPM_GET_INFOMATION structure
@@ -47,19 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the OPM.
-
 
 ## -struct-fields
 
-
-
-
 ### -field GetInfoParameters
 
-
                      [in] Parameters for the get information request
-                 
 

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::get_IsDigitalSigned"]
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],IsDigitalSigned property, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2.get_IsDigitalSigned, IWDTFDriverPackageAction2::IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.IsDigitalSigned"
+ - "IWDTFDriverPackageAction2.IsDigitalSigned"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.IsDigitalSigned
 - IWDTFDriverPackageAction2.get_IsDigitalSigned
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -62,8 +61,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
  
 
  
-

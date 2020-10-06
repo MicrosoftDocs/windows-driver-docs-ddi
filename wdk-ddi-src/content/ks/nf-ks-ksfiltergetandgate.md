@@ -8,8 +8,6 @@ ms.assetid: b5f7c4ed-0596-4e88-b987-fd454e4b4971
 ms.date: 04/23/2018
 keywords: ["KsFilterGetAndGate function"]
 ms.keywords: KsFilterGetAndGate, KsFilterGetAndGate function [Streaming Media Devices], avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, ks/KsFilterGetAndGate, stream.ksfiltergetandgate
-f1_keywords:
- - "ks/KsFilterGetAndGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFilterGetAndGate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterGetAndGate
+ - ks/KsFilterGetAndGate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFilterGetAndGate
 ---
 
 # KsFilterGetAndGate function
@@ -48,65 +47,43 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterGetAndGate </b>function returns <i>Filter</i>'s AND gate.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to acquire the corresponding AND gate.
-
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to acquire the corresponding AND gate.
 
 ## -returns
 
-
-
-<b>KsFilterGetAndGate</b> returns <i>Filter</i>'s AND gate as a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure.
-
-
-
+<b>KsFilterGetAndGate</b> returns <i>Filter</i>'s AND gate as a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure.
 
 ## -remarks
 
-
-
 A minidriver can use AND gates on a filter as a processing control mechanism for that filter.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgatecapturethreshold">KsGateCaptureThreshold</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgatecapturethreshold">KsGateCaptureThreshold</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputoff">KsGateTurnInputOff</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputoff">KsGateTurnInputOff</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputon">KsGateTurnInputOn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputon">KsGateTurnInputOn</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate">KsPinAttachAndGate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate">KsPinAttachAndGate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetandgate">KsPinGetAndGate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetandgate">KsPinGetAndGate</a>

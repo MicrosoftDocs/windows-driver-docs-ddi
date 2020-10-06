@@ -8,8 +8,6 @@ ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.date: 04/23/2018
 keywords: ["IKsAggregateControl interface"]
 ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
-f1_keywords:
- - "ksproxy/IKsAggregateControl"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsAggregateControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsAggregateControl
+ - ksproxy/IKsAggregateControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsAggregateControl
 ---
 
 # IKsAggregateControl interface
+
 
 ## -description
 
@@ -52,7 +52,7 @@ The interface identifier (IID) for this interface is IID_IKsAggregateControl.
 
 ## -inheritance
 
-The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
+The **IKsAggregateControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
 
 - **Methods**
 
@@ -88,10 +88,10 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](./nn-ksproxy-ikscontrol.md)
 
-[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
+[IKsObject::KsGetObjectHandle](./nf-ksproxy-iksobject-ksgetobjecthandle.md)
 
-[KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
+[KsAddAggregate](./nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md)
 
-[KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)
+[KsRemoveAggregate](./nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md)

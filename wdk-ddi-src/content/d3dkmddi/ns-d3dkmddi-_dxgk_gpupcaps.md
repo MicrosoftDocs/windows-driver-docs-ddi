@@ -1,46 +1,48 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUPCAPS
 title: _DXGK_GPUPCAPS
-author: windows-driver-content
 description: The GPU capabilities for a kernel mode display driver.
 tech.root: display
 ms.assetid: 21bf5426-6444-4f1d-bf36-edcd37175fc5
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_DXGK_GPUPCAPS structure"]
-f1_keywords:
- - "d3dkmddi/_DXGK_GPUPCAPS"
+keywords: ["DXGK_GPUPCAPS structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS, 
+ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_GPUPCAPS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3dkmddi.h
-api_name: 
- - _DXGK_GPUPCAPS
-product: 
- - Windows
 targetos: Windows
 ms.custom: rs6, 19H1
+f1_keywords:
+ - _DXGK_GPUPCAPS
+ - d3dkmddi/_DXGK_GPUPCAPS
+ - DXGK_GPUPCAPS
+ - d3dkmddi/DXGK_GPUPCAPS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_GPUPCAPS
+product:
+ - Windows
 ---
 
 # _DXGK_GPUPCAPS structure
+
 
 ## -description
 
@@ -51,7 +53,7 @@ These caps must be filled out by the KMD in response to **DXGKQAITYPE_GPUPCAPS**
 ## -struct-fields
 
 ### -field Caps
- 
+
 ### -field Caps.VirtualMachineHibernation
 
 The driver sets the cap if guest hibernation is supported for GPU-P devices.
@@ -72,7 +74,7 @@ The support for guest hibernation is optional and not required for driver certif
 
 A VM, which has hibernation enabled and a GPU-P adapter added, will fail to start, if the driver does not support guest hibernation.
 
-
 ## -remarks
 
 ## -see-also
+

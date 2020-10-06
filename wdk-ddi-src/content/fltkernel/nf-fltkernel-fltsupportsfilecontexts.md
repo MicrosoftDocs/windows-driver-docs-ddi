@@ -8,8 +8,6 @@ ms.assetid: 968c2c6d-3544-45e7-b852-740fa4930349
 ms.date: 05/29/2019
 keywords: ["FltSupportsFileContexts function"]
 ms.keywords: FltApiRef_p_to_z_cad3f45c-7ae0-44dc-840d-a8ec3da65ea6.xml, FltSupportsFileContexts, FltSupportsFileContexts routine [Installable File System Drivers], fltkernel/FltSupportsFileContexts, ifsk.fltsupportsfilecontexts
-f1_keywords:
- - "fltkernel/FltSupportsFileContexts"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSupportsFileContexts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSupportsFileContexts
+ - fltkernel/FltSupportsFileContexts
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSupportsFileContexts
 ---
 
 # FltSupportsFileContexts function
+
 
 ## -description
 
@@ -50,8 +50,9 @@ The **FltSupportsFileContexts** routine determines whether the file system suppo
 
 ## -parameters
 
-### -param FileObject [in]
+### -param FileObject 
 
+[in]
 Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
 ## -returns
@@ -64,7 +65,7 @@ Minifilter drivers call **FltSupportsFileContexts** to determine whether the und
 
 Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files.
 
-For more information about contexts, see [Managing Contexts in a Minifilter Driver](https://docs.microsoft.com/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
+For more information about contexts, see [Managing Contexts in a Minifilter Driver](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 ## -see-also
 

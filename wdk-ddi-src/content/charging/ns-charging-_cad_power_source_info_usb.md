@@ -6,10 +6,8 @@ old-location: battery\cad_power_source_info_usb.htm
 tech.root: battery
 ms.assetid: 578D33E5-685A-48E9-BFE2-CE4C3FD18056
 ms.date: 02/15/2018
-keywords: ["_CAD_POWER_SOURCE_INFO_USB structure"]
+keywords: ["CAD_POWER_SOURCE_INFO_USB structure"]
 ms.keywords: "*PCAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB structure [Battery Devices], _CAD_POWER_SOURCE_INFO_USB, battery.cad_power_source_info_usb, charging/BATTERY_INFORMATION"
-f1_keywords:
- - "charging/BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Charging.h
-api_name:
-- BATTERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CAD_POWER_SOURCE_INFO_USB, *PCAD_POWER_SOURCE_INFO_USB
+f1_keywords:
+ - _CAD_POWER_SOURCE_INFO_USB
+ - charging/_CAD_POWER_SOURCE_INFO_USB
+ - PCAD_POWER_SOURCE_INFO_USB
+ - charging/PCAD_POWER_SOURCE_INFO_USB
+ - CAD_POWER_SOURCE_INFO_USB
+ - charging/CAD_POWER_SOURCE_INFO_USB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Charging.h
+api_name:
+ - BATTERY_INFORMATION
 ---
 
 # _CAD_POWER_SOURCE_INFO_USB structure
@@ -47,9 +50,7 @@ req.typenames: CAD_POWER_SOURCE_INFO_USB, *PCAD_POWER_SOURCE_INFO_USB
 
 ## -description
 
-
 This structure is for internal use only.
-
 
 ## -struct-fields
 

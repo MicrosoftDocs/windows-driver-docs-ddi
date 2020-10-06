@@ -8,8 +8,6 @@ ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.date: 04/23/2018
 keywords: ["KsServiceBusEnumPnpRequest function"]
 ms.keywords: KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest
-f1_keywords:
- - "swenum/KsServiceBusEnumPnpRequest"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsServiceBusEnumPnpRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsServiceBusEnumPnpRequest
+ - swenum/KsServiceBusEnumPnpRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsServiceBusEnumPnpRequest
 ---
 
 # KsServiceBusEnumPnpRequest function
@@ -48,39 +47,27 @@ req.typenames:
 
 ## -description
 
-
 <i>This function is intended for internal use only.</i>
 
-The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with <b>KsCreateBusEnumObject</b>. 
-
+The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with <b>KsCreateBusEnumObject</b>.
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the device object.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 Pointer to the IRP associated with the device object.
-
 
 ## -returns
 
-
-
 Returns STATUS_NOT_SUPPORTED if the IRP is not handled by <b>KsServiceBusEnumPnpRequest</b> or STATUS_INVALID_DEVICE_REQUEST if the device object is neither a parent or child of the demand-load bus enumerator object. Otherwise, it returns the status code for the IRP processing.
 
-
-
-
 ## -remarks
-
-
 
 <b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for an FDO or parent device:
 
@@ -185,23 +172,14 @@ IRP_MN_QUERY_CAPABILITIES
 <div class="alert"><b>Note</b>  : <b>KsServiceBusEnumPnpRequest</b> does not complete the given IRP.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-kscreatebusenumobject">KsCreateBusEnumObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-kscreatebusenumobject">KsCreateBusEnumObject</a>
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksisbusenumchilddevice">KsIsBusEnumChildDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksisbusenumchilddevice">KsIsBusEnumChildDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumcreaterequest">KsServiceBusEnumCreateRequest</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumcreaterequest">KsServiceBusEnumCreateRequest</a>

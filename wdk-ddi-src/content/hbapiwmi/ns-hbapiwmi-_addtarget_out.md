@@ -6,10 +6,8 @@ old-location: storage\addtarget_out.htm
 tech.root: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.date: 03/29/2018
-keywords: ["_AddTarget_OUT structure"]
+keywords: ["AddTarget_OUT structure"]
 ms.keywords: "*PAddTarget_OUT, AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml"
-f1_keywords:
- - "hbapiwmi/AddTarget_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- AddTarget_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddTarget_OUT, *PAddTarget_OUT
+f1_keywords:
+ - _AddTarget_OUT
+ - hbapiwmi/_AddTarget_OUT
+ - PAddTarget_OUT
+ - hbapiwmi/PAddTarget_OUT
+ - AddTarget_OUT
+ - hbapiwmi/AddTarget_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - AddTarget_OUT
 ---
 
 # _AddTarget_OUT structure
@@ -47,27 +50,14 @@ req.typenames: AddTarget_OUT, *PAddTarget_OUT
 
 ## -description
 
-
-The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addtarget">AddTarget</a> WMI method to the WMI client.
-
+The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the <a href="/windows-hardware/drivers/storage/addtarget">AddTarget</a> WMI method to the WMI client.
 
 ## -struct-fields
 
-
-
-
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
-
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addtarget">AddTarget</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/addtarget">AddTarget</a>

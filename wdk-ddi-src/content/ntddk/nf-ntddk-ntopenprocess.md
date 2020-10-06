@@ -8,8 +8,6 @@ ms.assetid: 261d7676-9ce7-4e15-a58f-0439434f202b
 ms.date: 04/30/2018
 keywords: ["NtOpenProcess function"]
 ms.keywords: NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess
-f1_keywords:
- - "ntddk/ZwOpenProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwOpenProcess
-- NtOpenProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtOpenProcess
+ - ntddk/NtOpenProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwOpenProcess
+ - NtOpenProcess
 ---
 
 # NtOpenProcess function
@@ -48,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwOpenProcess</b> routine opens a handle to a process object and sets the access rights to this object.
-
 
 ## -parameters
 
+### -param ProcessHandle 
 
-
-
-### -param ProcessHandle [out]
-
+[out]
 A pointer to a variable of type HANDLE. The <b>ZwOpenProcess</b> routine writes the process handle to the variable that this parameter points to.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
+[in]
+An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that contains the access rights that the caller has requested to the process object.
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that contains the access rights that the caller has requested to the process object.
+### -param ObjectAttributes 
 
+[in]
+A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
 
-### -param ObjectAttributes [in]
+### -param ClientId 
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
-
-
-### -param ClientId [in, optional]
-
+[in, optional]
 A pointer to a client ID that identifies the thread whose process is to be opened. In Windows Vista and later versions of Windows, this parameter must be a non-<b>NULL</b> pointer to a valid client ID. In Windows Server 2003, Windows XP, and Windows 2000, this parameter is optional and can be set to <b>NULL</b> if the <b>OBJECT_ATTRIBUTES</b> structure that <i>ObjectAttributes</i> points to specifies an object name. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <b>ZwOpenProcess</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error status codes.
 
@@ -133,14 +125,11 @@ The requested access rights cannot be granted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
+As is the case with kernel handles opened by other system service calls such as **ZwCreateKey** and **ZwCreateFile**,
+the caller is responsible for calling [**ZwClose**](../ntifs/nf-ntifs-ntclose.md) to close the handle when it is no longer required.
 
 In Windows Vista and later versions of Windows, the <i>ClientId</i> parameter must point to a client ID that identifies the thread whose process is to be opened. In addition, the <b>ObjectName</b> field of the structure pointed to by <i>ObjectAttributes</i> must be set to <b>NULL</b>.
 
@@ -148,26 +137,16 @@ In Windows Server 2003, Windows XP, and Windows 2000, the caller has the option 
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtOpenProcess</b>" instead of "<b>ZwOpenProcess</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
-
-
-
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>

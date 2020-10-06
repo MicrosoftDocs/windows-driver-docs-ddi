@@ -6,77 +6,56 @@ tech.root: netvista
 ms.assetid: 020dcfd9-f552-4b0a-ad82-0dea44bcec28
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_SAVE_CONTINUE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_CONTINUE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_SAVE_CONTINUE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_SAVE_CONTINUE
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_CONTINUE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_SAVE_CONTINUE
 ---
 
 # FN_VMB_CHANNEL_SAVE_CONTINUE callback function
+
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_SAVE_CONTINUE FnVmbChannelSaveContinue; 
-
-// Definition
-
-NTSTATUS FnVmbChannelSaveContinue 
-(
-	VMBCHANNEL Channel
-	PVOID SaveBuffer
-	ULONG SaveBufferSize
-	PULONG BytesFilled
-	PULONG BytesRequired
-)
-{...}
-
-```
+The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
 
 ## -parameters
 
 ### -param Channel
 
-A handle for a channel to save. 
+A handle for a channel to save.
 
 ### -param SaveBuffer
 
-A pointer to the buffer into which to save state information. 
+A pointer to the buffer into which to save state information.
 
 ### -param SaveBufferSize
 
@@ -140,6 +119,27 @@ buffer, but there is more data to be saved.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_SAVE_CONTINUE FnVmbChannelSaveContinue; 
+
+// Definition
+
+NTSTATUS FnVmbChannelSaveContinue 
+(
+	VMBCHANNEL Channel
+	PVOID SaveBuffer
+	ULONG SaveBufferSize
+	PULONG BytesFilled
+	PULONG BytesRequired
+)
+{...}
+
+```
+
 ## -remarks
 
 The save process saves
@@ -154,4 +154,4 @@ If the caller did not allocate enough space in advance, multiple calls may be ne
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>

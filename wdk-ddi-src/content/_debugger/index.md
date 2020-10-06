@@ -2,15 +2,13 @@
 UID: TP:debugger
 title: Debugger
 ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
-ms.date: 10/02/2018
+ms.date: 09/18/2020
 keywords: ["Debugger"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
-product:
-- Windows
 ---
 
 # Debugger
@@ -20,15 +18,12 @@ product:
 To develop Debugger apps, you can work with these headers:
 
  * [dbgeng.h](../dbgeng/index.md)
- * [dbghelp.h](../dbghelp/index.md)
  * [dbgmodel.h](../dbgmodel/index.md)
  * [engextcpp.hpp](../engextcpp/index.md)
  * [extsfns.h](../extsfns/index.md)
- * [ksdebug.h](../ksdebug/index.md)
  * [wdbgexts.h](../wdbgexts/index.md)
 
-For the programming guide information, see [Debugging Resources](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-resources).
-
+For the programming guide information, see [Debugging Resources](/windows-hardware/drivers/debugger/debugging-resources).
 
 ## Callback functions
 

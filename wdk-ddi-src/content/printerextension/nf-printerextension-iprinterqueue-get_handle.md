@@ -8,8 +8,6 @@ ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
 ms.date: 04/20/2018
 keywords: ["IPrinterQueue::get_Handle"]
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
-f1_keywords:
- - "printerextension/IPrinterQueue.Handle"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueue.Handle
-- IPrinterQueue.get_Handle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueue::get_Handle
+ - printerextension/IPrinterQueue::get_Handle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueue.Handle
+ - IPrinterQueue.get_Handle
 ---
 
 # IPrinterQueue::get_Handle
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 Gets the underlying native handle for this print queue.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>

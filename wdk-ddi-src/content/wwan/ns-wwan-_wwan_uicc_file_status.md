@@ -1,53 +1,57 @@
 ---
 UID: NS:wwan._WWAN_UICC_FILE_STATUS
 title: _WWAN_UICC_FILE_STATUS (wwan.h)
-description: The WWAN_UICC_FILE_STATUS structure describes the status of a UICC file. 
+description: The WWAN_UICC_FILE_STATUS structure describes the status of a UICC file.
 tech.root: netvista
 ms.assetid: A5B1B756-4E1C-42AA-84AA-CEA847D94708
 ms.date: 04/09/2019
-keywords: ["_WWAN_UICC_FILE_STATUS structure"]
-f1_keywords:
- - "wwan/_WWAN_UICC_FILE_STATUS"
-ms.keywords: _WWAN_UICC_FILE_STATUS, WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS, 
+keywords: ["WWAN_UICC_FILE_STATUS structure"]
+ms.keywords: _WWAN_UICC_FILE_STATUS, WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_UICC_FILE_STATUS
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_UICC_FILE_STATUS
+ - wwan/_WWAN_UICC_FILE_STATUS
+ - PWWAN_UICC_FILE_STATUS
+ - wwan/PWWAN_UICC_FILE_STATUS
+ - WWAN_UICC_FILE_STATUS
+ - wwan/WWAN_UICC_FILE_STATUS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_UICC_FILE_STATUS
 ---
 
 # _WWAN_UICC_FILE_STATUS structure
 
+
 ## -description
 
-The **WWAN_UICC_FILE_STATUS** structure describes the status of a UICC file. 
+The **WWAN_UICC_FILE_STATUS** structure describes the status of a UICC file.
 
 ## -struct-fields
 
 ### -field Version
 
 The version number of the structure that follows. In Windows 10, version 1903, this version must be set to **1**.
- 
+
 ### -field StatusWord1
 
 A return parameter specific to the UICC command.
@@ -86,8 +90,8 @@ This structure is used in the [**NDIS_WWAN_UICC_FILE_STATUS**](../ndiswwan/ns-nd
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
+[OID_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
 
 [**NDIS_WWAN_UICC_FILE_STATUS**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_file_status.md)

@@ -8,8 +8,6 @@ ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.date: 04/30/2018
 keywords: ["KeQueryTickCount macro"]
 ms.keywords: KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount
-f1_keywords:
- - "ntddk/KeQueryTickCount"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,28 +25,34 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryTickCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryTickCount
+ - ntddk/KeQueryTickCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryTickCount
 ---
 
-# KeQueryTickCount macro
+# KeQueryTickCount macro (ntddk.h)
 
 
 ## -description
 
+The <b>KeQueryTickCount</b> routine maintains a count of the interval timer interrupts that have occurred since the system was booted.
 
-The <b>KeQueryTickCount</b> routine maintains a count of the interval timer interrupts that have occurred since the system was booted. 
+## -parameters
+
+### -param CurrentCount
+
+<p>Pointer to the tick count value on return from <b>KeQueryTickCount</b>.</p>
 
 ## -syntax
 
@@ -59,50 +63,24 @@ KeQueryTickCount (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param CurrentCount
-
-<p>Pointer to the tick count value on return from <b>KeQueryTickCount</b>.</p>
-
-
-
-
-
-
 ## -remarks
-
-
 
 The <i>TickCount</i> value increases by one at each interval timer interrupt while the system is running.
 
 The preferred method of determining elapsed time is by using <i>TickCount</i> for relative timing and time stamps.
 
-To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
+To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
 
-You should not make any assumptions about the length of a tick, because it might vary depending on hardware and other considerations. 
-
-
-
+You should not make any assumptions about the length of a tick, because it might vary depending on hardware and other considerations.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryinterrupttime">KeQueryInterruptTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryinterrupttime">KeQueryInterruptTime</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a>

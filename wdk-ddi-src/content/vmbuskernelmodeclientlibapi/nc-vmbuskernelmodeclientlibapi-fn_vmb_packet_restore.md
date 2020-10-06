@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 2bb4f7b2-a6e7-4a11-a5ca-bfd7db47037a
 ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_RESTORE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_RESTORE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_PACKET_RESTORE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_PACKET_RESTORE
+ - vmbuskernelmodeclientlibapi/FN_VMB_PACKET_RESTORE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_PACKET_RESTORE
 ---
 
 # FN_VMB_PACKET_RESTORE callback function
+
 
 ## -description
 
@@ -47,6 +47,24 @@ ms.custom: RS5
 
 The <b>VmbPacketRestore</b> function restores packet from a buffer that contains saved packet
 context.
+
+## -parameters
+
+### -param PacketObject
+
+This is a handle of a VMBus packet.
+
+### -param Buffer
+
+Pointer to buffer that contains previously saved context.
+
+### -param BufferSize
+
+The size, in bytes, of buffer.
+
+## -returns
+
+Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
 
 ## -prototype
 
@@ -67,24 +85,6 @@ NTSTATUS FnVmbPacketRestore
 
 ```
 
-## -parameters
-
-### -param PacketObject
-
-This is a handle of a VMBus packet.
-
-### -param Buffer
-
-Pointer to buffer that contains previously saved context.
-
-### -param BufferSize
-
-The size, in bytes, of buffer.
-
-## -returns
-
-Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
-
 ## -remarks
 
 > [!IMPORTANT]
@@ -93,3 +93,4 @@ Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS err
 > For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also
+

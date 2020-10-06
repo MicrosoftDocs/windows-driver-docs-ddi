@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dkmthk/PFND3DKMT_QUERYADAPTERINFO"
+ - PFND3DKMT_QUERYADAPTERINFO
+ - d3dkmthk/PFND3DKMT_QUERYADAPTERINFO
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DKMT_QUERYADAPTERINFO callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.date: 02/26/2018
 keywords: ["IWDFRemoteTarget::OpenFileByName"]
 ms.keywords: IWDFRemoteTarget interface,OpenFileByName method, IWDFRemoteTarget.OpenFileByName, IWDFRemoteTarget::OpenFileByName, OpenFileByName, OpenFileByName method, OpenFileByName method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
-f1_keywords:
- - "wudfddi/IWDFRemoteTarget.OpenFileByName"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFRemoteTarget.OpenFileByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFRemoteTarget::OpenFileByName
+ - wudfddi/IWDFRemoteTarget::OpenFileByName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFRemoteTarget.OpenFileByName
 ---
 
 # IWDFRemoteTarget::OpenFileByName
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
-
-The <b>OpenFileByName</b> method opens a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is a file.
-
+The <b>OpenFileByName</b> method opens a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is a file.
 
 ## -parameters
 
+### -param pszFileName 
 
+[in]
+A pointer to a caller-supplied, <b>null</b>-terminated string that represents the name of the file to open. For more information about this member, see the <i>FileName</i> parameter of <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> in the Windows SDK.
 
+### -param DesiredAccess 
 
-### -param pszFileName [in]
+[in]
+A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>dwDesiredAccess</i> parameter of <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> in the Windows SDK.
 
-A pointer to a caller-supplied, <b>null</b>-terminated string that represents the name of the file to open. For more information about this member, see the <i>FileName</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+### -param pOpenParams 
 
-
-### -param DesiredAccess [in]
-
-A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>dwDesiredAccess</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
-
-
-### -param pOpenParams [in, optional]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ns-wudfddi-_umdf_io_target_open_params">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
-
+[in, optional]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wudfddi/ns-wudfddi-_umdf_io_target_open_params">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>OpenFileByName</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
 
@@ -102,35 +94,26 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
-The framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-verifier">verifier</a> reports an error if the framework cannot open the file.
-
-
-
+The framework's <a href="/windows-hardware/drivers/debugger/-verifier">verifier</a> reports an error if the framework cannot open the file.
 
 ## -remarks
 
+Your driver can use <b>OpenFileByName</b> to open a file, if the driver stack to which your driver belongs does not support the file's device. Use <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffilehandletargetfactory-createfilehandletarget">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a> to open a file, if the driver stack to which your driver belongs does support the file's device.
 
+The specified file must be accessible by the account that loaded the UMDF-based driver, which is typically the Local Service account. However, if the driver uses <a href="/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> when it calls <b>OpenFileByName</b>, the file must be accessible by the impersonated account.
 
-Your driver can use <b>OpenFileByName</b> to open a file, if the driver stack to which your driver belongs does not support the file's device. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffilehandletargetfactory-createfilehandletarget">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a> to open a file, if the driver stack to which your driver belongs does support the file's device.
+Do not call <b>OpenFileByName</b> to open a remote target to a control device object. Instead, open the control device directly by calling <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
-The specified file must be accessible by the account that loaded the UMDF-based driver, which is typically the Local Service account. However, if the driver uses <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> when it calls <b>OpenFileByName</b>, the file must be accessible by the impersonated account.
-
-Do not call <b>OpenFileByName</b> to open a remote target to a control device object. Instead, open the control device directly by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a>.
-
-For more information about the <b>OpenFileByName</b> method and remote I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">General I/O Targets in UMDF</a>.
+For more information about the <b>OpenFileByName</b> method and remote I/O targets, see <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">General I/O Targets in UMDF</a>.
 
 
 #### Examples
 
 The following code example creates a remote target object and opens an existing file with read-only access.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UMDF_IO_TARGET_OPEN_PARAMS openParams;
+
+```
+UMDF_IO_TARGET_OPEN_PARAMS openParams;
 HRESULT hr;
 
 //
@@ -153,28 +136,18 @@ openParams.dwFlagsAndAttributes = FILE_ATTRIBUTE_READONLY;
 hr = fxTarget->OpenFileByName(FILE_PATH,
                               GENERIC_READ,
                               &openParams);
- </pre>
-</td>
-</tr>
-</table></span></div>
-
+ 
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremotetarget">IWDFDevice2::CreateRemoteTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremotetarget">IWDFDevice2::CreateRemoteTarget</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>

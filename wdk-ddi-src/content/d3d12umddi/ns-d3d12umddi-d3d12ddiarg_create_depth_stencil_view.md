@@ -5,40 +5,40 @@ description: Arguments used to create a depth stencil view.
 ms.assetid: 4ea81c63-03b8-4966-9dbf-8eee2af122d2
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW"
-ms.keywords: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, 
+ms.keywords: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
+ - d3d12umddi/D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW structure
+
 
 ## -description
 
@@ -71,9 +71,11 @@ If the value in the *ResourceDimension* member is set to D3D12DDI_RD_TEXTURE1D, 
 If the value in the *ResourceDimension* member is set to D3D12DDI_RD_TEXTURE2D, a member in the union that is contained in D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW that can hold a [D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg_tex2d_depth_stencil_view.md) structure for a two-dimensional texture
 
 ### -field TexCube
+
  
 If the value in the *ResourceDimension* member is set to D3D12DDI_RD_TEXTURECUBE, a member in the union that is contained in D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW that can hold a [D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg_texcube_depth_stencil_view.md) structure for a cube texture
 
 ## -remarks
 
 ## -see-also
+

@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB"
+ - PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
+ - d3dumddi/PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function
+
 
 ## -description
 

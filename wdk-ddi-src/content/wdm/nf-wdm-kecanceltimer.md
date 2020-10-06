@@ -8,8 +8,6 @@ ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.date: 04/30/2018
 keywords: ["KeCancelTimer function"]
 ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
-f1_keywords:
- - "wdm/KeCancelTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeCancelTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeCancelTimer
+ - wdm/KeCancelTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeCancelTimer
 ---
 
 # KeCancelTimer function
@@ -47,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeCancelTimer</b> routine dequeues a timer object before the timer interval, if any was set, expires.
-
 
 ## -parameters
 
+### -param Arg1 
 
-
-
-### -param Arg1 [in, out]
-
+[in, out]
 Pointer to an initialized timer object, for which the caller provides the storage.
-
-
-
 
 ## -returns
 
-
-
 If the specified timer object is in the system timer queue, <b>KeCancelTimer</b> returns <b>TRUE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the timer object is currently in the system timer queue, it is removed from the queue. If a DPC object is associated with the timer, it too is canceled. Otherwise, no operation is performed.
 
@@ -82,30 +67,20 @@ The routine returns <b>TRUE</b> if the timer is still in the timer queue. A nonp
 
 Note that a DPC that is already running runs to completion. The driver must ensure that the DPC has completed before freeing any resources used by the DPC. For a nonperiodic timer, you can use synchronization primitives, such as event objects, to synchronize between the driver and the DPC. The driver can check the return code of <b>KeCancelTimer</b> to determine if the DPC is running. If so, the DPC can signal the event before exiting, and the driver can wait for that event to be reset to the not-signaled state.
 
-Since for periodic timers <b>KeCancelTimer</b> always returns <b>TRUE</b>, drivers must use a different technique to wait until the DPC has completed. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushqueueddpcs">KeFlushQueuedDpcs</a> routine to block until the DPC executes.
+Since for periodic timers <b>KeCancelTimer</b> always returns <b>TRUE</b>, drivers must use a different technique to wait until the DPC has completed. Use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushqueueddpcs">KeFlushQueuedDpcs</a> routine to block until the DPC executes.
 
 Drivers do not need to synchronize for data stored in global variables or driver object extensions. The system automatically calls <b>KeFlushQueuedDpcs</b> before deallocating either of these regions.
 
-For more information about timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
-
-
-
+For more information about timer objects, see <a href="/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatetimer">KeReadStateTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatetimer">KeReadStateTimer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>

@@ -8,8 +8,6 @@ ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyExA function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchCopyExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchCopyExW
-- RtlStringCchCopyExA
-- RtlStringCchCopyExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchCopyExA
+ - ntstrsafe/RtlStringCchCopyExA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchCopyExW
+ - RtlStringCchCopyExA
+ - RtlStringCchCopyExW
 ---
 
 # RtlStringCchCopyExA function
@@ -50,42 +49,38 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> functions copy a character-counted string into a buffer.
-
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [out, optional]
-
+[out, optional]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param cchDest 
 
-### -param cchDest [in]
-
+[in]
 The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. If <i>pszDest</i> is <b>NULL</b>, <i>cchDest</i> must be zero.
 
+### -param pszSrc 
 
-### -param pszSrc [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param ppszDestEnd 
 
-### -param ppszDestEnd [out, optional]
+[out, optional]
+If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
-If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
+### -param pcchRemaining 
 
-
-### -param pcchRemaining [out, optional]
-
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters that are in the buffer pointed to by <i>pszDest</i>, including the terminating null character.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>
@@ -144,14 +139,10 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -202,14 +193,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> should be used instead of the following functions: 
 
@@ -225,7 +210,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> add to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control. Use <b>RtlStringCchCopyExW</b> to handle Unicode strings and <b>RtlStringCchCopyExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+<b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> add to the functionality of <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control. Use <b>RtlStringCchCopyExW</b> to handle Unicode strings and <b>RtlStringCchCopyExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
 <table>
 <tr>
@@ -268,22 +253,12 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszSrc</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyexa">RtlStringCbCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyexa">RtlStringCbCopyEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a>

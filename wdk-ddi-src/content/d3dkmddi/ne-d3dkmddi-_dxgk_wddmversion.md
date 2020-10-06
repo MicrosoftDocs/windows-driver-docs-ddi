@@ -5,77 +5,59 @@ description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except
 old-location: display\dxgk_wddmversion.htm
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.date: 04/01/2020
-keywords: ["_DXGK_WDDMVERSION enumeration"]
+keywords: ["DXGK_WDDMVERSION enumeration"]
 ms.keywords: DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, display.dxgk_wddmversion
-f1_keywords:
- - "d3dkmddi/DXGK_WDDMVERSION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_WDDMVERSION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_WDDMVERSION
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_WDDMVERSION
+ - d3dkmddi/_DXGK_WDDMVERSION
+ - DXGK_WDDMVERSION
+ - d3dkmddi/DXGK_WDDMVERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_WDDMVERSION
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_WDDMVERSION enumeration
+
 
 ## -description
 
 The DXGK_WDDMVERSION enumeration identifies the Windows Display Driver Model (WDDM) version. It is reserved for system use. Except for the case noted below, do not use it in your driver.
 
-## -syntax
-
-```cpp
-typedef enum _DXGK_WDDMVERSION {
-  DXGKDDI_WDDMv1     = 0x1000,
-  DXGKDDI_WDDMv1_2   = 0x1200,
-  DXGKDDI_WDDMv1_3   = 0x1300,
-  DXGKDDI_WDDMv2     = 0x2000,
-  DXGKDDI_WDDMv2_1   = 0x2100,
-  DXGKDDI_WDDMv2_1_5 = 0x2105,
-  DXGKDDI_WDDMv2_1_6 = 0x2106,
-  DXGKDDI_WDDMv2_2   = 0x2200,
-  DXGKDDI_WDDMv2_3   = 0x2300,
-  DXGKDDI_WDDMv2_4   = 0x2400,
-  DXGKDDI_WDDMv2_5   = 0x2500,
-  DXGKDDI_WDDMv2_6   = 0x2600,
-  DXGKDDI_WDDMv2_7   = 0x2700
-} DXGK_WDDMVERSION;
-```
-
 ## -enum-fields
 
 ### -field DXGKDDI_WDDMv1
 
-Reserved for system use. NOTE: If a driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver with the Windows 7 WDK (Version 7600), set the **WDDMVersion** member of the [**DXGK_DRIVERCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps) structure to DXGKDDI_WDDMv1.
+Reserved for system use. NOTE: If a driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver with the Windows 7 WDK (Version 7600), set the **WDDMVersion** member of the [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md) structure to DXGKDDI_WDDMv1.
 
 ### -field DXGKDDI_WDDMv1_2
 
@@ -121,6 +103,26 @@ WDDM version for Windows 10, version 1903.
 
 WDDM version for Windows 10, version 2004.
 
+## -syntax
+
+```cpp
+typedef enum _DXGK_WDDMVERSION {
+  DXGKDDI_WDDMv1     = 0x1000,
+  DXGKDDI_WDDMv1_2   = 0x1200,
+  DXGKDDI_WDDMv1_3   = 0x1300,
+  DXGKDDI_WDDMv2     = 0x2000,
+  DXGKDDI_WDDMv2_1   = 0x2100,
+  DXGKDDI_WDDMv2_1_5 = 0x2105,
+  DXGKDDI_WDDMv2_1_6 = 0x2106,
+  DXGKDDI_WDDMv2_2   = 0x2200,
+  DXGKDDI_WDDMv2_3   = 0x2300,
+  DXGKDDI_WDDMv2_4   = 0x2400,
+  DXGKDDI_WDDMv2_5   = 0x2500,
+  DXGKDDI_WDDMv2_6   = 0x2600,
+  DXGKDDI_WDDMv2_7   = 0x2700
+} DXGK_WDDMVERSION;
+```
+
 ## -see-also
 
-[VidPn Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/index)
+[VidPn Interface](../index.yml)

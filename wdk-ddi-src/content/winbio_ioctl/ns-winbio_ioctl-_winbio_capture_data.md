@@ -6,10 +6,8 @@ old-location: biometric\winbio_capture_data.htm
 tech.root: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.date: 02/20/2018
-keywords: ["_WINBIO_CAPTURE_DATA structure"]
+keywords: ["WINBIO_CAPTURE_DATA structure"]
 ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"
-f1_keywords:
- - "winbio_ioctl/WINBIO_CAPTURE_DATA"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_ioctl.h
-api_name:
-- WINBIO_CAPTURE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA
+f1_keywords:
+ - _WINBIO_CAPTURE_DATA
+ - winbio_ioctl/_WINBIO_CAPTURE_DATA
+ - PWINBIO_CAPTURE_DATA
+ - winbio_ioctl/PWINBIO_CAPTURE_DATA
+ - WINBIO_CAPTURE_DATA
+ - winbio_ioctl/WINBIO_CAPTURE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_ioctl.h
+api_name:
+ - WINBIO_CAPTURE_DATA
 ---
 
 # _WINBIO_CAPTURE_DATA structure
@@ -47,14 +50,9 @@ req.typenames: WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA
 
 ## -description
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a> IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
-
+The <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a> IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 
 ## -struct-fields
-
-
-
 
 ### -field PayloadSize
 
@@ -114,16 +112,8 @@ Failure detail values for WINBIO_TYPE_FINGERPRINT include:
 
 ### -field CaptureData
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> that contains data captured by the device, of the format specified. The <b>Data</b> array member of the WINBIO_DATA structure should contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a> structure.
-
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> that contains data captured by the device, of the format specified. The <b>Data</b> array member of the WINBIO_DATA structure should contain a <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a>

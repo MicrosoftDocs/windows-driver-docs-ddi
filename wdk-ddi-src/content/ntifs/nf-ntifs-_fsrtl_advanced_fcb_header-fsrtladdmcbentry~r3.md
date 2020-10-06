@@ -10,6 +10,7 @@ keywords: ["FsRtlAddMcbEntry function"]
 ms.keywords: FsRtlAddMcbEntry, FsRtlAddMcbEntry function [Installable File System Drivers], fsrtlref_73de29f7-837c-40a4-b224-ab7266794840.xml, ifsk.fsrtladdmcbentry, ntifs/FsRtlAddMcbEntry
 f1_keywords:
  - "ntifs/FsRtlAddMcbEntry"
+ - "FsRtlAddMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlAddMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlAddMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a> instead.
+The <b>FsRtlAddMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a> instead.
 
 
 ## -parameters
@@ -74,8 +73,3 @@ TBD
 ### -param SectorCount
 
 TBD
-
-
-
-
-

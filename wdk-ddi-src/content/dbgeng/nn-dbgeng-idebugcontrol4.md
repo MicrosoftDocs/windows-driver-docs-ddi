@@ -8,8 +8,6 @@ ms.assetid: 693207c2-70d7-45be-ae22-436555225928
 ms.date: 05/03/2018
 keywords: ["IDebugControl4 interface"]
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging],described, dbgeng/IDebugControl4, debugger.idebugcontrol4
-f1_keywords:
- - "dbgeng/IDebugControl4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4
-- IDebugControl4.GetManagedStatus
-- IDebugControl4.GetManagedStatusWide
-- IDebugControl4.ResetManagedStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4
+ - dbgeng/IDebugControl4
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4
+ - IDebugControl4.GetManagedStatus
+ - IDebugControl4.GetManagedStatusWide
+ - IDebugControl4.ResetManagedStatus
 ---
 
 # IDebugControl4 interface
@@ -50,31 +49,21 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>. <b>IDebugControl4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>. <b>IDebugControl4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>

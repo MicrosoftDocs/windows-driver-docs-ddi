@@ -6,10 +6,8 @@ old-location: kernel\io_session_state_information.htm
 tech.root: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.date: 04/30/2018
-keywords: ["_IO_SESSION_STATE_INFORMATION structure"]
+keywords: ["IO_SESSION_STATE_INFORMATION structure"]
 ms.keywords: "*PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, wdm/IO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION"
-f1_keywords:
- - "wdm/IO_SESSION_STATE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IO_SESSION_STATE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION
+f1_keywords:
+ - _IO_SESSION_STATE_INFORMATION
+ - wdm/_IO_SESSION_STATE_INFORMATION
+ - PIO_SESSION_STATE_INFORMATION
+ - wdm/PIO_SESSION_STATE_INFORMATION
+ - IO_SESSION_STATE_INFORMATION
+ - wdm/IO_SESSION_STATE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IO_SESSION_STATE_INFORMATION
 ---
 
 # _IO_SESSION_STATE_INFORMATION structure
@@ -47,24 +50,17 @@ req.typenames: IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION
 
 ## -description
 
-
 The <b>IO_SESSION_STATE_INFORMATION</b> structure contains information about the state of a user session.
-
 
 ## -struct-fields
 
-
-
-
 ### -field SessionId
 
-
-      The session ID. This member contains the <a href="https://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of a user session. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine sets this member to the session ID of the session that is represented by the session object that the <i>ContainerObject</i> parameter of <b>IoGetContainerInformation</b> points to.
-
+      The session ID. This member contains the <a href="/windows/win32/termserv/terminal-services-portal">Terminal Services</a> session identifier of a user session. The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine sets this member to the session ID of the session that is represented by the session object that the <i>ContainerObject</i> parameter of <b>IoGetContainerInformation</b> points to.
 
 ### -field SessionState
 
-The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a> enumeration constants:
+The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a> enumeration constants:
 
 <ul>
 <li><b>IoSessionStateCreated</b></li>
@@ -89,24 +85,12 @@ Indicates whether the user session identified by <i>SessionId</i> is a local ses
 
 ## -remarks
 
-
-
 To obtain information about a user session, a driver calls the <b>IoGetContainerInformation</b> routine. This routine's <i>Buffer</i> parameter points to an <b>IO_SESSION_STATE_INFORMATION</b> structure that contains information about the session state.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>

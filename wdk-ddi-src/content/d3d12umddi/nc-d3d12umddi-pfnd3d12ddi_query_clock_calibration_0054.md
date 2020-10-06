@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054
 title: PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054
-author: windows-driver-content
 description: Queries for clock calibration information.
 tech.root: display
 ms.assetid: c9ce34e2-6d10-4746-aa81-7a49f65a364f
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054 callback function"]
 ms.prod: windows-hardware
@@ -30,7 +28,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054"
+ - PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054
+ - d3d12umddi/PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054
 topic_type:
  - apiref
 api_type:
@@ -46,6 +45,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054 callback function
+
 
 ## -description
 

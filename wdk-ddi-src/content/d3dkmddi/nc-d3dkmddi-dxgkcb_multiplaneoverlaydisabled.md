@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED"
+ - DXGKCB_MULTIPLANEOVERLAYDISABLED
+ - d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +45,10 @@ product:
 
 # DXGKCB_MULTIPLANEOVERLAYDISABLED callback function
 
+
 ## -description
 
-This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.
+This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId. This request is processed asynchronously and can be delayed by several frames. It is recommended to call this function only in exceptional cases (see Remarks below). For typical cases, drivers should instead prevent incompatible multiplane overlay configurations by responding correctly to [DxgkDdiCheckMultiplaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md).
 
 ## -parameters
 

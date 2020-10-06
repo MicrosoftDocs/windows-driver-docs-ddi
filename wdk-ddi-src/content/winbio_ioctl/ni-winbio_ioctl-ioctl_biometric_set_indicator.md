@@ -8,8 +8,6 @@ ms.assetid: 5aaaf178-a137-4a98-a77f-b426514a8cd9
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_SET_INDICATOR IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_SET_INDICATOR, IOCTL_BIOMETRIC_SET_INDICATOR control, IOCTL_BIOMETRIC_SET_INDICATOR control code [Biometric Devices], biometric.ioctl_biometric_set_indicator, biometric_ref_46e6f908-83fd-4e5b-9cc4-183da4f178d2.xml, winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR
-f1_keywords:
- - "winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbio_ioctl.h
-api_name:
-- IOCTL_BIOMETRIC_SET_INDICATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BIOMETRIC_SET_INDICATOR
+ - winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbio_ioctl.h
+api_name:
+ - IOCTL_BIOMETRIC_SET_INDICATOR
 ---
 
 # IOCTL_BIOMETRIC_SET_INDICATOR IOCTL
@@ -47,56 +46,29 @@ req.typenames:
 
 ## -description
 
-
-The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status of the indicator light.  The light can be turned on or off.  This IOCTL is optional.This IOCTL must be implemented if the driver supports the WINBIO_CAPABILITY_INDICATOR capability. 
-
-
-
+The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status of the indicator light.  The light can be turned on or off.  This IOCTL is optional.This IOCTL must be implemented if the driver supports the WINBIO_CAPABILITY_INDICATOR capability.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
-
-
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
 
 ### -input-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a> structure.
-
+Length of a <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a> structure.
 
 ### -output-buffer
 
 The AssociatedIrp.SystemBuffer member points to a buffer that contains a WINBIO_BLANK_PAYLOAD structure.
 
-
 ### -output-buffer-length
 
 The smallest valid output buffer size is the size of DWORD.  If the driver receives an DWORD-sized output buffer, the driver should return the buffer size necessary for the requested operation.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -111,18 +83,9 @@ The <b>Status</b> member is set to one of the values in the following table.
 |E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
 |E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
 |E_FAIL|Any other failure that prevents the payload from being filled in.|
- 
-
 
 ## -remarks
-
-
 
 If the vendor-supplied driver passes back the entire payload, it should fill in the WinBioHresult member of WINBIO_BLANK_PAYLOAD with the status of the biometric operation.
 
 Possible values include:
-
-
-
-
-

@@ -8,8 +8,6 @@ ms.assetid: 6ebb27ae-50ef-4644-869f-9755e65eada9
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOStressAction2::StartAsync"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],StartAsync method, IWDTFSimpleIOStressAction2.StartAsync, IWDTFSimpleIOStressAction2::StartAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StartAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StartAsync, StartAsync, StartAsync method [Windows Device Testing Framework], StartAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_startasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StartAsync
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOStressAction2.StartAsync"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOStressAction2.StartAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOStressAction2::StartAsync
+ - wdtfinterfaces/IWDTFSimpleIOStressAction2::StartAsync
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOStressAction2.StartAsync
 ---
 
 # IWDTFSimpleIOStressAction2::StartAsync
@@ -47,26 +46,12 @@ req.typenames:
 
 ## -description
 
-
 Asynchronously signals a start event to occur.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>

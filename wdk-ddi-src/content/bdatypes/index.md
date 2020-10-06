@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: stream
+f1_keywords:
+ - bdatypes
+ - bdatypes/bdatypes
 ---
 
 # Bdatypes.h header
@@ -18,7 +19,7 @@ tech.root: stream
 
 ## -description
 
-
 This header is used by stream. For more information, see:
 
 - [Streaming media devices](../_stream/index.md)
+

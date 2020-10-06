@@ -8,8 +8,6 @@ ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.date: 02/26/2018
 keywords: ["IWDFDeviceInitialize2::SetIoTypePreference"]
 ms.keywords: IWDFDeviceInitialize2 interface,SetIoTypePreference method, IWDFDeviceInitialize2.SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method,IWDFDeviceInitialize2 interface, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
-f1_keywords:
- - "wudfddi/IWDFDeviceInitialize2.SetIoTypePreference"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDeviceInitialize2.SetIoTypePreference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDeviceInitialize2::SetIoTypePreference
+ - wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDeviceInitialize2.SetIoTypePreference
 ---
 
 # IWDFDeviceInitialize2::SetIoTypePreference
@@ -47,58 +46,47 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetIoTypePreference</b> method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.
 
-
 ## -parameters
 
+### -param RetrievalMode 
 
+[in]
+A <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>-typed value that specifies the buffer retrieval mode that you prefer UMDF to use to make an I/O request's buffers available to the driver.
 
+### -param ReadWritePreference 
 
-### -param RetrievalMode [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of read and write requests.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>-typed value that specifies the buffer retrieval mode that you prefer UMDF to use to make an I/O request's buffers available to the driver.
+### -param IoControlPreference 
 
-
-### -param ReadWritePreference [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of read and write requests. 
-
-
-### -param IoControlPreference [in]
-
-A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of device I/O control requests. 
-
+[in]
+A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of device I/O control requests.
 
 ## -remarks
 
-
-
-If a driver calls <b>SetIoTypePreference</b> for a device, it must do so from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a> callback function, before the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>.
+If a driver calls <b>SetIoTypePreference</b> for a device, it must do so from its <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a> callback function, before the driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>.
 
 If the driver does not call <b>SetIoTypePreference</b>, UMDF sets the <i>RetrievalMode</i> parameter to <b>WdfDeviceIoBufferRetrievalCopyImmediately</b> and it sets the buffer access method to <b>WdfDeviceIoBuffered</b> for read, write, and device I/O control requests.
 
-UMDF might not use the preferences that the driver specifies when it calls <b>SetIoTypePreference</b>. For more information about how UMDF chooses a retrieval mode and buffer access method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Specifying a Buffer Retrieval Mode</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">How UMDF Chooses a Buffer Access Method for an I/O Request</a><u>.</u>
+UMDF might not use the preferences that the driver specifies when it calls <b>SetIoTypePreference</b>. For more information about how UMDF chooses a retrieval mode and buffer access method, see <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Specifying a Buffer Retrieval Mode</a> and <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">How UMDF Chooses a Buffer Access Method for an I/O Request</a><u>.</u>
 
 A driver cannot set the buffer access method to <b>WdfDeviceIoDirect</b> or <b>WdfDeviceIoBufferedOrDirect</b> unless it also sets the <i>RetrievalMode</i> parameter to <b>WdfDeviceIoBufferRetrievalDeferred</b>.
 
-For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
+For more information about accessing an I/O request's data buffers, see <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example shows a segment of a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a> callback function. The segment obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a> interface and then calls <b>SetIoTypePreference</b>. 
+The following code example shows a segment of a driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a> callback function. The segment obtains the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a> interface and then calls <b>SetIoTypePreference</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
  CMyDriver::OnDeviceAdd(
     __in IWDFDriver *FxWdfDriver,
     __in IWDFDeviceInitialize *FxDeviceInit
@@ -120,40 +108,30 @@ The following code example shows a segment of a driver's <a href="https://docs.m
                              WdfDeviceIoBuffered,
                              WdfDeviceIoDirect);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-geteffectiveiotype">IWDFIoRequest2::GetEffectiveIoType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-geteffectiveiotype">IWDFIoRequest2::GetEffectiveIoType</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_type">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_type">WDF_DEVICE_IO_TYPE (UMDF)</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotypeex">WdfDeviceInitSetIoTypeEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotypeex">WdfDeviceInitSetIoTypeEx</a>

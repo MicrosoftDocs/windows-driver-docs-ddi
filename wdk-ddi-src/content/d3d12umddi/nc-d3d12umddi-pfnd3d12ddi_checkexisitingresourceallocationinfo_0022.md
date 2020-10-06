@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnCheckExistingResourceAllocationInfo"
+ - PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
+ - d3d12umddi/PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +45,10 @@ product:
 
 # PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback function
 
+
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkexisitingresourceallocationinfo_0022">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
+The <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkexisitingresourceallocationinfo_0022">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
 
 ## -parameters
 
@@ -70,9 +72,8 @@ Information for resource allocation.
 
 ## -remarks
 
-This callback function is part of a two step process of resource creation. After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout.
+This callback function is part of a two step process of resource creation. After the <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022">pfnCheckResourceAllocationInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022">pfnCheckResourceAllocationInfo</a>

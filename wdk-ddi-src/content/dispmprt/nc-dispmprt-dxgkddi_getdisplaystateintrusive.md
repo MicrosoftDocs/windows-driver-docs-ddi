@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 f1_keywords:
+ - DXGKDDI_GETDISPLAYSTATEINTRUSIVE
  - dispmprt/DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_GETDISPLAYSTATEINTRUSIVE callback function
+
 
 ## -description
 
@@ -83,17 +85,17 @@ The OS will call this routine much less frequently relative to calls to [**DxgkD
 DXGKRNL will call this routine with **NumOfTargets** set to the number of targets on which the OS reports that there is a monitor connected with corresponding **VidPnTargetId** filled in. When the driver believes there is no monitor connected on a given target then it should set the **ReturnSubStatus** for that target to be DXGK_DIAG_GETDISPLAYSTATE_MONITOR_NOT_CONNECTED.
 
 > [!NOTE]
-> If the driver hits a failure on a given vidpntarget while collecting information, it should use **ReturnSubStatus** to set the error state and proceed to the next vidpntarget and not fail the overall call unless all the paths hit failures. Drivers should ideally record errors hit during this call in some internal error log so that when OS calls [**DxgkDdiCollectDiagnosticInfo**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_collectdiagnosticinfo) for collecting black box information, these errors are captured as part of an internal log collection to help IHVs debug.
+> If the driver hits a failure on a given vidpntarget while collecting information, it should use **ReturnSubStatus** to set the error state and proceed to the next vidpntarget and not fail the overall call unless all the paths hit failures. Drivers should ideally record errors hit during this call in some internal error log so that when OS calls [**DxgkDdiCollectDiagnosticInfo**](./nc-dispmprt-dxgkddi_collectdiagnosticinfo.md) for collecting black box information, these errors are captured as part of an internal log collection to help IHVs debug.
 >
 > The OS will have a sufficient timeout (approximately 5 seconds) for **DxgkDdiGetDisplayStateIntrusive** to complete, giving the driver more time to collect all the relevant state. After a timeout, the OS might bugcheck the machine and collect a dump if the driver hangs in this call, so the miniport should try to always complete this call within the time frame.
 
-Synchronization level for this DDI is [zero level synchronization](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level).
+Synchronization level for this DDI is [zero level synchronization](/windows-hardware/drivers/display/threading-and-synchronization-zero-level).
 
 ## -see-also
 
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
-[**DxgkDdiCollectDiagnosticInfo**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_collectdiagnosticinfo)
+[**DxgkDdiCollectDiagnosticInfo**](./nc-dispmprt-dxgkddi_collectdiagnosticinfo.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 

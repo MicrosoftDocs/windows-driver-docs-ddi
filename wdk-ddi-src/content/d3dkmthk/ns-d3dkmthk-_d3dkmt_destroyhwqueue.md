@@ -5,10 +5,8 @@ description: A structure holding information to destroy a hardware queue.
 old-location: display\d3dkmt_destroyhwqueue.htm
 ms.assetid: 076B47F5-8312-43E3-AE75-D4DDA8C0A181
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_DESTROYHWQUEUE structure"]
+keywords: ["D3DKMT_DESTROYHWQUEUE structure"]
 ms.keywords: D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE structure [Display Devices], _D3DKMT_DESTROYHWQUEUE, d3dkmthk/D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue
-f1_keywords:
- - "d3dkmthk/D3DKMT_DESTROYHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DESTROYHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYHWQUEUE
+f1_keywords:
+ - _D3DKMT_DESTROYHWQUEUE
+ - d3dkmthk/_D3DKMT_DESTROYHWQUEUE
+ - D3DKMT_DESTROYHWQUEUE
+ - d3dkmthk/D3DKMT_DESTROYHWQUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DESTROYHWQUEUE
 ---
 
 # _D3DKMT_DESTROYHWQUEUE structure
@@ -47,17 +48,11 @@ req.typenames: D3DKMT_DESTROYHWQUEUE
 
 ## -description
 
-
 A structure holding information to destroy a hardware queue.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hHwQueue
 
 Handle to the hardware queue to be destroyed.
-
 

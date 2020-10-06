@@ -8,8 +8,6 @@ ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.date: 04/20/2018
 keywords: ["IPrinterQueue::SendBidiQuery"]
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
-f1_keywords:
- - "printerextension/IPrinterQueue.SendBidiQuery"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueue.SendBidiQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueue::SendBidiQuery
+ - printerextension/IPrinterQueue::SendBidiQuery
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueue.SendBidiQuery
 ---
 
 # IPrinterQueue::SendBidiQuery
@@ -47,36 +46,24 @@ req.typenames:
 
 ## -description
 
-
-Performs an asynchronous refresh operation with the specified query, and invokes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a> method.
-
+Performs an asynchronous refresh operation with the specified query, and invokes the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a> method.
 
 ## -parameters
 
+### -param bstrBidiQuery 
 
-
-
-### -param bstrBidiQuery [in]
-
+[in]
 The specified query.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
+When the <b>SendBidiQuery</b> method is called, it immediately raises the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a> event, if there is a cached response available.  The print system then starts an asynchronous operation to use the <a href="/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a>. At this point <b>SendBidiQuery</b> returns, thus unblocking the caller.  When the asynchronous operation completes, the print system raises the <b>IPrinterQueueEvent::OnBidiResponseReceived</b> event again. <b>SendBidiQuery</b> is decoupled from its associated response on purpose. The decoupling is done because, in the case where there is no cached data, the resulting latency can be due to many factors and an immediate response cannot be expected.  Additionally the caller may receive multiple responses based on whether there is cached data, and whether there is a response from the device.
 
-
-When the <b>SendBidiQuery</b> method is called, it immediately raises the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a> event, if there is a cached response available.  The print system then starts an asynchronous operation to use the <a href="https://docs.microsoft.com/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a>. At this point <b>SendBidiQuery</b> returns, thus unblocking the caller.  When the asynchronous operation completes, the print system raises the <b>IPrinterQueueEvent::OnBidiResponseReceived</b> event again. <b>SendBidiQuery</b> is decoupled from its associated response on purpose. The decoupling is done because, in the case where there is no cached data, the resulting latency can be due to many factors and an immediate response cannot be expected.  Additionally the caller may receive multiple responses based on whether there is cached data, and whether there is a response from the device.
-
-Using the <a href="https://docs.microsoft.com/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a> causes the port monitor to refresh the underlying requested values. In the case of USB, if a JavaScript component is available, then the JavaScript code is invoked to refresh the requested values.
+Using the <a href="/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a> causes the port monitor to refresh the underlying requested values. In the case of USB, if a JavaScript component is available, then the JavaScript code is invoked to refresh the requested values.
 
 The cache is also updated in the following situations:
 
@@ -97,25 +84,14 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 <dd>For example, when a WSD-based device raises an event to let the spooler (WSDMon) know that something about the device has changed. In other words, the printer configuration has changed.</dd>
 </dl>
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd183365(v=vs.85)">Bidi Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a>

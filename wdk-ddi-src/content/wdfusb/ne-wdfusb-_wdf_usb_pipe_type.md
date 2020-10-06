@@ -6,10 +6,8 @@ old-location: wdf\wdf_usb_pipe_type.htm
 tech.root: wdf
 ms.assetid: ae230ff0-4fd9-417b-8ee0-80e3ca5a30ff
 ms.date: 02/26/2018
-keywords: ["_WDF_USB_PIPE_TYPE enumeration"]
+keywords: ["WDF_USB_PIPE_TYPE enumeration"]
 ms.keywords: DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, WDF_USB_PIPE_TYPE, WDF_USB_PIPE_TYPE enumeration, WdfUsbPipeTypeBulk, WdfUsbPipeTypeControl, WdfUsbPipeTypeInterrupt, WdfUsbPipeTypeInvalid, WdfUsbPipeTypeIsochronous, _WDF_USB_PIPE_TYPE, kmdf.wdf_usb_pipe_type, wdf.wdf_usb_pipe_type, wdfusb/WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeBulk, wdfusb/WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeInterrupt, wdfusb/WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeIsochronous
-f1_keywords:
- - "wdfusb/WDF_USB_PIPE_TYPE"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfusb.h
-api_name:
-- WDF_USB_PIPE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_PIPE_TYPE
+f1_keywords:
+ - _WDF_USB_PIPE_TYPE
+ - wdfusb/_WDF_USB_PIPE_TYPE
+ - WDF_USB_PIPE_TYPE
+ - wdfusb/WDF_USB_PIPE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfusb.h
+api_name:
+ - WDF_USB_PIPE_TYPE
 ---
 
 # _WDF_USB_PIPE_TYPE enumeration
@@ -47,58 +48,36 @@ req.typenames: WDF_USB_PIPE_TYPE
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_PIPE_TYPE</b> enumeration identifies the types of USB pipes.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WdfUsbPipeTypeInvalid
 
 Reserved for internal use.
 
-
 ### -field WdfUsbPipeTypeControl
 
 The pipe is a control pipe.
 
-
 ### -field WdfUsbPipeTypeIsochronous
 
-The pipe is an isochronous pipe. 
-
+The pipe is an isochronous pipe.
 
 ### -field WdfUsbPipeTypeBulk
 
 The pipe is a bulk pipe.
 
-
 ### -field WdfUsbPipeTypeInterrupt
 
 The pipe is an interrupt pipe.
 
-
 ## -remarks
 
-
-
-The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure.
-
-
-
+The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a>

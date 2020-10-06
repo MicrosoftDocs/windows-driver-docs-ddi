@@ -8,8 +8,6 @@ ms.assetid: 2c38ab6a-c583-45a5-93a5-6a5882411b6c
 ms.date: 04/16/2018
 keywords: ["FltGetVolumeFromInstance function"]
 ms.keywords: FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, FltGetVolumeFromInstance, FltGetVolumeFromInstance routine [Installable File System Drivers], fltkernel/FltGetVolumeFromInstance, ifsk.fltgetvolumefrominstance
-f1_keywords:
- - "fltkernel/FltGetVolumeFromInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetVolumeFromInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetVolumeFromInstance
+ - fltkernel/FltGetVolumeFromInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetVolumeFromInstance
 ---
 
 # FltGetVolumeFromInstance function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetVolumeFromInstance</b> routine returns an opaque pointer for the volume that a given minifilter driver instance is attached to. 
-
+The <b>FltGetVolumeFromInstance</b> routine returns an opaque pointer for the volume that a given minifilter driver instance is attached to.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the instance.
 
+### -param RetVolume 
 
-### -param Instance [in]
-
-Opaque instance pointer for the instance. 
-
-
-### -param RetVolume [out]
-
-Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetVolumeFromInstance</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -89,45 +81,29 @@ The volume that the minifilter driver instance is attached to is being torn down
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>FltGetVolumeFromInstance</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
+To get an opaque filter pointer for the minifilter driver that created a given instance, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterfrominstance">FltGetFilterFromInstance</a>. 
 
-<b>FltGetVolumeFromInstance</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+To get a pointer to the device object for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>. 
 
-To get an opaque filter pointer for the minifilter driver that created a given instance, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterfrominstance">FltGetFilterFromInstance</a>. 
-
-To get a pointer to the device object for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>. 
-
-To get detailed information about the volume that a given instance is attached to, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>. 
-
-
-
+To get detailed information about the volume that a given instance is attached to, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterfrominstance">FltGetFilterFromInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterfrominstance">FltGetFilterFromInstance</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>

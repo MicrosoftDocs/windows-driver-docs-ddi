@@ -4,34 +4,38 @@ title: _NFIT_STRUCTURE_TYPE enumeration (acpitabl.h)
 description: Describes NVDIMM Firmware Interface Table (NFIT) structure types.
 ms.assetid: a9645635-eb52-45a3-9deb-32a278337646
 ms.date: 10/02/2018
-keywords: ["_NFIT_STRUCTURE_TYPE enumeration"]
-f1_keywords:
- - "acpitabl/_NFIT_STRUCTURE_TYPE"
-ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE, 
+keywords: ["NFIT_STRUCTURE_TYPE enumeration"]
+ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE,
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _NFIT_STRUCTURE_TYPE
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _NFIT_STRUCTURE_TYPE
+ - acpitabl/_NFIT_STRUCTURE_TYPE
+ - PNFIT_STRUCTURE_TYPE
+ - acpitabl/PNFIT_STRUCTURE_TYPE
+ - NFIT_STRUCTURE_TYPE
+ - acpitabl/NFIT_STRUCTURE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _NFIT_STRUCTURE_TYPE
 ---
 
 # _NFIT_STRUCTURE_TYPE enumeration
+
 
 ## -description
 
@@ -73,9 +77,7 @@ Value is 7.
 
 ### -field NfitMaximum 
 
-
-
-
 ## -remarks
 
 ## -see-also
+

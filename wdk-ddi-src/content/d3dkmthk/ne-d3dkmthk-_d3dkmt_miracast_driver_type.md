@@ -4,38 +4,40 @@ title: _D3DKMT_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
 description: Miracast (wireless display) driver types.
 ms.assetid: 13caa7c0-4374-4e8a-a590-517591d3b8d7
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_MIRACAST_DRIVER_TYPE enumeration"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_MIRACAST_DRIVER_TYPE"
-ms.keywords: _D3DKMT_MIRACAST_DRIVER_TYPE, D3DKMT_MIRACAST_DRIVER_TYPE, 
+keywords: ["D3DKMT_MIRACAST_DRIVER_TYPE enumeration"]
+ms.keywords: _D3DKMT_MIRACAST_DRIVER_TYPE, D3DKMT_MIRACAST_DRIVER_TYPE,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_MIRACAST_DRIVER_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_MIRACAST_DRIVER_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_MIRACAST_DRIVER_TYPE
+ - d3dkmthk/_D3DKMT_MIRACAST_DRIVER_TYPE
+ - D3DKMT_MIRACAST_DRIVER_TYPE
+ - d3dkmthk/D3DKMT_MIRACAST_DRIVER_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_MIRACAST_DRIVER_TYPE
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_MIRACAST_DRIVER_TYPE enumeration
+
 
 ## -description
 
@@ -58,3 +60,4 @@ Microsoft.
 ## -remarks
 
 ## -see-also
+

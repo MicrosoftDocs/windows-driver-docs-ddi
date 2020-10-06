@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/ResolveSharedResource"
+ - PFND3DDDI_RESOLVESHAREDRESOURCE
+ - d3dumddi/PFND3DDDI_RESOLVESHAREDRESOURCE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_RESOLVESHAREDRESOURCE callback function
 
+
 ## -description
 
 The <i>ResolveSharedResource</i> function informs a user-mode display driver that ownership of a shared surface changed or that a surface is being used for GDI interoperation.
@@ -58,7 +60,7 @@ A handle to the display device (that is, the graphics context) that is associate
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface.
 
 ## -returns
 
@@ -89,9 +91,8 @@ The driver implements <i>ResolveSharedResource</i> to appropriately manage resou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

@@ -29,12 +29,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - WheaCreateHwErrorReportDeviceDriver
 f1_keywords:
+ - WheaCreateHwErrorReportDeviceDriver
  - ntddk/WheaCreateHwErrorReportDeviceDriver
 dev_langs:
  - c++
@@ -65,3 +66,4 @@ For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/usi
 ## -see-also
 
 [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md)
+

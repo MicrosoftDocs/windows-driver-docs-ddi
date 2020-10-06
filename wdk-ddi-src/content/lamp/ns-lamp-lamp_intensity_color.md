@@ -8,8 +8,6 @@ ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.date: 04/23/2018
 keywords: ["LAMP_INTENSITY_COLOR structure"]
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
-f1_keywords:
- - "lamp/LAMP_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- LAMP_INTENSITY_COLOR
-product:
-- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_COLOR
+f1_keywords:
+ - LAMP_INTENSITY_COLOR
+ - lamp/LAMP_INTENSITY_COLOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - LAMP_INTENSITY_COLOR
 ---
 
 # LAMP_INTENSITY_COLOR structure
@@ -47,26 +46,18 @@ req.typenames: LAMP_INTENSITY_COLOR
 
 ## -description
 
-
-This structure is the I/O parameter type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_color">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_color">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
-
+This structure is the I/O parameter type of <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_color">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_color">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Red
 
 Red light intensity in percentage (0-100).
 
-
 ### -field Green
 
 Green light intensity in percentage (0-100).
 
-
 ### -field Blue
 
 Blue light intensity in percentage (0-100).
-

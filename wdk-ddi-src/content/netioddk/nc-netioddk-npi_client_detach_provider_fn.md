@@ -8,8 +8,6 @@ ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
 ms.date: 05/02/2018
 keywords: ["NPI_CLIENT_DETACH_PROVIDER_FN callback function"]
 ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, NPI_CLIENT_DETACH_PROVIDER_FN callback, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
-f1_keywords:
- - "netioddk/PNPI_CLIENT_DETACH_PROVIDER_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netioddk.h
-api_name:
-- PNPI_CLIENT_DETACH_PROVIDER_FN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NPI_CLIENT_DETACH_PROVIDER_FN
+ - netioddk/NPI_CLIENT_DETACH_PROVIDER_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netioddk.h
+api_name:
+ - PNPI_CLIENT_DETACH_PROVIDER_FN
 ---
 
 # NPI_CLIENT_DETACH_PROVIDER_FN callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 A client module's 
   <i>ClientDetachProvider</i> callback function detaches the client module from a provider module.
 
-
 ## -parameters
 
+### -param ClientBindingContext 
 
-
-
-### -param ClientBindingContext [in]
-
+[in]
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it is detaching. The client module passes this pointer to the NMR when it
      calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
      to attach to the provider module.
 
-
 ## -returns
-
-
 
 A client module's 
      <i>ClientDetachProvider</i> callback function returns one of the following NTSTATUS codes:
@@ -101,26 +93,20 @@ The client module could not detach from the provider module immediately.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The NMR calls a client module's 
     <i>ClientDetachProvider</i> callback function whenever the binding between the client module and a
     provider module needs to be terminated. Detachment is initiated by either the client module calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function or the
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function or the
     provider module calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function.
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function.
 
 After its 
     <i>ClientDetachProvider</i> callback function has been called, a client module should not make any more
     calls to any of the provider module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions. If there are no
+    <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions. If there are no
     in-progress calls to any of the provider module's 
     NPI functions when the client
     module's 
@@ -128,12 +114,12 @@ After its
     <i>ClientDetachProvider</i> callback function returns STATUS_SUCCESS.
 
 If there are in-progress calls to one or more of the provider module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions when the client
+    <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions when the client
     module's 
     <i>ClientDetachProvider</i> callback function is called, then the client module's 
     <i>ClientDetachProvider</i> callback function returns STATUS_PENDING. In this situation, the client module
     must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
     NmrClientDetachProviderComplete</a> function after all in-progress calls to the provider module's 
     NPI functions have completed. The
     call to the 
@@ -142,51 +128,41 @@ If there are in-progress calls to one or more of the provider module's
     is complete.
 
 The NMR calls the client module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_cleanup_binding_context_fn">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_cleanup_binding_context_fn">
     ClientCleanupBindingContext</a> callback function and the provider module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
     ProviderCleanupBindingContext</a> callback function after both the client module and the provider
     module have completed detachment from each other.
 
 The NMR calls a client module's 
     <i>ClientDetachProvider</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_cleanup_binding_context_fn">ClientCleanupBindingContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_cleanup_binding_context_fn">ClientCleanupBindingContext</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
    NmrClientDetachProviderComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
    ProviderCleanupBindingContext</a>
- 
-
- 
-

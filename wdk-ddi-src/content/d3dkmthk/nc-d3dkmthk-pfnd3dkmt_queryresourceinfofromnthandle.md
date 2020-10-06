@@ -7,8 +7,6 @@ ms.assetid: 7a433aaf-3215-4d11-8989-2d7bdc7f7499
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function"]
 ms.keywords: D3DKMTQueryResourceInfoFromNtHandle, D3DKMTQueryResourceInfoFromNtHandle callback function [Display Devices], PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback, d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle, display.d3dkmtqueryresourceinfofromnthandle
-f1_keywords:
- - "d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMTQueryResourceInfoFromNtHandle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+ - d3dkmthk/PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMTQueryResourceInfoFromNtHandle
 ---
 
 # PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function
@@ -47,26 +46,17 @@ req.typenames:
 
 ## -description
 
-
-Maps a global NT handle  to resource information that is needed for a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function.
-
+Maps a global NT handle  to resource information that is needed for a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 *pData* 
 
-[in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
-
+[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
 
 ## -returns
-
-
 
 Returns one of the following values:
 
@@ -78,20 +68,10 @@ Returns one of the following values:
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a>

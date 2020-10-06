@@ -6,10 +6,8 @@ old-location: storage\msiscsi_securitycapabilities.htm
 tech.root: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.date: 03/29/2018
-keywords: ["_MSiSCSI_SecurityCapabilities structure"]
+keywords: ["MSiSCSI_SecurityCapabilities structure"]
 ms.keywords: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml"
-f1_keywords:
- - "iscsicfg/MSiSCSI_SecurityCapabilities"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsicfg.h
-api_name:
-- MSiSCSI_SecurityCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
+f1_keywords:
+ - _MSiSCSI_SecurityCapabilities
+ - iscsicfg/_MSiSCSI_SecurityCapabilities
+ - PMSiSCSI_SecurityCapabilities
+ - iscsicfg/PMSiSCSI_SecurityCapabilities
+ - MSiSCSI_SecurityCapabilities
+ - iscsicfg/MSiSCSI_SecurityCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsicfg.h
+api_name:
+ - MSiSCSI_SecurityCapabilities
 ---
 
 # _MSiSCSI_SecurityCapabilities structure
@@ -47,64 +50,42 @@ req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
 
 ## -description
 
-
-The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator. 
-
+The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 
 ## -struct-fields
-
-
-
 
 ### -field ProtectiScsiTraffic
 
 A Boolean value that indicates whether the initiator can use IPsec to protect iSCSI traffic. If this member is <b>TRUE</b>, the initiator can use IPsec to protect iSCSI traffic. If <b>FALSE</b>, the initiator cannot use IPsec.
 
-
 ### -field ProtectiSNSTraffic
 
 A Boolean value that indicates whether the initiator can use IPsec to protect iSNS traffic. If this member is <b>TRUE</b>, the initiator can use IPsec to protect iSNS traffic. If <b>FALSE</b>, the initiator cannot use IPsec.
-
 
 ### -field CertificatesSupported
 
 A Boolean value that indicates whether the initiator supports certificates. If this member is <b>TRUE</b>, the initiator supports certificates. If this member is <b>FALSE</b>, the initiatiator does not support certificates.
 
-
 ### -field EncryptionAvailableCount
 
-The number of encryption types that the initiator supports. 
-
+The number of encryption types that the initiator supports.
 
 ### -field EncryptionAvailable
 
-A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
-
+A variable length array of <a href="/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports.
 
 ## -remarks
 
-
-
-The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
+The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators that support IPsec must implement the MSiSCSI_SecurityCapabilities class. 
 
 Initiators must register the MSiSCSI_SecurityCapabilities class using the name of the physical device object (PDO) for the HBA. You must implement this class if the adapter supports IPsec.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>

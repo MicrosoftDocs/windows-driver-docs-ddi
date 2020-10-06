@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # PCMCIA bus drivers
@@ -22,4 +20,4 @@ To develop PCMCIA bus drivers, you need these headers:
 
  * [ntddpcm.h](../ntddpcm/index.md)
 
-For the programming guide, see [PCMCIA bus drivers](https://docs.microsoft.com/windows-hardware/drivers/pcmcia).
+For the programming guide, see [PCMCIA bus drivers](/windows-hardware/drivers/pcmcia).

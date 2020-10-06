@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0043"
+ - PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
+ - d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 callback function
+
 
 ## -description
 

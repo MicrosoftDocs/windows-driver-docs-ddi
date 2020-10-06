@@ -8,8 +8,6 @@ ms.assetid: 24254e56-c7f5-4424-98b5-3b99bf210d5b
 ms.date: 05/02/2018
 keywords: ["FwpsCalloutUnregisterByKey0 function"]
 ms.keywords: FwpsCalloutUnregisterByKey0, FwpsCalloutUnregisterByKey0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterByKey0, netvista.fwpscalloutunregisterbykey0, wfp_ref_2_funct_3_fwps_C_e5a98dbf-23ee-4383-96d5-d8ce8a85614e.xml
-f1_keywords:
- - "fwpsk/FwpsCalloutUnregisterByKey0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsCalloutUnregisterByKey0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsCalloutUnregisterByKey0
+ - fwpsk/FwpsCalloutUnregisterByKey0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsCalloutUnregisterByKey0
 ---
 
 # FwpsCalloutUnregisterByKey0 function
@@ -48,29 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsCalloutUnregisterByKey0</b> function unregisters a callout from the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpsCalloutUnregisterByKey0</b> is a specific version of <b>FwpsCalloutUnregisterByKey</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsCalloutUnregisterByKey0</b> is a specific version of <b>FwpsCalloutUnregisterByKey</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param calloutKey 
 
-
-
-### -param calloutKey [in]
-
+[in]
 A pointer to a GUID that uniquely identifies the callout that is being unregistered from the
      filter engine. This must be a pointer to the same GUID that was specified when the callout driver called
      either the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsCalloutUnregisterByKey0</b> function returns one of the following NTSTATUS codes.
@@ -100,7 +93,7 @@ The callout was successfully unregistered from the filter engine.
 <td width="60%">
 There are one or more data flows being processed by the callout that have an outstanding context
        associated with the data flow. A callout driver must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a> function
+       <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a> function
        for each of these data flows to remove the associated context. After the context has been successfully
        removed from each of these data flows, the callout driver must call the 
        <b>FwpsCalloutUnregisterByKey0</b> function again to finish unregistering the callout from the filter
@@ -144,14 +137,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsCalloutUnregisterByKey0</b> function to unregister a callout from the filter engine, using the GUID
@@ -164,32 +151,22 @@ A callout driver calls the
 A callout driver cannot be unloaded until all of the callouts that were previously registered with the
     filter engine have been successfully unregistered.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutunregisterbyid0">FwpsCalloutUnregisterById0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutunregisterbyid0">FwpsCalloutUnregisterById0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-callouts">Types of Callouts</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/types-of-callouts">Types of Callouts</a>

@@ -8,8 +8,6 @@ ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::ControlledOutputVaList"]
 ms.keywords: ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging],IDebugControl interface, ControlledOutputVaList method [Windows Debugging],IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutputVaList method, IDebugControl2 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl3.ControlledOutputVaList, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist
-f1_keywords:
- - "dbgeng/IDebugControl.ControlledOutputVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl.ControlledOutputVaList
-- IDebugControl2.ControlledOutputVaList
-- IDebugControl3.ControlledOutputVaList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::ControlledOutputVaList
+ - dbgeng/IDebugControl3::ControlledOutputVaList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl.ControlledOutputVaList
+ - IDebugControl2.ControlledOutputVaList
+ - IDebugControl3.ControlledOutputVaList
 ---
 
 # IDebugControl3::ControlledOutputVaList
@@ -49,27 +48,23 @@ req.typenames:
 
 ## -description
 
-
-The <b>ControlledOutputVaList</b>  method formats a string and sends the result to <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that were registered with some of the engine's clients.
-
+The <b>ControlledOutputVaList</b>  method formats a string and sends the result to <a href="/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that were registered with some of the engine's clients.
 
 ## -parameters
 
+### -param OutputControl 
 
+[in]
+Specifies an output control that determines which client's output callbacks will receive the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
+### -param Mask 
 
-### -param OutputControl [in]
+[in]
+Specifies the output-type bit field.  See <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
-Specifies an output control that determines which client's output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+### -param Format 
 
-
-### -param Mask [in]
-
-Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
-
-
-### -param Format [in]
-
+[in]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
@@ -246,7 +241,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 </table>
  
 
-The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/customizing-debugger-output-using-dml">Customizing Debugger Output Using DML</a>.
+The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="/windows-hardware/drivers/debugger/customizing-debugger-output-using-dml">Customizing Debugger Output Using DML</a>.
 
 The following table summarizes the use of the %Y format specifier.
 
@@ -346,13 +341,9 @@ ULONG64
 
 This code snippet illustrates the use of the  %Y format specifier.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CALLBACK testout(_In_ PDEBUG_CLIENT pClient, _In_ PCWSTR /*pwszArgs*/)
+
+```cpp
+HRESULT CALLBACK testout(_In_ PDEBUG_CLIENT pClient, _In_ PCWSTR /*pwszArgs*/)
 {
     HRESULT hr = S_OK;
 
@@ -381,19 +372,14 @@ This code snippet illustrates the use of the  %Y format specifier.
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 This sample code would generate the following output.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>0:004> !testout
+
+```cpp
+0:004> !testout
 DML/NORMAL Y{t}: "Hello <World>"
 DML/NORMAL Y{T}: "Hello <World>"
 DML/NORMAL Y{s}: Hello <World>
@@ -408,21 +394,16 @@ DML/NORMAL Y{as} 32value : '         '
 DML/NORMAL Y{ps} 64bit   : '        '
 DML/NORMAL Y{ps} 32value : '        '
 DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
+### -param Args 
 
-### -param Args [in]
-
+[in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -443,49 +424,34 @@ The method was successful.
 </table>
  
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
-
-
 
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
 The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Stdarg.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/ff539248(v=vs.85)">ControlledOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputvalist">OutputVaList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputvalist">OutputVaList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>

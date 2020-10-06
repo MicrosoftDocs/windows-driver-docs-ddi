@@ -8,8 +8,6 @@ ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
 ms.date: 04/20/2018
 keywords: ["IPrintPipelineFilter::StartOperation"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],StartOperation method, IPrintPipelineFilter.StartOperation, IPrintPipelineFilter::StartOperation, StartOperation, StartOperation method [Print Devices], StartOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::StartOperation, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation
-f1_keywords:
- - "filterpipeline/IPrintPipelineFilter.StartOperation"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filterpipeline.h
-api_name:
-- IPrintPipelineFilter.StartOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelineFilter::StartOperation
+ - filterpipeline/IPrintPipelineFilter::StartOperation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filterpipeline.h
+api_name:
+ - IPrintPipelineFilter.StartOperation
 ---
 
 # IPrintPipelineFilter::StartOperation
@@ -47,24 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
-
 
 ## -returns
 
-
-
 <code>StartOperation</code> returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
 A filter returns the <code>StartOperation</code> call only when the filter processing is complete.
-
-
 

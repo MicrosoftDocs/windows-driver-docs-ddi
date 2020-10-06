@@ -8,8 +8,6 @@ ms.assetid: FAC9AC9B-9C4B-4D53-A59A-8901EC8755BC
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamLoopbackProtection method, IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection, IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection, SetStreamLoopbackProtection method [Audio Devices], SetStreamLoopbackProtection method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection, portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
-f1_keywords:
- - "portcls/IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
+ - portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
@@ -47,53 +46,31 @@ req.typenames:
 
 ## -description
 
-
 Sets the loopback protection status of the audio engine node.
-
 
 ## -parameters
 
+### -param ProtectionOption 
 
-
-
-### -param ProtectionOption [in]
-
+[in]
 A CONSTRICTOR_OPTION enumeration  value that indicates status of the loopback protection option.
-
 
 ## -returns
 
-
-
 <b>SetStreamLoopbackProtection</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
-For more information about audio stream loopback protection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>.
-
-
-
+For more information about audio stream loopback protection, see <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>.
 
 ## -see-also
-
-
-
 
 CONSTRICTOR_OPTION
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>

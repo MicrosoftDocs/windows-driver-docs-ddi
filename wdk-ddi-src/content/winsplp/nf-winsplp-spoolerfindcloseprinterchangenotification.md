@@ -8,8 +8,6 @@ ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 ms.date: 04/20/2018
 keywords: ["SpoolerFindClosePrinterChangeNotification function"]
 ms.keywords: SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification, winsplp/SpoolerFindClosePrinterChangeNotification
-f1_keywords:
- - "winsplp/SpoolerFindClosePrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SpoolerFindClosePrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerFindClosePrinterChangeNotification
+ - winsplp/SpoolerFindClosePrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SpoolerFindClosePrinterChangeNotification
 ---
 
 # SpoolerFindClosePrinterChangeNotification function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
-
-
-### -param hPrinter [in]
+[in]
 

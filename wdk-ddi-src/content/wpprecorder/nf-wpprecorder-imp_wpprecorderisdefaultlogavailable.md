@@ -8,8 +8,6 @@ ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
 ms.date: 02/23/2018
 keywords: ["imp_WppRecorderIsDefaultLogAvailable function"]
 ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
-f1_keywords:
- - "wpprecorder/imp_WppRecorderIsDefaultLogAvailable"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wpprecorder.h
-api_name:
-- imp_WppRecorderIsDefaultLogAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - imp_WppRecorderIsDefaultLogAvailable
+ - wpprecorder/imp_WppRecorderIsDefaultLogAvailable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wpprecorder.h
+api_name:
+ - imp_WppRecorderIsDefaultLogAvailable
 ---
 
 # imp_WppRecorderIsDefaultLogAvailable function
@@ -47,27 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>WppRecorderIsDefaultLogAvailable</b> method determines whether the default log is available.
 
-
 ## -parameters
-
-
-
 
 ### -param WppCb
 
 TBD
 
-
-
-
 ## -returns
 
-
-
 TRUE if the default log is available; otherwise, FALSE.
-
-
 

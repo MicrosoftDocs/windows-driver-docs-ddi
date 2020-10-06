@@ -6,38 +6,38 @@ tech.root: audio
 ms.assetid: 9e022d50-5bdd-4eb9-a6b4-86c93eca8527
 ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::WaitForTC"]
-f1_keywords:
- - "portcls/IDmaChannelSlave.WaitForTC"
 ms.keywords: IDmaChannelSlave::WaitForTC, WaitForTC, IDmaChannelSlave.WaitForTC, IDmaChannelSlave::WaitForTC, IDmaChannelSlave.WaitForTC
 req.header: portcls.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - portcls.h
-api_name: 
- - IDmaChannelSlave.WaitForTC
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IDmaChannelSlave::WaitForTC
+ - portcls/IDmaChannelSlave::WaitForTC
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IDmaChannelSlave.WaitForTC
+product:
+ - Windows
 ---
 
 # IDmaChannelSlave::WaitForTC
@@ -54,12 +54,13 @@ The WaitForTC method waits for the DMA-transfer terminal count to complete, or i
 Specifies the time-out interval in microseconds. This interval is the length of time that the method waits for the transfer to complete before timing out. The specified time-out interval is rounded down to the nearest ten-microsecond increment.
 
 ## -returns
+
 The WaitForTC method returns NTSTATUS. It returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
 
 > [!NOTE]
-> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
+> Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the [Microsoft style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
 This method should be called in only two situations:
 
@@ -68,7 +69,6 @@ This method should be called in only two situations:
 2. In the case of DMA hardware that is not auto-initialized, the miniport driver can call WaitForTC at any time to wait until a DMA transfer completes.
 
 Because this method simply waits until the DMA transfer either completes or times out, callers of WaitForTC must be running at IRQL PASSIVE_LEVEL.
-
 
 ## -see-also
 

@@ -8,8 +8,6 @@ ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.date: 04/30/2018
 keywords: ["ZwOpenKeyEx function"]
 ms.keywords: ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, wdm/ZwOpenKeyEx
-f1_keywords:
- - "wdm/ZwOpenKeyEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwOpenKeyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwOpenKeyEx
+ - wdm/ZwOpenKeyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwOpenKeyEx
 ---
 
 # ZwOpenKeyEx function
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>ZwOpenKeyEx</b> routine opens an existing registry key. 
-
+The <b>ZwOpenKeyEx</b> routine opens an existing registry key.
 
 ## -parameters
 
+### -param KeyHandle 
 
-
-
-### -param KeyHandle [out]
-
+[out]
 A pointer to a HANDLE variable into which the routine writes the handle to the key.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
+[in]
+Specifies the type of access to the key that the caller requests. This parameter is an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value. For more information, see the description of the <i>DesiredAccess</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine.
 
-Specifies the type of access to the key that the caller requests. This parameter is an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value. For more information, see the description of the <i>DesiredAccess</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine.
+### -param ObjectAttributes 
 
+[in]
+A pointer to the object attributes of the key being opened. This parameter points to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-### -param ObjectAttributes [in]
+### -param OpenOptions 
 
-A pointer to the object attributes of the key being opened. This parameter points to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
-
-
-### -param OpenOptions [in]
-
+[in]
 Specifies the options to apply when opening the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_<i>XXX</i> flag bits:
 
 <table>
@@ -101,12 +96,8 @@ The key should be opened with special privileges that allow backup and restore o
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>ZwOpenKeyEx</b> returns STATUS_SUCCESS if the call succeeds in opening the key. Possible error return values include the following:
 
@@ -182,53 +173,37 @@ A memory allocation operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine supplies a handle with which the caller can access a registry key. If the specified key does not exist, the routine returns an error status value and does not supply a key handle.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a> routine is similar to <b>ZwOpenKeyEx</b> but does not accept an <i>OpenOptions</i> parameter. The <i>OpenOptions</i> parameter of <b>ZwOpenKeyEx</b> enables the caller to open a key that is a symbolic link, or to open a key for backup and restore operations. A call to <b>ZwOpenKeyEx</b> with <i>OpenOptions</i> = 0 is equivalent to a call to <b>ZwOpenKey</b>.
+The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a> routine is similar to <b>ZwOpenKeyEx</b> but does not accept an <i>OpenOptions</i> parameter. The <i>OpenOptions</i> parameter of <b>ZwOpenKeyEx</b> enables the caller to open a key that is a symbolic link, or to open a key for backup and restore operations. A call to <b>ZwOpenKeyEx</b> with <i>OpenOptions</i> = 0 is equivalent to a call to <b>ZwOpenKey</b>.
 
-After the handle pointed to by <i>KeyHandle</i> is no longer in use, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> to close it.
+After the handle pointed to by <i>KeyHandle</i> is no longer in use, the driver must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> to close it.
 
 <b>ZwOpenKeyEx</b> ignores the security information in the structure that the <i>ObjectAttributes</i> parameter points to.
 
-If the kernel-mode caller is not running in a system thread context, it must ensure that any handles it creates are kernel handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
+If the kernel-mode caller is not running in a system thread context, it must ensure that any handles it creates are kernel handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
 
-For more information about working with registry keys in kernel mode, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>. 
-
-
-
+For more information about working with registry keys in kernel mode, see <a href="/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>

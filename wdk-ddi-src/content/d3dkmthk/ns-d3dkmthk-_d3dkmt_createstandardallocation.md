@@ -5,10 +5,8 @@ description: Used to create a standard allocation.
 old-location: display\d3dkmt-createstandardallocation.htm
 ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_CREATESTANDARDALLOCATION structure"]
+keywords: ["D3DKMT_CREATESTANDARDALLOCATION structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
-f1_keywords:
- - "d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_CREATESTANDARDALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATESTANDARDALLOCATION
+f1_keywords:
+ - _D3DKMT_CREATESTANDARDALLOCATION
+ - d3dkmthk/_D3DKMT_CREATESTANDARDALLOCATION
+ - D3DKMT_CREATESTANDARDALLOCATION
+ - d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_CREATESTANDARDALLOCATION
 ---
 
 # _D3DKMT_CREATESTANDARDALLOCATION structure
@@ -47,24 +48,17 @@ req.typenames: D3DKMT_CREATESTANDARDALLOCATION
 
 ## -description
 
-
 Used to create a standard allocation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of the standard allocation.
 
-
 ### -field ExistingHeapData
 
 Holds information on the existing heap.
-
 
 ### -field Flags
 

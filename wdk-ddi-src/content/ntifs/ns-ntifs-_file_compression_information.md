@@ -6,10 +6,8 @@ old-location: ifsk\file_compression_information.htm
 tech.root: ifsk
 ms.assetid: 69a360d9-6e17-4979-a4f3-219ac0739d99
 ms.date: 04/16/2018
-keywords: ["_FILE_COMPRESSION_INFORMATION structure"]
+keywords: ["FILE_COMPRESSION_INFORMATION structure"]
 ms.keywords: "*PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information, ntifs/FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_COMPRESSION_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_COMPRESSION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION
+f1_keywords:
+ - _FILE_COMPRESSION_INFORMATION
+ - ntifs/_FILE_COMPRESSION_INFORMATION
+ - PFILE_COMPRESSION_INFORMATION
+ - ntifs/PFILE_COMPRESSION_INFORMATION
+ - FILE_COMPRESSION_INFORMATION
+ - ntifs/FILE_COMPRESSION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_COMPRESSION_INFORMATION
 ---
 
 # _FILE_COMPRESSION_INFORMATION structure
@@ -47,19 +50,13 @@ req.typenames: FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION
 
 ## -description
 
-
 The FILE_COMPRESSION_INFORMATION structure describes the state of a compressed data buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CompressedFileSize
 
 The size, in bytes, of the compressed file.
-
 
 ### -field CompressionFormat
 
@@ -101,8 +98,6 @@ LZNT1 compression format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CompressionUnitShift
 
@@ -110,37 +105,26 @@ The log, base 2, of the number of clusters per compression
 
 unit. In the NTFS file system, this value is NTFS_CLUSTERS_PER_COMPRESSION.
 
-
 ### -field ChunkShift
 
-The log, base 2, of the number of bytes in a chunk. In other words, the size in bytes of the chunk is 2 ** <b>ChunkShift</b>, or (1 << <b>ChunkShift</b>). 
-
+The log, base 2, of the number of bytes in a chunk. In other words, the size in bytes of the chunk is 2 ** <b>ChunkShift</b>, or (1 << <b>ChunkShift</b>).
 
 ### -field ClusterShift
 
 The log, base 2, of the minimum number of clusters by which compression must reduce the size of the compression unit. If compression does not reduce the size of the compression unit by at least 2 ** <b>ClusterShift</b> clusters (or 1 << <b>ClusterShift</b> clusters), compression will not occur. Each compression unit must occupy at least one cluster less than the uncompressed data would occupy.
 
-
 ### -field Reserved
 
 Reserved
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-information">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-information">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>

@@ -8,8 +8,6 @@ ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.date: 04/30/2018
 keywords: ["RtlDeleteRegistryValue function"]
 ms.keywords: RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml, kernel.rtldeleteregistryvalue, wdm/RtlDeleteRegistryValue
-f1_keywords:
- - "wdm/RtlDeleteRegistryValue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlDeleteRegistryValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlDeleteRegistryValue
+ - wdm/RtlDeleteRegistryValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlDeleteRegistryValue
 ---
 
 # RtlDeleteRegistryValue function
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlDeleteRegistryValue</b> routine removes the specified entry name and the associated values from the registry along the given relative path.
-
 
 ## -parameters
 
+### -param RelativeTo 
 
-
-
-### -param RelativeTo [in]
-
+[in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 
 <table>
@@ -136,22 +131,18 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 </td>
 </tr>
 </table>
- 
 
+### -param Path 
 
-### -param Path [in]
-
+[in]
 Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REGISTRY_HANDLE is set, <i>Path</i> is a handle to be used directly.
 
+### -param ValueName 
 
-### -param ValueName [in]
-
+[in]
 Pointer to the value name to be removed from the registry.
 
-
 ## -returns
-
-
 
 <b>RtlDeleteRegistryValue</b> returns STATUS_SUCCESS if the value entry was deleted.
 
@@ -168,31 +159,22 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey">RtlCheckRegistryKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey">RtlCheckRegistryKey</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlwriteregistryvalue">RtlWriteRegistryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlwriteregistryvalue">RtlWriteRegistryValue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>

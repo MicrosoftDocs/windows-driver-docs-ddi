@@ -8,8 +8,6 @@ ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.date: 04/20/2018
 keywords: ["IPrinterBidiSetRequestCallback::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback interface [Print Devices],Completed method, IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
-f1_keywords:
- - "printerextension/IPrinterBidiSetRequestCallback.Completed"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterBidiSetRequestCallback.Completed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterBidiSetRequestCallback::Completed
+ - printerextension/IPrinterBidiSetRequestCallback::Completed
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterBidiSetRequestCallback.Completed
 ---
 
 # IPrinterBidiSetRequestCallback::Completed
@@ -47,41 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Invoked when the Bidi “Set”” operation is completed.
-
 
 ## -parameters
 
+### -param bstrResponse 
 
-
-
-### -param bstrResponse [in]
-
+[in]
 The received response.
 
+### -param hrStatus 
 
-### -param hrStatus [in]
-
+[in]
 An HRESULT value.
-
 
 ## -returns
 
-
-
 This method returns the appropriate <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>

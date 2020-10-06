@@ -7,8 +7,6 @@ ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function"]
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
-f1_keywords:
- - "d3d10umddi/CheckVideoDecoderFormat"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- CheckVideoDecoderFormat
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
+ - d3d10umddi/PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - CheckVideoDecoderFormat
 ---
 
 # PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
-
 
 ## -parameters
 
@@ -63,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pDecoderProfile* [in]
 
-A pointer to a GUID that identifies the DXVA profile. 
+A pointer to a GUID that identifies the DXVA profile.
 
 ### -param Arg3
 
@@ -77,12 +74,7 @@ A DXGI_FORMAT value that specifies the output format. Typical values include DXG
 
 A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
 
-
 ## -remarks
 
-
-
 This function is not expected to fail.
-
-
 

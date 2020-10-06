@@ -8,8 +8,6 @@ ms.assetid: ca40f869-2b6e-4317-b568-09c5962b629a
 ms.date: 05/03/2018
 keywords: ["PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback function"]
 ms.keywords: PWINDBG_SET_THREAD_CONTEXT_ROUTINE, PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback, SetContext, SetContext callback function [Windows Debugging], WdbgExts_Ref_1a94f80d-7df9-45d1-9bca-19a18a2efb22.xml, debugger.setcontext, wdbgexts/SetContext
-f1_keywords:
- - "wdbgexts/SetContext"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdbgexts.h
-api_name:
-- SetContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PWINDBG_SET_THREAD_CONTEXT_ROUTINE
+ - wdbgexts/PWINDBG_SET_THREAD_CONTEXT_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdbgexts.h
+api_name:
+ - SetContext
 ---
 
 # PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback function
@@ -47,25 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>PWINDBG_SET_THREAD_CONTEXT_ROUTINE</b> (<b>SetContext</b>) function is similar to the Win32 <b>SetThreadContext</b> routine. It sets the context of the process being debugged.
-
 
 ## -parameters
 
-
-
-
 ### -param Processor
 
+### -param lpContext 
 
-### -param lpContext [out]
+[out]
+Points to the address of a context structure that contains the context to be set for the process being debugged. The context structure is highly machine-specific.
 
-Points to the address of a context structure that contains the context to be set for the process being debugged. The context structure is highly machine-specific. 
+### -param cbSizeOfContext 
 
-
-### -param cbSizeOfContext [in]
-
+[in]
 Specifies the size of the context structure.
 
 
@@ -75,12 +69,7 @@ Specifies the size of the context structure.
 
 <b>Kernel Mode:</b>  Specifies the processor number of the processor being debugged.
 
-
 ## -returns
 
-
-
 If the routine succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
-
-
 

@@ -6,10 +6,8 @@ old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
 ms.date: 03/24/2020
-keywords: ["_D3DDDI_CREATEHWQUEUEFLAGS structure"]
+keywords: ["D3DDDI_CREATEHWQUEUEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
-f1_keywords:
- - "d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_CREATEHWQUEUEFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_CREATEHWQUEUEFLAGS
+f1_keywords:
+ - _D3DDDI_CREATEHWQUEUEFLAGS
+ - d3dukmdt/_D3DDDI_CREATEHWQUEUEFLAGS
+ - D3DDDI_CREATEHWQUEUEFLAGS
+ - d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_CREATEHWQUEUEFLAGS
 ---
 
 # _D3DDDI_CREATEHWQUEUEFLAGS structure
+
 
 ## -description
 
@@ -75,3 +77,4 @@ This value is reserved for system use.
 [**D3DKMT_CREATEHWQUEUE**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md)
 
 [**PFND3DKMT_CREATEHWQUEUE**](../d3dkmthk/nc-d3dkmthk-pfnd3dkmt_createhwqueue.md)
+

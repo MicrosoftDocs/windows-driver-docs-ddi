@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["Location function"]
 f1_keywords:
  - "dbgmodel/Location"
+ - "Location"
 ms.keywords: Location
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - Location
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
@@ -57,4 +56,4 @@ This function is a constructor and does not return value.
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
+[dbgmodel.h header](./index.md)

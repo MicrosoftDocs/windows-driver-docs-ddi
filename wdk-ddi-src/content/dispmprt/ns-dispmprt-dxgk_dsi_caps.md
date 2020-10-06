@@ -31,13 +31,18 @@ api_name:
  - _DXGK_DSI_CAPS
  - DXGK_DSI_CAPS
 f1_keywords:
+ - _DXGK_DSI_CAPS
  - dispmprt/_DXGK_DSI_CAPS
+ - PDXGK_DSI_CAPS
+ - dispmprt/PDXGK_DSI_CAPS
+ - DXGK_DSI_CAPS
  - dispmprt/DXGK_DSI_CAPS
 dev_langs:
  - c++
 ---
 
 # DXGK_DSI_CAPS structure
+
 
 ## -description
 
@@ -102,3 +107,4 @@ A DXGK_DSI_CAPS structure is provided to a graphics driver's [*DxgkDsiCaps*](nc-
 ## -see-also
 
 [*DxgkDsiCaps*](nc-dispmprt-dxgkddi_dsicaps.md)
+

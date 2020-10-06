@@ -8,8 +8,6 @@ ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.date: 03/29/2018
 keywords: ["IDE_HW_CONTROL callback function"]
 ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
-f1_keywords:
- - "irb/IdeHwControl"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- irb.h
-api_name:
-- IdeHwControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDE_HW_CONTROL
+ - irb/IDE_HW_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - irb.h
+api_name:
+ - IdeHwControl
 ---
 
 # IDE_HW_CONTROL callback function
@@ -47,27 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>IdeHwControl</i> miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param ChannelExtension 
 
-
-
-### -param ChannelExtension [in]
-
+[in]
 A pointer to the channel extension.
 
+### -param ControlAction 
 
-### -param ControlAction [in]
+[in]
+Contains an enumerator value of type <a href="/windows-hardware/drivers/ddi/irb/ne-irb-ide_control_action">IDE_CONTROL_ACTION</a> that indicates the control action to perform.
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_control_action">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
+### -param Parameters 
 
-
-### -param Parameters [in, out]
-
+[in, out]
 A pointer to a buffer that contains the parameters that are associated with the control action. This parameter can have one of the values in the following table.
 
 <table>
@@ -105,27 +101,18 @@ Indicates that there is a vendor defined power event coming.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-<i>IdeHwControl</i> returns <b>TRUE</b> if the operation was successful. Otherwise, it returns <b>FALSE</b>. 
-
-
-
+<i>IdeHwControl</i> returns <b>TRUE</b> if the operation was successful. Otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
-
-
 
 The port driver makes sure that there is no outstanding I/O on the channel before it invokes this routine. The miniport driver can have its own power policy methods when the system enters a different power state. In order to achieve this, the miniport driver needs to do the following:
 
 <ul>
 <li>
-Add a power policy setting scheme into the miniport driver's INF file. A GUID is needed to present a miniport driver-defined power policy. For more information about the power settings directive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addpowersetting-directive">INF AddPowerSetting Directive</a>. More information about the GUIDs can be found at <a href="https://docs.microsoft.com/windows-hardware/customize/power-settings/disk-settings">Disk settings</a>.
+Add a power policy setting scheme into the miniport driver's INF file. A GUID is needed to present a miniport driver-defined power policy. For more information about the power settings directive, see <a href="/windows-hardware/drivers/install/inf-addpowersetting-directive">INF AddPowerSetting Directive</a>. More information about the GUIDs can be found at <a href="/windows-hardware/customize/power-settings/disk-settings">Disk settings</a>.
 
 </li>
 <li>When the miniport driver routine <i>IdeHwControl</i> is called with control action <b>IdeStart</b>:<dl>
@@ -146,15 +133,6 @@ After vendor-defined power management is registered, the miniport driver will be
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetuncachedextension">AtaPortGetUncachedExtension</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetuncachedextension">AtaPortGetUncachedExtension</a>

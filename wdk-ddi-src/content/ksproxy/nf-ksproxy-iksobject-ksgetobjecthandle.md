@@ -8,8 +8,6 @@ ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.date: 04/23/2018
 keywords: ["IKsObject::KsGetObjectHandle"]
 ms.keywords: IKsObject interface [Streaming Media Devices],KsGetObjectHandle method, IKsObject.KsGetObjectHandle, IKsObject::KsGetObjectHandle, KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], KsGetObjectHandle method [Streaming Media Devices],IKsObject interface, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, stream.iksobject_ksgetobjecthandle
-f1_keywords:
- - "ksproxy/IKsObject.KsGetObjectHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsObject.KsGetObjectHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsObject::KsGetObjectHandle
+ - ksproxy/IKsObject::KsGetObjectHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsObject.KsGetObjectHandle
 ---
 
 # IKsObject::KsGetObjectHandle
@@ -47,35 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object. 
-
+The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object.
 
 ## -returns
 
-
-
-Returns a file handle to a KS object if successful; otherwise, returns null. 
-
-
-
+Returns a file handle to a KS object if successful; otherwise, returns null.
 
 ## -remarks
 
-
-
-Applications can use the handle that <b>KsGetObjectHandle</b> returns to send control-code requests to the driver that handles the KS object. 
-
-
-
+Applications can use the handle that <b>KsGetObjectHandle</b> returns to send control-code requests to the driver that handles the KS object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-kssynchronousdevicecontrol">KsSynchronousDeviceControl</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-kssynchronousdevicecontrol">KsSynchronousDeviceControl</a>

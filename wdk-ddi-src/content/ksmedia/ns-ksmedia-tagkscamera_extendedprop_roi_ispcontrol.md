@@ -8,8 +8,6 @@ ms.assetid: 49EAB8F3-35B9-4F99-A7B8-66B582B228B1
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+f1_keywords:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ - ksmedia/tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ - PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ - ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure
@@ -47,14 +50,9 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, *PKSCAMERA_EXTENDEDPROP_ROI
 
 ## -description
 
-
 This structure contains information for an ROI ISP control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ControlId
 
@@ -79,11 +77,9 @@ KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE
 
 The number of ROIs associated with this ISP control.
 
-
 ### -field Result
 
 The error results of the last SET operation for this ISP control.
-
 
 ### -field Reserved
 

@@ -8,8 +8,6 @@ ms.assetid: a7b87f06-491a-4b41-a355-0f2806c0dd8a
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTypedList class"]
 ms.keywords: EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList class [Windows Debugging],described, debugger.extremotetypedlist, engextcpp/ExtRemoteTypedList
-f1_keywords:
- - "engextcpp/ExtRemoteTypedList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTypedList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTypedList
+ - engextcpp/ExtRemoteTypedList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTypedList
 ---
 
 # ExtRemoteTypedList class
@@ -47,38 +46,37 @@ req.typenames:
 
 ## -description
 
-
-The <b>ExtRemoteTypedList</b> class extends the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a> class.  The <b>ExtRemoteTypedList</b> class adds type information allowing each item in the list to be represented by an instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> class.
+The <b>ExtRemoteTypedList</b> class extends the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a> class.  The <b>ExtRemoteTypedList</b> class adds type information allowing each item in the list to be represented by an instance of the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> class.
 
 The <b>ExtRemoteTypedList</b> class includes the following constructors and methods:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
 
 </dd>
@@ -109,35 +107,28 @@ The type ID of the type relative to the module specified by <b>m_TypeModBase</b>
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>

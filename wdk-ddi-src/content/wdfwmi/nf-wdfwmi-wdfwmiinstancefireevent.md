@@ -8,8 +8,6 @@ ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceFireEvent function"]
 ms.keywords: DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, kmdf.wdfwmiinstancefireevent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent
-f1_keywords:
- - "wdfwmi/WdfWmiInstanceFireEvent"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfWmiInstanceFireEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWmiInstanceFireEvent
+ - wdfwmi/WdfWmiInstanceFireEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfWmiInstanceFireEvent
 ---
 
 # WdfWmiInstanceFireEvent function
@@ -48,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfWmiInstanceFireEvent</b> method sends a WMI event to WMI clients that have registered to receive event notification.
 
-
 ## -parameters
 
+### -param WmiInstance 
 
+[in]
+A handle to a WMI instance object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>.
 
+### -param EventDataSize 
 
-### -param WmiInstance [in]
-
-A handle to a WMI instance object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>.
-
-
-### -param EventDataSize [in, optional]
-
+[in, optional]
 The size, in bytes, of the event data that <i>EventData</i> points to.
 
+### -param EventData 
 
-### -param EventData [in, optional]
-
+[in, optional]
 A pointer to the event data, or <b>NULL</b> if there is no event data.
 
-
 ## -returns
-
-
 
 <b>WdfWmiInstanceFireEvent</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -121,24 +113,17 @@ The event data buffer was too large.
 </table>
  
 
-This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method also might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
 
-
-
-Your driver should call <b>WdfWmiInstanceFireEvent</b> only if a WMI client has registered for event notification. The driver can determine if it should call <b>WdfWmiInstanceFireEvent</b> by providing an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_provider_function_control">EvtWmiProviderFunctionControl</a> callback function or calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>.
+Your driver should call <b>WdfWmiInstanceFireEvent</b> only if a WMI client has registered for event notification. The driver can determine if it should call <b>WdfWmiInstanceFireEvent</b> by providing an <a href="/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_provider_function_control">EvtWmiProviderFunctionControl</a> callback function or calling <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>.
 
 The driver should place its event-specific data, if any, in the buffer that the <i>EventData</i> parameter points to. The framework adds all of the necessary WMI header information.
 
-For more information about the <b>WdfWmiInstanceFireEvent</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about the <b>WdfWmiInstanceFireEvent</b> method, see <a href="/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -156,23 +141,14 @@ status = WdfWmiInstanceFireEvent(
                                  );
 ```
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_provider_function_control">EvtWmiProviderFunctionControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_provider_function_control">EvtWmiProviderFunctionControl</a>
+<a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>

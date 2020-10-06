@@ -8,8 +8,6 @@ ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.date: 04/20/2018
 keywords: ["ProvidorFindFirstPrinterChangeNotification function"]
 ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification
-f1_keywords:
- - "winsplp/ProvidorFindFirstPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- ProvidorFindFirstPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ProvidorFindFirstPrinterChangeNotification
+ - winsplp/ProvidorFindFirstPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - ProvidorFindFirstPrinterChangeNotification
 ---
 
 # ProvidorFindFirstPrinterChangeNotification function
@@ -47,29 +46,25 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
-
-
-### -param hPrinter [in]
-
+[in]
 
 ### -param fdwFlags
 
-
 ### -param fdwOptions
 
+### -param hNotify 
 
-### -param hNotify [in]
+[in]
 
+### -param pPrinterNotifyOptions 
 
-### -param pPrinterNotifyOptions [in, optional]
+[in, optional]
 
+### -param pvReserved1 
 
-### -param pvReserved1 [out, optional]
+[out, optional]
 

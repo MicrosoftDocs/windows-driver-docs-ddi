@@ -8,8 +8,6 @@ ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
 ms.date: 04/20/2018
 keywords: ["IPrintOemPS2 interface"]
 ms.keywords: IPrintOemPS2, IPrintOemPS2 interface [Print Devices], IPrintOemPS2 interface [Print Devices],described, prcomoem/IPrintOemPS2, print.iprintoemps2_interface, print_unidrv-pscript_rendering_261718f5-d2d9-4032-887d-0faea8b519ad.xml
-f1_keywords:
- - "prcomoem/IPrintOemPS2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemPS2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemPS2
+ - prcomoem/IPrintOemPS2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemPS2
 ---
 
 # IPrintOemPS2 interface
@@ -47,14 +46,11 @@ req.typenames:
 
 ## -description
 
-
-This section describes the methods defined for the <b>IPrintOemPS2</b> COM interface. In addition to these methods, this interface includes all of the methods defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemps">IPrintOemPS</a> COM interface.
-
+This section describes the methods defined for the <b>IPrintOemPS2</b> COM interface. In addition to these methods, this interface includes all of the methods defined in the <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemps">IPrintOemPS</a> COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemPS2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPS2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemPS2</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPS2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

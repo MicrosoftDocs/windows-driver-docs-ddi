@@ -8,8 +8,6 @@ ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.date: 04/30/2018
 keywords: ["IoGetPagingIoPriority function"]
 ms.keywords: IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, wdm/IoGetPagingIoPriority
-f1_keywords:
- - "ntddk/IoGetPagingIoPriority"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetPagingIoPriority
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetPagingIoPriority
+ - ntddk/IoGetPagingIoPriority
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetPagingIoPriority
 ---
 
 # IoGetPagingIoPriority function
@@ -47,45 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetPagingIoPriority</b> routine indicates the priority level of a paging I/O request.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 Pointer to the IRP to be tested for paging priority.
-
 
 ## -returns
 
-
-
-<b>IoGetPagingIoPriority</b> returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a> value for the associated IRP.
-
-
-
+<b>IoGetPagingIoPriority</b> returns the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a> value for the associated IRP.
 
 ## -remarks
 
-
-
 For I/O requests that causing paging, the system associates an <b>IO_PAGING_PRIORITY</b> value that describes the IRP's priority. Drivers can use this value when queuing IRPs.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a>

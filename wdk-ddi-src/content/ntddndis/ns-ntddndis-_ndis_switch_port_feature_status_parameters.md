@@ -6,10 +6,8 @@ old-location: netvista\ndis_switch_port_feature_status_parameters.htm
 tech.root: netvista
 ms.assetid: 117ba27f-812a-406d-8120-99ba89551164
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure"]
+keywords: ["NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+f1_keywords:
+ - _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ - ntddndis/_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ - PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ - ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ - NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ - ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure
@@ -47,23 +50,15 @@ req.typenames: NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FE
 
 ## -description
 
-
-
 The <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure specifies the parameters for the custom status information of a Hyper-V extensible switch port. This information is known as <i>feature status</i> information. The format of this information is defined by the independent software vendor (ISV). 
 
-The status information is specified through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure and is returned through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>.
-
-
-
+The status information is specified through an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure and is returned through an OID method request of <a href="/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
 
@@ -77,20 +72,17 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
 
 ### -field PortId
 
  An NDIS_SWITCH_PORT_ID value that specifies the numeric identifier for an extensible switch port. This value uniquely identifies the port on the extensible switch for which feature status information is to be returned.
 
-
 ### -field FeatureStatusType
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_feature_status_type">NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</a> enumeration value that specifies the type of the status information for a custom extensible switch port profile property.
+An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_feature_status_type">NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</a> enumeration value that specifies the type of the status information for a custom extensible switch port profile property.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, this member must be set to <b>NdisSwitchPortPropertyTypeCustom</b>.</div>
 <div> </div>
@@ -99,15 +91,9 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-
 
 An NDIS_SWITCH_OBJECT_ID value that identifies the profile property for the extensible switch port.
 
-
-
-
 ### -field FeatureStatusVersion
 
 An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the profile property for the extensible switch port.
-
-
-
 
 ### -field SerializationVersion
 
@@ -120,31 +106,23 @@ An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format ver
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that identifies the instance of the  feature status information for the extensible switch port.
 
-
-
-
 ### -field FeatureStatusBufferLength
 
 A ULONG value that specifies the size, in bytes, of the feature status buffer.
 
-
 ### -field FeatureStatusBufferOffset
 
-A ULONG value that specifies the offset, in bytes, to the feature status buffer that follows the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. The feature status buffer contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure. 
+A ULONG value that specifies the offset, in bytes, to the feature status buffer that follows the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. The feature status buffer contains an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure. 
 
-The offset is measured from the start of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure up to the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure. 
-
+The offset is measured from the start of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure up to the beginning of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure.
 
 ### -field Reserved
 
 Reserved for future use.
 
-
 ## -remarks
 
-
-
-The <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>. This OID request returns the following structures in the information buffer that is associated with the OID request: 
+The <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure is used in OID method requests of <a href="/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>. This OID request returns the following structures in the information buffer that is associated with the OID request: 
 
 <ul>
 <li>
@@ -152,36 +130,27 @@ An <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b>  structure that specifies t
 
 </li>
 <li>
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure that contains the status information for the extensible switch port property.  The switch extension populates the <b>FeatureStatusCustomBufferLength</b> member of the structure to reflect the size of the custom status being returned. The Hyper-v Extensible switch populates all other members when issuing the query OID.
+An <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure that contains the status information for the extensible switch port property.  The switch extension populates the <b>FeatureStatusCustomBufferLength</b> member of the structure to reflect the size of the custom status being returned. The Hyper-v Extensible switch populates all other members when issuing the query OID.
 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_custom">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-switch-port-feature-status-query">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>

@@ -5,10 +5,11 @@ description: Used to remove a surface from the swap chain.
 old-location: display\d3dkmt-removesurfacefromswapchain.htm
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure"]
+keywords: ["D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure"]
 ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain
 f1_keywords:
  - "d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
+ - "D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_REMOVESURFACEFROMSWAPCHAIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_REMOVESURFACEFROMSWAPCHAIN

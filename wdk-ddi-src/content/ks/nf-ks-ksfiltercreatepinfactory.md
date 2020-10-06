@@ -8,8 +8,6 @@ ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.date: 04/23/2018
 keywords: ["KsFilterCreatePinFactory function"]
 ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
-f1_keywords:
- - "ks/KsFilterCreatePinFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFilterCreatePinFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterCreatePinFactory
+ - ks/KsFilterCreatePinFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFilterCreatePinFactory
 ---
 
 # KsFilterCreatePinFactory function
@@ -48,55 +47,33 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the specified filter.
-
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
 
+### -param PinDescriptor 
 
-### -param Filter [in]
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
+### -param PinID 
 
-
-### -param PinDescriptor [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
-
-
-### -param PinID [out]
-
+[out]
 A pointer to the location containing the ID of the new factory.
-
 
 ## -returns
 
-
-
 <b>KsFilterCreatePinFactory</b> returns the success or failure of the attempt to create the pin factory. Failure may occur due to invalid parameters or low memory.
-
-
-
 
 ## -remarks
 
-
-
-Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>. 
-
-
-
+Note that the filter control mutex must be held before calling this function. For more information, see <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltercreatenode">KsFilterCreateNode</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltercreatenode">KsFilterCreateNode</a>

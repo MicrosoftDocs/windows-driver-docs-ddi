@@ -8,8 +8,6 @@ ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_PORT_DETECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
-f1_keywords:
- - "ufxclient/PFN_UFX_DEVICE_PORT_DETECT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- PFN_UFX_DEVICE_PORT_DETECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_PORT_DETECT
+ - ufxclient/EVT_UFX_DEVICE_PORT_DETECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - PFN_UFX_DEVICE_PORT_DETECT
 ---
 
 # EVT_UFX_DEVICE_PORT_DETECT callback function
@@ -47,47 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation to initiate port detection
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ## -remarks
 
+The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_DETECT</i> implementation with the USB function class extension (UFX) by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
 
-
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_DETECT</i> implementation with the USB function class extension (UFX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
-
-The client driver must indicate completion of port detection by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcomplete">UfxDevicePortDetectComplete</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcompleteex">UfxDevicePortDetectCompleteEx</a> methods.
+The client driver must indicate completion of port detection by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcomplete">UfxDevicePortDetectComplete</a> or <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcompleteex">UfxDevicePortDetectCompleteEx</a> methods.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UFX_DEVICE_PORT_DETECT UfxDevice_EvtDevicePortDetect;
 
 VOID
@@ -122,24 +102,14 @@ Arguments:
 
     UfxDevicePortDetectComplete(ControllerContext->UfxDevice, UsbfnUnknownPort);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>

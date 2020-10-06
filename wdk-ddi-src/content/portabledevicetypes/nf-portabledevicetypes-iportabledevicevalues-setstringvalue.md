@@ -8,8 +8,6 @@ ms.assetid: ee477e82-124e-46ca-8aef-02357f67bb8f
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetStringValue"]
 ms.keywords: IPortableDeviceValues interface,SetStringValue method, IPortableDeviceValues.SetStringValue, IPortableDeviceValues::SetStringValue, IPortableDeviceValuesSetStringValue, SetStringValue, SetStringValue method, SetStringValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetStringValue, wpddk.iportabledevicevalues_setstringvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.SetStringValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.SetStringValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::SetStringValue
+ - portabledevicetypes/IPortableDeviceValues::SetStringValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.SetStringValue
 ---
 
 # IPortableDeviceValues::SetStringValue
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds a new string value (type VT_LPWSTR) or overwrites an existing one.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 A <b>LPCWSTR</b> that specifies the new value. The string is copied, so the caller can release the memory allocated for this value after calling this method.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,31 +82,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Any existing key memory will be released appropriately.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>

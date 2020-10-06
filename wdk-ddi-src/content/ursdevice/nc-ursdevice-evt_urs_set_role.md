@@ -8,8 +8,6 @@ ms.assetid: 287B674F-9692-47FA-AB92-F101270F7FC4
 ms.date: 05/07/2018
 keywords: ["EVT_URS_SET_ROLE callback function"]
 ms.keywords: EVT_URS_SET_ROLE, EVT_URS_SET_ROLE callback, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
-f1_keywords:
- - "ursdevice/PFN_URS_SET_ROLE"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ursdevice.h
-api_name:
-- PFN_URS_SET_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_URS_SET_ROLE
+ - ursdevice/EVT_URS_SET_ROLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ursdevice.h
+api_name:
+ - PFN_URS_SET_ROLE
 ---
 
 # EVT_URS_SET_ROLE callback function
@@ -47,50 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The URS class extension invokes this event callback when it requires the client driver to change the role of the controller.
-
 
 ## -parameters
 
+### -param Device 
 
+[in]
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+### -param Role 
 
-### -param Device [in]
-
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
-
-
-### -param Role [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_role">URS_ROLE</a> type value that indicates the role to set for the controller device.
-
+[in]
+A <a href="/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_role">URS_ROLE</a> type value that indicates the role to set for the controller device.
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
-
-
-
 
 ## -remarks
 
-
-
- To register the client driver's implementation of the event callback the driver must set the  <b>EvtUrsSetRole</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> to a function pointer of the implementation method and then call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a> method by passing the populated structure. The driver must call the method after it creates the framework device object for the controller. 
+ To register the client driver's implementation of the event callback the driver must set the  <b>EvtUrsSetRole</b> member of <a href="/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> to a function pointer of the implementation method and then call the <a href="/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a> method by passing the populated structure. The driver must call the method after it creates the framework device object for the controller. 
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 
 NTSTATUS
 EvtUrsSetRole (
@@ -123,20 +106,10 @@ EvtUrsSetRole (
     TRACE_FUNC_EXIT(TRACE_FLAG);
 
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>

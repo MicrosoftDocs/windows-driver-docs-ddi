@@ -8,8 +8,6 @@ ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCopyNExW function"]
 ms.keywords: RtlStringCbCopyNEx, RtlStringCbCopyNExA, RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbCopyNExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbCopyNExW
-- RtlStringCbCopyNExA
-- RtlStringCbCopyNExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbCopyNExW
+ - ntstrsafe/RtlStringCbCopyNExW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbCopyNExW
+ - RtlStringCbCopyNExA
+ - RtlStringCbCopyNExW
 ---
 
 # RtlStringCbCopyNExW function
@@ -50,22 +49,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> functions copy a byte-counted string to a buffer while limiting the size of the copied string.
-
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [out, optional]
-
+[out, optional]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param cbDest 
 
-### -param cbDest [in]
-
+[in]
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -74,29 +69,28 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
+### -param pszSrc 
 
-### -param pszSrc [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
-
 
 ### -param cbToCopy
 
 <p>The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>. </p>
 
+### -param ppszDestEnd 
 
-### -param ppszDestEnd [out, optional]
+[out, optional]
+If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
-If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
+### -param pcbRemaining 
 
-
-### -param pcbRemaining [out, optional]
-
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including those bytes used for the terminating null character.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>
@@ -155,14 +149,10 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -213,20 +203,14 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> should be used instead of <b>strncpy</b>. However, these functions differ in behavior. If <i>cbSrc</i> is larger than the number of bytes in <i>pszSrc</i>, the <b>RtlStringCbCopyNEx</b> functions, unlike <b>strncpy</b>, do not fill <i>pszDest</i> with null characters until <i>cbSrc</i> bytes have been copied.
 
 The size, in bytes, of the destination buffer is provided to <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> to ensure that they do not write past the end of this buffer.
 
-<b>RtlStringCbCopyNEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyna">RtlStringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>RtlStringCbCopyNEx</b> adds to the functionality of <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyna">RtlStringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 Use <b>RtlStringCbCopyNExW</b> to handle Unicode strings and <b>RtlStringCbCopyNExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
@@ -271,22 +255,12 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszSrc</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyna">RtlStringCbCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyna">RtlStringCbCopyN</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopynexa">RtlStringCchCopyNEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopynexa">RtlStringCchCopyNEx</a>

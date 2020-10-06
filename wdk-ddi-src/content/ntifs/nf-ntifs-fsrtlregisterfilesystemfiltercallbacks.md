@@ -8,8 +8,6 @@ ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.date: 12/15/2019
 keywords: ["FsRtlRegisterFileSystemFilterCallbacks function"]
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
-f1_keywords:
- - "ntifs/FsRtlRegisterFileSystemFilterCallbacks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRegisterFileSystemFilterCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlRegisterFileSystemFilterCallbacks
+ - ntifs/FsRtlRegisterFileSystemFilterCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRegisterFileSystemFilterCallbacks
 ---
 
 # FsRtlRegisterFileSystemFilterCallbacks function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ File system filter drivers and file systems call the **FsRtlRegisterFileSystemFi
 
 ## -parameters
 
-### -param FilterDriverObject [in]
+### -param FilterDriverObject 
 
+[in]
 A pointer to the driver object for the filter or file system driver.
 
-### -param Callbacks [in]
+### -param Callbacks 
 
+[in]
 A pointer to a structure that contains the entry points of caller-supplied notification callback routines.
 
 This structure is defined as follows.
@@ -226,7 +228,7 @@ Structure members of the FS_FILTER_PARAMETERS union are described as follows.
     * PAGE_NOCACHE
     * PAGE_WRITECOMBINE
 
-  * **OutputInformation**: An [**FS_FILTER_SECTION_SYNC_OUTPUT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fs_filter_section_sync_output) structure that contains the extended output information for the section.
+  * **OutputInformation**: An [**FS_FILTER_SECTION_SYNC_OUTPUT**](./ns-ntifs-_fs_filter_section_sync_output.md) structure that contains the extended output information for the section.
 
   * **Flags**: When **SyncType** is **SyncTypeCreateSection**, **Flags** can be one of the following values:
 
@@ -239,12 +241,12 @@ Structure members of the FS_FILTER_PARAMETERS union are described as follows.
   * **Length**: The size, in bytes, of the buffer pointed to by **FileInformation**.
   * **CompletionStatus**: An NTSTATUS value that receives the final completion status and information about the operation. **CompletionStatus** can be set by the PostQueryOpen callback to fail the operation, since post callbacks have no return value. This is primarily used so the PostQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file. Similarly, the PreQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path.
 
-  * **FileInformationClass**: Type of information to be returned about the file, in the buffer that **FileInformation** points to. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
+  * **FileInformationClass**: Type of information to be returned about the file, in the buffer that **FileInformation** points to. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md) values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
   
 | FILE_INFORMATION_CLASS value | Type of information returned |
 | ---------------------------- | ---------------------------- |
-| **FileStatInformation** | A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask). |
-| **FileStatLxInformation** | A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask). |
+| **FileStatInformation** | A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask). |
+| **FileStatLxInformation** | A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask). |
 | **FileCaseSensitiveInformation** | A [FILE_CASE_SENSITIVE_INFORMATION](ns-ntifs-_file_stat_information.md) structure.
 
 * **Others**

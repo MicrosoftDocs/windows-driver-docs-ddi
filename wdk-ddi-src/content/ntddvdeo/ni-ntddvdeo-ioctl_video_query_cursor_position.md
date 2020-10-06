@@ -8,8 +8,6 @@ ms.assetid: 0ca9aa92-7b9f-4fd4-a41e-663ac1aa5799
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_QUERY_CURSOR_POSITION IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_POSITION, IOCTL_VIDEO_QUERY_CURSOR_POSITION control, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml, display.ioctl_video_query_cursor_position, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_QUERY_CURSOR_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_QUERY_CURSOR_POSITION
+ - ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_QUERY_CURSOR_POSITION
 ---
 
 # IOCTL_VIDEO_QUERY_CURSOR_POSITION IOCTL
@@ -47,76 +46,30 @@ req.typenames:
 
 ## -description
 
-
-
 Returns the current cursor position (row and column). Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 The miniport driver returns a VIDEO_CURSOR_POSITION structure in the VRP <b>OutputBuffer</b>.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-If the miniport driver successfully returns the cursor position, it sets the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_CURSOR_POSITION); otherwise, the miniport driver sets this member to zero.
-
+If the miniport driver successfully returns the cursor position, it sets the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_CURSOR_POSITION); otherwise, the miniport driver sets this member to zero.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>

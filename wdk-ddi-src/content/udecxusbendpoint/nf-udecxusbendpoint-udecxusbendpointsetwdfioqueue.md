@@ -8,8 +8,6 @@ ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointSetWdfIoQueue function"]
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
-f1_keywords:
- - "udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbEndpointSetWdfIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbEndpointSetWdfIoQueue
+ - udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbEndpointSetWdfIoQueue
 ---
 
 # UdecxUsbEndpointSetWdfIoQueue function
@@ -48,40 +47,28 @@ req.typenames:
 
 ## -description
 
-
 Sets a framework queue object with a UDE endpoint.
-
 
 ## -parameters
 
+### -param UdecxUsbEndpoint 
 
+[in]
+A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
 
+### -param WdfQueue 
 
-### -param UdecxUsbEndpoint [in]
-
-A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
-
-
-### -param WdfQueue [in]
-
-A handle to a framework queue object that will handle requests sent to the endpoint. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>. 
-
+[in]
+A handle to a framework queue object that will handle requests sent to the endpoint. The client driver retrieved this pointer in the previous call to <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
+<a href="/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>

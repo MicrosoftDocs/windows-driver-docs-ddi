@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyVolumeEventEx function"]
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
 f1_keywords:
  - "ntifs/FsRtlNotifyVolumeEventEx"
+ - "FsRtlNotifyVolumeEventEx"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyVolumeEventEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,19 +55,19 @@ The <b>FsRtlNotifyVolumeEventEx</b> routine notifies any registered applications
 
 
 
-### -param FileObject [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> that specifies a volume.
-
-
-### -param EventCode [in]
-
-An event code for the event that is occurring. For a table of event codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>.
+### -param FileObject 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> that specifies a volume.
 
 
-### -param Event [in]
+### -param EventCode 
+[in]
+An event code for the event that is occurring. For a table of event codes, see <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>.
 
-A pointer to the initialized custom notification structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use.
+
+### -param Event 
+[in]
+A pointer to the initialized custom notification structure (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use.
 
 
 ## -returns
@@ -98,20 +97,19 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
  
 
  
-

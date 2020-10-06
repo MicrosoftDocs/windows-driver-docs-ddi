@@ -8,8 +8,6 @@ ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.date: 03/29/2018
 keywords: ["StorPortGetSystemPortNumber function"]
 ms.keywords: StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber, storport/StorPortGetSystemPortNumber
-f1_keywords:
- - "storport/StorPortGetSystemPortNumber"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetSystemPortNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetSystemPortNumber
+ - storport/StorPortGetSystemPortNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetSystemPortNumber
 ---
 
 # StorPortGetSystemPortNumber function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetSystemPortNumber</b> routine retrieves the system assigned port number for a storage adapter.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Address 
 
-### -param Address [in, out]
-
-A pointer to a storage address structure formatted as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
-
+[in, out]
+A pointer to a storage address structure formatted as <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
 
 ## -returns
-
-
 
 <b>StorPortGetSystemPortNumber</b> returns one of the following status codes:
 
@@ -115,31 +107,15 @@ The <b>Type</b> member of <i>Address</i> is not <b>STOR_ADDRESS_TYPE_BTL8</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
-
-
-
+The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>

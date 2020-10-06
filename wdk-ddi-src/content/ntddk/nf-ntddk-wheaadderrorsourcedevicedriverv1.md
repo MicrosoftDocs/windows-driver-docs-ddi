@@ -27,12 +27,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - WheaAddErrorSourceDeviceDriverV1
 f1_keywords:
+ - WheaAddErrorSourceDeviceDriverV1
  - ntddk/WheaAddErrorSourceDeviceDriverV1
 dev_langs:
  - c++

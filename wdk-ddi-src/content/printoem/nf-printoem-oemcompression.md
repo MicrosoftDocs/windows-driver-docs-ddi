@@ -8,8 +8,6 @@ ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.date: 04/20/2018
 keywords: ["OEMCompression function"]
 ms.keywords: OEMCompression, OEMCompression function [Print Devices], print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression
-f1_keywords:
- - "printoem/OEMCompression"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMCompression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMCompression
+ - printoem/OEMCompression
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMCompression
 ---
 
 # OEMCompression function
@@ -47,25 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
+### -param pInBuf 
 
-### -param pInBuf [in]
+[in]
 
+### -param pOutBuf 
 
-### -param pOutBuf [out]
-
+[out]
 
 ### -param dwInLen
-
 
 ### -param dwOutLen
 

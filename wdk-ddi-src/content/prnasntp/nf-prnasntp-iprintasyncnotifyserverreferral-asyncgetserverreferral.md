@@ -8,8 +8,6 @@ ms.assetid: 6B56E7B6-392E-4664-B96E-249B42A0AF5D
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotifyServerReferral::AsyncGetServerReferral"]
 ms.keywords: AsyncGetServerReferral, AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
-f1_keywords:
- - "prnasntp/IPrintAsyncNotifyServerReferral.AsyncGetServerReferral"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
+ - prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
 ---
 
 # IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
@@ -47,41 +46,16 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
-
-
-
 
 ### -param EQUALNULL
 
-
-
-
-
-
 #### - pCookie [in]
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>

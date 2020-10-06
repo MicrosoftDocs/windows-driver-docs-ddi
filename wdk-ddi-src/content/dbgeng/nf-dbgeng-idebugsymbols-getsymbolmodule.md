@@ -8,8 +8,6 @@ ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetSymbolModule"]
 ms.keywords: GetSymbolModule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging],IDebugSymbols interface, GetSymbolModule method [Windows Debugging],IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolModule method, IDebugSymbols.GetSymbolModule, IDebugSymbols2 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetSymbolModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetSymbolModule
-- IDebugSymbols2.GetSymbolModule
-- IDebugSymbols3.GetSymbolModule
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::GetSymbolModule
+ - dbgeng/IDebugSymbols::GetSymbolModule
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetSymbolModule
+ - IDebugSymbols2.GetSymbolModule
+ - IDebugSymbols3.GetSymbolModule
 ---
 
 # IDebugSymbols::GetSymbolModule
@@ -49,30 +48,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolModule</b> method returns the base address of module which contains the specified symbol.
-
 
 ## -parameters
 
+### -param Symbol 
 
-
-
-### -param Symbol [in]
-
+[in]
 Specifies the name of the symbol to look up.  See the Remarks section for details of the syntax of this name.
 
+### -param Base 
 
-### -param Base [out]
-
-Receives the location in the target's memory address space of the base of the module.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
-
+[out]
+Receives the location in the target's memory address space of the base of the module.  For more information, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -102,18 +94,9 @@ The symbol or module could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The string <i>Symbol</i> must contain an exclamation point ( <b>!</b> ).  If <i>Symbol</i> is a module-qualified symbol name (for example, <b>mymodules!main</b>) or if the module name is omitted (for example, <b>!main</b>), the engine will search for this symbol and return the module in which it is found.  If <i>Symbol</i> contains just a module name (for example, <b>mymodule!</b>) the engine returns the first module with this module name.
 
-For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
-
-
-
+For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.

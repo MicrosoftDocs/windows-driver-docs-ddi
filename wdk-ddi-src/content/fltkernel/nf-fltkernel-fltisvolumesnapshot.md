@@ -8,8 +8,6 @@ ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.date: 04/16/2018
 keywords: ["FltIsVolumeSnapshot function"]
 ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot
-f1_keywords:
- - "fltkernel/FltIsVolumeSnapshot"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltMgr.sys
-api_name:
-- FltIsVolumeSnapshot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsVolumeSnapshot
+ - fltkernel/FltIsVolumeSnapshot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.sys
+api_name:
+ - FltIsVolumeSnapshot
 ---
 
 # FltIsVolumeSnapshot function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltIsVolumeSnapshot</b> routine determines whether a volume or minifilter driver instance is attached to a snapshot volume.
-
 
 ## -parameters
 
+### -param FltObject 
 
-
-
-### -param FltObject [in]
-
+[in]
 An opaque pointer to the volume or instance.
 
+### -param IsSnapshotVolume 
 
-### -param IsSnapshotVolume [out]
-
+[out]
 A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if the volume or instance is attached to a snapshot volume. Otherwise, the variable receives <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 <b>FltIsVolumeSnapshot</b> returns one of the following NTSTATUS values:
 
@@ -122,16 +114,8 @@ A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the volume or instance object does not support snapshots, <b>FltIsVolumeSnapshot</b> returns STATUS_SUCCESS and <i>IsSnapshotVolume</i> is <b>FALSE</b>.
-
-
 

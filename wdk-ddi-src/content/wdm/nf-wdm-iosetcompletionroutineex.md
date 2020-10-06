@@ -8,8 +8,6 @@ ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.date: 04/30/2018
 keywords: ["IoSetCompletionRoutineEx function"]
 ms.keywords: IoSetCompletionRoutineEx, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx
-f1_keywords:
- - "wdm/IoSetCompletionRoutineEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetCompletionRoutineEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetCompletionRoutineEx
+ - wdm/IoSetCompletionRoutineEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetCompletionRoutineEx
 ---
 
 # IoSetCompletionRoutineEx function
@@ -47,68 +46,56 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoSetCompletionRoutineEx</b> routine registers an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
-
+The <b>IoSetCompletionRoutineEx</b> routine registers an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the driver's device object.
 
+### -param Irp 
 
-### -param Irp [in]
+[in]
+Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that the driver is processing.
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that the driver is processing.
+### -param CompletionRoutine 
 
+[in]
+Specifies the entry point for the driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, which is called when the next-lower driver completes the packet.
 
-### -param CompletionRoutine [in]
+### -param Context 
 
-Specifies the entry point for the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, which is called when the next-lower driver completes the packet.
-
-
-### -param Context [in, optional]
-
+[in, optional]
 Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routine. Context information must be stored in nonpaged memory, because the <i>IoCompletion</i> routine is called at IRQL <= DISPATCH_LEVEL.
 
+### -param InvokeOnSuccess 
 
-### -param InvokeOnSuccess [in]
+[in]
+Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS values</a>).
 
-Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS values</a>).
+### -param InvokeOnError 
 
-
-### -param InvokeOnError [in]
-
+[in]
 Specifies whether the completion routine is called if the IRP is completed with a nonsuccess status value in the IRP's <b>IO_STATUS_BLOCK</b> structure.
 
+### -param InvokeOnCancel 
 
-### -param InvokeOnCancel [in]
-
-Specifies whether the completion routine is called if a driver or the kernel has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a> to cancel the IRP.
-
+[in]
+Specifies whether the completion routine is called if a driver or the kernel has called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a> to cancel the IRP.
 
 ## -returns
 
-
-
 This routine returns STATUS_SUCCESS on success, or STATUS_INSUFFICIENT_RESOURCES if insufficient memory is available for the operation.
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>, the <b>IoSetCompletionRoutineEx</b> routine returns an NTSTATUS value. The driver must check this value to determine if the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine was successfully registered. If the <i>IoCompletion</i> routine is successfully registered, <b>IoSetCompletionRoutineEx</b> allocates memory that remains allocated until the <i>IoCompletion</i> routine executes. Drivers must ensure that their <i>IoCompletion</i> routine executes by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>; otherwise, the kernel will leak memory.</div>
+<div class="alert"><b>Note</b>  Unlike <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>, the <b>IoSetCompletionRoutineEx</b> routine returns an NTSTATUS value. The driver must check this value to determine if the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine was successfully registered. If the <i>IoCompletion</i> routine is successfully registered, <b>IoSetCompletionRoutineEx</b> allocates memory that remains allocated until the <i>IoCompletion</i> routine executes. Drivers must ensure that their <i>IoCompletion</i> routine executes by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>; otherwise, the kernel will leak memory.</div>
 <div> </div>
 The <i>IoCompletion</i> routine must belong to the driver that owns the device object pointed to by <i>DeviceObject</i>. This requirement prevents the <i>IoCompletion</i> routine from being unloaded before it returns.
 
-The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a> routine, except that:
+The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a> routine, except that:
 
 <ul>
 <li>
@@ -121,43 +108,34 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="http
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a>
+<a href="/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>

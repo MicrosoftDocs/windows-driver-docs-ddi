@@ -8,8 +8,6 @@ ms.assetid: 866b9383-d73d-4be1-a4de-b78c9558c3ce
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code [Storage Devices], k307_5dd8b350-65b5-4f59-b96f-cae11fe7fb5b.xml, mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, storage.ioctl_mountdev_query_unique_id
-f1_keywords:
- - "mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID"
 req.header: mountdev.h
 req.include-header: Mountdev.h
 req.target-type: Windows
@@ -27,97 +25,59 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mountdev.h
-api_name:
-- IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
+ - mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mountdev.h
+api_name:
+ - IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 ---
 
 # IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL
 
+
 ## -description
 
-Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>). 
+Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>).
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-
-
-
-
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
 
-The device class or volume driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+The device class or volume driver returns the <a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTDEV_UNIQUE_ID).
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
+### -status-block
 
+The <b>Information</b> field is set to FIELD_OFFSET(<a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output->UniqueIdLength; or alternatively to sizeof(USHORT) + output->UniqueIdLength, where output points to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ## -remarks
 
-The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
-
-
-
-
-
-### -status-block
-
-The <b>Information</b> field is set to FIELD_OFFSET(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output->UniqueIdLength; or alternatively to sizeof(USHORT) + output->UniqueIdLength, where output points to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>

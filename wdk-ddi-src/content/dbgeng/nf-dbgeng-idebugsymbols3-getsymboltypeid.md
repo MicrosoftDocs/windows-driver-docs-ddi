@@ -8,8 +8,6 @@ ms.assetid: 0c77ad1a-218d-4857-a07c-f5d542d070d7
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetSymbolTypeId"]
 ms.keywords: GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId method [Windows Debugging],IDebugSymbols interface, GetSymbolTypeId method [Windows Debugging],IDebugSymbols2 interface, GetSymbolTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3 interface [Windows Debugging],GetSymbolTypeId method, IDebugSymbols3.GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols2::GetSymbolTypeId, dbgeng/IDebugSymbols3::GetSymbolTypeId, dbgeng/IDebugSymbols::GetSymbolTypeId, debugger.getsymboltypeid
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetSymbolTypeId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetSymbolTypeId
-- IDebugSymbols2.GetSymbolTypeId
-- IDebugSymbols3.GetSymbolTypeId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetSymbolTypeId
+ - dbgeng/IDebugSymbols3::GetSymbolTypeId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetSymbolTypeId
+ - IDebugSymbols2.GetSymbolTypeId
+ - IDebugSymbols3.GetSymbolTypeId
 ---
 
 # IDebugSymbols3::GetSymbolTypeId
@@ -49,35 +48,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolTypeId</b>  method returns the type ID and module of the specified symbol.
-
 
 ## -parameters
 
+### -param Symbol 
 
-
-
-### -param Symbol [in]
-
+[in]
 Specifies the expression whose type ID is requested.  See the Remarks section for details on the syntax of this expression.
 
+### -param TypeId 
 
-### -param TypeId [out]
-
+[out]
 Receives the type ID.
 
+### -param Module 
 
-### -param Module [out, optional]
-
-Receives the base address of the module containing the symbol.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
-
+[out, optional]
+Receives the base address of the module containing the symbol.  For more information, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -96,45 +88,29 @@ The method was successful
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The Sy<i></i>mbol expression may contain structure fields, pointer dereferencing, and array dereferencing -- for example <b>my_struct.some_field[0]</b>.
 
-For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
-
-
-
+For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsymboltypeid">GetSymbolTypeId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsymboltypeid">GetSymbolTypeId</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypeid">GetTypeId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypeid">GetTypeId</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

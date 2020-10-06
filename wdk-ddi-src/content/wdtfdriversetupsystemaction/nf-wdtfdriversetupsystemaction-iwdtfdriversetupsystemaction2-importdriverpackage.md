@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::ImportDriverPackage"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ImportDriverPackage method, IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.ImportDriverPackage"
+ - "IWDTFDriverSetupSystemAction2.ImportDriverPackage"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.ImportDriverPackage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Imports a driver packge to the system driver store.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The driver package to import.
 
 
@@ -65,7 +64,7 @@ The driver package to import.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -75,8 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
  
 
  
-

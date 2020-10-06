@@ -8,8 +8,6 @@ ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.date: 04/30/2018
 keywords: ["RtlIoEncodeMemIoResource function"]
 ms.keywords: RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, kernel.rtlioencodememioresource, wdm/RtlIoEncodeMemIoResource
-f1_keywords:
- - "wdm/RtlIoEncodeMemIoResource"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlIoEncodeMemIoResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIoEncodeMemIoResource
+ - wdm/RtlIoEncodeMemIoResource
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlIoEncodeMemIoResource
 ---
 
 # RtlIoEncodeMemIoResource function
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
-
+The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
 
 ## -parameters
 
+### -param Descriptor 
 
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
+### -param Type 
 
-### -param Descriptor [in]
+[in]
+The resource type of the address range. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>.
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to update.
+### -param Length 
 
+[in]
+The length, in bytes, of the range of assignable addresses.
 
-### -param Type [in]
+### -param Alignment 
 
-The resource type of the address range. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
-
-
-### -param Length [in]
-
-The length, in bytes, of the range of assignable addresses. 
-
-
-### -param Alignment [in]
-
+[in]
 The alignment, in bytes, of the starting address of address range.
 
+### -param MinimumAddress 
 
-### -param MinimumAddress [in]
+[in]
+The minimum address that can be assigned to the device.
 
-The minimum address that can be assigned to the device. 
+### -param MaximumAddress 
 
-
-### -param MaximumAddress [in]
-
+[in]
 The maximum address that can be assigned to the device.
 
-
 ## -returns
-
-
 
 <b>RtlIoEncodeMemIoResource</b> returns an NTSTATUS value. This routine might return one of the following values:
 
@@ -104,7 +96,7 @@ The maximum address that can be assigned to the device.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
+The <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
 
 </td>
 </tr>
@@ -131,14 +123,8 @@ One or more of the specified parameters were invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Addresses that are larger than 32 bits in length must satisfy certain alignment restrictions, or else the routine returns STATUS_UNSUCCESSFUL.
 
@@ -178,22 +164,11 @@ Lowest 32 bits must be zero.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource">RtlIoDecodeMemIoResource</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource">RtlIoDecodeMemIoResource</a>

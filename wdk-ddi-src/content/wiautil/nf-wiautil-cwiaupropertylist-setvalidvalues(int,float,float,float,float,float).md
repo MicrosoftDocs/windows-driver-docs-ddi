@@ -5,11 +5,9 @@ description: The CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,F
 old-location: image\cwiaupropertylist_setvalidvalues_float__range_.htm
 tech.root: image
 ms.assetid: 4234ce4a-5b9d-47a7-b00d-e278635ee93a
-ms.date: 09/07/2018
+ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,FLOAT    ,FLOAT    ,FLOAT    ,FLOAT    ,FLOAT    ), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(FLOAT,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_float__range_, wiauFncs_f8694591-e6dc-4d9a-b7dc-ab09a600c238.xml, wiautil/CWiauPropertyList::SetValidValues
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetValidValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetValidValues
+ - wiautil/CWiauPropertyList::SetValidValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetValidValues
 ---
 
-# CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
+# CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) (wiautil.h)
 
 ## -description
 
@@ -83,4 +82,4 @@ Specifies the increment between two successive values in the range of values.
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
-[CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_int_pfloat))
+[CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)](nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_int_pfloat).md)

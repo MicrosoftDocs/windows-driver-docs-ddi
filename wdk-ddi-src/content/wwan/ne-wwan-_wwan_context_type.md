@@ -6,10 +6,8 @@ old-location: netvista\wwan_context_type.htm
 tech.root: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.date: 05/02/2018
-keywords: ["_WWAN_CONTEXT_TYPE enumeration"]
+keywords: ["WWAN_CONTEXT_TYPE enumeration"]
 ms.keywords: "*PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanContextTypeCustom, WwanContextTypeInternet, WwanContextTypeMax, WwanContextTypeNone, WwanContextTypePurchase, WwanContextTypeVideoShare, WwanContextTypeVoice, WwanContextTypeVpn, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, _WWAN_CONTEXT_TYPE, netvista.wwan_context_type, wwan/PWWAN_CONTEXT_TYPE, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom, wwan/WwanContextTypeInternet, wwan/WwanContextTypeMax, wwan/WwanContextTypeNone, wwan/WwanContextTypePurchase, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeVoice, wwan/WwanContextTypeVpn"
-f1_keywords:
- - "wwan/WWAN_CONTEXT_TYPE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_CONTEXT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_CONTEXT_TYPE, *PWWAN_CONTEXT_TYPE
+f1_keywords:
+ - _WWAN_CONTEXT_TYPE
+ - wwan/_WWAN_CONTEXT_TYPE
+ - PWWAN_CONTEXT_TYPE
+ - wwan/PWWAN_CONTEXT_TYPE
+ - WWAN_CONTEXT_TYPE
+ - wwan/WWAN_CONTEXT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_CONTEXT_TYPE
 ---
 
 # _WWAN_CONTEXT_TYPE enumeration
@@ -47,51 +50,39 @@ req.typenames: WWAN_CONTEXT_TYPE, *PWWAN_CONTEXT_TYPE
 
 ## -description
 
-
 The WWAN_CONTEXT_TYPE enumeration lists the different types of connection contexts that are supported
   by the MB device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanContextTypeNone
 
 The context is not yet provisioned.
 
-
 ### -field WwanContextTypeInternet
 
 The context represents a connection to the Internet.
-
 
 ### -field WwanContextTypeVpn
 
 The context represents a connection to virtual private network (VPN to a corporate
      network).
 
-
 ### -field WwanContextTypeVoice
 
 The context represents a connection to a Voice-over-IP (VOIP) service.
-
 
 ### -field WwanContextTypeVideoShare
 
 The context represents a connection to a video sharing service.
 
-
 ### -field WwanContextTypeCustom
 
 The context represents a connection to a custom service.
 
-
 ### -field WwanContextTypePurchase
 
 Purchase a connection. For example, a walled garden, hot-lining or captive portal.
-
 
 ### -field WwanContextTypeMms
 
@@ -131,22 +122,10 @@ The total number of supported context types.
 
 ## -remarks
 
-
-
 This enumeration indicates the usage of the provisioned context. For example, whether the context is
     used to connect to the Internet, or to a VPN into a corporate network. Miniport drivers should specify 
     <b>WwanContextTypeNone</b> for empty (unprovisioned) context slots.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>

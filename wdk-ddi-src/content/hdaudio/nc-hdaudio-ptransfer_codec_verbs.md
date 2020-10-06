@@ -8,8 +8,6 @@ ms.assetid: 0ba92f5c-c4a3-48de-b8af-9c444b2e65b5
 ms.date: 05/08/2018
 keywords: ["PTRANSFER_CODEC_VERBS callback function"]
 ms.keywords: PTRANSFER_CODEC_VERBS, PTRANSFER_CODEC_VERBS callback, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs
-f1_keywords:
- - "hdaudio/TransferCodecVerbs"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hdaudio.h
-api_name:
-- TransferCodecVerbs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PTRANSFER_CODEC_VERBS
+ - hdaudio/PTRANSFER_CODEC_VERBS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hdaudio.h
+api_name:
+ - TransferCodecVerbs
 ---
 
 # PTRANSFER_CODEC_VERBS callback function
@@ -47,54 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The <i>TransferCodecVerbs</i> routine transfers one or more commands to a codec or codecs and retrieves the responses to those commands.
 
 The function pointer type for a <i>TransferCodecVerbs</i> routine is defined as follows.
 
-
 ## -parameters
 
+### -param _context 
 
+[in]
+Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a><u>,</u> or <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
+### -param Count 
 
-### -param _context [in]
-
-Specifies the context value from the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a><u>,</u> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
-
-
-### -param Count [in]
-
+[in]
 Specifies the number of elements in the <i>codecTransfer</i> array.
 
+### -param CodecTransfer 
 
-### -param CodecTransfer [in, out]
+[in, out]
+Pointer to an array of <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a> structures. Each array element is a structure that contains storage for both an output command from the caller and the corresponding input response from the codec.
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a> structures. Each array element is a structure that contains storage for both an output command from the caller and the corresponding input response from the codec.
+### -param Callback 
 
-
-### -param Callback [in]
-
+[in]
 Function pointer to a callback routine. This parameter is a function pointer of type HDAUDIO_TRANSFER_COMPLETE_CALLBACK. The parameter can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param Context
-
-
-
-
-
-
-
 
 #### - CallbackContext [in]
 
 A context value for the callback routine. The caller casts the context value to type PVOID. After completing the commands asynchronously, the HD Audio bus driver passes the context value to the callback routine as a call parameter.
 
-
 ## -returns
-
-
 
 <i>TransferCodecVerbs</i> returns STATUS_SUCCESS if the call succeeds. Otherwise, the routine returns an appropriate error code. The following table shows a possible return status code.
 
@@ -115,14 +99,8 @@ Indicates that the request could not be added to the command queue due to a shor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine submits one or more codec commands to the HD Audio bus driver. The bus driver issues the commands to the codecs, retrieves the codecs' responses to the commands, and outputs the responses to the caller.
 
@@ -142,18 +120,13 @@ If the caller specifies a non-<b>NULL</b> value for the <i>callback</i> paramete
 </ul>
 The function pointer type for the callback parameter is defined as:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
   (*PHDAUDIO_TRANSFER_COMPLETE_CALLBACK)
-    (HDAUDIO_CODEC_TRANSFER *, PVOID);</pre>
-</td>
-</tr>
-</table></span></div>
+    (HDAUDIO_CODEC_TRANSFER *, PVOID);
+```
+
 The first call parameter is a pointer to the <i>codecTransfer</i> array element that contains the codec command and the response that triggered the callback. The second call parameter is the same context value that was specified previously in the <i>TransferCodecVerbs</i> routine's <i>callbackContext</i> parameter.
 
 If successful, <i>TransferCodecVerbs</i> returns STATUS_SUCCESS. The meaning of this status code depends on whether the routine operates synchronously or asynchronously:
@@ -174,28 +147,18 @@ If the <i>callback</i> parameter is <b>NULL</b>, the caller must be running at I
 
 The caller must allocate the <i>codecTransfer</i> array from the nonpaged pool.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a>
+<a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a>
+<a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a>

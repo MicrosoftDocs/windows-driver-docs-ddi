@@ -6,14 +6,12 @@ old-location: image\scaninfo.htm
 tech.root: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.date: 05/03/2018
-keywords: ["_SCANINFO structure"]
+keywords: ["SCANINFO structure"]
 ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
-f1_keywords:
- - "wiamicro/SCANINFO"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamicro.h
-api_name:
-- SCANINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SCANINFO, *PSCANINFO
+f1_keywords:
+ - _SCANINFO
+ - wiamicro/_SCANINFO
+ - PSCANINFO
+ - wiamicro/PSCANINFO
+ - SCANINFO
+ - wiamicro/SCANINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamicro.h
+api_name:
+ - SCANINFO
 ---
 
 # _SCANINFO structure
+
 
 ## -description
 
@@ -233,7 +237,7 @@ Specifies whether data alignment is needed for the scanner. The value can be:
 
 ### -field DelayBetweenRead
 
-Specifies the time delay in milliseconds between [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) function calls that the scanner can support.
+Specifies the time delay in milliseconds between [Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) function calls that the scanner can support.
 
 ### -field MaxBufferSize
 
@@ -249,14 +253,14 @@ Specifies an array of reserved bits.
 
 ### -field pMicroDriverContext
 
-Points to the microdriver's context. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See [Required Commands](https://docs.microsoft.com/windows-hardware/drivers/image/required-commands).) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
+Points to the microdriver's context. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See [Required Commands](/windows-hardware/drivers/image/required-commands).) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
 
 ## -remarks
 
-This structure is used as a parameter in the microdriver's [SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow), and [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
+This structure is used as a parameter in the microdriver's [SetPixelWindow](./nf-wiamicro-setpixelwindow.md), and [Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
 
 ## -see-also
 
-[Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
+[Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
 
-[SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow)
+[SetPixelWindow](./nf-wiamicro-setpixelwindow.md)

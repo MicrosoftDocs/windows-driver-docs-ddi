@@ -28,7 +28,8 @@ req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "bthsdpddi/SdpRetrieveUuid128"
+ - PRETRIEVEUUID128
+ - bthsdpddi/PRETRIEVEUUID128
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PRETRIEVEUUID128 callback function
+
 
 ## -description
 
@@ -79,10 +81,9 @@ The
 This function has no effect on byte order.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">
+    <a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
-
+<a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>

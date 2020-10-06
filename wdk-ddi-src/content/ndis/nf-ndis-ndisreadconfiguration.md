@@ -8,8 +8,6 @@ ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.date: 05/02/2018
 keywords: ["NdisReadConfiguration function"]
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
-f1_keywords:
- - "ndis/NdisReadConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisReadConfiguration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisReadConfiguration
+ - ndis/NdisReadConfiguration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisReadConfiguration
 ---
 
 # NdisReadConfiguration function
@@ -48,20 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisReadConfiguration</b> function returns
   the value of a named entry of the specified type from the registry, given the handle to an open registry
-  key. This function must be invoked serially with respect to itself and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function.
-
+  key. This function must be invoked serially with respect to itself and the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function.
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following values.
 
@@ -104,32 +99,31 @@ The requested information could not be found under the opened registry key desig
 </td>
 </tr>
 </table>
- 
 
+### -param ParameterValue 
 
-### -param ParameterValue [out]
-
+[out]
 A pointer to a memory location where NDIS supplies a pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure if the call to 
      <b>NdisReadConfiguration</b> is
      successful. NDIS allocates memory for the 
      <b>
      NDIS_CONFIGURATION_PARAMETER</b> structure.
 
+### -param ConfigurationHandle 
 
-### -param ConfigurationHandle [in]
-
+[in]
 The handle to a registry key that was returned by the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
+     <a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
      NdisOpenConfigurationKeyByIndex</a>, or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
      NdisOpenConfigurationKeyByName</a> function.
 
+### -param Keyword 
 
-### -param Keyword [in]
-
+[in]
 A pointer to a caller-supplied NDIS_STRING type describing a counted string, in the system-default
      character set, specifying the name of the entry under the open registry key for which to return the
      value. 
@@ -178,19 +172,15 @@ NdisVersion
 </td>
 </tr>
 </table>
- 
 
+### -param ParameterType 
 
-### -param ParameterType [in]
-
+[in]
 The type of the value entry that is specified as one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values.
+     <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values.
      This parameter is ignored in Windows NT and later versions.
 
-
 ## -remarks
-
-
 
 In the configuration registry of Windows 2000 and later versions, an NDIS 
     <i>keyword</i> is a synonym for a 
@@ -200,9 +190,9 @@ In the configuration registry of Windows 2000 and later versions, an NDIS
 Every NDIS driver can set up configuration information in the registry for itself using the 
     <b>AddReg</b> directive in its INF file. For example, a protocol driver might store its
     own name as an entry with a preformatted string value that can be passed in calls to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
     NdisRegisterProtocolDriver</a> function. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
+    <a href="/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
     a Network INF File</a>.
 
 Each miniport driver also has associated value entries in the registry. The value entries for any
@@ -215,10 +205,10 @@ Each miniport driver also has associated value entries in the registry. The valu
 NdisReadConfiguration buffers and copies the caller-supplied string at 
     <i>Keyword</i> and releases the storage it allocates for this copy before it returns control to the
     caller. The memory it allocates for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
     NDIS_CONFIGURATION_PARAMETER</a> structure is freed when the driver releases the ConfigurationHandle
     with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a> function.
     The caller of 
     <b>NdisReadConfiguration</b> is responsible
     for releasing the buffered string at 
@@ -230,83 +220,73 @@ Note that NDIS does not validate values that a driver reads from the registry. T
     caller determines that a value is out of bounds, it should use a default value instead.
 
 For more information about setup and installation files, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
+    <a href="/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
     Overview</a>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisansistringtounicodestring">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisansistringtounicodestring">
    NdisAnsiStringToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring">NdisFreeString</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring">NdisFreeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitansistring">NdisInitAnsiString</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitansistring">NdisInitAnsiString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitunicodestring">NdisInitUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitunicodestring">NdisInitUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializestring">NdisInitializeString</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializestring">NdisInitializeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>
+<a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
    NdisOpenConfigurationKeyByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
    NdisOpenConfigurationKeyByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadnetworkaddress">NdisReadNetworkAddress</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadnetworkaddress">NdisReadNetworkAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunicodestringtoansistring">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunicodestringtoansistring">
    NdisUnicodeStringToAnsiString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

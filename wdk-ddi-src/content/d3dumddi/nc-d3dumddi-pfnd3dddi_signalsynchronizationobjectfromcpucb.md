@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSignalSynchronizationObjectFromCpuCb"
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
+ - d3dumddi/PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB callback function
 
+
 ## -description
 
 <b>pfnSignalSynchronizationObjectFromCpuCb</b> enables a driver to signal a monitored fence.
@@ -58,11 +60,11 @@ A handle to the display device.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_signalsynchronizationobjectfromcpu">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_signalsynchronizationobjectfromcpu">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
@@ -73,4 +75,3 @@ However, the caller cannot assume that the signal operation will be completed up
 <div class="alert"><b>Note</b>  A signal from a graphics processing unit (GPU) call is not provided. Instead, a driver can signal a new fence value by inserting a GPU write command for <b>FenceValueGPUVirtualAddress</b> into a command buffer.
 </div>
 <div> </div>
-

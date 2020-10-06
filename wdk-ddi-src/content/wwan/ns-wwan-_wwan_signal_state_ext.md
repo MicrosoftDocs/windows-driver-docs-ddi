@@ -5,10 +5,8 @@ description: The WWAN_SIGNAL_STATE_EXT structure represents an extension to the 
 tech.root: netvista
 ms.assetid: 575B91C4-FF8A-488B-A12E-2DB13FE6C900
 ms.date: 04/05/2019
-keywords: ["_WWAN_SIGNAL_STATE_EXT structure"]
+keywords: ["WWAN_SIGNAL_STATE_EXT structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE_EXT, WWAN_SIGNAL_STATE_EXT structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE_EXT, netvista.wwan_signal_state_EXT, wwan/PWWAN_SIGNAL_STATE_EXT, wwan/WWAN_SIGNAL_STATE_EXT"
-f1_keywords:
- - "wwan/WWAN_SIGNAL_STATE_EXT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -26,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SIGNAL_STATE_EXT
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SIGNAL_STATE_EXT, *PWWAN_SIGNAL_STATE_EXT
+f1_keywords:
+ - _WWAN_SIGNAL_STATE_EXT
+ - wwan/_WWAN_SIGNAL_STATE_EXT
+ - PWWAN_SIGNAL_STATE_EXT
+ - wwan/PWWAN_SIGNAL_STATE_EXT
+ - WWAN_SIGNAL_STATE_EXT
+ - wwan/WWAN_SIGNAL_STATE_EXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SIGNAL_STATE_EXT
 ---
 
 # _WWAN_SIGNAL_STATE_EXT structure
@@ -46,10 +49,9 @@ req.typenames: WWAN_SIGNAL_STATE_EXT, *PWWAN_SIGNAL_STATE_EXT
 
 ## -description
 
-
 The **WWAN_SIGNAL_STATE_EXT** structure represents an extension to the signal state of the MB device. In Windows 10, version 1903 and later, [**WWAN_SIGNAL_STATE_EX**](../wwan/ns-wwan-_wwan_signal_state.md) contains primary information about the signal state of the device, including an array of **WWAN_SIGNAL_STATE_EXT** structures that contain signal state information specific to 5G.
 
-For more info about 5G data class support, see [MB 5G data class support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support).
+For more info about 5G data class support, see [MB 5G data class support](/windows-hardware/drivers/network/mb-5g-data-class-support).
 
 ## -struct-fields
 
@@ -124,8 +126,9 @@ This member is valid only if the **DataClass** member is set to **WWAN_DATA_CLAS
 
 ### -field DataClass
 
-Indicates the data class for which the parameters are valid. Only if either **WWAN_DATA_CLASS_LTE** or **WWAN_DATA_CLASS_5G_NSA/SA** is set, then the **RSRP**, **RSRPThreshold**, **SNR**, and **SNRThreshold** members are valid. 
+Indicates the data class for which the parameters are valid. Only if either **WWAN_DATA_CLASS_LTE** or **WWAN_DATA_CLASS_5G_NSA/SA** is set, then the **RSRP**, **RSRPThreshold**, **SNR**, and **SNRThreshold** members are valid.
 
 ## -see-also
+
  
 [**WWAN_SIGNAL_STATE**](../wwan/ns-wwan-_wwan_signal_state.md)

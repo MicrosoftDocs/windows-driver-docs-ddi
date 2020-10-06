@@ -4,41 +4,43 @@ title: _D3DKMT_PRESENT_STATS_DWM (d3dkmthk.h)
 description: The present status of the desktop windows manager (DWM).
 ms.assetid: 8bd41296-e5b2-440b-a871-a644af659790
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_PRESENT_STATS_DWM structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_PRESENT_STATS_DWM"
-ms.keywords: _D3DKMT_PRESENT_STATS_DWM, D3DKMT_PRESENT_STATS_DWM, 
+keywords: ["D3DKMT_PRESENT_STATS_DWM structure"]
+ms.keywords: _D3DKMT_PRESENT_STATS_DWM, D3DKMT_PRESENT_STATS_DWM,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_PRESENT_STATS_DWM
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_PRESENT_STATS_DWM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_PRESENT_STATS_DWM
+ - d3dkmthk/_D3DKMT_PRESENT_STATS_DWM
+ - D3DKMT_PRESENT_STATS_DWM
+ - d3dkmthk/D3DKMT_PRESENT_STATS_DWM
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_PRESENT_STATS_DWM
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_PRESENT_STATS_DWM structure
+
 
 ## -description
 
@@ -67,9 +69,11 @@ The sync refresh count.
 The sync QPC time.
 
 ### -field CustomPresentDuration
+
  
 The custom present duration.
 
 ## -remarks
 
 ## -see-also
+

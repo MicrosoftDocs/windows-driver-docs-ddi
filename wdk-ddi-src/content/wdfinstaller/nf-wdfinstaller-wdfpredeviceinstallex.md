@@ -8,8 +8,6 @@ ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.date: 02/26/2018
 keywords: ["WdfPreDeviceInstallEx function"]
 ms.keywords: DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, WdfPreDeviceInstallEx, WdfPreDeviceInstallEx function, kmdf.wdfpredeviceinstallex, wdf.wdfpredeviceinstallex, wdfinstaller/WdfPreDeviceInstallEx
-f1_keywords:
- - "wdfinstaller/WdfPreDeviceInstallEx"
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- N/A
-- N/A.dll
-api_name:
-- WdfPreDeviceInstallEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPreDeviceInstallEx
+ - wdfinstaller/WdfPreDeviceInstallEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - N/A
+ - N/A.dll
+api_name:
+ - WdfPreDeviceInstallEx
 ---
 
 # WdfPreDeviceInstallEx function
@@ -48,46 +47,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The co-installer's <b>WdfPreDeviceInstallEx</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service. 
-
+The co-installer's <b>WdfPreDeviceInstallEx</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service.
 
 ## -parameters
 
+### -param InfPath 
 
-
-
-### -param InfPath [in]
-
+[in]
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
+### -param InfSectionName 
 
-### -param InfSectionName [in, optional]
+[in, optional]
+A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
-A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
+### -param ClientOptions 
 
-
-### -param ClientOptions [in]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
-
+[in]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options.
 
 ## -returns
 
-
-
 <b>WdfPreDeviceInstallEx</b> returns ERROR_SUCCESS if the operation succeeds. Otherwise, the function returns one of the additional ERROR_<i>XXX</i> values that are defined in <i>Winerror.h</i>.
-
-
-
 
 ## -remarks
 
-
-
-The installer for the framework-based drivers of a non-PnP device must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
+The installer for the framework-based drivers of a non-PnP device must call <a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
 
 To obtain the address of the co-installer's <b>WdfPreDeviceInstallEx</b> function, the installer must call <b>GetProcAddress</b> after the installer has called <b>LoadLibrary</b> to load the co-installer.
 
@@ -95,36 +82,27 @@ If the co-installer determines that the computer must be restarted to complete t
 
 <ul>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>.
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>.
 
 </li>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
 
 </li>
 </ul>
-For more information about the <b>WdfPreDeviceInstallEx</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
+For more information about the <b>WdfPreDeviceInstallEx</b> function and installers for framework-based drivers of non-PnP devices, see <a href="/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
 
 #### Examples
 
-For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the installer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the installer for the <a href="/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpostdeviceinstall">WdfPostDeviceInstall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpostdeviceinstall">WdfPostDeviceInstall</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>

@@ -8,8 +8,6 @@ ms.assetid: aaa149d8-f08d-442c-980a-9390ac8bc7f6
 ms.date: 04/30/2018
 keywords: ["GET_SDEV_IDENTIFIER callback function"]
 ms.keywords: GET_SDEV_IDENTIFIER, GET_SDEV_IDENTIFIER callback, GetSDevIdentifier, GetSDevIdentifier callback function [Kernel-Mode Driver Architecture], kernel.get_sdev_identifier, wdm/GetSDevIdentifier
-f1_keywords:
- - "wdm/GET_SDEV_IDENTIFIER callback"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -27,18 +25,19 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GET_SDEV_IDENTIFIER callback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GET_SDEV_IDENTIFIER
+ - wdm/GET_SDEV_IDENTIFIER
+topic_type:
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GET_SDEV_IDENTIFIER callback
 ---
 
 # GET_SDEV_IDENTIFIER callback function
@@ -46,18 +45,10 @@ req.typenames:
 
 ## -description
 
-
-
 			
             This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 
-
 ## -parameters
 
-
-
-
 ### -param InterfaceContext
-
-
 

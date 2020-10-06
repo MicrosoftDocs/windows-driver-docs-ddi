@@ -5,38 +5,38 @@ description: The GetRotationMatrixFromAcpi function reads the rotation matrix fr
 ms.assetid: ac29311e-066a-42ea-9edf-7d114c6b951d
 ms.date: 04/19/2018
 keywords: ["GetRotationMatrixFromAcpi function"]
-f1_keywords:
- - "sensorsdriversutils/GetRotationMatrixFromAcpi"
 ms.keywords: GetRotationMatrixFromAcpi
 req.header: sensorsdriversutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- GetRotationMatrixFromAcpi
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
-
+f1_keywords:
+ - GetRotationMatrixFromAcpi
+ - sensorsdriversutils/GetRotationMatrixFromAcpi
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - GetRotationMatrixFromAcpi
+product:
+ - Windows
 ---
 
 # GetRotationMatrixFromAcpi function
@@ -77,3 +77,4 @@ This function returns NTSTATUS.
 The caller is responsible for saving/restoring the floating point context prior to calling this function.
 
 ## -see-also
+

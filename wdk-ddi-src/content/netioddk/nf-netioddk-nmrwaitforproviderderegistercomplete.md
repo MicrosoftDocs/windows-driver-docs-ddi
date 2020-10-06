@@ -8,8 +8,6 @@ ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.date: 05/02/2018
 keywords: ["NmrWaitForProviderDeregisterComplete function"]
 ms.keywords: NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml
-f1_keywords:
- - "netioddk/NmrWaitForProviderDeregisterComplete"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- netio.lib
-- netio.dll
-api_name:
-- NmrWaitForProviderDeregisterComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrWaitForProviderDeregisterComplete
+ - netioddk/NmrWaitForProviderDeregisterComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - netio.lib
+ - netio.dll
+api_name:
+ - NmrWaitForProviderDeregisterComplete
 ---
 
 # NmrWaitForProviderDeregisterComplete function
@@ -48,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrWaitForProviderDeregisterComplete</b> function waits for the deregistration of a provider module to
   complete.
 
-
 ## -parameters
 
+### -param NmrProviderHandle 
 
-
-
-### -param NmrProviderHandle [in]
-
+[in]
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
      this handle to the provider module when the provider module calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.
-
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.
 
 ## -returns
-
-
 
 The 
      <b>NmrWaitForProviderDeregisterComplete</b> function returns one of the following NTSTATUS codes:
@@ -98,7 +90,7 @@ The NMR completed deregistering the provider module.
 <td width="60%">
 The provider module called the 
        <b>NmrWaitForProviderDeregisterComplete</b> function before calling the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function,
+       <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function,
        or the handle specified in the NmrClientHandle parameter is not a valid provider handle.
 
 </td>
@@ -115,24 +107,18 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A provider module calls the 
     <b>NmrWaitForProviderDeregisterComplete</b> function to wait for the deregistration of the provider module
     to complete. A provider module calls the 
     <b>NmrWaitForProviderDeregisterComplete</b> function only after calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function.
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function.
 
 A provider module typically calls the 
     <b>NmrWaitForProviderDeregisterComplete</b> function from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to wait until it is completely
+    <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to wait until it is completely
     deregistered from the NMR before the provider module is unloaded from the system. A provider module must
     not return from a call to its 
     <i>Unload</i> function until after deregistration is
@@ -142,23 +128,12 @@ A provider module typically calls the
 <div class="alert"><b>Note</b>  If a provider module uses the Windows Driver Framework, it will typically call the
      
      <b>NmrWaitForProviderDeregisterComplete</b> function from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
+     <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
      this situation, the provider module must not return from a call to its 
      <i>EvtDriverUnload</i> function until after
      deregistration is complete.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a>

@@ -5,38 +5,38 @@ description:
 ms.assetid: 01c6b23e-b6cc-40b2-8527-f1abcdbd7a42
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_STATE_SUBOBJECT_0054 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_STATE_SUBOBJECT_0054"
-ms.keywords: D3D12DDI_STATE_SUBOBJECT_0054, D3D12DDI_STATE_SUBOBJECT_0054, 
+ms.keywords: D3D12DDI_STATE_SUBOBJECT_0054, D3D12DDI_STATE_SUBOBJECT_0054,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_STATE_SUBOBJECT_0054
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_STATE_SUBOBJECT_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_STATE_SUBOBJECT_0054
+ - d3d12umddi/D3D12DDI_STATE_SUBOBJECT_0054
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_STATE_SUBOBJECT_0054
 ---
 
 # D3D12DDI_STATE_SUBOBJECT_0054 structure
+
 
 ## -description
 
@@ -55,3 +55,4 @@ Pointer to the description, depending on *Type*.
 ## -remarks
 
 ## -see-also
+

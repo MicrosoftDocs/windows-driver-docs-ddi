@@ -8,8 +8,6 @@ ms.assetid: 75a70801-0338-45ed-a691-5f84202575d5
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_SETSTREAMSOURCEUM callback function"]
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEUM, PFND3DDDI_SETSTREAMSOURCEUM callback, SetStreamSourceUM, SetStreamSourceUM callback function [Display Devices], UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml, d3dumddi/SetStreamSourceUM, display.setstreamsourceum
-f1_keywords:
- - "d3dumddi/SetStreamSourceUM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetStreamSourceUM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFND3DDDI_SETSTREAMSOURCEUM
+ - d3dumddi/PFND3DDDI_SETSTREAMSOURCEUM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetStreamSourceUM
 ---
 
 # PFND3DDDI_SETSTREAMSOURCEUM callback function
@@ -47,26 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user memory buffer. 
-
+The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user memory buffer.
 
 ## -parameters
 
+### -param hDevice 
 
-
-
-### -param hDevice [in]
-
+[in]
 A handle to the display device (graphics context).
-
 
 ### -param Arg2
 
-
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourceum">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourceum">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
 
 ### -param Arg3
 
@@ -74,27 +67,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 A pointer to the user-memory buffer that supplies the vertex data for the vertex stream source.
 
-
 ## -returns
-
-
 
 <i>SetStreamSourceUM</i> returns S_OK or an appropriate error result if the vertex stream source is not successfully bound.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourceum">D3DDDIARG_SETSTREAMSOURCEUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourceum">D3DDDIARG_SETSTREAMSOURCEUM</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

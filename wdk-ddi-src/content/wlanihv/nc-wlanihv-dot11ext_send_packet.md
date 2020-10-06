@@ -8,39 +8,38 @@ ms.assetid: 0672eed0-4824-464b-9f4e-93862f27d586
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_SEND_PACKET callback"]
 ms.keywords: DOT11EXT_SEND_PACKET, Dot11ExtSendPacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml, netvista.dot11extsendpacket, wlanihv/Dot11ExtSendPacket
-f1_keywords:
- - "wlanihv/Dot11ExtSendPacket"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtSendPacket
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXT_SEND_PACKET
+ - wlanihv/DOT11EXT_SEND_PACKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtSendPacket
 ---
 
 # DOT11EXT_SEND_PACKET callback
@@ -48,52 +47,35 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSendPacket</b> function to transmit a packet through the wireless LAN
   (WLAN) adapter.
 
-
-## -prototype
-
-
-```cpp
-DWORD WINAPI * Dot11ExtSendPacket(
-  _In_opt_ HANDLE hDot11SvcHandle,
-  _In_     ULONG  uPacketLen,
-  _In_     LPVOID pvPacket,
-  _In_opt_ HANDLE hSendCompletion
-);
-```
-
-
 ## -parameters
 
+### -param hDot11SvcHandle 
 
-
-
-### -param hDot11SvcHandle [in, optional]
-
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
+### -param uPacketLen 
 
-### -param uPacketLen [in]
-
+[in]
 The length, in bytes, of the caller-allocated buffer referenced by the
      <i>pvPacket</i> parameter.
 
+### -param pvPacket 
 
-### -param pvPacket [in]
-
+[in]
 A pointer to a caller-allocated buffer that contains the data to be transmitted, as described in
      the Remarks section.
 
+### -param hSendCompletion 
 
-### -param hSendCompletion [in, optional]
-
+[in, optional]
 A handle value that uniquely identifies the send packet.
 
 
@@ -104,21 +86,24 @@ When the WLAN adapter completes the send operation, the operating system notifie
      passes the handle value of the packet through the
      <i>hSendCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in
      Winerror.h.
 
+## -prototype
 
-
+```cpp
+DWORD WINAPI * Dot11ExtSendPacket(
+  _In_opt_ HANDLE hDot11SvcHandle,
+  _In_     ULONG  uPacketLen,
+  _In_     LPVOID pvPacket,
+  _In_opt_ HANDLE hSendCompletion
+);
+```
 
 ## -remarks
-
-
 
 The IHV Extensions DLL must follow these guidelines when calling the
     <b>Dot11ExtSendPacket</b> function.
@@ -143,7 +128,7 @@ The IHV Extensions DLL must set the
 </li>
 </ul>
 For more information about the IHV Handler functions, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    <a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 The buffer pointed to by
@@ -152,7 +137,7 @@ The buffer pointed to by
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in
-      <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 MAC Header
+      <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 MAC Header
       Management</a>
 
 
@@ -168,12 +153,9 @@ Payload
 </ul>
 This packet data is passed to the miniport driver.
 
-
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -187,12 +169,4 @@ This packet data is passed to the miniport driver.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 MAC Header Management</a>
-
-
-
- 
-
- 
-
-
+<a href="/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 MAC Header Management</a>

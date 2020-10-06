@@ -8,8 +8,6 @@ ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.date: 05/10/2018
 keywords: ["MIRACAST_CHUNK_ID structure"]
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
-f1_keywords:
- - "netdispumdddi/MIRACAST_CHUNK_ID"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_CHUNK_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_ID
+f1_keywords:
+ - MIRACAST_CHUNK_ID
+ - netdispumdddi/MIRACAST_CHUNK_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_CHUNK_ID
 ---
 
 # MIRACAST_CHUNK_ID structure
@@ -47,24 +46,17 @@ req.typenames: MIRACAST_CHUNK_ID
 
 ## -description
 
-
 Stores info that identifies a wireless display (Miracast) encode chunk.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FrameNumber
 
 The number of the encoded Wi-Fi frame.
 
-
 ### -field PartNumber
 
 The frame part number.
-
 
 ### -field Value
 

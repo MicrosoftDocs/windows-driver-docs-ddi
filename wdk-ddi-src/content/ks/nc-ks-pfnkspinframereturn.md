@@ -8,8 +8,6 @@ ms.assetid: 842ed1ac-4043-41ce-90e5-94c9098e9da4
 ms.date: 04/23/2018
 keywords: ["PFNKSPINFRAMERETURN callback function"]
 ms.keywords: AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], PFNKSPINFRAMERETURN, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml, ks/AVStrMiniFrameReturn, stream.avstrminiframereturn
-f1_keywords:
- - "ks/AVStrMiniFrameReturn"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniFrameReturn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPINFRAMERETURN
+ - ks/PFNKSPINFRAMERETURN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniFrameReturn
 ---
 
 # PFNKSPINFRAMERETURN callback function
@@ -47,68 +46,50 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
-
 
 ## -parameters
 
+### -param Pin 
 
+[in]
+Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which the frame was injected.
 
+### -param Data 
 
-### -param Pin [in]
-
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which the frame was injected.
-
-
-### -param Data [in, optional]
-
-Pointer to the buffer originally specified in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
-
+[in, optional]
+Pointer to the buffer originally specified in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 ### -param OPTIONAL
 
+### -param Mdl 
 
-### -param Mdl [in, optional]
+[in, optional]
+Pointer to a memory descriptor list describing the injected frame as in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a><b>.</b>
 
-Pointer to a memory descriptor list describing the injected frame as in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a><b>.</b>
+### -param Context 
 
-
-### -param Context [in, optional]
-
+[in, optional]
 Pointer to the minidriver-supplied context buffer attached to the frame when the frame was injected into the circuit.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
 
 #### - Size [in, optional]
 
-Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
-
+Specifies the size in bytes of <i>Data</i> as originally specified in <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 ## -remarks
 
-
-
-The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>.
-
-
-
+The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a>

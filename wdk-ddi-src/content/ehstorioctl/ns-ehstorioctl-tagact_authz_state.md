@@ -8,8 +8,6 @@ ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.date: 03/29/2018
 keywords: ["tagACT_AUTHZ_STATE structure"]
 ms.keywords: "*PACT_AUTHZ_STATE, ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, storage.act_authz_state, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, tagACT_AUTHZ_STATE"
-f1_keywords:
- - "ehstorioctl/ACT_AUTHZ_STATE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- ACT_AUTHZ_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
+f1_keywords:
+ - tagACT_AUTHZ_STATE
+ - ehstorioctl/tagACT_AUTHZ_STATE
+ - PACT_AUTHZ_STATE
+ - ehstorioctl/PACT_AUTHZ_STATE
+ - ACT_AUTHZ_STATE
+ - ehstorioctl/ACT_AUTHZ_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - ACT_AUTHZ_STATE
 ---
 
 # tagACT_AUTHZ_STATE structure
@@ -47,19 +50,13 @@ req.typenames: ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
 
 ## -description
 
-
 This structure describes the Addressable Command Target (ACT) authorization state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ACT
 
 This member is ignored.
-
 
 ### -field fAuthorized
 

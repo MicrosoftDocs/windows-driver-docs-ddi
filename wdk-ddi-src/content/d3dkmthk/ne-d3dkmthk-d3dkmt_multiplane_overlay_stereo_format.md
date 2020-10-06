@@ -5,37 +5,37 @@ description: Multiplane overlay stereo format.
 ms.assetid: bca4da2d-3870-4026-b515-1cb523306360
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration"]
-f1_keywords:
- - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT"
-ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT, 
+ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
+ - d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration
+
 
 ## -description
 
@@ -78,3 +78,4 @@ Checkerboard.
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 0eda4184-2852-4a31-b4da-1fbb99ed4670
 ms.date: 05/10/2018
 keywords: ["DxgkInitialize function"]
 ms.keywords: DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], display.dxgkinitialize, dispmprt/DxgkInitialize
-f1_keywords:
- - "dispmprt/DxgkInitialize"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Displib.lib
-api_name:
-- DxgkInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DxgkInitialize
+ - dispmprt/DxgkInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Displib.lib
+api_name:
+ - DxgkInitialize
 ---
 
 # DxgkInitialize function
@@ -47,49 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkInitialize</b> function loads and initializes the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>).
-
 
 ## -parameters
 
+### -param DriverObject 
 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. The display miniport driver previously obtained this pointer in its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
+### -param RegistryPath 
 
-### -param DriverObject [in]
+[in]
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the path to the driver's service registry key.  The display miniport driver previously obtained this pointer in its <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> function.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. The display miniport driver previously obtained this pointer in its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
+### -param DriverInitializationData 
 
-
-### -param RegistryPath [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the path to the driver's service registry key.  The display miniport driver previously obtained this pointer in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> function.
-
-
-### -param DriverInitializationData [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a> structure that supplies the DirectX graphics kernel subsystem with pointers to functions implemented by the display miniport driver.
-
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a> structure that supplies the DirectX graphics kernel subsystem with pointers to functions implemented by the display miniport driver.
 
 ## -returns
 
-
-
 <b>DxgkInitialize</b>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
-
-
-
 
 ## -remarks
 
-
-
-The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function calls <b>DxgkInitialize</b>.
+The display miniport driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function calls <b>DxgkInitialize</b>.
 
 
 #### Examples
 
-The following code example shows an implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> in which <b>DxgkInitialize</b> is called.
+The following code example shows an implementation of <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> in which <b>DxgkInitialize</b> is called.
 
 ```cpp
 NTSTATUS
@@ -188,26 +175,18 @@ DriverEntry(
 }
 ```
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

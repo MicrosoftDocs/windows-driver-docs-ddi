@@ -8,8 +8,6 @@ ms.assetid: 01e7760c-b10c-497e-9cab-4d839c2ce5ff
 ms.date: 04/16/2018
 keywords: ["FltGetUpperInstance function"]
 ms.keywords: FltApiRef_e_to_o_7629f1a6-0a5e-46a2-8423-bd7466548a2f.xml, FltGetUpperInstance, FltGetUpperInstance routine [Installable File System Drivers], fltkernel/FltGetUpperInstance, ifsk.fltgetupperinstance
-f1_keywords:
- - "fltkernel/FltGetUpperInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetUpperInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetUpperInstance
+ - fltkernel/FltGetUpperInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetUpperInstance
 ---
 
 # FltGetUpperInstance function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetUpperInstance</b> routine returns an opaque instance pointer for the next higher minifilter driver instance, if there is one, that is attached above a given minifilter driver instance on the same volume. 
-
+The <b>FltGetUpperInstance</b> routine returns an opaque instance pointer for the next higher minifilter driver instance, if there is one, that is attached above a given minifilter driver instance on the same volume.
 
 ## -parameters
 
+### -param CurrentInstance 
 
+[in]
+Opaque instance pointer for the instance for which the next higher instance is requested.
 
+### -param UpperInstance 
 
-### -param CurrentInstance [in]
-
-Opaque instance pointer for the instance for which the next higher instance is requested. 
-
-
-### -param UpperInstance [out]
-
-Pointer to a caller-allocated variable that receives an opaque instance pointer for the next higher instance. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives an opaque instance pointer for the next higher instance. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetUpperInstance</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -89,14 +81,8 @@ No higher instance was found. This is a warning code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 One instance is said to be <i>above</i> another if it is attached at a higher altitude on the same volume. The term "altitude" refers to the position that an instance occupies (or should occupy) in the minifilter driver instance stack for a volume. The higher the altitude, the farther the instance is from the base file system in the stack. Only one instance can be attached at a given altitude on a given volume. 
 
@@ -104,42 +90,32 @@ Altitude is specified by an <i>altitude string</i>, which is a counted Unicode s
 
 The string "03333" represents a higher altitude than "100.123456". (Leading and trailing zeros are ignored.) In other words, an instance whose altitude is "03333" is farther from the base file system than an instance whose altitude is "100.123456". However, this comparison is only meaningful if both instances are attached to the same volume. 
 
-<b>FltGetUpperInstance</b> adds a rundown reference to the opaque instance pointer returned in the <i>UpperInstance</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetUpperInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
-
-
-
+<b>FltGetUpperInstance</b> adds a rundown reference to the opaque instance pointer returned in the <i>UpperInstance</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetUpperInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltattachvolumeataltitude">FltAttachVolumeAtAltitude</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompareinstancealtitudes">FltCompareInstanceAltitudes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompareinstancealtitudes">FltCompareInstanceAltitudes</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetbottominstance">FltGetBottomInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetbottominstance">FltGetBottomInstance</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetlowerinstance">FltGetLowerInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetlowerinstance">FltGetLowerInstance</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettopinstance">FltGetTopInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettopinstance">FltGetTopInstance</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>

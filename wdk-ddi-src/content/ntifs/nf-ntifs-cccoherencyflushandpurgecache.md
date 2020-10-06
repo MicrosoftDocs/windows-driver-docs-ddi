@@ -8,8 +8,6 @@ ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.date: 04/16/2018
 keywords: ["CcCoherencyFlushAndPurgeCache function"]
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
-f1_keywords:
- - "ntifs/CcCoherencyFlushAndPurgeCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcCoherencyFlushAndPurgeCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcCoherencyFlushAndPurgeCache
+ - ntifs/CcCoherencyFlushAndPurgeCache
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcCoherencyFlushAndPurgeCache
 ---
 
 # CcCoherencyFlushAndPurgeCache function
@@ -47,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcCoherencyFlushAndPurgeCache</b> routine flushes and/or purges the cache to ensure cache coherency. Use <b>CcCoherencyFlushAndPurgeCache</b> when possible instead of an explicit flush and purge call sequence as it will invalidate user mapped views to prevent data corruption.
-
 
 ## -parameters
 
+### -param SectionObjectPointer 
 
-
-
-### -param SectionObjectPointer [in]
-
+[in]
 A pointer to a structure that contains the section object pointers of the file object.
 
+### -param FileOffset 
 
-### -param FileOffset [in, optional]
-
+[in, optional]
 A pointer to a variable that specifies the starting byte offset to flush, purge, or both.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The length, in bytes of the data to flush and/or purge starting at <i>FileOffset</i>. This parameter is ignored if a <b>NULL</b> pointer is passed to <i>FileOffset</i>.
 
+### -param IoStatus 
 
-### -param IoStatus [out]
-
+[out]
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation.
 
+### -param Flags 
 
-### -param Flags [in, optional]
-
+[in, optional]
 A bitmask of flags that specify how the operation is to be performed. The one flag is defined in the following table. 
 
 <table>
@@ -96,12 +91,8 @@ Flush, but do not purge the cache. This is useful for read coherency flushes.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The file must be acquired exclusively before you call <b>CcCoherencyFlushAndPurgeCache</b>.
 
@@ -111,20 +102,10 @@ A call to <b>CcCoherencyFlushAndPurgeCache</b> is a synchronous (blocking) opera
 
 An <i>IoStatus</i>-><i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates that page invalidation failed. Be aware that page invalidation can fail even if you pass CC_FLUSH_AND_PURGE_NO_PURGE in the <i>Flags</i> parameter.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>

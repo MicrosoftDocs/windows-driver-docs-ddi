@@ -6,10 +6,8 @@ old-location: stream\ksdevice_profile_info.htm
 tech.root: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.date: 04/23/2018
-keywords: ["_KSDEVICE_PROFILE_INFO structure"]
+keywords: ["KSDEVICE_PROFILE_INFO structure"]
 ms.keywords: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info"
-f1_keywords:
- - "ksmedia/KSDEVICE_PROFILE_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSDEVICE_PROFILE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
+f1_keywords:
+ - _KSDEVICE_PROFILE_INFO
+ - ksmedia/_KSDEVICE_PROFILE_INFO
+ - PKSDEVICE_PROFILE_INFO
+ - ksmedia/PKSDEVICE_PROFILE_INFO
+ - KSDEVICE_PROFILE_INFO
+ - ksmedia/KSDEVICE_PROFILE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSDEVICE_PROFILE_INFO
 ---
 
 # _KSDEVICE_PROFILE_INFO structure
+
 
 ## -description
 
@@ -66,7 +70,7 @@ This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 
 ### -field Camera.Info
 
-Structure of [KSCAMERA_PROFILE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_info) defining the profile information of a camera.
+Structure of [KSCAMERA_PROFILE_INFO](./ns-ksmedia-_kscamera_profile_info.md) defining the profile information of a camera.
 
 ### -field Camera.Reserved
 
@@ -74,7 +78,7 @@ Unused.  Must be set to 0.
 
 ### -field Camera.ConcurrencyCount
 
-Number of [KSCAMERA_PROFILE_CONCURRENCYINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_concurrencyinfo) structures in the **Concurrency** array.
+Number of [KSCAMERA_PROFILE_CONCURRENCYINFO](./ns-ksmedia-_kscamera_profile_concurrencyinfo.md) structures in the **Concurrency** array.
 
 For Windows 10 this must be less than or equal 1.
 

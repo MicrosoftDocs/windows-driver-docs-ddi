@@ -5,41 +5,40 @@ description: Indicates whether the interface version is an official DDI.
 ms.assetid: f2f61c6f-9bb9-44f6-9880-f48d5573be8f
 ms.date: 10/19/2018
 keywords: ["IS_OFFICIAL_DDI_INTERFACE_VERSION macro"]
-f1_keywords:
- - "d3dukmdt/IS_OFFICIAL_DDI_INTERFACE_VERSION"
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dukmdt.h
-api_name: 
-- IS_OFFICIAL_DDI_INTERFACE_VERSION
-product:
-- Windows
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - IS_OFFICIAL_DDI_INTERFACE_VERSION
+ - d3dukmdt/IS_OFFICIAL_DDI_INTERFACE_VERSION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - IS_OFFICIAL_DDI_INTERFACE_VERSION
+dev_langs:
+ - c++
 ---
 
 # IS_OFFICIAL_DDI_INTERFACE_VERSION macro
@@ -76,3 +75,4 @@ Returns a boolean value.
 ## -remarks
 
 ## -see-also
+

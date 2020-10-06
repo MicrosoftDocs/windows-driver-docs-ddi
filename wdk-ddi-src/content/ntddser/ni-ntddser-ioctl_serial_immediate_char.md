@@ -8,8 +8,6 @@ ms.assetid: 1bbae06c-1279-41da-82d8-ccbfe13cde9a
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_IMMEDIATE_CHAR IOCTL"]
 ms.keywords: IOCTL_SERIAL_IMMEDIATE_CHAR, IOCTL_SERIAL_IMMEDIATE_CHAR control, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serports.ioctl_serial_immediate_char, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_IMMEDIATE_CHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_IMMEDIATE_CHAR
+ - ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_IMMEDIATE_CHAR
 ---
 
 # IOCTL_SERIAL_IMMEDIATE_CHAR IOCTL
@@ -47,56 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_IMMEDIATE_CHAR</b> request causes a specified character to be transmitted as soon as possible. The immediate character request completes immediately after any other write that might be in progress. Only one immediate character request can be pending at a time.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to the UCHAR value to transmit immediately.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a UCHAR.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a UCHAR. Otherwise, <b>Information</b> is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that a previous immediate character request is pending.
-
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that a previous immediate character request is pending.

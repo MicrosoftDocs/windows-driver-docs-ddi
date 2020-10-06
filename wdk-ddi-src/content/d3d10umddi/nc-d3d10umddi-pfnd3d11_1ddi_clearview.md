@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/ClearView"
+ - PFND3D11_1DDI_CLEARVIEW
+ - d3d10umddi/PFND3D11_1DDI_CLEARVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3D11_1DDI_CLEARVIEW callback function
 
+
 ## -description
 
 Sets all the elements in a resource view to one value. A resource view is  a surface descriptor  that indicates a format and possibly a subset of the resource.
@@ -56,7 +58,7 @@ A handle to the display device (graphics context).
 
 ### -param viewType
 
-A value, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
+A value, of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
 
 <ul>
 <li><b>D3D10DDI_HT_RENDERTARGETVIEW</b></li>
@@ -68,13 +70,14 @@ A value, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 A pointer to the resource view to clear.
 
-### -param Color[4]
+### -param Color
 
+[4]
 A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
 
 ### -param pRect
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
+An array of <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
 
 ### -param NumRects
 
@@ -82,7 +85,7 @@ The number of rectangles in the array that the  <i>pRect</i> parameter specifies
 
 ## -remarks
 
-<i>ClearView</i> works only on render-target views (RTVs), unordered-access views (UAVs), or any video view of a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">Texture2D</a> surface. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.
+<i>ClearView</i> works only on render-target views (RTVs), unordered-access views (UAVs), or any video view of a <a href="/windows-hardware/drivers/display/details-of-the-extended-format">Texture2D</a> surface. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.
 
 <i>ClearView</i> does not support 3-D textures.
 
@@ -105,10 +108,10 @@ For video views with YUV or YCbBr formats, <i>ClearView</i> does not convert col
 
 For Microsoft Direct3D views of the subsampled RTV or UAV video surfaces, note that the dimensions of the view are based on how many pixels are in the view format rather than the underlying logical number of video pixels.  For example suppose the surface has format YUY2 with dimension 1920 by 1080 pixels and an RTV uses the format <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R8G8B8A8_UINT</a>.  The view appears to Direct3D as having 1920/2 = 960 <b>R8G8B8A8</b> pixels in the horizontal direction.  So any rectangles passed into <i>ClearView</i> are interpreted in this space.  Furthermore, the clear value is taken for all 4 components, <b>R8G8B8A8</b>, as if it is no different from a true <b>R8G8B8A8</b> surface.  In this case, R, G, B, and A do not mean standard RGBA color values; instead, they identify a location in memory, and the caller is responsible for understanding what it means to put data into that location in the context of a video surface.
 
-However, video views of a video surface (such as views provided to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview">CreateVideoDecoderOutputView</a> function and other <b>XxxInputView</b> and <b>XxxOutputView</b> functions) appear at the full logical dimensions. In this case, the horizontal dimension is 1920 pixels wide, so <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structures passed into <i>ClearView</i> honor that. Such  <b>RECT</b>s  must be aligned so they do not straddle subsampled blocks, otherwise the runtime will drop the call to this function. For video views, YUV colors must be appropriately replicated for subsampled formats. For example, YUV in the <i>ClearView</i> call has the Y value duplicated for each block in a YUY2 surface.
+However, video views of a video surface (such as views provided to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview">CreateVideoDecoderOutputView</a> function and other <b>XxxInputView</b> and <b>XxxOutputView</b> functions) appear at the full logical dimensions. In this case, the horizontal dimension is 1920 pixels wide, so <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structures passed into <i>ClearView</i> honor that. Such  <b>RECT</b>s  must be aligned so they do not straddle subsampled blocks, otherwise the runtime will drop the call to this function. For video views, YUV colors must be appropriately replicated for subsampled formats. For example, YUV in the <i>ClearView</i> call has the Y value duplicated for each block in a YUY2 surface.
 
 
-The <b>D3D10_DDI_RECT</b> structure is defined as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure.
+The <b>D3D10_DDI_RECT</b> structure is defined as a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure.
 
 ```cpp
 typedef RECT D3D10_DDI_RECT;
@@ -116,13 +119,12 @@ typedef RECT D3D10_DDI_RECT;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview">CreateVideoDecoderOutputView</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview">CreateVideoDecoderOutputView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

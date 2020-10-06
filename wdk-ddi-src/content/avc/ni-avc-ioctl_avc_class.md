@@ -8,8 +8,6 @@ ms.assetid: 033069b8-98e5-4302-ae4e-71f9249533ff
 ms.date: 04/23/2018
 keywords: ["IOCTL_AVC_CLASS IOCTL"]
 ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
-f1_keywords:
- - "avc/IOCTL_AVC_CLASS"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avc.h
-api_name:
-- IOCTL_AVC_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_AVC_CLASS
+ - avc/IOCTL_AVC_CLASS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avc.h
+api_name:
+ - IOCTL_AVC_CLASS
 ---
 
 # IOCTL_AVC_CLASS IOCTL
+
 
 ## -description
 
@@ -66,7 +66,7 @@ The GUID_AVC_CLASS interface supports all IOCTL_AVC_CLASS function codes, althou
 
 The IOCTL_AVC_CLASS function codes (and any restrictions) are described in each function code.
 
-For more information about IRPs and IOCTLs, see [Handling IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-irps).
+For more information about IRPs and IOCTLs, see [Handling IRPs](/windows-hardware/drivers/kernel/handling-irps).
 
 ## -ioctlparameters
 
@@ -118,16 +118,16 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
-[AVC_COMMAND_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_command_irb)
+[AVC_COMMAND_IRB](./ns-avc-_avc_command_irb.md)
 
-[AVC_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function)
+[AVC_FUNCTION](./ne-avc-_tagavc_function.md)
 
-[AVC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_irb)
+[AVC_IRB](./ns-avc-_avc_irb.md)
 
-[AVC_MULTIFUNC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb)
+[AVC_MULTIFUNC_IRB](./ns-avc-_avc_multifunc_irb.md)
 
-[IOCTL_AVC_BUS_RESET](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_bus_reset)
+[IOCTL_AVC_BUS_RESET](./ni-avc-ioctl_avc_bus_reset.md)
 
-[IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info)
+[IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO](./ni-avc-ioctl_avc_remove_virtual_subunit_info.md)
 
-[IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_update_virtual_subunit_info)
+[IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO](./ni-avc-ioctl_avc_update_virtual_subunit_info.md)

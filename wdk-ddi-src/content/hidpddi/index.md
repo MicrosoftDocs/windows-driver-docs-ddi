@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: hid
+f1_keywords:
+ - hidpddi
+ - hidpddi/hidpddi
 ---
 
 # Hidpddi.h header
@@ -18,7 +19,7 @@ tech.root: hid
 
 ## -description
 
-
 This header is used by hid. For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
+

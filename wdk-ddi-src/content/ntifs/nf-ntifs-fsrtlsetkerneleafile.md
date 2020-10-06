@@ -8,8 +8,6 @@ ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.date: 04/16/2018
 keywords: ["FsRtlSetKernelEaFile function"]
 ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
-f1_keywords:
- - "ntifs/FsRtlSetKernelEaFile"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlSetKernelEaFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlSetKernelEaFile
+ - ntifs/FsRtlSetKernelEaFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlSetKernelEaFile
 ---
 
 # FsRtlSetKernelEaFile function
@@ -47,36 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The routine <b>FsRtlQueryKernelEaFile</b> is used to set, modify and/or delete extended attribute (EA) values for a file and synchronously wait
     for it to complete, returning a result.  It sets the <b>IRP_MN_KERNEL</b> minor
     code which allows this API to set SecureEAs.  This allows the caller to do
     this by FileObject instead of a handle.
 
-
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
+### -param EaBuffer 
 
-### -param EaBuffer [in]
+[in]
+A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
 
-A pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
+### -param Length 
 
-
-### -param Length [in]
-
+[in]
 Specifies the length of the EA buffer.
 
-
 ## -returns
-
-
 
 The routine <b>FsRtlSetKernelEaFile</b> receives the status of the operation and returns one of the status codes:
 
@@ -152,38 +144,22 @@ The request was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  This routine assumes all passed in buffers are from kernel mode.
 
 One or more Kernel EA’s may be set, modified and/or deleted in a single call to <b>FsRtlSetKernelEaFile</b>. Normal EA’s may also be set using the <b>FsRtlSetKernelEaFile</b> function.
 You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of zero.  You can intermix inserting new, modifying existing, or removing EA’s in a single call.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/mt807492(v=vs.85)">FsRtlQueryKernelEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F">FsRtlQueryKernelEaFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryeafile">ZwQueryEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwseteafile">ZwSetEaFile</a>

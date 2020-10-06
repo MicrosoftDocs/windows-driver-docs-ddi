@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
+ - DXGKDDI_SUBMITCOMMANDTOHWQUEUE
+ - d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # DXGKDDI_SUBMITCOMMANDTOHWQUEUE callback function
+
 
 ## -description
 
@@ -83,7 +85,6 @@ NTSTATUS DxgkddiSubmitcommandtohwqueue
 
 This call is the first part of a two step submission process.
 
-WDDM synchronization class: [Zero Level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level), no reentrancy within the same hardware queue
+WDDM synchronization class: [Zero Level](/windows-hardware/drivers/display/threading-and-synchronization-zero-level), no reentrancy within the same hardware queue
 
 ## -see-also
-

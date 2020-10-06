@@ -8,8 +8,6 @@ ms.assetid: 262c4b9b-fdca-4899-a635-fb273bbf4cc8
 ms.date: 05/10/2018
 keywords: ["PEXECUTE_DMA callback function"]
 ms.keywords: HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, PEXECUTE_DMA callback, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma
-f1_keywords:
- - "video/HwVidExecuteDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidExecuteDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEXECUTE_DMA
+ - video/PEXECUTE_DMA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidExecuteDma
 ---
 
 # PEXECUTE_DMA callback function
@@ -47,73 +46,52 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidExecuteDma</i> is a miniport driver-implemented callback routine that is responsible for retrieving physical address/length pairs from a scatter/gather list, and for programming the hardware to start the actual DMA transfer.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
-
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ### -param VpDmaAdapter
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
-
+Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 ### -param SGList
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure. The video port driver fills in the information in this structure, and passes this structure to the miniport driver.
-
+Pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure. The video port driver fills in the information in this structure, and passes this structure to the miniport driver.
 
 ### -param Context
 
 Pointer to the driver-determined context passed in from <b>VideoPortStartDma</b>.
 
-
 ## -remarks
-
-
 
 This function is available in Windows XP and later.
 
-If the miniport driver reports that the device does not support scatter/gather, there will be only a single element in the scatter/gather list passed to this routine. The scatter/gather list is valid until <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a> is called.
+If the miniport driver reports that the device does not support scatter/gather, there will be only a single element in the scatter/gather list passed to this routine. The scatter/gather list is valid until <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a> is called.
 
 The last task that the video port driver's <b>VideoPortStartDma</b> function performs is to call the miniport driver's <i>HwVidExecuteDma</i> callback routine. It is this callback that actually carries out the DMA transfer operation.
 
 <i>HwVidExecuteDma</i> must be in nonpaged memory and must not access any pageable code or data.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>

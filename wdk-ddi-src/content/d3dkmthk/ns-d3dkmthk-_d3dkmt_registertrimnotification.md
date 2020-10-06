@@ -5,10 +5,8 @@ description: D3DKMT_REGISTERTRIMNOTIFICATION is used with D3DKMTRegisterTrimNoti
 old-location: display\d3dkmt_registertrimnotification.htm
 ms.assetid: CA5BC76B-539E-4FFF-8E02-C475D18588F6
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_REGISTERTRIMNOTIFICATION structure"]
+keywords: ["D3DKMT_REGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_REGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification
-f1_keywords:
- - "d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_REGISTERTRIMNOTIFICATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_REGISTERTRIMNOTIFICATION
+f1_keywords:
+ - _D3DKMT_REGISTERTRIMNOTIFICATION
+ - d3dkmthk/_D3DKMT_REGISTERTRIMNOTIFICATION
+ - D3DKMT_REGISTERTRIMNOTIFICATION
+ - d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_REGISTERTRIMNOTIFICATION
 ---
 
 # _D3DKMT_REGISTERTRIMNOTIFICATION structure
@@ -47,53 +48,34 @@ req.typenames: D3DKMT_REGISTERTRIMNOTIFICATION
 
 ## -description
 
-
-<b>D3DKMT_REGISTERTRIMNOTIFICATION</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a> to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
-
-
-
+<b>D3DKMT_REGISTERTRIMNOTIFICATION</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a> to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
 
 ## -struct-fields
-
-
-
 
 ### -field AdapterLuid
 
 [in] Luid of the adapter which the device created.
 
-
 ### -field hDevice
 
 [in] Device to trim the residency list for.
-
 
 ### -field Callback
 
 [in] Pointer to the callback function.
 
-
 ### -field Context
 
 [in] Caller-supplied context for callback.
 
-
 ### -field Handle
 
-[out] Handle that will be used to unregister the callback with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>.
-
+[out] Handle that will be used to unregister the callback with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>

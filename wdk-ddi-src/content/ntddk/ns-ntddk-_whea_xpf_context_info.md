@@ -6,10 +6,8 @@ old-location: whea\whea_xpf_context_info.htm
 tech.root: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.date: 02/20/2018
-keywords: ["_WHEA_XPF_CONTEXT_INFO structure"]
+keywords: ["WHEA_XPF_CONTEXT_INFO structure"]
 ms.keywords: "*PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml"
-f1_keywords:
- - "ntddk/WHEA_XPF_CONTEXT_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_XPF_CONTEXT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
+f1_keywords:
+ - _WHEA_XPF_CONTEXT_INFO
+ - ntddk/_WHEA_XPF_CONTEXT_INFO
+ - PWHEA_XPF_CONTEXT_INFO
+ - ntddk/PWHEA_XPF_CONTEXT_INFO
+ - WHEA_XPF_CONTEXT_INFO
+ - ntddk/WHEA_XPF_CONTEXT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_XPF_CONTEXT_INFO
 ---
 
 # _WHEA_XPF_CONTEXT_INFO structure
@@ -47,14 +50,9 @@ req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
 
 ## -description
 
-
 The WHEA_XPF_CONTEXT_INFO structure describes processor context information for an x86 or x64 processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RegisterContextType
 
@@ -110,16 +108,13 @@ Floating point registers as saved by the FXSAVE instruction. For more informatio
 
 Memory mapped registers.
 
-
 ### -field RegisterDataSize
 
 The size, in bytes, of the register data that is contained in the <b>RegisterData</b> member.
 
-
 ### -field MSRAddress
 
 The starting address of the machine-specific registers. This member contains valid data only if the <b>RegisterContextType</b> member is set to either XPF_CONTEXT_INFO_UNCLASSIFIEDDATA or XPF_CONTEXT_INFO_MSRREGISTERS. For all other types of processor context information, this member should contain zero.
-
 
 ### -field MmRegisterAddress
 
@@ -187,31 +182,18 @@ The buffer contains an array of eight 64-bit values that contain the 64-bit debu
 
 The buffer contains an array of 64-bit memory mapped registers. The number of registers in the array is determined by dividing the size specified in the RegisterDataSize member by eight.
 
-
 ## -remarks
 
-
-
-The <b>VariableInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
-
-
-
+The <b>VariableInfo</b> member of the <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x64_register_state">WHEA_X64_REGISTER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x64_register_state">WHEA_X64_REGISTER_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x86_register_state">WHEA_X86_REGISTER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x86_register_state">WHEA_X86_REGISTER_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
- 
-
- 
-
+<a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>

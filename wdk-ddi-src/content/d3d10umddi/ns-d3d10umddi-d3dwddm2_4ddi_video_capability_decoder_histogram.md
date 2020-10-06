@@ -5,37 +5,39 @@ description: Data structure for the associated D3DWDDM2_4DDI_VIDEO_CAPABILITY_QU
 ms.assetid: 612d483a-fc73-4781-a84c-dd9bbb8b0dd6
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure"]
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM, D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM,
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
+ - d3d10umddi/D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
+product:
+ - Windows
 ---
 
 # D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure
+
 
 ## -description
 
@@ -62,3 +64,4 @@ The bit depth of the bin counter. The counter is always stored in a 32-bit value
 ## -remarks
 
 ## -see-also
+

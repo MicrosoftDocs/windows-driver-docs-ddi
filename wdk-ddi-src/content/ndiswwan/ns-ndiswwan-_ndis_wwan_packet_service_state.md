@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_packet_service_state.htm
 tech.root: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.date: 04/04/2019
-keywords: ["_NDIS_WWAN_PACKET_SERVICE_STATE structure"]
+keywords: ["NDIS_WWAN_PACKET_SERVICE_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_PACKET_SERVICE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE
+f1_keywords:
+ - _NDIS_WWAN_PACKET_SERVICE_STATE
+ - ndiswwan/_NDIS_WWAN_PACKET_SERVICE_STATE
+ - PNDIS_WWAN_PACKET_SERVICE_STATE
+ - ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE
+ - NDIS_WWAN_PACKET_SERVICE_STATE
+ - ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_PACKET_SERVICE_STATE
 ---
 
 # _NDIS_WWAN_PACKET_SERVICE_STATE structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE
 
 ## -description
 
-
 The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attachment state of the MB
   device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,8 +103,7 @@ sizeof(NDIS_WWAN_PACKET_SERVICE_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -277,27 +274,17 @@ A bad SIM card is detected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PacketService
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a> object that
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a> object that
      represents the packet service attachment state of the MB device.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>

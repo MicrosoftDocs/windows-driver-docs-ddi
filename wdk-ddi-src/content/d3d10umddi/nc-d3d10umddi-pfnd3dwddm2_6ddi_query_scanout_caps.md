@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
 title: PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
-author: windows-driver-content
 description: Queries whether or not a transformation should occur in preparation for a flip operation.
 tech.root: display
 ms.assetid: 04ec8f9b-6171-4d59-a8b5-32c2e196adf4
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function"]
 ms.prod: windows-hardware
@@ -30,7 +28,8 @@ req.type-library:
 targetos: Windows
 ms.custom: WDDM 2.6, 19H1
 f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS"
+ - PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
+ - d3d10umddi/PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
 topic_type:
  - apiref
 api_type:
@@ -44,6 +43,7 @@ product:
 ---
 
 # PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function
+
 
 ## -description
 

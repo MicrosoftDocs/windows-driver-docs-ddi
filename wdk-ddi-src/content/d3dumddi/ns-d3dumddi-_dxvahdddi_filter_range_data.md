@@ -6,10 +6,8 @@ old-location: display\dxvahdddi_filter_range_data.htm
 tech.root: display
 ms.assetid: 46f5ee68-ed1a-4da4-b761-60157efb3252
 ms.date: 05/10/2018
-keywords: ["_DXVAHDDDI_FILTER_RANGE_DATA structure"]
+keywords: ["DXVAHDDDI_FILTER_RANGE_DATA structure"]
 ms.keywords: DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], _DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data
-f1_keywords:
- - "d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,74 +25,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVAHDDDI_FILTER_RANGE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_FILTER_RANGE_DATA
+f1_keywords:
+ - _DXVAHDDDI_FILTER_RANGE_DATA
+ - d3dumddi/_DXVAHDDDI_FILTER_RANGE_DATA
+ - DXVAHDDDI_FILTER_RANGE_DATA
+ - d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVAHDDDI_FILTER_RANGE_DATA
 ---
 
 # _DXVAHDDDI_FILTER_RANGE_DATA structure
 
-
 ## -description
 
-
-The <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure describes a filter range.
-
+The **DXVAHDDDI_FILTER_RANGE_DATA** structure describes a filter range.
 
 ## -struct-fields
 
-
-
-
 ### -field Minimum
 
-
-      [in] An <b>INT</b> that specifies the minimum value in the filter range. 
-     
-
+[in] An **INT** that specifies the minimum value in the filter range.
 
 ### -field Maximum
 
-[in] An <b>INT</b> that specifies the maximum value in the filter range. 
-
+[in] An **INT** that specifies the maximum value in the filter range.
 
 ### -field Default
 
-[in] An <b>INT</b> that specifies the default value for the filter range. 
-
+[in] An **INT** that specifies the default value for the filter range.
 
 ### -field Multiplier
 
-[in] A <b>FLOAT</b> value that specifies a multiplier to calculate the actual filter value. 
-
+[in] A **FLOAT** value that specifies a multiplier to calculate the actual filter value.
 
 ## -remarks
 
+A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the **DXVAHDDDI_FILTER_RANGE_DATA** structure set to the following values, which are normalized by an implicit step size of 1:
 
-
-A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure set to the following values, which are normalized by an implicit step size of 1:
-
-
-     Minimum = –720
-
-
-     Maximum = 720
-
-
-     Default = 0
-
-
-     Multiplier = 0.25
-
-
-
+* **Minimum** = –720
+* **Maximum** = 720
+* **Default** = 0
+* **Multiplier** = 0.25

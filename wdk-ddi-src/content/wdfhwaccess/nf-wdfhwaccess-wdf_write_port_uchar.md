@@ -8,8 +8,6 @@ ms.assetid: F7F40415-87E9-4870-8B10-83009159543E
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_PORT_UCHAR function"]
 ms.keywords: WDF_WRITE_PORT_UCHAR, WDF_WRITE_PORT_UCHAR function, wdf.wdf_write_port_uchar, wdfhwaccess/WDF_WRITE_PORT_UCHAR
-f1_keywords:
- - "wdfhwaccess/WDF_WRITE_PORT_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_WRITE_PORT_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WRITE_PORT_UCHAR
+ - wdfhwaccess/WDF_WRITE_PORT_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_WRITE_PORT_UCHAR
 ---
 
 # WDF_WRITE_PORT_UCHAR function
@@ -47,31 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_PORT_UCHAR</b> function writes a byte to the specified port address.
 
-
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Port 
 
-### -param Port [in]
-
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
+### -param Value 
 
-
-### -param Value [in]
-
+[in]
 Specifies a byte to be written to the port.
-
 

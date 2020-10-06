@@ -33,6 +33,7 @@ api_location:
 api_name:
  - NPEM_CONTROL_SET_STANDARD_CONTROL
 f1_keywords:
+ - NPEM_CONTROL_SET_STANDARD_CONTROL
  - wdm/NPEM_CONTROL_SET_STANDARD_CONTROL
 dev_langs:
  - c++

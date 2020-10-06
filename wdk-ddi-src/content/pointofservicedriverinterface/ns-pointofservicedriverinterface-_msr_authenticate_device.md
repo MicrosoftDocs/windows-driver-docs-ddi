@@ -6,10 +6,8 @@ old-location: pos\msr_authenticate_device.htm
 tech.root: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.date: 02/23/2018
-keywords: ["_MSR_AUTHENTICATE_DEVICE structure"]
+keywords: ["MSR_AUTHENTICATE_DEVICE structure"]
 ms.keywords: "*PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, _MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device"
-f1_keywords:
- - "pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- MSR_AUTHENTICATE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
+f1_keywords:
+ - _MSR_AUTHENTICATE_DEVICE
+ - pointofservicedriverinterface/_MSR_AUTHENTICATE_DEVICE
+ - PMSR_AUTHENTICATE_DEVICE
+ - pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE
+ - MSR_AUTHENTICATE_DEVICE
+ - pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - MSR_AUTHENTICATE_DEVICE
 ---
 
 # _MSR_AUTHENTICATE_DEVICE structure
@@ -47,37 +50,22 @@ req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
 
 ## -description
 
-
 This structure provides the authentication information used to authenticate a device.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-If the optional <b>SessionId</b> is present, this will include the size of <b>SessionId[MSR_SESSION_ID_SIZE]</b>
-
+If the optional **SessionId** is present, this will include the size of **SessionId[MSR_SESSION_ID_SIZE]**
 
 ### -field Challenge1
 
 The challenge token.
 
-
 ### -field SessionId
 
 The session ID. This is primarily used to identify each transaction so that you can prevent errors such as processing the same transaction twice.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>

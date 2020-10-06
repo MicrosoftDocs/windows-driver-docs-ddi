@@ -1,14 +1,13 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_INITIALIZE_METACOMMAND
 title: PFND3D12DDI_INITIALIZE_METACOMMAND (d3d12umddi.h)
-author: mimisasouvanh
-ms.author: misaso
 description: Implemented by the client driver to initialize a meta-command.
 ms.assetid: a13ed485-4f5f-45fb-ba49-a2ea44ece8aa
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_INITIALIZE_METACOMMAND callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_INITIALIZE_METACOMMAND"
+ - "PFND3D12DDI_INITIALIZE_METACOMMAND"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

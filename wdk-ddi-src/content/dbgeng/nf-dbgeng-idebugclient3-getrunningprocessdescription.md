@@ -8,8 +8,6 @@ ms.assetid: 1fdc4b85-d969-4433-8409-512f3f52cbbb
 ms.date: 05/03/2018
 keywords: ["IDebugClient3::GetRunningProcessDescription"]
 ms.keywords: GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], GetRunningProcessDescription method [Windows Debugging],IDebugClient interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient2 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient3.GetRunningProcessDescription, IDebugClient3::GetRunningProcessDescription, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, dbgeng/IDebugClient2::GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient4::GetRunningProcessDescription, dbgeng/IDebugClient5::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, debugger.getrunningprocessdescription
-f1_keywords:
- - "dbgeng/IDebugClient.GetRunningProcessDescription"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.GetRunningProcessDescription
-- IDebugClient2.GetRunningProcessDescription
-- IDebugClient3.GetRunningProcessDescription
-- IDebugClient4.GetRunningProcessDescription
-- IDebugClient5.GetRunningProcessDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient3::GetRunningProcessDescription
+ - dbgeng/IDebugClient3::GetRunningProcessDescription
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.GetRunningProcessDescription
+ - IDebugClient2.GetRunningProcessDescription
+ - IDebugClient3.GetRunningProcessDescription
+ - IDebugClient4.GetRunningProcessDescription
+ - IDebugClient5.GetRunningProcessDescription
 ---
 
 # IDebugClient3::GetRunningProcessDescription
@@ -51,27 +50,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetRunningProcessDescription</b>  method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 Specifies the process server to query for the process description.  If <i>Server</i> is zero, the engine will query information about the local process directly.
 
+### -param SystemId 
 
-### -param SystemId [in]
-
+[in]
 Specifies the process ID of the process whose description is desired.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
 
 <table>
@@ -120,44 +115,40 @@ Do not retrieve the command line.
 </td>
 </tr>
 </table>
- 
 
+### -param ExeName 
 
-### -param ExeName [out, optional]
-
+[out, optional]
 Receives the name of the executable file used to start the process.  If <i>ExeName</i> is <b>NULL</b>, this information is not returned.
 
+### -param ExeNameSize 
 
-### -param ExeNameSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>ExeNameSize</i>.
 
+### -param ActualExeNameSize 
 
-### -param ActualExeNameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param Description 
 
-### -param Description [out, optional]
-
+[out, optional]
 Receives extra information about the process, including service names, MTS package names, and the command line.  If <i>Description</i> is <b>NULL</b>, this information is not returned.
 
+### -param DescriptionSize 
 
-### -param DescriptionSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>Description</i>.
 
+### -param ActualDescriptionSize 
 
-### -param ActualDescriptionSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -187,65 +178,49 @@ The method was successful.  However, either <i>ExeNameSize</i> or <i>Description
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is available only for live user-mode debugging.
 
-For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
-
-
-
+For more information about creating and attaching to live user-mode targets, see <a href="/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-createprocessandattach2">CreateProcessAndAttach2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-createprocessandattach2">CreateProcessAndAttach2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemidbyexecutablename">GetRunningProcessSystemIdByExecutableName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemidbyexecutablename">GetRunningProcessSystemIdByExecutableName</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemids">GetRunningProcessSystemIds</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemids">GetRunningProcessSystemIds</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>

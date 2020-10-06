@@ -6,43 +6,61 @@ tech.root: netvista
 ms.assetid: c6d6e415-4995-4b26-b58e-a3b868ab5398
 ms.date: 04/02/2018
 keywords: ["MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT callback function"]
-f1_keywords:
- - "dot11wdi/MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
 req.header: dot11wdi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- dot11wdi.h
-api_name: 
-- MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
+ - dot11wdi/MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
 ---
 
 # MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT callback function
 
+
 ## -description
 
 The *TxSuspectFrameListAbort* callback function is implemented by the IHV miniport to inform the TxEngine that the TxMgr has identified frames which are suspected of being hung or pending completion for a significant length of time.
+
+## -parameters
+
+### -param MiniportTalTxRxContext
+
+The TAL device handle returned by the IHV miniport in [MiniportWdiTalTxRxInitialize](nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md).
+
+### -param SuspectFrameContext
+
+Context information about the suspected frame.
+
+### -param NumSuspectFrames
+
+The number of suspect frames.
+
+### -param SuspectFrameList
+
+The list of suspected frames. For more information, see the Remarks section.
 
 ## -prototype
 
@@ -64,24 +82,6 @@ void MiniportWdiTxSuspectFrameListAbort
 
 ```
 
-## -parameters
-
-### -param MiniportTalTxRxContext
-
-The TAL device handle returned by the IHV miniport in [MiniportWdiTalTxRxInitialize](nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md).
-
-### -param SuspectFrameContext
-
-Context information about the suspected frame. 
-
-### -param NumSuspectFrames
-
-The number of suspect frames.
-
-### -param SuspectFrameList
-
-The list of suspected frames. For more information, see the Remarks section.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [NDIS_MINIPORT_WDI_DATA_HANDLERS](ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md) structure.
@@ -94,6 +94,6 @@ The TxEngine might check the status of an NBL in the *SuspectFrameList* array by
 
 If the TxEngine or firmware has no knowledge or state for the suspect frame it should not issue completions for that suspect frame, as this might cause system corruption and/or double completions.
 
-If a firmware stall or corruption is detected, an [NDIS_STATUS_WDI_INDICATION_FIRMWARE_STALLED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-firmware-stalled) notification should be made to attempt recovery.
+If a firmware stall or corruption is detected, an [NDIS_STATUS_WDI_INDICATION_FIRMWARE_STALLED](/windows-hardware/drivers/network/ndis-status-wdi-indication-firmware-stalled) notification should be made to attempt recovery.
 
 ## -see-also

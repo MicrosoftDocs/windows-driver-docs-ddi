@@ -8,8 +8,6 @@ ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::GetTypeFieldOffset"]
 ms.keywords: EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeFieldOffset method, ExtRemoteTyped.GetTypeFieldOffset, ExtRemoteTyped::GetTypeFieldOffset, GetTypeFieldOffset, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypefieldoffset
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.GetTypeFieldOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.GetTypeFieldOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::GetTypeFieldOffset
+ - engextcpp/ExtRemoteTyped::GetTypeFieldOffset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.GetTypeFieldOffset
 ---
 
 # ExtRemoteTyped::GetTypeFieldOffset
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypeFieldOffset</b> static method returns the offset of a member within a structure.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [in]
-
+[in]
 The name of the type of the structure. This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
+### -param Field 
 
-### -param Field [in]
-
+[in]
 The name of the member in the structure.  You can specify sub-members  by using a dot operator (.) (for example, <b>mymember.mysubmember</b>).
-
 
 ## -returns
 
-
-
 <b>GetTypeFieldOffset</b> returns the number of bytes between the address of an instance of the structure and address of the instance's member.
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.date: 04/30/2018
 keywords: ["IoReportTargetDeviceChangeAsynchronous function"]
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
-f1_keywords:
- - "wdm/IoReportTargetDeviceChangeAsynchronous"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReportTargetDeviceChangeAsynchronous
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReportTargetDeviceChangeAsynchronous
+ - wdm/IoReportTargetDeviceChangeAsynchronous
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReportTargetDeviceChangeAsynchronous
 ---
 
 # IoReportTargetDeviceChangeAsynchronous function
@@ -47,62 +46,50 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manager that a custom event has occurred on a device. 
-
+The <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manager that a custom event has occurred on a device.
 
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
+[in]
+Pointer to the PDO of the device being reported.
 
+### -param NotificationStructure 
 
-### -param PhysicalDeviceObject [in]
-
-Pointer to the PDO of the device being reported. 
-
-
-### -param NotificationStructure [in]
-
-Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
+[in]
+Pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 <i>NotificationStructure</i>.<b>FileObject</b> must be <b>NULL</b>. <i>NotificationStructure</i>.<b>Event</b> must contain the custom GUID for the event. The other fields of the <i>NotificationStructure</i> must be filled in as appropriate for the custom event.
 
 The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> field when it sends notifications to registrants.
 
+### -param Callback 
 
-### -param Callback [in, optional]
-
+[in, optional]
 Optionally points to a caller-supplied routine that the PnP manager calls after it finishes notifying drivers that registered for this custom event.
 
 The callback routine has the following type:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 (*PDEVICE_CHANGE_COMPLETE_CALLBACK)(
     IN PVOID Context
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 A device-change-complete callback routine should not block and must not call synchronous routines that generate PnP events.
 
 The PnP manager calls device-change-complete callback routines at IRQL = PASSIVE_LEVEL.
 
+### -param Context 
 
-### -param Context [in, out]
-
-Optionally points to a caller-supplied context structure that the PnP manager passes to the <i>Callback</i> routine. The caller must allocate this structure from nonpaged memory. 
-
+[in, out]
+Optionally points to a caller-supplied context structure that the PnP manager passes to the <i>Callback</i> routine. The caller must allocate this structure from nonpaged memory.
 
 ## -returns
-
-
 
 <b>IoReportTargetDeviceChangeAsynchronous</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status values include the following.
 
@@ -123,14 +110,8 @@ The caller specified a system PnP event, such as GUID_TARGET_DEVICE_QUERY_REMOVE
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After the <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manager that a custom event has occurred on a device, the routine returns immediately; it does not wait while the PnP manager sends notification of the event to drivers that registered for notification on the device. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
 
@@ -138,24 +119,14 @@ A driver that defines a custom device event calls <b>IoReportTargetDeviceChangeA
 
 The custom notification structure contains a driver-defined event with its own GUID. Driver writers can generate GUIDs with Uuidgen.exe or Guidgen.exe (which are included in the Microsoft Windows SDK).
 
-When a driver calls this routine while handling an event, an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>, or an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>, the PnP manager calls the driver's <i>Callback</i> routine after the driver returns and the stack unwinds.
+When a driver calls this routine while handling an event, an <a href="/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>, or an <a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>, the PnP manager calls the driver's <i>Callback</i> routine after the driver returns and the stack unwinds.
 
 Callers of <b>IoReportTargetDeviceChangeAsynchronous</b> must be running at IRQL <= DISPATCH_LEVEL. If a driver writer calls this routine at IRQL = DISPATCH_LEVEL, the <i>NotificationStructure</i> must be allocated from nonpaged memory.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreporttargetdevicechange">IoReportTargetDeviceChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreporttargetdevicechange">IoReportTargetDeviceChange</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>

@@ -8,8 +8,6 @@ ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.date: 03/29/2018
 keywords: ["UFS_POWER_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
-f1_keywords:
- - "ufs/UFS_POWER_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ufs.h
-api_name:
-- UFS_POWER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR
+f1_keywords:
+ - PUFS_POWER_DESCRIPTOR
+ - ufs/PUFS_POWER_DESCRIPTOR
+ - UFS_POWER_DESCRIPTOR
+ - ufs/UFS_POWER_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ufs.h
+api_name:
+ - UFS_POWER_DESCRIPTOR
 ---
 
 # UFS_POWER_DESCRIPTOR structure
@@ -47,36 +48,27 @@ req.typenames: UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR
 
 ## -description
 
-
 <b>UFS_POWER_DESCRIPTOR </b>contains information about the power capabilities and power states of the device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
-
 ### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_POWER_IDN</b>.
-
 
 ### -field wActiveICCLevelsVCC
 
 Specifies the maximum VCC current value for
 each UFS_bActiveICCLevel, based on the index value.
 
-
 ### -field wActiveICCLevelsVCCQ
 
 Specifies the maximum VCCQ current value for
 each UFS_bActiveICCLevel, based on the index value.
-
 
 ### -field wActiveICCLevelsVCCQ2
 

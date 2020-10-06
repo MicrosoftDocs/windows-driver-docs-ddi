@@ -8,8 +8,6 @@ ms.assetid: 4737870f-3408-4859-9e20-7b69c78f5a3c
 ms.date: 05/03/2018
 keywords: ["PWINDBG_CHECK_CONTROL_C callback function"]
 ms.keywords: CheckControlC, CheckControlC callback function [Windows Debugging], PWINDBG_CHECK_CONTROL_C, PWINDBG_CHECK_CONTROL_C callback, WdbgExts_Ref_532229fc-40f0-4226-92af-09ecc5387096.xml, debugger.checkcontrolc, wdbgexts/CheckControlC
-f1_keywords:
- - "wdbgexts/CheckControlC"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdbgexts.h
-api_name:
-- CheckControlC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PWINDBG_CHECK_CONTROL_C
+ - wdbgexts/PWINDBG_CHECK_CONTROL_C
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdbgexts.h
+api_name:
+ - CheckControlC
 ---
 
 # PWINDBG_CHECK_CONTROL_C callback function
@@ -47,37 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>PWINDBG_CHECK_CONTROL_C</b> (<b>CheckControlC</b>) function checks to see if the user pressed CTRL+C. Use <b>PWINDBG_CHECK_CONTROL_C</b> in all loops to allow the user to press CTRL+C to end long processes.
-
 
 ## -parameters
 
-
-
-
-
-
-
-
-
-
-
-
 ## -returns
-
-
 
 If the user has pressed CTRL+C, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
-
-
-
 ## -remarks
 
-
-
-If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that calls this function, include wdbgexts.h before dbgeng.h (see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
-
-
-
+If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that calls this function, include wdbgexts.h before dbgeng.h (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).

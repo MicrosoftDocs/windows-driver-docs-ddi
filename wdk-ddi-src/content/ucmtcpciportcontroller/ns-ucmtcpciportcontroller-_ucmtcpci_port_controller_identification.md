@@ -6,10 +6,8 @@ old-location: buses\ucmtcpci_port_controller_identification.htm
 tech.root: usbref
 ms.assetid: fad8ca8b-1854-4a71-a0f2-60c211ece022
 ms.date: 05/07/2018
-keywords: ["_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure"]
+keywords: ["UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
-f1_keywords:
- - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucmtcpciportcontroller.h
-api_name:
-- UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+f1_keywords:
+ - _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - ucmtcpciportcontroller/_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucmtcpciportcontroller.h
+api_name:
+ - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure
@@ -47,74 +50,42 @@ req.typenames: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLL
 
 ## -description
 
-
 Contains identification information and USB specification version information (in BCD format) about the port controller.
-             This client driver must specify that information in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a> during initialization. 
-                 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_identification_init">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT</a> to initialize this structure.
-             
-
+             This client driver must specify that information in the call to <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a> during initialization. 
+                 Call <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_identification_init">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT</a> to initialize this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this structure.
 
-
 ### -field VendorId
 
 Specifies the vendor identifier assigned by the USB specification committee.
-                     
-                 
-
 
 ### -field ProductId
 
-
                      Specifies the product identifier. This value is assigned by the manufacturer.
-                 
-
 
 ### -field DeviceId
 
-
                      The device ID for the USB Type-C port  controller.
-                 
-
 
 ### -field TypeCRevisionInBcd
 
-
                      The revision ID for the USB Type-C port  controller.
-                 
-
 
 ### -field PDRevisionAndVersionInBcd
 
-
                      
                      The revision and version for the USB Type-C port  controller that supports PD.
-                 
-
 
 ### -field PDInterfaceRevisionAndVersionInBcd
 
-
                      
                      The interface revision and version for the USB Type-C port  controller that supports PD.
-                 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>

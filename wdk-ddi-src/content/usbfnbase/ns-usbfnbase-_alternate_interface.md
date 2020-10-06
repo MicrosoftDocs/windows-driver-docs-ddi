@@ -6,10 +6,8 @@ old-location: buses\alternate_interface.htm
 tech.root: usbref
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.date: 05/07/2018
-keywords: ["_ALTERNATE_INTERFACE structure"]
+keywords: ["ALTERNATE_INTERFACE structure"]
 ms.keywords: "*PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], _ALTERNATE_INTERFACE, buses.alternate_interface, usbfnbase/ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE"
-f1_keywords:
- - "usbfnbase/ALTERNATE_INTERFACE"
 req.header: usbfnbase.h
 req.include-header: Usbfnbase.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbfnbase.h
-api_name:
-- ALTERNATE_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
+f1_keywords:
+ - _ALTERNATE_INTERFACE
+ - usbfnbase/_ALTERNATE_INTERFACE
+ - PALTERNATE_INTERFACE
+ - usbfnbase/PALTERNATE_INTERFACE
+ - ALTERNATE_INTERFACE
+ - usbfnbase/ALTERNATE_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbfnbase.h
+api_name:
+ - ALTERNATE_INTERFACE
 ---
 
 # _ALTERNATE_INTERFACE structure
@@ -47,32 +50,18 @@ req.typenames: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
 
 ## -description
 
-
 The <b>ALTERNATE_INTERFACE</b> structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceNumber
 
 The index number for theUSB interface setting.
 
-
 ### -field AlternateInterfaceNumber
 
 The index number for the alternate USB interface setting.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>

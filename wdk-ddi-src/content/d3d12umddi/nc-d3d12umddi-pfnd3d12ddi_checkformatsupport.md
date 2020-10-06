@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CHECKFORMATSUPPORT"
+ - PFND3D12DDI_CHECKFORMATSUPPORT
+ - d3d12umddi/PFND3D12DDI_CHECKFORMATSUPPORT
 topic_type:
  - apiref
 api_type:
@@ -72,9 +73,9 @@ PFND3D12DDI_CHECKFORMATSUPPORT Pfnd3d12ddiCheckformatsupport;
 
 VOID Pfnd3d12ddiCheckformatsupport
 (
-	 D3D12DDI_HDEVICE
-	 DXGI_FORMAT
-	UINT *
+    D3D12DDI_HDEVICE
+    DXGI_FORMAT
+    UINT *
 )
 {...}
 
@@ -85,5 +86,4 @@ PFND3D12DDI_CHECKFORMATSUPPORT
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3D12DDI_DeVICE_FUNCS_CORE_0010](C:\drivers\wdk-ddi\wdk-ddi-src\content\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md).
-
+Register your implementation of this callback function by setting the appropriate member of [D3D12DDI_DEVICE_FUNCS_CORE_0010](ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md).

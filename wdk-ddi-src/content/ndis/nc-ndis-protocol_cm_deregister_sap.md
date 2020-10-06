@@ -8,8 +8,6 @@ ms.assetid: 738c426e-aa4f-4f59-b955-fbf67071303f
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_DEREGISTER_SAP callback function"]
 ms.keywords: PROTOCOL_CM_DEREGISTER_SAP, PROTOCOL_CM_DEREGISTER_SAP callback, ProtocolCmDeregisterSap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml, ndis/ProtocolCmDeregisterSap, netvista.protocolcmderegistersap
-f1_keywords:
- - "ndis/ProtocolCmDeregisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmDeregisterSap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_DEREGISTER_SAP
+ - ndis/PROTOCOL_CM_DEREGISTER_SAP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmDeregisterSap
 ---
 
 # PROTOCOL_CM_DEREGISTER_SAP callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmDeregisterSap</i> function is required. This function is called by NDIS to request that a call
@@ -56,20 +54,15 @@ The
 
 ## -parameters
 
+### -param CallMgrSapContext 
 
-
-
-### -param CallMgrSapContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-SAP state information. The call manager supplied this handle to NDIS from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
      ProtocolCmRegisterSap</a> function.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmDeregisterSap</i> returns the status of its operation(s) as one of the following:
 
@@ -99,20 +92,14 @@ Indicates that the call manager successfully removed the SAP registration and fr
 <td width="60%">
 Indicates that the call manager will complete the request to deregister the SAP asynchronously.
        The call manager must call 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">
        NdisCmDeregisterSapComplete</a> to signal NDIS when the operation is complete.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmDeregisterSap</i> communicates with network control devices or other media-specific agents,
     as necessary, to deregister the SAP on the network. Such actions could include, but are not limited
@@ -134,9 +121,9 @@ Communicating with other media-specific network agents
 </ul>
 If a call manager is required to communicate with networking control agents, such as a network switch,
     it should use a virtual connection to the network control agent that it established in its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
     Stand-alone call managers communicate through the underlying miniport driver by calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
     Miniport drivers that provide integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, they transmit the data directly across the network.
 
@@ -146,63 +133,43 @@ In addition,
     <i>CallMgrSapContext</i>, as well as freeing the state area itself before returning control to NDIS.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCmDeregisterSap</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCmDeregisterSap</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmDeregisterSap</i> function that is named "MyCmDeregisterSap", use the <b>PROTOCOL_CM_DEREGISTER_SAP</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_DEREGISTER_SAP MyCmDeregisterSap;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CM_DEREGISTER_SAP MyCmDeregisterSap;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmDeregisterSap(
     NDIS_HANDLE  CallMgrSapContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CM_DEREGISTER_SAP</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_DEREGISTER_SAP</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>PROTOCOL_CM_DEREGISTER_SAP</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_DEREGISTER_SAP</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">NdisCmDeregisterSapComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>

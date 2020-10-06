@@ -6,12 +6,10 @@ old-location: buses\usb_stop_tracking_for_time_sync_information.htm
 tech.root: usbref
 ms.assetid: FFD7979B-48E9-433C-86A9-255F4F422BBA
 ms.date: 05/07/2018
-keywords: ["_USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure"]
+keywords: ["USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure"]
 ms.keywords: "*PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_stop_tracking_for_time_sync_information, usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
-f1_keywords:
- - "usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
 req.header: usbioctl.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbioctl.h
-api_name:
-- USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+f1_keywords:
+ - _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - usbioctl/_USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbioctl.h
+api_name:
+ - USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 ---
 
 # _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure
@@ -47,27 +50,14 @@ req.typenames: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_
 
 ## -description
 
-
-The input buffer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
-
+The input buffer for the <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 ## -struct-fields
 
-
-
-
 ### -field TimeTrackingHandle
 
-The time racking handle received in the previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
-
+The time racking handle received in the previous <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>

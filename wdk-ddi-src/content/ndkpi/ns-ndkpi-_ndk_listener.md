@@ -6,10 +6,8 @@ old-location: netvista\ndk_listener.htm
 tech.root: netvista
 ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.date: 05/02/2018
-keywords: ["_NDK_LISTENER structure"]
+keywords: ["NDK_LISTENER structure"]
 ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener
-f1_keywords:
- - "ndkpi/NDK_LISTENER"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_LISTENER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_LISTENER
+f1_keywords:
+ - _NDK_LISTENER
+ - ndkpi/_NDK_LISTENER
+ - NDK_LISTENER
+ - ndkpi/NDK_LISTENER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_LISTENER
 ---
 
 # _NDK_LISTENER structure
@@ -47,65 +48,46 @@ req.typenames: NDK_LISTENER
 
 ## -description
 
-
 The <b>NDK_LISTENER</b> structure specifies the attributes of an NDK listener object.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_LISTENER</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeListener</b>.
-
+The <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_LISTENER</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeListener</b>.
 
 ### -field Dispatch
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a> structure that defines dispatch functions for the NDK listener object.
-
+A pointer to an <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a> structure that defines dispatch functions for the NDK listener object.
 
 ## -remarks
 
-
-
-An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a> table before returning the  created listener object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
-
-
-
+An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a> table before returning the  created listener object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/ndkpi-listeners--connectors--and-endpoints">NDKPI Listeners, Connectors, and Endpoints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-listeners--connectors--and-endpoints">NDKPI Listeners, Connectors, and Endpoints</a>
+<a href="/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_close_object">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_close_object">NDK_FN_CLOSE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener">NDK_FN_CREATE_LISTENER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener">NDK_FN_CREATE_LISTENER</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener_dispatch">NDK_LISTENER_DISPATCH</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>

@@ -8,8 +8,6 @@ ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.date: 05/10/2018
 keywords: ["MIRACAST_CHUNK_DATA structure"]
 ms.keywords: MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA
-f1_keywords:
- - "netdispumdddi/MIRACAST_CHUNK_DATA"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_CHUNK_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_DATA
+f1_keywords:
+ - MIRACAST_CHUNK_DATA
+ - netdispumdddi/MIRACAST_CHUNK_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_CHUNK_DATA
 ---
 
 # MIRACAST_CHUNK_DATA structure
@@ -47,41 +46,26 @@ req.typenames: MIRACAST_CHUNK_DATA
 
 ## -description
 
-
-Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a> function.
-
+Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field ChunkInfo
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
-
+A <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
 
 ### -field PrivateDriverDataSize
 
 The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
-
 ### -field PrivateDriverData
 
-Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a> function.
-
+Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a> function.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a>

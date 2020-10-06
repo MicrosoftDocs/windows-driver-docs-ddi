@@ -7,8 +7,6 @@ ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenSyncObjectFromNtHandle2 function"]
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,29 +24,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTOpenSyncObjectFromNtHandle2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenSyncObjectFromNtHandle2
+ - d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTOpenSyncObjectFromNtHandle2
 ---
 
 # D3DKMTOpenSyncObjectFromNtHandle2 function
 
+
 ## -description
 
-<b>D3DKMTOpenSyncObjectFromNtHandle2</b> opens a monitored fence object from an NT handle previously created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>.
+<b>D3DKMTOpenSyncObjectFromNtHandle2</b> opens a monitored fence object from an NT handle previously created by <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ req.typenames:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a> structure that describes the operation.
 
 ## -returns
 
@@ -66,15 +66,11 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The operation was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a>

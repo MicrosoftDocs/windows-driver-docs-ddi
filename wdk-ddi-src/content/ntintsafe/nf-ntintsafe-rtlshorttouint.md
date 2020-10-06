@@ -8,8 +8,6 @@ ms.assetid: D4651C81-7171-4D54-BB76-EE822AABC1C3
 ms.date: 04/30/2018
 keywords: ["RtlShortToUInt function"]
 ms.keywords: RtlShortToUInt, RtlShortToUInt function [Kernel-Mode Driver Architecture], kernel.rtlshorttouint, ntintsafe/RtlShortToUInt
-f1_keywords:
- - "ntintsafe/RtlShortToUInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlShortToUInt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlShortToUInt
+ - ntintsafe/RtlShortToUInt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlShortToUInt
 ---
 
 # RtlShortToUInt function
@@ -47,28 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>UINT</b>.
-
 
 ## -parameters
 
+### -param sOperand 
 
-
-
-### -param sOperand [in]
-
+[in]
 The value to be converted.
 
+### -param puResult 
 
-### -param puResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -82,5 +80,4 @@ This function uses the following alternate name:
 <li>RtlInt16ToUInt32
 </li>
 </ul>
-
 

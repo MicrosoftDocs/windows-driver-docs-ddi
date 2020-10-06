@@ -8,8 +8,6 @@ ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.date: 02/23/2018
 keywords: ["PosCxReleaseDevice function"]
 ms.keywords: PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice, poscx/PosCxReleaseDevice
-f1_keywords:
- - "poscx/PosCxReleaseDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxReleaseDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxReleaseDevice
+ - poscx/PosCxReleaseDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxReleaseDevice
 ---
 
 # PosCxReleaseDevice function
@@ -48,30 +47,23 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
       PosCxReleaseDevice is called to release a device that was previously claimed with
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>.
+      <a href="/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>.
       Once the device is released, the next pending claim requester is promoted.
-
 
 ## -parameters
 
+### -param device 
 
-
-
-### -param device [in]
-
+[in]
 A handle to a framework device object that represents the device.
 
+### -param fileObject 
 
-### -param fileObject [in]
-
+[in]
       A handle to a framework file object that identifies the caller.
 
-
 ## -returns
-
-
 
 Possible return values are:
 
@@ -93,18 +85,7 @@ Possible return values are:
 <td>The specified <i>fileObject</i> is invalid.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>

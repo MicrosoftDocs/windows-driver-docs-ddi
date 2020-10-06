@@ -4,39 +4,43 @@ title: _KMCL_SERVER_ONLY_METHODS (vmbuskernelmodeclientlibapi.h)
 description: The KMCL_SERVER_ONLY_METHODS structure contains function pointers for server-only functions for the VMBus Kernel Mode Client Library (KMCL) interface.
 ms.assetid: ef9df9ca-b6d0-4c8e-a482-7989bab40b40
 ms.date: 09/13/2018
-keywords: ["_KMCL_SERVER_ONLY_METHODS structure"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/_KMCL_SERVER_ONLY_METHODS"
-ms.keywords: _KMCL_SERVER_ONLY_METHODS, KMCL_SERVER_ONLY_METHODS, 
+keywords: ["KMCL_SERVER_ONLY_METHODS structure"]
+ms.keywords: _KMCL_SERVER_ONLY_METHODS, KMCL_SERVER_ONLY_METHODS,
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: KMCL_SERVER_ONLY_METHODS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- _KMCL_SERVER_ONLY_METHODS
-product: 
-- Windows
 targetos: Windows
 tech.root: netvista
 ms.custom: RS5
+f1_keywords:
+ - _KMCL_SERVER_ONLY_METHODS
+ - vmbuskernelmodeclientlibapi/_KMCL_SERVER_ONLY_METHODS
+ - KMCL_SERVER_ONLY_METHODS
+ - vmbuskernelmodeclientlibapi/KMCL_SERVER_ONLY_METHODS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - _KMCL_SERVER_ONLY_METHODS
+product:
+ - Windows
 ---
 
 # _KMCL_SERVER_ONLY_METHODS structure
+
 
 ## -description
 
@@ -49,55 +53,55 @@ For more information about how to access the KMCL interface, see the Remarks sec
 ### -field VmbChannelMapGpadl
 
 A pointer to the [**VmbChannelMapGpadl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_map_gpadl.md) function.
- 
+
 ### -field VmbChannelRestoreFromBuffer
 
 A pointer to the [**VmbChannelRestoreFromBuffer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_restore_from_buffer.md) function.
- 
+
 ### -field VmbChannelSaveBegin
 
 A pointer to the [**VmbChannelSaveBegin**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_begin.md) function.
- 
+
 ### -field VmbChannelSaveContinue
 
 A pointer to the [**VmbChannelSaveContinue**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_continue.md) function.
- 
+
 ### -field VmbChannelSaveEnd
 
 A pointer to the [**VmbChannelSaveEnd**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_end.md) function.
- 
+
 ### -field VmbChannelUnmapGpadl
 
 A pointer to the [**VmbChannelUnmapGpadl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_unmap_gpadl.md) function.
- 
+
 ### -field VmbConvertVmbusHandleToKernelHandle
 
 A pointer to the [**VmbConvertVmbusHandleToKernelHandle**](nc-vmbuskernelmodeclientlibapi-fn_vmb_convert_vmbus_handle_to_kernel_handle.md) function.
- 
+
 ### -field VmbPacketRestore
 
 A pointer to the [**VmbPacketRestore**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_restore.md) function.
- 
+
 ### -field VmbServerChannelInitSetFlags
 
 A pointer to the [**VmbServerChannelInitSetFlags**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_flags.md) function.
- 
+
 ### -field VmbServerChannelInitSetMmioMegabytes
 
 A pointer to the [**VmbServerChannelInitSetMmioMegabytes**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes.md) function.
- 
+
 ### -field VmbServerChannelInitSetSaveRestorePacketCallbacks
 
 A pointer to the [**VmbServerChannelInitSetSaveRestorePacketCallbacks**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_save_restore_packet_callbacks.md) function.
- 
+
 ### -field VmbServerChannelInitSetTargetInterfaceId
 
 A pointer to the [**VmbServerChannelInitSetTargetInterfaceId**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_interface_id.md) function.
- 
+
 ### -field VmbServerChannelInitSetTargetVtl
 
 A pointer to the [**VmbServerChannelInitSetTargetVtl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_vtl.md) function.
- 
+
 ### -field VmbServerChannelInitSetVmbusHandle
 
 A pointer to the [**VmbServerChannelInitSetVmbusHandle**](nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_vmbus_handle.md) function.
@@ -125,11 +129,11 @@ If the interface query function succeeds, the **KMCL_SERVER_INTERFACE_V1** struc
 
 For KMCL client methods, see the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure.
 
-For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 
-[Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces)
+[Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces)
 
 [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md)
 

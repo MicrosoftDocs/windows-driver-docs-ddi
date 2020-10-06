@@ -10,6 +10,7 @@ keywords: ["BATTERY_REPORTING_SCALE structure"]
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, battery.battery_reporting_scale, ntpoapi/BATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE"
 f1_keywords:
  - "ntpoapi/BATTERY_REPORTING_SCALE"
+ - "BATTERY_REPORTING_SCALE"
 req.header: ntpoapi.h
 req.include-header: Batclass.h, Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntpoapi.h
 api_name:
 - BATTERY_REPORTING_SCALE
-product:
-- Windows
 targetos: Windows
 req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
@@ -48,7 +47,7 @@ req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ## -description
 
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests. 
+Battery miniclass drivers fill in this structure in response to certain <a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests. 
 
 
 ## -struct-fields
@@ -71,8 +70,7 @@ Specify the battery capacity described by the corresponding granularity, in mill
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
+<a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
  
 
  
-

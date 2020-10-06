@@ -5,37 +5,40 @@ description: The REPARSE_DATA_BUFFER_EX structure contains reparse point data fo
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
 ms.date: 05/31/2019
 tech.root: ifsk
-keywords: ["_REPARSE_DATA_BUFFER_EX structure"]
-f1_keywords:
- - "ntifs/_REPARSE_DATA_BUFFER_EX"
+keywords: ["REPARSE_DATA_BUFFER_EX structure"]
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER
 req.header: ntifs.h
-req.include-header:
-req.target-type:
-req.target- min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntifs.h
-api_name: 
-- _REPARSE_DATA_BUFFER_EX
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _REPARSE_DATA_BUFFER_EX
+ - ntifs/_REPARSE_DATA_BUFFER_EX
+ - PREPARSE_DATA_BUFFER_EX
+ - ntifs/PREPARSE_DATA_BUFFER_EX
+ - REPARSE_DATA_BUFFER_EX
+ - ntifs/REPARSE_DATA_BUFFER_EX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - _REPARSE_DATA_BUFFER_EX
 ---
 
 # _REPARSE_DATA_BUFFER_EX structure
+
 
 ## -description
 
@@ -49,7 +52,7 @@ Can be the following value:
 
 | Flag Value | Meaning |
 | ---------- | ------- |
-| REPARSE_DATA_EX_FLAG_GIVEN_TAG_OR_NONE | Forces [FSCTL_SET_REPARSE_POINT_EX](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex) to set the reparse tag if the file has no tag, or if the tag on the file is same as the one in *ExistingReparseTag*. NOTE: If *ExistingReparseTag* is not a Microsoft tag, then *ExistingReparseGuid* should match if the file already has the *ExistingReparseTag.* |
+| REPARSE_DATA_EX_FLAG_GIVEN_TAG_OR_NONE | Forces [FSCTL_SET_REPARSE_POINT_EX](/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex) to set the reparse tag if the file has no tag, or if the tag on the file is same as the one in *ExistingReparseTag*. NOTE: If *ExistingReparseTag* is not a Microsoft tag, then *ExistingReparseGuid* should match if the file already has the *ExistingReparseTag.* |
 
 ### -field ExistingReparseTag
 
@@ -79,11 +82,11 @@ A [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md) structure th
 
 ## -remarks
 
-The REPARSE_DATA_BUFFER_EX structure is used to store data for a reparse point. Use REPARSE_DATA_BUFFER_EX when setting a reparse point on a file or directory through the [FSCTL_SET_REPARSE_POINT_EX](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex) IOCTL.
+The REPARSE_DATA_BUFFER_EX structure is used to store data for a reparse point. Use REPARSE_DATA_BUFFER_EX when setting a reparse point on a file or directory through the [FSCTL_SET_REPARSE_POINT_EX](/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex) IOCTL.
 
 ## -see-also
 
-[FSCTL_SET_REPARSE_POINT_EX](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex)
+[FSCTL_SET_REPARSE_POINT_EX](/windows-hardware/drivers/ifs/fsctl-set-reparse-point_ex)
 
 [REPARSE_DATA_BUFFER](ns-ntifs-_reparse_data_buffer.md)
 

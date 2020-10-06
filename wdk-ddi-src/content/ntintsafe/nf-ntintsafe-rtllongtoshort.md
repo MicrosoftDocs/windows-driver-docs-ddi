@@ -8,8 +8,6 @@ ms.assetid: FDFEADE6-CD33-4C04-972B-3E31C43E730A
 ms.date: 04/30/2018
 keywords: ["RtlLongToShort function"]
 ms.keywords: RtlLongToShort, RtlLongToShort function [Kernel-Mode Driver Architecture], kernel.rtllongtoshort, ntintsafe/RtlLongToShort
-f1_keywords:
- - "ntintsafe/RtlLongToShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlLongToShort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlLongToShort
+ - ntintsafe/RtlLongToShort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlLongToShort
 ---
 
 # RtlLongToShort function
@@ -47,28 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>LONG</b> to a value of type <b>SHORT</b>.
-
 
 ## -parameters
 
+### -param lOperand 
 
-
-
-### -param lOperand [in]
-
+[in]
 The value to be converted.
 
+### -param psResult 
 
-### -param psResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -78,5 +76,4 @@ This function uses the following alternate name:
 <li>RtlLongToInt16
 </li>
 </ul>
-
 

@@ -1,41 +1,43 @@
 ---
 UID: NE:netwakesource._NET_WAKE_SOURCE_TYPE
 title: NET_WAKE_SOURCE_TYPE (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_TYPE enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a net adapter.
 tech.root: netvista
 ms.assetid: 70ebee95-c44c-4db8-b5ea-71b5e1236a7c
-ms.author: windowsdriverdev
 ms.date: 10/04/2019
 keywords: ["NET_WAKE_SOURCE_TYPE enumeration"]
-f1_keywords:
- - "netwakesource/NET_WAKE_SOURCE_TYPE"
-ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE, 
+ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE,
 req.header: netwakesource.h
-req.include-header:
-req.target-type:
+req.include-header: netadaptercx.h 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: NET_WAKE_SOURCE_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netwakesource.h
-api_name: 
- - NET_WAKE_SOURCE_TYPE
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_WAKE_SOURCE_TYPE
+ - netwakesource/_NET_WAKE_SOURCE_TYPE
+ - NET_WAKE_SOURCE_TYPE
+ - netwakesource/NET_WAKE_SOURCE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netwakesource.h
+api_name:
+ - NET_WAKE_SOURCE_TYPE
+product:
+ - Windows
 ---
 
 # NET_WAKE_SOURCE_TYPE enumeration
+
 
 ## -description
 
@@ -65,6 +67,6 @@ Call [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourceg
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)

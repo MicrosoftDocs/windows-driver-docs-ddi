@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DecodeExecute"
+ - PFND3DDDI_DECODEEXECUTE
+ - d3dumddi/PFND3DDDI_DECODEEXECUTE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_DECODEEXECUTE callback function
 
+
 ## -description
 
 The <b>DecodeExecute</b> function performs a decode operation by using the given Microsoft DirectX Video Accelerator (VA) decode device.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a> structure that describes the DirectX VA decode operation to perform.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a> structure that describes the DirectX VA decode operation to perform.
 
 ## -returns
 
@@ -71,15 +73,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -remarks
 
-The Microsoft Direct3D runtime calls the <b>DecodeExecute</b> function for all of the standard DirectX VA decode operations. When <b>DecodeExecute</b> is first called for each frame, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a> structure that is specified by <b>pData</b> should contain all of the buffer information that is required for decoding the frame. <b>DecodeExecute</b> can subsequently be called for the same frame; however, these calls require only incremental data. If the GUID for the particular DirectX VA decode type does not use a buffer that is specified in D3DDDIARG_DECODEEXECUTE, the handle and description for the buffer are set to <b>NULL</b>. For example, because the MPEG2 decode type requires picture parameters, a macroblock buffer, and a residual-difference buffer, all of these items must be present in the first call for each frame. Depending on the size of the data, however, the Direct3D runtime might call <b>DecodeExecute</b> again to supply only additional residual-difference data that is required to decode the entire frame. 
+The Microsoft Direct3D runtime calls the <b>DecodeExecute</b> function for all of the standard DirectX VA decode operations. When <b>DecodeExecute</b> is first called for each frame, the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a> structure that is specified by <b>pData</b> should contain all of the buffer information that is required for decoding the frame. <b>DecodeExecute</b> can subsequently be called for the same frame; however, these calls require only incremental data. If the GUID for the particular DirectX VA decode type does not use a buffer that is specified in D3DDDIARG_DECODEEXECUTE, the handle and description for the buffer are set to <b>NULL</b>. For example, because the MPEG2 decode type requires picture parameters, a macroblock buffer, and a residual-difference buffer, all of these items must be present in the first call for each frame. Depending on the size of the data, however, the Direct3D runtime might call <b>DecodeExecute</b> again to supply only additional residual-difference data that is required to decode the entire frame. 
 
-DirectX VA 1.0 supported an external synchronization mechanism through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_querystatus">DdMoCompQueryStatus</a> function. In DirectX VA 2.0, the user-mode display driver should perform its own synchronization, similar to the way it synchronizes the 3-D pipe. For more information about this synchronization, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/synchronizing-video-decode-operations">Synchronizing Video Decode Operations</a>.
+DirectX VA 1.0 supported an external synchronization mechanism through a call to the <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_mocompcb_querystatus">DdMoCompQueryStatus</a> function. In DirectX VA 2.0, the user-mode display driver should perform its own synchronization, similar to the way it synchronizes the 3-D pipe. For more information about this synchronization, see <a href="/windows-hardware/drivers/display/synchronizing-video-decode-operations">Synchronizing Video Decode Operations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

@@ -8,8 +8,6 @@ ms.assetid: 975C32AE-6A2C-44C8-8F53-4158FDF1B942
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE IOCTL"]
 ms.keywords: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_subscribed_message
-f1_keywords:
- - "nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfpdev.h
-api_name:
-- IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
+ - nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfpdev.h
+api_name:
+ - IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
 ---
 
 # IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE IOCTL
@@ -47,77 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The client sends the <b>IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</b> request to the subscription handle repeatedly in order to receive subscribed messages as they arrive.  Typically, this IOCTL will be pended in the subscription handle until a message matching the subscribed type actually arrives.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 A valid buffer is required for returning the message data when it arrives.  The first <b>DWORD</b> of this buffer is reserved for a hint to the client for the next size of the buffer to be returned.  This buffer will typically initially be 255 bytes, but the driver can request that the client send a bigger buffer by providing just the hint and completing the IOCTL with STATUS_BUFFER_OVERFLOW.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-
-
 
 <ul>
 <li>
@@ -186,19 +143,10 @@ The driver MUST support CancelIo of the pended IOCTL.
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) overall design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>

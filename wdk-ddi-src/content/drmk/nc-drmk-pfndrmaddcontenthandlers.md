@@ -8,8 +8,6 @@ ms.assetid: 762604FC-34EA-41A1-9F2B-B3852AA4D167
 ms.date: 05/08/2018
 keywords: ["PFNDRMADDCONTENTHANDLERS callback function"]
 ms.keywords: DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], PFNDRMADDCONTENTHANDLERS, PFNDRMADDCONTENTHANDLERS callback, PfnDRMAddContentHandlers, PfnDRMAddContentHandlers callback function [Audio Devices], audio.pfndrmaddcontenthandlers, drmk/PfnDRMAddContentHandlers
-f1_keywords:
- - "drmk/DRMAddContentHandlers"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Drmk.h
-api_name:
-- DRMAddContentHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNDRMADDCONTENTHANDLERS
+ - drmk/PFNDRMADDCONTENTHANDLERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Drmk.h
+api_name:
+ - DRMAddContentHandlers
 ---
 
 # PFNDRMADDCONTENTHANDLERS callback function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 This callback function is reserved for system use.
-
 
 ## -parameters
 
+### -param ContentId 
 
-
-
-### -param ContentId [in]
-
+[in]
 This parameter is reserved for system use.
 
+### -param paHandlers 
 
-### -param paHandlers [in]
-
+[in]
 This parameter is reserved for system use.
 
+### -param NumHandlers 
 
-### -param NumHandlers [in]
-
+[in]
 This parameter is reserved for system use.
-
 
 ## -returns
 
-
-
 This return value is reserved for system use.
-
-
 

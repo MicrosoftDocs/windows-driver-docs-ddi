@@ -8,8 +8,6 @@ ms.assetid: f44317c5-661c-42f6-847b-b325e4c1321a
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, display.dxgi_ddi_multiplane_overlay_stereo_flip_mode, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
-f1_keywords:
- - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+f1_keywords:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ - dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
@@ -47,24 +46,17 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 
 ## -description
 
-
 Identifies the overlay plane's stereo flip mode. Only the <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b> value is supported.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 
 The overplay plane data is not presented in stereo mode.
 
-
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1
 

@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2setlight.htm
 tech.root: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2SETLIGHT structure"]
+keywords: ["D3DHAL_DP2SETLIGHT structure"]
 ms.keywords: "*LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], _D3DHAL_DP2SETLIGHT, d3dhal/D3DHAL_DP2SETLIGHT, d3dhal/LPD3DHAL_DP2SETLIGHT, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, display.d3dhal_dp2setlight"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2SETLIGHT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2SETLIGHT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETLIGHT
+f1_keywords:
+ - _D3DHAL_DP2SETLIGHT
+ - d3dhal/_D3DHAL_DP2SETLIGHT
+ - D3DHAL_DP2SETLIGHT
+ - d3dhal/D3DHAL_DP2SETLIGHT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2SETLIGHT
 ---
 
 # _D3DHAL_DP2SETLIGHT structure
@@ -47,19 +48,13 @@ req.typenames: D3DHAL_DP2SETLIGHT
 
 ## -description
 
-
-The D3DHAL_DP2SETLIGHT structure allows lights to be set for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
-
+The D3DHAL_DP2SETLIGHT structure allows lights to be set for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwIndex
 
 Specifies an index into an array of lights.
-
 
 ### -field dwDataType
 
@@ -70,16 +65,7 @@ Specifies the type of data being passed.
 |D3DHAL_SETLIGHT_DATA|Specifies that a D3DLIGHT7 (described in the Microsoft Windows SDK documentation) structure defining the light follows immediately in the command stream.|
 |D3DHAL_SETLIGHT_ENABLE|Enables the light whose index is specified in **dwIndex**.|
 |D3DHAL_SETLIGHT_DISABLE|Disables the light whose index is specified in **dwIndex**.|
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

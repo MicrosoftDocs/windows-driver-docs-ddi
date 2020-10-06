@@ -8,8 +8,6 @@ ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnSetProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
-f1_keywords:
- - "sensorsclassextension/ISensorDriver.OnSetProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SensorsClassExtension.lib
-- SensorsClassExtension.dll
-api_name:
-- ISensorDriver.OnSetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISensorDriver::OnSetProperties
+ - sensorsclassextension/ISensorDriver::OnSetProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SensorsClassExtension.lib
+ - SensorsClassExtension.dll
+api_name:
+ - ISensorDriver.OnSetProperties
 ---
 
 # ISensorDriver::OnSetProperties
@@ -48,72 +47,51 @@ req.typenames:
 
 ## -description
 
-
 The <b>ISensorDriver::OnSetProperties</b> method specifies values for the specified list of properties.
-
 
 ## -parameters
 
+### -param pClientFile 
 
+[in]
+Pointer to an <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
+### -param pwszSensorID 
 
-### -param pClientFile [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that represents the file object for the application specifying property values.
-
-
-### -param pwszSensorID [in]
-
+[in]
 <b>LPWSTR</b> that contains the ID for the sensor for which the client application is specifying property values.
 
+### -param pPropertiesToSet 
 
-### -param pPropertiesToSet [in]
+[in]
+Pointer to an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
+### -param ppResults 
 
-
-### -param ppResults [out]
-
-Address of an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
-
+[out]
+Address of an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
 
 ## -returns
 
-
-
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
-
-
-
 
 ## -remarks
 
-
-
 Properties describe the sensor device, as opposed to data fields, which contain sensor-generated data.  Platform-defined properties are defined in sensors.h.
 
-The list of properties provided through <i>pPropertiesToSet</i> is typically  a subset of the list you returned through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedproperties">ISensorDriver::OnGetSupportedProperties</a>. However, the sensor class extension does not enforce this condition on client applications.
+The list of properties provided through <i>pPropertiesToSet</i> is typically  a subset of the list you returned through <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedproperties">ISensorDriver::OnGetSupportedProperties</a>. However, the sensor class extension does not enforce this condition on client applications.
 
 The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> structures returned by this method.
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> is documented in Windows Portable Devices.
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> is documented in Windows Portable Devices.
 
 <div class="alert"><b>Note</b>  This method will be called only if the user has enabled the sensor in the <b>Location and Other Sensors</b> control panel.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>

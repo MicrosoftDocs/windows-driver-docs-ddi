@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckVideoProcessorFormat"
+ - PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
+ - d3d10umddi/PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback function
+
 
 ## -description
 
@@ -60,7 +62,7 @@ A handle to the display device (graphics context).
 
 *hVideoProcessorEnum* [in]
 
-A handle to a video processor enumeration object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
+A handle to a video processor enumeration object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
 
 ### -param Arg3
 
@@ -72,7 +74,7 @@ The video format to query.
 
 *pSupported* [out]
 
-Specifies a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
+Specifies a bitwise OR of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 
 For more information, see the Remarks section.
 
@@ -90,9 +92,8 @@ If the driver can support neither, it must set the <i>pSupported</i> parameter t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>

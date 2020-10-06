@@ -8,8 +8,6 @@ ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.date: 05/10/2018
 keywords: ["VideoPortCreateEvent function"]
 ms.keywords: VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, display.videoportcreateevent, video/VideoPortCreateEvent
-f1_keywords:
- - "video/VideoPortCreateEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortCreateEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortCreateEvent
+ - video/VideoPortCreateEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortCreateEvent
 ---
 
 # VideoPortCreateEvent function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortCreateEvent</b> function creates an event object.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param EventFlag 
 
-### -param EventFlag [in]
-
+[in]
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
 
 |Flag|Meaning|
@@ -70,12 +65,14 @@ Specifies the event type and initial event state. This can be an ORed combinatio
 |INITIAL_EVENT_SIGNALED|Set this flag to indicate the signaled state for the event object. Otherwise, the initial state of the event is nonsignaled.|
 |NOTIFICATION_EVENT|Set this flag to create a notification event. If this flag is not set, a synchronization event is created.|
 
-### -param Unused [in]
+### -param Unused 
 
+[in]
 Is currently ignored by the video port driver and must be set to <b>NULL</b>.
 
-### -param ppEvent [out]
+### -param ppEvent 
 
+[out]
 Pointer to the memory location at which a pointer to the event object will be returned.
 
 ## -returns
@@ -86,18 +83,8 @@ Pointer to the memory location at which a pointer to the event object will be re
 
 When a synchronization event is set to the signaled state, a single thread that was waiting for the signaled state is released (its dispatch state transitions from waiting to ready, standby, or running), and the event is automatically reset to the nonsignaled state.
 
-When a notification event is set to the signaled state, all threads that were waiting for the signaled state are released, and the event remains in the signaled state until it is explicitly reset to the nonsignaled state. 
-
-
-
+When a notification event is set to the signaled state, all threads that were waiting for the signaled state are released, and the event remains in the signaled state until it is explicitly reset to the nonsignaled state.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdeleteevent">VideoPortDeleteEvent</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdeleteevent">VideoPortDeleteEvent</a>

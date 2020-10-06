@@ -8,8 +8,6 @@ ms.assetid: 701c53d5-bb1e-4003-9505-19b9c46689c6
 ms.date: 04/20/2018
 keywords: ["IFixedDocument::SetPrintTicket"]
 ms.keywords: IFixedDocument interface [Print Devices],SetPrintTicket method, IFixedDocument.SetPrintTicket, IFixedDocument::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedDocument interface, filterpipeline/IFixedDocument::SetPrintTicket, filterpipeline_96d89fc9-899f-4ede-8da5-898471f6b769.xml, print.ifixeddocument_setprintticket
-f1_keywords:
- - "filterpipeline/IFixedDocument.SetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IFixedDocument.SetPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IFixedDocument::SetPrintTicket
+ - filterpipeline/IFixedDocument::SetPrintTicket
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IFixedDocument.SetPrintTicket
 ---
 
 # IFixedDocument::SetPrintTicket
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.
-
 
 ## -parameters
 
+### -param pPrintTicket 
 
-
-
-### -param pPrintTicket [in]
-
+[in]
 A pointer to the print ticket to be inserted.
-
 
 ## -returns
 
-
-
 <b>SetPrintTicket</b> returns an <b>HRESULT</b> value.
-
-
 

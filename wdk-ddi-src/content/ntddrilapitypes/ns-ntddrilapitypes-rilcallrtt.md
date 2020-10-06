@@ -8,8 +8,6 @@ ms.assetid: aa69cc11-66c7-4d23-b596-c37472af484a
 ms.date: 05/02/2018
 keywords: ["RILCALLRTT structure"]
 ms.keywords: "*LPRILCALLRTT, RILCALLRTT, RILCALLRTT structure [Network Drivers Starting with Windows Vista], netvista.rilcallrtt, ntddrilapitypes/RILCALLRTT"
-f1_keywords:
- - "ntddrilapitypes/RILCALLRTT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,40 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLRTT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLRTT, *LPRILCALLRTT
+f1_keywords:
+ - RILCALLRTT
+ - ntddrilapitypes/RILCALLRTT
+ - LPRILCALLRTT
+ - ntddrilapitypes/LPRILCALLRTT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLRTT
 ---
 
-# RILCALLRTT structure
+# RILCALLRTT structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwRTTAction
 
-
 ### -field dwRTTModeType
-
 
 ### -field stRTTCap
 

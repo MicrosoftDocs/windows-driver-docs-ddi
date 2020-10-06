@@ -8,8 +8,6 @@ ms.assetid: ebfb768a-fa6b-4781-96e1-787278237d5f
 ms.date: 05/02/2018
 keywords: ["RILSETSMSCPARAMS structure"]
 ms.keywords: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetsmscparams, ntddrilapitypes/RILSETSMSCPARAMS"
-f1_keywords:
- - "rilapitypes/RILSETSMSCPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETSMSCPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
+f1_keywords:
+ - RILSETSMSCPARAMS
+ - rilapitypes/RILSETSMSCPARAMS
+ - LPRILSETSMSCPARAMS
+ - rilapitypes/LPRILSETSMSCPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETSMSCPARAMS
 ---
 
-# RILSETSMSCPARAMS structure
+# RILSETSMSCPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hUiccApp
-
 
 ### -field raSvcCtrAddress
 

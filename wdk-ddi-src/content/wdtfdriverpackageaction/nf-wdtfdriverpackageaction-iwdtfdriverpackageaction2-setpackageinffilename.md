@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::SetPackageInfFileName"]
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],SetPackageInfFileName method, IWDTFDriverPackageAction2.SetPackageInfFileName, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.SetPackageInfFileName"
+ - "IWDTFDriverPackageAction2.SetPackageInfFileName"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2.SetPackageInfFileName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Sets the pre-imported driver package path.
 
 
 
-### -param pDriverPackageInfFileName [in]
-
+### -param pDriverPackageInfFileName 
+[in]
 The driver package path.
 
 
@@ -65,7 +64,7 @@ The driver package path.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -75,8 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
  
 
  
-

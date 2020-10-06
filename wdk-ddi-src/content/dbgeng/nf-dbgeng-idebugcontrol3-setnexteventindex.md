@@ -8,8 +8,6 @@ ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::SetNextEventIndex"]
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetNextEventIndex method, IDebugControl3.SetNextEventIndex, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex, SetNextEventIndex method [Windows Debugging], SetNextEventIndex method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetNextEventIndex, debugger.setnexteventindex
-f1_keywords:
- - "dbgeng/IDebugControl3.SetNextEventIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl3.SetNextEventIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::SetNextEventIndex
+ - dbgeng/IDebugControl3::SetNextEventIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl3.SetNextEventIndex
 ---
 
 # IDebugControl3::SetNextEventIndex
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetNextEventIndex</b> method sets the next event for the current target by selecting the event from the static list of events for the target, if such a list exists.
-
 
 ## -parameters
 
+### -param Relation 
 
-
-
-### -param Relation [in]
-
+[in]
 Specifies how to interpret <i>Value</i> when setting the index of the next event.  Possible values are: DEBUG_EINDEX_FROM_START, DEBUG_EINDEX_FROM_END, and DEBUG_EINDEX_FROM_CURRENT.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 Specifies the index of the next event relative to the first, last, or current event.  The interpretation of <i>Value</i> depends on the value of <i>Relation</i>, as follows.
 
 <table>
@@ -103,19 +98,16 @@ The current event index plus <i>Value</i>.
 </table>
  
 
-The resulting index must be greater than zero and one less than the number of events returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>.
+The resulting index must be greater than zero and one less than the number of events returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>.
 
+### -param NextIndex 
 
-### -param NextIndex [out]
-
+[out]
 Receives the index of the next event.  If <i>NextIndex</i> is <b>NULL</b>, this information is not returned.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -134,37 +126,21 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the specified event is the same as the current event, this method does nothing.  Otherwise,  this method sets the execution status of the target to DEBUG_STATUS_GO (and notifies the event callbacks).  When <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a> is called, the engine will generate the specified event for the event callbacks and set it as the current event.
+If the specified event is the same as the current event, this method does nothing.  Otherwise,  this method sets the execution status of the target to DEBUG_STATUS_GO (and notifies the event callbacks).  When <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a> is called, the engine will generate the specified event for the event callbacks and set it as the current event.
 
 This method is only useful if the target offers a list of events.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>

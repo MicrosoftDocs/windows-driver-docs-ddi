@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnCreatePipelineState"
+ - PFND3D12DDI_CREATE_PIPELINE_STATE_0021
+ - d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0021
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_STATE_0021 callback function
+
 
 ## -description
 
@@ -72,9 +74,8 @@ The handle of the pipeline state for the driver to use when it calls back into t
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-Access this function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0021">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.
-
+Access this function by using the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0021">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.

@@ -10,6 +10,7 @@ keywords: ["FsRtlAcquireFileExclusive function"]
 ms.keywords: FsRtlAcquireFileExclusive, FsRtlAcquireFileExclusive function [Installable File System Drivers], fsrtlref_740f5dc5-adba-4b85-83eb-42877fb154d6.xml, ifsk.fsrtlacquirefileexclusive, ntifs/FsRtlAcquireFileExclusive
 f1_keywords:
  - "ntifs/FsRtlAcquireFileExclusive"
+ - "FsRtlAcquireFileExclusive"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlAcquireFileExclusive
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -51,7 +50,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
+The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
 
 
 ## -parameters
@@ -62,8 +61,3 @@ The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not 
 ### -param FileObject
 
 <p>Reserved.</p>
-
-
-
-
-

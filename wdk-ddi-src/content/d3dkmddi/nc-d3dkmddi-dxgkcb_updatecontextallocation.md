@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbUpdateContextAllocation"
+ - DXGKCB_UPDATECONTEXTALLOCATION
+ - d3dkmddi/DXGKCB_UPDATECONTEXTALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKCB_UPDATECONTEXTALLOCATION callback function
 
+
 ## -description
 
 <b>DxgkCbUpdateContextAllocation</b> is used to update the content of a context allocation. The video memory manager maps the specified allocation in the paging process address space than trigger an <i>UpdateContextAllocation</i> paging operation (<i>DxgkCbUpdateContextAllocation</i>), passing the kernel mode driver the specified driver private data.
@@ -58,7 +60,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
 
 ## -returns
 
@@ -66,9 +68,8 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>

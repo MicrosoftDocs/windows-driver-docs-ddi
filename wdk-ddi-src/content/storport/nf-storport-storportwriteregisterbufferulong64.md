@@ -8,8 +8,6 @@ ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUlong64 macro"]
 ms.keywords: StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, storport/StorPortWriteRegisterBufferUlong64
-f1_keywords:
- - "storport/StorPortWriteRegisterBufferUlong64"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortWriteRegisterBufferUlong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortWriteRegisterBufferUlong64
+ - storport/StorPortWriteRegisterBufferUlong64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortWriteRegisterBufferUlong64
 ---
 
 # StorPortWriteRegisterBufferUlong64 macro
@@ -47,20 +46,13 @@ req.typenames:
 
 ## -description
 
-
 This <b>StorPortWriteRegisterBufferUlong64</b> routine writes a number of <b>ULONG64</b> values from a the specified 64-bit register address.
- 
-
 
 ## -parameters
 
-
-
-
 ### -param h
 
-
-<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
+<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
 ### -param r
 
@@ -74,27 +66,10 @@ This <b>StorPortWriteRegisterBufferUlong64</b> routine writes a number of <b>ULO
 
 <p>Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). </p>
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>StorPortWriteRegisterBufferUlong64</b> routine is only available on the 64-bit version of Windows.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferulong64">StorPortReadRegisterBufferUlong64</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferulong64">StorPortReadRegisterBufferUlong64</a>

@@ -8,8 +8,6 @@ ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.date: 05/02/2018
 keywords: ["FwpsGetPacketListSecurityInformation0 function"]
 ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
-f1_keywords:
- - "fwpsk/FwpsGetPacketListSecurityInformation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsGetPacketListSecurityInformation0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsGetPacketListSecurityInformation0
+ - fwpsk/FwpsGetPacketListSecurityInformation0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsGetPacketListSecurityInformation0
 ---
 
 # FwpsGetPacketListSecurityInformation0 function
@@ -48,26 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsGetPacketListSecurityInformation0</b> function retrieves information associated with a packet
   list.
-<div class="alert"><b>Note</b>  <b>FwpsGetPacketListSecurityInformation0</b> is a specific version of <b>FwpsGetPacketListSecurityInformation</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsGetPacketListSecurityInformation0</b> is a specific version of <b>FwpsGetPacketListSecurityInformation</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param packetList 
 
-
-
-### -param packetList [in]
-
+[in]
 A pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
+### -param queryFlags 
 
-### -param queryFlags [in]
-
+[in]
 A UINT32 value that contains a bitwise OR of a combination of the following flags that specify the
      information to be retrieved:
      
@@ -112,17 +108,14 @@ Retrieve all information associated with an inbound packet list.
 
 Retrieve all information associated with an outbound packet list.
 
+### -param packetInformation 
 
-### -param packetInformation [in, out]
-
+[in, out]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
+     <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
      list.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsGetPacketListSecurityInformation0</b> function returns one of the following NTSTATUS codes.
@@ -155,39 +148,23 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A callout driver calls the 
     <b>FwpsGetPacketListSecurityInformation0</b> function from within its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function to retrieve
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function to retrieve
     information associated with the packet list. This information can be used to determine the action to be
     taken on the data.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

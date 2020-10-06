@@ -8,8 +8,6 @@ ms.assetid: 3b13c4a2-b2b5-4b59-881c-01ee430ac720
 ms.date: 04/16/2018
 keywords: ["FltGetVolumeFromFileObject function"]
 ms.keywords: FltApiRef_e_to_o_9ad19df2-2e65-454b-9193-ce409153786a.xml, FltGetVolumeFromFileObject, FltGetVolumeFromFileObject routine [Installable File System Drivers], fltkernel/FltGetVolumeFromFileObject, ifsk.fltgetvolumefromfileobject
-f1_keywords:
- - "fltkernel/FltGetVolumeFromFileObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetVolumeFromFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetVolumeFromFileObject
+ - fltkernel/FltGetVolumeFromFileObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetVolumeFromFileObject
 ---
 
 # FltGetVolumeFromFileObject function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetVolumeFromFileObject</b> routine returns an opaque pointer for the volume that a given file stream resides on. 
-
+The <b>FltGetVolumeFromFileObject</b> routine returns an opaque pointer for the volume that a given file stream resides on.
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Filter [in]
+[in]
+File object pointer for a file stream that resides on the volume.
 
-Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param RetVolume 
 
-
-### -param FileObject [in]
-
-File object pointer for a file stream that resides on the volume. 
-
-
-### -param RetVolume [out]
-
-Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetVolumeFromFileObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -105,41 +97,25 @@ No matching volume was found. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>FltGetVolumeFromFileObject</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromFileObject</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
-
-<b>FltGetVolumeFromFileObject</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromFileObject</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
-
-To get a pointer to the device object for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>. 
-
-
-
+To get a pointer to the device object for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdiskdeviceobject">FltGetDiskDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdiskdeviceobject">FltGetDiskDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromdeviceobject">FltGetVolumeFromDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromdeviceobject">FltGetVolumeFromDeviceObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>

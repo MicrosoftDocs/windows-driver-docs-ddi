@@ -1,50 +1,50 @@
 ---
 UID: NF:storport.StorPortLogTelemetryEx
 title: StorPortLogTelemetryEx function
-author: windows-driver-content
 description: The StorPortLogTelemetry routine logs a miniport telemetry event to help diagnose or collect any useful information.
 tech.root: storage
 ms.assetid: a4b538e9-f121-4081-9b01-2a9b38c1e266
-ms.author: windowsdriverdev
 ms.date: 03/05/2019
 keywords: ["StorPortLogTelemetryEx function"]
-f1_keywords:
- - "storport/StorPortLogTelemetryEx"
 ms.keywords: StorPortLogTelemetryEx, STOR_TELEMETRY_CATEGORY, STORPORT_TELEMETRY_EVENT, StorPortLogTelemetry
 req.header: storport.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - StorPortLogTelemetryEx
+ - storport/StorPortLogTelemetryEx
+topic_type:
+ - apiref
+api_type:
+ - LibDef
 api_location:
-- storport.h
-api_name: 
-- StorPortLogTelemetryEx
+ - storport.h
+api_name:
+ - StorPortLogTelemetryEx
 product:
  - Windows
-targetos: Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # StorPortLogTelemetryEx function
+
 
 ## -description
 
@@ -92,3 +92,4 @@ The event data is encapsulated in the [STORPORT_TELEMETRY_EVENT](ns-storport-_st
 [STORPORT_TELEMETRY_EVENT](ns-storport-_storport_telemetry_event.md)
 
 [**StorPortLogTelemetry**](nf-storport-storportlogtelemetry.md)
+

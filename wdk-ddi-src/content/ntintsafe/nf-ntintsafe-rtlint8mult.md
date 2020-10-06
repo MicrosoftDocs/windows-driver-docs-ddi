@@ -8,8 +8,6 @@ ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.date: 04/30/2018
 keywords: ["RtlInt8Mult function"]
 ms.keywords: RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, ntintsafe/RtlInt8Mult
-f1_keywords:
- - "ntintsafe/RtlInt8Mult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlInt8Mult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt8Mult
+ - ntintsafe/RtlInt8Mult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlInt8Mult
 ---
 
 # RtlInt8Mult function
@@ -47,35 +46,32 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>INT8</b> by another.
-
 
 ## -parameters
 
+### -param i8Multiplicand 
 
-
-
-### -param i8Multiplicand [in]
-
+[in]
 The value to be multiplied by <i>i8Multiplier</i>.
 
+### -param i8Multiplier 
 
-### -param i8Multiplier [in]
-
+[in]
 The value by which to multiply <i>i8Multiplicand</i>.
 
+### -param pi8Result 
 
-### -param pi8Result [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

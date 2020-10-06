@@ -5,10 +5,8 @@ description: Used in the DXGKARG_DESCRIBEALLOCATION.Flags member to describe whe
 old-location: display\dxgk_describeallocationflags.htm
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.date: 05/10/2018
-keywords: ["_DXGK_DESCRIBEALLOCATIONFLAGS structure"]
+keywords: ["DXGK_DESCRIBEALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], _DXGK_DESCRIBEALLOCATIONFLAGS, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags
-f1_keywords:
- - "d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_DESCRIBEALLOCATIONFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DESCRIBEALLOCATIONFLAGS
+f1_keywords:
+ - _DXGK_DESCRIBEALLOCATIONFLAGS
+ - d3dkmddi/_DXGK_DESCRIBEALLOCATIONFLAGS
+ - DXGK_DESCRIBEALLOCATIONFLAGS
+ - d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_DESCRIBEALLOCATIONFLAGS
 ---
 
 # _DXGK_DESCRIBEALLOCATIONFLAGS structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_DESCRIBEALLOCATIONFLAGS
 
 ## -description
 
-
-Used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>.<b>Flags</b> member to describe whether an existing allocation is being queried for its display mode.
-
+Used in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>.<b>Flags</b> member to describe whether an existing allocation is being queried for its display mode.
 
 ## -struct-fields
-
-
-
 
 ### -field CheckDisplayMode
 
@@ -62,26 +58,16 @@ Used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero. 
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 [in] A member in the union that <b>DXGK_DESCRIBEALLOCATIONFLAGS</b> contains that can hold a 32-bit value that identifies the type of allocation.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>

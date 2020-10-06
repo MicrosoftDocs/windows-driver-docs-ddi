@@ -8,12 +8,10 @@ ms.assetid: f6fb2929-177b-44cd-a313-8620ba9b2907
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::UnlinkItemTree"]
 ms.keywords: DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, IWiaDrvItem interface [Imaging Devices],UnlinkItemTree method, IWiaDrvItem.UnlinkItemTree, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_unlinkitemtree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.UnlinkItemTree"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.UnlinkItemTree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::UnlinkItemTree
+ - wiamindr_lh/IWiaDrvItem::UnlinkItemTree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.UnlinkItemTree
 ---
 
 # IWiaDrvItem::UnlinkItemTree
+
 
 ## -description
 
@@ -54,7 +54,7 @@ The **IWiaDrvItem::UnlinkItemTree** method unlinks the driver item tree and rele
 
 lFlags [in]
 
-- Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+- Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
   | Value | Meaning |
   | --- | --- |
@@ -63,7 +63,7 @@ lFlags [in]
 
 #### - lFlags [in]
 
-Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
 | Value | Meaning |
 | --- | --- |

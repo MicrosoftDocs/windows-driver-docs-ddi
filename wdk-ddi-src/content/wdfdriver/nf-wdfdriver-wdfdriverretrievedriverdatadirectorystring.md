@@ -1,44 +1,41 @@
 ---
 UID: NF:wdfdriver.WdfDriverRetrieveDriverDataDirectoryString
 title: WdfDriverRetrieveDriverDataDirectoryString function (wdfdriver.h)
-description:
+description: 
 ms.assetid: 274dd0ee-3714-4c2c-ba44-ab4513520f73
 ms.date: 10/19/2018
 keywords: ["WdfDriverRetrieveDriverDataDirectoryString function"]
-f1_keywords:
- - "wdfdriver/WdfDriverRetrieveDriverDataDirectoryString"
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString
 req.header: wdfdriver.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
 req.umdf-ver: 2.27
-req.lib:
-req.dll:
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- WdfDriverRetrieveDriverDataDirectoryString
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - WdfDriverRetrieveDriverDataDirectoryString
+ - wdfdriver/WdfDriverRetrieveDriverDataDirectoryString
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WdfDriverRetrieveDriverDataDirectoryString
 ---
 
 # WdfDriverRetrieveDriverDataDirectoryString function
@@ -53,18 +50,22 @@ The **WdfDriverRetrieveDriverDataDirectoryString** method returns a path to a di
 ## -parameters
 
 ### -param Driver
-[_In_] A handle to the driver's framework driver object that the driver obtained from a previous call to [**WdfDriverCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate) or [**WdfDeviceGetDriver**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdriver).
+
+[_In_] A handle to the driver's framework driver object that the driver obtained from a previous call to [**WdfDriverCreate**](./nf-wdfdriver-wdfdrivercreate.md) or [**WdfDeviceGetDriver**](../wdfdevice/nf-wdfdevice-wdfdevicegetdriver.md).
 
 ### -param String
-[_In_] A handle to a framework string object that the driver obtained from a previous call to [**WdfStringCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate). The framework assigns the fully qualified path of the requested driver directory to the string object.
+
+[_In_] A handle to a framework string object that the driver obtained from a previous call to [**WdfStringCreate**](../wdfstring/nf-wdfstring-wdfstringcreate.md). The framework assigns the fully qualified path of the requested driver directory to the string object.
 
 ## -returns
-**WdfDriverRetrieveDriverDataDirectoryString** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method returns an appropriate NTSTATUS error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+
+**WdfDriverRetrieveDriverDataDirectoryString** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method returns an appropriate NTSTATUS error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-To achieve the same result, a KMDF driver should call [**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverdirectory) instead.
 
-For more information about string objects, see [Using String Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects).
+To achieve the same result, a KMDF driver should call [**IoGetDriverDirectory**](../wdm/nf-wdm-iogetdriverdirectory.md) instead.
+
+For more information about string objects, see [Using String Objects](/windows-hardware/drivers/wdf/using-string-objects).
 
 #### Examples
 
@@ -92,6 +93,6 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-[**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverdirectory)
+[**IoGetDriverDirectory**](../wdm/nf-wdm-iogetdriverdirectory.md)
 
-[_DRIVER_DIRECTORY_TYPE Enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_driver_directory_type)
+[_DRIVER_DIRECTORY_TYPE Enumeration](../wdm/ne-wdm-_driver_directory_type.md)

@@ -8,38 +8,37 @@ ms.assetid: 9a93d91a-e9b8-41f5-8d15-f693336bee07
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO control code [Parallel Ports], cisspd_66e27d46-1bd9-4e14-8b3f-4d7760552498.xml, parallel/IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, parports.ioctl_internal_get_parallel_pnp_info
-f1_keywords:
- - "parallel/IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- parallel.h
-api_name:
-- IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
+ - parallel/IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - parallel.h
+api_name:
+ - IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
 ---
 
 # IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO IOCTL
@@ -48,58 +47,36 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
-
 The <b>IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</b> request returns Plug and Play information about a parallel port.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
-
+For more information, see <a href="/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 A <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a> structure.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a> structure.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a PARALLEL_PNP_INFORMATION structure that the client allocates to output Plug and Play information.
 
-
 ### -output-buffer-length
 
 The size of a PARALLEL_PNP_INFORMATION structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -114,7 +91,6 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than the size, in bytes, of a PARALLEL_PNP_INFORMATION structure.
 
-
 ## -see-also
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
@@ -126,11 +102,3 @@ The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than t
 
 
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
-
-
-
- 
-
- 
-
-

@@ -8,38 +8,41 @@ ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
 ms.date: 02/16/2018
 keywords: ["DOT11_KEY_ALGO_CCMP structure"]
 ms.keywords: "*PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, PDOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_ccmp, windot11/DOT11_KEY_ALGO_CCMP, windot11/PDOT11_KEY_ALGO_CCMP"
-f1_keywords:
- - "windot11/DOT11_KEY_ALGO_CCMP"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_KEY_ALGO_CCMP
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP
+f1_keywords:
+ - DOT11_KEY_ALGO_CCMP
+ - windot11/DOT11_KEY_ALGO_CCMP
+ - PDOT11_KEY_ALGO_CCMP
+ - windot11/PDOT11_KEY_ALGO_CCMP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_KEY_ALGO_CCMP
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_KEY_ALGO_CCMP structure
@@ -47,13 +50,28 @@ product:
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_CCMP structure defines a cipher key that is used by the AES-CCMP algorithm for
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_CCMP structure defines a cipher key that is used by the AES-CCMP algorithm for
   data encryption and decryption.
 
+## -struct-fields
+
+### -field ucIV48Counter
+
+The initial 48-bit value of the AES-CCMP Packet Number (PN), which is used for replay protection.
+     For more information about the PN, see
+     <a href="/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>.
+
+### -field ulCCMPKeyLength
+
+The length, in bytes, of the AES-CCMP key material in the
+     <b>ucCCMPKey</b> array. If the authentication and cipher key derivation is performed by the operating
+     system, this member will always have a value of 16.
+
+### -field ucCCMPKey
+
+The AES-CCMP key material.
 
 ## -syntax
-
 
 ```cpp
 typedef struct DOT11_KEY_ALGO_CCMP {
@@ -63,34 +81,7 @@ typedef struct DOT11_KEY_ALGO_CCMP {
 } DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP;
 ```
 
-
-## -struct-fields
-
-
-
-
-### -field ucIV48Counter
-
-The initial 48-bit value of the AES-CCMP Packet Number (PN), which is used for replay protection.
-     For more information about the PN, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>.
-
-
-### -field ulCCMPKeyLength
-
-The length, in bytes, of the AES-CCMP key material in the
-     <b>ucCCMPKey</b> array. If the authentication and cipher key derivation is performed by the operating
-     system, this member will always have a value of 16.
-
-
-### -field ucCCMPKey
-
-The AES-CCMP key material.
-
-
 ## -remarks
-
-
 
 When the AES-CCMP key is created, the 802.11 station must maintain separate PN counters for the key
     for the send and receive path. The station must initialize the PN counters in the following way:
@@ -107,26 +98,16 @@ Initialize the PN counter used for the send path to any value.
 </li>
 </ul>
 
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>
+<a href="/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
-
-
-
- 
-
- 
-
-

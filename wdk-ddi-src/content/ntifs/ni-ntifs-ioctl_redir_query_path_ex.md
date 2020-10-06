@@ -8,8 +8,6 @@ ms.assetid: 290825dd-d5f6-4e9b-b1a3-3e146d3e1856
 ms.date: 04/16/2018
 keywords: ["IOCTL_REDIR_QUERY_PATH_EX IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
-f1_keywords:
- - "ntifs/IOCTL_REDIR_QUERY_PATH_EX"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IOCTL_REDIR_QUERY_PATH_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_REDIR_QUERY_PATH_EX
+ - ntifs/IOCTL_REDIR_QUERY_PATH_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IOCTL_REDIR_QUERY_PATH_EX
 ---
 
 # IOCTL_REDIR_QUERY_PATH_EX IOCTL
@@ -47,24 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_REDIR_QUERY_PATH_EX</b> control code is sent by the multiple UNC provider (MUP) on Windows Vista or later to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request. This request is referred to as "prefix resolution." 
 
 MUP is a kernel-mode component responsible for channeling all remote file system accesses using a UNC name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used as illustrated by the following example that could be executed from a command line:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>notepad \\server\public\readme.txt</pre>
-</td>
-</tr>
-</table></span></div>MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
+
+```
+notepad \\server\public\readme.txt
+```
+MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
-The IOCTL_REDIR_QUERY_PATH_EX control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>. There can be multiple UNC providers registered with MUP. 
+The IOCTL_REDIR_QUERY_PATH_EX control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>. There can be multiple UNC providers registered with MUP. 
 
 The prefix resolution operation serves two consequences:
 <ul>
@@ -80,28 +73,20 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 <b>IrpSp->Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST_EX</b> data structure that contains the request. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _QUERY_PATH_REQUEST_EX {
+
+```
+typedef struct _QUERY_PATH_REQUEST_EX {
   PIO_SECURITY_CONTEXT  pSecurityContext;
   ULONG  EaLength;
   PVOID  pEaBuffer;
   UNICODE_STRING  PathName;
-} QUERY_PATH_REQUEST_EX, *PQUERY_PATH_REQUEST_EX;</pre>
-</td>
-</tr>
-</table></span></div>
+} QUERY_PATH_REQUEST_EX, *PQUERY_PATH_REQUEST_EX;
+```
+
 <table>
 <tr>
 <th>Structure member</th>
@@ -148,34 +133,20 @@ A non-NULL terminated Unicode string of the form \<server>\<share>\<path>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 <b>IRP->UserBuffer</b> is set to a <b>QUERY_PATH_RESPONSE</b> data structure that contains the response.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _QUERY_PATH_RESPONSE {
+
+```
+typedef struct _QUERY_PATH_RESPONSE {
   ULONG  LengthAccepted;
-} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;</pre>
-</td>
-</tr>
-</table></span></div>
+} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;
+```
+
 <table>
 <tr>
 <th>Structure member</th>
@@ -192,35 +163,12 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 </td>
 </tr>
 </table>
- 
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -253,12 +201,9 @@ An IOCTL_REDIR_QUERY_PATH_EX request should only come from MUP and the <b>Reques
 
 **STATUS_LOGON_FAILURE** or **STATUS_ACCESS_DENIED**
 
-If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code returned by the remote server; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and STATUS_ACCESS_DENIED serve as a feedback mechanism to the user and indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible. 
-
+If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code returned by the remote server; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and STATUS_ACCESS_DENIED serve as a feedback mechanism to the user and indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible.
 
 ## -remarks
-
-
 
 Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that <b>Irp->RequestorMode</b> is <b>KernelMode</b>. 
 
@@ -273,35 +218,24 @@ If a network redirector claims a server name (\\server, for example), all reques
 For more information, see the following sections in the Design Guide:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
+<a href="/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
-
-
-
-
+<a href="/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlderegisteruncprovider">FsRtlDeregisterUncProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ni-ntifs-ioctl_redir_query_path">IOCTL_REDIR_QUERY_PATH</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ni-ntifs-ioctl_redir_query_path">IOCTL_REDIR_QUERY_PATH</a>

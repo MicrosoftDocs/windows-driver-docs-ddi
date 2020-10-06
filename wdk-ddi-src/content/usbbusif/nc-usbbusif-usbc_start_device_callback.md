@@ -8,8 +8,6 @@ ms.assetid: f9a9510a-b55c-4566-83ce-4ed7ccafb543
 ms.date: 05/07/2018
 keywords: ["USBC_START_DEVICE_CALLBACK callback function"]
 ms.keywords: USBC_START_DEVICE_CALLBACK, USBC_START_DEVICE_CALLBACK callback, UsbcStartDeviceCallback, UsbcStartDeviceCallback callback function [Buses], buses.usbc_start_device_callback, usbbusif/UsbcStartDeviceCallback, usbinterKR_d70617c5-be67-4660-9aa3-76b4c66c2616.xml
-f1_keywords:
- - "usbbusif/UsbcStartDeviceCallback"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbbusif.h
-api_name:
-- UsbcStartDeviceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBC_START_DEVICE_CALLBACK
+ - usbbusif/USBC_START_DEVICE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbbusif.h
+api_name:
+ - UsbcStartDeviceCallback
 ---
 
 # USBC_START_DEVICE_CALLBACK callback function
@@ -47,70 +46,48 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBC_START_DEVICE_CALLBACK</b> routine allows a USB client driver to provide a custom definition of the interface collections on a device.
-
 
 ## -parameters
 
+### -param DeviceDescriptor 
 
-
-
-### -param DeviceDescriptor [in]
-
+[in]
 The device descriptor of the device.
 
+### -param ConfigurationDescriptor 
 
-### -param ConfigurationDescriptor [in]
-
+[in]
 The configuration of the device.
 
+### -param FunctionDescriptorBuffer 
 
-### -param FunctionDescriptorBuffer [out]
+[out]
+Pointer to a buffer that contains an array of function descriptors (<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
 
-Pointer to a buffer that contains an array of function descriptors (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
+### -param FunctionDescriptorBufferLength 
 
-
-### -param FunctionDescriptorBufferLength [out]
-
+[out]
 The length in bytes of the buffer that <i>FunctionDescriptorBuffer</i> points to.
 
+### -param FdoDeviceObject 
 
-### -param FdoDeviceObject [in]
-
+[in]
 The function device object for the device.
 
+### -param PdoDeviceObject 
 
-### -param PdoDeviceObject [in]
-
+[in]
 The physical device object for the device.
-
 
 ## -returns
 
-
-
 If the operation succeeds, the vendor-supplied callback routine must return STATUS_SUCCESS.
-
-
-
 
 ## -remarks
 
-
-
-For a general description of the callback routine mechanism, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Customizing Enumeration of Interface Collections for Composite Devices</a>. 
-
-
-
+For a general description of the callback routine mechanism, see <a href="/windows-hardware/drivers/ddi/index">Customizing Enumeration of Interface Collections for Composite Devices</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_device_configuration_interface_v1">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_device_configuration_interface_v1">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>

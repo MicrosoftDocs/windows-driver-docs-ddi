@@ -8,8 +8,6 @@ ms.assetid: 0e3bac55-6de7-4572-963f-dead9664cf1d
 ms.date: 05/02/2018
 keywords: ["RILUICCAPPINFOPARAMMASK enumeration"]
 ms.keywords: RILUICCAPPINFOPARAMMASK, RILUICCAPPINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCAPPINFO_ALL, RIL_PARAM_UICCAPPINFO_APPID, RIL_PARAM_UICCAPPINFO_APPIDLENGTH, RIL_PARAM_UICCAPPINFO_APPNAME, RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, RIL_PARAM_UICCAPPINFO_APPTYPE, RIL_PARAM_UICCAPPINFO_NUMPINS, RIL_PARAM_UICCAPPINFO_PINREF, netvista.riluiccappinfoparammask, ntddrilapitypes/RILUICCAPPINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_ALL, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPID, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPIDLENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAME, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPTYPE, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_NUMPINS, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_PINREF
-f1_keywords:
- - "ntddrilapitypes/RILUICCAPPINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,58 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCAPPINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCAPPINFOPARAMMASK
+f1_keywords:
+ - RILUICCAPPINFOPARAMMASK
+ - ntddrilapitypes/RILUICCAPPINFOPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCAPPINFOPARAMMASK
 ---
 
-# RILUICCAPPINFOPARAMMASK enumeration
+# RILUICCAPPINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_UICCAPPINFO_HUICCAPP
-
 
 ### -field RIL_PARAM_UICCAPPINFO_APPTYPE
 
-
 ### -field RIL_PARAM_UICCAPPINFO_APPIDLENGTH
-
 
 ### -field RIL_PARAM_UICCAPPINFO_APPID
 
-
 ### -field RIL_PARAM_UICCAPPINFO_APPNAMELENGTH
-
 
 ### -field RIL_PARAM_UICCAPPINFO_APPNAME
 
-
 ### -field RIL_PARAM_UICCAPPINFO_NUMPINS
 
-
 ### -field RIL_PARAM_UICCAPPINFO_PINREF
-
 
 ### -field RIL_PARAM_UICCAPPINFO_ALL
 

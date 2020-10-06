@@ -8,8 +8,6 @@ ms.assetid: 52bc00d5-313c-444d-91d9-8f95640e7d81
 ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterBufferUshort function"]
 ms.keywords: VideoPortWriteRegisterBufferUshort, VideoPortWriteRegisterBufferUshort function [Display Devices], VideoPort_Functions_f385c5d4-bc63-4aae-b021-b503f6a5336f.xml, display.videoportwriteregisterbufferushort, video/VideoPortWriteRegisterBufferUshort
-f1_keywords:
- - "video/VideoPortWriteRegisterBufferUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortWriteRegisterBufferUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortWriteRegisterBufferUshort
+ - video/VideoPortWriteRegisterBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortWriteRegisterBufferUshort
 ---
 
 # VideoPortWriteRegisterBufferUshort function
@@ -47,57 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortWriteRegisterBufferUshort</b> function writes a number of USHORT values to a mapped register.
-
 
 ## -parameters
 
-
-
-
 ### -param Register
 
-Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
+Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to a buffer containing the USHORT values to be written.
-
 
 ### -param Count
 
 Specifies the number of USHORT values to be transferred to the adapter.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
 
-
-
-A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterBufferUshort</b>.
+A miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterBufferUshort</b>.
 
 Callers of <b>VideoPortWriteRegisterBufferUshort</b>can be running at any IRQL, provided that the memory pointed to by the <i>Buffer</i> parameter is resident and that pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>

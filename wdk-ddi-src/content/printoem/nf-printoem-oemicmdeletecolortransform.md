@@ -8,8 +8,6 @@ ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.date: 04/20/2018
 keywords: ["OEMIcmDeleteColorTransform function"]
 ms.keywords: OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform function [Print Devices], print.oemicmdeletecolortransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, printoem/OEMIcmDeleteColorTransform
-f1_keywords:
- - "printoem/OEMIcmDeleteColorTransform"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMIcmDeleteColorTransform
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMIcmDeleteColorTransform
+ - printoem/OEMIcmDeleteColorTransform
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMIcmDeleteColorTransform
 ---
 
 # OEMIcmDeleteColorTransform function
@@ -47,17 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMIcmDeleteColorTransform</code> function deletes the specified color transform.
-
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
-
 
 ### -param hcmXform
 

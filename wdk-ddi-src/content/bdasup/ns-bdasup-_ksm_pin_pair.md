@@ -6,10 +6,8 @@ old-location: stream\ksm_pin_pair.htm
 tech.root: stream
 ms.assetid: a38e1215-4689-4b75-9a32-4d6570694b77
 ms.date: 04/23/2018
-keywords: ["_KSM_PIN_PAIR structure"]
+keywords: ["KSM_PIN_PAIR structure"]
 ms.keywords: "*PKSM_PIN_PAIR, KSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], PKSM_PIN_PAIR, PKSM_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_PIN_PAIR, bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, bdasup/KSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, stream.ksm_pin_pair"
-f1_keywords:
- - "bdasup/KSM_PIN_PAIR"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bdasup.h
-api_name:
-- KSM_PIN_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: KSM_PIN_PAIR, *PKSM_PIN_PAIR
+f1_keywords:
+ - _KSM_PIN_PAIR
+ - bdasup/_KSM_PIN_PAIR
+ - PKSM_PIN_PAIR
+ - bdasup/PKSM_PIN_PAIR
+ - KSM_PIN_PAIR
+ - bdasup/KSM_PIN_PAIR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bdasup.h
+api_name:
+ - KSM_PIN_PAIR
 ---
 
 # _KSM_PIN_PAIR structure
@@ -47,46 +50,30 @@ req.typenames: KSM_PIN_PAIR, *PKSM_PIN_PAIR
 
 ## -description
 
-
-The KSM_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins. 
-
+The KSM_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins.
 
 ## -struct-fields
-
-
-
 
 ### -field Method
 
 KSMETHOD structure that describes a method and request type of a method request.
 
-
 ### -field InputPinId
 
 Identifier of an input pin of the filter.
-
 
 ### -field OutputPinId
 
 Identifier of an output pin of the filter.
 
-
 ### -field Reserved
 
 Reserved.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_pin_pairing">BDA_PIN_PAIRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_pin_pairing">BDA_PIN_PAIRING</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
- 
-
- 
-
+<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>

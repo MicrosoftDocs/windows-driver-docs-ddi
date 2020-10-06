@@ -6,10 +6,8 @@ old-location: sensors\sensor_config.htm
 tech.root: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.date: 05/03/2018
-keywords: ["_SENSOR_CONFIG structure"]
+keywords: ["SENSOR_CONFIG structure"]
 ms.keywords: "*PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG"
-f1_keywords:
- - "sensorscx/SENSOR_CONFIG"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SENSOR_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
+f1_keywords:
+ - _SENSOR_CONFIG
+ - sensorscx/_SENSOR_CONFIG
+ - PSENSOR_CONFIG
+ - sensorscx/PSENSOR_CONFIG
+ - SENSOR_CONFIG
+ - sensorscx/SENSOR_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SENSOR_CONFIG
 ---
 
 # _SENSOR_CONFIG structure
@@ -47,35 +50,24 @@ req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
 
 ## -description
 
-
 This structure contains information that the sensor driver passes to the class extension about each sensor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The allocated size of this structure (in bytes).
 
-
 ### -field pEnumerationList
 
-The list of enumerations. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
-
+The list of enumerations. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -remarks
-
-
 
 The SENSOR_CONFIG structure works with the following helper function:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensor_config_init">SENSOR_CONFIG_INIT</a>
+<a href="/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensor_config_init">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
-
-

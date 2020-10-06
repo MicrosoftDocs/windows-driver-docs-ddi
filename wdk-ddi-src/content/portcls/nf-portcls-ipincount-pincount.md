@@ -8,8 +8,6 @@ ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.date: 05/08/2018
 keywords: ["IPinCount::PinCount"]
 ms.keywords: IPinCount interface [Audio Devices],PinCount method, IPinCount.PinCount, IPinCount::PinCount, PinCount, PinCount method [Audio Devices], PinCount method [Audio Devices],IPinCount interface, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, portcls/IPinCount::PinCount
-f1_keywords:
- - "portcls/IPinCount.PinCount"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPinCount.PinCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPinCount::PinCount
+ - portcls/IPinCount::PinCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPinCount.PinCount
 ---
 
 # IPinCount::PinCount
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <code>PinCount</code> method queries the miniport driver for its pin count.
-
 
 ## -parameters
 
+### -param PinId 
 
-
-
-### -param PinId [in]
-
+[in]
 Specifies the pin ID. If a filter contains <i>n</i> pin factories, valid pin IDs range from 0 to <i>n</i>-1.
 
+### -param FilterNecessary 
 
-### -param FilterNecessary [in, out]
-
+[in, out]
 Specifies the minimum number of pins that the pin factory should instantiate before the filter can perform I/O operations.
 
+### -param FilterCurrent 
 
-### -param FilterCurrent [in, out]
-
+[in, out]
 Specifies the current number of pin instances. This number counts the pins that the pin factory has already instantiated on the filter.
 
+### -param FilterPossible 
 
-### -param FilterPossible [in, out]
-
+[in, out]
 Specifies the maximum number of pins that the pin factory can instantiate on the filter. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
+### -param GlobalCurrent 
 
-### -param GlobalCurrent [in, out]
-
+[in, out]
 Specifies the current number of pins that the pin factory has instantiated on the driver.
 
+### -param GlobalPossible 
 
-### -param GlobalPossible [in, out]
-
+[in, out]
 Specifies the maximum number of pins that the pin factory can instantiate on the driver. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
-
 ## -remarks
-
-
 
 The <code>PinCount</code> call has two purposes:
 
@@ -110,22 +102,22 @@ To give the miniport driver an opportunity to alter the current pin counts.
 
 Miniport drivers typically do not need to change the <i>FilterNecessary</i> parameter, but it is included for the sake of completeness.
 
-During the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-init">IPort::Init</a> call, the port driver calls the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method to obtain a pointer to the filter descriptor, which includes the miniport driver's pin-descriptor array (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>). Thereafter, the port driver accesses the pin descriptors to respond to queries for pin properties.
+During the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-init">IPort::Init</a> call, the port driver calls the miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method to obtain a pointer to the filter descriptor, which includes the miniport driver's pin-descriptor array (see <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>). Thereafter, the port driver accesses the pin descriptors to respond to queries for pin properties.
 
 If the miniport driver supports the <b>IPinCount</b> interface, the port driver calls <code>PinCount</code> to give the miniport driver an opportunity to update the pin counts before replying to a pin-property request. If the miniport driver does not support <b>IPinCount</b>, the port driver simply uses the static pin-count limits in the pin-descriptor array.
 
 The port driver calls the <code>PinCount</code> method when it receives one of the following KS property requests:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-cinstances">KSPROPERTY_PIN_CINSTANCES</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-cinstances">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-globalcinstances">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-globalcinstances">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-necessaryinstances">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-necessaryinstances">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 PortCls also calls the <code>PinCount</code> method each time a new stream is created.
@@ -134,40 +126,30 @@ Miniport drivers must not explicitly cause streams to be created or destroyed fr
 
 The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for this method must reside in paged memory.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipincount">IPinCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipincount">IPinCount</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-init">IPort::Init</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-init">IPort::Init</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-cinstances">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-cinstances">KSPROPERTY_PIN_CINSTANCES</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-globalcinstances">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-globalcinstances">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-necessaryinstances">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-necessaryinstances">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>

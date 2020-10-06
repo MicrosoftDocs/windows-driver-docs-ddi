@@ -8,8 +8,6 @@ ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.date: 05/02/2018
 keywords: ["NdisMNetPnPEvent function"]
 ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
-f1_keywords:
- - "ndis/NdisMNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMNetPnPEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMNetPnPEvent
+ - ndis/NdisMNetPnPEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMNetPnPEvent
 ---
 
 # NdisMNetPnPEvent function
@@ -48,30 +47,25 @@ req.typenames:
 
 ## -description
 
-
 NDIS miniport drivers (and intermediate drivers that are registered as miniport drivers) call the 
   <b>NdisMNetPnPEvent</b> function to originate a network Plug and Play event, an NDIS PnP event,
   or Power Management event or propagate it to overlying drivers.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 An NDIS handle which NDIS provided at the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      This handle identifies the miniport adapter that is affected by the event. If the caller is an
      intermediate driver, this is the handle of the virtual miniport.
-
 
 ### -param NetPnPEventNotification
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network Plug and Play event, NDIS PnP
      event, or Power Management event.
 
@@ -79,8 +73,6 @@ A pointer to a
 > If the **VPortId** field of **NetPnpEventNotification** is set to a value different from NDIS_DEFAULT_VPORT_ID, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **VPortId** to take effect.
 
 ## -returns
-
-
 
 <b>NdisMNetPnPEvent</b> can return the following:
 
@@ -187,12 +179,7 @@ If the event is
       <b>NetEventPortActivation</b> and the call fails, the caller should not use the associated ports in
       receive indications or status indications.
 
-
-
-
 ## -remarks
-
-
 
 Any miniport driver can call 
     <b>NdisMNetPnPEvent</b> to generate 
@@ -200,17 +187,17 @@ Any miniport driver can call
     <b>NetEventPortDeactivation</b> events. Only intermediate drivers can make other event notifications.
 
 <div class="alert"><b>Note</b>  To prevent deadlocks, an NDIS driver must do the following:<ul>
-<li>Its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function must not call 
+<li>Its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function must not call 
     <b>NdisMNetPnPEvent</b>.</li>
-<li> If its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function returns NDIS_STATUS_PENDING for an OID request, the NDIS driver must not call 
-    <b>NdisMNetPnPEvent</b> until after it has completed the OID request by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a>.</li>
+<li> If its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function returns NDIS_STATUS_PENDING for an OID request, the NDIS driver must not call 
+    <b>NdisMNetPnPEvent</b> until after it has completed the OID request by calling <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a>.</li>
 </ul>
 </div>
 <div> </div>
 To propagate notification of a network Plug and Play event, an NDIS PnP event, or Power Management
     event to overlying drivers, an NDIS intermediate driver calls 
     <b>NdisMNetPnPEvent</b> in the context of the driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
 
 If the propagated event is a 
     <b>NetEventQueryPower</b> or a 
@@ -218,13 +205,13 @@ If the propagated event is a
     returned by 
     <b>NdisMNetPnPEvent</b>. If the returned status is NDIS_STATUS_SUCCESS, the intermediate driver should
     handle the event and then return NDIS_STATUS_SUCCESS from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function. If the returned status is not NDIS_STATUS_SUCCESS, the intermediate
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function. If the returned status is not NDIS_STATUS_SUCCESS, the intermediate
     driver should return the reported status from its 
     <i>ProtocolNetPnPEvent</i> function without further processing.
 
 How the intermediate driver processes a 
     <b>NetEventSetPower</b> received by its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function depends on the specified device power state. If the specified device
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function depends on the specified device power state. If the specified device
     power state is 
     <b>NdisDeviceStateD0</b>, the intermediate driver should handle the event and then call 
     <b>NdisMNetPnPEvent</b>. For any other specified device power state, the intermediate driver should first
@@ -259,34 +246,24 @@ An NDIS intermediate driver can generate its own NDIS port events for virtual mi
     appropriate for the 
     <b>NetEventPortActivation</b> or 
     <b>NetEventPortDeactivation</b> events that it receives at its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
 
 For all other propagated events, the intermediate driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function should propagate the status value that is returned by 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function should propagate the status value that is returned by 
     <b>NdisMNetPnPEvent</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>

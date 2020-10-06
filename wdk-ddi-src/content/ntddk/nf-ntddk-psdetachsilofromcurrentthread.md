@@ -8,8 +8,6 @@ ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.date: 04/30/2018
 keywords: ["PsDetachSiloFromCurrentThread function"]
 ms.keywords: PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
-f1_keywords:
- - "ntddk/PsDetachSiloFromCurrentThread"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsDetachSiloFromCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsDetachSiloFromCurrentThread
+ - ntddk/PsDetachSiloFromCurrentThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsDetachSiloFromCurrentThread
 ---
 
 # PsDetachSiloFromCurrentThread function
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
-This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a> routine.
+This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a> routine.
 
 
 
 <div class="alert"><b>Note</b>  The caller is responsible for dereferencing the object after the detach has completed.</div>
 <div> </div>
 
-
-
 ## -parameters
 
+### -param PreviousSilo 
 
-
-
-### -param PreviousSilo [in]
-
+[in]
 The value returned from the silo attach call.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>

@@ -5,39 +5,38 @@ description: The CreateNoValue method creates a "no value" object, boxes it into
 ms.assetid: 2533e73e-a094-4e55-8c33-b52384037932
 ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateNoValue"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.CreateNoValue"
 ms.keywords: IDataModelManager2::CreateNoValue, CreateNoValue, IDataModelManager2.CreateNoValue, IDataModelManager2::CreateNoValue, IDataModelManager2.CreateNoValue
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.CreateNoValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::CreateNoValue
+ - dbgmodel/IDataModelManager2::CreateNoValue
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.CreateNoValue
 ---
 
 # IDataModelManager2::CreateNoValue
@@ -53,14 +52,14 @@ A "no value" object has several semantic meanings:
 - Any property accessor's GetValue method which returns success and a resulting "no value" object is indicating that the particular property has no value for the given instance and should be treated as if the property did not exist for that particular instance.
 - Data model methods which do not semantically have a return value use this as a sentinel to indicate such (as a method must return a valid [IModelObject](nn-dbgmodel-imodelobject.md)).
 
-
 ## -parameters
 
 ### -param object
+
 The newly created/boxed "no value" object will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
@@ -80,7 +79,7 @@ if (SUCCEEDED(spManager->CreateNoValue(&spNoValue)))
 }
 ```
 
-
 ## -see-also
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

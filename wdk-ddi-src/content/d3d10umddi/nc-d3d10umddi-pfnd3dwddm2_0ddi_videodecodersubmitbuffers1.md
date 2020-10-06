@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoDecoderSubmitBuffers1"
+ - PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback function
 
+
 ## -description
 
 <b>VideoDecoderSubmitBuffers1</b> submits one or more buffers for decoding.
@@ -52,11 +54,11 @@ product:
 
 ### -param hDevice
 
-A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 ### -param hDecode
 
-A handle to the video decoder object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>DDI.
+A handle to the video decoder object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>DDI.
 
 ### -param BufferCount
 
@@ -64,7 +66,7 @@ The number of buffers in the array that is referenced by the <b>pBufferDesc</b> 
 
 ### -param pBufferDesc
 
-A pointer to an array of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a> structures.
+A pointer to an array of one or more <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a> structures.
 
 ## -returns
 
@@ -77,17 +79,16 @@ A pointer to an array of one or more <a href="https://docs.microsoft.com/windows
 
 ## -remarks
 
-The <b>pBufferDesc</b> member points to an array of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
+The <b>pBufferDesc</b> member points to an array of one or more <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>

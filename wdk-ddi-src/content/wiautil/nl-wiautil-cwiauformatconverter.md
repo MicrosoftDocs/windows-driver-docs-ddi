@@ -8,8 +8,6 @@ ms.assetid: b30c3336-ddc6-459d-97c4-244ca0b50cfc
 ms.date: 05/03/2018
 keywords: ["CWiauFormatConverter class"]
 ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], CWiauFormatConverter interface [Imaging Devices],described, image.cwiauformatconverter_class, wiauFncs_8d01dc38-ef09-425a-ade6-d06bd0e1e08a.xml, wiautil/CWiauFormatConverter
-f1_keywords:
- - "wiautil/CWiauFormatConverter"
 req.header: wiautil.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiautil.h
-api_name:
-- CWiauFormatConverter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauFormatConverter
+ - wiautil/CWiauFormatConverter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiautil.h
+api_name:
+ - CWiauFormatConverter
 ---
 
 # CWiauFormatConverter class
@@ -47,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
 The <b>CWiauFormatConverter</b> class is a helper class for converting images to BMP format.
-
 

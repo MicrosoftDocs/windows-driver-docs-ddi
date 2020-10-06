@@ -8,8 +8,6 @@ ms.assetid: c0122c96-5bd3-4c1f-85d3-5d4ead5c0c86
 ms.date: 05/08/2018
 keywords: ["KSDS3D_HRTF_FILTER_FORMAT_MSG structure"]
 ms.keywords: "*PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices], PKSDS3D_HRTF_FILTER_FORMAT_MSG, PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices], aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml, audio.ksds3d_hrtf_filter_format_msg, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG"
-f1_keywords:
- - "ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSDS3D_HRTF_FILTER_FORMAT_MSG
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG
+f1_keywords:
+ - PKSDS3D_HRTF_FILTER_FORMAT_MSG
+ - ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG
+ - KSDS3D_HRTF_FILTER_FORMAT_MSG
+ - ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSDS3D_HRTF_FILTER_FORMAT_MSG
 ---
 
 # KSDS3D_HRTF_FILTER_FORMAT_MSG structure
@@ -47,14 +48,9 @@ req.typenames: KSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG
 
 ## -description
 
-
 The KSDS3D_HRTF_FILTER_FORMAT_MSG structure specifies the filter format to use for a head-relative transfer function (HRTF).
 
-
 ## -struct-fields
-
-
-
 
 ### -field FilterMethod
 
@@ -70,8 +66,7 @@ CASCADE_FORM
 
 </li>
 </ul>
-For more information, see the description of the <b>MaxFilterSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_hrtf_init_msg">KSDS3D_HRTF_INIT_MSG</a>.
-
+For more information, see the description of the <b>MaxFilterSize</b> member of <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_hrtf_init_msg">KSDS3D_HRTF_INIT_MSG</a>.
 
 ### -field CoeffFormat
 
@@ -92,34 +87,20 @@ SHORT_COEFF specifies 16-bit integer coefficients.
 
 Specifies the filter version. Set this parameter to the KSDS3D_HRTF_FILTER_VERSION enumeration value DS3D_HRTF_VERSION_1.
 
-
 ### -field Reserved
 
 Reserved. Set to zero.
 
-
 ## -remarks
 
+This structure is used by the <a href="/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a> property.
 
-
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a> property.
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>.
-
-
-
+For more information, see <a href="/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>

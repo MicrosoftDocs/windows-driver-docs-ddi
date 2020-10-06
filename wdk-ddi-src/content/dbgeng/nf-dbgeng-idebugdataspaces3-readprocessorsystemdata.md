@@ -8,8 +8,6 @@ ms.assetid: 8cb63fe6-61da-4c37-975d-d82430195863
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces3::ReadProcessorSystemData"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces2 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces3 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces3.ReadProcessorSystemData, IDebugDataSpaces3::ReadProcessorSystemData, IDebugDataSpaces4 interface [Windows Debugging],ReadProcessorSystemData method, IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml, ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces2 interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces3 interface, ReadProcessorSystemData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, debugger.readprocessorsystemdata
-f1_keywords:
- - "dbgeng/IDebugDataSpaces.ReadProcessorSystemData"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces.ReadProcessorSystemData
-- IDebugDataSpaces2.ReadProcessorSystemData
-- IDebugDataSpaces3.ReadProcessorSystemData
-- IDebugDataSpaces4.ReadProcessorSystemData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces3::ReadProcessorSystemData
+ - dbgeng/IDebugDataSpaces3::ReadProcessorSystemData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces.ReadProcessorSystemData
+ - IDebugDataSpaces2.ReadProcessorSystemData
+ - IDebugDataSpaces3.ReadProcessorSystemData
+ - IDebugDataSpaces4.ReadProcessorSystemData
 ---
 
 # IDebugDataSpaces3::ReadProcessorSystemData
@@ -50,22 +49,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadProcessorSystemData</b> method returns data about the specified processor.
-
 
 ## -parameters
 
+### -param Processor 
 
-
-
-### -param Processor [in]
-
+[in]
 Specifies the processor whose data is to be read.
 
+### -param Index 
 
-### -param Index [in]
-
+[in]
 Specifies the data type to read.  The following table contains the valid values.  After successful completion, the data returned in the buffer <i>Buffer</i> has the type specified by the middle column.
 
 <table>
@@ -146,27 +141,23 @@ In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 </td>
 </tr>
 </table>
- 
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Receives the processor data.  Upon successful completion of the method, the contents of this buffer may be accessed by casting <i>Buffer</i> to the type specified in the above table.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
+### -param DataSize 
 
-### -param DataSize [out, optional]
-
+[out, optional]
 Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -187,18 +178,10 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
-
-
 
 This method is only available in kernel-mode debugging.
 
 For information about the PCR, PRCB, and KTHREAD structures, as well as information about paging tables, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
-
-
-

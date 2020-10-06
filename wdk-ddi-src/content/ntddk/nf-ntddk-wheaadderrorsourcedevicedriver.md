@@ -1,44 +1,43 @@
 ---
 UID: NF:ntddk.WheaAddErrorSourceDeviceDriver
 title: WheaAddErrorSourceDeviceDriver function
-author: windows-driver-content
 description: A device driver calls WheaAddErrorSourceDeviceDriver to add an error source.
 tech.root: whea
 ms.assetid: 7a3a1b3d-dc79-4bcf-ba1f-ccce6c685cbe
-ms.author: windowsdriverdev
 ms.date: 04/01/2020
 keywords: ["WheaAddErrorSourceDeviceDriver function"]
-f1_keywords:
- - "ntddk/WheaAddErrorSourceDeviceDriver"
 ms.keywords: WheaAddErrorSourceDeviceDriver
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- ntddk.h
-api_name: 
-- WheaAddErrorSourceDeviceDriver
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - WheaAddErrorSourceDeviceDriver
+ - ntddk/WheaAddErrorSourceDeviceDriver
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WheaAddErrorSourceDeviceDriver
+product:
+ - Windows
 ---
 
 # WheaAddErrorSourceDeviceDriver function
@@ -62,8 +61,8 @@ Pointer to a structure of type [**WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER*
 
 A value of type ULONG that specifies the number of records to preallocate. See Remarks for more information.
 
-
 ## -returns
+
 This function method returns STATUS_SUCCESS if the error source is added. Otherwise it can return one of the following:
 
 * STATUS_INVALID_PARAMETER: The configuration is missing initialize and/or uninitialize callback pointers.
@@ -85,3 +84,4 @@ For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/usi
 [**WheaReportHwErrorDeviceDriver**](nf-ntddk-wheareporthwerrordevicedriver.md)
 
 [**WheaCreateHwErrorReportDeviceDriver**](nf-ntddk-wheacreatehwerrorreportdevicedriver.md)
+

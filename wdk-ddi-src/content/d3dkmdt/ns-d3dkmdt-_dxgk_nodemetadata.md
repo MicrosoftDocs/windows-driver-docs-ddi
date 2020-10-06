@@ -1,45 +1,47 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA
 title: _DXGK_NODEMETADATA
-author: windows-driver-content
 description: Contains the engine type and friendly name of an engine on a GPU node.
 tech.root: display
 ms.assetid: eddf63a3-ba27-4a75-b093-cc0de866eb3c
-ms.author: windowsdriverdev
 ms.date: 02/01/2019
-keywords: ["_DXGK_NODEMETADATA structure"]
-f1_keywords:
- - "d3dkmdt/_DXGK_NODEMETADATA"
+keywords: ["DXGK_NODEMETADATA structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA
 req.header: d3dkmdt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_NODEMETADATA
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3dkmdt.h
-api_name: 
- - _DXGK_NODEMETADATA
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _DXGK_NODEMETADATA
+ - d3dkmdt/_DXGK_NODEMETADATA
+ - DXGK_NODEMETADATA
+ - d3dkmdt/DXGK_NODEMETADATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DXGK_NODEMETADATA
+product:
+ - Windows
 ---
 
 # _DXGK_NODEMETADATA structure
+
 
 ## -description
 
@@ -72,6 +74,7 @@ Reserved for system use and must have a value of 0.
 Indicates whether the graphics engines of the node support the GpuMmu model
 
 ### -field IoMmuSupported
+
  
 Indicates whether the graphics engines of the node support the IoMmu model.
 
@@ -79,7 +82,7 @@ Indicates whether the graphics engines of the node support the IoMmu model.
 
 This structure is also used to define the structure DXGKARG_GETNODEMETADATA, in the call to [DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md).
 
-For more information on how to use this structure, see [Enumerating GPU engine capabilities](https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-gpu-nodes).
+For more information on how to use this structure, see [Enumerating GPU engine capabilities](/windows-hardware/drivers/display/enumerating-gpu-nodes).
 
 ## -see-also
 

@@ -8,8 +8,6 @@ ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_USB_STATE_CHANGE callback function"]
 ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE callback, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
-f1_keywords:
- - "ufxclient/PFN_UFX_DEVICE_USB_STATE_CHANGE"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- PFN_UFX_DEVICE_USB_STATE_CHANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_USB_STATE_CHANGE
+ - ufxclient/EVT_UFX_DEVICE_USB_STATE_CHANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - PFN_UFX_DEVICE_USB_STATE_CHANGE
 ---
 
 # EVT_UFX_DEVICE_USB_STATE_CHANGE callback function
@@ -47,53 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation to update the state of the USB device.
-
 
 ## -parameters
 
-
-
-
-
-
-
-
-
-
-
-
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 #### - UsbDeviceState [in]
 
 A USBFN_DEVICE_STATE-typed flag that indicates state of the USB device.
 
-
 ## -remarks
 
-
-
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_USB_STATE_CHANGE</i> implementation with the USB function class extension (UFX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_USB_STATE_CHANGE</i> implementation with the USB function class extension (UFX) by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
 
 UFX invokes this event callback to inform the client driver about the new state of the device.
 
-The client driver indicates completion of this event by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a> method.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UFX_DEVICE_USB_STATE_CHANGE UfxDevice_EvtDeviceUsbStateChange;
 
 VOID
@@ -167,24 +146,14 @@ Arguments:
     UfxDeviceEventComplete(UfxDevice, STATUS_SUCCESS);
     TraceExit();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>

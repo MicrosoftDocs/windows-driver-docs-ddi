@@ -8,8 +8,6 @@ ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingDropParty macro"]
 ms.keywords: NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty
-f1_keywords:
- - "ndis/NdisMCmDispatchIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDispatchIncomingDropParty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDispatchIncomingDropParty
+ - ndis/NdisMCmDispatchIncomingDropParty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDispatchIncomingDropParty
 ---
 
 # NdisMCmDispatchIncomingDropParty macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDispatchIncomingDropParty</b> notifies a client that it should remove a particular party on a
   multipoint VC.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -67,7 +61,7 @@ Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
 ### -param _B_
 
@@ -79,16 +73,14 @@ Pointer to a caller-allocated resident buffer containing additional protocol-spe
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
-     
+
 ## -remarks
-
-
 
 In the course of normal network operations, an MCM driver calls 
     <b>NdisMCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>.
 
 However, an MCM driver also can call 
     <b>NdisMCmDispatchIncomingDropParty</b> with a driver-determined 
@@ -98,12 +90,12 @@ However, an MCM driver also can call
 
 A call to 
     <b>NdisMCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
     ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the MCM driver calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingclosecall">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingclosecall">
     NdisMCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisMCmDispatchIncomingDropParty</b>.
 
@@ -112,34 +104,24 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     as protocol drivers, call 
     <b>NdisCmDispatchIncomingDropParty</b> instead.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingdropparty">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingdropparty">
    NdisCmDispatchIncomingDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingclosecall">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingclosecall">
    NdisMCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>

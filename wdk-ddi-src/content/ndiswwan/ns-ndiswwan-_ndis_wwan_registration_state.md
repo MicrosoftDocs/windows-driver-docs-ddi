@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_registration_state.htm
 tech.root: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.date: 04/04/2019
-keywords: ["_NDIS_WWAN_REGISTRATION_STATE structure"]
+keywords: ["NDIS_WWAN_REGISTRATION_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, _NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_REGISTRATION_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_REGISTRATION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
+f1_keywords:
+ - _NDIS_WWAN_REGISTRATION_STATE
+ - ndiswwan/_NDIS_WWAN_REGISTRATION_STATE
+ - PNDIS_WWAN_REGISTRATION_STATE
+ - ndiswwan/PNDIS_WWAN_REGISTRATION_STATE
+ - NDIS_WWAN_REGISTRATION_STATE
+ - ndiswwan/NDIS_WWAN_REGISTRATION_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_REGISTRATION_STATE
 ---
 
 # _NDIS_WWAN_REGISTRATION_STATE structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 
 ## -description
 
-
 The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,8 +102,7 @@ sizeof(NDIS_WWAN_REGISTRATION_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -251,27 +248,17 @@ The device is busy and unable to change the registration mode. This scenario can
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RegistrationState
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a> object that
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a> object that
      represents the registration state of the MB device.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a>

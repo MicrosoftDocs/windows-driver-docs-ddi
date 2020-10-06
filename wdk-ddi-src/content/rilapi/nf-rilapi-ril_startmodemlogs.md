@@ -8,8 +8,6 @@ ms.assetid: 6f9b79a0-0947-4f69-b2b6-f35ad2ee70d5
 ms.date: 05/02/2018
 keywords: ["RIL_StartModemLogs function"]
 ms.keywords: RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_startmodemlogs, rilapi/RIL_StartModemLogs
-f1_keywords:
- - "rilapi/RIL_StartModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_StartModemLogs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_StartModemLogs
+ - rilapi/RIL_StartModemLogs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_StartModemLogs
 ---
 
 # RIL_StartModemLogs function
@@ -47,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

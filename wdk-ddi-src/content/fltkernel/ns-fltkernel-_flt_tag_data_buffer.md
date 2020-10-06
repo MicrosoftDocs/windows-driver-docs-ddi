@@ -6,43 +6,47 @@ old-location: ifsk\flt_tag_data_buffer.htm
 tech.root: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.date: 04/18/2019
-keywords: ["_FLT_TAG_DATA_BUFFER structure"]
+keywords: ["FLT_TAG_DATA_BUFFER structure"]
 ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
-f1_keywords:
- - "fltkernel/FLT_TAG_DATA_BUFFER"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_TAG_DATA_BUFFER
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER
+f1_keywords:
+ - _FLT_TAG_DATA_BUFFER
+ - fltkernel/_FLT_TAG_DATA_BUFFER
+ - PFLT_TAG_DATA_BUFFER
+ - fltkernel/PFLT_TAG_DATA_BUFFER
+ - FLT_TAG_DATA_BUFFER
+ - fltkernel/FLT_TAG_DATA_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_TAG_DATA_BUFFER
 ---
 
 # _FLT_TAG_DATA_BUFFER structure
+
 
 ## -description
 
@@ -60,7 +64,7 @@ Size, in bytes, of the reparse data pointed to by the **DataBuffer** member.
 
 ### -field UnparsedNameLength
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object.  For more information about the **FileName** member, see [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object).
+Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object.  For more information about the **FileName** member, see [FILE_OBJECT](../wdm/ns-wdm-_file_object.md).
 
 ### -field SymbolicLinkReparseBuffer
 
@@ -152,7 +156,7 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-[FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[FILE_OBJECT](../wdm/ns-wdm-_file_object.md)
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 

@@ -8,8 +8,6 @@ ms.assetid: AFFCD1E0-A92F-446D-A30E-C41FA8706FC1
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_EXCLUSIVE_WITH_RECORD, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_SEQUENCE_EXCLUSIVE_WITH_RECORD, PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, ksmedia/PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, stream.ksproperty_cameracontrol_image_pin_capability_s"
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, *PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
+f1_keywords:
+ - PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
+ - ksmedia/PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
+ - KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
+ - ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure
@@ -47,14 +48,9 @@ req.typenames: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, *PKSPROPERTY_CAM
 
 ## -description
 
-
 Describes image pin control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_IMAGE_PIN_CAPABILITY</b> camera control property set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Capabilities
 
@@ -72,19 +68,10 @@ If set, the image pin and the record pin cannot function simultaneously.
 
 If set, the image pin and the sequence record pin cannot function simultaneously.
 
-
 ### -field Reserved0
 
 Reserved for system use. Do not use in your driver.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>

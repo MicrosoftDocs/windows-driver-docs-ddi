@@ -7,8 +7,6 @@ ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OPENNTHANDLEFROMNAME callback function"]
 ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenNtHandleFromName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMTOpenNtHandleFromName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_OPENNTHANDLEFROMNAME
+ - d3dkmthk/PFND3DKMT_OPENNTHANDLEFROMNAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMTOpenNtHandleFromName
 ---
 
 # PFND3DKMT_OPENNTHANDLEFROMNAME callback function
@@ -55,7 +54,7 @@ From a given graphics adapter name, opens an NT handle to the process.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opennthandlefromname">D3DKMT_OPENNTHANDLEFROMNAME</a> structure that describes information required to open an NT handle.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opennthandlefromname">D3DKMT_OPENNTHANDLEFROMNAME</a> structure that describes information required to open an NT handle.
 
 ## -returns
 

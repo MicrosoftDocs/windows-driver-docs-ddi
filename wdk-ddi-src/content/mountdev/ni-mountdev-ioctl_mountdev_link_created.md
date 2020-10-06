@@ -8,8 +8,6 @@ ms.assetid: 98ccf623-8232-4bcb-bd72-39dd31c7ede3
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_LINK_CREATED IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created
-f1_keywords:
- - "mountdev/IOCTL_MOUNTDEV_LINK_CREATED"
 req.header: mountdev.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mountdev.h
-api_name:
-- IOCTL_MOUNTDEV_LINK_CREATED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTDEV_LINK_CREATED
+ - mountdev/IOCTL_MOUNTDEV_LINK_CREATED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mountdev.h
+api_name:
+ - IOCTL_MOUNTDEV_LINK_CREATED
 ---
 
 # IOCTL_MOUNTDEV_LINK_CREATED IOCTL
+
 
 ## -description
 
@@ -52,7 +52,7 @@ Support for this IOCTL by the mount manager clients is optional. The mount manag
 
 ### -input-buffer
 
-The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountdev_name), defined in *Mountmgr.h* at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure.
+The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](../mountmgr/ns-mountmgr-_mountdev_name.md), defined in *Mountmgr.h* at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure.
 
 ### -input-buffer-length
 
@@ -70,14 +70,14 @@ None
 
 ### -inout-buffer-length
 
-## -remarks
-
-The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls.
-
 ### -status-block
 
 No status.
 
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls.
+
 ## -see-also
 
-[MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountdev_name)
+[MOUNTDEV_NAME](../mountmgr/ns-mountmgr-_mountdev_name.md)

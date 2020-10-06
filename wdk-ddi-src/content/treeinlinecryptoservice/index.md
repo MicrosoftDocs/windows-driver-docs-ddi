@@ -8,10 +8,11 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: treedrv
 ms.custom: RS5
+f1_keywords:
+ - treeinlinecryptoservice
+ - treeinlinecryptoservice/treeinlinecryptoservice
 ---
 
 # Treeinlinecryptoservice.h header
@@ -19,7 +20,7 @@ ms.custom: RS5
 
 ## -description
 
-
 This header is used by treedrv. For more information, see:
 
 - [Trusted Execution Environment (TrEE)](../_treedrv/index.md)
+

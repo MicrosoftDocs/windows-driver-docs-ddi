@@ -8,8 +8,6 @@ ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.date: 04/23/2018
 keywords: ["tagKS_AMVPDATAINFO structure"]
 ms.keywords: "*PKS_AMVPDATAINFO, KS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], PKS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/KS_AMVPDATAINFO, ksmedia/PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, tagKS_AMVPDATAINFO"
-f1_keywords:
- - "ksmedia/KS_AMVPDATAINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_AMVPDATAINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
+f1_keywords:
+ - tagKS_AMVPDATAINFO
+ - ksmedia/tagKS_AMVPDATAINFO
+ - PKS_AMVPDATAINFO
+ - ksmedia/PKS_AMVPDATAINFO
+ - KS_AMVPDATAINFO
+ - ksmedia/KS_AMVPDATAINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_AMVPDATAINFO
 ---
 
 # tagKS_AMVPDATAINFO structure
@@ -47,96 +50,66 @@ req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
 
 ## -description
 
-
 The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size of the structure, in bytes.
 
-
 ### -field dwMicrosecondsPerField
 
 Specifies the time taken by each field, in microseconds (millionths of a second).
-
 
 ### -field amvpDimInfo
 
 Describes the dimensional information of the video port, such as field and VBI dimensions.
 
-
 ### -field dwPictAspectRatioX
 
 Indicates the picture aspect ratio in the horizontal dimension. For example, for a 16x9 aspect ratio this member would be 16.
-
 
 ### -field dwPictAspectRatioY
 
 Indicates the picture aspect ratio in the vertical dimension. For example, for a 4x3 aspect ratio this member would be 3.
 
-
 ### -field bEnableDoubleClock
 
-Specifies if the video port should enable double clocking. 
-
+Specifies if the video port should enable double clocking.
 
 ### -field bEnableVACT
 
 Specifies if the video port should use an external VACT signal.
 
-
 ### -field bDataIsInterlaced
 
 Indicates that the signal is interlaced.
-
 
 ### -field lHalfLinesOdd
 
 Indicates the number of halflines in the odd field.
 
-
 ### -field bFieldPolarityInverted
 
 Indicates if the device inverts the field polarity by default.
-
 
 ### -field dwNumLinesInVREF
 
 Specifies the number of lines of data in VREF.
 
-
 ### -field lHalfLinesEven
 
 Indicates the number of halflines in the even field.
-
 
 ### -field dwReserved1
 
 Reserved for future use. Do not use.
 
-
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
-
-
-
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>

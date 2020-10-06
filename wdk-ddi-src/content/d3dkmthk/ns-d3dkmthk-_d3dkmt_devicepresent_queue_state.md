@@ -5,10 +5,8 @@ description: A structure that holds information on the queue state of a hardware
 old-location: display\d3dkmt_devicepresent_queue_state.htm
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_DEVICEPRESENT_QUEUE_STATE structure"]
+keywords: ["D3DKMT_DEVICEPRESENT_QUEUE_STATE structure"]
 ms.keywords: D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], _D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state
-f1_keywords:
- - "d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DEVICEPRESENT_QUEUE_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
+f1_keywords:
+ - _D3DKMT_DEVICEPRESENT_QUEUE_STATE
+ - d3dkmthk/_D3DKMT_DEVICEPRESENT_QUEUE_STATE
+ - D3DKMT_DEVICEPRESENT_QUEUE_STATE
+ - d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ---
 
 # _D3DKMT_DEVICEPRESENT_QUEUE_STATE structure
@@ -47,19 +48,13 @@ req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 
 ## -description
 
-
 A structure that holds information on the queue state of a hardware device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VidPnSourceId
 
 Indicates the present source id.
-
 
 ### -field bQueuedPresentLimitReached
 

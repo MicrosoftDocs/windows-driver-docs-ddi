@@ -8,8 +8,6 @@ ms.assetid: 238bfa21-a971-4fe4-a774-6ba834efc3c5
 ms.date: 05/02/2018
 keywords: ["FILTER_OID_REQUEST callback function"]
 ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
-f1_keywords:
- - "ndis/FilterOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_OID_REQUEST
+ - ndis/FILTER_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterOidRequest
 ---
 
 # FILTER_OID_REQUEST callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterOidRequest</i> function to process an OID request that is associated with the specified filter
@@ -56,28 +54,23 @@ NDIS calls a filter driver's
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
+### -param OidRequest 
 
-### -param OidRequest [in]
-
+[in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested including the OID_<i>XXX</i> code. The structure can specify either an OID  query request or an OID set request. For more information
      about OIDs, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
-
+     <a href="/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
 ## -returns
-
-
 
 <i>FilterOidRequest</i> returns one of the following status values:
 
@@ -107,7 +100,7 @@ A pointer to an
 <td width="60%">
 Indicates that the filter driver will complete the request asynchronously. After the driver
        completes the request, it must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">
        NdisFOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
@@ -156,7 +149,7 @@ Indicates that the buffer, supplied at
 <td width="60%">
 For a query operation, the 
        <b>InformationBufferLength</b> member of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure does not
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure does not
        match the length required by the given OID. 
        <i>FilterOidRequest</i> returned the required buffer size, in bytes, in the 
        <b>BytesNeeded</b> member of the NDIS_OID_REQUEST structure.
@@ -206,20 +199,14 @@ For a set operation, the data supplied in the
 <td width="60%">
 <i>FilterOidRequest</i> returns NDIS_STATUS_FAILURE if none of the preceding values applies. The filter
        driver should call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
        with parameters that specify the reason for the failure.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>FilterOidRequest</i> is an optional function. If a filter driver does not use OID requests, it can set
     the entry point for this function to <b>NULL</b> when it calls the 
@@ -230,18 +217,18 @@ For a set operation, the data supplied in the
 NDIS calls the filter driver's 
     <i>FilterOidRequest</i> function to process OID requests that are originated by overlying drivers. Filter
     drivers can forward such requests to underlying drivers by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a> function.
 
 Before the driver calls 
     <b>NdisFOidRequest</b>, the driver must allocate an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure and transfer the
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure and transfer the
     request information to the new structure by calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatecloneoidrequest">NdisAllocateCloneOidRequest</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatecloneoidrequest">NdisAllocateCloneOidRequest</a>.
     As an option, a filter driver can complete a request immediately without forwarding the request.
 
 To complete a request synchronously, the filter driver returns NDIS_STATUS_SUCCESS or a failure
     status. If the driver returns NDIS_STATUS_PENDING, it must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">NdisFOidRequestComplete</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">NdisFOidRequestComplete</a> function
     to inform NDIS that the request is complete.
 
 For a query operation, 
@@ -267,72 +254,52 @@ NDIS calls
     <i>FilterOidRequest</i> at IRQL <= DISPATCH_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>FilterOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>FilterOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterOidRequest</i> function that is named "MyOidRequest", use the <b>FILTER_OID_REQUEST</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FILTER_OID_REQUEST MyOidRequest;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+FILTER_OID_REQUEST MyOidRequest;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyOidRequest(
     NDIS_HANDLE  FilterModuleContext,
     PNDIS_OID_REQUEST  OidRequest
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>FILTER_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>FILTER_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatecloneoidrequest">NdisAllocateCloneOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatecloneoidrequest">NdisAllocateCloneOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">NdisFOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequestcomplete">NdisFOidRequestComplete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>

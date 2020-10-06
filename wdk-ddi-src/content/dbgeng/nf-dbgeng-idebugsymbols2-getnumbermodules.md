@@ -8,8 +8,6 @@ ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetNumberModules"]
 ms.keywords: GetNumberModules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging],IDebugSymbols interface, GetNumberModules method [Windows Debugging],IDebugSymbols2 interface, GetNumberModules method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNumberModules method, IDebugSymbols2 interface [Windows Debugging],GetNumberModules method, IDebugSymbols2.GetNumberModules, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging],GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetNumberModules"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetNumberModules
-- IDebugSymbols2.GetNumberModules
-- IDebugSymbols3.GetNumberModules
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols2::GetNumberModules
+ - dbgeng/IDebugSymbols2::GetNumberModules
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetNumberModules
+ - IDebugSymbols2.GetNumberModules
+ - IDebugSymbols3.GetNumberModules
 ---
 
 # IDebugSymbols2::GetNumberModules
@@ -49,30 +48,23 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetNumberModules</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> in the current process's module list.
-
+The <b>GetNumberModules</b> method returns the number of <a href="/windows-hardware/drivers/debugger/modules">modules</a> in the current process's module list.
 
 ## -parameters
 
+### -param Loaded 
 
-
-
-### -param Loaded [out]
-
+[out]
 Receives the number of loaded modules in the current process's module list.
 
+### -param Unloaded 
 
-### -param Unloaded [out]
-
+[out]
 Receives the number of unloaded modules in the current process's module list. This number will be zero if the version of Microsoft Windows running on the target computer does not track unloaded modules.
-
 
 ## -returns
 
-
-
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -91,43 +83,27 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The list of loaded and unloaded modules is maintained by Windows.  The engine caches a copy of this list, but it may become out of date.  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> can be used to synchronize the engine's copy of the list with the list maintained by Windows.
+The list of loaded and unloaded modules is maintained by Windows.  The engine caches a copy of this list, but it may become out of date.  <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> can be used to synchronize the engine's copy of the list with the list maintained by Windows.
 
 The unloaded modules are not tracked in all versions of Windows.  Unloaded modules are tracked for user-mode targets in Microsoft Windows Server 2003 and later; for kernel-mode targets, the unloaded modules are tracked in earlier Windows versions as well.  When they are tracked they are indexed after the loaded modules.  Unloaded modules can be used to analyze failures caused by an attempt to call unloaded code.
 
-For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
-
-
-
+For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebyindex">GetModuleByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebyindex">GetModuleByIndex</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

@@ -8,8 +8,6 @@ ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.date: 05/02/2018
 keywords: ["FWPS_INCOMING_METADATA_VALUES0_ structure"]
 ms.keywords: FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, fwpsk/FWPS_INCOMING_METADATA_VALUES0, netvista.fwps_incoming_metadata_values0, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml
-f1_keywords:
- - "fwpsk/FWPS_INCOMING_METADATA_VALUES0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_INCOMING_METADATA_VALUES0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_INCOMING_METADATA_VALUES0
+f1_keywords:
+ - FWPS_INCOMING_METADATA_VALUES0_
+ - fwpsk/FWPS_INCOMING_METADATA_VALUES0_
+ - FWPS_INCOMING_METADATA_VALUES0
+ - fwpsk/FWPS_INCOMING_METADATA_VALUES0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_INCOMING_METADATA_VALUES0
 ---
 
 # FWPS_INCOMING_METADATA_VALUES0_ structure
@@ -47,49 +48,40 @@ req.typenames: FWPS_INCOMING_METADATA_VALUES0
 
 ## -description
 
-
 The <b>FWPS_INCOMING_METADATA_VALUES0</b> structure defines metadata values that the filter engine passes to
   a callout's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
-<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
+<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field currentMetadataValues
 
 A UINT32 value that contains a bitwise OR of a combination of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/metadata-field-identifiers">Metadata Field Identifiers</a> that
+     <a href="/windows-hardware/drivers/network/metadata-field-identifiers">Metadata Field Identifiers</a> that
      specify which metadata values are set in the structure.
-
 
 ### -field flags
 
 Used internally by the filter engine. Callout drivers should ignore this member.
 
-
 ### -field reserved
 
 Reserved for system use. Callout drivers should ignore this member.
 
-
 ### -field discardMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0">FWPS_DISCARD_METADATA0</a> structure
      that describes the reason why the data was discarded. This member contains valid data only if the
      FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field flowHandle
 
 A handle for the data flow. This member contains valid data only if the
      FWPS_METADATA_FIELD_FLOW_HANDLE flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field ipHeaderSize
 
@@ -130,7 +122,6 @@ FWPS_LAYER_DATAGRAM_DATA_V6_DISCARD
 This member contains valid data only if the FWPS_METADATA_FIELD_IP_HEADER_SIZE flag is set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field transportHeaderSize
 
 The offset or size, in bytes, of the transport header.
@@ -159,15 +150,13 @@ This member contains valid data only if the FWPS_METADATA_FIELD_TRANSPORT_HEADER
      the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field processPath
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a> structure that contains the
+     <a href="/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a> structure that contains the
      full path to the process that owns the endpoint. This member contains valid data only if the
      FWPS_METADATA_FIELD_PROCESS_PATH flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field token
 
@@ -175,13 +164,11 @@ A handle for the token used to validate the permissions for the user. This membe
      data only if the FWPS_METADATA_FIELD_TOKEN flag is set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field processId
 
 The process ID for the process that owns the endpoint. This member contains valid data only if the
      FWPS_METADATA_FIELD_PROCESS_ID flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field sourceInterfaceIndex
 
@@ -189,13 +176,11 @@ The index of the network interface where an incoming packet was received. This m
      valid data only if the FWPS_METADATA_FIELD_SOURCE_INTERFACE_INDEX flag is set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field destinationInterfaceIndex
 
 The index of the network interface where an outgoing packet is to be sent. This member contains
      valid data only if the FWPS_METADATA_FIELD_DESTINATION_INTERFACE_INDEX flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field compartmentId
 
@@ -205,16 +190,14 @@ The identifier of the routing compartment in which the packet either was receive
      flag is set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field fragmentMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0">
      FWPS_INBOUND_FRAGMENT_METADATA0</a> structure that describes the fragment data for a received packet
      fragment. This member contains valid data only if the FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in
      the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field pathMtu
 
@@ -223,13 +206,11 @@ The path maximum transmission unit (path MTU) for an outbound packet. This value
      contains valid data only if the FWPS_METADATA_FIELD_PATH_MTU flag is set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field completionHandle
 
 A completion handle that is required to pend the current filtering operation. This member contains
      valid data only if the FWPS_METADATA_FIELD_COMPLETION_HANDLE flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field transportEndpointHandle
 
@@ -238,13 +219,11 @@ An endpoint handle that indicates the end of the packet to be injected into the 
      set in the 
      <b>currentMetadataValues</b> member.
 
-
 ### -field remoteScopeId
 
 The remote scope identifier to be used in outbound transport layer injection. This member contains
      valid data only if the FWPS_METADATA_FIELD_REMOTE_SCOPE_ID flag is set in the 
      <b>currentMetadataValues</b> member.
-
 
 ### -field controlData
 
@@ -252,19 +231,17 @@ An optional socket control data object. This member contains valid data only if 
      FWPS_METADATA_FIELD_TRANSPORT_CONTROL_DATA flag is set in the 
      <b>currentMetadataValues</b> member. For information about the WSACMSGHDR type,
      see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
-
+     <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>.
 
 ### -field controlDataLength
 
 The length, in bytes, of the 
      <b>controlData</b> member.
 
-
 ### -field packetDirection
 
 The direction of network traffic (inbound or outbound) as specified by one of the constant values of      
-      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>. This member is set at the
+      <a href="/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>. This member is set at the
       application layer enforcement (ALE) connect or receive/accept layers during a reauthorization classify
       operation. For more information, see the Remarks section.
 
@@ -342,7 +319,7 @@ The original destination of a redirected connection.
 
 ### -field redirectRecords
 
-A redirect records handle that can be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
+A redirect records handle that can be passed to the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
@@ -419,8 +396,6 @@ The value of the  <b>vSwitchDestinationPortId</b> member indicates the identifie
 </td>
 </tr>
 </table>
- 
-
 
 ### -field l2Flags
 
@@ -473,8 +448,6 @@ For all subsequent indications, you should block and absorb the original packet 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ethernetMacHeaderSize
 
@@ -486,7 +459,7 @@ The size, in bytes,  of the MAC header if the FWPS_L2_METADATA_FIELD_802_3_MAC_H
 
 ### -field wiFiOperationMode
 
-The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_current_operation_mode">DOT11_CURRENT_OPERATION_MODE</a>.
+The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_current_operation_mode">DOT11_CURRENT_OPERATION_MODE</a>.
      
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
@@ -571,10 +544,8 @@ A the layer 2 connection profile index.
 
 ## -remarks
 
-
-
 The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structure to a callout's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function. The metadata
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function. The metadata
     values contained in the structure are not processed by the filter engine but are supplied to a callout's 
     <i>classifyFn</i> callout function to provide
     additional information.
@@ -582,16 +553,11 @@ The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structur
 A callout driver can use the following macro to test if a specific metadata value is present in an
     FWPS_INCOMING_METADATA_VALUES0 structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)
+```
+
 
 
 If the FWPS_METADATA_FIELD_PACKET_DIRECTION metadata value is present in an
@@ -613,44 +579,35 @@ The callout driver must follow these guidelines when it inspects the packet:
      present, the callout driver should assume a packet direction of FWP_DIRECTION_INBOUND.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0">FWPS_DISCARD_METADATA0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0">
    FWPS_INBOUND_FRAGMENT_METADATA0</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

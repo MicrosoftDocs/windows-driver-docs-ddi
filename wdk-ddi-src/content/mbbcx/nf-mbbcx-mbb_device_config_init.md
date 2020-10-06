@@ -6,48 +6,43 @@ tech.root: netvista
 ms.assetid: 4ee1d631-e2b2-4080-bec2-8be7c1c9a166
 ms.date: 06/26/2018
 keywords: ["MBB_DEVICE_CONFIG_INIT function"]
-f1_keywords:
- - "mbbcx/MBB_DEVICE_CONFIG_INIT"
 ms.keywords: MBB_DEVICE_CONFIG_INIT
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MBB_DEVICE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - MBB_DEVICE_CONFIG_INIT
+ - mbbcx/MBB_DEVICE_CONFIG_INIT
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MBB_DEVICE_CONFIG_INIT
 ---
 
 # MBB_DEVICE_CONFIG_INIT function
 
 
 ## -description
-
-
 
 The **MBB_DEVICE_CONFIG_INIT** method initializes the [**MBB_DEVICE_CONFIG**](ns-mbbcx-_mbb_device_config.md) structure.
 
@@ -79,4 +74,4 @@ The client driver calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wd
 
 ## -see-also
 
-[Mobile Broadband (MBB) WDF class extension (MBBCx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)
+[Mobile Broadband (MBB) WDF class extension (MBBCx)](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)

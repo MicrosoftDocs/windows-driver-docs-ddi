@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_UMD_CALLBACK_METHOD
 title: PFND3D12DDI_UMD_CALLBACK_METHOD
-author: windows-driver-content
 description: Used by the user mode driver to complete a context.
 tech.root: display
 ms.assetid: ae1f4e0e-f801-41b1-a283-dd9ec9559e45
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_UMD_CALLBACK_METHOD callback function"]
 req.header: d3d12umddi.h
@@ -28,7 +26,8 @@ req.type-library:
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 3., 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD"
+ - PFND3D12DDI_UMD_CALLBACK_METHOD
+ - d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD
 topic_type:
  - apiref
 api_type:
@@ -44,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_UMD_CALLBACK_METHOD callback function
+
 
 ## -description
 

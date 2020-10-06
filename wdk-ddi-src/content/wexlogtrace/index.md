@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: taef
+f1_keywords:
+ - wexlogtrace
+ - wexlogtrace/wexlogtrace
 ---
 
 # Wexlogtrace.h header
@@ -18,7 +19,7 @@ tech.root: taef
 
 ## -description
 
+This header is used by TAEF. For more information, see:
 
-This header is used by dtf. For more information, see:
+- [Test Authoring and Execution Framework (TAEF)](../_taef/index.md)
 
-- [Windows Device Testing Framework (WDTF)](../_dtf/index.md)

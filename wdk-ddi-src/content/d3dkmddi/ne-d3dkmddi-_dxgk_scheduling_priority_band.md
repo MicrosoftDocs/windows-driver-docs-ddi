@@ -4,38 +4,40 @@ title: _DXGK_SCHEDULING_PRIORITY_BAND (d3dkmddi.h)
 description: Describes the types of scheduling priority band.
 ms.assetid: fde901af-ea53-479c-8ea5-c719c6b98e10
 ms.date: 10/19/2018
-keywords: ["_DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
-f1_keywords:
- - "d3dkmddi/_DXGK_SCHEDULING_PRIORITY_BAND"
+keywords: ["DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
 ms.keywords: _DXGK_SCHEDULING_PRIORITY_BAND, DXGK_SCHEDULING_PRIORITY_BAND,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_SCHEDULING_PRIORITY_BAND
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGK_SCHEDULING_PRIORITY_BAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_SCHEDULING_PRIORITY_BAND
+ - d3dkmddi/_DXGK_SCHEDULING_PRIORITY_BAND
+ - DXGK_SCHEDULING_PRIORITY_BAND
+ - d3dkmddi/DXGK_SCHEDULING_PRIORITY_BAND
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_SCHEDULING_PRIORITY_BAND
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_SCHEDULING_PRIORITY_BAND enumeration
+
 
 ## -description
 

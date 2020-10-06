@@ -5,14 +5,13 @@ description: The WcsCheckColors function determines whether the colors in an arr
 old-location: print\wcscheckcolors.htm
 tech.root: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
-ms.date: 04/20/2018
+ms.date: 08/13/2020
 keywords: ["WcsCheckColors function"]
 ms.keywords: WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, print.wcscheckcolors
-ms.topic: function
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,19 +25,20 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- WcsCheckColors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsCheckColors
+f1_keywords:
+ - WcsCheckColors
+ - icm/WcsCheckColors
 ---
 
 # WcsCheckColors function
@@ -46,57 +46,43 @@ req.typenames:
 
 ## -description
 
-
-The <code>WcsCheckColors</code> function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
-
+The **WcsCheckColors** function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
 
 ## -parameters
-
-
-
 
 ### -param hColorTransform [in]
 
 A handle to the WCS color transform to use.
 
-
 ### -param nColors [in]
 
-The number of elements in the array pointed to by <i>pInputData</i> and <i>paResult</i>.
-
+The number of elements in the array pointed to by *pInputData* and *paResult*.
 
 ### -param nInputChannels [in]
 
-The number of channels per element in the array pointed to by <i>pInputData</i>.
+The number of channels per element in the array pointed to by *pInputData*.
 
+### -param cdtInput 
 
-### -param cdtInput [in]
-
+[in]
 The input COLORDATATYPE color data type.
-
 
 ### -param cbInput [in]
 
-The buffer size of <i>pInputData</i>.
+The buffer size of *pInputData*.
 
+### -param pInputData 
 
-### -param pInputData [in]
-
+[in]
 A pointer to an array of input colors. Colors in this array correspond to the color space of the source profile.
-
 
 ### -param paResult [out]
 
-A pointer to an array of <i>nColors</i> bytes that receives the results of the test.
-
+A pointer to an array of *nColors* bytes that receives the results of the test.
 
 ## -remarks
-
-
 
 If the input and the output color data types are not compatible with the color transform, this function will convert the input color data as required.
 
 This function will fail if an ICC transform is used.
-
-
 

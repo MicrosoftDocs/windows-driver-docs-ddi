@@ -7,8 +7,6 @@ ms.assetid: 200ca1d5-cbfd-4ad8-aa41-8238ea7ea5cf
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_COLOR structure"]
 ms.keywords: D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR, display.d3d11_1ddi_video_color
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_COLOR"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_COLOR
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_COLOR
+f1_keywords:
+ - D3D11_1DDI_VIDEO_COLOR
+ - d3d10umddi/D3D11_1DDI_VIDEO_COLOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_COLOR
 ---
 
 # D3D11_1DDI_VIDEO_COLOR structure
@@ -47,45 +46,26 @@ req.typenames: D3D11_1DDI_VIDEO_COLOR
 
 ## -description
 
-
 Defines a color value for Microsoft Direct3D 11 video.
-
 
 ## -struct-fields
 
-
-
-
 ### -field YCbCr
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
-
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 ### -field RGBA
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
-
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 ## -remarks
 
-
-
 The anonymous union can represent both RGB and YCbCr colors. The interpretation of the union depends on the context.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>

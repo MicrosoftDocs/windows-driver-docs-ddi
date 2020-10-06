@@ -8,8 +8,6 @@ ms.assetid: d1d84b17-96e6-49a5-bf54-ffce1cb8f405
 ms.date: 02/15/2018
 keywords: ["IPortableDevicePropVariantCollection::GetType"]
 ms.keywords: GetType, GetType method, GetType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetType method, IPortableDevicePropVariantCollection.GetType, IPortableDevicePropVariantCollection::GetType, IPortableDevicePropVariantCollectionGetType, portabledevicetypes/IPortableDevicePropVariantCollection::GetType, wpddk.iportabledevicepropvariantcollection_gettype
-f1_keywords:
- - "portabledevicetypes/IPortableDevicePropVariantCollection.GetType"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDevicePropVariantCollection.GetType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDevicePropVariantCollection::GetType
+ - portabledevicetypes/IPortableDevicePropVariantCollection::GetType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDevicePropVariantCollection.GetType
 ---
 
 # IPortableDevicePropVariantCollection::GetType
@@ -48,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves the data type of the items in the collection.
-
-
-
 
 ## -parameters
 
+### -param pvt 
 
-
-
-### -param pvt [out]
-
+[out]
 A Platform SDK <b>VARTYPE</b> enumeration value that indicates the data type of all the items in the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,27 +88,11 @@ A required pointer argument was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 All items that are stored in an <b>IPortableDevicePropVariantCollection</b> are the same type.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>

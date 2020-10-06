@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063
 title: PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063
-author: windows-driver-content
 description: Creates a video extension command.
 tech.root: display
 ms.assetid: f7ad7c05-c20c-4211-88bd-e55ae094d3c3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063 callback function"]
 req.header: d3d12umddi.h
@@ -28,7 +26,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063"
+ - PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063
+ - d3d12umddi/PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063
 topic_type:
  - apiref
 api_type:
@@ -44,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATEVIDEOEXTENSIONCOMMAND_0063 callback function
+
 
 ## -description
 

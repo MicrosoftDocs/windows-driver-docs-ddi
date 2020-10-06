@@ -5,44 +5,64 @@ description:
 ms.assetid: a79196b5-1c91-4b88-a6a7-8e5dc9814233
 ms.date: 10/19/2018
 keywords: ["EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function"]
-f1_keywords:
- - "trustedruntimeclx/EVT_TR_PROCESS_SECURE_SERVICE_REQUEST"
 req.header: trustedruntimeclx.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- trustedruntimeclx.h
-api_name: 
-- EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
+ - trustedruntimeclx/EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - trustedruntimeclx.h
+api_name:
+ - EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
 ---
 
 # EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function
 
+
 ## -description
 
- 
+## -parameters
+
+### -param ServiceDevice: 
+
+### -param SessionContext: 
+
+### -param RequestHandle: 
+
+### -param Priority: 
+
+### -param Request: 
+
+### -param Flags: 
+
+### -param BytesWritten: 
+
+### -param RequestContext: 
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -syntax
 
@@ -68,27 +88,6 @@ NTSTATUS EvtTrProcessSecureServiceRequest
 
 ```
 
-## -parameters
-
-### -param ServiceDevice: 
-### -param SessionContext: 
-### -param RequestHandle: 
-### -param Priority: 
-### -param Request: 
-### -param Flags: 
-### -param BytesWritten: 
-### -param RequestContext: 
-
-
-
-## -returns
-
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 ## -remarks
-
-
-
 
 ## -see-also

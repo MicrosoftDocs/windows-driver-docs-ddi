@@ -9,9 +9,12 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
-product: 
-- Windows
 ms.custom: Vb
+product:
+ - Windows
+f1_keywords:
+ - returncontext
+ - returncontext/returncontext
 ---
 
 # Returncontext.h header
@@ -19,7 +22,7 @@ ms.custom: Vb
 
 ## -description
 
-
 This header is used by netvista. For more information, see:
 
 - [Networking drivers for Windows Vista and later](../_netvista/index.md)
+

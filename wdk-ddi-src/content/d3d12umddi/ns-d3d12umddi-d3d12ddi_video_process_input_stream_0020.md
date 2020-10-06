@@ -7,8 +7,6 @@ ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, display.d3d12ddi_video_process_input_stream
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
+f1_keywords:
+ - D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
+ - d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure
@@ -47,26 +46,19 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 
 ## -description
 
-
 Contains stream information for the video processor blend functionality.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hDrvInputTexture
 
-The current input field or frame.  
-
+The current input field or frame.
 
 ### -field Subresource
 
 The subresource index to use of the <i>hDrvInputTexture</i> argument.
 
-
 ### -field ReferenceInfo
 
-The set of references to be able to perform processing.  
+The set of references to be able to perform processing.
 

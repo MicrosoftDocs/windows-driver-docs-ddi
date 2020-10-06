@@ -8,8 +8,6 @@ ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.date: 05/03/2018
 keywords: ["ExtRemoteList class"]
 ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging],described, debugger.extremotelist, engextcpp/ExtRemoteList
-f1_keywords:
- - "engextcpp/ExtRemoteList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteList
+ - engextcpp/ExtRemoteList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteList
 ---
 
 # ExtRemoteList class
 
 
 ## -description
-
 
 The <b>ExtRemoteList</b> class provides a wrapper around a singly-linked or doubly-linked list.  The class contains methods that can be used to move both forward and backward through the list.
 
@@ -76,49 +74,49 @@ The <b>ExtRemoteList</b> class includes the following methods:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(extremotedata__ulong_bool)">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(extremotedata__ulong_bool)">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(ulong64_ulong_bool)">ExtRemoteList::ExtRemoteList (ULONG64)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(ulong64_ulong_bool)">ExtRemoteList::ExtRemoteList (ULONG64)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-hasnode">HasNode</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-hasnode">HasNode</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-getnodeoffset">GetNodeOffset</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-getnodeoffset">GetNodeOffset</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/next-ienumprofile">Next</a>
+<a href="/windows-hardware/test/wpt/next-ienumprofile">Next</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-prev">Prev</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-prev">Prev</a>
 
 
 </dd>
@@ -155,7 +153,7 @@ The maximum number of nodes that can be returned when iterating over the list.  
 </dd>
 <dt><a id="m_Node"></a><a id="m_node"></a><a id="M_NODE"></a><b>m_Node</b></dt>
 <dd>
-The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>.  <b>m_Node</b> is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>, which describes the pointer.
+The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>.  <b>m_Node</b> is of type <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>, which describes the pointer.
 
 </dd>
 <dt><a id="m_CurIter"></a><a id="m_curiter"></a><a id="M_CURITER"></a><b>m_CurIter</b></dt>
@@ -167,19 +165,12 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>

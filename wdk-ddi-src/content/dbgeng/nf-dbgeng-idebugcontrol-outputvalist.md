@@ -8,8 +8,6 @@ ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.date: 05/03/2018
 keywords: ["IDebugControl::OutputVaList"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputVaList method, IDebugControl.OutputVaList, IDebugControl2 interface [Windows Debugging],OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging],OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging],IDebugControl interface, OutputVaList method [Windows Debugging],IDebugControl2 interface, OutputVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
-f1_keywords:
- - "dbgeng/IDebugControl.OutputVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.OutputVaList
-- IDebugControl2.OutputVaList
-- IDebugControl3.OutputVaList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::OutputVaList
+ - dbgeng/IDebugControl::OutputVaList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.OutputVaList
+ - IDebugControl2.OutputVaList
+ - IDebugControl3.OutputVaList
 ---
 
 # IDebugControl::OutputVaList
@@ -49,22 +48,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>OutputVaList</b>  method formats a string and sends the result to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that are registered with the engine's clients.
-
+The <b>OutputVaList</b>  method formats a string and sends the result to the <a href="/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that are registered with the engine's clients.
 
 ## -parameters
 
+### -param Mask 
 
+[in]
+Specifies the output-type bit field.  See <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
+### -param Format 
 
-### -param Mask [in]
-
-Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
-
-
-### -param Format [in]
-
+[in]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
@@ -239,19 +234,15 @@ String that contains the name of the specified symbol (and displacement, if any)
 </td>
 </tr>
 </table>
- 
 
+### -param Args 
 
-### -param Args [in]
-
+[in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -270,47 +261,31 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+<a href="/previous-versions/ff553183(v=vs.85)">Output</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>

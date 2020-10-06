@@ -8,8 +8,6 @@ ms.assetid: 0c06bcd7-d475-40b8-b997-fe65047db331
 ms.date: 05/02/2018
 keywords: ["RILCLOSEUICCLOGICALCHANNELPARAMS structure"]
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS"
-f1_keywords:
- - "rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCLOSEUICCLOGICALCHANNELPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCLOSEUICCLOGICALCHANNELPARAMS, *LPRILCLOSEUICCLOGICALCHANNELPARAMS
+f1_keywords:
+ - RILCLOSEUICCLOGICALCHANNELPARAMS
+ - rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS
+ - LPRILCLOSEUICCLOGICALCHANNELPARAMS
+ - rilapitypes/LPRILCLOSEUICCLOGICALCHANNELPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCLOSEUICCLOGICALCHANNELPARAMS
 ---
 
-# RILCLOSEUICCLOGICALCHANNELPARAMS structure
+# RILCLOSEUICCLOGICALCHANNELPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwSlotIndex
-
 
 ### -field dwChannelId
 

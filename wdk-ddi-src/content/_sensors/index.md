@@ -8,8 +8,6 @@ ms.keywords: sensors driver development
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Sensors
@@ -30,5 +28,4 @@ To develop Sensors, you need these headers:
  * [sensorsutils.h](../sensorsutils/index.md)
 
 
-For the programming guide, see [Sensors](https://docs.microsoft.com/windows-hardware/drivers/sensors).
-
+For the programming guide, see [Sensors](/windows-hardware/drivers/sensors).

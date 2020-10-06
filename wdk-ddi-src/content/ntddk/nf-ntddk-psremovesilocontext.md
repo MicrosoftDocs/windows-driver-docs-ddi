@@ -8,8 +8,6 @@ ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.date: 04/30/2018
 keywords: ["PsRemoveSiloContext function"]
 ms.keywords: PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], kernel.psremovesilocontext, ntddk/PsRemoveSiloContext
-f1_keywords:
- - "ntddk/PsRemoveSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsRemoveSiloContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsRemoveSiloContext
+ - ntddk/PsRemoveSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsRemoveSiloContext
 ---
 
 # PsRemoveSiloContext function
@@ -47,35 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine removes an object that was inserted in the <i>Silo</i>.
-
 
 ## -parameters
 
+### -param Silo 
 
-
-
-### -param Silo [in]
-
+[in]
 The silo from which the object is to be removed. This parameter is required and it cannot be <b>NULL</b>.
 
+### -param ContextSlot 
 
-### -param ContextSlot [in]
-
-A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
-
+[in]
+A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 ### -param RemovedSiloContext
 
 <p>A pointer to a caller-allocated variable that receives the address of the removed object. This parameter is optional and can be <b>NULL</b>.</p>
 
-
-
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -118,16 +107,7 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> when it is no longer needed. 
-
-
-
+In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> when it is no longer needed.

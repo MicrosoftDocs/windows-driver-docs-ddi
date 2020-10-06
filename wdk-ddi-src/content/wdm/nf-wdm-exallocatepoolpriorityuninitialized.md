@@ -8,7 +8,7 @@ targetos: Windows
 description: 
 req.assembly: 
 req.construct-type: function
-req.ddi-compliance: IrqlExAllocatePool, IrqlExFree2, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo 
+req.ddi-compliance: IrqlExAllocatePool, IrqlExFree2, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.idl: 
@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolPriorityUninitialized
 f1_keywords:
+ - ExAllocatePoolPriorityUninitialized
  - wdm/ExAllocatePoolPriorityUninitialized
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ dev_langs:
 
 This routine is a wrapper and replacement option for [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md).
 
-**ExAllocatePoolPriorityUninitialized** allocates pool memory of the specified type. 
+**ExAllocatePoolPriorityUninitialized** allocates pool memory of the specified type.
 
 ## -parameters
 
@@ -53,25 +54,23 @@ The type of pool memory to allocate. For a description of the available pool mem
 
 You can modify the enumeration value by performing a bitwise-OR with the **POOL_RAISE_IF_ALLOCATION_FAILURE** flag defined in `wdm.h`. This flag causes an exception to be raised if the request cannot be satisfied. Use of this flag is not recommended because it is costly. 
 
-Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory. 
-
+Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory.
 
 ### -param NumberOfBytes
 
-The number of bytes to allocate. 
+The number of bytes to allocate.
 
 ### -param Tag
 
-The pool tag to use for the allocated memory. For more information, see the Tag parameter of [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md). 
+The pool tag to use for the allocated memory. For more information, see the Tag parameter of [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md).
 
 ### -param Priority
 
 An [**EX_POOL_PRIORITY**](ne-wdm-ex_pool_priority.md) enumeration value specifying the priority of this request.
 
-
 ## -returns
 
-**ExAllocatePoolPriorityUninitialized** returns NULL if there is insufficient memory in the free pool to satisfy the request unless POOL_RAISE_IF_ALLOCATION_FAILURE is specified. Otherwise, the routine returns a pointer to the allocated memory. 
+**ExAllocatePoolPriorityUninitialized** returns NULL if there is insufficient memory in the free pool to satisfy the request unless POOL_RAISE_IF_ALLOCATION_FAILURE is specified. Otherwise, the routine returns a pointer to the allocated memory.
 
 ## -remarks
 
@@ -85,3 +84,4 @@ See the Remarks section of [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocate
 [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md)
 
 [**ExAllocatePoolPriorityZero**](nf-wdm-exallocatepoolpriorityzero.md)
+

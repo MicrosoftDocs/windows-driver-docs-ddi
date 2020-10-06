@@ -8,8 +8,6 @@ ms.assetid: 5383bd49-df44-48dd-8385-c782a1b1f80a
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacks::ChangeSymbolState"]
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacks.ChangeSymbolState, IDebugEventCallbacks::ChangeSymbolState, dbgeng/IDebugEventCallbacks::ChangeSymbolState, debugger.idebugeventcallbacks_changesymbolstate
-f1_keywords:
- - "dbgeng/IDebugEventCallbacks.ChangeSymbolState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugEventCallbacks.ChangeSymbolState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugEventCallbacks::ChangeSymbolState
+ - dbgeng/IDebugEventCallbacks::ChangeSymbolState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugEventCallbacks.ChangeSymbolState
 ---
 
 # IDebugEventCallbacks::ChangeSymbolState
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
-The <b>ChangeSymbolState</b> callback method is called by the engine when the symbol state changes. 
-
+The <b>ChangeSymbolState</b> callback method is called by the engine when the symbol state changes.
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
 
 <table>
@@ -126,11 +121,10 @@ The type options have changed.
 </td>
 </tr>
 </table>
- 
 
+### -param Argument 
 
-### -param Argument [in]
-
+[in]
 Provides additional information about the change to the symbol state.   If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
 
@@ -171,23 +165,12 @@ The value of <i>Argument</i> is the symbol options.
 
 The value of <i>Argument</i> is zero.
 
-
 ## -returns
-
-
 
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
 
-
-
-
 ## -remarks
 
+This method is only called by the engine if the DEBUG_EVENT_CHANGE_SYMBOL_STATE flag is set in the mask returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
 
-
-This method is only called by the engine if the DEBUG_EVENT_CHANGE_SYMBOL_STATE flag is set in the mask returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
-
-For more information about handling events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>. 
-
-
-
+For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.

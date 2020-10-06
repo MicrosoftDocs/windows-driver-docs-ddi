@@ -8,8 +8,6 @@ ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.date: 03/29/2018
 keywords: ["StorPortLogTelemetry function"]
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
-f1_keywords:
- - "storport/StorPortLogTelemetry"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -27,42 +25,47 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortLogTelemetry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
+f1_keywords:
+ - StorPortLogTelemetry
+ - storport/StorPortLogTelemetry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortLogTelemetry
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # StorPortLogTelemetry function
 
+
 ## -description
 
-The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event).
+The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](./ns-storport-_storport_telemetry_event.md).
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param StorAddress [in, optional]
+### -param StorAddress 
 
+[in, optional]
 The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param Event [in]
+### -param Event 
 
+[in]
 Pointer to the STORPORT_TELEMETRY_EVENT structure that contains the telemetry data payload.
 
 ## -returns

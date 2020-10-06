@@ -6,40 +6,45 @@ old-location: netvista\dot11_incoming_assoc_completion_parameters.htm
 tech.root: netvista
 ms.assetid: 8f3cfe07-5026-40fb-b832-da5ae048843e
 ms.date: 02/16/2018
-keywords: ["_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure"]
+keywords: ["DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters, windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
-f1_keywords:
- - "windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+f1_keywords:
+ - _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - windot11/_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure
@@ -47,39 +52,11 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association operation that is performed by the 802.11 station after it receives an association request from a peer station on an infrastructure BSS.
 
-## -syntax
-
-```cpp
-typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
-  NDIS_OBJECT_HEADER     Header;
-  DOT11_MAC_ADDRESS      PeerMacAddr;
-  ULONG                  uStatus;
-  UCHAR                  ucErrorSource;
-  BOOLEAN                bReAssocReq;
-  BOOLEAN                bReAssocResp;
-  ULONG                  uAssocReqOffset;
-  ULONG                  uAssocReqSize;
-  ULONG                  uAssocRespOffset;
-  ULONG                  uAssocRespSize;
-  DOT11_AUTH_ALGORITHM   AuthAlgo;
-  DOT11_CIPHER_ALGORITHM UnicastCipher;
-  DOT11_CIPHER_ALGORITHM MulticastCipher;
-  ULONG                  uActivePhyListOffset;
-  ULONG                  uActivePhyListSize;
-  ULONG                  uBeaconOffset;
-  ULONG                  uBeaconSize;
-} DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -100,7 +77,6 @@ This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1
 This member must be set to <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
 
 For more information about these members, see <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field PeerMacAddr
 
@@ -131,31 +107,25 @@ The association failed for an IHV-specific reason. In this case, <b>uStatus</b> 
 
 A Boolean value that indicates whether the request from the peer station is a re-association request.
 
-
 ### -field bReAssocResp
 
 A Boolean value that indicates whether the response from the NIC is a re-association request.
-
 
 ### -field uAssocReqOffset
 
 The offset of the request frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
-
 ### -field uAssocReqSize
 
 The length, in bytes, of the request frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
-
 
 ### -field uAssocRespOffset
 
 The offset of the response frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
-
 ### -field uAssocRespSize
 
 The length of the response frame, in bytes, that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
-
 
 ### -field AuthAlgo
 
@@ -180,7 +150,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive packets on the BSS network connection. Each entry is a ULONG value.
 
-The Extensible Station (ExtSTA) <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
+The Extensible Station (ExtSTA) <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
 
@@ -189,14 +159,14 @@ Entries in the active PHY list can be one of the following values:
 A PHY ID that is specified by the Extensible Station (ExtSTA)
         <b>msDot11DesiredPhyList</b> management information base (MIB) object. For more information about this
         MIB object, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-phy-list">OID_DOT11_DESIRED_PHY_LIST</a>.
+        <a href="/windows-hardware/drivers/network/oid-dot11-desired-phy-list">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 </li>
 <li>
 A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the ExtSTA
         <b>msDot11ActivePhyList</b> MIB object specifies all of the PHY IDs that are specified by the
         <b>msDot11DesiredPhyList</b> MIB object. For more information about this MIB object, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
+        <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
         active PHY list.</div>
@@ -248,14 +218,35 @@ The Beacon frame should be the latest frame used by the driver, except that real
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to zero.</div>
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
+  NDIS_OBJECT_HEADER     Header;
+  DOT11_MAC_ADDRESS      PeerMacAddr;
+  ULONG                  uStatus;
+  UCHAR                  ucErrorSource;
+  BOOLEAN                bReAssocReq;
+  BOOLEAN                bReAssocResp;
+  ULONG                  uAssocReqOffset;
+  ULONG                  uAssocReqSize;
+  ULONG                  uAssocRespOffset;
+  ULONG                  uAssocRespSize;
+  DOT11_AUTH_ALGORITHM   AuthAlgo;
+  DOT11_CIPHER_ALGORITHM UnicastCipher;
+  DOT11_CIPHER_ALGORITHM MulticastCipher;
+  ULONG                  uActivePhyListOffset;
+  ULONG                  uActivePhyListSize;
+  ULONG                  uBeaconOffset;
+  ULONG                  uBeaconSize;
+} DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS;
+```
 
 ## -remarks
 
-
-
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
     the driver makes an
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
+    <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a> status indication.
 
 The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an
@@ -266,16 +257,13 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
     is sent successfully or not. The failure can be because the NIC or operating system reject the
     association request or because of a failure not related to the 802.11 framework.
 
-
-
-
 ## -see-also
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
+<a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
 
@@ -285,11 +273,3 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
-

@@ -8,8 +8,6 @@ ms.assetid: 66942ba4-40f9-4fdc-97f3-859309cd870d
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CONNECT callback function"]
 ms.keywords: PFN_WSK_CONNECT, PFN_WSK_CONNECT callback, WskConnect, WskConnect callback function [Network Drivers Starting with Windows Vista], netvista.wskconnect, wsk/WskConnect, wskref_16a15402-b34a-40b7-87a7-881d422e0d1c.xml
-f1_keywords:
- - "wsk/WskConnect"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskConnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_CONNECT
+ - wsk/PFN_WSK_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskConnect
 ---
 
 # PFN_WSK_CONNECT callback function
@@ -47,47 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskConnect</b> function connects a connection-oriented or stream socket to a remote transport address.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being connected to a remote transport address.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [in]
-
+[in]
 A pointer to a structure that specifies the remote transport address to which to connect the
      socket. This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
-
 
 ### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the connect operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskConnect</b> returns one of the following NTSTATUS codes:
 
@@ -131,7 +122,7 @@ The WSK subsystem could not connect the socket immediately. The WSK subsystem wi
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -148,80 +139,64 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskConnect</b> function only on a connection-oriented or stream socket that the application previously bound to a
     local transport address by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function.
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function.
 
 For stream sockets, once <b>WskConnect</b> is successfully called on a stream socket, the socket is committed to a connection-oriented flow and may no longer call listening socket functions.
 
 A WSK application can create, bind, and connect a connection-oriented socket in a single function call
     by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function rather than
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function rather than
     calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function, the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function, and then the 
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function, the 
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function, and then the 
     <b>WskConnect</b> function. We recommend calling the 
     <b>WskSocketConnect</b> function unless the WSK application needs to set a socket option or issue an I/O
     control operation before binding or connecting the socket.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_stream_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_stream_dispatch">
    WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect">WskDisconnect</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect">WskDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

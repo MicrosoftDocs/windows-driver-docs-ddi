@@ -31,7 +31,11 @@ api_name:
  - _DXGK_OPM_INTERFACE_2_JTP
  - DXGK_OPM_INTERFACE_2_JTP
 f1_keywords:
+ - _DXGK_OPM_INTERFACE_2_JTP
  - dispmprt/_DXGK_OPM_INTERFACE_2_JTP
+ - PDXGK_OPM_INTERFACE_2_JTP
+ - dispmprt/PDXGK_OPM_INTERFACE_2_JTP
+ - DXGK_OPM_INTERFACE_2_JTP
  - dispmprt/DXGK_OPM_INTERFACE_2_JTP
 dev_langs:
  - c++
@@ -41,7 +45,7 @@ dev_langs:
 
 ## -description
 
-Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt_opm_interface_2.md) (JTP = January Technical Preview).
+Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt-dxgk_opm_interface_2.md) (JTP = January Technical Preview).
 
 ## -struct-fields
 

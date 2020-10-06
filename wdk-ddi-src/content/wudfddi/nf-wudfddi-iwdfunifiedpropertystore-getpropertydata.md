@@ -8,8 +8,6 @@ ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.date: 02/26/2018
 keywords: ["IWDFUnifiedPropertyStore::GetPropertyData"]
 ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
-f1_keywords:
- - "wudfddi/IWDFUnifiedPropertyStore.GetPropertyData"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUnifiedPropertyStore.GetPropertyData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUnifiedPropertyStore::GetPropertyData
+ - wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUnifiedPropertyStore.GetPropertyData
 ---
 
 # IWDFUnifiedPropertyStore::GetPropertyData
@@ -47,56 +46,48 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetPropertyData</b> method retrieves the current setting for a device property.
 
-
-
 ## -parameters
 
+### -param PropertyKey 
 
+[in]
+A pointer to a <a href="/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
+### -param Lcid 
 
-### -param PropertyKey [in]
+[in]
+Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
+### -param Flags 
 
-
-### -param Lcid [in]
-
-Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
-
-
-### -param Flags [in]
-
+[in]
 Reserved for system use. Drivers should set this value to 0.
 
+### -param PropertyDataSize 
 
-### -param PropertyDataSize [in]
-
+[in]
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
+### -param PropertyData 
 
-### -param PropertyData [out, optional]
-
+[out, optional]
 A pointer to the device property data.
 
+### -param PropertyDataRequiredSize 
 
-### -param PropertyDataRequiredSize [out]
-
+[out]
 A pointer to a ULONG to receive the size of the property information that is returned in <i>PropertyData</i>.
 
+### -param PropertyType 
 
-### -param PropertyType [out]
-
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value. If <b>GetPropertyData</b> completes successfully, the method uses <i>PropertyType</i> to supply the type of data that is returned in the <i>PropertyData</i> buffer. 
-
+[out]
+A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value. If <b>GetPropertyData</b> completes successfully, the method uses <i>PropertyType</i> to supply the type of data that is returned in the <i>PropertyData</i> buffer.
 
 ## -returns
-
-
 
 <b>GetPropertyData</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following values.
 
@@ -154,22 +145,17 @@ The driver can request device interface property data only  starting with  Windo
 
 This method might return one of the other values that <i>Winerror.h</i> contains.
 
-
-
-
 ## -remarks
-
-
 
 Framework-based drivers use the <b>GetPropertyData</b> method to retrieve device properties that are defined as part of the unified device property model.
 
-In particular, you can use this method to retrieve a device's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a> or an instance of a device interface class. When you call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore">IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore</a>, set the <i>RootSpecifier</i> parameter's <b>RootClass</b> member to <b>WdfPropertyStoreRootClassHardwareKey</b> or <b>WdfPropertyStoreRootClassDeviceInterfaceKey</b>.
+In particular, you can use this method to retrieve a device's <a href="/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a> or an instance of a device interface class. When you call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore">IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore</a>, set the <i>RootSpecifier</i> parameter's <b>RootClass</b> member to <b>WdfPropertyStoreRootClassHardwareKey</b> or <b>WdfPropertyStoreRootClassDeviceInterfaceKey</b>.
 
-If you specify  <b>WdfPropertyStoreRootClassHardwareKey</b>, then when you call <b>GetPropertyData</b>, you must provide a custom <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> value in the <i>PropertyKey</i> parameter, and  not a PnP-defined key. The value must have been previously set by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-setpropertydata">SetPropertyData</a>, a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions">SetupDI device property function</a>, or by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addproperty-directive">INF AddProperty directive</a>.
+If you specify  <b>WdfPropertyStoreRootClassHardwareKey</b>, then when you call <b>GetPropertyData</b>, you must provide a custom <a href="/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> value in the <i>PropertyKey</i> parameter, and  not a PnP-defined key. The value must have been previously set by calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-setpropertydata">SetPropertyData</a>, a <a href="/windows-hardware/drivers/install/using-device-installation-functions">SetupDI device property function</a>, or by using the <a href="/windows-hardware/drivers/install/inf-addproperty-directive">INF AddProperty directive</a>.
 
-For more information about device properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/device-properties">Device Properties</a>.
+For more information about device properties, see <a href="/windows-hardware/drivers/image/device-properties">Device Properties</a>.
 
-For more information about accessing the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+For more information about accessing the registry, see <a href="/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
 #### Examples
@@ -180,13 +166,9 @@ Then, the driver should then allocate a buffer based on the <i>PropertyDataRequi
 The following example demonstrates this 
 pattern.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
 GetFriendlyName(
     _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
     )
@@ -273,40 +255,30 @@ exit:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystore">IWDFUnifiedPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystore">IWDFUnifiedPropertyStore</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystorefactory">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystorefactory">IWDFUnifiedPropertyStoreFactory</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore">RetrieveUnifiedDevicePropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore">RetrieveUnifiedDevicePropertyStore</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-setpropertydata">SetPropertyData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-setpropertydata">SetPropertyData</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_root_class">WDF_PROPERTY_STORE_ROOT_CLASS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_root_class">WDF_PROPERTY_STORE_ROOT_CLASS</a>

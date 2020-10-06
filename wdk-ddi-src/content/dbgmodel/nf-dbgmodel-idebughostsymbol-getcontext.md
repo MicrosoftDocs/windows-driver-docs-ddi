@@ -5,39 +5,38 @@ description: The GetContext method returns the context where the symbol is valid
 ms.assetid: 28fb426e-3b5b-499e-b28e-d73ebfff7fe5
 ms.date: 08/14/2018
 keywords: ["IDebugHostSymbol::GetContext"]
-f1_keywords:
- - "dbgmodel/IDebugHostSymbol.GetContext"
 ms.keywords: IDebugHostSymbol::GetContext, GetContext, IDebugHostSymbol.GetContext, IDebugHostSymbol::GetContext, IDebugHostSymbol.GetContext
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostSymbol.GetContext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostSymbol::GetContext
+ - dbgmodel/IDebugHostSymbol::GetContext
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostSymbol.GetContext
 ---
 
 # IDebugHostSymbol::GetContext
@@ -45,14 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-The GetContext method returns the context where the symbol is valid. While this will represent things such as the debug target and process/address space in which the symbol exists, it may not be as specific as a context retrieved from other means (e.g.: from an [IModelObject](nn-dbgmodel-imodelobject.md)). 
+The GetContext method returns the context where the symbol is valid. While this will represent things such as the debug target and process/address space in which the symbol exists, it may not be as specific as a context retrieved from other means (e.g.: from an [IModelObject](nn-dbgmodel-imodelobject.md)).
 
 ## -parameters
 
 ### -param context
+
 The host context in which the symbol is located will be returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -73,3 +74,4 @@ if (SUCCEEDED(spSymbol->GetContext(&spContext)))
 ## -see-also
 
 [IDebugHostSymbol interface](nn-dbgmodel-idebughostsymbol.md)
+

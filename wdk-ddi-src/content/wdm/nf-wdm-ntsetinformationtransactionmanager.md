@@ -8,8 +8,6 @@ ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.date: 04/30/2018
 keywords: ["NtSetInformationTransactionManager function"]
 ms.keywords: NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager
-f1_keywords:
- - "wdm/NtSetInformationTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- NtSetInformationTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtSetInformationTransactionManager
+ - wdm/NtSetInformationTransactionManager
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - NtSetInformationTransactionManager
 ---
 
 # NtSetInformationTransactionManager function
@@ -47,39 +46,33 @@ req.typenames:
 
 ## -description
 
-
 Do not call this routine from kernel-mode code.
-
 
 ## -parameters
 
+### -param TmHandle 
 
+[in, optional]
 
+### -param TransactionManagerInformationClass 
 
-### -param TmHandle [in, optional]
+[in]
 
+### -param TransactionManagerInformation 
 
-### -param TransactionManagerInformationClass [in]
+[in]
 
+### -param TransactionManagerInformationLength 
 
-### -param TransactionManagerInformation [in]
-
-
-### -param TransactionManagerInformationLength [in]
-
+[in]
 
 ## -returns
-
-
 
 See the <b>Zw<i>Xxx</i></b> equivalent.
 
 Do not call this routine from kernel-mode code; instead, call the <b>Zw<i>Xxx</i></b> equivalent. User-mode code can call this routine or the <b>Zw<i>Xxx</i></b> equivalent. For further comments, if any, see the ZwXxx equivalent
 
 The driver must check the return value of the function.
-
-
-
 
 ## -see-also
 

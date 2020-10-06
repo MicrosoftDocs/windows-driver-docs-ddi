@@ -1,14 +1,13 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_FAULT_HANDLER
 title: IOMMU_DOMAIN_FAULT_HANDLER (wdm.h)
-author: mimisasouvanh
-ms.author: misaso
 description: Sets the fault report on a device that is already attached to a domain.
 ms.assetid: bf44815d-9a0b-482b-8525-816a98c727f9
 ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_FAULT_HANDLER callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_FAULT_HANDLER"
+ - "IOMMU_DOMAIN_FAULT_HANDLER"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -34,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_DOMAIN_FAULT_HANDLER
-product:
-- Windows
 targetos: Windows
 ---
 

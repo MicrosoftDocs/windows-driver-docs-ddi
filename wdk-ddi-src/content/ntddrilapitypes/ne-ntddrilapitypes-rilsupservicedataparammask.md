@@ -8,8 +8,6 @@ ms.assetid: 2b0ff5a7-02b3-4a22-98da-d13825bc2f45
 ms.date: 05/02/2018
 keywords: ["RILSUPSERVICEDATAPARAMMASK enumeration"]
 ms.keywords: RILSUPSERVICEDATAPARAMMASK, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_STATUS, RIL_PARAM_SSDI_VENDOR_ERROR, netvista.rilsupservicedataparammask, ntddrilapitypes/RILSUPSERVICEDATAPARAMMASK, ntddrilapitypes/RIL_PARAM_SSDI_ALL, ntddrilapitypes/RIL_PARAM_SSDI_CC_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_DATA, ntddrilapitypes/RIL_PARAM_SSDI_DATASIZE, ntddrilapitypes/RIL_PARAM_SSDI_SS_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_STATUS, ntddrilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR
-f1_keywords:
- - "ntddrilapitypes/RILSUPSERVICEDATAPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,55 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUPSERVICEDATAPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSERVICEDATAPARAMMASK
+f1_keywords:
+ - RILSUPSERVICEDATAPARAMMASK
+ - ntddrilapitypes/RILSUPSERVICEDATAPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUPSERVICEDATAPARAMMASK
 ---
 
-# RILSUPSERVICEDATAPARAMMASK enumeration
+# RILSUPSERVICEDATAPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_SSDI_EXECUTOR
-
 
 ### -field RIL_PARAM_SSDI_STATUS
 
-
 ### -field RIL_PARAM_SSDI_SS_ERROR
-
 
 ### -field RIL_PARAM_SSDI_CC_ERROR
 
-
 ### -field RIL_PARAM_SSDI_VENDOR_ERROR
-
 
 ### -field RIL_PARAM_SSDI_DATASIZE
 
-
 ### -field RIL_PARAM_SSDI_DATA
-
 
 ### -field RIL_PARAM_SSDI_ALL
 

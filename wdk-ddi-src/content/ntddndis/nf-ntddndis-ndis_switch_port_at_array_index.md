@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: f5a90214-4af2-45bb-b62d-cf4297250dd0
 ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_AT_ARRAY_INDEX macro"]
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_AT_ARRAY_INDEX"
 ms.keywords: NDIS_SWITCH_PORT_AT_ARRAY_INDEX
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddndis.h
-api_name: 
-- NDIS_SWITCH_PORT_AT_ARRAY_INDEX
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_SWITCH_PORT_AT_ARRAY_INDEX
+ - ntddndis/NDIS_SWITCH_PORT_AT_ARRAY_INDEX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_AT_ARRAY_INDEX
 ---
 
 # NDIS_SWITCH_PORT_AT_ARRAY_INDEX macro
@@ -71,3 +69,4 @@ The **NDIS_SWITCH_PORT_AT_ARRAY_INDEX** macro returns a pointer to the specified
 [**NDIS_SWITCH_PORT_PARAMETERS**](ns-ntddndis-_ndis_switch_port_parameters.md)
 
 [**NDIS_SWITCH_PORT_ARRAY**](ns-ntddndis-_ndis_switch_port_array.md)
+

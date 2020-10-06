@@ -6,10 +6,8 @@ old-location: display\dxgkvgpu_escape_read_vgpu_type.htm
 tech.root: display
 ms.assetid: 2D3D8927-74E3-438F-94CF-63456C7C7BBC
 ms.date: 05/10/2018
-keywords: ["_DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure"]
+keywords: ["DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type
-f1_keywords:
- - "d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGKVGPU_ESCAPE_READ_VGPU_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+f1_keywords:
+ - _DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+ - d3dukmdt/_DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+ - DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+ - d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 ---
 
 # _DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure
@@ -47,14 +48,9 @@ req.typenames: DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 
 ## -description
 
-
 A structure used to read the VGPU type of an escape.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 

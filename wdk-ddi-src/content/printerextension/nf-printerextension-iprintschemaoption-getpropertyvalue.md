@@ -8,8 +8,6 @@ ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.date: 06/25/2020
 keywords: ["IPrintSchemaOption::GetPropertyValue"]
 ms.keywords: GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices],GetPropertyValue method, IPrintSchemaOption.GetPropertyValue, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, printerextension/IPrintSchemaOption::GetPropertyValue
-f1_keywords:
- - "printerextension/IPrintSchemaOption.GetPropertyValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaOption.GetPropertyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaOption::GetPropertyValue
+ - printerextension/IPrintSchemaOption::GetPropertyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaOption.GetPropertyValue
 ---
 
 # IPrintSchemaOption::GetPropertyValue
+
 
 ## -description
 
@@ -50,12 +50,14 @@ Gets the XML node for the value child element of a Property  or a ScoredProperty
 
 ## -parameters
 
-### -param bstrName [in]
+### -param bstrName 
 
+[in]
 The base value of the name attribute of the Property or the ScoredProperty element.
 
-### -param bstrNamespaceUri [in]
+### -param bstrNamespaceUri 
 
+[in]
 The namespace URI value of the name attribute of the Property or the ScoredProperty element.
 
 ### -param ppXmlValueNode
@@ -72,12 +74,12 @@ Returns an **HRESULT** value. If the method call was not successful,  it returns
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-If the [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object does not contain the specified feature, option or property, the app must obtain an [IPrintSchemaCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object and query it via [IPrintSchemaCapabilities::GetFeatureByKeyName](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeaturebykeyname) or via [IPrintSchemaCapabilities::GetFeature](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeature).
+If the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object does not contain the specified feature, option or property, the app must obtain an [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object and query it via [IPrintSchemaCapabilities::GetFeatureByKeyName](./nf-printerextension-iprintschemacapabilities-getfeaturebykeyname.md) or via [IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md).
 
 ## -see-also
 
-[IPrintSchemaCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaOption](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

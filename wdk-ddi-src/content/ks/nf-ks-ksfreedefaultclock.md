@@ -8,8 +8,6 @@ ms.assetid: e2fc87c9-e48f-4e18-ae1b-52a7cc701e91
 ms.date: 04/23/2018
 keywords: ["KsFreeDefaultClock function"]
 ms.keywords: KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock
-f1_keywords:
- - "ks/KsFreeDefaultClock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFreeDefaultClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFreeDefaultClock
+ - ks/KsFreeDefaultClock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFreeDefaultClock
 ---
 
 # KsFreeDefaultClock function
@@ -48,27 +47,17 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
+The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
 
 This may only be called at PASSIVE_LEVEL.
 
-
 ## -parameters
 
+### -param DefaultClock 
 
-
-
-### -param DefaultClock [in]
-
+[in]
 Specifies the previously allocated structure to free.
-
 
 ## -returns
 
-
-
 None
-
-
-

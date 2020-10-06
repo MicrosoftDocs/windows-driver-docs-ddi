@@ -8,39 +8,38 @@ ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
 ms.date: 02/02/2018
 keywords: ["FindFirstPrinterChangeNotification function"]
 ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
-f1_keywords:
- - "winspool/FindFirstPrinterChangeNotification"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinSpool.drv
-api_name:
-- FindFirstPrinterChangeNotification
-product:
-- Windows
+req.irql: 
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
+f1_keywords:
+ - FindFirstPrinterChangeNotification
+ - winspool/FindFirstPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinSpool.drv
+api_name:
+ - FindFirstPrinterChangeNotification
 ---
 
 # FindFirstPrinterChangeNotification function
@@ -48,47 +47,21 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>A print provider's <b>FindFirstPrinterChangeNotification</b> function informs the provider that an application has requested notification when a specified set of events occur on a specified print queue.
 
-
-## -syntax
-
-
-```cpp
-BOOL FindFirstPrinterChangeNotification(
-   HANDLE hPrinter,
-   DWORD  fdwFlags,
-   DWORD  fdwOptions,
-   HANDLE hNotify,
-   PDWORD pfdwStatus,
-   PVOID  pPrinterNotifyOptions,
-   PVOID  pPrinterNotifyInit
-);
-```
-
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
 Caller-supplied printer handle, identifying the printer for which event notification is being requested. This handle must have been previously obtained from OpenPrinter (described in the Microsoft Windows SDK documentation).
 
-
 ### -param fdwFilter
-
-
-
 
 ### -param fdwOptions
 
 Not used.
-
 
 ### -param pPrinterNotifyOptions
 
@@ -130,7 +103,7 @@ If set, the print provider supplies print change notifications, by either the po
 
 If set, the print application must poll to detect printer changes.
 
-If clear, the print provider notifies the spooler of changes by calling <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>.
+If clear, the print provider notifies the spooler of changes by calling <a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>.
 
 (See the following Remarks section.)
 
@@ -142,19 +115,25 @@ If clear, the print provider notifies the spooler of changes by calling <a href=
 
 Not used.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise the function should return <b>FALSE</b>.
 
+## -syntax
 
-
+```cpp
+BOOL FindFirstPrinterChangeNotification(
+   HANDLE hPrinter,
+   DWORD  fdwFlags,
+   DWORD  fdwOptions,
+   HANDLE hNotify,
+   PDWORD pfdwStatus,
+   PVOID  pPrinterNotifyOptions,
+   PVOID  pPrinterNotifyInit
+);
+```
 
 ## -remarks
-
-
 
 When the spooler calls a print provider's <b>FindFirstPrinterChangeNotification</b> function, <i>fdwFlags</i> identifies the printer events for which notification is being requested. Additionally, <i>pPrinterNotifyOptions</i> identifies the types of information that the print provider should send to the spooler when one of the specified events occurs.
 
@@ -164,12 +143,9 @@ If the print provider does not request polling (that is, it does not set PRINTER
 
 If the provider does request polling (that is, it sets PRINTER_NOTIFY_STATUS_POLL), it should not call <b>ReplyPrinterChangeNotification</b>. Instead, the spooler signals the application at regular intervals.
 
-Both polled and nonpolled print provider must return the current state of all requested information types whenever its <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function is called.
+Both polled and nonpolled print provider must return the current state of all requested information types whenever its <a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function is called.
 
-For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
-
-
-
+For additional information, see <a href="/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
 ## -see-also
 
@@ -181,12 +157,4 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>
-
-
-
- 
-
- 
-
-
+<a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>

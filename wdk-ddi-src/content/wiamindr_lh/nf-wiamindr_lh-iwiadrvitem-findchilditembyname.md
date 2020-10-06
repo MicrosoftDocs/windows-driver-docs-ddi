@@ -8,12 +8,10 @@ ms.assetid: 04f446f2-cd59-4191-be0c-60140ecee3b2
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::FindChildItemByName"]
 ms.keywords: DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, FindChildItemByName, FindChildItemByName method [Imaging Devices], FindChildItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindChildItemByName method, IWiaDrvItem.FindChildItemByName, IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, wiamindr_lh/IWiaDrvItem::FindChildItemByName
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.FindChildItemByName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.FindChildItemByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::FindChildItemByName
+ - wiamindr_lh/IWiaDrvItem::FindChildItemByName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.FindChildItemByName
 ---
 
 # IWiaDrvItem::FindChildItemByName
+
 
 ## -description
 
@@ -76,12 +76,12 @@ If the method succeeds, it stores a pointer to the found child item in *ppIChild
 
 ## -remarks
 
-Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname).
+Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method [IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md).
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[IWiaDrvItem::FindItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname)
+[IWiaDrvItem::FindItemByName](./nf-wiamindr_lh-iwiadrvitem-finditembyname.md)
 
-[IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)
+[IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md)

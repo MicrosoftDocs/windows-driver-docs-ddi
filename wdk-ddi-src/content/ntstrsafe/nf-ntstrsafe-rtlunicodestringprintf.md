@@ -8,8 +8,6 @@ ms.assetid: a646a63a-9a92-49ae-adfc-97d6b726caac
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringPrintf function"]
 ms.keywords: RtlUnicodeStringPrintf, RtlUnicodeStringPrintf function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringprintf, ntstrsafe/RtlUnicodeStringPrintf, safestrings_9ad0c4dc-1e0a-41b3-a5d8-e5d80e876226.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringPrintf"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringPrintf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringPrintf
+ - ntstrsafe/RtlUnicodeStringPrintf
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringPrintf
 ---
 
 # RtlUnicodeStringPrintf function
@@ -48,24 +47,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUnicodeStringPrintf</b> function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
-
+The <b>RtlUnicodeStringPrintf</b> function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [out]
-
+[out]
 A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string. <b>RtlUnicodeStringPrintf</b> creates this string from the formatting string that <i>pszFormat</i> specifies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
+### -param pszFormat 
 
-### -param pszFormat [in]
-
+[in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
-
 
 ### -param param
 
@@ -78,10 +72,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled fo
 
 Optional. A list of arguments that the function interprets, based on formatting directives that the <i>pszFormat</i> string contains.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringPrintf</b> returns one of the following NTSTATUS values. 
 
@@ -134,45 +125,30 @@ This <i>error</i> status means that the function received an invalid input param
 <li>A <b>NULL</b> pointer is present.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
-
-
-
+For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringPrintf</b> function uses the destination buffer's size to ensure that the string formatting operation does not write past the end of the buffer. The function does not terminate the resultant string with a null character.
 
 If the format string and destination string overlap, the behavior of the function is undefined.
 
-The <i>pszFormat</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex">RtlUnicodeStringPrintfEx</a> function.
+The <i>pszFormat</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex">RtlUnicodeStringPrintfEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex">RtlUnicodeStringPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex">RtlUnicodeStringPrintfEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintfex">RtlUnicodeStringVPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintfex">RtlUnicodeStringVPrintfEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

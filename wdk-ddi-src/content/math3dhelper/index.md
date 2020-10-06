@@ -4,18 +4,18 @@ title: Math3dhelper.h header
 ms.assetid: 7becfbc9-ce8a-436a-95fa-b67bf84583d3
 ms.date: 07/30/2018
 keywords: ["Math3dhelper.h header"]
-ms.keywords:
+ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 tech.root: sensors
 ms.topic: portal
-product:
-- Windows
 ms.custom: RS5
+f1_keywords:
+ - math3dhelper
+ - math3dhelper/math3dhelper
 ---
 
 # Math3dhelper.h header
-
 
 
 ## -description
@@ -35,3 +35,4 @@ The following is a table of constants in Math3dhelper.h:
 This header is used by sensors. For more information, see:
 
 - [Sensors](../_sensors/index.md)
+

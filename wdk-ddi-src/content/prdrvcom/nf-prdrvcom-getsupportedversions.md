@@ -10,6 +10,7 @@ keywords: ["GetSupportedVersions function"]
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintTicketProvider::GetSupportedVersions, prdrvcom/IPrintTicketProvider::GetSupportedVersions, print.iprintticketprovider_getsupportedversions, print_ticket-package_3c9ed7b7-a38f-49b2-a7fc-7fc78aa39a27.xml
 f1_keywords:
  - "prdrvcom/IPrintTicketProvider.GetSupportedVersions"
+ - "IPrintTicketProvider.GetSupportedVersions"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prdrvcom.h
 api_name:
 - IPrintTicketProvider.GetSupportedVersions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ The <code>IPrintTicketProvider::GetSupportedVersions</code> method retrieves maj
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 A handle to the print device.
 
 
@@ -66,8 +65,8 @@ A handle to the print device.
 
 
 
-### -param cVersions [out]
-
+### -param cVersions 
+[out]
 A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>. 
 
 
@@ -93,7 +92,7 @@ A pointer to a variable that receives the address of the first element of an arr
 
 The plug-in is responsible for allocating the array memory that is pointed to by the <i>ppVersions</i> parameter. The plug-in should allocate this memory by using the <b>CoTaskMemAlloc</b> function (described in the Microsoft Windows SDK documentation), but the plug-in is not responsible for freeing this memory.
 
-Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a> method is called, the OEM plug-in provider must check version support based on the handle that is passed in the <i>hPrinter</i> parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with <i>hPrinter</i>.
+Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a> method is called, the OEM plug-in provider must check version support based on the handle that is passed in the <i>hPrinter</i> parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with <i>hPrinter</i>.
 
 
 
@@ -103,12 +102,11 @@ Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called be
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554375(v=vs.85)">IPrintTicketProvider</a>
+<a href="/previous-versions/windows/hardware/drivers/ff554375(v=vs.85)">IPrintTicketProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a>
+<a href="/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a>
  
 
  
-

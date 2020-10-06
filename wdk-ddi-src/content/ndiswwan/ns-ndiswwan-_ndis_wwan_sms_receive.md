@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_sms_receive.htm
 tech.root: netvista
 ms.assetid: 2ff53520-5ba0-47dc-816d-6245924356ee
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SMS_RECEIVE structure"]
+keywords: ["NDIS_WWAN_SMS_RECEIVE structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, _NDIS_WWAN_SMS_RECEIVE, ndiswwan/NDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SMS_RECEIVE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SMS_RECEIVE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE
+f1_keywords:
+ - _NDIS_WWAN_SMS_RECEIVE
+ - ndiswwan/_NDIS_WWAN_SMS_RECEIVE
+ - PNDIS_WWAN_SMS_RECEIVE
+ - ndiswwan/PNDIS_WWAN_SMS_RECEIVE
+ - NDIS_WWAN_SMS_RECEIVE
+ - ndiswwan/NDIS_WWAN_SMS_RECEIVE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SMS_RECEIVE
 ---
 
 # _NDIS_WWAN_SMS_RECEIVE structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE
 
 ## -description
 
-
 The NDIS_WWAN_SMS_RECEIVE structure represents a list of received SMS messages and the number of
   messages in the list.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,32 +103,22 @@ sizeof(NDIS_WWAN_SMS_RECEIVE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
 The status of the SMS receive operation.
 
-
 ### -field SmsListHeader
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a> object that represents a
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a> object that represents a
      list of received SMS messages and the number of messages in the list.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>

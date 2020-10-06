@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d10umddi.D3DDDI_HDR_METADATA_TYPE
 title: D3DDDI_HDR_METADATA_TYPE
-author: windows-driver-content
 description: Defines the format of HDR metadata.
 tech.root: display
 ms.assetid: 5cd041de-f15e-40a8-854b-7a32a6952734
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DDDI_HDR_METADATA_TYPE enumeration"]
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, ,
@@ -24,7 +22,8 @@ req.typenames:
 targetos: Windows
 ms.custom: D3D_UMD_INTERFACE_VERSION_WDDM2_0, 19H1
 f1_keywords:
- - "d3d10umddi/D3DDDI_HDR_METADATA_TYPE"
+ - D3DDDI_HDR_METADATA_TYPE
+ - d3d10umddi/D3DDDI_HDR_METADATA_TYPE
 topic_type:
  - apiref
 api_type:
@@ -37,7 +36,8 @@ product:
  - Windows
 ---
 
-# D3DDDI_HDR_METADATA_TYPE enumeration
+# D3DDDI_HDR_METADATA_TYPE enumeration (d3d10umddi.h)
+
 
 ## -description
 

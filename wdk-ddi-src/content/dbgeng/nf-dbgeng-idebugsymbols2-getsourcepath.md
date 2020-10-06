@@ -8,8 +8,6 @@ ms.assetid: 93a1efce-5f93-4a09-aa61-ffbd3d619176
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetSourcePath"]
 ms.keywords: GetSourcePath, GetSourcePath method [Windows Debugging], GetSourcePath method [Windows Debugging],IDebugSymbols interface, GetSourcePath method [Windows Debugging],IDebugSymbols2 interface, GetSourcePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSourcePath method, IDebugSymbols2 interface [Windows Debugging],GetSourcePath method, IDebugSymbols2.GetSourcePath, IDebugSymbols2::GetSourcePath, IDebugSymbols3 interface [Windows Debugging],GetSourcePath method, IDebugSymbols3::GetSourcePath, IDebugSymbols::GetSourcePath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, dbgeng/IDebugSymbols2::GetSourcePath, dbgeng/IDebugSymbols3::GetSourcePath, dbgeng/IDebugSymbols::GetSourcePath, debugger.getsourcepath
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetSourcePath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetSourcePath
-- IDebugSymbols2.GetSourcePath
-- IDebugSymbols3.GetSourcePath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols2::GetSourcePath
+ - dbgeng/IDebugSymbols2::GetSourcePath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetSourcePath
+ - IDebugSymbols2.GetSourcePath
+ - IDebugSymbols3.GetSourcePath
 ---
 
 # IDebugSymbols2::GetSourcePath
@@ -49,35 +48,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSourcePath</b>  method returns the source path.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param PathSize 
 
-### -param PathSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the source path.
-
 
 ## -returns
 
-
-
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -107,49 +99,33 @@ The method was successful. However, the buffer was not large enough to hold the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The source path is used by the engine when searching for source files.
 
-For more information about manipulating the source path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/source-path">Source Path</a>.
-
-
-
+For more information about manipulating the source path, see <a href="/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="/windows-hardware/drivers/debugger/source-path">Source Path</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendsourcepath">AppendSourcePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendsourcepath">AppendSourcePath</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathelement">GetSourcePathElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathelement">GetSourcePathElement</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsourcepath">SetSourcePath</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsourcepath">SetSourcePath</a>

@@ -8,38 +8,37 @@ ms.assetid: 2cf3564e-10aa-49bb-9b94-abd987870196
 ms.date: 02/15/2018
 keywords: ["PNEGOTIATE_IEEE_MODE callback"]
 ms.keywords: PNEGOTIATE_IEEE_MODE, PNEGOTIATE_IEEE_MODE function pointer [Parallel Ports], cisspd_0bea0bb3-2a7c-4cf4-938d-8bc67962a222.xml, parallel/PNEGOTIATE_IEEE_MODE, parports.pnegotiate_ieee_mode
-f1_keywords:
- - "parallel/PNEGOTIATE_IEEE_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- parallel.h
-api_name:
-- PNEGOTIATE_IEEE_MODE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - PNEGOTIATE_IEEE_MODE
+ - parallel/PNEGOTIATE_IEEE_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - parallel.h
+api_name:
+ - PNEGOTIATE_IEEE_MODE
 ---
 
 # PNEGOTIATE_IEEE_MODE callback
@@ -47,44 +46,17 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 ## -description
 
-
 The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and reverse protocols that the system-supplied bus driver for parallel ports supports from among those specified by the caller. The system-supplied bus driver for parallel ports supplies this routine.
-
-
-## -prototype
-
-
-```cpp
-typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
-  _In_ PVOID           Context,
-  _In_ USHORT          ModeMaskFwd,
-  _In_ USHORT          ModeMaskRev,
-  _In_ PARALLEL_SAFETY ModeSafety,
-  _In_ BOOLEAN         IsForward
-);
-```
-
 
 ## -parameters
 
-
-
-
 ### -param Extension
-
 
 ### -param Extensibility
 
-
-
-
-
-
-
-
 #### - Context [in]
 
-Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 
 #### - IsForward [in]
@@ -112,8 +84,6 @@ Specifies the safety mode. Must be set to the SAFE_MODE enumeration value of the
 } PARALLEL_SAFETY;</code></pre>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -154,21 +124,24 @@ An internal operation resulted in an NTSTATUS error.
 </td>
 </tr>
 </table>
- 
 
+## -prototype
 
-
+```cpp
+typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
+  _In_ PVOID           Context,
+  _In_ USHORT          ModeMaskFwd,
+  _In_ USHORT          ModeMaskRev,
+  _In_ PARALLEL_SAFETY ModeSafety,
+  _In_ BOOLEAN         IsForward
+);
+```
 
 ## -remarks
-
-
 
 To obtain a pointer to the system-supplied PNEGOTIATE_IEEE_MODE callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>NegotiateIeeeMode</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
 
 The PNEGOTIATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the caller.
-
-
-
 
 ## -see-also
 
@@ -197,11 +170,3 @@ The PNEGOTIATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the
 
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-
-
-
- 
-
- 
-
-

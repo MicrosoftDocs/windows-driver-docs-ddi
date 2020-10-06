@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2indexedtrianglestrip.htm
 tech.root: display
 ms.assetid: 542f89f1-f562-4293-9ca1-96e7a0512772
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2INDEXEDTRIANGLESTRIP structure"]
+keywords: ["D3DHAL_DP2INDEXEDTRIANGLESTRIP structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, display.d3dhal_dp2indexedtrianglestrip"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2INDEXEDTRIANGLESTRIP
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+f1_keywords:
+ - _D3DHAL_DP2INDEXEDTRIANGLESTRIP
+ - d3dhal/_D3DHAL_DP2INDEXEDTRIANGLESTRIP
+ - LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+ - d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+ - D3DHAL_DP2INDEXEDTRIANGLESTRIP
+ - d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2INDEXEDTRIANGLESTRIP
 ---
 
 # _D3DHAL_DP2INDEXEDTRIANGLESTRIP structure
@@ -47,14 +50,9 @@ req.typenames: D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
 
 ## -description
 
-
-One or more D3DHAL_DP2INDEXEDTRIANGLESTRIP structures are parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDTRIANGLESTRIP, and are used to render strips of connected triangles using vertex indices.
-
+One or more D3DHAL_DP2INDEXEDTRIANGLESTRIP structures are parsed from the command buffer by the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDTRIANGLESTRIP, and are used to render strips of connected triangles using vertex indices.
 
 ## -struct-fields
-
-
-
 
 ### -field wV
 
@@ -62,13 +60,9 @@ Specifies the index into the vertex buffer containing coordinate data for the fi
 
 Although this member has only enough space to contain three indexes, this array of indexes should be treated as a variable-sized array with (<b>wPrimitiveCount</b> + 2) elements. (<b>wPrimitiveCount</b> is a member of the D3DHAL_DP2COMMAND structure.)
 
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b>+2) indexes from the command buffer, in effect, processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDTRIANGLESTRIP structures.
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b>+2) indexes from the command buffer, in effect, processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDTRIANGLESTRIP structures.
 
 The triangle edges in a triangle strip are rendered in this order: (<b>wV[</b>0<b>]</b>, <b>wV[</b>1<b>]</b>, <b>wV[</b>2<b>]</b>), (<b>wV[</b>1<b>]</b>, <b>wV[</b>3<b>]</b>, <b>wV[</b>2<b>]</b>), (<b>wV[</b>2<b>]</b>, <b>wV[</b>3<b>]</b>, <b>wV[</b>4<b>]</b>), (<b>wV[</b>3<b>]</b>, <b>wV[</b>5<b>]</b>, <b>wV[</b>4<b>]</b>),...
 
@@ -84,37 +78,28 @@ When <b>wPrimitiveCount</b> is an even number, the last triangle's edges are ren
 
 </li>
 </ul>
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2startvertex">D3DHAL_DP2STARTVERTEX</a> structure immediately follows the command in the command buffer. The vertex buffer indexes are relative to the vertex buffer offset specified by the <b>dwVertexOffset</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_drawprimitives2data">D3DHAL_DRAWPRIMITIVES2DATA</a> structure plus the base offset obtained from the <b>wVStart</b> member of the D3DHAL_DP2STARTVERTEX structure.
+A <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2startvertex">D3DHAL_DP2STARTVERTEX</a> structure immediately follows the command in the command buffer. The vertex buffer indexes are relative to the vertex buffer offset specified by the <b>dwVertexOffset</b> member of the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_drawprimitives2data">D3DHAL_DRAWPRIMITIVES2DATA</a> structure plus the base offset obtained from the <b>wVStart</b> member of the D3DHAL_DP2STARTVERTEX structure.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_INDEXEDTRIANGLESTRIP command, a D3DHAL_DP2STARTVERTEX offset of zero, and a logical list of D3DHAL_DP2INDEXEDTRIANGLESTRIP structures. The driver should process five vertices from the vertex buffer, rendering a strip of three triangles defined by (v[1], v[3], v[6]), (v[3], v[4], v[6]), (v[6], v[4], v[5]).
 
 <img alt="Figure showing a buffer with a D3DDP2OP_INDEXEDTRIANGLESTRIP command, a D3DHAL_DP2STARTVERTEX offset of zero, and a logical list of D3DHAL_DP2INDEXEDTRIANGLESTRIP structures" src="images/dp2tstrp.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_INDEXEDTRIANGLESTRIP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2startvertex">D3DHAL_DP2STARTVERTEX</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2startvertex">D3DHAL_DP2STARTVERTEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_drawprimitives2data">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_drawprimitives2data">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

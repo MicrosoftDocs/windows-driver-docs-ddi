@@ -8,8 +8,6 @@ ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration"]
 ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
-f1_keywords:
- - "prnasntp/IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
+ - prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
 ---
 
 # IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
@@ -47,21 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
-
-
-
-### -param
-
-
-
-
-
+## -param
 
 #### - filter [in]
 
@@ -77,23 +64,10 @@ req.typenames:
 
 #### - ppRegistration [out]
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotify">IPrintAsyncNotify</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotify">IPrintAsyncNotify</a>

@@ -8,8 +8,6 @@ ms.assetid: 2122d970-1d1c-4ef0-b8f7-92ef6e4f0731
 ms.date: 05/03/2018
 keywords: ["IDebugInputCallbacks interface"]
 ms.keywords: ComCallbacks_9dd6d3d2-e92d-41bc-8276-fa8b7818a372.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging],described, dbgeng/IDebugInputCallbacks, debugger.idebuginputcallbacks
-f1_keywords:
- - "dbgeng/IDebugInputCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugInputCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugInputCallbacks
+ - dbgeng/IDebugInputCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugInputCallbacks
 ---
 
 # IDebugInputCallbacks interface
@@ -47,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugInputCallbacks</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugInputCallbacks</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugInputCallbacks</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugInputCallbacks</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

@@ -6,10 +6,8 @@ old-location: whea\whea_nmi_error_section.htm
 tech.root: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
 ms.date: 02/20/2018
-keywords: ["_WHEA_NMI_ERROR_SECTION structure"]
+keywords: ["WHEA_NMI_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, ntddk/WHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml"
-f1_keywords:
- - "ntddk/WHEA_NMI_ERROR_SECTION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_NMI_ERROR_SECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION
+f1_keywords:
+ - _WHEA_NMI_ERROR_SECTION
+ - ntddk/_WHEA_NMI_ERROR_SECTION
+ - PWHEA_NMI_ERROR_SECTION
+ - ntddk/PWHEA_NMI_ERROR_SECTION
+ - WHEA_NMI_ERROR_SECTION
+ - ntddk/WHEA_NMI_ERROR_SECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_NMI_ERROR_SECTION
 ---
 
 # _WHEA_NMI_ERROR_SECTION structure
@@ -47,40 +50,29 @@ req.typenames: WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION
 
 ## -description
 
-
 The WHEA_NMI_ERROR_SECTION structure describes nonmaskable interrupt (NMI) error data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Data
 
 An 8-byte data buffer that contains the data that was read from the NMI I/O ports by the NMI low-level hardware error handler (LLHEH).
 
-
 ### -field Flags
 
 A WHEA_NMI_ERROR__SECTION_FLAGS union that describes the source of the NMI error. The WHEA_NMI_ERROR_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_NMI_ERROR_SECTION_FLAGS {
+
+```
+typedef union _WHEA_NMI_ERROR_SECTION_FLAGS {
   struct {
     ULONG  HypervisorError:1;
     ULONG  Reserved:31;
   };
   ULONG  AsULONG;
-} WHEA_NMI_ERROR_SECTION_FLAGS, *PWHEA_NMI_ERROR_SECTION_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_NMI_ERROR_SECTION_FLAGS, *PWHEA_NMI_ERROR_SECTION_FLAGS;
+```
+
 
 
 
@@ -101,27 +93,14 @@ Reserved for system use.
 
 A ULONG representation of the contents of the WHEA_NMI_ERROR_SECTION_FLAGS union.
 
-
 ## -remarks
 
-
-
-The WHEA_NMI_ERROR_SECTION structure describes the error data contained in a nonmaskable interrupt (NMI) error section of an <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains an NMI error section only if the <b>SectionType </b>member of one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains NMI_SECTION_GUID.
-
-
-
+The WHEA_NMI_ERROR_SECTION structure describes the error data contained in a nonmaskable interrupt (NMI) error section of an <a href="/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains an NMI error section only if the <b>SectionType </b>member of one of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains NMI_SECTION_GUID.
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>

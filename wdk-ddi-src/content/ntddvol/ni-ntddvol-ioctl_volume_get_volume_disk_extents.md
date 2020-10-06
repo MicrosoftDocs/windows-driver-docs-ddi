@@ -8,8 +8,6 @@ ms.assetid: d831ea36-16ee-4723-95b1-f9903106b7c0
 ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL"]
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, storage.ioctl_volume_get_volume_disk_extents
-f1_keywords:
- - "ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvol.h
-api_name:
-- IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+ - ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvol.h
+api_name:
+ - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 ---
 
 # IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL
@@ -47,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
 Returns the physical location(s) of a volume on one or more disks. Extents are initially stored in the order in which they are created, but remirroring, splitting, or breaking a mirror, or actions taken during disaster recovery, can affect the order of disk extents.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
-The driver returns a VOLUME_DISK_EXTENTS structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least <b>sizeof</b>(VOLUME_DISK_EXTENTS). 
-
+The driver returns a VOLUME_DISK_EXTENTS structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least <b>sizeof</b>(VOLUME_DISK_EXTENTS).
 
 ### -output-buffer-length
 
 The length of a VOLUME_DISK_EXTENTS structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -118,15 +91,8 @@ If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is large enough for all 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_disk_extent">DISK_EXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_disk_extent">DISK_EXTENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>

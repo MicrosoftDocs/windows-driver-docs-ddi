@@ -8,8 +8,6 @@ ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptablePropertyBag::SetBool"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBool method, IPrinterScriptablePropertyBag.SetBool, IPrinterScriptablePropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
-f1_keywords:
- - "printerextension/IPrinterScriptablePropertyBag.SetBool"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterScriptablePropertyBag.SetBool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptablePropertyBag::SetBool
+ - printerextension/IPrinterScriptablePropertyBag::SetBool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterScriptablePropertyBag.SetBool
 ---
 
 # IPrinterScriptablePropertyBag::SetBool
@@ -47,50 +46,28 @@ req.typenames:
 
 ## -description
 
-
 Writes a specified boolean property value.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The property to set.
 
+### -param bValue 
 
-### -param bValue [in]
-
+[in]
 The value to set.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
 A call to <b>SetBool</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>

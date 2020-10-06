@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyQuery"
+ - PFND3DDDI_DESTROYQUERY
+ - d3dumddi/PFND3DDDI_DESTROYQUERY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_DESTROYQUERY callback function
 
+
 ## -description
 
 The <b>DestroyQuery</b> function releases resources for a query.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *hQuery* [in]
 
-A handle to the query that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function created.
+A handle to the query that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function created.
 
 ## -returns
 
@@ -66,13 +68,12 @@ A handle to the query that the <a href="https://docs.microsoft.com/windows-hardw
 
 ## -remarks
 
-The <b>DestroyQuery</b> function notifies the driver to destroy the query handle that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function previously created. The driver can then release resources that are associated with the query handle.
+The <b>DestroyQuery</b> function notifies the driver to destroy the query handle that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function previously created. The driver can then release resources that are associated with the query handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

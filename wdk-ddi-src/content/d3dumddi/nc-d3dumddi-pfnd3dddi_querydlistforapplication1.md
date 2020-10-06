@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/QueryDListForApplication"
+ - PFND3DDDI_QUERYDLISTFORAPPLICATION1
+ - d3dumddi/PFND3DDDI_QUERYDLISTFORAPPLICATION1
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +45,10 @@ product:
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function
 
+
 ## -description
 
-Called during Microsoft Direct3D initialization on a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
+Called during Microsoft Direct3D initialization on a <a href="/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
 ## -parameters
 
@@ -60,7 +62,7 @@ If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, th
 
 *pfnEscapeCB* [in]
 
-A function pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
+A function pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
 ### -param Arg3
 
@@ -70,11 +72,10 @@ Returns <b>S_OK</b>, or an appropriate error result if the operation is not succ
 
 ## -remarks
 
-For more information on how to call this function and set up the DLL that exports it, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/hybrid-system-ddi">Hybrid system DDI</a>.
+For more information on how to call this function and set up the DLL that exports it, see <a href="/windows-hardware/drivers/display/hybrid-system-ddi">Hybrid system DDI</a>.
 
-For more general information on hybrid systems, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
+For more general information on hybrid systems, see <a href="/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>

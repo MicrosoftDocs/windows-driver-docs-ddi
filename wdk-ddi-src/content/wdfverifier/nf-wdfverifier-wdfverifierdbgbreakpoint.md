@@ -8,8 +8,6 @@ ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.date: 02/26/2018
 keywords: ["WdfVerifierDbgBreakPoint function"]
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
-f1_keywords:
- - "wdfverifier/WdfVerifierDbgBreakPoint"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfVerifierDbgBreakPoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfVerifierDbgBreakPoint
+ - wdfverifier/WdfVerifierDbgBreakPoint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfVerifierDbgBreakPoint
 ---
 
 # WdfVerifierDbgBreakPoint function
@@ -50,15 +49,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
 
-
 ## -remarks
-
-
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if one of the following is true:
 
@@ -68,9 +63,9 @@ The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if on
 								</li>
 <li>Driver Verifier is enabled, the  driver was built with framework version 1.9 or later, and neither <b>VerifierOn</b> nor <b>DbgBreakOnError</b> is set.</li>
 </ul>
-For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
+For more information about registry entries that you can use to debug your driver, see <a href="/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
 
-For more information about debugging your driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+For more information about debugging your driver, see <a href="/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
 
 
 #### Examples
@@ -94,15 +89,6 @@ if( !NT_SUCCESS(Status) ) {
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfverifier/nf-wdfverifier-wdfverifierkebugcheck">WdfVerifierKeBugCheck</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfverifier/nf-wdfverifier-wdfverifierkebugcheck">WdfVerifierKeBugCheck</a>

@@ -6,10 +6,8 @@ old-location: bltooth\channel_config_results_enhanced.htm
 tech.root: bltooth
 ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.date: 04/27/2018
-keywords: ["_CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
+keywords: ["CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"
-f1_keywords:
- - "bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthddi.h
-api_name:
-- CHANNEL_CONFIG_RESULTS_ENHANCED
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED
+f1_keywords:
+ - _CHANNEL_CONFIG_RESULTS_ENHANCED
+ - bthddi/_CHANNEL_CONFIG_RESULTS_ENHANCED
+ - PCHANNEL_CONFIG_RESULTS_ENHANCED
+ - bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED
+ - CHANNEL_CONFIG_RESULTS_ENHANCED
+ - bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthddi.h
+api_name:
+ - CHANNEL_CONFIG_RESULTS_ENHANCED
 ---
 
 # _CHANNEL_CONFIG_RESULTS_ENHANCED structure
@@ -47,19 +50,13 @@ req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCE
 
 ## -description
 
-
 The CHANNEL_CONFIG_RESULTS_ENHANCED structure describes configuration parameters and the buffer size of any extra option for the inbound and outbound directions of an L2CAP channel.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Params
 
 Channel parameters for the given direction of the channel
-
 
 ### -field ExtraOptionsBufferSize
 

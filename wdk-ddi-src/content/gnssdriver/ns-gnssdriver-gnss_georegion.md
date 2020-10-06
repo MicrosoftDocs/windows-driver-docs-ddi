@@ -8,8 +8,6 @@ ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.date: 02/15/2018
 keywords: ["GNSS_GEOREGION structure"]
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
-f1_keywords:
- - "gnssdriver/GNSS_GEOREGION"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_GEOREGION
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
+f1_keywords:
+ - PGNSS_GEOREGION
+ - gnssdriver/PGNSS_GEOREGION
+ - GNSS_GEOREGION
+ - gnssdriver/GNSS_GEOREGION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_GEOREGION
 ---
 
 # GNSS_GEOREGION structure
@@ -47,36 +48,25 @@ req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
 
 ## -description
 
-
 This structure defines the geographical shape of  a geofence.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
 
-
 ### -field GeoRegionType
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_georegiontype">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
-
+<a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_georegiontype">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
 
 ### -field Circle
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_georegion_circle">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
-
+<a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_georegion_circle">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
 
 ### -field Unused
 
@@ -89,14 +79,6 @@ Version number.
 
 Padding buffer.
 
-
 ## -remarks
 
-
-
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
-
-
-
-
-

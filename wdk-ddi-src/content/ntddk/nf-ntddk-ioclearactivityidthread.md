@@ -8,8 +8,6 @@ ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.date: 04/30/2018
 keywords: ["IoClearActivityIdThread function"]
 ms.keywords: IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.ioclearactivityidthread, ntddk/IoClearActivityIdThread
-f1_keywords:
- - "ntddk/IoClearActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoClearActivityIdThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoClearActivityIdThread
+ - ntddk/IoClearActivityIdThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoClearActivityIdThread
 ---
 
 # IoClearActivityIdThread function
@@ -47,17 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The IoClearActivityIdThread routine clears the activity ID of the current thread.
-
 
 ## -parameters
 
+### -param OriginalId 
 
-
-
-### -param OriginalId [in]
-
+[in]
 The activity ID that was previously set on the thread.
-
 

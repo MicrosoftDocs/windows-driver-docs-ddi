@@ -8,12 +8,10 @@ ms.assetid: b15f1ca4-e0ab-4afe-97ba-4e24c7f00c60
 ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueStr function"]
 ms.keywords: image.wiasgetchangedvaluestr, wiamdef/wiasGetChangedValueStr, wiasFncs_24524e94-fa0a-4d40-b742-6fad76707014.xml, wiasGetChangedValueStr, wiasGetChangedValueStr function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetChangedValueStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetChangedValueStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetChangedValueStr
+ - wiamdef/wiasGetChangedValueStr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetChangedValueStr
 ---
 
 # wiasGetChangedValueStr function
+
 
 ## -description
 
@@ -50,13 +50,15 @@ The **wiasGetChangedValueStr** function determines whether a property with a str
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
-### -param pContext [in]
+### -param pContext 
 
-Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
+[in]
+Pointer to a [WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md) structure that contains the current property context.
 
 ### -param bNoValidation
 
@@ -68,13 +70,13 @@ Specifies the property identifier of the property being tested.
 
 ### -param pInfo
 
-Pointer to a [WIAS_CHANGED_VALUE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_changed_value_info) structure that contains the current and previous values of the property.
+Pointer to a [WIAS_CHANGED_VALUE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_changed_value_info.md) structure that contains the current and previous values of the property.
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
@@ -82,12 +84,12 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-[WIAS_CHANGED_VALUE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_changed_value_info)
+[WIAS_CHANGED_VALUE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_changed_value_info.md)
 
-[WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context)
+[WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md)
 
-[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
+[wiasGetChangedValueFloat](./nf-wiamdef-wiasgetchangedvaluefloat.md)
 
-[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
+[wiasGetChangedValueGuid](./nf-wiamdef-wiasgetchangedvalueguid.md)
 
-[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
+[wiasGetChangedValueLong](./nf-wiamdef-wiasgetchangedvaluelong.md)

@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Secure Digital (SD) card
@@ -23,7 +21,6 @@ To develop Secure Digital (SD) card, you need these headers:
  * [ntddsd.h](../ntddsd/index.md)
  * [reshub.h](../reshub/index.md)
  * [sddef.h](../sddef/index.md)
- * [sdport.h](../sdport/index.md)
  * [sffdisk.h](../sffdisk/index.md)
 
-For the programming guide, see [Secure Digital (SD) card](https://docs.microsoft.com/windows-hardware/drivers/sd).
+For the programming guide, see [Secure Digital (SD) card](/windows-hardware/drivers/sd).

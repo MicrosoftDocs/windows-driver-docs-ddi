@@ -6,10 +6,8 @@ old-location: wdf\wdf_interrupt_info_umdf.htm
 tech.root: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.date: 02/26/2018
-keywords: ["_WDF_INTERRUPT_INFO structure"]
+keywords: ["WDF_INTERRUPT_INFO structure"]
 ms.keywords: "*PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO"
-f1_keywords:
- - "wudfinterrupt/WDF_INTERRUPT_INFO"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Windows
@@ -27,130 +25,106 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wudfinterrupt.h
-api_name:
-- WDF_INTERRUPT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
+f1_keywords:
+ - _WDF_INTERRUPT_INFO
+ - wudfinterrupt/_WDF_INTERRUPT_INFO
+ - PWDF_INTERRUPT_INFO
+ - wudfinterrupt/PWDF_INTERRUPT_INFO
+ - WDF_INTERRUPT_INFO
+ - wudfinterrupt/WDF_INTERRUPT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wudfinterrupt.h
+api_name:
+ - WDF_INTERRUPT_INFO
 ---
 
-# _WDF_INTERRUPT_INFO structure
+# _WDF_INTERRUPT_INFO structure (wudfinterrupt.h)
 
 
 ## -description
 
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure contains information about a device's interrupt resource.
-
+The <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure contains information about a device's interrupt resource.
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Reserved1
 
-This member is reserved for future use. 
-
+This member is reserved for future use.
 
 ### -field TargetProcessorSet
 
-A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
-
+A [**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
 
 ### -field Reserved2
 
-This member is reserved for future use. 
-
+This member is reserved for future use.
 
 ### -field MessageNumber
 
 If the <b>MessageSignaled</b> member is TRUE, this is the interrupt's message number.
 
-
 ### -field Vector
 
 The interrupt vector.
-
 
 ### -field Irql
 
 The DIRQL at which the device interrupts.
 
-
 ### -field Mode
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered. The KINTERRUPT_MODE enumeration type is defined in Wudfwdm.h.
-
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered. The KINTERRUPT_MODE enumeration type is defined in Wudfwdm.h.
 
 ### -field Polarity
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
-
+A <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
 
 ### -field MessageSignaled
 
 A Boolean value that, if TRUE, indicates that the interrupt is message-signaled. If FALSE, the interrupt is not message-signaled.
 
-
 ### -field ShareDisposition
 
 A CM_SHARE_DISPOSITION-typed enumerator that indicates whether the interrupt is being shared. The value is <b>CmResourceShareShared</b> if the interrupt is being shared or <b>CmResourceShareDeviceExclusive</b> if the interrupt is not being shared. The CM_SHARE_DISPOSITION enumeration type is defined in Wudfwdm.h.
-
 
 ### -field Group
 
 A value that identifies the processor group that the <b>TargetProcessorSet</b> member applies to. This value is zero if the computer has only one processor group or if the operating system does not support processor groups. The <b>Group</b> member is available in version 1.9 and later versions of KMDF.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a> method. To initialize a <b>WDF_INTERRUPT_INFO</b> structure, your driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a> before calling <b>IWDFInterrupt::GetInfo</b>.
-
-
-
+The <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure is used as input to the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a> method. To initialize a <b>WDF_INTERRUPT_INFO</b> structure, your driver should call <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a> before calling <b>IWDFInterrupt::GetInfo</b>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a>
+[**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
+<a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a>

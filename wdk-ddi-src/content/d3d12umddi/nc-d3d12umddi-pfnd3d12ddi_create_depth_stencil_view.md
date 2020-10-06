@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW"
+ - PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
+ - d3d12umddi/PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function
+
 
 ## -description
 

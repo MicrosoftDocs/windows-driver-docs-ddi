@@ -8,8 +8,6 @@ ms.assetid: 389A4F90-9C81-4C03-A2F9-ACF0E597018C
 ms.date: 02/23/2018
 keywords: ["imp_WppRecorderGetCounterHandle function"]
 ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, imp_WppRecorderGetCounterHandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/imp_WppRecorderGetCounterHandle
-f1_keywords:
- - "wpprecorder/imp_WppRecorderGetCounterHandle"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wpprecorder.h
-api_name:
-- imp_WppRecorderGetCounterHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - imp_WppRecorderGetCounterHandle
+ - wpprecorder/imp_WppRecorderGetCounterHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wpprecorder.h
+api_name:
+ - imp_WppRecorderGetCounterHandle
 ---
 
 # imp_WppRecorderGetCounterHandle function
@@ -47,27 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>WppRecorderGetCounterHandle</b> method gets the ID of the counter whose current value is to be read.
 
-
 ## -parameters
-
-
-
 
 ### -param WppCb
 
 TBD
 
-
-
-
 ## -returns
 
-
-
 ID of the counter whose current value is to be read.
-
-
 

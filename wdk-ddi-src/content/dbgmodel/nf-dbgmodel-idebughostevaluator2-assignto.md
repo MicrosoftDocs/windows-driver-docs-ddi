@@ -5,39 +5,38 @@ description: The AssignTo method performs assignment according to the semantics 
 ms.assetid: 945088b8-9914-4b46-8d08-1d48f97c8f23
 ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator2::AssignTo"]
-f1_keywords:
- - "dbgmodel/IDebugHostEvaluator2.AssignTo"
 ms.keywords: IDebugHostEvaluator2::AssignTo, AssignTo, IDebugHostEvaluator2.AssignTo, IDebugHostEvaluator2::AssignTo, IDebugHostEvaluator2.AssignTo
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostEvaluator2.AssignTo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostEvaluator2::AssignTo
+ - dbgmodel/IDebugHostEvaluator2::AssignTo
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostEvaluator2.AssignTo
 ---
 
 # IDebugHostEvaluator2::AssignTo
@@ -50,23 +49,27 @@ The AssignTo method performs assignment according to the semantics of the langua
 ## -parameters
 
 ### -param assignmentReference
+
 A reference to the thing being assigned. While this can be either a model based reference (e.g.: an ObjectTargetObjectReference) or a language reference (e.g.: a C++ &), it must be some type of reference (an LVALUE).
 
-
 ### -param assignmentValue
+
 The value being assigned to what is referenced via the assignmentReference argument. Note that this value may be coerced or converted according to language rules before being assigned.
 
 ### -param assignmentResult
+
 The result of assignment, if successful. If not, optionally, an extended error object indicating why the assignment failed. Note that result of assignment in this case is what the language defines as the result of an assignment operation. For C++, this would be a language reference to the thing assigned.
 
 ### -param assignmentMetadata
+
 Any optional metadata associated with the assignment result is returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
+
 **Code Sample**
 
 ```cpp
@@ -115,3 +118,4 @@ if (SUCCEEDED(spHost.As(&spEval2)))
 ## -see-also
 
 [IDebugHostEvaluator2 interface](nn-dbgmodel-idebughostevaluator2.md)
+

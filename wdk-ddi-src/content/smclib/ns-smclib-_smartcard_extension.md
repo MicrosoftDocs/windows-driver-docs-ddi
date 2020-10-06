@@ -6,10 +6,8 @@ old-location: smartcrd\smartcard_extension.htm
 tech.root: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.date: 02/22/2018
-keywords: ["_SMARTCARD_EXTENSION structure"]
+keywords: ["SMARTCARD_EXTENSION structure"]
 ms.keywords: "*PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], SMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smartcrd.smartcard_extension, smclib/PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION"
-f1_keywords:
- - "smclib/SMARTCARD_EXTENSION"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- smclib.h
-api_name:
-- SMARTCARD_EXTENSION
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
+f1_keywords:
+ - _SMARTCARD_EXTENSION
+ - smclib/_SMARTCARD_EXTENSION
+ - PSMARTCARD_EXTENSION
+ - smclib/PSMARTCARD_EXTENSION
+ - SMARTCARD_EXTENSION
+ - smclib/SMARTCARD_EXTENSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - smclib.h
+api_name:
+ - SMARTCARD_EXTENSION
 ---
 
 # _SMARTCARD_EXTENSION structure
@@ -47,30 +50,23 @@ req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 
 ## -description
 
-
 The <b>SMARTCARD_EXTENSION</b> structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-Indicates the version of this structure. 
-
+Indicates the version of this structure.
 
 ### -field VendorAttr
 
-Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number. 
-
+Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number.
 
 ### -field ReaderFunction
 
 The line in the syntax block should read `NTSTATUS (*ReaderFunction[16])(PSMARTCARD_EXTENSION);`
 
-A pointer to an array of callback functions for readers. The callback functions that a vendor-supplied reader driver can implement. A reader driver makes these callback functions available for the smart card library routine, <a href="https://docs.microsoft.com/previous-versions/ff548939(v=vs.85)">SmartcardDeviceControl</a>, to call by storing pointers to them in the smart card device extension. <dl>
+A pointer to an array of callback functions for readers. The callback functions that a vendor-supplied reader driver can implement. A reader driver makes these callback functions available for the smart card library routine, <a href="/previous-versions/ff548939(v=vs.85)">SmartcardDeviceControl</a>, to call by storing pointers to them in the smart card device extension. <dl>
 <dd><i>RDF_ATR_PARSE</i></dd>
 <dd><i>RDF_CARD_EJECT</i></dd>
 <dd><i>RDF_CARD_POWER</i></dd>
@@ -81,108 +77,81 @@ A pointer to an array of callback functions for readers. The callback functions 
 <dd><i>RDF_TRANSMIT</i></dd>
 </dl>For more information, see Remarks.
 
-
 ### -field CardCapabilities
 
-Contains capabilities of the inserted smart card. 
-
+Contains capabilities of the inserted smart card.
 
 ### -field LastError
 
 Not used.
 
-
 ### -field IoRequest
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field IoRequest.Information
 
-Contains the number of bytes returned. 
-
+Contains the number of bytes returned.
 
 ### -field IoRequest.RequestBuffer
 
-A pointer to the data in the user's I/O request to be sent to the card. 
-
+A pointer to the data in the user's I/O request to be sent to the card.
 
 ### -field IoRequest.RequestBufferLength
 
-Indicates the number of bytes to send to the card. 
-
+Indicates the number of bytes to send to the card.
 
 ### -field IoRequest.ReplyBuffer
 
-A pointer to the buffer that holds the data that is returned by the I/O request. 
-
+A pointer to the buffer that holds the data that is returned by the I/O request.
 
 ### -field IoRequest.ReplyBufferLength
 
-Indicates the number of bytes of the data that are returned by the I/O request. 
-
+Indicates the number of bytes of the data that are returned by the I/O request.
 
 ### -field MajorIoControlCode
 
-Contains the major I/O control code. 
-
+Contains the major I/O control code.
 
 ### -field MinorIoControlCode
 
-Contains the minor I/O control code. 
-
+Contains the minor I/O control code.
 
 ### -field OsData
 
-Contains information that is specific to the operating system and the driver type. 
-
+Contains information that is specific to the operating system and the driver type.
 
 ### -field ReaderCapabilities
 
-Contains the capabilities of the keyboard reader. 
-
+Contains the capabilities of the keyboard reader.
 
 ### -field ReaderExtension
 
-Contains data that is specifc to the smart card reader. 
-
+Contains data that is specifc to the smart card reader.
 
 ### -field SmartcardReply
 
-Contains data that comes from the reader. 
-
+Contains data that comes from the reader.
 
 ### -field SmartcardRequest
 
-Contains the current command and the data that is sent to the smart card. 
-
+Contains the current command and the data that is sent to the smart card.
 
 ### -field T0
 
-Contains the data for use with the T=0 protocol. 
-
+Contains the data for use with the T=0 protocol.
 
 ### -field T1
 
-Contains the data that is used with the T=1 protocol. 
-
+Contains the data that is used with the T=1 protocol.
 
 ### -field PerfInfo
-
- 
-
 
 ### -field Reserved
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 This structure is passed to all callback functions.
 
@@ -214,7 +183,7 @@ On input, the structure pointed to by <b>SmartcardExtension</b> should have the 
 <dl>
 <dt><a id="MajorIoControlCode"></a><a id="majoriocontrolcode"></a><a id="MAJORIOCONTROLCODE"></a><b>MajorIoControlCode</b></dt>
 <dd>
-Should have a value of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548907(v=vs.85)">IOCTL_SMARTCARD_POWER</a>.
+Should have a value of <a href="/previous-versions/windows/hardware/drivers/ff548907(v=vs.85)">IOCTL_SMARTCARD_POWER</a>.
 
 </dd>
 <dt><a id="IoRequest.ReplyBufferLength"></a><a id="iorequest.replybufferlength"></a><a id="IOREQUEST.REPLYBUFFERLENGTH"></a><b>IoRequest.ReplyBufferLength</b></dt>
@@ -274,13 +243,13 @@ Contains the length of the ATR.
 <td>RDF_CARD_TRACKING</td>
 <td>The RDF_CARD_TRACKING callback function installs an event handler to track every time a card is inserted in or removed from a card reader.It is mandatory for smart card reader drivers to implement this callback function. 
 
-Upon receiving an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsmcrd/ni-winsmcrd-ioctl_smartcard_is_present">IOCTL_SMARTCARD_IS_PRESENT</a> request, the driver library determines if the smart card is already present. If the smart card is present, the driver library completes the request with a status of STATUS_SUCCESS. If there is no smart card present, the driver library calls the reader driver's smart card tracking callback function, and the reader driver starts looking for the smart card. After initiating smart card tracking, the driver library marks the request as having a status of STATUS_PENDING. 
+Upon receiving an <a href="/windows-hardware/drivers/ddi/winsmcrd/ni-winsmcrd-ioctl_smartcard_is_present">IOCTL_SMARTCARD_IS_PRESENT</a> request, the driver library determines if the smart card is already present. If the smart card is present, the driver library completes the request with a status of STATUS_SUCCESS. If there is no smart card present, the driver library calls the reader driver's smart card tracking callback function, and the reader driver starts looking for the smart card. After initiating smart card tracking, the driver library marks the request as having a status of STATUS_PENDING. 
 
 The driver library completes the request.
 
 <b>WDM Device Drivers</b>
 
-The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension->OsData->NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -> OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
+The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension->OsData->NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -> OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
 
 Because this call can have an indefinite duration and the caller can terminate the request before it is complete, it is important to mark this IRP as cancelable.
 
@@ -342,7 +311,7 @@ The value supplied by the request. Must be set to the number of bytes returned.
 
 </dd>
 </dl>
-As with all other IOCTLs, a user-mode application dispatches a vendor-defined IOCTL to a smart card reader device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. When the IOCTL is vendor-defined, however, the application must first open the reader device for "overlapped" (that is, asynchronous) access. The application must also define an OVERLAPPED structure and pass it to the system in the last argument of <b>DeviceIoControl</b> (The OVERLAPPED structure is also described in the Windows SDK documentation.). When the operating system calls the driver's I/O control dispatch routine, it passes a DIOCPARAMETERS structure to the driver. The <b>lpoOverlapped</b> member of the DIOCPARAMETERS structure contains a pointer to the OVERLAPPED structure. 
+As with all other IOCTLs, a user-mode application dispatches a vendor-defined IOCTL to a smart card reader device by calling the <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. When the IOCTL is vendor-defined, however, the application must first open the reader device for "overlapped" (that is, asynchronous) access. The application must also define an OVERLAPPED structure and pass it to the system in the last argument of <b>DeviceIoControl</b> (The OVERLAPPED structure is also described in the Windows SDK documentation.). When the operating system calls the driver's I/O control dispatch routine, it passes a DIOCPARAMETERS structure to the driver. The <b>lpoOverlapped</b> member of the DIOCPARAMETERS structure contains a pointer to the OVERLAPPED structure. 
 
 </td>
 </tr>
@@ -363,7 +332,7 @@ On input, the caller must pass the following values to the function:
 <dl>
 <dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension->MajorIoControlCode</b></dt>
 <dd>
-Contains <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548909(v=vs.85)">IOCTL_SMARTCARD_SET_PROTOCOL</a>.
+Contains <a href="/previous-versions/windows/hardware/drivers/ff548909(v=vs.85)">IOCTL_SMARTCARD_SET_PROTOCOL</a>.
 
 </dd>
 <dt><a id="SmartcardExtension-_MinorIoControlCode"></a><a id="smartcardextension-_minoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MINORIOCONTROLCODE"></a><b>SmartcardExtension->MinorIoControlCode</b></dt>
@@ -416,7 +385,7 @@ Contains the length of the reply buffer.
 </dd>
 <dt><a id="SmartcardExtension-_CardCapabilities.PtsData"></a><a id="smartcardextension-_cardcapabilities.ptsdata"></a><a id="SMARTCARDEXTENSION-_CARDCAPABILITIES.PTSDATA"></a><b>SmartcardExtension->CardCapabilities.PtsData</b></dt>
 <dd>
-Contains the required parameters to perform the PTS request. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/smclib/ns-smclib-_pts_data">PTS_DATA</a>.
+Contains the required parameters to perform the PTS request. For more information, see <a href="/windows-hardware/drivers/ddi/smclib/ns-smclib-_pts_data">PTS_DATA</a>.
 
 </dd>
 </dl>
@@ -451,7 +420,7 @@ On input, the caller must pass the following values to the function:
 <dl>
 <dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension->MajorIoControlCode</b></dt>
 <dd>
-Contains <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548911(v=vs.85)">IOCTL_SMARTCARD_TRANSMIT</a>.
+Contains <a href="/previous-versions/windows/hardware/drivers/ff548911(v=vs.85)">IOCTL_SMARTCARD_TRANSMIT</a>.
 
 </dd>
 <dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension->IoRequest.RequestBuffer</b></dt>
@@ -488,21 +457,16 @@ Receives the actual number of bytes returned by the smart card, plus the size of
 </dl>
 When this function is called, <b>SmartcardExtension->IoRequest.RequestBuffer</b> points to an SCARD_IO_REQUEST structure followed by the data to transmit.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SCARD_IO_REQUEST{
+
+```cpp
+typedef struct _SCARD_IO_REQUEST{
   DWORD  dwProtocol;   // Protocol identifier
   DWORD  cbPciLength;  // Protocol Control Information Length
 } SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;
     
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
 The <b>dwProtocol</b> member must contain the protocol identifier that is returned by a call to IOCTL_SMARTCARD_SET_PROTOCOL. 
 
 The <b>cbPciLength</b> member contains the size, in bytes, of the SCARD_IO_REQUEST structure. The size of this structure is usually 8 bytes. 
@@ -516,7 +480,3 @@ You must copy the SCARD_IO_REQUEST structure to the <i>ReplyBuffer</i> parameter
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -6,10 +6,8 @@ old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk
 ms.assetid: 62C15E35-D9B6-449D-9AF2-F8A1F75C2BB9
 ms.date: 03/29/2018
-keywords: ["_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure"]
+keywords: ["SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure"]
 ms.keywords: "PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
-f1_keywords:
- - "ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntifs.h
-api_name:
-- SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+f1_keywords:
+ - _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ - ntifs/_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ - PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ - ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ - SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ - ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntifs.h
+api_name:
+ - SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ---
 
-
 # _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure
+
 
 ## -description
 
@@ -79,11 +82,12 @@ The file offset that should be aligned to the given AlignmentValue. This should 
 
 > [!NOTE] 
 > MM supports huge page only if the file offset and the physical address are 1gb aligned.
- 
+
 ### -field FallbackAlignmentShift
 
-If DAX_ALLOC_ALIGNMENT_FLAG_FALLBACK_SPECIFIED is present in Flags, this field specifies a fallback block size to align the given offset of the file whenever allocation satisfying AlignmentShift could not be found. 
+If DAX_ALLOC_ALIGNMENT_FLAG_FALLBACK_SPECIFIED is present in Flags, this field specifies a fallback block size to align the given offset of the file whenever allocation satisfying AlignmentShift could not be found.
 
 ## -remarks
 
 ## -see-also
+

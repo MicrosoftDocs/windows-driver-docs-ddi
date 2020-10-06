@@ -8,8 +8,6 @@ ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
 ms.date: 05/08/2018
 keywords: ["IServiceSink::RequestService"]
 ms.keywords: IServiceSink interface [Audio Devices],RequestService method, IServiceSink.RequestService, IServiceSink::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceSink interface, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
-f1_keywords:
- - "portcls/IServiceSink.RequestService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IServiceSink.RequestService
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IServiceSink::RequestService
+ - portcls/IServiceSink::RequestService
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IServiceSink.RequestService
 ---
 
 # IServiceSink::RequestService
@@ -47,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
 The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
-
 

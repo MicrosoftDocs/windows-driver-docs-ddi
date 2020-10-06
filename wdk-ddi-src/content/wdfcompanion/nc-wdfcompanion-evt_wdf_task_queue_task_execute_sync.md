@@ -8,8 +8,6 @@ ms.assetid: c45d1873-fb29-49ee-b99b-09861478ac89
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function"]
 ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-f1_keywords:
- - "wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfcompanion.h
-api_name:
-- EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+ - wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfcompanion.h
+api_name:
+ - EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 ---
 
 # EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function
@@ -47,33 +46,35 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param Queue 
 
+[in]
 
+### -param InputBuffer 
 
-### -param Queue [in]
+[in, optional]
 
+### -param OutputBuffer 
 
-### -param InputBuffer [in, optional]
+[out, optional]
 
+### -param InputBufferLength 
 
-### -param OutputBuffer [out, optional]
+[in]
 
+### -param OutputBufferLength 
 
-### -param InputBufferLength [in]
+[in]
 
+### -param BytesWritten 
 
-### -param OutputBufferLength [in]
+[in]
 
+### -param TaskOperationCode 
 
-### -param BytesWritten [in]
-
-
-### -param TaskOperationCode [in]
+[in]
 

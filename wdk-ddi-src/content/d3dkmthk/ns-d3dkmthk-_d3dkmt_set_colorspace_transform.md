@@ -5,10 +5,8 @@ description: Used to set the color space transform.
 old-location: display\d3dkmt-set-colorspace-transform.htm
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SET_COLORSPACE_TRANSFORM structure"]
+keywords: ["D3DKMT_SET_COLORSPACE_TRANSFORM structure"]
 ms.keywords: D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM structure [Display Devices], _D3DKMT_SET_COLORSPACE_TRANSFORM, d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM, display.d3dkmt-set-colorspace-transform
-f1_keywords:
- - "d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_SET_COLORSPACE_TRANSFORM
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SET_COLORSPACE_TRANSFORM
+f1_keywords:
+ - _D3DKMT_SET_COLORSPACE_TRANSFORM
+ - d3dkmthk/_D3DKMT_SET_COLORSPACE_TRANSFORM
+ - D3DKMT_SET_COLORSPACE_TRANSFORM
+ - d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_SET_COLORSPACE_TRANSFORM
 ---
 
 # _D3DKMT_SET_COLORSPACE_TRANSFORM structure
@@ -53,11 +54,11 @@ Used to set the color space transform.
 
 ### -field AdapterLuid
 
-A LUID that serves as an identifier for the device. 
+A LUID that serves as an identifier for the device.
 
 ### -field VidPnTargetId
 
-The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. 
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology.
 
 ### -field Type
 
@@ -70,3 +71,4 @@ The size of the color space transform.
 ### -field pColorSpaceTransform
 
 Pointer to a [D3DKMDT_3x4_COLORSPACE_TRANSFORM](../d3dukmdt/ns-d3dukmdt-_d3dkmdt_3x4_colorspace_transform.md) structure.
+

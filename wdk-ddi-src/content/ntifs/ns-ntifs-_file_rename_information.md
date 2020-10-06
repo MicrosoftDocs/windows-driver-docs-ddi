@@ -6,10 +6,8 @@ old-location: ifsk\file_rename_information.htm
 tech.root: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.date: 04/16/2018
-keywords: ["_FILE_RENAME_INFORMATION structure"]
+keywords: ["FILE_RENAME_INFORMATION structure"]
 ms.keywords: "*PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, ntifs/PFILE_RENAME_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_RENAME_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_RENAME_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
+ms.custom: 19H1
+f1_keywords:
+ - _FILE_RENAME_INFORMATION
+ - ntifs/_FILE_RENAME_INFORMATION
+ - PFILE_RENAME_INFORMATION
+ - ntifs/PFILE_RENAME_INFORMATION
+ - FILE_RENAME_INFORMATION
+ - ntifs/FILE_RENAME_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_RENAME_INFORMATION
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _FILE_RENAME_INFORMATION structure
@@ -50,42 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FILE_RENAME_INFORMATION</b> structure is used to rename a file.
-
-## -syntax
-
-```cpp
-typedef struct _FILE_RENAME_INFORMATION {
-#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS1)
-    union {
-        BOOLEAN ReplaceIfExists;  // FileRenameInformation
-        ULONG Flags;              // FileRenameInformationEx
-    } DUMMYUNIONNAME;
-#else
-    BOOLEAN ReplaceIfExists;
-#endif
-    HANDLE RootDirectory;
-    ULONG FileNameLength;
-    WCHAR FileName[1];
-} FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION;
-
-```
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
-Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists. 
-
+Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists.
 
 ### -field DUMMYUNIONNAME.Flags
 
@@ -106,7 +82,6 @@ Here are the possible values:
 | **FILE_RENAME_FORCE_RESIZE_TARGET_SR**<br>0x00000080 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory that is part of a different storage reserve area, always grow the target directory's storage reserve area by the full size of the file being renamed.  Requires manage volume access. |
 | **FILE_RENAME_FORCE_RESIZE_SOURCE_SR**<br>0x00000100 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory that is part of a different storage reserve area, always shrink the source directory's storage reserve area by the full size of the file being renamed.  Requires manage volume access. |
 | **FILE_RENAME_FORCE_RESIZE_SR**<br>0x00000180 | Equivalent to specifying both FILE_RENAME_FORCE_RESIZE_TARGET_SR and FILE_RENAME_FORCE_RESIZE_SOURCE_SR. |
- 
 
 ### -field RootDirectory
 
@@ -116,28 +91,42 @@ If the file is not being moved to a different directory, or if the <b>FileName</
 Otherwise, it is a handle for the root directory under which the file will reside after it is renamed. 
 
 To perform two open operations that won't cause a sharing conflict, you can open **RootDirectory** by requesting traverse | read-attribute. **IopOpenLinkOrRenameTarget** can then perform a relative open by requesting FILE_WRITE_DATA | SYNCHRONIZE. 
-These two opens would not cause sharing conflict. 
-
+These two opens would not cause sharing conflict.
 
 ### -field FileNameLength
 
-Length, in bytes, of the new name for the file. 
-
+Length, in bytes, of the new name for the file.
 
 ### -field FileName
 
-The first character of a wide-character string containing the new name for the file. This is followed in memory by the remainder of the string. If the <b>RootDirectory</b> member is <b>NULL</b>, and the file is being moved to a different directory, this member specifies the full pathname to be assigned to the file. Otherwise, it specifies only the file name or a relative pathname. 
+The first character of a wide-character string containing the new name for the file. This is followed in memory by the remainder of the string. If the <b>RootDirectory</b> member is <b>NULL</b>, and the file is being moved to a different directory, this member specifies the full pathname to be assigned to the file. Otherwise, it specifies only the file name or a relative pathname.
 
+## -syntax
+
+```cpp
+typedef struct _FILE_RENAME_INFORMATION {
+#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS1)
+    union {
+        BOOLEAN ReplaceIfExists;  // FileRenameInformation
+        ULONG Flags;              // FileRenameInformationEx
+    } DUMMYUNIONNAME;
+#else
+    BOOLEAN ReplaceIfExists;
+#endif
+    HANDLE RootDirectory;
+    ULONG FileNameLength;
+    WCHAR FileName[1];
+} FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION;
+
+```
 
 ## -remarks
-
-
 
 The <b>FILE_RENAME_INFORMATION</b> structure is used to rename a file. This operation can be performed in either of the following ways: 
 
 <ul>
 <li>
-Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, passing <b>FileRenameInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated buffer formatted as a <b>FILE_RENAME_INFORMATION</b> structure for the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the file to be renamed. 
+Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, passing <b>FileRenameInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated buffer formatted as a <b>FILE_RENAME_INFORMATION</b> structure for the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the file to be renamed. 
 
 </li>
 <li>
@@ -145,7 +134,7 @@ Create an IRP with major function code IRP_MJ_SET_INFORMATION.
 
 </li>
 </ul>
-File system minifilters must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>, not <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, to rename a file. 
+File system minifilters must use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>, not <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, to rename a file. 
 
 Renaming a file requires DELETE access to the file so that the directory entry may be removed from the current parent directory, as well as the appropriate access to create the new entry in the new parent directory file. 
 
@@ -237,26 +226,16 @@ If <b>ReplaceIfExists</b> is set to <b>TRUE</b>, the rename operation will succe
 
 </li>
 </ul>
-The size of the <i>FileInformation</i> buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> must be >= <b>sizeof</b>(FILE_RENAME_INFORMATION) plus the size in bytes of the <b>FileName</b> string. 
-
-
-
+The size of the <i>FileInformation</i> buffer passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> must be >= <b>sizeof</b>(FILE_RENAME_INFORMATION) plus the size in bytes of the <b>FileName</b> string.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>

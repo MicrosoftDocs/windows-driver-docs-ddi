@@ -8,8 +8,6 @@ ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.date: 02/26/2018
 keywords: ["WdfDevicePostEvent function"]
 ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
-f1_keywords:
- - "wdfdevice/WdfDevicePostEvent"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfDevicePostEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDevicePostEvent
+ - wdfdevice/WdfDevicePostEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfDevicePostEvent
 ---
 
 # WdfDevicePostEvent function
@@ -47,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDevicePostEvent</b> method asynchronously notifies applications that are waiting for the       specified event from a driver.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param EventGuid 
 
-### -param EventGuid [in]
-
+[in]
 The GUID for the event. The GUID is determined by the application and the driver and is opaque to the framework.
 
+### -param WdfEventType 
 
-### -param WdfEventType [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+### -param Data 
 
+[in]
+A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value.
 
-### -param Data [in]
+### -param DataSizeCb 
 
-A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value. 
-
-
-### -param DataSizeCb [in]
-
-The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size value if <i>Data</i> is set to <b>NULL</b>. 
-
+[in]
+The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size value if <i>Data</i> is set to <b>NULL</b>.
 
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -109,35 +101,20 @@ If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Add
 </table>
  
 
-The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
-
-
-
+The method might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 ## -remarks
-
-
 
 When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting application about an event, UMDF sends the event to the operating system. The operating system sends the event on to the requesting application in an asynchronous operation. If the operating system initially returns no error, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS.
 
  However, later, if the operating system receives an error while it attempts to deliver the event (possibly because of a low memory condition), the operating system is unable to inform the driver about the error. Because of the asynchronous nature of this event notification, delivery of the event to the requesting application is not guaranteed.
 
- If event information is lost on its way up to the requesting application, the application should be able to recover from the lost event. 
-
-
-
+ If event information is lost on its way up to the requesting application, the application should be able to recover from the lost event.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>

@@ -8,8 +8,6 @@ ms.assetid: 18d4aae5-dd11-4c3a-8088-52121f46d208
 ms.date: 05/03/2018
 keywords: ["GetInputLine function"]
 ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, wdbgexts/GetInputLine
-f1_keywords:
- - "wdbgexts/GetInputLine"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetInputLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetInputLine
+ - wdbgexts/GetInputLine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetInputLine
 ---
 
 # GetInputLine function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetInputLine</b> function requests an input string from the debugger.
 
-
 ## -parameters
-
-
-
 
 ### -param Prompt
 
 Specifies a prompt to indicate what input is being requested.  The prompt is printed to the debugger's output before the input is gathered.  If <i>Prompt</i> is <b>NULL</b>, no prompt is printed.
 
-
 ### -param Buffer
 
 Specifies the buffer to receive the input.
-
 
 ### -param BufferSize
 
 Specifies the size, in characters, of the buffer <i>Buffer</i>.
 
-
 ## -returns
 
-
-
 <b>GetInputLine</b> returns the size, in characters, of the input returned to the <i>Buffer</i> buffer, or zero, if no input was returned.
-
-
 

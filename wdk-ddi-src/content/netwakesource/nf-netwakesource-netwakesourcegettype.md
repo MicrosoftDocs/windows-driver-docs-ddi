@@ -1,45 +1,44 @@
 ---
 UID: NF:netwakesource.NetWakeSourceGetType
 title: NetWakeSourceGetType function (netwakesource.h)
-author: windows-driver-content
-description: The NetWakeSourceGetType method gets the type for wake-on-LAN (WoL) source.
+description: The NetWakeSourceGetType function gets the type for wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 05e0ca0e-5cf2-43b6-b5e1-325a11fde2da
-ms.author: windowsdriverdev
 ms.date: 10/10/2019
 keywords: ["NetWakeSourceGetType function"]
-f1_keywords:
- - "netwakesource/NetWakeSourceGetType"
 ms.keywords: NetWakeSourceGetType
 req.header: netwakesource.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetWakeSourceGetType
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetWakeSourceGetType
+ - netwakesource/NetWakeSourceGetType
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetWakeSourceGetType
+product:
+ - Windows
 ---
 
 # NetWakeSourceGetType function
@@ -47,7 +46,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetWakeSourceGetType** method gets the type for wake-on-LAN (WoL) source.
+The **NetWakeSourceGetType** function gets the type for wake-on-LAN (WoL) source.
 
 ## -parameters
 
@@ -65,7 +64,7 @@ The client driver must only call **NetWakeSourceGetType** during a power transit
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)
 

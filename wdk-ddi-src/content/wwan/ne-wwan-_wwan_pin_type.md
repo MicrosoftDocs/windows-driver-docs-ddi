@@ -5,35 +5,39 @@ description: The WWAN_PIN_TYPE enumeration specifies the PIN type for a UICC app
 tech.root: netvista
 ms.assetid: D4852EC3-AF5B-46BE-99A4-A006F71F5A24
 ms.date: 04/10/2019
-keywords: ["_WWAN_PIN_TYPE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_PIN_TYPE"
-ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE 
+keywords: ["WWAN_PIN_TYPE enumeration"]
+ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_PIN_TYPE *PWWAN_PIN_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_PIN_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_PIN_TYPE
+ - wwan/_WWAN_PIN_TYPE
+ - PWWAN_PIN_TYPE
+ - wwan/PWWAN_PIN_TYPE
+ - WWAN_PIN_TYPE
+ - wwan/WWAN_PIN_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_PIN_TYPE
 ---
 
 # _WWAN_PIN_TYPE enumeration
+
 
 ## -description
 
@@ -135,9 +139,9 @@ This enumeration is used in the following structures:
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_PIN_EX2](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pin-ex2)
+[OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
 [**WWAN_PIN_INFO**](../wwan/ns-wwan-_wwan_pin_info.md)
 

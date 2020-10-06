@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: wdf
+f1_keywords:
+ - wdfiotarget
+ - wdfiotarget/wdfiotarget
 ---
 
 # Wdfiotarget.h header
@@ -18,7 +19,7 @@ tech.root: wdf
 
 ## -description
 
-
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 6b95ca8c-604b-4497-9798-02f362095709
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::GetSymbolRegister"]
 ms.keywords: ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister, GetSymbolRegister method [Windows Debugging], GetSymbolRegister method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolRegister method, IDebugSymbolGroup2.GetSymbolRegister, IDebugSymbolGroup2::GetSymbolRegister, dbgeng/IDebugSymbolGroup2::GetSymbolRegister, debugger.getsymbolregister
-f1_keywords:
- - "dbgeng/IDebugSymbolGroup2.GetSymbolRegister"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbolGroup2.GetSymbolRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbolGroup2::GetSymbolRegister
+ - dbgeng/IDebugSymbolGroup2::GetSymbolRegister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbolGroup2.GetSymbolRegister
 ---
 
 # IDebugSymbolGroup2::GetSymbolRegister
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolRegister</b> method returns the register that contains the value or a pointer to the value of a symbol in a symbol group.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 The index of the symbol to return the register for. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
+### -param Register 
 
-### -param Register [out]
-
+[out]
 The index of the register that contains the value or a pointer to the value of the symbol.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -100,31 +92,16 @@ The symbol's value and a pointer to it are not contained in a register, or the r
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
-
-
-
+This method can also return error values.  For more information, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
 
-
-
-For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.  For more information about registers and the register index, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
-
-
-
+For more information about symbol groups, see <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.  For more information about registers and the register index, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>

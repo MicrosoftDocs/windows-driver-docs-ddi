@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_COMMAND_POOL_0040"
+ - PFND3D12DDI_CREATE_COMMAND_POOL_0040
+ - d3d12umddi/PFND3D12DDI_CREATE_COMMAND_POOL_0040
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATE_COMMAND_POOL_0040 callback function
+
 
 ## -description
 

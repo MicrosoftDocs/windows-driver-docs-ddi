@@ -7,8 +7,6 @@ ms.assetid: 0b3a20db-aa03-4017-a10a-ae84a6ed31c8
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure"]
 ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3d11_1ddiarg_createauthenticatedchannel
-f1_keywords:
- - "d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+f1_keywords:
+ - D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+ - d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ---
 
 # D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure
@@ -47,36 +46,22 @@ req.typenames: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 
 ## -description
 
-
-Specifies the attributes of the authenticated channel to be created by the user-mode driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
-
+Specifies the attributes of the authenticated channel to be created by the user-mode driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field ChannelType
 
-Specifies the type of channel, as a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
-
+Specifies the type of channel, as a member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
 
 ### -field hChannel
 
 A handle to the authenticated channel object.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>

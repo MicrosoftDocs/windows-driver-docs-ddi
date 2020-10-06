@@ -6,10 +6,8 @@ old-location: stream\ks_dvdcopy_region.htm
 tech.root: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.date: 04/23/2018
-keywords: ["_KS_DVDCOPY_REGION structure"]
+keywords: ["KS_DVDCOPY_REGION structure"]
 ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices], PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], _KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/KS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region"
-f1_keywords:
- - "ksmedia/KS_DVDCOPY_REGION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_DVDCOPY_REGION
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
+f1_keywords:
+ - _KS_DVDCOPY_REGION
+ - ksmedia/_KS_DVDCOPY_REGION
+ - PKS_DVDCOPY_REGION
+ - ksmedia/PKS_DVDCOPY_REGION
+ - KS_DVDCOPY_REGION
+ - ksmedia/KS_DVDCOPY_REGION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_DVDCOPY_REGION
 ---
 
 # _KS_DVDCOPY_REGION structure
@@ -47,19 +50,13 @@ req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 
 ## -description
 
-
 The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved
 
 Reserved. Do not use.
-
 
 ### -field RegionData
 
@@ -131,32 +128,17 @@ China
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved2
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 The KS_DVDCOPY_REGION structure is used by the KSPROPERTY_DVDCOPY_REGION property.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-regionalization">DVD Regionalization</a>.
-
-
-
+For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="/windows-hardware/drivers/stream/dvd-regionalization">DVD Regionalization</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-region">KSPROPERTY_DVDCOPY_REGION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-region">KSPROPERTY_DVDCOPY_REGION</a>

@@ -6,10 +6,8 @@ old-location: storage\cdrom_toc_atip_data_block.htm
 tech.root: storage
 ms.assetid: b98d0ba9-9c32-44ed-b6c3-db6de26a1663
 ms.date: 01/08/2020
-keywords: ["_CDROM_TOC_ATIP_DATA_BLOCK structure"]
+keywords: ["CDROM_TOC_ATIP_DATA_BLOCK structure"]
 ms.keywords: "*PCDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_ATIP_DATA_BLOCK, PCDROM_TOC_ATIP_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/PCDROM_TOC_ATIP_DATA_BLOCK, storage.cdrom_toc_atip_data_block, structs-CD-ROM_8c2f3446-c864-450a-a873-9e1d29b1e052.xml"
-f1_keywords:
- - "ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- CDROM_TOC_ATIP_DATA_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_ATIP_DATA_BLOCK, *PCDROM_TOC_ATIP_DATA_BLOCK
+f1_keywords:
+ - _CDROM_TOC_ATIP_DATA_BLOCK
+ - ntddcdrm/_CDROM_TOC_ATIP_DATA_BLOCK
+ - PCDROM_TOC_ATIP_DATA_BLOCK
+ - ntddcdrm/PCDROM_TOC_ATIP_DATA_BLOCK
+ - CDROM_TOC_ATIP_DATA_BLOCK
+ - ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - CDROM_TOC_ATIP_DATA_BLOCK
 ---
 
 # _CDROM_TOC_ATIP_DATA_BLOCK structure
 
+
 ## -description
 
-Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex) and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in a header structure of type [CDROM_TOC_ATIP_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_atip_data) followed by a series of ATIP data block descriptors defined by **CDROM_TOC_ATIP_DATA_BLOCK**.
+Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md) and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in a header structure of type [CDROM_TOC_ATIP_DATA](./ns-ntddcdrm-_cdrom_toc_atip_data.md) followed by a series of ATIP data block descriptors defined by **CDROM_TOC_ATIP_DATA_BLOCK**.
 
 ## -struct-fields
 
@@ -148,8 +152,8 @@ Reserved.
 
 ## -see-also
 
-[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
+[CDROM_READ_TOC_EX](./ns-ntddcdrm-_cdrom_read_toc_ex.md)
 
-[CDROM_TOC_ATIP_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_atip_data)
+[CDROM_TOC_ATIP_DATA](./ns-ntddcdrm-_cdrom_toc_atip_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)

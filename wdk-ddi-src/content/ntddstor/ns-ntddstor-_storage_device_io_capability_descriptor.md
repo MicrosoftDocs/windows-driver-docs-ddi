@@ -6,10 +6,8 @@ old-location: storage\storage_device_io_capability_descriptor.htm
 tech.root: storage
 ms.assetid: 98377F8F-62C8-4E8F-838B-A63DC63E4A0C
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure"]
+keywords: ["STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, storage.storage_device_io_capability_descriptor
-f1_keywords:
- - "ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+f1_keywords:
+ - _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - ntddstor/_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - ntddstor/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 ---
 
 # _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure
@@ -47,31 +50,22 @@ req.typenames: STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPAB
 
 ## -description
 
-
-The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>.
-
+The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. The Size serves as the version.
 
-
 ### -field Size
 
 The size of this structure.
-
 
 ### -field LunMaxIoCount
 
 The logical unit number (LUN) max outstanding I/O count.
 
-
 ### -field AdapterMaxIoCount
 
 The adapter max outstanding I/O count.
-

@@ -6,71 +6,52 @@ tech.root: netvista
 ms.assetid: 863dc828-cd80-480a-99ee-0314824e4b8b
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS callback function
+
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelInitSetProcessPacketCallbacks</b>  function sets callback functions for packet processing.  
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS FnVmbChannelInitSetProcessPacketCallbacks; 
-
-// Definition
-
-NTSTATUS FnVmbChannelInitSetProcessPacketCallbacks 
-(
-	VMBCHANNEL Channel
-	PFN_VMB_CHANNEL_PROCESS_PACKET ProcessPacketCallback
-	PFN_VMB_CHANNEL_PROCESSING_COMPLETE ProcessingCompleteCallback
-)
-{...}
-
-```
+The <b>VmbChannelInitSetProcessPacketCallbacks</b>  function sets callback functions for packet processing.
 
 ## -parameters
 
 ### -param Channel
 
-A handle for the channel. 
+A handle for the channel.
 
 ### -param ProcessPacketCallback
 
@@ -113,13 +94,32 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS FnVmbChannelInitSetProcessPacketCallbacks; 
+
+// Definition
+
+NTSTATUS FnVmbChannelInitSetProcessPacketCallbacks 
+(
+	VMBCHANNEL Channel
+	PFN_VMB_CHANNEL_PROCESS_PACKET ProcessPacketCallback
+	PFN_VMB_CHANNEL_PROCESSING_COMPLETE ProcessingCompleteCallback
+)
+{...}
+
+```
+
 ## -remarks
 
 This function is only meaningful if Kernel Mode Client Library (KMCL) queue
 management is not suppressed.  
 
 <b>ProcessPacketCallback</b> is invoked for every packet that
-is received.  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete">EvtVmbChannelProcessingComplete</a> will be invoked every time the ring buffer that contains incoming packets transitions from non-empty to empty. This happens
+is received.  <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete">EvtVmbChannelProcessingComplete</a> will be invoked every time the ring buffer that contains incoming packets transitions from non-empty to empty. This happens
 after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 > [!IMPORTANT]
@@ -129,8 +129,8 @@ after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete">EvtVmbChannelProcessingComplete</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete">EvtVmbChannelProcessingComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks">ProcessPacketCallback</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks">ProcessPacketCallback</a>

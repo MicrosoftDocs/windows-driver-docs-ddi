@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 116afdd8-6a36-43d0-a8f3-3724d317a758
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_PHYSICAL_ADDRESS macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_DATA_PHYSICAL_ADDRESS"
 ms.keywords: NET_BUFFER_DATA_PHYSICAL_ADDRESS
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Supported in NDIS 6.1 and later.
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_DATA_PHYSICAL_ADDRESS
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_DATA_PHYSICAL_ADDRESS
+ - ndis/NET_BUFFER_DATA_PHYSICAL_ADDRESS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_DATA_PHYSICAL_ADDRESS
 ---
 
 # NET_BUFFER_DATA_PHYSICAL_ADDRESS macro
@@ -64,3 +62,4 @@ NDIS network drivers should use the **NET_BUFFER_DATA_PHYSICAL_ADDRESS** macro t
 ## -see-also
 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
+

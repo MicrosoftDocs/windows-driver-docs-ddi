@@ -8,8 +8,6 @@ ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.date: 04/30/2018
 keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
-f1_keywords:
- - "wdm/KeWaitForSingleObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeWaitForSingleObject
+ - wdm/KeWaitForSingleObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeWaitForSingleObject
 ---
 
 # KeWaitForSingleObject function
@@ -47,8 +46,52 @@ req.typenames:
 
 ## -description
 
-
 The **KeWaitForSingleObject** routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
+
+## -parameters
+
+### -param Object 
+
+[in]
+Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
+
+### -param WaitReason 
+
+[in]
+Specifies the reason for the wait. A driver should set this value to **Executive**, unless it is doing work on behalf of a user and is running in the context of a user thread, in which case it should set this value to **UserRequest**.
+
+### -param WaitMode 
+
+[in]
+Specifies whether the caller waits in **KernelMode** or **UserMode**. Lowest-level and intermediate drivers should specify **KernelMode**. If the given *Object* is a mutex, the caller must specify **KernelMode**.
+
+### -param Alertable 
+
+[in]
+Specifies a Boolean value that is **TRUE** if the wait is alertable and **FALSE** otherwise.
+
+### -param Timeout 
+
+[in, optional]
+Pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
+
+A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
+
+If **Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until the dispatcher object is set to the signaled state. For more information, see the following Remarks section.
+
+## -returns
+
+**KeWaitForSingleObject** can return one of the following.
+
+> [!NOTE]
+> The NT_SUCCESS macro recognizes all of these status values as "success" values.
+
+|Return code|Description|
+|--- |--- |
+|**STATUS_SUCCESS**|The dispatcher object specified by the _Object_ parameter satisfied the wait.|
+|**STATUS_ALERTED**|The wait was interrupted to deliver an alert to the calling thread.|
+|**STATUS_USER_APC**|The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.|
+|**STATUS_TIMEOUT**|A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and _Timeout_ is set to zero.|
 
 ## -syntax
 
@@ -63,108 +106,11 @@ KeWaitForSingleObject (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param Object [in]
-
-Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
-
-
-### -param WaitReason [in]
-
-Specifies the reason for the wait. A driver should set this value to **Executive**, unless it is doing work on behalf of a user and is running in the context of a user thread, in which case it should set this value to **UserRequest**.
-
-
-### -param WaitMode [in]
-
-Specifies whether the caller waits in **KernelMode** or **UserMode**. Lowest-level and intermediate drivers should specify **KernelMode**. If the given *Object* is a mutex, the caller must specify **KernelMode**.
-
-
-### -param Alertable [in]
-
-Specifies a Boolean value that is **TRUE** if the wait is alertable and **FALSE** otherwise.
-
-
-### -param Timeout [in, optional]
-
-Pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
-
-A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
-
-If **Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until the dispatcher object is set to the signaled state. For more information, see the following Remarks section.
-
-
-## -returns
-
-
-
-**KeWaitForSingleObject** can return one of the following:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The dispatcher object specified by the <i>Object</i> parameter satisfied the wait.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ALERTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver an alert to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_USER_APC</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
-
-</td>
-</tr>
-</table>
- 
-
-Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
-
-
-
-
 ## -remarks
 
 The current state of the specified *Object* is examined to determine whether the wait can be satisfied immediately. If so, the necessary side effects are performed on the object. Otherwise, the current thread is put in a waiting state and a new thread is selected for execution on the current processor.
 
-The *Alertable* parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/waits-and-apcs">Waits and APCs</a>.
+The *Alertable* parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="/windows-hardware/drivers/kernel/waits-and-apcs">Waits and APCs</a>.
 
 A special consideration applies when the *Object* parameter passed to **KeWaitForSingleObject** is a mutex. If the dispatcher object waited on is a mutex, APC delivery is the same as for all other dispatcher objects <u>during the wait</u>. However, after **KeWaitForSingleObject** returns with STATUS_SUCCESS and the thread actually holds the mutex, only special kernel-mode APCs are delivered. Delivery of all other APCs, both kernel-mode and user-mode, is disabled. This restriction on the delivery of APCs persists until the mutex is released.
 
@@ -180,7 +126,7 @@ If a **NULL** pointer is supplied for *Timeout*, the calling thread remains in a
 
 A time-out value of zero allows the testing of a set of wait conditions and for the conditional performance of any side effects if the wait can be immediately satisfied, as in the acquisition of a mutex.
 
-Time-out intervals are measured relative to the system clock, and the accuracy with which the operating system can detect the end of a time-out interval is limited by the granularity of the system clock. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-accuracy">Timer Accuracy</a>.
+Time-out intervals are measured relative to the system clock, and the accuracy with which the operating system can detect the end of a time-out interval is limited by the granularity of the system clock. For more information, see <a href="/windows-hardware/drivers/kernel/timer-accuracy">Timer Accuracy</a>.
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
@@ -188,22 +134,22 @@ Callers of **KeWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. 
 
 **KeWaitForMutexObject** is a macro that converts to **KeWaitForSingleObject**, which can be used instead.
 
-For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>.
+For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>.
 
-For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mutex-objects">Mutex Objects</a>.
+For more information about mutex objects, see <a href="/windows-hardware/drivers/kernel/mutex-objects">Mutex Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kebugcheckex">KeBugCheckEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kebugcheckex">KeBugCheckEx</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore">KeInitializeSemaphore</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore">KeInitializeSemaphore</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>

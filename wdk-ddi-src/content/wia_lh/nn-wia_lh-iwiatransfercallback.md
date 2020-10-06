@@ -8,8 +8,6 @@ ms.assetid: c85e5faa-b14b-4775-a5cc-cec5e20dc974
 ms.date: 05/03/2018
 keywords: ["IWiaTransferCallback interface"]
 ms.keywords: IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], IWiaTransferCallback interface [Imaging Devices],described, IWiaTransfercallback_ae8874d9-135f-4627-bbec-51cebd6c3d69.xml, image.iwiatransfercallback_interface, wia_lh/IWiaTransferCallback
-f1_keywords:
- - "wia_lh/IWiaTransferCallback"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wia_lh.h
-api_name:
-- IWiaTransferCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaTransferCallback
+ - wia_lh/IWiaTransferCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wia_lh.h
+api_name:
+ - IWiaTransferCallback
 ---
 
 # IWiaTransferCallback interface
+
 
 ## -description
 
@@ -53,3 +53,4 @@ This interface's methods are called as a result of an application calling **IWia
 The methods on this interface depend on the **IWiaTransfer** and **IWiaPreview** interfaces, both of which are described in the Microsoft Windows SDK documentation.
 
 ## -inheritance
+

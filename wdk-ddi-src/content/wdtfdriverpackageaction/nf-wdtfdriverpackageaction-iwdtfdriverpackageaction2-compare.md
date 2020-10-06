@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::Compare"]
 ms.keywords: Compare, Compare method [Windows Device Testing Framework], Compare method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Compare method, IWDTFDriverPackageAction2.Compare, IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.Compare"
+ - "IWDTFDriverPackageAction2.Compare"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2.Compare
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,13 +55,13 @@ Compares two driver packages.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The second driver package.
 
 
-### -param pbIsIdentical [out, retval]
-
+### -param pbIsIdentical 
+[out, retval]
 True if the two driver packages are the same; 
 otherwise, false.
 
@@ -71,7 +70,7 @@ otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -81,8 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
  
 
  
-

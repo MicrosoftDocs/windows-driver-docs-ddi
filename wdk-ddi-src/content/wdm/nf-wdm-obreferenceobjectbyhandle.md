@@ -8,8 +8,6 @@ ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.date: 04/30/2018
 keywords: ["ObReferenceObjectByHandle function"]
 ms.keywords: ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, kernel.obreferenceobjectbyhandle, wdm/ObReferenceObjectByHandle
-f1_keywords:
- - "wdm/ObReferenceObjectByHandle"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObReferenceObjectByHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObReferenceObjectByHandle
+ - wdm/ObReferenceObjectByHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObReferenceObjectByHandle
 ---
 
 # ObReferenceObjectByHandle function
+
 
 ## -description
 
@@ -50,26 +50,31 @@ The **ObReferenceObjectByHandle** routine provides access validation on the obje
 
 ## -parameters
 
-### -param Handle [in]
+### -param Handle 
 
+[in]
 Specifies an open handle for an object.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
-Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).
+[in]
+Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask).
 
-### -param ObjectType [in, optional]
+### -param ObjectType 
 
+[in, optional]
 Pointer to the object type. *ObjectType* can be **\*ExEventObjectType**, **\*ExSemaphoreObjectType**, **\*IoFileObjectType**, **\*PsProcessType**, **\*PsThreadType**, **\*SeTokenObjectType**, **\*TmEnlistmentObjectType**, **\*TmResourceManagerObjectType**, **\*TmTransactionManagerObjectType**, or **\*TmTransactionObjectType**.
 
 If *ObjectType* is not **NULL**, the operating system verifies that the supplied object type matches the object type of the object that *Handle* specifies.
 
-### -param AccessMode [in]
+### -param AccessMode 
 
+[in]
 Specifies the access mode to use for the access check. It must be either **UserMode** or **KernelMode**. Drivers should always specify **UserMode** for handles they receive from user address space.
 
-### -param Object [out]
+### -param Object 
 
+[out]
 Pointer to a variable that receives a pointer to the object's body. The following table contains the pointer types.
 
 |ObjectType parameter|Object pointer type|
@@ -87,8 +92,9 @@ Pointer to a variable that receives a pointer to the object's body. The followin
 
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD.
 
-### -param HandleInformation [out, optional]
+### -param HandleInformation 
 
+[out, optional]
 Drivers set this to **NULL**.
 
 ## -returns
@@ -107,13 +113,13 @@ A pointer to the object body is retrieved from the object table entry and return
 
 If *AccessMode* is **UserMode**, the requested access is compared to the granted access for the object. If *AccessMode* is **KernelMode**, the handle should originate in the kernel address space.
 
-Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
+Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
 
 If the call succeeds, a pointer to the object body is returned to the caller and the pointer reference count is incremented. Incrementing this count prevents the object from being deleted while the pointer is being referenced. The caller must decrement the reference count with [ObDereferenceObject](nf-wdm-obdereferenceobject.md) as soon as it is done with the object.
 
 ## -see-also
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
 [ObDereferenceObject](nf-wdm-obdereferenceobject.md)
 

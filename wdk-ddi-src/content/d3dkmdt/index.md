@@ -9,8 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: display
-product:
-- Windows
+f1_keywords:
+ - d3dkmdt
+ - d3dkmdt/d3dkmdt
 ---
 
 # D3Dkmdt.h header
@@ -18,7 +19,7 @@ product:
 
 ## -description
 
-
 This header is used by display. For more information, see:
 
 - [Display](../_display/index.md)
+

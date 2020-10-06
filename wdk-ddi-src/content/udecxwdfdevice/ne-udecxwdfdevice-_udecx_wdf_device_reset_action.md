@@ -6,10 +6,8 @@ old-location: buses\udecx_wdf_device_reset_action.htm
 tech.root: usbref
 ms.assetid: E3216F62-5506-4DA2-AD89-B2406D3E97C0
 ms.date: 05/07/2018
-keywords: ["_UDECX_WDF_DEVICE_RESET_ACTION enumeration"]
+keywords: ["UDECX_WDF_DEVICE_RESET_ACTION enumeration"]
 ms.keywords: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice, UdecxWdfDeviceResetActionResetWdfDevice, _UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice"
-f1_keywords:
- - "udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UdecxWdfDevice.h
-api_name:
-- UDECX_WDF_DEVICE_RESET_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
+f1_keywords:
+ - _UDECX_WDF_DEVICE_RESET_ACTION
+ - udecxwdfdevice/_UDECX_WDF_DEVICE_RESET_ACTION
+ - PUDECX_WDF_DEVICE_RESET_ACTION
+ - udecxwdfdevice/PUDECX_WDF_DEVICE_RESET_ACTION
+ - UDECX_WDF_DEVICE_RESET_ACTION
+ - udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UdecxWdfDevice.h
+api_name:
+ - UDECX_WDF_DEVICE_RESET_ACTION
 ---
 
 # _UDECX_WDF_DEVICE_RESET_ACTION enumeration
@@ -47,36 +50,22 @@ req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
 
 ## -description
 
-
 Defines values that indicate the types of reset operation supported by an emulated USB host controller.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UdecxWdfDeviceResetActionResetEachUsbDevice
 
 Each device that is attached to the controller is reset.
 
-
 ### -field UdecxWdfDeviceResetActionResetWdfDevice
 
 The emulated host controller is reset.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a>

@@ -8,8 +8,6 @@ ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 01/02/2020
 keywords: ["NtFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
-f1_keywords:
- - "ntifs/NtFlushBuffersFileEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFlushBuffersFileEx
-- NtFlushBuffersFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtFlushBuffersFileEx
+ - ntifs/NtFlushBuffersFileEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFlushBuffersFileEx
+ - NtFlushBuffersFileEx
 ---
 
 # NtFlushBuffersFileEx function
+
 
 ## -description
 
@@ -51,12 +51,14 @@ The **NtFlushBuffersFileEx** routine is called by a file system legacy filter dr
 
 ## -parameters
 
-### -param FileHandle [in]
+### -param FileHandle 
 
-Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+[in]
+Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Flush operation flags. *Flags* can be 0 or one of the following values *if the file is on an NTFS file system*.
 
 | Value | Meaning |
@@ -73,8 +75,9 @@ Pointer to a block with additional parameters. This parameter must currently be 
 
 The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
@@ -89,22 +92,22 @@ Address of the caller's I/O status block. This parameter is required and cannot 
 
 ## -remarks
 
-Minifilter drivers should call [**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2) instead of calling **NtFlushBuffersFileEx**.
+Minifilter drivers should call [**FltFlushBuffers2**](../fltkernel/nf-fltkernel-fltflushbuffers2.md) instead of calling **NtFlushBuffersFileEx**.
 
-A legacy file system filter driver can call **NtFlushBuffersFileEx** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous.
+A legacy file system filter driver can call **NtFlushBuffersFileEx** to issue an [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous.
 
-Callers of **NtFlushBuffersFileEx** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **NtFlushBuffersFileEx** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2)
+[**FltFlushBuffers2**](../fltkernel/nf-fltkernel-fltflushbuffers2.md)
 
-[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
+[IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
-[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[**NtCreateFile**](./nf-ntifs-ntcreatefile.md)
 
-[**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[**NtOpenFile**](./nf-ntifs-ntopenfile.md)

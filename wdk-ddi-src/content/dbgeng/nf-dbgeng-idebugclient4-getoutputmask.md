@@ -8,8 +8,6 @@ ms.assetid: b1076b17-9175-4823-abb7-1c864670e8d5
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::GetOutputMask"]
 ms.keywords: GetOutputMask, GetOutputMask method [Windows Debugging], GetOutputMask method [Windows Debugging],IDebugClient interface, GetOutputMask method [Windows Debugging],IDebugClient2 interface, GetOutputMask method [Windows Debugging],IDebugClient3 interface, GetOutputMask method [Windows Debugging],IDebugClient4 interface, GetOutputMask method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetOutputMask method, IDebugClient2 interface [Windows Debugging],GetOutputMask method, IDebugClient2::GetOutputMask, IDebugClient3 interface [Windows Debugging],GetOutputMask method, IDebugClient3::GetOutputMask, IDebugClient4 interface [Windows Debugging],GetOutputMask method, IDebugClient4.GetOutputMask, IDebugClient4::GetOutputMask, IDebugClient5 interface [Windows Debugging],GetOutputMask method, IDebugClient5::GetOutputMask, IDebugClient::GetOutputMask, IDebugClient_ff2626fe-2299-4008-b655-0b7dbd46ef8b.xml, dbgeng/IDebugClient2::GetOutputMask, dbgeng/IDebugClient3::GetOutputMask, dbgeng/IDebugClient4::GetOutputMask, dbgeng/IDebugClient5::GetOutputMask, dbgeng/IDebugClient::GetOutputMask, debugger.getoutputmask
-f1_keywords:
- - "dbgeng/IDebugClient.GetOutputMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.GetOutputMask
-- IDebugClient2.GetOutputMask
-- IDebugClient3.GetOutputMask
-- IDebugClient4.GetOutputMask
-- IDebugClient5.GetOutputMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::GetOutputMask
+ - dbgeng/IDebugClient4::GetOutputMask
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.GetOutputMask
+ - IDebugClient2.GetOutputMask
+ - IDebugClient3.GetOutputMask
+ - IDebugClient4.GetOutputMask
+ - IDebugClient5.GetOutputMask
 ---
 
 # IDebugClient4::GetOutputMask
@@ -51,25 +50,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetOutputMask</b> method returns the output mask currently set for the client.
-
 
 ## -parameters
 
+### -param Mask 
 
-
-
-### -param Mask [out]
-
-Receives the output mask for the client.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details on how to interpret this value.
-
+[out]
+Receives the output mask for the client.  See <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details on how to interpret this value.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -88,51 +80,35 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For an overview of output in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
-
+For an overview of output in the debugger engine, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getotheroutputmask">GetOtherOutputMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getotheroutputmask">GetOtherOutputMask</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputmask">SetOutputMask</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputmask">SetOutputMask</a>

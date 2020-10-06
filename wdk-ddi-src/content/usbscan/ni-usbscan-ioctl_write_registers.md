@@ -8,8 +8,6 @@ ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.date: 05/03/2018
 keywords: ["IOCTL_WRITE_REGISTERS IOCTL"]
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
-f1_keywords:
- - "usbscan/IOCTL_WRITE_REGISTERS"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbscan.h
-api_name:
-- IOCTL_WRITE_REGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_WRITE_REGISTERS
+ - usbscan/IOCTL_WRITE_REGISTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbscan.h
+api_name:
+ - IOCTL_WRITE_REGISTERS
 ---
 
 # IOCTL_WRITE_REGISTERS IOCTL
+
 
 ## -description
 
@@ -52,7 +52,7 @@ Writes to USB device registers, using the control pipe.
 
 ### -input-buffer
 
-Pointer to an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block) structure.
+Pointer to an [IO_BLOCK](./ns-usbscan-_io_block.md) structure.
 
 ### -input-buffer-length
 
@@ -72,15 +72,15 @@ Zero
 
 ### -status-block
 
-**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
 ### DeviceIoControl Parameters
 
-When the **DeviceloControl** function is called with the IOCTL_WRITE_REGISTERS I/O control code, the caller must specify the address of an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block) structure as the function's *lpInBuffer* parameter.
+When the **DeviceloControl** function is called with the IOCTL_WRITE_REGISTERS I/O control code, the caller must specify the address of an [IO_BLOCK](./ns-usbscan-_io_block.md) structure as the function's *lpInBuffer* parameter.
 
-Using the IO_BLOCK contents, the kernel-mode driver creates a [URB](https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb) that contains a [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_vendor_or_class_request) structure.
+Using the IO_BLOCK contents, the kernel-mode driver creates a [URB](../usb/ns-usb-_urb.md) that contains a [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](../usb/ns-usb-_urb_control_vendor_or_class_request.md) structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
 
@@ -95,7 +95,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 | **Value** | (SHORT)*pIoBlock*->**uOffset** |
 | **Index** | *pIoBlock*->**uIndex** |
 
-For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
+For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
 
 ```cpp
 DWORD             cbRet;

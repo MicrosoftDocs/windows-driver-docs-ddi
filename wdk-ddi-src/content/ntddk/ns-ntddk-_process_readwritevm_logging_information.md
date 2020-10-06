@@ -6,10 +6,11 @@ old-location: kernel\process_readwritevm_logging_information.htm
 tech.root: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.date: 04/30/2018
-keywords: ["_PROCESS_READWRITEVM_LOGGING_INFORMATION structure"]
+keywords: ["PROCESS_READWRITEVM_LOGGING_INFORMATION structure"]
 ms.keywords: "*PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture], _PROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information, ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION"
 f1_keywords:
  - "ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION"
+ - "PROCESS_READWRITEVM_LOGGING_INFORMATION"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - PROCESS_READWRITEVM_LOGGING_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION
 ---

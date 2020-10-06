@@ -8,8 +8,6 @@ ms.assetid: 9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_RECEIVE_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadReceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER callback, ndischimney/MiniportTcpOffloadReceive, netvista.miniporttcpoffloadreceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
-f1_keywords:
- - "ndischimney/MiniportTcpOffloadReceive"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- MiniportTcpOffloadReceive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - W_TCP_OFFLOAD_RECEIVE_HANDLER
+ - ndischimney/W_TCP_OFFLOAD_RECEIVE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - MiniportTcpOffloadReceive
 ---
 
 # W_TCP_OFFLOAD_RECEIVE_HANDLER callback function
@@ -47,71 +46,59 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 NDIS calls the 
   <i>MiniportTcpOffloadReceive</i> function to post receive requests (receive buffers) on an offloaded TCP
   connection.
 
-
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param MiniportOffloadContext 
 
-### -param MiniportOffloadContext [in]
-
+[in]
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection on which the receive
      requests are being posted. The offload target supplied this PVOID value when it offloaded the TCP
      connection state object.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
      maps to a chain of memory descriptor lists (MDLs). The NET_BUFFER_LIST and associated structures are
      locked so that they remain resident in physical memory. However, they are not mapped into system
      memory.
 
-
 ## -returns
-
-
 
 NDIS_STATUS_PENDING is the only return value that is allowed. An offload target always completes
      (returns) posted receive requests asynchronously by calling 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
      NdisTcpOffloadReceiveComplete</a>.
 
-
-
-
 ## -remarks
-
-
 
 A client application can post receive requests on an offloaded TCP connection. The offload target uses
     these requests to transfer data received on the connection to the client application. If receive requests
     are posted on a connection, the offload target should always use them to transfer data that is received
     on the connection. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/delivery-algorithm">Delivery Algorithm</a>.
+    <a href="/windows-hardware/drivers/network/delivery-algorithm">Delivery Algorithm</a>.
 
 The offload target queues the posted NET_BUFFER_LIST structures in first in, first out (FIFO) order.
     The offload target uses the 
@@ -153,14 +140,14 @@ Nonpush mode
 Note that an offload target must support both push mode and nonpush mode. .
 
 To determine which mode a buffer is in, an offload target calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to get the
+    <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to get the
     value of 
     <b>TcpReceiveNoPush</b>. If the value is <b>TRUE</b>, the receive request is in nonpush mode.
 
 If the receive request is in push mode, the offload target retrieves the value of 
     <b>TcpReceiveBytesTransferred</b> by calling the NET_BUFFER_LIST_INFO macro. If this value is non-zero,
     the offload target immediately starts the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/push-timer">push timer</a> for the connection. If this value is
+    <a href="/windows-hardware/drivers/network/push-timer">push timer</a> for the connection. If this value is
     zero, the offload target starts the push timer for the connection as soon as the offload target places
     the first byte of receive data into the receive request. The offload target always completes filled
     receive requests immediately. The offload target completes a partially filled receive request that is in
@@ -183,33 +170,23 @@ If the receive request is in nonpush mode, the offload target does not start a p
 If data is received on an offloaded connection while the push timer is running, the offload target
     must restart the push timer for that connection.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
    NdisTcpOffloadReceiveComplete</a>
- 
-
- 
-

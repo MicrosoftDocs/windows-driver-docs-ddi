@@ -8,8 +8,6 @@ ms.assetid: b6d257cb-5384-44fe-bcff-67c67439ad08
 ms.date: 04/30/2018
 keywords: ["IoBuildSynchronousFsdRequest function"]
 ms.keywords: IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest
-f1_keywords:
- - "wdm/IoBuildSynchronousFsdRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoBuildSynchronousFsdRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoBuildSynchronousFsdRequest
+ - wdm/IoBuildSynchronousFsdRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoBuildSynchronousFsdRequest
 ---
 
 # IoBuildSynchronousFsdRequest function
@@ -47,62 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoBuildSynchronousFsdRequest</b> routine allocates and sets up an IRP for a synchronously processed I/O request.
-
 
 ## -parameters
 
+### -param MajorFunction 
 
+[in]
+The major function code for the IRP. This code can be <a href="/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>, <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, <a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>, <a href="/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>.
 
+### -param DeviceObject 
 
-### -param MajorFunction [in]
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
 
-The major function code for the IRP. This code can be <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>.
+### -param Buffer 
 
-
-### -param DeviceObject [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
-
-
-### -param Buffer [in, out]
-
+[in, out]
 A pointer to a data buffer. If <i>MajorFunction</i> is <b>IRP_MJ_WRITE</b>, the buffer contains data to be written. If <i>MajorFunction</i> is <b>IRP_MJ_READ</b>, the buffer receives data. If <i>MajorFunction</i> is <b>IRP_MJ_FLUSH_BUFFERS</b> or <b>IRP_MJ_SHUTDOWN</b>, this parameter must be <b>NULL</b>.
 
+### -param Length 
 
-### -param Length [in, optional]
-
+[in, optional]
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>. For devices such as disks, this value must be an integer multiple of the sector size. Starting with Windows 8, the sector size can be 4,096 or 512 bytes. In earlier versions of Windows, the sector size is always 512 bytes. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
+### -param StartingOffset 
 
-### -param StartingOffset [in, optional]
-
+[in, optional]
 A pointer to the offset on the disk, for read and write requests. The units and meaning of this value are driver-specific. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
+### -param Event 
 
-### -param Event [in]
+[in]
+A pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, the driver can wait for the event object.
 
-A pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, the driver can wait for the event object.
+### -param IoStatusBlock 
 
-
-### -param IoStatusBlock [out]
-
+[out]
 A pointer to a location that receives the I/O status block that is set when the IRP is completed by a lower-level driver.
-
 
 ## -returns
 
-
-
-If the operation succeeds, <b>IoBuildSynchronousFsdRequest</b> returns a pointer to an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure, with the next-lower driver's I/O stack location set up from the supplied parameters. Otherwise, the routine returns <b>NULL</b>.
-
-
-
+If the operation succeeds, <b>IoBuildSynchronousFsdRequest</b> returns a pointer to an initialized <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure, with the next-lower driver's I/O stack location set up from the supplied parameters. Otherwise, the routine returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 A file system driver (FSD) or other higher-level driver can call <b>IoBuildSynchronousFsdRequest</b> to set up IRPs that it synchronously sends to lower-level drivers.
 
@@ -110,50 +97,40 @@ A file system driver (FSD) or other higher-level driver can call <b>IoBuildSynch
 
 Lower-level drivers might impose restrictions on parameters supplied to this routine. For example, disk drivers might require that values supplied for <i>Length</i> and <i>StartingOffset</i> be integer multiples of the device's sector size.
 
-After calling <b>IoBuildSynchronousFsdRequest</b> to create a request, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> to send the request to the next-lower driver. If <b>IoCallDriver</b> returns STATUS_PENDING, the driver must wait for the completion of the IRP by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> on the given <i>Event</i>. Most drivers do not need to set an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine for the IRP. 
+After calling <b>IoBuildSynchronousFsdRequest</b> to create a request, the driver must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> to send the request to the next-lower driver. If <b>IoCallDriver</b> returns STATUS_PENDING, the driver must wait for the completion of the IRP by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> on the given <i>Event</i>. Most drivers do not need to set an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine for the IRP. 
 
-IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed by a driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>. A driver that calls <b>IoBuildSynchronousFsdRequest</b> must not call <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>, because the I/O manager frees these synchronous IRPs after <b>IoCompleteRequest</b> has been called. 
+IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed by a driver's call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>. A driver that calls <b>IoBuildSynchronousFsdRequest</b> must not call <a href="/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>, because the I/O manager frees these synchronous IRPs after <b>IoCompleteRequest</b> has been called. 
 
-<b>IoBuildSynchronousFsdRequest</b> queues the IRPs that it creates to an IRP queue that is specific to the current thread. If the thread exits, the I/O manager cancels the IRP. 
-
-
-
+<b>IoBuildSynchronousFsdRequest</b> queues the IRPs that it creates to an IRP queue that is specific to the current thread. If the thread exits, the I/O manager cancels the IRP.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>

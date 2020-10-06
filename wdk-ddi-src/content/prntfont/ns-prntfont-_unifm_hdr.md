@@ -6,10 +6,8 @@ old-location: print\unifm_hdr.htm
 tech.root: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.date: 04/20/2018
-keywords: ["_UNIFM_HDR structure"]
+keywords: ["UNIFM_HDR structure"]
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
-f1_keywords:
- - "prntfont/UNIFM_HDR"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- UNIFM_HDR
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIFM_HDR, *PUNIFM_HDR
+f1_keywords:
+ - _UNIFM_HDR
+ - prntfont/_UNIFM_HDR
+ - PUNIFM_HDR
+ - prntfont/PUNIFM_HDR
+ - UNIFM_HDR
+ - prntfont/UNIFM_HDR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - UNIFM_HDR
 ---
 
 # _UNIFM_HDR structure
 
+
 ## -description
 
-The UNIFM_HDR structure is used to define the contents of [Unidrv font metrics files](https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management) (.ufm files).
+The UNIFM_HDR structure is used to define the contents of [Unidrv font metrics files](/windows-hardware/drivers/print/customized-font-management) (.ufm files).
 
 ## -struct-fields
 
@@ -68,23 +72,23 @@ Specifies an RC_GTT resource identifier that identifies a .gtt (Glyph Translatio
 
 ### -field loUnidrvInfo
 
-Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's [UNIDRVINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo) structure.
+Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's [UNIDRVINFO](./ns-prntfont-_unidrvinfo.md) structure.
 
 ### -field loIFIMetrics
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's [PRINTIFI32](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_printifi32) structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [PRINTIFI32](./ns-prntfont-_printifi32.md) structure.
 
 ### -field loExtTextMetric
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's [EXTTEXTMETRIC](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_exttextmetric) structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [EXTTEXTMETRIC](./ns-prntfont-_exttextmetric.md) structure.
 
 ### -field loWidthTable
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's [WIDTHTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable) structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [WIDTHTABLE](./ns-prntfont-_widthtable.md) structure.
 
 ### -field loKernPair
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's [KERNDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_kerndata) structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [KERNDATA](./ns-prntfont-_kerndata.md) structure.
 
 ### -field dwReserved
 
@@ -96,7 +100,7 @@ A UNIFM_HDR structure must be the first structure contained in a .ufm file.
 
 If **lGlyphSetDataRCID** is not CC_DEFAULT, then the following rules apply:
 
-- If **lGlyphSetDataRCID** contains an RC_GTT resource identifier, the code page number specified for **ulDefaultCodepage** must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first [UNI_CODEPAGEINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo) structure.
+- If **lGlyphSetDataRCID** contains an RC_GTT resource identifier, the code page number specified for **ulDefaultCodepage** must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first [UNI_CODEPAGEINFO](./ns-prntfont-_uni_codepageinfo.md) structure.
 
 - If **lGlyphSetDataRCID** contains one of the CC_-prefixed code conversion identifiers (other than CC_DEFAULT), the code page number specified for **ulDefaultCodepage** must be the code page number that is associated with the CC_-prefixed identifier. (These code page numbers are listed in Prntfont.h, next to each CC_-prefixed identifier.)
 
@@ -139,14 +143,14 @@ If **lGlyphSetDataRCID** is CC_DEFAULT, there are no restrictions on the value s
 
 ## -see-also
 
-[EXTTEXTMETRIC](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_exttextmetric)
+[EXTTEXTMETRIC](./ns-prntfont-_exttextmetric.md)
 
-[KERNDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_kerndata)
+[KERNDATA](./ns-prntfont-_kerndata.md)
 
-[PRINTIFI32](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_printifi32)
+[PRINTIFI32](./ns-prntfont-_printifi32.md)
 
-[UNIDRVINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo)
+[UNIDRVINFO](./ns-prntfont-_unidrvinfo.md)
 
-[UNI_CODEPAGEINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo)
+[UNI_CODEPAGEINFO](./ns-prntfont-_uni_codepageinfo.md)
 
-[WIDTHTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable)
+[WIDTHTABLE](./ns-prntfont-_widthtable.md)

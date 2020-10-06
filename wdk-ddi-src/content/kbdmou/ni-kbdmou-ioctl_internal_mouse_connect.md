@@ -8,8 +8,6 @@ ms.assetid: f20e424a-60d3-4bfa-9cc3-d2541c927b22
 ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_MOUSE_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_MOUSE_CONNECT, IOCTL_INTERNAL_MOUSE_CONNECT control, IOCTL_INTERNAL_MOUSE_CONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_connect, kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT, mfilref_df1ebbe7-9806-4c2a-93c5-4fcbbfdf2f1f.xml
-f1_keywords:
- - "kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- kbdmou.h
-api_name:
-- IOCTL_INTERNAL_MOUSE_CONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_MOUSE_CONNECT
+ - kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - kbdmou.h
+api_name:
+ - IOCTL_INTERNAL_MOUSE_CONNECT
 ---
 
 # IOCTL_INTERNAL_MOUSE_CONNECT IOCTL
@@ -47,13 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_INTERNAL_MOUSE_CONNECT request connects Mouclass service to a mouse device. Mouclass sends this request down the device stack before it opens a mouse device. 
 
 After Moufiltr receives the mouse connect request, it filters the request in the following way:
 <ol>
 <li>
-Saves a copy of the <a href="https://docs.microsoft.com/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a> structure that was passed to Moufiltr
+Saves a copy of the <a href="/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a> structure that was passed to Moufiltr
 
 </li>
 <li>
@@ -66,19 +64,19 @@ Sends the IOCTL_INTERNAL_MOUSE_CONNECT request down the device stack
 </li>
 </ol>If the request is not successful, Moufiltr completes the request with an appropriate error status.
 
-Moufiltr provides a template for a filter service callback routine that can supplement the operation of <a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>, the Mouclass service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class driver data queue. 
+Moufiltr provides a template for a filter service callback routine that can supplement the operation of <a href="/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>, the Mouclass service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class driver data queue. 
 
 For more information about the connection of the Mouclass service, see the following topics:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I8042prt Callback Routines</a>
+<a href="/windows-hardware/drivers/ddi/index">I8042prt Callback Routines</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/previous-versions/ff542384(v=vs.85)">Moufiltr Callback Routines</a>
+<a href="/previous-versions/ff542384(v=vs.85)">Moufiltr Callback Routines</a>
 
 
 </dd>
@@ -86,46 +84,25 @@ For more information about the connection of the Mouclass service, see the follo
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> member points to a CONNECT_DATA structure that is allocated and set by Mouclass.
-
 
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value greater than or equal to the size, in bytes, of a CONNECT_DATA structure.
 
-
 ### -output-buffer
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> member points to a CONNECT_DATA structure that is set by Moufiltr.
-
 
 ### -output-buffer-length
 
 The size of a CONNECT_DATA structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -145,18 +122,10 @@ The <b>Status</b> member is set to one of the following values:
 
 Moufiltr is already connected (a filter driver supports only one connect request).
 
-
 ## -see-also
 
+<a href="/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>
- 
-
- 
-
+<a href="/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>

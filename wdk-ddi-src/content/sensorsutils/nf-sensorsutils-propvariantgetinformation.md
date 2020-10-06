@@ -6,40 +6,39 @@ ms.assetid: 37444fc1-54cf-4898-af68-6aa6019b85d5
 ms.date: 08/08/2018
 keywords: ["PropVariantGetInformation function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropVariantGetInformation"
 ms.keywords: PropVariantGetInformation
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropVariantGetInformation
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - PropVariantGetInformation
+ - sensorsutils/PropVariantGetInformation
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropVariantGetInformation
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # PropVariantGetInformation function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIANT.
-
 
 ## -parameters
 
@@ -65,6 +63,7 @@ This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIA
 [out] Size of data.
 
 ### -param PropVariantPointer
+
 C
 [out] The location of data.
 
@@ -79,3 +78,4 @@ This function returns STATUS_NOT_SUPPORTED if the PROPVARIANT is not a supported
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 72eb23aa-4f0e-4ef5-baee-c0735253684e
 ms.date: 04/23/2018
 keywords: ["KsFilterFactoryGetFirstChildFilter function"]
 ms.keywords: KsFilterFactoryGetFirstChildFilter, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, ks/KsFilterFactoryGetFirstChildFilter, stream.ksfilterfactorygetfirstchildfilter
-f1_keywords:
- - "ks/KsFilterFactoryGetFirstChildFilter"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsFilterFactoryGetFirstChildFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterFactoryGetFirstChildFilter
+ - ks/KsFilterFactoryGetFirstChildFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsFilterFactoryGetFirstChildFilter
 ---
 
 # KsFilterFactoryGetFirstChildFilter function
@@ -47,57 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterFactoryGetFirstChildFilter</b> function returns the first instantiated filter created by <i>FilterFactory</i>.
-
 
 ## -parameters
 
+### -param FilterFactory 
 
-
-
-### -param FilterFactory [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to find the first instantiated child filter.
-
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to find the first instantiated child filter.
 
 ## -returns
 
-
-
-<b>KsFilterFactoryGetFirstChildFilter</b> returns a pointer to the first instantiated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure created by <i>FilterFactory</i>. If there are no instantiated filters created by <i>FilterFactory</i>, <b>NULL</b> is returned.
-
-
-
+<b>KsFilterFactoryGetFirstChildFilter</b> returns a pointer to the first instantiated <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure created by <i>FilterFactory</i>. If there are no instantiated filters created by <i>FilterFactory</i>, <b>NULL</b> is returned.
 
 ## -remarks
 
-
-
-This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
-
-
-
+This call is an inline function call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>

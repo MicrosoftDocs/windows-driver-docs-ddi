@@ -8,8 +8,6 @@ ms.assetid: d28170a4-2cf3-4e42-bc76-afdb8c3bce70
 ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, display.d3dddi_multiplane_overlay_ycbcr_flags
-f1_keywords:
- - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+f1_keywords:
+ - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ - d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
 # D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration
@@ -47,35 +46,22 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 
 ## -description
 
-
 Identifies YUV range and conversion info that describes a multiplane overlay.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
 
 YUV values range from 16 to 235, inclusive, instead of the default range of 0 to 255, inclusive.
 
-
 ### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709
 
 YUV values should be converted using the BT.709 standard, instead of the default BT.601 conversion.
-
 
 ### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 
 YUV values contain xvYCC data, instead of conventional YCbCr data.
 
-
 ## -remarks
 
-
-
-For more info on how YUV ranges are defined and converted, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
-
-
-
+For more info on how YUV ranges are defined and converted, see <a href="/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.

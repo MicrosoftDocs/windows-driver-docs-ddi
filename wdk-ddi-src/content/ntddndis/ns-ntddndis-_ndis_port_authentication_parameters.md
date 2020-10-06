@@ -6,10 +6,8 @@ old-location: netvista\ndis_port_authentication_parameters.htm
 tech.root: netvista
 ms.assetid: 7c411d9e-1064-4278-9870-0546891d4743
 ms.date: 05/02/2018
-keywords: ["_NDIS_PORT_AUTHENTICATION_PARAMETERS structure"]
+keywords: ["NDIS_PORT_AUTHENTICATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_AUTHENTICATION_PARAMETERS, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, netvista.ndis_port_authentication_parameters, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_PORT_AUTHENTICATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PORT_AUTHENTICATION_PARAMETERS, *PNDIS_PORT_AUTHENTICATION_PARAMETERS
+f1_keywords:
+ - _NDIS_PORT_AUTHENTICATION_PARAMETERS
+ - ntddndis/_NDIS_PORT_AUTHENTICATION_PARAMETERS
+ - PNDIS_PORT_AUTHENTICATION_PARAMETERS
+ - ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS
+ - NDIS_PORT_AUTHENTICATION_PARAMETERS
+ - ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_PORT_AUTHENTICATION_PARAMETERS
 ---
 
 # _NDIS_PORT_AUTHENTICATION_PARAMETERS structure
@@ -47,26 +50,20 @@ req.typenames: NDIS_PORT_AUTHENTICATION_PARAMETERS, *PNDIS_PORT_AUTHENTICATION_P
 
 ## -description
 
-
 The NDIS_PORT_AUTHENTICATION_PARAMETERS structure specifies the state parameters for an NDIS
   port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_AUTHENTICATION_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
      <b>Revision</b> member to NDIS_PORT_AUTHENTICATION_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_PORT_AUTHENTICATION_PARAMETERS_REVISION_1.
-
 
 ### -field SendControlState
 
@@ -96,7 +93,6 @@ The port is in a controlled state for send operations. That is, the port require
 The port is in an uncontrolled state for send operations. That is, the port does not require
        authorization.
 
-
 ### -field RcvControlState
 
 The control state of the port that the miniport adapter should use for receive operations. This
@@ -124,7 +120,6 @@ The port is in a controlled state for receive operations. That is, the port requ
 
 The port is in an uncontrolled state for receive operations. That is, the port does not require
        authorization.
-
 
 ### -field SendAuthorizationState
 
@@ -162,7 +157,6 @@ The port is not authorized for send operations.
 
 The port is re-authorizing for send operations.
 
-
 ### -field RcvAuthorizationState
 
 The authorization state of the port that the miniport adapter should use for receive operations.
@@ -199,31 +193,18 @@ The port is not authorized for receive operations.
 
 The port is re-authorizing for receive operations.
 
-
 ## -remarks
 
-
-
 The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+    <a href="/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
     OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a> OID requests to specify the current authentication state of
     an NDIS port.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+<a href="/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
- 
-
- 
-

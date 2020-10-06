@@ -8,8 +8,6 @@ ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.date: 04/16/2018
 keywords: ["RtlGetNonVolatileToken function"]
 ms.keywords: RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken, ntddk/RtlGetNonVolatileToken
-f1_keywords:
- - "ntddk/RtlGetNonVolatileToken"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlGetNonVolatileToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlGetNonVolatileToken
+ - ntddk/RtlGetNonVolatileToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlGetNonVolatileToken
 ---
 
 # RtlGetNonVolatileToken function
@@ -47,35 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The routine, <b>RtlGetNonVolatileToken</b>, gets various properties about a non-volatile memory
     buffer and stores them in the variable <b>NvToken</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param NvBuffer
 
 A pointer to the non-volatile memory that the returned <b>NvToken</b> is going to track state for. This should be an address obtained from a file mapping object.
 
-
 ### -param Size
 
 The length, in bytes, of the non-volatile memory buffer <b>NvBuffer</b> points to.
-
 
 ### -param NvToken
 
  A pointer to an opaque structure that tracks
         information about the given non-volatile memory region which <b>RtlGetNonVolatileToken</b> had returned.
 
-
 ## -returns
-
-
 
 The routine <b>RtlGetNonVolatileToken</b> returns one of the status codes:
 
@@ -130,44 +119,28 @@ The request was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine is currently not supported for Windows Server until the next major release of Windows Server.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldrainnonvolatileflush">RtlDrainNonVolatileFlush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldrainnonvolatileflush">RtlDrainNonVolatileFlush</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">
 RtlFlushNonVolatileMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememoryranges">RtlFlushNonVolatileMemoryRanges</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememoryranges">RtlFlushNonVolatileMemoryRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlfreenonvolatiletoken">RtlFreeNonVolatileToken</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlfreenonvolatiletoken">RtlFreeNonVolatileToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>

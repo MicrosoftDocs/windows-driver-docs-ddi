@@ -1,45 +1,44 @@
 ---
 UID: NF:storport.StorPortSetEvent
 title: StorPortSetEvent function
-author: windows-driver-content
 description: A miniport can call StorPortSetEvent to set an event object to the signaled state.
 tech.root: storage
 ms.assetid: 85d89cc8-a4b6-4f83-a3ba-2c64d28ca516
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortSetEvent
 req.header: storport.h
-f1_keywords:
- - "storport/StorPortSetEvent"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortSetEvent
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortSetEvent
+ - storport/StorPortSetEvent
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortSetEvent
+product:
+ - Windows
 ---
 
 # StorPortSetEvent function
@@ -71,12 +70,12 @@ Pointer to a [**STOR_EVENT**](ns-storport-stor_event.md) structure containing th
 
 ## -remarks
 
-See [**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+See [**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 ## -see-also
 
-[**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+[**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
-[**StorPortInitializeEvent**](ns-storport-storport_initialize_event.md)
+[**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)

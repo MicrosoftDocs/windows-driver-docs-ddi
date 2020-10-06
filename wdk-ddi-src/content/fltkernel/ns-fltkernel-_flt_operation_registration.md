@@ -6,10 +6,8 @@ old-location: ifsk\flt_operation_registration.htm
 tech.root: ifsk
 ms.assetid: 5e3f9a29-660e-46f1-bf25-5bad8b91e32c
 ms.date: 07/25/2019
-keywords: ["_FLT_OPERATION_REGISTRATION structure"]
+keywords: ["FLT_OPERATION_REGISTRATION structure"]
 ms.keywords: "*PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], _FLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION, fltkernel/PFLT_OPERATION_REGISTRATION, ifsk.flt_operation_registration"
-f1_keywords:
- - "fltkernel/FLT_OPERATION_REGISTRATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_OPERATION_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_OPERATION_REGISTRATION, *PFLT_OPERATION_REGISTRATION
+f1_keywords:
+ - _FLT_OPERATION_REGISTRATION
+ - fltkernel/_FLT_OPERATION_REGISTRATION
+ - PFLT_OPERATION_REGISTRATION
+ - fltkernel/PFLT_OPERATION_REGISTRATION
+ - FLT_OPERATION_REGISTRATION
+ - fltkernel/FLT_OPERATION_REGISTRATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_OPERATION_REGISTRATION
 ---
 
 # _FLT_OPERATION_REGISTRATION structure
+
 
 ## -description
 
@@ -52,11 +56,11 @@ The FLT_OPERATION_REGISTRATION structure is used to register operation callback 
 
 ### -field MajorFunction
 
-Major function code specifying the type of I/O operation. This member is required and cannot be **NULL**. For more information about additional operations, see [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters).
+Major function code specifying the type of I/O operation. This member is required and cannot be **NULL**. For more information about additional operations, see [FLT_PARAMETERS](./ns-fltkernel-_flt_parameters.md).
 
 ### -field Flags
 
-Bitmask of flags specifying when to call the preoperation ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)) and postoperation ([PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)) callback routines for cached I/O or paging I/O operations. This member is optional and can be zero.
+Bitmask of flags specifying when to call the preoperation ([PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)) and postoperation ([PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)) callback routines for cached I/O or paging I/O operations. This member is optional and can be zero.
 
 | Flag | Description |
 | ---- | ----------- |
@@ -67,11 +71,11 @@ Bitmask of flags specifying when to call the preoperation ([PFLT_PRE_OPERATION_C
 
 ### -field PreOperation
 
-Pointer to a [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)-typed routine to be registered as the preoperation callback routine for this type of I/O operation. This member is optional and can be **NULL**.
+Pointer to a [PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)-typed routine to be registered as the preoperation callback routine for this type of I/O operation. This member is optional and can be **NULL**.
 
 ### -field PostOperation
 
-Pointer to a [PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)-typed routine to be registered as the postoperation callback routine for this type of I/O operation. This member is optional and can be **NULL**.
+Pointer to a [PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)-typed routine to be registered as the postoperation callback routine for this type of I/O operation. This member is optional and can be **NULL**.
 
 ### -field Reserved1
 
@@ -79,9 +83,9 @@ Reserved for system use. Minifilters must set this member to **NULL**.
 
 ## -remarks
 
-When a minifilter calls [**FltRegisterFilter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter) from its [**DriverEntry**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_initialize) routine, it can register a preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)) routine and a postoperation callback ([PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)) routine for each type of I/O operation that it must handle.
+When a minifilter calls [**FltRegisterFilter**](./nf-fltkernel-fltregisterfilter.md) from its [**DriverEntry**](../wdm/nc-wdm-driver_initialize.md) routine, it can register a preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)) routine and a postoperation callback ([PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)) routine for each type of I/O operation that it must handle.
 
-To register these callback routines, the minifilter creates a variable-length array of FLT_OPERATION_REGISTRATION structures and stores a pointer to the array in the **OperationRegistration** member of the [FLT_REGISTRATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration) structure that the minifilter passes as the *Registration* parameter of [**FltRegisterFilter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter). The last element of this array must be {IRP_MJ_OPERATION_END}.
+To register these callback routines, the minifilter creates a variable-length array of FLT_OPERATION_REGISTRATION structures and stores a pointer to the array in the **OperationRegistration** member of the [FLT_REGISTRATION](./ns-fltkernel-_flt_registration.md) structure that the minifilter passes as the *Registration* parameter of [**FltRegisterFilter**](./nf-fltkernel-fltregisterfilter.md). The last element of this array must be {IRP_MJ_OPERATION_END}.
 
 The minifilter must create a separate FLT_OPERATION_REGISTRATION structure for each type of I/O operation that it handles. In this structure, the minifilter specifies the entry points of its callback routines in the structure's **PreOperation** and **PostOperation** members.
 
@@ -95,10 +99,10 @@ A single preoperation or postoperation callback routine can be used to process m
 
 ## -see-also
 
-[FLT_REGISTRATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration)
+[FLT_REGISTRATION](./ns-fltkernel-_flt_registration.md)
 
-[**FltRegisterFilter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter)
+[**FltRegisterFilter**](./nf-fltkernel-fltregisterfilter.md)
 
-[PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)
+[PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)
 
-[PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)
+[PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)

@@ -8,8 +8,6 @@ ms.assetid: 74398dad-efb6-4c21-9b0e-38ff0449ec99
 ms.date: 05/02/2018
 keywords: ["RIL_GetUiccPRLID function"]
 ms.keywords: RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID
-f1_keywords:
- - "rilapi/RIL_GetUiccPRLID"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_GetUiccPRLID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_GetUiccPRLID
+ - rilapi/RIL_GetUiccPRLID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_GetUiccPRLID
 ---
 
 # RIL_GetUiccPRLID function
@@ -47,31 +46,17 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param hUiccApp
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

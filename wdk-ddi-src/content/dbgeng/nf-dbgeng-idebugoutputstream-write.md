@@ -8,8 +8,6 @@ ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.date: 05/03/2018
 keywords: ["IDebugOutputStream::Write"]
 ms.keywords: IDebugOutputStream interface [Windows Debugging],Write method, IDebugOutputStream.Write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],IDebugOutputStream interface, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
-f1_keywords:
- - "dbgeng/IDebugOutputStream.Write"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugOutputStream.Write
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugOutputStream::Write
+ - dbgeng/IDebugOutputStream::Write
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugOutputStream.Write
 ---
 
 # IDebugOutputStream::Write
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Writes to the debug output stream.
-
 
 ## -parameters
 
+### -param psz 
 
-
-
-### -param psz [in]
-
+[in]
 A pointer to a Unicode character string of content to write.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputstream">IDebugOutputStream</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputstream">IDebugOutputStream</a>

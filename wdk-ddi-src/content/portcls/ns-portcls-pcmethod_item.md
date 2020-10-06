@@ -8,8 +8,6 @@ ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.date: 05/08/2018
 keywords: ["PCMETHOD_ITEM structure"]
 ms.keywords: "*PPCMETHOD_ITEM, PCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item, audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, portcls/PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM"
-f1_keywords:
- - "portcls/PCMETHOD_ITEM"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- portcls.h
-api_name:
-- PCMETHOD_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: PCMETHOD_ITEM, *PPCMETHOD_ITEM
+f1_keywords:
+ - PPCMETHOD_ITEM
+ - portcls/PPCMETHOD_ITEM
+ - PCMETHOD_ITEM
+ - portcls/PCMETHOD_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - portcls.h
+api_name:
+ - PCMETHOD_ITEM
 ---
 
 # PCMETHOD_ITEM structure
@@ -47,24 +48,17 @@ req.typenames: PCMETHOD_ITEM, *PPCMETHOD_ITEM
 
 ## -description
 
-
 The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or node.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Set
 
 Specifies the method set. This member is a pointer to a GUID that uniquely identifies the method set.
 
-
 ### -field Id
 
 Specifies the method ID. This member identifies a method item in the method set. If the method set contains <i>n</i> items, valid method IDs are integers in the range 0 to <i>n</i>-1.
-
 
 ### -field Flags
 
@@ -126,47 +120,27 @@ The method writes to the parameter buffer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Handler
 
 Pointer to the method-handler routine. This member is a function pointer of type PCPFNMETHOD_HANDLER, which is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  typedef NTSTATUS (*PCPFNMETHOD_HANDLER)
+
+```
+  typedef NTSTATUS (*PCPFNMETHOD_HANDLER)
   (
       IN PPCMETHOD_REQUEST  MethodRequest
-  );</pre>
-</td>
-</tr>
-</table></span></div>
-When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>.
+  );
+```
 
+When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>.
 
 ## -remarks
 
-
-
 The WDM audio subsystem does not currently support methods on either filter instances or pin instances. This restriction also precludes support for methods on nodes.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure contains a pointer to an array of PCMETHOD_ITEM structures.
-
-
-
+The <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure contains a pointer to an array of PCMETHOD_ITEM structures.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>

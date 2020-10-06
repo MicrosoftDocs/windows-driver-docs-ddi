@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: smartcard
+f1_keywords:
+ - smcnt
+ - smcnt/smcnt
 ---
 
 # Smcnt.h header
@@ -18,7 +19,7 @@ tech.root: smartcard
 
 ## -description
 
-
 This header is used by smartcrd. For more information, see:
 
 - [<built-in method title of str object at 0x0000022367FF52F0>](../_smartcrd/index.md)
+

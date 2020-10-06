@@ -6,10 +6,8 @@ old-location: kernel\power_platform_information.htm
 tech.root: kernel
 ms.assetid: 0E62B57D-F9B1-4B01-A19E-9E2DBC387578
 ms.date: 04/30/2018
-keywords: ["_POWER_PLATFORM_INFORMATION structure"]
+keywords: ["POWER_PLATFORM_INFORMATION structure"]
 ms.keywords: "*PPOWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], PPOWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _POWER_PLATFORM_INFORMATION, kernel.power_platform_information, wdm/POWER_PLATFORM_INFORMATION, wdm/PPOWER_PLATFORM_INFORMATION"
-f1_keywords:
- - "wdm/POWER_PLATFORM_INFORMATION"
 req.header: wdm.h
 req.include-header: Ntpoapi.h
 req.target-type: Windows
@@ -27,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- POWER_PLATFORM_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_PLATFORM_INFORMATION, *PPOWER_PLATFORM_INFORMATION
+f1_keywords:
+ - _POWER_PLATFORM_INFORMATION
+ - wdm/_POWER_PLATFORM_INFORMATION
+ - PPOWER_PLATFORM_INFORMATION
+ - wdm/PPOWER_PLATFORM_INFORMATION
+ - POWER_PLATFORM_INFORMATION
+ - wdm/POWER_PLATFORM_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - POWER_PLATFORM_INFORMATION
 ---
 
-# _POWER_PLATFORM_INFORMATION structure
+# _POWER_PLATFORM_INFORMATION structure (wdm.h)
 
 
 ## -description
 
-
 The <b>POWER_PLATFORM_INFORMATION</b> structure contains information about  the power capabilities of the system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AoAc
 

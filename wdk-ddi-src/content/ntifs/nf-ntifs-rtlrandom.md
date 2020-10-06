@@ -8,8 +8,6 @@ ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
 ms.date: 04/16/2018
 keywords: ["RtlRandom function"]
 ms.keywords: RtlRandom, RtlRandom routine [Installable File System Drivers], ifsk.rtlrandom, ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
-f1_keywords:
- - "ntifs/RtlRandom"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlRandom
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRandom
+ - ntifs/RtlRandom
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlRandom
 ---
 
 # RtlRandom function
@@ -47,47 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlRandom</b> routine returns a random number that was generated from a given seed value. 
-
+The <b>RtlRandom</b> routine returns a random number that was generated from a given seed value.
 
 ## -parameters
 
+### -param Seed 
 
-
-
-### -param Seed [in, out]
-
-Unsigned long value from which to generate a random number. 
-
+[in, out]
+Unsigned long value from which to generate a random number.
 
 ## -returns
 
-
-
-<b>RtlRandom</b> returns a random number in the range [0..MAXLONG-1]. 
-
-
-
+<b>RtlRandom</b> returns a random number in the range [0..MAXLONG-1].
 
 ## -remarks
 
-
-
 <b>RtlRandom</b> returns values that are uniformly distributed over the range from zero to the maximum possible LONG value less 1 if it is called repeatedly with the same <i>Seed</i>.
 
-The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> function that is twice as fast and produces better random numbers. 
-
-
-
+The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> function that is twice as fast and produces better random numbers.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlrandomex">RtlRandomEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlrandomex">RtlRandomEx</a>

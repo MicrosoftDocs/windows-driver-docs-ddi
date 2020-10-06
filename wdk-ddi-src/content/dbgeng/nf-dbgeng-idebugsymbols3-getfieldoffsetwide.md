@@ -8,8 +8,6 @@ ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetFieldOffsetWide"]
 ms.keywords: GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldOffsetWide method, IDebugSymbols3.GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetFieldOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetFieldOffsetWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetFieldOffsetWide
+ - dbgeng/IDebugSymbols3::GetFieldOffsetWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetFieldOffsetWide
 ---
 
 # IDebugSymbols3::GetFieldOffsetWide
@@ -47,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetFieldOffsetWide</b>  method returns the offset of a field from the base address of an instance of a type.
-
 
 ## -parameters
 
+### -param Module 
 
-
-
-### -param Module [in]
-
+[in]
 Specifies the module containing the types of both the container and the field.
 
+### -param TypeId 
 
-### -param TypeId [in]
-
+[in]
 Specifies the type ID of the type containing the field.
 
+### -param Field 
 
-### -param Field [in]
-
+[in]
 Specifies the name of the field whose offset is requested.  Subfields may be specified by using a dot-separated path.
 
+### -param Offset 
 
-### -param Offset [out]
-
-Receives the offset of the specified field from the base memory location of an instance of the type. 
-
+[out]
+Receives the offset of the specified field from the base memory location of an instance of the type.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -110,18 +102,9 @@ The field <i>Field</i> could not be found in the type specified by <i>TypeId</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the location of this field relative to the location of MyStruct structure can be found by setting the <i>Field</i> parameter to "MyField.MySubField".
 
-For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
-
-
-
+For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.

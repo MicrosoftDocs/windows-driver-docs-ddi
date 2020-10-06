@@ -8,16 +8,16 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
-# Taef
+# TAEF
 
 ## -description
 
-Overview of the Taef technology.
+Overview of the Test Authoring and Execution Framework (TAEF) technology.
 
-The Taef technology is not associated with any headers.
+The TAEF technology is associated with these headers.
 
+wexlogtrace.h
+wextestclass.h
 

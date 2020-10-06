@@ -8,8 +8,6 @@ ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::OutputRegisters"]
 ms.keywords: IDebugRegisters interface [Windows Debugging],OutputRegisters method, IDebugRegisters2 interface [Windows Debugging],OutputRegisters method, IDebugRegisters2.OutputRegisters, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging],IDebugRegisters interface, OutputRegisters method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters
-f1_keywords:
- - "dbgeng/IDebugRegisters.OutputRegisters"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters.OutputRegisters
-- IDebugRegisters2.OutputRegisters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters2::OutputRegisters
+ - dbgeng/IDebugRegisters2::OutputRegisters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters.OutputRegisters
+ - IDebugRegisters2.OutputRegisters
 ---
 
 # IDebugRegisters2::OutputRegisters
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>OutputRegisters</b> method formats and sends the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a> to the clients as output.
-
+The <b>OutputRegisters</b> method formats and sends the target's <a href="/windows-hardware/drivers/debugger/registers">registers</a> to the clients as output.
 
 ## -parameters
 
+### -param OutputControl 
 
+[in]
+Specifies which clients should be sent the output of the formatted registers.  See <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
+### -param Flags 
 
-### -param OutputControl [in]
-
-Specifies which clients should be sent the output of the formatted registers.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
-
-
-### -param Flags [in]
-
+[in]
 Specifies which set of registers to print.  This can either be DEBUG_REGISTERS_DEFAULT to print commonly used registers, DEBUG_REGISTERS_ALL to print all the sets of registers, or a combination of the values listed in the following table.
 
 <table>
@@ -102,14 +97,10 @@ Print the floating-point register set.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -128,39 +119,23 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The registers are formatted in a way that is specific to the target architecture's register set.
 
-The method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters2">OutputRegisters2</a> performs the same task as this method but also allows the register source to be specified.
+The method <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters2">OutputRegisters2</a> performs the same task as this method but also allows the register source to be specified.
 
-For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.  For details on sending output to the clients, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
-
+For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.  For details on sending output to the clients, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters2">OutputRegisters2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters2">OutputRegisters2</a>

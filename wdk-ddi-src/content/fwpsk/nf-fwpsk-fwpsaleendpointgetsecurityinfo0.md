@@ -8,8 +8,6 @@ ms.assetid: 0c825695-7fef-4eb1-8615-f41c526aa32d
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointGetSecurityInfo0 function"]
 ms.keywords: FwpsAleEndpointGetSecurityInfo0, FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetSecurityInfo0, netvista.fwpsaleendpointgetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml
-f1_keywords:
- - "fwpsk/FwpsAleEndpointGetSecurityInfo0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAleEndpointGetSecurityInfo0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAleEndpointGetSecurityInfo0
+ - fwpsk/FwpsAleEndpointGetSecurityInfo0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAleEndpointGetSecurityInfo0
 ---
 
 # FwpsAleEndpointGetSecurityInfo0 function
@@ -48,59 +47,53 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsAleEndpointGetSecurityInfo0</b> function retrieves security information about the application layer
   enforcement (ALE) endpoint enumeration session.
-<div class="alert"><b>Note</b>  <b>FwpsAleEndpointGetSecurityInfo0</b> is a specific version of <b>FwpsAleEndpointGetSecurityInfo</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAleEndpointGetSecurityInfo0</b> is a specific version of <b>FwpsAleEndpointGetSecurityInfo</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
+     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
+### -param securityInfo 
 
-### -param securityInfo [in]
-
+[in]
 A set of security information flags. For more information, see the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> description in the
+     <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> description in the
      Installable File Systems driver documentation.
 
+### -param sidOwner 
 
-### -param sidOwner [out]
-
+[out]
 The security identifier of the security owner.
 
+### -param sidGroup 
 
-### -param sidGroup [out]
-
+[out]
 The security identifier of the security group.
 
+### -param dacl 
 
-### -param dacl [out]
-
+[out]
 The discretionary access control list.
 
+### -param sacl 
 
-### -param sacl [out]
-
+[out]
 The system access control list.
 
+### -param securityDescriptor 
 
-### -param securityDescriptor [out]
-
+[out]
 The security descriptor structure.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAleEndpointGetSecurityInfo0</b> function returns one of the following NTSTATUS codes.
@@ -133,27 +126,16 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetbyid0">FwpsAleEndpointGetById0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointgetbyid0">FwpsAleEndpointGetById0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointsetsecurityinfo0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointsetsecurityinfo0">
    FwpsAleEndpointSetSecurityInfo0</a>
- 
-
- 
-

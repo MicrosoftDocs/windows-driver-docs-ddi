@@ -7,8 +7,6 @@ ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.date: 05/10/2018
 keywords: ["D3DKMTWaitForIdle function"]
 ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
-f1_keywords:
- - "d3dkmthk/D3DKMTWaitForIdle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,30 +24,32 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTWaitForIdle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTWaitForIdle
+ - d3dkmthk/D3DKMTWaitForIdle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTWaitForIdle
 ---
 
 # D3DKMTWaitForIdle function
 
+
 ## -description
 
-The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle. 
+The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle.
 
 ## -parameters
 
@@ -57,8 +57,7 @@ The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
-
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for.
 
 ## -returns
 
@@ -68,13 +67,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|The wait for the display device successfully occurred.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a>

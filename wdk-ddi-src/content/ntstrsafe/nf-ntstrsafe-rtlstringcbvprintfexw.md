@@ -8,8 +8,6 @@ ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.date: 04/30/2018
 keywords: ["RtlStringCbVPrintfExW function"]
 ms.keywords: RtlStringCbVPrintfEx, RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbvprintfex, ntstrsafe/RtlStringCbVPrintfExA, ntstrsafe/RtlStringCbVPrintfExW, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbVPrintfExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbVPrintfExW
-- RtlStringCbVPrintfExA
-- RtlStringCbVPrintfExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbVPrintfExW
+ - ntstrsafe/RtlStringCbVPrintfExW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbVPrintfExW
+ - RtlStringCbVPrintfExA
+ - RtlStringCbVPrintfExW
 ---
 
 # RtlStringCbVPrintfExW function
@@ -50,22 +49,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> functions create a byte-counted text string, with formatting that is based on supplied formatting information.
-
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [out, optional]
-
+[out, optional]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param cbDest 
 
-### -param cbDest [in]
-
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -74,19 +69,19 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
+### -param ppszDestEnd 
 
-### -param ppszDestEnd [out, optional]
+[out, optional]
+If the caller supplies a non-<b>NULL</b> address pointer then, after the operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
-If the caller supplies a non-<b>NULL</b> address pointer then, after the operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
+### -param pcbRemaining 
 
-
-### -param pcbRemaining [out, optional]
-
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including bytes used for the terminating null character.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>
@@ -145,24 +140,20 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </td>
 </tr>
 </table>
- 
 
+### -param pszFormat 
 
-### -param pszFormat [in, optional]
-
+[in, optional]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param argList 
 
-### -param argList [in]
-
+[in]
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
-
 
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -213,14 +204,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> should be used instead of the following functions: 
 
@@ -244,7 +229,7 @@ _<b>vsnwprintf</b>
 </ul>
 All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> add to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> add to the functionality of <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
@@ -291,26 +276,16 @@ If <i>pszDest</i> and <i>pszFormat</i> point to overlapping strings, or if any a
 
 Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszFormat</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfexa">RtlStringCbPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfexa">RtlStringCbPrintfEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfa">RtlStringCbVPrintf</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfexa">RtlStringCchVPrintfEx</a>

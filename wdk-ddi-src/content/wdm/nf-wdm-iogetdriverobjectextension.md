@@ -8,8 +8,6 @@ ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.date: 04/30/2018
 keywords: ["IoGetDriverObjectExtension function"]
 ms.keywords: IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, wdm/IoGetDriverObjectExtension
-f1_keywords:
- - "wdm/IoGetDriverObjectExtension"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetDriverObjectExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetDriverObjectExtension
+ - wdm/IoGetDriverObjectExtension
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetDriverObjectExtension
 ---
 
 # IoGetDriverObjectExtension function
@@ -47,50 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetDriverObjectExtension</b> routine retrieves a previously allocated per-driver context area.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 Specifies the driver object with which the context area is associated.
 
+### -param ClientIdentificationAddress 
 
-### -param ClientIdentificationAddress [in]
-
+[in]
 Specifies the unique identifier, provided when it was allocated, of the context area to be retrieved.
-
 
 ## -returns
 
-
-
 <b>IoGetDriverObjectExtension</b> returns a pointer to the context area, if any or returns <b>NULL</b>.
-
-
-
 
 ## -remarks
 
-
-
-Drivers call <b>IoGetDriverObjectExtension</b> to retrieve a pointer to a previously allocated extension area. 
-
-
-
+Drivers call <b>IoGetDriverObjectExtension</b> to retrieve a pointer to a previously allocated extension area.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatedriverobjectextension">IoAllocateDriverObjectExtension</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatedriverobjectextension">IoAllocateDriverObjectExtension</a>

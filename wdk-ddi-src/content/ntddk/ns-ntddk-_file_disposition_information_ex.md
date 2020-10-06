@@ -6,10 +6,8 @@ old-location: ifsk\file_disposition_information_ex.htm
 tech.root: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.date: 04/16/2018
-keywords: ["_FILE_DISPOSITION_INFORMATION_EX structure"]
+keywords: ["FILE_DISPOSITION_INFORMATION_EX structure"]
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], _FILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex, ntddk/FILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX"
-f1_keywords:
- - "ntddk/FILE_DISPOSITION_INFORMATION_EX"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- FILE_DISPOSITION_INFORMATION_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX
+f1_keywords:
+ - _FILE_DISPOSITION_INFORMATION_EX
+ - ntddk/_FILE_DISPOSITION_INFORMATION_EX
+ - PFILE_DISPOSITION_INFORMATION_EX
+ - ntddk/PFILE_DISPOSITION_INFORMATION_EX
+ - FILE_DISPOSITION_INFORMATION_EX
+ - ntddk/FILE_DISPOSITION_INFORMATION_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - FILE_DISPOSITION_INFORMATION_EX
 ---
 
 # _FILE_DISPOSITION_INFORMATION_EX structure
@@ -47,14 +50,9 @@ req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_E
 
 ## -description
 
-
-The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a> routine and indicates how the operating system should delete a file.
-
+The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a> routine and indicates how the operating system should delete a file.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -100,12 +98,8 @@ Specifies what action(s) the system should take with a specific file while delet
   <td>Allows read-only files to be deleted. See more info in Remarks.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The caller must have DELETE access to a given file to call ZwSetInformationFile with <b>FILE_DISPOSITION_DELETE</b>. 
 
@@ -118,15 +112,8 @@ A return value of STATUS_CANNOT_DELETE indicates that either the file is read-on
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwclose">ZwClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwclose">ZwClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a>

@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032 callback function"]
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032  entry, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032, display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0032_
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032"
+ - "PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
@@ -61,8 +60,8 @@ Used to calculate the size of a video decoder heap.
 The hardware device being processed.
 
 
-### -param pArgs [in]
-
+### -param pArgs 
+[in]
 The arguments used to create a video decoder heap.
 
 

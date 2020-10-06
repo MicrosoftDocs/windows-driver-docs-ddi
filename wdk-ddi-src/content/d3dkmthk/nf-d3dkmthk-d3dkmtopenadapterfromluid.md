@@ -7,8 +7,6 @@ ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenAdapterFromLuid function"]
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenAdapterFromLuid"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,25 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTOpenAdapterFromLuid
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenAdapterFromLuid
+ - d3dkmthk/D3DKMTOpenAdapterFromLuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTOpenAdapterFromLuid
 ---
 
 # D3DKMTOpenAdapterFromLuid function
+
 
 ## -description
 
@@ -56,7 +56,7 @@ Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 *pAdapter* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
 
 ## -returns
 
@@ -66,13 +66,9 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The mapping was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a>

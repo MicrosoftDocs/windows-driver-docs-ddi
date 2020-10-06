@@ -8,8 +8,6 @@ ms.assetid: e47d812b-2fbb-44c4-a441-bd30ae89a5eb
 ms.date: 05/02/2018
 keywords: ["NdisReEnumerateProtocolBindings function"]
 ms.keywords: NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], ndis/NdisReEnumerateProtocolBindings, netvista.ndisreenumerateprotocolbindings, protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml
-f1_keywords:
- - "ndis/NdisReEnumerateProtocolBindings"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisReEnumerateProtocolBindings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisReEnumerateProtocolBindings
+ - ndis/NdisReEnumerateProtocolBindings
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisReEnumerateProtocolBindings
 ---
 
 # NdisReEnumerateProtocolBindings function
@@ -48,41 +47,34 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisReEnumerateProtocolBindings</b> function causes NDIS to call a protocol driver's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function one
+  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function one
   time for each miniport adapter for which the driver is configured to bind but to which the driver is not
   currently bound.
 
-
 ## -parameters
 
+### -param NdisProtocolHandle 
 
-
-
-### -param NdisProtocolHandle [in]
-
+[in]
 A handle representing the calling protocol driver. The driver obtained this handle with a previous
      call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
-
 ## -remarks
-
-
 
 A protocol driver can call the 
     <b>NdisReEnumerateProtocolBindings</b> function to rebind to one or more miniport adapters.
 
 Protocol drivers cannot call 
     <b>NdisReEnumerateProtocolBindings</b> from within the context of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>, or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>, or 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> functions. Also, protocol drivers cannot call 
     <b>NdisReEnumerateProtocolBindings</b> from within the context of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function if the    
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function if the    
     <i>ProtocolBindingContext</i> parameter of 
     <i>ProtocolNetPnPEvent</i> is not <b>NULL</b>. However, protocol drivers can call 
     <b>NdisReEnumerateProtocolBindings</b> from within the context of 
@@ -101,32 +93,22 @@ An intermediate driver should call
     <i>ProtocolBindAdapterEx</i> function one time for each miniport adapter for which the driver is
     configured to bind but to which the driver is not currently bound.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/network/ff550472(v=vs.85)">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff550472(v=vs.85)">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>

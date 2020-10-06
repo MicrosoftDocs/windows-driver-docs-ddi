@@ -8,8 +8,6 @@ ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
 ms.date: 02/15/2018
 keywords: ["GNSS_NMEA_DATA structure"]
 ms.keywords: "*PGNSS_NMEA_DATA, GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], PGNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnss.gnss_nmea_data, gnssdriver/GNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA"
-f1_keywords:
- - "gnssdriver/GNSS_NMEA_DATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_NMEA_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
+f1_keywords:
+ - PGNSS_NMEA_DATA
+ - gnssdriver/PGNSS_NMEA_DATA
+ - GNSS_NMEA_DATA
+ - gnssdriver/GNSS_NMEA_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_NMEA_DATA
 ---
 
 # GNSS_NMEA_DATA structure
@@ -47,24 +48,17 @@ req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
 
 ## -description
 
-
 This structure contains generic (non-parsed) NMEA data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field NmeaSentences
 
@@ -75,5 +69,5 @@ Version number.
 
 #### - NmeaSentences[256]
 
-Generic (non-parsed) NMEA data 
+Generic (non-parsed) NMEA data
 

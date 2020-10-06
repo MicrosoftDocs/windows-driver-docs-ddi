@@ -31,7 +31,9 @@ api_name:
  - _DXGK_DISPLAYSTATE_NONINTRUSIVE
  - DXGK_DISPLAYSTATE_NONINTRUSIVE
 f1_keywords:
+ - _DXGK_DISPLAYSTATE_NONINTRUSIVE
  - dispmprt/_DXGK_DISPLAYSTATE_NONINTRUSIVE
+ - DXGK_DISPLAYSTATE_NONINTRUSIVE
  - dispmprt/DXGK_DISPLAYSTATE_NONINTRUSIVE
 dev_langs:
  - c++
@@ -47,7 +49,7 @@ The **DXGK_DISPLAYSTATE_NONINTRUSIVE** structure holds display state during noni
 
 ### -field VidPnTargetId
 
-[in] Integer value that identifies a particular video present source.
+Integer value that identifies a particular video present source.
 
 ### -field DisplayConnectivity
 
@@ -59,7 +61,7 @@ A [**DXGK_DIAG_DISPLAY_LID_STATE**](ne-dispmprt-dxgk_diag_display_lid_state.md) 
 
 ### -field DisplayTopology
 
-A [**DXGK_DIAG_DISPLAY_TOPOLOGY**](ne-dispmprt-dxgk_diag_display_topology.md) value.
+A [**DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY**](ne-dispmprt-dxgk_diag_basic_display_topology.md) value.
 
 ### -field DisplayLinkState
 
@@ -75,7 +77,7 @@ A [**DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS**](ne-dispmprt-dxgk_diag_getdispl
 
 ## -remarks
 
-A pointer to an array of pointers to **DXGK_DISPLAYSTATE_NONINTRUSIVE** structures is contained in the [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarggetdisplaystatenonintrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) during nonintrusive diagnostic data collection.
+A pointer to an array of pointers to **DXGK_DISPLAYSTATE_NONINTRUSIVE** structures is contained in the [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) during nonintrusive diagnostic data collection.
 
 ## -see-also
 
@@ -87,7 +89,7 @@ A pointer to an array of pointers to **DXGK_DISPLAYSTATE_NONINTRUSIVE** structur
 
 [**DXGK_DIAG_DISPLAY_MODE_SET**](ne-dispmprt-dxgk_diag_display_mode_set.md)
 
-[**DXGK_DIAG_DISPLAY_TOPOLOGY**](ne-dispmprt-dxgk_diag_display_topology.md)
+[**DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY**](ne-dispmprt-dxgk_diag_basic_display_topology.md)
 
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 

@@ -8,8 +8,6 @@ ms.assetid: f3de5514-9a7f-4e27-9be0-4aec4b84a5a7
 ms.date: 04/20/2018
 keywords: ["IPrintPipelinePropertyBag::DeleteProperty"]
 ms.keywords: DeleteProperty, DeleteProperty method [Print Devices], DeleteProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],DeleteProperty method, IPrintPipelinePropertyBag.DeleteProperty, IPrintPipelinePropertyBag::DeleteProperty, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml, print.iprintpipelinepropertybag_deleteproperty
-f1_keywords:
- - "filterpipeline/IPrintPipelinePropertyBag.DeleteProperty"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintPipelinePropertyBag.DeleteProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelinePropertyBag::DeleteProperty
+ - filterpipeline/IPrintPipelinePropertyBag::DeleteProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintPipelinePropertyBag.DeleteProperty
 ---
 
 # IPrintPipelinePropertyBag::DeleteProperty
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <code>DeleteProperty</code> method deletes a property from a property bag.
-
 
 ## -parameters
 
+### -param pszName 
 
-
-
-### -param pszName [in]
-
+[in]
 The name of the property to delete from the property bag.
-
 
 ## -returns
 
-
-
 <code>DeleteProperty</code> returns "true" if the property was deleted from the property bag.
-
-
 

@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: image
+f1_keywords:
+ - usbscan
+ - usbscan/usbscan
 ---
 
 # Usbscan.h header
@@ -18,7 +19,7 @@ tech.root: image
 
 ## -description
 
-
 This header is used by image. For more information, see:
 
 - [Imaging devices](../_image/index.md)
+

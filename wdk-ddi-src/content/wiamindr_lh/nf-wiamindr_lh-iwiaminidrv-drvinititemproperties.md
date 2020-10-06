@@ -8,12 +8,10 @@ ms.assetid: 06dce5c0-f893-47c7-bee9-1b7f61137ba0
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvInitItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitItemProperties method, IWiaMiniDrv.drvInitItemProperties, IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, drvInitItemProperties, drvInitItemProperties method [Imaging Devices], drvInitItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinititemproperties, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvInitItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvInitItemProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvInitItemProperties
+ - wiamindr_lh/IWiaMiniDrv::drvInitItemProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvInitItemProperties
 ---
 
 # IWiaMiniDrv::drvInitItemProperties
+
 
 ## -description
 
@@ -84,7 +84,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
-The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
+The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
 ## -remarks
 
@@ -92,14 +92,14 @@ The **IWiaMiniDrv::drvInitItemProperties** method is called once per application
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+[IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
-[wiasGetDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetdrvitem)
+[wiasGetDrvItem](../wiamdef/nf-wiamdef-wiasgetdrvitem.md)
 
-[wiasSetItemPropAttribs](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropattribs)
+[wiasSetItemPropAttribs](../wiamdef/nf-wiamdef-wiassetitempropattribs.md)
 
-[wiasSetItemPropNames](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropnames)
+[wiasSetItemPropNames](../wiamdef/nf-wiamdef-wiassetitempropnames.md)
 
-[wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple)
+[wiasWriteMultiple](../wiamdef/nf-wiamdef-wiaswritemultiple.md)

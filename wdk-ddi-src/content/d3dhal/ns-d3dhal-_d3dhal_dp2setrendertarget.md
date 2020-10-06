@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2setrendertarget.htm
 tech.root: display
 ms.assetid: 0ececf46-23a4-456b-8305-b9cd0ffba4b6
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2SETRENDERTARGET structure"]
+keywords: ["D3DHAL_DP2SETRENDERTARGET structure"]
 ms.keywords: "*LPD3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET structure [Display Devices], LPD3DHAL_DP2SETRENDERTARGET, LPD3DHAL_DP2SETRENDERTARGET structure pointer [Display Devices], _D3DHAL_DP2SETRENDERTARGET, d3dhal/D3DHAL_DP2SETRENDERTARGET, d3dhal/LPD3DHAL_DP2SETRENDERTARGET, d3dstrct_d3f81bd9-d8fd-4560-b8b3-61af41d4a13b.xml, display.d3dhal_dp2setrendertarget"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2SETRENDERTARGET"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2SETRENDERTARGET
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETRENDERTARGET
+f1_keywords:
+ - _D3DHAL_DP2SETRENDERTARGET
+ - d3dhal/_D3DHAL_DP2SETRENDERTARGET
+ - D3DHAL_DP2SETRENDERTARGET
+ - d3dhal/D3DHAL_DP2SETRENDERTARGET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2SETRENDERTARGET
 ---
 
 # _D3DHAL_DP2SETRENDERTARGET structure
@@ -47,30 +48,21 @@ req.typenames: D3DHAL_DP2SETRENDERTARGET
 
 ## -description
 
-
 The D3DHAL_DP2SETRENDERTARGET structure is used with the D3DDP2OP_SETRENDERTARGET opcode to map a new rendering target surface and depth buffer in the current context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hRenderTarget
 
 Specifies a handle to the rendering target.
 
-
 ### -field hZBuffer
 
 Specifies a handle to the depth buffer.
 
-
 ## -remarks
 
-
-
-The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> command stream:
+The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> command stream:
 
 <ol>
 <li>
@@ -84,20 +76,10 @@ Store the depth buffer identified by <b>hZBuffer</b> in the driver's context.
 </ol>
 See the <i>p3samp</i> sample driver that ships with the Microsoft Windows Driver Development Kit (DDK) for more implementation details.
 
-
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_SETRENDERTARGET
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

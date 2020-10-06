@@ -8,8 +8,6 @@ ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedAddLargeStatistic macro"]
 ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
-f1_keywords:
- - "ndis/NdisInterlockedAddLargeStatistic"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisInterlockedAddLargeStatistic
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedAddLargeStatistic
+ - ndis/NdisInterlockedAddLargeStatistic
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisInterlockedAddLargeStatistic
 ---
 
 # NdisInterlockedAddLargeStatistic macro
@@ -47,50 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedAddLargeStatistic</b> function performs an interlocked addition of a ULONG increment value
   to a LARGE_INTEGER addend value.
 
-
 ## -parameters
 
+### -param _Addend 
 
-
-
-### -param _Addend [in]
-
+[in]
 A pointer to a LARGE_INTEGER value that is incremented by the value of 
      <i>Increment</i> .
 
+### -param _Increment 
 
-### -param _Increment [in]
-
+[in]
 A ULONG value that is added to the value to which the 
      <i>Addend</i> parameter points.
 
-
 ## -remarks
-
-
 
 Functions that perform interlocked operations must not cause a page fault to occur. Neither their code
     nor any of the data that they access can cause a page fault without bringing down the local computer.
 
 <b>NdisInterlockedAddLargeStatistic</b> masks interrupts and can be safely used to synchronize a driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function with other
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function with other
     driver code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>

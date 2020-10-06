@@ -8,8 +8,6 @@ ms.assetid: 5e493d3c-81b6-4db5-a550-c86eadf5a723
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::CWiauPropertyList"]
 ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices],CWiauPropertyList method, CWiauPropertyList method [Imaging Devices], CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface, CWiauPropertyList.CWiauPropertyList, CWiauPropertyList::CWiauPropertyList, image.cwiaupropertylist_cwiaupropertylist, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, wiautil/CWiauPropertyList::CWiauPropertyList
-f1_keywords:
- - "wiautil/CWiauPropertyList.CWiauPropertyList"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.CWiauPropertyList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauPropertyList::CWiauPropertyList
+ - wiautil/CWiauPropertyList::CWiauPropertyList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.CWiauPropertyList
 ---
 
 # CWiauPropertyList::CWiauPropertyList
@@ -61,4 +60,5 @@ The **CWiauPropertyList** constructor initializes all data members of a property
 
 [CWiauPropertyList::Init](nf-wiautil-cwiaupropertylist-init.md)
 
-[CWiauPropertyList::~CWiauPropertyList](nf-wiautil-cwiaupropertylist-~cwiaupropertylist.md)
+[CWiauPropertyList::~CWiauPropertyList](nf-wiautil-cwiaupropertylist--cwiaupropertylist.md)
+

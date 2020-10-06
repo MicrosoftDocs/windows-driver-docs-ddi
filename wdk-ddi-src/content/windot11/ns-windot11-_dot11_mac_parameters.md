@@ -6,40 +6,45 @@ old-location: netvista\dot11_mac_parameters.htm
 tech.root: netvista
 ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.date: 02/16/2018
-keywords: ["_DOT11_MAC_PARAMETERS structure"]
+keywords: ["DOT11_MAC_PARAMETERS structure"]
 ms.keywords: "*PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Revision, Size, Type, _DOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, windot11/DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS"
-f1_keywords:
- - "windot11/DOT11_MAC_PARAMETERS"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_MAC_PARAMETERS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS
+f1_keywords:
+ - _DOT11_MAC_PARAMETERS
+ - windot11/_DOT11_MAC_PARAMETERS
+ - PDOT11_MAC_PARAMETERS
+ - windot11/PDOT11_MAC_PARAMETERS
+ - DOT11_MAC_PARAMETERS
+ - windot11/DOT11_MAC_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_MAC_PARAMETERS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_MAC_PARAMETERS structure
@@ -47,25 +52,9 @@ product:
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_MAC_PARAMETERS</b> is the optional input for an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a> request. The device role is defined in an operation mode bitmask included in this structure.
-
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_MAC_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              uOpmodeMask;
-} DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS;
-```
-
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_MAC_PARAMETERS</b> is the optional input for an <a href="/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a> request. The device role is defined in an operation mode bitmask included in this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -88,7 +77,6 @@ Must be set to <b>DOT11_MAC_PARAMETERS_REVISION_1</b>
 #### Size
 
 Must be set to <b>DOT11_SIZEOF_MAC_PARAMETERS_REVISION_1</b>
-
 
 ### -field uOpmodeMask
 
@@ -114,19 +102,19 @@ Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operati
 
 Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_MAC_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              uOpmodeMask;
+} DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS;
+```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
-

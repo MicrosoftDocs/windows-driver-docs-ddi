@@ -8,8 +8,6 @@ ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.date: 04/16/2018
 keywords: ["CcFastCopyWrite function"]
 ms.keywords: CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite
-f1_keywords:
- - "ntifs/CcFastCopyWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcFastCopyWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcFastCopyWrite
+ - ntifs/CcFastCopyWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcFastCopyWrite
 ---
 
 # CcFastCopyWrite function
@@ -47,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcFastCopyWrite</b> routine performs a fast copy write from a buffer in memory to a cached file.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the cached file to which the data is to be written.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Length in bytes of the data to be written.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to the buffer from which the data is to be copied.
-
 
 ## -remarks
 
-
-
-<b>CcFastCopyWrite</b> is a faster version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
+<b>CcFastCopyWrite</b> is a faster version of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
 
 <ul>
 <li>
@@ -100,22 +92,12 @@ If the required pages of the cached file are already resident in memory, the dat
 
 If any failure occurs, <b>CcFastCopyWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcFastCopyWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcFastCopyWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcFastCopyWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
-
-
-
+To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>

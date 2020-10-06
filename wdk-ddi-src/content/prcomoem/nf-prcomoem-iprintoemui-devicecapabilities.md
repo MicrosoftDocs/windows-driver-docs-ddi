@@ -8,8 +8,6 @@ ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::DeviceCapabilities"]
 ms.keywords: DeviceCapabilities, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DeviceCapabilities method, IPrintOemUI.DeviceCapabilities, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI.DeviceCapabilities"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI.DeviceCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI::DeviceCapabilities
+ - prcomoem/IPrintOemUI::DeviceCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI.DeviceCapabilities
 ---
 
 # IPrintOemUI::DeviceCapabilities
@@ -47,63 +46,47 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUI::DeviceCapabilities</code> method enables a user interface plug-in to specify customized device capabilities.
-
 
 ## -parameters
 
-
-
-
 ### -param poemuiobj
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
-
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 ### -param hPrinter
 
 Caller-supplied handle to the printer device.
 
-
 ### -param pDeviceName
 
 Caller-supplied pointer to a string representing the device name.
 
-
 ### -param wCapability
 
-Caller-supplied flag indicating the type of information the method should return. For a list of flags, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function.
-
+Caller-supplied flag indicating the type of information the method should return. For a list of flags, see the description of the <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function.
 
 ### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the requested information. The type of information returned is dependent on the flag specified by <i>wCapability</i>.
 
-
 ### -param pPublicDM
 
-Caller-supplied pointer to a validated <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure.
-
+Caller-supplied pointer to a validated <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 ### -param pOEMDM
 
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW structure members.
 
-
 ### -param dwOld
 
-Caller-supplied return value from the printer driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function, or from another user interface plug-in. For more information, see the following Remarks section.
-
+Caller-supplied return value from the printer driver's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function, or from another user interface plug-in. For more information, see the following Remarks section.
 
 ### -param dwResult
 
-A return value that is dependent on the flag specified by <i>wCapability</i>. For more information, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function and the following Remarks section.
-
+A return value that is dependent on the flag specified by <i>wCapability</i>. For more information, see the description of the <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function and the following Remarks section.
 
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -157,18 +140,12 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+A user interface plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method performs the same types of operations as the <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function that is exported by user-mode printer interface DLLs. The method specifies capabilities provided by the printer.
 
-
-A user interface plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method performs the same types of operations as the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function that is exported by user-mode printer interface DLLs. The method specifies capabilities provided by the printer.
-
-You can use the <code>IPrintOemUI::DeviceCapabilities</code> method to preempt Unidrv support for a capability, or to add a capability that the printer driver doesn't provide. The driver calls <code>IPrintOemUI::DeviceCapabilities</code> from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function.
+You can use the <code>IPrintOemUI::DeviceCapabilities</code> method to preempt Unidrv support for a capability, or to add a capability that the printer driver doesn't provide. The driver calls <code>IPrintOemUI::DeviceCapabilities</code> from within its <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function.
 
 If the <code>IPrintOemUI::DeviceCapabilities</code> method indicates customized support for a capability (by setting appropriate bits in response to a received DC_FIELDS flag), customized code must completely support the capability. Complete support typically includes returning information about the capability in response to calls to the <code>IPrintOemUI::DeviceCapabilities</code> method, plus providing appropriate user-mode or kernel-mode code to implement the capability.
 
@@ -196,7 +173,7 @@ The preceding rules should be followed even if the received contents of <i>dwOld
 </ul>
 When the driver's <b>DrvDeviceCapabilities</b> function is called with the DC_FIELDS flag set, the function calls all <code>IPrintOemUI::DeviceCapabilities</code> methods, also specifying DC_FIELDS, and returns the union of all set bits to the caller.
 
-The S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value is new in Windows Vista, and applies to both Unidrv and Pscript5 user interface plug-ins. A plug-in should use the S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value only if it requires complete control over what is placed in the buffer that is pointed to by the <i>pOutput</i> parameter. Neither the Unidrv nor the Pscript5 core driver will place data in the <i>pOutput</i> buffer when the plug-in returns S_DEVCAP_OUTPUT_FULL_REPLACEMENT. A plug-in might need to return this value when a setting in the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure (which is pointed to by the <i>pPublicDM</i> and <i>pOEMDM</i> parameters) indicates to the user interface plug-in that it should report device capability data that is different from that specified in the GPD or PPD file. For example, a DEVMODEW structure that specifies photo printing might require a different set of paper types than those that are specified in the GPD or PPD file. In such a situation, and regardless of the values of the <i>pOutput</i> and <i>dwOld</i> parameters, the plug-in should return S_DEVCAP_OUTPUT_FULL_REPLACEMENT, and should set the <i>dwResult</i> parameter to the number of paper types that it intends to report. If <i>pOutput</i> is not <b>NULL</b>, the plug-in should also fill the buffer that is pointed to by <i>pOutput</i> with the desired set of paper types, and should set <i>dwResult</i> to the number of paper types that the plug-in intends to report. 
+The S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value is new in Windows Vista, and applies to both Unidrv and Pscript5 user interface plug-ins. A plug-in should use the S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value only if it requires complete control over what is placed in the buffer that is pointed to by the <i>pOutput</i> parameter. Neither the Unidrv nor the Pscript5 core driver will place data in the <i>pOutput</i> buffer when the plug-in returns S_DEVCAP_OUTPUT_FULL_REPLACEMENT. A plug-in might need to return this value when a setting in the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure (which is pointed to by the <i>pPublicDM</i> and <i>pOEMDM</i> parameters) indicates to the user interface plug-in that it should report device capability data that is different from that specified in the GPD or PPD file. For example, a DEVMODEW structure that specifies photo printing might require a different set of paper types than those that are specified in the GPD or PPD file. In such a situation, and regardless of the values of the <i>pOutput</i> and <i>dwOld</i> parameters, the plug-in should return S_DEVCAP_OUTPUT_FULL_REPLACEMENT, and should set the <i>dwResult</i> parameter to the number of paper types that it intends to report. If <i>pOutput</i> is not <b>NULL</b>, the plug-in should also fill the buffer that is pointed to by <i>pOutput</i> with the desired set of paper types, and should set <i>dwResult</i> to the number of paper types that the plug-in intends to report. 
 
 When multiple user interface plug-ins are active at the same time, and one of them returns S_DEVCAP_OUTPUT_FULL_REPLACEMENT, the Unidrv or Pscript5 core driver interprets this return value to mean that the plug-ins intend to provide full replacement output data. As a result, the core driver does not place any data into the <i>pOutput</i> buffer before it calls the plug-ins. (The core driver calls the plug-ins in the same order that was specified for their installation.)
 
@@ -224,22 +201,12 @@ DC_MEDIATYPES
 
 DC_ENUMRESOLUTIONS
 
-For more information about creating and installing user interface plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
-
-
+For more information about creating and installing user interface plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>

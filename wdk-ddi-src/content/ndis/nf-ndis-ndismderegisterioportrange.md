@@ -8,8 +8,6 @@ ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.date: 05/02/2018
 keywords: ["NdisMDeregisterIoPortRange function"]
 ms.keywords: NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
-f1_keywords:
- - "ndis/NdisMDeregisterIoPortRange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMDeregisterIoPortRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMDeregisterIoPortRange
+ - ndis/NdisMDeregisterIoPortRange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMDeregisterIoPortRange
 ---
 
 # NdisMDeregisterIoPortRange function
@@ -48,56 +47,49 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMDeregisterIoPortRange</b> releases a mapping that was set up with 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> during
+  <a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> during
   driver initialization.
-
 
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 Specifies the handle input to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param InitialPort 
 
-### -param InitialPort [in]
-
+[in]
 Specifies the bus-relative address of the first port in the range of ports.
 
+### -param NumberOfPorts 
 
-### -param NumberOfPorts [in]
-
+[in]
 Specifies the number of ports in the range.
 
+### -param PortOffset 
 
-### -param PortOffset [in]
-
+[in]
 Specifies the mapped base port address returned by 
      <b>NdisMRegisterIoPortRange</b>.
 
-
 ## -remarks
-
-
 
 The miniport driver must pass the same 
     <i>InitialPort</i> and 
     <i>NumberOfPorts</i> to 
     <b>NdisMDeregisterIoPortRange</b> that were passed when 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> to get
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
+    <a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> to get
     the mapped 
     <i>PortOffset</i> value. That is, a miniport driver cannot call 
     <b>NdisMDeregisterIoPortRange</b> to release a subrange of a mapped port range.
 
 <b>NdisMDeregisterIoPortRange</b> can be called from the 
     <i>MiniportInitializeEx</i> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
     <i>MiniportInitializeEx</i> previously made a successful call to 
     <b>NdisMRegisterIoPortRange</b>.
 
@@ -109,24 +101,14 @@ After it calls
     to the 
     <b>NdisRaw..Port<i>Xxx</i></b> functions.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a>

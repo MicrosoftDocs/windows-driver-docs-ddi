@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
 title: PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
-author: windows-driver-content
 description: Records a command to initialize or re-initialize a Video Extension Command into a command list.
 tech.root: display
 ms.assetid: 31b11f16-b9ae-44d0-a29c-696536cc66cb
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063 callback function"]
 req.header: d3d12umddi.h
@@ -28,7 +26,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063"
+ - PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
+ - d3d12umddi/PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
 topic_type:
  - apiref
 api_type:
@@ -44,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063 callback function
+
 
 ## -description
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_set_register_state.htm
 tech.root: netvista
 ms.assetid: c8d9c2aa-2eb7-43da-ae13-f7209e68e2fd
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SET_REGISTER_STATE structure"]
+keywords: ["NDIS_WWAN_SET_REGISTER_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, _NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_REGISTER_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_REGISTER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_REGISTER_STATE, *PNDIS_WWAN_SET_REGISTER_STATE
+f1_keywords:
+ - _NDIS_WWAN_SET_REGISTER_STATE
+ - ndiswwan/_NDIS_WWAN_SET_REGISTER_STATE
+ - PNDIS_WWAN_SET_REGISTER_STATE
+ - ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE
+ - NDIS_WWAN_SET_REGISTER_STATE
+ - ndiswwan/NDIS_WWAN_SET_REGISTER_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_REGISTER_STATE
 ---
 
 # _NDIS_WWAN_SET_REGISTER_STATE structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_SET_REGISTER_STATE, *PNDIS_WWAN_SET_REGISTER_STATE
 
 ## -description
 
-
 The NDIS_WWAN_SET_REGISTER_STATE structure represents the network provider registration state of the
   MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,27 +103,18 @@ sizeof(NDIS_WWAN_SET_REGISTER_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field SetRegisterState
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a> object that
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a> object that
      represents the new network selection mode for the device.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>

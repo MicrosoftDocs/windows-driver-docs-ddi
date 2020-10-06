@@ -8,8 +8,6 @@ ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.date: 03/29/2018
 keywords: ["ChangerClassFreePool function"]
 ms.keywords: ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices], chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, mcd/ChangerClassFreePool, storage.changerclassfreepool
-f1_keywords:
- - "mcd/ChangerClassFreePool"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Mcd.lib
-- Mcd.dll
-api_name:
-- ChangerClassFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerClassFreePool
+ - mcd/ChangerClassFreePool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Mcd.lib
+ - Mcd.dll
+api_name:
+ - ChangerClassFreePool
 ---
 
 # ChangerClassFreePool function
@@ -48,27 +47,15 @@ req.typenames:
 
 ## -description
 
-
-The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>. 
-
+The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>.
 
 ## -parameters
 
+### -param PoolToFree 
 
-
-
-### -param PoolToFree [in]
-
+[in]
 Pointer to the block of memory to be freed.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>

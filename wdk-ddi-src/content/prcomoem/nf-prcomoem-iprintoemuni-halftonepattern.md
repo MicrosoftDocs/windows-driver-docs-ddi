@@ -8,8 +8,6 @@ ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::HalftonePattern"]
 ms.keywords: HalftonePattern, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],HalftonePattern method, IPrintOemUni.HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.HalftonePattern"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.HalftonePattern
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::HalftonePattern
+ - prcomoem/IPrintOemUni::HalftonePattern
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.HalftonePattern
 ---
 
 # IPrintOemUni::HalftonePattern
+
 
 ## -description
 
@@ -52,7 +52,7 @@ The **IPrintOemUni::HalftonePattern** method can be used with Unidrv-supported p
 
 ### -param pdevobj
 
-Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) structure.
+Caller-supplied pointer to a [DEVOBJ](../printoem/ns-printoem-_devobj.md) structure.
 
 ### -param pHTPattern
 
@@ -204,12 +204,12 @@ An implementation of a **HalftonePattern** method in the rendering plug-in must 
 }
 ```
 
-The **IPrintOemUni::HalftonePattern** method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod) method must return S_OK when it receives "HalftonePattern" as input.
+The **IPrintOemUni::HalftonePattern** method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](./nf-prcomoem-iprintoemuni-getimplementedmethod.md) method must return S_OK when it receives "HalftonePattern" as input.
 
-For more information about halftoning, see [Customized Halftoning](https://docs.microsoft.com/windows-hardware/drivers/print/customized-halftoning) and [Option Attributes for the Halftone Feature](https://docs.microsoft.com/windows-hardware/drivers/print/option-attributes-for-the-halftone-feature).
+For more information about halftoning, see [Customized Halftoning](/windows-hardware/drivers/print/customized-halftoning) and [Option Attributes for the Halftone Feature](/windows-hardware/drivers/print/option-attributes-for-the-halftone-feature).
 
 ## -see-also
 
-[IPrintOemUni Interface](https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemuni-com-interface)
+[IPrintOemUni Interface](/windows-hardware/drivers/print/iprintoemuni-com-interface)
 
-[IPrintOemUni::ImageProcessing](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)
+[IPrintOemUni::ImageProcessing](./nf-prcomoem-iprintoemuni-imageprocessing.md)

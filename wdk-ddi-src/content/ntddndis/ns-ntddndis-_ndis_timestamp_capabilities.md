@@ -5,38 +5,42 @@ description: This structure is reserved for system use and should not be used in
 tech.root: netvista
 ms.assetid: 6d8bbe05-2855-42b1-89d1-79a5db9bd27c
 ms.date: 08/08/2018
-keywords: ["_NDIS_TIMESTAMP_CAPABILITIES structure"]
-f1_keywords:
- - "ntddndis/_NDIS_TIMESTAMP_CAPABILITIES"
-ms.keywords: _NDIS_TIMESTAMP_CAPABILITIES, NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES, 
+keywords: ["NDIS_TIMESTAMP_CAPABILITIES structure"]
+ms.keywords: _NDIS_TIMESTAMP_CAPABILITIES, NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES,
 req.header: ntddndis.h
 req.include-header: ndis.h
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: 
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2019
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddndis.h
-api_name: 
-- _NDIS_TIMESTAMP_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NDIS_TIMESTAMP_CAPABILITIES
+ - ntddndis/_NDIS_TIMESTAMP_CAPABILITIES
+ - PNDIS_TIMESTAMP_CAPABILITIES
+ - ntddndis/PNDIS_TIMESTAMP_CAPABILITIES
+ - NDIS_TIMESTAMP_CAPABILITIES
+ - ntddndis/NDIS_TIMESTAMP_CAPABILITIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - _NDIS_TIMESTAMP_CAPABILITIES
 ---
 
 # _NDIS_TIMESTAMP_CAPABILITIES structure
+
 
 ## -description
 
@@ -50,27 +54,28 @@ This structure is reserved for system use and should not be used in your code.
 ### -field Header
 
 Reserved.
- 
+
 ### -field HardwareClockFrequencyHz
 
 Reserved.
- 
+
 ### -field CrossTimestamp
 
 Reserved.
- 
+
 ### -field Reserved1
 
 Reserved.
- 
+
 ### -field Reserved2
 
 Reserved.
- 
+
 ### -field TimestampFlags
 
-Reserved. 
+Reserved.
 
 ## -remarks
 
 ## -see-also
+

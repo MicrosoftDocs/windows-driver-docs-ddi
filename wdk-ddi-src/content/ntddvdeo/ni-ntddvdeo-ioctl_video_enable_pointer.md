@@ -8,8 +8,6 @@ ms.assetid: df6d348a-2720-4d47-9bc7-fc0627c951e6
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_ENABLE_POINTER IOCTL"]
 ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_ENABLE_POINTER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_ENABLE_POINTER
+ - ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_ENABLE_POINTER
 ---
 
 # IOCTL_VIDEO_ENABLE_POINTER IOCTL
@@ -47,76 +46,30 @@ req.typenames:
 
 ## -description
 
-
-
-Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
-
-
-
+Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
-
+The miniport driver does not set the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>

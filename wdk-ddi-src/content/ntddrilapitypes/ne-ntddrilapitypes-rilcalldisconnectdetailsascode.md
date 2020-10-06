@@ -8,8 +8,6 @@ ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.date: 05/02/2018
 keywords: ["RILCALLDISCONNECTDETAILSASCODE enumeration"]
 ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX
-f1_keywords:
- - "ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,43 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLDISCONNECTDETAILSASCODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSASCODE
+f1_keywords:
+ - RILCALLDISCONNECTDETAILSASCODE
+ - ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLDISCONNECTDETAILSASCODE
 ---
 
-# RILCALLDISCONNECTDETAILSASCODE enumeration
+# RILCALLDISCONNECTDETAILSASCODE enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CD_PHYSICAL_LAYER
-
 
 ### -field RIL_CD_L2
 
-
 ### -field RIL_CD_L3
-
 
 ### -field RIL_CD_LAYER_MAX
 

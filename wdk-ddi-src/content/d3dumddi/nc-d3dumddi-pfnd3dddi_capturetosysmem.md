@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CaptureToSysMem"
+ - PFND3DDDI_CAPTURETOSYSMEM
+ - d3dumddi/PFND3DDDI_CAPTURETOSYSMEM
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_CAPTURETOSYSMEM callback function
 
+
 ## -description
 
 The <b>CaptureToSysMem</b> function copies the contents of a capture buffer to a destination surface.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 pData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_capturetosysmem">D3DDDIARG_CAPTURETOSYSMEM</a> structure that describes the parameters of the bit-block transfer (bitblt).
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_capturetosysmem">D3DDDIARG_CAPTURETOSYSMEM</a> structure that describes the parameters of the bit-block transfer (bitblt).
 
 ## -returns
 
@@ -67,17 +69,16 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | All resources for the bitblt are in GPU-accessible memory. | 
-| **E_OUTOFMEMORY** | [CaptureToSysMem](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_capturetosysmem)  could not allocate the required memory for it to complete. |
+| **E_OUTOFMEMORY** | [CaptureToSysMem]()  could not allocate the required memory for it to complete. |
 
 ## -remarks
 
-The <b>CaptureToSysMem</b> function is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a> function except that <b>CaptureToSysMem</b> supports copying only from a capture buffer.
+The <b>CaptureToSysMem</b> function is similar to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a> function except that <b>CaptureToSysMem</b> supports copying only from a capture buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_capturetosysmem">D3DDDIARG_CAPTURETOSYSMEM</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_capturetosysmem">D3DDDIARG_CAPTURETOSYSMEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

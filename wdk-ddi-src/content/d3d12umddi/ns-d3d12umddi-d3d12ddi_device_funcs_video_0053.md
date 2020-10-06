@@ -5,40 +5,40 @@ description: The device functions of video.
 ms.assetid: d32a1690-546d-4c00-b30c-7646ced2117d
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0053 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0053"
-ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0053, D3D12DDI_DEVICE_FUNCS_VIDEO_0053, 
+ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0053, D3D12DDI_DEVICE_FUNCS_VIDEO_0053,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0053
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_DEVICE_FUNCS_VIDEO_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0053
+ - d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0053
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0053
 dev_langs:
  - c++
 ---
 
 # D3D12DDI_DEVICE_FUNCS_VIDEO_0053 structure
+
 
 ## -description
 
@@ -48,53 +48,44 @@ The device functions of video.
 
 ### -field pfnGetCaps
 
-Get capabilities. 
-
+Get capabilities.
 
 ### -field pfnCalcPrivateVideoDecoderSize
 
-Calculates the private video decoder size. 
-
+Calculates the private video decoder size.
 
 ### -field pfnCreateVideoDecoder
 
-Creates a video decoder. 
-
+Creates a video decoder.
 
 ### -field pfnDestroyVideoDecoder
 
-Destroys the video decoder. 
-
+Destroys the video decoder.
 
 ### -field pfnCalcPrivateVideoDecoderHeapSize
 
-Calculates the private video decoder heap size. 
-
+Calculates the private video decoder heap size.
 
 ### -field pfnCreateVideoDecoderHeap
 
-Creates the video decoder heap. 
-
+Creates the video decoder heap.
 
 ### -field pfnDestroyVideoDecoderHeap
 
-Destroys the video decoder heap. 
-
+Destroys the video decoder heap.
 
 ### -field pfnCalcPrivateVideoProcessorSize
 
-Calculates the private video processor size. 
-
+Calculates the private video processor size.
 
 ### -field pfnCreateVideoProcessor
 
-Creates the video processor. 
-
+Creates the video processor.
 
 ### -field pfnDestroyVideoProcessor
 
-Destroys the video processor. 
- 
+Destroys the video processor.
+
 ### -field pfnCalcPrivateVideoMotionEstimatorSize
 
 Calculates private video motion estimator size.
@@ -122,3 +113,4 @@ Destroy video motion vector heap.
 ## -remarks
 
 ## -see-also
+

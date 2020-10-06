@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_throttle_parameters.htm
 tech.root: netvista
 ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_THROTTLE_PARAMETERS structure"]
+keywords: ["NDIS_RECEIVE_THROTTLE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, netvista.ndis_receive_throttle_parameters"
-f1_keywords:
- - "ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_RECEIVE_THROTTLE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS
+f1_keywords:
+ - _NDIS_RECEIVE_THROTTLE_PARAMETERS
+ - ndis/_NDIS_RECEIVE_THROTTLE_PARAMETERS
+ - PNDIS_RECEIVE_THROTTLE_PARAMETERS
+ - ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS
+ - NDIS_RECEIVE_THROTTLE_PARAMETERS
+ - ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_RECEIVE_THROTTLE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_THROTTLE_PARAMETERS structure
@@ -47,24 +50,18 @@ req.typenames: NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMET
 
 ## -description
 
-
 The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
   driver should indicate in a deferred procedure call (DPC).
 
-
 ## -struct-fields
-
-
-
 
 ### -field MaxNblsToIndicate
 
 The maximum number of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
      driver should include in a receive indication. If this value is NDIS_INDICATE_ALL_NBLS, the miniport can
      indicate all of the NET_BUFFER_LIST structures that it has.
-
 
 ### -field MoreNblsPending
 
@@ -80,21 +77,19 @@ A value that, when <b>TRUE</b>, specifies that the miniport driver has NET_BUFFE
 
 ## -remarks
 
-
-
 The 
     <i>ReceiveThrottleParameters</i> parameters of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> and the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_message_interrupt_dpc">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> and the 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_message_interrupt_dpc">
     MiniportMessageInterruptDPC</a> DPC handler functions point to an NDIS_RECEIVE_THROTTLE_PARAMETERS
     structure. This structure specifies the parameters of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">Receive Side Throttle
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">Receive Side Throttle
     (RST)</a> in NDIS 6.20 and later.
 
 On entry to the DPC handler, the 
     <b>MaxNblsToIndicate</b> member of the NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum
     number of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the miniport
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the miniport
     driver should indicate in the DPC. If this value is NDIS_INDICATE_ALL_NBLS, the miniport driver can
     indicate all of the NET_BUFFER_LIST structures that it has in its queues.
 
@@ -137,7 +132,7 @@ If the miniport driver is using line-based interrupts or a single MSI message, i
     interrupt-processing for all of the interrupt sources that it has. If there are packets in the receive
     queue, it should indicate at most 
     <b>MaxNblsToIndicate</b> NET_BUFFER_LIST structures to NDIS with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
     NdisMIndicateReceiveNetBufferLists</a> function.
 
 If the miniport driver is using multiple MSI messages to differentiate different interrupt sources, it
@@ -152,28 +147,19 @@ If the miniport driver is using multiple MSI messages to differentiate different
     (ISR) returns and the DPC is not defined. After the miniport driver sets <b>MoreNblsPending</b>, it should handle the next DPC as it handled the first DPC.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_message_interrupt_dpc">MiniportMessageInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_message_interrupt_dpc">MiniportMessageInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
- 
-
- 
-

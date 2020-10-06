@@ -8,38 +8,37 @@ ms.assetid: 9f15df1e-bdf5-4634-97f1-78515664b594
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback function"]
 ms.keywords: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION, DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback, Dm_Opm_functions_7873b0b1-3983-49c4-8192-b0c59d5ae01c.xml, DxgkDdiOPMGetCOPPCompatibleInformation, DxgkDdiOPMGetCOPPCompatibleInformation callback function [Display Devices], display.dxgkddiopmgetcoppcompatibleinformation, dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation
-f1_keywords:
- - "dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiOPMGetCOPPCompatibleInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
+ - dispmprt/DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiOPMGetCOPPCompatibleInformation
 ---
 
 # DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback function
@@ -47,12 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The<i> DxgkDdiOPMGetCOPPCompatibleInformation</i> function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
 
+## -parameters
+
+### -param MiniportDeviceContext 
+
+[in]
+A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
+
+### -param ProtectedOutputHandle 
+
+[in]
+The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have COPP semantics.
+
+### -param PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
+
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure that contains the type of COPP-compatible information to retrieve from the protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter. <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
+
+### -param RequestedInformation 
+
+[out]
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a> structure that receives the protected output object's COPP-compatible information if <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> returns successfully.
+
+If <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> fails, the value that <i>RequestedInformation</i> points to is unchanged.
+
+## -returns
+
+<i>DxgkDdiOPMGetCOPPCompatibleInformation</i> returns one of the following values.
+
+This function might also return other error codes that are defined in Ntstatus.h.
 
 ## -prototype
-
 
 ```cpp
 DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION DxgkDdiOPMGetCOPPCompatibleInformation;
@@ -66,51 +91,7 @@ NTSTATUS DxgkDdiOPMGetCOPPCompatibleInformation(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param MiniportDeviceContext [in]
-
-A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
-
-
-### -param ProtectedOutputHandle [in]
-
-The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have COPP semantics.
-
-
-### -param PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
-
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure that contains the type of COPP-compatible information to retrieve from the protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter. <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
-
-### -param RequestedInformation [out]
-
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a> structure that receives the protected output object's COPP-compatible information if <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> returns successfully.
-
-If <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> fails, the value that <i>RequestedInformation</i> points to is unchanged.
-
-
-
-
-
-
-## -returns
-
-
-
-<i>DxgkDdiOPMGetCOPPCompatibleInformation</i> returns one of the following values.
-
-This function might also return other error codes that are defined in Ntstatus.h.
-
-
-
-
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem should call <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> only if the output has COPP semantics.
 
@@ -168,9 +149,6 @@ Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetCOPPCompa
 
 <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> should be made pageable.
 
-
-
-
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
@@ -202,11 +180,4 @@ Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetCOPPCompa
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
-
-
-
- 
-
- 
-
 

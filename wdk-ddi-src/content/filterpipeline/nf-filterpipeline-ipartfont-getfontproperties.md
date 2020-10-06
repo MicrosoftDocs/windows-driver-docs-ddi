@@ -8,8 +8,6 @@ ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.date: 04/20/2018
 keywords: ["IPartFont::GetFontProperties"]
 ms.keywords: GetFontProperties, GetFontProperties method [Print Devices], GetFontProperties method [Print Devices],IPartFont interface, IPartFont interface [Print Devices],GetFontProperties method, IPartFont.GetFontProperties, IPartFont::GetFontProperties, filterpipeline/IPartFont::GetFontProperties, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, print.ipartfont_getfontproperties
-f1_keywords:
- - "filterpipeline/IPartFont.GetFontProperties"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPartFont.GetFontProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPartFont::GetFontProperties
+ - filterpipeline/IPartFont::GetFontProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPartFont.GetFontProperties
 ---
 
 # IPartFont::GetFontProperties
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetFontProperties</b> method gets the font properties.
-
 
 ## -parameters
 
+### -param pContentType 
 
-
-
-### -param pContentType [out]
-
+[out]
 A pointer to the content type of the font.
 
+### -param pFontOptions 
 
-### -param pFontOptions [out]
-
+[out]
 A pointer to the options of the font.
-
 
 ## -returns
 
-
-
 <b>GetFontProperties</b> returns an <b>HRESULT</b> value.
-
-
 

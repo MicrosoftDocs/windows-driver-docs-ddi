@@ -8,8 +8,6 @@ ms.assetid: 8c06da38-6f3b-4cd6-8331-c88758a7f00b
 ms.date: 04/23/2018
 keywords: ["KSMETHOD_ITEM_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_ITEM_IRP_STORAGE, KSMETHOD_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_ITEM_IRP_STORAGE, ksfunc_f9a51af4-aa4e-432d-99e3-03052e99b902.xml, stream.ksmethod_item_irp_storage
-f1_keywords:
- - "ks/KSMETHOD_ITEM_IRP_STORAGE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,37 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSMETHOD_ITEM_IRP_STORAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - KSMETHOD_ITEM_IRP_STORAGE
+ - ks/KSMETHOD_ITEM_IRP_STORAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSMETHOD_ITEM_IRP_STORAGE
 ---
 
 # KSMETHOD_ITEM_IRP_STORAGE macro
 
+
 ## -description
 
-This macro accesses a pointer to the relevant [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item). Note that this pointer is only set when using [KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator).
+This macro accesses a pointer to the relevant [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md). Note that this pointer is only set when using [KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md).
 
 ## -parameters
 
-### -param Irp [in]
+### -param Irp 
 
+[in]
 Specifies the IRP passed to the handler routine.
 
 ## -remarks
 
-The pointer to a KSMETHOD_ITEM structure is extracted from `Irp->Tail.Overlay.DriverContext`. Parameters in **DriverContext** are initialized by [KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler) and [KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator).
+The pointer to a KSMETHOD_ITEM structure is extracted from `Irp->Tail.Overlay.DriverContext`. Parameters in **DriverContext** are initialized by [KsMethodHandler](./nf-ks-ksmethodhandler.md) and [KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md).
 
 The macro is defined as follows:
 
@@ -67,14 +68,14 @@ The macro is defined as follows:
 
 ## -see-also
 
-[KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85))
+[KSMETHOD](/previous-versions/ff563398(v=vs.85))
 
-[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item)
+[KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
 
-[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set)
+[KSMETHOD_SET](./ns-ks-ksmethod_set.md)
 
-[KsFastMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfastmethodhandler)
+[KsFastMethodHandler](./nf-ks-ksfastmethodhandler.md)
 
-[KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler)
+[KsMethodHandler](./nf-ks-ksmethodhandler.md)
 
-[KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator)
+[KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md)

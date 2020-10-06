@@ -6,10 +6,8 @@ old-location: display\d3dddicb_destroyhwcontext.htm
 tech.root: display
 ms.assetid: 9040AEAF-3F66-4F76-B9CD-36370BC2F5B6
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_DESTROYHWCONTEXT structure"]
+keywords: ["D3DDDICB_DESTROYHWCONTEXT structure"]
 ms.keywords: D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
-f1_keywords:
- - "d3dumddi/D3DDDICB_DESTROYHWCONTEXT"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_DESTROYHWCONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DESTROYHWCONTEXT
+f1_keywords:
+ - _D3DDDICB_DESTROYHWCONTEXT
+ - d3dumddi/_D3DDDICB_DESTROYHWCONTEXT
+ - D3DDDICB_DESTROYHWCONTEXT
+ - d3dumddi/D3DDDICB_DESTROYHWCONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_DESTROYHWCONTEXT
 ---
 
 # _D3DDDICB_DESTROYHWCONTEXT structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_DESTROYHWCONTEXT
 
 ## -description
 
-
 A structure that holds information to destroy a hardware context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hHwContext
 

@@ -8,39 +8,38 @@ ms.assetid: e617c0ac-0f02-4e15-ba11-81de6331b83d
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_PRE_ASSOCIATE_COMPLETION callback"]
 ms.keywords: DOT11EXT_PRE_ASSOCIATE_COMPLETION, Dot11ExtPreAssociateCompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml, netvista.dot11extpreassociatecompletion, wlanihv/Dot11ExtPreAssociateCompletion
-f1_keywords:
- - "wlanihv/Dot11ExtPreAssociateCompletion"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtPreAssociateCompletion
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXT_PRE_ASSOCIATE_COMPLETION
+ - wlanihv/DOT11EXT_PRE_ASSOCIATE_COMPLETION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtPreAssociateCompletion
 ---
 
 # DOT11EXT_PRE_ASSOCIATE_COMPLETION callback
@@ -48,50 +47,33 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtPreAssociateCompletion</b> function to asynchronously complete a
   pre-association operation initiated through a call to the
   <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
   Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
-
-## -prototype
-
-
-```cpp
-DWORD WINAPI * Dot11ExtPreAssociateCompletion(
-  _In_opt_ HANDLE hDot11SvcHandle,
-  _In_opt_ HANDLE hConnectSession,
-  _In_     DWORD  dwReasonCode,
-  _In_     DWORD  dwWin32Error
-);
-```
-
-
 ## -parameters
 
+### -param hDot11SvcHandle 
 
-
-
-### -param hDot11SvcHandle [in, optional]
-
+[in, optional]
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
+### -param hConnectSession 
 
-### -param hConnectSession [in, optional]
-
+[in, optional]
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
+### -param dwReasonCode 
 
-### -param dwReasonCode [in]
-
+[in]
 A value that provides additional information for the completion status of the pre-association
      operation. The IHV Extensions DLL must set
      <i>dwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
@@ -104,28 +86,31 @@ The IHV Extensions DLL returns the general completion status of the pre-associat
      <i>dwReasonCode</i> to a value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_CODE_IHV_BASE+
      L2_REASON_CODE_GROUP_SIZE-1).
 
+### -param dwWin32Error 
 
-### -param dwWin32Error [in]
-
+[in]
 The completion status of the pre-association operation as defined by an error code within
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set
      <i>dwWin32Error</i> to ERROR_SUCCESS.
 
-
 ## -returns
-
-
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in
      Winerror.h.
 
+## -prototype
 
-
+```cpp
+DWORD WINAPI * Dot11ExtPreAssociateCompletion(
+  _In_opt_ HANDLE hDot11SvcHandle,
+  _In_opt_ HANDLE hConnectSession,
+  _In_     DWORD  dwReasonCode,
+  _In_     DWORD  dwWin32Error
+);
+```
 
 ## -remarks
-
-
 
 The IHV Extensions DLL must follow these guidelines when calling the
     <b>Dot11ExtPreAssociateCompletion</b> function.
@@ -184,8 +169,6 @@ The IHV Extensions DLL must call
 </li>
 </ul>
 
-
-
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
@@ -200,18 +183,10 @@ The IHV Extensions DLL must call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
-
-
-
- 
-
- 
-
-

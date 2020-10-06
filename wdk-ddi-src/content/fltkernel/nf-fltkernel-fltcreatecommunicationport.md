@@ -8,8 +8,6 @@ ms.assetid: 9987ed6b-7792-4035-9640-9ee9595e854a
 ms.date: 04/16/2018
 keywords: ["FltCreateCommunicationPort function"]
 ms.keywords: FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers], fltkernel/FltCreateCommunicationPort, ifsk.fltcreatecommunicationport
-f1_keywords:
- - "fltkernel/FltCreateCommunicationPort"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltCreateCommunicationPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateCommunicationPort
+ - fltkernel/FltCreateCommunicationPort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltCreateCommunicationPort
 ---
 
 # FltCreateCommunicationPort function
@@ -47,28 +46,24 @@ req.typenames:
 
 ## -description
 
-
-<b>FltCreateCommunicationPort</b> creates a communication server port on which a minifilter driver can receive connection requests from user-mode applications. 
-
+<b>FltCreateCommunicationPort</b> creates a communication server port on which a minifilter driver can receive connection requests from user-mode applications.
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+Opaque filter pointer for the caller.
 
+### -param ServerPort 
 
-### -param Filter [in]
+[out]
+Pointer to a caller-allocated variable that receives an opaque port handle for the communication server port. The minifilter driver uses this handle to listen for incoming connection requests from a user-mode application.
 
-Opaque filter pointer for the caller. 
+### -param ObjectAttributes 
 
-
-### -param ServerPort [out]
-
-Pointer to a caller-allocated variable that receives an opaque port handle for the communication server port. The minifilter driver uses this handle to listen for incoming connection requests from a user-mode application. 
-
-
-### -param ObjectAttributes [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes of the communication server port. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>. This parameter is required and cannot be <b>NULL</b>. Members of this structure for a communication port object include the following. 
+[in]
+Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes of the communication server port. This structure must have been initialized by a previous call to <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>. This parameter is required and cannot be <b>NULL</b>. Members of this structure for a communication port object include the following. 
 
 <table>
 <tr>
@@ -82,7 +77,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-n
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> sets this member to <b>sizeof(</b>OBJECT_ATTRIBUTES<b>)</b>.
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> sets this member to <b>sizeof(</b>OBJECT_ATTRIBUTES<b>)</b>.
 
 </td>
 </tr>
@@ -92,7 +87,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-n
 
 </td>
 <td>
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
 
 </td>
 </tr>
@@ -102,7 +97,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-nt
 
 </td>
 <td>
-Pointer to a security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) to be applied to the port object. If needed, a default security descriptor can be created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltbuilddefaultsecuritydescriptor">FltBuildDefaultSecurityDescriptor</a>. 
+Pointer to a security descriptor (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) to be applied to the port object. If needed, a default security descriptor can be created by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltbuilddefaultsecuritydescriptor">FltBuildDefaultSecurityDescriptor</a>. 
 
 </td>
 </tr>
@@ -117,37 +112,31 @@ Bitmask of flags specifying the desired attributes for the port handle. These fl
 </td>
 </tr>
 </table>
- 
 
+### -param ServerPortCookie 
 
-### -param ServerPortCookie [in, optional]
+[in, optional]
+Pointer to context information defined by the minifilter driver. This information can be used to distinguish among multiple communication server ports that are created by the same minifilter driver. The Filter Manager passes this context pointer as a parameter to the <i>ConnectNotifyCallback</i> routine. This parameter is optional and can be <b>NULL</b>.
 
-Pointer to context information defined by the minifilter driver. This information can be used to distinguish among multiple communication server ports that are created by the same minifilter driver. The Filter Manager passes this context pointer as a parameter to the <i>ConnectNotifyCallback</i> routine. This parameter is optional and can be <b>NULL</b>. 
+### -param ConnectNotifyCallback 
 
-
-### -param ConnectNotifyCallback [in]
-
-Pointer to a caller-supplied callback routine. The Filter Manager calls this routine whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a> to send a connection request to the minifilter driver. This parameter is required and cannot be <b>NULL</b>. This routine is called at IRQL = PASSIVE_LEVEL. 
+[in]
+Pointer to a caller-supplied callback routine. The Filter Manager calls this routine whenever a user-mode application calls <a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a> to send a connection request to the minifilter driver. This parameter is required and cannot be <b>NULL</b>. This routine is called at IRQL = PASSIVE_LEVEL. 
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```
+typedef NTSTATUS
 (*PFLT_CONNECT_NOTIFY) (
       IN PFLT_PORT ClientPort,
       IN PVOID ServerPortCookie,
       IN PVOID ConnectionContext,
       IN ULONG SizeOfContext,
       OUT PVOID *ConnectionPortCookie
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -156,9 +145,9 @@ This routine is declared as follows:
 
 Opaque handle for the new client port that is established between the user-mode application and the kernel-mode minifilter driver. 
 
-The minifilter driver must pass this handle as the <i>ClientPort</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a> when sending and replying to messages on this client port. (Note that this is not the same as the <i>ServerPort</i> handle returned by <b>FltCreateCommunicationPort</b>.) 
+The minifilter driver must pass this handle as the <i>ClientPort</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a> when sending and replying to messages on this client port. (Note that this is not the same as the <i>ServerPort</i> handle returned by <b>FltCreateCommunicationPort</b>.) 
 
-The minifilter driver must eventually close this client port. The client port is closed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>, usually from the minifilter driver's <i>DisconnectNotifyCallback</i> routine. 
+The minifilter driver must eventually close this client port. The client port is closed by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>, usually from the minifilter driver's <i>DisconnectNotifyCallback</i> routine. 
 
 
 
@@ -182,50 +171,41 @@ Size, in bytes, of the buffer that <i>ConnectionContext </i>points to.
 
 #### ConnectionPortCookie
 
-Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. The Filter Manager passes this context pointer as a parameter to the minifilter driver's <i>DisconnectNotifyCallback</i> and <i>MessageNotifyCallback</i> routines. 
+Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. The Filter Manager passes this context pointer as a parameter to the minifilter driver's <i>DisconnectNotifyCallback</i> and <i>MessageNotifyCallback</i> routines.
 
+### -param DisconnectNotifyCallback 
 
-### -param DisconnectNotifyCallback [in]
-
+[in]
 Pointer to a caller-supplied callback routine to be called whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. This parameter is required and cannot be <b>NULL</b>. This routine is called at IRQL = PASSIVE_LEVEL. 
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
 (*PFLT_DISCONNECT_NOTIFY) (
       IN PVOID ConnectionCookie
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
 
 #### ConnectionCookie
 
-Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. When the client port was created, the minifilter driver returned this context pointer in the <i>ConnectionPortCookie</i> parameter of its <i>ConnectNotifyCallback</i> routine. 
+Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. When the client port was created, the minifilter driver returned this context pointer in the <i>ConnectionPortCookie</i> parameter of its <i>ConnectNotifyCallback</i> routine.
 
+### -param MessageNotifyCallback 
 
-### -param MessageNotifyCallback [in, optional]
-
-Pointer to a caller-supplied callback routine. The Filter Manager calls this routine, at IRQL = PASSIVE_LEVEL, whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a> to send a message to the minifilter driver through the client port. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, any request made from user mode to send data to the port will receive an error. 
+[in, optional]
+Pointer to a caller-supplied callback routine. The Filter Manager calls this routine, at IRQL = PASSIVE_LEVEL, whenever a user-mode application calls <a href="/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a> to send a message to the minifilter driver through the client port. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, any request made from user mode to send data to the port will receive an error. 
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```
+typedef NTSTATUS
 (*PFLT_MESSAGE_NOTIFY) (
       IN PVOID PortCookie,
       IN PVOID InputBuffer OPTIONAL,
@@ -233,10 +213,9 @@ This routine is declared as follows:
       OUT PVOID OutputBuffer OPTIONAL,
       IN ULONG OutputBufferLength,
       OUT PULONG ReturnOutputBufferLength
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -253,7 +232,7 @@ Pointer to a caller-allocated buffer containing the message to be sent to the mi
 
 Note that <i>InputBuffer</i> is a pointer to a raw, unlocked user-mode buffer. This pointer is valid only in the context of the user-mode process and must only be accessed from within a <b>try</b>/<b>except</b> block. 
 
-The filter manager calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a> to validate this pointer, but it does not ensure that the buffer is properly aligned. If the buffer contains structures that have alignment requirements, the minifilter driver is responsible for performing any necessary alignment checks. To do this, the minifilter driver can use the <a href="https://docs.microsoft.com/previous-versions/ff549486(v=vs.85)">IS_ALIGNED</a> macro as shown in the MiniSpy sample minifilter driver. 
+The filter manager calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a> to validate this pointer, but it does not ensure that the buffer is properly aligned. If the buffer contains structures that have alignment requirements, the minifilter driver is responsible for performing any necessary alignment checks. To do this, the minifilter driver can use the <a href="/previous-versions/ff549486(v=vs.85)">IS_ALIGNED</a> macro as shown in the MiniSpy sample minifilter driver. 
 
 This parameter is optional and can be <b>NULL</b>. 
 
@@ -271,7 +250,7 @@ Pointer to a caller-allocated buffer that receives the reply (if any) from the m
 
 Note that <i>OutputBuffer</i> is a pointer to a raw, unlocked user-mode buffer. This pointer is valid only in the context of the user-mode process and must only be accessed from within a <b>try</b>/<b>except</b> block. 
 
-The filter manager calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a> to validate this pointer, but it does not ensure that the buffer is properly aligned. If the buffer contains structures that have alignment requirements, the minifilter driver is responsible for performing any necessary alignment checks. To do this, the minifilter driver can use the <b>IS_ALIGNED</b> macro as shown in the MiniSpy sample minifilter driver.
+The filter manager calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a> to validate this pointer, but it does not ensure that the buffer is properly aligned. If the buffer contains structures that have alignment requirements, the minifilter driver is responsible for performing any necessary alignment checks. To do this, the minifilter driver can use the <b>IS_ALIGNED</b> macro as shown in the MiniSpy sample minifilter driver.
 
 This parameter is optional and can be <b>NULL</b>. 
 
@@ -285,17 +264,14 @@ Size, in bytes, of the buffer that <i>OutputBuffer </i>points to. This parameter
 
 #### ReturnOutputBufferLength
 
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>OutputBuffer</i> points to. 
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>OutputBuffer</i> points to.
 
+### -param MaxConnections 
 
-### -param MaxConnections [in]
-
-Maximum number of simultaneous client connections to be allowed for this server port. This parameter is required and must be greater than zero. 
-
+[in]
+Maximum number of simultaneous client connections to be allowed for this server port. This parameter is required and must be greater than zero.
 
 ## -returns
-
-
 
 <b>FltCreateCommunicationPort</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -338,89 +314,73 @@ A minifilter driver communication port with the same name already exists. Port n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A minifilter driver calls <b>FltCreateCommunicationPort</b> to create a communication server port object. 
 
-After the server port has been created, a user-mode application can connect to the port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. When connected, the user-mode application can send and receive messages by calling user-mode messaging functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. 
+After the server port has been created, a user-mode application can connect to the port by calling <a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. When connected, the user-mode application can send and receive messages by calling user-mode messaging functions such as <a href="/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>, <a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, and <a href="/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. 
 
 Callers must set the OBJ_KERNEL_HANDLE <b>Attributes</b> flag for the <i>ObjectAttributes</i> parameter of <b>FltCreateCommunicationPort</b>. Setting this flag prevents the minifilter driver communication server port handle from being used by a user-mode process in whose context a caller of <b>FltCreateCommunicationPort</b> might be running. If this flag is not set, <b>FltCreateCommunicationPort</b> returns STATUS_INVALID_PARAMETER. 
 
-Any server port that is created by <b>FltCreateCommunicationPort</b> must eventually be closed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>. When the server port is closed, no new connections to the server port are allowed, and all calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a> fail. However, any existing connections remain open until they are closed by the user-mode application or the minifilter driver, or until the minifilter driver is unloaded. 
-
-
-
+Any server port that is created by <b>FltCreateCommunicationPort</b> must eventually be closed by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>. When the server port is closed, no new connections to the server port are allowed, and all calls to <a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a> fail. However, any existing connections remain open until they are closed by the user-mode application or the minifilter driver, or until the minifilter driver is unloaded.
 
 ## -see-also
 
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltbuilddefaultsecuritydescriptor">FltBuildDefaultSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltbuilddefaultsecuritydescriptor">FltBuildDefaultSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreesecuritydescriptor">FltFreeSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreesecuritydescriptor">FltFreeSecurityDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>

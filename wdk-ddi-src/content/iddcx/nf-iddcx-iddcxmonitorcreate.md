@@ -8,8 +8,6 @@ ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
-f1_keywords:
- - "iddcx/IddCxMonitorCreate"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -24,22 +22,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: IddCxStub.lib 
-req.dll: IddCx.dll 
+req.lib: IddCxStub.lib
+req.dll: IddCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- IddCx.dll
-api_name:
-- IddCxMonitorCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IddCxMonitorCreate
+ - iddcx/IddCxMonitorCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - IddCx.dll
+api_name:
+ - IddCxMonitorCreate
 ---
 
 # IddCxMonitorCreate function
@@ -47,39 +46,25 @@ req.typenames:
 
 ## -description
 
-
 An OS callback function the driver calls to create a monitor object that can later be used for arrival.
-
-                
-
 
 ## -parameters
 
+### -param AdapterObject 
 
-
-
-### -param AdapterObject [in]
-
+[in]
 The adapter object that is hosting the newly arrived monitor
 
+### -param pInArgs 
 
-### -param pInArgs [in]
-
+[in]
 Input arguments to the function
 
+### -param pOutArgs 
 
-### -param pOutArgs [out]
-
+[out]
 Output arguments to the function
-
 
 ## -returns
 
-
-
-
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-                    
-
-
-
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.

@@ -8,8 +8,6 @@ ms.assetid: 7348d937-6541-47a7-ae70-7d851d41bc1a
 ms.date: 05/02/2018
 keywords: ["FwpsAcquireClassifyHandle0 function"]
 ms.keywords: FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0, wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml
-f1_keywords:
- - "fwpsk/FwpsAcquireClassifyHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAcquireClassifyHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAcquireClassifyHandle0
+ - fwpsk/FwpsAcquireClassifyHandle0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAcquireClassifyHandle0
 ---
 
 # FwpsAcquireClassifyHandle0 function
@@ -48,40 +47,34 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsAcquireClassifyHandle0</b> function generates a classification handle that is used to identify
   asynchronous classification operations and requests for writable layer data.
-<div class="alert"><b>Note</b>  <b>FwpsAcquireClassifyHandle0</b> is a specific version of <b>FwpsAcquireClassifyHandle</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAcquireClassifyHandle0</b> is a specific version of <b>FwpsAcquireClassifyHandle</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param classifyContext 
 
-
-
-### -param classifyContext [in]
-
+[in]
 The 
      <i>classifyContext</i> parameter from 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>. The WFP engine passes this
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>. The WFP engine passes this
      value to the callout driver's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>.
+     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved for future use. Set to 0.
 
+### -param classifyHandle 
 
-### -param classifyHandle [out]
-
+[out]
 A pointer to a variable that receives a classification handle. This handle is needed by subsequent
      function calls as noted in Remarks.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAcquireClassifyHandle0</b> function returns one of the following NTSTATUS codes.
@@ -115,14 +108,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FwpsAcquireClassifyHandle0</b> is a support function for asynchronous classification and data
     modification. The handle returned by this function is required as a parameter for the following
@@ -131,67 +118,57 @@ An error occurred.
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
        FwpsAcquireWritableLayerDataPointer0</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">
        FwpsApplyModifiedLayerData0</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
 
 
 </li>
 </ul>
 For each call to this function, the callout driver must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a> to
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a> to
     free the system resources associated with the handle.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>

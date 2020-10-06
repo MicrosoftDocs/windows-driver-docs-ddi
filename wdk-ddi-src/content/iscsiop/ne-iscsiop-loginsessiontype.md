@@ -8,8 +8,6 @@ ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.date: 03/29/2018
 keywords: ["LOGINSESSIONTYPE enumeration"]
 ms.keywords: "*PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_INFORMATIONAL, LOGINSESSIONTYPE, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/LOGINSESSIONTYPE, iscsiop/PLOGINSESSIONTYPE, storage.loginsessiontype, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml"
-f1_keywords:
- - "iscsiop/LOGINSESSIONTYPE"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsiop.h
-api_name:
-- LOGINSESSIONTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: LOGINSESSIONTYPE, *PLOGINSESSIONTYPE
+f1_keywords:
+ - PLOGINSESSIONTYPE
+ - iscsiop/PLOGINSESSIONTYPE
+ - LOGINSESSIONTYPE
+ - iscsiop/LOGINSESSIONTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsiop.h
+api_name:
+ - LOGINSESSIONTYPE
 ---
 
 # LOGINSESSIONTYPE enumeration
@@ -47,19 +48,13 @@ req.typenames: LOGINSESSIONTYPE, *PLOGINSESSIONTYPE
 
 ## -description
 
-
 The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ISCSI_LOGINTARGET_DISCOVERY
 
 The logon session is for discovery only. Initiators use this type of session to discover targets with the <b>SendTargets</b> command. The initiator must already have access to at least one target IP address and one target port (target portal information).
-
 
 ### -field ISCSI_LOGINTARGET_INFORMATIONAL
 
@@ -67,19 +62,10 @@ The logon session is for informational purposes only. Initiators use this type o
 
 This type of session does not support transmission of user data, and the Plug and Play (PnP) manager does not enumerate target logical units (LUNs) for the storage stack of the initiator node.
 
-
 ### -field ISCSI_LOGINTARGET_DATA
 
 The logon session is full-featured. It reports the target LUNs to the PnP manager on the (local) initiator node for enumeration. After enumerating these LUNs, the operating system can access them for data transfers, just as it would with local LUNs.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

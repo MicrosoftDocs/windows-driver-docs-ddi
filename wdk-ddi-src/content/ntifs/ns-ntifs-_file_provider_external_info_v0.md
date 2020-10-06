@@ -6,10 +6,8 @@ old-location: ifsk\file_provider_external_info_v0.htm
 tech.root: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.date: 04/16/2018
-keywords: ["_FILE_PROVIDER_EXTERNAL_INFO_V0 structure"]
+keywords: ["FILE_PROVIDER_EXTERNAL_INFO_V0 structure"]
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
-f1_keywords:
- - "ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0"
 req.header: ntifs.h
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_PROVIDER_EXTERNAL_INFO_V0
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
+f1_keywords:
+ - _FILE_PROVIDER_EXTERNAL_INFO_V0
+ - ntifs/_FILE_PROVIDER_EXTERNAL_INFO_V0
+ - PFILE_PROVIDER_EXTERNAL_INFO_V0
+ - ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0
+ - FILE_PROVIDER_EXTERNAL_INFO_V0
+ - ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_PROVIDER_EXTERNAL_INFO_V0
 ---
 
 # _FILE_PROVIDER_EXTERNAL_INFO_V0 structure
@@ -47,19 +50,13 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 
 ## -description
 
-
-This structure may be altered or unavailable. Instead, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
-
+This structure may be altered or unavailable. Instead, use <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of the provider to use. Specify FILE_PROVIDER_CURRENT_VERSION.
-
 
 ### -field Algorithm
 
@@ -74,11 +71,4 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>

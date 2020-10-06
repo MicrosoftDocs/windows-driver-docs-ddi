@@ -8,8 +8,6 @@ ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
 ms.date: 05/07/2018
 keywords: ["PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
-f1_keywords:
- - "usbbusif/QueryBusTimeEx"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < = DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbbusif.h
-api_name:
-- QueryBusTimeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PUSB_BUSIFFN_QUERY_BUS_TIME_EX
+ - usbbusif/PUSB_BUSIFFN_QUERY_BUS_TIME_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbbusif.h
+api_name:
+ - QueryBusTimeEx
 ---
 
 # PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function
@@ -47,39 +46,23 @@ req.typenames:
 
 ## -description
 
-
 This request is not supported.
       
 
-The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number. 
-
+The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number.
 
 ## -parameters
 
-
-
-
-
-
-
-
-
-
-
-
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - CurrentMicroFrame [out]
 
 Receives the current USB micro-frame number.
 
-
 ## -returns
-
-
 
 <b>QueryBusTimeEx</b> returns one of the following values:
 
@@ -111,14 +94,8 @@ The function was called for a USB host controller that does not support USB 2.0.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>QueryBusTimeEx</b> gets the current USB 2.0 frame/micro-frame number when called for a USB device attached to a USB 2.0 host controller.  
 
@@ -135,15 +112,6 @@ The function definition that is provided on this reference page is an example fu
     IN PVOID,
     IN PULONG</code></pre>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>

@@ -8,8 +8,6 @@ ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.date: 04/23/2018
 keywords: ["KsDispatchFastReadFailure function"]
 ms.keywords: KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], KsDispatchFastWriteFailure, ks/KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure
-f1_keywords:
- - "ks/KsDispatchFastReadFailure"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsDispatchFastReadFailure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsDispatchFastReadFailure
+ - ks/KsDispatchFastReadFailure
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsDispatchFastReadFailure
 ---
 
 # KsDispatchFastReadFailure function
@@ -48,69 +47,55 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsDispatchFastReadFailure</b> function is used in a KSDISPATCH_TABLE.FastRead entry when fast I/O read is not handled. The function should always return <b>FALSE</b>.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Not used.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Not used.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Not used.
 
+### -param Wait 
 
-### -param Wait [in]
-
+[in]
 Not used.
 
+### -param LockKey 
 
-### -param LockKey [in]
-
+[in]
 Not used.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Not used.
 
+### -param IoStatus 
 
-### -param IoStatus [out]
-
+[out]
 Not used.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 Not used.
-
 
 ## -returns
 
-
-
 The <b>KsDispatchFastReadFailure</b> function returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
 The <b>KsDispatchFastReadFailure</b> function is needed since the dispatch table for a particular opened instance of a device may not handle a specific major function that another opened instance needs to handle. Therefore, the function pointer in the driver object must always point to a function, such as the <b>KsDispatchFastReadFailure</b> function, that calls a dispatch table entry.
-
-
 

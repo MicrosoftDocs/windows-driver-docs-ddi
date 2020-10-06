@@ -8,8 +8,6 @@ ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.date: 05/02/2018
 keywords: ["NdisMEnableVirtualization function"]
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
-f1_keywords:
- - "ndis/NdisMEnableVirtualization"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMEnableVirtualization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMEnableVirtualization
+ - ndis/NdisMEnableVirtualization
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMEnableVirtualization
 ---
 
 # NdisMEnableVirtualization function
@@ -48,47 +47,42 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the <b>NdisMEnableVirtualization</b> function during the creation or deletion of a NIC switch on the network adapter. By calling this function, the driver configures the single root I/O virtualization (SR-IOV) Extended Capability structure in the PCI Express (PCIe) configuration space for the network adapter's Physical Function (PF).
 <div class="alert"><b>Note</b>  <b>NdisMEnableVirtualization</b> must only be called by the miniport driver for the network adapter's PF.</div><div> </div>
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param NumVFs 
 
-### -param NumVFs [in]
-
+[in]
 A USHORT value that contains the number of  Virtual Functions (VFs) that are to be enabled for the network adapter.  <b>NdisMEnableVirtualization</b> sets the <b>NumVFs</b> member of the SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
 
 <div class="alert"><b>Note</b>  If the <i>EnableVirtualization</i> parameter is FALSE, <i>NumVFs</i> must be set to zero.</div>
 <div> </div>
 
-### -param EnableVFMigration [in]
+### -param EnableVFMigration 
 
+[in]
  This parameter is reserved for NDIS and must be set to FALSE.
 
+### -param EnableMigrationInterrupt 
 
-### -param EnableMigrationInterrupt [in]
-
+[in]
  This parameter is reserved for NDIS and must be set to FALSE.
 
+### -param EnableVirtualization 
 
-### -param EnableVirtualization [in]
-
+[in]
 A BOOLEAN value that specifies whether  virtualization should be enabled in the PCI configuration space of the network adapter.  If <i>EnableVirtualization</i> is TRUE, <b>NdisMEnableVirtualization</b> sets the <b>VF Enable</b> bit  of the SR-IOV Control member. <b>NdisMEnableVirtualization</b> clears this bit if <i>EnableVirtualization</i> is FALSE.
 
-
 ## -returns
-
-
 
 <b>NdisMEnableVirtualization</b> can return one of the following status values.
 
@@ -144,18 +138,12 @@ The virtualization operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 PF miniport drivers call <b>NdisMEnableVirtualization</b> to configure the SR-IOV Extended Capability fields in the PCI configuration space. This call is used to enable or disable virtualization in the configuration space, and also to specify the number of VFs that should be exposed to the PCIe  fabric  by the network adapter.
 
-When the PF miniport driver handles an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>, the driver calls <b>NdisMEnableVirtualization</b> to enable virtualization on the network adapter for the NIC switch. The driver does this by calling <b>NdisMEnableVirtualization</b> with the following parameter settings.
+When the PF miniport driver handles an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>, the driver calls <b>NdisMEnableVirtualization</b> to enable virtualization on the network adapter for the NIC switch. The driver does this by calling <b>NdisMEnableVirtualization</b> with the following parameter settings.
 
 
 
@@ -187,7 +175,7 @@ Set to TRUE.
 </table>
  
 
-When the PF miniport driver handles an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-delete-switch">OID_NIC_SWITCH_DELETE_SWITCH</a>, the driver calls <b>NdisMEnableVirtualization</b> to disable virtualization on the network adapter. The driver does this by calling <b>NdisMEnableVirtualization</b> with the following parameter settings:
+When the PF miniport driver handles an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-delete-switch">OID_NIC_SWITCH_DELETE_SWITCH</a>, the driver calls <b>NdisMEnableVirtualization</b> to disable virtualization on the network adapter. The driver does this by calling <b>NdisMEnableVirtualization</b> with the following parameter settings:
 
 
 
@@ -219,28 +207,22 @@ Set to FALSE.
 </table>
  
 
-For more information on how to create a NIC switch, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/creating-a-nic-switch">Creating a NIC Switch</a>.
+For more information on how to create a NIC switch, see <a href="/windows-hardware/drivers/network/creating-a-nic-switch">Creating a NIC Switch</a>.
 
-For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
+For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 <h3><a id="Interfacing_to_a_Virtual_Bus_Driver"></a><a id="interfacing_to_a_virtual_bus_driver"></a><a id="INTERFACING_TO_A_VIRTUAL_BUS_DRIVER"></a>Interfacing to a Virtual Bus Driver</h3>
-If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMEnableVirtualization</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a>. This function is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver. 
+If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMEnableVirtualization</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a>. This function is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver. 
 
-The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
-
-
-
+The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a>
 
 
 
@@ -248,12 +230,8 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-delete-switch">OID_NIC_SWITCH_DELETE_SWITCH</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-nic-switch-delete-switch">OID_NIC_SWITCH_DELETE_SWITCH</a>

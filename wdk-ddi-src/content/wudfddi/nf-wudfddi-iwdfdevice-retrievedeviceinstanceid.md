@@ -8,8 +8,6 @@ ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::RetrieveDeviceInstanceId"]
 ms.keywords: IWDFDevice interface,RetrieveDeviceInstanceId method, IWDFDevice.RetrieveDeviceInstanceId, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method,IWDFDevice interface, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, wdf.iwdfdevice_retrievedeviceinstanceid, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
-f1_keywords:
- - "wudfddi/IWDFDevice.RetrieveDeviceInstanceId"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice.RetrieveDeviceInstanceId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice::RetrieveDeviceInstanceId
+ - wudfddi/IWDFDevice::RetrieveDeviceInstanceId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice.RetrieveDeviceInstanceId
 ---
 
 # IWDFDevice::RetrieveDeviceInstanceId
@@ -47,34 +46,27 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceInstanceId</b> method retrieves the identifier of an instance of a device.
 
-
 ## -parameters
 
+### -param Buffer 
 
+[out, optional]
+A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the identifier of an instance of the device, if the supplied buffer is non-<b>NULL</b> and <b>RetrieveDeviceInstanceId</b> is successful.
 
+### -param pdwSizeInChars 
 
-### -param Buffer [out, optional]
-
-A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the identifier of an instance of the device, if the supplied buffer is non-<b>NULL</b> and <b>RetrieveDeviceInstanceId</b> is successful. 
-
-
-### -param pdwSizeInChars [in, out]
-
+[in, out]
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the string that <i>Buffer</i> points to.
 
 If <i>Buffer</i> is <b>NULL</b>, the value that the driver supplied is zero. The framework then returns the size, in characters, that are required for the identifier string.
 
-If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the identifier string. 
-
+If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the identifier string.
 
 ## -returns
-
-
 
 <b>RetrieveDeviceInstanceId</b> returns S_OK for the following scenarios: 
 
@@ -89,18 +81,6 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 <b>RetrieveDeviceInstanceId</b> might also return other HRESULT values.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>

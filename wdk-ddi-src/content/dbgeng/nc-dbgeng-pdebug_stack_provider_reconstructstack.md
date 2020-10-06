@@ -8,8 +8,6 @@ ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
 ms.date: 05/03/2018
 keywords: ["PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback function"]
 ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
-f1_keywords:
- - "dbgeng/ReconstructStack"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dbgeng.h
-api_name:
-- ReconstructStack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
+ - dbgeng/PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dbgeng.h
+api_name:
+ - ReconstructStack
 ---
 
 # PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback function
@@ -47,61 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <i>ReconstructStack</i> callback function queries dump stream provider on a per-thread basis.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;
+```
+
 
 ## -parameters
 
+### -param SystemThreadId 
 
-
-
-### -param SystemThreadId [in]
-
+[in]
 A system thread ID.
 
+### -param NativeFrames 
 
-### -param NativeFrames [in]
-
+[in]
 Native frames.
 
+### -param CountNativeFrames 
 
-### -param CountNativeFrames [in]
-
+[in]
 Specifies the number of native frames.
 
+### -param StackSymFrames 
 
-### -param StackSymFrames [out]
-
+[out]
 A pointer to a symbol frames stack.
 
+### -param StackSymFramesFilled 
 
-### -param StackSymFramesFilled [out]
-
+[out]
 Symbol frames stack filled value.
-
 
 ## -returns
 
-
-
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 This function returns stack frames and symbolic data.
 
@@ -110,6 +93,4 @@ New in-line frames may be provided.
 Stack dump provider must be enabled.
 
 <i>ReconstructStack</i> is called <b>PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK</b>  in the Dbgeng.h header file.
-
-
 

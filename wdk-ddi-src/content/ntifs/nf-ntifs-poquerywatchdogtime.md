@@ -8,8 +8,6 @@ ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.date: 04/30/2018
 keywords: ["PoQueryWatchdogTime function"]
 ms.keywords: PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime
-f1_keywords:
- - "ntifs/PoQueryWatchdogTime"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,57 +25,46 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoQueryWatchdogTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoQueryWatchdogTime
+ - ntifs/PoQueryWatchdogTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoQueryWatchdogTime
 ---
 
-# PoQueryWatchdogTime function
+# PoQueryWatchdogTime function (ntifs.h)
 
 
 ## -description
 
-
 The <b>PoQueryWatchdogTime</b> routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
-
 
 ## -parameters
 
+### -param Pdo 
 
+[in]
+A pointer to a physical device object (PDO). This parameter points to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device.
 
+### -param SecondsRemaining 
 
-### -param Pdo [in]
-
-A pointer to a physical device object (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device.
-
-
-### -param SecondsRemaining [out]
-
+[out]
 A pointer to a location into which the routine writes the time, in seconds, that remains before the next power watchdog time-out is set to occur.
-
 
 ## -returns
 
-
-
 <b>PoQueryWatchdogTime</b> returns <b>TRUE</b> if a watchdog-enabled power IRP is currently assigned to the device stack. Otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 This routine enables kernel-mode drivers to monitor watchdog time-out counters that the power manager has enabled to keep track of power IRPs that it has issued. If one or more watchdog time-out counters are currently enabled, the routine returns <b>TRUE</b> and provides the amount of time that remains before the next time-out.
 
@@ -87,16 +74,6 @@ The power manager sets a watchdog time-out counter when it issues a power IRP to
 
 If more than one power watchdog time-out is currently enabled, the routine sets *<i>SecondsRemaining</i> to the time that remains to the next time-out.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>

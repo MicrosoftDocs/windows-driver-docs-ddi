@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_DSI2_PACKET
 title: DXGK_DSI2_PACKET
-author: windows-driver-content
 description: DSI-2 (display serial interface) packet structure.
 tech.root: display
 ms.assetid: 917a6038-213d-42af-b4d5-66b4a9fdbb0d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_PACKET structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_DSI2_PACKET"
+ - "DXGK_DSI2_PACKET"
 ms.keywords: DXGK_DSI2_PACKET, DXGK_DSI2_PACKET, *PDXGK_DSI2_PACKET, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +31,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_DSI2_PACKET
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

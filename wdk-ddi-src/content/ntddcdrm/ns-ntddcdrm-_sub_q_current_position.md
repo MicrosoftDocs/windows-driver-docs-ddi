@@ -6,10 +6,8 @@ old-location: storage\sub_q_current_position.htm
 tech.root: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.date: 01/08/2020
-keywords: ["_SUB_Q_CURRENT_POSITION structure"]
+keywords: ["SUB_Q_CURRENT_POSITION structure"]
 ms.keywords: "*PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], _SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml"
-f1_keywords:
- - "ntddcdrm/SUB_Q_CURRENT_POSITION"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,32 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- SUB_Q_CURRENT_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
+f1_keywords:
+ - _SUB_Q_CURRENT_POSITION
+ - ntddcdrm/_SUB_Q_CURRENT_POSITION
+ - PSUB_Q_CURRENT_POSITION
+ - ntddcdrm/PSUB_Q_CURRENT_POSITION
+ - SUB_Q_CURRENT_POSITION
+ - ntddcdrm/SUB_Q_CURRENT_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - SUB_Q_CURRENT_POSITION
 ---
 
 # _SUB_Q_CURRENT_POSITION structure
 
+
 ## -description
 
-The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with [SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data).
+The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with [SUB_Q_CHANNEL_DATA](./ns-ntddcdrm-_sub_q_channel_data.md).
 
 ## -struct-fields
 
 ### -field Header
 
-Indicates, among other things, the length of the Q subchannel data that was retrieved. See [SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header) for more details.
+Indicates, among other things, the length of the Q subchannel data that was retrieved. See [SUB_Q_HEADER](./ns-ntddcdrm-_sub_q_header.md) for more details.
 
 ### -field FormatCode
 
@@ -84,10 +88,10 @@ Gives the current location relative to the logical beginning of the current trac
 
 ## -see-also
 
-[CDROM_SUB_Q_DATA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format)
+[CDROM_SUB_Q_DATA_FORMAT](./ns-ntddcdrm-_cdrom_sub_q_data_format.md)
 
-[IOCTL_CDROM_READ_Q_CHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel)
+[IOCTL_CDROM_READ_Q_CHANNEL](./ni-ntddcdrm-ioctl_cdrom_read_q_channel.md)
 
-[SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data)
+[SUB_Q_CHANNEL_DATA](./ns-ntddcdrm-_sub_q_channel_data.md)
 
-[SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header)
+[SUB_Q_HEADER](./ns-ntddcdrm-_sub_q_header.md)

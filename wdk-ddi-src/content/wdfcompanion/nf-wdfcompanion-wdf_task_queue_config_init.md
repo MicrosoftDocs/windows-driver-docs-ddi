@@ -8,8 +8,6 @@ ms.assetid: 51c43509-074c-4118-afe5-2e568d733751
 ms.date: 02/26/2018
 keywords: ["WDF_TASK_QUEUE_CONFIG_INIT function"]
 ms.keywords: WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT
-f1_keywords:
- - "wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WDF_TASK_QUEUE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_TASK_QUEUE_CONFIG_INIT
+ - wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WDF_TASK_QUEUE_CONFIG_INIT
 ---
 
 # WDF_TASK_QUEUE_CONFIG_INIT function
@@ -47,22 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param Config 
 
+[out]
 
+### -param TaskQueueId 
 
-### -param Config [out]
+[in]
 
+### -param DispatchType 
 
-### -param TaskQueueId [in]
-
-
-### -param DispatchType [in]
-
+[in]
 

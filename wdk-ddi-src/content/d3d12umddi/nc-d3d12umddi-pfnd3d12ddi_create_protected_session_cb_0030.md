@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030"
+ - PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
+ - d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function
+
 
 ## -description
 
@@ -77,3 +79,4 @@ See the [Protected Resources Specification](https://microsoft.github.io/DirectX-
 [**D3D12DDICB_CREATE_PROTECTED_SESSION_0030**](ns-d3d12umddi-d3d12ddicb_create_protected_session_0030.md)
 
 [**PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074**](nc-d3d12umddi-pfnd3d12ddi_createprotectedresourcesession_0074.md)
+

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0030"
+ - PFND3D12DDI_VIDEO_DECODE_FRAME_0032
+ - d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0032
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0032 callback
 
+
 ## -description
 
 Records a decode frame operation to the command list.  Inputs, outputs, and parameters for the decode are specified as arguments to this method.
@@ -56,7 +58,7 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 ### -param hDrvDecoder
 
-The video decoder that contains internal state for this decode session.  Examples include motion vectors, internal temporary allocations, etc.  See [Creating a Video Decoder](https://docs.microsoft.com/windows-hardware/drivers/display/creating-a-video-decode-device).
+The video decoder that contains internal state for this decode session.  Examples include motion vectors, internal temporary allocations, etc.  See [Creating a Video Decoder](/windows-hardware/drivers/display/creating-a-video-decode-device).
 
 ### -param pOutputStreamParameters
 
@@ -65,4 +67,3 @@ Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_O
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-

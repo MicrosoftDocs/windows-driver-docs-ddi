@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB"
+ - PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
+ - d3dumddi/PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB callback function
+
 
 ## -description
 

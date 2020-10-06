@@ -8,8 +8,6 @@ ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.date: 04/30/2018
 keywords: ["IoGetDeviceInterfaceAlias function"]
 ms.keywords: IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias
-f1_keywords:
- - "wdm/IoGetDeviceInterfaceAlias"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetDeviceInterfaceAlias
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetDeviceInterfaceAlias
+ - wdm/IoGetDeviceInterfaceAlias
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetDeviceInterfaceAlias
 ---
 
 # IoGetDeviceInterfaceAlias function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetDeviceInterfaceAlias</b> routine returns the alias device interface of the specified device interface instance, if the alias exists.
-
 
 ## -parameters
 
+### -param SymbolicLinkName 
 
+[in]
+Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a> or in a PnP notification structure.
 
+### -param AliasInterfaceClassGuid 
 
-### -param SymbolicLinkName [in]
-
-Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a> or in a PnP notification structure.
-
-
-### -param AliasInterfaceClassGuid [in]
-
+[in]
 Pointer to a GUID specifying the interface class of the alias to retrieve.
 
+### -param AliasSymbolicLinkName 
 
-### -param AliasSymbolicLinkName [out]
-
-Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
-
+[out]
+Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
 
 ## -returns
-
-
 
 <b>IoGetDeviceInterfaceAlias</b> returns STATUS_SUCCESS if the call was successful. Possible error return values are described following.
 
@@ -116,14 +108,8 @@ Possibly indicates an invalid <i>SymbolicLinkName</i> or an invalid <i>AliasClas
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Device interfaces are considered aliases if they are exposed by the same underlying device and have identical interface reference strings, but are of different interface classes.
 
@@ -135,20 +121,10 @@ Two device interfaces with <b>NULL</b> reference strings are aliases if they are
 
 Callers of <b>IoGetDeviceInterfaceAlias</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>

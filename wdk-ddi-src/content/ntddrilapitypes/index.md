@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: netvista
+f1_keywords:
+ - ntddrilapitypes
+ - ntddrilapitypes/ntddrilapitypes
 ---
 
 # Ntddrilapitypes.h header
@@ -18,7 +19,7 @@ tech.root: netvista
 
 ## -description
 
-
 This header is used by netvista. For more information, see:
 
 - [Networking drivers for Windows Vista and later](../_netvista/index.md)
+

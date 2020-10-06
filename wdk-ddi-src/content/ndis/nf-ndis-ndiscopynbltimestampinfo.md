@@ -6,40 +6,37 @@ tech.root: netvista
 ms.assetid: 27acbf79-a529-4644-b64c-4c8ae2c6da14
 ms.date: 08/08/2018
 keywords: ["NdisCopyNblTimestampInfo function"]
-f1_keywords:
- - "ndis/NdisCopyNblTimestampInfo"
 ms.keywords: NdisCopyNblTimestampInfo
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2019
-req.kmdf-ver:
-req.umdf-ver:
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: ndis.lib
-req.dll:
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- ndis.lib
-api_name: 
-- NdisCopyNblTimestampInfo
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - NdisCopyNblTimestampInfo
+ - ndis/NdisCopyNblTimestampInfo
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+api_name:
+ - NdisCopyNblTimestampInfo
 ---
 
 # NdisCopyNblTimestampInfo function
@@ -65,3 +62,4 @@ Reserved.
 ## -remarks
 
 ## -see-also
+

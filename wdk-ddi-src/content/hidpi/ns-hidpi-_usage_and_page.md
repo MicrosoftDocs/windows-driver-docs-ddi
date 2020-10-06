@@ -6,10 +6,8 @@ old-location: hid\usage_and_page.htm
 tech.root: hid
 ms.assetid: 48716117-c539-4436-a81f-4b05c9a8cb7d
 ms.date: 04/30/2018
-keywords: ["_USAGE_AND_PAGE structure"]
+keywords: ["USAGE_AND_PAGE structure"]
 ms.keywords: "*PUSAGE_AND_PAGE, PUSAGE_AND_PAGE, PUSAGE_AND_PAGE structure pointer [Human Input Devices], USAGE_AND_PAGE, USAGE_AND_PAGE structure [Human Input Devices], _USAGE_AND_PAGE, hid.usage_and_page, hidpi/PUSAGE_AND_PAGE, hidpi/USAGE_AND_PAGE, hidstrct_cbb3e4f3-5409-406c-9114-d8455e505497.xml"
-f1_keywords:
- - "hidpi/USAGE_AND_PAGE"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidpi.h
-api_name:
-- USAGE_AND_PAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+f1_keywords:
+ - _USAGE_AND_PAGE
+ - hidpi/_USAGE_AND_PAGE
+ - PUSAGE_AND_PAGE
+ - hidpi/PUSAGE_AND_PAGE
+ - USAGE_AND_PAGE
+ - hidpi/USAGE_AND_PAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidpi.h
+api_name:
+ - USAGE_AND_PAGE
 ---
 
 # _USAGE_AND_PAGE structure
@@ -47,30 +50,21 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 
 ## -description
 
-
-The USAGE_AND_PAGE structure specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a> of a HID control.
-
+The USAGE_AND_PAGE structure specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> and <a href="/windows-hardware/drivers/hid/hid-usages">usage ID</a> of a HID control.
 
 ## -struct-fields
-
-
-
 
 ### -field UsagePage
 
 Specifies a usage page.
 
-
 ### -field Usage
 
 Specifies a usage ID within the usage page specified by <b>UsagePage</b>.
 
-
 ## -remarks
 
-
-
-The<b> HidP_IsSameUsageAndPage</b> macro determines if two <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">extended usages</a>, represented by <b>USAGE_AND_PAGE</b> structures, are equal.
+The<b> HidP_IsSameUsageAndPage</b> macro determines if two <a href="/windows-hardware/drivers/hid/hid-usages">extended usages</a>, represented by <b>USAGE_AND_PAGE</b> structures, are equal.
 
 
 <pre class="syntax">BOOLEAN HidP_IsSameUsageAndPage(
@@ -106,20 +100,10 @@ Usage <i>u1</i> is the same as usage <i>u2</i>.
 
 Usage <i>u1</i> is different than usage <i>u2</i>.
 
-As defined by the USB HID standard, an extended usage is a 32-bit unsigned value. The high-order 16 bits specify the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a>, and lower-order 16 bits specify the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
+As defined by the USB HID standard, an extended usage is a 32-bit unsigned value. The high-order 16 bits specify the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a>, and lower-order 16 bits specify the <a href="/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtonsEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtonsEx</a>

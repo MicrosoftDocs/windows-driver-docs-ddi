@@ -8,8 +8,6 @@ ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptableSequentialStream::Write"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
-f1_keywords:
- - "printerextension/IPrinterScriptableSequentialStream.Write"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- printerextension.h
-api_name:
-- IPrinterScriptableSequentialStream.Write
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptableSequentialStream::Write
+ - printerextension/IPrinterScriptableSequentialStream::Write
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - printerextension.h
+api_name:
+ - IPrinterScriptableSequentialStream.Write
 ---
 
 # IPrinterScriptableSequentialStream::Write
@@ -47,22 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
-
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
+### -param pcbWritten 
 
-
-
-### -param pcbWritten [out, retval]
-
+[out, retval]
 The number of bytes written.
 
 
@@ -70,23 +62,10 @@ The number of bytes written.
 
 The array to write.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>

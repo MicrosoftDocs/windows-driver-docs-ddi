@@ -8,8 +8,6 @@ ms.assetid: 79816d01-bf27-49d0-b6f1-083b7e87cc4e
 ms.date: 05/02/2018
 keywords: ["FwpsAcquireWritableLayerDataPointer0 function"]
 ms.keywords: FwpsAcquireWritableLayerDataPointer0, FwpsAcquireWritableLayerDataPointer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireWritableLayerDataPointer0, netvista.fwpsacquirewritablelayerdatapointer0, wfp_ref_2_funct_3_fwps_A-B_adf2c5a7-ebcb-4c05-aa5a-3b794b60dc74.xml
-f1_keywords:
- - "fwpsk/FwpsAcquireWritableLayerDataPointer0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAcquireWritableLayerDataPointer0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAcquireWritableLayerDataPointer0
+ - fwpsk/FwpsAcquireWritableLayerDataPointer0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAcquireWritableLayerDataPointer0
 ---
 
 # FwpsAcquireWritableLayerDataPointer0 function
@@ -48,61 +47,55 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsAcquireWritableLayerDataPointer0</b> function returns layer-specific data that can be inspected and
   changed.
-<div class="alert"><b>Note</b>  <b>FwpsAcquireWritableLayerDataPointer0</b> is a specific version of <b>FwpsAcquireWritableLayerDataPointer</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAcquireWritableLayerDataPointer0</b> is a specific version of <b>FwpsAcquireWritableLayerDataPointer</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param classifyHandle 
 
-
-
-### -param classifyHandle [in]
-
+[in]
 A handle for the classify request.
      This handle is obtained by calling 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
+### -param filterId 
 
-### -param filterId [in]
-
+[in]
 The value of the 
      <b>FilterId</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
+     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved for future use. Set to zero.
 
+### -param writableLayerData 
 
-### -param writableLayerData [out]
-
+[out]
 A data buffer that contains the modifiable data for the layer. The supported data types, which are listed in the following Remarks section, are defined as
      structures. On return, the data can be accessed by casting the void pointer to the appropriate structure
      type.
 
+### -param classifyOut 
 
-### -param classifyOut [in, out]
-
+[in, out]
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function. The 
+     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function. The 
      <i>classifyOut</i> parameter of 
      classifyFn is listed as an output parameter in the header, but it contains enough information on
      input to be useful to the engine when passed to 
      <b>FwpsAcquireWritableLayerDataPointer0</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAcquireWritableLayerDataPointer0</b> function returns one of the following NTSTATUS codes.
@@ -135,23 +128,17 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure:<ul>
+<b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure:<ul>
 <li><i>classifyOut</i>-><b>actionType</b> = <b>FWP_ACTION_BLOCK</b></li>
 <li><i>classifyOut</i>-><b>rights</b> = ~<b>FWPS_RIGHT_ACTION_WRITE</b></li>
 </ul>
 
 
 For every call to this function, you must make a matching call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a> to
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a> to
     finalize the changes that were made, even if your callout driver didn't modify any data. If you do not make the call to <b>FwpsApplyModifiedLayerData0</b>, this could result in the classify not completing correctly.
 
 The following structures are defined to contain modifiable layer data. The pointer set on output as
@@ -161,55 +148,46 @@ The following structures are defined to contain modifiable layer data. The point
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_connect_request0">FWPS_CONNECT_REQUEST0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_connect_request0">FWPS_CONNECT_REQUEST0</a>
 
 
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_connect_request0">FWPS_CONNECT_REQUEST0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_connect_request0">FWPS_CONNECT_REQUEST0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">FwpsAcquireClassifyHandle0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">FwpsAcquireClassifyHandle0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

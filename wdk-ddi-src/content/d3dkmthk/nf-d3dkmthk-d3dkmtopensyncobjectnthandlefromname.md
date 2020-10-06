@@ -7,8 +7,6 @@ ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenSyncObjectNtHandleFromName function"]
 ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,29 +24,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTOpenSyncObjectNtHandleFromName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenSyncObjectNtHandleFromName
+ - d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTOpenSyncObjectNtHandleFromName
 ---
 
 # D3DKMTOpenSyncObjectNtHandleFromName function
 
+
 ## -description
 
-<b>D3DKMTOpenSyncObjectNtHandleFromName</b> opens an NT handle for a named shared monitored fence object, similar to what <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a> does for shared allocations.
+<b>D3DKMTOpenSyncObjectNtHandleFromName</b> opens an NT handle for a named shared monitored fence object, similar to what <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a> does for shared allocations.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ req.typenames:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectnthandlefromname">D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectnthandlefromname">D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</a> structure that describes the operation.
 
 ## -returns
 
@@ -71,4 +71,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a>

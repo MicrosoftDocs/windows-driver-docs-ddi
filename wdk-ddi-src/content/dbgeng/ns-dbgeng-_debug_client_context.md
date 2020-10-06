@@ -6,10 +6,8 @@ old-location: debugger\debug_client_context.htm
 tech.root: debugger
 ms.assetid: 69CE0535-3ADD-481C-A016-695A7303BBA5
 ms.date: 05/03/2018
-keywords: ["_DEBUG_CLIENT_CONTEXT structure"]
+keywords: ["DEBUG_CLIENT_CONTEXT structure"]
 ms.keywords: "*PDEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT structure [Windows Debugging], PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_CLIENT_CONTEXT, dbgeng/DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context"
-f1_keywords:
- - "dbgeng/DEBUG_CLIENT_CONTEXT"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_CLIENT_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT
+f1_keywords:
+ - _DEBUG_CLIENT_CONTEXT
+ - dbgeng/_DEBUG_CLIENT_CONTEXT
+ - PDEBUG_CLIENT_CONTEXT
+ - dbgeng/PDEBUG_CLIENT_CONTEXT
+ - DEBUG_CLIENT_CONTEXT
+ - dbgeng/DEBUG_CLIENT_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_CLIENT_CONTEXT
 ---
 
 # _DEBUG_CLIENT_CONTEXT structure
@@ -47,32 +50,18 @@ req.typenames: DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT
 
 ## -description
 
-
-Contains a debug client constant to provide to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>  method. 
-
+Contains a debug client constant to provide to the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>  method.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 A size value.
 
-
 ### -field eClient
 
 A client value.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetRootPageTable"
+ - DXGKDDI_SETROOTPAGETABLE
+ - d3dkmddi/DXGKDDI_SETROOTPAGETABLE
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,6 +46,7 @@ product:
 
 # DXGKDDI_SETROOTPAGETABLE callback function
 
+
 ## -description
 
 <b>DxgkDdiSetRootPageTable</b> sets the root page table for the given context. This function is used to notify a context when its associated root page table is resized or moved in memory.
@@ -60,9 +62,8 @@ A handle to the display adapter.
 
 ### -param pSetPageTable
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>

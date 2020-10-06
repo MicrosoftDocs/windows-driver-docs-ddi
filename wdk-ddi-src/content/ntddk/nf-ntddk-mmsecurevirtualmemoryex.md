@@ -1,46 +1,44 @@
 ---
 UID: NF:ntddk.MmSecureVirtualMemoryEx
 title: MmSecureVirtualMemoryEx function
-author: windows-driver-content
 description: This routine probes the requested address range and protects the specified address range from having its protection made more restrictive and being deleted.
-tech.root:
+tech.root: 
 ms.assetid: b8dbb7ce-6bc8-4899-92b6-7499b26e8539
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["MmSecureVirtualMemoryEx function"]
-f1_keywords:
- - "ntddk/MmSecureVirtualMemoryEx"
 ms.keywords: MmSecureVirtualMemoryEx
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: APC_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- ntddk.h
-api_name: 
-- MmSecureVirtualMemoryEx
-product: 
-- Windows
 targetos: Windows
-
 ms.custom: 19H1
+f1_keywords:
+ - MmSecureVirtualMemoryEx
+ - ntddk/MmSecureVirtualMemoryEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - ntddk.h
+api_name:
+ - MmSecureVirtualMemoryEx
+product:
+ - Windows
 ---
 
 # MmSecureVirtualMemoryEx function
@@ -87,11 +85,11 @@ If the range could not be locked because of protection problems, noncommitted me
 
 ## -remarks
 
-Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
+Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory **](./nf-ntddk-mmsecurevirtualmemory.md) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
 
-The return value from this function can only be used with [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory). The driver calls that routine to return the range to a normal state.
+The return value from this function can only be used with [**MmUnsecureVirtualMemory**](./nf-ntddk-mmunsecurevirtualmemory.md). The driver calls that routine to return the range to a normal state.
 
 ## -see-also
 
-- [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory)
-- [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory)
+- [**MmSecureVirtualMemory **](./nf-ntddk-mmsecurevirtualmemory.md)
+- [**MmUnsecureVirtualMemory**](./nf-ntddk-mmunsecurevirtualmemory.md)
