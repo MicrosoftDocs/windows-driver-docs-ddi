@@ -45,7 +45,6 @@ api_name:
 
 # _DXGK_VIDSCHCAPS structure
 
-
 ## -description
 
 The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that a driver can support.
@@ -54,62 +53,64 @@ The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) sche
 
 ### -field MultiEngineAware
 
-A UINT value that specifies whether the driver supports the creation and destruction of a device context (through the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> and <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext">DxgkDdiDestroyContext</a> functions) and the use of a device context (through the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> and <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a> functions). If the driver does not support context creation, for every call to the driver that would pass a handle to a context, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device.
+A UINT value that specifies whether the driver supports the creation and destruction of a device context (through the [**DxgkDdiCreateContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext) and [**DxgkDdiDestroyContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext) functions) and the use of a device context (through the [**DxgkDdiPresent**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present) and [**DxgkDdiRender**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render) functions). If the driver does not support context creation, for every call to the driver that would pass a handle to a context, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device.
 
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
 
 ### -field VSyncPowerSaveAware
 
-A UINT value that specifies whether the driver supports vertical-sync power-saving functionality. 
-        
+A UINT value that specifies whether the driver supports vertical-sync power-saving functionality.
 
-If <b>VSyncPowerSaveAware</b> is set to 1 (<b>TRUE</b>), the operating system can save power by disabling and enabling the vertical-sync interrupt that occurs from the usage of some applications. If <b>VSyncPowerSaveAware</b> is set to zero (<b>FALSE</b>), the operating system will never disable the vertical-sync interrupt for applications that might cause the vertical-sync interrupt to occur.
+If **VSyncPowerSaveAware** is set to 1 (**TRUE**), the operating system can save power by disabling and enabling the vertical-sync interrupt that occurs from the usage of some applications. If **VSyncPowerSaveAware** is set to zero (**FALSE**), the operating system will never disable the vertical-sync interrupt for applications that might cause the vertical-sync interrupt to occur.
 
-Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
+Setting this member is equivalent to setting the second bit of the 32-bit **Value** member (0x00000002).
 
 Supported starting with Windows Server 2008 and Windows Vista with SP1.
 
 ### -field PreemptionAware
 
-A UINT value that specifies whether the driver supports the   GPU preemption policy of Windows 8 and later versions of Windows. With this policy, the operating system always issues preemption requests to the GPU before it initiates the <a href="/windows-hardware/drivers/display/timeout-detection-and-recovery">Timeout Detection and Recovery
-(TDR)</a> process.
-        
+A UINT value that specifies whether the driver supports the   GPU preemption policy of Windows 8 and later versions of Windows. With this policy, the operating system always issues preemption requests to the GPU before it initiates the [**Timeout Detection and Recovery
+(TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) process.
 
-If <b>PreemptionAware</b> is set to 1 (<b>TRUE</b>), the driver supports the preemption policy of Windows 8 and later versions of Windows.
+If **PreemptionAware** is set to 1 (**TRUE**), the driver supports the preemption policy of Windows 8 and later versions of Windows.
 
-If <b>PreemptionAware</b> is set to zero (<b>FALSE</b>), the driver supports the preemption policy  of Windows 7. With this policy, the operating system may not issue preemption requests while potentially long running operations are being executed on the GPU. As a result, these GPU requests are not preempted  before the TDR process is initiated. This may cause the TDR process to repeatedly reset the GPU which could lead to a system stop error.
+If **PreemptionAware** is set to zero (**FALSE**), the driver supports the preemption policy  of Windows 7. With this policy, the operating system may not issue preemption requests while potentially long running operations are being executed on the GPU. As a result, these GPU requests are not preempted  before the TDR process is initiated. This may cause the TDR process to repeatedly reset the GPU which could lead to a system stop error.
 
-<div class="alert"><b>Note</b>  If <b>PreemptionAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>PreemptionAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system will halt the driver initialization process and return a failure code.</div>
-<div> </div>
-Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
+> [!NOTE]
+> If **PreemptionAware** is set to 1, the **MultiEngineAware** member  must also be set to a value of 1. If **PreemptionAware** is set to 1 but **MultiEngineAware** is set to zero, the operating system will halt the driver initialization process and return a failure code.
+
+Setting this member is equivalent to setting the third bit of the 32-bit **Value** member (0x00000004).
 
 Supported starting with Windows 8.
 
 ### -field NoDmaPatching
 
-A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function is called to assign, or <i>patch</i>, physical addresses to each part of the DMA buffer.
+A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's [**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch) function is called to assign, or *patch*, physical addresses to each part of the DMA buffer.
 
-<div class="alert"><b>Note</b>  Display devices that support virtual addresses can reprogram a virtual address to a new video memory location without having to patch the value of the DMA buffer address. For these types of display devices, the driver should set <b>NoDmaPatching</b> to 1.</div>
-<div> </div>
-If <b>NoDmaPatching</b> is set to 1 (<b>TRUE</b>), the driver disables leak detection, and the behavior of DMA buffer splitting is the same as in Windows 7.
+> [!NOTE]
+> Display devices that support virtual addresses can reprogram a virtual address to a new video memory location without having to patch the value of the DMA buffer address. For these types of display devices, the driver should set **NoDmaPatching** to 1.
 
-If <b>NoDmaPatching</b> is set to 0 (<b>FALSE</b>), the driver enables leak detection for patched DMA buffer addresses. The operating system performs leak detection before it calls the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function.
+If **NoDmaPatching** is set to 1 (**TRUE**), the driver disables leak detection, and the behavior of DMA buffer splitting is the same as in Windows 7.
 
-<div class="alert"><b>Note</b>  If <b>NoDmaPatching</b> is set to 1, the <b>PreemptionAware</b> and <b>MultiEngineAware</b> members  must also be set to a value of 1. If <b>NoDmaPatching</b> is set to 1 but <b>PreemptionAware</b> or <b>MultiEngineAware</b> are set to zero, the operating system will halt the driver initialization process and return a failure code.</div>
-<div> </div>
-Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x0000008).
+If **NoDmaPatching** is set to 0 (**FALSE**), the driver enables leak detection for patched DMA buffer addresses. The operating system performs leak detection before it calls the driver's [**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch) function.
+
+> [!NOTE]
+> If **NoDmaPatching** is set to 1, the **PreemptionAware** and **MultiEngineAware** members  must also be set to a value of 1. If **NoDmaPatching** is set to 1 but **PreemptionAware** or **MultiEngineAware** are set to zero, the operating system will halt the driver initialization process and return a failure code.
+
+Setting this member is equivalent to setting the fourth bit of the 32-bit **Value** member (0x0000008).
 
 Supported starting with Windows 8.
 
 ### -field CancelCommandAware
 
-A UINT value that specifies whether the driver supports cleaning up internal resources (through the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand">DxgkDdiCancelCommand</a> function) after a command is removed from the hardware queue.
+A UINT value that specifies whether the driver supports cleaning up internal resources (through the [**DxgkDdiCancelCommand**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand) function) after a command is removed from the hardware queue.
 
-If <b>CancelCommandAware</b> is set to 1 (<b>TRUE</b>), the driver supports cleaning up resources associated with a canceled DMA packet. If <b>CancelCommandAware</b> is set to zero (<b>FALSE</b>), the driver does not support cleaning up resources.
+If **CancelCommandAware** is set to 1 (**TRUE**), the driver supports cleaning up resources associated with a canceled DMA packet. If **CancelCommandAware** is set to zero (**FALSE**), the driver does not support cleaning up resources.
 
-<div class="alert"><b>Note</b>  If <b>CancelCommandAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>CancelCommandAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system returns a failure code.</div>
-<div> </div>
-Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x0000010).
+> [!NOTE]
+> If **CancelCommandAware** is set to 1, the **MultiEngineAware** member  must also be set to a value of 1. If **CancelCommandAware** is set to 1 but **MultiEngineAware** is set to zero, the operating system returns a failure code.
+
+Setting this member is equivalent to setting the fifth bit of the 32-bit **Value** member (0x0000010).
 
 Supported starting with Windows 8.
 
@@ -120,56 +121,34 @@ Supported starting with Windows 8.
 |TRUE|Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than UINT_MAX/2 apart from the last signaled fence value.|
 |FALSE|Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.|
 
-
 Supported starting with Windows 10.
 
 ### -field LowIrqlPreemptCommand
 
 ### -field HwQueuePacketCap
 
+Maximum number of DMA packets allowed to be queued to a node.
+
 ### -field Reserved
 
-        This member is reserved and should be set to zero.
-
-
-        This member is reserved and should be set to zero.
-
-Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
-
-Supported starting with Windows 8.
-
-This member is reserved and should be set to zero. 
-
-Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
+This member is reserved and should be set to zero.
 
 ### -field Value
 
-A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value that identifies the GPU scheduling capabilities that the driver can support.
+A member in the union that **DXGK_VIDSCHCAPS** contains that can hold a 32-bit value that identifies the GPU scheduling capabilities that the driver can support.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
+[**DXGK_DRIVERCAPS**](/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps)
 
+[**DxgkDdiCancelCommand**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand)
 
+[**DxgkDdiCreateContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand">DxgkDdiCancelCommand</a>
+[**DxgkDdiDestroyContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext)
 
+[**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch)
 
+[**DxgkDdiPresent**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext">DxgkDdiDestroyContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+[**DxgkDdiRender**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render)

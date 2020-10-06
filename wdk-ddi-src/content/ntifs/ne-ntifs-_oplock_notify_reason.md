@@ -36,7 +36,6 @@ dev_langs:
 
 # _OPLOCK_NOTIFY_REASON enumeration
 
-
 ## -description
 
 OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to [**FsRtlCheckOplockEx2**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex2.md).
@@ -60,4 +59,3 @@ The OPLOCK_NOTIFY_REASON is specified in the *NotifyReason* member of the OPLOCK
 [**FsRtlCheckOplockEx2**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex2.md)
 
 [OPLOCK_NOTIFY_PARAMS](ns-ntifs-_oplock_notify_params.md)
-

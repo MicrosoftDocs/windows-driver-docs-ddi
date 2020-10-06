@@ -43,7 +43,6 @@ api_name:
 
 # D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration
 
-
 ## -description
 
 Specifies the video decode tier. Decode video tiers define a set of hardware capabilities. The higher the tier, the more capable the hardware.
@@ -122,8 +121,8 @@ If decode hardware requires a unique tiling format that is not supported for ope
 
 The following table shows the different capabilities for each tier:
 
-| | Tier 1 | Tier 2 | Tier 3 |
-| -- | -- | -- | -- |
+| Capability | Tier 1 | Tier 2 | Tier 3 |
+| ---------- | ------ | ------ | ------ |
 | Supports individually allocated reference frames and output. | No | No | Required |
 | Supports references and allocated as a texture array. | Required | Required | Required |
 | May optionally require the REFERENCE_ONLY resource flag. Note that all tiers are required to work with flag present, even when its not required. | Optional | Optional | No |

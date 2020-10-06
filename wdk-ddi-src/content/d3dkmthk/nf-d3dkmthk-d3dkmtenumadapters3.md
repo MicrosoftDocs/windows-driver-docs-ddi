@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEnumAdapters3
-title: D3DKMTEnumAdapters2 function (d3dkmthk.h)
+title: D3DKMTEnumAdapters3 function (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: 1e17d460-500d-4e4b-92f7-0505acc8436d
 ms.date: 03/24/2020
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Gdi32.dll
 api_name:
- - D3DKMTEnumAdapters2
+ - D3DKMTEnumAdapters3
 dev_langs:
  - c++
 ---
 
 # D3DKMTEnumAdapters3 function
-
 
 ## -description
 
@@ -82,4 +81,3 @@ Setting none of the D3DKMT_ENUMADAPTERS3::Filter flags will still enumerate adap
 [**PFND3DKMT_ENUMADAPTERS3**](nc-d3dkmthk-pfnd3dkmt_enumadapters3.md)
 
 [**D3DKMTCloseAdapter**](nf-d3dkmthk-d3dkmtcloseadapter.md)
-

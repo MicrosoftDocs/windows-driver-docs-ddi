@@ -43,7 +43,6 @@ api_name:
 
 # HW_STARTIO callback function
 
-
 ## -description
 
 The Storport driver calls the **HwStorStartIo** routine one time for each incoming I/O request.
@@ -88,7 +87,7 @@ The SRB is expected to be completed when SCSI status is received. When the Storp
   * Storport discards the original Srb and issues a new Srb, including calls to **HwStorBuildIo** and **HwStorStartIo**. All data in the SrbExtension will be lost.
   * Because a new SRB is issued, the miniport must make sure that it never issues SRB_STATUS_BUSY in the middle of a SCSI transaction. After the transaction is started, it must be completed or canceled.  Hardware busy states during the transaction must be handled by the miniport driver.
 
-The name **HwStorStartIo** is a placeholder to describe the miniport routine set in the **HwStartIo** member of [**HW_INITIALIZATION_DATA**]((/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1)) structure. This structure is passed in the *HwInitializationData* parameter of [**StorPortInitialize**](nf-storport-storportinitialize.md). The actual prototype of this routine is defined in Storport.h as follows:
+The name **HwStorStartIo** is a placeholder to describe the miniport routine set in the **HwStartIo** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure. This structure is passed in the *HwInitializationData* parameter of [**StorPortInitialize**](nf-storport-storportinitialize.md). The actual prototype of this routine is defined in Storport.h as follows:
 
 ```cpp
 typedef
@@ -99,7 +98,7 @@ BOOLEAN
   );
 ```
 
-Starting in Windows 8, the *Srb* parameter may point to either [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md) or [**STORAGE_REQUEST_BLOCK**](../ddi/srb/ns-srb-_storage_request_block.md). If the function identifier in the **Function** field of *Srb* is **SRB_FUNCTION_STORAGE_REQUEST_BLOCK**, the SRB is a **STORAGE_REQUEST_BLOCK** request structure.
+Starting in Windows 8, the *Srb* parameter may point to either [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md) or [**STORAGE_REQUEST_BLOCK**](../srb/ns-srb-_storage_request_block.md). If the function identifier in the **Function** field of *Srb* is **SRB_FUNCTION_STORAGE_REQUEST_BLOCK**, the SRB is a **STORAGE_REQUEST_BLOCK** request structure.
 
 ### Examples
 

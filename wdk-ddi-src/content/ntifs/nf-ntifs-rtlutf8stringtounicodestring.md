@@ -60,7 +60,7 @@ Pointer to the UTF-8 source string to be converted to Unicode.
 
 ### -param AllocateDestinationString
 
-Boolean value. When set TRUE, **RtlUTF8StringToUnicodeString** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUTF8StringToUnicodeString** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUnicodeString**](nf-ntifs-rtlfreeunicodestring.md).
+Boolean value. When set TRUE, **RtlUTF8StringToUnicodeString** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUTF8StringToUnicodeString** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUnicodeString**](../wdm/nf-wdm-rtlfreeunicodestring.md).
 
 ## -returns
 
@@ -87,7 +87,6 @@ You can use the **RtlUTF8StringToUnicodeString** and [**RtlUnicodeStringToUTF8St
 
 ## -see-also
 
-[**RtlFreeUnicodeString**](nf-ntifs-rtlfreeunicodestring.md)
+[**RtlFreeUnicodeString**](../wdm/nf-wdm-rtlfreeunicodestring.md)
 
 [**RtlUnicodeStringToUTF8String**](nf-ntifs-rtlunicodestringtoutf8string.md)
-

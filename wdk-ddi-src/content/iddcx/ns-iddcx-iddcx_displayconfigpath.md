@@ -1,10 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_DISPLAYCONFIGPATH
 title: IDDCX_DISPLAYCONFIGPATH
-description: The display monitor configuration path.
+author: windows-driver-content
+description: IDDCX_DISPLAYCONFIGPATH contains display monitor configuration for a path.
 tech.root: display
 ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13
-ms.date: 04/04/2019
+ms.date: 09/20/2020
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,59 +44,61 @@ dev_langs:
 
 # IDDCX_DISPLAYCONFIGPATH structure
 
-
 ## -description
 
-The display monitor configuration path.
+**IDDCX_DISPLAYCONFIGPATH** contains the display monitor configuration for a path.
 
 ## -struct-fields
 
 ### -field Size
 
-Total size of the structure.
+Size, in bytes, of this structure.
 
 ### -field MonitorObject
 
-The handle the driver provides to identify the monitor this path is targeted at.
+Monitor object handle that the driver provides to identify the monitor this path is targeted at.
 
 ### -field Position
 
-Requested desktop position for this path.
+A [**POINT**](/windows/win32/api/windef/ns-windef-point) structure containing the requested desktop position for this path.
 
 ### -field Resolution
 
-Desktop resolution for this path. Must match a resolution supported by the driver.
+A [**DISPLAYCONFIG_2DREGION**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_2dregion) structure containing the resolution for this path. **Resolution** must match a resolution supported by the driver.
 
 ### -field Rotation
 
-Requested orientation for this path.
+A [**DISPLAYCONFIG_ROTATION**](/windows/win32/api/wingdi/ne-wingdi-displayconfig_rotation) value specifying the requested screen orientation for this path.
 
 ### -field RefreshRate
 
-Requested refresh rate for this path. Must match a refresh rate supported by the driver for this resolution
+A [**DISPLAYCONFIG_RATIONAL**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_rational) structure containing the requested refresh rate for this path. **RefreshRate** must match a refresh rate supported by the driver for the specified resolution.
 
 > [!NOTE]
 > This refresh rate is defined as progressive as remote drivers can only support progressive target modes.
 
 ### -field VSyncFreqDivider
 
-The V Sync divider value for the specified *RefreshRate*.
+The V Sync divider value for the specified **RefreshRate**.
 
 ### -field MonitorScaleFactor
 
-Requested monitor DPI for this path. Note that this value is just a hint and OS may override the value to ensure the DPI configuration of the session is valid.
-
-Valid values are 100 to 500 inclusive.
+The requested monitor DPI for this path. Note that this value is just a hint and OS may override the value to ensure the DPI configuration of the session is valid. Valid values are 100 to 500 inclusive.
 
 ### -field PhysicalWidthOverride
 
-Physical width override for the specified monitor in millimeters, zero means no override.
+Physical width override for the specified monitor, in millimeters. A value of zero means no override.
 
 ### -field PhysicalHeightOverride
 
-Physical height override for the specified monitor in millimeters, zero means no override.
+Physical height override for the specified monitor, in millimeters. A value of zero means no override.
 
 ## -remarks
 
+An indirect display driver (IDD) calls [**IddCxAdapterDisplayConfigUpdate**](nf-iddcx-iddcxadapterdisplayconfigupdate.md) when it receives a new display configuration. It passes an array of **IDDCX_DISPLAYCONFIGPATH** structures in [**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adapterdisplayconfigupdate.md).
+
 ## -see-also
 
+[**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adapterdisplayconfigupdate.md)
+
+[**IddCxAdapterDisplayConfigUpdate**](nf-iddcx-iddcxadapterdisplayconfigupdate.md)

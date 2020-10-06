@@ -39,7 +39,6 @@ product:
 
 # STOR_EVENT_TYPE enumeration
 
-
 ## -description
 
 The **STOR_EVENT_TYPE** enum identifies the type of event object initialized by a miniport.
@@ -56,9 +55,8 @@ The event is a synchronization event.
 
 ## -remarks
 
-A miniport initializes an event object by calling [**StorPortInitializeEvent**](nf-storport-storport_initialize_event.md), passing in a **STOR_EVENT_TYPE** enum to identify the type of the event object.
+A miniport initializes an event object by calling [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md), passing in a **STOR_EVENT_TYPE** enum to identify the type of the event object.
 
 ## -see-also
 
-[**StorPortInitializeEvent**](nf-storport-storport_initialize_event.md)
-
+[**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)

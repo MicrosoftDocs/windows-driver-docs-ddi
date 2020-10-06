@@ -87,4 +87,3 @@ HRESULT Pfnd3d12ddiUnpinResources
 [**D3D12DDICB_UNPIN_RESOURCES_0076**](ns-d3d12umddi-d3d12ddicb_unpin_resources_0076.md)
 
 [**PFND3D12DDI_PINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_pinresources_cb_0076.md)
-

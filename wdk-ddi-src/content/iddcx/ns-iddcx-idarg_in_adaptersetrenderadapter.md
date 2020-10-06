@@ -4,7 +4,7 @@ title: IDARG_IN_ADAPTERSETRENDERADAPTER
 description: The LUID of the render adapter that the driver would like to be used to rendered the desktop image for the swapchains on this adapter.
 tech.root: display
 ms.assetid: 8d2d633e-ca83-4114-9a28-b194701bd9d9
-ms.date: 04/04/2019
+ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERSETRENDERADAPTER structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,19 +43,22 @@ dev_langs:
 
 # IDARG_IN_ADAPTERSETRENDERADAPTER structure
 
-
 ## -description
 
-The LUID of the render adapter that the driver would like to be used to rendered the desktop image for the swapchains on this adapter.
+The IDARG_IN_ADAPTERSETRENDERADAPTER structure identifies the render adapter that the driver wants to be used to render the desktop image for the swapchains on this adapter.
 
 ## -struct-fields
 
 ### -field PreferredRenderAdapter
 
- 
-Setting a value of {0, 0} indicates that the driver has no preference for the render adapter used. This is a preference and the OS may decide to use a different render adapter. For example, if the specified adapter has been PnpStopped then the OS will pick an alternative.
+Locally unique identifier (LUID) that identifies the driver's preferred adapter. Setting a value of {0, 0} indicates that the driver has no preference for the render adapter used.
 
 ## -remarks
 
+The driver's specified adapter is a preference and the OS might decide to use a different render adapter. For example, if the specified adapter has been PnpStopped then the OS will pick an alternative.
+
 ## -see-also
 
+[**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md)
+
+[**PFN_IDDCXADAPTERSETRENDERADAPTER**](nc-iddcx-pfn_iddcxadaptersetrenderadapter.md)

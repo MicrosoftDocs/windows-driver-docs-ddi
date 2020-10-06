@@ -45,7 +45,6 @@ api_name:
 
 # _DXGK_ALLOCATIONINFO structure
 
-
 ## -description
 
 The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
@@ -139,8 +138,6 @@ With the WDDM v2, the **DXGK_ALLOCATIONINFO** structure has been changed so that
 Ignoring the supported read segment set does not mean that it is no longer supported, but simply that there should no longer be a difference between these sets, and the video memory manager will be allowed to choose an appropriate segment for any allocation from a single segment set.
 
 ## -see-also
-
-[**D3DKMDDI_SHAREDPRIMARYSURFACEDATA**](ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md)
 
 [**DXGKARG_CREATEALLOCATION**](ns-d3dkmddi-_dxgkarg_createallocation.md)
 

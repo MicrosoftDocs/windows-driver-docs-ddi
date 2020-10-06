@@ -43,7 +43,6 @@ api_name:
 
 # KeQueryPerformanceCounter function (ntifs.h)
 
-
 ## -description
 
 The **KeQueryPerformanceCounter** routine retrieves the current value and frequency of the performance counter.
@@ -52,7 +51,7 @@ Use **KeQueryPerformanceCounter** to acquire high resolution (<1&micro;s) time s
 
 ## -parameters
 
-### -param PerformanceFrequency 
+### -param PerformanceFrequency
 
 [out, optional]
 A pointer to a variable to which **KeQueryPerformanceCounter** writes the performance counter frequency, in ticks per second. This parameter is optional and can be NULL if the caller does not need the counter frequency value.
@@ -63,7 +62,7 @@ A pointer to a variable to which **KeQueryPerformanceCounter** writes the perfor
 
 ## -remarks
 
-**KeQueryPerformanceCounter** returns a 64-bit integer that represents the current value of a high-resolution monotonically nondecreasing counter. 
+**KeQueryPerformanceCounter** returns a 64-bit integer that represents the current value of a high-resolution monotonically nondecreasing counter.
 
 To obtain the frequency of the performance counter, specify a non-**NULL** pointer value for the *PerformanceFrequency* parameter. The frequency of the performance counter is fixed at system boot and is consistent across all processors. Therefore, a driver can cache the frequency of the performance counter during initialization.  
 
@@ -73,22 +72,10 @@ For more info about this function and its usage, see [Acquiring high-resolution 
 
 [KeQueryInterruptTime](../wdm/nf-wdm-kequeryinterrupttime.md)
 
-
-
-[KeQuerySystemTime](../wdm/nf-wdm-kequerysystemtime~r1.md)
-
-
-
 [KeQueryTickCount](../ntddk/nf-ntddk-kequerytickcount.md)
-
-
 
 [KeQueryTimeIncrement](../wdm/nf-wdm-kequerytimeincrement.md)
 
-
-
 [QueryPerformanceCounter](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
-
-
 
 [QueryPerformanceFrequency](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)
