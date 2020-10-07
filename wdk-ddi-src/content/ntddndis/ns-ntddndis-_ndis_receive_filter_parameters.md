@@ -5,7 +5,7 @@ description: The NDIS_RECEIVE_FILTER_PARAMETERS structure specifies the paramete
 old-location: netvista\ndis_receive_filter_parameters.htm
 tech.root: netvista
 ms.assetid: 39dc6b3a-f24d-4f1a-96f8-416fbcb3f894
-ms.date: 05/02/2018
+ms.date: 09/30/2020
 keywords: ["NDIS_RECEIVE_FILTER_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE, NDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_PARAMETERS, PNDIS_RECEIVE_FILTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_PARAMETERS, netvista.ndis_receive_filter_parameters, ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_PARAMETERS, virtual_machine_queue_ref_abdd073b-8e49-4d6d-9bd6-1eca198dbd2d.xml"
 req.header: ntddndis.h
@@ -111,23 +111,12 @@ The driver sets the
 
 A bitwise OR of the following flags.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE"></a><a id="ndis_receive_filter_packet_encapsulation_gre"></a><dl>
-<dt><b>NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-If this flag is set on the receive filter, the network adapter  must match this MAC address in the inner Ethernet frame in GRE encapsulated packets.
+|Version|Value|Meaning|
+|--- |--- |--- |
+|NDIS 6.50 and later|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in encapsulated packets.|
+NDIS 6.20 through NDIS 6.40|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in GRE encapsulated packets.|
 
-</td>
-</tr>
-</table>
+
 
 ### -field FilterType
 
