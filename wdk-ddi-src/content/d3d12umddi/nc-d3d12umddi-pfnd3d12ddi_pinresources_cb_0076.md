@@ -44,7 +44,6 @@ dev_langs:
 
 # PFND3D12DDI_PINRESOURCES_CB_0076 callback function
 
-
 ## -description
 
 Marks the resource as not movable and not eligible to be paged out.
@@ -89,4 +88,3 @@ A resource that has been pinned can be unpinned by calling [**PFND3D12DDI_UNPINR
 [**D3D12DDICB_PIN_RESOURCES_0076**](ns-d3d12umddi-d3d12ddicb_pinresources_0076.md)
 
 [**PFND3D12DDI_UNPINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_unpinresources_cb_0076.md)
-

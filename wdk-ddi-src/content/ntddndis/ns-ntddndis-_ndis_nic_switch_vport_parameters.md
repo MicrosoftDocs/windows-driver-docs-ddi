@@ -61,9 +61,6 @@ The type, revision, and size of the <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> stru
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
 
-
-
-
 #### NDIS_NIC_SWITCH_VPORT_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -72,20 +69,13 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_PARAMETERS_REVISION_1
 
 ### -field Flags
 
- A ULONG value that contains a bitwise OR of flags. The following flags are defined for this member. 
-
-
-
-
+A ULONG value that contains a bitwise OR of flags. The following flags are defined for this member. 
 
 
 #### NDIS_NIC_SWITCH_VPORT_PARAMS_LOOKAHEAD_SPLIT_ENABLED
 
-
-	                                 
-	This flag is reserved for future use. 
+This flag is reserved for future use. 
 Miniport drivers must ignore this flag.
-
 
 
 #### NDIS_NIC_SWITCH_VPORT_PARAMS_FLAGS_CHANGED
@@ -200,28 +190,14 @@ For more information about the SR-IOV interface, see 	<a href="/windows-hardware
 
 ## -see-also
 
-<b></b>
-
-
-
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info">NDIS_NIC_SWITCH_INFO</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vf_info">NDIS_NIC_SWITCH_VF_INFO</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>
 
-
-
 <a href="/windows-hardware/drivers/network/oid-nic-switch-enum-switches">OID_NIC_SWITCH_ENUM_SWITCHES</a>
-
-
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>

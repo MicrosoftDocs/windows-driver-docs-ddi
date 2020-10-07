@@ -53,7 +53,7 @@ A pointer to a [**NET_PACKET**](ns-packet-_net_packet.md) structure.
 
 ### -param offset
 
-The offset, in bytes, to the desired [**NET_PACKET_EXTENSION**](../netadapterpacket/ns-netadapterpacket-_net_packet_extension.md) from the beginning of the packet's descriptor.
+The offset, in bytes, to the desired [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) from the beginning of the packet's descriptor.
 
 ## -returns
 

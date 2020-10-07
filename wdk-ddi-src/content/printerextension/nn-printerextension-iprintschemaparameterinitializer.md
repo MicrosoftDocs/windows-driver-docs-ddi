@@ -5,7 +5,7 @@ description: The IPrintSchemaParameterInitializer interface represents a paramet
 old-location: print\iprintschemaparameterinitializer.htm
 tech.root: print
 ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
-ms.date: 04/20/2018
+ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterInitializer interface"]
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
 req.header: printerextension.h
@@ -43,17 +43,16 @@ api_name:
 
 # IPrintSchemaParameterInitializer interface
 
-
 ## -description
 
-The <b>IPrintSchemaParameterInitializer</b> interface represents a parameter initialization value, as defined in the print schema specification.
+The **IPrintSchemaParameterInitializer** interface represents a parameter initialization value, as defined in the print schema specification.
 
-For more information about the four data types that you can use with the <psf:ParameterInit> element, see section 2.1.3.2 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
+For more information about the four data types that you can use with the **psf:ParameterInit** element, see section 2.1.3.2 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
+[IPrintSchemaElement](nn-printerextension-iprintschemaelement.md)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket2-getparameterinitializer">IPrintSchematicket2::GetParameterInitializer</a>
+[IPrintSchematicket2::GetParameterInitializer](nf-printerextension-iprintschematicket2-getparameterinitializer.md)
 
 [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)

@@ -1,14 +1,15 @@
 ---
 UID: NC:iddcx.PFN_IDDCXREPORTCRITICALERROR
 title: PFN_IDDCXREPORTCRITICALERROR (iddcx.h)
-description: An OS callback function the driver calls to report a critical error.
+description: PFN_IDDCXREPORTCRITICALERROR is a pointer to an OS callback function through which an indirect display driver reports a critical error.
+tech.root: display
 ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
-ms.date: 10/19/2018
+ms.date: 09/24/2020
 keywords: ["PFN_IDDCXREPORTCRITICALERROR callback function"]
 req.header: iddcx.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,67 +40,36 @@ product:
  - Windows
 ---
 
-# *PFN_IDDCXREPORTCRITICALERROR callback function
-
-An OS callback function the driver calls to report a critical error.
-
+# PFN_IDDCXREPORTCRITICALERROR callback function
 
 ## -description
 
-Implemented by the client driver to ...
+**PFN_IDDCXREPORTCRITICALERROR** is a pointer to an OS callback function through which an indirect display driver (IDD) reports a critical error.
 
 ## -parameters
 
-### -param DriverGlobals 
+### -param DriverGlobals
 
-[in]
-Contains system-defined per-driver data.
+[in] Pointer to an [**IDD_DRIVER_GLOBALS**](/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idd_driver_globals) structure containing system-defined per-driver data.
 
-### -param AdapterObject 
+### -param AdapterObject
 
-[in, opt]
-The adapter object that is the critical error occurred on. If the error occurred before a IddCxAdapter was created, pass in nullptr for this value.
+[in, opt] The adapter object of the adapter on which the critical error occurred. If the error occurred before an IDDCX_ADAPTER object was created, pass in ```nullptr``` for this value.
 
-### -param pInArgs 
+### -param pInArgs
 
-[in]
-Input arguments to the function.
+[in] Pointer to an [**IDARG_IN_REPORTCRITICALERROR**](ns-iddcx-idarg_in_reportcriticalerror.md) structure containing input arguments to the function.
 
 ## -returns
 
 If the routine succeeds, it never returns to the driver as the driver process will be terminated.
 
-## -prototype
-
-```cpp
-//Declaration
-
-*PFN_IDDCXREPORTCRITICALERROR *PfnIddcxreportcriticalerror;
-
-// Definition
-
-NTSTATUS *PfnIddcxreportcriticalerror
-(
-	PIDD_DRIVER_GLOBALS DriverGlobals
-	IDDCX_ADAPTER AdapterObject
-	CONST IDARG_IN_REPORTCRITICALERROR *pInArgs
-)
-{...}
-
-*PFN_IDDCXREPORTCRITICALERROR
-
-
-```
-
 ## -remarks
 
-The OS will bug check the driver with the following bug check code:
-
-```cpp
-(pInArgs->MajorErrorCode+0x100 << 8) + pInArgs->MinorErrorCode
-```
-
-A Watson dump will be generated and driver process will terminate and restart according the UMDF driver restart policy. As a user mode memory dump is generated the driver should place any useful debug info on the stack of the function that calls this callback.
+IDDs should not directly call the function that **PFN_IDDCXREPORTCRITICALERROR** points to. Instead, the IDD should call [**IddCxReportCriticalError**](nf-iddcx-iddcxreportcriticalerror.md) to report a critical error.
 
 ## -see-also
 
+[**IDARG_IN_REPORTCRITICALERROR**](ns-iddcx-idarg_in_reportcriticalerror.md)
+
+[**IddCxReportCriticalError**](nf-iddcx-iddcxreportcriticalerror.md)

@@ -82,7 +82,7 @@ This member is reserved and should be set to zero.
 
 ### -field pDirtyRects
 
-[in] A pointer to an array of dirty rectangles (<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
+[in] A pointer to an array of dirty rectangles (<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
 
 The driver can use this member to perform optimizations, though it's not required to use the dirty rectangle info. However, the driver should never fail a function call based on the provided dirty rectangles.
 
@@ -105,7 +105,7 @@ The number of physical back buffer per logical back buffer.
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -78,7 +78,7 @@ The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is
 
 ### -field SrcRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer (bitblt) and its position on the source surface.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer (bitblt) and its position on the source surface.
 
 ### -field DstRect
 
@@ -110,4 +110,4 @@ The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

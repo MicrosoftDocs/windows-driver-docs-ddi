@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._VIRTUAL_HW_INITIALIZATION_DATA
-title: _VIRTUAL_HW_INITIALIZATION_DATA (storport.h)
+title: VIRTUAL_HW_INITIALIZATION_DATA (storport.h)
 description: The VIRTUAL_HW_INITIALIZATION_DATA structure contains information particular to each virtual miniport driver.
 old-location: storage\virtual_hw_initialization_data.htm
 tech.root: storage
@@ -45,8 +45,7 @@ api_name:
  - VIRTUAL_HW_INITIALIZATION_DATA
 ---
 
-# _VIRTUAL_HW_INITIALIZATION_DATA structure
-
+# VIRTUAL_HW_INITIALIZATION_DATA structure
 
 ## -description
 
@@ -207,7 +206,7 @@ A pointer to the virtual miniport driver's [**HwStorCleanupTracing**](nc-storpor
 
 ## -remarks
 
-If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure instead of **VIRTUAL_HW_INITIALIZATION_DATA**.
+If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure instead of **VIRTUAL_HW_INITIALIZATION_DATA**.
 
 ## -see-also
 
@@ -230,4 +229,3 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 [**HwStorStartIo**](nc-storport-hw_startio.md)
 
 [**VirtualHwStorFindAdapter**](nc-storport-virtual_hw_find_adapter.md)
-

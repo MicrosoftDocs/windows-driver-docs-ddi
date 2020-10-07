@@ -37,7 +37,6 @@ dev_langs:
 
 # DXGK_DIAG_MONITOR_STATE enumeration
 
-
 ## -description
 
 **DXGK_DIAG_MONITOR_STATE** specifies the state of the monitors according to the miniport driver, indicating to the operating system (OS) whether the monitors are ready to receive the pixels.
@@ -67,15 +66,14 @@ The **DXGK_DIAG_MONITOR_STATE** enumeration is a member of the [**DXGK_DISPLAYST
 In many situations, the driver needs to initialize the monitor and set it up (typically by sending a command sequence) before it can start sending pixels to the monitor. Additionally, there might be some driver-initiated negotiation/handshaking done with the monitor before pixels can be sent. **DXGK_DIAG_MONITOR_STATE** specifies the final state of the monitors according to the miniport driver, indicating to the OS whether the monitors are ready to receive the pixels.
 
 > [!NOTE]
-> In some cases (like DisplayPort), **DXGK_DIAG_MONITOR_STATE** might overlap with [**DXGK_DIAG_DISPLAY_LINK_STATE**](ne-dispmprt-dxgk_diag_display_link_state). The purpose of this enumeration is to get the overall current status of the monitor irrespective of the bus/link state.
+> In some cases (like DisplayPort), **DXGK_DIAG_MONITOR_STATE** might overlap with [**DXGK_DIAG_DISPLAY_LINK_STATE**](ne-dispmprt-dxgk_diag_display_link_state.md). The purpose of this enumeration is to get the overall current status of the monitor irrespective of the bus/link state.
 
 ## -see-also
 
-[**DXGK_DIAG_DISPLAY_LINK_STATE**](ne-dispmprt-dxgk_diag_display_link_state)
+[**DXGK_DIAG_DISPLAY_LINK_STATE**](ne-dispmprt-dxgk_diag_display_link_state.md)
 
 [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md)
 
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
-

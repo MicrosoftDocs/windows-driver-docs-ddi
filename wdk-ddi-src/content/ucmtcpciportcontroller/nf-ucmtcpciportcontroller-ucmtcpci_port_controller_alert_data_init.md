@@ -46,10 +46,10 @@ api_name:
 
 ## -description
 
-                        Initializes the <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
-                
-            
-        Call this function before calling <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a>.
+Initializes the <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
+
+
+Call this function before calling <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a>.
 
 ## -parameters
 

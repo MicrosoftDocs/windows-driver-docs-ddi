@@ -4,7 +4,7 @@ title: DXGK_DIAG_SCANOUT_BUFFER_CONTENT
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: The DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT structure provides information about the current buffer being scanned out during diagnostic data collection.
+description: The DXGK_DIAG_SCANOUT_BUFFER_CONTENT structure provides information about the current buffer being scanned out during diagnostic data collection.
 tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
@@ -39,18 +39,17 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT structure
-
+# DXGK_DIAG_SCANOUT_BUFFER_CONTENT structure
 
 ## -description
 
-The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT** structure provides information about the current buffer being scanned out during diagnostic data collection.
+The **DXGK_DIAG_SCANOUT_BUFFER_CONTENT** structure provides information about the current buffer being scanned out during diagnostic data collection.
 
 ## -struct-fields
 
 ### -field ScanoutBufferCrc
 
-[out] A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC**](ns-dispmprt-dxgk_diag_display_scanout_buffer_crc.md) value.
+[out] A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC**](ne-dispmprt-dxgk_diag_display_scanout_buffer_crc.md) value.
 
 ### -field ScanoutBufferHistogram
 
@@ -58,7 +57,7 @@ The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT** structure provides information 
 
 ## -remarks
 
-The **DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT** structure is a member of the [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
+The **DXGK_DIAG_SCANOUT_BUFFER_CONTENT** structure is a member of the [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
 
 Drivers should use either **ScanoutBufferCrc** or **ScanoutBufferHistogram**, or both **ScanoutBufferCrc** and **ScanoutBufferHistogram**, to report to the operating system about the content of the current buffer being scanned out.
 

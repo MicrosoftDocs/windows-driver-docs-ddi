@@ -62,7 +62,7 @@ The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bi
 
 ### -field SrcRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the source rectangle.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the source rectangle.
 
 ### -field hDstResource
 
@@ -74,7 +74,7 @@ The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bi
 
 ### -field DstRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle.
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the destination rectangle.
 
 ### -field ColorKey
 
@@ -100,4 +100,4 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

@@ -53,7 +53,7 @@ A [**D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032**](ns-d3d12umddi-d3d12ddi_vi
 
 ### -field pInputStreams
 
-Pointer to a [**D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043**](ns-d3d12umddi-d3d12ddi_video_process_input_stream_desc_0043.md) structure for the input stream.
+Pointer to a [**D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043**](ns-d3d12umddi-d3d12ddi_video_processor_input_stream_desc_0043.md) structure for the input stream.
 
 ### -field NumInputStreams
 
@@ -68,4 +68,3 @@ Handle to the protected resource session acquired at object creation time.
 ## -see-also
 
 [**PFND3D12DDI_CREATEVIDEOPROCESSOR_0072**](nc-d3d12umddi-pfnd3d12ddi_createvideoprocessor_0072.md)
-

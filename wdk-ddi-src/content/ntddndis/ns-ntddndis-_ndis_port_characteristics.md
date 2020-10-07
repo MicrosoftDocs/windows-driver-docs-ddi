@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see <a href="/windows-hardware/drivers/network/ndis-ports">NDIS Ports</a>.
+The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see <a href="/windows-hardware/drivers/network/overview-of-ndis-ports">NDIS Ports</a>.
 
 ## -struct-fields
 
@@ -293,7 +293,7 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/network/ndis-ports">NDIS Ports</a>
+<a href="/windows-hardware/drivers/network/overview-of-ndis-ports">NDIS Ports</a>
 
 
 

@@ -68,8 +68,6 @@ Reserved. Client drivers must not read or write to this value.
 Client drivers typically store packet extensions in the context space for each queue during queue creation, reducing calls out of the driver. Later, to retrieve packet extension information for a particular packet, the driver calls one of the wrapper functions around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 
 - For checksum offload information, the client driver calls [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md).
-- For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md).
-- For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md).
 
 For examples of creating packet queues, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
@@ -78,7 +76,3 @@ For examples of creating packet queues, see [Transmit and receive queues](/windo
 [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
 [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md)
-
-[**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md)
-
-[**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md)

@@ -86,7 +86,7 @@ The number of dirty rectangles that are pointed to by the <b>pDirtyRect</b> memb
 
 ### -field pDirtyRect
 
-A pointer to a list of <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> dirty rectangles.
+A pointer to a list of <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> dirty rectangles.
 
 ### -field pfnPresentDisplayOnlyProgress
 
@@ -110,4 +110,4 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

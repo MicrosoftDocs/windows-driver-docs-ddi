@@ -44,96 +44,79 @@ api_name:
 
 # FltCreateFileEx2 function
 
-
 ## -description
 
 Minifilter drivers call **FltCreateFileEx2** to create a new file or open an existing file.  This routine includes an optional create context parameter.
 
 ## -parameters
 
-### -param Filter 
+### -param Filter
 
-[in]
-An opaque filter pointer for the caller.
+[in] An opaque filter pointer for the caller.
 
-### -param Instance 
+### -param Instance
 
-[in, optional]
-An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If this parameter is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
+[in, optional] An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If this parameter is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
 
-### -param FileHandle 
+### -param FileHandle
 
-[out]
-A pointer to a caller-allocated variable that receives the file handle if the call to **FltCreateFileEx2** is successful.
+[out] A pointer to a caller-allocated variable that receives the file handle if the call to **FltCreateFileEx2** is successful.
 
-### -param FileObject 
+### -param FileObject
 
-[out, optional]
-A pointer to a caller-allocated variable that receives the file object pointer if the call to **FltCreateFileEx2** is successful. This parameter is optional and can be **NULL**.
+[out, optional] A pointer to a caller-allocated variable that receives the file object pointer if the call to **FltCreateFileEx2** is successful. This parameter is optional and can be **NULL**.
 
-### -param DesiredAccess 
+### -param DesiredAccess
 
-[in]
-A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#desiredaccess) for more information about this parameter and for the list of flag values.
+[in] A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter and for the list of flag values.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes
 
-[in]
-Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#objectattributes) for more information and for a description of each structure member.
+[in] Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information and for a description of each structure member.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock
 
-[out]
-Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#iostatusblock) for more information about this parameter.
+[out] Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter.
 
-### -param AllocationSize 
+### -param AllocationSize
 
-[in, optional]
-Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
+[in, optional] Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes 
+### -param FileAttributes
 
-[in]
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. See the *FileAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#fileattributes) for more details and for the list of flags.
+[in] Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. See the *FileAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
-### -param ShareAccess 
+### -param ShareAccess
 
-[in]
-Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#shareaccess) for more details and for the list of flags.
+[in] Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
-### -param CreateDisposition 
+### -param CreateDisposition
 
-[in]
-Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#disposition) for the list of possible values.
+[in] Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible values.
 
-### -param CreateOptions 
+### -param CreateOptions
 
-[in]
-Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#createoptions).
+[in] Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
-### -param EaBuffer 
+### -param EaBuffer
 
-[in, optional]
-A pointer to a caller-supplied [**FILE_FULL_EA_INFORMATION**](../wdm/ns-wdm-_file_full_ea_information.md) buffer that contains extended attribute (EA) information to be applied to the file.
+[in, optional] A pointer to a caller-supplied [**FILE_FULL_EA_INFORMATION**](../wdm/ns-wdm-_file_full_ea_information.md) buffer that contains extended attribute (EA) information to be applied to the file.
 
-### -param EaLength 
+### -param EaLength
 
-[in]
-Length, in bytes, of *EaBuffer*.
+[in] Length, in bytes, of *EaBuffer*.
 
-### -param Flags 
+### -param Flags
 
-[in]
-Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#options) for the list of possible options.
+[in] Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible options.
 
-### -param DriverContext 
+### -param DriverContext
 
-[in, optional]
-Optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](../ntddk/ns-ntddk-_io_driver_create_context.md) structure already initialized by [**IoInitializeDriverCreateContext**](../ntddk/nf-ntddk-ioinitializedrivercreatecontext.md).
+[in, optional] Optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](../ntddk/ns-ntddk-_io_driver_create_context.md) structure already initialized by [**IoInitializeDriverCreateContext**](../ntddk/nf-ntddk-ioinitializedrivercreatecontext.md).
 
 ## -returns
 
-**FltCreateFileEx2** returns STATUS_SUCCESS or an appropriate NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#returns) for a list of possible return codes.
+**FltCreateFileEx2** returns STATUS_SUCCESS or an appropriate NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for a list of possible return codes.
 
 > [!NOTE]
 > **FltCreateFileEx2** might return STATUS_FILE_LOCK_CONFLICT as the return value or in the **Status** member of the IO_STATUS_BLOCK structure that is pointed to by the IoStatusBlock parameter. This would occur only if the NTFS log file is full, and an error occurs while **FltCreateFileEx2** tries to handle this situation.

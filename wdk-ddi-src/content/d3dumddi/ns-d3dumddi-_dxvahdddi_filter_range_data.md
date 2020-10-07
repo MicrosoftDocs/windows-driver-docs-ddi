@@ -45,42 +45,33 @@ api_name:
 
 # _DXVAHDDDI_FILTER_RANGE_DATA structure
 
-
 ## -description
 
-The <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure describes a filter range.
+The **DXVAHDDDI_FILTER_RANGE_DATA** structure describes a filter range.
 
 ## -struct-fields
 
 ### -field Minimum
 
-      [in] An <b>INT</b> that specifies the minimum value in the filter range.
+[in] An **INT** that specifies the minimum value in the filter range.
 
 ### -field Maximum
 
-[in] An <b>INT</b> that specifies the maximum value in the filter range.
+[in] An **INT** that specifies the maximum value in the filter range.
 
 ### -field Default
 
-[in] An <b>INT</b> that specifies the default value for the filter range.
+[in] An **INT** that specifies the default value for the filter range.
 
 ### -field Multiplier
 
-[in] A <b>FLOAT</b> value that specifies a multiplier to calculate the actual filter value.
+[in] A **FLOAT** value that specifies a multiplier to calculate the actual filter value.
 
 ## -remarks
 
-A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure set to the following values, which are normalized by an implicit step size of 1:
+A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the **DXVAHDDDI_FILTER_RANGE_DATA** structure set to the following values, which are normalized by an implicit step size of 1:
 
-
-     Minimum = –720
-
-
-     Maximum = 720
-
-
-     Default = 0
-
-
-     Multiplier = 0.25
-
+* **Minimum** = –720
+* **Maximum** = 720
+* **Default** = 0
+* **Multiplier** = 0.25

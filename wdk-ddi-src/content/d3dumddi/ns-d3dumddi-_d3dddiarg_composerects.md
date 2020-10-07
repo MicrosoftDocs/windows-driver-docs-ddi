@@ -122,4 +122,4 @@ SHORT X, Y;            // Position in bits in the destination surface
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

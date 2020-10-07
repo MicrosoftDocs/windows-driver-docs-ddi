@@ -47,10 +47,9 @@ api_name:
 
 # _FLT_IO_PARAMETER_BLOCK structure
 
-
 ## -description
 
-The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data)) structure.
+The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure.
 
 ## -struct-fields
 
@@ -96,7 +95,7 @@ A bitmask of flags that specify various aspects of the I/O operation. These flag
 | SL_EXCLUSIVE_LOCK    | Used for [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, an exclusive byte-range lock is requested. Otherwise, a shared lock is requested. |
 | SL_FAIL_IMMEDIATELY  | Used for [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, the lock request should fail if it cannot be granted immediately. |
 | SL_FORCE_ACCESS_CHECK  | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, access checks must be performed even if the value of the IRP's **RequestorMode** member is **KernelMode**. |
-| SL_FORCE_DIRECT_WRITE  | Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA. If this flag is set, kernel-mode drivers can write to volume areas that they are normally blocked from writing to due to security reasons. This flag is checked both at the file system layer and storage stack layer. For more information about this flag, see [Blocking Direct Write Operations to Volumes and Disks](../index.yml). The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows. |
+| SL_FORCE_DIRECT_WRITE  | Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA. If this flag is set, kernel-mode drivers can write to volume areas that they are normally blocked from writing to due to security reasons. This flag is checked both at the file system layer and storage stack layer. The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows. |
 | SL_INDEX_SPECIFIED    | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should begin at the entry in the list whose index is specified. |
 | SL_OPEN_PAGING_FILE    | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file is a paging file. |
 | SL_OPEN_TARGET_DIRECTORY | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file's parent directory should be opened. |
@@ -120,7 +119,7 @@ An opaque instance pointer for the minifilter that is the target for this I/O op
 
 ### -field Parameters
 
-An [**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters) structure that contains the parameters for the I/O operation that are specified by the **MajorFunction** and **MinorFunction** members.
+An [**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md) structure that contains the parameters for the I/O operation that are specified by the **MajorFunction** and **MinorFunction** members.
 
 ## -remarks
 

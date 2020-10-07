@@ -74,6 +74,4 @@ This enumeration is used in the [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_
 
 [MB Network Blacklist Operations](/windows-hardware/drivers/network/mb-network-blacklist-operations)
 
-[OID_WWAN_NETWORK_BLACKLIST](/windows-hardware/drivers/network/oid-wwan-network-blacklist.md)
-
 [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_network_blacklist_info.md)

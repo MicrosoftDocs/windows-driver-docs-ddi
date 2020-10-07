@@ -66,7 +66,7 @@ The number of subresources to be discarded.
 
 ### -field pRects
 
-An array of <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_discard">Discard</a> function discards the entire surface.
+An array of <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_discard">Discard</a> function discards the entire surface.
 
 ### -field NumRects
 
@@ -78,4 +78,4 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

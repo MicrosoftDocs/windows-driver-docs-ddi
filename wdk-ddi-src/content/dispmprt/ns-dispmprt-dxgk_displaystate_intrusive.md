@@ -41,7 +41,6 @@ dev_langs:
 
 # DXGK_DISPLAYSTATE_INTRUSIVE structure
 
-
 ## -description
 
 The **DXGK_DISPLAYSTATE_INTRUSIVE** structure holds display state during diagnostic data collection.
@@ -62,11 +61,11 @@ A [**DXGK_DIAG_DISPLAY_SCANOUT_STATE**](ne-dispmprt-dxgk_diag_display_scanout_st
 
 ### -field DisplaySampledGamma
 
-A [**DXGK_DIAG_DISPLAY_SAMPLED_GAMMA**](ne-dispmprt-dxgk_diag_display_sampled_gamma.md) value.
+A [**DXGK_DIAG_DISPLAY_SAMPLED_GAMMA**](ns-dispmprt-dxgk_diag_display_sampled_gamma.md) structure.
 
 ### -field DisplayBufferContent
 
-A [**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ne-dispmprt-dxgk_diag_scanout_buffer_content.md) value.
+A [**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_scanout_buffer_content.md) value.
 
 ### -field DisplayErrorState
 
@@ -82,7 +81,7 @@ A [**DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS**](ne-dispmprt-dxgk_diag_getdispl
 
 ## -remarks
 
-A pointer to an array of pointers to **DXGK_DISPLAYSTATE_INTRUSIVE** structures is contained in the [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarggetdisplaystatenonintrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
+A pointer to an array of pointers to **DXGK_DISPLAYSTATE_INTRUSIVE** structures is contained in the [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md) structure, which is passed in calls to [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) during diagnostic data collection.
 
 ## -see-also
 
@@ -90,7 +89,7 @@ A pointer to an array of pointers to **DXGK_DISPLAYSTATE_INTRUSIVE** structures 
 
 [**DXGK_DIAG_DISPLAY_HARDWARE_ERROR_STATE**](ne-dispmprt-dxgk_diag_display_hardware_error_state.md)
 
-[**DXGK_DIAG_DISPLAY_SAMPLED_GAMMA**](ne-dispmprt-dxgk_diag_display_sampled_gamma.md)
+[**DXGK_DIAG_DISPLAY_SAMPLED_GAMMA**](ns-dispmprt-dxgk_diag_display_sampled_gamma.md)
 
 [**DXGK_DIAG_DISPLAY_SCANOUT_STATE**](ne-dispmprt-dxgk_diag_display_scanout_state.md)
 
@@ -98,9 +97,8 @@ A pointer to an array of pointers to **DXGK_DISPLAYSTATE_INTRUSIVE** structures 
 
 [**DXGK_DIAG_MONITOR_STATE**](ne-dispmprt-dxgk_diag_monitor_state.md)
 
-[**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ne-dispmprt-dxgk_diag_scanout_buffer_content.md)
+[**DXGK_DIAG_SCANOUT_BUFFER_CONTENT**](ns-dispmprt-dxgk_diag_scanout_buffer_content.md)
 
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
-
