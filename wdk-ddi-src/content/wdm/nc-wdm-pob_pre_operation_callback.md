@@ -47,6 +47,7 @@ api_name:
 ## -description
 
 The <i>ObjectPreCallback</i> routine is called by the operating system when a process or thread handle operation occurs.
+<div class="alert"><b>Warning</b> The actions that you can perform in this callback are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a></div>
 
 ## -parameters
 
