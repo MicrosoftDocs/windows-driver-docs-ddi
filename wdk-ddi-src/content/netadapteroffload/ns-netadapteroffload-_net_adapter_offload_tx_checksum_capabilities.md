@@ -63,7 +63,7 @@ The flags should be a combination of:
 
 ### -field Layer4Flags
 
-Flags specifying the layer 4 protocol variations that the NIC can successfully perform Tx checksum on.
+Flags specifying the layer 4 protocol variations that the NIC can successfully perform Tx checksum on. This member is optional.
 
 The flags should be a combination of:
 
