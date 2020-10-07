@@ -17,5 +17,3 @@ ms.topic: portal
 Overview of the Smartcard technology.
 
 The Smartcard technology is not associated with any headers.
-
-
