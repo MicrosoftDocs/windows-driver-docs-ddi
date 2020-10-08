@@ -57,7 +57,7 @@ The client driver implements the *EvtNetAdapterOffloadSetTxChecksum* callback fu
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetxchecksumcapabilities.md).
+Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md).
 
 For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
 
