@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetLsoCapabilities
 title: NetAdapterOffloadSetLsoCapabilities function (netadapteroffload.h)
-description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware large send offload (LSO) offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetLsoChecksumCapabilities function sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
 ms.date: 01/17/2019
@@ -62,7 +62,7 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
 

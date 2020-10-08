@@ -45,24 +45,6 @@ ms.custom: Fe
 
 The client driver implements the *EvtNetAdapterOffloadSetRxChecksum* callback function to query changes in active Rx checksum offload capabilities and update the hardware accordingly.
 
-## -prototype
-
-```C++
-//Declaration
-
-EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM EvtNetAdapterOffloadSetRxChecksum;
-
-// Definition
-
-VOID EvtNetAdapterOffloadSetRxChecksum
-(
-	NETADAPTER Adapter,
-	NETOFFLOAD Offload
-)
-{...}
-
-```
-
 ## -parameters
 
 ### -param Adapter
@@ -75,9 +57,9 @@ VOID EvtNetAdapterOffloadSetRxChecksum
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettchecksumcapabilities.md).
+Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
+For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
 
 ## -see-also
 
