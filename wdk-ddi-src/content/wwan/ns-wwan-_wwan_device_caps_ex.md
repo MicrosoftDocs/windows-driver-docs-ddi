@@ -1053,7 +1053,7 @@ WWAN_OPTIONAL_SERVICE_CAPS_NETWORK_BLACKLIST
 
 </td>
 <td>
-The device and driver support network blacklist configuration from the OS and the following MBIM CID:
+The device and driver support configuration of network blocked senders list from the OS and the following MBIM CID:
 
 <ul>
 <li>MBIM_CID_MS_NETWORK_BLACKLIST</li>
