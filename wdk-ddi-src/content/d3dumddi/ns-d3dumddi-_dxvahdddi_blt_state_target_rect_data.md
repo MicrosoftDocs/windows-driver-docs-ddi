@@ -58,7 +58,7 @@ The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies
 
 ### -field TargetRect
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the target rectangle in the coordinates of the output surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
+[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the target rectangle in the coordinates of the output surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
 
 ## -remarks
 
@@ -66,4 +66,4 @@ If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that 
 
 ## -see-also
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

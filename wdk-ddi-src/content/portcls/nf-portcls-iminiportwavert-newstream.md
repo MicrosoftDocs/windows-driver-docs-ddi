@@ -81,7 +81,7 @@ Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDAT
 
 ## -remarks
 
-The <code>NewStream</code> method sets the initial state of the stream to <a href="/windows-hardware/drivers/stream/state-transitions">KSSTATE_STOP</a> and its initial position to 0. For more information, see related methods <a href="/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a> and <a href="/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>.
+The <code>NewStream</code> method sets the initial state of the stream to <a href="/windows-hardware/drivers/stream/state-transitions">KSSTATE_STOP</a> and its initial position to 0. For more information, see related methods <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-setstate">IMiniportWaveRTStream::SetState</a> and <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-getposition">IMiniportWaveRTStream::GetPosition</a>.
 
 The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the KSDATAFORMAT structure:
 
@@ -115,7 +115,7 @@ IMiniportWaveRTStream
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a>
+<a href="//windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-setstate">IMiniportWaveRTStream::SetState</a>
 
 
 

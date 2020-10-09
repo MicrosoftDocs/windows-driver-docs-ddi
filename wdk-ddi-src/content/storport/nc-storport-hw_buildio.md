@@ -43,7 +43,6 @@ api_name:
 
 # HW_BUILDIO callback function
 
-
 ## -description
 
 The **HwStorBuildIo** routine processes the SRB with unsynchronized access to shared system data structures before passing it to [**HwStorStartIo**](nc-storport-hw_startio.md).
@@ -64,7 +63,7 @@ A pointer to the SCSI request block (SRB) to be processed.
 
 ## -remarks
 
-The name **HwStorBuildIo** is just a placeholder for the miniport function that is pointed to by the **HwBuildIo** member in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure. The actual prototype of this routine is defined in *Storport.h* as follows:
+The name **HwStorBuildIo** is just a placeholder for the miniport function that is pointed to by the **HwBuildIo** member in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure. The actual prototype of this routine is defined in *Storport.h* as follows:
 
 ```cpp
 typedef

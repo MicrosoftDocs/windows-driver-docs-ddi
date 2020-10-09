@@ -59,7 +59,7 @@ Pointer to an [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md) structure
 
 ### -field ObjectAttributes
 
-Pointer to a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes) structure containing object attributes used to initialize the WDF adapter object.
+Pointer to a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure containing object attributes used to initialize the WDF adapter object.
 
 ## -remarks
 
@@ -73,4 +73,4 @@ For more information about WDF objects, see [Introduction to Framework Objects](
 
 [**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md)
 
-[**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes)
+[**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)

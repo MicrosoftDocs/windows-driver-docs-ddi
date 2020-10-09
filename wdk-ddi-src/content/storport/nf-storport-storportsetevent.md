@@ -43,7 +43,6 @@ product:
 
 # StorPortSetEvent function
 
-
 ## -description
 
 A miniport can call **StorPortSetEvent** to set an event object to the signaled state.
@@ -79,4 +78,4 @@ See [**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
-[**StorPortInitializeEvent**](ns-storport-storport_initialize_event.md)
+[**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)

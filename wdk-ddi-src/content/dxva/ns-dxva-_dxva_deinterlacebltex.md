@@ -62,7 +62,7 @@ Specifies a <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_ayuvsample
 
 ### -field rcTarget
 
-Specifies a pointer to a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the location within the destination surface to which the output image is written. Note that the output image is restricted to the pixels within the <b>rcTarget</b> rectangle--that is, every pixel within this rectangle must be written to; pixels outside this rectangle must not be modified.
+Specifies a pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the location within the destination surface to which the output image is written. Note that the output image is restricted to the pixels within the <b>rcTarget</b> rectangle--that is, every pixel within this rectangle must be written to; pixels outside this rectangle must not be modified.
 
 ### -field rtTarget
 

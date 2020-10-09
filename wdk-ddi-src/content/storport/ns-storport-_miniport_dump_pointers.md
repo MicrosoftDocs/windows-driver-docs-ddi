@@ -47,7 +47,6 @@ api_name:
 
 # _MINIPORT_DUMP_POINTERS structure
 
-
 ## -description
 
 A Storport miniport driver uses this structure to support the [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md) (SRB) function code SRB_FUNCTION_DUMP_POINTERS. When a miniport driver receives this kind of SRB, the **DataBuffer** SRB member points to a **MINIPORT_DUMP_POINTERS** structure. This SRB is sent to the miniport driver that is used to control the disk that holds the crash dump data after the SRB was returned from the miniport driver's [**HwStorInitialize**](nc-storport-hw_initialize.md) routine. Virtual miniport drivers are required to support SRB_FUNCTION_DUMP_POINTERS.
@@ -120,7 +119,7 @@ Indicates, when **TRUE**, that the HBA is a bus master. The Storport driver init
 
 ### -field MapBuffers
 
-Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the **MapBuffers** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md).
+Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the **MapBuffers** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md).
 
 ### -field MaximumNumberOfTargets
 
@@ -132,15 +131,14 @@ A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initial
 
 ## -remarks
 
-Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
+Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
 
 ## -see-also
 
-[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
 [**HwStorInitialize**](nc-storport-hw_initialize.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
-

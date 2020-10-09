@@ -47,7 +47,6 @@ api_name:
 
 # _SCSI_REQUEST_BLOCK structure (storport.h)
 
-
 ## -description
 
 > [!NOTE]
@@ -79,12 +78,12 @@ Specifies the operation to be performed, which can be one of the following value
 | SRB_FUNCTION_IO_CONTROL (0x02) | The request is an I/O control request, originating in a user-mode application with a dedicated HBA. The SRB **DataBuffer** points to an SRB_IO_CONTROL header followed by the data area. The value in **DataBuffer** can be used by the driver, regardless of the value of **MapBuffers**. Only the SRB **Function**, **SrbFlags**, **TimeOutValue**, **DataBuffer**, and **DataTransferLength** members are valid, along with the **SrbExtension** member if the miniport driver requested SRB extensions when it initialized. If a miniport driver controls an application-dedicated HBA so it supports this request, the miniport driver should execute the request and notify the OS-specific port driver when the SRB has completed, using the normal mechanism of calls to [**ScsiPortNotification**](../srb/nf-srb-scsiportnotification.md) with **RequestComplete** and **NextRequest**. |
 | SRB_FUNCTION_LOCK_QUEUE (0x18) | Holds requests queued by the port driver for a particular logical unit, typically while a power request is being processed. Only the SRB **Length**, **Function**, **SrbFlags**, and **OriginalRequest** members are valid. When the queue is locked, only requests with **SrbFlags** ORed with SRB_FLAGS_BYPASS_LOCKED_QUEUE will be processed. SCSI miniport drivers do not process SRB_FUNCTION_LOCK_QUEUE requests. |
 | SRB_FUNCTION_UNLOCK_QUEUE (0x19) | Releases the port driver's queue for a logical unit that was previously locked with SRB_FUNCTION_LOCK_QUEUE. The **SrbFlags** of the unlock request must be ORed with SRB_FLAGS_BYPASS_LOCKED_QUEUE. Only the SRB **Length**, **Function**, **SrbFlags**, and **OriginalRequest** members are valid. SCSI miniport drivers do not process SRB_FUNCTION_UNLOCK_QUEUE requests. |
-| SRB_FUNCTION_DUMP_POINTERS (0x26) | A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the **MINIPORT_DUMP_POINTERS** structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of its [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) to receive a request with this function. |
+| SRB_FUNCTION_DUMP_POINTERS (0x26) | A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the **MINIPORT_DUMP_POINTERS** structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of its [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) to receive a request with this function. |
 | SRB_FUNCTION_FREE_DUMP_POINTERS (0x27) | A request with this function is sent to a Storport miniport driver to release any resources allocated during a previous request for SRB_FUNCTION_DUMP_POINTERS. |
 
 ### -field SrbStatus
 
-Returns the status of the completed request. This member should be set by the miniport driver before it notifies the OS-specific driver that the request has completed by calling [**ScsiPortNotification**](../srb/nf-srb-scsiportnotification) with **RequestComplete**. The value of this member can be one of the following:
+Returns the status of the completed request. This member should be set by the miniport driver before it notifies the OS-specific driver that the request has completed by calling [**ScsiPortNotification**](../srb/nf-srb-scsiportnotification.md) with **RequestComplete**. The value of this member can be one of the following:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -159,7 +158,7 @@ Indicates various parameters and options about the request. **SrbFlags** is read
 | SRB_FLAGS_DISABLE_AUTOSENSE | Indicates that request-sense information should not be returned. |
 | SRB_FLAGS_DATA_IN | Indicates data will be transferred from the device to the system. |
 | SRB_FLAGS_DATA_OUT | Indicates data will be transferred from the system to the device. |
-| SRB_FLAGS_UNSPECIFIED_DIRECTION | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. If its HBA is a subordinate DMA device, such a miniport driver must update SRB_FLAGS_DATA_OUT or SRB_FLAGS_DATA_IN to the correct value before it calls [**ScsiPortIoMapTransfer**](..srb/nf-srb-scsiportiomaptransfer.md). |
+| SRB_FLAGS_UNSPECIFIED_DIRECTION | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. If its HBA is a subordinate DMA device, such a miniport driver must update SRB_FLAGS_DATA_OUT or SRB_FLAGS_DATA_IN to the correct value before it calls [**ScsiPortIoMapTransfer**](../srb/nf-srb-scsiportiomaptransfer.md). |
 | SRB_FLAGS_NO_DATA_TRANSFER | Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear. |
 | SRB_FLAGS_DISABLE_SYNCH_TRANSFER | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
 | SRB_FLAGS_DISABLE_DISCONNECT | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |

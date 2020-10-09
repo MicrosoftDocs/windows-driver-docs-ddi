@@ -64,7 +64,7 @@ If a frame rate conversion is requested, the time in <b>TargetFrame</b> can be d
 
 ### -field TargetRect
 
-[in] A pointer to a <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the location within the destination surface to which the output image is written. Note that the output image is restricted to the pixels within the rectangle that is pointed to by <b>TargetRect</b>. That is, every pixel within this rectangle must be written to; pixels outside this rectangle must not be modified.
+[in] A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the location within the destination surface to which the output image is written. Note that the output image is restricted to the pixels within the rectangle that is pointed to by <b>TargetRect</b>. That is, every pixel within this rectangle must be written to; pixels outside this rectangle must not be modified.
 
 ### -field ConstrictionSize
 
@@ -146,7 +146,7 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
 
 
 

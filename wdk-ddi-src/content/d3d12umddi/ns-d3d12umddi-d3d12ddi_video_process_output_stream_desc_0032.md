@@ -70,8 +70,8 @@ The zero-based index of an input stream. This parameter is used if AlphaFillMode
 
 The video processor uses the background color to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected. The meaning of the values is specified by the ColorSpace parameter.
 
-| | YCbCrA | RGBA |
-| -- | -- | -- |
+| Value | YCbCrA | RGBA |
+| ----- | ------ | ---- |
 | BackgroundColor[0] | Y | R |
 | BackgroundColor[1] | Cb | G |
 | BackgroundColor[2] | Cr | B |

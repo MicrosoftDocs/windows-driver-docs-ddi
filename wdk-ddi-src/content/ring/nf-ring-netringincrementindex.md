@@ -67,7 +67,7 @@ This routine is a convenient equivalent to calling [**NetRingAdvanceIndex**](../
 
 ## -see-also
 
-[**NET_RING**](../ring/ns-netring-_net_ring.md)
+[**NET_RING**](../ring/ns-ring-_net_ring.md)
 
 [**NetRingAdvanceIndex**](../ring/nf-ring-netringadvanceindex.md)
 

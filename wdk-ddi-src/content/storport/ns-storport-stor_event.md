@@ -42,7 +42,6 @@ product:
 
 # STOR_EVENT structure
 
-
 ## -description
 
 The **STOR_EVENT** structure describes an event object.
@@ -51,7 +50,7 @@ The **STOR_EVENT** structure describes an event object.
 
 ### -field Header
 
-An opaque [**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_event.md) structure that describes an event object.
+An opaque [**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_header.md) structure that describes an event object.
 
 ## -remarks
 
@@ -62,7 +61,7 @@ Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 [STOR_EVENT](ns-storport-stor_event.md)
 
-[**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_event.md)
+[**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_header.md)
 
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 

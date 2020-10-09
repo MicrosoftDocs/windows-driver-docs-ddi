@@ -5,7 +5,7 @@ description: The RangeMax property gets the maximum value of the allowed data ra
 old-location: print\_iprintschemaparameterdefinition_rangemax.htm
 tech.root: print
 ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
-ms.date: 04/20/2018
+ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterDefinition::get_RangeMax"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition.get_RangeMax, IPrintSchemaParameterDefinition::RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax
 req.header: printerextension.h
@@ -44,10 +44,9 @@ api_name:
 
 # IPrintSchemaParameterDefinition::get_RangeMax
 
-
 ## -description
 
-The <b>RangeMax</b> property gets the maximum value of the allowed data range.
+The **RangeMax** property gets the maximum value of the allowed data range.
 
 This property is read-only.
 
@@ -55,10 +54,10 @@ This property is read-only.
 
 ## -remarks
 
-For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by <b>RangeMax</b> maps to the <psf:MaxValue> property value of the Print Schema parameter definition. This maximum value shows the maximum integer value that the driver supports.
+For the **PrintSchemaParameterDataType_Integer** data type, the value returned by **RangeMax** maps to the **psf:MaxValue** property value of the Print Schema parameter definition. This maximum value shows the maximum integer value that the driver supports.
 
-For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the <psf:MaxLength> property value of the Print Schema parameter definition. This maximum value  shows the maximum length of string that the driver supports.
+For the **PrintSchemaParameterDataType_NumericString** and **PrintSchemaParameterDataType_String**  data types, this maps to the **psf:MaxLength** property value of the Print Schema parameter definition. This maximum value  shows the maximum length of string that the driver supports.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+[IPrintSchemaParameterDefinition](nn-printerextension-iprintschemaparameterdefinition.md)

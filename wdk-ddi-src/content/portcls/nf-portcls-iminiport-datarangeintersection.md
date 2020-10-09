@@ -77,11 +77,11 @@ Output pointer for the resultant-format length. This parameter points to a calle
 
 This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. If the OutputBufferLength parameter was specified as zero, the method returns STATUS_BUFFER_OVERFLOW. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
 
-Return code | Description
-------------|------------- 
-STATUS_NO_MATCH | There is no intersection.
-STATUS_NOT_IMPLEMENTED | Defers data-intersection handling to the port driver's default data-intersection handler.
-STATUS_BUFFER_TOO_SMALL | The buffer length specified in OutputBufferLength was nonzero but was too small to hold the resultant format.
+| Return code | Description |
+|-------------|-------------|
+| STATUS_NO_MATCH | There is no intersection. |
+| STATUS_NOT_IMPLEMENTED | Defers data-intersection handling to the port driver's default data-intersection handler. |
+| STATUS_BUFFER_TOO_SMALL | The buffer length specified in OutputBufferLength was nonzero but was too small to hold the resultant format. |
 
 ## -remarks
 

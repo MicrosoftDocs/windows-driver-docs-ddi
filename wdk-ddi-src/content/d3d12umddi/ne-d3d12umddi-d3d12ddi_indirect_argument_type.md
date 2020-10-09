@@ -40,7 +40,6 @@ dev_langs:
 
 # D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration
 
-
 ## -description
 
 Specifies the type of the indirect parameter for indirect dispatch.
@@ -97,11 +96,10 @@ Indicates the type is a DispatchMesh call. Available starting with Windows 10, v
 
 ## -remarks
 
-**D3D12DDI_INDIRECT_ARGUMENT_TYPE** is a member of [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc).md).
+**D3D12DDI_INDIRECT_ARGUMENT_TYPE** is a member of [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md).
 
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
 
-[**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc)
-
+[**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md)

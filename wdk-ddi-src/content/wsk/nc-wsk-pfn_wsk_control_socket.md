@@ -94,7 +94,7 @@ If the
      <b>WskGetOption</b>, the 
      <i>ControlCode</i> parameter specifies the particular socket option whose value is being set or
      retrieved. For more information about socket options that are supported by the WSK subsystem, see 
-     <a href="/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>. The underlying
+     <a href="/windows-hardware/drivers/network/so-wsk-event-callback">WSK Socket Options</a>. The underlying
      network protocol might support additional socket options.
      
 
@@ -103,7 +103,7 @@ If the
      <b>WskIoctl</b>, the 
      <i>ControlCode</i> parameter specifies the particular I/O control operation that is being performed. For
      more information about I/O control operations that are supported by the WSK subsystem, see 
-     <a href="/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>. The
+     <a href="/windows-hardware/drivers/network/sio-wsk-query-ideal-send-backlog">WSK Socket IOCTL Operations</a>. The
      underlying network protocol might support additional socket I/O control operations.
 
 ### -param Level 
@@ -191,7 +191,7 @@ If the
      <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
      that is being set or retrieved. For more information about the requirements for the 
      <i>Irp</i> parameter for each of the supported socket options, see 
-     <a href="/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>.
+     <a href="/windows-hardware/drivers/network/so-wsk-event-callback">WSK Socket Options</a>.
 
 If the 
      <i>RequestType</i> parameter is set to 
@@ -199,7 +199,7 @@ If the
      <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
      operation that is being performed. For more information about the requirements for the 
      <i>Irp</i> parameter for each of the supported I/O control operations, see 
-     <a href="/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
+     <a href="/windows-hardware/drivers/network/sio-wsk-query-ideal-send-backlog">WSK Socket IOCTL
      Operations</a>.
 
 ## -returns
@@ -292,13 +292,13 @@ If a WSK application specifies
     <b>WskSetOption</b> or 
     <b>WskGetOption</b> in the 
     <i>RequestType</i> parameter, see 
-    <a href="/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a> for more information
+    <a href="/windows-hardware/drivers/network/so-wsk-event-callback">WSK Socket Options</a> for more information
     about how the input and output buffers are used for each socket option.
 
 If a WSK application specifies 
     <b>WskIoctl</b> in the 
     <i>RequestType</i> parameter, see 
-    <a href="/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a> for
+    <a href="/windows-hardware/drivers/network/sio-wsk-query-ideal-send-backlog">WSK Socket IOCTL Operations</a> for
     more information about how the input and output buffers are used for each I/O control operation.
 
 If the 
@@ -321,11 +321,11 @@ Callers of the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+<a href="/windows-hardware/drivers/network/sio-wsk-query-ideal-send-backlog">WSK Socket IOCTL Operations</a>
 
 
 
-<a href="/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>
+<a href="/windows-hardware/drivers/network/so-wsk-event-callback">WSK Socket Options</a>
 
 
 

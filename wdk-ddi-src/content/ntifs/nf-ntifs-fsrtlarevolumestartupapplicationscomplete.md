@@ -5,7 +5,7 @@ description: The FsRtlAreVolumeStartupApplicationsComplete function determines w
 old-location: ifsk\fsrtlarevolumestartupapplicationscomplete.htm
 tech.root: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
-ms.date: 07/24/20209
+ms.date: 07/24/2020
 keywords: ["FsRtlAreVolumeStartupApplicationsComplete function"]
 ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
 req.header: ntifs.h
@@ -42,7 +42,6 @@ api_name:
 ---
 
 # FsRtlAreVolumeStartupApplicationsComplete function
-
 
 ## -description
 
