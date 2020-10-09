@@ -27,12 +27,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - WheaHwErrorReportSetSectionNameDeviceDriver
 f1_keywords:
+ - WheaHwErrorReportSetSectionNameDeviceDriver
  - ntddk/WheaHwErrorReportSetSectionNameDeviceDriver
 dev_langs:
  - c++
@@ -40,7 +41,7 @@ dev_langs:
 
 ## -description
 
-This is a helper function for updating the FRUText field of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structure.
+This is a helper function for updating the FRUText field of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure.
 
 ## -parameters
 
@@ -66,8 +67,6 @@ Sections in a Common Platform Error Record (CPER) have Field Replaceable Unit (F
 
 First call [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md).
 
-Then call this function with the buffer set from [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md), along with a string and its length and it will populate the FRUText field of [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) with the string.
-
+Then call this function with the buffer set from [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md), along with a string and its length and it will populate the FRUText field of [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) with the string.
 
 ## -see-also
-

@@ -6,10 +6,8 @@ old-location: netvista\wwan_context_state.htm
 tech.root: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.date: 05/02/2018
-keywords: ["_WWAN_CONTEXT_STATE structure"]
+keywords: ["WWAN_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
-f1_keywords:
- - "wwan/WWAN_CONTEXT_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_CONTEXT_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE
+f1_keywords:
+ - _WWAN_CONTEXT_STATE
+ - wwan/_WWAN_CONTEXT_STATE
+ - PWWAN_CONTEXT_STATE
+ - wwan/PWWAN_CONTEXT_STATE
+ - WWAN_CONTEXT_STATE
+ - wwan/WWAN_CONTEXT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_CONTEXT_STATE
 ---
 
 # _WWAN_CONTEXT_STATE structure
@@ -47,15 +50,10 @@ req.typenames: WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE
 
 ## -description
 
-
 The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB
   device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uNwError
 
@@ -150,8 +148,6 @@ No APN or unknown APN is provided in the activation request.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ConnectionId
 
@@ -159,32 +155,21 @@ The MB Service specifies a value for this member at the time of the connect requ
      OID_WWAN_CONNECT. Miniport drivers must copy this value and use it when they notify the MB Service on
      subsequent connection state changes.
 
-
 ### -field ActivationState
 
 The current activation state of the device.
-
 
 ### -field VoiceCallState
 
 The current voice call state of the device.
 
-
 ### -field IPType
 
 A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
-
 ### -field ConnectionMedia
 
- 
-
-
-
-
 ## -remarks
-
-
 
 <i>Set</i> OID requests as well as unsolicited status events use the 
     <b>uNwError</b> member. If there is no network specific error or the network specific error is not known,
@@ -222,24 +207,14 @@ Miniport drivers can provide additional error codes as defined by the GSM standa
 In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provide additional error
     codes returned by the network.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_context_state">NDIS_WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_context_state">NDIS_WWAN_CONTEXT_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_activation_state">WWAN_ACTIVATION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_activation_state">WWAN_ACTIVATION_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_voice_call_state">WWAN_VOICE_CALL_STATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_voice_call_state">WWAN_VOICE_CALL_STATE</a>

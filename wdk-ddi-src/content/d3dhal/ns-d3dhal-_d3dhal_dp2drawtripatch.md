@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2drawtripatch.htm
 tech.root: display
 ms.assetid: 79985523-5665-4879-af04-fd53725d6d07
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2DRAWTRIPATCH structure"]
+keywords: ["D3DHAL_DP2DRAWTRIPATCH structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], LPD3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, display.d3dhal_dp2drawtripatch"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2DRAWTRIPATCH"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2DRAWTRIPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2DRAWTRIPATCH
+f1_keywords:
+ - _D3DHAL_DP2DRAWTRIPATCH
+ - d3dhal/_D3DHAL_DP2DRAWTRIPATCH
+ - D3DHAL_DP2DRAWTRIPATCH
+ - d3dhal/D3DHAL_DP2DRAWTRIPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2DRAWTRIPATCH
 ---
 
 # _D3DHAL_DP2DRAWTRIPATCH structure
@@ -47,32 +48,22 @@ req.typenames: D3DHAL_DP2DRAWTRIPATCH
 
 ## -description
 
-
-
    DirectX 8.0 and later versions only.
    
 
-D3DHAL_DRAWTRIPATCH is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWTRIPATCH, and is used to render a triangular patch.
-
+D3DHAL_DRAWTRIPATCH is parsed from the command buffer by the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWTRIPATCH, and is used to render a triangular patch.
 
 ## -struct-fields
-
-
-
 
 ### -field Handle
 
 Specifies the handle associated with the surface.
 
-
 ### -field Flags
 
 Specifies what, if any, additional information follows the D3DHAL_DP2DRAWTRIPATCH data structure in the DP2 stream.
 
-
 ## -remarks
-
-
 
 The <b>Handle</b> member is used to associate the surface with a handle, so that the next time this surface is drawn there is no need to respecify the D3DTRIPATCH_INFO data structure for this patch. This makes it possible for the driver to precompute and cache forward difference coefficients and/or any other information, which in turn allows subsequent D3DDP2OP_DRAWTRIPATCH tokens using the same handle to execute more efficiently. D3DTRIPATCH_INFO is described in the latest DirectX SDK documentation. 
 
@@ -92,23 +83,17 @@ If <b>Handle</b> is subzero, the handle value has been specified by an earlier D
 
 The driver receives notification that cached patch information is be released via the render state D3DRS_DELETERTPATCH. The value of this render state is the patch to be deleted.
 
-
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_DRAWTRIPATCH
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2drawrectpatch">D3DHAL_DP2DRAWRECTPATCH</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2drawrectpatch">D3DHAL_DP2DRAWRECTPATCH</a>
 
 
 
@@ -116,8 +101,4 @@ D3DRS_DELETERTPATCH
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

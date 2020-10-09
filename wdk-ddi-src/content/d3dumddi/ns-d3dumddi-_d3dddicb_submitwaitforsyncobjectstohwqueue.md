@@ -6,10 +6,8 @@ old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 tech.root: display
 ms.assetid: 9890EB61-2CED-41AB-9A87-76D5020D84A0
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure"]
+keywords: ["D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitwaitforsyncobjectstohwqueue
-f1_keywords:
- - "d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+f1_keywords:
+ - _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+ - d3dumddi/_D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+ - D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+ - d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ---
 
 # _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure
@@ -47,35 +48,23 @@ req.typenames: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 
 ## -description
 
-
-A structure that holds information to wait for synchronized objects. 
-
+A structure that holds information to wait for synchronized objects.
 
 ## -struct-fields
-
-
-
 
 ### -field hHwQueue
 
 Hardware queue to queue the wait on.
 
-
-
 ### -field ObjectCount
 
 Number of objects to wait on.
-
-
 
 ### -field ObjectHandleArray
 
 Handles to monitored fence synchronization objects to wait on.
 
-
-
 ### -field FenceValueArray
 
 Monitored fence values to be waited on.
-
 

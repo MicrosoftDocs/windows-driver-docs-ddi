@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032"
+ - PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
+ - d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function
+
 
 ## -description
 

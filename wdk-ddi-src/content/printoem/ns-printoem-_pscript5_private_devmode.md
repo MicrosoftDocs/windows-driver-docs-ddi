@@ -6,10 +6,8 @@ old-location: print\pscript5_private_devmode.htm
 tech.root: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.date: 04/20/2018
-keywords: ["_PSCRIPT5_PRIVATE_DEVMODE structure"]
+keywords: ["PSCRIPT5_PRIVATE_DEVMODE structure"]
 ms.keywords: "*PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], _PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, printoem/PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE"
-f1_keywords:
- - "printoem/PSCRIPT5_PRIVATE_DEVMODE"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- PSCRIPT5_PRIVATE_DEVMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: PSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE
+f1_keywords:
+ - _PSCRIPT5_PRIVATE_DEVMODE
+ - printoem/_PSCRIPT5_PRIVATE_DEVMODE
+ - PPSCRIPT5_PRIVATE_DEVMODE
+ - printoem/PPSCRIPT5_PRIVATE_DEVMODE
+ - PSCRIPT5_PRIVATE_DEVMODE
+ - printoem/PSCRIPT5_PRIVATE_DEVMODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - PSCRIPT5_PRIVATE_DEVMODE
 ---
 
 # _PSCRIPT5_PRIVATE_DEVMODE structure
+
 
 ## -description
 
@@ -56,11 +60,11 @@ Reserved for system use.
 
 ### -field wSize
 
-The size, in bytes, of the private portion of Pscript5's [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
+The size, in bytes, of the private portion of Pscript5's [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 ## -remarks
 
-For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure).
+For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](/windows-hardware/drivers/display/the-devmodew-structure).
 
 Printoem.h defines a macro that you can use to determine the size of the private portion of Pscript5's DEVMODEW structure.
 
@@ -86,8 +90,8 @@ To safely determine the address of the private portion of your plug-in's DEVMODE
 
     The preceding example starts with the address of the public DEVMODEW structure (*pdm*), adds the number of bytes of this structure (*pdm-*>**dmSize**), and then adds the size in bytes of the Pscript5 private DEVMODEW structure (**wSize**). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the *n*-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first *n* - 1 plug-ins.
 
-1. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oem_dmextraheader) structure.
+1. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](./ns-printoem-_oem_dmextraheader.md) structure.
 
 ## -see-also
 
-[UNIDRV_PRIVATE_DEVMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unidrv_private_devmode)
+[UNIDRV_PRIVATE_DEVMODE](./ns-printoem-_unidrv_private_devmode.md)

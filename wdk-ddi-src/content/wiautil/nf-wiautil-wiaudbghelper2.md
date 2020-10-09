@@ -8,8 +8,6 @@ ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.date: 05/03/2018
 keywords: ["wiauDbgHelper2 function"]
 ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
-f1_keywords:
- - "wiautil/wiauDbgHelper2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wiautil.h
-api_name:
-- wiauDbgHelper2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgHelper2
+ - wiautil/wiauDbgHelper2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wiautil.h
+api_name:
+ - wiauDbgHelper2
 ---
 
 # wiauDbgHelper2 function
+
 
 ## -description
 
@@ -76,14 +76,14 @@ wiauDbgHelper2("ERROR", "MyFunc", "Buffer size too small - %d bytes", BufSize);
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror)
+[wiauDbgError](./nf-wiautil-wiaudbgerror.md)
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)
 
-[wiauDbgHelper](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbghelper)
+[wiauDbgHelper](./nf-wiautil-wiaudbghelper.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

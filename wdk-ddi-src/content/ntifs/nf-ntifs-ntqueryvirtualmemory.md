@@ -8,8 +8,6 @@ ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.date: 06/07/2019
 keywords: ["NtQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
-f1_keywords:
- - "ntifs/ZwQueryVirtualMemory"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryVirtualMemory
-- NtQueryVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtQueryVirtualMemory
+ - ntifs/NtQueryVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryVirtualMemory
+ - NtQueryVirtualMemory
 ---
 
 # NtQueryVirtualMemory function
+
 
 ## -description
 
@@ -51,28 +51,34 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 
 ## -parameters
 
-### -param ProcessHandle [in]
+### -param ProcessHandle 
 
-Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
+[in]
+Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
 
-### -param BaseAddress [in, optional]
+### -param BaseAddress 
 
+[in, optional]
 The base address of the region of pages to be queried. This value is rounded down to the next host-page-address boundary.
 
-### -param MemoryInformationClass [in]
+### -param MemoryInformationClass 
 
-The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
+[in]
+The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](./ne-ntifs-_memory_information_class.md) value is **MemoryBasicInformation**.
 
-### -param MemoryInformation [out]
+### -param MemoryInformation 
 
-Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information) structure.
+[out]
+Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](./ns-ntifs-_memory_basic_information.md) structure.
 
-### -param MemoryInformationLength [in]
+### -param MemoryInformationLength 
 
+[in]
 Specifies the length, in bytes, of the buffer that *MemoryInformation* points to.
 
-### -param ReturnLength [out, optional]
+### -param ReturnLength 
 
+[out, optional]
 An optional pointer which, if specified, receives the number of bytes placed in the *MemoryInformation* buffer.
 
 ## -returns
@@ -95,14 +101,14 @@ If the entire region of pages does not have a matching set of attributes, then t
 
 **NtQueryVirtualMemory** and [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot)) are two versions of the same Windows Native System Services routine.
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information)
+[MEMORY_BASIC_INFORMATION](./ns-ntifs-_memory_basic_information.md)
 
-[MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class)
+[MEMORY_INFORMATION_CLASS](./ne-ntifs-_memory_information_class.md)
 
-[POWER_PLATFORM_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information)
+[POWER_PLATFORM_INFORMATION](../wdm/ns-wdm-_power_platform_information.md)
 
 [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot))

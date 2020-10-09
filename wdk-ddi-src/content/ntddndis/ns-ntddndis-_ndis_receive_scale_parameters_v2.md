@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_scale_parameters_v2.htm
 tech.root: netvista
 ms.assetid: 96EAB6EE-BF9A-46AD-8DED-5D9BD2B6F219
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure"]
+keywords: ["NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure"]
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_SCALE_PARAM_ENABLE_RSS, NDIS_RECEIVE_SCALE_PARAM_HASH_INFO_CHANGED, NDIS_RECEIVE_SCALE_PARAM_HASH_KEY_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_ENTRIES_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_QUEUES_CHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS_V2, PNDIS_RECEIVE_SCALE_PARAMETERS_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS_V2, netvista.ndis_receive_scale_parameters_v2, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS_V2"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_SCALE_PARAMETERS_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS_V2, *PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+f1_keywords:
+ - _NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/_NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_SCALE_PARAMETERS_V2
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure
@@ -52,15 +55,14 @@ req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS_V2, *PNDIS_RECEIVE_SCALE_PARAMETERS
 >
 > RSSv2 is preview only in Windows 10, version 1803.
 
-The **NDIS_RECEIVE_SCALE_PARAMETERS_V2** structure specifies the Receive Side Scaling (RSS) parameters for a miniport adapter that advertises support for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a> OID.
-
+The **NDIS_RECEIVE_SCALE_PARAMETERS_V2** structure specifies the Receive Side Scaling (RSS) parameters for a miniport adapter that advertises support for <a href="/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>. It is used in the <a href="/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a> OID.
 
 ## -struct-fields
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_PARAMETERS_V2</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PARAMETERS_V2</b>. 
@@ -68,7 +70,6 @@ The
 For NDIS  6.80 and later drivers, set the 
      <b>Revision</b> member to <b>NDIS_RECEIVE_SCALE_PARAMETERS_V2_REVISION_1</b> and the 
      <b>Size</b> member to <b>sizeof(NDIS_RECEIVE_SCALE_PARAMETERS_V2)</b>.
-
 
 ### -field Flags
 
@@ -136,8 +137,6 @@ The number of entries in the indirection table has changed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field HashInformation
 
@@ -149,24 +148,22 @@ In a set request, this member is the hash type and hash function that the NIC sh
 In a query request, this member is the hash type and hash function that the NIC is using.
 
 Overlying drivers and NDIS can use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
      information and set the 
      <b>HashInformation</b> member.
 
 Miniport drivers can use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
      <b>HashInformation</b> and the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
 
 This parameter can be changed at the same time that RSS is enabled, or afterward.
-
 
 ### -field HashSecretKeySize
 
 The size of the secret key array of the hash function, in bytes. The size of the array is 40 bytes for **NdisHashFunctionToeplitz**.
 
 This parameter can be changed at the same time that RSS is enabled, or afterward.
-
 
 ### -field HashSecretKeyOffset
 
@@ -176,8 +173,7 @@ This parameter can be changed at the same time that RSS is enabled, or afterward
 
 ### -field NumberOfQueues
 
-The maximum number of queues for the scaling entity. This parameter is an alias for the NUM_QUEUE_PAIRS variable of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a> structure, which can also be queried or set through the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a> OID. It can be changed when RSS is enabled or disabled.
-
+The maximum number of queues for the scaling entity. This parameter is an alias for the NUM_QUEUE_PAIRS variable of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a> structure, which can also be queried or set through the <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a> OID. It can be changed when RSS is enabled or disabled.
 
 ### -field NumberOfIndirectionTableEntries
 
@@ -185,39 +181,34 @@ The number of indirection table entries (ITEs) for the scaling entity. This valu
 
 New values for this parameter are also a power of two and do exceed adapter capabilities. When this number is increased, the miniport driver should clone the current indirection table into the new ITEs as many times as needed (this is possible because of the power-of-two restriction). When this number is decreased, the upper layer guarantees that the portion of the indirection table which is being removed contains exact replicas of the remaining portion.
 
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a>
+<a href="/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>

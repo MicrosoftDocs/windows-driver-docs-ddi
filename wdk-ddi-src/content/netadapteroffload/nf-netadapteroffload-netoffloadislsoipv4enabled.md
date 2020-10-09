@@ -8,8 +8,6 @@ ms.assetid: c56d63ef-d111-44e3-a2e7-226bc45dc357
 ms.author: windowsdriverdev
 ms.date: 10/09/2020
 keywords: ["NetOffloadIsLsoIPv4Enabled function"]
-f1_keywords:
- - "netadapteroffload/NetOffloadIsLsoIPv4Enabled"
 ms.keywords: NetOffloadIsLsoIPv4Enabled
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
@@ -17,28 +15,29 @@ req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetOffloadIsLsoIPv4Enabled
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - NetOffloadIsLsoIPv4Enabled
+ - netadapteroffload/NetOffloadIsLsoIPv4Enabled
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetOffloadIsLsoIPv4Enabled
 ---
 
 # NetOffloadIsLsoIPv4Enabled function

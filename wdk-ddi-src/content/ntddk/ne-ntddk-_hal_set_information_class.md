@@ -4,34 +4,38 @@ title: _HAL_SET_INFORMATION_CLASS (ntddk.h)
 description: The values are reserved for internal use.
 ms.assetid: d3fb9a2b-47bd-417e-961a-1b89f14d8f49
 ms.date: 09/30/2018
-keywords: ["_HAL_SET_INFORMATION_CLASS enumeration"]
-f1_keywords:
- - "ntddk/_HAL_SET_INFORMATION_CLASS"
-ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS, 
+keywords: ["HAL_SET_INFORMATION_CLASS enumeration"]
+ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS,
 req.header: ntddk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- ntddk.h
-api_name: 
-- _HAL_SET_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _HAL_SET_INFORMATION_CLASS
+ - ntddk/_HAL_SET_INFORMATION_CLASS
+ - PHAL_SET_INFORMATION_CLASS
+ - ntddk/PHAL_SET_INFORMATION_CLASS
+ - HAL_SET_INFORMATION_CLASS
+ - ntddk/HAL_SET_INFORMATION_CLASS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - _HAL_SET_INFORMATION_CLASS
 ---
 
 # _HAL_SET_INFORMATION_CLASS enumeration
+
 
 ## -description
 
@@ -125,14 +129,13 @@ Reserved for internal use.
 
 ### -field HalProfileSourceRemove : 
 
-Reserved for internal use.  
+Reserved for internal use.
 
 ### -field HalSetSwInterruptHandler 
-Reserved for internal use.  
 
-
+Reserved for internal use.
 
 ## -remarks
 
-
 ## -see-also
+

@@ -6,10 +6,8 @@ old-location: whea\whea_pcixdevice_error_section.htm
 tech.root: whea
 ms.assetid: 0d2ec4e5-193d-45bf-8588-6afc1a9fb68c
 ms.date: 02/20/2018
-keywords: ["_WHEA_PCIXDEVICE_ERROR_SECTION structure"]
+keywords: ["WHEA_PCIXDEVICE_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_PCIXDEVICE_ERROR, *PWHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR, WHEA_PCIXDEVICE_ERROR_SECTION, WHEA_PCIXDEVICE_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIXDEVICE_ERROR_SECTION, ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION, whea.whea_pcixdevice_error_section, whearef_79293b09-c49f-499f-9423-319265088a26.xml"
-f1_keywords:
- - "ntddk/WHEA_PCIXDEVICE_ERROR_SECTION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_PCIXDEVICE_ERROR_SECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION, *PWHEA_PCIXDEVICE_ERROR_SECTION
+f1_keywords:
+ - _WHEA_PCIXDEVICE_ERROR_SECTION
+ - ntddk/_WHEA_PCIXDEVICE_ERROR_SECTION
+ - PWHEA_PCIXDEVICE_ERROR_SECTION
+ - ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION
+ - WHEA_PCIXDEVICE_ERROR_SECTION
+ - ntddk/WHEA_PCIXDEVICE_ERROR_SECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_PCIXDEVICE_ERROR_SECTION
 ---
 
 # _WHEA_PCIXDEVICE_ERROR_SECTION structure
@@ -47,38 +50,27 @@ req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION, *PWHEA_PCIXDEVICE_ERROR_SECTION
 
 ## -description
 
-
 The WHEA_PCIXDEVICE_ERROR_SECTION structure describes PCI or PCI-X device error data.
-
 
 ## -struct-fields
 
-
-
-
 ### -field ValidBits
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section_validbits">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
-
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section_validbits">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 ### -field ErrorStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a> structure that contains PCI or PCI-X device error status data.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a> structure that contains PCI or PCI-X device error status data.
 
 This member contains valid data only if the <b>ValidBits.ErrorStatus</b> bit is set.
-
 
 ### -field IdInfo
 
 A WHEA_PCIXDEVICE_ID structure that contains data that identifies the PCI or PCI-X device. The WHEA_PCIXDEVICE_ID structure is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _WHEA_PCIXDEVICE_ID {
+
+```
+typedef struct _WHEA_PCIXDEVICE_ID {
   USHORT  VendorId;
   USHORT  DeviceId;
   ULONG  ClassCode:24;
@@ -88,10 +80,9 @@ A WHEA_PCIXDEVICE_ID structure that contains data that identifies the PCI or PCI
   ULONG  SegmentNumber:8;
   ULONG  Reserved1:8;
   ULONG  Reserved2;
-} WHEA_PCIXDEVICE_ID, *PWHEA_PCIXDEVICE_ID;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIXDEVICE_ID, *PWHEA_PCIXDEVICE_ID;
+```
+
 
 
 
@@ -150,13 +141,11 @@ Reserved for system use.
 
 This member contains valid data only if the <b>ValidBits.IdInfo</b> bit is set.
 
-
 ### -field MemoryNumber
 
 The number of memory mapped register address/data pair values from the PCI device that are included in the <b>RegisterDataPairs</b> member.
 
 This member contains valid data only if the <b>ValidBits.MemoryNumber</b> bit is set.
-
 
 ### -field IoNumber
 
@@ -164,24 +153,18 @@ The number of I/O mapped register address/data pair values from the PCI device t
 
 This member contains valid data only if the <b>ValidBits.IoNumber</b> bit is set.
 
-
 ### -field RegisterDataPairs
 
 An array of WHEA_PCIXDEVICE_REGISTER_PAIR structures that contains the register address/data pair values for the PCI device. The WHEA_PCIXDEVICE_REGISTER_PAIR structure is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct WHEA_PCIXDEVICE_REGISTER_PAIR {
+
+```
+typedef struct WHEA_PCIXDEVICE_REGISTER_PAIR {
   ULONGLONG  Register;
   ULONGLONG  Data;
-} WHEA_PCIXDEVICE_REGISTER_PAIR, *PWHEA_PCIXDEVICE_REGISTER_PAIR;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIXDEVICE_REGISTER_PAIR, *PWHEA_PCIXDEVICE_REGISTER_PAIR;
+```
+
 
 
 
@@ -198,35 +181,22 @@ The data contained in the register.
 
 This member contains valid data only if the <b>ValidBits.RegisterDataPairs</b> bit is set.
 
-
 ## -remarks
 
-
-
-The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is contained in a PCI/PCI-X device error section of an <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains a PCI/PCI-X device error section only if the <b>SectionType </b>member of one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains PCIXBUS_ERROR_SECTION_GUID.
-
-
-
+The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is contained in a PCI/PCI-X device error section of an <a href="/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains a PCI/PCI-X device error section only if the <b>SectionType </b>member of one of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains PCIXBUS_ERROR_SECTION_GUID.
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section_validbits">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section_validbits">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>

@@ -8,8 +8,6 @@ ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.date: 03/29/2018
 keywords: ["StorPortGetGroupAffinity function"]
 ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
-f1_keywords:
- - "storport/StorPortGetGroupAffinity"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetGroupAffinity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetGroupAffinity
+ - storport/StorPortGetGroupAffinity
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetGroupAffinity
 ---
 
 # StorPortGetGroupAffinity function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetGroupAffinity</b> routine constructs a mask of the active processors in a requested group.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param GroupNumber 
 
-### -param GroupNumber [in]
-
+[in]
 The group from which to return the processor mask.
 
+### -param GroupAffinityMask 
 
-### -param GroupAffinityMask [out]
-
+[out]
 A pointer to a variable that holds the affinity mask of the given group.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetGroupAffinity</b> routine returns one of the following status codes:
 
@@ -127,7 +119,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

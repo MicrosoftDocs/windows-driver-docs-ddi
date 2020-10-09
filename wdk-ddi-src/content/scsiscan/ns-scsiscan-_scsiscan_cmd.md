@@ -6,10 +6,8 @@ old-location: image\scsiscan_cmd.htm
 tech.root: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
 ms.date: 05/03/2018
-keywords: ["_SCSISCAN_CMD structure"]
+keywords: ["SCSISCAN_CMD structure"]
 ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
-f1_keywords:
- - "scsiscan/SCSISCAN_CMD"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h, Srb.h, Scsi.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiscan.h
-api_name:
-- SCSISCAN_CMD
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
+f1_keywords:
+ - _SCSISCAN_CMD
+ - scsiscan/_SCSISCAN_CMD
+ - PSCSISCAN_CMD
+ - scsiscan/PSCSISCAN_CMD
+ - SCSISCAN_CMD
+ - scsiscan/SCSISCAN_CMD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiscan.h
+api_name:
+ - SCSISCAN_CMD
 ---
 
 # _SCSISCAN_CMD structure
 
+
 ## -description
 
-The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd).
+The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](./ni-scsiscan-ioctl_scsiscan_cmd.md).
 
 ## -struct-fields
 
@@ -64,7 +68,7 @@ Caller-supplied SRB_FLAGS-prefixed bit flag specifying the requested operation. 
 
 ### -field CdbLength
 
-Length, in bytes, of the [CDB](https://docs.microsoft.com/windows-hardware/drivers/) contained in the **Cdb** member.
+Length, in bytes, of the [CDB](/windows-hardware/drivers/) contained in the **Cdb** member.
 
 ### -field SenseLength
 
@@ -80,11 +84,11 @@ Reserved. Do not use.
 
 ### -field TransferLength
 
-Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
+Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
 
 ### -field Cdb
 
-Caller-supplied [CDB](https://docs.microsoft.com/windows-hardware/drivers/) data. (The CDB structure is declared in *scsi.h*.)
+Caller-supplied [CDB](/windows-hardware/drivers/) data. (The CDB structure is declared in *scsi.h*.)
 
 ### -field pSrbStatus
 

@@ -8,8 +8,6 @@ ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.date: 04/30/2018
 keywords: ["KeQueryActiveGroupCount function"]
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
-f1_keywords:
- - "ntddk/KeQueryActiveGroupCount"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -27,42 +25,34 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryActiveGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryActiveGroupCount
+ - ntddk/KeQueryActiveGroupCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryActiveGroupCount
 ---
 
-# KeQueryActiveGroupCount function
+# KeQueryActiveGroupCount function (ntddk.h)
 
 
 ## -description
 
-
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
-
 
 ## -returns
 
-
-
 <b>KeQueryActiveGroupCount</b> returns a count of the active groups.
 
-
-
-
 ## -remarks
-
-
 
 A processor group is active if it contains one or more active logical processors.
 
@@ -70,26 +60,16 @@ An active logical processor is a logical processor that Windows has started up a
 
 Thus, the number of active processors in a multiprocessor system can increase between system startup and shutdown, but this number never decreases. Similarly, the number of active groups in the system can increase if a processor is dynamically added to an inactive group while the system is running. The number of active groups never decreases.
 
-In contrast, the value that is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
+In contrast, the value that is returned by <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
 
-Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
+Call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
 
-Windows 7 is the first version of Windows to support processor groups. In Windows 7, only 64-bit versions of Windows support multiple groups; 32-bit versions of Windows support only one group. If a multiprocessor system is running a 64-bit version of Windows and contains no more than 64 logical processors, Windows assigns all processors to group 0. A multiprocessor system that is running a 32-bit version of Windows can contain no more than 32 processors.
-
-
-
+Windows 7 is the first version of Windows to support processor groups. In Windows 7, only 64-bit versions of Windows support multiple groups; 32-bit versions of Windows support only one group.  A multiprocessor system that is running a 32-bit version of Windows can contain no more than 32 processors.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a>

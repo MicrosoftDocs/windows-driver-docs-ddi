@@ -8,8 +8,6 @@ ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.date: 04/30/2018
 keywords: ["PsAttachSiloToCurrentThread function"]
 ms.keywords: PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psattachsilotocurrentthread, ntddk/PsAttachSiloToCurrentThread
-f1_keywords:
- - "ntddk/PsAttachSiloToCurrentThread"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsAttachSiloToCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsAttachSiloToCurrentThread
+ - ntddk/PsAttachSiloToCurrentThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsAttachSiloToCurrentThread
 ---
 
 # PsAttachSiloToCurrentThread function
@@ -47,36 +46,24 @@ req.typenames:
 
 ## -description
 
-
 This routine places a thread temporarily into the specified <i>Silo</i>.
-
 
 ## -parameters
 
+### -param Silo 
 
-
-
-### -param Silo [in]
-
+[in]
 The silo that the thread is to impersonate. The caller must hold a  reference to the silo throughout the duration of the impersonation.
-
 
 ## -returns
 
-
-
 The previous silo that was attached to the current thread.
-
-
-
 
 ## -remarks
 
-
-
 The specified <i>Silo</i> is attached to the current thread so that it becomes the effective silo for the thread.
 
-The thread then operates within the namespace of the attached silo until <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdetachsilofromcurrentthread">PsDetachSiloFromCurrentThread</a> is called.
+The thread then operates within the namespace of the attached silo until <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdetachsilofromcurrentthread">PsDetachSiloFromCurrentThread</a> is called.
 
 
 #### Examples
@@ -89,15 +76,6 @@ PESILO PreviousSilo = PsAttachSiloToCurrentThread(SomeSilo);
 PsDetachSiloFromCurrentThread(PreviousSilo);</pre>
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdetachsilofromcurrentthread">PsDetachSiloFromCurrentThread</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdetachsilofromcurrentthread">PsDetachSiloFromCurrentThread</a>

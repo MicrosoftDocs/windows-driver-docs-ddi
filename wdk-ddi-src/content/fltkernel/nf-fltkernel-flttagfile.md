@@ -8,8 +8,6 @@ ms.assetid: fbc8b596-1299-4dfa-953b-5730905f0e30
 ms.date: 04/16/2018
 keywords: ["FltTagFile function"]
 ms.keywords: FltApiRef_p_to_z_01cd7989-387a-4a7c-a45a-3a60a8b126c0.xml, FltTagFile, FltTagFile function [Installable File System Drivers], fltkernel/FltTagFile, ifsk.flttagfile
-f1_keywords:
- - "fltkernel/FltTagFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltTagFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltTagFile
+ - fltkernel/FltTagFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltTagFile
 ---
 
 # FltTagFile function
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
-<b>FltTagFile</b> sets a reparse tag on a file or directory. 
-
+<b>FltTagFile</b> sets a reparse tag on a file or directory.
 
 ## -parameters
 
+### -param InitiatingInstance 
 
+[in]
+Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param InitiatingInstance [in]
+[in]
+Pointer to a file object for the file or directory on which to set a reparse point. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>. 
+### -param FileTag 
 
+[in]
+Reparse point tag. If an existing reparse tag is being modified, the tag specified in this parameter must match the tag of the reparse point to be modified.
 
-### -param FileObject [in]
+### -param Guid 
 
-Pointer to a file object for the file or directory on which to set a reparse point. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>. 
+[in, optional]
+GUID that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. If an existing reparse tag is being modified, the GUID specified in this parameter must match the GUID of the reparse point to be modified.
 
+### -param DataBuffer 
 
-### -param FileTag [in]
+[in]
+Pointer to a buffer that contains user-defined data for the reparse point.
 
-Reparse point tag. If an existing reparse tag is being modified, the tag specified in this parameter must match the tag of the reparse point to be modified. 
+### -param DataBufferLength 
 
-
-### -param Guid [in, optional]
-
-GUID that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. If an existing reparse tag is being modified, the GUID specified in this parameter must match the GUID of the reparse point to be modified. 
-
-
-### -param DataBuffer [in]
-
-Pointer to a buffer that contains user-defined data for the reparse point. 
-
-
-### -param DataBufferLength [in]
-
-Size, in bytes, of the buffer that <i>DataBuffer </i>points to. 
-
+[in]
+Size, in bytes, of the buffer that <i>DataBuffer </i>points to.
 
 ## -returns
-
-
 
 <b>FltTagFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -156,42 +148,38 @@ The reparse GUID specified by the caller did not match the GUID of the reparse p
 
 ## -remarks
 
-Minifilter drivers should use <b>FltTagFile</b> instead of [FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point) to set a reparse point. 
+Minifilter drivers should use <b>FltTagFile</b> instead of [FSCTL_SET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-set-reparse-point) to set a reparse point. 
 
-Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation), specifying FileFsAttributeInformation for the *FsInformation* parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned [FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information) structure. 
+Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling [FltQueryVolumeInformation](./nf-fltkernel-fltqueryvolumeinformation.md), specifying FileFsAttributeInformation for the *FsInformation* parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned [FILE_FS_ATTRIBUTE_INFORMATION](../ntifs/ns-ntifs-_file_fs_attribute_information.md) structure. 
 
-To remove an existing reparse point, call [FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile). 
+To remove an existing reparse point, call [FltUntagFile](./nf-fltkernel-fltuntagfile.md). 
 
-For more information about reparse points, see the Microsoft Windows SDK documentation. 
+For more information about reparse points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-[FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information)
+[FILE_FS_ATTRIBUTE_INFORMATION](../ntifs/ns-ntifs-_file_fs_attribute_information.md)
 
-[FLT_TAG_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_tag_data_buffer)
+[FLT_TAG_DATA_BUFFER](./ns-fltkernel-_flt_tag_data_buffer.md)
 
-[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
+[FSCTL_DELETE_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
-[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
+[FSCTL_GET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
-[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
+[FSCTL_SET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-[FltFsControlFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile)
+[FltFsControlFile](./nf-fltkernel-fltfscontrolfile.md)
 
-[FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
+[FltQueryVolumeInformation](./nf-fltkernel-fltqueryvolumeinformation.md)
 
-[FltTagFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfileex)
+[FltTagFileEx](./nf-fltkernel-flttagfileex.md)
 
-[FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile)
+[FltUntagFile](./nf-fltkernel-fltuntagfile.md)
 
-[IsReparseTagMicrosoft](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagmicrosoft)
+[IsReparseTagMicrosoft](../ntifs/nf-ntifs-isreparsetagmicrosoft.md)
 
-[IsReparseTagNameSurrogate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagnamesurrogate)
+[IsReparseTagNameSurrogate](../ntifs/nf-ntifs-isreparsetagnamesurrogate.md)
 
-[REPARSE_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer)
+[REPARSE_DATA_BUFFER](../ntifs/ns-ntifs-_reparse_data_buffer.md)
 
-[REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer)
- 
-
- 
-
+[REPARSE_GUID_DATA_BUFFER](../ntifs/ns-ntifs-_reparse_guid_data_buffer.md)

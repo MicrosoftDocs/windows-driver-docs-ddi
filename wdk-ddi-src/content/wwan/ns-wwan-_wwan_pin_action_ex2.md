@@ -1,46 +1,50 @@
 ---
 UID: NS:wwan._WWAN_PIN_ACTION_EX2
 title: _WWAN_PIN_ACTION_EX2 (wwan.h)
-description: The WWAN_PIN_ACTION_EX2 structure specifies the PIN action to take for a UICC application. 
+description: The WWAN_PIN_ACTION_EX2 structure specifies the PIN action to take for a UICC application.
 tech.root: netvista
 ms.assetid: 49E330C5-3B2A-4996-97DE-7F34AADD4804
 ms.date: 04/10/2019
-keywords: ["_WWAN_PIN_ACTION_EX2 structure"]
-f1_keywords:
- - "wwan/_WWAN_PIN_ACTION_EX2"
-ms.keywords: _WWAN_PIN_ACTION_EX2, WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2, 
+keywords: ["WWAN_PIN_ACTION_EX2 structure"]
+ms.keywords: _WWAN_PIN_ACTION_EX2, WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name:  
-- _WWAN_PIN_ACTION_EX2
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_PIN_ACTION_EX2
+ - wwan/_WWAN_PIN_ACTION_EX2
+ - PWWAN_PIN_ACTION_EX2
+ - wwan/PWWAN_PIN_ACTION_EX2
+ - WWAN_PIN_ACTION_EX2
+ - wwan/WWAN_PIN_ACTION_EX2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_PIN_ACTION_EX2
 ---
 
 # _WWAN_PIN_ACTION_EX2 structure
 
+
 ## -description
 
-The **WWAN_PIN_ACTION_EX2** structure specifies the PIN action to take for a UICC application. 
+The **WWAN_PIN_ACTION_EX2** structure specifies the PIN action to take for a UICC application.
 
 ## -struct-fields
 
@@ -74,8 +78,8 @@ This structure is used in the [**NDIS_WWAN_SET_PIN_EX2**](../ndiswwan/ns-ndiswwa
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_PIN_EX2](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pin-ex2)
+[OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
 [**NDIS_WWAN_SET_PIN_EX2**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_pin_ex2.md)

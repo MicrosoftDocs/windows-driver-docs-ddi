@@ -8,8 +8,6 @@ ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.date: 05/03/2018
 keywords: ["DebugCommandException function"]
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
-f1_keywords:
- - "dbgeng/DebugCommandException"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dbgeng.dll
-api_name:
-- DebugCommandException
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DebugCommandException
+ - dbgeng/DebugCommandException
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dbgeng.dll
+api_name:
+ - DebugCommandException
 ---
 
 # DebugCommandException function
@@ -47,27 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Specifies a debug command exception.
 
-
 ## -parameters
-
-
-
 
 ### -param Command
 
 A command.
 
-
 ### -param ArgSize
 
 The size of the argument.
 
-
 ### -param Arg
 
 A pointer to an argument.
-
 

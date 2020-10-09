@@ -8,8 +8,6 @@ ms.assetid: 783ddaaa-f39f-4e66-85aa-4788bf7959a6
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2 interface"]
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSystemAction2, dtf.iwdtfsystemaction2, wdtfsystemaction/IWDTFSystemAction2
-f1_keywords:
- - "wdtfsystemaction/IWDTFSystemAction2"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFSystemAction.Interop.dll
-api_name:
-- IWDTFSystemAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSystemAction2
+ - wdtfsystemaction/IWDTFSystemAction2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFSystemAction.Interop.dll
+api_name:
+ - IWDTFSystemAction2
 ---
 
 # IWDTFSystemAction2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties that support driver testing.
-
 
 ## -inheritance
 

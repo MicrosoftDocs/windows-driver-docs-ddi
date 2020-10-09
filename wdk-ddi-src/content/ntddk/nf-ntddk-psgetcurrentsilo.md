@@ -8,8 +8,6 @@ ms.assetid: 535D7611-8C86-44CF-964C-731882A3AF69
 ms.date: 04/30/2018
 keywords: ["PsGetCurrentSilo function"]
 ms.keywords: PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo
-f1_keywords:
- - "ntddk/PsGetCurrentSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetCurrentSilo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetCurrentSilo
+ - ntddk/PsGetCurrentSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetCurrentSilo
 ---
 
 # PsGetCurrentSilo function
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 This routine returns the current silo for the calling thread.  First the thread is checked to see if it has been attached to a silo. If not, then the thread is checked to see if it is in a silo.
-
 
 ## -returns
 
-
-
 A pointer to the <b>ESILO</b> object.  This pointer is valid for the current thread, but must be referenced before transferring to another thread (for example, via a workitem).
-
-
 

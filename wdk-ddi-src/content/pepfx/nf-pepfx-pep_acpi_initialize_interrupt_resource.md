@@ -8,8 +8,6 @@ ms.assetid: A89AB86B-4DC9-43ED-9EE6-1D4B693DAB91
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_interrupt_resource, pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
-f1_keywords:
- - "pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,82 +25,71 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
+ - pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function
+# PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function (pepfx.h)
 
 
 ## -description
 
-
-The <b>PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a> structure.
-
+The <b>PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a> structure.
 
 ## -parameters
 
+### -param ResourceUsage 
 
-
-
-### -param ResourceUsage [in]
-
+[in]
 Indicates if this device is in use.
 
+### -param EdgeLevel 
 
-### -param EdgeLevel [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+### -param InterruptLevel 
 
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
-### -param InterruptLevel [in]
+### -param ShareType 
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
-
-
-### -param ShareType [in]
-
+[in]
 Indicates if the device can be shared.
 
+### -param Wake 
 
-### -param Wake [in]
-
+[in]
 Indicates if the device can be woken from a low-power state.
 
+### -param PinTable 
 
-### -param PinTable [in]
+[in]
+A list of pin numbers on the resource.
 
-A list of pin numbers on the resource. 
+### -param PinCount 
 
-
-### -param PinCount [in]
-
+[in]
 The number of pins described by the <i>PinTable</i> parameter.
 
+### -param Resource 
 
-### -param Resource [out]
-
-A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a>.
-
+[out]
+A pointer to the resource. The structure behind the pointer is of type <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a>

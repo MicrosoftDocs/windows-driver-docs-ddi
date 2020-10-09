@@ -6,10 +6,8 @@ old-location: netvista\ipsec_offload_v2_algorithm_info.htm
 tech.root: netvista
 ms.assetid: 787e5a98-ba77-42d4-8624-abcc02fccf53
 ms.date: 05/02/2018
-keywords: ["_IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure"]
+keywords: ["IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml"
-f1_keywords:
- - "ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- IPSEC_OFFLOAD_V2_ALGORITHM_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
+f1_keywords:
+ - _IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - ndis/_IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 ---
 
 # _IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure
@@ -47,17 +50,12 @@ req.typenames: IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INF
 
 ## -description
 
-
 <p class="CCE_Message">[The IPsec Task Offload feature is deprecated and should not be used.]
 
 The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies an algorithm that is used for a security
   association (SA).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Identifier
 
@@ -177,12 +175,11 @@ Specifies the AES- GMAC 192 algorithm for computing or validating a cryptographi
 Specifies the AES- GMAC 256 algorithm for computing or validating a cryptographic
        checksum.
 
-
 ### -field KeyLength
 
 The length, in bytes, of the key for the algorithm. The key is contained in the array at the 
      <b>KeyData</b> member in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
      
 
 <b>KeyLength</b> indicates the length of the cryptographic algorithm, starting at the offset that is
@@ -195,46 +192,31 @@ If both algorithms (
      concatenated. The respective keys start at the offset that is specified in 
      <b>KeyOffsetBytes</b> .
 
-
 ### -field KeyOffsetBytes
 
 The offset, in bytes, into in the array at the 
      <b>KeyData</b> member in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">
      IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
-
 
 ### -field AdditionalInfo
 
 Additional information that should be interpreted differently based on the algorithm. For AES-GCM,     
      <b>AdditionalInfo</b> contains the ICV length.
 
-
 ## -remarks
-
-
 
 The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in the 
     <b>EncryptionAlgorithm</b> and 
     <b>AuthenticationAlgorithm</b> members of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
     IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
- 
-
- 
-

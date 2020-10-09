@@ -8,8 +8,6 @@ ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.date: 04/20/2018
 keywords: ["OEMGetGlyphMode function"]
 ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
-f1_keywords:
- - "printoem/OEMGetGlyphMode"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMGetGlyphMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMGetGlyphMode
+ - printoem/OEMGetGlyphMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMGetGlyphMode
 ---
 
 # OEMGetGlyphMode function
@@ -47,17 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMGetGlyphMode</code> function informs the GDI how to cache glyph information.
-
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
-
 
 ### -param pfo
 

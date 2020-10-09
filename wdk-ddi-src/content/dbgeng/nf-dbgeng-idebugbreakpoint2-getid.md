@@ -8,8 +8,6 @@ ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::GetId"]
 ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, GetId method [Windows Debugging], GetId method [Windows Debugging],IDebugBreakpoint interface, GetId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetId method, IDebugBreakpoint2 interface [Windows Debugging],GetId method, IDebugBreakpoint2.GetId, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid
-f1_keywords:
- - "dbgeng/IDebugBreakpoint.GetId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint.GetId
-- IDebugBreakpoint2.GetId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::GetId
+ - dbgeng/IDebugBreakpoint2::GetId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint.GetId
+ - IDebugBreakpoint2.GetId
 ---
 
 # IDebugBreakpoint2::GetId
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetId</b> method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
-
 
 ## -parameters
 
+### -param Id 
 
-
-
-### -param Id [out]
-
+[out]
 The breakpoint ID.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,20 +77,12 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
-
-
-
+This method can also return error values.  For more information, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
 
-
-
 The breakpoint ID remains fixed as long as the breakpoint exists.  However, after the breakpoint has been removed, you can use its ID for another breakpoint.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the breakpoint ID.
+The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the breakpoint ID.
 
-For more information about how to use breakpoints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
-
-
-
+For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.

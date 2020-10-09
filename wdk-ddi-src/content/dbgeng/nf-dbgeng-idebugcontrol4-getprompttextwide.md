@@ -8,8 +8,6 @@ ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetPromptTextWide"]
 ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetPromptTextWide method, IDebugControl4.GetPromptTextWide, IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide
-f1_keywords:
- - "dbgeng/IDebugControl4.GetPromptTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetPromptTextWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetPromptTextWide
+ - dbgeng/IDebugControl4::GetPromptTextWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetPromptTextWide
 ---
 
 # IDebugControl4::GetPromptTextWide
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetPromptTextWide</b>  method returns the standard prompt text that will be prepended to the formatted output specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a> methods.
-
+The <b>GetPromptTextWide</b>  method returns the standard prompt text that will be prepended to the formatted output specified in the <a href="/previous-versions/ff553227(v=vs.85)">OutputPrompt</a> and <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a> methods.
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the prompt text.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param TextSize 
 
-### -param TextSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the prompt text.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
-
 
 ## -returns
 
-
-
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -105,35 +97,19 @@ The method was successful.  However, the prompt text was too large to fit into t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about prompting the user, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
-
-
-
+For more information about prompting the user, see <a href="/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+<a href="/previous-versions/ff553227(v=vs.85)">OutputPrompt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a>

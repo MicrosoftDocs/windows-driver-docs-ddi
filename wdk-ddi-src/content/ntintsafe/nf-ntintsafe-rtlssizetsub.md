@@ -8,8 +8,6 @@ ms.assetid: 6EFDD7BF-B347-4E02-905E-01F0F155DB6F
 ms.date: 04/30/2018
 keywords: ["RtlSSIZETSub function"]
 ms.keywords: RtlSSIZETSub, RtlSSIZETSub function [Kernel-Mode Driver Architecture], kernel.rtlssizetsub, ntintsafe/RtlSSIZETSub
-f1_keywords:
- - "ntintsafe/RtlSSIZETSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlSSIZETSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlSSIZETSub
+ - ntintsafe/RtlSSIZETSub
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlSSIZETSub
 ---
 
 # RtlSSIZETSub function
@@ -47,35 +46,32 @@ req.typenames:
 
 ## -description
 
-
 Subtracts one value of type <b>SSIZE_T</b> from another.
-
 
 ## -parameters
 
+### -param Minuend 
 
-
-
-### -param Minuend [in]
-
+[in]
 The value from which <i>Subtrahend</i> is subtracted.
 
+### -param Subtrahend 
 
-### -param Subtrahend [in]
-
+[in]
 The value to subtract from <i>Minuend</i>.
 
+### -param pResult 
 
-### -param pResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

@@ -6,10 +6,8 @@ old-location: netvista\wwan_sms_status.htm
 tech.root: netvista
 ms.assetid: a7ebe58d-8e87-437f-b556-408610fa654e
 ms.date: 05/02/2018
-keywords: ["_WWAN_SMS_STATUS structure"]
+keywords: ["WWAN_SMS_STATUS structure"]
 ms.keywords: "*PWWAN_SMS_STATUS, PWWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS"
-f1_keywords:
- - "wwan/WWAN_SMS_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_STATUS, *PWWAN_SMS_STATUS
+f1_keywords:
+ - _WWAN_SMS_STATUS
+ - wwan/_WWAN_SMS_STATUS
+ - PWWAN_SMS_STATUS
+ - wwan/PWWAN_SMS_STATUS
+ - WWAN_SMS_STATUS
+ - wwan/WWAN_SMS_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_STATUS
 ---
 
 # _WWAN_SMS_STATUS structure
@@ -47,14 +50,9 @@ req.typenames: WWAN_SMS_STATUS, *PWWAN_SMS_STATUS
 
 ## -description
 
-
 The WWAN_SMS_STATUS structure represents the status of the SMS message store.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uFlag
 
@@ -109,7 +107,6 @@ Miniport drivers should not set or clear any flag until a change of state occurs
 Miniport drivers must send an unsolicited event to the MB Service whenever a flag is set. Miniport
      drivers do not need to send an unsolicited event when a flag is cleared (reset).
 
-
 ### -field MessageIndex
 
 This is the index of the newly arrived message or the recently arrived message in case of a 
@@ -123,14 +120,6 @@ If the
      <b>uFlag</b> is not set with WWAN_SMS_NEW_MESSAGE, this member must be initialized by the miniport driver
      with WWAN_MESSAGE_INDEX_NONE.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>

@@ -5,41 +5,42 @@ description: DXGK_CREATEPROCESSFLAGS is used with DXGKARG_CREATEPROCESS and Dxgk
 old-location: display\dxgk_createprocessflags.htm
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.date: 05/10/2018
-keywords: ["_DXGK_CREATEPROCESSFLAGS structure"]
+keywords: ["DXGK_CREATEPROCESSFLAGS structure"]
 ms.keywords: DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
-f1_keywords:
- - "d3dkmddi/DXGK_CREATEPROCESSFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_CREATEPROCESSFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CREATEPROCESSFLAGS
+f1_keywords:
+ - _DXGK_CREATEPROCESSFLAGS
+ - d3dkmddi/_DXGK_CREATEPROCESSFLAGS
+ - DXGK_CREATEPROCESSFLAGS
+ - d3dkmddi/DXGK_CREATEPROCESSFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_CREATEPROCESSFLAGS
 ---
 
 # _DXGK_CREATEPROCESSFLAGS structure
@@ -47,24 +48,17 @@ req.typenames: DXGK_CREATEPROCESSFLAGS
 
 ## -description
 
-
-<b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
-
+<b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> and <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 ## -struct-fields
-
-
-
 
 ### -field SystemProcess
 
 Indicates that a system process is being created.
 
-
 ### -field GdiProcess
 
 Indicates that a GDI process is being created.
-
 
 ### -field VirtualMachineProcess
 
@@ -82,23 +76,14 @@ The session isolated container.
 
 This member is reserved and should be set to zero.
 
-
 ### -field Value
 
 The consolidated value of the bitfield members of the structure.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>

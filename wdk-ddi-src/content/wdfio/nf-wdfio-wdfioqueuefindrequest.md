@@ -8,8 +8,6 @@ ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueFindRequest function"]
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
-f1_keywords:
- - "wdfio/WdfIoQueueFindRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueueFindRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueueFindRequest
+ - wdfio/WdfIoQueueFindRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueueFindRequest
 ---
 
 # WdfIoQueueFindRequest function
@@ -50,45 +49,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
-
+The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
 
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to a framework queue object.
 
+### -param FoundRequest 
 
-### -param FoundRequest [in, optional]
-
+[in, optional]
 A request object handle that the driver received from a previous call to <b>WdfIoQueueFindRequest</b>. This parameter is optional and can be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param FileObject [in, optional]
-
+[in, optional]
 A handle to a framework file object. This parameter is optional and can be <b>NULL</b>.
 
+### -param Parameters 
 
-### -param Parameters [in, out]
+[in, out]
+A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure that receives parameters that are associated with the found request. This parameter is optional and can be <b>NULL</b>.
 
-A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure that receives parameters that are associated with the found request. This parameter is optional and can be <b>NULL</b>.
+### -param OutRequest 
 
-
-### -param OutRequest [out]
-
+[out]
 A pointer to a location that receives a handle to the found request. If no match is found, the location receives <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfIoQueueFindRequest</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -133,22 +125,15 @@ The framework reached the end of the I/O queue without finding a request that ma
 </table>
  
 
-This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method also might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfIoQueueFindRequest</b> method searches a specified I/O queue and attempts to find an I/O request. 
 
-Your driver can call <b>WdfIoQueueFindRequest</b> only if the driver is using the manual <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a> for the specified I/O queue.
+Your driver can call <b>WdfIoQueueFindRequest</b> only if the driver is using the manual <a href="/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a> for the specified I/O queue.
 
 If <i>FileObject</i> is not <b>NULL</b>, <b>WdfIoQueueFindRequest</b> only examines requests that are associated with the specified file object handle.
 
@@ -156,9 +141,9 @@ If <i>FoundRequest</i> is <b>NULL</b>, this method locates the first request in 
 
 If <i>Parameters</i> is not <b>NULL</b>, this method copies the found request's parameters into the driver-supplied structure.
 
-Every call to <b>WdfIoQueueFindRequest</b> that returns STATUS_SUCCESS increments the reference count of the request object whose handle is returned in <i>OutRequest</i>. Therefore, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a> after you have finished using the handle. 
+Every call to <b>WdfIoQueueFindRequest</b> that returns STATUS_SUCCESS increments the reference count of the request object whose handle is returned in <i>OutRequest</i>. Therefore, your driver must call <a href="/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a> after you have finished using the handle. 
 
-Calling <b>WdfIoQueueFindRequest</b> does <i>not</i> grant the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">ownership</a> of any requests. If you want your driver to obtain ownership of a request so that it can process the request, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>. In fact, the driver can do only the following with the handle that it receives for the <i>OutRequest</i> parameter:
+Calling <b>WdfIoQueueFindRequest</b> does <i>not</i> grant the driver <a href="/windows-hardware/drivers/wdf/request-ownership">ownership</a> of any requests. If you want your driver to obtain ownership of a request so that it can process the request, the driver must call <a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>. In fact, the driver can do only the following with the handle that it receives for the <i>OutRequest</i> parameter:
 
 <ul>
 <li>
@@ -166,28 +151,28 @@ Use it as the <i>FoundRequest</i> parameter in a subsequent call to <b>WdfIoQueu
 
 </li>
 <li>
-Use it as the <i>FoundRequest</i> parameter in a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>.
+Use it as the <i>FoundRequest</i> parameter in a subsequent call to <a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>.
 
 </li>
 <li>
-Use it as the input parameter in a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectgettypedcontext">WdfObjectGetTypedContext</a> or a driver-defined method for accessing the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">context space</a>.
+Use it as the input parameter in a subsequent call to <a href="/windows-hardware/drivers/wdf/wdfobjectgettypedcontext">WdfObjectGetTypedContext</a> or a driver-defined method for accessing the object's <a href="/windows-hardware/drivers/wdf/framework-object-context-space">context space</a>.
 
 </li>
 <li>
-Use it as the input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>.
+Use it as the input parameter to <a href="/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>.
 
 </li>
 </ul>
-If a call to <b>WdfIoQueueFindRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. A call to <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a> can also return STATUS_NOT_FOUND.
+If a call to <b>WdfIoQueueFindRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. A call to <a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a> can also return STATUS_NOT_FOUND.
 
-For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href="/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples
 
 <b>Example 1</b>
 
-The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>.
+The following code example is from the <a href="/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>.
 
 ```cpp
 NTSTATUS
@@ -436,27 +421,18 @@ if (matchedRequest != NULL) {
 ... 
 ```
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
+<a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestop">WdfIoQueueStop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestop">WdfIoQueueStop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>

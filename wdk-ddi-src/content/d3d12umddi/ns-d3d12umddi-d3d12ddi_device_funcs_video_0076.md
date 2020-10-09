@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_DEVICE_FUNCS_VIDEO_0076
 f1_keywords:
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0076
  - d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0076
 dev_langs:
  - c++
@@ -125,3 +126,4 @@ Executes a device video extension command. See the [Protected Resources Specific
 ## -remarks
 
 ## -see-also
+

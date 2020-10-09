@@ -8,8 +8,6 @@ ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.date: 04/20/2018
 keywords: ["IPrintOemEngine::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnableDriver method, IPrintOemEngine.EnableDriver, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
-f1_keywords:
- - "prcomoem/IPrintOemEngine.EnableDriver"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemEngine.EnableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemEngine::EnableDriver
+ - prcomoem/IPrintOemEngine::EnableDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemEngine.EnableDriver
 ---
 
 # IPrintOemEngine::EnableDriver
@@ -47,40 +46,18 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
-
-
-
 
 ### -param DriverVersion
 
-
 ### -param cbSize
-
 
 ### -param pded
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>

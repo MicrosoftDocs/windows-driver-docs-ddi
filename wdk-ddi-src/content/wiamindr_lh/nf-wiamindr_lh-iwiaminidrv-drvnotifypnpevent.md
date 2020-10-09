@@ -8,12 +8,10 @@ ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvNotifyPnpEvent"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvNotifyPnpEvent method, IWiaMiniDrv.drvNotifyPnpEvent, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvNotifyPnpEvent"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvNotifyPnpEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvNotifyPnpEvent
+ - wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvNotifyPnpEvent
 ---
 
 # IWiaMiniDrv::drvNotifyPnpEvent
+
 
 ## -description
 
@@ -52,12 +52,14 @@ The **IWiaMiniDrv::drvNotifyPnpEvent** method responds to the event received fro
 
 ### -param pEventGUID
 
-### -param bstrDeviceID [in]
+### -param bstrDeviceID 
 
+[in]
 Specifies a string containing the device's unique identifier.
 
-### -param ulReserved [in]
+### -param ulReserved 
 
+[in]
 Is reserved for system use.
 
 #### - pEventGuid [in]
@@ -72,10 +74,10 @@ On success, the method should return S_OK. If the method fails, it should return
 
 The WIA service notifies a WIA minidriver of a supported device event by calling the **IWiaMiniDrv::drvNotifyPnpEvent** method. In this method the minidriver implements the device-specific functionality needed to respond to the event.
 
-If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](https://docs.microsoft.com/windows/win32/wia/-wia-wia-event-identifiers) device event, it should cancel all current I/O operations as soon as possible.
+If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](/windows/win32/wia/-wia-wia-event-identifiers) device event, it should cancel all current I/O operations as soon as possible.
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvGetCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities)
+[IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)

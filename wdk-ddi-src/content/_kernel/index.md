@@ -8,9 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-author: tedhudek
-product:
-- Windows
 ms.custom: 19H1
 ---
 
@@ -27,13 +24,13 @@ Here are the required and optional routines that you must implement in your driv
     The following routines are required for all drivers:
 
   - [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
-  - [AddDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device)
-  - [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch)
-  - [DriverUnload](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload)
+  - [AddDevice](../wdm/nc-wdm-driver_add_device.md)
+  - [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](../wdm/nc-wdm-driver_dispatch.md)
+  - [DriverUnload](../wdm/nc-wdm-driver_unload.md)
 
     The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
 
-    For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines).
+    For more information about standard driver routines, see [Introduction to Standard Driver Routines](/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines).
 
 - Driver Support Routines
 
@@ -72,20 +69,17 @@ Here are the required and optional routines that you must implement in your driv
 To develop Windows kernel, you need these headers:
 
 - [aux_klib.h](../aux_klib/index.md)
-- [buffring.h](../buffring/index.md)
 - [hwnclx.h](../hwnclx/index.md)
 - [ioaccess.h](../ioaccess/index.md)
 - [iointex.h](../iointex/index.md)
 - [ntddk.h](../ntddk/index.md)
 - [ntddsfio.h](../ntddsfio/index.md)
 - [ntddsysenv.h](../ntddsysenv/index.md)
-- [ntimage.h](../ntimage/index.md)
 - [ntintsafe.h](../ntintsafe/index.md)
 - [ntpoapi.h](../ntpoapi/index.md)
 - [ntstrsafe.h](../ntstrsafe/index.md)
 - [pcivirt.h](../pcivirt/index.md)
 - [pep_x.h](../pep_x/index.md)
-- [pepevents.h](../pepevents/index.md)
 - [pepfx.h](../pepfx/index.md)
 - [procgrp.h](../procgrp/index.md)
 - [pwmutil.h](../pwmutil/index.md)
@@ -96,7 +90,7 @@ To develop Windows kernel, you need these headers:
 - [wmilib.h](../wmilib/index.md)
 - [wmistr.h](../wmistr/index.md)
 
-For the programming guide, see [Windows kernel](https://docs.microsoft.com/windows-hardware/drivers/kernel).
+For the programming guide, see [Windows kernel](/windows-hardware/drivers/kernel).
 
 ## Initialization and Unload
 
@@ -104,9 +98,9 @@ This section summarizes kernel-mode support routines that can be called by drive
 
 |**Routines for …**  | **Routine** |
 |:--|:--|
-| Obtaining and reporting hardware configuration information about a driver's devices and the current platform. | [**IoGetDeviceProperty**](../wdm/nf-wdm-iogetdeviceproperty.md), [**IoReportDetectedDevice**](../ntddk/nf-ntddk-ioreportdetecteddevice.md), [**IoReportResourceForDetection**](../ntddk/nf-ntddk-ioreportresourcefordetection.md), [**IoGetDmaAdapter**](../wdm/nf-wdm-iogetdmaadapter.md), [**IoGetConfigurationInformation**](../ntddk/nf-ntddk-iogetconfigurationinformation.md), [**HalExamineMBR**](../ntddk/nf-ntddk-halexaminembr.md), [**IoReadPartitionTable**](../wdm/nf-wdm-file:///C:\Docs\kernel\storage\ioreadpartitiontable.md), [**IoInvalidateDeviceRelations**](../wdm/nf-wdm-ioinvalidatedevicerelations.md), [**IoInvalidateDeviceState**](../wdm/nf-wdm-ioinvalidatedevicestate.md), [**IoRegisterPlugPlayNotification**](../wdm/nf-wdm-ioregisterplugplaynotification.md), [**IoUnregisterPlugPlayNotification**](../wdm/nf-wdm-iounregisterplugplaynotification.md), [**IoRequestDeviceEject**](../wdm/nf-wdm-iorequestdeviceeject.md), [**IoReportTargetDeviceChange**](../wdm/nf-wdm-ioreporttargetdevicechange.md)
-| Obtaining and reporting configuration information, and for registering interfaces in the registry. | [**IoGetDeviceProperty**](../wdm/nf-wdm-iogetdeviceproperty.md), [****IoOpenDeviceInterfaceRegistryKey****](../wdm/nf-wdm-ioopendeviceinterfaceregistrykey.md), [****IoOpenDeviceRegistryKey****](../wdm/nf-wdm-ioopendeviceregistrykey.md), [**IoRegisterDeviceInterface**](../wdm/nf-wdm-ioregisterdeviceinterface.md), [**IoSetDeviceInterfaceState**](../wdm/nf-wdm-iosetdeviceinterfacestate.md), [**RtlCheckRegistryKey**](../wdm/nf-wdm-rtlcheckregistrykey.md), [**RtlCreateRegistryKey**](../wdm/nf-wdm-rtlcreateregistrykey.md), [**RtlQueryRegistryValues**](../wdm/nf-wdm-rtlqueryregistryvalues.md), [**RtlWriteRegistryValue**](../wdm/nf-wdm-rtlwriteregistryvalue.md), [**RtlDeleteRegistryValue**](../wdm/nf-wdm-rtldeleteregistryvalue.md), [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes), [**ZwCreateKey**](../wdm/nf-wdm-zwcreatekey.md), [**ZwOpenKey**](../wdm/nf-wdm-zwopenkey.md), [**ZwQueryKey**](../wdm/nf-wdm-zwquerykey.md), [**ZwEnumerateKey**](../wdm/nf-wdm-zwenumeratekey.md), [**ZwEnumerateValueKey**](../wdm/nf-wdm-zwenumeratevaluekey.md), [**ZwQueryValueKey**](../wdm/nf-wdm-zwqueryvaluekey.md), [**ZwSetValueKey**](../wdm/nf-wdm-zwsetvaluekey.md), [**ZwFlushKey**](../wdm/nf-wdm-zwflushkey.md), [**ZwDeleteKey**](../wdm/nf-wdm-zwdeletekey.md), [**ZwClose**](../wdm/nf-wdm-zwclose.md) |
-| Setting up and freeing the objects and resources that drivers might use. | [**IoCreateDevice**](../wdm/nf-wdm-iocreatedevice.md), [**IoDeleteDevice**](../wdm/nf-wdm-iodeletedevice.md), [**IoGetDeviceObjectPointer**](../wdm/nf-wdm-iogetdeviceobjectpointer.md), [**IoAttachDeviceToDeviceStack**](../wdm/nf-wdm-ioattachdevicetodevicestack.md), [**IoGetAttachedDeviceReference**](../wdm/nf-wdm-iogetattacheddevicereference.md), [**IoDetachDevice**](../wdm/nf-wdm-iodetachdevice.md), [**IoAllocateDriverObjectExtension**](../wdm/nf-wdm-ioallocatedriverobjectextension.md), [**IoGetDriverObjectExtension**](../wdm/nf-wdm-iogetdriverobjectextension.md), [**IoRegisterDeviceInterface**](../wdm/nf-wdm-ioregisterdeviceinterface.md), [**IoIsWdmVersionAvailable**](../wdm/nf-wdm-ioiswdmversionavailable.md), [**IoDeleteSymbolicLink**](../wdm/nf-wdm-iodeletesymboliclink.md), [**IoAssignArcName**](../ntddk/nf-ntddk-ioassignarcname.md), [**IoDeassignArcName**](../ntddk/nf-ntddk-iodeassignarcname.md), [**IoSetShareAccess**](../wdm/nf-wdm-iosetshareaccess.md), [**IoConnectInterrupt**](../wdm/nf-wdm-ioconnectinterrupt.md), [**IoDisconnectInterrupt**](../wdm/nf-wdm-iodisconnectinterrupt.md), [**IoConnectInterruptEx**](../wdm/nf-wdm-ioconnectinterruptex.md), [**IoDisconnectInterruptEx**](../wdm/nf-wdm-iodisconnectinterruptex.md), [**IoInitializeDpcRequest**](../wdm/nf-wdm-ioinitializedpcrequest.md), [**IoReadPartitionTable**](../wdm/nf-wdm-file:///C:\Docs\kernel\storage\ioreadpartitiontable.md), [**IoSetPartitionInformation**](../wdm/nf-wdm-file:///C:\Docs\kernel\storage\iosetpartitioninformation.md), [**IoWritePartitionTable**](../wdm/nf-wdm-file:///C:\Docs\kernel\storage\iowritepartitiontable.md), [**IoCreateController**](../ntddk/nf-ntddk-iocreatecontroller.md), [**IoDeleteController**](../ntddk/nf-ntddk-iodeletecontroller.md), [**KeInitializeSpinLock**](../wdm/nf-wdm-keinitializespinlock.md), [**KeInitializeDpc**](../wdm/nf-wdm-keinitializedpc.md), [**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md), [**KeInitializeTimerEx**](../wdm/nf-wdm-keinitializetimerex.md), [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md), [**ExInitializeFastMutex**](../wdm/nf-wdm-exinitializefastmutex.md), [**KeInitializeMutex**](../wdm/nf-wdm-keinitializemutex.md), [**KeInitializeSemaphore**](../wdm/nf-wdm-keinitializesemaphore.md), [**IoCreateNotificationEvent**](../wdm/nf-wdm-iocreatenotificationevent.md), [**IoCreateSynchronizationEvent**](../wdm/nf-wdm-iocreatesynchronizationevent.md), [**PsCreateSystemThread**](../wdm/nf-wdm-pscreatesystemthread.md), [**PsTerminateSystemThread**](../wdm/nf-wdm-psterminatesystemthread.md), [**KeSetBasePriorityThread**](../ntddk/nf-ntddk-kesetbaseprioritythread.md), [**KeSetPriorityThread**](../wdm/nf-wdm-kesetprioritythread.md), [**MmIsThisAnNtAsSystem**](../ntddk/nf-ntddk-mmisthisanntassystem.md), [**MmQuerySystemSize**](../wdm/nf-wdm-mmquerysystemsize.md), [**ExInitializeNPagedLookasideList**](../wdm/nf-wdm-exinitializenpagedlookasidelist.md), [**ExInitializePagedLookasideList**](../wdm/nf-wdm-exinitializepagedlookasidelist.md), [**ExInitializeResourceLite**](../wdm/nf-wdm-exinitializeresourcelite.md), [**ExReinitializeResourceLite**](../wdm/nf-wdm-exreinitializeresourcelite.md), [**ExDeleteResourceLite**](../wdm/nf-wdm-exdeleteresourcelite.md), [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md), [**ObReferenceObjectByPointer**](../wdm/nf-wdm-obreferenceobjectbypointer.md), [**ObReferenceObject**](../wdm/nf-wdm-obreferenceobject.md), [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md), [**RtlInitString**](../wdm/nf-wdm-rtlinitstring.md), [**RtlInitAnsiString**](../wdm/nf-wdm-rtlinitansistring.md), [**RtlInitUnicodeString**](../wdm/nf-wdm-rtlinitunicodestring.md), [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes), [**ZwCreateDirectoryObject**](../wdm/nf-wdm-zwcreatedirectoryobject.md), [**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md), [**ZwCreateKey**](../wdm/nf-wdm-zwcreatekey.md), [**ZwDeleteKey**](../wdm/nf-wdm-zwdeletekey.md), [**ZwMakeTemporaryObject**](../wdm/nf-wdm-zwmaketemporaryobject.md), [**ZwClose**](../wdm/nf-wdm-zwclose.md), [**PsGetVersion**](../wdm/nf-wdm-psgetversion.md), [**ObGetObjectSecurity**](../wdm/nf-wdm-obgetobjectsecurity.md), [**ObReleaseObjectSecurity**](../wdm/nf-wdm-obreleaseobjectsecurity.md) |
+| Obtaining and reporting hardware configuration information about a driver's devices and the current platform. | [**IoGetDeviceProperty**](../wdm/nf-wdm-iogetdeviceproperty.md), [**IoReportDetectedDevice**](../ntddk/nf-ntddk-ioreportdetecteddevice.md), [**IoReportResourceForDetection**](../ntddk/nf-ntddk-ioreportresourcefordetection.md), [**IoGetDmaAdapter**](../wdm/nf-wdm-iogetdmaadapter.md), [**IoGetConfigurationInformation**](../ntddk/nf-ntddk-iogetconfigurationinformation.md), [**HalExamineMBR**](../ntddk/nf-ntddk-halexaminembr.md), [**IoReadPartitionTable**](../ntddk/nf-ntddk-ioreadpartitiontable.md), [**IoInvalidateDeviceRelations**](../wdm/nf-wdm-ioinvalidatedevicerelations.md), [**IoInvalidateDeviceState**](../wdm/nf-wdm-ioinvalidatedevicestate.md), [**IoRegisterPlugPlayNotification**](../wdm/nf-wdm-ioregisterplugplaynotification.md), [**IoUnregisterPlugPlayNotification**](../wdm/nf-wdm-iounregisterplugplaynotification.md), [**IoRequestDeviceEject**](../wdm/nf-wdm-iorequestdeviceeject.md), [**IoReportTargetDeviceChange**](../wdm/nf-wdm-ioreporttargetdevicechange.md)
+| Obtaining and reporting configuration information, and for registering interfaces in the registry. | [**IoGetDeviceProperty**](../wdm/nf-wdm-iogetdeviceproperty.md), [****IoOpenDeviceInterfaceRegistryKey****](../wdm/nf-wdm-ioopendeviceinterfaceregistrykey.md), [****IoOpenDeviceRegistryKey****](../wdm/nf-wdm-ioopendeviceregistrykey.md), [**IoRegisterDeviceInterface**](../wdm/nf-wdm-ioregisterdeviceinterface.md), [**IoSetDeviceInterfaceState**](../wdm/nf-wdm-iosetdeviceinterfacestate.md), [**RtlCheckRegistryKey**](../wdm/nf-wdm-rtlcheckregistrykey.md), [**RtlCreateRegistryKey**](../wdm/nf-wdm-rtlcreateregistrykey.md), [**RtlQueryRegistryValues**](../wdm/nf-wdm-rtlqueryregistryvalues.md), [**RtlWriteRegistryValue**](../wdm/nf-wdm-rtlwriteregistryvalue.md), [**RtlDeleteRegistryValue**](../wdm/nf-wdm-rtldeleteregistryvalue.md), [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes), [**ZwCreateKey**](../wdm/nf-wdm-zwcreatekey.md), [**ZwOpenKey**](../wdm/nf-wdm-zwopenkey.md), [**ZwQueryKey**](../wdm/nf-wdm-zwquerykey.md), [**ZwEnumerateKey**](../wdm/nf-wdm-zwenumeratekey.md), [**ZwEnumerateValueKey**](../wdm/nf-wdm-zwenumeratevaluekey.md), [**ZwQueryValueKey**](../wdm/nf-wdm-zwqueryvaluekey.md), [**ZwSetValueKey**](../wdm/nf-wdm-zwsetvaluekey.md), [**ZwFlushKey**](../wdm/nf-wdm-zwflushkey.md), [**ZwDeleteKey**](../wdm/nf-wdm-zwdeletekey.md), [**ZwClose**](../wdm/nf-wdm-zwclose.md) |
+| Setting up and freeing the objects and resources that drivers might use. | [**IoCreateDevice**](../wdm/nf-wdm-iocreatedevice.md), [**IoDeleteDevice**](../wdm/nf-wdm-iodeletedevice.md), [**IoGetDeviceObjectPointer**](../wdm/nf-wdm-iogetdeviceobjectpointer.md), [**IoAttachDeviceToDeviceStack**](../wdm/nf-wdm-ioattachdevicetodevicestack.md), [**IoGetAttachedDeviceReference**](../wdm/nf-wdm-iogetattacheddevicereference.md), [**IoDetachDevice**](../wdm/nf-wdm-iodetachdevice.md), [**IoAllocateDriverObjectExtension**](../wdm/nf-wdm-ioallocatedriverobjectextension.md), [**IoGetDriverObjectExtension**](../wdm/nf-wdm-iogetdriverobjectextension.md), [**IoRegisterDeviceInterface**](../wdm/nf-wdm-ioregisterdeviceinterface.md), [**IoIsWdmVersionAvailable**](../wdm/nf-wdm-ioiswdmversionavailable.md), [**IoDeleteSymbolicLink**](../wdm/nf-wdm-iodeletesymboliclink.md), [**IoAssignArcName**](../ntddk/nf-ntddk-ioassignarcname.md), [**IoDeassignArcName**](../ntddk/nf-ntddk-iodeassignarcname.md), [**IoSetShareAccess**](../wdm/nf-wdm-iosetshareaccess.md), [**IoConnectInterrupt**](../wdm/nf-wdm-ioconnectinterrupt.md), [**IoDisconnectInterrupt**](../wdm/nf-wdm-iodisconnectinterrupt.md), [**IoConnectInterruptEx**](../wdm/nf-wdm-ioconnectinterruptex.md), [**IoDisconnectInterruptEx**](../wdm/nf-wdm-iodisconnectinterruptex.md), [**IoInitializeDpcRequest**](../wdm/nf-wdm-ioinitializedpcrequest.md), [**IoReadPartitionTable**](../ntddk/nf-ntddk-ioreadpartitiontable.md), [**IoSetPartitionInformation**](../ntddk/nf-ntddk-iosetpartitioninformation.md), [**IoWritePartitionTable**](../ntddk/nf-ntddk-iowritepartitiontable.md), [**IoCreateController**](../ntddk/nf-ntddk-iocreatecontroller.md), [**IoDeleteController**](../ntddk/nf-ntddk-iodeletecontroller.md), [**KeInitializeSpinLock**](../wdm/nf-wdm-keinitializespinlock.md), [**KeInitializeDpc**](../wdm/nf-wdm-keinitializedpc.md), [**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md), [**KeInitializeTimerEx**](../wdm/nf-wdm-keinitializetimerex.md), [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md), [**ExInitializeFastMutex**](../wdm/nf-wdm-exinitializefastmutex.md), [**KeInitializeMutex**](../wdm/nf-wdm-keinitializemutex.md), [**KeInitializeSemaphore**](../wdm/nf-wdm-keinitializesemaphore.md), [**IoCreateNotificationEvent**](../wdm/nf-wdm-iocreatenotificationevent.md), [**IoCreateSynchronizationEvent**](../wdm/nf-wdm-iocreatesynchronizationevent.md), [**PsCreateSystemThread**](../wdm/nf-wdm-pscreatesystemthread.md), [**PsTerminateSystemThread**](../wdm/nf-wdm-psterminatesystemthread.md), [**KeSetBasePriorityThread**](../ntddk/nf-ntddk-kesetbaseprioritythread.md), [**KeSetPriorityThread**](../wdm/nf-wdm-kesetprioritythread.md), [**MmIsThisAnNtAsSystem**](../ntddk/nf-ntddk-mmisthisanntassystem.md), [**MmQuerySystemSize**](../wdm/nf-wdm-mmquerysystemsize.md), [**ExInitializeNPagedLookasideList**](../wdm/nf-wdm-exinitializenpagedlookasidelist.md), [**ExInitializePagedLookasideList**](../wdm/nf-wdm-exinitializepagedlookasidelist.md), [**ExInitializeResourceLite**](../wdm/nf-wdm-exinitializeresourcelite.md), [**ExReinitializeResourceLite**](../wdm/nf-wdm-exreinitializeresourcelite.md), [**ExDeleteResourceLite**](../wdm/nf-wdm-exdeleteresourcelite.md), [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md), [**ObReferenceObjectByPointer**](../wdm/nf-wdm-obreferenceobjectbypointer.md), [**ObReferenceObject**](../wdm/nf-wdm-obreferenceobject.md), [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md), [**RtlInitString**](../wdm/nf-wdm-rtlinitstring.md), [**RtlInitAnsiString**](../wdm/nf-wdm-rtlinitansistring.md), [**RtlInitUnicodeString**](../wdm/nf-wdm-rtlinitunicodestring.md), [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes), [**ZwCreateDirectoryObject**](../wdm/nf-wdm-zwcreatedirectoryobject.md), [**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md), [**ZwCreateKey**](../wdm/nf-wdm-zwcreatekey.md), [**ZwDeleteKey**](../wdm/nf-wdm-zwdeletekey.md), [**ZwMakeTemporaryObject**](../wdm/nf-wdm-zwmaketemporaryobject.md), [**ZwClose**](../wdm/nf-wdm-zwclose.md), [**PsGetVersion**](../wdm/nf-wdm-psgetversion.md), [**ObGetObjectSecurity**](../wdm/nf-wdm-obgetobjectsecurity.md), [**ObReleaseObjectSecurity**](../wdm/nf-wdm-obreleaseobjectsecurity.md) |
 | Initializing driver-managed internal queues. | [**KeInitializeSpinLock**](../wdm/nf-wdm-keinitializespinlock.md),[**InitializeListHead**](../wdm/nf-wdm-initializelisthead.md), [**ExInitializeSListHead**](../wdm/nf-wdm-initializeslisthead.md), [**KeInitializeDeviceQueue**](../wdm/nf-wdm-keinitializedevicequeue.md), [**IoCsqInitialize**](../wdm/nf-wdm-iocsqinitialize.md) |
 
 The following routines are reserved for system use. Do not use them in your driver.
@@ -124,11 +118,11 @@ The following obsolete routines are exported only to support existing drivers:
 
 |Obsolete routine|Replacement |
 |---|---|
-|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer) instead.|
+|HalAllocateCommonBuffer |See [AllocateCommonBuffer](../wdm/nc-wdm-pallocate_common_buffer.md) instead.|
 |HalAssignSlotResources| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
-|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_common_buffer) instead.|
-|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) instead.|
-|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
+|HalFreeCommonBuffer |See [FreeCommonBuffer](../wdm/nc-wdm-pfree_common_buffer.md) instead.|
+|HalGetAdapter |See [IoGetDmaAdapter](../wdm/nf-wdm-iogetdmaadapter.md) instead.|
+|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
 |HalGetBusDataByOffset |Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.|
 |HalGetDmaAlignmentRequirement| See GetDmaAlignment instead.|
 |HalGetInterruptVector| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
@@ -145,7 +139,7 @@ The following routine is not supported and should not be used:
 
 Windows performs resource balancing of PCI bus resources to open an address region for a plugged device. The rebalance operation causes the bus data for some driver's device to move dynamically (between IRP_MN_STOP_DEVICE and IRP_MN_START_DEVICE calls). Therefore, a driver must not access the bus data directly. Instead the driver must pass it down to the lower bus driver because it knows the location of the device.
 
-For more information, see [Stopping a Device to Rebalance Resources](https://docs.microsoft.com/windows-hardware/drivers/kernel/stopping-a-device-to-rebalance-resources).
+For more information, see [Stopping a Device to Rebalance Resources](/windows-hardware/drivers/kernel/stopping-a-device-to-rebalance-resources).
 
 ### Registry
 
@@ -274,7 +268,7 @@ The Windows power management architecture provides a comprehensive approach to p
 
 Kernel-mode drivers call the PoXxx routines to perform power management for the devices that they control. This section contains the reference pages for these routines. The PoXxx routines are declared in the Wdm.h header file.
 
-For more information about power management, see [Power Management for Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-power-management).
+For more information about power management, see [Power Management for Windows Drivers](/windows-hardware/drivers/kernel/implementing-power-management).
 
 |Function|Description|
 |---|---|
@@ -353,13 +347,13 @@ Device power management callbacks are the callback routines that are required by
 Platform extension plug-ins (PEPs) provide interfaces for platform power management including device power management (DPM), processor power management (PPM), and, starting with Windows 10, ACPI runtime methods.
 
 The types of notifications sent to platform extension plug-ins (PEPs) include:
-[ACPI notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-notifications)
+[ACPI notifications](/windows-hardware/drivers/kernel/acpi-notifications)
 
-[Device power management (DPM) notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications)
+[Device power management (DPM) notifications](/windows-hardware/drivers/kernel/dpm-notifications)
 
-[Processor power management (PPM) notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/ppm-notifications)
+[Processor power management (PPM) notifications](/windows-hardware/drivers/kernel/ppm-notifications)
 
-[PPM power control codes](https://docs.microsoft.com/windows-hardware/drivers/kernel/ppm-power-control-codes)
+[PPM power control codes](/windows-hardware/drivers/kernel/ppm-power-control-codes)
 
 |Initialization Function|Description|
 |---|---|
@@ -608,15 +602,15 @@ This section contains reference pages for routines implemented by the Common Log
 
 ## IRPs
 
-Microsoft Windows use I/O Request Packets (IRPs) to send messages to device drivers. An IRP is a data structure that contains specific information used to convey the status of an event. For more information about the IRP data structure, see IRP and [IRP Major Function Codes](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-major-function-codes).
+Microsoft Windows use I/O Request Packets (IRPs) to send messages to device drivers. An IRP is a data structure that contains specific information used to convey the status of an event. For more information about the IRP data structure, see IRP and [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
 
 Your driver can use System-Supplied Driver Interfaces to send IRPs to other drivers.
 
 In addition to the Standard IRP Codes, there are three additional types of IRPs for specific technologies:
 
-- Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
-- Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/power-management-minor-irps)
-- Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-minor-irps)
+- Plug and Play IRPs, see [Plug and Play Minor IRPs](/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
+- Power Management IRPs, see [Power Management Minor IRPs](/windows-hardware/drivers/kernel/power-management-minor-irps)
+- Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](/windows-hardware/drivers/kernel/wmi-minor-irps)
 
 This section describes kernel-mode support routines that drivers can call:
 
@@ -1054,7 +1048,7 @@ The address-mapping and MDL-management routines are called by kernel-mode driver
 
 The buffer- and MDL-management macros are called by kernel-mode drivers to manage buffers and memory descriptor lists (MDLs).
 
-For more information about MDLs, see [Using MDLs](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls).
+For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 |Function|Description|
 |---|---|
@@ -1231,7 +1225,7 @@ The categories of support routines include those that drivers can call to:
 |IoWMISetSingleInstance |Sets the property values for a particular WMI class instance.
 |IoWMISetSingleItem |Sets the specified property for a particular WMI class instance.
 
-This section describes required and optional routines that a kernel-mode WDM driver contains, if the driver handles WMI Minor IRPs by calling WmiSystemControl. For more information, see [Calling WmiSystemControl to Handle WMI IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps).
+This section describes required and optional routines that a kernel-mode WDM driver contains, if the driver handles WMI Minor IRPs by calling WmiSystemControl. For more information, see [Calling WmiSystemControl to Handle WMI IRPs](/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps).
 
 The DpWmiXxx names that are used in the Microsoft Windows Driver Kit (WDK) documentation are placeholders. A driver's DpWmiXxx routines can have any names that the driver writer chooses.
 
@@ -1239,11 +1233,11 @@ The DpWmiXxx names that are used in the Microsoft Windows Driver Kit (WDK) docum
 
 The ZwXxx routines provide a set of system entry points that parallel some of the executive's system services. Calling a ZwXxx routine from kernel-mode code results in a call to the corresponding system service. Calling a ZwXxx routine from user mode is not supported; instead, native applications (applications that bypass the Microsoft Win32 subsystem) should call the NtXxx equivalent of the ZwXxx routine.
 
-For a list of NtXxx routines, see [NtXxx Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntxxx-routines).
+For a list of NtXxx routines, see [NtXxx Routines](/windows-hardware/drivers/kernel/ntxxx-routines).
 
 For a call to a ZwXxx routine from a kernel-mode driver, the system does not check the caller's access rights, nor does it set the previous processor mode to UserMode. Before calling a ZwXxx routine, a kernel-mode driver must check all user-supplied parameters for validity.
 
-For more information about the relationship between NtXxx and ZwXxx routines, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines). For a list of the ZwXxx routines in each major functional category, see Summary of Kernel-Mode Support Routines.
+For more information about the relationship between NtXxx and ZwXxx routines, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines). For a list of the ZwXxx routines in each major functional category, see Summary of Kernel-Mode Support Routines.
 
 The following routines are reserved for system use. Do not use them in your driver.
 
@@ -1526,7 +1520,7 @@ Keep notify routines short and simple.
 
 ## Run-Time Library (RTL) Routines
 
-For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
 
 |Function|Description|
 |---|---|
@@ -1577,7 +1571,7 @@ A W-suffixed version that supports two-byte Unicode characters.
 
 An A-suffixed version that supports one-byte ANSI characters.
 
-If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|
@@ -1614,7 +1608,7 @@ If you use the safe string functions instead of the string manipulation function
 
 Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
 
-If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|

@@ -8,8 +8,6 @@ ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
 ms.date: 04/30/2018
 keywords: ["IoAllocateIrp function"]
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
-f1_keywords:
- - "wdm/IoAllocateIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,35 +25,39 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoAllocateIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoAllocateIrp
+ - wdm/IoAllocateIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoAllocateIrp
 ---
 
 # IoAllocateIrp function
 
+
 ## -description
 
-The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller. See also [**IsAllocateIrpEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirpex).
+The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller. See also [**IsAllocateIrpEx**](./nf-wdm-ioallocateirpex.md).
 
 ## -parameters
 
-### -param StackSize [in]
+### -param StackSize 
 
+[in]
 Specifies the number of I/O stack locations to be allocated for the IRP. This value must be at least equal to the **StackSize** of the next-lower driver's device object, but can be one greater than this value. The calling driver need not allocate a stack location in the IRP for itself.
 
-### -param ChargeQuota [in]
+### -param ChargeQuota 
 
+[in]
 Setting this to **TRUE** causes the memory allocated for the IRP to be charged against the quota for the current process. Should be set to **FALSE** by intermediate drivers. This can be set to **TRUE** only by highest-level drivers that are called in the context of the thread that originates the I/O request for which the driver is allocating another IRP.
 
 ## -returns
@@ -66,30 +68,30 @@ Setting this to **TRUE** causes the memory allocated for the IRP to be charged a
 
 The **IoAllocateIrp** routine does not associate the IRP with a thread. The allocating driver must free the IRP instead of completing it back to the I/O manager.
 
-An intermediate or highest-level driver can call **IoAllocateIrp** to create IRPs for requests it sends to lower-level drivers. Such a driver must initialize the IRP and must set its [**IoCompletion**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine in the IRP it creates so the caller can dispose of the IRP when lower-level drivers have completed processing of the request.
+An intermediate or highest-level driver can call **IoAllocateIrp** to create IRPs for requests it sends to lower-level drivers. Such a driver must initialize the IRP and must set its [**IoCompletion**](./nc-wdm-io_completion_routine.md) routine in the IRP it creates so the caller can dispose of the IRP when lower-level drivers have completed processing of the request.
 
-**IoAllocateIrp** automatically initializes the IRP's members. Do not use **IoInitializeIrp** to initialize the IRP before its first use. (You can use **IoInitializeIrp** to reuse an IRP that you have already used under certain special circumstances. See [Reusing IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/reusing-irps) for details.)
+**IoAllocateIrp** automatically initializes the IRP's members. Do not use **IoInitializeIrp** to initialize the IRP before its first use. (You can use **IoInitializeIrp** to reuse an IRP that you have already used under certain special circumstances. See [Reusing IRPs](/windows-hardware/drivers/kernel/reusing-irps) for details.)
 
-An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest), [**IoBuildAsynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest) or [**IoBuildSynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [**IoMakeAssociatedIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp).
+An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlRequest**](./nf-wdm-iobuilddeviceiocontrolrequest.md), [**IoBuildAsynchronousFsdRequest**](./nf-wdm-iobuildasynchronousfsdrequest.md) or [**IoBuildSynchronousFsdRequest**](./nf-wdm-iobuildsynchronousfsdrequest.md) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [**IoMakeAssociatedIrp**](../ntddk/nf-ntddk-iomakeassociatedirp.md).
 
 ## -see-also
 
-[IO_STACK_LOCATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location)
+[IO_STACK_LOCATION](./ns-wdm-_io_stack_location.md)
 
-[IRP](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[IRP](./ns-wdm-_irp.md)
 
-[**IoAllocateIrpEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirpex)
+[**IoAllocateIrpEx**](./nf-wdm-ioallocateirpex.md)
 
-[**IoBuildAsynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[**IoBuildAsynchronousFsdRequest**](./nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[**IoBuildDeviceIoControlRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[**IoBuildDeviceIoControlRequest**](./nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[**IoBuildSynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[**IoBuildSynchronousFsdRequest**](./nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[**IoFreeIrp**](https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp)
+[**IoFreeIrp**](/windows-hardware/drivers/devtest/storport-iofreeirp)
 
-[**IoMakeAssociatedIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp)
+[**IoMakeAssociatedIrp**](../ntddk/nf-ntddk-iomakeassociatedirp.md)
 
-[**IoReuseIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreuseirp)
+[**IoReuseIrp**](./nf-wdm-ioreuseirp.md)
 
-[**IoSetCompletionRoutine**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[**IoSetCompletionRoutine**](./nf-wdm-iosetcompletionroutine.md)

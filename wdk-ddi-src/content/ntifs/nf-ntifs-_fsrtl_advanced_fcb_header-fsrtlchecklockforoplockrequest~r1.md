@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckLockForOplockRequest function"]
 ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 f1_keywords:
  - "ntifs/FsRtlCheckLockForOplockRequest"
+ - "FsRtlCheckLockForOplockRequest"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckLockForOplockRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlCheckLockForOplockRequest</b> routine checks for locks within the al
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 The file lock that specifies locked ranges.
 
 
-### -param AllocationSize [in]
-
+### -param AllocationSize 
+[in]
 The file allocation size to check for any locked ranges.
 
 

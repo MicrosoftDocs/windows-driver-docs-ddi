@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiGetRootPageTableSize"
+ - DXGKDDI_GETROOTPAGETABLESIZE
+ - d3dkmddi/DXGKDDI_GETROOTPAGETABLESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_GETROOTPAGETABLESIZE callback function
 
+
 ## -description
 
 <b>DxgkDdiGetRootPageTableSize</b> returns the minimum root page table size,  in bytes, that is needed to hold the given number of page table entries. The actual number of entries in the page table could be greater than the given value. 
@@ -58,9 +60,8 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getrootpagetablesize">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getrootpagetablesize">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
 
 ## -returns
 
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
-

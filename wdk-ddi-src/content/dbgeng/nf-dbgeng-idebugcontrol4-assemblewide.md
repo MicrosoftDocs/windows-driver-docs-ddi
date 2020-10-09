@@ -8,8 +8,6 @@ ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::AssembleWide"]
 ms.keywords: AssembleWide, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AssembleWide method, IDebugControl4.AssembleWide, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
-f1_keywords:
- - "dbgeng/IDebugControl4.AssembleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl4.AssembleWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::AssembleWide
+ - dbgeng/IDebugControl4::AssembleWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl4.AssembleWide
 ---
 
 # IDebugControl4::AssembleWide
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>AssembleWide</b> method assembles a single processor instruction.  The assembled instruction is placed in the target's memory.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the location in the target's memory to place the assembled instruction.
 
+### -param Instr 
 
-### -param Instr [in]
+[in]
+Specifies the instruction to assemble.  The instruction is assembled according to the target's effective processor type (returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>).
 
-Specifies the instruction to assemble.  The instruction is assembled according to the target's effective processor type (returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>).
+### -param EndOffset 
 
-
-### -param EndOffset [out]
-
+[out]
 Receives the location in the target's memory immediately following the assembled instruction.  <i>EndOffset</i> can be used when assembling multiple instructions.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -94,42 +86,27 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
-
-
 
 The assembly language depends on the effective processor type of the target machine.  For information about the assembly language, see the processor documentation.
 
 <div class="alert"><b>Note</b>  
-      The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-assemble">Assemble</a> and <b>AssembleWide</b> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
+      The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-assemble">Assemble</a> and <b>AssembleWide</b> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
 <div> </div>
-The assembly language options--returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>--affect the operation of this method.
+The assembly language options--returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>--affect the operation of this method.
 
-For an overview of using assembly in debugger applications, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-in-assembly-mode">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">debugger engine API</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
-
-
-
+For an overview of using assembly in debugger applications, see <a href="/windows-hardware/drivers/debugger/debugging-in-assembly-mode">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="/windows-hardware/drivers/debugger/d">debugger engine API</a>, see <a href="/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>

@@ -8,8 +8,6 @@ ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.date: 04/20/2018
 keywords: ["OEMDriverDMS function"]
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
-f1_keywords:
- - "printoem/OEMDriverDMS"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMDriverDMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMDriverDMS
+ - printoem/OEMDriverDMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMDriverDMS
 ---
 
 # OEMDriverDMS function
@@ -47,22 +46,17 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDevObj
 
+### -param pBuffer 
 
-### -param pBuffer [out]
-
+[out]
 
 ### -param cbSize
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
+[out]
 

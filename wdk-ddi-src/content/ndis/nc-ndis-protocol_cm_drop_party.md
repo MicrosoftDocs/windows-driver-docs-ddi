@@ -8,8 +8,6 @@ ms.assetid: be0fce3e-7308-42fa-b63a-4d5cfec7ea6c
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_DROP_PARTY callback function"]
 ms.keywords: PROTOCOL_CM_DROP_PARTY, PROTOCOL_CM_DROP_PARTY callback, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
-f1_keywords:
- - "ndis/ProtocolCmDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmDropParty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_DROP_PARTY
+ - ndis/PROTOCOL_CM_DROP_PARTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmDropParty
 ---
 
 # PROTOCOL_CM_DROP_PARTY callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmDropParty</i> function is required. NDIS calls 
@@ -57,33 +55,28 @@ The
 
 ## -parameters
 
+### -param CallMgrPartyContext 
 
-
-
-### -param CallMgrPartyContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-party state. This handle was provided to NDIS in the call managers 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
+### -param CloseData 
 
-### -param CloseData [in, optional]
-
+[in, optional]
 Pointer to a buffer containing connection-oriented client-specific data that should be sent across
      the connection before the party is dropped. This parameter is <b>NULL</b> if the underlying network medium does
      not support transfers of data when closing a connection.
 
+### -param Size 
 
-### -param Size [in, optional]
-
+[in, optional]
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmDropParty</i> returns the status of its operation(s) as one of the following values:
 
@@ -113,7 +106,7 @@ Indicates that the call manager has successfully dropped the party, sent any clo
 <td width="60%">
 Indicates that the call manager will complete the request to drop the party asynchronously. The
        call manager must call 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a> when
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a> when
        all processing has been finished to notify NDIS and the requesting actor that the party has been
        dropped.
 
@@ -133,20 +126,14 @@ Indicates that
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmDropParty</i> communicates with network control devices or other media-specific agents, as
     necessary for its media, to drop a party from an existing multipoint call. If the call manager is
     required to communicated with network control agents (such as, a networking switch) it should use a
     virtual connection to the network control agents that it established in its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
     ProtocolBindAdapterEx</a> function.
 
 If 
@@ -161,57 +148,37 @@ Call managers must also free any per-party resources that it allocated and store
     <i>CallMgrPartyContext</i> itself. Failure to do so will result in a memory leak condition.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCmDropParty</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCmDropParty</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmDropParty</i> function that is named "MyCmDropParty", use the <b>PROTOCOL_CM_DROP_PARTY</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_DROP_PARTY MyCmDropParty;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CM_DROP_PARTY MyCmDropParty;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmDropParty(
     NDIS_HANDLE  CallMgrPartyContext,
     PVOID  CloseData,
     UINT  Size
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CM_DROP_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_DROP_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>PROTOCOL_CM_DROP_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_DROP_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>

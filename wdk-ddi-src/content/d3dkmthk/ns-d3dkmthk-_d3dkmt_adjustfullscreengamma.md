@@ -4,41 +4,43 @@ title: _D3DKMT_ADJUSTFULLSCREENGAMMA (d3dkmthk.h)
 description: Used to adjust full screen gamma.
 ms.assetid: 655472c6-a8d5-4b7e-a6cf-02253582d656
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_ADJUSTFULLSCREENGAMMA structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_ADJUSTFULLSCREENGAMMA"
-ms.keywords: _D3DKMT_ADJUSTFULLSCREENGAMMA, D3DKMT_ADJUSTFULLSCREENGAMMA, 
+keywords: ["D3DKMT_ADJUSTFULLSCREENGAMMA structure"]
+ms.keywords: _D3DKMT_ADJUSTFULLSCREENGAMMA, D3DKMT_ADJUSTFULLSCREENGAMMA,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_ADJUSTFULLSCREENGAMMA
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_ADJUSTFULLSCREENGAMMA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_ADJUSTFULLSCREENGAMMA
+ - d3dkmthk/_D3DKMT_ADJUSTFULLSCREENGAMMA
+ - D3DKMT_ADJUSTFULLSCREENGAMMA
+ - d3dkmthk/D3DKMT_ADJUSTFULLSCREENGAMMA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_ADJUSTFULLSCREENGAMMA
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_ADJUSTFULLSCREENGAMMA structure
+
 
 ## -description
 
@@ -59,9 +61,11 @@ The zero-based identification number of the video present source in a path of a 
 The screen scale.
 
 ### -field Offset
+
  
 The offset.
 
 ## -remarks
 
 ## -see-also
+

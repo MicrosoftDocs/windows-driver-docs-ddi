@@ -8,8 +8,6 @@ ms.assetid: de55805d-d5fe-47ea-832d-536d8a7ee257
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAID structure"]
 ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid, ntddrilapitypes/RILCALLMEDIAID"
-f1_keywords:
- - "ntddrilapitypes/RILCALLMEDIAID"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIAID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAID, *LPRILCALLMEDIAID
+f1_keywords:
+ - RILCALLMEDIAID
+ - ntddrilapitypes/RILCALLMEDIAID
+ - LPRILCALLMEDIAID
+ - ntddrilapitypes/LPRILCALLMEDIAID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIAID
 ---
 
-# RILCALLMEDIAID structure
+# RILCALLMEDIAID structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwType
-
 
 ### -field dwID
 

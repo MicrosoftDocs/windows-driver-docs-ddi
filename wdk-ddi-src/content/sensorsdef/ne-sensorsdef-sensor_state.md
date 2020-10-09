@@ -8,8 +8,6 @@ ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.date: 05/03/2018
 keywords: ["SENSOR_STATE enumeration"]
 ms.keywords: SENSOR_STATE, SENSOR_STATE enumeration [Sensor Devices], SensorState_Active, SensorState_Error, SensorState_Idle, SensorState_Initializing, sensors.sensor_state, sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing
-f1_keywords:
- - "sensorsdef/SENSOR_STATE"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sensorsdef.h
-api_name:
-- SENSOR_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_STATE
+f1_keywords:
+ - SENSOR_STATE
+ - sensorsdef/SENSOR_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sensorsdef.h
+api_name:
+ - SENSOR_STATE
 ---
 
 # SENSOR_STATE enumeration
@@ -47,29 +46,21 @@ req.typenames: SENSOR_STATE
 
 ## -description
 
-
 This enumeration represents the valid states of a sensor.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SensorState_Initializing
 
 Indicates that the sensor is initializing.
 
-
 ### -field SensorState_Idle
 
 Indicates that the sensor is idle
 
-
 ### -field SensorState_Active
 
 Indicates that the sensor is active.
-
 
 ### -field SensorState_Error
 

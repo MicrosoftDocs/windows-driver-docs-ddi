@@ -10,6 +10,7 @@ keywords: ["FsRtlTruncateMcb function"]
 ms.keywords: FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb
 f1_keywords:
  - "ntifs/FsRtlTruncateMcb"
+ - "FsRtlTruncateMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlTruncateMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a> instead.
+The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a> instead.
 
 
 ## -parameters
@@ -64,8 +63,3 @@ The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support exis
 ### -param Vbn
 
 TBD
-
-
-
-
-

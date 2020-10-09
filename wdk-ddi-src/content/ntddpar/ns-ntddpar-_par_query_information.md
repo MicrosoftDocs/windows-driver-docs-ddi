@@ -6,40 +6,43 @@ old-location: parports\par_query_information.htm
 tech.root: parports
 ms.assetid: 3115b0c2-0190-4c5c-8b31-dbafddc9c44d
 ms.date: 02/15/2018
-keywords: ["_PAR_QUERY_INFORMATION structure"]
+keywords: ["PAR_QUERY_INFORMATION structure"]
 ms.keywords: "*PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION structure [Parallel Ports], PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], _PAR_QUERY_INFORMATION, cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, ntddpar/PAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, parports.par_query_information"
-f1_keywords:
- - "ntddpar/PAR_QUERY_INFORMATION"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddpar.h
-api_name:
-- PAR_QUERY_INFORMATION
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
+f1_keywords:
+ - _PAR_QUERY_INFORMATION
+ - ntddpar/_PAR_QUERY_INFORMATION
+ - PPAR_QUERY_INFORMATION
+ - ntddpar/PPAR_QUERY_INFORMATION
+ - PAR_QUERY_INFORMATION
+ - ntddpar/PAR_QUERY_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddpar.h
+api_name:
+ - PAR_QUERY_INFORMATION
 ---
 
 # _PAR_QUERY_INFORMATION structure
@@ -47,24 +50,9 @@ req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
 
 ## -description
 
-
 The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel port.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _PAR_QUERY_INFORMATION {
-  UCHAR Status;
-} PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Status
 
@@ -104,15 +92,17 @@ Specifies the operating status of a parallel port. The value of <b>Status</b> is
 
 #### PARALLEL_SELECTED
 
+## -syntax
+
+```cpp
+typedef struct _PAR_QUERY_INFORMATION {
+  UCHAR Status;
+} PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION;
+```
 
 ## -remarks
 
-
-
 This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a> request.
-
-
-
 
 ## -see-also
 
@@ -125,11 +115,4 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_in
 
 
 <a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
-
-
-
- 
-
- 
-
 

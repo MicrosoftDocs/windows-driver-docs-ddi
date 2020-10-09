@@ -8,8 +8,6 @@ ms.assetid: a06de368-71a1-49f1-a948-1b69ca359fb6
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::GetPropId"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],GetPropId method, CWiauPropertyList.GetPropId, CWiauPropertyList::GetPropId, GetPropId, GetPropId method [Imaging Devices], GetPropId method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_getpropid, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, wiautil/CWiauPropertyList::GetPropId
-f1_keywords:
- - "wiautil/CWiauPropertyList.GetPropId"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.GetPropId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauPropertyList::GetPropId
+ - wiautil/CWiauPropertyList::GetPropId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.GetPropId
 ---
 
 # CWiauPropertyList::GetPropId
+
 
 ## -description
 
@@ -63,3 +63,4 @@ The **CWiauPropertyList::GetPropId** method returns the property ID for the prop
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::LookupPropId](nf-wiautil-cwiaupropertylist-lookuppropid.md)
+

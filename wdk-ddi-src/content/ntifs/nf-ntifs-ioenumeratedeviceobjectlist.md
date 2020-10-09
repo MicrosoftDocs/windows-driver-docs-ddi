@@ -8,8 +8,6 @@ ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.date: 04/16/2018
 keywords: ["IoEnumerateDeviceObjectList function"]
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList
-f1_keywords:
- - "ntifs/IoEnumerateDeviceObjectList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoEnumerateDeviceObjectList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoEnumerateDeviceObjectList
+ - ntifs/IoEnumerateDeviceObjectList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoEnumerateDeviceObjectList
 ---
 
 # IoEnumerateDeviceObjectList function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoEnumerateDeviceObjectList</b> routine enumerates a driver's device object list. 
-
+The <b>IoEnumerateDeviceObjectList</b> routine enumerates a driver's device object list.
 
 ## -parameters
 
+### -param DriverObject 
 
+[in]
+A pointer to the driver object for the driver.
 
+### -param DeviceObjectList 
 
-### -param DriverObject [in]
+[out]
+A pointer to a caller-allocated array that receives the device object pointers. This parameter can be <b>NULL</b>.
 
-A pointer to the driver object for the driver. 
+### -param DeviceObjectListSize 
 
+[in]
+Size, in bytes, of the <i>DeviceObjectList</i> array. Can be zero.
 
-### -param DeviceObjectList [out]
+### -param ActualNumberDeviceObjects 
 
-A pointer to a caller-allocated array that receives the device object pointers. This parameter can be <b>NULL</b>. 
-
-
-### -param DeviceObjectListSize [in]
-
-Size, in bytes, of the <i>DeviceObjectList</i> array. Can be zero. 
-
-
-### -param ActualNumberDeviceObjects [out]
-
-Actual number of device objects found in the driver object's device object list. Note that if the array at <i>DeviceObjectList</i> is too small, the number of device object pointers that are copied into the array will be less than <i>ActualNumberDeviceObjects</i>. 
-
+[out]
+Actual number of device objects found in the driver object's device object list. Note that if the array at <i>DeviceObjectList</i> is too small, the number of device object pointers that are copied into the array will be less than <i>ActualNumberDeviceObjects</i>.
 
 ## -returns
-
-
 
 <b>IoEnumerateDeviceObjectList</b> can return one of the following: 
 
@@ -110,20 +102,14 @@ The array at <i>DeviceObjectList</i> is too small to hold the entire device obje
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A file system filter driver calls <b>IoEnumerateDeviceObjectList</b> to enumerate: 
 
 <ul>
 <li>
-The device objects it has created. This is commonly done when the driver is preparing to unload. Note that a file system filter driver cannot safely be unloaded from a running system. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">ZwUnloadDriver</a>.
+The device objects it has created. This is commonly done when the driver is preparing to unload. Note that a file system filter driver cannot safely be unloaded from a running system. For more information, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">ZwUnloadDriver</a>.
 
 </li>
 <li>
@@ -135,34 +121,24 @@ The device objects created by the base file system, so the filter knows the numb
 
 In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObjectList</b> twice: once to get the number of device objects in the list, and once to get the device object list itself. In the first call, the caller should set the <i>DeviceObjectList</i> parameter to <b>NULL</b> and <i>DeviceObjectListSize</i> to zero. In the second call, <i>DeviceObjectList</i> should contain a pointer to an appropriately-sized pointer array, and <i>DeviceObjectListSize</i> should contain the size, in bytes, of that array. 
 
-<b>IoEnumerateDeviceObjectList</b> increments the reference count on every device object in the list pointed to by <i>DeviceObjectList</i>. Thus every successful call to <b>IoEnumerateDeviceObjectList</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>for each device object in the list. Failure to do so prevents the system from freeing or deleting these device objects because of an outstanding reference count. 
-
-
-
+<b>IoEnumerateDeviceObjectList</b> increments the reference count on every device object in the list pointed to by <i>DeviceObjectList</i>. Thus every successful call to <b>IoEnumerateDeviceObjectList</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for each device object in the list. Failure to do so prevents the system from freeing or deleting these device objects because of an outstanding reference count.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevice">IoGetAttachedDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevice">IoGetAttachedDevice</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetlowerdeviceobject">IoGetLowerDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetlowerdeviceobject">IoGetLowerDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">ZwUnloadDriver</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">ZwUnloadDriver</a>

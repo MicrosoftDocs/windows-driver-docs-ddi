@@ -8,8 +8,6 @@ ms.assetid: 00833038-1fff-4103-9508-07cb8cbfa846
 ms.date: 05/02/2018
 keywords: ["NdisCmAddPartyComplete function"]
 ms.keywords: NdisCmAddPartyComplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete
-f1_keywords:
- - "ndis/NdisCmAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmAddPartyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmAddPartyComplete
+ - ndis/NdisCmAddPartyComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmAddPartyComplete
 ---
 
 # NdisCmAddPartyComplete function
@@ -48,48 +47,41 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmAddPartyComplete</b> returns the final status of a client's request, for which the call manager
   previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the call manager's add-party operation, either NDIS_STATUS_SUCCESS
      or any NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in]
-
+[in]
 Specifies the handle identifying the party. This handle was input to the call manager's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
+### -param CallMgrPartyContext 
 
-### -param CallMgrPartyContext [in, optional]
-
+[in, optional]
 Specifies the handle to a caller-allocated resident context area in which the call manager will
      maintain party-specific state information if the add-party operation succeeded. Otherwise, this
      parameter can be <b>NULL</b> because it is ignored.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to a structure of type 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that contains the call
+     <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
-
 
 ## -remarks
 
-
-
 If a stand-alone call manager's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function returns
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function returns
     NDIS_STATUS_PENDING, the CM subsequently must call 
     <b>NdisCmAddPartyComplete</b> to notify the client and NDIS that its attempt to add a party on the
     multipoint VC has completed, whether successfully or with an error.
@@ -122,9 +114,9 @@ Change the traffic parameters for the VC and, for every party currently connecte
 <li>
 Fail the client's attempt to add a party. (This alternative implicitly forces clients to set up
       their traffic parameters for a multipoint VC with 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and to specify the same
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and to specify the same
       traffic parameters at each subsequent call to 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> for the given multipoint
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> for the given multipoint
       VC.)
 
 </li>
@@ -140,7 +132,7 @@ If the CM sets
 
 A call to 
     <b>NdisCmAddPartyComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">
     ProtocolClAddPartyComplete</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -148,37 +140,27 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmAddPartyComplete</b> instead.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmaddpartycomplete">NdisMCmAddPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmaddpartycomplete">NdisMCmAddPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>

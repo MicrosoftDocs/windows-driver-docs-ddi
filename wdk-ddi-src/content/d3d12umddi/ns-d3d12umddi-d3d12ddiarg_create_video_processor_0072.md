@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 f1_keywords:
+ - D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
  - d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 dev_langs:
  - c++
@@ -52,7 +53,7 @@ A [**D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032**](ns-d3d12umddi-d3d12ddi_vi
 
 ### -field pInputStreams
 
-Pointer to a [**D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043**](ns-d3d12umddi-d3d12ddi_video_process_input_stream_desc_0043.md) structure for the input stream.
+Pointer to a [**D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043**](ns-d3d12umddi-d3d12ddi_video_processor_input_stream_desc_0043.md) structure for the input stream.
 
 ### -field NumInputStreams
 

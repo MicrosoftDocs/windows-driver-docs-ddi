@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumDescriptors"
+ - DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
+ - d3dkmddi/DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback function
 
+
 ## -description
 
 The <b>pfnGetNumDescriptors</b> function returns the number of descriptors in a monitor descriptor set.
@@ -52,7 +54,7 @@ The <b>pfnGetNumDescriptors</b> function returns the number of descriptors in a 
 
 ### -param hMonitorDescriptorSet
 
-[in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset">pfnGetMonitorDescriptorSet</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+[in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset">pfnGetMonitorDescriptorSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
 ### -param pNumMonitorDescriptors
 
@@ -67,4 +69,3 @@ The <b>pfnGetNumDescriptors</b> function returns one of the following values.
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET|The handle supplied in hMonitorDescriptorSet was invalid.|
-

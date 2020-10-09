@@ -8,8 +8,6 @@ ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.date: 05/10/2018
 keywords: ["D3DDDI_RESERVEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
-f1_keywords:
- - "d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_RESERVEGPUVIRTUALADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_RESERVEGPUVIRTUALADDRESS
+f1_keywords:
+ - D3DDDI_RESERVEGPUVIRTUALADDRESS
+ - d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_RESERVEGPUVIRTUALADDRESS
 ---
 
 # D3DDDI_RESERVEGPUVIRTUALADDRESS structure
@@ -47,24 +46,17 @@ req.typenames: D3DDDI_RESERVEGPUVIRTUALADDRESS
 
 ## -description
 
-
-<b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
-
+<b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
 
 ## -struct-fields
-
-
-
 
 ### -field hPagingQueue
 
 Paging queue to synchronize the operation on.
 
-
 ### -field hAdapter
 
-DirectX graphics adapter handle. 
-
+DirectX graphics adapter handle.
 
 ### -field BaseAddress
 
@@ -75,8 +67,6 @@ DirectX graphics adapter handle.
 
 If <b>NULL</b> is specified the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>.
 
-
-
 ### -field MinimumAddress
 
 (Optional) Specifies the minimum GPU virtual address to consider for the reserved range.
@@ -84,7 +74,6 @@ If <b>NULL</b> is specified the video memory manager will pick the base address 
 <b>MinimumAddress</b> is in bytes and must be aligned to 64KB boundary.
 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
-
 
 ### -field MaximumAddress
 
@@ -94,54 +83,38 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
-
 ### -field Size
 
 Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
-
 
 ### -field ReservationType
 
 Specifies the virtual address reservation type.
 
-
 ### -field Reserved0
 
 This member is reserved and should be set to zero.
-
 
 ### -field DriverProtection
 
 Specifies the driver-specific protection
 
-
 ### -field Reserved1
 
 This member is reserved and should be set to zero.
-
 
 ### -field VirtualAddress
 
 [out] The reserved virtual address.
 
-
 ### -field PagingFenceValue
 
 Paging fence identifier for synchronization
-
 
 ### -field Reserved2
 
 This member is reserved and should be set to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>

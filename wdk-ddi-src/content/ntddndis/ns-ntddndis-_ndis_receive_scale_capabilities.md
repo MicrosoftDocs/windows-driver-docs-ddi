@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_scale_capabilities.htm
 tech.root: netvista
 ms.assetid: dabd8f65-1aa5-4d45-9c0a-4539efd762c6
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_SCALE_CAPABILITIES structure"]
+keywords: ["NDIS_RECEIVE_SCALE_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_RSS_CAPS_CLASSIFICATION_AT_DPC, NDIS_RSS_CAPS_CLASSIFICATION_AT_ISR, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6_EX, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX, NDIS_RSS_CAPS_MESSAGE_SIGNALED_INTERRUPTS, NDIS_RSS_CAPS_SUPPORTS_MSI_X, NDIS_RSS_CAPS_USING_MSI_X, NdisHashFunctionReserved1, NdisHashFunctionReserved2, NdisHashFunctionReserved3, NdisHashFunctionToeplitz, PNDIS_RECEIVE_SCALE_CAPABILITIES, PNDIS_RECEIVE_SCALE_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_CAPABILITIES, netvista.ndis_receive_scale_capabilities, ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES, ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES, receive_scaling_structures_ref_b9df619b-57b8-4fa3-b292-bba02175a23a.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_SCALE_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIES
+f1_keywords:
+ - _NDIS_RECEIVE_SCALE_CAPABILITIES
+ - ntddndis/_NDIS_RECEIVE_SCALE_CAPABILITIES
+ - PNDIS_RECEIVE_SCALE_CAPABILITIES
+ - ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES
+ - NDIS_RECEIVE_SCALE_CAPABILITIES
+ - ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_SCALE_CAPABILITIES
 ---
 
 # _NDIS_RECEIVE_SCALE_CAPABILITIES structure
@@ -47,21 +50,14 @@ req.typenames: NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIE
 
 ## -description
 
-
-The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> capabilities of a miniport adapter. 
-  
-  
-
+The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> capabilities of a miniport adapter.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_CAPABILITIES</b>. 
@@ -77,7 +73,6 @@ For NDIS 6.30 and later, set the
 For NDIS 6.0, 6.1, and 6.20, set the 
      <b>Revision</b> member to <b>NDIS_RECEIVE_SCALE_CAPABILITIES_REVISION_1</b> and the 
      <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_SCALE_CAPABILITIES_REVISION_1</b>.
-
 
 ### -field CapabilitiesFlags
 
@@ -107,7 +102,7 @@ Set this flag if the NIC supports message-signaled interrupts (MSIs). This flag 
 </dl>
 </td>
 <td width="60%">
-Set this flag if the NIC can indicate to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function which target CPUs have
+Set this flag if the NIC can indicate to the <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function which target CPUs have
         queued received packets.
 
 </td>
@@ -140,7 +135,7 @@ Set this flag if the NIC supports MSIs. This flag is supported in NDIS 6.30 and 
 </td>
 <td width="60%">
 Set this flag if the miniport driver can detect which target CPUs have queued receive packets
-        from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
+        from its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
 
 </td>
 </tr>
@@ -220,7 +215,7 @@ Set this flag if the NIC can identify an IPv6 packet and compute a hash value ov
 <td width="60%">
 Set this flag if the NIC supports the toeplitz hash function. If the NIC supports RSS, support
         for the hash function is mandatory. For more information about hash functions, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>.
+        <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>.
 
 </td>
 </tr>
@@ -255,31 +250,24 @@ This flag is reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NumberOfInterruptMessages
 
 The number of interrupt messages that the NIC supports if the NIC supports MSIs. If the NIC does
      not support MSIs but supports line-based interrupts, set this number to 1.
 
-
 ### -field NumberOfReceiveQueues
 
 The number of hardware receive queues that the NIC supports.
-
 
 ### -field NumberOfIndirectionTableEntries
 
 The maximum number of entries that the miniport driver supports in the indirection table. This value must be a power of 2. All NDIS 6.30 and later miniport adapters must support this member, which is required for virtual functions.
 
-
 ## -remarks
 
-
-
 Overlying drivers can use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+    <a href="/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
     OID_GEN_RECEIVE_SCALE_CAPABILITIES</a> OID to query the receive side scaling (RSS) capabilities of a
     NIC and its miniport driver.
 
@@ -287,38 +275,28 @@ The miniport driver returns the RSS capabilities in an <b>NDIS_RECEIVE_SCALE_CAP
 
 For some workloads, a subset of UDP packets could be fragmented due to route changes or the sender not adhering to MTU limitations. In such rare cases, packets of the same flow could be indicated on different processors based on the 4-tuple or 2-tuple hash. Therefore, miniport drivers that advertise <b>NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4</b>, <b>NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6</b>, and <b>NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX</b> should provide a way to disable UDP RSS capabilities via Advanced Properties.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+<a href="/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>

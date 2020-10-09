@@ -5,10 +5,8 @@ description: The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows s
 tech.root: kernel
 ms.assetid: 2db2ba80-17c2-4161-9be7-c3fdc8d824cd
 ms.date: 11/06/2019
-keywords: ["_NAMED_PIPE_CREATE_PARAMETERS structure"]
+keywords: ["NAMED_PIPE_CREATE_PARAMETERS structure"]
 ms.keywords: "*PNAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS structure"
-f1_keywords:
- - "wdm/NAMED_PIPE_CREATE_PARAMETERS"
 req.header: wdm.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -26,22 +24,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- NAMED_PIPE_CREATE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NAMED_PIPE_CREATE_PARAMETERS, *PNAMED_PIPE_CREATE_PARAMETERS
+f1_keywords:
+ - _NAMED_PIPE_CREATE_PARAMETERS
+ - wdm/_NAMED_PIPE_CREATE_PARAMETERS
+ - PNAMED_PIPE_CREATE_PARAMETERS
+ - wdm/PNAMED_PIPE_CREATE_PARAMETERS
+ - NAMED_PIPE_CREATE_PARAMETERS
+ - wdm/NAMED_PIPE_CREATE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - NAMED_PIPE_CREATE_PARAMETERS
 ---
 
 # _NAMED_PIPE_CREATE_PARAMETERS structure
+
 
 ## -description
 
@@ -83,11 +87,8 @@ Boolean value that specifies whether a pointer to a timeout period was provided 
 
 ## - remarks
 
-For an [IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) operation, [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters) is a *CreatePipe* structure, and *CreatePipe.Parameters* points to a NAMED_PIPE_CREATE_PARAMETERS structure that describes the named pipe to create or open.
+For an [IRP_MJ_CREATE_NAMED_PIPE](/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) operation, [FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md) is a *CreatePipe* structure, and *CreatePipe.Parameters* points to a NAMED_PIPE_CREATE_PARAMETERS structure that describes the named pipe to create or open.
 
 ## -see-also
 
-[FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters)
-## -see-also
-
-[IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe)
+[FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md)

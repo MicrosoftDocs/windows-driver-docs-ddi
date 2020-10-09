@@ -8,8 +8,6 @@ ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.date: 04/30/2018
 keywords: ["PoRegisterSystemState function"]
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
-f1_keywords:
- - "ntifs/PoRegisterSystemState"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,42 +25,39 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoRegisterSystemState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoRegisterSystemState
+ - ntifs/PoRegisterSystemState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoRegisterSystemState
 ---
 
-# PoRegisterSystemState function
+# PoRegisterSystemState function (ntifs.h)
 
 
 ## -description
 
-
 The <b>PoRegisterSystemState</b> routine registers the system as busy due to certain activity.
-
 
 ## -parameters
 
+### -param StateHandle 
 
-
-
-### -param StateHandle [in, out]
-
+[in, out]
 A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
 
@@ -91,44 +86,26 @@ A user is present.
 
 The settings are continuous and should remain in effect until explicitly changed.
 
-
 ## -returns
-
-
 
 <b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
 
-
-
-
 ## -remarks
 
-
-
-<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>.
+<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>.
 
 The <i>Flags</i> parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
 
 Setting ES_CONTINUOUS makes the busy state persist until a driver explicitly changes or cancels it by calling <b>PoRegisterSystemState</b> or <b>PoUnregisterSystemState</b>.
 
-A driver can set the system busy state to request that the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> avoid system power state transitions out of the system working state (S0) while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the power manager may override this request and put the system to sleep anyway.
+A driver can set the system busy state to request that the <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> avoid system power state transitions out of the system working state (S0) while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the power manager may override this request and put the system to sleep anyway.
 
-To set the system power state, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>.
-
-
-
+To set the system power state, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>

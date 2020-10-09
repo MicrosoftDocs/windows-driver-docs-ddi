@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyOverlay"
+ - PFND3DDDI_DESTROYOVERLAY
+ - d3dumddi/PFND3DDDI_DESTROYOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_DESTROYOVERLAY callback function
 
+
 ## -description
 
 The <b>DestroyOverlay</b> function disables the overlay hardware and frees the overlay handle.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_destroyoverlay">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_destroyoverlay">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
 
 ## -returns
 
@@ -70,9 +72,8 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_destroyoverlay">D3DDDIARG_DESTROYOVERLAY</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_destroyoverlay">D3DDDIARG_DESTROYOVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

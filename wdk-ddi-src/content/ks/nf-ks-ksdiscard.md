@@ -8,8 +8,6 @@ ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
 ms.date: 04/23/2018
 keywords: ["KsDiscard macro"]
 ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
-f1_keywords:
- - "ks/KsDiscard"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsDiscard
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsDiscard
+ - ks/KsDiscard
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsDiscard
 ---
 
 # KsDiscard macro
+
 
 ## -description
 
@@ -51,17 +51,19 @@ The **KsDiscard**macro removes a given item from an object bag.
 
 ## -parameters
 
-### -param Object [in]
+### -param Object 
 
-The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice), [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory), [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter), or [KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin).
+[in]
+The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](./ns-ks-_ksdevice.md), [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md), [KSFILTER](./ns-ks-_ksfilter.md), or [KSPIN](./ns-ks-_kspin.md).
 
-### -param Pointer [in]
+### -param Pointer 
 
+[in]
 A pointer to the item to be removed from the requested object's bag.
 
 ## -remarks
 
-This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag), which is **ULONG**.
+This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md), which is **ULONG**.
 
 This function is implemented as a C-style preprocessing macro in the *Ks.h* header.
 
@@ -69,12 +71,12 @@ This function is implemented as a C-style preprocessing macro in the *Ks.h* head
 
 ## -see-also
 
-[KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice)
+[KSDEVICE](./ns-ks-_ksdevice.md)
 
-[KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter)
+[KSFILTER](./ns-ks-_ksfilter.md)
 
-[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory)
+[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
 
-[KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin)
+[KSPIN](./ns-ks-_kspin.md)
 
-[KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag)
+[KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md)

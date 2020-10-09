@@ -8,8 +8,6 @@ ms.assetid: 90F4CE6D-F51A-4B18-B328-63AF4D71A690
 ms.date: 04/30/2018
 keywords: ["KeConvertAuxiliaryCounterToPerformanceCounter function"]
 ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertauxiliarycountertoperformancecounter, wdm/KeConvertAuxiliaryCounterToPerformanceCounter
-f1_keywords:
- - "wdm/KeConvertAuxiliaryCounterToPerformanceCounter"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hal.dll
-api_name:
-- KeConvertAuxiliaryCounterToPerformanceCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeConvertAuxiliaryCounterToPerformanceCounter
+ - wdm/KeConvertAuxiliaryCounterToPerformanceCounter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hal.dll
+api_name:
+ - KeConvertAuxiliaryCounterToPerformanceCounter
 ---
 
 # KeConvertAuxiliaryCounterToPerformanceCounter function
@@ -47,36 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The  <b>KeConvertAuxiliaryCounterToPerformanceCounter</b> routine converts the specified auxiliary counter value into a performance  counter value.
-
-
-
-
 
 ## -parameters
 
+### -param AuxiliaryCounterValue 
 
-
-
-### -param AuxiliaryCounterValue [in]
-
+[in]
 The auxiliary counter value to convert.
 
+### -param PerformanceCounterValue 
 
-### -param PerformanceCounterValue [out]
-
+[out]
 A pointer to the variable that contains the converted performance counter value.
 
+### -param ConversionError 
 
-### -param ConversionError [out, optional]
-
+[out, optional]
 A pointer to a variable that contains the estimated conversion error in units of nanosecond.
 
-
 ## -returns
-
-
 
 <b>KeConvertAuxiliaryCounterToPerformanceCounter</b> can return one of the following:
 
@@ -130,29 +119,11 @@ The routine cannot convert the specified value with acceptable accuracy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Make sure that the specified auxiliary counter value is within +/- 10s compared to the current value.
-
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keconvertperformancecountertoauxiliarycounter">KeConvertPerformanceCounterToAuxiliaryCounter</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keconvertperformancecountertoauxiliarycounter">KeConvertPerformanceCounterToAuxiliaryCounter</a>

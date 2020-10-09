@@ -34,6 +34,7 @@ api_location:
 api_name:
  - DXGKDDI_OPM_SET_SRM_LIST
 f1_keywords:
+ - DXGKDDI_OPM_SET_SRM_LIST
  - dispmprt/DXGKDDI_OPM_SET_SRM_LIST
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The *DxgkDdiOPMSetSrmList* function sets the output protection manager (OPM) system renewability message (SRM) list.
+The **DxgkDdiOPMSetSrmList** function sets the output protection manager (OPM) system renewability message (SRM) list.
 
 ## -parameters
 
@@ -67,6 +68,6 @@ Pointer to a buffer containing the updated SRM list.
 
 ## -see-also
 
-[**DXGK_OPM_INTERFACE_3**](ns-dispmprt-_dxgk_opm_interface_3)
+[**DXGK_OPM_INTERFACE_3**](ns-dispmprt-_dxgk_opm_interface_3.md)
 
 [*DxgkDdiOPMGetSrmListVersion*](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md)

@@ -8,8 +8,6 @@ ms.assetid: 5be1ede7-13a0-4ef4-93bd-8a1adc5baa9e
 ms.date: 05/03/2018
 keywords: ["wiauDbgHelper macro"]
 ms.keywords: image.wiaudbghelper, wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, wiautil/wiauDbgHelper
-f1_keywords:
- - "wiautil/wiauDbgHelper"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauDbgHelper
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgHelper
+ - wiautil/wiauDbgHelper
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauDbgHelper
 ---
 
 # wiauDbgHelper macro
+
 
 ## -description
 
@@ -72,12 +72,12 @@ The **wiauDbgHelper** function is a general-purpose function that is used intern
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror)
+[wiauDbgError](./nf-wiautil-wiaudbgerror.md)
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

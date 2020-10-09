@@ -8,8 +8,6 @@ ms.assetid: DB5FCF40-77C2-4741-9E6B-77A9CD98E29A
 ms.date: 04/20/2018
 keywords: ["PlayGdiScriptOnPrinterIC function"]
 ms.keywords: PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, winsplp/PlayGdiScriptOnPrinterIC
-f1_keywords:
- - "winsplp/PlayGdiScriptOnPrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- PlayGdiScriptOnPrinterIC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PlayGdiScriptOnPrinterIC
+ - winsplp/PlayGdiScriptOnPrinterIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - PlayGdiScriptOnPrinterIC
 ---
 
 # PlayGdiScriptOnPrinterIC function
@@ -47,29 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinterIC 
 
+[in]
 
+### -param pIn 
 
-### -param hPrinterIC [in]
+[in]
 
+### -param cIn 
 
-### -param pIn [in]
+[in]
 
+### -param pOut 
 
-### -param cIn [in]
+[out]
 
+### -param cOut 
 
-### -param pOut [out]
+[in]
 
+### -param ul 
 
-### -param cOut [in]
-
-
-### -param ul [in]
+[in]
 

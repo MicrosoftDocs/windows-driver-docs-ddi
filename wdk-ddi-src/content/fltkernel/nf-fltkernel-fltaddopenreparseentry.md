@@ -8,8 +8,6 @@ ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
 ms.date: 04/16/2018
 keywords: ["FltAddOpenReparseEntry function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry
-f1_keywords:
- - "fltkernel/FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltKernel.h
-api_name:
-- FltAddOpenReparseEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAddOpenReparseEntry
+ - fltkernel/FltAddOpenReparseEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltKernel.h
+api_name:
+ - FltAddOpenReparseEntry
 ---
 
 # FltAddOpenReparseEntry function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-This routine adds a caller allocated open reparse structure, <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>,  into a create operation.
-
+This routine adds a caller allocated open reparse structure, <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a>,  into a create operation.
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 The filter to reference.
 
+### -param Data 
 
-### -param Data [in]
-
+[in]
 The create operation to attach open reparse information to.
 
+### -param OpenReparseEntry 
 
-### -param OpenReparseEntry [in]
-
-The open reparse information to add, of type <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>.
-
+[in]
+The open reparse information to add, of type <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a>.
 
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -105,31 +97,15 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine adds an ECP list and/or ECP as needed.  <i>Filter</i> is referenced
     for the lifetime of the open reparse entry structure, not the ECP itself,
     which is conceptually independent of any specific filter.
 
-Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
-
-
-
+Use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a>

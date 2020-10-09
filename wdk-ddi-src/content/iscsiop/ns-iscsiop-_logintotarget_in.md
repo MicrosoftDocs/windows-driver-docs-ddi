@@ -6,10 +6,8 @@ old-location: storage\logintotarget_in.htm
 tech.root: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.date: 03/29/2018
-keywords: ["_LoginToTarget_IN structure"]
+keywords: ["LoginToTarget_IN structure"]
 ms.keywords: "*PLoginToTarget_IN, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], _LoginToTarget_IN, iscsiop/LoginToTarget_IN, iscsiop/PLoginToTarget_IN, storage.logintotarget_in, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml"
-f1_keywords:
- - "iscsiop/LoginToTarget_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsiop.h
-api_name:
-- LoginToTarget_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: LoginToTarget_IN, *PLoginToTarget_IN
+f1_keywords:
+ - _LoginToTarget_IN
+ - iscsiop/_LoginToTarget_IN
+ - PLoginToTarget_IN
+ - iscsiop/PLoginToTarget_IN
+ - LoginToTarget_IN
+ - iscsiop/LoginToTarget_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsiop.h
+api_name:
+ - LoginToTarget_IN
 ---
 
 # _LoginToTarget_IN structure
@@ -47,138 +50,106 @@ req.typenames: LoginToTarget_IN, *PLoginToTarget_IN
 
 ## -description
 
-
-The LoginToTarget_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> method, which is used to login to a target.
-
+The LoginToTarget_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> method, which is used to login to a target.
 
 ## -struct-fields
 
-
-
-
 ### -field PortNumber
 
-The number of the port (initiator portal) that the HBA initiator uses to establish the logon session. This value must match the <b>Index</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a> structure.
-
+The number of the port (initiator portal) that the HBA initiator uses to establish the logon session. This value must match the <b>Index</b> member of the <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a> structure.
 
 ### -field LoginOptions
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session.
-
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session.
 
 ### -field SessionType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a> enumeration value that specifies the type of logon session. 
-
+A <a href="/windows-hardware/drivers/ddi/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a> enumeration value that specifies the type of logon session.
 
 ### -field SecurityFlags
 
-A bitwise OR of security flags that indicate the security requirements that are associated with the authentication key that is used to establish the logon session. For a list of the flags that you can combine to define this member's value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
-
+A bitwise OR of security flags that indicate the security requirements that are associated with the authentication key that is used to establish the logon session. For a list of the flags that you can combine to define this member's value, see <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
 
 ### -field TargetPortal
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a> structure that indicates which target portal to use to make the connection. 
-
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a> structure that indicates which target portal to use to make the connection.
 
 ### -field UsernameSize
 
 The size, in bytes, of the string in <b>Username</b>.
 
-
 ### -field PasswordSize
 
 The size, in bytes, of the string in <b>Password</b>.
-
 
 ### -field KeySize
 
 The size, in bytes, of the string in <b>Key</b>.
 
-
 ### -field UniqueIdForISID
 
-A number that the miniport driver that manages the HBA can use to construct a unique session identifier (ISID). 
-
+A number that the miniport driver that manages the HBA can use to construct a unique session identifier (ISID).
 
 ### -field PersistentLogin
 
 A Boolean value that indicates if the logon should be persistent. If this member is <b>TRUE</b>, the logon should be persistent. The HBA's miniport driver should store the characteristics of this logon in non-volatile memory and log on to the target automatically every time the operating system loads the miniport driver. If this member is <b>FALSE</b>, the logon is not persistent.
 
-
 ### -field InitiatorNode
 
 The iSCSI name of the initiator node to use for the connection. If this member is empty, the HBA's miniport driver can choose any initiator node name during authentication. The initiator node name is usually an iSCSI qualified name (IQN).
 
-
 ### -field InitiatorAlias
 
-The iSCSI alias of the initiator node. 
-
+The iSCSI alias of the initiator node.
 
 ### -field TargetName
 
-The iSCSI target name with which to establish the logon session. 
-
+The iSCSI target name with which to establish the logon session.
 
 ### -field Mappings
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a> structure that maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI LUNs. If the initiator service does not specify mappings, the HBA's miniport driver can use any mappings for the LUNs. The miniport driver should report unmapped LUNs to the port driver to be enumerated.
-
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a> structure that maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI LUNs. If the initiator service does not specify mappings, the HBA's miniport driver can use any mappings for the LUNs. The miniport driver should report unmapped LUNs to the port driver to be enumerated.
 
 ### -field Key
 
 A variable-length array of UCHAR values that defines the preshared key that is associated with the target IP address.
 
-
 ## -remarks
-
-
 
 You must implement this method.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a>
+<a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
+<a href="/windows-hardware/drivers/ddi/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a>
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_logintotarget_out">LoginToTarget_OUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_logintotarget_out">LoginToTarget_OUT</a>
+<a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>

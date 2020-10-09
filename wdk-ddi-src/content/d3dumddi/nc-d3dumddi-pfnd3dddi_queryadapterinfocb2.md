@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_QUERYADAPTERINFOCB2"
+ - PFND3DDDI_QUERYADAPTERINFOCB2
+ - d3dumddi/PFND3DDDI_QUERYADAPTERINFOCB2
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # PFND3DDDI_QUERYADAPTERINFOCB2 callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaOption::get_Selected"]
 ms.keywords: IPrintSchemaOption interface [Print Devices],Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption.get_Selected, IPrintSchemaOption::Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices],IPrintSchemaOption interface, get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
-f1_keywords:
- - "printerextension/IPrintSchemaOption.Selected"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaOption.Selected
-- IPrintSchemaOption.get_Selected
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaOption::get_Selected
+ - printerextension/IPrintSchemaOption::get_Selected
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaOption.Selected
+ - IPrintSchemaOption.get_Selected
 ---
 
 # IPrintSchemaOption::get_Selected
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 Indicates whether this option is selected.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>

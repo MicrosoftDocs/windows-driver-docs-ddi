@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::SnapTriageLogs"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],SnapTriageLogs method, IWDTFDriverSetupSystemAction2.SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], SnapTriageLogs method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.SnapTriageLogs"
+ - "IWDTFDriverSetupSystemAction2.SnapTriageLogs"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.SnapTriageLogs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -62,7 +61,7 @@ Copies the driver setup triage logs.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -82,8 +81,7 @@ triage logs to the current directory.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
  
 
  
-

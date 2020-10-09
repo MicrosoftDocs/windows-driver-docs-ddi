@@ -8,8 +8,6 @@ ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.date: 04/16/2018
 keywords: ["RtlInitializeSidEx function"]
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
-f1_keywords:
- - "ntifs/RtlInitializeSidEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitializeSidEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitializeSidEx
+ - ntifs/RtlInitializeSidEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitializeSidEx
 ---
 
 # RtlInitializeSidEx function
@@ -47,29 +46,24 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlInitializeSidEx</b> routine initializes a pre-allocated security identifier (SID) structure. 
-
+The <b>RtlInitializeSidEx</b> routine initializes a pre-allocated security identifier (SID) structure.
 
 ## -parameters
 
+### -param Sid 
 
+[out]
+Pointer to a caller-allocated SID structure to be initialized.
 
+### -param IdentifierAuthority 
 
-### -param Sid [out]
+[in]
+Pointer to an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure.
 
-Pointer to a caller-allocated SID structure to be initialized. 
+### -param SubAuthorityCount 
 
-
-### -param IdentifierAuthority [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure. 
-
-
-### -param SubAuthorityCount [in]
-
+[in]
 Number of sub-authorities to set in the SID.
-
 
 ### -param param
 
@@ -82,10 +76,7 @@ Number of sub-authorities to set in the SID.
 
 The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.
 
-
 ## -returns
-
-
 
 <b>RtlInitializeSid</b> returns one of the following:
 
@@ -117,35 +108,19 @@ The specified <i>SubAuthorityCount</i> value is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>

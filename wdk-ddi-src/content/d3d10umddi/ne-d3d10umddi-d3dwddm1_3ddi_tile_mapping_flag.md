@@ -7,8 +7,6 @@ ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1
 ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration"]
 ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_FLAG, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag
-f1_keywords:
- - "d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM1_3DDI_TILE_MAPPING_FLAG
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+f1_keywords:
+ - D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+ - d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 ---
 
 # D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration
@@ -47,14 +46,9 @@ req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 
 ## -description
 
-
 Indicates how to update a tile mapping.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE
 

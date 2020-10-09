@@ -5,38 +5,38 @@ description:
 ms.assetid: 83effb29-cc30-4be5-ac4c-e35b18b073f6
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_GET_MUTEPROPERTYVALUES"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+ - sidebandaudio/IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
 ---
 
 # IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -54,7 +54,7 @@ Size of ULONG.
 
 ### -output-buffer
 
-KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Mute stepped data ranges as documented in [KSPROPERTY_DESCRIPTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description) and [KSPROPERTY_MEMBERSHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader).
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Mute stepped data ranges as documented in [KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) and [KSPROPERTY_MEMBERSHEADER](../ks/ns-ks-ksproperty_membersheader.md).
 
 ### -output-buffer-length 
 
@@ -72,11 +72,12 @@ Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::MuteProp
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
-[KSPROPERTY_AUDIO_MUTE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mute)
 
-[KSNODEPROPERTY_AUDIO_CHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel)
+[KSPROPERTY_AUDIO_MUTE](/windows-hardware/drivers/audio/ksproperty-audio-mute)
+
+[KSNODEPROPERTY_AUDIO_CHANNEL](../ksmedia/ns-ksmedia-ksnodeproperty_audio_channel.md)

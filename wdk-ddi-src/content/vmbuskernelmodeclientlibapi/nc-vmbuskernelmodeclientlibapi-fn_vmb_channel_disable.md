@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 514f0cad-c1c8-4bf5-beab-b2d834a395c9
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_DISABLE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_DISABLE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_DISABLE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_DISABLE
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_DISABLE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_DISABLE
 ---
 
 # FN_VMB_CHANNEL_DISABLE callback function
+
 
 ## -description
 
@@ -47,6 +47,12 @@ ms.custom: RS5
 
 The <b>VmbChannelDisable</b> function disables a channel, which closes it for client channels and revokes the channel offer for server channels. This function waits until the channel is completely torn down
 before it returns.
+
+## -parameters
+
+### -param Channel
+
+The handle of a channel to disable.
 
 ## -prototype
 
@@ -65,12 +71,6 @@ VOID FnVmbChannelDisable
 
 ```
 
-## -parameters
-
-### -param Channel
-
-The handle of a channel to disable.
-
 ## -remarks
 
 > [!IMPORTANT]
@@ -79,3 +79,4 @@ The handle of a channel to disable.
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.date: 05/10/2018
 keywords: ["UMDEtwUnregister function"]
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
-f1_keywords:
- - "umdprovider/UMDEtwUnregister"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- umdprovider.h
-api_name:
-- UMDEtwUnregister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UMDEtwUnregister
+ - umdprovider/UMDEtwUnregister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - umdprovider.h
+api_name:
+ - UMDEtwUnregister
 ---
 
 # UMDEtwUnregister function
+
 
 ## -description
 
@@ -62,8 +62,8 @@ FORCEINLINE void UMDEtwUnregister()
 }
 ```
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
+The <a href="/windows/win32/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="/windows/desktop/Events/windows-events">Windows Events</a> documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwregister">UMDEtwRegister</a>
+<a href="/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwregister">UMDEtwRegister</a>

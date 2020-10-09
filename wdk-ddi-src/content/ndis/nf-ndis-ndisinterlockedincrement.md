@@ -8,8 +8,6 @@ ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedIncrement macro"]
 ms.keywords: NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedIncrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, netvista.ndisinterlockedincrement
-f1_keywords:
- - "ndis/NdisInterlockedIncrement"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisInterlockedIncrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedIncrement
+ - ndis/NdisInterlockedIncrement
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisInterlockedIncrement
 ---
 
 # NdisInterlockedIncrement macro
@@ -48,41 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedIncrement</b> function increments a caller-supplied variable as an atomic
   operation.
 
-
 ## -parameters
 
+### -param Addend 
 
-
-
-### -param Addend [in]
-
+[in]
 A pointer to a variable of type LONG.
 
-
 ## -remarks
-
-
 
 <b>NdisInterlockedIncrement</b> cannot be used on variables in pageable memory.
 
 <b>NdisInterlockedIncrement</b> is atomic only with respect to other 
     <b>NdisInterlocked<i>Xxx</i></b> calls.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockeddecrement">NdisInterlockedDecrement</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockeddecrement">NdisInterlockedDecrement</a>

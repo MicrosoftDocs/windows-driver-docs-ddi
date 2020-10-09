@@ -6,10 +6,8 @@ old-location: stream\mf_mdl_shared_payload_key.htm
 tech.root: stream
 ms.assetid: 3EA093AB-1D23-4744-997E-8C7072934628
 ms.date: 04/23/2018
-keywords: ["_MF_MDL_SHARED_PAYLOAD_KEY structure"]
+keywords: ["MF_MDL_SHARED_PAYLOAD_KEY structure"]
 ms.keywords: "*PMF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
-f1_keywords:
- - "ks/MF_MDL_SHARED_PAYLOAD_KEY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- MF_MDL_SHARED_PAYLOAD_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
+f1_keywords:
+ - _MF_MDL_SHARED_PAYLOAD_KEY
+ - ks/_MF_MDL_SHARED_PAYLOAD_KEY
+ - PMF_MDL_SHARED_PAYLOAD_KEY
+ - ks/PMF_MDL_SHARED_PAYLOAD_KEY
+ - MF_MDL_SHARED_PAYLOAD_KEY
+ - ks/MF_MDL_SHARED_PAYLOAD_KEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - MF_MDL_SHARED_PAYLOAD_KEY
 ---
 
 # _MF_MDL_SHARED_PAYLOAD_KEY structure
@@ -47,34 +50,25 @@ req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
 
 ## -description
 
-
 This union is used internally by the operating system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field combined
 
 This member is used internally by the operating system.
 
-
 ### -field combined.pHandle
 
 This member is used internally by the operating system.
-
 
 ### -field combined.fHandle
 
 This member is used internally by the operating system.
 
-
 ### -field combined.uPayload
 
 This member is used internally by the operating system.
-
 
 ### -field GMDLHandle
 

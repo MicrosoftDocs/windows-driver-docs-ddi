@@ -8,8 +8,6 @@ ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.date: 04/23/2018
 keywords: ["tagKS_MPEAUDIOINFO structure"]
 ms.keywords: "*PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], PKS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, tagKS_MPEAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml"
-f1_keywords:
- - "ksmedia/KS_MPEGAUDIOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_MPEGAUDIOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
+f1_keywords:
+ - tagKS_MPEAUDIOINFO
+ - ksmedia/tagKS_MPEAUDIOINFO
+ - PKS_MPEGAUDIOINFO
+ - ksmedia/PKS_MPEGAUDIOINFO
+ - KS_MPEGAUDIOINFO
+ - ksmedia/KS_MPEGAUDIOINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_MPEGAUDIOINFO
 ---
 
 # tagKS_MPEAUDIOINFO structure
@@ -47,14 +50,9 @@ req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
 
 ## -description
 
-
 The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -76,18 +74,14 @@ Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved1
 
 Must be 0; otherwise, reject the connection.
 
-
 ### -field dwReserved2
 
 Must be 0; otherwise, reject the connection.
-
 
 ### -field dwReserved3
 

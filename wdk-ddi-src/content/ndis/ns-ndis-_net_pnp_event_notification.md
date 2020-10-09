@@ -6,10 +6,8 @@ old-location: netvista\net_pnp_event_notification.htm
 tech.root: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.date: 05/02/2018
-keywords: ["_NET_PNP_EVENT_NOTIFICATION structure"]
+keywords: ["NET_PNP_EVENT_NOTIFICATION structure"]
 ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml"
-f1_keywords:
- - "ndis/NET_PNP_EVENT_NOTIFICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_PNP_EVENT_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
+f1_keywords:
+ - _NET_PNP_EVENT_NOTIFICATION
+ - ndis/_NET_PNP_EVENT_NOTIFICATION
+ - PNET_PNP_EVENT_NOTIFICATION
+ - ndis/PNET_PNP_EVENT_NOTIFICATION
+ - NET_PNP_EVENT_NOTIFICATION
+ - ndis/NET_PNP_EVENT_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_PNP_EVENT_NOTIFICATION
 ---
 
 # _NET_PNP_EVENT_NOTIFICATION structure
@@ -47,39 +50,31 @@ req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
 
 ## -description
 
-
 The NET_PNP_EVENT_NOTIFICATION structure describes a network Plug and Play (PnP) event, an NDIS PnP
   event, or a power management event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NET_PNP_EVENT_NOTIFICATION structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
      <b>Revision</b> member to NET_PNP_EVENT_NOTIFICATION_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_NET_PNP_EVENT_NOTIFICATION_REVISION_1.
 
-
 ### -field PortNumber
 
 The source port of the event notification. If the status indication is not specific to a port, 
      <b>PortNumber</b> is zero.
 
-
 ### -field NetPnPEvent
 
 A
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
      event.
-
 
 ### -field Flags
 
@@ -101,8 +96,7 @@ An **NDIS_NIC_SWITCH_VPORT_ID** value that uniquely identifies the virtual port 
 A value of **NDIS_DEFAULT_VPORT_ID** specifies the default VPort on the switch. The default VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
 
 > [!NOTE]
-> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
-
+> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 ## -remarks
 
@@ -112,7 +106,7 @@ When the operating system issues a system PnP event or a power management event 
 
 The 
     <b>NetPnPEvent</b> member is a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure. The 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure. The 
     <b>NetEvent</b> member of this NET_PNP_EVENT structure specifies an event code that identifies the network
     PnP event, NDIS PnP event, or power management event.
 
@@ -129,33 +123,23 @@ NDIS also issues PnP event notifications for NDIS PnP events such as
     <b>NetEventPortDeactivation</b>.
 
 NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function of
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function of
     overlying filter drivers and to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function of
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function of
     overlying protocol drivers.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>

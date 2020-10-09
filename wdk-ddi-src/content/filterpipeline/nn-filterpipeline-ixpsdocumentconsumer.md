@@ -8,8 +8,6 @@ ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 ms.date: 04/20/2018
 keywords: ["IXpsDocumentConsumer interface"]
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices],described, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml, print.ixpsdocumentconsumer
-f1_keywords:
- - "filterpipeline/IXpsDocumentConsumer"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IXpsDocumentConsumer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsDocumentConsumer
+ - filterpipeline/IXpsDocumentConsumer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IXpsDocumentConsumer
 ---
 
 # IXpsDocumentConsumer interface
@@ -47,14 +46,12 @@ req.typenames:
 
 ## -description
 
-
 A filter uses the <code>IXpsDocumentConsumer</code> interface when it generates XPS content for the pipeline to consume. 
 <div class="alert"><b>Note</b>    The XPS print filter pipeline does not preserve digital signatures or story fragments. You may be able to work around this by using stream filters.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsDocumentConsumer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentConsumer</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsDocumentConsumer</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentConsumer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

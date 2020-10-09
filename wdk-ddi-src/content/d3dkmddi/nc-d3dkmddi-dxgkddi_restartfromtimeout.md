@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiRestartFromTimeout"
+ - DXGKDDI_RESTARTFROMTIMEOUT
+ - d3dkmddi/DXGKDDI_RESTARTFROMTIMEOUT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_RESTARTFROMTIMEOUT callback function
 
+
 ## -description
 
 The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.
@@ -52,7 +54,7 @@ The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can acce
 
 ### -param hAdapter
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ## -returns
 
@@ -66,9 +68,8 @@ The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetfromtimeout">DxgkDdiResetFromTimeout</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetfromtimeout">DxgkDdiResetFromTimeout</a>

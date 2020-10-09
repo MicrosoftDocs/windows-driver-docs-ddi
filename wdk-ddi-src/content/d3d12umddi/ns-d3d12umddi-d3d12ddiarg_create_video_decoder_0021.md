@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021"
+ - "D3D12DDIARG_CREATE_VIDEO_DECODER_0021"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDIARG_CREATE_VIDEO_DECODER_0021
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
@@ -63,7 +62,7 @@ A node mask. For single GPU operation, set this value to zero (0). If there are 
 
 ### -field Configuration
 
-The decode profile and bitstream encryption.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
+The decode profile and bitstream encryption.  For more information, see the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
 ### -field DecodeWidth
@@ -93,7 +92,7 @@ The data compression rate, in bits per second, for the compressed video stream.
 
 ### -field Usage
 
-A hint for the intended usage for the decoder stream. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
+A hint for the intended usage for the decoder stream. For more information, see the <a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
 
@@ -117,12 +116,11 @@ The <i>Bitrate</i> and <i>FrameRate</i> parameters may also be set to zero.  Whe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a>
+<a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a>
  
 
  
-

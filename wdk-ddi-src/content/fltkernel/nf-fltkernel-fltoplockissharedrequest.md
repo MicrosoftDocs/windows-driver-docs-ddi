@@ -8,8 +8,6 @@ ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.date: 04/16/2018
 keywords: ["FltOplockIsSharedRequest function"]
 ms.keywords: FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest
-f1_keywords:
- - "fltkernel/FltOplockIsSharedRequest"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltOplockIsSharedRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltOplockIsSharedRequest
+ - fltkernel/FltOplockIsSharedRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltOplockIsSharedRequest
 ---
 
 # FltOplockIsSharedRequest function
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltOplockIsSharedRequest</b> routine determines if a request for an opportunistic lock (oplock) wants a shared oplock. 
-
+The <b>FltOplockIsSharedRequest</b> routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 
 ## -parameters
 
+### -param CallbackData 
 
-
-
-### -param CallbackData [in]
-
-A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST. 
-
+[in]
+A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST.
 
 ## -returns
 
-
-
-<b>FltOplockIsSharedRequest</b> returns <b>TRUE</b> if the oplock request is for a shared oplock (that is, a level 2, R, or RH oplock). <b>FltOplockIsSharedRequest</b> returns <b>FALSE</b> if the oplock request is not for a shared oplock or if the I/O operation is not an oplock request. For more information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>. 
-
-
-
+<b>FltOplockIsSharedRequest</b> returns <b>TRUE</b> if the oplock request is for a shared oplock (that is, a level 2, R, or RH oplock). <b>FltOplockIsSharedRequest</b> returns <b>FALSE</b> if the oplock request is not for a shared oplock or if the I/O operation is not an oplock request. For more information about oplock types, see <a href="/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockissharedrequest">FsRtlOplockIsSharedRequest</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockissharedrequest">FsRtlOplockIsSharedRequest</a>

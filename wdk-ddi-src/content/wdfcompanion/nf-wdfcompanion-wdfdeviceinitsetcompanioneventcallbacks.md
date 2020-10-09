@@ -8,8 +8,6 @@ ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetCompanionEventCallbacks function"]
 ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
-f1_keywords:
- - "wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WdfDeviceInitSetCompanionEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetCompanionEventCallbacks
+ - wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WdfDeviceInitSetCompanionEventCallbacks
 ---
 
 # WdfDeviceInitSetCompanionEventCallbacks function
@@ -47,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param DeviceInit 
 
+[in]
 
+### -param CompanionEventCallbacks 
 
-### -param DeviceInit [in]
-
-
-### -param CompanionEventCallbacks [in]
-
+[in]
 

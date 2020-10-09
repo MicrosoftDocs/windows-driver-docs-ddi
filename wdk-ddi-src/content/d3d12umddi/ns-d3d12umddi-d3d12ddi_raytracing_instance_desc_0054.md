@@ -5,40 +5,40 @@ description: Describes a ray tracing instance.
 ms.assetid: 4bb4b9cf-e076-4b9b-b231-6b69023582c0
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RAYTRACING_INSTANCE_DESC_0054 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_INSTANCE_DESC_0054"
-ms.keywords: D3D12DDI_RAYTRACING_INSTANCE_DESC_0054, D3D12DDI_RAYTRACING_INSTANCE_DESC_0054, 
+ms.keywords: D3D12DDI_RAYTRACING_INSTANCE_DESC_0054, D3D12DDI_RAYTRACING_INSTANCE_DESC_0054,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
+ - d3d12umddi/D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_INSTANCE_DESC_0054 structure
+
 
 ## -description
 
@@ -60,13 +60,14 @@ An 8-bit mask assigned to the instance, which can be used to include or reject g
 
 ### -field InstanceContributionToHitGroupIndex
 
-Per-instance contribution to add into shader table indexing to select the hit group to use. 
+Per-instance contribution to add into shader table indexing to select the hit group to use.
 
 ### -field Flags
 
 Flags to apply to the instance.
 
 ### -field AccelerationStructure
+
  
 Address of the bottom-level acceleration structure that is being instanced. The address must be aligned to 256 bytes.
 
@@ -75,3 +76,4 @@ The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resourc
 ## -remarks
 
 ## -see-also
+

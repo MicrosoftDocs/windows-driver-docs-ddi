@@ -8,8 +8,6 @@ ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.date: 06/25/2020
 keywords: ["KSFRAMETIME structure"]
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
-f1_keywords:
- - "ks/KSFRAMETIME"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSFRAMETIME
-product:
-- Windows
 targetos: Windows
 req.typenames: KSFRAMETIME, *PKSFRAMETIME
+f1_keywords:
+ - PKSFRAMETIME
+ - ks/PKSFRAMETIME
+ - KSFRAMETIME
+ - ks/KSFRAMETIME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSFRAMETIME
 ---
 
 # KSFRAMETIME structure
+
 
 ## -description
 
@@ -56,7 +58,7 @@ Specifies the duration in presentation time units.
 
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for [KSALLOCATOR_FRAMING](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing).
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for [KSALLOCATOR_FRAMING](./ns-ks-ksallocator_framing.md).
 
 ### -field Reserved
 

@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockBreakToNone function"]
 ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNone"
+ - "FsRtlOplockBreakToNone"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlOplockBreakToNone
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex">FsRtlOplockBreakToNoneEx</a> instead.
+The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex">FsRtlOplockBreakToNoneEx</a> instead.
 
 
 ## -parameters
@@ -84,8 +83,3 @@ TBD
 ### -param PostIrpRoutine
 
 TBD
-
-
-
-
-

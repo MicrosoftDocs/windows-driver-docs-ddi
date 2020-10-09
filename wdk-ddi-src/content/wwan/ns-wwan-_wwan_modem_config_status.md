@@ -6,10 +6,11 @@ old-location: netvista\wwan_modem_config_status.htm
 tech.root: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.date: 05/02/2018
-keywords: ["_WWAN_MODEM_CONFIG_STATUS structure"]
+keywords: ["WWAN_MODEM_CONFIG_STATUS structure"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS"
 f1_keywords:
  - "wwan/WWAN_MODEM_CONFIG_STATUS"
+ - "WWAN_MODEM_CONFIG_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_MODEM_CONFIG_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 ---
@@ -58,12 +57,12 @@ The <b>WWAN_MODEM_CONFIG_STATUS</b> structure represents a modem's configuration
 
 ### -field ConfigState
 
-The modem's config state. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>.
+The modem's config state. For a list of defined values, see <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>.
 
 
 ### -field ConfigReason
 
-The reason why the modem's config state change was triggered. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>.
+The reason why the modem's config state change was triggered. For a list of defined values, see <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>.
 
 
 ### -field PreviousConfigID
@@ -105,16 +104,15 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>
  
 
  
-

@@ -5,39 +5,38 @@ description: The AcquireSubNamespace method helps in the construction of somethi
 ms.assetid: 2cb6ec25-f9aa-419f-80f5-845a327ea7c2
 ms.date: 08/21/2018
 keywords: ["IDataModelManager2::AcquireSubNamespace"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.AcquireSubNamespace"
 ms.keywords: IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace, IDataModelManager2::AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.AcquireSubNamespace
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::AcquireSubNamespace
+ - dbgmodel/IDataModelManager2::AcquireSubNamespace
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.AcquireSubNamespace
 ---
 
 # IDataModelManager2::AcquireSubNamespace
@@ -77,27 +76,32 @@ It is important to note that there is nothing which the AcquireSubNamespace meth
          The context adjustor property getter returns the original process object.
 ```
 
-Once a sub-namespace is created, its ownership is considered shared amongst all potential callers of the AcquireSubNamespace method with the same set of arguments. As a shared ownership semantic, it is improper to unregister a sub-namespace arbitrarily. 
-
+Once a sub-namespace is created, its ownership is considered shared amongst all potential callers of the AcquireSubNamespace method with the same set of arguments. As a shared ownership semantic, it is improper to unregister a sub-namespace arbitrarily.
 
 ## -parameters
 
 ### -param modelName
+
 The name of the data model which is being extended with a sub-namespace.
 
 ### -param subNamespaceModelName
+
 The name of the data model which represents the sub-namespace itself. The newly created sub-namespace is a data model which will be registered under this name.
 
 ### -param accessName
+
 A property of this name will be added to the data model registered under the name given by the modelName argument in order to access the sub-namespace.
 
 ### -param metadata
+
 Optional metadata to be associated with the key given by accessName in the event that this call is the one which creates the shared sub-namespace.
 
 ### -param namespaceModelObject
+
 The data model representing the sub-namespace will be returned here. This data model may have been created by a prior call to the AcquireSubNamespace method or by the current call. The ownership is considered shared amongst all callers.
 
 ## -returns
+
 This method returns HRESULT.
 
 ## -remarks
@@ -135,3 +139,4 @@ if (SUCCEEDED(spManager->AcquireSubNamespace(
 ## -see-also
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

@@ -19,7 +19,8 @@ req.typenames: D3D12DDI_COMMAND_RECORDER_FLAGS
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/D3D12DDI_COMMAND_RECORDER_FLAGS"
+ - D3D12DDI_COMMAND_RECORDER_FLAGS
+ - d3d12umddi/D3D12DDI_COMMAND_RECORDER_FLAGS
 topic_type:
  - apiref
 api_type:
@@ -33,6 +34,7 @@ product:
 ---
 
 # D3D12DDI_COMMAND_RECORDER_FLAGS enumeration
+
 
 ## -description
 

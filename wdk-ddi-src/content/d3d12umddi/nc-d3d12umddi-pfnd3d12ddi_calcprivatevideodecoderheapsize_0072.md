@@ -10,7 +10,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,7 +27,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072"
+ - PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,6 +43,7 @@ product:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072 callback function
+
 
 ## -description
 
@@ -68,3 +70,4 @@ See the [Video Protected Resource Support specification](https://microsoft.githu
 ## -see-also
 
 [**D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_heap_0072.md)
+

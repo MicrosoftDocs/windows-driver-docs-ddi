@@ -8,8 +8,6 @@ ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.date: 04/16/2018
 keywords: ["FsRtlInitializeExtraCreateParameter function"]
 ms.keywords: FsRtlInitializeExtraCreateParameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, ifsk.fsrtlinitializeextracreateparameter, ntifs/FsRtlInitializeExtraCreateParameter
-f1_keywords:
- - "ntifs/FsRtlInitializeExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlInitializeExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlInitializeExtraCreateParameter
+ - ntifs/FsRtlInitializeExtraCreateParameter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlInitializeExtraCreateParameter
 ---
 
 # FsRtlInitializeExtraCreateParameter function
@@ -47,56 +46,44 @@ req.typenames:
 
 ## -description
 
-
-The <b>FsRtlInitializeExtraCreateParameter</b> routine initializes an extra create parameter (ECP) context structure. 
-
+The <b>FsRtlInitializeExtraCreateParameter</b> routine initializes an extra create parameter (ECP) context structure.
 
 ## -parameters
 
+### -param Ecp 
 
+[in]
+Pointer to the ECP context structure to initialize.
 
+### -param EcpFlags 
 
-### -param Ecp [in]
+[in]
+Defines initialization options. Currently, no flags are defined.
 
-Pointer to the ECP context structure to initialize. 
+### -param CleanupCallback 
 
+[in, optional]
+Optional pointer to a filter-defined cleanup callback routine of type <a href="/previous-versions/ff551124(v=vs.85)">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameter">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable.
 
-### -param EcpFlags [in]
+### -param TotalSize 
 
-Defines initialization options. Currently, no flags are defined. 
+[in]
+The size, in bytes, of the ECP context structure to initialize.
 
+### -param EcpType 
 
-### -param CleanupCallback [in, optional]
+[in]
+Pointer to a GUID that indicates the type of ECP for which the context structure will be initialized. For more information about ECPs, see <a href="/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>.
 
-Optional pointer to a filter-defined cleanup callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545609">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable. 
+### -param ListAllocatedFrom 
 
-
-### -param TotalSize [in]
-
-The size, in bytes, of the ECP context structure to initialize. 
-
-
-### -param EcpType [in]
-
-Pointer to a GUID that indicates the type of ECP for which the context structure will be initialized. For more information about ECPs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
-
-
-### -param ListAllocatedFrom [in, optional]
-
-Optional pointer to the list from which the ECP context structure is allocated. 
-
+[in, optional]
+Optional pointer to the list from which the ECP context structure is allocated.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameter">FsRtlAllocateExtraCreateParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545609">FsRtlAllocateExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
- 
-
- 
-
+<a href="/previous-versions/ff551124(v=vs.85)">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>

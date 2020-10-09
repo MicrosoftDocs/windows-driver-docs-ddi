@@ -8,8 +8,6 @@ ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterPlugin function"]
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
-f1_keywords:
- - "pepfx/PoFxRegisterPlugin"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,37 +25,41 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- PoFxRegisterPlugin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxRegisterPlugin
+ - pepfx/PoFxRegisterPlugin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - PoFxRegisterPlugin
 ---
 
-# PoFxRegisterPlugin function
+# PoFxRegisterPlugin function (pepfx.h)
+
 
 ## -description
 
-The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) with the Windows [power management framework](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) (PoFx).
+The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) with the Windows [power management framework](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) (PoFx).
 
 ## -parameters
 
-### -param PepInformation [in]
+### -param PepInformation 
 
-A pointer to a [PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information) structure.
+[in]
+A pointer to a [PEP_INFORMATION](./ns-pepfx-_pep_information.md) structure.
 
-### -param KernelInformation [in, out]
+### -param KernelInformation 
 
-A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3) structure.
+[in, out]
+A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](./ns-pepfx-_pep_kernel_information_struct_v3.md) structure.
 
 ## -returns
 
@@ -75,14 +77,14 @@ A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The [PoFxRegisterPluginEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex) routine is similar to **PoFxRegisterPlugin**, except that it takes an additional parameter, *Flags*.
+The [PoFxRegisterPluginEx](./nf-pepfx-pofxregisterpluginex.md) routine is similar to **PoFxRegisterPlugin**, except that it takes an additional parameter, *Flags*.
 
 The PEP must call **PoFxRegisterPlugin** at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-[PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information)
+[PEP_INFORMATION](./ns-pepfx-_pep_information.md)
 
-[PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3)
+[PEP_KERNEL_INFORMATION_STRUCT_V3](./ns-pepfx-_pep_kernel_information_struct_v3.md)
 
-[PoFxRegisterPluginEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex)
+[PoFxRegisterPluginEx](./nf-pepfx-pofxregisterpluginex.md)

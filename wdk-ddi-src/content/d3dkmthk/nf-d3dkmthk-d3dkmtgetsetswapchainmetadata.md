@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetSetSwapChainMetadata function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSetSwapChainMetadata"
+ - "D3DKMTGetSetSwapChainMetadata"
 ms.keywords: D3DKMTGetSetSwapChainMetadata
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTGetSetSwapChainMetadata
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

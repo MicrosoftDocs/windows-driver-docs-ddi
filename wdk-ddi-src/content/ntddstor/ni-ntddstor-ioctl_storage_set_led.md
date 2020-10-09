@@ -1,15 +1,14 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_LED
 title: IOCTL_STORAGE_SET_LED
-author: windows-driver-content
 description: 
 tech.root: storage
 ms.assetid: 11d2bcf1-f7cc-4b15-be59-bb7e4cb51300
-ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_LED"
+ - "IOCTL_STORAGE_SET_LED"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:
@@ -37,7 +36,7 @@ targetos: Windows
 
 # IOCTL_STORAGE_SET_LED IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,7 +64,7 @@ None.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

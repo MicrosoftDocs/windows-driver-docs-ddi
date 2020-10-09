@@ -5,65 +5,48 @@ description: The VmbServerChannelInitSetSaveRestorePacketCallbacks function sets
 ms.assetid: b79bf865-ba3d-4309-8991-a9b8e2ba335f
 ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS
-product: 
-- Windows
 targetos: Windows
 tech.root: netvista
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS
+ - vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS
+product:
+ - Windows
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS callback function
 
+
 ## -description
 
 The <b>VmbServerChannelInitSetSaveRestorePacketCallbacks</b> function sets the save and restore callback functions that are called for each packet when the
-driver calls a save function, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue">VmbChannelSaveContinue</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a>, or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer">VmbChannelRestoreFromBuffer</a> function.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS FnVmbServerChannelInitSetSaveRestorePacketCallbacks; 
-
-// Definition
-
-NTSTATUS FnVmbServerChannelInitSetSaveRestorePacketCallbacks 
-(
-	VMBCHANNEL Channel
-	PFN_VMB_CHANNEL_SAVE_PACKET SavePacketCallback
-	PFN_VMB_CHANNEL_RESTORE_PACKET RestorePacketCallback
-)
-{...}
-
-```
+driver calls a save function, such as <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>, <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue">VmbChannelSaveContinue</a>, and <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a>, or the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer">VmbChannelRestoreFromBuffer</a> function.
 
 ## -parameters
 
@@ -73,7 +56,7 @@ A handle for a channel.
 
 ### -param SavePacketCallback
 
-A callback function to call during channel save. 
+A callback function to call during channel save.
 
 ### -param RestorePacketCallback
 
@@ -101,6 +84,25 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS FnVmbServerChannelInitSetSaveRestorePacketCallbacks; 
+
+// Definition
+
+NTSTATUS FnVmbServerChannelInitSetSaveRestorePacketCallbacks 
+(
+	VMBCHANNEL Channel
+	PFN_VMB_CHANNEL_SAVE_PACKET SavePacketCallback
+	PFN_VMB_CHANNEL_RESTORE_PACKET RestorePacketCallback
+)
+{...}
+
+```
+
 ## -remarks
 
 > [!IMPORTANT]
@@ -110,16 +112,16 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer">VmbChannelRestoreFromBuffer</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer">VmbChannelRestoreFromBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue">VmbChannelSaveContinue</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue">VmbChannelSaveContinue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a>

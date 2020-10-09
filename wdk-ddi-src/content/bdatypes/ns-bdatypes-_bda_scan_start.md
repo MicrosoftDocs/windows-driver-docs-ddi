@@ -6,10 +6,8 @@ old-location: stream\bda_scan_start.htm
 tech.root: stream
 ms.assetid: 931CC532-BC46-4B64-B6BA-29D20827EC0A
 ms.date: 04/23/2018
-keywords: ["_BDA_SCAN_START structure"]
+keywords: ["BDA_SCAN_START structure"]
 ms.keywords: "*PBDA_SCAN_START, BDA_SCAN_START, BDA_SCAN_START structure [Streaming Media Devices], PBDA_SCAN_START, PBDA_SCAN_START structure pointer [Streaming Media Devices], _BDA_SCAN_START, bdatypes/BDA_SCAN_START, bdatypes/PBDA_SCAN_START, stream.bda_scan_start"
-f1_keywords:
- - "bdatypes/BDA_SCAN_START"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_SCAN_START
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_SCAN_START, *PBDA_SCAN_START
+f1_keywords:
+ - _BDA_SCAN_START
+ - bdatypes/_BDA_SCAN_START
+ - PBDA_SCAN_START
+ - bdatypes/PBDA_SCAN_START
+ - BDA_SCAN_START
+ - bdatypes/BDA_SCAN_START
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_SCAN_START
 ---
 
 # _BDA_SCAN_START structure
@@ -47,20 +50,11 @@ req.typenames: BDA_SCAN_START, *PBDA_SCAN_START
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lResult
 
-
 ### -field LowerFrequency
-
 
 ### -field HigerFrequency
 

@@ -8,8 +8,6 @@ ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_DEVICE_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
-f1_keywords:
- - "bthioctl/IOCTL_BTH_GET_DEVICE_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_GET_DEVICE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_GET_DEVICE_INFO
+ - bthioctl/IOCTL_BTH_GET_DEVICE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_GET_DEVICE_INFO
 ---
 
 # IOCTL_BTH_GET_DEVICE_INFO IOCTL
@@ -47,65 +46,39 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, previously discovered
      remote radios that are Bluetooth-enabled.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure.
-
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure.
 
 ### -input-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure
-
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure
 
 ### -output-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure. The 
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a> structure. The 
       <b>numOfDevices</b> member of the BTH_DEVICE_INFO_LIST structure contains the number of devices for
       which there is information and an array of 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures; one array
+      <a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structures; one array
       entry for each device.
-
 
 ### -output-buffer-length
 
 If the size of the passed output buffer is not exactly <code>sizeof(BTH_DEVICE_INFO_LIST)</code> plus the correct multiple of <code>sizeof(BTH_DEVICE_INFO)</code>, the request will fail with STATUS_INVALID_BUFFER_SIZE.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -154,12 +127,8 @@ The output buffer was not sized correctly.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The IOCTL_BTH_GET_DEVICE_INFO IOCTL provides information about all previously discovered remote
     radios.
@@ -178,20 +147,10 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
     <code>
     Buffer=sizeof(BTH_DEVICE_INFO_LIST)+(NumOfDevices-1)*sizeof(BTH_DEVICE_INFO)</code>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_device_info_list">BTH_DEVICE_INFO_LIST</a>

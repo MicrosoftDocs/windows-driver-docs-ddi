@@ -5,10 +5,8 @@ description: Used to update the HW context state flags.
 old-location: display\dxgk_updatehwcontextstate_flags.htm
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.date: 05/10/2018
-keywords: ["_DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure"]
+keywords: ["DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure"]
 ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
-f1_keywords:
- - "d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_UPDATEHWCONTEXTSTATE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+f1_keywords:
+ - _DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+ - d3dkmddi/_DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+ - DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+ - d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ---
 
 # _DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure
@@ -47,29 +48,21 @@ req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 
 ## -description
 
-
 Used to update the HW context state flags.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Suspended
 
 Used to suspend the context. Otherwise, the context is runnable.
 
-
 ### -field InterruptOnSwitchCompletion
 
 Used when the context state update is effective on the GPU.
 
-
 ### -field Reserved
 
 This value is reserved for system use.
-
 
 ### -field Value
 

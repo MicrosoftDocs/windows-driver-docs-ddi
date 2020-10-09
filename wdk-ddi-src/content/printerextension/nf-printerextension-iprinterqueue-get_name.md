@@ -8,8 +8,6 @@ ms.assetid: BB8CAEFC-3CD5-46EA-89A8-FAF38063A185
 ms.date: 04/20/2018
 keywords: ["IPrinterQueue::get_Name"]
 ms.keywords: IPrinterQueue interface [Print Devices],Name property, IPrinterQueue.Name, IPrinterQueue.get_Name, IPrinterQueue::Name, IPrinterQueue::get_Name, Name property [Print Devices], Name property [Print Devices],IPrinterQueue interface, get_Name, print.iprinterqueue_name, printerextension/IPrinterQueue::Name, printerextension/IPrinterQueue::get_Name
-f1_keywords:
- - "printerextension/IPrinterQueue.Name"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueue.Name
-- IPrinterQueue.get_Name
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueue::get_Name
+ - printerextension/IPrinterQueue::get_Name
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueue.Name
+ - IPrinterQueue.get_Name
 ---
 
 # IPrinterQueue::get_Name
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 Gets the name of the printer for this print queue.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>

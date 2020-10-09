@@ -8,8 +8,6 @@ ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.date: 05/03/2018
 keywords: ["WIAS_ASSERT macro"]
 ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, wiamdef/WIAS_ASSERT
-f1_keywords:
- - "wiautil/WIAS_ASSERT"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_ASSERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_ASSERT
+ - wiautil/WIAS_ASSERT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_ASSERT
 ---
 
-# WIAS_ASSERT macro
+# WIAS_ASSERT macro (wiautil.h)
+
 
 ## -description
 
@@ -68,8 +68,8 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 ## -see-also
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md)
 
-[WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult)
+[WIAS_HRESULT](../wiamdef/nf-wiamdef-wias_hresult.md)
 
-[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
+[WIAS_TRACE](../wiamdef/nf-wiamdef-wias_trace.md)

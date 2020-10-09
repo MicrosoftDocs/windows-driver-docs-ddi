@@ -6,14 +6,12 @@ old-location: image\scanwindow.htm
 tech.root: image
 ms.assetid: c4b507ac-af32-4949-add0-e19c00e328fe
 ms.date: 05/03/2018
-keywords: ["_SCANWINDOW structure"]
+keywords: ["SCANWINDOW structure"]
 ms.keywords: "*PSCANWINDOW, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, PSCANWINDOW, PSCANWINDOW structure pointer [Imaging Devices], SCANWINDOW, SCANWINDOW structure [Imaging Devices], _SCANWINDOW, image.scanwindow, wiamicro/PSCANWINDOW, wiamicro/SCANWINDOW"
-f1_keywords:
- - "wiamicro/SCANWINDOW"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamicro.h
-api_name:
-- SCANWINDOW
-product:
-- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
+f1_keywords:
+ - _SCANWINDOW
+ - wiamicro/_SCANWINDOW
+ - PSCANWINDOW
+ - wiamicro/PSCANWINDOW
+ - SCANWINDOW
+ - wiamicro/SCANWINDOW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamicro.h
+api_name:
+ - SCANWINDOW
 ---
 
 # _SCANWINDOW structure
+
 
 ## -description
 
@@ -65,3 +69,4 @@ Specifies the width of the scan window in pixels.
 ### -field yExtent
 
 Specifies the height of the scan window in pixels.
+

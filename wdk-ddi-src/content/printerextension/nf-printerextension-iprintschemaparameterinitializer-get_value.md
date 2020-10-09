@@ -5,11 +5,9 @@ description: The Value (get_Value) property gets the current value of the IPrint
 old-location: print\iprintschemaparameterinitializer_getvalue.htm
 tech.root: print
 ms.assetid: CDBAB58C-F051-4047-A538-5504F0E28EC7
-ms.date: 04/20/2018
+ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterInitializer::get_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.get_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::get_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, get_Value, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value
-f1_keywords:
- - "printerextension/IPrintSchemaParameterInitializer.Value"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,78 +25,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaParameterInitializer.Value
-- IPrintSchemaParameterInitializer.get_Value
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaParameterInitializer::get_Value
+ - printerextension/IPrintSchemaParameterInitializer::get_Value
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaParameterInitializer.Value
+ - IPrintSchemaParameterInitializer.get_Value
 ---
 
 # IPrintSchemaParameterInitializer::get_Value
 
-
 ## -description
 
+The **Value** (get_Value) property gets the current value of the [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md) object.
 
-The <b>Value</b> (get_Value) property gets the current value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a> object.
-
- In PrintTicket XML, that’s the value of the <psf:Value> child element for the <psf:ParameterInit> element.
+ In PrintTicket XML, that is the value of the **psf:Value** child element for the **psf:ParameterInit** element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
+The **Value** (get_Value) property returns the current value of the **IPrintSchemaParameterInitializer** object in the form of a Variant variable. Here's how the value and type are stored in the Variant for the different parameter data types:
 
-
-The <b>Value</b> (get_Value) property returns the current value of the <b>IPrintSchemaParameterInitializer</b> object in the form of a Variant variable. Here's how the value and type are stored in the Variant for the different parameter data types:
-
-<table>
-<tr>
-<th>Parameter DataType</th>
-<th>Variant type</th>
-<th>Variant value</th>
-</tr>
-<tr>
-<td>PrintSchemaParameterDataType_Integer</td>
-<td>V_VT(pVar) is VT_I4</td>
-<td>V_I4(pVar)</td>
-</tr>
-<tr>
-<td>PrintSchemaParameterDataType_NumericString</td>
-<td>V_VT(pVar) is VT_BSTR</td>
-<td>V_BSTR(pVar)</td>
-</tr>
-<tr>
-<td>PrintSchemaParameterDataType_String</td>
-<td>V_VT(pVar) is VT_BSTR</td>
-<td>V_BSTR(pVar)</td>
-</tr>
-</table>
- 
-
-
-
+| Parameter DataType | Variant type | Variant value |
+|--|--|--|
+| PrintSchemaParameterDataType_Integer | V_VT(pVar) is VT_I4 | V_I4(pVar) |
+| PrintSchemaParameterDataType_NumericString | V_VT(pVar) is VT_BSTR | V_BSTR(pVar) |
+| PrintSchemaParameterDataType_String | V_VT(pVar) is VT_BSTR | V_BSTR(pVar) |
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a>
- 
-
- 
-
+[IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md)

@@ -8,8 +8,6 @@ ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.date: 04/20/2018
 keywords: ["SetJobNamedProperty function"]
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty
-f1_keywords:
- - "winspool/SetJobNamedProperty"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winspool.h
-api_name:
-- SetJobNamedProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SetJobNamedProperty
+ - winspool/SetJobNamedProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winspool.h
+api_name:
+ - SetJobNamedProperty
 ---
 
 # SetJobNamedProperty function
@@ -49,18 +48,17 @@ req.typenames:
 
 Describes the SetJobNamedProperty function.
 
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param JobId 
 
-### -param hPrinter [in]
+[in]
 
+### -param pProperty 
 
-### -param JobId [in]
-
-
-### -param pProperty [in]
+[in]
 

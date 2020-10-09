@@ -8,8 +8,6 @@ ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.date: 04/23/2018
 keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
-f1_keywords:
- - "ks/IKsControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,37 +25,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ks.h
-api_name:
-- IKsControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsControl
+ - ks/IKsControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ks.h
+api_name:
+ - IKsControl
 ---
 
-# IKsControl interface
+# IKsControl interface (ks.h)
+
 
 ## -description
 
 The **IKsControl** interface is a COM-style interface implemented on AVStream filters and pins. It enables clients in kernel mode to access AVStream automation objects (properties, methods, and events).
 
-See the [IKsControl (ksproxy.h)](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) kernel-streaming proxy COM interface for information about the kernel-mode equivalent of this interface.
+See the [IKsControl (ksproxy.h)](../ksproxy/nn-ksproxy-ikscontrol.md) kernel-streaming proxy COM interface for information about the kernel-mode equivalent of this interface.
 
 ## -inheritance
 
-The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
-Minidrivers typically acquire the **IKsControl** interface through a call to [KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface) or [KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface). Because this is a COM-style interface, the function call to obtain this interface calls the **QueryInterface** method, which in turn calls the **AddRef** method. Therefore, the minidriver does not have to perform these steps.
+Minidrivers typically acquire the **IKsControl** interface through a call to [KsPinGetConnectedFilterInterface](./nf-ks-kspingetconnectedfilterinterface.md) or [KsPinGetConnectedPinInterface](./nf-ks-kspingetconnectedpininterface.md). Because this is a COM-style interface, the function call to obtain this interface calls the **QueryInterface** method, which in turn calls the **AddRef** method. Therefore, the minidriver does not have to perform these steps.
 
 However, as soon as the client is finished with the **IKsControl** interface, it must release **IKsControl** with a call to the **Release** method.
 
@@ -95,12 +95,12 @@ IKsControl *Control;
     }
 ```
 
-For more information, see [AVStream Overview](https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview).
+For more information, see [AVStream Overview](/windows-hardware/drivers/stream/avstream-overview).
 
 ## -see-also
 
-[IKsControl(ksproxy.h)](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl(ksproxy.h)](../ksproxy/nn-ksproxy-ikscontrol.md)
 
-[KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface)
+[KsPinGetConnectedFilterInterface](./nf-ks-kspingetconnectedfilterinterface.md)
 
-[KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface)
+[KsPinGetConnectedPinInterface](./nf-ks-kspingetconnectedpininterface.md)

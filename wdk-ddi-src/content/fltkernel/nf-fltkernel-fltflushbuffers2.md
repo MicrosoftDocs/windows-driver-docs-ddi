@@ -1,50 +1,50 @@
 ---
 UID: NF:fltkernel.FltFlushBuffers2
 title: FltFlushBuffers2 function
-author: windows-driver-content
 description: A minifilter driver calls FltFlushBuffers2 to send a flush request to the file system for a given file.
 tech.root: ifsk
 ms.assetid: 183306c4-79fc-4356-81b3-658b307c7200
-ms.author: windowsdriverdev
 ms.date: 01/02/2020
 keywords: ["FltFlushBuffers2 function"]
-f1_keywords:
- - "fltkernel/FltFlushBuffers2"
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - FltFlushBuffers2
+ - fltkernel/FltFlushBuffers2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
 api_location:
-- fltkernel.h
-api_name: 
-- FltFlushBuffers2
+ - fltkernel.h
+api_name:
+ - FltFlushBuffers2
 product:
  - Windows
-targetos: Windows
 dev_langs:
-- c++
-ms.custom: 19H1
+ - c++
 ---
 
 # FltFlushBuffers2 function
+
 
 ## -description
 
@@ -66,7 +66,7 @@ Specifies the type of flush that the file system should do on the file. *FlushTy
 
 | FlushType Operation Value | Description |
 | ------------------------- | ----------- |
-| 0 | If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers). |
+| 0 | If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](./nf-fltkernel-fltflushbuffers.md). |
 | FLT_FLUSH_TYPE_FLUSH_AND_PURGE | Same as 0 (**FltFlushBuffers**), except that the cache is also purged after the flush completes. |
 | FLT_FLUSH_TYPE_FILE_DATA_ONLY | If the file is on an NTFS file system, only file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
 | FLT_FLUSH_TYPE_NO_SYNC | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage will not be synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
@@ -74,7 +74,7 @@ Specifies the type of flush that the file system should do on the file. *FlushTy
 
 ### -param CallbackData
 
-Pointer to optional callback data used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpropagateirpextension).
+Pointer to optional callback data used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](./nf-fltkernel-fltpropagateirpextension.md).
 
 ## -returns
 
@@ -87,14 +87,14 @@ Pointer to optional callback data used to propagate the caller's IRP extension. 
 
 ## -remarks
 
-A minifilter driver can call **FltFlushBuffers2** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*.
+A minifilter driver can call **FltFlushBuffers2** to issue an [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*.
 
 If the file is on an NTFS file system, the minifilter can control the type of flush through the *FlushType* parameter.
 
 ## -see-also
 
-[**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers)
+[**FltFlushBuffers**](./nf-fltkernel-fltflushbuffers.md)
 
-[**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpropagateirpextension)
+[**FltPropagateIrpExtension**](./nf-fltkernel-fltpropagateirpextension.md)
 
-[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
+[IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers)

@@ -5,40 +5,40 @@ description: Describes the subresources from an array of cube textures to use in
 ms.assetid: e823651f-f626-4db1-a9ac-3ead29da054e
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW"
-ms.keywords: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW, 
+ms.keywords: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
+ - d3d12umddi/D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW structure
+
 
 ## -description
 
@@ -63,9 +63,11 @@ Index of the first 2D texture to use.
 Number of cube textures in the array.
 
 ### -field ResourceMinLODClamp
+
  
 A value to clamp sample LOD values to. For example, if you specify 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.
 
 ## -remarks
 
 ## -see-also
+

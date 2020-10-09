@@ -5,35 +5,39 @@ description: The **WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE** enumeration
 tech.root: netvista
 ms.assetid: aa81d0f3-42dd-4e65-a311-ffbb7b2864a1
 ms.date: 08/20/2018
-keywords: ["_WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE"
-ms.keywords: _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, *PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, 
+keywords: ["WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE enumeration"]
+ms.keywords: _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, *PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, *PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - wwan/_WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - wwan/PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - wwan/WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
 ---
 
 # _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE enumeration
+
 
 ## -description
 
@@ -55,9 +59,9 @@ This enumeration is used in the [**WWAN_SAR_TRANSMISSION_STATUS_INFO**](ns-wwan-
 
 ## -see-also
 
-[MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support)
+[MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support)
 
-[OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
+[OID_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
 
 [**WWAN_SAR_TRANSMISSION_STATUS_INFO**](ns-wwan-_wwan_sar_transmission_status_info.md)
 

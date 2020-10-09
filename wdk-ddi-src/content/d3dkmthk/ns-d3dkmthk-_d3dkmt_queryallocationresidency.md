@@ -5,10 +5,8 @@ description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information
 old-location: display\d3dkmt_queryallocationresidency.htm
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_QUERYALLOCATIONRESIDENCY structure"]
+keywords: ["D3DKMT_QUERYALLOCATIONRESIDENCY structure"]
 ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
-f1_keywords:
- - "d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_QUERYALLOCATIONRESIDENCY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_QUERYALLOCATIONRESIDENCY
+f1_keywords:
+ - _D3DKMT_QUERYALLOCATIONRESIDENCY
+ - d3dkmthk/_D3DKMT_QUERYALLOCATIONRESIDENCY
+ - D3DKMT_QUERYALLOCATIONRESIDENCY
+ - d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_QUERYALLOCATIONRESIDENCY
 ---
 
 # _D3DKMT_QUERYALLOCATIONRESIDENCY structure
@@ -47,19 +48,13 @@ req.typenames: D3DKMT_QUERYALLOCATIONRESIDENCY
 
 ## -description
 
-
-The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations. 
-
+The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 
 ## -struct-fields
-
-
-
 
 ### -field hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the resource or list of allocations are associated with.
-
 
 ### -field hResource
 
@@ -71,18 +66,15 @@ If any allocation that belongs to the resource is not resident, the entire resou
 
 To retrieve detailed residency information about each allocation that belongs to a resource, the allocation must be queried.
 
-
 ### -field phAllocationList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The OpenGL ICD uses these handles to query for residency status. 
 
-If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, it must set <b>phAllocationList</b> to <b>NULL</b>. 
-
+If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, it must set <b>phAllocationList</b> to <b>NULL</b>.
 
 ### -field AllocationCount
 
 [in] The number of allocations in the array that <b>phAllocationList</b> specifies. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, it must set <b>AllocationCount</b> to zero.
-
 
 ### -field pResidencyStatus
 
@@ -96,8 +88,4 @@ If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NUL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryallocationresidency">D3DKMTQueryAllocationResidency</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryallocationresidency">D3DKMTQueryAllocationResidency</a>

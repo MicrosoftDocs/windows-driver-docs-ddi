@@ -8,8 +8,6 @@ ms.assetid: 85b87586-d4aa-4590-9a4b-73439fa8cf6a
 ms.date: 02/15/2018
 keywords: ["IWpdSerializer::GetSerializedSize"]
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,IWpdSerializer interface, IWpdSerializer interface,GetSerializedSize method, IWpdSerializer.GetSerializedSize, IWpdSerializer::GetSerializedSize, IWpdSerializerGetSerializedSize, portabledevicetypes/IWpdSerializer::GetSerializedSize, wpddk.iwpdserializer_getserializedsize
-f1_keywords:
- - "portabledevicetypes/IWpdSerializer.GetSerializedSize"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IWpdSerializer.GetSerializedSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IWpdSerializer::GetSerializedSize
+ - portabledevicetypes/IWpdSerializer::GetSerializedSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IWpdSerializer.GetSerializedSize
 ---
 
 # IWpdSerializer::GetSerializedSize
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Calculates the buffer size that is required to hold a serialized <b>IPortableDeviceValues</b> interface.
-
-
-
 
 ## -parameters
 
+### -param pSource 
 
+[in]
+Pointer to an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface whose size you want to request.
 
+### -param pdwSize 
 
-### -param pSource [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface whose size you want to request.
-
-
-### -param pdwSize [out]
-
+[out]
 Pointer to a <b>DWORD</b> that indicates the buffer size that is required to serialize <i>pSource</i>, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,27 +104,11 @@ There was not enough available memory to create the buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>

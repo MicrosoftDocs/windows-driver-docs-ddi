@@ -8,38 +8,37 @@ ms.assetid: d4bf4c05-fd60-4770-830c-1b146eaec967
 ms.date: 02/15/2018
 keywords: ["IOCTL_IEEE1284_GET_MODE IOCTL"]
 ms.keywords: IOCTL_IEEE1284_GET_MODE, IOCTL_IEEE1284_GET_MODE control code [Parallel Ports], cisspd_e421ca10-5fc6-444c-bb92-09f680fca56a.xml, ntddpar/IOCTL_IEEE1284_GET_MODE, parports.ioctl_ieee1284_get_mode
-f1_keywords:
- - "ntddpar/IOCTL_IEEE1284_GET_MODE"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddpar.h
-api_name:
-- IOCTL_IEEE1284_GET_MODE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+f1_keywords:
+ - IOCTL_IEEE1284_GET_MODE
+ - ntddpar/IOCTL_IEEE1284_GET_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddpar.h
+api_name:
+ - IOCTL_IEEE1284_GET_MODE
 ---
 
 # IOCTL_IEEE1284_GET_MODE IOCTL
@@ -48,61 +47,36 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
-
-
 The IOCTL_IEEE1284_GET_MODE request returns the IEEE 1284 read and write protocols that are currently set for a parallel device. This request does not require that the parallel port, to which the parallel device is attached, be locked.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
-
-
-
+For more information, see <a href="/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a PARCLASS_NEGOTIATION_MASK structure that the client allocates to output mode information. The system-supplied bus driver for parallel ports specifies the read (reverse) protocol in the <b>usReadMask</b> member and the write (forward) protocol in the <b>usWriteMask </b>member.
 
-
 ### -output-buffer-length
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -116,7 +90,6 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 **STATUS_BUFFER_TOO_SMALL**
 
 The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure.
-
 
 ## -see-also
 
@@ -133,11 +106,3 @@ The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than t
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-
-
-
- 
-
- 
-
-

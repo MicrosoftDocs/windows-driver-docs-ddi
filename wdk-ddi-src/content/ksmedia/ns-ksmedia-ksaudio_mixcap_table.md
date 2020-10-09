@@ -8,8 +8,6 @@ ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_MIXCAP_TABLE structure"]
 ms.keywords: "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE"
-f1_keywords:
- - "ksmedia/KSAUDIO_MIXCAP_TABLE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_MIXCAP_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
+f1_keywords:
+ - PKSAUDIO_MIXCAP_TABLE
+ - ksmedia/PKSAUDIO_MIXCAP_TABLE
+ - KSAUDIO_MIXCAP_TABLE
+ - ksmedia/KSAUDIO_MIXCAP_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_MIXCAP_TABLE
 ---
 
 # KSAUDIO_MIXCAP_TABLE structure
 
+
 ## -description
 
-The KSAUDIO_MIXCAP_TABLE structure specifies the mixing capabilities of a supermixer node ([KSNODETYPE_SUPERMIX](https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix)). This structure is used to get or set the data value for the [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps) property.
+The KSAUDIO_MIXCAP_TABLE structure specifies the mixing capabilities of a supermixer node ([KSNODETYPE_SUPERMIX](/windows-hardware/drivers/audio/ksnodetype-supermix)). This structure is used to get or set the data value for the [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps) property.
 
 ## -struct-fields
 
@@ -60,7 +62,7 @@ Specifies the number of output channels.
 
 ### -field Capabilities
 
-Contains the first entry in a two-dimensional array of [KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mix_caps) structures. Given a supermixer node with *m* input channels and *n* output channels, the array contains *m** elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
+Contains the first entry in a two-dimensional array of [KSAUDIO_MIX_CAPS](./ns-ksmedia-ksaudio_mix_caps.md) structures. Given a supermixer node with *m* input channels and *n* output channels, the array contains *m** elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
 
 ## -remarks
 
@@ -84,7 +86,7 @@ The table is an M-by-N matrix that maps M input channels into N output channels.
 
 In other words, the mixer caps for the path from input channel *i* to output channel *j* are contained in **Capabilities**[*i* * N + *j*]. If no path exists from input *i* to output *j*, set the **Mute** member of matrix element (*i*,*j*) to **TRUE**.
 
-The size of the table is calculated from the KSAUDIO_MIXCAP_TABLE structure that is retrieved by a [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps) get property request. If the structure's **InputChannels** and **OutputChannels** members have the values *m* and *n*, the total storage required for the KSAUDIO_MIXCAP_TABLE structure plus the KSAUDIO_MIX_CAPS array is calculated as
+The size of the table is calculated from the KSAUDIO_MIXCAP_TABLE structure that is retrieved by a [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps) get property request. If the structure's **InputChannels** and **OutputChannels** members have the values *m* and *n*, the total storage required for the KSAUDIO_MIXCAP_TABLE structure plus the KSAUDIO_MIX_CAPS array is calculated as
 
 **sizeof**(KSAUDIO_MIXCAP_TABLE) + (*mn - 1*)**sizeof**(KSAUDIO_MIX_CAPS)
 
@@ -92,10 +94,10 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-[KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mix_caps)
+[KSAUDIO_MIX_CAPS](./ns-ksmedia-ksaudio_mix_caps.md)
 
-[KSNODETYPE_SUPERMIX](https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix)
+[KSNODETYPE_SUPERMIX](/windows-hardware/drivers/audio/ksnodetype-supermix)
 
-[KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps)
+[KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps)
 
-[KSPROPERTY_AUDIO_MIX_LEVEL_TABLE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table)
+[KSPROPERTY_AUDIO_MIX_LEVEL_TABLE](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table)

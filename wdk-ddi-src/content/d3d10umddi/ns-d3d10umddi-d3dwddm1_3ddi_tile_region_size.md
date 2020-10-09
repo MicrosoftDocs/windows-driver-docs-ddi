@@ -7,8 +7,6 @@ ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2
 ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILE_REGION_SIZE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size
-f1_keywords:
- - "d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM1_3DDI_TILE_REGION_SIZE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_REGION_SIZE
+f1_keywords:
+ - D3DWDDM1_3DDI_TILE_REGION_SIZE
+ - d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM1_3DDI_TILE_REGION_SIZE
 ---
 
 # D3DWDDM1_3DDI_TILE_REGION_SIZE structure
@@ -47,14 +46,9 @@ req.typenames: D3DWDDM1_3DDI_TILE_REGION_SIZE
 
 ## -description
 
-
 Specifies a tiled region.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumTiles
 
@@ -72,16 +66,13 @@ If <b>FALSE</b>, the <b>Width</b>, <b>Height</b>, and <b>Depth</b> members shoul
 In either case, the starting location for the region within the resource 
                   is specified as a separate parameter outside this structure.
 
-
 ### -field Width
 
 The width (in the <i>x</i>-direction) of the tiled region. Used for buffer, 1-D, 2-D, and 3-D rendering.
 
-
 ### -field Height
 
 The height (in the <i>y</i>-direction) of the tiled region. Used for 2-D and 3-D rendering.
-
 
 ### -field Depth
 

@@ -5,35 +5,39 @@ description: The WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration specifies the level
 tech.root: netvista
 ms.assetid: BA48D00B-4D26-4298-BA39-E87D27F4F299
 ms.date: 04/11/2019
-keywords: ["_WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration"]
-f1_keywords:
- - "wwan/_WWAN_MODEM_LOGGING_LEVEL_CONFIG"
-ms.keywords: _WWAN_MODEM_LOGGING_LEVEL_CONFIG WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG 
+keywords: ["WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration"]
+ms.keywords: _WWAN_MODEM_LOGGING_LEVEL_CONFIG WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_MODEM_LOGGING_LEVEL_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - wwan/_WWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - PWWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - wwan/PWWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - WWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - wwan/WWAN_MODEM_LOGGING_LEVEL_CONFIG
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_MODEM_LOGGING_LEVEL_CONFIG
 ---
 
 # _WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration
+
 
 ## -description
 
@@ -71,8 +75,8 @@ This enumeration is used in the [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-
 
 ## -see-also
 
-[MB modem logging with DSS](https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-logging-with-dss)
+[MB modem logging with DSS](/windows-hardware/drivers/network/mb-modem-logging-with-dss)
 
-[OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
+[OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
 
 [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_config.md)

@@ -8,8 +8,6 @@ ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
 ms.date: 04/23/2018
 keywords: ["KsDeleteFilterFactory macro"]
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
-f1_keywords:
- - "ks/KsDeleteFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KsDeleteFilterFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsDeleteFilterFactory
+ - ks/KsDeleteFilterFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KsDeleteFilterFactory
 ---
 
 # KsDeleteFilterFactory macro
+
 
 ## -description
 
@@ -50,20 +50,21 @@ req.typenames:
 
 ## -parameters
 
-### -param FilterFactory [in]
+### -param FilterFactory 
 
-A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that represents the filter factory to be deleted.
+[in]
+A pointer to a [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md) structure that represents the filter factory to be deleted.
 
 ## -returns
 
-This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitemsbycontext), which is NTSTATUS.
+This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](./nf-ks-ksfreeobjectcreateitemsbycontext.md), which is NTSTATUS.
 
 ## -see-also
 
-[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory)
+[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
 
-[KsCreateFilterFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory)
+[KsCreateFilterFactory](./nf-ks-kscreatefilterfactory.md)
 
-[KsFilterFactoryAddCreateItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem)
+[KsFilterFactoryAddCreateItem](./nf-ks-ksfilterfactoryaddcreateitem.md)
 
-[KsFilterFactorySetDeviceClassesState](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorysetdeviceclassesstate)
+[KsFilterFactorySetDeviceClassesState](./nf-ks-ksfilterfactorysetdeviceclassesstate.md)

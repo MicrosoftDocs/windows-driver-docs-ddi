@@ -8,8 +8,6 @@ ms.assetid: 67F42694-C6E1-458E-AE5F-7E3678F55A8B
 ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_STREAM_OPEN IOCTL"]
 ms.keywords: IOCTL_BTHHFP_STREAM_OPEN, IOCTL_BTHHFP_STREAM_OPEN control, IOCTL_BTHHFP_STREAM_OPEN control code [Audio Devices], audio.ioctl_bthhfp_stream_open, bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN
-f1_keywords:
- - "bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthhfpddi.h
-api_name:
-- IOCTL_BTHHFP_STREAM_OPEN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTHHFP_STREAM_OPEN
+ - bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthhfpddi.h
+api_name:
+ - IOCTL_BTHHFP_STREAM_OPEN
 ---
 
 # IOCTL_BTHHFP_STREAM_OPEN IOCTL
@@ -47,77 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_BTHHFP_STREAM_OPEN</b> 
    IOCTL requests an open synchronous connection-oriented (SCO) channel to transmit audio data over the air.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 N/A
 
-
 ### -input-buffer-length
 
 N/A
-
 
 ### -output-buffer
 
 N/A
 
-
 ### -output-buffer-length
 
 N/A
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 A STATUS_DEVICE_BUSY message to indicate that the stream channel is already open.
 
-
 ## -remarks
-
-
 
 This request can remain pending for several seconds while resources are established.
 
 While the stream channel is open the target driver attempts to keep the SCO channel open for audio data transfer. However the SCO channel might close briefly, if the remote device disconnects the SCO channel.  The target driver will attempt to reopen the SCO channel in this case, without requiring any action from the client audio driver.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>

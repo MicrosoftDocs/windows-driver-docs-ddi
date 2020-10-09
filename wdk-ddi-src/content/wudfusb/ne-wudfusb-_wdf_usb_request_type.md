@@ -6,10 +6,8 @@ old-location: wdf\wdf_usb_request_type_umdf.htm
 tech.root: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.date: 02/26/2018
-keywords: ["_WDF_USB_REQUEST_TYPE enumeration"]
+keywords: ["WDF_USB_REQUEST_TYPE enumeration"]
 ms.keywords: "*PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeWrite, _WDF_USB_REQUEST_TYPE, umdf.wdf_usb_request_type, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wdf.wdf_usb_request_type_umdf, wudfusb/PWDF_USB_REQUEST_TYPE, wudfusb/WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeInvalid, wudfusb/WdfUsbRequestTypeNoFormat, wudfusb/WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypePipeWrite"
-f1_keywords:
- - "wudfusb/WDF_USB_REQUEST_TYPE"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Windows
@@ -27,59 +25,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wudfusb.h
-api_name:
-- WDF_USB_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+f1_keywords:
+ - _WDF_USB_REQUEST_TYPE
+ - wudfusb/_WDF_USB_REQUEST_TYPE
+ - PWDF_USB_REQUEST_TYPE
+ - wudfusb/PWDF_USB_REQUEST_TYPE
+ - WDF_USB_REQUEST_TYPE
+ - wudfusb/WDF_USB_REQUEST_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wudfusb.h
+api_name:
+ - WDF_USB_REQUEST_TYPE
 ---
 
-# _WDF_USB_REQUEST_TYPE enumeration
+# _WDF_USB_REQUEST_TYPE enumeration (wudfusb.h)
 
 
 ## -description
 
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a> enumeration contains values that identify a type of USB request object.
-
+The <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a> enumeration contains values that identify a type of USB request object.
 
 ## -enum-fields
 
-
-
-
 ### -field WdfUsbRequestTypeInvalid
 
-The type of the request object is invalid. 
-
+The type of the request object is invalid.
 
 ### -field WdfUsbRequestTypeNoFormat
 
 The request object is not formatted.
 
-
 ### -field WdfUsbRequestTypeDeviceControlTransfer
 
-The request object is sent when the application calls the Win32 <b>DeviceIoControl</b> function on the file object that is associated with the target device. 
-
+The request object is sent when the application calls the Win32 <b>DeviceIoControl</b> function on the file object that is associated with the target device.
 
 ### -field WdfUsbRequestTypePipeWrite
 
-The request object is sent when the application calls the Win32 <b>WriteFile</b> or <b>WriteFileEx</b> function on the file object that is associated with the target device. 
-
+The request object is sent when the application calls the Win32 <b>WriteFile</b> or <b>WriteFileEx</b> function on the file object that is associated with the target device.
 
 ### -field WdfUsbRequestTypePipeRead
 
-The request object is sent when the application calls the Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function on the file object that is associated with the target device. 
-
+The request object is sent when the application calls the Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function on the file object that is associated with the target device.

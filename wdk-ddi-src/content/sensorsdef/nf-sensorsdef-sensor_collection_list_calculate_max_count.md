@@ -8,8 +8,6 @@ ms.assetid: 56C94717-41FF-44AA-BC99-1ECE4A407A38
 ms.date: 05/03/2018
 keywords: ["SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function"]
 ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_collection_list_calculate_max_count, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
-f1_keywords:
- - "sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sensorsdef.h
-api_name:
-- SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+ - sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sensorsdef.h
+api_name:
+ - SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
 ---
 
 # SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function
@@ -47,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
-This function calculates the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> elements in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
-
+This function calculates the number of <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> elements in a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
 
 ## -parameters
 
+### -param pCollectionList 
 
-
-
-### -param pCollectionList [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
-
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
 
 ## -returns
 
-
-
 The <b>SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</b> function returns a ULONG value.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a>

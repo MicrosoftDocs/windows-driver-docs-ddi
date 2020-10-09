@@ -8,8 +8,6 @@ ms.assetid: 3d3e0dca-bb05-4e5c-aa4a-76bb178f60bf
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_REPORTFRAMESTATISTICS structure"]
 ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS
-f1_keywords:
- - "iddcx/IDARG_IN_REPORTFRAMESTATISTICS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_REPORTFRAMESTATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_REPORTFRAMESTATISTICS
+ - iddcx/IDARG_IN_REPORTFRAMESTATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_REPORTFRAMESTATISTICS
 ---
 
 # IDARG_IN_REPORTFRAMESTATISTICS structure
@@ -47,19 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about frame statistics.
-
 
 ## -struct-fields
 
-
-
-
 ### -field FrameStatistics
 
-
                      [in] Frame statics being reported.
-                 
 

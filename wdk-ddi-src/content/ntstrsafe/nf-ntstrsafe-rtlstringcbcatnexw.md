@@ -8,8 +8,6 @@ ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCatNExW function"]
 ms.keywords: RtlStringCbCatNEx, RtlStringCbCatNExA, RtlStringCbCatNExW, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatnex, ntstrsafe/RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbCatNExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbCatNExW
-- RtlStringCbCatNExA
-- RtlStringCbCatNExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbCatNExW
+ - ntstrsafe/RtlStringCbCatNExW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbCatNExW
+ - RtlStringCbCatNExA
+ - RtlStringCbCatNExW
 ---
 
 # RtlStringCbCatNExW function
@@ -50,22 +49,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCbCatNExW</b> and <b>RtlStringCbCatNExA</b> functions concatenate two byte-counted strings while limiting the size of the appended string. 
-
+The <b>RtlStringCbCatNExW</b> and <b>RtlStringCbCatNExA</b> functions concatenate two byte-counted strings while limiting the size of the appended string.
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [in, out, optional]
-
+[in, out, optional]
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbMaxAppend</i> bytes, is added to the end of the string at <i>pszDest</i>, and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param cbDest 
 
-### -param cbDest [in]
-
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to include both strings and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -74,29 +69,28 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
+### -param pszSrc 
 
-### -param pszSrc [in, optional]
-
+[in, optional]
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
-
 
 ### -param cbToAppend
 
 <p>The maximum number of bytes to append to <i>pszDest</i>. </p>
 
+### -param ppszDestEnd 
 
-### -param ppszDestEnd [out, optional]
+[out, optional]
+If the caller supplies a non-<b>NULL</b> address pointer, then after the concatenation operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator.
 
-If the caller supplies a non-<b>NULL</b> address pointer, then after the concatenation operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
+### -param pcbRemaining 
 
-
-### -param pcbRemaining [out, optional]
-
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including bytes used for the terminating null character.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>
@@ -155,14 +149,10 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -213,14 +203,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbCatNExW</b> and <b>RtlStringCbCatNExA</b> should be used instead of the following functions: 
 
@@ -236,7 +220,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in bytes, of the destination buffer is provided to <b>RtlStringCbCatNExW</b> and <b>RtlStringCbCatNExA</b> to ensure that they do not write past the end of the buffer. 
 
-<b>RtlStringCbCatNEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatna">RtlStringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCbCatNEx</b> adds to the functionality of <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatna">RtlStringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCbCatNExW</b> to handle Unicode strings and  <b>RtlStringCbCatNExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
@@ -281,26 +265,16 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszSrc</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatexa">RtlStringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatexa">RtlStringCbCatEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatna">RtlStringCbCatN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatna">RtlStringCbCatN</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>

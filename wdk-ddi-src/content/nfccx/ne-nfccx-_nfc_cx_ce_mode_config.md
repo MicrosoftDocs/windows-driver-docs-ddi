@@ -6,10 +6,8 @@ old-location: nfpdrivers\nfc_cx_ce_mode_config.htm
 tech.root: nfpdrivers
 ms.assetid: 2C7071A4-B978-408C-9C98-67BC63F2BBCA
 ms.date: 02/15/2018
-keywords: ["_NFC_CX_CE_MODE_CONFIG enumeration"]
+keywords: ["NFC_CX_CE_MODE_CONFIG enumeration"]
 ms.keywords: "*PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_MODE_CONFIG,*PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG,*PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_NFC_A, NFC_CX_CE_NFC_B, NFC_CX_CE_NFC_F, _NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_DEFAULT, nfccx/NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_NFC_A, nfccx/NFC_CX_CE_NFC_B, nfccx/NFC_CX_CE_NFC_F, nfpdrivers.nfc_cx_ce_mode_config"
-f1_keywords:
- - "nfccx/NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfccx.h
-api_name:
-- NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
+f1_keywords:
+ - _NFC_CX_CE_MODE_CONFIG
+ - nfccx/_NFC_CX_CE_MODE_CONFIG
+ - PNFC_CX_CE_MODE_CONFIG
+ - nfccx/PNFC_CX_CE_MODE_CONFIG
+ - NFC_CX_CE_MODE_CONFIG
+ - nfccx/NFC_CX_CE_MODE_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfccx.h
+api_name:
+ - NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
 ---
 
 # _NFC_CX_CE_MODE_CONFIG enumeration
@@ -47,46 +50,30 @@ req.typenames: NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
 
 ## -description
 
-
 This enumeration specifies CE listening mode flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NFC_CX_CE_NFC_A
 
 Specifies NFC-A listening mode.
 
-
 ### -field NFC_CX_CE_NFC_B
 
 Specifies NFC-B listening mode.
-
 
 ### -field NFC_CX_CE_NFC_F
 
 Specifies NFC-F listening mode.
 
-
 ### -field NFC_CX_CE_DEFAULT
 
 Specifies NFC-A, NFC-B, and NFC-F listening mode.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

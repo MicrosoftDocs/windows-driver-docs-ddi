@@ -8,8 +8,6 @@ ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.date: 05/03/2018
 keywords: ["SENSOR_PROPERTY_LIST_SIZE function"]
 ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE
-f1_keywords:
- - "sensorsdef/SENSOR_PROPERTY_LIST_SIZE"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sensorsdef.h
-api_name:
-- SENSOR_PROPERTY_LIST_SIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SENSOR_PROPERTY_LIST_SIZE
+ - sensorsdef/SENSOR_PROPERTY_LIST_SIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sensorsdef.h
+api_name:
+ - SENSOR_PROPERTY_LIST_SIZE
 ---
 
 # SENSOR_PROPERTY_LIST_SIZE function
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This function returns the size of the property list.
-
 
 ## -parameters
 
+### -param Count 
 
-
-
-### -param Count [in]
-
+[in]
 The number of PROPERTYKEY elements.
-
 
 ## -returns
 
-
-
 The <b>SENSOR_PROPERTY_LIST_SIZE</b> function returns a ULONG value that represents the size of the property list.
-
-
 

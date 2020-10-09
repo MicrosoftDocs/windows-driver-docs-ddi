@@ -6,10 +6,8 @@ old-location: netvista\wwan_sms_send_cdma.htm
 tech.root: netvista
 ms.assetid: e05b7391-7852-45c7-aed0-36c95b4e475b
 ms.date: 05/02/2018
-keywords: ["_WWAN_SMS_SEND_CDMA structure"]
+keywords: ["WWAN_SMS_SEND_CDMA structure"]
 ms.keywords: "*PWWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista], WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml, _WWAN_SMS_SEND_CDMA, netvista.wwan_sms_send_cdma, wwan/PWWAN_SMS_SEND_CDMA, wwan/WWAN_SMS_SEND_CDMA"
-f1_keywords:
- - "wwan/WWAN_SMS_SEND_CDMA"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_SEND_CDMA
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA
+f1_keywords:
+ - _WWAN_SMS_SEND_CDMA
+ - wwan/_WWAN_SMS_SEND_CDMA
+ - PWWAN_SMS_SEND_CDMA
+ - wwan/PWWAN_SMS_SEND_CDMA
+ - WWAN_SMS_SEND_CDMA
+ - wwan/WWAN_SMS_SEND_CDMA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_SEND_CDMA
 ---
 
 # _WWAN_SMS_SEND_CDMA structure
@@ -47,27 +50,20 @@ req.typenames: WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA
 
 ## -description
 
-
 The WWAN_SMS_SEND_CDMA structure represents a CDMA-based SMS text message to send.
 
-
 ## -struct-fields
-
-
-
 
 ### -field EncodingId
 
 The encoding that is used in the CDMA message. 
      <b>EncodedMsg</b> message should be interpreted based on the value of this member.
 
-
 ### -field LanguageId
 
 The language used in CDMA message. This is an indicator of the language used in SMS message and
      may be set to 
      <b>WwanSmsCdmaLangUnknown</b>, if the language is not known.
-
 
 ### -field Address
 
@@ -94,13 +90,11 @@ If
      <i>WwanMsgStatusNew</i> or 
      <i>WwanMsgStatusOld</i>, miniport drivers should specify the sender's mobile number.
 
-
 ### -field SizeInBytes
 
 The size, in bytes, of 
      <b>EncodedMsg</b> . The encoded message can have a maximum length of WWAN_SMS_CDMA_MAX_BUF_LEN. Miniport
      drivers must specify a value for this member for all encoding types.
-
 
 ### -field SizeInCharacters
 
@@ -111,27 +105,18 @@ Size of
      <i>WwanSmsCdmaEncodingShiftJis</i> or 
      <i>WwanSmsCdmaEncodingKorean</i>.
 
-
 ### -field EncodedMsg
 
 The encoded content that represents the CDMA-based SMS text message.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_encoding">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_encoding">WWAN_SMS_CDMA_ENCODING</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>

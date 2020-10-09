@@ -8,8 +8,6 @@ ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOEx2 interface"]
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOEx2, dtf.iwdtfsimpleioex2, wdtfinterfaces/IWDTFSimpleIOEx2
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOEx2"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOEx2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOEx2
+ - wdtfinterfaces/IWDTFSimpleIOEx2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOEx2
 ---
 
 # IWDTFSimpleIOEx2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations for a simple synchronous I/O functionality test.
-
 
 ## -inheritance
 
@@ -60,16 +57,14 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOEx2</b> interfac
 
 ## -remarks
 
-
-
 The <b>IWDTFSimpleIOEx2</b> action interface acts on an instance of the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface that is retrieved by querying the 
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface that is retrieved by querying the 
 device depot. You can retrieve a target-specific implementation of an action interface by calling the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-getinterface">IWDTFTarget2::GetInterface</a> method with the 
+<a href="/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-getinterface">IWDTFTarget2::GetInterface</a> method with the 
 desired WDTF <i>ProgID.</i>
 
 For an asynchronous interface for this same underlying functionality, 
-see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>. 
+see <a href="/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>. 
 
 The <b>IWDTFSimpleIOEx2</b> action interface is compatible with the following device 
 classes:
@@ -97,15 +92,13 @@ Storage volumes (class = Volume)
 </li>
 </ul>
 For more information about device classes, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">Device Setup Classes</a>.
+<a href="/windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
 interface works, or to support additional device classes, try to implement a target-specific version 
 of it for your device class. For more information about how to implement such a version, see 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/wdtf-overview">Windows Device Testing Framework 
+<a href="/windows-hardware/drivers/wdtf/wdtf-overview">Windows Device Testing Framework 
 Design Guide</a>.
 
 <div class="alert"><b>Note</b>  The implementations of this interface are not thread-safe.</div>
 <div> </div>
-
-

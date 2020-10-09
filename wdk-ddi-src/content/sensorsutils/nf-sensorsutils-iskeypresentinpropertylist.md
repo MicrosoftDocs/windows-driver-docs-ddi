@@ -6,40 +6,39 @@ ms.assetid: 4a565915-3f6d-45ff-8912-0a4e80910a8b
 ms.date: 08/08/2018
 keywords: ["IsKeyPresentInPropertyList function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/IsKeyPresentInPropertyList"
 ms.keywords: IsKeyPresentInPropertyList
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- IsKeyPresentInPropertyList
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - IsKeyPresentInPropertyList
+ - sensorsutils/IsKeyPresentInPropertyList
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - IsKeyPresentInPropertyList
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # IsKeyPresentInPropertyList function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine determine if a key is present in a property list.
-
 
 ## -parameters
 
@@ -67,3 +65,4 @@ This function returns TRUE if the key is present, FALSE otherwise.
 ## -remarks
 
 ## -see-also
+

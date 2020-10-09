@@ -6,10 +6,8 @@ old-location: kernel\vpci_read_block_input.htm
 tech.root: pci
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.date: 04/30/2018
-keywords: ["_VPCI_READ_BLOCK_INPUT structure"]
+keywords: ["VPCI_READ_BLOCK_INPUT structure"]
 ms.keywords: "*PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT"
-f1_keywords:
- - "vpci/VPCI_READ_BLOCK_INPUT"
 req.header: vpci.h
 req.include-header: Vpci.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vpci.h
-api_name:
-- VPCI_READ_BLOCK_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT
+f1_keywords:
+ - _VPCI_READ_BLOCK_INPUT
+ - vpci/_VPCI_READ_BLOCK_INPUT
+ - PVPCI_READ_BLOCK_INPUT
+ - vpci/PVPCI_READ_BLOCK_INPUT
+ - VPCI_READ_BLOCK_INPUT
+ - vpci/VPCI_READ_BLOCK_INPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vpci.h
+api_name:
+ - VPCI_READ_BLOCK_INPUT
 ---
 
 # _VPCI_READ_BLOCK_INPUT structure
@@ -47,30 +50,21 @@ req.typenames: VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT
 
 ## -description
 
-
-The <b>VPCI_READ_BLOCK_INPUT</b> structure is used in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF).
+The <b>VPCI_READ_BLOCK_INPUT</b> structure is used in an <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF).
 
 This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BlockId
 
 A <b>ULONG</b> value that specifies the VF configuration block to be read.  This value is defined by the driver for the PCIe physical function (PF) of the device.
 
-
 ### -field BytesRequested
 
 The size, in bytes, of the buffer that receives the block.
 
-
 ## -remarks
-
-
 
 A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. Data from a VF configuration block can be exchanged between the following drivers:
 
@@ -89,19 +83,10 @@ This operating system runs within the Hyper-V parent partition.
 <div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>

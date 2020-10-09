@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_device_service_supported_commands.htm
 tech.root: netvista
 ms.assetid: 5F619FBF-4152-447E-B228-D4147687E929
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure"]
+keywords: ["NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.ndis_wwan_device_service_supported_commands"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - ndiswwan/_NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PNDIS_WWAN_DEVICE_S
 
 ## -description
 
-
 The NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,17 +102,14 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
 The status of the device services command enumeration operation.
-
 
 ### -field SupportedCommands
 
  A formatted WWAN_LIST_HEADER object that represents the list of command supported on a device services.
 
 This member points to the list of the command ID (ULONG) by using the WWAN_LIST_HEADER structure.
-

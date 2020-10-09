@@ -10,6 +10,7 @@ keywords: ["FsRtlCopyRead function"]
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
 f1_keywords:
  - "ntifs/FsRtlCopyRead"
+ - "FsRtlCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,43 +55,43 @@ The <b>FsRtlCopyRead</b> routine copies data from a cached file to a user buffer
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file from which the data is to be read.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 Starting byte offset within the cached file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length in bytes of the data to be read.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-### -param LockKey [in]
-
+### -param LockKey 
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer into which the data is to be copied.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 Pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 The device object for the device that holds the file data.
 
 
@@ -138,9 +137,9 @@ If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyRead</b> is guaranteed to complete th
 
 If <i>Wait</i> is <b>FALSE</b>, <b>FsRtlCopyRead</b> will refuse to block, and will return <b>FALSE</b>, if it cannot acquire the file's main resource or if the required pages of the cached file are not already resident in memory.
 
-The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuring that the byte range defined by <i>FileOffset</i> and <i>Length</i> does not include any exclusively locked byte range for which the caller does not pass the appropriate <i>LockKey</i> value. If the file system uses the <b>FsRtl..Lock</b><i>Xxx</i> support routines to manage byte-range locks, this can be accomplished by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread">FsRtlFastCheckLockForRead</a> from the <b>FastIoCheckIfPossible</b> routine before calling <b>FsRtlCopyRead</b>.
+The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuring that the byte range defined by <i>FileOffset</i> and <i>Length</i> does not include any exclusively locked byte range for which the caller does not pass the appropriate <i>LockKey</i> value. If the file system uses the <b>FsRtl..Lock</b><i>Xxx</i> support routines to manage byte-range locks, this can be accomplished by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread">FsRtlFastCheckLockForRead</a> from the <b>FastIoCheckIfPossible</b> routine before calling <b>FsRtlCopyRead</b>.
 
-To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a> routine.
+To cache a file, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a> routine.
 
 
 
@@ -150,16 +149,15 @@ To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread">FsRtlFastCheckLockForRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread">FsRtlFastCheckLockForRead</a>
  
 
  
-

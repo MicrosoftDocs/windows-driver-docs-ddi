@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupAction2::UpdateDriver"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UpdateDriver method, IWDTFDriverSetupAction2.UpdateDriver, IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver, UpdateDriver method [Windows Device Testing Framework], UpdateDriver method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_updatedriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2.UpdateDriver"
+ - "IWDTFDriverSetupAction2.UpdateDriver"
 req.header: wdtfdriversetupdeviceaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupDeviceAction.Interop.dll
 api_name:
 - IWDTFDriverSetupAction2.UpdateDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Updates the target device with a driver from the driver package.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The driver package.
 
 
@@ -77,7 +76,7 @@ True if the device must reboot after the update; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -87,8 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2">IWDTFDriverSetupAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2">IWDTFDriverSetupAction2</a>
  
 
  
-

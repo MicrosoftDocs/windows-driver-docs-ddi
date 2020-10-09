@@ -8,8 +8,6 @@ ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters::GetDescription"]
 ms.keywords: GetDescription, GetDescription method [Windows Debugging], GetDescription method [Windows Debugging],IDebugRegisters interface, GetDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetDescription method, IDebugRegisters.GetDescription, IDebugRegisters2 interface [Windows Debugging],GetDescription method, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription
-f1_keywords:
- - "dbgeng/IDebugRegisters.GetDescription"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters.GetDescription
-- IDebugRegisters2.GetDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters::GetDescription
+ - dbgeng/IDebugRegisters::GetDescription
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters.GetDescription
+ - IDebugRegisters2.GetDescription
 ---
 
 # IDebugRegisters::GetDescription
@@ -48,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetDescription</b>  method returns the description of a register.
-
 
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 Specifies the index of the register for which the description is requested.
 
+### -param NameBuffer 
 
-### -param NameBuffer [out, optional]
-
+[out, optional]
 Specifies the buffer in which to store the name of the register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param NameBufferSize 
 
-### -param NameBufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies.
 
+### -param NameSize 
 
-### -param NameSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param Desc 
 
-### -param Desc [out, optional]
-
-Receives the description of the register.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_register_description">DEBUG_REGISTER_DESCRIPTION</a> for more details.
-
+[out, optional]
+Receives the description of the register.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_register_description">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 
 ## -returns
 
-
-
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -138,16 +130,7 @@ The index of the register requested is greater than the total number of register
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
-
-
-
+For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.

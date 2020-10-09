@@ -8,8 +8,6 @@ ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.date: 04/23/2018
 keywords: ["KSALLOCATORMODE enumeration"]
 ms.keywords: KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_Kernel, KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, stream.ksallocatormode
-f1_keywords:
- - "ksproxy/KSALLOCATORMODE"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksproxy.h
-api_name:
-- KSALLOCATORMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATORMODE
+f1_keywords:
+ - KSALLOCATORMODE
+ - ksproxy/KSALLOCATORMODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksproxy.h
+api_name:
+ - KSALLOCATORMODE
 ---
 
 # KSALLOCATORMODE enumeration
@@ -47,17 +46,9 @@ req.typenames: KSALLOCATORMODE
 
 ## -description
 
-
-
-
-
 ## -enum-fields
 
-
-
-
 ### -field KsAllocatorMode_User
-
 
 ### -field KsAllocatorMode_Kernel
 

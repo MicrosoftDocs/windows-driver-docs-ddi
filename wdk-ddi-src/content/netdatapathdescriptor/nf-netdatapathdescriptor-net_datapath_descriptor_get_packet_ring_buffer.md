@@ -8,6 +8,7 @@ ms.date: 02/27/2018
 keywords: ["NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro"]
 f1_keywords:
  - "netdatapathdescriptor/NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER"
+ - "NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER"
 ms.keywords: NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ api_location:
 - netdatapathdescriptor.h
 api_name: 
 - NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
-product:
-- Windows
 targetos: Windows
 
 ---
@@ -57,10 +56,10 @@ The **NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER** macro retrieves a datapat
 A pointer to the queue's [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure.
 
 ## -remarks
-To retrieve a queue's ring buffer of [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s, first call **NetRx(Tx)QueueGetDatapathDescriptor** to get the queue's datapath descriptor, then call this macro with the descriptor.
+To retrieve a queue's ring buffer of [NET_PACKET](../packet/ns-packet-_net_packet.md)s, first call **NetRx(Tx)QueueGetDatapathDescriptor** to get the queue's datapath descriptor, then call this macro with the descriptor.
 
 
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

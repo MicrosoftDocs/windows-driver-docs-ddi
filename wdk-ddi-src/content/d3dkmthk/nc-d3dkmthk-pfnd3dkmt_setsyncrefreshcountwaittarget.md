@@ -5,47 +5,57 @@ description: The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets 
 ms.assetid: 012ee806-e75f-49c3-aedf-395298324cbc
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmthk.h
-api_name: 
-- PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
+ - d3dkmthk/PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function
 
+
 ## -description
 
 The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets sync refresh count for wait target.
+
+## -parameters
+
+### -param Arg1
+
+Pointer to a [D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET](ns-d3dkmthk-_d3dkmt_setsyncrefreshcountwaittarget.md) structure.
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -64,20 +74,7 @@ NTSTATUS Pfnd3dkmtSetsyncrefreshcountwaittarget
 
 ```
 
-## -parameters
-
-### -param Arg1
-
-Pointer to a [D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET](ns-d3dkmthk-_d3dkmt_setsyncrefreshcountwaittarget.md) structure.
-
-## -returns
-
-Returns NTSTATUS.
-
-
 ## -remarks
 
-
-
-
 ## -see-also
+

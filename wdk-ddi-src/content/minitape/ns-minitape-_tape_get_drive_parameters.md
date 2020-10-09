@@ -6,10 +6,8 @@ old-location: storage\tape_get_drive_parameters.htm
 tech.root: storage
 ms.assetid: 2b1b196f-f012-4136-983e-8c8192bdbd2f
 ms.date: 03/29/2018
-keywords: ["_TAPE_GET_DRIVE_PARAMETERS structure"]
+keywords: ["TAPE_GET_DRIVE_PARAMETERS structure"]
 ms.keywords: "*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], _TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, ntddtape/TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml"
-f1_keywords:
- - "minitape/TAPE_GET_DRIVE_PARAMETERS"
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -27,74 +25,66 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_GET_DRIVE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
+f1_keywords:
+ - _TAPE_GET_DRIVE_PARAMETERS
+ - minitape/_TAPE_GET_DRIVE_PARAMETERS
+ - PTAPE_GET_DRIVE_PARAMETERS
+ - minitape/PTAPE_GET_DRIVE_PARAMETERS
+ - TAPE_GET_DRIVE_PARAMETERS
+ - minitape/TAPE_GET_DRIVE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_GET_DRIVE_PARAMETERS
 ---
 
-# _TAPE_GET_DRIVE_PARAMETERS structure
+# _TAPE_GET_DRIVE_PARAMETERS structure (minitape.h)
 
 
 ## -description
 
-
-The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_drive_params">IOCTL_TAPE_GET_DRIVE_PARAMS</a> request to retrieve information about capabilities of the tape drive.
-
+The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_drive_params">IOCTL_TAPE_GET_DRIVE_PARAMS</a> request to retrieve information about capabilities of the tape drive.
 
 ## -struct-fields
-
-
-
 
 ### -field ECC
 
 When set to <b>TRUE</b>, indicates that the device uses hardware error correction.
 
-
 ### -field Compression
 
-When set to <b>TRUE</b>, indicates that compression is enabled on a device that supports it. When compression is enabled, the device compresses data prior to writing it. When set to <b>FALSE</b>, compression is not enabled on the device. 
-
+When set to <b>TRUE</b>, indicates that compression is enabled on a device that supports it. When compression is enabled, the device compresses data prior to writing it. When set to <b>FALSE</b>, compression is not enabled on the device.
 
 ### -field DataPadding
 
-When set to <b>TRUE</b>, indicates that data padding is enabled on a device that supports it. When padding is enabled, the device pads data with zeros to keep the tape streaming until data is ready. When set to <b>FALSE</b>, data padding is not enabled. 
-
+When set to <b>TRUE</b>, indicates that data padding is enabled on a device that supports it. When padding is enabled, the device pads data with zeros to keep the tape streaming until data is ready. When set to <b>FALSE</b>, data padding is not enabled.
 
 ### -field ReportSetmarks
 
-When set to <b>TRUE</b>, indicates that reporting setmarks is enabled on a device that supports it. The device reports setmarks encountered during read or space operations. When set to <b>FALSE</b>, reporting setmarks is not enabled. 
-
+When set to <b>TRUE</b>, indicates that reporting setmarks is enabled on a device that supports it. The device reports setmarks encountered during read or space operations. When set to <b>FALSE</b>, reporting setmarks is not enabled.
 
 ### -field DefaultBlockSize
 
-Indicates the default block size, in bytes. 
-
+Indicates the default block size, in bytes.
 
 ### -field MaximumBlockSize
 
-Indicates the maximum block size, in bytes, of either the tape device or the underlying host bus adapter (HBA), whichever is smaller. 
-
+Indicates the maximum block size, in bytes, of either the tape device or the underlying host bus adapter (HBA), whichever is smaller.
 
 ### -field MinimumBlockSize
 
-Indicates the minimum block size, in bytes. 
-
+Indicates the minimum block size, in bytes.
 
 ### -field MaximumPartitionCount
 
-Indicates the maximum number of partitions the device supports. 
-
+Indicates the maximum number of partitions the device supports.
 
 ### -field FeaturesLow
 
@@ -346,8 +336,6 @@ The device returns an error if the tape is write-enabled or write-protected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FeaturesHigh
 
@@ -679,25 +667,15 @@ The device writes short filemarks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EOTWarningZoneSize
 
-Indicates the size in bytes of the early warning zone toward the end of the tape. The device returns a check condition when it enters the zone. 
-
+Indicates the size in bytes of the early warning zone toward the end of the tape. The device returns a check condition when it enters the zone.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_drive_params">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_drive_params">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetDriveParameters</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetDriveParameters</a>

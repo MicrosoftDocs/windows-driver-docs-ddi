@@ -6,10 +6,8 @@ old-location: bltooth\bth_sdp_connect.htm
 tech.root: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
 ms.date: 04/27/2018
-keywords: ["_BTH_SDP_CONNECT structure"]
+keywords: ["BTH_SDP_CONNECT structure"]
 ms.keywords: "*PBTH_SDP_CONNECT, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], _BTH_SDP_CONNECT, bltooth.bth_sdp_connect, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bthioctl/BTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT"
-f1_keywords:
- - "bthioctl/BTH_SDP_CONNECT"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthioctl.h
-api_name:
-- BTH_SDP_CONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_CONNECT, *PBTH_SDP_CONNECT
+f1_keywords:
+ - _BTH_SDP_CONNECT
+ - bthioctl/_BTH_SDP_CONNECT
+ - PBTH_SDP_CONNECT
+ - bthioctl/PBTH_SDP_CONNECT
+ - BTH_SDP_CONNECT
+ - bthioctl/BTH_SDP_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthioctl.h
+api_name:
+ - BTH_SDP_CONNECT
 ---
 
 # _BTH_SDP_CONNECT structure
@@ -47,23 +50,17 @@ req.typenames: BTH_SDP_CONNECT, *PBTH_SDP_CONNECT
 
 ## -description
 
-
 The BTH_SDP_CONNECT structure contains input and output information about a connection between the
   local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output
   buffer of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
-
+  <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field bthAddress
 
 The address of the remote SDP server that the local system connects to. This address cannot be to
      the local radio.
-
 
 ### -field fSdpConnect
 
@@ -97,13 +94,8 @@ Requests are serviced out of the local cache of the SDP record.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field HANDLE_SDP_FIELD_NAME
-
- 
-
 
 ### -field requestTimeout
 
@@ -117,14 +109,6 @@ The timeout, in seconds, for requests to the SDP connection handle that is retur
 
 A handle for the SDP connection on the remote server.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>

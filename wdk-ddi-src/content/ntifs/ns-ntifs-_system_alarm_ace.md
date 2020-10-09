@@ -6,10 +6,8 @@ old-location: ifsk\system_alarm_ace.htm
 tech.root: ifsk
 ms.assetid: 6337d61e-a47e-4c84-b635-9df48d655b04
 ms.date: 04/16/2018
-keywords: ["_SYSTEM_ALARM_ACE structure"]
+keywords: ["SYSTEM_ALARM_ACE structure"]
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Installable File System Drivers], _SYSTEM_ALARM_ACE, ifsk.system_alarm_ace, ntifs/SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml"
-f1_keywords:
- - "ntifs/SYSTEM_ALARM_ACE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- SYSTEM_ALARM_ACE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSTEM_ALARM_ACE
+f1_keywords:
+ - _SYSTEM_ALARM_ACE
+ - ntifs/_SYSTEM_ALARM_ACE
+ - SYSTEM_ALARM_ACE
+ - ntifs/SYSTEM_ALARM_ACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - SYSTEM_ALARM_ACE
 ---
 
 # _SYSTEM_ALARM_ACE structure
@@ -47,9 +48,7 @@ req.typenames: SYSTEM_ALARM_ACE
 
 ## -description
 
-
-Reserved for future use. 
-
+Reserved for future use.
 
 ## -struct-fields
 

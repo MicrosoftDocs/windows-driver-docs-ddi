@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO, display.d3d12ddi_device_funcs_video
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0021"
+ - "D3D12DDI_DEVICE_FUNCS_VIDEO_0021"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDI_DEVICE_FUNCS_VIDEO_0021
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
@@ -151,8 +150,7 @@ A function that trims processor allocations.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0010">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0010">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
  
 
  
-

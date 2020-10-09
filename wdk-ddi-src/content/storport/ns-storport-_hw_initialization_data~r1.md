@@ -5,48 +5,53 @@ description: The HW_INITIALIZATION_DATA (Storport) structure contains informatio
 tech.root: storage
 ms.assetid: de37a235-10b4-4491-8e75-257f7c07ae32
 ms.date: 10/19/2018
-keywords: ["_HW_INITIALIZATION_DATA structure"]
-f1_keywords:
- - "storport/_HW_INITIALIZATION_DATA"
+keywords: ["HW_INITIALIZATION_DATA structure"]
 ms.keywords: _HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, storport/HW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- storport.h
-api_name: 
-- _HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - _HW_INITIALIZATION_DATA
+ - storport/_HW_INITIALIZATION_DATA
+ - PHW_INITIALIZATION_DATA
+ - storport/PHW_INITIALIZATION_DATA
+ - HW_INITIALIZATION_DATA
+ - storport/HW_INITIALIZATION_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - _HW_INITIALIZATION_DATA
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _HW_INITIALIZATION_DATA structure
 
+
 ## -description
 
-The **HW_INITIALIZATION_DATA (Storport)** structure contains information particular to each miniport driver and the hardware that the miniport driver manages. 
+The **HW_INITIALIZATION_DATA (Storport)** structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
 
 ## -struct-fields
 
 ### -field HwInitializationDataSize
+
  
 Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(HW_INITIALIZATION_DATA). In effect, this member indicates the version of this structure being used by the miniport driver. A miniport driver's DriverEntry routine should set this member's value for the port driver.
 
@@ -56,23 +61,23 @@ The Storport driver does not support legacy buses. Therefore, most of the adapte
 
 ### -field HwInitialize
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwStartIo
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwInterrupt
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine, which is a required entry point for all miniport drivers.  
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwFindAdapter
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwResetBus
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwDmaStarted
 
@@ -86,21 +91,21 @@ The Storport driver does not support legacy drivers. Therefore, this member must
 
 Specifies the size, in bytes, required by the miniport driver for its per-adapter device extension. A miniport driver uses its device extension as storage for driver-determined host bus adapter (HBA) information. The operating system-specific port driver initializes each device extension one time, when it first allocates the extension and fills it with zeros. It passes a pointer to the HBA-specific device extension in every call to a miniport driver. The given size does not include any miniport driver-requested per-logical-unit storage. The size of per-logical-unit storage is specified via the <b>SpecificLuExtensionSize</b> field, described later in this topic.
 
-Although SCSIPort re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a> receive a zeroed-out device extension, Storport does not follow that model. Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> for a given adapter receives a zeroed-out device extension. Subsequent calls to <b>HwStorFindAdapter</b> and other miniport functions receive the device extension as last modified by the miniport. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize it's initialization procedure.
+Although SCSIPort re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to <a href="/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a> receive a zeroed-out device extension, Storport does not follow that model. Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> for a given adapter receives a zeroed-out device extension. Subsequent calls to <b>HwStorFindAdapter</b> and other miniport functions receive the device extension as last modified by the miniport. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize it's initialization procedure.
 
 ### -field SpecificLuExtensionSize
 
-Specifies the size in bytes required by the miniport driver for its per-logical-unit storage, if any. A miniport driver can use its LU extensions as storage for driver-determined logical-unit information about  peripherals on the bus. The Storport driver initializes each LU extension it allocates with zeros. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension">StorPortGetUncachedExtension</a>.
+Specifies the size in bytes required by the miniport driver for its per-logical-unit storage, if any. A miniport driver can use its LU extensions as storage for driver-determined logical-unit information about  peripherals on the bus. The Storport driver initializes each LU extension it allocates with zeros. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension">StorPortGetUncachedExtension</a>.
 
 ### -field SrbExtensionSize
 
 Specifies the size, in bytes, required by the miniport driver for its per-request storage, if any. A miniport driver can use SRB extensions as storage for driver-determined, request-specific information, such as data necessary to process a particular request. The Storport driver does not initialize SRB extensions, but sets a pointer to this storage in each SRB it sends to the miniport driver. An SRB extension can be safely accessed by the HBA hardware. Because miniport drivers that work with the Storport driver must support scatter/gather lists, and the per-SRB scatter/gather lists are usually allocated in the SRB extension, this member is rarely zero. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. 
 
-This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension">StorPortGetUncachedExtension.</a>.
+This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension">StorPortGetUncachedExtension.</a>.
 
 ### -field NumberOfAccessRanges
 
-Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses. 
+Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses.
 
 ### -field Reserved
 
@@ -159,7 +164,7 @@ Map the buffer for all I/O including read and write requests. This value is vali
 
 ### -field NeedPhysicalAddresses
 
-Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver must translate certain types of addresses to physical addresses. Miniport drivers that work with the Storport driver must support bus-master DMA, so they will always be required to do address translation. 
+Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver must translate certain types of addresses to physical addresses. Miniport drivers that work with the Storport driver must support bus-master DMA, so they will always be required to do address translation.
 
 ### -field TaggedQueuing
 
@@ -167,7 +172,7 @@ Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport d
 
 ### -field AutoRequestSense
 
-Must be <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so. All miniport drivers that work with the Storport driver must support SCSI Auto-Request Sense. 
+Must be <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so. All miniport drivers that work with the Storport driver must support SCSI Auto-Request Sense.
 
 ### -field MultipleRequestPerLu
 
@@ -186,7 +191,7 @@ The Storport driver ignores this member, because miniport drivers that work with
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 ### -field ReservedUshort
- 
+
 ### -field PortVersionFlags
 
 Flags to indicate supported features.
@@ -201,48 +206,47 @@ The Storport driver ignores this member, because miniport drivers that work with
 
 ### -field HwAdapterControl
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. This is a required routine because miniport drivers that work with the Storport driver require PnP support. 
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. This is a required routine because miniport drivers that work with the Storport driver require PnP support.
 
 ### -field HwBuildIo
 
-Pointer to an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine. 
+Pointer to an optional <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine.
 
 ### -field HwFreeAdapterResources
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 ### -field HwProcessServiceRequest
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 ### -field HwCompleteServiceIrp
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 ### -field HwInitializeTracing
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 ### -field HwCleanupTracing
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 ### -field HwTracingEnabled
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_tracing_enabled">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
+A pointer to an optional <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_tracing_enabled">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
 
 ### -field FeatureSupport
-
 
 Flags indicating features that are supported by the miniport. <b>FeatureSupport</b> is set to a combination of these values:
 
@@ -317,7 +321,7 @@ The miniport's dump capability is functional for resume from hibernation.
 </dl>
 </td>
 <td width="60%">
-The Storport driver initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a> from the  ATA Information VPD page instead of from  INQUIRY data.
+The Storport driver initializes the <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a> from the  ATA Information VPD page instead of from  INQUIRY data.
 
 </td>
 </tr>
@@ -365,7 +369,6 @@ The miniport supports extended SRBs.
 </table>
 
 ### -field AddressTypeFlags
-
 
 The address schemes supported by the miniport. Currently, the only one address scheme is supported and the miniport must set this member to ADDRESS_TYPE_FLAG_BTL8.
 

@@ -6,40 +6,39 @@ ms.assetid: 8dc6e964-d55a-4b06-b571-985e1c302e84
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetDouble function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropKeyFindKeyGetDouble"
 ms.keywords: PropKeyFindKeyGetDouble
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropKeyFindKeyGetDouble
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropKeyFindKeyGetDouble
+ - sensorsutils/PropKeyFindKeyGetDouble
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropKeyFindKeyGetDouble
+product:
+ - Windows
 ---
 
 # PropKeyFindKeyGetDouble function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine gets a double precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
-
 
 ## -parameters
 
@@ -75,3 +73,4 @@ This function returns an NTSTATUS code that represents:
 ## -remarks
 
 ## -see-also
+

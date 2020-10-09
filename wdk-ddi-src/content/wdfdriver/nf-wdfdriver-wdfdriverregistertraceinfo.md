@@ -8,8 +8,6 @@ ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.date: 02/26/2018
 keywords: ["WdfDriverRegisterTraceInfo function"]
 ms.keywords: DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, WdfDriverRegisterTraceInfo, WdfDriverRegisterTraceInfo method, kmdf.wdfdriverregistertraceinfo, wdf.wdfdriverregistertraceinfo, wdfdriver/WdfDriverRegisterTraceInfo
-f1_keywords:
- - "wdfdriver/WdfDriverRegisterTraceInfo"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Not applicable
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfdriver.h
-api_name:
-- WdfDriverRegisterTraceInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDriverRegisterTraceInfo
+ - wdfdriver/WdfDriverRegisterTraceInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfdriver.h
+api_name:
+ - WdfDriverRegisterTraceInfo
 ---
 
 # WdfDriverRegisterTraceInfo function
@@ -47,22 +46,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
 
-
 ## -parameters
 
+### -param DriverObject 
 
+[in]
 
+### -param EvtTraceCallback 
 
-### -param DriverObject [in]
+[in]
 
+### -param ControlBlock 
 
-### -param EvtTraceCallback [in]
-
-
-### -param ControlBlock [in]
+[in]
 

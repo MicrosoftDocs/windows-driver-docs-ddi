@@ -8,8 +8,6 @@ ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.date: 03/29/2018
 keywords: ["StorPortGetLogicalUnit function"]
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
-f1_keywords:
- - "storport/StorPortGetLogicalUnit"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetLogicalUnit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetLogicalUnit
+ - storport/StorPortGetLogicalUnit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetLogicalUnit
 ---
 
 # StorPortGetLogicalUnit function
@@ -48,70 +47,49 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortGetLogicalUnit</b> routine returns a pointer to the miniport driver's per-logical-unit storage area.
-
+The **StorPortGetLogicalUnit** routine returns a pointer to the miniport driver's per-logical-unit storage area.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
+[in]
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
 
+### -param PathId 
 
-### -param HwDeviceExtension [in]
+[in]
+Identifies the SCSI bus.
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine is called. The port driver frees this memory when it removes the device. 
+### -param TargetId 
 
+[in]
+Identifies the target controller or device on the bus.
 
-### -param PathId [in]
+### -param Lun 
 
-Identifies the SCSI bus. 
-
-
-### -param TargetId [in]
-
-Identifies the target controller or device on the bus. 
-
-
-### -param Lun [in]
-
-Identifies the logical unit (LU) number of the target device. 
-
+[in]
+Identifies the logical unit (LU) number of the target device.
 
 ## -returns
 
-
-
-<b>StorPortGetLogicalUnit</b> returns a pointer to the miniport driver's storage area for the requested logical unit. If the logical unit does not exist, it returns <b>NULL</b>.
-
-
-
+**StorPortGetLogicalUnit** returns a pointer to the miniport driver's storage area for the requested logical unit. If the logical unit does not exist, it returns **NULL**.
 
 ## -remarks
 
+**StorPortGetLogicalUnit** is irrelevant if the miniport driver's [**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver") routine specified zero for the **LuExtensionSize** in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
+ when it called [**StorPortInitialize**](nf-storport-storportinitialize.md). Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
 
-
-<b>StorPortGetLogicalUnit</b> is irrelevant if the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine specified zero for the <b>LuExtensionSize</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
-
-Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls <b>StorPortGetLogicalUnit</b> when the driver is maintaining information about the state of or current operation for any particular peripheral.
+Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls **StorPortGetLogicalUnit** when the driver is maintaining information about the state of or current operation for any particular peripheral.
 
 The operating system-specific port driver can consider a logical unit to be nonexistent if there is no active request for that logical unit and the device has never been successfully selected.
 
-<div class="alert"><b>Note</b>  When the miniport driver calls <b>StorPortGetLogicalUnit</b> at IRQL = DISPATCH_LEVEL, the function acquires the interrupt lock. Calling <b>StorPortGetLogicalUnit</b> too often at this IRQL level impacts the performance and scalability of the miniport driver.</div>
-<div> </div>
-
-
+> [!NOTE]
+>
+> When the miniport driver calls **StorPortGetLogicalUnit** at IRQL = DISPATCH_LEVEL, the function acquires the interrupt lock. Calling **StorPortGetLogicalUnit** too often at this IRQL level impacts the performance and scalability of the miniport driver.
 
 ## -see-also
 
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
- 
-
- 
-
+[**StorPortInitialize**](nf-storport-storportinitialize.md)

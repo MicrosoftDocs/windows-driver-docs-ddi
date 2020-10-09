@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION"
+ - DXGKDDI_CREATEPROTECTEDSESSION
+ - d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATEPROTECTEDSESSION callback function
+
 
 ## -description
 

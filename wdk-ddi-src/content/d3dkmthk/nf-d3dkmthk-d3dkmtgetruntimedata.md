@@ -7,8 +7,6 @@ ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.date: 05/10/2018
 keywords: ["D3DKMTGetRuntimeData function"]
 ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, PFND3DKMT_GETRUNTIMEDATA callback, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
-f1_keywords:
- - "d3dkmthk/D3DKMTGetRuntimeData"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Universal
@@ -23,23 +21,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTGetRuntimeData
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTGetRuntimeData
+ - d3dkmthk/D3DKMTGetRuntimeData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTGetRuntimeData
 ---
 
 # D3DKMTGetRuntimeData function
@@ -47,32 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3DKMTGetRuntimeData</b> function is for system use only.
-
 
 ## -parameters
 
-
-
-
 ### -param D3DKMT_GETRUNTIMEDATA
-
-
-
-
-
 
 *pData* [in, out]
 
 Reserved for system use.
 
-
 ## -remarks
 
-
-
 This function is reserved for system use.
-
-
 

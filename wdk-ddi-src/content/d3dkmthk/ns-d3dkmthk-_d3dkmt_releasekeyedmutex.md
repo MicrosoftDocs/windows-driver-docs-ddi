@@ -5,10 +5,8 @@ description: The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that
 old-location: display\d3dkmt_releasekeyedmutex.htm
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_RELEASEKEYEDMUTEX structure"]
+keywords: ["D3DKMT_RELEASEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex
-f1_keywords:
- - "d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_RELEASEKEYEDMUTEX
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_RELEASEKEYEDMUTEX
+f1_keywords:
+ - _D3DKMT_RELEASEKEYEDMUTEX
+ - d3dkmthk/_D3DKMT_RELEASEKEYEDMUTEX
+ - D3DKMT_RELEASEKEYEDMUTEX
+ - d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_RELEASEKEYEDMUTEX
 ---
 
 # _D3DKMT_RELEASEKEYEDMUTEX structure
@@ -47,37 +48,22 @@ req.typenames: D3DKMT_RELEASEKEYEDMUTEX
 
 ## -description
 
-
-The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a> function releases. 
-
+The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a> function releases.
 
 ## -struct-fields
 
-
-
-
 ### -field hKeyedMutex
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to release. 
-
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to release.
 
 ### -field Key
 
-[in] A 64-bit value that specifies the key value to release the mutex to. 
-
+[in] A 64-bit value that specifies the key value to release the mutex to.
 
 ### -field FenceValue
 
-[in] A 64-bit value that specifies the current fence value of the GPU synchronization object. 
-
+[in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a>

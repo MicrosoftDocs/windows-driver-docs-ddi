@@ -6,10 +6,8 @@ old-location: storage\dsm_querylbpolicy.htm
 tech.root: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
 ms.date: 03/29/2018
-keywords: ["_DSM_QueryLBPolicy structure"]
+keywords: ["DSM_QueryLBPolicy structure"]
 ms.keywords: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], _DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, storage.dsm_querylbpolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml"
-f1_keywords:
- - "mpiodisk/DSM_QueryLBPolicy"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiodisk.h
-api_name:
-- DSM_QueryLBPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
+f1_keywords:
+ - _DSM_QueryLBPolicy
+ - mpiodisk/_DSM_QueryLBPolicy
+ - PDSM_QueryLBPolicy
+ - mpiodisk/PDSM_QueryLBPolicy
+ - DSM_QueryLBPolicy
+ - mpiodisk/DSM_QueryLBPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiodisk.h
+api_name:
+ - DSM_QueryLBPolicy
 ---
 
 # _DSM_QueryLBPolicy structure
@@ -47,14 +50,9 @@ req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
 
 ## -description
 
-
 The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LoadBalancePolicy
 

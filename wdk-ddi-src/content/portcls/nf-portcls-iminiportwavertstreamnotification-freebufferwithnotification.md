@@ -8,8 +8,6 @@ ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTStreamNotification::FreeBufferWithNotification"]
 ms.keywords: FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],FreeBufferWithNotification method, IMiniportWaveRTStreamNotification.FreeBufferWithNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
-f1_keywords:
- - "portcls/IMiniportWaveRTStreamNotification.FreeBufferWithNotification"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Passive level.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportWaveRTStreamNotification.FreeBufferWithNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportWaveRTStreamNotification::FreeBufferWithNotification
+ - portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportWaveRTStreamNotification.FreeBufferWithNotification
 ---
 
 # IMiniportWaveRTStreamNotification::FreeBufferWithNotification
@@ -47,49 +46,32 @@ req.typenames:
 
 ## -description
 
-
-The <code>FreeBufferWithNotification</code> method is used to free an audio buffer previously allocated with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstreamnotification-allocatebufferwithnotification">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>.
-
+The <code>FreeBufferWithNotification</code> method is used to free an audio buffer previously allocated with a call to <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstreamnotification-allocatebufferwithnotification">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>.
 
 ## -parameters
 
+### -param AudioBufferMdl 
 
+[in]
+Specifies a memory descriptor list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) previously allocated with a call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
 
+### -param BufferSize 
 
-### -param AudioBufferMdl [in]
-
-Specifies a memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) previously allocated with a call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
-
-
-### -param BufferSize [in]
-
+[in]
 Output pointer for the number of bytes the method has written to the Attributes buffer. This parameter points to a ULONG variable into which the method writes the byte count.
-
 
 ## -remarks
 
-
-
 The port driver calls this method to free an audio buffer that was allocated with a previous call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertstreamnotification">IMiniportWaveRTStreamNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertstreamnotification">IMiniportWaveRTStreamNotification</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstreamnotification-allocatebufferwithnotification">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstreamnotification-allocatebufferwithnotification">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>

@@ -8,8 +8,6 @@ ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.date: 10/19/2018
 keywords: ["IPrinterExtensionContext::get_PrintSchemaTicket"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext.get_PrintSchemaTicket, IPrinterExtensionContext::PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices],IPrinterExtensionContext interface, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
-f1_keywords:
- - "printerextension/IPrinterExtensionContext.PrintSchemaTicket"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionContext.PrintSchemaTicket
-- IPrinterExtensionContext.get_PrintSchemaTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionContext::get_PrintSchemaTicket
+ - printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionContext.PrintSchemaTicket
+ - IPrinterExtensionContext.get_PrintSchemaTicket
 ---
 
 # IPrinterExtensionContext::get_PrintSchemaTicket
@@ -48,11 +47,9 @@ req.typenames:
 
 ## -description
 
-
 Gets the print ticket that is appropriate for the queue and the activation.
 
 This property is read-only.
-
 
 ## -parameters
 
@@ -66,7 +63,7 @@ Returns **E_ILLEGAL_METHOD_CALL** if called from the [IPrinterExtensionEvent::On
 
 ## -see-also
 
-
 [IPrintSchemaTicket](nn-printerextension-iprintschematicket.md)
 
 [IPrinterExtensionContext](nn-printerextension-iprinterextensioncontext.md)
+

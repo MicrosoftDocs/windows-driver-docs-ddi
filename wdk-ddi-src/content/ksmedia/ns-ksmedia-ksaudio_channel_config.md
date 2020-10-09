@@ -8,8 +8,6 @@ ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.date: 04/30/2019
 keywords: ["KSAUDIO_CHANNEL_CONFIG structure"]
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
-f1_keywords:
- - "ksmedia/KSAUDIO_CHANNEL_CONFIG"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_CHANNEL_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
+f1_keywords:
+ - PKSAUDIO_CHANNEL_CONFIG
+ - ksmedia/PKSAUDIO_CHANNEL_CONFIG
+ - KSAUDIO_CHANNEL_CONFIG
+ - ksmedia/KSAUDIO_CHANNEL_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_CHANNEL_CONFIG
 ---
 
 # KSAUDIO_CHANNEL_CONFIG structure
@@ -47,25 +48,17 @@ req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 
 ## -description
 
-
 The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ActiveSpeakerPositions
 
 Specifies both the number of channels and the assignment of those channels to speaker positions. This member is a bitmask in which each bit within the mask corresponds to a particular speaker position. If a mask bit is set, the audio stream contains a channel that is assigned to the speaker position that the mask bit represents. The number of channels in the stream is obtained by counting how many number ones appear in the bitmask. For more information, see the following Remarks section.
 
-
 ## -remarks
 
-
-
-This structure is used to set or get the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property.
+This structure is used to set or get the data value for the <a href="/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property.
 
 The following table shows the flag bits that are defined for the <b>ActiveSpeakerPositions</b> member.
 
@@ -453,7 +446,7 @@ SPEAKER_SIDE_LEFT | SPEAKER_SIDE_RIGHT)
 
 <div class="alert"><b>Note</b>  The KSAUDIO_SPEAKER_7POINT1 speaker configuration,  is obsolete and no longer supported in Windows Vista and later versions of Windows.</div>
 <div> </div>
-In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of zero, which means that no speaker positions are assigned to the channels in the multichannel stream. For example, channel zero might represent percussion, channel 1 might represent trumpet, channel 2 might represent voice, and so on. In this configuration, the channels in the input stream are output directly to the hardware without modification and without being interpreted as speaker positions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/dsspeaker-directout-speaker-configuration">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
+In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of zero, which means that no speaker positions are assigned to the channels in the multichannel stream. For example, channel zero might represent percussion, channel 1 might represent trumpet, channel 2 might represent voice, and so on. In this configuration, the channels in the input stream are output directly to the hardware without modification and without being interpreted as speaker positions. For more information, see <a href="/windows-hardware/drivers/audio/dsspeaker-directout-speaker-configuration">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
 
 The speaker configuration for a 5.1-channel surround format is defined by the constant KSAUDIO_SPEAKER_5POINT1_SURROUND in the preceding table. The geometric layout of the speakers is shown in the following figure, which shows the positions of the front-left, front-right, front-center, side-left, and side-right speakers. The figure omits the low-frequency speaker because it is nondirectional.
 
@@ -617,22 +610,11 @@ Side Right (8 MSBs)
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>

@@ -8,8 +8,6 @@ ms.assetid: 9434f740-34c1-4244-813d-3fe9f1ead333
 ms.date: 04/30/2018
 keywords: ["PsGetCurrentProcessId function"]
 ms.keywords: PsGetCurrentProcessId, PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture], k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml, kernel.psgetcurrentprocessid, ntddk/PsGetCurrentProcessId
-f1_keywords:
- - "ntddk/PsGetCurrentProcessId"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsGetCurrentProcessId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetCurrentProcessId
+ - ntddk/PsGetCurrentProcessId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsGetCurrentProcessId
 ---
 
 # PsGetCurrentProcessId function
@@ -47,50 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process. 
-
+The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process.
 
 ## -returns
 
-
-
-<b>PsGetCurrentProcessId</b> returns the process ID of the current thread's process. 
-
-
-
+<b>PsGetCurrentProcessId</b> returns the process ID of the current thread's process.
 
 ## -see-also
 
+[IoGetCurrentProcess](../wdm/nf-wdm-iogetcurrentprocess.md)
 
 
 
-[IoGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentprocess)
+[PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
+[PsGetCurrentThread](./nf-ntddk-psgetcurrentthread.md)
 
 
 
-[PsGetCurrentThread](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread)
+[PsGetCurrentThreadId](./nf-ntddk-psgetcurrentthreadid.md)
 
 
 
-[PsGetCurrentThreadId](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthreadid)
+[PsSetCreateProcessNotifyRoutine](./nf-ntddk-pssetcreateprocessnotifyroutine.md)
 
 
 
-[PsSetCreateProcessNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine)
+[PsSetCreateThreadNotifyRoutine](./nf-ntddk-pssetcreatethreadnotifyroutine.md)
 
 
 
-[PsSetCreateThreadNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine)
-
-
-
-[PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
- 
-
- 
-
+[PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)

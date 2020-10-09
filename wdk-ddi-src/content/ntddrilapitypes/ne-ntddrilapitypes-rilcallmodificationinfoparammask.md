@@ -8,8 +8,6 @@ ms.assetid: 1282f158-9e41-4789-abe9-181f367ea235
 ms.date: 05/02/2018
 keywords: ["RILCALLMODIFICATIONINFOPARAMMASK enumeration"]
 ms.keywords: RILCALLMODIFICATIONINFOPARAMMASK, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RIL_PARAM_CMI_ID, RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_NEWCALLTYPE, RIL_PARAM_CMI_OLDCALLTYPE, netvista.rilcallmodificationinfoparammask, ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CMI_ADDRESS, ntddrilapitypes/RIL_PARAM_CMI_ALL, ntddrilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, ntddrilapitypes/RIL_PARAM_CMI_ID, ntddrilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, ntddrilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, ntddrilapitypes/RIL_PARAM_CMI_OLDCALLTYPE
-f1_keywords:
- - "ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,55 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMODIFICATIONINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFOPARAMMASK
+f1_keywords:
+ - RILCALLMODIFICATIONINFOPARAMMASK
+ - ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMODIFICATIONINFOPARAMMASK
 ---
 
-# RILCALLMODIFICATIONINFOPARAMMASK enumeration
+# RILCALLMODIFICATIONINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_CMI_EXECUTOR
-
 
 ### -field RIL_PARAM_CMI_ID
 
-
 ### -field RIL_PARAM_CMI_MODIFICATIONTYPE
-
 
 ### -field RIL_PARAM_CMI_OLDCALLTYPE
 
-
 ### -field RIL_PARAM_CMI_NEWCALLTYPE
-
 
 ### -field RIL_PARAM_CMI_ADDRESS
 
-
 ### -field RIL_PARAM_CMI_ALPHAIDENTIFIER
-
 
 ### -field RIL_PARAM_CMI_ALL
 

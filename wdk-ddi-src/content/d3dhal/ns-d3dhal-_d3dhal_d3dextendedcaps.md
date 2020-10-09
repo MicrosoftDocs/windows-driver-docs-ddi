@@ -6,10 +6,8 @@ old-location: display\d3dhal_d3dextendedcaps.htm
 tech.root: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_D3DEXTENDEDCAPS structure"]
+keywords: ["D3DHAL_D3DEXTENDEDCAPS structure"]
 ms.keywords: "*LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps"
-f1_keywords:
- - "d3dhal/D3DHAL_D3DEXTENDEDCAPS"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_D3DEXTENDEDCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_D3DEXTENDEDCAPS
+f1_keywords:
+ - _D3DHAL_D3DEXTENDEDCAPS
+ - d3dhal/_D3DHAL_D3DEXTENDEDCAPS
+ - D3DHAL_D3DEXTENDEDCAPS
+ - d3dhal/D3DHAL_D3DEXTENDEDCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_D3DEXTENDEDCAPS
 ---
 
 # _D3DHAL_D3DEXTENDEDCAPS structure
@@ -47,19 +48,13 @@ req.typenames: D3DHAL_D3DEXTENDEDCAPS
 
 ## -description
 
-
 D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of this D3DHAL_D3DEXTENDEDCAPS structure.
-
 
 ### -field dwMinTextureWidth
 
@@ -80,60 +75,47 @@ Specify the minimum texture height, in pixels, supported by the driver. This mem
 
 Specify the maximum texture height, in pixels, supported by the driver. This member is typically a power of 2.
 
-
 ### -field dwMinStippleWidth
 
 Specify the minimum stipple width, in pixels, supported by the driver.
-
 
 ### -field dwMaxStippleWidth
 
 Specify the maximum stipple width, in pixels, supported by the driver.
 
-
 ### -field dwMinStippleHeight
 
 Specify the minimum stipple height, in pixels, supported by the driver.
-
 
 ### -field dwMaxStippleHeight
 
 Specify the maximum stipple height, in pixels, supported by the driver.
 
-
 ### -field dwMaxTextureRepeat
 
 Specifies the full range of integer (subfractional) bits of the postnormalized texture indexes. If the D3DDEVCAPS_TEXREPEATNOTSCALEDBYSIZE bit is set, then the number of times a texture can be wrapped is specified by this member. If the D3DDEVCAPS_TEXREPEATNOTSCALEDBYSIZE bit is not set, then the number of time a texture can be wrapped is given by the expression: <b>dwMaxTextureRepeat</b> * (<i>texture size</i>).
-
 
 ### -field dwMaxTextureAspectRatio
 
 Specifies the maximum texture aspect ratio supported by the hardware. This member is typically a power of 2. This maximum aspect ratio is provided as a measure of the texture's height in pixels divided by its width in pixels, or its width divided by height, whichever produces the greater result. For example, a texture that is 8192 pixels wide by 1 pixel high or 1 pixel wide by 8192 high is invalid with a display device that only supports a maximum aspect ratio of 4092. If the hardware is not limited in aspect ratio, <b>dwMaxTextureAspectRatio</b> is the larger of <b>dwMaxTextureWidth</b> and <b>dwMaxTextureHeight</b>.
 
-
 ### -field dwMaxAnisotropy
 
 Specifies the maximum valid value for the D3DRENDERSTATE_ANISOTROPY render state. If the driver's hardware does not support anisotropic filtering, the driver should set this member to 1. Setting this member to 0 represents an invalid value.
 
-
 ### -field dvGuardBandLeft
-
 
 ### -field dvGuardBandTop
 
-
 ### -field dvGuardBandRight
-
 
 ### -field dvGuardBandBottom
 
-Specify the screen-space coordinates, in pixels, of the guard-band clip region. The upper-left corner of this rectangle has coordinates (<b>dvGuardBandLeft</b>, <b>dvGuardBandTop</b>). The lower-left corner has coordinates (<b>dvGuardBandRight</b>, <b>dvGuardBandBottom</b>). Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped. 
-
+Specify the screen-space coordinates, in pixels, of the guard-band clip region. The upper-left corner of this rectangle has coordinates (<b>dvGuardBandLeft</b>, <b>dvGuardBandTop</b>). The lower-left corner has coordinates (<b>dvGuardBandRight</b>, <b>dvGuardBandBottom</b>). Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped.
 
 ### -field dvExtentsAdjust
 
 Specifies the number of pixels required to adjust the extents rectangle outward to accommodate antialiasing kernels.
-
 
 ### -field dwStencilCaps
 
@@ -149,15 +131,12 @@ Specifies the stencil buffer operations supported by the driver or device. For f
 |D3DSTENCILCAPS_KEEP|The D3DSTENCILOP_KEEP operation is supported.|
 |D3DSTENCILCAPS_REPLACE|The D3DSTENCILOP_REPLACE operation is supported.|
 |D3DSTENCILCAPS_ZERO|The D3DSTENCILOP_ZERO operation is supported.|
- 
-
 
 ### -field dwFVFCaps
 
 Specifies the number of texture coordinates that the driver can process. This value can be an integer in the range 0 through 8, where 0 indicates that the driver does not support texturing, 1 indicates that the driver can process only one set of texture coordinates, 2 indicates that the driver can process two sets of texture coordinates, and so on.
 
 A driver must be able to parse all texture coordinates present in the vertex data regardless of the number of texture coordinates that the driver actually uses. The driver should use the index provided with the D3DTSS_TEXCOORDINDEX value of the D3DTEXTURESTAGESTATETYPE enumeration, described in the DirectX SDK documentation, to determine what texture coordinate set to use when rendering.
-
 
 ### -field dwTextureOpCaps
 
@@ -190,38 +169,29 @@ Specifies the texture operations supported by the device. See D3DTEXTUREOP in th
 |D3DTEXOPCAPS_SELECTARG2|The D3DTOP_SELECTARG2 texture blending operation is supported by this device.|
 |D3DTEXOPCAPS_SUBTRACT|The D3DTOP_SUBTRACT texture blending operation is supported by this device.|
 
- 
-
-
 ### -field wMaxTextureBlendStages
 
 Specifies the maximum number of texture blending stages supported by this device.
-
 
 ### -field wMaxSimultaneousTextures
 
 Specifies the maximum number of textures that can be simultaneously bound to the texture blending stages for this device. That is, <b>wMaxSimultaneousTextures</b> specifies how many of the texture stages can have textures bound to them through the <b>lDirect3DDevice7::SetTexture</b> method. See the Microsoft Windows SDK documentation for more information about this method.
 
-
 ### -field dwMaxActiveLights
 
 Specifies the maximum number of active lights supported by this device. This only needs to be specified in drivers that support hardware transform and lighting (and therefore specify D3DDEVCAPS_HWTRANSFORMANDLIGHT in their device caps).
-
 
 ### -field dvMaxVertexW
 
 Specifies the maximum W range supported by this device. This only needs to be specified in drivers that support W buffering (and therefore specify D3DPRASTERCAPS_WBUFFER in their rasterization caps). The units for W depth values depend on the running application. For example, the application might specify depth in meters.
 
-
 ### -field wMaxUserClipPlanes
 
-Specifies the maximum number of user-defined clip planes supported. 
-
+Specifies the maximum number of user-defined clip planes supported.
 
 ### -field wMaxVertexBlendMatrices
 
 Specifies the number of world matrices supported for vertex blending.
-
 
 ### -field dwVertexProcessingCaps
 
@@ -238,47 +208,28 @@ Specifies the vertex processing caps that are supported by the driver. This memb
 |D3DVTXPCAPS_TEXGEN_SPHEREMAP|Device supports D3DTSS_TCI_SPHEREMAP.|
 |D3DVTXPCAPS_TWEENING|Device can do vertex tweening.|
 
- 
-
-
 ### -field dwReserved1
 
 Reserved for system use.
-
 
 ### -field dwReserved2
 
 Reserved for system use.
 
-
 ### -field dwReserved3
 
 Reserved for system use.
-
 
 ### -field dwReserved4
 
 Reserved for system use.
 
-
 ## -remarks
 
-
-
-The driver allocates and zero-initializes this structure and sets appropriate values in the members it supports. The driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DExtendedCaps GUID.
+The driver allocates and zero-initializes this structure and sets appropriate values in the members it supports. The driver's <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DExtendedCaps GUID.
 
 When the driver fills in this structure, it can set values for execute buffer capabilities even when the interface being used to retrieve the capabilities (such as <b>lDirect3DDevice3</b>) does not support execute buffers.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
-
+<a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>

@@ -24,9 +24,10 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 tech.root: display
-ms.custom:
+ms.custom: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075"
+ - PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075
+ - d3d12umddi/PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075 callback function
+
 
 ## -description
 
@@ -95,3 +97,4 @@ See the [D3D Sampler Feedback Specification](https://microsoft.github.io/DirectX
 ## -see-also
 
 [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md)
+

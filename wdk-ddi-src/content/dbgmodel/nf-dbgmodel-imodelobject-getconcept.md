@@ -5,39 +5,38 @@ description: The GetConcept method will search for a concept on the object (or i
 ms.assetid: eab33f82-a73f-46d8-9c12-d06c28869290
 ms.date: 08/09/2018
 keywords: ["IModelObject::GetConcept"]
-f1_keywords:
- - "dbgmodel/IModelObject.GetConcept"
 ms.keywords: IModelObject::GetConcept, GetConcept, IModelObject.GetConcept, IModelObject::GetConcept, IModelObject.GetConcept
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.GetConcept
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::GetConcept
+ - dbgmodel/IModelObject::GetConcept
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.GetConcept
 ---
 
 # IModelObject::GetConcept
@@ -50,20 +49,22 @@ The GetConcept method will search for a concept on the object (or its parent mod
 ## -parameters
 
 ### -param conceptId
+
 The unique identifier of the concept being queried. This is also the IID of the core interface of the concept.
 
-
 ### -param conceptInterface
+
 The interface defined by conceptId will be returned in this argument.
 
 ### -param conceptMetadata
+
 The metadata store associated with this concept will be optionally returned in this argument
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
-
 
 **Code Sample**
 
@@ -90,3 +91,4 @@ if (SUCCEEDED(spObject->GetConcept(__uuidof(IStringDisplayableConcept),
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

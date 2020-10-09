@@ -8,8 +8,6 @@ ms.assetid: 112d6f90-33b3-446b-943c-8995e6ec3378
 ms.date: 05/03/2018
 keywords: ["wiauDbgError function"]
 ms.keywords: image.wiaudbgerror, wiauDbgError, wiauDbgError function [Imaging Devices], wiauFncs_73184286-df53-4272-9fa8-aae1d1fb3dbc.xml, wiautil/wiauDbgError
-f1_keywords:
- - "wiautil/wiauDbgError"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wiautil.h
-api_name:
-- wiauDbgError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgError
+ - wiautil/wiauDbgError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wiautil.h
+api_name:
+ - wiauDbgError
 ---
 
 # wiauDbgError function
+
 
 ## -description
 
@@ -72,10 +72,10 @@ wiauDbgError("Read", "Attempting to read past end of buffer");
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

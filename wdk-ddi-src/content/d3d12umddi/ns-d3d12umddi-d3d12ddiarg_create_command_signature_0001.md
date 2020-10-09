@@ -1,41 +1,43 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 title: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
-author: windows-driver-content
 description: Describes the parameters that the display driver uses to create a command signature.
 tech.root: display
 ms.assetid: bde7837f-15fc-4345-af92-40443a315682
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: struct
-ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, 
+ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
-product: 
- - Windows
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
+product:
+ - Windows
+f1_keywords:
+ - D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
+ - d3d12umddi/D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 ---
 
 # D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure
+
 
 ## -description
 
@@ -70,3 +72,4 @@ See the [Mesh Shader specification](https://microsoft.github.io/DirectX-Specs/d3
 [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md)
 
 [**PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001**](nc-d3d12umddi-pfnd3d12ddi_create_command_signature_0001.md)
+

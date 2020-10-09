@@ -8,8 +8,6 @@ ms.assetid: 56D5A78D-546E-439E-A69E-A87B0A3B288F
 ms.date: 05/07/2018
 keywords: ["EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function"]
 ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EVT_UCM_CONNECTOR_SET_POWER_ROLE callback, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
-f1_keywords:
- - "ucmmanager/PFN_UCM_CONNECTOR_SET_POWER_ROLE"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ucmmanager.h
-api_name:
-- PFN_UCM_CONNECTOR_SET_POWER_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCM_CONNECTOR_SET_POWER_ROLE
+ - ucmmanager/EVT_UCM_CONNECTOR_SET_POWER_ROLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ucmmanager.h
+api_name:
+ - PFN_UCM_CONNECTOR_SET_POWER_ROLE
 ---
 
 # EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function
@@ -47,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
-The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> event callback function that sets the power  role of the connector to the specified role when attached to a partner connector.  
-
+The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> event callback function that sets the power  role of the connector to the specified role when attached to a partner connector.
 
 ## -parameters
 
+### -param Connector 
 
+[in]
+Handle to the connector that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a> method.
 
+### -param PowerRole 
 
-### -param Connector [in]
-
-Handle to the connector that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a> method.
-
-
-### -param PowerRole [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
-
+[in]
+A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
-
-
-
 
 ## -remarks
 
+To register an <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> callback function, the client must call <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
-
-To register an <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> callback function, the client must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
-
-The USB connector manager framework extension (UcmCx) can request either <b>UcmPowerRoleSink</b> or  <b>UcmPowerRoleSource</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a power-role swap operation (PR_Swap). The driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpowerdirectionchanged">UcmConnectorPowerDirectionChanged</a> to notify UcmCx about the success or failure of that operation. 
+The USB connector manager framework extension (UcmCx) can request either <b>UcmPowerRoleSink</b> or  <b>UcmPowerRoleSource</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a power-role swap operation (PR_Swap). The driver calls <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpowerdirectionchanged">UcmConnectorPowerDirectionChanged</a> to notify UcmCx about the success or failure of that operation. 
 The driver can call that method within the callback function.
 
 The role persists for the current connection.  
@@ -93,13 +80,9 @@ After the swap operation completes, if the partner port sends a PR_Swap request,
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UCM_CONNECTOR_SET_POWER_ROLE     EvtSetPowerRole;  
 
 NTSTATUS  
@@ -120,20 +103,10 @@ EvtSetPowerRole(
     TRACE_FUNC_EXIT();  
     return STATUS_SUCCESS;  
 }  
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>

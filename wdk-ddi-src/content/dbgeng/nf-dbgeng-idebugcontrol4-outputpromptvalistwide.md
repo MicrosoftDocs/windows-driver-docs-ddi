@@ -8,8 +8,6 @@ ms.assetid: ddd2cc89-1747-46e8-ade0-c4ccb10584f6
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::OutputPromptVaListWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputPromptVaListWide method, IDebugControl4.OutputPromptVaListWide, IDebugControl4::OutputPromptVaListWide, OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging], OutputPromptVaListWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputPromptVaListWide, debugger.outputpromptvalistwide
-f1_keywords:
- - "dbgeng/IDebugControl4.OutputPromptVaListWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.OutputPromptVaListWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::OutputPromptVaListWide
+ - dbgeng/IDebugControl4::OutputPromptVaListWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.OutputPromptVaListWide
 ---
 
 # IDebugControl4::OutputPromptVaListWide
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>OutputPromptVaListWide</b>  method formats and sends a user prompt to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">output callback objects</a>.
-
+The <b>OutputPromptVaListWide</b>  method formats and sends a user prompt to the <a href="/windows-hardware/drivers/debugger/using-callback-objects">output callback objects</a>.
 
 ## -parameters
 
+### -param OutputControl 
 
+[in]
+Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
+### -param Format 
 
-### -param OutputControl [in]
-
-Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
-
-
-### -param Format [in, optional]
-
+[in, optional]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
@@ -241,17 +236,14 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
+### -param Args 
 
-### -param Args [in]
-
+[in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>. This method does not call <b>va_end</b>.
-
 
 ## -returns
 
-
-
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -270,49 +262,33 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>OutputPromptVaList</b> and <b>OutputPromptVaListWide</b> can be used to prompt the user for input.
 
-The standard prompt will be sent to the output callbacks before the formatted text described by <i>Format</i>.  The contents of the standard prompt is returned by the method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getprompttext">GetPromptText</a>.
+The standard prompt will be sent to the output callbacks before the formatted text described by <i>Format</i>.  The contents of the standard prompt is returned by the method <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getprompttext">GetPromptText</a>.
 
-The prompt text is sent to the output callbacks with the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_PROMPT</a> output mask set.
+The prompt text is sent to the output callbacks with the <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_PROMPT</a> output mask set.
 
-For more information about prompting the user, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
-
-
-
+For more information about prompting the user, see <a href="/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
+<a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getprompttext">GetPromptText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getprompttext">GetPromptText</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
- 
-
- 
-
+<a href="/previous-versions/ff553227(v=vs.85)">OutputPrompt</a>

@@ -6,10 +6,8 @@ old-location: acpi\acpi_manipulate_global_lock_buffer.htm
 tech.root: acpi
 ms.assetid: 841CC16D-BDFC-4A3F-9DDD-940A591EBEF2
 ms.date: 02/15/2018
-keywords: ["_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure"]
+keywords: ["ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure"]
 ms.keywords: "*PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices], _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpi.acpi_manipulate_global_lock_buffer, acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
-f1_keywords:
- - "acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+f1_keywords:
+ - _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ - acpiioct/_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ - PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ - acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ - ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ - acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 ---
 
 # _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure
@@ -47,19 +50,13 @@ req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK
 
 ## -description
 
-
 This topic describes the  <b>ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
-
 
 ### -field LockObject
 

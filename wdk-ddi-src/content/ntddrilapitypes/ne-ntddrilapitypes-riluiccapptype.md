@@ -8,51 +8,65 @@ ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.date: 02/16/2018
 keywords: ["RILUICCAPPTYPE enumeration"]
 ms.keywords: RILUICCAPPTYPE, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_CSIM, RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_MF, RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, netvista.riluiccapptype, rilapitypes/RILUICCAPPTYPE, rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RIL_UICCAPPTYPE_USIM
-f1_keywords:
- - "ntddrilapitypes/RILUICCAPPTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILUICCAPPTYPE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILUICCAPPTYPE
+f1_keywords:
+ - RILUICCAPPTYPE
+ - ntddrilapitypes/RILUICCAPPTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILUICCAPPTYPE
 ---
 
-# RILUICCAPPTYPE enumeration
+# RILUICCAPPTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILUICCAPPTYPE.
 
+## -enum-fields
+
+### -field RIL_UICCAPPTYPE_UNKNOWN
+
+### -field RIL_UICCAPPTYPE_MF
+
+### -field RIL_UICCAPPTYPE_MF_SIM
+
+### -field RIL_UICCAPPTYPE_MF_RUIM
+
+### -field RIL_UICCAPPTYPE_USIM
+
+### -field RIL_UICCAPPTYPE_CSIM
+
+### -field RIL_UICCAPPTYPE_ISIM
+
+### -field RIL_UICCAPPTYPE_MAX
 
 ## -syntax
-
 
 ```cpp
 enum RILUICCAPPTYPE {
@@ -67,41 +81,7 @@ enum RILUICCAPPTYPE {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_UICCAPPTYPE_UNKNOWN
-
-
-### -field RIL_UICCAPPTYPE_MF
-
-
-### -field RIL_UICCAPPTYPE_MF_SIM
-
-
-### -field RIL_UICCAPPTYPE_MF_RUIM
-
-
-### -field RIL_UICCAPPTYPE_USIM
-
-
-### -field RIL_UICCAPPTYPE_CSIM
-
-
-### -field RIL_UICCAPPTYPE_ISIM
-
-
-### -field RIL_UICCAPPTYPE_MAX
-
-
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks.
 
@@ -451,19 +431,7 @@ No
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

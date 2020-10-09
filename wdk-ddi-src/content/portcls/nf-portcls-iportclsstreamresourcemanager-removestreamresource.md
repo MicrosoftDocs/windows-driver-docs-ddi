@@ -6,38 +6,38 @@ tech.root: audio
 ms.assetid: c271b9da-9d55-47fa-8939-fab0e02f2c64
 ms.date: 10/31/2018
 keywords: ["IPortClsStreamResourceManager::RemoveStreamResource"]
-f1_keywords:
- - "portcls/IPortClsStreamResourceManager.RemoveStreamResource"
 ms.keywords: IPortClsStreamResourceManager::RemoveStreamResource, RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource, IPortClsStreamResourceManager::RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource
 req.header: portcls.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - portcls.h
-api_name: 
- - IPortClsStreamResourceManager.RemoveStreamResource
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IPortClsStreamResourceManager::RemoveStreamResource
+ - portcls/IPortClsStreamResourceManager::RemoveStreamResource
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsStreamResourceManager.RemoveStreamResource
+product:
+ - Windows
 ---
 
 # IPortClsStreamResourceManager::RemoveStreamResource
@@ -51,17 +51,16 @@ RemoveStreamResource removes an existing stream resource. The RemoveStreamResour
 
 ### -param ResourceHandle
 
-PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource. For more information, see [PcAddStreamResource](nf-portcls-pcaddstreamresource.md). 
-
+PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource. For more information, see [PcAddStreamResource](nf-portcls-pcaddstreamresource.md).
 
 ## -returns
+
 This method returns NTSTATUS which contains:
 
 - STATUS_SUCCESS – The driver was able to register the resource of the specified PDO. 
 - STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status instances. 
 
 Additional standard status codes may be returned.
-
 
 ## -remarks
 
@@ -76,7 +75,7 @@ Audio drivers must remove a previously registered resource. Drivers may unregist
 
 The audio driver must make sure the resource is valid when making this call.
 
-
 ## -see-also
 
 [IPortClsStreamResourceManager](nn-portcls-iportclsstreamresourcemanager.md)
+

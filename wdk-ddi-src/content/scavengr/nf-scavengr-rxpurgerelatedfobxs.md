@@ -8,8 +8,6 @@ ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
 ms.date: 04/16/2018
 keywords: ["RxPurgeRelatedFobxs function"]
 ms.keywords: RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, scavengr/RxPurgeRelatedFobxs
-f1_keywords:
- - "scavengr/RxPurgeRelatedFobxs"
 req.header: scavengr.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scavengr.h
-api_name:
-- RxPurgeRelatedFobxs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxPurgeRelatedFobxs
+ - scavengr/RxPurgeRelatedFobxs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scavengr.h
+api_name:
+ - RxPurgeRelatedFobxs
 ---
 
 # RxPurgeRelatedFobxs function
@@ -47,38 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <b>RxPurgeRelatedFobxs</b> purges all of the FOBX structures associated with a NET_ROOT structure.
 
-
 ## -parameters
-
-
-
 
 ### -param NetRoot
 
 A pointer to the NET_ROOT structure for which the FOBX structures need to be purged.
 
-
 ### -param RxContext
 
 A pointer to the RX_CONTEXT structure.
-
 
 ### -param AttemptFinalization
 
 <p>A Boolean value that indicates whether an attempt to finalize and release the associated FCB structure should occur.</p>
 
-
 ### -param PurgingFcb
 
 A pointer to the FCB structure for which purging should occur.
 
-
 ## -returns
-
-
 
 <b>RxPurgeRelatedFobxs</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
 
@@ -99,14 +87,8 @@ No related FOBX structures could be purged.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 At cleanup there are no more user handles associated with the file object. In such cases, the time window between close and cleanup is dictated by the additional references maintained by the memory manager and cache manager. On cleanup, the FOBX is put on a close pending list and removed from the corresponding list when a close operation is received. In the interim, if an open operation is failing with ACCESS_DENIED status, then RDBSS can force a purge of the FOBX structure. This is a synchronous operation.
 
@@ -116,30 +98,20 @@ The <b>RxPurgeRelatedFobxs</b> routine attempts to purge all of the FOBX structu
 
 If <i>AttemptFinalize</i> is set to <b>TRUE</b>, then <b>RxPurgeRelatedFobxs</b> will try to finalize and release the associated FCB.
 
-If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the same as the FCB structure associated with the FOBX on the <b>ClosePendingFobxsList</b> member, then <b>RxPurgeRelatedFobxs</b> will call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if this routine is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure. 
-
-
-
+If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the same as the FCB structure associated with the FOBX on the <b>ClosePendingFobxsList</b> member, then <b>RxPurgeRelatedFobxs</b> will call the <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if this routine is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxpurgeallfobxs">RxPurgeAllFobxs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxpurgeallfobxs">RxPurgeAllFobxs</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxscavengeallfobxs">RxScavengeAllFobxs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxscavengeallfobxs">RxScavengeAllFobxs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>

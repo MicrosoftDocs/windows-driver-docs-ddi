@@ -6,10 +6,8 @@ old-location: kernel\pep_reset_soc_subsystem_accounting.htm
 tech.root: kernel
 ms.assetid: DCB0E541-51AB-4624-A007-46D109F31E5B
 ms.date: 04/30/2018
-keywords: ["_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure"]
+keywords: ["PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure"]
 ms.keywords: "*PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, kernel.pep_reset_soc_subsystem_accounting, pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
-f1_keywords:
- - "pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,52 +25,43 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+f1_keywords:
+ - _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - pepfx/_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ---
 
-# _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure
+# _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure (pepfx.h)
 
 
 ## -description
 
-
-The <b>PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING</b> structure is provided to the platform extension plug-in (PEP) as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>. 
-
+The <b>PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING</b> structure is provided to the platform extension plug-in (PEP) as part of a <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field PlatformIdleStateIndex
 
 [in] The platform idle state index for the subsystem accounting to be reset.
 
-
 ### -field Flags
 
 This member is reserved and should be set to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>

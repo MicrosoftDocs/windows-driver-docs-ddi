@@ -8,15 +8,18 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: wpd_dk
+f1_keywords:
+ - portabledevicetypes
+ - portabledevicetypes/portabledevicetypes
 ---
 
 # portabledevicetypes.h header
+
 
 ## -description
 
 This header is used by Windows Portable Device. For more information, see:
 
 - [Windows Portable Devices](../_wpd_dk/index.md)
+

@@ -8,8 +8,6 @@ ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::ResumeIdle"]
 ms.keywords: IWDFDevice2 interface,ResumeIdle method, IWDFDevice2.ResumeIdle, IWDFDevice2::ResumeIdle, ResumeIdle, ResumeIdle method, ResumeIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
-f1_keywords:
- - "wudfddi/IWDFDevice2.ResumeIdle"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice2.ResumeIdle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice2::ResumeIdle
+ - wudfddi/IWDFDevice2::ResumeIdle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice2.ResumeIdle
 ---
 
 # IWDFDevice2::ResumeIdle
@@ -47,32 +46,24 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ResumeIdle</b> method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle.
 
-
 ## -remarks
 
+Every call to <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">IWDFDevice2::StopIdle</a> must eventually be followed by a call to <b>ResumeIdle</b>, or else the device will never return to a low-power state if it again becomes idle.
 
-
-Every call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">IWDFDevice2::StopIdle</a> must eventually be followed by a call to <b>ResumeIdle</b>, or else the device will never return to a low-power state if it again becomes idle.
-
-For more information about <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">StopIdle</a> and <b>ResumeIdle</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
+For more information about <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">StopIdle</a> and <b>ResumeIdle</b>, see <a href="/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
 #### Examples
 
-The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>ResumeIdle</b>. 
+The following code example obtains the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>ResumeIdle</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    IWDFDevice2 *pIWDFDevice2 = NULL;
+
+```
+    IWDFDevice2 *pIWDFDevice2 = NULL;
     HRESULT hr;
 
     //
@@ -85,24 +76,14 @@ The following code example obtains the <a href="https://docs.microsoft.com/windo
     pIWDFDevice2->ResumeIdle();
     }
 ...
-    SAFE_RELEASE(pIWDFDevice2);</pre>
-</td>
-</tr>
-</table></span></div>
-
+    SAFE_RELEASE(pIWDFDevice2);
+```
 
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">IWDFDevice2::StopIdle</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">IWDFDevice2::StopIdle</a>

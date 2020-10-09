@@ -1,48 +1,46 @@
 ---
 UID: NF:ntifs.RtlUnicodeStringToUTF8String
-title: RtlUnicodeStringToUTF8String function
-author: windows-driver-content
+title: RtlUnicodeStringToUTF8String function (ntifs.h)
 description: RtlUnicodeStringToUTF8String converts the specified Unicode string to a UTF-8 string.
 tech.root: ifsk
 ms.assetid: 8c1e181a-7737-4e26-8fc1-a00ed16673e9
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/RtlUnicodeStringToUTF8String"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlUnicodeStringToUTF8String
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - RtlUnicodeStringToUTF8String
+ - ntifs/RtlUnicodeStringToUTF8String
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlUnicodeStringToUTF8String
+product:
+ - Windows
 ---
 
-# RtlUnicodeStringToUTF8String function
+# RtlUnicodeStringToUTF8String function (ntifs.h)
 
 ## -description
 
@@ -60,7 +58,7 @@ Pointer to the Unicode string to be converted to UTF-8.
 
 ### -param AllocateDestinationString
 
-Boolean value. When set TRUE, **RtlUnicodeStringToUTF8String** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUnicodeStringToUTF8String** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUTF8String**](nf-ntifs-rtlfreeutf8string.md).
+Boolean value. When set TRUE, **RtlUnicodeStringToUTF8String** allocates the buffer space for the destination string. Only storage for *DestinationString->Buffer* is allocated by this API. If **RtlUnicodeStringToUTF8String** does the buffer allocation, then the caller must deallocate the buffer using [**RtlFreeUTF8String**](../wdm/nf-wdm-rtlfreeutf8string.md).
 
 ## -returns
 
@@ -83,10 +81,10 @@ The UTF-8 output string is null-terminated only if the Unicode input string is n
 
 The [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md) routine converts a UTF-8 string to a Unicode string.
 
-You can use the **RtlUnicodeStringToUTF8String** and [**RtlUTF8StringToUnicodeString**]((nf-ntifs-rtlutf8stringtounicodestring.md)) routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
+You can use the **RtlUnicodeStringToUTF8String** and [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md) routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
 
 ## -see-also
 
-[**RtlFreeUTF8String**](nf-ntifs-rtlfreeutf8string.md)
+[**RtlFreeUTF8String**](../wdm/nf-wdm-rtlfreeutf8string.md)
 
 [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md)

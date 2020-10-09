@@ -6,10 +6,8 @@ old-location: display\d3dddicb_destroyhwqueue.htm
 tech.root: display
 ms.assetid: 80735E36-C483-4CD8-AB53-873BA5E997D0
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_DESTROYHWQUEUE structure"]
+keywords: ["D3DDDICB_DESTROYHWQUEUE structure"]
 ms.keywords: D3DDDICB_DESTROYHWQUEUE, D3DDDICB_DESTROYHWQUEUE structure [Display Devices], _D3DDDICB_DESTROYHWQUEUE, d3dumddi/D3DDDICB_DESTROYHWQUEUE, display.d3dddicb_destroyhwqueue
-f1_keywords:
- - "d3dumddi/D3DDDICB_DESTROYHWQUEUE"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_DESTROYHWQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DESTROYHWQUEUE
+f1_keywords:
+ - _D3DDDICB_DESTROYHWQUEUE
+ - d3dumddi/_D3DDDICB_DESTROYHWQUEUE
+ - D3DDDICB_DESTROYHWQUEUE
+ - d3dumddi/D3DDDICB_DESTROYHWQUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_DESTROYHWQUEUE
 ---
 
 # _D3DDDICB_DESTROYHWQUEUE structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_DESTROYHWQUEUE
 
 ## -description
 
-
 A structure that holds information to destroy a hardware queue.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hHwQueue
 

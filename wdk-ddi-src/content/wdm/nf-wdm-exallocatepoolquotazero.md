@@ -8,7 +8,7 @@ targetos: Windows
 description: 
 req.assembly: 
 req.construct-type: function
-req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo 
+req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.idl: 
@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolQuotaZero
 f1_keywords:
+ - ExAllocatePoolQuotaZero
  - wdm/ExAllocatePoolQuotaZero
 dev_langs:
  - c++
@@ -41,10 +42,12 @@ dev_langs:
 
 ## -description
 
+> [!WARNING]
+> Microsoft is aware of an issue with **ExAllocatePoolQuotaZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. We recommend not using **ExAllocatePoolQuotaZero** for drivers targeting Windows 10, version 1909. This warning will be removed when the issue is fixed.
+
 This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md).
 
-**ExAllocatePoolQuotaZero** allocates pool memory of the specified type and returns a pointer to the allocated block. It is identical to [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) except it zero initializes the allocated memory. If this is not desired, use [**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md) instead. 
-
+**ExAllocatePoolQuotaZero** allocates pool memory of the specified type and returns a pointer to the allocated block. It is identical to [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) except it zero initializes the allocated memory. If this is not desired, use [**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md) instead.
 
 ## -parameters
 
@@ -52,15 +55,15 @@ This routine is a wrapper for and a recommended replacement option for [**ExAllo
 
 The type of pool memory to allocate. For a description of the available pool memory types, see [**POOL_TYPE**](ne-wdm-_pool_type.md). 
 
-Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory. 
+Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory.
 
 ### -param NumberOfBytes
 
-The number of bytes to allocate. 
+The number of bytes to allocate.
 
 ### -param Tag
 
-The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, `Tag1`). The string is usually specified in reverse order (for example, `1gaT`). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path. 
+The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, `Tag1`). The string is usually specified in reverse order (for example, `1gaT`). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
 ## -returns
 
@@ -79,3 +82,4 @@ See the Remarks section of [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoo
 ## -see-also
 
 [**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md)
+

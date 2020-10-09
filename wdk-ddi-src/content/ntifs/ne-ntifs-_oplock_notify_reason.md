@@ -6,33 +6,32 @@ ms.assetid: fd212e75-7ba1-4764-a860-57b21d8eef4a
 tech.root: ifsk
 ms.date: 03/24/2020
 ms.topic: enum
-f1_keywords:
- - "ntifs/_OPLOCK_NOTIFY_REASON"
-ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON, 
+ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON,
 req.header: ntifs.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: OPLOCK_NOTIFY_REASON, *POPLOCK_NOTIFY_REASON
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntifs.h
-api_name: 
-- _OPLOCK_NOTIFY_REASON
-product:
-- Windows
 targetos: Windows
+ms.custom: 
+f1_keywords:
+ - OPLOCK_NOTIFY_REASON
+ - ntifs/OPLOCK_NOTIFY_REASON
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - _OPLOCK_NOTIFY_REASON
 dev_langs:
  - c++
-ms.custom:
 ---
 
 # _OPLOCK_NOTIFY_REASON enumeration

@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 8bdd8690-6c8e-4764-91da-5a35922dae65
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
 ---
 
 # FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE callback function
+
 
 ## -description
 
@@ -47,6 +47,16 @@ ms.custom: RS5
 
 The <b>VmbChannelSetIncomingProcessingAtPassive</b> function sets the required IRQL for incoming parsing routines for a channel to
 PASSIVE_LEVEL.
+
+## -parameters
+
+### -param Channel
+
+A handle for a channel.
+
+### -param RequirePassive
+
+If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at either DISPATCH_LEVEL or PASSIVE_LEVEL.
 
 ## -prototype
 
@@ -66,16 +76,6 @@ VOID FnVmbChannelSetIncomingProcessingAtPassive
 
 ```
 
-## -parameters
-
-### -param Channel
-
-A handle for a channel. 
-
-### -param RequirePassive
-
-If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at either DISPATCH_LEVEL or PASSIVE_LEVEL.
-
 ## -remarks
 
 > [!IMPORTANT]
@@ -84,3 +84,4 @@ If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at eit
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

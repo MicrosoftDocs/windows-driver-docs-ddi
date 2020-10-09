@@ -6,10 +6,8 @@ old-location: netvista\net_dma_descriptor.htm
 tech.root: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.date: 05/02/2018
-keywords: ["_NET_DMA_DESCRIPTOR structure"]
+keywords: ["NET_DMA_DESCRIPTOR structure"]
 ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_NULL_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_OP_TYPE_MASK, NET_DMA_RESERVED_MASK, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma/NET_DMA_DESCRIPTOR, netdma/PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netvista.net_dma_descriptor"
-f1_keywords:
- - "netdma/NET_DMA_DESCRIPTOR"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NET_DMA_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
+f1_keywords:
+ - _NET_DMA_DESCRIPTOR
+ - netdma/_NET_DMA_DESCRIPTOR
+ - PNET_DMA_DESCRIPTOR
+ - netdma/PNET_DMA_DESCRIPTOR
+ - NET_DMA_DESCRIPTOR
+ - netdma/NET_DMA_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NET_DMA_DESCRIPTOR
 ---
 
 # _NET_DMA_DESCRIPTOR structure
@@ -47,15 +50,10 @@ req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_DESCRIPTOR structure specifies the DMA transfer information for each entry in a linked
   list of DMA descriptors.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TransferSize
 
@@ -67,49 +65,40 @@ NetDMA 2.0 and later provider drivers use the
       <b>DCAContext16</b>, and 
       <b>DCAContext8</b> members of the union with 
       <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      <a href="/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
       (DCA)</a>.
-
 
 ### -field DCAContext32
 
 A 32 bit DCA context.
 
-
 ### -field DCAContext32.DCAContext
 
 A DCA context.
-
 
 ### -field DCAContext16
 
 A 16 bit DCA context.
 
-
 ### -field DCAContext16.DCAContext
 
 A DCA context.
-
 
 ### -field DCAContext16.Reserved
 
 Reserved bits.
 
-
 ### -field DCAContext8
 
 An 8 bit DCA context.
-
 
 ### -field DCAContext8.DCAContext
 
 A DCA context.
 
-
 ### -field DCAContext8.Reserved
 
 Reserved bits.
-
 
 ### -field ControlFlags
 
@@ -247,7 +236,7 @@ When this bit is cleared, the destination address is in coherent memory space, a
 The 
        <b>CompletionVirtualAddress</b> and 
        <b>CompletionPhysicalAddress</b> members in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+       <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
        NET_DMA_CHANNEL_PARAMETERS</a> structure reference a completion status value. The DMA engine updates
        the completion status value when it completes the processing of this descriptor. 
        
@@ -333,18 +322,14 @@ A bit mask that specifies bits that are reserved for future applications. The Ne
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SourceAddress
 
 The physical address of a memory block that is a source for the DMA transfer.
 
-
 ### -field DestinationAddress
 
 The physical address of a memory block that is a destination for the DMA transfer.
-
 
 ### -field NextDescriptor
 
@@ -352,22 +337,19 @@ The physical address of the next NET_DMA_DESCRIPTOR structure in the linked list
      If this descriptor is the last descriptor in the list, 
      <b>NextDescriptor</b> is <b>NULL</b>.
 
-
 ### -field Reserved1
 
 A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
       and later provider drivers use the 
       <b>NextSourceAddress</b> member of the union with 
       <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
-
 
 ### -field NextSourceAddress
 
 The physical address of the second page of source address that is used in source page
       break.
-
 
 ### -field Reserved2
 
@@ -375,29 +357,23 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       2.0 and later provider drivers use the 
       <b>NextDestinationAddress</b> member of the union with 
       <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
-
 
 ### -field NextDestinationAddress
 
 The physical address of the second page of destination address that is used in destination page
       break.
 
-
 ### -field UserContext1
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
-
 
 ### -field UserContext2
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
-
 ## -remarks
-
-
 
 The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control information for a
     single DMA transfer in a linked list of DMA descriptors.
@@ -405,7 +381,7 @@ The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control 
 To start a DMA transfer, the NetDMA interface supplies the physical address of a NET_DMA_DESCRIPTOR
     structure at the 
     <i>DescriptorPhysicalAddress</i> parameter of the DMA provider driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The 
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The 
     <i>DescriptorVirtualAddress</i> parameter contains the virtual address of the descriptor.
 
 The 
@@ -413,27 +389,17 @@ The
     NET_DMA_DESCRIPTOR structure in the linked list of descriptors.
 
 The NetDMA interface calls a DMA provider driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append a
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append a
     linked list of DMA descriptors after the last descriptor on a DMA channel.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_uicc_reset_info.htm
 tech.root: netvista
 ms.assetid: 9CBAFC44-187A-41ED-9405-1208167AC75D
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_UICC_RESET_INFO structure"]
+keywords: ["NDIS_WWAN_UICC_RESET_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_UICC_RESET_INFO, PNDIS_WWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_UICC_RESET_INFO, ndiswwan/NDIS_WWAN_UICC_RESET_INFO, ndiswwan/PNDIS_WWAN_UICC_RESET_INFO, netvista.ndis_wwan_uicc_reset_info"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_UICC_RESET_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_UICC_RESET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_UICC_RESET_INFO, *PNDIS_WWAN_UICC_RESET_INFO
+f1_keywords:
+ - _NDIS_WWAN_UICC_RESET_INFO
+ - ndiswwan/_NDIS_WWAN_UICC_RESET_INFO
+ - PNDIS_WWAN_UICC_RESET_INFO
+ - ndiswwan/PNDIS_WWAN_UICC_RESET_INFO
+ - NDIS_WWAN_UICC_RESET_INFO
+ - ndiswwan/NDIS_WWAN_UICC_RESET_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_UICC_RESET_INFO
 ---
 
 # _NDIS_WWAN_UICC_RESET_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_UICC_RESET_INFO, *PNDIS_WWAN_UICC_RESET_INFO
 
 ## -description
 
-
 The <b>NDIS_WWAN_UICC_RESET_INFO</b> structure represents the passthrough status of a modem miniport adapter for a UICC smart card.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,8 +102,7 @@ sizeof(NDIS_WWAN_UICC_RESET_INFO)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -159,33 +156,23 @@ The operation failed because the device does not support this OID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field UiccResetInfo
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a> structure that represents the passthrough status of the miniport adapter.
-
+A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a> structure that represents the passthrough status of the miniport adapter.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a>

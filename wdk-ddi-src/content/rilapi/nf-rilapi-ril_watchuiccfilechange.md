@@ -8,8 +8,6 @@ ms.assetid: 45bda979-8f89-41cf-a0c9-3d8777cd5a56
 ms.date: 05/02/2018
 keywords: ["RIL_WatchUiccFileChange function"]
 ms.keywords: RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], netvista.ril_watchuiccfilechange, rilapi/RIL_WatchUiccFileChange
-f1_keywords:
- - "rilapi/RIL_WatchUiccFileChange"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_WatchUiccFileChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_WatchUiccFileChange
+ - rilapi/RIL_WatchUiccFileChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_WatchUiccFileChange
 ---
 
 # RIL_WatchUiccFileChange function
@@ -47,31 +46,17 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param lpUiccFiles
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

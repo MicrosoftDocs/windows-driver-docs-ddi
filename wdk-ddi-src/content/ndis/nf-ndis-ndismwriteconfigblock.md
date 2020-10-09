@@ -8,8 +8,6 @@ ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.date: 05/02/2018
 keywords: ["NdisMWriteConfigBlock function"]
 ms.keywords: NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock
-f1_keywords:
- - "ndis/NdisMWriteConfigBlock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMWriteConfigBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMWriteConfigBlock
+ - ndis/NdisMWriteConfigBlock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMWriteConfigBlock
 ---
 
 # NdisMWriteConfigBlock function
@@ -48,41 +47,34 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the <b>NdisMWriteConfigBlock</b> function to write data to a VF configuration block. Write operations on a VF configuration block are handled by the miniport driver of the network adapter's PCIe Physical Function (PF).
 <div class="alert"><b>Note</b>  <b>NdisMWriteConfigBlock</b> must only be called by the miniport driver for a network adapter's VF.</div><div> </div>
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param BlockId 
 
-### -param BlockId [in]
-
+[in]
 A ULONG value that specifies the identifier of the configuration block to be written to. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the miniport drivers for the PF and VF on the network adapter.
 
+### -param Buffer 
 
-
-### -param Buffer [in]
-
+[in]
 A pointer to a caller-allocated buffer that contains the configuration data to be written.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to write to the configuration block.
 
-
 ## -returns
-
-
 
 <b>NdisMWriteConfigBlock</b> can return one of the following status values.
 
@@ -114,14 +106,8 @@ The write operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The VF miniport driver  calls <b>NdisMWriteConfigBlock</b> to initiate a backchannel write request of VF configuration data by the PF miniport driver. Once notified of this request, the PF driver writes the data to the specified VF configuration block.
 
@@ -131,20 +117,14 @@ A VF configuration block is used for backchannel communication between the PF an
 
 </div>
 <div> </div>
-For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sr-iov-pf-vf-backchannel-communication">SR-IOV PF/VF Backchannel Communication</a>.
+For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="/windows-hardware/drivers/network/sr-iov-pf-vf-backchannel-communication">SR-IOV PF/VF Backchannel Communication</a>.
 
 <h3><a id="Interfacing_to_a_Virtual_Bus_Driver"></a><a id="interfacing_to_a_virtual_bus_driver"></a><a id="INTERFACING_TO_A_VIRTUAL_BUS_DRIVER"></a>Interfacing to a Virtual Bus Driver</h3>
-If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMWriteConfigBlock</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451609(v=vs.85)">WriteVfConfigBlock</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface that is supported by the underlying virtual PCI (VPCI) bus driver.
+If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMWriteConfigBlock</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/previous-versions/windows/hardware/drivers/hh451609(v=vs.85)">WriteVfConfigBlock</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface that is supported by the underlying virtual PCI (VPCI) bus driver.
 
-The VBD that runs in a Hyper-V child partition's guest operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the VPCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_VPCI_INTERFACE_STANDARD.
-
-
-
+The VBD that runs in a Hyper-V child partition's guest operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the VPCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_VPCI_INTERFACE_STANDARD.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -154,8 +134,4 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451609(v=vs.85)">WriteVfConfigBlock</a>
- 
-
- 
-
+<a href="/previous-versions/windows/hardware/drivers/hh451609(v=vs.85)">WriteVfConfigBlock</a>

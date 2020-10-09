@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # IEEE 1394 bus
@@ -23,4 +21,4 @@ To develop IEEE 1394 bus, you need these headers:
  * [1394.h](../1394/index.md)
  * [61883.h](../61883/index.md)
 
-For the programming guide, see [IEEE 1394 bus](https://docs.microsoft.com/windows-hardware/drivers/ieee).
+For the programming guide, see [IEEE 1394 bus](/windows-hardware/drivers/ieee).

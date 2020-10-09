@@ -4,40 +4,45 @@ title: _D3DDDI_QUERYREGISTRY_FLAGS (d3dukmdt.h)
 description: Contains information to query for registry flags.
 ms.assetid: 9dabfa1e-4574-4a82-a7c9-f44d5012dcbb
 ms.date: 11/21/2018
-keywords: ["_D3DDDI_QUERYREGISTRY_FLAGS structure"]
-f1_keywords:
- - "d3dukmdt/_D3DDDI_QUERYREGISTRY_FLAGS"
+keywords: ["D3DDDI_QUERYREGISTRY_FLAGS structure"]
 ms.keywords: _D3DDDI_QUERYREGISTRY_FLAGS, D3DDDI_QUERYREGISTRY_FLAGS,
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DDDI_QUERYREGISTRY_FLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- _D3DDDI_QUERYREGISTRY_FLAGS
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DDDI_QUERYREGISTRY_FLAGS
+ - d3dukmdt/_D3DDDI_QUERYREGISTRY_FLAGS
+ - D3DDDI_QUERYREGISTRY_FLAGS
+ - d3dukmdt/D3DDDI_QUERYREGISTRY_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - _D3DDDI_QUERYREGISTRY_FLAGS
+product:
+ - Windows
 ---
 
 # _D3DDDI_QUERYREGISTRY_FLAGS structure
 
+
 ## -description
+
 These flags control how strings are being retrieved through QueryAdapterInfo for **KMTQAITYPE_QUERYREGISTRY**.
 
 ## -struct-fields
@@ -67,3 +72,4 @@ The **Value** field exists to read all these flags in a raw syntax, instead of t
 
 ## See Also
 - [D3DDDI_QUERYREGISTRY_INFO](ns-d3dukmdt-_d3dddi_queryregistry_info.md)
+

@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: pos
+f1_keywords:
+ - poscxfuncenum
+ - poscxfuncenum/poscxfuncenum
 ---
 
 # Poscxfuncenum.h header
@@ -18,7 +19,7 @@ tech.root: pos
 
 ## -description
 
-
 This header is used by pos. For more information, see:
 
 - [Point of Service (POS)](../_pos/index.md)
+

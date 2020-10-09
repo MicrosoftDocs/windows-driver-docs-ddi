@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::get_Version"]
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Version property, IWDTFDriverPackageAction2.Version, IWDTFDriverPackageAction2.get_Version, IWDTFDriverPackageAction2::Version, IWDTFDriverPackageAction2::get_Version, Microsoft.WDTF.IWDTFDriverPackageAction2.Version, Microsoft::WDTF::IWDTFDriverPackageAction2::Version, Version property [Windows Device Testing Framework], Version property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_version, get_Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Version
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.Version"
+ - "IWDTFDriverPackageAction2.Version"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.Version
 - IWDTFDriverPackageAction2.get_Version
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -62,8 +61,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
  
 
  
-

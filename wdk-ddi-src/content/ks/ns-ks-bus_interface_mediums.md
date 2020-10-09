@@ -8,8 +8,6 @@ ms.assetid: 0A2D1D8F-8C82-4335-9FBF-4515A8DC20C1
 ms.date: 04/23/2018
 keywords: ["BUS_INTERFACE_MEDIUMS structure"]
 ms.keywords: "*PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS, PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], ks/BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS, stream.bus_interface_mediums"
-f1_keywords:
- - "ks/BUS_INTERFACE_MEDIUMS"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- BUS_INTERFACE_MEDIUMS
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
+f1_keywords:
+ - PBUS_INTERFACE_MEDIUMS
+ - ks/PBUS_INTERFACE_MEDIUMS
+ - BUS_INTERFACE_MEDIUMS
+ - ks/BUS_INTERFACE_MEDIUMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - BUS_INTERFACE_MEDIUMS
 ---
 
 # BUS_INTERFACE_MEDIUMS structure
@@ -47,19 +48,11 @@ req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Interface
 
 Specifies the standard interface header.
-
 
 ### -field QueryMediumsList
 

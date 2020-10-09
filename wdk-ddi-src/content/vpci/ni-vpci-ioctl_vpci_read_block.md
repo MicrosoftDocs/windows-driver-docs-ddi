@@ -8,39 +8,38 @@ ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
 ms.date: 02/24/2018
 keywords: ["IOCTL_VPCI_READ_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_READ_BLOCK, IOCTL_VPCI_READ_BLOCK control code, PCI.ioctl_vpci_read_block, vpci/IOCTL_VPCI_READ_BLOCK
-f1_keywords:
- - "vpci/IOCTL_VPCI_READ_BLOCK"
 req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vpci.h
-api_name:
-- IOCTL_VPCI_READ_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.
+f1_keywords:
+ - IOCTL_VPCI_READ_BLOCK
+ - vpci/IOCTL_VPCI_READ_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vpci.h
+api_name:
+ - IOCTL_VPCI_READ_BLOCK
 ---
 
 # IOCTL_VPCI_READ_BLOCK IOCTL
@@ -49,18 +48,17 @@ req.product: Windows 10 or later.
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
-
-
-The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
+The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
 
    I/O control code (IOCTL) in order to read data from a VF configuration block. The driver issues this IOCTL to the next-lower driver  in the driver stack.
 
 
-<div class="alert"><b>Note</b>  This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface. </div><div> </div>When the driver issues the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL, the driver must follow these steps:
+<div class="alert"><b>Note</b>  This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface. </div><div> </div>When the driver issues the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL, the driver must follow these steps:
 <dl>
 <dd>
 <a href="https://docs.microsoft.com/">Preparing an I/O Request Packet Structure</a>
@@ -78,71 +76,23 @@ The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="htt
 <a href="https://docs.microsoft.com/">IOCTL Request Completion Results</a>
 
 </dd>
-</dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
-
+</dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-
-
-
-
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
-
-
-
-
-
-
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -150,15 +100,10 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
-
-
-
 ## -remarks
 
-
-
 <h3><a id="preparing_an_i_o_request_packet_structure"></a><a id="PREPARING_AN_I_O_REQUEST_PACKET_STRUCTURE"></a>Preparing an I/O Request Packet Structure</h3>
-The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> function to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization functions, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-irps-for-lower-level-drivers">Creating IRPs for Lower-Level Drivers</a>.
+The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> function to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization functions, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="/windows-hardware/drivers/kernel/creating-irps-for-lower-level-drivers">Creating IRPs for Lower-Level Drivers</a>.
 
 The driver must then set the  members of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure as described in the following table.
 
@@ -177,7 +122,7 @@ The address of the caller-allocated buffer that will contain the configuration d
 <tr>
 <td><b>UserEvent</b></td>
 <td>
-The address of the event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> function.<div class="alert"><b>Note</b>  If asynchronous completion of the IOCTL request is not required, this member should be set to <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.</div>
+The address of the event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> function.<div class="alert"><b>Note</b>  If asynchronous completion of the IOCTL request is not required, this member should be set to <b>NULL</b>. For more information, see <a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.</div>
 <div> </div>
 
 
@@ -186,7 +131,7 @@ The address of the event object that was initialized in the call to the <a href=
 <tr>
 <td><b>UserIosb</b></td>
 <td>
-The address of a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
+The address of a caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
 
 </td>
 </tr>
@@ -207,7 +152,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 <td><b>MajorFunction</b></td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 </td>
@@ -216,7 +161,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 <td><b>Parameters.DeviceIoControl.IoControlCode</b></td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
 
 
 </td>
@@ -224,7 +169,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 <tr>
 <td><b>Parameters.DeviceIoControl.Type3InputBuffer</b></td>
 <td>
-A pointer to a <a href="..\vpci\ns-vpci-_vpci_read_block_input.md">VPCI_READ_BLOCK_INPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
+A pointer to a <a href="..\vpci\ns-vpci-_vpci_read_block_input.md">VPCI_READ_BLOCK_INPUT</a> structure. The driver formats this structure with the parameters for the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
    I/O request.
 
 </td>
@@ -274,7 +219,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
  
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
-      When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
+      When the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
 
 <table>
 <tr>
@@ -317,10 +262,10 @@ Either the <b>Parameters.DeviceIoControl.InputBufferLength</b> member or the <b>
  
 
 If the request completed successfully, the
-      <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the
+      <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the
       <b>Information</b> member is set to zero.
 
-When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to return the data from the specified VF configuration block.
+When the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to return the data from the specified VF configuration block.
 
 <div class="alert"><b>Note</b>  The operating system reserves and manages the resources that are required for the successful completion of this IOCTL. </div>
 <div> </div>
@@ -342,26 +287,24 @@ This operating system runs within the Hyper-V parent partition.
 </ul>
 The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL offers an asynchronous alternative to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a> function.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL offers an asynchronous alternative to the <a href="/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a> function.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a>
+<a href="/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
@@ -382,11 +325,3 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 <b></b>
-
-
-
- 
-
- 
-
-

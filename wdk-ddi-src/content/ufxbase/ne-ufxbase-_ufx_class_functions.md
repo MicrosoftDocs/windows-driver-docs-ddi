@@ -4,38 +4,40 @@ title: _UFX_CLASS_FUNCTIONS (ufxbase.h)
 description: 
 ms.assetid: 0acaec8d-ed14-4acb-826b-8bd1552dadd6
 ms.date: 10/19/2018
-keywords: ["_UFX_CLASS_FUNCTIONS enumeration"]
-f1_keywords:
- - "ufxbase/_UFX_CLASS_FUNCTIONS"
-ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS, 
+keywords: ["UFX_CLASS_FUNCTIONS enumeration"]
+ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS,
 req.header: ufxbase.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: UFX_CLASS_FUNCTIONS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- ufxbase.h
-api_name: 
-- _UFX_CLASS_FUNCTIONS
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _UFX_CLASS_FUNCTIONS
+ - ufxbase/_UFX_CLASS_FUNCTIONS
+ - UFX_CLASS_FUNCTIONS
+ - ufxbase/UFX_CLASS_FUNCTIONS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ufxbase.h
+api_name:
+ - _UFX_CLASS_FUNCTIONS
 ---
 
 # _UFX_CLASS_FUNCTIONS enumeration
 
-## -description
-Defines index values for all export functions for the UFX class extension.
 
+## -description
+
+Defines index values for all export functions for the UFX class extension.
 
 ## -enum-fields
 
@@ -128,3 +130,4 @@ Index for [**UfxDeviceNotifyFinalExit**](../ufxclient/nf-ufxclient-ufxdevicenoti
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: b44debf9-4f44-44fc-9857-e4725edc888f
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEGROUPFLAGS enumeration"]
 ms.keywords: RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, netvista.rilradiostategroupflags, ntddrilapitypes/RILRADIOSTATEGROUPFLAGS, ntddrilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
-f1_keywords:
- - "rilapitypes/RILRADIOSTATEGROUPFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEGROUPFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUPFLAGS
+f1_keywords:
+ - RILRADIOSTATEGROUPFLAGS
+ - rilapitypes/RILRADIOSTATEGROUPFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEGROUPFLAGS
 ---
 
-# RILRADIOSTATEGROUPFLAGS enumeration
+# RILRADIOSTATEGROUPFLAGS enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_RADIOSTATE_GROUPFLAG_NONE
-
 
 ### -field RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
 

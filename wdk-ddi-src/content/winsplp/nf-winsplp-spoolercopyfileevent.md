@@ -8,8 +8,6 @@ ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.date: 04/20/2018
 keywords: ["SpoolerCopyFileEvent function"]
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
-f1_keywords:
- - "winsplp/SpoolerCopyFileEvent"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- SpoolerCopyFileEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerCopyFileEvent
+ - winsplp/SpoolerCopyFileEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - SpoolerCopyFileEvent
 ---
 
 # SpoolerCopyFileEvent function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 A Point and Print DLL's <code>SpoolerCopyFileEvent</code> function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
-
 
 ## -parameters
 
+### -param pszPrinterName 
 
-
-
-### -param pszPrinterName [in]
-
+[in]
 Caller-supplied pointer to a string representing the printer name.
 
+### -param pszKey 
 
-### -param pszKey [in]
-
+[in]
 Caller-supplied pointer to a string representing a subkey under the printer's <b>CopyFiles</b> registry key. This subkey identifies the component to which the Point and Print DLL belongs.
 
+### -param dwCopyFileEvent 
 
-### -param dwCopyFileEvent [in]
-
+[in]
 Caller-supplied flag that identifies the event being reported. Valid flag values are contained in the following table.
 
 <table>
@@ -147,38 +142,19 @@ Server copy of <code>SpoolerCopyFileEvent</code>. The calling context is the cli
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function encounters errors, the function should return <b>FALSE</b>. Otherwise, it should return <b>TRUE</b>.
-
-
-
 
 ## -remarks
 
-
-
-All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a> must export a <code>SpoolerCopyFileEvent</code> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-point-and-print">Supporting Point and Print</a>.
+All <a href="/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a> must export a <code>SpoolerCopyFileEvent</code> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="/windows-hardware/drivers/print/supporting-point-and-print">Supporting Point and Print</a>.
 
 A Point and Print DLL executes on both the server and the client. The <code>SpoolerCopyFileEvent</code> function can determine where it is executing by reading the contents of <i>dwCopyFileEvent</i>, which supplies a flag indicating the event. The function should process the event and return. If no processing is necessary, the function should just return <b>TRUE</b>.
 
 If <i>dwCopyFileEvent</i> is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_EVENT_ADD_PRINTER_CONNECTION, the string supplied by <i>pszPrinterName</i> includes the server name.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>

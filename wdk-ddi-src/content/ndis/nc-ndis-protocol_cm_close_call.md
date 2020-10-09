@@ -8,8 +8,6 @@ ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_CLOSE_CALL callback function"]
 ms.keywords: PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL callback, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
-f1_keywords:
- - "ndis/ProtocolCmCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmCloseCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_CLOSE_CALL
+ - ndis/PROTOCOL_CM_CLOSE_CALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmCloseCall
 ---
 
 # PROTOCOL_CM_CLOSE_CALL callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmCloseCall</i> function is a required function that terminates an existing call and releases any
@@ -56,40 +54,35 @@ The
 
 ## -parameters
 
+### -param CallMgrVcContext 
 
-
-
-### -param CallMgrVcContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. This handle was provided to NDIS from the call managers 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function.
 
+### -param CallMgrPartyContext 
 
-### -param CallMgrPartyContext [in, optional]
-
+[in, optional]
 Specifies the handle, if any, to a call manager-allocated context area in which the call manager
      maintain information about a party on a multipoint VC. This handle is <b>NULL</b> if the call being closed is
      not a multipoint call.
 
+### -param CloseData 
 
-### -param CloseData [in, optional]
-
+[in, optional]
 Pointer to a buffer containing connection-oriented client-specified data that should be sent
      across the connection before the call is terminated. This parameter is <b>NULL</b> if the underlying network
      medium does not support transfers of data when closing a connection.
 
+### -param Size 
 
-### -param Size [in, optional]
-
+[in, optional]
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmCloseCall</i> returns the status of its operation(s) as one of the following:
 
@@ -119,7 +112,7 @@ Indicates that the call manager successfully terminated the call.
 Indicates that the call manager will complete the request to terminate the call asynchronously.
        When the call manager has completed all operations required to terminate the connection, it must then
        call 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmclosecallcomplete">NdisCmCloseCallComplete</a> to
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmclosecallcomplete">NdisCmCloseCallComplete</a> to
        signal NDIS that the call has been closed.
 
 </td>
@@ -150,14 +143,8 @@ Indicates that the call manager could not terminate the call. The actual error r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmCloseCall</i> communicated with network control devices or other media-specific actors, as
     necessitated by its media, to terminate a connection between the local node and a remote node. If the
@@ -165,7 +152,7 @@ Indicates that the call manager could not terminate the call. The actual error r
     should use a virtual connection to the network control device that it established in its 
     <i>ProtocolBindAdapterEx</i> function. Stand-alone call managers communicate to such network devices by
     calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
     Miniport drivers with integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, they transmit the data directly across the network.
 
@@ -182,7 +169,7 @@ If
     perform any necessary network communication with its networking hardware, as appropriate to its media
     type, to terminate the call as a multipoint call. The call manager must also free the memory that it
     allocated earlier, in 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>, for its
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>, for its
     per-party state that is pointed to by 
     <i>CallMgrPartyContext</i> . Failure to properly release, deallocate, or otherwise deactivate those
     resources causes a memory leak.
@@ -190,33 +177,24 @@ If
 After the call has been terminated with the network, any close data has been sent, and any resources
     at 
     <i>CallMgrPartyContext</i> have been freed, the call manager must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>. This notifies NDIS
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>. This notifies NDIS
     and the underlying miniport driver, if any, to expect no further transfers on the given VC.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCmCloseCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCmCloseCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmCloseCall</i> function that is named "MyCmCloseCall", use the <b>PROTOCOL_CM_CLOSE_CALL</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_CLOSE_CALL MyCmCloseCall;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CM_CLOSE_CALL MyCmCloseCall;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmCloseCall(
     NDIS_HANDLE  CallMgrVcContext,
@@ -224,36 +202,25 @@ NDIS_STATUS
     PVOID  CloseData,
     UINT  Size
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CM_CLOSE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+The <b>PROTOCOL_CM_CLOSE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-
-
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>

@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlReadEx function"]
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 f1_keywords:
  - "ntifs/FsRtlMdlReadEx"
+ - "FsRtlMdlReadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlReadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,34 +55,34 @@ The <b>FsRtlMdlReadEx</b> routine performs a fast cached MDL read.  If the reque
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset within the cached file that holds the data.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the data to read from the cache.
 
 
-### -param LockKey [in]
-
+### -param LockKey 
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-### -param MdlChain [out]
-
+### -param MdlChain 
+[out]
 On output, a pointer to a linked list of memory descriptor lists (MDLs).
 
 
-### -param IoStatus [out]
-
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+### -param IoStatus 
+[out]
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ## -returns
@@ -120,9 +119,9 @@ The IRP for an the IRP based read could not be allocated.
 
 If fast I/O is available from the file system, the <b>FsRtlMdlReadEx</b> routine will bypass the usual IRP read mechanism and return a linked list of memory descriptor lists (MDL) that the caller can use to directly access the cached file data. This operation does not copy or buffer data and therefore is much faster than a normal read. If fast I/O is not enabled, <b>FsRtlMdlReadEx</b> will generate a synchronous IRP based MDL read and return the MDLs from the request.
 
-The pages described by the MDLs are locked in memory, but not mapped in system space. The caller can perform this mapping by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
+The pages described by the MDLs are locked in memory, but not mapped in system space. The caller can perform this mapping by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
 
-Similar to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>, the <b>FsRtlMdlReadEx</b> routine locks the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <b>CcMdlReadComplete</b> routine.
+Similar to <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>, the <b>FsRtlMdlReadEx</b> routine locks the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <b>CcMdlReadComplete</b> routine.
 
 
 
@@ -132,16 +131,15 @@ Similar to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.8
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
+<a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539163">CcMdlReadComplete</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlreadcomplete">CcMdlReadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
  
 
  
-

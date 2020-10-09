@@ -8,8 +8,6 @@ ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.date: 05/02/2018
 keywords: ["RILUICCSERVICEINFO structure"]
 ms.keywords: "*LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO"
-f1_keywords:
- - "rilapitypes/RILUICCSERVICEINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,40 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCSERVICEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
+f1_keywords:
+ - RILUICCSERVICEINFO
+ - rilapitypes/RILUICCSERVICEINFO
+ - LPRILUICCSERVICEINFO
+ - rilapitypes/LPRILUICCSERVICEINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCSERVICEINFO
 ---
 
-# RILUICCSERVICEINFO structure
+# RILUICCSERVICEINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-
 ### -field dwService
-
 
 ### -field dwState
 

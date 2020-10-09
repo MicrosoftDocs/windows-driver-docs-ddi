@@ -6,10 +6,8 @@ old-location: debugger\stack_src_info.htm
 tech.root: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
 ms.date: 05/03/2018
-keywords: ["_STACK_SRC_INFO structure"]
+keywords: ["STACK_SRC_INFO structure"]
 ms.keywords: "*PSTACK_SRC_INFO, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], _STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info"
-f1_keywords:
- - "dbgeng/STACK_SRC_INFO"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dbgeng.h
-api_name:
-- STACK_SRC_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
+f1_keywords:
+ - _STACK_SRC_INFO
+ - dbgeng/_STACK_SRC_INFO
+ - PSTACK_SRC_INFO
+ - dbgeng/PSTACK_SRC_INFO
+ - STACK_SRC_INFO
+ - dbgeng/STACK_SRC_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dbgeng.h
+api_name:
+ - STACK_SRC_INFO
 ---
 
 # _STACK_SRC_INFO structure
@@ -47,39 +50,29 @@ req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
 
 ## -description
 
-
-Defines stack source information. 
-
+Defines stack source information.
 
 ## -struct-fields
-
-
-
 
 ### -field ImagePath
 
 An image path.
 
-
 ### -field ModuleName
 
 A module name.
-
 
 ### -field Function
 
 A function.
 
-
 ### -field Displacement
 
-A displacement value. 
-
+A displacement value.
 
 ### -field Row
 
 A row number.
-
 
 ### -field Column
 

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::get_ClassGuid"]
 ms.keywords: ClassGuid property [Windows Device Testing Framework], ClassGuid property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],ClassGuid property, IWDTFDriverPackageAction2.ClassGuid, IWDTFDriverPackageAction2.get_ClassGuid, IWDTFDriverPackageAction2::ClassGuid, IWDTFDriverPackageAction2::get_ClassGuid, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassGuid, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassGuid, dtf.iwdtfdriverpackageaction2_classguid, get_ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassGuid
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.ClassGuid"
+ - "IWDTFDriverPackageAction2.ClassGuid"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.ClassGuid
 - IWDTFDriverPackageAction2.get_ClassGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -62,8 +61,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2">IWDTFDriverPackageAction2</a>
  
 
  
-

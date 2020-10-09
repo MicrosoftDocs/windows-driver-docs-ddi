@@ -8,8 +8,6 @@ ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.date: 06/30/2020
 keywords: ["ZwCreateEvent function"]
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
-f1_keywords:
- - "ntifs/ZwCreateEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwCreateEvent
-- NtCreateEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwCreateEvent
+ - ntifs/ZwCreateEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwCreateEvent
+ - NtCreateEvent
 ---
 
 # ZwCreateEvent function
+
 
 ## -description
 
@@ -51,13 +51,15 @@ The **ZwCreateEvent** routine creates an event object, sets the initial state of
 
 ## -parameters
 
-### -param EventHandle [out]
+### -param EventHandle 
 
+[out]
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
-The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
+[in]
+The [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 
 | Value | Desired access |
 | ----- | -------------- |
@@ -65,16 +67,19 @@ The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel
 | EVENT_MODIFY_STATE | Modify the state of the event object. |
 | EVENT_ALL_ACCESS   | All possible access rights to the event object. |
 
-### -param ObjectAttributes [in, optional]
+### -param ObjectAttributes 
 
-A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
+[in, optional]
+A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](./ns-ntifs-_security_descriptor.md), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
 
-### -param EventType [in]
+### -param EventType 
 
+[in]
 The type of the event, which can be **SynchronizationEvent** or a **NotificationEvent**. These values belong to the **EVENT_TYPE** enumeration, which is defined in the *ntdef.h* header file.
 
-### -param InitialState [in]
+### -param InitialState 
 
+[in]
 The initial state of the event object. Set to **TRUE** to initialize the event object to the Signaled state. Set to **FALSE** to initialize the event object to the not-Signaled state.
 
 ## -returns
@@ -86,7 +91,7 @@ The initial state of the event object. Set to **TRUE** to initialize the event o
 | **STATUS_INSUFFICIENT_RESOURCES** | Resources required by this function could not be allocated. |
 | **STATUS_INVALID_PARAMETER**      | The supplied *ObjectAttributes* structure contained an invalid parameter value. |
 | **STATUS_INVALID_PARAMETER_4**    | The specified *EventType* parameter was invalid. |
-| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure that was invalid. |
+| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that was invalid. |
 | **STATUS_OBJECT_PATH_SYNTAX_BAD** | The *ObjectAttributes* parameter did not contain a **RootDirectory** member, but the **ObjectName** member in the **OBJECT_ATTRIBUTES** structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. |
 | **STATUS_PRIVILEGE_NOT_HELD**     | The caller did not have the required privilege to create a handle with the access specified in the *DesiredAccess* parameter. |
 
@@ -109,9 +114,9 @@ To synchronize on a notification event:
 
 1. Create the notification event with **ZwCreateEvent** with the *EventType* parameter set to **NotificationEvent**.
 
-2. Wait for the event to be signaled by calling [**ZwWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwwaitforsingleobject) with the *EventHandle* returned by **ZwCreateEvent**. More than one thread of execution can wait for a given notification event to be signaled. To poll instead of stall, specify a *Timeout* of zero to **ZwWaitForSingleObject**.
+2. Wait for the event to be signaled by calling [**ZwWaitForSingleObject**](./nf-ntifs-zwwaitforsingleobject.md) with the *EventHandle* returned by **ZwCreateEvent**. More than one thread of execution can wait for a given notification event to be signaled. To poll instead of stall, specify a *Timeout* of zero to **ZwWaitForSingleObject**.
 
-3. Close the handle to the notification event with [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) when access to the event is no longer needed.
+3. Close the handle to the notification event with [**ZwClose**](./nf-ntifs-ntclose.md) when access to the event is no longer needed.
 
 The **ZwCreateEvent** function is called after the **InitializeObjectAttributes** macro is used to set attributes in the **OBJECT_ATTRIBUTES** structure for the object.
 
@@ -121,38 +126,38 @@ There are two alternate ways to specify the name of the object passed to **ZwCre
 
 - As pathname relative to the directory represented by the handle in the **RootDirectory** member of the input *ObjectAttributes*.
 
-To release the event, a driver calls [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) with the event handle.
+To release the event, a driver calls [**ZwClose**](./nf-ntifs-ntclose.md) with the event handle.
 
-For more information about events, see [**Event Objects**](https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects).
+For more information about events, see [**Event Objects**](/windows-hardware/drivers/kernel/event-objects).
 
 > [!NOTE]
 >
 > If the call to the **ZwCreateEvent** routine occurs in user mode, you should use the name "**NtCreateEvent**" instead of "**ZwCreateEvent**".
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[**IoCreateNotificationEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent)
+[**IoCreateNotificationEvent**](../wdm/nf-wdm-iocreatenotificationevent.md)
 
-[**IoCreateSynchronizationEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesynchronizationevent)
+[**IoCreateSynchronizationEvent**](../wdm/nf-wdm-iocreatesynchronizationevent.md)
 
-[**KeClearEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent)
+[**KeClearEvent**](../wdm/nf-wdm-keclearevent.md)
 
-[**KeResetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
+[**KeResetEvent**](../wdm/nf-wdm-keresetevent.md)
 
-[**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent)
+[**KeSetEvent**](../wdm/nf-wdm-kesetevent.md)
 
-[**KeWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
 
-[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[**ZwClose**](./nf-ntifs-ntclose.md)
 
-[**ZwSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetevent)
+[**ZwSetEvent**](./nf-ntifs-zwsetevent.md)
 
-[**ZwWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwwaitforsingleobject)
+[**ZwWaitForSingleObject**](./nf-ntifs-zwwaitforsingleobject.md)

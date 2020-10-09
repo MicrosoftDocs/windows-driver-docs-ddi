@@ -8,8 +8,6 @@ ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.date: 05/10/2018
 keywords: ["IddCxAdapterUpdateMaxDisplayPipelineRate function"]
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
-f1_keywords:
- - "iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -24,22 +22,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: IddCxStub.lib 
-req.dll: IddCx.dll 
+req.lib: IddCxStub.lib
+req.dll: IddCx.dll
 req.irql: _Must_inspect_result_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- IddCx.dll
-api_name:
-- IddCxAdapterUpdateMaxDisplayPipelineRate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IddCxAdapterUpdateMaxDisplayPipelineRate
+ - iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - IddCx.dll
+api_name:
+ - IddCxAdapterUpdateMaxDisplayPipelineRate
 ---
 
 # IddCxAdapterUpdateMaxDisplayPipelineRate function
@@ -47,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
-
-
                 An OS callback function the driver calls to report that the max display pipeline rate has changed
-
 
 ## -parameters
 
+### -param hOsAdapterContext 
 
-
-
-### -param hOsAdapterContext [in]
-
+[in]
 This is the OS context handle for this adapter returned by the <b>IddCxStart</b> call
 
+### -param pInArgs 
 
-### -param pInArgs [in]
-
+[in]
 Input arguments to the function
-
 
 ## -returns
 
-
-
-
-(NTSTATUS) The method returns S_OK if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-                    
-
-
-
+(NTSTATUS) The method returns S_OK if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.

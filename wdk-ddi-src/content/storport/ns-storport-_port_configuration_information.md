@@ -5,10 +5,8 @@ description: PORT_CONFIGURATION_INFORMATION contains configuration information f
 tech.root: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.date: 04/03/2020
-keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
+keywords: ["PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]"
-f1_keywords:
- - "storport/PORT_CONFIGURATION_INFORMATION"
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
@@ -26,22 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- srb.h
-api_name:
-- PORT_CONFIGURATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
+f1_keywords:
+ - _PORT_CONFIGURATION_INFORMATION
+ - storport/_PORT_CONFIGURATION_INFORMATION
+ - PPORT_CONFIGURATION_INFORMATION
+ - storport/PPORT_CONFIGURATION_INFORMATION
+ - PORT_CONFIGURATION_INFORMATION
+ - storport/PORT_CONFIGURATION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - srb.h
+api_name:
+ - PORT_CONFIGURATION_INFORMATION
 ---
 
-# _PORT_CONFIGURATION_INFORMATION structure
+# _PORT_CONFIGURATION_INFORMATION structure (storport.h)
 
 ## -description
 
@@ -59,7 +62,7 @@ System-assigned number of the I/O bus to which the HBA is connected. Miniport dr
 
 ### -field AdapterInterfaceType
 
-The I/O bus interface. Storport initializes this member to the value specified by the miniport driver in the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure. Miniport drivers must not modify this member.
+The I/O bus interface. Storport initializes this member to the value specified by the miniport driver in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure. Miniport drivers must not modify this member.
 
 ### -field BusInterruptLevel
 
@@ -75,7 +78,7 @@ Specifies whether the HBA uses **LevelSensitive** or **Latched** (sometimes call
 
 ### -field MaximumTransferLength
 
-Maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size. If its HBA has more limited transfer support, a miniport driver must reset this member according to the HBA's transfer capacity. If a miniport driver's [*HwStorInterrupt*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt) routine cannot disable interrupts on the HBA, this member can be adjusted during driver development to ensure that time spent in that miniport driver's ISR does not degrade overall system performance.
+Maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size. If its HBA has more limited transfer support, a miniport driver must reset this member according to the HBA's transfer capacity. If a miniport driver's [*HwStorInterrupt*](./nc-storport-hw_interrupt.md) routine cannot disable interrupts on the HBA, this member can be adjusted during driver development to ensure that time spent in that miniport driver's ISR does not degrade overall system performance.
 
 ### -field NumberOfPhysicalBreaks
 
@@ -120,7 +123,7 @@ Specifies the number of **AccessRanges** elements in the array.
 
 ### -field AccessRanges
 
-Pointer to an array of [**ACCESS_RANGE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_access_range)-type elements. Storport allocates memory for the access ranges and initializes this member. Miniport drivers must not modify this member.
+Pointer to an array of [**ACCESS_RANGE**](./ns-storport-_access_range.md)-type elements. Storport allocates memory for the access ranges and initializes this member. Miniport drivers must not modify this member.
 
 ### -field MiniportDumpData
 
@@ -262,19 +265,19 @@ Reserved for use by Storport. Miniport drivers must not modify this member.
 
 Size, in bytes, required by the miniport driver for its per-adapter device extension. A miniport driver uses its device extension as storage for driver-determined HBA information. The operating system-specific port driver initializes each device extension one time, when it first allocates the extension, and fills it with zeros. It passes a pointer to the HBA-specific device extension in every call to a miniport driver. The given size does not include any miniport driver-requested per-logical-unit storage. The size of per-logical-unit storage is specified via the **SpecificLuExtensionSize** field, described later in this topic.
 
-Storport does not follow SCSIPort's model (which re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to [*HwScsiFindAdapter*](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300%28v%3dvs.85%29) receive a zeroed-out device extension). Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to [*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter) for a given adapter receives a zeroed-out device extension. Subsequent calls to *HwStorFindAdapter* and other miniport functions receive the device extension as last modified by the miniport driver. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize its initialization procedure.
+Storport does not follow SCSIPort's model (which re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to [*HwScsiFindAdapter*](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)) receive a zeroed-out device extension). Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to [*HwStorFindAdapter*](./nc-storport-hw_find_adapter.md) for a given adapter receives a zeroed-out device extension. Subsequent calls to *HwStorFindAdapter* and other miniport functions receive the device extension as last modified by the miniport driver. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize its initialization procedure.
 
 ### -field SpecificLuExtensionSize
 
-Size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure sent in the [**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize) routine.
+Size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure sent in the [**StorPortInitialize**](nf-storport-storportinitialize.md) routine.
 
-Set this member to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as [**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension).
+Set this member to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as [**StorPortGetUncachedExtension**](nf-storport-storportgetuncachedextension.md).
 
 ### -field SrbExtensionSize
 
-Size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure sent in the [**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize) routine.
+Size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure sent in the [**StorPortInitialize**](./nf-storport-storportinitialize.md) routine.
 
-Set this member before calling [**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension) to change the size of per-request storage based on **NumberOfPhysicalBreaks**. Set this member to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as **ScsiPortGetUncachedExtension**.
+Set this member before calling [**StorPortGetUncachedExtension**](./nf-storport-storportgetuncachedextension.md) to change the size of per-request storage based on **NumberOfPhysicalBreaks**. Set this member to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as **ScsiPortGetUncachedExtension**.
 
 ### -field Dma64BitAddresses
 
@@ -314,15 +317,15 @@ The I/O synchronization model that the miniport driver supports. Possible values
 
 ### -field HwMSInterruptRoutine
 
-Pointer to the miniport driver's [*HwMSInterruptRoutine*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_message_signaled_interrupt_routine) routine, which is required for any miniport driver of an HBA that generates message signaled interrupts (MSIs). A miniport driver sets this member to **NULL** if the HBA does not generate MSIs.
+Pointer to the miniport driver's [*HwMSInterruptRoutine*](./nc-storport-hw_message_signaled_interrupt_routine.md) routine, which is required for any miniport driver of an HBA that generates message signaled interrupts (MSIs). A miniport driver sets this member to **NULL** if the HBA does not generate MSIs.
 
 ### -field InterruptSynchronizationMode
 
-An [**INTERRUPT_SYNCHRONIZATION_MODE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_interrupt_synchronization_mode) value that specifies the interrupt synchronization mode. The interrupt synchronization mode determines how the port driver synchronizes message signaled interrupts.
+An [**INTERRUPT_SYNCHRONIZATION_MODE**](./ne-storport-_interrupt_synchronization_mode.md) value that specifies the interrupt synchronization mode. The interrupt synchronization mode determines how the port driver synchronizes message signaled interrupts.
 
 ### -field DumpRegion
 
-A [**MEMORY_REGION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_memory_region) structure that describes a region of physically contiguous memory that miniport drivers can use during a crash dump or hibernation.
+A [**MEMORY_REGION**](./ns-storport-_memory_region.md) structure that describes a region of physically contiguous memory that miniport drivers can use during a crash dump or hibernation.
 
 ### -field RequestedDumpBufferSize
 
@@ -367,7 +370,7 @@ Maximum number of I/O requests supported on a LUN. Storport will set this to a d
 
 ### -field InitialLunQueueDepth
 
-The initial LUN I/O queue depth. Storport set this to a default value of 20 for physical miniports and to 250 for virtual miniports. This member adjusts the initial queue depth for all LUNs on the adapter. The queue depth for an individual LUN is set by calling [**StorPortSetDeviceQueueDepth**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetdevicequeuedepth). This member is typically set to the same value as **MaxIOsPerLun**.
+The initial LUN I/O queue depth. Storport set this to a default value of 20 for physical miniports and to 250 for virtual miniports. This member adjusts the initial queue depth for all LUNs on the adapter. The queue depth for an individual LUN is set by calling [**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md). This member is typically set to the same value as **MaxIOsPerLun**.
 
 ### -field BusResetHoldTime
 
@@ -389,26 +392,26 @@ Storport features requested for the adapter. A miniport driver can set this memb
 
 ## -remarks
 
-The Storport driver allocates and initializes this structure, supplies as much HBA-specific configuration information as possible, and passes the structure to the miniport driver's [*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter) routine. Storport does not support non-PnP devices, so *HwStorFindAdapter* does not search for the adapter. Its principal function is to initialize **PORT_CONFIGURATION_INFORMATION**.
+The Storport driver allocates and initializes this structure, supplies as much HBA-specific configuration information as possible, and passes the structure to the miniport driver's [*HwStorFindAdapter*](./nc-storport-hw_find_adapter.md) routine. Storport does not support non-PnP devices, so *HwStorFindAdapter* does not search for the adapter. Its principal function is to initialize **PORT_CONFIGURATION_INFORMATION**.
 
 ## -see-also
 
-[**ACCESS_RANGE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_access_range)
+[**ACCESS_RANGE**](./ns-storport-_access_range.md)
 
-[**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1)
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
-[*HwMSInterruptRoutine*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_message_signaled_interrupt_routine)
+[*HwMSInterruptRoutine*](./nc-storport-hw_message_signaled_interrupt_routine.md)
 
-[*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter)
+[*HwStorFindAdapter*](./nc-storport-hw_find_adapter.md)
 
-[*HwStorInterrupt*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt)
+[*HwStorInterrupt*](./nc-storport-hw_interrupt.md)
 
-[**INTERRUPT_SYNCHRONIZATION_MODE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_interrupt_synchronization_mode)
+[**INTERRUPT_SYNCHRONIZATION_MODE**](./ne-storport-_interrupt_synchronization_mode.md)
 
-[**MEMORY_REGION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_memory_region)
+[**MEMORY_REGION**](./ns-storport-_memory_region.md)
 
-[**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension)
+[**StorPortGetUncachedExtension**](./nf-storport-storportgetuncachedextension.md)
 
-[**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize)
+[**StorPortInitialize**](./nf-storport-storportinitialize.md)
 
-[**StorPortSetDeviceQueueDepth**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetdevicequeuedepth)
+[**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md)

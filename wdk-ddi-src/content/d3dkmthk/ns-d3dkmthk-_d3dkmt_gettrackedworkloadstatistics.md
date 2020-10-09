@@ -4,9 +4,10 @@ title: _D3DKMT_GETTRACKEDWORKLOADSTATISTICS (d3dkmthk.h)
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: 7701f331-363d-4080-bdaa-5e8b149aed4b
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_GETTRACKEDWORKLOADSTATISTICS structure"]
+keywords: ["D3DKMT_GETTRACKEDWORKLOADSTATISTICS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETTRACKEDWORKLOADSTATISTICS"
+ - "_D3DKMT_GETTRACKEDWORKLOADSTATISTICS"
 ms.keywords: _D3DKMT_GETTRACKEDWORKLOADSTATISTICS, D3DKMT_GETTRACKEDWORKLOADSTATISTICS, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_GETTRACKEDWORKLOADSTATISTICS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

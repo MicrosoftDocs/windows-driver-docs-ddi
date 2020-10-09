@@ -8,8 +8,6 @@ ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
 ms.date: 05/02/2018
 keywords: ["RIL_Initialize function"]
 ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
-f1_keywords:
- - "rilapi/RIL_Initialize"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_Initialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_Initialize
+ - rilapi/RIL_Initialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_Initialize
 ---
 
 # RIL_Initialize function
@@ -47,46 +46,27 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param dwIndex
-
 
 ### -param pfnResult
 
-
 ### -param pfnNotify
-
 
 ### -param lpdwNotifications
 
-
 ### -param dwNotificationCount
-
 
 ### -param lpParam
 
-
 ### -param pwszClientName
-
 
 ### -param lphRil
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

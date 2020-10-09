@@ -8,10 +8,11 @@ ms.keywords: sensorsstructures.h
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: sensors
 ms.custom: RS5
+f1_keywords:
+ - sensorsstructures
+ - sensorsstructures/sensorsstructures
 ---
 
 # Sensorsstructures.h header
@@ -19,7 +20,7 @@ ms.custom: RS5
 
 ## -description
 
-
 This header is used by sensors. For more information, see:
 
 - [Sensors](../_sensors/index.md)
+

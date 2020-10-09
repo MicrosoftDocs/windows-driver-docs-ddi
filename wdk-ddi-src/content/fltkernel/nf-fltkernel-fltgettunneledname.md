@@ -8,8 +8,6 @@ ms.assetid: 760ee574-5ca5-4db1-8b47-009a12398076
 ms.date: 06/27/2019
 keywords: ["FltGetTunneledName function"]
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
-f1_keywords:
- - "fltkernel/FltGetTunneledName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,39 +25,44 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetTunneledName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetTunneledName
+ - fltkernel/FltGetTunneledName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetTunneledName
 ---
 
 # FltGetTunneledName function
 
+
 ## -description
 
-The **FltGetTunneledName** routine retrieves the tunneled name for a file, given the normalized name returned for the file by a previous call to [**FltGetFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation), [**FltGetFileNameInformationUnsafe**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe), or [**FltGetDestinationFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation).
+The **FltGetTunneledName** routine retrieves the tunneled name for a file, given the normalized name returned for the file by a previous call to [**FltGetFileNameInformation**](./nf-fltkernel-fltgetfilenameinformation.md), [**FltGetFileNameInformationUnsafe**](./nf-fltkernel-fltgetfilenameinformationunsafe.md), or [**FltGetDestinationFileNameInformation**](./nf-fltkernel-fltgetdestinationfilenameinformation.md).
 
 ## -parameters
 
-### -param CallbackData [in]
+### -param CallbackData 
 
-Pointer to the callback data structure for the I/O operation ([FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)). This parameter is required and cannot be **NULL**.
+[in]
+Pointer to the callback data structure for the I/O operation ([FLT_CALLBACK_DATA](./ns-fltkernel-_flt_callback_data.md)). This parameter is required and cannot be **NULL**.
 
-### -param FileNameInformation [in]
+### -param FileNameInformation 
 
-Pointer to an [FLT_FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information) structure containing normalized name information returned by a previous call to [**FltGetFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation), [**FltGetFileNameInformationUnsafe**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe), or [**FltGetDestinationFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation) for the file.
+[in]
+Pointer to an [FLT_FILE_NAME_INFORMATION](./ns-fltkernel-_flt_file_name_information.md) structure containing normalized name information returned by a previous call to [**FltGetFileNameInformation**](./nf-fltkernel-fltgetfilenameinformation.md), [**FltGetFileNameInformationUnsafe**](./nf-fltkernel-fltgetfilenameinformationunsafe.md), or [**FltGetDestinationFileNameInformation**](./nf-fltkernel-fltgetdestinationfilenameinformation.md) for the file.
 
-### -param RetTunneledFileNameInformation [out]
+### -param RetTunneledFileNameInformation 
 
+[out]
 Pointer to a caller-allocated variable that receives the address of a newly allocated structure containing the tunneled file name. If no tunneled name is found, this variable receives **NULL**. This parameter is required and cannot be **NULL** on input.
 
 ## -returns
@@ -72,13 +75,13 @@ Pointer to a caller-allocated variable that receives the address of a newly allo
 
 ## -remarks
 
-File systems, such as NTFS and FAT, use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. File name tunneling can cause the final component in normalized file name information returned by a preoperation call to [**FltGetFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation), [**FltGetFileNameInformationUnsafe**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe), or [**FltGetDestinationFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation) to be invalidated.
+File systems, such as NTFS and FAT, use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. File name tunneling can cause the final component in normalized file name information returned by a preoperation call to [**FltGetFileNameInformation**](./nf-fltkernel-fltgetfilenameinformation.md), [**FltGetFileNameInformationUnsafe**](./nf-fltkernel-fltgetfilenameinformationunsafe.md), or [**FltGetDestinationFileNameInformation**](./nf-fltkernel-fltgetdestinationfilenameinformation.md) to be invalidated.
 
-If a minifilter driver retrieves normalized file name information in the preoperation callback routine ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)) for a create (IRP_MJ_CREATE), hard-link (IRP_MJ_SET_INFORMATION with [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) set to *FileRenameInformation*), or rename operation (IRP_MJ_SET_INFORMATION with FILE_INFORMATION_CLASS set to *FileLinkInformation*), it must call **FltGetTunneledName** from its postoperation callback routine ([PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)) to retrieve the correct file name information for the file.
+If a minifilter driver retrieves normalized file name information in the preoperation callback routine ([PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)) for a create (IRP_MJ_CREATE), hard-link (IRP_MJ_SET_INFORMATION with [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) set to *FileRenameInformation*), or rename operation (IRP_MJ_SET_INFORMATION with FILE_INFORMATION_CLASS set to *FileLinkInformation*), it must call **FltGetTunneledName** from its postoperation callback routine ([PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)) to retrieve the correct file name information for the file.
 
 Only normalized file name information is affected by tunneling. The Filter Manager cannot ensure that the final component is normalized until after the create, hard-link, or rename operation has actually occurred, because tunneling can cause a short name to be changed to a long name. Thus a minifilter driver must call **FltGetTunneledName** from its postoperation callback routine to determine whether the normalized file name information retrieved in the preoperation callback routine is valid.
 
-For more information about normalized file name information, see [FLT_FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information).
+For more information about normalized file name information, see [FLT_FILE_NAME_INFORMATION](./ns-fltkernel-_flt_file_name_information.md).
 
 Minifilter drivers that only retrieve short or opened file name information should not call **FltGetTunneledName**.
 
@@ -96,7 +99,7 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 If no tunneled name is found for the file, the *RetTunneledFileNameInformation* parameter receives **NULL**.
 
-After a successful call to **FltGetTunneledName**, the caller is responsible for releasing the *RetTunneledFileNameInformation* and *FileNameInformation* pointers when they are no longer needed by calling [**FltReleaseFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation).
+After a successful call to **FltGetTunneledName**, the caller is responsible for releasing the *RetTunneledFileNameInformation* and *FileNameInformation* pointers when they are no longer needed by calling [**FltReleaseFileNameInformation**](./nf-fltkernel-fltreleasefilenameinformation.md).
 
 **FltGetTunneledName** should only be called from a minifilter driver's postoperation callback routine for IRP_MJ_CREATE or IRP_MJ_SET_INFORMATION. Calling **FltGetTunneledName** from a postoperation callback routine for any other type of I/O operation, or calling it from a preoperation callback routine, is a programming error.
 
@@ -106,22 +109,22 @@ File tunneling enables compatibility with programs that rely on file systems to 
 
 ## -see-also
 
-[FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)
+[FLT_CALLBACK_DATA](./ns-fltkernel-_flt_callback_data.md)
 
-[FLT_FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information)
+[FLT_FILE_NAME_INFORMATION](./ns-fltkernel-_flt_file_name_information.md)
 
-[**FltGetDestinationFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation)
+[**FltGetDestinationFileNameInformation**](./nf-fltkernel-fltgetdestinationfilenameinformation.md)
 
-[**FltGetFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation)
+[**FltGetFileNameInformation**](./nf-fltkernel-fltgetfilenameinformation.md)
 
-[**FltGetFileNameInformationUnsafe**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe)
+[**FltGetFileNameInformationUnsafe**](./nf-fltkernel-fltgetfilenameinformationunsafe.md)
 
-[**FltParseFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation)
+[**FltParseFileNameInformation**](./nf-fltkernel-fltparsefilenameinformation.md)
 
-[**FltReferenceFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreferencefilenameinformation)
+[**FltReferenceFileNameInformation**](./nf-fltkernel-fltreferencefilenameinformation.md)
 
-[**FltReleaseFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation)
+[**FltReleaseFileNameInformation**](./nf-fltkernel-fltreleasefilenameinformation.md)
 
-[PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)
+[PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)
 
-[PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)
+[PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)

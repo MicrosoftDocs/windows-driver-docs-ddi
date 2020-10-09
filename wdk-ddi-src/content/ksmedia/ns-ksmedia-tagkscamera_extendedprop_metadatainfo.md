@@ -8,8 +8,6 @@ ms.assetid: 6AE59150-8A10-43B6-B910-AEBEDC2FD272
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, tagKSCAMERA_EXTENDEDPROP_METADATAINFO"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_METADATAINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_METADATAINFO, *PKSCAMERA_EXTENDEDPROP_METADATAINFO
+f1_keywords:
+ - tagKSCAMERA_EXTENDEDPROP_METADATAINFO
+ - ksmedia/tagKSCAMERA_EXTENDEDPROP_METADATAINFO
+ - PKSCAMERA_EXTENDEDPROP_METADATAINFO
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO
+ - KSCAMERA_EXTENDEDPROP_METADATAINFO
+ - ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_METADATAINFO
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure
@@ -47,14 +50,9 @@ req.typenames: KSCAMERA_EXTENDEDPROP_METADATAINFO, *PKSCAMERA_EXTENDEDPROP_METAD
 
 ## -description
 
-
 This structure represents the metadata information for the extended property control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BufferAlignment
 

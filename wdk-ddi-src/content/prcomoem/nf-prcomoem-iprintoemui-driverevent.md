@@ -8,8 +8,6 @@ ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::DriverEvent"]
 ms.keywords: DriverEvent, DriverEvent method [Print Devices], DriverEvent method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DriverEvent method, IPrintOemUI.DriverEvent, IPrintOemUI::DriverEvent, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI.DriverEvent"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI.DriverEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI::DriverEvent
+ - prcomoem/IPrintOemUI::DriverEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI.DriverEvent
 ---
 
 # IPrintOemUI::DriverEvent
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The printer driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
-
+The printer driver's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
 
 ## -parameters
-
-
-
 
 ### -param dwDriverEvent
 
@@ -86,8 +80,6 @@ The driver has just been installed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwLevel
 
@@ -133,20 +125,15 @@ DRIVER_INFO_3
 
 The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
 
-
 ### -param pDriverInfo
 
 Caller-supplied pointer to a structure whose type is identified by the <i>dwLevel</i> parameter.
-
 
 ### -param lParam
 
 Caller-supplied flags. See the following Remarks section.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -189,37 +176,21 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method performs the same types of operations as the <b>DrvDriverEvent</b> function that is exported by user-mode printer interface DLLs. For information about driver events and how they should be processed, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a> function.
+A user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method performs the same types of operations as the <b>DrvDriverEvent</b> function that is exported by user-mode printer interface DLLs. For information about driver events and how they should be processed, see the description of the <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a> function.
 
 If you provide a user interface plug-in, the printer driver's <b>DrvDriverEvent</b> function calls the <code>IPrintOemUI::DriverEvent</code> method. The <b>DrvDriverEvent</b> function performs its own processing for the specified event, and then calls the <code>IPrintOemUI::DriverEvent</code> method to handle additional processing of the event.
 
 If <code>IPrintOemUI::DriverEvent</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-For more information about creating and installing user interface plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
-
-
+For more information about creating and installing user interface plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>

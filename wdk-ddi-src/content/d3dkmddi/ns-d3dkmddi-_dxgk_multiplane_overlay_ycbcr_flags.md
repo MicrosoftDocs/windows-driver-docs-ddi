@@ -5,10 +5,8 @@ description: Identifies YUV range and conversion info that describes a multiplan
 old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.date: 05/10/2018
-keywords: ["_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]
+keywords: ["DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags
-f1_keywords:
- - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+f1_keywords:
+ - _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ - d3dkmddi/_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ - DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ - d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 
 ## -description
 
-
 Identifies YUV range and conversion info that describes a multiplane overlay.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NominalRange
 
@@ -62,13 +58,11 @@ If set, YUV values range from 16 to 235, inclusive, instead of the default range
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Bt709
 
 If set, YUV values should be converted using the BT.709 standard, instead of the default BT.601 conversion.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field xvYCC
 
@@ -76,13 +70,11 @@ If set, YUV values contain xvYCC data, instead of conventional YCbCr data.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 

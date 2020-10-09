@@ -6,10 +6,8 @@ old-location: ieee\irb_req_isoch_allocate_resources_w2k.htm
 tech.root: IEEE
 ms.assetid: 1192D655-7900-40B2-9D5F-480ACDB94624
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure"]
+keywords: ["IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IEEE.irb_req_isoch_allocate_resources_w2k, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+f1_keywords:
+ - _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+ - 1394/_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+ - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+ - 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 ---
 
 # _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure
@@ -47,14 +48,9 @@ req.typenames: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fulSpeed
 
@@ -98,7 +94,7 @@ SPEED_FLAGS_400
 </table>
  
 
-<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">New Flags for Speed and Payload Size</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
+<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">New Flags for Speed and Payload Size</a> and <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
 <div> </div>
 
 ### -field fulFlags
@@ -181,35 +177,27 @@ The driver owning this resource transfers frames of variable size.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nChannel
 
 Specifies the isochronous channel for all transactions involving the resource handle allocated by this request.
 
-
 ### -field nMaxBytesPerFrame
 
 Specifies the expected maximum isochronous frame size while transmitting and receiving on the channel.
 
-
 ### -field nNumberOfBuffers
 
-Specifies one more than the maximum expected number of buffers that are attached to the resource handle at any given time. 
-
+Specifies one more than the maximum expected number of buffers that are attached to the resource handle at any given time.
 
 ### -field nMaxBufferSize
 
 Specifies the maximum size of the buffers that are attached to the resource handle.
 
-
 ### -field nQuadletsToStrip
 
 Specifies the number of quadlets to strip from the beginning of every packet in an incoming isochronous stream. This parameter is ignored unless the device driver sets the  RESOURCE_STRIP_ADDITIONAL_QUADLETS flag in <b>u.IsochAllocateResources.fulFlags</b>.
 
-
 ### -field hResource
 
 Specifies a handle to the resource.
-

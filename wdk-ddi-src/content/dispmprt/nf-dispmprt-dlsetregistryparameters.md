@@ -1,48 +1,47 @@
 ---
 UID: NF:dispmprt.DlSetRegistryParameters
 title: DlSetRegistryParameters function
-author: windows-driver-content
 description: Writes information under the adapter key in the registry.
 tech.root: display
 ms.assetid: ab2d727f-c057-4a8d-9ff6-572a9f81f50e
-ms.author: windowsdriverdev
-ms.date: 04/04/2019 
+ms.date: 04/04/2019
 keywords: ["DlSetRegistryParameters function"]
-f1_keywords:
- - "dispmprt/DlSetRegistryParameters"
 ms.keywords: DlSetRegistryParameters
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Displib.lib
-- Displib.dll
-api_name: 
-- DlSetRegistryParameters
-product: 
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - DlSetRegistryParameters
+ - dispmprt/DlSetRegistryParameters
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Displib.lib
+ - Displib.dll
+api_name:
+ - DlSetRegistryParameters
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DlSetRegistryParameters function
@@ -70,7 +69,6 @@ Pointer to a buffer containing the values to be written for the *ValueName* entr
 
 Specifies the size, in bytes, of the data to be written to the registry.
 
-
 ## -returns
 
 This function returns VP_STATUS.
@@ -78,3 +76,4 @@ This function returns VP_STATUS.
 ## -remarks
 
 ## -see-also
+

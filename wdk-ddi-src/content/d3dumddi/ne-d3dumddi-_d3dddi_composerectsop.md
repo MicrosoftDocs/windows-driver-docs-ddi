@@ -4,7 +4,7 @@ title: _D3DDDI_COMPOSERECTSOP (d3dumddi.h)
 description: Describes the ways in which to compose rectangle areas.
 ms.assetid: 8eed3d12-86ec-4184-8087-eb5490096437
 ms.date: 10/19/2018
-keywords: ["_D3DDDI_COMPOSERECTSOP enumeration"]
+keywords: ["D3DDDI_COMPOSERECTSOP enumeration"]
 ms.keywords: _D3DDDI_COMPOSERECTSOP, D3DDDI_COMPOSERECTSOP,
 req.header: d3dumddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDI_COMPOSERECTSOP"
+ - _D3DDDI_COMPOSERECTSOP
+ - d3dumddi/_D3DDDI_COMPOSERECTSOP
+ - D3DDDI_COMPOSERECTSOP
+ - d3dumddi/D3DDDI_COMPOSERECTSOP
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDI_COMPOSERECTSOP enumeration
+
 
 ## -description
 

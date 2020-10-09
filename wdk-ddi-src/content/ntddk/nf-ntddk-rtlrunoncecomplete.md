@@ -8,8 +8,6 @@ ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
 ms.date: 04/30/2018
 keywords: ["RtlRunOnceComplete function"]
 ms.keywords: RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, kernel.rtlrunoncecomplete, ntddk/RtlRunOnceComplete
-f1_keywords:
- - "ntddk/RtlRunOnceComplete"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlRunOnceComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRunOnceComplete
+ - ntddk/RtlRunOnceComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlRunOnceComplete
 ---
 
 # RtlRunOnceComplete function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlRunOnceComplete</b> routine completes the one-time initialization began by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a>.
-
+The <b>RtlRunOnceComplete</b> routine completes the one-time initialization began by <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a>.
 
 ## -parameters
 
+### -param RunOnce 
 
+[in, out]
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
+### -param Flags 
 
-### -param RunOnce [in, out]
-
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
-
-
-### -param Flags [in]
-
+[in]
 Drivers can optionally specify one or more of the following flags:
 
 
@@ -77,17 +72,14 @@ Operate in asynchronous mode. This mode enables multiple completion attempts to 
 
 #### RTL_RUN_ONCE_INIT_FAILED
 
-The initialization attempt failed. 
+The initialization attempt failed.
 
+### -param Context 
 
-### -param Context [in, optional]
-
-Specifies the initialized data. 
-
+[in, optional]
+Specifies the initialized data.
 
 ## -returns
-
-
 
 <b>RtlRunOnceComplete</b> returns one of the following NTSTATUS values:
 
@@ -119,45 +111,29 @@ The operation could not be completed. If the caller specified RTL_RUN_ONCE_ASYNC
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If <b>RtlRunOnceComplete</b> returns STATUS_SUCCESS, any subsequent call to <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a> for the same <a href="/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> structure supplies <i>Context</i> as the initialized data.
 
-
-If <b>RtlRunOnceComplete</b> returns STATUS_SUCCESS, any subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a> for the same <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> structure supplies <i>Context</i> as the initialized data.
-
-If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>RtlRunOnceComplete</b> returns any value other than STATUS_SUCCESS, the caller must clean up any initialization that it attempted. 
-
-
-
+If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>RtlRunOnceComplete</b> returns any value other than STATUS_SUCCESS, the caller must clean up any initialization that it attempted.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize">RtlRunOnceBeginInitialize</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceinitialize">RtlRunOnceInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceinitialize">RtlRunOnceInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a>

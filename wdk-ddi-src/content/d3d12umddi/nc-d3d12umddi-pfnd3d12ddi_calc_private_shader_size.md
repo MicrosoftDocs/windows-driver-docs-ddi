@@ -27,7 +27,8 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE"
+ - PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE
+ - d3d12umddi/PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE
 topic_type:
  - apiref
 api_type:
@@ -41,6 +42,7 @@ product:
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE callback function
+
 
 ## -description
 

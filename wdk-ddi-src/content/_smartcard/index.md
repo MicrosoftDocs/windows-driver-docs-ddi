@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Smartcard
@@ -19,5 +17,3 @@ product:
 Overview of the Smartcard technology.
 
 The Smartcard technology is not associated with any headers.
-
-

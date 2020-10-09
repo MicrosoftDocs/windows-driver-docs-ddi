@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITTARGETCONTROL
 title: DXGKDDI_SUBMITTARGETCONTROL
-author: windows-driver-content
 description: Allows the OS to request control operations to be performed on a target using a control interface to the target owned by the graphics adapter.
 tech.root: display
 ms.assetid: 5a5bdf05-0a89-48d7-a659-ded08982861f
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SUBMITTARGETCONTROL callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SUBMITTARGETCONTROL"
+ - "DXGKDDI_SUBMITTARGETCONTROL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -35,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKDDI_SUBMITTARGETCONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

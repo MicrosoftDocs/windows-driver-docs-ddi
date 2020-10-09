@@ -1,50 +1,48 @@
 ---
 UID: NF:storport.StorPortCancelDpc
 title: StorPortCancelDpc function
-author: windows-driver-content
-description: StorPortCancelDpc attempts to cancel the execution of a StorPort deferred procedure call (DPC). 
+description: StorPortCancelDpc attempts to cancel the execution of a StorPort deferred procedure call (DPC).
 tech.root: storage
 ms.assetid: e40dd10a-adae-480c-a820-6a9b0b3b776e
-ms.author: windowsdriverdev
 ms.date: 03/19/2019
 keywords: ["StorPortCancelDpc function"]
-f1_keywords:
- - "storport/StorPortCancelDpc"
 ms.keywords: StorPortCancelDpc
 req.header: storport.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location:
-- storport.h
-api_name: 
-- StorPortCancelDpc
-product:
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - StorPortCancelDpc
+ - storport/StorPortCancelDpc
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortCancelDpc
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # StorPortCancelDpc function
+
 
 ## -description
 
@@ -58,7 +56,7 @@ Pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Dpc
 
-Pointer to the [STOR_DPC](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc) DPC object to be cancelled.
+Pointer to the [STOR_DPC](./ns-storport-_stor_dpc.md) DPC object to be cancelled.
 
 ### -param ReturnValue
 
@@ -115,8 +113,8 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-[STOR_DPC](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc)
+[STOR_DPC](./ns-storport-_stor_dpc.md)
 
-[StorPortInitializeDpc](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc)
+[StorPortInitializeDpc](./nf-storport-storportinitializedpc.md)
 
-[StorPortIssueDpc](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc)
+[StorPortIssueDpc](./nf-storport-storportissuedpc.md)

@@ -5,22 +5,22 @@ tech.root: kernel
 ms.date: 03/01/2020
 ms.topic: language-reference
 targetos: Windows
-description:
+description: 
 req.construct-type: structure
-req.ddi-compliance:
-req.dll:
+req.ddi-compliance: 
+req.dll: 
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.kmdf-ver:
-req.lib:
-req.max-support:
-req.redist:
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.target-type:
+req.target-min-winversvr: 
+req.target-type: 
 req.typenames: POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER
-req.umdf-ver:
-req.unicode-ansi:
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
@@ -30,6 +30,11 @@ api_location:
 api_name:
  - POOL_EXTENDED_PARAMETER
 f1_keywords:
+ - _POOL_EXTENDED_PARAMETER
+ - wdm/_POOL_EXTENDED_PARAMETER
+ - PPOOL_EXTENDED_PARAMETER
+ - wdm/PPOOL_EXTENDED_PARAMETER
+ - POOL_EXTENDED_PARAMETER
  - wdm/POOL_EXTENDED_PARAMETER
 dev_langs:
  - c++
@@ -38,29 +43,6 @@ dev_langs:
 ## -description
 
 Specifies extended parameter information that the driver provides when calling [**ExAllocatePool3**](nf-wdm-exallocatepool3.md).
-
-## -syntax
-
-```cpp
-#define POOL_EXTENDED_PARAMETER_TYPE_BITS    8
-#define POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS    1
-#define POOL_EXTENDED_PARAMETER_RESERVED_BITS    (64 - POOL_EXTENDED_PARAMETER_TYPE_BITS - POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS)
-
-typedef struct _POOL_EXTENDED_PARAMETER {
-    struct {
-        ULONG64 Type : POOL_EXTENDED_PARAMETER_TYPE_BITS;
-        ULONG64 Optional : POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS;
-        ULONG64 Reserved : POOL_EXTENDED_PARAMETER_RESERVED_BITS;
-    } DUMMYSTRUCTNAME;
-
-    union {
-        ULONG64 Reserved2;
-        PVOID Reserved3;
-        EX_POOL_PRIORITY Priority;
-    } DUMMYUNIONNAME;
-} POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER;
-typedef CONST POOL_EXTENDED_PARAMETER *PCPOOL_EXTENDED_PARAMETER;
-```
 
 ## -struct-fields
 
@@ -92,6 +74,29 @@ Reserved for future use.
 
 If **Type** is set to **PoolExtendedParameterPriority**, this field must contain a valid [**EX_POOL_PRIORITY**](ne-wdm-ex_pool_priority.md) value.
 
+## -syntax
+
+```cpp
+#define POOL_EXTENDED_PARAMETER_TYPE_BITS    8
+#define POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS    1
+#define POOL_EXTENDED_PARAMETER_RESERVED_BITS    (64 - POOL_EXTENDED_PARAMETER_TYPE_BITS - POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS)
+
+typedef struct _POOL_EXTENDED_PARAMETER {
+    struct {
+        ULONG64 Type : POOL_EXTENDED_PARAMETER_TYPE_BITS;
+        ULONG64 Optional : POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS;
+        ULONG64 Reserved : POOL_EXTENDED_PARAMETER_RESERVED_BITS;
+    } DUMMYSTRUCTNAME;
+
+    union {
+        ULONG64 Reserved2;
+        PVOID Reserved3;
+        EX_POOL_PRIORITY Priority;
+    } DUMMYUNIONNAME;
+} POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER;
+typedef CONST POOL_EXTENDED_PARAMETER *PCPOOL_EXTENDED_PARAMETER;
+```
+
 ## -remarks
 
 ## -see-also
@@ -99,3 +104,4 @@ If **Type** is set to **PoolExtendedParameterPriority**, this field must contain
 [**POOL_EXTENDED_PARAMETER_TYPE**](ne-wdm-pool_extended_parameter_type.md)
 
 [**ExAllocatePool3**](nf-wdm-exallocatepool3.md)
+

@@ -1,48 +1,47 @@
 ---
 UID: NF:ntifs.RtlInitUTF8StringEx
-title: RtlInitUTF8StringEx function
-author: windows-driver-content
+title: RtlInitUTF8StringEx function (ntifs.h)
 description: RtlInitUTF8StringEx initializes a counted string of UTF-8 characters.
 tech.root: ifsk
 ms.assetid: e9cd4b3c-2955-4bbc-b90f-340201024313
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8StringEx
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/RtlInitUTF8StringEx"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlInitUTF8StringEx
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - RtlInitUTF8StringEx
+ - ntifs/RtlInitUTF8StringEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitUTF8StringEx
+product:
+ - Windows
 ---
 
-# RtlInitUTF8StringEx function
+# RtlInitUTF8StringEx function (ntifs.h)
+
 
 ## -description
 
@@ -52,7 +51,7 @@ targetos: Windows
 
 ### -param DestinationString
 
-Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string) structure.
+Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string) structure.
 
 ### -param SourceString
 
@@ -80,4 +79,4 @@ Callers of **RtlInitStringEx** can be running at IRQL <= DISPATCH_LEVEL if the *
 
 ## -see-also
 
-[ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string)
+[ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)

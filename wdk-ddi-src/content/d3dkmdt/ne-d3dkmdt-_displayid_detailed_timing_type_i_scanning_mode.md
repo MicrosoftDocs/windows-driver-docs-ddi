@@ -6,10 +6,8 @@ old-location: display\displayid_detailed_timing_type_i_scanning_mode.htm
 tech.root: display
 ms.assetid: 8a5d3fba-ffd5-4fbc-973a-d5bfec6bb6e3
 ms.date: 05/10/2018
-keywords: ["_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration"]
+keywords: ["DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration"]
 ms.keywords: DIDDT1_Interlaced, DIDDT1_Progressive, DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode
-f1_keywords:
- - "d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
+ - d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
 ---
 
 # _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration indicates the display device's frame scanning mode.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DIDDT1_Progressive
 
 Indicates a progressive scanning mode.
-
 
 ### -field DIDDT1_Interlaced
 

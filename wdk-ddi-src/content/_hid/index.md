@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Human Interface Devices (HID)
@@ -34,11 +32,9 @@ To develop Human Interface Devices (HID), you need these headers:
 
 * [ntdd8042.h](../ntdd8042/index.md)
 
-* [sffprtcl.h](../sffprtcl/index.md)
-
 * [vhf.h](../vhf/index.md)
 
-For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/windows-hardware/drivers/hid).
+For the programming guide, see [Human Interface Devices (HID)](/windows-hardware/drivers/hid).
 
 This section contains the programming interfaces related to Human Interface Devices (or HID). Typically, these are devices that humans use to directly control the operation of computer systems.
 
@@ -512,110 +508,110 @@ Declared in Hidpi.h.
 | Title   | Description   |
 | ---- |:---- |
 | [HidD_FlushQueue function](../hidsdi/nf-hidsdi-hidd_flushqueue.md) | The HidD_FlushQueue routine deletes all pending input reports in a top-level collection's input queue. |
-| [HidD_FreePreparsedData function](../hidsdi/nf-hidsdi-hidd_freepreparseddata.md) | The HidD_FreePreparsedData routine releases the resources that the HID class driver allocated to hold a top-level collection's preparsed data. |
-| [HidD_GetAttributes function](../hidsdi/nf-hidsdi-hidd_getattributes.md) | The HidD_GetAttributes routine returns the attributes of a specified top-level collection. |
-| [HidD_GetFeature function](../hidsdi/nf-hidsdi-hidd_getfeature.md) | The HidD_GetFeature routine returns a feature report from a specified top-level collection. |
-| [HidD_GetHidGuid function](../hidsdi/nf-hidsdi-hidd_gethidguid.md) | The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices. |
-| [HidD_GetIndexedString function](../hidsdi/nf-hidsdi-hidd_getindexedstring.md) | The HidD_GetIndexedString routine returns a specified embedded string from a top-level collection. |
-| [HidD_GetInputReport function](../hidsdi/nf-hidsdi-hidd_getinputreport.md) | The HidD_GetInputReport routine returns an input reports from a top-level collection. |
-| [HidD_GetManufacturerString function](../hidsdi/nf-hidsdi-hidd_getmanufacturerstring.md) | The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer. |
-| [HidD_GetNumInputBuffers function](../hidsdi/nf-hidsdi-hidd_getnuminputbuffers.md) | The HidD_GetNumInputBuffers routine returns the current size, in number of reports, of the ring buffer that the HID class driver uses to queue input reports from a specified top-level collection. |
-| [HidD_GetPhysicalDescriptor function](../hidsdi/nf-hidsdi-hidd_getphysicaldescriptor.md) | The HidD_GetPhysicalDescriptor routine returns the embedded string of a top-level collection that identifies the collection's physical device. |
-| [HidD_GetPreparsedData function](../hidsdi/nf-hidsdi-hidd_getpreparseddata.md) | The HidD_GetPreparsedData routine returns a top-level collection's preparsed data. |
-| [HidD_GetProductString function](../hidsdi/nf-hidsdi-hidd_getproductstring.md) | The HidD_GetProductString routine returns the embedded string of a top-level collection that identifies the manufacturer's product. |
-| [HidD_GetSerialNumberString function](../hidsdi/nf-hidsdi-hidd_getserialnumberstring.md) | The HidD_GetSerialNumberString routine returns the embedded string of a top-level collection that identifies the serial number of the collection's physical device. |
-| [HidD_SetFeature function](../hidsdi/nf-hidsdi-hidd_setfeature.md) | The HidD_SetFeature routine sends a feature report to a top-level collection. |
-| [HidD_SetNumInputBuffers function](../hidsdi/nf-hidsdi-hidd_setnuminputbuffers.md) | The HidD_SetNumInputBuffers routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified top-level collection. |
-| [HidD_SetOutputReport function](../hidsdi/nf-hidsdi-hidd_setoutputreport.md) | The HidD_SetOutputReport routine sends an output report to a top-level collection. |
-| [HidP_GetButtonCaps function](../hidpi/nf-hidpi-hidp_getbuttoncaps.md) | The HidP_GetButtonCaps routine returns a button capability array that describes all the HID control buttons in a top-level collection for a specified type of HID report. |
-| [HidP_GetCaps function](../hidpi/nf-hidpi-hidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
-| [HidP_GetCollectionDescription function](../hidpddi/nf-hidpddi-hidp_getcollectiondescription.md) | Fills a device description block with collection description and the corresponding report ID information for the specified report descriptor. |
-| [HidP_GetData function](../hidpi/nf-hidpi-hidp_getdata.md) | The HidP_GetData routine returns, for a specified report, an array of HIDP_DATA structures that identify the data indices of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values. |
-| [HidP_GetExtendedAttributes function](../hidpi/nf-hidpi-hidp_getextendedattributes.md) | The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control. |
-| [HidP_GetLinkCollectionNodes function](../hidpi/nf-hidpi-hidp_getlinkcollectionnodes.md) | The HidP_GetLinkCollectionNodes routine returns a top-level collection's link collection array. |
-| [HidP_GetScaledUsageValue function](../hidpi/nf-hidpi-hidp_getscaledusagevalue.md) | The HidP_GetScaledUsageValue routine returns the signed and scaled result of a HID control value extracted from a HID report. |
-| [HidP_GetSpecificButtonCaps function](../hidpi/nf-hidpi-hidp_getspecificbuttoncaps.md) | The HidP_GetSpecificButtonCaps routine returns a button capability array that describes all HID control buttons in a top-level collection that meet a specified selection criteria. |
-| [HidP_GetSpecificValueCaps function](../hidpi/nf-hidpi-hidp_getspecificvaluecaps.md) | The HidP_GetSpecificValueCaps routine returns a value capability array that describes all HID control values that meet a specified selection criteria. |
-| [HidP_GetUsageValue function](../hidpi/nf-hidpi-hidp_getusagevalue.md) | The HidP_GetUsageValue routine extracts the data associated with a HID control value that matches the selection criteria in a HID report. |
-| [HidP_GetUsageValueArray function](../hidpi/nf-hidpi-hidp_getusagevaluearray.md) | The HidP_GetUsageValueArray routine extracts the data associated with a HID control usage value array from a HID report. |
-| [HidP_GetUsages function](../hidpi/nf-hidpi-hidp_getusages.md) | The HidP_GetUsages routine returns a list of all the HID control button usages that are on a specified usage page and are set to ON in a HID report. |
-| [HidP_GetUsagesEx function](../hidpi/nf-hidpi-hidp_getusagesex.md) | The HidP_GetUsagesEx routine returns a list of the all the HID control button usages that are set to ON in a HID report. |
-| [HidP_GetValueCaps function](../hidpi/nf-hidpi-hidp_getvaluecaps.md) | The HidP_GetValueCaps routine returns a value capability array that describes all the HID control values in a top-level collection for a specified type of HID report. |
-| [HidP_InitializeReportForID function](../hidpi/nf-hidpi-hidp_initializereportforid.md) | The HidP_InitializeReportForID routine initializes a HID report. |
-| [HidP_MaxDataListLength function](../hidpi/nf-hidpi-hidp_maxdatalistlength.md) | The HidP_MaxDataListLength routine returns the maximum number of HIDP_DATA structures that HidP_GetData can return for a specified type of HID report and a specified top-level collection. |
-| [HidP_MaxUsageListLength function](../hidpi/nf-hidpi-hidp_maxusagelistlength.md) | The HidP_MaxUsageListLength routine returns the maximum number of HID usages that HidP_GetUsages can return for a specified type of HID report and a specified top-level collection. |
-| [HidP_SetData function](../hidpi/nf-hidpi-hidp_setdata.md) | The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report. |
-| [HidP_SetScaledUsageValue function](../hidpi/nf-hidpi-hidp_setscaledusagevalue.md) | The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report. |
-| [HidP_SetUsageValue function](../hidpi/nf-hidpi-hidp_setusagevalue.md) | The HidP_SetUsageValue routine sets a HID control value in a specified HID report. |
-| [HidP_SetUsageValueArray function](../hidpi/nf-hidpi-hidp_setusagevaluearray.md) | The HidP_SetUsageValueArray routine sets a HID control usage value array in a specified HID report. |
-| [HidP_SetUsages function](../hidpi/nf-hidpi-hidp_setusages.md) | The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report. |
-| [HidP_TranslateUsagesToI8042ScanCodes function](../hidpi/nf-hidpi-hidp_translateusagestoi8042scancodes.md) | The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1). |
-| [HidP_UnsetUsages function](../hidpi/nf-hidpi-hidp_unsetusages.md) | The HidP_UnsetUsages routine sets specified HID control button usages OFF (zero) in a HID report. |
-| [HidP_UsageAndPageListDifference function](../hidpi/nf-hidpi-hidp_usageandpagelistdifference.md) | The HidP_UsageAndPageListDifference routine is not implemented. |
-| [HidP_UsageListDifference function](../hidpi/nf-hidpi-hidp_usagelistdifference.md) | The HidP_UsageListDifference routine returns the differences between two arrays of HID usages. |
-| [HidRegisterMinidriver function](../hidport/nf-hidport-hidregisterminidriver.md) | The HidRegisterMinidriver routine is called by HID minidrivers, during their initialization, to register with the HID class driver. |
-| [VHF_CONFIG_INIT function](../vhf/nf-vhf-vhf_config_init.md) | Use the VHF_CONFIG_INIT function to initialize the required members of the VHF_CONFIG structure allocated by the HID source driver. |
-| [VhfAsyncOperationComplete function](../vhf/nf-vhf-vhfasyncoperationcomplete.md) | The HID source driver calls this method to set the results of an asynchronous operation. |
-| [VhfCreate function](../vhf/nf-vhf-vhfcreate.md) | The HID source driver calls this method to create a virtual HID device. |
-| [VhfDelete function](../vhf/nf-vhf-vhfdelete.md) | The HID Source device driver calls this method to delete a VHF device. |
-| [VhfReadReportSubmit function](../vhf/nf-vhf-vhfreadreportsubmit.md) | The HID source driver calls this method to submit a HID Read (Input) Report to Virtual HID Framework (VHF). |
-| [VhfStart function](../vhf/nf-vhf-vhfstart.md) | The HID source driver calls this method to start the virtual HID device. |
+| [HidD_FreePreparsedData](../hidsdi/nf-hidsdi-hidd_freepreparseddata.md) | The HidD_FreePreparsedData routine releases the resources that the HID class driver allocated to hold a top-level collection's preparsed data. |
+| [HidD_GetAttributes](../hidsdi/nf-hidsdi-hidd_getattributes.md) | The HidD_GetAttributes routine returns the attributes of a specified top-level collection. |
+| [HidD_GetFeature](../hidsdi/nf-hidsdi-hidd_getfeature.md) | The HidD_GetFeature routine returns a feature report from a specified top-level collection. |
+| [HidD_GetHidGuid](../hidsdi/nf-hidsdi-hidd_gethidguid.md) | The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices. |
+| [HidD_GetIndexedString](../hidsdi/nf-hidsdi-hidd_getindexedstring.md) | The HidD_GetIndexedString routine returns a specified embedded string from a top-level collection. |
+| [HidD_GetInputReport](../hidsdi/nf-hidsdi-hidd_getinputreport.md) | The HidD_GetInputReport routine returns an input reports from a top-level collection. |
+| [HidD_GetManufacturerString](../hidsdi/nf-hidsdi-hidd_getmanufacturerstring.md) | The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer. |
+| [HidD_GetNumInputBuffers](../hidsdi/nf-hidsdi-hidd_getnuminputbuffers.md) | The HidD_GetNumInputBuffers routine returns the current size, in number of reports, of the ring buffer that the HID class driver uses to queue input reports from a specified top-level collection. |
+| [HidD_GetPhysicalDescriptor](../hidsdi/nf-hidsdi-hidd_getphysicaldescriptor.md) | The HidD_GetPhysicalDescriptor routine returns the embedded string of a top-level collection that identifies the collection's physical device. |
+| [HidD_GetPreparsedData](../hidsdi/nf-hidsdi-hidd_getpreparseddata.md) | The HidD_GetPreparsedData routine returns a top-level collection's preparsed data. |
+| [HidD_GetProductString](../hidsdi/nf-hidsdi-hidd_getproductstring.md) | The HidD_GetProductString routine returns the embedded string of a top-level collection that identifies the manufacturer's product. |
+| [HidD_GetSerialNumberString](../hidsdi/nf-hidsdi-hidd_getserialnumberstring.md) | The HidD_GetSerialNumberString routine returns the embedded string of a top-level collection that identifies the serial number of the collection's physical device. |
+| [HidD_SetFeature](../hidsdi/nf-hidsdi-hidd_setfeature.md) | The HidD_SetFeature routine sends a feature report to a top-level collection. |
+| [HidD_SetNumInputBuffers](../hidsdi/nf-hidsdi-hidd_setnuminputbuffers.md) | The HidD_SetNumInputBuffers routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified top-level collection. |
+| [HidD_SetOutputReport](../hidsdi/nf-hidsdi-hidd_setoutputreport.md) | The HidD_SetOutputReport routine sends an output report to a top-level collection. |
+| [HidP_GetButtonCaps](../hidpi/nf-hidpi-hidp_getbuttoncaps.md) | The HidP_GetButtonCaps routine returns a button capability array that describes all the HID control buttons in a top-level collection for a specified type of HID report. |
+| [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
+| [HidP_GetCollectionDescription](../hidpddi/nf-hidpddi-hidp_getcollectiondescription.md) | Fills a device description block with collection description and the corresponding report ID information for the specified report descriptor. |
+| [HidP_GetData](../hidpi/nf-hidpi-hidp_getdata.md) | The HidP_GetData routine returns, for a specified report, an array of HIDP_DATA structures that identify the data indices of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values. |
+| [HidP_GetExtendedAttributes](../hidpi/nf-hidpi-hidp_getextendedattributes.md) | The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control. |
+| [HidP_GetLinkCollectionNodes](../hidpi/nf-hidpi-hidp_getlinkcollectionnodes.md) | The HidP_GetLinkCollectionNodes routine returns a top-level collection's link collection array. |
+| [HidP_GetScaledUsageValue](../hidpi/nf-hidpi-hidp_getscaledusagevalue.md) | The HidP_GetScaledUsageValue routine returns the signed and scaled result of a HID control value extracted from a HID report. |
+| [HidP_GetSpecificButtonCaps](../hidpi/nf-hidpi-hidp_getspecificbuttoncaps.md) | The HidP_GetSpecificButtonCaps routine returns a button capability array that describes all HID control buttons in a top-level collection that meet a specified selection criteria. |
+| [HidP_GetSpecificValueCaps](../hidpi/nf-hidpi-hidp_getspecificvaluecaps.md) | The HidP_GetSpecificValueCaps routine returns a value capability array that describes all HID control values that meet a specified selection criteria. |
+| [HidP_GetUsageValue](../hidpi/nf-hidpi-hidp_getusagevalue.md) | The HidP_GetUsageValue routine extracts the data associated with a HID control value that matches the selection criteria in a HID report. |
+| [HidP_GetUsageValueArray](../hidpi/nf-hidpi-hidp_getusagevaluearray.md) | The HidP_GetUsageValueArray routine extracts the data associated with a HID control usage value array from a HID report. |
+| [HidP_GetUsages](../hidpi/nf-hidpi-hidp_getusages.md) | The HidP_GetUsages routine returns a list of all the HID control button usages that are on a specified usage page and are set to ON in a HID report. |
+| [HidP_GetUsagesEx](../hidpi/nf-hidpi-hidp_getusagesex.md) | The HidP_GetUsagesEx routine returns a list of the all the HID control button usages that are set to ON in a HID report. |
+| [HidP_GetValueCaps](../hidpi/nf-hidpi-hidp_getvaluecaps.md) | The HidP_GetValueCaps routine returns a value capability array that describes all the HID control values in a top-level collection for a specified type of HID report. |
+| [HidP_InitializeReportForID](../hidpi/nf-hidpi-hidp_initializereportforid.md) | The HidP_InitializeReportForID routine initializes a HID report. |
+| [HidP_MaxDataListLength](../hidpi/nf-hidpi-hidp_maxdatalistlength.md) | The HidP_MaxDataListLength routine returns the maximum number of HIDP_DATA structures that HidP_GetData can return for a specified type of HID report and a specified top-level collection. |
+| [HidP_MaxUsageListLength](../hidpi/nf-hidpi-hidp_maxusagelistlength.md) | The HidP_MaxUsageListLength routine returns the maximum number of HID usages that HidP_GetUsages can return for a specified type of HID report and a specified top-level collection. |
+| [HidP_SetData](../hidpi/nf-hidpi-hidp_setdata.md) | The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report. |
+| [HidP_SetScaledUsageValue](../hidpi/nf-hidpi-hidp_setscaledusagevalue.md) | The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report. |
+| [HidP_SetUsageValue](../hidpi/nf-hidpi-hidp_setusagevalue.md) | The HidP_SetUsageValue routine sets a HID control value in a specified HID report. |
+| [HidP_SetUsageValueArray](../hidpi/nf-hidpi-hidp_setusagevaluearray.md) | The HidP_SetUsageValueArray routine sets a HID control usage value array in a specified HID report. |
+| [HidP_SetUsages](../hidpi/nf-hidpi-hidp_setusages.md) | The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report. |
+| [HidP_TranslateUsagesToI8042ScanCodes](../hidpi/nf-hidpi-hidp_translateusagestoi8042scancodes.md) | The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1). |
+| [HidP_UnsetUsages](../hidpi/nf-hidpi-hidp_unsetusages.md) | The HidP_UnsetUsages routine sets specified HID control button usages OFF (zero) in a HID report. |
+| [HidP_UsageAndPageListDifference](../hidpi/nf-hidpi-hidp_usageandpagelistdifference.md) | The HidP_UsageAndPageListDifference routine is not implemented. |
+| [HidP_UsageListDifference](../hidpi/nf-hidpi-hidp_usagelistdifference.md) | The HidP_UsageListDifference routine returns the differences between two arrays of HID usages. |
+| [HidRegisterMinidriver](../hidport/nf-hidport-hidregisterminidriver.md) | The HidRegisterMinidriver routine is called by HID minidrivers, during their initialization, to register with the HID class driver. |
+| [VHF_CONFIG_INIT](../vhf/nf-vhf-vhf_config_init.md) | Use the VHF_CONFIG_INIT function to initialize the required members of the VHF_CONFIG structure allocated by the HID source driver. |
+| [VhfAsyncOperationComplete](../vhf/nf-vhf-vhfasyncoperationcomplete.md) | The HID source driver calls this method to set the results of an asynchronous operation. |
+| [VhfCreate](../vhf/nf-vhf-vhfcreate.md) | The HID source driver calls this method to create a virtual HID device. |
+| [VhfDelete](../vhf/nf-vhf-vhfdelete.md) | The HID Source device driver calls this method to delete a VHF device. |
+| [VhfReadReportSubmit](../vhf/nf-vhf-vhfreadreportsubmit.md) | The HID source driver calls this method to submit a HID Read (Input) Report to Virtual HID Framework (VHF). |
+| [VhfStart](../vhf/nf-vhf-vhfstart.md) | The HID source driver calls this method to start the virtual HID device. |
 
 ## Callback functions
 
 | Title   | Description   |
 | ---- |:---- |
-| [EVT_VHF_ASYNC_OPERATION callback function](../vhf/nc-vhf-evt_vhf_async_operation.md) | The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports. |
-| [EVT_VHF_CLEANUP callback function](../vhf/nc-vhf-evt_vhf_cleanup.md) | The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device. |
-| [EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function](../vhf/nc-vhf-evt_vhf_ready_for_next_read_report.md) | The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF. |
-| [PHIDP_GETCAPS callback function](../hidclass/nc-hidclass-phidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
-| [PI8042_ISR_WRITE_PORT callback function](../ntdd8042/nc-ntdd8042-pi8042_isr_write_port.md) | The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback. |
-| [PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback function](../ntdd8042/nc-ntdd8042-pi8042_keyboard_initialization_routine.md) | A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt. |
-| [PI8042_KEYBOARD_ISR callback function](../ntdd8042/nc-ntdd8042-pi8042_keyboard_isr.md) | A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR. |
-| [PI8042_MOUSE_ISR callback function](../ntdd8042/nc-ntdd8042-pi8042_mouse_isr.md) | A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR. |
-| [PI8042_QUEUE_PACKET callback function](../ntdd8042/nc-ntdd8042-pi8042_queue_packet.md) | The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for processing by the ISR DPC of a keyboard or mouse device. I8042prt provides this callback. |
-| [PI8042_SYNCH_READ_PORT callback function](../ntdd8042/nc-ntdd8042-pi8042_synch_read_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback. |
-| [PI8042_SYNCH_WRITE_PORT callback function](../ntdd8042/nc-ntdd8042-pi8042_synch_write_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine. |
-| [PSERVICE_CALLBACK_ROUTINE callback function](../kbdmou/nc-kbdmou-pservice_callback_routine.md) | A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. |
+| [EVT_VHF_ASYNC_OPERATION](../vhf/nc-vhf-evt_vhf_async_operation.md) | The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports. |
+| [EVT_VHF_CLEANUP](../vhf/nc-vhf-evt_vhf_cleanup.md) | The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device. |
+| [EVT_VHF_READY_FOR_NEXT_READ_REPORT](../vhf/nc-vhf-evt_vhf_ready_for_next_read_report.md) | The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF. |
+| [PHIDP_GETCAPS](../hidclass/nc-hidclass-phidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
+| [PI8042_ISR_WRITE_PORT](../ntdd8042/nc-ntdd8042-pi8042_isr_write_port.md) | The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback. |
+| [PI8042_KEYBOARD_INITIALIZATION_ROUTINE](../ntdd8042/nc-ntdd8042-pi8042_keyboard_initialization_routine.md) | A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt. |
+| [PI8042_KEYBOARD_ISR](../ntdd8042/nc-ntdd8042-pi8042_keyboard_isr.md) | A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR. |
+| [PI8042_MOUSE_ISR](../ntdd8042/nc-ntdd8042-pi8042_mouse_isr.md) | A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR. |
+| [PI8042_QUEUE_PACKET](../ntdd8042/nc-ntdd8042-pi8042_queue_packet.md) | The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for processing by the ISR DPC of a keyboard or mouse device. I8042prt provides this callback. |
+| [PI8042_SYNCH_READ_PORT](../ntdd8042/nc-ntdd8042-pi8042_synch_read_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback. |
+| [PI8042_SYNCH_WRITE_PORT](../ntdd8042/nc-ntdd8042-pi8042_synch_write_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine. |
+| [PSERVICE_CALLBACK_ROUTINE](../kbdmou/nc-kbdmou-pservice_callback_routine.md) | A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. |
 
 ## Structures
 
 | Title   | Description   |
 | ---- |:---- |
-| [_CONNECT_DATA structure](../kbdmou/ns-kbdmou-_connect_data.md) | CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port. |
-| [_HIDD_ATTRIBUTES structure](../hidsdi/ns-hidsdi-_hidd_attributes.md) | The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device. |
-| [_HIDP_BUTTON_CAPS structure](../hidpi/ns-hidpi-_hidp_button_caps.md) | The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button usage (or a set of buttons associated with a usage range). |
-| [_HIDP_CAPS structure](../hidpi/ns-hidpi-_hidp_caps.md) | The HIDP_CAPS structure contains information about a top-level collection's capability. |
-| [_HIDP_COLLECTION_DESC structure](../hidpddi/ns-hidpddi-_hidp_collection_desc.md) | Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call. |
-| [_HIDP_DATA structure](../hidpi/ns-hidpi-_hidp_data.md) | The HIDP_DATA structure contains information about a HID control's data index and value in a HID report. |
-| [_HIDP_DEVICE_DESC structure](../hidpddi/ns-hidpddi-_hidp_device_desc.md) | Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription. |
-| [_HIDP_EXTENDED_ATTRIBUTES structure](../hidpi/ns-hidpi-_hidp_extended_attributes.md) | The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize. |
-| [_HIDP_GETCOLDESC_DBG structure](../hidpddi/ns-hidpddi-_hidp_getcoldesc_dbg.md) | Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call. |
-| [_HIDP_LINK_COLLECTION_NODE structure](../hidpi/ns-hidpi-_hidp_link_collection_node.md) | The HIDP_LINK_COLLECTION_NODE structure contains information about a link collection in a top-level collection's link collection array. |
-| [_HIDP_REPORT_IDS structure](../hidpddi/ns-hidpddi-_hidp_report_ids.md) | Contains report ID information for a top-level collection. |
-| [_HIDP_UNKNOWN_TOKEN structure](../hidpi/ns-hidpi-_hidp_unknown_token.md) | The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize. |
-| [_HIDP_VALUE_CAPS structure](../hidpi/ns-hidpi-_hidp_value_caps.md) | The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range). |
-| [_HID_COLLECTION_INFORMATION structure](../hidclass/ns-hidclass-_hid_collection_information.md) | The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection. |
-| [_HID_DESCRIPTOR structure](../hidport/ns-hidport-_hid_descriptor.md) | The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device. |
-| [_HID_DEVICE_ATTRIBUTES structure](../hidport/ns-hidport-_hid_device_attributes.md) | The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device. |
-| [_HID_DEVICE_EXTENSION structure](../hidport/ns-hidport-_hid_device_extension.md) | The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object. |
-| [_HID_MINIDRIVER_REGISTRATION structure](../hidport/ns-hidport-_hid_minidriver_registration.md) | The HID_MINIDRIVER_REGISTRATION structure contains registration information that a HID minidriver passes to the HID Client Drivers when the minidriver registers with the class driver. |
-| [_HID_XFER_PACKET structure](../hidclass/ns-hidclass-_hid_xfer_packet.md) | The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report. |
-| [_HID_XFER_PACKET structure](../vhf/ns-vhf-_hid_xfer_packet.md) | The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report. |
-| [_INTERNAL_I8042_HOOK_KEYBOARD structure](../ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard.md) | INTERNAL_I8042_HOOK_KEYBOARD is used by I8042prt to connect optional callback routines that supplement keyboard initialization and the keyboard ISR. The callbacks can be supplied by an optional, vendor-supplied, upper-level filter driver. |
-| [_INTERNAL_I8042_HOOK_MOUSE structure](../ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse.md) | INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver. |
-| [_INTERNAL_I8042_START_INFORMATION structure](../ntdd8042/ns-ntdd8042-_internal_i8042_start_information.md) | INTERNAL_I8042_START_INFORMATION specifies the interrupt object that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. |
-| [_OUTPUT_PACKET structure](../ntdd8042/ns-ntdd8042-_output_packet.md) | OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt. |
-| [_USAGE_AND_PAGE structure](../hidpi/ns-hidpi-_usage_and_page.md) | The USAGE_AND_PAGE structure specifies the usage page and usage ID of a HID control. |
-| [_VHF_CONFIG structure](../vhf/ns-vhf-_vhf_config.md) | Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device. |
+| [_CONNECT_DATA](../kbdmou/ns-kbdmou-_connect_data.md) | CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port. |
+| [_HIDD_ATTRIBUTES](../hidsdi/ns-hidsdi-_hidd_attributes.md) | The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device. |
+| [_HIDP_BUTTON_CAPS](../hidpi/ns-hidpi-_hidp_button_caps.md) | The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button usage (or a set of buttons associated with a usage range). |
+| [_HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md) | The HIDP_CAPS structure contains information about a top-level collection's capability. |
+| [_HIDP_COLLECTION_DESC](../hidpddi/ns-hidpddi-_hidp_collection_desc.md) | Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call. |
+| [_HIDP_DATA](../hidpi/ns-hidpi-_hidp_data.md) | The HIDP_DATA structure contains information about a HID control's data index and value in a HID report. |
+| [_HIDP_DEVICE_DESC](../hidpddi/ns-hidpddi-_hidp_device_desc.md) | Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription. |
+| [_HIDP_EXTENDED_ATTRIBUTES](../hidpi/ns-hidpi-_hidp_extended_attributes.md) | The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize. |
+| [_HIDP_GETCOLDESC_DBG](../hidpddi/ns-hidpddi-_hidp_getcoldesc_dbg.md) | Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call. |
+| [_HIDP_LINK_COLLECTION_NODE](../hidpi/ns-hidpi-_hidp_link_collection_node.md) | The HIDP_LINK_COLLECTION_NODE structure contains information about a link collection in a top-level collection's link collection array. |
+| [_HIDP_REPORT_IDS](../hidpddi/ns-hidpddi-_hidp_report_ids.md) | Contains report ID information for a top-level collection. |
+| [_HIDP_UNKNOWN_TOKEN](../hidpi/ns-hidpi-_hidp_unknown_token.md) | The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize. |
+| [_HIDP_VALUE_CAPS](../hidpi/ns-hidpi-_hidp_value_caps.md) | The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range). |
+| [_HID_COLLECTION_INFORMATION](../hidclass/ns-hidclass-_hid_collection_information.md) | The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection. |
+| [_HID_DESCRIPTOR](../hidport/ns-hidport-_hid_descriptor.md) | The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device. |
+| [_HID_DEVICE_ATTRIBUTES](../hidport/ns-hidport-_hid_device_attributes.md) | The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device. |
+| [_HID_DEVICE_EXTENSION](../hidport/ns-hidport-_hid_device_extension.md) | The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object. |
+| [_HID_MINIDRIVER_REGISTRATION](../hidport/ns-hidport-_hid_minidriver_registration.md) | The HID_MINIDRIVER_REGISTRATION structure contains registration information that a HID minidriver passes to the HID Client Drivers when the minidriver registers with the class driver. |
+| [_HID_XFER_PACKET](../hidclass/ns-hidclass-_hid_xfer_packet.md) | The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report. |
+| [_HID_XFER_PACKET](../vhf/ns-vhf-_hid_xfer_packet.md) | The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report. |
+| [_INTERNAL_I8042_HOOK_KEYBOARD](../ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard.md) | INTERNAL_I8042_HOOK_KEYBOARD is used by I8042prt to connect optional callback routines that supplement keyboard initialization and the keyboard ISR. The callbacks can be supplied by an optional, vendor-supplied, upper-level filter driver. |
+| [_INTERNAL_I8042_HOOK_MOUSE](../ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse.md) | INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver. |
+| [_INTERNAL_I8042_START_INFORMATION](../ntdd8042/ns-ntdd8042-_internal_i8042_start_information.md) | INTERNAL_I8042_START_INFORMATION specifies the interrupt object that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. |
+| [_OUTPUT_PACKET](../ntdd8042/ns-ntdd8042-_output_packet.md) | OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt. |
+| [_USAGE_AND_PAGE](../hidpi/ns-hidpi-_usage_and_page.md) | The USAGE_AND_PAGE structure specifies the usage page and usage ID of a HID control. |
+| [_VHF_CONFIG](../vhf/ns-vhf-_vhf_config.md) | Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device. |
 
 ## Enumerations
 
 | Title   | Description   |
 | ---- |:---- |
-| [_HIDP_REPORT_TYPE enumeration](../hidpi/ne-hidpi-_hidp_report_type.md) | The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type. |
-| [_KEYBOARD_SCAN_STATE enumeration](../ntdd8042/ne-ntdd8042-_keyboard_scan_state.md) | The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard. |
-| [_MOUSE_STATE enumeration](../ntdd8042/ne-ntdd8042-_mouse_state.md) | The MOUSE_STATE enumeration type identifies the current state of input from a mouse. |
+| [_HIDP_REPORT_TYPE](../hidpi/ne-hidpi-_hidp_report_type.md) | The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type. |
+| [_KEYBOARD_SCAN_STATE](../ntdd8042/ne-ntdd8042-_keyboard_scan_state.md) | The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard. |
+| [_MOUSE_STATE](../ntdd8042/ne-ntdd8042-_mouse_state.md) | The MOUSE_STATE enumeration type identifies the current state of input from a mouse. |
 
 ## I/O control codes
 

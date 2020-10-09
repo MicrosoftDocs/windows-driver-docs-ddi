@@ -6,10 +6,8 @@ old-location: stream\bda_scan_capabilties.htm
 tech.root: stream
 ms.assetid: AB97C5AC-E5B8-4C2B-ADA1-73E27E4B81D5
 ms.date: 04/23/2018
-keywords: ["_BDA_SCAN_CAPABILTIES structure"]
+keywords: ["BDA_SCAN_CAPABILTIES structure"]
 ms.keywords: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], _BDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties"
-f1_keywords:
- - "bdatypes/BDA_SCAN_CAPABILTIES"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_SCAN_CAPABILTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
+f1_keywords:
+ - _BDA_SCAN_CAPABILTIES
+ - bdatypes/_BDA_SCAN_CAPABILTIES
+ - PBDA_SCAN_CAPABILTIES
+ - bdatypes/PBDA_SCAN_CAPABILTIES
+ - BDA_SCAN_CAPABILTIES
+ - bdatypes/BDA_SCAN_CAPABILTIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_SCAN_CAPABILTIES
 ---
 
 # _BDA_SCAN_CAPABILTIES structure
@@ -47,17 +50,9 @@ req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
 
 ## -description
 
-
-
-
-
 ## -struct-fields
 
-
-
-
 ### -field lResult
-
 
 ### -field ul64AnalogStandardsSupported
 

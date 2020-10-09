@@ -8,8 +8,6 @@ ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_ROITYPE enumeration"]
 ms.keywords: KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_ROITYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
+f1_keywords:
+ - KSCAMERA_EXTENDEDPROP_ROITYPE
+ - ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_ROITYPE
 ---
 
 # KSCAMERA_EXTENDEDPROP_ROITYPE enumeration
@@ -47,19 +46,13 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 
 ## -description
 
-
 This enumeration contains the ROI types.
 
-
 ## -enum-fields
-
-
-
 
 ### -field KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN
 
 The ROI type is unknown.
-
 
 ### -field KSCAMERA_EXTENDEDPROP_ROITYPE_FACE
 

@@ -8,8 +8,6 @@ ms.assetid: 7015FBC6-BACD-4154-A6E5-15A949BA5906
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_PEER_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_PEER_ADDRESS, NDK_FN_GET_PEER_ADDRESS callback, NdkGetPeerAddress, NdkGetPeerAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPeerAddress, netvista.ndk_fn_get_peer_address
-f1_keywords:
- - "ndkpi/NdkGetPeerAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkGetPeerAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_GET_PEER_ADDRESS
+ - ndkpi/NDK_FN_GET_PEER_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkGetPeerAddress
 ---
 
 # NDK_FN_GET_PEER_ADDRESS callback function
@@ -47,33 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkGetPeerAddress</i> (<i>NDK_FN_GET_PEER_ADDRESS</i>) function returns the remote address for an NDK connection.
-
 
 ## -parameters
 
+### -param pNdkConnector 
 
-
-
-### -param pNdkConnector [in]
-
-A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
-
+[in]
+A pointer to an NDK connector object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 ### -param pAddress
 
 A remote address is returned in this buffer.
 
-
 ### -param pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkGetPeerAddress</i> function returns one of the following NTSTATUS codes.
@@ -117,31 +107,15 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkGetPeerAddress</i> returns the remote address for a connection.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>

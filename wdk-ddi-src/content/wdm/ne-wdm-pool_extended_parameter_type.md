@@ -26,14 +26,17 @@ api_location:
 api_name:
  - POOL_EXTENDED_PARAMETER_TYPE
 f1_keywords:
+ - POOL_EXTENDED_PARAMETER_TYPE
  - wdm/POOL_EXTENDED_PARAMETER_TYPE
+ - PPOOL_EXTENDED_PARAMETER_TYPE
+ - wdm/PPOOL_EXTENDED_PARAMETER_TYPE
 dev_langs:
  - c++
 ---
 
 ## -description
 
-This enumeration is used in the [**POOL_EXTENDED_PARAMETER**](ns-wdm-pool_extended_parameter.md) structure. 
+This enumeration is used in the [**POOL_EXTENDED_PARAMETER**](ns-wdm-pool_extended_parameter.md) structure.
 
 ## -enum-fields
 
@@ -54,3 +57,4 @@ For internal use only.
 ## -see-also
 
 [**ExAllocatePool3**](nf-wdm-exallocatepool3.md)
+

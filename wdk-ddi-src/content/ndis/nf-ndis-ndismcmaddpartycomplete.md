@@ -8,8 +8,6 @@ ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.date: 05/02/2018
 keywords: ["NdisMCmAddPartyComplete macro"]
 ms.keywords: NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, ndis/NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete
-f1_keywords:
- - "ndis/NdisMCmAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmAddPartyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmAddPartyComplete
+ - ndis/NdisMCmAddPartyComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmAddPartyComplete
 ---
 
 # NdisMCmAddPartyComplete macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmAddPartyComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -66,7 +60,7 @@ Specifies the final status of the MCM driver's add-party operation, either NDIS_
 
 Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
      to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
 ### -param _C_
 
@@ -78,15 +72,13 @@ Specifies the handle to a caller-allocated resident context area in which the MC
 ### -param _P_
 
 Pointer to a structure of type 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that contains the call
+     <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
 
 ## -remarks
 
-
-
 If an MCM driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function returns
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function returns
     NDIS_STATUS_PENDING, the driver must call 
     <b>NdisMCmAddPartyComplete</b> subsequently to notify the client and NDIS that its attempt to add a party
     on the multipoint VC has completed, whether successfully or with an MCM driver-determined error
@@ -113,9 +105,9 @@ Change the traffic parameters for every party already on the VC when it successf
 <li>
 Reject the request to add a new party. (This alternative implicitly forces clients to set up their
       traffic parameters for a multipoint VC with 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and to specify the same
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and to specify the same
       traffic parameters at each subsequent call to 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> for the given multipoint
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> for the given multipoint
       VC.)
 
 </li>
@@ -128,7 +120,7 @@ If the MCM driver sets
 
 A call to 
     <b>NdisMCmAddPartyComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">
     ProtocolClAddPartyComplete</a> function.
 
 Only connection-oriented miniport drivers that provide integrated call-management support can call 
@@ -136,41 +128,31 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmAddPartyComplete</b> instead.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmaddpartycomplete">NdisCmAddPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmaddpartycomplete">NdisCmAddPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdroppartycomplete">NdisMCmDropPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdroppartycomplete">NdisMCmDropPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>

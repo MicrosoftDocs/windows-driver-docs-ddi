@@ -5,41 +5,40 @@ description: A macro to format and load texture.
 ms.assetid: c87722a0-3f6d-4d67-a303-d5fef4405daf
 ms.date: 10/19/2018
 keywords: ["MAKEFOURCC macro"]
-f1_keywords:
- - "d3dukmdt/MAKEFOURCC"
 ms.keywords: MAKEFOURCC
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dukmdt.h
-api_name: 
-- MAKEFOURCC
-product:
-- Windows
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - MAKEFOURCC
+ - d3dukmdt/MAKEFOURCC
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - MAKEFOURCC
+dev_langs:
+ - c++
 ---
 
 # MAKEFOURCC macro
@@ -96,7 +95,7 @@ Any of the defined naming conventions.
 
 Any of the defined naming conventions.
 
-
 ## -remarks
 
 ## -see-also
+

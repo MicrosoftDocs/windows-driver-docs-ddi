@@ -8,8 +8,6 @@ ms.assetid: D4A7F80C-C223-4F92-AD08-C37F0668B292
 ms.date: 02/26/2018
 keywords: ["WDF_READ_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR function, wdf.wdf_read_register_buffer_uchar, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
-f1_keywords:
- - "wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_READ_REGISTER_BUFFER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_READ_REGISTER_BUFFER_UCHAR
+ - wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_READ_REGISTER_BUFFER_UCHAR
 ---
 
 # WDF_READ_REGISTER_BUFFER_UCHAR function
@@ -47,34 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_REGISTER_BUFFER_UCHAR</b> function reads a number of bytes from the specified register address into a buffer.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Register 
 
-### -param Register [in]
-
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 A pointer to a buffer into which an array of UCHAR values is read.
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 Specifies the number of bytes to be read into the buffer.
-
 

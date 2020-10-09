@@ -8,8 +8,6 @@ ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
 ms.date: 05/02/2018
 keywords: ["NdisMRestartComplete function"]
 ms.keywords: NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete
-f1_keywords:
- - "ndis/NdisMRestartComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRestartComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRestartComplete
+ - ndis/NdisMRestartComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRestartComplete
 ---
 
 # NdisMRestartComplete function
@@ -48,28 +47,24 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver must call the 
   <b>NdisMRestartComplete</b> function to complete a restart operation if the driver returned
   NDIS_STATUS_PENDING from its 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
-
+  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
 
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The final status of the restart operation. The following status values are supported:
      
 
@@ -93,18 +88,15 @@ The restart failed because of insufficient resources.
 
 The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies. The driver
        should call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
        with parameters that specify the reason for the failure.
 
-
 ## -remarks
-
-
 
 The miniport adapter specified at 
     <i>MiniportAdapterHandle</i> enters the 
     <i>Restarting</i> state when NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
 
 After the miniport driver successfully restarts the send and receive operations for the miniport
     adapter, the driver must complete the pending restart operation. The pending restart operation is
@@ -113,28 +105,18 @@ After the miniport driver successfully restarts the send and receive operations 
     <i>Running</i> state after the restart operation is complete.
 
 A miniport driver can resume indicating received packets immediately after NDIS calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> and before the driver calls 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> and before the driver calls 
     <b>NdisMRestartComplete</b>. The driver should be ready to accept send requests after it completes the
     restart request.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>

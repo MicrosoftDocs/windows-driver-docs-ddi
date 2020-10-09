@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnShaderCacheAddRefCb"
+ - PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
+ - d3d10umddi/PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback function
 
+
 ## -description
 
 The <i>pfnShaderCacheAddRefCb</i> callback function supports the ability to extend the lifetime of a shader cache.
@@ -56,9 +58,8 @@ The handler of a cache session.
 
 ## -remarks
 
-Access this callback function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a> structure.
+Access this callback function by using the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>

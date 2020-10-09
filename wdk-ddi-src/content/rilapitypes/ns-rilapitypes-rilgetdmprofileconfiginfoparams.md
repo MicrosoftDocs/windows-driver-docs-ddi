@@ -8,8 +8,6 @@ ms.assetid: df62bc19-81c7-4d80-88ed-5e8a8438d269
 ms.date: 05/02/2018
 keywords: ["RILGETDMPROFILECONFIGINFOPARAMS structure"]
 ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
-f1_keywords:
- - "rilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,37 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGETDMPROFILECONFIGINFOPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETDMPROFILECONFIGINFOPARAMS, *LPRILGETDMPROFILECONFIGINFOPARAMS
+f1_keywords:
+ - RILGETDMPROFILECONFIGINFOPARAMS
+ - rilapitypes/RILGETDMPROFILECONFIGINFOPARAMS
+ - LPRILGETDMPROFILECONFIGINFOPARAMS
+ - rilapitypes/LPRILGETDMPROFILECONFIGINFOPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGETDMPROFILECONFIGINFOPARAMS
 ---
 
-# RILGETDMPROFILECONFIGINFOPARAMS structure
+# RILGETDMPROFILECONFIGINFOPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field dwConfigItem
 

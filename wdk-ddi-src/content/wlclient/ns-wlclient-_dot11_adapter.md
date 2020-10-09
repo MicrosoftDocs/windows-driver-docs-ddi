@@ -6,41 +6,44 @@ old-location: netvista\dot11_adapter.htm
 tech.root: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.date: 02/16/2018
-keywords: ["_DOT11_ADAPTER structure"]
+keywords: ["DOT11_ADAPTER structure"]
 ms.keywords: "*PDOT11_ADAPTER, DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADAPTER, netvista.dot11_adapter, wlclient/DOT11_ADAPTER, wlclient/PDOT11_ADAPTER"
-f1_keywords:
- - "wlclient/DOT11_ADAPTER"
 req.header: wlclient.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlclient.h
-api_name:
-- DOT11_ADAPTER
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_ADAPTER, *PDOT11_ADAPTER
 req.product: Windows 10 or later.
+f1_keywords:
+ - _DOT11_ADAPTER
+ - wlclient/_DOT11_ADAPTER
+ - PDOT11_ADAPTER
+ - wlclient/PDOT11_ADAPTER
+ - DOT11_ADAPTER
+ - wlclient/DOT11_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlclient.h
+api_name:
+ - DOT11_ADAPTER
 ---
 
 # _DOT11_ADAPTER structure
@@ -48,37 +51,18 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ADAPTER structure identifies a wireless LAN (WLAN) adapter, as well as the operating
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ADAPTER structure identifies a wireless LAN (WLAN) adapter, as well as the operating
   attributes of the instance of the Native 802.11 miniport driver that manages the adapter.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_ADAPTER {
-  GUID                         gAdapterId;
-  LPWSTR                       pszDescription;
-  DOT11_CURRENT_OPERATION_MODE Dot11CurrentOpMode;
-} DOT11_ADAPTER, *PDOT11_ADAPTER;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field gAdapterId
 
 The globally unique identifier (GUID) of the WLAN adapter.
 
-
 ### -field pszDescription
 
 A description of the WLAN adapter.
-
 
 ### -field Dot11CurrentOpMode
 
@@ -88,10 +72,17 @@ The current Native 802.11 operation mode of the miniport driver instance that ma
      <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">
      DOT11_CURRENT_OPERATION_MODE</a> value.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_ADAPTER {
+  GUID                         gAdapterId;
+  LPWSTR                       pszDescription;
+  DOT11_CURRENT_OPERATION_MODE Dot11CurrentOpMode;
+} DOT11_ADAPTER, *PDOT11_ADAPTER;
+```
 
 ## -remarks
-
-
 
 The operating system calls the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
@@ -101,12 +92,9 @@ The operating system calls the
     <i>pDot11Adapter</i> parameter of the
     <i>Dot11ExtIhvInitAdapter</i> function.
 
-
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -116,11 +104,3 @@ The operating system calls the
 
 
 <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
-
-
-
- 
-
- 
-
-

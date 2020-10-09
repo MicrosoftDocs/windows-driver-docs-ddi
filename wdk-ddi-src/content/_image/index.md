@@ -8,9 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-author: barrygolden
-product:
-- Windows
 ---
 
 # Imaging devices
@@ -35,4 +32,4 @@ To develop drivers for imaging devices, you need these headers:
 - [wiatwcmp.h](../wiatwcmp/index.md)
 - [wiautil.h](../wiautil/index.md)
 
-For the programming guide, see [Imaging devices](https://docs.microsoft.com/windows-hardware/drivers/image).
+For the programming guide, see [Imaging devices](/windows-hardware/drivers/image).

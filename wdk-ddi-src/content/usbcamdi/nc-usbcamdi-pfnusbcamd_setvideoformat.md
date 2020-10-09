@@ -8,8 +8,6 @@ ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
 ms.date: 04/23/2018
 keywords: ["PFNUSBCAMD_SetVideoFormat callback function"]
 ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_SetVideoFormat"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbcamdi.h
-api_name:
-- USBCAMD_SetVideoFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNUSBCAMD_SetVideoFormat
+ - usbcamdi/PFNUSBCAMD_SetVideoFormat
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbcamdi.h
+api_name:
+ - USBCAMD_SetVideoFormat
 ---
 
 # PFNUSBCAMD_SetVideoFormat callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_SetVideoFormat</b> service is used to notify USBCAMD that the video format has changed.
-
 
 ## -parameters
 
+### -param DeviceContext 
 
-
-
-### -param DeviceContext [in]
-
+[in]
 Pointer to device-specific context.
 
+### -param pSrb 
 
-### -param pSrb [in]
-
+[in]
 Pointer to a stream request block (SRB).
 
-
 ## -returns
-
-
 
 <b>USBCAMD_SetVideoFormat</b> returns <b>TRUE</b> if the call was successful, otherwise it returns <b>FALSE</b> and sets <i>pSrb->Status</i> to one of the following error codes:
 
@@ -104,14 +96,8 @@ There are insufficient resources to allocate the video info header.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that this function returns <b>TRUE</b> to indicate success and not STATUS_SUCCESS.
 
@@ -119,20 +105,10 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 <b>USBCAMD_SetVideoFormat</b> is not available in USBCAMD version 1.0.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/stream/srb-set-data-format">SRB_SET_DATA_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-data-format">SRB_SET_DATA_FORMAT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>

@@ -8,8 +8,6 @@ ms.assetid: D4239E72-C57A-45BC-881C-08FF6263874E
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT, KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, stream.kscamera_extendedprop_videoprocsetting, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+f1_keywords:
+ - tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - ksmedia/tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure
+
 
 ## -description
 
@@ -59,7 +63,7 @@ The video processing mode type. Currently, this member is used to control white 
 | KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE | A picture temperature value is used to set white balance in degrees Kelvin. |
 | KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET | The white balance setting is a preset value specified in **VideoProc**. |
 
-This member is not used for [KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode) and [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode). In these cases it must be set to 0.
+This member is not used for [KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode) and [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode). In these cases it must be set to 0.
 
 ### -field Min
 
@@ -79,7 +83,7 @@ The increment in value, when applicable, for the setting in **VideoProc** when s
 
 ### -field VideoProc
 
-Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode) property, when **Mode** is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, the **VideoProc.Value.ul** value is one of the following.
+Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode) property, when **Mode** is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, the **VideoProc.Value.ul** value is one of the following.
 
 | Value | Description |
 | --- | --- |
@@ -90,11 +94,11 @@ Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](https://docs.micr
 | KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN | White balance preset to compensate for tungsten emitted lighting. |
 | KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT | White balance preset to compensate for candlelight lighting. |
 
-Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode) property, when **Mode** is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, the **VideoProc.Value.ul** value is a temperature value in degrees Kelvin.
+Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode) property, when **Mode** is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, the **VideoProc.Value.ul** value is a temperature value in degrees Kelvin.
 
-Using the  [KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode) property, when used for manually setting exposure, KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL, the **VideoProc.Value.ul** value is a the exposure time in 100 nanosecond units.
+Using the  [KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode) property, when used for manually setting exposure, KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL, the **VideoProc.Value.ul** value is a the exposure time in 100 nanosecond units.
 
-Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode) property, this member contains the focal length value for manual focus mode,  KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL.
+Using the [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode) property, this member contains the focal length value for manual focus mode,  KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL.
 
 ### -field Reserved
 
@@ -102,8 +106,8 @@ Reserved.
 
 ## -see-also
 
-[KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode)
+[KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode)
 
-[KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode)
+[KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode)
 
-[KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode)
+[KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode)

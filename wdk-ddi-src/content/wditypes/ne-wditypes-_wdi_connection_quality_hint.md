@@ -6,10 +6,8 @@ old-location: netvista\wdi_connection_quality_hint.htm
 tech.root: netvista
 ms.assetid: D83AE2BE-1273-48A1-A42C-C2EADA07D9C0
 ms.date: 05/02/2018
-keywords: ["_WDI_CONNECTION_QUALITY_HINT enumeration"]
+keywords: ["WDI_CONNECTION_QUALITY_HINT enumeration"]
 ms.keywords: WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], WDI_CONNECTION_QUALITY_LOW_LATENCY, _WDI_CONNECTION_QUALITY_HINT, devinst.wfi_connection_quality_hint, netvista.wdi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, wditypes/WDI_CONNECTION_QUALITY_HINT, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY
-f1_keywords:
- - "wditypes/WDI_CONNECTION_QUALITY_HINT"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_CONNECTION_QUALITY_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CONNECTION_QUALITY_HINT
+f1_keywords:
+ - _WDI_CONNECTION_QUALITY_HINT
+ - wditypes/_WDI_CONNECTION_QUALITY_HINT
+ - WDI_CONNECTION_QUALITY_HINT
+ - wditypes/WDI_CONNECTION_QUALITY_HINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_CONNECTION_QUALITY_HINT
 ---
 
 # _WDI_CONNECTION_QUALITY_HINT enumeration
@@ -47,19 +48,13 @@ req.typenames: WDI_CONNECTION_QUALITY_HINT
 
 ## -description
 
-
 The WDI_CONNECTION_QUALITY_HINT enumeration defines the Wi-Fi connection quality hints.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE
 
 This hint indicates that the host has no specific preference for the usage of this port. The port should use power saving mechanisms when possible, as well as when other ports require a larger share of bandwidth/radio time. It can be enabled simultaneously on more than one port. This is the default Connection Quality setting for a port.
-
 
 ### -field WDI_CONNECTION_QUALITY_LOW_LATENCY
 
@@ -84,3 +79,4 @@ This can only be set on one port.
 ### -field WDI_CONNECTION_QUALITY_NO_POWER_SAVE
 
 This hint indicates that the host does not want the adapter to perform any power saving. There are not specific requirements for data path performance.
+

@@ -8,8 +8,6 @@ ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.date: 04/23/2018
 keywords: ["SerCxGetActivity function"]
 ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity
-f1_keywords:
- - "sercx/SerCxGetActivity"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SerCxGetActivity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCxGetActivity
+ - sercx/SerCxGetActivity
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SerCxGetActivity
 ---
 
 # SerCxGetActivity function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCxGetActivity</b> method retrieves the status of pending work for the serial controller driver.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
+### -param Activity 
 
-### -param Activity [in, out]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_activity_init">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
-
+[in, out]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_activity_init">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
 
 ## -remarks
-
-
 
 The serial controller driver calls this method to receive a summary of processing work that it needs to perform on behalf of the serial framework extension (SerCx). Typically, <b>SerCxGetActivity</b> is called by the transmit/receive DPC routine in the controller driver.
 
@@ -78,32 +70,22 @@ To cycle through pending work items, the transmit/receive DPC routine calls <b>S
 
 A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>SerCxGetActivity</b> call. During the call, this lock is acquired by event handlers in SerCx to update the summary of work that is currently pending for the controller driver.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a>
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_activity_init">SERCX_ACTIVITY_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_activity_init">SERCX_ACTIVITY_INIT</a>
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxcompletewait">SerCxCompleteWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxcompletewait">SerCxCompleteWait</a>
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>

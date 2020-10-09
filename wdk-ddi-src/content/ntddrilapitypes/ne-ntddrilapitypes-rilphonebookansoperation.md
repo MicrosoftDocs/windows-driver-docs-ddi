@@ -8,8 +8,6 @@ ms.assetid: 29dcc5c0-0b07-49d7-b2ab-bdac7333baf7
 ms.date: 05/02/2018
 keywords: ["RILPHONEBOOKANSOPERATION enumeration"]
 ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSDELETED, RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation, ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_MAX
-f1_keywords:
- - "ntddrilapitypes/RILPHONEBOOKANSOPERATION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,43 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPHONEBOOKANSOPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKANSOPERATION
+f1_keywords:
+ - RILPHONEBOOKANSOPERATION
+ - ntddrilapitypes/RILPHONEBOOKANSOPERATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPHONEBOOKANSOPERATION
 ---
 
-# RILPHONEBOOKANSOPERATION enumeration
+# RILPHONEBOOKANSOPERATION enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PHONEBOOK_ANSADDED
-
 
 ### -field RIL_PHONEBOOK_ANSMODIFIED
 
-
 ### -field RIL_PHONEBOOK_ANSDELETED
-
 
 ### -field RIL_PHONEBOOK_MAX
 

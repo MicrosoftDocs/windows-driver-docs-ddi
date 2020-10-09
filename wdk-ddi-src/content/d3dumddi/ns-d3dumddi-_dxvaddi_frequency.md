@@ -6,10 +6,8 @@ old-location: display\dxvaddi_frequency.htm
 tech.root: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
 ms.date: 05/10/2018
-keywords: ["_DXVADDI_FREQUENCY structure"]
+keywords: ["DXVADDI_FREQUENCY structure"]
 ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency
-f1_keywords:
- - "d3dumddi/DXVADDI_FREQUENCY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVADDI_FREQUENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_FREQUENCY
+f1_keywords:
+ - _DXVADDI_FREQUENCY
+ - d3dumddi/_DXVADDI_FREQUENCY
+ - DXVADDI_FREQUENCY
+ - d3dumddi/DXVADDI_FREQUENCY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVADDI_FREQUENCY
 ---
 
 # _DXVADDI_FREQUENCY structure
@@ -47,28 +48,19 @@ req.typenames: DXVADDI_FREQUENCY
 
 ## -description
 
-
 The DXVADDI_FREQUENCY structure describes the video frame rate in Hertz (Hz). For example, NTSC TV is 60000 over 1001.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Numerator
 
 [in] The numerator of the frequency fraction.
 
-
 ### -field Denominator
 
 [in] The denominator of the frequency fraction.
 
-
 ## -remarks
-
-
 
 The user-mode display driver must interpret the video frame rate for the following special cases as indicated:
 
@@ -87,15 +79,6 @@ The user-mode display driver must interpret the video frame rate for the followi
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>

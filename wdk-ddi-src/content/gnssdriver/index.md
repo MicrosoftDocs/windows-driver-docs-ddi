@@ -8,12 +8,14 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: gnss
+f1_keywords:
+ - gnssdriver
+ - gnssdriver/gnssdriver
 ---
 
 # Gnssdriver.h header
+
 
 ## -description
 
@@ -21,6 +23,6 @@ This header is used by Global Navigation Satellite System (GNSS) drivers.
 
 For more information, see:
 
-- [Global Navigation Satellite System (GNSS) driver design guide](https://docs.microsoft.com/windows-hardware/drivers/gnss)
+- [Global Navigation Satellite System (GNSS) driver design guide](/windows-hardware/drivers/gnss)
 
 - [Global Navigation Satellite System (GNSS) DDI reference](../_gnss/index.md)<br><br>

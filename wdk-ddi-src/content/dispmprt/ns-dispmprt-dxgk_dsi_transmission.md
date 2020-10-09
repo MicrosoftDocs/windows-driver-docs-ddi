@@ -31,13 +31,18 @@ api_name:
  - _DXGK_DSI_TRANSMISSION
  - DXGK_DSI_TRANSMISSION
 f1_keywords:
+ - _DXGK_DSI_TRANSMISSION
  - dispmprt/_DXGK_DSI_TRANSMISSION
+ - PDXGK_DSI_TRANSMISSION
+ - dispmprt/PDXGK_DSI_TRANSMISSION
+ - DXGK_DSI_TRANSMISSION
  - dispmprt/DXGK_DSI_TRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGK_DSI_TRANSMISSION structure
+
 
 ## -description
 
@@ -139,3 +144,4 @@ A DXGK_DSI_TRANSMISSION structure is provided to a graphics driver's [*DxgkDsiTr
 [**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
+

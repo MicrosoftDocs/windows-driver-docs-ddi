@@ -8,8 +8,6 @@ ms.assetid: 735bff90-7406-4fe8-87d5-de3aa48fbcd0
 ms.date: 04/23/2018
 keywords: ["tagKS_MPEGVIDEOINFO2 structure"]
 ms.keywords: "*PKS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2 structure [Streaming Media Devices], PKS_MPEGVIDEOINFO2, PKS_MPEGVIDEOINFO2 structure pointer [Streaming Media Devices], ksmedia/KS_MPEGVIDEOINFO2, ksmedia/PKS_MPEGVIDEOINFO2, stream.ks_mpegvideoinfo2, tagKS_MPEGVIDEOINFO2, vidcapstruct_decbdb49-a4a2-44d6-a005-bd3cbe0df02e.xml"
-f1_keywords:
- - "ksmedia/KS_MPEGVIDEOINFO2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_MPEGVIDEOINFO2
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
+f1_keywords:
+ - tagKS_MPEGVIDEOINFO2
+ - ksmedia/tagKS_MPEGVIDEOINFO2
+ - PKS_MPEGVIDEOINFO2
+ - ksmedia/PKS_MPEGVIDEOINFO2
+ - KS_MPEGVIDEOINFO2
+ - ksmedia/KS_MPEGVIDEOINFO2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_MPEGVIDEOINFO2
 ---
 
 # tagKS_MPEGVIDEOINFO2 structure
@@ -47,39 +50,29 @@ req.typenames: KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
 
 ## -description
 
-
 The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a> structure that describes the details of the video stream.
-
+Specifies a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a> structure that describes the details of the video stream.
 
 ### -field dwStartTimeCode
 
 A 25-bit "group-of-pictures" time code at the start of data (not used for DVD).
 
-
 ### -field cbSequenceHeader
 
 The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
-
 ### -field dwProfile
 
-Specifies the MPEG-2 profile. This member must be one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_mpeg2profile">KS_MPEG2Profile</a> enumeration.
-
+Specifies the MPEG-2 profile. This member must be one of the values from the <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_mpeg2profile">KS_MPEG2Profile</a> enumeration.
 
 ### -field dwLevel
 
-Specifies the MPEG-2 level. This member must be one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_mpeg2level">KS_MPEG2Level</a> enumeration.
-
+Specifies the MPEG-2 level. This member must be one of the values from the <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_mpeg2level">KS_MPEG2Level</a> enumeration.
 
 ### -field dwFlags
 
@@ -181,21 +174,11 @@ If set, the PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bSequenceHeader
 
 The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>

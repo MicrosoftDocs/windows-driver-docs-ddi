@@ -8,8 +8,6 @@ ms.assetid: ef3025bf-e33d-47ae-832d-1b32d33cdca3
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::get_WDTF"]
 ms.keywords: IWDTFTarget2 interface [Windows Device Testing Framework],WDTF property, IWDTFTarget2.WDTF, IWDTFTarget2.get_WDTF, IWDTFTarget2::WDTF, IWDTFTarget2::get_WDTF, Microsoft.WDTF.IWDTFTarget2.WDTF, Microsoft::WDTF::IWDTFTarget2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework],IWDTFTarget2 interface, dtf.iwdtftarget2_wdtf, get_WDTF, wdtf/IWDTFTarget2::WDTF, wdtf/IWDTFTarget2::get_WDTF
-f1_keywords:
- - "wdtf/IWDTFTarget2.WDTF"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.WDTF
-- IWDTFTarget2.get_WDTF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::get_WDTF
+ - wdtf/IWDTFTarget2::get_WDTF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.WDTF
+ - IWDTFTarget2.get_WDTF
 ---
 
 # IWDTFTarget2::get_WDTF
@@ -48,26 +47,16 @@ req.typenames:
 
 ## -description
 
-
 Gets the main WDTF aggregation object.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>

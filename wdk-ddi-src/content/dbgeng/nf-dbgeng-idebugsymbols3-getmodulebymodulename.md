@@ -8,8 +8,6 @@ ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleByModuleName"]
 ms.keywords: GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging],IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols3.GetModuleByModuleName, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetModuleByModuleName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetModuleByModuleName
-- IDebugSymbols2.GetModuleByModuleName
-- IDebugSymbols3.GetModuleByModuleName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetModuleByModuleName
+ - dbgeng/IDebugSymbols3::GetModuleByModuleName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetModuleByModuleName
+ - IDebugSymbols2.GetModuleByModuleName
+ - IDebugSymbols3.GetModuleByModuleName
 ---
 
 # IDebugSymbols3::GetModuleByModuleName
@@ -49,40 +48,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetModuleByModuleName</b>  method searches through the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> for one with the specified name.
-
+The <b>GetModuleByModuleName</b>  method searches through the target's <a href="/windows-hardware/drivers/debugger/modules">modules</a> for one with the specified name.
 
 ## -parameters
 
+### -param Name 
 
-
-
-### -param Name [in]
-
+[in]
 Specifies the name of the desired module.
 
+### -param StartIndex 
 
-### -param StartIndex [in]
-
+[in]
 Specifies the index to start searching from.
 
+### -param Index 
 
-### -param Index [out, optional]
-
+[out, optional]
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
+### -param Base 
 
-### -param Base [out, optional]
-
+[out, optional]
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
-
 
 ## -returns
 
-
-
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -112,41 +104,25 @@ One of the arguments passed in was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
 
-For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
-
-
-
+For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2">GetModuleByModuleName2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2">GetModuleByModuleName2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

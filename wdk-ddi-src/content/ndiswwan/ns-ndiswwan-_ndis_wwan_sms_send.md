@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_sms_send.htm
 tech.root: netvista
 ms.assetid: d92c0ebe-4a11-49d9-95aa-182e99ca8dcf
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SMS_SEND structure"]
+keywords: ["NDIS_WWAN_SMS_SEND structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, _NDIS_WWAN_SMS_SEND, ndiswwan/NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, netvista.ndis_wwan_sms_send"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SMS_SEND"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SMS_SEND
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND
+f1_keywords:
+ - _NDIS_WWAN_SMS_SEND
+ - ndiswwan/_NDIS_WWAN_SMS_SEND
+ - PNDIS_WWAN_SMS_SEND
+ - ndiswwan/PNDIS_WWAN_SMS_SEND
+ - NDIS_WWAN_SMS_SEND
+ - ndiswwan/NDIS_WWAN_SMS_SEND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SMS_SEND
 ---
 
 # _NDIS_WWAN_SMS_SEND structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND
 
 ## -description
 
-
 The NDIS_WWAN_SMS_SEND structure represents an SMS message to send.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,27 +102,18 @@ sizeof(NDIS_WWAN_SMS_SEND)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field SmsSend
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> object that represents a SMS
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> object that represents a SMS
      text message to send.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>

@@ -8,8 +8,6 @@ ms.assetid: 72986a01-de40-4b8f-9dfc-d26f4999e66b
 ms.date: 04/23/2018
 keywords: ["KSCLOCK_CREATE structure"]
 ms.keywords: "*PKSCLOCK_CREATE, KSCLOCK_CREATE, KSCLOCK_CREATE structure [Streaming Media Devices], PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, ks/KSCLOCK_CREATE, ks/PKSCLOCK_CREATE, stream.ksclock_create"
-f1_keywords:
- - "ks/KSCLOCK_CREATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSCLOCK_CREATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCLOCK_CREATE, *PKSCLOCK_CREATE
+f1_keywords:
+ - PKSCLOCK_CREATE
+ - ks/PKSCLOCK_CREATE
+ - KSCLOCK_CREATE
+ - ks/KSCLOCK_CREATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSCLOCK_CREATE
 ---
 
 # KSCLOCK_CREATE structure
@@ -47,27 +48,14 @@ req.typenames: KSCLOCK_CREATE, *PKSCLOCK_CREATE
 
 ## -description
 
-
-The KSCLOCK_CREATE structure is used in clock create parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a> function.
-
+The KSCLOCK_CREATE structure is used in clock create parameters for the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field CreateFlags
 
 Currently consists of a flags item, which must be set to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a>

@@ -8,8 +8,6 @@ ms.assetid: ad6317bf-92fc-4e77-9993-37b7aa123a3d
 ms.date: 04/16/2018
 keywords: ["FltObjectReference function"]
 ms.keywords: FltApiRef_e_to_o_66eccb5d-8f95-4779-b329-aaeb8b8c09b5.xml, FltObjectReference, FltObjectReference routine [Installable File System Drivers], fltkernel/FltObjectReference, ifsk.fltobjectreference
-f1_keywords:
- - "fltkernel/FltObjectReference"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltObjectReference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltObjectReference
+ - fltkernel/FltObjectReference
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltObjectReference
 ---
 
 # FltObjectReference function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filter, instance, or volume pointer. 
-
+The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filter, instance, or volume pointer.
 
 ## -parameters
 
+### -param FltObject 
 
-
-
-### -param FltObject [in, out]
-
-Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME). 
-
+[in, out]
+Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME).
 
 ## -returns
-
-
 
 <b>FltObjectReference</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -84,29 +76,13 @@ The minifilter driver, instance, or volume is being torn down. This is an error 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Adding a rundown reference to an opaque filter, instance, or volume object pointer prevents the object from being freed. 
 
-To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. 
-
-
-
+To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>

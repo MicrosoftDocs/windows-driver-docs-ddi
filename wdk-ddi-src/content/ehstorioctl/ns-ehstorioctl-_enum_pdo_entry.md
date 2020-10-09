@@ -6,10 +6,8 @@ old-location: storage\enum_pdo_entry.htm
 tech.root: storage
 ms.assetid: c3f5cc8e-a600-4ca1-8745-d74943feb2c7
 ms.date: 03/29/2018
-keywords: ["_ENUM_PDO_ENTRY structure"]
+keywords: ["ENUM_PDO_ENTRY structure"]
 ms.keywords: "*PENUM_PDO_ENTRY, ENUM_PDO_ENTRY, ENUM_PDO_ENTRY structure [Storage Devices], PENUM_PDO_ENTRY, PENUM_PDO_ENTRY structure pointer [Storage Devices], _ENUM_PDO_ENTRY, ehstorioctl/ENUM_PDO_ENTRY, ehstorioctl/PENUM_PDO_ENTRY, storage.enum_pdo_entry, structs-silo_8303b6a6-8f4f-4f0c-91ce-9d70ea72f4f2.xml"
-f1_keywords:
- - "ehstorioctl/ENUM_PDO_ENTRY"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- ENUM_PDO_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: ENUM_PDO_ENTRY, *PENUM_PDO_ENTRY
+f1_keywords:
+ - _ENUM_PDO_ENTRY
+ - ehstorioctl/_ENUM_PDO_ENTRY
+ - PENUM_PDO_ENTRY
+ - ehstorioctl/PENUM_PDO_ENTRY
+ - ENUM_PDO_ENTRY
+ - ehstorioctl/ENUM_PDO_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - ENUM_PDO_ENTRY
 ---
 
 # _ENUM_PDO_ENTRY structure
@@ -47,59 +50,38 @@ req.typenames: ENUM_PDO_ENTRY, *PENUM_PDO_ENTRY
 
 ## -description
 
-
-This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
-
+This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field type
 
 This member indicates the type of the PDO that is being identified, as defined by PDO_TYPE.
 
-
 ### -field state
 
 This member contains information about the current PnP state of the PDO, as defined by PDO_STATE.
-
 
 ### -field capabilities
 
 This member contains a bitmask with bits indicating information about the silo represented by the PDO in question, as defined by PDO_CAPS.
 
-
 ### -field ulSTID
 
 This member contains the silo type identifier, as defined and assigned by the IEEE 1667 working group.
 
-
 ### -field bSpecificationMajor
-
 
 ### -field bSpecificationMinor
 
-
 ### -field bImplementationMajor
 
-
 ### -field bImplementationMinor
-
 
 ### -field wszDeviceInstancePath
 
 The string contained in this member is the device instance path in a form suitable for use with the Win32 API CreateFile routine.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>

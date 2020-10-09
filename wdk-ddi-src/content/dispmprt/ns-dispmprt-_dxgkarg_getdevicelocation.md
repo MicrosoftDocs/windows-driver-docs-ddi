@@ -1,48 +1,52 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETDEVICELOCATION
 title: _DXGKARG_GETDEVICELOCATION
-author: windows-driver-content
 description: Arguments used to get the location of a Virtual Function on the PCI bus relative to the root partition.
 tech.root: display
 ms.assetid: dbc2163c-6465-4c4d-a597-c941168515be
-ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKARG_GETDEVICELOCATION structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_GETDEVICELOCATION"
+ms.date: 04/04/2019
+keywords: ["DXGKARG_GETDEVICELOCATION structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKARG_GETDEVICELOCATION, DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION, 
+ms.keywords: _DXGKARG_GETDEVICELOCATION, DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKARG_GETDEVICELOCATION
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKARG_GETDEVICELOCATION
+ - dispmprt/_DXGKARG_GETDEVICELOCATION
+ - PDXGKARG_GETDEVICELOCATION
+ - dispmprt/PDXGKARG_GETDEVICELOCATION
+ - DXGKARG_GETDEVICELOCATION
+ - dispmprt/DXGKARG_GETDEVICELOCATION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_GETDEVICELOCATION
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKARG_GETDEVICELOCATION structure
+
 
 ## -description
 
@@ -63,10 +67,11 @@ To be filled in with the segment number of this function.
 To be filled in with the bus number of this function.
 
 ### -field FunctionNumber
+
  
 To be filled in with the function number of this function.
 
 ## -remarks
 
-
 ## -see-also
+

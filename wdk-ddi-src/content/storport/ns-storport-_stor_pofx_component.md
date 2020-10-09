@@ -8,8 +8,6 @@ ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.date: 03/29/2018
 keywords: ["STOR_POFX_COMPONENT structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], _STOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT"
-f1_keywords:
- - "storport/STOR_POFX_COMPONENT"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- STOR_POFX_COMPONENT
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POFX_COMPONENT, *PSTOR_POFX_COMPONENT
+f1_keywords:
+ - _STOR_POFX_COMPONENT
+ - storport/_STOR_POFX_COMPONENT
+ - PSTOR_POFX_COMPONENT
+ - storport/PSTOR_POFX_COMPONENT
+ - STOR_POFX_COMPONENT
+ - storport/STOR_POFX_COMPONENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_POFX_COMPONENT
 ---
 
 # STOR_POFX_COMPONENT structure
+
 
 ## -description
 
@@ -106,3 +110,4 @@ For a unit device component, if an additional F-state is included in the **FStat
 [StorPortInitializePoFxPower](nf-storport-storportinitializepofxpower.md)
 
 [StorPortPoFxActivateComponent](nf-storport-storportpofxactivatecomponent.md)
+

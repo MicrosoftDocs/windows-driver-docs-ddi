@@ -1,8 +1,7 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_ID_ENTRY
 title: _SDEV_SECURE_RESOURCE_ID_ENTRY (acpitabl.h)
-ms.date: 05/11/2020
-ms.topic: language-reference
+ms.date: 08/12/2020
 ms.keywords: _SDEV_SECURE_RESOURCE_ID_ENTRY, SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
 description: Defines a resource ID entry for a secure ACPI device for use in a secure device table.
 tech.root: acpi
@@ -21,26 +20,27 @@ req.target-type: Windows
 req.typenames: SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _SDEV_SECURE_RESOURCE_ID_ENTRY
-- SDEV_SECURE_RESOURCE_ID_ENTRY
-f1_keywords:
-- acpitabl/_SDEV_SECURE_RESOURCE_ID_ENTRY
-- acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
-dev_langs:
-- c++
-product:
-- Windows
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _SDEV_SECURE_RESOURCE_ID_ENTRY
+ - SDEV_SECURE_RESOURCE_ID_ENTRY
+f1_keywords:
+ - _SDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/_SDEV_SECURE_RESOURCE_ID_ENTRY
+ - PSDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/PSDEV_SECURE_RESOURCE_ID_ENTRY
+ - SDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
 ---
 
 # _SDEV_SECURE_RESOURCE_ID_ENTRY structure
+
 
 ## -description
 
@@ -79,3 +79,4 @@ The hardware revision present value.
 ## -remarks
 
 ## -see-also
+

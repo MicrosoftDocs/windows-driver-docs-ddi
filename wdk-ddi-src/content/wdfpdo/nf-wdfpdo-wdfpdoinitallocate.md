@@ -8,8 +8,6 @@ ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitAllocate function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
-f1_keywords:
- - "wdfpdo/WdfPdoInitAllocate"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoInitAllocate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoInitAllocate
+ - wdfpdo/WdfPdoInitAllocate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoInitAllocate
 ---
 
 # WdfPdoInitAllocate function
@@ -48,69 +47,48 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfPdoInitAllocate</b> method allocates a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure for a framework-based bus driver, which the bus driver uses when reporting a new device.
-
+The <b>WdfPdoInitAllocate</b> method allocates a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure for a framework-based bus driver, which the bus driver uses when reporting a new device.
 
 ## -parameters
 
+### -param ParentDevice 
 
-
-
-### -param ParentDevice [in]
-
+[in]
 A handle to a framework device object that represents the parent device of the new device. The framework device object must represent a functional device object (FDO).
-
 
 ## -returns
 
-
-
-If the operation succeeds, the method returns a pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. Otherwise, the method returns <b>NULL</b>.
-
-
-
+If the operation succeeds, the method returns a pointer to a framework-allocated <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. Otherwise, the method returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 If a bus driver uses static enumeration, it reports a new device by:
 
 <ol>
 <li>
-Calling <b>WdfPdoInitAllocate</b> to allocate a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
+Calling <b>WdfPdoInitAllocate</b> to allocate a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 </li>
 <li>
-Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/">framework device object initialization methods</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitfree">WdfDeviceInitFree</a>. 
+Calling <a href="/windows-hardware/drivers/ddi/wdfdevice/">framework device object initialization methods</a> and <a href="/windows-hardware/drivers/ddi/wdfdevice/">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitfree">WdfDeviceInitFree</a>. 
 
 </li>
 <li>
-Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create a framework device object, supplying the initialized WDFDEVICE_INIT structure as input.
+Calling <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create a framework device object, supplying the initialized WDFDEVICE_INIT structure as input.
 
 </li>
 </ol>
-For more information about static enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+For more information about static enumeration, see <a href="/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoaddstaticchild">WdfFdoAddStaticChild</a>.
+For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoaddstaticchild">WdfFdoAddStaticChild</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>

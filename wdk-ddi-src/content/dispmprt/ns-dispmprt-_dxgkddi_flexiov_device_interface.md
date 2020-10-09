@@ -4,41 +4,45 @@ title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE (dispmprt.h)
 description: 
 ms.assetid: 03ceba62-6439-4a5e-b15b-38dd06a6a924
 ms.date: 10/19/2018
-keywords: ["_DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure"]
-f1_keywords:
- - "dispmprt/_DXGKDDI_FLEXIOV_DEVICE_INTERFACE"
-ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE, 
+keywords: ["DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure"]
+ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- dispmprt.h
-api_name: 
-- _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - dispmprt/_DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - PDXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - dispmprt/PDXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - dispmprt/DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure
+
 
 ## -description
 
@@ -75,9 +79,11 @@ Points to a get backing resource function.
 Points to a get memory range count function.
 
 ### -field DxgkDdiGetMmioRanges
+
  
 Points to a get memory range function.
 
 ## -remarks
 
 ## -see-also
+

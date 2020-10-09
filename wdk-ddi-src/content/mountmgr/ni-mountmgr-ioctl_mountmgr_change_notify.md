@@ -8,8 +8,6 @@ ms.assetid: ad6ab15b-6789-4ee8-ba99-9eaa6eec070a
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTMGR_CHANGE_NOTIFY IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_CHANGE_NOTIFY, IOCTL_MOUNTMGR_CHANGE_NOTIFY control, IOCTL_MOUNTMGR_CHANGE_NOTIFY control code [Storage Devices], k307_009033eb-e845-4967-9ef1-30f11bfa3253.xml, mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY, storage.ioctl_mountmgr_change_notify
-f1_keywords:
- - "mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mountmgr.h
-api_name:
-- IOCTL_MOUNTMGR_CHANGE_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTMGR_CHANGE_NOTIFY
+ - mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mountmgr.h
+api_name:
+ - IOCTL_MOUNTMGR_CHANGE_NOTIFY
 ---
 
 # IOCTL_MOUNTMGR_CHANGE_NOTIFY IOCTL
 
 
 ## -description
-
 
 Clients send this IOCTL to the mount manager to be informed whenever there is a change in the mount manager's persistent symbolic link name database. 
 
@@ -62,53 +60,25 @@ If the number supplied by the client is equal to <i>EpicNumber</i>, the mount ma
 </li>
 </ul>A client that only wants to be informed of the changes to a particular volume is advised to register for Plug and Play target device notification and watch for GUID_IO_VOLUME_NAME_CHANGE.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+The mount manager client initializes the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -input-buffer-length
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_INFO).
 
-
 ### -output-buffer
 
-The mount manager returns the current <i>EpicNumber</i> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+The mount manager returns the current <i>EpicNumber</i> in the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -116,14 +86,6 @@ If the operation is successful, the <b>Status</b> field is set to STATUS_SUCCESS
 
 If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_INFO) or <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_INFO), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a>

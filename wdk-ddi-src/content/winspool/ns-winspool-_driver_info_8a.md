@@ -5,11 +5,9 @@ description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
 tech.root: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
-ms.date: 04/20/2018
-keywords: ["_DRIVER_INFO_8A structure"]
+ms.date: 08/21/2020
+keywords: ["DRIVER_INFO_8A structure"]
 ms.keywords: "*LPDRIVER_INFO_8A, *PDRIVER_INFO_8A, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8A, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8A, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
-f1_keywords:
- - "winspool/DRIVER_INFO_8"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winspool.h
-api_name:
-- DRIVER_INFO_8
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8A, *PDRIVER_INFO_8A, *LPDRIVER_INFO_8A
+f1_keywords:
+ - _DRIVER_INFO_8A
+ - winspool/_DRIVER_INFO_8A
+ - PDRIVER_INFO_8A
+ - winspool/PDRIVER_INFO_8A
+ - DRIVER_INFO_8A
+ - winspool/DRIVER_INFO_8A
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winspool.h
+api_name:
+ - DRIVER_INFO_8
 ---
 
 # _DRIVER_INFO_8A structure
+
 
 ## -description
 
@@ -136,11 +140,11 @@ A pointer to a null-terminated string that specifies all color profiles that are
 
 ### -field pszInfPath
 
-A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be **NULL** if using the [AddPrinterDriver](/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
 
 ### -field dwPrinterDriverAttributes
 
-This member specifies printer driver related properties. Must be zero if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the *dwPrinterDriverAttributes* parameter.
+This member specifies printer driver related properties. Must be zero if using the [AddPrinterDriver](/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the *dwPrinterDriverAttributes* parameter.
 
 <table>
 <tr>
@@ -165,7 +169,7 @@ PRINTER_DRIVER_XPS
 0x00000002
 
 </td>
-<td>The printer driver supports the Microsoft XPS format described in the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/design/dn641615(v=vs.85)">XML Paper Specification: Overview</a>, and also in <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
+<td>The printer driver supports the Microsoft XPS format described in the <a href="/previous-versions/windows/hardware/design/dn641615(v=vs.85)">XML Paper Specification: Overview</a>, and also in <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
 <td>
 Windows 8
 
@@ -180,7 +184,7 @@ PRINTER_DRIVER_SANDBOX_ENABLED
 0x00000004
 
 </td>
-<td>The printer driver is compatible with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">printer driver isolation</a>. For more information, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <28></a>.</td>
+<td>The printer driver is compatible with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">printer driver isolation</a>. For more information, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <28></a>.</td>
 <td>
 Windows 7
 
@@ -195,7 +199,7 @@ PRINTER_DRIVER_CLASS
 0x00000008
 
 </td>
-<td>The printer driver is a <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">class printer driver</a>.</td>
+<td>The printer driver is a <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">class printer driver</a>.</td>
 <td>
 Windows 8
 
@@ -210,7 +214,7 @@ PRINTER_DRIVER_DERIVED
 0x00000010
 
 </td>
-<td>The printer driver is a <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">derived printer driver</a>.</td>
+<td>The printer driver is a <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">derived printer driver</a>.</td>
 <td>
 Windows 8
 
@@ -240,7 +244,7 @@ PRINTER_DRIVER_CATEGORY_FAX
 0x00000040
 
 </td>
-<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">fax printers</a>.</td>
+<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">fax printers</a>.</td>
 <td>
 Windows 8
 
@@ -255,7 +259,7 @@ PRINTER_DRIVER_CATEGORY_FILE
 0x00000080
 
 </td>
-<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">file printers</a>.</td>
+<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">file printers</a>.</td>
 <td>
 Windows 8
 
@@ -270,7 +274,7 @@ PRINTER_DRIVER_CATEGORY_VIRTUAL
 0x00000100
 
 </td>
-<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">virtual printers</a>.</td>
+<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">virtual printers</a>.</td>
 <td>
 Windows 8
 
@@ -285,7 +289,7 @@ PRINTER_DRIVER_CATEGORY_SERVICE
 0x00000200
 
 </td>
-<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">service printers</a>.</td>
+<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">service printers</a>.</td>
 <td>
 Windows 8
 
@@ -330,7 +334,7 @@ Windows Server 2012
 
 ### -field pszzCoreDriverDependencies
 
-A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by *pszInfPath*. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by *pszInfPath*. Must be **NULL** if using the [AddPrinterDriver](/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
 
 ### -field ftMinInboxDriverVerDate
 

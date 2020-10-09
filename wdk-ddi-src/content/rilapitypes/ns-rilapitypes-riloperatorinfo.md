@@ -8,8 +8,6 @@ ms.assetid: 213a4d4e-d19a-40c4-9bc4-8cf6f8aa2d07
 ms.date: 05/02/2018
 keywords: ["RILOPERATORINFO structure"]
 ms.keywords: "*LPRILOPERATORINFO, RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], netvista.riloperatorinfo, ntddrilapitypes/RILOPERATORINFO"
-f1_keywords:
- - "rilapitypes/RILOPERATORINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILOPERATORINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFO, *LPRILOPERATORINFO
+f1_keywords:
+ - RILOPERATORINFO
+ - rilapitypes/RILOPERATORINFO
+ - LPRILOPERATORINFO
+ - rilapitypes/LPRILOPERATORINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILOPERATORINFO
 ---
 
-# RILOPERATORINFO structure
+# RILOPERATORINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwIndex
 
-
 ### -field dwStatus
-
 
 ### -field ronNames
 

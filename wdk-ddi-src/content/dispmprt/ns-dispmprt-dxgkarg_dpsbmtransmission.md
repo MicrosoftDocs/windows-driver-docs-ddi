@@ -31,13 +31,18 @@ api_name:
  - _DXGKARG_DPSBMTRANSMISSION
  - DXGKARG_DPSBMTRANSMISSION
 f1_keywords:
+ - _DXGKARG_DPSBMTRANSMISSION
  - dispmprt/_DXGKARG_DPSBMTRANSMISSION
+ - PDXGKARG_DPSBMTRANSMISSION
+ - dispmprt/PDXGKARG_DPSBMTRANSMISSION
+ - DXGKARG_DPSBMTRANSMISSION
  - dispmprt/DXGKARG_DPSBMTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKARG_DPSBMTRANSMISSION structure
+
 
 ## -description
 
@@ -88,3 +93,4 @@ Buffer containing the data to write for a write operation, or in which to receiv
 [**DXGKDDI_QUERYDPCAPS**](nc-dispmprt-dxgkddi_querydpcaps.md)
 
 [**DXGKDDI_DPSBMTRANSMISSION**](nc-dispmprt-dxgkddi_dpsbmtransmission.md)
+

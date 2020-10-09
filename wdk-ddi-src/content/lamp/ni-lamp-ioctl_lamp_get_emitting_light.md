@@ -8,8 +8,6 @@ ms.assetid: 82BBD72D-9F65-442F-8B25-E80A2160C5A2
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_EMITTING_LIGHT IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_EMITTING_LIGHT, IOCTL_LAMP_GET_EMITTING_LIGHT control, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_EMITTING_LIGHT, stream.ioctl_lamp_get_emitting_light
-f1_keywords:
- - "lamp/IOCTL_LAMP_GET_EMITTING_LIGHT"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_GET_EMITTING_LIGHT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_GET_EMITTING_LIGHT
+ - lamp/IOCTL_LAMP_GET_EMITTING_LIGHT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_GET_EMITTING_LIGHT
 ---
 
 # IOCTL_LAMP_GET_EMITTING_LIGHT IOCTL
+
 
 ## -description
 
@@ -80,3 +80,4 @@ Length of a **BOOLEAN**.
 The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status. It will set `Irp->IoStatus.Information` to the number of bytes required to hold a **DWORD** value.
 
 If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
+

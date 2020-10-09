@@ -8,8 +8,6 @@ ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.date: 04/30/2018
 keywords: ["KeSetEvent function"]
 ms.keywords: KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent
-f1_keywords:
- - "wdm/KeSetEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetEvent
+ - wdm/KeSetEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetEvent
 ---
 
 # KeSetEvent function
@@ -47,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
-The <b>KeSetEvent</b> routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object. 
-
+The <b>KeSetEvent</b> routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object.
 
 ## -parameters
 
+### -param Event 
 
-
-
-### -param Event [in, out]
-
+[in, out]
 A pointer to an initialized event object for which the caller provides the storage.
 
+### -param Increment 
 
-### -param Increment [in]
-
+[in]
 Specifies the priority increment to be applied if setting the event causes a wait to be satisfied.
 
+### -param Wait 
 
-### -param Wait [in]
-
-Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeSetEvent</b> call must be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
-
+[in]
+Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeSetEvent</b> call must be followed by a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
 
 ## -returns
 
-
-
 If the previous state of the event object was signaled, a nonzero value is returned.
-
-
-
 
 ## -remarks
 
-
-
-Calling <b>KeSetEvent</b> causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a> clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
+Calling <b>KeSetEvent</b> causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a> clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
 
 The <b>KeSetEvent</b> routine might temporarily raise the IRQL. If the <i>Wait</i> parameter is <b>FALSE</b>, the routine, before it returns, restores the IRQL to the original value that it had at the start of the call.
 
@@ -92,35 +79,29 @@ If <i>Wait</i> = <b>TRUE</b>, the routine returns without lowering the IRQL. In 
 
 A pageable thread or pageable driver routine that runs at IRQL = PASSIVE_LEVEL should never call <b>KeSetEvent</b> with the <i>Wait</i> parameter set to TRUE. Such a call causes a fatal page fault if the caller happens to be paged out between the calls to <b>KeSetEvent</b> and <b>KeWait<i>Xxx</i></b>.
 
-For more information about event objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
+For more information about event objects, see <a href="/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
 
 If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL <= DISPATCH_LEVEL. Otherwise, callers of <b>KeSetEvent</b> must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent">KeReadStateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent">KeReadStateEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
@@ -128,12 +109,8 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL <= DISP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/wdf/specifying-priority-boosts-when-completing-i-o-requests">Specifying Priority Boosts When Completing I/O Requests</a>

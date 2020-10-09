@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.CompareAgainst
 title: IDebugHostTypeSignature::CompareAgainst (dbgmodel.h)
-description: The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare. 
+description: The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare.
 ms.assetid: bf788feb-17ff-4844-b247-8083585d3ca7
 ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::CompareAgainst"]
-f1_keywords:
- - "dbgmodel/IDebugHostTypeSignature.CompareAgainst"
 ms.keywords: IDebugHostTypeSignature::CompareAgainst, CompareAgainst, IDebugHostTypeSignature.CompareAgainst, IDebugHostTypeSignature::CompareAgainst, IDebugHostTypeSignature.CompareAgainst
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostTypeSignature.CompareAgainst
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostTypeSignature::CompareAgainst
+ - dbgmodel/IDebugHostTypeSignature::CompareAgainst
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostTypeSignature.CompareAgainst
 ---
 
 # IDebugHostTypeSignature::CompareAgainst
@@ -53,12 +52,15 @@ The CompareAgainst method compares the type signature to another type signature 
 
 Signature 1: 
 
-    std::pair<*, int> 
-
+```
+std::pair<*, int> 
+```
 
 Signature 2:   
 
-    std::pair<int, *>
+```
+std::pair<int, *>
+```
 
 Because the type instance std::pair<int, int> matches either one equally well (both have one concrete and one wildcard match).
 
@@ -66,11 +68,15 @@ Because the type instance std::pair<int, int> matches either one equally well (b
 
 Signature 1: 
 
-    std::pair<*, int> 
+```
+std::pair<*, int> 
+```
 
 Signature 2: 
 
-    std::pair<int, int> 
+```
+std::pair<int, int> 
+```
 
 Because it has a wildcard (the \*) where the second has a concrete type (int).
 
@@ -78,30 +84,36 @@ Because it has a wildcard (the \*) where the second has a concrete type (int).
 
 Signature 1:  
 
-    std::pair<int, int> 
+```
+std::pair<int, int> 
+```
 
 Signature 2:  
 
-    std::pair<*, int> 
+```
+std::pair<*, int> 
+```
 
 Because it has a concrete type (int) where the second has a wildcard (the \*). 
 
 **Identical** - The two signatures or types are identical.
 
-
 ## -parameters
 
 ### -param typeSignature
+
 The type signature to compare against.
 
 ### -param result
+
 An indication of the relationship between the two signatures is returned here -- whether they are unrelated or identical, one is more or less specific than the other, or they are ambiguous. Such relationship is given by a member of the SignatureComparison enumeration.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
+
 **Sample Code**
 
 ```cpp
@@ -121,3 +133,4 @@ if (SUCCEEDED(spSig1->ComapreAgainst(spSig2.Get(), &compResult)))
 ## -see-also
 
 [IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.date: 04/23/2018
 keywords: ["IKsPinFactory::KsPinFactory"]
 ms.keywords: IKsPinFactory interface [Streaming Media Devices],KsPinFactory method, IKsPinFactory.KsPinFactory, IKsPinFactory::KsPinFactory, KsPinFactory, KsPinFactory method [Streaming Media Devices], KsPinFactory method [Streaming Media Devices],IKsPinFactory interface, ksproxy/IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, stream.ikspinfactory_kspinfactory
-f1_keywords:
- - "ksproxy/IKsPinFactory.KsPinFactory"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPinFactory.KsPinFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPinFactory::KsPinFactory
+ - ksproxy/IKsPinFactory::KsPinFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPinFactory.KsPinFactory
 ---
 
 # IKsPinFactory::KsPinFactory
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsPinFactory</b> method retrieves the identifier of a pin factory. 
-
+The <b>KsPinFactory</b> method retrieves the identifier of a pin factory.
 
 ## -parameters
 
+### -param PinFactory 
 
-
-
-### -param PinFactory [out]
-
+[out]
 Pointer to a variable that receives the identifier of the pin factory.
-
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>

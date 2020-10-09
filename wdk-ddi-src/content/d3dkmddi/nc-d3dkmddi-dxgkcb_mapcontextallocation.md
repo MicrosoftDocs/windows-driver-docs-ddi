@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbMapContextAllocation"
+ - DXGKCB_MAPCONTEXTALLOCATION
+ - d3dkmddi/DXGKCB_MAPCONTEXTALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +45,10 @@ product:
 
 # DXGKCB_MAPCONTEXTALLOCATION callback function
 
+
 ## -description
 
-Maps a graphics processing unit (GPU) virtual address to the specified context allocation. This device driver interface (DDI) behaves like its user mode counterpart, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a> for more details.
+Maps a graphics processing unit (GPU) virtual address to the specified context allocation. This device driver interface (DDI) behaves like its user mode counterpart, see <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a> for more details.
 
 ## -parameters
 
@@ -56,7 +58,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_mapcontextallocation">DXGKARGCB_MAPCONTEXTALLOCATION</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_mapcontextallocation">DXGKARGCB_MAPCONTEXTALLOCATION</a> structure that describes the operation.
 
 ## -returns
 
@@ -64,9 +66,8 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_mapcontextallocation">DXGKARGCB_MAPCONTEXTALLOCATION</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_mapcontextallocation">DXGKARGCB_MAPCONTEXTALLOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>

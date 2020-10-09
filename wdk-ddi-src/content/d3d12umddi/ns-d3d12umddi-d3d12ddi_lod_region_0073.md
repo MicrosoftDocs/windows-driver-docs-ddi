@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_LOD_REGION_0073
 f1_keywords:
+ - D3D12DDI_LOD_REGION_0073
  - d3d12umddi/D3D12DDI_LOD_REGION_0073
 dev_langs:
  - c++
@@ -49,3 +50,4 @@ Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.
 ## -remarks
 
 ## -see-also
+

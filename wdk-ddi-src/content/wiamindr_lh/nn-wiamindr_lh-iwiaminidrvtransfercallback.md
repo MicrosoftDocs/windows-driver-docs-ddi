@@ -8,8 +8,6 @@ ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvTransferCallback interface"]
 ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrvTransferCallback"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamindr_lh.h
-api_name:
-- IWiaMiniDrvTransferCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrvTransferCallback
+ - wiamindr_lh/IWiaMiniDrvTransferCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamindr_lh.h
+api_name:
+ - IWiaMiniDrvTransferCallback
 ---
 
 # IWiaMiniDrvTransferCallback interface
+
 
 ## -description
 
@@ -52,10 +52,10 @@ This is a Callback interface that is called by the WIA mini-driver for stream-ba
 
 ## -see-also
 
-[Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
+[Cancellation of Data Transfers](/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
-[Data Transfer Between Legacy Application and Windows Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
+[Data Transfer Between Legacy Application and Windows Driver](/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
-[IStream Transfer Driver Example](https://docs.microsoft.com/windows-hardware/drivers/image/istream-transfer-driver-example)
+[IStream Transfer Driver Example](/windows-hardware/drivers/image/istream-transfer-driver-example)
 
-[Introduction to WIA](https://docs.microsoft.com/windows-hardware/drivers/image/introduction-to-wia)
+[Introduction to WIA](/windows-hardware/drivers/image/introduction-to-wia)

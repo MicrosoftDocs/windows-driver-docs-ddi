@@ -10,6 +10,7 @@ keywords: ["FsRtlAreThereCurrentOrInProgressFileLocks function"]
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 f1_keywords:
  - "ntifs/FsRtlAreThereCurrentOrInProgressFileLocks"
+ - "FsRtlAreThereCurrentOrInProgressFileLocks"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAreThereCurrentOrInProgressFileLocks
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,9 +58,9 @@ The<b>FsRtlAreThereCurrentOrInProgressFileLocks </b>routine determines if there 
 
 
 
-### -param FileLock [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
+### -param FileLock 
+[in]
+A pointer to the <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
 
 
 ## -returns
@@ -77,7 +76,7 @@ The routine returns <b>TRUE</b> when there are any byte range locks assigned to 
 
 
 
-File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routine in <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a> to determine whether to grant a shared oplock.
+File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routine in <a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a> to determine whether to grant a shared oplock.
 
 
 
@@ -87,24 +86,23 @@ File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routin
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
+<a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock">FsRtlGetNextFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock">FsRtlGetNextFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
+<a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
  
 
  
-

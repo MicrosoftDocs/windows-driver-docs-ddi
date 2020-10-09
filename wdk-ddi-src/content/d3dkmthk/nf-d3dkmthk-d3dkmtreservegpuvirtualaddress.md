@@ -7,8 +7,6 @@ ms.assetid: 2F8B689C-162C-4C1B-BD45-A154079334D0
 ms.date: 05/10/2018
 keywords: ["D3DKMTReserveGpuVirtualAddress function"]
 ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
-f1_keywords:
- - "d3dkmthk/D3DKMTReserveGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,25 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTReserveGpuVirtualAddress
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTReserveGpuVirtualAddress
+ - d3dkmthk/D3DKMTReserveGpuVirtualAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTReserveGpuVirtualAddress
 ---
 
 # D3DKMTReserveGpuVirtualAddress function
+
 
 ## -description
 
@@ -60,7 +60,7 @@ When the driver chooses to let the video memory manager pick a base address for 
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 ## -returns
 
@@ -68,5 +68,5 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|The device context was successfully created.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.

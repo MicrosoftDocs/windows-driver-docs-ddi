@@ -6,10 +6,8 @@ old-location: storage\changer_element_status_ex.htm
 tech.root: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.date: 03/29/2018
-keywords: ["_CHANGER_ELEMENT_STATUS_EX structure"]
+keywords: ["CHANGER_ELEMENT_STATUS_EX structure"]
 ms.keywords: "*PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_EXCEPT, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_FULL, ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_INENAB, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_LUN_VALID, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_PRODUCT_DATA, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_SVALID, ERROR_DRIVE_NOT_INSTALLED, ERROR_LABEL_QUESTIONABLE, ERROR_LABEL_UNREADABLE, ERROR_SLOT_NOT_PRESENT, ERROR_TRAY_MALFUNCTION, ERROR_UNHANDLED_ERROR, PCHANGER_ELEMENT_STATUS_EX, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], _CHANGER_ELEMENT_STATUS_EX, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, storage.changer_element_status_ex, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml"
-f1_keywords:
- - "ntddchgr/CHANGER_ELEMENT_STATUS_EX"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddchgr.h
-api_name:
-- CHANGER_ELEMENT_STATUS_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
+f1_keywords:
+ - _CHANGER_ELEMENT_STATUS_EX
+ - ntddchgr/_CHANGER_ELEMENT_STATUS_EX
+ - PCHANGER_ELEMENT_STATUS_EX
+ - ntddchgr/PCHANGER_ELEMENT_STATUS_EX
+ - CHANGER_ELEMENT_STATUS_EX
+ - ntddchgr/CHANGER_ELEMENT_STATUS_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddchgr.h
+api_name:
+ - CHANGER_ELEMENT_STATUS_EX
 ---
 
 # _CHANGER_ELEMENT_STATUS_EX structure
@@ -47,24 +50,17 @@ req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
 
 ## -description
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> routine returns status information in this structure. 
-
+The <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> routine returns status information in this structure.
 
 ## -struct-fields
 
-
-
-
 ### -field Element
 
-Specifies the element of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>  to which this structure refers.
-
+Specifies the element of type <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>  to which this structure refers.
 
 ### -field SrcElementAddress
 
-Specifies the element of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a> from which the media currently in this element was most recently moved. This member is valid only if ELEMENT_STATUS_SVALID is also set in <b>Flags</b>. This value must be a zero-based offset from the device-unique value.
-
+Specifies the element of type <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a> from which the media currently in this element was most recently moved. This member is valid only if ELEMENT_STATUS_SVALID is also set in <b>Flags</b>. This value must be a zero-based offset from the device-unique value.
 
 ### -field Flags
 
@@ -74,7 +70,7 @@ Indicates the status of the element, which can be one or more of the following v
 
 #### ELEMENT_STATUS_FULL
 
-The element contains a piece of media. This flag is valid if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>, <b>ChangerSlot</b>, or <b>ChangerTransport</b>. If <b>ElementType</b> is <b>ChangerIEPort</b>, this flag is valid only if CHANGER_REPORT_IEPORT_STATE is also set in <b>Features0</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>.
+The element contains a piece of media. This flag is valid if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>, <b>ChangerSlot</b>, or <b>ChangerTransport</b>. If <b>ElementType</b> is <b>ChangerIEPort</b>, this flag is valid only if CHANGER_REPORT_IEPORT_STATE is also set in <b>Features0</b> of <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>.
 
 
 
@@ -154,7 +150,6 @@ Primary volume information in the <b>PrimaryVolumeID</b> member is valid.
 
 Alternate volume information in the <b>AlternateVolumeID</b> member is valid.
 
-
 ### -field ExceptionCode
 
 Indicates that the element is in an abnormal state. This member is valid only if ELEMENT_STATUS_EXCEPT is set in <b>Flags</b>. <b>ExceptionCode</b> can be set to one of the following values. 
@@ -195,79 +190,58 @@ The drive at this element address has a tray that must be extended to load or re
 
 Unknown error condition.
 
-
 ### -field TargetId
 
-Specifies the SCSI target ID of the drive at this element address for a SCSI changer. This member is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b> and ELEMENT_STATUS_ID_VALID is set in <b>Flags</b>. 
-
+Specifies the SCSI target ID of the drive at this element address for a SCSI changer. This member is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b> and ELEMENT_STATUS_ID_VALID is set in <b>Flags</b>.
 
 ### -field Lun
 
 Specifies the SCSI device number of the drive at this element address. This member is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b> and ELEMENT_STATUS_LUN_VALID is set in <b>Flags</b>.
 
-
 ### -field Reserved
 
 Reserved for future use. The value of this member must be zero.
 
-
 ### -field PrimaryVolumeID
 
-Specifies the primary volume identifier for the media. If the changer supports a bar code reader and the reader is installed (as indicated by CHANGER_BAR_CODE_SCANNER_INSTALLED in <b>Features0</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>), the miniclass driver must set <b>PrimaryVolumeID</b> to the bar code of the media. If the changer does not support a bar code reader, the miniclass driver should set <b>PrimaryVolumeID</b> to the value previously assigned to the media using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a> routine with an ASSERT_PRIMARY or REPLACE_PRIMARY action. This member is valid only if ELEMENT_STATUS_PVOLTAG is also set in <b>Flags</b>. If the volume identifier is missing or unreadable, the miniclass driver should clear this flag and set the appropriate error status. This identifier must be no larger than MAX_VOLUME_ID_SIZE bytes. 
-
+Specifies the primary volume identifier for the media. If the changer supports a bar code reader and the reader is installed (as indicated by CHANGER_BAR_CODE_SCANNER_INSTALLED in <b>Features0</b> of <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>), the miniclass driver must set <b>PrimaryVolumeID</b> to the bar code of the media. If the changer does not support a bar code reader, the miniclass driver should set <b>PrimaryVolumeID</b> to the value previously assigned to the media using the <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a> routine with an ASSERT_PRIMARY or REPLACE_PRIMARY action. This member is valid only if ELEMENT_STATUS_PVOLTAG is also set in <b>Flags</b>. If the volume identifier is missing or unreadable, the miniclass driver should clear this flag and set the appropriate error status. This identifier must be no larger than MAX_VOLUME_ID_SIZE bytes.
 
 ### -field AlternateVolumeID
 
-Specifies alternate volume identification for the media. This member is valid for two-sided media only, and pertains to the ID of the inverted side. It never represents a bar code. The miniclass driver must set <b>AlternateVolumeID</b> to the value previously assigned to the media using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a> routine with an ASSERT_ALTERNATE or REPLACE_ALTERNATE action. The identifier must be no larger than MAX_VOLUME_ID_SIZE bytes and is valid only if ELEMENT_STATUS_AVOLTAG is also set in <b>Flags</b>.
-
+Specifies alternate volume identification for the media. This member is valid for two-sided media only, and pertains to the ID of the inverted side. It never represents a bar code. The miniclass driver must set <b>AlternateVolumeID</b> to the value previously assigned to the media using the <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a> routine with an ASSERT_ALTERNATE or REPLACE_ALTERNATE action. The identifier must be no larger than MAX_VOLUME_ID_SIZE bytes and is valid only if ELEMENT_STATUS_AVOLTAG is also set in <b>Flags</b>.
 
 ### -field VendorIdentification
 
-Contains the vendor ID. This identifier must be no larger than VENDOR_ID_LENGTH bytes. 
-
+Contains the vendor ID. This identifier must be no larger than VENDOR_ID_LENGTH bytes.
 
 ### -field ProductIdentification
 
-Contains the product ID. This identifier must be no larger than PRODUCT_ID_LENGTH bytes. 
-
+Contains the product ID. This identifier must be no larger than PRODUCT_ID_LENGTH bytes.
 
 ### -field SerialNumber
 
-Contains the serial number. This identifier must be no larger than SERIAL_NUMBER_LENGTH bytes. 
-
+Contains the serial number. This identifier must be no larger than SERIAL_NUMBER_LENGTH bytes.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> routine returns status information in this structure if vendor, product, or serial number information is needed. Otherwise, <b>ChangerGetElementStatus</b> returns status information in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a> structure.
-
-
-
+The <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> routine returns status information in this structure if vendor, product, or serial number information is needed. Otherwise, <b>ChangerGetElementStatus</b> returns status information in the <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a> structure.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>

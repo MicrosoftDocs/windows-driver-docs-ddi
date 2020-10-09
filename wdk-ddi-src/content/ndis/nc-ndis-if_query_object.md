@@ -6,10 +6,7 @@ old-location: netvista\providerqueryobject.htm
 tech.root: netvista
 ms.assetid: dea90ff0-7620-4364-90dc-2dc5d2e34ce1
 ms.date: 05/02/2018
-keywords: ["IF_QUERY_OBJECT callback function"]
-ms.keywords: "IFP_QUERY_OBJECT, IFP_QUERY_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_QUERY_OBJECT, IF_QUERY_OBJECT callback, ProviderQueryObject, ProviderQueryObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderQueryObject, net_if_provider_functions_ref_8e4d405f-cae0-40bc-8d9d-6d85e5c7ff06.xml, netvista.providerqueryobject"
-f1_keywords:
- - "ndis/IFP_QUERY_OBJECT"
+ms.keywords: IFP_QUERY_OBJECT, IFP_QUERY_OBJECT callback function
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +24,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- IFP_QUERY_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IF_QUERY_OBJECT
+ - ndis/IF_QUERY_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - IFP_QUERY_OBJECT
+product:
+ - Windows
 ---
 
 # IF_QUERY_OBJECT callback function
@@ -47,47 +47,40 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>ProviderQueryObject</i> function retrieves information about a network interface.
 
-
 ## -parameters
 
+### -param ProviderIfContext 
 
-
-
-### -param ProviderIfContext [in]
-
+[in]
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
+### -param ObjectId 
 
-### -param ObjectId [in]
-
+[in]
 An identifier for the object that is the target of the query request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     <a href="/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
      OIDs</a>.
 
+### -param pOutputBufferLength 
 
-### -param pOutputBufferLength [in, out]
-
+[in, out]
 A pointer to an NDIS-supplied variable in which NDIS provides the length of the output buffer. 
      <i>ProviderQueryObject</i> writes the length of the data that it put in the output buffer.
 
+### -param pOutputBuffer 
 
-### -param pOutputBuffer [out]
-
+[out]
 A pointer to an NDIS-supplied output buffer in which 
      <i>ProviderQueryObject</i> writes the response to the query request.
 
-
 ## -returns
-
-
 
 <i>ProviderQueryObject</i> returns one of the following status values:
 
@@ -142,33 +135,17 @@ The call failed for some other reason. This function can propagate error codes f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS calls a network interface provider's 
     <i>ProviderQueryObject</i> function to obtain information about an interface that the provider registered.
     For a list of OIDs that apply to interface providers, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
+    <a href="/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
 
 NDIS calls 
     <i>ProviderQueryObject</i> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>

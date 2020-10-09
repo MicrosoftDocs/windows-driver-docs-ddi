@@ -8,8 +8,6 @@ ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
 ms.date: 04/30/2018
 keywords: ["IoRaiseHardError function"]
 ms.keywords: IoRaiseHardError, IoRaiseHardError routine [Kernel-Mode Driver Architecture], k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, kernel.ioraiseharderror, ntddk/IoRaiseHardError
-f1_keywords:
- - "ntddk/IoRaiseHardError"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRaiseHardError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRaiseHardError
+ - ntddk/IoRaiseHardError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRaiseHardError
 ---
 
 # IoRaiseHardError function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRaiseHardError</b> routine causes a dialog box to appears that warns the user that a device I/O error has occurred, which might indicate that a physical device is failing.
-
 
 ## -parameters
 
+### -param Irp 
 
+[in]
+Pointer to the IRP that failed because of a device I/O error.
 
+### -param Vpb 
 
-### -param Irp [in]
-
-Pointer to the IRP that failed because of a device I/O error. 
-
-
-### -param Vpb [in, optional]
-
+[in, optional]
 Pointer to the volume parameter block (VPB), if any, for the mounted file object. This parameter is <b>NULL</b> if no VPB is associated with the device object.
 
+### -param RealDeviceObject 
 
-### -param RealDeviceObject [in]
-
-Pointer to the device object that represents the physical device on which the I/O operation failed. 
-
+[in]
+Pointer to the device object that represents the physical device on which the I/O operation failed.
 
 ## -remarks
-
-
 
 Highest-level drivers, particularly file system drivers, call <b>IoRaiseHardError</b>.
 
@@ -84,7 +76,7 @@ Highest-level drivers, particularly file system drivers, call <b>IoRaiseHardErro
 <div> </div>
 <ol>
 <li>
-An upper-level filter driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
+An upper-level filter driver calls <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
 
 </li>
 <li>
@@ -96,26 +88,16 @@ Deadlock now exists: The normal kernel APC created by <b>IoRaiseHardError</b> to
 
 </li>
 </ol>
-The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode">IoSetThreadHardErrorMode</a>, this routine completes the IRP specified by <i>Irp</i> without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure. 
-
-
-
+The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode">IoSetThreadHardErrorMode</a>, this routine completes the IRP specified by <i>Irp</i> without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject">IoGetRelatedDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject">IoGetRelatedDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode">IoSetThreadHardErrorMode</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode">IoSetThreadHardErrorMode</a>

@@ -8,8 +8,6 @@ ms.assetid: 67580632-ff9a-4d29-8e4e-c21f04aa4b47
 ms.date: 04/20/2018
 keywords: ["OEMStartDoc function"]
 ms.keywords: OEMStartDoc, OEMStartDoc function [Print Devices], print.oemstartdoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, printoem/OEMStartDoc
-f1_keywords:
- - "printoem/OEMStartDoc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMStartDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMStartDoc
+ - printoem/OEMStartDoc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMStartDoc
 ---
 
 # OEMStartDoc function
@@ -47,20 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMStartDoc</code> function is called by GDI when it is ready to start sending a document to the driver for rendering.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
 
+### -param pwszDocName 
 
-### -param pwszDocName [in]
-
+[in]
 
 ### -param dwJobId
 

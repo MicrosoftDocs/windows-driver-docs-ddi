@@ -8,8 +8,6 @@ ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.date: 04/30/2018
 keywords: ["IoGetDeviceProperty function"]
 ms.keywords: IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty
-f1_keywords:
- - "wdm/IoGetDeviceProperty"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetDeviceProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetDeviceProperty
+ - wdm/IoGetDeviceProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetDeviceProperty
 ---
 
 # IoGetDeviceProperty function
+
 
 ## -description
 
@@ -50,13 +50,15 @@ The **IoGetDeviceProperty** routine retrieves information about a device such as
 
 ## -parameters
 
-### -param DeviceObject [in]
+### -param DeviceObject 
 
+[in]
 Pointer to the physical device object (PDO) for the device being queried.
 
-### -param DeviceProperty [in]
+### -param DeviceProperty 
 
-Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property) enumeration values:
+[in]
+Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](./ne-wdm-device_registry_property.md) enumeration values:
 
 #### DevicePropertyAddress
 
@@ -66,7 +68,7 @@ The interpretation of this address is bus-specific. The caller of this routine s
 
 #### DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list) structure.
+Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
 
 #### DevicePropertyBootConfigurationTranslated
 
@@ -90,7 +92,7 @@ Requests the name of the device's setup class, in text format. *PropertyBuffer* 
 
 #### DevicePropertyCompatibleIDs
 
-Requests the [compatible IDs](https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+Requests the [compatible IDs](/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
 
 #### DevicePropertyDeviceDescription
 
@@ -110,7 +112,7 @@ Requests a string that can be used to distinguish between two similar devices, t
 
 #### DevicePropertyHardwareID
 
-Requests the [hardware](https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+Requests the [hardware](/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
 
 #### DevicePropertyInstallState
 
@@ -142,16 +144,19 @@ Requests a number associated with the device that can be displayed in the user i
 
 This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
 
-### -param BufferLength [in]
+### -param BufferLength 
 
+[in]
 Specifies the size, in bytes, of the caller-supplied *PropertyBuffer*.
 
-### -param PropertyBuffer [out, optional]
+### -param PropertyBuffer 
 
+[out, optional]
 Pointer to a caller-supplied buffer to receive the property information. The buffer can be allocated from pageable memory. The type of the buffer is determined by the *DeviceProperty* (see above).
 
-### -param ResultLength [out]
+### -param ResultLength 
 
+[out]
 Pointer to a ULONG to receive the size of the property information returned at *PropertyBuffer*. If **IoGetDeviceProperty** returns STATUS_BUFFER_TOO_SMALL, it sets this parameter to the required buffer length.
 
 ## -returns
@@ -180,7 +185,7 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 [ExAllocatePoolWithTag](nf-wdm-exallocatepoolwithtag.md)
 
-[GUID](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-notificationarea-promotedicon2-guid)
+[GUID](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-notificationarea-promotedicon2-guid)
 
 [INTERFACE_TYPE](ne-wdm-_interface_type.md)
 

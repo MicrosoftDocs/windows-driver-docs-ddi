@@ -8,8 +8,6 @@ ms.assetid: 40bf1a26-bba9-4484-b92a-2c2680f66cb5
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetCount method, IPortableDeviceValues.GetCount, IPortableDeviceValues::GetCount, IPortableDeviceValuesGetCount, portabledevicetypes/IPortableDeviceValues::GetCount, wpddk.iportabledevicevalues_getcount
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetCount
+ - portabledevicetypes/IPortableDeviceValues::GetCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetCount
 ---
 
 # IPortableDeviceValues::GetCount
@@ -48,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves the number of items in the collection.
-
-
-
 
 ## -parameters
 
+### -param pcelt 
 
-
-
-### -param pcelt [in]
-
+[in]
 Pointer to a <b>DWORD</b> that contains the number of items in the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +77,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>

@@ -8,8 +8,6 @@ ms.assetid: cda46d60-913c-40f7-958a-5f9dea93bd0f
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function"]
 ms.keywords: DebugExtensionQueryValueNames, DebugExtensionQueryValueNames callback function [Windows Debugging], Extensions_Ref_d06137e2-2d0a-4760-b5f6-2f03355f8c07.xml, PDEBUG_EXTENSION_QUERY_VALUE_NAMES, PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback, dbgeng/DebugExtensionQueryValueNames, debugger.debugextensionqueryvaluenames
-f1_keywords:
- - "dbgeng/DebugExtensionQueryValueNames"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dbgeng.h
-api_name:
-- DebugExtensionQueryValueNames
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_EXTENSION_QUERY_VALUE_NAMES
+ - dbgeng/PDEBUG_EXTENSION_QUERY_VALUE_NAMES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dbgeng.h
+api_name:
+ - DebugExtensionQueryValueNames
 ---
 
 # PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function
@@ -47,52 +46,41 @@ req.typenames:
 
 ## -description
 
+The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
 
-The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
+```
+
 
 ## -parameters
 
+### -param Client 
 
-
-
-### -param Client [in]
-
+[in]
 A client to use if the extension needs DbgEng functions.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Provides behavioral flags. This parameter is currently reserved.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 A string buffer that the caller provides, to be filled with the set of value names that the client wants to expose.
 
+### -param BufferChars 
 
-### -param BufferChars [in]
-
+[in]
 The count of wide characters in <i>Buffer</i>.
 
+### -param BufferNeeded 
 
-### -param BufferNeeded [out]
-
+[out]
 The number of wide characters that this function needs to complete successfully.
 
-
 ## -returns
-
-
 
 <b>DebugExtensionQueryValueNames</b> might return one of the following values:
 
@@ -126,28 +114,17 @@ The function completed without error, but it obtained only partial results.
 </table>
  
 
-This function might also return error values.  For more information about possible return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
-
-
-
+This function might also return error values.  For more information about possible return values, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
-
-
 
 Value names must start with <b>$$</b> and have a terminating NULL character. The <i>Buffer</i> string must also be NULL-terminated. For example, <i>Buffer</i> could be "$$myval1\0$$myval2\0\0".
 
 <i>DebugExtensionQueryValueNames</i> is called <b>PDEBUG_EXTENSION_QUERY_VALUE_NAMES</b> in the Dbgeng.h header file.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
 
 
 
@@ -164,7 +141,3 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 <i>KnownStructOutput</i>
- 
-
- 
-

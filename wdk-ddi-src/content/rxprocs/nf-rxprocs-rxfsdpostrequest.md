@@ -8,8 +8,6 @@ ms.assetid: 0b1bc248-6b8e-498c-936d-64f6ff9fa183
 ms.date: 04/16/2018
 keywords: ["RxFsdPostRequest function"]
 ms.keywords: RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers], ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml
-f1_keywords:
- - "rxprocs/RxFsdPostRequest"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxFsdPostRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFsdPostRequest
+ - rxprocs/RxFsdPostRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxFsdPostRequest
 ---
 
 # RxFsdPostRequest function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFsdPostRequest</b> queues the I/O request packet (IRP) specified by an RX_CONTEXT structure to the worker queue for processing by the file system process (FSP). 
-
+<b>RxFsdPostRequest</b> queues the I/O request packet (IRP) specified by an RX_CONTEXT structure to the worker queue for processing by the file system process (FSP).
 
 ## -parameters
 
+### -param RxContext 
 
-
-
-### -param RxContext [in]
-
+[in]
 A pointer to the RX_CONTEXT containing the IRP to be queued to a worker thread.
 
-
 ## -returns
-
-
 
 <b>RxFsdPostRequest</b> returns the following values: 
 
@@ -84,14 +76,8 @@ An asynchornous request was made and has been queued to a worker thread for late
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RxFsdPostRequest</b> is normally called by RDBSS to process an asynchronous I/O request packet (IRP). These IRPs are normally received by RDBSS in response to a user-mode application requesting operations on a file. It is also possible for another kernel driver to issue such an IRP. 
 
@@ -123,18 +109,8 @@ The <b>MajorFunction</b> member of <i>RxContext</i> will determine which work qu
 
 If the <b>FileObject</b> member of the IRP is not <b>NULL</b> and the request can be posted immediately for processing (the threshold for the device queue is empty), then this will occur. Otherwise, the request will be posted to an overflow queue on the volume.
 
-All calls to <b>RxFsdPostRequest</b> are queued to a worker thread to call the <b>RxFsdDispatch</b> routine passing in the <i>RxContext</i> parameter. 
-
-
-
+All calls to <b>RxFsdPostRequest</b> are queued to a worker thread to call the <b>RxFsdDispatch</b> routine passing in the <i>RxContext</i> parameter.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxfsddispatch">RxFsdDispatch</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxfsddispatch">RxFsdDispatch</a>

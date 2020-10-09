@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: devinst
+f1_keywords:
+ - avc
+ - avc/avc
 ---
 
 # Avc.h header
@@ -18,7 +19,7 @@ tech.root: devinst
 
 ## -description
 
-
 This header is used by devinst. For more information, see:
 
 - [Driver installation](../_devinst/index.md)
+

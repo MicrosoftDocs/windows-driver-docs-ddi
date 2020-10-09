@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2texblt.htm
 tech.root: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2TEXBLT structure"]
+keywords: ["D3DHAL_DP2TEXBLT structure"]
 ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], _D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2TEXBLT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2TEXBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2TEXBLT
+f1_keywords:
+ - _D3DHAL_DP2TEXBLT
+ - d3dhal/_D3DHAL_DP2TEXBLT
+ - D3DHAL_DP2TEXBLT
+ - d3dhal/D3DHAL_DP2TEXBLT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2TEXBLT
 ---
 
 # _D3DHAL_DP2TEXBLT structure
@@ -47,49 +48,37 @@ req.typenames: D3DHAL_DP2TEXBLT
 
 ## -description
 
-
-The D3DHAL_DP2TEXBLT structure is used for texture blts when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> responds to the D3DDP2OP_TEXBLT command token.
-
+The D3DHAL_DP2TEXBLT structure is used for texture blts when <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> responds to the D3DDP2OP_TEXBLT command token.
 
 ## -struct-fields
-
-
-
 
 ### -field dwDDDestSurface
 
 Specifies the handle to the destination texture.
 
-
 ### -field dwDDSrcSurface
 
 Specifies the handle to the source texture.
-
 
 ### -field pDest
 
 Specifies the destination point where the blt should be performed, that is, the point in the destination surface (<b>dwDDDestSurface</b>) to begin the blt. These <i>x</i> and <i>y</i> members of the POINT structure are specified in screen coordinates.
 
-
 ### -field rSrc
 
 Specifies the rectangle to be blitted in the source texture, that is, the source rectangle in the source surface (<b>dwDDSrcSurface</b>) to blt from.
-
 
 ### -field dwFlags
 
 Reserved for system use.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
+The <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
 
 The D3DHAL_DP2TEXBLT structure is used with a D3DDP2OP_TEXBLT command stream token to inform the drivers to perform a blt operation from a source texture to a destination texture. A texture can also be cubic environment map. The driver should copy a rectangle specified by <b>rSrc</b> in the source texture to the location specified by <b>pDest</b> in the destination texture. The destination and source textures are identified by handles that the driver was notified with during texture creation time. If the driver is capable of managing textures, then it is possible that the destination handle is 0. This indicates to the driver that it should preload the texture into video memory (or wherever the hardware efficiently textures from). In this case, the driver can ignore <b>rSrc</b> and <b>pDest</b>. 
 
-Note that for MIP mapped textures, only one D3DDP2OP_TEXBLT instruction is inserted into the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> command stream. In this case, the driver is expected to blt all the MIP map levels present in the texture. The regions to be copied in MIP map sublevels can be obtained by dividing <b>rSrc</b> and<b>pDest</b> by 2 at each level. 
+Note that for MIP mapped textures, only one D3DDP2OP_TEXBLT instruction is inserted into the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> command stream. In this case, the driver is expected to blt all the MIP map levels present in the texture. The regions to be copied in MIP map sublevels can be obtained by dividing <b>rSrc</b> and<b>pDest</b> by 2 at each level. 
 
 It is possible that the source and destination textures may contain different numbers of MIP map levels. In this case, the driver is expected to blt the common levels. For example, if a 256x256 source texture has 8 MIP map levels, and if the destination is a 64x64 texture with 6 levels, then the driver should blt the 6 corresponding levels from the source. The driver can expect the dimensions of the top MIP level of the destination texture to always be less than or equal to the dimensions of the top MIP level of the source texture. 
 
@@ -116,22 +105,14 @@ rect.bottom = ((bottom - rect.top ) < 1) ?
     (rect.top + 1) : (bottom);
 ```
 
-
 ## -see-also
-
-
-
 
 D3DDP2OP_TEXBLT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

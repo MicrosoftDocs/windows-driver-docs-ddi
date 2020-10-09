@@ -8,8 +8,6 @@ ms.assetid: ae66a86c-bf63-4bc7-87db-9d464004519a
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetIUnknownValue"]
 ms.keywords: GetIUnknownValue, GetIUnknownValue method, GetIUnknownValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIUnknownValue method, IPortableDeviceValues.GetIUnknownValue, IPortableDeviceValues::GetIUnknownValue, IPortableDeviceValuesGetIUnknownValue, portabledevicetypes/IPortableDeviceValues::GetIUnknownValue, wpddk.iportabledevicevalues_getiunknownvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetIUnknownValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetIUnknownValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetIUnknownValue
+ - portabledevicetypes/IPortableDeviceValues::GetIUnknownValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetIUnknownValue
 ---
 
 # IPortableDeviceValues::GetIUnknownValue
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves an <b>IUnknown</b> interface value (type VT_UNKNOWN) that is specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param ppValue 
 
-### -param ppValue [out]
-
+[out]
 Address of a variable that receives a pointer to the retrieved <b>IUnknown</b> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,31 +104,15 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setiunknownvalue">IPortableDeviceValues::SetIUnknownValue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setiunknownvalue">IPortableDeviceValues::SetIUnknownValue</a>

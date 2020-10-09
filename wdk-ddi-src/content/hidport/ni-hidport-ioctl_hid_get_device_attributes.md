@@ -8,8 +8,6 @@ ms.assetid: ee68c045-e99a-471d-ae22-396673d68168
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_HID_GET_DEVICE_ATTRIBUTES, IOCTL_HID_GET_DEVICE_ATTRIBUTES control, IOCTL_HID_GET_DEVICE_ATTRIBUTES control code [Human Input Devices], hid.ioctl_hid_get_device_attributes, hidioreq_417c2e10-9ca8-4a9f-8a30-1ff401b65b13.xml, hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES
-f1_keywords:
- - "hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidport.h
-api_name:
-- IOCTL_HID_GET_DEVICE_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_GET_DEVICE_ATTRIBUTES
+ - hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidport.h
+api_name:
+ - IOCTL_HID_GET_DEVICE_ATTRIBUTES
 ---
 
 # IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL
@@ -47,54 +46,31 @@ req.typenames:
 
 ## -description
 
+The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a> structure.
 
-The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a> structure.
-
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> contains the length, in bytes, of the HID class driver's buffer located at <b>Irp->UserBuffer</b>. 
-
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> contains the length, in bytes, of the HID class driver's buffer located at <b>Irp->UserBuffer</b>.
 
 ### -input-buffer-length
 
 The size, in bytes, of the buffer must be greater than or equal to the size, in bytes, of a HID_DEVICE_ATTRIBUTES structure.
 
-
 ### -output-buffer
 
 The HID minidriver returns the device attributes in a HID_DEVICE_ATTRIBUTES structure at <b>Irp->UserBuffer</b>.
-
 
 ### -output-buffer-length
 
 The size of a HID_DEVICE_ATTRIBUTES structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -113,15 +89,8 @@ The HID minidriver sets the following fields of <b>Irp->IoStatus</b>:
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>

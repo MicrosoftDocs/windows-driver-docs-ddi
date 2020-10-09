@@ -8,8 +8,6 @@ ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
 ms.date: 05/02/2018
 keywords: ["FwpsvSwitchEventsSubscribe0 function"]
 ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
-f1_keywords:
- - "fwpsk/FwpsvSwitchEventsSubscribe0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsvSwitchEventsSubscribe0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsvSwitchEventsSubscribe0
+ - fwpsk/FwpsvSwitchEventsSubscribe0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsvSwitchEventsSubscribe0
 ---
 
 # FwpsvSwitchEventsSubscribe0 function
@@ -48,52 +47,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>FwpsvSwitchEventsSubscribe0</b> function registers callback entry points for virtual switch  layer events such as virtual port creation and deletion.<div class="alert"><b>Note</b>  <b>FwpsvSwitchEventsSubscribe0</b> is a specific version of <b>FwpsvSwitchEventsSubscribe</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsvSwitchEventsSubscribe0</b> function registers callback entry points for virtual switch  layer events such as virtual port creation and deletion.<div class="alert"><b>Note</b>  <b>FwpsvSwitchEventsSubscribe0</b> is a specific version of <b>FwpsvSwitchEventsSubscribe</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param providerGuid
 
 The provider GUID.
 
-
-
-
 ### -param notifyContext
 
 An optional pointer to a callout driver–supplied context. Event notification functions  pass this parameter back to the driver.
-
 
 ### -param flags
 
 Reserved. Set to zero.
 
-
 ### -param reserved
 
 Reserved. Set to zero.
 
-
 ### -param eventDispatchTable
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE</a> structure that defines the callback entry points for virtual switch layer events.
-
+A pointer to an <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE</a> structure that defines the callback entry points for virtual switch layer events.
 
 ### -param subscriptionId
 
-A pointer to a variable that contains a unique identifier that WFP assigns to the subscription. The caller must return the subscription identifier to WFP with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a> function.
-
+A pointer to a variable that contains a unique identifier that WFP assigns to the subscription. The caller must return the subscription identifier to WFP with the  <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a> function.
 
 ## -returns
-
-
 
 The 
      <b>FwpsvSwitchEventsSubscribe0</b> function returns one of the following NTSTATUS codes.
@@ -127,37 +110,21 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A callout driver calls the <b>FwpsvSwitchEventsSubscribe0</b> function to register callback entry points for virtual switch  layer events.
 
-The entry points for the callback notification functions are specified in and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure. 
+The entry points for the callback notification functions are specified in and <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure. 
 
 The callout driver must later call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a>  to
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a>  to
     free the system resources.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventsunsubscribe0">FwpsvSwitchEventsUnsubscribe0</a>

@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeMcb function"]
 ms.keywords: FsRtlInitializeMcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, ifsk.fsrtlinitializemcb, ntifs/FsRtlInitializeMcb
 f1_keywords:
  - "ntifs/FsRtlInitializeMcb"
+ - "FsRtlInitializeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlInitializeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -48,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb">FsRtlInitializeLargeMcb</a> instead.
+The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb">FsRtlInitializeLargeMcb</a> instead.
 
 
 ## -parameters
@@ -64,8 +63,3 @@ The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support ex
 ### -param PoolType
 
 TBD
-
-
-
-
-

@@ -5,39 +5,38 @@ description: The CreateFunctionAlias method creates a "function alias", a "quick
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.date: 06/11/2019
 keywords: ["IDebugHostExtensibility::CreateFunctionAlias"]
-f1_keywords:
- - "dbgmodel/IDebugHostExtensibility.CreateFunctionAlias"
 ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostExtensibility.CreateFunctionAlias
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostExtensibility::CreateFunctionAlias
+ - dbgmodel/IDebugHostExtensibility::CreateFunctionAlias
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostExtensibility.CreateFunctionAlias
 ---
 
 # IDebugHostExtensibility::CreateFunctionAlias
@@ -53,20 +52,22 @@ For Debugging Tools for Windows, a function alias:
 
 - Can be invoked via the older bang syntax. The invocation "!someName arg1, arg2, ..." is semantically equivalent to running the (dx) expression evaluator with "@$someName(arg1, arg2, ...)" and displaying the result.
 
-
 ## -parameters
 
 ### -param aliasName
+
 The (quick) name of the alias being created/registered.
 
 ### -param functionObject
+
 A data model method (an [IModelMethod](nn-dbgmodel-imodelmethod.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md)) which implements the functionality of the function alias.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
+
 **Sample Code**
 
 ```cpp
@@ -148,7 +149,7 @@ if (spSumFunc != nullptr)
 }
 ```
 
-
 ## -see-also
 
 [IDebugHostExtensibility interface](nn-dbgmodel-idebughostextensibility.md)
+

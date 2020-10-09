@@ -8,8 +8,6 @@ ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.date: 05/08/2018
 keywords: ["IAdapterPowerManagement::PowerChangeState"]
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],PowerChangeState method, IAdapterPowerManagement.PowerChangeState, IAdapterPowerManagement::PowerChangeState, PowerChangeState, PowerChangeState method [Audio Devices], PowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_powerchangestate, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, portcls/IAdapterPowerManagement::PowerChangeState
-f1_keywords:
- - "portcls/IAdapterPowerManagement.PowerChangeState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IAdapterPowerManagement.PowerChangeState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IAdapterPowerManagement::PowerChangeState
+ - portcls/IAdapterPowerManagement::PowerChangeState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IAdapterPowerManagement.PowerChangeState
 ---
 
 # IAdapterPowerManagement::PowerChangeState
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>PowerChangeState</code> method requests that the device change to a new power state.
-
 
 ## -parameters
 
+### -param NewState 
 
-
-
-### -param NewState [in]
-
+[in]
 Specifies the new power state being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values shown in the following table.
 
 <table>
@@ -106,16 +101,12 @@ A full hibernation state and is the longest latency sleep state. The driver cann
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+PortCls calls the <code>PowerChangeState</code> method in response to an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> power IRP. This call must not fail. PortCls and the system use the <code>PowerChangeState</code> call to place the device in the desired power state. When the system attempts to suspend or resume an active audio stream, the driver must be capable of saving or restoring its device context appropriately.
 
-
-PortCls calls the <code>PowerChangeState</code> method in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> power IRP. This call must not fail. PortCls and the system use the <code>PowerChangeState</code> call to place the device in the desired power state. When the system attempts to suspend or resume an active audio stream, the driver must be capable of saving or restoring its device context appropriately.
-
-To assist the driver, PortCls will pause any active audio streams prior to calling this method to place the device in a sleep state. After calling this method, PortCls will unpause active audio streams, to wake the device up. Miniports can opt for additional notification by utilizing the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a> interface.
+To assist the driver, PortCls will pause any active audio streams prior to calling this method to place the device in a sleep state. After calling this method, PortCls will unpause active audio streams, to wake the device up. Miniports can opt for additional notification by utilizing the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a> interface.
 
 The miniport driver must perform the requested change to the device's power state before it returns from the <code>PowerChangeState</code> call. If the miniport driver needs to save or restore any device state before a power-state change, the miniport driver should support the <b>IPowerNotify</b> interface, which allows it to receive advance warning of any such change. Before returning from a successful <code>PowerChangeState</code> call, the miniport driver should cache the new power state.
 
@@ -125,24 +116,14 @@ While powered down, a miniport driver is never asked to create a miniport driver
 
 The code for this method must reside in paged memory.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>

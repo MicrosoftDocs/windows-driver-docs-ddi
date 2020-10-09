@@ -8,8 +8,6 @@ ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.date: 03/29/2018
 keywords: ["StorPortReady function"]
 ms.keywords: StorPortReady, StorPortReady routine [Storage Devices], storage.storportready, storport/StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
-f1_keywords:
- - "storport/StorPortReady"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortReady
+ - storport/StorPortReady
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortReady
 ---
 
 # StorPortReady function
@@ -48,45 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortReady</b> routine notifies the port driver that the adapter is no longer busy.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
-
+[in]
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ## -returns
 
-
-
-<b>StorPortReady</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver and <b>FALSE</b> if not. 
-
-
-
+<b>StorPortReady</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver and <b>FALSE</b> if not.
 
 ## -remarks
 
-
-
 The functionality provided by this routine is exclusive to the Storport driver library. It has no parallel in the library of ScsiPort support routines.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportbusy">StorPortBusy</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportbusy">StorPortBusy</a>

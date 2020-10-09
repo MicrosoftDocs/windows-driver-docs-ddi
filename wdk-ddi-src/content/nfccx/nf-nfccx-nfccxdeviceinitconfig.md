@@ -8,8 +8,6 @@ ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
 ms.date: 02/15/2018
 keywords: ["NfcCxDeviceInitConfig function"]
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
-f1_keywords:
- - "nfccx/NfcCxDeviceInitConfig"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NfcCx.dll
-api_name:
-- NfcCxDeviceInitConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NfcCxDeviceInitConfig
+ - nfccx/NfcCxDeviceInitConfig
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NfcCx.dll
+api_name:
+ - NfcCxDeviceInitConfig
 ---
 
 # NfcCxDeviceInitConfig function
@@ -47,52 +46,36 @@ req.typenames:
 
 ## -description
 
-
 Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket </a>
+<a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_device_io_control">EvtNfcCxDeviceIoControl </a>
+<a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_device_io_control">EvtNfcCxDeviceIoControl </a>
 </li>
 </ul>
 
 ## -parameters
 
+### -param DeviceInit 
 
+[in, out]
+A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param Config 
 
-### -param DeviceInit [in, out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. 
-
-
-### -param Config [in]
-
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
-
+[in]
+A pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns STATUS_SUCCESS.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

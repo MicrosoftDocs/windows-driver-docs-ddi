@@ -6,10 +6,8 @@ old-location: ieee\isoch_descriptor.htm
 tech.root: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.date: 02/15/2018
-keywords: ["_ISOCH_DESCRIPTOR structure"]
+keywords: ["ISOCH_DESCRIPTOR structure"]
 ms.keywords: "*PISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, IEEE.isoch_descriptor, ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], PISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR structure pointer [Buses], _ISOCH_DESCRIPTOR"
-f1_keywords:
- - "1394/ISOCH_DESCRIPTOR"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- ISOCH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
+f1_keywords:
+ - _ISOCH_DESCRIPTOR
+ - 1394/_ISOCH_DESCRIPTOR
+ - PISOCH_DESCRIPTOR
+ - 1394/PISOCH_DESCRIPTOR
+ - ISOCH_DESCRIPTOR
+ - 1394/ISOCH_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - ISOCH_DESCRIPTOR
 ---
 
 # _ISOCH_DESCRIPTOR structure
+
 
 ## -description
 
@@ -174,16 +178,11 @@ If the DESCRIPTOR_SYNCH_ON_TIME flag is set, this member specifies the isochrono
 
 Pointer to a callback routine. If non-NULL, the bus driver calls this routine to indicate that the associated attached buffers are ready to be detached. The callback executes at IRQL DISPATCH_LEVEL. The callback is of the following type:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void Callback(IN PVOID Context1, IN PVOID Context2);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+void Callback(IN PVOID Context1, IN PVOID Context2);
+```
+
 
 ### -field Context1
 
@@ -242,7 +241,7 @@ If the driver sets the DESCRIPTOR_HEADER_SCATTER_GATHER flag, the host controlle
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 

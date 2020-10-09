@@ -8,38 +8,41 @@ ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
 ms.date: 02/16/2018
 keywords: ["DOT11_EXTSTA_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_attributes, windot11/DOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES"
-f1_keywords:
- - "windot11/DOT11_EXTSTA_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_EXTSTA_ATTRIBUTES
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES
+f1_keywords:
+ - DOT11_EXTSTA_ATTRIBUTES
+ - windot11/DOT11_EXTSTA_ATTRIBUTES
+ - PDOT11_EXTSTA_ATTRIBUTES
+ - windot11/PDOT11_EXTSTA_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_EXTSTA_ATTRIBUTES
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_ATTRIBUTES structure
@@ -47,56 +50,13 @@ product:
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when operating in Extensible Station (ExtSTA) mode. For more information about
   this operation mode, see
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+  <a href="/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
   Mode</a>.
 
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_EXTSTA_ATTRIBUTES {
-  NDIS_OBJECT_HEADER              Header;
-  ULONG                           uScanSSIDListSize;
-  ULONG                           uDesiredBSSIDListSize;
-  ULONG                           uDesiredSSIDListSize;
-  ULONG                           uExcludedMacAddressListSize;
-  ULONG                           uPrivacyExemptionListSize;
-  ULONG                           uKeyMappingTableSize;
-  ULONG                           uDefaultKeyTableSize;
-  ULONG                           uWEPKeyValueMaxLength;
-  ULONG                           uPMKIDCacheSize;
-  ULONG                           uMaxNumPerSTADefaultKeyTables;
-  BOOLEAN                         bStrictlyOrderedServiceClassImplemented;
-  UCHAR                           ucSupportedQoSProtocolFlags;
-  BOOLEAN                         bSafeModeImplemented;
-  ULONG                           uNumSupportedCountryOrRegionStrings;
-  PDOT11_COUNTRY_OR_REGION_STRING pSupportedCountryOrRegionStrings;
-  ULONG                           uInfraNumSupportedUcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedUcastAlgoPairs;
-  ULONG                           uInfraNumSupportedMcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastAlgoPairs;
-  ULONG                           uAdhocNumSupportedUcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pAdhocSupportedUcastAlgoPairs;
-  ULONG                           uAdhocNumSupportedMcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pAdhocSupportedMcastAlgoPairs;
-  BOOLEAN                         bAutoPowerSaveMode;
-  ULONG                           uMaxNetworkOffloadListSize;
-  BOOLEAN                         bMFPCapable;
-  ULONG                           uInfraNumSupportedMcastMgmtAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastMgmtAlgoPairs;
-} DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -159,7 +119,6 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uScanSSIDListSize
 
 The maximum number of service set identifiers (SSIDs) supported by the 802.11 station for scan
@@ -167,9 +126,8 @@ The maximum number of service set identifiers (SSIDs) supported by the 802.11 st
 
 
 The SSID list that the 802.11 station uses for scanning is specified when
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
+     <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
      set.
-
 
 ### -field uDesiredBSSIDListSize
 
@@ -178,9 +136,8 @@ The maximum number of entries in the desired list of basic service set identifie
 
 
 For more information about the desired BSSID list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
      OID_DOT11_DESIRED_BSSID_LIST</a>.
-
 
 ### -field uDesiredSSIDListSize
 
@@ -189,9 +146,8 @@ The maximum number of entries in the desired SSID list supported by the 802.11 s
 
 
 For more information about the desired SSID list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">
      OID_DOT11_DESIRED_SSID_LIST</a>.
-
 
 ### -field uExcludedMacAddressListSize
 
@@ -200,9 +156,8 @@ The maximum number of entries in the excluded MAC address list supported by the 
 
 
 For more information about the desired excluded MAC address list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
      OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>.
-
 
 ### -field uPrivacyExemptionListSize
 
@@ -211,9 +166,8 @@ The maximum number of entries in the privacy exemption list supported by the 802
 
 
 For more information about the privacy exemption list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
      OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
-
 
 ### -field uKeyMappingTableSize
 
@@ -222,9 +176,8 @@ The maximum number of cipher key-mapping keys supported by the 802.11 station. I
 
 
 For more information about key mapping keys, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+     <a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
      OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
-
 
 ### -field uDefaultKeyTableSize
 
@@ -235,7 +188,6 @@ The maximum number of cipher keys the 802.11 station supports for the default ke
 For standard 802.11 cipher algorithms, the 802.11 station must support a table size of at least four
      cipher keys. For cipher algorithms developed by the independent hardware vendor (IHV), the table size
      can be four or greater.
-
 
 ### -field uWEPKeyValueMaxLength
 
@@ -295,8 +247,6 @@ Any length supported by the 802.11 station
 </td>
 </tr>
 </table>
- 
-
 
 ### -field uPMKIDCacheSize
 
@@ -308,8 +258,7 @@ If the 802.11 station does not support a PMKID cache, the miniport driver must s
      zero. Otherwise, the 802.11 station must support a PMKID cache size of at least three entries.
 
 For more information about the PMKID cache, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>.
-
+     <a href="/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>.
 
 ### -field uMaxNumPerSTADefaultKeyTables
 
@@ -318,8 +267,7 @@ The maximum number of per-station default cipher key tables supported by the 802
 
 
 For more information about per-station default cipher key tables, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>.
-
+     <a href="/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>.
 
 ### -field bStrictlyOrderedServiceClassImplemented
 
@@ -329,7 +277,6 @@ A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station s
 
 For more information about the StrictlyOrdered service class, refer to Clause 5.1.3 of the IEEE
      802.11-2012 standard.
-
 
 ### -field ucSupportedQoSProtocolFlags
 
@@ -350,7 +297,6 @@ The NIC implements the 802.11 WMM QoS protocol.
 #### DOT11_QOS_PROTOCOL_FLAG_11E
 
 The NIC implements the 802.11e QoS protocol.
-
 
 ### -field bSafeModeImplemented
 
@@ -392,9 +338,8 @@ If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, th
 </li>
 </ul>
 This member is used in conjunction with
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
+     <a href="/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
      OID_DOT11_SAFE_MODE_ENABLED</a>.
-
 
 ### -field uNumSupportedCountryOrRegionStrings
 
@@ -406,14 +351,12 @@ The number of country or region strings supported by the 802.11 station. If the 
 If the 802.11 station does not support the IEEE 802.11d-2001 standard, the miniport driver must set
      <b>uNumSupportedCountryOrRegionStrings</b> to zero.
 
-
 ### -field pSupportedCountryOrRegionStrings
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     <a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
-
 
 ### -field uInfraNumSupportedUcastAlgoPairs
 
@@ -425,7 +368,6 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pInfraSupportedUcastAlgoPairs</b> member.
 
-
 ### -field pInfraSupportedUcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
@@ -433,7 +375,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      formatted as a
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
 
 ### -field uInfraNumSupportedMcastAlgoPairs
 
@@ -445,7 +386,6 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pInfraSupportedMcastAlgoPairs</b> member.
 
-
 ### -field pInfraSupportedMcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
@@ -453,7 +393,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      the array is formatted as a
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
 
 ### -field uAdhocNumSupportedUcastAlgoPairs
 
@@ -464,14 +403,12 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pAdhocSupportedUcastAlgoPairs</b> member.
 
-
 ### -field pAdhocSupportedUcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving unicast packets in an IBSS network. Each entry in the array is formatted as a
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
 
 ### -field uAdhocNumSupportedMcastAlgoPairs
 
@@ -482,7 +419,6 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pAdhocSupportedMcastAlgoPairs</b> member.
 
-
 ### -field pAdhocSupportedMcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
@@ -491,26 +427,21 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
 
-
 ### -field bAutoPowerSaveMode
 
 The support capability of the NIC/miniport driver combination to autonomously manage power well, including detection and negotiation of proper Wi-Fi Power Save Mode (PSM) between the device and the Wi-Fi Access Point. NDIS 6.30 compliant Wi-Fi miniport drivers should set this member to TRUE.
-
 
 ### -field uMaxNetworkOffloadListSize
 
 The maximum number of networks a miniport driver can offload, if it has the ability to support the Network List Offload capability.
 
-
 ### -field bMFPCapable
 
 The support capability of the NIC/miniport driver to combination to support management frame protection between the device and the Wi-Fi Access Point  as specified in the 802.11w-2009 specification. Set to TRUE if supported. Otherwise, this member should be set to FALSE.
 
-
 ### -field uInfraNumSupportedMcastMgmtAlgoPairs
 
 The length of the array of authentication and cipher algorithm pairs pointed to in <b>pInfraSupportedMcastMgmtAlgoPairs</b>.
-
 
 ### -field pInfraSupportedMcastMgmtAlgoPairs
 
@@ -519,37 +450,53 @@ A pointer to an array of authentication and cipher algorithm pair which the devi
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
 
-
 ### -field bNeighborReportSupported
-
-
-
 
 ### -field bAPChannelReportSupported
 
-
-
-
 ### -field bActionFramesSupported
-
-
-
 
 ### -field bANQPQueryOffloadSupported
 
-
-
-
 ### -field bHESSIDConnectionSupported
 
+## -syntax
 
-
-
-
+```cpp
+typedef struct DOT11_EXTSTA_ATTRIBUTES {
+  NDIS_OBJECT_HEADER              Header;
+  ULONG                           uScanSSIDListSize;
+  ULONG                           uDesiredBSSIDListSize;
+  ULONG                           uDesiredSSIDListSize;
+  ULONG                           uExcludedMacAddressListSize;
+  ULONG                           uPrivacyExemptionListSize;
+  ULONG                           uKeyMappingTableSize;
+  ULONG                           uDefaultKeyTableSize;
+  ULONG                           uWEPKeyValueMaxLength;
+  ULONG                           uPMKIDCacheSize;
+  ULONG                           uMaxNumPerSTADefaultKeyTables;
+  BOOLEAN                         bStrictlyOrderedServiceClassImplemented;
+  UCHAR                           ucSupportedQoSProtocolFlags;
+  BOOLEAN                         bSafeModeImplemented;
+  ULONG                           uNumSupportedCountryOrRegionStrings;
+  PDOT11_COUNTRY_OR_REGION_STRING pSupportedCountryOrRegionStrings;
+  ULONG                           uInfraNumSupportedUcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedUcastAlgoPairs;
+  ULONG                           uInfraNumSupportedMcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastAlgoPairs;
+  ULONG                           uAdhocNumSupportedUcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pAdhocSupportedUcastAlgoPairs;
+  ULONG                           uAdhocNumSupportedMcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pAdhocSupportedMcastAlgoPairs;
+  BOOLEAN                         bAutoPowerSaveMode;
+  ULONG                           uMaxNetworkOffloadListSize;
+  BOOLEAN                         bMFPCapable;
+  ULONG                           uInfraNumSupportedMcastMgmtAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastMgmtAlgoPairs;
+} DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES;
+```
 
 ## -remarks
-
-
 
 The
     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
@@ -563,43 +510,40 @@ The
 
 Management Frame Protection Required (MFPR) enforcement on Windows 8 is not supported. Hence miniport drivers should never set this bit in the RSN capabilities of RSN IE during an association request. For policy,  the access point may advertise MFPR which will allow MFP-capable STA to associate. Access points not supporting MFP capability will fail association. If MFPR is set by an access point and STA is not MFP capable, Windows 8 will treat the network as mismatched in capability and not send an association request to the miniport.
 
-
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+<a href="/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
    Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+<a href="/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
    OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
    DOT11_COUNTRY_OR_REGION_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 
@@ -608,7 +552,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
@@ -621,7 +565,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>
+<a href="/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>
 
 
 
@@ -634,12 +578,4 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
-
-
-
- 
-
- 
-
-
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>

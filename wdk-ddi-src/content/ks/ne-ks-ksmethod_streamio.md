@@ -8,8 +8,6 @@ ms.assetid: BFA53A37-A1EB-4F06-9903-967A94029BC8
 ms.date: 04/23/2018
 keywords: ["KSMETHOD_STREAMIO enumeration"]
 ms.keywords: KSMETHOD_STREAMIO, KSMETHOD_STREAMIO enumeration [Streaming Media Devices], KSMETHOD_STREAMIO_READ, KSMETHOD_STREAMIO_WRITE, ks/KSMETHOD_STREAMIO, ks/KSMETHOD_STREAMIO_READ, ks/KSMETHOD_STREAMIO_WRITE, stream.ksmethod_streamio
-f1_keywords:
- - "ks/KSMETHOD_STREAMIO"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSMETHOD_STREAMIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMIO
+f1_keywords:
+ - KSMETHOD_STREAMIO
+ - ks/KSMETHOD_STREAMIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSMETHOD_STREAMIO
 ---
 
 # KSMETHOD_STREAMIO enumeration
@@ -47,17 +46,9 @@ req.typenames: KSMETHOD_STREAMIO
 
 ## -description
 
-
-
-
-
 ## -enum-fields
 
-
-
-
 ### -field KSMETHOD_STREAMIO_READ
-
 
 ### -field KSMETHOD_STREAMIO_WRITE
 

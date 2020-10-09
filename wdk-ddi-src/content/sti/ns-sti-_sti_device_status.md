@@ -6,10 +6,8 @@ old-location: image\sti_device_status.htm
 tech.root: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.date: 05/03/2018
-keywords: ["_STI_DEVICE_STATUS structure"]
+keywords: ["STI_DEVICE_STATUS structure"]
 ms.keywords: "*PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], _STI_DEVICE_STATUS, image.sti_device_status, sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml"
-f1_keywords:
- - "sti/STI_DEVICE_STATUS"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sti.h
-api_name:
-- STI_DEVICE_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
+f1_keywords:
+ - _STI_DEVICE_STATUS
+ - sti/_STI_DEVICE_STATUS
+ - PSTI_DEVICE_STATUS
+ - sti/PSTI_DEVICE_STATUS
+ - STI_DEVICE_STATUS
+ - sti/STI_DEVICE_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sti.h
+api_name:
+ - STI_DEVICE_STATUS
 ---
 
 # _STI_DEVICE_STATUS structure
@@ -47,19 +50,13 @@ req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
 
 ## -description
 
-
-The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
-
+The STI_DEVICE_STATUS structure is used as a parameter to the <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_DEVICE_STATUS structure.
-
 
 ### -field StatusMask
 
@@ -91,8 +88,6 @@ The driver should fill in the <b>dwOnlineState</b> member.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOnlineState
 
@@ -212,11 +207,9 @@ The device requires user intervention.
 
 The device is warming up.
 
-
 ### -field dwHardwareStatusCode
 
 Optional device-specific, vendor-defined value.
-
 
 ### -field dwEventHandlingState
 
@@ -246,8 +239,6 @@ A device event has occurred.
 
 <i>Not used</i>.
 
-
 ### -field dwPollingInterval
 
 Time value, in milliseconds, indicating how often the device should be polled, if polling is required.
-

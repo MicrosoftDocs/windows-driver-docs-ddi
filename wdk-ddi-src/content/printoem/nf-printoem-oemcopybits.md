@@ -8,8 +8,6 @@ ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.date: 04/20/2018
 keywords: ["OEMCopyBits function"]
 ms.keywords: OEMCopyBits, OEMCopyBits function [Print Devices], print.oemcopybits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, printoem/OEMCopyBits
-f1_keywords:
- - "printoem/OEMCopyBits"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMCopyBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMCopyBits
+ - printoem/OEMCopyBits
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMCopyBits
 ---
 
 # OEMCopyBits function
@@ -47,29 +46,19 @@ req.typenames:
 
 ## -description
 
-
-The <code>OEMCopyBits</code> function performs translations between device-managed raster surfaces and GDI standard-format bitmaps. 
-
+The <code>OEMCopyBits</code> function performs translations between device-managed raster surfaces and GDI standard-format bitmaps.
 
 ## -parameters
 
-
-
-
 ### -param psoDest
-
 
 ### -param psoSrc
 
-
 ### -param pco
-
 
 ### -param pxlo
 
-
 ### -param prclDest
-
 
 ### -param pptlSrc
 

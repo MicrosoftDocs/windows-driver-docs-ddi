@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["SymbolSearchInfo function"]
 f1_keywords:
  - "dbgmodel/SymbolSearchInfo"
+ - "SymbolSearchInfo"
 ms.keywords: SymbolSearchInfo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - SymbolSearchInfo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
@@ -61,4 +60,4 @@ This function is a constructor and does not return a value.
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
+[dbgmodel.h header](./index.md)

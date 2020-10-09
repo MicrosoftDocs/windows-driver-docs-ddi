@@ -8,8 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Smartcard device drivers
@@ -20,12 +18,10 @@ Overview of the Smartcard device drivers technology.
 
 To develop Smartcard device drivers, you need these headers:
 
- * [scutil.h](../scutil/index.md)
- * [smcdbg.h](../smcdbg/index.md)
  * [smclib.h](../smclib/index.md)
  * [smcnt.h](../smcnt/index.md)
 
-For the programming guide, see [Smartcard device drivers](https://docs.microsoft.com/windows-hardware/drivers/smartcard).
+For the programming guide, see [Smartcard device drivers](/windows-hardware/drivers/smartcard).
 
 ## Structures
 

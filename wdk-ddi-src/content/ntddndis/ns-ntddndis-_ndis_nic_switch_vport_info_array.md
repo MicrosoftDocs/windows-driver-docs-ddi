@@ -6,10 +6,8 @@ old-location: netvista\ndis_nic_switch_vport_info_array.htm
 tech.root: netvista
 ms.assetid: 64bb0edf-b281-40cc-b36e-6ae1fb71ccb4
 ms.date: 05/02/2018
-keywords: ["_NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure"]
+keywords: ["NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, netvista.ndis_nic_switch_vport_info_array, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+f1_keywords:
+ - _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ - ntddndis/_NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ - PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ - ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ - NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ - ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 ---
 
 # _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure
@@ -47,18 +50,13 @@ req.typenames: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_AR
 
 ## -description
 
-
-The <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure specifies an array. Each element in the array specifies the attributes of a virtual port (VPort) that has been created on a network adapter's network adapter switch. 
-
+The <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure specifies an array. Each element in the array specifies the attributes of a virtual port (VPort) that has been created on a network adapter's network adapter switch.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure, NDIS sets the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -71,7 +69,6 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1.
-
 
 ### -field Flags
 
@@ -111,12 +108,11 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the identifier of the PF or a VF 
 
 <div class="alert"><b>Note</b>  If this value is NDIS_PF_FUNCTION_ID, the VPort is attached to the PF.</div>
 <div> </div>
-The <b>AttachedFunctionId</b> member is only valid  if NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION is specified in the <b>Flags</b> member. 
-
+The <b>AttachedFunctionId</b> member is only valid  if NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION is specified in the <b>Flags</b> member.
 
 ### -field FirstElementOffset
 
-A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a> structure.
+A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a> structure.
 
 
 
@@ -125,46 +121,32 @@ A ULONG value that specifies the offset, in bytes, to the first element in an ar
 
 ### -field NumElements
 
-A ULONG value that specifies the number of elements that follow the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure. 
-
+A ULONG value that specifies the number of elements that follow the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure.
 
 ### -field ElementSize
 
 A ULONG value that specifies the size, in bytes, of each element that follows the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure.
 
-
 ## -remarks
 
-
-
-NDIS returns an <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure when NDIS handles an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-enum-vports">OID_NIC_SWITCH_ENUM_VPORTS</a>.  Each
+NDIS returns an <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure when NDIS handles an OID method request of <a href="/windows-hardware/drivers/network/oid-nic-switch-enum-vports">OID_NIC_SWITCH_ENUM_VPORTS</a>.  Each
     element in the array that follows the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure is an     
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a> structure.
 
-For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
-
-
-
+For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_info">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-enum-vports">OID_NIC_SWITCH_ENUM_VPORTS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/network/oid-nic-switch-enum-vports">OID_NIC_SWITCH_ENUM_VPORTS</a>

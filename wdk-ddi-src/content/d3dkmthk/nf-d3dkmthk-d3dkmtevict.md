@@ -7,8 +7,6 @@ ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
 ms.date: 05/10/2018
 keywords: ["D3DKMTEvict function"]
 ms.keywords: D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict
-f1_keywords:
- - "d3dkmthk/D3DKMTEvict"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,25 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTEvict
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTEvict
+ - d3dkmthk/D3DKMTEvict
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTEvict
 ---
 
 # D3DKMTEvict function
+
 
 ## -description
 
@@ -56,7 +56,7 @@ req.typenames:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a> structure that describes the operation.
 
 ## -returns
 
@@ -66,7 +66,7 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The operation was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -remarks
@@ -75,4 +75,4 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a>

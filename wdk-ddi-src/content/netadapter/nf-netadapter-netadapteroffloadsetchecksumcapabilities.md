@@ -1,43 +1,42 @@
 ---
 UID: NF:netadapter.NetAdapterOffloadSetChecksumCapabilities
 title: NetAdapterOffloadSetChecksumCapabilities function (netadapter.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware checksum offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
 ms.date: 01/18/2019
 keywords: ["NetAdapterOffloadSetChecksumCapabilities function"]
-f1_keywords:
- - "netadapter/NetAdapterOffloadSetChecksumCapabilities"
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterOffloadSetChecksumCapabilities
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - NetAdapterOffloadSetChecksumCapabilities
+ - netadapter/NetAdapterOffloadSetChecksumCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterOffloadSetChecksumCapabilities
 ---
 
 # NetAdapterOffloadSetChecksumCapabilities function
@@ -45,9 +44,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The **NetAdapterOffloadSetChecksumCapabilities** method sets the hardware checksum offload capabilities of a network adapter.
+The **NetAdapterOffloadSetChecksumCapabilities** function sets the hardware checksum offload capabilities of a network adapter.
 
 ## -parameters
 
@@ -61,11 +58,11 @@ A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 

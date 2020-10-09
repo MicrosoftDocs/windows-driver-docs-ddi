@@ -6,10 +6,8 @@ old-location: netvista\wwan_signal_state.htm
 tech.root: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
 ms.date: 05/02/2018
-keywords: ["_WWAN_SIGNAL_STATE structure"]
+keywords: ["WWAN_SIGNAL_STATE structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE"
-f1_keywords:
- - "wwan/WWAN_SIGNAL_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SIGNAL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE
+f1_keywords:
+ - _WWAN_SIGNAL_STATE
+ - wwan/_WWAN_SIGNAL_STATE
+ - PWWAN_SIGNAL_STATE
+ - wwan/PWWAN_SIGNAL_STATE
+ - WWAN_SIGNAL_STATE
+ - wwan/WWAN_SIGNAL_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SIGNAL_STATE
 ---
 
 # _WWAN_SIGNAL_STATE structure
@@ -47,14 +50,9 @@ req.typenames: WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE
 
 ## -description
 
-
 The WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Rssi
 
@@ -134,7 +132,6 @@ WWAN_RSSI_UNKNOWN
 
 CDMA-based devices must report signal strength based on compensated RSSI (accounts for noise) and not
      based on raw RSSI.
-
 
 ### -field ErrorRate
 
@@ -273,8 +270,6 @@ WWAN_ERROR_RATE_UNKNOWN
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RssiInterval
 
@@ -283,7 +278,6 @@ The current interval, in seconds, at which the miniport driver has been set to (
      state. Specify WWAN_RSSI_DISABLE to indicate that the miniport driver does not implement interval-based
      reporting. Miniport drivers should populate this member with the interval in response to an earlier
      request from the MB Service for WWAN_RSSI_DEFAULT.
-
 
 ### -field RssiThreshold
 
@@ -301,11 +295,4 @@ This member points to a list of [**WWAN_SIGNAL_STATE_EXT**](../wwan/ns-wwan-_wwa
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_signal_state">NDIS_WWAN_SIGNAL_STATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_signal_state">NDIS_WWAN_SIGNAL_STATE</a>

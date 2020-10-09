@@ -8,8 +8,6 @@ ms.assetid: 7c2ebe5d-ecb0-41d2-a1bb-7e131ea350a7
 ms.date: 04/23/2018
 keywords: ["tagKS_FRAME_INFO structure"]
 ms.keywords: "*PKS_FRAME_INFO, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
-f1_keywords:
- - "ksmedia/KS_FRAME_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,27 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_FRAME_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAME_INFO, *PKS_FRAME_INFO
 ms.custom: 19H1
+f1_keywords:
+ - tagKS_FRAME_INFO
+ - ksmedia/tagKS_FRAME_INFO
+ - PKS_FRAME_INFO
+ - ksmedia/PKS_FRAME_INFO
+ - KS_FRAME_INFO
+ - ksmedia/KS_FRAME_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_FRAME_INFO
 ---
 
 # tagKS_FRAME_INFO structure
 
+
 ## -description
 
-The **KS_FRAME_INFO** structure extends the [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structure for video streams.
+The **KS_FRAME_INFO** structure extends the [KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md) structure for video streams.
 
 ## -struct-fields
 
@@ -130,8 +134,8 @@ The **PictureNumber** member count represents the count of the current picture, 
 
 When calculating **PictureNumber** and **DropCount**, it is important to use the frame duration specified when the stream was opened, which may not necessarily match the rate at which the device is actually producing images. For example, a USB camera may only produce images at 7.5 fps, but a client could open the stream at 8 fps. In this case, all calculations should use the 8 fps number.
 
-For more information about updating **PictureNumber** and **DropCount** see [Capturing Video](https://docs.microsoft.com/windows-hardware/drivers/stream/capturing-video).
+For more information about updating **PictureNumber** and **DropCount** see [Capturing Video](/windows-hardware/drivers/stream/capturing-video).
 
 ## -see-also
 
-[KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header)
+[KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md)

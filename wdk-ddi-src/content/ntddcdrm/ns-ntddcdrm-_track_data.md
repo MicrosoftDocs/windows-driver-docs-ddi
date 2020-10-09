@@ -8,8 +8,6 @@ ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.date: 01/08/2020
 keywords: ["TRACK_DATA structure"]
 ms.keywords: "*PTRACK_DATA, PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA, TRACK_DATA structure [Storage Devices], _TRACK_DATA, ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml"
-f1_keywords:
- - "ntddcdrm/TRACK_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- TRACK_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: TRACK_DATA, *PTRACK_DATA
+f1_keywords:
+ - _TRACK_DATA
+ - ntddcdrm/_TRACK_DATA
+ - PTRACK_DATA
+ - ntddcdrm/PTRACK_DATA
+ - TRACK_DATA
+ - ntddcdrm/TRACK_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - TRACK_DATA
 ---
 
 # TRACK_DATA structure
 
+
 ## -description
 
-The TRACK_DATA structure is used in conjunction with [CDROM_TOC](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc) and [CDROM_TOC_SESSION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data).
+The TRACK_DATA structure is used in conjunction with [CDROM_TOC](./ns-ntddcdrm-_cdrom_toc.md) and [CDROM_TOC_SESSION_DATA](./ns-ntddcdrm-_cdrom_toc_session_data.md).
 
 ## -struct-fields
 
@@ -80,9 +84,9 @@ This structure contains table of contents information for a track.
 
 ## -see-also
 
-[CDROM_TOC](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc)
+[CDROM_TOC](./ns-ntddcdrm-_cdrom_toc.md)
 
-[CDROM_TOC_SESSION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data)
+[CDROM_TOC_SESSION_DATA](./ns-ntddcdrm-_cdrom_toc_session_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md
 )

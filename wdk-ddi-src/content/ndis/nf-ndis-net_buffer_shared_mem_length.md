@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: e6b22dc4-658d-4609-9020-1b0349de13fe
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_LENGTH macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_SHARED_MEM_LENGTH"
 ms.keywords: NET_BUFFER_SHARED_MEM_LENGTH
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_SHARED_MEM_LENGTH
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_SHARED_MEM_LENGTH
+ - ndis/NET_BUFFER_SHARED_MEM_LENGTH
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_SHARED_MEM_LENGTH
 ---
 
 # NET_BUFFER_SHARED_MEM_LENGTH macro
@@ -66,3 +64,4 @@ An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_LENGTH** macro 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
 
 [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md)
+

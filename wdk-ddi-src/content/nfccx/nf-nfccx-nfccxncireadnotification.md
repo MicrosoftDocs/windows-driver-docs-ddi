@@ -8,8 +8,6 @@ ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.date: 02/15/2018
 keywords: ["NfcCxNciReadNotification function"]
 ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification
-f1_keywords:
- - "nfccx/NfcCxNciReadNotification"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NfcCx.dll
-api_name:
-- NfcCxNciReadNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NfcCxNciReadNotification
+ - nfccx/NfcCxNciReadNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NfcCx.dll
+api_name:
+ - NfcCxNciReadNotification
 ---
 
 # NfcCxNciReadNotification function
@@ -47,47 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Called by the client driver when a read packet is available. The WDFMEMORY can be deallocated by the client driver after completion of the call. While NFC CXs implementation will quickly process this call, it is expected that the client driver doesnt make this call from the context of an ISR. It is recommend that the client driver issues this call from the ISR work-item.
 
-
 ## -parameters
-
-
-
 
 ### -param Device
 
 A handle to a framework device object.
 
-
 ### -param Memory
 
 A handle to a framework memory object.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS.
 
-
-
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

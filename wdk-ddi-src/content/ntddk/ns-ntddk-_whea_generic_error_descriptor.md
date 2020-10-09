@@ -6,10 +6,8 @@ old-location: whea\whea_generic_error_descriptor.htm
 tech.root: whea
 ms.assetid: a3ab6522-8706-4166-974f-1744b352f3c2
 ms.date: 02/20/2018
-keywords: ["_WHEA_GENERIC_ERROR_DESCRIPTOR structure"]
+keywords: ["WHEA_GENERIC_ERROR_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, whea.whea_generic_error_descriptor, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml"
-f1_keywords:
- - "ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_GENERIC_ERROR_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR
+f1_keywords:
+ - _WHEA_GENERIC_ERROR_DESCRIPTOR
+ - ntddk/_WHEA_GENERIC_ERROR_DESCRIPTOR
+ - PWHEA_GENERIC_ERROR_DESCRIPTOR
+ - ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR
+ - WHEA_GENERIC_ERROR_DESCRIPTOR
+ - ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_GENERIC_ERROR_DESCRIPTOR
 ---
 
 # _WHEA_GENERIC_ERROR_DESCRIPTOR structure
@@ -47,39 +50,29 @@ req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_GENERIC_ERROR_DESCRIPTOR structure describes a generic error source.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_GENERIC.
 
-
 ### -field Reserved
 
 Reserved for system use.
-
 
 ### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
-
 ### -field ErrStatusBlockLength
 
 The size, in bytes, of the block of error status registers that contain the error data for the error source.
 
-
 ### -field RelatedErrorSourceId
 
 The identifier of the related error source. If the generic error source does not relate back to another error source, this member is not used.
-
 
 ### -field ErrStatusAddressSpaceID
 
@@ -141,16 +134,13 @@ Reserved
 
 OEM defined address space
 
-
 ### -field ErrStatusAddressBitWidth
 
 The size, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
 
-
 ### -field ErrStatusAddressBitOffset
 
 The offset, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
-
 
 ### -field ErrStatusAddressAccessSize
 
@@ -188,41 +178,26 @@ Double word access
 
 Quad word access
 
-
 ### -field ErrStatusAddress
 
-The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
-
+The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
 
 ### -field Notify
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
-
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
 
 ## -remarks
 
-
-
-A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
-
-
-
+A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a>

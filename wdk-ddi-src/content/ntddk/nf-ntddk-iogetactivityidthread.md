@@ -8,8 +8,6 @@ ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
 ms.date: 04/30/2018
 keywords: ["IoGetActivityIdThread function"]
 ms.keywords: IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread, ntddk/IoGetActivityIdThread
-f1_keywords:
- - "ntddk/IoGetActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetActivityIdThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetActivityIdThread
+ - ntddk/IoGetActivityIdThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetActivityIdThread
 ---
 
 # IoGetActivityIdThread function
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
-
 
 ## -returns
 
-
-
 The activity ID associated with the current thread.
-
-
 

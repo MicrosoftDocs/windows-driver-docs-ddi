@@ -6,10 +6,8 @@ old-location: ifsk\file_link_information.htm
 tech.root: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.date: 04/16/2018
-keywords: ["_FILE_LINK_INFORMATION structure"]
+keywords: ["FILE_LINK_INFORMATION structure"]
 ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_LINK_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_LINK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
+ms.custom: 19H1
+f1_keywords:
+ - _FILE_LINK_INFORMATION
+ - ntifs/_FILE_LINK_INFORMATION
+ - PFILE_LINK_INFORMATION
+ - ntifs/PFILE_LINK_INFORMATION
+ - FILE_LINK_INFORMATION
+ - ntifs/FILE_LINK_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_LINK_INFORMATION
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _FILE_LINK_INFORMATION structure
@@ -50,35 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
-
-## -syntax
-```cpp
-typedef struct _FILE_LINK_INFORMATION {
-#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
-    union {
-        BOOLEAN ReplaceIfExists;  // FileLinkInformation
-        ULONG Flags;              // FileLinkInformationEx
-    } DUMMYUNIONNAME;
-#else
-    BOOLEAN ReplaceIfExists;
-#endif
-    HANDLE RootDirectory;
-    ULONG FileNameLength;
-    WCHAR FileName[1];
-} FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION;
-
-```
-
-
+The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file.
 
 ## -struct-fields
 
-
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
-Set to <b>TRUE</b> to specify that if the link already exists, it should be replaced with the new link. Set to <b>FALSE</b> if the link creation operation should fail if the link already exists. 
+Set to <b>TRUE</b> to specify that if the link already exists, it should be replaced with the new link. Set to <b>FALSE</b> if the link creation operation should fail if the link already exists.
 
 ### -field DUMMYUNIONNAME.Flags
 
@@ -101,28 +82,42 @@ Here are the possible values:
 
 ### -field RootDirectory
 
-If the link is to be created in the same directory as the file that is being linked to, or if the <b>FileName</b> member contains the full pathname for the link to be created, this is <b>NULL</b>. Otherwise it is a handle for the directory where the link is to be created. 
-
+If the link is to be created in the same directory as the file that is being linked to, or if the <b>FileName</b> member contains the full pathname for the link to be created, this is <b>NULL</b>. Otherwise it is a handle for the directory where the link is to be created.
 
 ### -field FileNameLength
 
-Length, in bytes, of the file name string. 
-
+Length, in bytes, of the file name string.
 
 ### -field FileName
 
-The first character of the name to be assigned to the newly created link. This is followed in memory by the remainder of the string. If the <b>RootDirectory</b> member is <b>NULL</b> and the link is to be created in a different directory from the file that is being linked to, this member specifies the full pathname for the link to be created. Otherwise, it specifies only the file name. (See the Remarks section for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> for details on the syntax of this file name string.) 
+The first character of the name to be assigned to the newly created link. This is followed in memory by the remainder of the string. If the <b>RootDirectory</b> member is <b>NULL</b> and the link is to be created in a different directory from the file that is being linked to, this member specifies the full pathname for the link to be created. Otherwise, it specifies only the file name. (See the Remarks section for <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> for details on the syntax of this file name string.)
 
+## -syntax
+
+```cpp
+typedef struct _FILE_LINK_INFORMATION {
+#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
+    union {
+        BOOLEAN ReplaceIfExists;  // FileLinkInformation
+        ULONG Flags;              // FileLinkInformationEx
+    } DUMMYUNIONNAME;
+#else
+    BOOLEAN ReplaceIfExists;
+#endif
+    HANDLE RootDirectory;
+    ULONG FileNameLength;
+    WCHAR FileName[1];
+} FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION;
+
+```
 
 ## -remarks
-
-
 
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. This operation can be performed in either of the following ways: 
 
 <ul>
 <li>
-Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, passing FileLinkInformation as the value of FileInformationClass and passing a caller-allocated, FILE_LINK_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the existing file to which the hard link should point. 
+Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, passing FileLinkInformation as the value of FileInformationClass and passing a caller-allocated, FILE_LINK_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the existing file to which the hard link should point. 
 
 </li>
 <li>
@@ -132,36 +127,26 @@ Create an IRP with major function code IRP_MJ_SET_INFORMATION.
 </ul>
 No specific access rights are required to set this information. 
 
-File system minifilters must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>, not <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, to set this information for a file. 
+File system minifilters must use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>, not <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, to set this information for a file. 
 
 For more information about NTFS hard links, see the Microsoft Windows SDK documentation for the Win32 <b>CreateHardLink</b> function. 
 
-The size of the <i>FileInformation</i> buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> must be at least <b>sizeof</b>(FILE_LINK_INFORMATION). 
+The size of the <i>FileInformation</i> buffer passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> must be at least <b>sizeof</b>(FILE_LINK_INFORMATION). 
 
-This structure must be aligned on a LONG (4-byte) boundary. 
-
-
-
+This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>

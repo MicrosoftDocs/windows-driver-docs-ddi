@@ -8,8 +8,6 @@ ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_MODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_MODE_S, ksmedia/PKSPROPERTY_TUNER_MODE_S, stream.ksproperty_tuner_mode_s, vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TUNER_MODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TUNER_MODE_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
+f1_keywords:
+ - PKSPROPERTY_TUNER_MODE_S
+ - ksmedia/PKSPROPERTY_TUNER_MODE_S
+ - KSPROPERTY_TUNER_MODE_S
+ - ksmedia/KSPROPERTY_TUNER_MODE_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TUNER_MODE_S
 ---
 
 # KSPROPERTY_TUNER_MODE_S structure
@@ -47,19 +48,13 @@ req.typenames: KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
 
 ## -description
 
-
 The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner device.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
-
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Mode
 
@@ -121,24 +116,15 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-mode">KSPROPERTY_TUNER_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-mode">KSPROPERTY_TUNER_MODE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>

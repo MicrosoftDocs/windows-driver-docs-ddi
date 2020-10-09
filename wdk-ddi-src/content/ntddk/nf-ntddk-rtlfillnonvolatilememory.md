@@ -1,46 +1,44 @@
 ---
 UID: NF:ntddk.RtlFillNonVolatileMemory
 title: RtlFillNonVolatileMemory function
-author: windows-driver-content
 description: Fills the non-volatile destination buffer with the given value.
-tech.root:
+tech.root: 
 ms.assetid: 4126cd43-dfd3-4d78-ba6c-192ece10aa2d
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["RtlFillNonVolatileMemory function"]
-f1_keywords:
- - "ntddk/RtlFillNonVolatileMemory"
 ms.keywords: RtlFillNonVolatileMemory
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: DPC_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location:
-- ntddk.h
-api_name: 
-- RtlFillNonVolatileMemory
-product: 
-- Windows
 targetos: Windows
-
 ms.custom: 19H1
+f1_keywords:
+ - RtlFillNonVolatileMemory
+ - ntddk/RtlFillNonVolatileMemory
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - ntddk.h
+api_name:
+ - RtlFillNonVolatileMemory
+product:
+ - Windows
 ---
 
 # RtlFillNonVolatileMemory function
@@ -50,12 +48,11 @@ ms.custom: 19H1
 
 The routine <b>RtlFillNonVolatileMemory</b> fills the non-volatile destination buffer with the given value.
 
-
 ## -parameters
 
 ### -param NvToken
 
-A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
+A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
 ### -param NvDestination
 

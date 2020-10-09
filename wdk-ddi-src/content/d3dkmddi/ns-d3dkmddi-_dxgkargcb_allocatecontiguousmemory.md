@@ -4,38 +4,42 @@ title: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
 description: Arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
 ms.assetid: dce7b187-8ebf-4309-8769-29536b908e76
 ms.date: 10/19/2018
-keywords: ["_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY"
+keywords: ["DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure"]
 ms.keywords: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, *INOUT_PDXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+ - d3dkmddi/_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+ - DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+ - d3dkmddi/DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+product:
+ - Windows
 ---
 
 # _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure
+
 
 ## -description
 
@@ -76,3 +80,4 @@ A contiguous chunk of non-paged physical memory guaranteed to be mapped to the I
 ## -see-also
 
 [DXGKCB_ALLOCATECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)
+

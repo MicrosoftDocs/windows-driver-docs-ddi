@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_DSI2_TRANSMISSION
 title: DXGK_DSI2_TRANSMISSION
-author: windows-driver-content
 description: DSI-2 (display serial interface) transmission structure.
 tech.root: display
 ms.assetid: c33c3edb-7c5b-4419-86f5-22a3a3defa24
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_TRANSMISSION structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_DSI2_TRANSMISSION"
+ - "DXGK_DSI2_TRANSMISSION"
 ms.keywords: DXGK_DSI2_TRANSMISSION, DXGK_DSI2_TRANSMISSION, *PDXGK_DSI2_TRANSMISSION, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +31,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_DSI2_TRANSMISSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

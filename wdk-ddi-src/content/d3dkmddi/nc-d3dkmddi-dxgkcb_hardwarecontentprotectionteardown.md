@@ -7,8 +7,6 @@ ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
 ms.date: 05/10/2018
 keywords: ["DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback function"]
 ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
-f1_keywords:
- - "d3dkmddi/DxgkCbHardwareContentProtectionTeardown"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkCbHardwareContentProtectionTeardown
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN
+ - d3dkmddi/DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkCbHardwareContentProtectionTeardown
 ---
 
 # DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback function
@@ -47,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <b>DxgkCbHardwareContentProtectionTeardown</b> is used to indicate when a hardware content protection event occurs.
 
-
 ## -parameters
-
-
-
 
 ### -param hAdapter
 
 A handle to the graphics adapter where the tear-down event is occurring.
 
-
 ### -param Flags
 
-Additional flags defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
-
+Additional flags defined by <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
 
 ## -remarks
-
-
 
 The kernel mode driver should always call this callback before and after a hardware content protection tear-down event occurs.
 
@@ -76,17 +66,6 @@ The kernel mode driver should always call this callback before and after a hardw
 
 The driver can call this callback at either passive level or at dispatch level.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>

@@ -8,8 +8,6 @@ ms.assetid: 06609603-eeed-4fb0-a878-87cad2e72b46
 ms.date: 05/02/2018
 keywords: ["DMA_RESUME_HANDLER callback function"]
 ms.keywords: DMA_RESUME_HANDLER, DMA_RESUME_HANDLER callback, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
-f1_keywords:
- - "netdma/ProviderResumeDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderResumeDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_RESUME_HANDLER
+ - netdma/DMA_RESUME_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderResumeDma
 ---
 
 # DMA_RESUME_HANDLER callback function
@@ -47,31 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderResumeDma</i> function resumes the DMA transfers that are currently suspended on a DMA
   channel.
 
-
 ## -parameters
 
+### -param ProviderChannelContext 
 
-
-
-### -param ProviderChannelContext [in]
-
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
+     <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
-
 ## -returns
-
-
 
 <i>ProviderResumeDma</i> returns one of the following status values:
 
@@ -103,20 +95,14 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>ProviderSuspendDma</i> function is an optional function for NetDMA providers. The NetDMA interface
     calls the 
     <i>ProviderResumeDma</i> function, if any, to resume DMA operations that were suspended by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. If the DMA
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. If the DMA
     provider driver specifies an entry point for a 
     <i>ProviderSuspendDma</i> function, it must also specify an entry point for a 
     <i>ProviderResumeDma</i> function.
@@ -127,20 +113,10 @@ When the DMA engine resumes transfers, the hardware should reload the DMA descri
 NetDMA calls 
     <i>ProviderResumeDma</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>

@@ -4,40 +4,45 @@ title: _D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
 description: Contains information about the query registry.
 ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
 ms.date: 11/21/2018
-keywords: ["_D3DDDI_QUERYREGISTRY_INFO structure"]
-f1_keywords:
- - "d3dukmdt/_D3DDDI_QUERYREGISTRY_INFO"
+keywords: ["D3DDDI_QUERYREGISTRY_INFO structure"]
 ms.keywords: _D3DDDI_QUERYREGISTRY_INFO, D3DDDI_QUERYREGISTRY_INFO,
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DDDI_QUERYREGISTRY_INFO
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- _D3DDDI_QUERYREGISTRY_INFO
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DDDI_QUERYREGISTRY_INFO
+ - d3dukmdt/_D3DDDI_QUERYREGISTRY_INFO
+ - D3DDDI_QUERYREGISTRY_INFO
+ - d3dukmdt/D3DDDI_QUERYREGISTRY_INFO
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - _D3DDDI_QUERYREGISTRY_INFO
+product:
+ - Windows
 ---
 
 # _D3DDDI_QUERYREGISTRY_INFO structure
 
+
 ## -description
+
 This structure indicates how **D3DKMT_QUERYADAPTERINFO\::pDriverPrivateData** should be reinterpreted when **D3DKMT_QUERYADAPTERINFO\::Type** is **KMTQAITYPE_QUERYREGISTRY**. 
 It is used to read the registry for information that is commonly cached during driver installation.
 
@@ -47,6 +52,7 @@ This enables the OS to maximize user mode compatibility with dependency changes 
 ## -struct-fields
 
 ### -field QueryType
+
 *[In] [D3DDDI_QUERYREGISTRY_TYPE](ne-d3dukmdt-_d3dddi_queryregistry_type.md) QueryType*
 
 **QueryType** is the most-significant field.
@@ -61,35 +67,41 @@ File Path Enums:
 - **D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH**
 
 ### -field QueryFlags
+
 *[In] [D3DDDI_QUERYREGISTRY_FLAGS](ns-d3dukmdt-_d3dddi_queryregistry_flags.md) QueryFlags*
 
-**QueryFlags** can do additional operations, like translate retrieved strings containing file paths to the guest environment. 
+**QueryFlags** can do additional operations, like translate retrieved strings containing file paths to the guest environment.
 
 ### -field ValueName
+
 *[In] WCHAR ValueName[ MAX\_PATH ]*
 
 When retrieving registry information, **ValueName** must specify the registry value name to retrieve.
-When retrieving file path information, **ValueName** is ignored. 
+When retrieving file path information, **ValueName** is ignored.
 
 ### -field ValueType
+
 *[In] ULONG ValueType*
 
 When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
 When retrieving file path information, **ValueType** must be 0 to succeed. 
-See [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types) for more detail.
+See [Registry Value Types](/windows/win32/sysinfo/registry-value-types) for more detail.
 
 ### -field PhysicalAdapterIndex
+
 *[In] ULONG PhysicalAdapterIndex*
 
 The physical adapter index in a LDA chain.
 
 ### -field OutputValueSize
+
 *[Out] ULONG OutputValueSize*
 
 The size of the output data is retrieved to this field, even when there's wasn't enough room to retrieve that data.
 This field is most useful when variable-sized data is being retrieved.
 
 ### -field Status
+
 *[Out] [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md) Status*
 
 The status of the query is returned seperately, to indicate varying amounts of data has been retrieved.
@@ -123,6 +135,7 @@ It is most useful for retreiving a registry string or a file path.
 It is most useful when a registry binary blob is being read.
 
 ## -see-also
+
 - [D3DDDI_QUERYREGISTRY_TYPE](ne-d3dukmdt-_d3dddi_queryregistry_type.md)
 - [D3DDDI_QUERYREGISTRY_FLAGS](ns-d3dukmdt-_d3dddi_queryregistry_flags.md)
 - [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md)

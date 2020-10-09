@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: nfpdrivers
+f1_keywords:
+ - nfpdev
+ - nfpdev/nfpdev
 ---
 
 # Nfpdev.h header
@@ -18,7 +19,7 @@ tech.root: nfpdrivers
 
 ## -description
 
-
 This header is used by nfpdrivers. For more information, see:
 
 - [Near field communications (NFC)](../_nfpdrivers/index.md)
+

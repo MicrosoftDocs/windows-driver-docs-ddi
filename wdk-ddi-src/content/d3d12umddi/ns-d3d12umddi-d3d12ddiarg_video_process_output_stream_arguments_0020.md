@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure"]
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_output_stream_parameters
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020"
+ - "D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
@@ -63,7 +62,7 @@ The output surfaces for the video process command.  If stereo output is enabled,
 
 ### -field AlphaFillMode
 
-The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
+The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
 
 
 ### -field AlphaFillModeSourceStreamIndex
@@ -95,7 +94,7 @@ If true, stereo output is enabled. If false, the video processor produces mono v
 
 ### -field ColorSpace
 
-The color space for the video processor output surface as a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor output surface as a <a href="/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field TargetRectangle
@@ -108,11 +107,11 @@ The target rectangle, which is the area within the destination surface where the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
+<a href="/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
 
 
 
@@ -120,4 +119,3 @@ The target rectangle, which is the area within the destination surface where the
  
 
  
-

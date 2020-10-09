@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_ussd_event.htm
 tech.root: netvista
 ms.assetid: 11533451-31EC-4C55-9675-5AC7D25B6C9D
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_USSD_EVENT structure"]
+keywords: ["NDIS_WWAN_USSD_EVENT structure"]
 ms.keywords: "*PNDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_EVENT, PNDIS_WWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_EVENT, ndiswwan/NDIS_WWAN_USSD_EVENT, ndiswwan/PNDIS_WWAN_USSD_EVENT, netvista.ndis_wwan_ussd_event"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_USSD_EVENT"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_USSD_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT
+f1_keywords:
+ - _NDIS_WWAN_USSD_EVENT
+ - ndiswwan/_NDIS_WWAN_USSD_EVENT
+ - PNDIS_WWAN_USSD_EVENT
+ - ndiswwan/PNDIS_WWAN_USSD_EVENT
+ - NDIS_WWAN_USSD_EVENT
+ - ndiswwan/NDIS_WWAN_USSD_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_USSD_EVENT
 ---
 
 # _NDIS_WWAN_USSD_EVENT structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT
 
 ## -description
 
-
 The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -103,8 +101,7 @@ sizeof(NDIS_WWAN_USSD_EVENT)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -192,23 +189,13 @@ Service activation has failed. Subscription has expired. Device does not allow s
 </td>
 </tr>
 </table>
- 
-
 
 ### -field UssdEvent
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a> object that represents a
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a> object that represents a
      USSD event.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>

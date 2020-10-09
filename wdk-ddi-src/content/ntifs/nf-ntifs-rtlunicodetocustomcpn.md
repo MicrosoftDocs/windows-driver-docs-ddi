@@ -8,8 +8,6 @@ ms.assetid: db4335c1-b6c9-4afd-b30f-95b736be696b
 ms.date: 04/16/2018
 keywords: ["RtlUnicodeToCustomCPN function"]
 ms.keywords: RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
-f1_keywords:
- - "ntifs/RtlUnicodeToCustomCPN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- RtlUnicodeToCustomCPN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeToCustomCPN
+ - ntifs/RtlUnicodeToCustomCPN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - RtlUnicodeToCustomCPN
 ---
 
 # RtlUnicodeToCustomCPN function
@@ -47,45 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibyten">RtlUnicodeToMultiByteN</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetooemn">RtlUnicodeToOemN</a>. 
-
+The <b>RtlUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibyten">RtlUnicodeToMultiByteN</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetooemn">RtlUnicodeToOemN</a>.
 
 ## -parameters
-
-
-
 
 ### -param CustomCP
 
 <p>Reserved.</p>
 
-
 ### -param CustomCPString
 
 Reserved.
-
 
 ### -param MaxBytesInCustomCPString
 
 Reserved.
 
-
 ### -param BytesInCustomCPString
 
 Reserved.
-
 
 ### -param UnicodeString
 
 Reserved.
 
-
 ### -param BytesInUnicodeString
 
 Reserved.
-
-
-
-
-

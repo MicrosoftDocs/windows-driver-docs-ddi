@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUBMITTARGETCONTROL
 title: DXGKARG_SUBMITTARGETCONTROL
-author: windows-driver-content
 description: Arguments used the by the DXGKDDI_SUBMITTARGETCONTROL callback function to request control operations to be performed on a target.
 tech.root: display
 ms.assetid: c5a946d3-1e58-4705-bde0-0d4e2ce9e7a6
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["DXGKARG_SUBMITTARGETCONTROL structure"]
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITTARGETCONTROL"
+ - "DXGKARG_SUBMITTARGETCONTROL"
 ms.keywords: DXGKARG_SUBMITTARGETCONTROL, DXGKARG_SUBMITTARGETCONTROL, *PDXGKARG_SUBMITTARGETCONTROL, *IN_OUT_PDXGKARG_SUBMITTARGETCONTROL
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +31,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKARG_SUBMITTARGETCONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

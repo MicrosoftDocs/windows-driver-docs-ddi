@@ -6,10 +6,8 @@ old-location: acpi\acpi_enum_child.htm
 tech.root: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.date: 02/15/2018
-keywords: ["_ACPI_ENUM_CHILD structure"]
+keywords: ["ACPI_ENUM_CHILD structure"]
 ms.keywords: "*PACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD"
-f1_keywords:
- - "acpiioct/ACPI_ENUM_CHILD"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_ENUM_CHILD
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_ENUM_CHILD
+f1_keywords:
+ - _ACPI_ENUM_CHILD
+ - acpiioct/_ACPI_ENUM_CHILD
+ - ACPI_ENUM_CHILD
+ - acpiioct/ACPI_ENUM_CHILD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_ENUM_CHILD
 ---
 
 # _ACPI_ENUM_CHILD structure
@@ -47,54 +48,34 @@ req.typenames: ACPI_ENUM_CHILD
 
 ## -description
 
-
-The ACPI_ENUM_CHILD structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_enum_children_output_buffer">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure and contains the full path and name of an object in an ACPI namespace.
-
+The ACPI_ENUM_CHILD structure is a member of the <a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_enum_children_output_buffer">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure and contains the full path and name of an object in an ACPI namespace.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 A flag value that the ACPI driver sets to ACPI_OBJECT_HAS_CHILDREN if the enumerated child object has child objects; otherwise, the ACPI driver does not set this value.
 
-
 ### -field NameLength
 
 The number of characters, including a NULL-terminated character, in the ASCII string that the <b>Name</b> array contains.
-
 
 ### -field Name
 
 A NULL-terminated ASCII string that contains the path and name of an object in an ACPI namespace. For more information about the format of the path and name, see the Remarks section later in this topic.
 
-
 ## -remarks
 
-
-
-A driver for a device uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_enum_children">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of ACPI_ENUM_CHILD structures. 
+A driver for a device uses an <a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_enum_children">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of ACPI_ENUM_CHILD structures. 
 
 The path and name that are contained in a <b>Name</b> member are in the standard format for a fully qualified path and name of an object in an ACPI namespace. For example, assume that a device named 'ABCD' is an immediate child of the root of an ACPI namespace, that device 'ABCD' has a child device named 'CHLD,' and that child device 'CHLD' has an immediate child object named '_FOO.' In this case, <b>Name</b> would contain '\ABCD.CHLD._FOO.'
 
-For information about how to enumerate child objects of a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
-
-
-
+For information about how to enumerate child objects of a device, see <a href="/windows-hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_enum_children_output_buffer">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_enum_children_output_buffer">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_enum_children">IOCTL_ACPI_ENUM_CHILDREN</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_enum_children">IOCTL_ACPI_ENUM_CHILDREN</a>

@@ -8,8 +8,6 @@ ms.assetid: 5d2f79ba-0fdb-4743-938d-d99b135c68bb
 ms.date: 05/02/2018
 keywords: ["RIL_GetUiccToolkitProfile function"]
 ms.keywords: RIL_GetUiccToolkitProfile, RIL_GetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_getuicctoolkitprofile, rilapi/RIL_GetUiccToolkitProfile
-f1_keywords:
- - "rilapi/RIL_GetUiccToolkitProfile"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_GetUiccToolkitProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_GetUiccToolkitProfile
+ - rilapi/RIL_GetUiccToolkitProfile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_GetUiccToolkitProfile
 ---
 
 # RIL_GetUiccToolkitProfile function
@@ -47,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

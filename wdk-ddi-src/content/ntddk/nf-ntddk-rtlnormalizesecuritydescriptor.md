@@ -1,43 +1,43 @@
 ---
 UID: NF:ntddk.RtlNormalizeSecurityDescriptor
 title: RtlNormalizeSecurityDescriptor function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 85a58c4d-1c92-481a-8f5f-655fc9cae3b8
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlNormalizeSecurityDescriptor
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: APC_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlNormalizeSecurityDescriptor
-product: 
-- Windows
 targetos: Windows
-
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNormalizeSecurityDescriptor
+product:
+ - Windows
+f1_keywords:
+ - RtlNormalizeSecurityDescriptor
+ - ntddk/RtlNormalizeSecurityDescriptor
 ---
 
 # RtlNormalizeSecurityDescriptor function
@@ -46,8 +46,6 @@ targetos: Windows
 ## -description
 
 This routine examines a security descriptor for ways to modify its layout, with the goal that any two equivalent security descriptors should be able to be single instanced in $SDS as often as possible, and a secondary goal that the stored security descriptor should be as small as possible.
-
-
 
 ## -parameters
 
@@ -65,7 +63,6 @@ If present and points to NULL, receives a pointer to a newly allocated security 
 
 If present and points to non-NULL, a modified security descriptor is instead constructed directly in the buffer (assumed to be at least of length **SecurityDescriptorLength**) provided by the caller.
 
-
 ### -param NewSecurityDescriptorLength
 
 Optionally receives the length in bytes of the modified security descriptor if this routine makes modifications.
@@ -73,7 +70,6 @@ Optionally receives the length in bytes of the modified security descriptor if t
 ### -param CheckOnly
 
 A BOOLEAN value that if TRUE specifies that the routine should take no action when modifications would otherwise be made. In this case, a modified security descriptor is not created.
-
 
 ## -returns
 

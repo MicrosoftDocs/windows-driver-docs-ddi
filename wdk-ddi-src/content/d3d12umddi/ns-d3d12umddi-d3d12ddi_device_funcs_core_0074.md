@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_DEVICE_FUNCS_CORE_0074
 f1_keywords:
+ - D3D12DDI_DEVICE_FUNCS_CORE_0074
  - d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0074
 dev_langs:
  - c++
@@ -529,3 +530,4 @@ Calculate private mesh shader size. See the [Mesh Shader Specification](https://
 ## -remarks
 
 ## -see-also
+

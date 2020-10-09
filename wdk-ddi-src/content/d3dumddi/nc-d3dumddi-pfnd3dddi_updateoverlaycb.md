@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnUpdateOverlayCb"
+ - PFND3DDDI_UPDATEOVERLAYCB
+ - d3dumddi/PFND3DDDI_UPDATEOVERLAYCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # PFND3DDDI_UPDATEOVERLAYCB callback function
 
+
 ## -description
 
 The <b>pfnUpdateOverlayCb</b> function modifies a kernel-mode overlay object.
@@ -58,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_updateoverlay">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_updateoverlay">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 ## -returns
 
@@ -70,15 +72,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |D3DDDIERR_NOTAVAILABLE|pfnUpdateOverlayCb failed because of a lack of overlay hardware or bandwidth.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|pfnUpdateOverlayCb could not allocate memory that was required for it to complete.|
- 
+
 
 This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_updateoverlay">D3DDDICB_UPDATEOVERLAY</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_updateoverlay">D3DDDICB_UPDATEOVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a>

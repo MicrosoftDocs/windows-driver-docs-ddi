@@ -6,10 +6,8 @@ old-location: storage\sendrnidv2_out.htm
 tech.root: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.date: 03/29/2018
-keywords: ["_SendRNIDV2_OUT structure"]
+keywords: ["SendRNIDV2_OUT structure"]
 ms.keywords: "*PSendRNIDV2_OUT, PSendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], _SendRNIDV2_OUT, hbapiwmi/PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, storage.sendrnidv2_out, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml"
-f1_keywords:
- - "hbapiwmi/SendRNIDV2_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- SendRNIDV2_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
+f1_keywords:
+ - _SendRNIDV2_OUT
+ - hbapiwmi/_SendRNIDV2_OUT
+ - PSendRNIDV2_OUT
+ - hbapiwmi/PSendRNIDV2_OUT
+ - SendRNIDV2_OUT
+ - hbapiwmi/SendRNIDV2_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - SendRNIDV2_OUT
 ---
 
 # _SendRNIDV2_OUT structure
@@ -47,51 +50,30 @@ req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
 
 ## -description
 
-
-The SendRNIDV2_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrnidv2">SendRNIDV2</a> WMI method to the WMI client.
-
+The SendRNIDV2_OUT structure is used to report the output parameter data of the <a href="/windows-hardware/drivers/storage/sendrnidv2">SendRNIDV2</a> WMI method to the WMI client.
 
 ## -struct-fields
 
-
-
-
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
-
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalRspBufferSize
 
-Contains the size in bytes of the results of the version 2 request node identification data (RNIDV2) command. 
-
+Contains the size in bytes of the results of the version 2 request node identification data (RNIDV2) command.
 
 ### -field ActualRspBufferSize
 
-Contains the size in bytes of the data that was actually retrieved. 
-
+Contains the size in bytes of the data that was actually retrieved.
 
 ### -field RspBuffer
 
-Contains the results of the RNIDV2 command. 
-
+Contains the results of the RNIDV2 command.
 
 ## -remarks
 
-
-
-The WMI tool suite generates a declaration of the SendRNIDV2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
-
-
-
+The WMI tool suite generates a declaration of the SendRNIDV2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrnidv2">SendRNIDV2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/sendrnidv2">SendRNIDV2</a>

@@ -8,8 +8,6 @@ ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.date: 04/16/2018
 keywords: ["FltCreateSectionForDataScan function"]
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
-f1_keywords:
- - "fltkernel/FltCreateSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCreateSectionForDataScan
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateSectionForDataScan
+ - fltkernel/FltCreateSectionForDataScan
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCreateSectionForDataScan
 ---
 
 # FltCreateSectionForDataScan function
@@ -48,33 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltCreateSectionForDataScan</b> routine creates a section object for a file. The filter manager can optionally synchronize I/O with the section created.
-
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+The opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
+### -param FileObject 
 
-### -param Instance [in]
-
-The opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
-
-
-### -param FileObject [in]
-
+[in]
 The file object for an open file.  The section object will be backed by the specified file. This parameter is required and cannot be <b>NULL</b>.
 
+### -param SectionContext 
 
-### -param SectionContext [in]
+[in]
+A pointer to a previously allocated section context.
 
-A pointer to a previously allocated section context. 
+### -param DesiredAccess 
 
-
-### -param DesiredAccess [in]
-
-The type  of access for the section object as one or more of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
+[in]
+The type  of access for the section object as one or more of the following <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
 
 <table>
 <tr>
@@ -117,26 +112,25 @@ SECTION_ALL_ACCESS
 
 </td>
 <td>
-All actions defined by the previous flags as well as that defined by STANDARD_RIGHTS_REQUIRED. (For more information about STANDARD_RIGHTS_REQUIRED, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.) 
+All actions defined by the previous flags as well as that defined by STANDARD_RIGHTS_REQUIRED. (For more information about STANDARD_RIGHTS_REQUIRED, see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.) 
 
 </td>
 </tr>
 </table>
- 
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in, optional]
+[in, optional]
+A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FltCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FltCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+### -param MaximumSize 
 
-
-### -param MaximumSize [in, optional]
-
+[in, optional]
 This parameter is reserved for future use.
 
+### -param SectionPageProtection 
 
-### -param SectionPageProtection [in]
-
+[in]
 The protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
 
 <table>
@@ -165,11 +159,10 @@ Enables both read and write access to the committed region of pages.
 </td>
 </tr>
 </table>
- 
 
+### -param AllocationAttributes 
 
-### -param AllocationAttributes [in]
-
+[in]
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
 
 <table>
@@ -198,32 +191,28 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 </td>
 </tr>
 </table>
- 
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 This parameter is reserved for future use.
 
+### -param SectionHandle 
 
-### -param SectionHandle [out]
+[out]
+A pointer to a caller-allocated variable that receives an opaque handle to the section handle.
 
-A pointer to a caller-allocated variable that receives an opaque handle to the section handle. 
+### -param SectionObject 
 
-
-### -param SectionObject [out]
-
+[out]
 A pointer to a caller-allocated variable that receives an opaque pointer to the section object.
 
+### -param SectionFileSize 
 
-### -param SectionFileSize [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the file at the time the section object was created. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltCreateSectionForDataScan</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following.
 
@@ -361,77 +350,62 @@ The filter instance specified by <i>Instance</i> already has an open section for
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Prior to calling <b>FltCreateSectionForDataScan</b>, a minifilter must  first register its volume for data scanning by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfordatascan">FltRegisterForDataScan</a>. As with other filter context elements, <i>SectionContext</i> is first allocated with <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
 
-
-Prior to calling <b>FltCreateSectionForDataScan</b>, a minifilter must  first register its volume for data scanning by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfordatascan">FltRegisterForDataScan</a>. As with other filter context elements, <i>SectionContext</i> is first allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
-
-Certain situations can occur where holding a section open is incompatible with current file I/O. In particular, file I/O that triggers a cache purge can cause cache incoherency if the cache purge is prevented because of an open section.  A minifilter can provide an optional callback routine for notifications of these events. The minifilter driver implements a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_section_conflict_notification_callback">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a> to receive these notifications. Conflict notifications are enabled if the <b>SectionNotificationCallback</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> is set to this callback routine when the minifilter is registered. When a notification is received, the section can be closed to allow the conflicting I/O operation to continue. 
+Certain situations can occur where holding a section open is incompatible with current file I/O. In particular, file I/O that triggers a cache purge can cause cache incoherency if the cache purge is prevented because of an open section.  A minifilter can provide an optional callback routine for notifications of these events. The minifilter driver implements a <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_section_conflict_notification_callback">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a> to receive these notifications. Conflict notifications are enabled if the <b>SectionNotificationCallback</b> member of <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> is set to this callback routine when the minifilter is registered. When a notification is received, the section can be closed to allow the conflicting I/O operation to continue. 
 
 <div class="alert"><b>Note</b>  A section notification callback may occur before <b>FltCreateSectionForDataScan</b> returns. A minifilter must be able  to receive the callback and handle the case where <i>SectionHandle</i> and <i>SectionObject</i> are not yet valid.</div>
 <div> </div>
-When the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> routine.
+When the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> routine.
 
-For overview  information on creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views">Section Objects and Views</a>. Also, see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
+For overview  information on creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/kernel/section-objects-and-views">Section Objects and Views</a>. Also, see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
 
-<div class="alert"><b>Important</b>  <p class="note">Minifilters must not explicitly delete a section context passed to <b>FltCreateSectionForDataScan</b>. Do not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a> after a section context is passed to  <b>FltCreateSectionForDataScan</b>. A section context is deallocated and removed from a stream  by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a> in this case.
+<div class="alert"><b>Important</b>  <p class="note">Minifilters must not explicitly delete a section context passed to <b>FltCreateSectionForDataScan</b>. Do not call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a> after a section context is passed to  <b>FltCreateSectionForDataScan</b>. A section context is deallocated and removed from a stream  by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a> in this case.
 
 <p class="note">In general, sections should be created as read-only. In particular, if a read-only file is in a transaction  and a minifilter does not create a read-only section, a write to the section is discarded and is not included as part of the transaction.
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfordatascan">FltRegisterForDataScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfordatascan">FltRegisterForDataScan</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_section_conflict_notification_callback">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_section_conflict_notification_callback">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a>

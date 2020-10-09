@@ -6,10 +6,8 @@ old-location: wdf\wdf_power_policy_idle_timeout_type.htm
 tech.root: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.date: 02/26/2018
-keywords: ["_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration"]
+keywords: ["WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration"]
 ms.keywords: "*PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, SystemManagedIdleTimeout, SystemManagedIdleTimeoutWithHint, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, kmdf.wdf_power_policy_idle_timeout_type, wdf.wdf_power_policy_idle_timeout_type, wdfdevice/DriverManagedIdleTimeout, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeoutWithHint, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
-f1_keywords:
- - "wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+f1_keywords:
+ - _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - wdfdevice/_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 ---
 
 # _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration
@@ -47,29 +50,22 @@ req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEO
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration identifies how the idle timeout for a device is determined.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DriverManagedIdleTimeout
 
-The idle timeout value is determined by the <b>IdleTimeout</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
-
+The idle timeout value is determined by the <b>IdleTimeout</b> member of the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 ### -field SystemManagedIdleTimeout
 
 Starting in Windows 8, the timeout value is determined by the power framework (PoFx). The value of the <b>IdleTimeout</b> member is not used.
 
 On operating systems earlier than Windows 8, the behavior is same as <b>DriverManagedIdleTimeout</b>.
-
 
 ### -field SystemManagedIdleTimeoutWithHint
 
@@ -79,25 +75,10 @@ The actual duration after which the PoFx allows the device to enter a low-power 
 
 On operating systems earlier than Windows 8, the behavior is the same as <b>DriverManagedIdleTimeout</b>.
 
-
-
-
 ## -remarks
 
-
-
-The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
-
-
-
+The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>

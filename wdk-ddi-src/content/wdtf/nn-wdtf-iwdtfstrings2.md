@@ -8,8 +8,6 @@ ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
 ms.date: 04/04/2018
 keywords: ["IWDTFStrings2 interface"]
 ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
-f1_keywords:
- - "wdtf/IWDTFStrings2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFStrings2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFStrings2
+ - wdtf/IWDTFStrings2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFStrings2
 ---
 
 # IWDTFStrings2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for a collection of strings.
-
 
 ## -inheritance
 

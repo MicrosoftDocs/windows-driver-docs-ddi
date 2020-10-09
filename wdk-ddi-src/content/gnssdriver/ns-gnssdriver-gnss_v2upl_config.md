@@ -8,8 +8,6 @@ ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.date: 02/15/2018
 keywords: ["GNSS_V2UPL_CONFIG structure"]
 ms.keywords: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnss.gnss_v2upl_config, gnssdriver/GNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG"
-f1_keywords:
- - "gnssdriver/GNSS_V2UPL_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_V2UPL_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
+f1_keywords:
+ - PGNSS_V2UPL_CONFIG
+ - gnssdriver/PGNSS_V2UPL_CONFIG
+ - GNSS_V2UPL_CONFIG
+ - gnssdriver/GNSS_V2UPL_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_V2UPL_CONFIG
 ---
 
 # GNSS_V2UPL_CONFIG structure
@@ -47,39 +48,25 @@ req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
 
 ## -description
 
-
 This structure contains V2UPL configuration information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
 
-
 ### -field MPC
 
- 
-
-
 ### -field PDE
-
- 
-
 
 ### -field ApplicationTypeIndicator_MR
 
 Application type indicator for any mobile originated location request to the MPC. It shall be set to the value for Microsoft resident applications based on intelligent platform.
-
 
 ### -field Unused
 

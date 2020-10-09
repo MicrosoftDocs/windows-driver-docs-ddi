@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnSetExtendedFeatureCallbacks"
+ - PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
+ - d3d12umddi/PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback function
+
 
 ## -description
 
@@ -73,3 +75,4 @@ This callback function does not return a value.
 ## -see-also
 
 [**D3D12DDI_TABLE_TYPE**](ne-d3d12umddi-d3d12ddi_table_type.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 5dee3b70-9c8d-420d-86f9-9795b4d8b1e8
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtDeregisterManagedClient function"]
 ms.keywords: ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, kernel.clfsmgmtderegistermanagedclient, wdm/ClfsMgmtDeregisterManagedClient
-f1_keywords:
- - "wdm/ClfsMgmtDeregisterManagedClient"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtDeregisterManagedClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtDeregisterManagedClient
+ - wdm/ClfsMgmtDeregisterManagedClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtDeregisterManagedClient
 ---
 
 # ClfsMgmtDeregisterManagedClient function
@@ -48,14 +47,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtDeregisterManagedClient</b> routine removes the connection between a client and a log, so that the client no longer manages the log.
 
-
 ## -parameters
-
-
-
 
 ### -param ClientCookie
 
@@ -66,12 +60,9 @@ The cookie we give back to the caller for future use of the API.
 
 #### - Client [in]
 
-A pointer to the client. This is the value that was obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
-
+A pointer to the client. This is the value that was obtained through a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
 ## -returns
-
-
 
 The <b>ClfsMgmtDeregisterManagedClient</b> routine returns one of the following NTSTATUS values:
 
@@ -125,27 +116,11 @@ The value that  was supplied for the <i>Client</i> parameter does not represent 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After calling the <b>ClfsMgmtDeregisterManagedClient</b> routine, a client's callback functions will no longer be invoked.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>

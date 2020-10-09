@@ -8,8 +8,6 @@ ms.assetid: 53a37ac6-a410-452e-bed8-3ea23b1a2330
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceKeyCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Clear method, IPortableDeviceKeyCollection.Clear, IPortableDeviceKeyCollection::Clear, IPortableDeviceKeyCollectionClear, portabledevicetypes/IPortableDeviceKeyCollection::Clear, wpddk.iportabledevicekeycollection_clear
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceKeyCollection.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceKeyCollection.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceKeyCollection::Clear
+ - portabledevicetypes/IPortableDeviceKeyCollection::Clear
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceKeyCollection.Clear
 ---
 
 # IPortableDeviceKeyCollection::Clear
@@ -48,16 +47,9 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Deletes all items from the collection.
 
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -78,27 +70,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>

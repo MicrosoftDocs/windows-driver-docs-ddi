@@ -8,18 +8,16 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: audio
+f1_keywords:
+ - usbsidebandaudio
+ - usbsidebandaudio/usbsidebandaudio
 ---
 
 # Usbsidebandaudio.h header
 
-
-The header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows USB Audio Driver. 
+The header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows USB Audio Driver.
 
 For more information, see:
 
-- [Audio](../_audio/index.md)
-
-
+[Audio](../_audio/index.md)

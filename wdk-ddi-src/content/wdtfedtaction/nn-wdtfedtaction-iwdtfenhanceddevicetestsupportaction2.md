@@ -8,8 +8,6 @@ ms.assetid: 273eb6e9-10cb-4ed3-86a4-103dea801b77
 ms.date: 04/04/2018
 keywords: ["IWDTFEnhancedDeviceTestSupportAction2 interface"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
-f1_keywords:
- - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverEDTAction.Interop.dll
-api_name:
-- IWDTFEnhancedDeviceTestSupportAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFEnhancedDeviceTestSupportAction2
+ - wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverEDTAction.Interop.dll
+api_name:
+ - IWDTFEnhancedDeviceTestSupportAction2
 ---
 
 # IWDTFEnhancedDeviceTestSupportAction2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties that support the Enhanced Device Test (EDT) filter driver.
-
 
 ## -inheritance
 
@@ -61,11 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFEnhancedDeviceTestSuppor
 
 ## -remarks
 
-
-
 The EDT filter driver provides support for the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a> interface methods 
+<a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a> interface methods 
 that are prefixed with <b>EDT</b>.
-
-
-

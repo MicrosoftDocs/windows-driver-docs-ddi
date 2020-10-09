@@ -8,8 +8,6 @@ ms.assetid: f61878b4-6bfa-463e-9fb1-c95171ce65b4
 ms.date: 04/30/2018
 keywords: ["InterlockedExchangeAdd function"]
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd routine [Kernel-Mode Driver Architecture], k102_ed690604-0379-476d-b838-4820f47b850a.xml, kernel.interlockedexchangeadd, wdm/InterlockedExchangeAdd
-f1_keywords:
- - "wdm/InterlockedExchangeAdd"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -27,62 +25,51 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OneCoreUAP.lib
-- OneCoreUAP.dll
-- API-MS-Win-Core-Interlocked-l1-1-0.dll
-- API-MS-Win-Core-Interlocked-l1-2-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- InterlockedExchangeAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InterlockedExchangeAdd
+ - wdm/InterlockedExchangeAdd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OneCoreUAP.lib
+ - OneCoreUAP.dll
+ - API-MS-Win-Core-Interlocked-l1-1-0.dll
+ - API-MS-Win-Core-Interlocked-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - InterlockedExchangeAdd
 ---
 
-# InterlockedExchangeAdd function
+# InterlockedExchangeAdd function (wdm.h)
 
 
 ## -description
 
-
 The <b>InterlockedExchangeAdd</b> routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
-
 
 ## -parameters
 
+### -param Addend 
 
-
-
-### -param Addend [in, out]
-
+[in, out]
 A pointer to an integer variable.
 
+### -param Value 
 
-### -param Value [in]
-
-Specifies the value to be added to <i>Addend</i>. 
-
+[in]
+Specifies the value to be added to <i>Addend</i>.
 
 ## -returns
 
-
-
 <b>InterlockedExchangeAdd</b> returns the original value of the <i>Addend</i> variable when the call occurred.
 
-
-
-
 ## -remarks
-
-
 
 <b>InterlockedExchangeAdd</b> should be used instead of <b>ExInterlockedAddUlong</b> because it is both faster and more efficient. 
 
@@ -90,30 +77,20 @@ Specifies the value to be added to <i>Addend</i>.
 
 <b>InterlockedExchangeAdd</b> is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls. 
 
-Interlocked operations cannot be used on non-cached memory. 
-
-
-
+Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
+<a href="/previous-versions/ff545335(v=vs.85)">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
+<a href="/previous-versions/ff545343(v=vs.85)">ExInterlockedAddUlong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545343">ExInterlockedAddUlong</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockeddecrement">InterlockedDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockeddecrement">InterlockedDecrement</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedincrement">InterlockedIncrement</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedincrement">InterlockedIncrement</a>

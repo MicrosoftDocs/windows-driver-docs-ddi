@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: devtest
+f1_keywords:
+ - wpprecorder
+ - wpprecorder/wpprecorder
 ---
 
 # Wpprecorder.h header
@@ -18,7 +19,7 @@ tech.root: devtest
 
 ## -description
 
-
 This header is used by devtest. For more information, see:
 
 - [Driver test tools](../_devtest/index.md)
+

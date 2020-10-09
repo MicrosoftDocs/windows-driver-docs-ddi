@@ -8,8 +8,6 @@ ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.date: 02/26/2018
 keywords: ["IWDFDevice3::ReadFromHardware"]
 ms.keywords: IWDFDevice3 interface,ReadFromHardware method, IWDFDevice3.ReadFromHardware, IWDFDevice3::ReadFromHardware, ReadFromHardware, ReadFromHardware method, ReadFromHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_readfromhardware, wdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
-f1_keywords:
- - "wudfddi/IWDFDevice3.ReadFromHardware"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice3.ReadFromHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice3::ReadFromHardware
+ - wudfddi/IWDFDevice3::ReadFromHardware
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice3.ReadFromHardware
 ---
 
 # IWDFDevice3::ReadFromHardware
@@ -47,39 +46,32 @@ req.typenames:
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ReadFromHardware</b> method is used internally by the framework. Do not use.
 
-
 ## -parameters
 
+### -param Type 
 
+[in]
 
+### -param Size 
 
-### -param Type [in]
+[in]
 
+### -param Address 
 
-### -param Size [in]
+[in]
 
+### -param Buffer 
 
-### -param Address [in]
+[out]
 
+### -param Count 
 
-### -param Buffer [out]
-
-
-### -param Count [in, optional]
-
+[in, optional]
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>

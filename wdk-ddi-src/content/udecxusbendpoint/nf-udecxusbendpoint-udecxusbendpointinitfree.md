@@ -8,8 +8,6 @@ ms.assetid: F95BDA95-4667-4EC3-9FE5-C78B453AC0B3
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitFree function"]
 ms.keywords: UdecxUsbEndpointInitFree, UdecxUsbEndpointInitFree function [Buses], buses.udecxusbendpointinitfree, udecxusbendpoint/UdecxUsbEndpointInitFree
-f1_keywords:
- - "udecxusbendpoint/UdecxUsbEndpointInitFree"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbEndpointInitFree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbEndpointInitFree
+ - udecxusbendpoint/UdecxUsbEndpointInitFree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbEndpointInitFree
 ---
 
 # UdecxUsbEndpointInitFree function
@@ -48,35 +47,23 @@ req.typenames:
 
 ## -description
 
-
-Release the resources that were allocated by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a> call.
-
+Release the resources that were allocated by the  <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a> call.
 
 ## -parameters
 
+### -param Init 
 
-
-
-### -param Init [in]
-
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
-
+[in]
+A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
+<a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>

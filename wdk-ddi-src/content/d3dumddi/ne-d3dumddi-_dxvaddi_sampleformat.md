@@ -6,10 +6,8 @@ old-location: display\dxvaddi_sampleformat.htm
 tech.root: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
 ms.date: 05/10/2018
-keywords: ["_DXVADDI_SAMPLEFORMAT enumeration"]
+keywords: ["DXVADDI_SAMPLEFORMAT enumeration"]
 ms.keywords: DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleUnknown, display.dxvaddi_sampleformat
-f1_keywords:
- - "d3dumddi/DXVADDI_SAMPLEFORMAT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVADDI_SAMPLEFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_SAMPLEFORMAT
+f1_keywords:
+ - _DXVADDI_SAMPLEFORMAT
+ - d3dumddi/_DXVADDI_SAMPLEFORMAT
+ - DXVADDI_SAMPLEFORMAT
+ - d3dumddi/DXVADDI_SAMPLEFORMAT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVADDI_SAMPLEFORMAT
 ---
 
 # _DXVADDI_SAMPLEFORMAT enumeration
@@ -47,71 +48,46 @@ req.typenames: DXVADDI_SAMPLEFORMAT
 
 ## -description
 
-
 The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXVADDI_SampleFormatMask
 
 The sample format mask. The first 8 (0xFF) bits of a DWORD can be used to specify input sample format.
 
-
 ### -field DXVADDI_SampleUnknown
 
 The sample format is unknown.
-
 
 ### -field DXVADDI_SampleProgressiveFrame
 
 The sample contains a progressive frame.
 
-
 ### -field DXVADDI_SampleFieldInterleavedEvenFirst
 
 The sample contains two interleaved fields; the even field is temporally first.
-
 
 ### -field DXVADDI_SampleFieldInterleavedOddFirst
 
 The sample contains two interleaved fields; the odd field is temporally first.
 
-
 ### -field DXVADDI_SampleFieldSingleEven
 
 The sample contains an even interleaved field.
-
 
 ### -field DXVADDI_SampleFieldSingleOdd
 
 The sample contains an odd interleaved field.
 
-
 ### -field DXVADDI_SampleSubStream
 
 The sample contains a video substream.
 
-
 ## -remarks
 
-
-
-One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure.
-
-
-
+One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>

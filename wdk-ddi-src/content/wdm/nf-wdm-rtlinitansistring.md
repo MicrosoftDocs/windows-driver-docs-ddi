@@ -8,8 +8,6 @@ ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.date: 04/30/2018
 keywords: ["RtlInitAnsiString function"]
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
-f1_keywords:
- - "wdm/RtlInitAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitAnsiString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitAnsiString
+ - wdm/RtlInitAnsiString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitAnsiString
 ---
 
 # RtlInitAnsiString function
@@ -47,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlInitAnsiString</b> routine initializes a counted string of ANSI characters.
-
 
 ## -parameters
 
+### -param DestinationString 
 
+[out]
+A pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure to be initialized.
 
+### -param SourceString 
 
-### -param DestinationString [out]
-
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a> structure to be initialized.
-
-
-### -param SourceString [in, optional]
-
+[in, optional]
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 This routine initializes a counted character string.
 
-The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
+The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
 
 <b>RtlInitAnsiString</b> does not alter the source string pointed to by <i>SourceString</i>.
 
@@ -105,20 +92,10 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring">RtlInitString</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring">RtlInitString</a>, and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>

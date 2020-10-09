@@ -8,8 +8,6 @@ ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
 ms.date: 05/02/2018
 keywords: ["NdisMapFile function"]
 ms.keywords: NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile
-f1_keywords:
- - "ndis/NdisMapFile"
 req.header: ndis.h
 req.include-header: Video.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMapFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMapFile
+ - ndis/NdisMapFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMapFile
 ---
 
 # NdisMapFile function
@@ -48,19 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMapFile</b> function maps an already open file into a caller-accessible buffer if the file is
   currently unmapped.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the mapping
      operation, which can be one of the following:
      
@@ -72,7 +67,7 @@ A pointer to a caller-supplied variable in which this function returns the statu
 #### NDIS_STATUS_SUCCESS
 
 The caller has exclusive access to the file contents until the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a> function is called.
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a> function is called.
 
 
 
@@ -80,61 +75,48 @@ The caller has exclusive access to the file contents until the
 
 The caller cannot access the file contents at this time.
 
+### -param MappedBuffer 
 
-### -param MappedBuffer [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the base virtual address of
      the mapped file contents or <b>NULL</b>.
 
+### -param FileHandle 
 
-### -param FileHandle [in]
-
+[in]
 The handle that was returned by a preceding call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function.
 
 ## -remarks
-
-
 
 <b>NdisMapFile</b> associates (maps) a virtual address range with an opened file so the driver can access
     the file contents. 
     <b>NdisMapFile</b> allows only one mapping of a particular file to be outstanding at any time.
     Consequently, a successful caller is given exclusive access to the file data until 
     <b>NdisUnmapFile</b> or the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclosefile">NdisCloseFile</a> function is called.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclosefile">NdisCloseFile</a> function is called.
 
 A miniport driver can map and unmap such an open file as necessary, using alternating calls to 
     <b>NdisMapFile</b> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a>. A call to 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a>. A call to 
     <b>NdisCloseFile</b> releases the 
     <i>FileHandle</i> and deallocates the buffer containing the file contents.
 
 A miniport driver can call 
     <b>NdisMapFile</b> only during initialization.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclosefile">NdisCloseFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclosefile">NdisCloseFile</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a>

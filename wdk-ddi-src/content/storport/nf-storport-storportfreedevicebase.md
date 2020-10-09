@@ -8,8 +8,6 @@ ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.date: 03/29/2018
 keywords: ["StorPortFreeDeviceBase function"]
 ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
-f1_keywords:
- - "storport/StorPortFreeDeviceBase"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortFreeDeviceBase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreeDeviceBase
+ - storport/StorPortFreeDeviceBase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortFreeDeviceBase
 ---
 
 # StorPortFreeDeviceBase function
@@ -48,45 +47,28 @@ req.typenames:
 
 ## -description
 
-
-<b>StorPortFreeDeviceBase</b> frees a range of device I/O memory that was mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdevicebase">StorPortGetDeviceBase</a>.
-
+<b>StorPortFreeDeviceBase</b> frees a range of device I/O memory that was mapped by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdevicebase">StorPortGetDeviceBase</a>.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
+[in]
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
+### -param MappedAddress 
 
-### -param HwDeviceExtension [in]
-
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
-
-
-### -param MappedAddress [in]
-
+[in]
 Pointer to region of memory to be freed.
-
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportfreedevicebase">ScsiPortFreeDeviceBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportfreedevicebase">ScsiPortFreeDeviceBase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdevicebase">StorPortGetDeviceBase</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdevicebase">StorPortGetDeviceBase</a>

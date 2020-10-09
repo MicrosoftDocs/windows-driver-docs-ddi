@@ -8,8 +8,6 @@ ms.assetid: 08C27EC1-0948-4E8F-A391-01FE2C1A34DB
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
-f1_keywords:
- - "acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- IOCTL_ACPI_GET_DEVICE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_ACPI_GET_DEVICE_INFORMATION
+ - acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - IOCTL_ACPI_GET_DEVICE_INFORMATION
 ---
 
 # IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION device control request to obtain fine-grained identification information about its device. This IOCTL is typically used by drivers that support multiple versions or revisions of a device, and need to examine the component parts that make up the device's HW ID string to identify the exact device. The driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request.
-
+A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION device control request to obtain fine-grained identification information about its device. This IOCTL is typically used by drivers that support multiple versions or revisions of a device, and need to examine the component parts that make up the device's HW ID string to identify the exact device. The driver should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -95,18 +89,17 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 
 <i>InputBufferLength</i> is set to the size, in bytes, of the input buffer that is supplied by <i>InputBuffer</i>.
 
-
 ### -output-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 <ul>
 <li>
-<i>OutputBuffer</i> supplies a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
+<i>OutputBuffer</i> supplies a pointer to an <a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>
@@ -115,24 +108,9 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 <i>OutputBufferLength</i> supplies the size, in bytes, of the output buffer that is supplied by <i>OutputBuffer</i>.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -140,27 +118,14 @@ If the request succeeds, <i>IoStatusBlock</i>-><b>Status</b> is set to STATUS_SU
 
 If the request succeeds, the <i>IoStatusBlock</i>-><b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
 
-
 ## -remarks
-
-
 
 A driver for a device can use IOCTL_ACPI_GET_DEVICE_INFORMATION to obtain fine-grained identification information about its device. This IOCTL is typically used with drivers that support multiple hardware versions or revisions of a device, and need to examine the component parts that make up the device's HW ID string to identify the exact device. For example, a driver may support different revisions of the same device, in which some aspect of the programing interface or the device's behavior is different. The driver can identify exactly which revision it is running on.
 
-The output arguments from the request are returned in the variable-length <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER includes an array of variable-length arrays, each of which returns an output argument representing the sub-system ID string, vendor ID string, and instance ID string, respectively.
+The output arguments from the request are returned in the variable-length <a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER includes an array of variable-length arrays, each of which returns an output argument representing the sub-system ID string, vendor ID string, and instance ID string, respectively.
 
 IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_device_information_output_buffer">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a>

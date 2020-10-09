@@ -8,8 +8,6 @@ ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.date: 04/30/2018
 keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
-f1_keywords:
- - "wdm/RtlQueryRegistryValues"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- RtlQueryRegistryValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlQueryRegistryValues
+ - wdm/RtlQueryRegistryValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - RtlQueryRegistryValues
 ---
 
 # RtlQueryRegistryValues function
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlQueryRegistryValues</b> routine allows the caller to query several values from the registry subtree with a single call.
-
 
 ## -parameters
 
+### -param RelativeTo 
 
-
-
-### -param RelativeTo [in]
-
+[in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 
 <table>
@@ -152,25 +147,20 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use.
 </td>
 </tr>
 </table>
- 
 
+### -param Path 
 
-### -param Path [in]
-
+[in]
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. Note that the names of keys in such a path must be known to the caller, including the last key in the path. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be queried directly.
 
+### -param QueryTable 
 
-### -param QueryTable [in, out]
+[in, out]
+Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 
-Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _RTL_QUERY_REGISTRY_TABLE {
+```
+typedef struct _RTL_QUERY_REGISTRY_TABLE {
     PRTL_QUERY_REGISTRY_ROUTINE QueryRoutine;
     ULONG Flags;
     PWSTR Name;
@@ -178,10 +168,9 @@ Pointer to a table of one or more value names and subkey names in which the call
     ULONG DefaultType;
     PVOID DefaultData;
     ULONG DefaultLength;
-} RTL_QUERY_REGISTRY_TABLE, *PRTL_QUERY_REGISTRY_TABLE;</pre>
-</td>
-</tr>
-</table></span></div>
+} RTL_QUERY_REGISTRY_TABLE, *PRTL_QUERY_REGISTRY_TABLE;
+```
+
 If the caller allocates storage for the query table pointed to by the <i>QueryTable</i> parameter, the caller is responsible for releasing this storage after the <b>RtlQueryRegistryValues</b> call returns.
 
 
@@ -194,13 +183,9 @@ The address of a <i>QueryRoutine</i> function that is called with the name, type
 
 A <i>QueryRoutine</i> function is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 QueryRoutine (
     IN PWSTR ValueName,
     IN ULONG ValueType,
@@ -208,11 +193,10 @@ QueryRoutine (
     IN ULONG ValueLength,
     IN PVOID Context,
     IN PVOID EntryContext
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>.
+    );
+```
+
+For more information, see <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>.
 
 
 
@@ -271,7 +255,7 @@ RTL_QUERY_REGISTRY_NOEXPAND
 
 </td>
 <td>
-For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> routine. By default, <b>RtlQueryRegistryValues</b> expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate <i>QueryRoutine</i> call, so that the strings are presented as REG_SZ values that have the same <i>ValueName</i>. If this flag is set, <i>QueryRoutine</i> receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
+For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> routine. By default, <b>RtlQueryRegistryValues</b> expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate <i>QueryRoutine</i> call, so that the strings are presented as REG_SZ values that have the same <i>ValueName</i>. If this flag is set, <i>QueryRoutine</i> receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
 </td>
 </tr>
@@ -332,7 +316,7 @@ The least significant byte of this member specifies the REG_<i>XXX</i> type of t
 
 #### DefaultData
 
-A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if <b>DefaultType</b> = REG_NONE. Otherwise, the type of data pointed to by <b>DefaultData</b> should conform to the registry value type specified by the <b>DefaultType</b> member. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
+A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if <b>DefaultType</b> = REG_NONE. Otherwise, the type of data pointed to by <b>DefaultData</b> should conform to the registry value type specified by the <b>DefaultType</b> member. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
 
@@ -340,20 +324,17 @@ A pointer to the default value to be returned if no matching key is found and th
 
 Specifies the length, in bytes, of the <b>DefaultData</b> member. If <b>DefaultType</b> is REG_SZ, REG_EXPAND_SZ, or REG_MULTI_SZ, callers can optionally specify zero to indicate <b>RtlQueryRegistryValues</b> should compute the length based on the default data value. If <b>DefaultType</b> = REG_NONE, this member is ignored.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 Specifies the value passed as the <i>Context</i> parameter of a <i>QueryRoutine</i> function each time it is called.
 
+### -param Environment 
 
-### -param Environment [in, optional]
-
+[in, optional]
 Pointer to the environment used when expanding variable values in REG_EXPAND_SZ registry values, or a <b>NULL</b> pointer (optional).
 
-
 ## -returns
-
-
 
 <b>RtlQueryRegistryValues</b> returns an NTSTATUS code. The possible return values include:
 
@@ -422,12 +403,7 @@ The RTL_QUERY_REGISTRY_TYPECHECK flag is set and the type of the stored registry
 
 <b>RtlQueryRegistryValues</b> also terminates processing of the table if the <i>QueryRoutine</i> function for a table entry returns an NTSTATUS error code, and returns that error code as its result. (With one exception: If <i>QueryRoutine</i> returns STATUS_BUFFER_TOO_SMALL, the error code is ignored.)
 
-
-
-
 ## -remarks
-
-
 
 The caller specifies an initial key path and a table. The table contains one or more entries that describe the key values and subkey names in which the caller is interested. The table is terminated by an entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The table must be allocated from nonpaged pool.
 
@@ -437,21 +413,16 @@ The caller specifies an initial key path and a table. The table contains one or 
 <div> </div>
 If the RTL_QUERY_REGISTRY_TYPECHECK flag is set in a table entry, the caller must specify the expected REG_<i>XXX</i> type in the 8 most significant bits (MSBs) of the 32-bit <b>DefaultType</b> member of the table entry. As shown in the following code example, the RTL_QUERY_REGISTRY_TYPECHECK_SHIFT constant, which is defined to be 24, can be used as the shift count required to place the expected REG_<i>XXX</i> type in the 8 MSBs of the <b>DefaultType</b> member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
+
+```cpp
+RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
 ...
 QueryRegTable[0].DefaultType = (REG_SZ << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
 ...
 QueryRegTable[1].DefaultType = (REG_DWORD << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
 Starting with Windows 8, if an <b>RtlQueryRegistryValues</b> call accesses an untrusted hive, and the caller sets the RTL_QUERY_REGISTRY_DIRECT flag for this call, the caller must additionally set the RTL_QUERY_REGISTRY_TYPECHECK flag. A violation of this rule by a call from user mode causes an exception.  A violation of this rule by a call from kernel mode causes a 0x139 bug check (KERNEL_SECURITY_CHECK_FAILURE).
 
 Only system hives are trusted. An <b>RtlQueryRegistryValues</b> call that accesses a system hive does not cause an exception or a bug check if the RTL_QUERY_REGISTRY_DIRECT flag is set and the RTL_QUERY_REGISTRY_TYPECHECK flag is not set. However, as a best practice, the RTL_QUERY_REGISTRY_TYPECHECK flag should always be set if the RTL_QUERY_REGISTRY_DIRECT flag is set.
@@ -471,16 +442,11 @@ Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows U
 
 Starting with Windows Driver Kit (WDK) 8, the RTL_QUERY_REGISTRY_TYPECHECK flag is defined in the Wdm.h header file as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define RTL_QUERY_REGISTRY_TYPECHECK 0x00000100</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define RTL_QUERY_REGISTRY_TYPECHECK 0x00000100
+```
+
 If an entry does not specify the RTL_QUERY_REGISTRY_DIRECT flag, <b>RtlQueryRegistryValues</b> uses the specified <i>QueryRoutine</i> function to report the value name, type, data, and data length, in bytes, to the caller. If the <b>Name</b> member of the entry is <b>NULL</b>, <b>RtlQueryRegistryValues</b> reports every direct subkey of the key. If the key type is REG_MULTI_SZ and the RTL_QUERY_REGISTRY_NOEXPAND flag not is specified, the routine calls <i>QueryRoutine</i> separately for each individual string; otherwise the routine reports it as a single value. If an entry specifies the RTL_QUERY_REGISTRY_DIRECT flag, <b>RtlQueryRegistryValues</b> stores the value of the key in the buffer pointed to by the entry's <b>EntryContext</b> member. The format of the returned data is as follows.
 
 <table>
@@ -494,7 +460,7 @@ A null-terminated Unicode string (such as REG_SZ, REG_EXPAND_SZ).
 
 </td>
 <td>
-<b>EntryContext</b> must point to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the <b>Buffer</b> member of <b>UNICODE_STRING</b> is <b>NULL</b>, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that <b>Buffer</b> points to.
+<b>EntryContext</b> must point to an initialized <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the <b>Buffer</b> member of <b>UNICODE_STRING</b> is <b>NULL</b>, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that <b>Buffer</b> points to.
 
 </td>
 </tr>
@@ -535,38 +501,28 @@ The buffer pointed to by <b>EntryContext</b> must begin with a signed LONG value
 
 If an error occurs at any stage of processing of the query table, <b>RtlQueryRegistryValues</b> stops processing the table and returns the error status.
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a> for a description of the possible REG_<i>XXX</i> values.
-
-
-
+See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a> for a description of the possible REG_<i>XXX</i> values.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>

@@ -1,50 +1,50 @@
 ---
 UID: NF:fltkernel.FltRetrieveFileInfoOnCreateCompletionEx
 title: FltRetrieveFileInfoOnCreateCompletionEx function
-author: windows-driver-content
 description: A minifilter calls FltRetrieveFileInfoOnCreateCompletionEx to query file information upon file creation completion.
 tech.root: ifsk
 ms.assetid: b0a99090-40a5-4e40-8ddb-54816ba789b5
-ms.author: windowsdriverdev
 ms.date: 01/11/2019
 keywords: ["FltRetrieveFileInfoOnCreateCompletionEx function"]
-f1_keywords:
- - "fltkernel/FltRetrieveFileInfoOnCreateCompletionEx"
 ms.keywords: FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
-- fltkernel.h
-api_name: 
- - FltRetrieveFileInfoOnCreateCompletionEx
-product: 
- - Windows
 targetos: Windows
-dev_langs:
-- c++
 ms.custom: 19H1
+f1_keywords:
+ - FltRetrieveFileInfoOnCreateCompletionEx
+ - fltkernel/FltRetrieveFileInfoOnCreateCompletionEx
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FltRetrieveFileInfoOnCreateCompletionEx
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # FltRetrieveFileInfoOnCreateCompletionEx function
+
 
 ## -description
 
@@ -93,7 +93,7 @@ A minifilter must call **FltRequestFileInfoOnCreateCompletionEx** during file pr
 
 ## -see-also
 
-[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
+[ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 

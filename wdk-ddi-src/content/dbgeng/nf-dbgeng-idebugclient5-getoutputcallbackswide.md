@@ -8,8 +8,6 @@ ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::GetOutputCallbacksWide"]
 ms.keywords: GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputCallbacksWide method, IDebugClient5.GetOutputCallbacksWide, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide
-f1_keywords:
- - "dbgeng/IDebugClient5.GetOutputCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.GetOutputCallbacksWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::GetOutputCallbacksWide
+ - dbgeng/IDebugClient5::GetOutputCallbacksWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.GetOutputCallbacksWide
 ---
 
 # IDebugClient5::GetOutputCallbacksWide
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetOutputCallbacksWide</b> method returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> object registered with the client.
-
+The <b>GetOutputCallbacksWide</b> method returns the <a href="/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> object registered with the client.
 
 ## -parameters
 
+### -param Callbacks 
 
-
-
-### -param Callbacks [out]
-
-Receives an interface pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> object registered with the client.
-
+[out]
+Receives an interface pointer to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> object registered with the client.
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -84,41 +76,25 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each client can have at most one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacksWide</b> object registered with it for output.
+Each client can have at most one <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacksWide</b> object registered with it for output.
 
 If no output callbacks object is registered with the client, the value of <i>Callbacks</i> will be set to <b>NULL</b>.
 
 The <b>IDebugOutputCallbacksWide</b> interface extends the COM interface <b>IUnknown</b>.  Before returning the <b>IDebugOutputCallbacksWide</b> object specified by <i>Callbacks</i>, the engine calls its <b>IUnknown::AddRef</b> method.  When this object is no longer needed, its <b>IUnknown::Release</b> method should be called.
 
-For more information about callbacks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">Callbacks</a>.
-
-
-
+For more information about callbacks, see <a href="/windows-hardware/drivers/debugger/using-callback-objects">Callbacks</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputcallbacks">SetOutputCallbacks</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputcallbacks">SetOutputCallbacks</a>

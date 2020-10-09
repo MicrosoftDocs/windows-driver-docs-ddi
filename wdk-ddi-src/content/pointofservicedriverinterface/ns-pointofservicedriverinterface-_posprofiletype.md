@@ -6,10 +6,8 @@ old-location: pos\posprofiletype.htm
 tech.root: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.date: 02/23/2018
-keywords: ["_PosProfileType structure"]
+keywords: ["PosProfileType structure"]
 ms.keywords: PosProfileType, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, pos.posprofiletype
-f1_keywords:
- - "pointofservicedriverinterface/PosProfileType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- PosProfileType
-product:
-- Windows
 targetos: Windows
 req.typenames: PosProfileType
+f1_keywords:
+ - _PosProfileType
+ - pointofservicedriverinterface/_PosProfileType
+ - PosProfileType
+ - pointofservicedriverinterface/PosProfileType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - PosProfileType
 ---
 
 # _PosProfileType structure
@@ -47,19 +48,11 @@ req.typenames: PosProfileType
 
 ## -description
 
-
 This structure describes the number of profile strings in a buffer.
-
 
 ## -struct-fields
 
-
-
-
 ### -field BufferSize
-
- 
-
 
 ### -field ProfileCount
 
@@ -70,19 +63,14 @@ This structure describes the number of profile strings in a buffer.
 
 #### - DataLength
 
-The size in bytes of the buffer that follows this <b>PosProfileType</b>, including the size of the <b>PosProfileType</b> structure.
+The size in bytes of the buffer that follows this **PosProfileType**, including the size of the **PosProfileType** structure.
 
 
 #### - EntryCount
 
 Indicates the number of statistics that follow this header.
 
-
 ## -remarks
 
-
-
-The buffer of profile <i>PosStringType</i> strings follows this structure in memory.
-
-
+The buffer of profile *PosStringType* strings follows this structure in memory.
 

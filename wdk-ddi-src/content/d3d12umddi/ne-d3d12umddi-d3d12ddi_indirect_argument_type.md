@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_INDIRECT_ARGUMENT_TYPE
 title: D3D12DDI_INDIRECT_ARGUMENT_TYPE
-author: windows-driver-content
 description: Specifies the type of the indirect parameter for indirect dispatch.
 tech.root: display
 ms.assetid: 6be46c04-3fc0-4761-9486-388c252d0684
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_TYPE, D3D12DDI_INDIRECT_ARGUMENT_TYPE,
@@ -24,7 +22,8 @@ req.typenames: D3D12DDI_INDIRECT_ARGUMENT_TYPE
 targetos: Windows
 ms.custom: 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_TYPE"
+ - D3D12DDI_INDIRECT_ARGUMENT_TYPE
+ - d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_TYPE
 topic_type:
  - apiref
 api_type:
@@ -97,10 +96,10 @@ Indicates the type is a DispatchMesh call. Available starting with Windows 10, v
 
 ## -remarks
 
-**D3D12DDI_INDIRECT_ARGUMENT_TYPE** is a member of [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc).md).
+**D3D12DDI_INDIRECT_ARGUMENT_TYPE** is a member of [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md).
 
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
 
-[**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc)
+[**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md)

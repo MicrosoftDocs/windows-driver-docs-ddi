@@ -8,8 +8,6 @@ ms.assetid: 8fed32a2-f0a7-4462-b8bb-b01c9cccf6b7
 ms.date: 05/02/2018
 keywords: ["RILSMSMODIFICATIONINFO structure"]
 ms.keywords: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsmsmodificationinfo, ntddrilapitypes/RILSMSMODIFICATIONINFO"
-f1_keywords:
- - "rilapitypes/RILSMSMODIFICATIONINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,49 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSMSMODIFICATIONINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
+f1_keywords:
+ - RILSMSMODIFICATIONINFO
+ - rilapitypes/RILSMSMODIFICATIONINFO
+ - LPRILSMSMODIFICATIONINFO
+ - rilapitypes/LPRILSMSMODIFICATIONINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSMSMODIFICATIONINFO
 ---
 
-# RILSMSMODIFICATIONINFO structure
+# RILSMSMODIFICATIONINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field dwModificationType
 
-
 ### -field raAddress
-
 
 ### -field aiIdentifier
 

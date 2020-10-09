@@ -8,10 +8,11 @@ ms.keywords: USB Policy Manager, USB Type-C connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: usbref
 ms.custom: RS5
+f1_keywords:
+ - usbpmapi
+ - usbpmapi/usbpmapi
 ---
 
 # Usbpmapi.h header
@@ -29,5 +30,5 @@ Usbpmapi.h includes:
 
 For more information, see:
 
-- [Write a USB Type-C Policy Manager client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/policy-manager-client)
+- [Write a USB Type-C Policy Manager client driver](/windows-hardware/drivers/usbcon/policy-manager-client)
 - [Universal Serial Bus (USB)](../_usbref/index.md)

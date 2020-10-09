@@ -8,16 +8,15 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: ieee
+f1_keywords:
+ - "61883"
+ - 61883/61883
 ---
 
 # 61883.h header
 
-
 ## -description
-
 
 This header is used by ieee. For more information, see:
 

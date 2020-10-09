@@ -6,10 +6,8 @@ old-location: print\exttextmetric.htm
 tech.root: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.date: 04/20/2018
-keywords: ["_EXTTEXTMETRIC structure"]
+keywords: ["EXTTEXTMETRIC structure"]
 ms.keywords: "*PEXTTEXTMETRIC, EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices], _EXTTEXTMETRIC, print.exttextmetric, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC"
-f1_keywords:
- - "prntfont/EXTTEXTMETRIC"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- EXTTEXTMETRIC
-product:
-- Windows
 targetos: Windows
 req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
+f1_keywords:
+ - _EXTTEXTMETRIC
+ - prntfont/_EXTTEXTMETRIC
+ - PEXTTEXTMETRIC
+ - prntfont/PEXTTEXTMETRIC
+ - EXTTEXTMETRIC
+ - prntfont/EXTTEXTMETRIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - EXTTEXTMETRIC
 ---
 
 # _EXTTEXTMETRIC structure
 
+
 ## -description
 
-The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management) (.ufm files).
+The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](/windows-hardware/drivers/print/customized-font-management) (.ufm files).
 
 ## -struct-fields
 

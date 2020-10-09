@@ -8,8 +8,6 @@ ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::GetStreamPresentationPosition"]
 ms.keywords: GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
-f1_keywords:
- - "portcls/IMiniportStreamAudioEngineNode.GetStreamPresentationPosition"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+ - portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
@@ -47,42 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
-
 
 ## -parameters
 
+### -param pPresentationPosition 
 
-
-
-### -param pPresentationPosition [out]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
-
+[out]
+A <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
 
 ## -returns
-
-
 
 <b>GetStreamPresentationPosition</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error 
 
 code.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a>

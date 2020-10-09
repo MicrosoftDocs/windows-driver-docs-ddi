@@ -6,7 +6,6 @@ ms.topic: language-reference
 ms.assetid: eea363d4-8d80-44fd-96d8-244ba188a86c
 targetos: Windows
 tech.root: display
-ms.assetid: d01391b1-94af-4e39-8459-67c3b21e26aa
 description: Contains display options data
 req.construct-type: structure
 req.ddi-compliance: 
@@ -32,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_D3D12_OPTIONS_DATA_0073
 f1_keywords:
+ - D3D12DDI_D3D12_OPTIONS_DATA_0073
  - d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0073
 dev_langs:
  - c++
@@ -45,20 +45,20 @@ Contains display options data supported by the driver/hardware.
 
 ### -field ResourceBindingTier
 
-The [**D3D12DDI_RESOURCE_BINDING_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_resource_binding_tier
+The [**D3D12DDI_RESOURCE_BINDING_TIER**](./ne-d3d12umddi-d3d12ddi_resource_binding_tier.md
 ) value.
 
 ### -field ConservativeRasterizationTier
 
-The [**D3D12_CONSERVATIVE_RASTERIZATION_TIER**](https://docs.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier) value.
+The [**D3D12_CONSERVATIVE_RASTERIZATION_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier) value.
 
 ### -field TiledResourcesTier
 
-The [**D3D12DDI_TILED_RESOURCES_TIER**](https://docs.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier) value.
+The [**D3D12DDI_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier) value.
 
 ### -field CrossNodeSharingTier
 
-The [**D3D12DDI_CROSS_NODE_SHARING_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_cross_node_sharing_tier
+The [**D3D12DDI_CROSS_NODE_SHARING_TIER**](./ne-d3d12umddi-d3d12ddi_cross_node_sharing_tier.md
 ) value indicating the level of sharing across nodes of a display adapter.
 
 ### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
@@ -71,7 +71,7 @@ Set TRUE when output merger logic operations are supported; otherwise, set FALSE
 
 ### -field ResourceHeapTier
 
-The [**D3D12DDI_RESOURCE_HEAP_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_resource_heap_tier) value.
+The [**D3D12DDI_RESOURCE_HEAP_TIER**](./ne-d3d12umddi-d3d12ddi_resource_heap_tier.md) value.
 
 ### -field DepthBoundsTestSupported
 
@@ -87,11 +87,11 @@ Set TRUE when queue timestamp queries are supported; otherwise, set FALSE.
 
 ### -field WriteBufferImmediateQueueFlags
 
-The [**D3D12DDI_COMMAND_QUEUE_FLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_command_queue_flags) value for the video command queue.
+The [**D3D12DDI_COMMAND_QUEUE_FLAGS**](./ne-d3d12umddi-d3d12ddi_command_queue_flags.md) value for the video command queue.
 
 ### -field ViewInstancingTier
 
-The [**D3D12DDI_VIEW_INSTANCING_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_view_instancing_tier) value.
+The [**D3D12DDI_VIEW_INSTANCING_TIER**](./ne-d3d12umddi-d3d12ddi_view_instancing_tier.md) value.
 
 ### -field BarycentricsSupported
 
@@ -139,11 +139,11 @@ Set TRUE when the driver supports background processing; otherwise, set FALSE.
 
 ### -field MeshShaderTier
 
-The [**D3D12DDI_MESH_SHADER_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_mesh_shader_tier) that the device supports.
+The [**D3D12DDI_MESH_SHADER_TIER**](./ne-d3d12umddi-d3d12ddi_mesh_shader_tier.md) that the device supports.
 
 ### -field SamplerFeedbackTier
 
-The [**D3D12DDI_SAMPLER_FEEDBACK_TIER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_mesh_shader_tier) that the device supports.
+The [**D3D12DDI_SAMPLER_FEEDBACK_TIER**](./ne-d3d12umddi-d3d12ddi_mesh_shader_tier.md) that the device supports.
 
 ## -remarks
 

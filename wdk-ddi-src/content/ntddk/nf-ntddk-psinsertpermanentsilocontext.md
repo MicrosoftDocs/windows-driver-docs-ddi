@@ -8,8 +8,6 @@ ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.date: 04/30/2018
 keywords: ["PsInsertPermanentSiloContext function"]
 ms.keywords: PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, ntddk/PsInsertPermanentSiloContext
-f1_keywords:
- - "ntddk/PsInsertPermanentSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsInsertPermanentSiloContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsInsertPermanentSiloContext
+ - ntddk/PsInsertPermanentSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsInsertPermanentSiloContext
 ---
 
 # PsInsertPermanentSiloContext function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 This routine inserts an object in an empty slot in a <i>Silo</i>.
-
 
 ## -parameters
 
+### -param Silo 
 
+[in]
+The silo in which the object is to be inserted. This parameter is required and it cannot be <b>NULL</b>.
 
+### -param ContextSlot 
 
-### -param Silo [in]
+[in]
+The slot in which the object is to be inserted. A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
-The silo in which the object is to be inserted. This parameter is required and it cannot be <b>NULL</b>. 
+### -param SiloContext 
 
-
-### -param ContextSlot [in]
-
-The slot in which the object is to be inserted. A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
-
-
-### -param SiloContext [in]
-
-The object to be inserted, created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo as specified in the <i>Silo</i> parameter. This parameter is required and it cannot be <b>NULL</b>. 
-
+[in]
+The object to be inserted, created by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo as specified in the <i>Silo</i> parameter. This parameter is required and it cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -116,16 +108,7 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A successful call to <b>PsInsertPermanentSiloContext</b> increments the reference count on <i>SiloContext</i>. If <b>PsInsertPermanentSiloContext</b> fails, the reference count remains unchanged. In either case, after the routine completes, the caller must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> to decrement the <i>SiloContext</i> object.
-
-
-
+A successful call to <b>PsInsertPermanentSiloContext</b> increments the reference count on <i>SiloContext</i>. If <b>PsInsertPermanentSiloContext</b> fails, the reference count remains unchanged. In either case, after the routine completes, the caller must call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> to decrement the <i>SiloContext</i> object.

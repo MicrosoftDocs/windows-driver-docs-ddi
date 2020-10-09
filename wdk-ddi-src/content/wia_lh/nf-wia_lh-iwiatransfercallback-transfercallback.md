@@ -8,8 +8,6 @@ ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.date: 05/03/2018
 keywords: ["IWiaTransferCallback::TransferCallback"]
 ms.keywords: IWiaTransferCallback interface [Imaging Devices],TransferCallback method, IWiaTransferCallback.TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices],IWiaTransferCallback interface, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
-f1_keywords:
- - "wia_lh/IWiaTransferCallback.TransferCallback"
 req.header: wia_lh.h
 req.include-header: Wia.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wia_lh.h
-api_name:
-- IWiaTransferCallback.TransferCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaTransferCallback::TransferCallback
+ - wia_lh/IWiaTransferCallback::TransferCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wia_lh.h
+api_name:
+ - IWiaTransferCallback.TransferCallback
 ---
 
 # IWiaTransferCallback::TransferCallback
@@ -47,44 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IWiaTransferCallback::TransferCallback</b> method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling <b>IWiaTransfer::Download</b> or the preview component's <b>IWiaPreview::GetNewPreview</b>.
-
 
 ## -parameters
 
+### -param lFlags 
 
-
-
-### -param lFlags [in]
-
+[in]
 Currently unused. Should be set to zero.
-
 
 ### -param pWiaTransferParams
 
-
-
-
-
-
-#### - WiaTransferParams [in]
-
+#### - WiaTransferParams 
+[in]
 Specifies a pointer to a WiaTransferParams structure. This structure is defined in the Microsoft Windows SDK documentation.
-
 
 ## -returns
 
-
-
-Returns S_OK if successful, or a standard COM error value otherwise. 
-
-
-
+Returns S_OK if successful, or a standard COM error value otherwise.
 
 ## -remarks
-
-
 
 An image processing filter's implementation of <b>IWiaTransferCallback::TransferCallback</b> method is called during image acquisition, when the WIA mini-driver asks for the destination stream from the client and when the mini-driver sends progress messages back to the application. 
 
@@ -92,5 +73,4 @@ An image processing filter's <b>IWiaTransferCallback::TransferCallback</b> metho
 
 <div class="alert"><b>Note</b>    This method is not called by the preview component during <b>IWiaPreview::UpdatePreview</b>.</div>
 <div> </div>
-
 

@@ -8,8 +8,6 @@ ms.assetid: 1d45465c-21ee-423c-967a-4462b61c2f0e
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_DISCONNECT, IOCTL_BTH_SDP_DISCONNECT control, IOCTL_BTH_SDP_DISCONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_disconnect, bth_ioctls_6cff5fc3-aff6-4e9b-8192-c6cd7c8f5fea.xml, bthioctl/IOCTL_BTH_SDP_DISCONNECT
-f1_keywords:
- - "bthioctl/IOCTL_BTH_SDP_DISCONNECT"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_SDP_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_SDP_DISCONNECT
+ - bthioctl/IOCTL_BTH_SDP_DISCONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_SDP_DISCONNECT
 ---
 
 # IOCTL_BTH_SDP_DISCONNECT IOCTL
@@ -47,59 +46,33 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains an 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure that
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure that
       specifies the connection handle to the remote SDP connection to terminate.
-
 
 ### -input-buffer-length
 
 Length of an 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure.
-
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure.
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -145,32 +118,18 @@ The connection handle passed in the input buffer is invalid.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 Callers of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> must issue an
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> must issue an
     IOCTL_BTH_SDP_DISCONNECT IOCTL when the SDP connection is no longer needed. After
     IOCTL_BTH_SDP_DISCONNECT is called, the specified SDP handle is no longer valid.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>

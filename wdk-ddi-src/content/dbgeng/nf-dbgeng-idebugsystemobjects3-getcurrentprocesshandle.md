@@ -8,8 +8,6 @@ ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetCurrentProcessHandle"]
 ms.keywords: GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects3.GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, debugger.getcurrentprocesshandle2
-f1_keywords:
- - "dbgeng/IDebugSystemObjects.GetCurrentProcessHandle"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects.GetCurrentProcessHandle
-- IDebugSystemObjects2.GetCurrentProcessHandle
-- IDebugSystemObjects3.GetCurrentProcessHandle
-- IDebugSystemObjects4.GetCurrentProcessHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects3::GetCurrentProcessHandle
+ - dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects.GetCurrentProcessHandle
+ - IDebugSystemObjects2.GetCurrentProcessHandle
+ - IDebugSystemObjects3.GetCurrentProcessHandle
+ - IDebugSystemObjects4.GetCurrentProcessHandle
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessHandle
@@ -50,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetCurrentProcessHandle</b> method returns the system handle for the current process.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [out]
-
+[out]
 Receives the system handle of the current process.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -87,18 +79,9 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In kernel-mode debugging, the only process in the target is the virtual process created for the kernel.  In this case, an artificial handle is created.  The artificial handle can only be used with the debugger engine API.
 
-For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="https://docs.microsoft.com/windows-hardware/drivers/">Handles</a>.
-
-
-
+For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="/windows-hardware/drivers/">Handles</a>.

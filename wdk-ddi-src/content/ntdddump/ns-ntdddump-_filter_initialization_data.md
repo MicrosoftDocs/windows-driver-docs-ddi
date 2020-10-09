@@ -6,10 +6,8 @@ old-location: storage\filter_initialization_data.htm
 tech.root: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.date: 03/29/2018
-keywords: ["_FILTER_INITIALIZATION_DATA structure"]
+keywords: ["FILTER_INITIALIZATION_DATA structure"]
 ms.keywords: "*PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
-f1_keywords:
- - "ntdddump/FILTER_INITIALIZATION_DATA"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddump.h
-api_name:
-- FILTER_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+f1_keywords:
+ - _FILTER_INITIALIZATION_DATA
+ - ntdddump/_FILTER_INITIALIZATION_DATA
+ - PFILTER_INITIALIZATION_DATA
+ - ntdddump/PFILTER_INITIALIZATION_DATA
+ - FILTER_INITIALIZATION_DATA
+ - ntdddump/FILTER_INITIALIZATION_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddump.h
+api_name:
+ - FILTER_INITIALIZATION_DATA
 ---
 
 # _FILTER_INITIALIZATION_DATA structure
@@ -47,14 +50,9 @@ req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 
 ## -description
 
-
 The filter driver fills in a <b>FILTER_INITIALIZATION_DATA</b> structure and returns it to the crash dump driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
@@ -68,41 +66,33 @@ Set to one of the following major version values:
 
 #### DUMP_FILTER_MAJOR_VERSION (0x2)
 
-
 ### -field MinorVersion
 
 Set to <b>DUMP_FILTER_MINOR_VERSION</b>.
-
 
 ### -field DumpStart
 
 A pointer to the dump initialization routine. This routine is called when the crash dump starts.
 
-
 ### -field DumpWrite
 
 A pointer to the write routine. This routine is called before every crash dump write request.
-
 
 ### -field DumpFinish
 
 A pointer to the dump finish routine.  This routine is called when the crash dump is finished.
 
-
 ### -field DumpUnload
 
 A pointer to the dump unload routine. This routine is called before the driver is unloaded.
 
-
 ### -field DumpData
 
-The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure during each callback.
-
+The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure during each callback.
 
 ### -field MaxPagesPerWrite
 
 The maximum number of pages for each dump read or write request.
-
 
 ### -field Flags
 
@@ -134,17 +124,12 @@ Fail the filter initialization  immediately if the  dump filter driver's <b>Driv
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DumpRead
 
 A pointer to the read routine. This routine is called after every crash dump read request. This member is available starting in Windows 8.
 
-
 ## -remarks
-
-
 
 For a dump filter driver to support read filtering, the following settings are required:
 
@@ -155,36 +140,26 @@ For a dump filter driver to support read filtering, the following settings are r
 </ul>
 If any of these members are not set, the dump filter driver will be marked as not supporting dump reads by the crashdump stack.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_finish">Dump_Finish</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_finish">Dump_Finish</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_start">Dump_Start</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_start">Dump_Start</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_unload">Dump_Unload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_unload">Dump_Unload</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>

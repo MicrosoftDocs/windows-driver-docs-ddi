@@ -8,8 +8,6 @@ ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.date: 04/16/2018
 keywords: ["RtlLookupElementGenericTable function"]
 ms.keywords: RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml
-f1_keywords:
- - "ntddk/RtlLookupElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlLookupElementGenericTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlLookupElementGenericTable
+ - ntddk/RtlLookupElementGenericTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlLookupElementGenericTable
 ---
 
 # RtlLookupElementGenericTable function
+
 
 ## -description
 
@@ -71,7 +71,7 @@ Callers of the Rtl..GenericTable routines are responsible for exclusively synchr
 By default, the operating system uses splay trees to implement generic tables. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *ntddk.h*:
 
 ```
-#define RTL_USE_AVL_TABLES 0
+`#define RTL_USE_AVL_TABLES 0`
 ```
 
 If you do not define RTL_USE_AVL_TABLES as specified above, you must use the AVL form of the generic table routines. For example, use the [RtlLookupElementGenericTableAvl](nf-ntddk-rtllookupelementgenerictableavl.md) routine instead of **RtlLookupElementGenericTable**. In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [RTL_AVL_TABLE](ns-ntddk-_rtl_avl_table.md) table structure rather than [RTL_GENERIC_TABLE](ns-ntddk-_rtl_generic_table.md).
@@ -95,3 +95,4 @@ Otherwise, callers of **RtlLookupElementGenericTable** can run at IRQL <= DISPAT
 [RtlIsGenericTableEmpty](nf-ntddk-rtlisgenerictableempty.md)
 
 [RtlNumberGenericTableElements](nf-ntddk-rtlnumbergenerictableelements.md)
+

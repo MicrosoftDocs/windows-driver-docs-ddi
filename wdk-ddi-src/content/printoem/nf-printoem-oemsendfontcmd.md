@@ -8,8 +8,6 @@ ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.date: 11/18/2019
 keywords: ["OEMSendFontCmd function"]
 ms.keywords: OEMSendFontCmd, OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd
-f1_keywords:
- - "printoem/OEMSendFontCmd"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,28 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMSendFontCmd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMSendFontCmd
+ - printoem/OEMSendFontCmd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMSendFontCmd
 ---
 
 # OEMSendFontCmd function
+
 
 ## -description
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-Use [IPrintOemUni::SendFontCmd](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd) instead.
+Use [IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md) instead.
 
 ## -parameters
 

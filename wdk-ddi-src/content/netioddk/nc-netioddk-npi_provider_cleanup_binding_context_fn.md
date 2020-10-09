@@ -8,8 +8,6 @@ ms.assetid: 0af476f6-0113-4aeb-b7d6-8e0e64a89bd0
 ms.date: 05/02/2018
 keywords: ["NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function"]
 ms.keywords: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
-f1_keywords:
- - "netioddk/PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netioddk.h
-api_name:
-- PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
+ - netioddk/NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netioddk.h
+api_name:
+ - PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
 ---
 
 # NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function
@@ -47,29 +46,22 @@ req.typenames:
 
 ## -description
 
-
 A provider module's 
   <i>ProviderCleanupBindingContext</i> callback function performs any necessary cleanup and deallocation of
   the provider module's binding context after the provider module and a client module have detached from one
   another.
 
-
 ## -parameters
 
+### -param ProviderBindingContext 
 
-
-
-### -param ProviderBindingContext [in]
-
+[in]
 A pointer to the provider module's context for the binding between the provider module and the
      client module from which it has detached. The provider module's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
+     <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
      function returns this pointer to the NMR when it attaches to the client module.
 
-
 ## -remarks
-
-
 
 The NMR calls a provider module's 
     <i>ProviderCleanupBindingContext</i> callback function after the provider and a client module have
@@ -85,36 +77,26 @@ If the provider module does not dynamically allocate the memory for its binding 
     <i>ProviderCleanupBindingContext</i> callback function. If the provider module does not implement a 
     <i>ProviderCleanupBindingContext</i> callback function, then it must set the 
     <i>ProviderCleanupBindingContext</i> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">
+    <a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">
     NPI_PROVIDER_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
     register itself with the NMR.
 
 The NMR calls a provider module's 
     <i>ProviderCleanupBindingContext</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>

@@ -8,8 +8,6 @@ ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.date: 04/20/2018
 keywords: ["DrvQueryColorProfile function"]
 ms.keywords: DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile
-f1_keywords:
- - "winddiui/DrvQueryColorProfile"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvQueryColorProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvQueryColorProfile
+ - winddiui/DrvQueryColorProfile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvQueryColorProfile
 ---
 
 # DrvQueryColorProfile function
@@ -47,24 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>DrvQueryColorProfile</b> function allows a printer interface DLL to specify an ICC profile to use for color management.
 
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
 Caller-supplied printer handle.
 
+### -param pdevmode 
 
-### -param pdevmode [in]
-
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
-
+[in]
+Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 ### -param ulQueryMode
 
@@ -96,21 +89,20 @@ The caller is requesting a source profile.
 </td>
 </tr>
 </table>
- 
 
+### -param pvProfileData 
 
-### -param pvProfileData [out]
-
+[out]
 Caller-supplied pointer to a buffer to receive profile information.
 
+### -param pcbProfileData 
 
-### -param pcbProfileData [out]
-
+[out]
 Caller-supplied pointer to a value representing the size, in bytes, of the buffer pointed to by <i>pvProfileData</i>.
 
+### -param pflProfileData 
 
-### -param pflProfileData [out]
-
+[out]
 One of the following function-supplied bit flags, indicating the type of information the function is returning.
 
 <table>
@@ -139,27 +131,15 @@ The function is returning profile data in the buffer pointed to by <i>pvProfileD
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
+A <a href="/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> can optionally provide a <b>DrvQueryColorProfile</b> function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
 
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> can optionally provide a <b>DrvQueryColorProfile</b> function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
-
-If a driver's printer interface DLL does not provide a <b>DrvQueryColorProfile</b> function, or if the function returns <b>FALSE</b>, GDI attempts to find a profile. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/locating-icc-profiles">Locating ICC Profiles</a>.
+If a driver's printer interface DLL does not provide a <b>DrvQueryColorProfile</b> function, or if the function returns <b>FALSE</b>, GDI attempts to find a profile. For more information, see <a href="/windows-hardware/drivers/print/locating-icc-profiles">Locating ICC Profiles</a>.
 
 If the output buffer size specified by <i>pcbProfileData</i> is too small, the driver should overwrite the size value supplied by <i>pcbProfileData</i> with the required buffer size, call SetLastError(ERROR_INSUFFICIENT_BUFFER), and return <b>FALSE</b>.
-
-
-

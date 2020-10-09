@@ -5,10 +5,8 @@ description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for r
 old-location: display\d3dkmt_destroydcfrommemory.htm
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_DESTROYDCFROMMEMORY structure"]
+keywords: ["D3DKMT_DESTROYDCFROMMEMORY structure"]
 ms.keywords: D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory
-f1_keywords:
- - "d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DESTROYDCFROMMEMORY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYDCFROMMEMORY
+f1_keywords:
+ - _D3DKMT_DESTROYDCFROMMEMORY
+ - d3dkmthk/_D3DKMT_DESTROYDCFROMMEMORY
+ - D3DKMT_DESTROYDCFROMMEMORY
+ - d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DESTROYDCFROMMEMORY
 ---
 
 # _D3DKMT_DESTROYDCFROMMEMORY structure
@@ -47,32 +48,18 @@ req.typenames: D3DKMT_DESTROYDCFROMMEMORY
 
 ## -description
 
-
 The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hDc
 
-[in] A handle to the display context. 
-
+[in] A handle to the display context.
 
 ### -field hBitmap
 
-[in] A handle to a bitmap that is related to the display context. 
-
+[in] A handle to a bitmap that is related to the display context.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroydcfrommemory">D3DKMTDestroyDCFromMemory</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroydcfrommemory">D3DKMTDestroyDCFromMemory</a>

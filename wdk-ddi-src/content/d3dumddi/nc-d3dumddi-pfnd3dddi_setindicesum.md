@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetIndicesUM"
+ - PFND3DDDI_SETINDICESUM
+ - d3dumddi/PFND3DDDI_SETINDICESUM
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETINDICESUM callback function
+
 
 ## -description
 
@@ -72,5 +74,4 @@ A pointer to the user-memory buffer that supplies the indices for the index buff
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>

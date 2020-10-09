@@ -8,8 +8,6 @@ ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.date: 05/02/2018
 keywords: ["RILPHONEBOOKREADYSTATE structure"]
 ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE"
-f1_keywords:
- - "rilapitypes/RILPHONEBOOKREADYSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,40 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPHONEBOOKREADYSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKREADYSTATE, *LPRILPHONEBOOKREADYSTATE
+f1_keywords:
+ - RILPHONEBOOKREADYSTATE
+ - rilapitypes/RILPHONEBOOKREADYSTATE
+ - LPRILPHONEBOOKREADYSTATE
+ - rilapitypes/LPRILPHONEBOOKREADYSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPHONEBOOKREADYSTATE
 ---
 
-# RILPHONEBOOKREADYSTATE structure
+# RILPHONEBOOKREADYSTATE structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-
 ### -field hUiccApp
-
 
 ### -field dwStoreLocations
 

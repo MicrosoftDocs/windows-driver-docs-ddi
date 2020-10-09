@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
 title: PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
-author: windows-driver-content
 description: Returns the driver for the video extension object size.
 tech.root: display
 ms.assetid: 0c6cdccd-9423-4640-bd8d-d7595589d598
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061 callback function"]
 req.header: d3d12umddi.h
@@ -28,7 +26,8 @@ req.type-library:
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061"
+ - PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
 topic_type:
  - apiref
 api_type:
@@ -44,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061 callback function
+
 
 ## -description
 

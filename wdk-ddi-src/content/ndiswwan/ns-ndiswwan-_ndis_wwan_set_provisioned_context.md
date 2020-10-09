@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_set_provisioned_context.htm
 tech.root: netvista
 ms.assetid: c0f77100-ffd0-4fef-80b0-fc399ef96aee
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SET_PROVISIONED_CONTEXT structure"]
+keywords: ["NDIS_WWAN_SET_PROVISIONED_CONTEXT structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PROVISIONED_CONTEXT, PNDIS_WWAN_SET_PROVISIONED_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WwanRef_0f679f5b-26a4-4069-b4d7-65835090f56f.xml, _NDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT, netvista.ndis_wwan_set_provisioned_context"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_PROVISIONED_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_PROVISIONED_CONTEXT, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+f1_keywords:
+ - _NDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - ndiswwan/_NDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - NDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_PROVISIONED_CONTEXT
 ---
 
 # _NDIS_WWAN_SET_PROVISIONED_CONTEXT structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_SET_PROVISIONED_CONTEXT, *PNDIS_WWAN_SET_PROVISIONED_CO
 
 ## -description
 
-
 The NDIS_WWAN_SET_PROVISIONED_CONTEXT structure represents the command to set the provisioned context
   state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,27 +103,18 @@ sizeof(NDIS_WWAN_SET_PROVISIONED_CONTEXT)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field ProvisionedContext
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context">WWAN_SET_CONTEXT</a> object that represents a
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context">WWAN_SET_CONTEXT</a> object that represents a
      provisioned context.
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>

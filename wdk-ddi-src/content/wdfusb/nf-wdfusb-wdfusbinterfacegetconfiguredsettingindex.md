@@ -8,8 +8,6 @@ ms.assetid: ca8f1fae-1655-4e0d-baa4-133f11cf246f
 ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetConfiguredSettingIndex function"]
 ms.keywords: DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml, WdfUsbInterfaceGetConfiguredSettingIndex, WdfUsbInterfaceGetConfiguredSettingIndex method, kmdf.wdfusbinterfacegetconfiguredsettingindex, wdf.wdfusbinterfacegetconfiguredsettingindex, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex
-f1_keywords:
- - "wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbInterfaceGetConfiguredSettingIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbInterfaceGetConfiguredSettingIndex
+ - wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbInterfaceGetConfiguredSettingIndex
 ---
 
 # WdfUsbInterfaceGetConfiguredSettingIndex function
@@ -50,40 +49,26 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method returns the alternate setting index that is currently selected for a specified USB device interface.
 
-
 ## -parameters
 
+### -param Interface 
 
-
-
-### -param Interface [in]
-
-A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
-
+[in]
+A handle to a USB interface object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> returns the alternate setting index that is currently selected for the specified interface. If the interface is not configured, the method returns zero.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
 
-
-
-For more information about the <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
+For more information about the <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method and USB I/O targets, see <a href="/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
 
 
 #### Examples
@@ -96,15 +81,6 @@ BYTE settingIndex;
 settingIndex = WdfUsbInterfaceGetConfiguredSettingIndex(UsbInterface);
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>

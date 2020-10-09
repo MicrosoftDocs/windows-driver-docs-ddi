@@ -8,8 +8,6 @@ ms.assetid: 02c37c3d-fa5b-4d26-a092-09f6f3dbd46c
 ms.date: 05/02/2018
 keywords: ["RILUICCCMDPARAMETERS structure"]
 ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters, ntddrilapitypes/RILUICCCMDPARAMETERS"
-f1_keywords:
- - "rilapitypes/RILUICCCMDPARAMETERS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,49 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCCMDPARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCCMDPARAMETERS, *LPRILUICCCMDPARAMETERS
+f1_keywords:
+ - RILUICCCMDPARAMETERS
+ - rilapitypes/RILUICCCMDPARAMETERS
+ - LPRILUICCCMDPARAMETERS
+ - rilapitypes/LPRILUICCCMDPARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCCMDPARAMETERS
 ---
 
-# RILUICCCMDPARAMETERS structure
+# RILUICCCMDPARAMETERS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field filePath
-
 
 ### -field dwParameter1
 
-
 ### -field dwParameter2
-
 
 ### -field dwParameter3
 

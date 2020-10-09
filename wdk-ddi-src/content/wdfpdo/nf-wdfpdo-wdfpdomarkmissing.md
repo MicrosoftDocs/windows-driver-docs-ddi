@@ -8,8 +8,6 @@ ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.date: 02/26/2018
 keywords: ["WdfPdoMarkMissing function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
-f1_keywords:
- - "wdfpdo/WdfPdoMarkMissing"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoMarkMissing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoMarkMissing
+ - wdfpdo/WdfPdoMarkMissing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoMarkMissing
 ---
 
 # WdfPdoMarkMissing function
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoMarkMissing</b> method informs the framework that a device is no longer accessible.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
 
@@ -100,23 +92,18 @@ The device object could not be found.
 </table>
  
 
-The method might also return other<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values"> NTSTATUS values</a>.
+The method might also return other<a href="/windows-hardware/drivers/kernel/ntstatus-values"> NTSTATUS values</a>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
 
-
-
-For more information about <b>WdfPdoMarkMissing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/static-enumeration">Static Enumeration</a>.
+For more information about <b>WdfPdoMarkMissing</b>, see <a href="/windows-hardware/drivers/wdf/static-enumeration">Static Enumeration</a>.
 
 
 #### Examples
 
-The following code example searches a list of child devices to find one that matches a specified serial number. When the example finds the correct child, it calls <b>WdfPdoMarkMissing</b> to indicate that the child is not accessible. This example was taken from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver and simplified.
+The following code example searches a list of child devices to find one that matches a specified serial number. When the example finds the correct child, it calls <b>WdfPdoMarkMissing</b> to indicate that the child is not accessible. This example was taken from the <a href="/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver and simplified.
 
 ```cpp
 WDFDEVICE  hChild = NULL;
@@ -145,23 +132,14 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
 WdfFdoUnlockStaticChildListFromIteration(Device);
 ```
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
+<a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoretrievenextstaticchild">WdfFdoRetrieveNextStaticChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoretrievenextstaticchild">WdfFdoRetrieveNextStaticChild</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdounlockstaticchildlistfromiteration">WdfFdoUnlockStaticChildListFromIteration</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdounlockstaticchildlistfromiteration">WdfFdoUnlockStaticChildListFromIteration</a>

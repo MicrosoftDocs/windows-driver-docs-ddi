@@ -5,10 +5,8 @@ description: Describes parameters for an in-process (in-proc) Microsoft Direct3D
 old-location: display\d3dkmt_setcontextinprocessschedulingpriority.htm
 ms.assetid: 3e016793-8c31-4349-a8f5-e5a0cb3b353e
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
+keywords: ["D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_setcontextinprocessschedulingpriority
-f1_keywords:
- - "d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+f1_keywords:
+ - _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+ - d3dkmthk/_D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+ - D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+ - d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
 
 # _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure
@@ -47,19 +48,13 @@ req.typenames: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 
 ## -description
 
-
 Describes parameters for an in-process (in-proc) Microsoft Direct3D composition device to set the scheduling priority for a device context that is in the same process as other device contexts.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hContext
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context that scheduling priority is set on.
-
 
 ### -field Priority
 

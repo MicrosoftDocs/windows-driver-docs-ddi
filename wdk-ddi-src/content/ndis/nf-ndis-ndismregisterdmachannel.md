@@ -8,8 +8,6 @@ ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterDmaChannel function"]
 ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
-f1_keywords:
- - "ndis/NdisMRegisterDmaChannel"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRegisterDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRegisterDmaChannel
+ - ndis/NdisMRegisterDmaChannel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRegisterDmaChannel
 ---
 
 # NdisMRegisterDmaChannel function
@@ -48,55 +47,47 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMRegisterDmaChannel</b> function claims a system DMA controller channel during initialization for DMA
   operations on a subordinate NIC or on an ISA bus-master NIC.
 
-
 ## -parameters
 
+### -param MiniportDmaHandle 
 
-
-
-### -param MiniportDmaHandle [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns a handle the miniport
      driver uses in subsequent calls to the 
      <b>NdisM<i>Xxx</i></b> system DMA functions.
 
+### -param MiniportAdapterHandle 
 
-### -param MiniportAdapterHandle [in]
-
+[in]
 The miniport adapter handle input to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param DmaChannel 
 
-### -param DmaChannel [in]
-
+[in]
 Ignored. Set the DMA channel, if any, at 
      <i>DmaDescription</i> .
 
+### -param Dma32BitAddresses 
 
-### -param Dma32BitAddresses [in]
-
+[in]
 A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, it is <b>FALSE</b>.
 
+### -param DmaDescription 
 
-### -param DmaDescription [in]
-
+[in]
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
      
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _NDIS_DMA_DESCRIPTION {
+
+```
+typedef struct _NDIS_DMA_DESCRIPTION {
     BOOLEAN DemandMode;
     BOOLEAN AutoInitialize;
     BOOLEAN DmaChannelSpecified;
@@ -104,10 +95,9 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
     DMA_SPEED DmaSpeed;
     ULONG DmaPort;
     ULONG DmaChannel;
-} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;</pre>
-</td>
-</tr>
-</table></span></div>
+} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;
+```
+
 The driver should initialize this structure with zeros before filling in the following members:
 
 
@@ -166,16 +156,13 @@ This member refers to the MCA bus, which is no longer supported. This member mus
 
 The bus-relative number of the system DMA controller channel used by the NIC.
 
+### -param MaximumLength 
 
-### -param MaximumLength [in]
-
+[in]
 The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
      unlimited transfer capacity, set this parameter to -1.
 
-
 ## -returns
-
-
 
 <b>NdisMRegisterDmaChannel</b> can return one of the following status values:
 
@@ -234,18 +221,12 @@ Either the bus type or bus number is out of range or the driver declared the NIC
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A driver of a subordinate-DMA NIC must call 
     <b>NdisMRegisterDmaChannel</b> from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
     reserve system resources for subsequent DMA operations and to claim them in the registry.
 
 The driver of an ISA bus-master NIC also must call 
@@ -253,44 +234,34 @@ The driver of an ISA bus-master NIC also must call
     <i>MiniportInitializeEx</i> to claim a system DMA controller channel for the NIC in the registry.
 
 <i>MiniportInitializeEx</i> must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a> function before calling 
     <b>NdisMRegisterDmaChannel</b>.
 
 <i>MiniportInitializeEx</i> obtained the bus-relative values passed to 
     <b>NdisMRegisterDmaChannel</b> either from the registry or by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetbusdata">NdisMGetBusData</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetbusdata">NdisMGetBusData</a> function.
 
 If such a driver cannot allocate the system DMA resources that its device needs, 
     <i>MiniportInitializeEx</i> should release all resources it already allocated for the NIC and, then, fail
     initialization for that NIC.
 
 If the driver successfully registers the DMA channel, it must later call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismderegisterdmachannel">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismderegisterdmachannel">
     NdisMDeregisterDmaChannel</a> function to deregister the DMA channel.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismderegisterdmachannel">NdisMDeregisterDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismderegisterdmachannel">NdisMDeregisterDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetbusdata">NdisMGetBusData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetbusdata">NdisMGetBusData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>

@@ -6,10 +6,8 @@ old-location: serports\serial_commprop.htm
 tech.root: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.date: 04/23/2018
-keywords: ["_SERIAL_COMMPROP structure"]
+keywords: ["SERIAL_COMMPROP structure"]
 ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
-f1_keywords:
- - "ntddser/SERIAL_COMMPROP"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- SERIAL_COMMPROP
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
+f1_keywords:
+ - _SERIAL_COMMPROP
+ - ntddser/_SERIAL_COMMPROP
+ - PSERIAL_COMMPROP
+ - ntddser/PSERIAL_COMMPROP
+ - SERIAL_COMMPROP
+ - ntddser/SERIAL_COMMPROP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - SERIAL_COMMPROP
 ---
 
 # _SERIAL_COMMPROP structure
@@ -47,48 +50,37 @@ req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 
 ## -description
 
-
 The <b>SERIAL_COMMPROP</b> structure specifies the properties of a serial port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PacketLength
 
 The size, in bytes, of the data packet that starts with this structure and that contains the requested property data. This size includes the <b>SERIAL_COMMPROP</b> structure and any additional <b>ProvChar</b> array elements that follow this structure.
 
-
 ### -field PacketVersion
 
 The version of this structure. The current version number is 2.
-
 
 ### -field ServiceMask
 
 A bitmask that indicates which services are implemented by this communications provider. This member is always set to SERIAL_SP_SERIALCOMM by serial communications providers, including modem providers. The <b>ProvSubType</b> member indicates the specific type of serial communications that are implemented (for example, modem).
 
-
 ### -field Reserved1
 
 Not used.
-
 
 ### -field MaxTxQueue
 
 Maximum transmit queue size. The maximum size, in bytes, of the serial controller driver's internal output buffer. A value of zero indicates that no maximum value is imposed by the serial provider.
 
-
 ### -field MaxRxQueue
 
 Maximum receive queue size. The maximum size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that no maximum value is imposed by the serial provider.
 
-
 ### -field MaxBaud
 
-The maximum acceptable baud rate. An <a href="https://docs.microsoft.com/previous-versions/dn265239(v=vs.85)">extension-based serial controller driver</a> sets this member to a baud rate expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
+The maximum acceptable baud rate. An <a href="/previous-versions/dn265239(v=vs.85)">extension-based serial controller driver</a> sets this member to a baud rate expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
 
 However, Serial.sys and many older serial controller drivers set <b>MaxBaud</b> to one of the SERIAL_BAUD_<i>XXX</i> flag bits that are defined in the Ntddser.h header file. The following values are defined for this member.
 
@@ -178,8 +170,6 @@ However, Serial.sys and many older serial controller drivers set <b>MaxBaud</b> 
 <td>Programmable baud rates are available.</td>
 </tr>
 </table>
- 
-
 
 ### -field ProvSubType
 
@@ -243,8 +233,6 @@ The specific communications provider type. When the <b>ServiceMask</b> member is
 <td>X.25 standards</td>
 </tr>
 </table>
- 
-
 
 ### -field ProvCapabilities
 
@@ -296,8 +284,6 @@ The capabilities offered by the provider. This member is set to zero or to the b
 <td>Special 16-bit mode is supported.</td>
 </tr>
 </table>
- 
-
 
 ### -field SettableParams
 
@@ -337,15 +323,12 @@ A bitmask that indicates the communication parameter that can be changed. This m
 <td>Carrier detect</td>
 </tr>
 </table>
- 
-
 
 ### -field SettableBaud
 
 A bitmask that indicates the baud rates that can be used. For a table that describes the SERIAL_BAUD_<i>XXX</i> flag bits that are defined for this member, see the description of the <b>MaxBaud</b> member. <b>SettableBaud</b> is set to zero or to the bitwise-OR or one or more of these flag bits.
 
 Serial controller drivers set the SERIAL_BAUD_USER flag bit in the <b>SettableBaud</b> bitmask value to indicate that they support higher baud rates than those that can be expressed by the other SERIAL_BAUD_<i>XXX</i> flag bits. For example, a driver that supports baud rates of 57600, 115200, 230400, and 460800 bps sets <b>SettableBaud</b> = (SERIAL_BAUD_57600 |  SERIAL_BAUD_115200 |  SERIAL_BAUD_USER).
-
 
 ### -field SettableData
 
@@ -381,8 +364,6 @@ The number of data bits that can be set. This member is set to zero or to the bi
 <td>Special wide path through serial hardware lines</td>
 </tr>
 </table>
- 
-
 
 ### -field SettableStopParity
 
@@ -426,8 +407,6 @@ The stop-bit and parity settings that can be selected. This member is set to zer
 <td>The parity bit is always set to 0.</td>
 </tr>
 </table>
- 
-
 
 ### -field CurrentTxQueue
 
@@ -435,47 +414,30 @@ Transmit queue size. This member specifies the size, in bytes, of the serial con
 
 For SerCx2 and SerCx, the associated serial controller driver typically sets this member to zero. Serial.sys sets this member to a nonzero value that indicates the output buffer size.
 
-
 ### -field CurrentRxQueue
 
 Receive queue size. This member specifies the size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that the buffer size is unavailable.
 
-For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetringbufferutilization">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
+For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetringbufferutilization">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
 
 Serial.sys sets this member to a nonzero value that indicates the input buffer size.
-
 
 ### -field ProvSpec1
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available.
 
-
 ### -field ProvSpec2
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available.
-
 
 ### -field ProvChar
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available. This member is the first element in a wide-character array of one or more elements. Any additional elements immediately follow this member. The <b>PacketLength</b> member specifies the size of the <b>SERIAL_COMMPROP</b> structure plus any additional <b>ProvChar</b> array elements that follow this structure.
 
-
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a> request.
-
-
-
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a> request.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a>

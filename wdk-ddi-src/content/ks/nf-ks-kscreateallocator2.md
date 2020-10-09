@@ -8,8 +8,6 @@ ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.date: 04/23/2018
 keywords: ["KsCreateAllocator2 function"]
 ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
-f1_keywords:
- - "ks/KsCreateAllocator2"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KsCreateAllocator2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsCreateAllocator2
+ - ks/KsCreateAllocator2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KsCreateAllocator2
 ---
 
 # KsCreateAllocator2 function
@@ -47,65 +46,43 @@ req.typenames:
 
 ## -description
 
-
 Creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
 
 Supported starting in Windows 8.
 
-
 ## -parameters
 
+### -param ConnectionHandle 
 
-
-
-### -param ConnectionHandle [in]
-
+[in]
 Specifies the handle to the sink connection on which to create the allocator.
 
+### -param AllocatorFraming 
 
-### -param AllocatorFraming [in]
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that specifies framing for the allocator.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that specifies framing for the allocator.
+### -param AllocatorHandle 
 
-
-### -param AllocatorHandle [out]
-
+[out]
 Specifies the pointer to a handle to store the allocator handle.
-
 
 ## -returns
 
-
-
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
-
-
-
 
 ## -remarks
 
-
-
-This is a new version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
-
-
-
+This is a new version of the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
 
 ## -see-also
 
+<a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>

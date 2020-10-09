@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION"
+ - DXGKDDI_SETTARGETANALOGCOPYPROTECTION
+ - d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function
+
 
 ## -description
 

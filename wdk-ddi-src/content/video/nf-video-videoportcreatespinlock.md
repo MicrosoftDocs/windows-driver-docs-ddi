@@ -8,8 +8,6 @@ ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.date: 05/10/2018
 keywords: ["VideoPortCreateSpinLock function"]
 ms.keywords: VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, display.videoportcreatespinlock, video/VideoPortCreateSpinLock
-f1_keywords:
- - "video/VideoPortCreateSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortCreateSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortCreateSpinLock
+ - video/VideoPortCreateSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortCreateSpinLock
 ---
 
 # VideoPortCreateSpinLock function
@@ -47,54 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortCreateSpinLock</b> function creates a spin lock.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param SpinLock 
 
-### -param SpinLock [out]
-
+[out]
 Pointer to a memory location that will receive a pointer to the newly created spin lock.
-
 
 ## -returns
 
-
-
 On success the function returns NO_ERROR. If an error occurs, the function returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
-This routine must be called before an initial call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument. 
-
-
-
+This routine must be called before an initial call to <a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument.
 
 ## -see-also
 
+<a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdeletespinlock">VideoPortDeleteSpinLock</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdeletespinlock">VideoPortDeleteSpinLock</a>

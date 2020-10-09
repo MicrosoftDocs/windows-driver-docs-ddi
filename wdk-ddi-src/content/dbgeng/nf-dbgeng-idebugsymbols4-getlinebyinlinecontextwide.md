@@ -8,8 +8,6 @@ ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4::GetLineByInlineContextWide"]
 ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContextWide method, IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
-f1_keywords:
- - "dbgeng/IDebugSymbols4.GetLineByInlineContextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols4.GetLineByInlineContextWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols4::GetLineByInlineContextWide
+ - dbgeng/IDebugSymbols4::GetLineByInlineContextWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols4.GetLineByInlineContextWide
 ---
 
 # IDebugSymbols4::GetLineByInlineContextWide
@@ -47,66 +46,49 @@ req.typenames:
 
 ## -description
 
-
 Gets a line by inline context.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 An offset for the line.
 
+### -param InlineContext 
 
-### -param InlineContext [in]
+[in]
+The inline context.
 
-The inline context. 
+### -param Line 
 
-
-### -param Line [out, optional]
-
+[out, optional]
 A pointer to the returned line.
 
+### -param FileBuffer 
 
-### -param FileBuffer [out]
-
+[out]
 A pointer to a buffer for a Unicode character string.
 
+### -param FileBufferSize 
 
-### -param FileBufferSize [in]
-
+[in]
 The size of the file buffer.
 
+### -param FileSize 
 
-### -param FileSize [out, optional]
-
+[out, optional]
 A pointer to the length of the file.
 
+### -param Displacement 
 
-### -param Displacement [out, optional]
-
+[out, optional]
 A pointer to the displacement value of the file.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>

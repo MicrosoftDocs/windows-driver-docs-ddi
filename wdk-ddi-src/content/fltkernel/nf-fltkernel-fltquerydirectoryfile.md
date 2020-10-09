@@ -8,8 +8,6 @@ ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.date: 04/16/2018
 keywords: ["FltQueryDirectoryFile function"]
 ms.keywords: FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFileEx
-f1_keywords:
- - "fltkernel/FltQueryDirectoryFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryDirectoryFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryDirectoryFile
+ - fltkernel/FltQueryDirectoryFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryDirectoryFile
 ---
 
 # FltQueryDirectoryFile function
+
 
 ## -description
 
@@ -50,24 +50,29 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 
 ## -parameters
 
-### -param Instance [in]
+### -param Instance 
 
+[in]
 Opaque pointer to the minifilter driver instance that initiates the I/O.
 
-### -param FileObject [in]
+### -param FileObject 
 
+[in]
 Pointer to the file object that represents the directory to be scanned.
 
-### -param FileInformation [out]
+### -param FileInformation 
 
+[out]
 Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
 
-### -param FileInformationClass [in]
+### -param FileInformationClass 
 
+[in]
 Type of information to be returned about files in the directory. One of the values in the following table can be used.
 
 <table>
@@ -81,7 +86,7 @@ Type of information to be returned about files in the directory. One of the valu
 <b>FileBothDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information#requirements">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information#requirements">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -90,7 +95,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information#requirements">FILE_DIRECTORY_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information#requirements">FILE_DIRECTORY_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -99,7 +104,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileFullDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information#requirements">FILE_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information#requirements">FILE_FULL_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -108,7 +113,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileIdBothDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information#requirements">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information#requirements">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -117,7 +122,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileIdExtdBothDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements">FILE_ID_EXTD_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements">FILE_ID_EXTD_BOTH_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -126,7 +131,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileIdExtdDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements">FILE_ID_EXTD_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements">FILE_ID_EXTD_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -135,7 +140,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileIdFullDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information#requirements">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information#requirements">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -144,7 +149,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileIdGlobalTxDirectoryInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -153,7 +158,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileNamesInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information#requirements">FILE_NAMES_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information#requirements">FILE_NAMES_INFORMATION</a> structure for each file.
 </td>
 </tr>
 
@@ -162,7 +167,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileObjectIdInformation</b>
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information#requirements">FILE_OBJECTID_INFORMATION</a> structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information#requirements">FILE_OBJECTID_INFORMATION</a> structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes.
 </td>
 </tr>
 
@@ -171,7 +176,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 <b>FileQuotaInformation</b>
 </td>
 <td>
-Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information#requirements">FILE_QUOTA_INFORMATION</a> structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes.
+Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information#requirements">FILE_QUOTA_INFORMATION</a> structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes.
 </td>
 </tr>
 
@@ -180,28 +185,32 @@ Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 <b>FileReparsePointInformation</b>
 </td>
 <td>
-Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information#requirements">FILE_REPARSE_POINT_INFORMATION</a> structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes.
+Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information#requirements">FILE_REPARSE_POINT_INFORMATION</a> structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes.
 </td>
 </tr>
 
 </table>
 
-### -param ReturnSingleEntry [in]
+### -param ReturnSingleEntry 
 
+[in]
 Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
 
-### -param FileName [in, optional]
+### -param FileName 
 
+[in, optional]
 Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If *FileName* is **NULL**, all files are included. If *RestartScan* is **FALSE**, the value of *FileName* is ignored.
 
-### -param RestartScan [in]
+### -param RestartScan 
 
+[in]
 Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile **for the first time.
 
-### -param LengthReturned [out, optional]
+### -param LengthReturned 
 
+[out, optional]
 Receives the number of bytes actually written to the given *FileInformation* buffer.
 
 ## -returns
@@ -235,45 +244,45 @@ The final call to **FltQueryDirectoryFile** returns an empty output buffer and r
 
 **FltQueryDirectoryFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-For information about other file information query routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
 
-Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
 
 ## -see-also
 
-[FILE_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information)
+[FILE_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_both_dir_information.md)
 
-[FILE_DIRECTORY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information)
+[FILE_DIRECTORY_INFORMATION](../ntifs/ns-ntifs-_file_directory_information.md)
 
-[FILE_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information)
+[FILE_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_full_dir_information.md)
 
-[FILE_ID_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information)
+[FILE_ID_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_both_dir_information.md)
 
-[FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information)
+[FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md)
 
 [FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information)
 
-[FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information)
+[FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md)
 
-[FILE_ID_GLOBAL_TX_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information)
+[FILE_ID_GLOBAL_TX_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_global_tx_dir_information.md)
 
-[FILE_NAMES_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information)
+[FILE_NAMES_INFORMATION](../ntifs/ns-ntifs-_file_names_information.md)
 
-[FILE_OBJECTID_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information)
+[FILE_OBJECTID_INFORMATION](../ntifs/ns-ntifs-_file_objectid_information.md)
 
-[FILE_QUOTA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information)
+[FILE_QUOTA_INFORMATION](../ntifs/ns-ntifs-_file_quota_information.md)
 
-[FILE_REPARSE_POINT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information)
+[FILE_REPARSE_POINT_INFORMATION](../ntifs/ns-ntifs-_file_reparse_point_information.md)
 
-[FltCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile)
+[FltCreateFile](./nf-fltkernel-fltcreatefile.md)
 
-[FltCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex)
+[FltCreateFileEx](./nf-fltkernel-fltcreatefileex.md)
 
-[FltCreateFileEx2](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
+[FltCreateFileEx2](./nf-fltkernel-fltcreatefileex2.md)
 
 [FltQueryDirectoryFileEx](nf-fltkernel-fltquerydirectoryfileex.md)
 
-[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[IRP_MJ_DIRECTORY_CONTROL IRP](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 

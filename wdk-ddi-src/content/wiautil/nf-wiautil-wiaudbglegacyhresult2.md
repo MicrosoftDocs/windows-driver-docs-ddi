@@ -8,8 +8,6 @@ ms.assetid: 1b73c94b-07a8-4b65-8ed7-d5f1a073c3b2
 ms.date: 05/03/2018
 keywords: ["wiauDbgLegacyHresult2 function"]
 ms.keywords: image.wiaudbglegacyhresult2, wiauDbgLegacyHresult2, wiauDbgLegacyHresult2 function [Imaging Devices], wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiautil/wiauDbgLegacyHresult2
-f1_keywords:
- - "wiautil/wiauDbgLegacyHresult2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauDbgLegacyHresult2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgLegacyHresult2
+ - wiautil/wiauDbgLegacyHresult2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauDbgLegacyHresult2
 ---
 
 # wiauDbgLegacyHresult2 function
+
 
 ## -description
 
@@ -50,8 +50,9 @@ The **wiauDbgLegacyHresult2** function logs a default message containing an HRES
 
 ## -parameters
 
-### -param hInstance [in]
+### -param hInstance 
 
+[in]
 Specifies the handle to the DLL instance.
 
 ### -param hr
@@ -60,7 +61,7 @@ Specifies the HRESULT to be logged.
 
 ## -remarks
 
-A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr) function:
+A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md) function:
 
 ```cpp
 wiauDbgErrorHr(hr, "", "");
@@ -74,4 +75,4 @@ ERROR HRESULT = HRESULT value, Error text for HRESULT
 
 ## -see-also
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)

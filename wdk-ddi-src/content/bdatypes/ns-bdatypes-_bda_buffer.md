@@ -6,10 +6,8 @@ old-location: stream\bda_buffer.htm
 tech.root: stream
 ms.assetid: DCC7087B-0A1B-4E96-A82F-BDEF09D8CEE2
 ms.date: 04/23/2018
-keywords: ["_BDA_BUFFER structure"]
+keywords: ["BDA_BUFFER structure"]
 ms.keywords: "*PBDA_BUFFER, BDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], _BDA_BUFFER, bdatypes/BDA_BUFFER, bdatypes/PBDA_BUFFER, stream.bda_buffer"
-f1_keywords:
- - "bdatypes/BDA_BUFFER"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_BUFFER, *PBDA_BUFFER
+f1_keywords:
+ - _BDA_BUFFER
+ - bdatypes/_BDA_BUFFER
+ - PBDA_BUFFER
+ - bdatypes/PBDA_BUFFER
+ - BDA_BUFFER
+ - bdatypes/BDA_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_BUFFER
 ---
 
 # _BDA_BUFFER structure
@@ -47,22 +50,11 @@ req.typenames: BDA_BUFFER, *PBDA_BUFFER
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lResult
 
-
 ### -field ulBufferSize
-
- 
-
 
 ### -field argbBuffer
 

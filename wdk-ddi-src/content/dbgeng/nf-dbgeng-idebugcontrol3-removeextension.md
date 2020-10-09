@@ -8,8 +8,6 @@ ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::RemoveExtension"]
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveExtension method, IDebugControl2 interface [Windows Debugging],RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3 interface [Windows Debugging],RemoveExtension method, IDebugControl3.RemoveExtension, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging],IDebugControl interface, RemoveExtension method [Windows Debugging],IDebugControl2 interface, RemoveExtension method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension
-f1_keywords:
- - "dbgeng/IDebugControl.RemoveExtension"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.RemoveExtension
-- IDebugControl2.RemoveExtension
-- IDebugControl3.RemoveExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::RemoveExtension
+ - dbgeng/IDebugControl3::RemoveExtension
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.RemoveExtension
+ - IDebugControl2.RemoveExtension
+ - IDebugControl3.RemoveExtension
 ---
 
 # IDebugControl3::RemoveExtension
@@ -49,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveExtension</b> method unloads an extension library.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
-Specifies the handle of the extension library to unload.  This is the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>.
-
+[in]
+Specifies the handle of the extension library to unload.  This is the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -86,39 +78,24 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
-
-
-For more information on using extension libraries, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/calling-extensions-and-extension-functions">Calling Extensions and Extension Functions</a>.
-
-
-
+For more information on using extension libraries, see <a href="/windows-hardware/drivers/debugger/calling-extensions-and-extension-functions">Calling Extensions and Extension Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>

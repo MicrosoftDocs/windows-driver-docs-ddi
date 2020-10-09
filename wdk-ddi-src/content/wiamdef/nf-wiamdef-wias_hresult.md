@@ -8,12 +8,10 @@ ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
 ms.date: 05/03/2018
 keywords: ["WIAS_HRESULT macro"]
 ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], image.wias_hresult, wiamdef/WIAS_HRESULT
-f1_keywords:
- - "wiamdef/WIAS_HRESULT"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_HRESULT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_HRESULT
+ - wiamdef/WIAS_HRESULT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_HRESULT
 ---
 
-# WIAS_HRESULT macro
+# WIAS_HRESULT macro (wiamdef.h)
+
 
 ## -description
 
@@ -62,8 +62,8 @@ This macro is the recommended way to output HRESULTS.
 
 ## -see-also
 
-[WIAS_ASSERT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_assert)
+[WIAS_ASSERT](./nf-wiamdef-wias_assert.md)
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](./nf-wiamdef-wias_error.md)
 
-[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
+[WIAS_TRACE](./nf-wiamdef-wias_trace.md)

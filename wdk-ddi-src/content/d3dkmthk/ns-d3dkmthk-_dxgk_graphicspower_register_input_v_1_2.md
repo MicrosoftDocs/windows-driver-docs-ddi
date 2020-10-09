@@ -4,38 +4,44 @@ title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 (d3dkmthk.h)
 description: Used to register the power state of a new input.
 ms.assetid: e312c3ba-7a23-41e4-bebb-b19daa7a43ae
 ms.date: 10/19/2018
-keywords: ["_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
-f1_keywords:
- - "d3dkmthk/_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2"
+keywords: ["DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
 ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+ - d3dkmthk/_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+ - PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+ - d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+ - DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+ - d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+product:
+ - Windows
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure
+
 
 ## -description
 
@@ -98,3 +104,4 @@ The IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER code is defined as follows:
 #define IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER \
     CTL_CODE(FILE_DEVICE_VIDEO, 0xa01, METHOD_NEITHER, FILE_ANY_ACCESS)
 ```
+

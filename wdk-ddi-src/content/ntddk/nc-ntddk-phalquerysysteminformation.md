@@ -5,74 +5,56 @@ description:
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
 ms.date: 10/19/2018
 keywords: ["pHalQuerySystemInformation callback function"]
-f1_keywords:
- - "ntddk/pHalQuerySystemInformation"
 req.header: ntddk.h
-req.include-header:
+req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- ntddk.h
-api_name: 
-- pHalQuerySystemInformation
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - pHalQuerySystemInformation
+ - ntddk/pHalQuerySystemInformation
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - ntddk.h
+api_name:
+ - pHalQuerySystemInformation
 ---
 
 # pHalQuerySystemInformation callback function
 
+
 ## -description
 
-Read MCA banks' status registers. 
-
-## -prototype
-
-```cpp
-//Declaration
-
-pHalQuerySystemInformation Phalquerysysteminformation; 
-
-// Definition
-
-NTSTATUS Phalquerysysteminformation 
-(
-	HAL_QUERY_INFORMATION_CLASS InformationClass
-	ULONG BufferSize
-	PVOID Buffer
-	PULONG ReturnedLength
-)
-{...}
-
-pHalQuerySystemInformation 
-
-
-```
+Read MCA banks' status registers.
 
 ## -parameters
 
 ### -param InformationClass
+
 [in] The HalMcaLogInformation to read the current MCA error log. If any of the uncorrected Machine Check errors is found, it is returned in the buffer. For Itanium systems, specify HalCmcLogInformation to read the current corrected CPU error log and HalCpeLogInformation to read the current corrected platform error log.
+
 ### -param BufferSize
+
 [in] The size, in bytes, of the buffer that the caller supplies.
+
 ### -param Buffer
+
 [out] A pointer to a caller-supplied buffer of type MCA_EXCEPTION that will contain the information returned by this routine. For Intel Itanium processors, the returned information must be compliant, at a minimum, with the V3.0 SAL specification, Error Record Structures, January 2001, Appendix B"". For Intel Pentium Pro processors, the information is as described in the following code example.
 ```cpp
 typedef union _MCI_STATS {
@@ -128,17 +110,39 @@ typedef struct _MCA_EXCEPTION {
 ```
 
 ### -param ReturnedLength
-[out] The number of bytes that are returned in Buffer.
 
+[out] The number of bytes that are returned in Buffer.
 
 ## -returns
 
 Returns STATUS_SUCCESS if an error log exists.
 
+## -prototype
+
+```cpp
+//Declaration
+
+pHalQuerySystemInformation Phalquerysysteminformation; 
+
+// Definition
+
+NTSTATUS Phalquerysysteminformation 
+(
+	HAL_QUERY_INFORMATION_CLASS InformationClass
+	ULONG BufferSize
+	PVOID Buffer
+	PULONG ReturnedLength
+)
+{...}
+
+pHalQuerySystemInformation 
+
+
+```
+
 ## -remarks
 
 The **HalQuerySystemInformation** function returns the first error. It is the MCA driver's responsibility to call this routine again to see if there are any more errors available.
->Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](https://docs.microsoft.com/windows-hardware/drivers/whea) instead.
-
+>Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](/windows-hardware/drivers/whea) instead.
 
 ## -see-also

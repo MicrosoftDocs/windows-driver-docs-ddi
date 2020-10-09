@@ -6,10 +6,8 @@ old-location: storage\feature_data_cdrw_cav_write.htm
 tech.root: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_CDRW_CAV_WRITE structure"]
+keywords: ["FEATURE_DATA_CDRW_CAV_WRITE structure"]
 ms.keywords: "*PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_CDRW_CAV_WRITE
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE
+f1_keywords:
+ - _FEATURE_DATA_CDRW_CAV_WRITE
+ - ntddmmc/_FEATURE_DATA_CDRW_CAV_WRITE
+ - PFEATURE_DATA_CDRW_CAV_WRITE
+ - ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE
+ - FEATURE_DATA_CDRW_CAV_WRITE
+ - ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_CDRW_CAV_WRITE
 ---
 
 # _FEATURE_DATA_CDRW_CAV_WRITE structure
@@ -47,45 +50,26 @@ req.typenames: FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE
 
 ## -description
 
-
-The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature. 
-
+The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ### -field Reserved1
 
-Reserved. 
-
+Reserved.
 
 ## -remarks
 
-
-
-This structure holds data for the feature named "CD-RW CAV Write" by the <i>SCSI Multimedia - 4 (MMC-4) </i>specification. Devices that support this feature can perform writes on CD-RW media in CAV mode. 
-
-
-
+This structure holds data for the feature named "CD-RW CAV Write" by the <i>SCSI Multimedia - 4 (MMC-4) </i>specification. Devices that support this feature can perform writes on CD-RW media in CAV mode.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>

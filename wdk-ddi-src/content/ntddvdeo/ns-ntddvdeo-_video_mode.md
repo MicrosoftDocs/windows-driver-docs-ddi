@@ -6,10 +6,8 @@ old-location: display\video_mode.htm
 tech.root: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.date: 05/10/2018
-keywords: ["_VIDEO_MODE structure"]
+keywords: ["VIDEO_MODE structure"]
 ms.keywords: "*PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], VIDEO_MODE, VIDEO_MODE structure [Display Devices], Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, display.video_mode, ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE"
-f1_keywords:
- - "ntddvdeo/VIDEO_MODE"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- VIDEO_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_MODE, *PVIDEO_MODE
+f1_keywords:
+ - _VIDEO_MODE
+ - ntddvdeo/_VIDEO_MODE
+ - PVIDEO_MODE
+ - ntddvdeo/PVIDEO_MODE
+ - VIDEO_MODE
+ - ntddvdeo/VIDEO_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - VIDEO_MODE
 ---
 
 # _VIDEO_MODE structure
@@ -47,14 +50,9 @@ req.typenames: VIDEO_MODE, *PVIDEO_MODE
 
 ## -description
 
-
-The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_current_mode">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
-
+The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_current_mode">IOCTL_VIDEO_SET_CURRENT_MODE</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field RequestedMode
 
@@ -73,4 +71,3 @@ Indicates that the miniport driver should zero the video memory in conjunction w
 #### VIDEO_MODE_MAP_MEM_LINEAR
 
 Indicates that the miniport driver should map the video memory in a linear fashion if the adapter supports such an operation.
-

@@ -7,8 +7,6 @@ ms.assetid: 9a687c45-2201-483c-b1ad-958b9f651e54
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_CERTIFICATE_INFO structure"]
 ms.keywords: D3D11_1DDI_CERTIFICATE_INFO, D3D11_1DDI_CERTIFICATE_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO, display.d3d11_1ddi_certificate_info
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_CERTIFICATE_INFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_CERTIFICATE_INFO
+f1_keywords:
+ - D3D11_1DDI_CERTIFICATE_INFO
+ - d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_CERTIFICATE_INFO
 ---
 
 # D3D11_1DDI_CERTIFICATE_INFO structure
@@ -47,41 +46,26 @@ req.typenames: D3D11_1DDI_CERTIFICATE_INFO
 
 ## -description
 
-
 Specifies a cryptographic  session certificate or authenticated channel.
-
 
 ## -struct-fields
 
-
-
-
 ### -field CertificateType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_certificate_type">D3D11_1DDI_CERTIFICATE_TYPE</a> value that specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
-
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_certificate_type">D3D11_1DDI_CERTIFICATE_TYPE</a> value that specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
 
 ### -field ChannelType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> value that specifies the type of Direct3D authenticated channel.
-
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> value that specifies the type of Direct3D authenticated channel.
 
 ### -field CryptoSessionType
 
 A GUID that indicates the cryptographic session.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_certificate_type">D3D11_1DDI_CERTIFICATE_TYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_certificate_type">D3D11_1DDI_CERTIFICATE_TYPE</a>

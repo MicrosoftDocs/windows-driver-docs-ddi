@@ -8,8 +8,6 @@ ms.assetid: 46b29026-b3a9-49cc-8f3d-0318516526d2
 ms.date: 04/23/2018
 keywords: ["PFNKSPINIRPCOMPLETION callback function"]
 ms.keywords: AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], PFNKSPINIRPCOMPLETION, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml, ks/AVStrMiniPinIrpCompletion, stream.avstrminipinirpcompletion
-f1_keywords:
- - "ks/AVStrMiniPinIrpCompletion"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniPinIrpCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPINIRPCOMPLETION
+ - ks/PFNKSPINIRPCOMPLETION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniPinIrpCompletion
 ---
 
 # PFNKSPINIRPCOMPLETION callback function
@@ -47,45 +46,28 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniPinIrpCompletion</i> routine is called when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired.
-
 
 ## -parameters
 
+### -param Pin 
 
+[in]
+Points to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which the callback is registered.
 
+### -param Irp 
 
-### -param Pin [in]
-
-Points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which the callback is registered.
-
-
-### -param Irp [in]
-
-Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
-
+[in]
+Points to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
 
 ## -remarks
 
-
-
-The minidriver specifies this routine's address in the <i>IrpCompletion</i> parameter of a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterirpcompletioncallback">KsPinRegisterIrpCompletionCallback</a>.
-
-
-
+The minidriver specifies this routine's address in the <i>IrpCompletion</i> parameter of a call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterirpcompletioncallback">KsPinRegisterIrpCompletionCallback</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterirpcompletioncallback">KsPinRegisterIrpCompletionCallback</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterirpcompletioncallback">KsPinRegisterIrpCompletionCallback</a>

@@ -8,8 +8,6 @@ ms.assetid: 8c6b2329-9956-43c1-8a4d-ef9587cf0980
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIADIRECTION enumeration"]
 ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX
-f1_keywords:
- - "rilapitypes/RILCALLMEDIADIRECTION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,46 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIADIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIADIRECTION
+f1_keywords:
+ - RILCALLMEDIADIRECTION
+ - rilapitypes/RILCALLMEDIADIRECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIADIRECTION
 ---
 
-# RILCALLMEDIADIRECTION enumeration
+# RILCALLMEDIADIRECTION enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CALLMEDIADIRECTION_NONE
-
 
 ### -field RIL_CALLMEDIADIRECTION_RX
 
-
 ### -field RIL_CALLMEDIADIRECTION_TX
 
-
 ### -field RIL_CALLMEDIADIRECTION_RXTX
-
 
 ### -field RIL_CALLMEDIADIRECTION_MAX
 

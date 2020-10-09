@@ -1,48 +1,48 @@
 ---
 UID: NF:storport.StorPortWaitForSingleObject
 title: StorPortWaitForSingleObject function
-author: windows-driver-content
 description: A miniport can call StorPortWaitForSingleObject function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
 tech.root: storage
 ms.assetid: 36dba4d1-de52-4522-ba07-f8b57357b48e
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortWaitForSingleObject
 req.header: storport.h
-f1_keywords:
- - "storport/StorPortWaitForSingleObject"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortWaitForSingleObject
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortWaitForSingleObject
+ - storport/StorPortWaitForSingleObject
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortWaitForSingleObject
+product:
+ - Windows
 ---
 
 # StorPortWaitForSingleObject function
+
 
 ## -description
 
@@ -82,13 +82,13 @@ If *Timeout* = 0, the routine returns without waiting. If the miniport supplies 
 
 ## -remarks
 
-See [**KeWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject) for more details.
+See [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md) for more details.
 
 Callers of **StorportWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = NULL or *Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If *Timeout* != NULL and *Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 ## -see-also
 
-[**KeWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
 
 [**StorportInitializeEvent**](nf-storport-storportinitializeevent.md)
 

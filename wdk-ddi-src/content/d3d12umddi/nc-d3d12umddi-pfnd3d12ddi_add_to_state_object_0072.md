@@ -24,9 +24,10 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 tech.root: display
-ms.custom:
+ms.custom: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_ADD_TO_STATE_OBJECT_0072"
+ - PFND3D12DDI_ADD_TO_STATE_OBJECT_0072
+ - d3d12umddi/PFND3D12DDI_ADD_TO_STATE_OBJECT_0072
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_ADD_TO_STATE_OBJECT_0072 callback function
+
 
 ## -description
 
@@ -100,3 +102,4 @@ See the [DirectX Raytracing (DXR) functional specification](https://microsoft.gi
 [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
 
 [**PFND3D12DDI_CREATE_STATE_OBJECT_0054**](nc-d3d12umddi-pfnd3d12ddi_create_state_object_0054.md)
+

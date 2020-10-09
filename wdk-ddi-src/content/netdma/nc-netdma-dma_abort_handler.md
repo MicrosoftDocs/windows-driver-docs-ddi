@@ -8,8 +8,6 @@ ms.assetid: b9c23f36-0885-49fd-b92e-dac38d5f363f
 ms.date: 05/02/2018
 keywords: ["DMA_ABORT_HANDLER callback function"]
 ms.keywords: DMA_ABORT_HANDLER, DMA_ABORT_HANDLER callback, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
-f1_keywords:
- - "netdma/ProviderAbortDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderAbortDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_ABORT_HANDLER
+ - netdma/DMA_ABORT_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderAbortDma
 ---
 
 # DMA_ABORT_HANDLER callback function
@@ -47,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderAbortDma</i> function cancels any DMA transfers that are associated with a DMA channel.
 
-
 ## -parameters
 
+### -param ProviderChannelContext 
 
-
-
-### -param ProviderChannelContext [in]
-
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
+     <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
-
 ## -returns
-
-
 
 <i>ProviderAbortDma</i> returns one of the following status values:
 
@@ -102,14 +94,8 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>ProviderAbortDma</i> function is an optional function for NetDMA providers. The NetDMA interface can
@@ -123,41 +109,31 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
     NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the abort operation completes, the DMA channel must be ready for the NetDMA interface to call
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The NetDMA
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The NetDMA
     interface will not call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function until after
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function until after
     the transfer is restarted.
 
 NetDMA calls 
     <i>ProviderAbortDma</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>

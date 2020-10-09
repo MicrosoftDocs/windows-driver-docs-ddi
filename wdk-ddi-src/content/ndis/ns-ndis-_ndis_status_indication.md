@@ -6,10 +6,8 @@ old-location: netvista\ndis_status_indication.htm
 tech.root: netvista
 ms.assetid: bfab907d-a90d-46a0-bd51-6f2b418e3f39
 ms.date: 05/02/2018
-keywords: ["_NDIS_STATUS_INDICATION structure"]
+keywords: ["NDIS_STATUS_INDICATION structure"]
 ms.keywords: "*PNDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_STATUS_INDICATION, PNDIS_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_STATUS_INDICATION, ndis/NDIS_STATUS_INDICATION, ndis/PNDIS_STATUS_INDICATION, ndis_status_ref_6c475f32-573d-4e1b-ae74-bd9e9b8943db.xml, netvista.ndis_status_indication"
-f1_keywords:
- - "ndis/NDIS_STATUS_INDICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_STATUS_INDICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_STATUS_INDICATION, *PNDIS_STATUS_INDICATION
+f1_keywords:
+ - _NDIS_STATUS_INDICATION
+ - ndis/_NDIS_STATUS_INDICATION
+ - PNDIS_STATUS_INDICATION
+ - ndis/PNDIS_STATUS_INDICATION
+ - NDIS_STATUS_INDICATION
+ - ndis/NDIS_STATUS_INDICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_STATUS_INDICATION
 ---
 
 # _NDIS_STATUS_INDICATION structure
@@ -47,56 +50,46 @@ req.typenames: NDIS_STATUS_INDICATION, *PNDIS_STATUS_INDICATION
 
 ## -description
 
-
 NDIS and underlying drivers use the NDIS_STATUS_INDICATION structure to provide status indications to
   overlying protocol drivers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_STATUS_INDICATION structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_STATUS_INDICATION, the 
      <b>Revision</b> member to NDIS_STATUS_INDICATION_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_STATUS_INDICATION_REVISION_1.
 
-
 ### -field SourceHandle
 
 The source of the status indication. If the source is a miniport adapter, it should be the handle
      that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. If
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. If
      the source is a filter module, it should be the handle that NDIS passed to the 
      <i>NdisFilterHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 ### -field PortNumber
 
 The source port of the status indication. If the status indication is not specific to a port, set 
      <b>PortNumber</b> to zero.
 
-
 ### -field StatusCode
 
 The status code, either provided by NDIS or propagated from the underlying drivers. The value is
      an NDIS_STATUS_<i>XXX</i> code. For more information about NDIS_STATUS_<i>XXX</i> codes, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Status Indications</a>.
-
+     <a href="/windows-hardware/drivers/ddi/_netvista/">Status Indications</a>.
 
 ### -field Flags
 
 The type of information in the status buffer at 
      <b>StatusBuffer</b> . Miniport drivers set this member to zero. This member is reserved for NDIS.
-
 
 ### -field DestinationHandle
 
@@ -105,7 +98,6 @@ A handle that identifies the overlying driver that should receive the status ind
      NDIS indicates the status only to the driver that 
      <b>DestinationHandle</b> identifies. In this case the driver must also set the 
      <b>RequestId</b> member. For more information about OID requests, see the Remarks section.
-
 
 ### -field RequestId
 
@@ -120,7 +112,6 @@ The OID request that is associated with the status indication. If there is no OI
 
 For more information about OID requests, see the following Remarks section.
 
-
 ### -field StatusBuffer
 
 A pointer to a buffer that contains medium-specific data that depends on the value at 
@@ -129,42 +120,36 @@ A pointer to a buffer that contains medium-specific data that depends on the val
 
 For example, if 
      <b>StatusCode</b> is 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-link-state">NDIS_STATUS_LINK_STATE</a>, this
+     <a href="/windows-hardware/drivers/network/ndis-status-link-state">NDIS_STATUS_LINK_STATE</a>, this
      parameter points to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_link_state">NDIS_LINK_STATE</a> structure and 
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_link_state">NDIS_LINK_STATE</a> structure and 
      <b>StatusBufferSize</b> is 
      sizeof(NDIS_LINK_STATE).
 
 For some NDIS_STATUS_<i>XXX</i> values, this pointer is <b>NULL</b> and 
      <b>StatusBufferSize</b> is set to zero.
 
-
 ### -field StatusBufferSize
 
 The length, in bytes, of the status information buffer at 
      <b>StatusBuffer</b> .
 
-
 ### -field Guid
 
 A private GUID that NDIS uses to generate a WMI notification. For more information about private
      GUIDs, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-guids">OID_GEN_SUPPORTED_GUIDS</a>.
-
+     <a href="/windows-hardware/drivers/network/oid-gen-supported-guids">OID_GEN_SUPPORTED_GUIDS</a>.
 
 ### -field NdisReserved
 
 Reserved for NDIS.
 
-
 ## -remarks
 
-
-
 Miniport drivers indicate status by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a> function.
     Filter drivers call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFIndicateStatus</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFIndicateStatus</a> function.
 
 Some OID requests enable a miniport driver to provide an OID completion status with a status
     indication. In this case, the miniport driver returns NDIS_STATUS_INDICATION_REQUIRED for the completion
@@ -181,7 +166,7 @@ In this case, the driver sets the
     <b>RequestId</b> members to the values from the 
     <b>RequestHandle</b> and 
     <b>RequestId</b> members in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure,
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure,
     respectively.
 
 For example, in wireless networking, the processing of an OID request can take a very long time to
@@ -189,68 +174,58 @@ For example, in wireless networking, the processing of an OID request can take a
     indication later to provide the final result for the OID request.
 
 Protocol drivers receive status indications at the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a> function. Filter
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a> function. Filter
     drivers receive status indications at the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a> function.
-
-
-
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a> function.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_link_state">NDIS_LINK_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_link_state">NDIS_LINK_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/network/ndis-status-link-state">NDIS_STATUS_LINK_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-link-state">NDIS_STATUS_LINK_STATE</a>
+<a href="/previous-versions/windows/hardware/network/ff558986(v=vs.85)">NDIS_TAPI_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558986(v=vs.85)">NDIS_TAPI_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFindicateStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFindicateStatus</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/network/oid-gen-supported-guids">OID_GEN_SUPPORTED_GUIDS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-guids">OID_GEN_SUPPORTED_GUIDS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>

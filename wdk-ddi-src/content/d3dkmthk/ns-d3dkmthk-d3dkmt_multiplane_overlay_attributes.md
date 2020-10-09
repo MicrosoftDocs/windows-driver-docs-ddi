@@ -5,40 +5,40 @@ description: Structure that contains multiplane overlay attributes.
 ms.assetid: bb4ee0ea-4045-427d-9229-01c2356bc8ef
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
-f1_keywords:
- - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES"
-ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, 
+ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
+ - d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure
+
 
 ## -description
 
@@ -111,9 +111,11 @@ Reserved for system use. Must always be **FALSE**.
 Specifies the overlay plane's stereo flip mode, given as a value from the [_DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE](ne-d3dkmthk-_dxgkmt_multiplane_overlay_stereo_flip_mode.md) enumeration.
 
 ### -field StretchQuality
+
  
 Specifies the overlay plane's stretch quality, given as a value from the [_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY](ne-d3dkmthk-_dxgkmt_multiplane_overlay_stretch_quality.md) enumeration.
 
 ## -remarks
 
 ## -see-also
+

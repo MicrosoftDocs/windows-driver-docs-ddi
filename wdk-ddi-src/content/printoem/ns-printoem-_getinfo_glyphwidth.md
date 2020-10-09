@@ -6,10 +6,8 @@ old-location: print\getinfo_glyphwidth.htm
 tech.root: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.date: 04/20/2018
-keywords: ["_GETINFO_GLYPHWIDTH structure"]
+keywords: ["GETINFO_GLYPHWIDTH structure"]
 ms.keywords: "*PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH structure [Print Devices], PGETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], _GETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, printoem/GETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH"
-f1_keywords:
- - "printoem/GETINFO_GLYPHWIDTH"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- GETINFO_GLYPHWIDTH
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH
+f1_keywords:
+ - _GETINFO_GLYPHWIDTH
+ - printoem/_GETINFO_GLYPHWIDTH
+ - PGETINFO_GLYPHWIDTH
+ - printoem/PGETINFO_GLYPHWIDTH
+ - GETINFO_GLYPHWIDTH
+ - printoem/GETINFO_GLYPHWIDTH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - GETINFO_GLYPHWIDTH
 ---
 
 # _GETINFO_GLYPHWIDTH structure
@@ -47,19 +50,13 @@ req.typenames: GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH
 
 ## -description
 
-
-The GETINFO_GLYPHWIDTH structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
-
+The GETINFO_GLYPHWIDTH structure is used as input to the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Size, in bytes, of the GETINFO_GLYPHWIDTH structure. Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
-
+Size, in bytes, of the GETINFO_GLYPHWIDTH structure. Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 ### -field dwType
 
@@ -69,40 +66,24 @@ TYPE_GLYPHHANDLE
 
 TYPE_GLYPHID
 
-Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
-
+Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 ### -field dwCount
 
-Specifies the number of elements in the array pointed to by <b>pGlyph</b>. Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
-
+Specifies the number of elements in the array pointed to by <b>pGlyph</b>. Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 ### -field pGlyph
 
-Pointer to an array of glyph specifiers. The array element type is indicated by <b>dwType</b>. Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
-
+Pointer to an array of glyph specifiers. The array element type is indicated by <b>dwType</b>. Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 ### -field plWidth
 
-Pointer to a location into which Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function places the width value. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
-
+Pointer to a location into which Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function places the width value. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
 
 ## -remarks
 
-
-
-To obtain the width of a set of glyphs, a rendering plug-in can supply the address of a GETINFO_GLYPHWIDTH structure when calling Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The callback function calculates the total width of all the glyphs described by the input array, and places the calculated value in the location pointed to by <b>plWidth</b>.
-
-
-
+To obtain the width of a set of glyphs, a rendering plug-in can supply the address of a GETINFO_GLYPHWIDTH structure when calling Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The callback function calculates the total width of all the glyphs described by the input array, and places the calculated value in the location pointed to by <b>plWidth</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>

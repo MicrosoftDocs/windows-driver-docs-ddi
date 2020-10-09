@@ -6,10 +6,8 @@ old-location: kernel\clfs_container_information.htm
 tech.root: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.date: 04/30/2018
-keywords: ["_CLS_CONTAINER_INFORMATION structure"]
+keywords: ["CLS_CONTAINER_INFORMATION structure"]
 ms.keywords: "*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_CONTAINER_INFORMATION, kernel.clfs_container_information, kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, wdm/CLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, wdm/PCLS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION"
-f1_keywords:
- - "wdm/CLS_CONTAINER_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- CLS_CONTAINER_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
+f1_keywords:
+ - _CLS_CONTAINER_INFORMATION
+ - wdm/_CLS_CONTAINER_INFORMATION
+ - PCLS_CONTAINER_INFORMATION
+ - wdm/PCLS_CONTAINER_INFORMATION
+ - CLS_CONTAINER_INFORMATION
+ - wdm/CLS_CONTAINER_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - CLS_CONTAINER_INFORMATION
 ---
 
 # _CLS_CONTAINER_INFORMATION structure
@@ -47,54 +50,41 @@ req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CON
 
 ## -description
 
-
 The <b>CLFS_CONTAINER_INFORMATION</b> structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
-
 
 ## -struct-fields
 
-
-
-
 ### -field FileAttributes
 
-A set of flags that specifies attributes of the container. See the <i>fFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a> function.
-
+A set of flags that specifies attributes of the container. See the <i>fFlagsAndAttributes</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a> function.
 
 ### -field CreationTime
 
 The time that the container was created.
 
-
 ### -field LastAccessTime
 
 The time that the container was last accessed.
-
 
 ### -field LastWriteTime
 
 The time of the last write to the container.
 
-
 ### -field ContainerSize
 
 The size, in bytes, of the container.
-
 
 ### -field FileNameActualLength
 
 The size, in characters, of the actual file name of the container.
 
-
 ### -field FileNameLength
 
 The size of the file name in the <b>FileName</b> buffer.
 
-
 ### -field FileName
 
 An array of wide characters that holds the file name of the container.
-
 
 ### -field State
 
@@ -166,49 +156,33 @@ The container is marked for deletion, but still contains records that are pendin
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PhysicalContainerId
 
 A 32-bit identifier that remains the same over the life of the log.
 
-
 ### -field LogicalContainerId
 
 A 32-bit identifier that changes every time the container is recycled.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a> function writes descriptive information into an array of <b>CLFS_CONTAINER_INFORMATION</b> structures.
+The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a> function writes descriptive information into an array of <b>CLFS_CONTAINER_INFORMATION</b> structures.
 
 Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b> are expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatescancontext">ClfsCreateScanContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatescancontext">ClfsCreateScanContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>

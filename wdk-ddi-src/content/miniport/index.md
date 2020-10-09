@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - miniport
+ - miniport/miniport
 ---
 
 # Miniport.h header
@@ -18,7 +19,7 @@ tech.root: kernel
 
 ## -description
 
-
 This header is used by storage. For more information, see:
 
 - [Storage](../_storage/index.md)
+

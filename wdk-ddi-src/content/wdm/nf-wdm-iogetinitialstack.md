@@ -8,8 +8,6 @@ ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.date: 04/30/2018
 keywords: ["IoGetInitialStack function"]
 ms.keywords: IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, wdm/IoGetInitialStack
-f1_keywords:
- - "wdm/IoGetInitialStack"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetInitialStack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetInitialStack
+ - wdm/IoGetInitialStack
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetInitialStack
 ---
 
 # IoGetInitialStack function
@@ -47,39 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetInitialStack</b> routine returns the base address of the current thread's stack.
-
 
 ## -returns
 
-
-
-<b>IoGetInitialStack</b> returns the initial base address of the current thread's stack. 
-
-
-
+<b>IoGetInitialStack</b> returns the initial base address of the current thread's stack.
 
 ## -remarks
 
-
-
-Highest-level drivers can call this routine, particularly file systems attempting to determine whether they've been passed a pointer to a location on the current thread's stack. 
-
-
-
+Highest-level drivers can call this routine, particularly file systems attempting to determine whether they've been passed a pointer to a location on the current thread's stack.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize">IoGetRemainingStackSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize">IoGetRemainingStackSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits">IoGetStackLimits</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits">IoGetStackLimits</a>

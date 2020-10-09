@@ -8,8 +8,6 @@ ms.assetid: dd6d436c-6166-4baf-b180-67f7aa7238e3
 ms.date: 04/23/2018
 keywords: ["KsQueryObjectCreateItem function"]
 ms.keywords: KsQueryObjectCreateItem, KsQueryObjectCreateItem function [Streaming Media Devices], ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, stream.ksqueryobjectcreateitem
-f1_keywords:
- - "ks/KsQueryObjectCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsQueryObjectCreateItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsQueryObjectCreateItem
+ - ks/KsQueryObjectCreateItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsQueryObjectCreateItem
 ---
 
 # KsQueryObjectCreateItem function
@@ -48,25 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsQueryObjectCreateItem</b> function returns the create item assigned to the object when created.
-
 
 ## -parameters
 
+### -param Header 
 
-
-
-### -param Header [in]
-
+[in]
 Indicates the header previously allocated.
-
 
 ## -returns
 
-
-
 The <b>KsQueryObjectCreateItem</b> function returns a pointer to a create item.
-
-
 

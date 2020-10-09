@@ -6,10 +6,8 @@ old-location: netvista\wdi_txrx_capabilities.htm
 tech.root: netvista
 ms.assetid: 7a1d3ffd-6f5e-429d-8c2f-a141f98ccad8
 ms.date: 05/02/2018
-keywords: ["_WDI_TXRX_TARGET_CAPABILITIES structure"]
+keywords: ["WDI_TXRX_TARGET_CAPABILITIES structure"]
 ms.keywords: "*PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CAPABILITIES, dot11wdi/PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, netvista.wdi_txrx_capabilities, netvista.wdi_txrx_target_capabilities, netvista.wifi_txrx_target_capabilities"
-f1_keywords:
- - "dot11wdi/WDI_TXRX_CAPABILITIES"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dot11wdi.h
-api_name:
-- WDI_TXRX_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES
+f1_keywords:
+ - _WDI_TXRX_TARGET_CAPABILITIES
+ - dot11wdi/_WDI_TXRX_TARGET_CAPABILITIES
+ - PWDI_TXRX_CAPABILITIES
+ - dot11wdi/PWDI_TXRX_CAPABILITIES
+ - WDI_TXRX_CAPABILITIES
+ - dot11wdi/WDI_TXRX_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dot11wdi.h
+api_name:
+ - WDI_TXRX_CAPABILITIES
 ---
 
 # _WDI_TXRX_TARGET_CAPABILITIES structure
@@ -47,20 +50,14 @@ req.typenames: WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES
 
 ## -description
 
-
 The 
    WDI_TXRX_CAPABILITIES structure defines the target capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterconnectType
 
 Interconnect type of the target.
-
 
 ### -field TransmitCapabilities
 
@@ -72,7 +69,6 @@ Transmit capabilities.
 
 Maximum number of Scatter Gather elements in a frame.  WDI coalesces frames as necessary so that the IHV miniport does not receive a frame that requires more scatter gather elements than specified by this capability.  For best performance, it is suggested that this capability is set higher than the typical frame as the coalescing requires a memory copy.  If this capability is not greater than the maximum frame size divided by page size, WDI may be unable to successfully coalesce the frame and it may be dropped.
 
-
 ### -field TransmitCapabilities.TargetPriorityQueueing
 
 If true, WDI does not classify Tx frames by Peer and TID, and only provides queuing at a port level.  WDI schedules backlogged port queues using a global DRR.
@@ -81,11 +77,7 @@ If false, WDI classifies Tx frames by Peer and TID and utilizes the full schedul
 
 Setting this to false is recommended unless the target is capable of classification and Peer-TID queueing.
 
-
 ### -field TransmitCapabilities.MaxScatterGatherElementsPerFrame
-
- 
-
 
 ### -field TransmitCapabilities.ExplicitSendCompleteFlagRequired
 
@@ -93,16 +85,13 @@ If true, the target/TAL generates a TX send completion indication only for frame
 
 If false, the target/TAL generates a TX send completion indication for all frames
 
-
 ### -field TransmitCapabilities.bPad
 
 Reserved.
 
-
 ### -field TransmitCapabilities.MinEffectiveSize
 
 When dequeuing frames, the TxMgr treats frames smaller than <b>MinEffectiveSize</b> as having an effective size of <b>MinEffectiveSize</b>.
-
 
 ### -field TransmitCapabilities.FrameSizeGranularity
 
@@ -110,16 +99,13 @@ This value is equal to the granularity of memory allocation per frame.  For the 
 
 This value must be set to a power of two.
 
-
 ### -field ReceiveCapabilities
 
 Receive capabilities.
 
-
 ### -field ReceiveCapabilities.RxTxForwarding
 
 Reserved.
-
 
 ### -field ReceiveCapabilities.MaxThroughput
 

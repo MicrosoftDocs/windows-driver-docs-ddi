@@ -4,7 +4,7 @@ title: _D3DDDI_SETLIGHT_TYPE (d3dumddi.h)
 description: The set light type.
 ms.assetid: 45ad2d59-7246-49d0-b76a-b4ad792d1bd0
 ms.date: 10/19/2018
-keywords: ["_D3DDDI_SETLIGHT_TYPE enumeration"]
+keywords: ["D3DDDI_SETLIGHT_TYPE enumeration"]
 ms.keywords: _D3DDDI_SETLIGHT_TYPE, D3DDDI_SETLIGHT_TYPE,
 req.header: d3dumddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDI_SETLIGHT_TYPE"
+ - _D3DDDI_SETLIGHT_TYPE
+ - d3dumddi/_D3DDDI_SETLIGHT_TYPE
+ - D3DDDI_SETLIGHT_TYPE
+ - d3dumddi/D3DDDI_SETLIGHT_TYPE
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDI_SETLIGHT_TYPE enumeration
+
 
 ## -description
 

@@ -6,10 +6,8 @@ old-location: stream\timecode.htm
 tech.root: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.date: 04/23/2018
-keywords: ["_timecode structure"]
+keywords: ["timecode structure"]
 ms.keywords: "*PTIMECODE, PTIMECODE, PTIMECODE union pointer [Streaming Media Devices], TIMECODE, TIMECODE union [Streaming Media Devices], _timecode, ksmedia/PTIMECODE, ksmedia/TIMECODE, stream.timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml"
-f1_keywords:
- - "ksmedia/TIMECODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TIMECODE
-product:
-- Windows
 targetos: Windows
 req.typenames: TIMECODE
+f1_keywords:
+ - _timecode
+ - ksmedia/_timecode
+ - TIMECODE
+ - ksmedia/TIMECODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TIMECODE
 ---
 
 # _timecode structure
@@ -47,51 +48,30 @@ req.typenames: TIMECODE
 
 ## -description
 
-
 The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wFrameRate
 
 Specifies the frame rate.
 
-
 ### -field wFrameFract
 
 Specifies the fractional frame. The full-scale frame is 0x1000.
-
 
 ### -field dwFrames
 
 Specifies a timecode value as a binary frame count.
 
-
 ### -field qw
 
 Specifies the timecode as a quad-word.
 
-
 ## -remarks
-
-
 
 This structure is defined for the purpose of searching to a timecode based on an absolute track number (ATN) and/or relative time counter (RTC). However, not all devices support searching to a timecode using this structure.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-raw-avc-cmd">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/ksproperty-raw-avc-cmd">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>

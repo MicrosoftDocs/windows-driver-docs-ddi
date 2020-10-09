@@ -1,46 +1,45 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEnumAdapters3
-title: D3DKMTEnumAdapters2 function (d3dkmthk.h)
+title: D3DKMTEnumAdapters3 function (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: 1e17d460-500d-4e4b-92f7-0505acc8436d
 ms.date: 03/24/2020
 keywords: ["D3DKMTEnumAdapters3 function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTEnumAdapters3"
 ms.keywords: D3DKMTEnumAdapters3
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTEnumAdapters2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMTEnumAdapters3
+ms.custom: 
+f1_keywords:
+ - D3DKMTEnumAdapters3
+ - d3dkmthk/D3DKMTEnumAdapters3
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTEnumAdapters3
 dev_langs:
  - c++
-ms.custom:
 ---
 
 # D3DKMTEnumAdapters3 function

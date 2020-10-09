@@ -8,8 +8,6 @@ ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.date: 04/23/2018
 keywords: ["KsReleaseCachedMdl function"]
 ms.keywords: KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, stream.ksreleasecachedmdl
-f1_keywords:
- - "ks/KsReleaseCachedMdl"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ks.lib
-- ks.dll
-api_name:
-- KsReleaseCachedMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsReleaseCachedMdl
+ - ks/KsReleaseCachedMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ks.lib
+ - ks.dll
+api_name:
+ - KsReleaseCachedMdl
 ---
 
 # KsReleaseCachedMdl function
@@ -48,35 +47,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
-
+The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
 
 ## -parameters
 
+### -param Guid 
 
-
-
-### -param Guid [in]
-
+[in]
 The GUID extracted from the <b>MFSampleExtension_MDLCacheCookie</b> attribute item of the <b>IMFSample</b> passed by the pipeline.
 
+### -param MdlAddr 
 
-### -param MdlAddr [in]
+[in]
+MDL address retrieved in the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call. This should not be touched after the <b>KsReleaseCachedMdl</b> call.
 
-MDL address retrieved in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call. This should not be touched after the <b>KsReleaseCachedMdl</b> call.
+### -param ReleaseContext 
 
-
-### -param ReleaseContext [in]
-
-The context passed as an output in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
-
+[in]
+The context passed as an output in the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
 
 ## -returns
 
-
-
 Returns <b>STATUS_SUCCESS</b> for success conditions.
-
-
-

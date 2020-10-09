@@ -8,8 +8,6 @@ ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.date: 05/03/2018
 keywords: ["WIAS_LWARNING macro"]
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING
-f1_keywords:
- - "wiamdef/WIAS_LWARNING"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_LWARNING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_LWARNING
+ - wiamdef/WIAS_LWARNING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_LWARNING
 ---
 
-# WIAS_LWARNING macro
+# WIAS_LWARNING macro (wiamdef.h)
+
 
 ## -description
 
@@ -62,7 +62,7 @@ The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
 - **lResId** - Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](../wia_lh/nn-wia_lh-iwialog.md).
 
 ## -remarks
 
@@ -75,8 +75,8 @@ Please note that it does not write to the new log file used in modern Windows op
 
 ## -see-also
 
-[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
+[WIAS_LERROR](./nf-wiamdef-wias_lerror.md)
 
-[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
+[WIAS_LHRESULT](./nf-wiamdef-wias_lhresult.md)
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+[WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)

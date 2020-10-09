@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: ifsk
+f1_keywords:
+ - rxlog
+ - rxlog/rxlog
 ---
 
 # Rxlog.h header
@@ -18,7 +19,7 @@ tech.root: ifsk
 
 ## -description
 
-
 This header is used by ifsk. For more information, see:
 
 - [Installable file system](../_ifsk/index.md)
+

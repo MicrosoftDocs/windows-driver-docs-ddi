@@ -8,8 +8,6 @@ ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.date: 06/03/2020
 keywords: ["EVT_WDF_REQUEST_IMPERSONATE callback function"]
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
-f1_keywords:
- - "wdfrequest/EvtRequestImpersonate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfrequest.h
-api_name:
-- EvtRequestImpersonate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_REQUEST_IMPERSONATE
+ - wdfrequest/EVT_WDF_REQUEST_IMPERSONATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfrequest.h
+api_name:
+ - EvtRequestImpersonate
 ---
 
 # EVT_WDF_REQUEST_IMPERSONATE callback function
@@ -47,32 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 A driver's <i>EvtRequestImpersonate</i> event callback function performs tasks at the requested impersonation level, such as opening a protected file.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object that represents the I/O request that requires impersonation.
 
+### -param Context 
 
-### -param Context [in, optional]
-
-A pointer to a context that was previously supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
-
-
-
+[in, optional]
+A pointer to a context that was previously supplied in the <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required.
 
 ## -remarks
-
-
 
 User-Mode Driver Framework (UMDF) does not allow a driver's <i>EvtRequestImpersonate</i> callback function to call any of the framework's object methods. This ensures that the driver does not expose the impersonation level to other driver callback functions or other drivers.
 
@@ -81,17 +71,17 @@ The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfreques
 
 The following restrictions also apply: 
 
- - When the driver calls [**WdfRequestImpersonate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate) with `ImpersonationLevel = SecurityIdentification`, the callback cannot call **LoadLibrary** or perform any action requiring an access check.
+ - When the driver calls [**WdfRequestImpersonate**](./nf-wdfrequest-wdfrequestimpersonate.md) with `ImpersonationLevel = SecurityIdentification`, the callback cannot call **LoadLibrary** or perform any action requiring an access check.
 
  - The same principle applies to DLL delay load. Consider an example in which the driver impersonates at identification level, and the callback calls **GetUserNameW**. Because this API in turn delay loads another DLL and calls **GetUserNameExW**, the initial call might fail with **ERROR_PROC_NOT_FOUND** or **ERROR_BAD_IMPERSONATION_LEVEL**. In such a case, the callback should instead call **GetUserNameExW** directly.
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation in UMDF Drivers</a>.
+For more information, see <a href="/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation in UMDF Drivers</a>.
 
 
 #### Examples
 
-To define an <i>EvtRequestImpersonate</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an <i>EvtRequestImpersonate</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
 For example, to define an <i>EvtRequestImpersonate</i> callback function that is named <i>MyRequestImpersonate</i>, use the <b>EVT_WDF_REQUEST_IMPERSONATE</b> type as shown in this code example:
 
@@ -113,20 +103,10 @@ VOID
 
 
 
-For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>.
+For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>.
 
-For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
-
-
+For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a>

@@ -6,10 +6,8 @@ old-location: display\ddpixelformat.htm
 tech.root: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.date: 05/10/2018
-keywords: ["_DDPIXELFORMAT structure"]
+keywords: ["DDPIXELFORMAT structure"]
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
-f1_keywords:
- - "ksmedia/DDPIXELFORMAT"
 req.header: ksmedia.h
 req.include-header: Ddraw.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- DDPIXELFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: DDPIXELFORMAT, *LPDDPIXELFORMAT
+f1_keywords:
+ - _DDPIXELFORMAT
+ - ksmedia/_DDPIXELFORMAT
+ - LPDDPIXELFORMAT
+ - ksmedia/LPDDPIXELFORMAT
+ - DDPIXELFORMAT
+ - ksmedia/DDPIXELFORMAT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - DDPIXELFORMAT
 ---
 
 # _DDPIXELFORMAT structure
+
 
 ## -description
 
@@ -54,7 +58,7 @@ The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface ob
 
 Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must initialize this member before the structure is used.
 
-**DirectX 9.0 and later versions only.** Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the **format** member of the [DD_GETFORMATDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getformatdata) structure for a D3DGDI2_TYPE_GETFORMAT query.
+**DirectX 9.0 and later versions only.** Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the **format** member of the [DD_GETFORMATDATA](../d3dhal/ns-d3dhal-_dd_getformatdata.md) structure for a D3DGDI2_TYPE_GETFORMAT query.
 
 ### -field dwFlags
 
@@ -69,7 +73,7 @@ Indicates a set of flags that specify optional control flags. This member is a b
 | DDPF_BUMPHEIGHT | Bump map height data in the pixel format is valid. |
 | DDPF_COMPRESSED | The surface accepts pixel data in the specified format and compresses it during the write operation. |
 | DDPF_D3DFORMAT | Indicates a DirectX 8.0 and later format capability entry in the texture format list. This flag is not exposed to applications. |
-| DDPF_FOURCC | The [FOURCC](https://docs.microsoft.com/windows/desktop/directshow/fourcc-codes) code is valid. |
+| DDPF_FOURCC | The [FOURCC](/windows/win32/directshow/fourcc-codes) code is valid. |
 | DDPF_LUMINANCE | Luminance data in the pixel format is valid. Use this flag for luminance-only or luminance-plus-alpha surfaces; the bit depth is then specified in the **dwLuminanceBitCount** member. |
 | DDPF_LUMINANCEPIXELS | Luminance data in the pixel format is valid. Use this flag when hanging luminance off, for example, bumpmap surfaces. The bitmask for the luminance portion of the pixel is then specified in the **dwBumpLuminanceBitMask** member. |
 | DDPF_NOVEL_TEXTURE_FORMAT | Indicates a new surface format that the runtime might not expose to all applications. |
@@ -87,7 +91,7 @@ Indicates a set of flags that specify optional control flags. This member is a b
 
 ### -field dwFourCC
 
-Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some [FOURCC](https://docs.microsoft.com/windows/desktop/directshow/fourcc-codes) codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware.
+Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some [FOURCC](/windows/win32/directshow/fourcc-codes) codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware.
 
 ### -field dwRGBBitCount
 

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2 interface"]
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2"
+ - "IWDTFDriverSetupSystemAction2"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

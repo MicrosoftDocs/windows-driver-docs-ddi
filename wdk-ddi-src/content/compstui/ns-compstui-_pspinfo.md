@@ -6,10 +6,8 @@ old-location: print\pspinfo.htm
 tech.root: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.date: 04/20/2018
-keywords: ["_PSPINFO structure"]
+keywords: ["PSPINFO structure"]
 ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"
-f1_keywords:
- - "compstui/PSPINFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- PSPINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PSPINFO, *PPSPINFO
+f1_keywords:
+ - _PSPINFO
+ - compstui/_PSPINFO
+ - PPSPINFO
+ - compstui/PPSPINFO
+ - PSPINFO
+ - compstui/PSPINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - PSPINFO
 ---
 
 # _PSPINFO structure
 
+
 ## -description
 
-The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a [DLGPAGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structure.
+The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a [DLGPAGE](./ns-compstui-_dlgpage.md) structure.
 
 ## -struct-fields
 
@@ -68,11 +72,11 @@ CPSUI-supplied handle to the property sheet page.
 
 ### -field pfnComPropSheet
 
-CPSUI-supplied pointer to its [ComPropSheet](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function.
+CPSUI-supplied pointer to its [ComPropSheet](./nc-compstui-pfncompropsheet.md) function.
 
 ## -remarks
 
-Before CPSUI calls **CreatePropertySheetPage** to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a [DLGPAGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structure) and specifies a WM_INITDIALOG message, the function's **lParam** member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
+Before CPSUI calls **CreatePropertySheetPage** to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a [DLGPAGE](./ns-compstui-_dlgpage.md) structure) and specifies a WM_INITDIALOG message, the function's **lParam** member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
 
 (The **CreatePropertySheetPage** function, PROPSHEETPAGE structure, WM_INITDIALOG message, and dialog box procedures are all described in the Microsoft Windows SDK documentation.)
 

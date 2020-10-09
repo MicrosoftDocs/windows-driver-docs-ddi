@@ -8,8 +8,6 @@ ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.date: 04/16/2018
 keywords: ["FsRtlIsFatDbcsLegal function"]
 ms.keywords: FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal
-f1_keywords:
- - "ntifs/FsRtlIsFatDbcsLegal"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlIsFatDbcsLegal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlIsFatDbcsLegal
+ - ntifs/FsRtlIsFatDbcsLegal
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsFatDbcsLegal
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlIsFatDbcsLegal function
@@ -50,47 +49,35 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlIsFatDbcsLegal</b> routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
-
 
 ## -parameters
 
+### -param DbcsName 
 
-
-
-### -param DbcsName [in]
-
+[in]
 A pointer to the string to be tested.
 
+### -param WildCardsPermissible 
 
-### -param WildCardsPermissible [in]
-
+[in]
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
+### -param PathNamePermissible 
 
-### -param PathNamePermissible [in]
-
+[in]
 Set to <b>TRUE</b> if <i>DbcsName</i> can be a full pathname containing backslash characters, <b>FALSE</b> if it can only be file name.
 
+### -param LeadingBackslashPermissible 
 
-### -param LeadingBackslashPermissible [in]
-
+[in]
 Set to <b>TRUE</b> if a single leading backslash is permissible in the file or pathname, <b>FALSE</b> otherwise.
-
 
 ## -returns
 
-
-
 The <b>FsRtlIsFatDbcsLegal</b> routine returns <b>TRUE</b> if the string is a legal FAT file name, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FsRtlIsFatDbcsLegal</b> routine determines whether the specified file name conforms to the FAT-specific rules for legal file names. This routine will check the file name or, if <i>PathNamePermissible</i> is specified as <b>TRUE</b>, whether the whole pathname is a legal FAT name.
 
@@ -100,18 +87,8 @@ FAT file names must obey the following rules:
 * A FAT file name is either of the form `N.E` or just `N`, where `N` is a string of one to eight bytes and `E` is a string of one to three bytes conformant to rule one. In addition, neither `N` nor `E` may contain a `.` (period) or end with a space character. For example, the files `.foo`, `foo.`, and `foo .b` are illegal, while `foo. b` and ` bar` are legal.
 * FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>

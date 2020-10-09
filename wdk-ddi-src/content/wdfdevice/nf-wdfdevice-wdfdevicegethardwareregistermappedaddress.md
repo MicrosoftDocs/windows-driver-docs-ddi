@@ -8,8 +8,6 @@ ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetHardwareRegisterMappedAddress function"]
 ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress
-f1_keywords:
- - "wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfDeviceGetHardwareRegisterMappedAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceGetHardwareRegisterMappedAddress
+ - wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfDeviceGetHardwareRegisterMappedAddress
 ---
 
 # WdfDeviceGetHardwareRegisterMappedAddress function
@@ -47,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
-A driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b> to get the user-mode mapped address of the memory resource it mapped previously using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>.
-
+A driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b> to get the user-mode mapped address of the memory resource it mapped previously using <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>.
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param PseudoBaseAddress 
 
-### -param PseudoBaseAddress [in]
-
+[in]
 The address of a location that receives a pointer to the pseudo base address.
-
 
 ## -returns
 
-
-
-User-mode base address of the resources mapped earlier using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>.
-
-
-
+User-mode base address of the resources mapped earlier using <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>.
 
 ## -remarks
 
-
-
-This function is the UMDF version 2 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">IWDFDevice3::GetHardwareRegisterMappedAddress</a>.
+This function is the UMDF version 2 equivalent of <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">IWDFDevice3::GetHardwareRegisterMappedAddress</a>.
 
 After the driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, it can access the user-mode address directly to read and write to the register.
 
@@ -90,22 +77,12 @@ After the driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, it can 
 <div> </div>
 
 
-If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the <b>UmdfRegisterAccessMode</b> INF directive to <b>RegisterAccessUsingUserModeMapping</b>.  For more information about UMDF  INF directives, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
-
-
-
+If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the <b>UmdfRegisterAccessMode</b> INF directive to <b>RegisterAccessUsingUserModeMapping</b>.  For more information about UMDF  INF directives, see <a href="/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicemapiospace">WdfDeviceMapIoSpace</a>

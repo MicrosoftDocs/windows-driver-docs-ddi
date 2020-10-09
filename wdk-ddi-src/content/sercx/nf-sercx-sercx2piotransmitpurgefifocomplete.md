@@ -8,8 +8,6 @@ ms.assetid: D5877A1C-0963-4C11-B440-122182CBA624
 ms.date: 04/23/2018
 keywords: ["SerCx2PioTransmitPurgeFifoComplete function"]
 ms.keywords: 2/SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2piotransmitpurgefifocomplete
-f1_keywords:
- - "sercx/SerCx2PioTransmitPurgeFifoComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 2.0\Sercx.h
-api_name:
-- SerCx2PioTransmitPurgeFifoComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCx2PioTransmitPurgeFifoComplete
+ - sercx/SerCx2PioTransmitPurgeFifoComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - SerCx2PioTransmitPurgeFifoComplete
 ---
 
 # SerCx2PioTransmitPurgeFifoComplete function
@@ -47,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCx2PioTransmitPurgeFifoComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished purging the data from the transmit FIFO in the serial controller hardware.
-
 
 ## -parameters
 
+### -param PioTransmit 
 
+[in]
+A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
+### -param BytesPurged 
 
-### -param PioTransmit [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
-
-
-### -param BytesPurged [in]
-
+[in]
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
-
 
 ## -remarks
 
-
-
-SerCx2 calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_purge_fifo">EvtSerCx2PioTransmitPurgeFifo</a> event callback function, if it is implemented, to end the current PIO-transmit transaction. SerCx2 previously initiated this transaction in response to a write (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) request from a client. For example, SerCx2 might call this function if the client cancels the pending write request, or the write request times out. For more information, see <a href="https://docs.microsoft.com/previous-versions/hh406672(v=vs.85)">SerCx2 Handling of Read and Write Requests</a>.
+SerCx2 calls the <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_purge_fifo">EvtSerCx2PioTransmitPurgeFifo</a> event callback function, if it is implemented, to end the current PIO-transmit transaction. SerCx2 previously initiated this transaction in response to a write (<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) request from a client. For example, SerCx2 might call this function if the client cancels the pending write request, or the write request times out. For more information, see <a href="/previous-versions/hh406672(v=vs.85)">SerCx2 Handling of Read and Write Requests</a>.
 
 In response to the <i>EvtSerCx2PioTransmitPurgeFifo</i> function call, the driver first discards any data that remains in the transmit FIFO; then the driver must call <b>SerCx2PioTransmitPurgeFifoComplete</b> to notify SerCx2. SerCx2 expects this notification and does not complete the write request until it is notified.
 
@@ -78,34 +70,24 @@ The serial controller driver must call <b>SerCx2PioTransmitPurgeFifoComplete</b>
 
 SerCx2 uses the <i>BytesPurged</i> parameter value to determine how many bytes were successfully transmitted before the transmit FIFO was purged. SerCx2 requires this information to complete a write request that times out, or a write request that is canceled after one or more bytes are transmitted.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/dn265336(v=vs.85)">SerCx2 PIO-Transmit Transactions</a>.
-
-
-
+For more information, see <a href="/previous-versions/dn265336(v=vs.85)">SerCx2 PIO-Transmit Transactions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_purge_fifo">EvtSerCx2PioTransmitPurgeFifo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_purge_fifo">EvtSerCx2PioTransmitPurgeFifo</a>
+<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
+<a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>

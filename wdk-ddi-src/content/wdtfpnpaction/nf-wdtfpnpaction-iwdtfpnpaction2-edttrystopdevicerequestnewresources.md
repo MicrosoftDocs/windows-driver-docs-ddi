@@ -8,8 +8,6 @@ ms.assetid: 19d3a72c-f7a5-483c-9fd1-5853c0a3e906
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources"]
 ms.keywords: EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceRequestNewResources method, IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverPNPAction.Interop.dll
-api_name:
-- IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
+ - wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverPNPAction.Interop.dll
+api_name:
+ - IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
 ---
 
 # IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
@@ -47,38 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
 assign new resources to the target device.
 
-
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
+<div class="alert"><b>Note</b>  The <a href="/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
 <div> </div>
-Similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevice">EDTTryStopDevice</a> method, 
+Similar to the <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevice">EDTTryStopDevice</a> method, 
 <b>EDTTryStopDeviceRequestNewResources</b> attempts to trigger a PnP resource 
 rebalance (e.g. IRP_MN_STOP_DEVICE) on the target device stack, with the addition that the method 
 attempts to force the device onto a new set of hardware resources.
@@ -94,16 +81,6 @@ how the drivers and applications handle the PnP resource rebalance, you can inst
 etc., which does consume hardware resources. For example, if your device is a USB mouse, you can 
 run this method on the parent USB controller instead.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>

@@ -5,45 +5,46 @@ description: A key/value store.  Typically used for metadata.
 ms.assetid: 434182b4-c9ee-4ca0-b092-f60098df5d16
 ms.date: 07/16/2018
 keywords: ["IKeyStore interface"]
-f1_keywords:
- - "dbgmodel/IKeyStore"
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IKeyStore
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IKeyStore
+ - dbgmodel/IKeyStore
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IKeyStore
 ---
 
 # IKeyStore interface
+
 
 ## -description
 
 A key/value store.  Typically used for metadata.
 
-
 ## -inheritance
-IKeyStore interits from IUnknown. 
+
+IKeyStore interits from IUnknown.
+
 ## -remarks
 
 **Metadata in the Data Model**
@@ -56,8 +57,8 @@ In some senses, a metadata store is not all that different from the key/value/me
 - A key store has no concepts. It can only have the dictionary of key/value/metadata tuples. This means that the keys present in a key store are static. They can not be created on demand by a dynamic language system.
 - By convention only, the values in a metadata defined key store are restricted to basic values (intrinsics and property accessors)
 
-While a key store can have an arbitrary number (and arbitrary naming) of keys, there are certain names that have defined semantic values. For a list of those values, see [Debugger Data Model Metadata Interfaces](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-additional-interfaces#-debugger-data-model-metadata-interfaces).
+While a key store can have an arbitrary number (and arbitrary naming) of keys, there are certain names that have defined semantic values. For a list of those values, see [Debugger Data Model Metadata Interfaces](/windows-hardware/drivers/debugger/data-model-cpp-additional-interfaces#-debugger-data-model-metadata-interfaces).
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

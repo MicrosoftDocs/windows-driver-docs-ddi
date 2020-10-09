@@ -6,10 +6,8 @@ old-location: netvista\ndis_protocol_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: db64c160-9db6-4b23-af14-e64acdb9ef57
 ms.date: 05/03/2019
-keywords: ["_NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure"]
+keywords: ["NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml"
-f1_keywords:
- - "ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+f1_keywords:
+ - _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - ndis/_NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
 ---
 
 # _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure
@@ -47,20 +50,15 @@ req.typenames: NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHAR
 
 ## -description
 
-
 To specify its driver characteristics, a protocol driver initializes an
   <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure and passes it to NDIS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_PROTOCOL_DRIVER_CHARACTERISTICS.
@@ -92,12 +90,10 @@ Set the
         <b>Size</b> member to
         NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1.
 
-
 ### -field MajorNdisVersion
 
 The major version of the NDIS library the protocol driver is using. The current value is
      0x06.
-
 
 ### -field MinorNdisVersion
 
@@ -245,189 +241,159 @@ NDIS 6.83
 </tr>
 
 </table>
- 
-
 
 ### -field MajorDriverVersion
 
 Reserved for the major version number of the protocol driver. Protocol drivers can specify any
      value that they require.
 
-
 ### -field MinorDriverVersion
 
 Reserved for the minor version number of the protocol driver. Protocol drivers can specify any
      value that they require.
 
-
 ### -field Flags
 
 Reserved for NDIS. Protocol drivers should set this member to zero.
-
 
 ### -field Name
 
 A Unicode string that is the service name of the protocol driver.
 
-
 ### -field SetOptionsHandler
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function.
 
 ### -field BindAdapterHandlerEx
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
      ProtocolBindAdapterEx</a> function.
-
 
 ### -field UnbindAdapterHandlerEx
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
      ProtocolUnbindAdapterEx</a> function.
-
 
 ### -field OpenAdapterCompleteHandlerEx
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_open_adapter_complete_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_open_adapter_complete_ex">
      ProtocolOpenAdapterCompleteEx</a> function.
-
 
 ### -field CloseAdapterCompleteHandlerEx
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_close_adapter_complete_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_close_adapter_complete_ex">
      ProtocolCloseAdapterCompleteEx</a> function.
-
 
 ### -field NetPnPEventHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
-
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function.
 
 ### -field UninstallHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_uninstall">ProtocolUninstall</a> function, if any,
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_uninstall">ProtocolUninstall</a> function, if any,
      or <b>NULL</b>.
-
 
 ### -field OidRequestCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_oid_request_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_oid_request_complete">
      ProtocolOidRequestComplete</a> function.
-
 
 ### -field StatusHandlerEx
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a> function, if any, or
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a> function, if any, or
      <b>NULL</b>.
-
 
 ### -field ReceiveNetBufferListsHandler
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
      ProtocolReceiveNetBufferLists</a> function.
-
 
 ### -field SendNetBufferListsCompleteHandler
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
      ProtocolSendNetBufferListsComplete</a> function.
-
 
 ### -field DirectOidRequestCompleteHandler
 
 The entry point of the caller's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_direct_oid_request_complete">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_direct_oid_request_complete">
       ProtocolDirectOidRequestComplete</a> function. This is an optional function. Set this entry point to
       <b>NULL</b> if the protocol driver does not support the direct OID request interface.
 
-
 ## -remarks
 
-
-
 A protocol driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
     NdisRegisterProtocolDriver</a> function to register its characteristics, including the default entry
     points for its protocol driver functions (<i>ProtocolXxx</i>). The protocol driver initializes an <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure
     and passes a pointer to this structure in the 
     <i>ProtocolCharacteristics</i> parameter of 
     <b>NdisRegisterProtocolDriver</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_close_adapter_complete_ex">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_close_adapter_complete_ex">
    ProtocolCloseAdapterCompleteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_direct_oid_request_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_direct_oid_request_complete">
    ProtocolDirectOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_oid_request_complete">ProtocolOidRequestComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_oid_request_complete">ProtocolOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_open_adapter_complete_ex">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_open_adapter_complete_ex">
    ProtocolOpenAdapterCompleteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
    ProtocolReceiveNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
    ProtocolSendNetBufferListsComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_uninstall">ProtocolUninstall</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_uninstall">ProtocolUninstall</a>

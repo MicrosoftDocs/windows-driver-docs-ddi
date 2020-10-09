@@ -8,8 +8,6 @@ ms.assetid: af7482b4-4622-40b7-af7a-c952813e7095
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_RESET_DEVICE IOCTL"]
 ms.keywords: IOCTL_SERIAL_RESET_DEVICE, IOCTL_SERIAL_RESET_DEVICE control, IOCTL_SERIAL_RESET_DEVICE control code [Serial Ports], ntddser/IOCTL_SERIAL_RESET_DEVICE, serports.ioctl_serial_reset_device, serref_8c489e42-94d9-4a10-9336-dae4adea904a.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_RESET_DEVICE"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_RESET_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_RESET_DEVICE
+ - ntddser/IOCTL_SERIAL_RESET_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_RESET_DEVICE
 ---
 
 # IOCTL_SERIAL_RESET_DEVICE IOCTL
@@ -47,56 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_RESET_DEVICE</b> request resets a serial device.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
-
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.

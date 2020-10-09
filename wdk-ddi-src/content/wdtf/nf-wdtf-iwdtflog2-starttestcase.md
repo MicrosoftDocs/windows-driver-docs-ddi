@@ -8,8 +8,6 @@ ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.date: 04/04/2018
 keywords: ["IWDTFLOG2::StartTestCase"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],StartTestCase method, IWDTFLOG2.StartTestCase, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
-f1_keywords:
- - "wdtf/IWDTFLOG2.StartTestCase"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLOG2.StartTestCase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLOG2::StartTestCase
+ - wdtf/IWDTFLOG2::StartTestCase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLOG2.StartTestCase
 ---
 
 # IWDTFLOG2::StartTestCase
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Marks the start of a test case.
-
 
 ## -parameters
 
+### -param sTestCaseName 
 
-
-
-### -param sTestCaseName [in]
-
+[in]
 The test case name.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>

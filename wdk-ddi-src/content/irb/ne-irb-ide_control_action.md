@@ -8,8 +8,6 @@ ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.date: 03/29/2018
 keywords: ["IDE_CONTROL_ACTION enumeration"]
 ms.keywords: IDE_CONTROL_ACTION, IDE_CONTROL_ACTION enumeration [Storage Devices], IdePowerDown, IdePowerUp, IdeStart, IdeStop, IdeVendorDefined, irb/IDE_CONTROL_ACTION, irb/IdePowerDown, irb/IdePowerUp, irb/IdeStart, irb/IdeStop, irb/IdeVendorDefined, storage.ide_control_action, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml
-f1_keywords:
- - "irb/IDE_CONTROL_ACTION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- irb.h
-api_name:
-- IDE_CONTROL_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_CONTROL_ACTION
+f1_keywords:
+ - IDE_CONTROL_ACTION
+ - irb/IDE_CONTROL_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - irb.h
+api_name:
+ - IDE_CONTROL_ACTION
 ---
 
 # IDE_CONTROL_ACTION enumeration
@@ -47,49 +46,31 @@ req.typenames: IDE_CONTROL_ACTION
 
 ## -description
 
-
-The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine.
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -enum-fields
-
-
-
 
 ### -field IdeStart
 
 Indicates that the miniport driver should start the channel.
 
-
 ### -field IdeStop
 
 Indicates that the miniport driver should stop the channel.
-
 
 ### -field IdePowerUp
 
 Indicates that the miniport driver should power up the channel.
 
-
 ### -field IdePowerDown
 
-
       Indicates that the miniport driver should power down the channel.
-     
-
 
 ### -field IdeVendorDefined
 
 Indicates that the miniport driver should perform a vendor-defined control action.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a>

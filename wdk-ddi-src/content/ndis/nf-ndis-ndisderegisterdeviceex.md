@@ -8,8 +8,6 @@ ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
 ms.date: 05/02/2018
 keywords: ["NdisDeregisterDeviceEx function"]
 ms.keywords: NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterDeviceEx, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, netvista.ndisderegisterdeviceex
-f1_keywords:
- - "ndis/NdisDeregisterDeviceEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDeregisterDeviceEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDeregisterDeviceEx
+ - ndis/NdisDeregisterDeviceEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDeregisterDeviceEx
 ---
 
 # NdisDeregisterDeviceEx function
@@ -48,44 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisDeregisterDeviceEx</b> function removes, from the system, a device object that was created by the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function.
-
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function.
 
 ## -parameters
 
+### -param NdisDeviceHandle 
 
-
-
-### -param NdisDeviceHandle [in]
-
+[in]
 The handle returned by 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> that identifies
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> that identifies
      the device object to be deregistered.
-
 
 ## -remarks
 
-
-
 The 
     <b>NdisDeregisterDeviceEx</b> function removes a device object that was created by the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function. 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function. 
     <b>NdisDeregisterDeviceEx</b> also removes the symbolic link that is associated with this device
     object.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a>

@@ -8,8 +8,6 @@ ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient3::LaunchAndDebugPlmAppWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],LaunchAndDebugPlmAppWide method, IDebugPlmClient3.LaunchAndDebugPlmAppWide, IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide
-f1_keywords:
- - "dbgeng/IDebugPlmClient3.LaunchAndDebugPlmAppWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugPlmClient3.LaunchAndDebugPlmAppWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugPlmClient3::LaunchAndDebugPlmAppWide
+ - dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugPlmClient3.LaunchAndDebugPlmAppWide
 ---
 
 # IDebugPlmClient3::LaunchAndDebugPlmAppWide
@@ -47,53 +46,36 @@ req.typenames:
 
 ## -description
 
-
-    Launches and attaches to a Process Lifecycle Management (PLM) application. 
-
+    Launches and attaches to a Process Lifecycle Management (PLM) application.
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 The server of the application.
 
+### -param PackageFullName 
 
-### -param PackageFullName [in]
-
+[in]
 A pointer to the package name.
 
+### -param AppName 
 
-### -param AppName [in]
+[in]
+A pointer to the application name.
 
-A pointer to the application name. 
+### -param Arguments 
 
-
-### -param Arguments [in]
-
-A pointer to an arguments string. 
-
+[in]
+A pointer to an arguments string.
 
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-If a debugger session is not already started, this method starts one. 
-
-
-
+If a debugger session is not already started, this method starts one.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient3">IDebugPlmClient3</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient3">IDebugPlmClient3</a>

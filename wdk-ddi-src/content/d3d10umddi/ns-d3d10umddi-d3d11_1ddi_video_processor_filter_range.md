@@ -7,8 +7,6 @@ ms.assetid: 9dc93d92-ccdc-488b-a5dd-a2efe783cbb3
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, display.d3d11_1ddi_video_processor_filter_range
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
+f1_keywords:
+ - D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
+ - d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure
@@ -47,38 +46,27 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 
 ## -description
 
-
 Defines the range of supported values for an image filter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Minimum
 
 The minimum value of the filter.
 
-
 ### -field Maximum
 
 The maximum value of the filter.
-
 
 ### -field Default
 
 The default value of the filter.
 
-
 ### -field Multiplier
 
 A multiplier. Use the following formula to translate the filter setting into the actual filter value: <i>Actual Value</i> = <i>Set Value</i> Ã— <i>Multiplier</i>.
 
-
 ## -remarks
-
-
 
 The multiplier enables the filter range to have a fractional step value.
 
@@ -92,6 +80,4 @@ For example, a hue filter might have an actual range of [-180.0 … +180.0] with
 In this case, a filter value of 2 would be interpreted by the device as 0.50 (or 2 Ã— 0.25).
 
 The device should use a multiplier that can be represented exactly as a base-2 fraction.
-
-
 

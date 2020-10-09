@@ -8,8 +8,6 @@ ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.date: 04/30/2018
 keywords: ["IoCheckLinkShareAccess function"]
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess
-f1_keywords:
- - "wdm/IoCheckLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- IoCheckLinkShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - IoCheckLinkShareAccess
+ - wdm/IoCheckLinkShareAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - IoCheckLinkShareAccess
 ---
 
 # IoCheckLinkShareAccess function
@@ -49,22 +48,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IoCheckLinkShareAccess</b> routine is called by file system drivers (FSDs) or other highest-level drivers to check whether link shared access to a file object is permitted.
-
 
 ## -parameters
 
+### -param DesiredAccess 
 
+[in]
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
 
+### -param DesiredShareAccess 
 
-### -param DesiredAccess [in]
-
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
-
-
-### -param DesiredShareAccess [in]
-
+[in]
 Specifies the desired type of shared access to the file object for the current open request. The value of this parameter is usually the same as the <i>ShareAccess</i> parameter that is passed to the file system or highest-level driver by the I/O manager when the open request was made. This value can be zero, or any combination of the following:
 
 FILE_SHARE_READ
@@ -73,24 +68,24 @@ FILE_SHARE_WRITE
 
 FILE_SHARE_DELETE
 
+### -param FileObject 
 
-### -param FileObject [in, out, optional]
-
+[in, out, optional]
 A pointer to the file object for which to check access for the current open request.
 
+### -param ShareAccess 
 
-### -param ShareAccess [in, out, optional]
-
+[in, out, optional]
 A pointer to the common share-access data structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
+### -param LinkShareAccess 
 
-### -param LinkShareAccess [in, out, optional]
+[in, out, optional]
+A pointer to the common link share-access data structure (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
-A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+### -param IoShareAccessFlags 
 
-
-### -param IoShareAccessFlags [in]
-
+[in]
 A bitmask of these flags:
 
 IO_SHARE_ACCESS_NO_WRITE_PERMISSION        (0x80000000) specifies that the user has no write permission for the file. This flag is used to prevent opening a file for exclusive read access when the user does not have appropriate permissions.
@@ -111,46 +106,28 @@ IO_CHECK_SHARE_ACCESS_FORCE_CHECK          (0x00000020) indicate to force check 
 
 IO_CHECK_SHARE_ACCESS_FORCE_USING_SCB      (0x00000040) indicates to force check delete share access using ShareAccess regardless of whether LinkShareAccess is present or not.
 
-
 ## -returns
 
-
-
-The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requester's access to the file object is compatible with the way in which it is currently open. If the request is denied because of a sharing violation, then STATUS_SHARING_VIOLATION is returned. 
-
-
-
+The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requester's access to the file object is compatible with the way in which it is currently open. If the request is denied because of a sharing violation, then STATUS_SHARING_VIOLATION is returned.
 
 ## -remarks
-
-
 
     The <i>ShareAccess</i> parameter must be locked against other accesses
     from other threads while this routine is executing.  Otherwise the counts
     can be synchronization.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/index">I/O Manager Routines</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I/O Manager Routines</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremovelinkshareaccess">IoRemoveLinkShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremovelinkshareaccess">IoRemoveLinkShareAccess</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetlinkshareaccess">IoSetLinkShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetlinkshareaccess">IoSetLinkShareAccess</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>

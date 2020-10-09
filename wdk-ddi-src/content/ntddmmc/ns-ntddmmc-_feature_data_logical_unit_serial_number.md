@@ -6,10 +6,8 @@ old-location: storage\feature_data_logical_unit_serial_number.htm
 tech.root: storage
 ms.assetid: 74917f45-5a76-4112-ade2-992249500dc3
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure"]
+keywords: ["FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure"]
 ms.keywords: "*PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure [Storage Devices], PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure pointer [Storage Devices], _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, ntddmmc/FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, ntddmmc/PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, storage.feature_data_logical_unit_serial_number, structs-CD-ROM_c7f48548-00ff-49a8-93ac-2cab0e838e14.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, *PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+f1_keywords:
+ - _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - ntddmmc/_FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - ntddmmc/PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - ntddmmc/FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
 ---
 
 # _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure
@@ -47,45 +50,26 @@ req.typenames: FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, *PFEATURE_DATA_LOGICAL_U
 
 ## -description
 
-
-The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds information about the Device Serial Number feature. 
-
+The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds information about the Device Serial Number feature.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ### -field SerialNumber
 
-Contains an array that indicates the serial number of the device in ASCII graphic codes (0x020 through 0x07e). 
-
+Contains an array that indicates the serial number of the device in ASCII graphic codes (0x020 through 0x07e).
 
 ## -remarks
 
-
-
-This structure holds data for the feature named "Device Serial Number" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can furnish the initiator with a serial number that uniquely identifies the device. 
-
-
-
+This structure holds data for the feature named "Device Serial Number" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can furnish the initiator with a serial number that uniquely identifies the device.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>

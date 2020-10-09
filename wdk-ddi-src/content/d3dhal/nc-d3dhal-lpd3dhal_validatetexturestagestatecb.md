@@ -8,8 +8,6 @@ ms.assetid: 6376842f-ebf5-43b0-81d8-fc5b15f595ab
 ms.date: 05/10/2018
 keywords: ["LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function"]
 ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
-f1_keywords:
- - "d3dhal/D3dValidateTextureStageState"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dhal.h
-api_name:
-- D3dValidateTextureStageState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - LPD3DHAL_VALIDATETEXTURESTAGESTATECB
+ - d3dhal/LPD3DHAL_VALIDATETEXTURESTAGESTATECB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dhal.h
+api_name:
+ - D3dValidateTextureStageState
 ---
 
 # LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function
@@ -47,34 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3dValidateTextureStageState</b> function returns the number of passes where the hardware can perform the blending operations specified in the current state.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 *pvtssd* [in]
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
-
+Points to a <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 ## -returns
 
-
-
 <b>D3dValidateTextureStageState</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 Microsoft Direct3D drivers that support texturing must implement <b>D3dValidateTextureStageState</b>.
 
@@ -118,20 +104,10 @@ Requests that are likely to fail <b>D3dValidateTextureStageState</b>:
 
 * Attempting the simultaneous use of multiple textures and MIP mapped trilinear filtering. Many cards do not support these operations at the same time. If trilinear filtering has been requested for a texture involved in multitexture operations and it fails validation, turn off trilinear and try again. In this case, it may be best to do multipass rendering instead.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

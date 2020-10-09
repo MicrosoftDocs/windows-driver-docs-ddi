@@ -7,8 +7,6 @@ ms.assetid: 371f494c-abd2-43c8-ab06-749144762b01
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_INPUT structure"]
 ms.keywords: D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_INPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_INPUT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_INPUT
+f1_keywords:
+ - D3D11_1DDI_VIDEO_INPUT
+ - d3d10umddi/D3D11_1DDI_VIDEO_INPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_INPUT
 ---
 
 # D3D11_1DDI_VIDEO_INPUT structure
@@ -47,19 +46,13 @@ req.typenames: D3D11_1DDI_VIDEO_INPUT
 
 ## -description
 
-
 Reserved for system use. Do not use in your driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Relocate
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field p11VideoDeviceFuncs
 

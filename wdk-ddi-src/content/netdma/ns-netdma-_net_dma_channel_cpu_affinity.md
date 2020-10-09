@@ -6,10 +6,8 @@ old-location: netvista\net_dma_channel_cpu_affinity.htm
 tech.root: netvista
 ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.date: 05/02/2018
-keywords: ["_NET_DMA_CHANNEL_CPU_AFFINITY structure"]
+keywords: ["NET_DMA_CHANNEL_CPU_AFFINITY structure"]
 ms.keywords: "*PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, netvista.net_dma_channel_cpu_affinity"
-f1_keywords:
- - "netdma/NET_DMA_CHANNEL_CPU_AFFINITY"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NET_DMA_CHANNEL_CPU_AFFINITY
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY
+f1_keywords:
+ - _NET_DMA_CHANNEL_CPU_AFFINITY
+ - netdma/_NET_DMA_CHANNEL_CPU_AFFINITY
+ - PNET_DMA_CHANNEL_CPU_AFFINITY
+ - netdma/PNET_DMA_CHANNEL_CPU_AFFINITY
+ - NET_DMA_CHANNEL_CPU_AFFINITY
+ - netdma/NET_DMA_CHANNEL_CPU_AFFINITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NET_DMA_CHANNEL_CPU_AFFINITY
 ---
 
 # _NET_DMA_CHANNEL_CPU_AFFINITY structure
@@ -47,14 +50,9 @@ req.typenames: NET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_CHANNEL_CPU_AFFINITY structure specifies the CPU affinity of a DMA channel.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DmaChannel
 
@@ -62,9 +60,8 @@ The DMA channel number. The values for this member range from zero through the m
      DMA channels that the DMA engine supports minus one. The DMA provider driver specifies the maximum
      number of DMA channels in the 
      <b>MaxDmaChannelCount</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+     <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure.
-
 
 ### -field CpuNumber
 
@@ -72,41 +69,28 @@ The target CPU that the DMA provider driver should associate with the MSI-X inte
      generated for the DMA channel that is specified in the 
      <b>DmaChannel</b> member.
 
-
 ## -remarks
-
-
 
 The NetDMA interface passes an array of NET_DMA_CHANNEL_CPU_AFFINITY structures to a DMA provider
     driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
     ProviderSetDmaChannelCpuAffinity</a> function to specify the CPU affinity of the DMA channels.
 
 The NetDMA interface calls 
     <i>ProviderSetDmaChannelCpuAffinity</i> while in the context of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
+    <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
    ProviderSetDmaChannelCpuAffinity</a>
- 
-
- 
-

@@ -7,8 +7,6 @@ ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, display.d3dwddm2_0ddi_video_decoder_caps
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+f1_keywords:
+ - D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+ - d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 ---
 
 # D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration
@@ -47,8 +46,29 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 
 ## -description
 
-
 Describes the video decoder capabilities.
+
+## -enum-fields
+
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
+
+Indicates that the driver can support at least some downsampling scenarios.
+
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME
+
+The decode operation is supported, but cannot be performed real-time.  Indicates that the decode hardware cannot support the decode operation in real-time. Decode is still viable for transcode scenarios. 
+
+
+
+It is possible that decode can occur in real-time if downsampling is applied.
+
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED
+
+	Indicates that the decode configuration can be supported only if down sampling is applied.
+
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED
+
+	Indicates that the decode configuration is not supported.
 
 ## -syntax
 
@@ -62,42 +82,6 @@ typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 } D3DWDDM2_0DDI_VIDEO_DECODER_CAPS;
 ```
 
-## -enum-fields
-
-
-
-
-### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
-
-Indicates that the driver can support at least some downsampling scenarios.
-
-
-### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME
-
-The decode operation is supported, but cannot be performed real-time.  Indicates that the decode hardware cannot support the decode operation in real-time. Decode is still viable for transcode scenarios. 
-
-
-
-It is possible that decode can occur in real-time if downsampling is applied.
-
-
-### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED
-
-	Indicates that the decode configuration can be supported only if down sampling is applied. 
-
-
-### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED
-
-	Indicates that the decode configuration is not supported. 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities">QueryVideoCapabilities</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities">QueryVideoCapabilities</a>

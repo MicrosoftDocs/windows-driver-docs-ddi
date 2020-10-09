@@ -8,8 +8,6 @@ ms.assetid: 8926e96e-b738-47ff-a5c4-8bc15943c6a4
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::RemoveDevice"]
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPActions2.RemoveDevice, IWDTFPNPActions2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_removedevice, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPActions2.RemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfpnpaction.h
-api_name:
-- IWDTFPNPActions2.RemoveDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPActions2::RemoveDevice
+ - wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfpnpaction.h
+api_name:
+ - IWDTFPNPActions2.RemoveDevice
 ---
 
 # IWDTFPNPActions2::RemoveDevice
@@ -47,45 +46,23 @@ req.typenames:
 
 ## -description
 
-
 Removes the device.
-
 
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-
-
 Under the covers, this will call DIF_REMOVE.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

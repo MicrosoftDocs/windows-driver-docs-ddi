@@ -8,8 +8,6 @@ ms.assetid: b779cbf9-3021-4310-ae2e-e716bcc7b4c4
 ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_NODE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_INFORMATION, IOCTL_USB_GET_NODE_INFORMATION control, IOCTL_USB_GET_NODE_INFORMATION control code [Buses], buses.ioctl_usb_get_node_information, usbioctl/IOCTL_USB_GET_NODE_INFORMATION, usbirp_123647fe-f02f-4961-aef8-1036be8727b8.xml
-f1_keywords:
- - "usbioctl/IOCTL_USB_GET_NODE_INFORMATION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_USB_GET_NODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_USB_GET_NODE_INFORMATION
+ - usbioctl/IOCTL_USB_GET_NODE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_USB_GET_NODE_INFORMATION
 ---
 
 # IOCTL_USB_GET_NODE_INFORMATION IOCTL
@@ -47,70 +46,36 @@ req.typenames:
 
 ## -description
 
-
-
-The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure to retrieve information about a parent device.
+The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure to retrieve information about a parent device.
 
 <b>IOCTL_USB_GET_NODE_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure. On input, the <b>NodeType</b> member of this structure must indicate whether the parent device is a hub or a non-hub composite device.
-
+On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure. On input, the <b>NodeType</b> member of this structure must indicate whether the parent device is a hub or a non-hub composite device.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
-
+The size of a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
 
 ### -output-buffer
 
-On output, <b>AssociatedIrp.SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure that holds information about the parent device.
-
+On output, <b>AssociatedIrp.SystemBuffer</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure that holds information about the parent device.
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
-
+The size of a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>

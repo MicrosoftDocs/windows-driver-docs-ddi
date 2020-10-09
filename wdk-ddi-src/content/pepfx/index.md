@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - pepfx
+ - pepfx/pepfx
 ---
 
 # Pepfx.h header
@@ -20,4 +21,4 @@ tech.root: kernel
 
 This header contains programming interfaces used by the Power Engine Plugins (PEPs). For more information, see:
 
-- [Platform Extension Plug-ins (PEPs)](https://docs.microsoft.com/windows-hardware/drivers/kernel/platform-extension-plug-ins--peps-)
+- [Platform Extension Plug-ins (PEPs)](/windows-hardware/drivers/kernel/platform-extension-plug-ins--peps-)

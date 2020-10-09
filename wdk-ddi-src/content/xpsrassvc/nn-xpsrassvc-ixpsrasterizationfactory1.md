@@ -8,8 +8,6 @@ ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 ms.date: 04/20/2018
 keywords: ["IXpsRasterizationFactory1 interface"]
 ms.keywords: IXpsRasterizationFactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices],described, print.xpsrasterizationfactory1, xpsrassvc/IXpsRasterizationFactory1
-f1_keywords:
- - "xpsrassvc/IXpsRasterizationFactory1"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Windows
@@ -27,25 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsrassvc.h
-api_name:
-- IXpsRasterizationFactory1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsRasterizationFactory1
+ - xpsrassvc/IXpsRasterizationFactory1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsrassvc.h
+api_name:
+ - IXpsRasterizationFactory1
 ---
 
 # IXpsRasterizationFactory1 interface
+
 
 ## -description
 
 In Windows 8 and above, **IXPSRasterizationFactory1** is an interface for handling high precision colors.
 
 ## -inheritance
+

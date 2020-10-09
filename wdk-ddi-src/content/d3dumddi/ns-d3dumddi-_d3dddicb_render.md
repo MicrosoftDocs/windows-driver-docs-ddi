@@ -6,10 +6,8 @@ old-location: display\d3dddicb_render.htm
 tech.root: display
 ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_RENDER structure"]
+keywords: ["D3DDDICB_RENDER structure"]
 ms.keywords: D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render
-f1_keywords:
- - "d3dumddi/D3DDDICB_RENDER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_RENDER
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_RENDER
+f1_keywords:
+ - _D3DDDICB_RENDER
+ - d3dumddi/_D3DDDICB_RENDER
+ - D3DDDICB_RENDER
+ - d3dumddi/D3DDDICB_RENDER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_RENDER
 ---
 
 # _D3DDDICB_RENDER structure
+
 
 ## -description
 
@@ -68,7 +70,7 @@ The D3DDDICB_RENDER structure describes the current command buffer to be rendere
 
 ### -field pNewCommandBuffer
 
-[out] A pointer to a command buffer that the user-mode display driver receives to use in its next call to the [**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb) function.
+[out] A pointer to a command buffer that the user-mode display driver receives to use in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
 ### -field NewCommandBufferSize
 
@@ -78,7 +80,7 @@ The driver receives the size, in bytes, of the next command buffer to use.
 
 ### -field pNewAllocationList
 
-[out] An array of [**D3DDDI_ALLOCATIONLIST**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist) structures that the user-mode display driver receives to use as the allocation list in its next call to the [**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb) function.
+[out] An array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the user-mode display driver receives to use as the allocation list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
 ### -field NewAllocationListSize
 
@@ -88,7 +90,7 @@ The driver receives the number of elements for the allocation list that will be 
 
 ### -field pNewPatchLocationList
 
-[out] An array of [**D3DDDI_PATCHLOCATIONLIST**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist) structures that the user-mode display driver receives to use as the patch-location list in its next call to the [**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb) function.
+[out] An array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the user-mode display driver receives to use as the patch-location list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
 ### -field NewPatchLocationListSize
 
@@ -98,11 +100,11 @@ The driver receives the number of elements for the patch-location list that will
 
 ### -field Flags
 
-[in] A [**D3DDDICB_RENDERFLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_renderflags) structure that indicates information about a command buffer to be rendered.
+[in] A [**D3DDDICB_RENDERFLAGS**](./ns-d3dumddi-_d3dddicb_renderflags.md) structure that indicates information about a command buffer to be rendered.
 
 ### -field hContext
 
-[in] A handle to the context that the driver submits the rendering operation to. The user-mode display driver previously created this context by calling the [**pfnCreateContextCb**](https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)) function.
+[in] A handle to the context that the driver submits the rendering operation to. The user-mode display driver previously created this context by calling the [**pfnCreateContextCb**](/previous-versions/ff568895(v=vs.85)) function.
 
 ### -field BroadcastContextCount
 
@@ -138,11 +140,11 @@ This member is available beginning with Windows 7.
 
 ### -field MarkerLogType
 
-A [**D3DDDI_MARKERLOGTYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markerlogtype) enumeration that indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
+A [**D3DDDI_MARKERLOGTYPE**](./ne-d3dumddi-d3dddi_markerlogtype.md) enumeration that indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 
 ### -field RenderCBSequence
 
-A unique identifier for each [**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb) function call. Starts at a value of 1 for contexts associated with single-threaded user-mode DDIs and ranges to a value of 0x80000001 for contexts associated with free-threaded user mode DDIs. The user-mode display driver must increment the value for each pfnRenderCb call it makes on any engine.
+A unique identifier for each [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function call. Starts at a value of 1 for contexts associated with single-threaded user-mode DDIs and ranges to a value of 0x80000001 for contexts associated with free-threaded user mode DDIs. The user-mode display driver must increment the value for each pfnRenderCb call it makes on any engine.
 
 ### -field FirstAPISequenceNumberHigh
 
@@ -182,10 +184,10 @@ A pointer used by the driver to pass the context's API sequence number.
 
 ## -see-also
 
-[**D3DDDICB_RENDERFLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_renderflags)
+[**D3DDDICB_RENDERFLAGS**](./ns-d3dumddi-_d3dddicb_renderflags.md)
 
-[**D3DDDI_ALLOCATIONLIST**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist)
+[**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md)
 
-[**D3DDDI_PATCHLOCATIONLIST**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist)
+[**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md)
 
-[**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb)
+[**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md)

@@ -6,10 +6,8 @@ old-location: netvista\ndis_miniport_adapter_ndk_attributes.htm
 tech.root: netvista
 ms.assetid: 615A190E-D8F5-4E84-A475-FFF38077BC09
 ms.date: 05/02/2018
-keywords: ["_NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure"]
+keywords: ["NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, netvista.ndis_miniport_adapter_ndk_attributes"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+f1_keywords:
+ - _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - ndis/_NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - ndis/PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure
@@ -47,18 +50,13 @@ req.typenames: NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NDK
 
 ## -description
 
-
-The <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure specifies the NDK-capabilities of a miniport adapter. This structure is used in the <b>NDKAttributes</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union.
-
+The <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure specifies the NDK-capabilities of a miniport adapter. This structure is used in the <b>NDKAttributes</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure. 
+A <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure. 
 
 Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
@@ -72,50 +70,36 @@ Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 If the miniport adapter's NDK functionality is enabled, this member is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>.
 
-
 ### -field NdkCapabilities
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_capabilities">NDIS_NDK_CAPABILITIES</a> structure that specifies the capabilities of an NDK adapter.  
-
+A pointer to an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_capabilities">NDIS_NDK_CAPABILITIES</a> structure that specifies the capabilities of an NDK adapter.
 
 ## -remarks
 
+An NDK-capable adapter must indicate its NDK capabilities in its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function, even if its NDK functionality is currently disabled.
 
-
-An NDK-capable adapter must indicate its NDK capabilities in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function, even if its NDK functionality is currently disabled.
-
-To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure in the <b>NDKAttributes</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union and passes  the <b>NDIS_MINIPORT_ADAPTER_ATTRIBUTES</b> union  to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a> function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-an-ndk-miniport-adapter">Initializing an NDK Miniport Adapter</a>.
-
-
-
+To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure in the <b>NDKAttributes</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union and passes  the <b>NDIS_MINIPORT_ADAPTER_ATTRIBUTES</b> union  to the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a> function. For more information, see <a href="/windows-hardware/drivers/network/initializing-an-ndk-miniport-adapter">Initializing an NDK Miniport Adapter</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/initializing-an-ndk-miniport-adapter">Initializing an NDK Miniport Adapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-an-ndk-miniport-adapter">Initializing an NDK Miniport Adapter</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_capabilities">NDIS_NDK_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_capabilities">NDIS_NDK_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>

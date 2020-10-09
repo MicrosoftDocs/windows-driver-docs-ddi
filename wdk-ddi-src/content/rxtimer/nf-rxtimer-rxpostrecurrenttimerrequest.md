@@ -8,8 +8,6 @@ ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.date: 04/16/2018
 keywords: ["RxPostRecurrentTimerRequest function"]
 ms.keywords: RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest
-f1_keywords:
- - "rxtimer/RxPostRecurrentTimerRequest"
 req.header: rxtimer.h
 req.include-header: Rxtimer.h, Rxworkq.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxtimer.h
-api_name:
-- RxPostRecurrentTimerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxPostRecurrentTimerRequest
+ - rxtimer/RxPostRecurrentTimerRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxtimer.h
+api_name:
+ - RxPostRecurrentTimerRequest
 ---
 
 # RxPostRecurrentTimerRequest function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
-<b>RxPostRecurrentTimerRequest</b> initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine. 
-
+<b>RxPostRecurrentTimerRequest</b> initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine.
 
 ## -parameters
 
+### -param pDeviceObject 
 
+[in]
+A pointer to the device object to be associated with this timer.
 
+### -param Routine 
 
-### -param pDeviceObject [in]
+[in]
+A pointer to the worker thread routine to call when this timer expires.
 
-A pointer to the device object to be associated with this timer. 
+### -param pContext 
 
-
-### -param Routine [in]
-
-A pointer to the worker thread routine to call when this timer expires. 
-
-
-### -param pContext [in]
-
+[in]
 A pointer to the context parameter to be associated with this timer.
 
+### -param TimeInterval 
 
-### -param TimeInterval [in]
-
+[in]
 The time interval, in 100-nanosecond ticks.
 
-
 ## -returns
-
-
 
 <b>RxPostRecurrentTimerRequest</b> returns STATUS_SUCCESS on success or one of the following error codes: 
 
@@ -99,31 +91,15 @@ The allocation of non-paged pool memory required by this routine failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxcanceltimerrequest">RxCancelTimerRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxcanceltimerrequest">RxCancelTimerRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostoneshottimerrequest">RxPostOneShotTimerRequest</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostoneshottimerrequest">RxPostOneShotTimerRequest</a>

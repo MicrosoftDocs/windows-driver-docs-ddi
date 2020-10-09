@@ -8,12 +8,10 @@ ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.date: 05/03/2018
 keywords: ["wiasGetPropertyAttributes function"]
 ms.keywords: image.wiasgetpropertyattributes, wiamdef/wiasGetPropertyAttributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetPropertyAttributes"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetPropertyAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetPropertyAttributes
+ - wiamdef/wiasGetPropertyAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetPropertyAttributes
 ---
 
 # wiasGetPropertyAttributes function
+
 
 ## -description
 
@@ -50,37 +50,40 @@ The **wiasGetPropertyAttributes** function retrieves the access flags and valid 
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
 ### -param cPropSpec
 
 Specifies the number of properties.
 
-### -param pPropSpec [in]
+### -param pPropSpec 
 
-Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
+[in]
+Pointer to a [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
 
 ### -param pulAccessFlags
 
 Pointer to an array that contains the access flags for the properties.
 
-### -param pPropVar [out]
+### -param pPropVar 
 
-Pointer to an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
+[out]
+Pointer to an array of [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
 This function fills each element of the *pPropVar* array with a PROPVARIANT structure that specifies the valid values for the corresponding property. Properties with the access rights flag WIA_PROP_NONE have no valid values for that property. The data type for the valid values of these properties is VT_EMPTY.
 
-One or more of the [WIA_PROP_Xxx property attributes](https://docs.microsoft.com/windows/win32/wia/-wia-property-attributes) and access flags can be returned in each element of the *pulAccessFlags* array.
+One or more of the [WIA_PROP_Xxx property attributes](/windows/win32/wia/-wia-property-attributes) and access flags can be returned in each element of the *pulAccessFlags* array.
 
 If the property has a range of valid values, the values can be determined through the *pPropVar* parameter upon completion of this function. The *pPropVar* parameter specifies an array of PROPVARIANT structures.
 

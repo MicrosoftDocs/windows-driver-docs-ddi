@@ -8,8 +8,6 @@ ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.date: 04/30/2018
 keywords: ["PsGetCurrentThread function"]
 ms.keywords: ExGetCurrentResourceThread, PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, wdm/PsGetCurrentThread
-f1_keywords:
- - "ntddk/PsGetCurrentThread"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,71 +25,53 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsGetCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetCurrentThread
+ - ntddk/PsGetCurrentThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsGetCurrentThread
 ---
 
-# PsGetCurrentThread function
+# PsGetCurrentThread function (ntddk.h)
 
 
 ## -description
 
-
-The <b>PsGetCurrentThread</b> routine identifies the current thread. 
-
+The <b>PsGetCurrentThread</b> routine identifies the current thread.
 
 ## -returns
 
-
-
-<b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread. 
-
-
-
+<b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread.
 
 ## -remarks
 
-
-
-This macro 
-
-
-
+This macro
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
+[PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>

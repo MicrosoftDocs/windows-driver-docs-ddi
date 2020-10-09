@@ -13,7 +13,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -27,6 +27,7 @@ api_location:
 api_name:
  - D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073
 f1_keywords:
+ - D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073
  - d3d12umddi/D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073
 dev_langs:
  - c++
@@ -47,8 +48,6 @@ Minmip feedback
 Mip region used feedback
 
 ## -remarks
-
-
 
 ## -see-also
 

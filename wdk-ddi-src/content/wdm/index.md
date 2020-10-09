@@ -8,16 +8,16 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - wdm
+ - wdm/wdm
 ---
 
 # Wdm.h header
 
 
 ## -description
-
 
 This header contains reference material that includes specific details about the routines, structures, and data types that you will need to use to write kernel-mode drivers. 
 

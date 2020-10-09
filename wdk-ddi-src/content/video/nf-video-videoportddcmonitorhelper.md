@@ -8,8 +8,6 @@ ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.date: 05/10/2018
 keywords: ["VideoPortDDCMonitorHelper function"]
 ms.keywords: VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, display.videoportddcmonitorhelper, video/VideoPortDDCMonitorHelper
-f1_keywords:
- - "video/VideoPortDDCMonitorHelper"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortDDCMonitorHelper
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortDDCMonitorHelper
+ - video/VideoPortDDCMonitorHelper
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortDDCMonitorHelper
 ---
 
 # VideoPortDDCMonitorHelper function
@@ -47,55 +46,43 @@ req.typenames:
 
 ## -description
 
-
-Queries a monitor for <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> information using the DDC protocol.
-
+Queries a monitor for <a href="/windows-hardware/drivers/">EDID</a> information using the DDC protocol.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the miniport driver's device extension.
 
+### -param DDCControl 
 
-### -param DDCControl [in]
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a> structure.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a> structure.
+### -param EdidBuffer 
 
+[in, out]
+A pointer to a buffer in which the video port driver returns the <a href="/windows-hardware/drivers/">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>.
 
-### -param EdidBuffer [in, out]
+### -param EdidBufferSize 
 
-A pointer to a buffer in which the video port driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>. 
-
-
-### -param EdidBufferSize [in]
-
+[in]
 The size in bytes of the buffer to which <i>EdidBuffer</i> points.
-
 
 ## -returns
 
-
-
 <b>VideoPortDDCMonitorHelper</b> returns <b>TRUE</b> if successful.
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <p class="note">This function existed prior to the Windows XP release, but has been changed.
 
-<p class="note">The video miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a> function can call <b>VideoPortDDCMonitorHelper</b> for assistance in reading the <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> structure from a DDC2-compliant monitor. <b>VideoPortDDCMonitorHelper </b>implements the details of reading the EDID structure according to the I²C specification, but must call back into the video miniport driver to read and write individual data bits to the I²C serial clock and data lines.
+<p class="note">The video miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a> function can call <b>VideoPortDDCMonitorHelper</b> for assistance in reading the <a href="/windows-hardware/drivers/">EDID</a> structure from a DDC2-compliant monitor. <b>VideoPortDDCMonitorHelper </b>implements the details of reading the EDID structure according to the I²C specification, but must call back into the video miniport driver to read and write individual data bits to the I²C serial clock and data lines.
 
-<p class="note">The four functions, implemented by the video miniport driver, that read and write individual bits to the I²C clock and data lines are <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>. When the video miniport driver calls <b>VideoPortDDCMonitorHelper</b>, it supplies pointers to those four functions in <i>DDCControl</i><b>->I2CCallbacks</b>.
+<p class="note">The four functions, implemented by the video miniport driver, that read and write individual bits to the I²C clock and data lines are <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a>, <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a>, <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a>, and <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>. When the video miniport driver calls <b>VideoPortDDCMonitorHelper</b>, it supplies pointers to those four functions in <i>DDCControl</i><b>->I2CCallbacks</b>.
 
-<p class="note">The <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> can be obtained using the ACPI_METHOD_OUTPUT_DDC method whose alias is defined in Dispmprt.h. This method is required for integrated LCDs that do not have another standard mechanism for returning EDID data.
+<p class="note">The <a href="/windows-hardware/drivers/">EDID</a> can be obtained using the ACPI_METHOD_OUTPUT_DDC method whose alias is defined in Dispmprt.h. This method is required for integrated LCDs that do not have another standard mechanism for returning EDID data.
 
 <p class="note">In a 256-byte buffer, a caller of this function can receive:
 
@@ -122,35 +109,26 @@ No EDID
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/index">I2C Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I2C Functions</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>

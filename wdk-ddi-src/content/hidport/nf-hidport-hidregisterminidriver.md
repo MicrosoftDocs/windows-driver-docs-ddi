@@ -8,8 +8,6 @@ ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.date: 04/30/2018
 keywords: ["HidRegisterMinidriver function"]
 ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver
-f1_keywords:
- - "hidport/HidRegisterMinidriver"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hid.lib
-- Hid.dll
-api_name:
-- HidRegisterMinidriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidRegisterMinidriver
+ - hidport/HidRegisterMinidriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hid.lib
+ - Hid.dll
+api_name:
+ - HidRegisterMinidriver
 ---
 
 # HidRegisterMinidriver function
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidRegisterMinidriver</b> routine is called by HID minidrivers, during their initialization, to register with the HID class driver.
-
 
 ## -parameters
 
+### -param MinidriverRegistration 
 
-
-
-### -param MinidriverRegistration [in]
-
-Pointer to a caller-allocated buffer that contains an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
-
+[in]
+Pointer to a caller-allocated buffer that contains an initialized <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
 
 ## -returns
-
-
 
 <b>HidRegisterMinidriver</b> returns one of the following NTSTATUS codes:
 
@@ -107,29 +99,13 @@ Indicates that the HID revision number provided in <i>MinidriverRegistration-></
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Before calling this routine, HID minidrivers must initialize all members of the HID_MINIDRIVER_REGISTRATION structure that is provided at <i>MinidriverRegistration</i>. For information about these members, see <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>.
 
-
-Before calling this routine, HID minidrivers must initialize all members of the HID_MINIDRIVER_REGISTRATION structure that is provided at <i>MinidriverRegistration</i>. For information about these members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>.
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>

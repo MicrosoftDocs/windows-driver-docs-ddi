@@ -8,8 +8,6 @@ ms.assetid: 547af6b1-63cf-4e61-a357-1a7fdc33e43c
 ms.date: 04/20/2018
 keywords: ["OEMNextBand function"]
 ms.keywords: OEMNextBand, OEMNextBand function [Print Devices], print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, printoem/OEMNextBand
-f1_keywords:
- - "printoem/OEMNextBand"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMNextBand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMNextBand
+ - printoem/OEMNextBand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMNextBand
 ---
 
 # OEMNextBand function
@@ -47,17 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMNextBand</code> function is called by GDI when it has finished drawing a band for a physical page, so that the driver can send the band to the printer.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
-
 
 ### -param pptl
 

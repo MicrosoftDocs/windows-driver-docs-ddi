@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnReserveGpuVirtualAddressCb"
+ - PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
+ - d3dumddi/PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback function
+
 
 ## -description
 
@@ -63,13 +65,12 @@ A handle to the display device.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>

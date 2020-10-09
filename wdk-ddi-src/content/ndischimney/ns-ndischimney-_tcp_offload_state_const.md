@@ -6,10 +6,8 @@ old-location: netvista\tcp_offload_state_const.htm
 tech.root: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.date: 05/02/2018
-keywords: ["_TCP_OFFLOAD_STATE_CONST structure"]
+keywords: ["TCP_OFFLOAD_STATE_CONST structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml"
-f1_keywords:
- - "ndischimney/TCP_OFFLOAD_STATE_CONST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- TCP_OFFLOAD_STATE_CONST
-product:
-- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATE_CONST, *PTCP_OFFLOAD_STATE_CONST
+f1_keywords:
+ - _TCP_OFFLOAD_STATE_CONST
+ - ndischimney/_TCP_OFFLOAD_STATE_CONST
+ - PTCP_OFFLOAD_STATE_CONST
+ - ndischimney/PTCP_OFFLOAD_STATE_CONST
+ - TCP_OFFLOAD_STATE_CONST
+ - ndischimney/TCP_OFFLOAD_STATE_CONST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - TCP_OFFLOAD_STATE_CONST
 ---
 
 # _TCP_OFFLOAD_STATE_CONST structure
@@ -47,28 +50,22 @@ req.typenames: TCP_OFFLOAD_STATE_CONST, *PTCP_OFFLOAD_STATE_CONST
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The TCP_OFFLOAD_STATE_CONST structure contains the constant variables of a TCP connection state
   object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
      sets the 
      <b>Length</b> member of 
      <b>Header</b> to the size, in bytes, of the TCP_OFFLOAD_STATE_CONST structure. The 
      <b>RecognizedOptions</b> member of 
      <b>Header</b> is reserved.
-
 
 ### -field Flags
 
@@ -104,84 +101,65 @@ The host stack sets this flag to cause the offload target to use scale factors (
        window scale factors, see RFCs 2883 and 3517.) The host stack clears this flag to disable this
        option.
 
-
 ### -field RemotePort
 
 The destination port number (see RFC 793).
-
 
 ### -field LocalPort
 
 The source port number (see RFC 793).
 
-
 ### -field SndWindScale
 
 The send window scale factor (see RFC 1323).
 
-
 ### -field RcvWindScale
 
 The receive window scale factor (see RFC 1323).
-
 
 ### -field RemoteMss
 
 The initial maximum segment size (MSS) advertised by the remote endpoint during TCP connection
      setup. (For more information about MSS, see RFC 2581.)
 
-
 ### -field HashValue
 
 A 32-bit hash value that the offload target uses for 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
+     <a href="/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
      scaling (RSS)</a> processing on the TCP connection if the offload target supports RSS.
 
-
 ## -remarks
-
-
 
 The value of each TCP constant variable does not change during the life of a TCP connection. Neither
     the host stack nor the offload target changes the values of a TCP constant variable. When the host stack
     terminates the offload of the TCP connection state object by causing NDIS to call the offload target's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">
     MiniportTerminateOffload</a> function, the offload target does not return the value of the offloaded
     TCP constant variables to the host stack.
 
 When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associated with an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The 
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The 
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the TCP_OFFLOAD_STATE_CONST structure.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>

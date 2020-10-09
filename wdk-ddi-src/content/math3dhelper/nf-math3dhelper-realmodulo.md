@@ -5,39 +5,40 @@ description: Calculates the modular value between x and y.
 ms.assetid: 2633cb26-ad11-4af4-8a79-9ee3b4628d68
 ms.date: 08/01/2018
 keywords: ["RealModulo function"]
-f1_keywords:
- - "math3dhelper/RealModulo"
 tech.root: sensors
 ms.keywords: RealModulo, math3dhelper
 req.header: math3dhelper.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- math3dhelper.h
-api_name: 
-- RealModulo
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - RealModulo
+ - math3dhelper/RealModulo
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - math3dhelper.h
+api_name:
+ - RealModulo
+product:
+ - Windows
 ---
 
 # RealModulo function
@@ -64,3 +65,4 @@ This function returns a float.
 ## -remarks
 
 ## -see-also
+

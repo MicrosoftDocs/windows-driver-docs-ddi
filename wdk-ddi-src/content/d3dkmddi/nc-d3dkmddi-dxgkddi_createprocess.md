@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateProcess"
+ - DXGKDDI_CREATEPROCESS
+ - d3dkmddi/DXGKDDI_CREATEPROCESS
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,6 +46,7 @@ product:
 
 # DXGKDDI_CREATEPROCESS callback function
 
+
 ## -description
 
 <b>DxgkDdiCreateProcess</b> creates a graphics kernel process object.
@@ -57,7 +59,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
+The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
 
 ## -returns
 
@@ -69,5 +71,4 @@ During process creation the kernel mode driver is allowed to call the <b>DxgkCbR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>

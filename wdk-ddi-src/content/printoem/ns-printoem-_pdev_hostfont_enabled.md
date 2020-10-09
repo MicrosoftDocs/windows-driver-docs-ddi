@@ -6,10 +6,8 @@ old-location: print\pdev_hostfont_enabled.htm
 tech.root: print
 ms.assetid: f7fc7e33-e80b-449e-a1d1-a93740cd967c
 ms.date: 04/20/2018
-keywords: ["_PDEV_HOSTFONT_ENABLED structure"]
+keywords: ["PDEV_HOSTFONT_ENABLED structure"]
 ms.keywords: PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], _PDEV_HOSTFONT_ENABLED, print.pdev_hostfont_enabled, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, printoem/PDEV_HOSTFONT_ENABLED
-f1_keywords:
- - "printoem/PDEV_HOSTFONT_ENABLED"
 req.header: printoem.h
 req.include-header: Prcomoem.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- PDEV_HOSTFONT_ENABLED
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_HOSTFONT_ENABLED
+f1_keywords:
+ - _PDEV_HOSTFONT_ENABLED
+ - printoem/_PDEV_HOSTFONT_ENABLED
+ - PDEV_HOSTFONT_ENABLED
+ - printoem/PDEV_HOSTFONT_ENABLED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - PDEV_HOSTFONT_ENABLED
 ---
 
 # _PDEV_HOSTFONT_ENABLED structure
@@ -47,27 +48,19 @@ req.typenames: PDEV_HOSTFONT_ENABLED
 
 ## -description
 
-
 The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bHostfontEnabled
 
 Specifies whether the Hostfont feature is enabled. If set to <b>TRUE</b>, the Hostfont feature is enabled. Otherwise, this feature is disabled.
 
-
 ## -remarks
-
-
 
 This structure is available in Windows XP and later. 
 
-The <i>pBuf</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
+The <i>pBuf</i> parameter of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
 
 Hostfont support is designed to improve the performance of a PostScript interpreter running on a host computer system, rather than on a physical printer. When the Hostfont feature is enabled, the Pscript5 driver stops converting and downloading host font data when there is already an identical font resident on the host on which the interpreter is running. This applies only to the following fonts:
 
@@ -86,15 +79,6 @@ a Printer Font Binary (PFB)
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>

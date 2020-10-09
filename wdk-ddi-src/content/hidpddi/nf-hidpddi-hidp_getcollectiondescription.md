@@ -8,8 +8,6 @@ ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.date: 04/30/2018
 keywords: ["HidP_GetCollectionDescription function"]
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
-f1_keywords:
- - "hidpddi/HidP_GetCollectionDescription"
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_GetCollectionDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_GetCollectionDescription
+ - hidpddi/HidP_GetCollectionDescription
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_GetCollectionDescription
 ---
 
 # HidP_GetCollectionDescription function
@@ -48,42 +47,35 @@ req.typenames:
 
 ## -description
 
-
 Fills a device description
     block with collection description and the corresponding 
     report ID information for the specified report descriptor. 
-    A HID minidriver generally does not need to call this function. Instead, it returns the report descriptor to Hidclass driver in response to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_report_descriptor">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>.
-
+    A HID minidriver generally does not need to call this function. Instead, it returns the report descriptor to Hidclass driver in response to <a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_report_descriptor">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>.
 
 ## -parameters
 
+### -param ReportDesc 
 
-
-
-### -param ReportDesc [in]
-
+[in]
 A pointer to a UCHAR array that contains the raw report descriptor.
 
+### -param DescLength 
 
-### -param DescLength [in]
-
+[in]
 The length of the report descriptor array.
 
+### -param PoolType 
 
-### -param PoolType [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array element of <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a>, each <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array element of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a>, each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
+### -param DeviceDescription 
 
-
-### -param DeviceDescription [out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
-                         collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array elements and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array elements are allocated by this function.
-
+[out]
+A pointer to a <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
+                         collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array elements and <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array elements are allocated by this function.
 
 ## -returns
-
-
 
 <b>HidP_GetCollectionDescription</b> can return one of these values: <b>TRUE</b> if it successfully fills the device description block. Otherwise, it returns <b>FALSE</b>.
 
@@ -127,7 +119,7 @@ Failed to find top-level collections
 <td width="60%">
 An error was detected in the report 
                                       descriptor. See the error code in
-                                      <b>Dbg</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a> structure.
+                                      <b>Dbg</b> field of the <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a> structure.
 
 </td>
 </tr>
@@ -179,21 +171,11 @@ Report ID of 0 was found in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
     For a raw report descriptor that is specified by the <i>ReportDesc</i> parameter, <i>HidP_GetCollectionDescription</i> fills in the <i>DeviceDescription</i>
     block with a caller-allocated linked list of collection descriptors and the corresponding 
     Report ID information that is described by the given report descriptor. 
     The memory for the collection information and the ReportID information is
     allocated based on the <i>PoolType</i> value.
-
-
-
-

@@ -8,8 +8,6 @@ ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.date: 03/29/2018
 keywords: ["ScsiPortReadRegisterBufferUchar function"]
 ms.keywords: ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, srb/ScsiPortReadRegisterBufferUchar, storage.scsiportreadregisterbufferuchar
-f1_keywords:
- - "srb/ScsiPortReadRegisterBufferUchar"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortReadRegisterBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortReadRegisterBufferUchar
+ - srb/ScsiPortReadRegisterBufferUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortReadRegisterBufferUchar
 ---
 
 # ScsiPortReadRegisterBufferUchar function
@@ -48,55 +47,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortReadRegisterBufferUchar</b> routine transfers a specified number of unsigned bytes from the HBA to a buffer.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to the buffer.
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 Specifies the number of bytes to be read from the HBA.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 <b>ScsiPortReadRegisterBufferUchar</b> ensures that the data is transferred correctly.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>

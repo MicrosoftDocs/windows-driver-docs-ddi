@@ -8,8 +8,6 @@ ms.assetid: ab90ab40-7b45-4658-b11b-cf46f91f8699
 ms.date: 05/30/2019
 keywords: ["IoCheckDesiredAccess function"]
 ms.keywords: IoCheckDesiredAccess, IoCheckDesiredAccess function [Installable File System Drivers], ifsk.iocheckdesiredaccess, ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, ntifs/IoCheckDesiredAccess
-f1_keywords:
- - "ntifs/IoCheckDesiredAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoCheckDesiredAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCheckDesiredAccess
+ - ntifs/IoCheckDesiredAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoCheckDesiredAccess
 ---
 
 # IoCheckDesiredAccess function
+
 
 ## -description
 
@@ -64,4 +64,4 @@ Mask value that specifies the access currently granted to the file.
 
 ## -see-also
 
-[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)
+[SeAccessCheck](../wdm/nf-wdm-seaccesscheck.md)

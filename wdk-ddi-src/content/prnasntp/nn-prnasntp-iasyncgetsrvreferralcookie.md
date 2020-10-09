@@ -8,8 +8,6 @@ ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
 ms.date: 04/20/2018
 keywords: ["IAsyncGetSrvReferralCookie interface"]
 ms.keywords: IAsyncGetSrvReferralCookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices],described, print.iasyncgetsrvreferralcookie, prnasntp/IAsyncGetSrvReferralCookie
-f1_keywords:
- - "prnasntp/IAsyncGetSrvReferralCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IAsyncGetSrvReferralCookie
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IAsyncGetSrvReferralCookie
+ - prnasntp/IAsyncGetSrvReferralCookie
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IAsyncGetSrvReferralCookie
 ---
 
 # IAsyncGetSrvReferralCookie interface
 
 
 ## -description
-
-
-
 

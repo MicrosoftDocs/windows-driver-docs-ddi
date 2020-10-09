@@ -8,8 +8,6 @@ ms.assetid: 14c9b97d-7f3f-45ef-9be2-c36495c69081
 ms.date: 05/02/2018
 keywords: ["RILSUPSVCACTION enumeration"]
 ms.keywords: RILSUPSVCACTION, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_INTERROGATE, RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_REGISTER_PW, RIL_SUPSVCACTION_USSD, netvista.rilsupsvcaction, ntddrilapitypes/RILSUPSVCACTION, ntddrilapitypes/RIL_SUPSVCACTION_DEACTIVATE, ntddrilapitypes/RIL_SUPSVCACTION_ERASE, ntddrilapitypes/RIL_SUPSVCACTION_INTERROGATE, ntddrilapitypes/RIL_SUPSVCACTION_MAX, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER_PW, ntddrilapitypes/RIL_SUPSVCACTION_USSD
-f1_keywords:
- - "ntddrilapitypes/RILSUPSVCACTION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,55 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUPSVCACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSVCACTION
+f1_keywords:
+ - RILSUPSVCACTION
+ - ntddrilapitypes/RILSUPSVCACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUPSVCACTION
 ---
 
-# RILSUPSVCACTION enumeration
+# RILSUPSVCACTION enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_SUPSVCACTION_ACTIVATE
-
 
 ### -field RIL_SUPSVCACTION_DEACTIVATE
 
-
 ### -field RIL_SUPSVCACTION_REGISTER
-
 
 ### -field RIL_SUPSVCACTION_ERASE
 
-
 ### -field RIL_SUPSVCACTION_INTERROGATE
-
 
 ### -field RIL_SUPSVCACTION_REGISTER_PW
 
-
 ### -field RIL_SUPSVCACTION_USSD
-
 
 ### -field RIL_SUPSVCACTION_MAX
 

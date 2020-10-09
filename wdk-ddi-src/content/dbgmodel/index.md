@@ -8,10 +8,11 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - dbgmodel
+ - dbgmodel/dbgmodel
 ---
 
 # Dbgmodel.h header
@@ -19,7 +20,6 @@ ms.custom: RS5
 
 ## -description
 
-
 This header is used to create debugger data model apps. For more information, see:
 
-- [Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
+- [Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

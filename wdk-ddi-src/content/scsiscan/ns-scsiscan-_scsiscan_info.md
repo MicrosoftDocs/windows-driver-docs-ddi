@@ -6,10 +6,8 @@ old-location: image\scsiscan_info.htm
 tech.root: image
 ms.assetid: 5fd9b381-c0e3-45bf-9061-da816da5e29f
 ms.date: 05/03/2018
-keywords: ["_SCSISCAN_INFO structure"]
+keywords: ["SCSISCAN_INFO structure"]
 ms.keywords: "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
-f1_keywords:
- - "scsiscan/SCSISCAN_INFO"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiscan.h
-api_name:
-- SCSISCAN_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
+f1_keywords:
+ - _SCSISCAN_INFO
+ - scsiscan/_SCSISCAN_INFO
+ - PSCSISCAN_INFO
+ - scsiscan/PSCSISCAN_INFO
+ - SCSISCAN_INFO
+ - scsiscan/SCSISCAN_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiscan.h
+api_name:
+ - SCSISCAN_INFO
 ---
 
 # _SCSISCAN_INFO structure
 
+
 ## -description
 
-The SCSISCAN_INFO structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_GET_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiscan/ni-scsiscan-ioctl_scsiscan_get_info).
+The SCSISCAN_INFO structure is used as a parameter to [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_GET_INFO](./ni-scsiscan-ioctl_scsiscan_get_info.md).
 
 ## -struct-fields
 

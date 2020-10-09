@@ -8,8 +8,6 @@ ms.assetid: d18f1da0-0cd0-48bf-bf01-a80887b6b2ac
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_UPDATEMODES structure"]
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
-f1_keywords:
- - "iddcx/IDARG_IN_UPDATEMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_UPDATEMODES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_UPDATEMODES
+ - iddcx/IDARG_IN_UPDATEMODES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_UPDATEMODES
 ---
 
 # IDARG_IN_UPDATEMODES structure
@@ -47,32 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the target modes that will be updated by the driver.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Reason
 
-
                      Indicates the reason why the driver is updating the modes.
-                 
-
 
 ### -field TargetModeCount
 
-
                      [in] Number of target modes in the <b>pTargetModes</b> buffer.  This cannot be zero.
-
 
 ### -field pTargetModes
 
-
                      [in] Pointer to the buffer that the driver should copy the target modes it supports for this monitor into.
-                 
 

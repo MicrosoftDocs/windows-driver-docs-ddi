@@ -6,40 +6,45 @@ old-location: netvista\dot11_phy_type_info.htm
 tech.root: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.date: 02/16/2018
-keywords: ["_DOT11_PHY_TYPE_INFO structure"]
+keywords: ["DOT11_PHY_TYPE_INFO structure"]
 ms.keywords: "*PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO"
-f1_keywords:
- - "windot11/DOT11_PHY_TYPE_INFO"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_PHY_TYPE_INFO
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO
+f1_keywords:
+ - _DOT11_PHY_TYPE_INFO
+ - windot11/_DOT11_PHY_TYPE_INFO
+ - PDOT11_PHY_TYPE_INFO
+ - windot11/PDOT11_PHY_TYPE_INFO
+ - DOT11_PHY_TYPE_INFO
+ - windot11/DOT11_PHY_TYPE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_PHY_TYPE_INFO
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_PHY_TYPE_INFO structure
@@ -47,34 +52,11 @@ product:
 
 ## -description
 
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
-
-The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY when performing an explicit scan operation. The station performs the explicit scan operation following a set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>.
-
-## -syntax
-
-```cpp
-typedef struct _DOT11_PHY_TYPE_INFO {
-  union {
-    DOT11_PHY_TYPE dot11PhyType;
-    ULONG          uPhyId;
-  };
-  BOOLEAN             bUseParameters;
-  ULONG               uProbeDelay;
-  ULONG               uMinChannelTime;
-  ULONG               uMaxChannelTime;
-  CH_DESCRIPTION_TYPE ChDescriptionType;
-  ULONG               uChannelListSize;
-  UCHAR               ucChannelListBuffer[1];
-} DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO;
-```
-
+The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY when performing an explicit scan operation. The station performs the explicit scan operation following a set request of <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dot11PhyType
 
@@ -95,12 +77,10 @@ If this member is <b>FALSE</b>, the 802.11 station configures the PHY using its 
 <div class="alert"><b>Note</b>  If the miniport driver is operating in ExtSTA mode, the operating system will
       always set this member to <b>FALSE</b>.</div>
 
-
 ### -field uProbeDelay
 
 The amount of time, in microseconds, that the 802.11 station must wait before transmitting an
      802.11 Probe Request frame during active scanning.
-
 
 ### -field uMinChannelTime
 
@@ -111,7 +91,6 @@ The minimum amount of time, in 802.11 time units (TU), that the 802.11 station s
 This member must be greater than or equal to
      <b>uProbeDelay</b> .
 
-
 ### -field uMaxChannelTime
 
 The maximum amount of time, in 802.11 time units (TU), that the 802.11 station spends on each
@@ -120,7 +99,6 @@ The maximum amount of time, in 802.11 time units (TU), that the 802.11 station s
 
 This member must be greater than or equal to
      <b>uProbeDelay</b> .
-
 
 ### -field ChDescriptionType
 
@@ -144,12 +122,10 @@ The channel entry is defined by a logical channel number to conform with the IEE
 
 The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
 
-
 ### -field uChannelListSize
 
 The length, in bytes, of the
      <b>ucChannelListBuffer</b> array. Each entry in this array is formatted as a ULONG data type.
-
 
 ### -field ucChannelListBuffer
 
@@ -161,32 +137,45 @@ An array containing channel descriptions for the PHY type specified in the
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
        index within the list of supported PHYs returned by the driver through a query of
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+       <a href="/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
        OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
        mode.</div>
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_PHY_TYPE_INFO {
+  union {
+    DOT11_PHY_TYPE dot11PhyType;
+    ULONG          uPhyId;
+  };
+  BOOLEAN             bUseParameters;
+  ULONG               uProbeDelay;
+  ULONG               uMinChannelTime;
+  ULONG               uMaxChannelTime;
+  CH_DESCRIPTION_TYPE ChDescriptionType;
+  ULONG               uChannelListSize;
+  UCHAR               ucChannelListBuffer[1];
+} DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO;
+```
+
 ## -remarks
-
-
 
 The
     <a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a> structure, which
     accompanies a set request of
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>, contains an
+    <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>, contains an
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 For more information about the ExtSTA operation mode, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    <a href="/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
-
-
-
 
 ## -see-also
 
@@ -194,12 +183,4 @@ For more information about the ExtSTA operation mode, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
-
-
-
- 
-
- 
-
-
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>

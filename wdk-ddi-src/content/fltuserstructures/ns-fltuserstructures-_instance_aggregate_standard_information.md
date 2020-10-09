@@ -6,10 +6,8 @@ old-location: ifsk\instance_aggregate_standard_information.htm
 tech.root: ifsk
 ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.date: 09/18/2019
-keywords: ["_INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
+keywords: ["INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
-f1_keywords:
- - "fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltuserstructures.h
-api_name:
-- INSTANCE_AGGREGATE_STANDARD_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+f1_keywords:
+ - _INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/_INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltuserstructures.h
+api_name:
+ - INSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
 
 # _INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
+
 
 ## -description
 
@@ -83,7 +87,7 @@ Zero-based index used to identify the filter manager frame that the minifilter i
 
 ### -field Type.MiniFilter.VolumeFileSystemType
 
-Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
+Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in [FLT_FILESYSTEM_TYPE](./ne-fltuserstructures-_flt_filesystem_type.md).
 
 ### -field Type.MiniFilter.InstanceNameLength
 
@@ -180,37 +184,37 @@ The supported features are a bitwise OR combination of the following flags.
 
 A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated from paged or nonpaged pool.  This structure is passed as a parameter to routines such as the following:
 
-- [FilterInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst)
-- [FilterInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext)
-- [FilterInstanceGetInformation](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation)
-- [FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
-- [FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
-- [FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
-- [FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
-- [FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation)
+- [FilterInstanceFindFirst](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst)
+- [FilterInstanceFindNext](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext)
+- [FilterInstanceGetInformation](/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation)
+- [FilterVolumeInstanceFindFirst](/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
+- [FilterVolumeInstanceFindNext](/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
+- [FltEnumerateInstanceInformationByFilter](../fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter.md)
+- [FltEnumerateInstanceInformationByVolume](../fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume.md)
+- [FltGetInstanceInformation](../fltkernel/nf-fltkernel-fltgetinstanceinformation.md)
 
 The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the **NextEntryOffset** value in each entry falls on an 8-byte boundary.
 
 ## -see-also
 
-[FilterInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst)
+[FilterInstanceFindFirst](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst)
 
-[FilterInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext)
+[FilterInstanceFindNext](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext)
 
-[FilterInstanceGetInformation](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation)
+[FilterInstanceGetInformation](/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation)
 
-[FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
+[FilterVolumeInstanceFindFirst](/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
 
-[FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
+[FilterVolumeInstanceFindNext](/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
 
-[FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
+[FltEnumerateInstanceInformationByFilter](../fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter.md)
 
-[FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
+[FltEnumerateInstanceInformationByVolume](../fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume.md)
 
-[FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation)
+[FltGetInstanceInformation](../fltkernel/nf-fltkernel-fltgetinstanceinformation.md)
 
-[INSTANCE_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information)
+[INSTANCE_BASIC_INFORMATION](./ns-fltuserstructures-_instance_basic_information.md)
 
-[INSTANCE_FULL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information)
+[INSTANCE_FULL_INFORMATION](./ns-fltuserstructures-_instance_full_information.md)
 
-[INSTANCE_PARTIAL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information)
+[INSTANCE_PARTIAL_INFORMATION](./ns-fltuserstructures-_instance_partial_information.md)

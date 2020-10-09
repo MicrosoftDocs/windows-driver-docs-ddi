@@ -8,8 +8,6 @@ ms.assetid: 3cb47545-177f-46ef-aff6-33ad8c9a6974
 ms.date: 05/02/2018
 keywords: ["NdisCoGetTapiCallId function"]
 ms.keywords: NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, ndis/NdisCoGetTapiCallId, netvista.ndiscogettapicallid
-f1_keywords:
- - "ndis/NdisCoGetTapiCallId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoGetTapiCallId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoGetTapiCallId
+ - ndis/NdisCoGetTapiCallId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoGetTapiCallId
 ---
 
 # NdisCoGetTapiCallId function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCoGetTapiCallId</b> retrieves a string that TAPI applications can use to identify a particular NDIS
   virtual connection (VC).
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the NDIS handle to the VC. This handle was supplied by NDIS when the VC was originally
      created with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function.
 
+### -param TapiCallId 
 
-### -param TapiCallId [in, out]
-
+[in, out]
 Pointer to a caller-allocated buffer that receives a data structure of type VAR_STRING. Upon
      successful return, this structure describes a string that TAPI applications can use to identify the
      VC.
 
-
 ## -returns
-
-
 
 Returns one of the following status values:
 
@@ -122,17 +114,11 @@ The handle to the VC specified by
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Suppose a call manager calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to create a VC for a TAPI
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to create a VC for a TAPI
     call. NDIS in turn supplies the handle to the VC to a client. The client passes this VC handle in a call
     to the 
     <b>NdisCoGetTapiCallId</b> function to retrieve a string that identifies the VC. The client can pass this
@@ -143,27 +129,17 @@ The client creates a context for each VC that it manages. The client uses
     identifier to a TAPI application to identify each VC. Later, if a TAPI application passes one of these
     string identifiers down to the client in a VC-related operation, the client must pass this string
     identifier as a Unicode string in a call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
     NdisClGetProtocolVcContextFromTapiCallId</a> to get back the correct context for the VC.
 
 For more information about the VAR_STRING structure, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff564235(v=vs.85)">TAPI Objects</a>.
-
-
-
+    <a href="/previous-versions/windows/hardware/network/ff564235(v=vs.85)">TAPI Objects</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
    NdisClGetProtocolVcContextFromTapiCallId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>

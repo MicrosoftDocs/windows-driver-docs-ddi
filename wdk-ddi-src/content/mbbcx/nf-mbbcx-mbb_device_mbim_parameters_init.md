@@ -6,46 +6,43 @@ tech.root: netvista
 ms.assetid: 679409cd-b6bd-4eb7-9f15-d8cd8216e785
 ms.date: 02/06/2019
 keywords: ["MBB_DEVICE_MBIM_PARAMETERS_INIT function"]
-f1_keywords:
- - "mbbcx/-	MBB_DEVICE_MBIM_PARAMETERS_INIT"
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MBB_DEVICE_MBIM_PARAMETERS_INIT
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - MBB_DEVICE_MBIM_PARAMETERS_INIT
+ - mbbcx/MBB_DEVICE_MBIM_PARAMETERS_INIT
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MBB_DEVICE_MBIM_PARAMETERS_INIT
 ---
 
 # MBB_DEVICE_MBIM_PARAMETERS_INIT function
 
 
 ## -description
-
-
 
 The **MBB_DEVICE_MBIM_PARAMETERS_INIT** method initializes a [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure.
 
@@ -73,4 +70,4 @@ The client driver typically calls this method from its [*EVT_WDF_DEVICE_PREPARE_
 
 ## -see-also
 
-[Mobile Broadband (MBB) WDF class extension (MBBCx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)
+[Mobile Broadband (MBB) WDF class extension (MBBCx)](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)

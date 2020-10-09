@@ -5,41 +5,41 @@ description:
 ms.assetid: 40f670d4-3fa2-4944-81dd-e4cedf6cda33
 ms.date: 10/19/2018
 keywords: ["CTL_CODE macro"]
-f1_keywords:
- - "d4drvif/CTL_CODE"
 ms.keywords: CTL_CODE
 req.header: d4drvif.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d4drvif.h
-api_name: 
-- CTL_CODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - CTL_CODE
+ - d4drvif/CTL_CODE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d4drvif.h
+api_name:
+ - CTL_CODE
 ---
 
 # CTL_CODE macro
+
 
 ## -description
 
@@ -79,3 +79,4 @@ Contains the access check values:
 ## -remarks
 
 ## -see-also
+

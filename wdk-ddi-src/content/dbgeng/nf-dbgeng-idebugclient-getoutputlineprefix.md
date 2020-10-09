@@ -8,8 +8,6 @@ ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.date: 05/03/2018
 keywords: ["IDebugClient::GetOutputLinePrefix"]
 ms.keywords: GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputLinePrefix method, IDebugClient.GetOutputLinePrefix, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
-f1_keywords:
- - "dbgeng/IDebugClient.GetOutputLinePrefix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.GetOutputLinePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient::GetOutputLinePrefix
+ - dbgeng/IDebugClient::GetOutputLinePrefix
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.GetOutputLinePrefix
 ---
 
 # IDebugClient::GetOutputLinePrefix
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
     Gets the prefix used for multiple lines of output.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out]
-
+[out]
 A pointer to the buffer to get the prefix.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 The size of the buffer.
 
+### -param PrefixSize 
 
-### -param PrefixSize [out, optional]
-
+[out, optional]
 A pointer to the size of the buffer.
-
 
 ## -returns
 
-
-
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -94,14 +86,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some of the engine commands produce
     multiple lines of output.  A prefix can be added to each line. 
@@ -110,16 +96,6 @@ Some of the engine commands produce
     that contains a newline. Methods which use
     the line prefix are marked in their documentation.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>

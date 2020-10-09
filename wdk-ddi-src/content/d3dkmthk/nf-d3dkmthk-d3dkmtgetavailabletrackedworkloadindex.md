@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetAvailableTrackedWorkloadIndex function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetAvailableTrackedWorkloadIndex"
+ - "D3DKMTGetAvailableTrackedWorkloadIndex"
 ms.keywords: D3DKMTGetAvailableTrackedWorkloadIndex
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTGetAvailableTrackedWorkloadIndex
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

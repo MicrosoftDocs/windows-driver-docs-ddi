@@ -6,10 +6,8 @@ old-location: storage\format_parameters.htm
 tech.root: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.date: 03/29/2018
-keywords: ["_FORMAT_PARAMETERS structure"]
+keywords: ["FORMAT_PARAMETERS structure"]
 ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], _FORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml"
-f1_keywords:
- - "ntdddisk/FORMAT_PARAMETERS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddisk.h
-api_name:
-- FORMAT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
+f1_keywords:
+ - _FORMAT_PARAMETERS
+ - ntdddisk/_FORMAT_PARAMETERS
+ - PFORMAT_PARAMETERS
+ - ntdddisk/PFORMAT_PARAMETERS
+ - FORMAT_PARAMETERS
+ - ntdddisk/FORMAT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddisk.h
+api_name:
+ - FORMAT_PARAMETERS
 ---
 
 # _FORMAT_PARAMETERS structure
@@ -47,51 +50,34 @@ req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 
 ## -description
 
-
-The FORMAT_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
-
+The FORMAT_PARAMETERS structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk.
 
 ## -struct-fields
 
-
-
-
 ### -field MediaType
 
-Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a>. 
-
+Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a>.
 
 ### -field StartCylinderNumber
 
-Indicates the number of the cylinder where the formatting should begin. 
-
+Indicates the number of the cylinder where the formatting should begin.
 
 ### -field EndCylinderNumber
 
-Indicates the number of the cylinder where the formatting should end. 
-
+Indicates the number of the cylinder where the formatting should end.
 
 ### -field StartHeadNumber
 
-Indicates the number of the head where the formatting should begin. 
-
+Indicates the number of the head where the formatting should begin.
 
 ### -field EndHeadNumber
 
-Indicates the number of the head where the formatting should end. 
-
+Indicates the number of the head where the formatting should end.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a>
- 
-
- 
-
+<a href="/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a>

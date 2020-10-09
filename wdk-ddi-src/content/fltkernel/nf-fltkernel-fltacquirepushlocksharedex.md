@@ -5,41 +5,40 @@ description: The FltAcquirePushLockSharedEx routine acquires the given push lock
 ms.assetid: 760a310c-c6eb-493c-8535-9f601fa2882f
 ms.date: 10/19/2018
 keywords: ["FltAcquirePushLockSharedEx function"]
-f1_keywords:
- - "fltkernel/FltAcquirePushLockSharedEx"
 ms.keywords: FltAcquirePushLockSharedEx
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- FltMgr.lib
-- FltMgr.sys
-api_name: 
-- FltAcquirePushLockSharedEx
-product:
-- Windows
 targetos: Windows
-dev_langs:
-- c++
 ms.custom: RS5
+f1_keywords:
+ - FltAcquirePushLockSharedEx
+ - fltkernel/FltAcquirePushLockSharedEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.lib
+ - FltMgr.sys
+api_name:
+ - FltAcquirePushLockSharedEx
+dev_langs:
+ - c++
 ---
 
 # FltAcquirePushLockSharedEx function
@@ -51,23 +50,21 @@ The FltAcquirePushLockSharedEx routine acquires the given push lock for shared a
 
 ## -parameters
 
-#### -param PushLock 
+### -param PushLock 
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
-
+Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
 
 ### -param Flags
 
 A bitmask of flags that control the attributes of the lock.
 
-
 ## -remarks
 
 The <b>FltAcquirePushLockSharedEx</b> routine acquires the given push lock for shared access by the calling thread. 
 
-Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
+Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
-Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive access, the system will hang. If the caller already has acquired the push lock for shared access, it can receive shared access again. However, each call to <b>FltAcquirePushLockShared</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>. 
+Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive access, the system will hang. If the caller already has acquired the push lock for shared access, it can receive shared access again. However, each call to <b>FltAcquirePushLockShared</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>. 
 
 When the caller will be given shared access to the given push lock depends on the following:
 

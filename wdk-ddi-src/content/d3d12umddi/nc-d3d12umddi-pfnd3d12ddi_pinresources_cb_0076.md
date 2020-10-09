@@ -24,9 +24,10 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 tech.root: display
-ms.custom:
+ms.custom: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_PINRESOURCES_CB_0076"
+ - PFND3D12DDI_PINRESOURCES_CB_0076
+ - d3d12umddi/PFND3D12DDI_PINRESOURCES_CB_0076
 topic_type:
  - apiref
 api_type:

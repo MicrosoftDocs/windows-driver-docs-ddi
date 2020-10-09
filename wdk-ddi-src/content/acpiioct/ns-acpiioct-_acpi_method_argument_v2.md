@@ -6,10 +6,8 @@ old-location: acpi\acpi_method_argument_v2.htm
 tech.root: acpi
 ms.assetid: 10DD32ED-96F2-43BF-BBF4-85851BC9A377
 ms.date: 02/15/2018
-keywords: ["_ACPI_METHOD_ARGUMENT_V2 structure"]
+keywords: ["ACPI_METHOD_ARGUMENT_V2 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, acpiioct/ACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2"
-f1_keywords:
- - "acpiioct/ACPI_METHOD_ARGUMENT_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_METHOD_ARGUMENT_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_METHOD_ARGUMENT_V2
+f1_keywords:
+ - _ACPI_METHOD_ARGUMENT_V2
+ - acpiioct/_ACPI_METHOD_ARGUMENT_V2
+ - ACPI_METHOD_ARGUMENT_V2
+ - acpiioct/ACPI_METHOD_ARGUMENT_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_METHOD_ARGUMENT_V2
 ---
 
 # _ACPI_METHOD_ARGUMENT_V2 structure
@@ -47,38 +48,23 @@ req.typenames: ACPI_METHOD_ARGUMENT_V2
 
 ## -description
 
-
 This topic describes the  <b>ACPI_METHOD_ARGUMENT_V2</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 Defines the <b>USHORT</b> member <b>Type</b>.
 
-
 ### -field DataLength
 
 Defines the <b>USHORT</b> member <b>DataLength</b>.
-
 
 ### -field DUMMYUNIONNAME
 
 Defines the members of <b>DUMMYUNIONNAME</b>.
 
-
 ### -field DUMMYUNIONNAME.Argument
 
- 
-
-
 ### -field DUMMYUNIONNAME.Data
-
- 
-
-
 

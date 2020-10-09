@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB"
+ - PFND3DDDI_CREATEHWCONTEXTCB
+ - d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEHWCONTEXTCB callback function
+
 
 ## -description
 
@@ -65,7 +67,7 @@ A pointer to the structure holding information on creating the hardware context.
 |Return code|Description|
 |--- |--- |
 |S_OK|The call was successfully completed.|
- 
+
 
 This function might also return other HRESULT values.
 

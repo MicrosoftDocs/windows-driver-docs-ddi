@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - ntddsysenv
+ - ntddsysenv/ntddsysenv
 ---
 
 # Ntddsysenv.h header
@@ -18,8 +19,8 @@ tech.root: kernel
 
 ## -description
 
-
 This is the include file that defines all constants and types for
 accessing the system variable device interface.
 
 - [Windows kernel](../_kernel/index.md)
+

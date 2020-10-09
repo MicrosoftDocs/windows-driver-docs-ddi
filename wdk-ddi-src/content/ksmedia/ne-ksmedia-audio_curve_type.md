@@ -8,42 +8,42 @@ ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.date: 05/21/2018
 keywords: ["AUDIO_CURVE_TYPE enumeration"]
 ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE enumeration [Audio Devices], AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
-f1_keywords:
- - "ksmedia/AUDIO_CURVE_TYPE"
 req.header: ksmedia.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- AUDIO_CURVE_TYPE
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
 ms.custom: 19H1
+f1_keywords:
+ - AUDIO_CURVE_TYPE
+ - ksmedia/AUDIO_CURVE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - AUDIO_CURVE_TYPE
 ---
 
 # AUDIO_CURVE_TYPE enumeration
+
 
 ## -description
 
@@ -101,6 +101,6 @@ And the following diagram shows a graphical representation of the preceding pseu
 
 ## -see-also
 
-[KSAUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_volumelevel)
+[KSAUDIOENGINE_VOLUMELEVEL](./ns-ksmedia-_tagksaudioengine_volumelevel.md)
 
-[KSPROPERTY_AUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel)
+[KSPROPERTY_AUDIOENGINE_VOLUMELEVEL](/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel)

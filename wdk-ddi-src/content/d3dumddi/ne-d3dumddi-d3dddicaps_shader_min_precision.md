@@ -8,8 +8,6 @@ ms.assetid: 98856726-b426-42e4-9560-f6b56164824a
 ms.date: 05/10/2018
 keywords: ["D3DDDICAPS_SHADER_MIN_PRECISION enumeration"]
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION, D3DDDICAPS_SHADER_MIN_PRECISION enumeration [Display Devices], D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, display.d3dddicaps_shader_min_precision
-f1_keywords:
- - "d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDICAPS_SHADER_MIN_PRECISION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
+f1_keywords:
+ - D3DDDICAPS_SHADER_MIN_PRECISION
+ - d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDICAPS_SHADER_MIN_PRECISION
 ---
 
 # D3DDDICAPS_SHADER_MIN_PRECISION enumeration
@@ -47,19 +46,13 @@ req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
 
 ## -description
 
-
 Specifies minimum precision levels that the user-mode driver supports in shaders.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT
 
 The minimum precision level is 10-bit.
-
 
 ### -field D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT
 

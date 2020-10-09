@@ -6,10 +6,8 @@ old-location: storage\ideregs.htm
 tech.root: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.date: 03/29/2018
-keywords: ["_IDEREGS structure"]
+keywords: ["IDEREGS structure"]
 ms.keywords: "*LPIDEREGS, *PIDEREGS, IDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, LPIDEREGS structure pointer [Storage Devices], PIDEREGS, PIDEREGS structure pointer [Storage Devices], _IDEREGS, ntdddisk/IDEREGS, ntdddisk/LPIDEREGS, ntdddisk/PIDEREGS, storage.ideregs, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml"
-f1_keywords:
- - "ntdddisk/IDEREGS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddisk.h
-api_name:
-- IDEREGS
-product:
-- Windows
 targetos: Windows
 req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
+f1_keywords:
+ - _IDEREGS
+ - ntdddisk/_IDEREGS
+ - PIDEREGS
+ - ntdddisk/PIDEREGS
+ - IDEREGS
+ - ntdddisk/IDEREGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddisk.h
+api_name:
+ - IDEREGS
 ---
 
 # _IDEREGS structure
@@ -47,14 +50,9 @@ req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 
 ## -description
 
-
-The IDEREGS structure is used to report the contents of the IDE controller registers. 
-
+The IDEREGS structure is used to report the contents of the IDE controller registers.
 
 ## -struct-fields
-
-
-
 
 ### -field bFeaturesReg
 
@@ -176,55 +174,39 @@ Enables offline mode when set to 1. Disables offline mode when 0.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bSectorCountReg
 
-Holds the contents of the sector count register. IDE sector count register.  
-
+Holds the contents of the sector count register. IDE sector count register.
 
 ### -field bSectorNumberReg
 
-Holds the contents of the sector number register. 
-
+Holds the contents of the sector number register.
 
 ### -field bCylLowReg
 
-Holds the contents of the IDE low-order cylinder register. 
-
+Holds the contents of the IDE low-order cylinder register.
 
 ### -field bCylHighReg
 
-Holds the contents of the IDE high-order cylinder register. 
-
+Holds the contents of the IDE high-order cylinder register.
 
 ### -field bDriveHeadReg
 
-Holds the contents of the IDE drive/head register. 
-
+Holds the contents of the IDE drive/head register.
 
 ### -field bCommandReg
 
 Holds the contents of the IDE command register.
 
-
 ### -field bReserved
 
-Reserved for future use. Should always be zero. 
-
+Reserved for future use. Should always be zero.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>

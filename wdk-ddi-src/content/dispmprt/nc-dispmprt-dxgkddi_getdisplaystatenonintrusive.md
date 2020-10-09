@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_GETDISPLAYSTATENONINTRUSIVE
 f1_keywords:
+ - DXGKDDI_GETDISPLAYSTATENONINTRUSIVE
  - dispmprt/DXGKDDI_GETDISPLAYSTATENONINTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_GETDISPLAYSTATENONINTRUSIVE callback function
+
 
 ## -description
 
@@ -77,15 +79,15 @@ The OS will call **DxgkDdiGetDisplayStateNonIntrusive** frequently (either perio
 > [!NOTE]
 > Drivers should only use **ReturnSubStatus** to report error conditions and not use DXGK_DIAG_GETDISPLAYSTATE_MONITOR_NOT_CONNECTED for reporting monitor connectivity state. The main purpose of DXGK_DIAG_GETDISPLAYSTATE_MONITOR_NOT_CONNECTED is for intrusive calls where the OS doesn't ask about monitor connectivity.
 >
-> If driver hits a failure on a given vidpntarget while collecting information, it should use **ReturnSubStatus** to set the error state and proceed to the next vidpntarget and not fail the overall call unless all the paths hit failures. Drivers should ideally record errors hit during this call in some internal error log so that when the OS calls [**DxgkDdiCollectDiagnosticInfo**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_collectdiagnosticinfo) for collecting black box information, these errors are captured as part of an internal log collection to help IHVs during debug.
+> If driver hits a failure on a given vidpntarget while collecting information, it should use **ReturnSubStatus** to set the error state and proceed to the next vidpntarget and not fail the overall call unless all the paths hit failures. Drivers should ideally record errors hit during this call in some internal error log so that when the OS calls [**DxgkDdiCollectDiagnosticInfo**](./nc-dispmprt-dxgkddi_collectdiagnosticinfo.md) for collecting black box information, these errors are captured as part of an internal log collection to help IHVs during debug.
 
-Synchronization level for this DDI is [zero level synchronization](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level).
+Synchronization level for this DDI is [zero level synchronization](/windows-hardware/drivers/display/threading-and-synchronization-zero-level).
 
 ## -see-also
 
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
-[**DxgkDdiCollectDiagnosticInfo**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_collectdiagnosticinfo)
+[**DxgkDdiCollectDiagnosticInfo**](./nc-dispmprt-dxgkddi_collectdiagnosticinfo.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
 

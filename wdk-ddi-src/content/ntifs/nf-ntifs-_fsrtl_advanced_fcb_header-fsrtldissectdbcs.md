@@ -8,8 +8,6 @@ ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.date: 04/16/2018
 keywords: ["FsRtlDissectDbcs function"]
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
-f1_keywords:
- - "ntifs/FsRtlDissectDbcs"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlDissectDbcs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlDissectDbcs
+ - ntifs/FsRtlDissectDbcs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlDissectDbcs
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlDissectDbcs function
@@ -50,33 +49,26 @@ ms.custom: RS5
 
 ## -description
 
-
 Given an ANSI or double-byte character set (DBCS) pathname string, the <b>FsRtlDissectDbcs</b> routine returns two strings: one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
-
 
 ## -parameters
 
+### -param Path 
 
-
-
-### -param Path [in]
-
+[in]
 The pathname string to be parsed.
 
+### -param FirstName 
 
-### -param FirstName [out]
+[out]
+A pointer to the first file name in the pathname string.
 
-A pointer to the first file name in the pathname string. 
+### -param RemainingName 
 
-
-### -param RemainingName [out]
-
+[out]
 A pointer to the remaining unparsed portion of the pathname string.
 
-
 ## -remarks
-
-
 
 In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string. 
 
@@ -193,13 +185,9 @@ A
 
 Note that upon returning, the <b>Buffer</b> members of the output parameters will point into the <b>Buffer</b> member of <b>Path</b>.  Therefore, the caller should not allocate storage for the <b>Buffer</b> members of the two output parameters, as shown in the following example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>.
+
+```
+.
 .
 .
 /*
@@ -217,22 +205,11 @@ allocated storage of FullPathName's Buffer member:
 FsRtlDissectDbcs (FullPathName, &CurrentComponent, &RemainingComponent);
 .
 .
-.</pre>
-</td>
-</tr>
-</table></span></div>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
+.
+```
 
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>

@@ -8,8 +8,6 @@ ms.assetid: CD619018-7E6D-4B45-93C3-AD89FDFEB1E9
 ms.date: 04/30/2018
 keywords: ["RtlNumberOfSetBitsUlongPtr function"]
 ms.keywords: RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr
-f1_keywords:
- - "wdm/RtlNumberOfSetBitsUlongPtr"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any IRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlNumberOfSetBitsUlongPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNumberOfSetBitsUlongPtr
+ - wdm/RtlNumberOfSetBitsUlongPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNumberOfSetBitsUlongPtr
 ---
 
 # RtlNumberOfSetBitsUlongPtr function
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlNumberOfSetBitsUlongPtr</b> routine returns the number of bits in the specified ULONG_PTR integer value that are set to one.
-
 
 ## -parameters
 
+### -param Target 
 
-
-
-### -param Target [in]
-
+[in]
 A ULONG_PTR integer value.
-
 
 ## -returns
 
-
-
 <b>RtlNumberOfSetBitsUlongPtr</b> returns a count of the bits in the <i>Target</i> parameter that are set to one.
-
-
 

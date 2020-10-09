@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: e8078346-7fc7-4dee-9d39-b52c3ecb5415
 ms.date: 04/16/2018
 keywords: ["NDIS_RAISE_IRQL_TO_DISPATCH macro"]
-f1_keywords:
- - "ndis/NDIS_RAISE_IRQL_TO_DISPATCH"
 ms.keywords: NDIS_RAISE_IRQL_TO_DISPATCH
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance: Irql_IrqlSetting_Function
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_RAISE_IRQL_TO_DISPATCH
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_RAISE_IRQL_TO_DISPATCH
+ - ndis/NDIS_RAISE_IRQL_TO_DISPATCH
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_RAISE_IRQL_TO_DISPATCH
 ---
 
 # NDIS_RAISE_IRQL_TO_DISPATCH macro
@@ -68,3 +66,4 @@ The caller should call the [**NDIS_LOWER_IRQL**](nf-ndis-ndis_lower_irql.md) mac
 [**KeRaiseIrql**](../wdm/nf-wdm-keraiseirql.md)
 
 [**NDIS_LOWER_IRQL**](nf-ndis-ndis_lower_irql.md)
+

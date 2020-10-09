@@ -6,10 +6,8 @@ old-location: pos\msr_update_key.htm
 tech.root: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.date: 02/23/2018
-keywords: ["_MSR_UPDATE_KEY structure"]
+keywords: ["MSR_UPDATE_KEY structure"]
 ms.keywords: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, _MSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key"
-f1_keywords:
- - "pointofservicedriverinterface/MSR_UPDATE_KEY"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- MSR_UPDATE_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
+f1_keywords:
+ - _MSR_UPDATE_KEY
+ - pointofservicedriverinterface/_MSR_UPDATE_KEY
+ - PMSR_UPDATE_KEY
+ - pointofservicedriverinterface/PMSR_UPDATE_KEY
+ - MSR_UPDATE_KEY
+ - pointofservicedriverinterface/MSR_UPDATE_KEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - MSR_UPDATE_KEY
 ---
 
 # _MSR_UPDATE_KEY structure
@@ -47,29 +50,21 @@ req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 
 ## -description
 
-
 This structure contains the information necessary to set a new encryption key.
-
 
 ## -struct-fields
 
-
-
-
 ### -field KeyLength
 
-Length, in bytes, of the key stored in <b>Key[MSR_KEY_SIZE]</b>.
-
+Length, in bytes, of the key stored in **Key[MSR_KEY_SIZE]**.
 
 ### -field KeyNameLength
 
-Length, in bytes, of the key name stored in <b>KeyName[MSR_KEY_SIZE]</b>.
-
+Length, in bytes, of the key name stored in **KeyName[MSR_KEY_SIZE]**.
 
 ### -field Key
 
 The new encryption key.
-
 
 ### -field KeyName
 

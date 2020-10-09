@@ -7,8 +7,6 @@ ms.assetid: d74bc90e-5118-49ea-8aab-70d172eb0196
 ms.date: 01/02/2020
 keywords: ["FltPropagateIrpExtension function"]
 ms.keywords: FltPropagateIrpExtension, FltPropagateIrpExtension routine, fltkernel/FltPropagateIrpExtension
-f1_keywords:
- - "fltkernel/FltPropagateIrpExtension"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -26,22 +24,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltPropagateIrpExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltPropagateIrpExtension
+ - fltkernel/FltPropagateIrpExtension
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltPropagateIrpExtension
 ---
 
 # FltPropagateIrpExtension function
+
 
 ## -description
 
@@ -49,16 +49,19 @@ The **FltPropagateIrpExtension** routine copies the IRP extension from one minif
 
 ## -parameters
 
-### -param SourceData [in]
+### -param SourceData 
 
+[in]
 Pointer to the callback data context from which to copy the extension data.
 
-### -param TargetData [in/out]
+### -param TargetData 
 
+[in/out]
 Pointer to the callback data context in which to copy the extension data.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Reserved; must be set to 0.
 
 ## -returns
@@ -76,4 +79,4 @@ Reserved; must be set to 0.
 
 ## -see-also
 
-[**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2)
+[**FltFlushBuffers2**](./nf-fltkernel-fltflushbuffers2.md)

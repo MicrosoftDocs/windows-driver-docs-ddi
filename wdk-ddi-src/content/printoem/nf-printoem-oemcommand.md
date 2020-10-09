@@ -8,8 +8,6 @@ ms.assetid: 67f75696-dee4-43ec-90fd-96fd1a91ec16
 ms.date: 04/20/2018
 keywords: ["OEMCommand function"]
 ms.keywords: OEMCommand, OEMCommand function [Print Devices], print.oemcommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, printoem/OEMCommand
-f1_keywords:
- - "printoem/OEMCommand"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMCommand
+ - printoem/OEMCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMCommand
 ---
 
 # OEMCommand function
@@ -47,22 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
-
 ### -param dwIndex
 
+### -param pData 
 
-### -param pData [in]
-
+[in]
 
 ### -param cbSize
 

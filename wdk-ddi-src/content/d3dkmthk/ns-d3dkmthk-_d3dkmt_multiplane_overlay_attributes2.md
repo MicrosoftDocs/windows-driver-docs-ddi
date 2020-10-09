@@ -4,41 +4,43 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2 (d3dkmthk.h)
 description: Contains multiplane overlay attributes.
 ms.assetid: 714822e6-9f3c-432c-8584-3f3d61d87dcc
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2"
-ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2, 
+keywords: ["D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure"]
+ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
+ - d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
+ - D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
+ - d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure
+
 
 ## -description
 
@@ -79,10 +81,10 @@ The number of dirty rectangles.
 A pointer to an array of dirty rectangles.
 
 ### -field VideoFrameFormat
- 
+
 ### -field ColorSpace
 
-The color space of the data. 
+The color space of the data.
 
 ### -field StereoFormat
 
@@ -103,11 +105,13 @@ Stereo flip mode.
 ### -field StretchQuality
 
 Stretch quality.
- 
+
 ### -field Reserved1
+
  
 Reserved for internal use.
 
 ## -remarks
 
 ## -see-also
+

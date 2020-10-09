@@ -8,8 +8,6 @@ ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.date: 02/26/2018
 keywords: ["WdfRequestSetActivityId function"]
 ms.keywords: WdfRequestSetActivityId, WdfRequestSetActivityId method, wdf.wdfrequestsetactivityid, wdfrequest/WdfRequestSetActivityId
-f1_keywords:
- - "wdfrequest/WdfRequestSetActivityId"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfRequestSetActivityId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestSetActivityId
+ - wdfrequest/WdfRequestSetActivityId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfRequestSetActivityId
 ---
 
 # WdfRequestSetActivityId function
@@ -47,49 +46,32 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestSetActivityId</b> method associates an activity identifier with an I/O request.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param ActivityId 
 
-### -param ActivityId [in]
-
+[in]
 A pointer to the activity identifier GUID to store in the I/O request.
-
 
 ## -remarks
 
-
-
 Calling <b>WdfRequestSetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>WdfRequestSetActivityId</b>, any existing activity identifier is overwritten.
 
-To set an association, retrieve the existing identifier by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveactivityid">WdfRequestRetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>.
+To set an association, retrieve the existing identifier by calling <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveactivityid">WdfRequestRetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="/windows/win32/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>.
 
-The framework does not clear a request's activity identifier when the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>.
+The framework does not clear a request's activity identifier when the driver calls <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>.
 
-For more information about activity identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-activity-identifiers">Using Activity Identifiers</a>.
-
-
-
+For more information about activity identifiers, see <a href="/windows-hardware/drivers/wdf/using-activity-identifiers">Using Activity Identifiers</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveactivityid">WdfRequestRetrieveActivityId</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveactivityid">WdfRequestRetrieveActivityId</a>

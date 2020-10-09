@@ -6,10 +6,8 @@ old-location: print\splclient_info_2_w2k.htm
 tech.root: print
 ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
 ms.date: 04/20/2018
-keywords: ["_SPLCLIENT_INFO_2_V1 structure"]
+keywords: ["SPLCLIENT_INFO_2_V1 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K, SPLCLIENT_INFO_2_W2K structure [Print Devices], _SPLCLIENT_INFO_2_V1, print.splclient_info_2_w2k, winsplp/SPLCLIENT_INFO_2_W2K"
-f1_keywords:
- - "winsplp/SPLCLIENT_INFO_2_W2K"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SPLCLIENT_INFO_2_W2K
-product:
-- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_2_W2K
+f1_keywords:
+ - _SPLCLIENT_INFO_2_V1
+ - winsplp/_SPLCLIENT_INFO_2_V1
+ - SPLCLIENT_INFO_2_W2K
+ - winsplp/SPLCLIENT_INFO_2_W2K
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SPLCLIENT_INFO_2_W2K
 ---
 
 # _SPLCLIENT_INFO_2_V1 structure
@@ -47,14 +48,9 @@ req.typenames: SPLCLIENT_INFO_2_W2K
 
 ## -description
 
-
 Contains the handle for the server-side printer that is used to make direct API calls from the client to the server without the overhead of the RPC. The performance improvement is primarily observed in calls to read/write printer made from within the spooler (Gdi32.dll during playback). This structure is used in the private spooler RPC interface (RpcSplOpenPrinter).
 
-
 ## -struct-fields
-
-
-
 
 ### -field hSplPrinter
 

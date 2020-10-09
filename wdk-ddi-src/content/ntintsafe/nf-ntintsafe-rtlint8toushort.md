@@ -8,8 +8,6 @@ ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
 ms.date: 04/30/2018
 keywords: ["RtlInt8ToUShort function"]
 ms.keywords: RtlInt8ToUShort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], kernel.rtlint8toushort, ntintsafe/RtlInt8ToUShort
-f1_keywords:
- - "ntintsafe/RtlInt8ToUShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlInt8ToUShort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt8ToUShort
+ - ntintsafe/RtlInt8ToUShort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlInt8ToUShort
 ---
 
 # RtlInt8ToUShort function
@@ -47,28 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT8</b> to a value of type <b>USHORT</b>.
-
 
 ## -parameters
 
+### -param i8Operand 
 
-
-
-### -param i8Operand [in]
-
+[in]
 The value to be converted.
 
+### -param pusResult 
 
-### -param pusResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation is successful. 
+
+See the implementation of this helper function in `ntintsafe.h` in the WDK for possible error return values. 
 
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -79,5 +77,4 @@ This function uses the following alternate name:
 <li>RtlInt8ToWord
 </li>
 </ul>
-
 

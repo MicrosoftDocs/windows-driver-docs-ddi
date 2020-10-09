@@ -8,8 +8,6 @@ ms.assetid: 3e127456-6387-4340-84c1-d613d8094f33
 ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL"]
 ms.keywords: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control code [Storage Devices], k307_7f4b8e45-1569-4d69-a33b-856b8587fe7b.xml, ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, storage.ioctl_volume_physical_to_logical
-f1_keywords:
- - "ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvol.h
-api_name:
-- IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
+ - ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvol.h
+api_name:
+ - IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
 ---
 
 # IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL
@@ -47,59 +46,35 @@ req.typenames:
 
 ## -description
 
-
-
 Returns the logical offset corresponding to a physical disk number and a physical offset. 
 
 
 
 The volume manager supports this IOCTL as described for all types of basic and dynamic volumes.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-Caller inserts the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
-
+Caller inserts the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -input-buffer-length
 
 <b>
        Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to the value of <b>sizeof</b>(VOLUME_PHYSICAL_OFFSET).
 
-
 ### -output-buffer
 
-The volume manager returns the logical offset in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
-
+The volume manager returns the logical offset in the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
 <b>
        Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be greater than or equal to the value of <b>sizeof</b>(VOLUME_LOGICAL_OFFSET).
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -109,26 +84,18 @@ If either the input or output buffer is too small, the volume manager sets the <
 
 If the given physical disk number and physical offset do not belong to the volume or if they are taken from RAID parity data, this call will fail with STATUS_INVALID_PARAMETER.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_logical_to_physical">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_logical_to_physical">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>

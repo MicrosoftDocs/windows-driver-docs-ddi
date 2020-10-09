@@ -6,10 +6,8 @@ old-location: stream\ks_dvdcopy_titlekey.htm
 tech.root: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.date: 04/23/2018
-keywords: ["_KS_DVDCOPY_TITLEKEY structure"]
+keywords: ["KS_DVDCOPY_TITLEKEY structure"]
 ms.keywords: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey"
-f1_keywords:
- - "ksmedia/KS_DVDCOPY_TITLEKEY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_DVDCOPY_TITLEKEY
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
+f1_keywords:
+ - _KS_DVDCOPY_TITLEKEY
+ - ksmedia/_KS_DVDCOPY_TITLEKEY
+ - PKS_DVDCOPY_TITLEKEY
+ - ksmedia/PKS_DVDCOPY_TITLEKEY
+ - KS_DVDCOPY_TITLEKEY
+ - ksmedia/KS_DVDCOPY_TITLEKEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_DVDCOPY_TITLEKEY
 ---
 
 # _KS_DVDCOPY_TITLEKEY structure
@@ -47,14 +50,9 @@ req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 
 ## -description
 
-
 The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field KeyFlags
 
@@ -176,42 +174,25 @@ Indicates that the sector is protected (encrypted).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ReservedNT
 
 Reserved. Do not use.
 
-
 ### -field TitleKey
 
 Specifies the current title key.
-
 
 ### -field Reserved
 
 Reserved. Do not use.
 
-
 ## -remarks
 
+The KS_DVDCOPY_TITLEKEY structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a> property.
 
-
-The KS_DVDCOPY_TITLEKEY structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a> property.
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
-
-
-
+For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a>

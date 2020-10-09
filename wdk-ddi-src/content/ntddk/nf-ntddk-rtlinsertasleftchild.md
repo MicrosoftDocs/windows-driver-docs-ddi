@@ -8,8 +8,6 @@ ms.assetid: cbb027f2-be7d-4de4-abbe-a37b7430153f
 ms.date: 04/16/2018
 keywords: ["RtlInsertAsLeftChild function"]
 ms.keywords: RtlInsertAsLeftChild, RtlInsertAsLeftChild routine [Installable File System Drivers], ifsk.rtlinsertasleftchild, ntddk/RtlInsertAsLeftChild, rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml
-f1_keywords:
- - "ntddk/RtlInsertAsLeftChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlInsertAsLeftChild
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInsertAsLeftChild
+ - ntddk/RtlInsertAsLeftChild
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlInsertAsLeftChild
 ---
 
 # RtlInsertAsLeftChild function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlInsertAsLeftChild</b> routine inserts a splay link node into the tree as the left child of the specified node. 
-
+The <b>RtlInsertAsLeftChild</b> routine inserts a splay link node into the tree as the left child of the specified node.
 
 ## -parameters
 
+### -param ParentLinks 
 
+[in]
+Pointer to the node in the tree at which <i>ChildLinks</i> should be inserted as the left child.
 
+### -param ChildLinks 
 
-### -param ParentLinks [in]
-
-Pointer to the node in the tree at which <i>ChildLinks</i> should be inserted as the left child. 
-
-
-### -param ChildLinks [in]
-
+[in]
 Pointer to the splay link node to be inserted into the tree. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
-
 ## -remarks
-
-
 
 Callers of <b>RtlInsertAsLeftChild</b> are must meet the following criteria:
 
@@ -88,38 +80,28 @@ A caller can determine whether this node already has a parent by calling <b>RtlI
 </ul>
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree and <i>ChildLinks</i> node are nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
-
-
-
+Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree and <i>ChildLinks</i> node are nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertasrightchild">RtlInsertAsRightChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertasrightchild">RtlInsertAsRightChild</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisroot">RtlIsRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisroot">RtlIsRoot</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlleftchild">RtlLeftChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlleftchild">RtlLeftChild</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlparent">RtlParent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlparent">RtlParent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>

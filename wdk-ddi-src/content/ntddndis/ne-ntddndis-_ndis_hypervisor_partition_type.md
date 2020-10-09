@@ -6,10 +6,8 @@ old-location: netvista\ndis_hypervisor_partition_type.htm
 tech.root: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.date: 05/02/2018
-keywords: ["_NDIS_HYPERVISOR_PARTITION_TYPE enumeration"]
+keywords: ["NDIS_HYPERVISOR_PARTITION_TYPE enumeration"]
 ms.keywords: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml"
-f1_keywords:
- - "ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_HYPERVISOR_PARTITION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
+f1_keywords:
+ - _NDIS_HYPERVISOR_PARTITION_TYPE
+ - ntddndis/_NDIS_HYPERVISOR_PARTITION_TYPE
+ - PNDIS_HYPERVISOR_PARTITION_TYPE
+ - ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE
+ - NDIS_HYPERVISOR_PARTITION_TYPE
+ - ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_HYPERVISOR_PARTITION_TYPE
 ---
 
 # _NDIS_HYPERVISOR_PARTITION_TYPE enumeration
@@ -47,19 +50,14 @@ req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  <p class="note">Starting with Windows 10 Version 1703, NDIS_HYPERVISOR_PARTITION_TYPE is deprecated and should not be used.  Drivers are encouraged to move away from it, as it may not be available in future versions of the operating system. 
 
-<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
+<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
 
 </div><div> </div>The <b>NDIS_HYPERVISOR_PARTITION_TYPE</b> enumeration identifies the current partition type that is running
   on the hypervisor.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NdisHypervisorPartitionTypeUnknown
 
@@ -73,35 +71,20 @@ The partition type that is running on the hypervisor is not known.
 The parent partition (also known as the root partition) is running
      on the Microsoft hypervisor.
 
-
 ### -field NdisHypervisorPartitionMsHvChild
 
 The child partition is running on
      the Microsoft hypervisor.
-
 
 ### -field NdisHypervisorPartitionTypeMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 
-
 ## -remarks
 
-
-
-For more information about Hyper-V parent and child partitions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtualized-networking-concepts-and-terms">Virtualized Networking Concepts and Terms</a>.
-
-
-
+For more information about Hyper-V parent and child partitions, see <a href="/windows-hardware/drivers/network/virtualized-networking-concepts-and-terms">Virtualized Networking Concepts and Terms</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>

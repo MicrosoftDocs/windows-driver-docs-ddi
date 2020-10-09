@@ -4,38 +4,42 @@ title: _DXGKARGCB_INVALIDATEHWCONTEXT (d3dkmddi.h)
 description: Invalidates hardware context.
 ms.assetid: 1291e94b-ddaf-43ec-a205-7dda7d63ff01
 ms.date: 10/19/2018
-keywords: ["_DXGKARGCB_INVALIDATEHWCONTEXT structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARGCB_INVALIDATEHWCONTEXT"
+keywords: ["DXGKARGCB_INVALIDATEHWCONTEXT structure"]
 ms.keywords: _DXGKARGCB_INVALIDATEHWCONTEXT, DXGKARGCB_INVALIDATEHWCONTEXT,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARGCB_INVALIDATEHWCONTEXT
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARGCB_INVALIDATEHWCONTEXT
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARGCB_INVALIDATEHWCONTEXT
+ - d3dkmddi/_DXGKARGCB_INVALIDATEHWCONTEXT
+ - DXGKARGCB_INVALIDATEHWCONTEXT
+ - d3dkmddi/DXGKARGCB_INVALIDATEHWCONTEXT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARGCB_INVALIDATEHWCONTEXT
+product:
+ - Windows
 ---
 
 # _DXGKARGCB_INVALIDATEHWCONTEXT structure
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
 ms.date: 02/15/2018
 keywords: ["IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL IOCTL"]
 ms.keywords: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], SD.ioctl_sffdisk_query_device_protocol, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
-f1_keywords:
- - "sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sffdisk.h
-api_name:
-- IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
+ - sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sffdisk.h
+api_name:
+ - IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 ---
 
 # IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL IOCTL
@@ -47,17 +46,12 @@ req.typenames:
 
 ## -description
 
-
 User-mode applications use this IOCTL to retrieve a protocol value that identifies the card as either an SD card or an MMC card. For a description of this command, see the <i>Secure Digital I/O (SDIO)</i> specification.
 
-To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function (described in the Microsoft Windows SDK documentation) using the following parameters.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>bRet = DeviceIoControl (
+To perform this operation, call the <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function (described in the Microsoft Windows SDK documentation) using the following parameters.
+
+```
+bRet = DeviceIoControl (
     (HANDLE)  hDevice, 
     (DWORD)  dwIoControlCode, 
     (PUCHAR)  lpInBuffer,
@@ -66,10 +60,9 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
     (DWORD)  nOutBufferSize, 
     (LPDWORD)  lpBytesReturned,
     (LPOVERLAPPED)  lpOverlapped 
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 Parameters
 
 
@@ -96,7 +89,7 @@ Not used with this IOCTL. Caller should pass in a value of 0.
 </dd>
 <dt><a id="lpOutBuffer"></a><a id="lpoutbuffer"></a><a id="LPOUTBUFFER"></a><i>lpOutBuffer</i></dt>
 <dd>
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538140(v=vs.85)">SFFDISK_QUERY_DEVICE_PROTOCOL_DATA</a> structure in a user-supplied buffer that contains the results data. The <b>ProtocolGUID</b> member of the SFFDISK_QUERY_DEVICE_PROTOCOL_DATA structure contains a GUID that identifies the card as either an SD card or an MMC card. If the operation fails and <b>GetLastError</b> returns the error code STATUS_BUFFER_TOO_SMALL, the output buffer was not large enough to hold the results data. 
+Pointer to a <a href="/previous-versions/windows/hardware/drivers/ff538140(v=vs.85)">SFFDISK_QUERY_DEVICE_PROTOCOL_DATA</a> structure in a user-supplied buffer that contains the results data. The <b>ProtocolGUID</b> member of the SFFDISK_QUERY_DEVICE_PROTOCOL_DATA structure contains a GUID that identifies the card as either an SD card or an MMC card. If the operation fails and <b>GetLastError</b> returns the error code STATUS_BUFFER_TOO_SMALL, the output buffer was not large enough to hold the results data. 
 
 </dd>
 <dt><a id="nOutBufferSize"></a><a id="noutbuffersize"></a><a id="NOUTBUFFERSIZE"></a><i>nOutBufferSize</i></dt>
@@ -119,51 +112,41 @@ If this is an overlapped operation, you can retrieve the number of bytes returne
 <dd>
 Pointer to an OVERLAPPED structure, as described in the Windows SDK documentation. 
 
-If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, <i>lpOverlapped</i> must point to a valid OVERLAPPED structure. In this case, the system executes <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> as an overlapped, asynchronous operation. If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, and <i>lpOverlapped</i> is <b>NULL</b>, the function fails in unpredictable ways.
+If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, <i>lpOverlapped</i> must point to a valid OVERLAPPED structure. In this case, the system executes <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> as an overlapped, asynchronous operation. If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, and <i>lpOverlapped</i> is <b>NULL</b>, the function fails in unpredictable ways.
 
-If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
+If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
 
 </dd>
 </dl>
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 TBD
-
 
 ### -input-buffer-length
 
 TBD
 
-
 ### -output-buffer
 
 TBD
-
 
 ### -output-buffer-length
 
 TBD
 
-
 ### -in-out-buffer
 
 TBD
-
 
 ### -inout-buffer-length
 
 TBD
 
-
 ### -status-block
 
-If the operation succeeds, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero value.
+If the operation succeeds, <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero value.
 
-If the operation fails, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error information, call <b>GetLastError</b>.
-
+If the operation fails, <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error information, call <b>GetLastError</b>.

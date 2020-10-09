@@ -7,8 +7,6 @@ ms.assetid: b385a0fd-6181-45c3-ba6e-e292e0b10e68
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, display.d3d11_1ddi_video_processor_stereo_flip_mode
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+f1_keywords:
+ - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+ - d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration
@@ -47,24 +46,17 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 
 ## -description
 
-
 For stereo 3-D video, specifies whether the data in frame 0 or frame 1 is flipped, either horizontally or vertically.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE
 
 Neither frame is flipped.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0
 
 The data in frame 0 is flipped.
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1
 

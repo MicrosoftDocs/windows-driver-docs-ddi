@@ -6,10 +6,8 @@ old-location: netvista\wdi_wnm_action.htm
 tech.root: netvista
 ms.assetid: 350D3182-3BEE-4AB7-A9F0-5C5D7D60A617
 ms.date: 05/02/2018
-keywords: ["_WDI_WNM_ACTION enumeration"]
+keywords: ["WDI_WNM_ACTION enumeration"]
 ms.keywords: WDI_WNM_ACTION, WDI_WNM_ACTION enumeration [Network Drivers Starting with Windows Vista], WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, _WDI_WNM_ACTION, netvista.wdi_wnm_action, wditypes/WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
-f1_keywords:
- - "wditypes/WDI_WNM_ACTION"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_WNM_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_WNM_ACTION
+f1_keywords:
+ - _WDI_WNM_ACTION
+ - wditypes/_WDI_WNM_ACTION
+ - WDI_WNM_ACTION
+ - wditypes/WDI_WNM_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_WNM_ACTION
 ---
 
 # _WDI_WNM_ACTION enumeration
@@ -47,24 +48,17 @@ req.typenames: WDI_WNM_ACTION
 
 ## -description
 
-
 The WDI_WNM_ACTION enumeration defines the message type for 802.11v BSS Transition Management action frames.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY
 
 The message is a BSS Transition Management query frame.
 
-
 ### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST
 
 The message is a BSS Transition Management request frame. This is sent by the AP to the client.
-
 
 ### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
 

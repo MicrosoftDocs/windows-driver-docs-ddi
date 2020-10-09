@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFullReportChange function"]
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 f1_keywords:
  - "ntifs/FsRtlNotifyFullReportChange"
+ - "FsRtlNotifyFullReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyFullReportChange
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,43 +55,43 @@ The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change I
 
 
 
-### -param NotifySync [in]
-
+### -param NotifySync 
+[in]
 A pointer to an opaque synchronization object for the current volume.
 
 
-### -param NotifyList [in]
-
+### -param NotifyList 
+[in]
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
 
-### -param FullTargetName [in]
-
+### -param FullTargetName 
+[in]
 A pointer to an ANSI or Unicode string that contains the full pathname of the file.
 
 
-### -param TargetNameOffset [in]
-
+### -param TargetNameOffset 
+[in]
 Offset within the <i>FullTargetName</i> string of the final component of the name.
 
 
-### -param StreamName [in, optional]
-
+### -param StreamName 
+[in, optional]
 Optional pointer to an ANSI or Unicode string that contains a stream name to store with the file name.
 
 
-### -param NormalizedParentName [in, optional]
-
+### -param NormalizedParentName 
+[in, optional]
 Optional pointer to an ANSI or Unicode string that contains the same path as in the <i>FullTargetName</i> string, but with all short names replaced by the corresponding long names.
 
 
-### -param FilterMatch [in]
+### -param FilterMatch 
+[in]
+A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
-A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
-
-### -param Action [in]
-
+### -param Action 
+[in]
 Specifies the action code to store in the user's buffer if present. The action code can be one of the values described following.
 
 <table>
@@ -214,9 +213,9 @@ An object ID for a file could not be tunneled because the file already has an ob
  
 
 
-### -param TargetContext [in, optional]
-
-Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
+### -param TargetContext 
+[in, optional]
+Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
 
 ## -returns
@@ -244,8 +243,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>
  
 
  
-

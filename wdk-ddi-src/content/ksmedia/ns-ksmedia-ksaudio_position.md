@@ -8,8 +8,6 @@ ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_POSITION structure"]
 ms.keywords: "*PKSAUDIO_POSITION, KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION"
-f1_keywords:
- - "ksmedia/KSAUDIO_POSITION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_POSITION, *PKSAUDIO_POSITION
+f1_keywords:
+ - PKSAUDIO_POSITION
+ - ksmedia/PKSAUDIO_POSITION
+ - KSAUDIO_POSITION
+ - ksmedia/KSAUDIO_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_POSITION
 ---
 
 # KSAUDIO_POSITION structure
@@ -47,34 +48,25 @@ req.typenames: KSAUDIO_POSITION, *PKSAUDIO_POSITION
 
 ## -description
 
-
 The KSAUDIO_POSITION structure specifies the current positions of the play and write cursors in the sound buffer for an audio stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PlayOffset
 
 Specifies the current play position as a byte offset.
 
-
 ### -field WriteOffset
 
 Specifies the current write position as a byte offset.
 
-
 ## -remarks
 
+This structure is used to get and set the data value for the <a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
 
+For a looped client buffer (with stream type <a href="/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are byte offsets into the client buffer. When either offset reaches the end of the buffer, it wraps around to the start of the buffer. Hence, neither offset ever exceeds the buffer size.
 
-This structure is used to get and set the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
-
-For a looped client buffer (with stream type <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are byte offsets into the client buffer. When either offset reaches the end of the buffer, it wraps around to the start of the buffer. Hence, neither offset ever exceeds the buffer size.
-
-For a nonlooped client buffer (with stream type <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are not offsets into any one physical buffer that either your driver has allocated or a client has allocated. Instead, these offsets are stream-relative and can be thought of as offsets into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
+For a nonlooped client buffer (with stream type <a href="/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are not offsets into any one physical buffer that either your driver has allocated or a client has allocated. Instead, these offsets are stream-relative and can be thought of as offsets into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
 
 During playback, the <b>PlayOffset</b> and <b>WriteOffset</b> values are interpreted as follows:
 
@@ -106,26 +98,16 @@ When an application submits another buffer to the device for capturing, the <b>W
 
 The space between <b>PlayOffset</b> and <b>WriteOffset</b> is considered off-limits to the client because it represents the portion of the client buffer that has already been sent to the driver and might still be in use by the driver.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
-
-
-
+For more information, see <a href="/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
+<a href="/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>

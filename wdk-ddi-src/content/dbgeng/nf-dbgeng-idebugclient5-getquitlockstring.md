@@ -8,8 +8,6 @@ ms.assetid: 986C866E-D5AC-47CD-A666-EDF739E91761
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::GetQuitLockString"]
 ms.keywords: GetQuitLockString, GetQuitLockString method [Windows Debugging], GetQuitLockString method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetQuitLockString method, IDebugClient5.GetQuitLockString, IDebugClient5::GetQuitLockString, dbgeng/IDebugClient5::GetQuitLockString, debugger.idebugclient5_getquitlockstring
-f1_keywords:
- - "dbgeng/IDebugClient5.GetQuitLockString"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.GetQuitLockString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::GetQuitLockString
+ - dbgeng/IDebugClient5::GetQuitLockString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.GetQuitLockString
 ---
 
 # IDebugClient5::GetQuitLockString
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 Gets a quit lock string.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out]
-
+[out]
 The buffer in which to write the string.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 The size of the buffer.
 
+### -param StringSize 
 
-### -param StringSize [out, optional]
-
+[out, optional]
 A pointer to the string size.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
     A quit lock string provides control to lock the session against
     undesired quits.  
@@ -90,16 +77,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The quit lock string
     cannot be retrieved from a secure session.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>

@@ -8,8 +8,6 @@ ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.date: 03/29/2018
 keywords: ["AtaPortBusChangeDetected function"]
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
-f1_keywords:
- - "irb/AtaPortBusChangeDetected"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Irb.h
-api_name:
-- AtaPortBusChangeDetected
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortBusChangeDetected
+ - irb/AtaPortBusChangeDetected
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Irb.h
+api_name:
+ - AtaPortBusChangeDetected
 ---
 
 # AtaPortBusChangeDetected function
@@ -47,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortBusChangeDetected</b> routine notifies the port driver of changes in the device configuration on the indicated channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ChannelExtension
 
-A pointer to the channel extension. 
-
+A pointer to the channel extension.
 
 ## -remarks
 
-
-
-The miniport driver uses this routine to report the arrival or removal of any device that is attached to the channel. In response, the port driver will initiate a re-scan to discover and initialize the device. 
-
-
-
+The miniport driver uses this routine to report the arrival or removal of any device that is attached to the channel. In response, the port driver will initiate a re-scan to discover and initialize the device.

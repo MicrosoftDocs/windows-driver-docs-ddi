@@ -8,8 +8,6 @@ ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.date: 04/30/2018
 keywords: ["KeInitializeMutex function"]
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex
-f1_keywords:
- - "wdm/KeInitializeMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeMutex
+ - wdm/KeInitializeMutex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeMutex
 ---
 
 # KeInitializeMutex function
@@ -47,58 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeInitializeMutex</b> routine initializes a mutex object, setting it to a signaled state.
-
 
 ## -parameters
 
+### -param Mutex 
 
-
-
-### -param Mutex [out]
-
+[out]
 Pointer to a mutex object, for which the caller provides the storage. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
+### -param Level 
 
-### -param Level [in]
-
+[in]
 Reserved. Drivers set this to zero.
-
 
 ## -remarks
 
-
-
-For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>. 
+For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>. 
 
 The mutex object is initialized with an initial state of signaled. 
 
 Storage for a mutex object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
-For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mutex-objects">Mutex Objects</a>. 
-
-
-
+For more information about mutex objects, see <a href="/windows-hardware/drivers/kernel/introduction-to-mutex-objects">Mutex Objects</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
@@ -106,8 +92,4 @@ For more information about mutex objects, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>

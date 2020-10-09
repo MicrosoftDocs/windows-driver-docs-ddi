@@ -8,8 +8,6 @@ ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_S2 structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2, stream.ksproperty_cameracontrol_s2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_S2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_S2
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
+f1_keywords:
+ - PKSPROPERTY_CAMERACONTROL_S2
+ - ksmedia/PKSPROPERTY_CAMERACONTROL_S2
+ - KSPROPERTY_CAMERACONTROL_S2
+ - ksmedia/KSPROPERTY_CAMERACONTROL_S2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_S2
 ---
 
 # KSPROPERTY_CAMERACONTROL_S2 structure
@@ -47,24 +48,17 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
 
 ## -description
 
-
-The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time.
-
+The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time.
 
 ## -struct-fields
 
-
-
-
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
-
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Value1
 
 Specifies the first value of the property. This member is read/write.
-
 
 ### -field Flags
 
@@ -116,8 +110,6 @@ Indicates that the setting is in relative values
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Capabilities
 
@@ -169,19 +161,11 @@ Indicates that the device settings are in relative values
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value2
 
 Specifies the second value of the property. This member is read/write.
 
-
 ## -remarks
 
-
-
-This structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt-relative">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.
-
-
-
+This structure is used by <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt-relative">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.

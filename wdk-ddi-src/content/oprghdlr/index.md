@@ -8,15 +8,18 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: acpi
+f1_keywords:
+ - oprghdlr
+ - oprghdlr/oprghdlr
 ---
 
 # Oprghdlr.h header
+
 
 ## -description
 
 This header is used by acpi. For more information, see:
 
 - [ACPI](../_acpi/index.md)<br><br>
+

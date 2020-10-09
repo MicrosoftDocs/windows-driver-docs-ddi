@@ -8,8 +8,6 @@ ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.date: 06/24/2019
 keywords: ["USBD_CreateHandle function"]
 ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
-f1_keywords:
- - "usbdlib/USBD_CreateHandle"
 req.header: usbdlib.h
 req.include-header: usbdlib.h, usb.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Usbdex.lib; Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Usbdex.lib
-- Usbdex.dll
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- USBD_CreateHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBD_CreateHandle
+ - usbdlib/USBD_CreateHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Usbdex.lib
+ - Usbdex.dll
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - USBD_CreateHandle
 ---
 
 # USBD_CreateHandle function
@@ -50,45 +49,38 @@ req.typenames:
 
 ## -description
 
-
 The  <b>USBD_CreateHandle</b> routine is called by a WDM USB client driver to obtain a USBD handle. The routine registers the client driver with the underlying USB driver stack.
 
-<b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you do not need the USBD handle. The client driver is registered in its call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> method.
-
+<b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you do not need the USBD handle. The client driver is registered in its call to the <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> method.
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the device object for the client driver.
 
+### -param TargetDeviceObject 
 
-### -param TargetDeviceObject [in]
+[in]
+Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
-Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
+### -param USBDClientContractVersion 
 
-
-### -param USBDClientContractVersion [in]
-
+[in]
 The contract version that the client driver supports. <i>USBDClientContractVersion</i> must be  USBD_CLIENT_CONTRACT_VERSION_602. For more information, see Remarks.
 
+### -param PoolTag 
 
-### -param PoolTag [in]
-
+[in]
 The pool tag used for memory allocations.
 
+### -param USBDHandle 
 
-### -param USBDHandle [out]
-
+[out]
 Opaque handle that indicates that the client driver was registered with the USB driver stack. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 The routine returns an NTSTATUS code. Possible  values include but are not limited to, these values in the following table.
 
@@ -136,14 +128,8 @@ The caller passed one of the following invalid parameter values:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Version_Registration"></a><a id="version_registration"></a><a id="VERSION_REGISTRATION"></a>Version Registration</h3>
 Windows 8 includes a new USB driver stack to support USB 3.0 devices. The new USB driver stack provides several new capabilities, such as stream support, chained MDLs, and so on. 
@@ -151,19 +137,19 @@ Before your client driver can use any of those USB capabilities, you must regist
 
 The client driver must call <b>USBD_CreateHandle</b> regardless of whether the device is attached to a USB 3.0, 2.0, or 1.1 host controller. If the device is attached to a USB 3.0 host controller, Windows loads the USB 3.0 driver stack. Otherwise, USB 2.0 driver stack is loaded.   In either case, the client driver is <i>not</i> required to know the version supported by the underlying USB driver stack. <b>USBD_CreateHandle</b> assesses the driver stack version and allocates resources appropriately. 
 
-The client driver must specify  USBD_CLIENT_CONTRACT_VERSION_602 in the <i>USBDClientContractVersion</i> parameter and follow the set of rules described in <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-driver-contract-in-windows-8">Best Practices: Using URBs</a>. 
+The client driver must specify  USBD_CLIENT_CONTRACT_VERSION_602 in the <i>USBDClientContractVersion</i> parameter and follow the set of rules described in <a href="/windows-hardware/drivers/usbcon/usb-client-driver-contract-in-windows-8">Best Practices: Using URBs</a>. 
 
 <h3><a id="Calling_USBD_CreateHandle"></a><a id="calling_usbd_createhandle"></a><a id="CALLING_USBD_CREATEHANDLE"></a>Calling USBD_CreateHandle</h3>
 The <b>USBD_CreateHandle</b> routine must be called by a Windows Driver Model (WDM) client driver before the driver  send any other requests, through URBs or IOCTLs, to the USB driver stack. Typically, the client driver obtains the USBD handle in its  AddDevice routine.   
 
-A Windows Driver Frameworks (WDF) client driver is not required to call <b>USBD_CreateHandle</b> because the framework calls this routine on behalf of the client driver during the device initialization phase. Instead, the client driver can specify its client contract version in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure and pass it in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
+A Windows Driver Frameworks (WDF) client driver is not required to call <b>USBD_CreateHandle</b> because the framework calls this routine on behalf of the client driver during the device initialization phase. Instead, the client driver can specify its client contract version in the <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure and pass it in the call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 <h3><a id="USBD_CreateHandle_Call_Completion"></a><a id="usbd_createhandle_call_completion"></a><a id="USBD_CREATEHANDLE_CALL_COMPLETION"></a>USBD_CreateHandle Call Completion</h3>
 If the  <b>USBD_CreateHandle</b> call succeeds,  a valid <i>USBD handle</i> is obtained in the <i>USBDHandle</i> parameter. The client driver must use the USBD handle in the client driver's future requests to the USB driver stack. 
 
 If the <b>USBD_CreateHandle</b> call fails,  the client driver can fail the AddDevice routine.
 
-After the client driver is finished using the USBD handle, the driver must close the handle  by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a> routine.
+After the client driver is finished using the USBD handle, the driver must close the handle  by calling the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a> routine.
 
 
 #### Examples
@@ -254,19 +240,12 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
+<a href="/windows-hardware/drivers/usbcon/usb-client-driver-contract-in-windows-8">Best Practices: Using URBs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-driver-contract-in-windows-8">Best Practices: Using URBs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a>

@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: usbref
+f1_keywords:
+ - ucxendpoint
+ - ucxendpoint/ucxendpoint
 ---
 
 # Ucxendpoint.h header
@@ -18,7 +19,7 @@ tech.root: usbref
 
 ## -description
 
-
 This header is used by usbref. For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.date: 04/23/2018
 keywords: ["KSFASTPROPERTY_ITEM structure"]
 ms.keywords: "*PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, ks/PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item"
-f1_keywords:
- - "ks/KSFASTPROPERTY_ITEM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSFASTPROPERTY_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
+f1_keywords:
+ - PKSFASTPROPERTY_ITEM
+ - ks/PKSFASTPROPERTY_ITEM
+ - KSFASTPROPERTY_ITEM
+ - ks/KSFASTPROPERTY_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSFASTPROPERTY_ITEM
 ---
 
 # KSFASTPROPERTY_ITEM structure
@@ -47,52 +48,34 @@ req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 
 ## -description
 
-
 The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PropertyId
 
 Specifies the identifier of the specific property within the set.
 
-
 ### -field GetPropertyHandler
 
-Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
-
+Points to a driver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
 
 ### -field GetSupported
 
 A boolean value that indicates if the driver has supplied a get property handler.
 
-
 ### -field SetPropertyHandler
 
-Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
-
+Points to a driver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
 
 ### -field SetSupported
 
 A boolean value that indicates if the driver has supplied a set property handler.
 
-
 ### -field Reserved
 
 Reserved and set to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>

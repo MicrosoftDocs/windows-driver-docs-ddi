@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2stateset.htm
 tech.root: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2STATESET structure"]
+keywords: ["D3DHAL_DP2STATESET structure"]
 ms.keywords: "*LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2STATESET"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2STATESET
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2STATESET
+f1_keywords:
+ - _D3DHAL_DP2STATESET
+ - d3dhal/_D3DHAL_DP2STATESET
+ - D3DHAL_DP2STATESET
+ - d3dhal/D3DHAL_DP2STATESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2STATESET
 ---
 
 # _D3DHAL_DP2STATESET structure
@@ -47,14 +48,9 @@ req.typenames: D3DHAL_DP2STATESET
 
 ## -description
 
-
 The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOperation
 
@@ -63,23 +59,19 @@ Specifies the operation to perform. The value of this member can be one of the f
 | **Value** | **Meaning** | 
 |:--|:--|
 | D3DHAL_STATESETBEGIN | Specifies the beginning of the stateset referenced by dwParam. | 
-| D3DHAL_STATESETCAPTURE | Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in dwParam. That is, only the state that is specified in the state block is captured. See [Accelerated State Management](https://docs.microsoft.com/windows-hardware/drivers/display/accelerated-state-management)  for important details about state capture. | 
+| D3DHAL_STATESETCAPTURE | Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in dwParam. That is, only the state that is specified in the state block is captured. See [Accelerated State Management](/windows-hardware/drivers/display/accelerated-state-management)  for important details about state capture. | 
 | D3DHAL_STATESETCREATE | DirectX 8.0 and later versions only.<br/>On receipt of this request the driver should create a state block of the type given in the field sbType. The information to record for each state block type is described below. | 
 | D3DHAL_STATESETDELETE | Specifies that the stateset referenced by dwParam should be deleted. | 
 | D3DHAL_STATESETEND | Specifies the end of the stateset referenced by dwParam. | 
-| D3DHAL_STATESETEXECUTE | Specifies that the stateset referenced by dwParam should be executed. 
-
- 
-
+| D3DHAL_STATESETEXECUTE | Specifies that the stateset referenced by dwParam should be executed.
 
 ### -field dwParam
 
 Specifies the stateset handle that references the state block being manipulated with the current <b>dwOperation</b>.
 
-
 ### -field sbType
 
-Specifies the state block type. The driver should ignore this member unless it implements render state extensions, or implements support for <a href="https://docs.microsoft.com/windows-hardware/drivers/display/pure-devices">pure devices</a> (DirectX 8.0 and later versions only).
+Specifies the state block type. The driver should ignore this member unless it implements render state extensions, or implements support for <a href="/windows-hardware/drivers/display/pure-devices">pure devices</a> (DirectX 8.0 and later versions only).
 
 If the driver implements extended render states, that is, render states beyond those the Direct3D runtime supplies, it can use <b>sbType</b> to determine what types of predefined render states are being used. From this information the driver can determine how to append the state block appropriately, to support its extensions. 
 
@@ -345,13 +337,6 @@ D3DTSS_TEXTURETRANSFORMFLAGS
 
 No predefined state group is specified.
 
-
-
 ## -remarks
 
-
-
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/accelerated-state-management">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
-
-
-
+See <a href="/windows-hardware/drivers/display/accelerated-state-management">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.

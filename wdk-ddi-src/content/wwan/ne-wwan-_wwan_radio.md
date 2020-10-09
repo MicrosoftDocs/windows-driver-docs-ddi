@@ -6,10 +6,8 @@ old-location: netvista\wwan_radio.htm
 tech.root: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.date: 05/02/2018
-keywords: ["_WWAN_RADIO enumeration"]
+keywords: ["WWAN_RADIO enumeration"]
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
-f1_keywords:
- - "wwan/WWAN_RADIO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_RADIO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_RADIO, *PWWAN_RADIO
+f1_keywords:
+ - _WWAN_RADIO
+ - wwan/_WWAN_RADIO
+ - PWWAN_RADIO
+ - wwan/PWWAN_RADIO
+ - WWAN_RADIO
+ - wwan/WWAN_RADIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_RADIO
 ---
 
 # _WWAN_RADIO enumeration
@@ -47,37 +50,23 @@ req.typenames: WWAN_RADIO, *PWWAN_RADIO
 
 ## -description
 
-
 The WWAN_RADIO enumeration lists the different types of radio power modes that are supported by the
   MB device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanRadioOff
 
 The radio power is turned off.
 
-
 ### -field WwanRadioOn
 
 The radio power is turned on.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_radio_state">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_radio_state">NDIS_WWAN_SET_RADIO_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>

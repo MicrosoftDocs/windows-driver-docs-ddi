@@ -27,7 +27,8 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEDEVICESIZE"
+ - PFND3D12DDI_CALCPRIVATEDEVICESIZE
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEDEVICESIZE
 topic_type:
  - apiref
 api_type:
@@ -41,6 +42,7 @@ product:
 ---
 
 # PFND3D12DDI_CALCPRIVATEDEVICESIZE callback function
+
 
 ## -description
 

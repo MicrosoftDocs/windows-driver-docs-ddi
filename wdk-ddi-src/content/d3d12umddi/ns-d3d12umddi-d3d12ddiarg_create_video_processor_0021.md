@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021"
+ - "D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
@@ -63,7 +62,7 @@ A node mask. For single GPU operation, set this value to zero (0). If there are 
 
 ### -field Usage
 
-Specifies a hint for the intended usage for the video processor. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
+Specifies a hint for the intended usage for the video processor. For more information, see the <a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
 ## -remarks
@@ -80,8 +79,7 @@ A video processor holds state for a video processing session. State includes req
 
 
 
-<a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a>
+<a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a>
  
 
  
-

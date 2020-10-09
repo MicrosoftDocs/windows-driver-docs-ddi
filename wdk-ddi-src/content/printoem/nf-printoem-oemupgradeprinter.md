@@ -8,8 +8,6 @@ ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 ms.date: 04/20/2018
 keywords: ["OEMUpgradePrinter function"]
 ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter
-f1_keywords:
- - "printoem/OEMUpgradePrinter"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMUpgradePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMUpgradePrinter
+ - printoem/OEMUpgradePrinter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMUpgradePrinter
 ---
 
 # OEMUpgradePrinter function
@@ -47,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
 ### -param dwLevel
-
 
 ### -param pDriverUpgradeInfo
 

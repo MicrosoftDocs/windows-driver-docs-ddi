@@ -7,8 +7,6 @@ ms.assetid: 48f1d2ba-747a-4588-8238-db6ac2aa89d6
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetGammaRamp function"]
 ms.keywords: D3DKMTSetGammaRamp, D3DKMTSetGammaRamp function [Display Devices], OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml, d3dkmthk/D3DKMTSetGammaRamp, display.d3dkmtsetgammaramp
-f1_keywords:
- - "d3dkmthk/D3DKMTSetGammaRamp"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,23 +24,24 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTSetGammaRamp
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTSetGammaRamp
+ - d3dkmthk/D3DKMTSetGammaRamp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTSetGammaRamp
 ---
 
 # D3DKMTSetGammaRamp function
@@ -58,12 +57,9 @@ The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
-
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
 
 ## -returns
-
-
 
 <b>D3DKMTSetGammaRamp</b> returns one of the following values:
 
@@ -72,13 +68,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_SUCCESS|The gamma ramp was successfully set.|
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a>

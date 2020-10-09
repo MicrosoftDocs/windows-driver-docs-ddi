@@ -8,8 +8,6 @@ ms.assetid: d3ad851d-ba09-4052-a2d0-d6cb8315e04f
 ms.date: 04/30/2018
 keywords: ["HidP_TranslateUsagesToI8042ScanCodes function"]
 ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
-f1_keywords:
- - "hidpi/HidP_TranslateUsagesToI8042ScanCodes"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_TranslateUsagesToI8042ScanCodes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_TranslateUsagesToI8042ScanCodes
+ - hidpi/HidP_TranslateUsagesToI8042ScanCodes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_TranslateUsagesToI8042ScanCodes
 ---
 
 # HidP_TranslateUsagesToI8042ScanCodes function
@@ -48,42 +47,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>HidP_TranslateUsagesToI8042ScanCodes</b> routine maps a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a> on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
-
+The <b>HidP_TranslateUsagesToI8042ScanCodes</b> routine maps a list of <a href="/windows-hardware/drivers/hid/hid-usages">HID usages</a> on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 
 ## -parameters
 
+### -param ChangedUsageList 
 
+[in]
+Pointer to a list of keyboard (button) usages. The translate usages routine interprets a zero as a delimiter that ends the usage list.
 
+### -param UsageListLength 
 
-### -param ChangedUsageList [in]
+[in]
+Specifies the maximum possible number of usages in the changed usage list.
 
-Pointer to a list of keyboard (button) usages. The translate usages routine interprets a zero as a delimiter that ends the usage list. 
+### -param KeyAction 
 
-
-### -param UsageListLength [in]
-
-Specifies the maximum possible number of usages in the changed usage list. 
-
-
-### -param KeyAction [in]
-
+[in]
 Identifies the key direction for the specified change usage list. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum _HIDP_KEYBOARD_DIRECTION {
+
+```
+typedef enum _HIDP_KEYBOARD_DIRECTION {
     HidP_Keyboard_Break,
     HidP_Keyboard_Make
-} HIDP_KEYBOARD_DIRECTION;</pre>
-</td>
-</tr>
-</table></span></div>
+} HIDP_KEYBOARD_DIRECTION;
+```
+
 
 
 
@@ -98,18 +88,14 @@ Specifies a <i>break</i> direction (key up). The changed usage list contains the
 
 Specifies a <i>make</i> direction (key down). The changed usage list contains the usages set to ON that were previously set to OFF (which corresponds to the keys that were previously up, but now are down).
 
+### -param ModifierState 
 
-### -param ModifierState [in, out]
-
+[in, out]
 Pointer to a _HIDP_KEYBOARD_MODIFIER_STATE structure that the caller maintains for use by the translate usages routine. The modifier state structure identifies the state of the keyboard modifier keys. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
+
+```
+typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
     union {
       struct {
         ULONG LeftControl: 1;
@@ -126,33 +112,27 @@ Pointer to a _HIDP_KEYBOARD_MODIFIER_STATE structure that the caller maintains f
         ULONG Reserved: 21;
       };
       ULONG ul;
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
 Each member of the modifier state structure identifies whether the corresponding usage is set to ON (1) or OFF (zero).
 
 See the Remarks section for more information about how a modifier state structure is used with the translate usage routine.
 
+### -param InsertCodesProcedure 
 
-### -param InsertCodesProcedure [in]
-
+[in]
 Pointer to a caller-supplied PHIDP_INSERT_SCANCODES-typed callback routine that the translate usage routine uses to return the mapped scan codes to the caller of the translate usage routine.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef BOOLEAN (*PHIDP_INSERT_SCANCODES)(
+
+```
+typedef BOOLEAN (*PHIDP_INSERT_SCANCODES)(
     IN PVOID  Context,
     IN PCHAR  NewScanCodes,
     IN ULONG  Length
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 
 
@@ -173,15 +153,12 @@ Pointer to the first byte of a scan code that the translate usage routine return
 
 Specifies the length, in bytes, of the scan code. A scan code cannot exceed four bytes.
 
+### -param InsertCodesContext 
 
-### -param InsertCodesContext [in, optional]
-
+[in, optional]
 Pointer to a caller-defined context that the translate usage routine passes to the <i>InsertCodesProcedure</i> routine.
 
-
 ## -returns
-
-
 
 <b>HidP_TranslateUsagesToI8042ScanCodes</b> returns one of the following status values:
 
@@ -213,14 +190,8 @@ A usage in the changed usage list mapped to an invalid keyboard scan code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>HidP_TranslateUsagesToI8042ScanCodes</b> sequentially maps the keyboard button usages in the changed usage list in the order in which they occur in the list, beginning with the value at <i>ChangedUsageList.</i> After the translate usage routine successfully maps a usage, it uses the caller's <i>InsertCodesProcedure</i> routine to return the corresponding scan code to the caller. The translate usage routine continues to map the usages in the list until one of the following occurs: a usage value in the list is zero; it maps the number of usages that is specified by <i>UsageListLength</i>; a usage maps to an invalid keyboard scan code.
 
@@ -232,7 +203,7 @@ Prior to beginning a processing loop, the processing code typically allocates an
 <li>
 A previous usage list, current usage list, break usage list, and a make usage list.
 
-Each list is a zero-initialized array of usages. To ensure that the processing code maps all the usages that can change between consecutive HID input reports, the processing code must set the number of elements in each list to the maximum number of usages that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for the HID_USAGE_PAGE_KEYBOARD usage page. This number is obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a>.
+Each list is a zero-initialized array of usages. To ensure that the processing code maps all the usages that can change between consecutive HID input reports, the processing code must set the number of elements in each list to the maximum number of usages that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for the HID_USAGE_PAGE_KEYBOARD usage page. This number is obtained using <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a>.
 
 </li>
 <li>
@@ -268,24 +239,14 @@ Update the previous usage list to the current usage list.
 </ol>
 For information about the mapping between HID usages and PS/2 keyboard scan codes, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_usagelistdifference">HidP_UsageListDifference</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_usagelistdifference">HidP_UsageListDifference</a>

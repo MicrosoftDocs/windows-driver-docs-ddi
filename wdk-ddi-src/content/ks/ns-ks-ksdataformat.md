@@ -10,6 +10,7 @@ keywords: ["KSDATAFORMAT structure"]
 ms.keywords: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, KSDATARANGE structure [Streaming Media Devices], PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATAFORMAT, ks/PKSDATARANGE, stream.ksdataformat"
 f1_keywords:
  - "ks/KSDATAFORMAT"
+ - "KSDATAFORMAT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSDATAFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---
@@ -63,7 +62,7 @@ Specifies the size, in bytes, of the KSDATAFORMAT structure. This must be at lea
 
 ### -field Flags
 
-Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures.
+Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures.
 
 
 ### -field SampleSize
@@ -120,7 +119,7 @@ Indicates that a file handle immediately follows KSDATAFORMAT in memory.
 
 At the minimum, a data format is specified by the <b>MajorFormat</b>, the <b>SubFormat</b>, and the <b>Specifier</b> members. A family of similar data formats can share the same values for <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. In that case, the specific data format is distinguished by additional data that follows the <b>Specifier</b> member in memory.
 
-For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-categories">Stream Categories</a> and its subtopics.
+For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="/windows-hardware/drivers/stream/stream-categories">Stream Categories</a> and its subtopics.
 
 
 
@@ -130,8 +129,7 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-categories">Stream Categories</a>
+<a href="/windows-hardware/drivers/stream/stream-categories">Stream Categories</a>
  
 
  
-

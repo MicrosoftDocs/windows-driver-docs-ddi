@@ -7,8 +7,6 @@ ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_ASSIGNDEBUGBINARY callback function"]
 ms.keywords: AssignDebugBinary, AssignDebugBinary callback function [Display Devices], PFND3D11_1DDI_ASSIGNDEBUGBINARY, PFND3D11_1DDI_ASSIGNDEBUGBINARY callback, d3d10umddi/AssignDebugBinary, display.assigndebugbinary, display.assigndebugbinary_d3d11_1_, display.pfnassigndebugbinary
-f1_keywords:
- - "d3d10umddi/AssignDebugBinary"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- AssignDebugBinary
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_ASSIGNDEBUGBINARY
+ - d3d10umddi/PFND3D11_1DDI_ASSIGNDEBUGBINARY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - AssignDebugBinary
 ---
 
 # PFND3D11_1DDI_ASSIGNDEBUGBINARY callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Provides the full shader binary that is available after shader creation. The full shader binary lets a driver retrieve debugging information or other shader binary information that would not normally be available to the driver.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -72,17 +66,14 @@ A handle to the driver's private data for the shader object.
 
 The size, in bytes, of the full shader binary.
 
+### -param pBinary 
 
-### -param pBinary [in]
-
+[in]
 A pointer to the full shader binary.
-
-
-
 
 ## -remarks
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 
@@ -90,25 +81,15 @@ The driver can use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 <ul>
 <li>The device can be debugged.</li>
-<li>The user-mode display driver has set the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_d3d11_options_data">D3D11_1DDI_D3D11_OPTIONS_DATA</a>.<b>AssignDebugBinarySupport</b> flag to <b>TRUE</b>.</li>
+<li>The user-mode display driver has set the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_d3d11_options_data">D3D11_1DDI_D3D11_OPTIONS_DATA</a>.<b>AssignDebugBinarySupport</b> flag to <b>TRUE</b>.</li>
 <li>A shader creation function  <i>CreateXxxShaderXxx</i> has been called, has succeeded, and has returned a handle to the shader.</li>
 </ul>
-The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED</b>. Therefore, if the driver passes any error, except for <b>D3DDDIERR_DEVICEREMOVED</b>, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return <b>D3DDDIERR_DEVICEREMOVED</b>; however, if device removal interfered with the operation of <i>AssignDebugBinary</i> (which typically should not happen), the driver can return <b>D3DDDIERR_DEVICEREMOVED</b>.
-
-
-
+The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED</b>. Therefore, if the driver passes any error, except for <b>D3DDDIERR_DEVICEREMOVED</b>, in a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return <b>D3DDDIERR_DEVICEREMOVED</b>; however, if device removal interfered with the operation of <i>AssignDebugBinary</i> (which typically should not happen), the driver can return <b>D3DDDIERR_DEVICEREMOVED</b>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_d3d11_options_data">D3D11_1DDI_D3D11_OPTIONS_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_d3d11_options_data">D3D11_1DDI_D3D11_OPTIONS_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>

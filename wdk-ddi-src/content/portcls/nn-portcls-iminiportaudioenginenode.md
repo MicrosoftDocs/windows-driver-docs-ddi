@@ -8,8 +8,6 @@ ms.assetid: 58170D54-869A-49CC-865A-AB64BFB41A4B
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioEngineNode interface"]
 ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices],described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
-f1_keywords:
- - "portcls/IMiniportAudioEngineNode"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportAudioEngineNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportAudioEngineNode
+ - portcls/IMiniportAudioEngineNode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportAudioEngineNode
 ---
 
 # IMiniportAudioEngineNode interface
@@ -47,14 +46,11 @@ req.typenames:
 
 ## -description
 
-
 This interface allows a miniport driver to use KS properties that access the audio engine via a KS filter handle.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioEngineNode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportAudioEngineNode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioEngineNode</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportAudioEngineNode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

@@ -5,11 +5,9 @@ description: Exposes a collection of IPrinterExtensionContext objects.
 old-location: print\iprinterextensioncontextcollection.htm
 tech.root: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
-ms.date: 04/20/2018
+ms.date: 09/21/2020
 keywords: ["IPrinterExtensionContextCollection interface"]
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
-f1_keywords:
- - "printerextension/IPrinterExtensionContextCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,33 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionContextCollection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionContextCollection
+ - printerextension/IPrinterExtensionContextCollection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionContextCollection
 ---
 
 # IPrinterExtensionContextCollection interface
 
 ## -description
 
-Exposes a collection of [IPrinterExtensionContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) objects.
+Exposes a collection of [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) objects.
 
 ## -inheritance
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) 
+[IDispatch](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
-[IPrinterExtensionContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) 
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated)
+[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](./nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md)

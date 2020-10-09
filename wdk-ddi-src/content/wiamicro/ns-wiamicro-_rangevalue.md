@@ -6,14 +6,12 @@ old-location: image\rangevalue.htm
 tech.root: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.date: 05/03/2018
-keywords: ["_RANGEVALUE structure"]
+keywords: ["RANGEVALUE structure"]
 ms.keywords: "*PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"
-f1_keywords:
- - "wiamicro/RANGEVALUE"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamicro.h
-api_name:
-- RANGEVALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: RANGEVALUE, *PRANGEVALUE
+f1_keywords:
+ - _RANGEVALUE
+ - wiamicro/_RANGEVALUE
+ - PRANGEVALUE
+ - wiamicro/PRANGEVALUE
+ - RANGEVALUE
+ - wiamicro/RANGEVALUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamicro.h
+api_name:
+ - RANGEVALUE
 ---
 
 # _RANGEVALUE structure
+
 
 ## -description
 
@@ -61,3 +65,4 @@ Specifies the maximum value for a parameter.
 ### -field lStep
 
 Specifies the step value for a parameter.
+

@@ -8,8 +8,6 @@ ms.assetid: 23B8E247-C521-4CBD-ABB3-9A10ECAFAE84
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_WindowParent"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowParent property, IPrinterExtensionEventArgs.WindowParent, IPrinterExtensionEventArgs.get_WindowParent, IPrinterExtensionEventArgs::WindowParent, IPrinterExtensionEventArgs::get_WindowParent, WindowParent property [Print Devices], WindowParent property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowParent, print.iprinterextensioneventargs_windowparent, printerextension/IPrinterExtensionEventArgs::WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs.WindowParent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs.WindowParent
-- IPrinterExtensionEventArgs.get_WindowParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs::get_WindowParent
+ - printerextension/IPrinterExtensionEventArgs::get_WindowParent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs.WindowParent
+ - IPrinterExtensionEventArgs.get_WindowParent
 ---
 
 # IPrinterExtensionEventArgs::get_WindowParent
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 Gets the handle of the parent window.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>

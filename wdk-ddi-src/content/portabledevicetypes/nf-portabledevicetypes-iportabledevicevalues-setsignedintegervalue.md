@@ -8,8 +8,6 @@ ms.assetid: f86a5e41-5040-4374-96a5-c405f68f62fe
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetSignedIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetSignedIntegerValue method, IPortableDeviceValues.SetSignedIntegerValue, IPortableDeviceValues::SetSignedIntegerValue, IPortableDeviceValuesSetSignedIntegerValue, SetSignedIntegerValue, SetSignedIntegerValue method, SetSignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedIntegerValue, wpddk.iportabledevicevalues_setsignedintegervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.SetSignedIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.SetSignedIntegerValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::SetSignedIntegerValue
+ - portabledevicetypes/IPortableDeviceValues::SetSignedIntegerValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.SetSignedIntegerValue
 ---
 
 # IPortableDeviceValues::SetSignedIntegerValue
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds a new <b>LONG</b> value (type VT_I4) or overwrites an existing one.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 A <b>LONG</b> that specifies the new value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,31 +82,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an existing value has the same key that is specified by the <i>key</i> parameter, it overwrites the existing value without any warning.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getsignedintegervalue">IPortableDeviceValues::GetSignedIntegerValue</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getsignedintegervalue">IPortableDeviceValues::GetSignedIntegerValue</a>

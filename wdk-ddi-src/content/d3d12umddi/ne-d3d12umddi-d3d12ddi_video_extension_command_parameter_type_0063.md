@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063
-author: windows-driver-content
 description: Parameter types are used to enumerate the members of each parameter stage parameter structure.
 tech.root: display
 ms.assetid: bbbe9027-3e2f-499d-aa96-2b0a90349e9d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063,
@@ -22,7 +20,8 @@ req.typenames: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063"
+ - D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063
+ - d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063
 topic_type:
  - apiref
 api_type:
@@ -38,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: f7a9b20a-753c-487d-a2d5-3e1c08317519
 ms.date: 05/10/2018
 keywords: ["IDDCX_PATH_FLAGS enumeration"]
 ms.keywords: IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE
-f1_keywords:
- - "iddcx/IDDCX_PATH_FLAGS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDDCX_PATH_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDDCX_PATH_FLAGS
+ - iddcx/IDDCX_PATH_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_PATH_FLAGS
 ---
 
 # IDDCX_PATH_FLAGS enumeration
@@ -47,39 +46,22 @@ req.typenames:
 
 ## -description
 
-
 Indicates the state of the path.
-                    
-                
-
 
 ## -enum-fields
 
-
-
-
 ### -field IDDCX_PATH_FLAGS_NONE
-
 
                         
                     Indicates that the path is not active and has not changed.
 
-
 ### -field IDDCX_PATH_FLAGS_CHANGED
 
-
                         Indicates if this path has changed
-                    
-
 
 ### -field IDDCX_PATH_FLAGS_ACTIVE
 
-
                         Indicates if this path is active
-                    
-
 
 ### -field UINT
-
-
 

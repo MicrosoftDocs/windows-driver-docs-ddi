@@ -4,7 +4,7 @@ title: _DXVAHDDDI_ITELECINE_CAPS (d3dumddi.h)
 description: Specifies the inverse telecine (IVTC) capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 ms.assetid: 482abda5-8498-452d-af47-238fbdb451b4
 ms.date: 10/19/2018
-keywords: ["_DXVAHDDDI_ITELECINE_CAPS enumeration"]
+keywords: ["DXVAHDDDI_ITELECINE_CAPS enumeration"]
 ms.keywords: _DXVAHDDDI_ITELECINE_CAPS, DXVAHDDDI_ITELECINE_CAPS,
 req.header: d3dumddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_DXVAHDDDI_ITELECINE_CAPS"
+ - _DXVAHDDDI_ITELECINE_CAPS
+ - d3dumddi/_DXVAHDDDI_ITELECINE_CAPS
+ - DXVAHDDDI_ITELECINE_CAPS
+ - d3dumddi/DXVAHDDDI_ITELECINE_CAPS
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _DXVAHDDDI_ITELECINE_CAPS enumeration
+
 
 ## -description
 

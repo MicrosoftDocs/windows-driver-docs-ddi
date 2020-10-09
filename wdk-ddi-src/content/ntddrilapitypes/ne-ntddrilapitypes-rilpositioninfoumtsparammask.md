@@ -8,53 +8,75 @@ ms.assetid: fde2eb3f-ea12-45e6-93d1-7bdb0ea8c6b2
 ms.date: 02/16/2018
 keywords: ["RILPOSITIONINFOUMTSPARAMMASK enumeration"]
 ms.keywords: RILPOSITIONINFOUMTSPARAMMASK, RILPOSITIONINFOUMTSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_UMTS_ALL, RIL_PARAM_POSITION_UMTS_CELLID, RIL_PARAM_POSITION_UMTS_ECNO, RIL_PARAM_POSITION_UMTS_FREQINFO_DL, RIL_PARAM_POSITION_UMTS_FREQINFO_NT, RIL_PARAM_POSITION_UMTS_FREQINFO_UL, RIL_PARAM_POSITION_UMTS_LAC, RIL_PARAM_POSITION_UMTS_MCC, RIL_PARAM_POSITION_UMTS_MNC, RIL_PARAM_POSITION_UMTS_PATHLOSS, RIL_PARAM_POSITION_UMTS_PRIMARY_SC, RIL_PARAM_POSITION_UMTS_RSCP, RIL_PARAM_POSITION_UMTS_UARFCN, netvista.rilpositioninfoumtsparammask, rilapitypes/ RIL_PARAM_POSITION_UMTS_UARFCN, rilapitypes/RILPOSITIONINFOUMTSPARAMMASK, rilapitypes/RIL_PARAM_POSITION_UMTS_ALL, rilapitypes/RIL_PARAM_POSITION_UMTS_CELLID, rilapitypes/RIL_PARAM_POSITION_UMTS_ECNO, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_DL, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_NT, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_UL, rilapitypes/RIL_PARAM_POSITION_UMTS_LAC, rilapitypes/RIL_PARAM_POSITION_UMTS_MCC, rilapitypes/RIL_PARAM_POSITION_UMTS_MNC, rilapitypes/RIL_PARAM_POSITION_UMTS_PATHLOSS, rilapitypes/RIL_PARAM_POSITION_UMTS_PRIMARY_SC, rilapitypes/RIL_PARAM_POSITION_UMTS_RSCP
-f1_keywords:
- - "ntddrilapitypes/RILPOSITIONINFOUMTSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILPOSITIONINFOUMTSPARAMMASK
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILPOSITIONINFOUMTSPARAMMASK
+f1_keywords:
+ - RILPOSITIONINFOUMTSPARAMMASK
+ - ntddrilapitypes/RILPOSITIONINFOUMTSPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILPOSITIONINFOUMTSPARAMMASK
 ---
 
-# RILPOSITIONINFOUMTSPARAMMASK enumeration
+# RILPOSITIONINFOUMTSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILPOSITIONINFOUMTSPARAMMASK.
 
+## -enum-fields
 
+### -field RIL_PARAM_POSITION_UMTS_MCC
 
+### -field RIL_PARAM_POSITION_UMTS_MNC
+
+### -field RIL_PARAM_POSITION_UMTS_LAC
+
+### -field RIL_PARAM_POSITION_UMTS_CELLID
+
+### -field RIL_PARAM_POSITION_UMTS_FREQINFO_UL
+
+### -field RIL_PARAM_POSITION_UMTS_FREQINFO_DL
+
+### -field RIL_PARAM_POSITION_UMTS_FREQINFO_NT
+
+### -field RIL_PARAM_POSITION_UMTS_UARFCN
+
+### -field RIL_PARAM_POSITION_UMTS_PRIMARY_SC
+
+### -field RIL_PARAM_POSITION_UMTS_RSCP
+
+### -field RIL_PARAM_POSITION_UMTS_ECNO
+
+### -field RIL_PARAM_POSITION_UMTS_PATHLOSS
+
+### -field RIL_PARAM_POSITION_UMTS_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILPOSITIONINFOUMTSPARAMMASK {
@@ -75,54 +97,7 @@ enum RILPOSITIONINFOUMTSPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_POSITION_UMTS_MCC
-
-
-### -field RIL_PARAM_POSITION_UMTS_MNC
-
-
-### -field RIL_PARAM_POSITION_UMTS_LAC
-
-
-### -field RIL_PARAM_POSITION_UMTS_CELLID
-
-
-### -field RIL_PARAM_POSITION_UMTS_FREQINFO_UL
-
-
-### -field RIL_PARAM_POSITION_UMTS_FREQINFO_DL
-
-
-### -field RIL_PARAM_POSITION_UMTS_FREQINFO_NT
-
-
-### -field RIL_PARAM_POSITION_UMTS_UARFCN
-
-
-### -field RIL_PARAM_POSITION_UMTS_PRIMARY_SC
-
-
-### -field RIL_PARAM_POSITION_UMTS_RSCP
-
-
-### -field RIL_PARAM_POSITION_UMTS_ECNO
-
-
-### -field RIL_PARAM_POSITION_UMTS_PATHLOSS
-
-
-### -field RIL_PARAM_POSITION_UMTS_ALL
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for common UMTS networks.
 
@@ -526,19 +501,7 @@ No
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

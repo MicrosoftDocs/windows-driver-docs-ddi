@@ -9,8 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: sensors
-product:
-- Windows
+f1_keywords:
+ - sensorsdriversutils
+ - sensorsdriversutils/sensorsdriversutils
 ---
 
 # Sensorsdriversutils.h header
@@ -18,7 +19,7 @@ product:
 
 ## -description
 
-
 This header is used by sensors. For more information, see:
 
 - [Sensors](../_sensors/index.md)
+

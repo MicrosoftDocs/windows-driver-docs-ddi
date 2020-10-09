@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: storage
+f1_keywords:
+ - ehstorioctl
+ - ehstorioctl/ehstorioctl
 ---
 
 # Ehstorioctl.h header
@@ -18,7 +19,7 @@ tech.root: storage
 
 ## -description
 
-
 This header is used by storage. For more information, see:
 
 - [Storage](../_storage/index.md)
+

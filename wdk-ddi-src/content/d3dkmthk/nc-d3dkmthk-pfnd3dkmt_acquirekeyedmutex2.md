@@ -7,8 +7,6 @@ ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function"]
 ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
-f1_keywords:
- - "d3dkmthk/D3DKMTAcquireKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTAcquireKeyedMutex2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_ACQUIREKEYEDMUTEX2
+ - d3dkmthk/PFND3DKMT_ACQUIREKEYEDMUTEX2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTAcquireKeyedMutex2
 ---
 
 # PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function
@@ -47,25 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Acquires a keyed mutex object that includes private data.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 *pData* 
 
-[in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2">D3DKMT_ACQUIREKEYEDMUTEX2</a> structure that specifies the keyed mutex object to acquire. 
-
+[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2">D3DKMT_ACQUIREKEYEDMUTEX2</a> structure that specifies the keyed mutex object to acquire.
 
 ## -returns
-
-
 
 Returns one of the following values:
 
@@ -74,33 +65,18 @@ Returns one of the following values:
 | **STATUS_SUCCESS** | The keyed mutex object was successfully acquired. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTAcquireKeyedMutex2](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex2)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTAcquireKeyedMutex2](./nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md)  could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -remarks
 
-
-
-<b>D3DKMTAcquireKeyedMutex2</b> behaves like the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
-
-
-
+<b>D3DKMTAcquireKeyedMutex2</b> behaves like the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2">D3DKMT_ACQUIREKEYEDMUTEX2</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2">D3DKMT_ACQUIREKEYEDMUTEX2</a>

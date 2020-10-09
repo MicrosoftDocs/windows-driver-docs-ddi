@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnCreateVideoProcessor, display.pfnd3d12ddi_createvideoprocessor, pfnCreateVideoProcessor, pfnCreateVideoProcessor callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnCreateVideoProcessor"
+ - "pfnCreateVideoProcessor"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnCreateVideoProcessor
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
@@ -73,7 +72,7 @@ The handle of a video processor.
 
 
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

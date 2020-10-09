@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockKeysEqual function"]
 ms.keywords: FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers], fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual
 f1_keywords:
  - "ntifs/FsRtlOplockKeysEqual"
+ - "FsRtlOplockKeysEqual"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockKeysEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlOplockKeysEqual</b> routine compares the opportunistic lock (oplock)
 
 
 
-### -param Fo1 [in, optional]
-
+### -param Fo1 
+[in, optional]
 A pointer to the first file object for the comparison.
 
 
-### -param Fo2 [in, optional]
-
+### -param Fo2 
+[in, optional]
 A pointer to the second file object for the comparison.
 
 
@@ -81,7 +80,7 @@ The <b>FsRtlOplockKeysEqual</b> routine returns <b>TRUE</b> if the keys match or
 
 If no oplock keys were provided when the file objects were created, they are considered to match if the file object pointers are the same (that is, they are the same file object). If the file object pointers are different and either or both of them do not have an associated oplock key, they are considered to not match.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>.
+Minifilters should call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>.
 
 
 
@@ -91,8 +90,7 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a>
  
 
  
-

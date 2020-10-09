@@ -8,38 +8,41 @@ ms.assetid: e1440041-a7cd-45c6-8aa5-445d6de2bc20
 ms.date: 02/16/2018
 keywords: ["DOT11_AUTH_CIPHER_PAIR_LIST structure"]
 ms.keywords: "*PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, PDOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair_list, windot11/DOT11_AUTH_CIPHER_PAIR_LIST, windot11/PDOT11_AUTH_CIPHER_PAIR_LIST"
-f1_keywords:
- - "windot11/DOT11_AUTH_CIPHER_PAIR_LIST"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_AUTH_CIPHER_PAIR_LIST
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST
+f1_keywords:
+ - DOT11_AUTH_CIPHER_PAIR_LIST
+ - windot11/DOT11_AUTH_CIPHER_PAIR_LIST
+ - PDOT11_AUTH_CIPHER_PAIR_LIST
+ - windot11/PDOT11_AUTH_CIPHER_PAIR_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_AUTH_CIPHER_PAIR_LIST
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_AUTH_CIPHER_PAIR_LIST structure
@@ -47,27 +50,9 @@ product:
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_CIPHER_PAIR_LIST structure defines a list of DOT11_AUTH_CIPHER_PAIR structures.
-
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_AUTH_CIPHER_PAIR_LIST {
-  NDIS_OBJECT_HEADER     Header;
-  ULONG                  uNumOfEntries;
-  ULONG                  uTotalNumOfEntries;
-  DOT11_AUTH_CIPHER_PAIR AuthCipherPairs[1];
-} DOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST;
-```
-
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_CIPHER_PAIR_LIST structure defines a list of DOT11_AUTH_CIPHER_PAIR structures.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -103,18 +88,15 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uNumOfEntries
 
 The number of entries in the
      <b>AuthCipherPairs</b> array.
 
-
 ### -field uTotalNumOfEntries
 
 The maximum number of entries that the
      <b>AuthCipherPairs</b> array can contain.
-
 
 ### -field AuthCipherPairs
 
@@ -122,15 +104,23 @@ The list of
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structures.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_AUTH_CIPHER_PAIR_LIST {
+  NDIS_OBJECT_HEADER     Header;
+  ULONG                  uNumOfEntries;
+  ULONG                  uTotalNumOfEntries;
+  DOT11_AUTH_CIPHER_PAIR AuthCipherPairs[1];
+} DOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST;
+```
 
 ## -remarks
 
-
-
 A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
+    <a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    <a href="/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -181,22 +171,19 @@ Starting with Windows 7, an 802.11 miniport driver can report any combination of
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
     peer stations to associate with the Extensible AP by using
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
+    <a href="/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
+    <a href="/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
     the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
-
-
-
+    <a href="/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
+<a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+<a href="/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 
@@ -206,11 +193,3 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
-

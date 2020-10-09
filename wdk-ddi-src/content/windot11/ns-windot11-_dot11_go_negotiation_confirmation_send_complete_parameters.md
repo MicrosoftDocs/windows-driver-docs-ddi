@@ -6,40 +6,45 @@ old-location: netvista\dot11_go_negotiation_confirmation_send_complete_parameter
 tech.root: netvista
 ms.assetid: CD8427DB-256C-4C34-8D14-2C1AD4C297ED
 ms.date: 02/16/2018
-keywords: ["_DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure"]
+keywords: ["DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure"]
 ms.keywords: "*PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, netvista.dot11_go_negotiation_confirmation_send_complete_parameters, windot11/DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS"
-f1_keywords:
- - "windot11/DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS"
 req.header: windot11.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+f1_keywords:
+ - _DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+ - windot11/_DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+ - PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+ - windot11/PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+ - DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+ - windot11/DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure
@@ -47,29 +52,9 @@ product:
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The completion parameters for a Group Owner (GO) negotiation confirmation are specified in a <b>DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS</b> structure. This structure is sent with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-go-negotiation-confirmation-send-complete">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a> request to the miniport.
-
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  DOT11_MAC_ADDRESS  PeerDeviceAddress;
-  DOT11_DIALOG_TOKEN DialogToken;
-  NDIS_STATUS        Status;
-  ULONG              uIEsOffset;
-  ULONG              uIEsLength;
-} DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS;
-```
-
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The completion parameters for a Group Owner (GO) negotiation confirmation are specified in a <b>DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS</b> structure. This structure is sent with an <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-go-negotiation-confirmation-send-complete">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a> request to the miniport.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -93,30 +78,36 @@ Specifies the type, revision and size of the <b>DOT11_GO_NEGOTIATION_CONFIRMATIO
 <td>DOT11_SIZEOF_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS_REVISION_1</td>
 </tr>
 </table>
- 
-
 
 ### -field PeerDeviceAddress
 
 The device address of the Peer-to-Peer (P2P) Wi-Fi Direct (WFD) device that the GO negotiation confirmation was sent to.
 
-
 ### -field DialogToken
 
-The dialog token from the GO negotiation  confirmation packet. This must match the dialog token sent with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-go-negotiation-confirmation">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request.
-
+The dialog token from the GO negotiation  confirmation packet. This must match the dialog token sent with the <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-go-negotiation-confirmation">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request.
 
 ### -field Status
 
 The status of the request send attempt. Set to <b>NDIS_STATUS_SUCCESS</b> if the packet was successfully transmitted.
 
-
 ### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) which were included in the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
-
 
 ### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  DOT11_MAC_ADDRESS  PeerDeviceAddress;
+  DOT11_DIALOG_TOKEN DialogToken;
+  NDIS_STATUS        Status;
+  ULONG              uIEsOffset;
+  ULONG              uIEsLength;
+} DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS;
+```

@@ -8,8 +8,6 @@ ms.assetid: 0474a8dc-e2e3-4c84-8058-6229bf0e9d62
 ms.date: 05/03/2018
 keywords: ["IsPtr64 function"]
 ms.keywords: IsPtr64, IsPtr64 function [Windows Debugging], WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, debugger.isptr64, wdbgexts/IsPtr64
-f1_keywords:
- - "wdbgexts/IsPtr64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- IsPtr64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IsPtr64
+ - wdbgexts/IsPtr64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - IsPtr64
 ---
 
 # IsPtr64 function
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IsPtr64</b> function determines if the target uses 64-bit pointers.
-
 
 ## -returns
 
-
-
 The function returns <b>TRUE</b> if the target uses 64-bit pointers; <b>FALSE</b>, otherwise.
-
-
 

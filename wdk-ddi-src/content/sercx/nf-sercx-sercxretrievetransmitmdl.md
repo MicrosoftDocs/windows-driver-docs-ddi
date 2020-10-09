@@ -8,8 +8,6 @@ ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.date: 04/23/2018
 keywords: ["SerCxRetrieveTransmitMdl function"]
 ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
-f1_keywords:
- - "sercx/SerCxRetrieveTransmitMdl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SerCxRetrieveTransmitMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCxRetrieveTransmitMdl
+ - sercx/SerCxRetrieveTransmitMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SerCxRetrieveTransmitMdl
 ---
 
 # SerCxRetrieveTransmitMdl function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCxRetrieveTransmitMdl</b> method retrieves the MDL that describes the buffer that contains the next block of output data to be transmitted.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
+### -param Mdl 
 
-### -param Mdl [out]
-
+[out]
 A pointer to a location into which the method writes a pointer to the MDL.
 
-
 ## -returns
-
-
 
 <b>SerCxRetrieveTransmitMdl</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -88,36 +80,20 @@ This value is returned if one of the following occurs:
 
 <ul>
 <li>There is no outstanding transmit request to get an MDL from.</li>
-<li>The current number of bytes transmitted (as reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method) does not equal zero.</li>
+<li>The current number of bytes transmitted (as reported by the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method) does not equal zero.</li>
 <li>The buffer has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 <li>The MDL has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 </ul>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
-
-The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
-
-For more information about MDLs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
-
-
-
+For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>

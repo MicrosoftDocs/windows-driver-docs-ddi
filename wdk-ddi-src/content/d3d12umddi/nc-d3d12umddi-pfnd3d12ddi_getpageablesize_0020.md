@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_GETPAGEABLESIZE_0020 callback function"]
 ms.keywords: PFND3D12DDI_GETPAGEABLESIZE_0020, PFND3D12DDI_GETPAGEABLESIZE_0020 callback, d3d12umddi/pfnGetPageableSize, display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize, pfnGetPageableSize callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnGetPageableSize"
+ - "pfnGetPageableSize"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnGetPageableSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

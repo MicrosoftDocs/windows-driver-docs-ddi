@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_set_pin_ex.htm
 tech.root: netvista
 ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SET_PIN_EX structure"]
+keywords: ["NDIS_WWAN_SET_PIN_EX structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_PIN_EX"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_PIN_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX
+f1_keywords:
+ - _NDIS_WWAN_SET_PIN_EX
+ - ndiswwan/_NDIS_WWAN_SET_PIN_EX
+ - PNDIS_WWAN_SET_PIN_EX
+ - ndiswwan/PNDIS_WWAN_SET_PIN_EX
+ - NDIS_WWAN_SET_PIN_EX
+ - ndiswwan/NDIS_WWAN_SET_PIN_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_PIN_EX
 ---
 
 # _NDIS_WWAN_SET_PIN_EX structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX
 
 ## -description
 
-
 The NDIS_WWAN_SET_PIN_EX structure represents what PIN action to take on the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,21 +102,12 @@ sizeof(NDIS_WWAN_SET_PIN_EX)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field PinAction
 
 A formatted [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md) object that represents an action to perform with a Personal Identification Number (PIN).
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>

@@ -6,38 +6,38 @@ tech.root: audio
 ms.assetid: 8ccec5e2-2239-4d3d-a789-f7d1800966d7
 ms.date: 02/20/2019
 keywords: ["IDrmPort::ForwardContentToInterface"]
-f1_keywords:
- - "portcls/IDrmPort.ForwardContentToInterface"
 ms.keywords: IDrmPort::ForwardContentToInterface, ForwardContentToInterface, IDrmPort.ForwardContentToInterface, IDrmPort::ForwardContentToInterface, IDrmPort.ForwardContentToInterface
 req.header: portcls.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - portcls.h
-api_name: 
- - IDrmPort.ForwardContentToInterface
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IDrmPort::ForwardContentToInterface
+ - portcls/IDrmPort::ForwardContentToInterface
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IDrmPort.ForwardContentToInterface
+product:
+ - Windows
 ---
 
 # IDrmPort::ForwardContentToInterface
@@ -45,9 +45,7 @@ targetos: Windows
 
 ## -description
 
-The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this method is identical in operation to the [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface) function, and its parameter definitions and return value are also identical.
-
-
+The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this method is identical in operation to the [DrmForwardContentToInterface](../drmk/nf-drmk-drmforwardcontenttointerface.md) function, and its parameter definitions and return value are also identical.
 
 ## -parameters
 
@@ -55,23 +53,21 @@ The ForwardContentToInterface method accepts a pointer to the COM interface of a
 
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
-
 ### -param pUnknown
 
 Pointer to a COM interface that directly receives KS audio stream data for a KS audio filter.
-
 
 ### -param NumMethods
 
 Specifies the total number of methods in the COM interface that pUnknown points to, including all the methods in its base interfaces.
 
-
 ## -returns
+
 This method returns NTSTATUS.
 
 ## -remarks
-See comments in [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface).
 
+See comments in [DrmForwardContentToInterface](../drmk/nf-drmk-drmforwardcontenttointerface.md).
 
 ## -see-also
 

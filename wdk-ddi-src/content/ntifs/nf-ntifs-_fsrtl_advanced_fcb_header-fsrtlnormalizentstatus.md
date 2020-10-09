@@ -8,8 +8,6 @@ ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.date: 04/16/2018
 keywords: ["FsRtlNormalizeNtstatus function"]
 ms.keywords: FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, ifsk.fsrtlnormalizentstatus, ntifs/FsRtlNormalizeNtstatus
-f1_keywords:
- - "ntifs/FsRtlNormalizeNtstatus"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlNormalizeNtstatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlNormalizeNtstatus
+ - ntifs/FsRtlNormalizeNtstatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlNormalizeNtstatus
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlNormalizeNtstatus function
@@ -50,41 +49,24 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlNormalizeNtstatus</b> routine translates an arbitrary exception into a status value that is handled by the exception filter.
-
 
 ## -parameters
 
+### -param Exception 
 
-
-
-### -param Exception [in]
-
+[in]
 Status value of the exception.
 
+### -param GenericException 
 
-### -param GenericException [in]
-
+[in]
 Generic status value to return if <i>Exception</i> is not within the set of exceptions handled by the filter.
-
 
 ## -returns
 
-
-
 <b>FsRtlNormalizeNtstatus</b> returns <i>Exception</i> if the status value is handled by the exception filter, <i>GenericException</i> otherwise.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected">FsRtlIsNtstatusExpected</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected">FsRtlIsNtstatusExpected</a>

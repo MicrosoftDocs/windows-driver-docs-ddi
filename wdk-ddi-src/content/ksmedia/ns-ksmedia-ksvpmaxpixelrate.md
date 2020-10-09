@@ -10,6 +10,7 @@ keywords: ["KSVPMAXPIXELRATE structure"]
 ms.keywords: "*PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices], PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate"
 f1_keywords:
  - "ksmedia/KSVPMAXPIXELRATE"
+ - "KSVPMAXPIXELRATE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSVPMAXPIXELRATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE
 ---
@@ -75,7 +74,7 @@ Reserved. Do not use.
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
 
 
 
@@ -85,8 +84,7 @@ This structure is used by the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
  
 
  
-

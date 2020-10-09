@@ -8,8 +8,6 @@ ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.date: 05/02/2018
 keywords: ["NetDmaGetVersion function"]
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
-f1_keywords:
- - "netdma/NetDmaGetVersion"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NetDmaGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NetDmaGetVersion
+ - netdma/NetDmaGetVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NetDmaGetVersion
 ---
 
 # NetDmaGetVersion function
 
 
 ## -description
-
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
@@ -56,10 +54,7 @@ The
   <b>NetDmaGetVersion</b> function returns the version of the NetDMA interface that the local computer
   supports.
 
-
 ## -returns
-
-
 
 <b>NetDmaGetVersion</b> returns a UINT value that contains the major and minor version numbers as
      follows:
@@ -92,14 +87,8 @@ The minor version of NetDMA interface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NetDMA provider drivers can call the 
     <b>NetDmaGetVersion</b> function to obtain the version of the NetDMA interface. A NetDMA provider must
@@ -108,9 +97,9 @@ NetDMA provider drivers can call the
     NetDMA provider in the 
     <b>MajorVersion</b> and 
     <b>MinorVersion</b> members of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that it passes to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
+    <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
 
 <div class="alert"><b>Note</b>  <b>NetDmaGetVersion</b> is not available in NetDMA version 1.0. To avoid using a function import that
@@ -118,7 +107,7 @@ NetDMA provider drivers can call the
     <b>NetDmaGetVersion</b> before it calls 
     <b>NetDmaGetVersion</b>. To call 
     <b>NetDmaGetVersion</b>, first call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a> function to
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a> function to
     get the entry point and then, if 
     <b>NetDmaGetVersion</b> is available, call 
     <b>NetDmaGetVersion</b> at the entry point that 
@@ -128,25 +117,15 @@ NetDMA provider drivers can call the
 NetDMA provider drivers call 
     <b>NetDmaGetVersion</b> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>

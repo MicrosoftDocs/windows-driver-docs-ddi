@@ -8,8 +8,6 @@ ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.date: 04/16/2018
 keywords: ["FsRtlIsHpfsDbcsLegal function"]
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
-f1_keywords:
- - "ntifs/FsRtlIsHpfsDbcsLegal"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlIsHpfsDbcsLegal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlIsHpfsDbcsLegal
+ - ntifs/FsRtlIsHpfsDbcsLegal
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsHpfsDbcsLegal
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlIsHpfsDbcsLegal function
@@ -50,47 +49,35 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
-
 
 ## -parameters
 
+### -param DbcsName 
 
-
-
-### -param DbcsName [in]
-
+[in]
 A pointer to the string to be tested.
 
+### -param WildCardsPermissible 
 
-### -param WildCardsPermissible [in]
-
+[in]
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
+### -param PathNamePermissible 
 
-### -param PathNamePermissible [in]
-
+[in]
 Set to <b>TRUE</b> if <i>DbcsName</i> can be a full pathname containing backslash characters, <b>FALSE</b> if it can only be a file name.
 
+### -param LeadingBackslashPermissible 
 
-### -param LeadingBackslashPermissible [in]
-
+[in]
 Set to <b>TRUE</b> if a single leading backslash is permissible in the file or pathname, <b>FALSE</b> otherwise.
-
 
 ## -returns
 
-
-
 The <b>FsRtlIsHpfsDbcsLegal</b> routine returns <b>TRUE</b> if the string is a legal HPFS file name, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified file name conforms to the HPFS-specific rules for legal file names. This routine will check the file name or, if <i>PathNamePermissible</i> is specified as <b>TRUE</b>, whether the whole pathname is a legal HPFS name.
 
@@ -114,18 +101,8 @@ HPFS file names are case-preserving, but not case insensitive. Lowercase file na
 
 </li>
 </ol>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>

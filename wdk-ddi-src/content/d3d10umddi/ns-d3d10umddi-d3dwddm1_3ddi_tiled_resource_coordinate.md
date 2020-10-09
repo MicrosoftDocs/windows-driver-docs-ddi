@@ -7,8 +7,6 @@ ms.assetid: A927CAF9-EF7F-47CC-9BDE-B6E13597368E
 ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate
-f1_keywords:
- - "d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
+f1_keywords:
+ - D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
+ - d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 ---
 
 # D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure
@@ -47,29 +46,21 @@ req.typenames: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 
 ## -description
 
-
 Specifies the (<i>x</i>, <i>y</i>, <i>z</i>) coordinate values below the index tiles  of a tiled resource, along with the respective subresource. Note that the coordinate values do not indicate pixels or bytes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field X
 
 The <i>x</i> coordinate of the tiled resource. Used for buffer, 1-D, 2-D, and 3-D rendering.
 
-
 ### -field Y
 
 The <i>y</i> coordinate of the tiled resource. Used for 2-D and 3-D rendering.
 
-
 ### -field Z
 
 The <i>z</i> coordinate of the tiled resource. Used for 3-D rendering.
-
 
 ### -field Subresource
 

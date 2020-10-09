@@ -8,8 +8,6 @@ ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.date: 04/20/2018
 keywords: ["IPrinterPropertyBag::SetBytes"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
-f1_keywords:
- - "printerextension/IPrinterPropertyBag.SetBytes"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterPropertyBag.SetBytes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterPropertyBag::SetBytes
+ - printerextension/IPrinterPropertyBag::SetBytes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterPropertyBag.SetBytes
 ---
 
 # IPrinterPropertyBag::SetBytes
@@ -47,49 +46,31 @@ req.typenames:
 
 ## -description
 
-
 Writes a byte array property.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The array to write to.
 
+### -param cbValue 
 
-### -param cbValue [in]
-
+[in]
 The number of bytes to write.
 
-
 ### -param pValue
-
-
-
-
-
 
 #### - rgbValue [in]
 
 The values to write.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 In Windows 8.1 a new flag, PRINTER_ACCESS_MANAGE_LIMITED, has been introduced to grant print queue permissions that are more limited than PRINTER_ACCESS_ADMINISTER, but more powerful than 
 PRINTER_ACCESS_USE.
@@ -99,16 +80,6 @@ PRINTER_ACCESS_MANAGE_LIMITED access to the queue.
 
 A call to set a property on a queue property bag will fail with ERROR_ACCESS_DENIED, if the user does not have the appropriate permission. This behavior was true before PRINTER_ACCESS_MANAGE_LIMITED was introduced, and it's still the current behavior.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>

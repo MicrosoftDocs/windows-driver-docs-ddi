@@ -8,8 +8,6 @@ ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.date: 04/30/2018
 keywords: ["RtlInitStringEx function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitStringEx, kernel.rtl_init_string_ex, wdm/RtlInitString
-f1_keywords:
- - "ntifs/RtlInitString"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,57 +25,46 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitStringEx
+ - ntifs/RtlInitStringEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitString
 ---
 
-# RtlInitStringEx function
+# RtlInitStringEx function (ntifs.h)
 
 
 ## -description
 
-
 The <b>RtlInitStringEx</b> routine initializes a counted string of 8-bit characters.
-
 
 ## -parameters
 
+### -param DestinationString 
 
+[out]
+A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure.
 
+### -param SourceString 
 
-### -param DestinationString [out]
-
-A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a> structure.
-
-
-### -param SourceString [in, optional]
-
+[in, optional]
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
-
 
 ## -returns
 
-
-
 Returns STATUS_NAME_TOO_LONG if the SourceString is too long. Otherwise, this routine returns STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 This routine initializes a counted character string.
 
@@ -87,16 +74,6 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 
 Callers of <b>RtlInitStringEx</b> can be running at IRQL <= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL > PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
- 
-
- 
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>

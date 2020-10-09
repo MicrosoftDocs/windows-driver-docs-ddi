@@ -8,8 +8,6 @@ ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.date: 04/16/2018
 keywords: ["RxCeQueryTransportInformation function"]
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
-f1_keywords:
- - "rxce/RxCeQueryTransportInformation"
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeQueryTransportInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeQueryTransportInformation
+ - rxce/RxCeQueryTransportInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeQueryTransportInformation
 ---
 
 # RxCeQueryTransportInformation function
@@ -47,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeQueryTransportInformation</b> queries transport information for a given transport.
 
-
 ## -parameters
-
-
-
 
 ### -param pTransport
 
 A pointer to the transport.
 
-
 ### -param pTransportInformation
 
-A pointer to the caller-supplied buffer for returning information. 
-
+A pointer to the caller-supplied buffer for returning information.
 
 ## -returns
-
-
 
 <b>RxCeQueryTransportInformation</b> returns STATUS_SUCCESS on success or the following error code on failure: 
 
@@ -99,14 +89,8 @@ The <i>pTransportInformation</i> parameter did not point to allocated memory lar
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RxCeQueryTransportInformation</b> returns information for a given transport. The <b>RXCE_TRANSPORT_INFORMATION</b> data structure contains two data elements that are filled in by <b>RxCeQueryTransportInformation</b>:
 
@@ -114,20 +98,10 @@ ConnectionCount
 
 QualityOfService
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryadapterstatus">RxCeQueryAdapterStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryadapterstatus">RxCeQueryAdapterStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>

@@ -8,8 +8,6 @@ ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.date: 05/24/2019
 keywords: ["FltRegisterForDataScan function"]
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
-f1_keywords:
- - "fltkernel/FltRegisterForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltRegisterForDataScan
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltRegisterForDataScan
+ - fltkernel/FltRegisterForDataScan
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltRegisterForDataScan
 ---
 
 # FltRegisterForDataScan function
+
 
 ## -description
 
@@ -50,8 +50,9 @@ The **FltRegisterForDataScan** routine enables data scanning for the volume atta
 
 ## -parameters
 
-### -param Instance [in]
+### -param Instance 
 
+[in]
 An opaque instance pointer for the minifilter driver instance to register for data scanning.
 
 ## -returns
@@ -66,7 +67,7 @@ An opaque instance pointer for the minifilter driver instance to register for da
 
 A minifilter that does data scanning must register its volume for scanning by calling **FltRegisterForDataScan** prior to calling  [FltCreateSectionForDataScan](nf-fltkernel-fltcreatesectionfordatascan.md). Minifilters do data scans for various reasons, such as virus detection, encryption, or compression.
 
-If **FltRegisterForDataScan** returns **STATUS_NOT_SUPPORTED**, a minifilter can still create sections for data scanning using [FsRtlCreateSectionForDataScan](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcreatesectionfordatascan). However, section access is not synchronized and conflict resolution is left to the minifilter driver through its [PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK](nc-fltkernel-pflt_section_conflict_notification_callback.md) callback routine.
+If **FltRegisterForDataScan** returns **STATUS_NOT_SUPPORTED**, a minifilter can still create sections for data scanning using [FsRtlCreateSectionForDataScan](../ntifs/nf-ntifs-fsrtlcreatesectionfordatascan.md). However, section access is not synchronized and conflict resolution is left to the minifilter driver through its [PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK](nc-fltkernel-pflt_section_conflict_notification_callback.md) callback routine.
 
 ## -see-also
 
@@ -76,6 +77,6 @@ If **FltRegisterForDataScan** returns **STATUS_NOT_SUPPORTED**, a minifilter can
 
 [FltCreateSectionForDataScan](nf-fltkernel-fltcreatesectionfordatascan.md)
 
-[FsRtlCreateSectionForDataScan](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcreatesectionfordatascan)
+[FsRtlCreateSectionForDataScan](../ntifs/nf-ntifs-fsrtlcreatesectionfordatascan.md)
 
 [PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK](nc-fltkernel-pflt_section_conflict_notification_callback.md)

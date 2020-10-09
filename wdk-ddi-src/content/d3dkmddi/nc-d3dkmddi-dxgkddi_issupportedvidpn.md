@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiIsSupportedVidPn"
+ - DXGKDDI_ISSUPPORTEDVIDPN
+ - d3dkmddi/DXGKDDI_ISSUPPORTEDVIDPN
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_ISSUPPORTEDVIDPN callback function
 
+
 ## -description
 
 The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN is supported on a display adapter.
@@ -52,11 +54,11 @@ The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN
 
 ### -param hAdapter
 
-[in] A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ### -param pIsSupportedVidPn
 
-[in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_issupportedvidpn">DXGKARG_ISSUPPORTEDVIDPN</a> structure. On input, the caller supplies the <b>hDesiredVidPn</b> member of the structure. On return, the <b>IsVidPnSupported</b> member receives a Boolean value that indicates whether the VidPN is supported (<b>TRUE</b>) or not supported (<b>FALSE</b>).
+[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_issupportedvidpn">DXGKARG_ISSUPPORTEDVIDPN</a> structure. On input, the caller supplies the <b>hDesiredVidPn</b> member of the structure. On return, the <b>IsVidPnSupported</b> member receives a Boolean value that indicates whether the VidPN is supported (<b>TRUE</b>) or not supported (<b>FALSE</b>).
 
 ## -returns
 
@@ -70,7 +72,7 @@ The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN
 
 ## -remarks
 
-For more information about the analysis that this function must perform, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/determining-whether-a-vidpn-is-supported-on-a-display-adapter">Determining Whether a VidPN is Supported on a Display Adapter</a><u>.</u>
+For more information about the analysis that this function must perform, see <a href="/windows-hardware/drivers/display/determining-whether-a-vidpn-is-supported-on-a-display-adapter">Determining Whether a VidPN is Supported on a Display Adapter</a><u>.</u>
 
 If pIsSupportedVidPnArg->hDesiredVidPn is zero, <i>DxgkDdiIsSupportedVidPn</i> must set pIsSupportedVidPnArg->IsVidPnSupported to <b>TRUE</b>, the idea being that the display adapter can always be configured to display nothing.
 
@@ -78,5 +80,4 @@ If pIsSupportedVidPnArg->hDesiredVidPn is zero, <i>DxgkDdiIsSupportedVidPn</i> m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>

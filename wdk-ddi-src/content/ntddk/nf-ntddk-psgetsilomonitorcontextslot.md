@@ -8,8 +8,6 @@ ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
 ms.date: 04/30/2018
 keywords: ["PsGetSiloMonitorContextSlot function"]
 ms.keywords: PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot
-f1_keywords:
- - "ntddk/PsGetSiloMonitorContextSlot"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetSiloMonitorContextSlot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetSiloMonitorContextSlot
+ - ntddk/PsGetSiloMonitorContextSlot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetSiloMonitorContextSlot
 ---
 
 # PsGetSiloMonitorContextSlot function
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This routine returns the silo context slot that was allocated by the monitor during the registration.
-
 
 ## -parameters
 
+### -param Monitor 
 
-
-
-### -param Monitor [in]
-
+[in]
 A pointer to the silo monitor.
-
 
 ## -returns
 
-
-
 A valid silo context slot.
-
-
 

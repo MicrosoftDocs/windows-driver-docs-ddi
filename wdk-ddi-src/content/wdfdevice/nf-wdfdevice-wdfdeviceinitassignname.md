@@ -8,8 +8,6 @@ ms.assetid: 70b86a0f-a77d-4c79-931d-d0407083e5b0
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitAssignName function"]
 ms.keywords: DFDeviceObjectGeneralRef_1acdbff1-2eb9-425c-91c8-aaa51f585d56.xml, WdfDeviceInitAssignName, WdfDeviceInitAssignName method, kmdf.wdfdeviceinitassignname, wdf.wdfdeviceinitassignname, wdfdevice/WdfDeviceInitAssignName
-f1_keywords:
- - "wdfdevice/WdfDeviceInitAssignName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitAssignName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitAssignName
+ - wdfdevice/WdfDeviceInitAssignName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitAssignName
 ---
 
 # WdfDeviceInitAssignName function
@@ -48,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitAssignName</b> method assigns a device name to a device's device object.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param DeviceName 
 
-### -param DeviceInit [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
-
-
-### -param DeviceName [in, optional]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that represents the device name.
-
+[in, optional]
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that represents the device name.
 
 ## -returns
-
-
 
 If <b>WdfDeviceInitAssignName</b> encounters no errors it returns STATUS_SUCCESS. Additional return values include:
 
@@ -92,27 +84,21 @@ The system cannot allocate space to store the device name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If a driver calls <b>WdfDeviceInitAssignName</b>, it must do so before it calls <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+If a driver calls <b>WdfDeviceInitAssignName</b> to assign a name, the driver can subsequently call <b>WdfDeviceInitAssignName</b> with a <b>NULL</b> <i>DeviceName</i> parameter to clear the device name. If the device name is <b>NULL</b> and the device object requires a name (because it represents a PDO or a <a href="/windows-hardware/drivers/wdf/using-control-device-objects">control device</a>), the operating system will create a name. 
 
-If a driver calls <b>WdfDeviceInitAssignName</b>, it must do so before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
+For more information about naming device objects, see <a href="/windows-hardware/drivers/wdf/controlling-device-access-in-kmdf-drivers">Controlling Device Access in Framework-Based Drivers</a>.
 
-If a driver calls <b>WdfDeviceInitAssignName</b> to assign a name, the driver can subsequently call <b>WdfDeviceInitAssignName</b> with a <b>NULL</b> <i>DeviceName</i> parameter to clear the device name. If the device name is <b>NULL</b> and the device object requires a name (because it represents a PDO or a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device</a>), the operating system will create a name. 
-
-For more information about naming device objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-device-access-in-kmdf-drivers">Controlling Device Access in Framework-Based Drivers</a>.
-
-For more information about calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+For more information about calling <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>, see <a href="/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
 
-The following code example assigns an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/nt-device-names">NT device name</a> to a device.
+The following code example assigns an <a href="/windows-hardware/drivers/kernel/nt-device-names">NT device name</a> to a device.
 
 ```cpp
 DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
@@ -125,15 +111,6 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceretrievedevicename">WdfDeviceRetrieveDeviceName</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceretrievedevicename">WdfDeviceRetrieveDeviceName</a>

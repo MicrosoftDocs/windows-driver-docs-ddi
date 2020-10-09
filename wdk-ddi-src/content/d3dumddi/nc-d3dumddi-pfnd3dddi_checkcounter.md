@@ -8,8 +8,6 @@ ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CHECKCOUNTER callback function"]
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
-f1_keywords:
- - "d3dumddi/pfnCheckCounter"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dumddi.h
-api_name:
-- pfnCheckCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFND3DDDI_CHECKCOUNTER
+ - d3dumddi/PFND3DDDI_CHECKCOUNTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dumddi.h
+api_name:
+ - pfnCheckCounter
 ---
 
 # PFND3DDDI_CHECKCOUNTER callback function
@@ -47,25 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice 
 
 [in] A handle to the display device (graphics context).
 
-
 ### -param Arg1
 
 *Counter* [in]
 
-A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
+A value of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
 ### -param Arg2
 
@@ -94,8 +87,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the name.
 
-### -param pNameLength [in, out, optional]
+### -param pNameLength 
 
+[in, out, optional]
 An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
 
 Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
@@ -114,8 +108,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
-### -param pUnitsLength [in, out, optional]
+### -param pUnitsLength 
 
+[in, out, optional]
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
 
 Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
@@ -134,8 +129,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
-### -param pDescriptionLength [in, out, optional]
+### -param pDescriptionLength 
 
+[in, out, optional]
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
 
 Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:
@@ -146,11 +142,7 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 <li>If both <i>pszDescription</i> and <i>pDescriptionLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pDescriptionLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszDescription</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pDescriptionLength</i> parameter.</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following:
 
@@ -158,34 +150,21 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 |--- |--- |
 |E_INVALIDARG|An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string. <br/>Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.|
 
-
 ## -remarks
 
-
-
-This function should behave similarly to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounter">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
+This function should behave similarly to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounter">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
 
 Counters are typically used by tools that capture a frame and play it back multiple times. The pass that records accurate timing info is separate from other  passes. In later passes, a different set of counters is used each time.
 The priority should be to obtain an accurate correlation of counter results to draw calls, and the overhead incurred during playback can be sacrificed. The driver must insert flush calls or wait-for-idle calls to ensure an accurate correlation.
 
-Typically an app can simultaneously monitor only a small number of possible native counters, which might number in the hundreds. Additionally, the driver must indicate the number of active counters used by monitoring each supported counter ID from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> enumeration (both well-known counter IDs and device-specific counter IDs). For example, the driver can indicate that monitoring a <i>FillRateUtilized</i> variable requires 3 of the maximum 4 simultaneously active counters (indicated by the <i>pActiveCounters</i> parameter). The app can therefore also monitor another counter ID, as long as that counter ID requires one or fewer active counters.
+Typically an app can simultaneously monitor only a small number of possible native counters, which might number in the hundreds. Additionally, the driver must indicate the number of active counters used by monitoring each supported counter ID from the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> enumeration (both well-known counter IDs and device-specific counter IDs). For example, the driver can indicate that monitoring a <i>FillRateUtilized</i> variable requires 3 of the maximum 4 simultaneously active counters (indicated by the <i>pActiveCounters</i> parameter). The app can therefore also monitor another counter ID, as long as that counter ID requires one or fewer active counters.
 
 If a counter ID can always be monitored (and it doesn't interfere with monitoring any other counter IDs), the number of simultaneous active counters required by the counter ID can be zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounter">CheckCounter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounter">CheckCounter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a>

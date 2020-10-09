@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: audio
+f1_keywords:
+ - keyworddetectoroemadapter
+ - keyworddetectoroemadapter/keyworddetectoroemadapter
 ---
 
 # Keyworddetectoroemadapter.h header
@@ -18,7 +19,7 @@ tech.root: audio
 
 ## -description
 
-
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)
+

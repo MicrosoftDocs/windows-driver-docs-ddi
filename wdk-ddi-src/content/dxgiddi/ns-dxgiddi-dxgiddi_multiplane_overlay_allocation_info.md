@@ -8,8 +8,6 @@ ms.assetid: 2736b955-1b25-4ded-a75a-19a1c47f61ee
 ms.date: 05/10/2018
 keywords: ["DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-f1_keywords:
- - "dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
+f1_keywords:
+ - DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
+ - dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 ---
 
 # DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure
@@ -47,19 +46,13 @@ req.typenames: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 
 ## -description
 
-
 Specifies info about a multiplane overlay allocation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PresentAllocation
 
 [in] A handle to the multiplane overlay allocation.
-
 
 ### -field SubResourceIndex
 

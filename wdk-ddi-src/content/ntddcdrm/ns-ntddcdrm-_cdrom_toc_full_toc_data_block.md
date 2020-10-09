@@ -6,10 +6,8 @@ old-location: storage\cdrom_toc_full_toc_data_block.htm
 tech.root: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.date: 01/08/2020
-keywords: ["_CDROM_TOC_FULL_TOC_DATA_BLOCK structure"]
+keywords: ["CDROM_TOC_FULL_TOC_DATA_BLOCK structure"]
 ms.keywords: "*PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml"
-f1_keywords:
- - "ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- CDROM_TOC_FULL_TOC_DATA_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_FULL_TOC_DATA_BLOCK, *PCDROM_TOC_FULL_TOC_DATA_BLOCK
+f1_keywords:
+ - _CDROM_TOC_FULL_TOC_DATA_BLOCK
+ - ntddcdrm/_CDROM_TOC_FULL_TOC_DATA_BLOCK
+ - PCDROM_TOC_FULL_TOC_DATA_BLOCK
+ - ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK
+ - CDROM_TOC_FULL_TOC_DATA_BLOCK
+ - ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - CDROM_TOC_FULL_TOC_DATA_BLOCK
 ---
 
 # _CDROM_TOC_FULL_TOC_DATA_BLOCK structure
 
+
 ## -description
 
-The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the [CDROM_TOC_FULL_TOC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_full_toc_data) structure.
+The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the [CDROM_TOC_FULL_TOC_DATA](./ns-ntddcdrm-_cdrom_toc_full_toc_data.md) structure.
 
 ## -struct-fields
 
@@ -98,8 +102,8 @@ Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1
 
 ## -see-also
 
-[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
+[CDROM_READ_TOC_EX](./ns-ntddcdrm-_cdrom_read_toc_ex.md)
 
-[CDROM_TOC_FULL_TOC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_full_toc_data)
+[CDROM_TOC_FULL_TOC_DATA](./ns-ntddcdrm-_cdrom_toc_full_toc_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)

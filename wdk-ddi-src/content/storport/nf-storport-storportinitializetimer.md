@@ -8,8 +8,6 @@ ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
 ms.date: 03/29/2018
 keywords: ["StorPortInitializeTimer function"]
 ms.keywords: StorPortInitializeTimer, StorPortInitializeTimer routine [Storage Devices], storage.storportinitializetimer, storport/StorPortInitializeTimer
-f1_keywords:
- - "storport/StorPortInitializeTimer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInitializeTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializeTimer
+ - storport/StorPortInitializeTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInitializeTimer
 ---
 
 # StorPortInitializeTimer function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Creates a Storport timer context object.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param TimerHandle 
 
-### -param TimerHandle [out]
-
+[out]
 A pointer to an opaque buffer that holds context information for the timer.
 
-
 ## -returns
-
-
 
 The <b>StorPortInitializeTimer</b> routine returns one of these status codes:
 
@@ -133,46 +125,30 @@ The number of supported timers is exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Storport provides a single timer to a miniport driver by using the  <b>RequestTimerCall</b> notification type in <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>. If a miniport requires more than one timer, additional timers are created with <b>StorPortInitializeTimer</b>.
 
-
-Storport provides a single timer to a miniport driver by using the  <b>RequestTimerCall</b> notification type in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>. If a miniport requires more than one timer, additional timers are created with <b>StorPortInitializeTimer</b>.
-
-It is recommended that miniports call <b>StorPortInitializeTimer</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that the additional timer resources are available.
+It is recommended that miniports call <b>StorPortInitializeTimer</b> in the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that the additional timer resources are available.
 
 Miniports can use this routine to set coalescing timers to create a delay period after an initial timeout.
 
 Prior to Windows 8, a maximum of 4 timers can be created with <b>StorPortInitializeTimer</b>.
 Starting with Windows 8, there is no maximum timers limitation.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreetimer">StorPortFreeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreetimer">StorPortFreeTimer</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportrequesttimer">StorPortRequestTimer</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportrequesttimer">StorPortRequestTimer</a>

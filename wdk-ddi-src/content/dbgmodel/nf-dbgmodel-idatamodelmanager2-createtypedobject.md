@@ -1,66 +1,71 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedObject
 title: IDataModelManager2::CreateTypedObject (dbgmodel.h)
-description: The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target. 
+description: The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target.
 ms.assetid: 91d1fc43-f4ce-424e-bbaf-9798b841e328
 ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateTypedObject"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.CreateTypedObject"
 ms.keywords: IDataModelManager2::CreateTypedObject, CreateTypedObject, IDataModelManager2.CreateTypedObject, IDataModelManager2::CreateTypedObject, IDataModelManager2.CreateTypedObject
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.CreateTypedObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::CreateTypedObject
+ - dbgmodel/IDataModelManager2::CreateTypedObject
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.CreateTypedObject
 ---
 
 # IDataModelManager2::CreateTypedObject
 
 
 ## -description
-The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target. If the type of the newly created object (as indicated by the objectType argument) happens to match one or more type signatures registered with the data model manager as either canonical visualizers or extensions, those matching data models will automatically be attached to the created instance object before it is returned to the caller. 
+
+The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target. If the type of the newly created object (as indicated by the objectType argument) happens to match one or more type signatures registered with the data model manager as either canonical visualizers or extensions, those matching data models will automatically be attached to the created instance object before it is returned to the caller.
 
 ## -parameters
 
 ### -param context
+
 The debug host context in which this object is located. If no explicit context is given, the context of the newly created object will inherit from the context of the objectType argument. A caller can pass the special marker value USE_CURRENT_HOST_CONTEXT to indicate that the object should receive the context which is current in the debugger's user interface.
 
 ### -param objectLocation
+
 The location of the object in the address space of the debug target. If the location is a virtual address, the location can be constructed by the client using a 64-bit offset into the address space; otherwise - the location must be retrieved from another debug host interface.
 
 ### -param objectType
+
 The type of the object being constructed. The context of the type will propagate to the newly created object if no explicit context is passed in the context argument.
 
 ### -param object
+
 The newly created object will be returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -103,3 +108,4 @@ if (SUCCEEDED(spHost.As(&spSym)))
 
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

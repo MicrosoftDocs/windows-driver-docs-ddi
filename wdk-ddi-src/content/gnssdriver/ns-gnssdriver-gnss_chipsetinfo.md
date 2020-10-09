@@ -8,8 +8,6 @@ ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.date: 05/11/2020
 keywords: ["GNSS_CHIPSETINFO structure"]
 ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO"
-f1_keywords:
- - "gnssdriver/GNSS_CHIPSETINFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_CHIPSETINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
+f1_keywords:
+ - PGNSS_CHIPSETINFO
+ - gnssdriver/PGNSS_CHIPSETINFO
+ - GNSS_CHIPSETINFO
+ - gnssdriver/GNSS_CHIPSETINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_CHIPSETINFO
 ---
 
 # GNSS_CHIPSETINFO structure
+
 
 ## -description
 
@@ -89,3 +91,4 @@ String containing an identifier for the manufacturer.
 #### - Unused[512]
 
 Padding buffer reserved for future use.
+

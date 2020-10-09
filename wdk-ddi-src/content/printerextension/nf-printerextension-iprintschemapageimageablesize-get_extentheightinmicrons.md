@@ -8,8 +8,6 @@ ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons"]
 ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
-f1_keywords:
- - "printerextension/IPrintSchemaPageImageableSize.ExtentHeightInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageImageableSize.ExtentHeightInMicrons
-- IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
+ - printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageImageableSize.ExtentHeightInMicrons
+ - IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
 ---
 
 # IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
@@ -48,22 +47,12 @@ req.typenames:
 
 ## -description
 
-
 Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>

@@ -4,9 +4,10 @@ title: _D3DKMT_TRACKEDWORKLOAD_STATISTICS (d3dkmthk.h)
 description: Creates a tracked workload statistic.
 ms.assetid: 206c606d-08a8-48c2-b36f-88ccde6b2272
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_TRACKEDWORKLOAD_STATISTICS structure"]
+keywords: ["D3DKMT_TRACKEDWORKLOAD_STATISTICS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOAD_STATISTICS"
+ - "_D3DKMT_TRACKEDWORKLOAD_STATISTICS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOAD_STATISTICS, D3DKMT_TRACKEDWORKLOAD_STATISTICS, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_TRACKEDWORKLOAD_STATISTICS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

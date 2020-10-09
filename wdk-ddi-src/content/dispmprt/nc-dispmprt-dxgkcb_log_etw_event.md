@@ -8,8 +8,6 @@ ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
 ms.date: 05/10/2018
 keywords: ["DXGKCB_LOG_ETW_EVENT callback function"]
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
-f1_keywords:
- - "dispmprt/DxgkCbLogEtwEvent"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkCbLogEtwEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_LOG_ETW_EVENT
+ - dispmprt/DXGKCB_LOG_ETW_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkCbLogEtwEvent
 ---
 
 # DXGKCB_LOG_ETW_EVENT callback function
@@ -47,44 +46,34 @@ req.typenames:
 
 ## -description
 
-
-The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) event. 
-
+The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) event.
 
 ## -parameters
-
-
-
 
 ### -param LPCGUID
 
 [in] A GUID that identifies the event to be logged.
 
-### -param Type [in]
+### -param Type 
 
+[in]
 A constant that specifies the event type. These constants  are defined in Evntrace.h and have the form of <b>EVENT_TRACE_TYPE_XX</b>.
 
+### -param EventBufferSize 
 
-### -param EventBufferSize [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>EventBuffer</i>. There is a significant performance penalty if the buffer is larger than 256 bytes.
 
+### -param EventBuffer 
 
-### -param EventBuffer [in]
-
+[in]
 A pointer to a buffer that contains the information to be logged.
-
-
-
-
 
 ## -remarks
 
-
-
 If event logging is not enabled, <i>DxgkCbLogEtwEvent</i> returns immediately without logging the event.
 
-To enable or disable event logging, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>  function.
+To enable or disable event logging, call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>  function.
 
 If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i> can be called an any IRQL. If <i>EventBufferSize</i> is greater than 256, <i>DxgkCbLogEtwEvent</i> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -112,11 +101,4 @@ DummyTrace(
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>

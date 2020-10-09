@@ -8,8 +8,6 @@ ms.assetid: fc24cdaf-0695-4e10-82be-a7f7a916f550
 ms.date: 04/27/2018
 keywords: ["PFNBTH_FREE_BRB callback function"]
 ms.keywords: BthFreeBrb, BthFreeBrb callback function [Bluetooth Devices], PFNBTH_FREE_BRB, PFNBTH_FREE_BRB callback, bltooth.bthfreebrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml, bthddi/BthFreeBrb
-f1_keywords:
- - "bthddi/BthFreeBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- bthddi.h
-api_name:
-- BthFreeBrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNBTH_FREE_BRB
+ - bthddi/PFNBTH_FREE_BRB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - bthddi.h
+api_name:
+ - BthFreeBrb
 ---
 
 # PFNBTH_FREE_BRB callback function
@@ -47,31 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>BthFreeBrb</i> function frees a Bluetooth request block (BRB) that was allocated previously with 
   <i>BthAllocateBrb</i>.
 
-
 ## -parameters
 
+### -param pBrb 
 
-
-
-### -param pBrb [in]
-
+[in]
 Pointer to the BRB to free.
 
-
 ## -remarks
-
-
 
 Profile drivers obtain a pointer to the 
     <i>BthFreeBrb</i> function when they query the Bluetooth driver stack for an instance of the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
-    <a href="https://docs.microsoft.com/previous-versions/ff536769(v=vs.85)">Querying for Bluetooth
+    <a href="/previous-versions/ff536769(v=vs.85)">Querying for Bluetooth
     Interfaces</a> for more information about querying the Bluetooth driver stack.
-
-
-

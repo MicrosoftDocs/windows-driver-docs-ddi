@@ -4,38 +4,42 @@ title: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: Arguments used by the DxgkcbUnmapFrameBufferPointer callback function to release a mapping.
 ms.assetid: 16f1a189-7470-43ff-9b5f-15b87a120eaf
 ms.date: 10/19/2018
-keywords: ["_DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARGCB_UNMAPFRAMEBUFFERPOINTER"
+keywords: ["DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure"]
 ms.keywords: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER, DXGKARGCB_UNMAPFRAMEBUFFERPOINTER,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+ - d3dkmddi/_DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+ - DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+ - d3dkmddi/DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+product:
+ - Windows
 ---
 
 # _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure
+
 
 ## -description
 
@@ -56,3 +60,4 @@ A CPU accessible base address pointer to the mapped subregion of the section obj
 ## -see-also
 
 [DxgkcbUnmapFrameBufferPointer](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md)
+

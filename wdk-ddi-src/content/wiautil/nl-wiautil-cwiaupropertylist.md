@@ -8,8 +8,6 @@ ms.assetid: 4f11bec0-8ff4-4fa0-824c-71ce9774d5d1
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList class"]
 ms.keywords: CWiauPropertyList, CWiauPropertyList class [Imaging Devices], CWiauPropertyList class [Imaging Devices],described, image.cwiaupropertylist_class, wiauFncs_b6021ff9-9843-4f31-b2c1-aff36af0cbc6.xml, wiautil/CWiauPropertyList
-f1_keywords:
- - "wiautil/CWiauPropertyList"
 req.header: wiautil.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiautil.h
-api_name:
-- CWiauPropertyList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauPropertyList
+ - wiautil/CWiauPropertyList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiautil.h
+api_name:
+ - CWiauPropertyList
 ---
 
 # CWiauPropertyList class
@@ -48,5 +47,4 @@ req.typenames:
 ## -description
 
 The **CWiauPropertyList** class can be used to create and maintain a list of properties for a device.
-
 

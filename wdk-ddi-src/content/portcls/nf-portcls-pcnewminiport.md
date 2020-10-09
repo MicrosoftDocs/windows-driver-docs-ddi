@@ -8,8 +8,6 @@ ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.date: 05/08/2018
 keywords: ["PcNewMiniport function"]
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
-f1_keywords:
- - "portcls/PcNewMiniport"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcNewMiniport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcNewMiniport
+ - portcls/PcNewMiniport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcNewMiniport
 ---
 
 # PcNewMiniport function
@@ -48,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>PcNewMiniport</b> function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys. A class ID specifies which of these miniport drivers to instantiate. The driver supports a miniport interface that is derived from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>.
-
+The <b>PcNewMiniport</b> function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys. A class ID specifies which of these miniport drivers to instantiate. The driver supports a miniport interface that is derived from <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>.
 
 ## -parameters
 
+### -param OutMiniPort 
 
+[out]
+Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
+### -param ClassID 
 
-### -param OutMiniPort [out]
-
-Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
-
-
-### -param ClassID [in]
-
+[in]
 Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
-
 
 ## -returns
 
-
-
 <b>PcNewMiniport</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The system-supplied miniport drivers for MPU-401 UARTs and OPL3 synthesizers can be instantiated by calling <b>PcNewMiniport</b> These are built-in miniport drivers that are provided with the portcls.sys system driver. Miniport drivers that are part of a vendor's adapter driver are not created in this way.
 
@@ -95,7 +82,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 
 </td>
 <td>
-DMusUART miniport driver for MPU-401 synth device. Exposes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a> interface for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a> port object.
+DMusUART miniport driver for MPU-401 synth device. Exposes <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a> interface for use with <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a> port object.
 
 </td>
 </tr>
@@ -105,7 +92,7 @@ DMusUART miniport driver for MPU-401 synth device. Exposes <a href="https://docs
 
 </td>
 <td>
-DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a> interface for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a> port object.
+DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a> interface for use with <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a> port object.
 
 </td>
 </tr>
@@ -115,7 +102,7 @@ DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="htt
 
 </td>
 <td>
-FmSynth miniport driver for FM synth device. Exposes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a> interface for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a> port object.
+FmSynth miniport driver for FM synth device. Exposes <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a> interface for use with <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a> port object.
 
 </td>
 </tr>
@@ -135,7 +122,7 @@ Same as the preceding entry, except that the driver also supports a volume node.
 
 </td>
 <td>
-UART miniport driver for MPU-401 synth device. Exposes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a> interface for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a> port object. Obsolete.
+UART miniport driver for MPU-401 synth device. Exposes <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a> interface for use with <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a> port object. Obsolete.
 
 </td>
 </tr>
@@ -154,36 +141,26 @@ The UART miniport driver is obsolete. New adapter driver code should use the DMu
 
 Microsoft provides the source code for the DMusUART and FMSynth miniport drivers, which can serve as a starting point for hardware vendors who might need to extend these drivers to manage additional device capabilities. Look in the sample audio drivers in the Windows Driver Kit (WDK).
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/subdevice-creation">Subdevice Creation</a> For more information about creating port and miniport drivers for subdevices.
+See <a href="/windows-hardware/drivers/audio/subdevice-creation">Subdevice Creation</a> For more information about creating port and miniport drivers for subdevices.
 
-The <i>OutMiniport</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
-
-
-
+The <i>OutMiniport</i> parameter follows the <a href="/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>
+<a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a>
+<a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>

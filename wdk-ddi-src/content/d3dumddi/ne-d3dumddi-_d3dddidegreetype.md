@@ -4,7 +4,7 @@ title: _D3DDDIDEGREETYPE (d3dumddi.h)
 description: The degree type.
 ms.assetid: 6bd9e98f-470b-4e2e-8565-0bc0fc1ddd5f
 ms.date: 10/19/2018
-keywords: ["_D3DDDIDEGREETYPE enumeration"]
+keywords: ["D3DDDIDEGREETYPE enumeration"]
 ms.keywords: _D3DDDIDEGREETYPE, D3DDDIDEGREETYPE,
 req.header: d3dumddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDIDEGREETYPE"
+ - _D3DDDIDEGREETYPE
+ - d3dumddi/_D3DDDIDEGREETYPE
+ - D3DDDIDEGREETYPE
+ - d3dumddi/D3DDDIDEGREETYPE
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDIDEGREETYPE enumeration
+
 
 ## -description
 

@@ -4,41 +4,43 @@ title: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS (d3dkmddi.h)
 description: Indicates GPU configurations, including the appropriate frequencies and power level, for a context.
 ms.assetid: 0b6f3ccf-c4c8-4787-87dc-8397385e1374
 ms.date: 10/19/2018
-keywords: ["_DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure"]
-f1_keywords:
- - "d3dkmddi/_DXGK_TRACKEDWORKLOAD_STATE_FLAGS"
-ms.keywords: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS, DXGK_TRACKEDWORKLOAD_STATE_FLAGS, 
+keywords: ["DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure"]
+ms.keywords: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS, DXGK_TRACKEDWORKLOAD_STATE_FLAGS,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_TRACKEDWORKLOAD_STATE_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmddi.h
-api_name: 
-- _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+ - d3dkmddi/_DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+ - DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+ - d3dkmddi/DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure
+
 
 ## -description
 
@@ -59,8 +61,8 @@ The driver should set this flag if for the given power level, we are in an optim
 This value is reserved.
 
 ### -field Value
- 
 
 ## -remarks
 
 ## -see-also
+

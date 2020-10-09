@@ -8,8 +8,6 @@ ms.assetid: 9c047a7c-cdfc-47e1-beae-f8f326c187ee
 ms.date: 04/23/2018
 keywords: ["KSOBJECT_CREATE_ITEM structure"]
 ms.keywords: "*PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], PKSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, ks/KSOBJECT_CREATE_ITEM, ks/PKSOBJECT_CREATE_ITEM, stream.ksobject_create_item"
-f1_keywords:
- - "ks/KSOBJECT_CREATE_ITEM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSOBJECT_CREATE_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSOBJECT_CREATE_ITEM, *PKSOBJECT_CREATE_ITEM
+f1_keywords:
+ - PKSOBJECT_CREATE_ITEM
+ - ks/PKSOBJECT_CREATE_ITEM
+ - KSOBJECT_CREATE_ITEM
+ - ks/KSOBJECT_CREATE_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSOBJECT_CREATE_ITEM
 ---
 
 # KSOBJECT_CREATE_ITEM structure
@@ -47,34 +48,25 @@ req.typenames: KSOBJECT_CREATE_ITEM, *PKSOBJECT_CREATE_ITEM
 
 ## -description
 
-
 The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Create
 
-Contains the create dispatch function for this particular base object class. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> for the signature of this function type.
-
+Contains the create dispatch function for this particular base object class. See <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> for the signature of this function type.
 
 ### -field Context
 
 Points to a buffer that can be used to store object type-specific context information. Additional information is in the Remarks section below.
 
-
 ### -field ObjectClass
 
 Points to a Unicode string that identifies the object class. This is the string that was used to register with PnP for a particular class of object supported by this device.
 
-
 ### -field SecurityDescriptor
 
-Contains a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> for this type of object, otherwise <b>NULL</b>. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the <b>Flags</b> element is updated. Optional.
-
+Contains a pointer to a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> for this type of object, otherwise <b>NULL</b>. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the <b>Flags</b> element is updated. Optional.
 
 ### -field Flags
 
@@ -116,35 +108,21 @@ Indicates that this create item does not allow any parameters to be passed, and 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 A pointer to the KSOBJECT_CREATE_ITEM structure is placed in the <b>DriverContext</b> member of <b>Irp->Tail.Overlay</b> before the object is created. You can access this pointer by using the KSCREATE_ITEM_IRP_STORAGE macro. This macro and related macros are included in <i>ks.h</i>.
 
 The minidriver might retrieve this pointer when creating a new object to examine the <b>Context</b> field.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectheader">KsAllocateObjectHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectheader">KsAllocateObjectHeader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem">KsFilterFactoryAddCreateItem</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem">KsFilterFactoryAddCreateItem</a>

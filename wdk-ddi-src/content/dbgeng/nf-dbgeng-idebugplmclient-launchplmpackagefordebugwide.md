@@ -8,8 +8,6 @@ ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient::LaunchPlmPackageForDebugWide"]
 ms.keywords: IDebugPlmClient interface [Windows Debugging],LaunchPlmPackageForDebugWide method, IDebugPlmClient.LaunchPlmPackageForDebugWide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging],IDebugPlmClient interface, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
-f1_keywords:
- - "dbgeng/IDebugPlmClient.LaunchPlmPackageForDebugWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugPlmClient.LaunchPlmPackageForDebugWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugPlmClient::LaunchPlmPackageForDebugWide
+ - dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugPlmClient.LaunchPlmPackageForDebugWide
 ---
 
 # IDebugPlmClient::LaunchPlmPackageForDebugWide
@@ -47,66 +46,49 @@ req.typenames:
 
 ## -description
 
-
 Launches a suspended Process Lifecycle Management (PLM) application.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 The server of the application.
 
+### -param Timeout 
 
-### -param Timeout [in]
-
+[in]
 A time-out value.
 
+### -param PackageFullName 
 
-### -param PackageFullName [in]
-
+[in]
 A pointer to the package name.
 
+### -param AppName 
 
-### -param AppName [in]
+[in]
+A pointer to the application name.
 
-A pointer to the application name. 
+### -param Arguments 
 
-
-### -param Arguments [in, optional]
-
+[in, optional]
 A pointer an arguments string.
 
+### -param ProcessId 
 
-### -param ProcessId [out]
-
+[out]
 A pointer to a process ID output.
 
+### -param ThreadId 
 
-### -param ThreadId [out]
-
+[out]
 A pointer to a thread ID output.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient">IDebugPlmClient</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient">IDebugPlmClient</a>

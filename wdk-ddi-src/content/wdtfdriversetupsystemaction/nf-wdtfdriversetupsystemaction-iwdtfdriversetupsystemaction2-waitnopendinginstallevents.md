@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],WaitNoPendingInstallEvents method, IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], WaitNoPendingInstallEvents method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents"
+ - "IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -61,8 +60,8 @@ Waits until all device installations have completed.
 
 
 
-### -param pNoMoreEvents [out, retval]
-
+### -param pNoMoreEvents 
+[out, retval]
 True if all device installations completed before the time-out expired; 
 otherwise, false.
 
@@ -71,7 +70,7 @@ otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
@@ -81,8 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
  
 
  
-

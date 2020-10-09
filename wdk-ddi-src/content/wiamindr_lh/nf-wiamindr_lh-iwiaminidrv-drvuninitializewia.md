@@ -8,12 +8,10 @@ ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvUnInitializeWia"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnInitializeWia method, IWiaMiniDrv.drvUnInitializeWia, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvuninitializewia, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvUnInitializeWia"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvUnInitializeWia
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvUnInitializeWia
+ - wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvUnInitializeWia
 ---
 
 # IWiaMiniDrv::drvUnInitializeWia
+
 
 ## -description
 
@@ -70,6 +70,6 @@ The WIA service calls the **IWiaMiniDrv::drvUnInitializeWia** method when the re
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia)
+[IWiaMiniDrv::drvInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md)

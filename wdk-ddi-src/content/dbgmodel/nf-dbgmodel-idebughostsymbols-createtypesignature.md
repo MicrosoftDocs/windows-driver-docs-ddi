@@ -5,39 +5,38 @@ description: The CreateTypeSignature method creates a signature which can be use
 ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
 ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::CreateTypeSignature"]
-f1_keywords:
- - "dbgmodel/IDebugHostSymbols.CreateTypeSignature"
 ms.keywords: IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature, IDebugHostSymbols::CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostSymbols.CreateTypeSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostSymbols::CreateTypeSignature
+ - dbgmodel/IDebugHostSymbols::CreateTypeSignature
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostSymbols.CreateTypeSignature
 ---
 
 # IDebugHostSymbols::CreateTypeSignature
@@ -45,22 +44,24 @@ ms.custom: RS5
 
 ## -description
 
-The CreateTypeSignature method creates a signature which can be used to match a set of concrete types by containing module and type name. The format of the type name signature string is specific to the language being debugged (and debug host). For C/C++, the signature string is equivalent to a NatVis Type Specification. That is, the signature string is a type name where wildcards (specified as *) are allowed for template arguments. 
+The CreateTypeSignature method creates a signature which can be used to match a set of concrete types by containing module and type name. The format of the type name signature string is specific to the language being debugged (and debug host). For C/C++, the signature string is equivalent to a NatVis Type Specification. That is, the signature string is a type name where wildcards (specified as *) are allowed for template arguments.
 
 ## -parameters
 
 ### -param signatureSpecification
+
 The signature string which identifies the types to which this signature applies. The format of this string is specific to the language being debugged. For C/C++, this is equivalent to a NatVis type specification. Such is a type name where wildcards are allowed for template arguments (specified as a *).
 
-
 ### -param module
+
 If specified, only types which are contained within the given module match the signature. If not specified, types in any module can potentially match the signature.
 
 ### -param typeSignature
+
 The created type signature object is returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -107,6 +108,7 @@ if (SUCCEEDED(spHost.As(&spSym)))
 }
 ```
 
-
 ## -see-also
+
 [IDebugHostSymbols interface](nn-dbgmodel-idebughostsymbols.md)
+

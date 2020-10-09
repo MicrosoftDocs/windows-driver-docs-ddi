@@ -8,8 +8,6 @@ ms.assetid: 560cb5a3-ac15-4a11-977a-b66caefc2f6b
 ms.date: 05/02/2018
 keywords: ["RIL_EnableNotifications function"]
 ms.keywords: RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_enablenotifications, rilapi/RIL_EnableNotifications
-f1_keywords:
- - "rilapi/RIL_EnableNotifications"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_EnableNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_EnableNotifications
+ - rilapi/RIL_EnableNotifications
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_EnableNotifications
 ---
 
 # RIL_EnableNotifications function
@@ -47,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param usersContext
 
-
 ### -param lpdwNotifications
-
 
 ### -param dwNotificationCount
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

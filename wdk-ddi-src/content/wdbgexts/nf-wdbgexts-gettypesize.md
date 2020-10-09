@@ -8,8 +8,6 @@ ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.date: 05/03/2018
 keywords: ["GetTypeSize function"]
 ms.keywords: GetTypeSize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, debugger.gettypesize, wdbgexts/GetTypeSize
-f1_keywords:
- - "wdbgexts/GetTypeSize"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetTypeSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetTypeSize
+ - wdbgexts/GetTypeSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetTypeSize
 ---
 
 # GetTypeSize function
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypeSize</b> function returns the size in the target's memory of an instance of the specified type.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [in]
-
+[in]
 Specifies the type to return the size of.
-
 
 ## -returns
 
-
-
 This function returns the size of an instance of the specified type.
-
-
 

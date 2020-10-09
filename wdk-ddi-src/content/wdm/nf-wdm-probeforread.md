@@ -8,8 +8,6 @@ ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.date: 04/30/2018
 keywords: ["ProbeForRead function"]
 ms.keywords: ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, wdm/ProbeForRead
-f1_keywords:
- - "wdm/ProbeForRead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ProbeForRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ProbeForRead
+ - wdm/ProbeForRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ProbeForRead
 ---
 
 # ProbeForRead function
@@ -47,39 +46,32 @@ req.typenames:
 
 ## -description
 
-
-The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned. 
-
+The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 
 ## -parameters
 
+### -param Address 
 
-
-
-### -param Address [in]
-
+[in]
 Specifies the beginning of the user-mode buffer.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the length, in bytes, of the user-mode buffer.
 
+### -param Alignment 
 
-### -param Alignment [in]
-
+[in]
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
-
 ## -remarks
-
-
 
 If the specified range of memory is not within the user-mode address range, <b>ProbeForRead</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForRead</b> raises the STATUS_DATATYPE_MISALIGNMENT exception.
 
 Kernel-mode drivers must use <b>ProbeForRead</b> to validate read access to buffers that are allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp -> UserBuffer</b>.
 
-Drivers must call <b>ProbeForRead</b> inside a <b>try/except</b> block. If the routine raises an exception, the driver should complete the IRP with the appropriate error. Note that subsequent accesses by the driver to the user-mode buffer must also be encapsulated within a <b>try/except</b> block: a malicious application could have another thread deleting, substituting, or changing the protection of user address ranges at any time (even after or during a call to <b>ProbeForRead</b> or <b>ProbeForWrite</b>). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
+Drivers must call <b>ProbeForRead</b> inside a <b>try/except</b> block. If the routine raises an exception, the driver should complete the IRP with the appropriate error. Note that subsequent accesses by the driver to the user-mode buffer must also be encapsulated within a <b>try/except</b> block: a malicious application could have another thread deleting, substituting, or changing the protection of user address ranges at any time (even after or during a call to <b>ProbeForRead</b> or <b>ProbeForWrite</b>). For more information, see <a href="/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
 
 Do not use this routine on kernel-mode addresses; it will raise an exception.
 
@@ -87,16 +79,6 @@ If <b>Irp->RequestorMode</b> = <b>KernelMode</b>, the <b>Irp->AssociatedIrp.Syst
 
 If <i>Length</i> = 0, <b>ProbeForRead</b> does no checking of the address. In this case, the routine does not raise an exception for an address that is misaligned or is outside the range of valid user addresses.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>

@@ -6,10 +6,8 @@ old-location: display\dxgk_start_info.htm
 tech.root: display
 ms.assetid: 4d28bc79-5145-48a0-99e8-3f81b2ec4a05
 ms.date: 05/10/2018
-keywords: ["_DXGK_START_INFO structure"]
+keywords: ["DXGK_START_INFO structure"]
 ms.keywords: "*PDXGK_START_INFO, DXGK_START_INFO, DXGK_START_INFO structure [Display Devices], DmStructs_c2f6faad-cd05-43ea-ab58-b296bc130e09.xml, PDXGK_START_INFO, PDXGK_START_INFO structure pointer [Display Devices], _DXGK_START_INFO, display.dxgk_start_info, dispmprt/DXGK_START_INFO, dispmprt/PDXGK_START_INFO"
-f1_keywords:
- - "dispmprt/DXGK_START_INFO"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_START_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
+f1_keywords:
+ - _DXGK_START_INFO
+ - dispmprt/_DXGK_START_INFO
+ - PDXGK_START_INFO
+ - dispmprt/PDXGK_START_INFO
+ - DXGK_START_INFO
+ - dispmprt/DXGK_START_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_START_INFO
 ---
 
 # _DXGK_START_INFO structure
@@ -47,24 +50,17 @@ req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 
 ## -description
 
-
-The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
+The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field RequiredDmaQueueEntry
 
-The number of DMA buffers that the display miniport driver (or the display adapter) must be able to hold in a queue. The display miniport driver must preallocate all resources required to accommodate this number of DMA buffers. 
-
+The number of DMA buffers that the display miniport driver (or the display adapter) must be able to hold in a queue. The display miniport driver must preallocate all resources required to accommodate this number of DMA buffers.
 
 ### -field AdapterGuid
 
 A GUID that will serve as an identifier for the adapter being started.
-
 
 ### -field AdapterLuid
 
@@ -72,14 +68,8 @@ Available starting with Windows 8.
 
 A locally unique identifier (LUID) that will serve as an identifier for the adapter being started.
 
-
 ## -remarks
 
+The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>.
 
-
-The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>.
-
-The <i>DxgkStartInfo</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure. 
-
-
-
+The <i>DxgkStartInfo</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure.

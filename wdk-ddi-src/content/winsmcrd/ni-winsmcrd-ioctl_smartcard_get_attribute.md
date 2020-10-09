@@ -8,8 +8,6 @@ ms.assetid: 5B5F4CA1-0E49-4D60-AD78-3294C80844E1
 ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_GET_ATTRIBUTE IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_ATTRIBUTE, IOCTL_SMARTCARD_GET_ATTRIBUTE control, IOCTL_SMARTCARD_GET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_attribute, winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE
-f1_keywords:
- - "winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsmcrd.h
-api_name:
-- IOCTL_SMARTCARD_GET_ATTRIBUTE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SMARTCARD_GET_ATTRIBUTE
+ - winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsmcrd.h
+api_name:
+ - IOCTL_SMARTCARD_GET_ATTRIBUTE
 ---
 
 # IOCTL_SMARTCARD_GET_ATTRIBUTE IOCTL
@@ -47,61 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b> 
-   control code queries for smart card attribues. 
-
+   control code queries for smart card attribues.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 (DWORD) contains the attribute tag.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 (DWORD) contains the attribute tag.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -133,12 +97,8 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 <td>This code is returned if the proximity radio control is off when the call is made.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following actions are required when using this IOCTL:<ul>
 <li>
@@ -149,21 +109,10 @@ The driver must support CancelIo on this pended IOCTL.
 <li>If this IOCTL is issued when the NFCC is in RF discovery state, the driver needs to put the NFCC into RF idle state, configure the routing table, and restart RF discovery.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>

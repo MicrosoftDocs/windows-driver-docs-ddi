@@ -5,39 +5,38 @@ description: The CreateTypedintrinsicObject method is similar to the CreateIntri
 ms.assetid: db59c333-2707-4ff9-9ee2-9c34275d7162
 ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateTypedIntrinsicObject"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.CreateTypedIntrinsicObject"
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject, IDataModelManager2::CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.CreateTypedIntrinsicObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::CreateTypedIntrinsicObject
+ - dbgmodel/IDataModelManager2::CreateTypedIntrinsicObject
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.CreateTypedIntrinsicObject
 ---
 
 # IDataModelManager2::CreateTypedIntrinsicObject
@@ -45,22 +44,24 @@ ms.custom: RS5
 
 ## -description
 
-The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value. This allows the data model to represent constructs such as native enumeration types (which are simply VT_UI* or VT_I* values). Pointer types are also created with this method. A native pointer in the data model is a zero extended 64-bit quantity representing an offset into the virtual address space of the debug target. It is boxed inside a VT_UI8 and is created with this method and a type which indicates a native/language pointer. 
+The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value. This allows the data model to represent constructs such as native enumeration types (which are simply VT_UI* or VT_I* values). Pointer types are also created with this method. A native pointer in the data model is a zero extended 64-bit quantity representing an offset into the virtual address space of the debug target. It is boxed inside a VT_UI8 and is created with this method and a type which indicates a native/language pointer.
 
 ## -parameters
 
 ### -param intrinsicData
+
 A VARIANT containing the value which is going to be boxd inside an [IModelObject](nn-dbgmodel-imodelobject.md) container. Note that this method does not support VT_UNKNOWN constructs. Anything passed to this method must be expressable as ObjectIntrinsic
 
-
 ### -param type
+
 The native/language type of the value.
 
 ### -param object
+
 The newly boxed value (as an [IModelObject](nn-dbgmodel-imodelobject.md)) will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
@@ -102,7 +103,7 @@ if (SUCCEEDED(spManager->CreateTypedIntrinsicObject(&vtPtrValue, spPtrType.Get()
 }
 ```
 
-
 ## -see-also
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

@@ -8,8 +8,6 @@ ms.assetid: b1d38829-53bc-42a5-acaf-c1ad89b8b563
 ms.date: 03/29/2018
 keywords: ["ISCSI_AUTH_TYPES enumeration"]
 ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [Storage Devices], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, PISCSI_AUTH_TYPES, PISCSI_AUTH_TYPES enumeration pointer [Storage Devices], iscsidef/ISCSI_AUTH_TYPES, iscsidef/ISCSI_CHAP_AUTH_TYPE, iscsidef/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidef/ISCSI_NO_AUTH_TYPE, iscsidef/PISCSI_AUTH_TYPES, storage.iscsi_auth_types, structs-iSCSI_a55ac905-6962-416f-a197-778a24eae524.xml"
-f1_keywords:
- - "iscsidef/ISCSI_AUTH_TYPES"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsidef.h
-api_name:
-- ISCSI_AUTH_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
+f1_keywords:
+ - PISCSI_AUTH_TYPES
+ - iscsidef/PISCSI_AUTH_TYPES
+ - ISCSI_AUTH_TYPES
+ - iscsidef/ISCSI_AUTH_TYPES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsidef.h
+api_name:
+ - ISCSI_AUTH_TYPES
 ---
 
 # ISCSI_AUTH_TYPES enumeration
@@ -47,24 +48,17 @@ req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 
 ## -description
 
-
-The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection. 
-
+The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.
 
 ## -enum-fields
 
-
-
-
 ### -field ISCSI_NO_AUTH_TYPE
 
-No authentication type was specified. 
-
+No authentication type was specified.
 
 ### -field ISCSI_CHAP_AUTH_TYPE
 
 Challenge handshake authentication protocol (CHAP).
-
 
 ### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE
 

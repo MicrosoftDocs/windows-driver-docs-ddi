@@ -8,8 +8,6 @@ ms.assetid: b7a9142a-b6db-4a64-a5e3-d03d39ac3d09
 ms.date: 04/16/2018
 keywords: ["SeAppendPrivileges function"]
 ms.keywords: SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges, ntifs/SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml
-f1_keywords:
- - "ntifs/SeAppendPrivileges"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeAppendPrivileges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeAppendPrivileges
+ - ntifs/SeAppendPrivileges
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeAppendPrivileges
 ---
 
 # SeAppendPrivileges function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeAppendPrivileges</b> routine appends additional privileges to the privilege set in an access state structure.
-
 
 ## -parameters
 
+### -param AccessState 
 
+[in, out]
+Pointer to a caller-allocated ACCESS_STATE structure representing the current access request.
 
+### -param Privileges 
 
-### -param AccessState [in, out]
-
-Pointer to a caller-allocated ACCESS_STATE structure representing the current access request. 
-
-
-### -param Privileges [in]
-
-Pointer to a caller-allocated PRIVILEGE_SET structure containing the privileges to be added. 
-
+[in]
+Pointer to a caller-allocated PRIVILEGE_SET structure containing the privileges to be added.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,49 +90,33 @@ The append operation succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Initially, an access state structure can hold up to three privileges in its privilege set. If more than three privileges need to be stored, <b>SeAppendPrivileges</b> allocates a new privilege set from the paged pool and copies into it both the current privileges and the new privileges.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefreeprivileges">SeFreePrivileges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefreeprivileges">SeFreePrivileges</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetaccessstategenericmapping">SeSetAccessStateGenericMapping</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetaccessstategenericmapping">SeSetAccessStateGenericMapping</a>

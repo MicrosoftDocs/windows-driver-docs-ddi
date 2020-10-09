@@ -8,8 +8,6 @@ ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.date: 04/30/2018
 keywords: ["IoWMIAllocateInstanceIds function"]
 ms.keywords: IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids, wdm/IoWMIAllocateInstanceIds
-f1_keywords:
- - "wdm/IoWMIAllocateInstanceIds"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMIAllocateInstanceIds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMIAllocateInstanceIds
+ - wdm/IoWMIAllocateInstanceIds
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMIAllocateInstanceIds
 ---
 
 # IoWMIAllocateInstanceIds function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoWMIAllocateInstanceIds</b> routine allocates one or more instance IDs that are unique to the GUID.
-
 
 ## -parameters
 
+### -param Guid 
 
+[in]
+Pointer to the GUID for which to generate instance identifiers.
 
+### -param InstanceCount 
 
-### -param Guid [in]
+[in]
+Specifies how many instance identifiers should be provided.
 
-Pointer to the GUID for which to generate instance identifiers. 
+### -param FirstInstanceId 
 
-
-### -param InstanceCount [in]
-
-Specifies how many instance identifiers should be provided. 
-
-
-### -param FirstInstanceId [out]
-
-Pointer to the first instance identifier that the driver should use. 
-
+[out]
+Pointer to the first instance identifier that the driver should use.
 
 ## -returns
-
-
 
 <b>IoWMIAllocateInstanceIds</b> returns a status code from the following list:
 
@@ -116,27 +108,11 @@ Indicates that insufficient resources were available to provide the caller with 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If greater than one instance was requested in <i>InstanceCount</i> and the routine completed successfully, <i>FirstInstanceId</i> points to the first instance that the caller should use. For each instance requested beyond one, the caller should increment the value returned in *<i>FirstInstanceId</i>. For example, if the caller requested six instances and one was returned as the value of <i>FirstInstanceId</i>, the caller should use the values 1-6 as his unique instance identifiers.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename">IoWmiSuggestInstanceName</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename">IoWmiSuggestInstanceName</a>

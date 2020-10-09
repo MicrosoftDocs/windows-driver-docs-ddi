@@ -8,8 +8,6 @@ ms.assetid: c9cc9124-ee15-40df-b149-a9f3b26d7c24
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtQueryPolicy function"]
 ms.keywords: ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy
-f1_keywords:
- - "wdm/ClfsMgmtQueryPolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtQueryPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtQueryPolicy
+ - wdm/ClfsMgmtQueryPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtQueryPolicy
 ---
 
 # ClfsMgmtQueryPolicy function
@@ -48,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>ClfsMgmtQueryPolicy</b> routine retrieves a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure for a log.
-
+The <b>ClfsMgmtQueryPolicy</b> routine retrieves a specific <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure for a log.
 
 ## -parameters
 
+### -param LogFile 
 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being retrieved.
 
+### -param PolicyType 
 
-### -param LogFile [in]
+[in]
+A value of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that identifies the type of policy to be retrieved.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being retrieved.
+### -param Policy 
 
+[out]
+An instance of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that contains the policy.
 
-### -param PolicyType [in]
+### -param PolicyLength 
 
-A value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that identifies the type of policy to be retrieved.
-
-
-### -param Policy [out]
-
-An instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that contains the policy.
-
-
-### -param PolicyLength [out]
-
+[out]
 The length of the <i>Policy</i> parameter.
 
-
 ## -returns
-
-
 
 The <b>ClfsMgmtQueryPolicy</b> routine returns one of the following NTSTATUS values:
 
@@ -168,22 +160,12 @@ No policy of this type has been registered for the log file.
 </table>
  
 
-This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS Values</a>.
-
-
-
+This routine might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS Values</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>

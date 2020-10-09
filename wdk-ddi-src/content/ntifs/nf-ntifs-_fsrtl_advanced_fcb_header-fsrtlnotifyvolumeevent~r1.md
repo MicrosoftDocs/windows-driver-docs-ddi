@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyVolumeEvent function"]
 ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent
 f1_keywords:
  - "ntifs/FsRtlNotifyVolumeEvent"
+ - "FsRtlNotifyVolumeEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyVolumeEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications t
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the given volume.
 
 
-### -param EventCode [in]
-
+### -param EventCode 
+[in]
 Specifies an event code for the event that is occurring. This code can be one of the following values.
 
 <table>
@@ -298,12 +297,11 @@ To register for volume event notification, applications must call the Microsoft 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
  
 
  
-

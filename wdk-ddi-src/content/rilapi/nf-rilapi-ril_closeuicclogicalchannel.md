@@ -8,8 +8,6 @@ ms.assetid: 4cc0c9b0-8ddc-408e-bc49-81e5a19843d2
 ms.date: 05/02/2018
 keywords: ["RIL_CloseUiccLogicalChannel function"]
 ms.keywords: RIL_CloseUiccLogicalChannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannel, rilapi/RIL_CloseUiccLogicalChannel
-f1_keywords:
- - "rilapi/RIL_CloseUiccLogicalChannel"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_CloseUiccLogicalChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_CloseUiccLogicalChannel
+ - rilapi/RIL_CloseUiccLogicalChannel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_CloseUiccLogicalChannel
 ---
 
 # RIL_CloseUiccLogicalChannel function
@@ -47,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwSlotIndex
-
 
 ### -param dwChannelId
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

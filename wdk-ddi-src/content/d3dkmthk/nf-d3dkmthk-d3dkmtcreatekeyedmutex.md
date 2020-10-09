@@ -7,8 +7,6 @@ ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateKeyedMutex function"]
 ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateKeyedMutex"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -23,26 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTCreateKeyedMutex
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTCreateKeyedMutex
+ - d3dkmthk/D3DKMTCreateKeyedMutex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTCreateKeyedMutex
 ---
 
 # D3DKMTCreateKeyedMutex function
+
 
 ## -description
 
@@ -54,7 +54,7 @@ The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create.
 
 ## -returns
 
@@ -65,14 +65,10 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | The keyed mutex object was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex]()  could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a>

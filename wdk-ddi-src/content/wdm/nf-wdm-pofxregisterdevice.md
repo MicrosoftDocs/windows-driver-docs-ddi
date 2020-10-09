@@ -8,8 +8,6 @@ ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterDevice function"]
 ms.keywords: PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, wdm/PoFxRegisterDevice
-f1_keywords:
- - "wdm/PoFxRegisterDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxRegisterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxRegisterDevice
+ - wdm/PoFxRegisterDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxRegisterDevice
 ---
 
 # PoFxRegisterDevice function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxRegisterDevice</b> routine registers a device with the power management framework (PoFx).
-
 
 ## -parameters
 
+### -param Pdo 
 
+[in]
+A pointer to a <a href="/windows-hardware/drivers/">physical device object</a> (PDO). This parameter points to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the physical device that is being registered. The caller is the power policy owner for the device, which is typically the device's function driver.
 
+### -param Device 
 
-### -param Pdo [in]
+[in]
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that contains the registration information for the device. This structure contains pointers to a set of callback routines that are implemented by the device driver. PoFx calls these routines to communicate with the driver.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object</a> (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the physical device that is being registered. The caller is the power policy owner for the device, which is typically the device's function driver.
+### -param Handle 
 
-
-### -param Device [in]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that contains the registration information for the device. This structure contains pointers to a set of callback routines that are implemented by the device driver. PoFx calls these routines to communicate with the driver.
-
-
-### -param Handle [out]
-
+[out]
 A pointer to a location into which the routine writes a handle that represents the registration of the device with PoFx. The device driver passes this handle as an input parameter to the other <b>PoFx<i>Xxx</i></b> routines that it calls. The driver must first call <b>PoFxRegisterDevice</b> to register the device before the driver calls any other <b>PoFx<i>Xxx</i></b> routines to power-manage the device.
 
-
 ## -returns
-
-
 
 <b>PoFxRegisterDevice</b> returns <b>STATUS_SUCCESS</b> if the routine successfully registers the device. Possible error return values include the following status codes.
 
@@ -116,16 +108,10 @@ Insufficient resources are available to complete the registration.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A device driver typically calls this routine from the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request handler. The driver must not call this routine before the device receives an <b>IRP_MN_START_DEVICE</b> request. The device receives the first <b>IRP_MN_START_DEVICE</b> request when the device is being started for the first time. The device receives an additional <b>IRP_MN_START_DEVICE</b> request each time the device is restarted after being stopped for resource balancing. A <b>PoFxRegisterDevice</b> call to register a device that is already registered is a fatal error and causes a bug check. Note that PoFx performs a deep-copy of the device structures into its memory. 
+A device driver typically calls this routine from the driver's <a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request handler. The driver must not call this routine before the device receives an <b>IRP_MN_START_DEVICE</b> request. The device receives the first <b>IRP_MN_START_DEVICE</b> request when the device is being started for the first time. The device receives an additional <b>IRP_MN_START_DEVICE</b> request each time the device is restarted after being stopped for resource balancing. A <b>PoFxRegisterDevice</b> call to register a device that is already registered is a fatal error and causes a bug check. Note that PoFx performs a deep-copy of the device structures into its memory. 
 
 Before the driver calls <b>PoFxRegisterDevice</b>, the device must meet the following conditions:
 
@@ -136,50 +122,40 @@ Before the driver calls <b>PoFxRegisterDevice</b>, the device must meet the foll
 <li>Every component in the device is in the F0 (fully on) power state.</li>
 <li>Every component is in the active condition.</li>
 </ul>
-By registering the device with PoFx, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. While the device is registered, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a> routine to gain access to a component's hardware registers, and the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a> routine to notify PoFx when the driver no longer requires access to the component.
+By registering the device with PoFx, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. While the device is registered, the driver must call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a> routine to gain access to a component's hardware registers, and the driver must call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a> routine to notify PoFx when the driver no longer requires access to the component.
 
-After a driver calls <b>PoFxRegisterDevice</b> to register a device with PoFx, all components in the device are fully on and in the active condition so that the driver can finish initializing the hardware. To start active power management, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxstartdevicepowermanagement">PoFxStartDevicePowerManagement</a> routine.
+After a driver calls <b>PoFxRegisterDevice</b> to register a device with PoFx, all components in the device are fully on and in the active condition so that the driver can finish initializing the hardware. To start active power management, the driver must call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxstartdevicepowermanagement">PoFxStartDevicePowerManagement</a> routine.
 
 By default, <b>PoFxStartDevicePowerManagement</b> switches all components to the idle condition. If the driver requires a component to be in the active condition immediately after power management starts, the driver must explicitly activate the component by calling the <b>PoFxActivateComponent</b> routine, and this call must occur after the <b>PoFxRegisterDevice</b> call but before the <b>PoFxStartDevicePowerManagement</b> call.
 
-Typically, the Kernel-Mode Driver Framework (KMDF) driver for a single-component device does not call <b>PoFxRegisterDevice</b> to register the device with PoFx. Instead, this driver receives a PoFx registration handle when KMDF calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a> callback function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-multiple-functional-power-states-for-single-component-devices">Supporting Multiple Functional Power States for Single-Component Devices</a>.
+Typically, the Kernel-Mode Driver Framework (KMDF) driver for a single-component device does not call <b>PoFxRegisterDevice</b> to register the device with PoFx. Instead, this driver receives a PoFx registration handle when KMDF calls the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a> callback function. For more information, see <a href="/windows-hardware/drivers/wdf/supporting-multiple-functional-power-states-for-single-component-devices">Supporting Multiple Functional Power States for Single-Component Devices</a>.
 
-For information about how the KMDF driver for a multiple-component device registers with PoFx, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-multiple-functional-power-states-for-multiple-component-devices">Supporting Multiple Functional Power States for Multiple-Component Devices</a>.
-
-
-
+For information about how the KMDF driver for a multiple-component device registers with PoFx, see <a href="/windows-hardware/drivers/wdf/supporting-multiple-functional-power-states-for-multiple-component-devices">Supporting Multiple Functional Power States for Multiple-Component Devices</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>
+<a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxstartdevicepowermanagement">PoFxStartDevicePowerManagement</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxstartdevicepowermanagement">PoFxStartDevicePowerManagement</a>

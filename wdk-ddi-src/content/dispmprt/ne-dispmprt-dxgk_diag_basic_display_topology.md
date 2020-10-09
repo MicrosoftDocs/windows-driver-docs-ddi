@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
  - DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
 f1_keywords:
+ - _DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
  - dispmprt/_DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
+ - DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
  - dispmprt/DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY enumeration
+
 
 ## -description
 
@@ -80,3 +83,4 @@ Dongles and hubs can increase the failure points that can occur during monitor e
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 
 [**DXGKDDI_DPAUXIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpauxiotransmission.md)
+

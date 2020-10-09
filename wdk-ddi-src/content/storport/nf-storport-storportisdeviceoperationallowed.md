@@ -8,8 +8,6 @@ ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.date: 03/29/2018
 keywords: ["StorPortIsDeviceOperationAllowed function"]
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
-f1_keywords:
- - "storport/StorPortIsDeviceOperationAllowed"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortIsDeviceOperationAllowed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortIsDeviceOperationAllowed
+ - storport/StorPortIsDeviceOperationAllowed
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortIsDeviceOperationAllowed
 ---
 
 # StorPortIsDeviceOperationAllowed function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver can call the <b>StorPortIsDeviceOperationAllowedminiport</b> routine to determine if operations for a certain device management      class are allowed. A status value is set in the return parameter to indicate whether such operations are allowed or not allowed for the device in its current operating environment.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Address 
 
-### -param Address [in]
-
+[in]
 The address of a storage device unit.
 
+### -param DeviceOperation 
 
-### -param DeviceOperation [in]
-
+[in]
 A pointer to a GUID specifying a device management operation class. The following GUID is valid.
 
 <table>
@@ -86,17 +81,13 @@ The device is enabled to receive secured provisioning commands.
 </td>
 </tr>
 </table>
- 
 
+### -param AllowedFlag 
 
-### -param AllowedFlag [out]
-
+[out]
  TRUE when the operation specified in <i>DeviceOperation</i> is allowed. Otherwise, FALSE.
 
-
 ## -returns
-
-
 
 The <b>StorPortIsDeviceOperationAllowed</b> routine returns one of these status codes:
 
@@ -158,7 +149,4 @@ The management class specified in <i>DeviceOperation</i> is not available or inv
 </td>
 </tr>
 </table>
- 
-
-
 

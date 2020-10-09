@@ -8,8 +8,6 @@ ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
-f1_keywords:
- - "pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,124 +25,113 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+ - pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
+# PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function (pepfx.h)
 
 
 ## -description
 
-
-The <b>PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a> structure.
-
+The <b>PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a> structure.
 
 ## -parameters
 
+### -param InterruptType 
 
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
+### -param LevelType 
 
-### -param InterruptType [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+### -param Shareable 
 
-
-### -param LevelType [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
-
-
-### -param Shareable [in]
-
+[in]
 Indicates if the device can be shared.
 
+### -param CanWake 
 
-### -param CanWake [in]
-
+[in]
 Indicates if the device can be woken from a low-power state.
 
+### -param PinConfig 
 
-### -param PinConfig [in]
+[in]
+A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_gpio_pin_config_type">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_gpio_pin_config_type">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
+### -param DebounceTimeout 
 
-
-### -param DebounceTimeout [in]
-
+[in]
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
+### -param ResourceSourceIndex 
 
-### -param ResourceSourceIndex [in]
-
+[in]
 This parameter should always be zero.
 
+### -param ResourceSourceName 
 
-### -param ResourceSourceName [in]
-
+[in]
 This parameter should always be "ResourceConsumer."
 
+### -param ResourceUsage 
 
-### -param ResourceUsage [in]
-
+[in]
 Indicates if this device is in use.
 
+### -param VendorData 
 
-### -param VendorData [in]
+[in]
+A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver.
 
-A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
+### -param VendorDataLength 
 
-
-### -param VendorDataLength [in]
-
+[in]
 The size of the buffer in the <i>VendorData</i> partameter.
 
+### -param PinTable 
 
-### -param PinTable [in]
+[in]
+A list of pin numbers on the resource.
 
-A list of pin numbers on the resource. 
+### -param PinCount 
 
-
-### -param PinCount [in]
-
+[in]
 The number of pins described by the <i>PinTable</i> parameter.
 
+### -param Resource 
 
-### -param Resource [out]
-
-A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>. 
-
+[out]
+A pointer to the resource. The structure behind the pointer is of type <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_gpio_pin_config_type">GPIO_PIN_CONFIG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_gpio_pin_config_type">GPIO_PIN_CONFIG_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>

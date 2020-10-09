@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetDefaultMetadata
 title: IDebugHost::GetDefaultMetadata (dbgmodel.h)
-description: The GetDefaultMetadata method returns a default metadata store that may be used for certain operations (that is string conversion) when no explicit metadata has been passed. 
+description: The GetDefaultMetadata method returns a default metadata store that may be used for certain operations (that is string conversion) when no explicit metadata has been passed.
 ms.assetid: e624b7fe-b691-4e1a-93d5-f62747d929ac
 ms.date: 08/14/2018
 keywords: ["IDebugHost::GetDefaultMetadata"]
-f1_keywords:
- - "dbgmodel/IDebugHost.GetDefaultMetadata"
 ms.keywords: IDebugHost::GetDefaultMetadata, GetDefaultMetadata, IDebugHost.GetDefaultMetadata, IDebugHost::GetDefaultMetadata, IDebugHost.GetDefaultMetadata
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHost.GetDefaultMetadata
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHost::GetDefaultMetadata
+ - dbgmodel/IDebugHost::GetDefaultMetadata
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHost.GetDefaultMetadata
 ---
 
 # IDebugHost::GetDefaultMetadata
@@ -47,15 +46,16 @@ ms.custom: RS5
 
 The GetDefaultMetadata method returns a default metadata store that may be used for certain operations (e.g.: string conversion) when no explicit metadata has been passed. This allows the debug host to have some control over the way some data is presented. For example, the default metadata may include a PreferredRadix key, allowing the host to indicate whether ordinals should be displayed in decimal or hexadecimal if not otherwise specified.
 
-Note that property values on the default metadata store must be manually resolved and must pass the object for which the default metadata is being queried. The GetKey method should be used in lieu of GetKeyValue. 
-
+Note that property values on the default metadata store must be manually resolved and must pass the object for which the default metadata is being queried. The GetKey method should be used in lieu of GetKeyValue.
 
 ## -parameters
 
 ### -param defaultMetadataStore
+
 The debug host's default metadata store is returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -240,3 +240,4 @@ IFACEMETHOD(GetDefaultMetadata)(_Out_ IKeyStore **ppMetadata)
 ## -see-also
 
 [IDebugHost interface](nn-dbgmodel-idebughost.md)
+

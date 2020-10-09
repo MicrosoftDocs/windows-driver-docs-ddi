@@ -1,40 +1,39 @@
 ---
 UID: NF:hidport.HidNotifyPresence
 title: HidNotifyPresence function
-author: windows-driver-content
 description: The HidNotifyPresence function is reserved for the HID driver internal framework
-tech.root:
+tech.root: 
 ms.date: 02/05/2019
 keywords: ["HidNotifyPresence function"]
-f1_keywords:
- - "hidport/HidNotifyPresence"
 ms.keywords: HidNotifyPresence
 req.header: hidport.h
 req.include-header: hidport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP SP1 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: Hid.lib
-req.dll:
+req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hid.lib
-- Hid.dll
-api_name:
-- HidNotifyPresence
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - HidNotifyPresence
+ - hidport/HidNotifyPresence
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hid.lib
+ - Hid.dll
+api_name:
+ - HidNotifyPresence
 ---
 
 # HidNotifyPresence function
+
 
 ## -description
 
@@ -51,7 +50,10 @@ The **HidNotifyPresence** function is reserved for the HID driver internal frame
 (In BOOLEAN)
 
 ## -returns
+
 This function returns NTSTATUS.
+
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 34585815-d683-4702-bbfe-76d5d9fe244c
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_UNINITIALIZE callback function"]
 ms.keywords: DebugExtensionUninitialize, DebugExtensionUninitialize callback function [Windows Debugging], Extensions_Ref_76594e24-5f2d-495f-b8a9-6acec1f21ba4.xml, PDEBUG_EXTENSION_UNINITIALIZE, PDEBUG_EXTENSION_UNINITIALIZE callback, dbgeng/DebugExtensionUninitialize, debugger.debugextensionuninitialize
-f1_keywords:
- - "dbgeng/DebugExtensionUninitialize"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dbgeng.h
-api_name:
-- DebugExtensionUninitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_EXTENSION_UNINITIALIZE
+ - dbgeng/PDEBUG_EXTENSION_UNINITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dbgeng.h
+api_name:
+ - DebugExtensionUninitialize
 ---
 
 # PDEBUG_EXTENSION_UNINITIALIZE callback function
@@ -47,36 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>DebugExtensionUninitialize</b> callback function is called by the engine to uninitialize the DbgEng extension DLL before it is unloaded.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;
+```
+
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-
-
-
-
-
-
 ## -remarks
-
-
 
 This function is optional.  A DbgEng extension DLL only needs to export <b>DebugExtensionUninitialize</b> if it needs to be notified before it is unloaded.  The engine looks for this function by name in the extension DLL.
 
@@ -86,16 +67,6 @@ There may or may not be a session active when this function is called, so the ex
 
 DebugExtensionUninitialize is called <b>PDEBUG_EXTENSION_UNINITIALIZE</b> in the Dbgeng.h header file.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>

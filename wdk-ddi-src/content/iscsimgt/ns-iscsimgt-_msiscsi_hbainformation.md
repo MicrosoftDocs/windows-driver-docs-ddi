@@ -6,10 +6,8 @@ old-location: storage\msiscsi_hbainformation.htm
 tech.root: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.date: 03/29/2018
-keywords: ["_MSiSCSI_HBAInformation structure"]
+keywords: ["MSiSCSI_HBAInformation structure"]
 ms.keywords: "*PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], _MSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml"
-f1_keywords:
- - "iscsimgt/MSiSCSI_HBAInformation"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsimgt.h
-api_name:
-- MSiSCSI_HBAInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
+f1_keywords:
+ - _MSiSCSI_HBAInformation
+ - iscsimgt/_MSiSCSI_HBAInformation
+ - PMSiSCSI_HBAInformation
+ - iscsimgt/PMSiSCSI_HBAInformation
+ - MSiSCSI_HBAInformation
+ - iscsimgt/MSiSCSI_HBAInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsimgt.h
+api_name:
+ - MSiSCSI_HBAInformation
 ---
 
 # _MSiSCSI_HBAInformation structure
@@ -47,54 +50,41 @@ req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
 
 ## -description
 
-
 The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
-
 
 ## -struct-fields
 
-
-
-
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). 
-
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID).
 
 ### -field IntegratedTCPIP
 
 A Boolean value that indicates if the Windows TCP/IP stack manages TCP/IP traffic for the HBA. If this member is <b>TRUE</b>, the Windows TCP/IP stack manages TCP/IP traffic for the HBA. If this member is <b>FALSE</b>, the Windows TCP/IP stack does not manage TCP/IP traffic for the HBA. A miniport driver for an adapter with its own TCP/IP stack should set this member to <b>FALSE</b>.
 
-
 ### -field RequiresBinaryIpAddresses
 
-A Boolean value that indicates whether the miniport driver for the HBA instructs the iSCSI initiator service to perform DNS lookup and provide the HBA with binary IP addresses. If this member is <b>TRUE</b>, the miniport driver for the HBA instructs the iSCSI initiator service to perform DNS lookup and provide the HBA with binary IP addresses. For the iSCSI initiator service to honor this request, the HBA must be on the same network as the Windows TCP/IP stack. If <b>RequiresBinaryIpAddresses</b> is <b>FALSE</b>, the HBA and its miniport driver have direct access to DNS. 
-
+A Boolean value that indicates whether the miniport driver for the HBA instructs the iSCSI initiator service to perform DNS lookup and provide the HBA with binary IP addresses. If this member is <b>TRUE</b>, the miniport driver for the HBA instructs the iSCSI initiator service to perform DNS lookup and provide the HBA with binary IP addresses. For the iSCSI initiator service to honor this request, the HBA must be on the same network as the Windows TCP/IP stack. If <b>RequiresBinaryIpAddresses</b> is <b>FALSE</b>, the HBA and its miniport driver have direct access to DNS.
 
 ### -field VersionMin
 
-The earliest version of the iSCSI specification that the HBA and its miniport driver support. 
-
+The earliest version of the iSCSI specification that the HBA and its miniport driver support.
 
 ### -field VersionMax
 
-The most recent version of the iSCSI specification that the HBA and its miniport driver support. 
-
+The most recent version of the iSCSI specification that the HBA and its miniport driver support.
 
 ### -field MultifunctionDevice
 
 A Boolean value that indicates whether the HBA is a multifunction device. If this member is <b>TRUE</b>, the HBA is a multifunction device, and it exposes a netcard interface. If this member <b>FALSE</b>, the HBA is not a multifunction device.
 
-
 ### -field CacheValid
 
-A Boolean value that indicates if the adapter caches are value. If this member is <b>TRUE</b>, the adapter caches are valid. If this member is <b>FALSE</b>, the caches are invalid or the adapter does not cache data. 
-
+A Boolean value that indicates if the adapter caches are value. If this member is <b>TRUE</b>, the adapter caches are valid. If this member is <b>FALSE</b>, the caches are invalid or the adapter does not cache data.
 
 ### -field NumberOfPorts
 
 The number of ports (or TCP/IP addresses on the adapter).
-
 
 ### -field Status
 
@@ -146,8 +136,6 @@ The HBA is not functioning at all.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FunctionalitySupported
 
@@ -219,88 +207,63 @@ The HBA supports SLP discovery.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GenerationalGuid
 
-The generational GUID. This GUID is the GUID value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method in the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a> last set.
-
+The generational GUID. This GUID is the GUID value that the <a href="/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method in the <a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a> last set.
 
 ### -field MaxCDBLength
 
 The maximum CDB length, in bytes, that the HBA supports.
 
-
 ### -field BiDiScsiCommands
 
 A Boolean value that indicates if the HBA supports bidirectional SCSI commands. If this member is <b>TRUE</b>, the HBA supports bidirectional SCSI commands. If this member is <b>FALSE</b>, the HBA does not support bidirectional commands.
-
 
 ### -field VendorID
 
 The manufacturer of the HBA.
 
-
 ### -field VendorModel
 
 A string that specifies the model of the HBA. The manufacturer defines this string.
-
 
 ### -field VendorVersion
 
 A string that specifies the version of the HBA. The manufacturer defines this string.
 
-
 ### -field FirmwareVersion
 
 A string that specifies the version of the firmware in the HBA. The manufacturer defines this string.
-
 
 ### -field AsicVersion
 
 A string that specifies the Asic version. The manufacturer defines this string.
 
-
 ### -field OptionRomVersion
 
 A string that specifies the option ROM version of the HBA. The manufacturer defines this string.
-
 
 ### -field SerialNumber
 
 A string that specifies the serial number of the HBA. The manufacturer defines this string.
 
-
 ### -field DriverName
 
 A string that specifies the name of the driver for the HBA.
 
-
 ## -remarks
-
-
 
 You must implement this class.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/storage/msiscsi-hbainformation-wmi-class">MSiSCSI_HBAInformation WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-hbainformation-wmi-class">MSiSCSI_HBAInformation WMI Class</a>
+<a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>

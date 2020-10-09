@@ -8,8 +8,6 @@ ms.assetid: a79a5d3b-ed1c-42fa-b491-0ad0b3dfc921
 ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeToMultiByteN function"]
 ms.keywords: RtlUpcaseUnicodeToMultiByteN, RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetomultibyten, ntifs/RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml
-f1_keywords:
- - "ntifs/RtlUpcaseUnicodeToMultiByteN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlUpcaseUnicodeToMultiByteN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUpcaseUnicodeToMultiByteN
+ - ntifs/RtlUpcaseUnicodeToMultiByteN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlUpcaseUnicodeToMultiByteN
 ---
 
 # RtlUpcaseUnicodeToMultiByteN function
@@ -47,77 +46,55 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUpcaseUnicodeToMultiByteN</b> routine translates the specified Unicode string into a new uppercase character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set. 
-
+The <b>RtlUpcaseUnicodeToMultiByteN</b> routine translates the specified Unicode string into a new uppercase character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set.
 
 ## -parameters
 
+### -param MultiByteString 
 
+[out]
+Pointer to a caller-allocated buffer to receive the translated string.
 
+### -param MaxBytesInMultiByteString 
 
-### -param MultiByteString [out]
+[in]
+Maximum number of bytes to be written at <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUpcaseUnicodeToMultiByteN</b> does not return an error status.
 
-Pointer to a caller-allocated buffer to receive the translated string. 
+### -param BytesInMultiByteString 
 
+[out, optional]
+Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>.
 
-### -param MaxBytesInMultiByteString [in]
+### -param UnicodeString 
 
-Maximum number of bytes to be written at <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUpcaseUnicodeToMultiByteN</b> does not return an error status. 
+[in]
+Pointer to the Unicode source string to be translated.
 
+### -param BytesInUnicodeString 
 
-### -param BytesInMultiByteString [out, optional]
-
-Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
-
-
-### -param UnicodeString [in]
-
-Pointer to the Unicode source string to be translated. 
-
-
-### -param BytesInUnicodeString [in]
-
-Size, in bytes, of the string at <i>UnicodeString</i>. 
-
+[in]
+Size, in bytes, of the string at <i>UnicodeString</i>.
 
 ## -returns
 
-
-
-<b>RtlUpcaseUnicodeToMultiByteN</b> returns STATUS_SUCCESS. 
-
-
-
+<b>RtlUpcaseUnicodeToMultiByteN</b> returns STATUS_SUCCESS.
 
 ## -remarks
-
-
 
 <b>RtlUpcaseUnicodeToMultiByteN</b> translates the given Unicode string using the current system ANSI code page installed at system boot time and converts the translated string to uppercase. 
 
 This routine does not modify the source string. It returns a NULL-terminated ANSI string if the given <i>BytesInUnicodeString</i> included a NULL terminator and if the given <i>MaxBytesInMultiByteString</i> did not cause truncation.
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibyten">RtlUnicodeToMultiByteN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibyten">RtlUnicodeToMultiByteN</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibytesize">RtlUnicodeToMultiByteSize</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetomultibytesize">RtlUnicodeToMultiByteSize</a>

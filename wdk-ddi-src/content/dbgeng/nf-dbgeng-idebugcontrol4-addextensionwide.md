@@ -8,8 +8,6 @@ ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::AddExtensionWide"]
 ms.keywords: AddExtensionWide, AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddExtensionWide method, IDebugControl4.AddExtensionWide, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
-f1_keywords:
- - "dbgeng/IDebugControl4.AddExtensionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl4.AddExtensionWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::AddExtensionWide
+ - dbgeng/IDebugControl4::AddExtensionWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl4.AddExtensionWide
 ---
 
 # IDebugControl4::AddExtensionWide
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>AddExtensionWide</b>  method loads an extension library into the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
-
+The <b>AddExtensionWide</b>  method loads an extension library into the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
 
 ## -parameters
 
+### -param Path 
 
-
-
-### -param Path [in]
-
+[in]
 Specifies the fully qualified path and file name of the extension library to load.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Set to zero.
 
+### -param Handle 
 
-### -param Handle [out]
-
+[out]
 Receives the handle of the loaded extension library.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -94,39 +86,24 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
-
-
-
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
-
-
 
 If the extension library has already been loaded, the handle to already loaded library is returned.  The extension library is not loaded again.
 
 The extension library is loaded into the host engine and <i>Path</i> contains a path and file name for this instance of the debugger engine.
 
-For more information on using extension libraries, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/calling-extensions-and-extension-functions">Calling Extensions and Extension Functions</a>.
-
-
-
+For more information on using extension libraries, see <a href="/windows-hardware/drivers/debugger/calling-extensions-and-extension-functions">Calling Extensions and Extension Functions</a>.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getextensionbypath">GetExtensionByPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getextensionbypath">GetExtensionByPath</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeextension">RemoveExtension</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeextension">RemoveExtension</a>

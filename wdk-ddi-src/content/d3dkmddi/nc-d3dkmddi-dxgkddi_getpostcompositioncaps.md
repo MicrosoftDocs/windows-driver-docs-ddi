@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS"
+ - DXGKDDI_GETPOSTCOMPOSITIONCAPS
+ - d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 
 # DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function
 
+
 ## -description
 
 Called to retrieve post composition capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support post composition scaling.
@@ -56,7 +58,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pGetPostCompositionCaps
 
-[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS</a> structure that receives the driver capabilities.
+[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS</a> structure that receives the driver capabilities.
 
 ## -returns
 
@@ -71,4 +73,3 @@ DXGKDDI_GETPOSTCOMPOSITIONCAPS returns the following values:
 This function is called at PASSIVE_LEVEL.
 
 The multiplane overlay capabilities are allowed to change due to display configuration changes.
-

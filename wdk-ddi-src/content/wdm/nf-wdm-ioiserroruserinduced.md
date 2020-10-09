@@ -8,8 +8,6 @@ ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.date: 04/30/2018
 keywords: ["IoIsErrorUserInduced macro"]
 ms.keywords: IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, kernel.ioiserroruserinduced, wdm/IoIsErrorUserInduced
-f1_keywords:
- - "wdm/IoIsErrorUserInduced"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IoIsErrorUserInduced
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoIsErrorUserInduced
+ - wdm/IoIsErrorUserInduced
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IoIsErrorUserInduced
 ---
 
 # IoIsErrorUserInduced macro
@@ -47,8 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
+
+## -parameters
+
+### -param Status 
+
+[in]
+Specifies the current NTSTATUS value, usually within the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
 
 ## -syntax
 
@@ -57,17 +62,6 @@ BOOLEAN IoIsErrorUserInduced(
    Status
 );
 ```
-
-## -parameters
-
-
-
-
-### -param Status [in]
-
-Specifies the current NTSTATUS value, usually within the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
-
-
 
 ## -remarks
 
@@ -90,26 +84,16 @@ STATUS_VERIFY_REQUIRED
 
 STATUS_WRONG_VOLUME
 
-If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a> before completing the IRP. 
-
-
-
+If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver must call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a> before completing the IRP.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>

@@ -8,8 +8,6 @@ ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.date: 04/30/2018
 keywords: ["IoGetContainerInformation function"]
 ms.keywords: IoGetContainerInformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, kernel.iogetcontainerinformation, wdm/IoGetContainerInformation
-f1_keywords:
- - "wdm/IoGetContainerInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetContainerInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetContainerInformation
+ - wdm/IoGetContainerInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetContainerInformation
 ---
 
 # IoGetContainerInformation function
@@ -47,18 +46,14 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoGetContainerInformation</b> routine provides information about the current state of a user session. 
-
+The <b>IoGetContainerInformation</b> routine provides information about the current state of a user session.
 
 ## -parameters
 
+### -param InformationClass 
 
-
-
-### -param InformationClass [in]
-
-Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
+[in]
+Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
 
 <ul>
 <li>
@@ -66,27 +61,24 @@ Specifies the class of events for which the caller (driver) requests information
 
 </li>
 </ul>
-For more information, see the following Remarks section. 
+For more information, see the following Remarks section.
 
+### -param ContainerObject 
 
-### -param ContainerObject [in, optional]
+[in, optional]
+A pointer to an opaque, system object supplied by the I/O manager. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, set this parameter to the <i>SessionObject</i> parameter value that is provided by the I/O manager during the call to the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
 
-A pointer to an opaque, system object supplied by the I/O manager. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, set this parameter to the <i>SessionObject</i> parameter value that is provided by the I/O manager during the call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. 
+### -param Buffer 
 
+[in, out]
+A pointer to a caller-allocated buffer into which this routine writes the state information for the event class specified by <i>InformationClass</i>. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, the routine writes an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer. The buffer must be large enough to contain this structure.
 
-### -param Buffer [in, out]
+### -param BufferLength 
 
-A pointer to a caller-allocated buffer into which this routine writes the state information for the event class specified by <i>InformationClass</i>. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, the routine writes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer. The buffer must be large enough to contain this structure. 
-
-
-### -param BufferLength [in]
-
-The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>InformationClass</i> = IoSessionStateInformation, <i>BufferLength</i> must be at least <b>sizeof</b>(<b>IO_SESSION_STATE_INFORMATION</b>). 
-
+[in]
+The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>InformationClass</i> = IoSessionStateInformation, <i>BufferLength</i> must be at least <b>sizeof</b>(<b>IO_SESSION_STATE_INFORMATION</b>).
 
 ## -returns
-
-
 
 <b>IoGetContainerInformation</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
 
@@ -102,7 +94,7 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>Informatio
 </dl>
 </td>
 <td width="60%">
-Parameter <i>InformationClass</i> is not a valid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
+Parameter <i>InformationClass</i> is not a valid <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
 
 </td>
 </tr>
@@ -129,35 +121,19 @@ Parameter <i>BufferLength</i> is too small for the information class specified b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine can potentially support queries for a variety of information classes. In Windows 7, this routine supports only queries for <b>IoSessionStateInformation</b> information, which is status information about user sessions.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_notification_class">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_notification_class">IO_CONTAINER_NOTIFICATION_CLASS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a>

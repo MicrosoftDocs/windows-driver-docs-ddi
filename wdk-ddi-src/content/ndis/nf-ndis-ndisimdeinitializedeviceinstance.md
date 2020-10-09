@@ -8,8 +8,6 @@ ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.date: 05/02/2018
 keywords: ["NdisIMDeInitializeDeviceInstance function"]
 ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance
-f1_keywords:
- - "ndis/NdisIMDeInitializeDeviceInstance"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIMDeInitializeDeviceInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIMDeInitializeDeviceInstance
+ - ndis/NdisIMDeInitializeDeviceInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIMDeInitializeDeviceInstance
 ---
 
 # NdisIMDeInitializeDeviceInstance function
@@ -48,74 +47,52 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIMDeInitializeDeviceInstance</b> function calls an NDIS intermediate driver's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function to tear down the
+  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function to tear down the
   driver's virtual miniport.
-
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle that NDIS supplied to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-
 ## -returns
-
-
 
 <b>NdisIMDeInitializeDeviceInstance</b> returns NDIS_STATUS_SUCCESS if the NIC has been torn down.
      Otherwise, it can return NDIS_STATUS_FAILURE if the given 
      <i>NdisMiniportHandle</i> is invalid.
 
-
-
-
 ## -remarks
-
-
 
 For NDIS intermediate drivers, 
     <b>NdisIMDeInitializeDeviceInstance</b> is the reciprocal of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiminitializedeviceinstanceex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiminitializedeviceinstanceex">
     NdisIMInitializeDeviceInstanceEx</a> function. Such a driver usually calls 
     <b>NdisIMDeInitializeDeviceInstance</b> from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function, when the underlying miniport adapter to which it was bound is
     being removed from the system, possibly because it is being reconfigured.
 
 The call to 
     <b>NdisIMDeInitializeDeviceInstance</b> causes an NDIS call to the intermediate driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function after NDIS has
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function after NDIS has
     told all higher level protocol drivers that had bound themselves to the intermediate's virtual miniport
     that they must unbind.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiminitializedeviceinstanceex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiminitializedeviceinstanceex">
    NdisIMInitializeDeviceInstanceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>

@@ -6,10 +6,8 @@ old-location: ifsk\flt_context_registration.htm
 tech.root: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
 ms.date: 04/16/2018
-keywords: ["_FLT_CONTEXT_REGISTRATION structure"]
+keywords: ["FLT_CONTEXT_REGISTRATION structure"]
 ms.keywords: "*PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION, fltkernel/PFLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration"
-f1_keywords:
- - "fltkernel/FLT_CONTEXT_REGISTRATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_CONTEXT_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
+f1_keywords:
+ - _FLT_CONTEXT_REGISTRATION
+ - fltkernel/_FLT_CONTEXT_REGISTRATION
+ - PFLT_CONTEXT_REGISTRATION
+ - fltkernel/PFLT_CONTEXT_REGISTRATION
+ - FLT_CONTEXT_REGISTRATION
+ - fltkernel/FLT_CONTEXT_REGISTRATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_CONTEXT_REGISTRATION
 ---
 
 # _FLT_CONTEXT_REGISTRATION structure
@@ -47,14 +50,9 @@ req.typenames: FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
 
 ## -description
 
-
-The FLT_CONTEXT_REGISTRATION structure is used to register context types. 
-
+The FLT_CONTEXT_REGISTRATION structure is used to register context types.
 
 ## -struct-fields
-
-
-
 
 ### -field ContextType
 
@@ -73,7 +71,6 @@ FLT_SECTION_CONTEXT (Windows 8 and later only.)
 FLT_TRANSACTION_CONTEXT (Windows Vista and later only.) 
 
 FLT_VOLUME_CONTEXT
-
 
 ### -field Flags
 
@@ -95,46 +92,36 @@ If the minifilter uses fixed-size contexts and this flag is specified, the filte
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ContextCleanupCallback
 
-A pointer to a minifilter-defined <b>ContextCleanupCallback</b> routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>. The filter manager calls this routine immediately before it deletes the context. If the minifilter has no memory or pointers to clean up inside the context, this member is optional and can be <b>NULL</b>. 
-
+A pointer to a minifilter-defined <b>ContextCleanupCallback</b> routine of type <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>. The filter manager calls this routine immediately before it deletes the context. If the minifilter has no memory or pointers to clean up inside the context, this member is optional and can be <b>NULL</b>.
 
 ### -field Size
 
-The size, in bytes, of the minifilter-defined portion of the context, if the minifilter uses fixed-size contexts. Zero is a valid size value. If the minifilter uses variable-size contexts, this member is required and must be set to FLT_VARIABLE_SIZED_CONTEXTS. 
-
+The size, in bytes, of the minifilter-defined portion of the context, if the minifilter uses fixed-size contexts. Zero is a valid size value. If the minifilter uses variable-size contexts, this member is required and must be set to FLT_VARIABLE_SIZED_CONTEXTS.
 
 ### -field PoolTag
 
-A pool tag value to be used for the context. This tag, which is specified as a string of one to four 7-bit ASCII characters, appears in any crash dump of the system that occurs. If the <b>ContextAllocateCallback</b> member is <b>NULL</b>, this member is required and cannot be zero. 
-
+A pool tag value to be used for the context. This tag, which is specified as a string of one to four 7-bit ASCII characters, appears in any crash dump of the system that occurs. If the <b>ContextAllocateCallback</b> member is <b>NULL</b>, this member is required and cannot be zero.
 
 ### -field ContextAllocateCallback
 
-Pointer to a minifilter-defined <b>ContextAllocateCallback</b> routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_allocate_callback">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>. This member is optional and can be <b>NULL</b>. If it is not <b>NULL</b>, the <b>Size</b> and <b>PoolTag</b> members are ignored. 
-
+Pointer to a minifilter-defined <b>ContextAllocateCallback</b> routine of type <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_allocate_callback">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>. This member is optional and can be <b>NULL</b>. If it is not <b>NULL</b>, the <b>Size</b> and <b>PoolTag</b> members are ignored.
 
 ### -field ContextFreeCallback
 
-A pointer to a minifilter-defined <b>ContextFreeCallback</b> routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>. This member is optional and can be <b>NULL</b>. If it is not <b>NULL</b>, the <b>Size</b> and <b>PoolTag</b> members are ignored. 
-
+A pointer to a minifilter-defined <b>ContextFreeCallback</b> routine of type <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>. This member is optional and can be <b>NULL</b>. If it is not <b>NULL</b>, the <b>Size</b> and <b>PoolTag</b> members are ignored.
 
 ### -field Reserved1
 
-Reserved for system use. Minifilters must set this member to <b>NULL</b>. 
-
+Reserved for system use. Minifilters must set this member to <b>NULL</b>.
 
 ## -remarks
 
+When a minifilter calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> from its <b>DriverEntry</b> routine, it must register each context type that it uses. 
 
-
-When a minifilter calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> from its <b>DriverEntry</b> routine, it must register each context type that it uses. 
-
-To register these context types, the minifilter creates a variable-length array of FLT_CONTEXT_REGISTRATION structures and stores a pointer to the array in the <b>ContextRegistration</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> structure that the minifilter passes as the <i>Registration</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. The last element of this array must be {FLT_CONTEXT_END}. 
+To register these context types, the minifilter creates a variable-length array of FLT_CONTEXT_REGISTRATION structures and stores a pointer to the array in the <b>ContextRegistration</b> member of the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> structure that the minifilter passes as the <i>Registration</i> parameter of <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. The last element of this array must be {FLT_CONTEXT_END}. 
 
 For each context type that the minifilter uses, the minifilter must supply at least one FLT_CONTEXT_REGISTRATION structure, according to the following rules: 
 
@@ -157,31 +144,22 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_allocate_callback">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_allocate_callback">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>

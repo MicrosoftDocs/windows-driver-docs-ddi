@@ -8,8 +8,6 @@ ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.date: 02/23/2018
 keywords: ["PosCxIsDeviceOwner function"]
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
-f1_keywords:
- - "poscx/PosCxIsDeviceOwner"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxIsDeviceOwner
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxIsDeviceOwner
+ - poscx/PosCxIsDeviceOwner
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxIsDeviceOwner
 ---
 
 # PosCxIsDeviceOwner function
@@ -48,32 +47,22 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
-
 
 ## -parameters
 
+### -param device 
 
-
-
-### -param device [in]
-
+[in]
 A handle to a framework device object that represents the device.
 
+### -param fileObject 
 
-### -param fileObject [in]
-
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
-
+[in]
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
 
 ## -returns
-
-
 
 Returns TRUE if the caller is the device owner, or if <i>fileObject</i> is NULL and the device is not currently owned.
 
 Otherwise, returns FALSE.
-
-
-

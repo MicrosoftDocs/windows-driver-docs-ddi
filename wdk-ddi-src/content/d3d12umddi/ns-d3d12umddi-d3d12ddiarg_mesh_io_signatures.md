@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDIARG_MESH_IO_SIGNATURES
 f1_keywords:
+ - D3D12DDIARG_MESH_IO_SIGNATURES
  - d3d12umddi/D3D12DDIARG_MESH_IO_SIGNATURES
 dev_langs:
  - c++
@@ -65,3 +66,4 @@ This information is passed to the driver on creation of a mesh shader.
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
+

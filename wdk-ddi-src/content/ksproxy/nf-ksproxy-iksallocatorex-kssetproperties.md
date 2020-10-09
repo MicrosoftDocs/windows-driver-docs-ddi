@@ -8,8 +8,6 @@ ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
 ms.date: 11/18/2019
 keywords: ["IKsAllocatorEx::KsSetProperties"]
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
-f1_keywords:
- - "ksproxy/IKsAllocatorEx.KsSetProperties"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsAllocatorEx.KsSetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsAllocatorEx::KsSetProperties
+ - ksproxy/IKsAllocatorEx::KsSetProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsAllocatorEx.KsSetProperties
 ---
 
 # IKsAllocatorEx::KsSetProperties
+
 
 ## -description
 
@@ -53,4 +53,4 @@ Sets the properties for an allocator.
 
 ## -see-also
 
-[IKsAllocatorEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocatorex)
+[IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)

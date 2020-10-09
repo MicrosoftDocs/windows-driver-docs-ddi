@@ -8,8 +8,6 @@ ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.date: 04/23/2018
 keywords: ["KSQUERYBUFFER structure"]
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
-f1_keywords:
- - "ks/KSQUERYBUFFER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSQUERYBUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
+f1_keywords:
+ - PKSQUERYBUFFER
+ - ks/PKSQUERYBUFFER
+ - KSQUERYBUFFER
+ - ks/KSQUERYBUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSQUERYBUFFER
 ---
 
 # KSQUERYBUFFER structure
@@ -47,33 +48,23 @@ req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
 
 ## -description
 
-
 The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER<b>.</b>
 
-
 ## -struct-fields
-
-
-
 
 ### -field Event
 
 Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFFER flag set instead of the KSEVENT_TYPE_ENABLEBUFFERED flag.
 
-
 ### -field EventData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
-
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 ### -field Reserved
 
 Not used, and set to zero.
 
-
 ## -remarks
-
-
 
 If KSEVENT_TYPE_ENABLEBUFFERED was used to enable an event that also buffers data, then the data produced by the event can be queried using this method. The description of the event being queried is provided as the first parameter, and any buffer is provided as the second parameter to the query.
 
@@ -137,22 +128,11 @@ life is good.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
- 
-
- 
-
+<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>

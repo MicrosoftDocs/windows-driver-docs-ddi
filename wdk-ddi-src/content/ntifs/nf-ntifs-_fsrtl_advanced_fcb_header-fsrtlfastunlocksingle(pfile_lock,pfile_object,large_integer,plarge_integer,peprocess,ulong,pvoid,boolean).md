@@ -10,6 +10,7 @@ keywords: ["FsRtlFastUnlockSingle function"]
 ms.keywords: FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle
 f1_keywords:
  - "ntifs/FsRtlFastUnlockSingle"
+ - "FsRtlFastUnlockSingle"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFastUnlockSingle
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,43 +58,43 @@ The <b>FsRtlFastUnlockSingle</b> routine releases a byte-range lock that was acq
 
 
 
-### -param FileLock [in]
+### -param FileLock 
+[in]
+A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object for the file.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset within the file of the range to be unlocked.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 A pointer to a variable that specifies the length, in bytes, of the range to be unlocked.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 A pointer to the process ID for the process.
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 The key for the byte-range lock.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 An optional context pointer to be used when completing IRPs.
 
 
-### -param AlreadySynchronized [in]
-
+### -param AlreadySynchronized 
+[in]
 This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 
@@ -113,12 +112,11 @@ The <b>FsRtlFastUnlockSingle</b> routine returns STATUS_SUCCESS or an error stat
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
  
 
  
-

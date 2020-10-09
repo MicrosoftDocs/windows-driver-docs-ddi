@@ -8,8 +8,6 @@ ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.date: 04/30/2018
 keywords: ["IoDeassignArcName macro"]
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
-f1_keywords:
- - "ntddk/IoDeassignArcName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoDeassignArcName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoDeassignArcName
+ - ntddk/IoDeassignArcName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoDeassignArcName
 ---
 
 # IoDeassignArcName macro
@@ -47,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoDeassignArcName</b> routine removes a symbolic link between the ARC name for a device and the named device object. 
-
+The <b>IoDeassignArcName</b> routine removes a symbolic link between the ARC name for a device and the named device object.
 
 ## -parameters
 
+### -param ArcName 
 
-
-
-### -param ArcName [in]
-
-Pointer to a buffered Unicode string that is the ARC name. 
-
+[in]
+Pointer to a buffered Unicode string that is the ARC name.
 
 ## -remarks
 
-
-
-<b>IoDeassignArcName</b> is generally called if the driver is deleting the device object, for example, when the driver is unloading. 
-
-
-
+<b>IoDeassignArcName</b> is generally called if the driver is deleting the device object, for example, when the driver is unloading.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>

@@ -8,12 +8,10 @@ ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.date: 05/03/2018
 keywords: ["wiasCreateDrvItem function"]
 ms.keywords: image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
-f1_keywords:
- - "wiamdef/wiasCreateDrvItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,32 +25,34 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasCreateDrvItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasCreateDrvItem
+ - wiamdef/wiasCreateDrvItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasCreateDrvItem
 ---
 
 # wiasCreateDrvItem function
 
+
 ## -description
 
-The **wiasCreateDrvItem** function creates an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) object.
+The **wiasCreateDrvItem** function creates an [IWiaDrvItem Interface](../wiamindr_lh/nn-wiamindr_lh-iwiadrvitem.md) object.
 
 ## -parameters
 
 ### -param lObjectFlags
 
-Specifies the object item type, which must be **WiaItemTypeFolder** or **WiaItemTypeFile** (possibly the bitwise OR of these). These flags are described in [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+Specifies the object item type, which must be **WiaItemTypeFolder** or **WiaItemTypeFile** (possibly the bitwise OR of these). These flags are described in [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
 ### -param bstrItemName
 
@@ -62,32 +62,35 @@ Specifies a string that contains the item name without path information.
 
 Specifies a string that contains the item name with path information.
 
-### -param pIMiniDrv [in, out]
+### -param pIMiniDrv 
 
-Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv) of the current minidriver.
+[in, out]
+Pointer to the [IWiaMiniDrv Interface](../wiamindr_lh/nn-wiamindr_lh-iwiaminidrv.md) of the current minidriver.
 
 ### -param cbDevSpecContext
 
 Specifies the size in bytes of the device specific context.
 
-### -param ppDevSpecContext [out]
+### -param ppDevSpecContext 
 
+[out]
 Pointer to a memory location that receives the address of the device specific context. Set this to **NULL** if the information is not needed.
 
-### -param ppIWiaDrvItem [out]
+### -param ppIWiaDrvItem 
 
-Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) for the newly created **IWiaDrvItem** object.
+[out]
+Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](../wiamindr_lh/nn-wiamindr_lh-iwiadrvitem.md) for the newly created **IWiaDrvItem** object.
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
-This function creates and initializes an [IWiaDrvItem COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/iwiadrvitem-com-interface) object with the specified name and attributes. It also creates a context for the **IWiaDrvItem** object. Minidrivers typically use this function to build a tree of device items.
+This function creates and initializes an [IWiaDrvItem COM Interface](/windows-hardware/drivers/image/iwiadrvitem-com-interface) object with the specified name and attributes. It also creates a context for the **IWiaDrvItem** object. Minidrivers typically use this function to build a tree of device items.
 
 ## -see-also
 
-[wiasCreateChildAppItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatechildappitem)
+[wiasCreateChildAppItem](./nf-wiamdef-wiascreatechildappitem.md)

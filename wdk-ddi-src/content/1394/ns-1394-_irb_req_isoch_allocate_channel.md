@@ -6,10 +6,8 @@ old-location: ieee\irb_req_isoch_allocate_channel.htm
 tech.root: IEEE
 ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure"]
+keywords: ["IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_ALLOCATE_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+f1_keywords:
+ - _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+ - 1394/_IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+ - IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+ - 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 ---
 
 # _IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure
@@ -47,24 +48,17 @@ req.typenames: IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 
 ## -description
 
-
 This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
-
 
 ## -struct-fields
 
-
-
-
 ### -field nRequestedChannel
 
-Specifies the particular channel to allocate, or ISOCH_ANY_CHANNEL for an arbitrary channel. 
-
+Specifies the particular channel to allocate, or ISOCH_ANY_CHANNEL for an arbitrary channel.
 
 ### -field Channel
 
 Specifies the channel allocated, if the request succeeds.
-
 
 ### -field ChannelsAvailable
 
@@ -72,3 +66,4 @@ A bitmap specifying the available channels. The highest order bit (bit 63) speci
 
 <div class="alert"><b>Note</b>  Drivers should not rely on this information  because another device may allocate or deallocate channels at any time. The bus driver fills in this member, even if the request fails.</div>
 <div> </div>
+

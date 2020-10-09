@@ -8,8 +8,6 @@ ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.date: 04/23/2018
 keywords: ["KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure"]
 ms.keywords: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
-f1_keywords:
- - "ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSSTREAM_UVC_METADATATYPE_TIMESTAMP
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+f1_keywords:
+ - PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+ - ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+ - KSSTREAM_UVC_METADATATYPE_TIMESTAMP
+ - ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 ---
 
 # KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure
@@ -47,44 +48,33 @@ req.typenames: KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_
 
 ## -description
 
-
 The <b>KSSTREAM_UVC_METADATATYPE_TIMESTAMP</b> structure contains USB video class (UVC) clock and timestamp information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PresentationTimeStamp
 
 Specifies the presentation timestamp.
 
-
 ### -field SourceClockReference
 
 Specifies the source clock reference.
-
 
 ### -field Counter
 
 Specifies the source clock reference counter.
 
-
 ### -field Reserved
 
 Reserved.
-
 
 ### -field SCRToken
 
 Specifies the source clock reference token.
 
-
 ### -field Reserved0
 
 Reserved.
-
 
 ### -field Reserved1
 

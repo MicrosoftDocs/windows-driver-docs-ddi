@@ -8,8 +8,6 @@ ms.assetid: b09373ef-7b65-46f7-b5b7-a6dcecf0166c
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_SCAN_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, stream.ksproperty_tuner_scan_status_s, vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TUNER_SCAN_STATUS_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S
+f1_keywords:
+ - PKSPROPERTY_TUNER_SCAN_STATUS_S
+ - ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S
+ - KSPROPERTY_TUNER_SCAN_STATUS_S
+ - ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TUNER_SCAN_STATUS_S
 ---
 
 # KSPROPERTY_TUNER_SCAN_STATUS_S structure
@@ -47,19 +48,13 @@ req.typenames: KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S
 
 ## -description
 
-
 The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
-
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field LockStatus
 
@@ -101,33 +96,23 @@ A fine-tune signal lock was established. The driver can return this value at the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CurrentFrequency
 
-The current locked-in frequency, in Hz, on the tuning device. 
-
+The current locked-in frequency, in Hz, on the tuning device.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/stream/ksevent-tuner-initiate-scan">KSEVENT_TUNER_INITIATE_SCAN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-tuner-initiate-scan">KSEVENT_TUNER_INITIATE_SCAN</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-scan-status">KSPROPERTY_TUNER_SCAN_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-scan-status">KSPROPERTY_TUNER_SCAN_STATUS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>

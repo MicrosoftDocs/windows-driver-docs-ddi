@@ -4,41 +4,43 @@ title: _D3DKMT_SUBMITCOMMANDFLAGS (d3dkmthk.h)
 description: Structure that identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 ms.assetid: 88f11f54-cc67-418b-baf7-112cc49f0498
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_SUBMITCOMMANDFLAGS structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_SUBMITCOMMANDFLAGS"
-ms.keywords: _D3DKMT_SUBMITCOMMANDFLAGS, D3DKMT_SUBMITCOMMANDFLAGS, 
+keywords: ["D3DKMT_SUBMITCOMMANDFLAGS structure"]
+ms.keywords: _D3DKMT_SUBMITCOMMANDFLAGS, D3DKMT_SUBMITCOMMANDFLAGS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_SUBMITCOMMANDFLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_SUBMITCOMMANDFLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_SUBMITCOMMANDFLAGS
+ - d3dkmthk/_D3DKMT_SUBMITCOMMANDFLAGS
+ - D3DKMT_SUBMITCOMMANDFLAGS
+ - d3dkmthk/D3DKMT_SUBMITCOMMANDFLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_SUBMITCOMMANDFLAGS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_SUBMITCOMMANDFLAGS structure
+
 
 ## -description
 
@@ -61,3 +63,4 @@ Reserved for internal use.
 ## -remarks
 
 ## -see-also
+

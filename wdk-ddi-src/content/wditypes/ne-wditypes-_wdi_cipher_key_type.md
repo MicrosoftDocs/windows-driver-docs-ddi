@@ -6,10 +6,8 @@ old-location: netvista\wdi_cipher_key_type.htm
 tech.root: netvista
 ms.assetid: 09874F77-5A9C-4C98-996F-29BB90CAE4B6
 ms.date: 05/02/2018
-keywords: ["_WDI_CIPHER_KEY_TYPE enumeration"]
+keywords: ["WDI_CIPHER_KEY_TYPE enumeration"]
 ms.keywords: WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_IGTK, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, _WDI_CIPHER_KEY_TYPE, netvista.wdi_cipher_key_type, netvista.wifi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
-f1_keywords:
- - "wditypes/WDI_CIPHER_KEY_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_CIPHER_KEY_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_KEY_TYPE
+f1_keywords:
+ - _WDI_CIPHER_KEY_TYPE
+ - wditypes/_WDI_CIPHER_KEY_TYPE
+ - WDI_CIPHER_KEY_TYPE
+ - wditypes/WDI_CIPHER_KEY_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_CIPHER_KEY_TYPE
 ---
 
 # _WDI_CIPHER_KEY_TYPE enumeration
@@ -47,24 +48,17 @@ req.typenames: WDI_CIPHER_KEY_TYPE
 
 ## -description
 
-
 The WDI_CIPHER_KEY_TYPE enumeration defines the cipher key types.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
 
 The key is a pairwise key to another station.
 
-
 ### -field WDI_CIPHER_KEY_TYPE_GROUP_KEY
 
 The key is a group key.
-
 
 ### -field WDI_CIPHER_KEY_TYPE_IGTK
 

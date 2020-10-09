@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: kernel
+f1_keywords:
+ - ntddk
+ - ntddk/ntddk
 ---
 
 # Ntddk.h header
@@ -18,7 +19,7 @@ tech.root: kernel
 
 ## -description
 
-
 This header is used by kernel. For more information, see:
 
 - [Windows kernel](../_kernel/index.md)
+

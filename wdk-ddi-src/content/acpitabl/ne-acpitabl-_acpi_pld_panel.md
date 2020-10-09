@@ -4,34 +4,38 @@ title: _ACPI_PLD_PANEL enumeration (acpitabl.h)
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
 ms.date: 10/02/2018
-keywords: ["_ACPI_PLD_PANEL enumeration"]
-f1_keywords:
- - "acpitabl/_ACPI_PLD_PANEL"
+keywords: ["ACPI_PLD_PANEL enumeration"]
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: ACPI_PLD_PANEL, *PACPI_PLD_PANEL
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _ACPI_PLD_PANEL
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _ACPI_PLD_PANEL
+ - acpitabl/_ACPI_PLD_PANEL
+ - PACPI_PLD_PANEL
+ - acpitabl/PACPI_PLD_PANEL
+ - ACPI_PLD_PANEL
+ - acpitabl/ACPI_PLD_PANEL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _ACPI_PLD_PANEL
 ---
 
 # _ACPI_PLD_PANEL enumeration
+
 
 ## -description
 
@@ -67,7 +71,7 @@ Value is 5.
 
 Value is 6.
 
-
 ## -remarks
 
 ## -see-also
+

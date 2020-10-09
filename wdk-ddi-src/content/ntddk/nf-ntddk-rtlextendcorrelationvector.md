@@ -8,8 +8,6 @@ ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.date: 04/30/2018
 keywords: ["RtlExtendCorrelationVector function"]
 ms.keywords: RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector
-f1_keywords:
- - "ntddk/RtlExtendCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlExtendCorrelationVector
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlExtendCorrelationVector
+ - ntddk/RtlExtendCorrelationVector
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlExtendCorrelationVector
 ---
 
 # RtlExtendCorrelationVector function
@@ -47,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
 			
             This routine extends the supplied [correlation vector](https://github.com/Microsoft/CorrelationVector). For
     a correlation vector of the form X.i, the extended value is
     X.i.0.
 
-
 ## -parameters
 
+### -param CorrelationVector 
 
-
-
-### -param CorrelationVector [in, out]
-
-A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be extended.
-
+[in, out]
+A pointer to a  <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be extended.
 
 ## -returns
-
-
-
 
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
 
@@ -102,7 +92,3 @@ Extending the correlation vector resulted in
 </td>
 </tr>
 </table>
- 
-
-
-

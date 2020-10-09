@@ -8,9 +8,10 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: powermeter
+f1_keywords:
+ - pmi
+ - pmi/pmi
 ---
 
 # Pmi.h header
@@ -18,7 +19,7 @@ tech.root: powermeter
 
 ## -description
 
-
 This header is used by powermeter. For more information, see:
 
 - [Power metering](../_powermeter/index.md)
+

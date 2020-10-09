@@ -6,10 +6,8 @@ old-location: ieee\irb_req_async_stream.htm
 tech.root: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ASYNC_STREAM structure"]
+keywords: ["IRB_REQ_ASYNC_STREAM structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], _IRB_REQ_ASYNC_STREAM
-f1_keywords:
- - "1394/IRB_REQ_ASYNC_STREAM"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ASYNC_STREAM
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ASYNC_STREAM
+f1_keywords:
+ - _IRB_REQ_ASYNC_STREAM
+ - 1394/_IRB_REQ_ASYNC_STREAM
+ - IRB_REQ_ASYNC_STREAM
+ - 1394/IRB_REQ_ASYNC_STREAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ASYNC_STREAM
 ---
 
 # _IRB_REQ_ASYNC_STREAM structure
@@ -47,49 +48,37 @@ req.typenames: IRB_REQ_ASYNC_STREAM
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 bus driver to carry out an asynchronous write request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nNumberOfBytesToStream
 
 Specifies the number of bytes to write.
 
-
 ### -field fulFlags
 
 Reserved. Drivers must set this to zero.
-
 
 ### -field Mdl
 
 Specifies the source buffer.
 
-
 ### -field ulTag
 
 Specifies the Tag field for any packets generated from this request.
-
 
 ### -field nChannel
 
 Specifies the channel to which the data will be written.
 
-
 ### -field ulSynch
 
 Specifies the Sy field for any packets generated from this request.
 
-
 ### -field Reserved
 
 Reserved. Drivers must set this to zero.
-
 
 ### -field nSpeed
 
@@ -133,5 +122,5 @@ SPEED_FLAGS_400
 </table>
  
 
-<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">New Flags for Speed and Payload Size</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
+<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">New Flags for Speed and Payload Size</a> and <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
 <div> </div>

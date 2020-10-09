@@ -6,10 +6,8 @@ old-location: netvista\wwan_sms_send_pdu.htm
 tech.root: netvista
 ms.assetid: 94d19d5b-8fa5-437d-9359-e35ef103f380
 ms.date: 05/02/2018
-keywords: ["_WWAN_SMS_SEND_PDU structure"]
+keywords: ["WWAN_SMS_SEND_PDU structure"]
 ms.keywords: "*PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, _WWAN_SMS_SEND_PDU, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU"
-f1_keywords:
- - "wwan/WWAN_SMS_SEND_PDU"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_SEND_PDU
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
+f1_keywords:
+ - _WWAN_SMS_SEND_PDU
+ - wwan/_WWAN_SMS_SEND_PDU
+ - PWWAN_SMS_SEND_PDU
+ - wwan/PWWAN_SMS_SEND_PDU
+ - WWAN_SMS_SEND_PDU
+ - wwan/WWAN_SMS_SEND_PDU
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_SEND_PDU
 ---
 
 # _WWAN_SMS_SEND_PDU structure
@@ -47,14 +50,9 @@ req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
 
 ## -description
 
-
 The WWAN_SMS_SEND_PDU structure represents a PDU-style SMS message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
@@ -68,7 +66,7 @@ For CDMA-based devices that support sending SMS messages in binary format, the s
 
 The following table lists the different values for the 
      <b>SmsFormat</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> structure and their
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> structure and their
      corresponding range that is allowed in this member.
 
 <table>
@@ -133,21 +131,13 @@ For GSM-based devices, the contents are coded in a hexadecimal string format (ac
 For CDMA-based devices that support sending SMS messages in binary format (that is, miniport drivers
      that return WWAN_SMS_CAPS_PDU_SEND in the 
      <b>WwanSmsCaps</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>), 
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>), 
      <b>PduData</b> contains the SMS message as a byte array, as defined in section 3.4.2.1 SMS Point-to-Point
      Message in the 3GPP2 specification C.S0015-A "Short Message Service (SMS) for Wideband Spread Spectrum
      Systems". SMS will only support Wireless Messaging Teleservice (WMT) format. Miniport drivers should
      typecast this information to BYTE[] for CDMA-based devices. It is not coded in hexadecimal string
      format.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>

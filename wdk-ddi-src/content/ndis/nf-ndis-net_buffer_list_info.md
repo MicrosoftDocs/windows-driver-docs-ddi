@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 2d4727fc-43bf-41a5-8e2e-3c5de814aaef
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_INFO macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_INFO"
 ms.keywords: NET_BUFFER_LIST_INFO
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_LIST_INFO
+ - ndis/NET_BUFFER_LIST_INFO
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_INFO
 ---
 
 # NET_BUFFER_LIST_INFO macro
@@ -84,3 +82,4 @@ NET_BUFFER_LIST_INFO(pNBL, Id) = value;
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

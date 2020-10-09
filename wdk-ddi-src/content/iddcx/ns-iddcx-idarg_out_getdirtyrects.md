@@ -8,8 +8,6 @@ ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_GETDIRTYRECTS structure"]
 ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
-f1_keywords:
- - "iddcx/IDARG_OUT_GETDIRTYRECTS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_GETDIRTYRECTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_GETDIRTYRECTS
+ - iddcx/IDARG_OUT_GETDIRTYRECTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_GETDIRTYRECTS
 ---
 
 # IDARG_OUT_GETDIRTYRECTS structure
@@ -47,19 +46,12 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the recs 
              that have changed on the surface since the last load.
 
-
 ## -struct-fields
 
-
-
-
 ### -field DirtyRectOutCount
-
 
                      [out] Number of dirty rects the OS copied into the <b>pDirtyRects</b> array.
 

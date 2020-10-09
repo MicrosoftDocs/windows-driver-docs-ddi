@@ -8,38 +8,41 @@ ms.assetid: 517be11b-a15d-43ac-aefd-f425fa6f63e7
 ms.date: 02/16/2018
 keywords: ["DOT11_EXTSTA_RECV_CONTEXT structure"]
 ms.keywords: "*PDOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml, PDOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, windot11/DOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT"
-f1_keywords:
- - "windot11/DOT11_EXTSTA_RECV_CONTEXT"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_EXTSTA_RECV_CONTEXT
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTAP_RECV_CONTEXT
+f1_keywords:
+ - DOT11_EXTSTA_RECV_CONTEXT
+ - windot11/DOT11_EXTSTA_RECV_CONTEXT
+ - PDOT11_EXTSTA_RECV_CONTEXT
+ - windot11/PDOT11_EXTSTA_RECV_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_EXTSTA_RECV_CONTEXT
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_RECV_CONTEXT structure
@@ -47,35 +50,11 @@ product:
 
 ## -description
 
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
-
-The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or Network Monitor (NetMon) modes. For more information about these operation modes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>.
-
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_EXTSTA_RECV_CONTEXT {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              uReceiveFlags;
-  ULONG              uPhyId;
-  ULONG              uChCenterFrequency;
-  USHORT             usNumberOfMPDUsReceived;
-  LONG               lRSSI;
-  UCHAR              ucDataRate;
-  ULONG              uSizeMediaSpecificInfo;
-  PVOID              pvMediaSpecificInfo;
-  ULONGLONG          ullTimestamp;
-} DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT;
-```
-
+The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or Network Monitor (NetMon) modes. For more information about these operation modes, see <a href="/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,7 +83,6 @@ This member must be set to `sizeof(DOT11_EXTSTA_RECV_CONTEXT)`.
 
 For more information about these members, see <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uReceiveFlags
 
 The attributes of the received packet data specified through a bitmask.
@@ -116,7 +94,7 @@ The following flag values are valid for the miniport driver if is operating in N
 
 #### DOT11_RECV_FLAG_RAW_PACKET
 
-If this bit is set, the packet contains the data as it was originally received by the 802.11 station. For more information about raw packets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11 Packets</a>.
+If this bit is set, the packet contains the data as it was originally received by the 802.11 station. For more information about raw packets, see <a href="/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11 Packets</a>.
 
 #### DOT11_RECV_FLAG_RAW_PACKET_FCS_FAILURE
 
@@ -132,17 +110,14 @@ If this bit is set, the raw packet data was received with frame check sequence (
 If this bit is set, the NIC sets the timestamp information in the
        <b>ullTimestamp</b> member.
 
-
 ### -field uPhyId
 
 The identifier (ID) of the PHY on which the 802.11 station received the packet.
-
 
 ### -field uChCenterFrequency
 
 The channel center frequency, in units of megahertz (MHz), of the frequency band on which the
      802.11 station received the packet.
-
 
 ### -field usNumberOfMPDUsReceived
 
@@ -150,12 +125,10 @@ The number of media access control (MAC) protocol data unit (MPDU) fragments rec
      reassembled by the 802.11 station for the packet. The value of
      <b>usNumberOfMPDUsReceived</b> must be from one through the value of DOT11_MAX_NUM_OF_FRAGMENTS.
 
-
 ### -field lRSSI
 
 The received signal strength indication (RSSI) value for the last received MPDU fragment of the
      802.11 packet. The RSSI value is in units of decibels referenced to 1.0 milliwatts (dBm).
-
 
 ### -field ucDataRate
 
@@ -163,9 +136,8 @@ The data rate at which the 802.11 station received the packet. The value of
      <b>ucDataRate</b> is the value of the
      <b>ucDataRateIndex</b> member of the data rate from the 802.11 station's data rate mapping table. For
      more information about the data rate mapping table, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+     <a href="/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
      OID_DOT11_DATA_RATE_MAPPING_TABLE</a>.
-
 
 ### -field uSizeMediaSpecificInfo
 
@@ -197,17 +169,31 @@ The native 802.11 framework copies this pointer to the
 
 An 802.11 timing synchronization function (TSF) timer value, in microseconds, that specifies the
      time when the packet was received. This member is provided to support
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">indicating raw 802.11 packets</a>.
+     <a href="/windows-hardware/drivers/network/indicating-raw-802-11-packets">indicating raw 802.11 packets</a>.
 
 
 If a NIC does not support
      <b>ullTimestamp</b>, it must not set the DOT11_RECV_FLAG_RAW_PACKET_TIMESTAMP flag in the
      <b>uReceiveFlags</b> member.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_EXTSTA_RECV_CONTEXT {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              uReceiveFlags;
+  ULONG              uPhyId;
+  ULONG              uChCenterFrequency;
+  USHORT             usNumberOfMPDUsReceived;
+  LONG               lRSSI;
+  UCHAR              ucDataRate;
+  ULONG              uSizeMediaSpecificInfo;
+  PVOID              pvMediaSpecificInfo;
+  ULONGLONG          ullTimestamp;
+} DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT;
+```
 
 ## -remarks
-
-
 
 When performing a Native 802.11 receive operation, the miniport driver must format each received
     802.11 packet as a
@@ -219,7 +205,7 @@ When performing a Native 802.11 receive operation, the miniport driver must form
     media.
 
 The miniport driver accesses the Native 802.11 OOB data through the
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro with the
+    <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro with the
     following parameters:
 
 <ul>
@@ -265,15 +251,12 @@ Set the value of
 </li>
 </ul>
 For more information about raw packets, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
+    <a href="/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
     Packets</a>.
 
 For more information about Native 802.11 receive operations, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-receive-operations">Native 802.11 Receive
+    <a href="/windows-hardware/drivers/network/native-802-11-receive-operations">Native 802.11 Receive
     Operations</a>.
-
-
-
 
 ## -see-also
 
@@ -290,21 +273,13 @@ For more information about Native 802.11 receive operations, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+<a href="/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
-

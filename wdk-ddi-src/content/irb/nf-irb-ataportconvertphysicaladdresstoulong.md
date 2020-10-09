@@ -8,8 +8,6 @@ ms.assetid: cd63cb65-701e-46e2-ba32-971f91f9eb29
 ms.date: 03/29/2018
 keywords: ["AtaPortConvertPhysicalAddressToUlong function"]
 ms.keywords: AtaPortConvertPhysicalAddressToUlong, AtaPortConvertPhysicalAddressToUlong routine [Storage Devices], atartns_b9df7c2c-3309-4d5a-88d9-bc1eee37fae0.xml, irb/AtaPortConvertPhysicalAddressToUlong, storage.ataportconvertphysicaladdresstoulong
-f1_keywords:
- - "irb/AtaPortConvertPhysicalAddressToUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ataport.lib
-- ataport.dll
-- pciidex.lib
-- pciidex.dll
-api_name:
-- AtaPortConvertPhysicalAddressToUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortConvertPhysicalAddressToUlong
+ - irb/AtaPortConvertPhysicalAddressToUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ataport.lib
+ - ataport.dll
+ - pciidex.lib
+ - pciidex.dll
+api_name:
+ - AtaPortConvertPhysicalAddressToUlong
 ---
 
 # AtaPortConvertPhysicalAddressToUlong function
@@ -50,45 +49,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortConvertPhysicalAddressToUlong</b> routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param Address 
 
-
-
-### -param Address [in]
-
+[in]
 Specifies a value of type IDE_PHYSICAL_ADDRESS.
-
 
 ## -returns
 
-
-
-<b>AtaPortConvertPhysicalAddressToUlong</b> returns the lower order part of the given IDE_PHYSICAL_ADDRESS value. 
-
-
-
+<b>AtaPortConvertPhysicalAddressToUlong</b> returns the lower order part of the given IDE_PHYSICAL_ADDRESS value.
 
 ## -remarks
 
-
-
-A miniport driver must not use this routine to truncate a 64-bit physical address. 
-
-
-
+A miniport driver must not use this routine to truncate a 64-bit physical address.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportconvertulongtophysicaladdress">AtaPortConvertUlongToPhysicalAddress</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportconvertulongtophysicaladdress">AtaPortConvertUlongToPhysicalAddress</a>

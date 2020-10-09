@@ -8,8 +8,6 @@ ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.date: 04/23/2018
 keywords: ["KsRemoveIrpFromCancelableQueue function"]
 ms.keywords: KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue
-f1_keywords:
- - "ks/KsRemoveIrpFromCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsRemoveIrpFromCancelableQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsRemoveIrpFromCancelableQueue
+ - ks/KsRemoveIrpFromCancelableQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsRemoveIrpFromCancelableQueue
 ---
 
 # KsRemoveIrpFromCancelableQueue function
+
 
 ## -description
 
@@ -51,20 +51,24 @@ The **KsRemoveIrpFromCancelableQueue** function pops the next noncanceled IRP fr
 
 ## -parameters
 
-### -param QueueHead [in, out]
+### -param QueueHead 
 
+[in, out]
 Points to the head of the queue from which to remove the IRP.
 
-### -param SpinLock [in]
+### -param SpinLock 
 
+[in]
 Points to driver's spin lock for queue access.
 
-### -param ListLocation [in]
+### -param ListLocation 
 
+[in]
 Indicates whether this IRP should come from the beginning or end of the queue.
 
-### -param RemovalOperation [in]
+### -param RemovalOperation 
 
+[in]
 Specifies whether the IRP is removed from the list or just acquired by setting the cancel function to **NULL**. If it is only acquired, the IRP must be later released with **KsReleaseIrpOnCancelableQueue** or completely removed with **KsRemoveSpecificIrpFromCancelableQueue**.
 
 ## -returns
@@ -89,6 +93,6 @@ typedef enum {
 
 ## -see-also
 
-[KsReleaseIrpOnCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksreleaseirponcancelablequeue)
+[KsReleaseIrpOnCancelableQueue](./nf-ks-ksreleaseirponcancelablequeue.md)
 
-[KsRemoveSpecificIrpFromCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremovespecificirpfromcancelablequeue)
+[KsRemoveSpecificIrpFromCancelableQueue](./nf-ks-ksremovespecificirpfromcancelablequeue.md)

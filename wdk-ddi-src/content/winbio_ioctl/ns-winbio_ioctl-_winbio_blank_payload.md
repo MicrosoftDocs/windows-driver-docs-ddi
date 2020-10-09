@@ -6,10 +6,8 @@ old-location: biometric\winbio_blank_payload.htm
 tech.root: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.date: 02/20/2018
-keywords: ["_WINBIO_BLANK_PAYLOAD structure"]
+keywords: ["WINBIO_BLANK_PAYLOAD structure"]
 ms.keywords: "*PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], _WINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD"
-f1_keywords:
- - "winbio_ioctl/WINBIO_BLANK_PAYLOAD"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_ioctl.h
-api_name:
-- WINBIO_BLANK_PAYLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
+f1_keywords:
+ - _WINBIO_BLANK_PAYLOAD
+ - winbio_ioctl/_WINBIO_BLANK_PAYLOAD
+ - PWINBIO_BLANK_PAYLOAD
+ - winbio_ioctl/PWINBIO_BLANK_PAYLOAD
+ - WINBIO_BLANK_PAYLOAD
+ - winbio_ioctl/WINBIO_BLANK_PAYLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_ioctl.h
+api_name:
+ - WINBIO_BLANK_PAYLOAD
 ---
 
 # _WINBIO_BLANK_PAYLOAD structure
@@ -47,19 +50,13 @@ req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
 
 ## -description
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_reset">IOCTL_BIOMETRIC_RESET</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_update_firmware">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a> IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
-
+The <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_reset">IOCTL_BIOMETRIC_RESET</a> and <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_update_firmware">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a> IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 
 ## -struct-fields
-
-
-
 
 ### -field PayloadSize
 
  The total size of the payload.  This includes the fixed length structure and any variable data at the end.
-
 
 ### -field WinBioHresult
 

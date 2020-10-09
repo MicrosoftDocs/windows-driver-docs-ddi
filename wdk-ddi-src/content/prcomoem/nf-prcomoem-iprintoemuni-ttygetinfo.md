@@ -8,8 +8,6 @@ ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::TTYGetInfo"]
 ms.keywords: IPrintOemUni interface [Print Devices],TTYGetInfo method, IPrintOemUni.TTYGetInfo, IPrintOemUni::TTYGetInfo, TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.TTYGetInfo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.TTYGetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::TTYGetInfo
+ - prcomoem/IPrintOemUni::TTYGetInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.TTYGetInfo
 ---
 
 # IPrintOemUni::TTYGetInfo
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::TTYGetInfo</code> method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.
-
 
 ## -parameters
 
-
-
-
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
-
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param dwInfoIndex
 
@@ -87,7 +80,7 @@ The <i>pOutputBuf</i> parameter points to a RECT structure in which the method s
 
 #### OEMTTY_INFO_NUM_UFMS
 
-The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
+The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="/windows-hardware/drivers/">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
 
 
 
@@ -95,27 +88,21 @@ The <i>pOutputBuf</i> parameter points to a DWORD in which the method should ret
 
 #### OEMTTY_INFO_UFM_IDS
 
-The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">UFMs</a> for 10,12, and 17 CPI fonts. 
-
+The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="/windows-hardware/drivers/">UFMs</a> for 10,12, and 17 CPI fonts.
 
 ### -param pOutputBuf
 
 Caller-supplied pointer to a buffer to receive the requested information.
 
-
 ### -param dwSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputBuf</i>.
-
 
 ### -param pcbcNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pOutputBuf</i>. If the number of bytes required is smaller than the number specified by <i>dwSize</i>, the method should supply the required size and return E_FAIL.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -158,16 +145,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <code>IPrintOemUni::TTYGetInfo</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TTYGetInfo" as input.
-
-
-
+The <code>IPrintOemUni::TTYGetInfo</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TTYGetInfo" as input.

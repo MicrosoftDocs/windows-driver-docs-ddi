@@ -6,40 +6,39 @@ ms.assetid: 61811522-9d31-4246-8cdd-71be1a8ff43e
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetInt64 function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropKeyFindKeyGetInt64"
 ms.keywords: PropKeyFindKeyGetInt64
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropKeyFindKeyGetInt64
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropKeyFindKeyGetInt64
+ - sensorsutils/PropKeyFindKeyGetInt64
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropKeyFindKeyGetInt64
+product:
+ - Windows
 ---
 
 # PropKeyFindKeyGetInt64 function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine gets a INT64 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
-
 
 ## -parameters
 
@@ -75,3 +73,4 @@ This function returns one of the following NTSTATUS codes:
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: A229E8D5-2776-453B-B0F9-BC48E9D29A2F
 ms.date: 05/08/2018
 keywords: ["TELEPHONY_PROVIDERCHANGEOP enumeration"]
 ms.keywords: TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END
-f1_keywords:
- - "ksmedia/TELEPHONY_PROVIDERCHANGEOP"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TELEPHONY_PROVIDERCHANGEOP
-product:
-- Windows
 targetos: Windows
 req.typenames: TELEPHONY_PROVIDERCHANGEOP
+f1_keywords:
+ - TELEPHONY_PROVIDERCHANGEOP
+ - ksmedia/TELEPHONY_PROVIDERCHANGEOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TELEPHONY_PROVIDERCHANGEOP
 ---
 
 # TELEPHONY_PROVIDERCHANGEOP enumeration
@@ -47,41 +46,26 @@ req.typenames: TELEPHONY_PROVIDERCHANGEOP
 
 ## -description
 
-
 The <b>TELEPHONY_PROVIDERCHANGEOP</b> enumeration defines constants that specify the requested provider change operation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TELEPHONY_PROVIDERCHANGEOP_END
 
 Specifies that the provider change operation has ended. The audio driver will update the call state to <b>TELEPHONY_CALLSTATE_ENABLED</b> in response to this value.
 
-
 ### -field TELEPHONY_PROVIDERCHANGEOP_BEGIN
 
 Specifies that the provider change operation has begun. The audio driver will update the call state to <b>TELEPHONY_CALLSTATE_PROVIDERTRANSITION</b> in response to this value.
-
 
 ### -field TELEPHONY_PROVIDERCHANGEOP_CANCEL
 
 Specifies that single-radio voice call continuity (SRVCC) is being canceled, and that the audio driver should revert back to the pre-SRVCC state. The audio driver will update the provider call state to TELEPHONY_CALLSTATE_ENABLED in response to this value.
 
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/audio/ksproperty-telephony-providerchange">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-providerchange">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>

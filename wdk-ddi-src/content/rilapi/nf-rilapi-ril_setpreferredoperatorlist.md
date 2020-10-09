@@ -8,8 +8,6 @@ ms.assetid: e61e9e3f-b70f-4b0a-8e64-4c7c4c086130
 ms.date: 05/02/2018
 keywords: ["RIL_SetPreferredOperatorList function"]
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
-f1_keywords:
- - "rilapi/RIL_SetPreferredOperatorList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SetPreferredOperatorList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SetPreferredOperatorList
+ - rilapi/RIL_SetPreferredOperatorList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SetPreferredOperatorList
 ---
 
 # RIL_SetPreferredOperatorList function
@@ -47,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param hUiccApp
-
 
 ### -param dwPreferredListSize
 
-
 ### -param lpPreferredList
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

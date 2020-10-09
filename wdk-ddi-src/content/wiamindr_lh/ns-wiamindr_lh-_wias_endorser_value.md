@@ -6,14 +6,12 @@ old-location: image\wias_endorser_value.htm
 tech.root: image
 ms.assetid: 54395899-c35d-4251-9e9d-ec2128b28c67
 ms.date: 05/03/2018
-keywords: ["_WIAS_ENDORSER_VALUE structure"]
+keywords: ["WIAS_ENDORSER_VALUE structure"]
 ms.keywords: "*PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], WIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], _WIAS_ENDORSER_VALUE, image.wias_endorser_value, wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml"
-f1_keywords:
- - "wiamindr_lh/WIAS_ENDORSER_VALUE"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIAS_ENDORSER_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: WIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE
+f1_keywords:
+ - _WIAS_ENDORSER_VALUE
+ - wiamindr_lh/_WIAS_ENDORSER_VALUE
+ - PWIAS_ENDORSER_VALUE
+ - wiamindr_lh/PWIAS_ENDORSER_VALUE
+ - WIAS_ENDORSER_VALUE
+ - wiamindr_lh/WIAS_ENDORSER_VALUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIAS_ENDORSER_VALUE
 ---
 
 # _WIAS_ENDORSER_VALUE structure
+
 
 ## -description
 
@@ -60,10 +64,10 @@ Specifies the value with which to replace the token.
 
 ## -remarks
 
-This structure is used indirectly by the [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring) function. One of the parameters of this function is a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure, which has a WIAS_ENDORSER_VALUE structure as one of its members.
+This structure is used indirectly by the [wiasParseEndorserString](../wiamdef/nf-wiamdef-wiasparseendorserstring.md) function. One of the parameters of this function is a [WIAS_ENDORSER_INFO](./ns-wiamindr_lh-_wias_endorser_info.md) structure, which has a WIAS_ENDORSER_VALUE structure as one of its members.
 
 ## -see-also
 
-[WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info)
+[WIAS_ENDORSER_INFO](./ns-wiamindr_lh-_wias_endorser_info.md)
 
-[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring)
+[wiasParseEndorserString](../wiamdef/nf-wiamdef-wiasparseendorserstring.md)

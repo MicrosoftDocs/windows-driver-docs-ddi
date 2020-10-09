@@ -8,8 +8,6 @@ ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.date: 05/10/2018
 keywords: ["VideoPortDebugPrint function"]
 ms.keywords: VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint
-f1_keywords:
- - "video/VideoPortDebugPrint"
 req.header: video.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortDebugPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortDebugPrint
+ - video/VideoPortDebugPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortDebugPrint
 ---
 
 # VideoPortDebugPrint function
@@ -47,30 +46,17 @@ req.typenames:
 
 ## -description
 
-
-Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://docs.microsoft.com/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a> macro.
-
+Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a> macro.
 
 ## -parameters
 
-
-
-
 ### -param DebugPrintLevel
 
+### -param DebugMessage 
 
-### -param DebugMessage [in]
-
+[in]
 Pointer to a string that contains the debug message.
-
-
-
 
 ## -returns
 
-
-
 None
-
-
-
