@@ -1,16 +1,16 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetGsoCapabilities
 title: NetAdapterOffloadSetGsoCapabilities function (netadapteroffload.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware generic send offload (GSO) capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware Generic Segmentation Offload (GSO) capabilities of a network adapter.
 tech.root: netvista
-ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
-ms.date: 01/17/2019
+ms.assetid: 
+ms.date: 10/09/2020
 keywords: ["NetAdapterOffloadSetGsoCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetGsoCapabilities"
 ms.keywords: NetAdapterOffloadSetGsoCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -37,7 +37,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # NetAdapterOffloadSetGsoCapabilities function
@@ -45,34 +45,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The **NetAdapterOffloadSetGsoCapabilities** method sets the hardware generic send offload (GSO) offload capabilities of a network adapter.
+The **NetAdapterOffloadSetGsoCapabilities** function sets the hardware [Generic Segmentation Offload (GSO)](/windows-hardware/drivers/netcx/gso-offload) capabilities of a network adapter.
 
 ## -parameters
 
 ### -param Adapter
 
-A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param HardwareCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure that describes the hardware's GSO offload capabilities.
+[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure that describes the hardware's GSO capabilities.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Generic Segmentation Offload](/windows-hardware/drivers/netcx/gso-offload)
 
 [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
 
-[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md)
 
-[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_gso_capabilities_init.md)
+[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_gso_capabilities_init.md)
 
-[*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
 
-[**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+[**NetAdapterStart**](nf-netadapter-netadapterstart.md)

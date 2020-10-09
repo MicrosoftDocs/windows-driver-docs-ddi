@@ -3,13 +3,13 @@ UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_GSO
 title: EVT_NET_ADAPTER_OFFLOAD_SET_GSO (netadapteroffload.h)
 description: The EvtNetAdapterOffloadSetGso callback function is implemented by the client driver to set changes in TCP and UDP large send offload capabilities.
 tech.root: netvista
-ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
-ms.date: 01/17/2019
+ms.assetid:
+ms.date: 10/09/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_GSO callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_GSO"
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -36,55 +36,37 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_GSO callback function
 
 ## -description
 
-
-
-The *EvtNetAdapterOffloadSetGso* callback function is implemented by the client driver to to query changes in active GSO capabilities and update the hardware settings accordingly.
-
-## -prototype
-
-```C++
-//Declaration
-
-EVT_NET_ADAPTER_OFFLOAD_SET_GSO EvtNetAdapterOffloadSetGso; 
-
-// Definition
-
-VOID EvtNetAdapterOffloadSetGso 
-(
-	NETADAPTER Adapter,
-	NETOFFLOAD Offload
-)
-{...}
-
-```
+The client driver implements the *EvtNetAdapterOffloadSetGso* callback function to query changes in active Generic Segmentation Offload (GSO) capabilities and update the hardware settings accordingly.
 
 ## -parameters
 
 ### -param Adapter
 
-A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Offload 
 
-A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
+[_In_] A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetGsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
+For an example implementation of this callback, see [Generic Segmentation Offload](/windows-hardware/drivers/netcx/gso-offload).
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Generic Segmentation Offload](/windows-hardware/drivers/netcx/gso-offload)
 
 [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md)
 
 [**NetAdapterOffloadSetGsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md)
+
+[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_gso_capabilities_init.md)

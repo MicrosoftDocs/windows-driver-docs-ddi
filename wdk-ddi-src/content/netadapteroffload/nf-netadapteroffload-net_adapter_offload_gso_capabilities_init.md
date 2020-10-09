@@ -1,16 +1,16 @@
 ---
 UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT function (netadapteroffload.h)
-description: The NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES structure.
+description: The NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES structure.
 tech.root: netvista
-ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
-ms.date: 01/17/2019
+ms.assetid: 
+ms.date: 10/09/2020
 keywords: ["NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -37,7 +37,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT function
@@ -45,44 +45,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
+The **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
 
 ## -parameters
 
 ### -param GsoCapabilities
 
-A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
+[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
 
 ### -param Layer3Flags
 
-Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully segment.
+[_In_] Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully segment.
 
 ### -param Layer4Flags
 
-Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully segment.
+[_In_] Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully segment.
 
 ### -param MaximumOffloadSize
 
-The maximum bytes of user data that the transport can pass to the NIC driver in a single packet.
+[_In_] The maximum bytes of user data that the transport can pass to the NIC driver in a single packet.
 
 ### -param MinimumSegmentCount
 
-The minimum number of segments by which a large TCP packet must be divisible before the transport can offload it to the hardware for segmentation.
+[_In_] The minimum number of segments by which a large TCP packet must be divisible before the transport can offload it to the hardware for segmentation.
 
 ### -param EvtAdapterOffloadSetGso
 
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_gso.md) callback function.
+[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md) callback function.
 
 ## -remarks
 
-The [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetGsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md) method.
+The client driver calls **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** to initialize a [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure. The driver passes the initialized **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES** structure as a parameter to the [**NetAdapterOffloadSetGsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md) function to register it.
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Generic Segmentation Offload](/windows-hardware/drivers/netcx/gso-offload)
 
-[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
 
-[**NetAdapterOffloadSetGsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md)
+[**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md)
+
+[**NetAdapterOffloadSetGsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetgsocapabilities.md)
