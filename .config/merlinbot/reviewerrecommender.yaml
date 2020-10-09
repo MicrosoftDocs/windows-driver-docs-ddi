@@ -1,0 +1,10 @@
+# Enable/Disable recommender
+enabled: false
+# How many reviewers to add?
+maxReviewers: 2
+# Exclude files/paths in PR to be considered for recommendation  
+excludedPaths:
+# Only suggest reviewers that are included in the following list
+includedReviewers:
+# Only suggest reviewers that are included in the following list
+excludedReviewers:
