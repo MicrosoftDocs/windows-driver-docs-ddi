@@ -231,9 +231,15 @@ Reserved.
 
 ### -field VT_ILLEGAL
 
+Illegal.
+
 ### -field VT_ILLEGALMASKED
 
+Illegal masked.
+
 ### -field VT_TYPEMASK
+
+Type mask.
 
 ## -remarks
 
