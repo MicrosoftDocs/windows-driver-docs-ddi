@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsRxChecksumIPv4Enabled
 title: NetOffloadIsRxChecksumIPv4Enabled function (netadapteroffload.h)
-description: The NetOffloadIsRxChecksumIPv4Enabled method determines whether a net adapter has Rx IPv4 checksum offload enabled.
+description: The NetOffloadIsRxChecksumIPv4Enabled function determines whether a net adapter has Rx IPv4 checksum offload enabled.
 tech.root: netvista
 ms.assetid:
 ms.date: 10/06/2020

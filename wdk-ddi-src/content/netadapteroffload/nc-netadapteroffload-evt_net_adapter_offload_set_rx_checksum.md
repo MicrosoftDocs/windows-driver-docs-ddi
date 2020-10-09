@@ -59,7 +59,7 @@ The client driver implements the *EvtNetAdapterOffloadSetRxChecksum* callback fu
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
+For an example implementation of this callback, [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload).
 
 ## -see-also
 
