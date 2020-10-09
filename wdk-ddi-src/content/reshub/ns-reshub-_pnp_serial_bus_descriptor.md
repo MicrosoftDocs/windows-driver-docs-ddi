@@ -77,7 +77,7 @@ The serial bus type. This member is set to 1 (for I2C), 2 (for SPI), or 3 (for U
 
 ### -field GeneralFlags
 
-Flags that are common to all serial bus types. Bit 0 is the slave-mode flag. If this bit is set to 1, the communication of this connection is initiated by the bus controller; otherwise, the communication is initiated by the target device. Bit 1 is the consumer/producer flag, and is always set to 1. No other flag bits are currently defined. For more information, see the ACPI 5.0 specification.
+Flags that are common to all serial bus types. Bit 0 is the subordinate-mode flag. If this bit is set to 1, the communication of this connection is initiated by the bus controller; otherwise, the communication is initiated by the target device. Bit 1 is the consumer/producer flag, and is always set to 1. No other flag bits are currently defined. For more information, see the ACPI 5.0 specification.
 
 ### -field TypeSpecificFlags
 
