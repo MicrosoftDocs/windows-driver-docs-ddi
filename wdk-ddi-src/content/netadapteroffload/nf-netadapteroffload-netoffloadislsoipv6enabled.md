@@ -1,37 +1,21 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsLsoIPv6Enabled
 title: NetOffloadIsLsoIPv6Enabled function (netadapteroffload.h)
-<<<<<<< HEAD
 author: windows-driver-content
 description: The NetOffloadIsLsoIPv6Enabled function determines whether a net adapter has large send offload (LSO) enabled for IPv6 packets.
 tech.root: netvista
 ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
 ms.author: windowsdriverdev
 ms.date: 10/09/2020
-=======
-description: The NetOffloadIsLsoIPv6Enabled function determines whether a net adapter has LSO offload enabled for IPv6 packets.
-tech.root: netvista
-ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
-ms.date: 01/17/2019
->>>>>>> release-iron-netcx
 keywords: ["NetOffloadIsLsoIPv6Enabled function"]
 ms.keywords: NetOffloadIsLsoIPv6Enabled
 req.header: netadapteroffload.h
-<<<<<<< HEAD
 req.include-header: netadaptercx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-=======
-req.include-header: netadaptercx.h 
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
->>>>>>> release-iron-netcx
 req.lib: netadaptercxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
