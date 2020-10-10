@@ -73,4 +73,4 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
 
-[**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+[**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
