@@ -7,7 +7,7 @@ tech.root: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_SPB_RESOURCE structure"]
-ms.keywords: "*PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode, 1 - Consumer/producer mode, 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, pepfx/PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE"
+ms.keywords: "*PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, pepfx/PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -50,9 +50,6 @@ api_name:
 
 ## -description
 
-> [!NOTE]
-> Microsoft supports a diverse and inclusionary environment. This article contains references to terminology that the Microsoft [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
-
 The <b>PEP_ACPI_SPB_RESOURCE</b> structure describes an ACPI serial bus connection resource.
 
 ## -struct-fields
@@ -75,8 +72,8 @@ Specifies the bit flags that are common to all serial bus connection types.
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="0_-_Slave_mode"></a><a id="0_-_slave_mode"></a><a id="0_-_SLAVE_MODE"></a><dl>
-<dt><b>0 - Slave mode</b></dt>
+<td width="40%"><dl>
+<dt><b>0 - Subordinate mode</b></dt>
 </dl>
 </td>
 <td width="60%">
