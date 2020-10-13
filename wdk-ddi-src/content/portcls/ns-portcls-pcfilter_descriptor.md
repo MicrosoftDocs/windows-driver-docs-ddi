@@ -114,7 +114,7 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcconnection_descriptor</a>
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcconnection_descriptor">PCCONNECTION_DESCRIPTOR</a>
 
 
 
