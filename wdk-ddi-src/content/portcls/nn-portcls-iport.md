@@ -76,7 +76,7 @@ The <code>IPort</code> interface provides a uniform means for initializing audio
 </dd>
 <dd>
 
-<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
 
 </dd>

@@ -128,24 +128,16 @@ The device is not ready.
 
 <div class="alert"><b>Note</b>  Miniports for Intel High Definition Audio Codecs must specify a CacheType of MmWriteCombined to ensure cache coherency. This is because the Intel High Definition Audio Controller may be configured for non-snoop operation.</div>
 <div> </div>
-After receiving a <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer-with-notification">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> request from the client, the port driver calls the <code>AllocateBufferWithNotification</code> method to allocate a cyclic buffer that the port driver can later map to the virtual address space of the client.  <code>AllocateBufferWithNotification</code> operates in a manner similar to <a href="/previous-versions/windows/hardware/drivers/ff536744(v=vs.85)">IMiniportWaveRTStream::AllocateAudioBuffer</a>. Additionally, <code>AllocateBufferWithNotification</code> identifies to the WaveRT port driver that DMA-driven event notification is wanted, and it specifies how many notifications per cycle of the cyclic buffer are needed.
+After receiving a <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer-with-notification">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> request from the client, the port driver calls the <code>AllocateBufferWithNotification</code> method to allocate a cyclic buffer that the port driver can later map to the virtual address space of the client.  <code>AllocateBufferWithNotification</code> operates in a manner similar to <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-allocateaudiobuffer">IMiniportWaveRTStream::AllocateAudioBuffer</a>. Additionally, <code>AllocateBufferWithNotification</code> identifies to the WaveRT port driver that DMA-driven event notification is wanted, and it specifies how many notifications per cycle of the cyclic buffer are needed.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff536744(v=vs.85)">IMiniportWaveRTStream::AllocateAudioBuffer</a>
-
-
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-allocateaudiobuffer">IMiniportWaveRTStream::AllocateAudioBuffer</a>
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertstreamnotification">IMiniportWaveRTStreamNotification</a>
 
-
-
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer-with-notification">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>

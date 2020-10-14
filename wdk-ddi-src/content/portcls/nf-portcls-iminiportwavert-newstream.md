@@ -111,11 +111,11 @@ IMiniportWaveRTStream
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-getposition">IMiniportWaveRTStream::GetPosition</a>
 
 
 
-<a href="//windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-setstate">IMiniportWaveRTStream::SetState</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertstream-setstate">IMiniportWaveRTStream::SetState</a>
 
 
 
