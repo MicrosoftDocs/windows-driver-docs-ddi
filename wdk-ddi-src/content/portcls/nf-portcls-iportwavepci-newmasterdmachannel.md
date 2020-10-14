@@ -134,7 +134,7 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
 
 

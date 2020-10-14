@@ -7,7 +7,7 @@ tech.root: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.date: 04/16/2018
 keywords: ["FsRtlMdlWriteCompleteDev function"]
-ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
+ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated.
+The **FsRtlMdlWriteCompleteDev** routine frees the resources that [FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md) allocated.
 
 ## -parameters
 
@@ -66,24 +66,24 @@ A pointer to a value that specifies the starting byte offset within the cache th
 ### -param MdlChain 
 
 [in]
-A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated.
+A pointer to a linked list of memory descriptor lists (MDLs) that [FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md) allocated.
 
 ### -param DeviceObject
 
-<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
+[ in, optional ] A pointer to a device object on which the file is opened.
 
 ## -returns
 
-The <b>FltFastIoMdlWriteComplete</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails or if the FO_WRITE_THROUGH flag is set in the file object.
+The **FsRtlMdlWriteCompleteDev** routine returns **TRUE** if the operation succeeds and **FALSE** if the operation fails or if the FO_WRITE_THROUGH flag is set in the file object.
 
 ## -remarks
 
-The <b>FltFastIoMdlWriteComplete</b> routine frees the memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated and unlocks the cache memory that <b>FltFastIoPrepareMdlWrite</b> locked.
+The **FsRtlMdlWriteCompleteDev** routine frees the memory descriptor lists (MDLs) that [FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md) allocated and unlocks the cache memory that **FsRtlPrepareMdlWriteDev** locked.
 
-If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, <b>FltFastIoMdlWriteComplete</b> immediately flushes the cached memory to disk. This flush operation re-enters the file system and can cause <b>FltFastIoMdlWriteComplete</b> to raise an exception if the flush operation fails. 
+If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, **FsRtlMdlWriteCompleteDev** immediately flushes the cached memory to disk. This flush operation re-enters the file system and can cause **FsRtlMdlWriteCompleteDev** to raise an exception if the flush operation fails. 
 
-Each call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
+Each call to [FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md) must be followed by a call to **FsRtlMdlWriteCompleteDev**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a>
+[FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md)

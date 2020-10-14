@@ -63,7 +63,7 @@ Pointer to <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourceli
 ### -param Port 
 
 [in]
-Pointer to the port driver's <a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a> interface object. The caller specifies a valid, non-NULL pointer value for this parameter.
+Pointer to the port driver's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a> interface object. The caller specifies a valid, non-NULL pointer value for this parameter.
 
 ### -param ServiceGroup 
 
@@ -90,7 +90,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
 
 
