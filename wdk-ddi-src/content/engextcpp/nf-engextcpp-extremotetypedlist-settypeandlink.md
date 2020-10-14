@@ -75,7 +75,7 @@ The type ID of the type relative to the module specified by <i>TypeModBase</i>. 
 [in, out, optional]
 The cache cookie to use for caching the type information.  If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for the type information each time.
 
-For more information about <i>CacheCookie</i>, see the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
+For more information about <i>CacheCookie</i>, see the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constdebug_typed_data)">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
 
 ## -returns
 

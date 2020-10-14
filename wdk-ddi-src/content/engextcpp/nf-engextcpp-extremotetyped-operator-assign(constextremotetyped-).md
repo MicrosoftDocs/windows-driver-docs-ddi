@@ -61,7 +61,7 @@ An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extrem
 
 ## -remarks
 
-The typed data can also be copied using the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
+The typed data can also be copied using the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constdebug_typed_data)">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
 
 ## -see-also
 

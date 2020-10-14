@@ -67,7 +67,7 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy">Copy(Debug Typed Data)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constdebug_typed_data)">Copy(Debug Typed Data)</a>
 
 
 </dd>
@@ -167,25 +167,11 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index">operator[]</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(long)">operator[]</a>
 
 
 </dd>
-<dd>
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index">operator[]</a>
-
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index">operator[]</a>
-
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index">operator[]</a>
 
 
 </dd>
