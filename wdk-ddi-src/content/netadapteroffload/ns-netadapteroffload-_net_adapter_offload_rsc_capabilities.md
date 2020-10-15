@@ -4,7 +4,7 @@ title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for receive segment coalescence (RSC).
 tech.root: netvista
 ms.assetid: ec0a7407-64eb-477e-be2e-ada7c1c3bcc7
-ms.date: 11/07/2019
+ms.date: 10/15/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES,
 req.header: netadapteroffload.h
@@ -52,29 +52,35 @@ The **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES** structure describes a network inter
 
 The size of this structure, in bytes.
 
-### -field IPv4
+### -field Layer3Flags
 
  
-A flag specifying whether the hardware can perform receive segment coalescence (RSC) on IPv4 packets.
+Flags specifying the layer 3 protocols that the NIC can successfully perform RSC on. `NetAdapterOffloadLayer3FlagIPv4NoOptions` and `NetAdapterOffloadLayer3FlagIPv6NoExtensions` are the only valid values.
 
-### -param IPv6
+### -field Layer4Flags
 
-A flag specifying whether the hardware can perform RSC on IPv6 packets.
+Flags specifying the layer 4 protocols that the NIC can successfully perform RSC on. `NetAdapterOffloadLayer4FlagTcpNoOptions` is the only valid value. Layer 3 flags must be set if the `NetAdapterOffloadLayer4FlagTcpNoOptions` flag is set.
 
-### -param Timestamp
+### -field TcpTimestampOption
 
-A flag specifying whether the hardware can perform RSC on packets with a timestamp.
+Optional. A flag specifying whether the hardware can perform RSC on packets with a timestamp.
 
 ### -field EvtAdapterOffloadSetRsc
 
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
 
 ## -remarks
 
+Call [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_rsc_capabilities_init.md) to initialize this structure. The client driver passes an initialized  **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES** structure as a parameter to [**NetAdapterOffloadSetRscCapabilities**](nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md).
+
+To see an example of how a client driver might set up its RSC hardware offload capabilities, see [Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads).
+
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads)
 
-[**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_rsc_capabilities_init.md)
 
-[**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
+[**NetAdapterOffloadSetRscCapabilities**](nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
+
+[*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) 
