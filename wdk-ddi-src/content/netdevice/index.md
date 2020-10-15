@@ -17,4 +17,10 @@ f1_keywords:
 
 # Netconfiguration.h header
 
+## -description
+
+This header is used by netvista. For more information, see:
+
+- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+
 
