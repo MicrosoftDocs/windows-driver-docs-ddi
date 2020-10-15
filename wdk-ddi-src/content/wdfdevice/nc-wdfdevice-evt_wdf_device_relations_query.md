@@ -14,7 +14,7 @@ req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
-req.umdf-ver: 2.0
+req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
+<p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceRelationsQuery</i> event callback reports changes in the relationships among devices that are supported by the driver.
 
