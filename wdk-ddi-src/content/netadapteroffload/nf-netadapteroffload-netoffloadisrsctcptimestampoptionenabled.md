@@ -42,13 +42,24 @@ ms.custom: Fe
 
 ## -description
 
+The **NetOffloadIsRscTcpTimestampOptionEnabled** function determines whether a net adapter has RSC offload enabled for timestamp packets.
+
 ## -parameters
 
 ### -param Offload
 
+[_In_] A NETOFFLOAD object that represents the net adapter's RSC capabilities.
+
 ## -returns
+
+Returns **TRUE** if RSC offload is enabled for timestamp packets, or **FALSE** if it is not.
 
 ## -remarks
 
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetRsc*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for timestamp packets.
+
 ## -see-also
 
+[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads)
+
+[*EvtNetAdapterOffloadSetRsc*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
