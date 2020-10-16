@@ -45,9 +45,7 @@ api_name:
 
 ## -description
 
-This callback function returns a list of data fields supported by the specified sensor.
-
-For more information about data fields see [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields).
+This callback function returns a list of data fields supported by the specified sensor. For more information about data fields see [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields).
 
 ## -parameters
 
