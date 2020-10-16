@@ -58,13 +58,13 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may ret
 
 ## -remarks
 
-The client driver calls this method in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback after it calls [**NetDeviceInitConfig**](netdevice/nf-netdevice-netdeviceinitconfig.md), but before it calls [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+The client driver calls this method in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback after it calls [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md), but before it calls [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 For more information, see [Initialize the device](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
 
 ## -see-also
 
-[**NetDeviceInitConfig**](netdevice/nf-netdevice-netdeviceinitconfig.md)
+[**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md)
 
 [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
