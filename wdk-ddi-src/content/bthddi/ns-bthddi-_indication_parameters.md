@@ -81,15 +81,15 @@ The structure that contains parameters for the **IndicationRemoteConfigRequestIN
 
 ### -field Parameters.ConfigRequest.CurrentParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters)structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the   **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the   **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigRequest.RequestedParams
 
-A **CHANNEL_CONFIG_PARAMETERS** structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigRequest.ResponseParams
 
-A **CHANNEL_CONFIG_PARAMETERS** structure that contains the parameters that the profile driver responds to the configuration request with.
+A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that the profile driver responds to the configuration request with.
 
 ### -field Parameters.ConfigRequest.Response
 
@@ -113,11 +113,11 @@ A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_ch
 
 ### -field Parameters.ConfigResponse.RequestedParams
 
-A **CHANNEL_CONFIG_PARAMETERS** structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigResponse.RejectedParams
 
-A **CHANNEL_CONFIG_PARAMETERS** structure that contains the configuration parameter settings that were rejected by the remote device.
+A *[CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the configuration parameter settings that were rejected by the remote device.
 
 ### -field Parameters.ConfigResponse.UnknownTypes
 
@@ -129,7 +129,7 @@ The number of unrecognized types in the **UnknownTypes** member.
 
 ### -field Parameters.ConfigResponse.NewRequestParams
 
-A **CHANNEL_CONFIG_PARAMETERS** structure that contains the parameter settings for the callback function to resubmit after the response has returned from the remote device.
+A *[CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameter settings for the callback function to resubmit after the response has returned from the remote device.
 
 ### -field Parameters.ConfigResponse.Response
 
