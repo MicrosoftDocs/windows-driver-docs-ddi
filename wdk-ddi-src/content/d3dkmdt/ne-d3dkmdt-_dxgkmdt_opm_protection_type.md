@@ -45,7 +45,6 @@ api_name:
 
 # _DXGKMDT_OPM_PROTECTION_TYPE enumeration
 
-
 ## -description
 
 The DXGKMDT_OPM_PROTECTION_TYPE enumeration indicates the type of protections that a video output supports.
@@ -62,23 +61,23 @@ Indicates that the video output does not support any protection type.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP
 
-Indicates that the protected output supports High-bandwidth Digital Content Protection (HDCP) that is compatible with Certified Output Protection Protocol (COPP). For more information about HDCP, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. This protection type can be used only with protected output objects that have COPP semantics. OPM can use this value in a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a> function to determine whether a protected output supports COPP-compatible HDCP. OPM can also use this value in a call to the driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function to change the COPP-compatible HDCP protection level.
+Indicates that the protected output supports High-bandwidth Digital Content Protection (HDCP) that is compatible with Certified Output Protection Protocol (COPP). For more information about HDCP, see the [HDCP Specification Revision 1.1](https://www.digital-cp.com/). This protection type can be used only with protected output objects that have COPP semantics. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports COPP-compatible HDCP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the COPP-compatible HDCP protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_ACP
 
-Indicates that the protected output supports Analog Copy Protection (ACP). ACP protects analog TV signals. Currently, OPM can use ACP to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about ACP, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71273">Rovi (formerly Macrovision)</a> website. OPM can use this value in a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a> function to determine whether a protected output supports ACP. OPM can also use this value in a call to the driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function to change the ACP protection level.
+Indicates that the protected output supports Analog Copy Protection (ACP). ACP protects analog TV signals. Currently, OPM can use ACP to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about ACP, see the [TiVo](https://business.tivo.com/) (formerly Rovi, formerly Macrovision) website. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports ACP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the ACP protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_CGMSA
 
-Indicates that the protected output supports Content Generation Management System Analog (CGMS-A). CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about CGMS-A, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70568">CGMS-A article</a>. OPM can use this value in a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a> function to determine whether a protected output supports CGMS-A. OPM can also use this value in a call to the driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function to change the CGMS-A protection level.
+Indicates that the protected output supports Content Generation Management System Analog (CGMS-A). CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about CGMS-A, see the [CGMS-A article](https://wikipedia.org/wiki/CGMS-A). OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports CGMS-A. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the CGMS-A protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_HDCP
 
-Indicates that the protected output supports HDCP. This protection type can be used only with protected output objects that have OPM semantics. OPM can use this value in a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a> function to determine whether a protected output supports HDCP. OPM can also use this value in a call to the driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function to change the HDCP protection level.
+Indicates that the protected output supports HDCP. This protection type can be used only with protected output objects that have OPM semantics. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_information.md) function to determine whether a protected output supports HDCP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the HDCP protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_DPCP
 
-Indicates that the protected output supports DisplayPort Copy Protection (DPCP). For more information about DisplayPort, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71382">DisplayPort article</a>. This protection type can be used only with protected output objects that have OPM semantics. OPM can use this value in a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a> function to determine whether a protected output supports DPCP. OPM can also use this value in a call to the driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function to change the DPCP protection level.
+Indicates that the protected output supports DisplayPort Copy Protection (DPCP). For more information about DisplayPort, see the [DisplayPort article](https://wikipedia.org/wiki/DisplayPort). This protection type can be used only with protected output objects that have OPM semantics. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_information.md) function to determine whether a protected output supports DPCP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the DPCP protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_TYPE_ENFORCEMENT_HDCP
 
@@ -88,26 +87,18 @@ A mask value that indicates the valid bitfields in a bitwise OR combination of t
 
 ## -remarks
 
-DXGKMDT_OPM_PROTECTION_TYPE_HDCP and DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP are used to turn HDCP on or off and to determine if HDCP is on or off. 
+DXGKMDT_OPM_PROTECTION_TYPE_HDCP and DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP are used to turn HDCP on or off and to determine if HDCP is on or off.
 
 If a protected output supports DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, it supports HDCP repeaters, and an application handles HDCP revocation. If a protected output supports DXGKMDT_OPM_PROTECTION_TYPE_HDCP, it supports HDCP repeaters and handles HDCP revocation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+[**DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS**](ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md)
 
+[**DXGKMDT_OPM_STANDARD_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_standard_information.md)
 
+[**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_standard_information">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+[**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a>
+[**DxgkDdiOPMGetInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_information.md)

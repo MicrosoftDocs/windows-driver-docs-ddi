@@ -43,175 +43,64 @@ api_name:
 
 # FltQueryDirectoryFile function
 
-
 ## -description
 
 The **FltQueryDirectoryFile** routine returns various kinds of information about files in the directory specified by a given file object. Use [FltQueryDirectoryFileEx](nf-fltkernel-fltquerydirectoryfileex.md) for greater query control.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque pointer to the minifilter driver instance that initiates the I/O.
+[in] Opaque pointer to the filter driver instance that initiates the I/O.
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-Pointer to the file object that represents the directory to be scanned.
+[in] Pointer to the file object that represents the directory to be scanned.
 
-### -param FileInformation 
+### -param FileInformation
 
-[out]
-Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
+[out] Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
 
-### -param Length 
+### -param Length
 
-[in]
-Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
+[in] Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
 
-### -param FileInformationClass 
+### -param FileInformationClass
 
-[in]
-Type of information to be returned about files in the directory. One of the values in the following table can be used.
+[in] Type of information to be returned about files in the directory. One of the values in the following table can be used.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
+| Value | Meaning |
+| ----- | ------- |
+| **FileBothDirectoryInformation** | Return a [**FILE_BOTH_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information) structure for each file. |
+| **FileDirectoryInformation** | Return a [**FILE_DIRECTORY_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information) structure for each file. |
+| **FileFullDirectoryInformation** | Return a [**FILE_FULL_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information) structure for each file. |
+| **FileIdBothDirectoryInformation** | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information) structure for each file. |
+| **FileIdExtdBothDirectoryInformation** | Return a [**FILE_ID_EXTD_BOTH_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information) structure for each file. |
+| **FileIdExtdDirectoryInformation** | Return a [**FILE_ID_EXTD_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information) structure for each file. |
+| **FileIdFullDirectoryInformation** | Return a [**FILE_ID_FULL_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information) structure for each file. |
+| **FileIdGlobalTxDirectoryInformation** | Return a [**FILE_ID_GLOBAL_TX_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information) structure for each file. |
+| **FileNamesInformation** | Return a [**FILE_NAMES_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information) structure for each file. |
+| **FileObjectIdInformation** | Return a [**FILE_OBJECTID_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileQuotaInformation** | Return a single [**FILE_QUOTA_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileReparsePointInformation** | Return a single [**FILE_REPARSE_POINT_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
 
-<tr>
-<td>
-<b>FileBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information#requirements">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
+### -param ReturnSingleEntry
 
-<tr>
-<td>
-<b>FileDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information#requirements">FILE_DIRECTORY_INFORMATION</a> structure for each file.
-</td>
-</tr>
+[in] Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
 
-<tr>
-<td>
-<b>FileFullDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information#requirements">FILE_FULL_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
+### -param FileName
 
-<tr>
-<td>
-<b>FileIdBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information#requirements">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdExtdBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements">FILE_ID_EXTD_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdExtdDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements">FILE_ID_EXTD_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdFullDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information#requirements">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdGlobalTxDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileNamesInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information#requirements">FILE_NAMES_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileObjectIdInformation</b>
-</td>
-<td>
-Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information#requirements">FILE_OBJECTID_INFORMATION</a> structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileQuotaInformation</b>
-</td>
-<td>
-Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information#requirements">FILE_QUOTA_INFORMATION</a> structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileReparsePointInformation</b>
-</td>
-<td>
-Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information#requirements">FILE_REPARSE_POINT_INFORMATION</a> structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes.
-</td>
-</tr>
-
-</table>
-
-### -param ReturnSingleEntry 
-
-[in]
-Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
-
-### -param FileName 
-
-[in, optional]
-Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
+[in, optional] Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If *FileName* is **NULL**, all files are included. If *RestartScan* is **FALSE**, the value of *FileName* is ignored.
 
-### -param RestartScan 
+### -param RestartScan
 
-[in]
-Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile **for the first time.
+[in] Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile** for the first time.
 
-### -param LengthReturned 
+### -param LengthReturned
 
-[out, optional]
-Receives the number of bytes actually written to the given *FileInformation* buffer.
+[out, optional] Receives the number of bytes actually written to the given *FileInformation* buffer.
 
 ## -returns
 
@@ -239,14 +128,14 @@ On each call, **FltQueryDirectoryFile** returns as many FILE_*XXX*_INFORMATION s
 
 The final call to **FltQueryDirectoryFile** returns an empty output buffer and reports an appropriate status value such as STATUS_NO_MORE_FILES.
 
-<div class="alert"><b>Note</b>    When <b>FltQueryDirectoryFile</b> is called multiple times on the same directory, it is possible that the number of entries for which information is returned will be less than expected. This is because the set of entries to be included in the directory scan is fixed on the first call to <b>FltQueryDirectoryFile</b>. In subsequent calls, <b>FltQueryDirectoryFile</b> resumes the directory scan wherever it left off in this same enumeration. However, between calls to <b>FltQueryDirectoryFile</b>, the actual directory entries can change so that they are no longer in sync with the original enumeration.</div>
-<div> </div>
+> [!NOTE]
+> When **FltQueryDirectoryFile** is called multiple times on the same directory, it is possible that the number of entries for which information is returned will be less than expected. This is because the set of entries to be included in the directory scan is fixed on the first call to **FltQueryDirectoryFile**. In subsequent calls, **FltQueryDirectoryFile** resumes the directory scan wherever it left off in this same enumeration. However, between calls to **FltQueryDirectoryFile**, the actual directory entries can change so that they are no longer in sync with the original enumeration.
 
 **FltQueryDirectoryFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see [File Objects](/windows-hardware/drivers/ddi/index).
 
-Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
@@ -260,7 +149,7 @@ Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and
 
 [FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md)
 
-[FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information)
+[FILE_ID_EXTD_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_dir_information.md)
 
 [FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md)
 

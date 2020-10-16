@@ -45,16 +45,11 @@ api_name:
  - DXGK_SPB_INTERFACE
 ---
 
-# _DXGK_SPB_INTERFACE structure
-
+# DXGK_SPB_INTERFACE structure
 
 ## -description
 
-Contains pointers to functions in the <a href="/windows-hardware/drivers/ddi/index">Simple Peripheral Bus (SPB) Interface</a> that the Windows Display Driver Model (WDDM) 1.2 and later  display miniport driver can call to inspect and alter SPB resources.
-
-To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
-
-For more information on SPB architecture, see <a href="/previous-versions/hh450903(v=vs.85)">Simple Peripheral Buses</a> and <a href="/previous-versions/hh698226(v=vs.85)">SPB Peripheral Device Driver Overview</a>.
+The **DXGK_SPB_INTERFACE** structure contains pointers to functions in the Simple Peripheral Bus (SPB) Interface that a Windows Display Driver Model (WDDM) 1.2 and later display miniport driver can call to inspect and alter SPB resources.
 
 ## -struct-fields
 
@@ -64,7 +59,7 @@ The size, in bytes, of this structure.
 
 ### -field Version
 
-The version number of the SPB interface. Version number constants are defined in Dispmprt.h (for example, DXGK_SPB_INTERFACE_VERSION_1).
+The version number of the SPB interface. Version number constants are defined in *Dispmprt.h* (for example, DXGK_SPB_INTERFACE_VERSION_1).
 
 ### -field Context
 
@@ -82,280 +77,101 @@ A pointer to an interface dereference function that is implemented by the displa
 
 Opens a Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
 
-
-
-#### DeviceHandle
-
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-
-
-#### SpbReourceId
-
-The resource  ID of the SPB resource hub.
-
-
-
-#### SpbResourceSubName
-
-An optional pointer to the Unicode SPB resource subname.
-
-
-
-#### DesiredAccess
-
-Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the SPB resource. For more information, see the <i>DesiredAccess</i> parameter of the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function.
-
-
-
-#### ShareAccess
-
-Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
-
-
-
-#### OpenOptions
-
-Specifies the options to apply when opening the SPB resource. For more information, see the <i>CreateOptions</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
-
-
-
-#### SpbResource
-
-A pointer to a buffer that is used to return the handle to the SPB resource.
+| OpenSpbResource Parameter | Description |
+| ------------------------- | ----------- |
+| **DeviceHandle** | Handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
+| **SpbReourceId** | The resource ID of the SPB resource hub. |
+| **SpbResourceSubName** | Optional pointer to the Unicode SPB resource subname. |
+| **DesiredAccess** | An [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the SPB resource. For more information, see the *DesiredAccess* parameter of the [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) function. |
+| **ShareAccess** | Type of share access for the file. For more information, see the *ShareAccess* parameter of [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). |
+| **OpenOptions** | The options to apply when opening the SPB resource. For more information, see the *CreateOptions* parameter of [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). |
+| **SpbResource** | A pointer to a buffer that is used to return the handle to the SPB resource. |
 
 ### -field CloseSpbResource
 
-Closes a Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
+Closes an SPB resource. All input parameters are supplied by the display miniport driver.
 
 Closing an open object handle causes that handle to become invalid. The system also decrements the handle count for the object and checks whether the object can be deleted. The system does not actually delete the object until all of the object's handles are closed and no referenced pointers remain.
 
-The driver must call <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> to close every handle that it has opened with <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> as soon as the handle is no longer required.
+The driver must call **CloseSpbResource** to close every handle that it has opened with **OpenSpbResource** as soon as the handle is no longer required.
 
-Callers of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> should not assume that this function automatically waits for all I/O to complete prior to returning.
+Callers of **CloseSpbResource** should not assume that this function automatically waits for all I/O to complete prior to returning.
 
-
-
-#### DeviceHandle
-
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-
-
-#### SpbResource
-
-A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
+| CloseSpbResource Parameter | Description |
+| -------------------------- | ----------- |
+| **DeviceHandle** | A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
+| **SpbResource** | A pointer to an SPB resource that the display miniport driver opened using the **OpenSpbResource** function. |
 
 ### -field ReadSpbResource
 
-Reads data from an open Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
+Reads data from an open SPB resource. All input parameters are supplied by the display miniport driver.
 
-If the call to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>OpenOptions</i> flags <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b> (defined in Wdm.h), the I/O Manager maintains the current file position. If so, the caller of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
-<li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
-<li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
-</ul>
+If the call to **OpenSpbResource** set either of the *OpenOptions* flags **FILE_SYNCHRONOUS_IO_ALERT** or **FILE_SYNCHRONOUS_IO_NONALERT** (defined in *Wdm.h*), the I/O Manager maintains the current file position. If so, the caller of **ReadSpbResource** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
 
+* Specify a pointer to a [**LARGE_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1) value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value **FILE_USE_FILE_POINTER_POSITION** (defined in Wdm.h).
+* Pass a **NULL** pointer for *ByteOffset*.
 
+**ReadSpbResource** updates the current file position by adding the number of bytes read when it completes the read operation, if it is using the current file position maintained by the I/O Manager.
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> updates the current file position by adding the number of bytes read when it completes the read operation, if it is using the current file position maintained by the I/O Manager.
+Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit *ByteOffset* value to **ReadSpbResource**. Doing this automatically changes the current file position to that *ByteOffset* value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
 
-Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <b>ReadSpbResource</b>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
-
-
-
-#### DeviceHandle
-
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-
-
-#### SpbResource
-
-A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
-
-
-
-#### Length
-
-The size, in bytes, of the buffer pointed to by the <i>Buffer</i> parameter.
-
-
-
-#### Buffer
-
-A pointer to a buffer that receives the data read from the specified SPB resource.
-
-
-
-#### ByteOffset
-
-An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the read operation will begin. If an attempt is made to read beyond the end of the file, <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> returns an error.
-
-For more details on how to specify the byte offset, see the following Remarks section.
-
-
-
-#### EventHandle
-
-An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the read operation is completed and the given event is set to the <b>Signaled</b> state.
-
-This parameter can be <b>NULL</b>.
-
-
-
-#### IoStatusBlock
-
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
+| OpenSpbResource Parameter | Description |
+| ------------------------- | ----------- |
+| **DeviceHandle** | A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
+| **SpbResource** | A pointer to an SPB resource that the display miniport driver opened using the **OpenSpbResource** function. |
+| **Length** | The size, in bytes, of the buffer pointed to by the *Buffer* parameter. |
+| **Buffer** | A pointer to a buffer that receives the data read from the specified SPB resource. |
+| **ByteOffset** | An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the read operation will begin. If an attempt is made to read beyond the end of the file, **ReadSpbResource** returns an error. |
+| **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the read operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
+| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested read operation. The  **Information** member of the **IO_STATUS_BLOCK** structure receives the number of bytes actually read from the SPB resource. |
 
 ### -field WriteSpbResource
 
-Writes data to an open Simple Peripheral Bus (SPB) resource.
+Writes data to an open SPB resource.
 
-If the call to the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function set only the <i>DesiredAccess</i> flag <b>FILE_APPEND_DATA</b>, the <i>ByteOffset</i> parameter is ignored. In this case, data in the buffer pointed to by the <i>Buffer</i> parameter, for <b>Length</b> bytes, is written starting at the current end of file.
+If the call to the **OpenSpbResource** function set only the *DesiredAccess* flag **FILE_APPEND_DATA**, the *ByteOffset* parameter is ignored. In this case, data in the buffer pointed to by the *Buffer* parameter, for **Length** bytes, is written starting at the current end of file.
 
+If the call to **OpenSpbResource** set either of the *CreateOptions* flags, **FILE_SYNCHRONOUS_IO_ALERT** or **FILE_SYNCHRONOUS_IO_NONALERT**, the I/O Manager maintains the current file position. If so, the caller of **WriteSpbResource** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
 
+* Specify a pointer to a [**LARGE_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1) value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value **FILE_USE_FILE_POINTER_POSITION** (defined in *Wdm.h*).
+* Pass a **NULL** pointer for *ByteOffset*.
 
-If the call to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>CreateOptions</i> flags, <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b>, the I/O Manager maintains the current file position. If so, the caller of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
-<li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
-<li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
-</ul>
+**WriteSpbResource** updates the current file position by adding the number of bytes written when it completes the write operation, if it is using the current file position maintained by the I/O Manager.
 
+Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit *ByteOffset* value to **WriteSpbResource**. Doing this automatically changes the current file position to that *ByteOffset* value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
 
+It is also possible to cause a write operation to start at the current end of file by specifying for *ByteOffset* a pointer to a [**LARGE_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1) value with **HighPart** set to -1 and **LowPart** set to **FILE_WRITE_TO_END_OF_FILE**. This works regardless of whether the I/O Manager is maintaining the current file position.
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> updates the current file position by adding the number of bytes written when it completes the write operation, if it is using the current file position maintained by the I/O Manager.
-
-Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
-
-It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to <b>FILE_WRITE_TO_END_OF_FILE</b>. This works regardless of whether the I/O Manager is maintaining the current file position.
-
-
-
-#### DeviceHandle
-
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-
-
-#### SpbResource
-
-A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
-
-
-
-#### Length
-
-The size, in bytes, of the buffer pointed to by the <i>Buffer</i> parameter.
-
-
-
-#### Buffer
-
-A pointer to a caller-allocated buffer that contains the data to be written to the specified SPB resource.
-
-
-
-#### ByteOffset
-
-An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the write operation will begin. If the <i>Length</i> and <i>ByteOffset</i> parameters specify a write operation past the current end-of-file mark, <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
-
-For more details on how to specify the byte offset, see the following Remarks section.
-
-
-
-#### EventHandle
-
-An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the write operation is completed and the given event is set to the <b>Signaled</b> state.
-
-This parameter can be <b>NULL</b>.
-
-
-
-#### IoStatusBlock
-
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
+| WriteSpbResource Parameter | Description |
+| -------------------------- | ----------- |
+| **DeviceHandle** | A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
+| **SpbResource** | A pointer to an SPB resource that the display miniport driver opened using the **OpenSpbResource** function. |
+| **Length** | The size, in bytes, of the buffer pointed to by the *Buffer* parameter. |
+| **Buffer** | A pointer to a caller-allocated buffer that contains the data to be written to the specified SPB resource. |
+| **ByteOffset** | An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the write operation will begin. If the *Length* and *ByteOffset* parameters specify a write operation past the current end-of-file mark, **WriteSpbResource** automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero. |
+| **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the write operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
+| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested write operation. The **Information** member of the  **IO_STATUS_BLOCK** structure receives the number of bytes actually written to the SPB resource.
 
 ### -field SpbResourceIoControl
 
 Performs an I/O control operation on an open Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
 
-If the caller opened the file for asynchronous I/O (with neither <b>FILE_SYNCHRONOUS_XXX</b> create/open option set), the specified event, if any, will be set to the <b>Signaled</b> state when the device control operation completes. Otherwise, the file object specified by the <i>DeviceHandle</i> parameter will be set to the <b>Signaled</b> state.
+If the caller opened the file for asynchronous I/O (with neither **FILE_SYNCHRONOUS_XXX** create/open option set), the specified event, if any, will be set to the **Signaled** state when the device control operation completes. Otherwise, the file object specified by the *DeviceHandle* parameter will be set to the **Signaled** state.
 
+| SpbResourceIoControl Parameter | Description |
+| ------------------------------ | ----------- |
+|  **DeviceHandle** | A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
+| **SpbResource** | A pointer to an SPB resource that the display miniport driver opened using the **OpenSpbResource** function. |
+| **IoControlCode** | A device I/O control code (IOCTL_XXX) that indicates which device I/O control operation is to be carried out on, usually by the underlying device driver. The value of this parameter determines the format and required length of the *InputBuffer* and *OutputBuffer* parameters, as well as which of the following parameter pairs are required. |
+| **InBufferSize** | The size, in bytes, of the buffer pointed to by the *InputBuffer* parameter. This value is ignored if *InputBuffer* is **NULL**. |
+| **InputBuffer** | A pointer to a caller-allocated input buffer that contains device-specific information to be given to the target device. If the *IoControlCode* parameter specifies an operation that does not require input data, this pointer can be **NULL**. |
+| **OutBufferSize** | The size, in bytes, of the buffer pointed to by the *OutputBuffer* parameter. This value is ignored if *OutputBuffer* is **NULL**. |
+| **OutputBuffer** | A pointer to a caller-allocated output buffer in which information is returned from the target device. If the *IoControlCode* parameter  specifies an operation that does not produce output data, this pointer can be **NULL**. |
+| **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the requested operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
+| **IoStatusBlock** | A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the *OutputBuffer* parameter is returned in the **Information** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure. |
 
+## -remarks
 
-#### DeviceHandle
+To use this structure's functions, first supply the **Size** and **Version** members of the **DXGK_SPB_INTERFACE** structure. Then call the [**DxgkCbQueryServices**](nc-dispmprt-dxgkcb_query_services.md) function with the **ServicesType**  parameter set to a value of **DxgkServicesFirmwareTable**, and set the **Interface** parameter to the address (cast as **PINTERFACE**) of the **DXGK_SPB_INTERFACE** structure.
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-
-
-#### SpbResource
-
-A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
-
-
-
-#### IoControlCode
-
-A device I/O control code (IOCTL_XXX) that indicates which device I/O control operation is to be carried out on, usually by the underlying device driver. The value of this parameter determines the format and required length of the <i>InputBuffer</i> and <i>OutputBuffer</i> parameters, as well as which of the following parameter pairs are required.
-
-
-
-#### InBufferSize
-
-The size, in bytes, of the buffer pointed to by the <i>InputBuffer</i> parameter. This value is ignored if <i>InputBuffer</i> is <b>NULL</b>.
-
-
-
-
-
-#### InputBuffer
-
-A pointer to a caller-allocated input buffer that contains device-specific information to be given to the target device. If the <i>IoControlCode</i> parameter specifies an operation that does not require input data, this pointer can be <b>NULL</b>.
-
-
-
-#### OutBufferSize
-
-The size, in bytes, of the buffer pointed to by the <i>OutputBuffer</i> parameter. This value is ignored if <i>OutputBuffer</i> is <b>NULL</b>.
-
-
-
-
-
-#### OutputBuffer
-
-A pointer to a caller-allocated output buffer in which information is returned from the target device. If the <i>IoControlCode</i> parameter  specifies an operation that does not produce output data, this pointer can be <b>NULL</b>
-
-
-
-#### EventHandle
-
-An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the requested operation is completed and the given event is set to the <b>Signaled</b> state.
-
-This parameter can be <b>NULL</b>.
-
-
-
-#### IoStatusBlock
-
-A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
-
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">SpbResourceIoControl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>
+For more information on SPB architecture, see [Simple Peripheral Buses](/windows-hardware/design/component-guidelines/simple-peripheral-bus--spb-) and [SPB Peripheral Driver Design Guide**](/windows-hardware/drivers/spb).

@@ -42,7 +42,6 @@ dev_langs:
 
 # DXGKDDI_SIGNALMONITOREDFENCE callback function
 
-
 ## -description
 
 Adds a GPU instruction to signal the paging monitored fence object to the DMA (direct memory access) buffer. This callback function is called from a Video memory management worker thread when submitting paging buffers, and from the application thread performing kernel submissions such as [PresentBlt](../d3dumddi/nc-d3dumddi-pfnd3dddi_submitpresentblttohwqueuecb.md) or [RenderGdi](nc-d3dkmddi-dxgkddi_rendergdi.md). The OS passes a hint to the driver regarding the kernel submission type.
@@ -66,14 +65,14 @@ Returns NTSTATUS.
 ```cpp
 //Declaration
 
-DXGKDDI_SIGNALMONITOREDFENCE DxgkddiSignalmonitoredfence; 
+DXGKDDI_SIGNALMONITOREDFENCE DxgkddiSignalmonitoredfence;
 
 // Definition
 
-NTSTATUS DxgkddiSignalmonitoredfence 
+NTSTATUS DxgkddiSignalmonitoredfence
 (
-	IN_CONST_HANDLE hContext
-	INOUT_PDXGKARG_SIGNALMONITOREDFENCE pSignalMonitoredFence
+    IN_CONST_HANDLE hContext
+    INOUT_PDXGKARG_SIGNALMONITOREDFENCE pSignalMonitoredFence
 )
 {...}
 
@@ -84,6 +83,8 @@ NTSTATUS DxgkddiSignalmonitoredfence
 WDDM synchronization class:
 
 * [Zero Level](/windows-hardware/drivers/display/threading-and-synchronization-zero-level) for RenderGdi and PresentBlt submission types.
-* [First Level GPU Scheduler Class](/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
+* [First Level GPU Scheduler Class](/windows-hardware/drivers/display/threading-and-synchronization-first-level) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
 
 ## -see-also
+
+[DXGKARG_SIGNALMONITOREDFENCE](ns-d3dkmddi-_dxgkarg_signalmonitoredfence.md)

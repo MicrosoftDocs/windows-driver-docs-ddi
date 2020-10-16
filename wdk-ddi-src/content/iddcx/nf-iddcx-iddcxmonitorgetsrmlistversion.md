@@ -6,7 +6,7 @@ tech.root: display
 ms.assetid: 3c358cd7-558c-4f17-88e8-393b437ab543
 ms.topic: language-reference
 targetos: Windows
-description: IddCxMonitorGetSrmListVersion retrieves the latest System Renewability Message (SRM) list information stored by the GPU.
+description: IddCxMonitorGetSrmListVersion retrieves the latest System Renewability Message (SRM) list version stored by the GPU.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -40,9 +40,11 @@ dev_langs:
  - c++
 ---
 
+# IddCxMonitorGetSrmListVersion function
+
 ## -description
 
-**IddCxMonitorGetSrmListVersion** retrieves the latest System Renewability Message (SRM) list information stored by the GPU.
+**IddCxMonitorGetSrmListVersion** retrieves the latest System Renewability Message (SRM) list version stored by the GPU.
 
 ## -parameters
 
@@ -52,22 +54,32 @@ dev_langs:
 
 ### -param pInArgs
 
-[in] Pointer to an [IDARG_IN_GETSRMLISTVERSION](ns-iddcx-idarg_in_getsrmlistversion.md) structure with input parameters.
+[in] Pointer to an [**IDARG_IN_GETSRMLISTVERSION**](ns-iddcx-idarg_in_getsrmlistversion.md) structure with input parameters.
 
 ### -param pOutArgs
 
-[out] Pointer to an [IDARG_OUT_GETSRMLISTVERSION](ns-iddcx-idarg_out_getsrmlistversion.md) structure in which the OS returns output.
+[out] Pointer to an [**IDARG_OUT_GETSRMLISTVERSION**](ns-iddcx-idarg_out_getsrmlistversion.md) structure in which the OS returns output.
 
 ## -returns
 
+If the routine succeeds it returns STATUS_SUCCESS; otherwise it returns an appropriate error code such as one of the following:
+
+| Error code | Meaning |
+| ---------- | ------- |
+| STATUS_GRAPHICS_OPM_NOT_SUPPORTED | The GPU driver does not support this functionality. |
+| STATUS_NO_DATA_DETECTED  | The GPU does not have a current SRM list. |
+| STATUS_BUFFER_TOO_SMALL  | The buffer that **pOutArgs** points to is too small. |
+
 ## -remarks
 
-WORK IN PROGRESS
+An indirect display driver (IDD) calls **IddCxMonitorGetSrmListVersion** to retrieve the latest SRM list version stored by the GPU. To set an SRM list, call [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md).
 
-IS THIS RIGHT??? Probably not
-
-Register your implementation of this callback function by setting the appropriate member of IDARG_IN_GETSRMLISTVERSION and then calling IddCxMonitorGetSrmListVersion.
-
+SRMs are used to update the list of revoked High-Bandwidth Digital Content Protection (HDCP) devices, and are delivered with the video content.
 
 ## -see-also
 
+[**IDARG_IN_GETSRMLISTVERSION**](ns-iddcx-idarg_in_getsrmlistversion.md)
+
+[**IDARG_OUT_GETSRMLISTVERSION**](ns-iddcx-idarg_out_getsrmlistversion.md)
+
+[**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md)

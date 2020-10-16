@@ -43,26 +43,24 @@ api_name:
 
 # IDARG_IN_I2C_RECEIVE structure
 
-
 ## -description
 
-                 Gives information about I2C data being received by the OS.
+Gives information about I2C data being received by the OS.
 
 ## -struct-fields
 
 ### -field SevenBitI2CAddress
 
-                     [in] The address of the I2C device from which data will be received.
+[in] The address of the I2C device from which data will be received.
 
 ### -field Flags
 
-                     [in] Flags for the receive operation.
+[in] Flags for the receive operation.
 
 ### -field DataSizeInBytes
 
-                     [in] The size, in bytes, of the buffer pointed to by <b>pData</b>.
+[in] The size, in bytes, of the buffer pointed to by <b>pData</b>.
 
 ### -field pData
 
-                     [out] A pointer to a buffer that receives the data.
-
+[out] A pointer to a buffer that receives the data.

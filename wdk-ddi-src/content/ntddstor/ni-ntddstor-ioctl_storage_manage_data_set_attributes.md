@@ -43,7 +43,6 @@ api_name:
 
 # IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES IOCTL
 
-
 ## -description
 
 This **IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES** request is used to send a data set management request to a storage device.
@@ -84,7 +83,7 @@ See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-ma
 
 [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview)
 
-[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd)
+[DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
 [DEVICE_DSM_INPUT](./ns-ntddstor-_device_manage_data_set_attributes.md)
 
