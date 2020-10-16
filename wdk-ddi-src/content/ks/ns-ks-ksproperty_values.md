@@ -80,7 +80,7 @@ Possible values for PropTypeSet.Id in streaming media (audio/camera) include:
 | VT_R8 | An 8-byte real. |
 | VT_UI1 | An unsigned character. |
 | VT_UI2 | An unsigned short. |
-| VT_UI4 | An unsigned 4-byte integer.|
+| VT_UI4 | An unsigned 4-byte integer. |
 | VT_UI8 | An unsigned 8-byte integer. |
 
 For more information, see [VARENUM enumeration (ks.h)](/windows-hardware/drivers/ddi/ks/ne-ks-varenum).
@@ -98,15 +98,3 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 [KSPROPERTY_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
 
 [KSPROPERTY_MEMBERSLIST](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist)
-
-| VT_BLOB | |
-| VT_BOOL ||
-| VT_CLSID ||
-| VT_I4 ||
-| VT_ILLEGAL |  |
-| VT_LPWSTR ||
-| VT_R8 ||
-| VT_UI1 ||
-| VT_UI2 ||
-| VT_UI4 ||
-| VT_UI8 ||
