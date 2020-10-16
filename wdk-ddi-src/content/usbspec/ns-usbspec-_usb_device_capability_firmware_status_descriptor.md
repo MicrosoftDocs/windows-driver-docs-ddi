@@ -3,7 +3,7 @@ UID: NS:usbspec._USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 title: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR (usbspec.h)
 description: USB FW Update as defined in the USB 3.2 ENGINEERING CHANGE NOTICE.
 ms.assetid: 406a6a28-2d3b-413a-b9b3-10d053afb80d
-ms.date: 10/19/2018
+ms.date: 10/16/2020
 keywords: ["USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure"]
 ms.keywords: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, *PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR,
 req.header: usbspec.h
@@ -40,10 +40,9 @@ api_name:
 
 # _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure
 
-
 ## -description
 
-For information about the descriptions, see USB 3.2 ENGINEERING CHANGE NOTICE document here: [USB 3.2 Specification](https://www.usb.org/developers/docs/usb_32_062818.zip).
+For information about the descriptions see USB the 3.2 ENGINEERING CHANGE NOTICE included in the [USB 3.2 Specification](https://www.usb.org/sites/default/files/usb_32_20200716_0.zip).
 
 ## -struct-fields
 
@@ -68,4 +67,3 @@ For information about the descriptions, see USB 3.2 ENGINEERING CHANGE NOTICE do
 ## -remarks
 
 ## -see-also
-
