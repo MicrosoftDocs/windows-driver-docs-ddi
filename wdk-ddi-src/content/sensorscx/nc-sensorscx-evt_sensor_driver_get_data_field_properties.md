@@ -74,7 +74,7 @@ This function returns **STATUS_SUCCESS** when completed successfully.
 This function must be implemented by the driver and is called by the class extension.
 
 > [!NOTE]
-> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.
+> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.  
 
 ## -see-also
 
