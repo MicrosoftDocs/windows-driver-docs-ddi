@@ -17,6 +17,8 @@ f1_keywords:
 
 # sidebandaudio.h header
 
+## -description
+
 The sidebandaudio.h header is used by audio. For more information, see:
 
 [Audio](../_audio/index.md)
