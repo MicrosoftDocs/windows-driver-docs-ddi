@@ -231,15 +231,15 @@ Reserved.
 
 ### -field VT_ILLEGAL
 
-Illegal.
+An illegal value.
 
 ### -field VT_ILLEGALMASKED
 
-Illegal masked.
+An illegal masked value.
 
 ### -field VT_TYPEMASK
 
-Type mask.
+A type mask.
 
 ## -remarks
 
@@ -269,6 +269,7 @@ The following table shows where these values can be used.
 | VT_I2 | X | X | X | X |
 | VT_I4 | X | X | X | X |
 | VT_I8 |  | X | X |  |
+| VT_ILLEGAL |  |  | X |  |
 | VT_INT | X | X | X | X |
 | VT_LPSTR |  | X | X |  |
 | VT_LPWSTR |  | X | X |  |
