@@ -46,8 +46,12 @@ req.typenames:
 
 ## -description
 
+> [!NOTE]
+> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently. While that page is unavailable, links to it redirect here.
+
 
 Uninstalls the current driver for the target device.
+
 
 
 ## -parameters

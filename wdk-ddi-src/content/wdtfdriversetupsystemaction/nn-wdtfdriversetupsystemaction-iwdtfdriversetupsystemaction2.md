@@ -46,6 +46,9 @@ req.typenames:
 
 ## -description
 
+> [!NOTE]
+> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2. While that page is unavailable, links to it redirect here.
+
 
 Defines operations that control the system during driver setup.
 
