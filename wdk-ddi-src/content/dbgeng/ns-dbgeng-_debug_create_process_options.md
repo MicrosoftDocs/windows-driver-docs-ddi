@@ -131,7 +131,7 @@ Use the debugger's or process server's implicit command line to start the proces
 
 ### -field VerifierFlags
 
-The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER_FLAGS is set in the <b>EngCreateFlags</b> field.  For possible values, see the <a href="/windows-hardware/drivers/debugger/application-verifier">Application Verifier</a> documentation.
+The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER_FLAGS is set in the <b>EngCreateFlags</b> field.  For possible values, see the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> documentation.
 
 ### -field Reserved
 
