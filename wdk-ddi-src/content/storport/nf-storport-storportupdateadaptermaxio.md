@@ -43,12 +43,9 @@ api_name:
 
 # StorPortUpdateAdapterMaxIO function
 
-
 ## -description
 
-This function can be called by a miniport to update the maximum IO's supported by
-    an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine
-    callback and has effect only during adapter initialization.
+**StorPortUpdateAdapterMaxIO** can be called by a miniport to update the maximum IOs supported by an adapter.
 
 ## -parameters
 
@@ -64,29 +61,19 @@ Maximum IO's supported by the adapter.
 
 This function returns of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>STOR_STATUS_SUCCESS</td>
-<td>The telemetry event was successfully logged.</td>
-</tr>
-<tr>
-<td>STOR_STATUS_NOT_IMPLEMENTED</td>
-<td>The function is called on the OS that does not support it.</td>
-</tr>
-<tr>
-<td>STOR_STATUS_INVALID_PARAMETER</td>
-<td>There is an invalid parameter.</td>
-</tr>
-<tr>
-<td>STOR_STATUS_INVALID_DEVICE_REQUEST</td>
-<td>The function was called outside of <b>HwInitialize</b>/<b>HwPassiveInitRoutine</b>. </td>
-</tr>
-</table>
+| Value | Description |
+| ----- | ----------- |
+| STOR_STATUS_SUCCESS | The telemetry event was successfully logged. |
+| STOR_STATUS_NOT_IMPLEMENTED | The function was called on an OS version that does not support it. |
+| STOR_STATUS_INVALID_PARAMETER | There is an invalid parameter. |
+| STOR_STATUS_INVALID_DEVICE_REQUEST | The function was called outside of [**HwInitialize**](nc-storport-hw_initialize.md)/[**HwPassiveInitRoutine**](nc-storport-hw_passive_initialize_routine.md). |
+
+## -remarks
+
+**StorPortUpdateAdapterMaxIO** is valid during a [**HwInitialize**](nc-storport-hw_initialize.md)/[**HwPassiveInitRoutine**](nc-storport-hw_passive_initialize_routine.md) callback and has effect only during adapter initialization.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data">HwInitialize</a>
+[**HwInitialize**](nc-storport-hw_initialize.md)
+
+[**HwPassiveInitRoutine**](nc-storport-hw_passive_initialize_routine.md)

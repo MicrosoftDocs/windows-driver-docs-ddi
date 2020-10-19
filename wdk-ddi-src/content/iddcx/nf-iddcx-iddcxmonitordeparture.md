@@ -1,7 +1,7 @@
 ---
 UID: NF:iddcx.IddCxMonitorDeparture
 title: IddCxMonitorDeparture function (iddcx.h)
-description: An OS callback function the driver calls to report a monitor departure from the WDDM graphics adapter.
+description: An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a monitor departure from the WDDM graphics adapter.
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
@@ -43,17 +43,15 @@ api_name:
 
 # IddCxMonitorDeparture function
 
-
 ## -description
 
-                An OS callback function the driver calls to report a monitor departure from the WDDM graphics adapter
+An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a monitor departure from the WDDM graphics adapter.
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject
 
-[in]
-The monitor object that is departing
+[in] The monitor object that is departing
 
 ## -returns
 

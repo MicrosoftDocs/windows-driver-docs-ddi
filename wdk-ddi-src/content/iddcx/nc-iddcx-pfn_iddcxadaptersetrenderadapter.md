@@ -1,11 +1,11 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
-description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
+description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to an OS callback function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
 ms.author: windowsdriverdev
-ms.date: 09/24/2020
+ms.date: 09/28/2020
 keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback pointer"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-**PFN_IDDCXADAPTERSETRENDERADAPTER** is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
+**PFN_IDDCXADAPTERSETRENDERADAPTER** is a pointer to an OS callback function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ dev_langs:
 
 ## -remarks
 
-An indirect display driver (IDD) should call [**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md) to set their rendering adapter preference. IDDs should not directly call the function that **PFN_IDDCXADAPTERSETRENDERADAPTER** points to.
+An indirect display driver (IDD) should not use this pointer to directly call the function that it points to. IDDs should instead call [**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md).
 
 ## -see-also
 
