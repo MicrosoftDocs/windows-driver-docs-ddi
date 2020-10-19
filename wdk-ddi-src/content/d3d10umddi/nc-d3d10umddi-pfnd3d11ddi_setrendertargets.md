@@ -4,7 +4,7 @@ title: PFND3D11DDI_SETRENDERTARGETS (d3d10umddi.h)
 description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
-ms.date: 05/10/2018
+ms.date: 10/16/2020
 keywords: ["PFND3D11DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 req.header: d3d10umddi.h
@@ -43,93 +43,72 @@ api_name:
 
 # PFND3D11DDI_SETRENDERTARGETS callback function
 
-
 ## -description
 
-The <i>SetRenderTargets(D3D11)</i> function sets render target surfaces.
+The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ## -parameters
 
 ### -param Arg1
 
-*hDevice* [in]
-
-A handle to the display device (graphics context).
+[in] **hDevice**: A handle to the display device (graphics context).
 
 ### -param Arg2
 
-*phRenderTargetView* [in]
+[in] **phRenderTargetView**: An array of handles to the render target view (RTV) objects to set. Note that some handle values can be **NULL**.
 
-An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>.
+### -param NumRTVs
 
-### -param NumRTVs 
-
-[in]
-The number of elements in the array that <i>phRenderTargetView</i> specifies for the render target views (RTVs) to set.
+[in] The number of elements in the array provided in **phRenderTargetView** for the RTVs to set.
 
 ### -param ClearSlots
 
-*RTVNumbertoUnbind* [in]
-
-The number of render target view (RTV) objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
+[in] The number of RTV objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
 
 ### -param Arg5
 
-*hDepthStencilView* [in]
-
-A handle to the depth-stencil buffer to set.
+[in] **hDepthStencilView**: A handle to the depth-stencil buffer to set.
 
 ### -param Arg6
 
-*phUnorderedAccessView* [in]
-
-An array of handles to the unordered access view (UAV) objects.
+[in] **phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects.
 
 ### -param Arg7
 
-*pUAVInitialCounts* [in]
-
-An array of append and consume buffer offsets. <i>pUAV</i> is only relevant for unordered access views (UAVs)  of the <i>phUnorderedAccessView</i> array that were created with either <b>D3D11_DDI_BUFFER_UAV_FLAG_APPEND</b>  or <b>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER</b> set in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a> structure when the UAV was created; otherwise, the argument is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
+[in] **pUAVInitialCounts**: An array of append and consume buffer offsets. This parameter is only relevant for UAVs of the **phUnorderedAccessView** array that were created with either **D3D11_DDI_BUFFER_UAV_FLAG_APPEND**  or **D3D11_DDI_BUFFER_UAV_FLAG_COUNTER** set in the **Flags** member of the [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure when the UAV was created; otherwise, it is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
 
 ### -param UAVStartSlot
 
-Indicates the start element, in the array of bind points, where the passed unordered access view (UAV) array is going to be applied. <i>UAVIndex</i> should be at least as great as  the <i>NumRTVs</i> parameter.
+Indicates the start element, in the array of bind points, where the passed UAV array is going to be applied. **UAVStartSlot** should be at least as great as the **NumRTVs** parameter.
 
-<div class="alert"><b>Note</b>  Only one shared set of binding points exists for render target views (RTVs) and UAVs. RTVs are bound first, followed by UAVs.</div>
-<div> </div>
+> [!NOTE]
+> Only one shared set of binding points exists for RTVs and UAVs. RTVs are bound first, followed by UAVs.
 
-### -param NumUAVs 
+### -param NumUAVs
 
-[in]
-The number of unordered access view objects (UAVs) to set.
+[in] The number of UAVs to set.
 
 ### -param UAVRangeStart
 
-The first unordered access view object (UAV) in the set of all updated UAVs (which includes <b>NULL</b> bindings).
+The first UAV in the set of all updated UAVs (which includes **NULL** bindings).
 
 ### -param UAVRangeSize
 
-The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
+The number of UAVs in the set of all updated UAVs (which includes **NULL** bindings).
 
-<div class="alert"><b>Note</b>  The parameters <i>UAVNumberUpdated</i> and  <i>UAVFirsttoSet</i> specify which range, in the  UAVs array, contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, <i>UAVFirsttoSet</i>      starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).</div>
-<div> </div>
+>[!NOTE]
+> The parameters **NumUAVs** and  **UAVStartSlot** specify which range in the UAVs array contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, **UAVStartSlot** starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).
 
 ## -remarks
 
-The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+The driver can use the [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) callback function to set an error code.
 
-
-
-The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <i>SetRenderTargets(D3D11)</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of **SetRenderTargets** (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a>
+[**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md)
 
+[**D3D11DDI_DEVICEFUNCS**](ns-d3d10umddi-d3d11ddi_devicefuncs.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_devicefuncs">D3D11DDI_DEVICEFUNCS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+[**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md)

@@ -1,14 +1,14 @@
 ---
 UID: NC:iddcx.PFN_IDDCXMONITORSETSRMLIST
 title: PFN_IDDCXMONITORSETSRMLIST (iddcx.h)
-description: Implemented by the client driver to pass a HDCP SRM list to the GPU driver associated with the rendering of the specified monitor.
+description: PFN_IDDCXMONITORSETSRMLIST is a pointer to an OS callback function that passes a High-Bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) list to the GPU driver associated with the rendering of the specified monitor.
 ms.assetid: 38dfb1cf-f2fd-462f-bce0-a95505cead96
 ms.date: 10/19/2018
 keywords: ["PFN_IDDCXMONITORSETSRMLIST callback function"]
 req.header: iddcx.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,29 +39,25 @@ product:
  - Windows
 ---
 
-# *PFN_IDDCXMONITORSETSRMLIST callback function
-
+# PFN_IDDCXMONITORSETSRMLIST callback function
 
 ## -description
 
-Implemented by the client driver to pass a HDCP SRM list to the GPU driver associated with the rendering of the specified monitor.
+**PFN_IDDCXMONITORSETSRMLIST** is a pointer to an OS callback function that passes a High-Bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) list to the GPU driver associated with the rendering of the specified monitor.
 
 ## -parameters
 
-### -param DriverGlobals 
+### -param DriverGlobals
 
-[in]
-Contains system-defined per-driver data.
+[in] Contains system-defined per-driver data.
 
-### -param MonitorObject 
+### -param MonitorObject
 
-[in]
-The monitor object that the SRM list is associated with.
+[in] The monitor object that the SRM list is associated with.
 
-### -param pInArgs 
+### -param pInArgs
 
-[in]
-Input arguments of function.
+[in] Input arguments of function.
 
 ## -returns
 
@@ -73,31 +69,10 @@ Returns NTSTATUS with the following error codes:
 | STATUS_GRAPHICS_OPM_NOT_SUPPORTED | The GPU driver does not support this new functionality. |
 | STATUS_GRAPHICS_OPM_INVALID_SRM | the GPU driver does recognize the format of the SRM list, this include if the driver detected the list had been tampered with. |
 
-## -prototype
-
-```cpp
-//Declaration
-
-*PFN_IDDCXMONITORSETSRMLIST *PfnIddcxmonitorsetsrmlist;
-
-// Definition
-
-NTSTATUS *PfnIddcxmonitorsetsrmlist
-(
-	PIDD_DRIVER_GLOBALS DriverGlobals
-	IDDCX_MONITOR MonitorObject
-	CONST IDARG_IN_SETSRMLIST *pInArgs
-)
-{...}
-
-*PFN_IDDCXMONITORSETSRMLIST
-
-
-```
-
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of IDARG_IN_SETSRMLIST and then calling IddCxMonitorSetSrmList.
+An indirect display driver (IDD) should not use this pointer to directly call the function that it points to. IDDs should instead call [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md).
 
 ## -see-also
 
+[**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md)
