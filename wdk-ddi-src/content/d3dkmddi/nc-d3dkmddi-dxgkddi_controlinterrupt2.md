@@ -80,7 +80,7 @@ WDDM 2.7 drivers that do not implement [*DxgkDdi_ControlInterrupt3*](./nc-d3dkmd
 
 [**DXGKARG_CONTROLINTERRUPT2**](./ns-d3dkmddi-_dxgkarg_controlinterrupt2.md)
 
-[**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
+[**DXGKARG_CONTROLINTERRUPT3**](ns-d3dkmddi-dxgkarg_controlinterrupt3.md)
 
 [*DxgkDdi_ControlInterrupt3*](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md)
 

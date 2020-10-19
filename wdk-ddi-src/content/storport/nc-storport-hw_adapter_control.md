@@ -43,7 +43,6 @@ api_name:
 
 # HW_ADAPTER_CONTROL callback function
 
-
 ## -description
 
 A miniport driver's <b>HwStorAdapterControl</b> routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
@@ -203,7 +202,7 @@ None
 
 </td>
 <td>
-Filters the required resources for the adapter. The storport driver calls <i>HwStorAdapterControl</i> with this <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> control type when the storport processes the request and miniport has the STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER flag set in the FeatureSupport field of <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1">_HW_INITIALIZATION_DATA</a>. Note that the <i>DeviceExtension</i> passed in for this control type will be uninitialized.
+Filters the required resources for the adapter. The storport driver calls <i>HwStorAdapterControl</i> with this <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> control type when the storport processes the request and miniport has the STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER flag set in the FeatureSupport field of <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1">_HW_INITIALIZATION_DATA</a>. Note that the <i>DeviceExtension</i> passed in for this control type will be uninitialized.
 
 The miniport driver should change or reduce the resources described in the buffer using the <b>STOR_FILTER_RESOURCE_REQUIREMENTS</b> structure. This control type is valid in Windows 8.1 and later.
 

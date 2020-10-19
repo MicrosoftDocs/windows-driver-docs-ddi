@@ -72,6 +72,6 @@ The **Information** field is set to the number of bytes returned. The **Status**
 
 ## -see-also
 
-[IOCTL_STORAGE_GET_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-ioctl_storage_get_device_number)
+[IOCTL_STORAGE_GET_DEVICE_NUMBER](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_device_number)
 
 [STORAGE_DEVICE_NUMBER_EX](./ns-ntddstor-_storage_device_number_ex.md)

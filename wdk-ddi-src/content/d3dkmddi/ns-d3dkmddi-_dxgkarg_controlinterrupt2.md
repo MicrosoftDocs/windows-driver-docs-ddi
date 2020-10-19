@@ -44,7 +44,6 @@ api_name:
 
 # _DXGKARG_CONTROLINTERRUPT2 structure
 
-
 ## -description
 
 The **DXGKARG_CONTROLINTERRUPT2** structure is used in [**DxgkDdi_ControlInterrupt2**](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md) calls to describe the state of interrupts.
@@ -73,7 +72,7 @@ A [**DXGK_CRTC_VSYNC_STATE**](./ne-d3dkmddi-_dxgk_crtc_vsync_state.md) enumerati
 
 [**DXGK_INTERRUPT_TYPE**](./ne-d3dkmddi-_dxgk_interrupt_type.md)
 
-[**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
+[**DXGKARG_CONTROLINTERRUPT3**](ns-d3dkmddi-dxgkarg_controlinterrupt3.md)
 
 [**DxgkDdi_ControlInterrupt2**](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md)
 

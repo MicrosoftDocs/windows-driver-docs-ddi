@@ -44,32 +44,27 @@ api_name:
 
 # StorPortGetLogicalUnit function
 
-
 ## -description
 
 The **StorPortGetLogicalUnit** routine returns a pointer to the miniport driver's per-logical-unit storage area.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
+[in] Pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
 
-### -param PathId 
+### -param PathId
 
-[in]
-Identifies the SCSI bus.
+[in] Identifies the SCSI bus.
 
-### -param TargetId 
+### -param TargetId
 
-[in]
-Identifies the target controller or device on the bus.
+[in] Identifies the target controller or device on the bus.
 
-### -param Lun 
+### -param Lun
 
-[in]
-Identifies the logical unit (LU) number of the target device.
+[in] Identifies the logical unit (LU) number of the target device.
 
 ## -returns
 
@@ -77,7 +72,7 @@ Identifies the logical unit (LU) number of the target device.
 
 ## -remarks
 
-**StorPortGetLogicalUnit** is irrelevant if the miniport driver's [**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver") routine specified zero for the **LuExtensionSize** in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
+**StorPortGetLogicalUnit** is irrelevant if the miniport driver's **DriverEntry** routine specified zero for the **LuExtensionSize** in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
  when it called [**StorPortInitialize**](nf-storport-storportinitialize.md). Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
 
 Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls **StorPortGetLogicalUnit** when the driver is maintaining information about the state of or current operation for any particular peripheral.

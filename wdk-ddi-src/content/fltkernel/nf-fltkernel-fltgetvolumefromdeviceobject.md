@@ -43,79 +43,47 @@ api_name:
 
 # FltGetVolumeFromDeviceObject function
 
-
 ## -description
 
-The <b>FltGetVolumeFromDeviceObject</b> routine returns an opaque pointer for the volume represented by a volume device object (VDO).
+The **FltGetVolumeFromDeviceObject** routine returns an opaque pointer for the volume represented by a volume device object (VDO).
 
 ## -parameters
 
-### -param Filter 
+### -param Filter
 
-[in]
-Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param DeviceObject 
+### -param DeviceObject
 
-[in]
-Pointer to the volume device object.
+[in] Pointer to the volume device object.
 
-### -param RetVolume 
+### -param RetVolume
 
-[out]
-Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
+[out] Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
-<b>FltGetVolumeFromDeviceObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltGetVolumeFromDeviceObject** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The volume is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Volume device object specified in the <i>DeviceObject</i> parameter was not a valid volume device object pointer, or no matching volume was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_DELETING_OBJECT | The volume is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | Volume device object specified in the *DeviceObject* parameter was not a valid volume device object pointer, or no matching volume was found. This is an error code. |
 
 ## -remarks
 
-The <i>DeviceObject</i> parameter can be a pointer to a filter or a file system volume device object (VDO). If it points to a storage device object, <b>FltGetVolumeFromDeviceObject</b> returns STATUS_INVALID_PARAMETER. 
+The *DeviceObject* parameter can be a pointer to a filter or a file system volume device object (VDO). If it points to a storage device object, **FltGetVolumeFromDeviceObject** returns STATUS_INVALID_PARAMETER.
 
-For more information about volume device objects, see <a href="/windows-hardware/drivers/ifs/file-system-stacks">File System Stacks</a>. 
+For more information about volume device objects, see [File System Stacks](/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks#file-system-stacks).
 
-<b>FltGetVolumeFromDeviceObject</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromDeviceObject</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+**FltGetVolumeFromDeviceObject** adds a rundown reference to the opaque volume pointer returned in the *RetVolume* parameter. When this pointer is no longer needed, the caller must release it by calling [**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md). Thus every successful call to **FltGetVolumeFromDeviceObject** must be matched by a subsequent call to **FltObjectDereference**.
 
-To get a pointer to the device object for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>.
+To get a pointer to the device object for a given volume, call [**FltGetDeviceObject**](nf-fltkernel-fltgetdeviceobject.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
+[**FltGetDeviceObject**](nf-fltkernel-fltgetdeviceobject.md)
 
+[**FltGetDiskDeviceObject**](nf-fltkernel-fltgetdiskdeviceobject.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdiskdeviceobject">FltGetDiskDeviceObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
+[**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md)
