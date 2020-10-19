@@ -46,6 +46,9 @@ req.typenames:
 
 ## -description
 
+> [!NOTE]
+> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2. While that page is unavailable, links to it redirect here.
+
 
 Defines operations and properties that represent a driver package for imported and pre-imported
 driver packages.
