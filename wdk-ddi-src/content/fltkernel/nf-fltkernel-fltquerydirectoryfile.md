@@ -149,7 +149,7 @@ Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and
 
 [FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md)
 
-[FILE_ID_EXTD_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_dir_information.md)
+[FILE_ID_EXTD_DIR_INFORMATION](../ntifs/ns-ntifs-file_id_extd_dir_information.md)
 
 [FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md)
 

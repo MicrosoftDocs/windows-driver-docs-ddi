@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-**IDARG_IN_SETSRMLIST** is the input structure for [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorgetsrmlist.md).
+**IDARG_IN_SETSRMLIST** is the input structure for [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md).
 
 ## -struct-fields
 
@@ -56,4 +56,4 @@ dev_langs:
 
 ## -see-also
 
-[**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorgetsrmlist.md)
+[**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md)
