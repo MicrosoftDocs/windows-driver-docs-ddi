@@ -144,6 +144,12 @@ Defines values for power transitions reasons for a monitor.
 
 ### -field MonitorRequestReasonTerminalInit :
 
+### -field MonitorRequestReasonPdcSignalSensorsHumanPresence :
+
+### -field MonitorRequestReasonBatteryPreCritical :
+
+### -field MonitorRequestReasonUserInputTouch :
+
 ### -field MonitorRequestReasonMax : 
 
 ## -remarks

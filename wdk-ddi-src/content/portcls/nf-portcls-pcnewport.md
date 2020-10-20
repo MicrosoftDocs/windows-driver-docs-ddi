@@ -129,7 +129,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
 
 </td>
@@ -179,7 +179,7 @@ The <i>OutPort</i> parameter follows the <a href="/windows-hardware/drivers/audi
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
 
 

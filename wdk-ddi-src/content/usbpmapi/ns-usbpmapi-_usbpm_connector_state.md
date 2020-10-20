@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-Describes the state of a connector. This structure is used in the [**UsbPm_RetrieveConnectorState**](nf-usbpmapi-usbpm_retrieveconnectorstate.md) call. The client driver must initialize this structure by calling [**USBPM_CONNECTOR_STATE_INIT**](C:\wdk-ddi\wdk-ddi-src\content\usbpmapi\nf-usbpmapi-usbpm_connector_state_init.md).
+Describes the state of a connector. This structure is used in the [**UsbPm_RetrieveConnectorState**](nf-usbpmapi-usbpm_retrieveconnectorstate.md) call. The client driver must initialize this structure by calling [**USBPM_CONNECTOR_STATE_INIT**](nf-usbpmapi-usbpm_connector_state_init.md).
 
 ## -struct-fields
 

@@ -81,9 +81,8 @@ The type ID of the type relative to the module specified by <i>TypeModBase</i>. 
 [in, out, optional]
 The cache cookie to use for caching the type information.  If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for the type information each time.
 
-
-	  For more information about <i>CacheCookie</i>, see the following methods:
-	  <ul>
+For more information about <i>CacheCookie</i>, see the following methods:
+<ul>
 <li>
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(bool_ulong64_ulong_ulong64)">ExtRemoteTyped::Set(bool)</a>

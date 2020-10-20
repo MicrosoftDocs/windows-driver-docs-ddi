@@ -72,9 +72,3 @@ The <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-arrayelement">ExtRemoteTyped::ArrayElement</a> 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(long64)">ExtRemoteTyped::Operator[] (LONG64)</a>
-
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong)">ExtRemoteTyped::Operator[] (ULONG)</a>
-
-
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
