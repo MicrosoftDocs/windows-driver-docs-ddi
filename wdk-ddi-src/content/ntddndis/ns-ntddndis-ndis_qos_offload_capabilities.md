@@ -49,7 +49,7 @@ The **NDIS_QOS_OFFLOAD_CAPABILITIES** structure specifies the hardware and curre
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_QOS_OFFLOAD_CAPABILITIES** structure. This member is formatted as an [NDIS_OBJECT_HEADER](ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the **NDIS_QOS_OFFLOAD_CAPABILITIES** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT.
 
@@ -115,7 +115,7 @@ The **NDIS_QOS_OFFLOAD_CAPABILITIES** structure is returned in OID query request
 
 ## -see-also
 
-[NDIS_OBJECT_HEADER](ns-ntddndis-_ndis_object_header.md)
+[**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
 
 [OID_QOS_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/oid-qos-offload-hardware-capabilities)
 
