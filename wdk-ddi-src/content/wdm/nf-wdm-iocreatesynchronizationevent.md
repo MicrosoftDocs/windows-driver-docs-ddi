@@ -80,7 +80,7 @@ The user-mode application creates the event object and passes a handle to the ob
 
 </li>
 <li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=718194">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routines
+The driver creates a named event object in the per-session \\BaseNamedObjects object directory. To access a kernel-mode event from user-mode, use the name Global\\Xxx. Note that security settings can prevent an application from opening the event. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=718194">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routines
 
 </li>
 </ul>

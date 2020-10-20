@@ -5,7 +5,7 @@ description: The IoCreateNotificationEvent routine creates or opens a named noti
 old-location: kernel\iocreatenotificationevent.htm
 tech.root: kernel
 ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
-ms.date: 04/30/2018
+ms.date: 10/20/2020
 keywords: ["IoCreateNotificationEvent function"]
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
 req.header: wdm.h
@@ -58,7 +58,7 @@ Pointer to a buffer containing a null-terminated Unicode string that names the e
 ### -param EventHandle 
 
 [out]
-Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="/windows-hardware/drivers/">kernel handle</a>.
+Pointer to a location in which to return a kernel handle for the event object.
 
 ## -returns
 
@@ -66,41 +66,25 @@ Pointer to a location in which to return a handle for the event object. In Windo
 
 ## -remarks
 
-<b>IoCreateNotificationEvent</b> creates and opens the event object if it does not already exist. <b>IoCreateNotificationEvent</b> sets the state of a new notification event to Signaled. If the event object already exists, <b>IoCreateNotificationEvent</b> just opens the event object.
+If the event object does not already exist, <b>IoCreateNotificationEvent</b> creates and opens it, and sets its state to Signaled.
 
-When a notification event is set to the Signaled state it remains in that state until it is explicitly cleared.
+If the event object already exists, <b>IoCreateNotificationEvent</b> just opens the event object.
 
-Notification events, like synchronization events, are used to coordinate execution. Unlike a synchronization event, a notification event is not auto-resetting. Once a notification event is in the Signaled state, it remains in that state until it is explicitly reset (with a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a>).
+Both notification events and synchronization events are used to coordinate execution. However, while a synchronization event resets itself, a notification event remains in the Signaled state until the driver calls [**KeClearEvent**](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent) or [**KeResetEvent**](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent).
 
 To synchronize on a notification event:
 
-<ol>
-<li>
-Open the notification event with <b>IoCreateNotificationEvent</b>. Identify the event with the <i>EventName</i> string.
+1. Open the notification event with **IoCreateNotificationEvent**. Identify the event with the *EventName* string.
+2. Wait for the event to be signaled by calling [**KeWaitForSingleObject**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject) with the PKEVENT returned by **IoCreateNotificationEvent**. More than one thread of execution can wait for a given notification event. To poll instead of stall, specify a *Timeout* of zero to **KeWaitForSingleObject**.
+3. Close the handle to the notification event with [**ZwClose**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) when access to the event is no longer needed. 
 
-</li>
-<li>
-Wait for the event to be signaled by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> with the PKEVENT returned by <b>IoCreateNotificationEvent</b>. More than one thread of execution can wait for a given notification event. To poll instead of stall, specify a <i>Timeout</i> of zero to <b>KeWaitForSingleObject</b>.
+There are two main methods for sharing event objects: 
 
-</li>
-<li>
-Close the handle to the notification event with <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> when access to the event is no longer needed. 
+* The user-mode application creates the event object and passes a handle to the object to the driver by sending an IOCTL to the driver. The driver must handle the IOCTL in the context of the process that created the event object and must validate the handle by calling [**ObReferenceObjectByHandle**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle). This method is the recommended method for sharing event objects between user and kernel modes.
 
-</li>
-</ol>
-Sharing event objects between user mode and kernel mode requires care. There are two main methods for sharing event objects: 
+* The driver creates a named event object in the per-session `\\BaseNamedObjects` object directory. To access a kernel-mode event from user-mode, use the name `Global\\`*Xxx*. Note that security settings can prevent an application from opening the event. The `\\BaseNamedObjects` object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the `\\BaseNamedObjects` directory in their [*DriverEntry*](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routines.
 
-<ul>
-<li>
-The user-mode application creates the event object and passes a handle to the object to the driver by sending an IOCTL to the driver. The driver must handle the IOCTL in the context of the process that created the event object and must validate the handle by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>. This method is the recommended method for sharing event objects between user and kernel modes.
-
-</li>
-<li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routines.
-
-</li>
-</ul>
-For more information about events, see <a href="/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
+For more information about events, see [Event Objects](/windows-hardware/drivers/kernel/event-objects).
 
 ## -see-also
 
