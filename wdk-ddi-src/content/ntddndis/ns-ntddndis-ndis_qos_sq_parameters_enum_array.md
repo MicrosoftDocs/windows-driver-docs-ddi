@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY
 title: NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY
-ms.date: 
+ms.date: 10/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -9,12 +9,12 @@ req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: ntddndis.h
-req.include-header: 
+req.include-header: ndis.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Supported in NDIS 6.84 and later.
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, *PNDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY

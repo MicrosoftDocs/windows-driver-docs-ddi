@@ -71,7 +71,7 @@ If this flag is set, the miniport adapter supports standard SQs.
 
 ### -field TransmitCapSupported
 
-An array of BOOLEAN values that specify whether the miniport adapter supports transmit bandwidth caps for each Traffic Class (TC). For more information, see [NDIS QoS Traffic Classes](/windows-hardware/drivers/network/ndis-qos-traffic-classes).
+An array of BOOLEAN values that specify whether the miniport adapter supports transmit bandwidth caps for each traffic class (TC). For more information, see [NDIS QoS Traffic Classes](/windows-hardware/drivers/network/ndis-qos-traffic-classes).
 
 ### -field TransmitReservationSupported
 

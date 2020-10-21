@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **NDIS_QOS_SQ_PARAMETERS** structure is used by [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) to enumerate the NDIS QoS Scheduler Queues (SQs) created on a NIC switch.
+The **NDIS_QOS_SQ_PARAMETERS** structure is used by [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) to enumerate the NDIS Quality of Service (QoS) Scheduler Queues (SQs) created on a NIC switch.
 
 <!--
 OID_QOS_OFFLOAD_ENUM_SQS 
@@ -57,17 +57,57 @@ After a successful return from the OID query request, the InformationBuffer memb
 
 ### -field Header
 
+The type, revision, and size of the **NDIS_QOS_SQ_PARAMETERS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md) structure.
+
+The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT.
+
+The driver must set the **Revision** member of **Header** to NDIS_QOS_SQ_PARAMETERS_REVISION_2.
+
+The driver must set the **Size** member to NDIS_SIZEOF_QOS_SQ_PARAMETERS_REVISION_2.
+
 ### -field Flags
 
-### -field SqId
+A ULONG value that contains a bitwise OR of flags. These flags specify the miscellaneous capabilities and attributes of the Hardware QoS Offload features that are enabled on the SQ. The following flags are defined:
 
-### -field SqType
+#### NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED
+
+If this flag is set, transmit bandwidth caps are enabled on this SQ.
+
+#### NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED
+
+If this flag is set, transmit bandwidth reservations are enabled on this SQ. This flag is not set if the SQ type is NdisQSQosSqSQTypeGFT.
+
+#### NDIS_QOS_SQ_RECEIVE_CAP_ENABLED
+
+If this flag is set, receive bandwidth caps are enabled on this SQ.
+
+### -field SQId
+
+An NDIS_QOS_SQ_ID that contains the SQ ID of this SQ. NDIS assigns this ID.
+
+### -field SQType
+
+An **NDIS_QOS_SQ_TYPE** that contains the type of this SQ. This can be NdisQSQosSqSQTypeStandard from the enum definition of **NDIS_QOS_SQ_TYPE**.
 
 ### -field TcEnabledTable
 
+An array of BOOLEAN values that specify whether each traffic class (from 0 to NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES) is enabled for scheduling on this SQ.  
+
+Any traffic class (TC) for which this field is **TRUE** should be read and validated in the tables below. TCs for which this field is **TRUE** are also rate limited by the **CrossTcTransmitBandwidthCap** rate limit.  
+
+TCs for which this field is **FALSE** do not participate in any QoS rate limiting, either from **CrossTcTransmitBandwidthCap** or from one of the per-TC tables below.
+
 ### -field TcTransmitBandwidthCapTable
 
+An array of ULONG values that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED flag is set?), and only then for elements where **TcEnabledTable** is **TRUE**. An element with a value of 0 has no cap.
+
+The NIC should queue any transmit packets on this SQ on a given TC if they exceed the rate specified in this table.
+
 ### -field TcTransmitBandwidthReservationTable
+
+An array of ULONG values that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED flag is set?), and only then for elements where **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
+
+The NIC should queue any transmit packets on this SQ on a given TC if other SQs on this TC require bandwidth to meet their reservation.
 
 ### -field TcReceiveBandwidthCapTable
 
