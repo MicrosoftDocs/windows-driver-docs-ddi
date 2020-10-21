@@ -113,23 +113,23 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function applies only to
 
 For more information about redirection, see <a href="/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.
 
-The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to be used by a WFP connection redirection callout driver that doesn't accept the redirected connection until it has verified that it is able to connect to the actual remote endpoint.  To do this, the callout driver pends the redirected connection request at the <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V4</b> or <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V6</b> layer and calls <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> to retrieve the connection redirect records, which the callout driver then sends to the proxy to be used in a call to   <a href="/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS</a>.
+The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to be used by a WFP connection redirection callout driver that doesn't accept the redirected connection until it has verified that it is able to connect to the actual remote endpoint.  To do this, the callout driver pends the redirected connection request at the <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V4</b> or <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V6</b> layer and calls <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> to retrieve the connection redirect records, which the callout driver then sends to the proxy to be used in a call to   <a href="/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS</a>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+<a href="/windows/win32/winsock/sio-query-wfp-connection-redirect-records">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+<a href="/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+<a href="/windows/win32/winsock/sio-query-wfp-connection-redirect-records">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+<a href="/windows-hardware/drivers/network/sio-query-wfp-connection-redirect-records">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
 
 
