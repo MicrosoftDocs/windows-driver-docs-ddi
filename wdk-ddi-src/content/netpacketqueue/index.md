@@ -1,9 +1,9 @@
 ---
 UID: NA:netpacketqueue
-title: Netioddk.h header
+title: Netpacketqueue.h header
 ms.assetid: FE0047C3-F4F9-4A60-A6E8-CC9D422CE4ED
 ms.date: 06/26/2018
-keywords: ["Netioddk.h header"]
+keywords: ["Netpacketqueue.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ f1_keywords:
  - netpacketqueue/netpacketqueue
 ---
 
-# Netioddk.h header
+# Netpacketqueue.h header
 
 ## -description
 

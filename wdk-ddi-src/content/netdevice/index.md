@@ -1,9 +1,9 @@
 ---
 UID: NA:netdevice
-title: Netconfiguration.h header
+title: Netdevice.h header
 ms.assetid: 0A0806F2-E20A-474C-8A6D-0FD6A2057C06
 ms.date: 06/26/2018
-keywords: ["Netconfiguration.h header"]
+keywords: ["Netdevice.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ f1_keywords:
  - netdevice/netdevice
 ---
 
-# Netconfiguration.h header
+# Netdevice.h header
 
 ## -description
 
