@@ -43,7 +43,6 @@ api_name:
 
 # FltSetSecurityObject function
 
-
 ## -description
 
 **FltSetSecurityObject** sets an object's security state.
@@ -52,47 +51,41 @@ api_name:
 
 ### -param Instance 
 
-[in]
-Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
+[in] Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
 ### -param FileObject 
 
-[in]
-File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the *SecurityInformation* parameter. This parameter is required and cannot be **NULL**.
+[in] File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter. This parameter is required and cannot be **NULL**.
 
 ### -param SecurityInformation 
 
-[in]
-[SECURITY_INFORMATION](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
+[in] [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
 
-|Value|Meaning|
-|:-|:-|
-|OWNER_SECURITY_INFORMATION|Indicates the owner identifier of the object is to be set. Requires WRITE_OWNER access.|
-|GROUP_SECURITY_INFORMATION|Indicates the primary group identifier of the object is to be set. Requires WRITE_OWNER access.|
-|DACL_SECURITY_INFORMATION|Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access.|
-|SACL_SECURITY_INFORMATION|Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access. |
-
+| Value | Meaning |
+| ----- | ------- |
+| OWNER_SECURITY_INFORMATION | Indicates the owner identifier of the object is to be set. Requires WRITE_OWNER access. |
+| GROUP_SECURITY_INFORMATION | Indicates the primary group identifier of the object is to be set. Requires WRITE_OWNER access. |
+| DACL_SECURITY_INFORMATION | Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access. |
+| SACL_SECURITY_INFORMATION | Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access. |
 
 ### -param SecurityDescriptor 
 
-[in]
-Pointer to the security descriptor to be set for the object.
+[in] Pointer to the security descriptor to be set for the object.
 
 ## -returns
 
 **FltSetSecurityObject** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
-|Return code|Description|
-|:-|:-|
-|**STATUS_ACCESS_DENIED**|The caller did not have the required access. This is an error code.|
-|**STATUS_ACCESS_VIOLATION**|*SecurityDescriptor* was a **NULL** pointer. This is an error code.|
-|**STATUS_INSUFFICIENT_RESOURCES**|The object's security descriptor could not be captured. This is an error code.|
-|**STATUS_INVALID_ACL**|The object's security descriptor contained an invalid ACL. This is an error code.|
-|**STATUS_INVALID_SECURITY_DESCR**|*SecurityDescriptor* did not point to a valid security descriptor. This is an error code.|
-|**STATUS_INVALID_SID**|The object's security descriptor contained an invalid SID. This is an error code.|
-|**STATUS_UNKNOWN_REVISION**|The revision level of the object's security descriptor was unknown or not supported. This is an error code.|
-|**STATUS_NOT_IMPLEMENTED**|The **FltSetSecurityObject** routine is present but not supported in the operating system environment in which it was called.|
-
+| Return code | Description |
+| ----------- | ----------- |
+| **STATUS_ACCESS_DENIED** | The caller did not have the required access. This is an error code. |
+| **STATUS_ACCESS_VIOLATION**| *SecurityDescriptor* was a **NULL** pointer. This is an error code. |
+| **STATUS_INSUFFICIENT_RESOURCES** | The object's security descriptor could not be captured. This is an error code. |
+| **STATUS_INVALID_ACL** | The object's security descriptor contained an invalid ACL. This is an error code. |
+| **STATUS_INVALID_SECURITY_DESCR** | *SecurityDescriptor* did not point to a valid security descriptor. This is an error code. |
+| **STATUS_INVALID_SID** | The object's security descriptor contained an invalid SID. This is an error code. |
+| **STATUS_UNKNOWN_REVISION** | The revision level of the object's security descriptor was unknown or not supported. This is an error code. |
+| **STATUS_NOT_IMPLEMENTED** | The **FltSetSecurityObject** routine is present but not supported in the operating system environment in which it was called. |
 
 ## -remarks
 
@@ -106,18 +99,10 @@ For more information about security and access control, see the documentation on
 
 [SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md)
 
-
-
 [SECURITY_INFORMATION](/windows-hardware/drivers/ifs/security-information)
-
-
 
 [ZwQuerySecurityObject](../ntifs/nf-ntifs-zwquerysecurityobject.md)
 
-
-
 [ZwSetSecurityObject](../ntifs/nf-ntifs-zwsetsecurityobject.md)
-
-
 
 [FltQuerySecurityObject](./nf-fltkernel-fltquerysecurityobject.md)
