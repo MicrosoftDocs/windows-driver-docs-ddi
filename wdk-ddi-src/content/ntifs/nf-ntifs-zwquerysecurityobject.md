@@ -67,7 +67,7 @@ The **ZwQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ### -param SecurityDescriptor
 
-[out] Caller-allocated buffer that **ZwQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) structure is returned in self-relative format.
+[out] Caller-allocated buffer that **ZwQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md) structure is returned in self-relative format.
 
 ### -param Length
 
@@ -96,7 +96,7 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should call [**FltQuerySecurityObject**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject) instead of **ZwQuerySecurityObject**.
+Minifilters should call [**FltQuerySecurityObject**](../fltkernel/nf-fltkernel-fltquerysecurityobject.md) instead of **ZwQuerySecurityObject**.
 
 > [!NOTE]
 > If the call to the **ZwQuerySecurityObject** function occurs in user mode, you should use the name "**NtQuerySecurityObject**" instead of "**ZwQuerySecurityObject**".
@@ -105,10 +105,10 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**FltQuerySecurityObject**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject)
+[**FltQuerySecurityObject**](../fltkernel/nf-fltkernel-fltquerysecurityobject.md)
 
-[**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
+[**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md)
 
 [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information)
 
-[**ZwSetSecurityObject**](https://msdn.microsoft.com/library/windows/hardware/ff567106)
+[**ZwSetSecurityObject**](nf-ntifs-zwsetsecurityobject.md)
