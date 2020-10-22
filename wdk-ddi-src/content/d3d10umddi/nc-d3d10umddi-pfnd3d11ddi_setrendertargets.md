@@ -4,7 +4,7 @@ title: PFND3D11DDI_SETRENDERTARGETS (d3d10umddi.h)
 description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
-ms.date: 10/16/2020
+ms.date: 10/21/2020
 keywords: ["PFND3D11DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 req.header: d3d10umddi.h
@@ -79,7 +79,7 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ### -param UAVStartSlot
 
-Indicates the start element, in the array of bind points, where the passed UAV array is going to be applied. **UAVStartSlot** should be at least as great as the **NumRTVs** parameter.
+Index of the first UAV to set. **UAVStartSlot** must be at least as great as the **NumRTVs** parameter.
 
 > [!NOTE]
 > Only one shared set of binding points exists for RTVs and UAVs. RTVs are bound first, followed by UAVs.
@@ -100,6 +100,8 @@ The number of UAVs in the set of all updated UAVs (which includes **NULL** bindi
 > The parameters **NumUAVs** and  **UAVStartSlot** specify which range in the UAVs array contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, **UAVStartSlot** starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).
 
 ## -remarks
+
+Resource descriptors, including RTVs and UAVs, must be put in input slots before shaders can access them for read or write.
 
 The driver can use the [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) callback function to set an error code.
 
