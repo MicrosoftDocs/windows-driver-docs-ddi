@@ -78,14 +78,14 @@ api_name:
 
 | Return code | Description |
 | ----------- | ----------- |
-| **STATUS_ACCESS_DENIED** | The caller did not have the required access. This is an error code. |
-| **STATUS_ACCESS_VIOLATION**| *SecurityDescriptor* was a **NULL** pointer. This is an error code. |
-| **STATUS_INSUFFICIENT_RESOURCES** | The object's security descriptor could not be captured. This is an error code. |
-| **STATUS_INVALID_ACL** | The object's security descriptor contained an invalid ACL. This is an error code. |
-| **STATUS_INVALID_SECURITY_DESCR** | *SecurityDescriptor* did not point to a valid security descriptor. This is an error code. |
-| **STATUS_INVALID_SID** | The object's security descriptor contained an invalid SID. This is an error code. |
-| **STATUS_UNKNOWN_REVISION** | The revision level of the object's security descriptor was unknown or not supported. This is an error code. |
-| **STATUS_NOT_IMPLEMENTED** | The **FltSetSecurityObject** routine is present but not supported in the operating system environment in which it was called. |
+| STATUS_ACCESS_DENIED | The caller did not have the required access. This is an error code. |
+| STATUS_ACCESS_VIOLATION| *SecurityDescriptor* was a **NULL** pointer. This is an error code. |
+| STATUS_INSUFFICIENT_RESOURCES | The object's security descriptor could not be captured. This is an error code. |
+| STATUS_INVALID_ACL | The object's security descriptor contained an invalid ACL. This is an error code. |
+| STATUS_INVALID_SECURITY_DESCR | *SecurityDescriptor* did not point to a valid security descriptor. This is an error code. |
+| STATUS_INVALID_SID | The object's security descriptor contained an invalid SID. This is an error code. |
+| STATUS_UNKNOWN_REVISION | The revision level of the object's security descriptor was unknown or not supported. This is an error code. |
+| STATUS_NOT_IMPLEMENTED | The **FltSetSecurityObject** routine is present but not supported in the operating system environment in which it was called. |
 
 ## -remarks
 
