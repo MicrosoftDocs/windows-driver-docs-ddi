@@ -977,6 +977,29 @@
       }
     },
     "template": [],
-    "dest": "windows-hardware/drivers/ddi"
+    "dest": "windows-hardware/drivers/ddi",
+    "rules": {
+      "sensitive-language": {
+        "exclude": [
+          "ndiswwan/index.md",
+          "ndiswwan/ns-ndiswwan-_ndis_wwan_network_blacklist.md",
+          "ndiswwan/ns-ndiswwan-_ndis_wwan_set_network_blacklist.md",
+          "ndiswwan/ns-ndiswwan-_ndis_wwan_set_network_blacklist.md",
+          "pep_x/nf-pep_x-pep_acpi_initialize_spb_spi_resource.md",
+          "pepfx/nf-pepfx-pep_acpi_initialize_spb_spi_resource.md",
+          "pepfx/ns-pepfx-_pep_acpi_resource_flags.md",
+          "pep_x/ns-pep_x-_pep_acpi_resource_flags.md",
+          "wwan/ne-wwan-_wwan_struct_type.md",
+          "wwan/index.md",
+          "wwan/ns-wwan-_wwan_network_blacklist_provider.md",
+          "wwan/ne-wwan-_wwan_network_blacklist_type.md",
+          "wwan/ns-wwan-_wwan_network_blacklist_info.md",
+          "wwan/ne-wwan-_wwan_async_getset_type.md",
+          "wwan/ne-wwan-_wwan_network_blacklist_state.md",
+          "wwan/ns-wwan-_wwan_device_caps_ex.md",
+          "_netvista/index.md"
+        ]
+      }
+    }
   }
 }
