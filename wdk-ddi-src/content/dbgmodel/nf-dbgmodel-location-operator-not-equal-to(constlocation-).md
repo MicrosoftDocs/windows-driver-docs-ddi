@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-not-equal-to(constLocation&)
-title: operator!= function (dbgmodel.h)
+title: operator!=(constLocation&) function (dbgmodel.h)
 description: Not equal to comparison operator for the location function.
 ms.assetid: 474f5a04-76f9-4784-82ed-bb35527f320a
 ms.date: 10/02/2018
@@ -38,7 +38,7 @@ targetos: Windows
 tech.root: debugger
 ---
 
-# operator!= function
+# operator!=(constLocation&) function
 
 
 ## -description
