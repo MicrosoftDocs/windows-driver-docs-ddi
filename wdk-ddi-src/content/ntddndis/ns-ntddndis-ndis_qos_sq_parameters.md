@@ -99,13 +99,13 @@ TCs for which this field is **FALSE** do not participate in any QoS rate limitin
 
 ### -field TcTransmitBandwidthCapTable
 
-An array of ULONG values that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED flag is set?), and only then for elements where **TcEnabledTable** is **TRUE**. An element with a value of 0 has no cap.
+An array of ULONG values that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED flag is set?), and then only for elements where **TcEnabledTable** is **TRUE**. An element with a value of 0 has no cap.
 
 The NIC should queue any transmit packets on this SQ on a given TC if they exceed the rate specified in this table.
 
 ### -field TcTransmitBandwidthReservationTable
 
-An array of ULONG values that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED flag is set?), and only then for elements where **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
+An array of ULONG values that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED flag is set?), and then only for elements where **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
 
 The NIC should queue any transmit packets on this SQ on a given TC if other SQs on this TC require bandwidth to meet their reservation.
 
