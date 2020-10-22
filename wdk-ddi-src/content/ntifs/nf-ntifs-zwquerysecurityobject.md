@@ -56,14 +56,14 @@ The **ZwQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ### -param SecurityInformation
 
-[in] A [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be queried.
+[in] A [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be queried as a combination of one or more of the following.
 
 | Value | Meaning |
 | ----- | ------- |
-| DACL_SECURITY_INFORMATION | The object's discretionary access control list (DACL) is being queried. Requires READ_CONTROL access. |
-| GROUP_SECURITY_INFORMATION | The object's primary group identifier is being queried. Requires READ_CONTROL access. |
 | OWNER_SECURITY_INFORMATION | The object's owner identifier is being queried. Requires READ_CONTROL access. |
+| GROUP_SECURITY_INFORMATION | The object's primary group identifier is being queried. Requires READ_CONTROL access. |
 | SACL_SECURITY_INFORMATION | The object's system ACL (SACL) is being queried. Requires ACCESS_SYSTEM_SECURITY access. |
+| DACL_SECURITY_INFORMATION | The object's discretionary access control list (DACL) is being queried. Requires READ_CONTROL access. |
 
 ### -param SecurityDescriptor
 
@@ -90,7 +90,7 @@ The **ZwQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ## -remarks
 
-A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members.
+A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors).
 
 The NTFS file system imposes a 64K limit on the size of the security descriptor that is written to disk for a file. (The FAT file system does not support security descriptors for files.) Thus a 64K **SecurityDescriptor** buffer is guaranteed to be large enough to hold the returned **SECURITY_DESCRIPTOR** structure.
 
