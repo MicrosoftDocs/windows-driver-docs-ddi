@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-assign(constLocation&)
-title: operator= function (dbgmodel.h)
+title: operator=(constLocation&) function (dbgmodel.h)
 description: The assignment operator for the location function.
 ms.assetid: 34b62c89-11e9-4221-8cd8-2b599608e719
 ms.date: 09/28/2018
@@ -38,7 +38,7 @@ targetos: Windows
 tech.root: debugger
 ---
 
-# operator= function
+# operator=(constLocation&) function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.BindProperty
-title: BindProperty function (dbgmodel.h)
+title: BindProperty function(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty) (dbgmodel.h)
 description: A binder which converts two instance methods on a class to a read/write property accessor.
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
 ms.date: 06/11/2019
@@ -39,7 +39,7 @@ api_name:
  - BindProperty
 ---
 
-# BindProperty function (dbgmodel.h)
+# BindProperty function(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty) (dbgmodel.h)
 
 
 ## -description
