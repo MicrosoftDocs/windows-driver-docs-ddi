@@ -63,7 +63,7 @@ The printer extension should call this method when it is launched so that driver
 
 ## -remarks
 
-In the case of a driver event like, for example, Print Preferences or Printer Notifications, the app is expected to call <b>EnableEvents</b>. But if the app doesn't call <b>EnableEvents</b> within 30s, the print system assumes that a UI was  called but it's not being responsive so a standard UI is displayed instead.
+In the case of a driver event like, for example, Print Preferences or Printer Notifications, the app is expected to call <b>EnableEvents</b>. But if the app doesn't call <b>EnableEvents</b> within 5 seconds, the print system assumes that a UI was  called but it's not being responsive so a standard UI is displayed instead.
 
 ## -see-also
 
