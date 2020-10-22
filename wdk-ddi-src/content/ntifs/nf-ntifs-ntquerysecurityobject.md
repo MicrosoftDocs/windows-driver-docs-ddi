@@ -67,7 +67,7 @@ The **NtQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ### -param SecurityDescriptor
 
-[out] Caller-allocated buffer that **NtQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) structure is returned in self-relative format.
+[out] Caller-allocated buffer that **NtQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md) structure is returned in self-relative format.
 
 ### -param Length
 
@@ -90,7 +90,7 @@ The **NtQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ## -remarks
 
-Minifilters should call [**FltQuerySecurityObject**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject).
+Minifilters should call [**FltQuerySecurityObject**](../fltkernel/nf-fltkernel-fltquerysecurityobject.md).
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors). 
 
@@ -105,9 +105,9 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**FltQuerySecurityObject**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject)
+[**FltQuerySecurityObject**](../fltkernel/nf-fltkernel-fltquerysecurityobject.md)
 
-[**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
+[**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md)
 
 [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information)
 
