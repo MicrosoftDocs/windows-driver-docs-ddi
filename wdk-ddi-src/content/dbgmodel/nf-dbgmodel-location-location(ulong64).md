@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.Location(ULONG64)
-title: Location function (dbgmodel.h)
+title: Location(ULONG64) function (dbgmodel.h)
 description: Constructs a location from an offset into the virtual address space of the target.
 ms.assetid: 035868db-4cee-4c86-a842-33bb8f9cd3eb
 ms.date: 09/28/2018
@@ -39,7 +39,7 @@ api_name:
  - Location
 ---
 
-# Location function (dbgmodel.h)
+# Location(ULONG64) function (dbgmodel.h)
 
 
 ## -description

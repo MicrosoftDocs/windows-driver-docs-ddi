@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo(ULONG)
-title: SymbolSearchInfo function (dbgmodel.h)
+title: SymbolSearchInfo(ULONG) function (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: 46053e1a-fb8b-4ec0-8a5e-aa89849257d9
 ms.date: 10/04/2018
@@ -39,7 +39,7 @@ tech.root: debugger
 ms.custom: RS5
 ---
 
-# SymbolSearchInfo function
+# SymbolSearchInfo(ULONG) function
 
 
 ## -description
