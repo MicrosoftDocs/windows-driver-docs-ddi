@@ -4,7 +4,7 @@ title: NDIS_QOS_SQ_TYPE
 ms.date: 10/30/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The **NDIS_QOS_SQ_TYPE** enumeration specifies the type of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ntddndis.h
@@ -39,17 +39,34 @@ dev_langs:
 
 ## -description
 
+The **NDIS_QOS_SQ_TYPE** enumeration specifies the type of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
+
 ## -enum-fields
+
+The following SQ types are defined:
 
 ### -field NdisQosSqTypeUndefined
 
+An undefined SQ type used for validation in code.
+
 ### -field NdisQosSqTypeStandard
 
-### -field NdisQosSqTypeGFT
+A standard (non-GFT) SQ.
 
 ### -field NdisQosSqTypeMax
 
+Used for validation in code.
+
 ## -remarks
+
+The **NDIS_QOS_SQ_TYPE** enumeration is a member of the [**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md), [**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md), and [**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md) structures.
 
 ## -see-also
 
+[**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md)
+
+[**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+
+[**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md)
+
+[**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md)

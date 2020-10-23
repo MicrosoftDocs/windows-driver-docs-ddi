@@ -4,7 +4,7 @@ title: NDIS_QOS_SQ_PARAMETERS
 ms.date: 10/30/2020
 ms.topic: language-reference
 targetos: Windows
-description: The **NDIS_QOS_SQ_PARAMETERS** structure is used by OID_QOS_OFFLOAD_ENUM_SQS to enumerate the NDIS QoS Scheduler Queues (SQs) created on a NIC switch.
+description: The NDIS_QOS_SQ_PARAMETERS structure is used by OID_QOS_OFFLOAD_ENUM_SQS to enumerate NDIS QoS Scheduler Queues (SQs) created on a NIC switch.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -45,25 +45,13 @@ dev_langs:
 
 The **NDIS_QOS_SQ_PARAMETERS** structure is used by [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) to enumerate the NDIS Quality of Service (QoS) Scheduler Queues (SQs) created on a NIC switch.
 
-<!--
-OID_QOS_OFFLOAD_ENUM_SQS 
-
-Overlying drivers issue OID query requests of OID_QOS_OFFLOAD_ENUM_SQS to obtain a list of all SQs currently present on a miniport adapter and their parameters. 
-
-After a successful return from the OID query request, the InformationBuffer member of the NDIS_OID_REQUEST structure contains a pointer to an NDIS_QOS_SQ_PARAMETERS_ARRAY structure. Each element of the array is an NDIS_QOS_SQ_PARAMETERS structure. 
--->
-
 ## -struct-fields
 
 ### -field Header
 
 The type, revision, and size of the **NDIS_QOS_SQ_PARAMETERS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md) structure.
 
-The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT.
-
-The driver must set the **Revision** member of **Header** to NDIS_QOS_SQ_PARAMETERS_REVISION_2.
-
-The driver must set the **Size** member to NDIS_SIZEOF_QOS_SQ_PARAMETERS_REVISION_2.
+The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT, the **Revision** member to NDIS_QOS_SQ_PARAMETERS_REVISION_2, and the **Size** member to NDIS_SIZEOF_QOS_SQ_PARAMETERS_REVISION_2.
 
 ### -field Flags
 
@@ -87,40 +75,58 @@ An NDIS_QOS_SQ_ID that contains the SQ ID of this SQ. NDIS assigns this ID.
 
 ### -field SQType
 
-An **NDIS_QOS_SQ_TYPE** that contains the type of this SQ. This can be NdisQSQosSqSQTypeStandard from the enum definition of **NDIS_QOS_SQ_TYPE**.
+An [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md) that contains the type of this SQ. This can be **NdisQSQosSqSQTypeStandard** from the enum definition of **NDIS_QOS_SQ_TYPE**.
 
 ### -field TcEnabledTable
 
 An array of BOOLEAN values that specify whether each traffic class (from 0 to NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES) is enabled for scheduling on this SQ.  
 
-Any traffic class (TC) for which this field is **TRUE** should be read and validated in the tables below. TCs for which this field is **TRUE** are also rate limited by the **CrossTcTransmitBandwidthCap** rate limit.  
+Any traffic class (TC) for which this field is **TRUE** should be read and validated in the tables below, and is also rate limited by **CrossTcTransmitBandwidthCap**.
 
-TCs for which this field is **FALSE** do not participate in any QoS rate limiting, either from **CrossTcTransmitBandwidthCap** or from one of the per-TC tables below.
+Any TC for which this field is **FALSE** does not participate in QoS rate limiting from **CrossTcTransmitBandwidthCap** or the per-TC tables below.
 
 ### -field TcTransmitBandwidthCapTable
 
-An array of ULONG values that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED flag is set?), and then only for elements where **TcEnabledTable** is **TRUE**. An element with a value of 0 has no cap.
+An array of ULONG elements that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
 
-The NIC should queue any transmit packets on this SQ on a given TC if they exceed the rate specified in this table.
+The NIC should queue any transmit packets on this SQ for a given TC if they exceed the rate specified in this table.
 
 ### -field TcTransmitBandwidthReservationTable
 
-An array of ULONG values that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE**(if the NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED flag is set?), and then only for elements where **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
+An array of ULONG elements that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
 
-The NIC should queue any transmit packets on this SQ on a given TC if other SQs on this TC require bandwidth to meet their reservation.
+The NIC should queue any transmit packets on this SQ for a given TC if other SQs require bandwidth to meet their reservation for this TC.
 
 ### -field TcReceiveBandwidthCapTable
 
+An array of ULONG elements that specify receive bandwidth caps for each TC, in Mbps. Elements are only valid if **ReceiveCapEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
+
+This is an optional feature for enabling receive bandwidth capping. NICs that advertise receive cap support should drop any receive packet after a given TC on this SQ has exceeded the rate specified in this array (based on the NIC’s scheduling implementation).  
+
 ### -field CrossTcTransmitBandwidthCap
+
+A ULONG value that specifies the transmit bandwidth cap for traffic across TCs whose corresponding element in **TcEnabledTable** is **TRUE**.
 
 ### -field MaxNumSqInputs
 
+A ULONG value that offers a “hint” to the miniport on the likely number of vPorts that the OS will associate with the SQ. This value cannot be modified after SQ creation.
+
+The miniport may use this hint to manage its resources better. The miniport will provide best-effort service to satisfy the request, but may fail due to insufficient resources at SQ creation time or vPort association time.
+
+The miniport must return an error if this value exceeds the **MaxNumSQInputs** value specified by the miniport in [**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md).
+
 ## -remarks
 
-The **NDIS_QOS_SQ_PARAMETERS** structure is returned in OID query request of [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs).
+The **NDIS_QOS_SQ_PARAMETERS** structure is returned in OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs).
 
 ## -see-also
 
 [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs)
 
-[NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+[**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md)
+
+[**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+
+[**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
+
+[NDIS QoS Traffic Classes](/windows-hardware/drivers/network/ndis-qos-traffic-classes)

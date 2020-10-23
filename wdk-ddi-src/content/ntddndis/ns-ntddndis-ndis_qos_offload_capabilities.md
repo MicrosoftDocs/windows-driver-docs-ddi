@@ -111,7 +111,7 @@ If **TRUE**, the miniport adapter supports a single transmit cap value for traff
 
 ## -remarks
 
-The **NDIS_QOS_OFFLOAD_CAPABILITIES** structure is returned in OID query requests of [OID_QOS_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/oid-qos-offload-hardware-capabilities) and [OID_QOS_OFFLOAD_CURRENT_CAPABILITIES](/windows-hardware/drivers/network/oid-qos-offload-current-capabilities).
+The **NDIS_QOS_OFFLOAD_CAPABILITIES** structure is returned in OID query requests [OID_QOS_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/oid-qos-offload-hardware-capabilities) and [OID_QOS_OFFLOAD_CURRENT_CAPABILITIES](/windows-hardware/drivers/network/oid-qos-offload-current-capabilities).
 
 ## -see-also
 
