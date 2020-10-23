@@ -58,7 +58,7 @@ Because the internal format of a security descriptor can vary, drivers are not t
 
 ### -field Revision
 
-Specifies the revision level of the security descriptor. This value should be SECURITY_DESCRIPTOR_REVISION.
+Specifies the revision level of the security descriptor.
 
 ### -field Sbz1
 
@@ -110,11 +110,19 @@ A security descriptor includes information that specifies the following componen
 
 [RtlCreateSecurityDescriptor](../wdm/nf-wdm-rtlcreatesecuritydescriptor.md)
 
+[RtlGetDaclSecurityDescriptor](nf-ntifs-rtlgetdaclsecuritydescriptor.md)
+
+[RtlGetGroupSecurityDescriptor](nf-ntifs-rtlgetgroupsecuritydescriptor.md)
+
 [RtlGetOwnerSecurityDescriptor](nf-ntifs-rtlgetownersecuritydescriptor.md)
+
+[RtlGetSaclSecurityDescriptor](nf-ntifs-rtlgetsaclsecuritydescriptor.md)
 
 [RtlLengthSecurityDescriptor](../wdm/nf-wdm-rtllengthsecuritydescriptor.md)
 
 [RtlSetDaclSecurityDescriptor](../wdm/nf-wdm-rtlsetdaclsecuritydescriptor.md)
+
+[RtlSetGroupSecurityDescriptor](nf-ntifs-rtlsetgroupsecuritydescriptor.md)
 
 [RtlSetOwnerSecurityDescriptor](nf-ntifs-rtlsetownersecuritydescriptor.md)
 
