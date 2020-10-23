@@ -931,6 +931,7 @@
           "pepfx/nf-pepfx-pep_acpi_initialize_spb_spi_resource.md",
           "pepfx/ns-pepfx-_pep_acpi_resource_flags.md",
           "pep_x/ns-pep_x-_pep_acpi_resource_flags.md",
+          "pep_x/ns-pep_x-_pep_acpi_spb_resource.md",
           "wwan/ne-wwan-_wwan_struct_type.md",
           "wwan/index.md",
           "wwan/ns-wwan-_wwan_network_blacklist_provider.md",
