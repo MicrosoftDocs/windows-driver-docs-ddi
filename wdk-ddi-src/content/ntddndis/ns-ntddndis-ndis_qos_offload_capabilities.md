@@ -61,7 +61,7 @@ The driver must set the **Size** member to NDIS_SIZEOF_QOS_OFFLOAD_CAPABILITIES_
 
 This field is not used in NDIS_QOS_OFFLOAD_CAPABILITIES_REVISION_2. The driver must set this member to **zero**.
 
-### -field SupportedSQTypes
+### -field SupportedSqTypes
 
 A ULONG value that contains a bitwise OR of flags. These flags specify the type of NDIS QoS Scheduler Queues (SQs) that the miniport adapter supports. The following flags are defined:
 
@@ -89,7 +89,7 @@ An array of BOOLEAN values that specify whether the miniport adapter supports re
 
 An array of BOOLEAN values that specify whether the miniport adapter supports rate limits for each TC.
 
-### -field NumStandardSQsSupported
+### -field NumStandardSqsSupported
 
 A ULONG value that contains the maximum number of standard (non-GFT) SQs that can be created on the miniport adapter.
 
@@ -101,7 +101,7 @@ For forward compatibility, the miniport driver must set this field to **zero** w
 
 A ULONG value that contains the scheduling granularity that the NIC can support for transmit reservations. For example, if the NIC can support at most a 1:10000 ratio between effective queues, this value should be 10000. This value is purely informational. A NIC may be asked to schedule queues with ratios between reservation values that exceed this granularity. In this case, the result should be a best approximation.
 
-### -field MaxNumSQInputs
+### -field MaxNumSqInputs
 
 A ULONG value that contains the maximum number of vPorts that can be associated with an SQ.
 

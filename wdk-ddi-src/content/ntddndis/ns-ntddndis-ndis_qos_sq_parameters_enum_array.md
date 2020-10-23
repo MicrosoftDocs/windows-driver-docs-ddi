@@ -57,19 +57,19 @@ The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TY
 
 Not used in NDIS_QOS_SQ_PARAMETERS_ARRAY_REVISION_1. The caller sets this field to **zero**.
 
-### -field SQType
+### -field SqType
 
 An [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md) that contains the type of this SQ. This can be **NdisQSQosSqSQTypeStandard** from the enum definition of **NDIS_QOS_SQ_TYPE**.
 
-### -field FirstSQId
+### -field FirstSqId
 
 An NDIS_QOS_SQ_ID that specifies the first SQ ID of this array.
 
-### -field MaxSQsToReturn
+### -field MaxSqsToReturn
 
 The maximum number of SQs contained in this array.
 
-### -field SQArrayOffset
+### -field SqArrayOffset
 
 The byte offset from the beginning of this structure that marks the beginning of an array. The type of each element depends on the OID request:
 
@@ -82,7 +82,7 @@ The byte offset from the beginning of this structure that marks the beginning of
 
 The number of elements in this array specified by **SQArrayOffset**.
 
-### -field SQArrayElementSize
+### -field SqArrayElementSize
 
 The size of each element in this array.  
 

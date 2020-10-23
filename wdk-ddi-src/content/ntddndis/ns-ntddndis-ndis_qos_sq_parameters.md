@@ -69,11 +69,11 @@ If this flag is set, transmit bandwidth reservations are enabled on this SQ. Thi
 
 If this flag is set, receive bandwidth caps are enabled on this SQ.
 
-### -field SQId
+### -field SqId
 
 An NDIS_QOS_SQ_ID that contains the SQ ID of this SQ. NDIS assigns this ID.
 
-### -field SQType
+### -field SqType
 
 An [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md) that contains the type of this SQ. This can be **NdisQSQosSqSQTypeStandard** from the enum definition of **NDIS_QOS_SQ_TYPE**.
 
