@@ -4,7 +4,7 @@ title: NDIS_QOS_SQ_PARAMETERS
 ms.date: 10/30/2020
 ms.topic: language-reference
 targetos: Windows
-description: The NDIS_QOS_SQ_PARAMETERS structure is used by OID_QOS_OFFLOAD_ENUM_SQS to enumerate NDIS QoS Scheduler Queues (SQs) created on a NIC switch.
+description: The NDIS_QOS_SQ_PARAMETERS structure contains the parameters of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **NDIS_QOS_SQ_PARAMETERS** structure is used by [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) to enumerate the NDIS Quality of Service (QoS) Scheduler Queues (SQs) created on a NIC switch.
+The **NDIS_QOS_SQ_PARAMETERS** structure contains the parameters of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
 
 ## -struct-fields
 
@@ -117,11 +117,15 @@ The miniport must return an error if this value exceeds the **MaxNumSQInputs** v
 
 ## -remarks
 
-The **NDIS_QOS_SQ_PARAMETERS** structure is returned in OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs).
+The **NDIS_QOS_SQ_PARAMETERS** structure is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), which enumerates SQs created on a NIC switch.
+
+**NDIS_QOS_SQ_PARAMETERS** is also returned in the OID method request [OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md), which creates a new SQ on the miniport adapter.
 
 ## -see-also
 
 [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs)
+
+[OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md)
 
 [**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md)
 

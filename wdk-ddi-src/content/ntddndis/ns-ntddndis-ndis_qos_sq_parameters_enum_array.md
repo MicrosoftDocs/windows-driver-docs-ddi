@@ -88,7 +88,7 @@ The size of each element in this array.
 
 ## -remarks
 
-**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY** is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), used to enumerate the SQs created on a NIC switch. 
+**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY** is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), which enumerates the SQs created on a NIC switch 
 
 **NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY** is also returned in the OID query request [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats), used to obtain a list of SQs currently present on a miniport adapter and their stat counters.
 
@@ -98,6 +98,10 @@ The size of each element in this array.
 
 [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats)
 
+[**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md)
+
 [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md)
+
+[**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md)
 
 [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
