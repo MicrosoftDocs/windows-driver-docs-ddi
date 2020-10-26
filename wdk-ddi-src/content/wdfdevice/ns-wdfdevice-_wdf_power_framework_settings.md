@@ -14,7 +14,7 @@ req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
-req.umdf-ver: 
+req.umdf-ver: 2.33
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF only]</p>
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The 
   <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure describes power management framework (PoFx) settings for single-component devices.
@@ -94,6 +94,41 @@ A pointer to the client driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-w
 
 A context pointer that the framework supplies to  <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a>, 
     <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a>,  <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a>, and <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>.
+
+### -field PoFxDeviceFlags
+
+A value of type ULONGLONG containing the bitwise **OR** of the following values related to the [Directed Power Management Framework](/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework). This field is available starting in KMDF version 1.33 and UMDF 2.33.
+
+**PO_FX_DEVICE_FLAG_DFX_CHILDREN_OPTIONAL**
+
+When the Directed Power Framework ("DFx") is enabled on a device, typically child devices also enable DFx. However, in some cases (for example a pure software device), a child device does not implement power management. Set this flag to allow such a child device to skip DFx.
+
+To set this flag on behalf of child devices, the parent WDF driver must:
+
+* [Opt into DFx](/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework#requirements-for-wdf-non-miniport-drivers)
+* Not be a bus driver
+* Have at least one virtual child device created through a side-band channel (for example an upper filter or device created by calling [**SwDeviceCreate**](/windows/win32/api/swdevice/nf-swdevice-swdevicecreate)
+
+For drivers targeting pre-v33 WDF, instead specify the INF directive: **WdfDirectedPowerTransitionChildrenOptional**, which is available starting in Windows 10, version 1903. If the driver specifies the INF directive and sets this flag, the INF directive takes precedence.
+
+**PO_FX_DEVICE_FLAG_DISABLE_FAST_RESUME**
+
+This is required to implement **IRP_MN_QUERY_DEVICE_RELATIONS**/PowerRelations between two devices. 
+
+By default, WDF implements fast resume, which means that during system wakeup, the power policy owner in a device stack completes an S0-IRP without waiting to request and complete a D0-IRP. This does not work well with PowerRelations. 
+
+To make PowerRelations works properly, if a device depends on another device to enter D0 first, the second device should set this flag to opt out of fast resume.
+
+In some cases, global policy may disable fast resume globally even if this flag is not set.
+
+### -field DirectedPoFxEnabled
+
+A WDF_TRI_STATE-typed enumerator that indicates whether the device enables Directed Power Management Framework (DFx). Available starting in KMDF version 1.33 and UMDF 2.33.
+
+WdfTrue - DFx is enabled.
+WdfFalse – DFx is disabled.
+WdfUseDefault - The default value that the framework uses if the driver does not set a different value. This value has the same meaning as WdfTrue.
+
 
 ## -remarks
 

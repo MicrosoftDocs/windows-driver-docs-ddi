@@ -14,7 +14,7 @@ req.target-type: Universal
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
-req.umdf-ver: 
+req.umdf-ver: 2.33
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF only]</p>
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method registers  power management framework (PoFx) settings for single-component devices.
