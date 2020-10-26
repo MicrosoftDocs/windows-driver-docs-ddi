@@ -125,9 +125,15 @@ In some cases, global policy may disable fast resume globally even if this flag 
 
 A WDF_TRI_STATE-typed enumerator that indicates whether the device enables Directed Power Management Framework (DFx). Available starting in KMDF version 1.33 and UMDF 2.33.
 
-WdfTrue - DFx is enabled.
-WdfFalse – DFx is disabled.
-WdfUseDefault - The default value that the framework uses if the driver does not set a different value. This value has the same meaning as WdfTrue.
+**WdfTrue** - DFx is enabled.
+**WdfFalse** – DFx is disabled.
+**WdfUseDefault** - The default value if the driver does not set one. This value has the same meaning as **WdfTrue**.
+
+Directed PoFx (DFx) was implemented starting in Windows 10, version 1903 as an option for drivers that use **SystemManagedIdleTimeout** or **SystemManagedIdleTimeoutWithHint**.
+
+ - For a driver targeting pre-v31 WDF, set the INF directive **WdfDirectedPowerTransitionEnable** to 1 to opt in to DFx.
+ - For a driver targeting v31+ WDF, DFx is enabled by default. The driver can set **WdfDirectedPowerTransitionEnable** to zero to opt out of DFx.
+ - For a driver targeting v33+ WDF, DFx is also enabled by default. The driver can either set **WdfDirectedPowerTransitionEnable** to zero or set this field to **WdfFalse** (recommended) to opt out of DFx. If both are set, the INF directive takes precedence.
 
 
 ## -remarks
@@ -135,6 +141,8 @@ WdfUseDefault - The default value that the framework uses if the driver does not
 The <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure is used an input to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 To initialize its <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure, your driver should call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_power_framework_settings_init">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>.
+
+For UMDF, only **Size**, **PoFxDeviceFlags**, and **DirectedPoFxEnabled** are used. Other fields are ignored and must be set to zero. The framework does this automatically when a UMDF driver calls <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_power_framework_settings_init">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>.
 
 For more information, see <a href="/windows-hardware/drivers/wdf/supporting-functional-power-states">Supporting Functional Power States</a> and <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">Overview of the Power Management Framework</a>.
 
