@@ -65,7 +65,7 @@ Indicates that the protected output supports High-bandwidth Digital Content Prot
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_ACP
 
-Indicates that the protected output supports Analog Copy Protection (ACP). ACP protects analog TV signals. Currently, OPM can use ACP to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about ACP, see the [TiVo](https://business.tivo.com/) (formerly Rovi, formerly Macrovision) website. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports ACP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the ACP protection level.
+Indicates that the protected output supports [Analog Copy Protection (ACP)](https://business.tivo.com/services/acp-technology). ACP protects analog TV signals. Currently, OPM can use ACP to protect signals from composite outputs, S-Video outputs, or component outputs. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports ACP. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the ACP protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_CGMSA
 

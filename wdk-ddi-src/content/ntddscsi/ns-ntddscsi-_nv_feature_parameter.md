@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._NV_FEATURE_PARAMETER
-title: _NV_FEATURE_PARAMETER (ntddscsi.h)
+title: NV_FEATURE_PARAMETER (ntddscsi.h)
 description: The NV_FEATURE_PARAMETER structure is used in conjunction with the IOCTL_SCSI_MINIPORT_NVCACHE request to get NV Cache Manager feature support information from the device.
 old-location: storage\nv_feature_parameter.htm
 tech.root: storage
@@ -45,14 +45,13 @@ api_name:
  - NV_FEATURE_PARAMETER
 ---
 
-# _NV_FEATURE_PARAMETER structure
-
+# NV_FEATURE_PARAMETER structure
 
 ## -description
 
-The NV_FEATURE_PARAMETER structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache">IOCTL_SCSI_MINIPORT_NVCACHE</a> request to get NV Cache Manager feature support information from the device. The NV Cache Manager feature parameters structure is returned by the miniport driver upon the successful return from the NRB_NVCACHE_INFO function, as requested in the Function field of the <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a> structure.
+The NV_FEATURE_PARAMETER structure is used in conjunction with the [**IOCTL_SCSI_MINIPORT_NVCACHE**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache) request to get NV Cache Manager feature support information from the device. The NV Cache Manager feature parameters structure is returned by the miniport driver upon the successful return from the NRB_NVCACHE_INFO function, as requested in the Function field of the [**NVCACHE_REQUEST_BLOCK**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block) structure.
 
-The values in these fields come from the IDENTIFY DEVICE command in section 7.16 of the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
+The values in these fields come from the IDENTIFY DEVICE command in section 7.16 of the ATA8-ACS specification.
 
 ## -struct-fields
 
@@ -98,4 +97,6 @@ Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field co
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a>
+[**IOCTL_SCSI_MINIPORT_NVCACHE**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache)
+
+[**NVCACHE_REQUEST_BLOCK**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block)
