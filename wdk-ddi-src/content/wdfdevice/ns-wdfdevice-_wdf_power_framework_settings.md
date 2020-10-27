@@ -129,7 +129,7 @@ A WDF_TRI_STATE-typed enumerator that indicates whether the device enables Direc
 **WdfFalse** – DFx is disabled.
 **WdfUseDefault** - The default value if the driver does not set one. This value has the same meaning as **WdfTrue**.
 
-Directed PoFx (DFx) was implemented starting in Windows 10, version 1903 as an option for drivers that use **SystemManagedIdleTimeout** or **SystemManagedIdleTimeoutWithHint**.
+Directed PoFx (DFx) is available starting in Windows 10, version 1903 as an option for drivers that use **SystemManagedIdleTimeout** or **SystemManagedIdleTimeoutWithHint**.
 
  - For a driver targeting pre-v31 WDF, set the INF directive **WdfDirectedPowerTransitionEnable** to 1 to opt in to DFx.
  - For a driver targeting v31+ WDF, DFx is enabled by default. The driver can set **WdfDirectedPowerTransitionEnable** to zero to opt out of DFx.
