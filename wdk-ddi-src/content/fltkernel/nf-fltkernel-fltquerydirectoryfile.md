@@ -76,7 +76,7 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 | **FileFullDirectoryInformation** | Return a [**FILE_FULL_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information) structure for each file. |
 | **FileIdBothDirectoryInformation** | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information) structure for each file. |
 | **FileIdExtdBothDirectoryInformation** | Return a [**FILE_ID_EXTD_BOTH_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information) structure for each file. |
-| **FileIdExtdDirectoryInformation** | Return a [**FILE_ID_EXTD_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information) structure for each file. |
+| **FileIdExtdDirectoryInformation** | Return a [**FILE_ID_EXTD_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-file_id_extd_dir_information) structure for each file. |
 | **FileIdFullDirectoryInformation** | Return a [**FILE_ID_FULL_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information) structure for each file. |
 | **FileIdGlobalTxDirectoryInformation** | Return a [**FILE_ID_GLOBAL_TX_DIR_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information) structure for each file. |
 | **FileNamesInformation** | Return a [**FILE_NAMES_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information) structure for each file. |
