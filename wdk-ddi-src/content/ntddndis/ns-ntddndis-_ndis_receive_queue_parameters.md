@@ -178,7 +178,7 @@ This member is reserved for NDIS.
 
 ### -field QosSqId
 
-Associates a Virtual Machine Queue (VMQ) with a Scheduler Queue (SQ). Set this field to **zero** for no SQ association.
+Associates a Virtual Machine Queue (VMQ) with a Scheduler Queue (SQ). Set this field to **zero** for no SQ association. For more information on **NDIS_QOS_SQ_ID**, see [OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md).
 
 Hardware Quality of Service (QoS) support for legacy VMQ is not required. The miniport driver may return NDIS_STATUS_NOT_SUPPORTED if **QosSqId** is non-zero.
 

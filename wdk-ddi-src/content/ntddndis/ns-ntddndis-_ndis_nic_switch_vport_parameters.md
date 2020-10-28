@@ -187,7 +187,7 @@ This member is reserved for future use. This member must be set to zero.
 
 ### -field QosSqId
 
-Associates a vPort with a Scheduler Queue (SQ). Set this field to a valid SQ ID to associate the vPort to an SQ. Set this field to **zero** if there is no SQ association.
+Associates a vPort with a Scheduler Queue (SQ). Set this field to a valid SQ ID to associate the vPort to an SQ. Set this field to **zero** if there is no SQ association. For more information on **NDIS_QOS_SQ_ID**, see [OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md).
 
 ## -remarks
 

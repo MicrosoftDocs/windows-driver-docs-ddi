@@ -71,7 +71,7 @@ If this flag is set, receive bandwidth caps are enabled on this SQ.
 
 ### -field SqId
 
-An NDIS_QOS_SQ_ID that contains the SQ ID of this SQ. NDIS assigns this ID.
+An **NDIS_QOS_SQ_ID** that contains the SQ ID of this SQ. NDIS assigns this ID.
 
 ### -field SqType
 
