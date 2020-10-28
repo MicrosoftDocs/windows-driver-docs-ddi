@@ -44,28 +44,6 @@ api_name:
 
 This callback function allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address.
 
-## -prototype
-
-```cpp
-//Declaration
-
-PALLOCATE_COMMON_BUFFER_WITH_BOUNDS PallocateCommonBufferWithBounds;
-
-// Definition
-
-PVOID PallocateCommonBufferWithBounds
-(
-	PDMA_ADAPTER DmaAdapter
-	PPHYSICAL_ADDRESS MinimumAddress
-	PPHYSICAL_ADDRESS MaximumAddress
-	ULONG Length
-	ULONG Flags
-	MEMORY_CACHING_TYPE *CacheType
-	NODE_REQUIREMENT PreferredNode
-	PPHYSICAL_ADDRESS LogicalAddress
-)
-{...}
-
 
 ## -parameters
 
@@ -89,24 +67,9 @@ PVOID PallocateCommonBufferWithBounds
 
 [in] The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DOMAIN_COMMON_BUFFER_LARGE_PAGE"></a><a id="domain_common_buffer_large_page"></a><dl>
-<dt><b>DOMAIN_COMMON_BUFFER_LARGE_PAGE</dt>
-</dl>
-</td>
-<td width="60%">
-The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512.
-<br/>
-<br/>
-<i>Note that this can increase the chance of the allocation being unsuccessful.
-</td>
-</tr>
-</table>
+|Flag|Meaning|
+|--- |--- |
+|**DOMAIN_COMMON_BUFFER_LARGE_PAGE**|The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.|
 
 ### -param CacheType
 
@@ -117,8 +80,6 @@ The common buffer will be allocated using a larger page granularity of PAGE_SIZE
 [in] The preferred NUMA node from which the memory is to be allocated. If N is the number of NUMA nodes in a multiprocessor system, *PreferredNode* is a number in the range 0 to N–1. For a one-processor system or a non-NUMA multiprocessor system, set *PreferredNode* to zero.
 
 ### -param LogicalAddress
-[out] A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as [**MmGetPhysicalAddress**](../ntddk/nf-ntddk-mmgetphysicaladdress.md).
-
 
 [out] A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as [**MmGetPhysicalAddress**](../ntddk/nf-ntddk-mmgetphysicaladdress.md).
 
