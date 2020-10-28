@@ -37,7 +37,6 @@ api_name:
 targetos: Windows
 ---
 
-# TODO: Copy STUB branch once available
 
 # PCREATE_COMMON_BUFFER_FROM_MDL callback function
 
@@ -45,21 +44,6 @@ targetos: Windows
 
 The CreateCommonBufferFromMdl routine will attempt to create a common buffer from an MDL by testing for device access compatibility and potentially mapping the memory to a contiguous logical range depending on the translation type. Like all other common buffer allocation functions, this function does not provide a forward progress guarantee.
 
-## -prototype
-
-```cpp
-
-PCREATE_COMMON_BUFFER_FROM_MDL PcreateCommonBufferFromMdl;
-
-NTSTATUS PcreateCommonBufferFromMdl(
-    PDMA_ADAPTER DmaAdapter,
-    PMDL Mdl,
-    PDMA_COMMON_BUFFER_EXTENDED_CONFIGURATION ExtendedConfigs,
-    ULONG ExtendedConfigsCount,
-    PPHYSICAL_ADDRESS LogicalAddress
-)
-{...}
-```
 
 ## -parameters
 
@@ -89,9 +73,10 @@ NTSTATUS PcreateCommonBufferFromMdl(
 - If DMA Remapping is not being used, the MDL must represent physically contiguous memory and be accessible to the device.
 
 ### -param ExtendedConfigs
-[in] Provides an optional array of [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-_dma_common_buffer_extended_configuration.md) structures to further configure the creation of the MDL backed common buffer.
+[in] Provides an optional array of [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md) structures to further configure the creation of the MDL backed common buffer.
 
-*Note: If multiple configurations of the same [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md) are provided in the array, creation will fail.*
+> [!NOTE]
+> If multiple configurations of the same [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md) are provided in the array, creation will fail.
 
 ### -param ExtendedConfigsCount
 [in] Provides the number of extended configurations in the *ExtendedConfigs* array.
@@ -103,53 +88,18 @@ NTSTATUS PcreateCommonBufferFromMdl(
 
 **CreateCommonBufferFromMdl** return **STATUS_SUCCESS** if the call is successful. Possible error return values include the following status codes.
 
-<table>
+|Return code|Description|
+|--- |--- |
+|**STATUS_INVALID_PARAMETER**|The caller has provided an incompatible MDL or extended configuration.|
+|**STATUS_NOT_SUPPORTED**|The caller has provided an extended configuration that is not supported on the current system.|
+|**STATUS_INSUFFICIENT_RESOURCES**|The system does not have enough memory to create book-keeping and mapping metadata.|
 
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller has provided an incompatible MDL or extended configuration.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller has provided an extended configuration that is not supported on the current system.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The system does not have enough memory to create book-keeping and mapping metadata.
-</td>
-</tr>
-
-</table>
 
 ## -remarks
 
 **CreateCommonBufferFromMdl*** is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a [*DMA_OPERATIONS*](ns-wdm-_dma_operations.md) structure. Drivers obtain the address of this routine by calling [IoGetDmaAdapter](nf-wdm-iogetdmaadapter.md) with the **Version** member of the *DeviceDescription* parameter set to DEVICE_DESCRIPTION_VERSION3. If **IoGetDmaAdapter** returns **NULL**, the routine is not available on your platform.
 
-A common buffer created by **CreateCommonBufferFromMdl** will be removed via [FreeCommonBuffer](nc-wdm-pfree_common_buffer.md). The caller must provide the system virtual address as the virtual address to ensure the common buffer is correctly removed from the Adapter’s common buffer bookkeeping structures. The driver is still responsible for unlocking and freeing the MDL and it’s backing pages.
+A common buffer created by **CreateCommonBufferFromMdl** will be removed via [FreeCommonBuffer](nc-wdm-pfree_common_buffer.md). The caller must provide the system virtual address as the virtual address to ensure the common buffer is correctly removed from the Adapter’s common buffer bookkeeping structures. The driver is still responsible for unlocking and freeing the MDL and its backing pages.
 
 To create a common buffer where the HAL is responsible for maintaining the backing memory, use [AllocateCommonBufferWithBounds](nc-wdm-pallocate_common_buffer_with_bounds.md).
 
@@ -157,7 +107,7 @@ To create a common buffer where the HAL is responsible for maintaining the backi
 
 [DMA_ADAPTER](ns-wdm-_dma_adapter.md)
 
-[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-_dma_common_buffer_extended_configuration.md)
+[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md)
 
 [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md)
 
