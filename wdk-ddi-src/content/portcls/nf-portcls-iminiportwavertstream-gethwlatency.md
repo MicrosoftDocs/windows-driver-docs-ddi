@@ -56,7 +56,7 @@ A pointer to a KSRTAUDIO_HWLATENCY structure into which the driver writes the ha
 ## -remarks
 
 The port driver calls this method in response to a KSPROPERTY_RTAUDIO_HWLATENCY property request from a client.
-For more information about the sources of hardware latency in an audio stream, see the Stream Latency during Playback and Stream Latency during Recording topics.
+For more information about the sources of hardware latency in an audio stream, see [Stream Latency during Playback](/windows-hardware/drivers/audio/stream-latency-during-playback) and [Stream Latency during Recording](/windows-hardware/drivers/audio/stream-latency-during-recording).
 
 ## -see-also
 
