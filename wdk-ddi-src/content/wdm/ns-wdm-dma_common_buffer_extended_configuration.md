@@ -47,7 +47,7 @@ dev_langs:
 
 Defines a configuration that further describes constraints and features when creating a common buffer. The driver can provide an array of **DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION** structures in the [*CreateCommonBufferFromMdl*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine.
 
-## struct-fields
+## -struct-fields
 
 ### -field ConfigType
 
