@@ -45,17 +45,17 @@ dev_langs:
 
 ## -description
 
-Defines a configuration that further describes constraints and features when creating a common buffer. An array of **DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION** structures can be provided in [CreateCommonBufferFromMdl](nc-wdm-pcreate-common-buffer-from-mdl.md).
+Defines a configuration that further describes constraints and features when creating a common buffer. The driver can provide an array of **DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION** structures in the [*CreateCommonBufferFromMdl*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine.
 
 ## struct-fields
 
 ### -field ConfigType
 
-Provides the type of common buffer extended configuration this instance represents. Defined by [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md).
+A [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_type.md)-typed value that indicates the type of common buffer extended configuration this instance represents.
 
 ### -field LogicalAddressLimits
 
-When the configuration type is *CommonBufferConfigTypeLogicalAddressLimits*, describes the logical address limits for the common buffer being created.
+When *ConfigType* is **CommonBufferConfigTypeLogicalAddressLimits**, describes the logical address limits for the common buffer being created.
 
 ### -field LogicalAddressLimits.MinimumAddress
 
@@ -67,9 +67,10 @@ Provides the (inclusive) maximum final logical address of the common buffer bein
 
 ### -field SubSection
 
-When the configuration type is *CommonBufferConfigTypeSubSection*, describes the subsection within a backing MDL that should be used to back the common buffer being created.
+When *ConfigType* is **CommonBufferConfigTypeSubSection**, describes the subsection within a backing MDL that should be used to back the common buffer being created.
 
-*Note: A subsection must only be contained within a single MDL in an MDL chain.*
+> [!NOTE]
+> A subsection must only be contained within a single MDL in an MDL chain.
 
 ### -field SubSection.Offset
 
@@ -81,23 +82,26 @@ Provides the length of the common buffer subsection. **Must be page-aligned.**
 
 ### -field HardwareAccessType
 
-When the configuraiton type is *CommonBufferConfigTypeHardwareAccessPermissions*, describes the hardware access permissions for the common buffer being created. Defined by [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md).
+When *ConfigType* is **CommonBufferConfigTypeHardwareAccessPermissions**, this is a [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md)-typed value that describes the hardware access permissions for the common buffer being created.
 
-*Note Common buffer creation will fail if the access type is not possible on the system. Currently ReadOnly and WriteOnly are only permissible if the DMA Adapter is using DMA Remapping.*
+> [!NOTE]
+> Common buffer creation fails if the access type is not possible on the system. **ReadOnly** and **WriteOnly** are only permissible if the DMA Adapter is using DMA Remapping.
 
 ### -field Reserved
 
-This field is unusued.
+This field is unused.
 
 ## -remarks
 
-The extended configurations are an optional parameter for [CreateCommonBufferFromMdl](nc-wdm-pcreate-common-buffer-from-mdl.md). If no extended configurations are provided, common buffer creation will use the entire MDL as backing memory, with a minimum logical address of 0 and a maximum logical address defined by the [DMA_ADAPTER](ns-wdm-_dma_adapter.md) being used.
+The extended configurations are an optional parameter for the [*CreateCommonBufferFromMdl*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine.
+
+If no extended configurations are provided, common buffer creation uses the entire MDL as backing memory, with a minimum logical address of zero and a maximum logical address defined by the [**DMA_ADAPTER**](ns-wdm-_dma_adapter.md) being used.
 
 ## -see-also
 
-[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md)
+[**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_type.md) enumeration
 
-[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md)
+[**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md) enumeration
 
-[PCREATE_COMMON_BUFFER_FROM_MDL](nc-wdm-pcreate-common-buffer-from-mdl.md)
+[*PCREATE_COMMON_BUFFER_FROM_MDL*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine
 
