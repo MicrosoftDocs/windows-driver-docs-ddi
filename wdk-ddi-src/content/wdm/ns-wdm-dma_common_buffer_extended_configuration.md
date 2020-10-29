@@ -82,7 +82,7 @@ Provides the length of the common buffer subsection. **Must be page-aligned.**
 
 ### -field HardwareAccessType
 
-When *ConfigType* is **CommonBufferConfigTypeHardwareAccessPermissions**, this is a [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md)-typed value that describes the hardware access permissions for the common buffer being created.
+When *ConfigType* is **CommonBufferConfigTypeHardwareAccessPermissions**, this is a [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-dma_common_buffer_extended_configuration_access_type.md)-typed value that describes the hardware access permissions for the common buffer being created.
 
 > [!NOTE]
 > Common buffer creation fails if the access type is not possible on the system. **ReadOnly** and **WriteOnly** are only permissible if the DMA Adapter is using DMA Remapping.

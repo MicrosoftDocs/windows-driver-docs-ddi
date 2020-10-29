@@ -1,21 +1,21 @@
 ---
 UID: NE:wdm._DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE
 title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE
-ms.date: 
+ms.date: 10/28/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description:
 req.construct-type: enumeration
-req.ddi-compliance: 
+req.ddi-compliance:
 req.header: wdm.h
-req.include-header: 
-req.kmdf-ver: 
-req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
-req.typenames: 
-req.umdf-ver: 
+req.include-header:
+req.kmdf-ver:
+req.max-support:
+req.target-min-winverclnt: Windows 10, version [FUTURE]
+req.target-min-winversvr:
+req.target-type:
+req.typenames:
+req.umdf-ver:
 topic_type:
  - apiref
 api_type:
