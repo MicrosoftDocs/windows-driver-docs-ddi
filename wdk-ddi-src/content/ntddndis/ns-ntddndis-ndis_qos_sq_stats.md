@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Supported in NDIS 6.84 and later.
+req.target-min-winverclnt: Supported in NDIS 6.85 and later.
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NDIS_QOS_SQ_STATS, *PNDIS_QOS_SQ_STATS
@@ -67,11 +67,11 @@ An [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md) that contains the typ
 
 ### -field BytesTransmitted
 
-An array of ULONGLONG elements, one for each traffic class (TC). Each element specifies the total number of bytes on that TC for this SQ that have been successfully transmitted.
+An array of UINT64 elements, one for each traffic class (TC). Each element specifies the total number of bytes on that TC for this SQ that have been successfully transmitted.
 
 ### -field PktsTransmitted
 
-An array of ULONGLONG elements, one for each traffic class. Each element specifies the total number of packets on that TC for this SQ that have been successfully transmitted.
+An array of UINT64 elements, one for each traffic class. Each element specifies the total number of packets on that TC for this SQ that have been successfully transmitted.
 
 ## -remarks
 

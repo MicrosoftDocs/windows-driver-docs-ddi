@@ -11,7 +11,7 @@ req.header: ntddndis.h
 req.include-header: ndis.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Supported in NDIS 6.84 and later.
+req.target-min-winverclnt: Supported in NDIS 6.85 and later.
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -52,6 +52,10 @@ An undefined SQ type used for validation in code.
 ### -field NdisQosSqTypeStandard
 
 A standard (non-GFT) SQ.
+
+### -field NdisQosSqTypeGFT
+
+Not currently in use.
 
 ### -field NdisQosSqTypeMax
 
