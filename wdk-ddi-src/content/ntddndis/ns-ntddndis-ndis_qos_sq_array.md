@@ -45,6 +45,21 @@ dev_langs:
 
 The **NDIS_QOS_SQ_ARRAY** structure is used to enumerate NDIS Quality of Service (QoS) Scheduler Queues (SQs) for parameters and stats. This structure is returned in the OID query requests [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) and [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats).
 
+## Syntax
+
+```cpp
+typedef struct _NDIS_QOS_SQ_ARRAY {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  NDIS_QOS_SQ_TYPE   SqType;
+  NDIS_QOS_SQ_ID     FirstSqId;
+  ULONG              MaxSqsToReturn;
+  ULONG              SqArrayOffset;
+  ULONG              SqArrayNumElements;
+  ULONG              SqArrayElementSize;
+} NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY;
+```
+
 ## -struct-fields
 
 ### -field Header
