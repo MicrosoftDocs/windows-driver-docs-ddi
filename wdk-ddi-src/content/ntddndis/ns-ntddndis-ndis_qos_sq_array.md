@@ -1,5 +1,5 @@
 ---
-UID: NS:ntddndis._NDIS_QOS_SQ_ARRAY
+UID: NS:ntddndis._NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY
 title: NDIS_QOS_SQ_ARRAY
 ms.date: 10/30/2020
 ms.topic: language-reference
