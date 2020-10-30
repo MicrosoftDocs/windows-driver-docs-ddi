@@ -17,7 +17,7 @@ req.redist:
 req.target-min-winverclnt: Supported in NDIS 6.85 and later.
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, *PNDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY
+req.typenames: NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -44,8 +44,6 @@ dev_langs:
 ## -description
 
 The **NDIS_QOS_SQ_ARRAY** structure is used to enumerate NDIS Quality of Service (QoS) Scheduler Queues (SQs) for parameters and stats. This structure is returned in the OID query requests [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) and [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats).
-
-## Syntax
 
 ```cpp
 typedef struct _NDIS_QOS_SQ_ARRAY {
