@@ -11,22 +11,22 @@ ms.keywords: DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.0
-req.umdf-ver: 
+req.umdf-ver:
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
-req.dll: 
+req.dll:
 req.irql: <= DISPATCH_LEVEL
 targetos: Windows
-req.typenames: 
+req.typenames:
 f1_keywords:
  - WdfChildListRetrievePdo
  - wdfchildlist/WdfChildListRetrievePdo
@@ -53,12 +53,12 @@ The <b>WdfChildListRetrievePdo</b> method returns a handle to the framework devi
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList
 
 [in]
 A handle to a child list object.
 
-### -param RetrieveInfo 
+### -param RetrieveInfo
 
 [in, out]
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure that the driver initializes with the <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> of the child to be retrieved.
@@ -71,9 +71,11 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-Before calling <b>WdfChildListRetrievePdo</b>, the driver must place an identification description in a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure. 
+Before calling <b>WdfChildListRetrievePdo</b>, the driver must place an identification description in a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 The <b>WdfChildListRetrievePdo</b> method traverses the specified child list, looking for a child with an identification description that matches the one that the driver supplied in the WDF_CHILD_RETRIEVE_INFO structure. If the framework finds a match, and if the child has an <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>, the framework fills in the structure's address description.
+
+Be sure to wrap this call with [**WdfChildListBeginIteration**](/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginiteration) and [**WdfChildListEndIteration**](/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistenditeration) to protect the caller from sudden PnP removal of the PDO on another thread.
 
 For more information about child lists, see <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
@@ -83,9 +85,10 @@ For more information about child lists, see <a href="/windows-hardware/drivers/w
 The following code example searches a child list to find a child device whose identification description contains a specified serial number, and it obtains a handle to the device object that represents the child device.
 
 ```cpp
-PDO_IDENTIFICATION_DESCRIPTION  description;
-WDF_CHILD_RETRIEVE_INFO  info;
-WDFDEVICE  hChild;
+WDF_CHILD_LIST_ITERATOR iterator;
+PDO_IDENTIFICATION_DESCRIPTION description;
+WDF_CHILD_RETRIEVE_INFO info;
+WDFDEVICE hChild;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
                                                  &description.Header,
@@ -99,10 +102,17 @@ WDF_CHILD_RETRIEVE_INFO_INIT(
                              &description.Header
                              );
 
+WDF_CHILD_LIST_ITERATOR_INIT(&iterator, WdfRetrieveAllChildren);
+WdfChildListBeginIteration(childList, &iterator);
+
 hChild = WdfChildListRetrievePdo(
-                                 list,
+                                 childList,
                                  &info
                                  );
+
+... access hChild ...
+
+WdfChildListEndIteration(childList, &iterator);
 ```
 
 ## -see-also
