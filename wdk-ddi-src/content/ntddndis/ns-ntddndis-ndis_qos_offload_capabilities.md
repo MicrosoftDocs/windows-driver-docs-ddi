@@ -83,7 +83,11 @@ An array of BOOLEAN values that specify whether the miniport adapter supports re
 
 ### -field TransmitGftCapSupported
 
+Reserved for future use.
+
 ### -field ReceiveGftCapSupported
+
+Reserved for future use.
 
 ### -field TcSupportedTable
 
@@ -91,7 +95,7 @@ An array of BOOLEAN values that specify whether the miniport adapter supports ra
 
 ### -field NumStandardSqsSupported
 
-A ULONG value that contains the maximum number of standard (non-GFT) SQs that can be created on the miniport adapter.
+A ULONG value that contains the maximum number of standard SQs that can be created on the miniport adapter.
 
 ### -field NumGftSqsSupported
 

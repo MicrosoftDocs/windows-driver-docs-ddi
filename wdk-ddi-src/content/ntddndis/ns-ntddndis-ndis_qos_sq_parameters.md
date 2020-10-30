@@ -63,7 +63,7 @@ If this flag is set, transmit bandwidth caps are enabled on this SQ.
 
 #### NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED
 
-If this flag is set, transmit bandwidth reservations are enabled on this SQ. This flag is not set if the SQ type is NdisQSQosSqSQTypeGFT.
+If this flag is set, transmit bandwidth reservations are enabled on this SQ.
 
 #### NDIS_QOS_SQ_RECEIVE_CAP_ENABLED
 
@@ -87,19 +87,19 @@ Any TC for which this field is **FALSE** does not participate in QoS rate limiti
 
 ### -field TcTransmitBandwidthCapTable
 
-An array of ULONG elements that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if **TransmitCapEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
+An array of ULONG elements that specify transmit bandwidth caps for each TC, in Mbps. Elements are only valid if the `NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED` flag is set and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
 
 The NIC should queue any transmit packets on this SQ for a given TC if they exceed the rate specified in this table.
 
 ### -field TcTransmitBandwidthReservationTable
 
-An array of ULONG elements that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if **TransmitReservationEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
+An array of ULONG elements that specify transmit bandwidth reservations for each TC, in relative values from **0** – **ULONG_MAX**. Elements are only valid if the `NDIS_QOS_SQ_TRANSMIT_RESERVATION_ENABLED` flag is set and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** means that transmit packets on this SQ/TC share the default SQ’s reservation for that TC.
 
 The NIC should queue any transmit packets on this SQ for a given TC if other SQs require bandwidth to meet their reservation for this TC.
 
 ### -field TcReceiveBandwidthCapTable
 
-An array of ULONG elements that specify receive bandwidth caps for each TC, in Mbps. Elements are only valid if **ReceiveCapEnabled** is **TRUE** and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
+An array of ULONG elements that specify receive bandwidth caps for each TC, in Mbps. Elements are only valid if if the `NDIS_QOS_SQ_RECEIVE_CAP_ENABLED` flag is set and their corresponding element in **TcEnabledTable** is **TRUE**. An element with a value of **0** has no cap.
 
 This is an optional feature for enabling receive bandwidth capping. NICs that advertise receive cap support should drop any receive packet after a given TC on this SQ has exceeded the rate specified in this array (based on the NIC’s scheduling implementation).  
 
