@@ -39,17 +39,30 @@ dev_langs:
 
 ## -description
 
+Provides the permissions for hardware access for a common buffer being created
+when using a [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-_dma_common_buffer_extended_configuration.md) of type *CommonBufferConfigTypeHardwareAccessPermissions*.
+
 ## -enum-fields
 
-### -field CommonBufferHardwareAccessReadOnly
+### -fields CommonBufferHardwareAccessReadOnly
+
+Hardware will only have read access to the common buffer being created.
 
 ### -field CommonBufferHardwareAccessWriteOnly
 
+Hardware will only have write access to the common buffer being created.
+
 ### -field CommonBufferHardwareAccessReadWrite
+
+Hardware will have both read and write access to the common buffer being created.
 
 ### -field CommonBufferHardwareAccessMax
 
-## -remarks
+The number of common buffer hardware access values for this enumeration type that represent actual access types.
 
 ## -see-also
+
+[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-_dma_common_buffer_extended_configuration.md)
+
+[PCREATE_COMMON_BUFFER_FROM_MDL](nc-wdm-pcreate-common-buffer-from-mdl.md)
 
