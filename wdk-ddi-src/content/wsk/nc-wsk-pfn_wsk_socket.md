@@ -66,7 +66,7 @@ A pointer to a
 [in]
 The address family for the socket that is being created. For more information about supported
      address families, see 
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -param SocketType 
 
@@ -95,14 +95,14 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 For more information about the socket types that are supported for each supported address family, see     
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -param Protocol 
 
 [in]
 The transport protocol for the socket that is being created. For more information about the
      protocols that are supported for each supported address family, see 
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -param Flags 
 
