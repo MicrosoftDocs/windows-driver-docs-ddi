@@ -1,7 +1,7 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETVERSION
 title: IDARG_OUT_GETVERSION
-ms.date: 09/24/2020
+ms.date: 10/20/2020
 ms.topic: language-reference
 tech.root: display
 ms.assetid: 038cc69c-a8e7-4f09-ad3a-82c6f1f819c7
@@ -49,6 +49,7 @@ ULONG value that identifies the IddCx version that the driver is running on. **I
 
 | Value                             | Windows 10 Version |
 |-----------------------------------|------------------- |
+| IDDCX_VERSION_MANGANESE (0x1600)  | 20H2               |
 | IDDCX_VERSION_VIBRAINIUM (0x1500) | 2004               |
 | IDDCX_VERSION_19H1 (0x1400)       | 1903               |
 | IDDCX_VERSION_RS5 (0x1380)        | 1809               |
