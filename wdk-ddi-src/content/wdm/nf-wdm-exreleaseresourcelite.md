@@ -62,7 +62,7 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a>
+<a href="/previous-versions/ff544351(v=vs.85)">ExAcquireResourceExclusiveLite</a>
 
 
 

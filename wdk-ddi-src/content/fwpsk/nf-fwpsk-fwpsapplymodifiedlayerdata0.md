@@ -58,7 +58,7 @@ The **FwpsApplyModifiedLayerData0** function applies changes to layer-specific d
 
 [in]
 The classification handle that identifies the callout driver's processing at the current layer.
-This handle is obtained by calling [FwpsAcquireClassifyHandle0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0).
+This handle is obtained by calling [FwpsAcquireClassifyHandle0](./nf-fwpsk-fwpsacquireclassifyhandle0.md).
 
 ### -param modifiedLayerData 
 
@@ -100,4 +100,4 @@ The options to use with this function call. This flag can have the following val
 
 
 
-[classifyFn](/windows-hardware/drivers/ddi/_netvista/)
+[classifyFn](../_netvista/index.md)

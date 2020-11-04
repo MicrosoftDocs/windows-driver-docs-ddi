@@ -61,7 +61,7 @@ Specifies the number of entries in the array pointed to by **MembersList**.
 
 ### -field MembersList
 
-Points to an array of [KSPROPERTY_MEMBERSLIST](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist) structures. Each entry specifies a list of possible values or sets of values that the property may assume.
+Points to an array of [KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md) structures. Each entry specifies a list of possible values or sets of values that the property may assume.
 
 ## -remarks
 
@@ -83,7 +83,7 @@ Possible values for PropTypeSet.Id in streaming media (audio/camera) include:
 | VT_UI4 | An unsigned 4-byte integer. |
 | VT_UI8 | An unsigned 8-byte integer. |
 
-For more information, see [VARENUM enumeration (ks.h)](/windows-hardware/drivers/ddi/ks/ne-ks-varenum).
+For more information, see [VARENUM enumeration (ks.h)](./ne-ks-varenum.md).
 
 A driver can specify a pointer to a KSPROPERTY_VALUES structure in the relevant KSPROPERTY_ITEM for a property.
 
@@ -93,8 +93,8 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 
 [KSEVENT](/previous-versions/ff561744(v=vs.85))
 
-[KSPROPERTY_DESCRIPTION](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description)
+[KSPROPERTY_DESCRIPTION](./ns-ks-ksproperty_description.md)
 
-[KSPROPERTY_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
+[KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
 
-[KSPROPERTY_MEMBERSLIST](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist)
+[KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md)

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>ObReferenceObjectWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="https://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>.
+The <b>ObReferenceObjectWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="/windows-hardware/drivers/debugger/object-reference-tracing">object reference tracing</a>.
 
 ## -parameters
 

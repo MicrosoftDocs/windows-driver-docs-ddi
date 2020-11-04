@@ -97,7 +97,7 @@ A pointer to a discretionary access control list (DACL).
 A security descriptor includes information that specifies the following components of an object's security: 
 * An owner [SID](ns-ntifs-_sid.md)
 * A primary group SID
-* A discretionary [ACL](/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl) (DACL) 
+* A discretionary [ACL](../wdm/ns-wdm-_acl.md) (DACL) 
 * A system ACL (SACL)
 
 ## -see-also

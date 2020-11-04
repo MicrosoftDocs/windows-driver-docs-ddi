@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-This enumeration indicates the type of an event and is used by the [GNSS_EVENT](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event) structure.
+This enumeration indicates the type of an event and is used by the [GNSS_EVENT](./ns-gnssdriver-gnss_event.md) structure.
 
 The GNSS driver utilizes events to send solicited and unsolicited information to the GNSS adapter. Events can occur for various reasons, such as a driver request to the GNSS adapter for the injection of assistance data or for informational purposes.
 
@@ -53,15 +53,15 @@ The GNSS driver utilizes events to send solicited and unsolicited information to
 
 ### -field GNSS_Event_FixAvailable
 
-This event is raised as a result of a prior [IOCTL_GNSS_GET_FIXDATA](/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_get_fixdata) call from the adapter. The GNSS driver raises this event when a fix is available for the adapter to collect. The fix data is included in the event data in form of [GNSS_FIXDATA](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_fixdata) structure.
+This event is raised as a result of a prior [IOCTL_GNSS_GET_FIXDATA](./ni-gnssdriver-ioctl_gnss_get_fixdata.md) call from the adapter. The GNSS driver raises this event when a fix is available for the adapter to collect. The fix data is included in the event data in form of [GNSS_FIXDATA](./ns-gnssdriver-gnss_fixdata.md) structure.
 
 ### -field GNSS_Event_RequireAgnss
 
-This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_AGNSS](/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_listen_agnss) call from the adapter. The driver raises this event whenever it needs injection of certain AGNSS assistance data. The specifics of the injection are available in the event data in form of [GNSS_AGNSS_REQUEST_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_agnss_request_param) structure.
+This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_AGNSS](./ni-gnssdriver-ioctl_gnss_listen_agnss.md) call from the adapter. The driver raises this event whenever it needs injection of certain AGNSS assistance data. The specifics of the injection are available in the event data in form of [GNSS_AGNSS_REQUEST_PARAM](./ns-gnssdriver-gnss_agnss_request_param.md) structure.
 
 ### -field GNSS_Event_Error
 
-This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_ERROR](/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_listen_error) call from the adapter. The driver raises this event when an out-of-band error occurs that the adapter needs to be aware of. The error details are available in the event data in form of [GNSS_ERRORINFO](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_errorinfo) structure. The information can be used by Microsoft to capture telemetry data about what type of errors are seen in the field by different devices, and the data could be shared with OEMs/IHVs to help understand common issues and increase the quality of GNSS engine implementations.
+This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_ERROR](./ni-gnssdriver-ioctl_gnss_listen_error.md) call from the adapter. The driver raises this event when an out-of-band error occurs that the adapter needs to be aware of. The error details are available in the event data in form of [GNSS_ERRORINFO](./ns-gnssdriver-gnss_errorinfo.md) structure. The information can be used by Microsoft to capture telemetry data about what type of errors are seen in the field by different devices, and the data could be shared with OEMs/IHVs to help understand common issues and increase the quality of GNSS engine implementations.
 
 ### -field GNSS_Event_NiRequest
 
@@ -69,7 +69,7 @@ This event is raised when the driver wants to notify an NI request. The HLOS wil
 
 ### -field GNSS_Event_NmeaData
 
-This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_NMEA](/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_listen_nmea) call, if NMEA logging is enabled in the device. The GNSS driver raises this event when NMEA data is ready to be read by the calling client. The calling client will typically be a test tool. The NMEA sentences data is included in the event data in form of [GNSS_NMEA_DATA](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_nmea_data) structure.
+This event is raised as a result of a prior [IOCTL_GNSS_LISTEN_NMEA](./ni-gnssdriver-ioctl_gnss_listen_nmea.md) call, if NMEA logging is enabled in the device. The GNSS driver raises this event when NMEA data is ready to be read by the calling client. The calling client will typically be a test tool. The NMEA sentences data is included in the event data in form of [GNSS_NMEA_DATA](./ns-gnssdriver-gnss_nmea_data.md) structure.
 
 ### -field GNSS_Event_GeofenceAlertData
 

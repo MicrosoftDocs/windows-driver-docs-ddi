@@ -74,7 +74,7 @@ No specific access rights are required to query this information. Thus this info
 
 This information can be set in either of the following ways:
 
-* Call [**FltSetVolumeInformation**](../fltkernel/nf-fltkernel-fltsetvolumeinformation.md) or [**ZwSetVolumeInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetvolumeinformationfile
+* Call [**FltSetVolumeInformation**](../fltkernel/nf-fltkernel-fltsetvolumeinformation.md) or [**ZwSetVolumeInformationFile**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetvolumeinformationfile
 ), passing FileFsObjectIdInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_FS_OBJECTID_INFORMATION-structured buffer as the value of *FileInformation*.
 * Create an IRP with major function code IRP_MJ_SET_VOLUME_INFORMATION.
 
@@ -105,5 +105,5 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 [**ZwQueryVolumeInformationFile**](./nf-ntddk-zwqueryvolumeinformationfile.md
 )
 
-[**ZwSetVolumeInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetvolumeinformationfile
+[**ZwSetVolumeInformationFile**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetvolumeinformationfile
 )

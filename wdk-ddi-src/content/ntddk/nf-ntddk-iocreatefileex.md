@@ -333,7 +333,7 @@ The *CreateOptions* flag, FILE_RESERVE_OPFILTER, allows an application to reques
 
 Step three makes this practical only for filter oplocks. The handle opened in step 3 can have a DesiredAccess that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a filter oplock. However, any DesiredAccess greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a level 1 or batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
 
-For create requests originating in user mode, if the driver sets IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFileEx** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes).
+For create requests originating in user mode, if the driver sets IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFileEx** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes).
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 

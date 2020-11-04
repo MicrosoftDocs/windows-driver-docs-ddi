@@ -92,4 +92,4 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to <b>SeF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
+<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
