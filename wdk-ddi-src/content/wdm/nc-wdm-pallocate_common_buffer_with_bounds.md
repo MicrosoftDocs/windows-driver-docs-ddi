@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
-description: 
+description:
 ms.assetid: c376a156-c7e2-4feb-aa21-4fbce4fe72ed
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
@@ -44,6 +44,7 @@ api_name:
 
 This callback function allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address.
 
+
 ## -parameters
 
 ### -param DmaAdapter
@@ -65,9 +66,10 @@ This callback function allocates the memory for a common buffer and maps it so t
 ### -param Flags
 
 [in] The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
-| Flag                            | Meaning                                                                                                                                                              |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DOMAIN_COMMON_BUFFER_LARGE_PAGE | The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful. |
+
+|Flag|Meaning|
+|--- |--- |
+|**DOMAIN_COMMON_BUFFER_LARGE_PAGE**|The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.|
 
 ### -param CacheType
 
@@ -77,7 +79,7 @@ This callback function allocates the memory for a common buffer and maps it so t
 
 [in] The preferred NUMA node from which the memory is to be allocated. If N is the number of NUMA nodes in a multiprocessor system, *PreferredNode* is a number in the range 0 to N–1. For a one-processor system or a non-NUMA multiprocessor system, set *PreferredNode* to zero.
 
-### -param LogicalAddress 
+### -param LogicalAddress
 
 [out] A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as [**MmGetPhysicalAddress**](../ntddk/nf-ntddk-mmgetphysicaladdress.md).
 
