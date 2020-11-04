@@ -43,7 +43,11 @@ dev_langs:
 
 ## -description
 
+**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY** is not currently used and has been updated to **NDIS_QOS_SQ_ARRAY** for NDIS 6.45 and later.
+
 The **NDIS_QOS_SQ_ARRAY** structure is used to enumerate NDIS Quality of Service (QoS) Scheduler Queues (SQs) for parameters and stats. This structure is returned in the OID query requests [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs) and [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats).
+
+To view the header definition for **NDIS_QOS_SQ_ARRAY**, see [Remarks](#remarks).
 
 <!--## -syntax -->
 
@@ -80,15 +84,31 @@ The byte offset from the beginning of this structure that marks the beginning of
 |[OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs)     |[**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md)       |
 |[OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats)|[**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md)   |
 
+### -field SqParamsArrayOffset
+
+This field is not used in **NDIS_QOS_SQ_ARRAY**.
+
 ### -field SqArrayNumElements
 
 The number of elements in this array specified by **SQArrayOffset**.
+
+### -field SqParamsArrayNumElements
+
+This field is not used in **NDIS_QOS_SQ_ARRAY**.
 
 ### -field SqArrayElementSize
 
 The size of each element in this array.  
 
+### -field SqParamsArrayElementSize
+
+This field is not used in **NDIS_QOS_SQ_ARRAY**.
+
 ## -remarks
+
+The **NDIS_QOS_SQ_ARRAY** structure is used to enumerate QoS SQs for parameters and stats.
+
+### Syntax
 
 ```cpp
 typedef struct _NDIS_QOS_SQ_ARRAY {
