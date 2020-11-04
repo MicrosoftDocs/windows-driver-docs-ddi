@@ -105,7 +105,7 @@ This is an optional feature for enabling receive bandwidth capping. NICs that ad
 
 ### -field CrossTcTransmitBandwidthCap
 
-A ULONG value that specifies the transmit bandwidth cap for traffic across TCs whose corresponding element in **TcEnabledTable** is **TRUE**.
+A ULONG value that specifies the transmit bandwidth cap for traffic across TCs whose corresponding element in **TcEnabledTable** is **TRUE**, if the `NDIS_QOS_SQ_TRANSMIT_CAP_ENABLED` flag is set.
 
 ### -field MaxNumSqInputs
 
