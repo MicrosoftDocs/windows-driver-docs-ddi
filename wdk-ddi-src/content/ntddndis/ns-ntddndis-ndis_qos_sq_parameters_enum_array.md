@@ -65,18 +65,15 @@ typedef struct _NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY {
     NDIS_QOS_SQ_ID                     FirstSqId;
     ULONG                              MaxSqsToReturn;
 #if (NDIS_SUPPORT_NDIS684)
-    union
-    {
+    union {
         ULONG                          SqArrayOffset;
         ULONG                          SqParamsArrayOffset;
     };
-    union
-    {
+    union {
         ULONG                          SqArrayNumElements;
         ULONG                          SqParamsArrayNumElements;
     };
-    union
-    {
+    union {
         ULONG                          SqArrayElementSize;
         ULONG                          SqParamsArrayElementSize;
     };
