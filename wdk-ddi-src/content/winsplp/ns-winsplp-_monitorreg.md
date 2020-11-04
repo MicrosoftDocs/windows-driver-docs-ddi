@@ -5,7 +5,7 @@ description: The MONITORREG structure supplies print monitors with the address o
 old-location: print\monitorreg.htm
 tech.root: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
-ms.date: 04/20/2018
+ms.date: 11/04/2020
 keywords: ["MONITORREG structure"]
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
 req.header: winsplp.h
@@ -46,7 +46,6 @@ api_name:
 ---
 
 # _MONITORREG structure
-
 
 ## -description
 
@@ -104,10 +103,13 @@ The MONITORREG structure's address is supplied in a [MONITORINIT](./ns-winsplp-_
 
 When [storing port configuration information](/windows-hardware/drivers/print/storing-port-configuration-information), print monitors must not explicitly call either the Win32 registry API or the cluster registry API.
 
+> [!NOTE]
+> The spooler contains a copy of the registry. Do not use the Win32 registry API to get the value actually used by the spooler. Use the spooler registry functions listed below whose pointers are contained in the MONITORREG structure.
+
 Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
 
 | Spooler Registry Function | Equivalent Cluster Registry Function |
-| --- | --- |
+|--|--|
 | CreateKey | ClusterRegCreateKey |
 | OpenKey | ClusterRegOpenKey |
 | CloseKey | ClusterRegCloseKey |
