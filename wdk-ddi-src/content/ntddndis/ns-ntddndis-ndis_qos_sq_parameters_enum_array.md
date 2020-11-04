@@ -169,7 +169,7 @@ typedef struct _NDIS_QOS_SQ_ARRAY {
 } NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY;
 ```
 
-The [member](#-struct-fields) descriptions above explain how to set the **NDIS_QOS_SQ_ARRAY** fields.
+The [member](struct-fields) descriptions above explain how to set the **NDIS_QOS_SQ_ARRAY** fields.
 
 **NDIS_QOS_SQ_ARRAY** is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), which enumerates the SQs created on a NIC switch 
 
