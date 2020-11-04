@@ -199,7 +199,7 @@ Step 3 makes this practical only for filter oplocks. The handle opened in step 
 
 The *Options* IO_NO_PARAMETER_CHECKING flag can be useful if a driver is issuing a kernel-mode create request on behalf of an operation initiated by a user-mode application. Because the request occurs within a user-mode context, the I/O manager, by default, probes the supplied parameter values, which can cause an access violation if the parameters are kernel-mode addresses. This flag enables the caller to override this default behavior and avoid the access violation.
 
-For create requests originating in user mode, if the driver sets both IO_NO_PARAMETER_CHECKING and IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFile** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes).
+For create requests originating in user mode, if the driver sets both IO_NO_PARAMETER_CHECKING and IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFile** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes).
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
@@ -219,7 +219,7 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) (**DesiredAccess** parameter)
 
-[**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes)
+[**OBJECT_ATTRIBUTES**](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes)
 
 [**ZwClose**](../ntifs/nf-ntifs-ntclose.md)
 

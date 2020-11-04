@@ -100,7 +100,7 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
+<a href="/previous-versions/ff554795(v=vs.85)">SecLookupAccountName</a>
 
 
 

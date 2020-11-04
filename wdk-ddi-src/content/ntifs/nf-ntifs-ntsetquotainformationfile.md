@@ -125,7 +125,7 @@ A call to <b>NtSetQuotaInformationFile</b> will result in an <a href="/windows-h
 
 If the underlying file system does not support quota information (FAT and CDFS file systems, for example), <b>NtSetQuotaInformationFile</b> will fail returning STATUS_INVALID_DEVICE_REQUEST.
 
-<div class="alert"><b>Note</b>  If the call to the <b>NtSetQuotaInformationFile</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff567105">NtSetQuotaInformationFile</a>" instead of "<b>ZwSetQuotaInformationFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtSetQuotaInformationFile</b> function occurs in user mode, you should use the name "<a href="/previous-versions/ff567105(v=vs.85)">NtSetQuotaInformationFile</a>" instead of "<b>ZwSetQuotaInformationFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

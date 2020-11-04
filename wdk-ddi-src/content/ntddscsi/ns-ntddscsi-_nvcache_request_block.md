@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The **NVCACHE_REQUEST_BLOCK** structure is used in conjunction with the [**IOCTL_SCSI_MINIPORT**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport) request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology). This topic defines the general structure for both input data and output data for a call made to the NV Cache Manager. A caller should fill all required fields before calling [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) or [**IoBuildDeviceIoControlRequest**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest). The miniport driver must do the same after the requested function is completed, and before it returns.
+The **NVCACHE_REQUEST_BLOCK** structure is used in conjunction with the [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md) request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology). This topic defines the general structure for both input data and output data for a call made to the NV Cache Manager. A caller should fill all required fields before calling [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) or [**IoBuildDeviceIoControlRequest**](../wdm/nf-wdm-iobuilddeviceiocontrolrequest.md). The miniport driver must do the same after the requested function is completed, and before it returns.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Specifies the operation to be performed, which can be one of the following value
 
 | Value | Meaning |
 | ----- | ------- |
-| NRB_FUNCTION_NVCACHE_INFO | Get NV Cache Manager feature support information from the device. Upon the successful completion of this function, the required data fields are returned to the caller. The return data structure is [**NV_FEATURE_PARAMETER**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nv_feature_parameter). |
+| NRB_FUNCTION_NVCACHE_INFO | Get NV Cache Manager feature support information from the device. Upon the successful completion of this function, the required data fields are returned to the caller. The return data structure is [**NV_FEATURE_PARAMETER**](./ns-ntddscsi-_nv_feature_parameter.md). |
 | NRB_FUNCTION_SPINDLE_STATUS | Determine if the device is currently spinning up or spinning down. For an ATA device, a Check Power Mode command is required to obtain the device's spindle status. For a SCSI device, a Mode Sense command can be used to query the device's current power mode. |
 | NRB_FUNCTION_NVCACHE_POWER_MODE_SET | Turn on the NV Cache Manager power mode. |
 | NRB_FUNCTION_NVCACHE_POWER_MODE_RESET | Turn off the NV Cache Manager power mode. |
@@ -119,6 +119,6 @@ For more information on function behavior, see section 7.20 of the ATA8-ACS spec
 
 ## -see-also
 
-[**IOCTL_SCSI_MINIPORT**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport)
+[**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md)
 
-[**IOCTL_SCSI_MINIPORT_NVCACHE**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache)
+[**IOCTL_SCSI_MINIPORT_NVCACHE**](./ni-ntddscsi-ioctl_scsi_miniport_nvcache.md)

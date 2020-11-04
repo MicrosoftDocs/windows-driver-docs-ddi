@@ -82,9 +82,9 @@ Opens a Simple Peripheral Bus (SPB) resource. All input parameters are supplied 
 | **DeviceHandle** | Handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to the [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md) function. |
 | **SpbReourceId** | The resource ID of the SPB resource hub. |
 | **SpbResourceSubName** | Optional pointer to the Unicode SPB resource subname. |
-| **DesiredAccess** | An [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the SPB resource. For more information, see the *DesiredAccess* parameter of the [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) function. |
-| **ShareAccess** | Type of share access for the file. For more information, see the *ShareAccess* parameter of [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). |
-| **OpenOptions** | The options to apply when opening the SPB resource. For more information, see the *CreateOptions* parameter of [**ZwCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). |
+| **DesiredAccess** | An [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the SPB resource. For more information, see the *DesiredAccess* parameter of the [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) function. |
+| **ShareAccess** | Type of share access for the file. For more information, see the *ShareAccess* parameter of [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md). |
+| **OpenOptions** | The options to apply when opening the SPB resource. For more information, see the *CreateOptions* parameter of [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md). |
 | **SpbResource** | A pointer to a buffer that is used to return the handle to the SPB resource. |
 
 ### -field CloseSpbResource
@@ -123,7 +123,7 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 | **Buffer** | A pointer to a buffer that receives the data read from the specified SPB resource. |
 | **ByteOffset** | An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the read operation will begin. If an attempt is made to read beyond the end of the file, **ReadSpbResource** returns an error. |
 | **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the read operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
-| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested read operation. The  **Information** member of the **IO_STATUS_BLOCK** structure receives the number of bytes actually read from the SPB resource. |
+| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested read operation. The  **Information** member of the **IO_STATUS_BLOCK** structure receives the number of bytes actually read from the SPB resource. |
 
 ### -field WriteSpbResource
 
@@ -150,7 +150,7 @@ It is also possible to cause a write operation to start at the current end of fi
 | **Buffer** | A pointer to a caller-allocated buffer that contains the data to be written to the specified SPB resource. |
 | **ByteOffset** | An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the write operation will begin. If the *Length* and *ByteOffset* parameters specify a write operation past the current end-of-file mark, **WriteSpbResource** automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero. |
 | **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the write operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
-| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested write operation. The **Information** member of the  **IO_STATUS_BLOCK** structure receives the number of bytes actually written to the SPB resource.
+| **IoStatusBlock** | A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested write operation. The **Information** member of the  **IO_STATUS_BLOCK** structure receives the number of bytes actually written to the SPB resource.
 
 ### -field SpbResourceIoControl
 
@@ -168,7 +168,7 @@ If the caller opened the file for asynchronous I/O (with neither **FILE_SYNCHRON
 | **OutBufferSize** | The size, in bytes, of the buffer pointed to by the *OutputBuffer* parameter. This value is ignored if *OutputBuffer* is **NULL**. |
 | **OutputBuffer** | A pointer to a caller-allocated output buffer in which information is returned from the target device. If the *IoControlCode* parameter  specifies an operation that does not produce output data, this pointer can be **NULL**. |
 | **EventHandle** | An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the requested operation is completed and the given event is set to the **Signaled** state. This parameter can be **NULL**. |
-| **IoStatusBlock** | A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the *OutputBuffer* parameter is returned in the **Information** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure. |
+| **IoStatusBlock** | A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the *OutputBuffer* parameter is returned in the **Information** member of the [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure. |
 
 ## -remarks
 

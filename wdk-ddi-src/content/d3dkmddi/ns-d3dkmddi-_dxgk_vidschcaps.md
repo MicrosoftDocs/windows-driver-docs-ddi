@@ -53,7 +53,7 @@ The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) sche
 
 ### -field MultiEngineAware
 
-A UINT value that specifies whether the driver supports the creation and destruction of a device context (through the [**DxgkDdiCreateContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext) and [**DxgkDdiDestroyContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext) functions) and the use of a device context (through the [**DxgkDdiPresent**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present) and [**DxgkDdiRender**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render) functions). If the driver does not support context creation, for every call to the driver that would pass a handle to a context, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device.
+A UINT value that specifies whether the driver supports the creation and destruction of a device context (through the [**DxgkDdiCreateContext**](./nc-d3dkmddi-dxgkddi_createcontext.md) and [**DxgkDdiDestroyContext**](./nc-d3dkmddi-dxgkddi_destroycontext.md) functions) and the use of a device context (through the [**DxgkDdiPresent**](./nc-d3dkmddi-dxgkddi_present.md) and [**DxgkDdiRender**](./nc-d3dkmddi-dxgkddi_render.md) functions). If the driver does not support context creation, for every call to the driver that would pass a handle to a context, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device.
 
 Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
 
@@ -85,14 +85,14 @@ Supported starting with Windows 8.
 
 ### -field NoDmaPatching
 
-A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's [**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch) function is called to assign, or *patch*, physical addresses to each part of the DMA buffer.
+A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's [**DxgkDdiPatch**](./nc-d3dkmddi-dxgkddi_patch.md) function is called to assign, or *patch*, physical addresses to each part of the DMA buffer.
 
 > [!NOTE]
 > Display devices that support virtual addresses can reprogram a virtual address to a new video memory location without having to patch the value of the DMA buffer address. For these types of display devices, the driver should set **NoDmaPatching** to 1.
 
 If **NoDmaPatching** is set to 1 (**TRUE**), the driver disables leak detection, and the behavior of DMA buffer splitting is the same as in Windows 7.
 
-If **NoDmaPatching** is set to 0 (**FALSE**), the driver enables leak detection for patched DMA buffer addresses. The operating system performs leak detection before it calls the driver's [**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch) function.
+If **NoDmaPatching** is set to 0 (**FALSE**), the driver enables leak detection for patched DMA buffer addresses. The operating system performs leak detection before it calls the driver's [**DxgkDdiPatch**](./nc-d3dkmddi-dxgkddi_patch.md) function.
 
 > [!NOTE]
 > If **NoDmaPatching** is set to 1, the **PreemptionAware** and **MultiEngineAware** members  must also be set to a value of 1. If **NoDmaPatching** is set to 1 but **PreemptionAware** or **MultiEngineAware** are set to zero, the operating system will halt the driver initialization process and return a failure code.
@@ -103,7 +103,7 @@ Supported starting with Windows 8.
 
 ### -field CancelCommandAware
 
-A UINT value that specifies whether the driver supports cleaning up internal resources (through the [**DxgkDdiCancelCommand**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand) function) after a command is removed from the hardware queue.
+A UINT value that specifies whether the driver supports cleaning up internal resources (through the [**DxgkDdiCancelCommand**](./nc-d3dkmddi-dxgkddi_cancelcommand.md) function) after a command is removed from the hardware queue.
 
 If **CancelCommandAware** is set to 1 (**TRUE**), the driver supports cleaning up resources associated with a canceled DMA packet. If **CancelCommandAware** is set to zero (**FALSE**), the driver does not support cleaning up resources.
 
@@ -139,16 +139,16 @@ A member in the union that **DXGK_VIDSCHCAPS** contains that can hold a 32-bit v
 
 ## -see-also
 
-[**DXGK_DRIVERCAPS**](/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps)
+[**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)
 
-[**DxgkDdiCancelCommand**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand)
+[**DxgkDdiCancelCommand**](./nc-d3dkmddi-dxgkddi_cancelcommand.md)
 
-[**DxgkDdiCreateContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext)
+[**DxgkDdiCreateContext**](./nc-d3dkmddi-dxgkddi_createcontext.md)
 
-[**DxgkDdiDestroyContext**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext)
+[**DxgkDdiDestroyContext**](./nc-d3dkmddi-dxgkddi_destroycontext.md)
 
-[**DxgkDdiPatch**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch)
+[**DxgkDdiPatch**](./nc-d3dkmddi-dxgkddi_patch.md)
 
-[**DxgkDdiPresent**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present)
+[**DxgkDdiPresent**](./nc-d3dkmddi-dxgkddi_present.md)
 
-[**DxgkDdiRender**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render)
+[**DxgkDdiRender**](./nc-d3dkmddi-dxgkddi_render.md)

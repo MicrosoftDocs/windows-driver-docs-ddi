@@ -52,7 +52,7 @@ The SetState method changes the transport state of the audio stream.
 
 [in]
 
-Specifies the new state of the stream. This parameter is a [KSSTATE](/windows-hardware/drivers/ddi/ks/ne-ks-ksstate) enumeration value.
+Specifies the new state of the stream. This parameter is a [KSSTATE](../ks/ne-ks-ksstate.md) enumeration value.
 
 ## -returns
 
@@ -76,4 +76,4 @@ The [IMiniportWaveRT::NewStream](nf-portcls-iminiportwavert-newstream.md) method
 
 [IMiniportWaveRT::NewStream](nf-portcls-iminiportwavert-newstream.md)
 
-[KSSTATE](/windows-hardware/drivers/ddi/ks/ne-ks-ksstate)
+[KSSTATE](../ks/ne-ks-ksstate.md)

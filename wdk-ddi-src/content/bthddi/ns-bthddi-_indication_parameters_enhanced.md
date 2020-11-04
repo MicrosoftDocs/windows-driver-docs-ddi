@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced">enhanced L2CAP Callback Function</a>
+The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced">enhanced L2CAP Callback Function</a>
 
 ## -struct-fields
 
