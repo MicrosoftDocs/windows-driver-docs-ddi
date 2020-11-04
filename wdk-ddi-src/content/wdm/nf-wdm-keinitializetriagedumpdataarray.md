@@ -66,6 +66,4 @@ This function returns NTSTATUS.
 
 ## -see-also
 
-[**KeInitializeTriageDumpDataArray**]()
-
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)
