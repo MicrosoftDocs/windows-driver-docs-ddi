@@ -49,7 +49,53 @@ The **NDIS_QOS_SQ_ARRAY** structure is used to enumerate NDIS Quality of Service
 
 To view the header definition for **NDIS_QOS_SQ_ARRAY**, see [Remarks](#remarks).
 
-<!--## -syntax -->
+## -syntax
+
+```cpp
+#define NDIS_QOS_SQ_PARAMETERS_ARRAY_REVISION_1        1
+
+#if (NDIS_SUPPORT_NDIS684)
+#define NDIS_QOS_SQ_ARRAY_REVISION_1                   1
+#endif // (NDIS_SUPPORT_NDIS684)
+
+typedef struct _NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY {
+    NDIS_OBJECT_HEADER                 Header;
+    ULONG                              Flags;
+    NDIS_QOS_SQ_TYPE                   SqType;
+    NDIS_QOS_SQ_ID                     FirstSqId;
+    ULONG                              MaxSqsToReturn;
+#if (NDIS_SUPPORT_NDIS684)
+    union
+    {
+        ULONG                          SqArrayOffset;
+        ULONG                          SqParamsArrayOffset;
+    };
+    union
+    {
+        ULONG                          SqArrayNumElements;
+        ULONG                          SqParamsArrayNumElements;
+    };
+    union
+    {
+        ULONG                          SqArrayElementSize;
+        ULONG                          SqParamsArrayElementSize;
+    };
+#else
+    ULONG                              SqParamsArrayOffset;
+    ULONG                              SqParamsArrayNumElements;
+    ULONG                              SqParamsArrayElementSize;
+#endif // (NDIS_SUPPORT_NDIS684)
+} NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, *PNDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY;
+
+#if (NDIS_SUPPORT_NDIS684)
+typedef struct _NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY;
+#define NDIS_SIZEOF_QOS_SQ_ARRAY_REVISION_1                     \
+    RTL_SIZEOF_THROUGH_FIELD(NDIS_QOS_SQ_ARRAY, SqArrayElementSize)
+#endif // (NDIS_SUPPORT_NDIS684)
+
+#define NDIS_SIZEOF_QOS_SQ_PARAMETERS_ENUM_ARRAY_REVISION_1     \
+    RTL_SIZEOF_THROUGH_FIELD(NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, SqParamsArrayElementSize)
+```
 
 ## -struct-fields
 
@@ -122,6 +168,8 @@ typedef struct _NDIS_QOS_SQ_ARRAY {
   ULONG              SqArrayElementSize;
 } NDIS_QOS_SQ_ARRAY, *PNDIS_QOS_SQ_ARRAY;
 ```
+
+The [member](#-struct-fields) descriptions above explain how to set the **NDIS_QOS_SQ_ARRAY** fields.
 
 **NDIS_QOS_SQ_ARRAY** is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), which enumerates the SQs created on a NIC switch 
 
