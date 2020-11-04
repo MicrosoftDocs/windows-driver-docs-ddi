@@ -116,7 +116,7 @@ This member is the first element in an array of one or more PO_FX_COMPONENT_V2 e
 
 ## -remarks
 
-To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.  To use PoFx but not DFx, register with PoFx using either [PO_FX_DEVICE_V2 structure](./ns-wdm-_po_fx_device_v2.md) or [PO_FX_DEVICE_V3 structure]().
+To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.  To use PoFx but not DFx, register with PoFx using either [PO_FX_DEVICE_V2 structure](./ns-wdm-_po_fx_device_v2.md) or PO_FX_DEVICE_V3 structure.
 
 Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
 
