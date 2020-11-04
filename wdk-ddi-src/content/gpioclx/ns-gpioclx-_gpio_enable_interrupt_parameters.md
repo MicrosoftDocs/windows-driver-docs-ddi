@@ -55,11 +55,11 @@ The **GPIO_ENABLE_INTERRUPT_PARAMETERS** structure specifies a general-purpose I
 
 ### -field BankId
 
-The identifier for the bank that contains the GPIO pin. If M is the number of banks in the GPIO controller, **BankId** is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the [CLIENT_QueryControllerBasicInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information) event callback function. For more information, see Remarks in [CLIENT_CONTROLLER_BASIC_INFORMATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information).
+The identifier for the bank that contains the GPIO pin. If M is the number of banks in the GPIO controller, **BankId** is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the [CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md) event callback function. For more information, see Remarks in [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md).
 
 ### -field PinNumber
 
-The bank-relative pin number. If N is the number pins in this bank, *PinNumber* is an integer in the range 0 to N–1. GpioClx previously obtained the number of pins in each bank from the *CLIENT_QueryControllerBasicInformation* event callback function. For more information, see the description of the **NumberOfPinsPerBank** member in [CLIENT_CONTROLLER_BASIC_INFORMATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information).
+The bank-relative pin number. If N is the number pins in this bank, *PinNumber* is an integer in the range 0 to N–1. GpioClx previously obtained the number of pins in each bank from the *CLIENT_QueryControllerBasicInformation* event callback function. For more information, see the description of the **NumberOfPinsPerBank** member in [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md).
 
 ### -field Flags
 
@@ -73,7 +73,7 @@ Whether the interrupt request from this GPIO pin is level-sensitive or edge-trig
 
 - **Latched**
 
-For more information, see [KINTERRUPT_MODE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode).
+For more information, see [KINTERRUPT_MODE](../wdm/ne-wdm-_kinterrupt_mode.md).
 
 ### -field Polarity
 
@@ -89,7 +89,7 @@ Whether the interrupt line from this GPIO pin is active-high or active-low. This
 
 - **InterruptActiveBoth**
 
-For more information, see [KINTERRUPT_POLARITY](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity).
+For more information, see [KINTERRUPT_POLARITY](../wdm/ne-wdm-_kinterrupt_polarity.md).
 
 ### -field PullConfiguration
 
@@ -103,7 +103,7 @@ Whether this GPIO pin is pulled up or pulled down. This member is typically set 
 
 - **GPIO_PIN_PULL_CONFIGURATION_PULLNONE**
 
-If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see [GPIO_PIN_PULL_CONFIGURATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters).
+If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see [GPIO_PIN_PULL_CONFIGURATION]().
 
 ### -field DebounceTimeout
 
@@ -119,7 +119,7 @@ The size, in bytes, of the data buffer that is pointed to by the **VendorData** 
 
 ## -remarks
 
-The [CLIENT_EnableInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_enable_interrupt) and [CLIENT_UnmaskInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_unmask_interrupt) event callback functions use a **GPIO_ENABLE_INTERRUPT_PARAMETERS** structure to specify a GPIO pin and to describe the interrupt attributes of this pin.
+The [CLIENT_EnableInterrupt](./nc-gpioclx-gpio_client_enable_interrupt.md) and [CLIENT_UnmaskInterrupt](./nc-gpioclx-gpio_client_unmask_interrupt.md) event callback functions use a **GPIO_ENABLE_INTERRUPT_PARAMETERS** structure to specify a GPIO pin and to describe the interrupt attributes of this pin.
 
 The **GPIO_PIN_PULL_CONFIGURATION_*XXX*** constants specify whether a general-purpose I/O (GPIO) pin is pulled up or pulled down.
 
@@ -136,14 +136,14 @@ If none of the system-defined **GPIO_PIN_PULL_CONFIGURATION_*XXX*** constants ap
 
 ## -see-also
 
-[CLIENT_CONTROLLER_BASIC_INFORMATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information)
+[CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md)
 
-[CLIENT_EnableInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_enable_interrupt)
+[CLIENT_EnableInterrupt](./nc-gpioclx-gpio_client_enable_interrupt.md)
 
-[CLIENT_QueryControllerBasicInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information)
+[CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md)
 
-[CLIENT_UnmaskInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_unmask_interrupt)
+[CLIENT_UnmaskInterrupt](./nc-gpioclx-gpio_client_unmask_interrupt.md)
 
-[KINTERRUPT_MODE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode)
+[KINTERRUPT_MODE](../wdm/ne-wdm-_kinterrupt_mode.md)
 
-[KINTERRUPT_POLARITY](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity)
+[KINTERRUPT_POLARITY](../wdm/ne-wdm-_kinterrupt_polarity.md)

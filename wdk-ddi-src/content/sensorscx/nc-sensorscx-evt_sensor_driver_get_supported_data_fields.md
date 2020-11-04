@@ -55,7 +55,7 @@ This callback function returns a list of data fields supported by the specified 
 
 ### -param pDataFields
 
-[in, out, optional] A list of data fields that are supported by the given **Sensor**. For more information see [SENSOR_PROPERTY_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list).
+[in, out, optional] A list of data fields that are supported by the given **Sensor**. For more information see [SENSOR_PROPERTY_LIST](../sensorsdef/ns-sensorsdef-sensor_property_list.md).
 
 ### -param pSize
 
@@ -74,6 +74,6 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-[SENSOR_PROPERTY_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list)
+[SENSOR_PROPERTY_LIST](../sensorsdef/ns-sensorsdef-sensor_property_list.md)
 
 [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields)

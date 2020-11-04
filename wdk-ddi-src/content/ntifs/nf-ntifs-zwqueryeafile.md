@@ -139,7 +139,7 @@ The file system does not support extended attributes. This is an error code.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a> routine encountered a pool 
+The <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryeafile">ZwQueryEaFile</a> routine encountered a pool 
         allocation failure. This is an error code.
 
 </td>

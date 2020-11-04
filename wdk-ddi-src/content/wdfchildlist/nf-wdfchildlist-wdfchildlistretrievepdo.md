@@ -75,7 +75,7 @@ Before calling <b>WdfChildListRetrievePdo</b>, the driver must place an identifi
 
 The <b>WdfChildListRetrievePdo</b> method traverses the specified child list, looking for a child with an identification description that matches the one that the driver supplied in the WDF_CHILD_RETRIEVE_INFO structure. If the framework finds a match, and if the child has an <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>, the framework fills in the structure's address description.
 
-Be sure to wrap this call with [**WdfChildListBeginIteration**](/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginiteration) and [**WdfChildListEndIteration**](/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistenditeration) to protect the caller from sudden PnP removal of the PDO on another thread.
+Be sure to wrap this call with [**WdfChildListBeginIteration**](./nf-wdfchildlist-wdfchildlistbeginiteration.md) and [**WdfChildListEndIteration**](./nf-wdfchildlist-wdfchildlistenditeration.md) to protect the caller from sudden PnP removal of the PDO on another thread.
 
 For more information about child lists, see <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 

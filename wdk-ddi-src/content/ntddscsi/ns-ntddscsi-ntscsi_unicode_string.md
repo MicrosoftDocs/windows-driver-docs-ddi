@@ -76,5 +76,4 @@ If the string is null-terminated, **Length** does not include the trailing null 
 
 ## -see-also
 
-[UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
-
+[UNICODE_STRING](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)

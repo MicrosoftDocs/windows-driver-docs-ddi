@@ -84,4 +84,4 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
+<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>

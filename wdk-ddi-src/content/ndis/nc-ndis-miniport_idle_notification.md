@@ -96,11 +96,11 @@ After the idle notification is issued, it can be canceled and completed in the f
   * An overlying protocol or filter driver issues either a send packet request or an OID request to the miniport driver.
   * The underlying adapter signals a wake-up event, such as receiving a packet that matches a wake-on-LAN (WOL) pattern or detecting a change in its media connection status.
 
-  NDIS cancels the idle notification by calling [MiniportCancelIdleNotification](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification). When this handler function is called, the miniport driver cancels any bus-specific IRPs that it may have previously issued for the idle notification. Finally, the miniport driver calls [NdisMIdleNotificationComplete](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete) to complete the idle notification.
+  NDIS cancels the idle notification by calling [MiniportCancelIdleNotification](./nc-ndis-miniport_cancel_idle_notification.md). When this handler function is called, the miniport driver cancels any bus-specific IRPs that it may have previously issued for the idle notification. Finally, the miniport driver calls [NdisMIdleNotificationComplete](./nf-ndis-ndismidlenotificationcomplete.md) to complete the idle notification.
 
 * After the network adapter is in a low-power state, the miniport driver can complete the idle notification itself in order to resume the adapter to a full-power state. The reasons for doing this are specific to the design and requirements of the driver and adapter. 
 
-  The miniport driver completes the idle notification by calling [NdisMIdleNotificationComplete](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete). For more information about how the miniport driver completes the idle notification, see [Completing the NDIS Selective Suspend Idle Notification](/windows-hardware/drivers/network/completing-the-ndis-selective-suspend-idle-notification).
+  The miniport driver completes the idle notification by calling [NdisMIdleNotificationComplete](./nf-ndis-ndismidlenotificationcomplete.md). For more information about how the miniport driver completes the idle notification, see [Completing the NDIS Selective Suspend Idle Notification](/windows-hardware/drivers/network/completing-the-ndis-selective-suspend-idle-notification).
 
 For more information on how to handle idle notifications for NDIS selective suspend, see [Handling the NDIS Selective Suspend Idle Notification](/windows-hardware/drivers/network/handling-the-ndis-selective-suspend-idle-notification).
 

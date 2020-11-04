@@ -61,7 +61,7 @@ Version number.
 
 ### -field CertAction
 
-A [GNSS_SUPL_CERT_ACTION](/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_supl_cert_action) enumeration value that specifies the action to take on the certificate.
+A [GNSS_SUPL_CERT_ACTION](./ne-gnssdriver-gnss_supl_cert_action.md) enumeration value that specifies the action to take on the certificate.
 
 | Action | Description |
 |--|--|

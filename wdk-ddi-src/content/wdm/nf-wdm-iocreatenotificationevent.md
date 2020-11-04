@@ -70,17 +70,17 @@ If the event object does not already exist, <b>IoCreateNotificationEvent</b> cre
 
 If the event object already exists, <b>IoCreateNotificationEvent</b> just opens the event object.
 
-Both notification events and synchronization events are used to coordinate execution. However, while a synchronization event resets itself, a notification event remains in the Signaled state until the driver calls [**KeClearEvent**](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent) or [**KeResetEvent**](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent).
+Both notification events and synchronization events are used to coordinate execution. However, while a synchronization event resets itself, a notification event remains in the Signaled state until the driver calls [**KeClearEvent**](./nf-wdm-keclearevent.md) or [**KeResetEvent**](./nf-wdm-keresetevent.md).
 
 To synchronize on a notification event:
 
 1. Open the notification event with **IoCreateNotificationEvent**. Identify the event with the *EventName* string.
-2. Wait for the event to be signaled by calling [**KeWaitForSingleObject**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject) with the PKEVENT returned by **IoCreateNotificationEvent**. More than one thread of execution can wait for a given notification event. To poll instead of stall, specify a *Timeout* of zero to **KeWaitForSingleObject**.
-3. Close the handle to the notification event with [**ZwClose**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) when access to the event is no longer needed. 
+2. Wait for the event to be signaled by calling [**KeWaitForSingleObject**](./nf-wdm-kewaitforsingleobject.md) with the PKEVENT returned by **IoCreateNotificationEvent**. More than one thread of execution can wait for a given notification event. To poll instead of stall, specify a *Timeout* of zero to **KeWaitForSingleObject**.
+3. Close the handle to the notification event with [**ZwClose**](../ntifs/nf-ntifs-ntclose.md) when access to the event is no longer needed. 
 
 There are two main methods for sharing event objects: 
 
-* The user-mode application creates the event object and passes a handle to the object to the driver by sending an IOCTL to the driver. The driver must handle the IOCTL in the context of the process that created the event object and must validate the handle by calling [**ObReferenceObjectByHandle**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle). This method is the recommended method for sharing event objects between user and kernel modes.
+* The user-mode application creates the event object and passes a handle to the object to the driver by sending an IOCTL to the driver. The driver must handle the IOCTL in the context of the process that created the event object and must validate the handle by calling [**ObReferenceObjectByHandle**](./nf-wdm-obreferenceobjectbyhandle.md). This method is the recommended method for sharing event objects between user and kernel modes.
 
 * The driver creates a named event object in the global `\BaseNamedObjects` object directory. To access a kernel-mode event from user-mode, use the name `Global\\`*Xxx*. Note that security settings can prevent an application from opening the event. The `\\BaseNamedObjects` object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the `\\BaseNamedObjects` directory in their [*DriverEntry*](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routines.
 

@@ -69,7 +69,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545402">ExInterlockedInsertTailList</a>
+<a href="/previous-versions/ff545402(v=vs.85)">ExInterlockedInsertTailList</a>
 
 
 

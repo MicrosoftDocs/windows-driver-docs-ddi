@@ -94,4 +94,4 @@ For more information, see <a href="/windows-hardware/drivers/ifs/tracking-per-st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547295">FsRtlTeardownPerStreamContexts</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlteardownperstreamcontexts">FsRtlTeardownPerStreamContexts</a>

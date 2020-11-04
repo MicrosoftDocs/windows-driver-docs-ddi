@@ -61,7 +61,7 @@ The **Irp->AssociatedIrp.SystemBuffer** member points to the input buffer that c
 
 **Minidriver handling**
 
-**Irp->UserBuffer** points to a [HID_XFER_PACKET](/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet) structure that the HID class driver uses to input the following members:
+**Irp->UserBuffer** points to a [HID_XFER_PACKET](./ns-hidclass-_hid_xfer_packet.md) structure that the HID class driver uses to input the following members:
 
 ### -input-buffer-length
 
@@ -69,7 +69,7 @@ The input buffer size, in bytes, must be large enough to hold the output report 
 
 **Minidriver handling**
 
-The size of a [HID_XFER_PACKET](/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet) structure.
+The size of a [HID_XFER_PACKET](./ns-hidclass-_hid_xfer_packet.md) structure.
 
 ### -output-buffer
 
@@ -113,14 +113,14 @@ Specifies the size, in bytes, of the input buffer.
 
 ## -see-also
 
-[HidD_GetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getfeature)
+[HidD_GetFeature](../hidsdi/nf-hidsdi-hidd_getfeature.md)
 
-[HidD_GetInputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport)
+[HidD_GetInputReport](../hidsdi/nf-hidsdi-hidd_getinputreport.md)
 
-[HidD_SetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature)
+[HidD_SetFeature](../hidsdi/nf-hidsdi-hidd_setfeature.md)
 
-[HidD_SetOutputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setoutputreport)
+[HidD_SetOutputReport](../hidsdi/nf-hidsdi-hidd_setoutputreport.md)
 
-[IOCTL_HID_GET_INPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report)
+[IOCTL_HID_GET_INPUT_REPORT](./ni-hidclass-ioctl_hid_get_input_report.md)
 
-[IOCTL_HID_SET_OUTPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report)
+[IOCTL_HID_SET_OUTPUT_REPORT](./ni-hidclass-ioctl_hid_set_output_report.md)

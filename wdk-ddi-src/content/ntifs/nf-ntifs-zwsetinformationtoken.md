@@ -402,4 +402,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
+<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>

@@ -230,7 +230,7 @@ The optional value that is used with <b>ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED<
 
 ### -field FileTimestamps
 
-Pointer to an optional <a href="https://msdn.microsoft.com/0F016D21-34CD-43DD-BE39-C6DF6D63A3AC">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
+Pointer to an optional <a href="/previous-versions/mt826486(v=vs.85)">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
 
 ### -field FileAttributes
 
@@ -247,4 +247,3 @@ Specifies the Update Sequence Number (USN). This value is filled at the end of <
 ## -remarks
 
 The GUID used for this structure is the <b>GUID_ECP_ATOMIC_CREATE</b> (<code>4720bd83-52ac-4104-a130-d1ec6a8cc8e5</code>).
-

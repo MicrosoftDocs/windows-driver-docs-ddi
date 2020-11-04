@@ -56,13 +56,13 @@ This request is sent by a driver that replaces the Microsoft-provided composite 
 
 ### -input-buffer
 
-**Parameters.Others.Argument1** is a pointer to a caller-allocated and initialized [REGISTER_COMPOSITE_DEVICE<](/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_register_composite_device) structure that contains information about the parent driver. To initialize the structure, call the [USBD_BuildRegisterCompositeDevice](/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice) routine.
+**Parameters.Others.Argument1** is a pointer to a caller-allocated and initialized [REGISTER_COMPOSITE_DEVICE<](../usbdlib/ns-usbdlib-_register_composite_device.md) structure that contains information about the parent driver. To initialize the structure, call the [USBD_BuildRegisterCompositeDevice](../usbdlib/nf-usbdlib-usbd_buildregistercompositedevice.md) routine.
 
-The **AssociatedIrp.SystemBuffer** member points to a caller-allocated buffer that is large enough to hold an array of function handles (typed USBD_FUNCTION_HANDLE) for functions in the USB composite device. The number of elements in the array is indicated by the **FunctionCount** member of [REGISTER_COMPOSITE_DEVICE](/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_register_composite_device). To obtain the number of functions, inspect the descriptors returned by a get-configuration request.
+The **AssociatedIrp.SystemBuffer** member points to a caller-allocated buffer that is large enough to hold an array of function handles (typed USBD_FUNCTION_HANDLE) for functions in the USB composite device. The number of elements in the array is indicated by the **FunctionCount** member of [REGISTER_COMPOSITE_DEVICE](../usbdlib/ns-usbdlib-_register_composite_device.md). To obtain the number of functions, inspect the descriptors returned by a get-configuration request.
 
 ### -input-buffer-length
 
-The size of a [REGISTER_COMPOSITE_DEVICE](/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_register_composite_device) structure.
+The size of a [REGISTER_COMPOSITE_DEVICE](../usbdlib/ns-usbdlib-_register_composite_device.md) structure.
 
 ### -output-buffer
 
@@ -88,12 +88,12 @@ The purpose of **IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE** is for the compo
 
 In response to the registration request, the USB driver stack provides a list of handles for the functions in the device. For a code example, see [How to Register a Composite Device](/windows-hardware/drivers/usbcon/register-a-composite-driver).
 
-After the composite driver is registered, the driver can configure the remote wake-up feature. By using the function handle, the composite driver can send a request [IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION](/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification) to get remote wake-up notifications from the USB driver stack, when the associated function sends a resume signal.
+After the composite driver is registered, the driver can configure the remote wake-up feature. By using the function handle, the composite driver can send a request [IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION](./ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification.md) to get remote wake-up notifications from the USB driver stack, when the associated function sends a resume signal.
 
-In order to remove the composite driver's association with the USB driver stack and release all resources that are allocated for registration, the driver must send the [IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE](/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_unregister_composite_device) request.
+In order to remove the composite driver's association with the USB driver stack and release all resources that are allocated for registration, the driver must send the [IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE](./ni-usbioctl-ioctl_internal_usb_unregister_composite_device.md) request.
 
 ## -see-also
 
 [How to Register a Composite Device](/windows-hardware/drivers/usbcon/register-a-composite-driver)
 
-[IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE](/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_unregister_composite_device)
+[IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE](./ni-usbioctl-ioctl_internal_usb_unregister_composite_device.md)
