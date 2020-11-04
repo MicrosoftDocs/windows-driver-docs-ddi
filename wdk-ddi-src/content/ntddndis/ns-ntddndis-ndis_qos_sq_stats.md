@@ -85,6 +85,6 @@ If the query OID does not contain a valid vPortID, then the returned stats speci
 
 [**NDIS_QOS_SQ_TYPE**](ne-ntddndis-ndis_qos_sq_type.md)
 
-[**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+[**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
 
 [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)

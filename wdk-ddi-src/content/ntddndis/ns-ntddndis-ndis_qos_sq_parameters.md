@@ -129,7 +129,7 @@ The **NDIS_QOS_SQ_PARAMETERS** structure is returned in the OID query request [O
 
 [**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md)
 
-[**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+[**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
 
 [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
 

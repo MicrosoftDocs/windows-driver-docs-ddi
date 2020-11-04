@@ -63,13 +63,13 @@ Used for validation in code.
 
 ## -remarks
 
-The **NDIS_QOS_SQ_TYPE** enumeration is a member of the [**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md), [**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md), and [**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md) structures.
+The **NDIS_QOS_SQ_TYPE** enumeration is a member of the [**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md), [**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md), and [**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md) structures.
 
 ## -see-also
 
 [**NDIS_QOS_SQ_PARAMETERS**](ns-ntddndis-ndis_qos_sq_parameters.md)
 
-[**NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
+[**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
 
 [**NDIS_QOS_SQ_STATS**](ns-ntddndis-ndis_qos_sq_stats.md)
 
