@@ -63,7 +63,7 @@ The **FltRetrieveIoPriorityInfo** routine is used by a minifilter driver to retr
 
 ### -param PriorityInfo
 
-[in, out] A pointer to an [**IO_PRIORITY_INFO**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info) structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
+[in, out] A pointer to an [**IO_PRIORITY_INFO**](../ntifs/ns-ntifs-_io_priority_info.md) structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
 
 ## -returns
 
@@ -90,7 +90,7 @@ ELSE IF the Thread parameter is not NULL THEN
 ```
 
 > [!NOTE]
-> If the IO_PRIORITY_INFO structure pointed to by the **PriorityInfo** parameter has not been initialized, you must do so prior to calling this routine, by calling the [**IoInitializePriorityInfo**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioinitializepriorityinfo) routine.
+> If the IO_PRIORITY_INFO structure pointed to by the **PriorityInfo** parameter has not been initialized, you must do so prior to calling this routine, by calling the [**IoInitializePriorityInfo**](../ntifs/nf-ntifs-ioinitializepriorityinfo.md) routine.
 
 ## -see-also
 
@@ -114,8 +114,8 @@ ELSE IF the Thread parameter is not NULL THEN
 
 [**FltSetIoPriorityHintIntoThread**](nf-fltkernel-fltsetiopriorityhintintothread.md)
 
-[**IO_PRIORITY_INFO**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info)
+[**IO_PRIORITY_INFO**](../ntifs/ns-ntifs-_io_priority_info.md)
 
-[**IoInitializePriorityInfo**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioinitializepriorityinfo)
+[**IoInitializePriorityInfo**](../ntifs/nf-ntifs-ioinitializepriorityinfo.md)
 
-[**PsGetCurrentThread**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread)
+[**PsGetCurrentThread**](../ntddk/nf-ntddk-psgetcurrentthread.md)

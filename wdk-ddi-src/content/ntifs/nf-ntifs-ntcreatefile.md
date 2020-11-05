@@ -98,7 +98,7 @@ For more information about access rights, see [ACCESS_MASK](/windows-hardware/dr
 ### -param ObjectAttributes 
 
 [in]
-A pointer to an [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
+A pointer to an [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
 ### -param IoStatusBlock 
 
@@ -432,7 +432,7 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md)
 
-[InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes)
+[InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 

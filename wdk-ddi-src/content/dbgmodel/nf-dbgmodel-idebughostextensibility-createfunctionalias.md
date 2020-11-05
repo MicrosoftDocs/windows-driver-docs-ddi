@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IDebugHostExtensibility.CreateFunctionAlias
 title: IDebugHostExtensibility::CreateFunctionAlias (dbgmodel.h)
 description: The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific.
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
-ms.date: 06/11/2019
+ms.date: 10/28/2020
 keywords: ["IDebugHostExtensibility::CreateFunctionAlias"]
 ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias
 req.header: dbgmodel.h
@@ -136,8 +136,8 @@ if (spSumFunc != nullptr)
         ComPtr<IDebugHostExtensibility> spHostExtensibility;
         if (SUCCEEDED(GetHost()->QueryInterface(IID_PPV_ARGS(&spHostExtensibility)))
         {
-            if (SUCCEEDED(spHostExtensibility->RegisterFunctionAlias(
-                L"sumit", 
+            if (SUCCEEDED(spHostExtensibility->CreateFunctionAlias(
+                L"sumit",
                 spMethodObject.Get())))
             {
                 // sumit is now an alias for our function.  The meaning here 

@@ -85,19 +85,19 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 For more information about the socket types that are supported for each supported address family, see     
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -field Protocol
 
 The protocol that is supported by the transport. For more information about the protocols that are
      supported for each supported address family, see 
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -field AddressFamily
 
 The address family that is supported by the transport. For more information about supported
      address families, see 
-     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
 ### -field ProviderId
 

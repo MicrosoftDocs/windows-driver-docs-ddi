@@ -4,7 +4,7 @@ title: PFND3D11DDI_SETRENDERTARGETS (d3d10umddi.h)
 description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
-ms.date: 10/16/2020
+ms.date: 10/21/2020
 keywords: ["PFND3D11DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 req.header: d3d10umddi.h
@@ -63,7 +63,7 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ### -param ClearSlots
 
-[in] The number of RTV objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
+[in] The number of RTV objects to unbind; that is, those render target view objects that were previously bound but no longer need to be bound.
 
 ### -param Arg5
 
@@ -71,7 +71,7 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ### -param Arg6
 
-[in] **phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects.
+[in] **phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects to set.
 
 ### -param Arg7
 
@@ -79,27 +79,43 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ### -param UAVStartSlot
 
-Indicates the start element, in the array of bind points, where the passed UAV array is going to be applied. **UAVStartSlot** should be at least as great as the **NumRTVs** parameter.
+Index of the first UAV to bind. **UAVStartSlot** must be at least as great as the **NumRTVs** parameter.
 
 > [!NOTE]
 > Only one shared set of binding points exists for RTVs and UAVs. RTVs are bound first, followed by UAVs.
 
 ### -param NumUAVs
 
-[in] The number of UAVs to set.
+[in] The number of UAVs to bind.
 
 ### -param UAVRangeStart
 
-The first UAV in the set of all updated UAVs (which includes **NULL** bindings).
+[in] The first UAV in the set of all updated UAVs (which includes **NULL** bindings).
 
 ### -param UAVRangeSize
 
-The number of UAVs in the set of all updated UAVs (which includes **NULL** bindings).
-
->[!NOTE]
-> The parameters **NumUAVs** and  **UAVStartSlot** specify which range in the UAVs array contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, **UAVStartSlot** starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).
+[in] The number of UAVs in the set of all updated UAVs (which includes **NULL** bindings).
 
 ## -remarks
+
+Resource descriptors such as RTVs and UAVs must be bound (put in *input slots*) before shaders can access them for read or write.
+
+The following image shows an example with five resources.
+
+![RTV and UAV example](images/RtvUavExample.png)
+
+In the above example:
+
+* **NumRTVs** = 2
+* **UAVStartSlot** = 2
+* **NumUAVs** = 3
+
+**NumUAVs** and  **UAVStartSlot** specify which range in the UAVs array contains changes in relation to the state that was previously bound. Note that the points in the range could be *unchanged*.
+
+The **UAVRangeStart** and **UAVRangeSize** parameters are a convenience that reveal the span of what actually *changed* given that the Direct3D DDI always binds everything (including what has not changed). The D3D11 runtime formulates them on the application's behalf as additional information for driver writers as hints for possible optimization. Typically, the D3D11 runtime will call this function with **UAVRangeStart** and **UAVRangeSize** values to indicate the whole range. Using the above example:
+
+* To choose the whole range (no change believed to happen), **UAVRangeStart** = 2 and **UAVRangeSize** = 3.
+* To indicate that just the first UAV might have changed, **UAVRangeStart** = 2 and **UAVRangeSize** = 1.
 
 The driver can use the [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) callback function to set an error code.
 

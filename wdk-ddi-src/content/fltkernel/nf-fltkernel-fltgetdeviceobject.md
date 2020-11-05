@@ -71,11 +71,11 @@ The **FltGetDeviceObject** routine returns a pointer to the Filter Manager's vol
 
 For more information about volume device objects, see [File System Stacks](/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks#file-system-stacks).
 
-The Filter Manager's VDO is not the same as the underlying storage driver's disk device object or the base file system's VDO. To get a pointer to the disk device object, call [**FltGetDiskDeviceObject**](nf-fltkernel-fltgetdiskdeviceobject.md) on the volume specified in the *Volume* parameter. To get a pointer to the base file system's VDO, call [**IoGetDeviceAttachmentBaseRef**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdeviceattachmentbaseref) on the *RetDeviceObject* returned by **FltGetDeviceObject**.
+The Filter Manager's VDO is not the same as the underlying storage driver's disk device object or the base file system's VDO. To get a pointer to the disk device object, call [**FltGetDiskDeviceObject**](nf-fltkernel-fltgetdiskdeviceobject.md) on the volume specified in the *Volume* parameter. To get a pointer to the base file system's VDO, call [**IoGetDeviceAttachmentBaseRef**](../ntifs/nf-ntifs-iogetdeviceattachmentbaseref.md) on the *RetDeviceObject* returned by **FltGetDeviceObject**.
 
 To get an opaque pointer for the corresponding volume for a given device object, call [**FltGetVolumeFromDeviceObject**](nf-fltkernel-fltgetvolumefromdeviceobject.md).
 
-**FltGetDeviceObject** increments the reference count on the returned device object pointer. When this pointer is no longer needed, the caller must decrement this reference count by calling [**ObDereferenceObject**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject). Thus every successful call to **FltGetDeviceObject** must be matched by a subsequent call to **ObDereferenceObject**.
+**FltGetDeviceObject** increments the reference count on the returned device object pointer. When this pointer is no longer needed, the caller must decrement this reference count by calling [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md). Thus every successful call to **FltGetDeviceObject** must be matched by a subsequent call to **ObDereferenceObject**.
 
 ## -see-also
 
@@ -83,6 +83,6 @@ To get an opaque pointer for the corresponding volume for a given device object,
 
 [**FltGetVolumeFromDeviceObject**](nf-fltkernel-fltgetvolumefromdeviceobject.md)
 
-[**IoGetDeviceAttachmentBaseRef**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdeviceattachmentbaseref)
+[**IoGetDeviceAttachmentBaseRef**](../ntifs/nf-ntifs-iogetdeviceattachmentbaseref.md)
 
-[**ObDereferenceObject**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)

@@ -58,124 +58,96 @@ Because the internal format of a security descriptor can vary, drivers are not t
 
 ### -field Revision
 
+Specifies the revision level of the security descriptor.
+
 ### -field Sbz1
+
+Specifies a zero byte of padding that aligns the Revision member on a 16-bit boundary.
 
 ### -field Control
 
+The control information of security descriptor. For more information, see [SECURITY_DESCRIPTOR_CONTROL](/windows-hardware/drivers/ifs/security-descriptor-control).
+
 ### -field Owner
+
+A pointer to an owner security identifier.
+> [!NOTE]
+> This member might be invalid. You should use **RtlGetOwnerSecurityDescriptor** to get an owner security identifier.
 
 ### -field Group
 
+A pointer to a primary group security identifier. 
+> [!NOTE]
+> This member might be invalid. You should use **RtlGetGroupSecurityDescriptor** to get this member.
+
 ### -field Sacl
 
+A pointer to a system access control list (SACL). 
+> [!NOTE]
+> This member might be invalid. You should use **RtlGetSaclSecurityDescriptor** to get this member.
+
 ### -field Dacl
+
+A pointer to a discretionary access control list (DACL). 
+> [!NOTE]
+> This member might be invalid. You should use **RtlGetDaclSecurityDescriptor** to get this member.
 
 ## -remarks
 
 A security descriptor includes information that specifies the following components of an object's security: 
-
-<ul>
-<li>
-An owner (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) 
-
-</li>
-<li>
-A primary group (SID) 
-
-</li>
-<li>
-A discretionary <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a> (DACL) 
-
-</li>
-<li>
-A system ACL (SACL) 
-
-</li>
-</ul>
-Qualifiers for the preceding items 
-
-Requirements: ntifs.h (include ntifs.h)
+* An owner [SID](ns-ntifs-_sid.md)
+* A primary group SID
+* A discretionary [ACL](../wdm/ns-wdm-_acl.md) (DACL) 
+* A system ACL (SACL)
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[ACL](../wdm/ns-wdm-_acl.md)
 
+[ObGetObjectSecurity](../wdm/nf-wdm-obgetobjectsecurity.md)
 
+[ObReleaseObjectSecurity](../wdm/nf-wdm-obreleaseobjectsecurity.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obgetobjectsecurity">ObGetObjectSecurity</a>
+[RtlCreateSecurityDescriptor](../wdm/nf-wdm-rtlcreatesecuritydescriptor.md)
 
+[RtlGetDaclSecurityDescriptor](nf-ntifs-rtlgetdaclsecuritydescriptor.md)
 
+[RtlGetGroupSecurityDescriptor](nf-ntifs-rtlgetgroupsecuritydescriptor.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreleaseobjectsecurity">ObReleaseObjectSecurity</a>
+[RtlGetOwnerSecurityDescriptor](nf-ntifs-rtlgetownersecuritydescriptor.md)
 
+[RtlGetSaclSecurityDescriptor](nf-ntifs-rtlgetsaclsecuritydescriptor.md)
 
+[RtlLengthSecurityDescriptor](../wdm/nf-wdm-rtllengthsecuritydescriptor.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcreatesecuritydescriptor">RtlCreateSecurityDescriptor</a>
+[RtlSetDaclSecurityDescriptor](../wdm/nf-wdm-rtlsetdaclsecuritydescriptor.md)
 
+[RtlSetGroupSecurityDescriptor](nf-ntifs-rtlsetgroupsecuritydescriptor.md)
 
+[RtlSetOwnerSecurityDescriptor](nf-ntifs-rtlsetownersecuritydescriptor.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetownersecuritydescriptor">RtlGetOwnerSecurityDescriptor</a>
+[RtlValidSecurityDescriptor](../wdm/nf-wdm-rtlvalidsecuritydescriptor.md)
 
+[SECURITY_DESCRIPTOR_CONTROL](/windows-hardware/drivers/ifs/security-descriptor-control)
 
+[SECURITY_INFORMATION](/windows-hardware/drivers/ifs/security-information)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtllengthsecuritydescriptor">RtlLengthSecurityDescriptor</a>
+[SID](ns-ntifs-_sid.md)
 
+[SeAccessCheck](../wdm/nf-wdm-seaccesscheck.md)
 
+[SeAssignSecurity](../wdm/nf-wdm-seassignsecurity.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsetdaclsecuritydescriptor">RtlSetDaclSecurityDescriptor</a>
+[SeAssignSecurityEx](../wdm/nf-wdm-seassignsecurityex.md)
 
+[SeDeassignSecurity](../wdm/nf-wdm-sedeassignsecurity.md)
 
+[SeSetSecurityDescriptorInfo](nf-ntifs-sesetsecuritydescriptorinfo.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetownersecuritydescriptor">RtlSetOwnerSecurityDescriptor</a>
+[SeSetSecurityDescriptorInfoEx](nf-ntifs-sesetsecuritydescriptorinfoex.md)
 
+[SeValidSecurityDescriptor](../wdm/nf-wdm-sevalidsecuritydescriptor.md)
 
+[ZwQuerySecurityObject](nf-ntifs-zwquerysecurityobject.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seassignsecurity">SeAssignSecurity</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seassignsecurityex">SeAssignSecurityEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-sedeassignsecurity">SeDeassignSecurity</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetsecuritydescriptorinfo">SeSetSecurityDescriptorInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetsecuritydescriptorinfoex">SeSetSecurityDescriptorInfoEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-sevalidsecuritydescriptor">SeValidSecurityDescriptor</a>
-
-
-
-<a href="/previous-versions/ff567066(v=vs.85)">ZwQuerySecurityObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>
+[ZwSetSecurityObject](nf-ntifs-zwsetsecurityobject.md)

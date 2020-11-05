@@ -72,7 +72,7 @@ Valid flags may be combined using a logical OR operation
 
 ## -remarks
 
-To flush a SCO channel, profile drivers should [build and send](https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)) a [BRB_SCO_FLUSH_CHANNEL](https://docs.microsoft.com/previous-versions/ff536623(v=vs.85)) request.
+To flush a SCO channel, profile drivers should [build and send](/previous-versions/ff536657(v=vs.85)) a [BRB_SCO_FLUSH_CHANNEL](/previous-versions/ff536623(v=vs.85)) request.
 
 All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In-progress IRPs will be completed normally, with success or failure,depending on whether the Bluetooth driver stack was able to transfer data to or from the remote device.
 
@@ -80,4 +80,4 @@ All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In
 
 [BRB_HEADER](ns-bthddi-_brb_header.md)
 
-[BRB_SCO_FLUSH_CHANNEL](https://docs.microsoft.com/previous-versions/ff536623(v=vs.85))
+[BRB_SCO_FLUSH_CHANNEL](/previous-versions/ff536623(v=vs.85))

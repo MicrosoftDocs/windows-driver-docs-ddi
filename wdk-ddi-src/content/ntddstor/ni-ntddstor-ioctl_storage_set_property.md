@@ -37,10 +37,12 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties of a storage device or adapter.
+
+> [!NOTE]
+> Due to colliding IOCTL definitions, existing software that uses IOCTL_STORAGE_SET_PROPERTY will need to be recompiled on the next version of Windows 10 after version 2004.
 
 ## -ioctlparameters
 

@@ -79,4 +79,4 @@ Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The calle
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetreadaheadgranularity">CcSetReadAheadGranularity</a>

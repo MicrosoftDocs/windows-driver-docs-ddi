@@ -59,7 +59,7 @@ This callback function returns the properties of a given data field associated w
 
 ### -param pProperties
 
-[in, out, optional] A list of properties and their values for the specified **Sensor**. For more information see [SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list)
+[in, out, optional] A list of properties and their values for the specified **Sensor**. For more information see [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
 
 ### -param pSize
 
@@ -80,6 +80,6 @@ This function must be implemented by the driver and is called by the class exten
 
 [Proximity sensor data fields](/windows-hardware/drivers/sensors/proximity-sensor-data-fields)
 
-[SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list)
+[SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
 
 [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields)

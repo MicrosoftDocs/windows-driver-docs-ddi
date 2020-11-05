@@ -43,28 +43,27 @@ api_name:
 
 # IOCTL_SCSI_MINIPORT_NVCACHE IOCTL
 
-
 ## -description
 
-The NV Cache Management operations that are defined here can be invoked by user-mode application code running with administrator privileges, using DeviceIoControl and the <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a> control code. Or, the caller can be kernel-mode driver code using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> and the IOCTL_SCSI_MINIPORT control code.
+The NV Cache Management operations that are defined here can be invoked by user-mode application code running with administrator privileges, using DeviceIoControl and the [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md) control code. Or, the caller can be kernel-mode driver code using [**IoBuildDeviceIoControlRequest**](../wdm/nf-wdm-iobuilddeviceiocontrolrequest.md) and the IOCTL_SCSI_MINIPORT control code.
 
-The NV Cache Management function request is specified in a field in the <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a> structure. The input to <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a> is a user-defined data structure that contains an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure followed by an <b>NVCACHE_REQUEST_BLOCK</b> structure. Additional function-specific data might optionally follow the <b>NVCACHE_REQUEST_BLOCK</b> structure.
+The NV Cache Management function request is specified in a field in the [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md) structure. The input to [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md) is a user-defined data structure that contains an [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md) structure followed by an **NVCACHE_REQUEST_BLOCK** structure. Additional function-specific data might optionally follow the **NVCACHE_REQUEST_BLOCK** structure.
 
-The interface that is used for the NV Cache Management functionality consists of two layers. The first layer is the interface between a caller and the port driver, which is defined by <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a>. The second layer is the interface between the caller and the device, which is defined by the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a> and IOCTL_SCSI_MINIPORT_NVCACHE. The API for user-mode application code is the DeviceIoControl interface. The API for kernel-mode driver code is the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> interface, which uses <b>IOCTL_SCSI_MINIPORT</b>.
+The interface that is used for the NV Cache Management functionality consists of two layers. The first layer is the interface between a caller and the port driver, which is defined by [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md). The second layer is the interface between the caller and the device, which is defined by the ATA8-ACS specification and IOCTL_SCSI_MINIPORT_NVCACHE. The API for user-mode application code is the DeviceIoControl interface. The API for kernel-mode driver code is the [**IoBuildDeviceIoControlRequest**](../wdm/nf-wdm-iobuilddeviceiocontrolrequest.md) interface, which uses **IOCTL_SCSI_MINIPORT**.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure with the Signature field set to "HYBRDISK", and the ControlCode field set to IOCTL_SCSI_MINIPORT_NVCACHE. The <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a> structure immediately follows the <b>SRB_IO_CONTROL</b> structure. Any optional function-specific data buffer immediately follows the <b>NVCACHE_REQUEST_BLOCK</b> structure.
+The buffer at **Irp->AssociatedIrp.SystemBuffer** contains an [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md) structure with the Signature field set to "HYBRDISK", and the ControlCode field set to IOCTL_SCSI_MINIPORT_NVCACHE. The [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md) structure immediately follows the **SRB_IO_CONTROL** structure. Any optional function-specific data buffer immediately follows the **NVCACHE_REQUEST_BLOCK** structure.
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of all the input data:  <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a>, <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a>, and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the <b>NVCACHE_REQUEST_BLOCK</b><b>DataBufSize</b> field.
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of all the input data: [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md), [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md), and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the **NVCACHE_REQUEST_BLOCK****DataBufSize** field.
 
 ### -output-buffer
 
-Updated <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> and <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a> structures, as well as the optional function-specific data buffer, are returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+Updated [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md)SRB_IO_CONTROL**]() and [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md) structures, as well as the optional function-specific data buffer, are returned to the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
@@ -76,20 +75,14 @@ The length of the buffer.
 
 ### -status-block
 
-The <b>Information</b> field contains the number of bytes returned in the output buffer. The <b>Status</b> field indicates the results of the operation.
+The **Information** field contains the number of bytes returned in the output buffer. The **Status** field indicates the results of the operation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a>
+[**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md)
 
+[**IoBuildDeviceIoControlRequest**](../wdm/nf-wdm-iobuilddeviceiocontrolrequest.md)
 
+[**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a>
+[**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md)

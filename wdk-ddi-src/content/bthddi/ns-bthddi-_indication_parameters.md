@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The **INDICATION_PARAMETERS** structure is passed as the *Parameters* parameter to a profile driver's [L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback)
+The **INDICATION_PARAMETERS** structure is passed as the *Parameters* parameter to a profile driver's [L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md)
 
 ## -struct-fields
 
@@ -81,15 +81,15 @@ The structure that contains parameters for the **IndicationRemoteConfigRequestIN
 
 ### -field Parameters.ConfigRequest.CurrentParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the   **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the   **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigRequest.RequestedParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigRequest.ResponseParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that the profile driver responds to the configuration request with.
+A [CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameters that the profile driver responds to the configuration request with.
 
 ### -field Parameters.ConfigRequest.Response
 
@@ -109,15 +109,15 @@ The structure that contains parameters for the **IndicationRemoteConfigResponseI
 
 ### -field Parameters.ConfigResponse.CurrentParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameters for the current channel. This value is only valid if the channel was previously open and is now in the process of being configured. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigResponse.RequestedParams
 
-A [CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
+A [CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameters that are passed from the remote host for configuration requests. This member is used when the callback function specifies the **IndicationRemoteConfigRequestINDICATION_CODE** value.
 
 ### -field Parameters.ConfigResponse.RejectedParams
 
-A *[CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the configuration parameter settings that were rejected by the remote device.
+A *[CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the configuration parameter settings that were rejected by the remote device.
 
 ### -field Parameters.ConfigResponse.UnknownTypes
 
@@ -129,7 +129,7 @@ The number of unrecognized types in the **UnknownTypes** member.
 
 ### -field Parameters.ConfigResponse.NewRequestParams
 
-A *[CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters) structure that contains the parameter settings for the callback function to resubmit after the response has returned from the remote device.
+A *[CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md) structure that contains the parameter settings for the callback function to resubmit after the response has returned from the remote device.
 
 ### -field Parameters.ConfigResponse.Response
 
@@ -161,7 +161,7 @@ The structure that contains the parameters for the **IndicationRemoteDisconnectI
 
 ### -field Parameters.Disconnect.Reason
 
-An [L2CAP_DISCONNECT_REASON](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_l2cap_disconnect_reason) value that indicates why the L2CAP connection to the remote device was terminated.
+An [L2CAP_DISCONNECT_REASON](./ne-bthddi-_l2cap_disconnect_reason.md) value that indicates why the L2CAP connection to the remote device was terminated.
 
 ### -field Parameters.Disconnect.CloseNow
 
@@ -181,7 +181,7 @@ The number of packets to be processed over the L2CAP connection.
 
 ## -remarks
 
-A profile driver's [L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback) should process this structure differently depending upon the value that the Bluetooth driver stack passes in the *Indication* parameter of the callback function.
+A profile driver's [L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md) should process this structure differently depending upon the value that the Bluetooth driver stack passes in the *Indication* parameter of the callback function.
 
 - When the Bluetooth driver stack passes **IndicationRemoteConnect**, the callback function should use the **Connect** member of the **Parameters** union.
 
@@ -197,12 +197,12 @@ A profile driver's [L2CAP Callback Function](/windows-hardware/drivers/ddi/bthdd
 
 ## -see-also
 
-[CHANNEL_CONFIG_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters)
+[CHANNEL_CONFIG_PARAMETERS](./ns-bthddi-_channel_config_parameters.md)
 
-[INDICATION_CODE](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code)
+[INDICATION_CODE](./ne-bthddi-_indication_code.md)
 
-[L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback)
+[L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md)
 
-[L2CAP_CONFIG_OPTION](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option)
+[L2CAP_CONFIG_OPTION](./ns-bthddi-_l2cap_config_option.md)
 
-[L2CAP_DISCONNECT_REASON](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_l2cap_disconnect_reason)
+[L2CAP_DISCONNECT_REASON](./ne-bthddi-_l2cap_disconnect_reason.md)

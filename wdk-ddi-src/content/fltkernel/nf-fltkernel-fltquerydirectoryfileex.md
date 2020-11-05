@@ -174,6 +174,6 @@ Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL a
 
 [IRP_MJ_DIRECTORY_CONTROL IRP](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
+[UNICODE_STRING](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 
 [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047")

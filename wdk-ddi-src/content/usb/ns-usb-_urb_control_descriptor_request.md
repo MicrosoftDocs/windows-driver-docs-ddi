@@ -96,6 +96,26 @@ Specifies the device-defined index of the descriptor that is being retrieved or 
 
 Indicates what type of descriptor is being retrieved or set. One of the following values must be specified:
 
+| usbspec.h constant                                                | Value |     USB Version    |
+|-------------------------------------------------------------------|:-----:|:------------------:|
+| USB\_DEVICE\_DESCRIPTOR\_TYPE                                     |  0x01 |       USB 1.1      |
+| USB\_CONFIGURATION\_DESCRIPTOR\_TYPE                              |  0x02 |       USB 1.1      |
+| USB\_STRING\_DESCRIPTOR\_TYPE                                     |  0x03 |       USB 1.1      |
+| USB\_INTERFACE\_DESCRIPTOR\_TYPE                                  |  0x04 |       USB 1.1      |
+| USB\_ENDPOINT\_DESCRIPTOR\_TYPE                                   |  0x05 |       USB 1.1      |
+| USB\_DEVICE\_QUALIFIER\_DESCRIPTOR\_TYPE                          |  0x06 |       USB 2.0      |
+| USB\_OTHER\_SPEED\_CONFIGURATION\_DESCRIPTOR\_TYPE                |  0x07 |       USB 2.0      |
+| USB\_INTERFACE\_POWER\_DESCRIPTOR\_TYPE                           |  0x08 |       USB 2.0      |
+| USB\_OTG\_DESCRIPTOR\_TYPE                                        |  0x09 |       USB 3.0      |
+| USB\_DEBUG\_DESCRIPTOR\_TYPE                                      |  0x0a |       USB 3.0      |
+| USB\_INTERFACE\_ASSOCIATION\_DESCRIPTOR\_TYPE                     |  0x0b |       USB 3.0      |
+| USB\_BOS\_DESCRIPTOR\_TYPE                                        |  0x0f |       USB 3.0      |
+| USB\_DEVICE\_CAPABILITY\_DESCRIPTOR\_TYPE                         |  0x10 |       USB 3.0      |
+| USB\_SUPERSPEED\_ENDPOINT\_COMPANION\_DESCRIPTOR\_TYPE            |  0x30 |       USB 3.0      |
+| USB\_20\_HUB\_DESCRIPTOR\_TYPE                                    |  0x29 | USB 1.1<br>USB 2.0 |
+| USB\_30\_HUB\_DESCRIPTOR\_TYPE                                    |  0x2a |       USB 3.0      |
+| USB\_SUPERSPEEDPLUS\_ISOCH\_ENDPOINT\_COMPANION\_DESCRIPTOR\_TYPE |  0x31 |       USB 3.1      |
+
 ### -field LanguageId
 
 Specifies the language ID of the descriptor to be retrieved when USB_STRING_DESCRIPTOR_TYPE is set in <b>DescriptorType</b>. This member must be set to zero for any other value in <b>DescriptorType</b>.

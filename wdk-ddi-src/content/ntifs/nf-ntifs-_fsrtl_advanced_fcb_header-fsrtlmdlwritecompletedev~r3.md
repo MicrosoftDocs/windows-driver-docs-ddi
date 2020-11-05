@@ -72,7 +72,7 @@ A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/wind
 
 ### -param DeviceObject
 
-<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/Hh706192(v=VS.85).aspx"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
+<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
 
 
 

@@ -51,7 +51,7 @@ The SetFormat method sets the data format of the wave stream.
 ### -param DataFormat
 
 [in]
-Pointer to a [KSDATAFORMAT](/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat) structure that describes the requested data format.
+Pointer to a [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) structure that describes the requested data format.
 
 ## -returns
 
@@ -70,4 +70,4 @@ None
 
 [IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)
 
-[KSDATAFORMAT](/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat)
+[KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)

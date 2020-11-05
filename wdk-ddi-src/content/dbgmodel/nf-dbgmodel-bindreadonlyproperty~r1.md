@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.BindReadOnlyProperty~r1
-title: BindReadOnlyProperty function (dbgmodel.h)
+title: BindReadOnlyProperty(get_lambda) function (dbgmodel.h)
 description: TA binder which converts one instance method on a class to a read-only property accessor.
 ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.date: 09/28/2018
@@ -39,7 +39,7 @@ api_name:
  - BindReadOnlyProperty
 ---
 
-# BindReadOnlyProperty function
+# BindReadOnlyProperty(get_lambda) function
 
 
 ## -description
@@ -50,7 +50,7 @@ The returned binder will hold reference on the class object.
 
 A binder which converts one lambda to a read-only property accessor.  The lambda must hold reference on outer objects through  a by value capture.
 
-Usage: BindProperty(get_lambda)
+Usage: BindReadOnlyProperty(get_lambda)
 
 ## -parameters
 
