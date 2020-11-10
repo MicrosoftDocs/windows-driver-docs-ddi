@@ -77,7 +77,7 @@ Call [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT**](../netadapteroffload/nf-net
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_lso_capabilities_init.md)
 

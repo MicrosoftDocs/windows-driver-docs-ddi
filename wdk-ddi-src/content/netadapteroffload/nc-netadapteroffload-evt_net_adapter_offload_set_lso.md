@@ -77,11 +77,11 @@ VOID EvtNetAdapterOffloadSetLso
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
+For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md)
 

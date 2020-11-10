@@ -73,7 +73,7 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
 
