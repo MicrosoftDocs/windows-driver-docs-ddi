@@ -88,7 +88,7 @@ if (SUCCEEDED(spHost.As(&spSym)))
 
 **Differences in symbol module matching in FindModuleByName, CreateTypeSignature and CreateTypeSignatureForModuleRange**
 
-FindModuleByName will allow the passed module name to be either the module's real image name for example My Module.dll, or the one that you can reference it by in the debugger engine (e.g.: MyModule or MyModule_<hex_base>). 
+FindModuleByName will allow the passed module name to be either the module's real image name for example My Module.dll, or the one that you can reference it by in the debugger engine (e.g.: MyModule or MyModule_\<hex_base\>). 
 
 Calling [CreateTypeSignatureForModuleRange](nf-dbgmodel-idebughostsymbols-createtypesignatureformodulerange.md) and passing a name/nullptr/nullptr will create a signature that will match any module that matches that name of any version.
 
