@@ -49,6 +49,9 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
+>[!NOTE]
+>This method is for Microsoft internal use only.
+
 The <b>WdfDeviceInitRegisterPnpStateChangeCallback</b> method registers a driver-supplied event callback function that the framework calls when a device's Plug and Play state machine changes state.
 
 ## -parameters
