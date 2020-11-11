@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignature
 title: IDebugHostSymbols::CreateTypeSignature (dbgmodel.h)
 description: The CreateTypeSignature method creates a signature which can be used to match a set of concrete types by containing module and type name.
 ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
-ms.date: 08/22/2018
+ms.date: 11/10/2020
 keywords: ["IDebugHostSymbols::CreateTypeSignature"]
 ms.keywords: IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature, IDebugHostSymbols::CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature
 req.header: dbgmodel.h
@@ -122,3 +122,6 @@ Calling [FindModuleByName](nf-dbgmodel-idebughostsymbols-findmodulebyname.md) an
 
 [IDebugHostSymbols interface](nn-dbgmodel-idebughostsymbols.md)
 
+[FindModuleByName](nf-dbgmodel-idebughostsymbols-findmodulebyname.md)
+
+[CreateTypeSignatureForModuleRange](nf-dbgmodel-idebughostsymbols-createtypesignatureformodulerange.md)
