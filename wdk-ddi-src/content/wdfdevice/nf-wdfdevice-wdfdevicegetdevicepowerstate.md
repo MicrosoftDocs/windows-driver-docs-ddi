@@ -50,7 +50,7 @@ api_name:
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 >[!NOTE]
->This function is for Microsoft-internal use only.
+>This function is for Microsoft internal use only.
 
 The <b>WdfDeviceGetDevicePowerState</b> method returns the current state of the framework's power state machine, for a specified device.
 
