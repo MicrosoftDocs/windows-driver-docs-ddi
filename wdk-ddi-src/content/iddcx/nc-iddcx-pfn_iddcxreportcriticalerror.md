@@ -1,7 +1,7 @@
 ---
 UID: NC:iddcx.PFN_IDDCXREPORTCRITICALERROR
 title: PFN_IDDCXREPORTCRITICALERROR (iddcx.h)
-description: PFN_IDDCXREPORTCRITICALERROR is a pointer to an OS callback function through which an indirect display driver reports a critical error.
+description: PFN_IDDCXREPORTCRITICALERROR is a pointer to an OS callback function through which to report a critical error.
 tech.root: display
 ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
 ms.date: 09/24/2020
@@ -44,13 +44,13 @@ product:
 
 ## -description
 
-**PFN_IDDCXREPORTCRITICALERROR** is a pointer to an OS callback function through which an indirect display driver (IDD) reports a critical error.
+**PFN_IDDCXREPORTCRITICALERROR** is a pointer to an OS callback function through which to report a critical error.
 
 ## -parameters
 
 ### -param DriverGlobals
 
-[in] Pointer to an [**IDD_DRIVER_GLOBALS**](/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idd_driver_globals) structure containing system-defined per-driver data.
+[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
 ### -param AdapterObject
 
@@ -66,7 +66,7 @@ If the routine succeeds, it never returns to the driver as the driver process wi
 
 ## -remarks
 
-IDDs should not directly call the function that **PFN_IDDCXREPORTCRITICALERROR** points to. Instead, the IDD should call [**IddCxReportCriticalError**](nf-iddcx-iddcxreportcriticalerror.md) to report a critical error.
+An indirect display driver (IDD) should not use this pointer to directly call the function that it points to. IDDs should instead call [**IddCxReportCriticalError**](nf-iddcx-iddcxreportcriticalerror.md) to report a critical error.
 
 ## -see-also
 

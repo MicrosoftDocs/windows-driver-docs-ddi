@@ -46,6 +46,13 @@ product:
 
 ## -description
 
+> [!WARNING]
+> Some information in this topic relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 2004.
+>
+> Currently, NetAdapterCx client drivers cannot be certified.
+
 The **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure.
 
 ## -parameters

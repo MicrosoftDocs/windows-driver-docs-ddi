@@ -51,7 +51,7 @@ The **QueryControllerType** routine gets information about the USB host controll
 
 #### - BusContext [in]
 
-Handle returned in the **BusContext** member of the [USB_BUS_INTERFACE_USBDI_V3](/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3) structure by an IRP_MN_QUERY_INTERFACE request.
+Handle returned in the **BusContext** member of the [USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md) structure by an IRP_MN_QUERY_INTERFACE request.
 
 #### - HcdiOptionFlags [out]
 
@@ -114,4 +114,4 @@ typedef NTSTATUS
 
 ## -see-also
 
-[USB_BUS_INTERFACE_USBDI_V3](/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3)
+[USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md)

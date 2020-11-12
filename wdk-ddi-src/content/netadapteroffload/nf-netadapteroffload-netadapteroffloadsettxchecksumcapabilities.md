@@ -44,6 +44,13 @@ ms.custom: Fe
 
 ## -description
 
+> [!WARNING]
+> Some information in this topic relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 2004.
+>
+> Currently, NetAdapterCx client drivers cannot be certified.
+
 The **NetAdapterOffloadSetTxChecksumCapabilities** function sets the hardware Tx checksum offload capabilities of a network adapter.
 
 ## -parameters

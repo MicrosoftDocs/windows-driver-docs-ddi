@@ -78,7 +78,10 @@ When the IRP completes, the framework releases the remove lock.
 
 Starting in KMDF 1.11, the driver can optionally call <b>WdfDeviceInitSetRemoveLockOptions</b> to cause the framework to acquire a remove lock before delivering all IRP types, not just those listed above.
 
-If your driver has kernel-mode clients that send I/O unsynchronized with the PnP state of your device, you may experience crashes due to I/O IRPs arriving after the framework device object has been removed. In this case, you can call <b>WdfDeviceInitSetRemoveLockOptions</b> to prevent the device object from being removed until I/O has completed.
+If your driver has kernel-mode clients that send I/O unsynchronized with the PnP state of your device, you may experience crashes due to I/O IRPs arriving after the framework device object has been removed. In this case, you can call <b>WdfDeviceInitSetRemoveLockOptions</b>. Then, when a client sends an I/O request to your device:
+
+* If the device has not yet been removed, the remove lock is acquired successfully and the request is delivered. If removal happens later, the framework calls [**IoReleaseRemoveLockAndWait**](../wdm/nf-wdm-ioreleaseremovelockandwait.md) which blocks until all successful lock acquisitions are released (I/O requests are completed).
+* If the device has already processed IRP_MN_REMOVE_DEVICE, but there is an outstanding reference to a WDM device object preventing the device from being released, the remove lock is not acquired and the framework completes the request immediately.
 
 <div class="alert"><b>Note</b>  <b>WdfDeviceInitSetRemoveLockOptions</b> is not supported on control objects.</div>
 <div> </div>

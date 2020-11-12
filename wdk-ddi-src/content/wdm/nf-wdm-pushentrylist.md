@@ -70,7 +70,7 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545418">ExInterlockedPushEntryList</a>
+<a href="/previous-versions/ff545418(v=vs.85)">ExInterlockedPushEntryList</a>
 
 
 

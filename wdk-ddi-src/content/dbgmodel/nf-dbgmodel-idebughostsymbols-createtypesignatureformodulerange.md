@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignatureForModuleRange
 title: IDebugHostSymbols::CreateTypeSignatureForModuleRange (dbgmodel.h)
 description: The CreateTypeSignatureForModuleRange method creates a signature which can be used to match a set of concrete types by module signature and type name.
 ms.assetid: fee485a1-0e7b-4af3-9a2c-b241c59fec5e
-ms.date: 08/22/2018
+ms.date: 11/10/2020
 keywords: ["IDebugHostSymbols::CreateTypeSignatureForModuleRange"]
 ms.keywords: IDebugHostSymbols::CreateTypeSignatureForModuleRange, CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange, IDebugHostSymbols::CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange
 req.header: dbgmodel.h
@@ -102,7 +102,20 @@ if (SUCCEEDED(spHost.As(&spSym)))
 }
 ```
 
+**Differences in symbol module matching in FindModuleByName, CreateTypeSignature and CreateTypeSignatureForModuleRange**
+
+[FindModuleByName](nf-dbgmodel-idebughostsymbols-findmodulebyname.md) will allow the passed module name to be either the module's real image name for example My Module.dll, or the one that you can reference it by in the debugger engine (e.g.: MyModule or MyModule_\<hex_base\>).
+
+Calling CreateTypeSignatureForModuleRange and passing a name/nullptr/nullptr will create a signature that will match any module that matches that name of any version.
+
+The module name passed to the CreateTypeSignature functions will only accept the module's real image name (e.g.: MyModule.dll).
+
+Calling [FindModuleByName](nf-dbgmodel-idebughostsymbols-findmodulebyname.md) and then [CreateTypeSignature](nf-dbgmodel-idebughostsymbols-createtypesignature.md) with that module will create a signature that will match only the particular instance of the module passed to it. If there's two copies of a module that is loaded (e.g.: ntdll in a 32-bit process running on 64-bit Windows), it would only match the specific instance passed. It would also no longer match if that DLL were unloaded and reloaded. The signature is associated to a specific instance of a module as known by the debugger.
+
 ## -see-also
 
 [IDebugHostSymbols interface](nn-dbgmodel-idebughostsymbols.md)
 
+[FindModuleByName](nf-dbgmodel-idebughostsymbols-findmodulebyname.md)
+
+[CreateTypeSignature](nf-dbgmodel-idebughostsymbols-createtypesignature.md)  

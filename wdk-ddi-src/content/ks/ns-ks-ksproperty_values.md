@@ -5,7 +5,7 @@ description: The KSPROPERTY_VALUES structure describes the type and acceptable d
 old-location: stream\ksproperty_values.htm
 tech.root: stream
 ms.assetid: 0837f458-6585-4ac9-a166-e72f715238a1
-ms.date: 04/23/2018
+ms.date: 10/16/2020
 keywords: ["KSPROPERTY_VALUES structure"]
 ms.keywords: "*PKSPROPERTY_VALUES, KSPROPERTY_VALUES, KSPROPERTY_VALUES structure [Streaming Media Devices], PKSPROPERTY_VALUES, PKSPROPERTY_VALUES structure pointer [Streaming Media Devices], ks-struct_a9156948-e21f-41d4-bb63-9c85fdbf57f3.xml, ks/KSPROPERTY_VALUES, ks/PKSPROPERTY_VALUES, stream.ksproperty_values"
 req.header: ks.h
@@ -45,7 +45,6 @@ api_name:
 
 # KSPROPERTY_VALUES structure
 
-
 ## -description
 
 The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
@@ -54,66 +53,48 @@ The KSPROPERTY_VALUES structure describes the type and acceptable default values
 
 ### -field PropTypeSet
 
-Specifies a KSIDENTIFIER structure (see <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>) that identifies the data type of the property. The <b>Set</b> member of a KSIDENTIFIER structure indicates the set of value types supported, and the <b>Id</b> member of the same structure identifies the type within the set.
+Specifies a KSIDENTIFIER structure (see [KSEVENT](/previous-versions/ff561744(v=vs.85))) that identifies the data type of the property. The **Set** member of a KSIDENTIFIER structure indicates the set of value types supported, and the **Id** member of the same structure identifies the type within the set.
 
 ### -field MembersListCount
 
-Specifies the number of entries in the array pointed to by <b>MembersList</b>.
+Specifies the number of entries in the array pointed to by **MembersList**.
 
 ### -field MembersList
 
-Points to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a> structures. Each entry specifies a list of possible values or sets of values that the property may assume.
+Points to an array of [KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md) structures. Each entry specifies a list of possible values or sets of values that the property may assume.
 
 ## -remarks
 
-<b>PropTypeSet.Set</b> almost always equals KSPROPTYPESETID_General. The individual value types in KSPROPTYPESETID_General correspond to the VARENUM types documented in the Microsoft Windows SDK.
+**PropTypeSet.Set** almost always equals KSPROPTYPESETID_General. The individual value types in KSPROPTYPESETID_General correspond to the VARENUM types documented in the Microsoft Windows SDK.
 
-Possible values for PropTypeSet.Id include:
+Possible values for PropTypeSet.Id in streaming media (audio/camera) include:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Data type</th>
-</tr>
-<tr>
-<td>
-VT_I4
+| Value | Data type |
+|--|--|
+| VT_BLOB | Length-prefixed bytes. |
+| VT_BOOL | A Boolean value. True is -1 and false is 0. |
+| VT_CLSID | A class ID. |
+| VT_I4 | A 4-byte integer. |
+| VT_ILLEGAL | An illegal value. |
+| VT_LPWSTR | A wide null-terminated string. |
+| VT_R8 | An 8-byte real. |
+| VT_UI1 | An unsigned character. |
+| VT_UI2 | An unsigned short. |
+| VT_UI4 | An unsigned 4-byte integer. |
+| VT_UI8 | An unsigned 8-byte integer. |
 
-</td>
-<td>
-Signed 4-byte quantity
-
-</td>
-</tr>
-<tr>
-<td>
-VT_UI4
-
-</td>
-<td>
-Unsigned 4-byte quantity
-
-</td>
-</tr>
-</table>
- 
+For more information, see [VARENUM enumeration (ks.h)](./ne-ks-varenum.md).
 
 A driver can specify a pointer to a KSPROPERTY_VALUES structure in the relevant KSPROPERTY_ITEM for a property.
 
-For more information, see <a href="/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
+For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -see-also
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+[KSEVENT](/previous-versions/ff561744(v=vs.85))
 
+[KSPROPERTY_DESCRIPTION](./ns-ks-ksproperty_description.md)
 
+[KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
 
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a>
+[KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md)

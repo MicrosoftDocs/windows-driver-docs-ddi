@@ -94,33 +94,33 @@ filter engine is a required parameter to most of the [Windows Filtering Platform
 
 Callout drivers normally do not need to open a session to the filter engine because callout drivers typically do not call any of the [Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page) management functions.
 
-For a callout driver to successfully open a session to the filter engine, the filter engine must be currently running at the time that the callout driver calls the **FwpmEngineOpen0** function. A callout driver can call the [FwpmBfeStateGet0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0) function to obtain the current state of the filter engine. Before calling **FwpmBfeStateGet0**, the callout driver must call the [FwpmBfeStateSubscribeChanges0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0) function to register a callback function that will be called whenever there is a change in the state of the filter engine.
+For a callout driver to successfully open a session to the filter engine, the filter engine must be currently running at the time that the callout driver calls the **FwpmEngineOpen0** function. A callout driver can call the [FwpmBfeStateGet0](./nf-fwpmk-fwpmbfestateget0.md) function to obtain the current state of the filter engine. Before calling **FwpmBfeStateGet0**, the callout driver must call the [FwpmBfeStateSubscribeChanges0](./nf-fwpmk-fwpmbfestatesubscribechanges0.md) function to register a callback function that will be called whenever there is a change in the state of the filter engine.
 
-After a callout driver has finished accessing the filter engine, it calls the [FwpmEngineClose0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0) function to close the open session to the filter engine.
+After a callout driver has finished accessing the filter engine, it calls the [FwpmEngineClose0](./nf-fwpmk-fwpmengineclose0.md) function to close the open session to the filter engine.
 
 ## -see-also
 
-[FwpmBfeStateGet0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateget0)
+[FwpmBfeStateGet0](./nf-fwpmk-fwpmbfestateget0.md)
 
 
 
-[FwpmBfeStateSubscribeChanges0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0)
+[FwpmBfeStateSubscribeChanges0](./nf-fwpmk-fwpmbfestatesubscribechanges0.md)
 
 
 
-[FwpmCalloutAdd0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0)
+[FwpmCalloutAdd0](./nf-fwpmk-fwpmcalloutadd0.md)
 
 
 
-[FwpmCalloutDeleteById0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0)
+[FwpmCalloutDeleteById0](./nf-fwpmk-fwpmcalloutdeletebyid0.md)
 
 
 
-[FwpmCalloutDeleteByKey0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0)
+[FwpmCalloutDeleteByKey0](./nf-fwpmk-fwpmcalloutdeletebykey0.md)
 
 
 
-[FwpmEngineClose0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineclose0)
+[FwpmEngineClose0](./nf-fwpmk-fwpmengineclose0.md)
 
 
 

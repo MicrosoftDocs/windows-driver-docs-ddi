@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-A callout driver calls **FwpsCompleteClassify0** to asynchronously complete a pended classify request. The callout driver's [classifyFn](/windows-hardware/drivers/ddi/_netvista/) function must have previously called [FwpsPendClassify0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0) to pend the classify request.
+A callout driver calls **FwpsCompleteClassify0** to asynchronously complete a pended classify request. The callout driver's [classifyFn](../_netvista/index.md) function must have previously called [FwpsPendClassify0](./nf-fwpsk-fwpspendclassify0.md) to pend the classify request.
 
 > [!Note]
 > **FwpsCompleteClassify0** is a specific version of **FwpsCompleteClassify**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
@@ -57,7 +57,7 @@ A callout driver calls **FwpsCompleteClassify0** to asynchronously complete a pe
 ### -param classifyHandle
 
 [in]
-The classification handle that identifies the callout driver's processing at the current layer. This handle is obtained by calling [FwpsAcquireClassifyHandle0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0).
+The classification handle that identifies the callout driver's processing at the current layer. This handle is obtained by calling [FwpsAcquireClassifyHandle0](./nf-fwpsk-fwpsacquireclassifyhandle0.md).
 
 ### -param flags
 
@@ -67,15 +67,15 @@ This parameter is reserved for future use. Set to zero.
 
 ### -param classifyOut
 
-[in, optional] A pointer to a deep copy of the [FWPS_CLASSIFY_OUT0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0) structure that was originally passed to the [classifyFn](/windows-hardware/drivers/ddi/_netvista/) call when the classification was pended. When classifying asynchronously, the members of this structure can be set the same way as they would be in the callout driver's *classifyFn* function when classifying inline.
+[in, optional] A pointer to a deep copy of the [FWPS_CLASSIFY_OUT0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0) structure that was originally passed to the [classifyFn](../_netvista/index.md) call when the classification was pended. When classifying asynchronously, the members of this structure can be set the same way as they would be in the callout driver's *classifyFn* function when classifying inline.
 
 If this parameter is used, the classification is taken as the callout driver's final decision. If set to **NULL**, the indication will be reauthorized.
 
 ## -remarks
 
-**FwpsCompleteClassify0** must be called after a callout driver has called [FwpsPendClassify0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0) to remove the classification from its pended state.
+**FwpsCompleteClassify0** must be called after a callout driver has called [FwpsPendClassify0](./nf-fwpsk-fwpspendclassify0.md) to remove the classification from its pended state.
 
-After calling this function, [FwpsReleaseClassifyHandle0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0) must be called to free the system resources associated with the classification handle.
+After calling this function, [FwpsReleaseClassifyHandle0](./nf-fwpsk-fwpsreleaseclassifyhandle0.md) must be called to free the system resources associated with the classification handle.
 
 ## -see-also
 
@@ -87,4 +87,4 @@ After calling this function, [FwpsReleaseClassifyHandle0](/windows-hardware/driv
 
 [FwpsReleaseClassifyHandle0](nf-fwpsk-fwpsreleaseclassifyhandle0.md)
 
-[classifyFn](/windows-hardware/drivers/ddi/_netvista/)
+[classifyFn](../_netvista/index.md)

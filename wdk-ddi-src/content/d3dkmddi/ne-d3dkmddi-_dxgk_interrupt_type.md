@@ -44,7 +44,6 @@ api_name:
 
 # _DXGK_INTERRUPT_TYPE enumeration
 
-
 ## -description
 
 The **DXGK_INTERRUPT_TYPE** enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
@@ -145,7 +144,7 @@ Raised when the suspend context has completed. Supported starting with Windows 
 
 [**DXGKARG_CONTROLINTERRUPT2**](./ns-d3dkmddi-_dxgkarg_controlinterrupt2.md)
 
-[**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
+[**DXGKARG_CONTROLINTERRUPT3**](ns-d3dkmddi-dxgkarg_controlinterrupt3.md)
 
 [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 

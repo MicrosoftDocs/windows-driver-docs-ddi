@@ -46,6 +46,10 @@ req.typenames:
 
 ## -description
 
+> [!NOTE]
+> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver. While that page is unavailable, links to it redirect here.
+
+
 
 Updates the target device with a driver from the driver package.
 
