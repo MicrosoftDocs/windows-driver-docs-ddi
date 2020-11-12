@@ -44,6 +44,9 @@ api_name:
 
 ## -description
 
+> [!NOTE]
+> The **NetAdapterOffloadSetChecksumCapabilities** function is deprecated in NetAdapterCx 2.1 and later. For more information on current checksum offload functions, see [Checksum offload](/windows-hardware/drivers/netcx/checksum-offload).
+
 The **NetAdapterOffloadSetChecksumCapabilities** function sets the hardware checksum offload capabilities of a network adapter.
 
 ## -parameters
@@ -62,7 +65,7 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 

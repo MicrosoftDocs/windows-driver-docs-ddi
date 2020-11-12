@@ -43,6 +43,9 @@ api_name:
 
 ## -description
 
+> [!NOTE]
+> The *EvtNetAdapterOffloadSetChecksum* callback function is deprecated in NetAdapterCx 2.1 and later. For more information on current checksum offload functions, see [Checksum offload](/windows-hardware/drivers/netcx/checksum-offload).
+
 The *EvtNetAdapterOffloadSetChecksum* callback function is implemented by the client driver to set changes in active checksum offload capabilities.
 
 ## -parameters
@@ -81,7 +84,7 @@ For an example implementation of this callback, see [NetAdapterCx hardware offlo
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md)
 
