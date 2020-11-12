@@ -42,6 +42,9 @@ api_name:
 
 ## -description
 
+> [!NOTE]
+> The **NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES** function is deprecated in NetAdapterCx 2.1 and later. For more information on current checksum offload functions, see [Checksum offload](/windows-hardware/drivers/netcx/checksum-offload).
+
 The **NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES** structure describes a network interface card (NIC)'s capabilities for offloading checksum calculation and validation.
 
 ## -struct-fields
@@ -73,7 +76,7 @@ Call [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT**](nf-netadapter-net_adap
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT**](nf-netadapter-net_adapter_offload_checksum_capabilities_init.md)
 
