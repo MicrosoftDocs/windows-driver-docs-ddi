@@ -42,6 +42,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Mbbcx.h](../mbbcx/index.md)
 - [Mdl.h](../mdl/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
+- [Nbl.h](../nbl/index.md)
 - [Ndis.h](../ndis/index.md)
 - [Ndischimney.h](../ndischimney/index.md)
 - [Ndisndk.h](../ndisndk/index.md)
