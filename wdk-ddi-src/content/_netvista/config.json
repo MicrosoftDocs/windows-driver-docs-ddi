@@ -9,6 +9,7 @@
     "fragment.h",
     "fwpmk.h",
     "fwpsk.h",
+    "hashtypes.h",
     "knetpwrdepbroker.h",
     "logicaladdress.h",
     "logicaladdresstypes.h",
