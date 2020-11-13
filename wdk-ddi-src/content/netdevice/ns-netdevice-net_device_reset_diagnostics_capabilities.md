@@ -6,6 +6,7 @@ ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
 description: The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure describes a client driver's capabilities for collecting diagnostics during the device reset and recovery process.
+tech.root: netvista
 keywords: ["EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"]
 req.construct-type: structure
 req.ddi-compliance:

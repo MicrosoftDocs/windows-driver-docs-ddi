@@ -7,6 +7,7 @@ ms.custom: Fe
 keywords: ["NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT function"]
 targetos: Windows
 description: The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT function initializes a NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure.
+tech.root: netvista
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:

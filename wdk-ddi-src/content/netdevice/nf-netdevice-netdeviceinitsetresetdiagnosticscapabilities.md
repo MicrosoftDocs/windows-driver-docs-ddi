@@ -7,6 +7,7 @@ ms.custom: Fe
 targetos: Windows
 keywords: ["NetDeviceInitSetResetDiagnosticsCapabilities"]
 description: The NetDeviceInitSetResetDiagnosticsCapabilities function registers a client driver's NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES to the framework.
+tech.root: netvista
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:

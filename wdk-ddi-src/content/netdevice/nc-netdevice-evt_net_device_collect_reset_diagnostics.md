@@ -6,6 +6,7 @@ ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
 description: Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS to collect diagnostics from a failed hardware device and report it to the framework during the device reset and recovery process.
+tech.root: netvista
 keywords: ["EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"]
 req.assembly:
 req.construct-type: function
