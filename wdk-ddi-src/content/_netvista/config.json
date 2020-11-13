@@ -20,7 +20,7 @@
     "mdl.h",
     "mdltypes.h",
     "miniport.h",
-    "nbl.h"
+    "nbl.h",
     "ndis.h",
     "ndischimney.h",
     "ndisndk.h",
