@@ -80,11 +80,11 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD
 
 Call [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_rsc_capabilities_init.md) to initialize this structure. The client driver passes an initialized  **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES** structure as a parameter to [**NetAdapterOffloadSetRscCapabilities**](nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md).
 
-To see an example of how a client driver might set up its RSC hardware offload capabilities, see [Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads).
+To see an example of how a client driver might set up its RSC hardware offload capabilities, see [Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offload).
 
 ## -see-also
 
-[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads)
+[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offload)
 
 [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_rsc_capabilities_init.md)
 
