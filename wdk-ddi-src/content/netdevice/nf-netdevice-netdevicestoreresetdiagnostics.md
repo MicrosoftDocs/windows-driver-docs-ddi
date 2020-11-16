@@ -6,6 +6,7 @@ ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
 description: The NetDeviceStoreResetDiagnostics function stores client driver collected reset diagnostics into the NetAdapterCx framework.
+tech.root: netvista
 keywords: ["NetDeviceStoreResetDiagnostics function"]
 req.assembly:
 req.construct-type: function
