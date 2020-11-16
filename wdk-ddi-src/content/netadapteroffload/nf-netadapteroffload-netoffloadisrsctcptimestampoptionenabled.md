@@ -5,7 +5,6 @@ ms.date: 10/15/2020
 ms.topic: language-reference
 targetos: Windows
 description: The NetOffloadIsRscTcpTimestampOptionEnabled function determines whether a net adapter has RSC offload enabled for timestamp packets.
-nf-netadapteroffload-netoffloadisrsctcptimestampoptionenabled.md
 tech.root: netvista
 req.assembly: 
 req.construct-type: function
