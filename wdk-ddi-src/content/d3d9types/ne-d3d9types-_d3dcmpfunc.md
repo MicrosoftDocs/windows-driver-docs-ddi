@@ -4,6 +4,7 @@ title: _D3DCMPFUNC (d3d9types.h)
 description: 
 ms.assetid: f7ce8d22-bd17-407b-a8d8-7a849183ba7e
 ms.date: 10/19/2018
+tech.root: display
 keywords: ["D3DCMPFUNC enumeration"]
 ms.keywords: _D3DCMPFUNC, D3DCMPFUNC,
 req.header: d3d9types.h

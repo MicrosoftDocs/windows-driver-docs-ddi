@@ -3,6 +3,7 @@ UID: NE:dispmprt._DXGK_DIAG_DISPLAY_MODE_SET
 title: DXGK_DIAG_DISPLAY_MODE_SET
 ms.date: 03/24/2020
 ms.topic: language-reference
+tech.root: display
 targetos: Windows
 description: DXGK_DIAG_DISPLAY_MODE_SET provides a driver's last mode set state to the operating system (OS) when it is gathering nonintrusive display diagnostic information.
 req.construct-type: enumeration

@@ -4,6 +4,7 @@ title: FltReleasePushLockEx function (fltkernel.h)
 description: The FltReleasePushLockEx routine releases a specified push lock owned by the current thread.
 ms.assetid: 8ada42d3-1988-43fd-89f7-af0c5702e9c0
 ms.date: 10/19/2018
+tech.root: ifsk
 keywords: ["FltReleasePushLockEx function"]
 ms.keywords: FltReleasePushLockEx
 req.header: fltkernel.h
