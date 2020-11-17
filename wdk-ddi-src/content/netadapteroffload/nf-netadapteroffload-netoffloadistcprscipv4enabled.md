@@ -68,7 +68,7 @@ Client drivers typically call this function during their [*EvtNetAdapterOffloadS
 
 ## -see-also
 
-[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads)
+[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offload)
 
 [*EvtNetAdapterOffloadSetRsc*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
 
