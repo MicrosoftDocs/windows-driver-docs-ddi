@@ -177,7 +177,7 @@ For more information about registry-key objects, see <a href="/windows-hardware/
 
 #### Examples
 
-The following code example opens a driver's software key, and then it creates and opens the <b>MySubKey</b> registry key, which is located under the driver's software key.
+The following code example opens a driver's software key, and then it creates and opens the <b>myKeyStr</b> registry key, which is located under the driver's software key.
 
 ```cpp
 WDFKEY  hKey, subkey;
@@ -193,8 +193,8 @@ status = WdfDeviceOpenRegistryKey(
                                   );
 if (NT_SUCCESS(status)){
     RtlInitUnicodeString(
-                         &mySubKey,
-                         L"MySubKey"
+                         &myKeyStr,
+                         L"myKeyStr"
                          );
     status = WdfRegistryCreateKey(
                                   hKey,
