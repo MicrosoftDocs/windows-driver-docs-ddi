@@ -3,6 +3,7 @@ UID: NS:dispmprt._DXGKARG_GETDISPLAYSTATE_INTRUSIVE
 title: DXGKARG_GETDISPLAYSTATEINTRUSIVE
 ms.date: 03/24/2020
 ms.topic: language-reference
+tech.root: display
 targetos: Windows
 description: The DXGKARG_GETDISPLAYSTATEINTRUSIVE structure is passed to DxgkDdiGetDisplayStateIntrusive during diagnostic data collection.
 req.construct-type: structure

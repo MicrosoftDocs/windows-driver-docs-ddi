@@ -4,6 +4,7 @@ title: _D3DTEXTUREOP (d3d9types.h)
 description: 
 ms.assetid: e97f06ba-2784-474d-bd42-23ea1c877180
 ms.date: 10/19/2018
+tech.root: display
 keywords: ["D3DTEXTUREOP enumeration"]
 ms.keywords: _D3DTEXTUREOP, D3DTEXTUREOP,
 req.header: d3d9types.h
