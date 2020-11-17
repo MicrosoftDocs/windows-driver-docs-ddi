@@ -4,6 +4,7 @@ title: _D3DBLENDOP (d3d9types.h)
 description: 
 ms.assetid: 65633e28-5a35-49d1-8120-7732a5f47f02
 ms.date: 10/19/2018
+tech.root: display
 keywords: ["D3DBLENDOP enumeration"]
 ms.keywords: _D3DBLENDOP, D3DBLENDOP,
 req.header: d3d9types.h

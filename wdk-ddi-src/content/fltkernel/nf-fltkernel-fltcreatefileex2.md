@@ -5,13 +5,13 @@ description: Minifilter drivers call FltCreateFileEx2 to create a new file or op
 old-location: ifsk\fltcreatefileex2.htm
 tech.root: ifsk
 ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
-ms.date: 02/13/2020
+ms.date: 11/11/2020
 keywords: ["FltCreateFileEx2 function"]
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in starting with Windows Vista.
+req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Minifilter drivers call **FltCreateFileEx2** to create a new file or open an existing file.  This routine includes an optional create context parameter.
+Minifilter drivers call **FltCreateFileEx2** to create a new file or open an existing file.  This routine includes an optional create context parameter (ECP).
 
 ## -parameters
 
@@ -125,7 +125,9 @@ Minifilter drivers call **FltCreateFileEx2** to create a new file or open an exi
 
 **FltCreateFileEx2** is similar to [**FltCreateFile**](./nf-fltkernel-fltcreatefile.md) and [**FltCreateFileEx**](./nf-fltkernel-fltcreatefileex.md), except that it supports the *DriverContext* input parameter.
 
-To specify an extra create parameter (ECP) as part of a create operation, initialize the **ExtraCreateParameter** member of the IO_DRIVER_CREATE_CONTEXT structure with the [**FltAllocateExtraCreateParameterList**](./nf-fltkernel-fltallocateextracreateparameterlist.md) routine.  If ECPs are used, they must be created, manipulated, and freed using the appropriate routines - the following *See Also* section lists these routines.  Upon returning from the call of **FltCreateFileEx2**, the ECP list is unchanged and may be passed to additional calls of **FltCreateFileEx2** for other create operations.  Note that the operating system does not automatically deallocate the ECP list structure - the caller of **FltCreateFileEx2** must deallocate this structure by calling the [**FltFreeExtraCreateParameterList**](./nf-fltkernel-fltfreeextracreateparameterlist.md) routine.
+To specify an ECP as part of a create operation, initialize the **ExtraCreateParameter** member of the IO_DRIVER_CREATE_CONTEXT structure with the [**FltAllocateExtraCreateParameterList**](./nf-fltkernel-fltallocateextracreateparameterlist.md) routine. If ECPs are used, they must be created, manipulated, and freed using the appropriate routines.
+
+Filter drivers below the caller of **FltCreateFileEx2** should not add or delete ECPs on the caller. Consequently, upon returning from the call to **FltCreateFileEx2**, the ECP list should be unchanged and may be passed to additional calls of **FltCreateFileEx2** for other create operations.  Note that the operating system does not automatically deallocate the ECP list structure - the caller of **FltCreateFileEx2** must deallocate this structure by calling the [**FltFreeExtraCreateParameterList**](./nf-fltkernel-fltfreeextracreateparameterlist.md) routine.
 
 To create/open a file in the context of a transaction, set the **TxnParameters** member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the [**IoGetTransactionParameterBlock**](../ntddk/nf-ntddk-iogettransactionparameterblock.md) routine.
 
