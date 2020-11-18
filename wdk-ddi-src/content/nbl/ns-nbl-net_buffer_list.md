@@ -8,7 +8,7 @@ description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: ndis.h/nbl.h
+req.header: ndis/nbl.h
 req.include-header: ndis.h
 req.kmdf-ver: 
 req.lib: 
