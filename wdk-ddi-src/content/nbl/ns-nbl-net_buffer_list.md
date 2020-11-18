@@ -8,7 +8,7 @@ description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: nbl.h
+req.header: ndis.h/nbl.h
 req.include-header: ndis.h
 req.kmdf-ver: 
 req.lib: 
@@ -48,6 +48,9 @@ dev_langs:
 
 The NET_BUFFER_LIST structure specifies a linked list of 
   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
+
+> [!NOTE]
+> NDIS drivers should include ndis.h instead of nbl.h.
 
 ## -struct-fields
 
