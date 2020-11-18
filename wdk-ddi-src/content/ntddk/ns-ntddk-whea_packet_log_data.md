@@ -1,6 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_PACKET_LOG_DATA
 title: WHEA_PACKET_LOG_DATA
+tech.root: whea
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
