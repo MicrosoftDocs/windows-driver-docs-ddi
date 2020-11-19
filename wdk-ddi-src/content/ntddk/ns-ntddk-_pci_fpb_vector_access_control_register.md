@@ -2,7 +2,7 @@
 UID: NS:ntddk._PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
 title: _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER (ntddk.h)
 description: The FPB Vector Access Control Register. See section 7.y.8.
-tech.root: pci
+tech.root: PCI
 ms.assetid: 18203808-fb82-474e-8471-ab492914c0db
 ms.date: 09/30/2018
 keywords: ["PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER structure"]

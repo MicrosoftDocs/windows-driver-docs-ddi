@@ -2,7 +2,7 @@
 UID: NS:ntddk._PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
 title: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER (ntddk.h)
 description: The FPB MEM High Vector Control 1 Register. See section 7.y.6.
-tech.root: pci
+tech.root: PCI
 ms.assetid: 83db0b5f-964d-42ba-b1b3-604776b2ac49
 ms.date: 09/30/2018
 keywords: ["PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER structure"]

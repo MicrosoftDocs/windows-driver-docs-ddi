@@ -2,6 +2,7 @@
 UID: NF:wdm.ExAcquirePushLockExclusive
 title: ExAcquirePushLockExclusive macro (wdm.h)
 description: Acquires the given push lock for exclusive access by the calling thread.
+tech.root: kernel
 ms.assetid: ba752619-f885-4977-b0e6-7c0339373b78
 ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockExclusive macro"]

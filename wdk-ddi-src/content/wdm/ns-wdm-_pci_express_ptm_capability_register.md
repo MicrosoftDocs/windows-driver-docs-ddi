@@ -2,6 +2,7 @@
 UID: NS:wdm._PCI_EXPRESS_PTM_CAPABILITY_REGISTER
 title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER (wdm.h)
 description: Reserved. Do not use.
+tech.root: PCI
 ms.assetid: 5149d900-1122-4330-a03f-8d3ac5fce330
 ms.date: 10/19/2018
 keywords: ["PCI_EXPRESS_PTM_CAPABILITY_REGISTER structure"]

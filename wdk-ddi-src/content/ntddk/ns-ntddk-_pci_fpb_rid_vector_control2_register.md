@@ -2,7 +2,7 @@
 UID: NS:ntddk._PCI_FPB_RID_VECTOR_CONTROL2_REGISTER
 title: _PCI_FPB_RID_VECTOR_CONTROL2_REGISTER (ntddk.h)
 description: The FPB RID Vector Control 1 Register. See section 7.y.3.
-tech.root: pci
+tech.root: PCI
 ms.assetid: aa8427fa-e129-4673-9adb-786ee3563d2e
 ms.date: 09/30/2018
 keywords: ["PCI_FPB_RID_VECTOR_CONTROL2_REGISTER structure"]
