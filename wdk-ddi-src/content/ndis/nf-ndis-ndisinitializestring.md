@@ -5,7 +5,7 @@ description: The NdisInitializeString function allocates storage for and initial
 old-location: netvista\ndisinitializestring.htm
 tech.root: netvista
 ms.assetid: c6945d7d-5152-4968-a628-7850b8083a82
-ms.date: 05/02/2018
+ms.date: 11/18/2020
 keywords: ["NdisInitializeString function"]
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring
 req.header: ndis.h
@@ -47,80 +47,67 @@ api_name:
 
 ## -description
 
-The 
-  <b>NdisInitializeString</b> function allocates storage for and initializes a counted string in the
-  system-default character set.
+The **NdisInitializeString** function allocates storage for and initializes a counted string in the system-default character set.
 
 ## -parameters
 
 ### -param Destination
 
-A pointer that is <b>NULL</b> when 
-     <b>NdisInitializeString</b> is called; on return from this function, this parameter points to an
-     NDIS_STRING type that describes an initialized counted string. For Windows 2000 and later, NDIS defines
-     the NDIS_STRING type as a 
-     <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+A pointer to an NDIS_STRING with a **NULL** buffer. On return from this function, the NDIS_STRING contains an initialized, counted string. For Windows 2000 and later, NDIS defines the NDIS_STRING type as a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) type.
 
 ### -param Source
 
-A pointer to a null-terminated string with which to initialize the counted string. 
-     <i>SourceString</i> must not be <b>NULL</b>.
+A pointer to a null-terminated string with which to initialize the counted string. *SourceString* must not be **NULL**.
 
 ## -remarks
 
-<b>NdisInitializeString</b> sets the 
-    <b>Length</b> and 
-    <b>MaximumLength</b> members of NDIS_STRING for the destination string and terminates the destination
-    string with zero. For Windows 2000 and later drivers, 
-    <b>NdisInitializeString</b> converts the supplied source string to Unicode characters.
+**NdisInitializeString** sets the **Length** and **MaximumLength** members of NDIS_STRING for the destination string and terminates the destination string with zero. For Windows 2000 and later drivers,**NdisInitializeString** converts the supplied source string to Unicode characters.
 
-<i>SourceString</i> must not be <b>NULL</b>.
+*SourceString* must not be **NULL**.
 
-The buffer allocated by 
-    <b>NdisInitializeString</b> should be released with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring">NdisFreeString</a> function.
+The buffer allocated by **NdisInitializeString** should be released with the [NdisFreeString](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring) function.
 
 ## -see-also
 
-<a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
+[ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
 
 
 
-<a href="/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
-   Drivers</a>
+[DriverEntry of NDIS Protocol
+   Drivers](/previous-versions/windows/embedded/gg156036(v=winembedded.80))
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+[MiniportInitializeEx](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
+[RtlAnsiStringToUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalunicodestring">RtlEqualUnicodeString</a>
+[RtlEqualUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalunicodestring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeansistring">RtlFreeAnsiString</a>
+[RtlFreeAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeansistring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
+[RtlFreeUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring">RtlInitString</a>
+[RtlInitString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
+[RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring)
 
 
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
+[RtlUnicodeStringToAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring)
 
 
 
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
