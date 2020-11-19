@@ -1,6 +1,7 @@
 ---
 UID: NF:ntddk.KeExpandKernelStackAndCalloutEx
 title: KeExpandKernelStackAndCalloutEx
+tech.root: kernel
 ms.date: 11/8/2019
 ms.topic: language-reference
 targetos: Windows

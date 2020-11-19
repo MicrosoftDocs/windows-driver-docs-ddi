@@ -1,6 +1,7 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_D0_ENTRY_POST_HARDWARE_ENABLED
 title: EVT_WDF_DEVICE_D0_ENTRY_POST_HARDWARE_ENABLED
+tech.root: wdf
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
