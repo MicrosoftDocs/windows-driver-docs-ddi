@@ -81,11 +81,11 @@ This function does not return a value.
 
 The client driver calls **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** to initialize a [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure. The driver passes the initialized **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES** structure as a parameter to the [**NetAdapterOffloadSetRscCapabilities**](nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md) function to register it.
 
-To see an example of how a client driver might set up its RSC hardware offload capabilities, see [Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads).
+To see an example of how a client driver might set up its RSC hardware offload capabilities, see [Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offload).
 
 ## -see-also
 
-[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offloads)
+[Receive Segment Coalescing offload](/windows-hardware/drivers/netcx/rsc-offload)
 
 [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
 

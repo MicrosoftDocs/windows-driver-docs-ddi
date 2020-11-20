@@ -23,5 +23,5 @@
     "wmilib.h",
     "wmistr.h",
   ],
-  "displayName": "Windows kernel"
+  "displayName": "Kernel"
 }

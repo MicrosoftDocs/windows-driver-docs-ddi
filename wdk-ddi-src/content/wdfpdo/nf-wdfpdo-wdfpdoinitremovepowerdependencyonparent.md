@@ -2,6 +2,7 @@
 UID: NF:wdfpdo.WdfPdoInitRemovePowerDependencyOnParent
 title: WdfPdoInitRemovePowerDependencyOnParent
 ms.date: 03/24/2020
+tech.root: wdf
 targetos: Windows
 description: 
 req.assembly: 

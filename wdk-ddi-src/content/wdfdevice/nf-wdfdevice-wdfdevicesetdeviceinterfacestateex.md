@@ -1,6 +1,7 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetDeviceInterfaceStateEx
 title: WdfDeviceSetDeviceInterfaceStateEx
+tech.root: wdf
 ms.date: 03/24/2020
 targetos: Windows
 description: 

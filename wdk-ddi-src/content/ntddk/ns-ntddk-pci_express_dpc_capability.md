@@ -1,6 +1,7 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DPC_CAPABILITY
 title: PCI_EXPRESS_DPC_CAPABILITY
+tech.root: PCI
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
