@@ -2,6 +2,7 @@
 UID: NF:ufxclient.UfxDeviceNotifyFinalExit
 title: UfxDeviceNotifyFinalExit function (ufxclient.h)
 description: Notifies UFX that the device is detached.
+tech.root: usbref
 ms.assetid: 7c48f7e0-ce21-40b2-be17-037b70178673
 ms.date: 10/19/2018
 keywords: ["UfxDeviceNotifyFinalExit function"]
