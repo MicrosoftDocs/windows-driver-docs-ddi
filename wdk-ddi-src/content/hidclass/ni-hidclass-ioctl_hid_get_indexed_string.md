@@ -43,42 +43,37 @@ api_name:
 
 # IOCTL_HID_GET_INDEXED_STRING IOCTL
 
-
 ## -description
 
-The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. The retrieved string is a NULL-terminated wide character string in a human-readable format.
+The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a [top-level collection](/windows-hardware/drivers/hid/top-level-collections). The retrieved string is a NULL-terminated wide character string in a human-readable format.
 
-For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices see [HID Collections](/windows-hardware/drivers/hid/hid-collections).
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size in bytes of the input buffer at the location pointed to by <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+**Parameters.DeviceIoControl.InputBufferLength** in the I/O stack location of the IRP indicates the size in bytes of the input buffer at the location pointed to by **Irp->AssociatedIrp.SystemBuffer**.
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer.  
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer.  
 
-<b>Minidriver handling</b>
+**Minidriver handling**: IOCTL_HID_GET_INDEXED_STRING uses two input buffers.
 
-IOCTL_HID_GET_INDEXED_STRING uses two input buffers.
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer at the location pointed to by **Irp->MdlAddress**. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer at the location pointed to by <b>Irp->MdlAddress</b>. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
-
-<b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains an INT value that describes the string to be retrieved. The most significant two bytes of the INT value contain the language ID (for example, a value of 1033 indicates English). The least significant two bytes of the INT value contain the string index.
+**Parameters.DeviceIoControl.Type3InputBuffer** contains an INT value that describes the string to be retrieved. The most significant two bytes of the INT value contain the language ID (for example, a value of 1033 indicates English). The least significant two bytes of the INT value contain the string index.
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> must be >= <b>sizeof</b>(ULONG) and it should contain the index of the string to be retrieved. 
+**Parameters.DeviceIoControl.InputBufferLength** must be >= **sizeof**(ULONG) and it should contain the index of the string to be retrieved. The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
-For <b>Parameters.DeviceIoControl.OutputBufferLength</b>, the maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
+For **Parameters.DeviceIoControl.OutputBufferLength**, the maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
 ### -output-buffer
 
-<b>Irp->MdlAddress</b> points to a buffer to receive the retrieved string (a NULL-terminated wide character string).
+**Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string).
 
-<b>Minidriver handling</b>
-
-<b>Irp->MdlAddress</b> points to a buffer to receive the retrieved string (a NULL-terminated wide character string). Note that unlike most device control IRPs for HID minidrivers, this IRP does not use METHOD_NEITHER buffering. In particular, it must be distinguished from IOCTL_HID_GET_STRING whose output buffer is identified by <b>Irp->UserBuffer</b>.
+**Minidriver handling**: **Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). Note that unlike most device control IRPs for HID minidrivers, this IRP does not use METHOD_NEITHER buffering. In particular, it must be distinguished from IOCTL_HID_GET_STRING whose output buffer is identified by **Irp->UserBuffer**.
 
 ### -output-buffer-length
 
@@ -90,47 +85,26 @@ The length of the retrieved string  (a NULL-terminated wide character string).
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
+The HID class driver sets the following fields of **Irp->IoStatus**:
 
-<ul>
-<li>
-<b>Information</b> is set to the number of bytes transferred from the device.
+- **Information** is set to the number of bytes transferred from the device.
 
-</li>
-<li>
-<b>Status</b> is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
-
-</li>
-</ul>
+- **Status** is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring">HidD_GetIndexedString</a>
+[HidD_GetIndexedString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring)
 
+[HidD_GetManufacturerString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getmanufacturerstring)
 
+[HidD_GetPhysicalDescriptor](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getphysicaldescriptor)
 
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getmanufacturerstring">HidD_GetManufacturerString</a>
+[HidD_GetProductString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getproductstring)
 
+[HidD_GetSerialNumberString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getserialnumberstring)
 
+[IOCTL_HID_GET_MANUFACTURER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string)
 
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getphysicaldescriptor">HidD_GetPhysicalDescriptor</a>
+[IOCTL_HID_GET_PRODUCT_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_product_string)
 
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getproductstring">HidD_GetProductString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getserialnumberstring">HidD_GetSerialNumberString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string">IOCTL_HID_GET_MANUFACTURER_STRING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_product_string">IOCTL_HID_GET_PRODUCT_STRING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
+[IOCTL_HID_GET_SERIALNUMBER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string)
