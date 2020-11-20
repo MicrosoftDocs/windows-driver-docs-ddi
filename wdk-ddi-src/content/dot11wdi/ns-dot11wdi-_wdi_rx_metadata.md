@@ -53,7 +53,7 @@ api_name:
 The 
   WDI_RX_METADATA structure defines the RX metadata.
 
-The RX Engine specifies this metadata in the <b>rxMetadata</b> section of the <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a> buffer attached to each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> (in MiniportReserved[0]). Each NET_BUFFER_LIST represents an MPDU.  The IHV miniport driver must not allocate a <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_extsta_recv_context">DOT11_EXTSTA_RECV_CONTEXT</a> structure as this is handled by WDI.
+The RX Engine specifies this metadata in the <b>rxMetadata</b> section of the <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a> buffer attached to each <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> (in MiniportReserved[0]). Each NET_BUFFER_LIST represents an MPDU.  The IHV miniport driver must not allocate a <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_extsta_recv_context">DOT11_EXTSTA_RECV_CONTEXT</a> structure as this is handled by WDI.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ The payload type, specified for each MPDU.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

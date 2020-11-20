@@ -49,7 +49,7 @@ api_name:
 
 Call the 
   <b>NdisAllocateNetBufferAndNetBufferList</b> function to allocate and initialize a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is initialized
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is initialized
   with a preallocated 
   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
@@ -117,7 +117,7 @@ The length, in bytes, of the
 
 The structures that the 
     <b>NdisAllocateNetBufferAndNetBufferList</b> function allocates must come from a pool that includes 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are paired
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are paired
     with preallocated 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. To create such a pool, you
     must call the 
@@ -128,13 +128,13 @@ The structures that the
     <b>DataSize</b> member set to zero.
 
 <div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER_LIST</b> or <b>NET_BUFFER</b>
     structure from its private memory pool or the stack.</div>
 <div> </div>
 Call the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a> function to
-    free a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    free a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 The preallocated <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
     <b>NET_BUFFER</b>, but the 
@@ -170,7 +170,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

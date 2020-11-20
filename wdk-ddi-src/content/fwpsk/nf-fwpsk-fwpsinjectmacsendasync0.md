@@ -93,7 +93,7 @@ The NDIS port number that is passed to the callout driver's <a href="/windows-ha
 
 [in, out]
 A pointer to a
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
      inject packet data by calling either the
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function or the
@@ -135,7 +135,7 @@ The MAC frame data injection was initiated successfully. The filter engine calls
        function after the filter engine has completed injecting the MAC frame data, or
        when an error occurred subsequently. In case of an error, the
        <b>Status</b> member of the completed
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -193,7 +193,7 @@ An error occurred.
 
 A callback driver calls the <b>FwpsInjectMacSendAsync0</b>  function to reinject a previously absorbed MAC frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or to inject an invented MAC frame.
 
-The <i>netBufferLists</i> parameter can be a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain. However the completion function could be invoked multiple times each, completing a segment (or single NET_BUFFER_LIST) of the chain.
+The <i>netBufferLists</i> parameter can be a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain. However the completion function could be invoked multiple times each, completing a segment (or single NET_BUFFER_LIST) of the chain.
 
 
 
@@ -220,7 +220,7 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

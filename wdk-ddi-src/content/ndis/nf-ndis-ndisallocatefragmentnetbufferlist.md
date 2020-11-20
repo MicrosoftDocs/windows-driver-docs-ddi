@@ -49,7 +49,7 @@ api_name:
 
 Call the 
   <b>NdisAllocateFragmentNetBufferList</b> function to create a new fragmented 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure based upon the data
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure based upon the data
   in an existing NET_BUFFER_LIST structure.
 
 ## -parameters
@@ -114,7 +114,7 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 ## -remarks
 
 <b>NdisAllocateFragmentNetBufferList</b> allocates and initializes a new fragment 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure and 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure and 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that describe the same data
     that is described by the NET_BUFFER_LIST structure that the caller passed to 
     <b>NdisAllocateFragmentNetBufferList</b>.
@@ -183,7 +183,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -50,7 +50,7 @@ api_name:
 The 
   <b>NdisGetNetBufferListProtocolId</b> function retrieves the protocol identifier from the 
   <b>NetBufferListInfo</b> member of a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -returns
 
@@ -120,7 +120,7 @@ The NetBEUI protocol identifier.
 
 NDIS drivers can call the 
     <b>NdisGetNetBufferListProtocolId</b> function to determine the type of protocol driver that created a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. For example,
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. For example,
     miniport drivers that support TCP chimney offload can verify that a NET_BUFFER_LIST structure comes from
     a TCP protocol.
 
@@ -128,7 +128,7 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

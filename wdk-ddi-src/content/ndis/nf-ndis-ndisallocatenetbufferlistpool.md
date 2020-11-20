@@ -48,7 +48,7 @@ api_name:
 
 Call the 
   <b>NdisAllocateNetBufferListPool</b> function to allocate a pool of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_l
 ## -remarks
 
 In most cases, a caller that allocates a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will allocate and
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will allocate and
     queue at least one 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure on that NET_BUFFER_LIST
     structure. It is more efficient to preallocate NET_BUFFER structures when you allocate a pool of
@@ -116,7 +116,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

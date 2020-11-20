@@ -75,7 +75,7 @@ The extended TID.
 ### -param pNBL 
 
 [in]
-Pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain.
+Pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain.
 
 ### -param bIsUnicast 
 
@@ -103,7 +103,7 @@ Specifies the ExemptionAction of the frames.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -76,7 +76,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes a list of 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each NET_BUFFER structure
@@ -95,7 +95,7 @@ NDIS_STATUS_PENDING is the only return value that is allowed. An offload target 
 
 An offload target must transmit data in first in, first out (FIFO) order. The order of the linked list
     of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS passes
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS passes
     at 
     <i>NetBufferList</i> represents the order in which the offload target must transmit the network data. In
     addition, an offload target should send the data that it receives from multiple calls to the 
@@ -140,7 +140,7 @@ The host stack will not request the offload target to send urgent data.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

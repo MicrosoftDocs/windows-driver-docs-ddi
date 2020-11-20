@@ -69,7 +69,7 @@ A handle to a protocol driver-allocated context area in which this driver mainta
 
 [in]
 A pointer to a list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">
      NdisCoSendNetBufferLists</a> function.
@@ -149,7 +149,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

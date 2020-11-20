@@ -174,7 +174,7 @@ Call the
 <li>
 Complete all outstanding send requests and disconnect requests on the connection with
       NDIS_STATUS_REQUEST_ABORTED. The offload target writes this status value to the 
-      <b>Status</b> member of each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
+      <b>Status</b> member of each <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
       <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">
       NdisTcpOffloadSendComplete</a> function or to the 
       <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_disconnect_complete">

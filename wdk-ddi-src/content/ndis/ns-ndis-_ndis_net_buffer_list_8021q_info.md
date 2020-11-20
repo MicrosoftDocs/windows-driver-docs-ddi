@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The NDIS_NET_BUFFER_LIST_8021Q_INFO structure specifies 802.1Q information that is associated with a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -124,12 +124,12 @@ This member is reserved and should be set to zero.
 A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. 
       <b>Value</b> contains a pointer value that is type-compatible with the 
       <b>NetBufferListInfo</b> member in the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -remarks
 
 To retrieve or insert 802.1Q information that is associated with a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure, an NDIS driver
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure, an NDIS driver
     calls the 
     <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro and specifies
     the 
@@ -151,7 +151,7 @@ Miniport drivers that support the 802.1Q tag in hardware must use the NDIS_NET_B
 <li>
 For transmit operations, the miniport driver must check for NDIS_NET_BUFFER_LIST_8021Q_INFO OOB data
       in the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The miniport
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. The miniport
       driver must ensure that the hardware creates the 802.1Q tag from the NDIS_NET_BUFFER_LIST_8021Q_INFO
       specifications and insert it into the Ethernet frame.
 
@@ -168,7 +168,7 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

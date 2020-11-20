@@ -59,7 +59,7 @@ The
 ## -remarks
 
 Before marking send 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
     <a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
@@ -91,7 +91,7 @@ Typically, an overlying driver calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -59,7 +59,7 @@ Call the
 
 [in]
 A pointer to a previously allocated 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ### -param DataOffsetDelta 
 
@@ -87,7 +87,7 @@ An optional entry point for an
 <b>NdisAdvanceNetBufferListDataStart</b> releases 
     <i>used data space</i> for all the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. If 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. If 
     <i>FreeMdl</i> is <b>TRUE</b> and 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferlistdatastart">
     NdisRetreatNetBufferListDataStart</a> allocated memory to satisfy the corresponding allocation request,    
@@ -109,7 +109,7 @@ When protocol drivers call
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

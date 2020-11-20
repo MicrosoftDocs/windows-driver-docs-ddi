@@ -244,7 +244,7 @@ NDIS can call a protocol driver's
 
 Every protocol driver should allocate sufficient 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pools. The driver
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pools. The driver
     allocates network data descriptors from these pools for subsequent send operations.
 
 If 
@@ -317,7 +317,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

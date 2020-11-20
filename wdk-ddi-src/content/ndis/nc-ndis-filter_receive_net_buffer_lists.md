@@ -65,7 +65,7 @@ A handle to the context area for the filter module. The filter driver created an
 
 [in]
 A linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that were
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that were
      allocated by underlying drivers. Each <b>NET_BUFFER_LIST</b> structure contains one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
@@ -80,7 +80,7 @@ A port number that identifies a miniport adapter port. Miniport adapter port num
 ### -param NumberOfNetBufferLists 
 
 [in]
-The number of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
+The number of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
      <i>NetBufferLists</i> .
 
 ### -param ReceiveFlags 
@@ -103,7 +103,7 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
-Specifies that NDIS reclaims ownership of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and any attached
+Specifies that NDIS reclaims ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and any attached
        <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures immediately after the call to 
        <i>FilterReceiveNetBufferLists</i> returns.
 
@@ -111,21 +111,21 @@ Specifies that NDIS reclaims ownership of the <a href="/windows-hardware/drivers
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
-Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> have the same protocol type (EtherType).
 
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
 
-Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
 
 #### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
 
-Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
        assigned to the miniport adapter.
 
@@ -133,7 +133,7 @@ Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
 
-Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
        indications on a queue if the NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION flag was set
        in the 
@@ -145,7 +145,7 @@ Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_
 
 #### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
-Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
        received <b>NET_BUFFER_LIST</b>, NDIS treats the shared memory information as valid. When this flag is not
        set, NDIS and drivers ignore the shared memory information. For example, intermediate drivers that
@@ -163,21 +163,21 @@ Reserved.
 
 #### NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE
 
-If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
+If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-send-and-receive-flags">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
 <div> </div>
 
 
 #### NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP
 
-If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures are to be forwarded to the same extensible switch destination port.
+If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures are to be forwarded to the same extensible switch destination port.
 
 For more information, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-send-and-receive-flags">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures uses the same destination ports, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP</b> flag in the <i>ReturnFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures uses the same destination ports, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP</b> flag in the <i>ReturnFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
 <div> </div>
 
 ## -remarks
@@ -210,13 +210,13 @@ If the filter driver did not specify a
     ProtocolReceiveNetBufferLists</a> function.
 
 If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag in the 
-    <i>ReceiveFlags</i> parameter is not set, the filter driver retains ownership of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+    <i>ReceiveFlags</i> parameter is not set, the filter driver retains ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
     structures until it calls the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">
     NdisFReturnNetBufferLists</a> function.
 
 If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag in the 
-    <i>ReceiveFlags</i> parameter is set, the filter driver cannot keep the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure and
+    <i>ReceiveFlags</i> parameter is set, the filter driver cannot keep the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure and
     associated underlying-driver-allocated resources. This flag can indicate that the underlying driver is
     running low on receive resources. The 
     <i>FilterReceiveNetBufferLists</i> function should return as quickly as possible. Before returning, the 
@@ -226,7 +226,7 @@ If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag in the
     NdisFIndicateReceiveNetBufferLists</a> function.
 
 <div class="alert"><b>Note</b>  If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag is set, the filter driver must retain the
-    original set of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the linked list. For example, when this flag is set the
+    original set of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures in the linked list. For example, when this flag is set the
     driver might process the structures and indicate them up the stack one at a time but before the function
     returns it must restore the original linked list.</div>
 <div> </div>
@@ -338,7 +338,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

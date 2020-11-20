@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <i>AddNetBufferListDestination</i> function adds a single destination port for a packet that is specified by a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+The <i>AddNetBufferListDestination</i> function adds a single destination port for a packet that is specified by a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 ### -param NetBufferList 
 
 [in, out]
-A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for a packet. 
+A pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for a packet. 
 
 <div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context. If the extension created or cloned the  packet, it must have previously allocated this structure by calling the <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_allocate_net_buffer_list_forwarding_context">AllocateNetBufferListForwardingContext</a> function.</div>
 <div> </div>
@@ -92,7 +92,7 @@ For more information about this context, see <a href="/windows-hardware/drivers/
 
 </li>
 <li>
-After the extension modifies the destination port information in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_port_destination">NDIS_SWITCH_PORT_DESTINATION</a> structure, it calls <i>AddNetBufferListDestination</i> to commit the changes to the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the packet.
+After the extension modifies the destination port information in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_port_destination">NDIS_SWITCH_PORT_DESTINATION</a> structure, it calls <i>AddNetBufferListDestination</i> to commit the changes to the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the packet.
 
 <div class="alert"><b>Note</b>  For performance reasons, the extension should not call the <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a> function to commit the changes for the packet.
 </div>
@@ -120,7 +120,7 @@ After the extension modifies the destination port information in the <a href="/w
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

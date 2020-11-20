@@ -5,6 +5,7 @@
     "checksum.h",
     "checksumtypes.h",
     "dot11wdi.h",
+    "encapsulationconfig.h",
     "extension.h",
     "fragment.h",
     "fwpmk.h",

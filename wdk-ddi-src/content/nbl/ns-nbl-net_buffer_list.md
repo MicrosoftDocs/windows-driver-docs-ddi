@@ -1,6 +1,7 @@
 ---
 UID: NS:nbl._NET_BUFFER_LIST
 title: NET_BUFFER_LIST
+tech.root: netvista
 ms.date: 11/30/2020
 ms.topic: language-reference
 targetos: Windows
@@ -48,9 +49,6 @@ dev_langs:
 
 The NET_BUFFER_LIST structure specifies a linked list of 
   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
-
-> [!NOTE]
-> NDIS drivers should include ndis.h instead of nbl.h.
 
 ## -struct-fields
 
@@ -446,7 +444,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">
        NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
@@ -469,7 +467,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">
        NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
@@ -521,7 +519,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">
    NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
@@ -530,7 +528,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">
    NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 

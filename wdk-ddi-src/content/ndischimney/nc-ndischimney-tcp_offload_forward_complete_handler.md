@@ -68,7 +68,7 @@ A handle to a context area allocated by the protocol driver. The driver maintain
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <b>NdisOffloadTcpForward</b> function.
@@ -108,7 +108,7 @@ In response, NDIS calls the overlying driver's or host stack's
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

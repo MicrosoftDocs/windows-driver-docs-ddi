@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_SET_HASH_FUNCTION** macro sets the hash function information in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_SET_HASH_FUNCTION** macro sets the hash function information in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -70,4 +70,4 @@ For more information about the hashing functions, see [RSS Hashing Functions](/w
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)

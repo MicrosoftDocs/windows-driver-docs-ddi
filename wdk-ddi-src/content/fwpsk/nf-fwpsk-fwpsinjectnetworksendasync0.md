@@ -91,7 +91,7 @@ The identifier of the routing compartment into which the packet data is injected
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
      inject packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function or the 
@@ -249,7 +249,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

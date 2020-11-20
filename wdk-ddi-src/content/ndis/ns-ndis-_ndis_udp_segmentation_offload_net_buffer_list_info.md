@@ -47,7 +47,7 @@ product:
 
 ## -description
 
-The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure specifies information that is used in offloading UDP Segmentation Offload (USO) tasks from the TCP/IP transport to a miniport adapter. The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure is part of the [**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md) OOB information.
+The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure specifies information that is used in offloading UDP Segmentation Offload (USO) tasks from the TCP/IP transport to a miniport adapter. The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure is part of the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) OOB information.
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ A PVOID version of the USO information. Miniport drivers can use this member to 
 
 ## -remarks
 
-The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure is part of the information that is included in a [**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md) structure.
+The **NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO** structure is part of the information that is included in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 To set and get USO information, use the **UdpSegmentationOffloadInfo** index with the [**NET_BUFFER_LIST_INFO**](../ndis/nf-ndis-net_buffer_list_info.md) macro. **NET_BUFFER_LIST_INFO** returns a ULONG value (not a pointer to a ULONG value).
 
@@ -90,4 +90,4 @@ The TCP/IP transport updates the **MSS** and **UdpHeaderOffset** members of the 
 
 [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
 
-[**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)

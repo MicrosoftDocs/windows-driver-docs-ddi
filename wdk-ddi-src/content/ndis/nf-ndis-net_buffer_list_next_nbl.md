@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_NEXT_NBL** is a macro that NDIS drivers use to get the next [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure in a linked list of **NET_BUFFER_LIST** structures.
+**NET_BUFFER_LIST_NEXT_NBL** is a macro that NDIS drivers use to get the next [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure in a linked list of **NET_BUFFER_LIST** structures.
 
 ## -parameters
 
@@ -53,15 +53,15 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_NEXT_NBL** returns a pointer to the next [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure in the linked list of **NET_BUFFER_LIST** structures, or it returns **NULL** if the end of the linked list is reached.
+**NET_BUFFER_LIST_NEXT_NBL** returns a pointer to the next [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure in the linked list of **NET_BUFFER_LIST** structures, or it returns **NULL** if the end of the linked list is reached.
 
 ## -remarks
 
-**NET_BUFFER_LIST_NEXT_NBL** gets the return value from the **Next** member of the [**NET_BUFFER_LIST_DATA**](ns-ndis-_net_buffer_list_data.md) structure in the [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure that the *\_NBL* parameter points to.
+**NET_BUFFER_LIST_NEXT_NBL** gets the return value from the **Next** member of the [**NET_BUFFER_LIST_DATA**](ns-ndis-_net_buffer_list_data.md) structure in the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure that the *\_NBL* parameter points to.
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
 [**NET_BUFFER_LIST_DATA**](ns-ndis-_net_buffer_list_data.md)
 

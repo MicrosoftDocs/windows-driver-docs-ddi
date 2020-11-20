@@ -132,7 +132,7 @@ The physical address of the data portion of a frame. This member should be to ze
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER or
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD flag is set in the 
       <b>NblFlags</b> member of the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is
       associated with the NET_BUFFER.
 
 <div class="alert"><b>Note</b>  A miniport driver can set the 
@@ -175,7 +175,7 @@ NDIS drivers can call the
     NdisAllocateNetBufferListPool</a> function and then set the 
     <b>fAllocateNetBuffer</b> member of the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool. In this
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pool. In this
     case, a NET_BUFFER structure is preallocated with each NET_BUFFER_LIST structure that the driver
     allocates from the pool.
 
@@ -287,7 +287,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -58,7 +58,7 @@ The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possi
 
 ### -field FWPS_NET_BUFFER_LIST_ENTERED_NETIO
 
-The <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
+The <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
  the NDIS layer or as a result of a call to a WFP packet injection function.
 
 ### -field FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO
@@ -208,4 +208,4 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

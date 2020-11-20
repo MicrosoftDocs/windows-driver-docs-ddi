@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The NET_BUFFER_LIST_CONTEXT structure stores context information for a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ The context data buffer. The context data can include any information that a dri
 ## -remarks
 
 Every 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can include a
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure can include a
     preallocated NET_BUFFER_LIST_CONTEXT structure. As a NET_BUFFER_LIST structure travels through the driver
     stack, the linked list of NET_BUFFER_LIST_CONTEXT structures can expand to accommodate additional data
     space for each driver.
@@ -160,7 +160,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

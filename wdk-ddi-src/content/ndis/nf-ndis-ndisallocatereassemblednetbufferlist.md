@@ -49,7 +49,7 @@ api_name:
 
 Call the 
   <b>NdisAllocateReassembledNetBufferList</b> function to reassemble a fragmented 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -parameters
 
@@ -105,7 +105,7 @@ If the reassemble operation succeeds,
 ## -remarks
 
 <b>NdisAllocateReassembledNetBufferList</b> allocates, initializes, and returns a new 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that includes one 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that includes one 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and one MDL chain. The new
     NET_BUFFER_LIST structure describes the same data as the fragmented source NET_BUFFER_LIST structure that
     the driver passed at 
@@ -127,7 +127,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

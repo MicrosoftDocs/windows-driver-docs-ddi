@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_DUP_ACK_COUNT** is a macro that NDIS drivers use to get and set the number of coalesced segments in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_DUP_ACK_COUNT** is a macro that NDIS drivers use to get and set the number of coalesced segments in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_DUP_ACK_COUNT** returns the **DupAckCount** member of the [**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md) union that is associated with the **TcpRecvSegCoalesceInfo** identifier. The information is retrieved from the **NetBufferListInfo** member of the indicated [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_DUP_ACK_COUNT** returns the **DupAckCount** member of the [**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md) union that is associated with the **TcpRecvSegCoalesceInfo** identifier. The information is retrieved from the **NetBufferListInfo** member of the indicated [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
@@ -61,7 +61,7 @@ This macro uses the [NET_BUFFER_LIST_INFO](nf-ndis-net_buffer_list_info.md) macr
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
 [**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md)
 

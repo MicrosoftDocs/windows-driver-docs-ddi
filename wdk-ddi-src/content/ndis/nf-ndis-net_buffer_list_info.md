@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_INFO** is a macro that NDIS drivers use to get and set information that applies to all the [**NET_BUFFER**](ns-ndis-_net_buffer.md) structures in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_INFO** is a macro that NDIS drivers use to get and set information that applies to all the [**NET_BUFFER**](ns-ndis-_net_buffer.md) structures in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -81,5 +81,5 @@ NET_BUFFER_LIST_INFO(pNBL, Id) = value;
 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

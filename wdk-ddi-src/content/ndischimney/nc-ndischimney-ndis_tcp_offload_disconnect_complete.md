@@ -67,7 +67,7 @@ The handle that the offload target obtained in a previous call to the
 
 [in]
 A pointer to a single 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The offload
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. The offload
      target obtained this pointer as an input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
      MiniportTcpOffloadDisconnect</a> function.
@@ -94,7 +94,7 @@ Write a status value to the
       <b>Status</b> member of the NET_BUFFER_LIST structure pointed to by the 
       <i>NetBufferList</i> pointer. A status value of NDIS_STATUS_SUCCESS indicates that the offload target
       successfully sent the RST segment. For a description of the allowable status values, see 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>.
 
 </li>
 </ul>
@@ -164,7 +164,7 @@ Note that the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

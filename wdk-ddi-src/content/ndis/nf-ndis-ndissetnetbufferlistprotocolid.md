@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NdisSetNetBufferListProtocolId** macro sets the protocol identifier in the **NetBufferListInfo** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NdisSetNetBufferListProtocolId** macro sets the protocol identifier in the **NetBufferListInfo** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ The NetBEUI protocol.
 
 ## -remarks
 
-Drivers that create [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structures should set the protocol identifier by calling the **NdisSetNetBufferListProtocolId** macro or by associating an identifier with a **NET_BUFFER_LIST** pool.
+Drivers that create [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structures should set the protocol identifier by calling the **NdisSetNetBufferListProtocolId** macro or by associating an identifier with a **NET_BUFFER_LIST** pool.
 
 To associate a protocol identifier with a **NET_BUFFER_LIST** pool, call the [**NdisAllocateNetBufferListPool**](nf-ndis-ndisallocatenetbufferlistpool.md) function and specify the protocol identifier in the **ProtocolId** member of the [**NET_BUFFER_LIST_POOL_PARAMETERS**](ns-ndis-_net_buffer_list_pool_parameters.md) structure.
 
@@ -77,7 +77,7 @@ Miniport, filter, and intermediate drivers set the protocol identifier to zero.
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
 [**NET_BUFFER_LIST_POOL_PARAMETERS**](ns-ndis-_net_buffer_list_pool_parameters.md)
 

@@ -58,7 +58,7 @@ The
 
 [in, out]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain that is
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure chain that is
      being freed. This will be the same as the 
      <i>netBufferListChain</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsclonestreamdata0">FwpsCloneStreamData0</a> function.
@@ -78,7 +78,7 @@ A value that indicates the current IRQL = DISPATCH_LEVEL. A callout driver shoul
 ## -remarks
 
 This function can be called when a cloned 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain is to be discarded
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain is to be discarded
     instead of being reinjected back into the data stream.
 
 ## -see-also
@@ -87,4 +87,4 @@ This function can be called when a cloned
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

@@ -63,7 +63,7 @@ TAL device handle returned by the IHV miniport in <a href="/windows-hardware/dri
 ### -param pNBL 
 
 [in]
-Pointer to the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> for which the RSSI is requested.
+Pointer to the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> for which the RSSI is requested.
 
 ### -param pRssi 
 
@@ -76,7 +76,7 @@ The absolute value of RSSI, in dB.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

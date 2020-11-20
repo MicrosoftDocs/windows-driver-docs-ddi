@@ -69,7 +69,7 @@ A pointer to the protocol or intermediate driver's
 
 [in]
 A pointer to a 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each 
@@ -80,7 +80,7 @@ A pointer to a
       memory.
 
 The 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure
       specified by 
       <i>NetBufferList</i> must be a stand-alone structure and cannot be the first
       structure in a linked list of 
@@ -195,7 +195,7 @@ The
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_NBL_FLAGS** macro retrieves the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_NBL_FLAGS** macro retrieves the **NblFlags** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,9 +53,9 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-NDIS network drivers should use the **NET_BUFFER_LIST_NBL_FLAGS** macro to get the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+NDIS network drivers should use the **NET_BUFFER_LIST_NBL_FLAGS** macro to get the **NblFlags** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

@@ -95,7 +95,7 @@ A pointer to a context area that the miniport driver supplied when it called the
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure specifies the maximum number of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
      driver should indicate in a DPC.
 
 <div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter is named <i>NdisReserved1</i>, its datatype is <b>PULONG</b>, and it is reserved for NDIS.</div>
@@ -247,7 +247,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

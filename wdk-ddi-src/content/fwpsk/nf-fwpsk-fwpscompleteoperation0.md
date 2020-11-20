@@ -64,7 +64,7 @@ A completion context handle that was previously created by a call to the
 
 [in, optional]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data for which processing has been suspended pending completion of another operation.
 
 ## -remarks
@@ -97,4 +97,4 @@ Pended connections are authenticated again after the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

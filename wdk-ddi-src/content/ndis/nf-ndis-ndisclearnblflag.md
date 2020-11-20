@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NdisClearNblFlag** macro clears a flag in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NdisClearNblFlag** macro clears a flag in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -57,11 +57,11 @@ The flag in the **NblFlags** member of the **NET_BUFFER_LIST** structure to clea
 
 ## -remarks
 
-NDIS drivers use the **NdisClearNblFlag** macro to clear the specified flag (*\_F*) in the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+NDIS drivers use the **NdisClearNblFlag** macro to clear the specified flag (*\_F*) in the **NblFlags** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 For more information about the flags, see the **NblFlags** member on the **NET_BUFFER_LIST** topic.
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

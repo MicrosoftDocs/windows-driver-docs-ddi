@@ -48,7 +48,7 @@ api_name:
 
 NDIS calls a miniport driver's 
    <i>MiniportCancelSend</i> function to cancel the transmission of all 
-   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
+   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
    with a specified cancellation identifier.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CANCEL_SEND</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -65,13 +65,13 @@ A handle to a context area that the miniport driver allocated in its
 ### -param CancelId 
 
 [in]
-A cancellation identifier. This identifier specifies the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are being
+A cancellation identifier. This identifier specifies the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are being
      canceled.
 
 ## -remarks
 
 Miniport drivers and intermediate drivers that queue send 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures export a 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures export a 
     <i>MiniportCancelSend</i> function. The 
     <i>MiniportCancelSend</i> function cancels the pending transmission of the specified NET_BUFFER_LIST
     structures.
@@ -173,7 +173,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

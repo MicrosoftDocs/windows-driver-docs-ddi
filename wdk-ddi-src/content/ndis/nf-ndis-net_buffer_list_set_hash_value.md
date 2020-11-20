@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_SET_HASH_VALUE** macro sets the hash value information in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_SET_HASH_VALUE** macro sets the hash value information in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -61,4 +61,4 @@ For more information about the hash value, see [RSS Hashing Functions](/windows-
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)

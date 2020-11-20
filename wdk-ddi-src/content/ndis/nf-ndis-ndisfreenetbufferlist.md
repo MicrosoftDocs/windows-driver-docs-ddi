@@ -49,7 +49,7 @@ api_name:
 
 Call the 
   <b>NdisFreeNetBufferList</b> function to free a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that was previously
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that was previously
   allocated from a NET_BUFFER_LIST structure pool.
 
 ## -parameters
@@ -65,7 +65,7 @@ A pointer to a NET_BUFFER_LIST structure that was allocated by calling the
 ## -remarks
 
 To allocate a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure from a pool, call
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure from a pool, call
     the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a> or 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
@@ -92,7 +92,7 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

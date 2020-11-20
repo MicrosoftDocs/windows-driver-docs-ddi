@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_FIRST_NB** is a macro that NDIS drivers use to get the first [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_FIRST_NB** is a macro that NDIS drivers use to get the first [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -57,11 +57,11 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-**NET_BUFFER_LIST_FIRST_NB** gets the return value from the **FirstNetBuffer** member of the [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_FIRST_NB** gets the return value from the **FirstNetBuffer** member of the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -see-also
 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

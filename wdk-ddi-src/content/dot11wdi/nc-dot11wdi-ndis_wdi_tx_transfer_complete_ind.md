@@ -49,7 +49,7 @@ api_name:
 The NdisWdiTxTransferCompleteIndication callback function specifies a list of frame buffers that have been transferred to the target.
 Frames with different TX Status values are completed in separate indications.
 
-If the TX status is a failure code, an <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_complete_ind">NdisWdiTxSendCompleteIndication</a> is not indicated for any of the frames in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> (NBL) chain.
+If the TX status is a failure code, an <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_complete_ind">NdisWdiTxSendCompleteIndication</a> is not indicated for any of the frames in the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> (NBL) chain.
 
 This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
@@ -76,7 +76,7 @@ The null-terminated list of frame buffers that have been transferred to the targ
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

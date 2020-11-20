@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_FLAGS** is a macro that NDIS drivers use to get the flags associated with a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_FLAGS** is a macro that NDIS drivers use to get the flags associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -57,9 +57,9 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-For definitions of possible **NET_BUFFER_LIST** structure flags, see [**NDIS_BUFFER_LIST**](ns-ndis-_net_buffer_list.md).
+For definitions of possible **NET_BUFFER_LIST** structure flags, see [**NDIS_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md).
 
 ## -see-also
 
-[**NDIS_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NDIS_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

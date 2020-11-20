@@ -98,7 +98,7 @@ Call
     <b>NET_BUFFER</b> structure pool.
 
 <div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER</b> or <b>NET_BUFFER_LIST</b>
     structure from its private memory pool or the stack.</div>
 <div> </div>
@@ -136,7 +136,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

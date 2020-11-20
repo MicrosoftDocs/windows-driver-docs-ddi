@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_STATUS** is a macro that NDIS drivers use to access the **StatusCode** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_STATUS** is a macro that NDIS drivers use to access the **StatusCode** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_STATUS** returns the value of the **StatusCode** member of the indicated [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_STATUS** returns the value of the **StatusCode** member of the indicated [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
@@ -61,5 +61,5 @@ Miniport drivers and NDIS intermediate drivers can use **StatusCode** for their 
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

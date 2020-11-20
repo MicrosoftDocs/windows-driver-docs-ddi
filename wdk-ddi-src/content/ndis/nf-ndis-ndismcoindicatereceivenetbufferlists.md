@@ -66,7 +66,7 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
 
 [in]
 A linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
 ### -param NumberOfNetBufferLists 
@@ -107,7 +107,7 @@ A miniport driver typically calls the
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
     When a miniport driver calls 
     <b>NdisMCoIndicateReceiveNetBufferLists</b>, it specifies a list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures at the 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures at the 
     <i>NetBufferLists</i> parameter. NDIS then passes the NET_BUFFER_LIST structures to bound protocol drivers.
 
 Miniport drivers must set the 
@@ -167,4 +167,4 @@ The caller of
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_GET_HASH_TYPE** macro gets the hash type information from a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_GET_HASH_TYPE** macro gets the hash type information from a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_GET_HASH_TYPE** returns the hash type of the specified [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_GET_HASH_TYPE** returns the hash type of the specified [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 The hash type is an OR value of valid combinations of the following flags:
 
@@ -74,4 +74,4 @@ For more information about the hash type, see [RSS Hashing Types](/windows-hardw
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)

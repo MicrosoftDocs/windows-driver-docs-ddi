@@ -53,7 +53,7 @@ api_name:
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure specifies information that is used in
   offloading large send offload (LSO) tasks from the TCP/IP transport to a miniport adapter. The
   <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure is part of the 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> information.
 
 ## -struct-fields
 
@@ -184,7 +184,7 @@ A PVOID version of the LSO information. Use this member to access the raw inform
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure specifies information for LSOV1 and
     LSOV2 operations. The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure is part of the
     information that is included in a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 To set and get the LSOV1 or LSOV2 information, use the 
     <b>TcpLargeSendNetBufferListInfo</b> index with the 
@@ -199,7 +199,7 @@ The TCP/IP transport updates the
 For LSOV1, miniport drivers write the TCP payload size in the 
     <b>TcpPayload</b> member before completing a send operation for a segmented packet.
 
-<div class="alert"><b>Note</b>  Any <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that contains the LSOv1 or LSOv2 information also
+<div class="alert"><b>Note</b>  Any <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that contains the LSOv1 or LSOv2 information also
     contains a single 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.</div>
 <div> </div>
@@ -210,7 +210,7 @@ For LSOV1, miniport drivers write the TCP payload size in the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

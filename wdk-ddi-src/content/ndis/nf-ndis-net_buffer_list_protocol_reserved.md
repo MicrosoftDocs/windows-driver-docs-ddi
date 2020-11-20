@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-**NET_BUFFER_LIST_PROTOCOL_RESERVED** is a macro that NDIS drivers use to access the **ProtocolReserved** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_PROTOCOL_RESERVED** is a macro that NDIS drivers use to access the **ProtocolReserved** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_PROTOCOL_RESERVED** returns a pointer to the start of the **ProtocolReserved** member of the indicated [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NET_BUFFER_LIST_PROTOCOL_RESERVED** returns a pointer to the start of the **ProtocolReserved** member of the indicated [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
@@ -64,5 +64,5 @@ Protocol drivers and NDIS intermediate drivers can use **ProtocolReserved** for 
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

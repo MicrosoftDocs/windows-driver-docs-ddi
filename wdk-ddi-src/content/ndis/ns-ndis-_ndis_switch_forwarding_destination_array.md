@@ -52,7 +52,7 @@ api_name:
 
 The <b>NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</b> structure specifies an array of Hyper-V extensible switch destination ports for a packet.  Each element in the array is formatted as an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_port_destination">NDIS_SWITCH_PORT_DESTINATION</a> structure. 
 
-This information is contained in the out-of-band (OOB) data of the packet's  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+This information is contained in the out-of-band (OOB) data of the packet's  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -95,7 +95,7 @@ A pointer to the first <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis
 
 ## -remarks
 
-The extensible switch extension can do the following with the destination ports  in a packet's <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure:
+The extensible switch extension can do the following with the destination ports  in a packet's <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure:
 
 <ul>
 <li>
@@ -123,7 +123,7 @@ A filtering or forwarding extension can modify the data within an <a href="/wind
 <div> </div>
 </li>
 </ul>
-If the extension adds or modifies port destinations, it must call <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a> to commit the changes to the destination ports to the packet's OOB data in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+If the extension adds or modifies port destinations, it must call <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a> to commit the changes to the destination ports to the packet's OOB data in the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 For more information, see <a href="/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-destination-port-data">Managing Hyper-V Extensible Switch Destination Port Data</a>.
 
@@ -169,7 +169,7 @@ Extensible switch extensions can use the <a href="/windows-hardware/drivers/netw
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

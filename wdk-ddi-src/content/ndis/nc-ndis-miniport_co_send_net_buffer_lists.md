@@ -49,7 +49,7 @@ api_name:
 The 
   <i>MiniportCoSendNetBufferLists</i> function transmits network data that is contained in a specified linked
   list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_SEND_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
@@ -66,7 +66,7 @@ A handle to a miniport driver-allocated context area in which the miniport drive
 
 [in]
 A pointer to the first 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
      of <b>NET_BUFFER_LIST</b> structures. Each <b>NET_BUFFER_LIST</b> structure in the list describes a list of 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> structure
      in the list maps to a chain of memory descriptor lists (MDLs). The MDLs contain the network data that 
@@ -110,7 +110,7 @@ The
     <i>MiniportCoSendNetBufferLists</i> function of the bound miniport driver.
 
 The order of the linked list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS passes
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS passes
     at 
     <i>NetBufferLists</i> represents the order in which the miniport driver should transmit the network data.
     In addition, a miniport driver should send the <b>NET_BUFFER_LIST</b> structures from multiple 
@@ -120,18 +120,18 @@ The order of the linked list of
 CoNDIS miniport drivers must accept all of the send requests that NDIS makes by calling the 
     <i>MiniportCoSendNetBufferLists</i> function. If a miniport driver cannot complete a send request
     immediately, the driver must hold the request in a queue until it can complete the request. While a send
-    request is pending, the miniport driver retains ownership of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and all of
+    request is pending, the miniport driver retains ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and all of
     the resources that are associated with the <b>NET_BUFFER_LIST</b> structures.
 
 The miniport driver must call the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcosendnetbufferlistscomplete">
     NdisMCoSendNetBufferListsComplete</a> function to complete all CoNDIS send requests. To improve
     computer performance, the driver can create a linked list that contains the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures from multiple
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures from multiple
     send requests. The driver can then pass such a linked list in a single call to 
     <b>NdisMCoSendNetBufferListsComplete</b>.
 
-In addition, you should assume that the miniport driver cannot access the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures
+In addition, you should assume that the miniport driver cannot access the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures
     and other associated resources as soon as the driver calls 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcosendnetbufferlistscomplete">NdisMCoSendNetBufferListsComplete</a>.
 
@@ -188,7 +188,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -78,7 +78,7 @@ The IPv6 address family.
 
 [in, out]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain of IP fragments to
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain of IP fragments to
      reassemble into a single packet. For more information on the usage of
      this parameter, see Remarks.
 
@@ -86,7 +86,7 @@ A pointer to the
 
 [in, optional]
 An optional 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool handle that
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pool handle that
      was previously returned from the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. The 
@@ -111,7 +111,7 @@ Reserved. Callout drivers must set this parameter to zero.
 
 [out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pointer that receives the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pointer that receives the
      address of the reassembled single network buffer list.
 
 ## -returns
@@ -132,7 +132,7 @@ The
 </td>
 <td width="60%">
 The list of IP fragments was successfully reassembled into a single 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ An error occurred.
 The 
     <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding
     data path, described by a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain, into a single packet.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain, into a single packet.
     The reassembled packet is a single net buffer list that contains one net buffer and references the input
     fragment chain. This function is typically used by edge firewalls to inspect network packets.
 
@@ -204,7 +204,7 @@ Because
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

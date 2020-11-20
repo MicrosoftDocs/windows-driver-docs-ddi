@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **NdisTestNblFlags** macro tests the setting of a set of flags in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NdisTestNblFlags** macro tests the setting of a set of flags in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ The flags, combined with a bitwise OR operation, in the **NblFlags** member of t
 
 ## -remarks
 
-NDIS drivers use the **NdisTestNblFlags** macro to retrieve the state of the specified flags (*\_F*) in the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+NDIS drivers use the **NdisTestNblFlags** macro to retrieve the state of the specified flags (*\_F*) in the **NblFlags** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 Use **NdisTestNblFlags** to determine whether a set of specified flags are all set.
 
@@ -69,5 +69,5 @@ For more information about the flags, see the **NblFlags** member on the **NET_B
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

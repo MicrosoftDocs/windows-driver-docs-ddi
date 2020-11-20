@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure defines the parameters for a pool of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+The <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure defines the parameters for a pool of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
 ## -struct-fields
 
@@ -104,10 +104,10 @@ Specifies the NetBEUI protocol.
 
 ### -field fAllocateNetBuffer
 
-If this member is set to TRUE, NDIS allocates a pool of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
+If this member is set to TRUE, NDIS allocates a pool of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
        <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. 
 
-If this member is set to FALSE, NDIS allocates a pool of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is not initialized  to contain any 
+If this member is set to FALSE, NDIS allocates a pool of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is not initialized  to contain any 
        <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
 For more information, see the Remarks section.
@@ -124,12 +124,12 @@ The size, in bytes, of the preallocated
 A kernel pool tag that the caller uses when it allocates NET_BUFFER_LIST structures from this
        pool. The tag is a string, delimited by single quotation marks, with up to four characters, usually
        specified in reversed order. The kernel pool tag helps NDIS to identify the owner of the
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are allocated from this pool.
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are allocated from this pool.
 
 ### -field DataSize
 
 The default data size, in bytes, for data buffers that are associated with this 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool, if any. NDIS uses
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool, if any. NDIS uses
        this value to set the size of any data buffers that it allocates for any associated 
        <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. 
        
@@ -160,7 +160,7 @@ The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/nd
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
