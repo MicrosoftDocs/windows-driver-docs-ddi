@@ -2,6 +2,7 @@
 UID: NC:wdm.PLEAVE_DMA_DOMAIN
 title: PLEAVE_DMA_DOMAIN (wdm.h)
 description: 
+tech.root: kernel
 ms.assetid: 3bcd31e2-548b-44c3-a301-351c4adc18d6
 ms.date: 10/19/2018
 keywords: ["PLEAVE_DMA_DOMAIN callback function"]
