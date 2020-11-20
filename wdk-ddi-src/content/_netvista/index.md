@@ -30,7 +30,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Dot11wdi.h](../dot11wdi/index.md)
 - [Checksum.h](../checksum/index.md)
 - [Checksumtypes.h](../checksumtypes/index.md)
-- [Encapsulationconfig.h](../encapsulationconfig.md)
+- [Encapsulationconfig.h](../encapsulationconfig/index.md)
 - [Extension.h](../extension/index.md)
 - [Fragment.h](../fragment/index.md)
 - [Fwpmk.h](../fwpmk/index.md)
