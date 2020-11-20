@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
 title: PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL (trustedruntimeclx.h)
 description: 
 ms.assetid: ad975985-ee86-4f2d-ad02-16d5818b12a3
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
  - trustedruntimeclx/PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
@@ -39,38 +40,37 @@ api_name:
 
 # PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContextObject: 
+### -param BindContextObject
 
-### -param DeviceInit: 
+### -param DeviceInit
 
-### -param Callbacks: 
+### -param Callbacks
 
-### -param MasterDevice: 
+### -param MasterDevice
 
 ## -returns
 
-Returns WDFAPI.
+Returns WDFAPI
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL PfnTrsecuredevicehandoffmasterdevicecontrol; 
+PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL PfnTrsecuredevicehandoffmasterdevicecontrol;
 
 // Definition
 
-WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol 
+WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol
 (
-	WDFOBJECT BindContextObject
-	PWDFDEVICE_INIT DeviceInit
-	PTR_SECURE_DEVICE_CALLBACKS Callbacks
-	WDFDEVICE *MasterDevice
+    WDFOBJECT BindContextObject
+    PWDFDEVICE_INIT DeviceInit
+    PTR_SECURE_DEVICE_CALLBACKS Callbacks
+    WDFDEVICE *MasterDevice
 )
 {...}
 
@@ -79,4 +79,3 @@ WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol
 ## -remarks
 
 ## -see-also
-

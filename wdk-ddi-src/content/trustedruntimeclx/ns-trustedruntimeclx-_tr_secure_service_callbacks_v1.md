@@ -3,7 +3,7 @@ UID: NS:trustedruntimeclx._TR_SECURE_SERVICE_CALLBACKS_V1
 title: _TR_SECURE_SERVICE_CALLBACKS_V1 (trustedruntimeclx.h)
 description: 
 ms.assetid: 98ba0d88-2267-4c26-b7f0-89c8f05f0a92
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TR_SECURE_SERVICE_CALLBACKS_V1 structure"]
 ms.keywords: _TR_SECURE_SERVICE_CALLBACKS_V1, TR_SECURE_SERVICE_CALLBACKS_V1, *PTR_SECURE_SERVICE_CALLBACKS_V1, TR_SECURE_SERVICE_CALLBACKS, *PTR_SECURE_SERVICE_CALLBACKS
 req.header: trustedruntimeclx.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: TR_SECURE_SERVICE_CALLBACKS_V1, *PTR_SECURE_SERVICE_CALLBACKS_V1
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _TR_SECURE_SERVICE_CALLBACKS_V1
  - trustedruntimeclx/_TR_SECURE_SERVICE_CALLBACKS_V1
@@ -39,7 +40,6 @@ api_name:
 ---
 
 # _TR_SECURE_SERVICE_CALLBACKS_V1 structure
-
 
 ## -description
 
@@ -68,4 +68,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

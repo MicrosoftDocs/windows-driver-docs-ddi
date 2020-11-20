@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.EVT_TR_DISCONNECT_SECURE_SERVICE
 title: EVT_TR_DISCONNECT_SECURE_SERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_DISCONNECT_SECURE_SERVICE callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_DISCONNECT_SECURE_SERVICE
  - trustedruntimeclx/EVT_TR_DISCONNECT_SECURE_SERVICE
@@ -39,12 +40,11 @@ api_name:
 
 # EVT_TR_DISCONNECT_SECURE_SERVICE callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
 ## -returns
 
@@ -55,13 +55,13 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_DISCONNECT_SECURE_SERVICE EvtTrDisconnectSecureService; 
+EVT_TR_DISCONNECT_SECURE_SERVICE EvtTrDisconnectSecureService;
 
 // Definition
 
-NTSTATUS EvtTrDisconnectSecureService 
+NTSTATUS EvtTrDisconnectSecureService
 (
-	WDFDEVICE ServiceDevice
+    WDFDEVICE ServiceDevice
 )
 {...}
 

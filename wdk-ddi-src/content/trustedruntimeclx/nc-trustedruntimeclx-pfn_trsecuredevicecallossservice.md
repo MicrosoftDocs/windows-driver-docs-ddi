@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECALLOSSSERVICE
 title: PFN_TRSECUREDEVICECALLOSSSERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICECALLOSSSERVICE callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICECALLOSSSERVICE
  - trustedruntimeclx/PFN_TRSECUREDEVICECALLOSSSERVICE
@@ -39,20 +40,19 @@ api_name:
 
 # *PFN_TRSECUREDEVICECALLOSSSERVICE callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContext: 
+### -param BindContext
 
-### -param Device: 
+### -param Device
 
-### -param OSServiceGuid: 
+### -param OSServiceGuid
 
-### -param CallData: 
+### -param CallData
 
-### -param BytesWritten: 
+### -param BytesWritten
 
 ## -returns
 
@@ -63,17 +63,17 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-*PFN_TRSECUREDEVICECALLOSSSERVICE *PfnTrsecuredevicecallossservice; 
+*PFN_TRSECUREDEVICECALLOSSSERVICE *PfnTrsecuredevicecallossservice;
 
 // Definition
 
-NTSTATUS *PfnTrsecuredevicecallossservice 
+NTSTATUS *PfnTrsecuredevicecallossservice
 (
-	WDFOBJECT BindContext
-	WDFDEVICE Device
-	LPCGUID OSServiceGuid
-	PTR_SERVICE_REQUEST CallData
-	ULONG_PTR *BytesWritten
+    WDFOBJECT BindContext
+    WDFDEVICE Device
+    LPCGUID OSServiceGuid
+    PTR_SERVICE_REQUEST CallData
+    ULONG_PTR *BytesWritten
 )
 {...}
 

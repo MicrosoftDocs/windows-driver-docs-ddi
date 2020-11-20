@@ -3,7 +3,7 @@ UID: NF:icm.ColorAdapterGetDisplayTransformData
 title: ColorAdapterGetDisplayTransformData function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: 8c8c70dc-037c-4c99-8378-baa3c38968e6
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterGetDisplayTransformData function"]
 ms.keywords: ColorAdapterGetDisplayTransformData
 req.header: icm.h
@@ -24,6 +24,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +39,6 @@ f1_keywords:
 ---
 
 # ColorAdapterGetDisplayTransformData function
-
 
 ## -description
 
@@ -60,4 +60,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

@@ -3,7 +3,7 @@ UID: NS:acpitabl._PROC_TOPOLOGY_CACHE_FLAGS
 title: _PROC_TOPOLOGY_CACHE_FLAGS (acpitabl.h)
 description: Defines the processor topology cache flags structure.
 ms.assetid: 8ecf42fd-1d73-43b3-b642-16bbd5367809
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_CACHE_FLAGS structure"]
 ms.keywords: _PROC_TOPOLOGY_CACHE_FLAGS, PROC_TOPOLOGY_CACHE_FLAGS, *PPROC_TOPOLOGY_CACHE_FLAGS,
 req.header: acpitabl.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: PROC_TOPOLOGY_CACHE_FLAGS, *PPROC_TOPOLOGY_CACHE_FLAGS
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _PROC_TOPOLOGY_CACHE_FLAGS
  - acpitabl/_PROC_TOPOLOGY_CACHE_FLAGS
@@ -39,7 +40,6 @@ api_name:
 ---
 
 # _PROC_TOPOLOGY_CACHE_FLAGS structure
-
 
 ## -description
 
@@ -70,4 +70,3 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
-

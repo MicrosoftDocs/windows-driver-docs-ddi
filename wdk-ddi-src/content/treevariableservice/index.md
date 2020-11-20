@@ -2,7 +2,7 @@
 UID: NA:treevariableservice
 title: Treevariableservice.h header
 ms.assetid: bef41398-1512-3aee-a716-664a76c733e6
-ms.date: 08/09/2018
+ms.date: 11/20/2020
 keywords: ["Treevariableservice.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -17,10 +17,8 @@ f1_keywords:
 
 # Treevariableservice.h header
 
-
 ## -description
 
 This header is used by treedrv. For more information, see:
 
-- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)
-
+- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>

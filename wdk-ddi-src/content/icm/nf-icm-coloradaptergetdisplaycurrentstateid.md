@@ -3,7 +3,7 @@ UID: NF:icm.ColorAdapterGetDisplayCurrentStateID
 title: ColorAdapterGetDisplayCurrentStateID function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: ae9901b7-e040-47c5-a9fa-a9c031ed5550
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterGetDisplayCurrentStateID function"]
 ms.keywords: ColorAdapterGetDisplayCurrentStateID
 req.header: icm.h
@@ -24,6 +24,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +39,6 @@ f1_keywords:
 ---
 
 # ColorAdapterGetDisplayCurrentStateID function
-
 
 ## -description
 
@@ -58,4 +58,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

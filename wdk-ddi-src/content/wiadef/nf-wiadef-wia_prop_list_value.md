@@ -3,7 +3,7 @@ UID: NF:wiadef.WIA_PROP_LIST_VALUE
 title: WIA_PROP_LIST_VALUE macro (wiadef.h)
 description: 
 ms.assetid: 13dc97d0-ecc4-4884-82e3-814e095e6933
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["WIA_PROP_LIST_VALUE macro"]
 ms.keywords: WIA_PROP_LIST_VALUE
 req.header: wiadef.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: image
 f1_keywords:
  - WIA_PROP_LIST_VALUE
  - wiadef/WIA_PROP_LIST_VALUE
@@ -40,7 +41,6 @@ api_name:
 
 # WIA_PROP_LIST_VALUE macro
 
-
 ## -description
 
 ## -parameters
@@ -52,4 +52,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

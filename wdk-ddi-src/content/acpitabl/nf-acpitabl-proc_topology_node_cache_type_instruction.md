@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
  - acpitabl/PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
@@ -40,7 +41,6 @@ api_name:
 
 # PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro
 
-
 ## -description
 
 Defines the processor topology node cache type instruction macro.
@@ -54,4 +54,3 @@ The *CacheType* parameter.
 ## -remarks
 
 ## -see-also
-

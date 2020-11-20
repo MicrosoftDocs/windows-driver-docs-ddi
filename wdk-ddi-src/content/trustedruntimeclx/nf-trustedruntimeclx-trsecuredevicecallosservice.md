@@ -3,7 +3,7 @@ UID: NF:trustedruntimeclx.TrSecureDeviceCallOSService
 title: TrSecureDeviceCallOSService function (trustedruntimeclx.h)
 description: 
 ms.assetid: 2178edf3-8ca9-4eff-858c-f6973f216a7e
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TrSecureDeviceCallOSService function"]
 ms.keywords: TrSecureDeviceCallOSService
 req.header: trustedruntimeclx.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - TrSecureDeviceCallOSService
  - trustedruntimeclx/TrSecureDeviceCallOSService
@@ -39,7 +40,6 @@ api_name:
 ---
 
 # TrSecureDeviceCallOSService function
-
 
 ## -description
 
@@ -60,4 +60,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

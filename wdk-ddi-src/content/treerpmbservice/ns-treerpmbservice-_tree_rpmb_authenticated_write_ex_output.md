@@ -3,7 +3,7 @@ UID: NS:treerpmbservice._TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
 title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT (treerpmbservice.h)
 description: 
 ms.assetid: 8f2260a1-4020-4ee3-9791-aa3220072a77
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure"]
 ms.keywords: _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT,
 req.header: treerpmbservice.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
  - treerpmbservice/_TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
@@ -40,7 +41,6 @@ api_name:
 
 # _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure
 
-
 ## -description
 
 ## -struct-fields
@@ -54,4 +54,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

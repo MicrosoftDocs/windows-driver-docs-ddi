@@ -3,7 +3,7 @@ UID: NE:acpitabl._ACPI_PLD_VERTICAL_POSITION
 title: _ACPI_PLD_VERTICAL_POSITION enumeration (acpitabl.h)
 description: Describes vertical position bits 70:71.
 ms.assetid: e1ab5bab-8e0f-43d9-86c8-29ea30474a0c
-ms.date: 10/02/2018
+ms.date: 11/19/2020
 keywords: ["ACPI_PLD_VERTICAL_POSITION enumeration"]
 ms.keywords: _ACPI_PLD_VERTICAL_POSITION, ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION, AcpiPldVPos
 req.header: acpitabl.h
@@ -17,6 +17,7 @@ req.ddi-compliance:
 req.max-support: 
 req.typenames: ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _ACPI_PLD_VERTICAL_POSITION
  - acpitabl/_ACPI_PLD_VERTICAL_POSITION
@@ -36,14 +37,13 @@ api_name:
 
 # _ACPI_PLD_VERTICAL_POSITION enumeration
 
-
 ## -description
 
 Describes vertical position bits 70:71.
 
 ## -enum-fields
 
-### -field AcpiPldVPosUpper 
+### -field AcpiPldVPosUpper
 
 Value is 0.
 
@@ -51,11 +51,10 @@ Value is 0.
 
 Value is 1.
 
-### -field AcpiPldVPosLower 
+### -field AcpiPldVPosLower
 
 Value is 2.
 
 ## -remarks
 
 ## -see-also
-

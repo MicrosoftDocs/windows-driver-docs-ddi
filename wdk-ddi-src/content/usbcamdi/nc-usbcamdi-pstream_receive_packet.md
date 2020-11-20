@@ -3,7 +3,7 @@ UID: NC:usbcamdi.PSTREAM_RECEIVE_PACKET
 title: PSTREAM_RECEIVE_PACKET (usbcamdi.h)
 description: 
 ms.assetid: 2ae5c8c4-9951-4424-90e8-25fd25a48bb2
-ms.date: 10/19/2018
+ms.date: 11/17/2020
 keywords: ["PSTREAM_RECEIVE_PACKET callback function"]
 req.header: usbcamdi.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: stream
 f1_keywords:
  - PSTREAM_RECEIVE_PACKET
  - usbcamdi/PSTREAM_RECEIVE_PACKET
@@ -38,7 +39,6 @@ api_name:
 ---
 
 # PSTREAM_RECEIVE_PACKET callback function
-
 
 ## -description
 
@@ -72,4 +72,3 @@ VOID PstreamReceivePacket
 ## -remarks
 
 ## -see-also
-
