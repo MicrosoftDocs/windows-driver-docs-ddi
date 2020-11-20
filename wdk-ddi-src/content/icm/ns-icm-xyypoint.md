@@ -3,7 +3,7 @@ UID: NS:icm.XYYPoint
 title: XYYPoint structure (icm.h)
 description: The XYYPoint structure describes a CIE xyY chromaticity point.
 ms.assetid: 7fa290ff-3f63-4d2f-9352-ffa821d6a8ab
-ms.date: 08/14/2020
+ms.date: 11/18/2020
 keywords: ["XYYPoint structure"]
 ms.keywords: XYYPoint, XYYPoint,
 req.header: icm.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: XYYPoint
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -34,7 +35,6 @@ f1_keywords:
 ---
 
 # XYYPoint structure
-
 
 ## -description
 
@@ -54,4 +54,3 @@ The XYYPoint structure describes a CIE xyY chromaticity point.
 ## -remarks
 
 ## -see-also
-

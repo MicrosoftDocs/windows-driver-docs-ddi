@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
 title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 38424b3b-880a-46e6-b4f8-1f364528c0a9
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
  - trustedruntimeclx/EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
@@ -39,14 +40,13 @@ api_name:
 
 # EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
-### -param SessionContextObject: 
+### -param SessionContextObject
 
 ## -returns
 
@@ -57,14 +57,14 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT EvtTrDestroySecureServiceSessionContext; 
+EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT EvtTrDestroySecureServiceSessionContext;
 
 // Definition
 
-NTSTATUS EvtTrDestroySecureServiceSessionContext 
+NTSTATUS EvtTrDestroySecureServiceSessionContext
 (
-	WDFDEVICE ServiceDevice
-	WDFOBJECT * SessionContextObject
+    WDFDEVICE ServiceDevice
+    WDFOBJECT * SessionContextObject
 )
 {...}
 

@@ -3,7 +3,7 @@ UID: NF:systemrng.EntropyPoolTriggerReseedForIum
 title: EntropyPoolTriggerReseedForIum function (systemrng.h)
 description: 
 ms.assetid: e8efc920-4aea-49fa-a773-bb42d06d2e34
-ms.date: 10/19/2018
+ms.date: 11/19/2020
 keywords: ["EntropyPoolTriggerReseedForIum function"]
 ms.keywords: EntropyPoolTriggerReseedForIum
 req.header: systemrng.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EntropyPoolTriggerReseedForIum
  - systemrng/EntropyPoolTriggerReseedForIum
@@ -40,7 +41,6 @@ api_name:
 
 # EntropyPoolTriggerReseedForIum function
 
-
 ## -description
 
 ## -parameters
@@ -50,4 +50,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

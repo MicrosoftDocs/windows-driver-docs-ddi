@@ -3,7 +3,7 @@ UID: NS:acpitabl._IVRS_IVINFO
 title: _IVRS_IVINFO (acpitabl.h)
 description: Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtualization structure.
 ms.assetid: 5d3b9617-d979-4a7c-80e7-7eaec3a6d713
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["IVRS_IVINFO structure"]
 ms.keywords: _IVRS_IVINFO, IVRS_IVINFO, *PIVRS_IVINFO,
 req.header: acpitabl.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: IVRS_IVINFO, *PIVRS_IVINFO
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _IVRS_IVINFO
  - acpitabl/_IVRS_IVINFO
@@ -39,7 +40,6 @@ api_name:
 ---
 
 # _IVRS_IVINFO structure
-
 
 ## -description
 
@@ -70,4 +70,3 @@ Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtualization str
 ## -remarks
 
 ## -see-also
-

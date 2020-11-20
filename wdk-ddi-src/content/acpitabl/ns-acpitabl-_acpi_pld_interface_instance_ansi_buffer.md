@@ -3,7 +3,7 @@ UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER
 title: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface instance ANSI descriptor buffers, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 07cfe6a5-2680-4d04-8628-701e5a1af0dd
-ms.date: 08/13/2020
+ms.date: 11/19/2020
 keywords: ["ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure"]
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER,
 req.header: acpitabl.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER
  - acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER
@@ -38,7 +39,6 @@ api_name:
 ---
 
 # _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure
-
 
 ## -description
 
@@ -60,4 +60,3 @@ DEFINE_GUID(ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER_GUID,
 ```
 
 ## -see-also
-

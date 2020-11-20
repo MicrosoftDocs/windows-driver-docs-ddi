@@ -3,7 +3,7 @@ UID: NS:icm.DisplayTransformLut
 title: DisplayTransformLut structure (icm.h)
 description: The DisplayTransformLut structure defines a 16-bit, 3-channel lookup table used to modify system colors.
 ms.assetid: 23f9c311-524c-4d13-a0ed-df630b37a163
-ms.date: 08/14/2020
+ms.date: 11/18/2020
 keywords: ["DisplayTransformLut structure"]
 ms.keywords: DisplayTransformLut, DisplayTransformLut,
 req.header: icm.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: DisplayTransformLut
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -34,7 +35,6 @@ f1_keywords:
 ---
 
 # DisplayTransformLut structure
-
 
 ## -description
 
@@ -54,4 +54,3 @@ The DisplayTransformLut structure defines a 16-bit, 3-channel lookup table used 
 ## -remarks
 
 ## -see-also
-

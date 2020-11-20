@@ -1,9 +1,9 @@
 ---
 UID: NF:acpitabl.HMAT_ENTRY_LENGTH
 title: HMAT_ENTRY_LENGTH macro (acpitabl.h)
-description: The HMAT_ENTRY_LENGTH macro returns the size of the type in the HMAT_ENTRY stucture.
+description: The HMAT_ENTRY_LENGTH macro returns the size of the type in the HMAT_ENTRY structure.
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
-ms.date: 10/19/2018
+ms.date: 11/19/2020
 keywords: ["HMAT_ENTRY_LENGTH macro"]
 ms.keywords: HMAT_ENTRY_LENGTH
 req.header: acpitabl.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - HMAT_ENTRY_LENGTH
  - acpitabl/HMAT_ENTRY_LENGTH
@@ -40,10 +41,9 @@ api_name:
 
 # HMAT_ENTRY_LENGTH macro
 
-
 ## -description
 
-The **HMAT_ENTRY_LENGTH** macro returns the size of the type in the HMAT_ENTRY stucture.
+The **HMAT_ENTRY_LENGTH** macro returns the size of the type in the HMAT_ENTRY structure.
 
 ## -parameters
 
@@ -54,4 +54,3 @@ The *_Type* parameter specifies the HMAT_ENTRY table type: Memory Subsystem Addr
 ## -remarks
 
 ## -see-also
-

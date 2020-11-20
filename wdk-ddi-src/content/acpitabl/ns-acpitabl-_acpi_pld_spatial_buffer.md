@@ -3,7 +3,7 @@ UID: NS:acpitabl._ACPI_PLD_SPATIAL_BUFFER
 title: _ACPI_PLD_SPATIAL_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD spatial descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a
-ms.date: 08/13/2020
+ms.date: 11/19/2020
 keywords: ["ACPI_PLD_SPATIAL_BUFFER structure"]
 ms.keywords: _ACPI_PLD_SPATIAL_BUFFER, ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER,
 req.header: acpitabl.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _ACPI_PLD_SPATIAL_BUFFER
  - acpitabl/_ACPI_PLD_SPATIAL_BUFFER
@@ -38,7 +39,6 @@ api_name:
 ---
 
 # _ACPI_PLD_SPATIAL_BUFFER structure
-
 
 ## -description
 
@@ -74,4 +74,3 @@ DEFINE_GUID(ACPI_PLD_SPATIAL_BUFFER_GUID,
 ```
 
 ## -see-also
-

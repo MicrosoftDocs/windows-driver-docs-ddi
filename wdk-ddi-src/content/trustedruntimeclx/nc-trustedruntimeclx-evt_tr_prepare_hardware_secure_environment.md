@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT
 title: EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT (trustedruntimeclx.h)
 description: 
 ms.assetid: 5c4f51c6-76a8-4010-b858-526099e52d73
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT
  - trustedruntimeclx/EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT
@@ -39,16 +40,15 @@ api_name:
 
 # EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param MasterDevice: 
+### -param MasterDevice
 
-### -param RawResources: 
+### -param RawResources
 
-### -param TranslatedResources: 
+### -param TranslatedResources
 
 ## -returns
 
@@ -59,15 +59,15 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT EvtTrPrepareHardwareSecureEnvironment; 
+EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT EvtTrPrepareHardwareSecureEnvironment;
 
 // Definition
 
-NTSTATUS EvtTrPrepareHardwareSecureEnvironment 
+NTSTATUS EvtTrPrepareHardwareSecureEnvironment
 (
-	WDFDEVICE MasterDevice
-	WDFCMRESLIST RawResources
-	WDFCMRESLIST TranslatedResources
+    WDFDEVICE MasterDevice
+    WDFCMRESLIST RawResources
+    WDFCMRESLIST TranslatedResources
 )
 {...}
 

@@ -2,7 +2,7 @@
 UID: NA:treerpmbservice
 title: Treerpmbservice.h header
 ms.assetid: d533804f-f73d-32e6-aad0-ff62f2f926b7
-ms.date: 08/09/2018
+ms.date: 11/20/2020
 keywords: ["Treerpmbservice.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -17,10 +17,8 @@ f1_keywords:
 
 # Treerpmbservice.h header
 
-
 ## -description
 
 This header is used by treedrv. For more information, see:
 
-- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)
-
+- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>

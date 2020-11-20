@@ -3,7 +3,7 @@ UID: NS:treepaymentservice._PAYMENT_SERVICE_IN
 title: _PAYMENT_SERVICE_IN structure (treepaymentservice.h)
 description: Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 ms.assetid: 69ab7349-5e68-4da5-bbfb-4300140aeac5
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["PAYMENT_SERVICE_IN structure"]
 ms.keywords: _PAYMENT_SERVICE_IN, PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN,
 req.header: treepaymentservice.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN
 targetos: Windows
+tech.root: treedrv
 f1_keywords:
  - _PAYMENT_SERVICE_IN
  - treepaymentservice/_PAYMENT_SERVICE_IN
@@ -39,7 +40,6 @@ api_name:
 
 # _PAYMENT_SERVICE_IN structure
 
-
 ## -description
 
 Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
@@ -57,4 +57,3 @@ Number of milliseconds elapsed since the last valid authentication to set CDCVM 
 ## -remarks
 
 ## -see-also
-

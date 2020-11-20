@@ -3,7 +3,7 @@ UID: NE:acpitabl._ACPI_PLD_PANEL
 title: _ACPI_PLD_PANEL enumeration (acpitabl.h)
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
-ms.date: 10/02/2018
+ms.date: 11/19/2020
 keywords: ["ACPI_PLD_PANEL enumeration"]
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel
 req.header: acpitabl.h
@@ -17,6 +17,7 @@ req.ddi-compliance:
 req.max-support: 
 req.typenames: ACPI_PLD_PANEL, *PACPI_PLD_PANEL
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _ACPI_PLD_PANEL
  - acpitabl/_ACPI_PLD_PANEL
@@ -36,42 +37,40 @@ api_name:
 
 # _ACPI_PLD_PANEL enumeration
 
-
 ## -description
 
 Describes panel surface bits 67:69.
 
 ## -enum-fields
 
-### -field AcpiPldPanelTop 
+### -field AcpiPldPanelTop
 
 Value is 0.
 
-### -field AcpiPldPanelBottom 
+### -field AcpiPldPanelBottom
 
 Value is 1.
 
-### -field AcpiPldPanelLeft 
+### -field AcpiPldPanelLeft
 
 Value is 2.
 
-### -field AcpiPldPanelRight 
+### -field AcpiPldPanelRight
 
 Value is 3.
 
-### -field AcpiPldPanelFront 
+### -field AcpiPldPanelFront
 
 Value is 4.
 
-### -field AcpiPldPanelBack 
+### -field AcpiPldPanelBack
 
 Value is 5.
 
-### -field AcpiPldPanelUnknown 
+### -field AcpiPldPanelUnknown
 
 Value is 6.
 
 ## -remarks
 
 ## -see-also
-

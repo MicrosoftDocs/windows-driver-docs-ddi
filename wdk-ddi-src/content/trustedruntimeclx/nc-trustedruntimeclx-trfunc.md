@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.TRFUNC
 title: TRFUNC (trustedruntimeclx.h)
 description: 
 ms.assetid: 8e25c958-8de1-4ae5-ace9-91184e90a1bd
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TRFUNC callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - TRFUNC
  - trustedruntimeclx/TRFUNC
@@ -39,25 +40,24 @@ api_name:
 
 # TRFUNC callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param Arg1: 
+### -param Arg1
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-TRFUNC Trfunc; 
+TRFUNC Trfunc;
 
 // Definition
 
-VOID Trfunc 
+VOID Trfunc
 (
-	VOID Arg1
+    VOID Arg1
 )
 {...}
 
@@ -66,4 +66,3 @@ VOID Trfunc
 ## -remarks
 
 ## -see-also
-

@@ -44,19 +44,18 @@ api_name:
 
 # DeRegisterOpRegionHandler function
 
-
 ## -description
 
 The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region handler with the <a href="/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a>.
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject
 
 [in]
 Pointer to the physical device object (PDO) that represents the ACPI device that defines the operation region.
 
-### -param OperationRegionObject 
+### -param OperationRegionObject
 
 [in]
 Specifies the operation region object returned by <a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
@@ -114,7 +113,5 @@ For more information about operation regions, see <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>

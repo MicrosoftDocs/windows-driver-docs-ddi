@@ -3,7 +3,7 @@ UID: NF:swenum.DEFINE_GUIDEX
 title: DEFINE_GUIDEX function (swenum.h)
 description: 
 ms.assetid: aa3c1f4a-1a4b-4cad-b54e-260022c29681
-ms.date: 10/19/2018
+ms.date: 11/17/2020
 keywords: ["DEFINE_GUIDEX function"]
 ms.keywords: DEFINE_GUIDEX
 req.header: swenum.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: stream
 f1_keywords:
  - DEFINE_GUIDEX
  - swenum/DEFINE_GUIDEX
@@ -42,7 +43,6 @@ product:
 
 # DEFINE_GUIDEX function
 
-
 ## -description
 
 ## -parameters
@@ -52,4 +52,3 @@ product:
 ## -remarks
 
 ## -see-also
-
