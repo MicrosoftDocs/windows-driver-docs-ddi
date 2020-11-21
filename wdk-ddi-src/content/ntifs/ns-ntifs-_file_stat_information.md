@@ -1,9 +1,9 @@
 ---
 UID: NS:ntifs._FILE_STAT_INFORMATION
-title: _FILE_STAT_INFORMATION (ntifs.h)
-description: Contains metadata about a file.
+title: FILE_STAT_INFORMATION (ntifs.h)
+description: The FILE_STAT_INFORMATION structure contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 tech.root: ifsk
 keywords: ["FILE_STAT_INFORMATION structure"]
 ms.keywords: _FILE_STAT_INFORMATION, FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION,
@@ -41,12 +41,11 @@ dev_langs:
  - c++
 ---
 
-# _FILE_STAT_INFORMATION structure
-
+# FILE_STAT_INFORMATION structure
 
 ## -description
 
-Contains metadata about a file.
+**FILE_STAT_INFORMATION** contains metadata about a file.
 
 ## -struct-fields
 
@@ -72,7 +71,6 @@ Specifies the last time a file was changed.
 
 ### -field AllocationSize
 
- 
 File allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device.
 
 ### -field EndOfFile
@@ -81,7 +79,7 @@ Absolute new end-of-file position as a byte offset from the start of the file. *
 
 ### -field FileAttributes
 
-File attributes, which can be any valid combination of the following: 
+File attributes, which can be any valid combination of the following:
 
 Attribute   |   Value
 ------------|------------
@@ -94,8 +92,7 @@ FILE_ATTRIBUTE_NORMAL   |0x00000080
 
 ### -field ReparseTag
 
- 
-Reparse point tag. Must be a Microsoft reparse point tag. (See the following <b>Remarks</b> section.)
+Reparse point tag. See [About reparse points](/windows-hardware/drivers/ifs/reparse-points) for more information.
 
 ### -field NumberOfLinks
 
@@ -107,5 +104,10 @@ Specifies the access rights of the file.
 
 ## -remarks
 
+[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md) and [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) return information in a **FILE_STAT_INFORMATION** structure when their **FileInformationClass** parameter is FileStatInformation.
+
 ## -see-also
 
+[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md)
+
+[**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
