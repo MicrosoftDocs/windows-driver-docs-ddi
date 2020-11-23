@@ -2,6 +2,7 @@
 UID: NE:usbctypes._USBC_CURRENT
 title: _USBC_CURRENT (usbctypes.h)
 description: Defines different Type-C current levels, as defined in the Type-C specification.
+tech.root: usbref
 ms.assetid: 6c185578-e418-4f66-a2d4-c50dea27beaf
 ms.date: 09/30/2018
 keywords: ["USBC_CURRENT enumeration"]

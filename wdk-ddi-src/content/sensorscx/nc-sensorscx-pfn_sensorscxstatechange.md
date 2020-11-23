@@ -2,6 +2,7 @@
 UID: NC:sensorscx.PFN_SENSORSCXSTATECHANGE
 title: PFN_SENSORSCXSTATECHANGE (sensorscx.h)
 description: Used to initialize a sensor state change.
+tech.root: sensors
 ms.assetid: 7c918334-c20f-4edd-988b-4bbe8bc2c9d8
 ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSTATECHANGE callback function"]

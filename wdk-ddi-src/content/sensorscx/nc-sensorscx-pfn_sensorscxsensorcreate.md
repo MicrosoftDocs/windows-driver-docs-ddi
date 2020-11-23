@@ -2,6 +2,7 @@
 UID: NC:sensorscx.PFN_SENSORSCXSENSORCREATE
 title: PFN_SENSORSCXSENSORCREATE (sensorscx.h)
 description: Creates an instance of a sensor in the class extension.
+tech.root: sensors
 ms.assetid: 5a5df8e4-11e9-4958-b622-64e15bcd8023
 ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORCREATE callback function"]

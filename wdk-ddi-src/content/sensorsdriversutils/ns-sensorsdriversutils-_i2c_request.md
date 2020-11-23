@@ -2,6 +2,7 @@
 UID: NS:sensorsdriversutils._I2C_REQUEST
 title: _I2C_REQUEST (sensorsdriversutils.h)
 description: An I2C request.
+tech.root: sensors
 ms.assetid: 6c58320f-2dee-43a2-acbf-f0233f3eb6fd
 ms.date: 04/19/2018
 keywords: ["I2C_REQUEST structure"]
