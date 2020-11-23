@@ -26,7 +26,6 @@ req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 targetos: Windows
-tech.root: acpi
 req.typenames: 
 f1_keywords:
  - RegisterOpRegionHandler
