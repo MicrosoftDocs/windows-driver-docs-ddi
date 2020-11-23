@@ -80,7 +80,7 @@ VOID EvtNetAdapterOffloadSetChecksum
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
+For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
 
 ## -see-also
 
