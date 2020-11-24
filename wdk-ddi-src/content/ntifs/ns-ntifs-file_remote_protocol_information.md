@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_REMOTE_PROTOCOL_INFORMATION
 title: FILE_REMOTE_PROTOCOL_INFORMATION
 description: The FILE_REMOTE_PROTOCOL_INFORMATION structure contains file remote protocol information.
-tech.root: 
+tech.root: ifsk
 ms.assetid: b97cbf60-3772-4486-96fd-6dae607e830d
 ms.date: 08/19/2019
 keywords: ["FILE_REMOTE_PROTOCOL_INFORMATION structure"]

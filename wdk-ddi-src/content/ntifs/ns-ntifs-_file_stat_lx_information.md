@@ -1,9 +1,9 @@
 ---
 UID: NS:ntifs._FILE_STAT_LX_INFORMATION
-title: _FILE_STAT_LX_INFORMATION (ntifs.h)
-description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
+title: FILE_STAT_LX_INFORMATION (ntifs.h)
+description: The FILE_STAT_LX_INFORMATION structure contains metadata about a file.
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 tech.root: ifsk
 keywords: ["FILE_STAT_LX_INFORMATION structure"]
 ms.keywords: _FILE_STAT_LX_INFORMATION, FILE_STAT_LX_INFORMATION, *PFILE_STAT_LX_INFORMATION,
@@ -37,12 +37,11 @@ api_name:
  - _FILE_STAT_LX_INFORMATION
 ---
 
-# _FILE_STAT_LX_INFORMATION structure
-
+# FILE_STAT_LX_INFORMATION structure
 
 ## -description
 
-Contains Linux metadata extended attributes present on the file. This is used and created by the Windows Subsystem for Linux (WSL).
+**FILE_STAT_LX_INFORMATION** contains Linux metadata extended attributes present on the file. This is used and created by the Windows Subsystem for Linux (WSL).
 
 ## -struct-fields
 
@@ -52,7 +51,6 @@ Specifies the id of a file.
 
 ### -field CreationTime
 
- 
 Specifies the creation time of a file.
 
 ### -field LastAccessTime
@@ -69,7 +67,6 @@ Specifies the last time a file was changed.
 
 ### -field AllocationSize
 
- 
 File allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device.
 
 ### -field EndOfFile
@@ -78,7 +75,7 @@ Absolute new end-of-file position as a byte offset from the start of the file. *
 
 ### -field FileAttributes
 
-File attributes, which can be any valid combination of the following: 
+File attributes, which can be any valid combination of the following:
 
 Attribute   |   Value
 ------------|------------
@@ -91,8 +88,7 @@ FILE_ATTRIBUTE_NORMAL   |0x00000080
 
 ### -field ReparseTag
 
- 
-Reparse point tag. Must be a Microsoft reparse point tag. (See the following <b>Remarks</b> section.)
+Reparse point tag. See [About reparse points](/windows-hardware/drivers/ifs/reparse-points) for more information.
 
 ### -field NumberOfLinks
 
@@ -124,7 +120,7 @@ Specifies the Group id of the file.
 
 ### -field LxMode
 
-Specifies the Linux file type and file system permissions. These values are defined in sys/stat.h in the Windows SDK. 
+Specifies the Linux file type and file system permissions. These values are defined in sys/stat.h in the Windows SDK.
 
 - S_IFLNK
 - S_IFSOCK
@@ -151,7 +147,12 @@ For device files (_S_IFCHR or S_IFBLK), specifies the device minor number. For o
 
 ## -remarks
 
+[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md) and [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) return information in a **FILE_STAT_LX_INFORMATION** structure when their **FileInformationClass** parameter is FileStatLxInformation.
+
 For more information about absolute and relative symbolic links, see Creating Symbolic Links in the Microsoft Windows SDK documentation.
 
 ## -see-also
 
+[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md)
+
+[**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)

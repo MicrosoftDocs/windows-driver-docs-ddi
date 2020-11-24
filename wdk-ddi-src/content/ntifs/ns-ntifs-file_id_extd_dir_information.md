@@ -3,7 +3,7 @@ UID: NS:ntifs._FILE_ID_EXTD_DIR_INFORMATION
 title: FILE_ID_EXTD_DIR_INFORMATION
 ms.date: 10/16/2020
 ms.topic: language-reference
-tech.root: display
+tech.root: ifsk
 ms.assetid: e41c1c17-6368-416a-9ecb-328b4ba71a14
 targetos: Windows
 description: The FILE_FULL_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
