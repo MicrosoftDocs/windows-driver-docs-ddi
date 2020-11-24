@@ -20,7 +20,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 20H2
+req.target-min-winverclnt: Windows 10, version 21H1
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -42,6 +42,9 @@ dev_langs:
 ---
 
 ## -description
+
+> [!NOTE]
+> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **IddCxSwapChainInSystemMemory** checks whether buffers for a swapchain are resident in system memory.
 
