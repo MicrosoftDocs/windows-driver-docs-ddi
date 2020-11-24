@@ -4,7 +4,6 @@ title: IOCTL_HID_GET_MANUFACTURER_STRING (hidclass.h)
 description: The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device.
 old-location: hid\ioctl_hid_get_manufacturer_string.htm
 tech.root: hid
-ms.assetid: 1a402deb-132c-4cda-a019-e044318e1910
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_MANUFACTURER_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
@@ -57,11 +56,11 @@ For general information about HIDClass devices see [HID Collections](/windows-ha
 
 ### -input-buffer-length
 
-The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character). The supplied buffer must be <= 4093 bytes (2^12 – 3).
+The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
 ### -output-buffer
 
-**Irp->MdlAddress** points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string).
+**Irp->MdlAddress** points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string). The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 ### -output-buffer-length
 

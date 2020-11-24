@@ -4,7 +4,6 @@ title: IOCTL_HID_GET_INDEXED_STRING (hidclass.h)
 description: The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a top-level collection.
 old-location: hid\ioctl_hid_get_indexed_string2.htm
 tech.root: hid
-ms.assetid: e97ce2a6-a852-4631-901f-b4cfd3834e04
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_INDEXED_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_INDEXED_STRING, IOCTL_HID_GET_INDEXED_STRING control, IOCTL_HID_GET_INDEXED_STRING control code [Human Input Devices], hid.ioctl_hid_get_indexed_string2, hidclass/IOCTL_HID_GET_INDEXED_STRING, hidioreq_ab829578-5003-4082-9c70-d81d59fb5015.xml
@@ -65,13 +64,13 @@ For general information about HIDClass devices see [HID Collections](/windows-ha
 
 ### -input-buffer-length
 
-**Parameters.DeviceIoControl.InputBufferLength** must be >= **sizeof**(ULONG) and it should contain the index of the string to be retrieved. The supplied buffer must be <= 4093 bytes (2^12 – 3).
+**Parameters.DeviceIoControl.InputBufferLength** must be >= **sizeof**(ULONG) and it should contain the index of the string to be retrieved.
 
 For **Parameters.DeviceIoControl.OutputBufferLength**, the maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
 ### -output-buffer
 
-**Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string).
+**Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 **Minidriver handling**: **Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). Note that unlike most device control IRPs for HID minidrivers, this IRP does not use METHOD_NEITHER buffering. In particular, it must be distinguished from IOCTL_HID_GET_STRING whose output buffer is identified by **Irp->UserBuffer**.
 
