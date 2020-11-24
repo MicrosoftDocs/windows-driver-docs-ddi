@@ -94,7 +94,7 @@ The **NtQueryInformationFile** routine returns various kinds of information abou
 | **FileIsRemoteDeviceInformation** (51) | A [FILE_IS_REMOTE_DEVICE_INFORMATION](../wdm/ns-wdm-_file_is_remote_device_information.md) structure. The caller can query this information as long as the file is open, without any particular requirements for *DesiredAccess*. |
 | **FileStandardLinkInformation** (54) | A [FILE_STANDARD_LINK_INFORMATION](ns-ntifs-file_standard_link_information.md) structure. |
 | **FileIdInformation** (59) | A [FILE_ID_INFORMATION](ns-ntifs-file_id_information.md) structure. |
-| **FileDesiredStorageClassInformation** (67) | A [FILE_DESIRED_STORAGE_CLASS_INFORMATION](ns-ntifs-ns-ntifs-_file_desired_storage_class_information.md) structure. |
+| **FileDesiredStorageClassInformation** (67) | A [FILE_DESIRED_STORAGE_CLASS_INFORMATION](ns-ntifs-_file_desired_storage_class_information.md) structure. |
 | **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md) |
 | **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md) |
 | **FileCaseSensitiveInformation** (71) | A [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This value is available starting with Windows 10, version 1803. |
