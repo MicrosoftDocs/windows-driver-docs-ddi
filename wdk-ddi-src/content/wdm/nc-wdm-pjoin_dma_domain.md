@@ -4,7 +4,7 @@ title: PJOIN_DMA_DOMAIN (wdm.h)
 description: 
 ms.assetid: e5cd824e-ab68-4d20-93d5-a84362859e99
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["PJOIN_DMA_DOMAIN callback function"]
 req.header: wdm.h
 req.include-header: 

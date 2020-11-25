@@ -4,7 +4,7 @@ title: FPGA_CONTROL_CONFIG_SPACE (wdm.h)
 description: Reserved for future use. Enables or disables the access to the configuration space of the FPGA device.
 ms.assetid: 963b8836-30f6-4321-9835-3860afe6076d
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["FPGA_CONTROL_CONFIG_SPACE callback function"]
 req.header: wdm.h
 req.include-header: 

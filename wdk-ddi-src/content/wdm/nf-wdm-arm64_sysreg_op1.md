@@ -4,7 +4,7 @@ title: ARM64_SYSREG_OP1 macro (wdm.h)
 description: Returns the op1 field for a given ARM system register.
 ms.assetid: 4f93d159-0a61-4a2c-9eb1-339a760697fc
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["ARM64_SYSREG_OP1 macro"]
 ms.keywords: ARM64_SYSREG_OP1
 req.header: wdm.h

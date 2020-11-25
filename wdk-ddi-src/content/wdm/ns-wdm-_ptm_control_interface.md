@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._PTM_CONTROL_INTERFACE
 title: _PTM_CONTROL_INTERFACE (wdm.h)
-description: Resereved. Do not use.
+description: Reserved. Do not use.
 ms.assetid: ac2d0ac1-6ce2-47c5-b31e-935d16358a86
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["PTM_CONTROL_INTERFACE structure"]
 ms.keywords: _PTM_CONTROL_INTERFACE, PTM_CONTROL_INTERFACE, *PPTM_CONTROL_INTERFACE,
 req.header: wdm.h

@@ -4,12 +4,12 @@ title: IOMMU_DEVICE_FAULT_HANDLER (wdm.h)
 description: Reports fault from a specific device and domain.
 ms.assetid: 6efa32ef-39c2-43f3-8808-d7649cfc493d
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["IOMMU_DEVICE_FAULT_HANDLER callback function"]
 req.header: wdm.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1809.
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
