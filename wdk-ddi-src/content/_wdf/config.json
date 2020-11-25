@@ -44,5 +44,5 @@
     "wudfusb.h",
     "wudfworkitem.h"
   ],
-  "displayName": "Windows Driver Framework"
+  "displayName": "Windows Driver Framework (WDF)"
 }
