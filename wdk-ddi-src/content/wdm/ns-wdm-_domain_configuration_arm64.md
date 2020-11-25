@@ -4,6 +4,7 @@ title: _DOMAIN_CONFIGURATION_ARM64 (wdm.h)
 description: Contains information required to configure a domain for an ARM64 system.
 ms.assetid: ad949a72-1461-434c-96e2-4c2d12c8e146
 ms.date: 10/19/2018
+tech.root: 
 keywords: ["DOMAIN_CONFIGURATION_ARM64 structure"]
 ms.keywords: _DOMAIN_CONFIGURATION_ARM64, *PDOMAIN_CONFIGURATION_ARM64, DOMAIN_CONFIGURATION_ARM64,
 req.header: wdm.h

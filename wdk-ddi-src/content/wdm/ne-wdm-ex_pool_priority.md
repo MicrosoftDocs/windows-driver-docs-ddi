@@ -2,6 +2,7 @@
 UID: NE:wdm._EX_POOL_PRIORITY
 title: EX_POOL_PRIORITY
 ms.date: 03/01/2020
+tech.root: 
 ms.topic: language-reference
 targetos: Windows
 description: 

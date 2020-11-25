@@ -2,6 +2,7 @@
 UID: NS:wdm._NPEM_CONTROL_INTERFACE
 title: NPEM_CONTROL_INTERFACE
 ms.date: 04/28/2020
+tech.root: 
 ms.topic: language-reference
 targetos: Windows
 description: 
