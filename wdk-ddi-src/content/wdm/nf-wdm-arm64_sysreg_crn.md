@@ -4,6 +4,7 @@ title: ARM64_SYSREG_CRN macro (wdm.h)
 description: Returns the CRn field for a given ARM system register.
 ms.assetid: f3b8ad7a-ada3-4db4-9ca7-23735ffca0d2
 ms.date: 10/19/2018
+tech.root: 
 keywords: ["ARM64_SYSREG_CRN macro"]
 ms.keywords: ARM64_SYSREG_CRN
 req.header: wdm.h

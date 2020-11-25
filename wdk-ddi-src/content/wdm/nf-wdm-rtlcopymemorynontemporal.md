@@ -4,6 +4,7 @@ title: RtlCopyMemoryNonTemporal function (wdm.h)
 description: This function copies from one buffer to another using non-temporal moves that do not pollute the cache. The buffers shouldn’t overlap.
 ms.assetid: 08dadbdf-95e4-4998-bdc3-dfc2528f028e
 ms.date: 10/19/2018
+tech.root: 
 keywords: ["RtlCopyMemoryNonTemporal function"]
 ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h

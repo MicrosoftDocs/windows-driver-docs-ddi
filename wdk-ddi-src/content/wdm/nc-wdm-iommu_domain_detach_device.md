@@ -4,6 +4,7 @@ title: IOMMU_DOMAIN_DETACH_DEVICE (wdm.h)
 description: Detaches a device from an existing domain.
 ms.assetid: 57f3e503-dd8d-487c-87b7-a0f9f0b126dc
 ms.date: 10/19/2018
+tech.root: 
 keywords: ["IOMMU_DOMAIN_DETACH_DEVICE callback function"]
 req.header: wdm.h
 req.include-header: 

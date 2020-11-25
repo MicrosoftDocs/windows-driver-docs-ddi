@@ -2,6 +2,7 @@
 UID: NS:wdm._NPEM_CAPABILITY_STANDARD
 title: NPEM_CAPABILITY_STANDARD
 ms.date: 04/28/2020
+tech.root: 
 ms.topic: language-reference
 targetos: Windows
 description: 
