@@ -2,7 +2,7 @@
 UID: NE:ntddk._IPMI_OS_SEL_RECORD_TYPE
 title: IPMI_OS_SEL_RECORD_TYPE
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 4de0fd97-77ec-4e9a-bc0d-ae214718f472
 ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD_TYPE enumeration"]

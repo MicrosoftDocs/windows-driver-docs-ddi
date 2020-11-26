@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_PFA_MEMORY_REMOVE_MONITOR
 title: WHEAP_PFA_MEMORY_REMOVE_MONITOR
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 3fed5867-ad54-4114-b227-d7cab3661d28
 ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_REMOVE_MONITOR structure"]

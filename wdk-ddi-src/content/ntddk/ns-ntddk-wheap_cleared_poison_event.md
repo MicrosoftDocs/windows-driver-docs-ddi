@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_CLEARED_POISON_EVENT
 title: WHEAP_CLEARED_POISON_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 77b44885-a7c4-4aca-ac5e-e4da87ecc90b
 ms.date: 08/19/2019
 keywords: ["WHEAP_CLEARED_POISON_EVENT structure"]

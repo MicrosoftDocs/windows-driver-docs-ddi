@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_DEFERRED_EVENT
 title: WHEAP_DEFERRED_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 2412af5a-0dd6-4fe6-86f4-dcd298fbfd63
 ms.date: 08/19/2019
 keywords: ["WHEAP_DEFERRED_EVENT structure"]

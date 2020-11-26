@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_OSC_IMPLEMENTED
 title: WHEAP_OSC_IMPLEMENTED
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: f94348ba-a1ab-43e6-8696-231eae36d141
 ms.date: 08/19/2019
 keywords: ["WHEAP_OSC_IMPLEMENTED structure"]

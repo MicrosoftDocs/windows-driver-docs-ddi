@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_FLAGS
 title: WHEA_ERROR_RECORD_HEADER_FLAGS
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 96520e0c-8a60-419a-97f2-f1fe71019570
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_RECORD_HEADER_FLAGS structure"]

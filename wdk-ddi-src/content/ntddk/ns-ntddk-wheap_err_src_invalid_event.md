@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_ERR_SRC_INVALID_EVENT
 title: WHEAP_ERR_SRC_INVALID_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: a3201666-9107-4939-90c8-954bd4f50533
 ms.date: 08/19/2019
 keywords: ["WHEAP_ERR_SRC_INVALID_EVENT structure"]

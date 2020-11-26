@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaAddErrorSource
 title: WheaAddErrorSource function
 description: Reserved for system use.
-tech.root: 
+tech.root: whea
 ms.assetid: 4113cadd-ec58-4bca-8c37-c8102ae6d1e0
 ms.date: 08/19/2019
 keywords: ["WheaAddErrorSource function"]
