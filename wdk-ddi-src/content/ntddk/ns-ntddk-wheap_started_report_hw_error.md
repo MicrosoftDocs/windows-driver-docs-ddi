@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_STARTED_REPORT_HW_ERROR
 title: WHEAP_STARTED_REPORT_HW_ERROR
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 8c2d5cfe-6538-4588-9873-56f356d98511
 ms.date: 08/19/2019
 keywords: ["WHEAP_STARTED_REPORT_HW_ERROR structure"]

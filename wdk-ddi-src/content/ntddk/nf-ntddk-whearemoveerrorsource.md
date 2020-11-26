@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaRemoveErrorSource
 title: WheaRemoveErrorSource function
 description: Reserved for system use.
-tech.root: 
+tech.root: whea
 ms.assetid: 6efc418b-cb45-409d-9ad7-9dbdfeba59bb
 ms.date: 08/19/2019
 keywords: ["WheaRemoveErrorSource function"]

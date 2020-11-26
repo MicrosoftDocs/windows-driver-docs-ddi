@@ -2,7 +2,7 @@
 UID: NS:ntddk._MCI_STATUS
 title: MCI_STATUS
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 468fe430-d8d6-4736-956a-7639abd9c12b
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS structure"]

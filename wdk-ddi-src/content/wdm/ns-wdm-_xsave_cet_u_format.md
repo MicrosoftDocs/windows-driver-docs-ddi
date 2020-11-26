@@ -4,7 +4,7 @@ title: _XSAVE_CET_U_FORMAT (wdm.h)
 description: Format for CET_U XSTATE component.
 ms.assetid: 736b8034-422d-4d51-b399-3465fac36841
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["XSAVE_CET_U_FORMAT structure"]
 ms.keywords: _XSAVE_CET_U_FORMAT, XSAVE_CET_U_FORMAT, *PXSAVE_CET_U_FORMAT,
 req.header: wdm.h

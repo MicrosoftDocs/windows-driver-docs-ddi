@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_PFA_MEMORY_POLICY
 title: WHEAP_PFA_MEMORY_POLICY
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: fc556738-9097-4304-ab9d-7044e24abb65
 ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_POLICY structure"]

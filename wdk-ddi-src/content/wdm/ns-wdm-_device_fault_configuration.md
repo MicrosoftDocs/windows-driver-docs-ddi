@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._DEVICE_FAULT_CONFIGURATION
 title: _DEVICE_FAULT_CONFIGURATION (wdm.h)
-description: This structure is used in seting the device fault reporting state
+description: This structure is used in setting the device fault reporting state
 ms.assetid: ccd97b0c-9ecc-47e3-b0c3-1c202139b06b
 ms.date: 09/30/2018
-tech.root: 
+tech.root: kernel
 keywords: ["DEVICE_FAULT_CONFIGURATION structure"]
 ms.keywords: _DEVICE_FAULT_CONFIGURATION, DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION,
 req.header: wdm.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-This structure is used in seting the device fault reporting state through the [IOMMU_SET_DEVICE_FAULT_REPORTING](nc-wdm-iommu_set_device_fault_reporting.md) callback function.
+This structure is used in setting the device fault reporting state through the [IOMMU_SET_DEVICE_FAULT_REPORTING](nc-wdm-iommu_set_device_fault_reporting.md) callback function.
 
 ## -struct-fields
 

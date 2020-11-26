@@ -2,7 +2,7 @@
 UID: NF:wdm.RtlFillMemoryNonTemporal
 title: RtlFillMemoryNonTemporal function
 description: This function fills a block of memory with the specified fill value using non-temporal moves that do not pollute the cache.
-tech.root: 
+tech.root: kernel
 ms.assetid: dd55904e-f4ba-4501-9cb8-d653376ebb2f
 ms.date: 08/19/2019
 keywords: ["RtlFillMemoryNonTemporal function"]

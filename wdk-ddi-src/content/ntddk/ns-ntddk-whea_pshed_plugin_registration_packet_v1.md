@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V1
 title: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V1
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 10337aa9-051e-4efe-8423-8b3287ec68d5
 ms.date: 08/19/2019
 keywords: ["WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V1 structure"]

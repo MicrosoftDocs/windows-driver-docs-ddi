@@ -2,7 +2,7 @@
 UID: NE:wdm._DRIVER_REGKEY_TYPE
 title: DRIVER_REGKEY_TYPE
 description: 
-tech.root: 
+tech.root: kernel
 ms.assetid: 147f40bd-4000-4fdd-b6ac-a305fc581d29
 ms.date: 08/19/2019
 keywords: ["DRIVER_REGKEY_TYPE enumeration"]

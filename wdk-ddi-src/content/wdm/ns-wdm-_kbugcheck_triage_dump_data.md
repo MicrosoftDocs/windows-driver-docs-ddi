@@ -4,7 +4,7 @@ title: _KBUGCHECK_TRIAGE_DUMP_DATA
 description: 
 ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
 ms.date: 06/03/2019
-tech.root: 
+tech.root: devtest
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices

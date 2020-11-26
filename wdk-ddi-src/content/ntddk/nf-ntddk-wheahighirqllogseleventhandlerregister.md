@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaHighIrqlLogSelEventHandlerRegister
 title: WheaHighIrqlLogSelEventHandlerRegister function
 description: Reserved for system use.
-tech.root: 
+tech.root: whea
 ms.assetid: 492e73c4-2d9a-419c-aabf-b4f53324b8bb
 ms.date: 08/19/2019
 keywords: ["WheaHighIrqlLogSelEventHandlerRegister function"]

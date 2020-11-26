@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_ERROR_SOURCE_CONFIGURATION_DD
 title: WHEA_ERROR_SOURCE_CONFIGURATION_DD
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 1511e26e-ac2d-45b0-9ac7-894cbbda1b81
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION_DD structure"]

@@ -2,7 +2,7 @@
 UID: NE:wdm._NPEM_CONTROL_STANDARD_CONTROL_BIT
 title: NPEM_CONTROL_STANDARD_CONTROL_BIT
 ms.date: 04/28/2020
-tech.root: 
+tech.root: PCI
 ms.topic: language-reference
 targetos: Windows
 description: 

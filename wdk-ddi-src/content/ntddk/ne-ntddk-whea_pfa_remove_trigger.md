@@ -2,7 +2,7 @@
 UID: NE:ntddk._WHEA_PFA_REMOVE_TRIGGER
 title: WHEA_PFA_REMOVE_TRIGGER
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 0f85285c-9db4-42ab-bb06-6c7f006864ee
 ms.date: 08/19/2019
 keywords: ["WHEA_PFA_REMOVE_TRIGGER enumeration"]
