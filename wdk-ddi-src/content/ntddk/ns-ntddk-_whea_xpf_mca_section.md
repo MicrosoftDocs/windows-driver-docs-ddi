@@ -2,6 +2,7 @@
 UID: NS:ntddk._WHEA_XPF_MCA_SECTION
 title: _WHEA_XPF_MCA_SECTION (ntddk.h)
 description: 
+tech.root: whea
 ms.assetid: befdfe81-69c0-42d1-8359-b005b02d314f
 ms.date: 10/19/2018
 tech.root: whea

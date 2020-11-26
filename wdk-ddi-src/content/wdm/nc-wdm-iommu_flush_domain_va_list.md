@@ -2,6 +2,7 @@
 UID: NC:wdm.IOMMU_FLUSH_DOMAIN_VA_LIST
 title: IOMMU_FLUSH_DOMAIN_VA_LIST (wdm.h)
 description: Flushes the TLB for all entries that match the specified domain's ASID and one of the addresses in the provided list.
+tech.root: kernel
 ms.assetid: 3ae0eb66-ed0d-4232-9294-4037ae48ce3e
 ms.date: 10/19/2018
 tech.root: kernel

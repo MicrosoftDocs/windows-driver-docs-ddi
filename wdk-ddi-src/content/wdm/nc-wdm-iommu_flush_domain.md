@@ -2,6 +2,7 @@
 UID: NC:wdm.IOMMU_FLUSH_DOMAIN
 title: IOMMU_FLUSH_DOMAIN (wdm.h)
 description: Flushes the TLB for all entries which match this domain.
+tech.root: kernel
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
 ms.date: 10/19/2018
 tech.root: kernel

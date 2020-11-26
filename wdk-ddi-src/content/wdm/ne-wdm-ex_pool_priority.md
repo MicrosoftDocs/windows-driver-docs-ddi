@@ -1,6 +1,7 @@
 ---
 UID: NE:wdm._EX_POOL_PRIORITY
 title: EX_POOL_PRIORITY
+tech.root: kernel
 ms.date: 03/01/2020
 tech.root: kernel
 ms.topic: language-reference

@@ -2,6 +2,7 @@
 UID: NC:wdm.IOMMU_DOMAIN_CONFIGURE
 title: IOMMU_DOMAIN_CONFIGURE (wdm.h)
 description: Configures a domain for use.
+tech.root: kernel
 ms.assetid: 1b5394c2-0dc9-49a2-a749-37c40c60bf3b
 ms.date: 10/19/2018
 tech.root: kernel
