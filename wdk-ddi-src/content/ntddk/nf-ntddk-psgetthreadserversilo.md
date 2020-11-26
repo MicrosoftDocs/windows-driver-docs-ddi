@@ -2,6 +2,7 @@
 UID: NF:ntddk.PsGetThreadServerSilo
 title: PsGetThreadServerSilo function (ntddk.h)
 description: Determines whether the given thread is a silo.
+tech.root: kernel
 ms.assetid: 021c4a39-c2fd-4f6d-8299-0f36fab0a69f
 ms.date: 09/30/2018
 tech.root: kernel
