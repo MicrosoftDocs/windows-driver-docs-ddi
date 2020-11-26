@@ -4,7 +4,7 @@ title: MEM_SECTION_EXTENDED_PARAMETER_TYPE (wdm.h)
 description: 
 ms.assetid: befad141-3eee-4c01-8763-9d92e6b6942e
 ms.date: 09/30/2018
-tech.root: 
+tech.root: kernel
 keywords: ["MEM_SECTION_EXTENDED_PARAMETER_TYPE enumeration"]
 ms.keywords: MEM_SECTION_EXTENDED_PARAMETER_TYPE, MEM_SECTION_EXTENDED_PARAMETER_TYPE, *PMEM_SECTION_EXTENDED_PARAMETER_TYPE,
 req.header: wdm.h

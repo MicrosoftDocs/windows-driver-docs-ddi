@@ -2,7 +2,7 @@
 UID: NC:wdm.NPEM_CONTROL_SET_STANDARD_CONTROL
 title: NPEM_CONTROL_SET_STANDARD_CONTROL
 ms.date: 04/28/2020
-tech.root: 
+tech.root: PCI
 ms.topic: language-reference
 targetos: Windows
 description: 

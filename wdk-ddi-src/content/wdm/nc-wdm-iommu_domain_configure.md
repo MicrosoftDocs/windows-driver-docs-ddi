@@ -4,7 +4,7 @@ title: IOMMU_DOMAIN_CONFIGURE (wdm.h)
 description: Configures a domain for use.
 ms.assetid: 1b5394c2-0dc9-49a2-a749-37c40c60bf3b
 ms.date: 10/19/2018
-tech.root: 
+tech.root: kernel
 keywords: ["IOMMU_DOMAIN_CONFIGURE callback function"]
 req.header: wdm.h
 req.include-header: 
