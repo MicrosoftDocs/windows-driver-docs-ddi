@@ -96,7 +96,7 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 
 ## -remarks
 
-Minifilter drivers should call this routine instead of <a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>. 
+Minifilter drivers should call this routine instead of <a href="/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwfscontrolfile">ZwFsControlFile</a>.
 
 The following FSCTL codes are currently documented for kernel-mode drivers: 
 
@@ -152,4 +152,4 @@ For more information about the system-defined FSCTL_<i>XXX</i> codes, see the Re
 
 
 
-<a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+<a href="/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwfscontrolfile">ZwFsControlFile</a>
