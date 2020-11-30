@@ -5,7 +5,6 @@ description: Attaches a device to an existing domain.
 tech.root: kernel
 ms.assetid: 9d1b51df-e599-49e4-8465-ad283e60027a
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["IOMMU_DOMAIN_ATTACH_DEVICE callback function"]
 req.header: wdm.h
 req.include-header: 

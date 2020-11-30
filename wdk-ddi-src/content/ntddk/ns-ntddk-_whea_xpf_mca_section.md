@@ -5,7 +5,6 @@ description:
 tech.root: whea
 ms.assetid: befdfe81-69c0-42d1-8359-b005b02d314f
 ms.date: 10/19/2018
-tech.root: whea
 keywords: ["WHEA_XPF_MCA_SECTION structure"]
 ms.keywords: _WHEA_XPF_MCA_SECTION, WHEA_XPF_MCA_SECTION, *PWHEA_XPF_MCA_SECTION,
 req.header: ntddk.h
