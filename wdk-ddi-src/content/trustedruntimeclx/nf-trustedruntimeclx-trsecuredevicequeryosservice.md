@@ -3,7 +3,7 @@ UID: NF:trustedruntimeclx.TrSecureDeviceQueryOSService
 title: TrSecureDeviceQueryOSService function (trustedruntimeclx.h)
 description: 
 ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TrSecureDeviceQueryOSService function"]
 ms.keywords: TrSecureDeviceQueryOSService
 req.header: trustedruntimeclx.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - TrSecureDeviceQueryOSService
  - trustedruntimeclx/TrSecureDeviceQueryOSService
@@ -39,7 +40,6 @@ api_name:
 ---
 
 # TrSecureDeviceQueryOSService function
-
 
 ## -description
 
@@ -58,4 +58,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

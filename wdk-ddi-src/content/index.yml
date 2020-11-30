@@ -1,13 +1,13 @@
 ### YamlMime:Landing
 
-title: Programming reference for Windows Driver Kit (WDK)
-summary: The Windows driver API reference documentation is presented in two different views. When you click on an API, you see a technology-specific table of contents that shows only the APIs pertaining to that technology. When you click on a header, you see a header-specific table of contents that lists all APIs in the selected header.
+title: API reference docs for Windows Driver Kit (WDK)
+summary: The Windows driver API reference documentation is presented in two different views. In the table of contents, select a technology to see the subset of APIs and headers pertaining to that driver technology. Or, select a header to see all APIs in that header.
 
 metadata: 
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
   author: tedhudek
   ms.author: tedhudek
-  ms.date: 09/24/2019
+  ms.date: 11/18/2020
   ms.topic: landing-page
   ms.prod: windows-hardware
   ms.technology: windows-devices
@@ -15,68 +15,55 @@ metadata:
   ms.custom: contperfq2
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
-# TODO: move text blocks into other topics, use action phrases as titles (About x; Order, set up, copy, return; Manage device; View requirements; Troubleshoot)
-# we want 24ish links max
 
 landingContent: 
   # Card
-  - title: Driver Model
+  - title: Buses and ports
     linkLists:
       - linkListType: reference
         links:
-          - text: KMDF and UMDF
-            url: ./_wdf/index.md
-          - text: Core kernel
-            url: ./_kernel/index.md
-  
-  - title: System
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Display
-            url: ./_display/index.md
-          - text: Battery
-            url: ./_battery/index.md
-          - text: ACPI
-            url: ./_acpi/index.md
-          - text: Storage
-            url: ./_storage/index.md
-          - text: File system
-            url: ./_ifsk/index.md
-          - text: Hardware notifications
-            url: ./_gpiobtn/index.md
-          - text: Power metering
-            url: ./_powermeter/index.md
-          - text: Biometric
-            url: ./_biometric/index.md
-
-
-  - title:  Devices
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Print
-            url: ./_print/index.md
-          - text: HID
-            url: ./_hid/index.md
-          - text: Sensors
-            url: ./_sensors/index.md
-          - text: Point of service
-            url: ./_pos/index.md
-          - text: Image and Scan
-            url: ./_image/index.md
-
+          - text: GPIO
+            url: ./_gpio/index.md
+          - text: I2C, SPI
+            url: ./_spb/index.md
+          - text: PCI
+            url: ./_pci/index.md
+          - text: USB
+            url: ./_usbref/index.md
 
   - title: Connectivity
     linkLists:
       - linkListType: reference
         links:
-          - text: Network
-            url: ./_netvista/index.md
           - text: Bluetooth
             url: ./_bltooth/index.md
+          - text: Network
+            url: ./_netvista/index.md
           - text: Smart Card Readers
             url: ./_nfpdrivers/index.md
+
+  - title:  Devices
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: HID
+            url: ./_hid/index.md
+          - text: Image and Scan
+            url: ./_image/index.md
+          - text: Print
+            url: ./_print/index.md
+          - text: Sensors
+            url: ./_sensors/index.md
+
+  - title: Driver Model
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Kernel
+            url: ./_kernel/index.md
+          - text: WDF
+            url: ./_wdf/index.md
+
 
   - title: Streaming
     linkLists:
@@ -86,16 +73,21 @@ landingContent:
             url: ./_audio/index.md
           - text: Camera
             url: ./_stream/index.md
-
-  - title: Buses and ports
+  
+  - title: System
     linkLists:
       - linkListType: reference
         links:
-          - text: USB
-            url: ./_usbref/index.md
-          - text: I2C, SPI
-            url: ./_spb/index.md
-          - text: PCI
-            url: ./_pci/index.md
-          - text: GPIO
-            url: ./_gpio/index.md
+          - text: ACPI
+            url: ./_acpi/index.md
+          - text: Display
+            url: ./_display/index.md
+          - text: File system
+            url: ./_ifsk/index.md
+          - text: Hardware notifications
+            url: ./_gpiobtn/index.md
+          - text: Storage
+            url: ./_storage/index.md
+
+
+

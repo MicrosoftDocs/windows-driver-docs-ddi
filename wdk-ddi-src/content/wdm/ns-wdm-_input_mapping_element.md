@@ -4,6 +4,7 @@ title: _INPUT_MAPPING_ELEMENT (wdm.h)
 description: Contains the input mapping IDs for a device.
 ms.assetid: a1bbdb5d-d058-408a-8700-ac2e25a54144
 ms.date: 10/19/2018
+tech.root: kernel
 keywords: ["INPUT_MAPPING_ELEMENT structure"]
 ms.keywords: _INPUT_MAPPING_ELEMENT, INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT,
 req.header: wdm.h

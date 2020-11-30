@@ -2,6 +2,7 @@
 UID: NE:ufxbase._UFX_CLASS_FUNCTIONS
 title: _UFX_CLASS_FUNCTIONS (ufxbase.h)
 description: 
+tech.root: usbref
 ms.assetid: 0acaec8d-ed14-4acb-826b-8bd1552dadd6
 ms.date: 10/19/2018
 keywords: ["UFX_CLASS_FUNCTIONS enumeration"]

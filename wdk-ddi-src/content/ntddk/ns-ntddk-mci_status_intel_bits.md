@@ -2,7 +2,7 @@
 UID: NS:ntddk._MCI_STATUS_INTEL_BITS
 title: MCI_STATUS_INTEL_BITS
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 677c44c7-b158-4164-9b0b-bccdbbff8da5
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS_INTEL_BITS structure"]

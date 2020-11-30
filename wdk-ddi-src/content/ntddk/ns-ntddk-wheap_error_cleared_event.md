@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_ERROR_CLEARED_EVENT
 title: WHEAP_ERROR_CLEARED_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 34e719a1-3e41-4a1a-949a-d35201b26252
 ms.date: 08/19/2019
 keywords: ["WHEAP_ERROR_CLEARED_EVENT structure"]

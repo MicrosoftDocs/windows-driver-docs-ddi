@@ -3,7 +3,7 @@ UID: NI:usbscan.IOCTL_INDEX
 title: IOCTL_INDEX (usbscan.h)
 description: 
 ms.assetid: 5f05ce18-4a4a-433c-8cab-402f0ea39155
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["IOCTL_INDEX IOCTL"]
 req.header: usbscan.h
 req.include-header: 
@@ -19,6 +19,7 @@ req.ddi-compliance:
 req.max-support: 
 targetos: Windows
 ms.custom: RS5
+tech.root: image
 f1_keywords:
  - IOCTL_INDEX
  - usbscan/IOCTL_INDEX
@@ -38,22 +39,21 @@ product:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-### -input-buffer-length 
+### -input-buffer-length
 
 ### -output-buffer
 
-### -output-buffer-length 
+### -output-buffer-length
 
 ### -in-out-buffer
 
-### -inout-buffer-length 
+### -inout-buffer-length
 
 ### -status-block
 

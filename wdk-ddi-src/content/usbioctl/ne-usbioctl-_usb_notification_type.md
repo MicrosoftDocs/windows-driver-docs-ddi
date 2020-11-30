@@ -2,6 +2,7 @@
 UID: NE:usbioctl._USB_NOTIFICATION_TYPE
 title: _USB_NOTIFICATION_TYPE (usbioctl.h)
 description: 
+tech.root: usbref
 ms.assetid: cb5eaa01-dec9-4028-b0b1-7a1f240c02ae
 ms.date: 10/19/2018
 keywords: ["USB_NOTIFICATION_TYPE enumeration"]

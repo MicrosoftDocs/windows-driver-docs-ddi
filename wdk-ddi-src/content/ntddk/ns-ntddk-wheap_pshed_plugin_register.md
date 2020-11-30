@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_PSHED_PLUGIN_REGISTER
 title: WHEAP_PSHED_PLUGIN_REGISTER
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 033e896d-6d4e-411e-98a4-5f94d37de0bd
 ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_PLUGIN_REGISTER structure"]

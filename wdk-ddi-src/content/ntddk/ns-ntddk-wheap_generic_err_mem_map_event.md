@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 title: WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: c5309ddf-acfa-4b8b-bd93-3b90c4ec5e6f
 ms.date: 08/19/2019
 keywords: ["WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure"]

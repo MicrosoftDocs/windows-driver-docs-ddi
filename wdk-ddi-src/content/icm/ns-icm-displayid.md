@@ -3,7 +3,7 @@ UID: NS:icm.DisplayID
 title: DisplayID structure (icm.h)
 description: The DisplayID structure defines an identifier for a particular display, using the DXGK target and source IDs.
 ms.assetid: e510b96d-263a-4cc5-b1c9-69845429f06c
-ms.date: 08/14/2020
+ms.date: 11/18/2020
 keywords: ["DisplayID structure"]
 ms.keywords: DisplayID, DisplayID,
 req.header: icm.h
@@ -20,6 +20,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: DisplayID
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -34,7 +35,6 @@ f1_keywords:
 ---
 
 # DisplayID structure
-
 
 ## -description
 
@@ -52,4 +52,3 @@ The DisplayID structure defines an identifier for a particular display, using th
 ## -remarks
 
 ## -see-also
-

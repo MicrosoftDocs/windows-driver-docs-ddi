@@ -2,6 +2,7 @@
 UID: NC:wdm.IOMMU_SET_DEVICE_FAULT_REPORTING
 title: IOMMU_SET_DEVICE_FAULT_REPORTING (wdm.h)
 description: This routine sets the device fault reporting state to a device already attached to a domain.
+tech.root: kernel
 ms.assetid: 111049ce-9f18-4807-a6c2-5641b115a4b5
 ms.date: 09/30/2018
 keywords: ["IOMMU_SET_DEVICE_FAULT_REPORTING callback function"]

@@ -10,7 +10,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Windows Driver Framework
+# Windows Driver Framework (WDF)
 
 ## -description
 

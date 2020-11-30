@@ -3,7 +3,7 @@ UID: NS:treevariableservice._EFI_QUERY_VARIABLE_INFO_IN
 title: _EFI_QUERY_VARIABLE_INFO_IN (treevariableservice.h)
 description: 
 ms.assetid: 7ac6192e-d0f5-4e0a-a3c8-11cf3041d551
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EFI_QUERY_VARIABLE_INFO_IN structure"]
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_IN, EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN,
 req.header: treevariableservice.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _EFI_QUERY_VARIABLE_INFO_IN
  - treevariableservice/_EFI_QUERY_VARIABLE_INFO_IN
@@ -40,7 +41,6 @@ api_name:
 
 # _EFI_QUERY_VARIABLE_INFO_IN structure
 
-
 ## -description
 
 ## -struct-fields
@@ -50,4 +50,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

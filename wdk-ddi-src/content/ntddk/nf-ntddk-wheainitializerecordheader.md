@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaInitializeRecordHeader
 title: WheaInitializeRecordHeader function
 description: Reserved for system use.
-tech.root: 
+tech.root: whea
 ms.assetid: 82722a7a-bd96-434c-bffe-c51ea3b013ae
 ms.date: 08/19/2019
 keywords: ["WheaInitializeRecordHeader function"]

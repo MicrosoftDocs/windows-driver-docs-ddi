@@ -2,7 +2,7 @@
 UID: NS:ntddk._KUSER_SHARED_DATA
 title: KUSER_SHARED_DATA
 description: 
-tech.root: 
+tech.root: kernel
 ms.assetid: 91ffdc97-a46c-4f15-8823-f07d23e6a1d0
 ms.date: 08/19/2019
 keywords: ["KUSER_SHARED_DATA structure"]

@@ -2,6 +2,7 @@
 UID: NS:wdm._D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 title: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE (wdm.h)
 description: Allows device drivers to negotiate a higher auxiliary power for their PCI devices while in D3Cold state.
+tech.root: kernel
 ms.assetid: a69dbe9e-ea7d-4b71-8fa8-eb92abb3447b
 ms.date: 10/19/2018
 keywords: ["D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure"]

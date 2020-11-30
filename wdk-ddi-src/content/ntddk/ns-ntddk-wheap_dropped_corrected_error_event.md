@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_DROPPED_CORRECTED_ERROR_EVENT
 title: WHEAP_DROPPED_CORRECTED_ERROR_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 5e9afbbd-8f2c-41b1-b769-87146bcd14b5
 ms.date: 08/19/2019
 keywords: ["WHEAP_DROPPED_CORRECTED_ERROR_EVENT structure"]

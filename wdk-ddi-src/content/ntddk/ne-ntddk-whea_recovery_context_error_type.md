@@ -2,7 +2,7 @@
 UID: NE:ntddk._WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 title: WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: cae5ce3d-64b2-4422-a681-1b7652387df7
 ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration"]

@@ -4,6 +4,7 @@ title: FPGA_BUS_SCAN (wdm.h)
 description: Reserved for future use. Triggers a bus scan at the parent of the FPGA device.
 ms.assetid: 9508f992-23b7-49d8-8eb7-3bd5214a6835
 ms.date: 10/19/2018
+tech.root: kernel
 keywords: ["FPGA_BUS_SCAN callback function"]
 req.header: wdm.h
 req.include-header: 

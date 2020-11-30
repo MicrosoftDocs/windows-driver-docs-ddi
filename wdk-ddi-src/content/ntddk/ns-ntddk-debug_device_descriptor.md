@@ -2,7 +2,7 @@
 UID: NS:ntddk._DEBUG_DEVICE_DESCRIPTOR
 title: DEBUG_DEVICE_DESCRIPTOR
 description: 
-tech.root: 
+tech.root: devtest
 ms.assetid: e2e442cb-2d4b-447f-9a83-1ae1a328a6c2
 ms.date: 08/19/2019
 keywords: ["DEBUG_DEVICE_DESCRIPTOR structure"]

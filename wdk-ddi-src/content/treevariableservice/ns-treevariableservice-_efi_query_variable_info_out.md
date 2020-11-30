@@ -3,7 +3,7 @@ UID: NS:treevariableservice._EFI_QUERY_VARIABLE_INFO_OUT
 title: _EFI_QUERY_VARIABLE_INFO_OUT (treevariableservice.h)
 description: 
 ms.assetid: b8e00ca2-f24d-4266-9492-aa6c4f1dcd76
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EFI_QUERY_VARIABLE_INFO_OUT structure"]
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_OUT, EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT,
 req.header: treevariableservice.h
@@ -21,6 +21,7 @@ req.max-support:
 req.typenames: EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _EFI_QUERY_VARIABLE_INFO_OUT
  - treevariableservice/_EFI_QUERY_VARIABLE_INFO_OUT
@@ -40,7 +41,6 @@ api_name:
 
 # _EFI_QUERY_VARIABLE_INFO_OUT structure
 
-
 ## -description
 
 ## -struct-fields
@@ -56,4 +56,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

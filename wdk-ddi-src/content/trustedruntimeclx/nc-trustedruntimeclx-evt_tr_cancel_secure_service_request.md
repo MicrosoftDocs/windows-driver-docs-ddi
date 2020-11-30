@@ -3,7 +3,7 @@ UID: NC:trustedruntimeclx.EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
 title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: 5a3bb56d-cde5-4776-84af-ed1264577a51
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_CANCEL_SECURE_SERVICE_REQUEST callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
  - trustedruntimeclx/EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
@@ -39,34 +40,33 @@ api_name:
 
 # EVT_TR_CANCEL_SECURE_SERVICE_REQUEST callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
-### -param SessionContext: 
+### -param SessionContext
 
-### -param RequestHandle: 
+### -param RequestHandle
 
-### -param RequestContext: 
+### -param RequestContext
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-EVT_TR_CANCEL_SECURE_SERVICE_REQUEST EvtTrCancelSecureServiceRequest; 
+EVT_TR_CANCEL_SECURE_SERVICE_REQUEST EvtTrCancelSecureServiceRequest;
 
 // Definition
 
-VOID EvtTrCancelSecureServiceRequest 
+VOID EvtTrCancelSecureServiceRequest
 (
-	WDFDEVICE ServiceDevice
-	WDFOBJECT SessionContext
-	PVOID RequestHandle
-	PVOID * RequestContext
+    WDFDEVICE ServiceDevice
+    WDFOBJECT SessionContext
+    PVOID RequestHandle
+    PVOID * RequestContext
 )
 {...}
 
@@ -75,4 +75,3 @@ VOID EvtTrCancelSecureServiceRequest
 ## -remarks
 
 ## -see-also
-

@@ -2,7 +2,7 @@
 UID: NF:wdm.IoAllocateIrpEx
 title: IoAllocateIrpEx function (wdm.h)
 description: IoAllocateIrpEx allocates an I/O request packet (IRP) from
-tech.root: 
+tech.root: kernel
 ms.assetid: 121309fe-e6f5-4d5d-8817-25ed7e9e2e5f
 ms.date: 10/11/2019
 keywords: ["IoAllocateIrpEx function"]

@@ -24,7 +24,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-tech.root: display
 f1_keywords:
  - PFN_IDDCXMONITORGETSRMLISTVERSION
  - iddcx/PFN_IDDCXMONITORGETSRMLISTVERSION

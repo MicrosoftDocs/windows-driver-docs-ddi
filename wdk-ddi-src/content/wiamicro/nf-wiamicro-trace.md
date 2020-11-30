@@ -3,7 +3,7 @@ UID: NF:wiamicro.Trace
 title: Trace function (wiamicro.h)
 description: 
 ms.assetid: 9125c65e-16b6-412e-a09a-1ee643e378bf
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["Trace function"]
 ms.keywords: Trace
 req.header: wiamicro.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: image
 f1_keywords:
  - Trace
  - wiamicro/Trace
@@ -42,7 +43,6 @@ product:
 
 # Trace function
 
-
 ## -description
 
 ## -parameters
@@ -54,4 +54,3 @@ product:
 ## -remarks
 
 ## -see-also
-

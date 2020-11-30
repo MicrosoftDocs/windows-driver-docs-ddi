@@ -4,6 +4,7 @@ title: _FAULT_INFORMATION_ARM64_FLAGS (wdm.h)
 description: Defines fault information.
 ms.assetid: bc0bc41d-9bc5-4d6a-98ce-1292d500c1bc
 ms.date: 09/30/2018
+tech.root: devtest
 keywords: ["FAULT_INFORMATION_ARM64_FLAGS structure"]
 ms.keywords: _FAULT_INFORMATION_ARM64_FLAGS, FAULT_INFORMATION_ARM64_FLAGS, *PFAULT_INFORMATION_ARM64_FLAGS,
 req.header: wdm.h

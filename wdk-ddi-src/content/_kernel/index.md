@@ -11,7 +11,7 @@ ms.topic: portal
 ms.custom: 19H1
 ---
 
-# Windows kernel
+# Kernel
 
 ## -description
 

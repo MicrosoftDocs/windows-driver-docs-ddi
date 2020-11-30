@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_FOUND_ERROR_IN_BANK_EVENT
 title: WHEAP_FOUND_ERROR_IN_BANK_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 06ec284c-a570-4690-837d-baf7eca613d7
 ms.date: 08/19/2019
 keywords: ["WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"]

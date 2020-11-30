@@ -3,7 +3,7 @@ UID: NF:printoem.GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
 description: 
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: print
 f1_keywords:
  - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
  - printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE
@@ -41,7 +42,6 @@ product:
 ---
 
 # GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro
-
 
 ## -description
 
@@ -64,4 +64,3 @@ The macro is defined as follows:
 ## -remarks
 
 ## -see-also
-

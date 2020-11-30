@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEAP_PROCESS_HEST_EVENT
 title: WHEAP_PROCESS_HEST_EVENT
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 35c15ccb-8d4d-4247-b7db-ec0bd0864605
 ms.date: 08/19/2019
 keywords: ["WHEAP_PROCESS_HEST_EVENT structure"]

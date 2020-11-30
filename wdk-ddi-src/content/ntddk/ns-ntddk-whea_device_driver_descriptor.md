@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_DEVICE_DRIVER_DESCRIPTOR
 title: WHEA_DEVICE_DRIVER_DESCRIPTOR
 description: 
-tech.root: 
+tech.root: whea
 ms.assetid: 491e4279-f7d5-4461-bbd6-96ad62476c24
 ms.date: 08/19/2019
 keywords: ["WHEA_DEVICE_DRIVER_DESCRIPTOR structure"]

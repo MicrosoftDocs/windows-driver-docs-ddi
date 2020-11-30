@@ -3,7 +3,7 @@ UID: NF:systemrng.EntropyUnregisterSource
 title: EntropyUnregisterSource function (systemrng.h)
 description: 
 ms.assetid: f1574fd7-3511-40cb-a4dd-5fdc8adb6f61
-ms.date: 10/19/2018
+ms.date: 11/19/2020
 keywords: ["EntropyUnregisterSource function"]
 ms.keywords: EntropyUnregisterSource
 req.header: systemrng.h
@@ -25,6 +25,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EntropyUnregisterSource
  - systemrng/EntropyUnregisterSource
@@ -40,7 +41,6 @@ api_name:
 
 # EntropyUnregisterSource function
 
-
 ## -description
 
 ## -parameters
@@ -54,4 +54,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-
