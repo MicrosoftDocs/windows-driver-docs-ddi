@@ -2,7 +2,7 @@
 UID: NS:netadaptercxtypes._NET_IPV6_ADDRESS
 title: NET_IPV6_ADDRESS (netadaptercxtypes.h)
 description: 
-tech.root: 
+tech.root: netvista
 ms.assetid: 55ddbb93-e790-4e5b-b891-d0b563d62af3
 ms.date: 
 keywords: ["NET_IPV6_ADDRESS structure"]

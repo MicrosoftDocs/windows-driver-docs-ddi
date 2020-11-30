@@ -2,7 +2,7 @@
 UID: NF:hidport.HidNotifyPresence
 title: HidNotifyPresence function
 description: The HidNotifyPresence function is reserved for the HID driver internal framework
-tech.root: 
+tech.root: _hid
 ms.date: 02/05/2019
 keywords: ["HidNotifyPresence function"]
 ms.keywords: HidNotifyPresence
