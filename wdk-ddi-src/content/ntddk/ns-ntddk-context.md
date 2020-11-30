@@ -2,7 +2,7 @@
 UID: NS:ntddk._CONTEXT
 title: CONTEXT
 description: 
-tech.root: 
+tech.root: kernel
 ms.assetid: 19fd27ee-f755-4dab-843e-1aa1beb9448d
 ms.date: 08/19/2019
 keywords: ["CONTEXT structure"]

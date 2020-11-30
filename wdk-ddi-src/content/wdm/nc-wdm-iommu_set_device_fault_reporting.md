@@ -5,7 +5,6 @@ description: This routine sets the device fault reporting state to a device alre
 tech.root: kernel
 ms.assetid: 111049ce-9f18-4807-a6c2-5641b115a4b5
 ms.date: 09/30/2018
-tech.root: kernel
 keywords: ["IOMMU_SET_DEVICE_FAULT_REPORTING callback function"]
 req.header: wdm.h
 req.include-header: 

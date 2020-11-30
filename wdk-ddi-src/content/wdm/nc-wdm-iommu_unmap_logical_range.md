@@ -5,7 +5,6 @@ description: Unmaps a linear range from a domain.
 tech.root: kernel
 ms.assetid: 48b802b6-980c-407b-91cc-02b67c80fdc5
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["IOMMU_UNMAP_LOGICAL_RANGE callback function"]
 req.header: wdm.h
 req.include-header: 

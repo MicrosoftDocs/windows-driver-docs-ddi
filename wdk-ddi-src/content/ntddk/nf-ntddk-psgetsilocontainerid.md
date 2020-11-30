@@ -5,7 +5,6 @@ description: Gets the ContainerId for the given Silo.
 tech.root: kernel
 ms.assetid: ba43355c-380c-46a8-85e7-bae024683744
 ms.date: 09/30/2018
-tech.root: kernel
 keywords: ["PsGetSiloContainerId function"]
 ms.keywords: PsGetSiloContainerId
 req.header: ntddk.h

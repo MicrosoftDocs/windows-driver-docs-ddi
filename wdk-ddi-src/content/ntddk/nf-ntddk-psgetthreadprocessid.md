@@ -5,7 +5,6 @@ description: The PsGetThreadProcessId routine returns the process identifier tha
 tech.root: kernel
 ms.assetid: 4986e5ad-796e-4649-8ca6-118b191f4fd7
 ms.date: 06/25/2018
-tech.root: kernel
 keywords: ["PsGetThreadProcessId function"]
 ms.keywords: PsGetThreadProcessId
 req.header: ntddk.h

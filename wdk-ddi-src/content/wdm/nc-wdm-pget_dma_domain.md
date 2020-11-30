@@ -5,7 +5,6 @@ description:
 tech.root: kernel
 ms.assetid: 005216e2-74a5-4048-b855-8616b244d554
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["PGET_DMA_DOMAIN callback function"]
 req.header: wdm.h
 req.include-header: 

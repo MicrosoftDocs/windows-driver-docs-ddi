@@ -5,7 +5,6 @@ description: Creates an identity mapping for the provided MDL in the provided do
 tech.root: kernel
 ms.assetid: cdd44fd5-20c2-488a-bfcb-001f1b4490cb
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["IOMMU_MAP_IDENTITY_RANGE callback function"]
 req.header: wdm.h
 req.include-header: 

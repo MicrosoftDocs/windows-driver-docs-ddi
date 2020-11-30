@@ -5,7 +5,6 @@ description: A list of commonly used security identifiers (SIDs). Programs can p
 tech.root: ifsk
 ms.assetid: 31995895-7bae-4cb6-9ea9-139a99d06215
 ms.date: 10/19/2018
-tech.root: 
 keywords: ["WELL_KNOWN_SID_TYPE enumeration"]
 ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE
 req.header: ntddk.h

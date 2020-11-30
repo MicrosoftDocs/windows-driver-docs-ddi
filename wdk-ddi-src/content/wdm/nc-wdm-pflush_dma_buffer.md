@@ -5,7 +5,6 @@ description:
 tech.root: kernel
 ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["PFLUSH_DMA_BUFFER callback function"]
 req.header: wdm.h
 req.include-header: 

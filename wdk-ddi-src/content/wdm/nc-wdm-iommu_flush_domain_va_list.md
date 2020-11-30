@@ -5,7 +5,6 @@ description: Flushes the TLB for all entries that match the specified domain's A
 tech.root: kernel
 ms.assetid: 3ae0eb66-ed0d-4232-9294-4037ae48ce3e
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["IOMMU_FLUSH_DOMAIN_VA_LIST callback function"]
 req.header: wdm.h
 req.include-header: 

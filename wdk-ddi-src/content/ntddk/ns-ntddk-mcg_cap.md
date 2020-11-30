@@ -2,7 +2,7 @@
 UID: NS:ntddk._MCG_CAP
 title: MCG_CAP
 description: 
-tech.root: 
+tech.root: devtest
 ms.assetid: ce0130b9-d5aa-4f43-96c6-f639eed5805e
 ms.date: 08/19/2019
 keywords: ["MCG_CAP structure"]

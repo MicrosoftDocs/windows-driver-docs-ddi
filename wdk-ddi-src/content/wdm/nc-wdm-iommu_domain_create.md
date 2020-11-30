@@ -5,7 +5,6 @@ description: Creates a new DMA remapping device domain (a container for a set of
 tech.root: kernel
 ms.assetid: 70cce6f5-5adb-4646-b98d-e42d8e8f0389
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["IOMMU_DOMAIN_CREATE callback function"]
 req.header: wdm.h
 req.include-header: 

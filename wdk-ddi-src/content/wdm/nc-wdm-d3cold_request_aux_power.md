@@ -5,7 +5,6 @@ description: Enables the function device object (FDO) to convey its auxiliary po
 tech.root: kernel
 ms.assetid: c367131f-520b-4d5a-8ccd-e465057cf102
 ms.date: 10/19/2018
-tech.root: kernel
 keywords: ["D3COLD_REQUEST_AUX_POWER callback function"]
 req.header: wdm.h
 req.include-header: 
