@@ -1,19 +1,19 @@
 ---
-UID: NA:nbl
-title: Nbl.h header
+UID: NA:mdlapi
+title: Mdlapi.h header
 ms.date: 11/30/2020
-keywords: ["Nbl.h header"]
+keywords: ["Mdlapi.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:
- - nbl
- - nbl/nbl
+ - mdlapi
+ - mdlapi/mdlapi
 ---
 
-# Nbl.h header
+# Mdlapi.h header
 
 
 ## -description

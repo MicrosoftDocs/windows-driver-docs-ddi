@@ -1,19 +1,19 @@
 ---
-UID: NA:nbl
-title: Nbl.h header
+UID: NA:hashtypes
+title: Hashtypes.h header
 ms.date: 11/30/2020
-keywords: ["Nbl.h header"]
+keywords: ["Hashtypes.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:
- - nbl
- - nbl/nbl
+ - hashtypes
+ - hashtypes/hashtypes
 ---
 
-# Nbl.h header
+# Hashtypes.h header
 
 
 ## -description
@@ -21,4 +21,3 @@ f1_keywords:
 This header is used by netvista. For more information, see:
 
 - [Networking drivers for Windows Vista and later](../_netvista/index.md)
-
