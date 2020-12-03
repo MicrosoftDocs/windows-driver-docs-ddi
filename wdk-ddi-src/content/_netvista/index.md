@@ -48,6 +48,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Nbl.h](../nbl/index.md)
 - [Nbl8021q.h](../nbl8021q/index.md)
 - [Nblaccessors.h](../nblaccessors/index.md)
+- [Nblapi.h](../nblapi/index.md)
 - [Ndis.h](../ndis/index.md)
 - [Ndischimney.h](../ndischimney/index.md)
 - [Ndisndk.h](../ndisndk/index.md)

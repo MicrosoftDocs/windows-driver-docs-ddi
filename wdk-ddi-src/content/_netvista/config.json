@@ -25,6 +25,7 @@
     "nbl.h",
     "nbl8021q.h",
     "nblaccessors.h",
+    "nblapi",
     "ndis.h",
     "ndischimney.h",
     "ndisndk.h",
