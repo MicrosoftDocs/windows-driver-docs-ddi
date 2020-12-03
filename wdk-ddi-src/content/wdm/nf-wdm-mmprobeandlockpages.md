@@ -46,7 +46,8 @@ api_name:
 
 ## -description
 
-The <b>MmProbeAndLockPages</b> routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
+The <b>MmProbeAndLockPages</b> routine probes the specified virtual memory pages, makes them resident, and locks them in memory (say for a DMA transfer).  This ensures the pages cannot be freed and reallocated while a device driver (or hardware) is still using them.
+
 
 ## -parameters
 
