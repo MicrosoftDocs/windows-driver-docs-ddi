@@ -101,6 +101,8 @@ Callers of <b>MmProbeAndLockPages</b> must be running at IRQL <= APC_LEVEL for p
 
 This routine does not provide any guarantees about the virtual address that describes these pages (that is, the virtual address might be unmapped, reused, and so on). However, the physical pages are guaranteed to be locked on successful return.
 
+To avoid page faults, use [**VirtualLock**](/windows/win32/api/memoryapi/nf-memoryapi-virtuallock) to lock the virtual address so it will not be trimmed unless the app unlocks it or explicitly frees it by calling [**VirtualFree**](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) or [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile).
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
