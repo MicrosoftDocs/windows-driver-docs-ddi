@@ -1,45 +1,45 @@
 ---
-UID: NS:ndis._NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-title: _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO (ndis.h)
+UID: NS:nbluso._NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+title: NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ms.date: 11/30/2020
+ms.topic: language-reference
+targetos: Windows
 description: Specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
-tech.root: netvista
-ms.assetid: C5EF1D54-AA43-4467-85B4-2134F9BA8E05
-ms.date: 02/27/2020
-ms.topic: struct
-ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO,
-req.header: ndis.h
-req.include-header: 
-req.target-type: 
+tech.root: netvista 
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: ndis/nbluso.h
+req.include-header: ndis.h
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: Windows 10, version 1912
 req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-type: 
+req.typenames: NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 req.umdf-ver: 
-req.lib: 
-req.dll: 
-req.ddi-compliance: 
 req.unicode-ansi: 
-req.max-support: 
-req.alt-api: 
-req.alt-loc: 
-req.typenames: NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - nbluso.h
+api_name:
+ - _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 f1_keywords:
  - _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
- - ndis/_NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - nbluso/_NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
  - PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
- - ndis/PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - nbluso/PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
  - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
- - ndis/NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-topictype:
- - apiref
-apitype:
- - HeaderDef
-apilocation:
- - ndis.h
-apiname:
- - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-product:
- - Windows
+ - nbluso/NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+dev_langs:
+ - c++
 ---
 
 # _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO structure
