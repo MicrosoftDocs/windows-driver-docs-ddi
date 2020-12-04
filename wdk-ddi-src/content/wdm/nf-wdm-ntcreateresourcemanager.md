@@ -195,7 +195,7 @@ A handle to a <a href="/windows-hardware/drivers/kernel/transaction-manager-obje
 
 ### -param RmGuid 
 
-[in, optional]
+[in]
 A pointer to a GUID that KTM will use to identify the resource manager. If this pointer is <b>NULL</b>, KTM generates a GUID.
 
 ### -param ObjectAttributes 

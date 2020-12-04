@@ -5,7 +5,7 @@ description: The FltGetDiskDeviceObject routine returns a pointer to the disk de
 old-location: ifsk\fltgetdiskdeviceobject.htm
 tech.root: ifsk
 ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
-ms.date: 04/16/2018
+ms.date: 12/02/2020
 keywords: ["FltGetDiskDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
 req.header: fltkernel.h
@@ -55,7 +55,7 @@ The **FltGetDiskDeviceObject** routine returns a pointer to the disk device obje
 
 ### -param DiskDeviceObject
 
-[out] Pointer to a caller-allocated variable that receives the device object pointer. This parameter is required and cannot be **NULL**.
+[out] Pointer to a caller-allocated variable that receives the device object pointer. On any error, this parameter is not modified.
 
 ## -returns
 
@@ -69,13 +69,13 @@ The **FltGetDiskDeviceObject** routine returns a pointer to the disk device obje
 
 **FltGetDiskDeviceObject** retrieves a pointer to the storage device object for the physical disk where the volume resides. The storage device need not be an actual disk.
 
-**FltGetDiskDeviceObject** increments the reference count on the device object pointer returned in **DiskDeviceObject**. When this pointer is no longer needed, the caller must decrement this reference count by calling [**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md). Failure to do so prevents the system from freeing or deleting the device object because of the outstanding reference. Thus every successful call to **FltGetDiskDeviceObject** must be matched by a subsequent call to **FltObjectDereference**.
+**FltGetDiskDeviceObject** increments the reference count on the device object pointer returned in **DiskDeviceObject**. When this pointer is no longer needed, the caller must decrement this reference count by calling [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md). Failure to do so prevents the system from freeing or deleting the device object because of the outstanding reference. Thus every successful call to **FltGetDiskDeviceObject** must be matched by a subsequent call to **ObDereferenceObject**.
 
-A minifilter must call **FltGetDiskDeviceObject** only in an I/O related   callback. Otherwise, the fields of the device object returned may not be valid. This the case in callback routines such as [**InstanceTeardownStartCallback**](nc-fltkernel-pflt_instance_teardown_callback.md) and **InstanceTeardownCompleteCallback**.
+A minifilter must call **FltGetDiskDeviceObject** only in an I/O related callback. Otherwise, the fields of the device object returned may not be valid. This the case in callback routines such as [**InstanceTeardownStartCallback**](nc-fltkernel-pflt_instance_teardown_callback.md) and **InstanceTeardownCompleteCallback**.
 
 To get a pointer to the Filter Manager's volume device object (VDO) for a given volume, call [**FltGetDeviceObject**](nf-fltkernel-fltgetdeviceobject.md).
 
-To get an opaque volume pointer for the volume represented by a volume device object, call <[**FltGetVolumeFromDeviceObject**](nf-fltkernel-fltgetvolumefromdeviceobject.md).
+To get an opaque volume pointer for the volume represented by a volume device object, call [**FltGetVolumeFromDeviceObject**](nf-fltkernel-fltgetvolumefromdeviceobject.md).
 
 For more information about volume device objects, see [File System Stacks](/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks#file-system-stacks).
 
@@ -85,4 +85,6 @@ For more information about volume device objects, see [File System Stacks](/wind
 
 [**FltGetVolumeFromDeviceObject**](nf-fltkernel-fltgetvolumefromdeviceobject.md)
 
-[**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md)
+[**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)
+
+[**ObReferenceObject**](../wdm/nf-wdm-obreferenceobject.md)
