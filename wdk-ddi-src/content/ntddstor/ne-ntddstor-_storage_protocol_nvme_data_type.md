@@ -73,7 +73,7 @@ Feature data type.
 
 ## -remarks
 
-When using [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [**STORAGE_PROTOCOL_DATA_DESCRIPTOR**](/ns-ntddstor-_storage_protocol_data_descriptor.md), configure the [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) structure as follows:
+When using [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [**STORAGE_PROTOCOL_DATA_DESCRIPTOR**](ns-ntddstor-_storage_protocol_data_descriptor.md), configure the [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) structure as follows:
 
 * Allocate a buffer that can contains both a [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) and a [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md) structure.
 
