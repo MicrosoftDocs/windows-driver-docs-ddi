@@ -4,7 +4,6 @@ title: NdisSetOptionalHandlers function (ndis.h)
 description: NDIS drivers can call the NdisSetOptionalHandlers function to set or change the entry points of driver functions.
 old-location: netvista\ndissetoptionalhandlers.htm
 tech.root: netvista
-ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.date: 05/02/2018
 keywords: ["NdisSetOptionalHandlers function"]
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers

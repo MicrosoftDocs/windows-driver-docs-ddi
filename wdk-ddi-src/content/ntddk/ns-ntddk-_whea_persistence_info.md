@@ -4,7 +4,6 @@ title: _WHEA_PERSISTENCE_INFO (ntddk.h)
 description: The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
 old-location: whea\whea_persistence_info.htm
 tech.root: whea
-ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.date: 02/20/2018
 keywords: ["WHEA_PERSISTENCE_INFO structure"]
 ms.keywords: "*PWHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], _WHEA_PERSISTENCE_INFO, ntddk/PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whea.whea_persistence_info, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml"

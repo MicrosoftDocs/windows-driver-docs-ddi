@@ -4,7 +4,6 @@ title: WRITE_PORT_BUFFER_USHORT function (miniport.h)
 description: The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address.
 old-location: kernel\write_port_buffer_ushort.htm
 tech.root: kernel
-ms.assetid: e715c0b5-8f72-4642-9a48-2066df0a2650
 ms.date: 04/30/2018
 keywords: ["WRITE_PORT_BUFFER_USHORT function"]
 ms.keywords: WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, kernel.write_port_buffer_ushort, wdm/WRITE_PORT_BUFFER_USHORT

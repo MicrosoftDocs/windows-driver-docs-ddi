@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._PANEL_SET_BRIGHTNESS_STATE
 title: _PANEL_SET_BRIGHTNESS_STATE (ntddvdeo.h)
 description: Sets the brightness state.
 tech.root: display
-ms.assetid: 2ca95445-a6a1-428e-a6a4-94bbd8f5c3d4
 ms.date: 10/19/2018
 keywords: ["PANEL_SET_BRIGHTNESS_STATE structure"]
 ms.keywords: _PANEL_SET_BRIGHTNESS_STATE, *PPANEL_SET_BRIGHTNESS_STATE, PANEL_SET_BRIGHTNESS_STATE,

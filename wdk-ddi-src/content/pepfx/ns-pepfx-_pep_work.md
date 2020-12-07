@@ -4,7 +4,6 @@ title: _PEP_WORK (pepfx.h)
 description: The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).
 old-location: kernel\pep_work.htm
 tech.root: kernel
-ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.date: 04/30/2018
 keywords: ["PEP_WORK structure"]
 ms.keywords: "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"

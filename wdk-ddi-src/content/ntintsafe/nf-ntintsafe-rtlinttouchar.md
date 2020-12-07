@@ -4,7 +4,6 @@ title: RtlIntToUChar function (ntintsafe.h)
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: kernel\rtlinttouchar.htm
 tech.root: kernel
-ms.assetid: A733140D-2F0D-4E5A-A3AD-C27756584200
 ms.date: 04/30/2018
 keywords: ["RtlIntToUChar function"]
 ms.keywords: RtlIntToUChar, RtlIntToUChar function [Kernel-Mode Driver Architecture], kernel.rtlinttouchar, ntintsafe/RtlIntToUChar

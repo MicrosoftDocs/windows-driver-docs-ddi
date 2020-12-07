@@ -4,7 +4,6 @@ title: IWDTFTargets2::Remove (wdtf.h)
 description: Removes an item from the collection.
 old-location: dtf\iwdtftargets2_remove.htm
 tech.root: dtf
-ms.assetid: 5db8c912-a446-4ae7-a775-f56ffa979283
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Remove"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Remove method, IWDTFTargets2.Remove, IWDTFTargets2::Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Microsoft::WDTF::IWDTFTargets2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_remove, wdtf/IWDTFTargets2::Remove

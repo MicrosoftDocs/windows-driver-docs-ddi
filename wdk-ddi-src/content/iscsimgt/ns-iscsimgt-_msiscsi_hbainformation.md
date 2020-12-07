@@ -4,7 +4,6 @@ title: _MSiSCSI_HBAInformation (iscsimgt.h)
 description: The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
 old-location: storage\msiscsi_hbainformation.htm
 tech.root: storage
-ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.date: 03/29/2018
 keywords: ["MSiSCSI_HBAInformation structure"]
 ms.keywords: "*PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], _MSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml"

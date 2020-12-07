@@ -4,7 +4,6 @@ title: IDebugBreakpoint2::GetOffsetExpressionWide (dbgeng.h)
 description: The GetOffsetExpressionWide method returns the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpressionwide.htm
 tech.root: debugger
-ms.assetid: bd4b32b1-e8ba-485f-bfb6-15c8c44926af
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::GetOffsetExpressionWide"]
 ms.keywords: GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetOffsetExpressionWide method, IDebugBreakpoint2.GetOffsetExpressionWide, IDebugBreakpoint2::GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide

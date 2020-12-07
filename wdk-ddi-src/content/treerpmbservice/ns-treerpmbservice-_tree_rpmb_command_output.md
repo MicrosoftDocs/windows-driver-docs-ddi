@@ -2,7 +2,6 @@
 UID: NS:treerpmbservice._TREE_RPMB_COMMAND_OUTPUT
 title: _TREE_RPMB_COMMAND_OUTPUT (treerpmbservice.h)
 description: 
-ms.assetid: ca04d402-3a34-410b-baaa-26de29225bd1
 ms.date: 11/20/2020
 keywords: ["TREE_RPMB_COMMAND_OUTPUT structure"]
 ms.keywords: _TREE_RPMB_COMMAND_OUTPUT, TREE_RPMB_COMMAND_OUTPUT, *PTREE_RPMB_COMMAND_OUTPUT,

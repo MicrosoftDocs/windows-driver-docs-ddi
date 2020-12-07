@@ -4,7 +4,6 @@ title: DbgPrint function (wdm.h)
 description: The DbgPrint routine sends a message to the kernel debugger.
 old-location: devtest\dbgprint.htm
 tech.root: devtest
-ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.date: 02/23/2018
 keywords: ["DbgPrint function"]
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint

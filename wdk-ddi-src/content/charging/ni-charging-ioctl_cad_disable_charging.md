@@ -4,7 +4,6 @@ title: IOCTL_CAD_DISABLE_CHARGING (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_disable_charging.htm
 tech.root: battery
-ms.assetid: 51E91097-7315-489A-8C07-0946481BF573
 ms.date: 02/15/2018
 keywords: ["IOCTL_CAD_DISABLE_CHARGING IOCTL"]
 ms.keywords: IOCTL_CAD_DISABLE_CHARGING, IOCTL_CAD_DISABLE_CHARGING control, IOCTL_CAD_DISABLE_CHARGING control code [Battery Devices], battery.ioctl_cad_disable_charging, charging/IOCTL_CAD_DISABLE_CHARGING

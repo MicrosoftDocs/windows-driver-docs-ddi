@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATEDEVICE (d3dumddi.h)
 description: The CreateDevice function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice.htm
 tech.root: display
-ms.assetid: ce35bdac-af90-471f-af93-0e665be6c7f6
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATEDEVICE callback function"]
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3DDDI_CREATEDEVICE, PFND3DDDI_CREATEDEVICE callback, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml, d3dumddi/CreateDevice, display.createdevice

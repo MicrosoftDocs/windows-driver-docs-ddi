@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_UICC_FILE_PATH
 title: _NDIS_WWAN_UICC_FILE_PATH (ndiswwan.h)
 description: The NDIS_WWAN_UICC_FILE_PATH structure describes file path information about a UICC file.
 tech.root: netvista
-ms.assetid: 9952AB3C-FE31-4DE7-B4FE-84CA89A1A7EB
 ms.date: 04/09/2019
 keywords: ["NDIS_WWAN_UICC_FILE_PATH structure"]
 ms.keywords: _NDIS_WWAN_UICC_FILE_PATH, NDIS_WWAN_UICC_FILE_PATH, *PNDIS_WWAN_UICC_FILE_PATH,

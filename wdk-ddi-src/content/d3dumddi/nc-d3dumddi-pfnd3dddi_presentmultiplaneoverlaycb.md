@@ -4,7 +4,6 @@ title: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB (d3dumddi.h)
 description: Copies content from a source multiplane overlay allocation to a destination allocation. Can be called by Windows Display Driver Model (WDDM) 1.3 or later user-mode display drivers.
 old-location: display\pfnpresentmultiplaneoverlaycb_d3d.htm
 tech.root: display
-ms.assetid: f355c29a-8a8d-46aa-b3b3-c93c0afef266
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB callback function"]
 ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb, display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb (D3D) callback, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]

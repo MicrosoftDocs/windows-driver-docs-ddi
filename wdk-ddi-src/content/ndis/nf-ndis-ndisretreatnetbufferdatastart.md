@@ -4,7 +4,6 @@ title: NdisRetreatNetBufferDataStart function (ndis.h)
 description: Call the NdisRetreatNetBufferDataStart function to access more used data space in the MDL chain of a NET_BUFFER structure.
 old-location: netvista\ndisretreatnetbufferdatastart.htm
 tech.root: netvista
-ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.date: 05/02/2018
 keywords: ["NdisRetreatNetBufferDataStart function"]
 ms.keywords: NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, netvista.ndisretreatnetbufferdatastart

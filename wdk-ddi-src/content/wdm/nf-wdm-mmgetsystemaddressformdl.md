@@ -4,7 +4,6 @@ title: MmGetSystemAddressForMdl macro (wdm.h)
 description: The MmGetSystemAddressForMdl routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmgetsystemaddressformdl.htm
 tech.root: kernel
-ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.date: 04/30/2018
 keywords: ["MmGetSystemAddressForMdl macro"]
 ms.keywords: MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, wdm/MmGetSystemAddressForMdl

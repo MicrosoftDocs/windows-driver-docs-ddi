@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATEVERTEXSHADERDECL (d3dumddi.h)
 description: The CreateVertexShaderDecl function converts the vertex shader declaration into a hardware-specific format and associates the declaration with a shader handle.
 old-location: display\createvertexshaderdecl.htm
 tech.root: display
-ms.assetid: 00c53e81-93db-46b8-b65c-c8d62059452a
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATEVERTEXSHADERDECL callback function"]
 ms.keywords: CreateVertexShaderDecl, CreateVertexShaderDecl callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERDECL, PFND3DDDI_CREATEVERTEXSHADERDECL callback, UserModeDisplayDriver_Functions_9b214e45-8b3c-49e9-ae72-6b7c2391c256.xml, d3dumddi/CreateVertexShaderDecl, display.createvertexshaderdecl

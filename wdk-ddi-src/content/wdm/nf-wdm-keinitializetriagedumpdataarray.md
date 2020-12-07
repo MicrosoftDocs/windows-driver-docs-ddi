@@ -3,7 +3,6 @@ UID: NF:wdm.KeInitializeTriageDumpDataArray
 title: KeInitializeTriageDumpDataArray function
 description: Initializes a triage dump data block array.
 tech.root: devtest
-ms.assetid: eb868410-a956-4de4-8efc-607c2892709f
 ms.date: 10/19/2018
 keywords: ["KeInitializeTriageDumpDataArray function"]
 ms.keywords: KeInitializeTriageDumpDataArray

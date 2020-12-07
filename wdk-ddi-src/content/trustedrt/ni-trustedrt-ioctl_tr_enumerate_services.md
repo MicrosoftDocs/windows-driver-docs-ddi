@@ -2,7 +2,6 @@
 UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
 title: IOCTL_TR_ENUMERATE_SERVICES (trustedrt.h)
 description: 
-ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_ENUMERATE_SERVICES IOCTL"]
 req.header: trustedrt.h

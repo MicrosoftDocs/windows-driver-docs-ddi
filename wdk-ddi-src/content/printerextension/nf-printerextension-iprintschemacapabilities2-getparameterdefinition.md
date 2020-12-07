@@ -4,7 +4,6 @@ title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the psf:ParameterDef element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print
-ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.date: 10/01/2020
 keywords: ["IPrintSchemaCapabilities2::GetParameterDefinition"]
 ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition

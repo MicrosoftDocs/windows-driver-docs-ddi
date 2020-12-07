@@ -4,7 +4,6 @@ title: IAdapterPowerManagement3 (portcls.h)
 description: The IAdapterPowerManagement3 interface inherits from IUnknown, and it is used for receiving power management messages.
 old-location: audio\iadapterpowermanagement3.htm
 tech.root: audio
-ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.date: 05/08/2018
 keywords: ["IAdapterPowerManagement3 interface"]
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3

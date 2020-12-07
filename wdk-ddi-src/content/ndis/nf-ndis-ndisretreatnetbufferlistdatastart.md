@@ -4,7 +4,6 @@ title: NdisRetreatNetBufferListDataStart function (ndis.h)
 description: Call the NdisRetreatNetBufferListDataStart function to increase the used data space in all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 old-location: netvista\ndisretreatnetbufferlistdatastart.htm
 tech.root: netvista
-ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.date: 05/02/2018
 keywords: ["NdisRetreatNetBufferListDataStart function"]
 ms.keywords: NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart

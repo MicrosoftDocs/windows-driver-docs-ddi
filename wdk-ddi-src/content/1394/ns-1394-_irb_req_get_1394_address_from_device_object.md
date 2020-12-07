@@ -4,7 +4,6 @@ title: _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT (1394.h)
 description: This structure contains the fields necessary to carry out a Get1394AddressFromDeviceObject request.
 old-location: ieee\irb_req_get_1394_address_from_device_object.htm
 tech.root: IEEE
-ms.assetid: 457E3A4E-6845-473C-AACD-7CC00080C34B
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure"]
 ms.keywords: 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IEEE.irb_req_get_1394_address_from_device_object, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses], _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT

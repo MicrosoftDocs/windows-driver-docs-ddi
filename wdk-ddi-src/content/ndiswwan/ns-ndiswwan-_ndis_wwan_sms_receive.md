@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SMS_RECEIVE (ndiswwan.h)
 description: The NDIS_WWAN_SMS_RECEIVE structure represents a list of received SMS messages and the number of messages in the list.
 old-location: netvista\ndis_wwan_sms_receive.htm
 tech.root: netvista
-ms.assetid: 2ff53520-5ba0-47dc-816d-6245924356ee
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SMS_RECEIVE structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, _NDIS_WWAN_SMS_RECEIVE, ndiswwan/NDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive"

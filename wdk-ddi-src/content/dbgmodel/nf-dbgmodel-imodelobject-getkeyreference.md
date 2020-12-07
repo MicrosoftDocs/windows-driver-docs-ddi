@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IModelObject.GetKeyReference
 title: IModelObject::GetKeyReference (dbgmodel.h)
 description: If the object or one of its parent models has a key named according to the argument 'key', this will return a reference to that key.
-ms.assetid: 6f620eb7-6074-449b-8258-273f68a735c8
 ms.date: 10/03/2018
 keywords: ["IModelObject::GetKeyReference"]
 ms.keywords: IModelObject::GetKeyReference, GetKeyReference, IModelObject.GetKeyReference, IModelObject::GetKeyReference, IModelObject.GetKeyReference

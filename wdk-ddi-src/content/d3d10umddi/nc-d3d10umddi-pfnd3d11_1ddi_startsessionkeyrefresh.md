@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_STARTSESSIONKEYREFRESH
 title: PFND3D11_1DDI_STARTSESSIONKEYREFRESH (d3d10umddi.h)
 description: Gets a random number that can be used to refresh the session key.
 old-location: display\startsessionkeyrefresh1.htm
-ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback function"]
 ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]

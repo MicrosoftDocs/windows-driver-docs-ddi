@@ -4,7 +4,6 @@ title: _NOTIFICATION_INFO_WXP (1394.h)
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
 tech.root: IEEE
-ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.date: 02/15/2018
 keywords: ["NOTIFICATION_INFO_WXP structure"]
 ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_WXP, 1394/NOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, IEEE.notification_info, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, PNOTIFICATION_INFO, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_WXP"

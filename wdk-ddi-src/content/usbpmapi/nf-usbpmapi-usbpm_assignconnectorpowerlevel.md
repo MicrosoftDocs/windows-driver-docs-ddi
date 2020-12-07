@@ -2,7 +2,6 @@
 UID: NF:usbpmapi.UsbPm_AssignConnectorPowerLevel
 title: UsbPm_AssignConnectorPowerLevel function (usbpmapi.h)
 description: Attempts a PD contract renegotiation with the specified voltage/current/power value.
-ms.assetid: 92f98419-fa13-44be-9546-939958232033
 ms.date: 09/30/2018
 keywords: ["UsbPm_AssignConnectorPowerLevel function"]
 ms.keywords: UsbPm_AssignConnectorPowerLevel

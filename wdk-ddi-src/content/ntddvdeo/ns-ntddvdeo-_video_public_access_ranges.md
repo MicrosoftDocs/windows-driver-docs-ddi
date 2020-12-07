@@ -4,7 +4,6 @@ title: _VIDEO_PUBLIC_ACCESS_RANGES (ntddvdeo.h)
 description: The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resources other than frame buffers and video RAM, such as memory-mapped I/O registers or ports.
 old-location: display\video_public_access_ranges.htm
 tech.root: display
-ms.assetid: 78912da9-ab02-459c-97b0-477949d4a71d
 ms.date: 05/10/2018
 keywords: ["VIDEO_PUBLIC_ACCESS_RANGES structure"]
 ms.keywords: "*PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, _VIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES"

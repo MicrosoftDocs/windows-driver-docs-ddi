@@ -2,7 +2,6 @@
 UID: NF:ntifs.FsRtlInitializeBaseMcb
 title: FsRtlInitializeBaseMcb function (ntifs.h)
 description: FsRtlInitializeBaseMcb initializes a new map control block (MCB) structure.
-ms.assetid: 78f5f4e1-0756-4071-931c-3d8503ff1dab
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlInitializeBaseMcb function"]

@@ -3,7 +3,6 @@ UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
 title: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for Tx checksum offload.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/06/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure"]
 f1_keywords:

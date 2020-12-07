@@ -4,7 +4,6 @@ title: KSRELATIVEEVENT (ks.h)
 description: The KSPROPERTY_CONNECTION_STARTAT property is passed a KSRELATIVEEVENT structure.
 old-location: stream\ksrelativeevent.htm
 tech.root: stream
-ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.date: 04/23/2018
 keywords: ["KSRELATIVEEVENT structure"]
 ms.keywords: KSRELATIVEEVENT, KSRELATIVEEVENT , KSRELATIVEEVENT structure [Streaming Media Devices], ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, ks/KSRELATIVEEVENT, stream.ksrelativeevent

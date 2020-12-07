@@ -4,7 +4,6 @@ title: KsPinRegisterIrpCompletionCallback function (ks.h)
 description: The KsPinRegisterIrpCompletionCallback function registers a minidriver-defined callback routine for a specified pin.
 old-location: stream\kspinregisterirpcompletioncallback.htm
 tech.root: stream
-ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.date: 04/23/2018
 keywords: ["KsPinRegisterIrpCompletionCallback function"]
 ms.keywords: KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback

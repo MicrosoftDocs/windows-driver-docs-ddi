@@ -4,7 +4,6 @@ title: TmCommitComplete function (wdm.h)
 description: The TmCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction.
 old-location: kernel\tmcommitcomplete.htm
 tech.root: kernel
-ms.assetid: a5f55966-98d9-42ec-9af6-254d2cb9a5bd
 ms.date: 04/30/2018
 keywords: ["TmCommitComplete function"]
 ms.keywords: TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], kernel.tmcommitcomplete, ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml, wdm/TmCommitComplete

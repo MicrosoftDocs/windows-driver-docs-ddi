@@ -4,7 +4,6 @@ title: IOCTL_LAMP_GET_INTENSITY_COLOR (lamp.h)
 description: The IOCTL_LAMP_GET_INTENSITY_COLOR control code queries the light intensity when the lamp is configured to emit color light.
 old-location: stream\ioctl_lamp_get_intensity_color.htm
 tech.root: stream
-ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color

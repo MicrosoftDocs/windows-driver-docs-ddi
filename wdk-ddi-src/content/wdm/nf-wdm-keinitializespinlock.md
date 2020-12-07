@@ -4,7 +4,6 @@ title: KeInitializeSpinLock function (wdm.h)
 description: The KeInitializeSpinLock routine initializes a variable of type KSPIN_LOCK.
 old-location: kernel\keinitializespinlock.htm
 tech.root: kernel
-ms.assetid: 84962db0-55ed-443c-84e3-2d8f3e9ec1d7
 ms.date: 04/30/2018
 keywords: ["KeInitializeSpinLock function"]
 ms.keywords: KeInitializeSpinLock, KeInitializeSpinLock routine [Kernel-Mode Driver Architecture], k105_715eff59-827a-4d41-8e3a-2ce0d1f1181d.xml, kernel.keinitializespinlock, wdm/KeInitializeSpinLock

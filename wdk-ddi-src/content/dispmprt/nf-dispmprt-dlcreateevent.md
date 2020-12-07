@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlCreateEvent
 title: DlCreateEvent function
 description: Creates an event object.
 tech.root: display
-ms.assetid: 680892be-b48b-4a2a-90bd-29468ae432d6
 ms.date: 04/04/2019
 keywords: ["DlCreateEvent function"]
 ms.keywords: DlCreateEvent

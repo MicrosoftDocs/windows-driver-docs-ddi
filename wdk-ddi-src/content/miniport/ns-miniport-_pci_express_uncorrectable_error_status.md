@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS (miniport.h)
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) uncorrectable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_status.htm
 tech.root: PCI
-ms.assetid: 9d7dcdee-052a-4082-a337-be3a35c5eef9
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure"]
 ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_uncorrectable_error_status, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"

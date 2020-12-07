@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021
 title: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021 (d3d12umddi.h)
 description: The pfnCalcPrivateVideoDecoderSize callback function calculates the size of a private video decoder.
 old-location: display\pfnd3d12ddi_calcprivatevideodecodersize.htm
-ms.assetid: 29A0CB0F-3469-4EF5-8C5B-132321F6C8E8
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021 callback function"]
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021 callback, d3d12umddi/pfnCalcPrivateVideoDecoderSize, display.pfnd3d12ddi_calcprivatevideodecodersize, pfnCalcPrivateVideoDecoderSize, pfnCalcPrivateVideoDecoderSize callback function [Display Devices]

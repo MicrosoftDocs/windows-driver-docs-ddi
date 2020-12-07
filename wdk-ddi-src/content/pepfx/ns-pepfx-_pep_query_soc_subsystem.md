@@ -4,7 +4,6 @@ title: _PEP_QUERY_SOC_SUBSYSTEM (pepfx.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM notification to gather basic information about a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem.htm
 tech.root: kernel
-ms.assetid: F4571085-19C2-46FD-B754-D4937BE5A500
 ms.date: 04/30/2018
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM, kernel.pep_query_soc_subsystem, pepfx/PEP_QUERY_SOC_SUBSYSTEM, pepfx/PPEP_QUERY_SOC_SUBSYSTEM"

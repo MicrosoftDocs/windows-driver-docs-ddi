@@ -4,7 +4,6 @@ title: WdfPdoGetParent function (wdfpdo.h)
 description: The WdfPdoGetParent method returns a handle to the framework device object that represents the parent device of a specified device.
 old-location: wdf\wdfpdogetparent.htm
 tech.root: wdf
-ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.date: 02/26/2018
 keywords: ["WdfPdoGetParent function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent, WdfPdoGetParent method, kmdf.wdfpdogetparent, wdf.wdfpdogetparent, wdfpdo/WdfPdoGetParent

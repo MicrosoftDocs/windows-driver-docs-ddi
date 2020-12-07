@@ -4,7 +4,6 @@ title: IPrintOemPS::DisableDriver (prcomoem.h)
 description: The IPrintOemPS::DisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-in's IPrintOemPS::EnableDriver method.
 old-location: print\iprintoemps_disabledriver.htm
 tech.root: print
-ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.date: 04/20/2018
 keywords: ["IPrintOemPS::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DisableDriver method, IPrintOemPS.DisableDriver, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml

@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 title: _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT (d3dkmthk.h)
 description: A structure containing output data used to manage shared power components.
 old-location: display\dxgk_graphicspower_register_output.htm
-ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
 ms.date: 04/16/2018
 keywords: ["DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure"]
 ms.keywords: "*PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, display.dxgk_graphicspower_register_output"

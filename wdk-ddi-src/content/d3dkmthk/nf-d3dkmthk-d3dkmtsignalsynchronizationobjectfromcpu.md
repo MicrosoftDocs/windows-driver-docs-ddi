@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObjectFromCpu
 title: D3DKMTSignalSynchronizationObjectFromCpu function (d3dkmthk.h)
 description: D3DKMTSignalSynchronizationObjectFromCpu enables a driver to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
-ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.date: 05/10/2018
 keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu

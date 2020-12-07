@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_COPYSTRUCTURECOUNT
 title: PFND3D11DDI_COPYSTRUCTURECOUNT (d3d10umddi.h)
 description: The CopyStructureCount function copies the number of items in the filled portion (that is, the filled-size value) of an append buffer unordered access view (UAV) to an offset into a destination buffer.
 old-location: display\copystructurecount.htm
-ms.assetid: 39f20ff3-859f-4933-8be0-e2bb7c05e7e1
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_COPYSTRUCTURECOUNT callback function"]
 ms.keywords: CopyStructureCount, CopyStructureCount callback function [Display Devices], PFND3D11DDI_COPYSTRUCTURECOUNT, PFND3D11DDI_COPYSTRUCTURECOUNT callback, UserModeDisplayDriverDx11_Functions_b6bad9fd-b0b2-40fa-aa4a-664554984dcd.xml, d3d10umddi/CopyStructureCount, display.copystructurecount

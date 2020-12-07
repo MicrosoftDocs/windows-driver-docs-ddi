@@ -4,7 +4,6 @@ title: RtlIncrementCorrelationVector function (ntddk.h)
 description: Increments the specified correlation vector. For a correlation vector of the form X.i, the incremented value is be X.(i+1).
 old-location: kernel\rtlincrementcorrelationvector.htm
 tech.root: kernel
-ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
 ms.date: 04/30/2018
 keywords: ["RtlIncrementCorrelationVector function"]
 ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector

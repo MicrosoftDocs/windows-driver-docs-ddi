@@ -4,7 +4,6 @@ title: PoFxStartDevicePowerManagement function (wdm.h)
 description: The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 old-location: kernel\pofxstartdevicepowermanagement.htm
 tech.root: kernel
-ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
 ms.date: 04/30/2018
 keywords: ["PoFxStartDevicePowerManagement function"]
 ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement

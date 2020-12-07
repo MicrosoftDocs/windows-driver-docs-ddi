@@ -4,7 +4,6 @@ title: _SetLoadBalancePolicy_OUT (iscsimgt.h)
 description: The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_out.htm
 tech.root: storage
-ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.date: 03/29/2018
 keywords: ["SetLoadBalancePolicy_OUT structure"]
 ms.keywords: "*PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], SetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], _SetLoadBalancePolicy_OUT, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml"

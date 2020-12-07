@@ -4,7 +4,6 @@ title: SeCreateClientSecurityFromSubjectContext function (ntifs.h)
 description: The SeCreateClientSecurityFromSubjectContext routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurityfromsubjectcontext.htm
 tech.root: ifsk
-ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.date: 04/16/2018
 keywords: ["SeCreateClientSecurityFromSubjectContext function"]
 ms.keywords: SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml

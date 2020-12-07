@@ -4,7 +4,6 @@ title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification (portcl
 description: The AllocateAudioBufferWithNotification method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification. If you do not want event notification, you must use IMiniportWaveRTStream::AllocateAudioBuffer.
 old-location: audio\iminiportwavertstreamnotification_allocatebufferwithnotification.htm
 tech.root: audio
-ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTStreamNotification::AllocateBufferWithNotification"]
 ms.keywords: AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification

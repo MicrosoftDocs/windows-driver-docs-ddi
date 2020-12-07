@@ -3,7 +3,6 @@ UID: NF:mbbcx.MBB_DEVICE_MBIM_PARAMETERS_INIT
 title: MBB_DEVICE_MBIM_PARAMETERS_INIT function (mbbcx.h)
 description: The MBB_DEVICE_MBIM_PARAMETERS_INIT method initializes a MBB_DEVICE_MBIM_PARAMETERS structure.
 tech.root: netvista
-ms.assetid: 679409cd-b6bd-4eb7-9f15-d8cd8216e785
 ms.date: 02/06/2019
 keywords: ["MBB_DEVICE_MBIM_PARAMETERS_INIT function"]
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT

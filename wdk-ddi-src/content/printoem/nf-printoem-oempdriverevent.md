@@ -4,7 +4,6 @@ title: OEMPDriverEvent function (printoem.h)
 description: OEMPDriverEvent function
 old-location: print\oempdriverevent.htm
 tech.root: print
-ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.date: 04/20/2018
 keywords: ["OEMPDriverEvent function"]
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent

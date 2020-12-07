@@ -4,7 +4,6 @@ title: _AACS_CERTIFICATE (ntddcdvd.h)
 description: The AACS_CERTIFICATE structure contains a cryptographically random 160-bit value, followed by a 92-byte certificate.
 old-location: storage\aacs_certificate.htm
 tech.root: storage
-ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
 ms.date: 03/29/2018
 keywords: ["AACS_CERTIFICATE structure"]
 ms.keywords: "*PAACS_CERTIFICATE, AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, storage.aacs_certificate, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml"

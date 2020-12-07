@@ -4,7 +4,6 @@ title: IoUnregisterContainerNotification function (wdm.h)
 description: The IoUnregisterContainerNotification routine cancels a container notification registration that was previously created by the IoRegisterContainerNotification routine.
 old-location: kernel\iounregistercontainernotification.htm
 tech.root: kernel
-ms.assetid: e8c1dee9-515f-4844-aa3e-8deab660bd33
 ms.date: 04/30/2018
 keywords: ["IoUnregisterContainerNotification function"]
 ms.keywords: IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification

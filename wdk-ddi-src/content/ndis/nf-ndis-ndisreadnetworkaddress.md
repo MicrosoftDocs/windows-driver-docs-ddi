@@ -4,7 +4,6 @@ title: NdisReadNetworkAddress function (ndis.h)
 description: The NdisReadNetworkAddress function returns the software-configurable network address that was stored in the registry for a NIC when it was installed in the machine.
 old-location: netvista\ndisreadnetworkaddress.htm
 tech.root: netvista
-ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.date: 05/02/2018
 keywords: ["NdisReadNetworkAddress function"]
 ms.keywords: NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress

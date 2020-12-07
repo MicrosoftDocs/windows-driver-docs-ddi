@@ -4,7 +4,6 @@ title: USBFN_GET_ATTACH_ACTION_ABORT (usbfnattach.h)
 description: The filter driver's implementation to abort an attach-detect operation.
 old-location: buses\usbfn_get_attach_action_abort.htm
 tech.root: usbref
-ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.date: 05/07/2018
 keywords: ["USBFN_GET_ATTACH_ACTION_ABORT callback function"]
 ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort

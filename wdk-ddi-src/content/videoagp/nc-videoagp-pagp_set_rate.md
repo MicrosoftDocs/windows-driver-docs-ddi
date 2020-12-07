@@ -4,7 +4,6 @@ title: PAGP_SET_RATE (videoagp.h)
 description: The AgpSetRate function reprograms the data transfer rate of the AGP chipset.
 old-location: display\agpsetrate.htm
 tech.root: display
-ms.assetid: 6885df05-8cc4-4ae0-b7ca-6fd94374cfbf
 ms.date: 05/10/2018
 keywords: ["PAGP_SET_RATE callback function"]
 ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, PAGP_SET_RATE callback, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate

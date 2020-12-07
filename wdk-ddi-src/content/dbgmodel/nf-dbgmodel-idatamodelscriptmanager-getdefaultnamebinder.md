@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptManager.GetDefaultNameBinder
 title: IDataModelScriptManager::GetDefaultNameBinder (dbgmodel.h)
 description: The GetDefaultNameBinder method returns the data model's default script name binder.
-ms.assetid: 737177da-1933-41fb-8b74-0a60a4306d2f
 ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::GetDefaultNameBinder"]
 ms.keywords: IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder, IDataModelScriptManager::GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder

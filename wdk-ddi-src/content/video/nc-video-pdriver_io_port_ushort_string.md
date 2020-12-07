@@ -4,7 +4,6 @@ title: PDRIVER_IO_PORT_USHORT_STRING (video.h)
 description: SvgaHwIoPortUshortString traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of USHORT-sized data.
 old-location: display\svgahwioportushortstring.htm
 tech.root: display
-ms.assetid: cfb8d6d9-0210-4800-979c-7c6a6bbfe633
 ms.date: 05/10/2018
 keywords: ["PDRIVER_IO_PORT_USHORT_STRING callback function"]
 ms.keywords: PDRIVER_IO_PORT_USHORT_STRING, PDRIVER_IO_PORT_USHORT_STRING callback, SvgaHwIoPortUshortString, SvgaHwIoPortUshortString callback function [Display Devices], VideoMiniport_Functions_7ac011d5-6b69-4ac5-92dd-abc8f2c43740.xml, display.svgahwioportushortstring, video/SvgaHwIoPortUshortString

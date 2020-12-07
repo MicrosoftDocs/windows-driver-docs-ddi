@@ -4,7 +4,6 @@ title: ScsiPortReadRegisterBufferUlong macro (storport.h)
 description: The ScsiPortReadRegisterBufferUlong routine transfers a specified number of ULONG values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterbufferulong.htm
 tech.root: storage
-ms.assetid: 6b2d1893-8878-4ccd-bc0c-845e1cb8f6bf
 ms.date: 03/29/2018
 keywords: ["ScsiPortReadRegisterBufferUlong macro"]
 ms.keywords: ScsiPortReadRegisterBufferUlong, ScsiPortReadRegisterBufferUlong routine [Storage Devices], scsiprt_4356902d-5810-4006-acbe-40d41c2d68e4.xml, srb/ScsiPortReadRegisterBufferUlong, storage.scsiportreadregisterbufferulong

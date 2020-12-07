@@ -4,7 +4,6 @@ title: FsRtlFastCheckLockForRead function (ntifs.h)
 description: The FsRtlFastCheckLockForRead routine determines whether the specified process has read access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforread.htm
 tech.root: ifsk
-ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.date: 03/29/2018
 keywords: ["FsRtlFastCheckLockForRead function"]
 ms.keywords: FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, ifsk.fsrtlfastchecklockforread, ntifs/FsRtlFastCheckLockForRead

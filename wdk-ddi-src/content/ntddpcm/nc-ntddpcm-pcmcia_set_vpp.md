@@ -4,7 +4,6 @@ title: PCMCIA_SET_VPP (ntddpcm.h)
 description: The PCMCIA_SET_VPP interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).
 old-location: pcmcia\pcmcia_set_vpp.htm
 tech.root: PCMCIA
-ms.assetid: 63c34784-6ea5-49e5-8ee7-79b70e5137f7
 ms.date: 02/15/2018
 keywords: ["PCMCIA_SET_VPP callback function"]
 ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP callback, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp

@@ -4,7 +4,6 @@ title: DxgkInitializeDisplayOnlyDriver function (dispmprt.h)
 description: Loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys) for use by a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkinitializedisplayonlydriver.htm
 tech.root: display
-ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
 ms.date: 05/10/2018
 keywords: ["DxgkInitializeDisplayOnlyDriver function"]
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver

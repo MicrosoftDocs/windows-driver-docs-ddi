@@ -4,7 +4,6 @@ title: IOCTL_GNSS_GET_CHIPSETINFO (gnssdriver.h)
 description: The IOCTL_GNSS_GET_CHIPSETINFO control code is used by the GNSS manufacturing test application to get information about the GNSS chipset.
 old-location: gnss\ioctl_gnss_get_chipsetinfo.htm
 tech.root: gnss
-ms.assetid: 9E57757B-65BA-40FF-98F9-F771C48EFF9E
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_GET_CHIPSETINFO IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnss.ioctl_gnss_get_chipsetinfo, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO

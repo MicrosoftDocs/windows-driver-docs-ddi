@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SET_HOME_PROVIDER (ndiswwan.h)
 description: The NDIS_WWAN_SET_HOME_PROVIDER structure describes a home provider.
 old-location: netvista\ndis_wwan_set_home_provider.htm
 tech.root: netvista
-ms.assetid: C0B1A72D-713B-48FF-8D1A-E9752569C10E
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_HOME_PROVIDER structure"]
 ms.keywords: "*PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_HOME_PROVIDER, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider"

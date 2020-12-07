@@ -4,7 +4,6 @@ title: UcmConnectorPdSourceCaps function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the connector.
 old-location: buses\ucmconnectorpdsourcecaps.htm
 tech.root: usbref
-ms.assetid: 7C52EE60-7903-42A7-B535-9B8ED7A4B021
 ms.date: 05/07/2018
 keywords: ["UcmConnectorPdSourceCaps function"]
 ms.keywords: UcmConnectorPdSourceCaps, UcmConnectorPdSourceCaps method [Buses], buses.ucmconnectorpdsourcecaps, ucmmanager/UcmConnectorPdSourceCaps

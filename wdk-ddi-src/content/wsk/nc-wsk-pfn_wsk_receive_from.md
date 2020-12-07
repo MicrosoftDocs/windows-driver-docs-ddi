@@ -4,7 +4,6 @@ title: PFN_WSK_RECEIVE_FROM (wsk.h)
 description: The WskReceiveFrom function receives a datagram and any associated control information from a remote transport address.
 old-location: netvista\wskreceivefrom.htm
 tech.root: netvista
-ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_RECEIVE_FROM callback function"]
 ms.keywords: PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM callback, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml

@@ -4,7 +4,6 @@ title: KsPinRegisterAggregatedClientUnknown function (ks.h)
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\kspinregisteraggregatedclientunknown.htm
 tech.root: stream
-ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
 ms.date: 04/23/2018
 keywords: ["KsPinRegisterAggregatedClientUnknown function"]
 ms.keywords: KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, ks/KsPinRegisterAggregatedClientUnknown, stream.kspinregisteraggregatedclientunknown

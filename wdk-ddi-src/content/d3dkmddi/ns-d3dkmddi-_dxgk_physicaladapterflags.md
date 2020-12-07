@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PHYSICALADAPTERFLAGS
 title: _DXGK_PHYSICALADAPTERFLAGS (d3dkmddi.h)
 description: DXGK_PHYSICALADAPTERFLAGS defines a set of flags that used to indicate the type of memory management model that is supported by a device.
 old-location: display\dxgk_physicaladapterflags.htm
-ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.date: 03/24/2020
 keywords: ["DXGK_PHYSICALADAPTERFLAGS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags

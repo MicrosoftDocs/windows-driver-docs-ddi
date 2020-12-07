@@ -4,7 +4,6 @@ title: SerCx2CustomReceiveCreate function (sercx.h)
 description: The SerCx2CustomReceiveCreate method creates a custom-receive object, which version 2 of the serial framework extension (SerCx2) uses to read receive data from the serial controller by means of a custom data-transfer mechanism.
 old-location: serports\sercx2customreceivecreate.htm
 tech.root: serports
-ms.assetid: EC2DBC18-C3F6-4663-891E-AFF43A6D1CE3
 ms.date: 04/23/2018
 keywords: ["SerCx2CustomReceiveCreate function"]
 ms.keywords: 2/SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate method [Serial Ports], serports.sercx2customreceivecreate

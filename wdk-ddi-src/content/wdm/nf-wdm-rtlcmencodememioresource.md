@@ -4,7 +4,6 @@ title: RtlCmEncodeMemIoResource function (wdm.h)
 description: The RtlCmEncodeMemIoResource routine updates a CM_PARTIAL_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlcmencodememioresource.htm
 tech.root: kernel
-ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.date: 04/30/2018
 keywords: ["RtlCmEncodeMemIoResource function"]
 ms.keywords: RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, kernel.rtlcmencodememioresource, wdm/RtlCmEncodeMemIoResource

@@ -4,7 +4,6 @@ title: WdfPreDeviceInstall function (wdfinstaller.h)
 description: The co-installer's WdfPreDeviceInstall function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service.
 old-location: wdf\wdfpredeviceinstall.htm
 tech.root: wdf
-ms.assetid: 2da4b4ea-1cbb-43f7-9001-44b07a3e9ef7
 ms.date: 02/26/2018
 keywords: ["WdfPreDeviceInstall function"]
 ms.keywords: DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, WdfPreDeviceInstall, WdfPreDeviceInstall function, kmdf.wdfpredeviceinstall, wdf.wdfpredeviceinstall, wdfinstaller/WdfPreDeviceInstall

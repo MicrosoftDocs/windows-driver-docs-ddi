@@ -4,7 +4,6 @@ title: WcsSetDefaultColorProfile function (icm.h)
 description: The WcsSetDefaultColorProfile function sets the default color profile name of the specified profile type in the specified profile management scope.
 old-location: print\wcssetdefaultcolorprofile.htm
 tech.root: print
-ms.assetid: 302f271c-801e-409c-a0fc-53f01e5e2055
 ms.date: 08/26/2020
 keywords: ["WcsSetDefaultColorProfile function"]
 ms.keywords: WcsSetDefaultColorProfile, WcsSetDefaultColorProfile function [Print Devices], colorfnc_31c96c7b-5616-4bdb-8df8-23e2361a9554.xml, icm/WcsSetDefaultColorProfile, print.wcssetdefaultcolorprofile

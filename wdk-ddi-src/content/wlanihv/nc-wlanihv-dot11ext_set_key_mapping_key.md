@@ -4,7 +4,6 @@ title: DOT11EXT_SET_KEY_MAPPING_KEY (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetkeymappingkey.htm
 tech.root: netvista
-ms.assetid: 7fbca90d-c5cd-40d4-a284-ca059aa6cacf
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_SET_KEY_MAPPING_KEY callback"]
 ms.keywords: DOT11EXT_SET_KEY_MAPPING_KEY, Dot11ExtSetKeyMappingKey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml, netvista.dot11extsetkeymappingkey, wlanihv/Dot11ExtSetKeyMappingKey

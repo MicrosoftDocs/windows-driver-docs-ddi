@@ -4,7 +4,6 @@ title: PMINIPORT_QUERY_DEVICE_ROUTINE (video.h)
 description: HwVidQueryDeviceCallback uses the specified configuration data to configure its adapter, and, possibly, to fill in missing configuration information in the VIDEO_PORT_CONFIG_INFO structure.
 old-location: display\hwvidquerydevicecallback.htm
 tech.root: display
-ms.assetid: 81c3f484-427e-43b8-b7dd-12017533560b
 ms.date: 05/10/2018
 keywords: ["PMINIPORT_QUERY_DEVICE_ROUTINE callback function"]
 ms.keywords: HwVidQueryDeviceCallback, HwVidQueryDeviceCallback callback function [Display Devices], PMINIPORT_QUERY_DEVICE_ROUTINE, PMINIPORT_QUERY_DEVICE_ROUTINE callback, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml, display.hwvidquerydevicecallback, video/HwVidQueryDeviceCallback

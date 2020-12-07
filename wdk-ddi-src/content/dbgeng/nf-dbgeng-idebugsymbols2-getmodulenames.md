@@ -4,7 +4,6 @@ title: IDebugSymbols2::GetModuleNames (dbgeng.h)
 description: The GetModuleNames method returns the names of the specified module.
 old-location: debugger\getmodulenames.htm
 tech.root: debugger
-ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetModuleNames"]
 ms.keywords: GetModuleNames, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging],IDebugSymbols interface, GetModuleNames method [Windows Debugging],IDebugSymbols2 interface, GetModuleNames method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleNames method, IDebugSymbols2 interface [Windows Debugging],GetModuleNames method, IDebugSymbols2.GetModuleNames, IDebugSymbols2::GetModuleNames, IDebugSymbols3 interface [Windows Debugging],GetModuleNames method, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames

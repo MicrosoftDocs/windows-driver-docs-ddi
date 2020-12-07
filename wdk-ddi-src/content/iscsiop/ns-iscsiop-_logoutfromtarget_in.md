@@ -4,7 +4,6 @@ title: _LogoutFromTarget_IN (iscsiop.h)
 description: The LogoutFromTarget_IN structure holds the input data for the LogoutFromTarget method, which is used to log out from an iSCSI target.
 old-location: storage\logoutfromtarget_in.htm
 tech.root: storage
-ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.date: 03/29/2018
 keywords: ["LogoutFromTarget_IN structure"]
 ms.keywords: "*PLogoutFromTarget_IN, LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], PLogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, iscsiop/LogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, storage.logoutfromtarget_in, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml"

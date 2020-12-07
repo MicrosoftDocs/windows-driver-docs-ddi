@@ -4,7 +4,6 @@ title: EVT_UDECX_WDF_DEVICE_RESET (udecxwdfdevice.h)
 description: The UDE client driver's implementation to reset the emulated host controller or the devices attached to it.
 old-location: buses\evt_udecx_wdf_device_reset.htm
 tech.root: usbref
-ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.date: 05/07/2018
 keywords: ["EVT_UDECX_WDF_DEVICE_RESET callback function"]
 ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET callback, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset

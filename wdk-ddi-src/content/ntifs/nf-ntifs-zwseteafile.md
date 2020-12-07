@@ -4,7 +4,6 @@ title: ZwSetEaFile function (ntifs.h)
 description: The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
 old-location: kernel\zwseteafile.htm
 tech.root: kernel
-ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.date: 04/30/2018
 keywords: ["ZwSetEaFile function"]
 ms.keywords: ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], kernel.zwseteafile, ntifs/ZwSetEaFile

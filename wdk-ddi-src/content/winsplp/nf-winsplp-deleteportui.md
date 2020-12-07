@@ -4,7 +4,6 @@ title: DeletePortUI function (winsplp.h)
 description: A port monitor UI DLL's DeletePortUI function deletes a printer port.
 old-location: print\deleteportui.htm
 tech.root: print
-ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.date: 04/20/2018
 keywords: ["DeletePortUI function"]
 ms.keywords: DeletePortUI, pfnDeletePortUI, pfnDeletePortUI function [Print Devices], print.deleteportui, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, winsplp/pfnDeletePortUI

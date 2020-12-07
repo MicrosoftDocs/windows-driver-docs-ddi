@@ -4,7 +4,6 @@ title: UcmTcpciPortControllerStop function (ucmtcpciportcontroller.h)
 description: Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.
 old-location: buses\ucmtcpciportcontrollerstop.htm
 tech.root: usbref
-ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerStop function"]
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop

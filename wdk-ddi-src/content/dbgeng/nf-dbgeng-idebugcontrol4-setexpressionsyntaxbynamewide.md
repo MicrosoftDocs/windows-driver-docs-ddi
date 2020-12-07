@@ -4,7 +4,6 @@ title: IDebugControl4::SetExpressionSyntaxByNameWide (dbgeng.h)
 description: The SetExpressionSyntaxByNameWide method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbynamewide.htm
 tech.root: debugger
-ms.assetid: cad4ee84-333a-49ff-a087-da0e36b87989
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::SetExpressionSyntaxByNameWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetExpressionSyntaxByNameWide method, IDebugControl4.SetExpressionSyntaxByNameWide, IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide

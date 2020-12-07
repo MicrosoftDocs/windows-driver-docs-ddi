@@ -4,7 +4,6 @@ title: FltUninitializeFileLock function (fltkernel.h)
 description: The FltUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fltuninitializefilelock.htm
 tech.root: ifsk
-ms.assetid: 15f0a4f4-70f3-4a26-92a2-728e363205f3
 ms.date: 04/16/2018
 keywords: ["FltUninitializeFileLock function"]
 ms.keywords: FltApiRef_p_to_z_ad1332a2-5434-423c-91d6-de939e1cb28a.xml, FltUninitializeFileLock, FltUninitializeFileLock routine [Installable File System Drivers], fltkernel/FltUninitializeFileLock, ifsk.fltuninitializefilelock

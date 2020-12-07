@@ -3,7 +3,6 @@ UID: NF:wdm.IoAcquireKsrPersistentMemory
 title: IoAcquireKsrPersistentMemory function
 description: TBD
 tech.root: kernel
-ms.assetid: 44f12973-4385-4a1e-ac93-68f51d4aacfc
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: IoAcquireKsrPersistentMemory

@@ -4,7 +4,6 @@ title: WIAS_LWARNING macro (wiautil.h)
 description: The WIAS_LWARNING macro is obsolete for Windows Vista and later.The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 old-location: image\wias_lwarning.htm
 tech.root: image
-ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.date: 05/03/2018
 keywords: ["WIAS_LWARNING macro"]
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING

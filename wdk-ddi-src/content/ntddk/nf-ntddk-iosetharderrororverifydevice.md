@@ -4,7 +4,6 @@ title: IoSetHardErrorOrVerifyDevice function (ntddk.h)
 description: Lower-level drivers call the IoSetHardErrorOrVerifyDevice routine to identify a removable media device that has encountered an error, so that a file system driver can prompt the user to verify that the medium is valid.
 old-location: kernel\iosetharderrororverifydevice.htm
 tech.root: kernel
-ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.date: 04/30/2018
 keywords: ["IoSetHardErrorOrVerifyDevice function"]
 ms.keywords: IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, kernel.iosetharderrororverifydevice, ntddk/IoSetHardErrorOrVerifyDevice

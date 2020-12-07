@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_UICC_APP_LIST
 title: _WWAN_UICC_APP_LIST (wwan.h)
 description: The WWAN_UICC_APP_LIST structure describes a list of applications in a UICC and information about them.
 tech.root: netvista
-ms.assetid: 79DAD0BC-171D-4930-BF62-A3F2BEEC7C69
 ms.date: 04/08/2019
 keywords: ["WWAN_UICC_APP_LIST structure"]
 ms.keywords: _WWAN_UICC_APP_LIST, WWAN_UICC_APP_LIST, *PWWAN_UICC_APP_LIST,

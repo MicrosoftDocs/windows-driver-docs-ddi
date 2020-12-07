@@ -4,7 +4,6 @@ title: FltGetDestinationFileNameInformation function (fltkernel.h)
 description: The FltGetDestinationFileNameInformation routine constructs a full destination path name for a file or directory that is being renamed or for which an NTFS hard link is being created.
 old-location: ifsk\fltgetdestinationfilenameinformation.htm
 tech.root: ifsk
-ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.date: 07/27/2020
 keywords: ["FltGetDestinationFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation

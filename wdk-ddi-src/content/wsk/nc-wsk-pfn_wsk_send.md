@@ -4,7 +4,6 @@ title: PFN_WSK_SEND (wsk.h)
 description: The WskSend function sends data over a connection-oriented or stream socket to a remote transport address.
 old-location: netvista\wsksend.htm
 tech.root: netvista
-ms.assetid: 40fe1e3b-22b2-4d78-a306-977188246935
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SEND callback function"]
 ms.keywords: PFN_WSK_SEND, PFN_WSK_SEND callback, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml

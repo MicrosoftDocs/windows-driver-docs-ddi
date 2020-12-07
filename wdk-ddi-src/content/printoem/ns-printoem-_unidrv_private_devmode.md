@@ -4,7 +4,6 @@ title: _UNIDRV_PRIVATE_DEVMODE (printoem.h)
 description: The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 old-location: print\unidrv_private_devmode.htm
 tech.root: print
-ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.date: 04/20/2018
 keywords: ["UNIDRV_PRIVATE_DEVMODE structure"]
 ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/PUNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE"

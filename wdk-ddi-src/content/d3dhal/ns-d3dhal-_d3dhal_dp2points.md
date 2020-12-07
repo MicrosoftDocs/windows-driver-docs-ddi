@@ -4,7 +4,6 @@ title: _D3DHAL_DP2POINTS (d3dhal.h)
 description: One or more D3DHAL_DP2POINTS structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_POINTS, and are used to render the specified points.
 old-location: display\d3dhal_dp2points.htm
 tech.root: display
-ms.assetid: 9987ed83-7aa1-4e07-a85b-26607000ecba
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2POINTS structure"]
 ms.keywords: "*LPD3DHAL_DP2POINTS, D3DHAL_DP2POINTS, D3DHAL_DP2POINTS structure [Display Devices], LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS structure pointer [Display Devices], _D3DHAL_DP2POINTS, d3dhal/D3DHAL_DP2POINTS, d3dhal/LPD3DHAL_DP2POINTS, d3dstrct_ab7299b5-74b9-43bb-8784-6c1249e23f2f.xml, display.d3dhal_dp2points"

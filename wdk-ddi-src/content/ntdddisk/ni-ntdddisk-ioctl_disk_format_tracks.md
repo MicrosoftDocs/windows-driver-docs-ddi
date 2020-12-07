@@ -4,7 +4,6 @@ title: IOCTL_DISK_FORMAT_TRACKS (ntdddisk.h)
 description: Formats the specified set of contiguous tracks on the disk.
 old-location: storage\ioctl_disk_format_tracks.htm
 tech.root: storage
-ms.assetid: f27f962f-badc-4e6f-ad3b-ce2a0c8ce825
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_FORMAT_TRACKS IOCTL"]
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_DISK_FORMAT_TRACKS control code [Storage Devices], k307_c50ddad4-851d-474e-92c1-13520556173b.xml, ntdddisk/IOCTL_DISK_FORMAT_TRACKS, storage.ioctl_disk_format_tracks

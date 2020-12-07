@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_LIST_0001
 title: PFND3D12DDI_CREATE_COMMAND_LIST_0001 (d3d12umddi.h)
 description: Creates a command list.
-ms.assetid: ff7999b0-ba8c-4302-b1b8-a65d6ccb2822
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATE_COMMAND_LIST_0001 callback function"]
 req.header: d3d12umddi.h

@@ -4,7 +4,6 @@ title: _WWAN_SMS_FORMAT (wwan.h)
 description: The WWAN_SMS_FORMAT enumeration lists different Short Message Service (SMS) formats.
 old-location: netvista\wwan_sms_format.htm
 tech.root: netvista
-ms.assetid: fb583ded-8292-4486-8e85-3d3039611d14
 ms.date: 05/02/2018
 keywords: ["WWAN_SMS_FORMAT enumeration"]
 ms.keywords: "*PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FORMAT, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, WwanSmsFormatCdma, WwanSmsFormatMax, WwanSmsFormatPdu, WwanSmsFormatReserved0, WwanSmsFormatReserved1, WwanSmsFormatReserved2, _WWAN_SMS_FORMAT, netvista.wwan_sms_format, wwan/PWWAN_SMS_FORMAT, wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatCdma, wwan/WwanSmsFormatMax, wwan/WwanSmsFormatPdu, wwan/WwanSmsFormatReserved0, wwan/WwanSmsFormatReserved1, wwan/WwanSmsFormatReserved2"

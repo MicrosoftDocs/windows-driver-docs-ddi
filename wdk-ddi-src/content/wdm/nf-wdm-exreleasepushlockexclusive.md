@@ -3,7 +3,6 @@ UID: NF:wdm.ExReleasePushLockExclusive
 title: ExReleasePushLockExclusive macro (wdm.h)
 description: Releases a specified push lock for exclusive access owned by the current thread.
 tech.root: kernel
-ms.assetid: 4405aad6-919c-4609-bd48-e29474827d8b
 ms.date: 09/30/2018
 keywords: ["ExReleasePushLockExclusive macro"]
 ms.keywords: ExReleasePushLockExclusive

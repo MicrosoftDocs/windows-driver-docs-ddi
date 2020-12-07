@@ -4,7 +4,6 @@ title: _PSPINFO (compstui.h)
 description: The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a DLGPAGE structure.
 old-location: print\pspinfo.htm
 tech.root: print
-ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.date: 04/20/2018
 keywords: ["PSPINFO structure"]
 ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"

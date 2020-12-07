@@ -4,7 +4,6 @@ title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer (portabledevicetypes.h
 description: Deserializes a byte array to an IPortableDeviceValues interface.
 old-location: wpddk\iwpdserializer_getiportabledevicevaluesfrombuffer.htm
 tech.root: wpd_dk
-ms.assetid: c92506e7-c05c-430e-9600-4679dd00cc5f
 ms.date: 02/15/2018
 keywords: ["IWpdSerializer::GetIPortableDeviceValuesFromBuffer"]
 ms.keywords: GetIPortableDeviceValuesFromBuffer, GetIPortableDeviceValuesFromBuffer method, GetIPortableDeviceValuesFromBuffer method,IWpdSerializer interface, IWpdSerializer interface,GetIPortableDeviceValuesFromBuffer method, IWpdSerializer.GetIPortableDeviceValuesFromBuffer, IWpdSerializer::GetIPortableDeviceValuesFromBuffer, IWpdSerializerGetIPortableDeviceValuesFromBuffer, portabledevicetypes/IWpdSerializer::GetIPortableDeviceValuesFromBuffer, wpddk.iwpdserializer_getiportabledevicevaluesfrombuffer

@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_SNAPSHOT
 title: _D3DKMT_OUTPUTDUPL_SNAPSHOT (d3dkmthk.h)
 description: Provides information on the current processes in which output duplication is occurring.
 old-location: display\d3dkmt_outputdupl_snapshot.htm
-ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
 ms.date: 05/10/2018
 keywords: ["D3DKMT_OUTPUTDUPL_SNAPSHOT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot

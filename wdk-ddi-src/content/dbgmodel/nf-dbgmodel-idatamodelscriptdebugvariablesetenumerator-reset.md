@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.Reset
 title: IDataModelScriptDebugVariableSetEnumerator::Reset (dbgmodel.h)
 description: The Reset method resets the position of the enumerator to where it was immediately after creation -- that is, before the first element of the set.
-ms.assetid: f074795f-8ac5-47f9-890e-0e028fc4bc1d
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::Reset"]
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Reset, Reset, IDataModelScriptDebugVariableSetEnumerator.Reset, IDataModelScriptDebugVariableSetEnumerator::Reset, IDataModelScriptDebugVariableSetEnumerator.Reset

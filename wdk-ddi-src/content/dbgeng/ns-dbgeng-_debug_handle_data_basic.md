@@ -4,7 +4,6 @@ title: _DEBUG_HANDLE_DATA_BASIC (dbgeng.h)
 description: The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about a system object.
 old-location: debugger\debug_handle_data_basic.htm
 tech.root: debugger
-ms.assetid: c1ad22b9-9733-417a-96ae-bc5920462f4f
 ms.date: 05/03/2018
 keywords: ["DEBUG_HANDLE_DATA_BASIC structure"]
 ms.keywords: "*PDEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC structure [Windows Debugging], PDEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC structure pointer [Windows Debugging], Structures_e4fb66c0-8e88-4f35-a103-0cc0f7cc1bfd.xml, _DEBUG_HANDLE_DATA_BASIC, dbgeng/DEBUG_HANDLE_DATA_BASIC, dbgeng/PDEBUG_HANDLE_DATA_BASIC, debugger.debug_handle_data_basic"

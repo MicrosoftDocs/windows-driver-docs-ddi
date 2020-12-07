@@ -4,7 +4,6 @@ title: KsPinGetConnectedFilterInterface function (ks.h)
 description: The KsPinGetConnectedFilterInterface function queries the filter to which Pin is connected in order to obtain a pointer to a COM interface.
 old-location: stream\kspingetconnectedfilterinterface.htm
 tech.root: stream
-ms.assetid: 19fb7a3e-d795-4d5a-9f28-cfbf37dbcd96
 ms.date: 04/23/2018
 keywords: ["KsPinGetConnectedFilterInterface function"]
 ms.keywords: KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface

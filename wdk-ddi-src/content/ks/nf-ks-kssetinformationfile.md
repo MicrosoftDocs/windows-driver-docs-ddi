@@ -4,7 +4,6 @@ title: KsSetInformationFile function (ks.h)
 description: The KsSetInformationFile function performs an information set against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates an information set against the device object.
 old-location: stream\kssetinformationfile.htm
 tech.root: stream
-ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.date: 04/23/2018
 keywords: ["KsSetInformationFile function"]
 ms.keywords: KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile

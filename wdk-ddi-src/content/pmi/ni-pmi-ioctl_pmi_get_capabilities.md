@@ -4,7 +4,6 @@ title: IOCTL_PMI_GET_CAPABILITIES (pmi.h)
 description: The IOCTL_PMI_GET_CAPABILITIES request obtains the capability and asset information about a power meter.
 old-location: powermeter\ioctl_pmi_get_capabilities.htm
 tech.root: powermeter
-ms.assetid: 2b8fb604-944d-40fc-be5b-a287ca7e3ea1
 ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities

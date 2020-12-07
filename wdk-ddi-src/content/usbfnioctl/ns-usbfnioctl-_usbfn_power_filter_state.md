@@ -4,7 +4,6 @@ title: _USBFN_POWER_FILTER_STATE (usbfnioctl.h)
 description: Reserved. Do not use.
 old-location: buses\usbfn_power_filter_state.htm
 tech.root: usbref
-ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.date: 05/07/2018
 keywords: ["USBFN_POWER_FILTER_STATE structure"]
 ms.keywords: "*PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], _USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE"

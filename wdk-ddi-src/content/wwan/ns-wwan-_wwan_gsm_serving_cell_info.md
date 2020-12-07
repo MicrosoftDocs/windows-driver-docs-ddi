@@ -4,7 +4,6 @@ title: _WWAN_GSM_SERVING_CELL_INFO (wwan.h)
 description: The WWAN_GSM_SERVING_CELL_INFO structure represents information about the GSM serving cell.
 old-location: netvista\wwan_gsm_serving_cell_info.htm
 tech.root: netvista
-ms.assetid: 37F6BD26-55F3-4E46-9C39-97A95B6FF5B1
 ms.date: 05/02/2018
 keywords: ["WWAN_GSM_SERVING_CELL_INFO structure"]
 ms.keywords: "*PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, wwan/PWWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO"

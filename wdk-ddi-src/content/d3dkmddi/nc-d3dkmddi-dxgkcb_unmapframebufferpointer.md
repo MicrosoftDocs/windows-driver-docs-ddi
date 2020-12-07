@@ -2,7 +2,6 @@
 UID: NC:d3dkmddi.DXGKCB_UNMAPFRAMEBUFFERPOINTER
 title: DXGKCB_UNMAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_MAPFRAMEBUFFERPOINTER.
-ms.assetid: d70a65f4-2dd2-45d5-85a6-fe2f695960a0
 ms.date: 10/19/2018
 keywords: ["DXGKCB_UNMAPFRAMEBUFFERPOINTER callback function"]
 req.header: d3dkmddi.h

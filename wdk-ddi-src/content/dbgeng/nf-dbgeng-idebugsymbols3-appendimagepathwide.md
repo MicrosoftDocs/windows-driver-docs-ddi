@@ -4,7 +4,6 @@ title: IDebugSymbols3::AppendImagePathWide (dbgeng.h)
 description: The AppendImagePathWide method appends directories to the executable image path.
 old-location: debugger\appendimagepathwide.htm
 tech.root: debugger
-ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AppendImagePathWide"]
 ms.keywords: AppendImagePathWide, AppendImagePathWide method [Windows Debugging], AppendImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendImagePathWide method, IDebugSymbols3.AppendImagePathWide, IDebugSymbols3::AppendImagePathWide, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide

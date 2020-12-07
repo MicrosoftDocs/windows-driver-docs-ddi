@@ -4,7 +4,6 @@ title: NdisFRegisterFilterDriver function (ndis.h)
 description: A filter driver calls the NdisFRegisterFilterDriver function to register its FilterXxx functions with NDIS.
 old-location: netvista\ndisfregisterfilterdriver.htm
 tech.root: netvista
-ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
 ms.date: 05/02/2018
 keywords: ["NdisFRegisterFilterDriver function"]
 ms.keywords: NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver

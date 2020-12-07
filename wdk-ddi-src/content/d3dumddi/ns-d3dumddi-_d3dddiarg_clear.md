@@ -4,7 +4,6 @@ title: _D3DDDIARG_CLEAR (d3dumddi.h)
 description: The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted clearing operation.
 old-location: display\d3dddiarg_clear.htm
 tech.root: display
-ms.assetid: f437f94c-075e-43e6-bf28-0e7c7bd78c5a
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CLEAR structure"]
 ms.keywords: D3DDDIARG_CLEAR, D3DDDIARG_CLEAR structure [Display Devices], UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, _D3DDDIARG_CLEAR, d3dumddi/D3DDDIARG_CLEAR, display.d3dddiarg_clear

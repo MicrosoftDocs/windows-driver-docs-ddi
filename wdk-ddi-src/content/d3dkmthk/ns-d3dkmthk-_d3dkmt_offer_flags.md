@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_OFFER_FLAGS
 title: _D3DKMT_OFFER_FLAGS (d3dkmthk.h)
 description: Contains information about offer flags.
-ms.assetid: 5b6167d0-4105-4e56-a282-5597760fed02
 ms.date: 10/19/2018
 keywords: ["D3DKMT_OFFER_FLAGS structure"]
 ms.keywords: _D3DKMT_OFFER_FLAGS, D3DKMT_OFFER_FLAGS,

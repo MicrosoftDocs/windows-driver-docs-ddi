@@ -3,7 +3,6 @@ UID: NC:dispmprt.PBANKED_SECTION_ROUTINE
 title: PBANKED_SECTION_ROUTINE
 description: Graphics support routine.
 tech.root: display
-ms.assetid: f2d3b495-2977-4b51-a613-0e04e2e94c53
 ms.date: 04/04/2019
 keywords: ["PBANKED_SECTION_ROUTINE callback function"]
 req.header: dispmprt.h

@@ -4,7 +4,6 @@ title: KsCompletePendingRequest function (ks.h)
 description: The KsCompletePendingRequest function is used to complete an I/O request in response to which an AVStream dispatch function previously returned STATUS_PENDING.
 old-location: stream\kscompletependingrequest.htm
 tech.root: stream
-ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.date: 04/23/2018
 keywords: ["KsCompletePendingRequest function"]
 ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest

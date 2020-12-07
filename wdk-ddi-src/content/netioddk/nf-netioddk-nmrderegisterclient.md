@@ -4,7 +4,6 @@ title: NmrDeregisterClient function (netioddk.h)
 description: The NmrDeregisterClient function deregisters a client module from the NMR.
 old-location: netvista\nmrderegisterclient.htm
 tech.root: netvista
-ms.assetid: 64fff189-392e-42c3-8d9a-0d6daa07d2f7
 ms.date: 05/02/2018
 keywords: ["NmrDeregisterClient function"]
 ms.keywords: NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient, netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml

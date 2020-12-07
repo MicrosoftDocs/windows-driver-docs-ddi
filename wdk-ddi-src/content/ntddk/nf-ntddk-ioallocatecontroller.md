@@ -4,7 +4,6 @@ title: IoAllocateController function (ntddk.h)
 description: The IoAllocateController routine sets up the call to a driver-supplied ControllerControl routine as soon as the device controller, represented by the given controller object, is available to carry out an I/O operation for the target device, represented by the given device object.
 old-location: kernel\ioallocatecontroller.htm
 tech.root: kernel
-ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.date: 04/30/2018
 keywords: ["IoAllocateController function"]
 ms.keywords: IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture], k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, kernel.ioallocatecontroller, ntddk/IoAllocateController

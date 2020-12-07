@@ -4,7 +4,6 @@ title: ZwFlushVirtualMemory function (ntifs.h)
 description: The ZwFlushVirtualMemory routine flushes a range of virtual addresses within the virtual address space of a specified process which map to a data file back out to the data file if they have been modified.
 old-location: kernel\zwflushvirtualmemory.htm
 tech.root: kernel
-ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.date: 04/30/2018
 keywords: ["ZwFlushVirtualMemory function"]
 ms.keywords: NtFlushVirtualMemory, ZwFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory

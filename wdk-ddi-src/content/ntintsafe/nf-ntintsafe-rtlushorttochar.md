@@ -4,7 +4,6 @@ title: RtlUShortToChar function (ntintsafe.h)
 description: Converts a value of type USHORT to a value of type CHAR.
 old-location: kernel\rtlushorttochar.htm
 tech.root: kernel
-ms.assetid: 13C5988F-1669-4B18-9423-74587276320F
 ms.date: 04/30/2018
 keywords: ["RtlUShortToChar function"]
 ms.keywords: RtlUShortToChar, RtlUShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttochar, ntintsafe/RtlUShortToChar

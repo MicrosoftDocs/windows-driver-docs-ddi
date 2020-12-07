@@ -4,7 +4,6 @@ title: IPrintOemDriverUni::DrvYMoveTo (prcomoem.h)
 description: The IPrintOemDriverUni::DrvYMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor y-position changes.
 old-location: print\iprintoemdriveruni_drvymoveto.htm
 tech.root: print
-ms.assetid: ce9b1622-4c02-4496-82ca-cefa49d531da
 ms.date: 04/20/2018
 keywords: ["IPrintOemDriverUni::DrvYMoveTo"]
 ms.keywords: DrvYMoveTo, DrvYMoveTo method [Print Devices], DrvYMoveTo method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvYMoveTo method, IPrintOemDriverUni.DrvYMoveTo, IPrintOemDriverUni::DrvYMoveTo, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml

@@ -4,7 +4,6 @@ title: _PEP_ACPI_INTERRUPT_RESOURCE (pepfx.h)
 description: The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource.
 old-location: kernel\pep_acpi_interrupt_resource.htm
 tech.root: kernel
-ms.assetid: B440AB0E-72CC-40F1-B77E-C12C84124737
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INTERRUPT_RESOURCE structure"]
 ms.keywords: "*PPEP_ACPI_INTERRUPT_RESOURCE, PEP_ACPI_INTERRUPT_RESOURCE, PEP_ACPI_INTERRUPT_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_INTERRUPT_RESOURCE, PPEP_ACPI_INTERRUPT_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_INTERRUPT_RESOURCE, kernel.pep_acpi_interrupt_resource, pepfx/PEP_ACPI_INTERRUPT_RESOURCE, pepfx/PPEP_ACPI_INTERRUPT_RESOURCE"

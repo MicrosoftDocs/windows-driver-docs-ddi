@@ -4,7 +4,6 @@ title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a system-DMA-transmit transaction.
 old-location: serports\evtsercx2systemdmatransmitinitializetransaction.htm
 tech.root: serports
-ms.assetid: 2B6B33D9-1756-4C0B-91BB-AB36D4B6A913
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaTransmitInitializeTransaction, EvtSerCx2SystemDmaTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitinitializetransaction

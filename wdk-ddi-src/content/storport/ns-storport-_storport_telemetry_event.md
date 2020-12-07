@@ -4,7 +4,6 @@ title: _STORPORT_TELEMETRY_EVENT (storport.h)
 description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telemetry data payload.
 old-location: storage\storport_telemetry_event.htm
 tech.root: storage
-ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.date: 03/29/2018
 keywords: ["STORPORT_TELEMETRY_EVENT structure"]
 ms.keywords: "*PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"

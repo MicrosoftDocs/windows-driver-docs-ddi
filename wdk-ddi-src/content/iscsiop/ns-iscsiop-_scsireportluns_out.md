@@ -4,7 +4,6 @@ title: _ScsiReportLuns_OUT (iscsiop.h)
 description: The ScsiReportLuns_OUT structure holds the output data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_out.htm
 tech.root: storage
-ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.date: 03/29/2018
 keywords: ["ScsiReportLuns_OUT structure"]
 ms.keywords: "*PScsiReportLuns_OUT, PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], _ScsiReportLuns_OUT, iscsiop/PScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, storage.scsireportluns_out, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml"

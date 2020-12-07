@@ -4,7 +4,6 @@ title: IKsReferenceClock::GetTime (ks.h)
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
 tech.root: stream
-ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.date: 04/23/2018
 keywords: ["IKsReferenceClock::GetTime"]
 ms.keywords: GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetTime method, IKsReferenceClock.GetTime, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime

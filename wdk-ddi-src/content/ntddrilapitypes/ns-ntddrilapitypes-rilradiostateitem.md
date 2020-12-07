@@ -4,7 +4,6 @@ title: RILRADIOSTATEITEM (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostateitem.htm
 tech.root: netvista
-ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEITEM structure"]
 ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"

@@ -4,7 +4,6 @@ title: FltOpenVolume function (fltkernel.h)
 description: The FltOpenVolume routine returns a handle and a file object pointer for the file system volume that a given minifilter driver instance is attached to.
 old-location: ifsk\fltopenvolume.htm
 tech.root: ifsk
-ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
 ms.date: 04/16/2018
 keywords: ["FltOpenVolume function"]
 ms.keywords: FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], fltkernel/FltOpenVolume, ifsk.fltopenvolume

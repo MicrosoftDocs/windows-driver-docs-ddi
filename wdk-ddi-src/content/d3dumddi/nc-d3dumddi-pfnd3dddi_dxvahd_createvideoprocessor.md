@@ -4,7 +4,6 @@ title: PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR (d3dumddi.h)
 description: The CreateVideoProcessor function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processor that is used to process high-definition video.
 old-location: display\createvideoprocessor.htm
 tech.root: display
-ms.assetid: 68a7c394-4b0f-4446-a54b-5aee6cf8a913
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback function"]
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR, PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_ce6a0d51-9da3-43d9-ac23-c2e250ca4cfa.xml, d3dumddi/CreateVideoProcessor, display.createvideoprocessor

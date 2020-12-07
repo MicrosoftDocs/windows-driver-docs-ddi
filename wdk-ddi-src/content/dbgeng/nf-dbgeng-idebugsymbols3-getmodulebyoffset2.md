@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetModuleByOffset2 (dbgeng.h)
 description: The GetModuleByOffset2 method searches through the process's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset2.htm
 tech.root: debugger
-ms.assetid: 2bb23245-9d5c-4b9d-8f4a-ce5fe552efc2
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleByOffset2"]
 ms.keywords: GetModuleByOffset2, GetModuleByOffset2 method [Windows Debugging], GetModuleByOffset2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByOffset2 method, IDebugSymbols3.GetModuleByOffset2, IDebugSymbols3::GetModuleByOffset2, IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, dbgeng/IDebugSymbols3::GetModuleByOffset2, debugger.getmodulebyoffset2

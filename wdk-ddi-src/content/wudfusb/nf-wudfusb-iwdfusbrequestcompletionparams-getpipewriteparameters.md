@@ -4,7 +4,6 @@ title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters (wudfusb.h)
 description: The GetPipeWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
 tech.root: wdf
-ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.date: 02/26/2018
 keywords: ["IWDFUsbRequestCompletionParams::GetPipeWriteParameters"]
 ms.keywords: GetPipeWriteParameters, GetPipeWriteParameters method, GetPipeWriteParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetPipeWriteParameters method, IWDFUsbRequestCompletionParams.GetPipeWriteParameters, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters

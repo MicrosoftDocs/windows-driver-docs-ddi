@@ -4,7 +4,6 @@ title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU (d3dumddi.h)
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU is used with pfnWaitForSynchronizationObjectFromGpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromgpu.htm
 tech.root: display
-ms.assetid: 2A441CEE-C138-4FF0-8865-04ABFB0F029C
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure"]
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_waitforsynchronizationobjectfromgpu

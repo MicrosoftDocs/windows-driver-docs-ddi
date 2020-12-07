@@ -4,7 +4,6 @@ title: _STORAGE_DESCRIPTOR_HEADER (ntddstor.h)
 description: The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_descriptor_header.htm
 tech.root: storage
-ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.date: 03/29/2018
 keywords: ["STORAGE_DESCRIPTOR_HEADER structure"]
 ms.keywords: PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], _STORAGE_DESCRIPTOR_HEADER, ntddstor/PSTORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml

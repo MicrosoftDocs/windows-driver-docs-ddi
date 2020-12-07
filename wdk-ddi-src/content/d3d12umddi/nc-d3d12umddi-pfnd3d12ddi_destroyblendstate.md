@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYBLENDSTATE
 title: PFND3D12DDI_DESTROYBLENDSTATE (d3d12umddi.h)
 description: Destroys a blend state.
-ms.assetid: eb4b3ebd-be63-41cf-af25-9c58ffe69deb
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_DESTROYBLENDSTATE callback function"]
 req.header: d3d12umddi.h

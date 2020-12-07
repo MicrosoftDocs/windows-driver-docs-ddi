@@ -4,7 +4,6 @@ title: _DXVA_COPPStatusDisplayData (dxva.h)
 description: The DXVA_COPPStatusDisplayData structure describes the display mode of the signal that is transmitted over the connector associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdisplaydata.htm
 tech.root: display
-ms.assetid: 377845f7-772f-4361-8fcb-10c432fa7abf
 ms.date: 05/10/2018
 keywords: ["DXVA_COPPStatusDisplayData structure"]
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], _DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, dxva/DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml

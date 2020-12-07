@@ -4,7 +4,6 @@ title: WdfFdoQueryForInterface function (wdffdo.h)
 description: The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface.
 old-location: wdf\wdffdoqueryforinterface.htm
 tech.root: wdf
-ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.date: 02/26/2018
 keywords: ["WdfFdoQueryForInterface function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface

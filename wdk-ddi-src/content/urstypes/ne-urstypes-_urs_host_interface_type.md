@@ -4,7 +4,6 @@ title: _URS_HOST_INTERFACE_TYPE (urstypes.h)
 description: Defines values for the various types of USB host controllers.
 old-location: buses\urs_host_interface_type.htm
 tech.root: usbref
-ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.date: 05/07/2018
 keywords: ["URS_HOST_INTERFACE_TYPE enumeration"]
 ms.keywords: URS_HOST_INTERFACE_TYPE, URS_HOST_INTERFACE_TYPE enumeration [Buses], UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, UrsHostInterfaceTypeXhci, _URS_HOST_INTERFACE_TYPE, buses.urs_host_interface_type, urstypes/URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci

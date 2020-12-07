@@ -4,7 +4,6 @@ title: IWDFInterrupt::SetPolicy (wudfddi.h)
 description: The SetPolicy method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
 old-location: wdf\iwdfinterrupt_setpolicy.htm
 tech.root: wdf
-ms.assetid: EDBCBB37-41A4-4234-BE8C-4C8739BC287B
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::SetPolicy"]
 ms.keywords: IWDFInterrupt interface,SetPolicy method, IWDFInterrupt.SetPolicy, IWDFInterrupt::SetPolicy, SetPolicy, SetPolicy method, SetPolicy method,IWDFInterrupt interface, umdf.iwdfinterrupt_setpolicy, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy

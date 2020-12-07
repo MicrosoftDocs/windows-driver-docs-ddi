@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USBFN_TRANSFER_OUT (usbfnioctl.h)
 description: The class driver sends this request to initiate a data transfer from the host on the specified pipe.
 old-location: buses\ioctl_internal_usbfn_transfer_out.htm
 tech.root: usbref
-ms.assetid: DDC99C5F-B959-44E4-A4A8-1CBA4E9BDA5A
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT

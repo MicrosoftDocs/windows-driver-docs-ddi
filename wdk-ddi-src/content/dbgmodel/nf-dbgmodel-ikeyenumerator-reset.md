@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IKeyEnumerator.Reset
 title: IKeyEnumerator::Reset (dbgmodel.h)
 description: Resets the enumerator to its initial state.
-ms.assetid: e0015d19-19cc-4ffc-90cd-e4b690847cbb
 ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::Reset"]
 ms.keywords: IKeyEnumerator::Reset, Reset, IKeyEnumerator.Reset, IKeyEnumerator::Reset, IKeyEnumerator.Reset

@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_SHARED_MEM_OFFSET
 title: NET_BUFFER_SHARED_MEM_OFFSET macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_OFFSET macro gets the shared memory offset from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
-ms.assetid: a2656c0b-edea-4f07-be1f-3d80ab369193
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_OFFSET macro"]
 ms.keywords: NET_BUFFER_SHARED_MEM_OFFSET

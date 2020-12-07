@@ -4,7 +4,6 @@ title: RILUICCRECORDSTATUS (ntddrilapitypes.h)
 description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
 tech.root: netvista
-ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.date: 02/16/2018
 keywords: ["RILUICCRECORDSTATUS structure"]
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"

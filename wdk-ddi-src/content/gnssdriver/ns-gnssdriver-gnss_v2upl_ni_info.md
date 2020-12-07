@@ -4,7 +4,6 @@ title: GNSS_V2UPL_NI_INFO (gnssdriver.h)
 description: This structure contains V2UPL NI information.
 old-location: gnss\gnss_v2upl_ni_info.htm
 tech.root: gnss
-ms.assetid: 884C8141-2A15-4BAE-8A5C-73355BD84D53
 ms.date: 02/15/2018
 keywords: ["GNSS_V2UPL_NI_INFO structure"]
 ms.keywords: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO structure [Sensor Devices], PGNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO structure pointer [Sensor Devices], gnss.gnss_v2upl_ni_info, gnssdriver/GNSS_V2UPL_NI_INFO, gnssdriver/PGNSS_V2UPL_NI_INFO"

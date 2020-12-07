@@ -4,7 +4,6 @@ title: IDARG_OUT_GETVERSION
 ms.date: 10/20/2020
 ms.topic: language-reference
 tech.root: display
-ms.assetid: 038cc69c-a8e7-4f09-ad3a-82c6f1f819c7
 targetos: Windows
 description: The IDARG_OUT_GETVERSION structure is used to store the IddCx (Indirect Display Driver Class eXtension) version.
 req.construct-type: structure

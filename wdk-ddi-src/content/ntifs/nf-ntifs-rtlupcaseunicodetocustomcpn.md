@@ -4,7 +4,6 @@ title: RtlUpcaseUnicodeToCustomCPN function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 tech.root: ifsk
-ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeToCustomCPN function"]
 ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml

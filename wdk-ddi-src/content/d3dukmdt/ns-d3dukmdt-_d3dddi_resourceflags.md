@@ -4,7 +4,6 @@ title: _D3DDDI_RESOURCEFLAGS (d3dukmdt.h)
 description: The D3DDDI_RESOURCEFLAGS structure identifies the type of resources to create in a call to the driver's CreateResource function.
 old-location: display\d3dddi_resourceflags.htm
 tech.root: display
-ms.assetid: a466a158-dacf-42cc-b2ad-8af5b2c6c7d5
 ms.date: 05/10/2018
 keywords: ["D3DDDI_RESOURCEFLAGS structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, d3dukmdt/D3DDDI_RESOURCEFLAGS, display.d3dddi_resourceflags

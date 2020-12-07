@@ -4,7 +4,6 @@ title: _IMAGE_POLICY_ENTRY (wdm.h)
 description: This structure is not supported.
 old-location: kernel\_image_policy_entry.htm
 tech.root: kernel
-ms.assetid: ea400bef-5c69-4f75-b96e-aae12292fd5a
 ms.date: 04/30/2018
 keywords: ["IMAGE_POLICY_ENTRY structure"]
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY

@@ -4,7 +4,6 @@ title: WdfUsbTargetPipeFormatRequestForRead function (wdfusb.h)
 description: The WdfUsbTargetPipeFormatRequestForRead method builds a read request for a USB input pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 tech.root: wdf
-ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForRead function"]
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead

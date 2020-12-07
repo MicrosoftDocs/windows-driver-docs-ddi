@@ -4,7 +4,6 @@ title: IPrinterExtensionContext::get_DriverProperties (printerextension.h)
 description: Gets the driver property bag.
 old-location: print\iprinterextensioncontext_driverproperties.htm
 tech.root: print
-ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices],DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext.get_DriverProperties, IPrinterExtensionContext::DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties

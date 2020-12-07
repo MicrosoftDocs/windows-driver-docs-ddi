@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_PROPERTY_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_PARAMETERS structure specifies the parameters for a policy property of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_property_parameters.htm
 tech.root: netvista
-ms.assetid: c5a8f551-36a5-4d49-b521-4ac43ea2fff8
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PROPERTY_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_PARAMETERS, PNDIS_SWITCH_PROPERTY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_PARAMETERS, netvista.ndis_switch_property_parameters, ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_PARAMETERS"

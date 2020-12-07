@@ -4,7 +4,6 @@ title: _FILE_FULL_EA_INFORMATION (wdm.h)
 description: The FILE_FULL_EA_INFORMATION structure provides extended attribute (EA) information. This structure is used primarily by network drivers.
 old-location: kernel\file_full_ea_information.htm
 tech.root: kernel
-ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.date: 04/30/2018
 keywords: ["FILE_FULL_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FULL_EA_INFORMATION, kernel.file_full_ea_information, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, wdm/FILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION"

@@ -4,7 +4,6 @@ title: _PROCESS_MITIGATION_CHILD_PROCESS_POLICY (ntddk.h)
 description: Stores policy information about creating child processes.
 old-location: kernel\process_mitigation_child_process_policy.htm
 tech.root: kernel
-ms.assetid: 8f388c0e-41ee-40e4-b633-687eeff74a0a
 ms.date: 04/30/2018
 keywords: ["PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure"]
 ms.keywords: "*PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_CHILD_PROCESS_POLICY, kernel.process_mitigation_child_process_policy, ntddk/PROCESS_MITIGATION_CHILD_PROCESS_POLICY"

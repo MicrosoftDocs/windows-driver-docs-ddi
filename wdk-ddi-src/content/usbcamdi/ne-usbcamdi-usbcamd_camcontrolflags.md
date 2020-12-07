@@ -2,7 +2,6 @@
 UID: NE:usbcamdi.__unnamed_enum_0
 title: USBCAMD_CamControlFlags (usbcamdi.h)
 description: 
-ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
 ms.date: 11/17/2020
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags,

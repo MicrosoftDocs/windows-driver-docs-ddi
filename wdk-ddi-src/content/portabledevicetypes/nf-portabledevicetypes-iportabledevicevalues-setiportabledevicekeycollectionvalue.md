@@ -4,7 +4,6 @@ title: IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue (portabledevi
 description: Adds a new SetIPortableDeviceKeyCollectionValue value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicekeycollectionvalue.htm
 tech.root: wpd_dk
-ms.assetid: b6a99ac0-3efd-4b58-bd90-3c7d172cd7ea
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue"]
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceKeyCollectionValue method, IPortableDeviceValues.SetIPortableDeviceKeyCollectionValue, IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue, IPortableDeviceValuesSetIPortableDeviceKeyCollectionValue, SetIPortableDeviceKeyCollectionValue, SetIPortableDeviceKeyCollectionValue method, SetIPortableDeviceKeyCollectionValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue, wpddk.iportabledevicevalues_setiportabledevicekeycollectionvalue

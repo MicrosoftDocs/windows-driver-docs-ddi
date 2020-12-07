@@ -4,7 +4,6 @@ title: FsRtlIssueDeviceIoControl function (ntifs.h)
 description: The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object.
 old-location: ifsk\fsrtlissuedeviceiocontrol.htm
 tech.root: ifsk
-ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.date: 04/16/2018
 keywords: ["FsRtlIssueDeviceIoControl function"]
 ms.keywords: FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl

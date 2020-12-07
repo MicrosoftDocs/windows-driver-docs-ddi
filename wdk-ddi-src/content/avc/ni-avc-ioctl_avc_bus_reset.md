@@ -4,7 +4,6 @@ title: IOCTL_AVC_BUS_RESET (avc.h)
 description: The IOCTL_AVC_BUS_RESET I/O control code allows the caller to complete any previous IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO and IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control requests that did not use the AVC_SUBUNIT_ADDR_TRIGGERBUSRESET flag.
 old-location: stream\ioctl_avc_bus_reset.htm
 tech.root: stream
-ms.assetid: 8f87ee5f-74bb-446f-8be3-214cc2c01c1b
 ms.date: 04/23/2018
 keywords: ["IOCTL_AVC_BUS_RESET IOCTL"]
 ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset

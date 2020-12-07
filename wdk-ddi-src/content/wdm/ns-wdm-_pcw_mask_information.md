@@ -4,7 +4,6 @@ title: _PCW_MASK_INFORMATION (wdm.h)
 description: The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the Info parameter to the PcwCallback function. This mask information is included in PCW_CALLBACK_INFORMATION.
 old-location: devtest\pcw_mask_information.htm
 tech.root: devtest
-ms.assetid: 5519aec9-9a02-4571-8809-fa8273269ea5
 ms.date: 07/28/2020
 keywords: ["PCW_MASK_INFORMATION structure"]
 ms.keywords: "*PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION, PCW_MASK_INFORMATION structure [Driver Development Tools], PPCW_MASK_INFORMATION, PPCW_MASK_INFORMATION structure pointer [Driver Development Tools], _PCW_MASK_INFORMATION, devtest.pcw_mask_information, km_pcw_44887cd4-4c18-4c6e-9168-5e89f37e970a.xml, wdm/PCW_MASK_INFORMATION, wdm/PPCW_MASK_INFORMATION"

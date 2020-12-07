@@ -4,7 +4,6 @@ title: ExAcquireResourceExclusiveLite function (wdm.h)
 description: The ExAcquireResourceExclusiveLite routine acquires the given resource for exclusive access by the calling thread.
 old-location: kernel\exacquireresourceexclusivelite.htm
 tech.root: kernel
-ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
 ms.date: 04/30/2018
 keywords: ["ExAcquireResourceExclusiveLite function"]
 ms.keywords: ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], k102_894dbc3c-af92-4916-8205-539062946dbe.xml, kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite

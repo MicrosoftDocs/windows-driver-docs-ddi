@@ -4,7 +4,6 @@ title: KeRegisterBugCheckReasonCallback function (wdm.h)
 description: The KeRegisterBugCheckReasonCallback routine registers a KbCallbackDumpIo, KbCallbackSecondaryDumpData, or KbCallbackAddPages routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
-ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
 ms.date: 05/03/2018
 keywords: ["KeRegisterBugCheckReasonCallback function"]
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback

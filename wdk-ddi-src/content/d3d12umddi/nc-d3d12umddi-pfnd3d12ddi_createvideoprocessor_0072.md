@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOPROCESSOR_0072
 title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0072 (d3d12umddi.h)
 description: Used to create a video processor.
-ms.assetid: e276c837-8472-4975-afb5-35a5cbcae32a
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CREATEVIDEOPROCESSOR_0072 callback function"]
 req.header: d3d12umddi.h

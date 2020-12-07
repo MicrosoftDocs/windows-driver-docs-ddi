@@ -4,7 +4,6 @@ title: NDK_FN_REQUEST_COMPLETION (ndkpi.h)
 description: The NdkRequestCompletion (NDK_FN_REQUEST_COMPLETION) function completes a pending NDK request.
 old-location: netvista\ndk_fn_request_completion.htm
 tech.root: netvista
-ms.assetid: EB507DE2-354C-41D2-9BEE-091C4AE299EC
 ms.date: 05/02/2018
 keywords: ["NDK_FN_REQUEST_COMPLETION callback function"]
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NDK_FN_REQUEST_COMPLETION callback, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion

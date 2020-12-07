@@ -4,7 +4,6 @@ title: IDebugRegisters2::GetIndexByName (dbgeng.h)
 description: The GetIndexByName method returns the index of the named register.
 old-location: debugger\getindexbyname.htm
 tech.root: debugger
-ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetIndexByName"]
 ms.keywords: GetIndexByName, GetIndexByName method [Windows Debugging], GetIndexByName method [Windows Debugging],IDebugRegisters interface, GetIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetIndexByName method, IDebugRegisters2 interface [Windows Debugging],GetIndexByName method, IDebugRegisters2.GetIndexByName, IDebugRegisters2::GetIndexByName, IDebugRegisters::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters2::GetIndexByName, dbgeng/IDebugRegisters::GetIndexByName, debugger.getindexbyname

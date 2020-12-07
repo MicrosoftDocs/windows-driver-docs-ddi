@@ -4,7 +4,6 @@ title: RtlIntPtrToShort function (ntintsafe.h)
 description: Converts a value of type INT_PTR to a value of type SHORT.
 old-location: kernel\rtlintptrtoshort.htm
 tech.root: kernel
-ms.assetid: 658F4C4E-D8E4-4624-BDF1-314A5B15CF67
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrToShort function"]
 ms.keywords: RtlIntPtrToShort, RtlIntPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoshort, ntintsafe/RtlIntPtrToShort

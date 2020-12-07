@@ -4,7 +4,6 @@ title: _TUPLE_REQUEST (ntddpcm.h)
 description: The TUPLE_REQUEST structure is used in conjunction with the IOCTL_GET_TUPLE_DATA request to retrieve tuple data from a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\tuple_request.htm
 tech.root: PCMCIA
-ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.date: 02/15/2018
 keywords: ["TUPLE_REQUEST structure"]
 ms.keywords: "*PTUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], TUPLE_REQUEST, TUPLE_REQUEST structure [Buses], _TUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, ntddpcm/PTUPLE_REQUEST, ntddpcm/TUPLE_REQUEST"

@@ -4,7 +4,6 @@ title: IDebugControl4::GetEventFilterTextWide (dbgeng.h)
 description: The GetEventFilterTextWide method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertextwide.htm
 tech.root: debugger
-ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetEventFilterTextWide"]
 ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide

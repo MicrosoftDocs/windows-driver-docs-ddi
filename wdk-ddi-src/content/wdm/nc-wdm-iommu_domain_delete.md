@@ -3,7 +3,6 @@ UID: NC:wdm.IOMMU_DOMAIN_DELETE
 title: IOMMU_DOMAIN_DELETE (wdm.h)
 description: Deletes an existing domain.
 tech.root: kernel
-ms.assetid: 9fa16237-16ff-4318-84dd-53a57f1a636f
 ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_DELETE callback function"]
 req.header: wdm.h

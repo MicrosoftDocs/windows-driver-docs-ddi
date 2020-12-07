@@ -4,7 +4,6 @@ title: NdisFIndicateReceiveNetBufferLists function (ndis.h)
 description: A filter driver calls NdisFIndicateReceiveNetBufferLists to indicate that it has received network data. For more information, see Receiving Data in a Filter Driver.
 old-location: netvista\ndisfindicatereceivenetbufferlists.htm
 tech.root: netvista
-ms.assetid: ff2457bb-158a-411c-8c6b-7a7e402497ef
 ms.date: 05/02/2018
 keywords: ["NdisFIndicateReceiveNetBufferLists function"]
 ms.keywords: NdisFIndicateReceiveNetBufferLists, NdisFIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_b3c09e67-4d25-4e8f-89e2-d227cf0f10b8.xml, ndis/NdisFIndicateReceiveNetBufferLists, netvista.ndisfindicatereceivenetbufferlists

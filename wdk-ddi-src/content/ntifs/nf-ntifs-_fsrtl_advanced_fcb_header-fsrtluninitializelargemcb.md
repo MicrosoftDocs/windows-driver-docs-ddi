@@ -4,7 +4,6 @@ title: FsRtlUninitializeLargeMcb function (ntifs.h)
 description: The FsRtlUninitializeLargeMcb routine uninitializes a large map-control block (MCB).
 old-location: ifsk\fsrtluninitializelargemcb.htm
 tech.root: ifsk
-ms.assetid: 684a60e5-f8c4-4ab4-bf55-e50469a67265
 ms.date: 04/16/2018
 keywords: ["FsRtlUninitializeLargeMcb function"]
 ms.keywords: FsRtlUninitializeLargeMcb, FsRtlUninitializeLargeMcb routine [Installable File System Drivers], fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, ifsk.fsrtluninitializelargemcb, ntifs/FsRtlUninitializeLargeMcb

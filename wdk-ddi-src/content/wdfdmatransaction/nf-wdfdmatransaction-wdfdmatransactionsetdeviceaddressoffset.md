@@ -4,7 +4,6 @@ title: WdfDmaTransactionSetDeviceAddressOffset function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetDeviceAddressOffset method specifies the offset of the register that the system DMA controller will access when performing the DMA operation.
 old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
 tech.root: wdf
-ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetDeviceAddressOffset function"]
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset

@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK
 title: _DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK
 description: Arguments used to read virtual function config block.
 tech.root: display
-ms.assetid: 0b5a0ae9-7b8d-436d-a5b2-17a3daea4bec
 ms.date: 04/04/2019
 keywords: ["DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure"]
 ms.prod: windows-hardware

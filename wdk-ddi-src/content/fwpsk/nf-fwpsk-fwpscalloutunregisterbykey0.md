@@ -4,7 +4,6 @@ title: FwpsCalloutUnregisterByKey0 function (fwpsk.h)
 description: The FwpsCalloutUnregisterByKey0 function unregisters a callout from the filter engine.Note  FwpsCalloutUnregisterByKey0 is a specific version of FwpsCalloutUnregisterByKey.
 old-location: netvista\fwpscalloutunregisterbykey0.htm
 tech.root: netvista
-ms.assetid: 24254e56-c7f5-4424-98b5-3b99bf210d5b
 ms.date: 05/02/2018
 keywords: ["FwpsCalloutUnregisterByKey0 function"]
 ms.keywords: FwpsCalloutUnregisterByKey0, FwpsCalloutUnregisterByKey0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterByKey0, netvista.fwpscalloutunregisterbykey0, wfp_ref_2_funct_3_fwps_C_e5a98dbf-23ee-4383-96d5-d8ce8a85614e.xml

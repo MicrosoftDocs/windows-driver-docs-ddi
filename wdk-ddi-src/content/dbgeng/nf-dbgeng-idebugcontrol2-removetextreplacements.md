@@ -4,7 +4,6 @@ title: IDebugControl2::RemoveTextReplacements (dbgeng.h)
 description: The RemoveTextReplacements method removes all user-named aliases.
 old-location: debugger\removetextreplacements.htm
 tech.root: debugger
-ms.assetid: f753542a-c9e6-423f-80e4-c7e2e0f36a04
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::RemoveTextReplacements"]
 ms.keywords: IDebugControl2 interface [Windows Debugging],RemoveTextReplacements method, IDebugControl2.RemoveTextReplacements, IDebugControl2::RemoveTextReplacements, IDebugControl3 interface [Windows Debugging],RemoveTextReplacements method, IDebugControl3::RemoveTextReplacements, IDebugControl_ba950bc7-3ed5-4e2e-913d-c743e1190482.xml, RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], RemoveTextReplacements method [Windows Debugging],IDebugControl2 interface, RemoveTextReplacements method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveTextReplacements, dbgeng/IDebugControl3::RemoveTextReplacements, debugger.removetextreplacements

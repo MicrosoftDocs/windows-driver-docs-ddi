@@ -4,7 +4,6 @@ title: WdfDmaEnablerConfigureSystemProfile function (wdfdmaenabler.h)
 description: The WdfDmaEnablerConfigureSystemProfile method configures the hardware-specific settings for a system-mode DMA enabler and completes the resource initialization.
 old-location: wdf\wdfdmaenablerconfiguresystemprofile.htm
 tech.root: wdf
-ms.assetid: 3374EBB8-F43A-4A2A-92AC-623B39F5EFA0
 ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerConfigureSystemProfile function"]
 ms.keywords: WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, kmdf.wdfdmaenablerconfiguresystemprofile, wdf.wdfdmaenablerconfiguresystemprofile, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile

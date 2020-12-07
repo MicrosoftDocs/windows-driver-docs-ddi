@@ -4,7 +4,6 @@ title: IPrintCorePS2::GetFeatureAttribute (prcomoem.h)
 description: The IPrintCorePS2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreps2_getfeatureattribute.htm
 tech.root: print
-ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.date: 04/20/2018
 keywords: ["IPrintCorePS2::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetFeatureAttribute method, IPrintCorePS2.GetFeatureAttribute, IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml

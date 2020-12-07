@@ -4,7 +4,6 @@ title: _NDIS_WWAN_NETWORK_IDLE_HINT (ndiswwan.h)
 description: The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 old-location: netvista\ndis_wwan_network_idle_hint.htm
 tech.root: netvista
-ms.assetid: 81CA12B7-A7AD-494A-B79A-3EF4A50CB848
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_NETWORK_IDLE_HINT structure"]
 ms.keywords: "*PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_NETWORK_IDLE_HINT, PNDIS_WWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT, netvista.ndis_wwan_network_idle_hint"

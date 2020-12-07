@@ -4,7 +4,6 @@ title: PEPCALLBACKPOWERONCRASHDUMPDEVICE (pepfx.h)
 description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
 tech.root: kernel
-ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.date: 04/30/2018
 keywords: ["PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function"]
 ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback

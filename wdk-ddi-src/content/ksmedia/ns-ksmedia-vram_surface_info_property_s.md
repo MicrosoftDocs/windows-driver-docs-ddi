@@ -4,7 +4,6 @@ title: VRAM_SURFACE_INFO_PROPERTY_S (ksmedia.h)
 description: The VRAM_SURFACE_INFO_PROPERTY_S structure describes property items in the KSPROPSETID_VramCapture property set.
 old-location: stream\vram_surface_info_property_s.htm
 tech.root: stream
-ms.assetid: 9bb24ca3-2684-4873-8136-c560f3374310
 ms.date: 04/30/2019
 keywords: ["VRAM_SURFACE_INFO_PROPERTY_S structure"]
 ms.keywords: "*PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S structure pointer [Streaming Media Devices], VRAM_SURFACE_INFO_PROPERTY_S, VRAM_SURFACE_INFO_PROPERTY_S structure [Streaming Media Devices], avstruct_f0149912-f7c6-4cf5-bc5e-107c03c7823f.xml, ksmedia/PVRAM_SURFACE_INFO_PROPERTY_S, ksmedia/VRAM_SURFACE_INFO_PROPERTY_S, stream.vram_surface_info_property_s"

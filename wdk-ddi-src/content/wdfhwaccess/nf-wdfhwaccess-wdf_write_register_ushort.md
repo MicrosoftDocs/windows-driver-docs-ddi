@@ -4,7 +4,6 @@ title: WDF_WRITE_REGISTER_USHORT function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: wdf\wdf_write_register_ushort.htm
 tech.root: wdf
-ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_USHORT function"]
 ms.keywords: WDF_WRITE_REGISTER_USHORT, WDF_WRITE_REGISTER_USHORT function, wdf.wdf_write_register_ushort, wdfhwaccess/WDF_WRITE_REGISTER_USHORT

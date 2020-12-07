@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGK_DEVICE_TYPE_CAPS
 title: _DXGK_DEVICE_TYPE_CAPS (d3dkmddi.h)
 description: Describes the type of capabilities for a device.
-ms.assetid: bd78861e-f922-4c3b-bb8d-c605c1ac1c67
 ms.date: 10/19/2018
 keywords: ["DXGK_DEVICE_TYPE_CAPS structure"]
 ms.keywords: _DXGK_DEVICE_TYPE_CAPS, DXGK_DEVICE_TYPE_CAPS,

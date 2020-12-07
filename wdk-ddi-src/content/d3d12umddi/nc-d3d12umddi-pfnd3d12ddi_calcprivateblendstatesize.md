@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE
 title: PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE (d3d12umddi.h)
 description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a blend state.
 tech.root: display
-ms.assetid: 9bae8daf-8162-42cf-8087-6ace5f910cbd
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE callback function"]
 ms.prod: windows-hardware

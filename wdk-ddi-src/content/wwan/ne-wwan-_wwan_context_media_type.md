@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_CONTEXT_MEDIA_TYPE
 title: _WWAN_CONTEXT_MEDIA_TYPE (wwan.h)
 description: The WWAN_CONTEXT_MEDIA_TYPE enumeration specifies the type of media supported for a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
-ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
 ms.date: 08/22/2018
 keywords: ["WWAN_CONTEXT_MEDIA_TYPE enumeration"]
 ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE,

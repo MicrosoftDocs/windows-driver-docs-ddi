@@ -4,7 +4,6 @@ title: PartialReplyPrinterChangeNotification function (winsplp.h)
 description: The print spooler's PartialReplyPrinterChangeNotification function allows a print provider to update the spooler's database of printer changes associated with a notification handle.
 old-location: print\partialreplyprinterchangenotification.htm
 tech.root: print
-ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.date: 04/20/2018
 keywords: ["PartialReplyPrinterChangeNotification function"]
 ms.keywords: PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, winsplp/PartialReplyPrinterChangeNotification

@@ -4,7 +4,6 @@ title: IDebugSymbols4::SetScopeEx (dbgeng.h)
 description: Sets the scope as an extended frame structure.
 old-location: debugger\idebugsymbols4_setscopeex.htm
 tech.root: debugger
-ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4::SetScopeEx"]
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],SetScopeEx method, IDebugSymbols4.SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx, SetScopeEx method [Windows Debugging], SetScopeEx method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::SetScopeEx, debugger.idebugsymbols4_setscopeex

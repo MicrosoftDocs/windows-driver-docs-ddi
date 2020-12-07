@@ -4,7 +4,6 @@ title: PsIsSystemThread function (ntifs.h)
 description: The PsIsSystemThread routine checks whether a given thread is a system thread.
 old-location: kernel\psissystemthread.htm
 tech.root: kernel
-ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.date: 04/30/2018
 keywords: ["PsIsSystemThread function"]
 ms.keywords: PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread

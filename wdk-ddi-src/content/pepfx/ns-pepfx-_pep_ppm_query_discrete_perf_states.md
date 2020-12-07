@@ -4,7 +4,6 @@ title: _PEP_PPM_QUERY_DISCRETE_PERF_STATES (pepfx.h)
 description: Used in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES notification that stores the list of discrete performance states that PEP supports, if the PEP_NOTIFY_PPM_QUERY_CAPABILITIES notification indicates support for discrete performance states. .
 old-location: kernel\pep_ppm_query_discrete_perf_states.htm
 tech.root: kernel
-ms.assetid: 506b3d8e-4aba-4e70-a6db-52a52d717c6b
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_DISCRETE_PERF_STATES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PPEP_PPM_QUERY_DISCRETE_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DISCRETE_PERF_STATES, kernel.pep_ppm_query_discrete_perf_states, pepfx/PEP_PPM_QUERY_DISCRETE_PERF_STATES, pepfx/PPEP_PPM_QUERY_DISCRETE_PERF_STATES"

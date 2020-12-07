@@ -4,7 +4,6 @@ title: IWDFFile::RetrieveFileName (wudfddi.h)
 description: The RetrieveFileName method retrieves the full name of the file that is associated with the underlying kernel-mode device.
 old-location: wdf\iwdffile_retrievefilename.htm
 tech.root: wdf
-ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.date: 02/26/2018
 keywords: ["IWDFFile::RetrieveFileName"]
 ms.keywords: IWDFFile interface,RetrieveFileName method, IWDFFile.RetrieveFileName, IWDFFile::RetrieveFileName, RetrieveFileName, RetrieveFileName method, RetrieveFileName method,IWDFFile interface, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, umdf.iwdffile_retrievefilename, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName

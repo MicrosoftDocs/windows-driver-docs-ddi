@@ -3,7 +3,6 @@ UID: NF:netpoweroffload.NetPowerOffloadGetArpParameters
 title: NetPowerOffloadGetArpParameters function (netpoweroffload.h)
 description: The NetPowerOffloadGetArpParameters function gets parameters for an IPv4 ARP low power protocol offload to a net adapter.
 tech.root: netvista
-ms.assetid: 5fe9b65f-29b2-494c-be8e-569a5b1e28fc
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetArpParameters function"]
 ms.keywords: NetPowerOffloadGetArpParameters

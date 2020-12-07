@@ -4,7 +4,6 @@ title: NdisCmRegisterAddressFamilyEx function (ndis.h)
 description: The NdisCmRegisterAddressFamilyEx function registers an address family (AF) for communication between CoNDIS drivers.
 old-location: netvista\ndiscmregisteraddressfamilyex.htm
 tech.root: netvista
-ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.date: 05/02/2018
 keywords: ["NdisCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex

@@ -4,7 +4,6 @@ title: _DXVAHDDDI_COLOR (d3dumddi.h)
 description: The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.
 old-location: display\dxvahdddi_color.htm
 tech.root: display
-ms.assetid: ac1a2fae-29f1-4143-9d43-b10db300de03
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_COLOR structure"]
 ms.keywords: DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, DXVAHDDDI_COLOR, DXVAHDDDI_COLOR union [Display Devices], _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR, display.dxvahdddi_color

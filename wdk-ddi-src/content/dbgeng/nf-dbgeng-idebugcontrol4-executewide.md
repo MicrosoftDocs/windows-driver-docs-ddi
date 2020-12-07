@@ -4,7 +4,6 @@ title: IDebugControl4::ExecuteWide (dbgeng.h)
 description: The ExecuteWide method executes the specified debugger commands.
 old-location: debugger\executewide.htm
 tech.root: debugger
-ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::ExecuteWide"]
 ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteWide method, IDebugControl4.ExecuteWide, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide

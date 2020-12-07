@@ -4,7 +4,6 @@ title: KeRegisterNmiCallback function (wdm.h)
 description: The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
 old-location: kernel\keregisternmicallback.htm
 tech.root: kernel
-ms.assetid: 46e666a6-be4c-40fb-b9e1-00ced9fb4d05
 ms.date: 04/30/2018
 keywords: ["KeRegisterNmiCallback function"]
 ms.keywords: KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, kernel.keregisternmicallback, wdm/KeRegisterNmiCallback

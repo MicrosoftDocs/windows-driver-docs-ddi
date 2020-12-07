@@ -4,7 +4,6 @@ title: RtlUIntMult function (ntintsafe.h)
 description: Multiplies one value of type UINT by another.
 old-location: kernel\rtluintmult.htm
 tech.root: kernel
-ms.assetid: 9972BC53-3CFB-4649-9C54-B194039D804F
 ms.date: 04/30/2018
 keywords: ["RtlUIntMult function"]
 ms.keywords: RtlUIntMult, RtlUIntMult function [Kernel-Mode Driver Architecture], kernel.rtluintmult, ntintsafe/RtlUIntMult

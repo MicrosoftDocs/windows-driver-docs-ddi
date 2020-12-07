@@ -4,7 +4,6 @@ title: RtlRealSuccessor function (ntddk.h)
 description: The RtlRealSuccessor routine returns a pointer to the successor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealsuccessor.htm
 tech.root: ifsk
-ms.assetid: 19180ab8-7ac6-45cb-8f17-b16368bbb32b
 ms.date: 04/16/2018
 keywords: ["RtlRealSuccessor function"]
 ms.keywords: RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], ifsk.rtlrealsuccessor, ntddk/RtlRealSuccessor, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml

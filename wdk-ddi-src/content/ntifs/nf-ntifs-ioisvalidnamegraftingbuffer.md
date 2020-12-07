@@ -4,7 +4,6 @@ title: IoIsValidNameGraftingBuffer function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ioisvalidnamegraftingbuffer.htm
 tech.root: ifsk
-ms.assetid: 9680724b-15fb-4d46-9fd1-175fa1b71c73
 ms.date: 04/16/2018
 keywords: ["IoIsValidNameGraftingBuffer function"]
 ms.keywords: IoIsValidNameGraftingBuffer, IoIsValidNameGraftingBuffer function [Installable File System Drivers], ifsk.ioisvalidnamegraftingbuffer, ioref_10a2f83c-101f-47b3-beca-c708a0749d4d.xml, ntifs/IoIsValidNameGraftingBuffer

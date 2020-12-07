@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_GETMULTIPLANEOVERLAYCAPS
 title: _DXGKARG_GETMULTIPLANEOVERLAYCAPS (d3dkmddi.h)
 description: Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgkarg_getmultiplaneoverlaycaps.htm
-ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.date: 05/10/2018
 keywords: ["DXGKARG_GETMULTIPLANEOVERLAYCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"

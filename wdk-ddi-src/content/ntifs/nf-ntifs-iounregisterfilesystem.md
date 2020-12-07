@@ -4,7 +4,6 @@ title: IoUnregisterFileSystem function (ntifs.h)
 description: The IoUnregisterFileSystem routine removes a file system's control device object from the global file system queue.
 old-location: ifsk\iounregisterfilesystem.htm
 tech.root: ifsk
-ms.assetid: f6a0bff7-85b6-479a-b952-9a3a637e339e
 ms.date: 04/16/2018
 keywords: ["IoUnregisterFileSystem function"]
 ms.keywords: IoUnregisterFileSystem, IoUnregisterFileSystem routine [Installable File System Drivers], ifsk.iounregisterfilesystem, ioref_8799f64d-023b-4a67-8761-0899951596ad.xml, ntifs/IoUnregisterFileSystem

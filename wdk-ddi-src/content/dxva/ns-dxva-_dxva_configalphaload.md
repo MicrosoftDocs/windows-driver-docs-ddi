@@ -4,7 +4,6 @@ title: _DXVA_ConfigAlphaLoad (dxva.h)
 description: The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
 old-location: display\dxva_configalphaload.htm
 tech.root: display
-ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.date: 05/10/2018
 keywords: ["DXVA_ConfigAlphaLoad structure"]
 ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"

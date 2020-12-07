@@ -4,7 +4,6 @@ title: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB (d3dumddi.h)
 description: The pfnUpdateAllocationPropertyCb functions updates the property of an allocation without creating a new allocation.
 old-location: display\pfnupdateallocationpropertycb.htm
 tech.root: display
-ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback function"]
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]

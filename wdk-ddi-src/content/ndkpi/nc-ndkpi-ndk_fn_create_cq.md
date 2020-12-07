@@ -4,7 +4,6 @@ title: NDK_FN_CREATE_CQ (ndkpi.h)
 description: The NdkCreateCq (NDK_FN_CREATE_CQ) function creates an NDK completion queue (CQ) object.
 old-location: netvista\ndk_fn_create_cq.htm
 tech.root: netvista
-ms.assetid: 25F820D4-04AF-488E-BBDA-1E9D82B7483E
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_CQ callback function"]
 ms.keywords: NDK_FN_CREATE_CQ, NDK_FN_CREATE_CQ callback, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq

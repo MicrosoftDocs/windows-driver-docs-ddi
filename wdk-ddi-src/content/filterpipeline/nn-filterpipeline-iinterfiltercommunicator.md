@@ -4,7 +4,6 @@ title: IInterFilterCommunicator (filterpipeline.h)
 description: The IInterFilterCommunicator interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface.
 old-location: print\iinterfiltercommunicator.htm
 tech.root: print
-ms.assetid: 777da1db-5522-48fc-bf35-8e6bf9203d6a
 ms.date: 04/20/2018
 keywords: ["IInterFilterCommunicator interface"]
 ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices],described, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml, print.iinterfiltercommunicator

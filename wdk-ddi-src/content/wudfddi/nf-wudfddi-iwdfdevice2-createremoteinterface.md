@@ -4,7 +4,6 @@ title: IWDFDevice2::CreateRemoteInterface (wudfddi.h)
 description: The CreateRemoteInterface method creates a remote interface object that represents a device interface.
 old-location: wdf\iwdfdevice2_createremoteinterface.htm
 tech.root: wdf
-ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::CreateRemoteInterface"]
 ms.keywords: CreateRemoteInterface, CreateRemoteInterface method, CreateRemoteInterface method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteInterface method, IWDFDevice2.CreateRemoteInterface, IWDFDevice2::CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface

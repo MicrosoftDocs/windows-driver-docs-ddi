@@ -3,7 +3,6 @@ UID: NF:storport.StorPortFreeDmaMemory
 title: StorPortFreeDmaMemory function (storport.h)
 description: This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 tech.root: storage
-ms.assetid: c32b4578-c75b-45ec-82f7-ff8081346aa8
 ms.date: 10/19/2018
 keywords: ["StorPortFreeDmaMemory function"]
 ms.keywords: StorPortFreeDmaMemory

@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject
 title: D3DKMTWaitForSynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTWaitForSynchronizationObject function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject.htm
-ms.assetid: 6b622b61-ec39-4ffb-b744-2b33ac560af6
 ms.date: 05/10/2018
 keywords: ["D3DKMTWaitForSynchronizationObject function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject, D3DKMTWaitForSynchronizationObject function [Display Devices], OpenGL_Functions_bdec46cd-1e3b-427f-8c65-df2d31171bc5.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject, display.d3dkmtwaitforsynchronizationobject

@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL
 title: PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL (d3d10umddi.h)
 description: Creates an authenticated channel object. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\createauthenticatedchannel1.htm
-ms.assetid: 90b43bc3-6569-4799-8be3-e4e60f59164f
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL callback function"]
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL callback, d3d10umddi/CreateAuthenticatedChannel, display.createauthenticatedchannel1

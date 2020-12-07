@@ -4,7 +4,6 @@ title: WDF_TYPE_NAME_POINTER_TYPE macro (wdfobject.h)
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_pointer_type.htm
 tech.root: wdf
-ms.assetid: 71e219ff-3ed7-4eb1-bcd7-749b947a9aef
 ms.date: 02/26/2018
 keywords: ["WDF_TYPE_NAME_POINTER_TYPE macro"]
 ms.keywords: DFGenObjectRef_07b4c582-4483-4faa-862c-4b92d075289d.xml, WDF_TYPE_NAME_POINTER_TYPE, WDF_TYPE_NAME_POINTER_TYPE macro, kmdf.wdf_type_name_pointer_type, wdf.wdf_type_name_pointer_type, wdfobject/WDF_TYPE_NAME_POINTER_TYPE

@@ -4,7 +4,6 @@ title: NdisCmActivateVc function (ndis.h)
 description: NdisCmActivateVc passes CM-supplied call parameters, including media parameters, for a particular VC down to the underlying miniport driver.
 old-location: netvista\ndiscmactivatevc.htm
 tech.root: netvista
-ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.date: 05/02/2018
 keywords: ["NdisCmActivateVc function"]
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc

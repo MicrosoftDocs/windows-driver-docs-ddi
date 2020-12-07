@@ -4,7 +4,6 @@ title: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE (d3dumddi.h)
 description: The SetVideoProcessStreamState function sets the stream state for a video processor.
 old-location: display\setvideoprocessstreamstate.htm
 tech.root: display
-ms.assetid: b48fbe58-056a-4c3b-8e1e-c65515c21ee4
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback function"]
 ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback, SetVideoProcessStreamState, SetVideoProcessStreamState callback function [Display Devices], UserModeDisplayDriver_Functions_3860b09d-ba06-4b9e-bf6d-65e7b90135fd.xml, d3dumddi/SetVideoProcessStreamState, display.setvideoprocessstreamstate

@@ -4,7 +4,6 @@ title: ClfsMgmtInstallPolicy function (wdm.h)
 description: The ClfsMgmtInstallPolicy routine adds a CLFS_MGMT_POLICY structure to a physical log.
 old-location: kernel\clfsmgmtinstallpolicy.htm
 tech.root: kernel
-ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtInstallPolicy function"]
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy

@@ -4,7 +4,6 @@ title: KeInsertQueue function (ntifs.h)
 description: The KeInsertQueue routine inserts an entry at the tail of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertqueue.htm
 tech.root: ifsk
-ms.assetid: 0aee6102-e9e3-41dc-a222-36bebb3d4294
 ms.date: 04/16/2018
 keywords: ["KeInsertQueue function"]
 ms.keywords: KeInsertQueue, KeInsertQueue routine [Installable File System Drivers], ifsk.keinsertqueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, ntifs/KeInsertQueue

@@ -4,7 +4,6 @@ title: _VIDEO_POINTER_CAPABILITIES (ntddvdeo.h)
 description: Contains capabilities of the screen pointer.
 old-location: display\video_pointer_capabilities.htm
 tech.root: display
-ms.assetid: bc5f98da-1e2e-421b-9c76-97359e51b526
 ms.date: 05/10/2018
 keywords: ["VIDEO_POINTER_CAPABILITIES structure"]
 ms.keywords: "*PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, _VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES"

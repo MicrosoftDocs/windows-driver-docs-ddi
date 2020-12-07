@@ -4,7 +4,6 @@ title: GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS (gpioclx.h)
 description: The CLIENT_ClearActiveInterrupts event callback function clears active interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_clearactiveinterrupts.htm
 tech.root: GPIO
-ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback function"]
 ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts

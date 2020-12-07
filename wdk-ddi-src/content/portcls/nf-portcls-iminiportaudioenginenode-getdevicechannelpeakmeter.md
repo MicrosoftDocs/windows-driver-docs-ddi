@@ -4,7 +4,6 @@ title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter (portcls.h)
 description: Gets the PeakMeter value for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelpeakmeter.htm
 tech.root: audio
-ms.assetid: 31F291ED-0B04-4CDF-A83B-7CF3717EC234
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioEngineNode::GetDeviceChannelPeakMeter"]
 ms.keywords: GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode.GetDeviceChannelPeakMeter, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter

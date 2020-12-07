@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_RS_SET_SHADING_RATE_0062
 title: PFND3D12DDI_RS_SET_SHADING_RATE_0062
 description: Sets the command-level shading rate and combiners.
 tech.root: display
-ms.assetid: 4bae80db-d024-4820-a82b-3b06730e5426
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_RS_SET_SHADING_RATE_0062 callback function"]
 req.header: d3d12umddi.h

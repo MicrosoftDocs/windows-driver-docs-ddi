@@ -4,7 +4,6 @@ title: UMDEtwRegister function (umdprovider.h)
 description: Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 old-location: display\umdetwregister.htm
 tech.root: display
-ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.date: 05/10/2018
 keywords: ["UMDEtwRegister function"]
 ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister

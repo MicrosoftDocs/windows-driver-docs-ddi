@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 title: PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function receives notifications from a graphics framework (such as OpenGL).
-ms.assetid: 687701f6-6188-4b9c-8011-51f2d9d1ebf5
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function"]
 req.header: d3dkmthk.h

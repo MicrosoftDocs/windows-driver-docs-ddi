@@ -4,7 +4,6 @@ title: _CMP_DELETE_PLUG (61883.h)
 description: This structure is used to delete a plug.Av61883_CreatePlug.
 old-location: ieee\cmp_delete_plug.htm
 tech.root: IEEE
-ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.date: 02/15/2018
 keywords: ["CMP_DELETE_PLUG structure"]
 ms.keywords: "*PCMP_DELETE_PLUG, 61883/CMP_DELETE_PLUG, 61883/PCMP_DELETE_PLUG, CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], IEEE.cmp_delete_plug, PCMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], _CMP_DELETE_PLUG"

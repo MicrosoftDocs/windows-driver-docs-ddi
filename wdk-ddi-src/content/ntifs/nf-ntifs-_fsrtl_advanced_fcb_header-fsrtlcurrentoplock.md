@@ -4,7 +4,6 @@ title: FsRtlCurrentOplock function (ntifs.h)
 description: A file system or filter driver calls FsRtlCurrentOplock to determine whether there are any opportunistic locks (oplocks) on a file.
 old-location: ifsk\fsrtlcurrentoplock.htm
 tech.root: ifsk
-ms.assetid: b7cf8765-6f24-4b65-9171-6bfad7214013
 ms.date: 04/16/2018
 keywords: ["FsRtlCurrentOplock function"]
 ms.keywords: FsRtlCurrentOplock, FsRtlCurrentOplock function [Installable File System Drivers], fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, ifsk.fsrtlcurrentoplock, ntifs/FsRtlCurrentOplock

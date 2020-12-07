@@ -4,7 +4,6 @@ title: _MsrDataEncryption (pointofservicedriverinterface.h)
 description: This enumeration defines the kind of encryption algorithm supported by the magnetic stripe reader (MSR).
 old-location: pos\msrdataencryption.htm
 tech.root: pos
-ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.date: 02/23/2018
 keywords: ["MsrDataEncryption enumeration"]
 ms.keywords: MsrDataEncryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, pos.msrdataencryption

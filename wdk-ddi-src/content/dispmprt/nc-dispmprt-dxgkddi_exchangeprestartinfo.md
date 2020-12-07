@@ -4,7 +4,6 @@ title: DXGKDDI_EXCHANGEPRESTARTINFO (dispmprt.h)
 description: Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 old-location: display\dxgkddi_exchangeprestartinfo.htm
 tech.root: display
-ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.date: 04/16/2018
 keywords: ["DXGKDDI_EXCHANGEPRESTARTINFO callback function"]
 ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO

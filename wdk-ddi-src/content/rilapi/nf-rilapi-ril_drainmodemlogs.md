@@ -4,7 +4,6 @@ title: RIL_DrainModemLogs function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_drainmodemlogs.htm
 tech.root: netvista
-ms.assetid: 2a9f3bb8-3de5-439c-86a3-7fdc6b025b8d
 ms.date: 05/02/2018
 keywords: ["RIL_DrainModemLogs function"]
 ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs

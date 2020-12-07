@@ -4,7 +4,6 @@ title: KS_AMVP_MODE (ksmedia.h)
 description: The KS_AMVP_MODE enumeration defines video port display modes.
 old-location: stream\ks_amvp_mode.htm
 tech.root: stream
-ms.assetid: 9464a17a-fa09-46c5-a4a7-d5cbd58deebd
 ms.date: 04/23/2018
 keywords: ["KS_AMVP_MODE enumeration"]
 ms.keywords: KS_AMVP_MODE, KS_AMVP_MODE enumeration [Streaming Media Devices], KS_AMVP_MODE_BOBINTERLEAVED, KS_AMVP_MODE_BOBNONINTERLEAVED, KS_AMVP_MODE_SKIPEVEN, KS_AMVP_MODE_SKIPODD, KS_AMVP_MODE_WEAVE, ksmedia/KS_AMVP_MODE, ksmedia/KS_AMVP_MODE_BOBINTERLEAVED, ksmedia/KS_AMVP_MODE_BOBNONINTERLEAVED, ksmedia/KS_AMVP_MODE_SKIPEVEN, ksmedia/KS_AMVP_MODE_SKIPODD, ksmedia/KS_AMVP_MODE_WEAVE, stream.ks_amvp_mode, vidcapstruct_64634d5e-72a6-4300-9fa9-e1d6859f0813.xml

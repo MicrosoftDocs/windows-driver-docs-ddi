@@ -4,7 +4,6 @@ title: _WDF_IO_QUEUE_CONFIG (wdfio.h)
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
 tech.root: wdf
-ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_CONFIG structure"]
 ms.keywords: "*PWDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG"

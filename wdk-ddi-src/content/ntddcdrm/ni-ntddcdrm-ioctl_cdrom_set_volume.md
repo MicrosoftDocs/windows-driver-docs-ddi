@@ -4,7 +4,6 @@ title: IOCTL_CDROM_SET_VOLUME (ntddcdrm.h)
 description: Resets the volume for its device's audio ports. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_set_volume.htm
 tech.root: storage
-ms.assetid: 9331ad0b-42e0-4f20-9410-fb135f4791b0
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_SET_VOLUME IOCTL"]
 ms.keywords: IOCTL_CDROM_SET_VOLUME, IOCTL_CDROM_SET_VOLUME control, IOCTL_CDROM_SET_VOLUME control code [Storage Devices], k307_d31efcd3-1072-49db-82d0-6ecce05a8964.xml, ntddcdrm/IOCTL_CDROM_SET_VOLUME, storage.ioctl_cdrom_set_volume

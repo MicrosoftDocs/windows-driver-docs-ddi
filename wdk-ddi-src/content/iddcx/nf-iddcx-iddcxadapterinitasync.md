@@ -4,7 +4,6 @@ title: IddCxAdapterInitAsync function (iddcx.h)
 description: IddCxAdapterInitAsync is an asynchronous initiation function called by the driver to create a WDDM graphics adapter.
 old-location: display\iddcxadapterinitasync.htm
 tech.root: display
-ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.date: 09/24/2020
 keywords: ["IddCxAdapterInitAsync function"]
 ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync

@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostScriptHost.Release
 title: IDebugHostScriptHost::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
-ms.assetid: 7a34a505-1038-4320-a38a-ed991034aa39
 ms.date: 09/18/2018
 keywords: ["IDebugHostScriptHost::Release"]
 ms.keywords: IDebugHostScriptHost::Release, Release, IDebugHostScriptHost.Release, IDebugHostScriptHost::Release, IDebugHostScriptHost.Release

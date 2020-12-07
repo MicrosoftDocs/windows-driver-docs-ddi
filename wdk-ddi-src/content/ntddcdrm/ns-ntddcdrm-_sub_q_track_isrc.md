@@ -4,7 +4,6 @@ title: _SUB_Q_TRACK_ISRC (ntddcdrm.h)
 description: The SUB_Q_TRACK_ISC contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_track_isrc.htm
 tech.root: storage
-ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
 ms.date: 03/29/2018
 keywords: ["SUB_Q_TRACK_ISRC structure"]
 ms.keywords: "*PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC structure [Storage Devices], _SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml"

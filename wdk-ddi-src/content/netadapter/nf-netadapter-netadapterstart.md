@@ -3,7 +3,6 @@ UID: NF:netadapter.NetAdapterStart
 title: NetAdapterStart function (netadapter.h)
 description: The NetAdapterStart function starts a NETADAPTER object.
 tech.root: netvista
-ms.assetid: 7fd514f2-7f1e-449f-9037-636f1c3599d6
 ms.date: 08/03/2018
 keywords: ["NetAdapterStart function"]
 ms.keywords: NetAdapterStart

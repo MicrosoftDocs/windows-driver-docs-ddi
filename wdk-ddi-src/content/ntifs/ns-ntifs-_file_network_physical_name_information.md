@@ -4,7 +4,6 @@ title: _FILE_NETWORK_PHYSICAL_NAME_INFORMATION (ntifs.h)
 description: Contains the full UNC physical pathname for a file or directory on a remote file share.
 old-location: ifsk\file_network_physical_name_information.htm
 tech.root: ifsk
-ms.assetid: 04F6A7B1-1198-4E5F-B6A8-70EEABE7CE83
 ms.date: 04/16/2018
 keywords: ["FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure"]
 ms.keywords: "*PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure [Installable File System Drivers], PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, PFILE_NETWORK_PHYSICAL_NAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ifsk.file_network_physical_name_information, ntifs/FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ntifs/PFILE_NETWORK_PHYSICAL_NAME_INFORMATION"

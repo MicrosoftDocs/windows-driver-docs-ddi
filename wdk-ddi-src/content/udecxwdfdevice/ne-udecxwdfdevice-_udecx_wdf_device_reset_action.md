@@ -4,7 +4,6 @@ title: _UDECX_WDF_DEVICE_RESET_ACTION (udecxwdfdevice.h)
 description: Defines values that indicate the types of reset operation supported by an emulated USB host controller.
 old-location: buses\udecx_wdf_device_reset_action.htm
 tech.root: usbref
-ms.assetid: E3216F62-5506-4DA2-AD89-B2406D3E97C0
 ms.date: 05/07/2018
 keywords: ["UDECX_WDF_DEVICE_RESET_ACTION enumeration"]
 ms.keywords: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice, UdecxWdfDeviceResetActionResetWdfDevice, _UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice"

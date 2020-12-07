@@ -4,7 +4,6 @@ title: FltGetNextExtraCreateParameter function (fltkernel.h)
 description: The FltGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter context structure (ECP) in a given ECP list.
 old-location: ifsk\fltgetnextextracreateparameter.htm
 tech.root: ifsk
-ms.assetid: 8eae5ac8-9da5-475f-8fbb-5e118bad4e67
 ms.date: 04/16/2018
 keywords: ["FltGetNextExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_c458316b-2dd7-4ff2-a59f-a6dfbd659f47.xml, FltGetNextExtraCreateParameter, FltGetNextExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltGetNextExtraCreateParameter, ifsk.fltgetnextextracreateparameter

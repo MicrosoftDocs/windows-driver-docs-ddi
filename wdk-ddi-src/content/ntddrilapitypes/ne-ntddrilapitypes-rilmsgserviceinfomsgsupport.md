@@ -4,7 +4,6 @@ title: RILMSGSERVICEINFOMSGSUPPORT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgserviceinfomsgsupport.htm
 tech.root: netvista
-ms.assetid: b09a5b1d-b8da-4a75-b2d5-ee07072d45aa
 ms.date: 05/02/2018
 keywords: ["RILMSGSERVICEINFOMSGSUPPORT enumeration"]
 ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, ntddrilapitypes/RIL_MSI_SMS_OUTGOING

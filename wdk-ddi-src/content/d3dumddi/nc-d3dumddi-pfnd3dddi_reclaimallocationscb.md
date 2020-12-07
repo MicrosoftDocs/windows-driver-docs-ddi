@@ -4,7 +4,6 @@ title: PFND3DDDI_RECLAIMALLOCATIONSCB (d3dumddi.h)
 description: Called by the user-mode display driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocationscb.htm
 tech.root: display
-ms.assetid: BAC27F24-B348-48D5-9E9B-20897B4D8E2D
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_RECLAIMALLOCATIONSCB callback function"]
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONSCB, d3dumddi/pfnReclaimAllocationsCb, display.pfnreclaimallocationscb, pfnReclaimAllocationsCb, pfnReclaimAllocationsCb callback, pfnReclaimAllocationsCb callback function [Display Devices]

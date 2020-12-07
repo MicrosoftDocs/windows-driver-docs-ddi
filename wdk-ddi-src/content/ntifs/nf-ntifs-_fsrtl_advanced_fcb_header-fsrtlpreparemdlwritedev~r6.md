@@ -4,7 +4,6 @@ title: FsRtlPrepareMdlWriteDev function (ntifs.h)
 description: The FltFastIoPrepareMdlWrite routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 old-location: ifsk\fltfastiopreparemdlwrite.htm
 tech.root: ifsk
-ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.date: 03/29/2018
 keywords: ["FsRtlPrepareMdlWriteDev function"]
 ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite

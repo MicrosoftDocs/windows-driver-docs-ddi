@@ -4,7 +4,6 @@ title: ZwOpenSymbolicLinkObject function (wdm.h)
 description: The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
 old-location: kernel\zwopensymboliclinkobject.htm
 tech.root: kernel
-ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
 ms.date: 04/30/2018
 keywords: ["ZwOpenSymbolicLinkObject function"]
 ms.keywords: NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, kernel.zwopensymboliclinkobject, wdm/NtOpenSymbolicLinkObject, wdm/ZwOpenSymbolicLinkObject

@@ -4,7 +4,6 @@ title: RILMSGOUTSUBMIT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgoutsubmit.htm
 tech.root: netvista
-ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
 ms.date: 05/02/2018
 keywords: ["RILMSGOUTSUBMIT structure"]
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, ntddrilapitypes/RILMSGOUTSUBMIT"

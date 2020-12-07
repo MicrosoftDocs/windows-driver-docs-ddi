@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_STATE_DWM
 title: _D3DKMT_DEVICEPRESENT_STATE_DWM (d3dkmthk.h)
 description: The device present state.
-ms.assetid: 26cf479b-e17e-4e67-8955-acb9e97ef17d
 ms.date: 10/19/2018
 keywords: ["D3DKMT_DEVICEPRESENT_STATE_DWM structure"]
 ms.keywords: _D3DKMT_DEVICEPRESENT_STATE_DWM, D3DKMT_DEVICEPRESENT_STATE_DWM,

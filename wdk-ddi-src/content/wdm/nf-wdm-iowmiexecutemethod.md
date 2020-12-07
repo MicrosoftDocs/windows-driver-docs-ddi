@@ -4,7 +4,6 @@ title: IoWMIExecuteMethod function (wdm.h)
 description: The IoWMIExecuteMethod routine runs a WMI class method on the specified WMI data block instance.
 old-location: kernel\iowmiexecutemethod.htm
 tech.root: kernel
-ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.date: 04/30/2018
 keywords: ["IoWMIExecuteMethod function"]
 ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod

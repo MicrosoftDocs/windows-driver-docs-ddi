@@ -4,7 +4,6 @@ title: IWDTFNumbers2::Add (wdtf.h)
 description: Adds a single number to the collection.
 old-location: dtf\iwdtfnumbers2_add.htm
 tech.root: dtf
-ms.assetid: 162f8fce-c944-4ed2-82f1-332e986b9f77
 ms.date: 04/04/2018
 keywords: ["IWDTFNumbers2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFNumbers2 interface, IWDTFNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFNumbers2.Add, IWDTFNumbers2::Add, Microsoft.WDTF.IWDTFNumbers2.Add, Microsoft::WDTF::IWDTFNumbers2::Add, dtf.iwdtfnumbers2_add, wdtf/IWDTFNumbers2::Add

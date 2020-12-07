@@ -2,7 +2,6 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceCallOSService
 title: TrSecureDeviceCallOSService function (trustedruntimeclx.h)
 description: 
-ms.assetid: 2178edf3-8ca9-4eff-858c-f6973f216a7e
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceCallOSService function"]
 ms.keywords: TrSecureDeviceCallOSService

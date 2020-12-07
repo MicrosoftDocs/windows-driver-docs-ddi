@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_BUILDPAGINGBUFFER
 title: DXGKDDI_BUILDPAGINGBUFFER (d3dkmddi.h)
 description: The DxgkDdiBuildPagingBuffer function builds paging buffers for memory operations.
 old-location: display\dxgkddibuildpagingbuffer.htm
-ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_BUILDPAGINGBUFFER callback function"]
 ms.keywords: DXGKDDI_BUILDPAGINGBUFFER, DXGKDDI_BUILDPAGINGBUFFER callback, DmFunctions_0d7a4d5b-3cd4-4c3c-9ffc-7b6e88342f81.xml, DxgkDdiBuildPagingBuffer, DxgkDdiBuildPagingBuffer callback function [Display Devices], d3dkmddi/DxgkDdiBuildPagingBuffer, display.dxgkddibuildpagingbuffer

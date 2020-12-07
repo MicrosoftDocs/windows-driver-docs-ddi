@@ -4,7 +4,6 @@ title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters (wudfu
 description: The GetDeviceControlTransferParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfusbrequestcompletionparams_getdevicecontroltransferparameters.htm
 tech.root: wdf
-ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.date: 02/26/2018
 keywords: ["IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters"]
 ms.keywords: GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters

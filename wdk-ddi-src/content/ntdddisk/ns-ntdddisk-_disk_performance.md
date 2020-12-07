@@ -4,7 +4,6 @@ title: _DISK_PERFORMANCE (ntdddisk.h)
 description: The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance.
 old-location: storage\disk_performance.htm
 tech.root: storage
-ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.date: 03/29/2018
 keywords: ["DISK_PERFORMANCE structure"]
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], _DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, storage.disk_performance, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml"

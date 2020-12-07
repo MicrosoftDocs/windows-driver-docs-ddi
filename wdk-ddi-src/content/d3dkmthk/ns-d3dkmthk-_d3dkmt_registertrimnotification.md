@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_REGISTERTRIMNOTIFICATION
 title: _D3DKMT_REGISTERTRIMNOTIFICATION (d3dkmthk.h)
 description: D3DKMT_REGISTERTRIMNOTIFICATION is used with D3DKMTRegisterTrimNotification to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
 old-location: display\d3dkmt_registertrimnotification.htm
-ms.assetid: CA5BC76B-539E-4FFF-8E02-C475D18588F6
 ms.date: 05/10/2018
 keywords: ["D3DKMT_REGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_REGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification

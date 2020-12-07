@@ -3,7 +3,6 @@ UID: NF:netrxqueue.NetRxQueueGetExtension
 title: NetRxQueueGetExtension function (netrxqueue.h)
 description: The NetRxQueueGetExtension function retrieves a packet extension for all packets in a receive (Rx) queue.
 tech.root: netvista
-ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2
 ms.date: 01/31/2019
 keywords: ["NetRxQueueGetExtension function"]
 ms.keywords: NetRxQueueGetExtension

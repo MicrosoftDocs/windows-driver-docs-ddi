@@ -4,7 +4,6 @@ title: _PLUGPLAY_NOTIFICATION_HEADER (wdm.h)
 description: A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure.
 old-location: kernel\plugplay_notification_header.htm
 tech.root: kernel
-ms.assetid: b2245810-8f3c-4955-b341-46df4a71707c
 ms.date: 04/30/2018
 keywords: ["PLUGPLAY_NOTIFICATION_HEADER structure"]
 ms.keywords: "*PPLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], PPLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], _PLUGPLAY_NOTIFICATION_HEADER, kernel.plugplay_notification_header, kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, wdm/PLUGPLAY_NOTIFICATION_HEADER, wdm/PPLUGPLAY_NOTIFICATION_HEADER"

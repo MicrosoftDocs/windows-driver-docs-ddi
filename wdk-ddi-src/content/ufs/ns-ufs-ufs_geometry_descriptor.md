@@ -4,7 +4,6 @@ title: UFS_GEOMETRY_DESCRIPTOR (ufs.h)
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.
 old-location: storage\ufs_geometry_descriptor.htm
 tech.root: storage
-ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.date: 03/29/2018
 keywords: ["UFS_GEOMETRY_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR"

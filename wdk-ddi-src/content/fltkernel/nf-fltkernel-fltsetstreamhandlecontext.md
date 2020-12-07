@@ -4,7 +4,6 @@ title: FltSetStreamHandleContext function (fltkernel.h)
 description: The FltSetStreamHandleContext routine sets a context for a stream handle.
 old-location: ifsk\fltsetstreamhandlecontext.htm
 tech.root: ifsk
-ms.assetid: 92c75e9c-ea29-40f5-84b2-bfe406075717
 ms.date: 04/16/2018
 keywords: ["FltSetStreamHandleContext function"]
 ms.keywords: FltApiRef_p_to_z_371045bc-91b4-4695-a44a-7ef4fd5c1bd7.xml, FltSetStreamHandleContext, FltSetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltSetStreamHandleContext, ifsk.fltsetstreamhandlecontext

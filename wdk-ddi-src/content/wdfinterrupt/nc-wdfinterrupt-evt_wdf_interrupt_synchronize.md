@@ -4,7 +4,6 @@ title: EVT_WDF_INTERRUPT_SYNCHRONIZE (wdfinterrupt.h)
 description: A driver's EvtInterruptSynchronize event callback function performs operations that must be synchronized with an EvtInterruptIsr callback function.
 old-location: wdf\evtinterruptsynchronize.htm
 tech.root: wdf
-ms.assetid: ac73b23d-7742-43a4-8950-b301bd0ba330
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_INTERRUPT_SYNCHRONIZE callback function"]
 ms.keywords: DFInterruptObjectRef_4310d770-645e-48c8-bd33-b9edcc8cb667.xml, EVT_WDF_INTERRUPT_SYNCHRONIZE, EVT_WDF_INTERRUPT_SYNCHRONIZE callback, EvtInterruptSynchronize, EvtInterruptSynchronize callback function, kmdf.evtinterruptsynchronize, wdf.evtinterruptsynchronize, wdfinterrupt/EvtInterruptSynchronize

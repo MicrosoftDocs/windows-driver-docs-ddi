@@ -4,7 +4,6 @@ title: _USBFN_NOTIFICATION (usbfnbase.h)
 description: Describes information about a Universal Serial Bus (USB) event notification that was received by using IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION.
 old-location: buses\usbfn_notification.htm
 tech.root: usbref
-ms.assetid: 84B66823-F357-44DD-A401-79E27FA6B324
 ms.date: 05/07/2018
 keywords: ["USBFN_NOTIFICATION structure"]
 ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], _USBFN_NOTIFICATION, buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"

@@ -4,7 +4,6 @@ title: IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal (
 description: The UnregisterPhysicalConnectionFromExternal method deletes the registration of a physical connection that was registered by a previous call to PcRegisterPhysicalConnectionFromExternal.
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal.htm
 tech.root: audio
-ms.assetid: 82d71ee0-13e1-4f7f-ad81-9e1b6e484052
 ms.date: 05/08/2018
 keywords: ["IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal"]
 ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices],UnregisterPhysicalConnectionFromExternal method, IUnregisterPhysicalConnection.UnregisterPhysicalConnectionFromExternal, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, UnregisterPhysicalConnectionFromExternal, UnregisterPhysicalConnectionFromExternal method [Audio Devices], UnregisterPhysicalConnectionFromExternal method [Audio Devices],IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal, audmp-routines_24091cfd-dee9-400a-8cb6-f3a4a44ed9c5.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal

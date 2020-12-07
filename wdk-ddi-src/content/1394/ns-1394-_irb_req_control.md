@@ -4,7 +4,6 @@ title: _IRB_REQ_CONTROL (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a control request.
 old-location: ieee\irb_req_control.htm
 tech.root: IEEE
-ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_CONTROL structure"]
 ms.keywords: 1394/IRB_REQ_CONTROL, IEEE.irb_req_control, IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL

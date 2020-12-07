@@ -4,7 +4,6 @@ title: CcSetBcbOwnerPointer function (ntifs.h)
 description: The CcSetBcbOwnerPointer routine sets the owner thread pointer for a pinned buffer control block (BCB).
 old-location: ifsk\ccsetbcbownerpointer.htm
 tech.root: ifsk
-ms.assetid: fa99ebc4-72d3-42ef-9dda-dcfdd438f66f
 ms.date: 04/16/2018
 keywords: ["CcSetBcbOwnerPointer function"]
 ms.keywords: CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, ntifs/CcSetBcbOwnerPointer

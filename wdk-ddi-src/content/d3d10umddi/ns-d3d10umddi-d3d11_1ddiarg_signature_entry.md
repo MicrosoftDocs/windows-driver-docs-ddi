@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D11_1DDIARG_SIGNATURE_ENTRY
 title: D3D11_1DDIARG_SIGNATURE_ENTRY (d3d10umddi.h)
 description: Describes an entry for a signature.
 old-location: display\d3d11_1ddiarg_signature_entry.htm
-ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_SIGNATURE_ENTRY structure"]
 ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry

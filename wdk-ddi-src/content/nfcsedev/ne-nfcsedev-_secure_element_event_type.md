@@ -4,7 +4,6 @@ title: _SECURE_ELEMENT_EVENT_TYPE (nfcsedev.h)
 description: Indicates the type of secure element events.
 old-location: nfpdrivers\_secure_element_event_type.htm
 tech.root: nfpdrivers
-ms.assetid: 45DCE635-6F28-4BE1-8362-568409FA8B1B
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_EVENT_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_EVENT_TYPE, ApplicationSelected, ExternalReaderArrival, ExternalReaderDeparture, HceActivated, HceDeactivated, SECURE_ELEMENT_EVENT_TYPE, Transaction, _SECURE_ELEMENT_EVENT_TYPE, _SECURE_ELEMENT_EVENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/ApplicationSelected, nfcsedev/ExternalReaderArrival, nfcsedev/ExternalReaderDeparture, nfcsedev/HceActivated, nfcsedev/HceDeactivated, nfcsedev/Transaction, nfcsedev/_SECURE_ELEMENT_EVENT_TYPE, nfpdrivers._secure_element_event_type"

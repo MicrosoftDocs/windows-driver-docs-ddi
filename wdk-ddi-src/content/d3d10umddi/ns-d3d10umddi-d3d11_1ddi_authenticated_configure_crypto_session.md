@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
 title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION (d3d10umddi.h)
 description: Contains input data for a call to the ConfigureAuthenticatedChannel(D3D11_1) function when D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureType has a GUID value of D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION.
 old-location: display\d3d11_1ddi_authenticated_configure_crypto_session.htm
-ms.assetid: 667429cb-0db8-4139-af5a-c3275b68a507
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, display.d3d11_1ddi_authenticated_configure_crypto_session

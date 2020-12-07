@@ -3,7 +3,6 @@ UID: NS:ringcollection._NET_RING_COLLECTION
 title: _NET_RING_COLLECTION (ringcollection.h)
 description: The NET_RING_COLLECTION structure describes the collection of net rings that belong to a packet queue.
 tech.root: netvista
-ms.assetid: 0E384B79-9277-43DD-A28E-0C0D39559847
 ms.date: 02/06/2019
 keywords: ["NET_RING_COLLECTION structure"]
 ms.keywords: _NET_RING_COLLECTION, NET_RING_COLLECTION, *PNET_RING_COLLECTION,

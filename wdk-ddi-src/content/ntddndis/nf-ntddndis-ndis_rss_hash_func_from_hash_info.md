@@ -3,7 +3,6 @@ UID: NF:ntddndis.NDIS_RSS_HASH_FUNC_FROM_HASH_INFO
 title: NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro (ntddndis.h)
 description: The NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro gets the hash function from the hash information.
 tech.root: netvista
-ms.assetid: 27fd758b-7b00-4ed7-81cb-6d4170a6a220
 ms.date: 04/16/2018
 keywords: ["NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro"]
 ms.keywords: NDIS_RSS_HASH_FUNC_FROM_HASH_INFO

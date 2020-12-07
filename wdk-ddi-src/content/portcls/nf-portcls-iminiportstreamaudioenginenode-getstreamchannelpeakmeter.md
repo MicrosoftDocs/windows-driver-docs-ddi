@@ -4,7 +4,6 @@ title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter (portcls.h)
 description: Gets the value of the PeakMeter node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelpeakmeter.htm
 tech.root: audio
-ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter"]
 ms.keywords: GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], GetStreamChannelPeakMeter method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter

@@ -4,7 +4,6 @@ title: IoPageRead function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iopageread.htm
 tech.root: ifsk
-ms.assetid: d1cbd6ee-6625-47bd-bf3e-356b28ff17a5
 ms.date: 04/16/2018
 keywords: ["IoPageRead function"]
 ms.keywords: IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead

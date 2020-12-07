@@ -4,7 +4,6 @@ title: FsRtlIncrementCcFastReadNoWait function (ntifs.h)
 description: The FsRtlIncrementCcFastReadNoWait routine increments the CcFastReadNoWait performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadnowait.htm
 tech.root: ifsk
-ms.assetid: 14a1b22a-5d1b-4da6-9610-396fa128ce01
 ms.date: 04/16/2018
 keywords: ["FsRtlIncrementCcFastReadNoWait function"]
 ms.keywords: FsRtlIncrementCcFastReadNoWait, FsRtlIncrementCcFastReadNoWait routine [Installable File System Drivers], fsrtlref_f72704ce-84b6-4201-a727-b97fd70accfd.xml, ifsk.fsrtlincrementccfastreadnowait, ntifs/FsRtlIncrementCcFastReadNoWait

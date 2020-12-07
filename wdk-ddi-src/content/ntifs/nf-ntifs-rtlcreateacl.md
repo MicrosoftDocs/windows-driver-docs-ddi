@@ -4,7 +4,6 @@ title: RtlCreateAcl function (ntifs.h)
 description: The RtlCreateAcl routine creates and initializes an access control list (ACL).
 old-location: ifsk\rtlcreateacl.htm
 tech.root: ifsk
-ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.date: 04/16/2018
 keywords: ["RtlCreateAcl function"]
 ms.keywords: RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ifsk.rtlcreateacl, ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml

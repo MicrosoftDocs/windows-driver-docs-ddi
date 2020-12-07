@@ -3,7 +3,6 @@ UID: NS:netwakesourcelist._NET_WAKE_SOURCE_LIST
 title: NET_WAKE_SOURCE_LIST (netwakesourcelist.h)
 description: The NET_WAKE_SOURCE_LIST structure represents a list of wake-on-LAN (WoL) sources for a net adapter.
 tech.root: netvista
-ms.assetid: f43e14e4-9aa0-4401-9e9c-7a2a36fd3899
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_LIST structure"]
 ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST,

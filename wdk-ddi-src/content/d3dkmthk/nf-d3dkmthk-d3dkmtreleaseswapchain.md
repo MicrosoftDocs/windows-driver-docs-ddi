@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTReleaseSwapChain
 title: D3DKMTReleaseSwapChain function (d3dkmthk.h)
 description: Releases swap chain resources.
-ms.assetid: ef754b92-7dcb-42a6-9544-f01b709d0065
 ms.date: 10/19/2018
 keywords: ["D3DKMTReleaseSwapChain function"]
 f1_keywords:

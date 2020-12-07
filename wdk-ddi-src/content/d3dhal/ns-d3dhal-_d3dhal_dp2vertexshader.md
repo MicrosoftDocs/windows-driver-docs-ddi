@@ -4,7 +4,6 @@ title: _D3DHAL_DP2VERTEXSHADER (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2vertexshader.htm
 tech.root: display
-ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2VERTEXSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, display.d3dhal_dp2vertexshader"

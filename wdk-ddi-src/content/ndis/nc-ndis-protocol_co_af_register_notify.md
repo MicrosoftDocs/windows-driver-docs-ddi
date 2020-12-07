@@ -4,7 +4,6 @@ title: PROTOCOL_CO_AF_REGISTER_NOTIFY (ndis.h)
 description: The ProtocolCoAfRegisterNotify function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolcoafregisternotify.htm
 tech.root: netvista
-ms.assetid: 272d99da-ef08-4ebd-90e7-74e99410b3f5
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_AF_REGISTER_NOTIFY callback function"]
 ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, PROTOCOL_CO_AF_REGISTER_NOTIFY callback, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify

@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.Location.operator-add(LONG64)
 title: operator+(LONG64) function (dbgmodel.h)
 description: The addition operator for the location function.
-ms.assetid: eb66b429-1dfa-4a52-a812-b1aeb45cc088
 ms.date: 09/28/2018
 keywords: ["operator+ function"]
 f1_keywords:

@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostErrorSink.Release
 title: IDebugHostErrorSink::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
-ms.assetid: 317caa7e-8cdd-4f57-8155-37d6638da2e8
 ms.date: 09/12/2018
 keywords: ["IDebugHostErrorSink::Release"]
 ms.keywords: IDebugHostErrorSink::Release, Release, IDebugHostErrorSink.Release, IDebugHostErrorSink::Release, IDebugHostErrorSink.Release

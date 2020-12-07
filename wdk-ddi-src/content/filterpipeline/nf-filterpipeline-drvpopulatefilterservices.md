@@ -4,7 +4,6 @@ title: DrvPopulateFilterServices function (filterpipeline.h)
 description: The DrvPopulateFilterServices function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate filter service objects in the filter pipeline property bag specified by the pPropertyBag parameter.
 old-location: print\drvpopulatefilterservices.htm
 tech.root: print
-ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.date: 04/20/2018
 keywords: ["DrvPopulateFilterServices function"]
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices

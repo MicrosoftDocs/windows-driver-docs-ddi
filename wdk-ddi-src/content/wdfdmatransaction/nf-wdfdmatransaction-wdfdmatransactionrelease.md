@@ -4,7 +4,6 @@ title: WdfDmaTransactionRelease function (wdfdmatransaction.h)
 description: The WdfDmaTransactionRelease method terminates a specified DMA transaction without deleting the associated DMA transaction object.
 old-location: wdf\wdfdmatransactionrelease.htm
 tech.root: wdf
-ms.assetid: b271e095-1ac5-4795-82b0-954a17df334a
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionRelease function"]
 ms.keywords: DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, kmdf.wdfdmatransactionrelease, wdf.wdfdmatransactionrelease, wdfdmatransaction/WdfDmaTransactionRelease

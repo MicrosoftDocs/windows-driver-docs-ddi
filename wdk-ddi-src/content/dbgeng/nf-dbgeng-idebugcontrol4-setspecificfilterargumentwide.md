@@ -4,7 +4,6 @@ title: IDebugControl4::SetSpecificFilterArgumentWide (dbgeng.h)
 description: The SetSpecificFilterArgumentWide method sets the value of filter argument for the specific filters that can have an argument.
 old-location: debugger\setspecificfilterargumentwide.htm
 tech.root: debugger
-ms.assetid: 416c4de2-f200-491a-a319-fb0a4fd86f86
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::SetSpecificFilterArgumentWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetSpecificFilterArgumentWide method, IDebugControl4.SetSpecificFilterArgumentWide, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, debugger.setspecificfilterargumentwide

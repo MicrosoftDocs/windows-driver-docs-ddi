@@ -4,7 +4,6 @@ title: _DEVOBJ (printoem.h)
 description: The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
 old-location: print\devobj.htm
 tech.root: print
-ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.date: 04/20/2018
 keywords: ["DEVOBJ structure"]
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"

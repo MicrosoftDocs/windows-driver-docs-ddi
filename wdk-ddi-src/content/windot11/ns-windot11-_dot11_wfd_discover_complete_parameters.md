@@ -4,7 +4,6 @@ title: _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS (windot11.h)
 description: the DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure is returned in a NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE indication.
 old-location: netvista\_dot11_wfd_discover_complete_parameters.htm
 tech.root: netvista
-ms.assetid: 0CAB1436-357F-4F9F-98F8-F05B3D86B00A
 ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure"]
 ms.keywords: "*PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, netvista._dot11_wfd_discover_complete_parameters, windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS"

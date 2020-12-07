@@ -2,7 +2,6 @@
 UID: NE:ntddk._PROCESS_MITIGATION_POLICY
 title: _PROCESS_MITIGATION_POLICY (ntddk.h)
 description: Represents the different process mitigation policies.
-ms.assetid: a5d6d94a-b03e-45cc-bb3a-9c9a770fa6f4
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["PROCESS_MITIGATION_POLICY enumeration"]

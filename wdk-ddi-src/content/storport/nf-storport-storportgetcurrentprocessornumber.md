@@ -4,7 +4,6 @@ title: StorPortGetCurrentProcessorNumber function (storport.h)
 description: The StorPortGetCurrentProcessorNumber routine retrieves the current processor number from the kernel.
 old-location: storage\storportgetcurrentprocessornumber.htm
 tech.root: storage
-ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
 ms.date: 03/29/2018
 keywords: ["StorPortGetCurrentProcessorNumber function"]
 ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml

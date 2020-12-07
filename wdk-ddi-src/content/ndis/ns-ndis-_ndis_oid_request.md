@@ -4,7 +4,6 @@ title: _NDIS_OID_REQUEST (ndis.h)
 description: To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to filter drivers and miniport drivers.
 old-location: netvista\ndis_oid_request.htm
 tech.root: netvista
-ms.assetid: 3a5e151d-2a2d-4477-a736-8a5f3d3820a2
 ms.date: 06/13/2018
 keywords: ["NDIS_OID_REQUEST structure"]
 ms.keywords: "*PNDIS_OID_REQUEST, NDIS_OID_REQUEST, NDIS_OID_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_OID_REQUEST, PNDIS_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OID_REQUEST, ndis/NDIS_OID_REQUEST, ndis/PNDIS_OID_REQUEST, ndis_request_ref_c431d090-b403-40a7-90de-5f47ca6213f4.xml, netvista.ndis_oid_request"

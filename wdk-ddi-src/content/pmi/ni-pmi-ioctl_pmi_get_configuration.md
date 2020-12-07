@@ -4,7 +4,6 @@ title: IOCTL_PMI_GET_CONFIGURATION (pmi.h)
 description: The IOCTL_PMI_GET_CONFIGURATION request returns information about the current configuration of a power meter.
 old-location: powermeter\ioctl_pmi_get_configuration.htm
 tech.root: powermeter
-ms.assetid: 957a2658-dddc-4529-8697-5fa44fcb96c2
 ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_GET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CONFIGURATION, IOCTL_PMI_GET_CONFIGURATION control, IOCTL_PMI_GET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_7d1f1fbc-cd7a-4885-8d41-8f42c4659de7.xml, pmi/IOCTL_PMI_GET_CONFIGURATION, powermeter.ioctl_pmi_get_configuration

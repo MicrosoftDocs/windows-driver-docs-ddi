@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE (pointofservicedriverinterface.h)
 description: The I/O control function claims the device for exclusive access.
 old-location: pos\ioctl_point_of_service_claim_device.htm
 tech.root: pos
-ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pos.ioctl_point_of_service_claim_device

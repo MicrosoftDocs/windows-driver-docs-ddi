@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATERESOURCE2 (d3dumddi.h)
 description: Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\createresource2.htm
 tech.root: display
-ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATERESOURCE2 callback function"]
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2 callback, d3dumddi/CreateResource2, display.createresource2

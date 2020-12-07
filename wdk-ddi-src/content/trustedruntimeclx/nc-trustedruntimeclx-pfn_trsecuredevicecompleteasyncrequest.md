@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 title: PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST (trustedruntimeclx.h)
 description: 
-ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function"]
 req.header: trustedruntimeclx.h

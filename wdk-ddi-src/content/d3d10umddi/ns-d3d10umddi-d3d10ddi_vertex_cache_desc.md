@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D10DDI_VERTEX_CACHE_DESC
 title: D3D10DDI_VERTEX_CACHE_DESC (d3d10umddi.h)
 description: The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 old-location: display\d3d10ddi_vertex_cache_desc.htm
-ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
 ms.date: 05/10/2018
 keywords: ["D3D10DDI_VERTEX_CACHE_DESC structure"]
 ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml, d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc

@@ -4,7 +4,6 @@ title: _AACS_SEND_CHALLENGE_KEY (ntddcdvd.h)
 description: The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 old-location: storage\aacs_send_challenge_key.htm
 tech.root: storage
-ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.date: 03/29/2018
 keywords: ["AACS_SEND_CHALLENGE_KEY structure"]
 ms.keywords: "*PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY structure [Storage Devices], PAACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], _AACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, storage.aacs_send_challenge_key, structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml"

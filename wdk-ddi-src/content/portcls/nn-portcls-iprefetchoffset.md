@@ -4,7 +4,6 @@ title: IPreFetchOffset (portcls.h)
 description: The IPreFetchOffset interface controls the prefetch offset, which is the number of bytes separating the play and write cursors in a DirectSound output stream.
 old-location: audio\iprefetchoffset.htm
 tech.root: audio
-ms.assetid: 8c6a3766-c959-4979-8dc9-3b5234003272
 ms.date: 05/08/2018
 keywords: ["IPreFetchOffset interface"]
 ms.keywords: IPreFetchOffset, IPreFetchOffset interface [Audio Devices], IPreFetchOffset interface [Audio Devices],described, audio.iprefetchoffset, audmp-routines_71e52125-c3a2-4434-96f3-e3a66b482a3a.xml, portcls/IPreFetchOffset

@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmGetOutputLength
 title: DeviceDsmGetOutputLength function (ntddstor.h)
 description: The DeviceDsmGetOutputLength function gets the length, in bytes, of a data set management output operation.
 tech.root: storage
-ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
 ms.date: 08/23/2019
 keywords: ["DeviceDsmGetOutputLength function"]
 ms.keywords: DeviceDsmGetOutputLength

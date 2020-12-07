@@ -4,7 +4,6 @@ title: SPB_TRANSFER_DIRECTION (spb.h)
 description: The SPB_TRANSFER_DIRECTION enumeration describes the direction (read or write) of a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_direction.htm
 tech.root: SPB
-ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_DIRECTION enumeration"]
 ms.keywords: "*PSPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, SpbTransferDirectionMax, SpbTransferDirectionNone, SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionFromDevice, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionToDevice"

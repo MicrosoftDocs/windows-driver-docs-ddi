@@ -4,7 +4,6 @@ title: StorPortWriteRegisterBufferUlong macro (storport.h)
 description: The StorPortWriteRegisterBufferUlong routine transfers a given number of ULONG values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferulong.htm
 tech.root: storage
-ms.assetid: a610f6c5-6627-406e-9b33-f321c6d55a89
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUlong macro"]
 ms.keywords: StorPortWriteRegisterBufferUlong, StorPortWriteRegisterBufferUlong routine [Storage Devices], storage.storportwriteregisterbufferulong, storport/StorPortWriteRegisterBufferUlong, storprt_f43e38af-b5f2-4727-990c-dc0cb79bbc09.xml

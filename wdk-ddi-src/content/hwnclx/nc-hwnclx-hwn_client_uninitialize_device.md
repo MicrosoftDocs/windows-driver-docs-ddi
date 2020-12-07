@@ -4,7 +4,6 @@ title: HWN_CLIENT_UNINITIALIZE_DEVICE (hwnclx.h)
 description: Implemented by the client driver and invoked as invoked as a result of a call to EVT_WDF_DEVICE_RELEASE_HARDWARE. This callback function uninitializes the hardware notification component.
 old-location: gpiobtn\hwn_client_uninitialize_device.htm
 tech.root: gpiobtn
-ms.assetid: 19ed1c21-d041-4876-8f90-4319e43a7004
 ms.date: 02/15/2018
 keywords: ["HWN_CLIENT_UNINITIALIZE_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_UNINITIALIZE_DEVICE, *PHWN_CLIENT_UNINITIALIZE_DEVICE callback function pointer, HWN_CLIENT_UNINITIALIZE_DEVICE, HwnClientUninitializeDevice, HwnClientUninitializeDevice callback function, gpiobtn.hwn_client_uninitialize_device, hwnclx/HwnClientUninitializeDevice"

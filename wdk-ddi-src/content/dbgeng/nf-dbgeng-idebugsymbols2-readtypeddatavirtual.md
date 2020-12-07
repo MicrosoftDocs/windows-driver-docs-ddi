@@ -4,7 +4,6 @@ title: IDebugSymbols2::ReadTypedDataVirtual (dbgeng.h)
 description: The ReadTypedDataVirtual method reads the value of a variable in the target's virtual memory.
 old-location: debugger\readtypeddatavirtual.htm
 tech.root: debugger
-ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::ReadTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols2.ReadTypedDataVirtual, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, debugger.readtypeddatavirtual

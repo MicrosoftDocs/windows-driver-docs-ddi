@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptHostContext.Release
 title: IDataModelScriptHostContext::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
-ms.assetid: b05f29ca-1383-45dc-a8c1-4cb7ec3860ed
 ms.date: 09/21/2018
 keywords: ["IDataModelScriptHostContext::Release"]
 ms.keywords: IDataModelScriptHostContext::Release, Release, IDataModelScriptHostContext.Release, IDataModelScriptHostContext::Release, IDataModelScriptHostContext.Release

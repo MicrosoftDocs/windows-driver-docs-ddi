@@ -4,7 +4,6 @@ title: _STORAGE_ZONES_ATTRIBUTES (ntddstor.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zones_attributes.htm
 tech.root: storage
-ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.date: 03/29/2018
 keywords: ["STORAGE_ZONES_ATTRIBUTES enumeration"]
 ms.keywords: "*PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, _STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, storage.storage_zones_attributes"

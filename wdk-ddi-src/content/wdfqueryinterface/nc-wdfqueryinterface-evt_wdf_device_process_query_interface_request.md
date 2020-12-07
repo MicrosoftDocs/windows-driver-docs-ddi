@@ -4,7 +4,6 @@ title: EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST (wdfqueryinterface.h)
 description: A driver's EvtDeviceProcessQueryInterfaceRequest event callback function examines another driver's request for access to a driver-defined interface, before the framework passes the interface to the requesting driver.
 old-location: wdf\evtdeviceprocessqueryinterfacerequest.htm
 tech.root: wdf
-ms.assetid: b56fef85-4058-4942-90c0-36646164cd3e
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest

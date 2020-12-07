@@ -4,7 +4,6 @@ title: SpbDeviceInitialize function (spbcx.h)
 description: The SpbDeviceInitialize method completes the initialization of the SPB controller driver after this driver creates the associated device object.
 old-location: spb\spbdeviceinitialize.htm
 tech.root: SPB
-ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.date: 04/30/2018
 keywords: ["SpbDeviceInitialize function"]
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize

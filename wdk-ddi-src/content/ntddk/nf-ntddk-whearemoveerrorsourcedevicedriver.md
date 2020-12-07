@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaRemoveErrorSourceDeviceDriver
 title: WheaRemoveErrorSourceDeviceDriver function
 description: To remove a previously added error source, a device driver calls WheaRemoveErrorSourceDeviceDriver.
 tech.root: whea
-ms.assetid: 9b631fc8-da91-4d04-b84f-b9c40497db55
 ms.date: 04/28/2020
 keywords: ["WheaRemoveErrorSourceDeviceDriver function"]
 ms.keywords: WheaRemoveErrorSourceDeviceDriver

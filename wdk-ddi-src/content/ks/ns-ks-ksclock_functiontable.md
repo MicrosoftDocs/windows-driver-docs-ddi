@@ -4,7 +4,6 @@ title: KSCLOCK_FUNCTIONTABLE (ks.h)
 description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.
 old-location: stream\ksclock_functiontable.htm
 tech.root: stream
-ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.date: 04/23/2018
 keywords: ["KSCLOCK_FUNCTIONTABLE structure"]
 ms.keywords: "*PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable"

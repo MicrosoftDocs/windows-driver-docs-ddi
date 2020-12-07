@@ -4,7 +4,6 @@ title: _MS_SMHBA_SASPHYSTATISTICS (hbapiwmi.h)
 description: The MS_SMHBA_SASPHYSTATISTICS structure reports the traffic statistics for a SAS physical link.
 old-location: storage\ms_smhba_sasphystatistics.htm
 tech.root: storage
-ms.assetid: bb2ab242-9002-4760-86b2-1aaf203ff710
 ms.date: 03/29/2018
 keywords: ["MS_SMHBA_SASPHYSTATISTICS structure"]
 ms.keywords: "*PMS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, storage.ms_smhba_sasphystatistics, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml"

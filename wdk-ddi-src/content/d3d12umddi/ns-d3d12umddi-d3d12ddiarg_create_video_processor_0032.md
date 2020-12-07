@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 (d3d12umddi.h)
 description: Creates a video processor.
 old-location: display\d3d12ddiarg-create-video-processor-0032.htm
-ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277
 ms.date: 04/16/2018
 keywords: ["D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, display.d3d12ddiarg-create-video-processor-0032

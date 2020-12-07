@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 title: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 (d3dkmddi.h)
 description: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 is passed to the DxgkDdiCheckMultiPlaneOverlaySupport2 function to determine whether a specific multi-plane overlay configuration is supported.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport2.htm
-ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC
 ms.date: 05/10/2018
 keywords: ["DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2"

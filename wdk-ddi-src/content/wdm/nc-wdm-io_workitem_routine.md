@@ -4,7 +4,6 @@ title: IO_WORKITEM_ROUTINE (wdm.h)
 description: A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine.
 old-location: kernel\workitem.htm
 tech.root: kernel
-ms.assetid: 19467f90-945d-46ac-a800-300e1d490ef0
 ms.date: 04/30/2018
 keywords: ["IO_WORKITEM_ROUTINE callback function"]
 ms.keywords: DrvrRtns_55d37b62-e72b-4aa3-b590-e9598ead0b46.xml, IO_WORKITEM_ROUTINE, WorkItem, WorkItem routine [Kernel-Mode Driver Architecture], kernel.workitem, wdm/WorkItem

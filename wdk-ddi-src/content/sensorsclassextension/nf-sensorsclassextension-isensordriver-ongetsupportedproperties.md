@@ -4,7 +4,6 @@ title: ISensorDriver::OnGetSupportedProperties (sensorsclassextension.h)
 description: The ISensorDriver::OnGetSupportedProperties method retrieves the list of properties that the specified sensor provides.
 old-location: sensors\isensordriver_ongetsupportedproperties.htm
 tech.root: sensors
-ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnGetSupportedProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedProperties method, ISensorDriver.OnGetSupportedProperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedproperties, sensorsclassextension/ISensorDriver::OnGetSupportedProperties

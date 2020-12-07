@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_SAR_CONFIG_INFO
 title: _WWAN_SAR_CONFIG_INFO (wwan.h)
 description: The WWAN_SAR_CONFIG_INFO structure describes a modem's current Specific Absorption Rate (SAR) configuration information.
 tech.root: netvista
-ms.assetid: 465fb01d-bc43-4e03-8039-304ceb53bb7d
 ms.date: 08/20/2018
 keywords: ["WWAN_SAR_CONFIG_INFO structure"]
 ms.keywords: _WWAN_SAR_CONFIG_INFO, WWAN_SAR_CONFIG_INFO, *PWWAN_SAR_CONFIG_INFO,

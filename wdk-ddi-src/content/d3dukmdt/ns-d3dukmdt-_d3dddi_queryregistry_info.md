@@ -2,7 +2,6 @@
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_INFO
 title: _D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
 description: Contains information about the query registry.
-ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
 ms.date: 11/21/2018
 keywords: ["D3DDDI_QUERYREGISTRY_INFO structure"]
 ms.keywords: _D3DDDI_QUERYREGISTRY_INFO, D3DDDI_QUERYREGISTRY_INFO,

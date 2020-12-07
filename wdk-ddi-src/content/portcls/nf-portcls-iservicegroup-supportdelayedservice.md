@@ -4,7 +4,6 @@ title: IServiceGroup::SupportDelayedService (portcls.h)
 description: The SupportDelayedService method indicates that the service group should prepare to support delayed service.
 old-location: audio\iservicegroup_supportdelayedservice.htm
 tech.root: audio
-ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.date: 05/08/2018
 keywords: ["IServiceGroup::SupportDelayedService"]
 ms.keywords: IServiceGroup interface [Audio Devices],SupportDelayedService method, IServiceGroup.SupportDelayedService, IServiceGroup::SupportDelayedService, SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService

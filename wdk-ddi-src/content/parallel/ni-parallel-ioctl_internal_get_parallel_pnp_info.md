@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO (parallel.h)
 description: The IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO request returns Plug and Play information about a parallel port.
 old-location: parports\ioctl_internal_get_parallel_pnp_info.htm
 tech.root: parports
-ms.assetid: 9a93d91a-e9b8-41f5-8d15-f693336bee07
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO control code [Parallel Ports], cisspd_66e27d46-1bd9-4e14-8b3f-4d7760552498.xml, parallel/IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, parports.ioctl_internal_get_parallel_pnp_info

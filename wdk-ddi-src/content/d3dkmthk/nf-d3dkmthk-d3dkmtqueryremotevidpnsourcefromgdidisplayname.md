@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
 title: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function (d3dkmthk.h)
 description: Maps a GDI display name to a remote video present network (VidPN) source ID that is needed for a call to the D3DKMTOutputDuplPresent function.
 old-location: display\d3dkmtqueryremotevidpnsourcefromgdidisplayname.htm
-ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.date: 05/10/2018
 keywords: ["D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function"]
 ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName callback function [Display Devices], PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME callback, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname

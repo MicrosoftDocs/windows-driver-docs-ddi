@@ -3,7 +3,6 @@ UID: NS:ntddk._FILE_FS_FULL_SIZE_INFORMATION_EX
 title: _FILE_FS_FULL_SIZE_INFORMATION_EX (ntddk.h)
 description: Used in a request to query sector size information for a file system volume.
 tech.root: ifsk
-ms.assetid: a7d7b036-3f47-4e6d-87df-1578300e095c
 ms.date: 09/30/2018
 keywords: ["FILE_FS_FULL_SIZE_INFORMATION_EX structure"]
 ms.keywords: _FILE_FS_FULL_SIZE_INFORMATION_EX, FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX,

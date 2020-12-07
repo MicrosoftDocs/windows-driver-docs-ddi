@@ -4,7 +4,6 @@ title: IOCTL_DISK_FIND_NEW_DEVICES (ntdddisk.h)
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_disk_find_new_devices.htm
 tech.root: storage
-ms.assetid: d8a603a3-fa3c-4524-89f8-eed43d0db316
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_FIND_NEW_DEVICES IOCTL"]
 ms.keywords: IOCTL_DISK_FIND_NEW_DEVICES, IOCTL_DISK_FIND_NEW_DEVICES control, IOCTL_DISK_FIND_NEW_DEVICES control code [Storage Devices], k307_369ae687-ba0c-4626-bd33-eb299ab4c2cd.xml, ntdddisk/IOCTL_DISK_FIND_NEW_DEVICES, storage.ioctl_disk_find_new_devices

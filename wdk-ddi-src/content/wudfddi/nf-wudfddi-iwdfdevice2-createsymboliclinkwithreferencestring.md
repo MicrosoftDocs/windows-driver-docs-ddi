@@ -4,7 +4,6 @@ title: IWDFDevice2::CreateSymbolicLinkWithReferenceString (wudfddi.h)
 description: TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device.
 old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
 tech.root: wdf
-ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::CreateSymbolicLinkWithReferenceString"]
 ms.keywords: CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method,IWDFDevice2 interface, IWDFDevice2 interface,CreateSymbolicLinkWithReferenceString method, IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString

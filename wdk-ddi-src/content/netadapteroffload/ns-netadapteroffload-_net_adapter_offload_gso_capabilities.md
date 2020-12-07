@@ -3,7 +3,6 @@ UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES
 title: _NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for generic send offload (GSO).
 tech.root: netvista
-ms.assetid: 
 ms.date: 10/09/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES structure"]
 f1_keywords:

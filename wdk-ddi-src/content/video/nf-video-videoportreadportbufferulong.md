@@ -4,7 +4,6 @@ title: VideoPortReadPortBufferUlong function (video.h)
 description: The VideoPortReadPortBufferUlong function reads a number of ULONG values from a mapped I/O port and writes them into a buffer.
 old-location: display\videoportreadportbufferulong.htm
 tech.root: display
-ms.assetid: ecc09ca7-77fe-434f-9892-c2ae93d7d73c
 ms.date: 05/10/2018
 keywords: ["VideoPortReadPortBufferUlong function"]
 ms.keywords: VideoPortReadPortBufferUlong, VideoPortReadPortBufferUlong function [Display Devices], VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, display.videoportreadportbufferulong, video/VideoPortReadPortBufferUlong

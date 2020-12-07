@@ -4,7 +4,6 @@ title: USBD_ParseDescriptors function (usbdlib.h)
 description: The USBD_ParseDescriptors routine searches a given configuration descriptor and returns a pointer to the first descriptor that matches the search criteria.
 old-location: buses\usbd_parsedescriptors.htm
 tech.root: usbref
-ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.date: 05/07/2018
 keywords: ["USBD_ParseDescriptors function"]
 ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml

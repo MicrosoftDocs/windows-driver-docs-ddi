@@ -4,7 +4,6 @@ title: PFND3DDDI_DECRYPTIONBLT (d3dumddi.h)
 description: The DecryptionBlt function writes data to a protected surface.
 old-location: display\decryptionblt.htm
 tech.root: display
-ms.assetid: 1bfe2b9c-90f6-48bf-b0b3-30788ef94110
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DECRYPTIONBLT callback function"]
 ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3DDDI_DECRYPTIONBLT, PFND3DDDI_DECRYPTIONBLT callback, UserModeDisplayDriver_Functions_6c7efbab-8c07-4953-80cc-4d18080c12cc.xml, d3dumddi/DecryptionBlt, display.decryptionblt

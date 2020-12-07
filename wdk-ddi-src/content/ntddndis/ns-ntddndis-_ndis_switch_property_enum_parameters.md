@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure specifies an array of profile properties for the Hyper-V extensible switch. Each element in the array is formatted as an NDIS_SWITCH_PROPERTY_ENUM_INFO structure.
 old-location: netvista\ndis_switch_property_enum_parameters.htm
 tech.root: netvista
-ms.assetid: f133f6cc-6e09-4eb8-b6fe-50d207391621
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_property_enum_parameters, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS"

@@ -4,7 +4,6 @@ title: StorPortReadRegisterUlong64 macro (storport.h)
 description: The StorPortReadRegisterUlong64 routine reads a 64-bit value from a specified 64-bit register address.
 old-location: storage\storportreadregisterulong64.htm
 tech.root: storage
-ms.assetid: 73A9E645-0B71-429F-9033-032BB83E60E4
 ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterUlong64 macro"]
 ms.keywords: StorPortReadRegisterUlong64, StorPortReadRegisterUlong64 routine [Storage Devices], storage.storportreadregisterulong64, storport/StorPortReadRegisterUlong64

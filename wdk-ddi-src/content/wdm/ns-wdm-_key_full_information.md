@@ -4,7 +4,6 @@ title: _KEY_FULL_INFORMATION (wdm.h)
 description: The KEY_FULL_INFORMATION structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries.
 old-location: kernel\key_full_information.htm
 tech.root: kernel
-ms.assetid: dd099435-e3e3-4d78-a829-0f12f2db46d9
 ms.date: 04/30/2018
 keywords: ["KEY_FULL_INFORMATION structure"]
 ms.keywords: "*PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION, KEY_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_FULL_INFORMATION, PKEY_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_FULL_INFORMATION, kernel.key_full_information, kstruct_c_1b9700b5-eedf-4f0f-8b73-bf4b9cfa0ccd.xml, wdm/KEY_FULL_INFORMATION, wdm/PKEY_FULL_INFORMATION"

@@ -4,7 +4,6 @@ title: IOCTL_SMARTCARD_GET_ATTRIBUTE (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_ATTRIBUTE control code queries for smart card attribues.
 old-location: nfpdrivers\ioctl_smartcard_get_attribute.htm
 tech.root: nfpdrivers
-ms.assetid: 5B5F4CA1-0E49-4D60-AD78-3294C80844E1
 ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_GET_ATTRIBUTE IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_ATTRIBUTE, IOCTL_SMARTCARD_GET_ATTRIBUTE control, IOCTL_SMARTCARD_GET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_attribute, winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE

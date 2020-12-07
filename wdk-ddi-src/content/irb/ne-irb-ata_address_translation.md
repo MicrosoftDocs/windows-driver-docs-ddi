@@ -4,7 +4,6 @@ title: ATA_ADDRESS_TRANSLATION (irb.h)
 description: The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of address translation used during data transfers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_address_translation.htm
 tech.root: storage
-ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.date: 03/29/2018
 keywords: ["ATA_ADDRESS_TRANSLATION enumeration"]
 ms.keywords: ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], ChsMode, Lba48BitMode, LbaMode, UnknownMode, irb/ATA_ADDRESS_TRANSLATION, irb/ChsMode, irb/Lba48BitMode, irb/LbaMode, irb/UnknownMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml

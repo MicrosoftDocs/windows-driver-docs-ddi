@@ -2,7 +2,6 @@
 UID: NF:ntifs.FsRtlInitializeBaseMcbEx
 title: FsRtlInitializeBaseMcbEx function (ntifs.h)
 description: FsRtlInitializeBaseMcbEx initializes a new MCB structure.
-ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlInitializeBaseMcbEx function"]

@@ -4,7 +4,6 @@ title: IStiDeviceControl::WriteToErrorLog (stiusd.h)
 description: The IStiDeviceControl::WriteToErrorLog method allows a user-mode still image minidriver to write a message into the still image error log.
 old-location: image\istidevicecontrol_writetoerrorlog.htm
 tech.root: image
-ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.date: 05/03/2018
 keywords: ["IStiDeviceControl::WriteToErrorLog"]
 ms.keywords: IStiDeviceControl interface [Imaging Devices],WriteToErrorLog method, IStiDeviceControl.WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, stiusd/IStiDeviceControl::WriteToErrorLog

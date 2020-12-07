@@ -4,7 +4,6 @@ title: wiauRegOpenDataA function (wiautil.h)
 description: The wiauRegOpenData function opens the DeviceData registry key.
 old-location: image\wiauregopendata.htm
 tech.root: image
-ms.assetid: f289dfa8-26e4-426b-8058-8c2464e47e2a
 ms.date: 05/03/2018
 keywords: ["wiauRegOpenDataA function"]
 ms.keywords: image.wiauregopendata, wiauFncs_1718e270-b13c-4325-bb4a-a872becaa8bb.xml, wiauRegOpenData, wiauRegOpenData function [Imaging Devices], wiauRegOpenDataA, wiauRegOpenDataW, wiautil/wiauRegOpenData

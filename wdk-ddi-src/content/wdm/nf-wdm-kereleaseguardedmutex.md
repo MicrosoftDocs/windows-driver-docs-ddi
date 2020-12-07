@@ -4,7 +4,6 @@ title: KeReleaseGuardedMutex function (wdm.h)
 description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex.
 old-location: kernel\kereleaseguardedmutex.htm
 tech.root: kernel
-ms.assetid: 0734094d-0386-4b00-a2cb-881b782108dc
 ms.date: 04/30/2018
 keywords: ["KeReleaseGuardedMutex function"]
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex

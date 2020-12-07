@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_UICC_FILE_STATUS
 title: _WWAN_UICC_FILE_STATUS (wwan.h)
 description: The WWAN_UICC_FILE_STATUS structure describes the status of a UICC file.
 tech.root: netvista
-ms.assetid: A5B1B756-4E1C-42AA-84AA-CEA847D94708
 ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_STATUS structure"]
 ms.keywords: _WWAN_UICC_FILE_STATUS, WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS,

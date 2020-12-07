@@ -4,7 +4,6 @@ title: OEMCUIPCALLBACK (printoem.h)
 description: The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in's IPrintOemUI::CommonUIProp method. The structure is defined in printoem.h.
 old-location: print\oemcuipcallback.htm
 tech.root: print
-ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
 ms.date: 04/20/2018
 keywords: ["OEMCUIPCALLBACK callback function"]
 ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK

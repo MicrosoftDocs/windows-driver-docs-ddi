@@ -4,7 +4,6 @@ title: _WDF_DEVICE_POWER_POLICY_STATE (wdfdevice.h)
 description: The WDF_DEVICE_POWER_POLICY_STATE enumeration identifies all of the states that the framework's power policy state machine can enter.
 old-location: wdf\wdf_device_power_policy_state.htm
 tech.root: wdf
-ms.assetid: 87fa78f7-417a-4720-9520-0eb90486630a
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_POLICY_STATE enumeration"]
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_STATE, PWDF_DEVICE_POWER_POLICY_STATE, PWDF_DEVICE_POWER_POLICY_STATE enumeration pointer, WDF_DEVICE_POWER_POLICY_STATE, WDF_DEVICE_POWER_POLICY_STATE enumeration"

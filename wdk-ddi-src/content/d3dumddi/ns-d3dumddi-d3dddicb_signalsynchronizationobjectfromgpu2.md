@@ -4,7 +4,6 @@ title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 (d3dumddi.h)
 description: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 is used with pfnSignalSynchronizationObjectFromGpu2Cb to signal a monitored fence.
 old-location: display\d3dddicb_signalsynchronizationobjectfromgpu2.htm
 tech.root: display
-ms.assetid: 077BFCCB-4963-40CF-B56E-EAA08681ED5F
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dddicb_signalsynchronizationobjectfromgpu2

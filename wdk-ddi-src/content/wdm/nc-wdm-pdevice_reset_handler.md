@@ -4,7 +4,6 @@ title: PDEVICE_RESET_HANDLER (wdm.h)
 description: The DeviceReset routine is used to reset and recover a malfunctioning device.
 old-location: kernel\devicereset.htm
 tech.root: kernel
-ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
 ms.date: 11/15/2018
 keywords: ["PDEVICE_RESET_HANDLER callback function"]
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice

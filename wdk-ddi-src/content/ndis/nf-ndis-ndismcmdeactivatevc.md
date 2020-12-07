@@ -4,7 +4,6 @@ title: NdisMCmDeactivateVc function (ndis.h)
 description: NdisMCmDeactivateVc notifies NDIS that there will be no further transfers on a particular active VC.
 old-location: netvista\ndismcmdeactivatevc.htm
 tech.root: netvista
-ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.date: 05/02/2018
 keywords: ["NdisMCmDeactivateVc function"]
 ms.keywords: NdisMCmDeactivateVc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc

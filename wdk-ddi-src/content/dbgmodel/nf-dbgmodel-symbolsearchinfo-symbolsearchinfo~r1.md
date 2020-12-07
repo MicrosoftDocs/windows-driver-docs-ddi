@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo~r1
 title: SymbolSearchInfo ~r1 function (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
-ms.assetid: a2b85960-ae07-4f5f-8f41-5dd9784eaae9
 ms.date: 10/04/2018
 keywords: ["SymbolSearchInfo function"]
 ms.keywords: SymbolSearchInfo

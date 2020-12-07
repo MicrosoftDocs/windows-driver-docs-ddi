@@ -4,7 +4,6 @@ title: _USB_CONNECTION_STATUS (usbioctl.h)
 description: The USB_CONNECTION_STATUS enumerator indicates the status of the connection to a device on a USB hub port.
 old-location: buses\usb_connection_status.htm
 tech.root: usbref
-ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.date: 05/07/2018
 keywords: ["USB_CONNECTION_STATUS enumeration"]
 ms.keywords: "*PUSB_CONNECTION_STATUS, DeviceCausedOvercurrent, DeviceConnected, DeviceEnumerating, DeviceFailedEnumeration, DeviceGeneralFailure, DeviceHubNestedTooDeeply, DeviceInLegacyHub, DeviceNotEnoughBandwidth, DeviceNotEnoughPower, DeviceReset, NoDeviceConnected, PUSB_CONNECTION_STATUS, PUSB_CONNECTION_STATUS enumeration pointer [Buses], USB_CONNECTION_STATUS, USB_CONNECTION_STATUS enumeration [Buses], _USB_CONNECTION_STATUS, buses.usb_connection_status, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceConnected, usbioctl/DeviceEnumerating, usbioctl/DeviceFailedEnumeration, usbioctl/DeviceGeneralFailure, usbioctl/DeviceHubNestedTooDeeply, usbioctl/DeviceInLegacyHub, usbioctl/DeviceNotEnoughBandwidth, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceReset, usbioctl/NoDeviceConnected, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/USB_CONNECTION_STATUS, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml"

@@ -4,7 +4,6 @@ title: IDebugControl7::GetDebuggeeType2 (dbgeng.h)
 description: The GetDebuggeeType2 method describes the nature of the current target.
 old-location: debugger\idebugcontrol7_getdebuggeetype2.htm
 tech.root: debugger
-ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.date: 05/03/2018
 keywords: ["IDebugControl7::GetDebuggeeType2"]
 ms.keywords: GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging],IDebugControl7 interface, IDebugControl7 interface [Windows Debugging],GetDebuggeeType2 method, IDebugControl7.GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2

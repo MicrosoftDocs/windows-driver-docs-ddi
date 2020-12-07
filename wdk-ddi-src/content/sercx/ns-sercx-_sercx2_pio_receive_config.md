@@ -4,7 +4,6 @@ title: _SERCX2_PIO_RECEIVE_CONFIG (sercx.h)
 description: The SERCX2_PIO_RECEIVE_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new PIO-receive object.
 old-location: serports\sercx2_pio_receive_config.htm
 tech.root: serports
-ms.assetid: D95B1E7F-1966-4130-A410-3975B0438608
 ms.date: 04/23/2018
 keywords: ["SERCX2_PIO_RECEIVE_CONFIG structure"]
 ms.keywords: "*PSERCX2_PIO_RECEIVE_CONFIG, 2/PSERCX2_PIO_RECEIVE_CONFIG, 2/SERCX2_PIO_RECEIVE_CONFIG, PSERCX2_PIO_RECEIVE_CONFIG, PSERCX2_PIO_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_PIO_RECEIVE_CONFIG, SERCX2_PIO_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_PIO_RECEIVE_CONFIG, serports.sercx2_pio_receive_config"

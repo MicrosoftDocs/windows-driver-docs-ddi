@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IEquatableConcept
 title: IEquatableConcept (dbgmodel.h)
 description: Supports the ability to compare this object to another (of arbitrary type) for equality.
-ms.assetid: 44daad07-fb11-4f91-859a-eae2230ac7f7
 ms.date: 07/13/2018
 keywords: ["IEquatableConcept interface"]
 req.header: dbgmodel.h

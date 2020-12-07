@@ -4,7 +4,6 @@ title: IUnregisterSubdevice (portcls.h)
 description: The IUnregisterSubdevice interface implements a method to remove a registered subdevice.
 old-location: audio\iunregistersubdevice.htm
 tech.root: audio
-ms.assetid: 023b0a03-a572-459b-a1eb-b25fcde6ecc5
 ms.date: 05/08/2018
 keywords: ["IUnregisterSubdevice interface"]
 ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], IUnregisterSubdevice interface [Audio Devices],described, audio.iunregistersubdevice, audmp-routines_1af8aada-2816-4e82-abe4-579ba672866b.xml, portcls/IUnregisterSubdevice

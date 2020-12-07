@@ -4,7 +4,6 @@ title: SdBusOpenInterface function (ntddsd.h)
 description: The SdBusOpenInterface routine obtains an interface from the Secure Digital (SD) bus driver.
 old-location: sd\sdbusopeninterface.htm
 tech.root: SD
-ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.date: 02/15/2018
 keywords: ["SdBusOpenInterface function"]
 ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml

@@ -4,7 +4,6 @@ title: NdisMCmCloseCallComplete macro (ndis.h)
 description: NdisMCmCloseCallComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to tear down a call.
 old-location: netvista\ndismcmclosecallcomplete.htm
 tech.root: netvista
-ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.date: 05/02/2018
 keywords: ["NdisMCmCloseCallComplete macro"]
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete

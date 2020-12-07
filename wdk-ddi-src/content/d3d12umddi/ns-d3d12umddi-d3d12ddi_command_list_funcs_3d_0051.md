@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
 title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051 (d3d12umddi.h)
 description: The command list functions for 3D.
-ms.assetid: 9562b973-ad48-4726-8e72-94dcf1d3471c
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0051 structure"]
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051, D3D12DDI_COMMAND_LIST_FUNCS_3D_0051,

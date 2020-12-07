@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
 title: PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 (d3d12umddi.h)
 description: Calculates sizes for private opened heap and resources.
-ms.assetid: af4c6fb0-a10f-4abe-8161-2df2563b76cd
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 callback function"]
 req.header: d3d12umddi.h

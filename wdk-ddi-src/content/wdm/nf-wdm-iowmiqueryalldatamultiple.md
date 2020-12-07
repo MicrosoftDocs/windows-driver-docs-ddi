@@ -4,7 +4,6 @@ title: IoWMIQueryAllDataMultiple function (wdm.h)
 description: The IoWMIQueryAllDataMultiple routine returns all WMI data blocks that implement one of a set of WMI classes.
 old-location: kernel\iowmiqueryalldatamultiple.htm
 tech.root: kernel
-ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.date: 04/30/2018
 keywords: ["IoWMIQueryAllDataMultiple function"]
 ms.keywords: IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple

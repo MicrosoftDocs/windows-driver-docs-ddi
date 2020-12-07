@@ -4,7 +4,6 @@ title: StorPortGetPfns function (storport.h)
 description: The StorPortGetPfns routine can be called when a miniport needs to retreive PFNs associated with a MDL for a SRB.
 old-location: storage\storportgetpfns.htm
 tech.root: storage
-ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.date: 03/29/2018
 keywords: ["StorPortGetPfns function"]
 ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns

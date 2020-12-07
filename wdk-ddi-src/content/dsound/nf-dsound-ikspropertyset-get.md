@@ -4,7 +4,6 @@ title: IKsPropertySet::Get (dsound.h)
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream
-ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.date: 04/23/2018
 keywords: ["IKsPropertySet::Get"]
 ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get

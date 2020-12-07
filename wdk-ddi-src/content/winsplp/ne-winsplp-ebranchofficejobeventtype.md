@@ -2,7 +2,6 @@
 UID: NE:winsplp.__unnamed_enum_0
 title: EBranchOfficeJobEventType (winsplp.h)
 description: 
-ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
 ms.date: 11/18/2020
 keywords: ["EBranchOfficeJobEventType enumeration"]
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType,

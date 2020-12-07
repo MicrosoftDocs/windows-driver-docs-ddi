@@ -4,7 +4,6 @@ title: _PEP_PROCESSOR_IDLE_STATE_UPDATE (pepfx.h)
 description: The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state.
 old-location: kernel\pep_processor_idle_state_update.htm
 tech.root: kernel
-ms.assetid: A05617FB-5105-4FCA-807F-C49F32BD1399
 ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_IDLE_STATE_UPDATE structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_UPDATE, kernel.pep_processor_idle_state_update, pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE"

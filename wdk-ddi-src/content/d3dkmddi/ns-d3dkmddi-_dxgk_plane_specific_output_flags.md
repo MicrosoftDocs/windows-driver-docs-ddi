@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 title: _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the flags that apply to a plane set by the driver.
 old-location: display\dxgk_plane_specific_output_flags.htm
-ms.assetid: 95D9C564-92F3-4165-8063-49D928F30475
 ms.date: 05/10/2018
 keywords: ["DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags

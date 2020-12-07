@@ -4,7 +4,6 @@ title: IOCTL_SCSI_MINIPORT_DIAGNOSTIC (ntddscsi.h)
 description: The IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code is use to perform a diagnostic request to the Miniport.
 old-location: storage\ioctl_scsi_miniport_diagnostic.htm
 tech.root: storage
-ms.assetid: 79E89E4A-3B06-40FA-BFA6-598331C0A330
 ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic

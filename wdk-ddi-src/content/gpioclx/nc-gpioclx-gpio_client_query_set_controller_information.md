@@ -4,7 +4,6 @@ title: GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION (gpioclx.h)
 description: The CLIENT_QuerySetControllerInformation event callback function queries the general-purpose I/O (GPIO) controller driver for the specified set of attributes of the GPIO controller.
 old-location: gpio\client_querysetcontrollerinformation.htm
 tech.root: GPIO
-ms.assetid: 898AE09B-2C92-4229-9A86-901CDA98CFAA
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION callback function"]
 ms.keywords: CLIENT_QuerySetControllerInformation, CLIENT_QuerySetControllerInformation callback, CLIENT_QuerySetControllerInformation callback function [Parallel Ports], GPIO.client_querysetcontrollerinformation, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, gpioclx/CLIENT_QuerySetControllerInformation

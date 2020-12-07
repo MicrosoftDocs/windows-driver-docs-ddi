@@ -4,7 +4,6 @@ title: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK (dbgeng.h)
 description: The ReconstructStack callback function queries dump stream provider on a per-thread basis.
 old-location: debugger\reconstructstack.htm
 tech.root: debugger
-ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
 ms.date: 05/03/2018
 keywords: ["PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback function"]
 ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack

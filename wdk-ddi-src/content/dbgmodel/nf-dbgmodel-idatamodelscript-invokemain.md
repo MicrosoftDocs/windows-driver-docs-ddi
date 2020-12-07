@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScript.InvokeMain
 title: IDataModelScript::InvokeMain (dbgmodel.h)
 description: If the script has a "main function" which is intended to execute from a UI invocation, it indicates such via a true return from the IsInvocable method.
-ms.assetid: c2ade702-c9fb-478c-bca7-f92fdbd748e2
 ms.date: 08/20/2018
 keywords: ["IDataModelScript::InvokeMain"]
 ms.keywords: IDataModelScript::InvokeMain, InvokeMain, IDataModelScript.InvokeMain, IDataModelScript::InvokeMain, IDataModelScript.InvokeMain

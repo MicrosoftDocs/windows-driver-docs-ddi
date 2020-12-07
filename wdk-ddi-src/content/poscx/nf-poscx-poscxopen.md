@@ -4,7 +4,6 @@ title: PosCxOpen function (poscx.h)
 description: PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's EVT_WDF_DEVICE_FILE_CREATE callback.
 old-location: pos\poscxopen.htm
 tech.root: pos
-ms.assetid: 6AB1BB0A-B350-44D7-B0D0-9A19FD6DEE19
 ms.date: 02/23/2018
 keywords: ["PosCxOpen function"]
 ms.keywords: PosCxOpen, PosCxOpen function, pos.poscxopen, poscx/PosCxOpen

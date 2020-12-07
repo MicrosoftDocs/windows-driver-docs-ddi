@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_PORT_PROPERTY_CUSTOM (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure specifies a custom policy property for a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_property_custom.htm
 tech.root: netvista
-ms.assetid: 5ac17c34-c71c-45a7-870f-7e135c8bd5ca
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_CUSTOM, netvista.ndis_switch_port_property_custom, ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_CUSTOM"

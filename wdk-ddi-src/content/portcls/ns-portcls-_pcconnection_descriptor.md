@@ -4,7 +4,6 @@ title: _PCCONNECTION_DESCRIPTOR (portcls.h)
 description: The PCCONNECTION_DESCRIPTOR structure describes a single data-path connection inside a KS filter. 
 old-location: audio\PCCONNECTION_DESCRIPTOR.htm
 tech.root: audio
-ms.assetid: 9f50924e-d15c-48fd-8846-1f94be163661
 ms.date: 09/30/2020
 keywords: ["PCCONNECTION_DESCRIPTOR structure"]
 ms.keywords: "*PPCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR structure [Audio Devices], PPCCONNECTION_DESCRIPTOR, PPCCONNECTION_DESCRIPTOR structure pointer [Audio Devices], _PCCONNECTION_DESCRIPTOR, audio.PCCONNECTION_DESCRIPTOR, portcls/PCCONNECTION_DESCRIPTOR, portcls/PPCCONNECTION_DESCRIPTOR"

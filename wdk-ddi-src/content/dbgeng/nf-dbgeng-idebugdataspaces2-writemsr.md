@@ -4,7 +4,6 @@ title: IDebugDataSpaces2::WriteMsr (dbgeng.h)
 description: The WriteMsr method writes a value to the specified Model-Specific Register (MSR).
 old-location: debugger\writemsr2.htm
 tech.root: debugger
-ms.assetid: c9838b9e-b390-455d-98d6-249a49c9165d
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces2::WriteMsr"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteMsr method, IDebugDataSpaces2 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces2.WriteMsr, IDebugDataSpaces2::WriteMsr, IDebugDataSpaces3 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces3::WriteMsr, IDebugDataSpaces4 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces4::WriteMsr, IDebugDataSpaces::WriteMsr, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, WriteMsr, WriteMsr method [Windows Debugging], WriteMsr method [Windows Debugging],IDebugDataSpaces interface, WriteMsr method [Windows Debugging],IDebugDataSpaces2 interface, WriteMsr method [Windows Debugging],IDebugDataSpaces3 interface, WriteMsr method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteMsr, dbgeng/IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces4::WriteMsr, dbgeng/IDebugDataSpaces::WriteMsr, debugger.writemsr2

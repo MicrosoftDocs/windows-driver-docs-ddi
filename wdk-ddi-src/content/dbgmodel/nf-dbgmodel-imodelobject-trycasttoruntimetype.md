@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IModelObject.TryCastToRuntimeType
 title: IModelObject::TryCastToRuntimeType (dbgmodel.h)
 description: The TryCastToRuntimeType method will ask the debug host to perform an analysis and determine the actual runtime type (most derived class) of the given object.
-ms.assetid: a65187dd-e6eb-4749-afa0-18ed308b416f
 ms.date: 08/13/2018
 keywords: ["IModelObject::TryCastToRuntimeType"]
 ms.keywords: IModelObject::TryCastToRuntimeType, TryCastToRuntimeType, IModelObject.TryCastToRuntimeType, IModelObject::TryCastToRuntimeType, IModelObject.TryCastToRuntimeType

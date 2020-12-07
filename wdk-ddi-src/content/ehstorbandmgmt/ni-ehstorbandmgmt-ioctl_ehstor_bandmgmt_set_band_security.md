@@ -4,7 +4,6 @@ title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY (ehstorbandmgmt.h)
 description: The security properties of bands in a band-managed storage device are modified with the IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY request.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_security.htm
 tech.root: storage
-ms.assetid: CBA94AF4-649D-47C9-879B-4B939DE32BE2
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, storage.ioctl_ehstor_bandmgmt_set_band_security

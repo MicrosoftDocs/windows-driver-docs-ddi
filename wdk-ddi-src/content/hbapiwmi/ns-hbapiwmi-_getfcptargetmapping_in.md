@@ -4,7 +4,6 @@ title: _GetFcpTargetMapping_IN (hbapiwmi.h)
 description: The GetFcpTargetMapping_IN structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_in.htm
 tech.root: storage
-ms.assetid: a07a97ea-17f0-4e24-89c5-1b24600ac497
 ms.date: 03/29/2018
 keywords: ["GetFcpTargetMapping_IN structure"]
 ms.keywords: "*PGetFcpTargetMapping_IN, GetFcpTargetMapping_IN, GetFcpTargetMapping_IN structure [Storage Devices], PGetFcpTargetMapping_IN, PGetFcpTargetMapping_IN structure pointer [Storage Devices], _GetFcpTargetMapping_IN, hbapiwmi/GetFcpTargetMapping_IN, hbapiwmi/PGetFcpTargetMapping_IN, storage.getfcptargetmapping_in, structs-Fibre_1c84c265-fc0a-4d56-bdb9-7a10ef80b707.xml"

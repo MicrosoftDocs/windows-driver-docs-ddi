@@ -4,7 +4,6 @@ title: IWDTFTarget2::GetValueLongNumbers (wdtf.h)
 description: Returns a collection of long number values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumbers.htm
 tech.root: dtf
-ms.assetid: 178a28be-b592-45a7-8d46-47cbf9904fc6
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::GetValueLongNumbers"]
 ms.keywords: GetValueLongNumbers, GetValueLongNumbers method [Windows Device Testing Framework], GetValueLongNumbers method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueLongNumbers method, IWDTFTarget2.GetValueLongNumbers, IWDTFTarget2::GetValueLongNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumbers, dtf.iwdtftarget2_getvaluelongnumbers, wdtf/IWDTFTarget2::GetValueLongNumbers

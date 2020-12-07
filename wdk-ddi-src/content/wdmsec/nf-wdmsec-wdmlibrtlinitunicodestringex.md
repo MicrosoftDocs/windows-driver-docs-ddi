@@ -4,7 +4,6 @@ title: WdmlibRtlInitUnicodeStringEx function (wdmsec.h)
 description: The WdmlibRtlInitUnicodeStringEx function initializes a counted string of Unicode characters.
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
 tech.root: kernel
-ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.date: 04/30/2018
 keywords: ["WdmlibRtlInitUnicodeStringEx function"]
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx

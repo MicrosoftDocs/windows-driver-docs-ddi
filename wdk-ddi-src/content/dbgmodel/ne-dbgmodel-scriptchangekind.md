@@ -2,7 +2,6 @@
 UID: NE:dbgmodel.ScriptChangeKind
 title: ScriptChangeKind (dbgmodel.h)
 description: Indicates the type of notification firing to the host.
-ms.assetid: 6aca4d1a-84d3-400e-8b00-131364737c9b
 ms.date: 07/16/2018
 keywords: ["ScriptChangeKind enumeration"]
 ms.keywords: ScriptChangeKind, ,

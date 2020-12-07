@@ -4,7 +4,6 @@ title: NdisMEnableVirtualization function (ndis.h)
 description: A miniport driver calls the NdisMEnableVirtualization function during the creation or deletion of a NIC switch on the network adapter.
 old-location: netvista\ndismenablevirtualization.htm
 tech.root: netvista
-ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.date: 05/02/2018
 keywords: ["NdisMEnableVirtualization function"]
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization

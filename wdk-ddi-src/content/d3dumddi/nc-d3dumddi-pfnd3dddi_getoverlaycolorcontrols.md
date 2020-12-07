@@ -4,7 +4,6 @@ title: PFND3DDDI_GETOVERLAYCOLORCONTROLS (d3dumddi.h)
 description: The GetOverlayColorControls function retrieves color-control settings for the given overlay.
 old-location: display\getoverlaycolorcontrols.htm
 tech.root: display
-ms.assetid: 23b15bb5-4394-406b-8869-f9d1e4e2b539
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_GETOVERLAYCOLORCONTROLS callback function"]
 ms.keywords: GetOverlayColorControls, GetOverlayColorControls callback function [Display Devices], PFND3DDDI_GETOVERLAYCOLORCONTROLS, PFND3DDDI_GETOVERLAYCOLORCONTROLS callback, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml, d3dumddi/GetOverlayColorControls, display.getoverlaycolorcontrols

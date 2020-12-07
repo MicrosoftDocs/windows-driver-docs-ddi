@@ -4,7 +4,6 @@ title: PFN_MIRACAST_IO_CONTROL (netdispumdddi.h)
 description: Called by the user-mode display driver to send the kernel-mode display miniport driver a synchronous I/O control request.The data type of this function is PFN_MIRACAST_IO_CONTROL.
 old-location: display\miracastiocontrol.htm
 tech.root: display
-ms.assetid: df63ec18-79e0-40a6-a412-46071eb8a7fe
 ms.date: 05/10/2018
 keywords: ["PFN_MIRACAST_IO_CONTROL callback function"]
 ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL callback, display.miracastiocontrol, netdispumdddi/MiracastIoControl

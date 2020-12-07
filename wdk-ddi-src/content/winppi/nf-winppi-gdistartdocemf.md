@@ -4,7 +4,6 @@ title: GdiStartDocEMF function (winppi.h)
 description: The GdiStartDocEMF function performs initialization operations for an EMF-formatted print job.
 old-location: print\gdistartdocemf.htm
 tech.root: print
-ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 ms.date: 04/20/2018
 keywords: ["GdiStartDocEMF function"]
 ms.keywords: GdiStartDocEMF, GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, print.gdistartdocemf, winppi/GdiStartDocEMF

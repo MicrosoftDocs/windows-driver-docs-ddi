@@ -4,7 +4,6 @@ title: FltAllocateExtraCreateParameterList function (fltkernel.h)
 description: The FltAllocateExtraCreateParameterList routine allocates paged pool memory for an extra create parameter (ECP) list structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameterlist.htm
 tech.root: ifsk
-ms.assetid: 0130e35f-a6a8-4fa9-9922-1d1d0f43cb2a
 ms.date: 04/16/2018
 keywords: ["FltAllocateExtraCreateParameterList function"]
 ms.keywords: FltAllocateExtraCreateParameterList, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml, fltkernel/FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist

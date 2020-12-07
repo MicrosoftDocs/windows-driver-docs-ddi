@@ -4,7 +4,6 @@ title: GdiPlayPageEMF function (winppi.h)
 description: The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.
 old-location: print\gdiplaypageemf.htm
 tech.root: print
-ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.date: 04/20/2018
 keywords: ["GdiPlayPageEMF function"]
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF

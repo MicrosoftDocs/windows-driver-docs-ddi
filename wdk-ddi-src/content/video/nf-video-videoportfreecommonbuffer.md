@@ -4,7 +4,6 @@ title: VideoPortFreeCommonBuffer function (video.h)
 description: The VideoPortFreeCommonBuffer function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportfreecommonbuffer.htm
 tech.root: display
-ms.assetid: 8725868e-00bc-45fe-ab9d-c192abd1a059
 ms.date: 05/10/2018
 keywords: ["VideoPortFreeCommonBuffer function"]
 ms.keywords: VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer function [Display Devices], VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, video/VideoPortFreeCommonBuffer

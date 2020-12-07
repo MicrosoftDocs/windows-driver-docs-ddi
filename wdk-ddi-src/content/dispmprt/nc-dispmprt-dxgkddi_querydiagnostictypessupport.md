@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
 title: DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT (dispmprt.h)
 description: The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function to discover what types of diagnostic the driver supports for the passed diagnostic category.
-ms.assetid: ad14a3b9-d0bf-4292-8e53-7f51544d96c5
 ms.date: 10/19/2018
 keywords: ["DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function"]
 req.header: dispmprt.h

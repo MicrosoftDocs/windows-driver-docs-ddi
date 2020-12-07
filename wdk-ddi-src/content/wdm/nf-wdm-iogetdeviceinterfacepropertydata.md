@@ -4,7 +4,6 @@ title: IoGetDeviceInterfacePropertyData function (wdm.h)
 description: The IoGetDeviceInterfacePropertyData routine retrieves the current value of a device interface property.
 old-location: kernel\iogetdeviceinterfacepropertydata.htm
 tech.root: kernel
-ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.date: 04/30/2018
 keywords: ["IoGetDeviceInterfacePropertyData function"]
 ms.keywords: IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata, wdm/IoGetDeviceInterfacePropertyData

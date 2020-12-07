@@ -4,7 +4,6 @@ title: SerCx2SystemDmaTransmitPurgeFifoComplete function (sercx.h)
 description: The SerCx2SystemDmaTransmitPurgeFifoComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished purging the data from the transmit FIFO in the serial controller hardware.
 old-location: serports\sercx2systemdmatransmitpurgefifocomplete.htm
 tech.root: serports
-ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitPurgeFifoComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete

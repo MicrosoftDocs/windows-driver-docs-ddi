@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetAdapterOffloadSetTxChecksumCapabilities
 title: NetAdapterOffloadSetTxChecksumCapabilities function (netadapteroffload.h)
 description: The NetAdapterOffloadSetTxChecksumCapabilities function sets the hardware Tx checksum offload capabilities of a network adapter.
 tech.root: netvista
-ms.assetid: 
 ms.date: 10/06/2020
 keywords: ["NetAdapterOffloadSetTxChecksumCapabilities function"]
 f1_keywords:

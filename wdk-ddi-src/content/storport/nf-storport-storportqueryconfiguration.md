@@ -3,7 +3,6 @@ UID: NF:storport.StorPortQueryConfiguration
 title: StorPortQueryConfiguration function
 description: A miniport can call StorPortQueryConfiguration to get the specific configuration of the platform.
 tech.root: storage
-ms.assetid: f5f37d7a-4171-4273-9076-32d7cce1c508
 ms.date: 03/06/2019
 keywords: ["StorPortQueryConfiguration function"]
 ms.keywords: StorPortQueryConfiguration

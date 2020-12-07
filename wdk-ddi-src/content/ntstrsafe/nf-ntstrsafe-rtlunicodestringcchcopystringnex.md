@@ -4,7 +4,6 @@ title: RtlUnicodeStringCchCopyStringNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCchCopyStringNEx function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcopystringnex.htm
 tech.root: kernel
-ms.assetid: abbb1afd-b5a4-4be2-9cca-c5c5d7e0aa51
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCchCopyStringNEx function"]
 ms.keywords: RtlUnicodeStringCchCopyStringNEx, RtlUnicodeStringCchCopyStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopystringnex, ntstrsafe/RtlUnicodeStringCchCopyStringNEx, safestrings_3c97192f-198f-4ab5-8c56-7a73d501be0b.xml

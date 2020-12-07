@@ -4,7 +4,6 @@ title: WdfDmaTransactionDmaCompletedFinal function (wdfdmatransaction.h)
 description: The WdfDmaTransactionDmaCompletedFinal method notifies the framework that a device's DMA transfer operation has completed with an underrun condition and supplies the length of the completed transfer.
 old-location: wdf\wdfdmatransactiondmacompletedfinal.htm
 tech.root: wdf
-ms.assetid: de16eaf4-11f0-428b-8833-1d1e6ef78853
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionDmaCompletedFinal function"]
 ms.keywords: DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, WdfDmaTransactionDmaCompletedFinal method, kmdf.wdfdmatransactiondmacompletedfinal, wdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal

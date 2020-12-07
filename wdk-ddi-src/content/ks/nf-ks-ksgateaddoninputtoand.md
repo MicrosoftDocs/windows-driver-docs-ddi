@@ -4,7 +4,6 @@ title: KsGateAddOnInputToAnd function (ks.h)
 description: The KsGateAddOnInputToAnd function adds a new input in the ON state to a given AND gate.
 old-location: stream\ksgateaddoninputtoand.htm
 tech.root: stream
-ms.assetid: cde5e5d8-9af7-452e-afaa-8669c5749c9e
 ms.date: 04/23/2018
 keywords: ["KsGateAddOnInputToAnd function"]
 ms.keywords: KsGateAddOnInputToAnd, KsGateAddOnInputToAnd function [Streaming Media Devices], avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand

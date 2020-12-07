@@ -4,7 +4,6 @@ title: _CHANGER_PRODUCT_DATA (ntddchgr.h)
 description: The CHANGER_PRODUCT_DATA structure is used in conjunction with the IOCTL_CHANGER_GET_PRODUCT_DATA request to retrieve product data for a device.
 old-location: storage\changer_product_data.htm
 tech.root: storage
-ms.assetid: 18e5b394-b0ea-481c-b634-83a2ebec4784
 ms.date: 03/29/2018
 keywords: ["CHANGER_PRODUCT_DATA structure"]
 ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure [Storage Devices], PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices], _CHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, storage.changer_product_data, structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml"

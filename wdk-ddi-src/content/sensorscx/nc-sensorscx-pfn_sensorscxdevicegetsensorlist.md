@@ -3,7 +3,6 @@ UID: NC:sensorscx.PFN_SENSORSCXDEVICEGETSENSORLIST
 title: PFN_SENSORSCXDEVICEGETSENSORLIST (sensorscx.h)
 description: Returns a list of sensor instances associated with a WDFDEVICE.
 tech.root: sensors
-ms.assetid: aec04f70-2160-4990-bf64-ac7f4a4fc838
 ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXDEVICEGETSENSORLIST callback function"]
 req.header: sensorscx.h

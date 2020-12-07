@@ -4,7 +4,6 @@ title: IOCTL_NFCSE_GET_NFCC_CAPABILITIES (nfcsedev.h)
 description: The IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code returns information about the current NFC controller capabilities, including the maximum Listen Mode Routing table size (defined in section 4.2 of the NFC Controller Interface (NCI) Technical Specification Version 1.1) and supported routing modes.
 old-location: nfpdrivers\ioctl_nfcse_get_nfcc_capabilities.htm
 tech.root: nfpdrivers
-ms.assetid: 4323FEDF-A7D0-4B67-BC3D-ECAA7AD1CC08
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_GET_NFCC_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities

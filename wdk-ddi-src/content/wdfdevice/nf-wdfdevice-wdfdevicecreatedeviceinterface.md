@@ -4,7 +4,6 @@ title: WdfDeviceCreateDeviceInterface function (wdfdevice.h)
 description: The WdfDeviceCreateDeviceInterface method creates a device interface for a specified device.
 old-location: wdf\wdfdevicecreatedeviceinterface.htm
 tech.root: wdf
-ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.date: 03/24/2020
 keywords: ["WdfDeviceCreateDeviceInterface function"]
 ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface

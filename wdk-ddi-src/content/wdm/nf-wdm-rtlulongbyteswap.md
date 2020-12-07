@@ -4,7 +4,6 @@ title: RtlUlongByteSwap macro (wdm.h)
 description: The RtlUlongByteSwap routine reverses the ordering of the four bytes in a 32-bit unsigned integer value.
 old-location: kernel\rtlulongbyteswap.htm
 tech.root: kernel
-ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.date: 04/30/2018
 keywords: ["RtlUlongByteSwap macro"]
 ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap

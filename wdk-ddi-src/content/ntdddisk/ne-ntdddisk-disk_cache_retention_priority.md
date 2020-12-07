@@ -4,7 +4,6 @@ title: DISK_CACHE_RETENTION_PRIORITY (ntdddisk.h)
 description: The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the IOCTL_DISK_GET_CACHE_INFORMATION request and the structure DISK_CACHE_INFORMATION to indicate which kinds data are to be held in the cache on a preferential basis.
 old-location: storage\disk_cache_retention_priority.htm
 tech.root: storage
-ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.date: 03/29/2018
 keywords: ["DISK_CACHE_RETENTION_PRIORITY enumeration"]
 ms.keywords: DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], EqualPriority, KeepPrefetchedData, KeepReadData, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, ntdddisk/EqualPriority, ntdddisk/KeepPrefetchedData, ntdddisk/KeepReadData, storage.disk_cache_retention_priority, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml

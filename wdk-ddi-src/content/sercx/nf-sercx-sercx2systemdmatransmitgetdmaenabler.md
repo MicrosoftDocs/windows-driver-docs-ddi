@@ -4,7 +4,6 @@ title: SerCx2SystemDmaTransmitGetDmaEnabler function (sercx.h)
 description: The SerCx2SystemDmaTransmitGetDmaEnabler method gets the DMA enabler for the system DMA controller that is used for system-DMA-transmit transactions.
 old-location: serports\sercx2systemdmatransmitgetdmaenabler.htm
 tech.root: serports
-ms.assetid: 5B6893D4-51ED-483C-87F4-0404C48E100F
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitGetDmaEnabler function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], serports.sercx2systemdmatransmitgetdmaenabler

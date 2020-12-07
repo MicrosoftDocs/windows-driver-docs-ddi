@@ -4,7 +4,6 @@ title: HwNProcessAddDevicePostDeviceCreate function (hwnclx.h)
 description: Creates I/O queues. It should be called after the client driver’s EVT_WDF_DRIVER_DEVICE_ADD callback function is invoked and the device object has been created.
 old-location: gpiobtn\hwnprocessadddevicepostdevicecreate.htm
 tech.root: gpiobtn
-ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
 ms.date: 02/15/2018
 keywords: ["HwNProcessAddDevicePostDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate

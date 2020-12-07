@@ -4,7 +4,6 @@ title: IoCsqInitializeEx function (wdm.h)
 description: The IoCsqInitializeEx routine initializes the dispatch table for a cancel-safe IRP queue.
 old-location: kernel\iocsqinitializeex.htm
 tech.root: kernel
-ms.assetid: 9f6501c2-a708-4583-a821-e1b8264ff0af
 ms.date: 04/30/2018
 keywords: ["IoCsqInitializeEx function"]
 ms.keywords: IoCsqInitializeEx, IoCsqInitializeEx routine [Kernel-Mode Driver Architecture], k104_68bf2330-ba47-4896-8052-41afee2d887e.xml, kernel.iocsqinitializeex, wdm/IoCsqInitializeEx

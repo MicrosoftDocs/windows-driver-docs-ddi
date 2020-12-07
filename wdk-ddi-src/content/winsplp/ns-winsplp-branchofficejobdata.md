@@ -4,7 +4,6 @@ title: BranchOfficeJobData (winsplp.h)
 description: This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.
 old-location: print\branchofficejobdata.htm
 tech.root: print
-ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.date: 04/20/2018
 keywords: ["BranchOfficeJobData structure"]
 ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"

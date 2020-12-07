@@ -3,7 +3,6 @@ UID: NF:ndis.NdisGetNblTimestampInfo
 title: NdisGetNblTimestampInfo function (ndis.h)
 description: This function is reserved for system use and should not be called in your code.
 tech.root: netvista
-ms.assetid: a71d10b6-aab2-43fe-9adf-f5289d6f77a7
 ms.date: 08/08/2018
 keywords: ["NdisGetNblTimestampInfo function"]
 ms.keywords: NdisGetNblTimestampInfo

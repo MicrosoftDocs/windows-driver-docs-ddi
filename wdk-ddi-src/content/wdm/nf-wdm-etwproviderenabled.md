@@ -4,7 +4,6 @@ title: EtwProviderEnabled function (wdm.h)
 description: The EtwProviderEnabled function verifies that a provider is enabled for event logging at a specified level and keyword.
 old-location: devtest\etwproviderenabled.htm
 tech.root: devtest
-ms.assetid: 28b0a40e-e8e8-4953-8a3a-f3f1b58ad80f
 ms.date: 02/23/2018
 keywords: ["EtwProviderEnabled function"]
 ms.keywords: EtwProviderEnabled, EtwProviderEnabled function [Driver Development Tools], devtest.etwproviderenabled, etw_km_ea4989d3-f349-4dda-9d86-f1b9528ddf1c.xml, wdm/EtwProviderEnabled

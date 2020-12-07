@@ -4,7 +4,6 @@ title: IPort (portcls.h)
 description: The IPort interface is the generic interface for audio port drivers. All audio port drivers expose IPort as part of their lower edge. The adapter driver calls the initialization method on this interface. IPort inherits from the IUnknown interface.
 old-location: audio\iport.htm
 tech.root: audio
-ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.date: 03/19/2018
 keywords: ["IPort interface"]
 ms.keywords: IPort, IPort interface [Audio Devices], IPort interface [Audio Devices], described, audio.iport, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml, portcls/IPort

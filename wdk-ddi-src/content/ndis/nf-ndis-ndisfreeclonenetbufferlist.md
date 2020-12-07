@@ -4,7 +4,6 @@ title: NdisFreeCloneNetBufferList function (ndis.h)
 description: Call the NdisFreeCloneNetBufferList function to free a NET_BUFFER_LIST structure and all associated NET_BUFFER structures and MDL chains that were previously allocated by calling the NdisAllocateCloneNetBufferList function.
 old-location: netvista\ndisfreeclonenetbufferlist.htm
 tech.root: netvista
-ms.assetid: 3c632d54-8eb2-475b-8cdf-363028f67437
 ms.date: 05/02/2018
 keywords: ["NdisFreeCloneNetBufferList function"]
 ms.keywords: NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneNetBufferList, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, netvista.ndisfreeclonenetbufferlist

@@ -4,7 +4,6 @@ title: IPnpCallback::OnQueryRemove (wudfddi.h)
 description: The OnQueryRemove method notifies a driver before a device is removed from a computer.
 old-location: wdf\ipnpcallback_onqueryremove.htm
 tech.root: wdf
-ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.date: 02/26/2018
 keywords: ["IPnpCallback::OnQueryRemove"]
 ms.keywords: IPnpCallback interface,OnQueryRemove method, IPnpCallback.OnQueryRemove, IPnpCallback::OnQueryRemove, OnQueryRemove, OnQueryRemove method, OnQueryRemove method,IPnpCallback interface, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, umdf.ipnpcallback_onqueryremove, wdf.ipnpcallback_onqueryremove, wudfddi/IPnpCallback::OnQueryRemove

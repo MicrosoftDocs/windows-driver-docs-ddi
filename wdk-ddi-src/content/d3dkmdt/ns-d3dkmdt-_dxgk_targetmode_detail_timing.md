@@ -4,7 +4,6 @@ title: _DXGK_TARGETMODE_DETAIL_TIMING (d3dkmdt.h)
 description: The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's additional timing modes that are compatible with the display device.
 old-location: display\dxgk_targetmode_detail_timing.htm
 tech.root: display
-ms.assetid: bf5e53fa-bafd-4325-be8e-97d1c6aa334e
 ms.date: 05/10/2018
 keywords: ["DXGK_TARGETMODE_DETAIL_TIMING structure"]
 ms.keywords: DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, _DXGK_TARGETMODE_DETAIL_TIMING, d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing

@@ -4,7 +4,6 @@ title: CmCallbackGetKeyObjectID function (wdm.h)
 description: The CmCallbackGetKeyObjectID routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectid.htm
 tech.root: kernel
-ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.date: 04/30/2018
 keywords: ["CmCallbackGetKeyObjectID function"]
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID

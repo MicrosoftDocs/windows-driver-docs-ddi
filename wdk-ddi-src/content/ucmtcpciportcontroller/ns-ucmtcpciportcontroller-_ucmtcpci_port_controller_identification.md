@@ -4,7 +4,6 @@ title: _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION (ucmtcpciportcontroller.h)
 description: Contains identification information and USB specification version information (in BCD format) about the port controller.
 old-location: buses\ucmtcpci_port_controller_identification.htm
 tech.root: usbref
-ms.assetid: fad8ca8b-1854-4a71-a0f2-60c211ece022
 ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"

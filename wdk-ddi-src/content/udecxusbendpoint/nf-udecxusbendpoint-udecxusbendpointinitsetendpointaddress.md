@@ -4,7 +4,6 @@ title: UdecxUsbEndpointInitSetEndpointAddress function (udecxusbendpoint.h)
 description: Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
 old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 tech.root: usbref
-ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetEndpointAddress function"]
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress

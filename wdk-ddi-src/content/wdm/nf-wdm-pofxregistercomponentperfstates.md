@@ -4,7 +4,6 @@ title: PoFxRegisterComponentPerfStates function (wdm.h)
 description: The PoFxRegisterComponentPerfStates routine registers a device component for performance state management by the power management framework (PoFx).
 old-location: kernel\pofxregistercomponentperfstates.htm
 tech.root: kernel
-ms.assetid: 5A52543B-F0EA-4318-A66F-F9FA60FF94F5
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterComponentPerfStates function"]
 ms.keywords: PO_FX_FLAG_PERF_PEP_OPTIONAL, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PO_FX_FLAG_PERF_QUERY_ON_F0, PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture], kernel.pofxregistercomponentperfstates, wdm/PoFxRegisterComponentPerfStates

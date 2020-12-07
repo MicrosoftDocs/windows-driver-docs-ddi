@@ -2,7 +2,6 @@
 UID: NF:acpitabl.PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
 title: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro (acpitabl.h)
 description: Defines the processor topology node cache type instruction macro.
-ms.assetid: 95029449-5656-4098-9e83-a8fead0941fd
 ms.date: 10/01/2018
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION

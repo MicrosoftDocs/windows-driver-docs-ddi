@@ -2,7 +2,6 @@
 UID: NS:wdm._BUS_RESOURCE_UPDATE_INTERFACE
 title: _BUS_RESOURCE_UPDATE_INTERFACE (wdm.h)
 description: Enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_RESOURCE_UPDATE_INTERFACE interface.
-ms.assetid: 8089cc50-7d68-49c0-bc2a-93f55f64b2ce
 ms.date: 09/30/2018
 tech.root: kernel
 keywords: ["BUS_RESOURCE_UPDATE_INTERFACE structure"]

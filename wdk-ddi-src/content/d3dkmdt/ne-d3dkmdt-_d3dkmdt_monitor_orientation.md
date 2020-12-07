@@ -4,7 +4,6 @@ title: _D3DKMDT_MONITOR_ORIENTATION (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_ORIENTATION enumeration is used to describe the orientation (rotation angle) of a connected external display device.
 old-location: display\d3dkmdt_monitor_orientation.htm
 tech.root: display
-ms.assetid: 16e7d91c-04de-4a8c-97c2-c500d0d3697d
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_ORIENTATION enumeration"]
 ms.keywords: D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], D3DKMDT_MO_0DEG, D3DKMDT_MO_180DEG, D3DKMDT_MO_270DEG, D3DKMDT_MO_90DEG, D3DKMDT_MO_UNINITIALIZED, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, _D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_0DEG, d3dkmdt/D3DKMDT_MO_180DEG, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, display.d3dkmdt_monitor_orientation

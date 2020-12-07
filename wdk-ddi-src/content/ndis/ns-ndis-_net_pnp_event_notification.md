@@ -4,7 +4,6 @@ title: _NET_PNP_EVENT_NOTIFICATION (ndis.h)
 description: The NET_PNP_EVENT_NOTIFICATION structure describes a network Plug and Play (PnP) event, an NDIS PnP event, or a power management event.
 old-location: netvista\net_pnp_event_notification.htm
 tech.root: netvista
-ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.date: 05/02/2018
 keywords: ["NET_PNP_EVENT_NOTIFICATION structure"]
 ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml"

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_GETPOSTCOMPOSITIONCAPS
 title: _DXGKARG_GETPOSTCOMPOSITIONCAPS (d3dkmddi.h)
 description: Arguments for the DxgkDdiGetPostCompositionCaps function.
 old-location: display\dxgkarg_getpostcompositioncaps.htm
-ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.date: 05/10/2018
 keywords: ["DXGKARG_GETPOSTCOMPOSITIONCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"

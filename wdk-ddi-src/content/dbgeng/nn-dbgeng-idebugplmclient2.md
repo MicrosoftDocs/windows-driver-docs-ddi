@@ -4,7 +4,6 @@ title: IDebugPlmClient2 (dbgeng.h)
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient2.htm
 tech.root: debugger
-ms.assetid: 22AACAD1-292B-42D9-95F7-A3654E2077FB
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient2 interface"]
 ms.keywords: IDebugPlmClient2, IDebugPlmClient2 interface [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging],described, dbgeng/IDebugPlmClient2, debugger.idebugplmclient2

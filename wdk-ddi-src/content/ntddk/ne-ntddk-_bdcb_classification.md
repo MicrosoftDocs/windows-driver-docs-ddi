@@ -4,7 +4,6 @@ title: _BDCB_CLASSIFICATION (ntddk.h)
 description: The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
 old-location: kernel\bdcb_classification.htm
 tech.root: kernel
-ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.date: 04/30/2018
 keywords: ["BDCB_CLASSIFICATION enumeration"]
 ms.keywords: "*PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], BdCbClassificationEnd, BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownGoodImage, BdCbClassificationUnknownImage, _BDCB_CLASSIFICATION, kernel.bdcb_classification, ntddk/BDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationUnknownImage"

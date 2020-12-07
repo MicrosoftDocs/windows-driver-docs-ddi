@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TAL_TXRX_PEER_CONFIG (dot11wdi.h)
 description: The MiniportWdiTalTxRxPeerConfig handler function specifies the port ID, peer ID, and peer capabilities (for example, QoS capabilities). It is invoked after the peer has associated, which involves creation of the peer object in the TAL.
 old-location: netvista\miniportwditaltxrxpeerconfig.htm
 tech.root: netvista
-ms.assetid: 48BB554D-A19E-46C0-8278-690A686A731D
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_CONFIG, MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback, MiniportWdiTalTxRxPeerConfig, MiniportWdiTalTxRxPeerConfig callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerConfig, netvista.miniportwditaltxrxpeerconfig

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_COMMITVIDPN
 title: DXGKDDI_COMMITVIDPN (d3dkmddi.h)
 description: The DxgkDdiCommitVidPn function makes a specified video present network (VidPN) active on a display adapter.
 old-location: display\dxgkddicommitvidpn.htm
-ms.assetid: 979b86e9-f3ff-4022-8c00-b6afc2b1f747
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_COMMITVIDPN callback function"]
 ms.keywords: DXGKDDI_COMMITVIDPN, DXGKDDI_COMMITVIDPN callback, DmFunctions_467cba1e-3eeb-4735-9fb3-46c8c737b48d.xml, DxgkDdiCommitVidPn, DxgkDdiCommitVidPn callback function [Display Devices], d3dkmddi/DxgkDdiCommitVidPn, display.dxgkddicommitvidpn

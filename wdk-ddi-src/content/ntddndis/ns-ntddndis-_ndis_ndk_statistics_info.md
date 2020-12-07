@@ -4,7 +4,6 @@ title: _NDIS_NDK_STATISTICS_INFO (ntddndis.h)
 description: The NDIS_NDK_STATISTICS_INFO structure contains the NDK statistics.
 old-location: netvista\ndis_ndk_statistics_info.htm
 tech.root: netvista
-ms.assetid: F3FA3790-0754-4D5E-9F27-8ECD71278520
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_STATISTICS_INFO structure"]
 ms.keywords: NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, ntddndis/NDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO

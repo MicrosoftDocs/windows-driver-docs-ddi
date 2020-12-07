@@ -4,7 +4,6 @@ title: FltCbdqRemoveNextIo function (fltkernel.h)
 description: FltCbdqRemoveNextIo removes the next matching item in a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqremovenextio.htm
 tech.root: ifsk
-ms.assetid: 4f207ef2-e999-4410-aaa1-5d32c4f22864
 ms.date: 04/16/2018
 keywords: ["FltCbdqRemoveNextIo function"]
 ms.keywords: FltApiRef_a_to_d_fec6e01e-c699-45cf-b9fb-c4dea9b2e462.xml, FltCbdqRemoveNextIo, FltCbdqRemoveNextIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveNextIo, ifsk.fltcbdqremovenextio

@@ -4,7 +4,6 @@ title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
 old-location: gnss\gnss_device_capability.htm
 tech.root: gnss
-ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.date: 02/15/2018
 keywords: ["GNSS_DEVICE_CAPABILITY structure"]
 ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"

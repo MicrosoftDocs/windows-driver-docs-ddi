@@ -4,7 +4,6 @@ title: DMA_CHANNEL_ALLOCATE_HANDLER (netdma.h)
 description: The ProviderAllocateDmaChannel function allocates a DMA channel.
 old-location: netvista\providerallocatedmachannel.htm
 tech.root: netvista
-ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.date: 05/02/2018
 keywords: ["DMA_CHANNEL_ALLOCATE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER callback, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel

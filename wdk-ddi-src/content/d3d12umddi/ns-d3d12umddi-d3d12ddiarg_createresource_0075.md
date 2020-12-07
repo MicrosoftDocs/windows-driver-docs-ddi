@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATERESOURCE_0075
 title: D3D12DDIARG_CREATERESOURCE_0075
 ms.date: 03/24/2020
 ms.topic: language-reference
-ms.assetid: fef28c03-137d-4e3e-83cd-5cf56e9bf438
 tech.root: display
 targetos: Windows
 description: A structure containing information needed to describe the creation or size calculation of a resource.

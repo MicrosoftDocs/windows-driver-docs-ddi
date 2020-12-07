@@ -4,7 +4,6 @@ title: KSPROPERTY_CAMERACONTROL_NODE_S2 (ksmedia.h)
 description: The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set that use two values at the same time. This structure specifies property values in requests to the USB video class driver.
 old-location: stream\ksproperty_cameracontrol_node_s2.htm
 tech.root: stream
-ms.assetid: 0d3ed82e-3565-4b0b-bca9-1d0b91732d18
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_NODE_S2 structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml"

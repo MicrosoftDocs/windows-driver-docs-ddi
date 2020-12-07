@@ -4,7 +4,6 @@ title: _DXGK_MONITORLINKINFO_CAPABILITIES (d3dkmdt.h)
 description: Flags which describe the capabilities for driving the monitor.
 old-location: display\dxgk_monitorlinkinfo_capabilities.htm
 tech.root: display
-ms.assetid: 9838DF74-6561-40DB-A745-A15005B97AAC
 ms.date: 04/16/2018
 keywords: ["DXGK_MONITORLINKINFO_CAPABILITIES structure"]
 ms.keywords: "*PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES union [Display Devices], PDXGK_MONITORLINKINFO_CAPABILITIES, PDXGK_MONITORLINKINFO_CAPABILITIES union pointer [Display Devices], _DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/PDXGK_MONITORLINKINFO_CAPABILITIES, display.dxgk_monitorlinkinfo_capabilities"

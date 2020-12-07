@@ -5,7 +5,6 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: display
-ms.assetid: fd8977d8-74dd-42a8-a02d-50bbe1741ed7
 description: The D3DDDI_BATCHEDMARKERDATA structure provides high-performance marker data from D3D12 drivers.
 req.construct-type: structure
 req.ddi-compliance: 

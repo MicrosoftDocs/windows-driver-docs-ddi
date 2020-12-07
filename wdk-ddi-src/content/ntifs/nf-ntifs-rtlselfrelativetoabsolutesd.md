@@ -4,7 +4,6 @@ title: RtlSelfRelativeToAbsoluteSD function (ntifs.h)
 description: The RtlSelfRelativeToAbsoluteSD routine creates a new security descriptor in absolute format by using a security descriptor in self-relative format as a template.
 old-location: ifsk\rtlselfrelativetoabsolutesd.htm
 tech.root: ifsk
-ms.assetid: 31565c5f-a1f2-4a81-bb91-e30e13f45050
 ms.date: 04/16/2018
 keywords: ["RtlSelfRelativeToAbsoluteSD function"]
 ms.keywords: RtlSelfRelativeToAbsoluteSD, RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers], ifsk.rtlselfrelativetoabsolutesd, ntifs/RtlSelfRelativeToAbsoluteSD, rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml

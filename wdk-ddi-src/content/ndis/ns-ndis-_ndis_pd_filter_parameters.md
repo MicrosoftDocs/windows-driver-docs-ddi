@@ -4,7 +4,6 @@ title: _NDIS_PD_FILTER_PARAMETERS (ndis.h)
 description: This structure holds metadata for a packet filter.
 old-location: netvista\ndis_pd_filter_parameters.htm
 tech.root: netvista
-ms.assetid: AE220435-C8EC-408E-8177-A88FC858FA5A
 ms.date: 05/02/2018
 keywords: ["NDIS_PD_FILTER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters

@@ -4,7 +4,6 @@ title: UcxUsbDeviceInitSetEventCallbacks function (ucxusbdevice.h)
 description: Initializes a UCXUSBDEVICE_INIT structure with client driver's event callback functions.
 old-location: buses\_ucxusbdeviceinitseteventcallbacks.htm
 tech.root: usbref
-ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.date: 05/07/2018
 keywords: ["UcxUsbDeviceInitSetEventCallbacks function"]
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks

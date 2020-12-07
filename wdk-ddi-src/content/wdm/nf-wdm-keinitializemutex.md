@@ -4,7 +4,6 @@ title: KeInitializeMutex function (wdm.h)
 description: The KeInitializeMutex routine initializes a mutex object, setting it to a signaled state.
 old-location: kernel\keinitializemutex.htm
 tech.root: kernel
-ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.date: 04/30/2018
 keywords: ["KeInitializeMutex function"]
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex

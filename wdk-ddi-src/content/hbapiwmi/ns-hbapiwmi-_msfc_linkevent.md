@@ -4,7 +4,6 @@ title: _MSFC_LinkEvent (hbapiwmi.h)
 description: A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 old-location: storage\msfc_linkevent.htm
 tech.root: storage
-ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.date: 03/29/2018
 keywords: ["MSFC_LinkEvent structure"]
 ms.keywords: "*PMSFC_LinkEvent, MSFC_LinkEvent, MSFC_LinkEvent structure [Storage Devices], PMSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], _MSFC_LinkEvent, hbapiwmi/MSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, storage.msfc_linkevent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml"

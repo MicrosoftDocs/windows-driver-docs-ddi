@@ -4,7 +4,6 @@ title: StorPortIsDeviceOperationAllowed function (storport.h)
 description: A miniport driver can call the StorPortIsDeviceOperationAllowedminiport routine to determine if operations for a certain device management class are allowed.
 old-location: storage\storportisdeviceoperationallowed.htm
 tech.root: storage
-ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.date: 03/29/2018
 keywords: ["StorPortIsDeviceOperationAllowed function"]
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed

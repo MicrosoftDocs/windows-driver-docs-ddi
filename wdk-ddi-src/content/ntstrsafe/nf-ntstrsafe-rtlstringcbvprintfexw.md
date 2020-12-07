@@ -4,7 +4,6 @@ title: RtlStringCbVPrintfExW function (ntstrsafe.h)
 description: The RtlStringCbVPrintfExW and RtlStringCbVPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbvprintfex.htm
 tech.root: kernel
-ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.date: 04/30/2018
 keywords: ["RtlStringCbVPrintfExW function"]
 ms.keywords: RtlStringCbVPrintfEx, RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbvprintfex, ntstrsafe/RtlStringCbVPrintfExA, ntstrsafe/RtlStringCbVPrintfExW, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml

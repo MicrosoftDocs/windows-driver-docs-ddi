@@ -3,7 +3,6 @@ UID: NE:d3dkmddi._DXGK_INTERRUPT_STATE
 title: _DXGK_INTERRUPT_STATE (d3dkmddi.h)
 description: Provides additional information for DxgkDdi_ControlInterrupt2 or DxgkDdi_ControlInterrupt3 when VSYNC is not being utilized.
 old-location: display\dxgk_interrupt_state.htm
-ms.assetid: C72DF96B-5D12-4AC0-8FBB-904E087807DB
 ms.date: 05/10/2018
 keywords: ["DXGK_INTERRUPT_STATE enumeration"]
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state

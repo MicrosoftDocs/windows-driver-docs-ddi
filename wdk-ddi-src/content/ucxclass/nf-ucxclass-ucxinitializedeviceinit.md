@@ -4,7 +4,6 @@ title: UcxInitializeDeviceInit function (ucxclass.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\_ucxinitializedeviceinit.htm
 tech.root: usbref
-ms.assetid: A92A3E2E-1C73-40BD-808A-CBC14404F3E9
 ms.date: 05/07/2018
 keywords: ["UcxInitializeDeviceInit function"]
 ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit

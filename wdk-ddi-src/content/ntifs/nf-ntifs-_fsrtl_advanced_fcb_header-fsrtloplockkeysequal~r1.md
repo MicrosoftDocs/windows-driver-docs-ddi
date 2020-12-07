@@ -4,7 +4,6 @@ title: FsRtlOplockKeysEqual function (ntifs.h)
 description: The FsRtlOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fsrtloplockkeysequal.htm
 tech.root: ifsk
-ms.assetid: a4adc761-cf0c-466c-b20f-0af2da9ec447
 ms.date: 03/29/2018
 keywords: ["FsRtlOplockKeysEqual function"]
 ms.keywords: FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers], fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual

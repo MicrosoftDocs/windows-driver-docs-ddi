@@ -4,7 +4,6 @@ title: SRIOV_WRITE_CONFIG (pcivirt.h)
 description: Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_write_config.htm
 tech.root: PCI
-ms.assetid: 323c8150-ef58-42a4-8c8b-77081ecb64b3
 ms.date: 02/24/2018
 keywords: ["SRIOV_WRITE_CONFIG callback"]
 ms.keywords: "*PSRIOV_WRITE_CONFIG, *PSRIOV_WRITE_CONFIG callback function pointer [Buses], PCI.sriov_write_config, SRIOV_WRITE_CONFIG, SriovWriteConfig, SriovWriteConfig callback function [Buses], pcivirt/SriovWriteConfig"

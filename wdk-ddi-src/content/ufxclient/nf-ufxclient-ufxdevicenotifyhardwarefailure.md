@@ -4,7 +4,6 @@ title: UfxDeviceNotifyHardwareFailure function (ufxclient.h)
 description: Notifies UFX about a non-recoverable hardware failure in the controller.
 old-location: buses\ufxdevicenotifyhardwarefailure.htm
 tech.root: usbref
-ms.assetid: 2EEA262C-5186-4450-A01D-212278ED710B
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyHardwareFailure function"]
 ms.keywords: UfxDeviceNotifyHardwareFailure, UfxDeviceNotifyHardwareFailure method [Buses], buses.ufxdevicenotifyhardwarefailure, ufxclient/UfxDeviceNotifyHardwareFailure

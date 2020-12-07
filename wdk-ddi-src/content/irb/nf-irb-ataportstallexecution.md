@@ -4,7 +4,6 @@ title: AtaPortStallExecution function (irb.h)
 description: The AtaPortStallExecution stalls in the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportstallexecution.htm
 tech.root: storage
-ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.date: 03/29/2018
 keywords: ["AtaPortStallExecution function"]
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution

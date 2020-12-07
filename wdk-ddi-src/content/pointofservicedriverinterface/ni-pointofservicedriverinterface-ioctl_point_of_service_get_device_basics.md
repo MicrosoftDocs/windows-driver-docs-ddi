@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS (pointofservicedriverinterface.h
 description: This I/O control function gets the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\ioctl_point_of_service_get_device_basics.htm
 tech.root: pos
-ms.assetid: dca09bfc-97cc-43b8-bf57-3d7c2b0321a9
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics

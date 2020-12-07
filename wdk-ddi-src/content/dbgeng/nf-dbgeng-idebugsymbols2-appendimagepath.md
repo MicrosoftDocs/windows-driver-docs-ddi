@@ -4,7 +4,6 @@ title: IDebugSymbols2::AppendImagePath (dbgeng.h)
 description: The AppendImagePath method appends directories to the executable image path.
 old-location: debugger\appendimagepath.htm
 tech.root: debugger
-ms.assetid: faafc6d0-f311-46c1-87c1-8b0ea20984db
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::AppendImagePath"]
 ms.keywords: AppendImagePath, AppendImagePath method [Windows Debugging], AppendImagePath method [Windows Debugging],IDebugSymbols interface, AppendImagePath method [Windows Debugging],IDebugSymbols2 interface, AppendImagePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AppendImagePath method, IDebugSymbols2 interface [Windows Debugging],AppendImagePath method, IDebugSymbols2.AppendImagePath, IDebugSymbols2::AppendImagePath, IDebugSymbols3 interface [Windows Debugging],AppendImagePath method, IDebugSymbols3::AppendImagePath, IDebugSymbols::AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, debugger.appendimagepath

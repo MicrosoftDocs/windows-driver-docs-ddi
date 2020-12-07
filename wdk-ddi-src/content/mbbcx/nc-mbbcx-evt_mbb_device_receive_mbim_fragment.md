@@ -3,7 +3,6 @@ UID: NC:mbbcx.EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT
 title: EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT (mbbcx.h)
 description: A client driver's EvtMbbDeviceReceiveMbimFragment event callback function provides the response message returned from its device in response to a previous MBIM control message sent from MBBCx. This callback function is the equivalent of the GetEncapsulatedResponse request defined in the MBIM specification.
 tech.root: netvista
-ms.assetid: aaf0e1ca-600d-4912-93ae-10dc6d04dd7e
 ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT callback function"]
 req.header: mbbcx.h

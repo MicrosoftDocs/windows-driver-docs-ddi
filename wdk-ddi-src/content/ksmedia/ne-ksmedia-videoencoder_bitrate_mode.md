@@ -4,7 +4,6 @@ title: VIDEOENCODER_BITRATE_MODE (ksmedia.h)
 description: The VIDEOENCODER_BITRATE_MODE enumeration describes the bit rate encoding modes supported by the device.
 old-location: stream\videoencoder_bitrate_mode.htm
 tech.root: stream
-ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.date: 04/23/2018
 keywords: ["VIDEOENCODER_BITRATE_MODE enumeration"]
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, VariableBitRatePeak, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/ConstantBitRate, ksmedia/VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRateAverage, ksmedia/VariableBitRatePeak, stream.videoencoder_bitrate_mode

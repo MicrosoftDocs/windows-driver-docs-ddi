@@ -2,7 +2,6 @@
 UID: NS:ntifs._FILE_ID_INFORMATION
 title: FILE_ID_INFORMATION
 ms.date: 11/20/2020
-ms.assetid: c7fe6f83-30be-4206-88f6-f18545b3b03a
 tech.root: ifsk
 ms.topic: language-reference
 targetos: Windows

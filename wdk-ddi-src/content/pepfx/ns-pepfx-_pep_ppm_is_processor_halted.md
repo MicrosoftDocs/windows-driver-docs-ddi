@@ -4,7 +4,6 @@ title: _PEP_PPM_IS_PROCESSOR_HALTED (pepfx.h)
 description: The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state.
 old-location: kernel\pep_ppm_is_processor_halted.htm
 tech.root: kernel
-ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_IS_PROCESSOR_HALTED structure"]
 ms.keywords: "*PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], PPEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED"

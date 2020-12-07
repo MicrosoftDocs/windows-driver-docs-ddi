@@ -4,7 +4,6 @@ title: RtlUIntPtrToUInt function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type UINT.
 old-location: kernel\rtluintptrtouint.htm
 tech.root: kernel
-ms.assetid: DA00BB09-7559-439A-935C-55A1304C6BBC
 ms.date: 04/30/2018
 keywords: ["RtlUIntPtrToUInt function"]
 ms.keywords: RtlUIntPtrToUInt, RtlUIntPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint, ntintsafe/RtlUIntPtrToUInt

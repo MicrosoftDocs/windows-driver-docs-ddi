@@ -4,7 +4,6 @@ title: WdfStringGetUnicodeString function (wdfstring.h)
 description: The WdfStringGetUnicodeString method retrieves the Unicode string that is assigned to a specified framework string object.
 old-location: wdf\wdfstringgetunicodestring.htm
 tech.root: wdf
-ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.date: 02/26/2018
 keywords: ["WdfStringGetUnicodeString function"]
 ms.keywords: DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, wdf.wdfstringgetunicodestring, wdfstring/WdfStringGetUnicodeString

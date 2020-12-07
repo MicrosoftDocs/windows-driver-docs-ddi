@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE request allocates a parallel port for exclusive access by a client.
 old-location: parports\ioctl_internal_parallel_port_allocate.htm
 tech.root: parports
-ms.assetid: de088a25-c9ad-4d48-b9cb-d0e6958ce164
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE control code [Parallel Ports], cisspd_79cabd40-4310-48c4-9ee3-f7b50fc60f6f.xml, parallel/IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, parports.ioctl_internal_parallel_port_allocate

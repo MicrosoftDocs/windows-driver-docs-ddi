@@ -4,7 +4,6 @@ title: PoFxIssueComponentPerfStateChangeMultiple function (wdm.h)
 description: The PoFxIssueComponentPerfStateChangeMultiple routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component.
 old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
 tech.root: kernel
-ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
 ms.date: 04/30/2018
 keywords: ["PoFxIssueComponentPerfStateChangeMultiple function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechangemultiple, wdm/PoFxIssueComponentPerfStateChangeMultiple

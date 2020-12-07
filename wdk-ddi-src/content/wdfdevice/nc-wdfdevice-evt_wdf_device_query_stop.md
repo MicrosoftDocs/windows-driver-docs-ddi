@@ -4,7 +4,6 @@ title: EVT_WDF_DEVICE_QUERY_STOP (wdfdevice.h)
 description: A driver's EvtDeviceQueryStop event callback function determines whether a specified device can be stopped so that the PnP manager can redistribute system hardware resources.
 old-location: wdf\evtdevicequerystop.htm
 tech.root: wdf
-ms.assetid: 4f2ed29a-fed0-4286-81db-7a4c8a15a7dd
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_QUERY_STOP callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_06abba34-8d71-46bf-8496-b6f27fe66dce.xml, EVT_WDF_DEVICE_QUERY_STOP, EVT_WDF_DEVICE_QUERY_STOP callback, EvtDeviceQueryStop, EvtDeviceQueryStop callback function, kmdf.evtdevicequerystop, wdf.evtdevicequerystop, wdfdevice/EvtDeviceQueryStop

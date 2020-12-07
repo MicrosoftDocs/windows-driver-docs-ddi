@@ -3,7 +3,6 @@ UID: NE:ucmucsispec._UCSI_POWER_DIRECTION_ROLE
 title: _UCSI_POWER_DIRECTION_ROLE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the SET_PDR command. See Table 4-22, Offset 23.
-ms.assetid: 8d7e45e5-968c-4ab6-ba76-6b2548ef949c
 ms.date: 09/30/2018
 keywords: ["UCSI_POWER_DIRECTION_ROLE enumeration"]
 ms.keywords: _UCSI_POWER_DIRECTION_ROLE, UCSI_POWER_DIRECTION_ROLE,

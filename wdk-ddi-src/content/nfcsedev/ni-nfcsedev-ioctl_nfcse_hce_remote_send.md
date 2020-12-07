@@ -4,7 +4,6 @@ title: IOCTL_NFCSE_HCE_REMOTE_SEND (nfcsedev.h)
 description: Transmits response APDU from DeviceHost NFCEE to remote device. The caller must be sure that response APDU is conformant to ISO-IEC 7816-4.
 old-location: nfpdrivers\ioctl_nfcse_hce_remote_send.htm
 tech.root: nfpdrivers
-ms.assetid: 5BA627C9-747D-493A-B568-B2912BBB622F
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_HCE_REMOTE_SEND IOCTL"]
 ms.keywords: IOCTL_NFCSE_HCE_REMOTE_SEND, IOCTL_NFCSE_HCE_REMOTE_SEND control, IOCTL_NFCSE_HCE_REMOTE_SEND control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND, nfpdrivers.ioctl_nfcse_hce_remote_send

@@ -4,7 +4,6 @@ title: IDebugEventCallbacksWide::Exception (dbgeng.h)
 description: The Exception callback method is called by the engine when an exceptiondebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exception.htm
 tech.root: debugger
-ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::Exception"]
 ms.keywords: Exception, Exception method [Windows Debugging], Exception method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Exception method, IDebugEventCallbacksWide.Exception, IDebugEventCallbacksWide::Exception, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception

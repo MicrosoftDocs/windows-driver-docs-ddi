@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTSetProcessSchedulingPriorityClass
 title: D3DKMTSetProcessSchedulingPriorityClass function (d3dkmthk.h)
 description: The D3DKMTSetProcessSchedulingPriorityClass function sets the scheduling priority for a process.
 old-location: display\d3dkmtsetprocessschedulingpriorityclass.htm
-ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetProcessSchedulingPriorityClass function"]
 ms.keywords: D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass

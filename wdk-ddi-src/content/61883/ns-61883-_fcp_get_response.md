@@ -4,7 +4,6 @@ title: _FCP_GET_RESPONSE (61883.h)
 description: The structure is used in a request yjsy retrieves the next FCP response from the queue of requests maintained by the IEC-61883 protocol driver.
 old-location: ieee\fcp_get_response.htm
 tech.root: IEEE
-ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.date: 02/15/2018
 keywords: ["FCP_GET_RESPONSE structure"]
 ms.keywords: "*PFCP_GET_RESPONSE, *PFCP_RESPONSE, 61883/FCP_GET_RESPONSE, 61883/PFCP_GET_RESPONSE, FCP_GET_RESPONSE, FCP_GET_RESPONSE structure [Buses], FCP_RESPONSE, IEEE.fcp_get_response, PFCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], _FCP_GET_RESPONSE"

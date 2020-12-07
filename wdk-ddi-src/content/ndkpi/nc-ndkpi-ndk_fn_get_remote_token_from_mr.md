@@ -4,7 +4,6 @@ title: NDK_FN_GET_REMOTE_TOKEN_FROM_MR (ndkpi.h)
 description: The NdkGetRemoteTokenFromMr (NDK_FN_GET_REMOTE_TOKEN_FROM_MR) function gets a memory token from a remote NDK memory region (MR).
 old-location: netvista\ndk_fn_get_remote_token_from_mr.htm
 tech.root: netvista
-ms.assetid: 272DB944-E772-4E98-8918-AE0CEE440E3E
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback function"]
 ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MR, NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback, NdkGetRemoteTokenFromMr, NdkGetRemoteTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMr, netvista.ndk_fn_get_remote_token_from_mr

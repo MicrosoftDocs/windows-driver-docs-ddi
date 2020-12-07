@@ -3,7 +3,6 @@ UID: NE:ntddvdeo._DSI2_CONTROL_TRANSMISSION_MODE
 title: DSI2_CONTROL_TRANSMISSION_MODE
 description: DSI-2 (display serial interface) control transmission mode.
 tech.root: display
-ms.assetid: cebd9ace-6678-4fdf-a12d-0685772aae3c
 ms.date: 04/04/2019
 keywords: ["DSI2_CONTROL_TRANSMISSION_MODE enumeration"]
 f1_keywords:

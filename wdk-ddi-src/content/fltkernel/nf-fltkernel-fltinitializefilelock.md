@@ -4,7 +4,6 @@ title: FltInitializeFileLock function (fltkernel.h)
 description: The FltInitializeFileLock routine initializes an opaque FILE_LOCK structure that the caller has allocated from paged pool.
 old-location: ifsk\fltinitializefilelock.htm
 tech.root: ifsk
-ms.assetid: 84bfec05-9d77-433e-bec2-ad188269fc61
 ms.date: 04/16/2018
 keywords: ["FltInitializeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock, FltInitializeFileLock routine [Installable File System Drivers], fltkernel/FltInitializeFileLock, ifsk.fltinitializefilelock

@@ -4,7 +4,6 @@ title: IOCTL_STORAGE_RELEASE (ntddstor.h)
 description: Releases a device previously reserved for the exclusive use of the caller on a bus that supports multiple initiators and the concept of reserving a device, such as a SCSI bus.
 old-location: storage\ioctl_storage_release.htm
 tech.root: storage
-ms.assetid: ca43da4e-6e0e-4689-83db-3f5ee5e560b2
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_RELEASE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RELEASE, IOCTL_STORAGE_RELEASE control, IOCTL_STORAGE_RELEASE control code [Storage Devices], k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml, ntddstor/IOCTL_STORAGE_RELEASE, storage.ioctl_storage_release

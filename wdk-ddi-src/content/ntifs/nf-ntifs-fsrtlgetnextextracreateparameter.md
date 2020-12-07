@@ -4,7 +4,6 @@ title: FsRtlGetNextExtraCreateParameter function (ntifs.h)
 description: The FsRtlGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter (ECP) context structure in a given ECP list.
 old-location: ifsk\fsrtlgetnextextracreateparameter.htm
 tech.root: ifsk
-ms.assetid: b9dd2890-4b2d-4fe1-88bb-30d94ff36c44
 ms.date: 04/16/2018
 keywords: ["FsRtlGetNextExtraCreateParameter function"]
 ms.keywords: FsRtlGetNextExtraCreateParameter, FsRtlGetNextExtraCreateParameter routine [Installable File System Drivers], fsrtlref_096516d0-6888-4dfa-98b3-b7b67794bf08.xml, ifsk.fsrtlgetnextextracreateparameter, ntifs/FsRtlGetNextExtraCreateParameter

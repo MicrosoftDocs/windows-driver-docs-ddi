@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGKARG_SIGNALMONITOREDFENCE
 title: _DXGKARG_SIGNALMONITOREDFENCE (d3dkmddi.h)
 description: Arguments used to add a GPU instruction to signal the paging monitored fence object to the DMA buffer.
-ms.assetid: 15e5d633-9227-4ada-a7bc-91d8e1983e02
 ms.date: 10/19/2018
 keywords: ["DXGKARG_SIGNALMONITOREDFENCE structure"]
 ms.keywords: _DXGKARG_SIGNALMONITOREDFENCE, DXGKARG_SIGNALMONITOREDFENCE, *INOUT_PDXGKARG_SIGNALMONITOREDFENCE

@@ -4,7 +4,6 @@ title: _PEP_WORK_DEVICE_IDLE (pep_x.h)
 description: The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the idle time-out for the specified device.
 old-location: kernel\pep_work_device_idle.htm
 tech.root: kernel
-ms.assetid: 054D45D8-EDAA-41F2-9884-4301F08B67CB
 ms.date: 04/30/2018
 keywords: ["PEP_WORK_DEVICE_IDLE structure"]
 ms.keywords: "*PPEP_WORK_DEVICE_IDLE, PEP_WORK_DEVICE_IDLE, PEP_WORK_DEVICE_IDLE structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_IDLE, kernel.pep_work_device_idle, pep_x/PEP_WORK_DEVICE_IDLE, pep_x/PPEP_WORK_DEVICE_IDLE"

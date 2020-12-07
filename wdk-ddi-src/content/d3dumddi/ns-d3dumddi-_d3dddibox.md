@@ -4,7 +4,6 @@ title: _D3DDDIBOX (d3dumddi.h)
 description: Describes the bounds of a volume texture.
 old-location: display\d3dddibox.htm
 tech.root: display
-ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.date: 05/10/2018
 keywords: ["D3DDDIBOX structure"]
 ms.keywords: D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox

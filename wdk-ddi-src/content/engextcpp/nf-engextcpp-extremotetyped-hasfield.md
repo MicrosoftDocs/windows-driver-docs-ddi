@@ -4,7 +4,6 @@ title: ExtRemoteTyped::HasField (engextcpp.h)
 description: The HasField method determines if the type of the data represented by this object contains the specified member.
 old-location: debugger\extremotetyped_hasfield.htm
 tech.root: debugger
-ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::HasField"]
 ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped interface [Windows Debugging],HasField method, ExtRemoteTyped.HasField, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], HasField method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_hasfield

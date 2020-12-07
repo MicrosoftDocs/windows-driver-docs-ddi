@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetAdapterOffloadSetGsoCapabilities
 title: NetAdapterOffloadSetGsoCapabilities function (netadapteroffload.h)
 description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware Generic Segmentation Offload (GSO) capabilities of a network adapter.
 tech.root: netvista
-ms.assetid: 
 ms.date: 10/09/2020
 keywords: ["NetAdapterOffloadSetGsoCapabilities function"]
 f1_keywords:

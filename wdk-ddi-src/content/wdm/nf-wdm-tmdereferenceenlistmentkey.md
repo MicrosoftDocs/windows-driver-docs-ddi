@@ -4,7 +4,6 @@ title: TmDereferenceEnlistmentKey function (wdm.h)
 description: The TmDereferenceEnlistmentKey routine decrements the reference count for the key of a specified enlistment object.
 old-location: kernel\tmdereferenceenlistmentkey.htm
 tech.root: kernel
-ms.assetid: e03b5f4d-58d5-43d5-a0c3-8a3cc83bd38a
 ms.date: 04/30/2018
 keywords: ["TmDereferenceEnlistmentKey function"]
 ms.keywords: TmDereferenceEnlistmentKey, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmdereferenceenlistmentkey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml, wdm/TmDereferenceEnlistmentKey

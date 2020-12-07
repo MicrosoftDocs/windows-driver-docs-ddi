@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SET_CONTEXT_STATE (ndiswwan.h)
 description: The NDIS_WWAN_SET_CONTEXT_STATE structure represents the command to set the context state of the MB device.
 old-location: netvista\ndis_wwan_set_context_state.htm
 tech.root: netvista
-ms.assetid: 8aadbfe0-e925-4c58-9ca0-d07dc40a0ff3
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_CONTEXT_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, _NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, netvista.ndis_wwan_set_context_state"

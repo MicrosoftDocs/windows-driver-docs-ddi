@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_HIT_GROUP_TYPE
 title: D3D12DDI_HIT_GROUP_TYPE (d3d12umddi.h)
 description: Specifies the type of hit group.
-ms.assetid: 034e47d9-920b-4f80-88c9-ec1b305e9e72
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_HIT_GROUP_TYPE enumeration"]
 ms.keywords: D3D12DDI_HIT_GROUP_TYPE, D3D12DDI_HIT_GROUP_TYPE,

@@ -4,7 +4,6 @@ title: _WDF_DEVICE_POWER_STATE (wdfdevice.h)
 description: The WDF_DEVICE_POWER_STATE enumeration identifies all of the states that the framework's power state machine can enter.
 old-location: wdf\wdf_device_power_state.htm
 tech.root: wdf
-ms.assetid: 06bb6465-afc6-4b92-b3d7-1c66f6c6c33d
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_STATE enumeration"]
 ms.keywords: "*PWDF_DEVICE_POWER_STATE, PWDF_DEVICE_POWER_STATE, PWDF_DEVICE_POWER_STATE enumeration pointer, WDF_DEVICE_POWER_STATE, WDF_DEVICE_POWER_STATE enumeration"

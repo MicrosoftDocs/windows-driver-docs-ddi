@@ -4,7 +4,6 @@ title: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK (fltkernel.h)
 description: A minifilter driver can optionally register a routine of type PFLT_CONTEXT_ALLOCATE_CALLBACK as the minifilter driver's SectionNotificationCallback routine.
 old-location: ifsk\pflt_section_conflict_notification_callback.htm
 tech.root: ifsk
-ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.date: 04/25/2019
 keywords: ["PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback

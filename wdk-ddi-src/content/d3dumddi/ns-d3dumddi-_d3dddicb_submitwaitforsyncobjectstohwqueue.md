@@ -4,7 +4,6 @@ title: _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE (d3dumddi.h)
 description: A structure that holds information to wait for synchronized objects.
 old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 tech.root: display
-ms.assetid: 9890EB61-2CED-41AB-9A87-76D5020D84A0
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitwaitforsyncobjectstohwqueue

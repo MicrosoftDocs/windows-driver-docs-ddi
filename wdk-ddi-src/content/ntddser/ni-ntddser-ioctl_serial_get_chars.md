@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_GET_CHARS (ntddser.h)
 description: The IOCTL_SERIAL_GET_CHARS request retrieves the special characters that the serial controller driver uses with handshake flow control. The special characters are described by a SERIAL_CHARS structure.
 old-location: serports\ioctl_serial_get_chars.htm
 tech.root: serports
-ms.assetid: f8ebf57a-1d2f-4362-8713-c37b6ef62cb6
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_CHARS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_CHARS, IOCTL_SERIAL_GET_CHARS control, IOCTL_SERIAL_GET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_CHARS, serports.ioctl_serial_get_chars, serref_103c18cc-6260-4a9d-8f2f-01ef8b82aebe.xml

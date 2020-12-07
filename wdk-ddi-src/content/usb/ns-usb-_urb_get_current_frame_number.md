@@ -4,7 +4,6 @@ title: _URB_GET_CURRENT_FRAME_NUMBER (usb.h)
 description: The _URB_GET_CURRENT_FRAME_NUMBER structure is used by USB client drivers to retrieve the current frame number.
 old-location: buses\_urb_get_current_frame_number.htm
 tech.root: usbref
-ms.assetid: 4c6e5064-83b4-4d3c-ab08-041070128f3c
 ms.date: 05/07/2018
 keywords: ["URB_GET_CURRENT_FRAME_NUMBER structure"]
 ms.keywords: "_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], buses._urb_get_current_frame_number, usb/_URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml"

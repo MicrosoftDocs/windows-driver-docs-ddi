@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_PORT_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PARAMETERS structure contains the configuration data for a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_parameters.htm
 tech.root: netvista
-ms.assetid: E68A9018-1E79-4DA6-8C7A-434A2468169F
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PARAMETERS, netvista.ndis_switch_port_parameters, ntddndis/NDIS_SWITCH_PORT_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PARAMETERS"

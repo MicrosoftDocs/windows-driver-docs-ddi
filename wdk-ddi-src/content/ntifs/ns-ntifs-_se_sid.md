@@ -4,7 +4,6 @@ title: _SE_SID (ntifs.h)
 description: The SE_SID union holds the maximum-sized valid Security Identifier (SID). The structure occupies 68-bytes and is suitable for stack allocation.
 old-location: ifsk\se_sid.htm
 tech.root: ifsk
-ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.date: 04/16/2018
 keywords: ["SE_SID structure"]
 ms.keywords: "*PSE_SID, PSE_SID, PSE_SID union pointer [Installable File System Drivers], SE_SID, SE_SID union [Installable File System Drivers], _SE_SID, ifsk.se_sid, ntifs/PSE_SID, ntifs/SE_SID"

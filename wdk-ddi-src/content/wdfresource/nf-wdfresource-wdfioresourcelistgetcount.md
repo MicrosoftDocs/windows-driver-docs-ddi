@@ -4,7 +4,6 @@ title: WdfIoResourceListGetCount function (wdfresource.h)
 description: The WdfIoResourceListGetCount method returns the number of resource descriptors that are contained in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistgetcount.htm
 tech.root: wdf
-ms.assetid: d8f3d743-acc1-4884-b0ec-a6cea5d8e437
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceListGetCount function"]
 ms.keywords: DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, WdfIoResourceListGetCount, WdfIoResourceListGetCount method, kmdf.wdfioresourcelistgetcount, wdf.wdfioresourcelistgetcount, wdfresource/WdfIoResourceListGetCount

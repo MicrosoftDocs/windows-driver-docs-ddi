@@ -4,7 +4,6 @@ title: SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function (sercx.h)
 description: The SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function initializes a SERCX2_CUSTOM_TRANSMIT_CONFIG structure.
 old-location: serports\sercx2_custom_transmit_config_init.htm
 tech.root: serports
-ms.assetid: 73C64B54-8181-491A-A418-75FC7012888F
 ms.date: 04/23/2018
 keywords: ["SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_transmit_config_init

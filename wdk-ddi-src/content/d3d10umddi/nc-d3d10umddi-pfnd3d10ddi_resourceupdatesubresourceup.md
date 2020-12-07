@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP
 title: PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP (d3d10umddi.h)
 description: The DefaultConstantBufferUpdateSubresourceUP function updates a destination subresource region that stores constant buffers from a source system-memory region.
 old-location: display\defaultconstantbufferupdatesubresourceup.htm
-ms.assetid: 80086f1a-75f8-464f-973e-9c1e67725933
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP callback function"]
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP, DefaultConstantBufferUpdateSubresourceUP callback function [Display Devices], PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP callback, UserModeDisplayDriverDx10_Functions_1868c778-0475-4113-8b24-caf7f9822775.xml, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP, display.defaultconstantbufferupdatesubresourceup

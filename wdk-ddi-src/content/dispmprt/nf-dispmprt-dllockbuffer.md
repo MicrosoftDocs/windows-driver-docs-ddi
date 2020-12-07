@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlLockBuffer
 title: DlLockBuffer function
 description: Probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
 tech.root: display
-ms.assetid: 660bfe14-da4e-400b-92ea-b432a1147346
 ms.date: 04/04/2019
 keywords: ["DlLockBuffer function"]
 ms.keywords: DlLockBuffer

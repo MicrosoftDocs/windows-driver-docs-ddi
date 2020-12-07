@@ -3,7 +3,6 @@ UID: NS:storport._ERROR_HISTORY_DIRECTORY
 title: _ERROR_HISTORY_DIRECTORY (storport.h)
 description: 
 tech.root: storage
-ms.assetid: f7b90178-a896-41de-8727-cdc2eb6daa2e
 ms.date: 10/19/2018
 keywords: ["ERROR_HISTORY_DIRECTORY structure"]
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY,

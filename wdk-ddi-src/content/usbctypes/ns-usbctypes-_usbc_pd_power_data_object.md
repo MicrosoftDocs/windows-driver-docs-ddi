@@ -3,7 +3,6 @@ UID: NS:usbctypes._USBC_PD_POWER_DATA_OBJECT
 title: _USBC_PD_POWER_DATA_OBJECT (usbctypes.h)
 description: Describes a Power Data Object (PDO).
 tech.root: usbref
-ms.assetid: b1a69368-f613-4e03-b350-287e770a05a6
 ms.date: 09/30/2018
 keywords: ["USBC_PD_POWER_DATA_OBJECT structure"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT, USBC_PD_POWER_DATA_OBJECT, *PUSBC_PD_POWER_DATA_OBJECT,

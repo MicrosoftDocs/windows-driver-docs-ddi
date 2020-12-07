@@ -4,7 +4,6 @@ title: _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE (d3dukmdt.h)
 description: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
 old-location: display\d3dddigpuvirtualaddress_protection_type.htm
 tech.root: display
-ms.assetid: CA46EEC4-5F3D-4E4C-8C83-6D91BE301C68
 ms.date: 05/10/2018
 keywords: ["D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure"]
 ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type

@@ -4,7 +4,6 @@ title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (minitape.h)
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
 tech.root: storage
-ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.date: 03/29/2018
 keywords: ["BLOCK_DEVICE_TOKEN_DESCRIPTOR structure"]
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"

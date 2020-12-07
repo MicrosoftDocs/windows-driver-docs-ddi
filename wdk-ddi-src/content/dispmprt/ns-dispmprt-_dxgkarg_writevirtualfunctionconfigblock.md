@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK
 title: _DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK
 description: Used to write a virtual function configuration block.
 tech.root: display
-ms.assetid: 6705ef8c-c3f0-4b8a-8230-0e5952ba30d5
 ms.date: 04/04/2019
 keywords: ["DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure"]
 ms.prod: windows-hardware

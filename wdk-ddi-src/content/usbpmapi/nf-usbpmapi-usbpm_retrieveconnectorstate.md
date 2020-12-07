@@ -2,7 +2,6 @@
 UID: NF:usbpmapi.UsbPm_RetrieveConnectorState
 title: UsbPm_RetrieveConnectorState function (usbpmapi.h)
 description: Retrieves the current state of a connector. Unlike connector properties, state information is dynamic, which can change at runtime.
-ms.assetid: dc7c8d73-70bc-4021-83b3-1519fab014fa
 ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveConnectorState function"]
 ms.keywords: UsbPm_RetrieveConnectorState

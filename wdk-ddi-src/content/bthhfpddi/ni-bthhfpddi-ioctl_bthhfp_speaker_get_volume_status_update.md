@@ -4,7 +4,6 @@ title: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE (bthhfpddi.h)
 description: The IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of the Bluetooth device's speaker.
 old-location: audio\ioctl_bthhfp_speaker_get_volume_status_update.htm
 tech.root: audio
-ms.assetid: CE122D3F-CD8F-47F5-88E0-AB0140A8DE1E
 ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE

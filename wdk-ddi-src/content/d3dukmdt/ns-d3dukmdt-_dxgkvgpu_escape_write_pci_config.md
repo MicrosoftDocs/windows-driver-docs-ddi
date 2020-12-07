@@ -4,7 +4,6 @@ title: _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG (d3dukmdt.h)
 description: Used to write to the PCI config space.
 old-location: display\dxgkvgpu_escape_write_pci_config.htm
 tech.root: display
-ms.assetid: 2B0902DB-B59C-4DC5-A944-02ACE9DA16DC
 ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure"]
 ms.keywords: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, display.dxgkvgpu_escape_write_pci_config

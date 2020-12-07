@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostModuleSignature.IsMatch
 title: IDebugHostModuleSignature::IsMatch (dbgmodel.h)
 description: The IsMatch method compares a particular module against a signature, comparing the module name and version to the name and version range indicated in the signature.
-ms.assetid: eaef18a0-1bbb-4248-a65d-e81ef486c2fa
 ms.date: 09/18/2018
 keywords: ["IDebugHostModuleSignature::IsMatch"]
 ms.keywords: IDebugHostModuleSignature::IsMatch, IsMatch, IDebugHostModuleSignature.IsMatch, IDebugHostModuleSignature::IsMatch, IDebugHostModuleSignature.IsMatch

@@ -4,7 +4,6 @@ title: KeInitializeCrashDumpHeader function (wdm.h)
 description: The KeInitializeCrashDumpHeader routine supplies the header information the system requires for a crash dump file.
 old-location: kernel\keinitializecrashdumpheader.htm
 tech.root: kernel
-ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.date: 04/30/2018
 keywords: ["KeInitializeCrashDumpHeader function"]
 ms.keywords: KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader

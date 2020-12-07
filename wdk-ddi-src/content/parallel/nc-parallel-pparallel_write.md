@@ -4,7 +4,6 @@ title: PPARALLEL_WRITE (parallel.h)
 description: The PPARALLEL_WRITE-typed callback routine writes data to a parallel device. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pparallel_write.htm
 tech.root: parports
-ms.assetid: 4973b1e2-5828-40d1-bb2e-da67a406eafa
 ms.date: 02/15/2018
 keywords: ["PPARALLEL_WRITE callback"]
 ms.keywords: PPARALLEL_WRITE, PPARALLEL_WRITE function pointer [Parallel Ports], cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml, parallel/PPARALLEL_WRITE, parports.pparallel_write

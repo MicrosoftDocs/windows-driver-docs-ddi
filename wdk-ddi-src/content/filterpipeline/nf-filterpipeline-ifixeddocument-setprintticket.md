@@ -4,7 +4,6 @@ title: IFixedDocument::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method inserts a print ticket into the fixed document.
 old-location: print\ifixeddocument_setprintticket.htm
 tech.root: print
-ms.assetid: 701c53d5-bb1e-4003-9505-19b9c46689c6
 ms.date: 04/20/2018
 keywords: ["IFixedDocument::SetPrintTicket"]
 ms.keywords: IFixedDocument interface [Print Devices],SetPrintTicket method, IFixedDocument.SetPrintTicket, IFixedDocument::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedDocument interface, filterpipeline/IFixedDocument::SetPrintTicket, filterpipeline_96d89fc9-899f-4ede-8da5-898471f6b769.xml, print.ifixeddocument_setprintticket

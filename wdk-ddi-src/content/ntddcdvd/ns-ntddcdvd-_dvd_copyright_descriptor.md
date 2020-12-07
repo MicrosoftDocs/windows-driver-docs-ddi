@@ -4,7 +4,6 @@ title: _DVD_COPYRIGHT_DESCRIPTOR (ntddcdvd.h)
 description: The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD copyright descriptor.
 old-location: storage\dvd_copyright_descriptor.htm
 tech.root: storage
-ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.date: 03/29/2018
 keywords: ["DVD_COPYRIGHT_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml"

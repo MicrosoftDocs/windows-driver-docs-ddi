@@ -3,7 +3,6 @@ UID: NE:ntddstor._STORAGE_PROPERTY_ID
 title: STORAGE_PROPERTY_ID
 description: STORAGE_PROPERTY_ID enumerates the possible values for STORAGE_PROPERTY_QUERY's PropertyId member.
 tech.root: storage
-ms.assetid: 9b3d99e7-6338-4e0d-8303-eb6683b1d4a4
 ms.date: 10/27/2020
 keywords: ["STORAGE_PROPERTY_ID enumeration"]
 ms.keywords: STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID,

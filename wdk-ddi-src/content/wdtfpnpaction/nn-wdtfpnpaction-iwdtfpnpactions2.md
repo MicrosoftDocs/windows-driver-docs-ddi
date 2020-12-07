@@ -4,7 +4,6 @@ title: IWDTFPNPActions2 (wdtfpnpaction.h)
 description: Defines operations and properties for the collection of Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpactions2.htm
 tech.root: dtf
-ms.assetid: 65f40adc-ec17-4bed-b5b9-e7a5c1c27a6c
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2 interface"]
 ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], IWDTFPNPActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfpnpactions2, wdtfpnpaction/IWDTFPNPActions2

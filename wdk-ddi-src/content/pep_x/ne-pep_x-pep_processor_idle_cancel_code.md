@@ -4,7 +4,6 @@ title: PEP_PROCESSOR_IDLE_CANCEL_CODE (pep_x.h)
 description: The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP).
 old-location: kernel\pep_processor_idle_cancel_code.htm
 tech.root: kernel
-ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, PepIdleCancelMax, PepIdleCancelNoCState, PepIdleCancelWorkPending, kernel.pep_processor_idle_cancel_code, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, pep_x/PepIdleCancelNoCState, pep_x/PepIdleCancelWorkPending"

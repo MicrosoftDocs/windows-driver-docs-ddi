@@ -4,7 +4,6 @@ title: NdisCmDeactivateVc function (ndis.h)
 description: NdisCmDeactivateVc notifies NDIS and the underlying miniport driver that there will be no further transfers on a particular active VC.
 old-location: netvista\ndiscmdeactivatevc.htm
 tech.root: netvista
-ms.assetid: 141830de-e113-4f42-91f8-8f1cdbf3e32c
 ms.date: 05/02/2018
 keywords: ["NdisCmDeactivateVc function"]
 ms.keywords: NdisCmDeactivateVc, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, ndis/NdisCmDeactivateVc, netvista.ndiscmdeactivatevc

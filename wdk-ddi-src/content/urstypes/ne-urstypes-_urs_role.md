@@ -4,7 +4,6 @@ title: _URS_ROLE (urstypes.h)
 description: Defines values for roles supported by a USB dual-role controller.
 old-location: buses\urs_role.htm
 tech.root: usbref
-ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.date: 05/07/2018
 keywords: ["URS_ROLE enumeration"]
 ms.keywords: "*PURS_ROLE, URS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE,*PURS_ROLE, URS_ROLE,*PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleHost, UrsRoleNone, _URS_ROLE, buses.urs_role, urstypes/URS_ROLE, urstypes/UrsRoleFunction, urstypes/UrsRoleHost, urstypes/UrsRoleNone"

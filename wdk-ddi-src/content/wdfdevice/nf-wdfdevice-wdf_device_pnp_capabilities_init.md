@@ -4,7 +4,6 @@ title: WDF_DEVICE_PNP_CAPABILITIES_INIT function (wdfdevice.h)
 description: The WDF_DEVICE_PNP_CAPABILITIES_INIT function initializes a WDF_DEVICE_PNP_CAPABILITIES structure.
 old-location: wdf\wdf_device_pnp_capabilities_init.htm
 tech.root: wdf
-ms.assetid: 5ae60715-ba51-4814-ae34-34967cdbab78
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_PNP_CAPABILITIES_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, WDF_DEVICE_PNP_CAPABILITIES_INIT, WDF_DEVICE_PNP_CAPABILITIES_INIT function, kmdf.wdf_device_pnp_capabilities_init, wdf.wdf_device_pnp_capabilities_init, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT

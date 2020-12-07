@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE
 title: PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE (d3d10umddi.h)
 description: The CalcPrivateTessellationShaderSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a hull or domain shader.
 old-location: display\calcprivatetessellationshadersize.htm
-ms.assetid: 604d7475-4696-429e-a645-781931509bb6
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE callback function"]
 ms.keywords: CalcPrivateTessellationShaderSize, CalcPrivateTessellationShaderSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE, PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE callback, UserModeDisplayDriverDx11_Functions_a669f28f-b275-4265-b6ae-5c3526d81b46.xml, d3d10umddi/CalcPrivateTessellationShaderSize, display.calcprivatetessellationshadersize

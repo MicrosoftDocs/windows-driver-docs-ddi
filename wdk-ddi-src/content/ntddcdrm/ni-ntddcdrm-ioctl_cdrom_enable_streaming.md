@@ -4,7 +4,6 @@ title: IOCTL_CDROM_ENABLE_STREAMING (ntddcdrm.h)
 description: Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests.
 old-location: storage\ioctl_cdrom_enable_streaming.htm
 tech.root: storage
-ms.assetid: DC31EABA-CE58-4B6F-ADCD-0BF72A92C6AB
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_ENABLE_STREAMING IOCTL"]
 ms.keywords: IOCTL_CDROM_ENABLE_STREAMING, IOCTL_CDROM_ENABLE_STREAMING control, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING, storage.ioctl_cdrom_enable_streaming

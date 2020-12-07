@@ -4,7 +4,6 @@ title: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE (ndis.h)
 description: The ProtocolClIncomingCallQoSChange function is used by connection-oriented clients on networks that support dynamic quality-of-service.
 old-location: netvista\protocolclincomingcallqoschange.htm
 tech.root: netvista
-ms.assetid: ca9953f4-35db-4acb-b0ea-887156b4f6ee
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE, PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback, ProtocolClIncomingCallQoSChange, ProtocolClIncomingCallQoSChange callback function [Network Drivers Starting with Windows Vista], condis_client_ref_09f3fdc8-cdc0-4b49-82c2-bd5816c9d5a9.xml, ndis/ProtocolClIncomingCallQoSChange, netvista.protocolclincomingcallqoschange

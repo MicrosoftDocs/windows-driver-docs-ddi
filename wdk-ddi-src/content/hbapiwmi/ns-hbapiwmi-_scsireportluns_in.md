@@ -4,7 +4,6 @@ title: _ScsiReportLuns_IN (hbapiwmi.h)
 description: The ScsiReportLuns_IN structure is used to deliver input parameter data to the ScsiReportLuns WMI method.
 old-location: storage\scsireportluns_in2.htm
 tech.root: storage
-ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.date: 03/29/2018
 keywords: ["ScsiReportLuns_IN structure"]
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, storage.scsireportluns_in2, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml"

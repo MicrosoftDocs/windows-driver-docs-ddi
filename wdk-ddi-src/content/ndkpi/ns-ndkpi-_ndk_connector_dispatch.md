@@ -4,7 +4,6 @@ title: _NDK_CONNECTOR_DISPATCH (ndkpi.h)
 description: The NDK_CONNECTOR_DISPATCH structure specifies dispatch function entry points for the NDK connector object.
 old-location: netvista\ndk_connector_dispatch.htm
 tech.root: netvista
-ms.assetid: BBC24A32-4CB6-47AB-BD1D-298159EC9919
 ms.date: 05/02/2018
 keywords: ["NDK_CONNECTOR_DISPATCH structure"]
 ms.keywords: NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch

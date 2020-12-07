@@ -2,7 +2,6 @@
 UID: NS:bdatypes._BDA_MUX_PIDLISTITEM
 title: _BDA_MUX_PIDLISTITEM (bdatypes.h)
 description: 
-ms.assetid: ecf9f79f-129b-45ea-a0da-b905a8e30f78
 ms.date: 11/17/2020
 keywords: ["BDA_MUX_PIDLISTITEM structure"]
 ms.keywords: _BDA_MUX_PIDLISTITEM, BDA_MUX_PIDLISTITEM, *PBDA_MUX_PIDLISTITEM,

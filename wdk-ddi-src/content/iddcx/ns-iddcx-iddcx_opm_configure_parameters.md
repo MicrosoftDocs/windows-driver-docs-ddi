@@ -4,7 +4,6 @@ title: IDDCX_OPM_CONFIGURE_PARAMETERS (iddcx.h)
 description: Gives information about the OPM configure parameters.
 old-location: display\iddcx_opm_configure_parameters.htm
 tech.root: display
-ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_CONFIGURE_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS

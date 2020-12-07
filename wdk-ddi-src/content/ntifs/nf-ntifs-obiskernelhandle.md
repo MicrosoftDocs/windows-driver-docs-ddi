@@ -4,7 +4,6 @@ title: ObIsKernelHandle function (ntifs.h)
 description: The ObIsKernelHandle routine determines whether the specified handle is a kernel handle.
 old-location: ifsk\obiskernelhandle.htm
 tech.root: ifsk
-ms.assetid: 8ebc3b7f-5b4b-4e92-95fe-1918b51d27ad
 ms.date: 04/16/2018
 keywords: ["ObIsKernelHandle function"]
 ms.keywords: ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], ifsk.obiskernelhandle, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml

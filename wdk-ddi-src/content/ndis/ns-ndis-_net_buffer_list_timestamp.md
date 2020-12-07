@@ -3,7 +3,6 @@ UID: NS:ndis._NET_BUFFER_LIST_TIMESTAMP
 title: _NET_BUFFER_LIST_TIMESTAMP (ndis.h)
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
-ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200
 ms.date: 08/08/2018
 keywords: ["NET_BUFFER_LIST_TIMESTAMP structure"]
 ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP,

@@ -4,7 +4,6 @@ title: _D3DDDIARG_CREATERESOURCE (d3dukmdt.h)
 description: The D3DDDIARG_CREATERESOURCE structure contains information for creating a resource.
 old-location: display\d3dddiarg_createresource.htm
 tech.root: display
-ms.assetid: 022047a4-105e-4859-ba37-fb408f903e7b
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CREATERESOURCE structure"]
 ms.keywords: D3DDDIARG_CREATERESOURCE, D3DDDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_c8d46034-b0b8-4909-962d-683be7aa099d.xml, _D3DDDIARG_CREATERESOURCE, d3dukmdt/D3DDDIARG_CREATERESOURCE, display.d3dddiarg_createresource

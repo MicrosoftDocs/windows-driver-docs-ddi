@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmValidateInput
 title: DeviceDsmValidateInput function (ntddstor.h)
 description: The DeviceDsmValidateInput function validates whether a DEVICE_DSM_INPUT structure is valid.
 tech.root: storage
-ms.assetid: dab84969-6432-4730-b06e-b7bbf7a07f2d
 ms.date: 08/23/2019
 keywords: ["DeviceDsmValidateInput function"]
 ms.keywords: DeviceDsmValidateInput

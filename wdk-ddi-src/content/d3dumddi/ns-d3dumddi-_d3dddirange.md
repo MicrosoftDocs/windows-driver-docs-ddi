@@ -4,7 +4,6 @@ title: _D3DDDIRANGE (d3dumddi.h)
 description: Specifies a range of memory within a buffer.
 old-location: display\d3dddirange.htm
 tech.root: display
-ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.date: 05/10/2018
 keywords: ["D3DDDIRANGE structure"]
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange

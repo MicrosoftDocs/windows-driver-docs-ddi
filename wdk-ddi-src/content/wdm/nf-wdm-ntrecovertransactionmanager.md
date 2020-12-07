@@ -4,7 +4,6 @@ title: NtRecoverTransactionManager function (wdm.h)
 description: The ZwRecoverTransactionManager routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
 old-location: kernel\zwrecovertransactionmanager.htm
 tech.root: kernel
-ms.assetid: 20284cad-5d65-4d22-98fa-6b6c5f6b422d
 ms.date: 04/30/2018
 keywords: ["NtRecoverTransactionManager function"]
 ms.keywords: NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager

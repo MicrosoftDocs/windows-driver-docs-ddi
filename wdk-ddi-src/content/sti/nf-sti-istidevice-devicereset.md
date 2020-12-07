@@ -4,7 +4,6 @@ title: IStiDevice::DeviceReset (sti.h)
 description: The IStiDevice::DeviceReset method resets a still image device to a known state.
 old-location: image\istidevice_devicereset.htm
 tech.root: image
-ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.date: 05/03/2018
 keywords: ["IStiDevice::DeviceReset"]
 ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],DeviceReset method, IStiDevice.DeviceReset, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml

@@ -4,7 +4,6 @@ title: DOT11EXTIHV_RECEIVE_PACKET (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvreceivepacket.htm
 tech.root: netvista
-ms.assetid: 4a08c6dc-61ac-421f-83b7-73f1f54aea71
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_RECEIVE_PACKET callback"]
 ms.keywords: DOT11EXTIHV_RECEIVE_PACKET, Dot11ExtIhvReceivePacket, Dot11ExtIhvReceivePacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_8f86438e-c311-425f-952f-08311bc3be2b.xml, netvista.dot11extihvreceivepacket, wlanihv/Dot11ExtIhvReceivePacket

@@ -4,7 +4,6 @@ title: _HYBRID_INFORMATION (ntddscsi.h)
 description: The HYBRID_INFORMATION structure contains hybrid disk capability information.
 old-location: storage\hybrid_information.htm
 tech.root: storage
-ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.date: 03/29/2018
 keywords: ["HYBRID_INFORMATION structure"]
 ms.keywords: "*PHYBRID_INFORMATION, HYBRID_INFORMATION, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone, NvCacheStatusDisabled, NvCacheStatusDisabling, NvCacheStatusEnabled, NvCacheStatusUnknown, NvCacheTypeUnknown, NvCacheTypeWriteBack, NvCacheTypeWriteThrough, PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], _HYBRID_INFORMATION, ntddscsi/HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, storage.hybrid_information"

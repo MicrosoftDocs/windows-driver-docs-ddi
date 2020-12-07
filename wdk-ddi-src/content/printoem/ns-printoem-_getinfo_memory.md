@@ -4,7 +4,6 @@ title: _GETINFO_MEMORY (printoem.h)
 description: The GETINFO_MEMORY structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_memory.htm
 tech.root: print
-ms.assetid: d6730599-a8f0-4bea-9ee4-47a60249271d
 ms.date: 04/20/2018
 keywords: ["GETINFO_MEMORY structure"]
 ms.keywords: GETINFO_MEMORY, GETINFO_MEMORY structure [Print Devices], PGETINFO_MEMORY, PGETINFO_MEMORY structure pointer [Print Devices], PGETINFO_MEMROY, _GETINFO_MEMORY, print.getinfo_memory, print_unidrv-pscript_rendering_d39a4f36-c521-4da4-8f63-5121b344d33a.xml, printoem/GETINFO_MEMORY, printoem/PGETINFO_MEMORY

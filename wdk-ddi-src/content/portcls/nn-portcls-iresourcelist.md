@@ -4,7 +4,6 @@ title: IResourceList (portcls.h)
 description: The IResourceList interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time.
 old-location: audio\iresourcelist.htm
 tech.root: audio
-ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.date: 05/08/2018
 keywords: ["IResourceList interface"]
 ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices],described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList

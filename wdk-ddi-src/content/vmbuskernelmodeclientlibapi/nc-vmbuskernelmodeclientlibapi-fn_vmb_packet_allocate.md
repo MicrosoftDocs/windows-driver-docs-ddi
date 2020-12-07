@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_ALLOCATE
 title: FN_VMB_PACKET_ALLOCATE (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketAllocate function allocates a packet from the channel's lookaside list.
 tech.root: netvista
-ms.assetid: de59b2ba-33eb-41f2-a4ce-6be46e88dfd7
 ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_ALLOCATE callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

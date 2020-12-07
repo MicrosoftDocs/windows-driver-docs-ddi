@@ -4,7 +4,6 @@ title: WDF_WRITE_PORT_BUFFER_UCHAR function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port.
 old-location: wdf\wdf_write_port_buffer_uchar.htm
 tech.root: wdf
-ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_PORT_BUFFER_UCHAR function"]
 ms.keywords: WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR

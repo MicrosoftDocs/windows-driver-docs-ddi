@@ -4,7 +4,6 @@ title: IPrinterQueue::SendBidiQuery (printerextension.h)
 description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.
 old-location: print\iprinterqueue_sendbidiquery.htm
 tech.root: print
-ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.date: 04/20/2018
 keywords: ["IPrinterQueue::SendBidiQuery"]
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery

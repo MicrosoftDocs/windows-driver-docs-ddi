@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS
 title: _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure sets Specific Absorption Rate (SAR) transmission status in a mobile broadband (MBB) modem.
 tech.root: netvista
-ms.assetid: ee6af893-986d-4286-8c74-37dabc5ac834
 ms.date: 08/20/2018
 keywords: ["NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
 ms.keywords: _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, *PNDIS_WWAN_SET_SAR_TRANSMISSION_STATUS,

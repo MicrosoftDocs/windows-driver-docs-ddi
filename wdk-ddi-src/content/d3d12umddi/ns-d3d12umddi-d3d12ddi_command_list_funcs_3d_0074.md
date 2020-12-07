@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0074
 title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0074
 ms.date: 03/24/2020
 ms.topic: language-reference
-ms.assetid: 0bd7af69-da02-4566-90d4-714ebf402b03
 tech.root: display
 targetos: Windows
 description: The command list 3D functions for version Direct3D 12 Release 7, Build rev 4.

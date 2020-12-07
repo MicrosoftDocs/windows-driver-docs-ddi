@@ -4,7 +4,6 @@ title: _FILE_FS_DEVICE_INFORMATION (wdm.h)
 description: The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object.
 old-location: kernel\file_fs_device_information.htm
 tech.root: kernel
-ms.assetid: 0849bbc2-cfc7-4437-896d-3f46e8f6461a
 ms.date: 04/30/2018
 keywords: ["FILE_FS_DEVICE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, wdm/FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION"

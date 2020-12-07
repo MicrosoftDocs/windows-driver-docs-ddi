@@ -4,7 +4,6 @@ title: ClfsLsnNull function (wdm.h)
 description: The ClfsLsnNull routine determines whether a specified LSN is equal to the smallest possible LSN, CLFS_LSN_NULL.
 old-location: kernel\clfslsnnull.htm
 tech.root: kernel
-ms.assetid: 858fb84a-8df8-4748-ab09-3f7c4aca905c
 ms.date: 04/30/2018
 keywords: ["ClfsLsnNull function"]
 ms.keywords: ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, kernel.clfslsnnull, wdm/ClfsLsnNull

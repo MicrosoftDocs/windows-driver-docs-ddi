@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0062
 title: D3D12DDI_D3D12_OPTIONS_DATA_0062
 description: Contains display options data.
 tech.root: display
-ms.assetid: 16b0ed82-7a84-45ab-8695-f2d2b9a044d4
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0062 structure"]
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0062, D3D12DDI_D3D12_OPTIONS_DATA_0062,

@@ -4,7 +4,6 @@ title: _FCP_GET_REQUEST (61883.h)
 description: This structure is used for a get request.
 old-location: ieee\fcp_get_request.htm
 tech.root: IEEE
-ms.assetid: 4DD05230-E9CA-4067-984B-7F0540FE8079
 ms.date: 02/15/2018
 keywords: ["FCP_GET_REQUEST structure"]
 ms.keywords: "*PFCP_GET_REQUEST, 61883/FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST, FCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], IEEE.fcp_get_request, PFCP_GET_REQUEST, PFCP_GET_REQUEST structure pointer [Buses], _FCP_GET_REQUEST"

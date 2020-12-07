@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0073
 title: D3D12DDI_D3D12_OPTIONS_DATA_0073
 ms.date: 03/24/2020
 ms.topic: language-reference
-ms.assetid: eea363d4-8d80-44fd-96d8-244ba188a86c
 targetos: Windows
 tech.root: display
 description: Contains display options data

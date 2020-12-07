@@ -4,7 +4,6 @@ title: UfxDeviceNotifyAttach function (ufxclient.h)
 description: Notifies UFX that the device's USB cable has been attached.
 old-location: buses\ufxdevicenotifyattach.htm
 tech.root: usbref
-ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyAttach function"]
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach

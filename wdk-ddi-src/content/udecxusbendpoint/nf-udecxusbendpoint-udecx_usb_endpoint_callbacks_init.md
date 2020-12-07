@@ -4,7 +4,6 @@ title: UDECX_USB_ENDPOINT_CALLBACKS_INIT function (udecxusbendpoint.h)
 description: Initializes a UDECX_USB_ENDPOINT_CALLBACKS structure before a UdecxUsbEndpointCreate call.
 old-location: buses\udecx_usb_endpoint_callbacks_init.htm
 tech.root: usbref
-ms.assetid: AE0DA609-90E5-452F-B24E-0902C5E868A8
 ms.date: 05/07/2018
 keywords: ["UDECX_USB_ENDPOINT_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT

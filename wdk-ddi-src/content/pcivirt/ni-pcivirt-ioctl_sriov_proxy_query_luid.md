@@ -4,7 +4,6 @@ title: IOCTL_SRIOV_PROXY_QUERY_LUID (pcivirt.h)
 description: This request supplies the local unique identifier of the SR_IOV device implementing the interface.
 old-location: pci\ioctl-sriov-proxy-query-luid.htm
 tech.root: PCI
-ms.assetid: 9f10ed34-f718-4c35-9b6f-29554bf30a0f
 ms.date: 02/24/2018
 keywords: ["IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL"]
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID

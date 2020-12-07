@@ -4,7 +4,6 @@ title: FltDeleteExtraCreateParameterLookasideList function (fltkernel.h)
 description: The FltDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk
-ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.date: 04/16/2018
 keywords: ["FltDeleteExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist

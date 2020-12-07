@@ -4,7 +4,6 @@ title: BdaCommitChanges function (bdasup.h)
 description: The BdaCommitChanges function commits the changes to BDA topology that have occurred since the last call to the BdaStartChanges function.
 old-location: stream\bdacommitchanges.htm
 tech.root: stream
-ms.assetid: 89bac523-65f1-462e-a734-285cda9e33ac
 ms.date: 04/23/2018
 keywords: ["BdaCommitChanges function"]
 ms.keywords: BdaCommitChanges, BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges

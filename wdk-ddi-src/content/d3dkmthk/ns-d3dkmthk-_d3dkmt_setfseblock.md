@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_SETFSEBLOCK
 title: _D3DKMT_SETFSEBLOCK (d3dkmthk.h)
 description: Used to set the FSE (full screen exclusive) block.
-ms.assetid: cec9303d-3f3c-4cb1-ace7-7c29d756c598
 ms.date: 10/19/2018
 keywords: ["D3DKMT_SETFSEBLOCK structure"]
 ms.keywords: _D3DKMT_SETFSEBLOCK, D3DKMT_SETFSEBLOCK,

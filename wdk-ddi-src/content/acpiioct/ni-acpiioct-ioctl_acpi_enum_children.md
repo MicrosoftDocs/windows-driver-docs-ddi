@@ -4,7 +4,6 @@ title: IOCTL_ACPI_ENUM_CHILDREN (acpiioct.h)
 description: The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the path and name of devices or named child objects in the ACPI namespace of the device to which this request is sent.
 old-location: acpi\ioctl_acpi_enum_children.htm
 tech.root: acpi
-ms.assetid: 86d713e0-ec1e-4417-9ff7-8574bd040a6e
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ENUM_CHILDREN IOCTL"]
 ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN

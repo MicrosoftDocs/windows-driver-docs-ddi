@@ -4,7 +4,6 @@ title: DRIVER_CONTROL (wdm.h)
 description: This routine starts a DMA data-transfer or a data transfer operation.
 old-location: kernel\adaptercontrol.htm
 tech.root: kernel
-ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.date: 04/30/2018
 keywords: ["DRIVER_CONTROL callback function"]
 ms.keywords: AdapterControl, ControllerControl, DRIVER_CONTROL, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml, MyControl, MyControl routine [Kernel-Mode Driver Architecture], kernel.adaptercontrol, wdm/MyControl

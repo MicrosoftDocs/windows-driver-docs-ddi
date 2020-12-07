@@ -4,7 +4,6 @@ title: NdisMWriteConfigBlock function (ndis.h)
 description: A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the NdisMWriteConfigBlock function to write data to a VF configuration block.
 old-location: netvista\ndismwriteconfigblock.htm
 tech.root: netvista
-ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.date: 05/02/2018
 keywords: ["NdisMWriteConfigBlock function"]
 ms.keywords: NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock

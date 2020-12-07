@@ -4,7 +4,6 @@ title: IWiaMiniDrvTransferCallback::SendMessage (wiamindr_lh.h)
 description: Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
 old-location: image\iwiaminidrvtransfercallback_sendmessage.htm
 tech.root: image
-ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvTransferCallback::SendMessage"]
 ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices],SendMessage method, IWiaMiniDrvTransferCallback.SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices],IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage

@@ -4,7 +4,6 @@ title: NdisCmDispatchIncomingDropParty function (ndis.h)
 description: NdisCmDispatchIncomingDropParty notifies a client that it should remove a particular party on a multipoint VC, usually because the call manager has received a request over the network to close an active multipoint connection.
 old-location: netvista\ndiscmdispatchincomingdropparty.htm
 tech.root: netvista
-ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingDropParty function"]
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty

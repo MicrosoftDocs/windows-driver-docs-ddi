@@ -4,7 +4,6 @@ title: RtlUpcaseUnicodeStringToCountedOemString function (ntifs.h)
 description: The RtlUpcaseUnicodeStringToCountedOemString routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtocountedoemstring.htm
 tech.root: ifsk
-ms.assetid: c1e466d7-892f-4049-a6c2-60ab8f960acb
 ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUpcaseUnicodeStringToCountedOemString, RtlUpcaseUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtocountedoemstring, ntifs/RtlUpcaseUnicodeStringToCountedOemString, rtlref_54925045-9df1-41ef-9878-030f30e2a0f1.xml

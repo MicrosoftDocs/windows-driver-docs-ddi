@@ -4,7 +4,6 @@ title: D3D12DDI_SAMPLER_FEEDBACK_TARGETED_RESOURCE_0073
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 563d6817-b1b4-4d3b-8a3e-eb6e9c99885e
 tech.root: display
 description: Deprecated - do not use.
 req.construct-type: structure

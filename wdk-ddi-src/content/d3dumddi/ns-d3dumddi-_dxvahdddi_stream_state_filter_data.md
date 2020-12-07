@@ -4,7 +4,6 @@ title: _DXVAHDDDI_STREAM_STATE_FILTER_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_FILTER_DATA structure describes stream-state data that specifies the filter level.
 old-location: display\dxvahdddi_stream_state_filter_data.htm
 tech.root: display
-ms.assetid: 7da30e14-7df4-41e2-b2e3-081c55d68db6
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_STREAM_STATE_FILTER_DATA structure"]
 ms.keywords: DXVA2_Structs_e20d3d19-75a9-4539-888f-4c3c73cc02c8.xml, DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVAHDDDI_STREAM_STATE_FILTER_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_FILTER_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA, display.dxvahdddi_stream_state_filter_data

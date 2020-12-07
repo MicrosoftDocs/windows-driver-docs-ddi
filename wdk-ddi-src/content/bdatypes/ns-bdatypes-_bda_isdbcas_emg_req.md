@@ -2,7 +2,6 @@
 UID: NS:bdatypes._BDA_ISDBCAS_EMG_REQ
 title: _BDA_ISDBCAS_EMG_REQ (bdatypes.h)
 description: 
-ms.assetid: 2efa8fa9-88fd-4378-b860-264be6121262
 ms.date: 11/17/2020
 keywords: ["BDA_ISDBCAS_EMG_REQ structure"]
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ,

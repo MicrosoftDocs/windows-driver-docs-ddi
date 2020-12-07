@@ -4,7 +4,6 @@ title: RxLogEventDirect function (rxprocs.h)
 description: RxLogEventDirect is called to log an error to the I/O error log. It is recommended that the RXLogEvent macro or the RxLogFailure macro be used instead of calling this routine directly.
 old-location: ifsk\rxlogeventdirect.htm
 tech.root: ifsk
-ms.assetid: fc0bf8c4-cc0b-4f1e-bd4e-facf8f0d2a96
 ms.date: 04/16/2018
 keywords: ["RxLogEventDirect function"]
 ms.keywords: RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers], ifsk.rxlogeventdirect, rxprocs/RxLogEventDirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml

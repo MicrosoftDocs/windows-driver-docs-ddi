@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_CREATE_SECURE_DEVICE_CONTEXT
 title: EVT_TR_CREATE_SECURE_DEVICE_CONTEXT (trustedruntimeclx.h)
 description: 
-ms.assetid: d75797b3-0670-4a27-84b9-72359631cade
 ms.date: 11/20/2020
 keywords: ["EVT_TR_CREATE_SECURE_DEVICE_CONTEXT callback function"]
 req.header: trustedruntimeclx.h

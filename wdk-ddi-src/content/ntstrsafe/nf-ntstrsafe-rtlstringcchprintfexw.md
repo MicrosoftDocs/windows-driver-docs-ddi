@@ -4,7 +4,6 @@ title: RtlStringCchPrintfExW function (ntstrsafe.h)
 description: The RtlStringCchPrintfExW and RtlStringCchPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchprintfex.htm
 tech.root: kernel
-ms.assetid: 8b43acd5-9204-41ff-8c63-76769bfa5469
 ms.date: 04/30/2018
 keywords: ["RtlStringCchPrintfExW function"]
 ms.keywords: RtlStringCchPrintfEx, RtlStringCchPrintfExA, RtlStringCchPrintfExW, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchprintfex, ntstrsafe/RtlStringCchPrintfExA, ntstrsafe/RtlStringCchPrintfExW, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml

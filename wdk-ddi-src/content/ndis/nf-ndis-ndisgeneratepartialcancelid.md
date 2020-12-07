@@ -4,7 +4,6 @@ title: NdisGeneratePartialCancelId function (ndis.h)
 description: The NdisGeneratePartialCancelId function returns a value that the calling driver must use as the high-order byte of a cancellation ID.
 old-location: netvista\ndisgeneratepartialcancelid.htm
 tech.root: netvista
-ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.date: 05/02/2018
 keywords: ["NdisGeneratePartialCancelId function"]
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml

@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IDataModelScriptProvider
 title: IDataModelScriptProvider (dbgmodel.h)
 description: Any script provider implementing a bridge between a dynamic language and the data model must implement this interface to represent the provider.
-ms.assetid: efec4d86-2d7b-4c57-adec-3ecff8c3ce7d
 ms.date: 07/13/2018
 keywords: ["IDataModelScriptProvider interface"]
 req.header: dbgmodel.h

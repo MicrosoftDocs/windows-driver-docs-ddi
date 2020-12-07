@@ -4,7 +4,6 @@ title: NDK_FN_CREATE_LISTENER (ndkpi.h)
 description: The NdkCreateListener (NDK_FN_CREATE_LISTENER) function creates an NDK listener object.
 old-location: netvista\ndk_fn_create_listener.htm
 tech.root: netvista
-ms.assetid: CC6259B8-AF3B-4FCE-94E3-7A5CD80C64A7
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_LISTENER callback function"]
 ms.keywords: NDK_FN_CREATE_LISTENER, NDK_FN_CREATE_LISTENER callback, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener

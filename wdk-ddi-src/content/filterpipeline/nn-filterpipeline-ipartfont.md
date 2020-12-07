@@ -4,7 +4,6 @@ title: IPartFont (filterpipeline.h)
 description: The IPartFont interface is the abstraction for fonts in a part.
 old-location: print\ipartfont.htm
 tech.root: print
-ms.assetid: bdb1ad56-de4c-4a9b-96b6-f9faff4abf65
 ms.date: 04/20/2018
 keywords: ["IPartFont interface"]
 ms.keywords: IPartFont, IPartFont interface [Print Devices], IPartFont interface [Print Devices],described, filterpipeline/IPartFont, filterpipeline_def05492-ca27-43bb-9ec4-273aa432536b.xml, print.ipartfont

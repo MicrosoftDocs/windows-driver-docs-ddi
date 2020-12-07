@@ -4,7 +4,6 @@ title: _DXGK_DEBUG_REPORT_INTERFACE (dispmprt.h)
 description: The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the Debug Report interface, which is implemented by the display port driver.
 old-location: display\dxgk_debug_report_interface.htm
 tech.root: display
-ms.assetid: fb1bd1dd-feab-4aa4-8b4f-932f0d5ec4ab
 ms.date: 05/10/2018
 keywords: ["DXGK_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: "*PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, dispmprt/DXGK_DEBUG_REPORT_INTERFACE, dispmprt/PDXGK_DEBUG_REPORT_INTERFACE"

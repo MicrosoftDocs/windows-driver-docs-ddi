@@ -4,7 +4,6 @@ title: ETWENABLECALLBACK (wdm.h)
 description: The EtwEnableCallback function is an optional driver-supplied callback function that is used to receive enable or disable notifications.
 old-location: devtest\etwenablecallback.htm
 tech.root: devtest
-ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.date: 02/23/2018
 keywords: ["ETWENABLECALLBACK callback function"]
 ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, PETWENABLECALLBACK callback, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback

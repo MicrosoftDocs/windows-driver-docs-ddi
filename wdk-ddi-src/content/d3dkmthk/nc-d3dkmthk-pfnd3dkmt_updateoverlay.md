@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEOVERLAY
 title: PFND3DKMT_UPDATEOVERLAY (d3dkmthk.h)
 description: PFND3DKMT_UPDATEOVERLAY callback function modifies a kernel-mode overlay object.
-ms.assetid: 05fd48da-c107-4964-a042-e2662ac70828
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_UPDATEOVERLAY callback function"]
 req.header: d3dkmthk.h
