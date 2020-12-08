@@ -22,7 +22,6 @@ req.redist:
 req.target-min-winverclnt: Supported in NDKPI 2.1 and later.
 req.target-min-winversvr: 
 req.target-type: Windows
-req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
