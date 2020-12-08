@@ -2,7 +2,6 @@
 UID: NS:ntifs._FILE_STANDARD_LINK_INFORMATION
 title: FILE_STANDARD_LINK_INFORMATION
 ms.date: 11/20/2020
-ms.assetid: 4a507f6d-6851-45d6-a09c-e5dd72135f55
 tech.root: ifsk
 ms.topic: language-reference
 targetos: Windows

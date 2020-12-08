@@ -4,7 +4,6 @@ title: CcPinMappedData function (ntifs.h)
 description: The CcPinMappedData routine pins the specified byte range of a cached file.
 old-location: ifsk\ccpinmappeddata.htm
 tech.root: ifsk
-ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.date: 04/18/2018
 keywords: ["CcPinMappedData function"]
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData

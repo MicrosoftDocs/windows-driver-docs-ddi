@@ -4,7 +4,6 @@ title: UDECX_USB_DEVICE_CALLBACKS_INIT function (udecxusbdevice.h)
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure before a UdecxUsbDeviceCreate call.
 old-location: buses\udecx_usb_device_callbacks_init.htm
 tech.root: usbref
-ms.assetid: ACBF5E07-9F36-4DF9-B72B-1BF159CE27A7
 ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT, UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], buses.udecx_usb_device_callbacks_init, udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT

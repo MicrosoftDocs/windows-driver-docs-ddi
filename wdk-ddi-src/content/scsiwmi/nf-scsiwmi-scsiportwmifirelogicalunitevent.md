@@ -4,7 +4,6 @@ title: ScsiPortWmiFireLogicalUnitEvent function (scsiwmi.h)
 description: The ScsiPortWmiFireLogicalUnitEvent routine sends an event associated with a logical unit to the port driver for delivery to WMI data consumers that have requested notification of the event.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportwmifirelogicalunitevent.htm
 tech.root: storage
-ms.assetid: f8bfc6cb-78d4-482b-b08b-0d86631ce979
 ms.date: 03/29/2018
 keywords: ["ScsiPortWmiFireLogicalUnitEvent function"]
 ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent

@@ -4,7 +4,6 @@ title: RILMSGMWISUMMARYLIST (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwisummarylist.htm
 tech.root: netvista
-ms.assetid: b698f9df-5a67-4ddf-9956-21fbd4f6f385
 ms.date: 05/02/2018
 keywords: ["RILMSGMWISUMMARYLIST structure"]
 ms.keywords: "*LPRILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummarylist, ntddrilapitypes/RILMSGMWISUMMARYLIST"

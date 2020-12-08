@@ -4,7 +4,6 @@ title: IPortClsVersion (portcls.h)
 description: The IPortClsVersion interface is used by a miniport driver to identify the version of the Windows operating system that the driver is running on. The port driver implements this interface and exposes it to the miniport driver.
 old-location: audio\iportclsversion.htm
 tech.root: audio
-ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.date: 05/08/2018
 keywords: ["IPortClsVersion interface"]
 ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices],described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion

@@ -4,7 +4,6 @@ title: _D3DDDICB_DESTROYHWQUEUE (d3dumddi.h)
 description: A structure that holds information to destroy a hardware queue.
 old-location: display\d3dddicb_destroyhwqueue.htm
 tech.root: display
-ms.assetid: 80735E36-C483-4CD8-AB53-873BA5E997D0
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYHWQUEUE structure"]
 ms.keywords: D3DDDICB_DESTROYHWQUEUE, D3DDDICB_DESTROYHWQUEUE structure [Display Devices], _D3DDDICB_DESTROYHWQUEUE, d3dumddi/D3DDDICB_DESTROYHWQUEUE, display.d3dddicb_destroyhwqueue

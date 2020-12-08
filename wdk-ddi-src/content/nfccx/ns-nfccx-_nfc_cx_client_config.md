@@ -4,7 +4,6 @@ title: _NFC_CX_CLIENT_CONFIG (nfccx.h)
 description: The NFC_CX_CLIENT_CONFIG structure is an input parameter to NfcCxDeviceInitConfig.
 old-location: nfpdrivers\nfc_cx_client_config.htm
 tech.root: nfpdrivers
-ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.date: 02/15/2018
 keywords: ["NFC_CX_CLIENT_CONFIG structure"]
 ms.keywords: "*PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, nfccx/_NFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config"

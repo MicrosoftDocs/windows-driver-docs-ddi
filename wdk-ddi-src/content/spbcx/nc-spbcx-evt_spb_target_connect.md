@@ -4,7 +4,6 @@ title: EVT_SPB_TARGET_CONNECT (spbcx.h)
 description: An SPB controller driver's EvtSpbTargetConnect event callback function opens a connection to a target device on the bus.
 old-location: spb\evtspbtargetconnect.htm
 tech.root: SPB
-ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_TARGET_CONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect

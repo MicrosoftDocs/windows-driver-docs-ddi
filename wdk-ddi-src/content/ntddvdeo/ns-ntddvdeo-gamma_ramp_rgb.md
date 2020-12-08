@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._GAMMA_RAMP_RGB
 title: GAMMA_RAMP_RGB
 description: Gamma ramp for RGB.
 tech.root: display
-ms.assetid: fb12b170-f54b-4458-b7ac-1b58a6538ec8
 ms.date: 04/04/2019
 keywords: ["GAMMA_RAMP_RGB structure"]
 ms.keywords: GAMMA_RAMP_RGB, GAMMA_RAMP_RGB,

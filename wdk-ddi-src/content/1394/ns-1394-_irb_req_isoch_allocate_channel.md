@@ -4,7 +4,6 @@ title: _IRB_REQ_ISOCH_ALLOCATE_CHANNEL (1394.h)
 description: This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
 old-location: ieee\irb_req_isoch_allocate_channel.htm
 tech.root: IEEE
-ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL

@@ -4,7 +4,6 @@ title: D3D12DDI_LOD_REGION_0073
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 66269d0e-b533-4854-940c-1ecd2b50d7c4
 tech.root: display
 description: Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.
 req.construct-type: structure

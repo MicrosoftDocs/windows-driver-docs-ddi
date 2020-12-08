@@ -4,7 +4,6 @@ title: RtlWriteNonVolatileMemory function (ntddk.h)
 description: The routine RtlWriteNonVolatileMemory copies the contents of a source buffer to a non-volatile destination memory buffer.
 old-location: ifsk\rtlwritenonvolatilememory.htm
 tech.root: ifsk
-ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.date: 04/16/2018
 keywords: ["RtlWriteNonVolatileMemory function"]
 ms.keywords: RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory

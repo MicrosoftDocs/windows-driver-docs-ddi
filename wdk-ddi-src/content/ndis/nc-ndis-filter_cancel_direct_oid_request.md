@@ -4,7 +4,6 @@ title: FILTER_CANCEL_DIRECT_OID_REQUEST (ndis.h)
 description: NDIS calls a filter driver's FilterCancelDirectOidRequest function to cancel a direct OID request.Note  You must declare the function by using the FILTER_CANCEL_DIRECT_OID_REQUEST type.
 old-location: netvista\filtercanceldirectoidrequest.htm
 tech.root: netvista
-ms.assetid: 3587c5dc-3b4c-4aab-8c2d-cc9988373a56
 ms.date: 05/02/2018
 keywords: ["FILTER_CANCEL_DIRECT_OID_REQUEST callback function"]
 ms.keywords: FILTER_CANCEL_DIRECT_OID_REQUEST, FILTER_CANCEL_DIRECT_OID_REQUEST callback, FilterCancelDirectOidRequest, FilterCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelDirectOidRequest, ndis_request_direct_ref_e9bd9db7-8a50-485e-9592-e43461963137.xml, netvista.filtercanceldirectoidrequest

@@ -4,7 +4,6 @@ title: IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE (ehstorioctl.h)
 description: The IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE request is sent by silo drivers and applications to change the state of a storage device queue. IO requests in the storage device queue are held when the device is temporarily unauthorized.
 old-location: storage\ioctl_ehstor_device_set_queue_state.htm
 tech.root: storage
-ms.assetid: 83AFAC73-39B8-442A-822E-411D08130F88
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, storage.ioctl_ehstor_device_set_queue_state

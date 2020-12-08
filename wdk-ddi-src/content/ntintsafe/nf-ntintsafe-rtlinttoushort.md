@@ -4,7 +4,6 @@ title: RtlIntToUShort function (ntintsafe.h)
 description: Converts a value of type INT to a value of type USHORT.
 old-location: kernel\rtlinttoushort.htm
 tech.root: kernel
-ms.assetid: 52571477-80F5-4848-8BCC-AFA70140FABE
 ms.date: 04/30/2018
 keywords: ["RtlIntToUShort function"]
 ms.keywords: RtlIntToUShort, RtlIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoushort, ntintsafe/RtlIntToUShort

@@ -4,7 +4,6 @@ title: _PAR_SET_INFORMATION (ntddpar.h)
 description: The PAR_SET_INFORMATION structure specifies the initial operating status of a parallel port.
 old-location: parports\par_set_information.htm
 tech.root: parports
-ms.assetid: 05e889b1-4b18-4122-9332-69778017e15c
 ms.date: 02/15/2018
 keywords: ["PAR_SET_INFORMATION structure"]
 ms.keywords: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, ntddpar/PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, parports.par_set_information"

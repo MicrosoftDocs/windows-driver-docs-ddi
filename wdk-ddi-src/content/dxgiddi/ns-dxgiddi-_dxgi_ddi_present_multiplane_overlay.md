@@ -4,7 +4,6 @@ title: _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY (dxgiddi.h)
 description: Specifies overlay planes to display.
 old-location: display\dxgi_ddi_present_multiplane_overlay.htm
 tech.root: display
-ms.assetid: 18811f98-df57-43ab-b8f7-26301abeb823
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure"]
 ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY

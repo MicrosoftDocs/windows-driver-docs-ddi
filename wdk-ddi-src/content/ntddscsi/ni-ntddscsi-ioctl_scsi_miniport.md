@@ -4,7 +4,6 @@ title: IOCTL_SCSI_MINIPORT (ntddscsi.h)
 description: Sends a special control function to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport.htm
 tech.root: storage
-ms.assetid: 5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea
 ms.date: 12/20/2019
 keywords: ["IOCTL_SCSI_MINIPORT IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport

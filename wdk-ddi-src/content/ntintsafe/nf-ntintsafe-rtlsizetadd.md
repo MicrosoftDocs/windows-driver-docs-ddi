@@ -4,7 +4,6 @@ title: RtlSizeTAdd function (ntintsafe.h)
 description: Adds two values of type SIZE_T.
 old-location: kernel\rtlsizetadd.htm
 tech.root: kernel
-ms.assetid: A3A2BD4D-F95D-4427-BE63-80A6E9AC9293
 ms.date: 04/30/2018
 keywords: ["RtlSizeTAdd function"]
 ms.keywords: RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], kernel.rtlsizetadd, ntintsafe/RtlSizeTAdd

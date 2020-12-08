@@ -4,7 +4,6 @@ title: D3DDDICB_CREATEPAGINGQUEUE (d3dumddi.h)
 description: D3DDDICB_CREATEPAGINGQUEUE is used with pfnCreatePagingQueueCb to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\d3dddicb_createpagingqueue.htm
 tech.root: display
-ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_CREATEPAGINGQUEUE structure"]
 ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue

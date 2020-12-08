@@ -4,7 +4,6 @@ title: PVIDEO_HW_LEGACYRESOURCES (video.h)
 description: HwVidLegacyResources returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
 old-location: display\hwvidlegacyresources.htm
 tech.root: display
-ms.assetid: 015086e9-70b4-4756-9945-c9da17829e90
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_LEGACYRESOURCES callback function"]
 ms.keywords: HwVidLegacyResources, HwVidLegacyResources callback function [Display Devices], PVIDEO_HW_LEGACYRESOURCES, PVIDEO_HW_LEGACYRESOURCES callback, VideoMiniport_Functions_a629bf4d-8f16-4d71-ab88-c691160a5df7.xml, display.hwvidlegacyresources, video/HwVidLegacyResources

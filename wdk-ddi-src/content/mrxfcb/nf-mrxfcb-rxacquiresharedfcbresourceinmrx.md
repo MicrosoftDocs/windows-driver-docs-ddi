@@ -4,7 +4,6 @@ title: RxAcquireSharedFcbResourceInMRx function (mrxfcb.h)
 description: RxAcquireSharedFcbResourceInMRx acquires the FCB resource for a network mini-redirector driver in shared mode.
 old-location: ifsk\rxacquiresharedfcbresourceinmrx.htm
 tech.root: ifsk
-ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.date: 04/16/2018
 keywords: ["RxAcquireSharedFcbResourceInMRx function"]
 ms.keywords: RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx, mrxfcb/RxAcquireSharedFcbResourceInMRx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml

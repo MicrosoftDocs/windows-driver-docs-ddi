@@ -4,7 +4,6 @@ title: WdfRequestCreateFromIrp function (wdfrequest.h)
 description: The WdfRequestCreateFromIrp method creates a framework request object from a specified WDM IRP.
 old-location: wdf\wdfrequestcreatefromirp.htm
 tech.root: wdf
-ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.date: 02/26/2018
 keywords: ["WdfRequestCreateFromIrp function"]
 ms.keywords: DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, WdfRequestCreateFromIrp, WdfRequestCreateFromIrp method, kmdf.wdfrequestcreatefromirp, wdf.wdfrequestcreatefromirp, wdfrequest/WdfRequestCreateFromIrp

@@ -4,7 +4,6 @@ title: IOCTL_BIOMETRIC_UPDATE_FIRMWARE (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL tells the driver to update the firmware for the device with the given firmware image. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_update_firmware.htm
 tech.root: biometric
-ms.assetid: 0337956a-09d0-4c9c-8f2d-ac63210431ba
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_UPDATE_FIRMWARE, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control code [Biometric Devices], biometric.ioctl_biometric_update_firmware, biometric_ref_b94fa4b7-e1db-4cac-8c06-ff490ca39fd5.xml, winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE

@@ -4,7 +4,6 @@ title: IDebugSymbols3::FindSourceFileWide (dbgeng.h)
 description: The FindSourceFileWide method searches the source path for a specified source file.
 old-location: debugger\findsourcefilewide.htm
 tech.root: debugger
-ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::FindSourceFileWide"]
 ms.keywords: FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],FindSourceFileWide method, IDebugSymbols3.FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide

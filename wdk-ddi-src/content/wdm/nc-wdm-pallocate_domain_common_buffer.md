@@ -3,7 +3,6 @@ UID: NC:wdm.PALLOCATE_DOMAIN_COMMON_BUFFER
 title: PALLOCATE_DOMAIN_COMMON_BUFFER (wdm.h)
 description: 
 tech.root: kernel
-ms.assetid: 29fca9d8-ddc6-40b5-92c0-079441f965b3
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_DOMAIN_COMMON_BUFFER callback function"]
 req.header: wdm.h

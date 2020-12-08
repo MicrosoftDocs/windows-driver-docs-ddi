@@ -4,7 +4,6 @@ title: _NFC_CX_HARDWARE_EVENT (nfccx.h)
 description: The NFC_CX_HARDWARE_EVENT structure is an input parameter to NfcCxHardwareEvent.
 old-location: nfpdrivers\nfc_cx_hardware_event.htm
 tech.root: nfpdrivers
-ms.assetid: FC7566C0-95FD-450C-897E-C57870386512
 ms.date: 02/15/2018
 keywords: ["NFC_CX_HARDWARE_EVENT structure"]
 ms.keywords: "*PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event"

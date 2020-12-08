@@ -2,7 +2,6 @@
 UID: NS:winddiui._PRINTPROCESSOR_CAPS_1
 title: _PRINTPROCESSOR_CAPS_1 (winddiui.h)
 description: 
-ms.assetid: fbcf27fb-85e2-45c3-8109-42812d17c31a
 ms.date: 11/18/2020
 keywords: ["PRINTPROCESSOR_CAPS_1 structure"]
 ms.keywords: _PRINTPROCESSOR_CAPS_1, PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1,

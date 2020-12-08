@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_CAPABILITY (ntddk.h)
 description: The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
 old-location: pci\pci_express_capability.htm
 tech.root: PCI
-ms.assetid: f1faf319-95de-41f8-b32c-927ff4bb17ea
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_CAPABILITY, PCI.pci_express_capability, PCI_EXPRESS_CAPABILITY, PCI_EXPRESS_CAPABILITY structure [Buses], PPCI_EXPRESS_CAPABILITY, PPCI_EXPRESS_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_CAPABILITY, ntddk/PCI_EXPRESS_CAPABILITY, ntddk/PPCI_EXPRESS_CAPABILITY, pci_struct_9c629781-bcee-486d-bab3-5d5b7441ac72.xml"

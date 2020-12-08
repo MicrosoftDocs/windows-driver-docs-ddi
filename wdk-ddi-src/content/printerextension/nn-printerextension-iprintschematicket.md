@@ -4,7 +4,6 @@ title: IPrintSchemaTicket (printerextension.h)
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
 tech.root: print
-ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.date: 10/19/2018
 keywords: ["IPrintSchemaTicket interface"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket

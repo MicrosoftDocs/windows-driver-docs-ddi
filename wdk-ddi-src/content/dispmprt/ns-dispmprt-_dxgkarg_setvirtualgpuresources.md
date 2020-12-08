@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_SETVIRTUALGPURESOURCES
 title: _DXGKARG_SETVIRTUALGPURESOURCES
 description: 
 tech.root: display
-ms.assetid: 1adf321c-b791-4dee-a948-78bfd07a6d38
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPURESOURCES structure"]
 ms.prod: windows-hardware

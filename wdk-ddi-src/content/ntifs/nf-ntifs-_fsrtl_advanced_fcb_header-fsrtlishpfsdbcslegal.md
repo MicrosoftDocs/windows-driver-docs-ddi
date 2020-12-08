@@ -4,7 +4,6 @@ title: FsRtlIsHpfsDbcsLegal function (ntifs.h)
 description: The FsRtlIsHpfsDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
 old-location: ifsk\fsrtlishpfsdbcslegal.htm
 tech.root: ifsk
-ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.date: 04/16/2018
 keywords: ["FsRtlIsHpfsDbcsLegal function"]
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal

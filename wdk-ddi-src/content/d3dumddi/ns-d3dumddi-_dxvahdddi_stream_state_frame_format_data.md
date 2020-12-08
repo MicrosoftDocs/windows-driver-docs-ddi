@@ -4,7 +4,6 @@ title: _DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure describes data that specifies the frame format of the input.
 old-location: display\dxvahdddi_stream_state_frame_format_data.htm
 tech.root: display
-ms.assetid: e04e21e7-6d13-4705-8cc9-cc1b00bf04e4
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure"]
 ms.keywords: DXVA2_Structs_5dd1d1dc-aadc-4772-888e-f16eac3dd935.xml, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, display.dxvahdddi_stream_state_frame_format_data

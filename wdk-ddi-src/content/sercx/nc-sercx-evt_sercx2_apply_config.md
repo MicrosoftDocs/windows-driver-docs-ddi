@@ -4,7 +4,6 @@ title: EVT_SERCX2_APPLY_CONFIG (sercx.h)
 description: The EvtSerCx2ApplyConfig event callback function is called by version 2 of the serial framework extension (SerCx2) to supply the serial controller driver with a list of device-specific configuration settings to apply to the serial controller hardware.
 old-location: serports\evtsercx2applyconfig.htm
 tech.root: serports
-ms.assetid: 8D9BC698-1E62-4DC2-B233-37022F330F98
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_APPLY_CONFIG callback function"]
 ms.keywords: 2/EvtSerCx2ApplyConfig, EVT_SERCX2_APPLY_CONFIG, EVT_SERCX2_APPLY_CONFIG callback, EvtSerCx2ApplyConfig, EvtSerCx2ApplyConfig callback function [Serial Ports], serports.evtsercx2applyconfig

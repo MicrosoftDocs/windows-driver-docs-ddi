@@ -4,7 +4,6 @@ title: WDF_USB_PIPE_DIRECTION_IN function (wdfusb.h)
 description: The WDF_USB_PIPE_DIRECTION_IN function determines whether a specified USB endpoint is an input endpoint.
 old-location: wdf\wdf_usb_pipe_direction_in.htm
 tech.root: wdf
-ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.date: 02/26/2018
 keywords: ["WDF_USB_PIPE_DIRECTION_IN function"]
 ms.keywords: DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN function, kmdf.wdf_usb_pipe_direction_in, wdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN

@@ -4,7 +4,6 @@ title: D3DDDICB_EVICT (d3dumddi.h)
 description: D3DKMT_EVICT is used with pfnEvictCb to subtract one from the residency reference count.
 old-location: display\d3dddicb_evict.htm
 tech.root: display
-ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_EVICT structure"]
 ms.keywords: D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices], d3dumddi/D3DDDICB_EVICT, display.d3dddicb_evict

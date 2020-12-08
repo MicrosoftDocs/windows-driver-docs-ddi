@@ -4,7 +4,6 @@ title: RtlValidRelativeSecurityDescriptor function (wdm.h)
 description: The RtlValidRelativeSecurityDescriptor routine checks the validity of a self-relative security descriptor.
 old-location: kernel\rtlvalidrelativesecuritydescriptor.htm
 tech.root: kernel
-ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.date: 04/30/2018
 keywords: ["RtlValidRelativeSecurityDescriptor function"]
 ms.keywords: RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, kernel.rtlvalidrelativesecuritydescriptor, wdm/RtlValidRelativeSecurityDescriptor

@@ -4,7 +4,6 @@ title: BranchOfficeJobDataRendered (winsplp.h)
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.
 old-location: print\branchofficejobdatarendered.htm
 tech.root: print
-ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 ms.date: 04/20/2018
 keywords: ["BranchOfficeJobDataRendered structure"]
 ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered"

@@ -4,7 +4,6 @@ title: _SCSI_ADAPTER_BUS_INFO (ntddscsi.h)
 description: The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_adapter_bus_info.htm
 tech.root: storage
-ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.date: 03/29/2018
 keywords: ["SCSI_ADAPTER_BUS_INFO structure"]
 ms.keywords: "*PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml"

@@ -4,7 +4,6 @@ title: ExInterlockedPopEntrySList function (wdm.h)
 description: The ExInterlockedPopEntrySList routine atomically removes the first entry from a sequenced singly linked list.
 old-location: kernel\exinterlockedpopentryslist.htm
 tech.root: kernel
-ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.date: 04/30/2018
 keywords: ["ExInterlockedPopEntrySList macro"]
 ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList

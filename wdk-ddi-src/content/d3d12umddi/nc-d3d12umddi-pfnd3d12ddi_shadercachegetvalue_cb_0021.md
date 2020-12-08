@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
 title: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 (d3d12umddi.h)
 description: The pfnShaderCacheGetValueCb callback function gets a shader cache value.
 old-location: display\pfnd3d12ddi_shadercachegetvalue_cb_0021.htm
-ms.assetid: EFC9E2D0-1995-4FE9-840C-7B33081AEF2F
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback function"]
 ms.keywords: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021, PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback, d3d12umddi/pfnShaderCacheGetValueCb, display.pfnd3d12ddi_shadercachegetvalue_cb_0021, pfnShaderCacheGetValueCb, pfnShaderCacheGetValueCb callback function [Display Devices]

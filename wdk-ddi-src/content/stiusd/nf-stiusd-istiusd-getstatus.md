@@ -4,7 +4,6 @@ title: IStiUSD::GetStatus (stiusd.h)
 description: A still image minidriver's IStiUSD::GetStatus method returns the status of a still image device.
 old-location: image\istiusd_getstatus.htm
 tech.root: image
-ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.date: 05/03/2018
 keywords: ["IStiUSD::GetStatus"]
 ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetStatus method, IStiUSD.GetStatus, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus

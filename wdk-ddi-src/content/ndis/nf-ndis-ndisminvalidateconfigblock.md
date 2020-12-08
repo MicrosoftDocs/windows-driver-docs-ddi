@@ -4,7 +4,6 @@ title: NdisMInvalidateConfigBlock function (ndis.h)
 description: A miniport driver calls the NdisMInvalidateConfigBlock function to notify NDIS that the data for one or more Virtual Function (VF) configuration blocks has been changed.
 old-location: netvista\ndisminvalidateconfigblock.htm
 tech.root: netvista
-ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.date: 05/02/2018
 keywords: ["NdisMInvalidateConfigBlock function"]
 ms.keywords: NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock

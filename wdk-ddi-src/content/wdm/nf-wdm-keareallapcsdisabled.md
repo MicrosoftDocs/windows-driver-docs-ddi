@@ -4,7 +4,6 @@ title: KeAreAllApcsDisabled function (wdm.h)
 description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, which disables all APC delivery.
 old-location: kernel\keareallapcsdisabled.htm
 tech.root: kernel
-ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.date: 04/30/2018
 keywords: ["KeAreAllApcsDisabled function"]
 ms.keywords: KeAreAllApcsDisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, kernel.keareallapcsdisabled, wdm/KeAreAllApcsDisabled

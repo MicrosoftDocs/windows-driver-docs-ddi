@@ -4,7 +4,6 @@ title: CcGetDirtyPages function (ntifs.h)
 description: The CcGetDirtyPages routine searches for dirty pages in all files that match a given log handle.
 old-location: ifsk\ccgetdirtypages.htm
 tech.root: ifsk
-ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.date: 04/16/2018
 keywords: ["CcGetDirtyPages function"]
 ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages

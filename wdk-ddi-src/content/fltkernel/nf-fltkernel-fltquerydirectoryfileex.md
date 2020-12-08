@@ -3,7 +3,6 @@ UID: NF:fltkernel.FltQueryDirectoryFileEx
 title: FltQueryDirectoryFileEx function
 description: FltQueryDirectoryFileEx returns various kinds of information about files in the directory specified by a given file object.
 tech.root: ifsk
-ms.assetid: 5f07dff9-004f-415a-81fb-5d32e44fbc48
 ms.date: 03/08/2019
 keywords: ["FltQueryDirectoryFileEx function"]
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile

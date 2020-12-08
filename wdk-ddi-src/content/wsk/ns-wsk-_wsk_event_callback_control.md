@@ -4,7 +4,6 @@ title: _WSK_EVENT_CALLBACK_CONTROL (wsk.h)
 description: The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling and disabling a socket's event callback functions.
 old-location: netvista\wsk_event_callback_control.htm
 tech.root: netvista
-ms.assetid: 152e142a-dda4-4540-b1a9-14625f4653bb
 ms.date: 05/02/2018
 keywords: ["WSK_EVENT_CALLBACK_CONTROL structure"]
 ms.keywords: "*PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], _WSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml"

@@ -4,7 +4,6 @@ title: _OEMFONTINSTPARAM (prntfont.h)
 description: The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::FontInstallerDlgProc method.
 old-location: print\oemfontinstparam.htm
 tech.root: print
-ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.date: 04/20/2018
 keywords: ["OEMFONTINSTPARAM structure"]
 ms.keywords: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"

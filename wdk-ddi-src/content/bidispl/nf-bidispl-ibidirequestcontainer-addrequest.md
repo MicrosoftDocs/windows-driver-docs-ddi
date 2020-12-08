@@ -4,7 +4,6 @@ title: IBidiRequestContainer::AddRequest (bidispl.h)
 description: The AddRequest method adds a request to the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
 tech.root: print
-ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.date: 04/20/2018
 keywords: ["IBidiRequestContainer::AddRequest"]
 ms.keywords: AddRequest, AddRequest method [Print Devices], AddRequest method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],AddRequest method, IBidiRequestContainer.AddRequest, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest

@@ -2,7 +2,6 @@
 UID: NE:d3dkmthk._D3DKMT_PROCESS_VERIFIER_OPTION_TYPE
 title: _D3DKMT_PROCESS_VERIFIER_OPTION_TYPE (d3dkmthk.h)
 description: Process verifier option types.
-ms.assetid: 9022f398-6fa1-4bc1-a754-7d735f6b0944
 ms.date: 10/19/2018
 keywords: ["D3DKMT_PROCESS_VERIFIER_OPTION_TYPE enumeration"]
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_OPTION_TYPE, D3DKMT_PROCESS_VERIFIER_OPTION_TYPE,

@@ -4,7 +4,6 @@ title: _ROOTHUB_20PORT_INFO (ucxroothub.h)
 description: Provides information about a USB 2.0 root hub port. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_20PORT_INFO callback function.
 old-location: buses\_roothub_20port_info.htm
 tech.root: usbref
-ms.assetid: AA71D015-B047-497C-A9E1-32E5E73AD0C2
 ms.date: 05/07/2018
 keywords: ["ROOTHUB_20PORT_INFO structure"]
 ms.keywords: "*PROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], _ROOTHUB_20PORT_INFO, buses._roothub_20port_info, ucxroothub/P_ROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO"

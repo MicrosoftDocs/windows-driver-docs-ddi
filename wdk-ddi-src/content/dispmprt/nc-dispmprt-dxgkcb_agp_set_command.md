@@ -4,7 +4,6 @@ title: DXGKCB_AGP_SET_COMMAND (dispmprt.h)
 description: The AgpSetCommand function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 old-location: display\agpsetcommand.htm
 tech.root: display
-ms.assetid: 4440bc0f-01cb-4108-bfe8-9d5127777f00
 ms.date: 05/10/2018
 keywords: ["DXGKCB_AGP_SET_COMMAND callback function"]
 ms.keywords: AgpSetCommand, AgpSetCommand callback function [Display Devices], DXGKCB_AGP_SET_COMMAND, DXGKCB_AGP_SET_COMMAND callback, DpFunctions_7b0574a7-3c70-41e5-b7e7-908a86c2bccd.xml, display.agpsetcommand, dispmprt/AgpSetCommand

@@ -4,7 +4,6 @@ title: RxResumeBlockedOperations_Serially function (rxcontx.h)
 description: RxResumeBlockedOperations_Serially wakes up the next waiting thread, if any, on the serialized blocking I/O queue.
 old-location: ifsk\rxresumeblockedoperations_serially.htm
 tech.root: ifsk
-ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.date: 04/16/2018
 keywords: ["RxResumeBlockedOperations_Serially function"]
 ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially , RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml

@@ -4,7 +4,6 @@ title: WdfWaitLockRelease function (wdfsync.h)
 description: The WdfWaitLockRelease method releases a specified wait lock.
 old-location: wdf\wdfwaitlockrelease.htm
 tech.root: wdf
-ms.assetid: f7fb070b-fea4-48d9-8f89-1c01af183ef0
 ms.date: 02/26/2018
 keywords: ["WdfWaitLockRelease function"]
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease

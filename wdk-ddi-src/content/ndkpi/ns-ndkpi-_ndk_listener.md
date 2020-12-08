@@ -4,7 +4,6 @@ title: _NDK_LISTENER (ndkpi.h)
 description: The NDK_LISTENER structure specifies the attributes of an NDK listener object.
 old-location: netvista\ndk_listener.htm
 tech.root: netvista
-ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.date: 05/02/2018
 keywords: ["NDK_LISTENER structure"]
 ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener

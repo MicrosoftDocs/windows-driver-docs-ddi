@@ -4,7 +4,6 @@ title: TmPrePrepareEnlistment function (wdm.h)
 description: The TmPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\tmpreprepareenlistment.htm
 tech.root: kernel
-ms.assetid: 54c0fed2-a553-4321-bf61-0f71d18ab7c5
 ms.date: 04/30/2018
 keywords: ["TmPrePrepareEnlistment function"]
 ms.keywords: TmPrePrepareEnlistment, TmPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmpreprepareenlistment, ktm_ref_b27bc92e-86df-4457-9a8a-bf56eb7d1ac8.xml, wdm/TmPrePrepareEnlistment

@@ -4,7 +4,6 @@ title: USBD_GetUSBDIVersion function (usbdlib.h)
 description: The USBD_GetUSBDIVersion routine returns version information about the host controller driver (HCD) that controls the client's USB device.Note  USBD_IsInterfaceVersionSupported replaces the USBD_GetUSBDIVersion routine
 old-location: buses\usbd_getusbdiversion.htm
 tech.root: usbref
-ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.date: 05/07/2018
 keywords: ["USBD_GetUSBDIVersion function"]
 ms.keywords: USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml

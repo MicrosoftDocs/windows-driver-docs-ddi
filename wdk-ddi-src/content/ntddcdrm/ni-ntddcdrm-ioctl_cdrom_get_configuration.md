@@ -4,7 +4,6 @@ title: IOCTL_CDROM_GET_CONFIGURATION (ntddcdrm.h)
 description: Requests feature and profile information from a CD-ROM device.
 old-location: storage\ioctl_cdrom_get_configuration.htm
 tech.root: storage
-ms.assetid: 2eb4b5c3-db06-4d21-8937-847734d7ac2f
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_GET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration

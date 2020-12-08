@@ -3,7 +3,6 @@ UID: NF:portcls.IMiniportWaveRTStream.SetFormat
 title: IMiniportWaveRTStream::SetFormat (portcls.h)
 description: The SetFormat method sets the data format of the wave stream.
 tech.root: audio
-ms.assetid: b5ab8d1e-c92b-4182-99f5-c36e4e3940af
 ms.date: 09/29/2020
 keywords: ["IMiniportWaveRTStream::SetFormat"]
 ms.keywords: IMiniportWaveRTStream::SetFormat, SetFormat, IMiniportWaveRTStream.SetFormat, IMiniportWaveRTStream::SetFormat, IMiniportWaveRTStream.SetFormat

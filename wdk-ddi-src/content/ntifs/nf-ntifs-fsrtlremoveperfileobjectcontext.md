@@ -4,7 +4,6 @@ title: FsRtlRemovePerFileObjectContext function (ntifs.h)
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlRemovePerFileObjectContext function unlinks a per-file-object context information structure from the list of per-file-object contexts previously associated with a file object.
 old-location: ifsk\fsrtlremoveperfileobjectcontext.htm
 tech.root: ifsk
-ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.date: 04/16/2018
 keywords: ["FsRtlRemovePerFileObjectContext function"]
 ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext

@@ -4,7 +4,6 @@ title: CWiauFormatConverter::IsFormatSupported (wiautil.h)
 description: The CWiauFormatConverter::IsFormatSupported method verifies that GDI+ supports the image format that is to be converted.
 old-location: image\cwiauformatconverter_isformatsupported.htm
 tech.root: image
-ms.assetid: 5bb69443-8ccd-4157-8815-fb3423b57e30
 ms.date: 05/03/2018
 keywords: ["CWiauFormatConverter::IsFormatSupported"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],IsFormatSupported method, CWiauFormatConverter.IsFormatSupported, CWiauFormatConverter::IsFormatSupported, IsFormatSupported, IsFormatSupported method [Imaging Devices], IsFormatSupported method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_isformatsupported, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml, wiautil/CWiauFormatConverter::IsFormatSupported

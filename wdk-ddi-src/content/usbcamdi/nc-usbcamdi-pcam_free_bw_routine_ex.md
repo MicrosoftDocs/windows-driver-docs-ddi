@@ -4,7 +4,6 @@ title: PCAM_FREE_BW_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 old-location: stream\camfreebandwidthex.htm
 tech.root: stream
-ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.date: 04/23/2018
 keywords: ["PCAM_FREE_BW_ROUTINE_EX callback function"]
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml

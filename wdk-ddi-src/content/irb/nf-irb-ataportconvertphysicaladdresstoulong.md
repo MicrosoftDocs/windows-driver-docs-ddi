@@ -4,7 +4,6 @@ title: AtaPortConvertPhysicalAddressToUlong function (irb.h)
 description: The AtaPortConvertPhysicalAddressToUlong routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportconvertphysicaladdresstoulong.htm
 tech.root: storage
-ms.assetid: cd63cb65-701e-46e2-ba32-971f91f9eb29
 ms.date: 03/29/2018
 keywords: ["AtaPortConvertPhysicalAddressToUlong function"]
 ms.keywords: AtaPortConvertPhysicalAddressToUlong, AtaPortConvertPhysicalAddressToUlong routine [Storage Devices], atartns_b9df7c2c-3309-4d5a-88d9-bc1eee37fae0.xml, irb/AtaPortConvertPhysicalAddressToUlong, storage.ataportconvertphysicaladdresstoulong

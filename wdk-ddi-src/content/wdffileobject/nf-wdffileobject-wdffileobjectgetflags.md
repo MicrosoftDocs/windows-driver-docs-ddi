@@ -4,7 +4,6 @@ title: WdfFileObjectGetFlags function (wdffileobject.h)
 description: The WdfFileObjectGetFlags method returns the flags that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetflags.htm
 tech.root: wdf
-ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.date: 02/26/2018
 keywords: ["WdfFileObjectGetFlags function"]
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags

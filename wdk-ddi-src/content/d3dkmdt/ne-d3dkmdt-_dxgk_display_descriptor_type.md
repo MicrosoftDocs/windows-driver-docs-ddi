@@ -4,7 +4,6 @@ title: _DXGK_DISPLAY_DESCRIPTOR_TYPE (d3dkmdt.h)
 description: Enum used to express the display descriptor type.
 old-location: display\dxgk_display_descriptor_type.htm
 tech.root: display
-ms.assetid: 2AC0B5CF-67FB-462F-9118-E30FEDE9A019
 ms.date: 05/10/2018
 keywords: ["DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_EDID, DXGK_DDT_INVALID, DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type"

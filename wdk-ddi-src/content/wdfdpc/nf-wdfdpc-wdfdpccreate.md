@@ -4,7 +4,6 @@ title: WdfDpcCreate function (wdfdpc.h)
 description: The WdfDpcCreate method creates a framework DPC object and registers an EvtDpcFunc callback function.
 old-location: wdf\wdfdpccreate.htm
 tech.root: wdf
-ms.assetid: 46c6ffd1-4c01-4d1d-b7da-8f97f728ac71
 ms.date: 02/26/2018
 keywords: ["WdfDpcCreate function"]
 ms.keywords: DFDpcObjectRef_865403a4-b5c1-4113-b3b1-1929285bb82d.xml, WdfDpcCreate, WdfDpcCreate method, kmdf.wdfdpccreate, wdf.wdfdpccreate, wdfdpc/WdfDpcCreate

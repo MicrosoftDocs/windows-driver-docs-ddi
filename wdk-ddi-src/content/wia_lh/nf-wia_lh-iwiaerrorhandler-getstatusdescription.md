@@ -4,7 +4,6 @@ title: IWiaErrorHandler::GetStatusDescription (wia_lh.h)
 description: The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
 old-location: image\iwiaerrorhandler_getstatusdescription.htm
 tech.root: image
-ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.date: 05/03/2018
 keywords: ["IWiaErrorHandler::GetStatusDescription"]
 ms.keywords: GetStatusDescription, GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices],IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices],GetStatusDescription method, IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription

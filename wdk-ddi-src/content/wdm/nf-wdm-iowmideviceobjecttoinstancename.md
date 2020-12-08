@@ -4,7 +4,6 @@ title: IoWMIDeviceObjectToInstanceName function (wdm.h)
 description: The IoWMIDeviceObjectToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a device object.
 old-location: kernel\iowmideviceobjecttoinstancename.htm
 tech.root: kernel
-ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.date: 04/30/2018
 keywords: ["IoWMIDeviceObjectToInstanceName function"]
 ms.keywords: IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, wdm/IoWMIDeviceObjectToInstanceName

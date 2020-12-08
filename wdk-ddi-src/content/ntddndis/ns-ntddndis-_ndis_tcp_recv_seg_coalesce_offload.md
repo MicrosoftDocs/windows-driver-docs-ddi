@@ -4,7 +4,6 @@ title: _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD (ntddndis.h)
 description: The NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure contains the offload support state for receive segment coalescing (RSC).
 old-location: netvista\ndis_tcp_recv_seg_coalesce_offload.htm
 tech.root: netvista
-ms.assetid: F474ABFA-D811-4C03-868A-E7C23BAE2017
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure"]
 ms.keywords: "*PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload, ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD"

@@ -4,7 +4,6 @@ title: POS_CX_ATTRIBUTES_INIT function (poscx.h)
 description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTE structure.
 old-location: pos\pos_cx_attributes_init.htm
 tech.root: pos
-ms.assetid: A1287386-E831-474A-858C-89787741FD57
 ms.date: 02/23/2018
 keywords: ["POS_CX_ATTRIBUTES_INIT function"]
 ms.keywords: POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT function, pos.pos_cx_attributes_init, poscx/POS_CX_ATTRIBUTES_INIT

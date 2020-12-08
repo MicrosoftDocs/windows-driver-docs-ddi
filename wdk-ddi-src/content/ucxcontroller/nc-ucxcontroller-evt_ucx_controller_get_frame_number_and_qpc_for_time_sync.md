@@ -4,7 +4,6 @@ title: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC (ucxcontroller.
 description: UCX invokes this callback to retrieves the system query performance counter (QPC) value synchronized with the frame and microframe.
 old-location: buses\evt_ucx_controller_get_frame_number_and_qpc_for_time_sync.htm
 tech.root: usbref
-ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync

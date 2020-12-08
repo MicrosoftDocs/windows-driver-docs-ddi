@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSOR
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSOR (d3d10umddi.h)
 description: Creates a video processor object.
 old-location: display\createvideoprocessor1.htm
-ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback function"]
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOR, PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback, d3d10umddi/CreateVideoProcessor, display.createvideoprocessor1, display.pfncreatevideoprocessor1

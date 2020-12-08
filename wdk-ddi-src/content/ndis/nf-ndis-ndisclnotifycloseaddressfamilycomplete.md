@@ -4,7 +4,6 @@ title: NdisClNotifyCloseAddressFamilyComplete function (ndis.h)
 description: The NdisClNotifyCloseAddressFamilyComplete function returns the final status of an address family (AF) close operation for which the caller's ProtocolClNotifyCloseAf function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndisclnotifycloseaddressfamilycomplete.htm
 tech.root: netvista
-ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.date: 05/02/2018
 keywords: ["NdisClNotifyCloseAddressFamilyComplete function"]
 ms.keywords: NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete

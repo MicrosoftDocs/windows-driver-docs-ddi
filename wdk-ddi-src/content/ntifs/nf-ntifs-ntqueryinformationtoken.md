@@ -4,7 +4,6 @@ title: NtQueryInformationToken function (ntifs.h)
 description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: kernel\zwqueryinformationtoken.htm
 tech.root: kernel
-ms.assetid: 554b541b-943a-413e-9803-7dba17d0c6ce
 ms.date: 04/30/2018
 keywords: ["NtQueryInformationToken function"]
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken

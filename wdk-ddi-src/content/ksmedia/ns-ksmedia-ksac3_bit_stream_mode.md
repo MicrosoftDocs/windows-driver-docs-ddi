@@ -4,7 +4,6 @@ title: KSAC3_BIT_STREAM_MODE (ksmedia.h)
 description: The KSAC3_BIT_STREAM_MODE structure specifies the bit-stream mode, which is the type of audio service that is encoded into an AC-3 stream.
 old-location: audio\ksac3_bit_stream_mode.htm
 tech.root: audio
-ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.date: 08/20/2020
 keywords: ["KSAC3_BIT_STREAM_MODE structure"]
 ms.keywords: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE"

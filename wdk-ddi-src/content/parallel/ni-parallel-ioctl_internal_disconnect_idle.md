@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_DISCONNECT_IDLE (parallel.h)
 description: The IOCTL_INTERNAL_DISCONNECT_IDLE request disconnects the IEEE 1284 operating modes that are set for a parallel device.
 old-location: parports\ioctl_internal_disconnect_idle.htm
 tech.root: parports
-ms.assetid: 02fd4277-502d-4a9e-b809-10134ed0900b
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_DISCONNECT_IDLE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_DISCONNECT_IDLE, IOCTL_INTERNAL_DISCONNECT_IDLE control code [Parallel Ports], cisspd_ff4b2feb-d3b4-4b80-9f6f-f4fd16bab4c1.xml, parallel/IOCTL_INTERNAL_DISCONNECT_IDLE, parports.ioctl_internal_disconnect_idle

@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTOpenResource
 title: D3DKMTOpenResource function (d3dkmthk.h)
 description: The D3DKMTOpenResource function opens a shared resource.
 old-location: display\d3dkmtopenresource.htm
-ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenResource function"]
 ms.keywords: D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource

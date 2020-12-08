@@ -4,7 +4,6 @@ title: _D3DDDICB_QUERYRESIDENCY (d3dumddi.h)
 description: The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations.
 old-location: display\d3dddicb_queryresidency.htm
 tech.root: display
-ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_QUERYRESIDENCY structure"]
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency

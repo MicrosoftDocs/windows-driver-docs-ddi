@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEA_RECOVERY_CONTEXT
 title: WHEA_RECOVERY_CONTEXT
 description: 
 tech.root: whea
-ms.assetid: 7ce30722-7df7-4eac-95eb-5e2117a8f263
 ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT structure"]
 ms.keywords: WHEA_RECOVERY_CONTEXT, WHEA_RECOVERY_CONTEXT, *PWHEA_RECOVERY_CONTEXT,

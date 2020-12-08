@@ -4,7 +4,6 @@ title: RtlULongLongToUInt8 function (ntintsafe.h)
 description: Converts a value of type ULONGLONG to a value of type UINT8.
 old-location: kernel\rtlulonglongtouint8.htm
 tech.root: kernel
-ms.assetid: 6A4A46EC-6B52-4A93-85FA-01DC87DD93B6
 ms.date: 04/30/2018
 keywords: ["RtlULongLongToUInt8 function"]
 ms.keywords: RtlULongLongToUInt8, RtlULongLongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouint8, ntintsafe/RtlULongLongToUInt8

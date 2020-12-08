@@ -4,7 +4,6 @@ title: AtaPortRegistryControllerKeyWrite function (irb.h)
 description: The AtaPortRegistryControllerKeyWrite routine writes the data to the indicated value name under the registry key HKLM\CurrentControlSet\Services\<service name>\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywrite.htm
 tech.root: storage
-ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
 ms.date: 03/29/2018
 keywords: ["AtaPortRegistryControllerKeyWrite function"]
 ms.keywords: AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite

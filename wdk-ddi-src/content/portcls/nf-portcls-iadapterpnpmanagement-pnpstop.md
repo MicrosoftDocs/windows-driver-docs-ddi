@@ -3,7 +3,6 @@ UID: NF:portcls.IAdapterPnpManagement.PnpStop
 title: IAdapterPnpManagement::PnpStop (portcls.h)
 description: The PnpStop method provides a notification after stopping all Ioctl operations.
 tech.root: audio
-ms.assetid: 7ad59aef-fc02-4102-a5b8-5349209bd65d
 ms.date: 10/31/2018
 keywords: ["IAdapterPnpManagement::PnpStop"]
 ms.keywords: IAdapterPnpManagement::PnpStop, PnpStop, IAdapterPnpManagement.PnpStop, IAdapterPnpManagement::PnpStop, IAdapterPnpManagement.PnpStop

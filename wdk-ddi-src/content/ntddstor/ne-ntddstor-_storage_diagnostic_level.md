@@ -4,7 +4,6 @@ title: _STORAGE_DIAGNOSTIC_LEVEL (ntddstor.h)
 description: The STORAGE_DIAGNOSTIC_LEVEL enumeration specifies the target type of a storage diagnostic.
 old-location: storage\storage_diagnostic_level.htm
 tech.root: storage
-ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_LEVEL enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level"

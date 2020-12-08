@@ -4,7 +4,6 @@ title: _NDK_ADAPTER (ndkpi.h)
 description: The NDK_ADAPTER structure specifies the attributes of an NDK adapter object.
 old-location: netvista\ndk_adapter.htm
 tech.root: netvista
-ms.assetid: 7EEFC371-5E6F-4507-BF7F-66A1954C7A1A
 ms.date: 05/02/2018
 keywords: ["NDK_ADAPTER structure"]
 ms.keywords: NDK_ADAPTER, NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _NDK_ADAPTER, ndkpi/NDK_ADAPTER, ndkpi/PNDK_ADAPTER, netvista.ndk_adapter

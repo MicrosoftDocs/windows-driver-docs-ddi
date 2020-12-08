@@ -4,7 +4,6 @@ title: IKsDataTypeCompletion::KsCompleteMediaType (ksproxy.h)
 description: The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
 tech.root: stream
-ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.date: 04/23/2018
 keywords: ["IKsDataTypeCompletion::KsCompleteMediaType"]
 ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices],KsCompleteMediaType method, IKsDataTypeCompletion.KsCompleteMediaType, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices],IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype

@@ -4,7 +4,6 @@ title: IPrintSchemaParameterDefinition::get_RangeMax (printerextension.h)
 description: The RangeMax property gets the maximum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemax.htm
 tech.root: print
-ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
 ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterDefinition::get_RangeMax"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition.get_RangeMax, IPrintSchemaParameterDefinition::RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax

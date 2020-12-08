@@ -2,7 +2,6 @@
 UID: NE:trustedruntimeclx._TR_SECURE_DEPENDENCY_TYPE
 title: _TR_SECURE_DEPENDENCY_TYPE (trustedruntimeclx.h)
 description: 
-ms.assetid: 44acec5b-464f-4eec-9ba0-c27b5d8ad6d4
 ms.date: 11/20/2020
 keywords: ["TR_SECURE_DEPENDENCY_TYPE enumeration"]
 ms.keywords: _TR_SECURE_DEPENDENCY_TYPE, TR_SECURE_DEPENDENCY_TYPE,

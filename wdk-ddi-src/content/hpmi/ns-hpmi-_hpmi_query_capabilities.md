@@ -4,7 +4,6 @@ title: _HPMI_QUERY_CAPABILITIES (hpmi.h)
 description: The HPMI_QUERY_CAPABILITIES structure is used to query HPMI capabilities.
 old-location: powermeter\hpmi_query_capabilities.htm
 tech.root: powermeter
-ms.assetid: 9DEEB369-8B9E-40AA-9531-6B8138E5668F
 ms.date: 05/08/2018
 keywords: ["HPMI_QUERY_CAPABILITIES structure"]
 ms.keywords: "*PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES, hpmi/HPMI_QUERY_CAPABILITIES, hpmi/PHPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities"

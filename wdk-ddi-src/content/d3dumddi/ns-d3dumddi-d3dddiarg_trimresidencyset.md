@@ -4,7 +4,6 @@ title: D3DDDIARG_TRIMRESIDENCYSET (d3dumddi.h)
 description: D3DDDIARG_TRIMRESIDENCYSET is used with pfnTrimResidencySet by a user mode driver to trim the residency list for a given device.
 old-location: display\d3dddiarg_trimresidencyset.htm
 tech.root: display
-ms.assetid: DEF219B9-115A-4B61-8014-266730CEBD30
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_TRIMRESIDENCYSET structure"]
 ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset

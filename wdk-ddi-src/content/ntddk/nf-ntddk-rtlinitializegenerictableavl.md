@@ -4,7 +4,6 @@ title: RtlInitializeGenericTableAvl function (ntddk.h)
 description: The RtlInitializeGenericTableAvl routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 old-location: ifsk\rtlinitializegenerictableavl.htm
 tech.root: ifsk
-ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.date: 04/16/2018
 keywords: ["RtlInitializeGenericTableAvl function"]
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl

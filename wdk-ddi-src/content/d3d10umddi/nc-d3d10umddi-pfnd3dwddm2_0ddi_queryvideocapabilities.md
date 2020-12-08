@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES
 title: PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES (d3d10umddi.h)
 description: Queries the driver for video capabilities. Required for Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\queryvideocapabilities.htm
-ms.assetid: C86C7D1C-541F-4EC3-B4C8-126826BE3529
 ms.date: 05/10/2018
 keywords: ["PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback function"]
 ms.keywords: PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES, PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback, d3d10umddi/pfnQueryVideoCapabilities, display.queryvideocapabilities, pfnQueryVideoCapabilities, pfnQueryVideoCapabilities callback function [Display Devices]

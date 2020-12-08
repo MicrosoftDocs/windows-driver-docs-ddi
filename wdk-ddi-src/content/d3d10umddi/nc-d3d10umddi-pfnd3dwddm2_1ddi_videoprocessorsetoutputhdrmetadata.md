@@ -2,7 +2,6 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
 title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA (d3d10umddi.h)
 description: Includes HDR metadata to allow the video processor to optimize video for display.
-ms.assetid: c7a687ae-1877-4565-9dd7-618e8cec81ff
 ms.date: 10/19/2018
 keywords: ["PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA callback function"]
 req.header: d3d10umddi.h

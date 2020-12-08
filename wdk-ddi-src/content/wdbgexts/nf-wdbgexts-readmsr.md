@@ -4,7 +4,6 @@ title: ReadMsr function (wdbgexts.h)
 description: The ReadMsr function reads the contents of a Model-Specific Register (MSR).
 old-location: debugger\readmsr.htm
 tech.root: debugger
-ms.assetid: 1cb51f88-a943-43e6-af18-0e9e301d8382
 ms.date: 05/03/2018
 keywords: ["ReadMsr function"]
 ms.keywords: ReadMsr, ReadMsr function [Windows Debugging], WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, debugger.readmsr, wdbgexts/ReadMsr

@@ -4,7 +4,6 @@ title: WdmlibIoCreateDeviceSecure function (wdmsec.h)
 description: The WdmlibIoCreateDeviceSecure function (or IoCreateDeviceSecure) creates a named device object and applies the specified security settings.
 old-location: kernel\wdmlibiocreatedevicesecure.htm
 tech.root: kernel
-ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.date: 04/30/2018
 keywords: ["WdmlibIoCreateDeviceSecure function"]
 ms.keywords: IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure

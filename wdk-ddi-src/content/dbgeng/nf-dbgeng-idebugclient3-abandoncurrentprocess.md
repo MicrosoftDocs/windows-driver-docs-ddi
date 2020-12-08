@@ -4,7 +4,6 @@ title: IDebugClient3::AbandonCurrentProcess (dbgeng.h)
 description: The AbandonCurrentProcess method removes the current process from the debugger engine's process list without detaching or terminating the process.
 old-location: debugger\abandoncurrentprocess.htm
 tech.root: debugger
-ms.assetid: a6abbdb8-8d19-4ae0-8272-8faa87b8e409
 ms.date: 05/03/2018
 keywords: ["IDebugClient3::AbandonCurrentProcess"]
 ms.keywords: AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], AbandonCurrentProcess method [Windows Debugging],IDebugClient2 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient3 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient4 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, IDebugClient3 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient3.AbandonCurrentProcess, IDebugClient3::AbandonCurrentProcess, IDebugClient4 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient4::AbandonCurrentProcess, IDebugClient5 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient5::AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, dbgeng/IDebugClient2::AbandonCurrentProcess, dbgeng/IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient4::AbandonCurrentProcess, dbgeng/IDebugClient5::AbandonCurrentProcess, debugger.abandoncurrentprocess

@@ -4,7 +4,6 @@ title: ZwDeleteFile function (ntifs.h)
 description: The ZwDeleteFile routine deletes the specified file.
 old-location: kernel\zwdeletefile.htm
 tech.root: kernel
-ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.date: 04/30/2018
 keywords: ["ZwDeleteFile function"]
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile

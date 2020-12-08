@@ -4,7 +4,6 @@ title: IStiDevice::Initialize (sti.h)
 description: The IStiDevice::Initialize method initializes an instance of the COM object that defines the IStiDevice interface. This method is for internal use only.
 old-location: image\istidevice_initialize.htm
 tech.root: image
-ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.date: 05/03/2018
 keywords: ["IStiDevice::Initialize"]
 ms.keywords: IStiDevice interface [Imaging Devices],Initialize method, IStiDevice.Initialize, IStiDevice::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiDevice interface, image.istidevice_initialize, sti/IStiDevice::Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml

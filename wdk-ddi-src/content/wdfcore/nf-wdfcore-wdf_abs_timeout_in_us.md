@@ -4,7 +4,6 @@ title: WDF_ABS_TIMEOUT_IN_US function (wdfcore.h)
 description: The WDF_ABS_TIMEOUT_IN_US function converts a specified number of microseconds to an absolute time value.
 old-location: wdf\wdf_abs_timeout_in_us.htm
 tech.root: wdf
-ms.assetid: 9258d82c-98d1-45ab-88db-484cb9db45ee
 ms.date: 02/26/2018
 keywords: ["WDF_ABS_TIMEOUT_IN_US function"]
 ms.keywords: DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, WDF_ABS_TIMEOUT_IN_US, WDF_ABS_TIMEOUT_IN_US function, kmdf.wdf_abs_timeout_in_us, wdf.wdf_abs_timeout_in_us, wdfcore/WDF_ABS_TIMEOUT_IN_US

@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
 title: FN_VMB_CHANNEL_RESTORE_FROM_BUFFER (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelRestoreFromBuffer function restores the client state from previously saved state. The driver must check the return value of the function.
 tech.root: netvista
-ms.assetid: f555fb01-73c9-449e-88f0-24480e44f86b
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_RESTORE_FROM_BUFFER callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

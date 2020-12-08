@@ -4,7 +4,6 @@ title: VideoPortMapBankedMemory function (video.h)
 description: The VideoPortMapBankedMemory function is obsolete, and is supported only for Windows NT 4.0 and previous drivers.
 old-location: display\videoportmapbankedmemory.htm
 tech.root: display
-ms.assetid: ee94d883-b4c4-4cd5-9b61-2e51810f8fc8
 ms.date: 05/10/2018
 keywords: ["VideoPortMapBankedMemory function"]
 ms.keywords: VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory

@@ -4,7 +4,6 @@ title: _DDIMULTISAMPLEQUALITYLEVELSDATA (d3dumddi.h)
 description: The DDIMULTISAMPLEQUALITYLEVELSDATA structure describes the number of multiple-sample quality levels for a given render-target format.
 old-location: display\ddimultisamplequalitylevelsdata.htm
 tech.root: display
-ms.assetid: 48eeea6a-6a1d-43f7-a74c-3ca896c7b2d4
 ms.date: 05/10/2018
 keywords: ["DDIMULTISAMPLEQUALITYLEVELSDATA structure"]
 ms.keywords: D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], _DDIMULTISAMPLEQUALITYLEVELSDATA, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata

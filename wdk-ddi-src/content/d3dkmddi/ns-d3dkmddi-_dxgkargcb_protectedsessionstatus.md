@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_PROTECTEDSESSIONSTATUS
 title: _DXGKARGCB_PROTECTEDSESSIONSTATUS (d3dkmddi.h)
 description: Used for information on the status of the protected session.
 old-location: display\dxgkargcb_protectedsessionstatus.htm
-ms.assetid: 417480C5-8B24-4504-8B2D-DB9D38E4C11B
 ms.date: 05/10/2018
 keywords: ["DXGKARGCB_PROTECTEDSESSIONSTATUS structure"]
 ms.keywords: DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices], _DXGKARGCB_PROTECTEDSESSIONSTATUS, d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus

@@ -4,7 +4,6 @@ title: RILSYSTEMTIME (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemtime.htm
 tech.root: netvista
-ms.assetid: da01963f-a0eb-4222-b0c7-20b924f65f66
 ms.date: 05/02/2018
 keywords: ["RILSYSTEMTIME structure"]
 ms.keywords: "*LPRILSYSTEMTIME, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime, ntddrilapitypes/RILSYSTEMTIME"

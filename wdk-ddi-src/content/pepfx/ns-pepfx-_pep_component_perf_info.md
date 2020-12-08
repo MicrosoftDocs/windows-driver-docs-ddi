@@ -4,7 +4,6 @@ title: _PEP_COMPONENT_PERF_INFO (pepfx.h)
 description: The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component.
 old-location: kernel\pep_component_perf_info.htm
 tech.root: kernel
-ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.date: 04/30/2018
 keywords: ["PEP_COMPONENT_PERF_INFO structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO"

@@ -4,7 +4,6 @@ title: FsRtlIsAnsiCharacterLegalNtfsStream macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalNtfsStream macro determines whether an ANSI character is legal for NTFS stream names.
 old-location: ifsk\fsrtlisansicharacterlegalntfsstream.htm
 tech.root: ifsk
-ms.assetid: 2bcfa3b3-8a83-460b-9b44-1188fceb3849
 ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegalNtfsStream macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegalNtfsStream, FsRtlIsAnsiCharacterLegalNtfsStream function [Installable File System Drivers], fsrtlref_0dc6f0d3-6f38-4861-89d6-15cab783a959.xml, ifsk.fsrtlisansicharacterlegalntfsstream, ntifs/FsRtlIsAnsiCharacterLegalNtfsStream

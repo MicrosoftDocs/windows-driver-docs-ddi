@@ -4,7 +4,6 @@ title: IPortableDeviceValues::RemoveValue (portabledevicetypes.h)
 description: The RemoveValue method removes an item from the collection.
 old-location: wpddk\iportabledevicevalues_removevalue.htm
 tech.root: wpd_dk
-ms.assetid: aaa6cfd7-ac55-49b5-b077-98e42367ce0e
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::RemoveValue"]
 ms.keywords: IPortableDeviceValues interface,RemoveValue method, IPortableDeviceValues.RemoveValue, IPortableDeviceValues::RemoveValue, IPortableDeviceValuesRemoveValue, RemoveValue, RemoveValue method, RemoveValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::RemoveValue, wpddk.iportabledevicevalues_removevalue

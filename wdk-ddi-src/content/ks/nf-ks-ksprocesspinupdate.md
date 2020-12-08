@@ -4,7 +4,6 @@ title: KsProcessPinUpdate function (ks.h)
 description: The KsProcessPinUpdate function is called from within a filter-centric filter's AVStrMiniFilterProcess dispatch to update a process pin.
 old-location: stream\ksprocesspinupdate.htm
 tech.root: stream
-ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.date: 04/23/2018
 keywords: ["KsProcessPinUpdate function"]
 ms.keywords: KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, ks/KsProcessPinUpdate, stream.ksprocesspinupdate

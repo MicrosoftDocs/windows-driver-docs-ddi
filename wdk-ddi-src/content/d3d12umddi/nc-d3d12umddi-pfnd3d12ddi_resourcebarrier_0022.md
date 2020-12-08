@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_RESOURCEBARRIER_0022
 title: PFND3D12DDI_RESOURCEBARRIER_0022 (d3d12umddi.h)
 description: The pfnResourceBarrier callback function supports resource barriers.
 old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
-ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_RESOURCEBARRIER_0022 callback function"]
 ms.keywords: PFND3D12DDI_RESOURCEBARRIER_0022, PFND3D12DDI_RESOURCEBARRIER_0022 callback, d3d12umddi/pfnResourceBarrier, display.pfnd3d12ddi_resourcebarrier_0022, pfnResourceBarrier, pfnResourceBarrier callback function [Display Devices]

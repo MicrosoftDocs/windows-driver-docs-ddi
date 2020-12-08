@@ -4,7 +4,6 @@ title: PoStartNextPowerIrp function (ntifs.h)
 description: The PoStartNextPowerIrp routine signals the power manager that the driver is ready to handle the next power IRP. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\postartnextpowerirp.htm
 tech.root: kernel
-ms.assetid: 92754668-5327-4e37-9da1-cc1870f923c5
 ms.date: 04/30/2018
 keywords: ["PoStartNextPowerIrp function"]
 ms.keywords: PoStartNextPowerIrp, PoStartNextPowerIrp routine [Kernel-Mode Driver Architecture], kernel.postartnextpowerirp, portn_3e23c20a-d35e-45cd-a2da-3dbc0f249548.xml, wdm/PoStartNextPowerIrp

@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D10DDIARG_CREATEQUERY
 title: D3D10DDIARG_CREATEQUERY (d3d10umddi.h)
 description: The D3D10DDIARG_CREATEQUERY structure describes the query to create.
 old-location: display\d3d10ddiarg_createquery.htm
-ms.assetid: 1042f401-fbdd-47ee-8cfc-1bca331ac722
 ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_CREATEQUERY structure"]
 ms.keywords: D3D10DDIARG_CREATEQUERY, D3D10DDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_92f45053-c4aa-4bcd-b2ab-570aaf95cfe3.xml, d3d10umddi/D3D10DDIARG_CREATEQUERY, display.d3d10ddiarg_createquery

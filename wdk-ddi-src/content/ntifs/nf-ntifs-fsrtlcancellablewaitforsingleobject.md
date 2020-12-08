@@ -4,7 +4,6 @@ title: FsRtlCancellableWaitForSingleObject function (ntifs.h)
 description: The FsRtlCancellableWaitForSingleObject routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 old-location: ifsk\fsrtlcancellablewaitforsingleobject.htm
 tech.root: ifsk
-ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.date: 04/16/2018
 keywords: ["FsRtlCancellableWaitForSingleObject function"]
 ms.keywords: FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, ifsk.fsrtlcancellablewaitforsingleobject, ntifs/FsRtlCancellableWaitForSingleObject

@@ -4,7 +4,6 @@ title: PROTECT_WC_MEMORY (video.h)
 description: The VideoPortProtectWCMemory callback routine protects Write Combined (WC) video memory from being accessed by the CPU.
 old-location: display\videoportprotectwcmemory.htm
 tech.root: display
-ms.assetid: 0cee4f4d-4d9c-44be-94ad-459000f2adb1
 ms.date: 05/10/2018
 keywords: ["PROTECT_WC_MEMORY callback function"]
 ms.keywords: PROTECT_WC_MEMORY, PROTECT_WC_MEMORY callback, VideoPortProtectWCMemory, VideoPortProtectWCMemory callback function [Display Devices], VideoPort_Functions_5aead504-6c27-4b86-95e0-b4ec1b2b3e7d.xml, display.videoportprotectwcmemory, video/VideoPortProtectWCMemory

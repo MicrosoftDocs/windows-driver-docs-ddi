@@ -4,7 +4,6 @@ title: IoTransferActivityId function (ntddk.h)
 description: The IoTransferActivityId routine logs an ETW transfer event using the I/O tracing provider on behalf of the caller. This allows a driver to associate two related activity IDs without requiring a specific provider to be enabled.
 old-location: kernel\iotransferactivityid.htm
 tech.root: kernel
-ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.date: 04/30/2018
 keywords: ["IoTransferActivityId function"]
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId

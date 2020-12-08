@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_PRESENT_REDIRECTED
 title: _D3DKMT_PRESENT_REDIRECTED (d3dkmthk.h)
 description: Used to give information on the status of the present history token.
 old-location: display\d3dkmt-present-redirected.htm
-ms.assetid: a883d80a-0240-4a2a-b3d8-ca87080717ee
 ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_REDIRECTED structure"]
 ms.keywords: D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED structure [Display Devices], _D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected

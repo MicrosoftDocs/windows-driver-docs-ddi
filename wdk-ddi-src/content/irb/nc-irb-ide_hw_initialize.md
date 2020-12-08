@@ -4,7 +4,6 @@ title: IDE_HW_INITIALIZE (irb.h)
 description: The IdeHwInitialize miniport driver routine configures the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwinitialize.htm
 tech.root: storage
-ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
 ms.date: 03/29/2018
 keywords: ["IDE_HW_INITIALIZE callback function"]
 ms.keywords: IDE_HW_INITIALIZE, IdeHwInitialize, IdeHwInitialize routine [Storage Devices], atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml, irb/IdeHwInitialize, storage.idehwinitialize

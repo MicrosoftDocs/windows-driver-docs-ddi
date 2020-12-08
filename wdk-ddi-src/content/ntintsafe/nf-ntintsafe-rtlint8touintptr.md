@@ -4,7 +4,6 @@ title: RtlInt8ToUIntPtr function (ntintsafe.h)
 description: Converts a value of type INT8 to a value of type UINT_PTR.
 old-location: kernel\rtlint8touintptr.htm
 tech.root: kernel
-ms.assetid: B96B17E1-911F-442F-811F-294AB14D7058
 ms.date: 04/30/2018
 keywords: ["RtlInt8ToUIntPtr function"]
 ms.keywords: RtlInt8ToUIntPtr, RtlInt8ToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlint8touintptr, ntintsafe/RtlInt8ToUIntPtr

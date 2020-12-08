@@ -4,7 +4,6 @@ title: _CREATE_DISK (ntdddisk.h)
 description: The CREATE_DISK structure is used with the IOCTL_DISK_CREATE_DISK IOCTL to initialize a disk with an empty partition table. The partition table styles are master boot record (MBR) or GUID partition table (GPT).
 old-location: storage\create_disk.htm
 tech.root: storage
-ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.date: 03/29/2018
 keywords: ["CREATE_DISK structure"]
 ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Storage Devices], PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, ntdddisk/CREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml"

@@ -4,7 +4,6 @@ title: NdisZeroMappedMemory macro (ndis.h)
 description: NdisZeroMappedMemory fills a block of memory that was mapped with a preceding call to NdisMMapIoSpace with zeros.
 old-location: netvista\ndiszeromappedmemory.htm
 tech.root: netvista
-ms.assetid: 210e20a5-c101-4005-97fb-e549ff97e7ce
 ms.date: 05/02/2018
 keywords: ["NdisZeroMappedMemory macro"]
 ms.keywords: NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory

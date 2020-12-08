@@ -3,7 +3,6 @@ UID: NE:ntpoapi.__unnamed_enum_4
 title: POWER_MONITOR_REQUEST_REASON (ntpoapi.h)
 description: Defines values for power transitions reasons for a monitor.
 tech.root: kernel
-ms.assetid: 13bc7b62-b931-4bd4-b347-08a3ca5716bd
 ms.date: 10/19/2018
 keywords: ["POWER_MONITOR_REQUEST_REASON enumeration"]
 ms.keywords: POWER_MONITOR_REQUEST_REASON, POWER_MONITOR_REQUEST_REASON,

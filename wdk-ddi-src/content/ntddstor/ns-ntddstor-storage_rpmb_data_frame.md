@@ -2,7 +2,6 @@
 UID: NS:ntddstor._STORAGE_RPMB_DATA_FRAME
 title: STORAGE_RPMB_DATA_FRAME
 ms.date: 10/28/2020
-ms.assetid: 1e1998f9-cda5-4525-aa68-37c1a1525a09
 tech.root: storage
 ms.topic: language-reference
 targetos: Windows

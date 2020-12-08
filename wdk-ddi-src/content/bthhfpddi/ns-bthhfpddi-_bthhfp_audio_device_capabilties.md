@@ -4,7 +4,6 @@ title: _BTHHFP_AUDIO_DEVICE_CAPABILTIES (bthhfpddi.h)
 description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure describes the capabilities of a Bluetooth HFP device, including the version and whether it supports 16 kHz sampling.
 old-location: audio\bthhfp_audio_device_capabilties.htm
 tech.root: audio
-ms.assetid: 56c2bbb9-8fcd-43d4-9202-c8925575e44d
 ms.date: 05/08/2018
 keywords: ["BTHHFP_AUDIO_DEVICE_CAPABILTIES structure"]
 ms.keywords: "*PBTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES structure [Audio Devices], _BTHHFP_AUDIO_DEVICE_CAPABILTIES, audio.bthhfp_audio_device_capabilties, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES"

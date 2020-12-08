@@ -4,7 +4,6 @@ title: _PosValueStatisticsEntry (pointofservicedriverinterface.h)
 description: This structure contains the value of a statistic.
 old-location: pos\posvaluestatisticsentry.htm
 tech.root: pos
-ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.date: 02/23/2018
 keywords: ["PosValueStatisticsEntry structure"]
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry

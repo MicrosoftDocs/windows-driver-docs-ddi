@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0073
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 937ef7c9-9922-4f64-959d-4d3dd65460e0
 tech.root: display
 description: Core device functions available in D3D12 Release 7, Build rev 3.
 req.construct-type: structure

@@ -4,7 +4,6 @@ title: DOT11_ASSOCIATION_COMPLETION_PARAMETERS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_association_completion_parameters.htm
 tech.root: netvista
-ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.date: 02/16/2018
 keywords: ["DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_association_completion_parameters, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS"

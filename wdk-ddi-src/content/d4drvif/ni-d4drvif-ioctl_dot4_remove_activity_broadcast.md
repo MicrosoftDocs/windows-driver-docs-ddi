@@ -4,7 +4,6 @@ title: IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST (d4drvif.h)
 description: This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 old-location: print\ioctl_ioctl_dot4_remove_activity_broadcast.htm
 tech.root: print
-ms.assetid: F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_remove_activity_broadcast

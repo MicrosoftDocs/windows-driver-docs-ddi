@@ -2,7 +2,6 @@
 UID: NI:usbscan.IOCTL_ABORT_PIPE
 title: IOCTL_ABORT_PIPE (usbscan.h)
 description: 
-ms.assetid: b532777a-0834-4d70-9cde-060f697e912d
 ms.date: 11/18/2020
 keywords: ["IOCTL_ABORT_PIPE IOCTL"]
 req.header: usbscan.h

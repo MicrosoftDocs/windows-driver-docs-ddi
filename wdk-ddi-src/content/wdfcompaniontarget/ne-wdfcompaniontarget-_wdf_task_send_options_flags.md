@@ -4,7 +4,6 @@ title: _WDF_TASK_SEND_OPTIONS_FLAGS (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_flags.htm
 tech.root: wdf
-ms.assetid: 8ff13908-57f2-404f-a8ea-70c798ee3d7d
 ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS_FLAGS enumeration"]
 ms.keywords: WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, WDF_TASK_SEND_OPTION_SYNCHRONOUS, WDF_TASK_SEND_OPTION_TIMEOUT, _WDF_TASK_SEND_OPTIONS_FLAGS, wdf.wdf_task_send_options_flags, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT

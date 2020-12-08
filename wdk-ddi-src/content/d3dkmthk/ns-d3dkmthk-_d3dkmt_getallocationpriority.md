@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_GETALLOCATIONPRIORITY
 title: _D3DKMT_GETALLOCATIONPRIORITY (d3dkmthk.h)
 description: Used to get allocation priorities.
-ms.assetid: a1feb30f-9d43-46ba-b412-e4babebe1609
 ms.date: 10/19/2018
 keywords: ["D3DKMT_GETALLOCATIONPRIORITY structure"]
 ms.keywords: _D3DKMT_GETALLOCATIONPRIORITY, D3DKMT_GETALLOCATIONPRIORITY,

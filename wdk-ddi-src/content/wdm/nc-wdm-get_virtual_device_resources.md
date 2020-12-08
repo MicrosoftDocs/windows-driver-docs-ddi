@@ -4,7 +4,6 @@ title: GET_VIRTUAL_DEVICE_RESOURCES (wdm.h)
 description: The GetResources routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getresources.htm
 tech.root: PCI
-ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
 ms.date: 02/24/2018
 keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources

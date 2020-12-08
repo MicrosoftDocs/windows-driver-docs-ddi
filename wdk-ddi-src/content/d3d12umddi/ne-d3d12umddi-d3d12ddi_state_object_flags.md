@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_FLAGS
 title: D3D12DDI_STATE_OBJECT_FLAGS (d3d12umddi.h)
 description: The state object flags.
-ms.assetid: 6dbef5b3-6e77-46e7-b9d2-20554a3535ff
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_STATE_OBJECT_FLAGS enumeration"]
 ms.keywords: D3D12DDI_STATE_OBJECT_FLAGS, D3D12DDI_STATE_OBJECT_FLAGS,

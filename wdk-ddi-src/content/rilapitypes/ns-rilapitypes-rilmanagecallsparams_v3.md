@@ -4,7 +4,6 @@ title: RILMANAGECALLSPARAMS_V3 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmanagecallsparams_v3.htm
 tech.root: netvista
-ms.assetid: a398086b-827e-4684-a79c-db849926b3c3
 ms.date: 05/02/2018
 keywords: ["RILMANAGECALLSPARAMS_V3 structure"]
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v3, ntddrilapitypes/RILMANAGECALLSPARAMS_V3"

@@ -4,7 +4,6 @@ title: IoMarkIrpPending function (wdm.h)
 description: The IoMarkIrpPending routine marks the specified IRP, indicating that a driver's dispatch routine subsequently returned STATUS_PENDING because further processing is required by other driver routines.
 old-location: kernel\iomarkirppending.htm
 tech.root: kernel
-ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.date: 04/30/2018
 keywords: ["IoMarkIrpPending function"]
 ms.keywords: IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, wdm/IoMarkIrpPending

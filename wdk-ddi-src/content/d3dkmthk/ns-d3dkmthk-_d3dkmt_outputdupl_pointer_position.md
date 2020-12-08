@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_POINTER_POSITION
 title: _D3DKMT_OUTPUTDUPL_POINTER_POSITION (d3dkmthk.h)
 description: Contains output duplicate pointer position info.
-ms.assetid: ad8886da-0b6e-4dec-afef-6c558f5a234b
 ms.date: 10/19/2018
 keywords: ["D3DKMT_OUTPUTDUPL_POINTER_POSITION structure"]
 ms.keywords: _D3DKMT_OUTPUTDUPL_POINTER_POSITION, D3DKMT_OUTPUTDUPL_POINTER_POSITION,

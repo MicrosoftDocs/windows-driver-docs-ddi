@@ -4,7 +4,6 @@ title: MmAllocateNonCachedMemory function (ntddk.h)
 description: The MmAllocateNonCachedMemory routine allocates a virtual address range of noncached and cache-aligned memory.
 old-location: kernel\mmallocatenoncachedmemory.htm
 tech.root: kernel
-ms.assetid: aabad72e-2636-47cd-9986-f50ab5101e68
 ms.date: 04/30/2018
 keywords: ["MmAllocateNonCachedMemory function"]
 ms.keywords: MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, kernel.mmallocatenoncachedmemory, ntddk/MmAllocateNonCachedMemory

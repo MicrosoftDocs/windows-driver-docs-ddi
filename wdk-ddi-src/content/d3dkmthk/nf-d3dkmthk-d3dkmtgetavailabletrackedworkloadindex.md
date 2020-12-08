@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTGetAvailableTrackedWorkloadIndex
 title: D3DKMTGetAvailableTrackedWorkloadIndex function (d3dkmthk.h)
 description: Gets the available tracked workload index.
-ms.assetid: 3bcfcea6-c5d7-4e29-b109-2a501e8bcaf8
 ms.date: 10/19/2018
 keywords: ["D3DKMTGetAvailableTrackedWorkloadIndex function"]
 f1_keywords:

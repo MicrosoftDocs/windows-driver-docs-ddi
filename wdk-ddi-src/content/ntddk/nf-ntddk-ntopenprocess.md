@@ -4,7 +4,6 @@ title: NtOpenProcess function (ntddk.h)
 description: The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
 old-location: kernel\zwopenprocess.htm
 tech.root: kernel
-ms.assetid: 261d7676-9ce7-4e15-a58f-0439434f202b
 ms.date: 04/30/2018
 keywords: ["NtOpenProcess function"]
 ms.keywords: NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess

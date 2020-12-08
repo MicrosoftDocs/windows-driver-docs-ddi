@@ -4,7 +4,6 @@ title: IOCTL_CDROM_EXCLUSIVE_ACCESS (ntddcdrm.h)
 description: The IOCTL_CDROM_EXCLUSIVE_ACCESS request instructs the CD-ROM class driver to:Report the access state of a CD-ROM device.
 old-location: storage\ioctl_cdrom_exclusive_access.htm
 tech.root: storage
-ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL"]
 ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access

@@ -4,7 +4,6 @@ title: UcxRootHubPortChanged function (ucxroothub.h)
 description: Notifies UCX about a new port change event on the host controller.
 old-location: buses\_ucxroothubportchanged.htm
 tech.root: usbref
-ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.date: 05/07/2018
 keywords: ["UcxRootHubPortChanged function"]
 ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged

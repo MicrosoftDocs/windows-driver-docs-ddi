@@ -4,7 +4,6 @@ title: RILCBMSGCONFIG (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcbmsgconfig.htm
 tech.root: netvista
-ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.date: 05/02/2018
 keywords: ["RILCBMSGCONFIG structure"]
 ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"

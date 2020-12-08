@@ -4,7 +4,6 @@ title: GNSS_NI_PLANE_TYPE (gnssdriver.h)
 description: This enumeration indicates the plane type of a network initiated (NI) request represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_plane_type.htm
 tech.root: gnss
-ms.assetid: F06FFABA-D7AB-4301-9F73-CE4BBB0B8AA6
 ms.date: 02/15/2018
 keywords: ["GNSS_NI_PLANE_TYPE enumeration"]
 ms.keywords: GNSS_NI_CP, GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_SUPL, GNSS_NI_V2UPL, gnss.gnss_ni_plane_type, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL

@@ -2,7 +2,6 @@
 UID: NS:ntifs._FILE_STAT_INFORMATION
 title: FILE_STAT_INFORMATION (ntifs.h)
 description: The FILE_STAT_INFORMATION structure contains metadata about a file.
-ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
 ms.date: 11/20/2020
 tech.root: ifsk
 keywords: ["FILE_STAT_INFORMATION structure"]

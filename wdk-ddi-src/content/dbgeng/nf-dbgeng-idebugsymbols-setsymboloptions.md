@@ -4,7 +4,6 @@ title: IDebugSymbols::SetSymbolOptions (dbgeng.h)
 description: The SetSymbolOptions method changes the engine's global symbol options.
 old-location: debugger\setsymboloptions.htm
 tech.root: debugger
-ms.assetid: 06cfae40-eb32-4f9b-b7ad-266cb12f4a32
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::SetSymbolOptions"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],SetSymbolOptions method, IDebugSymbols.SetSymbolOptions, IDebugSymbols2 interface [Windows Debugging],SetSymbolOptions method, IDebugSymbols2::SetSymbolOptions, IDebugSymbols3 interface [Windows Debugging],SetSymbolOptions method, IDebugSymbols3::SetSymbolOptions, IDebugSymbols::SetSymbolOptions, IDebugSymbols_56cfcd8d-304b-4433-beab-2fc3e58a54a4.xml, SetSymbolOptions, SetSymbolOptions method [Windows Debugging], SetSymbolOptions method [Windows Debugging],IDebugSymbols interface, SetSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, SetSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetSymbolOptions, dbgeng/IDebugSymbols3::SetSymbolOptions, dbgeng/IDebugSymbols::SetSymbolOptions, debugger.setsymboloptions

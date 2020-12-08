@@ -4,7 +4,6 @@ title: GNSS_CONTINUOUSTRACKING_PARAM (gnssdriver.h)
 description: This structure defines the parameters for a continuous tracking fix session.
 old-location: gnss\gnss_continuoustracking_param.htm
 tech.root: gnss
-ms.assetid: D69D317C-5B42-4709-87AF-4323DF2EBE2D
 ms.date: 02/15/2018
 keywords: ["GNSS_CONTINUOUSTRACKING_PARAM structure"]
 ms.keywords: "*PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_continuoustracking_param, gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM"

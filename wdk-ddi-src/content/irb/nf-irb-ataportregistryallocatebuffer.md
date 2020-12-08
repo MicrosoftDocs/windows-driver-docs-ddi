@@ -4,7 +4,6 @@ title: AtaPortRegistryAllocateBuffer function (irb.h)
 description: The AtaPortRegistryAllocateBuffer routine allocates a buffer for registry operations.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryallocatebuffer.htm
 tech.root: storage
-ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
 ms.date: 03/29/2018
 keywords: ["AtaPortRegistryAllocateBuffer function"]
 ms.keywords: AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer

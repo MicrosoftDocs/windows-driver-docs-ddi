@@ -4,7 +4,6 @@ title: WdfIoTargetFormatRequestForInternalIoctl function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForInternalIoctl method builds an internal device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforinternalioctl.htm
 tech.root: wdf
-ms.assetid: 201ba120-9f64-4b69-87f0-a368b2e0344d
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForInternalIoctl function"]
 ms.keywords: DFIOTargetRef_be699aa7-773f-4395-9328-4c4d595c3aba.xml, WdfIoTargetFormatRequestForInternalIoctl, WdfIoTargetFormatRequestForInternalIoctl method, kmdf.wdfiotargetformatrequestforinternalioctl, wdf.wdfiotargetformatrequestforinternalioctl, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctl

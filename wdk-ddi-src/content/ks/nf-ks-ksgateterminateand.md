@@ -4,7 +4,6 @@ title: KsGateTerminateAnd function (ks.h)
 description: The KsGateTerminateAnd function deletes an existing AND gate and removes an input from any attached OR gate.
 old-location: stream\ksgateterminateand.htm
 tech.root: stream
-ms.assetid: 3f29fb48-5145-4b2c-8a0c-3130f4491675
 ms.date: 04/23/2018
 keywords: ["KsGateTerminateAnd function"]
 ms.keywords: KsGateTerminateAnd, KsGateTerminateAnd function [Streaming Media Devices], avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, ks/KsGateTerminateAnd, stream.ksgateterminateand

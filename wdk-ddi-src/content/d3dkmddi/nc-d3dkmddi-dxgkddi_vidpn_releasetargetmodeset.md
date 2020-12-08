@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_VIDPN_RELEASETARGETMODESET
 title: DXGKDDI_VIDPN_RELEASETARGETMODESET (d3dkmddi.h)
 description: The pfnReleaseTargetModeSet function releases a handle to a target mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasetargetmodeset.htm
-ms.assetid: bd369651-57d4-406f-ba51-9632362de15d
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_VIDPN_RELEASETARGETMODESET callback function"]
 ms.keywords: DXGKDDI_VIDPN_RELEASETARGETMODESET, DXGKDDI_VIDPN_RELEASETARGETMODESET callback, VidPnFunctions_c1609a38-53ff-49e0-a11a-26ceb5d64cdb.xml, d3dkmddi/pfnReleaseTargetModeSet, display.dxgk_vidpn_interface_pfnreleasetargetmodeset, pfnReleaseTargetModeSet, pfnReleaseTargetModeSet callback function [Display Devices]

@@ -4,7 +4,6 @@ title: CmRegisterCallback function (wdm.h)
 description: The CmRegisterCallback routine is obsolete for Windows Vista and later operating system versions. Use CmRegisterCallbackEx instead.The CmRegisterCallback routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallback.htm
 tech.root: kernel
-ms.assetid: 1c7d1f90-f34b-4a93-bce2-581abe7cdc39
 ms.date: 04/30/2018
 keywords: ["CmRegisterCallback function"]
 ms.keywords: CmRegisterCallback, CmRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_ec214e13-1342-48b5-9a31-8c6c9da57cd6.xml, kernel.cmregistercallback, wdm/CmRegisterCallback

@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_GENMIPS
 title: PFND3D10DDI_GENMIPS (d3d10umddi.h)
 description: The GenMips function generates the lower MIP-map levels on the specified shader-resource view.
 old-location: display\genmips.htm
-ms.assetid: abd045f2-9c05-4579-8d80-aba31523157d
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_GENMIPS callback function"]
 ms.keywords: GenMips, GenMips callback function [Display Devices], PFND3D10DDI_GENMIPS, PFND3D10DDI_GENMIPS callback, UserModeDisplayDriverDx10_Functions_56ecca1c-6b70-4ed8-9831-aec5fa5416cf.xml, d3d10umddi/GenMips, display.genmips

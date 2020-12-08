@@ -4,7 +4,6 @@ title: WdfDmaTransactionGetDevice function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetDevice method returns a handle to the framework device object that is associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetdevice.htm
 tech.root: wdf
-ms.assetid: fa4d523b-4af2-4a6e-aaa6-d84c829b567d
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionGetDevice function"]
 ms.keywords: DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, WdfDmaTransactionGetDevice, WdfDmaTransactionGetDevice method, kmdf.wdfdmatransactiongetdevice, wdf.wdfdmatransactiongetdevice, wdfdmatransaction/WdfDmaTransactionGetDevice

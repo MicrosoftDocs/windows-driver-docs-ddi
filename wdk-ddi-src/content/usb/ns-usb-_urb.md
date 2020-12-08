@@ -4,7 +4,6 @@ title: _URB (usb.h)
 description: The URB structure is used by USB client drivers to describe USB request blocks (URBs) that send requests to the USB driver stack. The URB structure defines a format for all possible commands that can be sent to a USB device.
 old-location: buses\urb.htm
 tech.root: usbref
-ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.date: 05/07/2018
 keywords: ["URB structure"]
 ms.keywords: PURB, PURB structure pointer [Buses], URB, URB structure [Buses], _URB, buses.urb, usb/PURB, usb/URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml

@@ -4,7 +4,6 @@ title: PFREE_DMA_ENGINE (hdaudio.h)
 description: The FreeDmaEngine routine frees a DMA engine that was previously allocated by a call to AllocateCaptureDmaEngine or AllocateRenderDmaEngine.The function pointer type for a FreeDmaEngine routine is defined as follows.
 old-location: audio\freedmaengine.htm
 tech.root: audio
-ms.assetid: 3f068ac0-2b18-4242-86de-7044ce558788
 ms.date: 05/08/2018
 keywords: ["PFREE_DMA_ENGINE callback function"]
 ms.keywords: FreeDmaEngine, FreeDmaEngine callback function [Audio Devices], PFREE_DMA_ENGINE, PFREE_DMA_ENGINE callback, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml, audio.freedmaengine, hdaudio/FreeDmaEngine

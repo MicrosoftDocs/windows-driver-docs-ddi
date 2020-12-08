@@ -4,7 +4,6 @@ title: SRIOV_SET_POWER_STATE (pcivirt.h)
 description: Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_set_power_state.htm
 tech.root: PCI
-ms.assetid: d43a21cb-5cee-4e72-8f0c-7aa8b2453507
 ms.date: 02/24/2018
 keywords: ["SRIOV_SET_POWER_STATE callback"]
 ms.keywords: PCI.sriov_set_power_state, SRIOV_SET_POWER_STATE, SRIOV_SET_POWER_STATE callback function [Buses], pcivirt/SRIOV_SET_POWER_STATE

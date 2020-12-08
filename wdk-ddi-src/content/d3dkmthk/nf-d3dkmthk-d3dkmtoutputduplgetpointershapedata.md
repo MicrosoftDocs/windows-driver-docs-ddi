@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetPointerShapeData
 title: D3DKMTOutputDuplGetPointerShapeData function (d3dkmthk.h)
 description: Gets output duplicate pointer shape data.
-ms.assetid: f08b5da5-329d-462b-a0bd-d3fbfff31472
 ms.date: 10/19/2018
 keywords: ["D3DKMTOutputDuplGetPointerShapeData function"]
 ms.keywords: D3DKMTOutputDuplGetPointerShapeData

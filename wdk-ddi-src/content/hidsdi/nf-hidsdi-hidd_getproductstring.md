@@ -4,7 +4,6 @@ title: HidD_GetProductString function (hidsdi.h)
 description: The HidD_GetProductString routine returns the embedded string of a top-level collection that identifies the manufacturer's product.
 old-location: hid\hidd_getproductstring.htm
 tech.root: hid
-ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.date: 06/19/2019
 keywords: ["HidD_GetProductString function"]
 ms.keywords: HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hid.hidd_getproductstring, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hidsdi/HidD_GetProductString

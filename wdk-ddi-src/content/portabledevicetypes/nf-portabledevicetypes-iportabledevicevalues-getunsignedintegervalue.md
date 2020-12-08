@@ -4,7 +4,6 @@ title: IPortableDeviceValues::GetUnsignedIntegerValue (portabledevicetypes.h)
 description: Retrieves a ULONG value (type VT_UI4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getunsignedintegervalue.htm
 tech.root: wpd_dk
-ms.assetid: 7b3ca272-8583-429e-970d-6f9b965da337
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetUnsignedIntegerValue"]
 ms.keywords: GetUnsignedIntegerValue, GetUnsignedIntegerValue method, GetUnsignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedIntegerValue method, IPortableDeviceValues.GetUnsignedIntegerValue, IPortableDeviceValues::GetUnsignedIntegerValue, IPortableDeviceValuesGetUnsignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedIntegerValue, wpddk.iportabledevicevalues_getunsignedintegervalue

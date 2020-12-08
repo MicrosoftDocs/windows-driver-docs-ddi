@@ -4,7 +4,6 @@ title: PcForwardContentToInterface function (portcls.h)
 description: The PcForwardContentToInterface function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 old-location: audio\pcforwardcontenttointerface.htm
 tech.root: audio
-ms.assetid: 5aa6aa90-ef41-467e-a096-5ab660b3f357
 ms.date: 05/08/2018
 keywords: ["PcForwardContentToInterface function"]
 ms.keywords: PcForwardContentToInterface, PcForwardContentToInterface function [Audio Devices], audio.pcforwardcontenttointerface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, portcls/PcForwardContentToInterface

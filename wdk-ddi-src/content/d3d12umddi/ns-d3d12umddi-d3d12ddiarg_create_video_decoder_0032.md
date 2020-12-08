@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_DECODER_0032
 title: D3D12DDIARG_CREATE_VIDEO_DECODER_0032 (d3d12umddi.h)
 description: Creates a video decoder.
 old-location: display\d3d12ddiarg-create-video-decoder-0032.htm
-ms.assetid: d4d42334-ae09-4900-828b-86da81b446c1
 ms.date: 04/16/2018
 keywords: ["D3D12DDIARG_CREATE_VIDEO_DECODER_0032 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0032, display.d3d12ddiarg-create-video-decoder-0032

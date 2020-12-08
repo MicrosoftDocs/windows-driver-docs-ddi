@@ -4,7 +4,6 @@ title: _TOKEN_STATISTICS (ntifs.h)
 description: TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling SeQueryInformationToken or ZwQueryInformationToken.
 old-location: ifsk\token_statistics.htm
 tech.root: ifsk
-ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.date: 04/16/2018
 keywords: ["TOKEN_STATISTICS structure"]
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml"

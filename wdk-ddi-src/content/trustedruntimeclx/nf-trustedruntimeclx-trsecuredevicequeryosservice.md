@@ -2,7 +2,6 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceQueryOSService
 title: TrSecureDeviceQueryOSService function (trustedruntimeclx.h)
 description: 
-ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceQueryOSService function"]
 ms.keywords: TrSecureDeviceQueryOSService

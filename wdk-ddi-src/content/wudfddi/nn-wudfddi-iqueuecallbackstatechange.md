@@ -4,7 +4,6 @@ title: IQueueCallbackStateChange (wudfddi.h)
 description: An I/O queue object raises an event when it changes state. A driver can consume the event by registering the IQueueCallbackStateChange interface.
 old-location: wdf\iqueuecallbackstatechange.htm
 tech.root: wdf
-ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.date: 02/26/2018
 keywords: ["IQueueCallbackStateChange interface"]
 ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface,described, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange, wdf.iqueuecallbackstatechange, wudfddi/IQueueCallbackStateChange

@@ -4,7 +4,6 @@ title: wiasUpdateValidFormat function (wiamdef.h)
 description: The wiasUpdateValidFormat function updates the valid format of the property context for the current minidriver.
 old-location: image\wiasupdatevalidformat.htm
 tech.root: image
-ms.assetid: 04e66f34-3771-4b09-b546-f814e4b41906
 ms.date: 05/03/2018
 keywords: ["wiasUpdateValidFormat function"]
 ms.keywords: image.wiasupdatevalidformat, wiamdef/wiasUpdateValidFormat, wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices]

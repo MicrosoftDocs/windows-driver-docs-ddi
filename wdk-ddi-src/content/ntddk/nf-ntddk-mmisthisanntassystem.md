@@ -4,7 +4,6 @@ title: MmIsThisAnNtAsSystem function (ntddk.h)
 description: The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.
 old-location: kernel\mmisthisanntassystem.htm
 tech.root: kernel
-ms.assetid: e9daafb1-16ec-4ffe-b863-6f07c4b2a9b7
 ms.date: 04/30/2018
 keywords: ["MmIsThisAnNtAsSystem function"]
 ms.keywords: MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem

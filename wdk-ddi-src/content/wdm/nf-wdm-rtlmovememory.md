@@ -4,7 +4,6 @@ title: RtlMoveMemory macro (wdm.h)
 description: The RtlMoveMemory routine copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 old-location: kernel\rtlmovememory.htm
 tech.root: kernel
-ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.date: 04/30/2018
 keywords: ["RtlMoveMemory macro"]
 ms.keywords: RtlMoveMemory, RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, kernel.rtlmovememory, wdm/RtlMoveMemory

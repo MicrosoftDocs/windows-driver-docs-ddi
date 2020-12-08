@@ -4,7 +4,6 @@ title: WdfWmiProviderCreate function (wdfwmi.h)
 description: The WdfWmiProviderCreate method creates a WMI provider object that represents a WMI data block.
 old-location: wdf\wdfwmiprovidercreate.htm
 tech.root: wdf
-ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
 ms.date: 02/26/2018
 keywords: ["WdfWmiProviderCreate function"]
 ms.keywords: DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdf.wdfwmiprovidercreate, wdfwmi/WdfWmiProviderCreate

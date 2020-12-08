@@ -4,7 +4,6 @@ title: _IO_RESOURCE_LIST (wdm.h)
 description: The IO_RESOURCE_LIST structure describes a range of raw hardware resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_list.htm
 tech.root: kernel
-ms.assetid: d8c29339-274e-410a-893d-328703d902c3
 ms.date: 04/30/2018
 keywords: ["IO_RESOURCE_LIST structure"]
 ms.keywords: "*PIO_RESOURCE_LIST, IO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_LIST, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_LIST, kernel.io_resource_list, kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, wdm/IO_RESOURCE_LIST, wdm/PIO_RESOURCE_LIST"

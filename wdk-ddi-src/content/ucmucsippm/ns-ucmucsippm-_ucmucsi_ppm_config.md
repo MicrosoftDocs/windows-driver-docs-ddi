@@ -3,7 +3,6 @@ UID: NS:ucmucsippm._UCMUCSI_PPM_CONFIG
 title: _UCMUCSI_PPM_CONFIG (ucmucsippm.h)
 tech.root: usbref
 description: Stores configuration information required to create a Platform Policy Manager (PPM).
-ms.assetid: bb47ac45-b623-4512-89ff-cb434ca4d2ef
 ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_CONFIG structure"]
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG,

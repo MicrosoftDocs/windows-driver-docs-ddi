@@ -4,7 +4,6 @@ title: FltAllocateDeferredIoWorkItem function (fltkernel.h)
 description: FltAllocateDeferredIoWorkItem allocates a deferred-I/O work item.
 old-location: ifsk\fltallocatedeferredioworkitem.htm
 tech.root: ifsk
-ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
 ms.date: 04/16/2018
 keywords: ["FltAllocateDeferredIoWorkItem function"]
 ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem

@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_UNMAP_GPADL
 title: FN_VMB_CHANNEL_UNMAP_GPADL (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelUnmapGpadl function unmaps a Guest Physical Address Descriptor List (GPADL) mapped using by the VmbChannelMapGpadl function. The buffer must no longer be in use by the server before this function is called.
 tech.root: netvista
-ms.assetid: 37e0ab68-e710-48ae-a476-0bceb206fd80
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_UNMAP_GPADL callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

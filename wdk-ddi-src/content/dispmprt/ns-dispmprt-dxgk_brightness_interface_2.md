@@ -4,7 +4,6 @@ title: DXGK_BRIGHTNESS_INTERFACE_2 (dispmprt.h)
 description: Contains pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.
 old-location: display\dxgk_brightness_interface_2.htm
 tech.root: display
-ms.assetid: 0c0b877f-cef0-4e98-9f37-60f2d96b81bd
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_2 structure"]
 ms.keywords: "*PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], display.dxgk_brightness_interface_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2"

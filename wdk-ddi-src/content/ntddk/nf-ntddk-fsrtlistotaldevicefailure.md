@@ -4,7 +4,6 @@ title: FsRtlIsTotalDeviceFailure function (ntddk.h)
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk
-ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.date: 04/16/2018
 keywords: ["FsRtlIsTotalDeviceFailure function"]
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure

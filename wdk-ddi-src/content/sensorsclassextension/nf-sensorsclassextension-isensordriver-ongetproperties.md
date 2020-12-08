@@ -4,7 +4,6 @@ title: ISensorDriver::OnGetProperties (sensorsclassextension.h)
 description: The ISensorDriver::OnGetProperties method retrieves values for the specified properties from the specified sensor.
 old-location: sensors\isensordriver_ongetproperties.htm
 tech.root: sensors
-ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnGetProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties

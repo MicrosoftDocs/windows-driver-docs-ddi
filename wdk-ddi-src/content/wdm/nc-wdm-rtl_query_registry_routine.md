@@ -4,7 +4,6 @@ title: RTL_QUERY_REGISTRY_ROUTINE (wdm.h)
 description: The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine.
 old-location: kernel\queryroutine.htm
 tech.root: kernel
-ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
 ms.date: 04/30/2018
 keywords: ["RTL_QUERY_REGISTRY_ROUTINE callback function"]
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine

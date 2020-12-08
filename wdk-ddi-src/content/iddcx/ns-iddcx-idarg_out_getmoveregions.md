@@ -4,7 +4,6 @@ title: IDARG_OUT_GETMOVEREGIONS (iddcx.h)
 description: Gives information about move regions that were handled by the OS.
 old-location: display\idarg_out_getmoveregions.htm
 tech.root: display
-ms.assetid: b95b2da7-8078-4e71-91db-a1b399bc44a2
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_GETMOVEREGIONS structure"]
 ms.keywords: IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS

@@ -4,7 +4,6 @@ title: POFXCALLBACKPROCESSORHALT (pepfx.h)
 description: The ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
 tech.root: kernel
-ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKPROCESSORHALT callback function"]
 ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt

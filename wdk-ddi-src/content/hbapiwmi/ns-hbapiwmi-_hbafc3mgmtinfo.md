@@ -4,7 +4,6 @@ title: _HBAFC3MgmtInfo (hbapiwmi.h)
 description: The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter.
 old-location: storage\hbafc3mgmtinfo.htm
 tech.root: storage
-ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.date: 03/29/2018
 keywords: ["HBAFC3MgmtInfo structure"]
 ms.keywords: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, hbapiwmi/PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml"

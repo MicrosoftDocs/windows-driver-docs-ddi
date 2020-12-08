@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_VIDEO_0076
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: f2ea1b98-b424-4ee5-84dd-9ffbe5122483
 tech.root: display
 description: Contains device functions for core features in video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0076.
 req.construct-type: structure

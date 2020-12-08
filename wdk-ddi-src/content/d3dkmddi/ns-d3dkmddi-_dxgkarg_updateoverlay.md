@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_UPDATEOVERLAY
 title: _DXGKARG_UPDATEOVERLAY (d3dkmddi.h)
 description: The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\dxgkarg_updateoverlay.htm
-ms.assetid: 077f2df2-c115-4702-9472-b43df02dac42
 ms.date: 05/10/2018
 keywords: ["DXGKARG_UPDATEOVERLAY structure"]
 ms.keywords: DXGKARG_UPDATEOVERLAY, DXGKARG_UPDATEOVERLAY structure [Display Devices], DmStructs_4832993a-6e58-4951-a4ea-a954b8008a6e.xml, _DXGKARG_UPDATEOVERLAY, d3dkmddi/DXGKARG_UPDATEOVERLAY, display.dxgkarg_updateoverlay

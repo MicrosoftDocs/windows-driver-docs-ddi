@@ -2,7 +2,6 @@
 UID: NS:d3dumddi._D3DDDICB_SUBMITHISTORYSEQUENCE
 title: D3DDDICB_SUBMITHISTORYSEQUENCE
 ms.date: 10/05/2020
-ms.assetid: bfe7ec75-adb0-4f96-8f8c-5963f89a113b
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

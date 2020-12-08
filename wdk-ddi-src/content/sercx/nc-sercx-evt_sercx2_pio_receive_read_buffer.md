@@ -4,7 +4,6 @@ title: EVT_SERCX2_PIO_RECEIVE_READ_BUFFER (sercx.h)
 description: The EvtSerCx2PioReceiveReadBuffer event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer data from the receive FIFO in the serial controller to a read buffer.
 old-location: serports\evtsercx2pioreceivereadbuffer.htm
 tech.root: serports
-ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer

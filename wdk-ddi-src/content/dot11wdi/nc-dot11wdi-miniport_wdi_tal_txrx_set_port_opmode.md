@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE (dot11wdi.h)
 description: The MiniportWdiTalTxRxSetPortOpMode handler function specifies the opmode used for the port so that the TxEngine and RxEngine enable the corresponding functionality.
 old-location: netvista\miniportwditaltxrxsetportopmode.htm
 tech.root: netvista
-ms.assetid: 86F3005E-8BB3-4309-AFDE-7FA6E0427BFD
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback, MiniportWdiTalTxRxSetPortOpMode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxSetPortOpMode, netvista.miniportwditaltxrxsetportopmode

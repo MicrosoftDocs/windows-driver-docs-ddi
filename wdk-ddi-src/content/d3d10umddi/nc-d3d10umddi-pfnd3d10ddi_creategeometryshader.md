@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_CREATEGEOMETRYSHADER
 title: PFND3D10DDI_CREATEGEOMETRYSHADER (d3d10umddi.h)
 description: The CreateGeometryShader function creates a geometry shader.
 old-location: display\creategeometryshader.htm
-ms.assetid: b3b422e3-f8da-4aad-a230-7c7e26dd72ec
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CREATEGEOMETRYSHADER callback function"]
 ms.keywords: CreateGeometryShader, CreateGeometryShader callback function [Display Devices], PFND3D10DDI_CREATEGEOMETRYSHADER, PFND3D10DDI_CREATEGEOMETRYSHADER callback, UserModeDisplayDriverDx10_Functions_9802537e-bb60-4aae-8049-11ccff9f99a5.xml, d3d10umddi/CreateGeometryShader, display.creategeometryshader

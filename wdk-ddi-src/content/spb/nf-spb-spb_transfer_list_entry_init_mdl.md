@@ -4,7 +4,6 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to use an MDL to describe a data buffer.
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
 tech.root: SPB
-ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_MDL function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_mdl, SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL

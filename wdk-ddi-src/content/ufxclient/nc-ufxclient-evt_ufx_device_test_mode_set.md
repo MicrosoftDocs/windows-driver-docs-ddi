@@ -4,7 +4,6 @@ title: EVT_UFX_DEVICE_TEST_MODE_SET (ufxclient.h)
 description: The client driver's implementation to set the test mode of the function controller.
 old-location: buses\evt_ufx_device_test_mode_set.htm
 tech.root: usbref
-ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_TEST_MODE_SET callback function"]
 ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EVT_UFX_DEVICE_TEST_MODE_SET callback, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet

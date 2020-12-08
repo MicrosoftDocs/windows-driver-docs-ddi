@@ -4,7 +4,6 @@ title: QUERY_MIRACAST_DRIVER_INTERFACE (netdispumdddi.h)
 description: Called by the operating system to query the Miracast user-mode driver interface, MIRACAST_DRIVER_INTERFACE.
 old-location: display\querymiracastdriverinterface.htm
 tech.root: display
-ms.assetid: a8833f8c-7e3f-422c-922e-e75476358ee9
 ms.date: 05/10/2018
 keywords: ["QUERY_MIRACAST_DRIVER_INTERFACE callback function"]
 ms.keywords: QUERY_MIRACAST_DRIVER_INTERFACE, QUERY_MIRACAST_DRIVER_INTERFACE callback, QueryMiracastDriverInterface, QueryMiracastDriverInterface callback function [Display Devices], display.query_miracast_driver_interface, display.querymiracastdriverinterface, netdispumdddi/QueryMiracastDriverInterface

@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TAL_TXRX_ADD_PORT (dot11wdi.h)
 description: The MiniportWdiTalTxRxAddPort handler function notifies the datapath components of the creation of a new virtual port.
 old-location: netvista\miniportwditaltxrxaddport.htm
 tech.root: netvista
-ms.assetid: D3006A0B-B0E0-4FEA-864A-FA4B75594FB0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_ADD_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MINIPORT_WDI_TAL_TXRX_ADD_PORT callback, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport

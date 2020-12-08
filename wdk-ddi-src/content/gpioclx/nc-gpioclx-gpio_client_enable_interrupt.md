@@ -4,7 +4,6 @@ title: GPIO_CLIENT_ENABLE_INTERRUPT (gpioclx.h)
 description: The CLIENT_EnableInterrupt event callback function enables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
 old-location: gpio\client_enableinterrupt.htm
 tech.root: GPIO
-ms.assetid: BCCD3046-A7CE-4CD7-82A5-78F0A3684BA4
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_ENABLE_INTERRUPT callback function"]
 ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt

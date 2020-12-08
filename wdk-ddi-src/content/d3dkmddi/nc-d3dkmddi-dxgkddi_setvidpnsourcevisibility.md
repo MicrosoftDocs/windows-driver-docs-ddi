@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_SETVIDPNSOURCEVISIBILITY
 title: DXGKDDI_SETVIDPNSOURCEVISIBILITY (d3dkmddi.h)
 description: The DxgkDdiSetVidPnSourceVisibility function programs the video output codec that is associated with a specified video present source to either start scanning or stop scanning the source's primary surface.
 old-location: display\dxgkddisetvidpnsourcevisibility.htm
-ms.assetid: c94473b4-b898-456d-944d-8879adea16d1
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_SETVIDPNSOURCEVISIBILITY callback function"]
 ms.keywords: DXGKDDI_SETVIDPNSOURCEVISIBILITY, DXGKDDI_SETVIDPNSOURCEVISIBILITY callback, DmFunctions_6a3bb1aa-8bc1-4672-8028-ea3299809a37.xml, DxgkDdiSetVidPnSourceVisibility, DxgkDdiSetVidPnSourceVisibility callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceVisibility, display.dxgkddisetvidpnsourcevisibility

@@ -4,7 +4,6 @@ title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE (ntddk.h)
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration contains constants that indicate the type of hardware performance counter resource that is described by a PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\physical_counter_resource_descriptor_type.htm
 tech.root: kernel
-ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.date: 04/30/2018
 keywords: ["PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ResourceTypeExtendedCounterConfiguration, ResourceTypeMax, ResourceTypeOverflow, ResourceTypeRange, ResourceTypeSingle, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeMax, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeRange, ntddk/ResourceTypeSingle, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml

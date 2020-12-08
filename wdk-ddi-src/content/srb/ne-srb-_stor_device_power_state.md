@@ -4,7 +4,6 @@ title: _STOR_DEVICE_POWER_STATE (srb.h)
 description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 old-location: storage\stor_device_power_state.htm
 tech.root: storage
-ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.date: 03/29/2018
 keywords: ["STOR_DEVICE_POWER_STATE enumeration"]
 ms.keywords: "*PSTOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], STOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceD0, StorPowerDeviceD1, StorPowerDeviceD2, StorPowerDeviceD3, StorPowerDeviceMaximum, StorPowerDeviceUnspecified, _STOR_DEVICE_POWER_STATE, storage.stor_device_power_state, storport/PSTOR_DEVICE_POWER_STATE, storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, storport/StorPowerDeviceD1, storport/StorPowerDeviceD2, storport/StorPowerDeviceD3, storport/StorPowerDeviceMaximum, storport/StorPowerDeviceUnspecified, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml"

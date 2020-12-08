@@ -4,7 +4,6 @@ title: ZwFlushBuffersFile function (ntifs.h)
 description: The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
 old-location: kernel\zwflushbuffersfile.htm
 tech.root: kernel
-ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.date: 04/30/2018
 keywords: ["ZwFlushBuffersFile function"]
 ms.keywords: NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile

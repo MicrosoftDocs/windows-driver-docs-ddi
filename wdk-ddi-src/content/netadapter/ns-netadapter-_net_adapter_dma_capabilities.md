@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_DMA_CAPABILITIES
 title: _NET_ADAPTER_DMA_CAPABILITIES (netadapter.h)
 description: The NET_ADAPTER_DMA_CAPABILITIES structure describes the DMA capabilities of an adapter.
 tech.root: netvista
-ms.assetid: b0b5cd8b-807c-42d2-9f6b-4843f82c6309
 ms.date: 07/11/2018
 keywords: ["NET_ADAPTER_DMA_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES, NET_ADAPTER_DMA_CAPABILITIES,

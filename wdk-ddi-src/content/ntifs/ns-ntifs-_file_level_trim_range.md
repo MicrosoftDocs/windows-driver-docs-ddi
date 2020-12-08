@@ -4,7 +4,6 @@ title: _FILE_LEVEL_TRIM_RANGE (ntifs.h)
 description: Contains the offset and length of a trim range for a file.
 old-location: ifsk\file_level_trim_range.htm
 tech.root: ifsk
-ms.assetid: C74E90C5-9876-4CD1-B9A7-1B32A6AAB474
 ms.date: 04/16/2018
 keywords: ["FILE_LEVEL_TRIM_RANGE structure"]
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE"

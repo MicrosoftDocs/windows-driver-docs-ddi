@@ -2,7 +2,6 @@
 UID: NF:scsiscan.SRB_STATUS
 title: SRB_STATUS macro (scsiscan.h)
 description: 
-ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
 ms.date: 11/18/2020
 keywords: ["SRB_STATUS macro"]
 ms.keywords: SRB_STATUS

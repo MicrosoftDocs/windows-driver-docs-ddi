@@ -4,7 +4,6 @@ title: IDebugControl3::GetCurrentTimeDate (dbgeng.h)
 description: The GetCurrentTimeDate method returns the time of the current target.
 old-location: debugger\getcurrenttimedate.htm
 tech.root: debugger
-ms.assetid: 2b3c5a9d-32a9-4c2a-9f99-694b652c5653
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetCurrentTimeDate"]
 ms.keywords: GetCurrentTimeDate, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging],IDebugControl2 interface, GetCurrentTimeDate method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetCurrentTimeDate method, IDebugControl2::GetCurrentTimeDate, IDebugControl3 interface [Windows Debugging],GetCurrentTimeDate method, IDebugControl3.GetCurrentTimeDate, IDebugControl3::GetCurrentTimeDate, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, dbgeng/IDebugControl2::GetCurrentTimeDate, dbgeng/IDebugControl3::GetCurrentTimeDate, debugger.getcurrenttimedate

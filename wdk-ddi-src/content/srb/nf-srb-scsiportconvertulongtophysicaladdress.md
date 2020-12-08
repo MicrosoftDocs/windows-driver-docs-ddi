@@ -4,7 +4,6 @@ title: ScsiPortConvertUlongToPhysicalAddress function (srb.h)
 description: The ScsiPortConvertUlongToPhysicalAddress routine extends a given ULONG address into a value of type SCSI_PHYSICAL_ADDRESS.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportconvertulongtophysicaladdress.htm
 tech.root: storage
-ms.assetid: 98d491f8-eeb5-4152-9bb6-fffabcba0360
 ms.date: 03/29/2018
 keywords: ["ScsiPortConvertUlongToPhysicalAddress function"]
 ms.keywords: ScsiPortConvertUlongToPhysicalAddress, ScsiPortConvertUlongToPhysicalAddress routine [Storage Devices], scsiprt_9dc27865-55c2-4599-913c-babe77c62af9.xml, srb/ScsiPortConvertUlongToPhysicalAddress, storage.scsiportconvertulongtophysicaladdress

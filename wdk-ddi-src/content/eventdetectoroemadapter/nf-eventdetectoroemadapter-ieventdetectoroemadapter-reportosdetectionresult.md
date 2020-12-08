@@ -3,7 +3,6 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ReportOSDetectionResult
 title: IEventDetectorOemAdapter::ReportOSDetectionResult
 description: Called to provide second stage result to OEM dll.
 tech.root: audio
-ms.assetid: b2cb4413-7893-4d8b-aeb2-01698e95dcf5
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::ReportOSDetectionResult"]
 ms.keywords: IEventDetectorOemAdapter::ReportOSDetectionResult, ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult, IEventDetectorOemAdapter::ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult

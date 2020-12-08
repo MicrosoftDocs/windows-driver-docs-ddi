@@ -4,7 +4,6 @@ title: IWDTFPNPAction2::DisableDevice (wdtfpnpaction.h)
 description: Disables the target device.
 old-location: dtf\iwdtfpnpaction2_disabledevice.htm
 tech.root: dtf
-ms.assetid: b6e3f327-c928-497d-b90c-db6c05b3a7b4
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2::DisableDevice"]
 ms.keywords: DisableDevice, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],DisableDevice method, IWDTFPNPAction2.DisableDevice, IWDTFPNPAction2::DisableDevice, Microsoft.WDTF.IWDTFPNPAction2.DisableDevice, Microsoft::WDTF::IWDTFPNPAction2::DisableDevice, dtf.iwdtfpnpaction2_disabledevice, wdtfpnpaction/IWDTFPNPAction2::DisableDevice

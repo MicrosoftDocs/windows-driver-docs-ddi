@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_PIN_ACTION_EX2
 title: _WWAN_PIN_ACTION_EX2 (wwan.h)
 description: The WWAN_PIN_ACTION_EX2 structure specifies the PIN action to take for a UICC application.
 tech.root: netvista
-ms.assetid: 49E330C5-3B2A-4996-97DE-7F34AADD4804
 ms.date: 04/10/2019
 keywords: ["WWAN_PIN_ACTION_EX2 structure"]
 ms.keywords: _WWAN_PIN_ACTION_EX2, WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2,

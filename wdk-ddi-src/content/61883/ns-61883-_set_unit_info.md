@@ -4,7 +4,6 @@ title: _SET_UNIT_INFO (61883.h)
 description: This structure is used to set unit information.
 old-location: ieee\set_unit_info.htm
 tech.root: IEEE
-ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.date: 02/15/2018
 keywords: ["SET_UNIT_INFO structure"]
 ms.keywords: "*PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info, PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], _SET_UNIT_INFO"

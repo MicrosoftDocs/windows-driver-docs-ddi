@@ -4,7 +4,6 @@ title: _INSERTPSUIPAGE_INFO (compstui.h)
 description: The INSERTPSUIPAGE_INFO structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_INSERT_PSUIPAGE. All member values must be supplied by the ComPropSheet caller.
 old-location: print\insertpsuipage_info.htm
 tech.root: print
-ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.date: 04/20/2018
 keywords: ["INSERTPSUIPAGE_INFO structure"]
 ms.keywords: "*PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], _INSERTPSUIPAGE_INFO, compstui/INSERTPSUIPAGE_INFO, compstui/PINSERTPSUIPAGE_INFO, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, print.insertpsuipage_info"

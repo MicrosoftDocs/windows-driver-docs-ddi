@@ -4,7 +4,6 @@ title: FsRtlRemoveDotsFromPath function (ntifs.h)
 description: The FsRtlRemoveDotsFromPath routine removes unnecessary occurrences of '.' and '..' from the specified path.
 old-location: ifsk\fsrtlremovedotsfrompath.htm
 tech.root: ifsk
-ms.assetid: af6ecdb7-8713-460d-8fd9-ef027ac15b39
 ms.date: 04/16/2018
 keywords: ["FsRtlRemoveDotsFromPath function"]
 ms.keywords: FsRtlRemoveDotsFromPath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath

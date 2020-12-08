@@ -4,7 +4,6 @@ title: _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT (d3dumddi.h)
 description: The D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dddicb_destroysynchronizationobject.htm
 tech.root: display
-ms.assetid: d950e290-3acb-4a89-86a4-ae5117781998
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml, _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, display.d3dddicb_destroysynchronizationobject

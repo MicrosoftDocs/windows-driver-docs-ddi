@@ -4,7 +4,6 @@ title: IMiniportTopology (portcls.h)
 description: The IMiniportTopology interface is the primary interface of a Topology miniport driver.
 old-location: audio\iminiporttopology.htm
 tech.root: audio
-ms.assetid: f66129df-07c4-4472-aa14-6c4d9578a92d
 ms.date: 05/08/2018
 keywords: ["IMiniportTopology interface"]
 ms.keywords: IMiniportTopology, IMiniportTopology interface [Audio Devices], IMiniportTopology interface [Audio Devices],described, audio.iminiporttopology, audmp-routines_c2137cf2-ab04-4b0b-aeda-d50fe3225324.xml, portcls/IMiniportTopology

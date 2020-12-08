@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_PURGE (ntddser.h)
 description: The IOCTL_SERIAL_PURGE request cancels the specified requests and deletes data from the specified buffers.
 old-location: serports\ioctl_serial_purge.htm
 tech.root: serports
-ms.assetid: 624e6b52-9698-4d74-8923-cf209e72c05c
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_PURGE IOCTL"]
 ms.keywords: IOCTL_SERIAL_PURGE, IOCTL_SERIAL_PURGE control, IOCTL_SERIAL_PURGE control code [Serial Ports], ntddser/IOCTL_SERIAL_PURGE, serports.ioctl_serial_purge, serref_d52cfcec-8098-4319-b601-14187a77e438.xml

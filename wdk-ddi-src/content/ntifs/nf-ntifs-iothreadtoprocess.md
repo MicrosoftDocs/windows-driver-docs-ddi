@@ -4,7 +4,6 @@ title: IoThreadToProcess function (ntifs.h)
 description: The IoThreadToProcess routine returns a pointer to the process for the specified thread.
 old-location: ifsk\iothreadtoprocess.htm
 tech.root: ifsk
-ms.assetid: fcb51574-d966-4cd5-a946-c38dd2798b7f
 ms.date: 04/16/2018
 keywords: ["IoThreadToProcess function"]
 ms.keywords: IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], ifsk.iothreadtoprocess, ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ntifs/IoThreadToProcess

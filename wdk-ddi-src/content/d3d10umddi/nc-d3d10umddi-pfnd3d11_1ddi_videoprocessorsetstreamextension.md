@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION (d3d10umddi.h)
 description: Sets the private state data for a video processor stream from an application.
 old-location: display\videoprocessorsetstreamextension.htm
-ms.assetid: 380f7fbd-34aa-401b-a7dc-5d8b521f7948
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorSetStreamExtension, display.videoprocessorsetstreamextension, pfnVideoProcessorSetStreamExtension, pfnVideoProcessorSetStreamExtension callback function [Display Devices]

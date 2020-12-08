@@ -4,7 +4,6 @@ title: GPIO_CLIENT_PREPARE_CONTROLLER (gpioclx.h)
 description: The CLIENT_PrepareController event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
 old-location: gpio\client_preparecontroller.htm
 tech.root: GPIO
-ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_PREPARE_CONTROLLER callback function"]
 ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController

@@ -4,7 +4,6 @@ title: FsRtlGetPerStreamContextPointer macro (ntifs.h)
 description: The FsRtlGetPerStreamContextPointer macro returns the file system's stream context for a file stream.
 old-location: ifsk\fsrtlgetperstreamcontextpointer.htm
 tech.root: ifsk
-ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.date: 04/16/2018
 keywords: ["FsRtlGetPerStreamContextPointer macro"]
 ms.keywords: FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer

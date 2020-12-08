@@ -4,7 +4,6 @@ title: IDebugControl2::SetEngineOptions (dbgeng.h)
 description: The SetEngineOptions method changes the engine's options.
 old-location: debugger\setengineoptions.htm
 tech.root: debugger
-ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::SetEngineOptions"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetEngineOptions method, IDebugControl2 interface [Windows Debugging],SetEngineOptions method, IDebugControl2.SetEngineOptions, IDebugControl2::SetEngineOptions, IDebugControl3 interface [Windows Debugging],SetEngineOptions method, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions, SetEngineOptions method [Windows Debugging], SetEngineOptions method [Windows Debugging],IDebugControl interface, SetEngineOptions method [Windows Debugging],IDebugControl2 interface, SetEngineOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, dbgeng/IDebugControl::SetEngineOptions, debugger.setengineoptions

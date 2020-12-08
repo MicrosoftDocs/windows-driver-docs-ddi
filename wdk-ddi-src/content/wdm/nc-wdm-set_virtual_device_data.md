@@ -4,7 +4,6 @@ title: SET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The SetVirtualFunctionData routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\setvirtualfunctiondata.htm
 tech.root: PCI
-ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.date: 02/24/2018
 keywords: ["SET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData

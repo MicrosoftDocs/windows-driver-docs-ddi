@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_DIRECTFLIP_SUPPORT
 title: _D3DKMT_DIRECTFLIP_SUPPORT (d3dkmthk.h)
 description: Indicates whether the user-mode driver supports Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager (DWM) managed primary allocations.
 old-location: display\d3dkmt_directflip_support.htm
-ms.assetid: d579d9a3-7db1-47ed-859d-3fed99a4ee9d
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DIRECTFLIP_SUPPORT structure"]
 ms.keywords: D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], _D3DKMT_DIRECTFLIP_SUPPORT, d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, display.d3dkmt_directflip_support

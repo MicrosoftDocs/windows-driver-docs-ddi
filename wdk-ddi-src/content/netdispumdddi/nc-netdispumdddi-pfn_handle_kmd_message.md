@@ -4,7 +4,6 @@ title: PFN_HANDLE_KMD_MESSAGE (netdispumdddi.h)
 description: Called by the operating system to handle the asynchronous kernel-mode message that the Miracast user-mode driver receives when the display miniport driver calls the DxgkCbMiracastSendMessage function.
 old-location: display\handlekernelmodemessage.htm
 tech.root: display
-ms.assetid: 9DE4F3B0-915A-4C66-85F8-AE248B8471B5
 ms.date: 05/10/2018
 keywords: ["PFN_HANDLE_KMD_MESSAGE callback function"]
 ms.keywords: HandleKernelModeMessage, HandleKernelModeMessage callback function [Display Devices], PFN_HANDLE_KMD_MESSAGE, PFN_HANDLE_KMD_MESSAGE callback, display.handlekernelmodemessage, netdispumdddi/HandleKernelModeMessage

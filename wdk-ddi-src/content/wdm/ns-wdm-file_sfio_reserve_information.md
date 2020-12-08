@@ -2,7 +2,6 @@
 UID: NS:wdm._FILE_SFIO_RESERVE_INFORMATION
 title: FILE_SFIO_RESERVE_INFORMATION
 ms.date: 11/20/2020
-ms.assetid: 276e4b5f-6547-464e-b5ae-7c6a6b37e636
 tech.root: ifsk
 ms.topic: language-reference
 targetos: Windows

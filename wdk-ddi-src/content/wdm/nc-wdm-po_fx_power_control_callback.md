@@ -4,7 +4,6 @@ title: PO_FX_POWER_CONTROL_CALLBACK (wdm.h)
 description: The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
 old-location: kernel\powercontrolcallback.htm
 tech.root: kernel
-ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.date: 04/30/2018
 keywords: ["PO_FX_POWER_CONTROL_CALLBACK callback function"]
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback

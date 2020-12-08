@@ -4,7 +4,6 @@ title: IWiaMiniDrv::drvWriteItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvWriteItemProperties method writes driver item properties to a WIA hardware device.
 old-location: image\iwiaminidrv_drvwriteitemproperties.htm
 tech.root: image
-ms.assetid: 350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvWriteItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvWriteItemProperties method, IWiaMiniDrv.drvWriteItemProperties, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties

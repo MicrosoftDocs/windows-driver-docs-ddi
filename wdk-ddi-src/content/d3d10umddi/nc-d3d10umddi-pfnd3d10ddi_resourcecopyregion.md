@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_RESOURCECOPYREGION
 title: PFND3D10DDI_RESOURCECOPYREGION (d3d10umddi.h)
 description: The ResourceCopyRegion function copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion.htm
-ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_RESOURCECOPYREGION callback function"]
 ms.keywords: PFND3D10DDI_RESOURCECOPYREGION, PFND3D10DDI_RESOURCECOPYREGION callback, ResourceCopyRegion, ResourceCopyRegion callback function [Display Devices], UserModeDisplayDriverDx10_Functions_8b5cb003-4fa5-4d23-99c4-a8165253907c.xml, d3d10umddi/ResourceCopyRegion, display.resourcecopyregion

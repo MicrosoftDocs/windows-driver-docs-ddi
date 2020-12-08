@@ -4,7 +4,6 @@ title: _DISK_COPY_DATA_PARAMETERS (ntdddisk.h)
 description: DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 old-location: storage\disk_copy_data_parameters.htm
 tech.root: storage
-ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.date: 03/29/2018
 keywords: ["DISK_COPY_DATA_PARAMETERS structure"]
 ms.keywords: "*PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], _DISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml"

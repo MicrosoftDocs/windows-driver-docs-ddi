@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_CORELAYER_DEVICECALLBACKS_0050
 title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0050 (d3d12umddi.h)
 description: The D3D12DDI_CORELAYER_DEVICECALLBACKS_0050 structure contains Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
-ms.assetid: 92e47a76-7001-40e0-ba83-c01cf4fd1f9e
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0050 structure"]
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0050, D3D12DDI_CORELAYER_DEVICECALLBACKS_0050,

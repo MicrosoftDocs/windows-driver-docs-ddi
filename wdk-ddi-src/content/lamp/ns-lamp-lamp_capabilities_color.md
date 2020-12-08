@@ -4,7 +4,6 @@ title: LAMP_CAPABILITIES_COLOR (lamp.h)
 description: This structure is the I/O parameter type of IOCTL_LAMP_{GET|SET}_INTENSITY_COLOR.
 old-location: stream\lamp_capabilities_color.htm
 tech.root: stream
-ms.assetid: BCF2171C-93CB-4DAC-AA78-C272D5445F99
 ms.date: 04/23/2018
 keywords: ["LAMP_CAPABILITIES_COLOR structure"]
 ms.keywords: LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_COLOR, stream.lamp_capabilities_color

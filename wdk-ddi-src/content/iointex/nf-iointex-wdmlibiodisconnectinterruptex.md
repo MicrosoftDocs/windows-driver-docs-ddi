@@ -4,7 +4,6 @@ title: WdmlibIoDisconnectInterruptEx function (iointex.h)
 description: The WdmlibIoDisconnectInterruptEx function unregisters an interrupt service routine (ISR) that was registered by a previous call to the WdmlibIoConnectInterruptEx function.
 old-location: kernel\wdmlibiodisconnectinterruptex.htm
 tech.root: kernel
-ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
 ms.date: 04/30/2018
 keywords: ["WdmlibIoDisconnectInterruptEx function"]
 ms.keywords: IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex

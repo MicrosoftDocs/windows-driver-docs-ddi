@@ -3,7 +3,6 @@ UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
 title: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a net adapter's receive side scaling (RSS) capabilities.
 tech.root: netvista
-ms.assetid: d6076d3f-2f62-4b81-88b1-801e1612a28c
 ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES,

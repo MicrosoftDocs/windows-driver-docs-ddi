@@ -4,7 +4,6 @@ title: _STOR_POFX_COMPONENT (storport.h)
 description: The STOR_POFX_COMPONENT structure describes the power state attributes of a storage device component.
 old-location: storage\stor_pofx_component.htm
 tech.root: storage
-ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.date: 03/29/2018
 keywords: ["STOR_POFX_COMPONENT structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], _STOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT"

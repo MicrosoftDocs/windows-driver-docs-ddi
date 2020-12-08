@@ -3,7 +3,6 @@ UID: NE:wditypes._WDI_OS_POWER_MANAGEMENT_FLAGS
 title: _WDI_OS_POWER_MANAGEMENT_FLAGS (wditypes.h)
 description: The WDI_OS_POWER_MANAGEMENT_FLAGS enumeration defines supported enablement scenarios of the NIC Auto Power Saver (NAPS) OS power management feature.
 tech.root: netvista
-ms.assetid: 5caa9b1f-cafa-42d0-8402-86799fd8885f
 ms.date: 03/30/2018
 keywords: ["WDI_OS_POWER_MANAGEMENT_FLAGS enumeration"]
 ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS,

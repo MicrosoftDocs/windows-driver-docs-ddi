@@ -4,7 +4,6 @@ title: IDebugSymbolGroup2::GetSymbolValueTextWide (dbgeng.h)
 description: The GetSymbolValueTextWide method returns a string that represents the value of a symbol.
 old-location: debugger\getsymbolvaluetextwide.htm
 tech.root: debugger
-ms.assetid: 56e147ea-497b-4691-8a62-8165828b1f36
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::GetSymbolValueTextWide"]
 ms.keywords: GetSymbolValueTextWide, GetSymbolValueTextWide method [Windows Debugging], GetSymbolValueTextWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolValueTextWide method, IDebugSymbolGroup2.GetSymbolValueTextWide, IDebugSymbolGroup2::GetSymbolValueTextWide, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide

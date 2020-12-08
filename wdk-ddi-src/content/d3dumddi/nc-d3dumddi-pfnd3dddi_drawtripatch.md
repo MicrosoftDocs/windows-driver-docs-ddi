@@ -4,7 +4,6 @@ title: PFND3DDDI_DRAWTRIPATCH (d3dumddi.h)
 description: The DrawTriPatch function draws a new or cached triangular patch or updates the specification of a previously defined patch.
 old-location: display\drawtripatch.htm
 tech.root: display
-ms.assetid: 98e5f2c5-2795-4226-b5c0-9498b37c22df
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DRAWTRIPATCH callback function"]
 ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH callback, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch

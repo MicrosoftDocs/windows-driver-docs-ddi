@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
 title: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 (d3d12umddi.h)
 description: Specifies information used to retrieve a list of supported formats for a decode configuration.
 old-location: display\d3d12ddi_video_decode_formats_data.htm
-ms.assetid: 0FF0F184-60FF-4467-ABF5-E05893083B25
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, display.d3d12ddi_video_decode_formats_data

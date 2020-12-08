@@ -4,7 +4,6 @@ title: IOCTL_USBPRINT_GET_LPT_STATUS (usbprint.h)
 description: The IOCTL_USBPRINT_GET_LPT_STATUS request allows upper-layer software (such as a language monitor), to request and obtain the printer status byte from a USB printer.
 old-location: print\ioctl_usbprint_get_lpt_status.htm
 tech.root: print
-ms.assetid: 706e62f9-1be6-43bd-812a-dbb459877909
 ms.date: 10/21/2020
 keywords: ["IOCTL_USBPRINT_GET_LPT_STATUS IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS

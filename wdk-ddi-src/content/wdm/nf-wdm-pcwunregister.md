@@ -4,7 +4,6 @@ title: PcwUnregister function (wdm.h)
 description: The PcwUnregister function unregisters the provider of the specified counterset.
 old-location: devtest\pcwunregister.htm
 tech.root: devtest
-ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
 ms.date: 07/28/2020
 keywords: ["PcwUnregister function"]
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister

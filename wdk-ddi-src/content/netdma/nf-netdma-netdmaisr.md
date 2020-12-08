@@ -4,7 +4,6 @@ title: NetDmaIsr function (netdma.h)
 description: The NetDmaIsr function notifies the NetDMA interface that a DMA transfer interrupt has occurred on a DMA channel.
 old-location: netvista\netdmaisr.htm
 tech.root: netvista
-ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.date: 05/02/2018
 keywords: ["NetDmaIsr function"]
 ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr

@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002
 title: PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002 (d3d12umddi.h)
 description: Creates a render target view.
-ms.assetid: 0070a035-8fba-4aaa-b70f-2641ad32e906
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002 callback function"]
 req.header: d3d12umddi.h

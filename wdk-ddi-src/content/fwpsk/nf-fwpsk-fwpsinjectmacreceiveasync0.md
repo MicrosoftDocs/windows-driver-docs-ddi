@@ -4,7 +4,6 @@ title: FwpsInjectMacReceiveAsync0 function (fwpsk.h)
 description: The FwpsInjectMacReceiveAsync0 function can reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path it was intercepted from, or inject an invented MAC frame.
 old-location: netvista\fwpsinjectmacreceiveasync0.htm
 tech.root: netvista
-ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.date: 05/02/2018
 keywords: ["FwpsInjectMacReceiveAsync0 function"]
 ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacReceiveAsync0, netvista.fwpsinjectmacreceiveasync0

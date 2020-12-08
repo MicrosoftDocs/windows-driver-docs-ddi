@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IDataModelScriptHostContext
 title: IDataModelScriptHostContext (dbgmodel.h)
 description: Implemented by the underlying host debugger, represents information about where the debug host is bridging the script.
-ms.assetid: 89bc0f92-c13d-4516-b7b4-9105a2c2d479
 ms.date: 10/05/2018
 keywords: ["IDataModelScriptHostContext interface"]
 req.header: dbgmodel.h

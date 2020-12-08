@@ -4,7 +4,6 @@ title: IPnpCallback::OnD0Entry (wudfddi.h)
 description: The OnD0Entry method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device.
 old-location: wdf\ipnpcallback_ond0entry.htm
 tech.root: wdf
-ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.date: 02/26/2018
 keywords: ["IPnpCallback::OnD0Entry"]
 ms.keywords: IPnpCallback interface,OnD0Entry method, IPnpCallback.OnD0Entry, IPnpCallback::OnD0Entry, OnD0Entry, OnD0Entry method, OnD0Entry method,IPnpCallback interface, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry

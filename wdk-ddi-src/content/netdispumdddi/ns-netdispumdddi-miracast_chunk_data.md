@@ -4,7 +4,6 @@ title: MIRACAST_CHUNK_DATA (netdispumdddi.h)
 description: Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) GetNextChunkData function.
 old-location: display\miracast_chunk_data.htm
 tech.root: display
-ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.date: 05/10/2018
 keywords: ["MIRACAST_CHUNK_DATA structure"]
 ms.keywords: MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA

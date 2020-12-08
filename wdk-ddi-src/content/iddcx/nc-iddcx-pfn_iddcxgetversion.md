@@ -5,7 +5,6 @@ description: PFN_IDDCXGETVERSION is a pointer to an OS callback function that ge
 ms.date: 09/28/2020
 ms.topic: language-reference
 tech.root: display
-ms.assetid: 06986111-4609-40ca-942c-126941817e8d
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,6 @@ title: _AddLink_OUT (hbapiwmi.h)
 description: The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the AddLink WMI method.
 old-location: storage\addlink_out.htm
 tech.root: storage
-ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.date: 03/29/2018
 keywords: ["AddLink_OUT structure"]
 ms.keywords: "*PAddLink_OUT, AddLink_OUT, AddLink_OUT structure [Storage Devices], PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], _AddLink_OUT, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, storage.addlink_out, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml"

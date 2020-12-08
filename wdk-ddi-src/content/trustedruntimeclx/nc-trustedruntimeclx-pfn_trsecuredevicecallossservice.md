@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECALLOSSSERVICE
 title: PFN_TRSECUREDEVICECALLOSSSERVICE (trustedruntimeclx.h)
 description: 
-ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICECALLOSSSERVICE callback function"]
 req.header: trustedruntimeclx.h

@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IDebugHostSymbolEnumerator
 title: IDebugHostSymbolEnumerator (dbgmodel.h)
 description: An enumerator which runs through children of a symbol.
-ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.date: 07/13/2018
 keywords: ["IDebugHostSymbolEnumerator interface"]
 req.header: dbgmodel.h

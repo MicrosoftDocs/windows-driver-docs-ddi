@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE (usbfnioctl.h)
 description: The class driver sends this request to set the stall state of the specified USB pipe.
 old-location: buses\ioctl_internal_usbfn_set_pipe_state.htm
 tech.root: usbref
-ms.assetid: EB44DE6F-6B88-4F6D-B9AC-3FF7A519C047
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_SET_PIPE_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_set_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE

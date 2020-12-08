@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_QUERYFSEBLOCK
 title: _D3DKMT_QUERYFSEBLOCK (d3dkmthk.h)
 description: Structure used to query FSE blocks.
-ms.assetid: 759dcf16-b2c0-40db-967d-7ca1cef55c62
 ms.date: 10/19/2018
 keywords: ["D3DKMT_QUERYFSEBLOCK structure"]
 ms.keywords: _D3DKMT_QUERYFSEBLOCK, D3DKMT_QUERYFSEBLOCK,

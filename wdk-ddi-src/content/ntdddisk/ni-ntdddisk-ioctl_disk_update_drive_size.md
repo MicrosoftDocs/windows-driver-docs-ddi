@@ -4,7 +4,6 @@ title: IOCTL_DISK_UPDATE_DRIVE_SIZE (ntdddisk.h)
 description: Updates device extension with drive size information for current media.
 old-location: storage\ioctl_disk_update_drive_size.htm
 tech.root: storage
-ms.assetid: a12c1082-c3ff-40b8-b756-be320ab98b30
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_UPDATE_DRIVE_SIZE IOCTL"]
 ms.keywords: IOCTL_DISK_UPDATE_DRIVE_SIZE, IOCTL_DISK_UPDATE_DRIVE_SIZE control, IOCTL_DISK_UPDATE_DRIVE_SIZE control code [Storage Devices], k307_52e1c8fb-a16b-41a6-a9bc-e0daec91f639.xml, ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE, storage.ioctl_disk_update_drive_size

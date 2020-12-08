@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaReportHwErrorDeviceDriver
 title: WheaReportHwErrorDeviceDriver function
 description: To report a hardware error, the driver calls the WheaReportHwErrorDeviceDriver function.
 tech.root: whea
-ms.assetid: 427af50c-a051-412f-a8d2-33fdcaca47fa
 ms.date: 03/05/2019
 keywords: ["WheaReportHwErrorDeviceDriver function"]
 ms.keywords: WheaReportHwErrorDeviceDriver

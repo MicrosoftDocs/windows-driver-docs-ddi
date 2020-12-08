@@ -4,7 +4,6 @@ title: FsRtlAllocatePoolWithTag macro (ntifs.h)
 description: The FsRtlAllocatePoolWithTag routine allocates pool memory.
 old-location: ifsk\fsrtlallocatepoolwithtag.htm
 tech.root: ifsk
-ms.assetid: a9ea59d1-1d51-4332-b497-7d2b7f39e686
 ms.date: 04/16/2018
 keywords: ["FsRtlAllocatePoolWithTag macro"]
 ms.keywords: FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, ifsk.fsrtlallocatepoolwithtag, ntifs/FsRtlAllocatePoolWithTag

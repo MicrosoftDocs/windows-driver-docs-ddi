@@ -4,7 +4,6 @@ title: BdaStartChanges function (bdasup.h)
 description: The BdaStartChanges function initiates the setting of new BDA topology changes.
 old-location: stream\bdastartchanges.htm
 tech.root: stream
-ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.date: 04/23/2018
 keywords: ["BdaStartChanges function"]
 ms.keywords: BdaStartChanges, BdaStartChanges function [Streaming Media Devices], bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, bdasup/BdaStartChanges, stream.bdastartchanges

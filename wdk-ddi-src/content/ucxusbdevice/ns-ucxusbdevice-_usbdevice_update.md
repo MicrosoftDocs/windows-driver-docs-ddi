@@ -4,7 +4,6 @@ title: _USBDEVICE_UPDATE (ucxusbdevice.h)
 description: Passed by UCX to update the specified device. This structure is in the request parameters (Parameters.Others.Arg1) of a framework request object passed in the EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update.htm
 tech.root: usbref
-ms.assetid: 7E990E9A-5BF5-4D6B-A5E2-4968FBD1CEBC
 ms.date: 05/07/2018
 keywords: ["USBDEVICE_UPDATE structure"]
 ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE"

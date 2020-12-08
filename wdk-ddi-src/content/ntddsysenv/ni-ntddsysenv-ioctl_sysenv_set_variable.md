@@ -4,7 +4,6 @@ title: IOCTL_SYSENV_SET_VARIABLE (ntddsysenv.h)
 description: Sets the value of the specified system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
 tech.root: kernel
-ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
 ms.date: 04/30/2018
 keywords: ["IOCTL_SYSENV_SET_VARIABLE IOCTL"]
 ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE

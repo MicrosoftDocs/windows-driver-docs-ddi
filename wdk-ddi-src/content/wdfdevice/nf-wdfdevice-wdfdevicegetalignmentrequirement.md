@@ -4,7 +4,6 @@ title: WdfDeviceGetAlignmentRequirement function (wdfdevice.h)
 description: The WdfDeviceGetAlignmentRequirement method retrieves a device's address alignment requirement for memory transfer operations.
 old-location: wdf\wdfdevicegetalignmentrequirement.htm
 tech.root: wdf
-ms.assetid: 531f5e99-0e04-47dd-86bb-c35aa549c63a
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetAlignmentRequirement function"]
 ms.keywords: DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, WdfDeviceGetAlignmentRequirement, WdfDeviceGetAlignmentRequirement method, kmdf.wdfdevicegetalignmentrequirement, wdf.wdfdevicegetalignmentrequirement, wdfdevice/WdfDeviceGetAlignmentRequirement

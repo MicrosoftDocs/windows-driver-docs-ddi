@@ -4,7 +4,6 @@ title: WdfIoTargetStop function (wdfiotarget.h)
 description: The WdfIoTargetStop method stops sending queued requests to a local or remote I/O target.
 old-location: wdf\wdfiotargetstop.htm
 tech.root: wdf
-ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetStop function"]
 ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop, WdfIoTargetStop method, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop

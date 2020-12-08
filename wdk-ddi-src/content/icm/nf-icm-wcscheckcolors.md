@@ -4,7 +4,6 @@ title: WcsCheckColors function (icm.h)
 description: The WcsCheckColors function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
 old-location: print\wcscheckcolors.htm
 tech.root: print
-ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 ms.date: 08/13/2020
 keywords: ["WcsCheckColors function"]
 ms.keywords: WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, print.wcscheckcolors

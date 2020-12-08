@@ -4,7 +4,6 @@ title: WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function (wdfdevice.h)
 description: The WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a driver's WDF_POWER_POLICY_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_power_policy_event_callbacks_init.htm
 tech.root: wdf
-ms.assetid: 09ab4995-58be-4d87-adf7-e843e637ac09
 ms.date: 02/26/2018
 keywords: ["WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_46bebe7b-91e3-4ad3-b535-233d6c40622e.xml, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function, kmdf.wdf_power_policy_event_callbacks_init, wdf.wdf_power_policy_event_callbacks_init, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS_INIT

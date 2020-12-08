@@ -4,7 +4,6 @@ title: IDDCX_MONITOR_MODE_ORIGIN (iddcx.h)
 description: Used to describe a mode the monitor supports based on the monitor description.
 old-location: display\iddcx_monitor_mode_origin.htm
 tech.root: display
-ms.assetid: 96aac09b-c6fc-43a7-a6d8-36f642e0f5d7
 ms.date: 05/10/2018
 keywords: ["IDDCX_MONITOR_MODE_ORIGIN enumeration"]
 ms.keywords: IDDCX_MONITOR_MODE_ORIGIN, IDDCX_MONITOR_MODE_ORIGIN enumeration [Display Devices], IDDCX_MONITOR_MODE_ORIGIN_DRIVER, IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED, display.iddcx_monitor_mode_origin, iddcx/IDDCX_MONITOR_MODE_ORIGIN, iddcx/IDDCX_MONITOR_MODE_ORIGIN_DRIVER, iddcx/IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, iddcx/IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED

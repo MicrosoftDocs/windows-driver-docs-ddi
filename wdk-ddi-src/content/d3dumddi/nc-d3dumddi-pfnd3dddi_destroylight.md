@@ -4,7 +4,6 @@ title: PFND3DDDI_DESTROYLIGHT (d3dumddi.h)
 description: The DestroyLight function deactivates a light source.
 old-location: display\destroylight.htm
 tech.root: display
-ms.assetid: dbc86e4d-a002-4270-a3c4-02d16972c921
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DESTROYLIGHT callback function"]
 ms.keywords: DestroyLight, DestroyLight callback function [Display Devices], PFND3DDDI_DESTROYLIGHT, PFND3DDDI_DESTROYLIGHT callback, UserModeDisplayDriver_Functions_fce83d93-bfe6-44f9-a1c4-ea92921bfb69.xml, d3dumddi/DestroyLight, display.destroylight

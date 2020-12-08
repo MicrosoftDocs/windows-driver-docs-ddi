@@ -4,7 +4,6 @@ title: KsDispatchSpecificMethod function (ks.h)
 description: The KsDispatchSpecificMethod function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the KsMethodHandler function. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksdispatchspecificmethod.htm
 tech.root: stream
-ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.date: 04/23/2018
 keywords: ["KsDispatchSpecificMethod function"]
 ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod

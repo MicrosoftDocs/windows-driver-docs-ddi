@@ -4,7 +4,6 @@ title: _WSK_BUF (wsk.h)
 description: The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a socket.
 old-location: netvista\wsk_buf.htm
 tech.root: netvista
-ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.date: 05/02/2018
 keywords: ["WSK_BUF structure"]
 ms.keywords: "*PWSK_BUF, PWSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml"

@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGK_HARDWARERESERVEDRANGES
 title: _DXGK_HARDWARERESERVEDRANGES (d3dkmddi.h)
 description: The hardware reserved memory ranges that was queried by the call the QueryAdapterInfo.
-ms.assetid: c78d4d75-1775-407f-ac32-2e29a34389cd
 ms.date: 10/19/2018
 keywords: ["DXGK_HARDWARERESERVEDRANGES structure"]
 ms.keywords: _DXGK_HARDWARERESERVEDRANGES, DXGK_HARDWARERESERVEDRANGES,

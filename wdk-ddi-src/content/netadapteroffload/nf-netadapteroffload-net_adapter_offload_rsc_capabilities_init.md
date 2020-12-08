@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure.
 tech.root: netvista
-ms.assetid: 1df09a2f-d816-407a-8759-142f569f0f57
 ms.date: 10/15/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT

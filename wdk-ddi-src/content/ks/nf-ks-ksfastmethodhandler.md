@@ -4,7 +4,6 @@ title: KsFastMethodHandler function (ks.h)
 description: The KsFastMethodHandler function handles fast methods requested through IOCTL_KS_METHOD. It responds to all method identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfastmethodhandler.htm
 tech.root: stream
-ms.assetid: 829e96e7-7063-4de3-b13a-0b0d12ba1f44
 ms.date: 04/23/2018
 keywords: ["KsFastMethodHandler function"]
 ms.keywords: KsFastMethodHandler, KsFastMethodHandler function [Streaming Media Devices], ks/KsFastMethodHandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, stream.ksfastmethodhandler

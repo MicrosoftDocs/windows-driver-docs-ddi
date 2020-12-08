@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE I/O request registers the driver of a USB multi-function device (composite driver) with the underlying USB driver stack.
 old-location: buses\ioctl_internal_usb_register_composite_driver.htm
 tech.root: usbref
-ms.assetid: 5ADCD625-485C-4E18-B022-BA1611F87EA9
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_register_composite_driver, usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE

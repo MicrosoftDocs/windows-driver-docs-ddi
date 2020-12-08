@@ -4,7 +4,6 @@ title: _D3DKMDT_MONITOR_DESCRIPTOR (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_DESCRIPTOR structure contains a pointer to a monitor descriptor along with information about the monitor descriptor.
 old-location: display\d3dkmdt_monitor_descriptor.htm
 tech.root: display
-ms.assetid: 4bdce35f-adce-4898-8ef5-011a5476065a
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_DESCRIPTOR structure"]
 ms.keywords: D3DKMDT_MONITOR_DESCRIPTOR, D3DKMDT_MONITOR_DESCRIPTOR structure [Display Devices], DmStructs_760a75c4-4db4-445e-a63b-7e77b6b69090.xml, _D3DKMDT_MONITOR_DESCRIPTOR, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR, display.d3dkmdt_monitor_descriptor

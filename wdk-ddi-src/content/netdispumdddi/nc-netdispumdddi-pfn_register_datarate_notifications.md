@@ -4,7 +4,6 @@ title: PFN_REGISTER_DATARATE_NOTIFICATIONS (netdispumdddi.h)
 description: Called by the user-mode driver to register with the operating system to receive network quality of service (QoS) notifications and the current network bandwidth of the Miracast connection.The data type of this function is PFN_REGISTER_DATARATE_NOTIFICATIONS.
 old-location: display\registerfordataratenotifications.htm
 tech.root: display
-ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.date: 05/10/2018
 keywords: ["PFN_REGISTER_DATARATE_NOTIFICATIONS callback function"]
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications

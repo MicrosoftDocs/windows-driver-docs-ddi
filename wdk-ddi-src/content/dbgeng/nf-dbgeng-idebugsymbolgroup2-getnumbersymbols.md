@@ -4,7 +4,6 @@ title: IDebugSymbolGroup2::GetNumberSymbols (dbgeng.h)
 description: The GetNumberSymbols method returns the number of symbols that are contained in a symbol group.
 old-location: debugger\getnumbersymbols.htm
 tech.root: debugger
-ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::GetNumberSymbols"]
 ms.keywords: ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols, GetNumberSymbols method [Windows Debugging], GetNumberSymbols method [Windows Debugging],IDebugSymbolGroup interface, GetNumberSymbols method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetNumberSymbols method, IDebugSymbolGroup2 interface [Windows Debugging],GetNumberSymbols method, IDebugSymbolGroup2.GetNumberSymbols, IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, dbgeng/IDebugSymbolGroup::GetNumberSymbols, debugger.getnumbersymbols

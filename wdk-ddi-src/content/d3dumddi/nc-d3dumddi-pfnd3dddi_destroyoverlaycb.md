@@ -4,7 +4,6 @@ title: PFND3DDDI_DESTROYOVERLAYCB (d3dumddi.h)
 description: The pfnDestroyOverlayCb function disables the overlay hardware and destroys the kernel-mode overlay object.
 old-location: display\pfndestroyoverlaycb.htm
 tech.root: display
-ms.assetid: 9fc83bad-c183-4cba-9514-bfe1c676cba5
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DESTROYOVERLAYCB callback function"]
 ms.keywords: D3Druntime_Functions_57512079-654f-4858-bd66-984935adec15.xml, PFND3DDDI_DESTROYOVERLAYCB, PFND3DDDI_DESTROYOVERLAYCB callback, d3dumddi/pfnDestroyOverlayCb, display.pfndestroyoverlaycb, pfnDestroyOverlayCb, pfnDestroyOverlayCb callback function [Display Devices]

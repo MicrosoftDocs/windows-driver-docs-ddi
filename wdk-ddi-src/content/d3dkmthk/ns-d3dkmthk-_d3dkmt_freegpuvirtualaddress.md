@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_FREEGPUVIRTUALADDRESS
 title: _D3DKMT_FREEGPUVIRTUALADDRESS (d3dkmthk.h)
 description: D3DKMT_FREEGPUVIRTUALADDRESS is used with FreeGpuVirtualAddress to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dkmt_freegpuvirtualaddress.htm
-ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.date: 05/10/2018
 keywords: ["D3DKMT_FREEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress

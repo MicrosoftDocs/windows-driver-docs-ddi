@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO (usbfnioctl.h)
 description: The class driver sends this request IO control code to retrieve information about the available pipes for a device, as configured in the registry.
 old-location: buses\ioctl_internal_usbfn_get_class_info.htm
 tech.root: usbref
-ms.assetid: 870D7D8C-B2FE-487A-9098-C004E6C7E159
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_GET_CLASS_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO

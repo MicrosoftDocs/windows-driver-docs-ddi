@@ -4,7 +4,6 @@ title: IPnpCallbackHardware2::OnReleaseHardware (wudfddi.h)
 description: The OnReleaseHardware method performs operations that are needed when a device is no longer accessible.
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
 tech.root: wdf
-ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.date: 02/26/2018
 keywords: ["IPnpCallbackHardware2::OnReleaseHardware"]
 ms.keywords: IPnpCallbackHardware2 interface,OnReleaseHardware method, IPnpCallbackHardware2.OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware

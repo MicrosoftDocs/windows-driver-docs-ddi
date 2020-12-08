@@ -4,7 +4,6 @@ title: IddCxMonitorDeparture function (iddcx.h)
 description: An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a monitor departure from the WDDM graphics adapter.
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display
-ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorDeparture function"]
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture

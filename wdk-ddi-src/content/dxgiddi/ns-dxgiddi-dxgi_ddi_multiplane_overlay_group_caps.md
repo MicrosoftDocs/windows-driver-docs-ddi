@@ -4,7 +4,6 @@ title: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS (dxgiddi.h)
 description: Used by the user-mode display driver to specify groups of overlay plane capabilities.
 old-location: display\dxgi_ddi_multiplane_overlay_group_caps.htm
 tech.root: display
-ms.assetid: A8BAD8D4-1009-43D0-B82F-8252062A029C
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_group_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS

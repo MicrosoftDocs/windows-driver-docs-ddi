@@ -4,7 +4,6 @@ title: _BTHX_HCI_READ_WRITE_CONTEXT (bthxddi.h)
 description: The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
 old-location: bltooth\bthx_hci_read_write_context.htm
 tech.root: bltooth
-ms.assetid: EC31A704-A264-4A77-B979-BFA59B42BA94
 ms.date: 04/27/2018
 keywords: ["BTHX_HCI_READ_WRITE_CONTEXT structure"]
 ms.keywords: "*PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], _BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT"

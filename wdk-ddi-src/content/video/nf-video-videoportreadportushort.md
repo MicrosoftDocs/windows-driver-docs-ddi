@@ -4,7 +4,6 @@ title: VideoPortReadPortUshort function (video.h)
 description: The VideoPortReadPortUshort function reads a USHORT value from a mapped I/O port.
 old-location: display\videoportreadportushort.htm
 tech.root: display
-ms.assetid: a5277cee-40e8-4c87-8521-8ae59c9b33a3
 ms.date: 05/10/2018
 keywords: ["VideoPortReadPortUshort function"]
 ms.keywords: VideoPortReadPortUshort, VideoPortReadPortUshort function [Display Devices], VideoPort_Functions_cb14aa82-3092-4982-83c5-4682d7a487c0.xml, display.videoportreadportushort, video/VideoPortReadPortUshort

@@ -2,7 +2,6 @@
 UID: NC:iddcx.PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 title: PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 ms.date: 10/20/2020
-ms.assetid: 8b5dd011-efc0-42fc-b7d4-1915c6a6c44f
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

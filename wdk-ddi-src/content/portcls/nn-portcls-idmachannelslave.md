@@ -4,7 +4,6 @@ title: IDmaChannelSlave (portcls.h)
 description: The IDmaChannelSlave interface provides methods for monitoring and controlling a DMA channel for a subordinate device (as described in Introduction to Adapter Objects).
 old-location: audio\idmachannelslave.htm
 tech.root: audio
-ms.assetid: 1d628035-ffcf-4657-8310-f851b3f508f9
 ms.date: 03/19/2018
 keywords: ["IDmaChannelSlave interface"]
 ms.keywords: IDmaChannelSlave, IDmaChannelSlave interface [Audio Devices], IDmaChannelSlave interface [Audio Devices], described, audio.idmachannelslave, audmp-routines_309d3b3a-de27-478d-a82f-0677e3d61bd2.xml, portcls/IDmaChannelSlave

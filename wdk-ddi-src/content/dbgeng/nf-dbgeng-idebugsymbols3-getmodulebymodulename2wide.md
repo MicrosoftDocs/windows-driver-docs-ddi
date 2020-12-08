@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetModuleByModuleName2Wide (dbgeng.h)
 description: The GetModuleByModuleName2Wide method searches through the process's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename2wide.htm
 tech.root: debugger
-ms.assetid: 49e27e24-d38a-4a22-a92f-33a384437250
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleByModuleName2Wide"]
 ms.keywords: GetModuleByModuleName2Wide, GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName2Wide method, IDebugSymbols3.GetModuleByModuleName2Wide, IDebugSymbols3::GetModuleByModuleName2Wide, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide

@@ -4,7 +4,6 @@ title: KsCreateDefaultClock function (ks.h)
 description: Given an IRP_MJ_CREATE request, the KsCreateDefaultClock function creates a default clock that uses the system clock as a time base and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the clock using an internal dispatch table (KSDISPATCH_TABLE). Does not complete the IRP or set the status in the IRP.The KsCreateDefaultClock function can only be called at PASSIVE_LEVEL.
 old-location: stream\kscreatedefaultclock.htm
 tech.root: stream
-ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.date: 06/25/2020
 keywords: ["KsCreateDefaultClock function"]
 ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock

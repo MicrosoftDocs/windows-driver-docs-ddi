@@ -4,7 +4,6 @@ title: _INDICATION_PARAMETERS_ENHANCED (bthddi.h)
 description: The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's enhanced L2CAP Callback Function.
 old-location: bltooth\indication_parameters_enhanced.htm
 tech.root: bltooth
-ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.date: 04/27/2018
 keywords: ["INDICATION_PARAMETERS_ENHANCED structure"]
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"

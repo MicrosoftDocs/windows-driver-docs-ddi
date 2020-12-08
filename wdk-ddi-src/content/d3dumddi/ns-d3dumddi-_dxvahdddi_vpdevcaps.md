@@ -4,7 +4,6 @@ title: _DXVAHDDDI_VPDEVCAPS (d3dumddi.h)
 description: The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities that the decode device supports.
 old-location: display\dxvahdddi_vpdevcaps.htm
 tech.root: display
-ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_VPDEVCAPS structure"]
 ms.keywords: DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], _DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps

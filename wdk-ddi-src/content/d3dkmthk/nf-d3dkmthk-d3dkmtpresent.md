@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTPresent
 title: D3DKMTPresent function (d3dkmthk.h)
 description: The D3DKMTPresent function submits a present command to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtpresent.htm
-ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
 ms.date: 05/10/2018
 keywords: ["D3DKMTPresent function"]
 ms.keywords: D3DKMTPresent, D3DKMTPresent function [Display Devices], OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, d3dkmthk/D3DKMTPresent, display.d3dkmtpresent

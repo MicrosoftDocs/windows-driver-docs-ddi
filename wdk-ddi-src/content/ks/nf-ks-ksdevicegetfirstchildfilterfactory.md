@@ -4,7 +4,6 @@ title: KsDeviceGetFirstChildFilterFactory function (ks.h)
 description: The KsDeviceGetFirstChildFilterFactory function returns the first child filter factory belonging to a given AVStream device.
 old-location: stream\ksdevicegetfirstchildfilterfactory.htm
 tech.root: stream
-ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.date: 04/23/2018
 keywords: ["KsDeviceGetFirstChildFilterFactory function"]
 ms.keywords: KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, ks/KsDeviceGetFirstChildFilterFactory, stream.ksdevicegetfirstchildfilterfactory

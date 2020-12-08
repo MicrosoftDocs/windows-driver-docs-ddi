@@ -4,7 +4,6 @@ title: IPortableDeviceValues::SetUnsignedIntegerValue (portabledevicetypes.h)
 description: Adds a new ULONG value (type VT_UI4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedintegervalue.htm
 tech.root: wpd_dk
-ms.assetid: a442a94a-2086-4b09-a795-86f53334fadd
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetUnsignedIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetUnsignedIntegerValue method, IPortableDeviceValues.SetUnsignedIntegerValue, IPortableDeviceValues::SetUnsignedIntegerValue, IPortableDeviceValuesSetUnsignedIntegerValue, SetUnsignedIntegerValue, SetUnsignedIntegerValue method, SetUnsignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedIntegerValue, wpddk.iportabledevicevalues_setunsignedintegervalue

@@ -4,7 +4,6 @@ title: RtlUTF8StringToUnicodeString function (ntifs.h)
 description: The RtlUTF8StringToUnicodeString routine converts the specified UTF-8 string to a Unicode string.
 old-location: 
 tech.root: ifsk
-ms.assetid: aa4d6f8b-ab1b-4b13-83c8-fcc55f667d14
 ms.date: 03/24/2020
 ms.keywords: RtlUTF8StringToUnicodeString, RtlUTF8StringToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.RtlUTF8StringToUnicodeString
 ms.topic: function

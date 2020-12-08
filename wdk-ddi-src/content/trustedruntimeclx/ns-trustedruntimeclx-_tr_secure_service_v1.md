@@ -2,7 +2,6 @@
 UID: NS:trustedruntimeclx._TR_SECURE_SERVICE_V1
 title: _TR_SECURE_SERVICE_V1 (trustedruntimeclx.h)
 description: _TR_SECURE_SERVICE_V1 (trustedruntimeclx.h)
-ms.assetid: e1799150-6d8d-40ca-9235-94762db4cc45
 ms.date: 11/20/2020
 keywords: ["TR_SECURE_SERVICE_V1 structure"]
 ms.keywords: _TR_SECURE_SERVICE_V1, TR_SECURE_SERVICE_V1, *PTR_SECURE_SERVICE_V1, TR_SECURE_SERVICE, *PTR_SECURE_SERVICE

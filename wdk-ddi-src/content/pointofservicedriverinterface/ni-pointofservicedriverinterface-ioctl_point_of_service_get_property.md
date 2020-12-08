@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_GET_PROPERTY (pointofservicedriverinterface.h)
 description: This I/O control function returns the value of the specified property from the device driver.
 old-location: pos\ioctl_point_of_service_get_property.htm
 tech.root: pos
-ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property

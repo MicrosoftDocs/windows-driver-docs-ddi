@@ -4,7 +4,6 @@ title: _PRINTIFI32 (prntfont.h)
 description: The PRINTIFI32 structure is a fixed-size version of the IFIMETRICS structure, and defines information for a given typeface that GDI can use.
 old-location: display\printifi32.htm
 tech.root: display
-ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.date: 02/26/2018
 keywords: ["PRINTIFI32 structure"]
 ms.keywords: "*PPRINTIFI32, PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, PRINTIFI32 structure [Display Devices], _PRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, prntfont/PPRINTIFI32, prntfont/PRINTIFI32"

@@ -4,7 +4,6 @@ title: StorPortSetPowerSettingNotificationGuids function (storport.h)
 description: The StorPortSetPowerSettingNotificationGuids routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
 old-location: storage\storportsetpowersettingnotificationguids.htm
 tech.root: storage
-ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.date: 03/29/2018
 keywords: ["StorPortSetPowerSettingNotificationGuids function"]
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids

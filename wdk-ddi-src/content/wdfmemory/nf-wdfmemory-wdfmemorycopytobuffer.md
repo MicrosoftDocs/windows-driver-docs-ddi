@@ -4,7 +4,6 @@ title: WdfMemoryCopyToBuffer function (wdfmemory.h)
 description: The WdfMemoryCopyToBuffer method copies the contents of a specified memory object's buffer into a specified destination buffer.
 old-location: wdf\wdfmemorycopytobuffer.htm
 tech.root: wdf
-ms.assetid: cb1fc590-3d3a-4b06-b467-28c3adb43706
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCopyToBuffer function"]
 ms.keywords: DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, WdfMemoryCopyToBuffer, WdfMemoryCopyToBuffer method, kmdf.wdfmemorycopytobuffer, wdf.wdfmemorycopytobuffer, wdfmemory/WdfMemoryCopyToBuffer

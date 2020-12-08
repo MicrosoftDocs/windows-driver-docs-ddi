@@ -4,7 +4,6 @@ title: _TARGET_DEVICE_REMOVAL_NOTIFICATION (wdm.h)
 description: The TARGET_DEVICE_REMOVAL_NOTIFICATION structure describes a device-removal event. The PnP manager sends this structure to a driver that registered a callback routine for notification of EventCategoryTargetDeviceChange events.
 old-location: kernel\target_device_removal_notification.htm
 tech.root: kernel
-ms.assetid: a14656ca-131a-4722-aae7-041eddc8517a
 ms.date: 04/30/2018
 keywords: ["TARGET_DEVICE_REMOVAL_NOTIFICATION structure"]
 ms.keywords: "*PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_REMOVAL_NOTIFICATION, kernel.target_device_removal_notification, kstruct_d_9b46ee83-c40a-435c-a544-456672ebca33.xml, wdm/PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION"

@@ -3,7 +3,6 @@ UID: NC:ntddk._WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER
 title: _WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER
 description: 
 tech.root: whea
-ms.assetid: c1f0bed8-0dec-4034-a586-bb2a39a8b08f
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER callback function"]
 req.header: ntddk.h

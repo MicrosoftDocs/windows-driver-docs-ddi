@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_OPENRESOURCE
 title: PFND3D10DDI_OPENRESOURCE (d3d10umddi.h)
 description: The OpenResource(D3D10) function opens a shared resource.
 old-location: display\openresource_d3d10_.htm
-ms.assetid: 95f6d1e5-0c85-41ce-ad6d-f10d5103e2eb
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_OPENRESOURCE callback function"]
 ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3D10DDI_OPENRESOURCE, PFND3D10DDI_OPENRESOURCE callback, UserModeDisplayDriverDx10_Functions_ea9696b9-fb0f-4feb-be35-db3e59c74b4e.xml, d3d10umddi/OpenResource, display.openresource_d3d10_

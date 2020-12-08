@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_VAD_DESC
 title: _D3DKMT_VAD_DESC (d3dkmthk.h)
 description: The video acceleration display (VAD) description.
-ms.assetid: 29f67949-0db6-4fbc-b350-a77194da1ca3
 ms.date: 10/19/2018
 keywords: ["D3DKMT_VAD_DESC structure"]
 ms.keywords: _D3DKMT_VAD_DESC, D3DKMT_VAD_DESC,

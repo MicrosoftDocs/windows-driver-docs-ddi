@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_RELEASEKEYEDMUTEX
 title: _D3DKMT_RELEASEKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTReleaseKeyedMutex function releases.
 old-location: display\d3dkmt_releasekeyedmutex.htm
-ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.date: 05/10/2018
 keywords: ["D3DKMT_RELEASEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex

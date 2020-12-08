@@ -4,7 +4,6 @@ title: _STOR_LIST_ENTRY (storport.h)
 description: A STOR_LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: storage\stor_list_entry.htm
 tech.root: storage
-ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.date: 03/29/2018
 keywords: ["STOR_LIST_ENTRY structure"]
 ms.keywords: "*PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"

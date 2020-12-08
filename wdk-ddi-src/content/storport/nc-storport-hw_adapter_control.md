@@ -4,7 +4,6 @@ title: HW_ADAPTER_CONTROL (storport.h)
 description: A miniport driver's HwStorAdapterControl routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
 old-location: storage\hwstoradaptercontrol.htm
 tech.root: storage
-ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.date: 07/19/2019
 keywords: ["HW_ADAPTER_CONTROL callback function"]
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl

@@ -4,7 +4,6 @@ title: SetJobNamedProperty function (winspool.h)
 description: Describes the SetJobNamedProperty function.
 old-location: print\setjobnamedproperty.htm
 tech.root: print
-ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.date: 04/20/2018
 keywords: ["SetJobNamedProperty function"]
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty

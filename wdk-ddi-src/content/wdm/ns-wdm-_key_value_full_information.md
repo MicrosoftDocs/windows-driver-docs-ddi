@@ -4,7 +4,6 @@ title: _KEY_VALUE_FULL_INFORMATION (wdm.h)
 description: The KEY_VALUE_FULL_INFORMATION structure defines information available for a value entry of a registry key.
 old-location: kernel\key_value_full_information.htm
 tech.root: kernel
-ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.date: 04/30/2018
 keywords: ["KEY_VALUE_FULL_INFORMATION structure"]
 ms.keywords: "*PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, wdm/KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION"

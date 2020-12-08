@@ -4,7 +4,6 @@ title: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB (d3dumddi.h)
 description: pfnGetResourcePresentPrivateDriverDataCb is used to query the resource private data, which is associated with the resource during Present.
 old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 tech.root: display
-ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB callback function"]
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB callback, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]

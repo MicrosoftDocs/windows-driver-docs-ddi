@@ -4,7 +4,6 @@ title: _PEP_COORDINATED_IDLE_STATE (pepfx.h)
 description: The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS.
 old-location: kernel\pep_coordinated_idle_state.htm
 tech.root: kernel
-ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.date: 04/30/2018
 keywords: ["PEP_COORDINATED_IDLE_STATE structure"]
 ms.keywords: "*PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, pepfx/PEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE"

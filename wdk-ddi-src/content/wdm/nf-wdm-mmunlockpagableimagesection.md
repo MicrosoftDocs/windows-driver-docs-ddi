@@ -4,7 +4,6 @@ title: MmUnlockPagableImageSection function (wdm.h)
 description: The MmUnlockPagableImageSection routine releases a section of driver code or driver data, previously locked into system space with MmLockPagableCodeSection, MmLockPagableDataSection or MmLockPagableSectionByHandle, so the section can be paged out again.
 old-location: kernel\mmunlockpagableimagesection.htm
 tech.root: kernel
-ms.assetid: 3a6e3029-d378-4e42-8556-e3640cfdb392
 ms.date: 04/30/2018
 keywords: ["MmUnlockPagableImageSection function"]
 ms.keywords: MmUnlockPagableImageSection, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, kernel.mmunlockpagableimagesection, wdm/MmUnlockPagableImageSection

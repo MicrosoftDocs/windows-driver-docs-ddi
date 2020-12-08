@@ -4,7 +4,6 @@ title: IInterruptSync::Connect (portcls.h)
 description: The Connect method connects the synchronization object to the interrupt.
 old-location: audio\iinterruptsync_connect.htm
 tech.root: audio
-ms.assetid: 62cb451d-1170-4462-94ac-0477adc5946b
 ms.date: 05/08/2018
 keywords: ["IInterruptSync::Connect"]
 ms.keywords: Connect, Connect method [Audio Devices], Connect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Connect method, IInterruptSync.Connect, IInterruptSync::Connect, audio.iinterruptsync_connect, audmp-routines_10f66201-af8d-42ff-a854-04f5cb90f2cc.xml, portcls/IInterruptSync::Connect

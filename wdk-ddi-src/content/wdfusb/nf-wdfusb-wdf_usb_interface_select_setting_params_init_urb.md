@@ -4,7 +4,6 @@ title: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function (wdfusb.h)
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying a URB.
 old-location: wdf\wdf_usb_interface_select_setting_params_init_urb.htm
 tech.root: wdf
-ms.assetid: 0c11941e-d0fc-4b0f-bf18-9920d371dd09
 ms.date: 02/26/2018
 keywords: ["WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function"]
 ms.keywords: DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, kmdf.wdf_usb_interface_select_setting_params_init_urb, wdf.wdf_usb_interface_select_setting_params_init_urb, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB

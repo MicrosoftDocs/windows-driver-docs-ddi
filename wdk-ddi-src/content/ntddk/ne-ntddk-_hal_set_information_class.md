@@ -3,7 +3,6 @@ UID: NE:ntddk._HAL_SET_INFORMATION_CLASS
 title: _HAL_SET_INFORMATION_CLASS (ntddk.h)
 description: The values are reserved for internal use.
 tech.root: kernel
-ms.assetid: d3fb9a2b-47bd-417e-961a-1b89f14d8f49
 ms.date: 09/30/2018
 keywords: ["HAL_SET_INFORMATION_CLASS enumeration"]
 ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS,

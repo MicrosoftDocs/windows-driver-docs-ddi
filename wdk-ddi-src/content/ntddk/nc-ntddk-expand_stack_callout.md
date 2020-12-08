@@ -4,7 +4,6 @@ title: EXPAND_STACK_CALLOUT (ntddk.h)
 description: The ExpandedStackCall routine executes with a guaranteed stack size.
 old-location: kernel\expandedstackcall.htm
 tech.root: kernel
-ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.date: 04/30/2018
 keywords: ["EXPAND_STACK_CALLOUT callback function"]
 ms.keywords: DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml, EXPAND_STACK_CALLOUT, ExpandedStackCall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], kernel.expandedstackcall, ntddk/ExpandedStackCall

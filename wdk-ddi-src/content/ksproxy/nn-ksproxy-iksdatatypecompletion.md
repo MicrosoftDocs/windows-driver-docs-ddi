@@ -4,7 +4,6 @@ title: IKsDataTypeCompletion (ksproxy.h)
 description: The IKsDataTypeCompletion interface provides a method to complete partially specified media types that are passed to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion.htm
 tech.root: stream
-ms.assetid: 52976c7d-522e-4ff6-96a2-8ed98abe1739
 ms.date: 04/23/2018
 keywords: ["IKsDataTypeCompletion interface"]
 ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion interface [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices],described, ksproxy/IKsDataTypeCompletion, ksproxy_0ae81dab-7e72-45e0-9577-069d41973670.xml, stream.iksdatatypecompletion

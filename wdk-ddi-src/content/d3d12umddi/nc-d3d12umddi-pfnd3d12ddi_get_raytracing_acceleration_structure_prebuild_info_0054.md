@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
 title: PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 (d3d12umddi.h)
 description: Queries the driver for resource requirements to build an acceleration structure.
-ms.assetid: 09c3edcb-ed66-41ed-9db1-edca88369c43
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 callback function"]
 req.header: d3d12umddi.h

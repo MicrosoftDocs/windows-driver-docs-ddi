@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_LINK_LAYER_CAPABILITIES
 title: _NET_ADAPTER_LINK_LAYER_CAPABILITIES (netadapter.h)
 description: Describes the link layer capabilities of the adapter.
 tech.root: netvista
-ms.assetid: 24888f71-0e12-41c8-a218-9289b1f5b288
 ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_LINK_LAYER_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES, NET_ADAPTER_LINK_LAYER_CAPABILITIES,

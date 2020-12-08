@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 title: PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW (d3d12umddi.h)
 description: Create constant buffer view.
-ms.assetid: 20f24353-affc-4862-ba13-e3bfc2c0a74d
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW callback function"]
 req.header: d3d12umddi.h

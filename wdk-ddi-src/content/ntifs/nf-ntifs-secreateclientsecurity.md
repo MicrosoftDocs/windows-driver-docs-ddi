@@ -4,7 +4,6 @@ title: SeCreateClientSecurity function (ntifs.h)
 description: The SeCreateClientSecurity routine initializes a security client context structure with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurity.htm
 tech.root: ifsk
-ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.date: 04/16/2018
 keywords: ["SeCreateClientSecurity function"]
 ms.keywords: SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml

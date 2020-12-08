@@ -4,7 +4,6 @@ title: IMusicTechnology::SetTechnology (portcls.h)
 description: The SetTechnology method changes the Technology member of each KSDATARANGE_MUSIC structure in the data ranges for the miniport driver's pins.
 old-location: audio\imusictechnology_settechnology.htm
 tech.root: audio
-ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.date: 05/08/2018
 keywords: ["IMusicTechnology::SetTechnology"]
 ms.keywords: IMusicTechnology interface [Audio Devices],SetTechnology method, IMusicTechnology.SetTechnology, IMusicTechnology::SetTechnology, SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices],IMusicTechnology interface, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology

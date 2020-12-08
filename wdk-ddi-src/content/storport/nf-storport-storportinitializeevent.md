@@ -3,7 +3,6 @@ UID: NF:storport.StorPortInitializeEvent
 title: StorPortInitializeEvent function
 description: StorPortInitializeEvent initializes an event object as a synchronization or notification type event, and sets it to a signaled or not-signaled state.
 tech.root: storage
-ms.assetid: fb3aa321-9b9c-4138-8180-76bb8ed07748
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortInitializeEvent

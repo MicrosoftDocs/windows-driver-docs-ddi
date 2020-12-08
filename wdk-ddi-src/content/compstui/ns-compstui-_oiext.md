@@ -4,7 +4,6 @@ title: _OIEXT (compstui.h)
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
 tech.root: print
-ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.date: 04/20/2018
 keywords: ["OIEXT structure"]
 ms.keywords: "*POIEXT, OIEXT, OIEXT structure [Print Devices], POIEXT, POIEXT structure pointer [Print Devices], _OIEXT, compstui/OIEXT, compstui/POIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext"

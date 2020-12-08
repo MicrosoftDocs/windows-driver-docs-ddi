@@ -4,7 +4,6 @@ title: IDebugControl::GetExtensionByPath (dbgeng.h)
 description: The GetExtensionByPath method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypath.htm
 tech.root: debugger
-ms.assetid: 32755878-3f52-4e52-b093-1678c8b8bb42
 ms.date: 05/03/2018
 keywords: ["IDebugControl::GetExtensionByPath"]
 ms.keywords: GetExtensionByPath, GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging],IDebugControl interface, GetExtensionByPath method [Windows Debugging],IDebugControl2 interface, GetExtensionByPath method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExtensionByPath method, IDebugControl.GetExtensionByPath, IDebugControl2 interface [Windows Debugging],GetExtensionByPath method, IDebugControl2::GetExtensionByPath, IDebugControl3 interface [Windows Debugging],GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, debugger.getextensionbypath

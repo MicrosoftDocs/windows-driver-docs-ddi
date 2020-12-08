@@ -4,7 +4,6 @@ title: IDebugRegisters2::GetPseudoIndexByNameWide (dbgeng.h)
 description: The GetPseudoIndexByNameWide method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbynamewide.htm
 tech.root: debugger
-ms.assetid: 86b76d13-d8b5-4336-a010-87d7753a367c
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetPseudoIndexByNameWide"]
 ms.keywords: GetPseudoIndexByNameWide, GetPseudoIndexByNameWide method [Windows Debugging], GetPseudoIndexByNameWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByNameWide method, IDebugRegisters2.GetPseudoIndexByNameWide, IDebugRegisters2::GetPseudoIndexByNameWide, dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide

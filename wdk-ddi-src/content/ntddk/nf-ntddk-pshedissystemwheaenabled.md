@@ -4,7 +4,6 @@ title: PshedIsSystemWheaEnabled function (ntddk.h)
 description: The PshedIsSystemWheaEnabled function returns a Boolean value that indicates whether the system is WHEA-enabled.
 old-location: whea\pshedissystemwheaenabled.htm
 tech.root: whea
-ms.assetid: d9935605-dc5f-4987-8a5b-b2c2b358dbbf
 ms.date: 02/20/2018
 keywords: ["PshedIsSystemWheaEnabled function"]
 ms.keywords: PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], ntddk/PshedIsSystemWheaEnabled, whea.pshedissystemwheaenabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml

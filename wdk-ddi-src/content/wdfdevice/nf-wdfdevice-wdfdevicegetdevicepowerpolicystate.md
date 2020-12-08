@@ -4,7 +4,6 @@ title: WdfDeviceGetDevicePowerPolicyState function (wdfdevice.h)
 description: The WdfDeviceGetDevicePowerPolicyState method returns the current state of the framework's power policy state machine, for a specified device.
 old-location: wdf\wdfdevicegetdevicepowerpolicystate.htm
 tech.root: wdf
-ms.assetid: 3a4aab60-6568-4017-acad-ca643cb4d661
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetDevicePowerPolicyState function"]
 ms.keywords: DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, WdfDeviceGetDevicePowerPolicyState, WdfDeviceGetDevicePowerPolicyState method, kmdf.wdfdevicegetdevicepowerpolicystate, wdf.wdfdevicegetdevicepowerpolicystate, wdfdevice/WdfDeviceGetDevicePowerPolicyState

@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxMonitorGetSrmListVersion
 title: IddCxMonitorGetSrmListVersion
 ms.date: 10/02/2020
 tech.root: display
-ms.assetid: 3c358cd7-558c-4f17-88e8-393b437ab543
 ms.topic: language-reference
 targetos: Windows
 description: IddCxMonitorGetSrmListVersion retrieves the latest System Renewability Message (SRM) list version stored by the GPU.

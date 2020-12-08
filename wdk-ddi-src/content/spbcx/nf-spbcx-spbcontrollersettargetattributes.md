@@ -4,7 +4,6 @@ title: SpbControllerSetTargetAttributes function (spbcx.h)
 description: The SpbControllerSetTargetAttributes method sets object attributes that will be used for all SPBTARGET objects that the SPB framework extension (SpbCx) delivers to the SPB controller driver.
 old-location: spb\spbcontrollersettargetattributes.htm
 tech.root: SPB
-ms.assetid: 8EC415AA-F578-42BF-B785-52613B20A2AC
 ms.date: 04/30/2018
 keywords: ["SpbControllerSetTargetAttributes function"]
 ms.keywords: SPB.spbcontrollersettargetattributes, SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes method [Buses], spbcx/SpbControllerSetTargetAttributes

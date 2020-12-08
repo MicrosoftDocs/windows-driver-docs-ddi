@@ -4,7 +4,6 @@ title: ExReleaseRundownProtection function (wdm.h)
 description: The ExReleaseRundownProtection routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtection routine.
 old-location: kernel\exreleaserundownprotection.htm
 tech.root: kernel
-ms.assetid: 442FD107-04D4-4194-B64A-21699A70B4B6
 ms.date: 04/30/2018
 keywords: ["ExReleaseRundownProtection function"]
 ms.keywords: ExReleaseRundownProtection, ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection

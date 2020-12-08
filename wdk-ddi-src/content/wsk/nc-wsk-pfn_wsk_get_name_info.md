@@ -4,7 +4,6 @@ title: PFN_WSK_GET_NAME_INFO (wsk.h)
 description: The WskGetNameInfo function provides protocol-independent translation from a transport address to a host name.
 old-location: netvista\wskgetnameinfo.htm
 tech.root: netvista
-ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_GET_NAME_INFO callback function"]
 ms.keywords: PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO callback, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml

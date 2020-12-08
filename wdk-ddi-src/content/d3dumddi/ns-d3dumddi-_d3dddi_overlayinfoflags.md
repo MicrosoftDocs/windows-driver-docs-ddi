@@ -4,7 +4,6 @@ title: _D3DDDI_OVERLAYINFOFLAGS (d3dumddi.h)
 description: The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 old-location: display\d3dddi_overlayinfoflags.htm
 tech.root: display
-ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.date: 05/10/2018
 keywords: ["D3DDDI_OVERLAYINFOFLAGS structure"]
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags

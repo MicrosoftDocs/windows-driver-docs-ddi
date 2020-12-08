@@ -4,7 +4,6 @@ title: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 (acpiioct.h)
 description: The IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control code asynchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method_v1.htm
 tech.root: acpi
-ms.assetid: E55FDBCE-604E-4AD1-B51E-140A3E7DB038
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v1, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V1

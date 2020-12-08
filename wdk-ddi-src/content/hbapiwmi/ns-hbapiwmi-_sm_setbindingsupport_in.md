@@ -4,7 +4,6 @@ title: _SM_SetBindingSupport_IN (hbapiwmi.h)
 description: The SM_SetBindingSupport_IN structure is used to provide input parameters to the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_in.htm
 tech.root: storage
-ms.assetid: 7bcee845-9b3f-4ad7-843f-1f4cd74ee1be
 ms.date: 03/29/2018
 keywords: ["SM_SetBindingSupport_IN structure"]
 ms.keywords: "*PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN structure pointer [Storage Devices], SM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], _SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, hbapiwmi/SM_SetBindingSupport_IN, storage.sm_setbindingsupport_in, structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml"

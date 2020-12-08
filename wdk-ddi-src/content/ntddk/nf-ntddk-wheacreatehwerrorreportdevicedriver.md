@@ -4,7 +4,6 @@ title: WheaCreateHwErrorReportDeviceDriver
 ms.date: 04/01/2020
 ms.topic: language-reference
 tech.root: whea
-ms.assetid: b4782534-323f-4feb-86d9-b220303fcd45
 targetos: Windows
 description: 
 req.assembly: 

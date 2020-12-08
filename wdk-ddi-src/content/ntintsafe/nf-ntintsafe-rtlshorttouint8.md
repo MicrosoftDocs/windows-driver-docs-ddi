@@ -4,7 +4,6 @@ title: RtlShortToUInt8 function (ntintsafe.h)
 description: Converts a value of type SHORT to a value of type UINT8.
 old-location: kernel\rtlshorttouint8.htm
 tech.root: kernel
-ms.assetid: B1B5AE37-23BC-444A-9014-529BAD50ED52
 ms.date: 04/30/2018
 keywords: ["RtlShortToUInt8 function"]
 ms.keywords: RtlShortToUInt8, RtlShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttouint8, ntintsafe/RtlShortToUInt8

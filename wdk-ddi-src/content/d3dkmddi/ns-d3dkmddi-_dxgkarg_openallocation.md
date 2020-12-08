@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_OPENALLOCATION
 title: _DXGKARG_OPENALLOCATION (d3dkmddi.h)
 description: The DXGKARG_OPENALLOCATION structure describes allocations that the display miniport driver should open.
 old-location: display\dxgkarg_openallocation.htm
-ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1
 ms.date: 05/10/2018
 keywords: ["DXGKARG_OPENALLOCATION structure"]
 ms.keywords: DXGKARG_OPENALLOCATION, DXGKARG_OPENALLOCATION structure [Display Devices], DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, _DXGKARG_OPENALLOCATION, d3dkmddi/DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation

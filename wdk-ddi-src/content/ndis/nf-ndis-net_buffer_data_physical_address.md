@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_DATA_PHYSICAL_ADDRESS
 title: NET_BUFFER_DATA_PHYSICAL_ADDRESS macro (ndis.h)
 description: The NET_BUFFER_DATA_PHYSICAL_ADDRESS macro retrieves the DataPhysicalAddress member of a NET_BUFFER structure.
 tech.root: netvista
-ms.assetid: 116afdd8-6a36-43d0-a8f3-3724d317a758
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_PHYSICAL_ADDRESS macro"]
 ms.keywords: NET_BUFFER_DATA_PHYSICAL_ADDRESS

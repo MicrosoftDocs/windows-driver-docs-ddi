@@ -4,7 +4,6 @@ title: _BRB_GET_LOCAL_BD_ADDR (bthddi.h)
 description: The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 old-location: bltooth\_brb_get_local_bd_addr.htm
 tech.root: bltooth
-ms.assetid: cddaa92c-c43b-4875-a52e-a28ecc30962d
 ms.date: 04/27/2018
 keywords: ["BRB_GET_LOCAL_BD_ADDR structure"]
 ms.keywords: "_BRB_GET_LOCAL_BD_ADDR, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bltooth._brb_get_local_bd_addr, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, bthddi/_BRB_GET_LOCAL_BD_ADDR"

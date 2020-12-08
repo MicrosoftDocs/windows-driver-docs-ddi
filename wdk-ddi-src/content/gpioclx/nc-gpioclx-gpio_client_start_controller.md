@@ -4,7 +4,6 @@ title: GPIO_CLIENT_START_CONTROLLER (gpioclx.h)
 description: The CLIENT_StartController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
 old-location: gpio\client_startcontroller.htm
 tech.root: GPIO
-ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_START_CONTROLLER callback function"]
 ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController

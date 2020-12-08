@@ -4,7 +4,6 @@ title: NdisAllocateCloneOidRequest function (ndis.h)
 description: The NdisAllocateCloneOidRequest function allocates memory for a new NDIS_OID_REQUEST structure and copies all the information from an existing NDIS_OID_REQUEST structure to the newly allocated structure.
 old-location: netvista\ndisallocatecloneoidrequest.htm
 tech.root: netvista
-ms.assetid: 426ff4f4-7924-4115-9f66-b4152e2ba5bb
 ms.date: 05/02/2018
 keywords: ["NdisAllocateCloneOidRequest function"]
 ms.keywords: NdisAllocateCloneOidRequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneOidRequest, ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, netvista.ndisallocatecloneoidrequest

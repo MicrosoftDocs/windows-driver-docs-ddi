@@ -4,7 +4,6 @@ title: StorPortPauseDevice function (storport.h)
 description: The StorPortPauseDevice routine pauses a specific logical unit device for the specified period of time.
 old-location: storage\storportpausedevice.htm
 tech.root: storage
-ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
 ms.date: 03/29/2018
 keywords: ["StorPortPauseDevice function"]
 ms.keywords: StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storage.storportpausedevice, storport/StorPortPauseDevice, storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml

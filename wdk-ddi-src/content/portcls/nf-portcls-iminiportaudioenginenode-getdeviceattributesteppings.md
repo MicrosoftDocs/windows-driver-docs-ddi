@@ -4,7 +4,6 @@ title: IMiniportAudioEngineNode::GetDeviceAttributeSteppings (portcls.h)
 description: Gets the allowed stepping value for the audio device attribute.
 old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 tech.root: audio
-ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioEngineNode::GetDeviceAttributeSteppings"]
 ms.keywords: GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceAttributeSteppings method, IMiniportAudioEngineNode.GetDeviceAttributeSteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings

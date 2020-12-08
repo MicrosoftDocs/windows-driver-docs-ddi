@@ -4,7 +4,6 @@ title: _D3DDDIVERTEXELEMENT (d3dumddi.h)
 description: The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 old-location: display\d3dddivertexelement.htm
 tech.root: display
-ms.assetid: acb0fc1d-e360-4cb9-9b3b-7d8d03146cfd
 ms.date: 05/10/2018
 keywords: ["D3DDDIVERTEXELEMENT structure"]
 ms.keywords: D3DDDIVERTEXELEMENT, D3DDDIVERTEXELEMENT structure [Display Devices], D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT, display.d3dddivertexelement

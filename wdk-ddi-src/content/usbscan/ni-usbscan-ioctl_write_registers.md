@@ -4,7 +4,6 @@ title: IOCTL_WRITE_REGISTERS (usbscan.h)
 description: Writes to USB device registers, using the control pipe.
 old-location: image\ioctl_write_registers.htm
 tech.root: image
-ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.date: 05/03/2018
 keywords: ["IOCTL_WRITE_REGISTERS IOCTL"]
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS

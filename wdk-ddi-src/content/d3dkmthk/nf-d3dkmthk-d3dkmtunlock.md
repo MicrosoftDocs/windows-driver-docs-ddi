@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTUnlock
 title: D3DKMTUnlock function (d3dkmthk.h)
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
-ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.date: 05/10/2018
 keywords: ["D3DKMTUnlock function"]
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock

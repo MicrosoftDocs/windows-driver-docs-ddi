@@ -4,7 +4,6 @@ title: OEMPaint function (printoem.h)
 description: The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.
 old-location: print\oempaint.htm
 tech.root: print
-ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.date: 04/20/2018
 keywords: ["OEMPaint function"]
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint

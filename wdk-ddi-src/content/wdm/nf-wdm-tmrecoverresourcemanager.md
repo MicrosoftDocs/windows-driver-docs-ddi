@@ -4,7 +4,6 @@ title: TmRecoverResourceManager function (wdm.h)
 description: The TmRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\tmrecoverresourcemanager.htm
 tech.root: kernel
-ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.date: 04/30/2018
 keywords: ["TmRecoverResourceManager function"]
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager

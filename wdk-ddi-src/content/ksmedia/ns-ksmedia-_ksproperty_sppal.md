@@ -4,7 +4,6 @@ title: _KSPROPERTY_SPPAL (ksmedia.h)
 description: The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
 old-location: stream\ksproperty_sppal.htm
 tech.root: stream
-ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SPPAL structure"]
 ms.keywords: "*PKSPROPERTY_SPPAL, KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], PKSPROPERTY_SPPAL, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], _KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, stream.ksproperty_sppal"

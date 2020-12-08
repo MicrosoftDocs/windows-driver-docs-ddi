@@ -4,7 +4,6 @@ title: EVT_WDF_DRIVER_UNLOAD (wdfdriver.h)
 description: A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded.
 old-location: wdf\evtdriverunload.htm
 tech.root: wdf
-ms.assetid: 2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DRIVER_UNLOAD callback function"]
 ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload

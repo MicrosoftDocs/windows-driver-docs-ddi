@@ -4,7 +4,6 @@ title: _NDIS_RW_LOCK_REFCOUNT (ndis.h)
 description: The NDIS_RW_LOCK_REFCOUNT union defines attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock_refcount.htm
 tech.root: netvista
-ms.assetid: 1b2c93dd-a80e-4197-bc4f-cad12f6d6c77
 ms.date: 05/02/2018
 keywords: ["NDIS_RW_LOCK_REFCOUNT structure"]
 ms.keywords: NDIS_RW_LOCK_REFCOUNT, NDIS_RW_LOCK_REFCOUNT union [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK_REFCOUNT, ndis/NDIS_RW_LOCK_REFCOUNT, ndis_processor_group_ref_55aa679b-460e-43a3-8ad2-678926bbf200.xml, netvista.ndis_rw_lock_refcount

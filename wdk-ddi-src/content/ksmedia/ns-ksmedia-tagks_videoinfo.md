@@ -4,7 +4,6 @@ title: tagKS_VIDEOINFO (ksmedia.h)
 description: The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfo.htm
 tech.root: stream
-ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.date: 04/23/2018
 keywords: ["tagKS_VIDEOINFO structure"]
 ms.keywords: "*PKS_VIDEOINFO, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"

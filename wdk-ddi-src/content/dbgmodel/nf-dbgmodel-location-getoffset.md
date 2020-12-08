@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.Location.GetOffset
 title: GetOffset function (dbgmodel.h)
 description: Returns the offset of the location.
-ms.assetid: 27a75e72-a15f-4c7c-a995-4f68b6980c2b
 ms.date: 09/28/2018
 keywords: ["GetOffset function"]
 ms.keywords: GetOffset

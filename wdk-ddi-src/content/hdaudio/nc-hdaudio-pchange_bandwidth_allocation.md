@@ -4,7 +4,6 @@ title: PCHANGE_BANDWIDTH_ALLOCATION (hdaudio.h)
 description: The ChangeBandwidthAllocation routine changes a DMA engine's bandwidth allocation on the HD Audio Link.The function pointer type for a ChangeBandwidthAllocation routine is defined as follows.
 old-location: audio\changebandwidthallocation.htm
 tech.root: audio
-ms.assetid: 4dcf8fb6-71f5-4e11-a92a-0292c2a1515c
 ms.date: 05/08/2018
 keywords: ["PCHANGE_BANDWIDTH_ALLOCATION callback function"]
 ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION callback, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation

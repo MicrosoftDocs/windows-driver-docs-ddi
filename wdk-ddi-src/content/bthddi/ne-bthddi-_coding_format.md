@@ -4,7 +4,6 @@ title: _CODING_FORMAT (bthddi.h)
 description: This enumeration is for internal use only.
 old-location: bltooth\coding_format.htm
 tech.root: bltooth
-ms.assetid: 3A97BBAF-47B0-4987-B5EC-2B3A40F2B42D
 ms.date: 04/27/2018
 keywords: ["CODING_FORMAT enumeration"]
 ms.keywords: "*PCODING_FORMAT, CODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices], PCODING_FORMAT, PCODING_FORMAT enumeration pointer [Bluetooth Devices], _CODING_FORMAT, bltooth.coding_format, bthddi/, bthddi/CODING_FORMAT, bthddi/PCODING_FORMAT"

@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_1DLUT_CAP
 title: COLORSPACE_TRANSFORM_1DLUT_CAP
 description: Colorspace transform lookup table 1D gamma cap.
 tech.root: display
-ms.assetid: ff7bad3f-45a5-44a1-bf76-1182c3163066
 ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_1DLUT_CAP structure"]
 ms.keywords: COLORSPACE_TRANSFORM_1DLUT_CAP, COLORSPACE_TRANSFORM_1DLUT_CAP, *PCOLORSPACE_TRANSFORM_1DLUT_CAP,

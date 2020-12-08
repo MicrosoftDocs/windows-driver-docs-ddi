@@ -4,7 +4,6 @@ title: IDebugSymbolGroup2::GetSymbolOffset (dbgeng.h)
 description: The GetSymbolOffset method retrieves the location in the process's virtual address space of a symbol in a symbol group, if the symbol has an absolute address.
 old-location: debugger\getsymboloffset.htm
 tech.root: debugger
-ms.assetid: da3ddebc-109e-43fb-a0e9-fd89d90dbbc7
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::GetSymbolOffset"]
 ms.keywords: ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset, GetSymbolOffset method [Windows Debugging], GetSymbolOffset method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolOffset method, IDebugSymbolGroup2.GetSymbolOffset, IDebugSymbolGroup2::GetSymbolOffset, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, debugger.getsymboloffset

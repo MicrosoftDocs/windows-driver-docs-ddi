@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlGetDmaAdapter
 title: DlGetDmaAdapter function
 description: Returns a pointer to PVP_DMA_ADAPTER.
 tech.root: display
-ms.assetid: f27f4e4f-8ce9-4ce2-94de-a106c1ec9edb
 ms.date: 04/04/2019
 keywords: ["DlGetDmaAdapter function"]
 ms.keywords: DlGetDmaAdapter

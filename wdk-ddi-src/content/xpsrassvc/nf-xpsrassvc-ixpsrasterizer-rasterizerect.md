@@ -4,7 +4,6 @@ title: IXpsRasterizer::RasterizeRect (xpsrassvc.h)
 description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 old-location: print\ixpsrasterizer_rasterizerect.htm
 tech.root: print
-ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.date: 08/21/2020
 keywords: ["IXpsRasterizer::RasterizeRect"]
 ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect

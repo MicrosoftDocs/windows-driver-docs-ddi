@@ -4,7 +4,6 @@ title: _GET_UNIT_IDS (61883.h)
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve device identifiers.
 old-location: ieee\get_unit_ids.htm
 tech.root: IEEE
-ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.date: 02/15/2018
 keywords: ["GET_UNIT_IDS structure"]
 ms.keywords: "*PGET_UNIT_IDS, 61883/GET_UNIT_IDS, 61883/PGET_UNIT_IDS, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, GET_UNIT_IDS, GET_UNIT_IDS structure [Buses], IEEE.get_unit_ids, PGET_UNIT_IDS, PGET_UNIT_IDS structure pointer [Buses], _GET_UNIT_IDS"

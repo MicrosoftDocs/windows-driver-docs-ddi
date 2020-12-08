@@ -4,7 +4,6 @@ title: HidP_GetButtonCaps function (hidpi.h)
 description: The HidP_GetButtonCaps routine returns a button capability array that describes all the HID control buttons in a top-level collection for a specified type of HID report.
 old-location: hid\hidp_getbuttoncaps.htm
 tech.root: hid
-ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.date: 04/30/2018
 keywords: ["HidP_GetButtonCaps function"]
 ms.keywords: HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps

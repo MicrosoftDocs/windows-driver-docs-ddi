@@ -4,7 +4,6 @@ title: _DXVAHDDDI_CONTENT_DESC (d3dumddi.h)
 description: The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_content_desc.htm
 tech.root: display
-ms.assetid: 635a4a47-11b8-4d78-871e-21ee438880df
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_CONTENT_DESC structure"]
 ms.keywords: DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], _DXVAHDDDI_CONTENT_DESC, d3dumddi/DXVAHDDDI_CONTENT_DESC, display.dxvahdddi_content_desc

@@ -4,7 +4,6 @@ title: RIL_SendUiccToolkitCmdResponse function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_senduicctoolkitcmdresponse.htm
 tech.root: netvista
-ms.assetid: 400e2172-803c-4b6c-a41e-3c322077ffa4
 ms.date: 05/02/2018
 keywords: ["RIL_SendUiccToolkitCmdResponse function"]
 ms.keywords: RIL_SendUiccToolkitCmdResponse, RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitcmdresponse, rilapi/RIL_SendUiccToolkitCmdResponse

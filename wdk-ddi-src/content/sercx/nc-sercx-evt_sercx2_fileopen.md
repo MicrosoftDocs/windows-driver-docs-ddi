@@ -4,7 +4,6 @@ title: EVT_SERCX2_FILEOPEN (sercx.h)
 description: The EvtSerCx2FileOpen event callback function is called by version 2 of the serial framework extension (SerCx2) to notify the serial controller driver that a client opened a logical connection to the serial controller device and that a file object has been created to represent this connection.
 old-location: serports\evtsercx2fileopen.htm
 tech.root: serports
-ms.assetid: A8E6EB7F-B6FE-4FA1-88A4-52C584E69D5B
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_FILEOPEN callback function"]
 ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EVT_SERCX2_FILEOPEN callback, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen

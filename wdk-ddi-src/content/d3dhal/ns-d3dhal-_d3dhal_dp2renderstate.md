@@ -4,7 +4,6 @@ title: _D3DHAL_DP2RENDERSTATE (d3dhal.h)
 description: One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
 old-location: display\d3dhal_dp2renderstate.htm
 tech.root: display
-ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2RENDERSTATE structure"]
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"

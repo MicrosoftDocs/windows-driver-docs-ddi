@@ -4,7 +4,6 @@ title: PFND3DDDI_GENERATEMIPSUBLEVELS (d3dumddi.h)
 description: The GenerateMipSubLevels function regenerates the sublevels of a MIP-map texture.
 old-location: display\generatemipsublevels.htm
 tech.root: display
-ms.assetid: 86567fc1-cf66-4709-a6e1-6b24408df963
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_GENERATEMIPSUBLEVELS callback function"]
 ms.keywords: GenerateMipSubLevels, GenerateMipSubLevels callback function [Display Devices], PFND3DDDI_GENERATEMIPSUBLEVELS, PFND3DDDI_GENERATEMIPSUBLEVELS callback, UserModeDisplayDriver_Functions_795601cd-37d8-4268-8e41-38806c5961e6.xml, d3dumddi/GenerateMipSubLevels, display.generatemipsublevels

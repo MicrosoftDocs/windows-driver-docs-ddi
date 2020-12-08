@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._PANEL_SET_BACKLIGHT_OPTIMIZATION
 title: _PANEL_SET_BACKLIGHT_OPTIMIZATION (ntddvdeo.h)
 description: Used to set the level of optimization used to control the brightness of a panel.
 tech.root: display
-ms.assetid: 08ccd864-748e-4831-834d-7a06a80e8dd3
 ms.date: 10/19/2018
 keywords: ["PANEL_SET_BACKLIGHT_OPTIMIZATION structure"]
 ms.keywords: _PANEL_SET_BACKLIGHT_OPTIMIZATION, *PPANEL_SET_BACKLIGHT_OPTIMIZATION, PANEL_SET_BACKLIGHT_OPTIMIZATION,

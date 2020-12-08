@@ -3,7 +3,6 @@ UID: NS:fragment._NET_FRAGMENT
 title: _NET_FRAGMENT (fragment.h)
 description: Represents one contiguous buffer in memory.
 tech.root: netvista
-ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT structure"]
 ms.keywords: _NET_FRAGMENT, NET_FRAGMENT,

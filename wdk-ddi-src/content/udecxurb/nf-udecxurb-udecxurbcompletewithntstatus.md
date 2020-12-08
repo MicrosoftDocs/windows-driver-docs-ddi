@@ -4,7 +4,6 @@ title: UdecxUrbCompleteWithNtStatus function (udecxurb.h)
 description: Completes the URB request with an NTSTATUS code.
 old-location: buses\udecxurbcompletewithntstatus.htm
 tech.root: usbref
-ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.date: 05/07/2018
 keywords: ["UdecxUrbCompleteWithNtStatus function"]
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus

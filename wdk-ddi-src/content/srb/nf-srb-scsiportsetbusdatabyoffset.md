@@ -4,7 +4,6 @@ title: ScsiPortSetBusDataByOffset function (srb.h)
 description: The ScsiPortSetBusDataByOffset routine sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 old-location: storage\scsiportsetbusdatabyoffset.htm
 tech.root: storage
-ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.date: 03/29/2018
 keywords: ["ScsiPortSetBusDataByOffset function"]
 ms.keywords: ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset

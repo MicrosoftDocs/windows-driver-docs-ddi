@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.BindReadOnlyProperty
 title: BindReadOnlyProperty(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty) function (dbgmodel.h)
 description: A binder which converts an instance methods on a class to a read only property accessor.
-ms.assetid: f63a6f51-8676-4db0-9ac7-dd82414c75f0
 ms.date: 09/28/2018
 keywords: ["BindReadOnlyProperty function"]
 ms.keywords: BindReadOnlyProperty

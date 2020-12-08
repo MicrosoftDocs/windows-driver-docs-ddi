@@ -4,7 +4,6 @@ title: _SendCTPassThru_IN (hbapiwmi.h)
 description: The SendCTPassThru_IN structure is used to deliver input parameter data to the SendCTPassThru WMI method.
 old-location: storage\sendctpassthru_in.htm
 tech.root: storage
-ms.assetid: 5a3e06f5-f7f7-4e89-b78e-d6658c34ba9e
 ms.date: 03/29/2018
 keywords: ["SendCTPassThru_IN structure"]
 ms.keywords: "*PSendCTPassThru_IN, PSendCTPassThru_IN, PSendCTPassThru_IN structure pointer [Storage Devices], SendCTPassThru_IN, SendCTPassThru_IN structure [Storage Devices], _SendCTPassThru_IN, hbapiwmi/PSendCTPassThru_IN, hbapiwmi/SendCTPassThru_IN, storage.sendctpassthru_in, structs-Fibre_f95be355-7a10-483c-83cb-058812977a91.xml"

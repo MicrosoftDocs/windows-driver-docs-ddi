@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_FEATURE_STATUS_TYPE (ntddndis.h)
 description: The NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration specifies the type of status information for a custom policy property, or feature, of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_type.htm
 tech.root: netvista
-ms.assetid: a3255313-1d49-4286-a48a-6a1729ccf7fe
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeCustom, NdisSwitchFeatureStatusTypeMaximum, NdisSwitchFeatureStatusTypeUndefined, PNDIS_SWITCH_FEATURE_STATUS_TYPE, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FEATURE_STATUS_TYPE, netvista.ndis_switch_feature_status_type, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeCustom, ntddndis/NdisSwitchFeatureStatusTypeMaximum, ntddndis/NdisSwitchFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE"

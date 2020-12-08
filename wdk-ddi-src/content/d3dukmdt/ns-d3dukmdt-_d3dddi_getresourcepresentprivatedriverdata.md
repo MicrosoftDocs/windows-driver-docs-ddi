@@ -4,7 +4,6 @@ title: _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA (d3dukmdt.h)
 description: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA is used with pfnGetResourcePresentPrivateDriverDataCb to query the resource private data, which is associated with the resource during Present.
 old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
 tech.root: display
-ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.date: 05/10/2018
 keywords: ["D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure"]
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata

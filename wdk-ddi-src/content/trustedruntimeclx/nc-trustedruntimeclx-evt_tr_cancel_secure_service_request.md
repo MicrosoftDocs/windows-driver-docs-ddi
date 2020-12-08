@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
 title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
-ms.assetid: 5a3bb56d-cde5-4776-84af-ed1264577a51
 ms.date: 11/20/2020
 keywords: ["EVT_TR_CANCEL_SECURE_SERVICE_REQUEST callback function"]
 req.header: trustedruntimeclx.h

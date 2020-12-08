@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_CONNECTION_CHANGE
 title: _DXGK_CONNECTION_CHANGE (d3dkmddi.h)
 description: Structure to describe the most recently updated status of the link for a target.
 old-location: display\dxgk_connection_change.htm
-ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.date: 05/10/2018
 keywords: ["DXGK_CONNECTION_CHANGE structure"]
 ms.keywords: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], _DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"

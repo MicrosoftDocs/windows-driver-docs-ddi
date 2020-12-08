@@ -4,7 +4,6 @@ title: UrsDeviceInitialize function (ursdevice.h)
 description: Initializes a framework device object to support operations related to a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.
 old-location: buses\ursdeviceinitialize.htm
 tech.root: usbref
-ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.date: 05/07/2018
 keywords: ["UrsDeviceInitialize function"]
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize

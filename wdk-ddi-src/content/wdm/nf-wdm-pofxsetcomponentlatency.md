@@ -4,7 +4,6 @@ title: PoFxSetComponentLatency function (wdm.h)
 description: The PoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified component.
 old-location: kernel\pofxsetcomponentlatency.htm
 tech.root: kernel
-ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.date: 04/30/2018
 keywords: ["PoFxSetComponentLatency function"]
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency

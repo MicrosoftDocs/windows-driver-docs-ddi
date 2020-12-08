@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_MAPCONTEXTALLOCATION
 title: _DXGKARGCB_MAPCONTEXTALLOCATION (d3dkmddi.h)
 description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocation to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkargcb_mapcontextallocation.htm
-ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.date: 05/10/2018
 keywords: ["DXGKARGCB_MAPCONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation

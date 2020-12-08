@@ -2,7 +2,6 @@
 UID: NS:treeinlinecryptoservice._INLINE_CRYPTO_PROGRAM_KEY_OUT
 title: _INLINE_CRYPTO_PROGRAM_KEY_OUT (treeinlinecryptoservice.h)
 description: 
-ms.assetid: 81c7cd3a-1e68-4903-9a1f-6b7263e1857f
 ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_PROGRAM_KEY_OUT structure"]
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_OUT, INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT,

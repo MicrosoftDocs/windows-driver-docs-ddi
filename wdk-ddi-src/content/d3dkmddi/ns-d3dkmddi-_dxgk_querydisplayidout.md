@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDOUT
 title: _DXGK_QUERYDISPLAYIDOUT (d3dkmddi.h)
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidout.htm
-ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.date: 05/10/2018
 keywords: ["DXGK_QUERYDISPLAYIDOUT structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout

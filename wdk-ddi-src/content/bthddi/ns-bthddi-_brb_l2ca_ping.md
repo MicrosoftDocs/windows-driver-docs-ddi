@@ -4,7 +4,6 @@ title: _BRB_L2CA_PING (bthddi.h)
 description: The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 old-location: bltooth\_brb_l2ca_ping.htm
 tech.root: bltooth
-ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.date: 04/27/2018
 keywords: ["BRB_L2CA_PING structure"]
 ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"

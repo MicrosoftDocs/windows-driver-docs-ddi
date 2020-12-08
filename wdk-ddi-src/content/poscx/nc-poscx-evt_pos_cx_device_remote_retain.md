@@ -4,7 +4,6 @@ title: EVT_POS_CX_DEVICE_REMOTE_RETAIN (poscx.h)
 description: The EVT_POS_CX_DEVICE_REMOTE_RETAIN callback is called whenever PosCx attempts to hold onto a claim on a network device and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_retain.htm
 tech.root: pos
-ms.assetid: 9B23DB23-D995-4737-9302-872F2144823D
 ms.date: 02/23/2018
 keywords: ["EVT_POS_CX_DEVICE_REMOTE_RETAIN callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EVT_POS_CX_DEVICE_REMOTE_RETAIN callback, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain

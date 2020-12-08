@@ -4,7 +4,6 @@ title: IoEnumerateDeviceObjectList function (ntifs.h)
 description: The IoEnumerateDeviceObjectList routine enumerates a driver's device object list.
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
 tech.root: ifsk
-ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.date: 04/16/2018
 keywords: ["IoEnumerateDeviceObjectList function"]
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList

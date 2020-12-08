@@ -4,7 +4,6 @@ title: _FWPS_BIND_REQUEST0 (fwpsk.h)
 description: The FWPS_BIND_REQUEST0 structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V4 and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers.
 old-location: netvista\fwps_bind_request0.htm
 tech.root: netvista
-ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.date: 05/02/2018
 keywords: ["FWPS_BIND_REQUEST0 structure"]
 ms.keywords: FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_BIND_REQUEST0, fwpsk/FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml

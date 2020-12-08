@@ -4,7 +4,6 @@ title: IPrintCoreHelperUni2 (prcomoem.h)
 description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.
 old-location: print\iprintcorehelperuni2_interface.htm
 tech.root: print
-ms.assetid: F7EC4309-1274-4DA1-B006-A716627010F6
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperUni2 interface"]
 ms.keywords: IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], IPrintCoreHelperUni2 interface [Print Devices],described, prcomoem/IPrintCoreHelperUni2, print.iprintcorehelperuni2_interface

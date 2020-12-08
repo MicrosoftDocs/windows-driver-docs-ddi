@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure specifies the parameters for the custom status information of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_parameters.htm
 tech.root: netvista
-ms.assetid: 6d365e49-49ff-4b00-8cce-cf0c25cc2491
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_feature_status_parameters, ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS"

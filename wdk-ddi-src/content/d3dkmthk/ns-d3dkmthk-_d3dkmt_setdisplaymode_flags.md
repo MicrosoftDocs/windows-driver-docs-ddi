@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SETDISPLAYMODE_FLAGS
 title: _D3DKMT_SETDISPLAYMODE_FLAGS (d3dkmthk.h)
 description: The D3DKMT_SETDISPLAYMODE_FLAGS structure identifies attributes for setting the display mode.
 old-location: display\d3dkmt_setdisplaymode_flags.htm
-ms.assetid: 245586cb-d277-4cef-aeb9-b576a4ae6d43
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SETDISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS, D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml, _D3DKMT_SETDISPLAYMODE_FLAGS, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, display.d3dkmt_setdisplaymode_flags

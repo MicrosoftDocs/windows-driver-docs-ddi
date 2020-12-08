@@ -4,7 +4,6 @@ title: PCAM_CONFIGURE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamConfigure callback function configures the isochronous streaming interface.
 old-location: stream\camconfigure.htm
 tech.root: stream
-ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.date: 04/23/2018
 keywords: ["PCAM_CONFIGURE_ROUTINE callback function"]
 ms.keywords: CamConfigure, CamConfigure callback function [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE callback, stream.camconfigure, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml

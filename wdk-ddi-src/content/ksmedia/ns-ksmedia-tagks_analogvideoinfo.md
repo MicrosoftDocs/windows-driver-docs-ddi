@@ -4,7 +4,6 @@ title: tagKS_AnalogVideoInfo (ksmedia.h)
 description: The KS_ANALOGVIDEOINFO structure describes an analog video stream.
 old-location: stream\ks_analogvideoinfo.htm
 tech.root: stream
-ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.date: 04/23/2018
 keywords: ["tagKS_AnalogVideoInfo structure"]
 ms.keywords: "*PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], PKS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, stream.ks_analogvideoinfo, tagKS_AnalogVideoInfo, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml"

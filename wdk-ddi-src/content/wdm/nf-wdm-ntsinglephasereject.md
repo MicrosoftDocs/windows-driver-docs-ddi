@@ -4,7 +4,6 @@ title: NtSinglePhaseReject function (wdm.h)
 description: The ZwSinglePhaseReject routine informs KTM that the calling resource manager will not support single-phase commit operations for a specified enlistment.
 old-location: kernel\zwsinglephasereject.htm
 tech.root: kernel
-ms.assetid: a653a980-8ad6-46e7-ad9d-f060ab333731
 ms.date: 04/30/2018
 keywords: ["NtSinglePhaseReject function"]
 ms.keywords: NtSinglePhaseReject, ZwSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.zwsinglephasereject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml, wdm/NtSinglePhaseReject, wdm/ZwSinglePhaseReject

@@ -4,7 +4,6 @@ title: IPrintCoreHelperUni::EnumOptions (prcomoem.h)
 description: The IPrintCoreHelperUni::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelperuni_enumoptions.htm
 tech.root: print
-ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperUni::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumOptions method, IPrintCoreHelperUni.EnumOptions, IPrintCoreHelperUni::EnumOptions, prcomoem/IPrintCoreHelperUni::EnumOptions, print.iprintcorehelperuni_enumoptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml

@@ -4,7 +4,6 @@ title: IBidiAsyncNotifyChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel.htm
 tech.root: print
-ms.assetid: 5038BCFA-6E18-4BF8-9442-4F12D77418B0
 ms.date: 04/20/2018
 keywords: ["IBidiAsyncNotifyChannel interface"]
 ms.keywords: IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], IBidiAsyncNotifyChannel interface [Print Devices],described, print.ibidiasyncnotifychannel, prnasntp/IBidiAsyncNotifyChannel

@@ -4,7 +4,6 @@ title: StorPortGetMSIInfo function (storport.h)
 description: The StorPortGetMSIInfo routine retrieves the message signaled interrupt (MSI) information for the specified message.
 old-location: storage\storportgetmsiinfo.htm
 tech.root: storage
-ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.date: 03/29/2018
 keywords: ["StorPortGetMSIInfo function"]
 ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml

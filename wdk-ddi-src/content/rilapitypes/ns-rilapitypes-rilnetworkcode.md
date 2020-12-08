@@ -4,7 +4,6 @@ title: RILNETWORKCODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilnetworkcode_2.htm
 tech.root: netvista
-ms.assetid: 13d5914e-b42f-41ce-b86b-b7d638244558
 ms.date: 02/26/2018
 keywords: ["RILNETWORKCODE structure"]
 ms.keywords: "*LPRILNETWORKCODE, RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode_2, rilapitypes/RILNETWORKCODE"

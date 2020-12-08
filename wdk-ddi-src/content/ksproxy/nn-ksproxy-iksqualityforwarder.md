@@ -4,7 +4,6 @@ title: IKsQualityForwarder (ksproxy.h)
 description: The IKsQualityForwarder interface inherits the method of the IKsObject interface and extends IKsObject to provide a method that flushes information from a pin.
 old-location: stream\iksqualityforwarder.htm
 tech.root: stream
-ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.date: 04/23/2018
 keywords: ["IKsQualityForwarder interface"]
 ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices],described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder

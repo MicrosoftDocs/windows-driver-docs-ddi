@@ -4,7 +4,6 @@ title: NdisSetTimerObject function (ndis.h)
 description: The NdisSetTimerObject function sets a timer object to fire after a specified interval or periodically.
 old-location: netvista\ndissettimerobject.htm
 tech.root: netvista
-ms.assetid: 75f8fa1b-5b79-4bc2-8b7b-aa1101c9c331
 ms.date: 05/02/2018
 keywords: ["NdisSetTimerObject function"]
 ms.keywords: NdisSetTimerObject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetTimerObject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject

@@ -4,7 +4,6 @@ title: _NDIS_FILTER_INTERFACE (ndis.h)
 description: The NDIS_FILTER_INTERFACE structure defines the attributes for an NDIS filter.
 old-location: netvista\ndis_filter_interface.htm
 tech.root: netvista
-ms.assetid: 0a765829-3558-48ea-b788-7cce6c4b64c6
 ms.date: 05/02/2018
 keywords: ["NDIS_FILTER_INTERFACE structure"]
 ms.keywords: "*PNDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_INTERFACE, filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, ndis/NDIS_FILTER_INTERFACE, ndis/PNDIS_FILTER_INTERFACE, netvista.ndis_filter_interface"

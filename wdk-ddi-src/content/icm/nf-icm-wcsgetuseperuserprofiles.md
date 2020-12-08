@@ -4,7 +4,6 @@ title: WcsGetUsePerUserProfiles function (icm.h)
 description: The WcsGetUsePerUserProfiles function determines whether the user has chosen to use a per-user profile association list for the specified device.
 old-location: print\wcsgetuseperuserprofiles.htm
 tech.root: print
-ms.assetid: 6a970bec-c773-498e-b93a-2bd9f625e194
 ms.date: 08/14/2020
 keywords: ["WcsGetUsePerUserProfiles function"]
 ms.keywords: WcsGetUsePerUserProfiles, WcsGetUsePerUserProfiles function [Print Devices], colorfnc_b80783e5-17c0-4069-90ba-71ea82a2d7d5.xml, icm/WcsGetUsePerUserProfiles, print.wcsgetuseperuserprofiles

@@ -4,7 +4,6 @@ title: FltReleaseContextsEx function (fltkernel.h)
 description: FltReleaseContextsEx releases each context in a given FLT_RELATED_CONTEXTS_EX structure.
 old-location: ifsk\fltreleasecontextsex.htm
 tech.root: ifsk
-ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
 ms.date: 04/16/2018
 keywords: ["FltReleaseContextsEx function"]
 ms.keywords: FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex

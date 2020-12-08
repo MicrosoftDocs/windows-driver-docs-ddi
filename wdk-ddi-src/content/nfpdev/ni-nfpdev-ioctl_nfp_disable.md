@@ -4,7 +4,6 @@ title: IOCTL_NFP_DISABLE (nfpdev.h)
 description: A client sends the IOCTL_NFP_DISABLE request to temporarily disable subscriptions, publications, and presence events.
 old-location: nfpdrivers\ioctl_nfp_disable.htm
 tech.root: nfpdrivers
-ms.assetid: 5999EBAE-9B4A-469C-A8CE-E0A72B6F6A14
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_DISABLE IOCTL"]
 ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable

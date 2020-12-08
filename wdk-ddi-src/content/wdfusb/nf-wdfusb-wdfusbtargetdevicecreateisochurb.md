@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceCreateIsochUrb function (wdfusb.h)
 description: The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronous USB request block (URB).
 old-location: wdf\wdfusbtargetdevicecreateisochurb.htm
 tech.root: wdf
-ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCreateIsochUrb function"]
 ms.keywords: WdfUsbTargetDeviceCreateIsochUrb, WdfUsbTargetDeviceCreateIsochUrb method, kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb

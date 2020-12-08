@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_FORMATHISTORYBUFFER
 title: DXGKDDI_FORMATHISTORYBUFFER (d3dkmddi.h)
 description: Copies unformatted data from the history buffer into a buffer that's properly formatted to be submitted to the Event Tracing for Windows (ETW) facility.
 old-location: display\dxgkddiformathistorybuffer.htm
-ms.assetid: 84417629-5C12-4CB5-B147-0A558A4F9090
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_FORMATHISTORYBUFFER callback function"]
 ms.keywords: DXGKDDI_FORMATHISTORYBUFFER, DXGKDDI_FORMATHISTORYBUFFER callback, DxgkDdiFormatHistoryBuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], d3dkmddi/DxgkDdiFormatHistoryBuffer, display.dxgkddiformathistorybuffer

@@ -4,7 +4,6 @@ title: KsFilterGetParentFilterFactory function (ks.h)
 description: The KsFilterGetParentFilterFactory function returns the parent filter factory of the given filter.
 old-location: stream\ksfiltergetparentfilterfactory.htm
 tech.root: stream
-ms.assetid: 08b02410-3e18-4bfd-8f10-2a12a5f94e16
 ms.date: 04/23/2018
 keywords: ["KsFilterGetParentFilterFactory function"]
 ms.keywords: KsFilterGetParentFilterFactory, KsFilterGetParentFilterFactory function [Streaming Media Devices], avfunc_fd87cd4c-2ce4-41c6-8b73-4ccebd6e3015.xml, ks/KsFilterGetParentFilterFactory, stream.ksfiltergetparentfilterfactory

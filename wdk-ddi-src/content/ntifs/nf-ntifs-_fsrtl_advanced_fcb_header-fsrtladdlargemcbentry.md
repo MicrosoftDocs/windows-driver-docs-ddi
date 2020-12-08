@@ -4,7 +4,6 @@ title: FsRtlAddLargeMcbEntry function (ntifs.h)
 description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing map control block (MCB).
 old-location: ifsk\fsrtladdlargemcbentry.htm
 tech.root: ifsk
-ms.assetid: 7cab24f3-624f-4fd1-9f33-76042e5f16ed
 ms.date: 04/16/2018
 keywords: ["FsRtlAddLargeMcbEntry function"]
 ms.keywords: FsRtlAddLargeMcbEntry, FsRtlAddLargeMcbEntry routine [Installable File System Drivers], fsrtlref_de8b7789-cdba-4535-b2b9-bbc29add7fc6.xml, ifsk.fsrtladdlargemcbentry, ntifs/FsRtlAddLargeMcbEntry

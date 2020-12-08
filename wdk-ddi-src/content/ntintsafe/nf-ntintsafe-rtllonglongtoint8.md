@@ -4,7 +4,6 @@ title: RtlLongLongToInt8 function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type INT8.
 old-location: kernel\rtllonglongtoint8.htm
 tech.root: kernel
-ms.assetid: C7BFDEA1-E0E9-4909-A543-94D047B1F1A9
 ms.date: 04/30/2018
 keywords: ["RtlLongLongToInt8 function"]
 ms.keywords: RtlLongLongToInt8, RtlLongLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoint8, ntintsafe/RtlLongLongToInt8

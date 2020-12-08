@@ -4,7 +4,6 @@ title: _WIM_PROVIDER_SUSPEND_OVERLAY_INPUT (ntifs.h)
 description: A Windows Image File (WIM) data source to suspend from the WIM provider is specified in the WIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_suspend_overlay_input.htm
 tech.root: ifsk
-ms.assetid: 85BECD4F-3039-483F-8ED1-EFCA6BEE1181
 ms.date: 04/16/2018
 keywords: ["WIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure"]
 ms.keywords: "*PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT, PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT, PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_SUSPEND_OVERLAY_INPUT, WIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure [Installable File System Drivers], _WIM_PROVIDER_SUSPEND_OVERLAY_INPUT, ifsk.wim_provider_suspend_overlay_input, ntifs/PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT, ntifs/WIM_PROVIDER_SUSPEND_OVERLAY_INPUT"

@@ -4,7 +4,6 @@ title: IOCTL_HID_GET_DEVICE_ATTRIBUTES (hidport.h)
 description: The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure.
 old-location: hid\ioctl_hid_get_device_attributes.htm
 tech.root: hid
-ms.assetid: ee68c045-e99a-471d-ae22-396673d68168
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_HID_GET_DEVICE_ATTRIBUTES, IOCTL_HID_GET_DEVICE_ATTRIBUTES control, IOCTL_HID_GET_DEVICE_ATTRIBUTES control code [Human Input Devices], hid.ioctl_hid_get_device_attributes, hidioreq_417c2e10-9ca8-4a9f-8a30-1ff401b65b13.xml, hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES

@@ -4,7 +4,6 @@ title: GET_ISO_URB_SIZE macro (usbdlib.h)
 description: The GET_ISO_URB_SIZE macro returns the number of bytes required to hold an isochronous transfer request.
 old-location: buses\get_iso_urb_size.htm
 tech.root: usbref
-ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
 ms.date: 05/07/2018
 keywords: ["GET_ISO_URB_SIZE macro"]
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml

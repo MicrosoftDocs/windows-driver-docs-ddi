@@ -4,7 +4,6 @@ title: WDF_COMPANION_EVENT_CALLBACKS_INIT function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks_init.htm
 tech.root: wdf
-ms.assetid: 83fadb77-90c2-4331-949c-5d8828ce33e2
 ms.date: 02/26/2018
 keywords: ["WDF_COMPANION_EVENT_CALLBACKS_INIT function"]
 ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT

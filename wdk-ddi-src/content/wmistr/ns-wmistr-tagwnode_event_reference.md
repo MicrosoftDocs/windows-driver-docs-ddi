@@ -4,7 +4,6 @@ title: tagWNODE_EVENT_REFERENCE (wmistr.h)
 description: The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry.
 old-location: kernel\wnode_event_reference.htm
 tech.root: kernel
-ms.assetid: 9dfe75e5-301e-4378-a2ad-f43676d8c208
 ms.date: 04/30/2018
 keywords: ["tagWNODE_EVENT_REFERENCE structure"]
 ms.keywords: "*PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], kernel.wnode_event_reference, kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, tagWNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, wmistr/WNODE_EVENT_REFERENCE"

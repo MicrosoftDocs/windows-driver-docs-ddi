@@ -4,7 +4,6 @@ title: IDebugControl2::SetLogMask (dbgeng.h)
 description: The SetLogMask method sets the output mask for the currently open log file.
 old-location: debugger\setlogmask.htm
 tech.root: debugger
-ms.assetid: 86c4e5ec-e893-4b1e-b397-6c51351df46c
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::SetLogMask"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetLogMask method, IDebugControl2 interface [Windows Debugging],SetLogMask method, IDebugControl2.SetLogMask, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging],SetLogMask method, IDebugControl3::SetLogMask, IDebugControl::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, SetLogMask, SetLogMask method [Windows Debugging], SetLogMask method [Windows Debugging],IDebugControl interface, SetLogMask method [Windows Debugging],IDebugControl2 interface, SetLogMask method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetLogMask, dbgeng/IDebugControl3::SetLogMask, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask

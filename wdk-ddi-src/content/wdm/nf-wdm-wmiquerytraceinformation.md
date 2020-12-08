@@ -4,7 +4,6 @@ title: WmiQueryTraceInformation function (wdm.h)
 description: The WmiQueryTraceInformation routine returns information about a WMI event trace.
 old-location: kernel\wmiquerytraceinformation.htm
 tech.root: kernel
-ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.date: 04/30/2018
 keywords: ["WmiQueryTraceInformation function"]
 ms.keywords: WmiQueryTraceInformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, kernel.wmiquerytraceinformation, wdm/WmiQueryTraceInformation

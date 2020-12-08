@@ -4,7 +4,6 @@ title: IMiniportWaveRTOutputStream (portcls.h)
 description: The IMiniportWaveRTOutputStream interface represents the output wave stream. IMiniportWaveRTOutputStream inherits from the IUnknown interface.
 old-location: audio\iminiportwavertoutputstream.htm
 tech.root: audio
-ms.assetid: 40210313-1216-4E1A-B696-B23D2ACED605
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTOutputStream interface"]
 ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices],described, audio.iminiportwavertoutputstream, portcls/IMiniportWaveRTOutputStream

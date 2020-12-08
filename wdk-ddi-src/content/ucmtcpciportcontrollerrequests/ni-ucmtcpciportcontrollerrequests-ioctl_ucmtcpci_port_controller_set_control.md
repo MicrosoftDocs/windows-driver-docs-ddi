@@ -4,7 +4,6 @@ title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL (ucmtcpciportcontrollerrequest
 description: Sets the value of a control register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_control.htm
 tech.root: usbref
-ms.assetid: F37BFBBE-B175-40AE-BE34-A4D6B00735D0
 ms.date: 05/07/2018
 keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL

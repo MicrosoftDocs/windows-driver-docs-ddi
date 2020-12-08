@@ -4,7 +4,6 @@ title: IOCTL_CDROM_GET_DRIVE_GEOMETRY (ntddcdrm.h)
 description: Returns information about the CD-ROM's geometry (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).
 old-location: storage\ioctl_cdrom_get_drive_geometry.htm
 tech.root: storage
-ms.assetid: ed9738cb-7016-417b-baae-b8d4242a384e
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_GET_DRIVE_GEOMETRY IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY, IOCTL_CDROM_GET_DRIVE_GEOMETRY control, IOCTL_CDROM_GET_DRIVE_GEOMETRY control code [Storage Devices], k307_f082c6e5-9d9a-4a11-a363-710f30cf3881.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY, storage.ioctl_cdrom_get_drive_geometry

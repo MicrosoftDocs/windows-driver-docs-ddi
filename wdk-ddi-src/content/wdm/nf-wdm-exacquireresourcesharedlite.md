@@ -4,7 +4,6 @@ title: ExAcquireResourceSharedLite function (wdm.h)
 description: The ExAcquireResourceSharedLite routine acquires the given resource for shared access by the calling thread.
 old-location: kernel\exacquireresourcesharedlite.htm
 tech.root: kernel
-ms.assetid: 5dfebc3f-77d2-4b35-83b2-b3729cc957f0
 ms.date: 04/30/2018
 keywords: ["ExAcquireResourceSharedLite function"]
 ms.keywords: ExAcquireResourceSharedLite, ExAcquireResourceSharedLite routine [Kernel-Mode Driver Architecture], k102_da765a3d-5d09-43da-98fe-48d4f7bccb9b.xml, kernel.exacquireresourcesharedlite, wdm/ExAcquireResourceSharedLite

@@ -4,7 +4,6 @@ title: IPrintSchemaTicket2 (printerextension.h)
 description: The IPrintSchemaTicket2 interface is an extension to the IPrintSchemaTicket interface, which provides wrapper methods over a print ticket document.
 old-location: print\iprintschematicket2.htm
 tech.root: print
-ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaTicket2 interface"]
 ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices],described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2

@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_QUERY_SERVICE_CALLBACKS
 title: EVT_TR_QUERY_SERVICE_CALLBACKS (trustedruntimeclx.h)
 description: 
-ms.assetid: 1c9369ed-3095-4119-a2ed-faa7cedd6d12
 ms.date: 11/20/2020
 keywords: ["EVT_TR_QUERY_SERVICE_CALLBACKS callback function"]
 req.header: trustedruntimeclx.h

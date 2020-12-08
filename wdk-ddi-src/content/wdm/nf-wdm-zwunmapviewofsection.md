@@ -4,7 +4,6 @@ title: ZwUnmapViewOfSection function (wdm.h)
 description: The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.
 old-location: kernel\zwunmapviewofsection.htm
 tech.root: kernel
-ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.date: 04/30/2018
 keywords: ["ZwUnmapViewOfSection function"]
 ms.keywords: NtUnmapViewOfSection, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture], k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, wdm/ZwUnmapViewOfSection

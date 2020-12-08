@@ -4,7 +4,6 @@ title: IOCTL_HID_GET_HARDWARE_ID (hidclass.h)
 description: The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection.
 old-location: hid\ioctl_hid_get_hardware_id.htm
 tech.root: hid
-ms.assetid: 33da3d63-0909-45fe-9a3b-d268b352231c
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_HARDWARE_ID IOCTL"]
 ms.keywords: IOCTL_HID_GET_HARDWARE_ID, IOCTL_HID_GET_HARDWARE_ID control, IOCTL_HID_GET_HARDWARE_ID control code [Human Input Devices], hid.ioctl_hid_get_hardware_id, hidclass/IOCTL_HID_GET_HARDWARE_ID, hidioreq_e5eb1673-bf55-451b-b8de-f8d735aa54eb.xml

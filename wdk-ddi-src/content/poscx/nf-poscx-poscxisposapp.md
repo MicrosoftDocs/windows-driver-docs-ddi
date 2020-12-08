@@ -4,7 +4,6 @@ title: PosCxIsPosApp function (poscx.h)
 description: PosCxIsPosApp checks if the open instance is associated with a point-of-service application.
 old-location: pos\poscxisposapp.htm
 tech.root: pos
-ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.date: 02/23/2018
 keywords: ["PosCxIsPosApp function"]
 ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp

@@ -2,7 +2,6 @@
 UID: NF:usbpmapi.UsbPm_RetrieveHubProperties
 title: UsbPm_RetrieveHubProperties function (usbpmapi.h)
 description: Retrieves the properties of a hub. Properties are static information that do not change during the lifecycle of a hub.
-ms.assetid: 341977b0-e13f-431e-8b11-5407662bdb8e
 ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveHubProperties function"]
 ms.keywords: UsbPm_RetrieveHubProperties

@@ -4,7 +4,6 @@ title: DRIVER_STARTIO (wdm.h)
 description: The StartIo routine starts the I/O operation described by an IRP.
 old-location: kernel\startio.htm
 tech.root: kernel
-ms.assetid: 86ec9f67-346d-4ace-8bf0-a15dd57f0a89
 ms.date: 04/30/2018
 keywords: ["DRIVER_STARTIO callback function"]
 ms.keywords: DRIVER_STARTIO, DrvrRtns_3227d9e5-10b6-449f-af47-48574e7a00d5.xml, StartIo, StartIo routine [Kernel-Mode Driver Architecture], kernel.startio, wdm/StartIo

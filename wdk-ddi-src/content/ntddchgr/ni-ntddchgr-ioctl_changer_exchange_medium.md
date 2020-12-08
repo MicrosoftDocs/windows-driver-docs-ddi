@@ -4,7 +4,6 @@ title: IOCTL_CHANGER_EXCHANGE_MEDIUM (ntddchgr.h)
 description: Moves a piece of media from a source element to one destination and the piece of media originally in the first destination to a second destination. The source and second destination are often the same, which essentially swaps the two pieces of media.
 old-location: storage\ioctl_changer_exchange_medium.htm
 tech.root: storage
-ms.assetid: 76f17ee0-5b81-4325-a295-4a6982b49b73
 ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL"]
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium

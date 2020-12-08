@@ -4,7 +4,6 @@ title: RILPARTICIPANTOPERATION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilparticipantoperation.htm
 tech.root: netvista
-ms.assetid: 0f59d104-ef86-4fed-9728-1a01ccb6f879
 ms.date: 05/02/2018
 keywords: ["RILPARTICIPANTOPERATION enumeration"]
 ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation, ntddrilapitypes/RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_MAX, ntddrilapitypes/RIL_PARTICIPANT_REMOVE

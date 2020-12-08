@@ -4,7 +4,6 @@ title: _ACPI_EVAL_OUTPUT_BUFFER_V2 (acpiioct.h)
 description: This topic describes the ACPI_EVAL_OUTPUT_BUFFER_V2 structure.
 old-location: acpi\acpi_eval_output_buffer_v2.htm
 tech.root: acpi
-ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_OUTPUT_BUFFER_V2 structure"]
 ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"

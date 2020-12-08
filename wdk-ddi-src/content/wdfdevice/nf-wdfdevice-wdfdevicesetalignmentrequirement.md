@@ -4,7 +4,6 @@ title: WdfDeviceSetAlignmentRequirement function (wdfdevice.h)
 description: The WdfDeviceSetAlignmentRequirement method registers the driver's preferred address alignment for the data buffers that the device uses during memory transfer operations.
 old-location: wdf\wdfdevicesetalignmentrequirement.htm
 tech.root: wdf
-ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
 ms.date: 02/26/2018
 keywords: ["WdfDeviceSetAlignmentRequirement function"]
 ms.keywords: DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, wdf.wdfdevicesetalignmentrequirement, wdfdevice/WdfDeviceSetAlignmentRequirement

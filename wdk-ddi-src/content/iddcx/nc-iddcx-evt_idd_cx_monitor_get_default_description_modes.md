@@ -4,7 +4,6 @@ title: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES (iddcx.h)
 description: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES is called by the OS to request the default monitor mode list from the driver for the specified monitor when a monitor without a description is connected.
 old-location: display\evt_idd_cx_monitor_get_default_description_modes.htm
 tech.root: display
-ms.assetid: 2ad45cfe-f65c-41bc-8c64-5334dbf7c755
 ms.date: 05/10/2018
 keywords: ["EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback, EvtIddCxMonitorGetDefaultDescriptionModes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_get_default_description_modes, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes

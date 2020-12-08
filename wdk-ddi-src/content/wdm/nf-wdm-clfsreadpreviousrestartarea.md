@@ -4,7 +4,6 @@ title: ClfsReadPreviousRestartArea function (wdm.h)
 description: The ClfsReadPreviousRestartArea routine reads the previous restart record relative to the current record in a read context.
 old-location: kernel\clfsreadpreviousrestartarea.htm
 tech.root: kernel
-ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.date: 04/30/2018
 keywords: ["ClfsReadPreviousRestartArea function"]
 ms.keywords: ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, kernel.clfsreadpreviousrestartarea, wdm/ClfsReadPreviousRestartArea

@@ -4,7 +4,6 @@ title: ExtRemoteTyped::GetFieldOffset (engextcpp.h)
 description: The GetFieldOffset method returns the offset of a member from the base address of an instance of the type that is represented by this object.
 old-location: debugger\extremotetyped_getfieldoffset.htm
 tech.root: debugger
-ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::GetFieldOffset"]
 ms.keywords: EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped interface [Windows Debugging],GetFieldOffset method, ExtRemoteTyped.GetFieldOffset, ExtRemoteTyped::GetFieldOffset, GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_getfieldoffset

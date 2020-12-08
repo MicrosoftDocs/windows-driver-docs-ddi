@@ -4,7 +4,6 @@ title: WdfUsbTargetPipeReadSynchronously function (wdfusb.h)
 description: The WdfUsbTargetPipeReadSynchronously method builds a read request and sends it synchronously to a specified USB input pipe.
 old-location: wdf\wdfusbtargetpipereadsynchronously.htm
 tech.root: wdf
-ms.assetid: e09f68bd-cd43-42ce-988e-505415d62891
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeReadSynchronously function"]
 ms.keywords: DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, kmdf.wdfusbtargetpipereadsynchronously, wdf.wdfusbtargetpipereadsynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously

@@ -3,7 +3,6 @@ UID: NF:netadapter.NetAdapterPowerOffloadSetArpCapabilities
 title: NetAdapterPowerOffloadSetArpCapabilities function (netadapter.h)
 description: The NetAdapterPowerOffloadSetArpCapabilities function sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
 tech.root: netvista
-ms.assetid: 213f7654-fb2a-4160-b1db-3d36d8e119f2
 ms.date: 10/22/2019
 keywords: ["NetAdapterPowerOffloadSetArpCapabilities function"]
 ms.keywords: NetAdapterPowerOffloadSetArpCapabilities

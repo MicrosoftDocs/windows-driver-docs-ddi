@@ -4,7 +4,6 @@ title: RtlSetAllBits function (wdm.h)
 description: The RtlSetAllBits routine sets all bits in a given bitmap variable.
 old-location: kernel\rtlsetallbits.htm
 tech.root: kernel
-ms.assetid: a379a910-4712-4d77-af52-614a1b9cc511
 ms.date: 04/30/2018
 keywords: ["RtlSetAllBits function"]
 ms.keywords: RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, kernel.rtlsetallbits, wdm/RtlSetAllBits

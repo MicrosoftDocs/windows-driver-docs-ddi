@@ -4,7 +4,6 @@ title: RxDereferenceAndDeleteRxContext_Real function (rxcontx.h)
 description: RxDereferenceAndDeleteRxContext_Real dereferences an RX_CONTEXT data structure and if the ReferenceCount member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures.
 old-location: ifsk\rxdereferenceanddeleterxcontext_real.htm
 tech.root: ifsk
-ms.assetid: a2a2bb57-6f5c-4bc9-8564-ab0db2efd872
 ms.date: 04/16/2018
 keywords: ["RxDereferenceAndDeleteRxContext_Real function"]
 ms.keywords: RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml

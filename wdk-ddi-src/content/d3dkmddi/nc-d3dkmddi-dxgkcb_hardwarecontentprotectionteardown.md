@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN
 title: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN (d3dkmddi.h)
 description: DxgkCbHardwareContentProtectionTeardown is used to indicate when a hardware content protection event occurs.
 old-location: display\dxgkcbhardwarecontentprotectionteardown.htm
-ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
 ms.date: 05/10/2018
 keywords: ["DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback function"]
 ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown

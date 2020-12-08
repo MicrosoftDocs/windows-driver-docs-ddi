@@ -4,7 +4,6 @@ title: _DXGKMDT_OPM_OMAC (d3dkmdt.h)
 description: The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity.
 old-location: display\dxgkmdt_opm_omac.htm
 tech.root: display
-ms.assetid: caa64a32-3772-45b5-898a-78dc51b7f24b
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_OMAC structure"]
 ms.keywords: "*PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC structure [Display Devices], DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, PDXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac"

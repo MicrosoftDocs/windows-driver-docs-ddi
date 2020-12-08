@@ -4,7 +4,6 @@ title: _FILE_PIPE_LOCAL_INFORMATION (ntifs.h)
 description: The FILE_PIPE_LOCAL_INFORMATION structure contains information about the local end of a named pipe.
 old-location: ifsk\file_pipe_local_information.htm
 tech.root: ifsk
-ms.assetid: 7ca66b75-e5ff-46a6-8a40-47aa53bf0f6f
 ms.date: 04/16/2018
 keywords: ["FILE_PIPE_LOCAL_INFORMATION structure"]
 ms.keywords: "*PFILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_LOCAL_INFORMATION, PFILE_PIPE_LOCAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_LOCAL_INFORMATION, ifsk.file_pipe_local_information, ntifs/FILE_PIPE_LOCAL_INFORMATION, ntifs/PFILE_PIPE_LOCAL_INFORMATION"

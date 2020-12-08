@@ -4,7 +4,6 @@ title: IOCTL_DISK_GET_DRIVE_LAYOUT (ntdddisk.h)
 description: Returns information about the number of partitions, disk signature, and features of each partition on a disk. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_drive_layout.htm
 tech.root: storage
-ms.assetid: f3f78e70-1111-41a1-af12-1f57055d0ca1
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT IOCTL"]
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Storage Devices], k307_85ebcb24-3ad1-4961-bc03-d32faf9fa0fd.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT, storage.ioctl_disk_get_drive_layout

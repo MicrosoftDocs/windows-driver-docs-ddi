@@ -4,7 +4,6 @@ title: VideoPortAcquireSpinLock function (video.h)
 description: The VideoPortAcquireSpinLock function obtains the specified spin lock.
 old-location: display\videoportacquirespinlock.htm
 tech.root: display
-ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.date: 05/10/2018
 keywords: ["VideoPortAcquireSpinLock function"]
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock

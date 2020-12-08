@@ -4,7 +4,6 @@ title: SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function (sercx.h)
 description: The SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function initializes a SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure.
 old-location: serports\sercx2_system_dma_transmit_config_init.htm
 tech.root: serports
-ms.assetid: B65CE818-9D92-441B-AF98-1DE51DEEF3D5
 ms.date: 04/23/2018
 keywords: ["SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_system_dma_transmit_config_init

@@ -2,7 +2,6 @@
 UID: NE:acpitabl._ACPI_PLD_ROTATION
 title: _ACPI_PLD_ROTATION enumeration (acpitabl.h)
 description: Describes rotation bits 115:118.
-ms.assetid: aac7540e-8bb2-4208-b917-ebdc74ff170a
 ms.date: 11/19/2020
 keywords: ["ACPI_PLD_ROTATION enumeration"]
 ms.keywords: _ACPI_PLD_ROTATION, ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION, AcpiPldRotation

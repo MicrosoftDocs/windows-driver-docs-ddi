@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO (d3dkmddi.h)
 description: The pfnAcquireNextPathInfo function returns a descriptor of the next video present path in a specified VidPN topology, given the current path.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirenextpathinfo.htm
-ms.assetid: 9f09ac0e-057c-48fb-a246-35e8ed7ddfc2
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO callback, VidPnFunctions_c06f9c56-bcfd-49a8-a723-4166d7f5129f.xml, d3dkmddi/pfnAcquireNextPathInfo, display.dxgk_vidpntopology_interface_pfnacquirenextpathinfo, pfnAcquireNextPathInfo, pfnAcquireNextPathInfo callback function [Display Devices]

@@ -4,7 +4,6 @@ title: FsRtlFindExtraCreateParameter function (ntifs.h)
 description: The FsRtlFindExtraCreateParameter routine searches a given ECP list for an ECP context structure of a given type and returns a pointer to this structure if it is found.
 old-location: ifsk\fsrtlfindextracreateparameter.htm
 tech.root: ifsk
-ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
 ms.date: 04/16/2018
 keywords: ["FsRtlFindExtraCreateParameter function"]
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter

@@ -4,7 +4,6 @@ title: _STOR_ADDRESS (scsi.h)
 description: A general structure for holding a storage device address.
 old-location: storage\stor_address.htm
 tech.root: storage
-ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.date: 03/29/2018
 keywords: ["STOR_ADDRESS structure"]
 ms.keywords: "*PSTOR_ADDRESS, PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, storport/STOR_ADDRESS"

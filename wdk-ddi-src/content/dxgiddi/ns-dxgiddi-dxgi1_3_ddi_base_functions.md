@@ -4,7 +4,6 @@ title: DXGI1_3_DDI_BASE_FUNCTIONS (dxgiddi.h)
 description: Contains pointers to functions that a Windows Display Driver Model (WDDM) 1.3 and later user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and Windows Graphics Device Interface (GDI) interoperable surfaces, and managing a full-screen transition.
 old-location: display\dxgi1_3_ddi_base_functions.htm
 tech.root: display
-ms.assetid: F857BA54-A572-4376-83F3-573F90033261
 ms.date: 05/10/2018
 keywords: ["DXGI1_3_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_3_ddi_base_functions, dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS

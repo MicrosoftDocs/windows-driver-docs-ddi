@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTSetDeviceLostSupport
 title: D3DKMTSetDeviceLostSupport function (d3dkmthk.h)
 description: Used to indicate that the device has lost support.
 old-location: display\d3dkmtsetdevicelostsupport.htm
-ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetDeviceLostSupport function"]
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport

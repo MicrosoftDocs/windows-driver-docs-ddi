@@ -4,7 +4,6 @@ title: _WINBIO_SUPPORTED_ALGORITHMS (winbio_ioctl.h)
 description: The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS.
 old-location: biometric\winbio_supported_algorithms.htm
 tech.root: biometric
-ms.assetid: cb2236f6-409a-4352-a02b-f7763e986d1f
 ms.date: 02/20/2018
 keywords: ["WINBIO_SUPPORTED_ALGORITHMS structure"]
 ms.keywords: "*PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS structure pointer [Biometric Devices], WINBIO_SUPPORTED_ALGORITHMS, WINBIO_SUPPORTED_ALGORITHMS structure [Biometric Devices], _WINBIO_SUPPORTED_ALGORITHMS, biometric.winbio_supported_algorithms, biometric_ref_44bbda1a-1b9b-42d3-9034-9d0c3c4bac88.xml, winbio_ioctl/PWINBIO_SUPPORTED_ALGORITHMS, winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS"

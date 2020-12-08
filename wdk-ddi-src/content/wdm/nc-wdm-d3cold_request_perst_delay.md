@@ -3,7 +3,6 @@ UID: NC:wdm.D3COLD_REQUEST_PERST_DELAY
 title: D3COLD_REQUEST_PERST_DELAY (wdm.h)
 description: Enables the function device object (FDO) to convey its requirement for a fixed delay time.
 tech.root: kernel
-ms.assetid: c81274ad-e9e9-4ad2-a6e0-fac03e792071
 ms.date: 10/19/2018
 keywords: ["D3COLD_REQUEST_PERST_DELAY callback function"]
 req.header: wdm.h

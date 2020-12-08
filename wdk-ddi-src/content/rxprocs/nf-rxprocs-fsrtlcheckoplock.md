@@ -4,7 +4,6 @@ title: FsRtlCheckOplock macro (rxprocs.h)
 description: The FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fsrtlcheckoplock.htm
 tech.root: ifsk
-ms.assetid: e1430ef2-fb94-4f0d-bdc8-59b423fe9c8c
 ms.date: 04/16/2018
 keywords: ["FsRtlCheckOplock macro"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock

@@ -4,7 +4,6 @@ title: NtSetInformationTransaction function (wdm.h)
 description: The ZwSetInformationTransaction routine sets information for a specified transaction.
 old-location: kernel\zwsetinformationtransaction.htm
 tech.root: kernel
-ms.assetid: 47e729d8-241e-47f0-a595-d95c5ac516a4
 ms.date: 04/30/2018
 keywords: ["NtSetInformationTransaction function"]
 ms.keywords: NtSetInformationTransaction, ZwSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, wdm/ZwSetInformationTransaction

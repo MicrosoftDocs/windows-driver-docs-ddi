@@ -4,7 +4,6 @@ title: DXGK_BRIGHTNESS_GET_CAPS (dispmprt.h)
 description: Retrieves brightness control capabilities of an integrated display panel.
 old-location: display\dxgkddigetbrightnesscaps.htm
 tech.root: display
-ms.assetid: 3418dd2b-63cb-411f-9bae-390148885907
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_GET_CAPS callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DXGK_BRIGHTNESS_GET_CAPS callback, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps

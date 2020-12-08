@@ -4,7 +4,6 @@ title: IsListEmpty function (wdm.h)
 description: The IsListEmpty routine indicates whether a doubly linked list of LIST_ENTRY structures is empty.
 old-location: kernel\islistempty.htm
 tech.root: kernel
-ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.date: 04/30/2018
 keywords: ["IsListEmpty function"]
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty

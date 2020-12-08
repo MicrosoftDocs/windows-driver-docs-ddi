@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_GEOMETRY_FLAGS
 title: D3D12DDI_RAYTRACING_GEOMETRY_FLAGS (d3d12umddi.h)
 description: Specifies the ray tracing geometry flags.
-ms.assetid: cc2f1309-40c0-41de-af55-8265581794da
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RAYTRACING_GEOMETRY_FLAGS enumeration"]
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_FLAGS, D3D12DDI_RAYTRACING_GEOMETRY_FLAGS,

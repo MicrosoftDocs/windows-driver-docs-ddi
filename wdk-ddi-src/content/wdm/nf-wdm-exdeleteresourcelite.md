@@ -4,7 +4,6 @@ title: ExDeleteResourceLite function (wdm.h)
 description: The ExDeleteResourceLite routine deletes a given resource from the system's resource list.
 old-location: kernel\exdeleteresourcelite.htm
 tech.root: kernel
-ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
 ms.date: 04/30/2018
 keywords: ["ExDeleteResourceLite function"]
 ms.keywords: ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, wdm/ExDeleteResourceLite

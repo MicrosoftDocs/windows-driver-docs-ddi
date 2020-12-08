@@ -4,7 +4,6 @@ title: FwpmEngineClose0 function (fwpmk.h)
 description: The FwpmEngineClose0 function closes a previously opened session to the filter engine.Note  FwpmEngineClose0 is a specific version of FwpmEngineClose.
 old-location: netvista\fwpmengineclose0.htm
 tech.root: netvista
-ms.assetid: 79ac01ff-9976-4321-a6b1-0a1cc6e5810a
 ms.date: 05/02/2018
 keywords: ["FwpmEngineClose0 function"]
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml

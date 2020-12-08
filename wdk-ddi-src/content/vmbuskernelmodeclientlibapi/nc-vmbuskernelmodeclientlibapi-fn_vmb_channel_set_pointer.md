@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SET_POINTER
 title: FN_VMB_CHANNEL_SET_POINTER (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSetPointer function saves an arbitrary pointer in a channel context.
 tech.root: netvista
-ms.assetid: aa582790-1277-4516-89fb-bff16ed3b8e7
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_POINTER callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

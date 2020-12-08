@@ -4,7 +4,6 @@ title: PMI_EVENT_TYPE (pmi.h)
 description: The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an IOCTL_PMI_REGISTER_EVENT_NOTIFY request.
 old-location: powermeter\pmi_event_type.htm
 tech.root: powermeter
-ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.date: 05/08/2018
 keywords: ["PMI_EVENT_TYPE enumeration"]
 ms.keywords: PMI_EVENT_TYPE, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiAveragingIntervalChangedEvent, PmiBudgetEvent, PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PmiEventMax, PmiThresholdEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PMI_EVENT_TYPE, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiBudgetEvent, pmi/PmiCapabilitiesChangedEvent, pmi/PmiConfigurationChangedEvent, pmi/PmiEventMax, pmi/PmiThresholdEvent, powermeter.pmi_event_type

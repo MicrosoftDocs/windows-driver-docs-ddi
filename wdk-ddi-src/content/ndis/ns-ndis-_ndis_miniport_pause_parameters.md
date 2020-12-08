@@ -4,7 +4,6 @@ title: _NDIS_MINIPORT_PAUSE_PARAMETERS (ndis.h)
 description: The NDIS_MINIPORT_PAUSE_PARAMETERS structure defines pause parameters for miniport adapters.
 old-location: netvista\ndis_miniport_pause_parameters.htm
 tech.root: netvista
-ms.assetid: 2d442ff7-37dd-4288-aadf-1ae04f98364c
 ms.date: 10/10/2018
 keywords: ["NDIS_MINIPORT_PAUSE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_PAUSE_PARAMETERS, NDIS_MINIPORT_PAUSE_PARAMETERS, NDIS_MINIPORT_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_PAUSE_PARAMETERS, PNDIS_MINIPORT_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_PAUSE_PARAMETERS, miniport_structures_ref_cd7d1bc3-5c65-45c5-8e45-f23619dafff8.xml, ndis/NDIS_MINIPORT_PAUSE_PARAMETERS, ndis/PNDIS_MINIPORT_PAUSE_PARAMETERS, netvista.ndis_miniport_pause_parameters"

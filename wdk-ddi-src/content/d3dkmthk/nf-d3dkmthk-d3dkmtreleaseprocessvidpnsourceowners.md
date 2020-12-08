@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTReleaseProcessVidPnSourceOwners
 title: D3DKMTReleaseProcessVidPnSourceOwners function (d3dkmthk.h)
 description: The D3DKMTReleaseProcessVidPnSourceOwners function releases the video present network source owners for a process.
 old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
-ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.date: 05/10/2018
 keywords: ["D3DKMTReleaseProcessVidPnSourceOwners function"]
 ms.keywords: D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners

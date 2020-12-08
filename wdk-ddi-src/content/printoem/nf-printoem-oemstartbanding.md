@@ -4,7 +4,6 @@ title: OEMStartBanding function (printoem.h)
 description: The OEMStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
 old-location: print\oemstartbanding.htm
 tech.root: print
-ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 ms.date: 04/20/2018
 keywords: ["OEMStartBanding function"]
 ms.keywords: OEMStartBanding, OEMStartBanding function [Print Devices], print.oemstartbanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, printoem/OEMStartBanding

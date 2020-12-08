@@ -4,7 +4,6 @@ title: _DOT11_PORT_STATE (wlclient.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_port_state.htm
 tech.root: netvista
-ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.date: 02/16/2018
 keywords: ["DOT11_PORT_STATE structure"]
 ms.keywords: "*PDOT11_PORT_STATE, DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, PDOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE"

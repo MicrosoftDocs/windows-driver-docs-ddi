@@ -4,7 +4,6 @@ title: _D3DHAL_DP2CREATEVERTEXSHADER (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2CRED3dDrawPrimitives2ATEVERTEXSHADER structure is used to create a vertex shader when a D3DDP2OP_CREATEVERTEXSHADER opcode is received by .
 old-location: display\d3dhal_dp2createvertexshader.htm
 tech.root: display
-ms.assetid: 41bea2bd-2b4d-467f-bb47-19b0b9f7ff6b
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2CREATEVERTEXSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, display.d3dhal_dp2createvertexshader"

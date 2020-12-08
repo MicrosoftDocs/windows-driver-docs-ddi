@@ -4,7 +4,6 @@ title: IoCreateStreamFileObjectEx function (ntifs.h)
 description: The IoCreateStreamFileObjectEx routine creates a new stream file object.
 old-location: ifsk\iocreatestreamfileobjectex.htm
 tech.root: ifsk
-ms.assetid: 1ecf4536-9669-4437-8919-3c7b0e4a9183
 ms.date: 04/16/2018
 keywords: ["IoCreateStreamFileObjectEx function"]
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ntifs/IoCreateStreamFileObjectEx

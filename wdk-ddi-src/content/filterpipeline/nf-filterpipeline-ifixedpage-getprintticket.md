@@ -4,7 +4,6 @@ title: IFixedPage::GetPrintTicket (filterpipeline.h)
 description: The GetPrintTicket method gets the print ticket object for the fixed page.
 old-location: print\ifixedpage_getprintticket.htm
 tech.root: print
-ms.assetid: 4a30efd9-8fef-4fef-8293-b7df5b954977
 ms.date: 04/20/2018
 keywords: ["IFixedPage::GetPrintTicket"]
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetPrintTicket method, IFixedPage.GetPrintTicket, IFixedPage::GetPrintTicket, filterpipeline/IFixedPage::GetPrintTicket, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, print.ifixedpage_getprintticket

@@ -4,7 +4,6 @@ title: FsRtlNormalizeNtstatus function (ntifs.h)
 description: The FsRtlNormalizeNtstatus routine translates an arbitrary exception into a status value that is handled by the exception filter.
 old-location: ifsk\fsrtlnormalizentstatus.htm
 tech.root: ifsk
-ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.date: 04/16/2018
 keywords: ["FsRtlNormalizeNtstatus function"]
 ms.keywords: FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, ifsk.fsrtlnormalizentstatus, ntifs/FsRtlNormalizeNtstatus

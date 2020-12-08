@@ -4,7 +4,6 @@ title: _D3DDDIARG_LOCK (d3dumddi.h)
 description: The D3DDDIARG_LOCK structure describes a resource or a surface within the resource to lock.
 old-location: display\d3dddiarg_lock.htm
 tech.root: display
-ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_LOCK structure"]
 ms.keywords: D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock

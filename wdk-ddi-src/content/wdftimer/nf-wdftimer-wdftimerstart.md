@@ -4,7 +4,6 @@ title: WdfTimerStart function (wdftimer.h)
 description: The WdfTimerStart method starts a timer's clock.
 old-location: wdf\wdftimerstart.htm
 tech.root: wdf
-ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.date: 02/26/2018
 keywords: ["WdfTimerStart function"]
 ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart

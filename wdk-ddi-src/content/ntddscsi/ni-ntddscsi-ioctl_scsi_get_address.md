@@ -4,7 +4,6 @@ title: IOCTL_SCSI_GET_ADDRESS (ntddscsi.h)
 description: Returns the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.
 old-location: storage\ioctl_scsi_get_address.htm
 tech.root: storage
-ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
 ms.date: 11/07/2019
 keywords: ["IOCTL_SCSI_GET_ADDRESS IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address

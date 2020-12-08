@@ -4,7 +4,6 @@ title: _SCSI_BUS_DATA (ntddscsi.h)
 description: The SCSI_BUS_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request and the SCSI_ADAPTER_BUS_INFO structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_bus_data.htm
 tech.root: storage
-ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.date: 03/29/2018
 keywords: ["SCSI_BUS_DATA structure"]
 ms.keywords: "*PSCSI_BUS_DATA, PSCSI_BUS_DATA, PSCSI_BUS_DATA structure pointer [Storage Devices], SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], _SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, ntddscsi/SCSI_BUS_DATA, storage.scsi_bus_data, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml"

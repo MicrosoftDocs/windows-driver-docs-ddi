@@ -2,7 +2,6 @@
 UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireSystemBuffer
 title: IddCxSwapChainReleaseAndAcquireSystemBuffer
 ms.date: 10/20/2020
-ms.assetid: 21034f7b-ba2a-44d3-89c6-1e2162dc1771
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

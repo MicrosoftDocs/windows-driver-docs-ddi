@@ -4,7 +4,6 @@ title: PFND3DDDI_DEPTHFILL (d3dumddi.h)
 description: The DepthFill function fills a depth buffer with a pixel value that is specified in native format.
 old-location: display\depthfill.htm
 tech.root: display
-ms.assetid: fc889cc0-d71d-4a81-8fa5-894c676ac110
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DEPTHFILL callback function"]
 ms.keywords: DepthFill, DepthFill callback function [Display Devices], PFND3DDDI_DEPTHFILL, PFND3DDDI_DEPTHFILL callback, UserModeDisplayDriver_Functions_4f8a5911-1ed4-439f-b629-d267161c4ea9.xml, d3dumddi/DepthFill, display.depthfill

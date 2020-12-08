@@ -4,7 +4,6 @@ title: IMiniportWaveRTOutputStream::SetWritePacket (portcls.h)
 description: SetWritePacket informs the driver that the OS has written valid data to the WaveRT buffer.
 old-location: audio\iminiportwavertoutputstream_setwritepacket.htm
 tech.root: audio
-ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTOutputStream::SetWritePacket"]
 ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices],SetWritePacket method, IMiniportWaveRTOutputStream.SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices],IMiniportWaveRTOutputStream interface, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket

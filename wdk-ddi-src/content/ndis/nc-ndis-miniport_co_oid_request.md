@@ -4,7 +4,6 @@ title: MINIPORT_CO_OID_REQUEST (ndis.h)
 description: The MiniportCoOidRequest function handles an OID request to query or set information in CoNDIS miniport driver.Note  You must declare the function by using the MINIPORT_CO_OID_REQUEST type.
 old-location: netvista\miniportcooidrequest.htm
 tech.root: netvista
-ms.assetid: 903bcdc5-9d42-4067-a054-057edc95ccf7
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CO_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_CO_OID_REQUEST, MINIPORT_CO_OID_REQUEST callback, MiniportCoOidRequest, MiniportCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_fff124d4-8671-441b-817f-30b4275dca68.xml, ndis/MiniportCoOidRequest, netvista.miniportcooidrequest

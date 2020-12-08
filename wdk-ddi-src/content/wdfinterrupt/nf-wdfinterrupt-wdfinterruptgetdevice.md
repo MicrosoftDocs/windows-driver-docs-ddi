@@ -4,7 +4,6 @@ title: WdfInterruptGetDevice function (wdfinterrupt.h)
 description: The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object.
 old-location: wdf\wdfinterruptgetdevice.htm
 tech.root: wdf
-ms.assetid: c1e7a9ce-5794-4ed0-bb30-e3e68b0251db
 ms.date: 02/26/2018
 keywords: ["WdfInterruptGetDevice function"]
 ms.keywords: DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice, WdfInterruptGetDevice method, kmdf.wdfinterruptgetdevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice

@@ -4,7 +4,6 @@ title: _DEVICE_RESET_INTERFACE_STANDARD (wdm.h)
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_interface_standard.htm
 tech.root: kernel
-ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.date: 11/15/2018
 keywords: ["DEVICE_RESET_INTERFACE_STANDARD structure"]
 ms.keywords: "*PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD"

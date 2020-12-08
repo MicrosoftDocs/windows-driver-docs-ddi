@@ -4,7 +4,6 @@ title: _D3DDDI_RESOURCEFLAGS2 (d3dukmdt.h)
 description: Identifies the type of resource to create in a call to the driver's CreateResource2 function.
 old-location: display\d3dddi_resourceflags2.htm
 tech.root: display
-ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.date: 05/10/2018
 keywords: ["D3DDDI_RESOURCEFLAGS2 structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2

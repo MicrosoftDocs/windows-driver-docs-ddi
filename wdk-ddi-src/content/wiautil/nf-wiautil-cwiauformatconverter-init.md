@@ -4,7 +4,6 @@ title: CWiauFormatConverter::Init (wiautil.h)
 description: The CWiauFormatConverter::Init method initializes the CWiauFormatConverter class and GDI+ for converting images. This method should be called only once.
 old-location: image\cwiauformatconverter_init.htm
 tech.root: image
-ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.date: 05/03/2018
 keywords: ["CWiauFormatConverter::Init"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],Init method, CWiauFormatConverter.Init, CWiauFormatConverter::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init

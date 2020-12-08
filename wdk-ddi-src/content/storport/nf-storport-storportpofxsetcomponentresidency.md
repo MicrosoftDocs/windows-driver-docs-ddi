@@ -4,7 +4,6 @@ title: StorPortPoFxSetComponentResidency function (storport.h)
 description: The StorPortPoFxSetComponentResidency routine sets the estimated time for how long a storage device component is likely to remain idle after the component enters the idle condition.
 old-location: storage\storportpofxsetcomponentresidency.htm
 tech.root: storage
-ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.date: 03/29/2018
 keywords: ["StorPortPoFxSetComponentResidency function"]
 ms.keywords: StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, storport/StorPortPoFxSetComponentResidency

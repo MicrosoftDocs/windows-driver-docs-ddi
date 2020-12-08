@@ -4,7 +4,6 @@ title: _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS (d3dukmdt.h)
 description: Identifies attributes of a synchronization object.
 old-location: display\d3dddi_synchronizationobject_flags.htm
 tech.root: display
-ms.assetid: 57e5ea18-ccdd-40a7-9ff5-4d6b94908e7c
 ms.date: 05/10/2018
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags

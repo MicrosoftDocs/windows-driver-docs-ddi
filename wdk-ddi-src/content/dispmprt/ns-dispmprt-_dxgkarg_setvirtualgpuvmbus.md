@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_SETVIRTUALGPUVMBUS
 title: _DXGKARG_SETVIRTUALGPUVMBUS
 description: Arguments used to pass a kernel mode virtual memory bus handle to the KMD.
 tech.root: display
-ms.assetid: b2cc929e-16bd-4d57-8264-e15cdd988bdb
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPUVMBUS structure"]
 ms.prod: windows-hardware

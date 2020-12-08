@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_DXIL_LIBRARY_DESC_0054
 title: D3D12DDI_DXIL_LIBRARY_DESC_0054 (d3d12umddi.h)
 description: Describes the DXIL (DirectX Intermediate Language) library.
-ms.assetid: d7d1d64d-749e-4d97-a98c-6b6fc7dcfd7f
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_DXIL_LIBRARY_DESC_0054 structure"]
 ms.keywords: D3D12DDI_DXIL_LIBRARY_DESC_0054, D3D12DDI_DXIL_LIBRARY_DESC_0054,

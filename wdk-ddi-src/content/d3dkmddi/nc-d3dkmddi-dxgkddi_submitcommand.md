@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_SUBMITCOMMAND
 title: DXGKDDI_SUBMITCOMMAND (d3dkmddi.h)
 description: The DxgkDdiSubmitCommand function submits a direct memory access (DMA) buffer to the hardware command execution unit.
 old-location: display\dxgkddisubmitcommand.htm
-ms.assetid: de1925ab-e444-4cf6-acd9-8fdab26afcec
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_SUBMITCOMMAND callback function"]
 ms.keywords: DXGKDDI_SUBMITCOMMAND, DXGKDDI_SUBMITCOMMAND callback, DmFunctions_c23ba706-a779-4a0d-9977-1f99cecb5217.xml, DxgkDdiSubmitCommand, DxgkDdiSubmitCommand callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommand, display.dxgkddisubmitcommand

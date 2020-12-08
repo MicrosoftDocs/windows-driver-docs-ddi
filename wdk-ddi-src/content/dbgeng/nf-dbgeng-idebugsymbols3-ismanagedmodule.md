@@ -4,7 +4,6 @@ title: IDebugSymbols3::IsManagedModule (dbgeng.h)
 description: Checks whether the engine is using managed debugging support when it retrieves information for a module.
 old-location: debugger\idebugsymbols3_ismanagedmodule.htm
 tech.root: debugger
-ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::IsManagedModule"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],IsManagedModule method, IDebugSymbols3.IsManagedModule, IDebugSymbols3::IsManagedModule, IsManagedModule, IsManagedModule method [Windows Debugging], IsManagedModule method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::IsManagedModule, debugger.idebugsymbols3_ismanagedmodule

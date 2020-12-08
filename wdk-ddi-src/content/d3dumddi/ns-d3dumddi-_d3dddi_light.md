@@ -4,7 +4,6 @@ title: _D3DDDI_LIGHT (d3dumddi.h)
 description: The D3DDDI_LIGHT structure describes a set of lighting properties.
 old-location: display\d3dddi_light.htm
 tech.root: display
-ms.assetid: 53204334-bf91-46ad-93cc-84a4ec17ae54
 ms.date: 05/10/2018
 keywords: ["D3DDDI_LIGHT structure"]
 ms.keywords: D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, _D3DDDI_LIGHT, d3dumddi/D3DDDI_LIGHT, display.d3dddi_light

@@ -4,7 +4,6 @@ title: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function (ucxcontroller.h)
 description: Initializes a UCX_CONTROLLER_CONFIG structure with the specified values for the controller with ACPI as the parent.
 old-location: buses\_ucx_controller_config_set_acpi_info.htm
 tech.root: usbref
-ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.date: 05/07/2018
 keywords: ["UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function"]
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO

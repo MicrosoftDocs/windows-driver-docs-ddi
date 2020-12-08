@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_RENDER
 title: DXGKDDI_RENDER (d3dkmddi.h)
 description: The DxgkDdiRender function generates a direct memory access (DMA) buffer from the command buffer that the user-mode display driver passed.
 old-location: display\dxgkddirender.htm
-ms.assetid: fd634768-5e1e-4f40-82fd-5ef69148c3d7
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_RENDER callback function"]
 ms.keywords: DXGKDDI_RENDER, DXGKDDI_RENDER callback, DmFunctions_e6f475cd-e097-4ea7-9f66-9e0b2d78d46b.xml, DxgkDdiRender, DxgkDdiRender callback function [Display Devices], d3dkmddi/DxgkDdiRender, display.dxgkddirender

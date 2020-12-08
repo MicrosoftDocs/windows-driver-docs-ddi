@@ -4,7 +4,6 @@ title: IPrinterPropertyBag::SetBytes (printerextension.h)
 description: Writes a byte array property.
 old-location: print\iprinterpropertybag_setbytes.htm
 tech.root: print
-ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.date: 04/20/2018
 keywords: ["IPrinterPropertyBag::SetBytes"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes

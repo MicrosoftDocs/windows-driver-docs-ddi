@@ -3,7 +3,6 @@ UID: NF:ntddndis.NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER
 title: NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER macro to access the custom extensible switch property buffer inside an NDIS_SWITCH_PROPERTY_CUSTOM structure.
 tech.root: netvista
-ms.assetid: b4581a05-fdc8-446a-b6d3-05d02a1f48c8
 ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER macro"]
 ms.keywords: NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER

@@ -4,7 +4,6 @@ title: IDDCX_ENDPOINT_VERSION (iddcx.h)
 description: Gives version information about the video data endpoint.
 old-location: display\iddcx_endpoint_version.htm
 tech.root: display
-ms.assetid: ad6220e3-9b6a-4a46-978b-31edfb2c8b9b
 ms.date: 05/10/2018
 keywords: ["IDDCX_ENDPOINT_VERSION structure"]
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION

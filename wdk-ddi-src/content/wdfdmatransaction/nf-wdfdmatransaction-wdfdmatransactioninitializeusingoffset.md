@@ -4,7 +4,6 @@ title: WdfDmaTransactionInitializeUsingOffset function (wdfdmatransaction.h)
 description: The WdfDmaTransactionInitializeUsingOffset method initializes a specified DMA transaction by using a byte offset into an MDL chain.
 old-location: wdf\wdfdmatransactioninitializeusingoffset.htm
 tech.root: wdf
-ms.assetid: 896343A8-0C72-47D4-8465-A029EDCD66A0
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionInitializeUsingOffset function"]
 ms.keywords: WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset method, kmdf.wdfdmatransactioninitializeusingoffset, wdf.wdfdmatransactioninitializeusingoffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset

@@ -4,7 +4,6 @@ title: GNSS_EVENT (gnssdriver.h)
 description: This structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm
 tech.root: gnss
-ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.date: 02/15/2018
 keywords: ["GNSS_EVENT structure"]
 ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"

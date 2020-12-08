@@ -4,7 +4,6 @@ title: _WWAN_SLOT_INFO (wwan.h)
 description: The WWAN_SLOT_INFO structure represents the status of a specific SIM card slot on the modem.
 old-location: netvista\wwan_slot_info_status.htm
 tech.root: netvista
-ms.assetid: F45D253E-E7D7-4600-AF8C-6D4EB096030D
 ms.date: 05/02/2018
 keywords: ["WWAN_SLOT_INFO structure"]
 ms.keywords: "*PWWAN_SLOT_INFO, PWWAN_SLOT_INFO, PWWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_SLOT_INFO, WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_SLOT_INFO, netvista.wwan_slot_info_status, wwan/PWWAN_SLOT_INFO, wwan/WWAN_SLOT_INFO"

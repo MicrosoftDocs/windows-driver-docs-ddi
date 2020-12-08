@@ -4,7 +4,6 @@ title: GPIO_CLIENT_READ_PINS (gpioclx.h)
 description: The CLIENT_ReadGpioPins event callback function reads a set of general-purpose I/O (GPIO) pins that are configured as data inputs.
 old-location: gpio\client_readgpiopins.htm
 tech.root: GPIO
-ms.assetid: FE1AB8D5-DEA7-47BE-921E-BB33BBB61AC9
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_READ_PINS callback function"]
 ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins

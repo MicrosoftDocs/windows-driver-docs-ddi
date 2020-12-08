@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 (d3dkmthk.h)
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 callback function is used to signal a monitored fence.
-ms.assetid: f37d2a36-680a-43b7-84f5-8ce2b23b609e
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 callback function"]
 req.header: d3dkmthk.h

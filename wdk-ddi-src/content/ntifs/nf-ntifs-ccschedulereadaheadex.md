@@ -4,7 +4,6 @@ title: CcScheduleReadAheadEx function (ntifs.h)
 description: The CcScheduleReadAheadEx routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\ccschedulereadaheadex.htm
 tech.root: ifsk
-ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.date: 04/16/2018
 keywords: ["CcScheduleReadAheadEx function"]
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx

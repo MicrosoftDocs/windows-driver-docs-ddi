@@ -4,7 +4,6 @@ title: _GetPortAttributesByWWN_OUT (hbapiwmi.h)
 description: The GetPortAttributesByWWN_OUT structure is used to report the output parameter data of the GetPortAttributesByWWN WMI method to the WMI client.
 old-location: storage\getportattributesbywwn_out.htm
 tech.root: storage
-ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.date: 03/29/2018
 keywords: ["GetPortAttributesByWWN_OUT structure"]
 ms.keywords: "*PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT structure [Storage Devices], PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], _GetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT, hbapiwmi/PGetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml"

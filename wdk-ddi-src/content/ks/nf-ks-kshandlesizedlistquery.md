@@ -4,7 +4,6 @@ title: KsHandleSizedListQuery function (ks.h)
 description: The KsHandleSizedListQuery function, depending on the length of the system buffer, returns either the size of the buffer needed, number of entries in the specified data list, or copies the entries themselves.
 old-location: stream\kshandlesizedlistquery.htm
 tech.root: stream
-ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
 ms.date: 04/23/2018
 keywords: ["KsHandleSizedListQuery function"]
 ms.keywords: KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, stream.kshandlesizedlistquery

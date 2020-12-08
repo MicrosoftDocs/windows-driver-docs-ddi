@@ -4,7 +4,6 @@ title: StorPortGetBusData function (storport.h)
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
 tech.root: storage
-ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.date: 03/29/2018
 keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_GDIARG_ALPHABLEND
 title: _DXGK_GDIARG_ALPHABLEND (d3dkmddi.h)
 description: The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 old-location: display\dxgk_gdiarg_alphablend.htm
-ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.date: 05/10/2018
 keywords: ["DXGK_GDIARG_ALPHABLEND structure"]
 ms.keywords: DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, _DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend

@@ -4,7 +4,6 @@ title: IOCTL_LAMP_SET_MODE (lamp.h)
 description: The IOCTL_LAMP_SET_MODE control code sets the mode in which the lamp operates.
 old-location: stream\ioctl_lamp_set_mode.htm
 tech.root: stream
-ms.assetid: 188F8AC8-BB1A-43C1-9933-5E03F954C2C0
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_SET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode

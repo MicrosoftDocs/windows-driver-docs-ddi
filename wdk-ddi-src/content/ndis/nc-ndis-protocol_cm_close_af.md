@@ -4,7 +4,6 @@ title: PROTOCOL_CM_CLOSE_AF (ndis.h)
 description: The ProtocolCmCloseAf function is a required function that releases per-open resources for an address family that a call manager supports.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_AF type.
 old-location: netvista\protocolcmcloseaf.htm
 tech.root: netvista
-ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_CLOSE_AF callback function"]
 ms.keywords: PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF callback, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf

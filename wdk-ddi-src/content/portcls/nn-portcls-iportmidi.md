@@ -4,7 +4,6 @@ title: IPortMidi (portcls.h)
 description: The IPortMidi interface is the MIDI port driver's primary interface.
 old-location: audio\iportmidi.htm
 tech.root: audio
-ms.assetid: e5403377-fd24-4fd5-8158-194f30238c44
 ms.date: 05/08/2018
 keywords: ["IPortMidi interface"]
 ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices],described, audio.iportmidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml, portcls/IPortMidi

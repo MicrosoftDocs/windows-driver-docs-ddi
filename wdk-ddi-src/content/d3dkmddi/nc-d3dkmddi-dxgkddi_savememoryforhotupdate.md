@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_SAVEMEMORYFORHOTUPDATE
 title: DXGKDDI_SAVEMEMORYFORHOTUPDATE
 description: Before the driver is unloaded, it must call the DXGKDDI_SAVEMEMORYFORHOTUPDATE callback function to save information.
 tech.root: display
-ms.assetid: c3061090-527b-4aff-a3aa-e9277b4a9a51
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SAVEMEMORYFORHOTUPDATE callback function"]
 req.header: d3dkmddi.h

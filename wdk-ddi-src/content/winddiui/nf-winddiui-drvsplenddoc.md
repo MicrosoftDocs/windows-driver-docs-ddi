@@ -4,7 +4,6 @@ title: DrvSplEndDoc function (winddiui.h)
 description: The DrvSplEndDoc function is obsolete.
 old-location: print\drvsplenddoc.htm
 tech.root: print
-ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 ms.date: 11/18/2019
 keywords: ["DrvSplEndDoc function"]
 ms.keywords: DrvSplEndDoc, DrvSplEndDoc function [Print Devices], print.drvsplenddoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, winddiui/DrvSplEndDoc

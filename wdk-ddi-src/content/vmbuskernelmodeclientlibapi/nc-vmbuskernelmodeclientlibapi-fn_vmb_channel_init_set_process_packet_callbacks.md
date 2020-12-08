@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLB
 title: FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelInitSetProcessPacketCallbacks function sets callback functions for packet processing.
 tech.root: netvista
-ms.assetid: 863dc828-cd80-480a-99ee-0314824e4b8b
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

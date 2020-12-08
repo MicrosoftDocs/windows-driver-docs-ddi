@@ -4,7 +4,6 @@ title: NdisAdvanceNetBufferListDataStart function (ndis.h)
 description: Call the NdisAdvanceNetBufferListDataStart function to release data space that was claimed in previous calls to the NdisRetreatNetBufferListDataStart function.
 old-location: netvista\ndisadvancenetbufferlistdatastart.htm
 tech.root: netvista
-ms.assetid: 819ac05b-15c2-4a24-ae6b-8a47991a4e7a
 ms.date: 05/02/2018
 keywords: ["NdisAdvanceNetBufferListDataStart function"]
 ms.keywords: NdisAdvanceNetBufferListDataStart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferListDataStart, ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart

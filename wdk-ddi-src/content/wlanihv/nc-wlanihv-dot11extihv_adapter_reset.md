@@ -4,7 +4,6 @@ title: DOT11EXTIHV_ADAPTER_RESET (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvadapterreset.htm
 tech.root: netvista
-ms.assetid: c1e8cce7-6fa4-45d3-a8c8-9f2ef0a8e846
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_ADAPTER_RESET callback"]
 ms.keywords: DOT11EXTIHV_ADAPTER_RESET, Dot11ExtIhvAdapterReset, Dot11ExtIhvAdapterReset callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1749484b-7d42-42c0-bae2-5de47406f26b.xml, netvista.dot11extihvadapterreset, wlanihv/Dot11ExtIhvAdapterReset

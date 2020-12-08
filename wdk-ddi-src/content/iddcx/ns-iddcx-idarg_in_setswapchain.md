@@ -4,7 +4,6 @@ title: IDARG_IN_SETSWAPCHAIN (iddcx.h)
 description: The IDARG_IN_SETSWAPCHAIN structure provides information used to set the indirect swapchain.
 old-location: display\idarg_in_setswapchain.htm
 tech.root: display
-ms.assetid: 5b3a4a43-e8d4-4edf-87f3-dd3e6bb7e9dc
 ms.date: 09/24/2020
 keywords: ["IDARG_IN_SETSWAPCHAIN structure"]
 ms.keywords: IDARG_IN_SETSWAPCHAIN, IDARG_IN_SETSWAPCHAIN structure [Display Devices], display.idarg_in_setswapchain, iddcx/IDARG_IN_SETSWAPCHAIN

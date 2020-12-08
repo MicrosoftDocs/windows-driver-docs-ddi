@@ -4,7 +4,6 @@ title: RxDereference function (rxprocs.h)
 description: RxDereference decrements the NodeReferenceCount member of a structure by one for several reference counted data structures used by RDBSS.
 old-location: ifsk\rxdereference.htm
 tech.root: ifsk
-ms.assetid: 4f63fc92-56e3-4414-a912-09ed0de59c92
 ms.date: 04/16/2018
 keywords: ["RxDereference function"]
 ms.keywords: RxDereference, RxDereference function [Installable File System Drivers], ifsk.rxdereference, rxprocs/RxDereference, rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml

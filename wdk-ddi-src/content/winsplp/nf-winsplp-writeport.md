@@ -4,7 +4,6 @@ title: WritePort function (winsplp.h)
 description: A port monitor's WritePort function writes data to a printer port.
 old-location: print\writeport.htm
 tech.root: print
-ms.assetid: 31229c78-0bea-44eb-9f1a-d1bce8a16a3e
 ms.date: 02/02/2018
 keywords: ["WritePort function"]
 ms.keywords: print.writeport, WritePort, winsplp/WritePort, WritePort function [Print Devices], spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml

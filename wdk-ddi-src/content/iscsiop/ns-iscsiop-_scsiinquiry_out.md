@@ -4,7 +4,6 @@ title: _ScsiInquiry_OUT (iscsiop.h)
 description: The ScsiInquiry_OUT structure holds the output data for the ScsiInquiry method.
 old-location: storage\scsiinquiry_out.htm
 tech.root: storage
-ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.date: 03/29/2018
 keywords: ["ScsiInquiry_OUT structure"]
 ms.keywords: "*PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], _ScsiInquiry_OUT, iscsiop/PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, storage.scsiinquiry_out, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml"

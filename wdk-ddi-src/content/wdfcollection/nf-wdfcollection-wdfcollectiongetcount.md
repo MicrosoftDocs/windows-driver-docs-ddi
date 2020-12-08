@@ -4,7 +4,6 @@ title: WdfCollectionGetCount function (wdfcollection.h)
 description: The WdfCollectionGetCount method returns the number of objects that are currently in an object collection.
 old-location: wdf\wdfcollectiongetcount.htm
 tech.root: wdf
-ms.assetid: 95b6e441-f564-4642-8474-8e10e83177b9
 ms.date: 02/26/2018
 keywords: ["WdfCollectionGetCount function"]
 ms.keywords: DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, WdfCollectionGetCount, WdfCollectionGetCount method, kmdf.wdfcollectiongetcount, wdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount

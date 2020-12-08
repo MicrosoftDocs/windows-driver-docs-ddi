@@ -4,7 +4,6 @@ title: FltCheckOplock function (fltkernel.h)
 description: A minifilter driver calls FltCheckOplock to synchronize the callback data structure for an IRP-based file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fltcheckoplock.htm
 tech.root: ifsk
-ms.assetid: d6d8c83d-ca89-440a-b6a1-7d384030f7da
 ms.date: 04/16/2018
 keywords: ["FltCheckOplock function"]
 ms.keywords: FltApiRef_a_to_d_a551884c-ffc1-4b00-9f22-4f0ab8af0aa1.xml, FltCheckOplock, FltCheckOplock function [Installable File System Drivers], fltkernel/FltCheckOplock, ifsk.fltcheckoplock

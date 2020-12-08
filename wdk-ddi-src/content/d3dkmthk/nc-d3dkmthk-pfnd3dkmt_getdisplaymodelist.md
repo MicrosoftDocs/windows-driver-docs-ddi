@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_GETDISPLAYMODELIST
 title: PFND3DKMT_GETDISPLAYMODELIST (d3dkmthk.h)
 description: Pfnd3dkmtGetdisplaymodelist retrieves a list of available display modes, including modes with extended format.
-ms.assetid: c7171063-216c-4a9e-b586-7fbad6a84357
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_GETDISPLAYMODELIST callback function"]
 req.header: d3dkmthk.h

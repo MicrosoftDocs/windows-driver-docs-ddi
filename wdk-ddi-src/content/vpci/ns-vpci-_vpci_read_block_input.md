@@ -4,7 +4,6 @@ title: _VPCI_READ_BLOCK_INPUT (vpci.h)
 description: The VPCI_READ_BLOCK_INPUT structure is used in an IOCTL_VPCI_READ_BLOCK IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_read_block_input.htm
 tech.root: pci
-ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.date: 04/30/2018
 keywords: ["VPCI_READ_BLOCK_INPUT structure"]
 ms.keywords: "*PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT"

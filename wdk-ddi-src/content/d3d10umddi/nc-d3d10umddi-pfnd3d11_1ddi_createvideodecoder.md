@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEODECODER
 title: PFND3D11_1DDI_CREATEVIDEODECODER (d3d10umddi.h)
 description: Creates a video decoder object.
 old-location: display\createvideodecoder.htm
-ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEVIDEODECODER callback function"]
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER callback, d3d10umddi/CreateVideoDecoder, display.createvideodecoder

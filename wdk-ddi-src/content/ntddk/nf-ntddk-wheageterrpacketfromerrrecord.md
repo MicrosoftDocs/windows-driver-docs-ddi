@@ -4,7 +4,6 @@ title: WheaGetErrPacketFromErrRecord function (ntddk.h)
 description: The WheaGetErrPacketFromErrRecord function returns a pointer to the hardware error packet that is contained within a WHEA error record. The hardware error packet is formatted as a WHEA_ERROR_PACKET structure.
 old-location: whea\wheageterrpacketfromerrrecord.htm
 tech.root: whea
-ms.assetid: 8b4a835f-b1ec-4308-8e0d-a13c0f421dc8
 ms.date: 02/20/2018
 keywords: ["WheaGetErrPacketFromErrRecord function"]
 ms.keywords: WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications], ntddk/WheaGetErrPacketFromErrRecord, whea.wheageterrpacketfromerrrecord, whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml

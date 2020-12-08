@@ -4,7 +4,6 @@ title: _NDIS_RECEIVE_QUEUE_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_PARAMETERS structure contains the configuration parameters of a receive queue.
 old-location: netvista\ndis_receive_queue_parameters.htm
 tech.root: netvista
-ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
 ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_QUEUE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml"

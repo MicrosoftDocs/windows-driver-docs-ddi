@@ -4,7 +4,6 @@ title: PFND3DDDI_UPDATEOVERLAYCB (d3dumddi.h)
 description: The pfnUpdateOverlayCb function modifies a kernel-mode overlay object.
 old-location: display\pfnupdateoverlaycb.htm
 tech.root: display
-ms.assetid: 17f89cea-350c-43f6-a60d-32fc2d299dd7
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_UPDATEOVERLAYCB callback function"]
 ms.keywords: D3Druntime_Functions_9a6ce628-61ad-4c22-9fa7-aa2c83e680b6.xml, PFND3DDDI_UPDATEOVERLAYCB, PFND3DDDI_UPDATEOVERLAYCB callback, d3dumddi/pfnUpdateOverlayCb, display.pfnupdateoverlaycb, pfnUpdateOverlayCb, pfnUpdateOverlayCb callback function [Display Devices]

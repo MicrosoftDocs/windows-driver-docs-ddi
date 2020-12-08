@@ -4,7 +4,6 @@ title: FltTagFile function (fltkernel.h)
 description: FltTagFile sets a reparse tag on a file or directory.
 old-location: ifsk\flttagfile.htm
 tech.root: ifsk
-ms.assetid: fbc8b596-1299-4dfa-953b-5730905f0e30
 ms.date: 04/16/2018
 keywords: ["FltTagFile function"]
 ms.keywords: FltApiRef_p_to_z_01cd7989-387a-4a7c-a45a-3a60a8b126c0.xml, FltTagFile, FltTagFile function [Installable File System Drivers], fltkernel/FltTagFile, ifsk.flttagfile

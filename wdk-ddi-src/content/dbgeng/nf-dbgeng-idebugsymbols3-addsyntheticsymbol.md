@@ -4,7 +4,6 @@ title: IDebugSymbols3::AddSyntheticSymbol (dbgeng.h)
 description: The AddSyntheticSymbol method adds a synthetic symbol to a module in the current process.
 old-location: debugger\addsyntheticsymbol.htm
 tech.root: debugger
-ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AddSyntheticSymbol"]
 ms.keywords: AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticSymbol method, IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol

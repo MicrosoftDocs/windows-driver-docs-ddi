@@ -4,7 +4,6 @@ title: _SRIOV_DEVICE_INTERFACE_STANDARD (pcivirt.h)
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver in the device stack for the of the SR-IOV device.
 old-location: pci\sriov_device_interface_standard.htm
 tech.root: PCI
-ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
 ms.date: 02/24/2018
 keywords: ["SRIOV_DEVICE_INTERFACE_STANDARD structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"

@@ -4,7 +4,6 @@ title: IoRegisterPlugPlayNotification function (wdm.h)
 description: The IoRegisterPlugPlayNotification routine registers a Plug and Play (PnP) notification callback routine to be called when a PnP event of the specified category occurs.
 old-location: kernel\ioregisterplugplaynotification.htm
 tech.root: kernel
-ms.assetid: 06fd10ab-3478-4b01-b678-24944f17fa9d
 ms.date: 04/30/2018
 keywords: ["IoRegisterPlugPlayNotification function"]
 ms.keywords: IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml, kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification

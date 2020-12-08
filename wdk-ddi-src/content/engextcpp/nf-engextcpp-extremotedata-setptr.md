@@ -4,7 +4,6 @@ title: ExtRemoteData::SetPtr method (engextcpp.h)
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
-ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
 keywords: ["ExtRemoteData::SetPtr method"]
 ms.keywords: ExtRemoteData::SetChar, SetLong64, ExtRemoteData::SetPtr, ExtRemoteData::SetData, SetLongPtr, SetBoolean, SetLong, ExtRemoteData::SetFloat, SetDouble, ExtRemoteData, ExtRemoteData::SetLong64, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetLong, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, ExtRemoteData::SetLongPtr, SetPtr, SetFloat, debugger.extremotedata, ExtRemoteData class [Windows Debugging], engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, ExtRemoteData::Clear, SetData

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_SEGMENTFLAGS
 title: _DXGK_SEGMENTFLAGS (d3dkmddi.h)
 description: The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_segmentflags.htm
-ms.assetid: 959dfdb2-cadf-427d-958a-33ce2a1610ae
 ms.date: 05/10/2018
 keywords: ["DXGK_SEGMENTFLAGS structure"]
 ms.keywords: DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, _DXGK_SEGMENTFLAGS, d3dkmddi/DXGK_SEGMENTFLAGS, display.dxgk_segmentflags

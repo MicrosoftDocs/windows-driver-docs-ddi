@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PA
 title: FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSetIncomingProcessingAtPassive function sets the required IRQL for incoming parsing routines for a channel to PASSIVE_LEVEL.
 tech.root: netvista
-ms.assetid: 8bdd8690-6c8e-4764-91da-5a35922dae65
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

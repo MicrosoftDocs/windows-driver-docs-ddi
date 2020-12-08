@@ -4,7 +4,6 @@ title: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT (iddcx.h)
 description: Gives information about the video output semantics for the OPM context that will be created.
 old-location: display\idarg_in_opm_create_protected_output.htm
 tech.root: display
-ms.assetid: c5727881-de35-4a61-bf54-0552d2de454b
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure"]
 ms.keywords: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_create_protected_output, iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT

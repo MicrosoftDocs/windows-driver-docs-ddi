@@ -4,7 +4,6 @@ title: FwpsStreamInjectAsync0 function (fwpsk.h)
 description: The FwpsStreamInjectAsync0 function injects TCP data segments into a TCP data stream.Note  FwpsStreamInjectAsync0 is a specific version of FwpsStreamInjectAsync.
 old-location: netvista\fwpsstreaminjectasync0.htm
 tech.root: netvista
-ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.date: 05/02/2018
 keywords: ["FwpsStreamInjectAsync0 function"]
 ms.keywords: FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml

@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
 title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL (trustedruntimeclx.h)
 description: 
-ms.assetid: 554690bc-e0aa-411a-9168-40ea01012d88
 ms.date: 11/20/2020
 keywords: ["PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL callback function"]
 req.header: trustedruntimeclx.h

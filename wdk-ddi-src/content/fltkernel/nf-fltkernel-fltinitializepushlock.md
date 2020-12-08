@@ -4,7 +4,6 @@ title: FltInitializePushLock function (fltkernel.h)
 description: The FltInitializePushLock routine initializes a push lock variable.
 old-location: ifsk\fltinitializepushlock.htm
 tech.root: ifsk
-ms.assetid: 49b624d6-ef06-4e73-98ac-b0be1669afc7
 ms.date: 04/16/2018
 keywords: ["FltInitializePushLock function"]
 ms.keywords: FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, FltInitializePushLock, FltInitializePushLock routine [Installable File System Drivers], fltkernel/FltInitializePushLock, ifsk.fltinitializepushlock

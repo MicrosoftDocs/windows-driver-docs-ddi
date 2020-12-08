@@ -4,7 +4,6 @@ title: PFND3DDDI_SETINDICESUM (d3dumddi.h)
 description: The SetIndicesUM function sets the current index buffer to the given user memory buffer.
 old-location: display\setindicesum.htm
 tech.root: display
-ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_SETINDICESUM callback function"]
 ms.keywords: PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM callback, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum

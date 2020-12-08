@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION
 title: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION (d3d10umddi.h)
 description: The pfnSetShaderCacheSession callback function sets a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_set_shadercache_session.htm
-ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
 ms.date: 05/10/2018
 keywords: ["PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback function"]
 ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]

@@ -4,7 +4,6 @@ title: IWDFIoRequest (wudfddi.h)
 description: The IWDFIoRequest interface exposes an I/O request object.
 old-location: wdf\iwdfiorequest.htm
 tech.root: wdf
-ms.assetid: 3104284a-4277-4f05-ae3f-3b2bb3c3437d
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest interface"]
 ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface,described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest

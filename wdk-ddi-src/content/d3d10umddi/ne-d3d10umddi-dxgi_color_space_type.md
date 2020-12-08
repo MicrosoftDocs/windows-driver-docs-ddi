@@ -3,7 +3,6 @@ UID: NE:d3d10umddi.DXGI_COLOR_SPACE_TYPE
 title: DXGI_COLOR_SPACE_TYPE
 description: Defines stream color space information.
 tech.root: display
-ms.assetid: 49f4fcb3-5e97-4243-90f7-249d4a76dadc
 ms.date: 04/04/2019
 keywords: ["DXGI_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: DXGI_COLOR_SPACE_TYPE, ,

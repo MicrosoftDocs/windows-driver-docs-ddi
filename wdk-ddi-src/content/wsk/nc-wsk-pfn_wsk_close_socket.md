@@ -4,7 +4,6 @@ title: PFN_WSK_CLOSE_SOCKET (wsk.h)
 description: The WskCloseSocket function closes a socket and frees any associated resources.
 old-location: netvista\wskclosesocket.htm
 tech.root: netvista
-ms.assetid: 4d4e4a40-db76-4746-8049-3af8c4541283
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CLOSE_SOCKET callback function"]
 ms.keywords: PFN_WSK_CLOSE_SOCKET, PFN_WSK_CLOSE_SOCKET callback, WskCloseSocket, WskCloseSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskclosesocket, wsk/WskCloseSocket, wskref_c8c37dfe-294f-4a40-9b3a-f4ca609ad4d8.xml

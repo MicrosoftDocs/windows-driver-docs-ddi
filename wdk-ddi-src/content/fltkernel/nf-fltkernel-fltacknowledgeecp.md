@@ -4,7 +4,6 @@ title: FltAcknowledgeEcp function (fltkernel.h)
 description: The FltAcknowledgeEcp routine is used to mark an extra create parameter context structure (ECP) as acknowledged.
 old-location: ifsk\fltacknowledgeecp.htm
 tech.root: ifsk
-ms.assetid: 89fd8a33-9b2e-401a-9b48-49b4b19d3cb2
 ms.date: 04/16/2018
 keywords: ["FltAcknowledgeEcp function"]
 ms.keywords: FltAcknowledgeEcp, FltAcknowledgeEcp routine [Installable File System Drivers], FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp

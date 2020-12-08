@@ -4,7 +4,6 @@ title: DOT11_DISASSOCIATION_PARAMETERS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_disassociation_parameters.htm
 tech.root: netvista
-ms.assetid: bf5f520e-4bbc-4b9f-9e6c-b430cb9e3b28
 ms.date: 02/16/2018
 keywords: ["DOT11_DISASSOCIATION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_289b81c2-13d2-484b-9306-6ca3dc961675.xml, PDOT11_DISASSOCIATION_PARAMETERS, PDOT11_DISASSOCIATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_disassociation_parameters, windot11/DOT11_DISASSOCIATION_PARAMETERS, windot11/PDOT11_DISASSOCIATION_PARAMETERS"

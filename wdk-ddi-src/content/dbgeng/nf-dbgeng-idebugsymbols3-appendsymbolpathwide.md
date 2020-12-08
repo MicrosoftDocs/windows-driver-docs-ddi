@@ -4,7 +4,6 @@ title: IDebugSymbols3::AppendSymbolPathWide (dbgeng.h)
 description: The AppendSymbolPathWide method appends directories to the symbol path.
 old-location: debugger\appendsymbolpathwide.htm
 tech.root: debugger
-ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AppendSymbolPathWide"]
 ms.keywords: AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPathWide method, IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
