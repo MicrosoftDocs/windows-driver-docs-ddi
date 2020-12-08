@@ -4,7 +4,6 @@ title: IPrinterExtensionEventArgs::get_WindowModal (printerextension.h)
 description: Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
 old-location: print\iprinterextensioneventargs_windowmodal.htm
 tech.root: print
-ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_WindowModal"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal property, IPrinterExtensionEventArgs.WindowModal, IPrinterExtensionEventArgs.get_WindowModal, IPrinterExtensionEventArgs::WindowModal, IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], WindowModal property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowModal, print.iprinterextensioneventargs_windowmodal, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal

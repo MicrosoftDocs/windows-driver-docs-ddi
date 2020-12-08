@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostField.GetLocation
 title: IDebugHostField::GetLocation (dbgmodel.h)
 description: For fields which have an address regardless of the particular type instance (e.g. fields whose location kind indicates LocationStatic), the GetLocation method will return the abstract location (address) of the field.
-ms.assetid: 07120c08-228d-4f66-8097-c5966d18f0c2
 ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetLocation"]
 ms.keywords: IDebugHostField::GetLocation, GetLocation, IDebugHostField.GetLocation, IDebugHostField::GetLocation, IDebugHostField.GetLocation

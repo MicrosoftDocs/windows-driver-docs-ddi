@@ -4,7 +4,6 @@ title: SDBUS_CALLBACK_ROUTINE (ntddsd.h)
 description: The PSDBUS_CALLBACK_ROUTINE prototype declares the Secure Digital (SD) driver callback routine that the SD bus driver uses to report device interrupts to the driver.
 old-location: sd\psdbus_callback_routine.htm
 tech.root: SD
-ms.assetid: e63ebdcc-afcd-451e-942c-0e295eb3468f
 ms.date: 02/15/2018
 keywords: ["SDBUS_CALLBACK_ROUTINE callback function"]
 ms.keywords: SD.psdbus_callback_routine, SDBUS_CALLBACK_ROUTINE, SDBUS_CALLBACK_ROUTINE callback, SdBusCallbackRoutine, SdBusCallbackRoutine callback function [Buses], ntddsd/SdBusCallbackRoutine, sd-rtns_a51040c8-723c-45ae-9e3b-15ef2baca85b.xml

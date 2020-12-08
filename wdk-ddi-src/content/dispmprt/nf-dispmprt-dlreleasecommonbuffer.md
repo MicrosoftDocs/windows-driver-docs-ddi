@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlReleaseCommonBuffer
 title: DlReleaseCommonBuffer function
 description: Frees a common buffer that was previously allocated.
 tech.root: display
-ms.assetid: 22d1c24f-83d9-4c1d-982f-813af2aff9db
 ms.date: 04/04/2019
 keywords: ["DlReleaseCommonBuffer function"]
 ms.keywords: DlReleaseCommonBuffer

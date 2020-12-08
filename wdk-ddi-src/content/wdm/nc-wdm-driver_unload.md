@@ -4,7 +4,6 @@ title: DRIVER_UNLOAD (wdm.h)
 description: The Unload routine performs any operations that are necessary before the system unloads the driver.
 old-location: kernel\unload.htm
 tech.root: kernel
-ms.assetid: 56638b74-6233-4239-9315-ec8a643a2cea
 ms.date: 04/30/2018
 keywords: ["DRIVER_UNLOAD callback function"]
 ms.keywords: DRIVER_UNLOAD, DrvrRtns_68cde0dd-4521-4771-8965-309dedd87d37.xml, Unload, Unload routine [Kernel-Mode Driver Architecture], kernel.unload, wdm/Unload

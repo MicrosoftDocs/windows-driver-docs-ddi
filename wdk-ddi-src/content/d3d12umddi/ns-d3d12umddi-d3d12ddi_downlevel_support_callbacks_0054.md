@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_DOWNLEVEL_SUPPORT_CALLBACKS_0054
 title: D3D12DDI_DOWNLEVEL_SUPPORT_CALLBACKS_0054
 description: Contains callback functions for extended feature downlevel support.
 tech.root: display
-ms.assetid: 73ad8fbc-1754-4e86-b383-40546519112e
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_DOWNLEVEL_SUPPORT_CALLBACKS_0054 structure"]
 ms.prod: windows-hardware

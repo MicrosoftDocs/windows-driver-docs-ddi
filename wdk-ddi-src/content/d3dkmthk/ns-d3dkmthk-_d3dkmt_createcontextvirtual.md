@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_CREATECONTEXTVIRTUAL
 title: _D3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
 description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmt_createcontextvirtual.htm
-ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual

@@ -2,7 +2,6 @@
 UID: NS:wdm._DEVICE_FAULT_CONFIGURATION
 title: _DEVICE_FAULT_CONFIGURATION (wdm.h)
 description: This structure is used in setting the device fault reporting state
-ms.assetid: ccd97b0c-9ecc-47e3-b0c3-1c202139b06b
 ms.date: 09/30/2018
 tech.root: kernel
 keywords: ["DEVICE_FAULT_CONFIGURATION structure"]

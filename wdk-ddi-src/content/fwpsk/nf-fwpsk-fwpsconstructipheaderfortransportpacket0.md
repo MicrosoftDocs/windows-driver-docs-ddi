@@ -4,7 +4,6 @@ title: FwpsConstructIpHeaderForTransportPacket0 function (fwpsk.h)
 description: The FwpsConstructIpHeaderForTransportPacket0 function is called by a callout to construct a new IP header or to rebuild a preexisting IP packet header for only one net buffer.Note  FwpsConstructIpHeaderForTransportPacket0 is a specific version of FwpsConstructIpHeaderForTransportPacket. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsconstructipheaderfortransportpacket0.htm
 tech.root: netvista
-ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.date: 05/02/2018
 keywords: ["FwpsConstructIpHeaderForTransportPacket0 function"]
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml

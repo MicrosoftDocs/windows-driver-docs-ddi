@@ -4,7 +4,6 @@ title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_charging_status_complete.htm
 tech.root: battery
-ms.assetid: 715F1DF3-C3CF-4662-8095-22ECA0E45796
 ms.date: 02/15/2018
 keywords: ["IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE IOCTL"]
 ms.keywords: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control code [Battery Devices], battery.ioctl_cad_get_charging_status_complete, charging/IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE

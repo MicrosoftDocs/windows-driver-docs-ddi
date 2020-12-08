@@ -4,7 +4,6 @@ title: ClfsMgmtRegisterManagedClient function (wdm.h)
 description: The ClfsMgmtRegisterManagedClient routine creates a client that will manage a CLFS log.
 old-location: kernel\clfsmgmtregistermanagedclient.htm
 tech.root: kernel
-ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtRegisterManagedClient function"]
 ms.keywords: ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient, wdm/ClfsMgmtRegisterManagedClient

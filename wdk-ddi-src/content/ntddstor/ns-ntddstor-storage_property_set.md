@@ -3,7 +3,6 @@ UID: NS:ntddstor._STORAGE_PROPERTY_SET
 title: STORAGE_PROPERTY_SET
 description: The STORAGE_PROPERTY_SET structure describes the details of the property set associated with IOCTL_STORAGE_SET_PROPERTY.
 tech.root: storage
-ms.assetid: c1b43348-1372-4dfd-9ee7-448c35e6a0b6
 ms.date: 03/07/2019
 keywords: ["STORAGE_PROPERTY_SET structure"]
 ms.keywords: STORAGE_PROPERTY_SET, STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET,

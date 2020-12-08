@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/06/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function"]
 f1_keywords:

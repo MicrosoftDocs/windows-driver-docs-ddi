@@ -4,7 +4,6 @@ title: DOT11EXTIHV_CREATE_DISCOVERY_PROFILES (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvcreatediscoveryprofiles.htm
 tech.root: netvista
-ms.assetid: e741bfa7-eb97-4f94-beb4-545d7bedcea8
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_CREATE_DISCOVERY_PROFILES callback"]
 ms.keywords: DOT11EXTIHV_CREATE_DISCOVERY_PROFILES, Dot11ExtIhvCreateDiscoveryProfiles, Dot11ExtIhvCreateDiscoveryProfiles callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fadde2b4-2a9d-4c6b-8a92-e044bab5c544.xml, netvista.dot11extihvcreatediscoveryprofiles, wlanihv/Dot11ExtIhvCreateDiscoveryProfiles

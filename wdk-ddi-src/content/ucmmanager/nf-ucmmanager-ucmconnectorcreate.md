@@ -4,7 +4,6 @@ title: UcmConnectorCreate function (ucmmanager.h)
 description: Creates a connector object.
 old-location: buses\ucmconnectorcreate.htm
 tech.root: usbref
-ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.date: 05/07/2018
 keywords: ["UcmConnectorCreate function"]
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate

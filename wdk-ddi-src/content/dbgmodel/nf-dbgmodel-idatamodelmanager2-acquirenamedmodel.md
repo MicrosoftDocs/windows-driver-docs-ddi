@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelManager2.AcquireNamedModel
 title: IDataModelManager2::AcquireNamedModel (dbgmodel.h)
 description: AcquireNamedModel looks up a well known model name and returns the data model registered by that name.
-ms.assetid: bfdb5095-d1eb-4cef-ae5c-f6c35ff5ac3a
 ms.date: 10/03/2018
 keywords: ["IDataModelManager2::AcquireNamedModel"]
 ms.keywords: IDataModelManager2::AcquireNamedModel, AcquireNamedModel, IDataModelManager2.AcquireNamedModel, IDataModelManager2::AcquireNamedModel, IDataModelManager2.AcquireNamedModel

@@ -4,7 +4,6 @@ title: MIRACAST_PROTOCOL_EVENT (netdispumdddi.h)
 description: Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 old-location: display\miracast_protocol_event.htm
 tech.root: display
-ms.assetid: 7a47acf7-93a9-4bb2-a120-17c32c852ea9
 ms.date: 05/10/2018
 keywords: ["MIRACAST_PROTOCOL_EVENT enumeration"]
 ms.keywords: MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT enumeration [Display Devices], MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, display.miracast_protocol_event, netdispumdddi/MIRACAST_PROTOCOL_EVENT, netdispumdddi/MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, netdispumdddi/MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, netdispumdddi/MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE

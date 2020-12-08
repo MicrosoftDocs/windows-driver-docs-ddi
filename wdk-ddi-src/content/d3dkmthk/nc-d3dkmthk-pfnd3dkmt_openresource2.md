@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_OPENRESOURCE2
 title: PFND3DKMT_OPENRESOURCE2 (d3dkmthk.h)
 description: Pfnd3dkmtOpenresource2 opens a shared resource.
-ms.assetid: ce4cbbfe-fdae-4bb8-91db-9da4a992f0ce
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_OPENRESOURCE2 callback function"]
 req.header: d3dkmthk.h

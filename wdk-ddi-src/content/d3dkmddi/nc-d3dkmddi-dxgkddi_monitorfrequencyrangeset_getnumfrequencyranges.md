@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
 title: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES (d3dkmddi.h)
 description: The pfnGetNumFrequencyRanges returns the number of frequency range descriptors in a specified monitor frequency range set object.
 old-location: display\dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges.htm
-ms.assetid: ba70c191-832f-4dd1-b949-cb47cf736c6e
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback function"]
 ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml, d3dkmddi/pfnGetNumFrequencyRanges, display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges, pfnGetNumFrequencyRanges callback function [Display Devices]

@@ -4,7 +4,6 @@ title: FltSetEcpListIntoCallbackData function (fltkernel.h)
 description: The FltSetEcpListIntoCallbackData routine attaches an extra create parameter context structure (ECP) list to a create operation callback-data object.
 old-location: ifsk\fltsetecplistintocallbackdata.htm
 tech.root: ifsk
-ms.assetid: 91179c1c-fe45-418f-8992-a40e41e3017a
 ms.date: 04/16/2018
 keywords: ["FltSetEcpListIntoCallbackData function"]
 ms.keywords: FltApiRef_p_to_z_01e8fac7-3c58-4ed2-85ac-38580cca36e6.xml, FltSetEcpListIntoCallbackData, FltSetEcpListIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetEcpListIntoCallbackData, ifsk.fltsetecplistintocallbackdata

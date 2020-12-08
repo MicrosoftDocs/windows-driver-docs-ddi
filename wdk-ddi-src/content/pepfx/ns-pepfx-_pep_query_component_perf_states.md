@@ -4,7 +4,6 @@ title: _PEP_QUERY_COMPONENT_PERF_STATES (pepfx.h)
 description: The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set.
 old-location: kernel\pep_query_component_perf_states.htm
 tech.root: kernel
-ms.assetid: D14CB726-2576-490E-B3FD-E970F8B3C87F
 ms.date: 04/30/2018
 keywords: ["PEP_QUERY_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_STATES, kernel.pep_query_component_perf_states, pepfx/PEP_QUERY_COMPONENT_PERF_STATES, pepfx/PPEP_QUERY_COMPONENT_PERF_STATES"

@@ -4,7 +4,6 @@ title: WdfRequestGetRequestorProcessId function (wdfrequest.h)
 description: The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\wdfrequestgetrequestorprocessid.htm
 tech.root: wdf
-ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.date: 02/26/2018
 keywords: ["WdfRequestGetRequestorProcessId function"]
 ms.keywords: WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId

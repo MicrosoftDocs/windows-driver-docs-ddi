@@ -4,7 +4,6 @@ title: NDIS_PD_QUERY_QUEUE_DEPTH (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's PDQueryQueueDepth function to return the number of unprocessed PD_BUFFER structures that are posted to the Queue.
 old-location: netvista\pdqueryqueuedepth.htm
 tech.root: netvista
-ms.assetid: 0061E269-4A19-4D65-B988-29DB582BA960
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER, NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER callback function pointer
 req.header: ndis.h

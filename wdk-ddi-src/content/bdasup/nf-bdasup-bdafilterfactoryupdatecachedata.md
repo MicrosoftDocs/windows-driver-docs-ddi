@@ -4,7 +4,6 @@ title: BdaFilterFactoryUpdateCacheData function (bdasup.h)
 description: The BdaFilterFactoryUpdateCacheData function updates the pin data cache for an instance of a filter.
 old-location: stream\bdafilterfactoryupdatecachedata.htm
 tech.root: stream
-ms.assetid: c4b8220a-bd54-4e41-a00e-3750a3f03cae
 ms.date: 04/23/2018
 keywords: ["BdaFilterFactoryUpdateCacheData function"]
 ms.keywords: BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, bdasup/BdaFilterFactoryUpdateCacheData, stream.bdafilterfactoryupdatecachedata

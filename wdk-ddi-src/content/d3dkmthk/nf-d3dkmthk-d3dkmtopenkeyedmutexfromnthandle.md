@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutexFromNtHandle
 title: D3DKMTOpenKeyedMutexFromNtHandle function (d3dkmthk.h)
 description: Opens a keyed mutex from an NT handle to the process.
-ms.assetid: 797fe9ea-3960-4b49-88aa-cfd8929fc0fe
 ms.date: 10/19/2018
 keywords: ["D3DKMTOpenKeyedMutexFromNtHandle function"]
 ms.keywords: D3DKMTOpenKeyedMutexFromNtHandle

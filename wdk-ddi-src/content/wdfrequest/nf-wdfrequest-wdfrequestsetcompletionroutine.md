@@ -4,7 +4,6 @@ title: WdfRequestSetCompletionRoutine function (wdfrequest.h)
 description: The WdfRequestSetCompletionRoutine method registers or deregisters a completion routine for the specified framework request object.
 old-location: wdf\wdfrequestsetcompletionroutine.htm
 tech.root: wdf
-ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
 ms.date: 02/26/2018
 keywords: ["WdfRequestSetCompletionRoutine function"]
 ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine

@@ -4,7 +4,6 @@ title: tagKS_AMVPDATAINFO (ksmedia.h)
 description: The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 old-location: stream\ks_amvpdatainfo.htm
 tech.root: stream
-ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.date: 04/23/2018
 keywords: ["tagKS_AMVPDATAINFO structure"]
 ms.keywords: "*PKS_AMVPDATAINFO, KS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], PKS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/KS_AMVPDATAINFO, ksmedia/PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, tagKS_AMVPDATAINFO"

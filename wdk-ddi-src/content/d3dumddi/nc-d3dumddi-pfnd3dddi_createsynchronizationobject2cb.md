@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB (d3dumddi.h)
 description: Creates a GPU synchronization object that a device context can signal and wait for. Used by WDDM 1.2 and later user-mode display drivers.
 old-location: display\pfncreatesynchronizationobject2cb.htm
 tech.root: display
-ms.assetid: 9B0F058C-B71F-4A4F-A053-F9381A5FD3A8
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB callback function"]
 ms.keywords: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnCreateSynchronizationObject2Cb, display.pfncreatesynchronizationobject2cb, pfnCreateSynchronizationObject2Cb, pfnCreateSynchronizationObject2Cb callback function [Display Devices]

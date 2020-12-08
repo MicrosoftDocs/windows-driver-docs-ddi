@@ -4,7 +4,6 @@ title: IWiaImageFilter::FilterPreviewImage (wia_lh.h)
 description: The IWiaImageFilter::FilterPreviewImage method is called by the WIA Preview component, when an application calls the IWiaPreview::UpdatePreview method.
 old-location: image\iwiaimagefilter_filterpreviewimage.htm
 tech.root: image
-ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.date: 05/03/2018
 keywords: ["IWiaImageFilter::FilterPreviewImage"]
 ms.keywords: FilterPreviewImage, FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices],IWiaImageFilter interface, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices],FilterPreviewImage method, IWiaImageFilter.FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage

@@ -4,7 +4,6 @@ title: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID (bthhfpddi.h)
 description: The IOCTL_BTHHFP_DEVICE_GET_CONTAINERID IOCTL Gets the PnP Container ID of the Bluetooth device.
 old-location: audio\ioctl_bthhfp_device_get_containerid.htm
 tech.root: audio
-ms.assetid: 23B6CB2C-8290-42D7-AA68-6D335ED1818A
 ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_DEVICE_GET_CONTAINERID IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control code [Audio Devices], audio.ioctl_bthhfp_device_get_containerid, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONTAINERID

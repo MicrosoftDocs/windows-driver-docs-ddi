@@ -4,7 +4,6 @@ title: SRIOV_QUERY_PROBED_BARS (pcivirt.h)
 description: Queries the data read from the physical function's (PF) base address registers (BARs) if the value -1 were written to them first.
 old-location: pci\sriov_query_probed_bars.htm
 tech.root: PCI
-ms.assetid: 422a9212-7227-4508-8f06-0056349fa835
 ms.date: 02/24/2018
 keywords: ["SRIOV_QUERY_PROBED_BARS callback"]
 ms.keywords: "*PSRIOV_QUERY_PROBED_BARS, *PSRIOV_QUERY_PROBED_BARS callback function pointer [Buses], PCI.sriov_query_probed_bars, SRIOV_QUERY_PROBED_BARS, SriovQueryProbedBars, SriovQueryProbedBars callback function [Buses], pcivirt/SriovQueryProbedBars"

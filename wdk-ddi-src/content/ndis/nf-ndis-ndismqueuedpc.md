@@ -4,7 +4,6 @@ title: NdisMQueueDpc function (ndis.h)
 description: NDIS miniport drivers call the NdisMQueueDpc function to schedule DPC calls on CPUs.
 old-location: netvista\ndismqueuedpc.htm
 tech.root: netvista
-ms.assetid: 203be18a-b3c5-420b-bcd1-1134beb1c8bd
 ms.date: 05/02/2018
 keywords: ["NdisMQueueDpc function"]
 ms.keywords: NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, netvista.ndismqueuedpc

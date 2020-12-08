@@ -4,7 +4,6 @@ title: KSDS3D_BUFFER_CONE_ANGLES (ksmedia.h)
 description: A KSDS3D_BUFFER_CONE_ANGLES structure specifies the inside and outside cone angles.
 old-location: audio\ksds3d_buffer_cone_angles.htm
 tech.root: audio
-ms.assetid: 702d3698-396d-4609-a082-74290d2ccb41
 ms.date: 05/08/2018
 keywords: ["KSDS3D_BUFFER_CONE_ANGLES structure"]
 ms.keywords: "*PKSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES structure [Audio Devices], PKSDS3D_BUFFER_CONE_ANGLES, PKSDS3D_BUFFER_CONE_ANGLES structure pointer [Audio Devices], aud-prop_6b484499-7859-4c81-828d-35c2dc0dc070.xml, audio.ksds3d_buffer_cone_angles, ksmedia/KSDS3D_BUFFER_CONE_ANGLES, ksmedia/PKSDS3D_BUFFER_CONE_ANGLES"

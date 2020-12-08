@@ -4,7 +4,6 @@ title: IoAllocateWorkItem function (wdm.h)
 description: The IoAllocateWorkItem routine allocates a work item.
 old-location: kernel\ioallocateworkitem.htm
 tech.root: kernel
-ms.assetid: 950e31ff-2e8e-4dd3-9d6c-d3d86fd69472
 ms.date: 04/30/2018
 keywords: ["IoAllocateWorkItem function"]
 ms.keywords: IoAllocateWorkItem, IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, kernel.ioallocateworkitem, wdm/IoAllocateWorkItem

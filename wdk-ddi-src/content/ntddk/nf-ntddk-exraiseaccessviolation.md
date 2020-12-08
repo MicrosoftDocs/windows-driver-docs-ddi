@@ -4,7 +4,6 @@ title: ExRaiseAccessViolation function (ntddk.h)
 description: The ExRaiseAccessViolation routine can be used with structured exception handling to throw a driver-determined exception for a memory access violation that occurs when a driver processes I/O requests.
 old-location: kernel\exraiseaccessviolation.htm
 tech.root: kernel
-ms.assetid: c35e07c0-ffbd-4110-bb32-b47a512129dd
 ms.date: 04/30/2018
 keywords: ["ExRaiseAccessViolation function"]
 ms.keywords: ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation

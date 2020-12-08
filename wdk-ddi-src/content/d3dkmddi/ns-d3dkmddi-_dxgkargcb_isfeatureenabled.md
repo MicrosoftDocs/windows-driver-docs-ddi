@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_ISFEATUREENABLED
 title: _DXGKARGCB_ISFEATUREENABLED
 description: Arguments used to query the driver feature is enabled.
 tech.root: display
-ms.assetid: ebef9742-03ea-4402-a62e-9f45f11230cd
 ms.date: 04/04/2019
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
 ms.prod: windows-hardware

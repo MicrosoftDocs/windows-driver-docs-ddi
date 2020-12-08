@@ -4,7 +4,6 @@ title: _WWAN_ACE_STATE (wwan.h)
 description: The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
 old-location: netvista\wwan_ace_state.htm
 tech.root: netvista
-ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.date: 05/02/2018
 keywords: ["WWAN_ACE_STATE enumeration"]
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"

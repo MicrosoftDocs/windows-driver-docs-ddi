@@ -4,7 +4,6 @@ title: RILSMSREADYSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsreadystatus.htm
 tech.root: netvista
-ms.assetid: 0f2d6a06-18af-4e7a-9f88-c81d98575f56
 ms.date: 05/02/2018
 keywords: ["RILSMSREADYSTATUS structure"]
 ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus, ntddrilapitypes/RILSMSREADYSTATUS"

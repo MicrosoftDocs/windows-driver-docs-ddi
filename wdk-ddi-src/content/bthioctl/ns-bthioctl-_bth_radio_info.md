@@ -4,7 +4,6 @@ title: _BTH_RADIO_INFO (bthioctl.h)
 description: The BTH_RADIO_INFO structure contains information about a remote radio.
 old-location: bltooth\bth_radio_info.htm
 tech.root: bltooth
-ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.date: 04/27/2018
 keywords: ["BTH_RADIO_INFO structure"]
 ms.keywords: "*PBTH_RADIO_INFO, BTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], _BTH_RADIO_INFO, bltooth.bth_radio_info, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, bthioctl/BTH_RADIO_INFO, bthioctl/PBTH_RADIO_INFO"

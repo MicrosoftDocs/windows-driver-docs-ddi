@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_CURRENT_MDL_OFFSET
 title: NET_BUFFER_CURRENT_MDL_OFFSET macro (ndis.h)
 description: NET_BUFFER_CURRENT_MDL_OFFSET is a macro that NDIS drivers use to get the CurrentMdlOffset member of a NET_BUFFER structure.
 tech.root: netvista
-ms.assetid: 0ec50e00-4cb4-4844-9951-441fe7c13f0c
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_CURRENT_MDL_OFFSET macro"]
 ms.keywords: NET_BUFFER_CURRENT_MDL_OFFSET

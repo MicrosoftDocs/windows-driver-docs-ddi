@@ -4,7 +4,6 @@ title: IOCTL_BIOMETRIC_CAPTURE_DATA (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL directs the driver to retrieve the next scan of biometric data. This call should put the device into capture mode.Vendor-supplied WBDI drivers must support IOCTL_BIOMETRIC_CAPTURE_DATA.
 old-location: biometric\ioctl_biometric_capture_data.htm
 tech.root: biometric
-ms.assetid: 52c7007f-6038-41d8-b459-f0fa1b90fd5e
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CAPTURE_DATA, IOCTL_BIOMETRIC_CAPTURE_DATA control, IOCTL_BIOMETRIC_CAPTURE_DATA control code [Biometric Devices], biometric.ioctl_biometric_capture_data, biometric_ref_8337ca76-e92a-4efe-a73f-3f23c01f35c2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CAPTURE_DATA

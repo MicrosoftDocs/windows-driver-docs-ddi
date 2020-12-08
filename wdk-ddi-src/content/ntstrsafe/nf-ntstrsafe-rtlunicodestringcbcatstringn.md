@@ -4,7 +4,6 @@ title: RtlUnicodeStringCbCatStringN function (ntstrsafe.h)
 description: The RtlUnicodeStringCbCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
 old-location: kernel\rtlunicodestringcbcatstringn.htm
 tech.root: kernel
-ms.assetid: bc2139d2-9d59-4d19-a4b5-ce0a993a9846
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCbCatStringN function"]
 ms.keywords: RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringn, ntstrsafe/RtlUnicodeStringCbCatStringN, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml

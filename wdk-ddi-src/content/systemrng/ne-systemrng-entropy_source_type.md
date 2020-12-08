@@ -2,7 +2,6 @@
 UID: NE:systemrng.__unnamed_enum_0
 title: ENTROPY_SOURCE_TYPE (systemrng.h)
 description: 
-ms.assetid: c6c13e86-2973-4294-a531-aec524a07598
 ms.date: 11/19/2020
 keywords: ["ENTROPY_SOURCE_TYPE enumeration"]
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE,

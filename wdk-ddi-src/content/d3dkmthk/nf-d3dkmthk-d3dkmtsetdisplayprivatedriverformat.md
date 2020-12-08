@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTSetDisplayPrivateDriverFormat
 title: D3DKMTSetDisplayPrivateDriverFormat function (d3dkmthk.h)
 description: The D3DKMTSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\d3dkmtsetdisplayprivatedriverformat.htm
-ms.assetid: 4b720076-161f-47b4-b410-f9554e502a53
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetDisplayPrivateDriverFormat function"]
 ms.keywords: D3DKMTSetDisplayPrivateDriverFormat, D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, display.d3dkmtsetdisplayprivatedriverformat

@@ -4,7 +4,6 @@ title: _WHEA_PROCESSOR_FAMILY_INFO (ntddk.h)
 description: The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 old-location: whea\whea_processor_family_info.htm
 tech.root: whea
-ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.date: 02/20/2018
 keywords: ["WHEA_PROCESSOR_FAMILY_INFO structure"]
 ms.keywords: "*PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], _WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml"

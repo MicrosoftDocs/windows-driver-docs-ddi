@@ -4,7 +4,6 @@ title: EVT_POS_CX_DEVICE_REMOTE_RELEASE (poscx.h)
 description: The EVT_POS_CX_DEVICE_REMOTE_RELEASE callback is called whenever the device is released and left with no owner and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_release.htm
 tech.root: pos
-ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
 ms.date: 02/23/2018
 keywords: ["EVT_POS_CX_DEVICE_REMOTE_RELEASE callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE callback, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease

@@ -4,7 +4,6 @@ title: ChangerGetProductData function (mcd.h)
 description: ChangerGetProductData handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PRODUCT_DATA.
 old-location: storage\changergetproductdata.htm
 tech.root: storage
-ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.date: 03/29/2018
 keywords: ["ChangerGetProductData function"]
 ms.keywords: ChangerGetProductData, ChangerGetProductData function [Storage Devices], chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData, storage.changergetproductdata

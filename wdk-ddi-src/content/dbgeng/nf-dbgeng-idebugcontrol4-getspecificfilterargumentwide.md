@@ -4,7 +4,6 @@ title: IDebugControl4::GetSpecificFilterArgumentWide (dbgeng.h)
 description: The GetSpecificFilterArgumentWide method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargumentwide.htm
 tech.root: debugger
-ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetSpecificFilterArgumentWide"]
 ms.keywords: GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSpecificFilterArgumentWide method, IDebugControl4.GetSpecificFilterArgumentWide, IDebugControl4::GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide

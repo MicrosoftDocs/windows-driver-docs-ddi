@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_DESTROYALLOCATION
 title: _DXGKARG_DESTROYALLOCATION (d3dkmddi.h)
 description: The DXGKARG_DESTROYALLOCATION structure describes how the display miniport driver should release allocations.
 old-location: display\dxgkarg_destroyallocation.htm
-ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
 ms.date: 05/10/2018
 keywords: ["DXGKARG_DESTROYALLOCATION structure"]
 ms.keywords: DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, _DXGKARG_DESTROYALLOCATION, d3dkmddi/DXGKARG_DESTROYALLOCATION, display.dxgkarg_destroyallocation

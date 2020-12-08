@@ -2,7 +2,6 @@
 UID: NC:iddcx.PFN_IDDCXSWAPCHAINSETDEVICE
 title: PFN_IDDCXSWAPCHAINSETDEVICE (iddcx.h)
 description: PFN_IDDCXSWAPCHAINSETDEVICE is a pointer to an OS callback function that sets up the swap-chain with a particular DXGI device.
-ms.assetid: b1f26c55-3171-4421-9948-ebdeaea12454
 ms.date: 10/19/2018
 keywords: ["PFN_IDDCXSWAPCHAINSETDEVICE callback function"]
 req.header: iddcx.h

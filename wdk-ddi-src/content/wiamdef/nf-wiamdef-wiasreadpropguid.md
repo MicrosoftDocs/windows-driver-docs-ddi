@@ -4,7 +4,6 @@ title: wiasReadPropGuid function (wiamdef.h)
 description: The wiasReadPropGuid function retrieves a GUID property value from a WIA item.
 old-location: image\wiasreadpropguid.htm
 tech.root: image
-ms.assetid: 287bf42b-253a-4d1a-8879-c3ab89b6743a
 ms.date: 05/03/2018
 keywords: ["wiasReadPropGuid function"]
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]

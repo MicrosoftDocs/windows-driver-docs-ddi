@@ -4,7 +4,6 @@ title: WdfDeviceAssignInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceAssignInterfaceProperty method modifies the current value of a device interface property.
 old-location: wdf\wdfdeviceassigninterfaceproperty.htm
 tech.root: wdf
-ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignInterfaceProperty function"]
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty

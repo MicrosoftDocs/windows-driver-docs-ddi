@@ -4,7 +4,6 @@ title: IWDFDevice::RetrieveDeviceName (wudfddi.h)
 description: The RetrieveDeviceName method retrieves the name of an underlying kernel-mode device.
 old-location: wdf\iwdfdevice_retrievedevicename.htm
 tech.root: wdf
-ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::RetrieveDeviceName"]
 ms.keywords: IWDFDevice interface,RetrieveDeviceName method, IWDFDevice.RetrieveDeviceName, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method,IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, umdf.iwdfdevice_retrievedevicename, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName

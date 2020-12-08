@@ -2,7 +2,6 @@
 UID: NS:sidebandaudio.__unnamed_union_1
 title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM (sidebandaudio.h)
 description: Describes the variable I/O parameter.
-ms.assetid: 02dcc788-480c-44d9-811f-56ac20077ffa
 ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure"]
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM,

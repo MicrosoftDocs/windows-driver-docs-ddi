@@ -4,7 +4,6 @@ title: IDebugSymbols3::AddSyntheticModule (dbgeng.h)
 description: The AddSyntheticModule method adds a synthetic module to the module list the debugger maintains for the current process.
 old-location: debugger\addsyntheticmodule.htm
 tech.root: debugger
-ms.assetid: 87d9f307-996b-47df-b3dd-368fef6c1042
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AddSyntheticModule"]
 ms.keywords: AddSyntheticModule, AddSyntheticModule method [Windows Debugging], AddSyntheticModule method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticModule method, IDebugSymbols3.AddSyntheticModule, IDebugSymbols3::AddSyntheticModule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, dbgeng/IDebugSymbols3::AddSyntheticModule, debugger.addsyntheticmodule

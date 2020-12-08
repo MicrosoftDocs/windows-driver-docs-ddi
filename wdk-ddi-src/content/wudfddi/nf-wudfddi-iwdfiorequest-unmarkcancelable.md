@@ -4,7 +4,6 @@ title: IWDFIoRequest::UnmarkCancelable (wudfddi.h)
 description: The UnmarkCancelable method disables the canceling of an I/O request.
 old-location: wdf\iwdfiorequest_unmarkcancelable.htm
 tech.root: wdf
-ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::UnmarkCancelable"]
 ms.keywords: IWDFIoRequest interface,UnmarkCancelable method, IWDFIoRequest.UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable, UnmarkCancelable method, UnmarkCancelable method,IWDFIoRequest interface, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO
 title: DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO (d3dkmddi.h)
 description: The pfnCreateNewModeInfo function returns a pointer to a D3DKMDT_MONITOR_SOURCE_MODE structure that the display miniport driver populates before calling pfnAddMode.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo.htm
-ms.assetid: 314b345c-a40b-418d-a2d8-c7b42e5fd27d
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO callback function"]
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO, DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO callback, VidPnFunctions_4b8b1581-4518-471d-a79e-ed05899ad500.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]

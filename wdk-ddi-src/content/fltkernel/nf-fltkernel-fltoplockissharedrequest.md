@@ -4,7 +4,6 @@ title: FltOplockIsSharedRequest function (fltkernel.h)
 description: The FltOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fltoplockissharedrequest.htm
 tech.root: ifsk
-ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.date: 04/16/2018
 keywords: ["FltOplockIsSharedRequest function"]
 ms.keywords: FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest

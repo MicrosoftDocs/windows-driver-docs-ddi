@@ -4,7 +4,6 @@ title: IKeywordDetectorOemAdapter::ParseDetectionResultData (keyworddetectoroema
 description: The ParseDetectionResultData method is called by the operating system after handling a keyword detection event and after retrieving the result data from KSPROPERTY_SOUNDDETECTOR_MATCHRESULT.
 old-location: audio\ikeyworddetectoroemadapter_parsedetectionresultdata.htm
 tech.root: audio
-ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.date: 05/08/2018
 keywords: ["IKeywordDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData

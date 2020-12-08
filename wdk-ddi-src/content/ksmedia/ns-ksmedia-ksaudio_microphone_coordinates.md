@@ -4,7 +4,6 @@ title: KSAUDIO_MICROPHONE_COORDINATES (ksmedia.h)
 description: The KSAUDIO_MICROPHONE_COORDINATES structure specifies the type and the coordinates of a single microphone in the microphone array.
 old-location: audio\ksaudio_microphone_coordinates.htm
 tech.root: audio
-ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.date: 08/20/2020
 keywords: ["KSAUDIO_MICROPHONE_COORDINATES structure"]
 ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"

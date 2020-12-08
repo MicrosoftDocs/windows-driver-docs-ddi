@@ -4,7 +4,6 @@ title: RxUnregisterMinirdr function (rxstruc.h)
 description: RxUnregisterMinirdr is an inline routine called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.
 old-location: ifsk\rxunregisterminirdr.htm
 tech.root: ifsk
-ms.assetid: 090e5fc5-a0cf-4df2-b9b9-abaf4833aef7
 ms.date: 04/16/2018
 keywords: ["RxUnregisterMinirdr function"]
 ms.keywords: RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers], ifsk.rxunregisterminirdr, rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, rxstruc/RxUnregisterMinirdr

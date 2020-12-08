@@ -4,7 +4,6 @@ title: IWDTFActions2::Clear (wdtf.h)
 description: Removes all items from the collection.
 old-location: dtf\iwdtfactions2_clear.htm
 tech.root: dtf
-ms.assetid: f594e1f0-0e7f-4644-a97e-1fce58aa7c71
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::Clear"]
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Clear method, IWDTFActions2.Clear, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear

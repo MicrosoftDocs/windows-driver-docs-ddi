@@ -4,7 +4,6 @@ title: __RAW_READ_INFO (ntddcdrm.h)
 description: The RAW_READ_INFO structure is used in conjunction with the IOCTL_CDROM_RAW_READ request to read data from a CD-ROM in raw mode.
 old-location: storage\raw_read_info.htm
 tech.root: storage
-ms.assetid: 8786545d-39b2-4331-9d62-3b345eb58d1f
 ms.date: 03/29/2018
 keywords: ["_RAW_READ_INFO structure"]
 ms.keywords: "*PRAW_READ_INFO, PRAW_READ_INFO, PRAW_READ_INFO structure pointer [Storage Devices], RAW_READ_INFO, RAW_READ_INFO structure [Storage Devices], __RAW_READ_INFO, ntddcdrm/PRAW_READ_INFO, ntddcdrm/RAW_READ_INFO, storage.raw_read_info, structs-CD-ROM_4414d6ab-7048-4977-b373-58d1240f5262.xml"

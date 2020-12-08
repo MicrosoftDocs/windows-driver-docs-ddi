@@ -4,7 +4,6 @@ title: FILTER_NET_PNP_EVENT (ndis.h)
 description: NDIS calls a filter driver's FilterNetPnPEvent function to notify the driver of network Plug and Play (PnP) and Power Management events.Note  You must declare the function by using the FILTER_NET_PNP_EVENT type.
 old-location: netvista\filternetpnpevent.htm
 tech.root: netvista
-ms.assetid: 5c52b2d2-3fba-4d28-8172-7b6854386061
 ms.date: 05/02/2018
 keywords: ["FILTER_NET_PNP_EVENT callback function"]
 ms.keywords: FILTER_NET_PNP_EVENT, FILTER_NET_PNP_EVENT callback, FilterNetPnPEvent, FilterNetPnPEvent callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4d98cb8b-3f25-4e2c-abca-ac9c714f4a1a.xml, ndis/FilterNetPnPEvent, netvista.filternetpnpevent

@@ -2,7 +2,6 @@
 UID: NF:iddcx.IddCxSwapChainGetPhysicallyContiguousAddress
 title: IddCxSwapChainGetPhysicallyContiguousAddress
 ms.date: 10/20/2020
-ms.assetid: 129ed7f8-54b2-4153-b162-475eda6eeee4
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

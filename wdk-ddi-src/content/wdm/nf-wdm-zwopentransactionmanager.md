@@ -4,7 +4,6 @@ title: ZwOpenTransactionManager function (wdm.h)
 description: The ZwOpenTransactionManager routine obtains a handle to an existing transaction manager object.
 old-location: kernel\zwopentransactionmanager.htm
 tech.root: kernel
-ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.date: 04/30/2018
 keywords: ["ZwOpenTransactionManager function"]
 ms.keywords: NtOpenTransactionManager, ZwOpenTransactionManager, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwopentransactionmanager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, wdm/NtOpenTransactionManager, wdm/ZwOpenTransactionManager

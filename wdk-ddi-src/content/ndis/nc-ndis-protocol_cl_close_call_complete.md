@@ -4,7 +4,6 @@ title: PROTOCOL_CL_CLOSE_CALL_COMPLETE (ndis.h)
 description: The ProtocolClCloseCallComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclclosecallcomplete.htm
 tech.root: netvista
-ms.assetid: a7ba1ab2-04c9-45b5-a184-e1ad1448561a
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_CLOSE_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_CLOSE_CALL_COMPLETE, PROTOCOL_CL_CLOSE_CALL_COMPLETE callback, ProtocolClCloseCallComplete, ProtocolClCloseCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_a35e2fe4-8437-4c41-9ec1-13a8926108b5.xml, ndis/ProtocolClCloseCallComplete, netvista.protocolclclosecallcomplete

@@ -2,7 +2,6 @@
 UID: NC:iddcx.PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 title: PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 ms.date: 10/20/2020
-ms.assetid: 4a341b00-75f7-4af2-a3c0-d4dc7ee6718a
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

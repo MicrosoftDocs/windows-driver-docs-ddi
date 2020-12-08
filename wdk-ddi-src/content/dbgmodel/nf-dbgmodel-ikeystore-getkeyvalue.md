@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IKeyStore.GetKeyValue
 title: IKeyStore::GetKeyValue (dbgmodel.h)
 description: The GetKeyValue method is the first method a client will go to in order to find the value of a particular key within the metadata store.
-ms.assetid: 12f6e029-4a70-410d-8019-f132bb48479d
 ms.date: 08/13/2018
 keywords: ["IKeyStore::GetKeyValue"]
 ms.keywords: IKeyStore::GetKeyValue, GetKeyValue, IKeyStore.GetKeyValue, IKeyStore::GetKeyValue, IKeyStore.GetKeyValue

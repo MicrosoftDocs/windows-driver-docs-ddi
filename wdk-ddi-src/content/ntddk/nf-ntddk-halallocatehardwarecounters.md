@@ -4,7 +4,6 @@ title: HalAllocateHardwareCounters function (ntddk.h)
 description: The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.
 old-location: kernel\halallocatehardwarecounters.htm
 tech.root: kernel
-ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.date: 04/30/2018
 keywords: ["HalAllocateHardwareCounters function"]
 ms.keywords: HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters

@@ -2,7 +2,6 @@
 UID: NE:dbgmodel.RawSearchFlags
 title: RawSearchFlags (dbgmodel.h)
 description: Flags to GetRawValue/EnumerateRawValues.
-ms.assetid: 1f876ef9-9130-45f0-8c00-33f5f0e41344
 ms.date: 07/16/2018
 keywords: ["RawSearchFlags enumeration"]
 ms.keywords: RawSearchFlags, ,

@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO (ndiswwan.h)
 description: The NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure sets the executor-to-slot mapping relationship of the MB device.
 old-location: netvista\ndis_wwan_set_device_slot_mappings.htm
 tech.root: netvista
-ms.assetid: 5DAE5A36-1A2B-46DF-8CF1-FAC8B98460A8
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, ndiswwan/NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, ndiswwan/PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, netvista.ndis_wwan_set_device_slot_mappings"

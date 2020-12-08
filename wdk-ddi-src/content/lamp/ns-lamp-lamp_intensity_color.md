@@ -4,7 +4,6 @@ title: LAMP_INTENSITY_COLOR (lamp.h)
 description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_COLOR and IOCTL_LAMP_SET_INTENSITY_COLOR.
 old-location: stream\lamp_intensity_color.htm
 tech.root: stream
-ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.date: 04/23/2018
 keywords: ["LAMP_INTENSITY_COLOR structure"]
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color

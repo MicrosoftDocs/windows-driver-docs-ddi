@@ -4,7 +4,6 @@ title: tagKS_DATAFORMAT_H264VIDEOINFO (ksmedia.h)
 description: The KS_DATAFORMAT_H264VIDEOINFO structure describes the data formats range available for a stream.
 old-location: stream\ks_dataformat_h264videoinfo.htm
 tech.root: stream
-ms.assetid: 6D2C0245-542E-4749-B8F3-531BFA3800E3
 ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_H264VIDEOINFO structure"]
 ms.keywords: "*PKS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], PKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_H264VIDEOINFO, ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, tagKS_DATAFORMAT_H264VIDEOINFO"

@@ -3,7 +3,6 @@ UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_RSC
 title: EVT_NET_ADAPTER_OFFLOAD_SET_RSC (netadapteroffload.h)
 description: The EvtNetAdapterOffloadSetRsc callback function is implemented by the client driver to set changes in active receive segment coalescence (RSC) offload capabilities.
 tech.root: netvista
-ms.assetid: b23d877b-4f75-497b-8b2c-5082eaba2ba2
 ms.date: 11/07/2019
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RSC callback function"]
 req.header: netadapteroffload.h

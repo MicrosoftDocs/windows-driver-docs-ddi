@@ -4,7 +4,6 @@ title: FltSupportsStreamContexts function (fltkernel.h)
 description: FltSupportsStreamContexts determines whether stream contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamcontexts.htm
 tech.root: ifsk
-ms.assetid: ea1fd4d5-85c6-40ce-9feb-a2c22e9fe905
 ms.date: 04/16/2018
 keywords: ["FltSupportsStreamContexts function"]
 ms.keywords: FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, FltSupportsStreamContexts, FltSupportsStreamContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts

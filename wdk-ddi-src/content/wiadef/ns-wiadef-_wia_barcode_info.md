@@ -4,7 +4,6 @@ title: _WIA_BARCODE_INFO (wiadef.h)
 description: The WIA_BARCODE_INFO structure stores information for one decoded barcode.
 old-location: image\wia_barcode_info.htm
 tech.root: image
-ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.date: 05/03/2018
 keywords: ["WIA_BARCODE_INFO structure"]
 ms.keywords: WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _WIA_BARCODE_INFO, image.wia_barcode_info, wiadef/WIA_BARCODE_INFO

@@ -4,7 +4,6 @@ title: IPortClsStreamResourceManager2::AddStreamResource2 (portcls.h)
 description: AddStreamResource2 adds a stream resource. Two type of stream resources are supported:\_interrupts and driver-owned threads. The AddStreamResource2 method can only be used by audio waveRT miniport drivers.
 old-location: audio\iportclsstreamresourcemanager2_addstreamresource2.htm
 tech.root: audio
-ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.date: 05/08/2018
 keywords: ["IPortClsStreamResourceManager2::AddStreamResource2"]
 ms.keywords: AddStreamResource2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices],IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2 interface [Audio Devices],AddStreamResource2 method, IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2

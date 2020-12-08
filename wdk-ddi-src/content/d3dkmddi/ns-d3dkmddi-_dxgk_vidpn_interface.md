@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_VIDPN_INTERFACE
 title: _DXGK_VIDPN_INTERFACE (d3dkmddi.h)
 description: The DXGK_VIDPN_INTERFACE structure contains pointers to functions that belong to the VidPn interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpn_interface.htm
-ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.date: 05/10/2018
 keywords: ["DXGK_VIDPN_INTERFACE structure"]
 ms.keywords: DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE structure [Display Devices], DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, _DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, display.dxgk_vidpn_interface

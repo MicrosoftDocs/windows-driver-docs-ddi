@@ -4,7 +4,6 @@ title: WdfPdoRequestEject function (wdfpdo.h)
 description: The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfpdorequesteject.htm
 tech.root: wdf
-ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.date: 02/26/2018
 keywords: ["WdfPdoRequestEject function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject

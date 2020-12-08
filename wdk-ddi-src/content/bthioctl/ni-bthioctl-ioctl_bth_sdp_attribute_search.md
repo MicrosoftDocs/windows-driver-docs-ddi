@@ -4,7 +4,6 @@ title: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH (bthioctl.h)
 description: The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified SDP record.
 old-location: bltooth\ioctl_bth_sdp_attribute_search.htm
 tech.root: bltooth
-ms.assetid: 30daf70e-34d1-45f7-a69b-503e275b83af
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_attribute_search, bth_ioctls_19f12c1a-aaf5-4751-ba53-94054d3fb725.xml, bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH

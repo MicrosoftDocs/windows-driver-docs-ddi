@@ -4,7 +4,6 @@ title: IResourceList::NumberOfEntriesOfType (portcls.h)
 description: The NumberOfEntriesOfType method returns the number of resource items of a given type in the resource list. For each resource type, a macro is defined to call this method as previously described.
 old-location: audio\iresourcelist_numberofentriesoftype.htm
 tech.root: audio
-ms.assetid: 61645c17-9278-49e0-a0bf-24a8c52e964d
 ms.date: 05/08/2018
 keywords: ["IResourceList::NumberOfEntriesOfType"]
 ms.keywords: IResourceList interface [Audio Devices],NumberOfEntriesOfType method, IResourceList.NumberOfEntriesOfType, IResourceList::NumberOfEntriesOfType, NumberOfEntriesOfType, NumberOfEntriesOfType method [Audio Devices], NumberOfEntriesOfType method [Audio Devices],IResourceList interface, audio.iresourcelist_numberofentriesoftype, audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, portcls/IResourceList::NumberOfEntriesOfType

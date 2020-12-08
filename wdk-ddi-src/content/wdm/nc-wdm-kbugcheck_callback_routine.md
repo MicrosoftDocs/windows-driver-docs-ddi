@@ -4,7 +4,6 @@ title: KBUGCHECK_CALLBACK_ROUTINE (wdm.h)
 description: The BugCheckCallback routine is executed whenever the system issues a bug check.
 old-location: kernel\bugcheckcallback.htm
 tech.root: kernel
-ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.date: 05/03/2019
 keywords: ["KBUGCHECK_CALLBACK_ROUTINE callback function"]
 ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback

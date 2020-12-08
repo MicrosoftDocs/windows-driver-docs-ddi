@@ -4,7 +4,6 @@ title: _URB_CONTROL_GET_CONFIGURATION_REQUEST (usb.h)
 description: The _URB_CONTROL_GET_CONFIGURATION_REQUEST structure is used by USB client drivers to retrieve the current configuration for a device.
 old-location: buses\_urb_control_get_configuration_request.htm
 tech.root: usbref
-ms.assetid: 6f50b520-244e-4848-8696-969de82aa8ff
 ms.date: 05/07/2018
 keywords: ["URB_CONTROL_GET_CONFIGURATION_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_CONFIGURATION_REQUEST, _URB_CONTROL_GET_CONFIGURATION_REQUEST structure [Buses], buses._urb_control_get_configuration_request, usb/_URB_CONTROL_GET_CONFIGURATION_REQUEST, usbstrct_77d89ae2-eb81-48f0-b399-85d39a5feb6a.xml"

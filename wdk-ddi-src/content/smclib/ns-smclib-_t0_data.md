@@ -4,7 +4,6 @@ title: _T0_DATA (smclib.h)
 description: The T0_DATA structure is used by the smart card driver library to process T0 I/O.
 old-location: smartcrd\t0_data.htm
 tech.root: smartcrd
-ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.date: 02/22/2018
 keywords: ["T0_DATA structure"]
 ms.keywords: "*PT0_DATA, PT0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], T0_DATA, T0_DATA structure [Smart Card Reader Devices], _T0_DATA, smartcrd.t0_data, smclib/PT0_DATA, smclib/T0_DATA"

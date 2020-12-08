@@ -4,7 +4,6 @@ title: VideoPortInterlockedExchange function (video.h)
 description: The VideoPortInterlockedExchange function locks or unlocks a block of memory by setting a user-defined lock variable to TRUE or FALSE, respectively. It returns the previously-held value of the lock variable.
 old-location: display\videoportinterlockedexchange.htm
 tech.root: display
-ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.date: 05/10/2018
 keywords: ["VideoPortInterlockedExchange function"]
 ms.keywords: VideoPortInterlockedExchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange, video/VideoPortInterlockedExchange

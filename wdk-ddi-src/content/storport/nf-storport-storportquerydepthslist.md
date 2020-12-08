@@ -4,7 +4,6 @@ title: StorPortQueryDepthSList function (storport.h)
 description: Retrieves the number of entries in a Storport managed singly linked list.
 old-location: storage\storportquerydepthslist.htm
 tech.root: storage
-ms.assetid: 5E1CE999-8173-49B6-8CF7-F3A5B193A230
 ms.date: 03/29/2018
 keywords: ["StorPortQueryDepthSList function"]
 ms.keywords: StorPortQueryDepthSList, StorPortQueryDepthSList routine [Storage Devices], storage.storportquerydepthslist, storport/StorPortQueryDepthSList

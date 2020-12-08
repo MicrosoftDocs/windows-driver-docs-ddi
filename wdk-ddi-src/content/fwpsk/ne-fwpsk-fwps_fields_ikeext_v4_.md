@@ -4,7 +4,6 @@ title: FWPS_FIELDS_IKEEXT_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_IKEEXT_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_IKEEXT_V4 run-time filtering layer.
 old-location: netvista\fwps_fields_ikeext_v4.htm
 tech.root: netvista
-ms.assetid: 5d2a7eda-343b-4713-9481-6f54f713811f
 ms.date: 05/02/2018
 keywords: ["FWPS_FIELDS_IKEEXT_V4_ enumeration"]
 ms.keywords: FWPS_FIELDS_IKEEXT_V4, FWPS_FIELDS_IKEEXT_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IKEEXT_V4_, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V4_MAX, FWPS_FIELD_IKEEXT_V4_PROFILE_ID, fwpsk/FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_MAX, fwpsk/FWPS_FIELD_IKEEXT_V4_PROFILE_ID, netvista.fwps_fields_ikeext_v4, wfp_ref_5_const_3_data_fields_c891b6cd-82a0-45f1-9284-97d89aaeef6e.xml

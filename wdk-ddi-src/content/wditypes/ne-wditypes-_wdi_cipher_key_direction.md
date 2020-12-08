@@ -4,7 +4,6 @@ title: _WDI_CIPHER_KEY_DIRECTION (wditypes.h)
 description: The WDI_CIPHER_KEY_DIRECTION enumeration defines the traffic directions decrypted by a cipher key.
 old-location: netvista\wdi_cipher_key_direction.htm
 tech.root: netvista
-ms.assetid: BE054858-F61A-488B-87A3-615A646C27F0
 ms.date: 05/02/2018
 keywords: ["WDI_CIPHER_KEY_DIRECTION enumeration"]
 ms.keywords: WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION enumeration [Device and Driver Installation], WDI_CIPHER_KEY_DIRECTION_BOTH, WDI_CIPHER_KEY_DIRECTION_INBOUND, WDI_CIPHER_KEY_DIRECTION_OUTBOUND, _WDI_CIPHER_KEY_DIRECTION, netvista.wdi_cipher_key_direction, netvista.wifi_cipher_key_direction, wditypes/WDI_CIPHER_KEY_DIRECTION, wditypes/WDI_CIPHER_KEY_DIRECTION_BOTH, wditypes/WDI_CIPHER_KEY_DIRECTION_INBOUND, wditypes/WDI_CIPHER_KEY_DIRECTION_OUTBOUND

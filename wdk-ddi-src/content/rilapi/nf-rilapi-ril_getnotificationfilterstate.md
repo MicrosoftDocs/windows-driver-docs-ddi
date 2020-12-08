@@ -4,7 +4,6 @@ title: RIL_GetNotificationFilterState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getnotificationfilterstate.htm
 tech.root: netvista
-ms.assetid: 143eca3c-fa20-4731-bdfe-c48b929febcb
 ms.date: 05/02/2018
 keywords: ["RIL_GetNotificationFilterState function"]
 ms.keywords: RIL_GetNotificationFilterState, RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_getnotificationfilterstate, rilapi/RIL_GetNotificationFilterState

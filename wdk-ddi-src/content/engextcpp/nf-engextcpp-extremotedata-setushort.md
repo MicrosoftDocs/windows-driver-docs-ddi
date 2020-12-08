@@ -4,7 +4,6 @@ title: ExtRemoteData::SetUshort method (engextcpp.h)
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
-ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
 keywords: ["ExtRemoteData::SetUshort method"]
 ms.keywords: ExtRemoteData::SetChar, SetLong64, ExtRemoteData::SetUlongPtr, ExtRemoteData::SetPtr, SetUlong, ExtRemoteData::SetStdBool, ExtRemoteData::SetUchar, ExtRemoteData::SetUshort, ExtRemoteData::SetData, SetLongPtr, SetBoolean, SetLong, SetUlongPtr, SetUshort, SetUlong64, SetUchar, ExtRemoteData::SetFloat, SetDouble, ExtRemoteData, ExtRemoteData::SetLong64, SetShort, SetChar, ExtRemoteData::SetLong, ExtRemoteData::SetBoolean, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, ExtRemoteData::SetShort, ExtRemoteData::SetLongPtr, SetPtr, SetFloat, debugger.extremotedata, ExtRemoteData class [Windows Debugging], ExtRemoteData::SetUlong, engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetStdBool, ExtRemoteData::Clear, SetData, ExtRemoteData::SetUlong64

@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT
 title: _D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether multiplane overlay HUD is supported.
-ms.assetid: 8fa26323-c7c7-471a-9853-5d96269de445
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT structure"]
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT,

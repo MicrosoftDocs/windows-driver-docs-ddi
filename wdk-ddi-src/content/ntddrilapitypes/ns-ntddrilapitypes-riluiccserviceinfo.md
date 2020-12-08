@@ -4,7 +4,6 @@ title: RILUICCSERVICEINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccserviceinfo.htm
 tech.root: netvista
-ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.date: 05/02/2018
 keywords: ["RILUICCSERVICEINFO structure"]
 ms.keywords: "*LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO"

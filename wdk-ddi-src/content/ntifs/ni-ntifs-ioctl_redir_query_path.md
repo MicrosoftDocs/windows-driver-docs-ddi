@@ -4,7 +4,6 @@ title: IOCTL_REDIR_QUERY_PATH (ntifs.h)
 description: The IOCTL_REDIR_QUERY_PATH control code is sent by the multiple UNC provider (MUP) to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request.
 old-location: ifsk\ioctl_redir_query_path.htm
 tech.root: ifsk
-ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
 ms.date: 04/16/2018
 keywords: ["IOCTL_REDIR_QUERY_PATH IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH

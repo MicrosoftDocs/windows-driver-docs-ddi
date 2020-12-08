@@ -4,7 +4,6 @@ title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID (mountdev.h)
 description: Support for this IOCTL by mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_unique_id.htm
 tech.root: storage
-ms.assetid: 866b9383-d73d-4be1-a4de-b78c9558c3ce
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code [Storage Devices], k307_5dd8b350-65b5-4f59-b96f-cae11fe7fb5b.xml, mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, storage.ioctl_mountdev_query_unique_id

@@ -4,7 +4,6 @@ title: IoCheckLinkShareAccess function (wdm.h)
 description: The IoCheckLinkShareAccess routine is called by file system drivers (FSDs) or other highest-level drivers to check whether link shared access to a file object is permitted.
 old-location: kernel\iochecklinkshareaccess.htm
 tech.root: kernel
-ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.date: 04/30/2018
 keywords: ["IoCheckLinkShareAccess function"]
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess

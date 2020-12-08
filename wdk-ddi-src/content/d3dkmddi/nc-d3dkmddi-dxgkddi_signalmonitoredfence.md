@@ -2,7 +2,6 @@
 UID: NC:d3dkmddi.DXGKDDI_SIGNALMONITOREDFENCE
 title: DXGKDDI_SIGNALMONITOREDFENCE (d3dkmddi.h)
 description: Adds a GPU instruction to signal the paging monitored fence object to the DMA buffer.
-ms.assetid: d69e18f4-9323-4be5-ad35-3fd009c66b34
 ms.date: 10/19/2018
 keywords: ["DXGKDDI_SIGNALMONITOREDFENCE callback function"]
 req.header: d3dkmddi.h

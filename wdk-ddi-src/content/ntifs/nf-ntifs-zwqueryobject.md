@@ -4,7 +4,6 @@ title: ZwQueryObject function (ntifs.h)
 description: The ZwQueryObject routine provides information about a supplied object.
 old-location: kernel\zwqueryobject.htm
 tech.root: kernel
-ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.date: 04/30/2018
 keywords: ["ZwQueryObject function"]
 ms.keywords: NtQueryObject, ZwQueryObject, ZwQueryObject routine [Kernel-Mode Driver Architecture], k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, kernel.zwqueryobject, ntifs/NtQueryObject, ntifs/ZwQueryObject

@@ -3,7 +3,6 @@ UID: NF:ntddndis.NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY
 title: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY macro to access the extensible switch property buffer that is specified by an NDIS_SWITCH_PROPERTY_ENUM_INFO structure.
 tech.root: netvista
-ms.assetid: 660db1e9-15a3-4002-833c-07bdb191c6b9
 ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY macro"]
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY

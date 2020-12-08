@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003
 title: PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003 (d3d12umddi.h)
 description: The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003 callback function creates a depth stencil state.
-ms.assetid: 10f04c3d-f9bd-45fa-886d-662e9cd58fd4
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003 callback function"]
 req.header: d3d12umddi.h

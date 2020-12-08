@@ -4,7 +4,6 @@ title: WPD_PARAMETER_USAGE_TYPES (portabledevice.h)
 description: The WPD_PARAMETER_USAGE_TYPES enumeration type specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_parameter_usage_types.htm
 tech.root: wpd_dk
-ms.assetid: 0359017b-42a1-414b-a19d-89e29a0df8eb
 ms.date: 02/15/2018
 keywords: ["tagWPD_PARAMETER_USAGE_TYPES enumeration"]
 ms.keywords: WPD_PARAMETER_USAGE_IN, WPD_PARAMETER_USAGE_INOUT, WPD_PARAMETER_USAGE_OUT, WPD_PARAMETER_USAGE_RETURN, WPD_PARAMETER_USAGE_TYPES, WPD_PARAMETER_USAGE_TYPES enumeration, portabledevice/WPD_PARAMETER_USAGE_IN, portabledevice/WPD_PARAMETER_USAGE_INOUT, portabledevice/WPD_PARAMETER_USAGE_OUT, portabledevice/WPD_PARAMETER_USAGE_RETURN, portabledevice/WPD_PARAMETER_USAGE_TYPES, tagWPD_PARAMETER_USAGE_TYPES, wpddk.wpd_parameter_usage_types

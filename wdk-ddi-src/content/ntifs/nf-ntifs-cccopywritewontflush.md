@@ -4,7 +4,6 @@ title: CcCopyWriteWontFlush function (ntifs.h)
 description: The CcCopyWriteWontFlush macro determines whether the amount of data to be copied in a call to CcCopyWrite is small enough not to require immediate flushing to disk if CcCopyWrite is called with Wait set to FALSE.
 old-location: ifsk\cccopywritewontflush.htm
 tech.root: ifsk
-ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.date: 04/16/2018
 keywords: ["CcCopyWriteWontFlush function"]
 ms.keywords: CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush

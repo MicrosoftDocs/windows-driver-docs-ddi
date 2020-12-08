@@ -4,7 +4,6 @@ title: _D3DHAL_DP2ADDDIRTYBOX (d3dhal.h)
 description: DirectX 8.1 and later versions only. D3DHAL_DP2ADDDIRTYBOX is used to specify that a portion of a 3D resource--a volume texture--was dirtied in system memory. Therefore, this volume must be reloaded into video memory before being used.
 old-location: display\d3dhal_dp2adddirtybox.htm
 tech.root: display
-ms.assetid: 9cb74a6f-64ae-449a-a1de-6b05419e3387
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2ADDDIRTYBOX structure"]
 ms.keywords: "*LPD3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], LPD3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], _D3DHAL_DP2ADDDIRTYBOX, d3dhal/D3DHAL_DP2ADDDIRTYBOX, d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, display.d3dhal_dp2adddirtybox"

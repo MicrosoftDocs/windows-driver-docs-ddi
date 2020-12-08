@@ -5,7 +5,6 @@ ms.date: 04/02/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: whea
-ms.assetid: cef88e58-17d5-47eb-b8e7-5a73aa390da5
 description: 
 req.assembly: 
 req.construct-type: function

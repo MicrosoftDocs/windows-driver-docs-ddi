@@ -4,7 +4,6 @@ title: RILPHONEBOOKENTRYPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookentryparammask.htm
 tech.root: netvista
-ms.assetid: 6c3f8053-1cb7-44e8-be17-47678b224fa9
 ms.date: 05/02/2018
 keywords: ["RILPHONEBOOKENTRYPARAMMASK enumeration"]
 ms.keywords: RILPHONEBOOKENTRYPARAMMASK, RILPHONEBOOKENTRYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_ADDITIONALNUMOFFSET, RIL_PARAM_PBE_ADDITIONALNUMSIZE, RIL_PARAM_PBE_ADDRESS, RIL_PARAM_PBE_ALL, RIL_PARAM_PBE_EMAILCOUNT, RIL_PARAM_PBE_EMAILOFFSET, RIL_PARAM_PBE_EMAILSIZE, RIL_PARAM_PBE_GROUPID, RIL_PARAM_PBE_GROUPIDCOUNT, RIL_PARAM_PBE_SECONDNAME, RIL_PARAM_PBE_TEXT, netvista.rilphonebookentryparammask, ntddrilapitypes/RILPHONEBOOKENTRYPARAMMASK, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMCOUNT, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMOFFSET, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMSIZE, ntddrilapitypes/RIL_PARAM_PBE_ADDRESS, ntddrilapitypes/RIL_PARAM_PBE_ALL, ntddrilapitypes/RIL_PARAM_PBE_EMAILCOUNT, ntddrilapitypes/RIL_PARAM_PBE_EMAILOFFSET, ntddrilapitypes/RIL_PARAM_PBE_EMAILSIZE, ntddrilapitypes/RIL_PARAM_PBE_GROUPID, ntddrilapitypes/RIL_PARAM_PBE_GROUPIDCOUNT, ntddrilapitypes/RIL_PARAM_PBE_SECONDNAME, ntddrilapitypes/RIL_PARAM_PBE_TEXT

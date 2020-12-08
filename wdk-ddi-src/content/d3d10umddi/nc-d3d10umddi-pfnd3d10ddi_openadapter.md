@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_OPENADAPTER
 title: PFND3D10DDI_OPENADAPTER (d3d10umddi.h)
 description: The OpenAdapter10 function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter10.htm
-ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_OPENADAPTER callback function"]
 ms.keywords: OpenAdapter10, OpenAdapter10 callback function [Display Devices], PFND3D10DDI_OPENADAPTER, PFND3D10DDI_OPENADAPTER callback, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml, d3d10umddi/OpenAdapter10, display.openadapter10

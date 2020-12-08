@@ -4,7 +4,6 @@ title: _USB_NODE_CONNECTION_INFORMATION (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION structure is used with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION request to retrieve information about a USB port and connected device.
 old-location: buses\usb_node_connection_information.htm
 tech.root: usbref
-ms.assetid: 1ed92343-c830-4e5e-a2f8-30b20057b1f0
 ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_INFORMATION structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION structure [Buses], _USB_NODE_CONNECTION_INFORMATION, buses.usb_node_connection_information, usbioctl/PUSB_NODE_CONNECTION_INFORMATION, usbioctl/USB_NODE_CONNECTION_INFORMATION, usbstrct_3c58e495-9552-4e38-81ac-45c23d964825.xml"

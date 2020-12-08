@@ -4,7 +4,6 @@ title: NdisCompleteNetPnPEvent function (ndis.h)
 description: Protocol drivers call the NdisCompleteNetPnPEvent function to complete a response to a Plug and Play or Power Management event for which the caller's ProtocolNetPnPEvent function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompletenetpnpevent.htm
 tech.root: netvista
-ms.assetid: 2a59e6a1-d018-4b95-8e50-8351a3b69d86
 ms.date: 05/02/2018
 keywords: ["NdisCompleteNetPnPEvent function"]
 ms.keywords: NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml

@@ -4,7 +4,6 @@ title: InterlockedXor function (miniport.h)
 description: The InterlockedOr routine atomically computes a bitwise exclusive OR operation.
 old-location: kernel\interlockedxor.htm
 tech.root: kernel
-ms.assetid: 3ddf62f1-ce5d-4d55-9964-8d1786ac2997
 ms.date: 04/30/2018
 keywords: ["InterlockedXor function"]
 ms.keywords: InterlockedXor, InterlockedXor routine [Kernel-Mode Driver Architecture], k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, kernel.interlockedxor, wdm/InterlockedXor

@@ -4,7 +4,6 @@ title: _GetPortAttributesByWWN_IN (hbapiwmi.h)
 description: The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the GetPortAttributesByWWN WMI method.
 old-location: storage\getportattributesbywwn_in.htm
 tech.root: storage
-ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.date: 03/29/2018
 keywords: ["GetPortAttributesByWWN_IN structure"]
 ms.keywords: "*PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], _GetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, hbapiwmi/PGetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml"

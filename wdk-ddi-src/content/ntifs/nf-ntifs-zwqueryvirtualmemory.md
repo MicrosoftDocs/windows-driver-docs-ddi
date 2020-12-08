@@ -4,7 +4,6 @@ title: ZwQueryVirtualMemory function (ntifs.h)
 description: The ZwQueryVirtualMemory routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel
-ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.date: 04/30/2018
 keywords: ["ZwQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory

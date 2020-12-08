@@ -4,7 +4,6 @@ title: DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetunicastcipheralgorithm.htm
 tech.root: netvista
-ms.assetid: 3e8c16ae-8e47-48fe-9df3-d4e582fe5fbb
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback"]
 ms.keywords: DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM, Dot11ExtSetUnicastCipherAlgorithm, Dot11ExtSetUnicastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ac7afe15-117d-4c7d-adf9-4f96da7a914a.xml, netvista.dot11extsetunicastcipheralgorithm, wlanihv/Dot11ExtSetUnicastCipherAlgorithm

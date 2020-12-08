@@ -4,7 +4,6 @@ title: IDrmAudioStream (drmk.h)
 description: The IDrmAudioStream interface assigns DRM protection to the digital content in an audio stream.
 old-location: audio\idrmaudiostream.htm
 tech.root: audio
-ms.assetid: 18c90367-f87d-4028-af58-cfb65e8ff01b
 ms.date: 05/08/2018
 keywords: ["IDrmAudioStream interface"]
 ms.keywords: IDrmAudioStream, IDrmAudioStream interface [Audio Devices], IDrmAudioStream interface [Audio Devices],described, audio.idrmaudiostream, audmp-routines_aba04fe2-a050-48c5-82ba-3ce454e0bc84.xml, drmk/IDrmAudioStream

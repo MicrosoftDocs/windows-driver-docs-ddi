@@ -4,7 +4,6 @@ title: IOCTL_VPCI_READ_BLOCK (vpci.h)
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues an IOCTL_VPCI_READ_BLOCK I/O control code (IOCTL) in order to read data from a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
 old-location: pci\ioctl_vpci_read_block.htm
 tech.root: PCI
-ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
 ms.date: 02/24/2018
 keywords: ["IOCTL_VPCI_READ_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_READ_BLOCK, IOCTL_VPCI_READ_BLOCK control code, PCI.ioctl_vpci_read_block, vpci/IOCTL_VPCI_READ_BLOCK

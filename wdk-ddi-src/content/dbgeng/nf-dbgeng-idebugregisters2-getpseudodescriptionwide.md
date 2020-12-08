@@ -4,7 +4,6 @@ title: IDebugRegisters2::GetPseudoDescriptionWide (dbgeng.h)
 description: The GetPseudoDescriptionWide method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescriptionwide.htm
 tech.root: debugger
-ms.assetid: fcf2409a-aedf-4de3-ad17-7edbc810f7be
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetPseudoDescriptionWide"]
 ms.keywords: GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], GetPseudoDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescriptionWide method, IDebugRegisters2.GetPseudoDescriptionWide, IDebugRegisters2::GetPseudoDescriptionWide, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, debugger.getpseudodescriptionwide

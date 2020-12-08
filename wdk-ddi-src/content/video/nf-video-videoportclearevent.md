@@ -4,7 +4,6 @@ title: VideoPortClearEvent function (video.h)
 description: The VideoPortClearEvent function sets a given event object to the nonsignaled state.
 old-location: display\videoportclearevent.htm
 tech.root: display
-ms.assetid: 70b9b8b4-8adc-4628-a37b-b513ecaca9ca
 ms.date: 05/10/2018
 keywords: ["VideoPortClearEvent function"]
 ms.keywords: VideoPortClearEvent, VideoPortClearEvent function [Display Devices], VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, display.videoportclearevent, video/VideoPortClearEvent

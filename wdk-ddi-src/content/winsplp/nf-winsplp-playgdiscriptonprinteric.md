@@ -4,7 +4,6 @@ title: PlayGdiScriptOnPrinterIC function (winsplp.h)
 description: 
 old-location: print\playgdiscriptonprinteric.htm
 tech.root: print
-ms.assetid: DB5FCF40-77C2-4741-9E6B-77A9CD98E29A
 ms.date: 04/20/2018
 keywords: ["PlayGdiScriptOnPrinterIC function"]
 ms.keywords: PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, winsplp/PlayGdiScriptOnPrinterIC

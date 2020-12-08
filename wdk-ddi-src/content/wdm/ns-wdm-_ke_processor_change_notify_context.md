@@ -4,7 +4,6 @@ title: _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT (wdm.h)
 description: The KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure describes the notification context that is passed to a registered callback function when a new processor is dynamically added to a hardware partition.
 old-location: kernel\ke_processor_change_notify_context.htm
 tech.root: kernel
-ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.date: 04/30/2018
 keywords: ["KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure"]
 ms.keywords: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"

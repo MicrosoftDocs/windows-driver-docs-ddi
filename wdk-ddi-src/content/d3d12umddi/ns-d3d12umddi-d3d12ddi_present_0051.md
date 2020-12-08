@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_PRESENT_0051
 title: D3D12DDI_PRESENT_0051 (d3d12umddi.h)
 description: Arguments that describe allocations that content is copied to and from.
-ms.assetid: 517113ed-c43c-4041-9714-5c0d8e89d276
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_PRESENT_0051 structure"]
 ms.keywords: D3D12DDI_PRESENT_0051, D3D12DDI_PRESENT_0051,

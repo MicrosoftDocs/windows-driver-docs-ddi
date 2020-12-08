@@ -4,7 +4,6 @@ title: KSDS3D_LISTENER_ALL (ksmedia.h)
 description: The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSound 3D listener. This structure is used to get or set the data value for the KSPROPERTY_DIRECTSOUND3DLISTENER_ALL property.
 old-location: audio\ksds3d_listener_all.htm
 tech.root: audio
-ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.date: 05/08/2018
 keywords: ["KSDS3D_LISTENER_ALL structure"]
 ms.keywords: "*PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, audio.ksds3d_listener_all, ksmedia/KSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL"

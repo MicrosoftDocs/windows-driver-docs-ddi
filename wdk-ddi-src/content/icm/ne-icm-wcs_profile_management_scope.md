@@ -4,7 +4,6 @@ title: WCS_PROFILE_MANAGEMENT_SCOPE (icm.h)
 description: The WCS_PROFILE_MANAGEMENT_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.
 old-location: print\wcs_profile_management_scope.htm
 tech.root: print
-ms.assetid: 85909f39-7923-4e2a-ad37-66b071775b5f
 ms.date: 08/13/2020
 keywords: ["WCS_PROFILE_MANAGEMENT_SCOPE enumeration"]
 ms.keywords: WCS_PROFILE_MANAGEMENT_SCOPE, WCS_PROFILE_MANAGEMENT_SCOPE enumeration [Print Devices], WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, colorfnc_b2538ca0-b062-408d-a9f4-52c06c0b3ced.xml, icm/WCS_PROFILE_MANAGEMENT_SCOPE, icm/WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, icm/WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, print.wcs_profile_management_scope

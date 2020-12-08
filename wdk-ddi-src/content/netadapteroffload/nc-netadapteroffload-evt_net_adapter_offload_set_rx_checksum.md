@@ -3,7 +3,6 @@ UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM (netadapteroffload.h)
 description: The client driver implements the EvtNetAdapterOffloadSetRxChecksum callback function to set changes in Rx checksum offload capabilities.
 tech.root: netvista
-ms.assetid: 
 ms.date: 10/06/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM callback function"]
 f1_keywords:

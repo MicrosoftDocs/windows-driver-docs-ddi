@@ -4,7 +4,6 @@ title: PCEVENT_ITEM (portcls.h)
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.
 old-location: audio\pcevent_item.htm
 tech.root: audio
-ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.date: 05/08/2018
 keywords: ["PCEVENT_ITEM structure"]
 ms.keywords: "*PPCEVENT_ITEM, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PCEVENT_ITEM, portcls/PPCEVENT_ITEM"

@@ -4,7 +4,6 @@ title: _D3DKMDT_GDISURFACEDATA (d3dkmdt.h)
 description: The D3DKMDT_GDISURFACEDATA structure describes surfaces that are used by GDI hardware acceleration and the Desktop Window Manager (DWM).
 old-location: display\d3dkmdt_gdisurfacedata.htm
 tech.root: display
-ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_GDISURFACEDATA structure"]
 ms.keywords: D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA structure [Display Devices], DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, _D3DKMDT_GDISURFACEDATA, d3dkmdt/D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata

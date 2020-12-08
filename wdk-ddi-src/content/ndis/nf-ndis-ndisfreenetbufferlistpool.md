@@ -4,7 +4,6 @@ title: NdisFreeNetBufferListPool function (ndis.h)
 description: Call the NdisFreeNetBufferListPool function to free a NET_BUFFER_LIST structure pool.
 old-location: netvista\ndisfreenetbufferlistpool.htm
 tech.root: netvista
-ms.assetid: 811df5ea-f5e6-4986-adc0-c5fa95e5f072
 ms.date: 05/02/2018
 keywords: ["NdisFreeNetBufferListPool function"]
 ms.keywords: NdisFreeNetBufferListPool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListPool, ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml, netvista.ndisfreenetbufferlistpool

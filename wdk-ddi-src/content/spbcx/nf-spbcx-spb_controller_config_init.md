@@ -4,7 +4,6 @@ title: SPB_CONTROLLER_CONFIG_INIT function (spbcx.h)
 description: The SPB_CONTROLLER_CONFIG_INIT function initializes an SPB_CONTROLLER_CONFIG structure.
 old-location: spb\spb_controller_config_init.htm
 tech.root: SPB
-ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.date: 04/30/2018
 keywords: ["SPB_CONTROLLER_CONFIG_INIT function"]
 ms.keywords: SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], spbcx/SPB_CONTROLLER_CONFIG_INIT

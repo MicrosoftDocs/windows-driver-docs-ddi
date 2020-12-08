@@ -4,7 +4,6 @@ title: FwpsAleEndpointGetById0 function (fwpsk.h)
 description: The FwpsAleEndpointGetById0 function retrieves information about an application layer enforcement (ALE) endpoint.Note  FwpsAleEndpointGetById0 is a specific version of FwpsAleEndpointGetById.
 old-location: netvista\fwpsaleendpointgetbyid0.htm
 tech.root: netvista
-ms.assetid: fa9a5078-d254-4b4a-bbfb-256491beff5f
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointGetById0 function"]
 ms.keywords: FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml

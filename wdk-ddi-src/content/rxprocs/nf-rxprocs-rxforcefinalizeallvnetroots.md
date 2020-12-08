@@ -4,7 +4,6 @@ title: RxForceFinalizeAllVNetRoots function (rxprocs.h)
 description: RxForceFinalizeAllVNetRoots force finalizes all the V_NET_ROOT structures associated with a given NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxforcefinalizeallvnetroots.htm
 tech.root: ifsk
-ms.assetid: 39b64fc0-70e6-4bca-ac45-817b27681487
 ms.date: 04/16/2018
 keywords: ["RxForceFinalizeAllVNetRoots function"]
 ms.keywords: RxForceFinalizeAllVNetRoots, RxForceFinalizeAllVNetRoots function [Installable File System Drivers], ifsk.rxforcefinalizeallvnetroots, rxprocs/RxForceFinalizeAllVNetRoots, rxref_4202642f-d7a8-4649-8395-4f2e423ca062.xml

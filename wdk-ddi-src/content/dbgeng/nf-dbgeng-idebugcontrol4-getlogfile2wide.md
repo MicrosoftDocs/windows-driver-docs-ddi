@@ -4,7 +4,6 @@ title: IDebugControl4::GetLogFile2Wide (dbgeng.h)
 description: The GetLogFile2Wide method returns the name of the currently open log file.
 old-location: debugger\getlogfile2wide.htm
 tech.root: debugger
-ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetLogFile2Wide"]
 ms.keywords: GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2Wide method, IDebugControl4.GetLogFile2Wide, IDebugControl4::GetLogFile2Wide, dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide

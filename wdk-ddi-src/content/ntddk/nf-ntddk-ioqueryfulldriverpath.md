@@ -4,7 +4,6 @@ title: IoQueryFullDriverPath function (ntddk.h)
 description: The IoQueryFullDriverPath routine retrieves the full path name of the binary file that is loaded for the specified driver object.
 old-location: kernel\ioqueryfulldriverpath.htm
 tech.root: kernel
-ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.date: 04/30/2018
 keywords: ["IoQueryFullDriverPath function"]
 ms.keywords: IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath

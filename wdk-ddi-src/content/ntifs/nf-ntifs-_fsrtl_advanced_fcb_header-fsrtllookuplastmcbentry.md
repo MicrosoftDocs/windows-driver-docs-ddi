@@ -4,7 +4,6 @@ title: FsRtlLookupLastMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtllookuplastmcbentry.htm
 tech.root: ifsk
-ms.assetid: f0e36d06-c5c2-42d6-ac43-c3d72dd789c8
 ms.date: 04/16/2018
 keywords: ["FsRtlLookupLastMcbEntry function"]
 ms.keywords: FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry

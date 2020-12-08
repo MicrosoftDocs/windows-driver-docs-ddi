@@ -4,7 +4,6 @@ title: IOCTL_DISK_INTERNAL_SET_VERIFY (ntdddisk.h)
 description: Allows a driver to set the verify bit on a disk device object if the mode of the caller is kernel mode.
 old-location: storage\ioctl_disk_internal_set_verify.htm
 tech.root: storage
-ms.assetid: ddfca68f-142e-4e6a-9307-04a3136a4135
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_INTERNAL_SET_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_INTERNAL_SET_VERIFY, IOCTL_DISK_INTERNAL_SET_VERIFY control, IOCTL_DISK_INTERNAL_SET_VERIFY control code [Storage Devices], k307_d97d4ec3-63c0-4041-9953-8727b1b82e66.xml, ntdddisk/IOCTL_DISK_INTERNAL_SET_VERIFY, storage.ioctl_disk_internal_set_verify

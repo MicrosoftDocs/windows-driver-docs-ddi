@@ -2,7 +2,6 @@
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BRIGHTNESS
 title: IOCTL_PANEL_SET_BRIGHTNESS (ntddvdeo.h)
 description: Sets the brightness for the display panel.
-ms.assetid: 7fa5e82d-90fa-4e99-a33d-c2519ff619aa
 ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_SET_BRIGHTNESS IOCTL"]
 req.header: ntddvdeo.h

@@ -4,7 +4,6 @@ title: EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER (sercx.h)
 description: The EvtSerCx2PioTransmitWriteBuffer event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer the contents of a write buffer to the transmit FIFO in the serial controller.
 old-location: serports\evtsercx2piotransmitwritebuffer.htm
 tech.root: serports
-ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer

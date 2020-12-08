@@ -4,7 +4,6 @@ title: IDebugSymbols2::GetTypeSize (dbgeng.h)
 description: The GetTypeSize method returns the number of bytes of memory an instance of the specified type requires.
 old-location: debugger\gettypesize2.htm
 tech.root: debugger
-ms.assetid: b6f03eb5-e386-4e88-a729-db08f1fa460c
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetTypeSize"]
 ms.keywords: GetTypeSize, GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging],IDebugSymbols interface, GetTypeSize method [Windows Debugging],IDebugSymbols2 interface, GetTypeSize method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeSize method, IDebugSymbols2 interface [Windows Debugging],GetTypeSize method, IDebugSymbols2.GetTypeSize, IDebugSymbols2::GetTypeSize, IDebugSymbols3 interface [Windows Debugging],GetTypeSize method, IDebugSymbols3::GetTypeSize, IDebugSymbols::GetTypeSize, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, dbgeng/IDebugSymbols2::GetTypeSize, dbgeng/IDebugSymbols3::GetTypeSize, dbgeng/IDebugSymbols::GetTypeSize, debugger.gettypesize2

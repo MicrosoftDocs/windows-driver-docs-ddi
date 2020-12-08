@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_VIDEO_DECODER_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: a0de7dff-c080-4607-95c8-66855b67c89f
 tech.root: display
 description: Structure used to create a video decoder.
 req.construct-type: structure

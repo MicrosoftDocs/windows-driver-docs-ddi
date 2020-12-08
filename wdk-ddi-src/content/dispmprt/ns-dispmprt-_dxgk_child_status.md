@@ -4,7 +4,6 @@ title: _DXGK_CHILD_STATUS (dispmprt.h)
 description: The DXGK_CHILD_STATUS structure contains members that indicate the status of a child device of the display adapter.
 old-location: display\dxgk_child_status.htm
 tech.root: display
-ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.date: 05/10/2018
 keywords: ["DXGK_CHILD_STATUS structure"]
 ms.keywords: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS"

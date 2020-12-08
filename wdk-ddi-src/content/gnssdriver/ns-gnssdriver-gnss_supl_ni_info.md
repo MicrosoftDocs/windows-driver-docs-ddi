@@ -4,7 +4,6 @@ title: GNSS_SUPL_NI_INFO (gnssdriver.h)
 description: This structure contains the requested SUPL NI information.
 old-location: gnss\gnss_supl_ni_info.htm
 tech.root: gnss
-ms.assetid: 78D19A0C-E247-4DDA-A689-494B5A61A673
 ms.date: 02/15/2018
 keywords: ["GNSS_SUPL_NI_INFO structure"]
 ms.keywords: "*PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnss.gnss_supl_ni_info, gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO"

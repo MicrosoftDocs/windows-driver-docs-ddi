@@ -4,7 +4,6 @@ title: IOCTL_CDROM_READ_TOC_EX (ntddcdrm.h)
 description: Queries the target device for the table of contents (TOC), the program memory area (PMA), and the absolute time in pregroove (ATIP).
 old-location: storage\ioctl_cdrom_read_toc_ex.htm
 tech.root: storage
-ms.assetid: 279df233-9164-4c80-b31f-1d4cdc1073fa
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_READ_TOC_EX IOCTL"]
 ms.keywords: IOCTL_CDROM_READ_TOC_EX, IOCTL_CDROM_READ_TOC_EX control, IOCTL_CDROM_READ_TOC_EX control code [Storage Devices], k307_5206dcdd-936b-4d6f-b51a-4407e54814ea.xml, ntddcdrm/IOCTL_CDROM_READ_TOC_EX, storage.ioctl_cdrom_read_toc_ex

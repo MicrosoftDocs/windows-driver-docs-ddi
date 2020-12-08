@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostSymbols.FindModuleByName
 title: IDebugHostSymbols::FindModuleByName (dbgmodel.h)
 description: The FindModuleByName method will look through the given host context and locate a module which has the specified name and return an interface to it.
-ms.assetid: 7ff45667-8b89-46a9-8167-d90976dae181
 ms.date: 11/10/2020
 keywords: ["IDebugHostSymbols::FindModuleByName"]
 ms.keywords: IDebugHostSymbols::FindModuleByName, FindModuleByName, IDebugHostSymbols.FindModuleByName, IDebugHostSymbols::FindModuleByName, IDebugHostSymbols.FindModuleByName

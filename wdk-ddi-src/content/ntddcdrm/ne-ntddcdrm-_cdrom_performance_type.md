@@ -4,7 +4,6 @@ title: _CDROM_PERFORMANCE_TYPE (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_TYPE enumeration defines the read and write performance data requests. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_type.htm
 tech.root: storage
-ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.date: 03/29/2018
 keywords: ["CDROM_PERFORMANCE_TYPE enumeration"]
 ms.keywords: "*PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], CdromReadPerformance, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, ntddcdrm/CDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, ntddcdrm/PCDROM_PERFORMANCE_TYPE, storage.cdrom_performance_type"

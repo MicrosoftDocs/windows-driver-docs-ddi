@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
 title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
 description: The command list 3D functions for version Direct3D 12 Release 6, Build rev 2.
 tech.root: display
-ms.assetid: ece51af6-7368-4ce2-aa45-d82d86b151c8
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0062 structure"]
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, D3D12DDI_COMMAND_LIST_FUNCS_3D_0062,

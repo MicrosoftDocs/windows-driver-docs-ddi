@@ -4,7 +4,6 @@ title: PEPCALLBACKNOTIFYPPM (pep_x.h)
 description: An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptprocessornotification.htm
 tech.root: kernel
-ms.assetid: 06A8ED06-107E-495F-8664-01477C9CF843
 ms.date: 04/30/2018
 keywords: ["PEPCALLBACKNOTIFYPPM callback function"]
 ms.keywords: AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification

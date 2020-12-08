@@ -4,7 +4,6 @@ title: PFND3DDDI_TEXBLT1 (d3dumddi.h)
 description: Performs a bit-block transfer (bitblt) operation from a source texture to a destination texture, including all of the sublevels of the source texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 old-location: display\texblt1.htm
 tech.root: display
-ms.assetid: 63EE8130-47E5-4976-8A72-1B11136B1192
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_TEXBLT1 callback function"]
 ms.keywords: PFND3DDDI_TEXBLT1, PFND3DDDI_TEXBLT1 callback, TexBlt1, TexBlt1 callback function [Display Devices], d3dumddi/TexBlt1, display.texblt1

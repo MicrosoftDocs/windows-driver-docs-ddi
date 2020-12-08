@@ -4,7 +4,6 @@ title: PcNewPort function (portcls.h)
 description: The PcNewPort function creates a new system-supplied port-driver object, whose interface (derived from base class IPort) is specified by a class ID.
 old-location: audio\pcnewport.htm
 tech.root: audio
-ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.date: 05/08/2018
 keywords: ["PcNewPort function"]
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort

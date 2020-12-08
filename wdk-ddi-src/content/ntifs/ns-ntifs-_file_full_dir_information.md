@@ -4,7 +4,6 @@ title: _FILE_FULL_DIR_INFORMATION (ntifs.h)
 description: The FILE_FULL_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_full_dir_information.htm
 tech.root: ifsk
-ms.assetid: 31b1c2f6-415b-4183-8016-51686c460889
 ms.date: 04/16/2018
 keywords: ["FILE_FULL_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml, ifsk.file_full_dir_information, ntifs/FILE_FULL_DIR_INFORMATION, ntifs/PFILE_FULL_DIR_INFORMATION"

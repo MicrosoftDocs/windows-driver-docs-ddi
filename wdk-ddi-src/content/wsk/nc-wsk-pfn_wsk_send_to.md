@@ -4,7 +4,6 @@ title: PFN_WSK_SEND_TO (wsk.h)
 description: The WskSendTo function sends datagram data to a remote transport address.
 old-location: netvista\wsksendto.htm
 tech.root: netvista
-ms.assetid: 34257ef2-947a-463a-b234-04fbaffa9344
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SEND_TO callback function"]
 ms.keywords: PFN_WSK_SEND_TO, PFN_WSK_SEND_TO callback, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml

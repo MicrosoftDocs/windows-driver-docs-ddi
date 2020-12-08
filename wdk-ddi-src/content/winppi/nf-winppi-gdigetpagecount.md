@@ -4,7 +4,6 @@ title: GdiGetPageCount function (winppi.h)
 description: The GdiGetPageCount function returns the number of pages in a print job.
 old-location: print\gdigetpagecount.htm
 tech.root: print
-ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.date: 04/20/2018
 keywords: ["GdiGetPageCount function"]
 ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, winppi/GdiGetPageCount

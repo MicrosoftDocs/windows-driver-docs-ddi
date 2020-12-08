@@ -4,7 +4,6 @@ title: _OUTPUT_PACKET (ntdd8042.h)
 description: OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
 old-location: hid\output_packet.htm
 tech.root: hid
-ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.date: 04/30/2018
 keywords: ["OUTPUT_PACKET structure"]
 ms.keywords: "*POUTPUT_PACKET, OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], _OUTPUT_PACKET, hid.output_packet, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET"

@@ -4,7 +4,6 @@ title: FltRegisterForDataScan function (fltkernel.h)
 description: The FltRegisterForDataScan routine enables data scanning for the volume attached to the minifilter instance.
 old-location: ifsk\fltregisterfordatascan.htm
 tech.root: ifsk
-ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.date: 05/24/2019
 keywords: ["FltRegisterForDataScan function"]
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan

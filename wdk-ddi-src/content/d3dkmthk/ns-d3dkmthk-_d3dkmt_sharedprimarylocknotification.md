@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 title: _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION (d3dkmthk.h)
 description: The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary surface that an application is about to lock.
 old-location: display\d3dkmt_sharedprimarylocknotification.htm
-ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure"]
 ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, display.d3dkmt_sharedprimarylocknotification

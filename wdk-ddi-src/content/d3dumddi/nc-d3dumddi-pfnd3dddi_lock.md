@@ -4,7 +4,6 @@ title: PFND3DDDI_LOCK (d3dumddi.h)
 description: The Lock function locks the given resource or a surface within the resource.
 old-location: display\lock.htm
 tech.root: display
-ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_LOCK callback function"]
 ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, PFND3DDDI_LOCK callback, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock

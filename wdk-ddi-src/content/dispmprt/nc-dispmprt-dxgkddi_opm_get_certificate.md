@@ -4,7 +4,6 @@ title: DXGKDDI_OPM_GET_CERTIFICATE (dispmprt.h)
 description: The DxgkDdiOPMGetCertificate function retrieves a certificate of the given type and size.
 old-location: display\dxgkddiopmgetcertificate.htm
 tech.root: display
-ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_GET_CERTIFICATE callback function"]
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, DXGKDDI_OPM_GET_CERTIFICATE callback, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate

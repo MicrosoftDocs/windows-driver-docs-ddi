@@ -4,7 +4,6 @@ title: _D3DDDICB_ALLOCATE (d3dumddi.h)
 description: The D3DDDICB_ALLOCATE structure contains information for allocating memory.
 old-location: display\d3dddicb_allocate.htm
 tech.root: display
-ms.assetid: 76ebc960-ff63-40eb-842b-acdb549ecdaa
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_ALLOCATE structure"]
 ms.keywords: D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices], D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, _D3DDDICB_ALLOCATE, d3dumddi/D3DDDICB_ALLOCATE, display.d3dddicb_allocate

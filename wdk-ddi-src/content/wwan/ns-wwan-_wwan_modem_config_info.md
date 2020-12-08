@@ -4,7 +4,6 @@ title: _WWAN_MODEM_CONFIG_INFO (wwan.h)
 description: The WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\wwan_modem_config_info.htm
 tech.root: netvista
-ms.assetid: 14FBFA51-F4A5-417A-8905-241CEA543774
 ms.date: 05/02/2018
 keywords: ["WWAN_MODEM_CONFIG_INFO structure"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_INFO, WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_INFO, netvista.wwan_modem_config_info, wwan/PWWAN_MODEM_CONFIG_INFO, wwan/WWAN_MODEM_CONFIG_INFO"

@@ -4,7 +4,6 @@ title: QueryDeviceNamespace function (prdrvcom.h)
 description: The IPrintTicketProvider::QueryDeviceNamespace method queries the device for its default namespace uniform resource identifier (URI).
 old-location: print\iprintticketprovider_querydevicenamespace.htm
 tech.root: print
-ms.assetid: d4a36a33-f8b8-4b8c-8ff7-918cb8ba79cb
 ms.date: 04/20/2018
 keywords: ["QueryDeviceNamespace function"]
 ms.keywords: IPrintTicketProvider interface [Print Devices],QueryDeviceNamespace method, IPrintTicketProvider::QueryDeviceNamespace, QueryDeviceNamespace, QueryDeviceNamespace method [Print Devices], QueryDeviceNamespace method [Print Devices],IPrintTicketProvider interface, prdrvcom/IPrintTicketProvider::QueryDeviceNamespace, print.iprintticketprovider_querydevicenamespace, print_ticket-package_af00ca31-6882-4a84-8bc4-c8267b49ce30.xml

@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetTypeId (dbgeng.h)
 description: The GetTypeId method looks up the specified type and return its type ID.
 old-location: debugger\gettypeid.htm
 tech.root: debugger
-ms.assetid: 4bc82faf-a5f9-4363-8317-ad685d5b2166
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetTypeId"]
 ms.keywords: GetTypeId, GetTypeId method [Windows Debugging], GetTypeId method [Windows Debugging],IDebugSymbols interface, GetTypeId method [Windows Debugging],IDebugSymbols2 interface, GetTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeId method, IDebugSymbols2 interface [Windows Debugging],GetTypeId method, IDebugSymbols2::GetTypeId, IDebugSymbols3 interface [Windows Debugging],GetTypeId method, IDebugSymbols3.GetTypeId, IDebugSymbols3::GetTypeId, IDebugSymbols::GetTypeId, IDebugSymbols_cf0d81fd-9bd1-4b90-a7d5-99f1cb225036.xml, dbgeng/IDebugSymbols2::GetTypeId, dbgeng/IDebugSymbols3::GetTypeId, dbgeng/IDebugSymbols::GetTypeId, debugger.gettypeid

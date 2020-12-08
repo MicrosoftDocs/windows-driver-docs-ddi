@@ -4,7 +4,6 @@ title: WdfMemoryCreate function (wdfmemory.h)
 description: The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size.
 old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf
-ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCreate function"]
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate

@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_GET_INTERFACE_INSTANCE
 title: FN_VMB_CHANNEL_GET_INTERFACE_INSTANCE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelGetInterfaceInstance function gets the active interface instance, which is a GUID that uniquely identifies a channel.
 tech.root: netvista
-ms.assetid: 57b9057a-7cbe-4a0b-96d5-4b5177c4b5a5
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_GET_INTERFACE_INSTANCE callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

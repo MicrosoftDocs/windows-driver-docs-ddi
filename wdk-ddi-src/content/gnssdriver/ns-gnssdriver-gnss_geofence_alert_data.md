@@ -4,7 +4,6 @@ title: GNSS_GEOFENCE_ALERT_DATA (gnssdriver.h)
 description: This structure is used by the GNSS engine to notify a geofence breach alert.
 old-location: gnss\gnss_geofence_alert_data.htm
 tech.root: gnss
-ms.assetid: 4F7CBB1C-6D23-4015-8403-ABD06B9DC337
 ms.date: 02/15/2018
 keywords: ["GNSS_GEOFENCE_ALERT_DATA structure"]
 ms.keywords: "*PGNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_geofence_alert_data, gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA"

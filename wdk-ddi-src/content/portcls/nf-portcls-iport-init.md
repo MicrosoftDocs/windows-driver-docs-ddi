@@ -3,7 +3,6 @@ UID: NF:portcls.IPort.Init
 title: IPort::Init (portcls.h)
 description: The Init method initializes the port driver.
 tech.root: audio
-ms.assetid: 57c68de4-8063-41c0-897c-bc22c9a2b0f1
 ms.date: 10/31/2018
 keywords: ["IPort::Init"]
 ms.keywords: IPort::Init, Init, IPort.Init, IPort::Init, IPort.Init

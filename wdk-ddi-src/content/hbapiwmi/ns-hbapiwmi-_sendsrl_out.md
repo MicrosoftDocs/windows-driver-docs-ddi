@@ -4,7 +4,6 @@ title: _SendSRL_OUT (hbapiwmi.h)
 description: The SendSRL_OUT structure is used to report the output parameter data of the SendSRL WMI method to the WMI client.
 old-location: storage\sendsrl_out.htm
 tech.root: storage
-ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.date: 03/29/2018
 keywords: ["SendSRL_OUT structure"]
 ms.keywords: "*PSendSRL_OUT, PSendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT, SendSRL_OUT structure [Storage Devices], _SendSRL_OUT, hbapiwmi/PSendSRL_OUT, hbapiwmi/SendSRL_OUT, storage.sendsrl_out, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml"

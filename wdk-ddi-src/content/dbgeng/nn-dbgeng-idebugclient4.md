@@ -4,7 +4,6 @@ title: IDebugClient4 (dbgeng.h)
 description: IDebugClient4 interface
 old-location: debugger\idebugclient4.htm
 tech.root: debugger
-ms.assetid: fcfa64f3-6cdf-4e5a-bb02-13a748fd6dda
 ms.date: 05/03/2018
 keywords: ["IDebugClient4 interface"]
 ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], IDebugClient4 interface [Windows Debugging],described, dbgeng/IDebugClient4, debugger.idebugclient4

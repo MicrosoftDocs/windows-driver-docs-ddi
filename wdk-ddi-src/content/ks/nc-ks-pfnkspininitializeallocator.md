@@ -4,7 +4,6 @@ title: PFNKSPININITIALIZEALLOCATOR (ks.h)
 description: An AVStream minidriver's AVStrMiniInitializeAllocator routine initializes an allocator that will be associated with a pin.
 old-location: stream\avstrminiinitializeallocator.htm
 tech.root: stream
-ms.assetid: 9c6d3856-702c-416b-a5d2-b3578a55bbcd
 ms.date: 04/23/2018
 keywords: ["PFNKSPININITIALIZEALLOCATOR callback function"]
 ms.keywords: AVStrMiniInitializeAllocator, AVStrMiniInitializeAllocator routine [Streaming Media Devices], PFNKSPININITIALIZEALLOCATOR, avstclbk_979c0a29-7e4b-463c-8ff3-62124b0d49d1.xml, ks/AVStrMiniInitializeAllocator, stream.avstrminiinitializeallocator

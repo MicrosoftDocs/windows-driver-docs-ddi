@@ -4,7 +4,6 @@ title: ReadPtr function (wdbgexts.h)
 description: The ReadPtr function reads a pointer from the target. ReadPointer should be used instead of this function as the return value of ReadPointer is more consistent with the rest of the WdbgExts API.
 old-location: debugger\readptr.htm
 tech.root: debugger
-ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.date: 05/03/2018
 keywords: ["ReadPtr function"]
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr

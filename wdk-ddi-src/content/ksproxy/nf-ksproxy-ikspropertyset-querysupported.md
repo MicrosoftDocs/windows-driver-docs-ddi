@@ -4,7 +4,6 @@ title: IKsPropertySet::QuerySupported (ksproxy.h)
 description: The QuerySupported method determines whether a KS object supports a property set and the type of that support.
 old-location: stream\ikspropertyset_querysupported.htm
 tech.root: stream
-ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.date: 04/23/2018
 keywords: ["IKsPropertySet::QuerySupported"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported

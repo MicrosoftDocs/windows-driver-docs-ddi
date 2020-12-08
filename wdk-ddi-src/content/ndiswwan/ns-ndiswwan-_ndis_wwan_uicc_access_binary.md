@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_UICC_ACCESS_BINARY
 title: _NDIS_WWAN_UICC_ACCESS_BINARY (ndiswwan.h)
 description: The NDIS_WWAN_UICC_ACCESS_BINARY structure describes information about a UICC binary file to read or to which to write.
 tech.root: netvista
-ms.assetid: E1DD7E29-CBD3-4262-9C5C-716AAA7518FE
 ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_UICC_ACCESS_BINARY structure"]
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_BINARY, NDIS_WWAN_UICC_ACCESS_BINARY, *PNDIS_WWAN_UICC_ACCESS_BINARY,

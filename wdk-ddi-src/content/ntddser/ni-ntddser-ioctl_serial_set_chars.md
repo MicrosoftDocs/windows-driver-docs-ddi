@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_SET_CHARS (ntddser.h)
 description: The IOCTL_SERIAL_SET_CHARS request sets the special characters that the serial controller driver uses for handshake flow control. This driver verifies the specified special characters.
 old-location: serports\ioctl_serial_set_chars.htm
 tech.root: serports
-ms.assetid: f792bd01-19e1-4f15-917a-19ad46e7a4a9
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_CHARS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_CHARS, IOCTL_SERIAL_SET_CHARS control, IOCTL_SERIAL_SET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_CHARS, serports.ioctl_serial_set_chars, serref_57af2187-3244-4b5d-a096-684050127a24.xml

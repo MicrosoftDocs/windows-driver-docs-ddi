@@ -3,7 +3,6 @@ UID: NF:netpoweroffload.NET_POWER_OFFLOAD_NS_PARAMETERS_INIT
 title: NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function (netpoweroffload.h)
 description: The NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function initializes a NET_POWER_OFFLOAD_NS_PARAMETERS structure.
 tech.root: netvista
-ms.assetid: 5838984e-4df8-4bda-ae31-92c56d699e1b
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS_INIT

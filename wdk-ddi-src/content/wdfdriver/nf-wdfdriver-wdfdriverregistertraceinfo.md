@@ -4,7 +4,6 @@ title: WdfDriverRegisterTraceInfo function (wdfdriver.h)
 description: The WdfDriverRegisterTraceInfo method is reserved for internal use only.
 old-location: wdf\wdfdriverregistertraceinfo.htm
 tech.root: wdf
-ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.date: 02/26/2018
 keywords: ["WdfDriverRegisterTraceInfo function"]
 ms.keywords: DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, WdfDriverRegisterTraceInfo, WdfDriverRegisterTraceInfo method, kmdf.wdfdriverregistertraceinfo, wdf.wdfdriverregistertraceinfo, wdfdriver/WdfDriverRegisterTraceInfo

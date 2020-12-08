@@ -4,7 +4,6 @@ title: WdfDpcWdmGetDpc function (wdfdpc.h)
 description: The WdfDpcWdmGetDpc method returns a pointer to the KDPC structure that is associated with a specified framework DPC object.
 old-location: wdf\wdfdpcwdmgetdpc.htm
 tech.root: wdf
-ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.date: 02/26/2018
 keywords: ["WdfDpcWdmGetDpc function"]
 ms.keywords: DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc

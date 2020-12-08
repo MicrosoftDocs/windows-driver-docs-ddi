@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEAP_PROCESS_EINJ_EVENT
 title: WHEAP_PROCESS_EINJ_EVENT
 description: 
 tech.root: whea
-ms.assetid: 883e6d97-fa64-4550-a4e5-6e0114afab7f
 ms.date: 08/19/2019
 keywords: ["WHEAP_PROCESS_EINJ_EVENT structure"]
 ms.keywords: WHEAP_PROCESS_EINJ_EVENT, WHEAP_PROCESS_EINJ_EVENT, *PWHEAP_PROCESS_EINJ_EVENT,

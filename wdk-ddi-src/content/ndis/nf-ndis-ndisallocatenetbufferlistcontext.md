@@ -4,7 +4,6 @@ title: NdisAllocateNetBufferListContext function (ndis.h)
 description: Call the NdisAllocateNetBufferListContext function to allocate more context space in the NET_BUFFER_LIST_CONTEXT structure of a NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatenetbufferlistcontext.htm
 tech.root: netvista
-ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBufferListContext function"]
 ms.keywords: NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, netvista.ndisallocatenetbufferlistcontext

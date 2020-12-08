@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_ADD_TO_STATE_OBJECT_0072
 title: PFND3D12DDI_ADD_TO_STATE_OBJECT_0072 (d3d12umddi.h)
 description: PFND3D12DDI_ADD_TO_STATE_OBJECT_0072 incrementally adds to an existing state object.
-ms.assetid: 84f46929-e7ff-43bc-b3f2-2e3f4cfb8546
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_ADD_TO_STATE_OBJECT_0072 callback function"]
 req.header: d3d12umddi.h

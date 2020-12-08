@@ -4,7 +4,6 @@ title: _PARCLASS_INFORMATION (parallel.h)
 description: The PARCLASS_INFORMATION structure specifies information about a parallel port, pointers to callback routines to operate a parallel port, and pointers to callback routines to read and write to a parallel device.
 old-location: parports\parclass_information.htm
 tech.root: parports
-ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.date: 02/15/2018
 keywords: ["PARCLASS_INFORMATION structure"]
 ms.keywords: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], _PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, parallel/PARCLASS_INFORMATION, parallel/PPARCLASS_INFORMATION, parports.parclass_information"

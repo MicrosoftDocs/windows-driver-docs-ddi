@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_MODEM_LOGGING_CONFIG
 title: _WWAN_MODEM_LOGGING_CONFIG (wwan.h)
 description: The WWAN_MODEM_LOGGING_CONFIG structure describes the current modem logging configuration for a modem.
 tech.root: netvista
-ms.assetid: 11EE757F-0442-4F46-BEF0-8206CFDCC60B
 ms.date: 04/11/2019
 keywords: ["WWAN_MODEM_LOGGING_CONFIG structure"]
 ms.keywords: _WWAN_MODEM_LOGGING_CONFIG, WWAN_MODEM_LOGGING_CONFIG, *PWWAN_MODEM_LOGGING_CONFIG,

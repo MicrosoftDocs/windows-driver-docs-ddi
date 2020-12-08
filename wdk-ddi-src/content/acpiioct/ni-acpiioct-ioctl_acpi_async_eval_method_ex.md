@@ -4,7 +4,6 @@ title: IOCTL_ACPI_ASYNC_EVAL_METHOD_EX (acpiioct.h)
 description: A driver for a device can use the IOCTL_ACPI_ASYNC_EVAL_METHOD_EX device control request to asynchronously evaluate an ACPI control method that is supported by a child device of the device.
 old-location: acpi\ioctl_acpi_async_eval_method_ex.htm
 tech.root: acpi
-ms.assetid: fb5c6cbe-b1f4-4aed-afe3-1a4e8e26416e
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_d6847663-52f2-4ae0-9ee5-defba8aed0cf.xml, acpi.ioctl_acpi_async_eval_method_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX

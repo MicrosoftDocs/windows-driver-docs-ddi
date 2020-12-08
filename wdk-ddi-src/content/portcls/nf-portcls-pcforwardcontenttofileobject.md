@@ -4,7 +4,6 @@ title: PcForwardContentToFileObject function (portcls.h)
 description: The PcForwardContentToFileObject function is obsolete and is maintained only to support existing drivers.
 old-location: audio\pcforwardcontenttofileobject.htm
 tech.root: audio
-ms.assetid: 3cad8e61-e016-415a-9aa9-1169267dc729
 ms.date: 05/08/2018
 keywords: ["PcForwardContentToFileObject function"]
 ms.keywords: PcForwardContentToFileObject, PcForwardContentToFileObject function [Audio Devices], audio.pcforwardcontenttofileobject, audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject

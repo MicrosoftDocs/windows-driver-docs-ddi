@@ -4,7 +4,6 @@ title: _SYSENV_VARIABLE_INFO (ntddsysenv.h)
 description: Stores the information about a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_QUERY_VARIABLE_INFO request.
 old-location: kernel\sysenv_variable_info.htm
 tech.root: kernel
-ms.assetid: D9C7BB96-1E26-4D89-9CBE-074232FD0752
 ms.date: 04/30/2018
 keywords: ["SYSENV_VARIABLE_INFO structure"]
 ms.keywords: "*PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], _SYSENV_VARIABLE_INFO, kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO"

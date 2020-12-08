@@ -4,7 +4,6 @@ title: FltGetTransactionContext function (fltkernel.h)
 description: The FltGetTransactionContext routine retrieves a context that was set for a transaction by a given minifilter driver.
 old-location: ifsk\fltgettransactioncontext.htm
 tech.root: ifsk
-ms.assetid: fcd41baf-43ff-4f3a-8211-9fb5cb1cd2fd
 ms.date: 04/16/2018
 keywords: ["FltGetTransactionContext function"]
 ms.keywords: FltApiRef_e_to_o_11458006-a870-473b-9d1b-ab7a97af09b3.xml, FltGetTransactionContext, FltGetTransactionContext routine [Installable File System Drivers], fltkernel/FltGetTransactionContext, ifsk.fltgettransactioncontext

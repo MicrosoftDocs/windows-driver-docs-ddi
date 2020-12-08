@@ -4,7 +4,6 @@ title: _SendTargets_IN (iscsiop.h)
 description: The SendTargets_IN structure holds the input data for the SendTargets method.
 old-location: storage\sendtargets_in.htm
 tech.root: storage
-ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.date: 03/29/2018
 keywords: ["SendTargets_IN structure"]
 ms.keywords: "*PSendTargets_IN, PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], SendTargets_IN, SendTargets_IN structure [Storage Devices], _SendTargets_IN, iscsiop/PSendTargets_IN, iscsiop/SendTargets_IN, storage.sendtargets_in, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml"

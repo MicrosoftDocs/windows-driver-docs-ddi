@@ -4,7 +4,6 @@ title: VideoPortReleaseCommonBuffer function (video.h)
 description: The VideoPortReleaseCommonBuffer function frees a common buffer that was previously allocated by VideoPortAllocateCommonBuffer.
 old-location: display\videoportreleasecommonbuffer.htm
 tech.root: display
-ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
 ms.date: 05/10/2018
 keywords: ["VideoPortReleaseCommonBuffer function"]
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer

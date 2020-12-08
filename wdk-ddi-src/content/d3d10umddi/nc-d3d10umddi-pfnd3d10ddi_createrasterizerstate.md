@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_CREATERASTERIZERSTATE
 title: PFND3D10DDI_CREATERASTERIZERSTATE (d3d10umddi.h)
 description: The CreateRasterizerState function creates a rasterizer state.
 old-location: display\createrasterizerstate.htm
-ms.assetid: 4507b92e-2437-4f90-b527-e06773ca1e08
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CREATERASTERIZERSTATE callback function"]
 ms.keywords: CreateRasterizerState, CreateRasterizerState callback function [Display Devices], PFND3D10DDI_CREATERASTERIZERSTATE, PFND3D10DDI_CREATERASTERIZERSTATE callback, UserModeDisplayDriverDx10_Functions_f190ceb6-e58c-4ab5-9abc-6339e6450c87.xml, d3d10umddi/CreateRasterizerState, display.createrasterizerstate

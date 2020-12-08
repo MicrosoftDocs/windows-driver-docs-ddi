@@ -4,7 +4,6 @@ title: RtlDelete function (ntddk.h)
 description: The RtlDelete routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldelete.htm
 tech.root: ifsk
-ms.assetid: ca73b7cf-56c0-4e83-8804-59f73fbd4714
 ms.date: 04/16/2018
 keywords: ["RtlDelete function"]
 ms.keywords: RtlDelete, RtlDelete routine [Installable File System Drivers], ifsk.rtldelete, ntddk/RtlDelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml

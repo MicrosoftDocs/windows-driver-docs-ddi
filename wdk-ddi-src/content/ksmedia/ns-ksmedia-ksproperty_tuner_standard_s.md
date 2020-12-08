@@ -4,7 +4,6 @@ title: KSPROPERTY_TUNER_STANDARD_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.
 old-location: stream\ksproperty_tuner_standard_s.htm
 tech.root: stream
-ms.assetid: 3eea8ee2-1ad5-4e00-b0c3-0710b58a2518
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_STANDARD_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_S, KSPROPERTY_TUNER_STANDARD_S, KSPROPERTY_TUNER_STANDARD_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_S, PKSPROPERTY_TUNER_STANDARD_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_S, stream.ksproperty_tuner_standard_s, vidcapstruct_b7568a5f-0825-495b-97ff-c8cee17ab8d3.xml"

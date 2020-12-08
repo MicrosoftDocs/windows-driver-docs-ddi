@@ -4,7 +4,6 @@ title: RtlAppendStringToString function (ntifs.h)
 description: The RtlAppendStringToString routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.
 old-location: ifsk\rtlappendstringtostring.htm
 tech.root: ifsk
-ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.date: 04/16/2018
 keywords: ["RtlAppendStringToString function"]
 ms.keywords: RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml

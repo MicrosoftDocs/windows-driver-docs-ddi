@@ -4,7 +4,6 @@ title: _USB_DEVICE_QUALIFIER_DESCRIPTOR (usbspec.h)
 description: The USB_DEVICE_QUALIFIER_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device qualifier descriptor.
 old-location: buses\usb_device_qualifier_descriptor.htm
 tech.root: usbref
-ms.assetid: f96e4305-ec07-4df8-8fdf-f840598dd938
 ms.date: 05/07/2018
 keywords: ["USB_DEVICE_QUALIFIER_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], USB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], _USB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml"

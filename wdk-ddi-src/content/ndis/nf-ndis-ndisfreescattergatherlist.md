@@ -4,7 +4,6 @@ title: NdisFreeScatterGatherList function (ndis.h)
 description: The NdisFreeScatterGatherList function frees a scatter/gather list.
 old-location: netvista\ndisfreescattergatherlist.htm
 tech.root: netvista
-ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.date: 05/02/2018
 keywords: ["NdisFreeScatterGatherList function"]
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist

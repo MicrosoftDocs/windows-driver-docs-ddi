@@ -4,7 +4,6 @@ title: KdEnableDebugger function (wdm.h)
 description: The KdEnableDebugger routine re-enables the kernel debugger after a call to the KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kdenabledebugger.htm
 tech.root: devtest
-ms.assetid: 90151c0d-24c9-4304-bdcf-30dc89397905
 ms.date: 02/23/2018
 keywords: ["KdEnableDebugger function"]
 ms.keywords: DebugFns_080ae06e-7e0c-45e1-a470-22e99922eb72.xml, KdEnableDebugger, KdEnableDebugger routine [Driver Development Tools], devtest.kdenabledebugger, wdm/KdEnableDebugger

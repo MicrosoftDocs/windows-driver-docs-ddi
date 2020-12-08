@@ -4,7 +4,6 @@ title: _MSFC_FibrePortNPIVAttributes (npivwmi.h)
 description: The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 old-location: storage\msfc_fibreportnpivattributes.htm
 tech.root: storage
-ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.date: 03/29/2018
 keywords: ["MSFC_FibrePortNPIVAttributes structure"]
 ms.keywords: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], _MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes"

@@ -4,7 +4,6 @@ title: WUDF_INTERRUPT_WORKITEM (wudfinterrupt.h)
 description: A driver's OnInterruptWorkItem event callback function processes interrupt information that the driver's OnInterruptIsr callback function has stored.
 old-location: wdf\oninterruptworkitem.htm
 tech.root: wdf
-ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.date: 02/26/2018
 keywords: ["WUDF_INTERRUPT_WORKITEM callback function"]
 ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem

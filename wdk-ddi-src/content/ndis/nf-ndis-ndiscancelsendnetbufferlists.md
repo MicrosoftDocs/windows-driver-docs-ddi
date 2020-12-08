@@ -4,7 +4,6 @@ title: NdisCancelSendNetBufferLists function (ndis.h)
 description: Protocol drivers call the NdisCancelSendNetBufferLists function to cancel the transmission of network data.
 old-location: netvista\ndiscancelsendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.date: 05/02/2018
 keywords: ["NdisCancelSendNetBufferLists function"]
 ms.keywords: NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, netvista.ndiscancelsendnetbufferlists

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_CONTROLINTERRUPT2
 title: DXGKDDI_CONTROLINTERRUPT2 (d3dkmddi.h)
 description: The DxgkDdi_ControlInterrupt2 function enables or disables the given interrupt type on the graphics hardware.
 old-location: display\dxgkddicontrolinterrupt2.htm
-ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
 ms.date: 03/24/2020
 ms.keywords: DXGKDDI_CONTROLINTERRUPT2, DXGKDDI_CONTROLINTERRUPT2 callback, DxgkDdi_ControlInterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], d3dkmddi/DxgkDdi_ControlInterrupt2, display.dxgkddicontrolinterrupt2
 req.header: d3dkmddi.h

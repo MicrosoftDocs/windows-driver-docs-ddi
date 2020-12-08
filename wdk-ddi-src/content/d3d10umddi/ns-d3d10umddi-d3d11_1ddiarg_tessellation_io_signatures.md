@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES
 title: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES (d3d10umddi.h)
 description: Describes a tessellation I/O signature.
 old-location: display\d3d11_1ddiarg_tessellation_io_signatures.htm
-ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure"]
 ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11_1ddiarg_tessellation_io_signatures

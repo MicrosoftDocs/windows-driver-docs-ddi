@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
 title: EVT_TR_ENUMERATE_SECURE_SERVICES (trustedruntimeclx.h)
 description: 
-ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
 ms.date: 11/20/2020
 keywords: ["EVT_TR_ENUMERATE_SECURE_SERVICES callback function"]
 req.header: trustedruntimeclx.h

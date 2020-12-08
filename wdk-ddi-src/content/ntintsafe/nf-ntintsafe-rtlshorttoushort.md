@@ -4,7 +4,6 @@ title: RtlShortToUShort function (ntintsafe.h)
 description: Converts a value of type SHORT to a value of type USHORT.
 old-location: kernel\rtlshorttoushort.htm
 tech.root: kernel
-ms.assetid: 6FD7C994-822A-422C-82D8-768BA842B2B2
 ms.date: 04/30/2018
 keywords: ["RtlShortToUShort function"]
 ms.keywords: RtlShortToUShort, RtlShortToUShort function [Kernel-Mode Driver Architecture], kernel.rtlshorttoushort, ntintsafe/RtlShortToUShort

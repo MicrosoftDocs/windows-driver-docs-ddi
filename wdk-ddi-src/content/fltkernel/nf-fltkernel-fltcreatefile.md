@@ -4,7 +4,6 @@ title: FltCreateFile function (fltkernel.h)
 description: Minifilter drivers call FltCreateFile to create a new file or open an existing file.
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk
-ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
 ms.date: 02/13/2020
 keywords: ["FltCreateFile function"]
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile

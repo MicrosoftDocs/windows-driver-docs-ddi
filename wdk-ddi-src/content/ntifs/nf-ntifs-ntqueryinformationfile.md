@@ -4,7 +4,6 @@ title: NtQueryInformationFile function (ntifs.h)
 description: The NtQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
-ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.date: 11/20/2020
 keywords: ["NtQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile

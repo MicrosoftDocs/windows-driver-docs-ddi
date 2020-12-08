@@ -4,7 +4,6 @@ title: IPrintReadStream (filterpipeline.h)
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
 old-location: print\iprintreadstream.htm
 tech.root: print
-ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 ms.date: 04/20/2018
 keywords: ["IPrintReadStream interface"]
 ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices],described, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml, print.iprintreadstream

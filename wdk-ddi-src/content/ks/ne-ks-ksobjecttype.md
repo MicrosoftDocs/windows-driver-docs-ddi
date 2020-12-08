@@ -4,7 +4,6 @@ title: KSOBJECTTYPE (ks.h)
 description: The KSOBJECTTYPE enumeration lists different types of kernel streaming objects.
 old-location: stream\ksobjecttype.htm
 tech.root: stream
-ms.assetid: ab30d24f-4f14-4a84-a6e1-1a2506b4ba87
 ms.date: 04/23/2018
 keywords: ["KSOBJECTTYPE enumeration"]
 ms.keywords: KSOBJECTTYPE, KSOBJECTTYPE enumeration [Streaming Media Devices], KsObjectTypeDevice, KsObjectTypeFilter, KsObjectTypeFilterFactory, KsObjectTypePin, ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml, ks/KSOBJECTTYPE, ks/KsObjectTypeDevice, ks/KsObjectTypeFilter, ks/KsObjectTypeFilterFactory, ks/KsObjectTypePin, stream.ksobjecttype

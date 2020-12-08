@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USB_GET_BUS_INFO (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_BUS_INFO I/O request queries the bus driver for certain bus information.
 old-location: buses\ioctl_internal_usb_get_bus_info.htm
 tech.root: usbref
-ms.assetid: 31a5a829-1bb7-45cb-93b0-e899f7737df2
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_BUS_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_BUS_INFO, IOCTL_INTERNAL_USB_GET_BUS_INFO control, IOCTL_INTERNAL_USB_GET_BUS_INFO control code [Buses], buses.ioctl_internal_usb_get_bus_info, usbioctl/IOCTL_INTERNAL_USB_GET_BUS_INFO, usbirp_6f2e2c9c-3bbc-40bd-a2e7-6fc79cfcc02b.xml

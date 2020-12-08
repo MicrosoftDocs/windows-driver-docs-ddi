@@ -4,7 +4,6 @@ title: RxDispatchToWorkerThread function (rxworkq.h)
 description: RxDispatchToWorkerThread invokes a routine in the context of a worker thread. The memory for the WORK_QUEUE_ITEM is allocated by this routine.
 old-location: ifsk\rxdispatchtoworkerthread.htm
 tech.root: ifsk
-ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.date: 04/16/2018
 keywords: ["RxDispatchToWorkerThread function"]
 ms.keywords: RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread

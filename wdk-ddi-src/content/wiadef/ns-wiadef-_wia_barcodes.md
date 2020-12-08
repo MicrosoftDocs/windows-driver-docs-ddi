@@ -4,7 +4,6 @@ title: _WIA_BARCODES (wiadef.h)
 description: The WIA_BARCODES structure stores header information for the barcode metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_barcodes.htm
 tech.root: image
-ms.assetid: 2B89FF49-4376-49A7-B7CC-1C67D89C7E7A
 ms.date: 05/03/2018
 keywords: ["WIA_BARCODES structure"]
 ms.keywords: WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], _WIA_BARCODES, image.wia_barcodes, wiadef/WIA_BARCODES

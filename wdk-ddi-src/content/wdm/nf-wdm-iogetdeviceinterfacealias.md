@@ -4,7 +4,6 @@ title: IoGetDeviceInterfaceAlias function (wdm.h)
 description: The IoGetDeviceInterfaceAlias routine returns the alias device interface of the specified device interface instance, if the alias exists.
 old-location: kernel\iogetdeviceinterfacealias.htm
 tech.root: kernel
-ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.date: 04/30/2018
 keywords: ["IoGetDeviceInterfaceAlias function"]
 ms.keywords: IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias

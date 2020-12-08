@@ -4,7 +4,6 @@ title: IBidiRequest::GetOutputData (bidispl.h)
 description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 tech.root: print
-ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.date: 04/20/2018
 keywords: ["IBidiRequest::GetOutputData"]
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData, GetOutputData method [Print Devices], GetOutputData method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetOutputData method, IBidiRequest.GetOutputData, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata

@@ -3,7 +3,6 @@ UID: NC:sensorscx.PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
 title: PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED (sensorscx.h)
 description: Indicates that the history retrieval has completed.
 tech.root: sensors
-ms.assetid: 62f81ebc-b081-42d6-a757-44d94b1da693
 ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED callback function"]
 req.header: sensorscx.h

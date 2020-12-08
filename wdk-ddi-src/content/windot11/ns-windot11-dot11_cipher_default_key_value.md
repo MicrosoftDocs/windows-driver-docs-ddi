@@ -4,7 +4,6 @@ title: DOT11_CIPHER_DEFAULT_KEY_VALUE (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_default_key_value.htm
 tech.root: netvista
-ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
 ms.date: 02/16/2018
 keywords: ["DOT11_CIPHER_DEFAULT_KEY_VALUE structure"]
 ms.keywords: "*PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_default_key_value, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE"

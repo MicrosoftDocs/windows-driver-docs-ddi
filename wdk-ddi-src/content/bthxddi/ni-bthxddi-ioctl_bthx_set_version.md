@@ -4,7 +4,6 @@ title: IOCTL_BTHX_SET_VERSION (bthxddi.h)
 description: IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 old-location: bltooth\ioctl_bthx_set_version.htm
 tech.root: bltooth
-ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_SET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_SET_VERSION, IOCTL_BTHX_SET_VERSION control, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_set_version, bthxddi/IOCTL_BTHX_SET_VERSION

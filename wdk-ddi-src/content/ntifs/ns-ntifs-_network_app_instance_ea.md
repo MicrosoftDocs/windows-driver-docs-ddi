@@ -2,7 +2,6 @@
 UID: NS:ntifs._NETWORK_APP_INSTANCE_EA
 title: _NETWORK_APP_INSTANCE_EA (ntifs.h)
 description: An Extended Attribute (EA) structure for processes using Server Message Block (SMB) Cluster Client Failover.
-ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["NETWORK_APP_INSTANCE_EA structure"]

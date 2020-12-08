@@ -3,7 +3,6 @@ UID: NC:ntddk._WHEA_ERROR_SOURCE_READY
 title: _WHEA_ERROR_SOURCE_READY
 description: 
 tech.root: whea
-ms.assetid: 8d9b79fa-ab4c-4469-a4a5-9eca741ff804
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_READY callback function"]
 f1_keywords:

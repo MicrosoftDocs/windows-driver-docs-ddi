@@ -4,7 +4,6 @@ title: IXpsPartIterator::Reset (filterpipeline.h)
 description: The Reset method sets the iterator to the first element.
 old-location: print\ixpspartiterator_reset.htm
 tech.root: print
-ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
 ms.date: 04/20/2018
 keywords: ["IXpsPartIterator::Reset"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Reset method, IXpsPartIterator.Reset, IXpsPartIterator::Reset, Reset, Reset method [Print Devices], Reset method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, print.ixpspartiterator_reset

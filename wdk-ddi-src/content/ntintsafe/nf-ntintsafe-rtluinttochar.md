@@ -4,7 +4,6 @@ title: RtlUIntToChar function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type CHAR.
 old-location: kernel\rtluinttochar.htm
 tech.root: kernel
-ms.assetid: 1E4620A9-5CAA-4E45-9D43-1E183D7EB572
 ms.date: 04/30/2018
 keywords: ["RtlUIntToChar function"]
 ms.keywords: RtlUIntToChar, RtlUIntToChar function [Kernel-Mode Driver Architecture], kernel.rtluinttochar, ntintsafe/RtlUIntToChar

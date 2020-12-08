@@ -4,7 +4,6 @@ title: UFS_UNIT_CONFIG_DESCRIPTOR (ufs.h)
 description: The UFS_UNIT_CONFIG_DESCRIPTOR structure describes the user configurable parameters within the UFS_CONFIG_DESCRIPTOR.
 old-location: storage\ufs_unit_config_descriptor.htm
 tech.root: storage
-ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.date: 03/29/2018
 keywords: ["UFS_UNIT_CONFIG_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR"

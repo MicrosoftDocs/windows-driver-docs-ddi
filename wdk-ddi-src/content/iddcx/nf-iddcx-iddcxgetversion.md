@@ -4,7 +4,6 @@ title: IddCxGetVersion
 ms.date: 09/24/2020
 ms.topic: language-reference
 tech.root: display
-ms.assetid: a0101d24-415f-4376-8842-a7012cce2092
 targetos: Windows
 description: IddCxGetVersion is an OS callback function that an indirect display (ID) driver calls to obtain the IddCx version.
 req.assembly: 

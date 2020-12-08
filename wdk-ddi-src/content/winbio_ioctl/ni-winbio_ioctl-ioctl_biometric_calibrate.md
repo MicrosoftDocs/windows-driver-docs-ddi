@@ -4,7 +4,6 @@ title: IOCTL_BIOMETRIC_CALIBRATE (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL directs the driver to perform any necessary steps to calibrate the device for use.
 old-location: biometric\ioctl_biometric_calibrate.htm
 tech.root: biometric
-ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_CALIBRATE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE

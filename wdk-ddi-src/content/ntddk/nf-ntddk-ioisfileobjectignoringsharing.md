@@ -4,7 +4,6 @@ title: IoIsFileObjectIgnoringSharing function (ntddk.h)
 description: The IoIsFileObjectIgnoringSharing routine determines if a file object is set with the option to ignore file sharing access checks.
 old-location: ifsk\ioisfileobjectignoringsharing.htm
 tech.root: ifsk
-ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.date: 04/16/2018
 keywords: ["IoIsFileObjectIgnoringSharing function"]
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing

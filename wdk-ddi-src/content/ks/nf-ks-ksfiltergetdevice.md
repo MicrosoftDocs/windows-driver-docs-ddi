@@ -4,7 +4,6 @@ title: KsFilterGetDevice function (ks.h)
 description: The KsFilterGetDevice function returns the AVStream device to which Filter belongs.
 old-location: stream\ksfiltergetdevice.htm
 tech.root: stream
-ms.assetid: f3abb5e4-6711-47bb-82b5-7ef838d49258
 ms.date: 04/23/2018
 keywords: ["KsFilterGetDevice function"]
 ms.keywords: KsFilterGetDevice, KsFilterGetDevice function [Streaming Media Devices], avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, ks/KsFilterGetDevice, stream.ksfiltergetdevice

@@ -4,7 +4,6 @@ title: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE (bthhfpddi.h)
 description: The IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of the Bluetooth device's microphone.
 old-location: audio\ioctl_bthhfp_mic_get_volume_status_update.htm
 tech.root: audio
-ms.assetid: 8BF4AEA4-B8EC-4C09-AEC8-5E47A0D715FB
 ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_mic_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE

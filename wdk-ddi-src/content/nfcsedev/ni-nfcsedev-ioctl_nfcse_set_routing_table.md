@@ -4,7 +4,6 @@ title: IOCTL_NFCSE_SET_ROUTING_TABLE (nfcsedev.h)
 description: Configures NFC controller listen mode routing table.
 old-location: nfpdrivers\ioctl_nfcse_set_routing_table.htm
 tech.root: nfpdrivers
-ms.assetid: 54B37EC0-C38A-479C-A45F-424963C4D89A
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_SET_ROUTING_TABLE, IOCTL_NFCSE_SET_ROUTING_TABLE control, IOCTL_NFCSE_SET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_set_routing_table

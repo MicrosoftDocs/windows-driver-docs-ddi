@@ -4,7 +4,6 @@ title: IDebugEventCallbacksWide::CreateThread (dbgeng.h)
 description: The CreateThread callback method is called by the engine when a create-thread debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_createthread.htm
 tech.root: debugger
-ms.assetid: d845777c-1bc9-4ab3-9bfc-211f2231971e
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::CreateThread"]
 ms.keywords: CreateThread, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],CreateThread method, IDebugEventCallbacksWide.CreateThread, IDebugEventCallbacksWide::CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, debugger.idebugeventcallbackswide_createthread

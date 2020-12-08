@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_QUERYALLOCATIONRESIDENCY
 title: _D3DKMT_QUERYALLOCATIONRESIDENCY (d3dkmthk.h)
 description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 old-location: display\d3dkmt_queryallocationresidency.htm
-ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.date: 05/10/2018
 keywords: ["D3DKMT_QUERYALLOCATIONRESIDENCY structure"]
 ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency

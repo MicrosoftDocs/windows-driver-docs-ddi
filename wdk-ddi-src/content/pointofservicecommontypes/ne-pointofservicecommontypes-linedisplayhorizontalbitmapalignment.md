@@ -4,7 +4,6 @@ title: LineDisplayHorizontalBitmapAlignment (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplayhorizontalbitmapalignment.htm
 tech.root: pos
-ms.assetid: 7C5981A5-6156-459E-8405-B178E2D3B487
 ms.date: 02/23/2018
 keywords: ["LineDisplayHorizontalBitmapAlignment enumeration"]
 ms.keywords: LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment, pos.linedisplayhorizontalbitmapalignment

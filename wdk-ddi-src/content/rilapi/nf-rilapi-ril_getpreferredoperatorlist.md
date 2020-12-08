@@ -4,7 +4,6 @@ title: RIL_GetPreferredOperatorList function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getpreferredoperatorlist.htm
 tech.root: netvista
-ms.assetid: bee76337-8349-4e61-9b0c-e525ed001850
 ms.date: 05/02/2018
 keywords: ["RIL_GetPreferredOperatorList function"]
 ms.keywords: RIL_GetPreferredOperatorList, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getpreferredoperatorlist, rilapi/RIL_GetPreferredOperatorList

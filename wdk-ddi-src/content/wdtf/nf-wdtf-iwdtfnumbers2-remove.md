@@ -4,7 +4,6 @@ title: IWDTFNumbers2::Remove (wdtf.h)
 description: Removes a number from the collection.
 old-location: dtf\iwdtfnumbers2_remove.htm
 tech.root: dtf
-ms.assetid: 2996b7c3-6f61-42ad-b9d1-e5c9a7d9ca7f
 ms.date: 04/04/2018
 keywords: ["IWDTFNumbers2::Remove"]
 ms.keywords: IWDTFNumbers2 interface [Windows Device Testing Framework],Remove method, IWDTFNumbers2.Remove, IWDTFNumbers2::Remove, Microsoft.WDTF.IWDTFNumbers2.Remove, Microsoft::WDTF::IWDTFNumbers2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFNumbers2 interface, dtf.iwdtfnumbers2_remove, wdtf/IWDTFNumbers2::Remove

@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEAP_STUCK_ERROR_EVENT
 title: WHEAP_STUCK_ERROR_EVENT
 description: 
 tech.root: whea
-ms.assetid: 2242c293-a853-40d3-87bc-9e74dc36f6de
 ms.date: 08/19/2019
 keywords: ["WHEAP_STUCK_ERROR_EVENT structure"]
 ms.keywords: WHEAP_STUCK_ERROR_EVENT, WHEAP_STUCK_ERROR_EVENT, *PWHEAP_STUCK_ERROR_EVENT,

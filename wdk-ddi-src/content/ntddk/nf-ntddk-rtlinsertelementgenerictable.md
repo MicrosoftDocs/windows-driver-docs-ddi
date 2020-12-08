@@ -4,7 +4,6 @@ title: RtlInsertElementGenericTable function (ntddk.h)
 description: The RtlInsertElementGenericTable routine adds a new element to a generic table.
 old-location: ifsk\rtlinsertelementgenerictable.htm
 tech.root: ifsk
-ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.date: 04/16/2018
 keywords: ["RtlInsertElementGenericTable function"]
 ms.keywords: RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml

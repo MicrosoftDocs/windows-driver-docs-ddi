@@ -4,7 +4,6 @@ title: IPrintOemUni::ResetPDEV (prcomoem.h)
 description: The IPrintOemUni::ResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.
 old-location: print\iprintoemuni_resetpdev.htm
 tech.root: print
-ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::ResetPDEV"]
 ms.keywords: IPrintOemUni interface [Print Devices],ResetPDEV method, IPrintOemUni.ResetPDEV, IPrintOemUni::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_5G_FREQUENCY_RANGE
 title: _WWAN_5G_FREQUENCY_RANGE (wwan.h)
 description: The WWAN_5G_FREQUENCY_RANGE enumeration specifies the frequency ranges that the device is using for 5G.
 tech.root: netvista
-ms.assetid: 63C14301-2D71-4F19-937E-4FBC1A43DFBC
 ms.date: 04/05/2019
 keywords: ["WWAN_5G_FREQUENCY_RANGE enumeration"]
 ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE,

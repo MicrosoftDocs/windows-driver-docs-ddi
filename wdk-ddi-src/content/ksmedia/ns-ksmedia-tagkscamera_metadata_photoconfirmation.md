@@ -4,7 +4,6 @@ title: tagKSCAMERA_METADATA_PHOTOCONFIRMATION (ksmedia.h)
 description: This structure contains the photo confirmation metadata information that is filled by the camera driver.
 old-location: stream\kscamera_metadata_photoconfirmation.htm
 tech.root: stream
-ms.assetid: FA3365DC-B604-468E-AACD-AC006D2B4EAF
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure"]
 ms.keywords: "*PKSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION structure [Streaming Media Devices], PKSCAMERA_METADATA_PHOTOCONFIRMATION, PKSCAMERA_METADATA_PHOTOCONFIRMATION structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_METADATA_PHOTOCONFIRMATION, ksmedia/PKSCAMERA_METADATA_PHOTOCONFIRMATION, stream.kscamera_metadata_photoconfirmation, tagKSCAMERA_METADATA_PHOTOCONFIRMATION"

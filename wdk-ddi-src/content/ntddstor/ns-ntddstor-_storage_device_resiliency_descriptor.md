@@ -4,7 +4,6 @@ title: _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\storage_device_resiliency_descriptor.htm
 tech.root: storage
-ms.assetid: 71351CB7-1295-4797-802C-23A6B1C2C53F
 ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, storage.storage_device_resiliency_descriptor

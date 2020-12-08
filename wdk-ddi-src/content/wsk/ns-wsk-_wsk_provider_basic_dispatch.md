@@ -4,7 +4,6 @@ title: _WSK_PROVIDER_BASIC_DISPATCH (wsk.h)
 description: The WSK_PROVIDER_BASIC_DISPATCH structure specifies the WSK subsystem's dispatch table of functions for a basic socket.
 old-location: netvista\wsk_provider_basic_dispatch.htm
 tech.root: netvista
-ms.assetid: 15cd5336-fe29-4a59-8071-04c802552a5a
 ms.date: 05/02/2018
 keywords: ["WSK_PROVIDER_BASIC_DISPATCH structure"]
 ms.keywords: "*PWSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_BASIC_DISPATCH, WSK_PROVIDER_BASIC_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_BASIC_DISPATCH, netvista.wsk_provider_basic_dispatch, wsk/PWSK_PROVIDER_BASIC_DISPATCH, wsk/WSK_PROVIDER_BASIC_DISPATCH, wskref_eac2fecd-6800-4c2f-b636-bcc103c99377.xml"

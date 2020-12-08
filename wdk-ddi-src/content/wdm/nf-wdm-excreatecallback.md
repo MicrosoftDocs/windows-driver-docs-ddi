@@ -4,7 +4,6 @@ title: ExCreateCallback function (wdm.h)
 description: The ExCreateCallback routine either creates a new callback object or opens an existing callback object on behalf of the caller.
 old-location: kernel\excreatecallback.htm
 tech.root: kernel
-ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.date: 04/30/2018
 keywords: ["ExCreateCallback function"]
 ms.keywords: ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, wdm/ExCreateCallback

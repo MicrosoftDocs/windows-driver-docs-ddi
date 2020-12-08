@@ -4,7 +4,6 @@ title: KsDiscardEvent function (ks.h)
 description: The KsDiscardEvent function discards the memory used by an event entry after the objects have been dereferenced.
 old-location: stream\ksdiscardevent.htm
 tech.root: stream
-ms.assetid: 14aaf96a-4d1f-4e4a-9fed-e493090157b8
 ms.date: 04/23/2018
 keywords: ["KsDiscardEvent function"]
 ms.keywords: KsDiscardEvent, KsDiscardEvent function [Streaming Media Devices], ks/KsDiscardEvent, ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, stream.ksdiscardevent

@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_GETCERTIFICATE
 title: PFND3D11_1DDI_GETCERTIFICATE (d3d10umddi.h)
 description: Returns a certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificate.htm
-ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_GETCERTIFICATE callback function"]
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, PFND3D11_1DDI_GETCERTIFICATE callback, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]

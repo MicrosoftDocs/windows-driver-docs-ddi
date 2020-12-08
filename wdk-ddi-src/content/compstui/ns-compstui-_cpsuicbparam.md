@@ -4,7 +4,6 @@ title: _CPSUICBPARAM (compstui.h)
 description: The CPSUICBPARAM structure is used as the input parameter to _CPSUICALLBACK-typed callback functions.
 old-location: print\cpsuicbparam.htm
 tech.root: print
-ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.date: 04/20/2018
 keywords: ["CPSUICBPARAM structure"]
 ms.keywords: "*PCPSUICBPARAM, CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], _CPSUICBPARAM, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam"

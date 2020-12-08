@@ -4,7 +4,6 @@ title: _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawindexedprimitive2.htm
 tech.root: display
-ms.assetid: 0376a2ce-2f1f-4515-b80a-2ecf0941d7d3
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, display.d3dhal_dp2drawindexedprimitive2"

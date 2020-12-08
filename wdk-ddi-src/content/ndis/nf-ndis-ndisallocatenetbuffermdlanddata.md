@@ -4,7 +4,6 @@ title: NdisAllocateNetBufferMdlAndData function (ndis.h)
 description: NDIS drivers call the NdisAllocateNetBufferMdlAndData function to allocate a NET_BUFFER structure along with the associated MDL and data.
 old-location: netvista\ndisallocatenetbuffermdlanddata.htm
 tech.root: netvista
-ms.assetid: cfac9061-a685-4e67-aaa2-ca43b7e36cfa
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBufferMdlAndData function"]
 ms.keywords: NdisAllocateNetBufferMdlAndData, NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml, netvista.ndisallocatenetbuffermdlanddata

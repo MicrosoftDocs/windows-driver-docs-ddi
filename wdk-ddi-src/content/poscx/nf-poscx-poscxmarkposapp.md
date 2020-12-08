@@ -4,7 +4,6 @@ title: PosCxMarkPosApp function (poscx.h)
 description: PosCxMarkPosApp marks the open instance as associated or not associated with a point-of-service application.
 old-location: pos\poscxmarkposapp.htm
 tech.root: pos
-ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.date: 02/23/2018
 keywords: ["PosCxMarkPosApp function"]
 ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp

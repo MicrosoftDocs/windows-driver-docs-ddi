@@ -4,7 +4,6 @@ title: _BDA_IPv4_ADDRESS_LIST (bdatypes.h)
 description: 
 old-location: stream\bda_ipv4_address_list.htm
 tech.root: stream
-ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.date: 04/23/2018
 keywords: ["BDA_IPv4_ADDRESS_LIST structure"]
 ms.keywords: "*PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list"

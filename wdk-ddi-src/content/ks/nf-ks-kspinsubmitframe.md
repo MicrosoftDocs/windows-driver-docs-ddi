@@ -4,7 +4,6 @@ title: KsPinSubmitFrame function (ks.h)
 description: If a pin has been placed into injection mode by a call to KsPinRegisterFrameReturnCallback, the KsPinSubmitFrame function submits a frame directly into the transport circuit.
 old-location: stream\kspinsubmitframe.htm
 tech.root: stream
-ms.assetid: 3fdb83b2-85b7-4f86-9a59-a42138000214
 ms.date: 04/23/2018
 keywords: ["KsPinSubmitFrame function"]
 ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, ks/KsPinSubmitFrame, stream.kspinsubmitframe

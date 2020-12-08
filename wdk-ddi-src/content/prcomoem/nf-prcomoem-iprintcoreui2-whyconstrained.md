@@ -4,7 +4,6 @@ title: IPrintCoreUI2::WhyConstrained (prcomoem.h)
 description: The IPrintCoreUI2::WhyConstrained method determines why the specified feature/option selection is constrained.
 old-location: print\iprintcoreui2_whyconstrained.htm
 tech.root: print
-ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::WhyConstrained"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],WhyConstrained method, IPrintCoreUI2.WhyConstrained, IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml

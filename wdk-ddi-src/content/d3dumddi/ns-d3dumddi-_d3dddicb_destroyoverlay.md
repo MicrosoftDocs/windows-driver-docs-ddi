@@ -4,7 +4,6 @@ title: _D3DDDICB_DESTROYOVERLAY (d3dumddi.h)
 description: The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 old-location: display\d3dddicb_destroyoverlay.htm
 tech.root: display
-ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYOVERLAY structure"]
 ms.keywords: D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, _D3DDDICB_DESTROYOVERLAY, d3dumddi/D3DDDICB_DESTROYOVERLAY, display.d3dddicb_destroyoverlay

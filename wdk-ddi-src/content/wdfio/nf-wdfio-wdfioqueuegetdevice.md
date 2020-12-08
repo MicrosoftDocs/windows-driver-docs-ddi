@@ -4,7 +4,6 @@ title: WdfIoQueueGetDevice function (wdfio.h)
 description: The WdfIoQueueGetDevice method returns a handle to the framework device object that a specified I/O queue belongs to.
 old-location: wdf\wdfioqueuegetdevice.htm
 tech.root: wdf
-ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueGetDevice function"]
 ms.keywords: DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice, WdfIoQueueGetDevice method, kmdf.wdfioqueuegetdevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice

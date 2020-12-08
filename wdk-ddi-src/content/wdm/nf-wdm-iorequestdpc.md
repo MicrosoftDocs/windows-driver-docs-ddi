@@ -4,7 +4,6 @@ title: IoRequestDpc function (wdm.h)
 description: The IoRequestDpc routine queues a driver-supplied DpcForIsr routine to complete interrupt-driven I/O processing at a lower IRQL.
 old-location: kernel\iorequestdpc.htm
 tech.root: kernel
-ms.assetid: 196555c8-74a6-4dae-ac4d-52654015ffeb
 ms.date: 04/30/2018
 keywords: ["IoRequestDpc function"]
 ms.keywords: IoRequestDpc, IoRequestDpc routine [Kernel-Mode Driver Architecture], k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, kernel.iorequestdpc, wdm/IoRequestDpc

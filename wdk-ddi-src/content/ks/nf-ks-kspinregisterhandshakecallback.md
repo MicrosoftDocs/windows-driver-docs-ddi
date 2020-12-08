@@ -4,7 +4,6 @@ title: KsPinRegisterHandshakeCallback function (ks.h)
 description: The KsPinRegisterHandshakeCallback function registers a minidriver-provided callback routine for a given pin.
 old-location: stream\kspinregisterhandshakecallback.htm
 tech.root: stream
-ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.date: 04/23/2018
 keywords: ["KsPinRegisterHandshakeCallback function"]
 ms.keywords: KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, ks/KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback

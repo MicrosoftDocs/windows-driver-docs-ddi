@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTCreateSynchronizationObject
 title: D3DKMTCreateSynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTCreateSynchronizationObject function creates a kernel-mode synchronization object.
 old-location: display\d3dkmtcreatesynchronizationobject.htm
-ms.assetid: c91686dc-1c6a-4d21-84e8-fd8a2803ff4e
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateSynchronizationObject function"]
 ms.keywords: D3DKMTCreateSynchronizationObject, D3DKMTCreateSynchronizationObject function [Display Devices], OpenGL_Functions_505065c6-f259-4518-adb8-f7d0fa6b56a5.xml, d3dkmthk/D3DKMTCreateSynchronizationObject, display.d3dkmtcreatesynchronizationobject

@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_RENDER
 title: _D3DKMT_RENDER (d3dkmthk.h)
 description: The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dkmt_render.htm
-ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.date: 05/10/2018
 keywords: ["D3DKMT_RENDER structure"]
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render

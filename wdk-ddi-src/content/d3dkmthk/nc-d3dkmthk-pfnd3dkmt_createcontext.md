@@ -3,7 +3,6 @@ UID: NC:d3dkmthk.PFND3DKMT_CREATECONTEXT
 title: PFND3DKMT_CREATECONTEXT (d3dkmthk.h)
 description: The D3DKMTCreateContext function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatecontext.htm
-ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATECONTEXT callback function"]
 ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, PFND3DKMT_CREATECONTEXT callback, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext

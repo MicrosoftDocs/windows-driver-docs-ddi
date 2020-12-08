@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.ConvertException
 title: ConvertException function (dbgmodel.h)
 description: Trap and convert all exceptions coming out of a functor to an appropriate HRESULT.
-ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
 ms.date: 09/28/2018
 keywords: ["ConvertException function"]
 ms.keywords: ConvertException

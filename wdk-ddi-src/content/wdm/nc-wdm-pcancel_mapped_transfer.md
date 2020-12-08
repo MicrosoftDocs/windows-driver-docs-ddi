@@ -4,7 +4,6 @@ title: PCANCEL_MAPPED_TRANSFER (wdm.h)
 description: The CancelMappedTransfer routine cancels a system DMA transfer that is currently mapped to an adapter.
 old-location: kernel\cancelmappedtransfer.htm
 tech.root: kernel
-ms.assetid: 12ED94F4-70A9-4716-91CD-F561F0D4D4EA
 ms.date: 04/30/2018
 keywords: ["PCANCEL_MAPPED_TRANSFER callback function"]
 ms.keywords: CancelMappedTransfer, CancelMappedTransfer callback function [Kernel-Mode Driver Architecture], PCANCEL_MAPPED_TRANSFER, PCANCEL_MAPPED_TRANSFER callback, kernel.cancelmappedtransfer, wdm/CancelMappedTransfer

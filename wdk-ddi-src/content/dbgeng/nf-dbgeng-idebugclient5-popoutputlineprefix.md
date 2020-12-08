@@ -4,7 +4,6 @@ title: IDebugClient5::PopOutputLinePrefix (dbgeng.h)
 description: Restores a previously saved output line prefix.
 old-location: debugger\idebugclient5_popoutputlineprefix.htm
 tech.root: debugger
-ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::PopOutputLinePrefix"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],PopOutputLinePrefix method, IDebugClient5.PopOutputLinePrefix, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix

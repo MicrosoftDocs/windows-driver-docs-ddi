@@ -4,7 +4,6 @@ title: _WIAS_ENDORSER_INFO (wiamindr_lh.h)
 description: The WIAS_ENDORSER_INFO structure holds custom endorser token/value pairs.
 old-location: image\wias_endorser_info.htm
 tech.root: image
-ms.assetid: 4874ddab-5443-4e03-8f49-493682dabac1
 ms.date: 05/03/2018
 keywords: ["WIAS_ENDORSER_INFO structure"]
 ms.keywords: "*PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], _WIAS_ENDORSER_INFO, image.wias_endorser_info, wiamindr_lh/PWIAS_ENDORSER_INFO, wiamindr_lh/WIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml"

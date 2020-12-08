@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTLATENCY
 title: DXGKCB_SETPOWERCOMPONENTLATENCY (d3dkmddi.h)
 description: Called by the display miniport driver to set the latency tolerance for a power component of type DXGK_POWER_COMPONENT_OTHER.
 old-location: display\dxgkcbsetpowercomponentlatency.htm
-ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.date: 05/10/2018
 keywords: ["DXGKCB_SETPOWERCOMPONENTLATENCY callback function"]
 ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY callback, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency

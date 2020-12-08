@@ -4,7 +4,6 @@ title: BranchOfficeJobDataError (winsplp.h)
 description: This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.
 old-location: print\branchofficejobdataerror.htm
 tech.root: print
-ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.date: 04/20/2018
 keywords: ["BranchOfficeJobDataError structure"]
 ms.keywords: "*PBranchOfficeJobDataError, BranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError"

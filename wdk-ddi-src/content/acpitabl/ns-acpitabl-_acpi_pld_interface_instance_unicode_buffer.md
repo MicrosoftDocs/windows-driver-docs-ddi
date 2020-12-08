@@ -2,7 +2,6 @@
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER
 title: _ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface instance Unicode descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
-ms.assetid: c3ded0b4-c497-4b7c-bc88-fec4cbdf8aef
 ms.date: 11/19/2020
 keywords: ["ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER structure"]
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER,

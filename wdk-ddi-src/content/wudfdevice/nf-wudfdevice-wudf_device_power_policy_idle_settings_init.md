@@ -4,7 +4,6 @@ title: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function (wudfdevice.h)
 description: The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function initializes a driver's WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure.
 old-location: wdf\wudf_device_power_policy_idle_settings_init.htm
 tech.root: wdf
-ms.assetid: 893F249B-ACD9-4262-93B6-890987A9F591
 ms.date: 02/26/2018
 keywords: ["WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function"]
 ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT

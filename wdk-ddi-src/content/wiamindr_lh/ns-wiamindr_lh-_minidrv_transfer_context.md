@@ -4,7 +4,6 @@ title: _MINIDRV_TRANSFER_CONTEXT (wiamindr_lh.h)
 description: The MINIDRV_TRANSFER_CONTEXT structure is used to store image and other information needed for a memory-callback data transfer or a file data transfer.
 old-location: image\minidrv_transfer_context.htm
 tech.root: image
-ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.date: 05/03/2018
 keywords: ["MINIDRV_TRANSFER_CONTEXT structure"]
 ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml"

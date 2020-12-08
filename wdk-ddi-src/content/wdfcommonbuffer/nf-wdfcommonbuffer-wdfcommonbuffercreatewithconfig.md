@@ -4,7 +4,6 @@ title: WdfCommonBufferCreateWithConfig function (wdfcommonbuffer.h)
 description: The WdfCommonBufferCreateWithConfig method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information.
 old-location: wdf\wdfcommonbuffercreatewithconfig.htm
 tech.root: wdf
-ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.date: 02/26/2018
 keywords: ["WdfCommonBufferCreateWithConfig function"]
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig

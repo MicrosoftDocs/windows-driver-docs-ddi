@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_ACQUIRESWIZZLINGRANGE
 title: _DXGKARG_ACQUIRESWIZZLINGRANGE (d3dkmddi.h)
 description: The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an allocation accessible through a CPU aperture.
 old-location: display\dxgkarg_acquireswizzlingrange.htm
-ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.date: 05/10/2018
 keywords: ["DXGKARG_ACQUIRESWIZZLINGRANGE structure"]
 ms.keywords: "*INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, _DXGKARG_ACQUIRESWIZZLINGRANGE, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, display.dxgkarg_acquireswizzlingrange"

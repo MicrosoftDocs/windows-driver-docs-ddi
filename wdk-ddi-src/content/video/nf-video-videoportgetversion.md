@@ -4,7 +4,6 @@ title: VideoPortGetVersion function (video.h)
 description: The VideoPortGetVersion function gets version information about the currently running operating system.
 old-location: display\videoportgetversion.htm
 tech.root: display
-ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.date: 05/10/2018
 keywords: ["VideoPortGetVersion function"]
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion

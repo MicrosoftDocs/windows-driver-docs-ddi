@@ -4,7 +4,6 @@ title: FltCloseSectionForDataScan function (fltkernel.h)
 description: The FltCloseSectionForDataScan routine closes a section object associated with a file stream.
 old-location: ifsk\fltclosesectionfordatascan.htm
 tech.root: ifsk
-ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.date: 04/16/2018
 keywords: ["FltCloseSectionForDataScan function"]
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan

@@ -4,7 +4,6 @@ title: GNSS_GEOFENCE_CREATE_PARAM (gnssdriver.h)
 description: This structure defines the parameters for creating a geofence in the GNSS engine.
 old-location: gnss\gnss_geofence_create_param.htm
 tech.root: gnss
-ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.date: 02/15/2018
 keywords: ["GNSS_GEOFENCE_CREATE_PARAM structure"]
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_create_param, gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM"

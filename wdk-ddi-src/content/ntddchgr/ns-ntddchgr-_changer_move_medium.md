@@ -4,7 +4,6 @@ title: _CHANGER_MOVE_MEDIUM (ntddchgr.h)
 description: The CHANGER_MOVE_MEDIUM structure is used in conjunction with the IOCTL_CHANGER_MOVE_MEDIUM request to move a piece of media from a source element to a destination.
 old-location: storage\changer_move_medium.htm
 tech.root: storage
-ms.assetid: b19c8add-7377-40d2-8496-fcfa166ac143
 ms.date: 03/29/2018
 keywords: ["CHANGER_MOVE_MEDIUM structure"]
 ms.keywords: "*PCHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM structure [Storage Devices], PCHANGER_MOVE_MEDIUM, PCHANGER_MOVE_MEDIUM structure pointer [Storage Devices], _CHANGER_MOVE_MEDIUM, ntddchgr/CHANGER_MOVE_MEDIUM, ntddchgr/PCHANGER_MOVE_MEDIUM, storage.changer_move_medium, structs-changer_866dd781-90cd-41be-84ce-61c16d31a369.xml"

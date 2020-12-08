@@ -2,7 +2,6 @@
 UID: NS:acpitabl._PROC_TOPOLOGY_CACHE_ATTRIBUTES
 title: _PROC_TOPOLOGY_CACHE_ATTRIBUTES (acpitabl.h)
 description: Defines the processor topology cache attributes structure.
-ms.assetid: ebb96134-485b-412c-b147-9428a9dbd309
 ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_CACHE_ATTRIBUTES structure"]
 ms.keywords: _PROC_TOPOLOGY_CACHE_ATTRIBUTES, PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES,

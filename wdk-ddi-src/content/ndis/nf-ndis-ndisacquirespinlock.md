@@ -4,7 +4,6 @@ title: NdisAcquireSpinLock macro (ndis.h)
 description: The NdisAcquireSpinLock function acquires a spin lock so the caller gains exclusive access to the resources, shared among driver functions, that the spin lock protects.
 old-location: netvista\ndisacquirespinlock.htm
 tech.root: netvista
-ms.assetid: c19c9396-bc24-4f4b-a0c9-f8de76a9c46b
 ms.date: 05/02/2018
 keywords: ["NdisAcquireSpinLock macro"]
 ms.keywords: NdisAcquireSpinLock, NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisAcquireSpinLock, ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, netvista.ndisacquirespinlock

@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT (d3d10umddi.h)
 description: Sets the source rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamsourcerect.htm
-ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]

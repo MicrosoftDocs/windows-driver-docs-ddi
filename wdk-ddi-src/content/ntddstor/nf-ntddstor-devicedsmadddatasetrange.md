@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmAddDataSetRange
 title: DeviceDsmAddDataSetRange function (ntddstor.h)
 description: The DeviceDsmAddDataSetRange function adds a data set range to a DEVICE_DSM_INPUT structure.
 tech.root: storage
-ms.assetid: 22dca47e-9542-486a-bbf3-053cbd3fccd9
 ms.date: 08/23/2019
 keywords: ["DeviceDsmAddDataSetRange function"]
 ms.keywords: DeviceDsmAddDataSetRange

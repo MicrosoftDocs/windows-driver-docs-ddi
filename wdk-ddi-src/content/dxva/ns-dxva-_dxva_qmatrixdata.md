@@ -4,7 +4,6 @@ title: _DXVA_QmatrixData (dxva.h)
 description: The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to load inverse-quantization matrix data for off-host bitstream compressed video picture decoding.
 old-location: display\dxva_qmatrixdata.htm
 tech.root: display
-ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
 ms.date: 05/10/2018
 keywords: ["DXVA_QmatrixData structure"]
 ms.keywords: "*LPDXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], LPDXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], _DXVA_QmatrixData, display.dxva_qmatrixdata, dxva/DXVA_QmatrixData, dxva/LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml"

@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTFlipOverlay
 title: D3DKMTFlipOverlay function (d3dkmthk.h)
 description: The D3DKMTFlipOverlay function changes the allocation to display on the overlay.
 old-location: display\d3dkmtflipoverlay.htm
-ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
 ms.date: 05/10/2018
 keywords: ["D3DKMTFlipOverlay function"]
 ms.keywords: D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay

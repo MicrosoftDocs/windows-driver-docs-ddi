@@ -4,7 +4,6 @@ title: SpbRequestGetParameters function (spbcx.h)
 description: The SpbRequestGetParameters method retrieves a set of SPB-specific parameter values from an I/O request.
 old-location: spb\spbrequestgetparameters.htm
 tech.root: SPB
-ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
 ms.date: 04/30/2018
 keywords: ["SpbRequestGetParameters function"]
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters

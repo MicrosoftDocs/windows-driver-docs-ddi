@@ -4,7 +4,6 @@ title: IDebugControl4::AddBreakpoint2 (dbgeng.h)
 description: The AddBreakpoint2 method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint2.htm
 tech.root: debugger
-ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::AddBreakpoint2"]
 ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2

@@ -4,7 +4,6 @@ title: NDIS_WDI_TX_QUERY_RA_TID_STATE (dot11wdi.h)
 description: The NdisWdiTxQueryRATIDState callback function is used by the TxEngine to query the state of a RA/TID or Port queue.
 old-location: netvista\ndiswditxqueryratidstate.htm
 tech.root: netvista
-ms.assetid: 76949336-3349-4869-83C7-60D7D8A6BE24
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_QUERY_RA_TID_STATE callback function"]
 ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NDIS_WDI_TX_QUERY_RA_TID_STATE callback, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate

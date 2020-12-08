@@ -4,7 +4,6 @@ title: EVT_WDF_DEVICE_SET_LOCK (wdfpdo.h)
 description: A driver's EvtDeviceSetLock event callback function locks the specified device so that it cannot be ejected, or unlocks the device so that it can be ejected.
 old-location: wdf\evtdevicesetlock.htm
 tech.root: wdf
-ms.assetid: 2ac42710-9f44-4982-a0d9-c49048870aeb
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_SET_LOCK callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK callback, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock

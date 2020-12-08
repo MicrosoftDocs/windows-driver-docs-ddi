@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetSymbolEntriesByName (dbgeng.h)
 description: The GetSymbolEntriesByName method returns the symbols whose names match a given pattern.
 old-location: debugger\getsymbolentriesbyname.htm
 tech.root: debugger
-ms.assetid: 90e6c1aa-30d5-40e7-bc35-92b0359485e0
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetSymbolEntriesByName"]
 ms.keywords: GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], GetSymbolEntriesByName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByName method, IDebugSymbols3.GetSymbolEntriesByName, IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, debugger.getsymbolentriesbyname

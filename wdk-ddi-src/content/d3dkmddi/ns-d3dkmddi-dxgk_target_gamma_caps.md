@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_TARGET_GAMMA_CAPS
 title: DXGK_TARGET_GAMMA_CAPS
 description: Describes the gamma pipeline stage capabilities.
 tech.root: display
-ms.assetid: 74a20063-1c04-4db6-abb0-93d378690822
 ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_GAMMA_CAPS structure"]
 ms.keywords: DXGK_TARGET_GAMMA_CAPS, DXGK_TARGET_GAMMA_CAPS, *PDXGK_TARGET_GAMMA_CAPS,

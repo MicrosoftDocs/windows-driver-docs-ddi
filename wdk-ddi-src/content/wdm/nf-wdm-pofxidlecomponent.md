@@ -4,7 +4,6 @@ title: PoFxIdleComponent function (wdm.h)
 description: The PoFxIdleComponent routine decrements the activation reference count on the specified component.
 old-location: kernel\pofxidlecomponent.htm
 tech.root: kernel
-ms.assetid: 07282994-5E04-432D-85A6-4677DB2DA84A
 ms.date: 04/30/2018
 keywords: ["PoFxIdleComponent function"]
 ms.keywords: PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], kernel.pofxidlecomponent, wdm/PoFxIdleComponent

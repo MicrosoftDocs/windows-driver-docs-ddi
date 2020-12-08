@@ -4,7 +4,6 @@ title: _IRB_REQ_GET_GENERATION_COUNT (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetGenerationCount request.
 old-location: ieee\irb_req_get_generation_count.htm
 tech.root: IEEE
-ms.assetid: C744C48E-476A-46F8-97BE-B3484E6FEF27
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_GET_GENERATION_COUNT structure"]
 ms.keywords: 1394/IRB_REQ_GET_GENERATION_COUNT, IEEE.irb_req_get_generation_count, IRB_REQ_GET_GENERATION_COUNT, IRB_REQ_GET_GENERATION_COUNT structure [Buses], _IRB_REQ_GET_GENERATION_COUNT

@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION (sensorscx.h)
 description: Used to start a state change notification.
 old-location: sensors\evt_sensor_driver_start_state_change_notification.htm
 tech.root: sensors
-ms.assetid: 93C2ABCE-15C9-4EE4-A9B5-A81788DB608C
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], sensors.evt_sensor_driver_start_state_change_notification, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION

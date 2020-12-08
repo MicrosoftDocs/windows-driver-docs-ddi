@@ -4,7 +4,6 @@ title: _BRB_SCO_TRANSFER (bthddi.h)
 description: The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write isochronous data to a SCO channel.
 old-location: bltooth\_brb_sco_transfer.htm
 tech.root: bltooth
-ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.date: 04/27/2018
 keywords: ["BRB_SCO_TRANSFER structure"]
 ms.keywords: "_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bltooth._brb_sco_transfer, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER"

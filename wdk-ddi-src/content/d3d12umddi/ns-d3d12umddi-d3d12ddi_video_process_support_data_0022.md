@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
 title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 (d3d12umddi.h)
 description: Specifies information used to retrieve capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_support_data.htm
-ms.assetid: B42D3637-BBFF-411B-AA1B-4B9578E2EDA9
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, display.d3d12ddi_video_process_support_data

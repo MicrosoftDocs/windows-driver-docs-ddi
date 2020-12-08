@@ -4,7 +4,6 @@ title: IKsPinPipe::KsGetPinBusCache (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpinbuscache.htm
 tech.root: stream
-ms.assetid: 4F38C7D7-E350-4FCB-A89B-CA87BA638AD3
 ms.date: 04/23/2018
 keywords: ["IKsPinPipe::KsGetPinBusCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinBusCache method, IKsPinPipe.KsGetPinBusCache, IKsPinPipe::KsGetPinBusCache, KsGetPinBusCache, KsGetPinBusCache method [Streaming Media Devices], KsGetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinBusCache, stream.ikspinpipe_ksgetpinbuscache

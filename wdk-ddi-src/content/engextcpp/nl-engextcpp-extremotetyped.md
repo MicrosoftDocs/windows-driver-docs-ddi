@@ -4,7 +4,6 @@ title: ExtRemoteTyped (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger
-ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.date: 08/09/2018
 keywords: ["ExtRemoteTyped class"]
 ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging],described, debugger.extremotetyped, engextcpp/ExtRemoteTyped

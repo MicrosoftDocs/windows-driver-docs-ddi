@@ -4,7 +4,6 @@ title: StorPortReadRegisterBufferUchar macro (storport.h)
 description: The StorPortReadRegisterBufferUchar routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferuchar.htm
 tech.root: storage
-ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUchar macro"]
 ms.keywords: StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml

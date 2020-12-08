@@ -4,7 +4,6 @@ title: _WHEA_PCIXDEVICE_ERROR_SECTION (ntddk.h)
 description: The WHEA_PCIXDEVICE_ERROR_SECTION structure describes PCI or PCI-X device error data.
 old-location: whea\whea_pcixdevice_error_section.htm
 tech.root: whea
-ms.assetid: 0d2ec4e5-193d-45bf-8588-6afc1a9fb68c
 ms.date: 02/20/2018
 keywords: ["WHEA_PCIXDEVICE_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_PCIXDEVICE_ERROR, *PWHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR, WHEA_PCIXDEVICE_ERROR_SECTION, WHEA_PCIXDEVICE_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIXDEVICE_ERROR_SECTION, ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION, whea.whea_pcixdevice_error_section, whearef_79293b09-c49f-499f-9423-319265088a26.xml"

@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 title: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject function signals.
 old-location: display\d3dkmt_signalsynchronizationobject.htm
-ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject

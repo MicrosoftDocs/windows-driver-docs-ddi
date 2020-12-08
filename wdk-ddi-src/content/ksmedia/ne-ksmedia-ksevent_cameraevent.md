@@ -4,7 +4,6 @@ title: KSEVENT_CAMERAEVENT (ksmedia.h)
 description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
 old-location: stream\ksevent_cameraevent.htm
 tech.root: stream
-ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
 ms.date: 04/23/2018
 keywords: ["KSEVENT_CAMERAEVENT enumeration"]
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent

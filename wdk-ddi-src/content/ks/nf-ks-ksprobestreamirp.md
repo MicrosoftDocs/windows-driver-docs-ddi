@@ -4,7 +4,6 @@ title: KsProbeStreamIrp function (ks.h)
 description: The KsProbeStreamIrp function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header.
 old-location: stream\ksprobestreamirp.htm
 tech.root: stream
-ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.date: 04/23/2018
 keywords: ["KsProbeStreamIrp function"]
 ms.keywords: KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp

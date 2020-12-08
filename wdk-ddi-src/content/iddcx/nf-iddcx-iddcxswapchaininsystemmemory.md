@@ -2,7 +2,6 @@
 UID: NF:iddcx.IddCxSwapChainInSystemMemory
 title: IddCxSwapChainInSystemMemory
 ms.date: 10/20/2020
-ms.assetid: 640f7938-f4a6-4569-9cfd-611b670fe6ab
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

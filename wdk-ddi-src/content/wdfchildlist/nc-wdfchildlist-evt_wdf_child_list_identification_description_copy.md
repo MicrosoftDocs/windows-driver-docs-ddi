@@ -4,7 +4,6 @@ title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY (wdfchildlist.h)
 description: A driver's EvtChildListIdentificationDescriptionCopy event callback function copies a child identification description from one specified location to another.
 old-location: wdf\evtchildlistidentificationdescriptioncopy.htm
 tech.root: wdf
-ms.assetid: c44d6a2f-c7ef-486d-973e-aada068ddc06
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback function"]
 ms.keywords: DFDeviceObjectChildListRef_8568b87d-544a-4574-a9c7-c5498a30a758.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback, EvtChildListIdentificationDescriptionCopy, EvtChildListIdentificationDescriptionCopy callback function, kmdf.evtchildlistidentificationdescriptioncopy, wdf.evtchildlistidentificationdescriptioncopy, wdfchildlist/EvtChildListIdentificationDescriptionCopy

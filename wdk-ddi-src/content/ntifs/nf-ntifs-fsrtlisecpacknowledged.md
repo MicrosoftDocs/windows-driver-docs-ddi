@@ -4,7 +4,6 @@ title: FsRtlIsEcpAcknowledged function (ntifs.h)
 description: The FsRtlIsEcpAcknowledged routine is used to determine if a given extra create parameter (ECP) context structure has been marked as acknowledged.
 old-location: ifsk\fsrtlisecpacknowledged.htm
 tech.root: ifsk
-ms.assetid: ee2f06f6-3295-4a92-b232-daf66ec6195a
 ms.date: 04/16/2018
 keywords: ["FsRtlIsEcpAcknowledged function"]
 ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged

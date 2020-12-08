@@ -4,7 +4,6 @@ title: WdfDeviceAddQueryInterface function (wdfqueryinterface.h)
 description: The WdfDeviceAddQueryInterface method creates a driver-defined interface that other drivers can query and use.
 old-location: wdf\wdfdeviceaddqueryinterface.htm
 tech.root: wdf
-ms.assetid: 6e811b5e-bd2a-473b-8e5c-52bfbd9b8f7c
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAddQueryInterface function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, kmdf.wdfdeviceaddqueryinterface, wdf.wdfdeviceaddqueryinterface, wdfqueryinterface/WdfDeviceAddQueryInterface

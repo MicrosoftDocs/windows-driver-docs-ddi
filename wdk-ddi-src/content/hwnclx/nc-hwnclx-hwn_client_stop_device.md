@@ -4,7 +4,6 @@ title: HWN_CLIENT_STOP_DEVICE (hwnclx.h)
 description: Implemented by the client driver TO start the hardware notification component. It is invoked as a result of a call to EVT_WDF_DEVICE_D0_EXIT.
 old-location: gpiobtn\hwn_client_stop_device.htm
 tech.root: gpiobtn
-ms.assetid: e481afe8-659a-406d-9574-ffa048ea3c45
 ms.date: 02/15/2018
 keywords: ["HWN_CLIENT_STOP_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_STOP_DEVICE, *PHWN_CLIENT_STOP_DEVICE callback function pointer, HWN_CLIENT_STOP_DEVICE, HwnClientStopDevice, HwnClientStopDevice callback function, gpiobtn.hwn_client_stop_device, hwnclx/HwnClientStopDevice"

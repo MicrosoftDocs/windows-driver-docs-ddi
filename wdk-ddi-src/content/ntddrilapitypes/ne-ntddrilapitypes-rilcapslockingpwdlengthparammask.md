@@ -4,7 +4,6 @@ title: RILCAPSLOCKINGPWDLENGTHPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcapslockingpwdlengthparammask.htm
 tech.root: netvista
-ms.assetid: c6e89030-835e-4f7f-8bec-6cd19f598f9d
 ms.date: 05/02/2018
 keywords: ["RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration"]
 ms.keywords: RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, netvista.rilcapslockingpwdlengthparammask, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, ntddrilapitypes/RIL_PARAM_CLPL_ALL, ntddrilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH

@@ -4,7 +4,6 @@ title: _DDICHECKOVERLAYSUPPORTINPUT (d3dumddi.h)
 description: The DDICHECKOVERLAYSUPPORTINPUT structure describes an overlay display mode that the user-mode display driver uses to verify overlay support.
 old-location: display\ddicheckoverlaysupportinput.htm
 tech.root: display
-ms.assetid: 5f15743a-1ea7-4260-b2cb-f2871acb27f9
 ms.date: 05/10/2018
 keywords: ["DDICHECKOVERLAYSUPPORTINPUT structure"]
 ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput

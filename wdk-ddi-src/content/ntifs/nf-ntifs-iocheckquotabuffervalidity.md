@@ -4,7 +4,6 @@ title: IoCheckQuotaBufferValidity function (ntifs.h)
 description: The IoCheckQuotaBufferValidity routine checks whether the specified quota buffer is valid.
 old-location: ifsk\iocheckquotabuffervalidity.htm
 tech.root: ifsk
-ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.date: 04/16/2018
 keywords: ["IoCheckQuotaBufferValidity function"]
 ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity

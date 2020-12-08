@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_LIST_FLAGS
 title: NET_BUFFER_LIST_FLAGS macro (ndis.h)
 description: NET_BUFFER_LIST_FLAGS is a macro that NDIS drivers use to get the flags associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: dbfc432b-5751-4796-8ede-2d9e73759e3b
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_FLAGS macro"]
 ms.keywords: NET_BUFFER_LIST_FLAGS

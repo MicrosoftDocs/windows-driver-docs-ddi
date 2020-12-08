@@ -4,7 +4,6 @@ title: IOCTL_MOUNTDEV_LINK_DELETED (mountdev.h)
 description: Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted.
 old-location: storage\ioctl_mountdev_link_deleted.htm
 tech.root: storage
-ms.assetid: 6fd0696d-5b8d-4502-bbdb-a013bee2e9d4
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_LINK_DELETED IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_LINK_DELETED, IOCTL_MOUNTDEV_LINK_DELETED control, IOCTL_MOUNTDEV_LINK_DELETED control code [Storage Devices], k307_b0ab5504-dac9-410f-bb73-bbb5876e4a59.xml, mountdev/IOCTL_MOUNTDEV_LINK_DELETED, storage.ioctl_mountdev_link_deleted

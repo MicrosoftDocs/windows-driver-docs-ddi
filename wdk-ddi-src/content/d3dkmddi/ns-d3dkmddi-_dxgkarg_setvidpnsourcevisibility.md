@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_SETVIDPNSOURCEVISIBILITY
 title: _DXGKARG_SETVIDPNSOURCEVISIBILITY (d3dkmddi.h)
 description: The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the DxgkDdiSetVidPnSourceVisibility function.
 old-location: display\dxgkarg_setvidpnsourcevisibility.htm
-ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.date: 05/10/2018
 keywords: ["DXGKARG_SETVIDPNSOURCEVISIBILITY structure"]
 ms.keywords: DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, _DXGKARG_SETVIDPNSOURCEVISIBILITY, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, display.dxgkarg_setvidpnsourcevisibility

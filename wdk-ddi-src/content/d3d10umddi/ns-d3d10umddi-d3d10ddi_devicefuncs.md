@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D10DDI_DEVICEFUNCS
 title: D3D10DDI_DEVICEFUNCS (d3d10umddi.h)
 description: The D3D10DDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3d10ddi_devicefuncs.htm
-ms.assetid: 005f4fc0-2b22-47bf-a129-59b2dc4ff052
 ms.date: 05/10/2018
 keywords: ["D3D10DDI_DEVICEFUNCS structure"]
 ms.keywords: D3D10DDI_DEVICEFUNCS, D3D10DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, d3d10umddi/D3D10DDI_DEVICEFUNCS, display.d3d10ddi_devicefuncs

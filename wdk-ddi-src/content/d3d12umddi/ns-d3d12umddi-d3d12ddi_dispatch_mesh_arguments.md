@@ -4,7 +4,6 @@ title: D3D12DDI_DISPATCH_MESH_ARGUMENTS
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: c541dbc0-e49d-418d-a21d-de2e67c14c5f
 tech.root: display
 description: Mesh shader threadgroups.
 req.construct-type: structure

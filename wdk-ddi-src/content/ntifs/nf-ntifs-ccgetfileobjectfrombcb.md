@@ -4,7 +4,6 @@ title: CcGetFileObjectFromBcb function (ntifs.h)
 description: Given a pointer to a pinned buffer control block (BCB) for a file, the CcGetFileObjectFromBcb routine returns a pointer to the file object that the cache manager is using for that file.
 old-location: ifsk\ccgetfileobjectfrombcb.htm
 tech.root: ifsk
-ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.date: 04/16/2018
 keywords: ["CcGetFileObjectFromBcb function"]
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb

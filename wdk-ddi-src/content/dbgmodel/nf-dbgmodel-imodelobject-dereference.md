@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IModelObject.Dereference
 title: IModelObject::Dereference (dbgmodel.h)
 description: The Dereference method dereferences an object.
-ms.assetid: c6eb77c2-b901-40c5-b558-f48d33a174de
 ms.date: 07/20/2018
 keywords: ["IModelObject::Dereference"]
 ms.keywords: IModelObject::Dereference, Dereference, IModelObject.Dereference, IModelObject::Dereference, IModelObject.Dereference

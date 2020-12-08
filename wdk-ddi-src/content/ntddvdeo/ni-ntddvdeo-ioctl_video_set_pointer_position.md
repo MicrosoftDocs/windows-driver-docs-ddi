@@ -4,7 +4,6 @@ title: IOCTL_VIDEO_SET_POINTER_POSITION (ntddvdeo.h)
 description: Sets the pointer position. Support for this modal request is optional. A supporting miniport driver should have already processed an enable-pointer request before processing this request.
 old-location: display\ioctl_video_set_pointer_position.htm
 tech.root: display
-ms.assetid: de581a49-da6d-410b-82be-28cc1eccfde4
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_SET_POINTER_POSITION IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_POINTER_POSITION, IOCTL_VIDEO_SET_POINTER_POSITION control, IOCTL_VIDEO_SET_POINTER_POSITION control code [Display Devices], Video_IOCTLs_cc9ab1b6-f2be-4dab-b657-f686bc0af329.xml, display.ioctl_video_set_pointer_position, ntddvdeo/IOCTL_VIDEO_SET_POINTER_POSITION

@@ -4,7 +4,6 @@ title: WritePhysical function (wdbgexts.h)
 description: The WritePhysical function writes to physical memory.
 old-location: debugger\writephysical.htm
 tech.root: debugger
-ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.date: 05/03/2018
 keywords: ["WritePhysical function"]
 ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical

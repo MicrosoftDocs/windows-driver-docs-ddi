@@ -4,7 +4,6 @@ title: _NET_BUFFER_SHARED_MEMORY (ndis.h)
 description: The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.
 old-location: netvista\net_buffer_shared_memory.htm
 tech.root: netvista
-ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.date: 05/02/2018
 keywords: ["NET_BUFFER_SHARED_MEMORY structure"]
 ms.keywords: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, netvista.net_buffer_shared_memory"

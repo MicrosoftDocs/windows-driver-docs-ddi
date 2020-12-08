@@ -4,7 +4,6 @@ title: WdfPdoUpdateAddressDescription function (wdfpdo.h)
 description: The WdfPdoUpdateAddressDescription method updates the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoupdateaddressdescription.htm
 tech.root: wdf
-ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.date: 02/26/2018
 keywords: ["WdfPdoUpdateAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription

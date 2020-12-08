@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_MONITORDESCRIPTORSET_INTERFACE
 title: _DXGK_MONITORDESCRIPTORSET_INTERFACE (d3dkmddi.h)
 description: The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers to functions that belong to the Monitor Descriptor Set Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitordescriptorset_interface.htm
-ms.assetid: ac492a44-f14e-4b66-9ec1-4f1b04806646
 ms.date: 05/10/2018
 keywords: ["DXGK_MONITORDESCRIPTORSET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORDESCRIPTORSET_INTERFACE, DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml, _DXGK_MONITORDESCRIPTORSET_INTERFACE, d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface

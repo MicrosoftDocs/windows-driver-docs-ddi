@@ -4,7 +4,6 @@ title: _WWAN_COMPRESSION (wwan.h)
 description: The WWAN_COMPRESSION enumeration lists the different compression options that are supported by the MB device.
 old-location: netvista\wwan_compression.htm
 tech.root: netvista
-ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.date: 05/02/2018
 keywords: ["WWAN_COMPRESSION enumeration"]
 ms.keywords: "*PWWAN_COMPRESSION, PWWAN_COMPRESSION, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_COMPRESSION, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionEnable, WwanCompressionMax, WwanCompressionNone, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, _WWAN_COMPRESSION, netvista.wwan_compression, wwan/PWWAN_COMPRESSION, wwan/WWAN_COMPRESSION, wwan/WwanCompressionEnable, wwan/WwanCompressionMax, wwan/WwanCompressionNone"

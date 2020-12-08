@@ -4,7 +4,6 @@ title: FsRtlIsFatDbcsLegal function (ntifs.h)
 description: The FsRtlIsFatDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
 old-location: ifsk\fsrtlisfatdbcslegal.htm
 tech.root: ifsk
-ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.date: 03/29/2018
 keywords: ["FsRtlIsFatDbcsLegal function"]
 ms.keywords: FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal

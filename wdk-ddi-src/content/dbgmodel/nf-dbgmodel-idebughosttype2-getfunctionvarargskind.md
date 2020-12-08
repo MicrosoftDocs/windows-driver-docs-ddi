@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionVarArgsKind
 title: IDebugHostType2::GetFunctionVarArgsKind (dbgmodel.h)
 description: The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes.
-ms.assetid: 321e50d4-8359-43e3-a593-18c2bb2cac87
 ms.date: 08/22/2018
 keywords: ["IDebugHostType2::GetFunctionVarArgsKind"]
 ms.keywords: IDebugHostType2::GetFunctionVarArgsKind, GetFunctionVarArgsKind, IDebugHostType2.GetFunctionVarArgsKind, IDebugHostType2::GetFunctionVarArgsKind, IDebugHostType2.GetFunctionVarArgsKind

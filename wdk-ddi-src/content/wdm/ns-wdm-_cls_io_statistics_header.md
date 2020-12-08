@@ -4,7 +4,6 @@ title: _CLS_IO_STATISTICS_HEADER (wdm.h)
 description: The CLFS_IO_STATISTICS_HEADER structure holds the header portion of a CLFS_IO_STATISTICS structure.
 old-location: kernel\clfs_io_statistics_header.htm
 tech.root: kernel
-ms.assetid: ac0da755-ea2f-4b68-947c-c314d114f273
 ms.date: 04/30/2018
 keywords: ["CLS_IO_STATISTICS_HEADER structure"]
 ms.keywords: "*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS_HEADER, PCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS_HEADER, kernel.clfs_io_statistics_header, kstruct_a_4b54b209-c331-4bbd-b217-d77594bd6e46.xml, wdm/CLFS_IO_STATISTICS_HEADER, wdm/CLS_IO_STATISTICS_HEADER, wdm/PCLFS_IO_STATISTICS_HEADER, wdm/PCLS_IO_STATISTICS_HEADER, wdm/PPCLFS_IO_STATISTICS_HEADER, wdm/PPCLS_IO_STATISTICS_HEADER"

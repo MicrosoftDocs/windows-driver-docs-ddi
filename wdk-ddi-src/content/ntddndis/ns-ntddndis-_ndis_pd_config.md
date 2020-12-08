@@ -4,7 +4,6 @@ title: _NDIS_PD_CONFIG (ntddndis.h)
 description: This structure holds configuration data for the PD provider.
 old-location: netvista\ndis_pd_config.htm
 tech.root: netvista
-ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.date: 05/02/2018
 keywords: ["NDIS_PD_CONFIG structure"]
 ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG

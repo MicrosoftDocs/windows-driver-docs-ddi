@@ -4,7 +4,6 @@ title: FltSetIoPriorityHintIntoFileObject function (fltkernel.h)
 description: The FltSetIoPriorityHintIntoFileObject routine is used by a minifilter driver to set the I/O priority information in a file object.
 old-location: ifsk\fltsetiopriorityhintintofileobject.htm
 tech.root: ifsk
-ms.assetid: 95a56ca3-e223-49ec-9151-bedb3f3597c3
 ms.date: 04/16/2018
 keywords: ["FltSetIoPriorityHintIntoFileObject function"]
 ms.keywords: FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject

@@ -4,7 +4,6 @@ title: GetSecurityUserInfo function (ntifs.h)
 description: The GetSecurityUserInfo function retrieves information about a logon session.
 old-location: ifsk\getsecurityuserinfo.htm
 tech.root: ifsk
-ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.date: 04/16/2018
 keywords: ["GetSecurityUserInfo function"]
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo

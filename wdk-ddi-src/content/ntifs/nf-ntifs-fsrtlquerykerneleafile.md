@@ -4,7 +4,6 @@ title: FsRtlQueryKernelEaFile function (ntifs.h)
 description: The routine FsRtlQueryKernelEaFile is used to build an explicit QueryEA request and synchronously wait for it to complete, returning the result. This allows the caller to do this by FileObject instead of a handle.
 old-location: ifsk\fsrtlquerykerneleafile.htm
 tech.root: ifsk
-ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.date: 04/16/2018
 keywords: ["FsRtlQueryKernelEaFile function"]
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile

@@ -4,7 +4,6 @@ title: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to notify the controller driver that it can complete cancelled transfers on the endpoint.
 old-location: buses\evt_ucx_endpoint_ok_to_cancel_transfers.htm
 tech.root: usbref
-ms.assetid: 3cb30b74-d50d-49dd-ab5d-de1cf71facd4
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback, EvtUcxEndpointOkToCancelTransfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], buses.evt_ucx_endpoint_ok_to_cancel_transfers, ucxendpoint/EvtUcxEndpointOkToCancelTransfers

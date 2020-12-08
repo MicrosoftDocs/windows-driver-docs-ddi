@@ -4,7 +4,6 @@ title: RtlGetEnabledExtendedFeatures function (ntddk.h)
 description: The RtlGetEnabledExtendedFeatures routine returns a mask of extended processor features that are enabled by the system.
 old-location: kernel\rtlgetenabledextendedfeatures.htm
 tech.root: kernel
-ms.assetid: c23d3bfd-a83c-4480-b5a1-b057201ea279
 ms.date: 04/30/2018
 keywords: ["RtlGetEnabledExtendedFeatures function"]
 ms.keywords: RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, kernel.rtlgetenabledextendedfeatures, wdm/RtlGetEnabledExtendedFeatures

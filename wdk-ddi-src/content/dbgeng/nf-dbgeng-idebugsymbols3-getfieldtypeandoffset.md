@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetFieldTypeAndOffset (dbgeng.h)
 description: The GetFieldTypeAndOffset method returns the type of a field and its offset within a container.
 old-location: debugger\getfieldtypeandoffset.htm
 tech.root: debugger
-ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetFieldTypeAndOffset"]
 ms.keywords: GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffset method, IDebugSymbols3.GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset

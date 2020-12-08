@@ -4,7 +4,6 @@ title: _NFC_CX_SEQUENCE (nfccx.h)
 description: The NFC_CX_SEQUENCE enumeration specifies sequences.
 old-location: nfpdrivers\nfc_cx_sequence.htm
 tech.root: nfpdrivers
-ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.date: 02/15/2018
 keywords: ["NFC_CX_SEQUENCE enumeration"]
 ms.keywords: "*PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, SequenceInitComplete, SequenceMaximum, SequenceNfceeDiscComplete, SequencePreInit, SequencePreNfceeDisc, SequencePreRecovery, SequencePreRfDiscStart, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, SequenceRfDiscStartComplete, SequenceRfDiscStopComplete, SequenceShutdownComplete, _NFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfpdrivers.nfc_cx_sequence"

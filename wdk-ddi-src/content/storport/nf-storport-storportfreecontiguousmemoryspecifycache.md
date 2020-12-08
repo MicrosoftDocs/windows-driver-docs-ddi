@@ -4,7 +4,6 @@ title: StorPortFreeContiguousMemorySpecifyCache function (storport.h)
 description: The StorPortFreeContiguousMemorySpecifyCache routine deallocates a range of noncached memory in the nonpaged portion of the system address space.
 old-location: storage\storportfreecontiguousmemoryspecifycache.htm
 tech.root: storage
-ms.assetid: 29735ea8-6125-4958-8d78-12d1f13b16ea
 ms.date: 03/29/2018
 keywords: ["StorPortFreeContiguousMemorySpecifyCache function"]
 ms.keywords: StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storage.storportfreecontiguousmemoryspecifycache, storport/StorPortFreeContiguousMemorySpecifyCache, storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml

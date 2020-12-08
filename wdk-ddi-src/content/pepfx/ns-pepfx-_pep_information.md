@@ -4,7 +4,6 @@ title: _PEP_INFORMATION (pepfx.h)
 description: The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx).
 old-location: kernel\pep_information.htm
 tech.root: kernel
-ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.date: 04/30/2018
 keywords: ["PEP_INFORMATION structure"]
 ms.keywords: "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"

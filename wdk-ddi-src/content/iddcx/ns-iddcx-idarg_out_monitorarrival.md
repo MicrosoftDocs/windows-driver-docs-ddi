@@ -4,7 +4,6 @@ title: IDARG_OUT_MONITORARRIVAL (iddcx.h)
 description: Gives information about the monitor that is exposed to the OS.
 old-location: display\idarg_out_monitorarrival.htm
 tech.root: display
-ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_MONITORARRIVAL structure"]
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL

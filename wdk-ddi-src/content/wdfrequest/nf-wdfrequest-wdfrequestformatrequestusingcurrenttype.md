@@ -4,7 +4,6 @@ title: WdfRequestFormatRequestUsingCurrentType function (wdfrequest.h)
 description: The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target.
 old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
 tech.root: wdf
-ms.assetid: 51af6f9e-1e38-4af2-9db8-cfad41e2f435
 ms.date: 02/26/2018
 keywords: ["WdfRequestFormatRequestUsingCurrentType function"]
 ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType

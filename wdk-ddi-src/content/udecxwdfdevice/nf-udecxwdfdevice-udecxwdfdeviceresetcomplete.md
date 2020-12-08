@@ -4,7 +4,6 @@ title: UdecxWdfDeviceResetComplete function (udecxwdfdevice.h)
 description: Informs the USB device emulation class extension (UdeCx) that the reset operation on the specified controller has competed.
 old-location: buses\udecxwdfdeviceresetcomplete.htm
 tech.root: usbref
-ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
 ms.date: 05/07/2018
 keywords: ["UdecxWdfDeviceResetComplete function"]
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete

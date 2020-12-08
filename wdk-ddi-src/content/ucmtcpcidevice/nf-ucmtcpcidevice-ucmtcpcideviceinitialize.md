@@ -4,7 +4,6 @@ title: UcmTcpciDeviceInitialize function (ucmtcpcidevice.h)
 description: Initializes the USB Type-C Port Controller Interface framework extension (UcmTcpciCx).
 old-location: buses\ucmtcpcideviceinitialize.htm
 tech.root: usbref
-ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
 ms.date: 05/07/2018
 keywords: ["UcmTcpciDeviceInitialize function"]
 ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize

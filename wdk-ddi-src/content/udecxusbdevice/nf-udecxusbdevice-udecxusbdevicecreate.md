@@ -4,7 +4,6 @@ title: UdecxUsbDeviceCreate function (udecxusbdevice.h)
 description: Creates a USB Device Emulation (UDE) device object.
 old-location: buses\udecxusbdevicecreate.htm
 tech.root: usbref
-ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceCreate function"]
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate

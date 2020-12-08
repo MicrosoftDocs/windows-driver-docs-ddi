@@ -4,7 +4,6 @@ title: PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION (dbgeng.h)
 description: The BeginThreadStackReconstruction callback function causes debugger to pass the stream to the dump stack provider prior to thread enumeration.
 old-location: debugger\beginthreadstackreconstruction.htm
 tech.root: debugger
-ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.date: 05/03/2018
 keywords: ["PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback function"]
 ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction

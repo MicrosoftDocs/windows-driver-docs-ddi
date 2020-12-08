@@ -4,7 +4,6 @@ title: WdfDeviceInitSetPowerPageable function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerPageable method informs the power manager that the driver must be able to access pageable data while the system is transitioning between a sleeping state and the working (S0) state.
 old-location: wdf\wdfdeviceinitsetpowerpageable.htm
 tech.root: wdf
-ms.assetid: 3a216c35-f6b7-483f-a330-d0a66edb9205
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable

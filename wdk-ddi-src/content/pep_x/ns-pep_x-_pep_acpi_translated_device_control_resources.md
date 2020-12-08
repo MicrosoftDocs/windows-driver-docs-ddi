@@ -4,7 +4,6 @@ title: _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES (pep_x.h)
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel
-ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"

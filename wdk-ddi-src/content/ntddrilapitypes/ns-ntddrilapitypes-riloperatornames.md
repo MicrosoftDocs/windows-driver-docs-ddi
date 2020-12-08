@@ -4,7 +4,6 @@ title: RILOPERATORNAMES (ntddrilapitypes.h)
 description: This structure represents the RILOPERATORNAMES.
 old-location: netvista\riloperatornames.htm
 tech.root: netvista
-ms.assetid: 2813c28c-e964-44ee-9995-15aa563c43d0
 ms.date: 02/16/2018
 keywords: ["RILOPERATORNAMES structure"]
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames, rilapitypes/RILOPERATORNAMES"

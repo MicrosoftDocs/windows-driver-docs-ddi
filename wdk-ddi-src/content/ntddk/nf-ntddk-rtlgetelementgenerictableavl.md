@@ -4,7 +4,6 @@ title: RtlGetElementGenericTableAvl function (ntddk.h)
 description: The RtlGetElementGenericTableAvl routine returns a pointer to the caller-supplied data for a particular generic Adelson-Velsky/Landis (AVL) table element.
 old-location: ifsk\rtlgetelementgenerictableavl.htm
 tech.root: ifsk
-ms.assetid: c836dd4b-5c66-4302-9b2a-115cec418533
 ms.date: 04/16/2018
 keywords: ["RtlGetElementGenericTableAvl function"]
 ms.keywords: RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlgetelementgenerictableavl, ntddk/RtlGetElementGenericTableAvl, rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml

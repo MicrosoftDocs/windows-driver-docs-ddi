@@ -4,7 +4,6 @@ title: _SetPersistentEntry_OUT (hbapiwmi.h)
 description: The SetPersistentEntry_OUT structure is used to report the output parameter data of the SetPersistentEntry WMI method to the WMI client.
 old-location: storage\setpersistententry_out.htm
 tech.root: storage
-ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.date: 03/29/2018
 keywords: ["SetPersistentEntry_OUT structure"]
 ms.keywords: "*PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], _SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, storage.setpersistententry_out, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml"

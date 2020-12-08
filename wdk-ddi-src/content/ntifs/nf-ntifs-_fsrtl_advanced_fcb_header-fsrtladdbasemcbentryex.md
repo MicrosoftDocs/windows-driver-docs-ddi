@@ -2,7 +2,6 @@
 UID: NF:ntifs.FsRtlAddBaseMcbEntryEx
 title: FsRtlAddBaseMcbEntryEx function (ntifs.h)
 description: The FsRtlAddBaseMcbEntryEx function is used to add a new mapping of virtual block numbers (VBN's) to logical block numbers (LBN's) to an existing map control block (MCB).
-ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlAddBaseMcbEntryEx function"]

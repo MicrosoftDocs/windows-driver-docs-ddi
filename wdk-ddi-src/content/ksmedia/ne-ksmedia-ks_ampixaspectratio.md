@@ -4,7 +4,6 @@ title: KS_AMPixAspectRatio (ksmedia.h)
 description: The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720 480 NTSC video signal or a 720 × 576 PAL video signal.
 old-location: stream\ks_ampixaspectratio.htm
 tech.root: stream
-ms.assetid: 29c84529-11f6-429b-81c6-96d6a1773b3b
 ms.date: 04/23/2018
 keywords: ["KS_AMPixAspectRatio enumeration"]
 ms.keywords: KS_AMPixAspectRatio, KS_AMPixAspectRatio enumeration [Streaming Media Devices], KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_PAL16x9, KS_PixAspectRatio_PAL4x3, ksmedia/KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_NTSC16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_PAL4x3, stream.ks_ampixaspectratio, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml

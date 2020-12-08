@@ -4,7 +4,6 @@ title: WdfRequestGetUserModeDriverInitiatedIo function (wdfrequest.h)
 description: The WdfRequestGetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.
 old-location: wdf\wdfrequestgetusermodeinitiatedio.htm
 tech.root: wdf
-ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
 ms.date: 02/26/2018
 keywords: ["WdfRequestGetUserModeDriverInitiatedIo function"]
 ms.keywords: WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo

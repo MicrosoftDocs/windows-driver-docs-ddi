@@ -4,7 +4,6 @@ title: RtlCompareMemoryUlong function (ntifs.h)
 description: The RtlCompareMemoryUlong routine returns how many bytes in a block of memory match a specified pattern.
 old-location: ifsk\rtlcomparememoryulong.htm
 tech.root: ifsk
-ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.date: 04/16/2018
 keywords: ["RtlCompareMemoryUlong function"]
 ms.keywords: RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml

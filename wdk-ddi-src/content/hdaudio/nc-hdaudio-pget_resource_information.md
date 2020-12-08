@@ -4,7 +4,6 @@ title: PGET_RESOURCE_INFORMATION (hdaudio.h)
 description: The GetResourceInformation routine retrieves information about hardware resources.The function pointer type for a GetResourceInformation routine is defined as follows.
 old-location: audio\getresourceinformation.htm
 tech.root: audio
-ms.assetid: ba1f0fa2-77dd-4ec3-86c8-c5d74465743f
 ms.date: 05/08/2018
 keywords: ["PGET_RESOURCE_INFORMATION callback function"]
 ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION callback, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation

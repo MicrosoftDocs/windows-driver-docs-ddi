@@ -4,7 +4,6 @@ title: RtlIsGenericTableEmptyAvl function (ntddk.h)
 description: The RtlIsGenericTableEmptyAvl routine determines if a generic table is empty.
 old-location: ifsk\rtlisgenerictableemptyavl.htm
 tech.root: ifsk
-ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.date: 04/16/2018
 keywords: ["RtlIsGenericTableEmptyAvl function"]
 ms.keywords: RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ifsk.rtlisgenerictableemptyavl, ntddk/RtlIsGenericTableEmptyAvl

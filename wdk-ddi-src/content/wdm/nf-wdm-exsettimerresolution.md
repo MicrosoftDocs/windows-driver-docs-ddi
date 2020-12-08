@@ -4,7 +4,6 @@ title: ExSetTimerResolution function (wdm.h)
 description: The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
 old-location: kernel\exsettimerresolution.htm
 tech.root: kernel
-ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.date: 04/30/2018
 keywords: ["ExSetTimerResolution function"]
 ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution

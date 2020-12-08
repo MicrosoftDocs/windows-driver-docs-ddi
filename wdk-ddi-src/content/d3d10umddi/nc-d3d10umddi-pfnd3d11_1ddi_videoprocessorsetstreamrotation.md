@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION (d3d10umddi.h)
 description: Enables or disables rotation on an input stream of the video processor.
 old-location: display\videoprocessorsetstreamrotation.htm
-ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback, d3d10umddi/pfnVideoProcessorSetStreamRotation, display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices]

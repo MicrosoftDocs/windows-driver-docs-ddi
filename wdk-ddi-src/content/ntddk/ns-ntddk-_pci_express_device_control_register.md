@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_DEVICE_CONTROL_REGISTER (ntddk.h)
 description: The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure describes a PCI Express (PCIe) device control register of a PCIe capability structure.
 old-location: pci\pci_express_device_control_register.htm
 tech.root: PCI
-ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml"

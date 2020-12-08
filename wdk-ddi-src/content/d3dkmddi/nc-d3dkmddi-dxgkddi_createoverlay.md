@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_CREATEOVERLAY
 title: DXGKDDI_CREATEOVERLAY (d3dkmddi.h)
 description: The DxgkDdiCreateOverlay function enables the overlay hardware if the hardware is capable.
 old-location: display\dxgkddicreateoverlay.htm
-ms.assetid: 1ccdd16d-fd76-4039-b538-86c77b4e8cbb
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_CREATEOVERLAY callback function"]
 ms.keywords: DXGKDDI_CREATEOVERLAY, DXGKDDI_CREATEOVERLAY callback, DmFunctions_61539b38-d12a-4642-926c-70c1cf1df34b.xml, DxgkDdiCreateOverlay, DxgkDdiCreateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiCreateOverlay, display.dxgkddicreateoverlay

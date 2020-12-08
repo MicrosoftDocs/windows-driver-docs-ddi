@@ -4,7 +4,6 @@ title: GET_D3COLD_CAPABILITY (wdm.h)
 description: The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state.
 old-location: kernel\getbusdriverd3coldsupport.htm
 tech.root: kernel
-ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.date: 04/30/2018
 keywords: ["GET_D3COLD_CAPABILITY callback function"]
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport

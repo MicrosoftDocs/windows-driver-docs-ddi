@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET (usbfnioctl.h)
 description: The class driver sends this request to get the entire USB interface descriptor set for a function on the device.
 old-location: buses\ioctl_internal_usbfn_get_interface_descriptor_set_.htm
 tech.root: usbref
-ms.assetid: AF5E2559-151B-4176-A25E-6A1955747F1A
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_internal_usbfn_get_interface_descriptor_set_, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET

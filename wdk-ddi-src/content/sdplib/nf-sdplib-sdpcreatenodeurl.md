@@ -4,7 +4,6 @@ title: SdpCreateNodeUrl function (sdplib.h)
 description: The Bluetooth SdpCreateNodeUrl function is used to allocate and initialize an SDP_NODE structure to a URL type.
 old-location: bltooth\sdpcreatenodeurl.htm
 tech.root: bltooth
-ms.assetid: 9f06dbfb-2bd5-4a58-848b-a5f0de337166
 ms.date: 04/27/2018
 keywords: ["SdpCreateNodeUrl function"]
 ms.keywords: SdpCreateNodeUrl, SdpCreateNodeUrl function [Bluetooth Devices], bltooth.sdpcreatenodeurl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, sdplib/SdpCreateNodeUrl

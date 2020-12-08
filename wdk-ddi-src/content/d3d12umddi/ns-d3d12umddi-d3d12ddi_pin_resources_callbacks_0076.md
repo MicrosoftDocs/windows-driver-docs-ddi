@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 title: D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 ms.date: 03/24/2020
 ms.topic: language-reference
-ms.assetid: 6f574feb-32bb-4df4-8bfb-ceca91618aa0
 tech.root: display
 targetos: Windows
 description: Argument structure for PFND3D12DDI_PINRESOURCES_CB_0076 that provides the list of resources to pin.

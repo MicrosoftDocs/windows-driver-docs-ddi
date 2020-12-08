@@ -4,7 +4,6 @@ title: FsRtlGetNextLargeMcbEntry function (ntifs.h)
 description: The FsRtlGetNextLargeMcbEntry routine retrieves a mapping run from a map control block (MCB).
 old-location: ifsk\fsrtlgetnextlargemcbentry.htm
 tech.root: ifsk
-ms.assetid: e67f60da-4200-4d87-9b36-55ce027f0933
 ms.date: 04/16/2018
 keywords: ["FsRtlGetNextLargeMcbEntry function"]
 ms.keywords: FsRtlGetNextLargeMcbEntry, FsRtlGetNextLargeMcbEntry routine [Installable File System Drivers], fsrtlref_cee90943-5308-4e1f-ae2e-2e607f19252f.xml, ifsk.fsrtlgetnextlargemcbentry, ntifs/FsRtlGetNextLargeMcbEntry

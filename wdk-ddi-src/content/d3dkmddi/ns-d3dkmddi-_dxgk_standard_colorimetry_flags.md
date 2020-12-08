@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_STANDARD_COLORIMETRY_FLAGS
 title: _DXGK_STANDARD_COLORIMETRY_FLAGS (d3dkmddi.h)
 description: Flags describing standard colorimetry and related support.
 old-location: display\dxgk_standard_colorimetry_flags.htm
-ms.assetid: 473C5D7B-8FDD-49E2-981A-00ECCA67671A
 ms.date: 05/10/2018
 keywords: ["DXGK_STANDARD_COLORIMETRY_FLAGS structure"]
 ms.keywords: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], PDXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], _DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags"

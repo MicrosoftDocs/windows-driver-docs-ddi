@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGKARG_ENDEXCLUSIVEACCESS
 title: _DXGKARG_ENDEXCLUSIVEACCESS (d3dkmddi.h)
 description: Arguments used to end exclusive access.
-ms.assetid: 94464dca-20eb-48e7-bdc2-8ca3863c4eff
 ms.date: 10/19/2018
 keywords: ["DXGKARG_ENDEXCLUSIVEACCESS structure"]
 ms.keywords: _DXGKARG_ENDEXCLUSIVEACCESS, DXGKARG_ENDEXCLUSIVEACCESS, *IN_PDXGKARG_ENDEXCLUSIVEACCESS

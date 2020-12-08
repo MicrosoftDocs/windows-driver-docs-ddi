@@ -4,7 +4,6 @@ title: KSSOUNDDETECTORPROPERTY (ksmedia.h)
 description: The KSSOUNDDETECTORPROPERTY structure specifies a node and an Event ID.
 old-location: audio\KSSOUNDDETECTORPROPERTY.htm
 tech.root: audio
-ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becb
 ms.date: 09/25/2019
 keywords: ["KSSOUNDDETECTORPROPERTY structure"]
 ms.keywords: "*PKSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTYstructure [Audio Devices], PKSSOUNDDETECTORPROPERTY, PKSSOUNDDETECTORPROPERTYstructure pointer [Audio Devices], audio.KSSOUNDDETECTORPROPERTY, ksmedia/KSSOUNDDETECTORPROPERTY, ksmedia/PKSSOUNDDETECTORPROPERTY"

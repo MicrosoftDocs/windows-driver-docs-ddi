@@ -2,7 +2,6 @@
 UID: NF:printoem.GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 title: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro (printoem.h)
 description: 
-ms.assetid: cda9100c-5b0f-4bf8-8d85-d920d23d8ceb
 ms.date: 11/18/2020
 keywords: ["GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro"]
 ms.keywords: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE

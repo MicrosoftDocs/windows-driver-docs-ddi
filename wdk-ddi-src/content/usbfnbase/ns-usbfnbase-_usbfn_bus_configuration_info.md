@@ -4,7 +4,6 @@ title: _USBFN_BUS_CONFIGURATION_INFO (usbfnbase.h)
 description: Configuration packet that stores information about an available USB configuration.
 old-location: buses\usbfn_bus_configuration_info.htm
 tech.root: usbref
-ms.assetid: 26F11BC8-0F43-4E52-B2E1-2C3C6B327CF0
 ms.date: 05/07/2018
 keywords: ["USBFN_BUS_CONFIGURATION_INFO structure"]
 ms.keywords: "*PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"

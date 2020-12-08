@@ -3,7 +3,6 @@ UID: NE:mbbcx._MBB_MBIM_EXTENDED_VERSION
 title: _MBB_MBIM_EXTENDED_VERSION (mbbcx.h)
 description: The MBB_MBIM_EXTENDED_VERSION enumeration defines the version of the extended MBIM specification that a client driver and its device support.
 tech.root: netvista
-ms.assetid: 38F07398-3659-46A3-A0E6-FAD5B18E0934
 ms.date: 09/27/2019
 keywords: ["MBB_MBIM_EXTENDED_VERSION enumeration"]
 ms.keywords: _MBB_MBIM_EXTENDED_VERSION, MBB_MBIM_EXTENDED_VERSION,

@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.TRFUNC
 title: TRFUNC (trustedruntimeclx.h)
 description: 
-ms.assetid: 8e25c958-8de1-4ae5-ace9-91184e90a1bd
 ms.date: 11/20/2020
 keywords: ["TRFUNC callback function"]
 req.header: trustedruntimeclx.h

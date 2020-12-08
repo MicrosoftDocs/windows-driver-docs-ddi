@@ -4,7 +4,6 @@ title: WdfDeviceAssignProperty function (wdfdevice.h)
 description: The WdfDeviceAssignProperty method modifies the current setting of a device property.
 old-location: wdf\wdfdeviceassignproperty.htm
 tech.root: wdf
-ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignProperty function"]
 ms.keywords: WdfDeviceAssignProperty, WdfDeviceAssignProperty method, wdf.wdfdeviceassignproperty, wdfdevice/WdfDeviceAssignProperty

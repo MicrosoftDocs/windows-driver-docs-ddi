@@ -2,7 +2,6 @@
 UID: NS:treevariableservice._EFI_SET_VARIABLE_IN
 title: _EFI_SET_VARIABLE_IN (treevariableservice.h)
 description: 
-ms.assetid: 0f757049-c885-429d-9901-200c645c5a94
 ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_IN structure"]
 ms.keywords: _EFI_SET_VARIABLE_IN, EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN,

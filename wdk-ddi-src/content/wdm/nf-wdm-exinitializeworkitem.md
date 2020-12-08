@@ -4,7 +4,6 @@ title: ExInitializeWorkItem function (wdm.h)
 description: ExInitializeWorkItem initializes a work-queue item with a caller-supplied context and callback routine to be queued for execution when a system worker thread is given control.
 old-location: ifsk\exinitializeworkitem.htm
 tech.root: ifsk
-ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.date: 04/16/2018
 keywords: ["ExInitializeWorkItem function"]
 ms.keywords: ExInitializeWorkItem, ExInitializeWorkItem routine [Installable File System Drivers], exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem

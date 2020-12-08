@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0052
 title: D3D12DDI_DEVICE_FUNCS_CORE_0052 (d3d12umddi.h)
 description: Core device functions.
-ms.assetid: 6dbc6b20-34c1-479c-9da1-d9b8c8480e25
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0052 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0052, D3D12DDI_DEVICE_FUNCS_CORE_0052,

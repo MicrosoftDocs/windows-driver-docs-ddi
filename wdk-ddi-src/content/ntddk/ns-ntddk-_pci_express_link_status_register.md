@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_LINK_STATUS_REGISTER (ntddk.h)
 description: The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 old-location: pci\pci_express_link_status_register.htm
 tech.root: PCI
-ms.assetid: c3431e89-4a47-44e6-98d8-eae444ea1915
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_LINK_STATUS_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI.pci_express_link_status_register, PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PPCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml"

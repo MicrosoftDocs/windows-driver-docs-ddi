@@ -4,7 +4,6 @@ title: _CPSUIDATABLOCK (compstui.h)
 description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC_SET_DATABLOCK or CPSFUNC_QUERY_DATABLOCK.
 old-location: print\cpsuidatablock.htm
 tech.root: print
-ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.date: 04/20/2018
 keywords: ["CPSUIDATABLOCK structure"]
 ms.keywords: "*PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock"

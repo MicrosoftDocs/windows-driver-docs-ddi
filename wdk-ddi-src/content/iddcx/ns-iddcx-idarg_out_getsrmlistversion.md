@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDARG_OUT_GETSRMLISTVERSION
 title: IDARG_OUT_GETSRMLISTVERSION
 ms.date: 10/02/2020
-ms.assetid: 19b50380-da0d-4224-b613-7eb35c5b2251
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

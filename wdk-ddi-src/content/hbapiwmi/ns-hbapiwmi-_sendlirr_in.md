@@ -4,7 +4,6 @@ title: _SendLIRR_IN (hbapiwmi.h)
 description: The SendLIRR_IN structure is used to deliver parameter data to the SendLIRR WMI method.
 old-location: storage\sendlirr_in.htm
 tech.root: storage
-ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.date: 03/29/2018
 keywords: ["SendLIRR_IN structure"]
 ms.keywords: "*PSendLIRR_IN, PSendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], SendLIRR_IN, SendLIRR_IN structure [Storage Devices], _SendLIRR_IN, hbapiwmi/PSendLIRR_IN, hbapiwmi/SendLIRR_IN, storage.sendlirr_in, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml"

@@ -4,7 +4,6 @@ title: _USBFN_DIRECTION (usbfnbase.h)
 description: Defines the USB data transfer direction types.
 old-location: buses\usbfn_direction.htm
 tech.root: usbref
-ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.date: 05/07/2018
 keywords: ["USBFN_DIRECTION enumeration"]
 ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"

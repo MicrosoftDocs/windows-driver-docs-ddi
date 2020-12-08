@@ -4,7 +4,6 @@ title: RtlSetDaclSecurityDescriptor function (wdm.h)
 description: The RtlSetDaclSecurityDescriptor routine sets the DACL information of an absolute-format security descriptor, or if there is already a DACL present in the security descriptor, it is superseded.
 old-location: kernel\rtlsetdaclsecuritydescriptor.htm
 tech.root: kernel
-ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
 ms.date: 04/30/2018
 keywords: ["RtlSetDaclSecurityDescriptor function"]
 ms.keywords: RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, wdm/RtlSetDaclSecurityDescriptor

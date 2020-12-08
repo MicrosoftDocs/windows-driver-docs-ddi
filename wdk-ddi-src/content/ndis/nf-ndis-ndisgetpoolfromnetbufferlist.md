@@ -4,7 +4,6 @@ title: NdisGetPoolFromNetBufferList function (ndis.h)
 description: Call the NdisGetPoolFromNetBufferList function to get the NET_BUFFER_LIST structure pool handle that is associated with a specified NET_BUFFER_LIST structure.
 old-location: netvista\ndisgetpoolfromnetbufferlist.htm
 tech.root: netvista
-ms.assetid: 645fd5f6-32b5-4ef6-9583-1418291d55d3
 ms.date: 05/02/2018
 keywords: ["NdisGetPoolFromNetBufferList function"]
 ms.keywords: NdisGetPoolFromNetBufferList, NdisGetPoolFromNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBufferList, ndis_netbuf_functions_ref_c93c9420-04fb-42f7-9844-29c3b2052b82.xml, netvista.ndisgetpoolfromnetbufferlist

@@ -4,7 +4,6 @@ title: IPartFont2 (filterpipeline.h)
 description: 
 old-location: print\ipartfont2.htm
 tech.root: print
-ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.date: 04/20/2018
 keywords: ["IPartFont2 interface"]
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2

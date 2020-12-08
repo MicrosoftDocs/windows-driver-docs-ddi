@@ -4,7 +4,6 @@ title: D3DDDIARG_COPYFLAGS (d3dumddi.h)
 description: Describes how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\d3dddiarg_copyflags.htm
 tech.root: display
-ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_COPYFLAGS structure"]
 ms.keywords: D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags

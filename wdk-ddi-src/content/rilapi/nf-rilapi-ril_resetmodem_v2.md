@@ -4,7 +4,6 @@ title: RIL_ResetModem_V2 function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_resetmodem_v2.htm
 tech.root: netvista
-ms.assetid: 3ee0ac02-6473-4f1d-9ac7-28f72140cc61
 ms.date: 05/02/2018
 keywords: ["RIL_ResetModem_V2 function"]
 ms.keywords: RIL_ResetModem_V2, RIL_ResetModem_V2 method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem_v2, rilapi/RIL_ResetModem_V2

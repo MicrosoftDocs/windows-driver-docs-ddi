@@ -4,7 +4,6 @@ title: PFND3DDDI_RENAME (d3dumddi.h)
 description: The Rename function informs a user-mode display driver to start using the renamed allocation that the LockAsync function previously returned for the specified resource.
 old-location: display\rename.htm
 tech.root: display
-ms.assetid: 60f733e1-d376-4372-b1cc-39508b3a98e5
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_RENAME callback function"]
 ms.keywords: PFND3DDDI_RENAME, PFND3DDDI_RENAME callback, Rename, Rename callback function [Display Devices], UserModeDisplayDriver_Functions_50916fb2-ea0e-4143-8588-909a4cd07bec.xml, d3dumddi/Rename, display.rename

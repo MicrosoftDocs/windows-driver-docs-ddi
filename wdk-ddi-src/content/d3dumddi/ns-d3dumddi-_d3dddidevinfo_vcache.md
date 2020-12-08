@@ -4,7 +4,6 @@ title: _D3DDDIDEVINFO_VCACHE (d3dumddi.h)
 description: The D3DDDIDEVINFO_VCACHE structure describes the vertex-cache information of a device.
 old-location: display\d3dddidevinfo_vcache.htm
 tech.root: display
-ms.assetid: 06635207-39fd-4ef9-b388-25513f8194fe
 ms.date: 05/10/2018
 keywords: ["D3DDDIDEVINFO_VCACHE structure"]
 ms.keywords: D3DDDIDEVINFO_VCACHE, D3DDDIDEVINFO_VCACHE structure [Display Devices], D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, _D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE, display.d3dddidevinfo_vcache

@@ -4,7 +4,6 @@ title: KSCOMPLETION_INVOCATION (ks.h)
 description: 
 old-location: stream\kscompletion_invocation.htm
 tech.root: stream
-ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.date: 04/23/2018
 keywords: ["KSCOMPLETION_INVOCATION enumeration"]
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation

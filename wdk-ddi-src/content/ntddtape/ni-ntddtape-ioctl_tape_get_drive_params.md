@@ -4,7 +4,6 @@ title: IOCTL_TAPE_GET_DRIVE_PARAMS (ntddtape.h)
 description: Returns information about the tape drive's capabilities, such as its default block size, maximum and minimum block sizes, maximum partition count, whether the drive has EEC, compression, data padding, and report-setmark capabilities, that is, which configurable features the drive supports, including the EOT warning zone size.
 old-location: storage\ioctl_tape_get_drive_params.htm
 tech.root: storage
-ms.assetid: 05e45364-3544-477e-a06d-3aae93518b00
 ms.date: 03/29/2018
 keywords: ["IOCTL_TAPE_GET_DRIVE_PARAMS IOCTL"]
 ms.keywords: IOCTL_TAPE_GET_DRIVE_PARAMS, IOCTL_TAPE_GET_DRIVE_PARAMS control, IOCTL_TAPE_GET_DRIVE_PARAMS control code [Storage Devices], k307_c6390200-5ccf-4a13-9b96-9f5aa5adee32.xml, ntddtape/IOCTL_TAPE_GET_DRIVE_PARAMS, storage.ioctl_tape_get_drive_params

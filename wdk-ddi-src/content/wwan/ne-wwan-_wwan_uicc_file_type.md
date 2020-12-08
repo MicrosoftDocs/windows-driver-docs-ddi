@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_UICC_FILE_TYPE
 title: _WWAN_UICC_FILE_TYPE (wwan.h)
 description: The WWAN_UICC_FILE_TYPE enumeration specifies the type for a UICC file.
 tech.root: netvista
-ms.assetid: A404E722-2533-4C98-9F20-C75829E94C7F
 ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_TYPE enumeration"]
 ms.keywords: _WWAN_UICC_FILE_TYPE, WWAN_UICC_FILE_TYPE, *PWWAN_UICC_FILE_TYPE,

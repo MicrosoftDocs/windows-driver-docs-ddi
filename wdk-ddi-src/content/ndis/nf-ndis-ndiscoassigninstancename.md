@@ -4,7 +4,6 @@ title: NdisCoAssignInstanceName function (ndis.h)
 description: NdisCoAssignInstanceName assigns an instance name to a VC and causes NDIS to register a GUID (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 old-location: netvista\ndiscoassigninstancename.htm
 tech.root: netvista
-ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.date: 05/02/2018
 keywords: ["NdisCoAssignInstanceName function"]
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename

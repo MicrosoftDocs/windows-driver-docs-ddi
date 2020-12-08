@@ -4,7 +4,6 @@ title: _MOUNTMGR_CREATE_POINT_INPUT (mountmgr.h)
 description: The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an IOCTL_MOUNTMGR_CREATE_POINT request.
 old-location: storage\mountmgr_create_point_input.htm
 tech.root: storage
-ms.assetid: b53d5163-612d-4bfb-89f4-21457629e365
 ms.date: 03/29/2018
 keywords: ["MOUNTMGR_CREATE_POINT_INPUT structure"]
 ms.keywords: "*PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], PMOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], _MOUNTMGR_CREATE_POINT_INPUT, mountmgr/MOUNTMGR_CREATE_POINT_INPUT, mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, storage.mountmgr_create_point_input, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml"

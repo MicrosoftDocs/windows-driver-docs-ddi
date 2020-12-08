@@ -4,7 +4,6 @@ title: PsSetCreateThreadNotifyRoutineEx function (ntddk.h)
 description: The PsSetCreateThreadNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 old-location: kernel\pssetcreatethreadnotifyroutineex.htm
 tech.root: kernel
-ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.date: 04/30/2018
 keywords: ["PsSetCreateThreadNotifyRoutineEx function"]
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx

@@ -4,7 +4,6 @@ title: MicroEntry function (wiamicro.h)
 description: The MicroEntry function responds to commands sent by the WIA Flatbed driver.
 old-location: image\microentry.htm
 tech.root: image
-ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.date: 05/03/2018
 keywords: ["MicroEntry function"]
 ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], image.microentry, wiamicro/MicroEntry

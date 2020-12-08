@@ -4,7 +4,6 @@ title: RxCeQueryAdapterStatus function (rxce.h)
 description: RxCeQueryAdapterStatus returns the ADAPTER_STATUS structure for a given transport in a caller-allocated buffer.
 old-location: ifsk\rxcequeryadapterstatus.htm
 tech.root: ifsk
-ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.date: 04/16/2018
 keywords: ["RxCeQueryAdapterStatus function"]
 ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml

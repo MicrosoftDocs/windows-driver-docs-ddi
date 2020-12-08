@@ -4,7 +4,6 @@ title: SplDeleteSpoolerPortEnd function (winsplp.h)
 description: 
 old-location: print\spldeletespoolerportend.htm
 tech.root: print
-ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 ms.date: 04/20/2018
 keywords: ["SplDeleteSpoolerPortEnd function"]
 ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], print.spldeletespoolerportend, winsplp/SplDeleteSpoolerPortEnd

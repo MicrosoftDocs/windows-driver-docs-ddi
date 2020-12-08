@@ -4,7 +4,6 @@ title: _BTH_LOCAL_RADIO_INFO (bthioctl.h)
 description: The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetooth system and radio.
 old-location: bltooth\bth_local_radio_info.htm
 tech.root: bltooth
-ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.date: 04/27/2018
 keywords: ["BTH_LOCAL_RADIO_INFO structure"]
 ms.keywords: "*PBTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], _BTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/BTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO"

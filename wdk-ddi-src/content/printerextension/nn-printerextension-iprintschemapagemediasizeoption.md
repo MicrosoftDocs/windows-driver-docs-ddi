@@ -4,7 +4,6 @@ title: IPrintSchemaPageMediaSizeOption (printerextension.h)
 description: Exposes a Print Schema PageMediaSize Option element.
 old-location: print\iprintschemapagemediasizeoption_interface.htm
 tech.root: print
-ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageMediaSizeOption interface"]
 ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices],described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption

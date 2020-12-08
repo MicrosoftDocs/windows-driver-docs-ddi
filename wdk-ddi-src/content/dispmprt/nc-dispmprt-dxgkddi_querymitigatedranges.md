@@ -3,7 +3,6 @@ UID: NC:dispmprt.DXGKDDI_QUERYMITIGATEDRANGES
 title: DXGKDDI_QUERYMITIGATEDRANGES
 description: This function is called from the virtual PCI system to the kernel mode driver to get the list of pages in the virtual function’s BARs that need to be mitigated.
 tech.root: display
-ms.assetid: 80e889c4-cf80-4556-b3c8-643cdf21995e
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_QUERYMITIGATEDRANGES callback function"]
 req.header: dispmprt.h

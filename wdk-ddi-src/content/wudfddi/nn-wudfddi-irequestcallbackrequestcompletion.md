@@ -4,7 +4,6 @@ title: IRequestCallbackRequestCompletion (wudfddi.h)
 description: A driver implements the IRequestCallbackRequestCompletion interface to complete a request object.
 old-location: wdf\irequestcallbackrequestcompletion.htm
 tech.root: wdf
-ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
 ms.date: 02/26/2018
 keywords: ["IRequestCallbackRequestCompletion interface"]
 ms.keywords: IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface,described, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion, wdf.irequestcallbackrequestcompletion, wudfddi/IRequestCallbackRequestCompletion

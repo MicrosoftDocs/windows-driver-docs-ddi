@@ -4,7 +4,6 @@ title: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL (dispmprt.h)
 description: Called by the operating system to request that the display miniport driver process a synchronous I/O control request in response to a user-mode display driver call to the MiracastIoControl function.
 old-location: display\dxgkddimiracastiocontrol.htm
 tech.root: display
-ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function"]
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl

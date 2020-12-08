@@ -4,7 +4,6 @@ title: UcmTcpciPortControllerAlert function (ucmtcpciportcontroller.h)
 description: Sends information about the hardware alerts that are received on the port controller to UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrolleralert.htm
 tech.root: usbref
-ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerAlert function"]
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert

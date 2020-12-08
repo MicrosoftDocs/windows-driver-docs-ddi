@@ -4,7 +4,6 @@ title: FwpsInjectTransportSendAsync1 function (fwpsk.h)
 description: The FwpsInjectTransportSendAsync1 function injects packet data from the transport, datagram data, or ICMP error layers into the send data path.
 old-location: netvista\fwpsinjecttransportsendasync1.htm
 tech.root: netvista
-ms.assetid: 74d91e43-d58a-4c2c-bfc9-4b0829a5f9f8
 ms.date: 05/02/2018
 keywords: ["FwpsInjectTransportSendAsync1 function"]
 ms.keywords: FwpsInjectTransportSendAsync1, FwpsInjectTransportSendAsync1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync1, netvista.fwpsinjecttransportsendasync1, wfp_ref_2_funct_3_fwps_I_a1489474-a130-48de-b064-614dfb2e1db2.xml

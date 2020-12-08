@@ -4,7 +4,6 @@ title: _tagKSAUDIOENGINE_DESCRIPTOR (ksmedia.h)
 description: The KSAUDIOENGINE_DESCRIPTOR structure describes the static, external properties of the audio engine.
 old-location: audio\ksaudioengine_descriptor.htm
 tech.root: audio
-ms.assetid: 6691AB8B-EC6E-483B-A10A-6F9C5A97FEC9
 ms.date: 05/08/2018
 keywords: ["tagKSAUDIOENGINE_DESCRIPTOR structure"]
 ms.keywords: "*PKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], PKSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], _tagKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, ksmedia/KSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR"

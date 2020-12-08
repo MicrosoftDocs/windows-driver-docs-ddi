@@ -4,7 +4,6 @@ title: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES (iddcx.h)
 description: Gives information about the default description modes for the monitor, as well as the preferred mode of the monitor.
 old-location: display\idarg_out_getdefaultdescriptionmodes.htm
 tech.root: display
-ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure"]
 ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES

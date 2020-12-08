@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_CREATECONTEXT
 title: _D3DKMT_CREATECONTEXT (d3dkmthk.h)
 description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 old-location: display\d3dkmt_createcontext.htm
-ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATECONTEXT structure"]
 ms.keywords: D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devices], OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, _D3DKMT_CREATECONTEXT, d3dkmthk/D3DKMT_CREATECONTEXT, display.d3dkmt_createcontext

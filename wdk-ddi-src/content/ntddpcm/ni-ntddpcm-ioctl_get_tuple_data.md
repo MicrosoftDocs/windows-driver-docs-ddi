@@ -4,7 +4,6 @@ title: IOCTL_GET_TUPLE_DATA (ntddpcm.h)
 description: This request retrieves tuple data that is stored in a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\ioctl_get_tuple_data.htm
 tech.root: PCMCIA
-ms.assetid: 90bb06c3-2975-4290-b6f1-0c36e7b8678b
 ms.date: 02/15/2018
 keywords: ["IOCTL_GET_TUPLE_DATA IOCTL"]
 ms.keywords: IOCTL_GET_TUPLE_DATA, IOCTL_GET_TUPLE_DATA control, IOCTL_GET_TUPLE_DATA control code [Buses], PCMCIA.ioctl_get_tuple_data, memcdref_80c1671e-c0c2-4429-b703-ffb389cc7af5.xml, ntddpcm/IOCTL_GET_TUPLE_DATA

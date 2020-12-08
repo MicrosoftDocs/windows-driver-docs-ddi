@@ -4,7 +4,6 @@ title: RtlPtrdiffTSub function (ntintsafe.h)
 description: Subtracts one value of type PTRDIFF_T from another.
 old-location: kernel\rtlptrdifftsub.htm
 tech.root: kernel
-ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.date: 04/30/2018
 keywords: ["RtlPtrdiffTSub function"]
 ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub

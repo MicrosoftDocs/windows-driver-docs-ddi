@@ -4,7 +4,6 @@ title: ExDeletePagedLookasideList function (wdm.h)
 description: The ExDeletePagedLookasideList routine destroys a paged lookaside list.
 old-location: kernel\exdeletepagedlookasidelist.htm
 tech.root: kernel
-ms.assetid: da3784a8-6fc5-47cc-932e-52ec16392e49
 ms.date: 04/30/2018
 keywords: ["ExDeletePagedLookasideList function"]
 ms.keywords: ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, wdm/ExDeletePagedLookasideList

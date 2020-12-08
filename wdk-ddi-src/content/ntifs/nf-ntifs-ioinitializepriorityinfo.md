@@ -4,7 +4,6 @@ title: IoInitializePriorityInfo function (ntifs.h)
 description: The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO.
 old-location: ifsk\ioinitializepriorityinfo.htm
 tech.root: ifsk
-ms.assetid: 21aa5850-1984-4ab8-8e7c-3028fc87680b
 ms.date: 04/16/2018
 keywords: ["IoInitializePriorityInfo function"]
 ms.keywords: IoInitializePriorityInfo, IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ntifs/IoInitializePriorityInfo

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_POWER_COMPONENT_FLAGS
 title: _DXGK_POWER_COMPONENT_FLAGS (d3dkmddi.h)
 description: Describes state transition information about a power component.
 old-location: display\dxgk_power_component_flags.htm
-ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.date: 05/10/2018
 keywords: ["DXGK_POWER_COMPONENT_FLAGS structure"]
 ms.keywords: DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], _DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags

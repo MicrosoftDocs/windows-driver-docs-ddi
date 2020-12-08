@@ -4,7 +4,6 @@ title: EtwWriteString function (wdm.h)
 description: The EventWriteString function is a tracing function that you can use when no sophisticated data is required. This function is similar to a debug print statement.
 old-location: devtest\etwwritestring.htm
 tech.root: devtest
-ms.assetid: 25de7729-f43f-4d16-a379-e1cb1ab8616c
 ms.date: 02/23/2018
 keywords: ["EtwWriteString function"]
 ms.keywords: EtwWriteString, EtwWriteString function [Driver Development Tools], devtest.etwwritestring, etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, wdm/EtwWriteString

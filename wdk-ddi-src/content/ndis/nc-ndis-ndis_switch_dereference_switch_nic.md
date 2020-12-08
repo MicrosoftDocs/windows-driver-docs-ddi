@@ -4,7 +4,6 @@ title: NDIS_SWITCH_DEREFERENCE_SWITCH_NIC (ndis.h)
 description: The DereferenceSwitchNic function decrements the Hyper-V extensible switch reference counter for a network adapter that is connected to an extensible switch port. The reference counter was incremented through a previous call to ReferenceSwitchNic.
 old-location: netvista\DereferenceSwitchNic.htm
 tech.root: netvista
-ms.assetid: 58C72F81-07B9-45FE-A8BA-0405DBE4CA20
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback function"]
 ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic

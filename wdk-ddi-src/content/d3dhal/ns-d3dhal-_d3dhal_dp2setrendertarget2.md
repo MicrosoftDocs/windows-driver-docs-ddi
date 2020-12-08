@@ -4,7 +4,6 @@ title: _D3DHAL_DP2SETRENDERTARGET2 (d3dhal.h)
 description: The D3DHAL_DP2SETRENDERTARGET2 structure is used with the D3DDP2OP_SETRENDERTARGET2 opcode to map a portion of a rendering target surface and depth buffer in the current context.
 old-location: display\d3dhal_dp2setrendertarget2.htm
 tech.root: display
-ms.assetid: 0e7d7093-3b49-4fb1-b7ac-49d366c08ab8
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2SETRENDERTARGET2 structure"]
 ms.keywords: "*LPD3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2 structure [Display Devices], LPD3DHAL_DP2SETRENDERTARGET2, LPD3DHAL_DP2SETRENDERTARGET2 structure pointer [Display Devices], _D3DHAL_DP2SETRENDERTARGET2, d3dhal/D3DHAL_DP2SETRENDERTARGET2, d3dhal/LPD3DHAL_DP2SETRENDERTARGET2, d3dstrct_b2b69c9b-94db-4451-b731-fbe90ba059f0.xml, display.d3dhal_dp2setrendertarget2"

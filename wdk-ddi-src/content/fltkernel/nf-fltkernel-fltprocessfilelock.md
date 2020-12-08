@@ -4,7 +4,6 @@ title: FltProcessFileLock function (fltkernel.h)
 description: The FltProcessFileLock routine processes and completes a file lock operation.
 old-location: ifsk\fltprocessfilelock.htm
 tech.root: ifsk
-ms.assetid: 72b8aad8-39e1-4624-ac77-13eb52036b3b
 ms.date: 04/16/2018
 keywords: ["FltProcessFileLock function"]
 ms.keywords: FltApiRef_p_to_z_e4ff8145-c586-4c3c-acfa-d4c22f48a5d2.xml, FltProcessFileLock, FltProcessFileLock routine [Installable File System Drivers], fltkernel/FltProcessFileLock, ifsk.fltprocessfilelock

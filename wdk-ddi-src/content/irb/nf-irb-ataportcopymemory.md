@@ -4,7 +4,6 @@ title: AtaPortCopyMemory function (irb.h)
 description: The AtaPortCopyMemory routine copies data from one location to another.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcopymemory.htm
 tech.root: storage
-ms.assetid: f5e449f8-9ff9-4d3d-9a62-3e985b57bd50
 ms.date: 03/29/2018
 keywords: ["AtaPortCopyMemory function"]
 ms.keywords: AtaPortCopyMemory, AtaPortCopyMemory routine [Storage Devices], atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, irb/AtaPortCopyMemory, storage.ataportcopymemory

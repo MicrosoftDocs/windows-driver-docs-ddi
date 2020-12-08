@@ -4,7 +4,6 @@ title: _FEATURE_DATA_MICROCODE_UPDATE (ntddmmc.h)
 description: The FEATURE_DATA_MICROCODE_UPDATE structure holds information about the Microcode Upgrade feature.
 old-location: storage\feature_data_microcode_update.htm
 tech.root: storage
-ms.assetid: ff9f959b-6901-43b8-b335-c0286136b747
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_MICROCODE_UPDATE structure"]
 ms.keywords: "*PFEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE structure [Storage Devices], PFEATURE_DATA_MICROCODE_UPDATE, PFEATURE_DATA_MICROCODE_UPDATE structure pointer [Storage Devices], _FEATURE_DATA_MICROCODE_UPDATE, ntddmmc/FEATURE_DATA_MICROCODE_UPDATE, ntddmmc/PFEATURE_DATA_MICROCODE_UPDATE, storage.feature_data_microcode_update, structs-CD-ROM_e2dbda29-d727-4736-93bd-0e115b9d7948.xml"

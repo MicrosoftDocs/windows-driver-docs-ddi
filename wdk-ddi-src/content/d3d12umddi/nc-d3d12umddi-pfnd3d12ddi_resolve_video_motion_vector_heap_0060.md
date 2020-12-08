@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060
 title: PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060
 description: Takes a standard resource buffer as input and resolves it to the API specified format.
 tech.root: display
-ms.assetid: 45c9cf09-be26-45e3-a78f-c27778448da8
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060 callback function"]
 ms.prod: windows-hardware

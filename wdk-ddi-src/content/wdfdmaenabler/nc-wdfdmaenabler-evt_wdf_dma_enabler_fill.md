@@ -4,7 +4,6 @@ title: EVT_WDF_DMA_ENABLER_FILL (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerFill event callback function allocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerfill.htm
 tech.root: wdf
-ms.assetid: 3da947b4-76f9-492f-b8e2-b52aa7812b26
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DMA_ENABLER_FILL callback function"]
 ms.keywords: DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, EVT_WDF_DMA_ENABLER_FILL, EVT_WDF_DMA_ENABLER_FILL callback, EvtDmaEnablerFill, EvtDmaEnablerFill callback function, kmdf.evtdmaenablerfill, wdf.evtdmaenablerfill, wdfdmaenabler/EvtDmaEnablerFill

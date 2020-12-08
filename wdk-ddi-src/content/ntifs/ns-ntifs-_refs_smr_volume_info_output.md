@@ -4,7 +4,6 @@ title: _REFS_SMR_VOLUME_INFO_OUTPUT (ntifs.h)
 description: The REFS_SMR_VOLUME_INFO_OUTPUT structure describes a Shingled Magnetic Recording (SMR) volume's current state on space and garbage collection activities.
 old-location: ifsk\refs_smr_volume_info_output.htm
 tech.root: ifsk
-ms.assetid: 0DCBAF5F-AEBC-4C4B-9DBD-F7A6FD6C7712
 ms.date: 04/16/2018
 keywords: ["REFS_SMR_VOLUME_INFO_OUTPUT structure"]
 ms.keywords: "*PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT"

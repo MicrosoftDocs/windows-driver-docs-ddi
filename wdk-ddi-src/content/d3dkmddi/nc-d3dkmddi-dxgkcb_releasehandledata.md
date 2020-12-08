@@ -2,7 +2,6 @@
 UID: NC:d3dkmddi.DXGKCB_RELEASEHANDLEDATA
 title: DXGKCB_RELEASEHANDLEDATA (d3dkmddi.h)
 description: Releases handle data.
-ms.assetid: b7a1b8b8-f631-478b-a441-c89dcd7bfd29
 ms.date: 10/19/2018
 keywords: ["DXGKCB_RELEASEHANDLEDATA callback function"]
 req.header: d3dkmddi.h

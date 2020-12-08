@@ -4,7 +4,6 @@ title: IoReportTargetDeviceChange function (wdm.h)
 description: The IoReportTargetDeviceChange routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechange.htm
 tech.root: kernel
-ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.date: 04/30/2018
 keywords: ["IoReportTargetDeviceChange function"]
 ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange

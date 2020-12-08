@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_UNPINRESOURCES_CB_0076
 title: PFND3D12DDI_UNPINRESOURCES_CB_0076 (d3d12umddi.h)
 description: Unpins a resource that has been pinned with PFND3D12DDI_PINRESOURCES_CB_0076.
-ms.assetid: 8942d3d3-1a46-4e1c-b11d-3365e2e4fd4a
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_UNPINRESOURCES_CB_0076 callback function"]
 req.header: d3d12umddi.h

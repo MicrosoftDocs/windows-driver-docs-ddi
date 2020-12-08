@@ -4,7 +4,6 @@ title: _NDIS_SWITCH_PORT_STATE (ntddndis.h)
 description: The NDIS_SWITCH_PORT_STATE enumeration specifies the current state of the Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_state.htm
 tech.root: netvista
-ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_STATE enumeration"]
 ms.keywords: NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortStateCreated, NdisSwitchPortStateDeleted, NdisSwitchPortStateTeardown, NdisSwitchPortStateUnknown, _NDIS_SWITCH_PORT_STATE, netvista.ndis_switch_port_state, ntddndis/NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateTeardown, ntddndis/NdisSwitchPortStateUnknown

@@ -4,7 +4,6 @@ title: IoSetDevicePropertyData function (wdm.h)
 description: The IoSetDevicePropertyData routine modifies the current setting for a device property.
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel
-ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.date: 04/30/2018
 keywords: ["IoSetDevicePropertyData function"]
 ms.keywords: IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData

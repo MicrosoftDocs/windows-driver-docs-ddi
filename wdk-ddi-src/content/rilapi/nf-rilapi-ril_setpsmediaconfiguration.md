@@ -4,7 +4,6 @@ title: RIL_SetPSMediaConfiguration function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setpsmediaconfiguration.htm
 tech.root: netvista
-ms.assetid: 66fa9900-0195-4ec0-b181-6f791247422c
 ms.date: 05/02/2018
 keywords: ["RIL_SetPSMediaConfiguration function"]
 ms.keywords: RIL_SetPSMediaConfiguration, RIL_SetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setpsmediaconfiguration, rilapi/RIL_SetPSMediaConfiguration

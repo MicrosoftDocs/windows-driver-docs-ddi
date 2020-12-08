@@ -4,7 +4,6 @@ title: ScsiPortGetDeviceBase function (srb.h)
 description: The ScsiPortGetDeviceBase routine returns a mapped, logical base address that can be used to communicate with an HBA.
 old-location: storage\scsiportgetdevicebase.htm
 tech.root: storage
-ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.date: 03/29/2018
 keywords: ["ScsiPortGetDeviceBase function"]
 ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase

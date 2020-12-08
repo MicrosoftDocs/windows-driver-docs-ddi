@@ -4,7 +4,6 @@ title: RtlDWordPtrAdd function (ntintsafe.h)
 description: Adds two values of type DWORD_PTR.
 old-location: kernel\rtldwordptradd.htm
 tech.root: kernel
-ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
 ms.date: 04/30/2018
 keywords: ["RtlDWordPtrAdd function"]
 ms.keywords: RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtldwordptradd, ntintsafe/RtlDWordPtrAdd

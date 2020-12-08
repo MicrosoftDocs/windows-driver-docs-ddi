@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_CURRENTDISPLAYMODE
 title: _D3DKMT_CURRENTDISPLAYMODE (d3dkmthk.h)
 description: The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source.
 old-location: display\d3dkmt_currentdisplaymode.htm
-ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CURRENTDISPLAYMODE structure"]
 ms.keywords: D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode

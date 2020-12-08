@@ -4,7 +4,6 @@ title: StorPortWriteRegisterBufferUchar macro (storport.h)
 description: The StorPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferuchar.htm
 tech.root: storage
-ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUchar macro"]
 ms.keywords: StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml

@@ -4,7 +4,6 @@ title: _KSM_BDA_PIN (bdamedia.h)
 description: The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_bda_pin.htm
 tech.root: stream
-ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.date: 04/23/2018
 keywords: ["KSM_BDA_PIN structure"]
 ms.keywords: "*PKSM_BDA_PIN, KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], PKSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], _KSM_BDA_PIN, bdamedia/KSM_BDA_PIN, bdamedia/PKSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, stream.ksm_bda_pin"

@@ -4,7 +4,6 @@ title: EVT_UFX_DEVICE_HOST_DISCONNECT (ufxclient.h)
 description: The client driver's implementation to disable the function controller's communication with the host.
 old-location: buses\evt_ufx_device_host_disconnect.htm
 tech.root: usbref
-ms.assetid: 01E66957-BB9B-4C35-920F-2DC0F01123E5
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_HOST_DISCONNECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT callback, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect

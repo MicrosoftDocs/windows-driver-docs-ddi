@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
 title: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG (ndiswwan.h)
 description: The NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure specifies modem logging configuration for a modem.
 tech.root: netvista
-ms.assetid: 60555A58-2C1A-41FB-AE2C-E279C9BEC3CC
 ms.date: 04/11/2019
 keywords: ["NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure"]
 ms.keywords: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG,

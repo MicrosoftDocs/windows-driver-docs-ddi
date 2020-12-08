@@ -4,7 +4,6 @@ title: _NDIS_OBJECT_HEADER (ntddndis.h)
 description: The NDIS_OBJECT_HEADER structure packages the object type, version, and size information that is required in many NDIS 6.0 structures.
 old-location: netvista\ndis_object_header.htm
 tech.root: netvista
-ms.assetid: 59d1a9b0-a4d0-4a24-aa2f-2167b0f53caa
 ms.date: 05/02/2018
 keywords: ["NDIS_OBJECT_HEADER structure"]
 ms.keywords: "*PNDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_OBJECT_HEADER, PNDIS_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OBJECT_HEADER, ndis_object_ref_c4593f06-bd96-4bbe-8e94-d8b7b1cf413b.xml, netvista.ndis_object_header, ntddndis/NDIS_OBJECT_HEADER, ntddndis/PNDIS_OBJECT_HEADER"

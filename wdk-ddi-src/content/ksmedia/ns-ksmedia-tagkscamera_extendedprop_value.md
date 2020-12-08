@@ -4,7 +4,6 @@ title: tagKSCAMERA_EXTENDEDPROP_VALUE (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_VALUE structure is a data type union used to express an extended property value.
 old-location: stream\kscamera_extendedprop_value.htm
 tech.root: stream
-ms.assetid: E595C2BF-C3C8-4FE8-90B0-CD53524F4852
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_VALUE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VALUE, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, stream.kscamera_extendedprop_value, tagKSCAMERA_EXTENDEDPROP_VALUE"

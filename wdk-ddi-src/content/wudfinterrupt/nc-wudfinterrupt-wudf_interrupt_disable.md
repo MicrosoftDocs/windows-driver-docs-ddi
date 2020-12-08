@@ -4,7 +4,6 @@ title: WUDF_INTERRUPT_DISABLE (wudfinterrupt.h)
 description: A driver's OnInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\oninterruptdisable.htm
 tech.root: wdf
-ms.assetid: 3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF
 ms.date: 02/26/2018
 keywords: ["WUDF_INTERRUPT_DISABLE callback function"]
 ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, WUDF_INTERRUPT_DISABLE callback, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable

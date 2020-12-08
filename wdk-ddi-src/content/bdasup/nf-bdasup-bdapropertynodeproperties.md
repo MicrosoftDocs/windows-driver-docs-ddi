@@ -4,7 +4,6 @@ title: BdaPropertyNodeProperties function (bdasup.h)
 description: The BdaPropertyNodeProperties function retrieves a list of properties that a node supports.
 old-location: stream\bdapropertynodeproperties.htm
 tech.root: stream
-ms.assetid: 1f50bf08-6134-4a97-8c9c-adc9ad697154
 ms.date: 04/23/2018
 keywords: ["BdaPropertyNodeProperties function"]
 ms.keywords: BdaPropertyNodeProperties, BdaPropertyNodeProperties function [Streaming Media Devices], bdaref_fc328c79-7b0b-4646-91cd-3e4957b30b2a.xml, bdasup/BdaPropertyNodeProperties, stream.bdapropertynodeproperties

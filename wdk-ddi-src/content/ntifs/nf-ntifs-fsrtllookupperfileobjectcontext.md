@@ -4,7 +4,6 @@ title: FsRtlLookupPerFileObjectContext function (ntifs.h)
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlLookupPerFileObjectContext function retrieves context information previously associated with a file object.
 old-location: ifsk\fsrtllookupperfileobjectcontext.htm
 tech.root: ifsk
-ms.assetid: a066d78b-f6c7-484a-9d62-3578bbd063a2
 ms.date: 04/16/2018
 keywords: ["FsRtlLookupPerFileObjectContext function"]
 ms.keywords: FsRtlLookupPerFileObjectContext, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, ifsk.fsrtllookupperfileobjectcontext, ntifs/FsRtlLookupPerFileObjectContext

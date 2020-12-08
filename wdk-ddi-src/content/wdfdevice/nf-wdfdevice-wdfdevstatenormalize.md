@@ -4,7 +4,6 @@ title: WdfDevStateNormalize function (wdfdevice.h)
 description: The WdfDevStateNormalize method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 old-location: wdf\wdfdevstatenormalize.htm
 tech.root: wdf
-ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.date: 02/26/2018
 keywords: ["WdfDevStateNormalize function"]
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize

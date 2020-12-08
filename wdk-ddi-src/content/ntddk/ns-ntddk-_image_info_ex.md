@@ -4,7 +4,6 @@ title: _IMAGE_INFO_EX (ntddk.h)
 description: IMAGE_INFO_EX is the extended version of the IMAGE_INFO load image information structure.
 old-location: kernel\image_info_ex.htm
 tech.root: kernel
-ms.assetid: 97F3D9BE-9069-4A4A-B114-FC9331510512
 ms.date: 07/08/2019
 keywords: ["IMAGE_INFO_EX structure"]
 ms.keywords: "*PIMAGE_INFO_EX, IMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture], PIMAGE_INFO_EX, PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO_EX, kernel.image_info_ex, ntddk/IMAGE_INFO_EX, ntddk/PIMAGE_INFO_EX"

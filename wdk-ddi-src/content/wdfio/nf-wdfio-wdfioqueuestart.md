@@ -4,7 +4,6 @@ title: WdfIoQueueStart function (wdfio.h)
 description: The WdfIoQueueStart method enables an I/O queue to start receiving and delivering new I/O requests.
 old-location: wdf\wdfioqueuestart.htm
 tech.root: wdf
-ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueStart function"]
 ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, WdfIoQueueStart method, kmdf.wdfioqueuestart, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_COMPLETEFSTATETRANSITION
 title: DXGKCB_COMPLETEFSTATETRANSITION (d3dkmddi.h)
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to notify the port driver that a power component has completed the F-state transition.
 old-location: display\dxgkcbcompletefstatetransition.htm
-ms.assetid: 69a6d9bc-44a9-4204-988e-e11c80f67f28
 ms.date: 05/10/2018
 keywords: ["DXGKCB_COMPLETEFSTATETRANSITION callback function"]
 ms.keywords: DXGKCB_COMPLETEFSTATETRANSITION, DXGKCB_COMPLETEFSTATETRANSITION callback, DxgkCbCompleteFStateTransition, DxgkCbCompleteFStateTransition callback function [Display Devices], PDXGKCB_COMPLETEFSTATETRANSITION, d3dkmddi/DxgkCbCompleteFStateTransition, display.dxgkcbcompletefstatetransition

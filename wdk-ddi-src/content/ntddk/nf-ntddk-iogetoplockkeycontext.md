@@ -4,7 +4,6 @@ title: IoGetOplockKeyContext function (ntddk.h)
 description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
 old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk
-ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.date: 04/16/2018
 keywords: ["IoGetOplockKeyContext function"]
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx

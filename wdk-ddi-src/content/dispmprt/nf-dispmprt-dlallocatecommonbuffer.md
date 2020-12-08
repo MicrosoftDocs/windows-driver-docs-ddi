@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlAllocateCommonBuffer
 title: DlAllocateCommonBuffer function
 description: Allocates and maps a logically contiguous region of memory that is simultaneously accessible both from the processor and from a device.
 tech.root: display
-ms.assetid: dc2f64dc-204a-41c5-af32-341e7dd06782
 ms.date: 04/04/2019
 keywords: ["DlAllocateCommonBuffer function"]
 ms.keywords: DlAllocateCommonBuffer

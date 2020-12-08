@@ -4,7 +4,6 @@ title: IMiniportAudioSignalProcessing::GetModes (portcls.h)
 description: The GetModes method, Gets the audio signal processing modes supported by an audio pin.
 old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 tech.root: audio
-ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioSignalProcessing::GetModes"]
 ms.keywords: GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices],IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices],GetModes method, IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes

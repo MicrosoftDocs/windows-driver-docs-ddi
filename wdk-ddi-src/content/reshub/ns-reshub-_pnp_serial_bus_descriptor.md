@@ -4,7 +4,6 @@ title: _PNP_SERIAL_BUS_DESCRIPTOR (reshub.h)
 description: The PNP_SERIAL_BUS_DESCRIPTOR structure describes the physical connection of a target device to a serial bus (I2C, SPI, or UART).
 old-location: spb\pnp_serial_bus_descriptor.htm
 tech.root: SPB
-ms.assetid: 7516B493-F86E-44C5-ABCD-450B6F66AA15
 ms.date: 02/15/2018
 keywords: ["PNP_SERIAL_BUS_DESCRIPTOR structure"]
 ms.keywords: "*PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], SPB.pnp_serial_bus_descriptor, _PNP_SERIAL_BUS_DESCRIPTOR, reshub/PNP_SERIAL_BUS_DESCRIPTOR, reshub/PPNP_SERIAL_BUS_DESCRIPTOR"

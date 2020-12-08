@@ -4,7 +4,6 @@ title: WPD_FOCUS_MODES (portabledevice.h)
 description: The WPD_FOCUS_MODES enumeration type describes the focus mode used by a still image capture device.
 old-location: wpddk\wpd_focus_modes.htm
 tech.root: wpd_dk
-ms.assetid: 141d6396-e715-4ee2-8898-bde517b18409
 ms.date: 02/15/2018
 keywords: ["tagWPD_FOCUS_MODES enumeration"]
 ms.keywords: WPD_FOCUS_AUTOMATIC, WPD_FOCUS_AUTOMATIC_MACRO, WPD_FOCUS_MANUAL, WPD_FOCUS_MODES, WPD_FOCUS_MODES enumeration, WPD_FOCUS_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_AUTOMATIC, portabledevice/WPD_FOCUS_AUTOMATIC_MACRO, portabledevice/WPD_FOCUS_MANUAL, portabledevice/WPD_FOCUS_MODES, portabledevice/WPD_FOCUS_UNDEFINED, tagWPD_FOCUS_MODES, wpddk.wpd_focus_modes

@@ -4,7 +4,6 @@ title: UMDEtwLogUnmapAllocation function (umdprovider.h)
 description: Indicates that a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is no longer being used. Call this function whether or not the allocation is being destroyed.
 old-location: display\umdetwlogunmapallocation.htm
 tech.root: display
-ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
 ms.date: 05/10/2018
 keywords: ["UMDEtwLogUnmapAllocation function"]
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation

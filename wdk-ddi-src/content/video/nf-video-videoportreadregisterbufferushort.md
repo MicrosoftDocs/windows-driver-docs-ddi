@@ -4,7 +4,6 @@ title: VideoPortReadRegisterBufferUshort function (video.h)
 description: The VideoPortReadRegisterBufferUshort function reads a number of USHORT values from a mapped device memory range and writes them into a buffer.
 old-location: display\videoportreadregisterbufferushort.htm
 tech.root: display
-ms.assetid: 5a8e0be5-8eed-47f1-88df-43f3776def7f
 ms.date: 05/10/2018
 keywords: ["VideoPortReadRegisterBufferUshort function"]
 ms.keywords: VideoPortReadRegisterBufferUshort, VideoPortReadRegisterBufferUshort function [Display Devices], VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, display.videoportreadregisterbufferushort, video/VideoPortReadRegisterBufferUshort

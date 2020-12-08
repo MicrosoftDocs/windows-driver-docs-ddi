@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDDCX_SYSTEM_BUFFER_INFO
 title: IDDCX_SYSTEM_BUFFER_INFO
 ms.date: 10/20/2020
-ms.assetid: 600dc57d-61f6-47ea-882b-c5bc79f15577
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

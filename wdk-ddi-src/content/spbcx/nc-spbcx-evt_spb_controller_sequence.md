@@ -4,7 +4,6 @@ title: EVT_SPB_CONTROLLER_SEQUENCE (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 old-location: spb\evtspbcontrolleriosequence.htm
 tech.root: SPB
-ms.assetid: C56F1528-5FDA-4BC9-AB32-7882FB0F7713
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_CONTROLLER_SEQUENCE callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence

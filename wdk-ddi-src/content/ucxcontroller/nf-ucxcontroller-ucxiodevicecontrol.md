@@ -4,7 +4,6 @@ title: UcxIoDeviceControl function (ucxcontroller.h)
 description: Allows USB host controller extension (UCX) to handle an I/O control code (IOCTL) request from user mode.
 old-location: buses\_ucxiodevicecontrol.htm
 tech.root: usbref
-ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.date: 05/07/2018
 keywords: ["UcxIoDeviceControl function"]
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl

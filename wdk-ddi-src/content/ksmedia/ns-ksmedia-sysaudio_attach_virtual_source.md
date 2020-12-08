@@ -4,7 +4,6 @@ title: SYSAUDIO_ATTACH_VIRTUAL_SOURCE (ksmedia.h)
 description: The SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure is used to attach a mixer-line virtual source (for example, a volume or mute control) to a mixer pin on the virtual audio device.
 old-location: audio\sysaudio_attach_virtual_source.htm
 tech.root: audio
-ms.assetid: 1215cf8e-8e94-4da4-9fb9-2212e8386abd
 ms.date: 04/30/2019
 keywords: ["SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure"]
 ms.keywords: "*PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_ATTACH_VIRTUAL_SOURCE, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml, audio.sysaudio_attach_virtual_source, ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE"

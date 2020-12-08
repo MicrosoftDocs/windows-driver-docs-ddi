@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS (pointofservicedriverinterface.h)
 description: This I/O control function resets the specified statistic's value to zero.
 old-location: pos\ioctl_point_of_service_reset_statistics.htm
 tech.root: pos
-ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_RESET_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pos.ioctl_point_of_service_reset_statistics

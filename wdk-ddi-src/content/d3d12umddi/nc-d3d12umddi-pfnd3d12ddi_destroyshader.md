@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYSHADER
 title: PFND3D12DDI_DESTROYSHADER (d3d12umddi.h)
 description: Destroy shader.
-ms.assetid: 11ca0734-50b5-45a3-af8a-d344c88a2b68
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_DESTROYSHADER callback function"]
 req.header: d3d12umddi.h

@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_RELEASESWAPCHAIN
 title: _D3DKMT_RELEASESWAPCHAIN (d3dkmthk.h)
 description: Release the swap chain.
-ms.assetid: bce1cc2a-5e38-4a35-b2a2-44adbf5e0117
 ms.date: 10/19/2018
 keywords: ["D3DKMT_RELEASESWAPCHAIN structure"]
 f1_keywords:

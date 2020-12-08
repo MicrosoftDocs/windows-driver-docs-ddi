@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_LIST_RECEIVE_FILTER_ID
 title: NET_BUFFER_LIST_RECEIVE_FILTER_ID macro (ndis.h)
 description: The NET_BUFFER_LIST_RECEIVE_FILTER_ID macro gets a receive filter identifier from the out-of-band (OOB) data in a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: 4c419caa-e514-466e-a3d5-058ae12b8f3a
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_FILTER_ID macro"]
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_ID

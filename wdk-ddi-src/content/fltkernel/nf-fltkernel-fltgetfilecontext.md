@@ -4,7 +4,6 @@ title: FltGetFileContext function (fltkernel.h)
 description: The FltGetFileContext routine retrieves a context that was set for a file by a given minifilter driver instance.
 old-location: ifsk\fltgetfilecontext.htm
 tech.root: ifsk
-ms.assetid: 3104cccf-03ae-4ff9-8cfe-86bd3719a47f
 ms.date: 04/16/2018
 keywords: ["FltGetFileContext function"]
 ms.keywords: FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext

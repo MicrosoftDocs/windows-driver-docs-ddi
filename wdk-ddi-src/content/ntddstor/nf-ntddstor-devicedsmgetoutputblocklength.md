@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmGetOutputBlockLength
 title: DeviceDsmGetOutputBlockLength function (ntddstor.h)
 description: The DeviceDsmGetOutputBlockLength function gets the length, in bytes, of a data set management (DSM) output block.
 tech.root: storage
-ms.assetid: 57512e92-810a-423e-98c0-be892cc81c88
 ms.date: 08/23/2019
 keywords: ["DeviceDsmGetOutputBlockLength function"]
 ms.keywords: DeviceDsmGetOutputBlockLength

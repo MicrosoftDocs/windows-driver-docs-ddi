@@ -4,7 +4,6 @@ title: WdfRequestForwardToParentDeviceIoQueue function (wdfrequest.h)
 description: The WdfRequestForwardToParentDeviceIoQueue method requeues an I/O request from a child device's I/O queue to a specified I/O queue of the child's parent device.
 old-location: wdf\wdfrequestforwardtoparentdeviceioqueue.htm
 tech.root: wdf
-ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.date: 02/26/2018
 keywords: ["WdfRequestForwardToParentDeviceIoQueue function"]
 ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue

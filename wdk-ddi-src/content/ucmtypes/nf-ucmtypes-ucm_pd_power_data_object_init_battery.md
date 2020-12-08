@@ -4,7 +4,6 @@ title: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function (ucmtypes.h)
 description: Initializes a UCM_PD_POWER_DATA_OBJECT structure as a Battery Supply type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_battery.htm
 tech.root: usbref
-ms.assetid: DA191158-D920-4965-AC2B-7DDA8B541504
 ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY

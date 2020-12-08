@@ -4,7 +4,6 @@ title: SRIOV_GET_MMIO_REQUIREMENTS (pcivirt.h)
 description: This callback function is not supported.
 old-location: pci\sriov_get_mmio_requirements.htm
 tech.root: PCI
-ms.assetid: e9de3042-35aa-4ffa-ae1e-5135799c9a3b
 ms.date: 02/24/2018
 keywords: ["SRIOV_GET_MMIO_REQUIREMENTS callback"]
 ms.keywords: "*PSRIOV_GET_MMIO_REQUIREMENTS, *PSRIOV_GET_MMIO_REQUIREMENTS callback function pointer [Buses], PCI.sriov_get_mmio_requirements, SRIOV_GET_MMIO_REQUIREMENTS, SriovGetMmioRequirements, SriovGetMmioRequirements callback function [Buses], pcivirt/SriovGetMmioRequirements"

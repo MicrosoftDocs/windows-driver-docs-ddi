@@ -3,7 +3,6 @@ UID: NF:ucmucsippm.UcmUcsiPpmNotification
 title: UcmUcsiPpmNotification function (ucmucsippm.h)
 tech.root: usbref
 description: Informs the UcmUcsiCx class extension about a UCSI notification.
-ms.assetid: 471cd707-c453-4033-a17b-52cdf429eaab
 ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmNotification function"]
 ms.keywords: UcmUcsiPpmNotification

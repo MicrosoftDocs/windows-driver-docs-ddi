@@ -4,7 +4,6 @@ title: NdisCloseConfiguration function (ndis.h)
 description: The NdisCloseConfiguration function releases the handle to the registry key that was returned by the NdisOpenConfigurationEx, NdisOpenConfigurationKeyByIndex, or NdisOpenConfigurationKeyByName function.
 old-location: netvista\ndiscloseconfiguration.htm
 tech.root: netvista
-ms.assetid: 2d68f7dd-3954-4b3b-8673-1da63e1a1edc
 ms.date: 05/02/2018
 keywords: ["NdisCloseConfiguration function"]
 ms.keywords: NdisCloseConfiguration, NdisCloseConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisCloseConfiguration, ndis_configuration_ref_eb02fa4e-fff9-41e5-81f6-9580af7480a7.xml, netvista.ndiscloseconfiguration

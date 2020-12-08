@@ -4,7 +4,6 @@ title: PoFxActivateComponent function (wdm.h)
 description: The PoFxActivateComponent routine increments the activation reference count on the specified component.
 old-location: kernel\pofxactivatecomponent.htm
 tech.root: kernel
-ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.date: 04/30/2018
 keywords: ["PoFxActivateComponent function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent

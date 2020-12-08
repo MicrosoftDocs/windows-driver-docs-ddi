@@ -4,7 +4,6 @@ title: VhfCreate function (vhf.h)
 description: The HID source driver calls this method to create a virtual HID device.
 old-location: hid\vhfcreate.htm
 tech.root: hid
-ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
 ms.date: 04/30/2018
 keywords: ["VhfCreate function"]
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate

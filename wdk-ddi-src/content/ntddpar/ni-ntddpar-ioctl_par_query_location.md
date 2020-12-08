@@ -4,7 +4,6 @@ title: IOCTL_PAR_QUERY_LOCATION (ntddpar.h)
 description: The IOCTL_PAR_QUERY_LOCATION request returns the &#0034;LPTn&#0034; or &#0034;LPTn.m&#0034; symbolic link name associated with a parallel device.
 old-location: parports\ioctl_par_query_location.htm
 tech.root: parports
-ms.assetid: a46b1f7f-d624-48f3-a2cf-6828908ba3c1
 ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_QUERY_LOCATION IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_LOCATION, IOCTL_PAR_QUERY_LOCATION control code [Parallel Ports], cisspd_49c52fd1-3855-4611-aa3b-4fa7c0ec6b16.xml, ntddpar/IOCTL_PAR_QUERY_LOCATION, parports.ioctl_par_query_location

@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
 title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
-ms.assetid: 38424b3b-880a-46e6-b4f8-1f364528c0a9
 ms.date: 11/20/2020
 keywords: ["EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT callback function"]
 req.header: trustedruntimeclx.h

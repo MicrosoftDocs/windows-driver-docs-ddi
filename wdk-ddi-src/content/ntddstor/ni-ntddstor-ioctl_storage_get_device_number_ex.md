@@ -4,7 +4,6 @@ title: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX (ntddstor.h)
 description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DEVICE_XXX type, device number, device GUID, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
-ms.assetid: 21eb3380-bd3c-488d-8eaf-22d337775f42
 ms.date: 11/08/2019
 keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX

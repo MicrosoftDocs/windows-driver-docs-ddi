@@ -4,7 +4,6 @@ title: _USB_ENDPOINT_DESCRIPTOR (usbspec.h)
 description: The USB_ENDPOINT_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 old-location: buses\usb_endpoint_descriptor.htm
 tech.root: usbref
-ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.date: 05/07/2018
 keywords: ["USB_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml"

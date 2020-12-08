@@ -4,7 +4,6 @@ title: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage method (wdtfdriv
 description: Returns an SDEL statement that queries for all devices that use the driver package.
 old-location: dtf\iwdtfdriverpackageaction2_getqueryfordeviceusingpackage.htm
 tech.root: dtf
-ms.assetid: c7d73c86-0ac4-4e87-8f82-39be2329dafd
 ms.date: 03/29/2018
 keywords: ["IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage method"]
 ms.keywords: GetQueryForDeviceUsingPackage,IWDTFDriverPackageAction2.GetQueryForDeviceUsingPackage, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method, IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage, IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, dtf.iwdtfdriverpackageaction2_getqueryfordeviceusingpackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage

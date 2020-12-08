@@ -3,7 +3,6 @@ UID: NI:usbprint.IOCTL_USBPRINT_GET_INTERFACE_TYPE
 title: IOCTL_USBPRINT_GET_INTERFACE_TYPE
 description: Get the protocol capabilities of the USB printer interface.
 tech.root: print
-ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL"]
 ms.custom: 19H1

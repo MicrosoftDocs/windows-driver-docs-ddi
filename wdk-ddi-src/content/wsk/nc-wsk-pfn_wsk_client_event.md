@@ -4,7 +4,6 @@ title: PFN_WSK_CLIENT_EVENT (wsk.h)
 description: The WskClientEvent event callback function notifies a WSK application about events that are not specific to a particular socket.
 old-location: netvista\wskclientevent.htm
 tech.root: netvista
-ms.assetid: 5511f540-4448-4cbe-849a-b1712453fae1
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CLIENT_EVENT callback function"]
 ms.keywords: PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml

@@ -4,7 +4,6 @@ title: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM (dot11wdi.h)
 description: Miniport drivers call NdisWdiIdleNotificationConfirm callback function to notify NDIS that the idle network adapter can safely be suspended and transitioned to a low-power state.
 old-location: netvista\ndiswdiidlenotificationconfirm.htm
 tech.root: netvista
-ms.assetid: 39D070BE-FF6F-4EC8-A4E4-DF45C5089AA7
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback function"]
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback, NdisWdiIdleNotificationConfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationConfirm, netvista.ndiswdiidlenotificationconfirm

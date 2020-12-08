@@ -4,7 +4,6 @@ title: _GPIO_CONNECT_IO_PINS_MODE (gpioclx.h)
 description: The GPIO_CONNECT_IO_PINS_MODE enumeration indicates whether a set of general-purpose I/O (GPIO) pins is configured as inputs or outputs.
 old-location: gpio\gpio_connect_io_pins_mode.htm
 tech.root: GPIO
-ms.assetid: 17E98D35-8C63-4EEC-B8DD-896FA2B084A8
 ms.date: 02/15/2018
 keywords: ["GPIO_CONNECT_IO_PINS_MODE enumeration"]
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_MODE, ConnectModeInput, ConnectModeInvalid, ConnectModeMaximum, ConnectModeOutput, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, gpioclx/GPIO_CONNECT_IO_PINS_MODE"

@@ -4,7 +4,6 @@ title: StorPortStallExecution function (storport.h)
 description: The StorPortStallExecution routine stalls the miniport driver.
 old-location: storage\storportstallexecution.htm
 tech.root: storage
-ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.date: 03/29/2018
 keywords: ["StorPortStallExecution function"]
 ms.keywords: StorPortStallExecution, StorPortStallExecution routine [Storage Devices], storage.storportstallexecution, storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml

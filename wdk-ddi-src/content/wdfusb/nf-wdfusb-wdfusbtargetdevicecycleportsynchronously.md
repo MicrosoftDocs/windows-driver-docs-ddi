@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceCyclePortSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceCyclePortSynchronously method power-cycles the USB port to which a specified device is attached.
 old-location: wdf\wdfusbtargetdevicecycleportsynchronously.htm
 tech.root: wdf
-ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCyclePortSynchronously function"]
 ms.keywords: DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, kmdf.wdfusbtargetdevicecycleportsynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously

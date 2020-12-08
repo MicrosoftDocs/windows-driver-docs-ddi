@@ -4,7 +4,6 @@ title: RtlUnicodeStringVPrintf function (ntstrsafe.h)
 description: The RtlUnicodeStringVPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvprintf.htm
 tech.root: kernel
-ms.assetid: d8ca2c47-e3b6-4ead-8d8e-2b2a4fe97658
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringVPrintf function"]
 ms.keywords: RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintf, ntstrsafe/RtlUnicodeStringVPrintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml

@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaUnconfigureErrorSource
 title: WheaUnconfigureErrorSource function
 description: Reserved for system use.
 tech.root: whea
-ms.assetid: e989f10f-a6db-41f3-ab44-d3c748e2103e
 ms.date: 08/19/2019
 keywords: ["WheaUnconfigureErrorSource function"]
 ms.keywords: WheaUnconfigureErrorSource

@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTGetProcessSchedulingPriorityClass
 title: D3DKMTGetProcessSchedulingPriorityClass function (d3dkmthk.h)
 description: The D3DKMTGetProcessSchedulingPriorityClass function retrieves the scheduling priority for a process.
 old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
-ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.date: 05/10/2018
 keywords: ["D3DKMTGetProcessSchedulingPriorityClass function"]
 ms.keywords: D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass

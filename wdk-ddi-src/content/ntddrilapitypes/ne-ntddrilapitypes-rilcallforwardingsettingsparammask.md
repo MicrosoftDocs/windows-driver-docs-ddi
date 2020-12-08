@@ -4,7 +4,6 @@ title: RILCALLFORWARDINGSETTINGSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallforwardingsettingsparammask.htm
 tech.root: netvista
-ms.assetid: 0da4e19f-9e7b-4986-bdb1-fc59e177f3fa
 ms.date: 05/02/2018
 keywords: ["RILCALLFORWARDINGSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILCALLFORWARDINGSETTINGSPARAMMASK, RILCALLFORWARDINGSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CFS_ADDRESS, RIL_PARAM_CFS_ALL, RIL_PARAM_CFS_DELAYTIME, RIL_PARAM_CFS_INFOCLASSES, RIL_PARAM_CFS_SUBADDRESS, netvista.rilcallforwardingsettingsparammask, ntddrilapitypes/RILCALLFORWARDINGSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_CFS_ADDRESS, ntddrilapitypes/RIL_PARAM_CFS_ALL, ntddrilapitypes/RIL_PARAM_CFS_DELAYTIME, ntddrilapitypes/RIL_PARAM_CFS_INFOCLASSES, ntddrilapitypes/RIL_PARAM_CFS_SUBADDRESS

@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT (d3d10umddi.h)
 description: Sets the destination rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamdestrect.htm
-ms.assetid: 84AD6C4F-A674-4CCC-B2E9-378E3E55EEF3
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT callback, d3d10umddi/pfnVideoProcessorSetStreamDestRect, display.videoprocessorsetstreamdestrect, pfnVideoProcessorSetStreamDestRect, pfnVideoProcessorSetStreamDestRect callback function [Display Devices]

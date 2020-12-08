@@ -4,7 +4,6 @@ title: _EXT_DELETE_PARAMETERS (wdm.h)
 description: The EXT_DELETE_PARAMETERS structure contains an extended set of parameters for the ExDeleteTimer routine.
 old-location: kernel\ext_delete_parameters.htm
 tech.root: kernel
-ms.assetid: B2EADC0E-837A-4231-8794-43933DAA69E7
 ms.date: 04/30/2018
 keywords: ["EXT_DELETE_PARAMETERS structure"]
 ms.keywords: "*PEXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS structure [Kernel-Mode Driver Architecture], PEXT_DELETE_PARAMETERS, PEXT_DELETE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _EXT_DELETE_PARAMETERS, kernel.ext_delete_parameters, wdm/EXT_DELETE_PARAMETERS, wdm/PEXT_DELETE_PARAMETERS"

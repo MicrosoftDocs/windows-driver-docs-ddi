@@ -4,7 +4,6 @@ title: _DXGK_OPM_INTERFACE_3 (dispmprt.h)
 description: The DXGK_OPM_INTERFACE_3 structure contains pointers to functions in the Output Protection Manager (OPM) Interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_opm_interface_3.htm
 tech.root: display
-ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.date: 08/21/2020
 keywords: ["DXGK_OPM_INTERFACE_3 structure"]
 ms.keywords: "*PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices], PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3"

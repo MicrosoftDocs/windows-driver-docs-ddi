@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetFieldOffsetWide (dbgeng.h)
 description: The GetFieldOffsetWide method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffsetwide.htm
 tech.root: debugger
-ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetFieldOffsetWide"]
 ms.keywords: GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldOffsetWide method, IDebugSymbols3.GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide

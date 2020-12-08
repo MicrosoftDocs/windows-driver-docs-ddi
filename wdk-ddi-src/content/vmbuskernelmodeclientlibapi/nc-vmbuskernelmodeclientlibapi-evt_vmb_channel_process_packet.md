@@ -4,7 +4,6 @@ title: EVT_VMB_CHANNEL_PROCESS_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelProcessPacket callback function is invoked when a packet arrives in the incoming ring buffer.
 old-location: netvista\evt_vmb_channel_process_packet.htm
 tech.root: netvista
-ms.assetid: 46020122-0B0E-4C05-8B13-68100B227E93
 ms.date: 05/02/2018
 keywords: ["EVT_VMB_CHANNEL_PROCESS_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_PROCESS_PACKET, EVT_VMB_CHANNEL_PROCESS_PACKET callback, EvtVmbChannelProcessPacket, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, netvista.evt_vmb_channel_process_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket

@@ -4,7 +4,6 @@ title: StorPortLogError function (storport.h)
 description: The StorPortLogError routine notifies the port driver that an error occurred.
 old-location: storage\storportlogerror.htm
 tech.root: storage
-ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.date: 03/29/2018
 keywords: ["StorPortLogError function"]
 ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror, storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml

@@ -4,7 +4,6 @@ title: IKsPinPipe::KsGetFilterName (ksproxy.h)
 description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
 tech.root: stream
-ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
 ms.date: 04/23/2018
 keywords: ["IKsPinPipe::KsGetFilterName"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername

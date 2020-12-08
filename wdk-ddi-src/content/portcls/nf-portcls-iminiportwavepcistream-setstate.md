@@ -4,7 +4,6 @@ title: IMiniportWavePciStream::SetState (portcls.h)
 description: The SetState method changes the state of the stream transport.
 old-location: audio\iminiportwavepcistream_setstate.htm
 tech.root: audio
-ms.assetid: ae029e17-7229-49a6-bf5f-96e0cb143d5b
 ms.date: 05/08/2018
 keywords: ["IMiniportWavePciStream::SetState"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],SetState method, IMiniportWavePciStream.SetState, IMiniportWavePciStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_setstate, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, portcls/IMiniportWavePciStream::SetState

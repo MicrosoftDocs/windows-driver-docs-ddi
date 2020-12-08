@@ -3,7 +3,6 @@ UID: NF:wdm.ExAcquirePushLockShared
 title: ExAcquirePushLockShared macro (wdm.h)
 description: Acquires the given push lock for shared access by the calling thread.
 tech.root: kernel
-ms.assetid: de40a669-9154-4ad6-bed3-75e66ee2b864
 ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockShared macro"]
 ms.keywords: ExAcquirePushLockShared

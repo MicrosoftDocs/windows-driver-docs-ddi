@@ -4,7 +4,6 @@ title: FILTER_CANCEL_SEND_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls a filter driver's FilterCancelSendNetBufferLists function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.Note  You must declare the function by using the FILTER_CANCEL_SEND_NET_BUFFER_LISTS type. For more information, see the following Examples section.
 old-location: netvista\filtercancelsendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
 ms.date: 05/02/2018
 keywords: ["FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"

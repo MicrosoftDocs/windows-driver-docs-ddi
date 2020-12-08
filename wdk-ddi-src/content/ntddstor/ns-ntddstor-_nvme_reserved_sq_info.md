@@ -3,7 +3,6 @@ UID: NS:ntddstor._NVME_RESERVED_SQ_INFO
 title: _NVME_RESERVED_SQ_INFO (ntddstor.h)
 description: 
 tech.root: storage
-ms.assetid: 2c3f58f1-7bb2-4a32-b4da-b23eeae3fb86
 ms.date: 10/19/2018
 keywords: ["NVME_RESERVED_SQ_INFO structure"]
 f1_keywords:

@@ -4,7 +4,6 @@ title: PFN_WDFOBJECTACQUIRELOCK (wdfsync.h)
 description: The WdfObjectAcquireLock method acquires an object's synchronization lock.
 old-location: wdf\wdfobjectacquirelock.htm
 tech.root: wdf
-ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
 ms.date: 01/11/2018
 keywords: ["PFN_WDFOBJECTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock

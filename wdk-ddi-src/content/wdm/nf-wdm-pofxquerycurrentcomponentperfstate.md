@@ -4,7 +4,6 @@ title: PoFxQueryCurrentComponentPerfState function (wdm.h)
 description: The PoFxQueryCurrentComponentPerfState routine retrieves the active performance state in a component's performance state set.
 old-location: kernel\pofxquerycurrentcomponentperfstate.htm
 tech.root: kernel
-ms.assetid: DFB59020-1F4A-4ABB-8BBE-85F9C8615249
 ms.date: 04/30/2018
 keywords: ["PoFxQueryCurrentComponentPerfState function"]
 ms.keywords: PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState

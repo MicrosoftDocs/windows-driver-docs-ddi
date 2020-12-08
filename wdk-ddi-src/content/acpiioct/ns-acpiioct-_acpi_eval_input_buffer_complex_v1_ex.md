@@ -4,7 +4,6 @@ title: _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX (acpiioct.h)
 description: The ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX structure is used as input to an IOCTL_ACPI_EVAL_METHOD_EX request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request.
 old-location: acpi\acpi_eval_input_buffer_complex_ex.htm
 tech.root: acpi
-ms.assetid: 6053f535-da9c-4f9d-885f-01f29cabd9ee
 ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpi-meth-eval-ref_d66cba5a-75fb-4127-9f7f-d0ecf08c4b6e.xml, acpi.acpi_eval_input_buffer_complex_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX"

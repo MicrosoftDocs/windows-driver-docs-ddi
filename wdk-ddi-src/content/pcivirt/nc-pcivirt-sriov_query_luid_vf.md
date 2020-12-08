@@ -4,7 +4,6 @@ title: SRIOV_QUERY_LUID_VF (pcivirt.h)
 description: Gets the PCI Express SR-IOV Virtual Function (VF) given a unique identifier.
 old-location: pci\sriov_query_luid_vf.htm
 tech.root: PCI
-ms.assetid: 00dddc92-08d1-4eaa-b3de-5e96c7a6d3e0
 ms.date: 02/24/2018
 keywords: ["SRIOV_QUERY_LUID_VF callback"]
 ms.keywords: "*PSRIOV_QUERY_LUID_VF, *PSRIOV_QUERY_LUID_VF callback function pointer [Buses], PCI.sriov_query_luid_vf, SRIOV_QUERY_LUID_VF, SriovQueryLuidVf, SriovQueryLuidVf callback function [Buses], pcivirt/SriovQueryLuidVf"

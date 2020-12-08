@@ -4,7 +4,6 @@ title: PFN_DESTROY_MIRACAST_CONTEXT (netdispumdddi.h)
 description: Called by the operating system to destroy a user-mode Miracast context.
 old-location: display\destroymiracastcontext.htm
 tech.root: display
-ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.date: 05/10/2018
 keywords: ["PFN_DESTROY_MIRACAST_CONTEXT callback function"]
 ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT callback, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext

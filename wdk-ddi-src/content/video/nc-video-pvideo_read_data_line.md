@@ -4,7 +4,6 @@ title: PVIDEO_READ_DATA_LINE (video.h)
 description: ReadDataLine reads a single data bit from the I2C serial data line.
 old-location: display\readdataline.htm
 tech.root: display
-ms.assetid: 071000a3-c1b7-47fd-aec7-9e9f32edddf6
 ms.date: 05/10/2018
 keywords: ["PVIDEO_READ_DATA_LINE callback function"]
 ms.keywords: PVIDEO_READ_DATA_LINE, PVIDEO_READ_DATA_LINE callback, ReadDataLine, ReadDataLine callback function [Display Devices], VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml, display.readdataline, video/ReadDataLine

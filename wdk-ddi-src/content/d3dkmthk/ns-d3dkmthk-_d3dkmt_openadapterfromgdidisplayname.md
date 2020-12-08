@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 title: _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME (d3dkmthk.h)
 description: The D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure describes the mapping of the given name of a GDI device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromgdidisplayname.htm
-ms.assetid: 8b166fbb-f6fa-4d90-9b32-40ce213cbd71
 ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices], OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml, _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname

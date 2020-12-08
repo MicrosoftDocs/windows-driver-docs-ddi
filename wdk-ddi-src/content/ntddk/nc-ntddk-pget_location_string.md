@@ -4,7 +4,6 @@ title: PGET_LOCATION_STRING (ntddk.h)
 description: The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property.
 old-location: kernel\pnpgetlocationstring.htm
 tech.root: kernel
-ms.assetid: 03ebdeed-10f0-4633-a9cd-4db683a8c3a7
 ms.date: 04/30/2018
 keywords: ["PGET_LOCATION_STRING callback function"]
 ms.keywords: PGET_LOCATION_STRING, PnpGetLocationString, PnpGetLocationString routine [Kernel-Mode Driver Architecture], drvr_interface_86bd2a9c-408f-430f-9ab7-5c368600de1e.xml, kernel.pnpgetlocationstring, ntddk/PnpGetLocationString

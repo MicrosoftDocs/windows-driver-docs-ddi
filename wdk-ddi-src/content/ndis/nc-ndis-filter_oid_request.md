@@ -4,7 +4,6 @@ title: FILTER_OID_REQUEST (ndis.h)
 description: NDIS calls a filter driver's FilterOidRequest function to process an OID request that is associated with the specified filter module.Note  You must declare the function by using the FILTER_OID_REQUEST type.
 old-location: netvista\filteroidrequest.htm
 tech.root: netvista
-ms.assetid: 238bfa21-a971-4fe4-a774-6ba834efc3c5
 ms.date: 05/02/2018
 keywords: ["FILTER_OID_REQUEST callback function"]
 ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest

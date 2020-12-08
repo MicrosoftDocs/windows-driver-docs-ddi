@@ -4,7 +4,6 @@ title: _D3DHAL_CALLBACKS3 (d3dhal.h)
 description: D3DHAL_CALLBACKS3 is one of several callback structures that describe the Direct3D support provided by the driver.
 old-location: display\d3dhal_callbacks3.htm
 tech.root: display
-ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.date: 05/10/2018
 keywords: ["D3DHAL_CALLBACKS3 structure"]
 ms.keywords: "*LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], _D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, display.d3dhal_callbacks3"

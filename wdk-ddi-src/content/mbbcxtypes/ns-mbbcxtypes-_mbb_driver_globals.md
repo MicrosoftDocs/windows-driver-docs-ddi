@@ -3,7 +3,6 @@ UID: NS:mbbcxtypes._MBB_DRIVER_GLOBALS
 title: _MBB_DRIVER_GLOBALS (mbbcxtypes.h)
 description: Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 tech.root: netvista
-ms.assetid: 68caf662-edfa-4ede-b063-3b7589dc8d34
 ms.date: 07/02/2018
 keywords: ["MBB_DRIVER_GLOBALS structure"]
 ms.keywords: _MBB_DRIVER_GLOBALS, MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS,

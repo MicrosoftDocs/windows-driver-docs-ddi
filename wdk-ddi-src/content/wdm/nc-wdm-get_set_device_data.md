@@ -4,7 +4,6 @@ title: GET_SET_DEVICE_DATA (wdm.h)
 description: The GetBusData routine reads data from the device's configuration space.
 old-location: kernel\getbusdata.htm
 tech.root: kernel
-ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.date: 04/30/2018
 keywords: ["GET_SET_DEVICE_DATA callback function"]
 ms.keywords: GET_SET_DEVICE_DATA, GetBusData, GetBusData routine [Kernel-Mode Driver Architecture], drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml, kernel.busgetdevicedata, kernel.getbusdata, wdm/GetBusData

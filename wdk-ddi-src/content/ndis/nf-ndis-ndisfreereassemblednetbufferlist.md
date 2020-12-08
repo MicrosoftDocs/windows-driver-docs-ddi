@@ -4,7 +4,6 @@ title: NdisFreeReassembledNetBufferList function (ndis.h)
 description: Call the NdisFreeReassembledNetBufferList function to free a reassembled NET_BUFFER_LIST structure and the associated NET_BUFFER structure and MDL chain.
 old-location: netvista\ndisfreereassemblednetbufferlist.htm
 tech.root: netvista
-ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.date: 05/02/2018
 keywords: ["NdisFreeReassembledNetBufferList function"]
 ms.keywords: NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeReassembledNetBufferList, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, netvista.ndisfreereassemblednetbufferlist

@@ -4,7 +4,6 @@ title: _WWAN_AUTH_AKA_RESPONSE (wwan.h)
 description: The WWAN_AUTH_AKA_RESPONSE structure represents a response to an AKA authentication challenge.
 old-location: netvista\wwan_auth_aka_response.htm
 tech.root: netvista
-ms.assetid: 16F20188-AFAC-46BF-9D90-26376DEF1595
 ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_AKA_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_RESPONSE, WWAN_AUTH_AKA_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_RESPONSE, netvista.wwan_auth_aka_response, wwan/PWWAN_AUTH_AKA_RESPONSE, wwan/WWAN_AUTH_AKA_RESPONSE"

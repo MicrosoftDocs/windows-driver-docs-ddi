@@ -4,7 +4,6 @@ title: IDebugFailureAnalysis2::GetFailureClass (extsfns.h)
 description: The GetFailureClass method gets the failure class of a DebugFailureAnalysis object. The failure class indicates whether the debugging session that created the DebugFailureAnalysis object is a kernel mode session or a user mode session.
 old-location: debugger\idebugfailureanalysis2_getfailureclass.htm
 tech.root: debugger
-ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::GetFailureClass"]
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass

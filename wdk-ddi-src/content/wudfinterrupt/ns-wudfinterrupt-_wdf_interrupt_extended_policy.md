@@ -4,7 +4,6 @@ title: _WDF_INTERRUPT_EXTENDED_POLICY (wudfinterrupt.h)
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy_umdf.htm
 tech.root: wdf
-ms.assetid: CD11AD87-D3F1-41E5-AE86-DC289504EF6D
 ms.date: 02/26/2018
 keywords: ["WDF_INTERRUPT_EXTENDED_POLICY structure"]
 ms.keywords: "*PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, _WDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy_umdf, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"

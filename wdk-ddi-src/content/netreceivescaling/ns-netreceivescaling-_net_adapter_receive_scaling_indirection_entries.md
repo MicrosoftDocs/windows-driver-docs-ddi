@@ -3,7 +3,6 @@ UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 title: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table.
 tech.root: netvista
-ms.assetid: 62dc57e0-7c2d-415a-8ab9-3fc973b5be87
 ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES,

@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGK_VGPU_PROFILE_CAPABILITY
 title: _DXGK_VGPU_PROFILE_CAPABILITY
 description: Contains information about the virtual GPU profile capability.
 tech.root: display
-ms.assetid: d9c123d2-5f03-46dd-873c-bf3f6781bcc4
 ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_PROFILE_CAPABILITY structure"]
 ms.prod: windows-hardware

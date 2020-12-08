@@ -4,7 +4,6 @@ title: _PO_FX_PERF_STATE_CHANGE (wdm.h)
 description: The PO_FX_PERF_STATE_CHANGE structure contains information about a change to a performance state that is being requested by calling the PoFxIssueComponentPerfStateChange or PoFxIssueComponentPerfStateChangeMultiple routine.
 old-location: kernel\po_fx_perf_state_change.htm
 tech.root: kernel
-ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
 ms.date: 04/30/2018
 keywords: ["PO_FX_PERF_STATE_CHANGE structure"]
 ms.keywords: "*PPO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_CHANGE, kernel.po_fx_perf_state_change, wdm/PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE"

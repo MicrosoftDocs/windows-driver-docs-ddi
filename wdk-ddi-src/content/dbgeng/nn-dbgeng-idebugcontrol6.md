@@ -4,7 +4,6 @@ title: IDebugControl6 (dbgeng.h)
 description: IDebugControl6 interface
 old-location: debugger\idebugcontrol6.htm
 tech.root: debugger
-ms.assetid: 3361EB55-0765-405E-AA75-D1DF3BDE0003
 ms.date: 05/03/2018
 keywords: ["IDebugControl6 interface"]
 ms.keywords: IDebugControl6, IDebugControl6 interface [Windows Debugging], IDebugControl6 interface [Windows Debugging],described, dbgeng/IDebugControl6, debugger.idebugcontrol6

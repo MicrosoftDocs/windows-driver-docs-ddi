@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_OPTION
 title: _D3DKMT_ADAPTER_VERIFIER_OPTION (d3dkmthk.h)
 description: The adapter verifier options.
-ms.assetid: 64629e1e-ac9d-4a3a-a298-d45c14dbce7f
 ms.date: 10/19/2018
 keywords: ["D3DKMT_ADAPTER_VERIFIER_OPTION structure"]
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_OPTION, D3DKMT_ADAPTER_VERIFIER_OPTION,

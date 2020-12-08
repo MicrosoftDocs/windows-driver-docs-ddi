@@ -4,7 +4,6 @@ title: IPrintSchemaNUpOption::get_PagesPerSheet (printerextension.h)
 description: Gets the number of pages per sheet.
 old-location: print\iprintschemanupoption_pagespersheet.htm
 tech.root: print
-ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaNUpOption::get_PagesPerSheet"]
 ms.keywords: IPrintSchemaNUpOption interface [Print Devices],PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption.get_PagesPerSheet, IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices],IPrintSchemaNUpOption interface, get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet

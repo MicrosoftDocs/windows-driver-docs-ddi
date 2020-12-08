@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_RESOLVE_QUERY_DATA
 title: PFND3D12DDI_RESOLVE_QUERY_DATA (d3d12umddi.h)
 description: The pfnResolveQueryData callback function transforms a previously stored query into an API defined format.
 old-location: display\pfnd3d12ddi_resolve_query_data.htm
-ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_RESOLVE_QUERY_DATA callback function"]
 ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA callback, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]

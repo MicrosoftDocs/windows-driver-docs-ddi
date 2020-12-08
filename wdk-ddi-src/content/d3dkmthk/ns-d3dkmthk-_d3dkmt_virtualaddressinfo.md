@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_VIRTUALADDRESSINFO
 title: _D3DKMT_VIRTUALADDRESSINFO (d3dkmthk.h)
 description: A structure that contains virtual address info.
-ms.assetid: 6a2839c2-bc91-4030-b5a4-c17cc0bff9a2
 ms.date: 10/19/2018
 keywords: ["D3DKMT_VIRTUALADDRESSINFO structure"]
 ms.keywords: _D3DKMT_VIRTUALADDRESSINFO, D3DKMT_VIRTUALADDRESSINFO,

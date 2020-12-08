@@ -3,7 +3,6 @@ UID: NF:netwakesource.NetWakeSourceGetMediaChangeParameters
 title: NetWakeSourceGetMediaChangeParameters function (netwakesource.h)
 description: The NetWakeSourceGetMediaChangeParameters function gets parameters for a media change wake source.
 tech.root: netvista
-ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
 ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetMediaChangeParameters function"]
 ms.keywords: NetWakeSourceGetMediaChangeParameters

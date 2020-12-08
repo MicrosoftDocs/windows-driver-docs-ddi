@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_RECYCLECREATECOMMANDLIST
 title: PFND3D11DDI_RECYCLECREATECOMMANDLIST (d3d10umddi.h)
 description: The RecycleCreateCommandList function creates a command list and makes a previously unused DDI handle completely valid again.
 old-location: display\recyclecreatecommandlist.htm
-ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_RECYCLECREATECOMMANDLIST callback function"]
 ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, PFND3D11DDI_RECYCLECREATECOMMANDLIST callback, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist

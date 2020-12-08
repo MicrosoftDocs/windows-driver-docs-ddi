@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_UPDATEPAGETABLEFLAGS
 title: _DXGK_UPDATEPAGETABLEFLAGS (d3dkmddi.h)
 description: DXGK_UPDATEPAGETABLEFLAGS is used as part of a page table update operation.
 old-location: display\dxgk_updatepagetableflags.htm
-ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.date: 05/10/2018
 keywords: ["DXGK_UPDATEPAGETABLEFLAGS structure"]
 ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags

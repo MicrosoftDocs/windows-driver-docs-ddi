@@ -4,7 +4,6 @@ title: MINIPORT_WDI_CLOSE_ADAPTER (dot11wdi.h)
 description: The MiniportWdiCloseAdapter handler function is used by the Microsoft component to initiate the Close Task operation on the IHV driver.
 old-location: netvista\miniportwdicloseadapter.htm
 tech.root: netvista
-ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_CLOSE_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER callback, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter

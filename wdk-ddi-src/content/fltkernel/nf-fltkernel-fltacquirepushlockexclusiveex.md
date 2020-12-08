@@ -2,7 +2,6 @@
 UID: NF:fltkernel.FltAcquirePushLockExclusiveEx
 title: FltAcquirePushLockExclusiveEx function (fltkernel.h)
 description: The FltAcquirePushLockExclusiveEx routine acquires the given push lock for exclusive access by the calling thread.
-ms.assetid: 522e77d0-1de3-472c-abb1-5f147f247d6e
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["FltAcquirePushLockExclusiveEx function"]

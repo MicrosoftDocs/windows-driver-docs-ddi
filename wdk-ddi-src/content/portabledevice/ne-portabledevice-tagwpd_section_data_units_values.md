@@ -4,7 +4,6 @@ title: WPD_SECTION_DATA_UNITS_VALUES (portabledevice.h)
 description: The WPD_SECTION_DATA_UNITS_VALUES enumeration indicates the units for a referenced section of data.
 old-location: wpddk\wpd_section_data_units_values.htm
 tech.root: wpd_dk
-ms.assetid: 7904ef5f-734b-4cfb-9a84-c8ee26e37b0d
 ms.date: 02/15/2018
 keywords: ["tagWPD_SECTION_DATA_UNITS_VALUES enumeration"]
 ms.keywords: WPD_SECTION_DATA_UNITS_BYTES, WPD_SECTION_DATA_UNITS_MILLISECONDS, WPD_SECTION_DATA_UNITS_VALUES, WPD_SECTION_DATA_UNITS_VALUES enumeration, enumeration, portabledevice/WPD_SECTION_DATA_UNITS_BYTES, portabledevice/WPD_SECTION_DATA_UNITS_MILLISECONDS, portabledevice/WPD_SECTION_DATA_UNITS_VALUES, tagWPD_SECTION_DATA_UNITS_VALUES, wpddk.wpd_section_data_units_values

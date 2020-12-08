@@ -4,7 +4,6 @@ title: IPrintCoreUI2::GetOptionAttribute (prcomoem.h)
 description: The IPrintCoreUI2::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcoreui2_getoptionattribute.htm
 tech.root: print
-ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::GetOptionAttribute"]
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptionAttribute method, IPrintCoreUI2.GetOptionAttribute, IPrintCoreUI2::GetOptionAttribute, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml

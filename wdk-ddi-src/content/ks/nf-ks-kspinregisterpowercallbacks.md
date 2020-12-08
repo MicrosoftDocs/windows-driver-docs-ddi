@@ -4,7 +4,6 @@ title: KsPinRegisterPowerCallbacks function (ks.h)
 description: The KsPinRegisterPowerCallbacks function registers power management callbacks for Pin.
 old-location: stream\kspinregisterpowercallbacks.htm
 tech.root: stream
-ms.assetid: e498a907-8d20-4d00-9411-8e82030af223
 ms.date: 04/23/2018
 keywords: ["KsPinRegisterPowerCallbacks function"]
 ms.keywords: KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks function [Streaming Media Devices], avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml, ks/KsPinRegisterPowerCallbacks, stream.kspinregisterpowercallbacks

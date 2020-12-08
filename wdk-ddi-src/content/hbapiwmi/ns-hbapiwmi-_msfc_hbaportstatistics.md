@@ -4,7 +4,6 @@ title: _MSFC_HBAPortStatistics (hbapiwmi.h)
 description: The MSFC_HBAPortStatistics structure contains statistics information about a port.
 old-location: storage\msfc_hbaportstatistics.htm
 tech.root: storage
-ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.date: 03/29/2018
 keywords: ["MSFC_HBAPortStatistics structure"]
 ms.keywords: "*PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], _MSFC_HBAPortStatistics, hbapiwmi/MSFC_HBAPortStatistics, hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml"

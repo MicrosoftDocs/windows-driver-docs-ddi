@@ -4,7 +4,6 @@ title: RILIMSI (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsi_2.htm
 tech.root: netvista
-ms.assetid: 0ec6eead-debb-4901-a099-6ecef19bc4c9
 ms.date: 02/26/2018
 keywords: ["RILIMSI structure"]
 ms.keywords: "*LPRILIMSI, RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], netvista.rilimsi_2, rilapitypes/RILIMSI"

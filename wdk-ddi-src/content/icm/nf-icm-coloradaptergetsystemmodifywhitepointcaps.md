@@ -2,7 +2,6 @@
 UID: NF:icm.ColorAdapterGetSystemModifyWhitePointCaps
 title: ColorAdapterGetSystemModifyWhitePointCaps function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: fbce7afe-0432-4483-99f9-d6485627cb8d
 ms.date: 11/18/2020
 keywords: ["ColorAdapterGetSystemModifyWhitePointCaps function"]
 ms.keywords: ColorAdapterGetSystemModifyWhitePointCaps

@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_GETOVERLAYSTATE
 title: PFND3DKMT_GETOVERLAYSTATE (d3dkmthk.h)
 description: Pfnd3dkmtGetoverlaystate retrieves the status about an overlay.
-ms.assetid: 0cad9f03-12b6-4039-9a8a-db420644288b
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_GETOVERLAYSTATE callback function"]
 req.header: d3dkmthk.h

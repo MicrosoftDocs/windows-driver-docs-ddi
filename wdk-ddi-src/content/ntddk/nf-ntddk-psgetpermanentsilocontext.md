@@ -4,7 +4,6 @@ title: PsGetPermanentSiloContext function (ntddk.h)
 description: This routine retrieves an object that was inserted in the Silo without incrementing the reference count.
 old-location: kernel\psgetpermanentsilocontext.htm
 tech.root: kernel
-ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.date: 04/30/2018
 keywords: ["PsGetPermanentSiloContext function"]
 ms.keywords: PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext

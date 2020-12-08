@@ -4,7 +4,6 @@ title: IOCTL_READ_REGISTERS (usbscan.h)
 description: Reads from USB device registers, using the control pipe.
 old-location: image\ioctl_read_registers.htm
 tech.root: image
-ms.assetid: b54c9a15-0d48-4aff-98e5-1f0dfc070ed6
 ms.date: 05/03/2018
 keywords: ["IOCTL_READ_REGISTERS IOCTL"]
 ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS

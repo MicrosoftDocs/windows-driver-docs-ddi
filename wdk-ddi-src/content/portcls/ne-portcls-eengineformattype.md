@@ -4,7 +4,6 @@ title: eEngineFormatType (portcls.h)
 description: The eEngineFormatType enumeration defines constants that specify the audio data type supported by the audio engine.
 old-location: audio\eengineformattype.htm
 tech.root: audio
-ms.assetid: C16DE51F-6552-4379-B866-D7653B1BA9F2
 ms.date: 05/08/2018
 keywords: ["eEngineFormatType enumeration"]
 ms.keywords: audio.eengineformattype, eDeviceFormat, eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, eSupportedDeviceFormats, portcls/eDeviceFormat, portcls/eEngineFormatType, portcls/eMixFormat, portcls/eSupportedDeviceFormats

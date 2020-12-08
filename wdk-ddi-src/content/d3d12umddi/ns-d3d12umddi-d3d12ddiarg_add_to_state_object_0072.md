@@ -4,7 +4,6 @@ title: D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: ec8278a7-8c50-4d20-b03c-6648ca8752b7
 tech.root: display
 description: Structure used to add subobject(s) to a state object.
 req.construct-type: structure

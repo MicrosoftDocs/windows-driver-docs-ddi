@@ -4,7 +4,6 @@ title: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to release controller resources for all streams for an endpoint.
 old-location: buses\evt_ucx_endpoint_static_streams_disable.htm
 tech.root: usbref
-ms.assetid: 79da55ac-61de-40cc-b25b-421f7637a9fe
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable

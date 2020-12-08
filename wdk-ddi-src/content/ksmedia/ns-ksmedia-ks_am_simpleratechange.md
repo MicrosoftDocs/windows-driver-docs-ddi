@@ -4,7 +4,6 @@ title: KS_AM_SimpleRateChange (ksmedia.h)
 description: The KS_AM_SimpleRateChange structure is used to describe a simple rate change (fast-forward or rewind) for an MPEG2 stream.
 old-location: stream\ks_am_simpleratechange.htm
 tech.root: stream
-ms.assetid: d797b377-6c27-41f9-932d-264d0e8b5dd0
 ms.date: 04/30/2019
 keywords: ["KS_AM_SimpleRateChange structure"]
 ms.keywords: "*PKS_AM_SimpleRateChange, KS_AM_SimpleRateChange, KS_AM_SimpleRateChange structure [Streaming Media Devices], PKS_AM_SimpleRateChange, PKS_AM_SimpleRateChange structure pointer [Streaming Media Devices], dvdref_8c318967-5f7d-4597-ab40-924e95b86dd7.xml, ksmedia/KS_AM_SimpleRateChange, ksmedia/PKS_AM_SimpleRateChange, stream.ks_am_simpleratechange"

@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
 title: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro gets a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: fb67b64f-e91a-4e9d-8576-6ad7db979fbc
 ms.date: 04/13/2018
 keywords: ["NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro"]
 ms.keywords: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX

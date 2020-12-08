@@ -4,7 +4,6 @@ title: _WHEA_XPF_MCE_DESCRIPTOR (ntddk.h)
 description: The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_mce_descriptor.htm
 tech.root: whea
-ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.date: 02/20/2018
 keywords: ["WHEA_XPF_MCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml"

@@ -4,7 +4,6 @@ title: _AVC_EXT_PLUG_COUNTS (avc.h)
 description: The AVC_EXT_PLUG_COUNTS structure describes the number of external plugs on the subunit.
 old-location: stream\avc_ext_plug_counts.htm
 tech.root: stream
-ms.assetid: ffae774e-8ec9-49da-bdc6-b56beb45c4c0
 ms.date: 04/23/2018
 keywords: ["AVC_EXT_PLUG_COUNTS structure"]
 ms.keywords: "*PAVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], PAVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], _AVC_EXT_PLUG_COUNTS, avc/AVC_EXT_PLUG_COUNTS, avc/PAVC_EXT_PLUG_COUNTS, avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml, stream.avc_ext_plug_counts"

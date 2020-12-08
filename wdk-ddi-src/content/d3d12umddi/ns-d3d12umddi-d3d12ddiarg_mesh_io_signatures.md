@@ -4,7 +4,6 @@ title: D3D12DDIARG_MESH_IO_SIGNATURES
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: dc26c4a7-52b6-4325-9033-c516dfb38315
 tech.root: display
 description: The D3D12DDIARG_MESH_IO_SIGNATURES structure describes a set of signatures for a given mesh shader's output primitives and vertices.
 req.construct-type: structure

@@ -4,7 +4,6 @@ title: _WHEA_XPF_BUS_CHECK (ntddk.h)
 description: The WHEA_XPF_BUS_CHECK union describes bus error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_bus_check.htm
 tech.root: whea
-ms.assetid: 7886a796-2755-4367-bbbd-2017e7900bf4
 ms.date: 02/20/2018
 keywords: ["WHEA_XPF_BUS_CHECK structure"]
 ms.keywords: "*PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_BUS_CHECK, ntddk/PWHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, whea.whea_xpf_bus_check, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml"

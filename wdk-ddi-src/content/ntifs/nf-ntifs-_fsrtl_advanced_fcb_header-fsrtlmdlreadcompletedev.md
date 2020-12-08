@@ -4,7 +4,6 @@ title: FsRtlMdlReadCompleteDev function (ntifs.h)
 description: The FsRtlMdlReadCompleteDev routine completes the read operation that the FsRtlMdlReadDev routine initiated.
 old-location: ifsk\fsrtlmdlreadcompletedev.htm
 tech.root: ifsk
-ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 04/16/2018
 keywords: ["FsRtlMdlReadCompleteDev function"]
 ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev

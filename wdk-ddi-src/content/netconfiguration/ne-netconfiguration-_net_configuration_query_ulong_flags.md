@@ -3,7 +3,6 @@ UID: NE:netconfiguration._NET_CONFIGURATION_QUERY_ULONG_FLAGS
 title: _NET_CONFIGURATION_QUERY_ULONG_FLAGS (netconfiguration.h)
 description: The NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration is used as an input parameter to the NetConfigurationQueryUlong function.
 tech.root: netvista
-ms.assetid: fd0f43ac-4895-4fe7-9eb3-7b4d7a8c052e
 ms.date: 02/07/2018
 keywords: ["NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS,

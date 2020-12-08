@@ -2,7 +2,6 @@
 UID: NS:treepaymentservice._PAYMENT_SERVICE_OUT
 title: _PAYMENT_SERVICE_OUT structure (treepaymentservice.h)
 description: Output structure for PAYMENT_SERVICE_OUT.
-ms.assetid: 3d13bd2a-ca37-43e5-b555-b858aed687ee
 ms.date: 11/20/2020
 keywords: ["PAYMENT_SERVICE_OUT structure"]
 ms.keywords: _PAYMENT_SERVICE_OUT, PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT,

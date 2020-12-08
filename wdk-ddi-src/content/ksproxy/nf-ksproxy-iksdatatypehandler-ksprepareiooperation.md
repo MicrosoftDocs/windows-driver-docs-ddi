@@ -4,7 +4,6 @@ title: IKsDataTypeHandler::KsPrepareIoOperation (ksproxy.h)
 description: The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation.
 old-location: stream\iksdatatypehandler_ksprepareiooperation.htm
 tech.root: stream
-ms.assetid: 16411d58-5fff-430f-b96d-78eed1dbb01c
 ms.date: 04/23/2018
 keywords: ["IKsDataTypeHandler::KsPrepareIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsPrepareIoOperation method, IKsDataTypeHandler.KsPrepareIoOperation, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, stream.iksdatatypehandler_ksprepareiooperation

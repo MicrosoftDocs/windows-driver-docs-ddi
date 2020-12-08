@@ -4,7 +4,6 @@ title: PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION (hdaudio.h)
 description: The AllocateDmaBufferWithNotification routine allocates a data buffer in system memory for a DMA engine.The function pointer type for an AllocateDmaBufferWithNotification routine is defined as follows.
 old-location: audio\allocatedmabufferwithnotification.htm
 tech.root: audio
-ms.assetid: c74b5969-35d4-45db-b631-31e00572107d
 ms.date: 05/08/2018
 keywords: ["PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function"]
 ms.keywords: AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification

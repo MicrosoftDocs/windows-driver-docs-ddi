@@ -4,7 +4,6 @@ title: MmPageEntireDriver function (wdm.h)
 description: The MmPageEntireDriver routine causes all of a driver's code and data to be made pageable, overriding the attributes of the various sections that make up the driver's image.
 old-location: kernel\mmpageentiredriver.htm
 tech.root: kernel
-ms.assetid: 467a8e64-c4ed-4bd0-81f8-b792367d33bf
 ms.date: 04/30/2018
 keywords: ["MmPageEntireDriver function"]
 ms.keywords: MmPageEntireDriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, kernel.mmpageentiredriver, wdm/MmPageEntireDriver
