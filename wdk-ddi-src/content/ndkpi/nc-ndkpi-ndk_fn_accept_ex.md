@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Supported in NDKPI 2.1 and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: Windows
 req.type-library: 
@@ -112,7 +112,7 @@ The NDK consumer calls *NdkAcceptEx* to accept an incoming connection request ov
 
 The *NdkCreateListener* ([NDK_FN_CREATE_LISTENER](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener)) function creates an NDK listener object and provides an *NdkConnectEventCallback* function ([NDK_FN_CONNECT_EVENT_CALLBACK](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect_event_callback)).
 
-The *NdkFnConnectEventCallback* function is used by the NDK provider to notify the consumer about each incoming connection request.
+The *NdkConnectEventCallback* function is used by the NDK provider to notify the consumer about each incoming connection request.
 
 ## -see-also
 
