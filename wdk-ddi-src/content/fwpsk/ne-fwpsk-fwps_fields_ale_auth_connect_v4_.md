@@ -309,7 +309,7 @@ The fully qualified binary name (FQBN) value of the application.
 
 ### -field FWPS_FIELD_ALE_AUTH_CONNECT_V4_ALE_EFFECTIVE_NAME
 
-The application's effective (user-readable) name.
+This field is reserved and should not be used.
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
 <div> </div>
