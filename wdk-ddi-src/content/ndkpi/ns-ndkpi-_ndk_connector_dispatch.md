@@ -10,7 +10,7 @@ ms.keywords: NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network D
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
-req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
+req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 

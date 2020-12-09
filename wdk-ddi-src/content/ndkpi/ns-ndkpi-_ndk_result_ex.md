@@ -10,7 +10,7 @@ ms.keywords: NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting wi
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
-req.target-min-winverclnt: None supported,Supported in NDIS 6.40 and later.
+req.target-min-winverclnt: Supported in NDIS 6.40 and later.
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
