@@ -60,7 +60,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 ### -output-buffer
 
-**Irp->MdlAddress** points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string). The supplied buffer must be <= 4093 bytes (2^12 – 3).
+**Irp->MdlAddress** points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string).
 
 ### -output-buffer-length
 
