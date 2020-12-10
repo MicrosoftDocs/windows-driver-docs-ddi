@@ -70,13 +70,13 @@ For **Parameters.DeviceIoControl.OutputBufferLength**, the maximum possible numb
 
 ### -output-buffer
 
-**Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). The supplied buffer must be <= 4093 bytes (2^12 – 3).
+**Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). 
 
 **Minidriver handling**: **Irp->MdlAddress** points to a buffer to receive the retrieved string (a NULL-terminated wide character string). Note that unlike most device control IRPs for HID minidrivers, this IRP does not use METHOD_NEITHER buffering. In particular, it must be distinguished from IOCTL_HID_GET_STRING whose output buffer is identified by **Irp->UserBuffer**.
 
 ### -output-buffer-length
 
-The length of the retrieved string  (a NULL-terminated wide character string).
+The length of the retrieved string (a NULL-terminated wide character string). The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 ### -in-out-buffer
 

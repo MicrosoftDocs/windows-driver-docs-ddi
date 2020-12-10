@@ -64,7 +64,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 ### -output-buffer-length
 
-The length of a NULL-terminated wide character string.
+The length of a NULL-terminated wide character string. The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 ### -in-out-buffer
 
