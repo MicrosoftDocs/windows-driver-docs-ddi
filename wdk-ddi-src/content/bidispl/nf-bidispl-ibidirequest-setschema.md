@@ -56,7 +56,7 @@ Pointer to a schema string.
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/seccrypto/common-hresult-values">Error Handling</a>.
 
 <table>
 <tr>

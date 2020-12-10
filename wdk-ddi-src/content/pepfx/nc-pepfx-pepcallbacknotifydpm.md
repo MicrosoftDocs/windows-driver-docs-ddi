@@ -52,12 +52,12 @@ An <i>AcceptDeviceNotification</i> event callback routine handles device power m
 ### -param Notification 
 
 [in]
-The DPM notification ID. This parameter specifies the type of DPM notification that PoFx is sending. For a list of DPM notification IDs, see <a href="/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
+The DPM notification ID. This parameter specifies the type of DPM notification that PoFx is sending. For a list of DPM notification IDs, see <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
 ### -param Data 
 
 [in, out, optional]
-A pointer to a PoFx-allocated structure that contains the input and/or output data for this notification. The type of this structure depends on the notification ID specified by <i>Notification</i>. For a list of the structure types that are defined for the various DPM notification IDs, see <a href="/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
+A pointer to a PoFx-allocated structure that contains the input and/or output data for this notification. The type of this structure depends on the notification ID specified by <i>Notification</i>. For a list of the structure types that are defined for the various DPM notification IDs, see <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
 ## -returns
 
@@ -67,13 +67,13 @@ The <i>AcceptDeviceNotification</i> routine must return TRUE if it handles the n
 
 This routine is implemented by the platform extension plug-in (PEP) for a device. The <b>AcceptDeviceNotification</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a> structure is a pointer to an <i>AcceptDeviceNotification</i> routine. The PEP calls the <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterplugin">PoFxRegisterPlugin</a> or <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a> routine to register the PEP's <i>AcceptDeviceNotification</i> routine with PoFx.
 
-PoFx calls this routine to send a DPM notification to the PEP. In this call, the <i>Notification</i> parameter specifies the type of notification, and the <i>Data</i> parameter points to a data structure of the type that is associated with this notification. For a list of DPM notification IDs and their associated structure types, see <a href="/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
+PoFx calls this routine to send a DPM notification to the PEP. In this call, the <i>Notification</i> parameter specifies the type of notification, and the <i>Data</i> parameter points to a data structure of the type that is associated with this notification. For a list of DPM notification IDs and their associated structure types, see <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
 DPM notifications inform the PEP about various system, device, or componentÂ–-level events, or pass requests from the device driver to the PEP.
 
 The <i>AcceptDeviceNotification</i> routine does not have to accept every request from the  device driver—for example, it can ignore idle residency hints. However, the PEP must understand and accept most device power management notifications even if the PEP chooses not to act on them. The PEP must refuse to handle (by returning FALSE) every notification that it does not recognize.
 
-The <i>AcceptDeviceNotification</i> routine can be called at IRQL <= DISPATCH_LEVEL. The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information, see the individual reference pages under <a href="/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
+The <i>AcceptDeviceNotification</i> routine can be called at IRQL <= DISPATCH_LEVEL. The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information, see the individual reference pages under <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
 ## -see-also
 

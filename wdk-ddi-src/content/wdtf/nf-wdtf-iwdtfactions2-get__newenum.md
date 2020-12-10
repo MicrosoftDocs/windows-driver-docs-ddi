@@ -69,6 +69,4 @@ You must use the Active Template Library (ATL) to implement this functionality.
 For more information about how ATL implements this functionality, see the 
 <b>ICollectionOnSTLImpl </b>interface in the MSDN Library.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
+#

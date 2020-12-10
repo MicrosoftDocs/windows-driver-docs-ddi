@@ -72,7 +72,7 @@ A Boolean value that specifies whether the section is subsequently deleted if <b
 
 ## -remarks
 
-For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>.
+For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>.
 
 ## -see-also
 

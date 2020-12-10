@@ -58,6 +58,3 @@ True if the operation requires a restart to complete; otherwise, false.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFEnhancedDeviceTestSupportActions2</a>

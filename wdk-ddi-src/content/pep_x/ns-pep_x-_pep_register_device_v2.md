@@ -67,7 +67,7 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 ### -field DeviceHandle
 
-[out] A PEPHANDLE value that the PEP creates to identify this device.  PoFx will use this handle to identify the device in future <a href="/windows-hardware/drivers/ddi/index">device power management (DPM) notifications</a>.
+[out] A PEPHANDLE value that the PEP creates to identify this device.  PoFx will use this handle to identify the device in future <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
 ### -field DeviceAccepted
 

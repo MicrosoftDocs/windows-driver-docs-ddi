@@ -91,4 +91,4 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

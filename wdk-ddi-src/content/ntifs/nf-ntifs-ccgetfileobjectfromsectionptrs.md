@@ -64,7 +64,7 @@ The file system is responsible for ensuring that the file object remains valid w
 
 By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetfileobjectfromsectionptrsref">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
 
-For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>.
+For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>.
 
 ## -see-also
 
