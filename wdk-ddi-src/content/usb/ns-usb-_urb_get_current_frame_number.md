@@ -63,7 +63,7 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

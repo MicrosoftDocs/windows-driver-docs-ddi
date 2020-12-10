@@ -71,4 +71,4 @@ A Unicode symbolic link for the downstream hub that is attached to the port that
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

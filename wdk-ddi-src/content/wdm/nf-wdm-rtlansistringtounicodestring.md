@@ -102,7 +102,7 @@ You can use the following routines to convert single-byte and double-byte charac
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a>
 
 
-For more information about these and other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For more information about these and other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 <b>RtlAnsiCharToUnicodeChar</b> has security deficiencies. Consider using the <b>RtlAnsiStringToUnicodeString</b> routine instead.
 

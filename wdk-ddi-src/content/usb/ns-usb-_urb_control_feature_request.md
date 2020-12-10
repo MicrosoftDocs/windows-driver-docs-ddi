@@ -115,7 +115,7 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

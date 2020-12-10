@@ -79,7 +79,7 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

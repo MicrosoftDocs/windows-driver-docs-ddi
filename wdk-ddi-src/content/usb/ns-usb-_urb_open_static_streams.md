@@ -98,7 +98,7 @@ When the client driver is finished using the streams, the driver can close all s
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

@@ -79,7 +79,7 @@ The <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_informatio
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

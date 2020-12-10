@@ -93,7 +93,7 @@ Translates the uppercase Unicode string into a counted OEM string and returns it
 </ol>
 This routine does not modify the source string. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

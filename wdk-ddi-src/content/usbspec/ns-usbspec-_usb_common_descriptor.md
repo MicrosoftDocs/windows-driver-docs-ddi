@@ -63,7 +63,7 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

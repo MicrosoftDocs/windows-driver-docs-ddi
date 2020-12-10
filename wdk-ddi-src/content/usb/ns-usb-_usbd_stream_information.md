@@ -83,7 +83,7 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

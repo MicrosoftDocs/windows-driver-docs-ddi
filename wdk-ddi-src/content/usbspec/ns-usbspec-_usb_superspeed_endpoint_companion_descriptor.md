@@ -105,4 +105,4 @@ A client driver that supports streams associated with a bulk endpoint, uses <b>U
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
