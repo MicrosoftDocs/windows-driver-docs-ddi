@@ -68,6 +68,8 @@ The consumer-supplied maximum number of outgoing in-progress read operations to 
 
 ### -param PVOID
 
+Private data that is sent back with the accept request.
+
 ### -param PrivateDataLength 
 
 [in]

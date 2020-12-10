@@ -56,7 +56,7 @@ A context area that was specified in the *DisconnectEvent* parameter of the *Ndk
 [in]
 A provider specific code that indicates why the connection has disconnected.
 
-**Zero** indicates the NDK consumer does not support the NDK provider or did not provide a reason.
+**Zero** indicates the NDK provider does not support the disconnect reason capability yet or did not provide one. 
 
 ## -remarks
 
