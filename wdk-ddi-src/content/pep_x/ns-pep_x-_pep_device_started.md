@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has completed its registration with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has completed its registration with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ## -struct-fields
 

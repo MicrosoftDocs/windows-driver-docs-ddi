@@ -108,4 +108,4 @@ Interrupts should be steered away from the processor.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) before this notification is sent to the PEP.

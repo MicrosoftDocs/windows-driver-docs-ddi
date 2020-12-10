@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-An <i>AcceptProcessorNotification</i> event callback routine handles processor power management (PPM) notifications from the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+An <i>AcceptProcessorNotification</i> event callback routine handles processor power management (PPM) notifications from the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ## -parameters
 

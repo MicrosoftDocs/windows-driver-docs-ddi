@@ -59,7 +59,7 @@ The <b>PEP_PPM_IDLE_CANCEL</b> structure indicates why the processor could not e
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_NOTIFY_PPM_IDLE_CANCEL</a> notification. The <b>CancelCode</b> member of the structure contains an input value that the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) supplies before this notification is sent.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_NOTIFY_PPM_IDLE_CANCEL</a> notification. The <b>CancelCode</b> member of the structure contains an input value that the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) supplies before this notification is sent.
 
 ## -see-also
 

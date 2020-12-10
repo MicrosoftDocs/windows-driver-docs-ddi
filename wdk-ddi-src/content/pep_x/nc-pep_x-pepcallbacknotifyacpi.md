@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-An <i>AcceptAcpiNotification</i> event callback routine handles ACPI notifications from the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+An <i>AcceptAcpiNotification</i> event callback routine handles ACPI notifications from the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ## -parameters
 
