@@ -4,7 +4,6 @@ title: SdpAppendNodeToContainerNode function (sdplib.h)
 description: The Bluetooth SdpAppendNodeToContainerNode function is used to attach an SDP node to a sequence or alternative SDP node.
 old-location: bltooth\sdpappendnodetocontainernode.htm
 tech.root: bltooth
-ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.date: 04/27/2018
 keywords: ["SdpAppendNodeToContainerNode function"]
 ms.keywords: SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices], bltooth.sdpappendnodetocontainernode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode

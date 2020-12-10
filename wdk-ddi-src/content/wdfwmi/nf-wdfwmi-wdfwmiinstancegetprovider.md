@@ -4,7 +4,6 @@ title: WdfWmiInstanceGetProvider function (wdfwmi.h)
 description: The WdfWmiInstanceGetProvider method returns a handle to the WMI provider object that is the parent object of a specified WMI instance object.
 old-location: wdf\wdfwmiinstancegetprovider.htm
 tech.root: wdf
-ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceGetProvider function"]
 ms.keywords: DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, kmdf.wdfwmiinstancegetprovider, wdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider

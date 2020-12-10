@@ -4,7 +4,6 @@ title: KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S (ksmedia.h)
 description: The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific data requested using the KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH property.
 old-location: stream\ksproperty_cameracontrol_node_focal_length_s.htm
 tech.root: stream
-ms.assetid: 7562f84d-aac2-48b6-bae2-518d1f58f71f
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_node_focal_length_s, vidcapstruct_0eb477eb-b320-4055-b4aa-1e378ae202b1.xml"

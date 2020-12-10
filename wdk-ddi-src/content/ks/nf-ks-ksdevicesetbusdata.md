@@ -4,7 +4,6 @@ title: KsDeviceSetBusData function (ks.h)
 description: The KsDeviceSetBusData function writes data to the bus on which the specified AVStream device resides.
 old-location: stream\ksdevicesetbusdata.htm
 tech.root: stream
-ms.assetid: b319f2a4-dbbe-4324-8f8d-a42bb40d7939
 ms.date: 04/23/2018
 keywords: ["KsDeviceSetBusData function"]
 ms.keywords: KsDeviceSetBusData, KsDeviceSetBusData function [Streaming Media Devices], avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, ks/KsDeviceSetBusData, stream.ksdevicesetbusdata

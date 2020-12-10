@@ -4,7 +4,6 @@ title: PosCxInit function (poscx.h)
 description: PosCxInit is called to initialize the PosCx library's internal resources. The resources are tied to the device, and are released when the device goes away.
 old-location: pos\poscxinit.htm
 tech.root: pos
-ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
 ms.date: 02/23/2018
 keywords: ["PosCxInit function"]
 ms.keywords: PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit

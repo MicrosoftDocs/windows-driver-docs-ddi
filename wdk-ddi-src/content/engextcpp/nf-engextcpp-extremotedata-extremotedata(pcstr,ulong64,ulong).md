@@ -4,7 +4,6 @@ title: ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG) (engextcpp.h)
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata_name_offset_bytes.htm
 tech.root: debugger
-ms.assetid: 0728f32e-750a-4212-9b8d-f4bfe85978cb
 ms.date: 08/09/2018
 keywords: ["ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)"]
 ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(PCSTR,ULONG64,ULONG), ExtRemoteData::ExtRemoteData, ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG), debugger.extremotedata_extremotedata_name_offset_bytes

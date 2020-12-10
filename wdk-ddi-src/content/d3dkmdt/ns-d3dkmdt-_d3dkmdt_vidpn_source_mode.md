@@ -4,7 +4,6 @@ title: _D3DKMDT_VIDPN_SOURCE_MODE (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_SOURCE_MODE structure contains information about a video present network (VidPN) source mode.
 old-location: display\d3dkmdt_vidpn_source_mode.htm
 tech.root: display
-ms.assetid: 763db6bb-8991-406d-a1d4-8ad50e32fee1
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_SOURCE_MODE structure"]
 ms.keywords: D3DKMDT_VIDPN_SOURCE_MODE, D3DKMDT_VIDPN_SOURCE_MODE structure [Display Devices], DmStructs_0e8655c2-a85f-411d-a791-4c85e5c7d52c.xml, _D3DKMDT_VIDPN_SOURCE_MODE, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE, display.d3dkmdt_vidpn_source_mode

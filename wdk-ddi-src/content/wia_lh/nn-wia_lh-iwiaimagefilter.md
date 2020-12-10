@@ -4,7 +4,6 @@ title: IWiaImageFilter (wia_lh.h)
 description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 old-location: image\iwiaimagefilter_interface.htm
 tech.root: image
-ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.date: 05/03/2018
 keywords: ["IWiaImageFilter interface"]
 ms.keywords: IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices],described, image.iwiaimagefilter_interface, wia_lh/IWiaImageFilter

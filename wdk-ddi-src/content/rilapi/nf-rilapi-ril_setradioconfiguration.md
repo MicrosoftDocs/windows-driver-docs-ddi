@@ -4,7 +4,6 @@ title: RIL_SetRadioConfiguration function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setradioconfiguration.htm
 tech.root: netvista
-ms.assetid: b48ba9fe-3b7c-4ca8-8dcb-1e2a586353b9
 ms.date: 05/02/2018
 keywords: ["RIL_SetRadioConfiguration function"]
 ms.keywords: RIL_SetRadioConfiguration, RIL_SetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setradioconfiguration, rilapi/RIL_SetRadioConfiguration

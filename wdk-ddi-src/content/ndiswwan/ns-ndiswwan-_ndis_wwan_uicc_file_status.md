@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_UICC_FILE_STATUS
 title: _NDIS_WWAN_UICC_FILE_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_UICC_FILE_STATUS structure describes the status of a UICC file.
 tech.root: netvista
-ms.assetid: 7A1325CD-8F65-492E-A943-D3E6BAAD8CDE
 ms.date: 04/09/2019
 keywords: ["NDIS_WWAN_UICC_FILE_STATUS structure"]
 ms.keywords: _NDIS_WWAN_UICC_FILE_STATUS, NDIS_WWAN_UICC_FILE_STATUS, *PNDIS_WWAN_UICC_FILE_STATUS,

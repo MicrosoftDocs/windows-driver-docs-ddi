@@ -4,7 +4,6 @@ title: _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS (ucxroothub.h)
 description: Describes supported protocol capabilities for Link Power Management (LPM) in as defined the USB 2.0 specification.
 old-location: buses\_controller_usb_20_hardware_lpm_flags.htm
 tech.root: usbref
-ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.date: 05/07/2018
 keywords: ["CONTROLLER_USB_20_HARDWARE_LPM_FLAGS structure"]
 ms.keywords: "*PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"

@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetOffloadIsTxChecksumIPv4Enabled
 title: NetOffloadIsTxChecksumIPv4Enabled function (netadapteroffload.h)
 description: The NetOffloadIsTxChecksumIPv4Enabled function determines whether a net adapter has Tx IPv4 checksum offload enabled.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/06/2020
 keywords: ["NetOffloadIsTxChecksumIPv4Enabled function"]
 f1_keywords:

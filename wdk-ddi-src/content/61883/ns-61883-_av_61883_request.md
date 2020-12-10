@@ -4,7 +4,6 @@ title: _AV_61883_REQUEST (61883.h)
 description: The AV_61883_REQUEST structure is used to pass requests to the IEC-61883 protocol driver.
 old-location: ieee\av_61883_request.htm
 tech.root: IEEE
-ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.date: 02/15/2018
 keywords: ["AV_61883_REQUEST structure"]
 ms.keywords: "*PAV_61883_REQUEST, 61883/AV_61883_REQUEST, 61883/PAV_61883_REQUEST, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], IEEE.av_61883_request, PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], _AV_61883_REQUEST"

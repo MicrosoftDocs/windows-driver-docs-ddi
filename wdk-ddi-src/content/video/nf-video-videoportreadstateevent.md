@@ -4,7 +4,6 @@ title: VideoPortReadStateEvent function (video.h)
 description: The VideoPortReadStateEvent function returns the current state of a given event object:\_signaled or nonsignaled.
 old-location: display\videoportreadstateevent.htm
 tech.root: display
-ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.date: 05/10/2018
 keywords: ["VideoPortReadStateEvent function"]
 ms.keywords: VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent

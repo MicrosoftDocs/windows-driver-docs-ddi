@@ -4,7 +4,6 @@ title: IDebugEventCallbacksWide::ChangeSymbolState (dbgeng.h)
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
 tech.root: debugger
-ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::ChangeSymbolState"]
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate

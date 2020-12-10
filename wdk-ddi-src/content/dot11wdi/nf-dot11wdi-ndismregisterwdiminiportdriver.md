@@ -4,7 +4,6 @@ title: NdisMRegisterWdiMiniportDriver function (dot11wdi.h)
 description: A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register MiniportWdiXxx entry points with NDIS as the first step in initialization.
 old-location: netvista\ndismregisterwdiminiportdriver.htm
 tech.root: netvista
-ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterWdiMiniportDriver function"]
 ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver

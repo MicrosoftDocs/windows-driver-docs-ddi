@@ -4,7 +4,6 @@ title: PROTOCOL_BIND_ADAPTER_EX (ndis.h)
 description: NDIS calls a protocol driver's ProtocolBindAdapterEx function to request the driver to bind to a miniport adapter.Note  You must declare the function by using the PROTOCOL_BIND_ADAPTER_EX type.
 old-location: netvista\protocolbindadapterex.htm
 tech.root: netvista
-ms.assetid: 1958722e-012e-4110-a82c-751744bcf9b5
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_BIND_ADAPTER_EX callback function"]
 ms.keywords: PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_BIND_ADAPTER_EX callback, ProtocolBindAdapterEx, ProtocolBindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolBindAdapterEx, netvista.protocolbindadapterex, protocol_functions_ref_82268bd4-3e45-48ba-8b80-df47fbde11e1.xml

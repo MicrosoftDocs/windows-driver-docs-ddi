@@ -4,7 +4,6 @@ title: WdfIoTargetSendReadSynchronously function (wdfiotarget.h)
 description: The WdfIoTargetSendReadSynchronously method builds a read request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendreadsynchronously.htm
 tech.root: wdf
-ms.assetid: bc6ceaac-883b-44af-8ac5-20145a5a6af9
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetSendReadSynchronously function"]
 ms.keywords: DFIOTargetRef_91d200b2-9585-488f-9477-3b6e528e82cc.xml, WdfIoTargetSendReadSynchronously, WdfIoTargetSendReadSynchronously method, kmdf.wdfiotargetsendreadsynchronously, wdf.wdfiotargetsendreadsynchronously, wdfiotarget/WdfIoTargetSendReadSynchronously

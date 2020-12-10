@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_DEVICERESET_STATE
 title: _D3DKMT_DEVICERESET_STATE (d3dkmthk.h)
 description: The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 old-location: display\d3dkmt_devicereset_state.htm
-ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DEVICERESET_STATE structure"]
 ms.keywords: D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, _D3DKMT_DEVICERESET_STATE, d3dkmthk/D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state

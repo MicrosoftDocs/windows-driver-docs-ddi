@@ -4,7 +4,6 @@ title: IDDCX_METADATA (iddcx.h)
 description: IDDCX_METADATA provides information about the current provided surface and what is displayed on it.
 old-location: display\iddcx_metadata.htm
 tech.root: display
-ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
 ms.date: 05/10/2018
 keywords: ["IDDCX_METADATA structure"]
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA

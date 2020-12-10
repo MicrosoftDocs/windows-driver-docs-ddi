@@ -4,7 +4,6 @@ title: _KSAUDIOMODULE_PROPERTY (ksmedia.h)
 description: The KSAUDIOMODULE_DESCRIPTOR structure describes the static, external properties of the audio modules.
 old-location: audio\ksaudiomodule_property.htm
 tech.root: audio
-ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.date: 05/08/2018
 keywords: ["KSAUDIOMODULE_PROPERTY structure"]
 ms.keywords: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, ksmedia/KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY"

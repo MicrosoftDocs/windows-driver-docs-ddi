@@ -4,7 +4,6 @@ title: IStillImageW::LaunchApplicationForDevice (sti.h)
 description: The IStillImage::LaunchApplicationForDevice method starts a specified application for a specified still image device.
 old-location: image\istillimage_launchapplicationfordevice.htm
 tech.root: image
-ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.date: 06/10/2020
 keywords: ["IStillImageW::LaunchApplicationForDevice"]
 ms.keywords: IStillImageW interface [Imaging Devices],LaunchApplicationForDevice method, IStillImageW.LaunchApplicationForDevice, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices],IStillImageW interface, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml

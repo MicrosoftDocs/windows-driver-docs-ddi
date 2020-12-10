@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_SETBLENDSTATE
 title: PFND3D10DDI_SETBLENDSTATE (d3d10umddi.h)
 description: The SetBlendState function sets a blend state.
 old-location: display\setblendstate.htm
-ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_SETBLENDSTATE callback function"]
 ms.keywords: PFND3D10DDI_SETBLENDSTATE, PFND3D10DDI_SETBLENDSTATE callback, SetBlendState, SetBlendState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml, d3d10umddi/SetBlendState, display.setblendstate

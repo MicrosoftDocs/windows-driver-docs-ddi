@@ -4,7 +4,6 @@ title: RtlInsertElementGenericTableAvl function (ntddk.h)
 description: The RtlInsertElementGenericTableAvl routine adds a new entry to a generic table.
 old-location: ifsk\rtlinsertelementgenerictableavl.htm
 tech.root: ifsk
-ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.date: 04/16/2018
 keywords: ["RtlInsertElementGenericTableAvl function"]
 ms.keywords: RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictableavl, ntddk/RtlInsertElementGenericTableAvl

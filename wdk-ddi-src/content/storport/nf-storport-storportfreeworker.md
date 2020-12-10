@@ -4,7 +4,6 @@ title: StorPortFreeWorker function (storport.h)
 description: Frees a Storport work item previously allocated by the StorPortInitializeWorker routine.
 old-location: storage\storportfreeworker.htm
 tech.root: storage
-ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.date: 03/29/2018
 keywords: ["StorPortFreeWorker function"]
 ms.keywords: StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, storport/StorPortFreeWorker

@@ -4,7 +4,6 @@ title: _URB_CONTROL_TRANSFER_EX (usb.h)
 description: The _URB_CONTROL_TRANSFER_EX structure is used by USB client drivers to transfer data to or from a control pipe, with a timeout that limits the acceptable transfer time.
 old-location: buses\_urb_control_transfer_ex.htm
 tech.root: usbref
-ms.assetid: b77febb8-6428-4633-85a0-2f8c0409194d
 ms.date: 05/07/2018
 keywords: ["URB_CONTROL_TRANSFER_EX structure"]
 ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], buses._urb_control_transfer_ex, usb/_URB_CONTROL_TRANSFER_EX, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml

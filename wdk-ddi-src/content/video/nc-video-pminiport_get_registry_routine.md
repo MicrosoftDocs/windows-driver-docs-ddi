@@ -4,7 +4,6 @@ title: PMINIPORT_GET_REGISTRY_ROUTINE (video.h)
 description: HwVidQueryNamedValueCallback processes the specified data retrieved from the registry.
 old-location: display\hwvidquerynamedvaluecallback.htm
 tech.root: display
-ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.date: 05/10/2018
 keywords: ["PMINIPORT_GET_REGISTRY_ROUTINE callback function"]
 ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE callback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback

@@ -4,7 +4,6 @@ title: _GETSETBUSDATA (wdbgexts.h)
 description: The IG_GET_BUS_DATA Ioctl operation reads data from a system bus and the IG_SET_BUS_DATA Ioctl operation writes data to a system bus.
 old-location: debugger\ig_get_bus_data.htm
 tech.root: debugger
-ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.date: 05/03/2018
 keywords: ["GETSETBUSDATA structure"]
 ms.keywords: "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA"

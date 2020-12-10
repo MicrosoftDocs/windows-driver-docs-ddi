@@ -4,7 +4,6 @@ title: IDE_HW_STARTIO (irb.h)
 description: The IdeHwStartIo miniport driver routine processes the synchronized aspects of an I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwstartio.htm
 tech.root: storage
-ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
 ms.date: 03/29/2018
 keywords: ["IDE_HW_STARTIO callback function"]
 ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio

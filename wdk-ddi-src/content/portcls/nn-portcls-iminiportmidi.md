@@ -4,7 +4,6 @@ title: IMiniportMidi (portcls.h)
 description: The IMiniportMidi interface is the primary interface for a MIDI miniport driver for a MIDI synthesizer device.
 old-location: audio\iminiportmidi.htm
 tech.root: audio
-ms.assetid: 42170a24-377c-4cc5-962e-97ed74302d63
 ms.date: 05/08/2018
 keywords: ["IMiniportMidi interface"]
 ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], IMiniportMidi interface [Audio Devices],described, audio.iminiportmidi, audmp-routines_bba7ae00-6719-49dd-9770-9292a96f42ec.xml, portcls/IMiniportMidi

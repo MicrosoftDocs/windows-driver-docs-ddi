@@ -4,7 +4,6 @@ title: RtlUInt8ToInt8 function (ntintsafe.h)
 description: Converts a value of type UINT8 to a value of type INT8.
 old-location: kernel\rtluint8toint8.htm
 tech.root: kernel
-ms.assetid: 92666A78-DC2C-4B0B-B5D3-E724F342D151
 ms.date: 04/30/2018
 keywords: ["RtlUInt8ToInt8 function"]
 ms.keywords: RtlUInt8ToInt8, RtlUInt8ToInt8 function [Kernel-Mode Driver Architecture], kernel.rtluint8toint8, ntintsafe/RtlUInt8ToInt8

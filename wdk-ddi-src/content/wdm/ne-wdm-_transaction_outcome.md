@@ -4,7 +4,6 @@ title: _TRANSACTION_OUTCOME (wdm.h)
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
 tech.root: kernel
-ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.date: 04/30/2018
 keywords: ["TRANSACTION_OUTCOME enumeration"]
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, kernel.transaction_outcome, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TRANSACTION_OUTCOME, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeUndetermined

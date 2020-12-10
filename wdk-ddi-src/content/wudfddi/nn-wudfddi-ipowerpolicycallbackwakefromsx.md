@@ -4,7 +4,6 @@ title: IPowerPolicyCallbackWakeFromSx (wudfddi.h)
 description: A driver's IPowerPolicyCallbackWakeFromSx interface provides callback functions that the framework calls to notify the driver about wake events. These events are related to a device's ability to wake both itself and the system from a low-power state.
 old-location: wdf\ipowerpolicycallbackwakefromsx.htm
 tech.root: wdf
-ms.assetid: dac93565-e67a-44a3-acf0-e1f58ce8dd9e
 ms.date: 02/26/2018
 keywords: ["IPowerPolicyCallbackWakeFromSx interface"]
 ms.keywords: IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, IPowerPolicyCallbackWakeFromSx interface,described, UMDFDeviceObjectRef_bc620403-691d-42df-9bdf-2a859e5718ea.xml, umdf.ipowerpolicycallbackwakefromsx, wdf.ipowerpolicycallbackwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx

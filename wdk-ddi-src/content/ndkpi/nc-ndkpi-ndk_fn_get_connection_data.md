@@ -4,7 +4,6 @@ title: NDK_FN_GET_CONNECTION_DATA (ndkpi.h)
 description: The NdkGetConnectionData (NDK_FN_GET_CONNECTION_DATA) function gets read limit values and the private data sent by the peer.
 old-location: netvista\ndk_fn_get_connection_data.htm
 tech.root: netvista
-ms.assetid: A6099DCB-7F10-4BDB-B463-422C2B7A2B3F
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_CONNECTION_DATA callback function"]
 ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data

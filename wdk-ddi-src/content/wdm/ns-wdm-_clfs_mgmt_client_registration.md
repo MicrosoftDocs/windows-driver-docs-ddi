@@ -4,7 +4,6 @@ title: _CLFS_MGMT_CLIENT_REGISTRATION (wdm.h)
 description: The CLFS_MGMT_CLIENT_REGISTRATION structure is given to CLFS management by clients who manage their own logs.
 old-location: kernel\clfs_mgmt_client_registration.htm
 tech.root: kernel
-ms.assetid: 4f4f7ece-efe4-49f7-a6ce-bc131d1c1968
 ms.date: 04/30/2018
 keywords: ["CLFS_MGMT_CLIENT_REGISTRATION structure"]
 ms.keywords: "*PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_CLIENT_REGISTRATION, kernel.clfs_mgmt_client_registration, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, wdm/CLFS_MGMT_CLIENT_REGISTRATION, wdm/PCLFS_MGMT_CLIENT_REGISTRATION"

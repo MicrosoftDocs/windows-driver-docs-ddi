@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostModule.GetContainingModule
 title: IDebugHostModule::GetContainingModule (dbgmodel.h)
 description: Returns the module which contains this symbol if the symbol has a containing module.
-ms.assetid: 125fd543-0f5c-4628-8d81-1a4c7689df2c
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule::GetContainingModule"]
 ms.keywords: IDebugHostModule::GetContainingModule, GetContainingModule, IDebugHostModule.GetContainingModule, IDebugHostModule::GetContainingModule, IDebugHostModule.GetContainingModule

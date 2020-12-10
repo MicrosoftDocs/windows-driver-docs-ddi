@@ -4,7 +4,6 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH (wdfdevice.h)
 description: A driver's EvtDeviceSelfManagedIoFlush event callback function handles flush activity for the device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagedioflush.htm
 tech.root: wdf
-ms.assetid: ad4ace83-c6c1-4b5f-b998-f46f3e721165
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_d464c7ae-10fa-4838-b152-9bbaeaac76de.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback, EvtDeviceSelfManagedIoFlush, EvtDeviceSelfManagedIoFlush callback function, kmdf.evtdeviceselfmanagedioflush, wdf.evtdeviceselfmanagedioflush, wdfdevice/EvtDeviceSelfManagedIoFlush

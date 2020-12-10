@@ -4,7 +4,6 @@ title: IDebugSystemObjects3 (dbgeng.h)
 description: IDebugSystemObjects3 interface
 old-location: debugger\idebugsystemobjects3.htm
 tech.root: debugger
-ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3 interface"]
 ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3

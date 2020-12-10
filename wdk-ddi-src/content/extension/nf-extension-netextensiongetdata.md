@@ -3,7 +3,6 @@ UID: NF:extension.NetExtensionGetData
 title: NetExtensionGetData function (extension.h)
 description: The NetExtensionGetData function retrieves packet extension data for a net packet.
 tech.root: netvista
-ms.assetid: D2B02C1E-3BF1-4380-8D59-C93FAF811CC8
 ms.date: 02/06/2019
 keywords: ["NetExtensionGetData function"]
 ms.keywords: NetExtensionGetData

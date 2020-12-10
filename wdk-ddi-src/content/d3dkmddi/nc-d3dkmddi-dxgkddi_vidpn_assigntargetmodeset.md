@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNTARGETMODESET
 title: DXGKDDI_VIDPN_ASSIGNTARGETMODESET (d3dkmddi.h)
 description: The pfnAssignTargetModeSet function assigns a target mode set to a particular target in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassigntargetmodeset.htm
-ms.assetid: 846c6dd5-d4f8-4835-83a2-994725deaf36
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback function"]
 ms.keywords: DXGKDDI_VIDPN_ASSIGNTARGETMODESET, DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback, VidPnFunctions_7051492a-0560-4898-8532-60e66ebcb001.xml, d3dkmddi/pfnAssignTargetModeSet, display.dxgk_vidpn_interface_pfnassigntargetmodeset, pfnAssignTargetModeSet, pfnAssignTargetModeSet callback function [Display Devices]

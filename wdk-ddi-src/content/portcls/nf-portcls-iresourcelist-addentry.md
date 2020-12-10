@@ -4,7 +4,6 @@ title: IResourceList::AddEntry (portcls.h)
 description: The AddEntry method adds an entry to a resource list.
 old-location: audio\iresourcelist_addentry.htm
 tech.root: audio
-ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.date: 05/08/2018
 keywords: ["IResourceList::AddEntry"]
 ms.keywords: AddEntry, AddEntry method [Audio Devices], AddEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntry method, IResourceList.AddEntry, IResourceList::AddEntry, audio.iresourcelist_addentry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, portcls/IResourceList::AddEntry

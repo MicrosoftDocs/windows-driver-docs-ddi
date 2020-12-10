@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceRetrieveInformation function (wdfusb.h)
 description: The WdfUsbTargetDeviceRetrieveInformation method retrieves information about the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveinformation.htm
 tech.root: wdf
-ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceRetrieveInformation function"]
 ms.keywords: DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method, kmdf.wdfusbtargetdeviceretrieveinformation, wdf.wdfusbtargetdeviceretrieveinformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation

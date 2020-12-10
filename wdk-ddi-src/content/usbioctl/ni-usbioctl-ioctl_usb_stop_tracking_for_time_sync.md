@@ -4,7 +4,6 @@ title: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC (usbioctl.h)
 description: This request unegisters the caller with USB driver stack for time sync services.
 old-location: buses\_ioctl_usb_stop_tracking_for_time_sync.htm
 tech.root: usbref
-ms.assetid: 232AC14B-CE3C-44AC-9428-5594993CD749
 ms.date: 05/07/2018
 keywords: ["IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC IOCTL"]
 ms.keywords: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_stop_tracking_for_time_sync, usbioctl/ IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC

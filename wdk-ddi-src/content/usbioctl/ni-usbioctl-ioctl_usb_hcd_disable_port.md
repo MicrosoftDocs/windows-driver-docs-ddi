@@ -4,7 +4,6 @@ title: IOCTL_USB_HCD_DISABLE_PORT (usbioctl.h)
 description: The IOCTL_USB_HCD_DISABLE_PORT IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_disable_port.htm
 tech.root: usbref
-ms.assetid: c0ae41be-1b37-4410-8e7a-611a66c599c1
 ms.date: 05/07/2018
 keywords: ["IOCTL_USB_HCD_DISABLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HCD_DISABLE_PORT, IOCTL_USB_HCD_DISABLE_PORT control, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], buses.ioctl_usb_hcd_disable_port, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml

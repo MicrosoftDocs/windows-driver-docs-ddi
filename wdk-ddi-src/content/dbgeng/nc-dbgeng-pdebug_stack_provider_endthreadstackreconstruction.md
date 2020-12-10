@@ -4,7 +4,6 @@ title: PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION (dbgeng.h)
 description: The EndThreadStackReconstruction callback function may be called after stack reconstruction to clean up state.
 old-location: debugger\endthreadstackreconstruction.htm
 tech.root: debugger
-ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.date: 05/03/2018
 keywords: ["PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function"]
 ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction

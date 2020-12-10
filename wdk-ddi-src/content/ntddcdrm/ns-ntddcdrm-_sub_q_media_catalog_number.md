@@ -4,7 +4,6 @@ title: _SUB_Q_MEDIA_CATALOG_NUMBER (ntddcdrm.h)
 description: The SUB_Q_MEDIA_CATALOG_NUMBER structure contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_media_catalog_number.htm
 tech.root: storage
-ms.assetid: 14b0aed7-1602-41a3-bc55-59da40650860
 ms.date: 03/29/2018
 keywords: ["SUB_Q_MEDIA_CATALOG_NUMBER structure"]
 ms.keywords: "*PSUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER structure pointer [Storage Devices], SUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER structure [Storage Devices], _SUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/PSUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/SUB_Q_MEDIA_CATALOG_NUMBER, storage.sub_q_media_catalog_number, structs-CD-ROM_d4acf54e-b837-4064-a654-4fa2ebbe7425.xml"

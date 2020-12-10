@@ -4,7 +4,6 @@ title: IKsObject (ksproxy.h)
 description: The IKsObject interface provides a method to retrieve the file handle of a KS object.
 old-location: stream\iksobject.htm
 tech.root: stream
-ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.date: 04/23/2018
 keywords: ["IKsObject interface"]
 ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject

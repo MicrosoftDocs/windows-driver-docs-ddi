@@ -4,7 +4,6 @@ title: MINIPORT_SYNCHRONOUS_OID_REQUEST function (ndis.h)
 description: NDIS calls a miniport driver's MiniportSynchronousOidRequest callback function to issue a Synchronous OID request.
 old-location: netvista\miniport_synchronous_oid_request.htm
 tech.root: netvista
-ms.assetid: 0DDF9CF8-91F6-4D7C-A8E8-FC425BF155CB
 ms.date: 05/02/2018
 keywords: ["MINIPORT_SYNCHRONOUS_OID_REQUEST function"]
 ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request

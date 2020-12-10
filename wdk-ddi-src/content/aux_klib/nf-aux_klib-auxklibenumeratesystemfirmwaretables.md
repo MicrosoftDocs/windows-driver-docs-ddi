@@ -4,7 +4,6 @@ title: AuxKlibEnumerateSystemFirmwareTables function (aux_klib.h)
 description: The AuxKlibEnumerateSystemFirmwareTables routine enumerates all system firmware tables of the specified type.
 old-location: kernel\auxklibenumeratesystemfirmwaretables.htm
 tech.root: kernel
-ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.date: 04/30/2018
 keywords: ["AuxKlibEnumerateSystemFirmwareTables function"]
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables

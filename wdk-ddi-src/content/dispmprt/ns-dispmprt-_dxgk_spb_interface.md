@@ -4,7 +4,6 @@ title: _DXGK_SPB_INTERFACE (dispmprt.h)
 description: Contains pointers to functions in the Simple Peripheral Bus (SPB) Interface that the Windows Display Driver Model (WDDM) 1.2 and later display miniport driver can call to inspect and alter SPB resources.
 old-location: display\dxgk_spb_interface.htm
 tech.root: display
-ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.date: 05/10/2018
 keywords: ["DXGK_SPB_INTERFACE structure"]
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"

@@ -4,7 +4,6 @@ title: _FILE_RENAME_INFORMATION (ntifs.h)
 description: The FILE_RENAME_INFORMATION structure is used to rename a file.
 old-location: ifsk\file_rename_information.htm
 tech.root: ifsk
-ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.date: 04/16/2018
 keywords: ["FILE_RENAME_INFORMATION structure"]
 ms.keywords: "*PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, ntifs/PFILE_RENAME_INFORMATION"

@@ -4,7 +4,6 @@ title: KsNullDriverUnload function (ks.h)
 description: The KsNullDriverUnload function is a default function a driver can use when it has no other tasks to do in its unload function, but must still allow the device to be unloaded by its presence.
 old-location: stream\ksnulldriverunload.htm
 tech.root: stream
-ms.assetid: 1fe4c3b7-4627-4a59-9779-fa2be29f387a
 ms.date: 04/23/2018
 keywords: ["KsNullDriverUnload function"]
 ms.keywords: KsNullDriverUnload, KsNullDriverUnload function [Streaming Media Devices], ks/KsNullDriverUnload, ksfunc_449d73af-488d-4c4b-b5cb-f706fd48beab.xml, stream.ksnulldriverunload

@@ -4,7 +4,6 @@ title: ExtRemoteData::GetFloat (engextcpp.h)
 description: The GetFloat method returns a float version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getfloat.htm
 tech.root: debugger
-ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.date: 05/03/2018
 keywords: ["ExtRemoteData::GetFloat"]
 ms.keywords: EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, ExtRemoteData class [Windows Debugging],GetFloat method, ExtRemoteData.GetFloat, ExtRemoteData::GetFloat, GetFloat, GetFloat method [Windows Debugging], GetFloat method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getfloat

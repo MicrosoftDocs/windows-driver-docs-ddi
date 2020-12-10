@@ -4,7 +4,6 @@ title: _PRINTER_EVENT_ATTRIBUTES_INFO (winddiui.h)
 description: The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
 old-location: print\printer_event_attributes_info.htm
 tech.root: print
-ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.date: 04/20/2018
 keywords: ["PRINTER_EVENT_ATTRIBUTES_INFO structure"]
 ms.keywords: "*PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], PRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], _PRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PRINTER_EVENT_ATTRIBUTES_INFO"

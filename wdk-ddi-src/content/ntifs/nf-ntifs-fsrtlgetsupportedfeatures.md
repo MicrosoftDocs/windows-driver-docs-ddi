@@ -4,7 +4,6 @@ title: FsRtlGetSupportedFeatures function (ntifs.h)
 description: The FsRtlGetSupportedFeatures routine returns the supported features of a volume attached to the specified device object.
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
 tech.root: ifsk
-ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.date: 05/29/2020
 keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures

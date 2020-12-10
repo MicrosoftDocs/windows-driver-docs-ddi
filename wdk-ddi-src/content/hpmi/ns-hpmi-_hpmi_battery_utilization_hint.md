@@ -4,7 +4,6 @@ title: _HPMI_BATTERY_UTILIZATION_HINT (hpmi.h)
 description: This hint indicates if the OEM Battery Manager should attempt to save as much charge as possible in the non-hot swappable batteries (i.e.
 old-location: powermeter\hpmi_battery_utilization_hint.htm
 tech.root: powermeter
-ms.assetid: A974998F-C9AF-496E-88B1-510413C17C4A
 ms.date: 05/08/2018
 keywords: ["HPMI_BATTERY_UTILIZATION_HINT structure"]
 ms.keywords: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint"

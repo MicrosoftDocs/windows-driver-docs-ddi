@@ -4,7 +4,6 @@ title: _ACPI_METHOD_ARGUMENT_V2 (acpiioct.h)
 description: This topic describes the ACPI_METHOD_ARGUMENT_V2 structure.
 old-location: acpi\acpi_method_argument_v2.htm
 tech.root: acpi
-ms.assetid: 10DD32ED-96F2-43BF-BBF4-85851BC9A377
 ms.date: 02/15/2018
 keywords: ["ACPI_METHOD_ARGUMENT_V2 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, acpiioct/ACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2"

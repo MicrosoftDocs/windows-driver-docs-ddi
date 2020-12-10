@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 title: _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY (d3dkmthk.h)
 description: Describes parameters for an in-process (in-proc) Microsoft Direct3D composition device to set the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmt_setcontextinprocessschedulingpriority.htm
-ms.assetid: 3e016793-8c31-4349-a8f5-e5a0cb3b353e
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_setcontextinprocessschedulingpriority

@@ -4,7 +4,6 @@ title: COLORTYPE (icm.h)
 description: The values of the COLORTYPE enumeration are used by WCS functions to indicate the format of vector content. Most values have equivalent structures that are contained in the ICM COLOR structure (described in the Microsoft Windows SDK documentation).
 old-location: print\colortype.htm
 tech.root: print
-ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 ms.date: 08/13/2020
 keywords: ["COLORTYPE enumeration"]
 ms.keywords: "*PCOLORTYPE, COLORTYPE, COLORTYPE enumeration [Print Devices], COLOR_3_CHANNEL, COLOR_5_CHANNEL, COLOR_6_CHANNEL, COLOR_7_CHANNEL, COLOR_8_CHANNEL, COLOR_CMYK, COLOR_GRAY, COLOR_Lab, COLOR_NAMED, COLOR_RGB, COLOR_XYZ, COLOR_Yxy, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, icm/COLORTYPE, icm/COLOR_3_CHANNEL, icm/COLOR_5_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_7_CHANNEL, icm/COLOR_8_CHANNEL, icm/COLOR_CMYK, icm/COLOR_GRAY, icm/COLOR_Lab, icm/COLOR_NAMED, icm/COLOR_RGB, icm/COLOR_XYZ, icm/COLOR_Yxy, print.colortype"

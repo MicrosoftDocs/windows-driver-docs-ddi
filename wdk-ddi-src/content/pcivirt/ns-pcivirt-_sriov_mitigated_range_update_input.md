@@ -4,7 +4,6 @@ title: _SRIOV_MITIGATED_RANGE_UPDATE_INPUT (pcivirt.h)
 description: This structure is used as an input buffer to the IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request to indicate the virtual function (VF) whose memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_update_input.htm
 tech.root: PCI
-ms.assetid: ae4936ac-9794-4854-81ec-2139b3ce4c3c
 ms.date: 02/24/2018
 keywords: ["SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"

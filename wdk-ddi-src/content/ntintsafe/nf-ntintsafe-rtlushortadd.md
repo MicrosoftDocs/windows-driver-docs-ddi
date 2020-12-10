@@ -4,7 +4,6 @@ title: RtlUShortAdd function (ntintsafe.h)
 description: Adds two values of type USHORT.
 old-location: kernel\rtlushortadd.htm
 tech.root: kernel
-ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
 ms.date: 04/30/2018
 keywords: ["RtlUShortAdd function"]
 ms.keywords: RtlUShortAdd, RtlUShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlushortadd, ntintsafe/RtlUShortAdd

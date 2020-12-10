@@ -4,7 +4,6 @@ title: IoRegisterBootDriverCallback function (ntddk.h)
 description: The IoRegisterBootDriverCallback routine registers a BOOT_DRIVER_CALLBACK_FUNCTION routine to be called during the initialization of a boot-start driver and its dependent DLLs.
 old-location: kernel\ioregisterbootdrivercallback.htm
 tech.root: kernel
-ms.assetid: 28BA4B54-F493-4D79-89DF-D890EBCF1E9C
 ms.date: 04/30/2018
 keywords: ["IoRegisterBootDriverCallback function"]
 ms.keywords: IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, ntddk/IoRegisterBootDriverCallback

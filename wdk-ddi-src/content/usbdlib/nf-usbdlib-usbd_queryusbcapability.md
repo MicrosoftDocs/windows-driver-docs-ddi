@@ -4,7 +4,6 @@ title: USBD_QueryUsbCapability function (usbdlib.h)
 description: The USBD_QueryUsbCapability routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability.
 old-location: buses\usbd_getcapability.htm
 tech.root: usbref
-ms.assetid: 982B52A2-5BC1-4390-AE44-C3D31E2FC3DB
 ms.date: 05/07/2018
 keywords: ["USBD_QueryUsbCapability function"]
 ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability

@@ -4,7 +4,6 @@ title: tagDEVICEDIALOGDATA2 (wiadevd.h)
 description: The DEVICEDIALOGDATA2 structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata2.htm
 tech.root: image
-ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.date: 05/03/2018
 keywords: ["tagDEVICEDIALOGDATA2 structure"]
 ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"

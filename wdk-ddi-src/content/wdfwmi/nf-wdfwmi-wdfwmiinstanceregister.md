@@ -4,7 +4,6 @@ title: WdfWmiInstanceRegister function (wdfwmi.h)
 description: The WdfWmiInstanceRegister method registers a specified instance of a WMI data provider with the system's WMI service.
 old-location: wdf\wdfwmiinstanceregister.htm
 tech.root: wdf
-ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceRegister function"]
 ms.keywords: DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, kmdf.wdfwmiinstanceregister, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister

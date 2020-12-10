@@ -4,7 +4,6 @@ title: IOCTL_ACPI_EVAL_METHOD_V1 (acpiioct.h)
 description: The IOCTL_ACPI_EVAL_METHOD_V1 control code synchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_eval_method_v1.htm
 tech.root: acpi
-ms.assetid: 394DB287-56E2-46D0-B2FF-2CCF22F619F8
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_EVAL_METHOD_V1 IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_V1, IOCTL_ACPI_EVAL_METHOD_V1 control, IOCTL_ACPI_EVAL_METHOD_V1 control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v1, acpiioct/IOCTL_ACPI_EVAL_METHOD_V1

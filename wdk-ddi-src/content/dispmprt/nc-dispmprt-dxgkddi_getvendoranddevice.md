@@ -3,7 +3,6 @@ UID: NC:dispmprt.DXGKDDI_GETVENDORANDDEVICE
 title: DXGKDDI_GETVENDORANDDEVICE
 description: This routine supplies the Vendor and Device IDs for a PCI Express SR-IOV Virtual Function (VF) to be used as the basis for the more generic Plug and Play IDs for the VF.
 tech.root: display
-ms.assetid: 52b16e83-c445-4854-9ef0-2a3f0f6c7c09
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETVENDORANDDEVICE callback function"]
 req.header: dispmprt.h

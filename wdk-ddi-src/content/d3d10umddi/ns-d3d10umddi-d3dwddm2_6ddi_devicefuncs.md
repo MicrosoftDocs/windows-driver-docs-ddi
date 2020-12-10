@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3DWDDM2_6DDI_DEVICEFUNCS
 title: D3DWDDM2_6DDI_DEVICEFUNCS
 description: This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.6.
 tech.root: display
-ms.assetid: 80a077b6-7190-4416-a86d-992375fe8de0
 ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_DEVICEFUNCS structure"]
 ms.prod: windows-hardware

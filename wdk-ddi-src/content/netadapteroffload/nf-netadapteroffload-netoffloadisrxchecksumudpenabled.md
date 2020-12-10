@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetOffloadIsRxChecksumUdpEnabled
 title: NetOffloadIsRxChecksumUdpEnabled function (netadapteroffload.h)
 description: The NetOffloadIsRxChecksumUdpEnabled function determines whether a net adapter has Rx UDP checksum offload enabled.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/06/2020
 keywords: ["NetOffloadIsRxChecksumUdpEnabled function"]
 f1_keywords:

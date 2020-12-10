@@ -4,7 +4,6 @@ title: VideoPortGetBusData function (video.h)
 description: The VideoPortGetBusData function returns bus-type-specific configuration information.
 old-location: display\videoportgetbusdata.htm
 tech.root: display
-ms.assetid: ebc5e74f-82ba-4c19-8dae-3ebe8c843fd2
 ms.date: 05/10/2018
 keywords: ["VideoPortGetBusData function"]
 ms.keywords: VideoPortGetBusData, VideoPortGetBusData function [Display Devices], VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml, display.videoportgetbusdata, video/VideoPortGetBusData

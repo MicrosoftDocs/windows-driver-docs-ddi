@@ -4,7 +4,6 @@ title: D3DDDICAPS_SHADER_MIN_PRECISION (d3dumddi.h)
 description: Specifies minimum precision levels that the user-mode driver supports in shaders.
 old-location: display\d3dddicaps_shader_min_precision.htm
 tech.root: display
-ms.assetid: 98856726-b426-42e4-9560-f6b56164824a
 ms.date: 05/10/2018
 keywords: ["D3DDDICAPS_SHADER_MIN_PRECISION enumeration"]
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION, D3DDDICAPS_SHADER_MIN_PRECISION enumeration [Display Devices], D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, display.d3dddicaps_shader_min_precision

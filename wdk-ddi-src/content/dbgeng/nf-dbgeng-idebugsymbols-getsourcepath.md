@@ -4,7 +4,6 @@ title: IDebugSymbols::GetSourcePath (dbgeng.h)
 description: The GetSourcePath method returns the source path.
 old-location: debugger\getsourcepath.htm
 tech.root: debugger
-ms.assetid: 93a1efce-5f93-4a09-aa61-ffbd3d619176
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetSourcePath"]
 ms.keywords: GetSourcePath, GetSourcePath method [Windows Debugging], GetSourcePath method [Windows Debugging],IDebugSymbols interface, GetSourcePath method [Windows Debugging],IDebugSymbols2 interface, GetSourcePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSourcePath method, IDebugSymbols.GetSourcePath, IDebugSymbols2 interface [Windows Debugging],GetSourcePath method, IDebugSymbols2::GetSourcePath, IDebugSymbols3 interface [Windows Debugging],GetSourcePath method, IDebugSymbols3::GetSourcePath, IDebugSymbols::GetSourcePath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, dbgeng/IDebugSymbols2::GetSourcePath, dbgeng/IDebugSymbols3::GetSourcePath, dbgeng/IDebugSymbols::GetSourcePath, debugger.getsourcepath

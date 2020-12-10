@@ -4,7 +4,6 @@ title: PsSetCreateProcessNotifyRoutineEx2 function (ntddk.h)
 description: The PsSetCreateProcessNotifyRoutineEx2 routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
 old-location: kernel\pssetcreateprocessnotifyroutineex2.htm
 tech.root: kernel
-ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.date: 04/30/2018
 keywords: ["PsSetCreateProcessNotifyRoutineEx2 function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2

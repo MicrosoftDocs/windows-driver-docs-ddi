@@ -4,7 +4,6 @@ title: IRegistryKey::QueryKey (portcls.h)
 description: The QueryKey method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
 old-location: audio\iregistrykey_querykey.htm
 tech.root: audio
-ms.assetid: 1b2642da-1b04-49a8-942e-6eb93afd12f2
 ms.date: 05/08/2018
 keywords: ["IRegistryKey::QueryKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],QueryKey method, IRegistryKey.QueryKey, IRegistryKey::QueryKey, QueryKey, QueryKey method [Audio Devices], QueryKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, portcls/IRegistryKey::QueryKey

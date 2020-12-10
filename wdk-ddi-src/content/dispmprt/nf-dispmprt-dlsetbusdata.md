@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlSetBusData
 title: DlSetBusData function
 description: Sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 tech.root: display
-ms.assetid: 1c96d9b5-e074-41da-8867-a858d280fa10
 ms.date: 04/04/2019
 keywords: ["DlSetBusData function"]
 ms.keywords: DlSetBusData

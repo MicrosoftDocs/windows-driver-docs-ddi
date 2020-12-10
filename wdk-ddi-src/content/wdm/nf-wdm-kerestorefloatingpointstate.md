@@ -4,7 +4,6 @@ title: KeRestoreFloatingPointState function (wdm.h)
 description: The KeRestoreFloatingPointState routine restores the nonvolatile floating-point context saved by the preceding call to KeSaveFloatingPointState.
 old-location: kernel\kerestorefloatingpointstate.htm
 tech.root: kernel
-ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.date: 04/30/2018
 keywords: ["KeRestoreFloatingPointState function"]
 ms.keywords: KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState

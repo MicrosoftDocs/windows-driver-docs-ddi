@@ -4,7 +4,6 @@ title: _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE (d3dumddi.h)
 description: A structure that holds information to submit a signal synchronization object to a hardware queue.
 old-location: display\d3dddicb_submitsignalsyncobjectstohwqueue.htm
 tech.root: display
-ms.assetid: 22AA35D4-D287-443B-A49D-87C20BD436AA
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue

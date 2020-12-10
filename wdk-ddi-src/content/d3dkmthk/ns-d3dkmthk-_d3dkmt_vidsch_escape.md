@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_VIDSCH_ESCAPE
 title: _D3DKMT_VIDSCH_ESCAPE (d3dkmthk.h)
 description: The D3DKMT_VIDSCH_ESCAPE structure describes how to control the graphics processing unit (GPU) scheduler (which is part of Dxgkrnl.sys) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_vidsch_escape.htm
-ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.date: 05/10/2018
 keywords: ["D3DKMT_VIDSCH_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape

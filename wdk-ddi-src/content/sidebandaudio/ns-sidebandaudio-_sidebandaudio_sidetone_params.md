@@ -2,7 +2,6 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_PARAMS
 title: _SIDEBANDAUDIO_SIDETONE_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and sidetone value.
-ms.assetid: baeba68b-d15f-469f-97f8-bd53e38fe1ea
 ms.date: 09/06/2018
 keywords: ["SIDEBANDAUDIO_SIDETONE_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS,

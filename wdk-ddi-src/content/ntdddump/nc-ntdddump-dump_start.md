@@ -4,7 +4,6 @@ title: DUMP_START (ntdddump.h)
 description: The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process.
 old-location: storage\dump_start.htm
 tech.root: storage
-ms.assetid: a315f51f-069a-4c3d-bedc-2378b0996022
 ms.date: 03/29/2018
 keywords: ["DUMP_START callback function"]
 ms.keywords: Dump_Start, Dump_Start routine [Storage Devices], PDUMP_START, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml, ntdddump/Dump_Start, storage.dump_start

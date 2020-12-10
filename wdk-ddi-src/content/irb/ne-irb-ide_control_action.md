@@ -4,7 +4,6 @@ title: IDE_CONTROL_ACTION (irb.h)
 description: The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_control_action.htm
 tech.root: storage
-ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.date: 03/29/2018
 keywords: ["IDE_CONTROL_ACTION enumeration"]
 ms.keywords: IDE_CONTROL_ACTION, IDE_CONTROL_ACTION enumeration [Storage Devices], IdePowerDown, IdePowerUp, IdeStart, IdeStop, IdeVendorDefined, irb/IDE_CONTROL_ACTION, irb/IdePowerDown, irb/IdePowerUp, irb/IdeStart, irb/IdeStop, irb/IdeVendorDefined, storage.ide_control_action, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml

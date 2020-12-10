@@ -4,7 +4,6 @@ title: NtCommitEnlistment function (wdm.h)
 description: The ZwCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\zwcommitenlistment.htm
 tech.root: kernel
-ms.assetid: 9c7f3e24-1d7c-450e-bbef-df0479911bc6
 ms.date: 04/30/2018
 keywords: ["NtCommitEnlistment function"]
 ms.keywords: NtCommitEnlistment, ZwCommitEnlistment, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwcommitenlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, wdm/NtCommitEnlistment, wdm/ZwCommitEnlistment

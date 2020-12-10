@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_TYPE
 title: D3D12DDI_STATE_OBJECT_TYPE (d3d12umddi.h)
 description: The state object types.
-ms.assetid: 2ae86b8b-5dbd-49a8-89a2-7991506060e2
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_STATE_OBJECT_TYPE enumeration"]
 ms.keywords: D3D12DDI_STATE_OBJECT_TYPE, D3D12DDI_STATE_OBJECT_TYPE,

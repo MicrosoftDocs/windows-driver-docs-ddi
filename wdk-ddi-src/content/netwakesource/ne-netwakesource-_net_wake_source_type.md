@@ -3,7 +3,6 @@ UID: NE:netwakesource._NET_WAKE_SOURCE_TYPE
 title: NET_WAKE_SOURCE_TYPE (netwakesource.h)
 description: The NET_WAKE_SOURCE_TYPE enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a net adapter.
 tech.root: netvista
-ms.assetid: 70ebee95-c44c-4db8-b5ea-71b5e1236a7c
 ms.date: 10/04/2019
 keywords: ["NET_WAKE_SOURCE_TYPE enumeration"]
 ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE,

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_SAR_BACKOFF_STATE
 title: _WWAN_SAR_BACKOFF_STATE (wwan.h)
 description: The WWAN_SAR_BACKOFF_STATE enumeration specifies the state of SAR backoff for a mobile broadband (MBB) modem's antennas.
 tech.root: netvista
-ms.assetid: 2c4aeedf-4c2c-4efe-8c3f-fe5c6b7d6009
 ms.date: 08/20/2018
 keywords: ["WWAN_SAR_BACKOFF_STATE enumeration"]
 ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE,

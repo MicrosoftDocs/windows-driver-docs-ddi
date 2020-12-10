@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_ENUMVIDPNCOFUNCMODALITY
 title: _DXGKARG_ENUMVIDPNCOFUNCMODALITY (d3dkmddi.h)
 description: The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the DxgkDdiEnumVidPnCofuncModality function.
 old-location: display\dxgkarg_enumvidpncofuncmodality.htm
-ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.date: 05/10/2018
 keywords: ["DXGKARG_ENUMVIDPNCOFUNCMODALITY structure"]
 ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality

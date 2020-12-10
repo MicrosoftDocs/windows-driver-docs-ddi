@@ -4,7 +4,6 @@ title: _DXGK_FAULT_ERROR_CODE (d3dkmdt.h)
 description: The DXGK_FAULT_ERROR_CODE structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 old-location: display\dxgk_fault_error_code.htm
 tech.root: display
-ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.date: 05/10/2018
 keywords: ["DXGK_FAULT_ERROR_CODE structure"]
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code

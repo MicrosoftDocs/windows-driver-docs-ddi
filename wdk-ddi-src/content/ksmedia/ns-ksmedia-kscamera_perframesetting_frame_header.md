@@ -4,7 +4,6 @@ title: KSCAMERA_PERFRAMESETTING_FRAME_HEADER (ksmedia.h)
 description: This structure contains the header information for a frame in a per-frame settings payload.
 old-location: stream\kscamera_perframesetting_frame_header.htm
 tech.root: stream
-ms.assetid: 59A52F4B-D987-420D-BF83-1375354C6D6A
 ms.date: 04/30/2019
 keywords: ["KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure"]
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_FRAME_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, stream.kscamera_perframesetting_frame_header"

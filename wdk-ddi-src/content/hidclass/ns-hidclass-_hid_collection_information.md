@@ -4,7 +4,6 @@ title: _HID_COLLECTION_INFORMATION (hidclass.h)
 description: The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection.
 old-location: hid\hid_collection_information.htm
 tech.root: hid
-ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.date: 04/30/2018
 keywords: ["HID_COLLECTION_INFORMATION structure"]
 ms.keywords: "*PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], _HID_COLLECTION_INFORMATION, hid.hid_collection_information, hidclass/HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml"

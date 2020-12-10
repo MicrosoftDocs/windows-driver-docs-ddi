@@ -4,7 +4,6 @@ title: PFNKSDEVICEIRP (ks.h)
 description: An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.IRP_MN_QUERY_REMOVE_DEVICEIRP_MN_QUERY_STOP_DEVICEIRP_MN_QUERY_INTERFACE
 old-location: stream\avstrminidevicequeryremove.htm
 tech.root: stream
-ms.assetid: c31d7e52-46f7-46b9-9fa2-1778f2301b4d
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEIRP callback function"]
 ms.keywords: AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], PFNKSDEVICEIRP, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml, ks/AVStrMiniDeviceQueryRemove, stream.avstrminidevicequeryremove

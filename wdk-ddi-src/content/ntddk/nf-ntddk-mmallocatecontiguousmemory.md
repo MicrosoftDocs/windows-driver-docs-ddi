@@ -4,7 +4,6 @@ title: MmAllocateContiguousMemory function (ntddk.h)
 description: The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemory.htm
 tech.root: kernel
-ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
 ms.date: 04/30/2018
 keywords: ["MmAllocateContiguousMemory function"]
 ms.keywords: MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, kernel.mmallocatecontiguousmemory, wdm/MmAllocateContiguousMemory

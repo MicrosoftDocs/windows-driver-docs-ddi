@@ -4,7 +4,6 @@ title: W_TCP_OFFLOAD_RECEIVE_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadReceive function to post receive requests (receive buffers) on an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloadreceive.htm
 tech.root: netvista
-ms.assetid: 9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_RECEIVE_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadReceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER callback, ndischimney/MiniportTcpOffloadReceive, netvista.miniporttcpoffloadreceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml

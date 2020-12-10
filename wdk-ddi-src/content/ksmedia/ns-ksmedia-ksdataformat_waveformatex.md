@@ -4,7 +4,6 @@ title: KSDATAFORMAT_WAVEFORMATEX (ksmedia.h)
 description: The KSDATAFORMAT_WAVEFORMATEX structure provides detailed information about the data format of an audio stream consisting of wave data.
 old-location: audio\ksdataformat_waveformatex.htm
 tech.root: audio
-ms.assetid: b4c0cca8-6277-4458-b1f1-894848987074
 ms.date: 05/08/2018
 keywords: ["KSDATAFORMAT_WAVEFORMATEX structure"]
 ms.keywords: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, audio.ksdataformat_waveformatex, ksmedia/KSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX"

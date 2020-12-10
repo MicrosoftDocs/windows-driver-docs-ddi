@@ -4,7 +4,6 @@ title: SpbDeviceInitConfig function (spbcx.h)
 description: The SpbDeviceInitConfig method attaches the SPB framework extension (SpbCx) to the I/O-request chain for a WDFDEVICE (FDO or PDO) object that is to be created.
 old-location: spb\spbdeviceinitconfig.htm
 tech.root: SPB
-ms.assetid: 7B62C0B0-F90A-41B1-B903-5C9F905F4A08
 ms.date: 04/30/2018
 keywords: ["SpbDeviceInitConfig function"]
 ms.keywords: SPB.spbdeviceinitconfig, SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses], spbcx/SpbDeviceInitConfig

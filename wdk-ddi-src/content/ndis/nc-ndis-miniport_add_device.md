@@ -4,7 +4,6 @@ title: MINIPORT_ADD_DEVICE (ndis.h)
 description: The MiniportAddDevice function enables a miniport driver to establish a context area for an added device.
 old-location: netvista\miniportadddevice.htm
 tech.root: netvista
-ms.assetid: 50e04b5a-e430-484c-aabb-cc7b9ecb53b0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_ADD_DEVICE callback function"]
 ms.keywords: MINIPORT_ADD_DEVICE, MINIPORT_ADD_DEVICE callback, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice

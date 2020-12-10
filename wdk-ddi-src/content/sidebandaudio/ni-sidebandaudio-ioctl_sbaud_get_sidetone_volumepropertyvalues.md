@@ -2,7 +2,6 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES (sidebandaudio.h)
 description: 
-ms.assetid: e0585202-ba8f-4e9c-b404-02f2417b6e40
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h

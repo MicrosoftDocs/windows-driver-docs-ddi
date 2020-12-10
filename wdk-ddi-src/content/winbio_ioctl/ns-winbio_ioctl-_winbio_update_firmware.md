@@ -4,7 +4,6 @@ title: _WINBIO_UPDATE_FIRMWARE (winbio_ioctl.h)
 description: The WINBIO_UPDATE_FIRMWARE structure is the IN payload for IOCTL_BIOMETRIC_UPDATE_FIRMWARE.
 old-location: biometric\winbio_update_firmware.htm
 tech.root: biometric
-ms.assetid: 14775785-27e3-4bfa-ad69-695869ebb5d6
 ms.date: 02/20/2018
 keywords: ["WINBIO_UPDATE_FIRMWARE structure"]
 ms.keywords: "*PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], WINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], _WINBIO_UPDATE_FIRMWARE, biometric.winbio_update_firmware, biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, winbio_ioctl/WINBIO_UPDATE_FIRMWARE"

@@ -4,7 +4,6 @@ title: SerCx2CustomTransmitTransactionCleanupComplete function (sercx.h)
 description: The SerCx2CustomTransmitTransactionCleanupComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a custom-transmit transaction.
 old-location: serports\sercx2customtransmittransactioncleanupcomplete.htm
 tech.root: serports
-ms.assetid: 5B9EBE82-A49A-4AD9-B07B-C0D17C5F3732
 ms.date: 04/23/2018
 keywords: ["SerCx2CustomTransmitTransactionCleanupComplete function"]
 ms.keywords: 2/SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], serports.sercx2customtransmittransactioncleanupcomplete

@@ -4,7 +4,6 @@ title: RILOPERATORNAMESPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILOPERATORNAMESPARAMMASK.
 old-location: netvista\riloperatornamesparammask.htm
 tech.root: netvista
-ms.assetid: f3e3654f-d317-4a8c-aa18-bbac86b06286
 ms.date: 02/16/2018
 keywords: ["RILOPERATORNAMESPARAMMASK enumeration"]
 ms.keywords: RILOPERATORNAMESPARAMMASK, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_ALL, RIL_PARAM_ON_COUNTRY_CODE, RIL_PARAM_ON_LONGNAME, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_SYSTEMTYPE, netvista.riloperatornamesparammask, rilapitypes/RILOPERATORNAMESPARAMMASK, rilapitypes/RIL_PARAM_ON_ALL, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RIL_PARAM_ON_LONGNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_SYSTEMTYPE

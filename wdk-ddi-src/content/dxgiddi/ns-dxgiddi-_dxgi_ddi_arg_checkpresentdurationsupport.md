@@ -4,7 +4,6 @@ title: _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT (dxgiddi.h)
 description: Used in a call to the pfnCheckPresentDurationSupport(DXGI) function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 old-location: display\dxgi_ddi_arg_checkpresentdurationsupport.htm
 tech.root: display
-ms.assetid: FE12CFAB-3936-4453-88B5-A4CF0CA51E1A
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure"]
 ms.keywords: DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT

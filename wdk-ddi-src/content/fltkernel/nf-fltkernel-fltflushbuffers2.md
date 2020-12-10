@@ -3,7 +3,6 @@ UID: NF:fltkernel.FltFlushBuffers2
 title: FltFlushBuffers2 function
 description: A minifilter driver calls FltFlushBuffers2 to send a flush request to the file system for a given file.
 tech.root: ifsk
-ms.assetid: 183306c4-79fc-4356-81b3-658b307c7200
 ms.date: 01/02/2020
 keywords: ["FltFlushBuffers2 function"]
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS

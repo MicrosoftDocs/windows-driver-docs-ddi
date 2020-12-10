@@ -4,7 +4,6 @@ title: FsRtlNotifyUninitializeSync function (ntifs.h)
 description: The FsRtlNotifyUninitializeSync routine deallocates the synchronization object for a notify list.
 old-location: ifsk\fsrtlnotifyuninitializesync.htm
 tech.root: ifsk
-ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.date: 04/16/2018
 keywords: ["FsRtlNotifyUninitializeSync function"]
 ms.keywords: FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync

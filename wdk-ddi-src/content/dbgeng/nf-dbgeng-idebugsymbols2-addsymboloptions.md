@@ -4,7 +4,6 @@ title: IDebugSymbols2::AddSymbolOptions (dbgeng.h)
 description: The AddSymbolOptions method turns on some of the engine's global symbol options.
 old-location: debugger\addsymboloptions.htm
 tech.root: debugger
-ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::AddSymbolOptions"]
 ms.keywords: AddSymbolOptions, AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging],IDebugSymbols interface, AddSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols2 interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols2.AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, dbgeng/IDebugSymbols2::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions, debugger.addsymboloptions

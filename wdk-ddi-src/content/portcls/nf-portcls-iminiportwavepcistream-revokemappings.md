@@ -4,7 +4,6 @@ title: IMiniportWavePciStream::RevokeMappings (portcls.h)
 description: The RevokeMappings method revokes mappings that were previously obtained through IPortWavePciStream::GetMapping.
 old-location: audio\iminiportwavepcistream_revokemappings.htm
 tech.root: audio
-ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.date: 05/08/2018
 keywords: ["IMiniportWavePciStream::RevokeMappings"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],RevokeMappings method, IMiniportWavePciStream.RevokeMappings, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings

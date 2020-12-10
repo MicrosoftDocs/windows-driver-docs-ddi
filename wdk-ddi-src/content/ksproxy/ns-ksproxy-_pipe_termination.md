@@ -4,7 +4,6 @@ title: _PIPE_TERMINATION (ksproxy.h)
 description: The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe.
 old-location: stream\pipe_termination.htm
 tech.root: stream
-ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
 ms.date: 04/23/2018
 keywords: ["PIPE_TERMINATION structure"]
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination

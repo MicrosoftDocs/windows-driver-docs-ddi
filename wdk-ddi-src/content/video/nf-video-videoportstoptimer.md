@@ -4,7 +4,6 @@ title: VideoPortStopTimer function (video.h)
 description: The VideoPortStopTimer function disables calls to a miniport driver's HwVidTimer function.
 old-location: display\videoportstoptimer.htm
 tech.root: display
-ms.assetid: 8f6927e1-2342-4816-aa43-1849c3a7702b
 ms.date: 05/10/2018
 keywords: ["VideoPortStopTimer function"]
 ms.keywords: VideoPortStopTimer, VideoPortStopTimer function [Display Devices], VideoPort_Functions_335cb68f-85a0-4e57-9e91-65df281f68a4.xml, display.videoportstoptimer, video/VideoPortStopTimer

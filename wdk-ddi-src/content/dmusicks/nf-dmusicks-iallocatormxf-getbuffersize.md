@@ -4,7 +4,6 @@ title: IAllocatorMXF::GetBufferSize (dmusicks.h)
 description: The GetBufferSize method gets the buffer size from the allocator.
 old-location: audio\iallocatormxf_getbuffersize.htm
 tech.root: audio
-ms.assetid: b3a35769-a98a-40f5-bdc1-db964d2a967c
 ms.date: 05/08/2018
 keywords: ["IAllocatorMXF::GetBufferSize"]
 ms.keywords: GetBufferSize, GetBufferSize method [Audio Devices], GetBufferSize method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetBufferSize method, IAllocatorMXF.GetBufferSize, IAllocatorMXF::GetBufferSize, audio.iallocatormxf_getbuffersize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, dmusicks/IAllocatorMXF::GetBufferSize

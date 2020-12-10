@@ -4,7 +4,6 @@ title: WdfDeviceQueryProperty function (wdfdevice.h)
 description: The WdfDeviceQueryProperty method retrieves a specified device property.
 old-location: wdf\wdfdevicequeryproperty.htm
 tech.root: wdf
-ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.date: 02/26/2018
 keywords: ["WdfDeviceQueryProperty function"]
 ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty

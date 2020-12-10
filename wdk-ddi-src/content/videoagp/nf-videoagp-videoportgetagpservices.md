@@ -4,7 +4,6 @@ title: VideoPortGetAgpServices function (videoagp.h)
 description: The VideoPortGetAgpServices function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportgetagpservices.htm
 tech.root: display
-ms.assetid: 3b01831d-d429-4dc5-9b12-a0e1fc58634d
 ms.date: 05/10/2018
 keywords: ["VideoPortGetAgpServices function"]
 ms.keywords: VideoPortGetAgpServices, VideoPortGetAgpServices function [Display Devices], VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, videoagp/VideoPortGetAgpServices

@@ -2,7 +2,6 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0 (d3d10umddi.h)
 description: Contains decode histogram output buffer information such as decode profile, resolution, and format.
-ms.assetid: 12eac5ab-18cb-4274-aa0a-1ee5fef2218f
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0 structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0,

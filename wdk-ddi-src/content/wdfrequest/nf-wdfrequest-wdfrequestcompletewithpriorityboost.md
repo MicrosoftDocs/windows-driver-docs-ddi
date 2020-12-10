@@ -4,7 +4,6 @@ title: WdfRequestCompleteWithPriorityBoost function (wdfrequest.h)
 description: The WdfRequestCompleteWithPriorityBoost method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation.
 old-location: wdf\wdfrequestcompletewithpriorityboost.htm
 tech.root: wdf
-ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.date: 02/26/2018
 keywords: ["WdfRequestCompleteWithPriorityBoost function"]
 ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, wdfrequest/WdfRequestCompleteWithPriorityBoost

@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStack.GetFrameCount
 title: IDataModelScriptDebugStack::GetFrameCount (dbgmodel.h)
 description: The GetFrameCount method returns the number of stack frames in this segment of the call stack.
-ms.assetid: 2ac5e85e-6f44-46a3-baab-8c677775833c
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStack::GetFrameCount"]
 ms.keywords: IDataModelScriptDebugStack::GetFrameCount, GetFrameCount, IDataModelScriptDebugStack.GetFrameCount, IDataModelScriptDebugStack::GetFrameCount, IDataModelScriptDebugStack.GetFrameCount

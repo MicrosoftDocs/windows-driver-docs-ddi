@@ -4,7 +4,6 @@ title: EVT_NFC_CX_WRITE_NCI_PACKET (nfccx.h)
 description: Called by the NFC CX to send a write packet to the client driver.
 old-location: nfpdrivers\evtnfccxwritencipacket.htm
 tech.root: nfpdrivers
-ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.date: 02/15/2018
 keywords: ["EVT_NFC_CX_WRITE_NCI_PACKET callback function"]
 ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET callback, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket

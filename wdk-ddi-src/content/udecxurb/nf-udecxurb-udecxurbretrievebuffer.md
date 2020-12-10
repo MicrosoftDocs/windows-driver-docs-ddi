@@ -4,7 +4,6 @@ title: UdecxUrbRetrieveBuffer function (udecxurb.h)
 description: Retrieves the transfer buffer of an URB from the specified framework request object sent to the endpoint queue.
 old-location: buses\udecxurbretrievebuffer.htm
 tech.root: usbref
-ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.date: 05/07/2018
 keywords: ["UdecxUrbRetrieveBuffer function"]
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer

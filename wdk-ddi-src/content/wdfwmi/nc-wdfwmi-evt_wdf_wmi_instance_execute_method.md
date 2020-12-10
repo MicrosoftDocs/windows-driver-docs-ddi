@@ -4,7 +4,6 @@ title: EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD (wdfwmi.h)
 description: A driver's EvtWmiInstanceExecuteMethod callback function executes a specified method that the driver provides for a WMI data provider's instance.
 old-location: wdf\evtwmiinstanceexecutemethod.htm
 tech.root: wdf
-ms.assetid: b14de1d7-0df2-46d1-a3bd-c23f33d3ed75
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback function"]
 ms.keywords: DFWMIRef_d54dc0b0-bdef-40a7-b863-5946f4d8e5f5.xml, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback, EvtWmiInstanceExecuteMethod, EvtWmiInstanceExecuteMethod callback function, kmdf.evtwmiinstanceexecutemethod, wdf.evtwmiinstanceexecutemethod, wdfwmi/EvtWmiInstanceExecuteMethod

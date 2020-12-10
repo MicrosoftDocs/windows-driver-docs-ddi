@@ -4,7 +4,6 @@ title: EVT_UCX_ROOTHUB_GET_INFO (ucxroothub.h)
 description: The client driver's implementation that UCX calls when it receives a request for information about the root hub.
 old-location: buses\evt_ucx_roothub_get_info.htm
 tech.root: usbref
-ms.assetid: b882b401-f806-4334-a8c5-fa65382fb9d3
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ROOTHUB_GET_INFO callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_GET_INFO, EVT_UCX_ROOTHUB_GET_INFO callback, EvtUcxRootHubGetInfo, EvtUcxRootHubGetInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_INFO, PEVT_UCX_ROOTHUB_GET_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_info, ucxroothub/EvtUcxRootHubGetInfo

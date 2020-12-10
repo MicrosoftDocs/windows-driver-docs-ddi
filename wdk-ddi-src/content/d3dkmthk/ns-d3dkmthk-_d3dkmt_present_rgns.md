@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_PRESENT_RGNS
 title: _D3DKMT_PRESENT_RGNS (d3dkmthk.h)
 description: Specifies dirty and move regions in a present operation.
 old-location: display\d3dkmt_present_rgns.htm
-ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_RGNS structure"]
 ms.keywords: D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns

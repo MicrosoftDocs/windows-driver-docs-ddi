@@ -2,7 +2,6 @@
 UID: NS:wdm._INPUT_MAPPING_ELEMENT
 title: _INPUT_MAPPING_ELEMENT (wdm.h)
 description: Contains the input mapping IDs for a device.
-ms.assetid: a1bbdb5d-d058-408a-8700-ac2e25a54144
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["INPUT_MAPPING_ELEMENT structure"]

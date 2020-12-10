@@ -3,7 +3,6 @@ UID: NF:netadapter.NetAdapterSetPermanentLinkLayerAddress
 title: NetAdapterSetPermanentLinkLayerAddress function (netadapter.h)
 description: The NetAdapterSetPermanentLinkLayerAddress function sets the permanent link layer address for the network adapter.
 tech.root: netvista
-ms.assetid: f39b7c23-7cb7-457f-a8a0-0706a91b8029
 ms.date: 02/06/2018
 keywords: ["NetAdapterSetPermanentLinkLayerAddress function"]
 ms.keywords: NetAdapterSetPermanentLinkLayerAddress

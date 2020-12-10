@@ -4,7 +4,6 @@ title: RtlUnicodeStringToAnsiSize macro (wdm.h)
 description: The RtlUnicodeStringToAnsiSize routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 old-location: kernel\rtlunicodestringtoansisize.htm
 tech.root: kernel
-ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringToAnsiSize macro"]
 ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize

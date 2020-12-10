@@ -4,7 +4,6 @@ title: _PEP_REGISTER_DEBUGGER (pepfx.h)
 description: The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport.
 old-location: kernel\pep_register_debugger.htm
 tech.root: kernel
-ms.assetid: 3B0240AB-4599-4F21-8CBB-14A4A60D3EFD
 ms.date: 04/30/2018
 keywords: ["PEP_REGISTER_DEBUGGER structure"]
 ms.keywords: "*PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_DEBUGGER, PPEP_REGISTER_DEBUGGER structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEBUGGER, kernel.pep_register_debugger, pepfx/PEP_REGISTER_DEBUGGER, pepfx/PPEP_REGISTER_DEBUGGER"

@@ -4,7 +4,6 @@ title: ZwEnumerateKey function (wdm.h)
 description: The ZwEnumerateKey routine returns information about a subkey of an open registry key.
 old-location: kernel\zwenumeratekey.htm
 tech.root: kernel
-ms.assetid: 77ccd451-40c7-4f64-af2b-480e44e7f672
 ms.date: 04/30/2018
 keywords: ["ZwEnumerateKey function"]
 ms.keywords: NtEnumerateKey, ZwEnumerateKey, ZwEnumerateKey routine [Kernel-Mode Driver Architecture], k111_a41e7865-8cac-4dd8-83fb-ca04485feb48.xml, kernel.zwenumeratekey, wdm/NtEnumerateKey, wdm/ZwEnumerateKey

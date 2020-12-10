@@ -4,7 +4,6 @@ title: RILCALLDISCONNECTDETAILSASCODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalldisconnectdetailsascode.htm
 tech.root: netvista
-ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.date: 05/02/2018
 keywords: ["RILCALLDISCONNECTDETAILSASCODE enumeration"]
 ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX

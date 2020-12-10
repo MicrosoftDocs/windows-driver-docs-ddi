@@ -4,7 +4,6 @@ title: IDebugEventContextCallbacks (dbgeng.h)
 description: This interface supports event context callbacks and replaces the use of the IDebugClient::SetEventCallbacks method.
 old-location: debugger\idebugeventcontextcallbacks.htm
 tech.root: debugger
-ms.assetid: F4FAA5C9-B7D9-43B6-8B1D-CA790522900C
 ms.date: 05/03/2018
 keywords: ["IDebugEventContextCallbacks interface"]
 ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks

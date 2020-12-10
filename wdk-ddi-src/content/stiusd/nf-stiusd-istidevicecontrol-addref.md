@@ -4,7 +4,6 @@ title: IStiDeviceControl::AddRef (stiusd.h)
 description: The IStiDeviceControl::AddRef method increments the reference count for the IStiDeviceControl interface.
 old-location: image\istidevicecontrol_addref.htm
 tech.root: image
-ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.date: 05/03/2018
 keywords: ["IStiDeviceControl::AddRef"]
 ms.keywords: AddRef, AddRef method [Imaging Devices], AddRef method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],AddRef method, IStiDeviceControl.AddRef, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef

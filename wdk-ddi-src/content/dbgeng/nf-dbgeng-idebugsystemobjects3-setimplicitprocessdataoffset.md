@@ -4,7 +4,6 @@ title: IDebugSystemObjects3::SetImplicitProcessDataOffset (dbgeng.h)
 description: The SetImplicitProcessDataOffset method sets the implicit process for the current target.
 old-location: debugger\setimplicitprocessdataoffset.htm
 tech.root: debugger
-ms.assetid: 2a09341d-a580-4817-9103-29d8c36b81e3
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::SetImplicitProcessDataOffset"]
 ms.keywords: IDebugSystemObjects2 interface [Windows Debugging],SetImplicitProcessDataOffset method, IDebugSystemObjects2::SetImplicitProcessDataOffset, IDebugSystemObjects3 interface [Windows Debugging],SetImplicitProcessDataOffset method, IDebugSystemObjects3.SetImplicitProcessDataOffset, IDebugSystemObjects3::SetImplicitProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging],SetImplicitProcessDataOffset method, IDebugSystemObjects4::SetImplicitProcessDataOffset, IDebugSystemObjects_10effa04-b87c-4555-9860-c2d5057a2529.xml, SetImplicitProcessDataOffset, SetImplicitProcessDataOffset method [Windows Debugging], SetImplicitProcessDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, SetImplicitProcessDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, SetImplicitProcessDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects2::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects3::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitProcessDataOffset, debugger.setimplicitprocessdataoffset

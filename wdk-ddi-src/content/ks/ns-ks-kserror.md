@@ -4,7 +4,6 @@ title: KSERROR (ks.h)
 description: The KSERROR structure is used to report streaming errors in both kernel and user mode to their respective quality managers.
 old-location: stream\kserror.htm
 tech.root: stream
-ms.assetid: c475810c-505e-446a-9b98-d512e745b6ce
 ms.date: 04/23/2018
 keywords: ["KSERROR structure"]
 ms.keywords: "*PKSERROR, KSERROR, KSERROR structure [Streaming Media Devices], PKSERROR, PKSERROR structure pointer [Streaming Media Devices], ks-struct_86211cee-a711-4a84-b8ea-6de2d9ef81f6.xml, ks/KSERROR, ks/PKSERROR, stream.kserror"

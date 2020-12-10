@@ -4,7 +4,6 @@ title: WdfIoQueueStopAndPurge function (wdfio.h)
 description: The WdfIoQueueStopAndPurge method prevents an I/O queue from delivering new requests and cancels existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests.
 old-location: wdf\wdfioqueuestopandpurge.htm
 tech.root: wdf
-ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge

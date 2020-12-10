@@ -4,7 +4,6 @@ title: FwpsAllocateNetBufferAndNetBufferList0 function (fwpsk.h)
 description: The FwpsAllocateNetBufferAndNetBufferList0 function allocates a new NET_BUFFER_LIST structure.Note  FwpsAllocateNetBufferAndNetBufferList0 is a specific version of FwpsAllocateNetBufferAndNetBufferList.
 old-location: netvista\fwpsallocatenetbufferandnetbufferlist0.htm
 tech.root: netvista
-ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.date: 05/02/2018
 keywords: ["FwpsAllocateNetBufferAndNetBufferList0 function"]
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml

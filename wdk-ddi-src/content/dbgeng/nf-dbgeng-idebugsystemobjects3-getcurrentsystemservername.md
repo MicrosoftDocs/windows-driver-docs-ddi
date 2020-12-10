@@ -4,7 +4,6 @@ title: IDebugSystemObjects3::GetCurrentSystemServerName (dbgeng.h)
 description: Gets the server name for the current process.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemservername.htm
 tech.root: debugger
-ms.assetid: 4E06AFD0-42D3-479F-B285-34919826F750
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetCurrentSystemServerName"]
 ms.keywords: GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], GetCurrentSystemServerName method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServerName method, IDebugSystemObjects3.GetCurrentSystemServerName, IDebugSystemObjects3::GetCurrentSystemServerName, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername

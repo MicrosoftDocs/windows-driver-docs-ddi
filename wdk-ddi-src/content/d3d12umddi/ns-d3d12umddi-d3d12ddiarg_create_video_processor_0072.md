@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
-ms.assetid: 0d0d93df-2f90-4bc5-be25-3a734dbc494e
 tech.root: display
 targetos: Windows
 description: Used to create a video processor.

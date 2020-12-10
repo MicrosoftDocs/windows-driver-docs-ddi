@@ -4,7 +4,6 @@ title: D3DDDI_MULTIPLANE_OVERLAY_CAPS (d3dumddi.h)
 description: Used by the user-mode display driver to specify overlay plane capabilities.
 old-location: display\d3dddi_multiplane_overlay_caps.htm
 tech.root: display
-ms.assetid: 66365126-d7c3-4886-b14f-a94dc12c1626
 ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_CAPS structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS, display.d3dddi_multiplane_overlay_caps

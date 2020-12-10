@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TAL_TXRX_RESET_PORT (dot11wdi.h)
 description: The MiniportWdiTalTxRxResetPort handler function is invoked before a dot11 reset task is issued to the target.
 old-location: netvista\miniportwditaltxrxresetport.htm
 tech.root: netvista
-ms.assetid: BB584FC9-8048-42F4-AFA9-7BF6790EDD69
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_RESET_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MINIPORT_WDI_TAL_TXRX_RESET_PORT callback, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport

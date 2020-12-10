@@ -4,7 +4,6 @@ title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL (d3dumddi.h)
 description: The QueryAuthenticatedChannel function queries an authenticated channel for capability and state information.
 old-location: display\queryauthenticatedchannel.htm
 tech.root: display
-ms.assetid: 13b65b5a-9512-4d67-b629-479bdd74674e
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_QUERYAUTHENTICATEDCHANNEL callback function"]
 ms.keywords: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, PFND3DDDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], UserModeDisplayDriver_Functions_4d4f5258-9b7c-42c8-b256-223b6b99d1f6.xml, d3dumddi/QueryAuthenticatedChannel, display.queryauthenticatedchannel

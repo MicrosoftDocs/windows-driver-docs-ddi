@@ -3,7 +3,6 @@ UID: NF:nettxqueue.NetTxQueueGetExtension
 title: NetTxQueueGetExtension function (nettxqueue.h)
 description: The NetTxQueueGetExtension function retrieves a packet extension for all packets in a transmit (Tx) queue.
 tech.root: netvista
-ms.assetid: f7e9b686-a38a-47dd-9872-9ebeca533a3a
 ms.date: 01/31/2019
 keywords: ["NetTxQueueGetExtension function"]
 ms.keywords: NetTxQueueGetExtension

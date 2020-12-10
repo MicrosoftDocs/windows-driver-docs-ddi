@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_UPDATEHWCONTEXTSTATE
 title: DXGKDDI_UPDATEHWCONTEXTSTATE (d3dkmddi.h)
 description: Used to update the hardware context state.
 old-location: display\dxgkddi_updatehwcontextstate.htm
-ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_UPDATEHWCONTEXTSTATE callback function"]
 ms.keywords: DXGKDDI_UPDATEHWCONTEXTSTATE, DXGKDDI_UPDATEHWCONTEXTSTATE callback, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE, display.dxgkddi_updatehwcontextstate

@@ -4,7 +4,6 @@ title: NdisMQueryOffloadStateComplete function (ndischimney.h)
 description: An offload target calls the NdisMQueryOffloadStateComplete function to complete a query offload operation that was initiated by a previous call to the offload target's MiniportQueryOffload function.
 old-location: netvista\ndismqueryoffloadstatecomplete.htm
 tech.root: netvista
-ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.date: 05/02/2018
 keywords: ["NdisMQueryOffloadStateComplete function"]
 ms.keywords: NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml

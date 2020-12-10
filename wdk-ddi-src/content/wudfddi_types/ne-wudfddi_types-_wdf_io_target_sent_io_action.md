@@ -4,7 +4,6 @@ title: _WDF_IO_TARGET_SENT_IO_ACTION (wudfddi_types.h)
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement::Stop or IWDFRemoteTarget::Stop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action__umdf_.htm
 tech.root: wdf
-ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_SENT_IO_ACTION enumeration"]
 ms.keywords: WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoMaximum, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, umdf.wdf_io_target_sent_io_action__umdf_, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, wdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetSentIoUndefined, wudfddi_types/WdfIoTargetWaitForSentIoToComplete

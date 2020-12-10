@@ -4,7 +4,6 @@ title: FltRemoveOpenReparseEntry function (fltkernel.h)
 description: This routine removes an OPEN_REPARSE_LIST_ENTRY structure (added by FltAddOpenReparseEntry) from a create operation.
 old-location: ifsk\fltremoveopenreparseentry.htm
 tech.root: ifsk
-ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.date: 04/16/2018
 keywords: ["FltRemoveOpenReparseEntry function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry

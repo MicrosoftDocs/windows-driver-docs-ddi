@@ -4,7 +4,6 @@ title: _WWAN_SMS_SEND_CDMA (wwan.h)
 description: The WWAN_SMS_SEND_CDMA structure represents a CDMA-based SMS text message to send.
 old-location: netvista\wwan_sms_send_cdma.htm
 tech.root: netvista
-ms.assetid: e05b7391-7852-45c7-aed0-36c95b4e475b
 ms.date: 05/02/2018
 keywords: ["WWAN_SMS_SEND_CDMA structure"]
 ms.keywords: "*PWWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista], WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml, _WWAN_SMS_SEND_CDMA, netvista.wwan_sms_send_cdma, wwan/PWWAN_SMS_SEND_CDMA, wwan/WWAN_SMS_SEND_CDMA"

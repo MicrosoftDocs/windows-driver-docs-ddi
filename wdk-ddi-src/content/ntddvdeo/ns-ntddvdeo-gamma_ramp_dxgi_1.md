@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._GAMMA_RAMP_DXGI_1
 title: GAMMA_RAMP_DXGI_1
 description: Dxgi gamma ramp.
 tech.root: display
-ms.assetid: ac89dab1-c811-4073-9527-9a6a22445a51
 ms.date: 08/19/2019
 keywords: ["GAMMA_RAMP_DXGI_1 structure"]
 ms.keywords: GAMMA_RAMP_DXGI_1, GAMMA_RAMP_DXGI_1,

@@ -3,7 +3,6 @@ UID: NE:wdm._DEVICE_USAGE_NOTIFICATION_TYPE
 title: DEVICE_USAGE_NOTIFICATION_TYPE
 description: 
 tech.root: kernel
-ms.assetid: ebe20129-2ac5-42f3-adac-3f8ea4092ce8
 ms.date: 08/19/2019
 keywords: ["DEVICE_USAGE_NOTIFICATION_TYPE enumeration"]
 ms.keywords: DEVICE_USAGE_NOTIFICATION_TYPE, DEVICE_USAGE_NOTIFICATION_TYPE,

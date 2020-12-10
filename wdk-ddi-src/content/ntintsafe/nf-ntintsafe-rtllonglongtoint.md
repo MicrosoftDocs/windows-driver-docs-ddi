@@ -4,7 +4,6 @@ title: RtlLongLongToInt function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type INT.
 old-location: kernel\rtllonglongtoint.htm
 tech.root: kernel
-ms.assetid: CED66199-041A-432D-99C6-002D7BC83775
 ms.date: 04/30/2018
 keywords: ["RtlLongLongToInt function"]
 ms.keywords: RtlLongLongToInt, RtlLongLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoint, ntintsafe/RtlLongLongToInt

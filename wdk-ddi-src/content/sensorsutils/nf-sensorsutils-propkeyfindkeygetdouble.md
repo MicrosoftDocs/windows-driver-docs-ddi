@@ -2,7 +2,6 @@
 UID: NF:sensorsutils.PropKeyFindKeyGetDouble
 title: PropKeyFindKeyGetDouble function (sensorsutils.h)
 description: This routine gets a double precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
-ms.assetid: 8dc6e964-d55a-4b06-b571-985e1c302e84
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetDouble function"]
 tech.root: sensors

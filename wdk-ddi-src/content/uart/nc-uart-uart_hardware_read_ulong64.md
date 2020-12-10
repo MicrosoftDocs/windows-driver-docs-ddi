@@ -3,7 +3,6 @@ UID: NC:uart.UART_HARDWARE_READ_ULONG64
 title: UART_HARDWARE_READ_ULONG64 (uart.h)
 description: Reads a ULONG64 value from the specified register address.
 tech.root: serports
-ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_READ_ULONG64 callback function"]
 req.header: uart.h

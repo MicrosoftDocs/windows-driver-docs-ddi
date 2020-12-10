@@ -4,7 +4,6 @@ title: RILREADMSGPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilreadmsgparams.htm
 tech.root: netvista
-ms.assetid: feeabcd2-659f-4a87-abdd-cfbf89589c48
 ms.date: 05/02/2018
 keywords: ["RILREADMSGPARAMS structure"]
 ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadmsgparams, ntddrilapitypes/RILREADMSGPARAMS"

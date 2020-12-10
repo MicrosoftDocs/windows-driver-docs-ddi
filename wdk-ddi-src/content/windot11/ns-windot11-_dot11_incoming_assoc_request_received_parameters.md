@@ -4,7 +4,6 @@ title: _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_request_received_parameters.htm
 tech.root: netvista
-ms.assetid: bd65cac6-ca53-46fc-943f-0f698c531554
 ms.date: 02/16/2018
 keywords: ["DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_00b02485-5af1-4945-a902-cceb1ac2e345.xml, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, netvista.dot11_incoming_assoc_request_received_parameters, windot11/DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS"

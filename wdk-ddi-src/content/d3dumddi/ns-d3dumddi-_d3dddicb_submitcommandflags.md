@@ -4,7 +4,6 @@ title: _D3DDDICB_SUBMITCOMMANDFLAGS (d3dumddi.h)
 description: D3DDDICB_SUBMITCOMMANDFLAGS is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dddicb_submitcommandflags.htm
 tech.root: display
-ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITCOMMANDFLAGS structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags

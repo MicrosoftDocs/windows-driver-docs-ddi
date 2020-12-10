@@ -4,7 +4,6 @@ title: KsGetDeviceForDeviceObject function (ks.h)
 description: The KsGetDeviceForDeviceObject function returns the AVStream device structure for a given functional device object.
 old-location: stream\ksgetdevicefordeviceobject.htm
 tech.root: stream
-ms.assetid: 2fe72d9d-1423-4db9-be38-f2bca7dbc56d
 ms.date: 04/23/2018
 keywords: ["KsGetDeviceForDeviceObject function"]
 ms.keywords: KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject function [Streaming Media Devices], avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, ks/KsGetDeviceForDeviceObject, stream.ksgetdevicefordeviceobject

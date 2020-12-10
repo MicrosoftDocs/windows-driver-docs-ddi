@@ -4,7 +4,6 @@ title: _UNI_CODEPAGEINFO (prntfont.h)
 description: The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_codepageinfo.htm
 tech.root: print
-ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.date: 04/20/2018
 keywords: ["UNI_CODEPAGEINFO structure"]
 ms.keywords: "*PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], _UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO"

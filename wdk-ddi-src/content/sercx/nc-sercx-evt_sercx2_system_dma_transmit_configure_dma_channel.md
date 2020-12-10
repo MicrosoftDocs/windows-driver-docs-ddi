@@ -4,7 +4,6 @@ title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitConfigureDmaChannel event callback function is called by version 2 of the serial framework extension (SerCx2) to let the serial controller driver do any custom configuration of the DMA adapter that might be required before the start of each DMA transfer in a system-DMA-transmit transaction.
 old-location: serports\evtsercx2systemdmatransmitconfiguredmachannel.htm
 tech.root: serports
-ms.assetid: F5748E93-9761-423B-9971-011FC4D7F6B8
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL callback, EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EvtSerCx2SystemDmaTransmitConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmatransmitconfiguredmachannel

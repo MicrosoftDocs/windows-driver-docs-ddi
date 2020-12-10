@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTDestroyHwQueue
 title: D3DKMTDestroyHwQueue function (d3dkmthk.h)
 description: Used to destroy a hardware queue.
 old-location: display\d3dkmtdestroyhwqueue.htm
-ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.date: 05/10/2018
 keywords: ["D3DKMTDestroyHwQueue function"]
 ms.keywords: D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue

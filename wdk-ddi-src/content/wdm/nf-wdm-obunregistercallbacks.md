@@ -4,7 +4,6 @@ title: ObUnRegisterCallbacks function (wdm.h)
 description: The ObUnRegisterCallbacks routine unregisters a set of callback routines that were registered with the ObRegisterCallbacks routine.
 old-location: kernel\obunregistercallbacks.htm
 tech.root: kernel
-ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.date: 04/30/2018
 keywords: ["ObUnRegisterCallbacks function"]
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks

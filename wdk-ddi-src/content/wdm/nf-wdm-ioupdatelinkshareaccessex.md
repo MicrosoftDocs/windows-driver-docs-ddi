@@ -3,7 +3,6 @@ UID: NF:wdm.IoUpdateLinkShareAccessEx
 title: IoUpdateLinkShareAccessEx function
 description: The IoUpdateLinkShareAccessEx routine updates the share access for the given file object, usually when the file is being opened.
 tech.root: kernel
-ms.assetid: c7670aa5-9deb-4337-be70-6116ed5c798f
 ms.date: 03/12/2019
 keywords: ["IoUpdateLinkShareAccessEx function"]
 ms.keywords: IoUpdateLinkShareAccessEx, IoUpdateLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoUpdateLinkShareAccessEx, wdm/IoUpdateLinkShareAccessEx

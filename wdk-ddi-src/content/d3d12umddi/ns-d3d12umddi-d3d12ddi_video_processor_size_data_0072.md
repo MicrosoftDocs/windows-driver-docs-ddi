@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: c0faeea4-a68c-4795-9817-9401ae8a2396
 tech.root: display
 description: Retrieves the memory allocation size of a video processor created with the given properties.
 req.construct-type: structure

@@ -4,7 +4,6 @@ title: VideoPortPutDmaAdapter function (video.h)
 description: The VideoPortPutDmaAdapter function frees a VP_DMA_ADAPTER structure that was previously allocated by a call to VideoPortGetDmaAdapter.
 old-location: display\videoportputdmaadapter.htm
 tech.root: display
-ms.assetid: 80f1f1bd-57da-46b2-9967-9ba4b08ea057
 ms.date: 05/10/2018
 keywords: ["VideoPortPutDmaAdapter function"]
 ms.keywords: VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices], VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, display.videoportputdmaadapter, video/VideoPortPutDmaAdapter

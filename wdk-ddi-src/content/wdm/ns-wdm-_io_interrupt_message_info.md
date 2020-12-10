@@ -4,7 +4,6 @@ title: _IO_INTERRUPT_MESSAGE_INFO (wdm.h)
 description: The IO_INTERRUPT_MESSAGE_INFO structure describes the driver's message-signaled interrupts.
 old-location: kernel\io_interrupt_message_info.htm
 tech.root: kernel
-ms.assetid: d740d55e-6549-494d-9b2a-39d5c2e670d3
 ms.date: 04/30/2018
 keywords: ["IO_INTERRUPT_MESSAGE_INFO structure"]
 ms.keywords: "*PIO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO, PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, wdm/IO_INTERRUPT_MESSAGE_INFO, wdm/PIO_INTERRUPT_MESSAGE_INFO"

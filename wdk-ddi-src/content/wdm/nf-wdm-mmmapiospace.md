@@ -4,7 +4,6 @@ title: MmMapIoSpace function (wdm.h)
 description: The MmMapIoSpace routine maps the given physical address range to nonpaged system space.
 old-location: kernel\mmmapiospace.htm
 tech.root: kernel
-ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.date: 04/30/2018
 keywords: ["MmMapIoSpace function"]
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, kernel.mmmapiospace, wdm/MmMapIoSpace

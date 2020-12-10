@@ -4,7 +4,6 @@ title: _NFCRM_SET_RADIO_STATE (nfcradiodev.h)
 description: This structure is used to set the radio state. The driver, in the case of airplane mode, has to persist the radio state and restore it when airplane mode is disabled.
 old-location: nfpdrivers\_nfcrm_set_radio_state_.htm
 tech.root: nfpdrivers
-ms.assetid: 22FE29AC-790D-40D2-949F-9C132F67AEAB
 ms.date: 02/15/2018
 keywords: ["NFCRM_SET_RADIO_STATE structure"]
 ms.keywords: "*PNFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE , NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_"

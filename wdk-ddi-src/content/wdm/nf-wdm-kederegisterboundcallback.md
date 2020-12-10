@@ -4,7 +4,6 @@ title: KeDeregisterBoundCallback function (wdm.h)
 description: The KeDeregisterBoundCallback routine deregisters a user-mode bound exception callback registered by KeRegisterBoundCallback.
 old-location: kernel\kederegisterboundcallback.htm
 tech.root: kernel
-ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.date: 04/30/2018
 keywords: ["KeDeregisterBoundCallback function"]
 ms.keywords: KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterboundcallback, wdm/KeDeregisterBoundCallback

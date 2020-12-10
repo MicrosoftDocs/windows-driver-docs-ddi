@@ -3,7 +3,6 @@ UID: NE:ringcollection._NET_RING_TYPE
 title: _NET_RING_TYPE (ringcollection.h)
 description: The NET_RING_TYPE enumeration defines types of net rings for a packet queue.
 tech.root: netvista
-ms.assetid: D14D96AB-E43E-4316-A737-E026C151FA67
 ms.date: 09/27/2019
 keywords: ["NET_RING_TYPE enumeration"]
 ms.keywords: _NET_RING_TYPE, NET_RING_TYPE,

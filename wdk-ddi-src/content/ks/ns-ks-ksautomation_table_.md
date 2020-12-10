@@ -4,7 +4,6 @@ title: KSAUTOMATION_TABLE_ (ks.h)
 description: The KSAUTOMATION_TABLE structure defines a structure that combines tables for properties, methods, and events.
 old-location: stream\ksautomation_table.htm
 tech.root: stream
-ms.assetid: 76ab776d-0921-4fdb-9646-2cb97a582f6e
 ms.date: 04/23/2018
 keywords: ["KSAUTOMATION_TABLE_ structure"]
 ms.keywords: "*PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE, KSAUTOMATION_TABLE structure [Streaming Media Devices], KSAUTOMATION_TABLE_, PKSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml, ks/KSAUTOMATION_TABLE, ks/PKSAUTOMATION_TABLE, stream.ksautomation_table"

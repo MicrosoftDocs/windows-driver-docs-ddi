@@ -4,7 +4,6 @@ title: _D3DKMDT_FREQUENCY_RANGE (d3dkmdt.h)
 description: The D3DKMDT_FREQUENCY_RANGE structure contains the minimum and maximum refresh rates supported by a monitor.
 old-location: display\d3dkmdt_frequency_range.htm
 tech.root: display
-ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_FREQUENCY_RANGE structure"]
 ms.keywords: D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, _D3DKMDT_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range

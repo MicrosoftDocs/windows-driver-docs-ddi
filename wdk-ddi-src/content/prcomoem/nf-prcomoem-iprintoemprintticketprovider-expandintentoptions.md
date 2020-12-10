@@ -4,7 +4,6 @@ title: IPrintOemPrintTicketProvider::ExpandIntentOptions (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ExpandIntentOptions method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket.
 old-location: print\iprintoemprintticketprovider_expandintentoptions.htm
 tech.root: print
-ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
 ms.date: 04/20/2018
 keywords: ["IPrintOemPrintTicketProvider::ExpandIntentOptions"]
 ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ExpandIntentOptions method, IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml

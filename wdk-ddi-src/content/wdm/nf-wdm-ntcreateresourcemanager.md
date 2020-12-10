@@ -4,7 +4,6 @@ title: NtCreateResourceManager function (wdm.h)
 description: The ZwCreateResourceManager routine creates a resource manager object.
 old-location: kernel\zwcreateresourcemanager.htm
 tech.root: kernel
-ms.assetid: 4812eeb4-134f-4ecb-870b-dbab04c1137b
 ms.date: 04/30/2018
 keywords: ["NtCreateResourceManager function"]
 ms.keywords: NtCreateResourceManager, ZwCreateResourceManager, ZwCreateResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwcreateresourcemanager, ktm_ref_9cb25714-3d40-48b3-8f24-a4a4fb10c4d1.xml, wdm/NtCreateResourceManager, wdm/ZwCreateResourceManager

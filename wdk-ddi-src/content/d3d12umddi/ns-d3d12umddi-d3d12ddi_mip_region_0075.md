@@ -5,7 +5,6 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: display
-ms.assetid: 46883cc8-38b1-4444-a51b-9dd196966b6e
 description: D3D12DDI_MIP_REGION_0075 describes the size of a MIP region.
 req.construct-type: structure
 req.ddi-compliance: 

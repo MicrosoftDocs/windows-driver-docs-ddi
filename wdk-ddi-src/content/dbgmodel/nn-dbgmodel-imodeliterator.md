@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IModelIterator
 title: IModelIterator (dbgmodel.h)
 description: An iterator of contained objects (client implemented and returned by IIterableConcept).
-ms.assetid: 29497013-68f8-4e35-9402-e13faf9e9483
 ms.date: 07/16/2018
 keywords: ["IModelIterator interface"]
 req.header: dbgmodel.h

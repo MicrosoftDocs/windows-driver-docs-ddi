@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_INDIRECT_ARGUMENT_DESC
 title: D3D12DDI_INDIRECT_ARGUMENT_DESC (d3d12umddi.h)
 description: Describes an indirect argument (an indirect parameter), for use with a command signature.
 old-location: display\d3d12ddi_INDIRECT_ARGUMENT_DESC.htm
-ms.assetid: 3946483d-85a2-4f2f-9937-894cbe4e4184
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_DESC structure"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_DESC, D3D12DDI_INDIRECT_ARGUMENT_DESC structure [Display Devices], d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_DESC, display.d3d12ddi_INDIRECT_ARGUMENT_DESC

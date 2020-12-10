@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 9c8a22f0-7515-420c-8699-419a3fb11f1d
 tech.root: display
 description: The protected resource support flags for D3D video operations.
 req.construct-type: enumeration

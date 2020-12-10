@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 title: _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
-ms.assetid: 14943206-41ce-4ddb-b514-d4a0ffca8841
 ms.date: 08/05/2020
 keywords: ["_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0, DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags

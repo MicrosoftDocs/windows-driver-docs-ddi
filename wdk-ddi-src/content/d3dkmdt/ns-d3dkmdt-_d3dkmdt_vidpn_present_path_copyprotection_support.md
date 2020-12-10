@@ -4,7 +4,6 @@ title: _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure is used to indicate the types of copy protection that are supported by a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection_support.htm
 tech.root: display
-ms.assetid: 2b0c7428-bc88-461c-ab72-daccf02606da
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure [Display Devices], DmStructs_01eb8f42-1ba1-46e3-9b56-99952e5fedbe.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, display.d3dkmdt_vidpn_present_path_copyprotection_support

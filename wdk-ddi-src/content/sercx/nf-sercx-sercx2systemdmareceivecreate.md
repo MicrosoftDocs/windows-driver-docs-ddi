@@ -4,7 +4,6 @@ title: SerCx2SystemDmaReceiveCreate function (sercx.h)
 description: The SerCx2SystemDmaReceiveCreate method creates a SerCx2 system-DMA-receive object, which version 2 of the serial framework extension (SerCx2) uses to perform system-DMA-receive transactions.
 old-location: serports\sercx2systemdmareceivecreate.htm
 tech.root: serports
-ms.assetid: 62758F49-5CBB-4694-B4F4-12A5372F846F
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaReceiveCreate function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate method [Serial Ports], serports.sercx2systemdmareceivecreate

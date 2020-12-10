@@ -4,7 +4,6 @@ title: ObReferenceObjectWithTag macro (wdm.h)
 description: The ObReferenceObjectWithTag routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obreferenceobjectwithtag.htm
 tech.root: kernel
-ms.assetid: d2b95301-c018-4a2f-801d-a78b00c8d9ca
 ms.date: 04/30/2018
 keywords: ["ObReferenceObjectWithTag macro"]
 ms.keywords: ObReferenceObjectWithTag, ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag

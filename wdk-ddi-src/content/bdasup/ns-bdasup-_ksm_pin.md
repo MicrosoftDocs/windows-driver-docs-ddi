@@ -4,7 +4,6 @@ title: _KSM_PIN (bdasup.h)
 description: The KSM_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_pin.htm
 tech.root: stream
-ms.assetid: 7341af26-3c5c-4f33-b924-2e8098aeee7f
 ms.date: 04/23/2018
 keywords: ["KSM_PIN structure"]
 ms.keywords: "*PKSM_PIN, KSM_PIN, KSM_PIN structure [Streaming Media Devices], PKSM_PIN, PKSM_PIN structure pointer [Streaming Media Devices], _KSM_PIN, bdaref_029de0a4-0975-435c-990d-4b5cac00e003.xml, bdasup/KSM_PIN, bdasup/PKSM_PIN, stream.ksm_pin"

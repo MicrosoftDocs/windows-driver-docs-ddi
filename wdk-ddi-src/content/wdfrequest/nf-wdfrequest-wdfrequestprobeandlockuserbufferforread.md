@@ -4,7 +4,6 @@ title: WdfRequestProbeAndLockUserBufferForRead function (wdfrequest.h)
 description: The WdfRequestProbeAndLockUserBufferForRead method verifies that an I/O request's user-mode buffer is readable, and then it locks the buffer's physical memory pages so drivers in the driver stack can read the buffer.
 old-location: wdf\wdfrequestprobeandlockuserbufferforread.htm
 tech.root: wdf
-ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.date: 02/26/2018
 keywords: ["WdfRequestProbeAndLockUserBufferForRead function"]
 ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, kmdf.wdfrequestprobeandlockuserbufferforread, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead

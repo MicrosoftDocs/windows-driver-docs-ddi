@@ -4,7 +4,6 @@ title: RILCALLINFO_V3 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfo_v3.htm
 tech.root: netvista
-ms.assetid: b72eb90f-d98c-43ba-b3f8-2d248d61da40
 ms.date: 05/02/2018
 keywords: ["RILCALLINFO_V3 structure"]
 ms.keywords: "*LPRILCALLINFO_V3, RILCALLINFO_V3, RILCALLINFO_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v3, ntddrilapitypes/RILCALLINFO_V3"

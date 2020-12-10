@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075
 title: PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075 (d3d12umddi.h)
 description: Used to create a sampler feedback with unordered access view.
-ms.assetid: 2a1b8f76-b335-43e1-bb2c-e94798934b9c
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075 callback function"]
 req.header: d3d12umddi.h

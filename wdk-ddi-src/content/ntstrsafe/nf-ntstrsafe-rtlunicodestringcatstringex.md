@@ -4,7 +4,6 @@ title: RtlUnicodeStringCatStringEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCatStringEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringcatstringex.htm
 tech.root: kernel
-ms.assetid: 34d3ce07-9048-4930-a384-4263a2a556e4
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCatStringEx function"]
 ms.keywords: RtlUnicodeStringCatStringEx, RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatstringex, ntstrsafe/RtlUnicodeStringCatStringEx, safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml

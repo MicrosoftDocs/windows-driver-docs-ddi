@@ -4,7 +4,6 @@ title: RtlIoDecodeMemIoResource function (wdm.h)
 description: The RtlIoDecodeMemIoResource routine provides the address information that is contained in an IO_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtliodecodememioresource.htm
 tech.root: kernel
-ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.date: 04/30/2018
 keywords: ["RtlIoDecodeMemIoResource function"]
 ms.keywords: RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, kernel.rtliodecodememioresource, wdm/RtlIoDecodeMemIoResource

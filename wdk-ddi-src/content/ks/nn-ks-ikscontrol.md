@@ -4,7 +4,6 @@ title: IKsControl (ks.h)
 description: The IKsControl interface is a COM-style interface implemented on AVStream filters and pins.
 old-location: stream\ikscontrol8.htm
 tech.root: stream
-ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.date: 04/23/2018
 keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8

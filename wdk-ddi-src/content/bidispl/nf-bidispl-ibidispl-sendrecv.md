@@ -4,7 +4,6 @@ title: IBidiSpl::SendRecv (bidispl.h)
 description: The SendRecv method sends a bidi request to the printer.
 old-location: print\ibidispl_ibidispl__sendrecv.htm
 tech.root: print
-ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::SendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],SendRecv method, IBidiSpl.SendRecv, IBidiSpl::SendRecv, SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv

@@ -4,7 +4,6 @@ title: IMiniportTopology::Init (portcls.h)
 description: The Init method initializes the topology miniport object.
 old-location: audio\iminiporttopology_init.htm
 tech.root: audio
-ms.assetid: c8c53792-8c1a-466a-9f0f-8c12f9e7b50e
 ms.date: 05/08/2018
 keywords: ["IMiniportTopology::Init"]
 ms.keywords: IMiniportTopology interface [Audio Devices],Init method, IMiniportTopology.Init, IMiniportTopology::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportTopology interface, audio.iminiporttopology_init, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, portcls/IMiniportTopology::Init

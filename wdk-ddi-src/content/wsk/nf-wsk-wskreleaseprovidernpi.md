@@ -4,7 +4,6 @@ title: WskReleaseProviderNPI function (wsk.h)
 description: The WskReleaseProviderNPI function releases a Network Programming Interface (NPI) that was captured with WskCaptureProviderNPI.
 old-location: netvista\wskreleaseprovidernpi.htm
 tech.root: netvista
-ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.date: 05/02/2018
 keywords: ["WskReleaseProviderNPI function"]
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml

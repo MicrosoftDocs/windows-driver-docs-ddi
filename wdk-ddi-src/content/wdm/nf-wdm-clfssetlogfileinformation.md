@@ -4,7 +4,6 @@ title: ClfsSetLogFileInformation function (wdm.h)
 description: The ClfsSetLogFileInformation routine sets metadata and state information for a specified stream and its underlying physical log.
 old-location: kernel\clfssetlogfileinformation.htm
 tech.root: kernel
-ms.assetid: 9f44b1ce-25d4-438f-b4eb-cff7bbfb5e0a
 ms.date: 04/30/2018
 keywords: ["ClfsSetLogFileInformation function"]
 ms.keywords: ClfsSetLogFileInformation, ClfsSetLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_15ad655b-ee70-4ee8-9868-4e7ab96dfb3a.xml, kernel.clfssetlogfileinformation, wdm/ClfsSetLogFileInformation

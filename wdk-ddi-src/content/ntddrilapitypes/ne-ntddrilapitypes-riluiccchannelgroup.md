@@ -4,7 +4,6 @@ title: RILUICCCHANNELGROUP (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccchannelgroup.htm
 tech.root: netvista
-ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.date: 05/02/2018
 keywords: ["RILUICCCHANNELGROUP enumeration"]
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP

@@ -4,7 +4,6 @@ title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES (iddcx.h)
 description: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES is called by the OS to get a list of target modes supported by the driver for a monitor connected to the endpoint.
 old-location: display\evt_idd_cx_monitor_query_target_modes.htm
 tech.root: display
-ms.assetid: a83ed1a3-e279-45be-b229-137fa61d9b38
 ms.date: 05/10/2018
 keywords: ["EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES, EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES callback, EvtIddCxMonitorQueryTargetModes, EvtIddCxMonitorQueryTargetModes callback function [Display Devices], PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES, PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_query_target_modes, iddcx/EvtIddCxMonitorQueryTargetModes

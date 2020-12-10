@@ -4,7 +4,6 @@ title: GNSS_AGNSS_INJECTBLOB (gnssdriver.h)
 description: This structure defines the format for AGNSS extended ephemeris injection.
 old-location: gnss\gnss_agnss_injectblob.htm
 tech.root: gnss
-ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.date: 02/15/2018
 keywords: ["GNSS_AGNSS_INJECTBLOB structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnss.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB"

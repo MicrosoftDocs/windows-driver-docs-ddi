@@ -4,7 +4,6 @@ title: RILMSGBCGENERALWARNINGTYPE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgbcgeneralwarningtype.htm
 tech.root: netvista
-ms.assetid: c9d1a52e-e133-4fb5-a7a1-75699fe35cac
 ms.date: 05/02/2018
 keywords: ["RILMSGBCGENERALWARNINGTYPE enumeration"]
 ms.keywords: RILMSGBCGENERALWARNINGTYPE, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_MAX, RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_TSUNAMI, netvista.rilmsgbcgeneralwarningtype, ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE, ntddrilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, ntddrilapitypes/RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_OTHER, ntddrilapitypes/RIL_WARNINGTYPE_RESERVED, ntddrilapitypes/RIL_WARNINGTYPE_TEST, ntddrilapitypes/RIL_WARNINGTYPE_TSUNAMI

@@ -4,7 +4,6 @@ title: _DOT11_BSS_LIST (wlclient.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_list.htm
 tech.root: netvista
-ms.assetid: e5c31c4d-8c46-4af1-90de-0311cc90c6c0
 ms.date: 02/16/2018
 keywords: ["DOT11_BSS_LIST structure"]
 ms.keywords: "*PDOT11_BSS_LIST, DOT11_BSS_LIST, DOT11_BSS_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_9b32efe4-bc69-4e6b-9475-449a77c110da.xml, PDOT11_BSS_LIST, PDOT11_BSS_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_BSS_LIST, netvista.dot11_bss_list, wlclient/DOT11_BSS_LIST, wlclient/PDOT11_BSS_LIST"

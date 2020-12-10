@@ -4,7 +4,6 @@ title: FsRtlRemovePerFileContext function (ntifs.h)
 description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a file.
 old-location: ifsk\fsrtlremoveperfilecontext.htm
 tech.root: ifsk
-ms.assetid: 1a4b6759-84d9-4731-8920-ef6ea1e51102
 ms.date: 04/16/2018
 keywords: ["FsRtlRemovePerFileContext function"]
 ms.keywords: FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers], fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, ifsk.fsrtlremoveperfilecontext, ntifs/FsRtlRemovePerFileContext

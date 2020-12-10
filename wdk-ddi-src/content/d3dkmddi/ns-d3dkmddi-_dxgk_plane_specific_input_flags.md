@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 title: _DXGK_PLANE_SPECIFIC_INPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the input flags to be used for the driver that apply to a plane.
 old-location: display\dxgk_plane_specific_input_flags.htm
-ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.date: 11/26/2019
 keywords: ["DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags

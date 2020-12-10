@@ -4,7 +4,6 @@ title: ExReleaseSpinLockExclusive function (wdm.h)
 description: The ExReleaseSpinLockExclusive routine releases a spin lock that the caller previously acquired for exclusive access, and restores the IRQL to its original value.
 old-location: kernel\exreleasespinlockexclusive_.htm
 tech.root: kernel
-ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.date: 03/28/2018
 keywords: ["ExReleaseSpinLockExclusive function"]
 ms.keywords: ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockexclusive_, wdm/ExReleaseSpinLockExclusive

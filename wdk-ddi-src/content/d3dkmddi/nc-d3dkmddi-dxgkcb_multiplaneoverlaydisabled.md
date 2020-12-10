@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_MULTIPLANEOVERLAYDISABLED
 title: DXGKCB_MULTIPLANEOVERLAYDISABLED (d3dkmddi.h)
 description: This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.
 old-location: display\dxgkcb_multiplaneoverlaydisabled.htm
-ms.assetid: EA9FAB26-1EAF-4E67-B240-094BC2B03DEF
 ms.date: 05/10/2018
 keywords: ["DXGKCB_MULTIPLANEOVERLAYDISABLED callback function"]
 ms.keywords: DXGKCB_MULTIPLANEOVERLAYDISABLED, DXGKCB_MULTIPLANEOVERLAYDISABLED callback, DXGKCB_MULTIPLANEOVERLAYDISABLED callback function [Display Devices], d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED, display.dxgkcb_multiplaneoverlaydisabled

@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_OUTDUPL_POINTER_SHAPE_INFO
 title: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO (d3dkmthk.h)
 description: Contains output duplicate pointer shape info.
-ms.assetid: 245f5926-df34-41f3-9c04-280507583961
 ms.date: 10/19/2018
 keywords: ["D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure"]
 ms.keywords: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, D3DKMT_OUTDUPL_POINTER_SHAPE_INFO,

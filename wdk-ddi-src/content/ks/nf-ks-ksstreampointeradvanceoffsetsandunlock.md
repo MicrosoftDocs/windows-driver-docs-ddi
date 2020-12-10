@@ -4,7 +4,6 @@ title: KsStreamPointerAdvanceOffsetsAndUnlock function (ks.h)
 description: The KsStreamPointerAdvanceOffsetsAndUnlock function advances StreamPointer the specified number of bytes into the stream (adjusting the OffsetIn and OffsetOut fields of StreamPointer as requested) and unlocks it.
 old-location: stream\ksstreampointeradvanceoffsetsandunlock.htm
 tech.root: stream
-ms.assetid: bb15eb8e-b609-4110-b0de-71efb8ef1f5e
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerAdvanceOffsetsAndUnlock function"]
 ms.keywords: KsStreamPointerAdvanceOffsetsAndUnlock, KsStreamPointerAdvanceOffsetsAndUnlock function [Streaming Media Devices], avfunc_5f1d19bb-e367-4df3-9423-0263bda1cd54.xml, ks/KsStreamPointerAdvanceOffsetsAndUnlock, stream.ksstreampointeradvanceoffsetsandunlock

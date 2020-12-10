@@ -4,7 +4,6 @@ title: _NDIS_QOS_CAPABILITIES (ntddndis.h)
 description: The NDIS_QOS_CAPABILITIES structure specifies the NDIS Quality of Service (QoS) capabilities of a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 old-location: netvista\ndis_qos_capabilities.htm
 tech.root: netvista
-ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
 ms.date: 05/02/2018
 keywords: ["NDIS_QOS_CAPABILITIES structure"]
 ms.keywords: NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES

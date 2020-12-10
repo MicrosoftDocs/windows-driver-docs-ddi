@@ -4,7 +4,6 @@ title: GPIO_CLX_ReleaseInterruptLock function (gpioclx.h)
 description: The GPIO_CLX_ReleaseInterruptLock method releases an interrupt lock on the specified bank.
 old-location: gpio\gpio_clx_releaseinterruptlock.htm
 tech.root: GPIO
-ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.date: 02/15/2018
 keywords: ["GPIO_CLX_ReleaseInterruptLock function"]
 ms.keywords: GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_ReleaseInterruptLock

@@ -4,7 +4,6 @@ title: NdisRawReadPortBufferUchar macro (ndis.h)
 description: NdisRawReadPortBufferUchar reads a specified number of bytes into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferuchar.htm
 tech.root: netvista
-ms.assetid: de629357-6176-4c98-ba71-ac1eea0c8ff1
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortBufferUchar macro"]
 ms.keywords: NdisRawReadPortBufferUchar, NdisRawReadPortBufferUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_acd96d67-c82f-48dd-b6f1-cb77564e4bd6.xml, ndis/NdisRawReadPortBufferUchar, netvista.ndisrawreadportbufferuchar

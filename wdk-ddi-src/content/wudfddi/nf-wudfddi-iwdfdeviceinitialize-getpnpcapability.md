@@ -4,7 +4,6 @@ title: IWDFDeviceInitialize::GetPnpCapability (wudfddi.h)
 description: The GetPnpCapability method determines the state of the specified Plug and Play (PnP) capability.
 old-location: wdf\iwdfdeviceinitialize_getpnpcapability.htm
 tech.root: wdf
-ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.date: 02/26/2018
 keywords: ["IWDFDeviceInitialize::GetPnpCapability"]
 ms.keywords: GetPnpCapability, GetPnpCapability method, GetPnpCapability method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,GetPnpCapability method, IWDFDeviceInitialize.GetPnpCapability, IWDFDeviceInitialize::GetPnpCapability, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability

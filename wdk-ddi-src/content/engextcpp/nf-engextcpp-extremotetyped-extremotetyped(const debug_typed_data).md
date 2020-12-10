@@ -4,7 +4,6 @@ title: ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA) (engextcpp.h)
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_debug_typed_data.htm
 tech.root: debugger
-ms.assetid: 6cfe4258-be66-49fd-b154-124951ed0dd1
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA)"]
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(DEBUG_TYPED_DATA*), ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA), debugger.extremotetyped_extremotetyped_debug_typed_data

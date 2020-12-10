@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlDeleteEvent
 title: DlDeleteEvent function
 description: Deletes the specified event object.
 tech.root: display
-ms.assetid: f3e77a38-ee36-4bed-ac45-5272cdeba95c
 ms.date: 04/04/2019
 keywords: ["DlDeleteEvent function"]
 ms.keywords: DlDeleteEvent

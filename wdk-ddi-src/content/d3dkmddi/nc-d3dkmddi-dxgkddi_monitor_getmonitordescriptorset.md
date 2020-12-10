@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
 title: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET (d3dkmddi.h)
 description: The pfnGetMonitorDescriptorSet function returns a handle to a monitor descriptor set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfngetmonitordescriptorset.htm
-ms.assetid: e2244cd3-6630-440b-a4f7-1e0fa5702161
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET callback function"]
 ms.keywords: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET, DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET callback, VidPnFunctions_3d364729-f0d7-4bba-a71b-08d9c56499d7.xml, d3dkmddi/pfnGetMonitorDescriptorSet, display.dxgk_monitor_interface_pfngetmonitordescriptorset, pfnGetMonitorDescriptorSet, pfnGetMonitorDescriptorSet callback function [Display Devices]

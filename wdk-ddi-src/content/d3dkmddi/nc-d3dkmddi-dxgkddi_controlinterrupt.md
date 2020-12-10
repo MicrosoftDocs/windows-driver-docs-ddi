@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_CONTROLINTERRUPT
 title: DXGKDDI_CONTROLINTERRUPT (d3dkmddi.h)
 description: The DxgkDdiControlInterrupt function enables or disables the given interrupt type on the graphics hardware.
 old-location: display\dxgkddicontrolinterrupt.htm
-ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_CONTROLINTERRUPT callback function"]
 ms.keywords: DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT callback, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt

@@ -4,7 +4,6 @@ title: PFND3DDDI_EVICTCB (d3dumddi.h)
 description: pfnEvictCb is used to instruct the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\pfnevictcb.htm
 tech.root: display
-ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_EVICTCB callback function"]
 ms.keywords: PFND3DDDI_EVICTCB, PFND3DDDI_EVICTCB callback, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]

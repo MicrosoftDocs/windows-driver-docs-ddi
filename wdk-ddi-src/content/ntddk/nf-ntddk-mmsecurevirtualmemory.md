@@ -4,7 +4,6 @@ title: MmSecureVirtualMemory function (ntddk.h)
 description: The MmSecureVirtualMemory routine secures a user-space memory address range so that it cannot be freed and its protection type cannot be made more restrictive.
 old-location: kernel\mmsecurevirtualmemory.htm
 tech.root: kernel
-ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.date: 04/30/2018
 keywords: ["MmSecureVirtualMemory function"]
 ms.keywords: MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory

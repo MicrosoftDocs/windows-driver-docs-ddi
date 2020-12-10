@@ -4,7 +4,6 @@ title: NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION (ndis.h)
 description: The AddNetBufferListDestination function adds a single destination port for a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\AddNetBufferListDestination.htm
 tech.root: netvista
-ms.assetid: 6B8CD868-D2F4-4892-BF6D-DFD7A3984320
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback function"]
 ms.keywords: AddNetBufferListDestination, AddNetBufferListDestination callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION, NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback, ndis/AddNetBufferListDestination, netvista.AddNetBufferListDestination

@@ -4,7 +4,6 @@ title: IPrintJobCollection::get_Count (printerextension.h)
 description: Gets the number of jobs in the print queue.
 old-location: print\iprintjobcollection_count.htm
 tech.root: print
-ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count

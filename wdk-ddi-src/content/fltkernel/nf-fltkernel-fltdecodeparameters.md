@@ -4,7 +4,6 @@ title: FltDecodeParameters function (fltkernel.h)
 description: FltDecodeParameters returns pointers to the memory descriptor list (MDL) address, buffer pointer, buffer length, and desired access parameters for an I/O operation.
 old-location: ifsk\fltdecodeparameters.htm
 tech.root: ifsk
-ms.assetid: c0569a55-7bc0-4c98-80b9-c332c313ca5b
 ms.date: 04/16/2018
 keywords: ["FltDecodeParameters function"]
 ms.keywords: FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, FltDecodeParameters, FltDecodeParameters routine [Installable File System Drivers], fltkernel/FltDecodeParameters, ifsk.fltdecodeparameters

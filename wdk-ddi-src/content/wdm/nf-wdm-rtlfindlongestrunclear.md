@@ -4,7 +4,6 @@ title: RtlFindLongestRunClear function (wdm.h)
 description: The RtlFindLongestRunClear routine searches for the largest contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindlongestrunclear.htm
 tech.root: kernel
-ms.assetid: 6d68cb0f-d0b8-4468-8def-60a65780480e
 ms.date: 04/30/2018
 keywords: ["RtlFindLongestRunClear function"]
 ms.keywords: RtlFindLongestRunClear, RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture], k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml, kernel.rtlfindlongestrunclear, wdm/RtlFindLongestRunClear

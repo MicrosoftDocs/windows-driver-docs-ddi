@@ -3,7 +3,6 @@ UID: NS:usbctypes._USBC_PD_ALTERNATE_MODE
 title: _USBC_PD_ALTERNATE_MODE (usbctypes.h)
 description: Stores information about the alternate mode that was detected.
 tech.root: usbref
-ms.assetid: abdc59fd-adc4-4f06-90ca-25fb04998c44
 ms.date: 09/30/2018
 keywords: ["USBC_PD_ALTERNATE_MODE structure"]
 ms.keywords: _USBC_PD_ALTERNATE_MODE, USBC_PD_ALTERNATE_MODE, *PUSBC_PD_ALTERNATE_MODE,

@@ -4,7 +4,6 @@ title: IWDTFSimulatedBatterySystemAction::DisableRealBatteries (wdtfsimulatedbat
 description: Disables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablerealbatteries.htm
 tech.root: dtf
-ms.assetid: 8118589c-00ef-4986-b523-b812160a547d
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::DisableRealBatteries"]
 ms.keywords: DisableRealBatteries, DisableRealBatteries method [Windows Device Testing Framework], DisableRealBatteries method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableRealBatteries method, IWDTFSimulatedBatterySystemAction.DisableRealBatteries, IWDTFSimulatedBatterySystemAction::DisableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries

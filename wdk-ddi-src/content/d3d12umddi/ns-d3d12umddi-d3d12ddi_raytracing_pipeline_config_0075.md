@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
 title: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
 ms.date: 03/24/2020
-ms.assetid: b4ca848f-8eec-4481-b797-11707ec00f45
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

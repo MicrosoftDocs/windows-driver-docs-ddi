@@ -4,7 +4,6 @@ title: IOCTL_USB_GET_HUB_CAPABILITIES (usbioctl.h)
 description: The IOCTL_USB_GET_HUB_CAPABILITIES I/O control request retrieves the capabilities of a USB hub.
 old-location: buses\ioctl_usb_get_hub_capabilities.htm
 tech.root: usbref
-ms.assetid: 2275b197-6298-470f-bb96-91088d763160
 ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_HUB_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES, IOCTL_USB_GET_HUB_CAPABILITIES control, IOCTL_USB_GET_HUB_CAPABILITIES control code [Buses], buses.ioctl_usb_get_hub_capabilities, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES, usbirp_0db4e801-763f-4d2f-aedf-2e3798fb191c.xml

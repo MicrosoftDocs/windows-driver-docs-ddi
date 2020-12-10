@@ -4,7 +4,6 @@ title: IWDTFStrings2::get_Count (wdtf.h)
 description: Gets the number of strings in the collection.
 old-location: dtf\iwdtfstrings2_count.htm
 tech.root: dtf
-ms.assetid: 30a1e912-84f6-4f65-881e-94304dbad135
 ms.date: 04/04/2018
 keywords: ["IWDTFStrings2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFStrings2 interface, IWDTFStrings2 interface [Windows Device Testing Framework],Count property, IWDTFStrings2.Count, IWDTFStrings2.get_Count, IWDTFStrings2::Count, IWDTFStrings2::get_Count, Microsoft.WDTF.IWDTFStrings2.Count, Microsoft::WDTF::IWDTFStrings2::Count, dtf.iwdtfstrings2_count, get_Count, wdtf/IWDTFStrings2::Count, wdtf/IWDTFStrings2::get_Count

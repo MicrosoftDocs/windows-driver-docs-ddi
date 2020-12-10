@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_UICC_RESPONSE
 title: _NDIS_WWAN_UICC_RESPONSE (ndiswwan.h)
 description: The NDIS_WWAN_UICC_RESPONSE structure describes a UICC response to a file read or write operation.
 tech.root: netvista
-ms.assetid: 765B74B7-0609-4A2F-BCF7-A5BBF9C15D32
 ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_UICC_RESPONSE structure"]
 ms.keywords: _NDIS_WWAN_UICC_RESPONSE, NDIS_WWAN_UICC_RESPONSE, *PNDIS_WWAN_UICC_RESPONSE,

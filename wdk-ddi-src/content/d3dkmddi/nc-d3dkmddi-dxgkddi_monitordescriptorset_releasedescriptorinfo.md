@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO
 title: DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO (d3dkmddi.h)
 description: The pfnReleaseDescriptorInfo function releases a D3DKMDT_MONITOR_DESCRIPTOR structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_monitordescriptorset_interface_pfnreleasedescriptorinfo.htm
-ms.assetid: 8debdd01-c4e4-4b7c-b4cd-c1143ea7ebaa
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO callback function"]
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO callback, VidPnFunctions_6cc74bb6-8861-42b7-b877-634e042a4107.xml, d3dkmddi/pfnReleaseDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnreleasedescriptorinfo, pfnReleaseDescriptorInfo, pfnReleaseDescriptorInfo callback function [Display Devices]

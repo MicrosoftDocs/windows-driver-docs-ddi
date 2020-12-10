@@ -4,7 +4,6 @@ title: NdisGetDeviceReservedExtension function (ndis.h)
 description: The NdisGetDeviceReservedExtension function gets a pointer to the device extension that is associated with a device object.
 old-location: netvista\ndisgetdevicereservedextension.htm
 tech.root: netvista
-ms.assetid: 6b2c56a9-cf77-4734-8f85-0ca740084ce3
 ms.date: 05/02/2018
 keywords: ["NdisGetDeviceReservedExtension function"]
 ms.keywords: NdisGetDeviceReservedExtension, NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista], ndis/NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, netvista.ndisgetdevicereservedextension

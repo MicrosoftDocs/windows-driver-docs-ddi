@@ -4,7 +4,6 @@ title: DeletePrinterIC function (winsplp.h)
 description: 
 old-location: print\deleteprinteric.htm
 tech.root: print
-ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.date: 04/20/2018
 keywords: ["DeletePrinterIC function"]
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC

@@ -3,7 +3,6 @@ UID: NC:dispmprt.DXGKDDI_READVIRTUALFUNCTIONCONFIGBLOCK
 title: DXGKDDI_READVIRTUALFUNCTIONCONFIGBLOCK
 description: This routine supplies the non-privileged virtual machine (VM) with configuration data supplied by the Physical Function driver in the privileged VM.
 tech.root: display
-ms.assetid: d71bcf10-67b0-4300-bd52-d76cfcd865d1
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_READVIRTUALFUNCTIONCONFIGBLOCK callback function"]
 req.header: dispmprt.h

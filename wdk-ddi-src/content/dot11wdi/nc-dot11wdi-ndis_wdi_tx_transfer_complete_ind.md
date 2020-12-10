@@ -4,7 +4,6 @@ title: NDIS_WDI_TX_TRANSFER_COMPLETE_IND (dot11wdi.h)
 description: The NdisWdiTxTransferCompleteIndication callback function specifies a list of frame buffers that have been transferred to the target. Frames with different TX Status values are completed in separate indications.
 old-location: netvista\ndiswditxtransfercompleteindication.htm
 tech.root: netvista
-ms.assetid: BC66C993-F571-4EB9-8163-65B038ECE754
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication

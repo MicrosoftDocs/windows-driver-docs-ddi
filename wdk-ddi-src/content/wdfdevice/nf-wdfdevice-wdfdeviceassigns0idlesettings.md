@@ -4,7 +4,6 @@ title: WdfDeviceAssignS0IdleSettings function (wdfdevice.h)
 description: The WdfDeviceAssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\wdfdeviceassigns0idlesettings.htm
 tech.root: wdf
-ms.assetid: 78bb5b51-b5b2-4177-8965-e54c04881dd3
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignS0IdleSettings function"]
 ms.keywords: DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, WdfDeviceAssignS0IdleSettings, WdfDeviceAssignS0IdleSettings method, kmdf.wdfdeviceassigns0idlesettings, wdf.wdfdeviceassigns0idlesettings, wdfdevice/WdfDeviceAssignS0IdleSettings

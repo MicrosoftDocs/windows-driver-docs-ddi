@@ -4,7 +4,6 @@ title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMCreateProtectedOutput function creates a new protected output object with Certified Output Protection Protocol (COPP) or OPM semantics.
 old-location: display\dxgkddiopmcreateprotectedoutput.htm
 tech.root: display
-ms.assetid: 8143732e-cef6-49f1-9b20-db6b6ee073e6
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function"]
 ms.keywords: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback, Dm_Opm_functions_207f1385-efcc-4c5c-8237-e07f594c9742.xml, DxgkDdiOPMCreateProtectedOutput, DxgkDdiOPMCreateProtectedOutput callback function [Display Devices], display.dxgkddiopmcreateprotectedoutput, dispmprt/DxgkDdiOPMCreateProtectedOutput

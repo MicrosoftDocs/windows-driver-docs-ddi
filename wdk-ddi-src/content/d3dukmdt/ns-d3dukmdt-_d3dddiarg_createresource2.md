@@ -4,7 +4,6 @@ title: _D3DDDIARG_CREATERESOURCE2 (d3dukmdt.h)
 description: Contains information for creating a resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3dddiarg_createresource2.htm
 tech.root: display
-ms.assetid: 337874d1-9f9b-429d-a970-60b5d86ac7a2
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CREATERESOURCE2 structure"]
 ms.keywords: D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices], _D3DDDIARG_CREATERESOURCE2, d3dukmdt/D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2

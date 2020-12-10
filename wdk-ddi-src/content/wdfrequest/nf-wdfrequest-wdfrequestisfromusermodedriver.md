@@ -4,7 +4,6 @@ title: WdfRequestIsFromUserModeDriver function (wdfrequest.h)
 description: The WdfRequestIsFromUserModeDriver method indicates whether an I/O request came from a user-mode driver or an application.
 old-location: wdf\wdfrequestisfromusermodedriver.htm
 tech.root: wdf
-ms.assetid: 2D2980D7-6675-4414-AA32-D8782526E039
 ms.date: 02/26/2018
 keywords: ["WdfRequestIsFromUserModeDriver function"]
 ms.keywords: WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver

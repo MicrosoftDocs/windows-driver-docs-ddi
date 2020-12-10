@@ -4,7 +4,6 @@ title: TmSinglePhaseReject function (wdm.h)
 description: The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment.
 old-location: kernel\tmsinglephasereject.htm
 tech.root: kernel
-ms.assetid: 8fc92d51-40be-439b-abee-54ad19a86a89
 ms.date: 04/30/2018
 keywords: ["TmSinglePhaseReject function"]
 ms.keywords: TmSinglePhaseReject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.tmsinglephasereject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, wdm/TmSinglePhaseReject

@@ -4,7 +4,6 @@ title: NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT (ndis.h)
 description: The Hyper-V extensible switch extension calls the SetNetBufferListSwitchContext function to attach an extension-allocated context buffer to the NET_BUFFER_LIST.
 old-location: netvista\setnetbufferlistswitchcontext.htm
 tech.root: netvista
-ms.assetid: BFA54990-E1BB-4E86-B806-F3021FB0075B
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function"]
 ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, SetNetBufferListSwitchContext, SetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSwitchContext, netvista.setnetbufferlistswitchcontext

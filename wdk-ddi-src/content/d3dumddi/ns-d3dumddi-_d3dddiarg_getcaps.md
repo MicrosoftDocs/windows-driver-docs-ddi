@@ -4,7 +4,6 @@ title: _D3DDDIARG_GETCAPS (d3dumddi.h)
 description: The D3DDDIARG_GETCAPS structure contains display device capabilities of a particular type.
 old-location: display\d3dddiarg_getcaps.htm
 tech.root: display
-ms.assetid: 50063bd0-c9d4-4013-8f83-8f9d92aa87c0
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_GETCAPS structure"]
 ms.keywords: D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps

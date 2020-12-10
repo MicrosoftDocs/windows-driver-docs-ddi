@@ -4,7 +4,6 @@ title: WdfRequestRetrieveActivityId function (wdfrequest.h)
 description: The WdfRequestRetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\wdfrequestretrieveactivityid.htm
 tech.root: wdf
-ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveActivityId function"]
 ms.keywords: WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method, wdf.wdfrequestretrieveactivityid, wdfrequest/WdfRequestRetrieveActivityId

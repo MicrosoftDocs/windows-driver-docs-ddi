@@ -4,7 +4,6 @@ title: NtQueryInformationResourceManager function (wdm.h)
 description: The ZwQueryInformationResourceManager routine retrieves information about a specified resource manager object.
 old-location: kernel\zwqueryinformationresourcemanager.htm
 tech.root: kernel
-ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.date: 04/30/2018
 keywords: ["NtQueryInformationResourceManager function"]
 ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationresourcemanager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager

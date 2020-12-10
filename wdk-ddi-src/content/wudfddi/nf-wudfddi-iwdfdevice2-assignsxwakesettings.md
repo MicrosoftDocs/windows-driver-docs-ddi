@@ -4,7 +4,6 @@ title: IWDFDevice2::AssignSxWakeSettings (wudfddi.h)
 description: The AssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
 old-location: wdf\iwdfdevice2_assignsxwakesettings.htm
 tech.root: wdf
-ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::AssignSxWakeSettings"]
 ms.keywords: AssignSxWakeSettings, AssignSxWakeSettings method, AssignSxWakeSettings method,IWDFDevice2 interface, IWDFDevice2 interface,AssignSxWakeSettings method, IWDFDevice2.AssignSxWakeSettings, IWDFDevice2::AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings

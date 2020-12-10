@@ -4,7 +4,6 @@ title: IDebugControl4::EvaluateWide (dbgeng.h)
 description: The EvaluateWide method evaluates an expression, returning the result.
 old-location: debugger\evaluatewide.htm
 tech.root: debugger
-ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::EvaluateWide"]
 ms.keywords: EvaluateWide, EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],EvaluateWide method, IDebugControl4.EvaluateWide, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide

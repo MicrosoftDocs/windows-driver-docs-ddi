@@ -4,7 +4,6 @@ title: RILCALLMEDIAOFFERACTION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaofferaction.htm
 tech.root: netvista
-ms.assetid: 0a2ac234-633d-4ebc-9e13-05a12534f93a
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAOFFERACTION enumeration"]
 ms.keywords: RILCALLMEDIAOFFERACTION, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERACTION_ACCEPT, RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_MAX, RIL_CALLMEDIAOFFERACTION_REJECT, netvista.rilcallmediaofferaction, ntddrilapitypes/RILCALLMEDIAOFFERACTION, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT

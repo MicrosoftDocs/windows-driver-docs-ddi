@@ -4,7 +4,6 @@ title: _STORAGE_PREDICT_FAILURE (minitape.h)
 description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
 tech.root: storage
-ms.assetid: 0b88ec6d-a7e0-4bb8-8a12-c7f170ac2334
 ms.date: 03/29/2018
 keywords: ["STORAGE_PREDICT_FAILURE structure"]
 ms.keywords: "*PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], STORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], _STORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, ntddstor/STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml"

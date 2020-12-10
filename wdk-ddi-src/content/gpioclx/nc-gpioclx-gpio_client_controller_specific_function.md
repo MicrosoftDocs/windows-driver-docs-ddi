@@ -4,7 +4,6 @@ title: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION (gpioclx.h)
 description: The CLIENT_ControllerSpecificFunction event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
 old-location: gpio\client_controllerspecificfunction.htm
 tech.root: GPIO
-ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function"]
 ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction

@@ -4,7 +4,6 @@ title: _DXGI_DDI_ARG_RECLAIMRESOURCES (dxgiddi.h)
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the pfnReclaimResources function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_reclaimresources.htm
 tech.root: display
-ms.assetid: 43e34157-2cf1-4e2c-bcd8-c4425e89fb0f
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_RECLAIMRESOURCES structure"]
 ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], _DXGI_DDI_ARG_RECLAIMRESOURCES, display.dxgi_ddi_arg_reclaimresources, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES

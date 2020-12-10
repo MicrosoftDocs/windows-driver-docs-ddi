@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
 title: _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: The D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure identifies a GDI system present-history operation.
 old-location: display\d3dkmt_gdimodel_sysmem_presenthistorytoken.htm
-ms.assetid: 764e6504-a056-44c4-acf5-1788832a9c70
 ms.date: 05/10/2018
 keywords: ["D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_2e7ec746-9d7b-43b8-8606-1c92481031a3.xml, _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, display.d3dkmt_gdimodel_sysmem_presenthistorytoken

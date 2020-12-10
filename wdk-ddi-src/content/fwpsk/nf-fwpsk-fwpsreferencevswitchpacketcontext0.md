@@ -4,7 +4,6 @@ title: FwpsReferencevSwitchPacketContext0 function (fwpsk.h)
 description: This function is not supported.
 old-location: netvista\fwpsreferencevswitchpacketcontext0.htm
 tech.root: netvista
-ms.assetid: F4F5005F-2BDA-4E58-A06A-2A4F1D34776D
 ms.date: 05/02/2018
 keywords: ["FwpsReferencevSwitchPacketContext0 function"]
 ms.keywords: FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0

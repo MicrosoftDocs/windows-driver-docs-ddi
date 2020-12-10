@@ -4,7 +4,6 @@ title: _SERCX_CONFIG (sercx.h)
 description: The SERCX_CONFIG structure contains configuration information for the serial framework extension (SerCx).
 old-location: serports\sercx_config.htm
 tech.root: serports
-ms.assetid: 2CBCBA07-C489-4475-A856-8748FBFDC141
 ms.date: 04/23/2018
 keywords: ["SERCX_CONFIG structure"]
 ms.keywords: "*PSERCX_CONFIG, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, serports.sercx_config"

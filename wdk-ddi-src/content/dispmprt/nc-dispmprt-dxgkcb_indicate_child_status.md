@@ -4,7 +4,6 @@ title: DXGKCB_INDICATE_CHILD_STATUS (dispmprt.h)
 description: The DxgkCbIndicateChildStatus function records the current status of a specified child device of a display adapter.
 old-location: display\dxgkcbindicatechildstatus.htm
 tech.root: display
-ms.assetid: 780a8867-bba1-4b1b-a941-b55bfe087b7b
 ms.date: 05/10/2018
 keywords: ["DXGKCB_INDICATE_CHILD_STATUS callback function"]
 ms.keywords: DXGKCB_INDICATE_CHILD_STATUS, DXGKCB_INDICATE_CHILD_STATUS callback, DpFunctions_db80be21-a515-411f-beb0-64f7514c11f4.xml, DxgkCbIndicateChildStatus, DxgkCbIndicateChildStatus callback function [Display Devices], display.dxgkcbindicatechildstatus, dispmprt/DxgkCbIndicateChildStatus

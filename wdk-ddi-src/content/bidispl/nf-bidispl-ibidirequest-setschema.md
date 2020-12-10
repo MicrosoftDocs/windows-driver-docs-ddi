@@ -4,7 +4,6 @@ title: IBidiRequest::SetSchema (bidispl.h)
 description: The SetSchema method sets the bidi schema string.
 old-location: print\ibidirequest_ibidirequest__setschema.htm
 tech.root: print
-ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.date: 04/20/2018
 keywords: ["IBidiRequest::SetSchema"]
 ms.keywords: IBidiRequest interface [Print Devices],SetSchema method, IBidiRequest.SetSchema, IBidiRequest::SetSchema, SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema

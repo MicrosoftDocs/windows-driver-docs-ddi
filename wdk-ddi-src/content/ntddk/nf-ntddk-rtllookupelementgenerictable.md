@@ -4,7 +4,6 @@ title: RtlLookupElementGenericTable function (ntddk.h)
 description: The RtlLookupElementGenericTable routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictable.htm
 tech.root: ifsk
-ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.date: 04/16/2018
 keywords: ["RtlLookupElementGenericTable function"]
 ms.keywords: RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml

@@ -4,7 +4,6 @@ title: FltSetQuotaInformationFile function (fltkernel.h)
 description: The FltSetQuotaInformationFile routine modifies quota entries for a file object.
 old-location: ifsk\fltsetquotainformationfile.htm
 tech.root: ifsk
-ms.assetid: 89EC9F5C-24AE-4340-99CF-05323F99B465
 ms.date: 04/16/2018
 keywords: ["FltSetQuotaInformationFile function"]
 ms.keywords: FltSetQuotaInformationFile, FltSetQuotaInformationFile function [Installable File System Drivers], fltkernel/FltSetQuotaInformationFile, ifsk.fltsetquotainformationfile

@@ -4,7 +4,6 @@ title: FltCheckAndGrowNameControl function (fltkernel.h)
 description: The FltCheckAndGrowNameControl routine checks whether the buffer in a FLT_NAME_CONTROL structure is large enough to hold the specified number of bytes. If not, FltCheckAndGrowNameControl replaces it with a larger system-allocated buffer.
 old-location: ifsk\fltcheckandgrownamecontrol.htm
 tech.root: ifsk
-ms.assetid: 0a49e69e-6b6b-4f86-bd41-d1ad73e63a17
 ms.date: 04/16/2018
 keywords: ["FltCheckAndGrowNameControl function"]
 ms.keywords: FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol

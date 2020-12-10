@@ -4,7 +4,6 @@ title: PFND3DDDI_RECLAIMALLOCATIONS3CB (d3dumddi.h)
 description: pfnReclaimAllocations3Cb is called by the user mode driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocations3cb.htm
 tech.root: display
-ms.assetid: BA0A8BF0-39C2-4641-9952-05512B1B1662
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_RECLAIMALLOCATIONS3CB callback function"]
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS3CB, PFND3DDDI_RECLAIMALLOCATIONS3CB callback, d3dumddi/pfnReclaimAllocations3Cb, display.pfnreclaimallocations3cb, pfnReclaimAllocations3Cb, pfnReclaimAllocations3Cb callback function [Display Devices]

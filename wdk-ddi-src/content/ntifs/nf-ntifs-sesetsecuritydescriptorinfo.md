@@ -4,7 +4,6 @@ title: SeSetSecurityDescriptorInfo function (ntifs.h)
 description: The SeSetSecurityDescriptorInfo routine sets an object's security descriptor.
 old-location: ifsk\sesetsecuritydescriptorinfo.htm
 tech.root: ifsk
-ms.assetid: d6f02142-1cd8-4f09-b106-d963bf080495
 ms.date: 04/16/2018
 keywords: ["SeSetSecurityDescriptorInfo function"]
 ms.keywords: SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfo, ntifs/SeSetSecurityDescriptorInfo, seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml

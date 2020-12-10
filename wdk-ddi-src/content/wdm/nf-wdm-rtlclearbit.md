@@ -4,7 +4,6 @@ title: RtlClearBit function (wdm.h)
 description: The RtlClearBit routine sets the specified bit in a bitmap to zero.
 old-location: kernel\rtlclearbit.htm
 tech.root: kernel
-ms.assetid: bfc75a17-a0de-436e-aebf-902fd841871a
 ms.date: 04/30/2018
 keywords: ["RtlClearBit function"]
 ms.keywords: RtlClearBit, RtlClearBit routine [Kernel-Mode Driver Architecture], k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, kernel.rtlclearbit, wdm/RtlClearBit

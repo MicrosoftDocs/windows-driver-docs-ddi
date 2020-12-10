@@ -4,7 +4,6 @@ title: NdisQueryOffloadState function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisQueryOffloadState function to query previously offloaded TCP chimney state objects.
 old-location: netvista\ndisqueryoffload.htm
 tech.root: netvista
-ms.assetid: 97d30ba7-b67c-460b-ba80-171687495e27
 ms.date: 05/02/2018
 keywords: ["NdisQueryOffloadState function"]
 ms.keywords: NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], ndis/NdisQueryOffloadState, netvista.ndisqueryoffload, tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml

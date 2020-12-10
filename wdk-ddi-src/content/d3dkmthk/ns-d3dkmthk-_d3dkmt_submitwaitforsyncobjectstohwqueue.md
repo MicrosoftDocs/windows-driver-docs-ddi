@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 title: _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: A structure that contains information to submit a wait on the hardware queue.
 old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
-ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE , D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_

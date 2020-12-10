@@ -4,7 +4,6 @@ title: _NET_DMA_PROVIDER_ATTRIBUTES (netdma.h)
 description: The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration attributes for a NetDMA provider.
 old-location: netvista\net_dma_provider_attributes.htm
 tech.root: netvista
-ms.assetid: 7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca
 ms.date: 05/02/2018
 keywords: ["NET_DMA_PROVIDER_ATTRIBUTES structure"]
 ms.keywords: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, netvista.net_dma_provider_attributes"

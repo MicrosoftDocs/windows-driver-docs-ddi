@@ -4,7 +4,6 @@ title: IWDFIoRequest2::IsCanceled (wudfddi.h)
 description: The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request.
 old-location: wdf\iwdfiorequest2_iscanceled.htm
 tech.root: wdf
-ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest2::IsCanceled"]
 ms.keywords: IWDFIoRequest2 interface,IsCanceled method, IWDFIoRequest2.IsCanceled, IWDFIoRequest2::IsCanceled, IsCanceled, IsCanceled method, IsCanceled method,IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled

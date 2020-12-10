@@ -4,7 +4,6 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.
 old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 tech.root: SPB
-ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST

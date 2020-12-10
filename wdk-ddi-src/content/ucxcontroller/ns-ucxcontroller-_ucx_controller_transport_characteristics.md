@@ -4,7 +4,6 @@ title: _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS (ucxcontroller.h)
 description: Stores the transport characteristics at relevant points in time. This structure is used in the EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function.
 old-location: buses\ucx_controller_transport_characteristics.htm
 tech.root: usbref
-ms.assetid: 9F267427-8D70-45D5-A8E6-67A1C6B73CDB
 ms.date: 05/07/2018
 keywords: ["UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure"]
 ms.keywords: "*PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"

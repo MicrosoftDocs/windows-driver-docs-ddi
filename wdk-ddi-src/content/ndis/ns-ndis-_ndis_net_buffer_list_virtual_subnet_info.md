@@ -4,7 +4,6 @@ title: _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO (ndis.h)
 description: Defines the group network virtualization information for a network buffer list (NBL).
 old-location: netvista\ndis_net_buffer_list_virtual_subnet_info.htm
 tech.root: netvista
-ms.assetid: E87F9FC0-D408-43D2-A09F-F921617CF3DA
 ms.date: 05/02/2018
 keywords: ["NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, ndis/NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, ndis/PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, netvista.ndis_net_buffer_list_virtual_subnet_info"

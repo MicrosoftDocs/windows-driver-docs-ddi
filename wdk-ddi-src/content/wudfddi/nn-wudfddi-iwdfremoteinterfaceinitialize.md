@@ -4,7 +4,6 @@ title: IWDFRemoteInterfaceInitialize (wudfddi.h)
 description: UMDF-based drivers receive the IWDFRemoteInterfaceInitialize interface as input to an IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival callback function.
 old-location: wdf\iwdfremoteinterfaceinitialize.htm
 tech.root: wdf
-ms.assetid: 54954874-d67a-4e8b-b791-105e8018f8ca
 ms.date: 02/26/2018
 keywords: ["IWDFRemoteInterfaceInitialize interface"]
 ms.keywords: IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,described, UMDFIoTargetObjectRef_0536631b-c316-41e7-856b-94a3c991c318.xml, umdf.iwdfremoteinterfaceinitialize, wdf.iwdfremoteinterfaceinitialize, wudfddi/IWDFRemoteInterfaceInitialize

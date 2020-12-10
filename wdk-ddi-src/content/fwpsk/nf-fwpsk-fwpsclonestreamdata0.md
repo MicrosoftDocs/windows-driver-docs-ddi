@@ -4,7 +4,6 @@ title: FwpsCloneStreamData0 function (fwpsk.h)
 description: The FwpsCloneStreamData0 function allocates a clone of an existing FWPS_STREAM_DATA0 data stream.Note  FwpsCloneStreamData0 is a specific version of FwpsCloneStreamData.
 old-location: netvista\fwpsclonestreamdata0.htm
 tech.root: netvista
-ms.assetid: 66041ccb-e63a-4843-85ec-d93b924bb335
 ms.date: 05/02/2018
 keywords: ["FwpsCloneStreamData0 function"]
 ms.keywords: FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml

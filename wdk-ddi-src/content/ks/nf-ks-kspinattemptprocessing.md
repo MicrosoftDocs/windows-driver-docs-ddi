@@ -4,7 +4,6 @@ title: KsPinAttemptProcessing function (ks.h)
 description: The KsPinAttemptProcessing function is used to resume processing on a specific pin on a pin-centric filter. It attempts to initiate processing on Pin by sending a processing dispatch call to Pin's processing object.
 old-location: stream\kspinattemptprocessing.htm
 tech.root: stream
-ms.assetid: 9b916114-85aa-4ab7-acaa-6b19d0a4d776
 ms.date: 04/23/2018
 keywords: ["KsPinAttemptProcessing function"]
 ms.keywords: KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices], avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, ks/KsPinAttemptProcessing, stream.kspinattemptprocessing

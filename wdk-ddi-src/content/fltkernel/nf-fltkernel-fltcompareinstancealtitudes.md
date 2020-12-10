@@ -4,7 +4,6 @@ title: FltCompareInstanceAltitudes function (fltkernel.h)
 description: FltCompareInstanceAltitudes compares the altitudes of two minifilter driver instances.
 old-location: ifsk\fltcompareinstancealtitudes.htm
 tech.root: ifsk
-ms.assetid: aed86b34-4a9e-4c39-be0f-fa57829fa926
 ms.date: 04/16/2018
 keywords: ["FltCompareInstanceAltitudes function"]
 ms.keywords: FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], fltkernel/FltCompareInstanceAltitudes, ifsk.fltcompareinstancealtitudes

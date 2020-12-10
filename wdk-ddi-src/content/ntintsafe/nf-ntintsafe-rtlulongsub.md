@@ -4,7 +4,6 @@ title: RtlULongSub function (ntintsafe.h)
 description: Subtracts one value of type ULONG from another.
 old-location: kernel\rtlulongsub.htm
 tech.root: kernel
-ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.date: 04/30/2018
 keywords: ["RtlULongSub function"]
 ms.keywords: RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub, ntintsafe/RtlULongSub

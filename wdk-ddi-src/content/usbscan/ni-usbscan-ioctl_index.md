@@ -2,7 +2,6 @@
 UID: NI:usbscan.IOCTL_INDEX
 title: IOCTL_INDEX (usbscan.h)
 description: 
-ms.assetid: 5f05ce18-4a4a-433c-8cab-402f0ea39155
 ms.date: 11/18/2020
 keywords: ["IOCTL_INDEX IOCTL"]
 req.header: usbscan.h

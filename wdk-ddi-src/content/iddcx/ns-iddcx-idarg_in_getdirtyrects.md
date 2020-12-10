@@ -4,7 +4,6 @@ title: IDARG_IN_GETDIRTYRECTS (iddcx.h)
 description: Gives information about the parts of the surface that have changed since the last present.
 old-location: display\idarg_in_getdirtyrects.htm
 tech.root: display
-ms.assetid: 78a216c7-b208-49fb-bb8e-6758b3cb13ad
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_GETDIRTYRECTS structure"]
 ms.keywords: IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], display.idarg_in_getdirtyrects, iddcx/IDARG_IN_GETDIRTYRECTS

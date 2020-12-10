@@ -4,7 +4,6 @@ title: _D3DHAL_DRAWPRIMITIVES2DATA (d3dhal.h)
 description: The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the D3dDrawPrimitives2 function to render primitives.
 old-location: display\d3dhal_drawprimitives2data.htm
 tech.root: display
-ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DRAWPRIMITIVES2DATA structure"]
 ms.keywords: "*LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"

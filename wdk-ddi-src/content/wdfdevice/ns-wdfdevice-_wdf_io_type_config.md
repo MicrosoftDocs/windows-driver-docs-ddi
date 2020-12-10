@@ -4,7 +4,6 @@ title: _WDF_IO_TYPE_CONFIG (wdfdevice.h)
 description: The WDF_IO_TYPE_CONFIG structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests.
 old-location: wdf\wdf_io_type_config.htm
 tech.root: wdf
-ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
 ms.date: 02/26/2018
 keywords: ["WDF_IO_TYPE_CONFIG structure"]
 ms.keywords: "*PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG structure pointer, WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure, _WDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG"

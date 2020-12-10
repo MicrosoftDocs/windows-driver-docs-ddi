@@ -3,7 +3,6 @@ UID: NC:ntddk.PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 title: PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 description: The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle overflows from the counters resources acquired through the HalAllocateHardwareCounters routine.
 tech.root: kernel
-ms.assetid: 49f5213b-3b7e-4bdc-9f4d-16c06e602fba
 ms.date: 08/19/2019
 keywords: ["PPHYSICAL_COUNTER_OVERFLOW_HANDLER callback function"]
 req.header: ntddk.h

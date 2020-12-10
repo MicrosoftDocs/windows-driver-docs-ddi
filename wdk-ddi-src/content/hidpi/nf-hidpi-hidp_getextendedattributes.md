@@ -4,7 +4,6 @@ title: HidP_GetExtendedAttributes function (hidpi.h)
 description: The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control.
 old-location: hid\hidp_getextendedattributes.htm
 tech.root: hid
-ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.date: 04/30/2018
 keywords: ["HidP_GetExtendedAttributes function"]
 ms.keywords: HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes

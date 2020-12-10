@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTRender
 title: D3DKMTRender function (d3dkmthk.h)
 description: The D3DKMTRender function submits the current command buffer to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtrender.htm
-ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.date: 05/10/2018
 keywords: ["D3DKMTRender function"]
 ms.keywords: D3DKMTRender, D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, d3dkmthk/D3DKMTRender, display.d3dkmtrender

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_QUERYSEGMENTIN
 title: _DXGK_QUERYSEGMENTIN (d3dkmddi.h)
 description: The DXGK_QUERYSEGMENTIN structure describes relevant information for a memory-segment query through a call to the display miniport driver's DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentin.htm
-ms.assetid: 5a3e6edf-40c7-49f3-8394-0e54c080c92c
 ms.date: 05/10/2018
 keywords: ["DXGK_QUERYSEGMENTIN structure"]
 ms.keywords: DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN structure [Display Devices], DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, _DXGK_QUERYSEGMENTIN, d3dkmddi/DXGK_QUERYSEGMENTIN, display.dxgk_querysegmentin

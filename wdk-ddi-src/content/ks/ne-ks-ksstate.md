@@ -4,7 +4,6 @@ title: KSSTATE (ks.h)
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
 tech.root: stream
-ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.date: 04/23/2018
 keywords: ["KSSTATE enumeration"]
 ms.keywords: "*PKSSTATE, KSSTATE, KSSTATE enumeration [Streaming Media Devices], KSSTATE_ACQUIRE, KSSTATE_PAUSE, KSSTATE_RUN, KSSTATE_STOP, PKSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, ks/KSSTATE, ks/KSSTATE_ACQUIRE, ks/KSSTATE_PAUSE, ks/KSSTATE_RUN, ks/KSSTATE_STOP, ks/PKSSTATE, stream.ksstate"

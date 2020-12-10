@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY (d3d10umddi.h)
 description: Sets the luma key for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamlumakey.htm
-ms.assetid: 1b5ca40d-1836-4c80-af55-8d20c6792445
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback, d3d10umddi/pfnVideoProcessorSetStreamLumaKey, display.videoprocessorsetstreamlumakey, pfnVideoProcessorSetStreamLumaKey, pfnVideoProcessorSetStreamLumaKey callback function [Display Devices]

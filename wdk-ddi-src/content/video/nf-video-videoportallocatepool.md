@@ -4,7 +4,6 @@ title: VideoPortAllocatePool function (video.h)
 description: The VideoPortAllocatePool function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 old-location: display\videoportallocatepool.htm
 tech.root: display
-ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.date: 05/10/2018
 keywords: ["VideoPortAllocatePool function"]
 ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool, video/VideoPortAllocatePool

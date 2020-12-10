@@ -4,7 +4,6 @@ title: WdfDpcEnqueue function (wdfdpc.h)
 description: The WdfDpcEnqueue method schedules the execution of a DPC object's EvtDpcFunc callback function.
 old-location: wdf\wdfdpcenqueue.htm
 tech.root: wdf
-ms.assetid: 08bc78de-ba04-4845-9d22-c06cd5684f7f
 ms.date: 02/26/2018
 keywords: ["WdfDpcEnqueue function"]
 ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue

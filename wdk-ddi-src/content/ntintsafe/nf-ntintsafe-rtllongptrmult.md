@@ -4,7 +4,6 @@ title: RtlLongPtrMult function (ntintsafe.h)
 description: Multiplies one value of type LONG_PTR by another.
 old-location: kernel\rtllongptrmult.htm
 tech.root: kernel
-ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.date: 04/30/2018
 keywords: ["RtlLongPtrMult function"]
 ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult

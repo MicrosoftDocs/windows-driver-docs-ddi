@@ -3,7 +3,6 @@ UID: NS:ntddk._IPMI_OS_SEL_RECORD
 title: IPMI_OS_SEL_RECORD
 description: 
 tech.root: whea
-ms.assetid: 933266fe-8aa7-4315-b79c-eda96e2f4539
 ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD structure"]
 ms.keywords: IPMI_OS_SEL_RECORD, IPMI_OS_SEL_RECORD, *PIPMI_OS_SEL_RECORD,

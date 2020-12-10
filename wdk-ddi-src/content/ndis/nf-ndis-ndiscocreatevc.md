@@ -4,7 +4,6 @@ title: NdisCoCreateVc function (ndis.h)
 description: NdisCoCreateVc sets up a connection endpoint from which a client can make outgoing calls or on which a stand-alone call manager can dispatch incoming calls.
 old-location: netvista\ndiscocreatevc.htm
 tech.root: netvista
-ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
 ms.date: 05/02/2018
 keywords: ["NdisCoCreateVc function"]
 ms.keywords: NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, ndis/NdisCoCreateVc, netvista.ndiscocreatevc

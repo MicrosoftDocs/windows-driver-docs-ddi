@@ -4,7 +4,6 @@ title: IDebugControl4::GetLastEventInformationWide (dbgeng.h)
 description: The GetLastEventInformationWide method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformationwide.htm
 tech.root: debugger
-ms.assetid: 9ec4ae29-7c9f-4da6-ae5d-57de9423cb30
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetLastEventInformationWide"]
 ms.keywords: GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], GetLastEventInformationWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLastEventInformationWide method, IDebugControl4.GetLastEventInformationWide, IDebugControl4::GetLastEventInformationWide, dbgeng/IDebugControl4::GetLastEventInformationWide, debugger.getlasteventinformationwide

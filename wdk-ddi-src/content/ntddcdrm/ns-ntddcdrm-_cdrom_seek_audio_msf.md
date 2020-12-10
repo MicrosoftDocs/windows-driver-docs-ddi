@@ -4,7 +4,6 @@ title: _CDROM_SEEK_AUDIO_MSF (ntddcdrm.h)
 description: The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of IOCTL_CDROM_SEEK_AUDIO_MSF.
 old-location: storage\cdrom_seek_audio_msf.htm
 tech.root: storage
-ms.assetid: 8fd4e642-5ed4-409e-bcc2-94d309a1e04c
 ms.date: 03/29/2018
 keywords: ["CDROM_SEEK_AUDIO_MSF structure"]
 ms.keywords: "*PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], PCDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices], _CDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, storage.cdrom_seek_audio_msf, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml"

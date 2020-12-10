@@ -2,7 +2,6 @@
 UID: NS:ntifs._ENCRYPTION_KEY_CTRL_INPUT
 title: _ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
 description: 
-ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["ENCRYPTION_KEY_CTRL_INPUT structure"]

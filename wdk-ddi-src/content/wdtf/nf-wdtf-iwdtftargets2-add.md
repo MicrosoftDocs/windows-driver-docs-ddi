@@ -4,7 +4,6 @@ title: IWDTFTargets2::Add (wdtf.h)
 description: Add a single item to the collection.
 old-location: dtf\iwdtftargets2_add.htm
 tech.root: dtf
-ms.assetid: 0d8ba3ae-3afd-4f26-9951-0d4bdc9e4d49
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Add method, IWDTFTargets2.Add, IWDTFTargets2::Add, Microsoft.WDTF.IWDTFTargets2.Add, Microsoft::WDTF::IWDTFTargets2::Add, dtf.iwdtftargets2_add, wdtf/IWDTFTargets2::Add

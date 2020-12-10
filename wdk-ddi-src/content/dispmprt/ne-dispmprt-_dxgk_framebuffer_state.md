@@ -4,7 +4,6 @@ title: _DXGK_FRAMEBUFFER_STATE (dispmprt.h)
 description: The frame buffer state is provided to the driver in order that the driver can infer details of the display configuration based on knowledge of how firmware and the driver will set a particular resolution even though only basic information is made directly available by the OS to the driver.
 old-location: display\dxgk_framebuffer_state.htm
 tech.root: display
-ms.assetid: 911E04E4-A9B9-4354-8EAB-CEEF87D56852
 ms.date: 05/10/2018
 keywords: ["DXGK_FRAMEBUFFER_STATE enumeration"]
 ms.keywords: DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByDriver, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown

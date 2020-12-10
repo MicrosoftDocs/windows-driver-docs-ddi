@@ -4,7 +4,6 @@ title: _CHANNEL_CONFIG_RESULTS (bthddi.h)
 description: The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any extra options for the inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_results.htm
 tech.root: bltooth
-ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.date: 04/27/2018
 keywords: ["CHANNEL_CONFIG_RESULTS structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS, bltooth.channel_config_results, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, bthddi/CHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS"

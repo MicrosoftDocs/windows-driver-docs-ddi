@@ -4,7 +4,6 @@ title: NtFlushBuffersFileEx function (ntifs.h)
 description: The NtFlushBuffersFileEx routine is called by a file system legacy filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 old-location: kernel\zwflushbuffersfileex.htm
 tech.root: kernel
-ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 01/02/2020
 keywords: ["NtFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx

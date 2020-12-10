@@ -4,7 +4,6 @@ title: UcxControllerResetComplete function (ucxcontroller.h)
 description: Informs USB Host Controller Extension (UCX) that the reset operation has competed.
 old-location: buses\_ucxcontrollerresetcomplete.htm
 tech.root: usbref
-ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.date: 05/07/2018
 keywords: ["UcxControllerResetComplete function"]
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete

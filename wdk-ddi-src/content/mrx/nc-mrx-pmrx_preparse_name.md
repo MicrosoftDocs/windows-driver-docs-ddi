@@ -4,7 +4,6 @@ title: PMRX_PREPARSE_NAME (mrx.h)
 description: The MRxPreparseName routine is called by RDBSS to give a network mini-redirector the opportunity to preparse a name.
 old-location: ifsk\mrxpreparsename.htm
 tech.root: ifsk
-ms.assetid: b74acc12-8fc2-497f-9f65-8b1a85a03286
 ms.date: 04/16/2018
 keywords: ["PMRX_PREPARSE_NAME callback function"]
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml

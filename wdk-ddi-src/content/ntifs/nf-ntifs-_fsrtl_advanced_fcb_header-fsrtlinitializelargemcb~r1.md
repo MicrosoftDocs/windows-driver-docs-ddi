@@ -4,7 +4,6 @@ title: FsRtlInitializeLargeMcb function (ntifs.h)
 description: The FsRtlInitializeLargeMcb routine initializes a map control block (MCB) structure.
 old-location: ifsk\fsrtlinitializelargemcb.htm
 tech.root: ifsk
-ms.assetid: 3b4c879e-d685-4ee9-b44a-a37de4a84800
 ms.date: 03/29/2018
 keywords: ["FsRtlInitializeLargeMcb function"]
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb

@@ -4,7 +4,6 @@ title: KSCAMERA_EXTENDEDPROP_ROITYPE (ksmedia.h)
 description: This enumeration contains the ROI types.
 old-location: stream\kscamera_extendedprop_roitype.htm
 tech.root: stream
-ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_ROITYPE enumeration"]
 ms.keywords: KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype

@@ -4,7 +4,6 @@ title: tagKS_DATARANGE_BDA_TRANSPORT (bdamedia.h)
 description: The KS_DATARANGE_BDA_TRANSPORT structure describes a range of data formats for a BDA transport stream.
 old-location: stream\ks_datarange_bda_transport.htm
 tech.root: stream
-ms.assetid: cd7dbcfa-f339-421a-9cc6-f4c494f13a41
 ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_BDA_TRANSPORT structure"]
 ms.keywords: "*PKS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT structure [Streaming Media Devices], PKS_DATARANGE_BDA_TRANSPORT, PKS_DATARANGE_BDA_TRANSPORT structure pointer [Streaming Media Devices], bdamedia/KS_DATARANGE_BDA_TRANSPORT, bdamedia/PKS_DATARANGE_BDA_TRANSPORT, bdaref_89717b68-2829-4f7a-bcdb-10e0b790308c.xml, stream.ks_datarange_bda_transport, tagKS_DATARANGE_BDA_TRANSPORT"

@@ -3,7 +3,6 @@ UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: DETECTIONEVENTSELECTOR
 description: A structure to reference a specific detection event.
 tech.root: audio
-ms.assetid: d29d2e29-74e2-44bb-a296-ecefc25437d5
 ms.date: 02/25/2019
 keywords: ["DETECTIONEVENTSELECTOR structure"]
 ms.keywords: DETECTIONEVENTSELECTOR, DETECTIONEVENTSELECTOR,

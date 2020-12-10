@@ -4,7 +4,6 @@ title: _HDAUDIO_BUFFER_DESCRIPTOR (hdaudio.h)
 description: The HDAUDIO_BUFFER_DESCRIPTOR structure specifies a buffer descriptor, which is an entry in a buffer descriptor list (BDL).
 old-location: audio\hdaudio_buffer_descriptor.htm
 tech.root: audio
-ms.assetid: da07d3c2-0bd5-4e61-87b3-6fda8007cf5f
 ms.date: 05/08/2018
 keywords: ["HDAUDIO_BUFFER_DESCRIPTOR structure"]
 ms.keywords: "*PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], PHDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], _HDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, audio.hdaudio_buffer_descriptor, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR"

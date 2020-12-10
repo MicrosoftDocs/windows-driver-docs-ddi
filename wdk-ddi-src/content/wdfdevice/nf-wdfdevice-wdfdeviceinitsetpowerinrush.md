@@ -4,7 +4,6 @@ title: WdfDeviceInitSetPowerInrush function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerInrush method informs the power manager that the specified device requires an inrush of current when it starts.
 old-location: wdf\wdfdeviceinitsetpowerinrush.htm
 tech.root: wdf
-ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerInrush function"]
 ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, wdfdevice/WdfDeviceInitSetPowerInrush

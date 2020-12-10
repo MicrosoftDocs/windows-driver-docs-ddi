@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTGetSharedPrimaryHandle
 title: D3DKMTGetSharedPrimaryHandle function (d3dkmthk.h)
 description: The D3DKMTGetSharedPrimaryHandle function retrieves the global shared handle for the primary surface.
 old-location: display\d3dkmtgetsharedprimaryhandle.htm
-ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.date: 05/10/2018
 keywords: ["D3DKMTGetSharedPrimaryHandle function"]
 ms.keywords: D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle

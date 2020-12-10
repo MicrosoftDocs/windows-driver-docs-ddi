@@ -4,7 +4,6 @@ title: RILPOSITIONINFO_V2 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfo_v2_2.htm
 tech.root: netvista
-ms.assetid: f91d95bf-715d-484b-b44e-19bd2250d304
 ms.date: 02/26/2018
 keywords: ["RILPOSITIONINFO_V2 structure"]
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2_2, rilapitypes/RILPOSITIONINFO_V2"

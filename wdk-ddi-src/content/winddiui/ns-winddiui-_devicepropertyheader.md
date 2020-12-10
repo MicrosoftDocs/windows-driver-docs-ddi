@@ -4,7 +4,6 @@ title: _DEVICEPROPERTYHEADER (winddiui.h)
 description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDevicePropertySheets function.
 old-location: print\devicepropertyheader.htm
 tech.root: print
-ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.date: 04/20/2018
 keywords: ["DEVICEPROPERTYHEADER structure"]
 ms.keywords: "*PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], _DEVICEPROPERTYHEADER, print.devicepropertyheader, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, winddiui/DEVICEPROPERTYHEADER, winddiui/PDEVICEPROPERTYHEADER"

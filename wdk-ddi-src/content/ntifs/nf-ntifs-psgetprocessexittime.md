@@ -4,7 +4,6 @@ title: PsGetProcessExitTime function (ntifs.h)
 description: The PsGetProcessExitTime routine returns the exit time for the current process.
 old-location: ifsk\psgetprocessexittime.htm
 tech.root: ifsk
-ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.date: 04/16/2018
 keywords: ["PsGetProcessExitTime function"]
 ms.keywords: PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml

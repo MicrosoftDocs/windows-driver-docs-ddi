@@ -4,7 +4,6 @@ title: RtlTestBit function (wdm.h)
 description: The RtlTestBit routine returns the value of a bit in a bitmap.
 old-location: kernel\rtltestbit.htm
 tech.root: kernel
-ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.date: 04/30/2018
 keywords: ["RtlTestBit function"]
 ms.keywords: RtlTestBit, RtlTestBit routine [Kernel-Mode Driver Architecture], k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, kernel.rtltestbit, wdm/RtlTestBit

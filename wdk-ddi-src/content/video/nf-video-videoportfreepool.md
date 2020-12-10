@@ -4,7 +4,6 @@ title: VideoPortFreePool function (video.h)
 description: The VideoPortFreePool function deallocates a block of pool memory previously allocated by VideoPortAllocatePool.
 old-location: display\videoportfreepool.htm
 tech.root: display
-ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.date: 05/10/2018
 keywords: ["VideoPortFreePool function"]
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool

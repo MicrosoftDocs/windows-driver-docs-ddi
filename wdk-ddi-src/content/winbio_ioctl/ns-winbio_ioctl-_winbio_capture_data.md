@@ -4,7 +4,6 @@ title: _WINBIO_CAPTURE_DATA (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 old-location: biometric\winbio_capture_data.htm
 tech.root: biometric
-ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.date: 02/20/2018
 keywords: ["WINBIO_CAPTURE_DATA structure"]
 ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"

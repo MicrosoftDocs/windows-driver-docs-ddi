@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEQUERYOSSERVICE
 title: PFN_TRSECUREDEVICEQUERYOSSERVICE (trustedruntimeclx.h)
 description: 
-ms.assetid: 28894ef9-7e17-4955-a4c9-6297d1f9fb30
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"]
 req.header: trustedruntimeclx.h

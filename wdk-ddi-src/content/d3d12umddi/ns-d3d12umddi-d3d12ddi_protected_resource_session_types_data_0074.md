@@ -4,7 +4,6 @@ title: D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPES_DATA_0074
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: b580333e-c0f9-4611-85a7-d0c8063c4352
 tech.root: display
 description: Protected resource session types data.
 req.construct-type: structure

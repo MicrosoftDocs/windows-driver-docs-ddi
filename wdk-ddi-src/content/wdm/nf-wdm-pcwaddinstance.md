@@ -4,7 +4,6 @@ title: PcwAddInstance function (wdm.h)
 description: The PcwAddInstance function adds the specified instance of the counterset to the consumer buffer.
 old-location: devtest\pcwaddinstance.htm
 tech.root: devtest
-ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.date: 07/28/2020
 keywords: ["PcwAddInstance function"]
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance

@@ -4,7 +4,6 @@ title: _ENDPOINT_RESET_FLAGS (ucxendpoint.h)
 description: Defines parameters for a request to reset an endpoint.
 old-location: buses\endpoint_reset_flags.htm
 tech.root: usbref
-ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.date: 05/07/2018
 keywords: ["ENDPOINT_RESET_FLAGS enumeration"]
 ms.keywords: ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], FlagEndpointResetPreserveTransferState, _ENDPOINT_RESET_FLAGS, buses.endpoint_reset_flags, ucxendpoint/ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState

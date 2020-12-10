@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO (d3dkmddi.h)
 description: The pfnAcquireFirstPathInfo structure returns a descriptor of the first path in a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirefirstpathinfo.htm
-ms.assetid: b5dc35dc-f4fb-4209-9a4d-50dc11f16216
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO callback, VidPnFunctions_d45dd9b3-775b-41a6-a5e4-8fb226ed7ea4.xml, d3dkmddi/pfnAcquireFirstPathInfo, display.dxgk_vidpntopology_interface_pfnacquirefirstpathinfo, pfnAcquireFirstPathInfo, pfnAcquireFirstPathInfo callback function [Display Devices]

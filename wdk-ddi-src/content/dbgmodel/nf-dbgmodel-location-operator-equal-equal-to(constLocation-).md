@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.Location.operator-equal-equal-to(constLocation&)
 title: operator==(constLocation&) function (dbgmodel.h)
 description: Equivalence operator for the location function.
-ms.assetid: 25221b6a-208e-4f9e-a41b-c2a1c4405977
 ms.date: 10/02/2018
 keywords: ["operator== function"]
 f1_keywords:

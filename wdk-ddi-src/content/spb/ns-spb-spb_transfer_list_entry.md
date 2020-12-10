@@ -4,7 +4,6 @@ title: SPB_TRANSFER_LIST_ENTRY (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_list_entry.htm
 tech.root: SPB
-ms.assetid: e13b7a7e-4acb-4a77-ac46-94af2ebccc20
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_list_entry, SPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY"

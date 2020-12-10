@@ -4,7 +4,6 @@ title: NdisDeregisterProtocolDriver function (ndis.h)
 description: A protocol driver calls the NdisDeregisterProtocolDriver function to release the resources that NDIS allocated when the driver called the NdisRegisterProtocolDriver function.
 old-location: netvista\ndisderegisterprotocoldriver.htm
 tech.root: netvista
-ms.assetid: 792f8f89-ff2c-45d1-bb15-9fcdafd14231
 ms.date: 05/02/2018
 keywords: ["NdisDeregisterProtocolDriver function"]
 ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterProtocolDriver, netvista.ndisderegisterprotocoldriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml

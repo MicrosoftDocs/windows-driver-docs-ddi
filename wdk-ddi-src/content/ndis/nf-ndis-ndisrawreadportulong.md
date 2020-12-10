@@ -4,7 +4,6 @@ title: NdisRawReadPortUlong macro (ndis.h)
 description: NdisRawReadPortUlong reads a ULONG value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportulong.htm
 tech.root: netvista
-ms.assetid: 40ecda3a-67ff-48b6-8ee9-7527c7bd9c6c
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortUlong macro"]
 ms.keywords: NdisRawReadPortUlong, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml, ndis/NdisRawReadPortUlong, netvista.ndisrawreadportulong

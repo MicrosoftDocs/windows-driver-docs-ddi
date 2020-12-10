@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_STATE_IA_INDEXBUF_CB
 title: PFND3D10DDI_STATE_IA_INDEXBUF_CB (d3d10umddi.h)
 description: The pfnStateIaIndexBufCb function causes the Microsoft Direct3D 10 runtime to refresh the index buffer state.
 old-location: display\pfnstateiaindexbufcb.htm
-ms.assetid: 3925bf83-1900-4d88-8100-1ecaa952dead
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_STATE_IA_INDEXBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_INDEXBUF_CB, PFND3D10DDI_STATE_IA_INDEXBUF_CB callback, d3d10state_functions_0bf4b875-3cd1-4a62-a8b5-4dd61259188b.xml, d3d10umddi/pfnStateIaIndexBufCb, display.pfnstateiaindexbufcb, pfnStateIaIndexBufCb, pfnStateIaIndexBufCb callback function [Display Devices]

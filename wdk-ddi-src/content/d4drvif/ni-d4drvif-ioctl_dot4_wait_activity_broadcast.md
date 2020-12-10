@@ -4,7 +4,6 @@ title: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST (d4drvif.h)
 description: This topic describes IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST.
 old-location: print\ioctl_ioctl_dot4_wait_activity_broadcast.htm
 tech.root: print
-ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_wait_activity_broadcast

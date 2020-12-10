@@ -4,7 +4,6 @@ title: IDebugControl4::ControlledOutputWide (dbgeng.h)
 description: The ControlledOutputWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputwide.htm
 tech.root: debugger
-ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::ControlledOutputWide"]
 ms.keywords: ControlledOutputWide, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputWide method, IDebugControl4.ControlledOutputWide, IDebugControl4::ControlledOutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide

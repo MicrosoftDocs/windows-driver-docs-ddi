@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE
 title: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE (d3d10umddi.h)
 description: Queries a custom frame rate that is associated with a rate conversion capability group.
 old-location: display\getvideoprocessorcustomrate.htm
-ms.assetid: 49aec00a-8d63-4ec9-966a-0826354fbbe0
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE, PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE callback, d3d10umddi/pfnGetVideoProcessorCustomRate, display.getvideoprocessorcustomrate, pfnGetVideoProcessorCustomRate, pfnGetVideoProcessorCustomRate callback function [Display Devices]

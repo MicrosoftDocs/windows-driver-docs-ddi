@@ -4,7 +4,6 @@ title: IXpsPartIterator (filterpipeline.h)
 description: The IXpsPartIterator interface is an iterator for XPS parts.
 old-location: print\ixpspartiterator.htm
 tech.root: print
-ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 ms.date: 04/20/2018
 keywords: ["IXpsPartIterator interface"]
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices],described, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml, print.ixpspartiterator

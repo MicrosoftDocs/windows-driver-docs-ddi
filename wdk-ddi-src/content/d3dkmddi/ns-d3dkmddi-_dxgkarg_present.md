@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_PRESENT
 title: _DXGKARG_PRESENT (d3dkmddi.h)
 description: The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 old-location: display\dxgkarg_present.htm
-ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
 ms.date: 05/10/2018
 keywords: ["DXGKARG_PRESENT structure"]
 ms.keywords: "*INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DXGKARG_PRESENT structure [Display Devices], DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, _DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present"

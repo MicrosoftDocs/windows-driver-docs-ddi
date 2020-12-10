@@ -4,7 +4,6 @@ title: KSM_NODE (ks.h)
 description: Just as KSP_NODE is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 old-location: stream\ksm_node.htm
 tech.root: stream
-ms.assetid: 0e3f5abb-bf66-40e9-b318-9f6215f3d56c
 ms.date: 04/23/2018
 keywords: ["KSM_NODE structure"]
 ms.keywords: "*PKSM_NODE, KSM_NODE, KSM_NODE structure [Streaming Media Devices], PKSM_NODE, PKSM_NODE structure pointer [Streaming Media Devices], ks-struct_14efff2f-6d11-4055-a4f8-35d9389589b8.xml, ks/KSM_NODE, ks/PKSM_NODE, stream.ksm_node"

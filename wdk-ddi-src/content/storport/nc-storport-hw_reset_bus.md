@@ -4,7 +4,6 @@ title: HW_RESET_BUS (storport.h)
 description: The HwStorResetBus routine is called by the port driver to clear error conditions.
 old-location: storage\hwstorresetbus.htm
 tech.root: storage
-ms.assetid: fda5291c-dd4e-4aa1-8dac-65cf4c4306ab
 ms.date: 03/29/2018
 keywords: ["HW_RESET_BUS callback function"]
 ms.keywords: HW_RESET_BUS, HwStorResetBus, HwStorResetBus routine [Storage Devices], storage.hwstorresetbus, stormini_b3051379-4caa-4502-9492-a21672cfbf0d.xml, storport/HwStorResetBus

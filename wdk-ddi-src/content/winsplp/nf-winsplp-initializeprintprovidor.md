@@ -4,7 +4,6 @@ title: InitializePrintProvidor function (winsplp.h)
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\initializeprintprovidor.htm
 tech.root: print
-ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 ms.date: 04/20/2018
 keywords: ["InitializePrintProvidor function"]
 ms.keywords: InitializePrintProvidor, InitializePrintProvidor function [Print Devices], print.initializeprintprovidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, winsplp/InitializePrintProvidor

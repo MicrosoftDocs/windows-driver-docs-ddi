@@ -4,7 +4,6 @@ title: IWDTFDriverSetupAction2 (wdtfdriversetupdeviceaction.h)
 description: Defines operations that control the target device during driver setup.
 old-location: dtf\iwdtfdriversetupaction2.htm
 tech.root: dtf
-ms.assetid: 474590f9-f737-4b9a-9a63-8cce8a35c538
 ms.date: 04/04/2018
 keywords: ["IWDTFDriverSetupAction2 interface"]
 ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2

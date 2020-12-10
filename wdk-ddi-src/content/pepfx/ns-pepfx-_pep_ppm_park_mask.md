@@ -4,7 +4,6 @@ title: _PEP_PPM_PARK_MASK (pepfx.h)
 description: The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask.
 old-location: kernel\pep_ppm_park_mask.htm
 tech.root: kernel
-ms.assetid: 528576FD-BDB2-4772-9151-A1C855BA953E
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_PARK_MASK structure"]
 ms.keywords: "*PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"

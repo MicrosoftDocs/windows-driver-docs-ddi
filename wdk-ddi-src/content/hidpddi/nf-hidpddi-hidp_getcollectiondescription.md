@@ -4,7 +4,6 @@ title: HidP_GetCollectionDescription function (hidpddi.h)
 description: Fills a device description block with collection description and the corresponding report ID information for the specified report descriptor.
 old-location: hid\hidp_getcollectiondescription.htm
 tech.root: hid
-ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.date: 04/30/2018
 keywords: ["HidP_GetCollectionDescription function"]
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription

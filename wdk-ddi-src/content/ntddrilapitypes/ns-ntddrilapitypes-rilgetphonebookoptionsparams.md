@@ -4,7 +4,6 @@ title: RILGETPHONEBOOKOPTIONSPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetphonebookoptionsparams.htm
 tech.root: netvista
-ms.assetid: a6c71f2d-baf7-4293-ae13-38625be3ab3f
 ms.date: 05/02/2018
 keywords: ["RILGETPHONEBOOKOPTIONSPARAMS structure"]
 ms.keywords: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"

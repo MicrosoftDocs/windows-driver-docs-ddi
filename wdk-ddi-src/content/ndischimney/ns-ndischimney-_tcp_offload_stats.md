@@ -4,7 +4,6 @@ title: _TCP_OFFLOAD_STATS (ndischimney.h)
 description: The TCP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a query of OID_TCP4_OFFLOAD_STATS or OID_TCP6_OFFLOAD_STATS.
 old-location: netvista\tcp_offload_stats.htm
 tech.root: netvista
-ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_STATS structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"

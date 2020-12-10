@@ -4,7 +4,6 @@ title: _PEP_PLATFORM_IDLE_STATE (pepfx.h)
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel
-ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.date: 04/30/2018
 keywords: ["PEP_PLATFORM_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE"

@@ -4,7 +4,6 @@ title: InterlockedExchangeAdd function (wdm.h)
 description: The InterlockedExchangeAdd routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
 old-location: kernel\interlockedexchangeadd.htm
 tech.root: kernel
-ms.assetid: f61878b4-6bfa-463e-9fb1-c95171ce65b4
 ms.date: 04/30/2018
 keywords: ["InterlockedExchangeAdd function"]
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd routine [Kernel-Mode Driver Architecture], k102_ed690604-0379-476d-b838-4820f47b850a.xml, kernel.interlockedexchangeadd, wdm/InterlockedExchangeAdd

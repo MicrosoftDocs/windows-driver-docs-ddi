@@ -4,7 +4,6 @@ title: tag_video_configure_parms (msviddrv.h)
 description: 
 old-location: stream\videoconfigparms.htm
 tech.root: stream
-ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.date: 04/23/2018
 keywords: ["tag_video_configure_parms structure"]
 ms.keywords: "*LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, stream.videoconfigparms, tag_video_configure_parms"

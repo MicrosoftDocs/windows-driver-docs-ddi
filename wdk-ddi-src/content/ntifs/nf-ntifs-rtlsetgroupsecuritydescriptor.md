@@ -4,7 +4,6 @@ title: RtlSetGroupSecurityDescriptor function (ntifs.h)
 description: The RtlSetGroupSecurityDescriptor routine sets the primary group information of an absolute-format security descriptor. It replaces any primary group information that is already present in the security descriptor.
 old-location: ifsk\rtlsetgroupsecuritydescriptor.htm
 tech.root: ifsk
-ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.date: 04/16/2018
 keywords: ["RtlSetGroupSecurityDescriptor function"]
 ms.keywords: RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, ntifs/RtlSetGroupSecurityDescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml

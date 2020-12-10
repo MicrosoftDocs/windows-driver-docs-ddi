@@ -4,7 +4,6 @@ title: ExtRemoteTyped::operator[](LONG) (engextcpp.h)
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_long.htm
 tech.root: debugger
-ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.date: 05/04/2018
 keywords: ["ExtRemoteTyped::operator (LONG)"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](LONG), ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](LONG), debugger.extremotetyped_operatorarray_long, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class

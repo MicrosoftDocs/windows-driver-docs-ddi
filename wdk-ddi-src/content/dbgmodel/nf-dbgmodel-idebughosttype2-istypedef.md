@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostType2.IsTypedef
 title: IDebugHostType2::IsTypedef (dbgmodel.h)
 description: The IsTypedef method is the only method capable of seeing whether a type is a typedef.
-ms.assetid: ed83b2e9-318c-4f3f-ba23-b14d31ce057b
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::IsTypedef"]
 ms.keywords: IDebugHostType2::IsTypedef, IsTypedef, IDebugHostType2.IsTypedef, IDebugHostType2::IsTypedef, IDebugHostType2.IsTypedef

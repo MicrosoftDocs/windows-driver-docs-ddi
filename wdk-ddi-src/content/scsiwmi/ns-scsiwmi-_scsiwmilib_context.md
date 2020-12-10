@@ -4,7 +4,6 @@ title: _SCSIWMILIB_CONTEXT (scsiwmi.h)
 description: A SCSI_WMILIB_CONTEXT structure provides registration information for a miniport driver's data and event blocks and defines entry points for the miniport driver's HwScsiWmiXxx callback routines.
 old-location: storage\scsi_wmilib_context.htm
 tech.root: storage
-ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
 ms.date: 03/29/2018
 keywords: ["SCSIWMILIB_CONTEXT structure"]
 ms.keywords: "*PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], SCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], _SCSIWMILIB_CONTEXT, scsiwmi/PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml"

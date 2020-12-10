@@ -4,7 +4,6 @@ title: FwpsDiscardClonedStreamData0 function (fwpsk.h)
 description: The FwpsDiscardClonedStreamData0 function frees the memory buffer that is allocated by the FwpsCloneStreamData0 function.Note  FwpsDiscardClonedStreamData0 is a specific version of FwpsDiscardClonedStreamData.
 old-location: netvista\fwpsdiscardclonedstreamdata0.htm
 tech.root: netvista
-ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.date: 05/02/2018
 keywords: ["FwpsDiscardClonedStreamData0 function"]
 ms.keywords: FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml

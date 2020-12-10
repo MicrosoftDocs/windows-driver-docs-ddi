@@ -4,7 +4,6 @@ title: _PAR_DEVICE_ID_SIZE_INFORMATION (ntddpar.h)
 description: The PAR_DEVICE_ID_SIZE_INFORMATION structure specifies the size, in bytes, of a buffer that can hold the IEEE 1284 device ID of a parallel device and a NULL terminator.
 old-location: parports\par_device_id_size_information.htm
 tech.root: parports
-ms.assetid: b48624cd-e8fb-4152-8e34-9cb1e542f62b
 ms.date: 02/15/2018
 keywords: ["PAR_DEVICE_ID_SIZE_INFORMATION structure"]
 ms.keywords: "*PPAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], PPAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports], _PAR_DEVICE_ID_SIZE_INFORMATION, cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION, ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, parports.par_device_id_size_information"

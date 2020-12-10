@@ -2,7 +2,6 @@
 UID: NS:d3d10umddi.D3DWDDM2_1DDI_VIDEODEVICEFUNCS
 title: D3DWDDM2_1DDI_VIDEODEVICEFUNCS (d3d10umddi.h)
 description: Specifies the video function table for the  Microsoft Direct3D driver device object. Used only by Windows Display Driver Model (WDDM) 2.0 and later drivers.
-ms.assetid: 25d4904c-ade7-4028-bdad-54af640b64fd
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_1DDI_VIDEODEVICEFUNCS, D3DWDDM2_1DDI_VIDEODEVICEFUNCS,

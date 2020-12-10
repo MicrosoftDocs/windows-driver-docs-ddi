@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORCAPS
 title: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS (d3d10umddi.h)
 description: Queries the capabilities of a specified video processor.
 old-location: display\getvideoprocessorcaps.htm
-ms.assetid: 5ffb4f6e-41c6-4d15-8995-a398b9976822
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_GETVIDEOPROCESSORCAPS callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORCAPS callback, d3d10umddi/pfnGetVideoProcessorCaps, display.getvideoprocessorcaps, pfnGetVideoProcessorCaps, pfnGetVideoProcessorCaps callback function [Display Devices]

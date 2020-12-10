@@ -4,7 +4,6 @@ title: ExInitializeSetTimerParameters function (wdm.h)
 description: The ExInitializeSetTimerParameters routine initializes an EXT_SET_PARAMETERS structure.
 old-location: kernel\exinitializesettimerparameters.htm
 tech.root: kernel
-ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.date: 04/30/2018
 keywords: ["ExInitializeSetTimerParameters function"]
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters

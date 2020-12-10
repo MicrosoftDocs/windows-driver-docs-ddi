@@ -3,7 +3,6 @@ UID: NC:uart.UART_HARDWARE_WRITE_UCHAR
 title: UART_HARDWARE_WRITE_UCHAR (uart.h)
 description: Writes a byte to the port or a register.
 tech.root: serports
-ms.assetid: 4fb781e3-0e25-4e35-8ebf-f8046b05fd23
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_UCHAR callback function"]
 req.header: uart.h

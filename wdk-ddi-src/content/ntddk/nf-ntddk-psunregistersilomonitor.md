@@ -4,7 +4,6 @@ title: PsUnregisterSiloMonitor function (ntddk.h)
 description: This routine unregisters a server silo monitor.
 old-location: kernel\psunregistersilomonitor.htm
 tech.root: kernel
-ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.date: 04/30/2018
 keywords: ["PsUnregisterSiloMonitor function"]
 ms.keywords: PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor

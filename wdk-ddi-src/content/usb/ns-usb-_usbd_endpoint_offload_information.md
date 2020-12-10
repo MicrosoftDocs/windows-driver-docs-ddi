@@ -4,7 +4,6 @@ title: _USBD_ENDPOINT_OFFLOAD_INFORMATION (usb.h)
 description: Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 old-location: buses\usbd_endpoint_offload_information.htm
 tech.root: usbref
-ms.assetid: F2A8E966-269E-447F-9467-EB2E877FFAA2
 ms.date: 05/07/2018
 keywords: ["USBD_ENDPOINT_OFFLOAD_INFORMATION structure"]
 ms.keywords: "*PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"

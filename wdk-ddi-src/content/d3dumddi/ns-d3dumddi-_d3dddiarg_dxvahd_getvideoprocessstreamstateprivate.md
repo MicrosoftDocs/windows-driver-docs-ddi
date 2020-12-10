@@ -4,7 +4,6 @@ title: _D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE structure describes the private stream-state of the video processor to retrieve.
 old-location: display\d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.htm
 tech.root: display
-ms.assetid: f55dc37a-fb67-48fe-8e32-29b2e71b6abc
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE structure"]
 ms.keywords: D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE structure [Display Devices], UMDisplayDriver_param_Structs_5c255d85-4e9e-4a3f-a782-3fd96dbcd0d9.xml, _D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, d3dumddi/D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, display.d3dddiarg_dxvahd_getvideoprocessstreamstateprivate

@@ -4,7 +4,6 @@ title: FwpmBfeStateUnsubscribeChanges0 function (fwpmk.h)
 description: The FwpmBfeStateUnsubscribeChanges0 function deregisters a base filtering engine (BFE) callback function that was previously registered by calling the FwpmBfeStateSubscribeChanges0 function.Note  FwpmBfeStateUnsubscribeChanges0 is a specific version of FwpmBfeStateUnsubscribeChanges. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpmbfestateunsubscribechanges0.htm
 tech.root: netvista
-ms.assetid: 1a84401a-d7da-43d2-925d-0d6ed370c980
 ms.date: 05/02/2018
 keywords: ["FwpmBfeStateUnsubscribeChanges0 function"]
 ms.keywords: FwpmBfeStateUnsubscribeChanges0, FwpmBfeStateUnsubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateUnsubscribeChanges0, netvista.fwpmbfestateunsubscribechanges0, wfp_ref_2_funct_2_fwpm_2b1f650b-81ab-4dd9-be56-97039f86ac1e.xml

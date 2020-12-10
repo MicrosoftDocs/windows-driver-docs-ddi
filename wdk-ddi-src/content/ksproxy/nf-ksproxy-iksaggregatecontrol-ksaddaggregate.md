@@ -4,7 +4,6 @@ title: IKsAggregateControl::KsAddAggregate (ksproxy.h)
 description: The KsAddAggregate method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the IKsAggregateControl interface.
 old-location: stream\iksaggregatecontrol_ksaddaggregate.htm
 tech.root: stream
-ms.assetid: 9808bdb9-17f9-4a80-90c7-e85ab35b74ae
 ms.date: 04/23/2018
 keywords: ["IKsAggregateControl::KsAddAggregate"]
 ms.keywords: IKsAggregateControl interface [Streaming Media Devices],KsAddAggregate method, IKsAggregateControl.KsAddAggregate, IKsAggregateControl::KsAddAggregate, KsAddAggregate, KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices],IKsAggregateControl interface, ksproxy/IKsAggregateControl::KsAddAggregate, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, stream.iksaggregatecontrol_ksaddaggregate

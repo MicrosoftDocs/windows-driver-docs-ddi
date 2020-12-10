@@ -4,7 +4,6 @@ title: KeQueryMaximumProcessorCount function (ntddk.h)
 description: The KeQueryMaximumProcessorCount routine returns the maximum number of processors.
 old-location: kernel\kequerymaximumprocessorcount.htm
 tech.root: kernel
-ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.date: 04/30/2018
 keywords: ["KeQueryMaximumProcessorCount function"]
 ms.keywords: KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, kernel.kequerymaximumprocessorcount, wdm/KeQueryMaximumProcessorCount

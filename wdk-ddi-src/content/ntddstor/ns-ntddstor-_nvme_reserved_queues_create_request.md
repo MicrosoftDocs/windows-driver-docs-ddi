@@ -3,7 +3,6 @@ UID: NS:ntddstor._NVME_RESERVED_QUEUES_CREATE_REQUEST
 title: _NVME_RESERVED_QUEUES_CREATE_REQUEST (ntddstor.h)
 description: 
 tech.root: storage
-ms.assetid: 74c5fba3-9ba5-44ab-8ec5-5ea173fad224
 ms.date: 10/19/2018
 keywords: ["NVME_RESERVED_QUEUES_CREATE_REQUEST structure"]
 f1_keywords:

@@ -4,7 +4,6 @@ title: ScsiPortReadRegisterUshort macro (storport.h)
 description: The ScsiPortReadRegisterUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterushort.htm
 tech.root: storage
-ms.assetid: 192a525e-6a42-4bd0-9c50-d13741469a48
 ms.date: 03/29/2018
 keywords: ["ScsiPortReadRegisterUshort macro"]
 ms.keywords: ScsiPortReadRegisterUshort, ScsiPortReadRegisterUshort routine [Storage Devices], scsiprt_342c6cc3-090e-4bea-be54-1a52f50d8276.xml, srb/ScsiPortReadRegisterUshort, storage.scsiportreadregisterushort

@@ -4,7 +4,6 @@ title: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE (nfpdev.h)
 description: The client sends the IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE request to the subscription handle repeatedly in order to receive subscribed messages as they arrive.
 old-location: nfpdrivers\ioctl_nfp_get_next_subscribed_message.htm
 tech.root: nfpdrivers
-ms.assetid: 975C32AE-6A2C-44C8-8F53-4158FDF1B942
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE IOCTL"]
 ms.keywords: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_subscribed_message

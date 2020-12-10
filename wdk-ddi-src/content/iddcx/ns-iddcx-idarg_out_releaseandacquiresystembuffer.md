@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER
 title: IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER
 ms.date: 10/20/2020
-ms.assetid: 90d6e939-77e5-4c0d-a7dd-baad077d79b2
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

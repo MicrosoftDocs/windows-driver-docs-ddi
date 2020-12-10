@@ -4,7 +4,6 @@ title: NdisOffloadTcpReceive function (ndischimney.h)
 description: A protocol driver or an intermediate driver calls the NdisOffloadTcpReceive function to post receive requests (receive buffers) on an offloaded TCP connection.
 old-location: netvista\ndisoffloadtcpreceive.htm
 tech.root: netvista
-ms.assetid: 021f41c4-6ba9-418e-bc18-131ce6d90877
 ms.date: 05/02/2018
 keywords: ["NdisOffloadTcpReceive function"]
 ms.keywords: NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceive, netvista.ndisoffloadtcpreceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml

@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_STATE_SUBOBJECT_TYPE
 title: D3D12DDI_STATE_SUBOBJECT_TYPE (d3d12umddi.h)
 description: The supported state subobject types.
-ms.assetid: 374a2d3d-313f-4e23-b6ad-8137e19230df
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_STATE_SUBOBJECT_TYPE enumeration"]
 ms.keywords: D3D12DDI_STATE_SUBOBJECT_TYPE, D3D12DDI_STATE_SUBOBJECT_TYPE, ray tracing

@@ -4,7 +4,6 @@ title: IoAllocateErrorLogEntry function (wdm.h)
 description: The IoAllocateErrorLogEntry routine allocates an error log entry, and returns a pointer to the packet that the caller uses to supply information about an I/O error.
 old-location: kernel\ioallocateerrorlogentry.htm
 tech.root: kernel
-ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
 ms.date: 04/30/2018
 keywords: ["IoAllocateErrorLogEntry function"]
 ms.keywords: IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry

@@ -4,7 +4,6 @@ title: NdisMCmAddPartyComplete macro (ndis.h)
 description: NdisMCmAddPartyComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 old-location: netvista\ndismcmaddpartycomplete.htm
 tech.root: netvista
-ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.date: 05/02/2018
 keywords: ["NdisMCmAddPartyComplete macro"]
 ms.keywords: NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, ndis/NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete

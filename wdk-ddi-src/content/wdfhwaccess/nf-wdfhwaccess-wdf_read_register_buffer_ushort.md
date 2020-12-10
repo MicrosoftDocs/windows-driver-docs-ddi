@@ -4,7 +4,6 @@ title: WDF_READ_REGISTER_BUFFER_USHORT function (wdfhwaccess.h)
 description: The WDF_READ_REGISTER_BUFFER_USHORT function reads a number of USHORT values from the specified register address into a buffer.
 old-location: wdf\wdf_read_register_buffer_ushort.htm
 tech.root: wdf
-ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.date: 02/26/2018
 keywords: ["WDF_READ_REGISTER_BUFFER_USHORT function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT

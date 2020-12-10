@@ -4,7 +4,6 @@ title: SerCxRetrieveTransmitBuffer function (sercx.h)
 description: The SerCxRetrieveTransmitBuffer method obtains an output buffer that contains data that is ready to be transmitted to the serial port.
 old-location: serports\sercxretrievetransmitbuffer.htm
 tech.root: serports
-ms.assetid: 64494AB9-6F7F-4374-9081-8D65BA7D34E1
 ms.date: 04/23/2018
 keywords: ["SerCxRetrieveTransmitBuffer function"]
 ms.keywords: 1/SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer method [Serial Ports], serports.sercxretrievetransmitbuffer

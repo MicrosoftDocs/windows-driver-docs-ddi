@@ -4,7 +4,6 @@ title: RILMSGOUTSUBMITVPFORMAT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgoutsubmitvpformat.htm
 tech.root: netvista
-ms.assetid: c0a2646c-aa0a-4946-999f-a78d1c488752
 ms.date: 05/02/2018
 keywords: ["RILMSGOUTSUBMITVPFORMAT enumeration"]
 ms.keywords: RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_ENHANCED, ntddrilapitypes/RIL_MSGVP_MAX, ntddrilapitypes/RIL_MSGVP_RELATIVE

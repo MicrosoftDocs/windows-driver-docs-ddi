@@ -2,7 +2,6 @@
 UID: NS:ucmucsispec._UCSI_SET_NOTIFICATION_ENABLE_COMMAND
 title: _UCSI_SET_NOTIFICATION_ENABLE_COMMAND (ucmucsispec.h)
 description: Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.
-ms.assetid: bb43d333-b0a4-4c5a-9932-cdae5da2ce61
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_SET_NOTIFICATION_ENABLE_COMMAND structure"]

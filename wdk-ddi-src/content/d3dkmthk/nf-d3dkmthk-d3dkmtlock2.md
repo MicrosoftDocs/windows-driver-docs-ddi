@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTLock2
 title: D3DKMTLock2 function (d3dkmthk.h)
 description: The D3DKMTLock2 function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock2.htm
-ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
 ms.date: 05/10/2018
 keywords: ["D3DKMTLock2 function"]
 ms.keywords: D3DKMTLock2, D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, display.d3dkmtlock2

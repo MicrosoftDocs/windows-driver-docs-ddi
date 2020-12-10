@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_DEVICE_IDS
 title: _D3DKMT_DEVICE_IDS (d3dkmthk.h)
 description: Contains device ID information.
-ms.assetid: ae19e476-9262-4d73-b454-caee9322ed83
 ms.date: 10/19/2018
 keywords: ["D3DKMT_DEVICE_IDS structure"]
 ms.keywords: _D3DKMT_DEVICE_IDS, D3DKMT_DEVICE_IDS,

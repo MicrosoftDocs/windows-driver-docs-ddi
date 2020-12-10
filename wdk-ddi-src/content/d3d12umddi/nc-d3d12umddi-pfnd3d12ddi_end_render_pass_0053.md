@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_END_RENDER_PASS_0053
 title: PFND3D12DDI_END_RENDER_PASS_0053 (d3d12umddi.h)
 description: Implemented by the client driver to end a Render Pass.
-ms.assetid: e530cab4-4faf-431f-b83e-a20c512f7720
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_END_RENDER_PASS_0053 callback function"]
 req.header: d3d12umddi.h

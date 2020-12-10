@@ -4,7 +4,6 @@ title: ZwAllocateVirtualMemory function (ntifs.h)
 description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 old-location: kernel\zwallocatevirtualmemory.htm
 tech.root: kernel
-ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.date: 04/30/2018
 keywords: ["ZwAllocateVirtualMemory function"]
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory

@@ -3,7 +3,6 @@ UID: NF:ntddndis.NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY
 title: NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro to access the port property buffer inside an NDIS_SWITCH_PORT_PROPERTY_PARAMETERS structure.
 tech.root: netvista
-ms.assetid: f6ae917e-8c6a-41a7-9e52-6b08c6e360ac
 ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro"]
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY

@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_GET_DTRRTS (ntddser.h)
 description: The IOCTL_SERIAL_GET_DTRRTS request returns information about the data terminal ready (DTR) control signal and the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_get_dtrrts.htm
 tech.root: serports
-ms.assetid: 9ced72c6-24f8-49c6-a68e-2b0c5c81a8c2
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_DTRRTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_DTRRTS, IOCTL_SERIAL_GET_DTRRTS control, IOCTL_SERIAL_GET_DTRRTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_DTRRTS, serports.ioctl_serial_get_dtrrts, serref_7c57fa0a-a5a3-41cd-bea3-b4685b39daad.xml

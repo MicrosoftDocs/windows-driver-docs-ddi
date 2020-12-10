@@ -4,7 +4,6 @@ title: KsStreamPointerCancelTimeout function (ks.h)
 description: The KsStreamPointerCancelTimeout function cancels a previously scheduled time-out callback on the specified stream pointer.
 old-location: stream\ksstreampointercanceltimeout.htm
 tech.root: stream
-ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerCancelTimeout function"]
 ms.keywords: KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, stream.ksstreampointercanceltimeout

@@ -4,7 +4,6 @@ title: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME (mountdev.h)
 description: Support for this IOCTL by the mount manager clients is optional.
 old-location: storage\ioctl_mountdev_query_suggested_link_name.htm
 tech.root: storage
-ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name

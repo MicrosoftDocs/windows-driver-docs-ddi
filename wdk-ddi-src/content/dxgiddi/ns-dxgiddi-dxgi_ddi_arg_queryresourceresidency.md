@@ -4,7 +4,6 @@ title: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY (dxgiddi.h)
 description: The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status of a list of resources.
 old-location: display\dxgi_ddi_arg_queryresourceresidency.htm
 tech.root: display
-ms.assetid: 140a92a8-4b82-47d0-855c-6bc1f9a3d167
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure"]
 ms.keywords: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml, display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY

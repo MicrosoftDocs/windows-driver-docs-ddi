@@ -4,7 +4,6 @@ title: RxFinalizeSrvOpen function (fcb.h)
 description: RxFinalizeSrvOpen finalizes the given SRV_OPEN structure. The caller must have an exclusive lock on the FCB associated with the SRV_OPEN and either a shared or exclusive lock on the table lock of the NET_ROOT associated with the FCB.
 old-location: ifsk\rxfinalizesrvopen.htm
 tech.root: ifsk
-ms.assetid: 9a756606-90df-4bb8-a87a-f000616812fa
 ms.date: 04/16/2018
 keywords: ["RxFinalizeSrvOpen function"]
 ms.keywords: RxFinalizeSrvOpen, RxFinalizeSrvOpen function [Installable File System Drivers], fcb/RxFinalizeSrvOpen, ifsk.rxfinalizesrvopen, rxref_0665a600-9a4c-4674-87bd-f9758b579cee.xml

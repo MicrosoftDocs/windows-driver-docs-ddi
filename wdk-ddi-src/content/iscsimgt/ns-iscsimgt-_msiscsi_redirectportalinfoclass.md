@@ -4,7 +4,6 @@ title: _MSiSCSI_RedirectPortalInfoClass (iscsimgt.h)
 description: The MSiSCSI_RedirectPortalInfoClass structure contains information about a collection of sessions for an adapter ID. It also contains the portal redirection information for each of the sessions.
 old-location: storage\msiscsi_redirectportalinfoclass.htm
 tech.root: storage
-ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.date: 03/29/2018
 keywords: ["MSiSCSI_RedirectPortalInfoClass structure"]
 ms.keywords: "*PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], _MSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml"

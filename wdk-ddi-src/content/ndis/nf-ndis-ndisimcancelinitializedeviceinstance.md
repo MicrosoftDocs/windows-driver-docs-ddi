@@ -4,7 +4,6 @@ title: NdisIMCancelInitializeDeviceInstance function (ndis.h)
 description: The NdisIMCancelInitializeDeviceInstance function cancels a preceding call to the NdisIMInitializeDeviceInstanceEx function.
 old-location: netvista\ndisimcancelinitializedeviceinstance.htm
 tech.root: netvista
-ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.date: 05/02/2018
 keywords: ["NdisIMCancelInitializeDeviceInstance function"]
 ms.keywords: NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance

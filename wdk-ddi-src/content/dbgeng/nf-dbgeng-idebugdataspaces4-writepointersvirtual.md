@@ -4,7 +4,6 @@ title: IDebugDataSpaces4::WritePointersVirtual (dbgeng.h)
 description: The WritePointersVirtual method is a convenience method for writing pointers to the target's virtual address space.
 old-location: debugger\writepointersvirtual.htm
 tech.root: debugger
-ms.assetid: b6bde54b-262a-4431-8f85-63f9c66463c4
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::WritePointersVirtual"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WritePointersVirtual method, IDebugDataSpaces2 interface [Windows Debugging],WritePointersVirtual method, IDebugDataSpaces2::WritePointersVirtual, IDebugDataSpaces3 interface [Windows Debugging],WritePointersVirtual method, IDebugDataSpaces3::WritePointersVirtual, IDebugDataSpaces4 interface [Windows Debugging],WritePointersVirtual method, IDebugDataSpaces4.WritePointersVirtual, IDebugDataSpaces4::WritePointersVirtual, IDebugDataSpaces::WritePointersVirtual, IDebugDataSpaces_da1045b5-8b82-4412-8e83-58c285dccce0.xml, WritePointersVirtual, WritePointersVirtual method [Windows Debugging], WritePointersVirtual method [Windows Debugging],IDebugDataSpaces interface, WritePointersVirtual method [Windows Debugging],IDebugDataSpaces2 interface, WritePointersVirtual method [Windows Debugging],IDebugDataSpaces3 interface, WritePointersVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WritePointersVirtual, dbgeng/IDebugDataSpaces3::WritePointersVirtual, dbgeng/IDebugDataSpaces4::WritePointersVirtual, dbgeng/IDebugDataSpaces::WritePointersVirtual, debugger.writepointersvirtual

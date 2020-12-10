@@ -4,7 +4,6 @@ title: IBidiAsyncNotifyChannel::AsyncCloseChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncclosechannel.htm
 tech.root: print
-ms.assetid: D2A8A131-E839-40E2-8897-DA74F7BA0FA8
 ms.date: 04/20/2018
 keywords: ["IBidiAsyncNotifyChannel::AsyncCloseChannel"]
 ms.keywords: AsyncCloseChannel, AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncCloseChannel method, IBidiAsyncNotifyChannel.AsyncCloseChannel, IBidiAsyncNotifyChannel::AsyncCloseChannel, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel

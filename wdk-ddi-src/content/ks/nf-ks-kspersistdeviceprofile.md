@@ -4,7 +4,6 @@ title: KsPersistDeviceProfile function (ks.h)
 description: The KsPersistDeviceProfile API commits the profile information to the persistent store.
 old-location: stream\kspersistdeviceprofile.htm
 tech.root: stream
-ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.date: 04/23/2018
 keywords: ["KsPersistDeviceProfile function"]
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile

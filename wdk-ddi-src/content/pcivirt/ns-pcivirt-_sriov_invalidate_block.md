@@ -4,7 +4,6 @@ title: _SRIOV_INVALIDATE_BLOCK (pcivirt.h)
 description: Contains the configuration block information. This structure is used in a IOCTL_SRIOV_INVALIDATE_BLOCK request.
 old-location: pci\sriov_invalidate_block.htm
 tech.root: PCI
-ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.date: 02/24/2018
 keywords: ["SRIOV_INVALIDATE_BLOCK structure"]
 ms.keywords: "*PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK"

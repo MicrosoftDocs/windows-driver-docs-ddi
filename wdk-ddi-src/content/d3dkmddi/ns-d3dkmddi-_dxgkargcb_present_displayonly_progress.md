@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 title: _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS (d3dkmddi.h)
 description: Provides the progress of a kernel mode display-only driver's (KMDOD) present operation that was requested by the operating system.
 old-location: display\dxgkargcb_present_displayonly_progress.htm
-ms.assetid: c3849df0-0794-43fe-ba29-6daa8461cd9a
 ms.date: 05/10/2018
 keywords: ["DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure"]
 ms.keywords: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, display.dxgkargcb_present_displayonly_progress

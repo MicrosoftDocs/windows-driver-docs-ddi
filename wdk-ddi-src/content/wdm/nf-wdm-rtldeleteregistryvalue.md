@@ -4,7 +4,6 @@ title: RtlDeleteRegistryValue function (wdm.h)
 description: The RtlDeleteRegistryValue routine removes the specified entry name and the associated values from the registry along the given relative path.
 old-location: kernel\rtldeleteregistryvalue.htm
 tech.root: kernel
-ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.date: 04/30/2018
 keywords: ["RtlDeleteRegistryValue function"]
 ms.keywords: RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml, kernel.rtldeleteregistryvalue, wdm/RtlDeleteRegistryValue

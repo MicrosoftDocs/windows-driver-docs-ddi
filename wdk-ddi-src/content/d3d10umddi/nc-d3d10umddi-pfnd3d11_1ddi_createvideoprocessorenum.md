@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM (d3d10umddi.h)
 description: Creates an enumeration object for the video processor capabilities of the driver.
 old-location: display\createvideoprocessorenum.htm
-ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback function"]
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum

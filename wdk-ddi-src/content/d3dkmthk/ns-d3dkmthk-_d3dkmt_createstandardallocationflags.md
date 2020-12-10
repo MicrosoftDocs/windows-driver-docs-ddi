@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 title: _D3DKMT_CREATESTANDARDALLOCATIONFLAGS (d3dkmthk.h)
 description: Used to create standard allocation flags.
 old-location: display\d3dkmt-createstandardallocationflags.htm
-ms.assetid: a1a4aa0c-2edc-48b9-ad49-c876be930955
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATIONFLAGS, D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS, display.d3dkmt-createstandardallocationflags

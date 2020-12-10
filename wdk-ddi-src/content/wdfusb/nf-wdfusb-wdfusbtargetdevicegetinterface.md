@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceGetInterface function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetInterface method returns a handle to the framework USB interface object that is associated with a specified interface index.
 old-location: wdf\wdfusbtargetdevicegetinterface.htm
 tech.root: wdf
-ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceGetInterface function"]
 ms.keywords: DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface method, kmdf.wdfusbtargetdevicegetinterface, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface

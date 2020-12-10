@@ -4,7 +4,6 @@ title: _MOUNTMGR_MOUNT_POINT (mountmgr.h)
 description: The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an IOCTL_MOUNTMGR_QUERY_POINTS request to query the mount manager for all of the mount points (symbolic links) associated with a device.
 old-location: storage\mountmgr_mount_point.htm
 tech.root: storage
-ms.assetid: a4142380-1596-49dc-a18d-ac5c3cef73fe
 ms.date: 03/29/2018
 keywords: ["MOUNTMGR_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINT, mountmgr/MOUNTMGR_MOUNT_POINT, mountmgr/PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml"

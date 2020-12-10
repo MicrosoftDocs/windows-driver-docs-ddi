@@ -4,7 +4,6 @@ title: _SetGroupPresharedKey_IN (iscsiop.h)
 description: The SetGroupPresharedKey_IN structure holds the input data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_in.htm
 tech.root: storage
-ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.date: 03/29/2018
 keywords: ["SetGroupPresharedKey_IN structure"]
 ms.keywords: "*PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], SetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], _SetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, iscsiop/SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml"

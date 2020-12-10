@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IHostDataModelAccess.GetDataModel
 title: IHostDataModelAccess::GetDataModel (dbgmodel.h)
 description: The GetDataModel method is the method on the bridge interface which provides access to both sides of the data model.
-ms.assetid: f1763b5e-b8e6-47d9-a8f9-12f564744769
 ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::GetDataModel"]
 ms.keywords: IHostDataModelAccess::GetDataModel, GetDataModel, IHostDataModelAccess.GetDataModel, IHostDataModelAccess::GetDataModel, IHostDataModelAccess.GetDataModel

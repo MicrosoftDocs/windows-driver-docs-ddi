@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelManager2.CreateIntrinsicObject
 title: IDataModelManager2::CreateIntrinsicObject (dbgmodel.h)
 description: The CreateIntrinsicObject method is the method which boxes intrinsic values into IModelObject.
-ms.assetid: ea2b69bc-9bd1-437f-b8c7-2b976a3739aa
 ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateIntrinsicObject"]
 ms.keywords: IDataModelManager2::CreateIntrinsicObject, CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject, IDataModelManager2::CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject

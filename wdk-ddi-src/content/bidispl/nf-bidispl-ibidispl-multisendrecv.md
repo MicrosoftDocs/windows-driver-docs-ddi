@@ -4,7 +4,6 @@ title: IBidiSpl::MultiSendRecv (bidispl.h)
 description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
 tech.root: print
-ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::MultiSendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv

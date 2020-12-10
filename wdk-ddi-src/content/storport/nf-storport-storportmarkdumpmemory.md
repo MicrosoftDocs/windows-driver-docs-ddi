@@ -4,7 +4,6 @@ title: StorPortMarkDumpMemory function (storport.h)
 description: A miniport should mark memory used for the dump file or the hibernation file.
 old-location: storage\storportmarkdumpmemory.htm
 tech.root: storage
-ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.date: 03/29/2018
 keywords: ["StorPortMarkDumpMemory function"]
 ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory

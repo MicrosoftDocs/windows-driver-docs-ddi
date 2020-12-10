@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
 title: PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID (d3dkmthk.h)
 description: Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
-ms.assetid: 1174993c-ffbb-449f-8bee-6ac2ad947dd0
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID callback function"]
 req.header: d3dkmthk.h

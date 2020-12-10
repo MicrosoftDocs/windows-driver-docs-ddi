@@ -4,7 +4,6 @@ title: _DXVADDI_VIDEOSAMPLE (d3dumddi.h)
 description: The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is used in a video processing operation.
 old-location: display\dxvaddi_videosample.htm
 tech.root: display
-ms.assetid: 20495325-8ef6-4e6d-8f86-edc12537d46f
 ms.date: 05/10/2018
 keywords: ["DXVADDI_VIDEOSAMPLE structure"]
 ms.keywords: DXVA2_Structs_c3a4d002-09dc-4653-a965-9c4f587529d4.xml, DXVADDI_VIDEOSAMPLE, DXVADDI_VIDEOSAMPLE structure [Display Devices], _DXVADDI_VIDEOSAMPLE, d3dumddi/DXVADDI_VIDEOSAMPLE, display.dxvaddi_videosample

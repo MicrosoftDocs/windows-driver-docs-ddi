@@ -4,7 +4,6 @@ title: FRAMING_PROP (ksproxy.h)
 description: 
 old-location: stream\framing_prop.htm
 tech.root: stream
-ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A
 ms.date: 04/23/2018
 keywords: ["FRAMING_PROP enumeration"]
 ms.keywords: "*PFRAMING_PROP, FRAMING_PROP, FRAMING_PROP enumeration [Streaming Media Devices], FramingProp_Ex, FramingProp_None, FramingProp_Old, FramingProp_Uninitialized, ksproxy/FRAMING_PROP, ksproxy/FramingProp_Ex, ksproxy/FramingProp_None, ksproxy/FramingProp_Old, ksproxy/FramingProp_Uninitialized, stream.framing_prop"

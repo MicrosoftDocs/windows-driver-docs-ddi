@@ -4,7 +4,6 @@ title: DXGKCB_READ_DEVICE_SPACE (dispmprt.h)
 description: The DxgkCbReadDeviceSpace function reads from a device configuration space or the expansion ROM of a display adapter.
 old-location: display\dxgkcbreaddevicespace.htm
 tech.root: display
-ms.assetid: 118ea0b9-6463-4050-9f33-192a3d42fdce
 ms.date: 05/10/2018
 keywords: ["DXGKCB_READ_DEVICE_SPACE callback function"]
 ms.keywords: DXGKCB_READ_DEVICE_SPACE, DXGKCB_READ_DEVICE_SPACE callback, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml, DxgkCbReadDeviceSpace, DxgkCbReadDeviceSpace callback function [Display Devices], display.dxgkcbreaddevicespace, dispmprt/DxgkCbReadDeviceSpace

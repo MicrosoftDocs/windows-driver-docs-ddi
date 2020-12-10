@@ -4,7 +4,6 @@ title: WUDF_INTERRUPT_ENABLE (wudfinterrupt.h)
 description: A driver's OnInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\oninterruptenable.htm
 tech.root: wdf
-ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
 ms.date: 02/26/2018
 keywords: ["WUDF_INTERRUPT_ENABLE callback function"]
 ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable

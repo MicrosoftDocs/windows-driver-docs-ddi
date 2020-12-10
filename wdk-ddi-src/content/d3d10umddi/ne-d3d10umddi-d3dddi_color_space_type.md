@@ -3,7 +3,6 @@ UID: NE:d3d10umddi.D3DDDI_COLOR_SPACE_TYPE
 title: D3DDDI_COLOR_SPACE_TYPE
 description: 
 tech.root: display
-ms.assetid: 9d3b7a33-e1ac-4ade-a5d3-d22ea4739f65
 ms.date: 04/04/2019
 keywords: ["D3DDDI_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: D3DDDI_COLOR_SPACE_TYPE, ,

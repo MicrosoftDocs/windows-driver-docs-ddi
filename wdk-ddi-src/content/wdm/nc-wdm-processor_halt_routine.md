@@ -4,7 +4,6 @@ title: PROCESSOR_HALT_ROUTINE (wdm.h)
 description: A Halt callback routine transitions the processor to an idle state.
 old-location: kernel\halt.htm
 tech.root: kernel
-ms.assetid: 425239C1-4FBE-4703-B7DB-9DCC17562A6C
 ms.date: 04/30/2018
 keywords: ["PROCESSOR_HALT_ROUTINE callback function"]
 ms.keywords: Halt, Halt routine [Kernel-Mode Driver Architecture], PROCESSOR_HALT_ROUTINE, kernel.halt, wdm/Halt

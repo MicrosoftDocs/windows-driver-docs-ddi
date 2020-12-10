@@ -4,7 +4,6 @@ title: DOT11EXTIHV_QUERY_UI_REQUEST (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvqueryuirequest.htm
 tech.root: netvista
-ms.assetid: 37c01180-0742-4764-88c3-9ceb807a0086
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_QUERY_UI_REQUEST callback"]
 ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest

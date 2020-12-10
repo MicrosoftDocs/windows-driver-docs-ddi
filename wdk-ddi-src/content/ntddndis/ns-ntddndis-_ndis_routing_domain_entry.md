@@ -4,7 +4,6 @@ title: _NDIS_ROUTING_DOMAIN_ENTRY (ntddndis.h)
 description: The NDIS_ROUTING_DOMAIN_ENTRY structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return the routing domain entries for a VM network adapter's port.
 old-location: netvista\ndis_routing_domain_entry.htm
 tech.root: netvista
-ms.assetid: 65E39285-AFD2-4098-A983-C7FA06505407
 ms.date: 05/02/2018
 keywords: ["NDIS_ROUTING_DOMAIN_ENTRY structure"]
 ms.keywords: "*PNDIS_ROUTING_DOMAIN_ENTRY, NDIS_ROUTING_DOMAIN_ENTRY, NDIS_ROUTING_DOMAIN_ENTRY structure [Network Drivers Starting with Windows Vista], PNDIS_ROUTING_DOMAIN_ENTRY, PNDIS_ROUTING_DOMAIN_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ROUTING_DOMAIN_ENTRY, netvista.ndis_routing_domain_entry, ntddndis/NDIS_ROUTING_DOMAIN_ENTRY, ntddndis/PNDIS_ROUTING_DOMAIN_ENTRY"

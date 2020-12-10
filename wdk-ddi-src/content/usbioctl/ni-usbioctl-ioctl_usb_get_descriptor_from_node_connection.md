@@ -4,7 +4,6 @@ title: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION (usbioctl.h)
 description: The IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_descriptor_from_node_connection.htm
 tech.root: usbref
-ms.assetid: 60b41f73-ef12-4d3f-9df4-8958ab66bf14
 ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION IOCTL"]
 ms.keywords: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code [Buses], buses.ioctl_usb_get_descriptor_from_node_connection, usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, usbirp_060f6333-3fe9-4a4b-8ff1-f7403a3e8dfe.xml

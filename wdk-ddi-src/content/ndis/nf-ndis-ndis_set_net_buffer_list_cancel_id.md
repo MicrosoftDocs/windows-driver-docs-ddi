@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_SET_NET_BUFFER_LIST_CANCEL_ID
 title: NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro (ndis.h)
 description: The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks a NET_BUFFER_LIST structure with a cancellation identifier that a driver can later use to cancel the pending transmission of the associated data.
 tech.root: netvista
-ms.assetid: 200a8e6b-6cd5-4364-8004-b3c374775d2f
 ms.date: 04/16/2018
 keywords: ["NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro"]
 ms.keywords: NDIS_SET_NET_BUFFER_LIST_CANCEL_ID

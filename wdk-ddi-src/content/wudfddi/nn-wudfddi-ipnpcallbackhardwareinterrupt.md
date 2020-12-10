@@ -4,7 +4,6 @@ title: IPnpCallbackHardwareInterrupt (wudfddi.h)
 description: The IPnpCallbackHardwareInterrupt interface supports interrupt-related Plug and Play and power management callback methods.
 old-location: wdf\ipnpcallbackhardwareinterrupt.htm
 tech.root: wdf
-ms.assetid: C66A570A-EEAF-4D18-A834-B50576F51E29
 ms.date: 02/26/2018
 keywords: ["IPnpCallbackHardwareInterrupt interface"]
 ms.keywords: IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt interface,described, umdf.ipnpcallbackhardwareinterrupt, wdf.ipnpcallbackhardwareinterrupt, wudfddi/IPnpCallbackHardwareInterrupt

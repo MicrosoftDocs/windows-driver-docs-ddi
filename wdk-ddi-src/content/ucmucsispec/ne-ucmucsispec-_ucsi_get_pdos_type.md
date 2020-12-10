@@ -3,7 +3,6 @@ UID: NE:ucmucsispec._UCSI_GET_PDOS_TYPE
 title: _UCSI_GET_PDOS_TYPE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_PDOS command. See Table 4-34, Offset 34.
-ms.assetid: deec5c66-f0f0-4b1b-82ec-d62c901d532f
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_PDOS_TYPE enumeration"]
 ms.keywords: _UCSI_GET_PDOS_TYPE, UCSI_GET_PDOS_TYPE,

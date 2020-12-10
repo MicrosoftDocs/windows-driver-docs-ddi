@@ -4,7 +4,6 @@ title: IStiDevice::Escape (sti.h)
 description: The IStiDevice::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: image\istidevice_escape.htm
 tech.root: image
-ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.date: 05/03/2018
 keywords: ["IStiDevice::Escape"]
 ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],Escape method, IStiDevice.Escape, IStiDevice::Escape, image.istidevice_escape, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml

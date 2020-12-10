@@ -3,7 +3,6 @@ UID: NF:netadapter.NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 title: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function (netadapter.h)
 description: The NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function initializes a NET_ADAPTER_TX_CAPABILITIES structure for a net adapter that has specified the use of DMA in its transmit data path.
 tech.root: netvista
-ms.assetid: aae4a208-75b7-4b11-868b-c4620497d171
 ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function"]
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA

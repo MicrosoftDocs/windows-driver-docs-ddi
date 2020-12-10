@@ -4,7 +4,6 @@ title: IoGetConfigurationInformation function (ntifs.h)
 description: The IoGetConfigurationInformation routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
 old-location: kernel\iogetconfigurationinformation.htm
 tech.root: kernel
-ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.date: 04/30/2018
 keywords: ["IoGetConfigurationInformation function"]
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation

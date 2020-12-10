@@ -3,7 +3,6 @@ UID: NF:ntifs.FsRtlCheckOplockEx2
 title: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2
 description: FsRtlCheckOplockEx2 synchronizes the IRP for a file I/O operation with the current opportunistic lock (oplock) state of the file.
 tech.root: ifsk
-ms.assetid: e471fc96-0681-45fc-81d8-b5ec680cbf79
 ms.date: 03/24/2020
 ms.topic: method
 f1_keywords:

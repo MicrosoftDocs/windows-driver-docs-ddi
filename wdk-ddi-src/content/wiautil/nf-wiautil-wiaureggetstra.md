@@ -4,7 +4,6 @@ title: wiauRegGetStrA function (wiautil.h)
 description: The wiauRegGetStr function gets a string value from the DeviceData section of the registry.
 old-location: image\wiaureggetstr.htm
 tech.root: image
-ms.assetid: ff06737b-c37d-4f37-adfc-bbd51974c9e4
 ms.date: 05/03/2018
 keywords: ["wiauRegGetStrA function"]
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr

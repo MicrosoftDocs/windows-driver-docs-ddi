@@ -4,7 +4,6 @@ title: IWDFInterrupt::QueueWorkItemForIsr (wudfddi.h)
 description: The QueueWorkItemForIsr method queues a work item to process interrupt-related work outside of the interrupt service routine.
 old-location: wdf\iwdfinterrupt_queueworkitemforisr.htm
 tech.root: wdf
-ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::QueueWorkItemForIsr"]
 ms.keywords: IWDFInterrupt interface,QueueWorkItemForIsr method, IWDFInterrupt.QueueWorkItemForIsr, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method,IWDFInterrupt interface, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr

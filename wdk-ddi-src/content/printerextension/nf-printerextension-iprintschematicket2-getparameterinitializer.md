@@ -4,7 +4,6 @@ title: IPrintSchemaTicket2::GetParameterInitializer (printerextension.h)
 description: The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the psf:ParameterInit element in the PrintTicket XML.
 old-location: print\iprintschematicket2_getparameterinitializer.htm
 tech.root: print
-ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
 ms.date: 06/25/2020
 keywords: ["IPrintSchemaTicket2::GetParameterInitializer"]
 ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices],IPrintSchematicket2 interface, IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices],GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer

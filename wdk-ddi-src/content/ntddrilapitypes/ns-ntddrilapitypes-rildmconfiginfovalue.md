@@ -4,7 +4,6 @@ title: RILDMCONFIGINFOVALUE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildmconfiginfovalue.htm
 tech.root: netvista
-ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.date: 05/02/2018
 keywords: ["RILDMCONFIGINFOVALUE structure"]
 ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE"

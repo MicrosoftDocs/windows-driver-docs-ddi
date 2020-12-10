@@ -4,7 +4,6 @@ title: PoFxUnregisterDevice function (wdm.h)
 description: The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
 old-location: kernel\pofxunregisterdevice.htm
 tech.root: kernel
-ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.date: 04/30/2018
 keywords: ["PoFxUnregisterDevice function"]
 ms.keywords: PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_PROCESS_PROTECTED_RESOURCES_DATA_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 0dd5adab-ed9d-4581-941b-fae7619df330
 tech.root: display
 description: Data structure used to check for video process protected resource support capabilities on a given node index.
 req.construct-type: structure

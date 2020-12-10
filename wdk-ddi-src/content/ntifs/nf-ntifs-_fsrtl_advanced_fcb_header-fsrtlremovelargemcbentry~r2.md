@@ -4,7 +4,6 @@ title: FsRtlRemoveLargeMcbEntry function (ntifs.h)
 description: The FsRtlRemoveLargeMcbEntry routine removes one or more mappings from a map control block (MCB).
 old-location: ifsk\fsrtlremovelargemcbentry.htm
 tech.root: ifsk
-ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.date: 03/29/2018
 keywords: ["FsRtlRemoveLargeMcbEntry function"]
 ms.keywords: FsRtlRemoveLargeMcbEntry, FsRtlRemoveLargeMcbEntry routine [Installable File System Drivers], fsrtlref_d80cc918-81da-4aae-b8ba-b2aea9519af3.xml, ifsk.fsrtlremovelargemcbentry, ntifs/FsRtlRemoveLargeMcbEntry

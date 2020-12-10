@@ -2,7 +2,6 @@
 UID: NS:ntddstor._STORAGE_RPMB_DESCRIPTOR
 title: STORAGE_RPMB_DESCRIPTOR
 ms.date: 10/28/2020
-ms.assetid: 6f92b790-937c-4cb6-9db2-5a9ddc3e738b
 tech.root: storage
 ms.topic: language-reference
 targetos: Windows

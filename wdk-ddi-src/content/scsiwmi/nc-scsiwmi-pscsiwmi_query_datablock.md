@@ -4,7 +4,6 @@ title: PSCSIWMI_QUERY_DATABLOCK (scsiwmi.h)
 description: A miniport driver's HwScsiWmiQueryDataBlock routine is called to obtain either a single instance or all instances of a data block.
 old-location: storage\hwscsiwmiquerydatablock.htm
 tech.root: storage
-ms.assetid: a2e588b8-50d6-4bed-b50c-c42be24955f1
 ms.date: 03/29/2018
 keywords: ["PSCSIWMI_QUERY_DATABLOCK callback function"]
 ms.keywords: HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], PSCSIWMI_QUERY_DATABLOCK, PSCSIWMI_QUERY_DATABLOCK callback, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml, scsiwmi/HwScsiWmiQueryDataBlock, storage.hwscsiwmiquerydatablock

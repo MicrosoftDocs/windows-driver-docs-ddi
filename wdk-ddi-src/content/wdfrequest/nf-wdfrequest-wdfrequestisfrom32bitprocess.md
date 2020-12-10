@@ -4,7 +4,6 @@ title: WdfRequestIsFrom32BitProcess function (wdfrequest.h)
 description: The WdfRequestIsFrom32BitProcess method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
 old-location: wdf\wdfrequestisfrom32bitprocess.htm
 tech.root: wdf
-ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.date: 02/26/2018
 keywords: ["WdfRequestIsFrom32BitProcess function"]
 ms.keywords: DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess

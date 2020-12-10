@@ -4,7 +4,6 @@ title: KsReleaseDeviceSecurityLock function (ks.h)
 description: The KsReleaseDeviceSecurityLock function releases a previously acquired security lock on the device object header.
 old-location: stream\ksreleasedevicesecuritylock.htm
 tech.root: stream
-ms.assetid: b14a4816-2e72-491d-9881-ae532c287e99
 ms.date: 04/23/2018
 keywords: ["KsReleaseDeviceSecurityLock function"]
 ms.keywords: KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], ks/KsReleaseDeviceSecurityLock, ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, stream.ksreleasedevicesecuritylock

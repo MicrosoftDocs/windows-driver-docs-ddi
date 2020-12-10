@@ -4,7 +4,6 @@ title: RILAVOIDCDMASYSTEMPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilavoidcdmasystemparams.htm
 tech.root: netvista
-ms.assetid: cf160fb9-8230-4b75-8a4f-d19ef001f54a
 ms.date: 05/02/2018
 keywords: ["RILAVOIDCDMASYSTEMPARAMS structure"]
 ms.keywords: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilavoidcdmasystemparams, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS"

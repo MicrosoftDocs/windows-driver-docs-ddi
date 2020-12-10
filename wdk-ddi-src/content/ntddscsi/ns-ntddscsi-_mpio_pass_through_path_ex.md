@@ -4,7 +4,6 @@ title: _MPIO_PASS_THROUGH_PATH_EX (ntddscsi.h)
 description: The MPIO_PASS_THROUGH_PATH_EX structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path_ex.htm
 tech.root: storage
-ms.assetid: DAEA7A9C-3ACD-49E5-A634-A844D9694412
 ms.date: 03/29/2018
 keywords: ["MPIO_PASS_THROUGH_PATH_EX structure"]
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_EX, PMPIO_PASS_THROUGH_PATH_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_EX, storage.mpio_pass_through_path_ex"

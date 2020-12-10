@@ -4,7 +4,6 @@ title: ExRaiseStatus function (wdm.h)
 description: The ExRaiseStatus routine is called by drivers that supply structured exception handlers to handle particular errors that occur while they are processing I/O requests.
 old-location: kernel\exraisestatus.htm
 tech.root: kernel
-ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.date: 04/30/2018
 keywords: ["ExRaiseStatus function"]
 ms.keywords: ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, kernel.exraisestatus, wdm/ExRaiseStatus

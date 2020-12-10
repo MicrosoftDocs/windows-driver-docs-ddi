@@ -4,7 +4,6 @@ title: MmGetMaximumFileSectionSize function (ntifs.h)
 description: The MmGetMaximumFileSectionSize returns the maximum possible size of a file section for the current version of Windows.
 old-location: ifsk\mmgetmaximumfilesectionsize.htm
 tech.root: ifsk
-ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.date: 04/16/2018
 keywords: ["MmGetMaximumFileSectionSize function"]
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize

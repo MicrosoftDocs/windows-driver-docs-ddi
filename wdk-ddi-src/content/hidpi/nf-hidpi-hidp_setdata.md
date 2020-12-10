@@ -4,7 +4,6 @@ title: HidP_SetData function (hidpi.h)
 description: The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report.
 old-location: hid\hidp_setdata.htm
 tech.root: hid
-ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.date: 04/30/2018
 keywords: ["HidP_SetData function"]
 ms.keywords: HidP_SetData, HidP_SetData routine [Human Input Devices], hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData

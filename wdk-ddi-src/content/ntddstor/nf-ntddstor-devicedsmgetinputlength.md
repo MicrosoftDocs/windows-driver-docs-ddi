@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmGetInputLength
 title: DeviceDsmGetInputLength function (ntddstor.h)
 description: The DeviceDsmGetInputLength function gets the number of bytes in a DEVICE_DSM_INPUT structure.
 tech.root: storage
-ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
 ms.date: 08/23/2019
 keywords: ["DeviceDsmGetInputLength function"]
 ms.keywords: DeviceDsmGetInputLength

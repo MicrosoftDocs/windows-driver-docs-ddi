@@ -2,7 +2,6 @@
 UID: NF:icm.ColorAdapterUpdateDisplayGamma
 title: ColorAdapterUpdateDisplayGamma function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: d72a1052-c8fb-4796-a3d7-5b66f25903b1
 ms.date: 11/18/2020
 keywords: ["ColorAdapterUpdateDisplayGamma function"]
 ms.keywords: ColorAdapterUpdateDisplayGamma

@@ -4,7 +4,6 @@ title: PFND3DDDI_DESTROYPAGINGQUEUECB (d3dumddi.h)
 description: pfnDestroyPagingQueueCb waits for a paging queue to finish all operations queued to it and destroys it along with the associated sync object.
 old-location: display\pfndestroypagingqueuecb.htm
 tech.root: display
-ms.assetid: 2C039656-5384-4864-8F29-A336B0ED06C0
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DESTROYPAGINGQUEUECB callback function"]
 ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, PFND3DDDI_DESTROYPAGINGQUEUECB callback, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]

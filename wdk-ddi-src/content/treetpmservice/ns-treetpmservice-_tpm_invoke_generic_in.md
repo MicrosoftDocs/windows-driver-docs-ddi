@@ -2,7 +2,6 @@
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_IN
 title: _TPM_INVOKE_GENERIC_IN (treetpmservice.h)
 description: 
-ms.assetid: 7c474d05-45db-4467-864d-013e41610b63
 ms.date: 11/20/2020
 keywords: ["TPM_INVOKE_GENERIC_IN structure"]
 ms.keywords: _TPM_INVOKE_GENERIC_IN, TPM_INVOKE_GENERIC_IN, *PTPM_INVOKE_GENERIC_IN,

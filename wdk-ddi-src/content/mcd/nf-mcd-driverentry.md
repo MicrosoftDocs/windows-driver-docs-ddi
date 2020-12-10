@@ -4,7 +4,6 @@ title: DriverEntry function (mcd.h)
 description: The DriverEntry miniport driver routine is called when the miniport driver is loaded.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\driverentry.htm
 tech.root: storage
-ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
 ms.date: 03/29/2018
 keywords: ["DriverEntry function"]
 ms.keywords: DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry

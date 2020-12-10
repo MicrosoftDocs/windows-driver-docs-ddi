@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEA_PMEM_ERROR_SECTION
 title: WHEA_PMEM_ERROR_SECTION
 description: 
 tech.root: whea
-ms.assetid: 3f846ba4-7f55-4825-8f2b-e80971c8f099
 ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION structure"]
 ms.keywords: WHEA_PMEM_ERROR_SECTION, WHEA_PMEM_ERROR_SECTION, *PWHEA_PMEM_ERROR_SECTION,

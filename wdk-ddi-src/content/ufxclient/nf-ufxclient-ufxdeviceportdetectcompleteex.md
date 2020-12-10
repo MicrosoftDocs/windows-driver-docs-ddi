@@ -4,7 +4,6 @@ title: UfxDevicePortDetectCompleteEx function (ufxclient.h)
 description: Notifies UFX about the port type that was detected, and optionally requests an action.
 old-location: buses\ufxdeviceportdetectcompleteex.htm
 tech.root: usbref
-ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.date: 05/07/2018
 keywords: ["UfxDevicePortDetectCompleteEx function"]
 ms.keywords: UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx

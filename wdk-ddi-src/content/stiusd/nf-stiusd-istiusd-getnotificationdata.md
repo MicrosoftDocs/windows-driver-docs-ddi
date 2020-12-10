@@ -4,7 +4,6 @@ title: IStiUSD::GetNotificationData (stiusd.h)
 description: A still image minidriver's IStiUSD::GetNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istiusd_getnotificationdata.htm
 tech.root: image
-ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.date: 05/03/2018
 keywords: ["IStiUSD::GetNotificationData"]
 ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetNotificationData method, IStiUSD.GetNotificationData, IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, stiusd/IStiUSD::GetNotificationData

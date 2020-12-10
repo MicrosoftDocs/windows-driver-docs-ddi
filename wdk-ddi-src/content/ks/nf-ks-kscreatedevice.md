@@ -4,7 +4,6 @@ title: KsCreateDevice function (ks.h)
 description: The KsCreateDevice function creates an AVStream device.
 old-location: stream\kscreatedevice.htm
 tech.root: stream
-ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.date: 04/23/2018
 keywords: ["KsCreateDevice function"]
 ms.keywords: KsCreateDevice, KsCreateDevice function [Streaming Media Devices], avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, ks/KsCreateDevice, stream.kscreatedevice

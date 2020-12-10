@@ -2,7 +2,6 @@
 UID: NF:ntifs.FsRtlUninitializeBaseMcb
 title: FsRtlUninitializeBaseMcb function (ntifs.h)
 description: The FsRtlUninitializeBaseMcb function uninitializes a map control block (MCB) structure.  After calling this routine the input Mcb structure must be re-initialized before being used again.
-ms.assetid: 3c20cc02-add4-4ebb-92bf-1a50e6646439
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlUninitializeBaseMcb function"]

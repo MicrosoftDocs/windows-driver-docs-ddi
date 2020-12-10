@@ -4,7 +4,6 @@ title: IDebugSymbols3::AppendSourcePathWide (dbgeng.h)
 description: The AppendSourcePathWide method appends directories to the source path.
 old-location: debugger\appendsourcepathwide.htm
 tech.root: debugger
-ms.assetid: 54f78169-4253-4dea-921f-981658df311e
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AppendSourcePathWide"]
 ms.keywords: AppendSourcePathWide, AppendSourcePathWide method [Windows Debugging], AppendSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSourcePathWide method, IDebugSymbols3.AppendSourcePathWide, IDebugSymbols3::AppendSourcePathWide, dbgeng/IDebugSymbols3::AppendSourcePathWide, debugger.appendsourcepathwide

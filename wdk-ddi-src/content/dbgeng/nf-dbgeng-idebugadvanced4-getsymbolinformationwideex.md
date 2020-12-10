@@ -4,7 +4,6 @@ title: IDebugAdvanced4::GetSymbolInformationWideEx (dbgeng.h)
 description: The GetSymbolInformationWideEx method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwideex.htm
 tech.root: debugger
-ms.assetid: E862C691-133F-4FA5-A698-09CD5D0E32B3
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced4::GetSymbolInformationWideEx"]
 ms.keywords: GetSymbolInformationWideEx, GetSymbolInformationWideEx method [Windows Debugging], GetSymbolInformationWideEx method [Windows Debugging],IDebugAdvanced4 interface, IDebugAdvanced4 interface [Windows Debugging],GetSymbolInformationWideEx method, IDebugAdvanced4.GetSymbolInformationWideEx, IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, debugger.getsymbolinformationwideex

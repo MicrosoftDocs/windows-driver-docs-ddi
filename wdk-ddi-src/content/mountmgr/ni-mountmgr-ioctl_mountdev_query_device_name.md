@@ -4,7 +4,6 @@ title: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME (mountmgr.h)
 description: Support for this IOCTL by the mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_device_name.htm
 tech.root: storage
-ms.assetid: 3df96552-d4f6-4d1c-bc07-3eff5f3eabfb
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, storage.ioctl_mountdev_query_device_name

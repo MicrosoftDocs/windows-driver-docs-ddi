@@ -4,7 +4,6 @@ title: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS (ndis.h)
 description: The ReportFilteredNetBufferLists function reports on one or more network packets that were dropped or excluded from port delivery by the extensible switch extension. Each network packet is defined through a NET_BUFFER_LIST structure.
 old-location: netvista\reportfilterednetbufferlists.htm
 tech.root: netvista
-ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback function"]
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists

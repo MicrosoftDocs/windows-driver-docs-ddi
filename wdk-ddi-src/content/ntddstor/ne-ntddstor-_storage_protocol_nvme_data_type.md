@@ -4,7 +4,6 @@ title: STORAGE_PROTOCOL_NVME_DATA_TYPE (ntddstor.h)
 description: Describes the type of NVMe protocol-specific data that is to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_nvme_data_type.htm
 tech.root: storage
-ms.assetid: 02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD
 ms.date: 03/29/2018
 keywords: ["STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeFeature, NVMeDataTypeIdentify, NVMeDataTypeLogPage, NVMeDataTypeUnknown, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Storage Devices], STORAGE_PROTOCOL_NVME_DATA_TYPE, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeFeature, ntddstor/NVMeDataTypeIdentify, ntddstor/NVMeDataTypeLogPage, ntddstor/NVMeDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_NVME_DATA_TYPE, storage.storage_protocol_nvme_data_type"
@@ -73,7 +72,7 @@ Feature data type.
 
 ## -remarks
 
-When using [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [**STORAGE_PROTOCOL_DATA_DESCRIPTOR**](/ns-ntddstor-_storage_protocol_data_descriptor.md), configure the [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) structure as follows:
+When using [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [**STORAGE_PROTOCOL_DATA_DESCRIPTOR**](ns-ntddstor-_storage_protocol_data_descriptor.md), configure the [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) structure as follows:
 
 * Allocate a buffer that can contains both a [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) and a [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md) structure.
 

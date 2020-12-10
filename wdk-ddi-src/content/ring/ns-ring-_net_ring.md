@@ -3,7 +3,6 @@ UID: NS:ring._NET_RING
 title: _NET_RING (ring.h)
 description: Specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
 tech.root: netvista
-ms.assetid: 66232a58-73fc-4f3a-9682-0dd9f10dc901
 ms.date: 09/25/2019
 keywords: ["NET_RING structure"]
 ms.keywords: _NET_RING, NET_RING, *PNET_RING,

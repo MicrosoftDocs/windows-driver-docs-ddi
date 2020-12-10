@@ -4,7 +4,6 @@ title: SecMakeSPNEx2 function (ntifs.h)
 description: SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers.
 old-location: ifsk\secmakespnex2.htm
 tech.root: ifsk
-ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.date: 04/16/2018
 keywords: ["SecMakeSPNEx2 function"]
 ms.keywords: SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ntifs/SecMakeSPNEx2

@@ -2,7 +2,6 @@
 UID: NF:miniport.ARM64_SYSREG_OP1
 title: ARM64_SYSREG_OP1 macro (miniport.h)
 description: Returns the op1 field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
-ms.assetid: 327521a0-8b25-4b01-a946-30b7f76d5dce
 ms.date: 09/20/2018
 tech.root: storage
 keywords: ["ARM64_SYSREG_OP1 macro"]

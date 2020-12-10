@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_UICC_FILE_STRUCTURE
 title: _WWAN_UICC_FILE_STRUCTURE (wwan.h)
 description: The WWAN_UICC_FILE_STRUCTURE enumeration specifies the structure of a UICC file.
 tech.root: netvista
-ms.assetid: 60C04ECB-B85B-4884-893B-8F6BF2D31B97
 ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_STRUCTURE enumeration"]
 ms.keywords: _WWAN_UICC_FILE_STRUCTURE, WWAN_UICC_FILE_STRUCTURE, *PWWAN_UICC_FILE_STRUCTURE,

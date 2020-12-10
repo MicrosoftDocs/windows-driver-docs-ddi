@@ -4,7 +4,6 @@ title: IDebugSymbols2::SetSourcePath (dbgeng.h)
 description: The SetSourcePath method sets the source path.
 old-location: debugger\setsourcepath.htm
 tech.root: debugger
-ms.assetid: 00b5927e-4b95-4528-bc09-da90db8a7716
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::SetSourcePath"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],SetSourcePath method, IDebugSymbols2 interface [Windows Debugging],SetSourcePath method, IDebugSymbols2.SetSourcePath, IDebugSymbols2::SetSourcePath, IDebugSymbols3 interface [Windows Debugging],SetSourcePath method, IDebugSymbols3::SetSourcePath, IDebugSymbols::SetSourcePath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, SetSourcePath, SetSourcePath method [Windows Debugging], SetSourcePath method [Windows Debugging],IDebugSymbols interface, SetSourcePath method [Windows Debugging],IDebugSymbols2 interface, SetSourcePath method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetSourcePath, dbgeng/IDebugSymbols3::SetSourcePath, dbgeng/IDebugSymbols::SetSourcePath, debugger.setsourcepath

@@ -4,7 +4,6 @@ title: UPDATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolUpdateOffloadComplete function to complete an update offload operation that the driver previously initiated by calling the NdisUpdateOffload function.
 old-location: netvista\protocolupdateoffloadcomplete.htm
 tech.root: netvista
-ms.assetid: 3cd7a32a-d560-429b-b191-aeabb87433f3
 ms.date: 05/02/2018
 keywords: ["UPDATE_OFFLOAD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolUpdateOffloadComplete, ProtocolUpdateOffloadComplete callback function [Network Drivers Starting with Windows Vista], UPDATE_OFFLOAD_COMPLETE_HANDLER, UPDATE_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolUpdateOffloadComplete, netvista.protocolupdateoffloadcomplete, tcp_chim_protocol_func_dd66a468-9cad-4763-8eea-f7502811368e.xml

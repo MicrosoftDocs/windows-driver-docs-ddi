@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGK_GPU_PHYSICAL_ADDRESS
 title: _DXGK_GPU_PHYSICAL_ADDRESS
 description: The physical address of the GPU.
 tech.root: display
-ms.assetid: 8ebb972f-d62f-462b-975b-dbac5d7a647b
 ms.date: 04/04/2019
 keywords: ["DXGK_GPU_PHYSICAL_ADDRESS structure"]
 ms.prod: windows-hardware

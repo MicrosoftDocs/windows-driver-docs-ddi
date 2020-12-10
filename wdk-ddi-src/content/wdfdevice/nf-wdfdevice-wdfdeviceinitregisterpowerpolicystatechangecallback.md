@@ -4,7 +4,6 @@ title: WdfDeviceInitRegisterPowerPolicyStateChangeCallback function (wdfdevice.h
 description: The WdfDeviceInitRegisterPowerPolicyStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power policy state machine changes state.
 old-location: wdf\wdfdeviceinitregisterpowerpolicystatechangecallback.htm
 tech.root: wdf
-ms.assetid: 61ddfdf9-65cf-482b-80fe-bc5a71f905cd
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitRegisterPowerPolicyStateChangeCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback

@@ -4,7 +4,6 @@ title: EVT_SERCX2_FILECLOSE (sercx.h)
 description: The EvtSerCx2FileClose event callback function is called by version 2 of the serial framework extension (SerCx2) to notify the serial controller driver that the client released the file object that represents the logical connection to the serial controller device.
 old-location: serports\evtsercx2fileclose.htm
 tech.root: serports
-ms.assetid: C923D37B-595F-41CF-B2F3-F12303120C95
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_FILECLOSE callback function"]
 ms.keywords: 2/EvtSerCx2FileClose, EVT_SERCX2_FILECLOSE, EVT_SERCX2_FILECLOSE callback, EvtSerCx2FileClose, EvtSerCx2FileClose callback function [Serial Ports], serports.evtsercx2fileclose

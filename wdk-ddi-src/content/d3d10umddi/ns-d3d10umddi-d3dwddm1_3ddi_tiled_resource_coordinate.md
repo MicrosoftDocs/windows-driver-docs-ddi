@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 title: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE (d3d10umddi.h)
 description: Specifies the (x, y, z) coordinate values below the index tiles of a tiled resource, along with the respective subresource. Note that the coordinate values do not indicate pixels or bytes.
 old-location: display\d3dwddm1_3ddi_tiled_resource_coordinate.htm
-ms.assetid: A927CAF9-EF7F-47CC-9BDE-B6E13597368E
 ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate

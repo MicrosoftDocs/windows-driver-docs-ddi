@@ -4,7 +4,6 @@ title: IoSetCompletionRoutine function (wdm.h)
 description: The IoSetCompletionRoutine routine registers an IoCompletion routine, which will be called when the next-lower-level driver has completed the requested operation for the given IRP.
 old-location: kernel\iosetcompletionroutine.htm
 tech.root: kernel
-ms.assetid: 09c645d0-4d46-46c0-9256-8d2ddd3670b9
 ms.date: 04/30/2018
 keywords: ["IoSetCompletionRoutine function"]
 ms.keywords: IoSetCompletionRoutine, IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, kernel.iosetcompletionroutine, wdm/IoSetCompletionRoutine

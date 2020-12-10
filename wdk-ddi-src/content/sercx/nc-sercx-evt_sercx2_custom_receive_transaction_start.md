@@ -4,7 +4,6 @@ title: EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START (sercx.h)
 description: The EvtSerCx2CustomReceiveTransactionStart event callback function is called by version 2 of the serial framework extension (SerCx2) to start a custom-receive transaction.
 old-location: serports\evtsercx2customreceivetransactionstart.htm
 tech.root: serports
-ms.assetid: F90250CC-EDBF-4DB7-B889-4BF6325FB0CD
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START callback function"]
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionStart, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START callback, EvtSerCx2CustomReceiveTransactionStart, EvtSerCx2CustomReceiveTransactionStart callback function [Serial Ports], serports.evtsercx2customreceivetransactionstart

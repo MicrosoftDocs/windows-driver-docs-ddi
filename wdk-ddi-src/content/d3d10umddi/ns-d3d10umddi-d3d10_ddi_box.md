@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D10_DDI_BOX
 title: D3D10_DDI_BOX (d3d10umddi.h)
 description: The D3D10_DDI_BOX structure describes a volume.
 old-location: display\d3d10_ddi_box.htm
-ms.assetid: b09ea915-070d-4ebb-a40d-d60add5df3d8
 ms.date: 05/10/2018
 keywords: ["D3D10_DDI_BOX structure"]
 ms.keywords: D3D10_DDI_BOX, D3D10_DDI_BOX structure [Display Devices], UMDisplayDriver_Dx10param_Structs_11ac8e3e-48db-469b-a6e6-d42fd491d56e.xml, d3d10umddi/D3D10_DDI_BOX, display.d3d10_ddi_box

@@ -4,7 +4,6 @@ title: GPIO_CLIENT_RELEASE_CONTROLLER (gpioclx.h)
 description: The CLIENT_ReleaseController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device is no longer accessible.
 old-location: gpio\client_releasecontroller.htm
 tech.root: GPIO
-ms.assetid: DC73A00D-F7FA-492A-ABAF-04A5CFD85881
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_RELEASE_CONTROLLER callback function"]
 ms.keywords: CLIENT_ReleaseController, CLIENT_ReleaseController callback, CLIENT_ReleaseController callback function [Parallel Ports], GPIO.client_releasecontroller, GPIO_CLIENT_RELEASE_CONTROLLER, gpioclx/CLIENT_ReleaseController

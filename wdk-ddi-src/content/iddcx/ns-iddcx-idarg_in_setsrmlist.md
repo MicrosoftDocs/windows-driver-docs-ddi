@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDARG_IN_SETSRMLIST
 title: IDARG_IN_SETSRMLIST
 ms.date: 10/02/2020
-ms.assetid: 21a688b4-a241-4ad9-8b95-799b81e90896
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

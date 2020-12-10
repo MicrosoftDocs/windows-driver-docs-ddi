@@ -4,7 +4,6 @@ title: IOCTL_DISK_RESET_SNAPSHOT_INFO (ntdddisk.h)
 description: Clears all volume shadow copy service (VSS) hardware-based snapshot information from the disk.
 old-location: storage\ioctl_disk_reset_snapshot_info.htm
 tech.root: storage
-ms.assetid: b22b00de-4711-4896-a21c-33fbc7b1d64e
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL"]
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info

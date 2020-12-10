@@ -4,7 +4,6 @@ title: _D3DHAL_CLIPPEDTRIANGLEFAN (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_clippedtrianglefan.htm
 tech.root: display
-ms.assetid: c169c483-ffad-470c-9adb-397e275341e3
 ms.date: 05/10/2018
 keywords: ["D3DHAL_CLIPPEDTRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_CLIPPEDTRIANGLEFAN, D3DHAL_CLIPPEDTRIANGLEFAN, D3DHAL_CLIPPEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_CLIPPEDTRIANGLEFAN, LPD3DHAL_CLIPPEDTRIANGLEFAN structure pointer [Display Devices], _D3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/D3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dstrct_443edf3e-a245-41c3-ba98-2ee9634363b9.xml, display.d3dhal_clippedtrianglefan"

@@ -4,7 +4,6 @@ title: D3DDDI_EVICT_FLAGS (d3dukmdt.h)
 description: D3DDDI_EVICT_FLAGS specifies the eviction behavior.
 old-location: display\d3dddi_evict_flags.htm
 tech.root: display
-ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.date: 05/10/2018
 keywords: ["D3DDDI_EVICT_FLAGS structure"]
 ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_EVICT_FLAGS, display.d3dddi_evict_flags

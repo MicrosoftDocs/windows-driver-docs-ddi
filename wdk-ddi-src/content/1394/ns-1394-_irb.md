@@ -4,7 +4,6 @@ title: _IRB (1394.h)
 description: Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 old-location: ieee\irb.htm
 tech.root: IEEE
-ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.date: 02/15/2018
 keywords: ["IRB structure"]
 ms.keywords: "*PIRB, 1394/IRB, 1394/PIRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IEEE.irb, IRB, IRB structure [Buses], PIRB, PIRB structure pointer [Buses], _IRB"

@@ -3,7 +3,6 @@ UID: NS:ntddstor._PHYSICAL_ELEMENT_STATUS
 title: _PHYSICAL_ELEMENT_STATUS (ntddstor.h)
 description: The PHYSICAL_ELEMENT_STATUS structure defines the output buffer for IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS.
 tech.root: storage
-ms.assetid: 11c8f210-a836-4c73-a69a-160ff113894c
 ms.date: 09/10/2018
 keywords: ["PHYSICAL_ELEMENT_STATUS structure"]
 ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS,

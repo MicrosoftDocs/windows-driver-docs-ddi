@@ -4,7 +4,6 @@ title: UdecxUsbEndpointPurgeComplete function (udecxusbendpoint.h)
 description: Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint.
 old-location: buses\udecxusbendpointpurgecomplete.htm
 tech.root: usbref
-ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointPurgeComplete function"]
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete

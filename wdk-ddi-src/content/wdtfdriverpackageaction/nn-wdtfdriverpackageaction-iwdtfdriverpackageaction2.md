@@ -4,7 +4,6 @@ title: IWDTFDriverPackageAction2 (wdtfdriverpackageaction.h)
 description: Defines operations and properties that represent a driver package for imported and pre-imported driver packages.
 old-location: dtf\iwdtfdriverpackageaction2.htm
 tech.root: dtf
-ms.assetid: aa66280d-c32e-4d1c-bcc8-aa2719b61010
 ms.date: 04/04/2018
 keywords: ["IWDTFDriverPackageAction2 interface"]
 ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverPackageAction2, dtf.iwdtfdriverpackageaction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2

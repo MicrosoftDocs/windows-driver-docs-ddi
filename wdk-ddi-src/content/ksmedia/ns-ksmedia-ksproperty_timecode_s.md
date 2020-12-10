@@ -4,7 +4,6 @@ title: KSPROPERTY_TIMECODE_S (ksmedia.h)
 description: The KSPROPERTY_TIMECODE_S structure describes a timecode.
 old-location: stream\ksproperty_timecode_s.htm
 tech.root: stream
-ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TIMECODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices], PKSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TIMECODE_S, ksmedia/PKSPROPERTY_TIMECODE_S, stream.ksproperty_timecode_s, vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml"

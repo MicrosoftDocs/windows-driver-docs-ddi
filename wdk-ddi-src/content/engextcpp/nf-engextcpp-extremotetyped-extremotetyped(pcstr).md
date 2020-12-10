@@ -4,7 +4,6 @@ title: ExtRemoteTyped::ExtRemoteTyped(PCSTR) (engextcpp.h)
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_pcstr.htm
 tech.root: debugger
-ms.assetid: fbf10d5c-0a79-49f2-87e9-af63614e625c
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::ExtRemoteTyped(PCSTR)"]
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(PCSTR), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(PCSTR), debugger.extremotetyped_extremotetyped_pcstr

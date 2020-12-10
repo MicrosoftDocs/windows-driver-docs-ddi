@@ -4,7 +4,6 @@ title: AtaPortRegistryFreeBuffer function (irb.h)
 description: The AtaPortRegistryFreeBuffer routine frees the registry buffer that was allocated by using AtaPortRegistryAllocateBuffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryfreebuffer.htm
 tech.root: storage
-ms.assetid: a84dffce-977e-412a-a12a-e0e156b943ac
 ms.date: 03/29/2018
 keywords: ["AtaPortRegistryFreeBuffer function"]
 ms.keywords: AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, irb/AtaPortRegistryFreeBuffer, storage.ataportregistryfreebuffer

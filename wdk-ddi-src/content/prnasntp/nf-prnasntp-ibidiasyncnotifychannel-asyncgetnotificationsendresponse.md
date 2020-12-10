@@ -4,7 +4,6 @@ title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 tech.root: print
-ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
 ms.date: 04/20/2018
 keywords: ["IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse"]
 ms.keywords: AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse

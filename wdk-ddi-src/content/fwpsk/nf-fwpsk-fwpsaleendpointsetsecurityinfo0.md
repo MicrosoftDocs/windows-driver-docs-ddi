@@ -4,7 +4,6 @@ title: FwpsAleEndpointSetSecurityInfo0 function (fwpsk.h)
 description: The FwpsAleEndpointSetSecurityInfo0 function sets security information about the application layer enforcement (ALE) endpoint enumeration session.Note  FwpsAleEndpointSetSecurityInfo0 is a specific version of FwpsAleEndpointSetSecurityInfo.
 old-location: netvista\fwpsaleendpointsetsecurityinfo0.htm
 tech.root: netvista
-ms.assetid: 7b7fed83-dcf8-466d-8bd7-42a5ed15cced
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointSetSecurityInfo0 function"]
 ms.keywords: FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointSetSecurityInfo0, netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml

@@ -4,7 +4,6 @@ title: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 (fwpsk.h)
 description: The filter engine calls the vSwitchPolicyEventNotifyFn (FWPS_VSWITCH_POLICY_EVENT_CALLBACK0) callout function to notify the callout driver about virtual switch policy events.Note  FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 is a specific version of FWPS_VSWITCH_POLICY_EVENT_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_policy_event_callback0.htm
 tech.root: netvista
-ms.assetid: 8D0F61E2-A891-4D51-9E33-BFA491B95505
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]

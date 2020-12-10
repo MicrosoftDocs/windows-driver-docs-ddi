@@ -4,7 +4,6 @@ title: NdisMCmDispatchIncomingDropParty macro (ndis.h)
 description: NdisMCmDispatchIncomingDropParty notifies a client that it should remove a particular party on a multipoint VC.
 old-location: netvista\ndismcmdispatchincomingdropparty.htm
 tech.root: netvista
-ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingDropParty macro"]
 ms.keywords: NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty

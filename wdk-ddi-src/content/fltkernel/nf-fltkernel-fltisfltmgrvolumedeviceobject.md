@@ -4,7 +4,6 @@ title: FltIsFltMgrVolumeDeviceObject function (fltkernel.h)
 description: The FltIsFltMgrVolumeDeviceObject routine determines whether the given device object belongs to filter manager and if the device object is a volume device object.
 old-location: ifsk\fltisfltmgrvolumedeviceobject.htm
 tech.root: ifsk
-ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.date: 04/16/2018
 keywords: ["FltIsFltMgrVolumeDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], fltkernel/FltIsFltMgrVolumeDeviceObject, ifsk.fltisfltmgrvolumedeviceobject

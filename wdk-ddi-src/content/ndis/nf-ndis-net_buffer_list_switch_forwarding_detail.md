@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 title: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro (ndis.h)
 description: Hyper-V extensible switch extensions use the NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro to access the NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union in the extensible switch context area in a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: 58680bce-dbd5-43c2-aca8-0e922ef51155
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro"]
 ms.keywords: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL

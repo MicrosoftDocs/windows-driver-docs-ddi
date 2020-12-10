@@ -4,7 +4,6 @@ title: NdisInterlockedPushEntrySList macro (ndis.h)
 description: The NdisInterlockedPushEntrySList function inserts an entry at the head of a sequenced, singly linked list.
 old-location: netvista\ndisinterlockedpushentryslist.htm
 tech.root: netvista
-ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedPushEntrySList macro"]
 ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist

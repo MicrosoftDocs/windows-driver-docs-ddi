@@ -4,7 +4,6 @@ title: _NDIS_NIC_SWITCH_VF_INFO_ARRAY (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VF_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a PCI Express (PCIe) virtual functions (VF) that have been enabled and allocated on a network adapter.
 old-location: netvista\ndis_nic_switch_vf_info_array.htm
 tech.root: netvista
-ms.assetid: e772eafe-e0c7-4d98-8a9e-7eb56cface37
 ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_VF_INFO_ARRAY structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VF_INFO_ARRAY, NDIS_NIC_SWITCH_VF_INFO_ARRAY, NDIS_NIC_SWITCH_VF_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_INFO_ARRAY, PNDIS_NIC_SWITCH_VF_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_INFO_ARRAY, netvista.ndis_nic_switch_vf_info_array, ntddndis/NDIS_NIC_SWITCH_VF_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VF_INFO_ARRAY"

@@ -4,7 +4,6 @@ title: FsRtlFindInTunnelCache function (ntifs.h)
 description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
 old-location: ifsk\fsrtlfindintunnelcache.htm
 tech.root: ifsk
-ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.date: 04/16/2018
 keywords: ["FsRtlFindInTunnelCache function"]
 ms.keywords: FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, ifsk.fsrtlfindintunnelcache, ntifs/FsRtlFindInTunnelCache

@@ -4,7 +4,6 @@ title: RtlSizeTSub function (ntintsafe.h)
 description: Subtracts one value of type SIZE_T from another.
 old-location: kernel\rtlsizetsub.htm
 tech.root: kernel
-ms.assetid: B7508B3B-DCE7-42F4-9257-E1E140625DA9
 ms.date: 04/30/2018
 keywords: ["RtlSizeTSub function"]
 ms.keywords: RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture], kernel.rtlsizetsub, ntintsafe/RtlSizeTSub

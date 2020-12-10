@@ -4,7 +4,6 @@ title: FWPS_STREAM_DATA0_ (fwpsk.h)
 description: The FWPS_STREAM_DATA0 structure describes a portion of a data stream.Note  FWPS_STREAM_DATA0 is a specific version of FWPS_STREAM_DATA.
 old-location: netvista\fwps_stream_data0.htm
 tech.root: netvista
-ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.date: 05/02/2018
 keywords: ["FWPS_STREAM_DATA0_ structure"]
 ms.keywords: FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml

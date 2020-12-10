@@ -4,7 +4,6 @@ title: StreamClassDebugAssert function (strmini.h)
 description: This function is obsolete.
 old-location: stream\streamclassdebugassert.htm
 tech.root: stream
-ms.assetid: df9b3231-4c43-4d4b-b128-e8d6a9f21b17
 ms.date: 06/02/2020
 keywords: ["StreamClassDebugAssert function"]
 ms.keywords: StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert

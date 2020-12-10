@@ -4,7 +4,6 @@ title: READ_PORT_BUFFER_ULONG function (wudfddi_hwaccess.h)
 description: The READ_PORT_BUFFER_ULONG function reads a number of ULONG values from the specified port address into a buffer.
 old-location: wdf\read_port_buffer_ulong.htm
 tech.root: wdf
-ms.assetid: 5E1FFE55-49EE-4D8B-8826-023C751C7520
 ms.date: 02/26/2018
 keywords: ["READ_PORT_BUFFER_ULONG function"]
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG function, umdf.read_port_buffer_ulong, wdf.read_port_buffer_ulong, wudfddi_hwaccess/READ_PORT_BUFFER_ULONG

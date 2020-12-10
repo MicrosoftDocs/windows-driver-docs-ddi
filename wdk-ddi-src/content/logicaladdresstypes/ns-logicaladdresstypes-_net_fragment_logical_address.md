@@ -3,7 +3,6 @@ UID: NS:logicaladdresstypes._NET_FRAGMENT_LOGICAL_ADDRESS
 title: NET_FRAGMENT_LOGICAL_ADDRESS (logicaladdresstypes.h)
 description: The NET_FRAGMENT_LOGICAL_ADDRESS structure contains DMA logical address information for a NET_FRAGMENT.
 tech.root: netvista
-ms.assetid: 9E757066-6A96-41DF-8185-3264E5076651
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_LOGICAL_ADDRESS structure"]
 ms.keywords: NET_FRAGMENT_LOGICAL_ADDRESS, NET_FRAGMENT_LOGICAL_ADDRESS,

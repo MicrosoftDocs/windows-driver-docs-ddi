@@ -4,7 +4,6 @@ title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT) method sets the type, as well as default, current, and valid values for a FLOAT property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_float__list_.htm
 tech.root: image
-ms.assetid: b6a554b7-9e3e-4362-9dcf-fd84d9a69150
 ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,FLOAT    ,FLOAT  ,INT  ,PFLOAT  ), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(FLOAT,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_float__list_, wiauFncs_18bd612f-ceb6-44ab-9242-1ef033f1bce8.xml, wiautil/CWiauPropertyList::SetValidValues

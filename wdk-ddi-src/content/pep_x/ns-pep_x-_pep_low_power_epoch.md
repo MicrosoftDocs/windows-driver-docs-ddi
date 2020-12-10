@@ -4,7 +4,6 @@ title: _PEP_LOW_POWER_EPOCH (pep_x.h)
 description: The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).
 old-location: kernel\pep_low_power_epoch.htm
 tech.root: kernel
-ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.date: 04/30/2018
 keywords: ["PEP_LOW_POWER_EPOCH structure"]
 ms.keywords: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"

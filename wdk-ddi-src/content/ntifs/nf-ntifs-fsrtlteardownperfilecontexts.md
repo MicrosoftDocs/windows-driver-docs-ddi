@@ -4,7 +4,6 @@ title: FsRtlTeardownPerFileContexts function (ntifs.h)
 description: File systems call theFsRtlTeardownPerFileContexts routine to free FSRTL_PER_FILE_CONTEXT objects that are associated with a file control block (FCB) structure.
 old-location: ifsk\fsrtlteardownperfilecontexts.htm
 tech.root: ifsk
-ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.date: 04/16/2018
 keywords: ["FsRtlTeardownPerFileContexts function"]
 ms.keywords: FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts

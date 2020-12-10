@@ -4,7 +4,6 @@ title: RtlFreeUnicodeString function (wdm.h)
 description: The RtlFreeUnicodeString routine releases storage that was allocated by RtlAnsiStringToUnicodeString or RtlUpcaseUnicodeString.
 old-location: kernel\rtlfreeunicodestring.htm
 tech.root: kernel
-ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.date: 04/30/2018
 keywords: ["RtlFreeUnicodeString function"]
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString

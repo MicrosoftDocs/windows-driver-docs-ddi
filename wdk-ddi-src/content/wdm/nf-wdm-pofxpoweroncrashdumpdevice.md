@@ -4,7 +4,6 @@ title: PoFxPowerOnCrashdumpDevice function (wdm.h)
 description: The PoFxPowerOnCrashdumpDevice routine requests that a crash-dump device be turned on.
 old-location: kernel\pofxpoweroncrashdumpdevice.htm
 tech.root: kernel
-ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.date: 04/30/2018
 keywords: ["PoFxPowerOnCrashdumpDevice function"]
 ms.keywords: PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice

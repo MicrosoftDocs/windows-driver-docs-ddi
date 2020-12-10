@@ -4,7 +4,6 @@ title: IWDFIoRequest2::GetEffectiveIoType (wudfddi.h)
 description: The GetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the IWDFIoRequest2 interface represents.
 old-location: wdf\iwdfiorequest2_geteffectiveiotype.htm
 tech.root: wdf
-ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest2::GetEffectiveIoType"]
 ms.keywords: GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetEffectiveIoType method, IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType

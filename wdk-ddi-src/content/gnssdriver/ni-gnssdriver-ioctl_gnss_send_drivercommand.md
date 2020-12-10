@@ -4,7 +4,6 @@ title: IOCTL_GNSS_SEND_DRIVERCOMMAND (gnssdriver.h)
 description: The IOCTL_GNSS_SEND_DRIVERCOMMAND control code is used by the GNSS adapter to execute well-defined commands on the driver and also to set driver configuration parameters.
 old-location: gnss\ioctl_gnss_send_drivercommand.htm
 tech.root: gnss
-ms.assetid: CC991E95-D7E2-4B40-9D51-EA38C6732C7B
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_SEND_DRIVERCOMMAND IOCTL"]
 ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnss.ioctl_gnss_send_drivercommand, gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND

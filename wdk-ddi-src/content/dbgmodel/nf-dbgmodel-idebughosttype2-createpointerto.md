@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostType2.CreatePointerTo
 title: IDebugHostType2::CreatePointerTo (dbgmodel.h)
 description: For any given type, this returns a new IDebugHostType which is a pointer to this type.
-ms.assetid: 52c9d51f-bda3-4599-904e-cd7fa27b0bfc
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::CreatePointerTo"]
 ms.keywords: IDebugHostType2::CreatePointerTo, CreatePointerTo, IDebugHostType2.CreatePointerTo, IDebugHostType2::CreatePointerTo, IDebugHostType2.CreatePointerTo

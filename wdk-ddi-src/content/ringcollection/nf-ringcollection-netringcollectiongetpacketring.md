@@ -3,7 +3,6 @@ UID: NF:ringcollection.NetRingCollectionGetPacketRing
 title: NetRingCollectionGetPacketRing function (ringcollection.h)
 description: The NetRingCollectionGetPacketRing gets the packet ring for a packet queue.
 tech.root: netvista
-ms.assetid: D4B33AEA-64FD-42F4-BADB-3CF9A1D0BBC6
 ms.date: 02/06/2019
 keywords: ["NetRingCollectionGetPacketRing function"]
 ms.keywords: NetRingCollectionGetPacketRing

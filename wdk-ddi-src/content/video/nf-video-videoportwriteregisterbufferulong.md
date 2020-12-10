@@ -4,7 +4,6 @@ title: VideoPortWriteRegisterBufferUlong function (video.h)
 description: The VideoPortWriteRegisterBufferUlong function writes a number of ULONG values to a mapped register.
 old-location: display\videoportwriteregisterbufferulong.htm
 tech.root: display
-ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterBufferUlong function"]
 ms.keywords: VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, video/VideoPortWriteRegisterBufferUlong

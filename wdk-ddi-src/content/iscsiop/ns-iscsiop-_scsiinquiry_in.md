@@ -4,7 +4,6 @@ title: _ScsiInquiry_IN (iscsiop.h)
 description: The ScsiInquiry_IN structure holds the input data for the ScsiInquiry method, which is used to send a SCSI inquiry command.
 old-location: storage\scsiinquiry_in.htm
 tech.root: storage
-ms.assetid: b1a73ef7-c13a-4627-8eb0-b9285567caec
 ms.date: 03/29/2018
 keywords: ["ScsiInquiry_IN structure"]
 ms.keywords: "*PScsiInquiry_IN, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, iscsiop/PScsiInquiry_IN, iscsiop/ScsiInquiry_IN, storage.scsiinquiry_in, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml"

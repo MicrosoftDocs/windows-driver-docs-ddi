@@ -3,7 +3,6 @@ UID: NF:portcls.IMiniportWaveRTStream.SetState
 title: IMiniportWaveRTStream::SetState (portcls.h)
 description: The SetState method changes the transport state of the audio stream.
 tech.root: audio
-ms.assetid: 840b43a1-0c6d-416c-ad0c-5c5739744b4f
 ms.date: 09/29/2020
 keywords: ["IMiniportWaveRTStream::SetState"]
 ms.keywords: IMiniportWaveRTStream::SetState, SetState, IMiniportWaveRTStream.SetState, IMiniportWaveRTStream::SetState, IMiniportWaveRTStream.SetState

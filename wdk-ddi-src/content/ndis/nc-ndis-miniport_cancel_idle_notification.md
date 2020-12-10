@@ -4,7 +4,6 @@ title: MINIPORT_CANCEL_IDLE_NOTIFICATION (ndis.h)
 description: NDIS calls the MiniportCancelIdleNotification handler function to notify the miniport driver that NDIS has detected activity on the suspended network adapter.
 old-location: netvista\miniportcancelidlenotification.htm
 tech.root: netvista
-ms.assetid: 9965E4EA-10E3-4240-9E4F-D3B49B8F9593
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CANCEL_IDLE_NOTIFICATION callback function"]
 ms.keywords: MINIPORT_CANCEL_IDLE_NOTIFICATION, MINIPORT_CANCEL_IDLE_NOTIFICATION callback, MiniportCancelIdleNotification, MiniportCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelIdleNotification, netvista.miniportcancelidlenotification

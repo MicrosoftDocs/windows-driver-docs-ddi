@@ -4,7 +4,6 @@ title: _WWAN_REGISTRATION_STATE (wwan.h)
 description: The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\wwan_registration_state.htm
 tech.root: netvista
-ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.date: 04/04/2019
 keywords: ["WWAN_REGISTRATION_STATE structure"]
 ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"

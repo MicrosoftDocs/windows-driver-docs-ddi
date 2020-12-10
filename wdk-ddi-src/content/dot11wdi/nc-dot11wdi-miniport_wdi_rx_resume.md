@@ -4,7 +4,6 @@ title: MINIPORT_WDI_RX_RESUME (dot11wdi.h)
 description: The MiniportWdiRxResume handler function is issued by the RxMgr after it returns a pause status to a data indication.
 old-location: netvista\miniportwdirxresume.htm
 tech.root: netvista
-ms.assetid: 483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_RX_RESUME callback function"]
 ms.keywords: MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME callback, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume

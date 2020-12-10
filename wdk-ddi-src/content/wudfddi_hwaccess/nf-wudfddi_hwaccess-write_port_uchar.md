@@ -4,7 +4,6 @@ title: WRITE_PORT_UCHAR function (wudfddi_hwaccess.h)
 description: The WRITE_PORT_UCHAR function writes a byte to the specified port address.
 old-location: wdf\write_port_uchar.htm
 tech.root: wdf
-ms.assetid: 5AA3DD53-26A0-460F-9F6D-3515F9C334FA
 ms.date: 02/26/2018
 keywords: ["WRITE_PORT_UCHAR function"]
 ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR function, umdf.write_port_uchar, wdf.write_port_uchar, wudfddi_hwaccess/WRITE_PORT_UCHAR

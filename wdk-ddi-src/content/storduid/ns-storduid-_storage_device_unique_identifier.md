@@ -4,7 +4,6 @@ title: _STORAGE_DEVICE_UNIQUE_IDENTIFIER (storduid.h)
 description: The STORAGE_DEVICE_UNIQUE_IDENTIFIER structure defines a device unique identifier (DUID).
 old-location: storage\storage_device_unique_identifier.htm
 tech.root: storage
-ms.assetid: 02de3382-031a-4d42-b349-786248da9c5c
 ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_UNIQUE_IDENTIFIER structure"]
 ms.keywords: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], _STORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml"

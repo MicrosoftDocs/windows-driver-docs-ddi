@@ -4,7 +4,6 @@ title: _DD_MULTISAMPLEQUALITYLEVELSDATA (d3dhal.h)
 description: DirectX 9.0 and later versions only. DD_MULTISAMPLEQUALITYLEVELSDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS.
 old-location: display\dd_multisamplequalitylevelsdata.htm
 tech.root: display
-ms.assetid: ff8bc5d8-5d65-4752-9318-f775394ae2b9
 ms.date: 05/10/2018
 keywords: ["DD_MULTISAMPLEQUALITYLEVELSDATA structure"]
 ms.keywords: DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], _DD_MULTISAMPLEQUALITYLEVELSDATA, d3dhal/DD_MULTISAMPLEQUALITYLEVELSDATA, d3dstrct_6a515881-91b7-4072-bf6c-4e10153c1124.xml, display.dd_multisamplequalitylevelsdata

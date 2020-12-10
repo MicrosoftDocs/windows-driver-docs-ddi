@@ -4,7 +4,6 @@ title: FwpsQueryConnectionSioFormatRedirectRecords0 function (fwpsk.h)
 description: The FwpsQueryConnectionSioFormatRedirectRecords0 function returns the connection redirect records for a redirected connection.
 old-location: netvista\fwpsqueryconnectionsioformatredirectrecords0.htm
 tech.root: netvista
-ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
 ms.date: 05/02/2018
 keywords: ["FwpsQueryConnectionSioFormatRedirectRecords0 function"]
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0

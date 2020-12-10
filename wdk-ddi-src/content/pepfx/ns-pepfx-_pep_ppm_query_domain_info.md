@@ -4,7 +4,6 @@ title: _PEP_PPM_QUERY_DOMAIN_INFO (pepfx.h)
 description: Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. .
 old-location: kernel\pep_ppm_query_domain_info.htm
 tech.root: kernel
-ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_DOMAIN_INFO structure"]
 ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"

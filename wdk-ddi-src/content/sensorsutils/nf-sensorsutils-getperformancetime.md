@@ -2,7 +2,6 @@
 UID: NF:sensorsutils.GetPerformanceTime
 title: GetPerformanceTime function (sensorsutils.h)
 description: This routine calculates system time in milliseconds.
-ms.assetid: f37e8d1a-48dc-403c-a95e-1b3572dc14ac
 ms.date: 08/08/2018
 keywords: ["GetPerformanceTime function"]
 tech.root: sensors

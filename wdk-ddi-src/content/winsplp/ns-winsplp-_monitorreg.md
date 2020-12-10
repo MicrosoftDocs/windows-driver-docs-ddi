@@ -4,7 +4,6 @@ title: _MONITORREG (winsplp.h)
 description: The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 old-location: print\monitorreg.htm
 tech.root: print
-ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.date: 11/04/2020
 keywords: ["MONITORREG structure"]
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"

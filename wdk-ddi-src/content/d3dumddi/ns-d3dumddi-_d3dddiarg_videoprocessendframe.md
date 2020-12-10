@@ -4,7 +4,6 @@ title: _D3DDDIARG_VIDEOPROCESSENDFRAME (d3dumddi.h)
 description: The D3DDDIARG_VIDEOPROCESSENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) video process that should stop processing a frame.
 old-location: display\d3dddiarg_videoprocessendframe.htm
 tech.root: display
-ms.assetid: 948f10cb-215c-4a21-a275-ffdbf0ee1593
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_VIDEOPROCESSENDFRAME structure"]
 ms.keywords: D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices], UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, display.d3dddiarg_videoprocessendframe

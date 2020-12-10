@@ -4,7 +4,6 @@ title: _DXVA_VideoLighting (dxva.h)
 description: The DXVA_VideoLighting enumeration type contains enumerators that identify lighting conditions for viewing video.
 old-location: display\dxva_videolighting.htm
 tech.root: display
-ms.assetid: 09adfa3f-443b-4500-bb08-27f91da20778
 ms.date: 05/10/2018
 keywords: ["DXVA_VideoLighting enumeration"]
 ms.keywords: DXVA_VideoLighting, DXVA_VideoLighting enumeration [Display Devices], DXVA_VideoLightingMask, DXVA_VideoLightingShift, DXVA_VideoLighting_Unknown, DXVA_VideoLighting_bright, DXVA_VideoLighting_dark, DXVA_VideoLighting_dim, DXVA_VideoLighting_office, _DXVA_VideoLighting, display.dxva_videolighting, dxva/DXVA_VideoLighting, dxva/DXVA_VideoLightingMask, dxva/DXVA_VideoLightingShift, dxva/DXVA_VideoLighting_Unknown, dxva/DXVA_VideoLighting_bright, dxva/DXVA_VideoLighting_dark, dxva/DXVA_VideoLighting_dim, dxva/DXVA_VideoLighting_office, dxvaref_c223ad8d-6e70-4672-b286-292a7e36d6f7.xml

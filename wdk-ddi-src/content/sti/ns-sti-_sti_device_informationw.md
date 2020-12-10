@@ -4,7 +4,6 @@ title: _STI_DEVICE_INFORMATIONW (sti.h)
 description: The STI_DEVICE_INFORMATION structure is used as an output parameter for the IStillImage::GetDeviceList and IStillImage::GetDeviceInfo functions. It is used as an input parameter for IStillImage::SetupDeviceParameters.
 old-location: image\sti_device_information.htm
 tech.root: image
-ms.assetid: 0c285630-876d-4b06-aace-4a2c4c06c1cb
 ms.date: 05/03/2018
 keywords: ["STI_DEVICE_INFORMATIONW structure"]
 ms.keywords: "*PSTI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_DEVICE_INFORMATION, STI_DEVICE_INFORMATION structure [Imaging Devices], STI_DEVICE_INFORMATIONW, _STI_DEVICE_INFORMATIONW, image.sti_device_information, sti/PSTI_DEVICE_INFORMATION, sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml"

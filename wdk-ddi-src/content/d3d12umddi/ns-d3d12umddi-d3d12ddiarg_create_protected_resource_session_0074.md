@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: c0e26230-83c1-419c-8cf2-1ca332744e91
 tech.root: display
 description: Creation arguments for a protected resource session.
 req.construct-type: structure

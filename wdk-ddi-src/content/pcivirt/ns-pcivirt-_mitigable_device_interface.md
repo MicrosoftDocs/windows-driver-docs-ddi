@@ -4,7 +4,6 @@ title: _MITIGABLE_DEVICE_INTERFACE (pcivirt.h)
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver for the mitigable device interface.
 old-location: pci\mitigable_device_interface.htm
 tech.root: PCI
-ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.date: 02/24/2018
 keywords: ["MITIGABLE_DEVICE_INTERFACE structure"]
 ms.keywords: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE"

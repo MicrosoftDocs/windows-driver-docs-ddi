@@ -4,7 +4,6 @@ title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS (ntddvol.h)
 description: Returns the physical location(s) of a volume on one or more disks.
 old-location: storage\ioctl_volume_get_volume_disk_extents.htm
 tech.root: storage
-ms.assetid: d831ea36-16ee-4723-95b1-f9903106b7c0
 ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL"]
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, storage.ioctl_volume_get_volume_disk_extents

@@ -4,7 +4,6 @@ title: KsDisableEvent function (ks.h)
 description: The KsDisableEvent function disables events requested through IOCTL_KS_DISABLE_EVENT.
 old-location: stream\ksdisableevent.htm
 tech.root: stream
-ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.date: 04/23/2018
 keywords: ["KsDisableEvent function"]
 ms.keywords: KsDisableEvent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml, stream.ksdisableevent

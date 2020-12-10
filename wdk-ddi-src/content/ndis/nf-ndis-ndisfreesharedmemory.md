@@ -4,7 +4,6 @@ title: NdisFreeSharedMemory function (ndis.h)
 description: The NdisFreeSharedMemory function frees shared memory that a driver allocated from a shared memory provider.
 old-location: netvista\ndisfreesharedmemory.htm
 tech.root: netvista
-ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.date: 05/02/2018
 keywords: ["NdisFreeSharedMemory function"]
 ms.keywords: NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory

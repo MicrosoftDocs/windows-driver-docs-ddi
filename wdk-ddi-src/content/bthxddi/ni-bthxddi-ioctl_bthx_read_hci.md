@@ -4,7 +4,6 @@ title: IOCTL_BTHX_READ_HCI (bthxddi.h)
 description: IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the transport layer.
 old-location: bltooth\ioctl_bthx_hci_read.htm
 tech.root: bltooth
-ms.assetid: 02CC3534-D319-40C1-A73C-DEFC1F5709F7
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_READ_HCI IOCTL"]
 ms.keywords: IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI

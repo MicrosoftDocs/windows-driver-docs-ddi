@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_CREATESHADERRESOURCEVIEW
 title: PFND3D10DDI_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
 description: The CreateShaderResourceView function creates a shader resource view.
 old-location: display\createshaderresourceview.htm
-ms.assetid: 3b1c998d-3fde-4712-ba74-7c8033033182
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CREATESHADERRESOURCEVIEW callback function"]
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView callback function [Display Devices], PFND3D10DDI_CREATESHADERRESOURCEVIEW, PFND3D10DDI_CREATESHADERRESOURCEVIEW callback, UserModeDisplayDriverDx10_Functions_183935f7-c6ab-4ea9-9e33-a4586daf3097.xml, d3d10umddi/CreateShaderResourceView, display.createshaderresourceview

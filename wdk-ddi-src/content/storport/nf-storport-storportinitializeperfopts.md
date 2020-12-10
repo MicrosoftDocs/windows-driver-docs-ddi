@@ -4,7 +4,6 @@ title: StorPortInitializePerfOpts function (storport.h)
 description: The StorPortInitializePerfOpts function initializes the performance optimizations that both the miniport driver and the Storport driver support using a PERF_CONFIGURATION_DATA structure.
 old-location: storage\storportinitializeperfopts.htm
 tech.root: storage
-ms.assetid: fbaf864c-d499-456c-be3b-b486c637877e
 ms.date: 03/29/2018
 keywords: ["StorPortInitializePerfOpts function"]
 ms.keywords: StorPortInitializePerfOpts, StorPortInitializePerfOpts function [Storage Devices], storage.storportinitializeperfopts, storport/StorPortInitializePerfOpts, storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml

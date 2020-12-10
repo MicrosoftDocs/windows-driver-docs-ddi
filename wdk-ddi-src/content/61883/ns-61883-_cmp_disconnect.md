@@ -4,7 +4,6 @@ title: _CMP_DISCONNECT (61883.h)
 description: This structure is used to break a connection.
 old-location: ieee\cmp_disconnect.htm
 tech.root: IEEE
-ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.date: 02/15/2018
 keywords: ["CMP_DISCONNECT structure"]
 ms.keywords: "*PCMP_DISCONNECT, 61883/CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT, CMP_DISCONNECT structure [Buses], IEEE.cmp_disconnect, PCMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], _CMP_DISCONNECT"

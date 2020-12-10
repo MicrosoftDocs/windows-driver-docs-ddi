@@ -4,7 +4,6 @@ title: IPrintSchemaElement (printerextension.h)
 description: Provides access to the underlying XML node and name attribute information for a Print Schema element.
 old-location: print\iprintschemaelement_interface.htm
 tech.root: print
-ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
 ms.date: 06/25/2020
 keywords: ["IPrintSchemaElement interface"]
 ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices],described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement

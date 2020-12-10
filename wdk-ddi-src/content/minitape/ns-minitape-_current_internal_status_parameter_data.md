@@ -2,7 +2,6 @@
 UID: NS:minitape._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (minitape.h)
 description: 
-ms.assetid: 633807f0-5708-4583-ab51-5aa0467c4b30
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]

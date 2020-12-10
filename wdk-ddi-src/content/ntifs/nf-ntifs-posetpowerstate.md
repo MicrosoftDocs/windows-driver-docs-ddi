@@ -4,7 +4,6 @@ title: PoSetPowerState function (ntifs.h)
 description: The PoSetPowerState routine notifies the system of a change in the device power state for a device.
 old-location: kernel\posetpowerstate.htm
 tech.root: kernel
-ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.date: 04/30/2018
 keywords: ["PoSetPowerState function"]
 ms.keywords: PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, wdm/PoSetPowerState

@@ -2,7 +2,6 @@
 UID: NS:scsi._VPD_EXTENDED_INQUIRY_DATA_PAGE
 title: _VPD_EXTENDED_INQUIRY_DATA_PAGE (scsi.h)
 description: 
-ms.assetid: c1576a19-8f1a-44f5-af68-6fb1804a1878
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]

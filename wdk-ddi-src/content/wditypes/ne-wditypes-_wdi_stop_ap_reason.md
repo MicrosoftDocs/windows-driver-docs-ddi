@@ -4,7 +4,6 @@ title: _WDI_STOP_AP_REASON (wditypes.h)
 description: The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 old-location: netvista\wdi_stop_ap_reason.htm
 tech.root: netvista
-ms.assetid: F0CACC25-2F7B-431A-8AAB-CBE495178CC1
 ms.date: 05/02/2018
 keywords: ["WDI_STOP_AP_REASON enumeration"]
 ms.keywords: WDI_STOP_AP_REASON, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON_IHV_START, _WDI_STOP_AP_REASON, netvista.wdi_stop_ap_reason, wditypes/WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_IHV_END, wditypes/WDI_STOP_AP_REASON_IHV_START

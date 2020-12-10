@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATEOVERLAY (d3dumddi.h)
 description: The CreateOverlay function allocates overlay hardware and makes the overlay visible.
 old-location: display\createoverlay.htm
 tech.root: display
-ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATEOVERLAY callback function"]
 ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, PFND3DDDI_CREATEOVERLAY callback, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay

@@ -4,7 +4,6 @@ title: PROTOCOL_RECEIVE_NET_BUFFER_LISTS (ndis.h)
 description: The ProtocolReceiveNetBufferLists function processes receive indications from underlying drivers.Note  You must declare the function by using the PROTOCOL_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\protocolreceivenetbufferlists.htm
 tech.root: netvista
-ms.assetid: c964b4b8-ab07-4a07-9965-5cc06c028c20
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: PROTOCOL_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback, ProtocolReceiveNetBufferLists, ProtocolReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolReceiveNetBufferLists, ndis_sendrcv_ref_80c46411-a010-442f-a978-5f9227abb70a.xml, netvista.protocolreceivenetbufferlists

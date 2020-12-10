@@ -4,7 +4,6 @@ title: WcsGetDefaultColorProfileSize function (icm.h)
 description: The WcsGetDefaultColorProfileSize function returns the size, in bytes, of the default color profile name for a device, including the NULL terminator.
 old-location: print\wcsgetdefaultcolorprofilesize.htm
 tech.root: print
-ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
 ms.date: 08/26/2020
 keywords: ["WcsGetDefaultColorProfileSize function"]
 ms.keywords: WcsGetDefaultColorProfileSize, WcsGetDefaultColorProfileSize function [Print Devices], colorfnc_8259a030-267a-4d53-93fe-73e63f0e5fd7.xml, icm/WcsGetDefaultColorProfileSize, print.wcsgetdefaultcolorprofilesize

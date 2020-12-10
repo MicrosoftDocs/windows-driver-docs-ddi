@@ -4,7 +4,6 @@ title: IStillImageW::Release (sti.h)
 description: The IStillImage::Release method closes the instance of the COM object that was created by a previous call to IStillImage::StiCreateInstance, and removes access to the object's interface.
 old-location: image\istillimage_release.htm
 tech.root: image
-ms.assetid: 3c595531-a1b0-48a5-867c-f1e6558e46ff
 ms.date: 05/03/2018
 keywords: ["IStillImageW::Release"]
 ms.keywords: IStillImageW interface [Imaging Devices],Release method, IStillImageW.Release, IStillImageW::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStillImageW interface, image.istillimage_release, sti/IStillImageW::Release, stifnc_e1ab4835-ed24-4c92-a879-f57061656825.xml

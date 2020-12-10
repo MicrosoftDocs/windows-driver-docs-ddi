@@ -4,7 +4,6 @@ title: PoFxCompleteIdleCondition function (wdm.h)
 description: The PoFxCompleteIdleCondition routine informs the power management framework (PoFx) that the specified component has completed a pending change to the idle condition.
 old-location: kernel\pofxcompleteidlecondition.htm
 tech.root: kernel
-ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.date: 04/30/2018
 keywords: ["PoFxCompleteIdleCondition function"]
 ms.keywords: PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition

@@ -4,7 +4,6 @@ title: IoDeleteController function (ntddk.h)
 description: The IoDeleteController routine removes a given controller object from the system, for example, when the driver that created it is being unloaded.
 old-location: kernel\iodeletecontroller.htm
 tech.root: kernel
-ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.date: 04/30/2018
 keywords: ["IoDeleteController function"]
 ms.keywords: IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, kernel.iodeletecontroller, ntddk/IoDeleteController

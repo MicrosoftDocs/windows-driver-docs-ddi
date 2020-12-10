@@ -4,7 +4,6 @@ title: PosCxRetainDevice function (poscx.h)
 description: PosCxRetainDevice is called to extend the ownership of the device.
 old-location: pos\poscxretaindevice.htm
 tech.root: pos
-ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.date: 02/23/2018
 keywords: ["PosCxRetainDevice function"]
 ms.keywords: PosCxRetainDevice, PosCxRetainDevice function, pos.poscxretaindevice, poscx/PosCxRetainDevice

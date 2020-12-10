@@ -4,7 +4,6 @@ title: IDebugAdvanced2::GetSourceFileInformation (dbgeng.h)
 description: The GetSourceFileInformation method returns specified information about a source file.
 old-location: debugger\getsourcefileinformation.htm
 tech.root: debugger
-ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced2::GetSourceFileInformation"]
 ms.keywords: GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSourceFileInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced2.GetSourceFileInformation, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, dbgeng/IDebugAdvanced2::GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation

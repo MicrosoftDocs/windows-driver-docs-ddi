@@ -4,7 +4,6 @@ title: RtlStringCchCatNExW function (ntstrsafe.h)
 description: The RtlStringCchCatNExW and RtlStringCchCatNExA functions concatenate two character-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcchcatnex.htm
 tech.root: kernel
-ms.assetid: a8919512-0e39-46f0-b421-776341c61fa2
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCatNExW function"]
 ms.keywords: RtlStringCchCatNEx, RtlStringCchCatNExA, RtlStringCchCatNExW, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcatnex, ntstrsafe/RtlStringCchCatNExA, ntstrsafe/RtlStringCchCatNExW, safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml

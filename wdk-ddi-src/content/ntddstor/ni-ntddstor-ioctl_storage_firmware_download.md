@@ -4,7 +4,6 @@ title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_FIRMWARE_DOWNLOAD to download a firmware image to a storage device, but does not activate it.
 old-location: storage\ioctl_storage_firmware_download.htm
 tech.root: storage
-ms.assetid: D5572EE3-C277-494C-B288-A6E8F8A26A3E
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_FIRMWARE_DOWNLOAD IOCTL"]
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_DOWNLOAD, storage.ioctl_storage_firmware_download

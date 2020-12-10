@@ -2,7 +2,6 @@
 UID: NN:dbgmodel.IDataModelScriptDebugBreakpointEnumerator
 title: IDataModelScriptDebugBreakpointEnumerator (dbgmodel.h)
 description: An enumerator of breakpoints within the script.
-ms.assetid: 98079ec9-c73a-4d88-8016-8fb53c461d91
 ms.date: 07/13/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator interface"]
 req.header: dbgmodel.h

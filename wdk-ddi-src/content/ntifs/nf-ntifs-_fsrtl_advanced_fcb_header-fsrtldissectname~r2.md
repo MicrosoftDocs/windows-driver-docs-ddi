@@ -4,7 +4,6 @@ title: FsRtlDissectName function (ntifs.h)
 description: Given a Unicode pathname string, the FsRtlDissectName routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectname.htm
 tech.root: ifsk
-ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.date: 03/29/2018
 keywords: ["FsRtlDissectName function"]
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName

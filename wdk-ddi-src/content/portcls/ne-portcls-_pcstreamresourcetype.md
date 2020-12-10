@@ -4,7 +4,6 @@ title: _PcStreamResourceType (portcls.h)
 description: This topic discusses the PcStreamResourceType enum, and describes its members. The PcStreamResourceType enum is used to define the type of resources used for specific audio streaming.
 old-location: audio\pcstreamresourcetype.htm
 tech.root: audio
-ms.assetid: C9563635-66F3-4835-8153-DECB04580544
 ms.date: 05/08/2018
 keywords: ["PcStreamResourceType enumeration"]
 ms.keywords: "*PPcStreamResourceType, PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType,*PPcStreamResourceType, PcStreamResourceType,*PPcStreamResourceType enumeration [Audio Devices], _PcStreamResourceType, audio.pcstreamresourcetype, ePcStreamResourceInterrupt, ePcStreamResourceSet, ePcStreamResourceThread, portcls/PcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceThread"

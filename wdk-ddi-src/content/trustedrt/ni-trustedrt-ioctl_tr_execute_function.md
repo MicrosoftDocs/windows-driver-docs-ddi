@@ -2,7 +2,6 @@
 UID: NI:trustedrt.IOCTL_TR_EXECUTE_FUNCTION
 title: IOCTL_TR_EXECUTE_FUNCTION (trustedrt.h)
 description: 
-ms.assetid: 79daccd6-3bda-4ef2-81e4-e68137257369
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_EXECUTE_FUNCTION IOCTL"]
 req.header: trustedrt.h

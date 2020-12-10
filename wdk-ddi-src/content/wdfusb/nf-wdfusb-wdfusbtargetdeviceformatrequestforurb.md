@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceFormatRequestForUrb function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForUrb method builds an USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforurb.htm
 tech.root: wdf
-ms.assetid: 886120f0-da2a-4a00-b440-ce1274c516d4
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceFormatRequestForUrb function"]
 ms.keywords: DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, WdfUsbTargetDeviceFormatRequestForUrb, WdfUsbTargetDeviceFormatRequestForUrb method, kmdf.wdfusbtargetdeviceformatrequestforurb, wdf.wdfusbtargetdeviceformatrequestforurb, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb

@@ -4,7 +4,6 @@ title: _NDIS_WWAN_USSD_EVENT (ndiswwan.h)
 description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS event.
 old-location: netvista\ndis_wwan_ussd_event.htm
 tech.root: netvista
-ms.assetid: 11533451-31EC-4C55-9675-5AC7D25B6C9D
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_USSD_EVENT structure"]
 ms.keywords: "*PNDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_EVENT, PNDIS_WWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_EVENT, ndiswwan/NDIS_WWAN_USSD_EVENT, ndiswwan/PNDIS_WWAN_USSD_EVENT, netvista.ndis_wwan_ussd_event"

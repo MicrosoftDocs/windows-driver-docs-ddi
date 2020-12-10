@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
 title: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure describes a one-dimensional (1-D) texture that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_tex1d_shaderresourceview.htm
-ms.assetid: 5cb10ec9-8496-49d1-b8d0-53d8fe7470c5
 ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_804b8de8-55ba-4a68-ba21-ada239882372.xml, d3d10umddi/D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex1d_shaderresourceview

@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICELOGMESSAGE
 title: PFN_TRSECUREDEVICELOGMESSAGE (trustedruntimeclx.h)
 description: 
-ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICELOGMESSAGE callback function"]
 req.header: trustedruntimeclx.h

@@ -4,7 +4,6 @@ title: PFN_WDFINTERRUPTRELEASELOCK (wdfinterrupt.h)
 description: The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptreleaselock.htm
 tech.root: wdf
-ms.assetid: a3b68f6f-d482-4350-a5b8-9fe6afdefb69
 ms.date: 01/11/2018
 keywords: ["PFN_WDFINTERRUPTRELEASELOCK callback"]
 ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock

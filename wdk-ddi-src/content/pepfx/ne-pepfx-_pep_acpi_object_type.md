@@ -4,7 +4,6 @@ title: _PEP_ACPI_OBJECT_TYPE (pepfx.h)
 description: The PEP_ACPI_OBJECT_TYPE enumeration indicates the type of ACPI object.
 old-location: kernel\pep_acpi_object_type.htm
 tech.root: kernel
-ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_OBJECT_TYPE enumeration"]
 ms.keywords: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod"

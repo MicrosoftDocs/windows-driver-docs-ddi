@@ -4,7 +4,6 @@ title: IKsDeviceFunctions::RegisterAdapterObjectEx (ks.h)
 description: The IKsDeviceFunctions::RegisterAdapterObjectEx method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of KsDeviceRegisterAdapterObject.
 old-location: stream\iksdevicefunctions_registeradapterobjectex.htm
 tech.root: stream
-ms.assetid: e5dc54a6-e26a-455b-9990-92f5cfece923
 ms.date: 04/23/2018
 keywords: ["IKsDeviceFunctions::RegisterAdapterObjectEx"]
 ms.keywords: IKsDeviceFunctions interface [Streaming Media Devices],RegisterAdapterObjectEx method, IKsDeviceFunctions.RegisterAdapterObjectEx, IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], RegisterAdapterObjectEx method [Streaming Media Devices],IKsDeviceFunctions interface, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, stream.iksdevicefunctions_registeradapterobjectex

@@ -4,7 +4,6 @@ title: ClfsCloseAndResetLogFile function (wdm.h)
 description: The ClfsCloseAndResetLogFile routine releases all references to a specified log file object and marks its associated stream for reset.
 old-location: kernel\clfscloseandresetlogfile.htm
 tech.root: kernel
-ms.assetid: 5b52a012-1e3e-4d1f-8780-a7015b2f3c5f
 ms.date: 04/30/2018
 keywords: ["ClfsCloseAndResetLogFile function"]
 ms.keywords: ClfsCloseAndResetLogFile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml, kernel.clfscloseandresetlogfile, wdm/ClfsCloseAndResetLogFile

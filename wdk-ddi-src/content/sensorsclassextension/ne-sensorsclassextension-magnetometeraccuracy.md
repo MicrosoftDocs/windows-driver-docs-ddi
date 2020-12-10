@@ -4,7 +4,6 @@ title: MagnetometerAccuracy (sensorsclassextension.h)
 description: Specifies the accuracy of the magnetometer.
 old-location: sensors\magnetometeraccuracy.htm
 tech.root: sensors
-ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.date: 05/03/2018
 keywords: ["MagnetometerAccuracy enumeration"]
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable

@@ -4,7 +4,6 @@ title: _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union is used to indicate the speed at which a USB 3.0 device is currently operating and whether it can operate at higher speed, when attached to a particular port.
 old-location: buses\usb_node_connection_information_ex_v2_flags.htm
 tech.root: usbref
-ms.assetid: F066CE0E-3247-4C42-9EF6-8A6EB0C0BC71
 ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"

@@ -4,7 +4,6 @@ title: _UCX_ENDPOINT_CHARACTERISTIC_TYPE (ucxendpoint.h)
 description: Defines values that indicates the type of endpoint characteristic.
 old-location: buses\ucx_endpoint_characteristic_type.htm
 tech.root: usbref
-ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.date: 05/07/2018
 keywords: ["UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration"]
 ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY

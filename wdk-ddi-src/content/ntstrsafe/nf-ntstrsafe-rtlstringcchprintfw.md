@@ -4,7 +4,6 @@ title: RtlStringCchPrintfW function (ntstrsafe.h)
 description: The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchprintf.htm
 tech.root: kernel
-ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.date: 04/30/2018
 keywords: ["RtlStringCchPrintfW function"]
 ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml

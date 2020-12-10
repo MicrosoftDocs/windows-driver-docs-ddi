@@ -4,7 +4,6 @@ title: _REG_DELETE_KEY_INFORMATION (wdm.h)
 description: The REG_DELETE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key is being deleted.
 old-location: kernel\reg_delete_key_information.htm
 tech.root: kernel
-ms.assetid: 6137ab93-7128-4e71-ba4f-604c7e025c91
 ms.date: 04/30/2018
 keywords: ["REG_DELETE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_DELETE_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_FLUSH_KEY_INFORMATION, _REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/PREG_DELETE_KEY_INFORMATION, wdm/REG_DELETE_KEY_INFORMATION"

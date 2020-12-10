@@ -4,7 +4,6 @@ title: IWDFMemory::GetDataBuffer (wudfddi.h)
 description: The GetDataBuffer method retrieves the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getdatabuffer.htm
 tech.root: wdf
-ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.date: 02/26/2018
 keywords: ["IWDFMemory::GetDataBuffer"]
 ms.keywords: GetDataBuffer, GetDataBuffer method, GetDataBuffer method,IWDFMemory interface, IWDFMemory interface,GetDataBuffer method, IWDFMemory.GetDataBuffer, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer

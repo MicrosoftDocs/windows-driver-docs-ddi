@@ -4,7 +4,6 @@ title: _D3DDDI_LOCKFLAGS (d3dumddi.h)
 description: The D3DDDI_LOCKFLAGS structure identifies how to lock a resource.
 old-location: display\d3dddi_lockflags.htm
 tech.root: display
-ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.date: 05/10/2018
 keywords: ["D3DDDI_LOCKFLAGS structure"]
 ms.keywords: D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, display.d3dddi_lockflags

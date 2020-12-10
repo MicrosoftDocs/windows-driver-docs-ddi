@@ -4,7 +4,6 @@ title: UcxControllerSetIdStrings function (ucxcontroller.h)
 description: Updates the identifier strings of a controller after the controller has been initialized.
 old-location: buses\ucxcontrollersetidstrings.htm
 tech.root: usbref
-ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.date: 05/07/2018
 keywords: ["UcxControllerSetIdStrings function"]
 ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings

@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_COLLECTDIAGNOSTICINFO
 title: DXGKARG_COLLECTDIAGNOSTICINFO
 description: Used by the DXGKDDI_COLLECTDIAGNOSTICINFO callback function to collect private driver information for a variety of reasons.
 tech.root: display
-ms.assetid: 04b03acc-2025-4e79-bb7b-46adb7492256
 ms.date: 03/24/2020
 keywords: ["DXGKARG_COLLECTDIAGNOSTICINFO structure"]
 ms.keywords: DXGKARG_COLLECTDIAGNOSTICINFO, DXGKARG_COLLECTDIAGNOSTICINFO, *INOUT_PDXGKARG_COLLECTDIAGNOSTICINFO

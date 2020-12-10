@@ -4,7 +4,6 @@ title: GNSS_NMEA_DATA (gnssdriver.h)
 description: This structure contains generic (non-parsed) NMEA data.
 old-location: gnss\gnss_nmea_data.htm
 tech.root: gnss
-ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
 ms.date: 02/15/2018
 keywords: ["GNSS_NMEA_DATA structure"]
 ms.keywords: "*PGNSS_NMEA_DATA, GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], PGNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnss.gnss_nmea_data, gnssdriver/GNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA"

@@ -4,7 +4,6 @@ title: _BRB_SCO_UNREGISTER_SERVER (bthddi.h)
 description: A profile driver uses the _BRB_SCO_UNREGISTER_SERVER structure to unregister itself as a server capable of receiving SCO connections from remote Bluetooth devices.
 old-location: bltooth\_brb_sco_unregister_server.htm
 tech.root: bltooth
-ms.assetid: a0624d6e-d3e9-45b1-b704-4a05532926f9
 ms.date: 04/27/2018
 keywords: ["BRB_SCO_UNREGISTER_SERVER structure"]
 ms.keywords: "_BRB_SCO_UNREGISTER_SERVER, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_unregister_server, bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bthddi/_BRB_SCO_UNREGISTER_SERVER"

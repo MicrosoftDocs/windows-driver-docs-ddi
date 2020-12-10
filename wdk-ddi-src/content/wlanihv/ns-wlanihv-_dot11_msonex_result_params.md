@@ -4,7 +4,6 @@ title: _DOT11_MSONEX_RESULT_PARAMS (wlanihv.h)
 description: The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
 old-location: netvista\dot11_msonex_result_params.htm
 tech.root: netvista
-ms.assetid: 21604988-ed1a-419b-b002-ab975e8921ad
 ms.date: 02/16/2018
 keywords: ["DOT11_MSONEX_RESULT_PARAMS structure"]
 ms.keywords: "*PDOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_52bdb8c1-36cc-43a0-9156-397c3a8549b3.xml, PDOT11_MSONEX_RESULT_PARAMS, PDOT11_MSONEX_RESULT_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT_PARAMS, netvista.dot11_msonex_result_params, wlanihv/DOT11_MSONEX_RESULT_PARAMS, wlanihv/PDOT11_MSONEX_RESULT_PARAMS"

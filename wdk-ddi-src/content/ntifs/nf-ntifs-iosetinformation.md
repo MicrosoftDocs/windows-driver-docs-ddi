@@ -4,7 +4,6 @@ title: IoSetInformation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iosetinformation.htm
 tech.root: ifsk
-ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.date: 04/16/2018
 keywords: ["IoSetInformation function"]
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation

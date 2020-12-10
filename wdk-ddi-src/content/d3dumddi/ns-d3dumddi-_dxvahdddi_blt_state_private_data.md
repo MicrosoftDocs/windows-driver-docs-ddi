@@ -4,7 +4,6 @@ title: _DXVAHDDDI_BLT_STATE_PRIVATE_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure describes data that specifies the private bit-block transfer (bitblt) state.
 old-location: display\dxvahdddi_blt_state_private_data.htm
 tech.root: display
-ms.assetid: f9c0f137-e84c-4626-aa6a-dce352bf7bb0
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure"]
 ms.keywords: DXVA2_Structs_162bb87d-6383-4c29-b137-0316ace07a65.xml, DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_PRIVATE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE_DATA, display.dxvahdddi_blt_state_private_data

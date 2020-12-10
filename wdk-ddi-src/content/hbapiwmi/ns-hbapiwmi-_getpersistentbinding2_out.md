@@ -4,7 +4,6 @@ title: _GetPersistentBinding2_OUT (hbapiwmi.h)
 description: The GetBindingSupport_OUT structure is used to report the output parameter data of the GetPersistentBinding2 WMI method to the WMI client.
 old-location: storage\getpersistentbinding2_out.htm
 tech.root: storage
-ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.date: 03/29/2018
 keywords: ["GetPersistentBinding2_OUT structure"]
 ms.keywords: "*PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], PGetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], _GetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml"

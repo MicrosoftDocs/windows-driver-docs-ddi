@@ -4,7 +4,6 @@ title: _IRB_REQ_ISOCH_FREE_CHANNEL (1394.h)
 description: This structure contains the fields required to carry out a IsochFreeChannel request.
 old-location: ieee\irb_req_isoch_free_channel.htm
 tech.root: IEEE
-ms.assetid: 949D165B-1F42-40EA-B050-38847E14B968
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_FREE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_CHANNEL, IEEE.irb_req_isoch_free_channel, IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_FREE_CHANNEL

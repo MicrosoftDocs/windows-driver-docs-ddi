@@ -2,7 +2,6 @@
 UID: NE:ntifs._FILE_STORAGE_TIER_CLASS
 title: _FILE_STORAGE_TIER_CLASS (ntifs.h)
 description: Defines values for the type of desired storage class.
-ms.assetid: d969fc78-2517-4b9c-b2ce-489af3ff4e5f
 tech.root: ifsk
 ms.date: 09/30/2018
 keywords: ["FILE_STORAGE_TIER_CLASS enumeration"]

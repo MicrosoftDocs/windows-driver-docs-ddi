@@ -4,7 +4,6 @@ title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC (wdtfsimulated
 description: Sets the simulated battery status to AC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac.htm
 tech.root: dtf
-ms.assetid: ddfd38d9-a78e-4573-9bf3-24f2f69b5949
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC"]
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToAC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC

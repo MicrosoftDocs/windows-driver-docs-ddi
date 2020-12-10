@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_FLAGS
 title: _DXGK_MULTIPLANE_OVERLAY_FLAGS (d3dkmddi.h)
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\dxgk_multiplane_overlay_flags.htm
-ms.assetid: 2592e308-1d34-464f-8301-9ece54b4d017
 ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags

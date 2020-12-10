@@ -4,7 +4,6 @@ title: _CIP_CANCEL_FRAME (61883.h)
 description: The request cancels an attached frame buffer. A frame can be canceled while the stream is running.
 old-location: ieee\cip_cancel_frame.htm
 tech.root: IEEE
-ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
 ms.date: 02/15/2018
 keywords: ["CIP_CANCEL_FRAME structure"]
 ms.keywords: "*PCIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], _CIP_CANCEL_FRAME"

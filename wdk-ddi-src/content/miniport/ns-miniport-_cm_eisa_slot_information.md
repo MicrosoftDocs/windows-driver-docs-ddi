@@ -4,7 +4,6 @@ title: _CM_EISA_SLOT_INFORMATION (miniport.h)
 description: The CM_EISA_SLOT_INFORMATION structure defines EISA configuration header information returned by HalGetBusData for the input BusDataType = EisaConfiguration, or by HalGetBusDataByOffset for the inputs BusDataType = EisaConfiguration and Offset = 0, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_slot_information.htm
 tech.root: kernel
-ms.assetid: 443b6ed8-1d44-466f-93b0-bb8cd42aefaa
 ms.date: 04/30/2018
 keywords: ["CM_EISA_SLOT_INFORMATION structure"]
 ms.keywords: "*PCM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_SLOT_INFORMATION, PCM_EISA_SLOT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_SLOT_INFORMATION, kernel.cm_eisa_slot_information, kstruct_a_07946ecf-4bcd-4626-a070-e3bca212c0ef.xml, wdm/CM_EISA_SLOT_INFORMATION, wdm/PCM_EISA_SLOT_INFORMATION"

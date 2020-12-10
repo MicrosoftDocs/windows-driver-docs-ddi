@@ -4,7 +4,6 @@ title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuff
 description: Sets the current cursor position in the last audio data stream that was written to the audio buffer.
 old-location: audio\iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer.htm
 tech.root: audio
-ms.assetid: 93E3D03B-6FA1-49D5-AF38-6C2FEA3FC95D
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer"]
 ms.keywords: IMiniportStreamAudioEngineNode2 interface [Audio Devices],SetStreamCurrentWritePositionForLastBuffer method, IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method [Audio Devices],IMiniportStreamAudioEngineNode2 interface, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer

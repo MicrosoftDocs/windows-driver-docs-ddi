@@ -4,7 +4,6 @@ title: KsGateAddOffInputToOr function (ks.h)
 description: The KsGateAddOffInputToOr function adds a new input in the OFF state to a given OR gate.
 old-location: stream\ksgateaddoffinputtoor.htm
 tech.root: stream
-ms.assetid: 93d5076c-d8db-4b4b-b390-5f9072d2ae63
 ms.date: 04/23/2018
 keywords: ["KsGateAddOffInputToOr function"]
 ms.keywords: KsGateAddOffInputToOr, KsGateAddOffInputToOr function [Streaming Media Devices], avfunc_abee7d7c-388b-4a48-a573-6b46a1c9dc46.xml, ks/KsGateAddOffInputToOr, stream.ksgateaddoffinputtoor

@@ -4,7 +4,6 @@ title: ClfsGetContainerName function (wdm.h)
 description: The ClfsGetContainerName routine returns the path name of a specified container.
 old-location: kernel\clfsgetcontainername.htm
 tech.root: kernel
-ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
 ms.date: 04/30/2018
 keywords: ["ClfsGetContainerName function"]
 ms.keywords: ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, kernel.clfsgetcontainername, wdm/ClfsGetContainerName

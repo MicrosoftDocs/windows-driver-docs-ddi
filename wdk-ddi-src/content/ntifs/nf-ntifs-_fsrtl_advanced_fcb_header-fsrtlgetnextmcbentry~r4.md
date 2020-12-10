@@ -4,7 +4,6 @@ title: FsRtlGetNextMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
 tech.root: ifsk
-ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.date: 03/29/2018
 keywords: ["FsRtlGetNextMcbEntry function"]
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry

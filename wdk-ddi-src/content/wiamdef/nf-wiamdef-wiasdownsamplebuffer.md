@@ -4,7 +4,6 @@ title: wiasDownSampleBuffer function (wiamdef.h)
 description: The wiasDownSampleBuffer function takes in a buffer of DWORD-aligned pixel data and downsamples it (produces image data of lower resolution) to the specified size and resolution.
 old-location: image\wiasdownsamplebuffer.htm
 tech.root: image
-ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.date: 05/03/2018
 keywords: ["wiasDownSampleBuffer function"]
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml

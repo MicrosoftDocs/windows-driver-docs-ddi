@@ -4,7 +4,6 @@ title: RILSENDSUPSERVICEDATARESPONSEPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendsupservicedataresponseparams.htm
 tech.root: netvista
-ms.assetid: a339c4fc-87e9-485e-914e-a26e8fac527e
 ms.date: 05/02/2018
 keywords: ["RILSENDSUPSERVICEDATARESPONSEPARAMS structure"]
 ms.keywords: "*LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataresponseparams, ntddrilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS"
