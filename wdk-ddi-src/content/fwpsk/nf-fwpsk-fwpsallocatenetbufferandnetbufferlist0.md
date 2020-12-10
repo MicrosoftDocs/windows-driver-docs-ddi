@@ -48,7 +48,7 @@ api_name:
 
 The 
   <b>FwpsAllocateNetBufferAndNetBufferList0</b> function allocates a new 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 <div class="alert"><b>Note</b>  <b>FwpsAllocateNetBufferAndNetBufferList0</b> is a specific version of <b>FwpsAllocateNetBufferAndNetBufferList</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
@@ -57,7 +57,7 @@ The
 
 [in]
 A 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function.
 
@@ -102,7 +102,7 @@ The length, in bytes, of the
 
 [out]
 A pointer to a variable that receives a pointer to the new 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -returns
 
@@ -123,7 +123,7 @@ The
 </td>
 <td width="60%">
 The new 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure was
        successfully allocated.
 
 </td>
@@ -145,14 +145,14 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsAllocateNetBufferAndNetBufferList0</b> function to allocate a new 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 This function is a wrapper around the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
     NdisAllocateNetBufferAndNetBufferList</a> function, but it is specialized for use by WFP 
     <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
 
-After the data described by the new <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure has been successfully injected into the
+After the data described by the new <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure has been successfully injected into the
     network stack, the callout driver frees the new <b>NET_BUFFER_LIST</b> structure by calling the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">
     FwpsFreeNetBufferList0</a> function.
@@ -163,7 +163,7 @@ After the data described by the new <a href="/windows-hardware/drivers/ddi/ndis/
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

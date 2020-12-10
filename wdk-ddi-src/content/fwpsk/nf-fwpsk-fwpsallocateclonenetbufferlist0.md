@@ -48,7 +48,7 @@ api_name:
 
 The 
   <b>FwpsAllocateCloneNetBufferList0</b> function allocates a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is a clone of an existing
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is a clone of an existing
   <b>NET_BUFFER_LIST</b> structure.
 <div class="alert"><b>Note</b>  <b>FwpsAllocateCloneNetBufferList0</b> is a specific version of <b>FwpsAllocateCloneNetBufferList</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
@@ -58,14 +58,14 @@ The
 
 [in, out]
 A pointer to the original 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      cloned.
 
 ### -param netBufferListPoolHandle 
 
 [in, optional]
 A 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
@@ -88,7 +88,7 @@ There are currently no flags defined for this function. Callout drivers should s
 
 [out]
 A pointer to a variable that receives a pointer to the clone 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -returns
 
@@ -108,7 +108,7 @@ The
 </td>
 <td width="60%">
 The clone 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure was
        successfully allocated.
 
 </td>
@@ -130,7 +130,7 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsAllocateCloneNetBufferList0</b> function to allocate a clone 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure of an existing
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure of an existing
     NET_BUFFER_LIST structure.
 
 This function is a wrapper around the 
@@ -195,7 +195,7 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

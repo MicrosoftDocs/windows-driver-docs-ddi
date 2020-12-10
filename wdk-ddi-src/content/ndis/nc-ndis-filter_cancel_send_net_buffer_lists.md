@@ -47,7 +47,7 @@ api_name:
 
 NDIS calls a filter driver's 
   <i>FilterCancelSendNetBufferLists</i> function to cancel the transmission of all 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
   with a specified cancellation identifier.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -76,7 +76,7 @@ The
     NdisFRegisterFilterDriver</a> function.
 
 Filter drivers that queue 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures before sending
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures before sending
     should export a 
     <i>FilterCancelSendNetBufferLists</i> function. The 
     <i>FilterCancelSendNetBufferLists</i> function cancels the pending transmission of the specified
@@ -105,7 +105,7 @@ Traverses its list of queued NET_BUFFER_LIST structures for the specified filter
 </li>
 <li>
 Removes from the send queue (unlinks) all 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures whose
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures whose
       cancellation identifiers match the specified cancellation identifier.
 
 </li>
@@ -168,7 +168,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

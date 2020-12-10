@@ -73,7 +73,7 @@ The
 ### -field Encapsulation
 
 An 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_offload_encapsulation">
+     <a href="/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation">
      NDIS_OFFLOAD_ENCAPSULATION</a> structure that contains encapsulation settings for TCP chimney
      offload.
 
@@ -177,7 +177,7 @@ The
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_offload_encapsulation">NDIS_OFFLOAD_ENCAPSULATION</a>
+<a href="/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation">NDIS_OFFLOAD_ENCAPSULATION</a>
 
 
 

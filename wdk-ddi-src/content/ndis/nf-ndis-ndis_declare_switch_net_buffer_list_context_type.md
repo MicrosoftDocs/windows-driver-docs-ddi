@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Hyper-V extensible switch extensions use the **NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE** macro to define the context type that is used by the [*SetNetBufferListSwitchContext*](nc-ndis-ndis_switch_set_net_buffer_list_switch_context.md) and [*GetNetBufferListSwitchContext*](nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md) functions to attach and retrieve context from a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure. Extensions can define as many context types as they want within their driver.
+Hyper-V extensible switch extensions use the **NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE** macro to define the context type that is used by the [*SetNetBufferListSwitchContext*](nc-ndis-ndis_switch_set_net_buffer_list_switch_context.md) and [*GetNetBufferListSwitchContext*](nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md) functions to attach and retrieve context from a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure. Extensions can define as many context types as they want within their driver.
 
 ## -parameters
 
@@ -62,5 +62,5 @@ A GUID that matches the extension ID.
 
 [*GetNetBufferListSwitchContext*](nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

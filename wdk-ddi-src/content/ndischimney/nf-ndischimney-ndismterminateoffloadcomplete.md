@@ -128,7 +128,7 @@ Ensure that any outstanding calls to the
 </ul>
 If there is outstanding send data on a TCP connection that is being terminated, the offload target
     packages such data in net buffers and passes the packaged data to the host stack in a linked list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. In this case,
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. In this case,
     the offload target specifies a non-<b>NULL</b> value for the 
     <b>NetBufferListChain</b> member of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure for that connection.
     (The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is in the linked list pointed to by the 

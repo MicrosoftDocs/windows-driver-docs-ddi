@@ -47,7 +47,7 @@ api_name:
 
 NDIS calls the 
    <i>MiniportReturnNetBufferLists</i> function to return ownership of 
-   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures, associated 
+   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, associated 
    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs to a
    miniport driver.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_RETURN_NET_BUFFER_LISTS</b> type.
@@ -66,7 +66,7 @@ A handle to a context area that the miniport driver allocated in its
 
 [in]
 A pointer to a linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS is
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS is
      returning to the miniport driver. The linked list can contain NET_BUFFER_LIST structures from multiple
      previous calls to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
@@ -88,7 +88,7 @@ NDIS flags that can be combined with an OR operation. This function supports the
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreturnnetbufferlists">
     NdisReturnNetBufferLists</a> function, NDIS calls the 
     <i>MiniportReturnNetBufferLists</i> function of the miniport driver that indicated the specified 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
 <i>MiniportReturnNetBufferLists</i> can prepare a returned NET_BUFFER_LIST structure for use in a
     subsequent receive indication. Although 
@@ -138,7 +138,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

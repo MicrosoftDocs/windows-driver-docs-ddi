@@ -158,7 +158,7 @@ A pointer to a buffer that contains media-specific infomration. The mininiport d
 The native 802.11 framework copies this pointer to the
      <b>MediaSpecificInformation</b> entry at the
      <b>NetBufferListInfo</b> member of the 802.3
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in NDIS receive
+     <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structures in NDIS receive
      indications.
 
 <div class="alert"><b>Note</b>  IHV extensions are currently unable to receive the
@@ -196,7 +196,7 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
 
 When performing a Native 802.11 receive operation, the miniport driver must format each received
     802.11 packet as a
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure, with the packet
+    <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure, with the packet
     data formatted as a
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure and linked to the
     NET_BUFFER_LIST structure. Each NET_BUFFER_LIST structure must include out-of-band (OOB) data. The OOB
@@ -211,7 +211,7 @@ The miniport driver accesses the Native 802.11 OOB data through the
 <li>
 The
       <i>_NBL</i> parameter, which is passed the pointer to the
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
+      <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
       received 802.11 packet.
 
 </li>
@@ -264,7 +264,7 @@ For more information about Native 802.11 receive operations, see
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -158,7 +158,7 @@ The size, in bytes, of each element in the array.
 The number of bits in a filter identifier. The miniport driver uses
      this number of bits for the filter identifier in the 
      <b>NetBufferListFilteringInfo</b> out-of-band (OOB) data in 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
      in the OOB 
      <b>NetBufferListFilteringInfo</b> data.
 
@@ -249,7 +249,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

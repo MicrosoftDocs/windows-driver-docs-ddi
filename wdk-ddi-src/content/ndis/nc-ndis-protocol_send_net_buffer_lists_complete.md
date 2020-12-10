@@ -76,7 +76,7 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 #### - NetBufferLists [in]
 
 A pointer to a list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>.
 
@@ -97,7 +97,7 @@ NDIS calls
 When NDIS calls 
     <i>ProtocolSendNetBufferListsComplete</i>, the protocol driver regains ownership of all of the resources
     associated with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are
     specified by the 
     <i>NetBufferLists</i> parameter.
 
@@ -145,7 +145,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -163,7 +163,7 @@ The IPsec protocols that were specified in the SA that the packet was received o
 Before the TCP/IP transport passes an outbound packet to a NIC for offload processing, the transport
     specifies the IPsec information in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure that is
     associated with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 Specifically, the TCP/IP transport supplies a value for the 
     <b>OffloadHandle</b> member in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure. The 
@@ -179,7 +179,7 @@ Specifically, the TCP/IP transport supplies a value for the
 Before a miniport driver indicates up a receive packet that has one or more IPsec payloads, the driver
     specifies IPsec information in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure that is
     associated with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 To set and get the IPsec information, use the 
     <b>IPsecOffloadV2NetBufferListInfo</b> index with the 
@@ -192,7 +192,7 @@ To set and get the IPsec information, use the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

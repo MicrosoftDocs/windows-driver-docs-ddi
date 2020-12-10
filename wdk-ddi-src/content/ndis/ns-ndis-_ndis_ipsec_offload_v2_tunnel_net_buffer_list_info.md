@@ -71,7 +71,7 @@ Before the TCP/IP transport passes a send packet that a NIC will perform Interne
     information in the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
     NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> structure that is associated with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 The TCP/IP transport supplies a handle in the 
     <b>OffloadHandle</b> member of NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO that specifies the handle to the
@@ -100,7 +100,7 @@ To set and get the IPsec tunnel information, use the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

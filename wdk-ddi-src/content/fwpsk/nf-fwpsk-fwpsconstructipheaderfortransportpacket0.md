@@ -57,7 +57,7 @@ The
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the cloned transport layer packet data for which a new IP header is to be constructed or rebuilt. To
      construct a new IP header, locate the offset of the cloned NET_BUFFER_LIST structure at the beginning of
      the transport header. To rebuild a preexisting IP packet header, locate the offset at the beginning of
@@ -316,7 +316,7 @@ Call
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

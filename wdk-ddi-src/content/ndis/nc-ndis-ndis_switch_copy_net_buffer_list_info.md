@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The Hyper-V extensible switch extension calls the <i>CopyNetBufferListInfo</i> function to copy the out-of-band (OOB) forwarding context from a source packet's <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure to a destination packet's <b>NET_BUFFER_LIST</b> structure. This context includes the extensible switch source port and network adapter information. The extensible switch destination port information can also be copied.
+The Hyper-V extensible switch extension calls the <i>CopyNetBufferListInfo</i> function to copy the out-of-band (OOB) forwarding context from a source packet's <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure to a destination packet's <b>NET_BUFFER_LIST</b> structure. This context includes the extensible switch source port and network adapter information. The extensible switch destination port information can also be copied.
 
 ## -parameters
 
@@ -57,12 +57,12 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 ### -param DestNetBufferList 
 
 [in, out]
-A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet to which the extensible switch forwarding context is copied.
+A pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet to which the extensible switch forwarding context is copied.
 
 ### -param SrcNetBufferList 
 
 [in]
-A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the source packet from which the extensible switch forwarding context is copied.
+A pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the source packet from which the extensible switch forwarding context is copied.
 
 ### -param Flags 
 
@@ -83,7 +83,7 @@ The extensible switch extension calls the <i>CopyNetBufferListInfo</i> function 
 
 <ul>
 <li>
-The data from the <b>NetBufferListInfo</b> array of the source packet's <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+The data from the <b>NetBufferListInfo</b> array of the source packet's <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 </li>
 <li>
@@ -97,11 +97,11 @@ The data for the extensible switch destination ports from the source packet's ex
 <div> </div>
 </li>
 </ul>
-Before the extension calls <i>CopyNetBufferListInfo</i>, it must prepare the destination packet's <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure by following these steps:
+Before the extension calls <i>CopyNetBufferListInfo</i>, it must prepare the destination packet's <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure by following these steps:
 
 <ol>
 <li>
-The extension must first initialize a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet that is derived from the source packet's  <b>NET_BUFFER_LIST</b> structure. 
+The extension must first initialize a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet that is derived from the source packet's  <b>NET_BUFFER_LIST</b> structure. 
 
 For example, the extension can call <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">NdisAllocateCloneNetBufferList</a> to create a complete copy of the source packet. The extension can also call <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">NdisAllocateFragmentNetBufferList</a> to create a copy of only a fragment of the source packet. For more information, see <a href="/windows-hardware/drivers/network/derived-net-buffer-list-structures">Derived NET_BUFFER_LIST Structures</a>.
 
@@ -125,7 +125,7 @@ For example, the extension can call <a href="/windows-hardware/drivers/ddi/ndis/
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

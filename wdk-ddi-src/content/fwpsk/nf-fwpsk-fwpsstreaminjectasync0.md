@@ -180,7 +180,7 @@ Specifies that the stream is to be disconnected after the data being injected in
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the data that is being injected into the data stream. A callout driver allocates a <b>NET_BUFFER_LIST</b>
      structure to use for injecting data into a data stream by calling the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
@@ -205,7 +205,7 @@ A pointer to a
      <i>netBufferList</i> parameter, has been injected into the network stack. 
 
 If the 
-     <i>netBufferList</i> parameter describes a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain, 
+     <i>netBufferList</i> parameter describes a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain, 
      <i>completionFn</i> will be called once for each <b>NET_BUFFER_LIST</b> in the chain.
 
 If the 
@@ -240,7 +240,7 @@ The
 <td width="60%">
 The injection into the data stream was initiated successfully. The filter engine will call the
        completion function that was specified when the 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was allocated
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure was allocated
        after the filter engine has completed injecting the data into the data stream.
 
 </td>
@@ -365,7 +365,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
