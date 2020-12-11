@@ -85,7 +85,7 @@ Reserved for use by the operating system.
 
 #### - PepWorkDeviceIdle
 
-A request for the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
+A request for the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
 
 
 #### - PepWorkDevicePower

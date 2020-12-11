@@ -62,6 +62,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 Under the covers, this will call DIF_REMOVE.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

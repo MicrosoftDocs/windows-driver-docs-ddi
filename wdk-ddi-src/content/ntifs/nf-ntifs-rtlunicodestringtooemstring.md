@@ -73,7 +73,7 @@ Set to <b>TRUE</b> if <b>RtlUnicodeStringToOemString</b> should allocate the buf
 
 <b>RtlUnicodeStringToOemString</b> does not modify the source string. It returns a null-terminated OEM string. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

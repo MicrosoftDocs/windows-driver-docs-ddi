@@ -67,7 +67,7 @@ None
 
 The basis for system time is the start of 1601. The absolute system time is a LARGE_INTEGER value, accurate to 100-nanosecond resolution, assuming an accurate hardware clock. The value returned by <b>RtlSecondsSince1970ToTime</b> is truncated to one-millisecond resolution. 
 
-For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/index">Data Conversions</a>.
+For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/_kernel/#data-conversions">Data Conversions</a>.
 
 ## -see-also
 

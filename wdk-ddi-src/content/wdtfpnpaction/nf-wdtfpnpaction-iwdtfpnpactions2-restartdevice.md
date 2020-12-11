@@ -63,6 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 From a SetupDi interface perspective, this will translate to a DICS_PROPCHANGE.   
 See the MSDN docs for details.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

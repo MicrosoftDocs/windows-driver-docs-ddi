@@ -68,7 +68,7 @@ If the queue object is to be reused, the caller must call <a href="/windows-hard
 
 <b>KeRundownQueue</b> should never be called for a queue if any threads are waiting on the queue object.
 
-For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/index">Driver-Managed Queues</a>.
+For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues">Driver-Managed Queues</a>.
 
 ## -see-also
 

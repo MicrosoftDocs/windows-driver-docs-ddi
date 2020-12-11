@@ -220,7 +220,7 @@ FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 .
 ```
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 
 

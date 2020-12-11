@@ -63,7 +63,7 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

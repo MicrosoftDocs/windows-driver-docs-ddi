@@ -66,6 +66,4 @@ method must be called for the target device before calling this method.</div>
 <b>EDTCancelRemoveDevice</b> triggers an IRP_MN_CANCEL_REMOVE event
 by intentionally failing an IRP_MN_QUERY_REMOVE_DEVICE event.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

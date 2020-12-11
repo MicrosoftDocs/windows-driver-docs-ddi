@@ -85,7 +85,7 @@ A pointer to a PEP-defined context value. The PEP might use this value to unique
 
 The <b>PowerControl</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
 
-The PEP issues a power control request from a worker thread. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
+The PEP issues a power control request from a worker thread. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
 
 ## -see-also
 

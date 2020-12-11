@@ -173,7 +173,7 @@ Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driv
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>. 
 
-For more information about setting up mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>. 
+For more information about setting up mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>. 
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
 <div> </div>

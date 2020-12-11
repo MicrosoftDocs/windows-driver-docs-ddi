@@ -64,6 +64,4 @@ In essence, <b>RescanParentDevice</b> calls
 <b>CM_Reenumerate_DevNode()</b>. See the MSDN documentation for 
 <b>CM_Reenumerate_DevNode()</b>.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

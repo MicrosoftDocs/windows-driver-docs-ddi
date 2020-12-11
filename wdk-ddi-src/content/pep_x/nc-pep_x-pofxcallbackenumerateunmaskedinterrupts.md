@@ -67,7 +67,7 @@ A pointer to a caller-implemented <a href="/windows-hardware/drivers/ddi/pepfx/n
 ### -param CallbackContext 
 
 [in]
-A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ### -param InterruptInformation 
 

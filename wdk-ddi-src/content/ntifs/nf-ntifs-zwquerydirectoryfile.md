@@ -246,7 +246,7 @@ If <b>ZwQueryDirectoryFile</b> is called multiple times on the same directory an
 
 Callers of <b>ZwQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
 
-For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#file-objects">File Objects</a>.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwQueryDirectoryFile</b> function occurs in user mode, you should use the name "<b>NtQueryDirectoryFile</b>" instead of "<b>ZwQueryDirectoryFile</b>".</div>
 <div> </div>

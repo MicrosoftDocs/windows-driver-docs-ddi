@@ -88,7 +88,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB String Descriptors</a>
+<a href="/windows-hardware/drivers/usbcon/usb-string-descriptors">USB String Descriptors</a>
 
 
 

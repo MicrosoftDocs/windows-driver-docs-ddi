@@ -63,7 +63,7 @@ The <b>PEP_ACPI_UNREGISTER_DEVICE</b> structure contains information about a dev
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_NOTIFY_ACPI_UNREGISTER_DEVICE</a> notification. The <b>DeviceHandle</b> and <b>InputFlags</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> when this notification is sent.
+This structure is used by the <a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_NOTIFY_ACPI_UNREGISTER_DEVICE</a> notification. The <b>DeviceHandle</b> and <b>InputFlags</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> when this notification is sent.
 
 ## -see-also
 

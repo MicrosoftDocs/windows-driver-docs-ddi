@@ -63,7 +63,7 @@ The <b>PEP_ACPI_REGISTER_DEVICE</b> structure contains registration information 
 
 ### -field KernelHandle
 
-[in] A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
+[in] A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
 
 ### -field DeviceHandle
 

@@ -67,7 +67,7 @@ The <b>PEP_NOTIFY_COMPONENT_IDLE_STATE</b> structure contains status information
 
 ### -field DriverNotified
 
-[in] Whether the driver for the device has already been notified of the pending transition to the new F<i>x</i> state. If TRUE, the <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) already notified the driver by calling the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> callback routine. If FALSE, PoFx has not yet notified the driver.
+[in] Whether the driver for the device has already been notified of the pending transition to the new F<i>x</i> state. If TRUE, the <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) already notified the driver by calling the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> callback routine. If FALSE, PoFx has not yet notified the driver.
 
 ### -field Completed
 

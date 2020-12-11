@@ -118,7 +118,7 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

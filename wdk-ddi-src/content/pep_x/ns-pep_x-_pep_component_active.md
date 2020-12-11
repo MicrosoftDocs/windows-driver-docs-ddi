@@ -75,7 +75,7 @@ The <b>PEP_COMPONENT_ACTIVE</b> structure identifies a component that is making 
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_component_active">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_component_active">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
 
 ## -see-also
 

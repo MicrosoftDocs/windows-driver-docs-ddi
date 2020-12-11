@@ -60,7 +60,7 @@ A <i>Halt</i> callback routine may or may not return. If this routine does retur
 
 ## -remarks
 
-This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
+This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
 
 The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called <b>ProcessorHalt</b>.
 

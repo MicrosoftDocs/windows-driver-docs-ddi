@@ -67,4 +67,4 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

@@ -63,7 +63,7 @@ A <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_cap_flags
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

@@ -74,7 +74,7 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

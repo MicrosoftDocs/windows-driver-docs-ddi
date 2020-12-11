@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>PEP_REQUEST_COMPONENT_PERF_STATE</b> structure contains a list of performance state (P-state) changes requested by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP).
+The <b>PEP_REQUEST_COMPONENT_PERF_STATE</b> structure contains a list of performance state (P-state) changes requested by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP).
 
 ## -struct-fields
 
