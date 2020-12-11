@@ -59,7 +59,7 @@ The <b>PEP_PREPARE_DEVICE</b> structure identifies a device that must be started
 
 ### -field DeviceAccepted
 
-[out] Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device. The PEP that claims ownership is responsible for handling <a href="/windows-hardware/drivers/ddi/index">device power management (DPM) notifications</a> for the device.
+[out] Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device. The PEP that claims ownership is responsible for handling <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a> for the device.
 
 ## -remarks
 

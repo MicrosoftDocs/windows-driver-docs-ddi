@@ -75,7 +75,7 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

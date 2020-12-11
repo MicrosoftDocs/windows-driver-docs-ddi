@@ -80,6 +80,4 @@ instead run the <b>EDTTryStopDeviceFailRestart</b> method on a parent
 device, grandparent, etc., which does consume hardware resources. For example, if your device 
 is a USB mouse, you can run this method on the parent USB controller instead.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

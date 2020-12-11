@@ -152,7 +152,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 </div>
 <div> </div>
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 
 

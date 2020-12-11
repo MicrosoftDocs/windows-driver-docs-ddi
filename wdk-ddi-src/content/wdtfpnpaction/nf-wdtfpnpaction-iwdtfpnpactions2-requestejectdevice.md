@@ -63,6 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 This will in essence call <b>CM_Request_Device_Eject()</b>. 
 See the MSDN documentation for details.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

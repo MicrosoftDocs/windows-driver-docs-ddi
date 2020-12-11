@@ -59,7 +59,7 @@ The discrete value represented by this P-state. For more information, see Remark
 
 ### -field Context
 
-A pointer to PEP-defined context data. The PEP uses this context to contain additional information about the discrete performance level that cannot be expressed in the <b>Value</b> member. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <b>Context</b> member is optional and can be set to NULL.
+A pointer to PEP-defined context data. The PEP uses this context to contain additional information about the discrete performance level that cannot be expressed in the <b>Value</b> member. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <b>Context</b> member is optional and can be set to NULL.
 
 ## -remarks
 

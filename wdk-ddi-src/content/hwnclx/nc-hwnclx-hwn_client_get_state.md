@@ -133,4 +133,4 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

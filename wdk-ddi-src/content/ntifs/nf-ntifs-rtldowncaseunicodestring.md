@@ -73,7 +73,7 @@ If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, <b>RtlDowncaseUn
 
 <b>RtlDowncaseUnicodeString</b> does not modify the source string.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

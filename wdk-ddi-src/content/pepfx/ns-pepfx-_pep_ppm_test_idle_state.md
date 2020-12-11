@@ -67,7 +67,7 @@ The <b>PEP_PPM_TEST_IDLE_STATE</b> structure contains information about whether 
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_test_idle_state">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP writes an output value to the <b>VetoReason</b> member of this structure.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_test_idle_state">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP writes an output value to the <b>VetoReason</b> member of this structure.
 
 ## -see-also
 

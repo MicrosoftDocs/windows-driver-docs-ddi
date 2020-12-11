@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
+The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
 
 ## -parameters
 

@@ -64,6 +64,4 @@ The lifetime of <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2
 instances are tied to their creator. If you remove an item from a collection, the item is
 not destroyed.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
+#

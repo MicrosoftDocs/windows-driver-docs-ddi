@@ -75,7 +75,7 @@ This structure is used as part of an isochronous transfer request to the host co
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

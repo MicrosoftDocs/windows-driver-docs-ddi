@@ -116,7 +116,7 @@ The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a l
 
 To be a legal ANSI character, a character must be present in the ANSI legal character array and must satisfy the input flag settings. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

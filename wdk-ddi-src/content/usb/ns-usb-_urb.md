@@ -150,4 +150,4 @@ For information about the function codes to set in each structure, see <a href="
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

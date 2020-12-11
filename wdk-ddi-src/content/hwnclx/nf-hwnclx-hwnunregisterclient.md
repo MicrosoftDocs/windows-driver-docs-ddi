@@ -73,4 +73,4 @@ FORCEINLINE NTSTATUS  HwNUnregisterClient(
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

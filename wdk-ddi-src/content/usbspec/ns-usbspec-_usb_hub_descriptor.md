@@ -86,7 +86,7 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

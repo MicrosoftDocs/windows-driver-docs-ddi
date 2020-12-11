@@ -53,7 +53,7 @@ The <b>PoFxPowerOnCrashdumpDevice</b> routine requests that a crash-dump device 
 ### -param Handle 
 
 [in]
-A handle that represents the registration of the crash-dump device with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the crash-dump device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
 ### -param Context 
 

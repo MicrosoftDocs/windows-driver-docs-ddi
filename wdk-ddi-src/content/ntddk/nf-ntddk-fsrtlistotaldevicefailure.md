@@ -64,7 +64,7 @@ If <b>FsRtlIsTotalDeviceFailure</b> returns <b>TRUE</b>, a higher-level driver, 
 
 <b>FsRtlIsTotalDeviceFailure</b> does not return <b>TRUE</b> for either of the status values STATUS_DEVICE_DATA_ERROR and STATUS_CRC_ERROR, which are assumed to indicate a sector failure rather than a total disk failure.
 
-For more information about handling device failure, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
+For more information about handling device failure, see <a href="/windows/win32/seccrypto/common-hresult-values">Error Handling</a>.
 
 ## -see-also
 

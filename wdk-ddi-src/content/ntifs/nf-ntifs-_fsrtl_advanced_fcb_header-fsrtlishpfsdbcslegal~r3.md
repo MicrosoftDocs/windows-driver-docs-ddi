@@ -109,7 +109,7 @@ HPFS file names are case-preserving, but not case insensitive. Lowercase file na
 
 </li>
 </ol>
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 
 

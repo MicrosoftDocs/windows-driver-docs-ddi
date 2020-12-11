@@ -91,7 +91,7 @@ Reserved.
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

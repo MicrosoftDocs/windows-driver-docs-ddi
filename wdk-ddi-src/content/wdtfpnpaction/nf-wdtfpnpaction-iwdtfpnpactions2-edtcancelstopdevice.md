@@ -71,6 +71,4 @@ It is possible for the filter drivers that are loaded above the helper driver
 to fail the query IRP as well. In that case, the helper driver will indicate this condition 
 by setting EDTRS_QueryStopVetoed in ppResult.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

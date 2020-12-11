@@ -68,7 +68,7 @@ ULONGLONG value with which to fill the range starting at <i>Destination</i> and 
 
 If the range of memory starting at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlonglong</b> must be running at IRQL < DISPATCH_LEVEL.
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>. 
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/_kernel/#buffered-data-and-buffer-initialization">Buffered Data and Buffer Initialization</a>. 
 
 For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine is contained in Ntoskrnl.lib.
 
