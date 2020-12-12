@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITY_FLAGS
 title: _NDIS_TIMESTAMP_CAPABILITY_FLAGS (ntddndis.h)
-description: This structure is reserved for system use and should not be used in your code.
+description: The NDIS_TIMESTAMP_CAPABILITY_FLAGS structure represents a network interface card (NIC)'s timestamping capabilities in various contexts.
 tech.root: netvista
-ms.date: 08/08/2018
+ms.date: 12/31/2020
 keywords: ["NDIS_TIMESTAMP_CAPABILITY_FLAGS structure"]
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS,
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2019
+req.target-min-winverclnt: Windows 10, version 21H1
+req.target-min-winversvr:
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -40,73 +40,72 @@ api_name:
 
 # _NDIS_TIMESTAMP_CAPABILITY_FLAGS structure
 
-
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This structure is reserved for system use and should not be used in your code.
+The **NDIS_TIMESTAMP_CAPABILITY_FLAGS** structure represents a network interface card (NIC)'s timestamping capabilities in various contexts.
 
 ## -struct-fields
 
 ### -field PtpV2OverUdpIPv4EventMsgReceiveHw
 
-Reserved.
+A value of **TRUE** indicates that during packet reception the NIC can recognize in hardware a PTP version 2 *event* message contained in an IPv4 UDP packet and generate a timestamp in hardware corresponding to when such a packet was received. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv4AllMsgReceiveHw
 
-Reserved.
+A value of **TRUE** indicates that during packet reception the NIC can recognize in hardware *any* PTP version 2 message (not just PTP event messages) contained in an IPv4 UDP packet and generate a timestamp in hardware corresponding to when such a packet was received. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv4EventMsgTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that during packet transmission the NIC can recognize in hardware a PTP version 2 *event* message contained in an IPv4 UDP packet and generate a timestamp in hardware corresponding to when such a packet was transmitted. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv4AllMsgTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that during packet transmission the NIC can recognize in hardware *any* PTP version 2 message (not just PTP event messages) contained in an IPv4 UDP packet and generate a timestamp in hardware corresponding to when such a packet was transmitted. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv6EventMsgReceiveHw
 
-Reserved.
+A value of **TRUE** indicates that during packet reception the NIC can recognize in hardware a PTP version 2 *event* message contained in an IPv6 UDP packet and generate a timestamp in hardware corresponding to when such a packet was received. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv6AllMsgReceiveHw
 
-Reserved.
+A value of **TRUE** indicates that during packet reception the NIC can recognize in hardware *any* PTP version 2 message (not just PTP event messages) contained in an IPv6 UDP packet and generate a timestamp in hardware corresponding to when such a packet was received. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv6EventMsgTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that during packet transmission the NIC can recognize in hardware a PTP version 2 *event* message contained in an IPv6 UDP packet and generate a timestamp in hardware corresponding to when such a packet was transmitted. A value of **FALSE** indicates the hardware is not capable of this.
 
 ### -field PtpV2OverUdpIPv6AllMsgTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that during packet transmission the NIC can recognize in hardware *any* PTP version 2 message (not just PTP event messages) contained in an IPv6 UDP packet and generate a timestamp in hardware corresponding to when such a packet was transmitted. A value of **FALSE** indicates the hardware is not capable of this
 
 ### -field AllReceiveHw
 
-Reserved.
+A value of **TRUE** indicates that the NIC can generate a hardware timestamp for all received packets (for example, not just PTP). A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field AllTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that the NIC can generate a hardware timestamp for all transmitted packets (for example, not just PTP). A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field TaggedTransmitHw
 
-Reserved.
+A value of **TRUE** indicates that the NIC can generate a hardware timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport/hardware using a metadata field in the packet described further below in the section on Transmit side timestamping. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field AllReceiveSw
 
-Reserved.
+A value of **TRUE** indicates that the miniport driver can generate a software timestamp for all received packets. The driver should generate the timestamp by calling the [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) API. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field AllTransmitSw
 
-Reserved.
+A value of **TRUE** indicates that the miniport driver can generate a software timestamp for all transmitted packets. The timestamp should be generated in software using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field TaggedTransmitSw
 
-Reserved.
+A value of **TRUE** indicates that the miniport driver can generate a software timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport using a metadata field in the packet described further below. The timestamp should be generated in software using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ## -remarks
 
 ## -see-also
 
+[**NDIS_TIMESTAMP_CAPABILITIES**](ns-ntddndis-_ndis_timestamp_capabilities.md)
+
+[**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md)
