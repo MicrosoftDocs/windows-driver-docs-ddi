@@ -2,7 +2,6 @@
 UID: NS:ntddk._WHEA_ERROR_PACKET_V2
 title: _WHEA_ERROR_PACKET_V2 (ntddk.h)
 description: The WHEA_ERROR_PACKET_V2 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V2 structure is supported in Windows 7 and later versions of Windows.
-old-location: whea\whea_error_packet_v2.htm
 tech.root: whea
 ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_PACKET_V2 structure"]
@@ -50,7 +49,6 @@ api_name:
 ## -description
 
 The WHEA_ERROR_PACKET_V2 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).
-<div class="alert"><b>Note</b>  The WHEA_ERROR_PACKET_V2 structure is supported in Windows 7 and later versions of Windows.</div><div> </div>
 
 ## -struct-fields
 
