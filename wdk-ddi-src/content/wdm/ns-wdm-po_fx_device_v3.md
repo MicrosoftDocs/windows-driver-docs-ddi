@@ -1,4 +1,4 @@
-    ---
+---
 UID: NS:wdm._PO_FX_DEVICE_V3
 title: PO_FX_DEVICE_V3
 description: 
