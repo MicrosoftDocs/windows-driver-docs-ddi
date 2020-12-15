@@ -105,7 +105,9 @@ The <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> u
 
 The <b>COUNTED_REASON_CONTEXT</b> structure can contain either a simple reason string or a set of detailed reason strings. If <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING, the <b>SimpleString</b> member points to a string that explains the reason for the power request. If <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING, the <b>ResourceFileName</b>, <b>ResourceReasonId</b>, <b>StringCount</b>, and <b>ReasonStrings</b> members can give a detailed set of reasons for the power request.
 
-The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localized resource file specified by <b>ResourceFileName</b> exists, the power manager retrieves a set of resource strings from the file and uses these strings in place of the strings contained in the <b>ReasonStrings</b> array. <b>ResourceId</b> specifies the resource index of the first string in the file to use as a reason string, and <b>StringCount</b> specifies the number of resource strings to use as reason strings. The resource strings must have consecutive resource indexes.
+The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localized resource file specified by <b>ResourceFileName</b> exists, the power manager retrieves the resource string specified by <b>ResourceReasonId</b> from the file and then formats the string, replacing `%1`, `%2`, etc. placeholders with corresponding items from the <b>ReasonStrings</b> array. Other format specifiers used with **FormatMessageW** are not supported.
+
+The power manager retrieves the resource strings from [STRINGTABLE resources](/windows/win32/menurc/stringtable-resource).
 
 ## -see-also
 

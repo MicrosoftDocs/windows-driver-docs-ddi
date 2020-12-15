@@ -65,6 +65,8 @@ A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager,
 
 Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> requests.
 
+For documentation of other `SL_*` flags for IRP_MJ_CREATE, see [IRP_MJ_CREATE (IFS)](/windows-hardware/drivers/ifs/irp-mj-create).
+
 Possible flag values include:
 
 <table>
