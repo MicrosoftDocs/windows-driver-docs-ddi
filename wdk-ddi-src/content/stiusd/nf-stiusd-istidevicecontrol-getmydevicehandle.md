@@ -4,7 +4,6 @@ title: IStiDeviceControl::GetMyDeviceHandle (stiusd.h)
 description: This topic describes the GetMyDeviceHandle method.
 old-location: image\istidevicecontrol_getmydevicehandle.htm
 tech.root: image
-ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
 ms.date: 05/03/2018
 keywords: ["IStiDeviceControl::GetMyDeviceHandle"]
 ms.keywords: GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], GetMyDeviceHandle method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDeviceHandle method, IStiDeviceControl.GetMyDeviceHandle, IStiDeviceControl::GetMyDeviceHandle, image.istidevicecontrol_getmydevicehandle, stiusd/IStiDeviceControl::GetMyDeviceHandle

@@ -4,7 +4,6 @@ title: _SMARTCARD_REPLY (smclib.h)
 description: Describes the reply buffer received from the smart card.
 old-location: smartcrd\smartcard_reply.htm
 tech.root: smartcrd
-ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.date: 02/22/2018
 keywords: ["SMARTCARD_REPLY structure"]
 ms.keywords: "*PSMARTCARD_REPLY, PSMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], _SMARTCARD_REPLY, smartcrd.smartcard_reply, smclib/PSMARTCARD_REPLY, smclib/SMARTCARD_REPLY"

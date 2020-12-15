@@ -3,7 +3,6 @@ UID: NF:portcls.IDmaChannel.PhysicalAddress
 title: IDmaChannel::PhysicalAddress (portcls.h)
 description: The PhysicalAddress method returns the physical address of the allocated buffer.
 tech.root: audio
-ms.assetid: bb324307-e28b-4185-bfc0-ef69a99125ff
 ms.date: 10/31/2018
 keywords: ["IDmaChannel::PhysicalAddress"]
 ms.keywords: IDmaChannel::PhysicalAddress, PhysicalAddress, IDmaChannel.PhysicalAddress, IDmaChannel::PhysicalAddress, IDmaChannel.PhysicalAddress

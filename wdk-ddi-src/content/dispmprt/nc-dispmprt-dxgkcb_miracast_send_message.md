@@ -4,7 +4,6 @@ title: DXGKCB_MIRACAST_SEND_MESSAGE (dispmprt.h)
 description: Sends an asynchronous message to the user-mode display driver.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
-ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.date: 05/10/2018
 keywords: ["DXGKCB_MIRACAST_SEND_MESSAGE callback function"]
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage

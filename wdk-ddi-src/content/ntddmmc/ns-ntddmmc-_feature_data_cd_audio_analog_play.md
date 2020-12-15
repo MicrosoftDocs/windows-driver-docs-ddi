@@ -4,7 +4,6 @@ title: _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY (ntddmmc.h)
 description: The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD Audio External Play feature.
 old-location: storage\feature_data_cd_audio_analog_play.htm
 tech.root: storage
-ms.assetid: 01c34bb8-b164-425d-b81c-7eefc08296e2
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure"]
 ms.keywords: "*PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play, structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml"

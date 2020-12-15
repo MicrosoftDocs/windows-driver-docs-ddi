@@ -4,7 +4,6 @@ title: OEMStretchBltROP function (printoem.h)
 description: The OEMStretchBltROP function performs a stretching bit-block transfer using a raster operation (ROP).
 old-location: print\oemstretchbltrop.htm
 tech.root: print
-ms.assetid: 2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae
 ms.date: 04/20/2018
 keywords: ["OEMStretchBltROP function"]
 ms.keywords: OEMStretchBltROP, OEMStretchBltROP function [Print Devices], print.oemstretchbltrop, print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, printoem/OEMStretchBltROP

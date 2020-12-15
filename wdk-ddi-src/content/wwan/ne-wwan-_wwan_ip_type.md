@@ -4,7 +4,6 @@ title: _WWAN_IP_TYPE (wwan.h)
 description: The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
 old-location: netvista\wwan_ip_type.htm
 tech.root: netvista
-ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.date: 05/02/2018
 keywords: ["WWAN_IP_TYPE enumeration"]
 ms.keywords: "*PWWAN_IP_TYPE, WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, WwanIPTypeIPv4, WwanIPTypeIPv6, WwanIPTypeIpv4v6, _WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6"

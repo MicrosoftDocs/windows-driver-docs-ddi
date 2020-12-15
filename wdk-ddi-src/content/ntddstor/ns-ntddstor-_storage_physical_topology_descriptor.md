@@ -4,7 +4,6 @@ title: _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR (ntddstor.h)
 description: Describes the physical topology of storage in a system.
 old-location: storage\storage_physical_topology_descriptor.htm
 tech.root: storage
-ms.assetid: FD5714DF-9D34-4396-86BC-40054C199A0E
 ms.date: 03/29/2018
 keywords: ["STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Storage Devices], _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, storage.storage_physical_topology_descriptor"

@@ -4,7 +4,6 @@ title: ClfsLsnEqual function (wdm.h)
 description: The ClfsLsnEqual routine determines whether two LSNs from the same stream are equal.
 old-location: kernel\clfslsnequal.htm
 tech.root: kernel
-ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.date: 04/30/2018
 keywords: ["ClfsLsnEqual function"]
 ms.keywords: ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, kernel.clfslsnequal, wdm/ClfsLsnEqual

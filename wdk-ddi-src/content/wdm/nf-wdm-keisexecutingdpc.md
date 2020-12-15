@@ -2,7 +2,7 @@
 UID: NF:wdm.KeIsExecutingDpc
 title: KeIsExecutingDpc function (wdm.h)
 description: Checks whether a DPC is being executed on current processor.
-ms.assetid: b75e1f85-98c7-47b1-bb12-b4c76127e8c4
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["KeIsExecutingDpc function"]
 ms.keywords: KeIsExecutingDpc

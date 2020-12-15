@@ -4,7 +4,6 @@ title: WRITE_REGISTER_UCHAR function (ioaccess.h)
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel
-ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.date: 03/01/2018
 keywords: ["WRITE_REGISTER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, kernel.write_register_uchar, wdm/WRITE_REGISTER_UCHAR

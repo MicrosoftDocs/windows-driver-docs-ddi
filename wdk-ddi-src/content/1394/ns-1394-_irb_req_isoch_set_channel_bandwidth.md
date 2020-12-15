@@ -4,7 +4,6 @@ title: _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH (1394.h)
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochSetChannelBandwidth request.
 old-location: ieee\irb_req_isoch_set_channel_bandwidth.htm
 tech.root: IEEE
-ms.assetid: CBEB68C2-549F-4EB6-9AF4-4DCA6749F75D
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IEEE.irb_req_isoch_set_channel_bandwidth, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH

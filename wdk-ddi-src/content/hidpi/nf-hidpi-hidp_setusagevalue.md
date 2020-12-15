@@ -4,7 +4,6 @@ title: HidP_SetUsageValue function (hidpi.h)
 description: The HidP_SetUsageValue routine sets a HID control value in a specified HID report.
 old-location: hid\hidp_setusagevalue.htm
 tech.root: hid
-ms.assetid: e59d7087-58eb-4bc3-a4e0-4597ee28dcd6
 ms.date: 04/30/2018
 keywords: ["HidP_SetUsageValue function"]
 ms.keywords: HidP_SetUsageValue, HidP_SetUsageValue routine [Human Input Devices], hid.hidp_setusagevalue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, hidpi/HidP_SetUsageValue

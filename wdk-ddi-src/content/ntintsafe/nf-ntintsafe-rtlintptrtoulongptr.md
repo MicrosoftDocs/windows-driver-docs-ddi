@@ -4,7 +4,6 @@ title: RtlIntPtrToULongPtr function (ntintsafe.h)
 description: Converts a value of type INT_PTR to a value of type ULONG_PTR.
 old-location: kernel\rtlintptrtoulongptr.htm
 tech.root: kernel
-ms.assetid: DE6CD62F-0792-490A-9DDD-A979CAC0565A
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrToULongPtr function"]
 ms.keywords: RtlIntPtrToULongPtr, RtlIntPtrToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoulongptr, ntintsafe/RtlIntPtrToULongPtr

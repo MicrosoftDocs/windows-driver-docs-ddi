@@ -4,7 +4,6 @@ title: IDriverEntry::OnDeviceAdd (wudfddi.h)
 description: The OnDeviceAdd method adds a new device to a system.
 old-location: wdf\idriverentry_ondeviceadd.htm
 tech.root: wdf
-ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.date: 02/26/2018
 keywords: ["IDriverEntry::OnDeviceAdd"]
 ms.keywords: IDriverEntry interface,OnDeviceAdd method, IDriverEntry.OnDeviceAdd, IDriverEntry::OnDeviceAdd, OnDeviceAdd, OnDeviceAdd method, OnDeviceAdd method,IDriverEntry interface, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, umdf.idriverentry_ondeviceadd, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd

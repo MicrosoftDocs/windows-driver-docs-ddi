@@ -4,7 +4,6 @@ title: HidRegisterMinidriver function (hidport.h)
 description: The HidRegisterMinidriver routine is called by HID minidrivers, during their initialization, to register with the HID class driver.
 old-location: hid\hidregisterminidriver.htm
 tech.root: hid
-ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.date: 04/30/2018
 keywords: ["HidRegisterMinidriver function"]
 ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver

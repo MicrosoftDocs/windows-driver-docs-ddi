@@ -4,7 +4,6 @@ title: IWDTFActions2::get_Count (wdtf.h)
 description: Gets the number of actions in this collection.
 old-location: dtf\iwdtfactions2_count.htm
 tech.root: dtf
-ms.assetid: 73115e3a-3749-4751-a460-7557c996c0b8
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::get_Count"]
 ms.keywords: Count method [Windows Device Testing Framework], Count method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Count method, IWDTFActions2.get_Count, IWDTFActions2::Count, IWDTFActions2::get_Count, dtf.iwdtfactions2_count, get_Count, wdtf/IWDTFActions2::Count
@@ -60,6 +59,4 @@ The number of actions.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
+#

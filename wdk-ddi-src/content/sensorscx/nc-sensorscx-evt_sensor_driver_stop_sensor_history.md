@@ -2,7 +2,7 @@
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
 title: EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY (sensorscx.h)
 description: Stops recording history in the sensor.
-ms.assetid: 6275f6dc-9c05-4fb1-a66e-60abd6052654
+tech.root: sensors
 ms.date: 10/19/2018
 keywords: ["EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY callback function"]
 req.header: sensorscx.h

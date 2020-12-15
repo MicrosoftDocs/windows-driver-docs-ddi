@@ -3,7 +3,6 @@ UID: NF:portcls.IPort.NewRegistryKey
 title: IPort::NewRegistryKey (portcls.h)
 description: The NewRegistryKey method either opens an existing registry key or creates a new key in the registry. The method creates a registry-key object to represent the key.
 tech.root: audio
-ms.assetid: 012f6963-9091-4b76-88c6-040e4f5217c1
 ms.date: 10/31/2018
 keywords: ["IPort::NewRegistryKey"]
 ms.keywords: IPort::NewRegistryKey, NewRegistryKey, IPort.NewRegistryKey, IPort::NewRegistryKey, IPort.NewRegistryKey

@@ -4,7 +4,6 @@ title: RtlDWordPtrSub function (ntintsafe.h)
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: kernel\rtldwordptrsub.htm
 tech.root: kernel
-ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.date: 04/30/2018
 keywords: ["RtlDWordPtrSub function"]
 ms.keywords: RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub

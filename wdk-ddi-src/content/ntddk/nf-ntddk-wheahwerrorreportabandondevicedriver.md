@@ -4,7 +4,6 @@ title: WheaHwErrorReportAbandonDeviceDriver
 ms.date: 04/02/2020
 ms.topic: language-reference
 tech.root: whea
-ms.assetid: 4a176efe-7e1a-4811-b8d7-ae78933328d7
 targetos: Windows
 description: 
 req.assembly: 

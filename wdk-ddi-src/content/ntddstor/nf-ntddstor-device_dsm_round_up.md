@@ -3,7 +3,6 @@ UID: NF:ntddstor.DEVICE_DSM_ROUND_UP
 title: DEVICE_DSM_ROUND_UP macro (ntddstor.h)
 description: The DEVICE_DSM_ROUND_UP macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
 tech.root: storage
-ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_ROUND_UP macro"]
 ms.keywords: DEVICE_DSM_ROUND_UP

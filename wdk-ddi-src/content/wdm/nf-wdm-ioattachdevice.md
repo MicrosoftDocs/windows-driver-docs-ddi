@@ -4,7 +4,6 @@ title: IoAttachDevice function (wdm.h)
 description: The IoAttachDevice routine attaches the caller's device object to a named target device object, so that I/O requests bound for the target device are routed first to the caller.
 old-location: kernel\ioattachdevice.htm
 tech.root: kernel
-ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
 ms.date: 04/30/2018
 keywords: ["IoAttachDevice function"]
 ms.keywords: IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, wdm/IoAttachDevice

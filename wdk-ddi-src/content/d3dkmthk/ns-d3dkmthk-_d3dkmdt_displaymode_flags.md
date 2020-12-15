@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMDT_DISPLAYMODE_FLAGS
 title: _D3DKMDT_DISPLAYMODE_FLAGS (d3dkmthk.h)
 description: The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 old-location: display\d3dkmdt_displaymode_flags.htm
-ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_DISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, _D3DKMDT_DISPLAYMODE_FLAGS, d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, display.d3dkmdt_displaymode_flags

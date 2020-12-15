@@ -4,7 +4,6 @@ title: PSERVICE_CALLBACK_ROUTINE (kbdmou.h)
 description: A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue.
 old-location: hid\kbdclass_class_service_callback_routine.htm
 tech.root: hid
-ms.assetid: 78ae2a98-bebd-43ee-b016-2f619c3135ca
 ms.date: 04/30/2018
 keywords: ["PSERVICE_CALLBACK_ROUTINE callback function"]
 ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, PSERVICE_CALLBACK_ROUTINE callback, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml

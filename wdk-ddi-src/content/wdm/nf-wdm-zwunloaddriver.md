@@ -4,7 +4,6 @@ title: ZwUnloadDriver function (wdm.h)
 description: The ZwUnloadDriver routine unloads a driver from the system.
 old-location: kernel\zwunloaddriver.htm
 tech.root: kernel
-ms.assetid: 4fbb4d4b-b98a-4d10-b9b2-7ad8fc4ada6e
 ms.date: 04/30/2018
 keywords: ["ZwUnloadDriver function"]
 ms.keywords: NtUnloadDriver, ZwUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, kernel.zwunloaddriver, wdm/NtUnloadDriver, wdm/ZwUnloadDriver

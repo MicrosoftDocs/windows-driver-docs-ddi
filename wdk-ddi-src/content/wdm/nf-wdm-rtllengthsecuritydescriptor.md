@@ -4,7 +4,6 @@ title: RtlLengthSecurityDescriptor function (wdm.h)
 description: The RtlLengthSecurityDescriptor routine returns the size of a given security descriptor.
 old-location: kernel\rtllengthsecuritydescriptor.htm
 tech.root: kernel
-ms.assetid: e06888eb-2ced-46c0-bdbf-3bad57020bf7
 ms.date: 04/30/2018
 keywords: ["RtlLengthSecurityDescriptor function"]
 ms.keywords: RtlLengthSecurityDescriptor, RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, kernel.rtllengthsecuritydescriptor, wdm/RtlLengthSecurityDescriptor

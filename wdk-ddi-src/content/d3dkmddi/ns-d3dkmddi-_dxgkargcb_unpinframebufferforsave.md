@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 title: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: Argument used by the DxgkcbUnpinFrameBufferForSave callback function to release the mapping that was set by DxgkcbPinFrameBufferForSave.
-ms.assetid: 56070ab5-2945-498b-8565-c3bf51488bb4
 ms.date: 10/19/2018
 keywords: ["DXGKARGCB_UNPINFRAMEBUFFERFORSAVE structure"]
 ms.keywords: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE, DXGKARGCB_UNPINFRAMEBUFFERFORSAVE,

@@ -4,7 +4,6 @@ title: IStiDevice::GetLastNotificationData (sti.h)
 description: The IStiDevice::GetLastNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istidevice_getlastnotificationdata.htm
 tech.root: image
-ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.date: 05/03/2018
 keywords: ["IStiDevice::GetLastNotificationData"]
 ms.keywords: GetLastNotificationData, GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastNotificationData method, IStiDevice.GetLastNotificationData, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml

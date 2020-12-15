@@ -3,7 +3,6 @@ UID: NE:ucmucsifuncenum._UCMUCSIFUNCENUM
 title: _UCMUCSIFUNCENUM (ucmucsifuncenum.h)
 tech.root: usbref
 description: Defines values for all export functions called by a client driver of a UcmUcsiCx class extension.
-ms.assetid: 52d0d6bb-f1e5-4033-a329-49f424623f72
 ms.date: 10/19/2018
 keywords: ["UCMUCSIFUNCENUM enumeration"]
 ms.keywords: _UCMUCSIFUNCENUM, UCMUCSIFUNCENUM,

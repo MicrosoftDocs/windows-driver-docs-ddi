@@ -2,7 +2,7 @@
 UID: NE:usbctypes._USBC_PD_CONN_STATE
 title: _USBC_PD_CONN_STATE (usbctypes.h)
 description: Defines power delivery (PD) negotiation states of a Type-C port.
-ms.assetid: 27f676a8-610a-4984-8a41-0d8cb446b726
+tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_PD_CONN_STATE enumeration"]
 ms.keywords: _USBC_PD_CONN_STATE, USBC_PD_CONN_STATE,

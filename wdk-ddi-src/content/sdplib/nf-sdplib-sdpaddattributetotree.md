@@ -4,7 +4,6 @@ title: SdpAddAttributeToTree function (sdplib.h)
 description: The Bluetooth SdpAddAttributeToTree function is used to attach an SDP attribute node to the top level of an SDP record.
 old-location: bltooth\sdpaddattributetotree.htm
 tech.root: bltooth
-ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.date: 04/27/2018
 keywords: ["SdpAddAttributeToTree function"]
 ms.keywords: SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, sdplib/SdpAddAttributeToTree

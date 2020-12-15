@@ -4,7 +4,6 @@ title: RIL_GetMsgServiceOptions function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getmsgserviceoptions.htm
 tech.root: netvista
-ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.date: 05/02/2018
 keywords: ["RIL_GetMsgServiceOptions function"]
 ms.keywords: RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getmsgserviceoptions, rilapi/RIL_GetMsgServiceOptions

@@ -4,7 +4,6 @@ title: StorPortLogSystemEvent function (storport.h)
 description: The StorPortLogSystemEvent routine gives miniport drivers full access to the capabilities of the Windows kernel event facility, enabling miniport drivers to create event log entries that are truly useful in troubleshooting storage issues.
 old-location: storage\storportlogsystemevent.htm
 tech.root: storage
-ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
 ms.date: 03/29/2018
 keywords: ["StorPortLogSystemEvent function"]
 ms.keywords: StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices], storage.storportlogsystemevent, storport/StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml

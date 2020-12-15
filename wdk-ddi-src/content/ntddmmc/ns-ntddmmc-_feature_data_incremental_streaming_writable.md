@@ -4,7 +4,6 @@ title: _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE (ntddmmc.h)
 description: The FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure contains information about the Incremental Streaming Writable feature.
 old-location: storage\feature_data_incremental_streaming_writable.htm
 tech.root: storage
-ms.assetid: 5e3918a4-8cc6-45b9-acb1-3a2b2088d4b9
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure"]
 ms.keywords: "*PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure [Storage Devices], PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure pointer [Storage Devices], _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, ntddmmc/FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, ntddmmc/PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, storage.feature_data_incremental_streaming_writable, structs-CD-ROM_ad0cd0d4-fa5d-4ad4-82d9-7945eaa2a2cd.xml"

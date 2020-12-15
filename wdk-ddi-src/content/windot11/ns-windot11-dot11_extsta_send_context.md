@@ -4,7 +4,6 @@ title: DOT11_EXTSTA_SEND_CONTEXT (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extsta_send_context.htm
 tech.root: netvista
-ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.date: 02/16/2018
 keywords: ["DOT11_EXTSTA_SEND_CONTEXT structure"]
 ms.keywords: "*PDOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, PDOT11_EXTSTA_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, windot11/DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT"
@@ -151,7 +150,7 @@ The miniport driver must fail the send request if the PHY specified by
      <b>uPhyId</b> is either not supported or has been disabled through a proprietary mechanism implemented by
      the independent hardware vendor (IHV). In this situation, the miniport driver sets the
      <b>Status</b> member of the
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure to
+     <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure to
      NDIS_STATUS_UNSUPPORTED_MEDIA and calls
      <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
      NdisMSendNetBufferListsComplete</a> to complete the send request.
@@ -189,7 +188,7 @@ The 802.11 station uses the value of
 
 A pointer to a buffer that contains media-specific information. This member should be <b>NULL</b> when
      the 802.11
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that this
+     <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure that this
      structure is associated with comes from the native 802.11 framework itself (including any
      NET_BUFFER_LIST structures that come from an IHV extension).
 
@@ -225,7 +224,7 @@ The miniport driver performs a send operation when its
     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
     MiniportSendNetBufferLists</a> is called. Each packet passed to the driver through this function is
     defined by a
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure, which contains
+    <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure, which contains
     Native 802.11 out-of-band (OOB) data. The OOB data contains media-specific parameters that the 802.11
     station uses when transmitting the packet.
 
@@ -237,7 +236,7 @@ The miniport driver accesses the Native 802.11 OOB data through the
 <li>
 The
       <i>_NBL</i> parameter, which is passed the pointer to the
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
+      <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
       received 802.11 packet.
 
 </li>
@@ -254,7 +253,7 @@ For more information about Native 802.11 send operations, see
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

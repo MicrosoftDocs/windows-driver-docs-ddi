@@ -4,7 +4,6 @@ title: _FEATURE_DATA_RANDOM_WRITABLE (ntddmmc.h)
 description: The FEATURE_DATA_RANDOM_WRITABLE structure holds information about the Random Writable feature.
 old-location: storage\feature_data_random_writable.htm
 tech.root: storage
-ms.assetid: b2637f5e-15b0-44ae-8cd0-98712e735998
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_RANDOM_WRITABLE structure"]
 ms.keywords: "*PFEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE structure [Storage Devices], PFEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE structure pointer [Storage Devices], _FEATURE_DATA_RANDOM_WRITABLE, ntddmmc/FEATURE_DATA_RANDOM_WRITABLE, ntddmmc/PFEATURE_DATA_RANDOM_WRITABLE, storage.feature_data_random_writable, structs-CD-ROM_fa825a20-a941-4af3-aabd-1b9f7e4e3ee6.xml"

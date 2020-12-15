@@ -4,7 +4,6 @@ title: StorPortGetStartIoPerfParams function (storport.h)
 description: The StorPortGetStartIoPerfParams routine places the performance parameters for a given I/O request in a STARTIO_PERFORMANCE_PARAMETERS structure.
 old-location: storage\storportgetstartioperfparams.htm
 tech.root: storage
-ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
 ms.date: 03/29/2018
 keywords: ["StorPortGetStartIoPerfParams function"]
 ms.keywords: StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml

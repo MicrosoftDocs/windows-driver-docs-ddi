@@ -4,7 +4,6 @@ title: _PEP_COMPONENT_ACTIVE (pep_x.h)
 description: The PEP_COMPONENT_ACTIVE structure identifies a component that is making a transition between the idle condition and the active condition.
 old-location: kernel\pep_component_active.htm
 tech.root: kernel
-ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
 ms.date: 04/30/2018
 keywords: ["PEP_COMPONENT_ACTIVE structure"]
 ms.keywords: "*PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE, kernel.pep_component_active, pep_x/PEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE"
@@ -76,7 +75,7 @@ The <b>PEP_COMPONENT_ACTIVE</b> structure identifies a component that is making 
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_component_active">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_component_active">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
 
 ## -see-also
 

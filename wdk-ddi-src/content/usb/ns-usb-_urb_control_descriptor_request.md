@@ -4,7 +4,6 @@ title: _URB_CONTROL_DESCRIPTOR_REQUEST (usb.h)
 description: The _URB_CONTROL_DESCRIPTOR_REQUEST structure is used by USB client drivers to get or set descriptors on a USB device.
 old-location: buses\_urb_control_descriptor_request.htm
 tech.root: usbref
-ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.date: 05/07/2018
 keywords: ["URB_CONTROL_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
@@ -142,7 +141,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

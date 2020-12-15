@@ -4,7 +4,6 @@ title: _PEP_COMPONENT_PERF_SET (pepfx.h)
 description: The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
 old-location: kernel\pep_component_perf_set.htm
 tech.root: kernel
-ms.assetid: E4EB8052-545C-46AE-A879-1F216B7FD20B
 ms.date: 04/30/2018
 keywords: ["PEP_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_SET, kernel.pep_component_perf_set, pepfx/PEP_COMPONENT_PERF_SET, pepfx/PPEP_COMPONENT_PERF_SET"
@@ -129,7 +128,7 @@ The maximum value in the range. This value is expressed in the units indicated b
 
 ## -remarks
 
-The <b>PerfStateSets</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_perf_info">PEP_COMPONENT_PERF_INFO</a> is the first element in an array of <b>PEP_COMPONENT_PERF_SET</b> structures. All members of the <b>PEP_COMPONENT_PERF_SET</b> structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The platform extension plug-in (PEP) must not write to this structure.
+The <b>PerfStateSets</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_perf_info">PEP_COMPONENT_PERF_INFO</a> is the first element in an array of <b>PEP_COMPONENT_PERF_SET</b> structures. All members of the <b>PEP_COMPONENT_PERF_SET</b> structure contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The platform extension plug-in (PEP) must not write to this structure.
 
 Device drivers use the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a> structure, which is similar to the <b>PEP_COMPONENT_PERF_SET</b> structure.
 

@@ -4,7 +4,6 @@ title: tagOEMPTOPTS (prcomoem.h)
 description: 
 old-location: print\oemptopts.htm
 tech.root: print
-ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.date: 04/20/2018
 keywords: ["tagOEMPTOPTS enumeration"]
 ms.keywords: "*POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, tagOEMPTOPTS"

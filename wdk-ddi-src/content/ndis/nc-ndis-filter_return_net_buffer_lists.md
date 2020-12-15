@@ -4,7 +4,6 @@ title: FILTER_RETURN_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the FilterReturnNetBufferLists function to return a linked list of NET_BUFFER_LIST structures and associated data to a filter driver.Note  You must declare the function by using the FILTER_RETURN_NET_BUFFER_LISTS type.
 old-location: netvista\filterreturnnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 8d7e362f-62da-4ce7-9497-1cfaff2b678e
 ms.date: 05/02/2018
 keywords: ["FILTER_RETURN_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_RETURN_NET_BUFFER_LISTS, FILTER_RETURN_NET_BUFFER_LISTS callback, FilterReturnNetBufferLists, FilterReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_a4a0c4ae-790b-43f9-a209-06538a7bbab6.xml, ndis/FilterReturnNetBufferLists, netvista.filterreturnnetbufferlists
@@ -48,7 +47,7 @@ api_name:
 
 NDIS calls the 
   <i>FilterReturnNetBufferLists</i> function to return a linked list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and associated data
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and associated data
   to a filter driver.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_RETURN_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -65,7 +64,7 @@ A handle to the context area for the filter module. The filter driver created an
 ### -param NetBufferLists 
 
 [in]
-A linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the filter driver indicated by calling the 
+A linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the filter driver indicated by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatereceivenetbufferlists">
      NdisFIndicateReceiveNetBufferLists</a> function. The list can include <b>NET_BUFFER_LIST</b> structures from
      multiple calls to 
@@ -90,11 +89,11 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 
 #### NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE
 
-If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
+If this flag is set, all packets in a linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-send-and-receive-flags">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">FilterReceiveNetBufferLists</a>  when it sends the request.</div>
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">FilterReceiveNetBufferLists</a>  when it sends the request.</div>
 <div> </div>
 
 ## -remarks
@@ -121,7 +120,7 @@ The filter driver can call the
 <div> </div>
 When NDIS calls 
     <i>FilterReturnNetBufferLists</i>, the filter driver regains ownership of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and associated
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and associated
     data.
 
 If an underlying driver initiated the receive indication, the filter driver should call the 
@@ -187,7 +186,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

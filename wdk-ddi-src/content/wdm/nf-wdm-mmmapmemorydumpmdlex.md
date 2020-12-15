@@ -3,7 +3,6 @@ UID: NF:wdm.MmMapMemoryDumpMdlEx
 title: MmMapMemoryDumpMdlEx function
 description: TBD
 tech.root: kernel
-ms.assetid: c4a12185-4c6f-43e9-87ba-6dc1b24fa6cf
 ms.date: 03/01/2020
 ms.topic: function
 ms.keywords: MmMapMemoryDumpMdlEx

@@ -4,7 +4,6 @@ title: _IPSEC_OFFLOAD_V2_ADD_SA_EX (ndis.h)
 description: The IPSEC_OFFLOAD_V2_ADD_SA_EX structure defines information about a security association (SA) that a miniport driver should add to a NIC.
 old-location: netvista\ipsec_offload_v2_add_sa_ex.htm
 tech.root: netvista
-ms.assetid: ecb2ae2e-d57d-4192-965b-2ac9b16debf3
 ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_ADD_SA_EX structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, netvista.ipsec_offload_v2_add_sa_ex"

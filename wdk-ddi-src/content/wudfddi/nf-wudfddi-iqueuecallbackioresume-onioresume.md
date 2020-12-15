@@ -4,7 +4,6 @@ title: IQueueCallbackIoResume::OnIoResume (wudfddi.h)
 description: The OnIoResume method resumes the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackioresume_onioresume.htm
 tech.root: wdf
-ms.assetid: d34f6e2c-4227-41bb-a1c0-f6206daa700b
 ms.date: 02/26/2018
 keywords: ["IQueueCallbackIoResume::OnIoResume"]
 ms.keywords: IQueueCallbackIoResume interface,OnIoResume method, IQueueCallbackIoResume.OnIoResume, IQueueCallbackIoResume::OnIoResume, OnIoResume, OnIoResume method, OnIoResume method,IQueueCallbackIoResume interface, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, umdf.iqueuecallbackioresume_onioresume, wdf.iqueuecallbackioresume_onioresume, wudfddi/IQueueCallbackIoResume::OnIoResume

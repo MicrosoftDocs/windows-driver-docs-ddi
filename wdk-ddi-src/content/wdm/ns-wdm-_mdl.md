@@ -4,7 +4,6 @@ title: _MDL (wdm.h)
 description: An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).
 old-location: kernel\mdl.htm
 tech.root: kernel
-ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.date: 04/30/2018
 keywords: ["MDL structure"]
 ms.keywords: "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL"

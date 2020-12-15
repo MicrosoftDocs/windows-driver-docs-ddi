@@ -4,7 +4,6 @@ title: RIL_Dial function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_dial.htm
 tech.root: netvista
-ms.assetid: 755a834b-6590-4289-99b1-058690c1ad4f
 ms.date: 05/02/2018
 keywords: ["RIL_Dial function"]
 ms.keywords: RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], netvista.ril_dial, rilapi/RIL_Dial

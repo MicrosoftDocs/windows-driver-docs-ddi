@@ -4,7 +4,6 @@ title: EVT_WDF_COMPANION_POST_D0_EXIT (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 tech.root: wdf
-ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_COMPANION_POST_D0_EXIT callback function"]
 ms.keywords: EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT callback, EVT_WDF_COMPANION_POST_D0_EXIT callback function, wdf.evt_wdf_companion_post_d0_exit, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT

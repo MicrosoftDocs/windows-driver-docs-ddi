@@ -4,7 +4,6 @@ title: IDebugPlmClient3::LaunchAndDebugPlmAppWide (dbgeng.h)
 description: Launches and attaches to a Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient3_launchanddebugplmappwide.htm
 tech.root: debugger
-ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient3::LaunchAndDebugPlmAppWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],LaunchAndDebugPlmAppWide method, IDebugPlmClient3.LaunchAndDebugPlmAppWide, IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide

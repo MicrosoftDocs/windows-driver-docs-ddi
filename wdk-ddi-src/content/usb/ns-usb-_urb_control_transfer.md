@@ -4,7 +4,6 @@ title: _URB_CONTROL_TRANSFER (usb.h)
 description: The _URB_CONTROL_TRANSFER structure is used by USB client drivers to transfer data to or from a control pipe.
 old-location: buses\_urb_control_transfer.htm
 tech.root: usbref
-ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.date: 05/07/2018
 keywords: ["URB_CONTROL_TRANSFER structure"]
 ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses], buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml
@@ -164,7 +163,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

@@ -4,7 +4,6 @@ title: NDIS_WDI_TX_INJECT_FRAME_IND (dot11wdi.h)
 description: The NdisWdiTxInjectFrameIndication callback function allows the LE to inject frames through the regular datapath (for example, authentication/association requests/responses, Wi-Fi Direct action frames).
 old-location: netvista\ndiswditxinjectframeindication.htm
 tech.root: netvista
-ms.assetid: C384FAFF-E22D-4FA2-8B11-F6C046003C70
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_INJECT_FRAME_IND callback function"]
 ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND callback, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
@@ -75,7 +74,7 @@ The extended TID.
 ### -param pNBL 
 
 [in]
-Pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain.
+Pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain.
 
 ### -param bIsUnicast 
 
@@ -103,7 +102,7 @@ Specifies the ExemptionAction of the frames.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

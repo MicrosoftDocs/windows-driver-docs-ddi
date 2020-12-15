@@ -4,7 +4,6 @@ title: IoWMISetSingleInstance function (wdm.h)
 description: The IoWMISetSingleInstance routine sets the values for properties within the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleinstance.htm
 tech.root: kernel
-ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.date: 04/30/2018
 keywords: ["IoWMISetSingleInstance function"]
 ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance

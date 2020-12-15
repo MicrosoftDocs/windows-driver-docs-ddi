@@ -2,8 +2,7 @@
 UID: NS:ntddk._WHEAP_SEL_LOG_EVENT_FAILED
 title: WHEAP_SEL_LOG_EVENT_FAILED
 description: 
-tech.root:
-ms.assetid: ae27aa51-f45e-409a-aee8-e64228e4ad07
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_SEL_LOG_EVENT_FAILED structure"]
 f1_keywords:

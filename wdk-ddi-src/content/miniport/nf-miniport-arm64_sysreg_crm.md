@@ -2,8 +2,8 @@
 UID: NF:miniport.ARM64_SYSREG_CRM
 title: ARM64_SYSREG_CRM macro (miniport.h)
 description: Returns the CRm field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
-ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
 ms.date: 09/20/2018
+tech.root: storage
 keywords: ["ARM64_SYSREG_CRM macro"]
 ms.keywords: ARM64_SYSREG_CRM
 req.header: miniport.h

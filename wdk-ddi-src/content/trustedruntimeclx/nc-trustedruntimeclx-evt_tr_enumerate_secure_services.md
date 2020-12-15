@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
 title: EVT_TR_ENUMERATE_SECURE_SERVICES (trustedruntimeclx.h)
 description: 
-ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_ENUMERATE_SECURE_SERVICES callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_ENUMERATE_SECURE_SERVICES
  - trustedruntimeclx/EVT_TR_ENUMERATE_SECURE_SERVICES
@@ -39,18 +39,17 @@ api_name:
 
 # EVT_TR_ENUMERATE_SECURE_SERVICES callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param MasterDevice: 
+### -param MasterDevice
 
-### -param Index: 
+### -param Index
 
-### -param SecureServiceDescription: 
+### -param SecureServiceDescription
 
-### -param DescriptionSize: 
+### -param DescriptionSize
 
 ## -returns
 
@@ -61,16 +60,16 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_ENUMERATE_SECURE_SERVICES EvtTrEnumerateSecureServices; 
+EVT_TR_ENUMERATE_SECURE_SERVICES EvtTrEnumerateSecureServices;
 
 // Definition
 
-NTSTATUS EvtTrEnumerateSecureServices 
+NTSTATUS EvtTrEnumerateSecureServices
 (
-	WDFDEVICE MasterDevice
-	ULONG Index
-	PUCHAR SecureServiceDescription
-	ULONG * DescriptionSize
+    WDFDEVICE MasterDevice
+    ULONG Index
+    PUCHAR SecureServiceDescription
+    ULONG * DescriptionSize
 )
 {...}
 

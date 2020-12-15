@@ -4,7 +4,6 @@ title: WDF_USB_PIPE_DIRECTION_OUT function (wdfusb.h)
 description: The WDF_USB_PIPE_DIRECTION_OUT function determines whether a specified USB endpoint is an output endpoint.
 old-location: wdf\wdf_usb_pipe_direction_out.htm
 tech.root: wdf
-ms.assetid: 404e1893-8ee2-429c-b7e3-e6d8d01eaa1c
 ms.date: 02/26/2018
 keywords: ["WDF_USB_PIPE_DIRECTION_OUT function"]
 ms.keywords: DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, WDF_USB_PIPE_DIRECTION_OUT, WDF_USB_PIPE_DIRECTION_OUT function, kmdf.wdf_usb_pipe_direction_out, wdf.wdf_usb_pipe_direction_out, wdfusb/WDF_USB_PIPE_DIRECTION_OUT

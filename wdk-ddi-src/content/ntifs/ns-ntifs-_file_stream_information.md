@@ -4,7 +4,6 @@ title: _FILE_STREAM_INFORMATION (ntifs.h)
 description: The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 old-location: ifsk\file_stream_information.htm
 tech.root: ifsk
-ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.date: 04/16/2018
 keywords: ["FILE_STREAM_INFORMATION structure"]
 ms.keywords: "*PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], PFILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], _FILE_STREAM_INFORMATION, fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION"

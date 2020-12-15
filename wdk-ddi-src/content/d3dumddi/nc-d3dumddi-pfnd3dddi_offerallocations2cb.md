@@ -4,7 +4,6 @@ title: PFND3DDDI_OFFERALLOCATIONS2CB (d3dumddi.h)
 description: Called by the user-mode display driver to offer video memory allocations for reuse.
 old-location: display\pfnofferallocations2cb.htm
 tech.root: display
-ms.assetid: 4A8123D3-3A7D-4716-BD02-DD6533DB22F6
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_OFFERALLOCATIONS2CB callback function"]
 ms.keywords: PFND3DDDI_OFFERALLOCATIONS2CB, PFND3DDDI_OFFERALLOCATIONS2CB callback, d3dumddi/pfnOfferAllocations2Cb, display.pfnofferallocations2cb, pfnOfferAllocations2Cb, pfnOfferAllocations2Cb callback function [Display Devices]

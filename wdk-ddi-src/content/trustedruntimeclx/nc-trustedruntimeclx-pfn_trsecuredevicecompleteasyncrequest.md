@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 title: PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST (trustedruntimeclx.h)
 description: 
-ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
  - trustedruntimeclx/PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
@@ -39,18 +39,17 @@ api_name:
 
 # *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContext: 
+### -param BindContext
 
-### -param RequestHandle: 
+### -param RequestHandle
 
-### -param Result: 
+### -param Result
 
-### -param BytesWritten: 
+### -param BytesWritten
 
 ## -returns
 
@@ -61,16 +60,16 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST *PfnTrsecuredevicecompleteasyncrequest; 
+*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST *PfnTrsecuredevicecompleteasyncrequest;
 
 // Definition
 
-NTSTATUS *PfnTrsecuredevicecompleteasyncrequest 
+NTSTATUS *PfnTrsecuredevicecompleteasyncrequest
 (
-	WDFOBJECT BindContext
-	PVOID RequestHandle
-	NTSTATUS Result
-	ULONG_PTR BytesWritten
+    WDFOBJECT BindContext
+    PVOID RequestHandle
+    NTSTATUS Result
+    ULONG_PTR BytesWritten
 )
 {...}
 

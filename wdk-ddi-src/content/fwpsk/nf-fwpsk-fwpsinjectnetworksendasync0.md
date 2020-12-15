@@ -4,7 +4,6 @@ title: FwpsInjectNetworkSendAsync0 function (fwpsk.h)
 description: The FwpsInjectNetworkSendAsync0 function injects packet data into the send data path.Note  FwpsInjectNetworkSendAsync0 is a specific version of FwpsInjectNetworkSendAsync.
 old-location: netvista\fwpsinjectnetworksendasync0.htm
 tech.root: netvista
-ms.assetid: 9cc76bf7-a744-46f9-89d5-5277744221e5
 ms.date: 05/02/2018
 keywords: ["FwpsInjectNetworkSendAsync0 function"]
 ms.keywords: FwpsInjectNetworkSendAsync0, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkSendAsync0, netvista.fwpsinjectnetworksendasync0, wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml
@@ -91,7 +90,7 @@ The identifier of the routing compartment into which the packet data is injected
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
      inject packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function or the 
@@ -249,7 +248,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

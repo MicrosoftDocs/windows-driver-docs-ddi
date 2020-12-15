@@ -4,7 +4,6 @@ title: WUDF_WORKITEM_CONFIG_INIT function (wudfworkitem.h)
 description: The WUDF_WORKITEM_CONFIG_INIT macro initializes a driver's WUDF_WORKITEM_CONFIG structure.
 old-location: wdf\wudf_workitem_config_init.htm
 tech.root: wdf
-ms.assetid: A75AE18F-802F-462B-BF96-5C03408F53CA
 ms.date: 02/26/2018
 keywords: ["WUDF_WORKITEM_CONFIG_INIT function"]
 ms.keywords: WUDF_WORKITEM_CONFIG_INIT, WUDF_WORKITEM_CONFIG_INIT function, umdf.wudf_workitem_config_init, wdf.wudf_workitem_config_init, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT

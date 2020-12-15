@@ -2,7 +2,6 @@
 UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
 title: DXGK_BRIGHTNESS_INTERFACE_3 (dispmprt.h)
 description:
-ms.assetid: eccaf527-4b7b-4ebb-a2ab-e4d94a1d357d
 ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_3 structure"]
 f1_keywords:

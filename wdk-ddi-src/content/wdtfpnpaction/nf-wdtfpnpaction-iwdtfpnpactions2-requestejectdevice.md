@@ -4,7 +4,6 @@ title: IWDTFPNPActions2::RequestEjectDevice (wdtfpnpaction.h)
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpactions2_requestejectdevice.htm
 tech.root: dtf
-ms.assetid: 6c79b6e7-1134-4de6-b698-e09f295c3e84
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::RequestEjectDevice"]
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RequestEjectDevice method, IWDTFPNPActions2.RequestEjectDevice, IWDTFPNPActions2::RequestEjectDevice, RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_requestejectdevice, wdtfpnpaction/IWDTFPNPActions2::RequestEjectDevice
@@ -64,6 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 This will in essence call <b>CM_Request_Device_Eject()</b>. 
 See the MSDN documentation for details.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

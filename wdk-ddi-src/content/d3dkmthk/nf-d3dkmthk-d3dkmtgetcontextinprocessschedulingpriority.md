@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTGetContextInProcessSchedulingPriority
 title: D3DKMTGetContextInProcessSchedulingPriority function (d3dkmthk.h)
 description: Called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmtgetcontextinprocessschedulingpriority.htm
-ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.date: 05/10/2018
 keywords: ["D3DKMTGetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority

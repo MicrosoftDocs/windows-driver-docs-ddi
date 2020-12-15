@@ -4,7 +4,6 @@ title: KsInitializeDevice function (ks.h)
 description: The KsInitializeDevice function is called by AVStream to initialize the AVStream device class from within KsCreateDevice.
 old-location: stream\ksinitializedevice.htm
 tech.root: stream
-ms.assetid: f33122d0-7661-454a-87f7-7b5795793376
 ms.date: 04/23/2018
 keywords: ["KsInitializeDevice function"]
 ms.keywords: KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, ks/KsInitializeDevice, stream.ksinitializedevice

@@ -4,7 +4,6 @@ title: _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE (pepfx.h)
 description: The PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure contains the results of an ACPI control method that was asynchronously evaluated by the platform extension plug-in (PEP).
 old-location: kernel\pep_work_acpi_evaluate_control_method_complete.htm
 tech.root: kernel
-ms.assetid: 76D45B13-03C2-4B57-98B5-9E527ADCC72F
 ms.date: 04/30/2018
 keywords: ["PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure"]
 ms.keywords: "*PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, kernel.pep_work_acpi_evaluate_control_method_complete, pepfx/PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, pepfx/PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
@@ -56,7 +55,7 @@ The <b>PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</b> structure contains the
 
 ### -field DeviceHandle
 
-A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification in which the PEP elected to provide ACPI services for the device.
+A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification in which the PEP elected to provide ACPI services for the device.
 
 ### -field CompletionFlags
 

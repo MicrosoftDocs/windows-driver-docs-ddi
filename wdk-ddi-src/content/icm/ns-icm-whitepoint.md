@@ -2,8 +2,7 @@
 UID: NS:icm.WhitePoint
 title: WhitePoint structure (icm.h)
 description: The Whitepoint structure encapsulates a display whitepoint.
-ms.assetid: 15925576-f238-430f-885b-879de5716710
-ms.date: 08/14/2020
+ms.date: 11/18/2020
 keywords: ["WhitePoint structure"]
 ms.keywords: WhitePoint, WhitePoint,
 req.header: icm.h
@@ -20,6 +19,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: WhitePoint
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -35,7 +35,6 @@ f1_keywords:
 
 # WhitePoint structure
 
-
 ## -description
 
 > [!NOTE]
@@ -47,7 +46,7 @@ The Whitepoint structure encapsulates a display whitepoint in various ways:
 
 - **TEMPERATURE**: A CCT point, populate CCT member
 
-- **D65**: The standard D65 s[c]RGB whitepoint.
+- **D65**: The standard D65 s[c]RGB whitepoint
 
 ## -struct-fields
 
@@ -56,4 +55,3 @@ The Whitepoint structure encapsulates a display whitepoint in various ways:
 Set the type enum to the preferred expression type and populate the corresponding data entry in the union.
 
 ## -see-also
-

@@ -4,7 +4,6 @@ title: _DISK_CONTROLLER_NUMBER (ntdddisk.h)
 description: DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk.
 old-location: storage\disk_controller_number.htm
 tech.root: storage
-ms.assetid: 5dc9f04b-8d7c-4ac7-9518-8836d56d5eed
 ms.date: 03/29/2018
 keywords: ["DISK_CONTROLLER_NUMBER structure"]
 ms.keywords: "*PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], _DISK_CONTROLLER_NUMBER, ntdddisk/DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml"

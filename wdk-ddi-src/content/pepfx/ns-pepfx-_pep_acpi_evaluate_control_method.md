@@ -4,7 +4,6 @@ title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pepfx.h)
 description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel
-ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_EVALUATE_CONTROL_METHOD structure"]
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
@@ -93,11 +92,11 @@ The <b>PEP_ACPI_EVALUATE_CONTROL_METHOD</b> structure specifies an ACPI control 
 
 [out] An NTSTATUS value that indicates the status of the evaluation of the ACPI control method. Set this member to STATUS_SUCCESS to indicate that the platform extension plug-in (PEP) successfully completed its evaluation of the method. Set to STATUS_NOT_SUPPORTED to indicate that the PEP does not recognize the control method. Set to STATUS_BUFFER_TOO_SMALL to indicate that the output buffer size specified by the <b>InputArgumentSize</b> member is not large enough to contain the method results.
 
-If the PEP is to evaluate the method asychronously, set this member to STATUS_PENDING and return from the <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbacknotifyacpi">AcceptAcpiNotification</a> callback. Later, when the evaluation is completed, the PEP calls the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine to notify the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) that the evaluation of the control method is complete.
+If the PEP is to evaluate the method asychronously, set this member to STATUS_PENDING and return from the <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbacknotifyacpi">AcceptAcpiNotification</a> callback. Later, when the evaluation is completed, the PEP calls the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine to notify the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) that the evaluation of the control method is complete.
 
 ### -field CompletionContext
 
-[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine that notifies the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
+[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine that notifies the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
 
 ### -field InputArgumentCount
 

@@ -4,7 +4,6 @@ title: EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP (sercx.h)
 description: The EvtSerCx2CustomTransmitTransactionCleanup event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller's hardware state after a custom-transmit transaction ends.
 old-location: serports\evtsercx2customtransmittransactioncleanup.htm
 tech.root: serports
-ms.assetid: CEADF06B-FD60-4B4C-AB59-1ED6B1226204
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback function"]
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup

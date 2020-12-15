@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS (sensorscx.h)
 description: This callback function returns a list of data fields supported by the specified sensor.
 old-location: sensors\evtsensorgetsupporteddatafields.htm
 tech.root: sensors
-ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
 ms.date: 10/16/2020
 keywords: ["EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields

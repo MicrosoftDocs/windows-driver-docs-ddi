@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_RESTOREMEMORYFORHOTUPDATE
 title: DXGKDDI_RESTOREMEMORYFORHOTUPDATE
 description: Restores memory for driver hot update.
 tech.root: display
-ms.assetid: de5d59c6-2ce9-442c-866d-a64b3fa58952
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_RESTOREMEMORYFORHOTUPDATE callback function"]
 req.header: d3dkmddi.h

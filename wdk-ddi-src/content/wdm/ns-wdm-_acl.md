@@ -4,7 +4,6 @@ title: _ACL (wdm.h)
 description: The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE).
 old-location: ifsk\acl.htm
 tech.root: ifsk
-ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.date: 04/16/2018
 keywords: ["ACL structure"]
 ms.keywords: "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL"

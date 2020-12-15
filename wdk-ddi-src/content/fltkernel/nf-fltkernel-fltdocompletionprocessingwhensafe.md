@@ -4,7 +4,6 @@ title: FltDoCompletionProcessingWhenSafe function (fltkernel.h)
 description: If it is safe to do so, the FltDoCompletionProcessingWhenSafe function executes a minifilter driver postoperation callback routine.
 old-location: ifsk\fltdocompletionprocessingwhensafe.htm
 tech.root: ifsk
-ms.assetid: 8143c741-8f6e-442d-a52a-c226b2e4aa57
 ms.date: 01/06/2020
 keywords: ["FltDoCompletionProcessingWhenSafe function"]
 ms.keywords: FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], fltkernel/FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe

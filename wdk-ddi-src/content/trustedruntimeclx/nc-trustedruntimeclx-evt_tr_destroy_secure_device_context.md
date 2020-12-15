@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
 title: EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT (trustedruntimeclx.h)
 description: 
-ms.assetid: 5b18c9f2-61dd-4243-bb1d-920870ee99de
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
  - trustedruntimeclx/EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
@@ -39,12 +39,11 @@ api_name:
 
 # EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
 ## -returns
 
@@ -55,13 +54,13 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT EvtTrDestroySecureDeviceContext; 
+EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT EvtTrDestroySecureDeviceContext;
 
 // Definition
 
-NTSTATUS EvtTrDestroySecureDeviceContext 
+NTSTATUS EvtTrDestroySecureDeviceContext
 (
-	WDFDEVICE ServiceDevice
+    WDFDEVICE ServiceDevice
 )
 {...}
 

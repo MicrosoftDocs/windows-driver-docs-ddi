@@ -2,8 +2,7 @@
 UID: NF:treevariableservice.EFI_SET_VARIABLE_GET_DATA
 title: EFI_SET_VARIABLE_GET_DATA macro (treevariableservice.h)
 description: 
-ms.assetid: 8375b6ca-3306-4bca-9669-823560f77b5b
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_GET_DATA macro"]
 ms.keywords: EFI_SET_VARIABLE_GET_DATA
 req.header: treevariableservice.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EFI_SET_VARIABLE_GET_DATA
  - treevariableservice/EFI_SET_VARIABLE_GET_DATA
@@ -40,7 +40,6 @@ api_name:
 
 # EFI_SET_VARIABLE_GET_DATA macro
 
-
 ## -description
 
 ## -parameters
@@ -50,4 +49,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

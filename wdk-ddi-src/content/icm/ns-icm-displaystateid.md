@@ -2,8 +2,7 @@
 UID: NS:icm.DisplayStateID
 title: DisplayStateID structure (icm.h)
 description: The DisplayStateID structure holds the current color state IDs for a display.
-ms.assetid: ed1f917e-81b8-4613-87b5-8808d28e5573
-ms.date: 08/14/2020
+ms.date: 11/18/2020
 keywords: ["DisplayStateID structure"]
 ms.keywords: DisplayStateID, DisplayStateID,
 req.header: icm.h
@@ -20,6 +19,7 @@ req.unicode-ansi:
 req.max-support: 
 req.typenames: DisplayStateID
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -34,7 +34,6 @@ f1_keywords:
 ---
 
 # DisplayStateID structure
-
 
 ## -description
 
@@ -60,4 +59,3 @@ Identifies the current target whitepoint.
 ## -remarks
 
 ## -see-also
-

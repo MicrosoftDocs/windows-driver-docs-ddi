@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYKEYEDMUTEX
 title: PFND3DKMT_DESTROYKEYEDMUTEX (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYKEYEDMUTEX callback function destroys keyed mutex.
-ms.assetid: 35854482-8cd3-4d14-8f42-2917dfe134f2
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_DESTROYKEYEDMUTEX callback function"]
 req.header: d3dkmthk.h

@@ -4,7 +4,6 @@ title: WWAN_IP_CONFIGURATION_FLAGS (wwan.h)
 description: The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 old-location: netvista\wwan_ip_configuration_flags.htm
 tech.root: netvista
-ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.date: 05/02/2018
 keywords: ["WWAN_IP_CONFIGURATION_FLAGS structure"]
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS

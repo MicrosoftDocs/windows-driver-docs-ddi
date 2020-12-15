@@ -4,7 +4,6 @@ title: _D3DDDICB_SIGNALFLAGS (d3dukmdt.h)
 description: The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the pfnSignalSynchronizationObjectCb or pfnSignalSynchronizationObject2Cb functions.
 old-location: display\d3dddicb_signalflags.htm
 tech.root: display
-ms.assetid: 1efe98c4-021b-4312-bbcc-52267e528b5f
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SIGNALFLAGS structure"]
 ms.keywords: D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices], D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml, _D3DDDICB_SIGNALFLAGS, d3dukmdt/D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags

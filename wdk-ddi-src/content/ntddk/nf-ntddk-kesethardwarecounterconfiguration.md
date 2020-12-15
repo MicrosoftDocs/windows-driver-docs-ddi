@@ -4,7 +4,6 @@ title: KeSetHardwareCounterConfiguration function (ntddk.h)
 description: The KeSetHardwareCounterConfiguration routine specifies a list of hardware counters to use for thread profiling.
 old-location: kernel\kesethardwarecounterconfiguration.htm
 tech.root: kernel
-ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.date: 04/30/2018
 keywords: ["KeSetHardwareCounterConfiguration function"]
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration

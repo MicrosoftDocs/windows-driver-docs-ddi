@@ -4,7 +4,6 @@ title: RtlAnsiStringToUnicodeSize macro (wdm.h)
 description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.
 old-location: kernel\rtlansistringtounicodesize.htm
 tech.root: kernel
-ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
 ms.date: 04/30/2018
 keywords: ["RtlAnsiStringToUnicodeSize macro"]
 ms.keywords: RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, wdm/RtlAnsiStringToUnicodeSize

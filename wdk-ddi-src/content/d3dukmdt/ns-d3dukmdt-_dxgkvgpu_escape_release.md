@@ -4,7 +4,6 @@ title: _DXGKVGPU_ESCAPE_RELEASE (d3dukmdt.h)
 description: Indicates that an escape has been released.
 old-location: display\dxgkvgpu_escape_release.htm
 tech.root: display
-ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_RELEASE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release

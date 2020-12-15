@@ -4,7 +4,6 @@ title: IDebugControl5::OutputStackTraceEx (dbgeng.h)
 description: The OutputStackTraceEx method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\idebugcontrol5_outputstacktraceex.htm
 tech.root: debugger
-ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.date: 05/03/2018
 keywords: ["IDebugControl5::OutputStackTraceEx"]
 ms.keywords: IDebugControl5 interface [Windows Debugging],OutputStackTraceEx method, IDebugControl5.OutputStackTraceEx, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex

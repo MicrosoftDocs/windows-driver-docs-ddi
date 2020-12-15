@@ -4,7 +4,6 @@ title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery (wdtfsimulated
 description: Disables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablesimulatedbattery.htm
 tech.root: dtf
-ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery"]
 ms.keywords: DisableSimulatedBattery, DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
@@ -63,9 +62,6 @@ Use this method is used to disable the simulated battery (uninstalls simulated
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>
 
 
 

@@ -4,7 +4,6 @@ title: NdisCancelSendNetBufferLists function (ndis.h)
 description: Protocol drivers call the NdisCancelSendNetBufferLists function to cancel the transmission of network data.
 old-location: netvista\ndiscancelsendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.date: 05/02/2018
 keywords: ["NdisCancelSendNetBufferLists function"]
 ms.keywords: NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, netvista.ndiscancelsendnetbufferlists
@@ -69,7 +68,7 @@ The cancellation identifier. This identifier specifies the network data for whic
 
 A protocol driver maps IRPs that it receives from higher-level software to NDIS network data. A list
     of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures describes the
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures describes the
     network data that the protocol driver sends to lower-level drivers for transmission. If an IRP is
     canceled, a protocol driver can call the 
     <b>NdisCancelSendNetBufferLists</b> function to cancel the pending transmission of the corresponding NDIS
@@ -125,7 +124,7 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

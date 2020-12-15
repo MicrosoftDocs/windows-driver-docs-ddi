@@ -3,7 +3,6 @@ UID: NE:ntddvdeo._OUTPUT_COLOR_ENCODING
 title: OUTPUT_COLOR_ENCODING
 description: Output color encoding.
 tech.root: display
-ms.assetid: ec0813b8-a2ac-4312-a748-410afe7d7725
 ms.date: 04/04/2019
 keywords: ["OUTPUT_COLOR_ENCODING enumeration"]
 ms.keywords: OUTPUT_COLOR_ENCODING, OUTPUT_COLOR_ENCODING,

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 title: _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the flags used to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
-ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.date: 05/10/2018
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags

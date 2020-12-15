@@ -2,7 +2,7 @@
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_DEVICE_IO_CONTROL
 title: EVT_SENSOR_DRIVER_DEVICE_IO_CONTROL (sensorscx.h)
 description: Callback to handle IOCTL.
-ms.assetid: 293854c7-882b-42dd-b4ef-cb19d0366e8d
+tech.root: sensors
 ms.date: 10/19/2018
 keywords: ["EVT_SENSOR_DRIVER_DEVICE_IO_CONTROL callback function"]
 req.header: sensorscx.h

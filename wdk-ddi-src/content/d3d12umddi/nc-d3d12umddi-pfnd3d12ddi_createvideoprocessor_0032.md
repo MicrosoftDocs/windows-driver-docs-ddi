@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOPROCESSOR_0032
 title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0032 (d3d12umddi.h)
 description: Used to create a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor_0032_.htm
-ms.assetid: 64E9EDF7-0B98-4D8A-BB2B-D336622558D0
 ms.date: 04/16/2018
 keywords: ["PFND3D12DDI_CREATEVIDEOPROCESSOR_0032 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0032, PFND3D12DDI_CREATEVIDEOPROCESSOR_0032  callback, PFND3D12DDI_CREATEVIDEOPROCESSOR_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEOPROCESSOR_0032, display.pfnd3d12ddi_createvideoprocessor_0032_

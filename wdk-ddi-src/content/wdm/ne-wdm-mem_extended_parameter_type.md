@@ -2,8 +2,8 @@
 UID: NE:wdm.MEM_EXTENDED_PARAMETER_TYPE
 title: MEM_EXTENDED_PARAMETER_TYPE (wdm.h)
 description: Defines values for extended parameters are used for file mapping into an address space.
-ms.assetid: 4b6b0ac1-12f1-411f-9662-f7bb23885553
 ms.date: 09/30/2018
+tech.root: kernel
 keywords: ["MEM_EXTENDED_PARAMETER_TYPE enumeration"]
 ms.keywords: MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, *PMEM_EXTENDED_PARAMETER_TYPE,
 req.header: wdm.h

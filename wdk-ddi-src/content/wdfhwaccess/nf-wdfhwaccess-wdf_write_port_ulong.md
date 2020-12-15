@@ -4,7 +4,6 @@ title: WDF_WRITE_PORT_ULONG function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_ULONG function writes a ULONG value to the specified port address.
 old-location: wdf\wdf_write_port_ulong.htm
 tech.root: wdf
-ms.assetid: 553CA9E0-66C7-436B-AE34-5A6201479D6D
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_PORT_ULONG function"]
 ms.keywords: WDF_WRITE_PORT_ULONG, WDF_WRITE_PORT_ULONG function, wdf.wdf_write_port_ulong, wdfhwaccess/WDF_WRITE_PORT_ULONG

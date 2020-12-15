@@ -4,7 +4,6 @@ title: _PEP_ACPI_REGISTER_DEVICE (pep_x.h)
 description: The PEP_ACPI_REGISTER_DEVICE structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services.
 old-location: kernel\pep_acpi_register_device.htm
 tech.root: kernel
-ms.assetid: 96FB6959-1583-42E0-9851-A09AE0CB73DB
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_REGISTER_DEVICE structure"]
 ms.keywords: "*PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_REGISTER_DEVICE, PPEP_ACPI_REGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_REGISTER_DEVICE, kernel.pep_acpi_register_device, pepfx/PEP_ACPI_REGISTER_DEVICE, pepfx/PPEP_ACPI_REGISTER_DEVICE"
@@ -64,7 +63,7 @@ The <b>PEP_ACPI_REGISTER_DEVICE</b> structure contains registration information 
 
 ### -field KernelHandle
 
-[in] A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
+[in] A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
 
 ### -field DeviceHandle
 

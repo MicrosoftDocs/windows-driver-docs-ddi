@@ -4,7 +4,6 @@ title: PsDereferencePrimaryToken function (ntifs.h)
 description: The PsDereferencePrimaryToken routine decrements the reference count of a primary token.
 old-location: ifsk\psdereferenceprimarytoken.htm
 tech.root: ifsk
-ms.assetid: cff4bd05-b70d-4c07-a6c0-7ee4287aeab0
 ms.date: 04/16/2018
 keywords: ["PsDereferencePrimaryToken function"]
 ms.keywords: PsDereferencePrimaryToken, PsDereferencePrimaryToken routine [Installable File System Drivers], ifsk.psdereferenceprimarytoken, ntifs/PsDereferencePrimaryToken, psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml

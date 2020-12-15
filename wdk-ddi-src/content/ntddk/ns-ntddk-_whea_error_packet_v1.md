@@ -4,7 +4,6 @@ title: _WHEA_ERROR_PACKET_V1 (ntddk.h)
 description: The WHEA_ERROR_PACKET_V1 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V1 structure is supported in Windows Server 2008 and Windows Vista SP1.
 old-location: whea\whea_error_packet_v1.htm
 tech.root: whea
-ms.assetid: 66189a9a-241f-4457-87cd-d5d583a46f14
 ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_PACKET_V1 structure"]
 ms.keywords: "*PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_V1, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml"
@@ -155,11 +154,11 @@ If your <a href="/windows-hardware/drivers/whea/platform-specific-hardware-error
 
 <ol>
 <li>
-If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V1, the code is running on an early version of Windows, and the error packet is formatted as a <b>WHEA_ERROR_PACKET_V1</b> structure.
+If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V1_SIGNATURE, the code is running on an early version of Windows, and the error packet is formatted as a <b>WHEA_ERROR_PACKET_V1</b> structure.
 
 </li>
 <li>
-If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V2, the code is running on a later version of Windows, and the error packet is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a> structure.
+If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V2_SIGNATURE, the code is running on a later version of Windows, and the error packet is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a> structure.
 
 </li>
 </ol>

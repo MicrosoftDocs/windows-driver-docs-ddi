@@ -4,7 +4,6 @@ title: IKsControl::KsProperty (ks.h)
 description: The IKsControl::KsProperty method sets a property or retrieves property information, together with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty2.htm
 tech.root: stream
-ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.date: 04/23/2018
 keywords: ["IKsControl::KsProperty"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, ks/IKsControl::KsProperty, stream.ikscontrol_ksproperty2

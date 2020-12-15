@@ -4,7 +4,6 @@ title: NdisMFreeSharedMemory function (ndis.h)
 description: NdisMFreeSharedMemory frees memory that was previously allocated by NdisMAllocateSharedMemory or NdisMAllocateSharedMemoryAsyncEx by the driver of a DMA NIC.
 old-location: netvista\ndismfreesharedmemory.htm
 tech.root: netvista
-ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.date: 05/02/2018
 keywords: ["NdisMFreeSharedMemory function"]
 ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory

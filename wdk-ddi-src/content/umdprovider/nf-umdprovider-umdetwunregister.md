@@ -4,7 +4,6 @@ title: UMDEtwUnregister function (umdprovider.h)
 description: Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.
 old-location: display\umdetwunregister.htm
 tech.root: display
-ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.date: 05/10/2018
 keywords: ["UMDEtwUnregister function"]
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister

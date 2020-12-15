@@ -4,7 +4,6 @@ title: _CHANNEL_CONFIG_RESULTS_ENHANCED (bthddi.h)
 description: The CHANNEL_CONFIG_RESULTS_ENHANCED structure describes configuration parameters and the buffer size of any extra option for the inbound and outbound directions of an L2CAP channel.
 old-location: bltooth\channel_config_results_enhanced.htm
 tech.root: bltooth
-ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.date: 04/27/2018
 keywords: ["CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"

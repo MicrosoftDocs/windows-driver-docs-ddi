@@ -2,8 +2,7 @@
 UID: NS:ntddk._WHEAP_PSHED_INJECT_ERROR
 title: WHEAP_PSHED_INJECT_ERROR
 description: 
-tech.root: 
-ms.assetid: f180d9d6-ebfd-46de-8e39-5f6f45886169
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_INJECT_ERROR structure"]
 ms.keywords: WHEAP_PSHED_INJECT_ERROR, WHEAP_PSHED_INJECT_ERROR, *PWHEAP_PSHED_INJECT_ERROR,

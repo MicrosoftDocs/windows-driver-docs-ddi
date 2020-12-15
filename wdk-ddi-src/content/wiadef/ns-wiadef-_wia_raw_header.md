@@ -2,8 +2,7 @@
 UID: NS:wiadef._WIA_RAW_HEADER
 title: _WIA_RAW_HEADER (wiadef.h)
 description: 
-ms.assetid: 6b591713-1094-4d77-81ba-b531cd886f6a
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["WIA_RAW_HEADER structure"]
 ms.keywords: _WIA_RAW_HEADER, WIA_RAW_HEADER, *PWIA_RAW_HEADER,
 req.header: wiadef.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: WIA_RAW_HEADER, *PWIA_RAW_HEADER
 targetos: Windows
 ms.custom: RS5
+tech.root: image
 f1_keywords:
  - _WIA_RAW_HEADER
  - wiadef/_WIA_RAW_HEADER
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _WIA_RAW_HEADER structure
-
 
 ## -description
 
@@ -86,4 +85,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

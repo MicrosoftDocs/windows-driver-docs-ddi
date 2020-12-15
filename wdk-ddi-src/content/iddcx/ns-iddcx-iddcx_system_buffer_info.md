@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDDCX_SYSTEM_BUFFER_INFO
 title: IDDCX_SYSTEM_BUFFER_INFO
 ms.date: 10/20/2020
-ms.assetid: 600dc57d-61f6-47ea-882b-c5bc79f15577
 tech.root: display
 ms.topic: language-reference
 targetos: Windows
@@ -16,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 20H2
+req.target-min-winverclnt: Windows 10, version 21H1
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -37,6 +36,9 @@ dev_langs:
 ---
 
 ## -description
+
+> [!NOTE]
+> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **IDDCX_SYSTEM_BUFFER_INFO** holds the resulting buffer-specific information after a buffer release and acquire operation.
 

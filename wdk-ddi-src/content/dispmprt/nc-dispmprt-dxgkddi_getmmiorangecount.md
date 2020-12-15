@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_GETMMIORANGECOUNT
 title: DXGKDDI_GETMMIORANGECOUNT (dispmprt.h)
 description: Gets the number of memory ranges in the virtual device's MMIO (memory mapped input output) BARs.
-ms.assetid: 3af0d571-a797-477a-a725-6b88ef045d73
 ms.date: 10/19/2018
 keywords: ["DXGKDDI_GETMMIORANGECOUNT callback function"]
 req.header: dispmprt.h

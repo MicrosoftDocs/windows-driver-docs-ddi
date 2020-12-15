@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.Location.Location
 title: Location function (dbgmodel.h)
 description: Copy constructs a location.
-ms.assetid: e50b6f55-a47e-4fbc-b7f1-041cbccf9ea5
 ms.date: 09/28/2018
 keywords: ["Location function"]
 ms.keywords: Location

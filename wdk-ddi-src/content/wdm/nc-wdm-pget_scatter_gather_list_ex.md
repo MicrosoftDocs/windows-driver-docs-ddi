@@ -4,7 +4,6 @@ title: PGET_SCATTER_GATHER_LIST_EX (wdm.h)
 description: The GetScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer.
 old-location: kernel\getscattergatherlistex.htm
 tech.root: kernel
-ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.date: 04/30/2018
 keywords: ["PGET_SCATTER_GATHER_LIST_EX callback function"]
 ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX callback, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx

@@ -4,7 +4,6 @@ title: FltGetInstanceInformation function (fltkernel.h)
 description: The FltGetInstanceInformation routine returns information about a minifilter driver instance.
 old-location: ifsk\fltgetinstanceinformation.htm
 tech.root: ifsk
-ms.assetid: eb8ba04a-dbf8-4964-8b45-2620447418b5
 ms.date: 04/16/2018
 keywords: ["FltGetInstanceInformation function"]
 ms.keywords: FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml, FltGetInstanceInformation, FltGetInstanceInformation routine [Installable File System Drivers], fltkernel/FltGetInstanceInformation, ifsk.fltgetinstanceinformation

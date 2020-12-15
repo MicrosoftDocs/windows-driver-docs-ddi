@@ -4,7 +4,6 @@ title: PCONVERTTREETOSTREAM (bthsdpddi.h)
 description: The Bluetooth SdpConvertTreeToStream function is used to produce a raw bytestream representation of an SDP record from a tree representation. The raw bytestream version is suitable for publication on a local SDP server.
 old-location: bltooth\sdpconverttreetostream.htm
 tech.root: bltooth
-ms.assetid: 6e3cc0ae-e214-4096-834b-b435ee0fcb46
 ms.date: 04/27/2018
 keywords: ["PCONVERTTREETOSTREAM callback function"]
 ms.keywords: PCONVERTTREETOSTREAM, PCONVERTTREETOSTREAM callback, SdpConvertTreeToStream, SdpConvertTreeToStream callback function [Bluetooth Devices], bltooth.sdpconverttreetostream, bth_funcs_0f0b531b-9391-475c-a3a2-ac2b2a94e1dd.xml, bthsdpddi/SdpConvertTreeToStream

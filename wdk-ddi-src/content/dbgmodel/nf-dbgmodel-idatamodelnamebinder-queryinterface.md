@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelNameBinder.QueryInterface
 title: IDataModelNameBinder::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
-ms.assetid: 30c88578-1a85-4127-8e4b-446931a60e29
 ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::QueryInterface"]
 ms.keywords: IDataModelNameBinder::QueryInterface, QueryInterface, IDataModelNameBinder.QueryInterface, IDataModelNameBinder::QueryInterface, IDataModelNameBinder.QueryInterface

@@ -4,7 +4,6 @@ title: _PEP_REGISTER_COMPONENT_PERF_STATES (pep_x.h)
 description: The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component.
 old-location: kernel\pep_register_component_perf_states.htm
 tech.root: kernel
-ms.assetid: 063ADC0A-3455-4966-A11C-BDD5BA08A685
 ms.date: 04/30/2018
 keywords: ["PEP_REGISTER_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_COMPONENT_PERF_STATES, PPEP_REGISTER_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_COMPONENT_PERF_STATES, kernel.pep_register_component_perf_states, pepfx/PEP_REGISTER_COMPONENT_PERF_STATES, pepfx/PPEP_REGISTER_COMPONENT_PERF_STATES"
@@ -72,7 +71,7 @@ The <b>PEP_REGISTER_COMPONENT_PERF_STATES</b> structure describes the performanc
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_component_perf_states">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a> notification. The values of all members of the <b>PEP_REGISTER_COMPONENT_PERF_STATES</b> structure  are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) when the notification is sent. The PEP must not write to this structure.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_component_perf_states">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a> notification. The values of all members of the <b>PEP_REGISTER_COMPONENT_PERF_STATES</b> structure  are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) when the notification is sent. The PEP must not write to this structure.
 
 If the <b>PerfStateInfo</b> member is not NULL, the device driver has provided P-state information and requires the PEP to use it.
 

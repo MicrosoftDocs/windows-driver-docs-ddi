@@ -4,7 +4,6 @@ title: EVT_UCX_ROOTHUB_INTERRUPT_TX (ucxroothub.h)
 description: The client driver's implementation that UCX calls when it receives a request for information about changed ports.
 old-location: buses\evt_ucx_roothub_interrupt_tx.htm
 tech.root: usbref
-ms.assetid: e2371b90-2274-459b-9e4a-5c9936d21b9c
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ROOTHUB_INTERRUPT_TX callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_INTERRUPT_TX, EVT_UCX_ROOTHUB_INTERRUPT_TX callback, EvtUcxInterruptTransferTx, EvtUcxInterruptTransferTx callback function [Buses], PEVT_UCX_ROOTHUB_INTERRUPT_TX, PEVT_UCX_ROOTHUB_INTERRUPT_TX callback function pointer [Buses], buses.evt_ucx_roothub_interrupt_tx, ucxroothub/EvtUcxInterruptTransferTx

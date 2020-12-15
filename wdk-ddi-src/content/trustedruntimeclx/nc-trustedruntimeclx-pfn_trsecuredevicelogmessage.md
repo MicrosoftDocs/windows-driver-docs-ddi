@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICELOGMESSAGE
 title: PFN_TRSECUREDEVICELOGMESSAGE (trustedruntimeclx.h)
 description: 
-ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICELOGMESSAGE callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICELOGMESSAGE
  - trustedruntimeclx/PFN_TRSECUREDEVICELOGMESSAGE
@@ -39,20 +39,19 @@ api_name:
 
 # *PFN_TRSECUREDEVICELOGMESSAGE callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContext: 
+### -param BindContext
 
-### -param Device: 
+### -param Device
 
-### -param Severity: 
+### -param Severity
 
-### -param Message: 
+### -param Message
 
-### -param Arguments: 
+### -param Arguments
 
 ## -returns
 
@@ -63,17 +62,17 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-*PFN_TRSECUREDEVICELOGMESSAGE *PfnTrsecuredevicelogmessage; 
+*PFN_TRSECUREDEVICELOGMESSAGE *PfnTrsecuredevicelogmessage;
 
 // Definition
 
-NTSTATUS *PfnTrsecuredevicelogmessage 
+NTSTATUS *PfnTrsecuredevicelogmessage
 (
-	WDFOBJECT BindContext
-	WDFDEVICE Device
-	ULONG Severity
-	PCSTR Message
-	va_list Arguments
+    WDFOBJECT BindContext
+    WDFDEVICE Device
+    ULONG Severity
+    PCSTR Message
+    va_list Arguments
 )
 {...}
 

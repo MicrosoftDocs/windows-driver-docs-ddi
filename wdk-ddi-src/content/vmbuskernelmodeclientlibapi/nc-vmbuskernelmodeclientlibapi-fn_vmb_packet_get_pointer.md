@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_GET_POINTER
 title: FN_VMB_PACKET_GET_POINTER (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketGetPointer function retrieves a pointer that was previously saved by using the VmbPacketSetPointer function.
 tech.root: netvista
-ms.assetid: 51c40032-5700-49d8-ba21-a03739e9dd3b
 ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_GET_POINTER callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

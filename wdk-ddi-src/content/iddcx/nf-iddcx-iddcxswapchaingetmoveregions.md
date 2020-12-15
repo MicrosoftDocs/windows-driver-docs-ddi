@@ -4,7 +4,6 @@ title: IddCxSwapChainGetMoveRegions function (iddcx.h)
 description: An OS callback function the driver calls when it wants retrieve the move regions for the current frame.
 old-location: display\iddcxswapchaingetmoveregions.htm
 tech.root: display
-ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.date: 05/10/2018
 keywords: ["IddCxSwapChainGetMoveRegions function"]
 ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions

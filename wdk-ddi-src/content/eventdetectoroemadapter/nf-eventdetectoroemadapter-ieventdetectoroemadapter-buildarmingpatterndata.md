@@ -3,7 +3,6 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.BuildArmingPatternData
 title: IEventDetectorOemAdapter::BuildArmingPatternData
 description: Builds the pattern data to be used on a subsequent arm request - this is done once for each pin instance.
 tech.root: audio
-ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::BuildArmingPatternData"]
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData

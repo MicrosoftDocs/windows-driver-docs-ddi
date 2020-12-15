@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK (miniport.h)
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) secondary uncorrectable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_mask.htm
 tech.root: PCI
-ms.assetid: 99387bcc-301d-4406-bcff-fb5569c88c90
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure"]
 ms.keywords: "*PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_sec_uncorrectable_error_mask, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, pci_struct_80f14fae-7c43-4a78-bdb7-211abd0e43fd.xml, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK"

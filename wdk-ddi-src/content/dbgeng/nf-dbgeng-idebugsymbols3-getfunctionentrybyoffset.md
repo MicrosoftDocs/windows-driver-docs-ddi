@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetFunctionEntryByOffset (dbgeng.h)
 description: The GetFunctionEntryByOffset method returns the function entry information for a function.
 old-location: debugger\getfunctionentrybyoffset.htm
 tech.root: debugger
-ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetFunctionEntryByOffset"]
 ms.keywords: GetFunctionEntryByOffset, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFunctionEntryByOffset method, IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset

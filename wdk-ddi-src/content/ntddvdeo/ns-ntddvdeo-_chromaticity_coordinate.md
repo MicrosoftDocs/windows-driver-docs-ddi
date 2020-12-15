@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._CHROMATICITY_COORDINATE
 title: _CHROMATICITY_COORDINATE (ntddvdeo.h)
 description: Contains CIE 1931 chromaticity coordinates from a color sensor.
 tech.root: display
-ms.assetid: 8c0d0af8-0733-4178-99db-82a9dc8db0ee
 ms.date: 10/19/2018
 keywords: ["CHROMATICITY_COORDINATE structure"]
 ms.keywords: _CHROMATICITY_COORDINATE, CHROMATICITY_COORDINATE,

@@ -4,7 +4,6 @@ title: USBD_SelectInterfaceUrbAllocateAndBuild function (usbdlib.h)
 description: The USBD_SelectInterfaceUrbAllocateAndBuild routine allocates and formats a URB structure that is required for a request to select an interface or change its alternate setting.
 old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
 tech.root: usbref
-ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.date: 05/07/2018
 keywords: ["USBD_SelectInterfaceUrbAllocateAndBuild function"]
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild

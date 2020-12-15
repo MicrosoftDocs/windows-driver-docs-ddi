@@ -4,7 +4,6 @@ title: FltFsControlFile function (fltkernel.h)
 description: The FltFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: ifsk\fltfscontrolfile.htm
 tech.root: ifsk
-ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.date: 04/16/2018
 keywords: ["FltFsControlFile function"]
 ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
@@ -96,7 +95,7 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 
 ## -remarks
 
-Minifilter drivers should call this routine instead of <a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>. 
+Minifilter drivers should call this routine instead of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwfscontrolfile">ZwFsControlFile</a>.
 
 The following FSCTL codes are currently documented for kernel-mode drivers: 
 
@@ -152,4 +151,4 @@ For more information about the system-defined FSCTL_<i>XXX</i> codes, see the Re
 
 
 
-<a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwfscontrolfile">ZwFsControlFile</a>

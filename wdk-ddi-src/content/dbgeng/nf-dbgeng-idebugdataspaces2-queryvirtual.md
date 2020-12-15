@@ -4,7 +4,6 @@ title: IDebugDataSpaces2::QueryVirtual (dbgeng.h)
 description: The QueryVirtual method provides information about the specified pages in the target's virtual address space.
 old-location: debugger\queryvirtual.htm
 tech.root: debugger
-ms.assetid: 2d607433-0d2d-4662-acd6-9adbce290b97
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces2::QueryVirtual"]
 ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],QueryVirtual method, IDebugDataSpaces2.QueryVirtual, IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, QueryVirtual, QueryVirtual method [Windows Debugging], QueryVirtual method [Windows Debugging],IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::QueryVirtual, debugger.queryvirtual

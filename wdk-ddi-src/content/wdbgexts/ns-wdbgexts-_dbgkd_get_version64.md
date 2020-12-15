@@ -4,7 +4,6 @@ title: _DBGKD_GET_VERSION64 (wdbgexts.h)
 description: The IG_GET_KERNEL_VERSION Ioctl operation receives information related to the operating system version of the target.
 old-location: debugger\ig_get_kernel_version.htm
 tech.root: debugger
-ms.assetid: 692e58b5-74ea-48f3-a9c2-81953b7d600d
 ms.date: 05/03/2018
 keywords: ["DBGKD_GET_VERSION64 structure"]
 ms.keywords: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, wdbgexts/DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64"

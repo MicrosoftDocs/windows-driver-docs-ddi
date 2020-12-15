@@ -4,7 +4,6 @@ title: tagKS_RGBQUAD (ksmedia.h)
 description: The KS_RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue, ranging from 0 to 255 (0x0 to 0xff).
 old-location: stream\ks_rgbquad.htm
 tech.root: stream
-ms.assetid: 49231293-286b-486d-b8f9-b44bdb845e7b
 ms.date: 04/23/2018
 keywords: ["tagKS_RGBQUAD structure"]
 ms.keywords: "*PKS_RGBQUAD, KS_RGBQUAD, KS_RGBQUAD structure [Streaming Media Devices], PKS_RGBQUAD, PKS_RGBQUAD structure pointer [Streaming Media Devices], ksmedia/KS_RGBQUAD, ksmedia/PKS_RGBQUAD, stream.ks_rgbquad, tagKS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml"

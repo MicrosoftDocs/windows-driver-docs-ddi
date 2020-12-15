@@ -4,7 +4,6 @@ title: MINIPORT_WDI_RX_PPDU_RSSI (dot11wdi.h)
 description: The MiniportWdiRxPpduRssi handler function returns the absolute value of RSSI (in dB) for the PPDU. The RxMgr may request the RSSI only once per data indication using the PNET_BUFFER_LIST obtained from MiniportWdiRxGetMpdus.
 old-location: netvista\miniportwdirxppdurssi.htm
 tech.root: netvista
-ms.assetid: 34C34C42-E5E1-44F6-AC81-ADC77206DED0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_RX_PPDU_RSSI callback function"]
 ms.keywords: MINIPORT_WDI_RX_PPDU_RSSI, MINIPORT_WDI_RX_PPDU_RSSI callback, MiniportWdiRxPpduRssi, MiniportWdiRxPpduRssi callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxPpduRssi, netvista.miniportwdirxppdurssi
@@ -63,7 +62,7 @@ TAL device handle returned by the IHV miniport in <a href="/windows-hardware/dri
 ### -param pNBL 
 
 [in]
-Pointer to the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> for which the RSSI is requested.
+Pointer to the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> for which the RSSI is requested.
 
 ### -param pRssi 
 
@@ -76,7 +75,7 @@ The absolute value of RSSI, in dB.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

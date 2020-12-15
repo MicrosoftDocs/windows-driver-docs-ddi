@@ -6,6 +6,7 @@ ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
 description: The NetDeviceRequestReset function triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
+tech.root: netvista
 keywords: ["NetDeviceRequestReset function"]
 req.assembly:
 req.construct-type: function

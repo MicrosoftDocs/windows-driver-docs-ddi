@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.GetNext
 title: IDataModelScriptDebugVariableSetEnumerator::GetNext (dbgmodel.h)
 description: The GetNext method moves the enumerator to the next variable in the set and returns the variable's name, value, and any metadata associated with it.
-ms.assetid: 3e5b85ef-4766-42e5-a300-14f5271f1c2d
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::GetNext"]
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::GetNext, GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext, IDataModelScriptDebugVariableSetEnumerator::GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext

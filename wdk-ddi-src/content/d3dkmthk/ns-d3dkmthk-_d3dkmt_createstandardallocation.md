@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATION
 title: _D3DKMT_CREATESTANDARDALLOCATION (d3dkmthk.h)
 description: Used to create a standard allocation.
 old-location: display\d3dkmt-createstandardallocation.htm
-ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATESTANDARDALLOCATION structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation

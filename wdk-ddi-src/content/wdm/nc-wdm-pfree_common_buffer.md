@@ -4,7 +4,6 @@ title: PFREE_COMMON_BUFFER (wdm.h)
 description: The FreeCommonBuffer routine frees a common buffer allocated by AllocateCommonBuffer, along with all resources the buffer uses.
 old-location: kernel\freecommonbuffer.htm
 tech.root: kernel
-ms.assetid: 9e026bde-657a-42ea-907c-71cc217dbd8d
 ms.date: 04/30/2018
 keywords: ["PFREE_COMMON_BUFFER callback function"]
 ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, PFREE_COMMON_BUFFER callback, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer

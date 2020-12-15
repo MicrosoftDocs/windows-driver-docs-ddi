@@ -4,7 +4,6 @@ title: HwNUnregisterClient function (hwnclx.h)
 description: Unregisters the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is unloaded.
 old-location: gpiobtn\hwnunregisterclient.htm
 tech.root: gpiobtn
-ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
 ms.date: 02/15/2018
 keywords: ["HwNUnregisterClient function"]
 ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
@@ -74,4 +73,4 @@ FORCEINLINE NTSTATUS  HwNUnregisterClient(
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

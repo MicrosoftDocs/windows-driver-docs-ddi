@@ -4,7 +4,6 @@ title: KeRevertToUserAffinityThreadEx function (wdm.h)
 description: The KeRevertToUserAffinityThreadEx routine restores the previous affinity of the current thread.
 old-location: kernel\kereverttouseraffinitythreadex.htm
 tech.root: kernel
-ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.date: 04/30/2018
 keywords: ["KeRevertToUserAffinityThreadEx function"]
 ms.keywords: KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx

@@ -4,7 +4,6 @@ title: IDebugSystemObjects2::GetEventThread (dbgeng.h)
 description: The GetEventThread method returns the engine thread ID for the thread on which the last event occurred.
 old-location: debugger\geteventthread.htm
 tech.root: debugger
-ms.assetid: 7a28c9bd-480e-4864-b7ff-9ff0dc1d04ad
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects2::GetEventThread"]
 ms.keywords: GetEventThread, GetEventThread method [Windows Debugging], GetEventThread method [Windows Debugging],IDebugSystemObjects interface, GetEventThread method [Windows Debugging],IDebugSystemObjects2 interface, GetEventThread method [Windows Debugging],IDebugSystemObjects3 interface, GetEventThread method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetEventThread method, IDebugSystemObjects2 interface [Windows Debugging],GetEventThread method, IDebugSystemObjects2.GetEventThread, IDebugSystemObjects2::GetEventThread, IDebugSystemObjects3 interface [Windows Debugging],GetEventThread method, IDebugSystemObjects3::GetEventThread, IDebugSystemObjects4 interface [Windows Debugging],GetEventThread method, IDebugSystemObjects4::GetEventThread, IDebugSystemObjects::GetEventThread, IDebugSystemObjects_2074b9ad-a761-42fd-93ed-4774c2ddf3a5.xml, dbgeng/IDebugSystemObjects2::GetEventThread, dbgeng/IDebugSystemObjects3::GetEventThread, dbgeng/IDebugSystemObjects4::GetEventThread, dbgeng/IDebugSystemObjects::GetEventThread, debugger.geteventthread

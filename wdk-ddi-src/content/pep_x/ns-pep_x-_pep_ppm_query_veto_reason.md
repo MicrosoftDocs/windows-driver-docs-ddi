@@ -4,7 +4,6 @@ title: _PEP_PPM_QUERY_VETO_REASON (pep_x.h)
 description: The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason.
 old-location: kernel\pep_ppm_query_veto_reason.htm
 tech.root: kernel
-ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_VETO_REASON structure"]
 ms.keywords: "*PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, pepfx/PEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON"
@@ -68,7 +67,7 @@ The <b>PEP_PPM_QUERY_VETO_REASON</b> structure supplies a wide-character, null-t
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASON</a> notification. The <b>VetoReason</b> and <b>Name</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). If the input value of the <b>Name</b> member is <b>NULL</b>, the PEP writes an output value (the required string buffer size) to the <b>NameSize</b> member.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASON</a> notification. The <b>VetoReason</b> and <b>Name</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). If the input value of the <b>Name</b> member is <b>NULL</b>, the PEP writes an output value (the required string buffer size) to the <b>NameSize</b> member.
 
 ## -see-also
 

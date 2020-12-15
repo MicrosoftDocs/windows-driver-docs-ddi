@@ -4,7 +4,6 @@ title: IWDFUsbTargetDevice::RetrieveDescriptor (wudfusb.h)
 description: The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string.
 old-location: wdf\iwdfusbtargetdevice_retrievedescriptor.htm
 tech.root: wdf
-ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::RetrieveDescriptor"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDescriptor method, IWDFUsbTargetDevice.RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method,IWDFUsbTargetDevice interface, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor

@@ -3,7 +3,6 @@ UID: NF:portcls.IAdapterPowerManagement3.PowerChangeState3
 title: IAdapterPowerManagement3::PowerChangeState3 (portcls.h)
 description: PortCls calls the PowerChangeState3 method to request a change to the new power state. This request is passed on to the adapter driver.
 tech.root: audio
-ms.assetid: e3bab2a6-34ac-490d-bcc3-95cb16ad7155
 ms.date: 10/31/2018
 keywords: ["IAdapterPowerManagement3::PowerChangeState3"]
 ms.keywords: IAdapterPowerManagement3::PowerChangeState3, PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3, IAdapterPowerManagement3::PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3

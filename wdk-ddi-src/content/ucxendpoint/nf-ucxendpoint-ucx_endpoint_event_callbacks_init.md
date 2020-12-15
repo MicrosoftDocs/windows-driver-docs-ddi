@@ -4,7 +4,6 @@ title: UCX_ENDPOINT_EVENT_CALLBACKS_INIT function (ucxendpoint.h)
 description: Initializes a UCX_ENDPOINT_EVENT_CALLBACKS structure with client driver's callback functions. The client driver calls this function before calling UcxEndpointCreate method to create an endpoint and register its callback functions with UCX.
 old-location: buses\_ucx_endpoint_event_callbacks_init.htm
 tech.root: usbref
-ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.date: 05/07/2018
 keywords: ["UCX_ENDPOINT_EVENT_CALLBACKS_INIT function"]
 ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_endpoint_event_callbacks_init, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT

@@ -4,7 +4,6 @@ title: IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT (bthhfpddi.h)
 description: The IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL requests a Handsfree Profile (HFP) Service Level Connection to the Bluetooth device.
 old-location: audio\ioctl_bthhfp_device_request_connect.htm
 tech.root: audio
-ms.assetid: CE591873-FFDC-49A2-BB75-FE445338D633
 ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_connect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT

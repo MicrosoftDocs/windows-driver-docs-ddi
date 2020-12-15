@@ -4,7 +4,6 @@ title: IWDFIoRequest::FormatUsingCurrentType (wudfddi.h)
 description: The FormatUsingCurrentType method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 old-location: wdf\iwdfiorequest_formatusingcurrenttype.htm
 tech.root: wdf
-ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::FormatUsingCurrentType"]
 ms.keywords: FormatUsingCurrentType, FormatUsingCurrentType method, FormatUsingCurrentType method,IWDFIoRequest interface, IWDFIoRequest interface,FormatUsingCurrentType method, IWDFIoRequest.FormatUsingCurrentType, IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType

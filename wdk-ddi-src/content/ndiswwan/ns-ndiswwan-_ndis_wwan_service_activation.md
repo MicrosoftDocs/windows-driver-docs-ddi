@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SERVICE_ACTIVATION (ndiswwan.h)
 description: The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used to set the service activation state of the MB device in order to obtain access to the provider's network.
 old-location: netvista\ndis_wwan_service_activation.htm
 tech.root: netvista
-ms.assetid: 0dbfa56f-a755-402d-b403-a04fc183c031
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SERVICE_ACTIVATION structure"]
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION, PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, _NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation"

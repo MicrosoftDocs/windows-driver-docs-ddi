@@ -4,7 +4,6 @@ title: SerCx2SystemDmaReceiveInitializeTransactionComplete function (sercx.h)
 description: The SerCx2SystemDmaReceiveInitializeTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial driver has finished initializing the serial controller hardware in preparation for a new system-DMA-receive transaction.
 old-location: serports\sercx2systemdmareceiveinitializetransactioncomplete.htm
 tech.root: serports
-ms.assetid: B65DC4AD-FB24-4F1D-A1E9-F9B38160908E
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaReceiveInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete method [Serial Ports], serports.sercx2systemdmareceiveinitializetransactioncomplete

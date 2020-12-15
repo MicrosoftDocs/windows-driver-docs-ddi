@@ -2,8 +2,7 @@
 UID: NS:ntddk._WHEA_EVENT_LOG_ENTRY_FLAGS
 title: WHEA_EVENT_LOG_ENTRY_FLAGS
 description: 
-tech.root: 
-ms.assetid: 417a74d6-611c-4da9-be6c-42ed204dfe0f
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_FLAGS structure"]
 ms.keywords: WHEA_EVENT_LOG_ENTRY_FLAGS, WHEA_EVENT_LOG_ENTRY_FLAGS, *PWHEA_EVENT_LOG_ENTRY_FLAGS,

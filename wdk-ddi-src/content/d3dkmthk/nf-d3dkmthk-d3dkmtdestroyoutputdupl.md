@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTDestroyOutputDupl
 title: D3DKMTDestroyOutputDupl function (d3dkmthk.h)
 description: Destroys output duplicate.
-ms.assetid: a648d054-10d2-44d3-a2e2-ea4855480453
 ms.date: 10/19/2018
 keywords: ["D3DKMTDestroyOutputDupl function"]
 ms.keywords: D3DKMTDestroyOutputDupl

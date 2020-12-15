@@ -4,7 +4,6 @@ title: SensorsCxDeviceGetSensorList function (sensorscx.h)
 description: This function returns a list of sensor instances associated with a WDFDEVICE.
 old-location: sensors\sensorscxdevicegetsensorlist.htm
 tech.root: sensors
-ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.date: 05/03/2018
 keywords: ["SensorsCxDeviceGetSensorList function"]
 ms.keywords: SensorsCxDeviceGetSensorList, Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, sensorscx/Syntax

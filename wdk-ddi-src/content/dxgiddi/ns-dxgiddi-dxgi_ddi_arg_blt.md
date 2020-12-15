@@ -4,7 +4,6 @@ title: DXGI_DDI_ARG_BLT (dxgiddi.h)
 description: The DXGI_DDI_ARG_BLT structure describes the parameters of a bit-block transfer (bitblt).
 old-location: display\dxgi_ddi_arg_blt.htm
 tech.root: display
-ms.assetid: 695f2aff-cce3-4358-a9e2-48eea43e8ef5
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_BLT structure"]
 ms.keywords: DXGI_DDI_ARG_BLT, DXGI_DDI_ARG_BLT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, display.dxgi_ddi_arg_blt, dxgiddi/DXGI_DDI_ARG_BLT

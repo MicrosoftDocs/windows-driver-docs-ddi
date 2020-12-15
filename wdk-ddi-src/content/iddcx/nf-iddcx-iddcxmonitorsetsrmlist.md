@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxMonitorSetSrmList
 title: IddCxMonitorSetSrmList
 ms.date: 10/02/2020
 tech.root: display
-ms.assetid: 39ecebcf-58c9-4787-94eb-68d557488f10
 ms.topic: language-reference
 targetos: Windows
 description: IddCxMonitorSetSrmList passes a System Renewability Message (SRM) list to the GPU driver associated with the rendering of the specified monitor.

@@ -4,7 +4,6 @@ title: PCMCIA_IS_WRITE_PROTECTED (ntddpcm.h)
 description: The PCMCIA_IS_WRITE_PROTECTED interface routine returns the write-protect condition of a PCMCIA memory card.
 old-location: pcmcia\pcmcia_is_write_protected.htm
 tech.root: PCMCIA
-ms.assetid: d270f39a-d8e8-4ec6-987e-e755da767495
 ms.date: 02/15/2018
 keywords: ["PCMCIA_IS_WRITE_PROTECTED callback function"]
 ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED callback, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected

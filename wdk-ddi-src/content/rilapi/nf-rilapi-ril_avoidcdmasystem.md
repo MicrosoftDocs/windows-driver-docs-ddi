@@ -4,7 +4,6 @@ title: RIL_AvoidCDMASystem function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_avoidcdmasystem.htm
 tech.root: netvista
-ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
 ms.date: 05/02/2018
 keywords: ["RIL_AvoidCDMASystem function"]
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem

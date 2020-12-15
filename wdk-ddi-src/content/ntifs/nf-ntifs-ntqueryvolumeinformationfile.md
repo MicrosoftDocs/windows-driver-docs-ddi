@@ -4,7 +4,6 @@ title: NtQueryVolumeInformationFile function (ntifs.h)
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm
 tech.root: kernel
-ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
 ms.date: 04/30/2018
 keywords: ["NtQueryVolumeInformationFile function"]
 ms.keywords: NtQueryVolumeInformationFile, ZwQueryVolumeInformationFile, ZwQueryVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_1ca2c72d-6eb1-4bfa-a1f9-06cc26643662.xml, kernel.zwqueryvolumeinformationfile, ntifs/NtQueryVolumeInformationFile, ntifs/ZwQueryVolumeInformationFile
@@ -185,7 +184,7 @@ If the <i>FileHandle</i> represents a direct device open, only <i>FileFsDeviceIn
 
 <b>NtQueryVolumeInformationFile</b> returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by the file system.
 
-For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#file-objects">File Objects</a>.
 
 Minifilters should use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile">FltQueryVolumeInformationFile</a> instead of <b>NtQueryVolumeInformationFile</b>.
 

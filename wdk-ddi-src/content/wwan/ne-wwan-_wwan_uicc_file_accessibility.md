@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_UICC_FILE_ACCESSIBILITY
 title: _WWAN_UICC_FILE_ACCESSIBILITY (wwan.h)
 description: The WWAN_UICC_FILE_ACCESSIBILITY enumeration specifies accessibility for a UICC file.
 tech.root: netvista
-ms.assetid: 7C20FC15-7AF0-40B4-8261-C30458885187
 ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_ACCESSIBILITY enumeration"]
 ms.keywords: _WWAN_UICC_FILE_ACCESSIBILITY, WWAN_UICC_FILE_ACCESSIBILITY, *PWWAN_UICC_FILE_ACCESSIBILITY,

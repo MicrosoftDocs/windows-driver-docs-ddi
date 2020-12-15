@@ -4,7 +4,6 @@ title: _VIDEO_PORT_DEBUG_REPORT_INTERFACE (video.h)
 description: The VIDEO_PORT_DEBUG_REPORT_INTERFACE structure holds pointers to the Debug Report functions, which are implemented by the video port driver.
 old-location: display\video_port_debug_report_interface.htm
 tech.root: display
-ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE

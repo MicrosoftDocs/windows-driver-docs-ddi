@@ -4,7 +4,6 @@ title: IDDCX_MONITOR_DESCRIPTION_TYPE (iddcx.h)
 description: Used to describe the monitor description.
 old-location: display\iddcx_monitor_description_type.htm
 tech.root: display
-ms.assetid: ca50256b-2b37-4d39-ad4c-e2eaaa0adbb1
 ms.date: 05/10/2018
 keywords: ["IDDCX_MONITOR_DESCRIPTION_TYPE enumeration"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED

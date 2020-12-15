@@ -4,7 +4,6 @@ title: _BIDI_RESPONSE_DATA (winspool.h)
 description: The BIDI_RESPONSE_DATA structure holds a single bidi response.
 old-location: print\bidi_response_data.htm
 tech.root: print
-ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
 ms.date: 04/20/2018
 keywords: ["BIDI_RESPONSE_DATA structure"]
 ms.keywords: "*LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], LPBIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], _BIDI_RESPONSE_DATA, print.bidi_response_data, spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, winspool/BIDI_RESPONSE_DATA, winspool/LPBIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA"

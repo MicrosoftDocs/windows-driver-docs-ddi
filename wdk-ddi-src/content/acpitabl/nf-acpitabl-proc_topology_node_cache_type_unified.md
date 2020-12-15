@@ -2,8 +2,7 @@
 UID: NF:acpitabl.PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 title: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro (acpitabl.h)
 description: Defines the processor topology node cache type unified macro.
-ms.assetid: 5ca5aabb-fb24-4742-b9bc-1d8da47c2bf7
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 req.header: acpitabl.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
  - acpitabl/PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
@@ -40,7 +40,6 @@ api_name:
 
 # PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro
 
-
 ## -description
 
 Defines the processor topology node cache type unified macro.
@@ -54,4 +53,3 @@ The *CacheType* parameter.
 ## -remarks
 
 ## -see-also
-

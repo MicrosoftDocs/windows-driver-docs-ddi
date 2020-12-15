@@ -4,7 +4,6 @@ title: IWDFFile3 (wudfddi.h)
 description: Drivers obtain the IWDFFile3 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile3.htm
 tech.root: wdf
-ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.date: 02/26/2018
 keywords: ["IWDFFile3 interface"]
 ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3

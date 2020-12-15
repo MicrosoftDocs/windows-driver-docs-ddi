@@ -4,7 +4,6 @@ title: _KSMPEGVID_RECT (ksmedia.h)
 description: KSMPEGVID_RECT structure
 old-location: stream\ksmpegvid_rect.htm
 tech.root: stream
-ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.date: 04/23/2018
 keywords: ["KSMPEGVID_RECT structure"]
 ms.keywords: "*PKSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], _KSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml"

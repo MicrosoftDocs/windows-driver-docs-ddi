@@ -4,7 +4,6 @@ title: PSHED_PI_INJECT_ERROR (ntddk.h)
 description: A PSHED plug-in's InjectError callback function injects an error into the hardware platform.
 old-location: whea\injecterror.htm
 tech.root: whea
-ms.assetid: efd2658b-875e-4589-9ba0-42232e070b91
 ms.date: 02/20/2018
 keywords: ["PSHED_PI_INJECT_ERROR callback function"]
 ms.keywords: InjectError, InjectError callback function [WHEA Drivers and Applications], PSHED_PI_INJECT_ERROR, PSHED_PI_INJECT_ERROR callback, ntddk/InjectError, whea.injecterror, whearef_377f07ab-4ea0-4982-8298-c7139b4bfdc7.xml

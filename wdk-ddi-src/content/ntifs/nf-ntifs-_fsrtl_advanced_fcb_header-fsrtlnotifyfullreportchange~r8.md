@@ -4,7 +4,6 @@ title: FsRtlNotifyFullReportChange function (ntifs.h)
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
 tech.root: ifsk
-ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.date: 03/29/2018
 keywords: ["FsRtlNotifyFullReportChange function"]
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange

@@ -4,7 +4,6 @@ title: _RANGEVALUE (wiamicro.h)
 description: The RANGEVALUE structure is used by a microdriver to communicate to the WIA Flatbed driver the legal values for a microdriver function parameter.
 old-location: image\rangevalue.htm
 tech.root: image
-ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.date: 05/03/2018
 keywords: ["RANGEVALUE structure"]
 ms.keywords: "*PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"

@@ -4,7 +4,6 @@ title: IDebugClient5::GetNumberEventCallbacks (dbgeng.h)
 description: The GetNumberEventCallbacks method returns the number of event callbacks that are interested in the given events.
 old-location: debugger\getnumbereventcallbacks.htm
 tech.root: debugger
-ms.assetid: 02001bad-bafe-432d-bc07-011cb6981ae6
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::GetNumberEventCallbacks"]
 ms.keywords: GetNumberEventCallbacks, GetNumberEventCallbacks method [Windows Debugging], GetNumberEventCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetNumberEventCallbacks method, IDebugClient5.GetNumberEventCallbacks, IDebugClient5::GetNumberEventCallbacks, IDebugClient_976101a5-6218-475a-b8e9-e7091e2524d6.xml, dbgeng/IDebugClient5::GetNumberEventCallbacks, debugger.getnumbereventcallbacks

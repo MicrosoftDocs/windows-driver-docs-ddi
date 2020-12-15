@@ -4,7 +4,6 @@ title: IDebugFailureAnalysis2::AddString (extsfns.h)
 description: The AddString method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified string.
 old-location: debugger\idebugfailureanalysis2_addstring.htm
 tech.root: debugger
-ms.assetid: 98023A9B-9091-4C0D-ADE0-978816E8F762
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::AddString"]
 ms.keywords: AddString, AddString method [Windows Debugging], AddString method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddString method, IDebugFailureAnalysis2.AddString, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addstring, extsfns/IDebugFailureAnalysis2::AddString

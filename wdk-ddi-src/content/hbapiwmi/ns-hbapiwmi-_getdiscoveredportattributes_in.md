@@ -4,7 +4,6 @@ title: _GetDiscoveredPortAttributes_IN (hbapiwmi.h)
 description: The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the GetDiscoveredPortAttributes WMI method.
 old-location: storage\getdiscoveredportattributes_in.htm
 tech.root: storage
-ms.assetid: 99129f8e-c047-4e9f-bcaa-3cbcd2d30915
 ms.date: 03/29/2018
 keywords: ["GetDiscoveredPortAttributes_IN structure"]
 ms.keywords: "*PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN structure [Storage Devices], PGetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN structure pointer [Storage Devices], _GetDiscoveredPortAttributes_IN, hbapiwmi/GetDiscoveredPortAttributes_IN, hbapiwmi/PGetDiscoveredPortAttributes_IN, storage.getdiscoveredportattributes_in, structs-Fibre_5154a471-3acc-4eea-86c7-2292ccc230fb.xml"

@@ -4,7 +4,6 @@ title: WdfFdoInitAllocAndQueryProperty function (wdffdo.h)
 description: The WdfFdoInitAllocAndQueryProperty method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdffdoinitallocandqueryproperty.htm
 tech.root: wdf
-ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.date: 02/26/2018
 keywords: ["WdfFdoInitAllocAndQueryProperty function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty

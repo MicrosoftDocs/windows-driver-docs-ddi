@@ -4,7 +4,6 @@ title: _MsrAuthenticationProtocol (pointofservicedriverinterface.h)
 description: This enumeration defines magnetic stripe reader (MSR) authentication protocols.
 old-location: pos\msrauthenticationprotocoltype.htm
 tech.root: pos
-ms.assetid: 6f06d03e-001e-4340-9b96-8e3654be5c1a
 ms.date: 08/21/2020
 keywords: ["MsrAuthenticationProtocol enumeration"]
 ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype

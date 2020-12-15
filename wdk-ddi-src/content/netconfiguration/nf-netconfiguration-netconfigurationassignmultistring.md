@@ -3,7 +3,6 @@ UID: NF:netconfiguration.NetConfigurationAssignMultiString
 title: NetConfigurationAssignMultiString function (netconfiguration.h)
 description: The NetConfigurationAssignMultiString function assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
 tech.root: netvista
-ms.assetid: efff27e3-7d42-4c48-ad87-8ec2a5e1eb20
 ms.date: 02/07/2018
 keywords: ["NetConfigurationAssignMultiString function"]
 ms.keywords: NetConfigurationAssignMultiString

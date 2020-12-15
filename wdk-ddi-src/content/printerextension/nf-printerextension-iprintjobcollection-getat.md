@@ -4,7 +4,6 @@ title: IPrintJobCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
 tech.root: print
-ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt

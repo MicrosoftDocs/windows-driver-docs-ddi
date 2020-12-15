@@ -3,8 +3,7 @@ UID: NF:ntifs.NtQueryInformationByName
 title: NtQueryInformationByName function
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
-ms.assetid: 6b55d547-df99-412a-ba4f-febadc9e4296
-ms.date: 10/30/2019
+ms.date: 11/20/2020
 ms.topic: function
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
@@ -42,7 +41,6 @@ product:
 
 # NtQueryInformationByName function
 
-
 ## -description
 
 **NtQueryInformationByName** returns the requested information about a file specified by file name.
@@ -71,9 +69,10 @@ A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that 
 
 | FILE_INFORMATION_CLASS Value | Type of Information to Return |
 | ---------------------------- | ----------------------------- |
-| FileStatLxInformation        | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md) |
-| FileStatInformation          | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md) |
-| FileCaseSensitiveInformation | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) |
+| **FileNetworkOpenInformation** (34) | A [FILE_NETWORK_OPEN_INFORMATION](../wdm/ns-wdm-_file_network_open_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. |
+| **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md) |
+| **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md) |
+| **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) |
 
 ## -returns
 

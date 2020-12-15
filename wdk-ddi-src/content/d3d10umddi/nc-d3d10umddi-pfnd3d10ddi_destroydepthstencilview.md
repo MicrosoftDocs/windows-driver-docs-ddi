@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_DESTROYDEPTHSTENCILVIEW
 title: PFND3D10DDI_DESTROYDEPTHSTENCILVIEW (d3d10umddi.h)
 description: The DestroyDepthStencilView function destroys the specified depth stencil view object. The depth stencil view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroydepthstencilview.htm
-ms.assetid: 5cd2b7bd-0231-4f00-a54e-960b9bffa98e
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_DESTROYDEPTHSTENCILVIEW callback function"]
 ms.keywords: DestroyDepthStencilView, DestroyDepthStencilView callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILVIEW, PFND3D10DDI_DESTROYDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_140d9da4-c965-4f51-b16c-1c29ff6e2e94.xml, d3d10umddi/DestroyDepthStencilView, display.destroydepthstencilview

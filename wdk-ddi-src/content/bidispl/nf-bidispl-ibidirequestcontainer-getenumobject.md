@@ -4,7 +4,6 @@ title: IBidiRequestContainer::GetEnumObject (bidispl.h)
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 tech.root: print
-ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.date: 04/20/2018
 keywords: ["IBidiRequestContainer::GetEnumObject"]
 ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
@@ -57,7 +56,7 @@ Pointer to the variable that receives a pointer to the <a href="/windows/win32/a
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.
 
 <table>
 <tr>

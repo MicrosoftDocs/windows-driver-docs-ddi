@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
 title: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET (d3dkmddi.h)
 description: The pfnAcquireMonitorSourceModeSet function returns a handle to the monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfnacquiremonitorsourcemodeset.htm
-ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback function"]
 ms.keywords: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback, VidPnFunctions_b540037c-9f98-4160-aeb3-ded9723e09fa.xml, d3dkmddi/pfnAcquireMonitorSourceModeSet, display.dxgk_monitor_interface_pfnacquiremonitorsourcemodeset, pfnAcquireMonitorSourceModeSet, pfnAcquireMonitorSourceModeSet callback function [Display Devices]

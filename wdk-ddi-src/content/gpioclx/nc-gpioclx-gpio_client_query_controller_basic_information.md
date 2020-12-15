@@ -4,7 +4,6 @@ title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION (gpioclx.h)
 description: The CLIENT_QueryControllerBasicInformation event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_querycontrollerbasicinformation.htm
 tech.root: GPIO
-ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback function"]
 ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation

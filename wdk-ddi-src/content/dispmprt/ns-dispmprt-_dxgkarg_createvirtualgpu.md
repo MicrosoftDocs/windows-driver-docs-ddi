@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_CREATEVIRTUALGPU
 title: _DXGKARG_CREATEVIRTUALGPU
 description: Arguments used to create a virtual GPU.
 tech.root: display
-ms.assetid: da667fb0-59b5-4240-bdf6-a170642f650d
 ms.date: 04/04/2019
 keywords: ["DXGKARG_CREATEVIRTUALGPU structure"]
 ms.prod: windows-hardware

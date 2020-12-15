@@ -2,8 +2,7 @@
 UID: NS:acpitabl._ACPI_PDTT
 title: _ACPI_PDTT (acpitabl.h)
 description: Defines the ACPI Processor Debug Trigger Table (PDTT) structure.
-ms.assetid: 753cf610-cd1d-4464-a1b9-322e105620aa
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["ACPI_PDTT structure"]
 ms.keywords: _ACPI_PDTT, ACPI_PDTT, *PACPI_PDTT,
 req.header: acpitabl.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: ACPI_PDTT, *PACPI_PDTT
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _ACPI_PDTT
  - acpitabl/_ACPI_PDTT
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _ACPI_PDTT structure
-
 
 ## -description
 
@@ -60,4 +59,3 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
-

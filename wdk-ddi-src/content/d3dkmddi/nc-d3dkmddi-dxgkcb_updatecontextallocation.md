@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_UPDATECONTEXTALLOCATION
 title: DXGKCB_UPDATECONTEXTALLOCATION (d3dkmddi.h)
 description: DxgkCbUpdateContextAllocation is used to update the content of a context allocation.
 old-location: display\dxgkcbupdatecontextallocation.htm
-ms.assetid: 708A33C2-9620-4259-845A-2F862B6F209B
 ms.date: 05/10/2018
 keywords: ["DXGKCB_UPDATECONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_UPDATECONTEXTALLOCATION, DXGKCB_UPDATECONTEXTALLOCATION callback, DxgkCbUpdateContextAllocation, DxgkCbUpdateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbUpdateContextAllocation, display.dxgkcbupdatecontextallocation

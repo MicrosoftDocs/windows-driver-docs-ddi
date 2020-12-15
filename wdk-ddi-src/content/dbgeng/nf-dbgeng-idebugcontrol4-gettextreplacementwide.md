@@ -4,7 +4,6 @@ title: IDebugControl4::GetTextReplacementWide (dbgeng.h)
 description: The GetTextReplacementWide method returns the value of a user-named alias or an automatic alias.
 old-location: debugger\gettextreplacementwide.htm
 tech.root: debugger
-ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetTextReplacementWide"]
 ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextReplacementWide method, IDebugControl4.GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide

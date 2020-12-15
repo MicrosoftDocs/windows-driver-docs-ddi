@@ -4,7 +4,6 @@ title: RtlMultiByteToUnicodeN function (ntifs.h)
 description: The RtlMultiByteToUnicodeN routine translates the specified source string into a Unicode string, using the current system ANSI code page (ACP). The source string is not necessarily from a multibyte character set.
 old-location: ifsk\rtlmultibytetounicoden.htm
 tech.root: ifsk
-ms.assetid: c0cc4fba-01ba-4745-8dee-fc4c43f570cf
 ms.date: 04/16/2018
 keywords: ["RtlMultiByteToUnicodeN function"]
 ms.keywords: RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN routine [Installable File System Drivers], ifsk.rtlmultibytetounicoden, ntifs/RtlMultiByteToUnicodeN, rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml
@@ -92,7 +91,7 @@ If the current system code page defines a single-byte character set, all ANSI ch
 
 Like <b>RtlMultiByteToUnicodeSize</b>, <b>RtlMultiByteToUnicodeN</b> supports only precomposed Unicode characters that are mapped to the current system ANSI code page installed at system boot. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

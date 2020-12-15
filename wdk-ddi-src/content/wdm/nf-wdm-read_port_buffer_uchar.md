@@ -4,7 +4,6 @@ title: READ_PORT_BUFFER_UCHAR function (wdm.h)
 description: The READ_PORT_BUFFER_UCHAR routine reads a number of bytes from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_uchar.htm
 tech.root: kernel
-ms.assetid: a32a7c6a-16dd-4d12-aa32-6bdb60990568
 ms.date: 04/30/2018
 keywords: ["READ_PORT_BUFFER_UCHAR function"]
 ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, kernel.read_port_buffer_uchar, wdm/READ_PORT_BUFFER_UCHAR

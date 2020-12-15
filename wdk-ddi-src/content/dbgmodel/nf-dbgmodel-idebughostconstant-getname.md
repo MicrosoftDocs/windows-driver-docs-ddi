@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDebugHostConstant.GetName
 title: IDebugHostConstant::GetName (dbgmodel.h)
 description: Returns the name of the symbol if the symbol has a name.
-ms.assetid: f14483b6-cac2-4ac7-8100-f0a7759eea0a
 ms.date: 09/10/2018
 keywords: ["IDebugHostConstant::GetName"]
 ms.keywords: IDebugHostConstant::GetName, GetName, IDebugHostConstant.GetName, IDebugHostConstant::GetName, IDebugHostConstant.GetName

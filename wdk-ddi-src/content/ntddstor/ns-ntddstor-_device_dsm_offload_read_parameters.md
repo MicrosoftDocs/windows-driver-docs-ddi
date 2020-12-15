@@ -4,7 +4,6 @@ title: _DEVICE_DSM_OFFLOAD_READ_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure specifies the parameters for an offload read action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_read_parameters.htm
 tech.root: storage
-ms.assetid: 4C0B2CFD-B981-4304-B3F9-AD534BF5A823
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, storage.device_dsm_offload_read_parameters"

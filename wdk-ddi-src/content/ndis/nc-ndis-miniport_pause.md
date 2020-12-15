@@ -4,7 +4,6 @@ title: MINIPORT_PAUSE (ndis.h)
 description: NDIS calls a miniport driver's MiniportPause function to stop the flow of network data through a specified miniport adapter.
 old-location: netvista\miniportpause.htm
 tech.root: netvista
-ms.assetid: 047241a5-6f52-4a82-a334-8508f0de5e1a
 ms.date: 05/02/2018
 keywords: ["MINIPORT_PAUSE callback function"]
 ms.keywords: MINIPORT_PAUSE, MINIPORT_PAUSE callback, MiniportPause, MiniportPause callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_ff1257db-4c3e-4e0d-8d46-1736567339ba.xml, ndis/MiniportPause, netvista.miniportpause
@@ -132,7 +131,7 @@ Waits for all calls to the
 </li>
 <li>
 Waits for NDIS to return the ownership of all 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures from
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures from
       outstanding receive indications to the miniport driver's 
       <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
       MiniportReturnNetBufferLists</a> function.
@@ -312,7 +311,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

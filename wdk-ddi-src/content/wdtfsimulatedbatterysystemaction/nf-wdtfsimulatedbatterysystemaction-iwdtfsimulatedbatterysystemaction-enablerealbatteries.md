@@ -4,7 +4,6 @@ title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries (wdtfsimulatedbatt
 description: Enables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablerealbatteries.htm
 tech.root: dtf
-ms.assetid: 32748776-fe07-4f7e-bceb-5b554fa8f9f1
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::EnableRealBatteries"]
 ms.keywords: EnableRealBatteries, EnableRealBatteries method [Windows Device Testing Framework], EnableRealBatteries method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],EnableRealBatteries method, IWDTFSimulatedBatterySystemAction.EnableRealBatteries, IWDTFSimulatedBatterySystemAction::EnableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_enablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableRealBatteries
@@ -64,6 +63,3 @@ Use this method to enable real batteries if they are present in the
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>

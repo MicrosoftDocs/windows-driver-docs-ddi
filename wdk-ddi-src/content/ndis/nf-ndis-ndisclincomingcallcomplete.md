@@ -4,7 +4,6 @@ title: NdisClIncomingCallComplete function (ndis.h)
 description: NdisClIncomingCallComplete returns a client's acceptance or rejection of an offered incoming call, for which the client's ProtocolClIncomingCall function previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndisclincomingcallcomplete.htm
 tech.root: netvista
-ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.date: 05/02/2018
 keywords: ["NdisClIncomingCallComplete function"]
 ms.keywords: NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete

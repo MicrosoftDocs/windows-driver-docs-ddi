@@ -4,7 +4,6 @@ title: _PEP_PERF_STATE (pep_x.h)
 description: The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
 old-location: kernel\pep_perf_state.htm
 tech.root: kernel
-ms.assetid: D5C9EF42-B6FE-4472-8188-2B23F87FA475
 ms.date: 04/30/2018
 keywords: ["PEP_PERF_STATE structure"]
 ms.keywords: "*PPEP_PERF_STATE, PEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_PERF_STATE, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PERF_STATE, kernel.pep_perf_state, pepfx/PEP_PERF_STATE, pepfx/PPEP_PERF_STATE"
@@ -60,7 +59,7 @@ The discrete value represented by this P-state. For more information, see Remark
 
 ### -field Context
 
-A pointer to PEP-defined context data. The PEP uses this context to contain additional information about the discrete performance level that cannot be expressed in the <b>Value</b> member. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <b>Context</b> member is optional and can be set to NULL.
+A pointer to PEP-defined context data. The PEP uses this context to contain additional information about the discrete performance level that cannot be expressed in the <b>Value</b> member. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <b>Context</b> member is optional and can be set to NULL.
 
 ## -remarks
 

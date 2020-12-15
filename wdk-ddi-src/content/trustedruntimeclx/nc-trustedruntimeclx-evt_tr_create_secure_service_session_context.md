@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
 title: EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
-ms.assetid: 398accdf-300c-43d5-b460-f87f83c6edfc
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
  - trustedruntimeclx/EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
@@ -39,14 +39,13 @@ api_name:
 
 # EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
-### -param SessionContextObject: 
+### -param SessionContextObject
 
 ## -returns
 
@@ -57,14 +56,14 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT EvtTrCreateSecureServiceSessionContext; 
+EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT EvtTrCreateSecureServiceSessionContext;
 
 // Definition
 
-NTSTATUS EvtTrCreateSecureServiceSessionContext 
+NTSTATUS EvtTrCreateSecureServiceSessionContext
 (
-	WDFDEVICE ServiceDevice
-	WDFOBJECT * SessionContextObject
+    WDFDEVICE ServiceDevice
+    WDFOBJECT * SessionContextObject
 )
 {...}
 

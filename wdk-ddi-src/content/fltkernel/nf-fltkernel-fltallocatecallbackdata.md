@@ -4,7 +4,6 @@ title: FltAllocateCallbackData function (fltkernel.h)
 description: FltAllocateCallbackData allocates a callback data structure that a minifilter driver can use to initiate an I/O request.
 old-location: ifsk\fltallocatecallbackdata.htm
 tech.root: ifsk
-ms.assetid: a2afb8b8-b0e2-4d22-9d93-33ba2b2f8933
 ms.date: 04/16/2018
 keywords: ["FltAllocateCallbackData function"]
 ms.keywords: FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata

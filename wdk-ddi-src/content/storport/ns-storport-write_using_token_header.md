@@ -4,7 +4,6 @@ title: WRITE_USING_TOKEN_HEADER (storport.h)
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
 tech.root: storage
-ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.date: 03/29/2018
 keywords: ["WRITE_USING_TOKEN_HEADER structure"]
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"

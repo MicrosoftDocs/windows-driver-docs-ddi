@@ -4,7 +4,6 @@ title: HWN_CLIENT_SET_STATE (hwnclx.h)
 description: Implemented by the client driver to set hardware notification component state. It is invoked when a user wants to change the state of a driver.
 old-location: gpiobtn\hwn_client_set_state.htm
 tech.root: gpiobtn
-ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
 ms.date: 02/15/2018
 keywords: ["HWN_CLIENT_SET_STATE callback"]
 ms.keywords: "*PHWN_CLIENT_SET_STATE, *PHWN_CLIENT_SET_STATE callback function pointer, HWN_CLIENT_SET_STATE, HwnClientSetState, HwnClientSetState callback function, gpiobtn.hwn_client_set_state, hwnclx/HwnClientSetState"
@@ -100,4 +99,4 @@ Register your implementation of this callback function by setting the appropriat
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

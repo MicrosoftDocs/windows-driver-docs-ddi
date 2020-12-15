@@ -4,7 +4,6 @@ title: MINIPORT_OID_REQUEST (ndis.h)
 description: NDIS calls a miniport driver's MiniportOidRequest function to handle an OID request to query or set information in the driver.
 old-location: netvista\miniportoidrequest.htm
 tech.root: netvista
-ms.assetid: 733d84f5-c1d4-42a0-a59b-4ba50247f165
 ms.date: 05/02/2018
 keywords: ["MINIPORT_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_OID_REQUEST, MINIPORT_OID_REQUEST callback, MiniportOidRequest, MiniportOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportOidRequest, ndis_request_ref_a05061c1-4fa7-485a-9751-05b146e8f961.xml, netvista.miniportoidrequest

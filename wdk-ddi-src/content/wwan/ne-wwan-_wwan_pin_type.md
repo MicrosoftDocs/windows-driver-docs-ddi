@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_PIN_TYPE
 title: _WWAN_PIN_TYPE (wwan.h)
 description: The WWAN_PIN_TYPE enumeration specifies the PIN type for a UICC application.
 tech.root: netvista
-ms.assetid: D4852EC3-AF5B-46BE-99A4-A006F71F5A24
 ms.date: 04/10/2019
 keywords: ["WWAN_PIN_TYPE enumeration"]
 ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE

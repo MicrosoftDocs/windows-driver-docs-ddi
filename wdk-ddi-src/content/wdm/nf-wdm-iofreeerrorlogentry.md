@@ -4,7 +4,6 @@ title: IoFreeErrorLogEntry function (wdm.h)
 description: The IoFreeErrorLogEntry routine frees an unused error log entry.
 old-location: kernel\iofreeerrorlogentry.htm
 tech.root: kernel
-ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.date: 04/30/2018
 keywords: ["IoFreeErrorLogEntry function"]
 ms.keywords: IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry

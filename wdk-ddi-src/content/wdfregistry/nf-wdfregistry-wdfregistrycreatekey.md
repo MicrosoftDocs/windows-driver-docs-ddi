@@ -4,7 +4,6 @@ title: WdfRegistryCreateKey function (wdfregistry.h)
 description: The WdfRegistryCreateKey method creates and opens a specified registry key, or just opens the key if it already exists, and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfregistrycreatekey.htm
 tech.root: wdf
-ms.assetid: acaf7024-b73a-4fe5-89e2-83e28cf2fdd1
 ms.date: 02/26/2018
 keywords: ["WdfRegistryCreateKey function"]
 ms.keywords: DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, WdfRegistryCreateKey, WdfRegistryCreateKey method, kmdf.wdfregistrycreatekey, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey
@@ -177,7 +176,7 @@ For more information about registry-key objects, see <a href="/windows-hardware/
 
 #### Examples
 
-The following code example opens a driver's software key, and then it creates and opens the <b>MySubKey</b> registry key, which is located under the driver's software key.
+The following code example opens a driver's software key, and then it creates and opens the <b>myKeyStr</b> registry key, which is located under the driver's software key.
 
 ```cpp
 WDFKEY  hKey, subkey;
@@ -193,8 +192,8 @@ status = WdfDeviceOpenRegistryKey(
                                   );
 if (NT_SUCCESS(status)){
     RtlInitUnicodeString(
-                         &mySubKey,
-                         L"MySubKey"
+                         &myKeyStr,
+                         L"myKeyStr"
                          );
     status = WdfRegistryCreateKey(
                                   hKey,

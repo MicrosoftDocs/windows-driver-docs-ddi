@@ -4,7 +4,6 @@ title: IWDTFPNPActions2::RestartDevice (wdtfpnpaction.h)
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 tech.root: dtf
-ms.assetid: b12cab9e-0dcd-4291-a93b-d8976c097bcd
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::RestartDevice"]
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RestartDevice method, IWDTFPNPActions2.RestartDevice, IWDTFPNPActions2::RestartDevice, RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_restartdevice, wdtfpnpaction/IWDTFPNPActions2::RestartDevice
@@ -64,6 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 From a SetupDi interface perspective, this will translate to a DICS_PROPCHANGE.   
 See the MSDN docs for details.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

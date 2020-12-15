@@ -4,7 +4,6 @@ title: SerCx2PioTransmitReady function (sercx.h)
 description: The SerCx2PioTransmitReady method notifies version 2 of the serial framework extension (SerCx2) that the transmit FIFO in the serial controller hardware is ready to accept more data.
 old-location: serports\sercx2piotransmitready.htm
 tech.root: serports
-ms.assetid: 58E663DC-8A2B-4017-A54F-4C127AE567CE
 ms.date: 04/23/2018
 keywords: ["SerCx2PioTransmitReady function"]
 ms.keywords: 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady, SerCx2PioTransmitReady method [Serial Ports], serports.sercx2piotransmitready

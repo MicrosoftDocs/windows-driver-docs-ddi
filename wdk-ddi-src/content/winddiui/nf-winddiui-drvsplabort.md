@@ -4,7 +4,6 @@ title: DrvSplAbort function (winddiui.h)
 description: The DrvSplAbort function is obsolete.
 old-location: print\drvsplabort.htm
 tech.root: print
-ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 ms.date: 11/18/2019
 keywords: ["DrvSplAbort function"]
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort

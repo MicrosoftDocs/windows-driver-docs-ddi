@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_GET_HANDFLOW (ntddser.h)
 description: The IOCTL_SERIAL_GET_HANDFLOW request returns information about the configuration of the handshake flow control set for a serial device.
 old-location: serports\ioctl_serial_get_handflow.htm
 tech.root: serports
-ms.assetid: d1d918fb-1ccb-46e6-ad28-e48daf226b3a
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_HANDFLOW IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_HANDFLOW, IOCTL_SERIAL_GET_HANDFLOW control, IOCTL_SERIAL_GET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_HANDFLOW, serports.ioctl_serial_get_handflow, serref_caa7cdf7-cf60-4baa-88bf-43a7db423a37.xml

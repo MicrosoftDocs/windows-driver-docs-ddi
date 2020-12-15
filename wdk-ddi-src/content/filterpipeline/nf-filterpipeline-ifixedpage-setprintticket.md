@@ -4,7 +4,6 @@ title: IFixedPage::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method associates a print ticket with the page.
 old-location: print\ifixedpage_setprintticket.htm
 tech.root: print
-ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
 ms.date: 04/20/2018
 keywords: ["IFixedPage::SetPrintTicket"]
 ms.keywords: IFixedPage interface [Print Devices],SetPrintTicket method, IFixedPage.SetPrintTicket, IFixedPage::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedPage interface, filterpipeline/IFixedPage::SetPrintTicket, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, print.ifixedpage_setprintticket

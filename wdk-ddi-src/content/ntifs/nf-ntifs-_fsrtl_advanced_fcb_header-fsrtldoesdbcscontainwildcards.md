@@ -4,7 +4,6 @@ title: FsRtlDoesDbcsContainWildCards function (ntifs.h)
 description: The FsRtlDoesDbcsContainWildCards routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters.
 old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
 tech.root: ifsk
-ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.date: 04/16/2018
 keywords: ["FsRtlDoesDbcsContainWildCards function"]
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
@@ -63,7 +62,7 @@ The <b>FsRtlDoesDbcsContainWildCards</b> routine returns <b>TRUE</b> if one or m
 
 The following are wildcard characters: *, ?, ANSI_DOS_STAR, ANSI_DOS_DOT, and ANSI_DOS_QM.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

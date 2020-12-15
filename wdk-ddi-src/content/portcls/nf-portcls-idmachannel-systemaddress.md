@@ -3,7 +3,6 @@ UID: NF:portcls.IDmaChannel.SystemAddress
 title: IDmaChannel::SystemAddress (portcls.h)
 description: The SystemAddress method returns the system address of the allocated buffer.
 tech.root: audio
-ms.assetid: 90bbf083-1820-4841-9572-4fc6fad6e897
 ms.date: 10/31/2018
 keywords: ["IDmaChannel::SystemAddress"]
 ms.keywords: IDmaChannel::SystemAddress, SystemAddress, IDmaChannel.SystemAddress, IDmaChannel::SystemAddress, IDmaChannel.SystemAddress

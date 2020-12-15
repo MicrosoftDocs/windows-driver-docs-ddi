@@ -4,7 +4,6 @@ title: NdisOffloadTcpForward function (ndischimney.h)
 description: A protocol driver or an intermediate driver calls the NdisOffloadTcpForward function to forward unacknowledged received TCP segments to an underlying driver or offload target.
 old-location: netvista\ndisoffloadtcpforward.htm
 tech.root: netvista
-ms.assetid: ca4e26c5-5fea-42ab-aee6-3ecf4cce3798
 ms.date: 05/02/2018
 keywords: ["NdisOffloadTcpForward function"]
 ms.keywords: NdisOffloadTcpForward, NdisOffloadTcpForward function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpForward, netvista.ndisoffloadtcpforward, tcp_chim_ndis_func_9def62ce-e860-4f98-a609-8e96e6381c66.xml
@@ -68,7 +67,7 @@ A handle to an
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. Each NET_BUFFER structure
@@ -131,7 +130,7 @@ When the underlying driver or offload target subsequently completes the forward 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

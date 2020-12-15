@@ -4,7 +4,6 @@ title: FsRtlIsAnsiCharacterLegal macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegal macro determines whether a character is a legal ANSI character.
 old-location: ifsk\fsrtlisansicharacterlegal.htm
 tech.root: ifsk
-ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegal macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
@@ -117,7 +116,7 @@ The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a l
 
 To be a legal ANSI character, a character must be present in the ANSI legal character array and must satisfy the input flag settings. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: NtFreeVirtualMemory function (ntifs.h)
 description: The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 old-location: kernel\zwfreevirtualmemory.htm
 tech.root: kernel
-ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.date: 06/21/2019
 keywords: ["NtFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory

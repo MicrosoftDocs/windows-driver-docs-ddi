@@ -4,7 +4,6 @@ title: IPrintPipelinePropertyBag (filterpipeline.h)
 description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
 old-location: print\iprintpipelinepropertybag.htm
 tech.root: print
-ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 ms.date: 04/20/2018
 keywords: ["IPrintPipelinePropertyBag interface"]
 ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag

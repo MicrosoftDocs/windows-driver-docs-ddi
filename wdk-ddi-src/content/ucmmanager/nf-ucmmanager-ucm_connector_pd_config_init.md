@@ -4,7 +4,6 @@ title: UCM_CONNECTOR_PD_CONFIG_INIT function (ucmmanager.h)
 description: Initializes a UCM_CONNECTOR_PD_CONFIG structure.
 old-location: buses\ucm_connector_pd_config_init.htm
 tech.root: usbref
-ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_PD_CONFIG_INIT function"]
 ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT

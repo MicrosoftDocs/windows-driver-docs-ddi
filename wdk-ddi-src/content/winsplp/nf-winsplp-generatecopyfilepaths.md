@@ -4,7 +4,6 @@ title: GenerateCopyFilePaths function (winsplp.h)
 description: A Point and Print DLL's GenerateCopyFilePaths function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.
 old-location: print\generatecopyfilepaths.htm
 tech.root: print
-ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.date: 04/20/2018
 keywords: ["GenerateCopyFilePaths function"]
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths

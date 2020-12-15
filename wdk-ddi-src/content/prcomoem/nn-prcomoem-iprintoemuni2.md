@@ -4,7 +4,6 @@ title: IPrintOemUni2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemUni2 COM interface.
 old-location: print\iprintoemuni2_interface.htm
 tech.root: print
-ms.assetid: 789ca699-89b3-41d3-9167-812f1a9eb3bc
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni2 interface"]
 ms.keywords: IPrintOemUni2, IPrintOemUni2 interface [Print Devices], IPrintOemUni2 interface [Print Devices],described, prcomoem/IPrintOemUni2, print.iprintoemuni2_interface, print_unidrv-pscript_rendering_4a9b9325-06ac-4945-b4c6-8af045650439.xml

@@ -2,8 +2,7 @@
 UID: NS:ntddk._WHEA_AMD_EXTENDED_REGISTERS
 title: WHEA_AMD_EXTENDED_REGISTERS
 description: 
-tech.root: 
-ms.assetid: 8ffb790e-6f18-4064-bec6-930d2f891f03
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_AMD_EXTENDED_REGISTERS structure"]
 ms.keywords: WHEA_AMD_EXTENDED_REGISTERS, WHEA_AMD_EXTENDED_REGISTERS, *PWHEA_AMD_EXTENDED_REGISTERS,

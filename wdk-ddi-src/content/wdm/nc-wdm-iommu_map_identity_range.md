@@ -2,7 +2,7 @@
 UID: NC:wdm.IOMMU_MAP_IDENTITY_RANGE
 title: IOMMU_MAP_IDENTITY_RANGE (wdm.h)
 description: Creates an identity mapping for the provided MDL in the provided domain.
-ms.assetid: cdd44fd5-20c2-488a-bfcb-001f1b4490cb
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["IOMMU_MAP_IDENTITY_RANGE callback function"]
 req.header: wdm.h

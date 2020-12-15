@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_KSR_MEMORY_RANGE
 title: DXGK_KSR_MEMORY_RANGE
 description: The kernel soft reboot (KSR) memory range.
 tech.root: display
-ms.assetid: 6131bf6c-c18f-4ff6-ae89-b39528c77be2
 ms.date: 04/04/2019
 keywords: ["DXGK_KSR_MEMORY_RANGE structure"]
 ms.keywords: DXGK_KSR_MEMORY_RANGE, DXGK_KSR_MEMORY_RANGE, *PDXGK_KSR_MEMORY_RANGE,

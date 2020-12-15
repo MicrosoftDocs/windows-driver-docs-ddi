@@ -2,7 +2,6 @@
 UID: NF:ntddstor.DeviceDsmInitializeInput
 title: DeviceDsmInitializeInput function (ntddstor.h)
 description: The DeviceDsmInitializeInput function initializes a DEVICE_DSM_INPUT structure.
-ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 tech.root: storage
 ms.date: 08/23/2019
 keywords: ["DeviceDsmInitializeInput function"]

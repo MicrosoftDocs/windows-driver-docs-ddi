@@ -4,7 +4,6 @@ title: NdisMRegisterDmaChannel function (ndis.h)
 description: The NdisMRegisterDmaChannel function claims a system DMA controller channel during initialization for DMA operations on a subordinate NIC or on an ISA bus-master NIC.
 old-location: netvista\ndismregisterdmachannel.htm
 tech.root: netvista
-ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterDmaChannel function"]
 ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel

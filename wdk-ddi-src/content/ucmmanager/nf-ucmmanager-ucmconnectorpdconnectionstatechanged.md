@@ -4,7 +4,6 @@ title: UcmConnectorPdConnectionStateChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the connection capabilities of the currently negotiated PD contract (if any).
 old-location: buses\ucmconnectorpdconnectionstatechanged.htm
 tech.root: usbref
-ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
 ms.date: 05/07/2018
 keywords: ["UcmConnectorPdConnectionStateChanged function"]
 ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged

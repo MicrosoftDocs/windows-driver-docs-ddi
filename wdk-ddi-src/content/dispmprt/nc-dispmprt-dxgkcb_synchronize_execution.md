@@ -4,7 +4,6 @@ title: DXGKCB_SYNCHRONIZE_EXECUTION (dispmprt.h)
 description: The DxgkCbSynchronizeExecution function synchronizes a specified function, implemented by the display miniport driver, with the display miniport driver's DxgkDdiInterruptRoutine function.
 old-location: display\dxgkcbsynchronizeexecution.htm
 tech.root: display
-ms.assetid: 9c659319-d0a5-43a7-b9a9-9fad18397a09
 ms.date: 05/10/2018
 keywords: ["DXGKCB_SYNCHRONIZE_EXECUTION callback function"]
 ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DXGKCB_SYNCHRONIZE_EXECUTION callback, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution

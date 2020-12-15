@@ -4,7 +4,6 @@ title: FILTER_DIRECT_OID_REQUEST_COMPLETE (ndis.h)
 description: NDIS calls the FilterDirectOidRequestComplete function to complete a filter driver direct OID request that queried or set information in an underlying driver.Note  You must declare the function by using the FILTER_DIRECT_OID_REQUEST_COMPLETE type.
 old-location: netvista\filterdirectoidrequestcomplete.htm
 tech.root: netvista
-ms.assetid: a97c86e9-4fd9-4e2f-9787-4fa19c38a69b
 ms.date: 05/02/2018
 keywords: ["FILTER_DIRECT_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: FILTER_DIRECT_OID_REQUEST_COMPLETE, FILTER_DIRECT_OID_REQUEST_COMPLETE callback, FilterDirectOidRequestComplete, FilterDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequestComplete, ndis_request_direct_ref_7c57d5c9-2a37-4602-b94e-df700652b1a9.xml, netvista.filterdirectoidrequestcomplete

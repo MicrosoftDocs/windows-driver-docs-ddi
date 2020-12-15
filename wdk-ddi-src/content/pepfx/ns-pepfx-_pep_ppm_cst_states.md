@@ -4,7 +4,6 @@ title: _PEP_PPM_CST_STATES (pepfx.h)
 description: The PEP_PPM_CST_STATES structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor.
 old-location: kernel\pep_ppm_cst_states.htm
 tech.root: kernel
-ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_CST_STATES structure"]
 ms.keywords: "*PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATES, kernel.pep_ppm_cst_states, pepfx/PEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES"

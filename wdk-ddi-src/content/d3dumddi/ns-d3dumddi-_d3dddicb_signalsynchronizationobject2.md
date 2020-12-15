@@ -4,7 +4,6 @@ title: _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 (d3dumddi.h)
 description: Describes the parameters that are required to set up signaling in a call to the pfnSignalSynchronizationObject2Cb function.
 old-location: display\d3dddicb_signalsynchronizationobject2.htm
 tech.root: display
-ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2

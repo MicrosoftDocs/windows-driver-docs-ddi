@@ -2,7 +2,7 @@
 UID: NF:ntddk.PsGetThreadProcessId
 title: PsGetThreadProcessId function (ntddk.h)
 description: The PsGetThreadProcessId routine returns the process identifier that is associated with a specified thread's process.
-ms.assetid: 4986e5ad-796e-4649-8ca6-118b191f4fd7
+tech.root: kernel
 ms.date: 06/25/2018
 keywords: ["PsGetThreadProcessId function"]
 ms.keywords: PsGetThreadProcessId

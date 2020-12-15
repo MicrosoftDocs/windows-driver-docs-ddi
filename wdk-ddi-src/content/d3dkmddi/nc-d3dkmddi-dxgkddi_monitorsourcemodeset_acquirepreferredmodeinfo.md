@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO
 title: DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO (d3dkmddi.h)
 description: The pfnAcquirePreferredModeInfo returns a descriptor of the preferred mode in a specified monitor source mode set object.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirepreferredmodeinfo.htm
-ms.assetid: 80d3d199-42ad-4f21-8122-05dfad37016d
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO callback function"]
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO callback, VidPnFunctions_c7c55840-18b7-40ad-8cf9-5350c7723246.xml, d3dkmddi/pfnAcquirePreferredModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnacquirepreferredmodeinfo, pfnAcquirePreferredModeInfo, pfnAcquirePreferredModeInfo callback function [Display Devices]

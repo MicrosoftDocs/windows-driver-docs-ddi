@@ -4,7 +4,6 @@ title: IDebugControl::GetNearInstruction (dbgeng.h)
 description: The GetNearInstruction method returns the location of a processor instruction relative to a given location.
 old-location: debugger\getnearinstruction.htm
 tech.root: debugger
-ms.assetid: 76387681-cac6-4c35-9095-28942a856c30
 ms.date: 05/03/2018
 keywords: ["IDebugControl::GetNearInstruction"]
 ms.keywords: GetNearInstruction, GetNearInstruction method [Windows Debugging], GetNearInstruction method [Windows Debugging],IDebugControl interface, GetNearInstruction method [Windows Debugging],IDebugControl2 interface, GetNearInstruction method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNearInstruction method, IDebugControl.GetNearInstruction, IDebugControl2 interface [Windows Debugging],GetNearInstruction method, IDebugControl2::GetNearInstruction, IDebugControl3 interface [Windows Debugging],GetNearInstruction method, IDebugControl3::GetNearInstruction, IDebugControl::GetNearInstruction, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, dbgeng/IDebugControl2::GetNearInstruction, dbgeng/IDebugControl3::GetNearInstruction, dbgeng/IDebugControl::GetNearInstruction, debugger.getnearinstruction

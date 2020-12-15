@@ -3,7 +3,6 @@ UID: NF:packet.NetPacketIsIpv4
 title: NetPacketIsIpv4 function (packet.h)
 description: The NetPacketIsIpv4 function determines if a NET_PACKET is an IPv4 packet. This function is reserved for system use. Do not call this function from your code.
 tech.root: netvista
-ms.assetid: 2a7f93ae-f0a5-430f-adbb-e452ea9aa3ee
 ms.date: 01/30/2019
 keywords: ["NetPacketIsIpv4 function"]
 ms.keywords: NetPacketIsIpv4

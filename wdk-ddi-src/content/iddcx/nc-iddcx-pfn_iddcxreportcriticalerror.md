@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXREPORTCRITICALERROR
 title: PFN_IDDCXREPORTCRITICALERROR (iddcx.h)
 description: PFN_IDDCXREPORTCRITICALERROR is a pointer to an OS callback function through which to report a critical error.
 tech.root: display
-ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
 ms.date: 09/24/2020
 keywords: ["PFN_IDDCXREPORTCRITICALERROR callback function"]
 req.header: iddcx.h
@@ -24,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-tech.root: display
 f1_keywords:
  - PFN_IDDCXREPORTCRITICALERROR
  - iddcx/PFN_IDDCXREPORTCRITICALERROR

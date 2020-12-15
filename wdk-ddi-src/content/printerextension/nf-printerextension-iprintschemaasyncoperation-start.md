@@ -4,7 +4,6 @@ title: IPrintSchemaAsyncOperation::Start (printerextension.h)
 description: Starts the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_start.htm
 tech.root: print
-ms.assetid: 8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaAsyncOperation::Start"]
 ms.keywords: IPrintSchemaAsyncOperation interface [Print Devices],Start method, IPrintSchemaAsyncOperation.Start, IPrintSchemaAsyncOperation::Start, Start, Start method [Print Devices], Start method [Print Devices],IPrintSchemaAsyncOperation interface, print.iprintschemaasyncoperation_start, printerextension/IPrintSchemaAsyncOperation::Start

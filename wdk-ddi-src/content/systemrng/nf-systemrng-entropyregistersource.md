@@ -2,8 +2,7 @@
 UID: NF:systemrng.EntropyRegisterSource
 title: EntropyRegisterSource function (systemrng.h)
 description: 
-ms.assetid: df2ccd42-3f5c-4d00-9ff1-337d4bf815b6
-ms.date: 10/19/2018
+ms.date: 11/19/2020
 keywords: ["EntropyRegisterSource function"]
 ms.keywords: EntropyRegisterSource
 req.header: systemrng.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EntropyRegisterSource
  - systemrng/EntropyRegisterSource
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # EntropyRegisterSource function
-
 
 ## -description
 
@@ -58,4 +57,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

@@ -3,7 +3,6 @@ UID: NE:wditypes._WDI_SAE_STATUS
 title: WDI_SAE_STATUS
 description: The WDI_SAE_STATUS enumeration defines SAE authentication failure error status codes.
 tech.root: netvista
-ms.assetid: 1c481f30-0f92-423c-9d72-730e24c880a4
 ms.date: 02/14/2019
 keywords: ["WDI_SAE_STATUS enumeration"]
 ms.keywords: WDI_SAE_STATUS, WDI_SAE_STATUS,

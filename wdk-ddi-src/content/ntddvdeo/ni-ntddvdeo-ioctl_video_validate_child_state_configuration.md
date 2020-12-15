@@ -4,7 +4,6 @@ title: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION (ntddvdeo.h)
 description: Queries the miniport driver to determine whether it is ready for a display device switch.
 old-location: display\ioctl_video_validate_child_state_configuration.htm
 tech.root: display
-ms.assetid: 18ab1aeb-e1a8-4c62-8c34-4ea534742342
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_8e2a488b-85d7-4814-b85b-a96162fe5963.xml, display.ioctl_video_validate_child_state_configuration, ntddvdeo/IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION

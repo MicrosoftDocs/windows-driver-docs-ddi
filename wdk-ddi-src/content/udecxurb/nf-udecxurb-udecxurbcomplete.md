@@ -4,7 +4,6 @@ title: UdecxUrbComplete function (udecxurb.h)
 description: Completes the URB request with a USB-specific completion status code.
 old-location: buses\udecxurbcomplete.htm
 tech.root: usbref
-ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.date: 05/07/2018
 keywords: ["UdecxUrbComplete function"]
 ms.keywords: UdecxUrbComplete, UdecxUrbComplete function [Buses], buses.udecxurbcomplete, udecxurb/UdecxUrbComplete

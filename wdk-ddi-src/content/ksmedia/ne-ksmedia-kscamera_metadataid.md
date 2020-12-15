@@ -4,7 +4,6 @@ title: KSCAMERA_MetadataId (ksmedia.h)
 description: This enumeration contains identifiers for a metadata item.
 old-location: stream\kscamera_metadataid.htm
 tech.root: stream
-ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.date: 04/23/2018
 keywords: ["KSCAMERA_MetadataId enumeration"]
 ms.keywords: KSCAMERA_MetadataId, KSCAMERA_MetadataId enumeration [Streaming Media Devices], MetadataId_Custom_Start, MetadataId_PhotoConfirmation, MetadataId_Standard_End, MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, stream.kscamera_metadataid

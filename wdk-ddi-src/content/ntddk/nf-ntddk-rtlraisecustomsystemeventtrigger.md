@@ -2,8 +2,8 @@
 UID: NF:ntddk.RtlRaiseCustomSystemEventTrigger
 title: RtlRaiseCustomSystemEventTrigger function (ntddk.h)
 description: Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.
-ms.assetid: b5f212a3-3b2a-46ce-ae89-112320d0b2a9
 ms.date: 10/19/2018
+tech.root: kernel
 keywords: ["RtlRaiseCustomSystemEventTrigger function"]
 ms.keywords: RtlRaiseCustomSystemEventTrigger
 req.header: ntddk.h
@@ -48,7 +48,7 @@ Allows NT services and kernel-mode and user-mode drivers to raise a custom trigg
 
 ### -param TriggerConfig
 
-[_In_] A pointer to a [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure that contains hte trigger identfier. Call [**CUSTOM_SYSTEM_EVENT_TRIGGER_INIT**](nf-ntddk-custom_system_event_trigger_init.md) to initialize the structure before calling the function.
+[_In_] A pointer to a [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure that contains the trigger identifier. Call [**CUSTOM_SYSTEM_EVENT_TRIGGER_INIT**](nf-ntddk-custom_system_event_trigger_init.md) to initialize the structure before calling the function.
 
 ## -returns
 

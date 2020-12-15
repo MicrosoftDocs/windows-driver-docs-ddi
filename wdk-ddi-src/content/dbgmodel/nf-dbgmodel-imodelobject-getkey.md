@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IModelObject.GetKey
 title: IModelObject::GetKey (dbgmodel.h)
 description: The GetKey method will get the value of (and the metadata associated with) a given key by name.
-ms.assetid: 533111d9-50cd-4bd3-8807-6c9be2374fba
 ms.date: 08/09/2018
 keywords: ["IModelObject::GetKey"]
 ms.keywords: IModelObject::GetKey, GetKey, IModelObject.GetKey, IModelObject::GetKey, IModelObject.GetKey

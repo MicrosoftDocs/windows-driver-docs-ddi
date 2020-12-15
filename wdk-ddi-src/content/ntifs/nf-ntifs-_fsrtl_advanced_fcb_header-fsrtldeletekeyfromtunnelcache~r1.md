@@ -4,7 +4,6 @@ title: FsRtlDeleteKeyFromTunnelCache function (ntifs.h)
 description: The FsRtlDeleteKeyFromTunnelCache routine deletes any tunnel cache entries for files in a directory that is being deleted.
 old-location: ifsk\fsrtldeletekeyfromtunnelcache.htm
 tech.root: ifsk
-ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
 ms.date: 03/29/2018
 keywords: ["FsRtlDeleteKeyFromTunnelCache function"]
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache

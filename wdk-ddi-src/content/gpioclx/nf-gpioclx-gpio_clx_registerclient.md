@@ -4,7 +4,6 @@ title: GPIO_CLX_RegisterClient function (gpioclx.h)
 description: The GPIO_CLX_RegisterClient method registers a general-purpose I/O (GPIO) controller driver as a client of the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_registerclient.htm
 tech.root: GPIO
-ms.assetid: C87385E0-7B3F-44DA-90D0-E644C58AB375
 ms.date: 02/15/2018
 keywords: ["GPIO_CLX_RegisterClient function"]
 ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports], gpioclx/GPIO_CLX_RegisterClient

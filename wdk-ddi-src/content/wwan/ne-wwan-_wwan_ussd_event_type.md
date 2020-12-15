@@ -4,7 +4,6 @@ title: _WWAN_USSD_EVENT_TYPE (wwan.h)
 description: The WWAN_USSD_EVENT_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) events.
 old-location: netvista\wwan_ussd_event_type.htm
 tech.root: netvista
-ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.date: 05/02/2018
 keywords: ["WWAN_USSD_EVENT_TYPE enumeration"]
 ms.keywords: "*PWWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventActionRequired, WwanUssdEventNetworkTimeOut, WwanUssdEventNoActionRequired, WwanUssdEventOperationNotSupported, WwanUssdEventOtherLocalClient, WwanUssdEventTerminated, _WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, wwan/WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventActionRequired, wwan/WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventTerminated"

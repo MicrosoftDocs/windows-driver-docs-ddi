@@ -3,7 +3,6 @@ UID: NE:ucmucsispec._UCSI_POWER_DIRECTION
 title: _UCSI_POWER_DIRECTION (ucmucsispec.h)
 tech.root: usbref
 description: Used in the  GET_CONNECTOR_STATUS command. See Table 4-42, Offset 20.
-ms.assetid: 1915856c-21ec-4801-b549-acd825b23a0b
 ms.date: 09/30/2018
 keywords: ["UCSI_POWER_DIRECTION enumeration"]
 ms.keywords: _UCSI_POWER_DIRECTION, UCSI_POWER_DIRECTION,

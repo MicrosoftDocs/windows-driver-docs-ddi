@@ -4,7 +4,6 @@ title: WppRecorderDumpLiveDriverData macro (wpprecorder.h)
 description: The WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
 old-location: devtest\wpprecorderdumplivedriverdata.htm
 tech.root: devtest
-ms.assetid: FE3DE2A8-8EE5-4F34-BEE6-731987E5F5BD
 ms.date: 02/23/2018
 keywords: ["WppRecorderDumpLiveDriverData macro"]
 ms.keywords: WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData

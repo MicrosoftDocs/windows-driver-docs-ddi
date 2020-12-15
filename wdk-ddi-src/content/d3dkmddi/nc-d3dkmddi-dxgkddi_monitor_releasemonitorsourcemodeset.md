@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
 title: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET (d3dkmddi.h)
 description: The pfnReleaseMonitorSourceModeSet function releases a handle to a monitor source mode set object.
 old-location: display\dxgk_monitor_interface_pfnreleasemonitorsourcemodeset.htm
-ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback function"]
 ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]

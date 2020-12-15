@@ -4,7 +4,6 @@ title: KsPublishDeviceProfile function (ks.h)
 description: The KsPublishDeviceProfile API is called to publish device profile information.
 old-location: stream\kspublishdeviceprofile.htm
 tech.root: stream
-ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.date: 04/23/2018
 keywords: ["KsPublishDeviceProfile function"]
 ms.keywords: KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile

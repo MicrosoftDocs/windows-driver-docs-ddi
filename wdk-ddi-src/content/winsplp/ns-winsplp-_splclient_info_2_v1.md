@@ -4,7 +4,6 @@ title: _SPLCLIENT_INFO_2_V1 (winsplp.h)
 description: Contains the handle for the server-side printer that is used to make direct API calls from the client to the server without the overhead of the RPC.
 old-location: print\splclient_info_2_w2k.htm
 tech.root: print
-ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
 ms.date: 04/20/2018
 keywords: ["SPLCLIENT_INFO_2_V1 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K, SPLCLIENT_INFO_2_W2K structure [Print Devices], _SPLCLIENT_INFO_2_V1, print.splclient_info_2_w2k, winsplp/SPLCLIENT_INFO_2_W2K"

@@ -4,7 +4,6 @@ title: _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS (ucmmanager.h)
 description: Describes the parameters for PD connection changed event.
 old-location: buses\ucm_connector_pd_conn_state_changed_params.htm
 tech.root: usbref
-ms.assetid: 9D8A2B47-1677-4660-B006-CA0D5741FC05
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure"]
 ms.keywords: "*PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure pointer [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure [Buses], _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, buses.ucm_connector_pd_conn_state_changed_params, ucmmanager/PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS"

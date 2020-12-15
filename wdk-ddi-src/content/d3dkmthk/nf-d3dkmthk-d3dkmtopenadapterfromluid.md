@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTOpenAdapterFromLuid
 title: D3DKMTOpenAdapterFromLuid function (d3dkmthk.h)
 description: Maps a locally unique identifier (LUID) to a graphics adapter handle.
 old-location: display\d3dkmtopenadapterfromluid.htm
-ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenAdapterFromLuid function"]
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid

@@ -4,7 +4,6 @@ title: ExWaitForRundownProtectionRelease function (wdm.h)
 description: The ExWaitForRundownProtectionRelease routine waits until all drivers that have already been granted run-down protection complete their accesses of the shared object.
 old-location: kernel\exwaitforrundownprotectionrelease.htm
 tech.root: kernel
-ms.assetid: 96786C19-29C4-4030-9429-0B3CB7F3DF11
 ms.date: 04/30/2018
 keywords: ["ExWaitForRundownProtectionRelease function"]
 ms.keywords: ExWaitForRundownProtectionRelease, ExWaitForRundownProtectionRelease routine [Kernel-Mode Driver Architecture], kernel.exwaitforrundownprotectionrelease, wdm/ExWaitForRundownProtectionRelease

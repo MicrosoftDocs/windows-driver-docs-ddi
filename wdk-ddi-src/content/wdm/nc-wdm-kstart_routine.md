@@ -4,7 +4,6 @@ title: KSTART_ROUTINE (wdm.h)
 description: The ThreadStart routine provides an entry point for a driver-created system thread.
 old-location: kernel\threadstart.htm
 tech.root: kernel
-ms.assetid: 4a4e4e0f-fadf-4f4c-9759-6d52ef9f663d
 ms.date: 04/30/2018
 keywords: ["KSTART_ROUTINE callback function"]
 ms.keywords: DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart

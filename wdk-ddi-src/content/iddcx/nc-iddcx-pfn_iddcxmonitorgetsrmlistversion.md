@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXMONITORGETSRMLISTVERSION
 title: PFN_IDDCXMONITORGETSRMLISTVERSION (iddcx.h)
 description: PFN_IDDCXMONITORGETSRMLISTVERSION is a pointer to an OS callback function that retrieves the latest SRM list version stored by the GPU.
 tech.root: display
-ms.assetid: f73e9f90-0f6e-40e0-9716-b184ac90c4e7
 ms.date: 10/02/2020
 keywords: ["PFN_IDDCXMONITORGETSRMLISTVERSION callback function"]
 req.header: iddcx.h
@@ -24,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-tech.root: display
 f1_keywords:
  - PFN_IDDCXMONITORGETSRMLISTVERSION
  - iddcx/PFN_IDDCXMONITORGETSRMLISTVERSION

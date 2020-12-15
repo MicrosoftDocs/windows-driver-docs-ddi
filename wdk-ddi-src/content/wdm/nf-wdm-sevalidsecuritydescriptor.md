@@ -4,7 +4,6 @@ title: SeValidSecurityDescriptor function (wdm.h)
 description: The SeValidSecurityDescriptor routine returns whether a given security descriptor is structurally valid.
 old-location: kernel\sevalidsecuritydescriptor.htm
 tech.root: kernel
-ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.date: 04/30/2018
 keywords: ["SeValidSecurityDescriptor function"]
 ms.keywords: SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor

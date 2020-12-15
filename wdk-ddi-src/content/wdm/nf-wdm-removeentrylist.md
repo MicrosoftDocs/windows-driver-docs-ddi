@@ -4,7 +4,6 @@ title: RemoveEntryList function (wdm.h)
 description: The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeentrylist.htm
 tech.root: kernel
-ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.date: 04/30/2018
 keywords: ["RemoveEntryList function"]
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList

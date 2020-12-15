@@ -4,7 +4,6 @@ title: KeBugCheck function (ntddk.h)
 description: The KeBugCheck routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheck.htm
 tech.root: kernel
-ms.assetid: 46337a5f-dc8a-42bc-a618-0d1440270f91
 ms.date: 04/30/2018
 keywords: ["KeBugCheck function"]
 ms.keywords: KeBugCheck, KeBugCheck routine [Kernel-Mode Driver Architecture], k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, kernel.kebugcheck, ntddk/KeBugCheck

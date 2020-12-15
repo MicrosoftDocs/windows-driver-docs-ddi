@@ -4,7 +4,6 @@ title: IDebugControl4::AssembleWide (dbgeng.h)
 description: The AssembleWide method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemblewide.htm
 tech.root: debugger
-ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::AssembleWide"]
 ms.keywords: AssembleWide, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AssembleWide method, IDebugControl4.AssembleWide, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide

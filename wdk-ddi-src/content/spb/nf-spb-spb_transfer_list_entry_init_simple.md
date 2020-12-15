@@ -4,7 +4,6 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.
 old-location: spb\spb_transfer_list_entry_init_simple.htm
 tech.root: SPB
-ms.assetid: 38F50F76-5D14-47CE-A211-3FC4F1399A74
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_simple, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE

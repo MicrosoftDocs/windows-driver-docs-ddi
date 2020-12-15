@@ -4,7 +4,6 @@ title: WdfPdoRemoveEjectionRelationsPhysicalDevice function (wdfpdo.h)
 description: The WdfPdoRemoveEjectionRelationsPhysicalDevice method removes a specified device from the list of devices that must be ejected when another specified device is ejected.
 old-location: wdf\wdfpdoremoveejectionrelationsphysicaldevice.htm
 tech.root: wdf
-ms.assetid: d224b93b-4c3e-4e14-bc5d-404cb703752c
 ms.date: 02/26/2018
 keywords: ["WdfPdoRemoveEjectionRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, WdfPdoRemoveEjectionRelationsPhysicalDevice, WdfPdoRemoveEjectionRelationsPhysicalDevice method, kmdf.wdfpdoremoveejectionrelationsphysicaldevice, wdf.wdfpdoremoveejectionrelationsphysicaldevice, wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice

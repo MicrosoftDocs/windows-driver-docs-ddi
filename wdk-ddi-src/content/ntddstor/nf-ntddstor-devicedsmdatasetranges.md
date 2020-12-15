@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmDataSetRanges
 title: DeviceDsmDataSetRanges function (ntddstor.h)
 description: The DeviceDsmDataSetRanges function function gets a pointer to the data set ranges associated with a DEVICE_DSM_INPUT structure.
 tech.root: storage
-ms.assetid: 0a7044a8-4cf1-4e40-92e1-c0dacea99ea9
 ms.date: 08/23/2019
 keywords: ["DeviceDsmDataSetRanges function"]
 ms.keywords: DeviceDsmDataSetRanges

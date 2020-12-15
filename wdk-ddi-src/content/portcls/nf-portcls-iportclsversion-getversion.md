@@ -4,7 +4,6 @@ title: IPortClsVersion::GetVersion (portcls.h)
 description: The GetVersion method returns the version of the Windows operating system that the driver is running on.
 old-location: audio\iportclsversion_getversion.htm
 tech.root: audio
-ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.date: 05/08/2018
 keywords: ["IPortClsVersion::GetVersion"]
 ms.keywords: GetVersion, GetVersion method [Audio Devices], GetVersion method [Audio Devices],IPortClsVersion interface, IPortClsVersion interface [Audio Devices],GetVersion method, IPortClsVersion.GetVersion, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion

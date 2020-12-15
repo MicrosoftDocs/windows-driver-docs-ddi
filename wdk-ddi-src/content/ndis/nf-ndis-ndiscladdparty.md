@@ -4,7 +4,6 @@ title: NdisClAddParty function (ndis.h)
 description: NdisClAddParty adds a party on the client's multipoint VC.
 old-location: netvista\ndiscladdparty.htm
 tech.root: netvista
-ms.assetid: e48357b2-52dc-48af-aeb1-8d84ea107579
 ms.date: 05/02/2018
 keywords: ["NdisClAddParty function"]
 ms.keywords: NdisClAddParty, NdisClAddParty function [Network Drivers Starting with Windows Vista], condis_client_ref_90d23e8e-f3a5-4a19-9eeb-b68a28f7f915.xml, ndis/NdisClAddParty, netvista.ndiscladdparty

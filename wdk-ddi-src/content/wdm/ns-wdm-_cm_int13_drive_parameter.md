@@ -4,7 +4,6 @@ title: _CM_INT13_DRIVE_PARAMETER (wdm.h)
 description: The CM_INT13_DRIVE_PARAMETER structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a disk controller if the system can collect this information during the boot process.
 old-location: kernel\cm_int13_drive_parameter.htm
 tech.root: kernel
-ms.assetid: eee1070f-c821-42bd-a0c9-d429fac6305b
 ms.date: 04/30/2018
 keywords: ["CM_INT13_DRIVE_PARAMETER structure"]
 ms.keywords: "*PCM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER structure [Kernel-Mode Driver Architecture], PCM_INT13_DRIVE_PARAMETER, PCM_INT13_DRIVE_PARAMETER structure pointer [Kernel-Mode Driver Architecture], _CM_INT13_DRIVE_PARAMETER, kernel.cm_int13_drive_parameter, kstruct_a_4d629962-92d1-446d-890b-196893ea37a0.xml, wdm/CM_INT13_DRIVE_PARAMETER, wdm/PCM_INT13_DRIVE_PARAMETER"

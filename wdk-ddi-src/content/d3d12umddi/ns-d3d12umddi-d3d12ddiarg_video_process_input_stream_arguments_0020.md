@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020
 title: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 (d3d12umddi.h)
 description: Specifies input stream parameters for an input stream passed to the pfnProcessFrame callback function.
 old-location: display\d3d12ddiarg_video_process_input_stream_parameters.htm
-ms.assetid: 2488E73E-CF47-4852-8090-BC063DCC4EA4
 ms.date: 05/10/2018
 keywords: ["D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure"]
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_input_stream_parameters

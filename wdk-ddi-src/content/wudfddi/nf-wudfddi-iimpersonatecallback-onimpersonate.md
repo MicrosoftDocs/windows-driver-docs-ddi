@@ -4,7 +4,6 @@ title: IImpersonateCallback::OnImpersonate (wudfddi.h)
 description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
 tech.root: wdf
-ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.date: 02/26/2018
 keywords: ["IImpersonateCallback::OnImpersonate"]
 ms.keywords: IImpersonateCallback interface,OnImpersonate method, IImpersonateCallback.OnImpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate, OnImpersonate method, OnImpersonate method,IImpersonateCallback interface, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate

@@ -4,7 +4,6 @@ title: ExAllocatePoolWithTagPriority function (wdm.h)
 description: The ExAllocatePoolWithTagPriority routine allocates pool memory of the specified type.
 old-location: kernel\exallocatepoolwithtagpriority.htm
 tech.root: kernel
-ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.date: 04/30/2018
 keywords: ["ExAllocatePoolWithTagPriority function"]
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority

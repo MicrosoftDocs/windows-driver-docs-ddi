@@ -4,7 +4,6 @@ title: ExConvertExclusiveToSharedLite function (wdm.h)
 description: The ExConvertExclusiveToSharedLite routine converts a given resource from acquired for exclusive access to acquired for shared access.
 old-location: kernel\exconvertexclusivetosharedlite.htm
 tech.root: kernel
-ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.date: 03/28/2018
 keywords: ["ExConvertExclusiveToSharedLite function"]
 ms.keywords: ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite

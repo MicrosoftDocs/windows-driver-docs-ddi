@@ -4,7 +4,6 @@ title: IXpsDocumentConsumer::SendXpsUnknown (filterpipeline.h)
 description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
 tech.root: print
-ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.date: 04/20/2018
 keywords: ["IXpsDocumentConsumer::SendXpsUnknown"]
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendXpsUnknown method, IXpsDocumentConsumer.SendXpsUnknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown, SendXpsUnknown method [Print Devices], SendXpsUnknown method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, print.ixpsdocumentconsumer_sendxpsunknown

@@ -3,7 +3,6 @@ UID: NF:portcls.IDmaChannelSlave.Stop
 title: IDmaChannelSlave::Stop (portcls.h)
 description: The Stop method stops a subordinate DMA object that was started by a previous call to IDmaChannelSlave::Start
 tech.root: audio
-ms.assetid: a74e2952-38bf-4980-bc0f-cc170aa2e7b2
 ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::Stop"]
 ms.keywords: IDmaChannelSlave::Stop, Stop, IDmaChannelSlave.Stop, IDmaChannelSlave::Stop, IDmaChannelSlave.Stop

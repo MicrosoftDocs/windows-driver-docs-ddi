@@ -2,8 +2,7 @@
 UID: NC:systemrng.PENTROPY_SOURCE_CALLBACK_FUNCTION
 title: PENTROPY_SOURCE_CALLBACK_FUNCTION (systemrng.h)
 description: 
-ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
-ms.date: 08/26/2020
+ms.date: 11/19/2020
 keywords: ["PENTROPY_SOURCE_CALLBACK_FUNCTION callback function"]
 req.header: systemrng.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PENTROPY_SOURCE_CALLBACK_FUNCTION
  - systemrng/PENTROPY_SOURCE_CALLBACK_FUNCTION
@@ -38,7 +38,6 @@ api_name:
 ---
 
 # PENTROPY_SOURCE_CALLBACK_FUNCTION callback function
-
 
 ## -description
 

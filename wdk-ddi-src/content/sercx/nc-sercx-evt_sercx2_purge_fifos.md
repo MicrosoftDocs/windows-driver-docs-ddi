@@ -4,7 +4,6 @@ title: EVT_SERCX2_PURGE_FIFOS (sercx.h)
 description: The EvtSerCx2PurgeFifos event callback function is called by version 2 of the serial framework extension (SerCx2) to purge the FIFO buffers in the serial controller hardware.
 old-location: serports\evtsercx2purgefifos.htm
 tech.root: serports
-ms.assetid: 52875B36-F52B-4D29-9C9D-76DB12BFEEA6
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PURGE_FIFOS callback function"]
 ms.keywords: 2/EvtSerCx2PurgeFifos, EVT_SERCX2_PURGE_FIFOS, EVT_SERCX2_PURGE_FIFOS callback, EvtSerCx2PurgeFifos, EvtSerCx2PurgeFifos callback function [Serial Ports], serports.evtsercx2purgefifos

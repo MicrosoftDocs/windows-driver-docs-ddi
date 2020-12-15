@@ -4,7 +4,6 @@ title: PFND3DDDI_SETVERTEXSHADERCONSTB (d3dumddi.h)
 description: The SetVertexShaderConstB function sets one or more vertex shader constant registers with Boolean values.
 old-location: display\setvertexshaderconstb.htm
 tech.root: display
-ms.assetid: 41ca823e-4370-4cba-9129-067e25a43a69
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_SETVERTEXSHADERCONSTB callback function"]
 ms.keywords: PFND3DDDI_SETVERTEXSHADERCONSTB, PFND3DDDI_SETVERTEXSHADERCONSTB callback, SetVertexShaderConstB, SetVertexShaderConstB callback function [Display Devices], UserModeDisplayDriver_Functions_5151bd4a-84a4-43d3-a76e-de6f5808281d.xml, d3dumddi/SetVertexShaderConstB, display.setvertexshaderconstb

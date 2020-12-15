@@ -4,7 +4,6 @@ title: HidD_SetFeature function (hidsdi.h)
 description: The HidD_SetFeature routine sends a feature report to a top-level collection.
 old-location: hid\hidd_setfeature.htm
 tech.root: hid
-ms.assetid: 69b7d775-e689-4010-8c83-f9e393d692be
 ms.date: 06/19/2019
 keywords: ["HidD_SetFeature function"]
 ms.keywords: HidD_SetFeature, HidD_SetFeature routine [Human Input Devices], hid.hidd_setfeature, hidfunc_f34ed05a-c8c1-44e3-ab94-a8df000aac7d.xml, hidsdi/HidD_SetFeature

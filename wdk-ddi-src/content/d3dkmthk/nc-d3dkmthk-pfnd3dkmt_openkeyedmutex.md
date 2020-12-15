@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_OPENKEYEDMUTEX
 title: PFND3DKMT_OPENKEYEDMUTEX (d3dkmthk.h)
 description: Pfnd3dkmtOpenkeyedmutex opens a keyed mutex object that includes private data.
-ms.assetid: c5542773-5857-4137-98ac-82467f6e053d
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_OPENKEYEDMUTEX callback function"]
 req.header: d3dkmthk.h

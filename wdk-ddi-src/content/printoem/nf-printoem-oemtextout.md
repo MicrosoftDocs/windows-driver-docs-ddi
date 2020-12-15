@@ -4,7 +4,6 @@ title: OEMTextOut function (printoem.h)
 description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
 old-location: print\oemtextout.htm
 tech.root: print
-ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 ms.date: 04/20/2018
 keywords: ["OEMTextOut function"]
 ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut

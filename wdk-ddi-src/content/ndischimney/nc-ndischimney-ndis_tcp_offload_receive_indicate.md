@@ -4,7 +4,6 @@ title: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadReceiveHandler function to indicate that received network data is available for consumption by a client application.
 old-location: netvista\ndistcpoffloadreceivehandler.htm
 tech.root: netvista
-ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
@@ -67,7 +66,7 @@ A handle that identifies the offloaded TCP connection on which the indication is
 
 [in]
 A pointer to a 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each 
@@ -78,7 +77,7 @@ A pointer to a
       memory.
 
 The 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure
       specified by 
       <i>NetBufferList</i> must be a stand-alone structure and cannot be the first
       structure in a linked list of 
@@ -290,7 +289,7 @@ In the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

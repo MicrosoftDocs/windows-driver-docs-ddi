@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SET_INTERRUPT_LATENCY
 title: FN_VMB_CHANNEL_SET_INTERRUPT_LATENCY (vmbuskernelmodeclientlibapi.h)
 description: Guest VM updates to the outgoing monitor latency for MNF interrupts.
 tech.root: netvista
-ms.assetid: ceafe0bd-0d01-4c86-9812-8baa616e9fd7
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_INTERRUPT_LATENCY callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

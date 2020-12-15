@@ -3,7 +3,6 @@ UID: NF:packet.NetPacketIsIpv6
 title: NetPacketIsIpv6 function (packet.h)
 description: The NetPacketIsIpv6 function determines if a NET_PACKET is an IPv6 packet. This function is reserved for system use. Do not call this function from your code.
 tech.root: netvista
-ms.assetid: dfb23a00-13fb-4c66-a950-8ec080dee7a5
 ms.date: 01/30/2019
 keywords: ["NetPacketIsIpv6 function"]
 ms.keywords: NetPacketIsIpv6

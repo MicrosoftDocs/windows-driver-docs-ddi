@@ -4,7 +4,6 @@ title: _NDIS_WWAN_SET_PIN_EX (ndiswwan.h)
 description: The NDIS_WWAN_SET_PIN_EX structure represents what PIN action to take on the MB device.
 old-location: netvista\ndis_wwan_set_pin_ex.htm
 tech.root: netvista
-ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_PIN_EX structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex"

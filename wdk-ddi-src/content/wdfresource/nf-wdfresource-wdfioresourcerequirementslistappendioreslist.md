@@ -4,7 +4,6 @@ title: WdfIoResourceRequirementsListAppendIoResList function (wdfresource.h)
 description: The WdfIoResourceRequirementsListAppendIoResList method adds a logical configuration to the end of a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistappendioreslist.htm
 tech.root: wdf
-ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListAppendIoResList function"]
 ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList

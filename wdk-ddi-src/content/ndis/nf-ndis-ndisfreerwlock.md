@@ -4,7 +4,6 @@ title: NdisFreeRWLock function (ndis.h)
 description: The NdisFreeRWLock function frees a read/write lock that was previously allocated with the NdisAllocateRWLock function.
 old-location: netvista\ndisfreerwlock.htm
 tech.root: netvista
-ms.assetid: 1f54e8fe-e6a2-4ddd-9451-289d3df21fde
 ms.date: 05/02/2018
 keywords: ["NdisFreeRWLock function"]
 ms.keywords: NdisFreeRWLock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, netvista.ndisfreerwlock

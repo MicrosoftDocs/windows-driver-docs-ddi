@@ -4,7 +4,6 @@ title: IOCTL_SMARTCARD_TRANSMIT (winsmcrd.h)
 description: Transmits data from the client to the detected smart card in ISO7816-4 compliant APDU.
 old-location: nfpdrivers\ioctl_smartcard_transmit.htm
 tech.root: nfpdrivers
-ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
 ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_TRANSMIT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT

@@ -4,7 +4,6 @@ title: FltGetEcpListFromCallbackData function (fltkernel.h)
 description: The FltGetEcpListFromCallbackData routine returns a pointer to an extra create parameter context structure (ECP) list that is associated with a given create operation callback-data object.
 old-location: ifsk\fltgetecplistfromcallbackdata.htm
 tech.root: ifsk
-ms.assetid: 4e172b98-81f8-4e20-a622-232378114cf3
 ms.date: 04/16/2018
 keywords: ["FltGetEcpListFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_781f52ec-4262-4205-81bb-2a0e824f50af.xml, FltGetEcpListFromCallbackData, FltGetEcpListFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetEcpListFromCallbackData, ifsk.fltgetecplistfromcallbackdata

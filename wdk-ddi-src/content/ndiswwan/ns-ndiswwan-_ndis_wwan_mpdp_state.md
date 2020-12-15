@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_MPDP_STATE
 title: _NDIS_WWAN_MPDP_STATE (ndiswwan.h)
 description: The NDIS_WWAN_MPDP_STATE structure represents the state of a Multiple Packet Data Protocol (MPDP) interface after a requested operation.
 tech.root: netvista
-ms.assetid: 58bc3af3-8f33-41e3-9417-190da9be2b6c
 ms.date: 06/25/2018
 keywords: ["NDIS_WWAN_MPDP_STATE structure"]
 ms.keywords: _NDIS_WWAN_MPDP_STATE, NDIS_WWAN_MPDP_STATE, *PNDIS_WWAN_MPDP_STATE,

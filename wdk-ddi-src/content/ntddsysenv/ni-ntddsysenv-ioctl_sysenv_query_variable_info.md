@@ -4,7 +4,6 @@ title: IOCTL_SYSENV_QUERY_VARIABLE_INFO (ntddsysenv.h)
 description: Returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_query_variable_info.htm
 tech.root: kernel
-ms.assetid: 4056202F-2292-40A5-BE1D-8C1A6FA79B50
 ms.date: 04/30/2018
 keywords: ["IOCTL_SYSENV_QUERY_VARIABLE_INFO IOCTL"]
 ms.keywords: IOCTL_SYSENV_QUERY_VARIABLE_INFO, IOCTL_SYSENV_QUERY_VARIABLE_INFO control, IOCTL_SYSENV_QUERY_VARIABLE_INFO control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_query_variable_info, ntddsysenv/IOCTL_SYSENV_QUERY_VARIABLE_INFO

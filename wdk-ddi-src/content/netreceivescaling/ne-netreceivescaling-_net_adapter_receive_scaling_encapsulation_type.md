@@ -3,7 +3,6 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration specifies packet encapsulation technologies an RSS-capable NIC is able to bypass.
 tech.root: netvista
-ms.assetid: b5225e1b-e077-48b6-8065-40d3805589e2
 ms.date: 03/07/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE,

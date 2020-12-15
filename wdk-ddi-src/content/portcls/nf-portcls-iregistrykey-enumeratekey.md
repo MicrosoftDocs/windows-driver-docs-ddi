@@ -4,7 +4,6 @@ title: IRegistryKey::EnumerateKey (portcls.h)
 description: The EnumerateKey method returns information about the subkeys of the open key.
 old-location: audio\iregistrykey_enumeratekey.htm
 tech.root: audio
-ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
 ms.date: 05/08/2018
 keywords: ["IRegistryKey::EnumerateKey"]
 ms.keywords: EnumerateKey, EnumerateKey method [Audio Devices], EnumerateKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],EnumerateKey method, IRegistryKey.EnumerateKey, IRegistryKey::EnumerateKey, audio.iregistrykey_enumeratekey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, portcls/IRegistryKey::EnumerateKey

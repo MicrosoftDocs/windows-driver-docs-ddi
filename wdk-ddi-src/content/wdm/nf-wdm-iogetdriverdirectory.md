@@ -2,7 +2,7 @@
 UID: NF:wdm.IoGetDriverDirectory
 title: IoGetDriverDirectory function (wdm.h)
 description: Returns a handle to a directory on disk from which the driver can read and write files. The files in that directory apply to a specific driver object.
-ms.assetid: ff2a6c2a-e402-4e8a-920a-c9baa9aa237e
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["IoGetDriverDirectory function"]
 ms.keywords: IoGetDriverDirectory

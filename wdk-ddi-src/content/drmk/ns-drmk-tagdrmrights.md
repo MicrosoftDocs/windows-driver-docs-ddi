@@ -4,7 +4,6 @@ title: tagDRMRIGHTS (drmk.h)
 description: The DRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a port-class driver's stream object.
 old-location: audio\drmrights.htm
 tech.root: audio
-ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.date: 05/08/2018
 keywords: ["tagDRMRIGHTS structure"]
 ms.keywords: "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS"

@@ -4,7 +4,6 @@ title: KSAC3_DOWNMIX (ksmedia.h)
 description: The KSAC3_DOWNMIX structure specifies whether the program channels in an AC-3-encoded stream need to be downmixed to accommodate the speaker configuration.
 old-location: audio\ksac3_downmix.htm
 tech.root: audio
-ms.assetid: d35450ec-5ddc-4312-bd77-ab7e89690f82
 ms.date: 04/30/2019
 keywords: ["KSAC3_DOWNMIX structure"]
 ms.keywords: "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX"

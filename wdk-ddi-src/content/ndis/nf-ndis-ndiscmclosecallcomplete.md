@@ -4,7 +4,6 @@ title: NdisCmCloseCallComplete function (ndis.h)
 description: NdisCmCloseCallComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to tear down a call.
 old-location: netvista\ndiscmclosecallcomplete.htm
 tech.root: netvista
-ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
 ms.date: 05/02/2018
 keywords: ["NdisCmCloseCallComplete function"]
 ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete

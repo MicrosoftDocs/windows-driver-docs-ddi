@@ -4,7 +4,6 @@ title: ClfsQueryLogFileInformation function (wdm.h)
 description: The ClfsQueryLogFileInformation routine returns metadata and state information for a specified CLFS stream or its underlying physical log or both.
 old-location: kernel\clfsquerylogfileinformation.htm
 tech.root: kernel
-ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.date: 04/30/2018
 keywords: ["ClfsQueryLogFileInformation function"]
 ms.keywords: ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, kernel.clfsquerylogfileinformation, wdm/ClfsQueryLogFileInformation

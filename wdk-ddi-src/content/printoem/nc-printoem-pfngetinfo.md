@@ -4,7 +4,6 @@ title: PFNGETINFO (printoem.h)
 description: The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
 old-location: print\unifontobj_getinfo.htm
 tech.root: print
-ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.date: 04/20/2018
 keywords: ["PFNGETINFO callback function"]
 ms.keywords: PFNGETINFO, UNIFONTOBJ_GetInfo, UNIFONTOBJ_GetInfo routine [Print Devices], print.unifontobj_getinfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml, printoem/UNIFONTOBJ_GetInfo

@@ -4,7 +4,6 @@ title: WDF_IO_QUEUE_STOPPED function (wdfio.h)
 description: The WDF_IO_QUEUE_STOPPED function returns TRUE if an I/O queue's state indicates that the queue is stopped.
 old-location: wdf\wdf_io_queue_stopped.htm
 tech.root: wdf
-ms.assetid: 8257c636-824d-4909-b0cb-76d72ac980fa
 ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_STOPPED function"]
 ms.keywords: DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, WDF_IO_QUEUE_STOPPED, WDF_IO_QUEUE_STOPPED function, kmdf.wdf_io_queue_stopped, wdf.wdf_io_queue_stopped, wdfio/WDF_IO_QUEUE_STOPPED

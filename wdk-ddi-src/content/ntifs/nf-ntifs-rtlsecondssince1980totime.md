@@ -4,7 +4,6 @@ title: RtlSecondsSince1980ToTime function (ntifs.h)
 description: The RtlSecondsSince1980ToTime routine converts the elapsed time, in seconds, since the beginning of 1980 to an absolute system time value.
 old-location: ifsk\rtlsecondssince1980totime.htm
 tech.root: ifsk
-ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
 ms.date: 04/16/2018
 keywords: ["RtlSecondsSince1980ToTime function"]
 ms.keywords: RtlSecondsSince1980ToTime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], ifsk.rtlsecondssince1980totime, ntifs/RtlSecondsSince1980ToTime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml
@@ -68,7 +67,7 @@ None
 
 The absolute system time is a LARGE_INTEGER value, accurate to 100-nanosecond resolution, assuming an accurate hardware clock. The basis for system time is the start of 1601. The value returned by <b>RtlSecondsSince1980ToTime</b> is truncated to one-millisecond resolution. 
 
-For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/index">Data Conversions</a>.
+For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/_kernel/#data-conversions">Data Conversions</a>.
 
 ## -see-also
 

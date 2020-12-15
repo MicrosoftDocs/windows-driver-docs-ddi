@@ -4,7 +4,6 @@ title: _USB_HUB_CAP_FLAGS (usbioctl.h)
 description: The USB_HUB_CAP_FLAGS structure is used to report the capabilities of a hub.
 old-location: buses\usb_hub_cap_flags.htm
 tech.root: usbref
-ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.date: 05/07/2018
 keywords: ["USB_HUB_CAP_FLAGS structure"]
 ms.keywords: "*PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml"
@@ -92,7 +91,7 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

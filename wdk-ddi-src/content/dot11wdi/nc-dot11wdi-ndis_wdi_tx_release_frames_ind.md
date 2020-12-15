@@ -4,7 +4,6 @@ title: NDIS_WDI_TX_RELEASE_FRAMES_IND (dot11wdi.h)
 description: The NdisWdiTxReleaseFrameIndication callback function releases up to a specified number or aggregate cost of frames queued to a given peer-TID combination when transmission is paused.
 old-location: netvista\ndiswditxreleaseframesindication.htm
 tech.root: netvista
-ms.assetid: 1324D516-8AEF-4357-86EC-81F6EBDC8FB9
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_RELEASE_FRAMES_IND callback function"]
 ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NDIS_WDI_TX_RELEASE_FRAMES_IND callback, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
@@ -85,7 +84,7 @@ Credit. <i>Credit</i> is ignored if it is set to <b>WDI_TX_CREDIT_INVALID</b> (0
 ### -param ppNBL 
 
 [out]
-Pointer to a pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain of released frames.
+Pointer to a pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain of released frames.
 
 ## -remarks
 
@@ -93,7 +92,7 @@ if one of the specified queues is paused with <b>WDI_TX_PAUSE_REASON_PS</b>, the
 
 This indication is only allowed when <b>TargetPriorityQueueing</b> is false.
 
-The TxMgr may return a list of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> that exceed the limit of the number of frames or frame cost. This only happens if the frames are being requeued after being send completed with status of Postponed and with identical sequence number, which indicates they were originally transmitted as part of a single A-MSDU.
+The TxMgr may return a list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> that exceed the limit of the number of frames or frame cost. This only happens if the frames are being requeued after being send completed with status of Postponed and with identical sequence number, which indicates they were originally transmitted as part of a single A-MSDU.
 
 ## -see-also
 
@@ -105,7 +104,7 @@ The TxMgr may return a list of <a href="/windows-hardware/drivers/ddi/ndis/ns-nd
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

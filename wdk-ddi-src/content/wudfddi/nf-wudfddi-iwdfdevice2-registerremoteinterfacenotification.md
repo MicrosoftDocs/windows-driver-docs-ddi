@@ -4,7 +4,6 @@ title: IWDFDevice2::RegisterRemoteInterfaceNotification (wudfddi.h)
 description: The RegisterRemoteInterfaceNotification method registers a driver to receive a notification when a specified device interface becomes available.
 old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
 tech.root: wdf
-ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::RegisterRemoteInterfaceNotification"]
 ms.keywords: IWDFDevice2 interface,RegisterRemoteInterfaceNotification method, IWDFDevice2.RegisterRemoteInterfaceNotification, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method,IWDFDevice2 interface, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification

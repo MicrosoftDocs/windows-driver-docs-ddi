@@ -4,7 +4,6 @@ title: PoFxCompleteIdleState function (wdm.h)
 description: The PoFxCompleteIdleState routine informs the power management framework (PoFx) that the specified component has completed a pending change to an Fx state.
 old-location: kernel\pofxcompleteidlestate.htm
 tech.root: kernel
-ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
 ms.date: 04/30/2018
 keywords: ["PoFxCompleteIdleState function"]
 ms.keywords: PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState

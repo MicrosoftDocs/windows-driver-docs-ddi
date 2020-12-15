@@ -4,7 +4,6 @@ title: RtlByteToChar function (ntintsafe.h)
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: kernel\rtlbytetochar.htm
 tech.root: kernel
-ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.date: 04/30/2018
 keywords: ["RtlByteToChar function"]
 ms.keywords: RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], kernel.rtlbytetochar, ntintsafe/RtlByteToChar

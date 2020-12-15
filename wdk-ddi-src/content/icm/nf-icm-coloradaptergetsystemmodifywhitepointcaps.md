@@ -2,8 +2,7 @@
 UID: NF:icm.ColorAdapterGetSystemModifyWhitePointCaps
 title: ColorAdapterGetSystemModifyWhitePointCaps function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: fbce7afe-0432-4483-99f9-d6485627cb8d
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterGetSystemModifyWhitePointCaps function"]
 ms.keywords: ColorAdapterGetSystemModifyWhitePointCaps
 req.header: icm.h
@@ -24,6 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +38,6 @@ f1_keywords:
 ---
 
 # ColorAdapterGetSystemModifyWhitePointCaps function
-
 
 ## -description
 
@@ -58,4 +57,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_DESTROYCONTEXT
 title: DXGKDDI_DESTROYCONTEXT (d3dkmddi.h)
 description: The DxgkDdiDestroyContext function destroys the specified graphics processing unit (GPU) context.
 old-location: display\dxgkddidestroycontext.htm
-ms.assetid: c21f62ab-c52e-43a2-a3a1-6fd6e5fbde01
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_DESTROYCONTEXT callback function"]
 ms.keywords: DXGKDDI_DESTROYCONTEXT, DXGKDDI_DESTROYCONTEXT callback, DmFunctions_b8cd0b48-a87b-4e6f-8811-49a1e0f46f2f.xml, DxgkDdiDestroyContext, DxgkDdiDestroyContext callback function [Display Devices], d3dkmddi/DxgkDdiDestroyContext, display.dxgkddidestroycontext

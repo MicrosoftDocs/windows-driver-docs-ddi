@@ -4,7 +4,6 @@ title: IOCTL_UMDF_HID_GET_INPUT_REPORT (hidport.h)
 description: The IOCTL_UMDF_HID_GET_INPUT_REPORT control code returns an input report from a HIDClass device.
 old-location: hid\ioctl_umdf_hid_get_input_report.htm
 tech.root: hid
-ms.assetid: 05BA5290-33D5-4009-98EE-E530546C44D3
 ms.date: 04/30/2018
 keywords: ["IOCTL_UMDF_HID_GET_INPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_INPUT_REPORT, IOCTL_UMDF_HID_GET_INPUT_REPORT control, IOCTL_UMDF_HID_GET_INPUT_REPORT control code, hid.ioctl_umdf_hid_get_input_report, hidport/IOCTL_UMDF_HID_GET_INPUT_REPORT, umdf.ioctl_umdf_hid_get_input_report

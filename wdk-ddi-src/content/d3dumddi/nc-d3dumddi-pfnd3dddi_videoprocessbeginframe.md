@@ -4,7 +4,6 @@ title: PFND3DDDI_VIDEOPROCESSBEGINFRAME (d3dumddi.h)
 description: The VideoProcessBeginFrame function notifies the user-mode display driver that processing of a video frame can begin on the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 old-location: display\videoprocessbeginframe.htm
 tech.root: display
-ms.assetid: 1b7b1774-3144-4929-83d8-c52a7de6936d
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_VIDEOPROCESSBEGINFRAME callback function"]
 ms.keywords: PFND3DDDI_VIDEOPROCESSBEGINFRAME, PFND3DDDI_VIDEOPROCESSBEGINFRAME callback, UserModeDisplayDriver_Functions_c3ad6569-b0a0-4688-bd1a-f02a7176a2f2.xml, VideoProcessBeginFrame, VideoProcessBeginFrame callback function [Display Devices], d3dumddi/VideoProcessBeginFrame, display.videoprocessbeginframe

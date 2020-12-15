@@ -4,7 +4,6 @@ title: IDebugBreakpoint2::SetOffsetExpressionWide (dbgeng.h)
 description: The SetOffsetExpressionWide methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpressionwide.htm
 tech.root: debugger
-ms.assetid: 1db89a5a-641b-4fca-bd60-217c9be8f19f
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetOffsetExpressionWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetOffsetExpressionWide method, IDebugBreakpoint2.SetOffsetExpressionWide, IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], SetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, debugger.setoffsetexpressionwide

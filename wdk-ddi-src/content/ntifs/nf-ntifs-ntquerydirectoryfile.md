@@ -4,7 +4,6 @@ title: NtQueryDirectoryFile function (ntifs.h)
 description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
 tech.root: kernel
-ms.assetid: 47e88095-fab3-4fa2-814e-db04ce864e7e
 ms.date: 04/30/2018
 keywords: ["NtQueryDirectoryFile function"]
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
@@ -247,7 +246,7 @@ If <b>NtQueryDirectoryFile</b> is called multiple times on the same directory an
 
 Callers of <b>NtQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
 
-For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#file-objects">File Objects</a>.
 
 <div class="alert"><b>Note</b>  If the call to the <b>NtQueryDirectoryFile</b> function occurs in user mode, you should use the name "<b>NtQueryDirectoryFile</b>" instead of "<b>ZwQueryDirectoryFile</b>".</div>
 <div> </div>

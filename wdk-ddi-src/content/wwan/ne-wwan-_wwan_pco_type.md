@@ -4,7 +4,6 @@ title: _WWAN_PCO_TYPE (wwan.h)
 description: The WWAN_PCO_TYPE enumeration indicates whether the header of a PCO structure is partial, meaning only a subset of the complete PCO value from the network is being passed up to the host.
 old-location: netvista\wwan_pco_type.htm
 tech.root: netvista
-ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.date: 05/02/2018
 keywords: ["WWAN_PCO_TYPE enumeration"]
 ms.keywords: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, WwanPcoTypePartial, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WwanPcoTypePartial"

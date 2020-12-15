@@ -2,7 +2,6 @@
 UID: NS:ucmucsispec._UCSI_VERSION
 title: _UCSI_VERSION (ucmucsispec.h)
 description: The VERSION data structure. See Section 3.1.
-ms.assetid: 96e76688-1a1b-4af3-8ebf-4e2a77a1f770
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_VERSION structure"]

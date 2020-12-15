@@ -2,8 +2,7 @@
 UID: NF:icm.ColorAdapterUnregisterOEMColorService
 title: ColorAdapterUnregisterOEMColorService function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: 104c955b-e26b-47b4-8506-dad91062c87b
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterUnregisterOEMColorService function"]
 ms.keywords: ColorAdapterUnregisterOEMColorService
 req.header: icm.h
@@ -24,6 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +38,6 @@ f1_keywords:
 ---
 
 # ColorAdapterUnregisterOEMColorService function
-
 
 ## -description
 
@@ -56,4 +55,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

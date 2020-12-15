@@ -4,7 +4,6 @@ title: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX (acpiioct.h)
 description: The IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control code asynchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method_v2_ex.htm
 tech.root: acpi
-ms.assetid: 99907C55-39CE-4D00-B7B3-4196E5CDF27A
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v2_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX

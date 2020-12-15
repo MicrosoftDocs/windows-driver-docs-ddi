@@ -4,7 +4,6 @@ title: IServiceGroup::RequestService (portcls.h)
 description: 
 old-location: audio\iservicegroup_requestservice.htm
 tech.root: audio
-ms.assetid: 9CB0CE26-2F26-424E-9EF5-C6780F521E09
 ms.date: 09/17/2018
 keywords: ["IServiceGroup::RequestService"]
 ms.keywords: IServiceGroup interface [Audio Devices],RequestService method, IServiceGroup.RequestService, IServiceGroup::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_requestservice, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::RequestService

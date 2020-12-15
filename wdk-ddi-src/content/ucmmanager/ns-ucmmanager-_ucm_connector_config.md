@@ -4,7 +4,6 @@ title: _UCM_CONNECTOR_CONFIG (ucmmanager.h)
 description: Describes the configuration options for a Type-C connector object. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_connector_config.htm
 tech.root: usbref
-ms.assetid: 8FE8B7E2-1CC0-4540-86D5-A09BA249D62A
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], UCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], _UCM_CONNECTOR_CONFIG, buses.ucm_connector_config, ucmmanager/PUCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG"

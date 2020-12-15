@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_NITZ_INFO
 title: _NDIS_WWAN_NITZ_INFO (ndiswwan.h)
 description: The NDIS_WWAN_NITZ_INFO structure describes the current network time and time zone information.
 tech.root: netvista
-ms.assetid: 71072272-67C1-4B17-AAE2-66F808472D83
 ms.date: 04/11/2019
 keywords: ["NDIS_WWAN_NITZ_INFO structure"]
 ms.keywords: _NDIS_WWAN_NITZ_INFO, NDIS_WWAN_NITZ_INFO, *PNDIS_WWAN_NITZ_INFO,

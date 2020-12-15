@@ -4,7 +4,6 @@ title: _DXVADDI_PVP_SETKEY (d3dumddi.h)
 description: The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to start decoding a frame.
 old-location: display\dxvaddi_pvp_setkey.htm
 tech.root: display
-ms.assetid: 3707f9c9-109e-4ac2-bc34-c9f4f7651306
 ms.date: 05/10/2018
 keywords: ["DXVADDI_PVP_SETKEY structure"]
 ms.keywords: DXVA2_Structs_fbd26ed2-13ce-4f15-a7de-544f6f5fac33.xml, DXVADDI_PVP_SETKEY, DXVADDI_PVP_SETKEY structure [Display Devices], _DXVADDI_PVP_SETKEY, d3dumddi/DXVADDI_PVP_SETKEY, display.dxvaddi_pvp_setkey

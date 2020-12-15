@@ -4,7 +4,6 @@ title: _D3DHAL_DP2STATESET (d3dhal.h)
 description: The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 old-location: display\d3dhal_dp2stateset.htm
 tech.root: display
-ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2STATESET structure"]
 ms.keywords: "*LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset"

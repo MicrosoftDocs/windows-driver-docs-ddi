@@ -4,7 +4,6 @@ title: WdfDeviceGetDefaultQueue function (wdfdevice.h)
 description: The WdfDeviceGetDefaultQueue method returns a handle to a device's default I/O queue.
 old-location: wdf\wdfdevicegetdefaultqueue.htm
 tech.root: wdf
-ms.assetid: 914c4ef8-2210-468c-8720-11f8adf9dce7
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetDefaultQueue function"]
 ms.keywords: DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue method, kmdf.wdfdevicegetdefaultqueue, wdf.wdfdevicegetdefaultqueue, wdfdevice/WdfDeviceGetDefaultQueue

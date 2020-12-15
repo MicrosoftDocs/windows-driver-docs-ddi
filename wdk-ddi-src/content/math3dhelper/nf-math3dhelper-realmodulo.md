@@ -2,7 +2,6 @@
 UID: NF:math3dhelper.RealModulo
 title: RealModulo function (math3dhelper.h)
 description: Calculates the modular value between x and y.
-ms.assetid: 2633cb26-ad11-4af4-8a79-9ee3b4628d68
 ms.date: 08/01/2018
 keywords: ["RealModulo function"]
 tech.root: sensors

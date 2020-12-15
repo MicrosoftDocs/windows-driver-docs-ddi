@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
 title: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro removes a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: 4810f8df-a629-43a0-8527-d1baeba17b8a
 ms.date: 04/13/2018
 keywords: ["NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro"]
 ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX** macro removes a media-specific information data structure from a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX** macro removes a media-specific information data structure from a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -65,5 +64,5 @@ Any NDIS 6.20 driver can use **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX** to remov
 
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_specific_information_ex.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

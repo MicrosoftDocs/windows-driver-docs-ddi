@@ -4,7 +4,6 @@ title: RIL_GetExecutorRFState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getexecutorrfstate.htm
 tech.root: netvista
-ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.date: 05/02/2018
 keywords: ["RIL_GetExecutorRFState function"]
 ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorrfstate, rilapi/RIL_GetExecutorRFState

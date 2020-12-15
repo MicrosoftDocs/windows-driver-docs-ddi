@@ -4,7 +4,6 @@ title: TmReferenceEnlistmentKey function (wdm.h)
 description: The TmReferenceEnlistmentKey routine increments the reference count for the key of a specified enlistment object and retrieves the key.
 old-location: kernel\tmreferenceenlistmentkey.htm
 tech.root: kernel
-ms.assetid: c4fd9a56-8743-4099-b261-43c1afc2a5f1
 ms.date: 04/30/2018
 keywords: ["TmReferenceEnlistmentKey function"]
 ms.keywords: TmReferenceEnlistmentKey, TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmreferenceenlistmentkey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml, wdm/TmReferenceEnlistmentKey

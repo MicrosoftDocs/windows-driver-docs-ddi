@@ -4,7 +4,6 @@ title: IDDCX_OPM_GET_INFO_PARAMETERS (iddcx.h)
 description: Gives the parameters for the information request.
 old-location: display\iddcx_opm_get_info_parameters.htm
 tech.root: display
-ms.assetid: d36a0545-22cf-4980-aa1a-d3b9dd7f9871
 ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_GET_INFO_PARAMETERS, IDDCX_OPM_GET_INFO_PARAMETERS structure [Display Devices], display.iddcx_opm_get_info_parameters, iddcx/IDDCX_OPM_GET_INFO_PARAMETERS

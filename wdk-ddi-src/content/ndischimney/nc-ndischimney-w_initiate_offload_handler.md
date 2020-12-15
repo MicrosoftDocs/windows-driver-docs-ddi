@@ -4,7 +4,6 @@ title: W_INITIATE_OFFLOAD_HANDLER (ndischimney.h)
 description: MiniportInitiateOffload offloads TCP chimney state from the host stack.
 old-location: netvista\miniportinitiateoffload.htm
 tech.root: netvista
-ms.assetid: f430642b-01bf-4ed7-bfea-e8dd8d5a8208
 ms.date: 05/02/2018
 keywords: ["W_INITIATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml

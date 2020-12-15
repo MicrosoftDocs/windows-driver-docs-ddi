@@ -4,7 +4,6 @@ title: RILDEVICEINFORMATION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildeviceinformation_2.htm
 tech.root: netvista
-ms.assetid: a67a637e-92ac-4a42-bfef-8a42ce26b9b3
 ms.date: 02/26/2018
 keywords: ["RILDEVICEINFORMATION enumeration"]
 ms.keywords: RILDEVICEINFORMATION, RILDEVICEINFORMATION enumeration [Network Drivers Starting with Windows Vista], RIL_DEVICEINFO_ARG_LARGEST, RIL_DEVICEINFO_ARG_SMALLEST, RIL_DEVICEINFO_MAX, RIL_DEVICEINFO_MIN, RIL_DEVICEINFO_MODEL, RIL_DEVICEINFO_REVISION, RIL_DEVICEINFO_SERIALNUMBER_CDMA, RIL_DEVICEINFO_SERIALNUMBER_GW, netvista.rildeviceinformation_2, rilapitypes/RILDEVICEINFORMATION, rilapitypes/RIL_DEVICEINFO_ARG_LARGEST, rilapitypes/RIL_DEVICEINFO_ARG_SMALLEST, rilapitypes/RIL_DEVICEINFO_MAX, rilapitypes/RIL_DEVICEINFO_MIN, rilapitypes/RIL_DEVICEINFO_MODEL, rilapitypes/RIL_DEVICEINFO_REVISION, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_CDMA, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_GW

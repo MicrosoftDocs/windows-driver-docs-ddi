@@ -4,7 +4,6 @@ title: _DOT11_WFD_DISCOVER_REQUEST (windot11.h)
 description: The OID_DOT11_WFD_DISCOVER_REQUEST structure is the input data for an OID_DOT11_WFD_DISCOVER_REQUEST request. The structure contains the parameters for a Wi-Fi Direct device discovery.
 old-location: netvista\_dot11_wfd_discover_request.htm
 tech.root: netvista
-ms.assetid: 231318AA-9112-41E2-9E7A-FEC64E5FB30A
 ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DISCOVER_REQUEST structure"]
 ms.keywords: "*PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_REQUEST, netvista._dot11_wfd_discover_request, windot11/ DOT11_WFD_DISCOVER_REQUEST, windot11/PDOT11_WFD_DISCOVER_REQUEST"

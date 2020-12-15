@@ -4,7 +4,6 @@ title: IOCTL_CHANGER_SET_POSITION (ntddchgr.h)
 description: Sets the changer's robotic transport mechanism to the specified element address, typically to optimize moving or exchanging media by positioning the transport beforehand.
 old-location: storage\ioctl_changer_set_position.htm
 tech.root: storage
-ms.assetid: cd4f5872-d2cb-42ee-b78c-6b7d48d41e34
 ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_SET_POSITION IOCTL"]
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code [Storage Devices], k307_f4580e0a-0f44-4c7f-9d89-81fe6db548c6.xml, ntddchgr/IOCTL_CHANGER_SET_POSITION, storage.ioctl_changer_set_position

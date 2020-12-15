@@ -4,7 +4,6 @@ title: EVT_SERCX_RECEIVE_CANCEL (sercx.h)
 description: The EvtSerCxReceiveCancel event callback function notifies the serial controller driver that the pending receive request is canceled.
 old-location: serports\evtsercxreceivecancel.htm
 tech.root: serports
-ms.assetid: 17362701-67C9-4275-B072-CB17111A838F
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_RECEIVE_CANCEL callback function"]
 ms.keywords: 1/EvtSerCxReceiveCancel, EVT_SERCX_RECEIVE_CANCEL, EVT_SERCX_RECEIVE_CANCEL callback, EvtSerCxReceiveCancel, EvtSerCxReceiveCancel callback function [Serial Ports], serports.evtsercxreceivecancel

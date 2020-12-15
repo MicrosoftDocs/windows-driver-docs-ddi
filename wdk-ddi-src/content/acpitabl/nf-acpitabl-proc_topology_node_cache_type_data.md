@@ -2,8 +2,7 @@
 UID: NF:acpitabl.PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 title: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro (acpitabl.h)
 description: Defines the processor topology node cache type data macro.
-ms.assetid: 55fa6c8e-a32b-4474-b788-faa7ed73a656
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 req.header: acpitabl.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
  - acpitabl/PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
@@ -40,7 +40,6 @@ api_name:
 
 # PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro
 
-
 ## -description
 
 Defines the processor topology node cache type data macro.
@@ -54,4 +53,3 @@ The *CacheType* parameter.
 ## -remarks
 
 ## -see-also
-

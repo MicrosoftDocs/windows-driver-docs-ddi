@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USB_RECORD_FAILURE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_record_failure.htm
 tech.root: usbref
-ms.assetid: b0b2f80c-38d3-47c7-b57b-d49fb5b6edd7
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_RECORD_FAILURE, IOCTL_INTERNAL_USB_RECORD_FAILURE control, IOCTL_INTERNAL_USB_RECORD_FAILURE control code [Buses], buses.ioctl_internal_usb_record_failure, usbioctl/IOCTL_INTERNAL_USB_RECORD_FAILURE

@@ -4,7 +4,6 @@ title: _WDI_P2P_SCAN_TYPE (wditypes.h)
 description: The WDI_P2P_SCAN_TYPE enumeration defines the Wi-Fi Direct scan types.
 old-location: netvista\wdi_p2p_scan_type.htm
 tech.root: netvista
-ms.assetid: 717847D7-D7D9-4FEE-B3DC-14B0404FA937
 ms.date: 05/02/2018
 keywords: ["WDI_P2P_SCAN_TYPE enumeration"]
 ms.keywords: WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_AUTO, WDI_P2P_SCAN_TYPE_PASSIVE, _WDI_P2P_SCAN_TYPE, netvista.wdi_p2p_scan_type, netvista.wifi_p2p_scan_type, wditypes/WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE_PASSIVE

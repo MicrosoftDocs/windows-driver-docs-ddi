@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_ADJUSTFULLSCREENGAMMA
 title: _D3DKMT_ADJUSTFULLSCREENGAMMA (d3dkmthk.h)
 description: Used to adjust full screen gamma.
-ms.assetid: 655472c6-a8d5-4b7e-a6cf-02253582d656
 ms.date: 10/19/2018
 keywords: ["D3DKMT_ADJUSTFULLSCREENGAMMA structure"]
 ms.keywords: _D3DKMT_ADJUSTFULLSCREENGAMMA, D3DKMT_ADJUSTFULLSCREENGAMMA,

@@ -2,7 +2,7 @@
 UID: NF:wdm.ExReleasePushLockShared
 title: ExReleasePushLockShared macro (wdm.h)
 description: Releases a specified push lock for shared access owned by the current thread.
-ms.assetid: 261e7340-9015-4c58-a52e-87d563c7c884
+tech.root: kernel
 ms.date: 09/18/2018
 keywords: ["ExReleasePushLockShared macro"]
 ms.keywords: ExReleasePushLockShared

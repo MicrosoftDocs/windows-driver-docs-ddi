@@ -4,7 +4,6 @@ title: GPIO_CLX_UnregisterClient function (gpioclx.h)
 description: The GPIO_CLX_UnregisterClient method removes a general-purpose I/O (GPIO) controller driver's registration with the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_unregisterclient.htm
 tech.root: GPIO
-ms.assetid: 2ECBF3D9-F613-4829-B2E0-FF5E21A596EC
 ms.date: 02/15/2018
 keywords: ["GPIO_CLX_UnregisterClient function"]
 ms.keywords: GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports], gpioclx/GPIO_CLX_UnregisterClient

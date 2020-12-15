@@ -3,7 +3,6 @@ UID: NS:extension._NET_EXTENSION
 title: _NET_EXTENSION (extension.h)
 description: The NET_EXTENSION structure describes the collection of net rings that belong to a packet queue.
 tech.root: netvista
-ms.assetid: 557978B2-EDEA-4C5B-87DB-9C62D2A177E4
 ms.date: 02/06/2019
 keywords: ["NET_EXTENSION structure"]
 ms.keywords: _NET_EXTENSION, NET_EXTENSION, *PNET_EXTENSION,

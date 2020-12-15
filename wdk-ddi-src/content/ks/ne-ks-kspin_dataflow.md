@@ -4,7 +4,6 @@ title: KSPIN_DATAFLOW (ks.h)
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm
 tech.root: stream
-ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.date: 04/23/2018
 keywords: ["KSPIN_DATAFLOW enumeration"]
 ms.keywords: "*PKSPIN_DATAFLOW, KSPIN_DATAFLOW, KSPIN_DATAFLOW enumeration [Streaming Media Devices], KSPIN_DATAFLOW_IN, KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, ks/KSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW_OUT, ks/PKSPIN_DATAFLOW, stream.kspin_dataflow"

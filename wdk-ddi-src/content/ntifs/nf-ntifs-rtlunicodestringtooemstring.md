@@ -4,7 +4,6 @@ title: RtlUnicodeStringToOemString function (ntifs.h)
 description: The RtlUnicodeStringToOemString routine translates a given Unicode source string into an OEM string using the current system OEM code page.
 old-location: ifsk\rtlunicodestringtooemstring.htm
 tech.root: ifsk
-ms.assetid: 59ef2d37-ad99-4b99-be31-521ac442daf4
 ms.date: 04/16/2018
 keywords: ["RtlUnicodeStringToOemString function"]
 ms.keywords: RtlUnicodeStringToOemString, RtlUnicodeStringToOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtooemstring, ntifs/RtlUnicodeStringToOemString, rtlref_a64bd432-8178-4b0c-9119-6cb5ab9bcd22.xml
@@ -74,7 +73,7 @@ Set to <b>TRUE</b> if <b>RtlUnicodeStringToOemString</b> should allocate the buf
 
 <b>RtlUnicodeStringToOemString</b> does not modify the source string. It returns a null-terminated OEM string. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

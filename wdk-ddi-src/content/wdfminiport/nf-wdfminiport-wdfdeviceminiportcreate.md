@@ -4,7 +4,6 @@ title: WdfDeviceMiniportCreate function (wdfminiport.h)
 description: The WdfDeviceMiniportCreate method creates a framework device object that a miniport driver can use.
 old-location: wdf\wdfdeviceminiportcreate.htm
 tech.root: wdf
-ms.assetid: d74dedbd-f418-4ea3-ae76-c0da9c5f2fb9
 ms.date: 02/26/2018
 keywords: ["WdfDeviceMiniportCreate function"]
 ms.keywords: DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, wdfminiport/WdfDeviceMiniportCreate

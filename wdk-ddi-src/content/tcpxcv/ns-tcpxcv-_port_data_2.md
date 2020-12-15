@@ -2,8 +2,8 @@
 UID: NS:tcpxcv._PORT_DATA_2
 title: _PORT_DATA_2 (tcpxcv.h)
 description: 
-ms.assetid: 722cf148-8164-46d9-8780-ef2d4f024599
 ms.date: 10/19/2018
+tech.root: print
 keywords: ["PORT_DATA_2 structure"]
 ms.keywords: _PORT_DATA_2, PORT_DATA_2, *PPORT_DATA_2,
 req.header: tcpxcv.h

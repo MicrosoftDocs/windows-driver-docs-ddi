@@ -3,7 +3,6 @@ UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess
 title: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess
 description: FsRtlOplockGetAnyBreakOwnerProcess gets an owner of an allegedly breaking oplock.
 tech.root: ifsk
-ms.assetid: fed48308-d88a-40b1-acce-c9c627ce71ed
 ms.date: 03/24/2020
 ms.topic: method
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess

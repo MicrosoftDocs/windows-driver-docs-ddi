@@ -4,7 +4,6 @@ title: EVT_UCX_USBDEVICE_ADDRESS (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to address the USB device.
 old-location: buses\evt_ucx_usbdevice_address.htm
 tech.root: usbref
-ms.assetid: 48bda241-18b0-44c2-8e8b-7d3ecaad8a05
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_USBDEVICE_ADDRESS callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_ADDRESS, EVT_UCX_USBDEVICE_ADDRESS callback, EvtUcxUsbDeviceAddress, EvtUcxUsbDeviceAddress callback function [Buses], PEVT_UCX_USBDEVICE_ADDRESS, PEVT_UCX_USBDEVICE_ADDRESS callback function pointer [Buses], buses.evt_ucx_usbdevice_address, ucxusbdevice/EvtUcxUsbDeviceAddress

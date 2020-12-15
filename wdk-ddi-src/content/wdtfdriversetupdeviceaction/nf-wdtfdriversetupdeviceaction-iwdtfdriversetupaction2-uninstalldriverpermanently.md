@@ -4,7 +4,6 @@ title: IWDTFDriverSetupAction2::UnInstallDriverPermanently (wdtfdriversetupdevic
 description: Uninstalls the current driver for the target device.
 old-location: dtf\iwdtfdriversetupaction2_uninstalldriverpermanently.htm
 tech.root: dtf
-ms.assetid: 60346c38-0ee2-4f69-8fef-0a47a6375430
 ms.date: 04/04/2018
 keywords: ["IWDTFDriverSetupAction2::UnInstallDriverPermanently"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UnInstallDriverPermanently method, IWDTFDriverSetupAction2.UnInstallDriverPermanently, IWDTFDriverSetupAction2::UnInstallDriverPermanently, Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], UnInstallDriverPermanently method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently

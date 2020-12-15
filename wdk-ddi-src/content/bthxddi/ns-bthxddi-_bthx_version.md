@@ -4,7 +4,6 @@ title: _BTHX_VERSION (bthxddi.h)
 description: The BTHX_VERSION structure describes the version or versions that the transport driver supports.
 old-location: bltooth\bthx_version.htm
 tech.root: bltooth
-ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
 ms.date: 04/27/2018
 keywords: ["BTHX_VERSION structure"]
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"

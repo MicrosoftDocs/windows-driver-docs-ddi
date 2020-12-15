@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_GETMULTISAMPLEMETHODLIST
 title: _D3DKMT_GETMULTISAMPLEMETHODLIST (d3dkmthk.h)
 description: The D3DKMT_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 old-location: display\d3dkmt_getmultisamplemethodlist.htm
-ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
 ms.date: 05/10/2018
 keywords: ["D3DKMT_GETMULTISAMPLEMETHODLIST structure"]
 ms.keywords: D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml, _D3DKMT_GETMULTISAMPLEMETHODLIST, d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST, display.d3dkmt_getmultisamplemethodlist

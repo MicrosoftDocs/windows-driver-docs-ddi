@@ -4,7 +4,6 @@ title: _D3DKMDT_TEXT_RENDERING_FORMAT (d3dkmdt.h)
 description: The D3DKMDT_TEXT_RENDERING_FORMAT enumeration is currently not used.
 old-location: display\d3dkmdt_text_rendering_format.htm
 tech.root: display
-ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_TEXT_RENDERING_FORMAT enumeration"]
 ms.keywords: D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], D3DKMDT_TRF_UNINITIALIZED, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, _D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, display.d3dkmdt_text_rendering_format

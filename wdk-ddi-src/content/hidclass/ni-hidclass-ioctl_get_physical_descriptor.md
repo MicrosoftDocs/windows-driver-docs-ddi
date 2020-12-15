@@ -4,7 +4,6 @@ title: IOCTL_GET_PHYSICAL_DESCRIPTOR (hidclass.h)
 description: The IOCTL_GET_PHYSICAL_DESCRIPTOR request obtains the physical descriptor of a top-level collection. For a minidriver, this descriptor is the descriptor of the HIDClass device.
 old-location: hid\ioctl_get_physical_descriptor.htm
 tech.root: hid
-ms.assetid: cf15dd7f-4568-40c7-b2e4-7cec8239df0b
 ms.date: 04/30/2018
 keywords: ["IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_GET_PHYSICAL_DESCRIPTOR, IOCTL_GET_PHYSICAL_DESCRIPTOR control, IOCTL_GET_PHYSICAL_DESCRIPTOR control code [Human Input Devices], hid.ioctl_get_physical_descriptor, hidclass/IOCTL_GET_PHYSICAL_DESCRIPTOR, hidioreq_3a61c6d2-a97a-47d6-86b1-317e22775271.xml

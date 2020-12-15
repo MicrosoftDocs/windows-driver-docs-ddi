@@ -4,7 +4,6 @@ title: IPrintCoreHelperPS::GetGlobalAttribute (prcomoem.h)
 description: The IPrintCoreHelperPS::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcorehelperps_getglobalattribute.htm
 tech.root: print
-ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperPS::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetGlobalAttribute method, IPrintCoreHelperPS.GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml

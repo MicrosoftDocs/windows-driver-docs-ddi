@@ -4,7 +4,6 @@ title: MmLockPagableCodeSection macro (wdm.h)
 description: The MmLockPagableCodeSection routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
 old-location: kernel\mmlockpagablecodesection.htm
 tech.root: kernel
-ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.date: 04/30/2018
 keywords: ["MmLockPagableCodeSection macro"]
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection

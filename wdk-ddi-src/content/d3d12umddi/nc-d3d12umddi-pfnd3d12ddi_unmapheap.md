@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_UNMAPHEAP
 title: PFND3D12DDI_UNMAPHEAP (d3d12umddi.h)
 description: A client driver implements PFND3D12DDI_UNMAPHEAP to unmap a heap.
-ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
 ms.date: 08/21/2020
 keywords: ["PFND3D12DDI_UNMAPHEAP callback function"]
 req.header: d3d12umddi.h

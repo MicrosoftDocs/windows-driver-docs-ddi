@@ -1,6 +1,7 @@
 ---
 UID: NF:wdm.ExInitializeDriverRuntime
 title: ExInitializeDriverRuntime
+tech.root: kernel
 ms.date: 11/8/2019
 ms.topic: language-reference
 targetos: Windows

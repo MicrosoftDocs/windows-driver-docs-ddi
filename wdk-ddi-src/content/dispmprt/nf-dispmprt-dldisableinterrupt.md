@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlDisableInterrupt
 title: DlDisableInterrupt function
 description: Disables interrupts from a video adapter.
 tech.root: display
-ms.assetid: 187aec67-9ebe-483e-8c51-f418903f118b
 ms.date: 04/04/2019
 keywords: ["DlDisableInterrupt function"]
 ms.keywords: DlDisableInterrupt

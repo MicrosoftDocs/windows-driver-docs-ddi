@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_STATE_DS_SHADER_CB
 title: PFND3D11DDI_STATE_DS_SHADER_CB (d3d10umddi.h)
 description: The pfnStateDsShaderCb function causes the Microsoft Direct3D 11 runtime to refresh the domain shader.
 old-location: display\pfnstatedsshadercb.htm
-ms.assetid: 3b50f462-667e-4772-89bb-32d01e1bb7fc
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_STATE_DS_SHADER_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_DS_SHADER_CB, PFND3D11DDI_STATE_DS_SHADER_CB callback, d3d10umddi/pfnStateDsShaderCb, d3d11state_functions_5ab17831-b238-4b96-89bf-84c658463597.xml, display.pfnstatedsshadercb, pfnStateDsShaderCb, pfnStateDsShaderCb callback function [Display Devices]

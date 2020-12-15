@@ -4,7 +4,6 @@ title: IDebugAdvanced::SetThreadContext (dbgeng.h)
 description: The SetThreadContext method sets the current thread context.
 old-location: debugger\setthreadcontext.htm
 tech.root: debugger
-ms.assetid: eaaaa9d7-ba6d-4379-b721-74c92375ea05
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced::SetThreadContext"]
 ms.keywords: IDebugAdvanced interface [Windows Debugging],SetThreadContext method, IDebugAdvanced.SetThreadContext, IDebugAdvanced2 interface [Windows Debugging],SetThreadContext method, IDebugAdvanced2::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging],SetThreadContext method, IDebugAdvanced3::SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, SetThreadContext, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging],IDebugAdvanced interface, SetThreadContext method [Windows Debugging],IDebugAdvanced2 interface, SetThreadContext method [Windows Debugging],IDebugAdvanced3 interface, dbgeng/IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext

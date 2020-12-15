@@ -2,7 +2,7 @@
 UID: NF:wdm.IoGetIommuInterface
 title: IoGetIommuInterface function (wdm.h)
 description: Retrieves a pointer to the interface that contains pointers to IOMMU routines.
-ms.assetid: 2b69dea5-3c7d-4bf8-a657-893749fbf23c
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["IoGetIommuInterface function"]
 ms.keywords: IoGetIommuInterface

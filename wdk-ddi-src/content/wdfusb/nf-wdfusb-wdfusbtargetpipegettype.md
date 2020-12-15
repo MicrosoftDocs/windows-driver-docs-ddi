@@ -4,7 +4,6 @@ title: WdfUsbTargetPipeGetType function (wdfusb.h)
 description: The WdfUsbTargetPipeGetType method returns the type of a specified USB pipe.
 old-location: wdf\wdfusbtargetpipegettype.htm
 tech.root: wdf
-ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeGetType function"]
 ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType

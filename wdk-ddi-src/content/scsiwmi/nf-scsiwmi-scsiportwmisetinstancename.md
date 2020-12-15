@@ -4,7 +4,6 @@ title: ScsiPortWmiSetInstanceName function (scsiwmi.h)
 description: The ScsiPortWmiSetInstanceName routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of an instance name.
 old-location: storage\scsiportwmisetinstancename.htm
 tech.root: storage
-ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.date: 03/29/2018
 keywords: ["ScsiPortWmiSetInstanceName function"]
 ms.keywords: ScsiPortWmiSetInstanceName, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename

@@ -4,7 +4,6 @@ title: FwpsInjectvSwitchEthernetIngressAsync0 function (fwpsk.h)
 description: The FwpsInjectvSwitchEthernetIngressAsync0 (was FwpsInjectvSwitchIngressAsync0) function reinjects a previously absorbed virtual switch packet (unmodified) back to the virtual switch ingress data path where it was intercepted.
 old-location: netvista\fwpsinjectvswitchingressasync0.htm
 tech.root: netvista
-ms.assetid: ccb22035-08fe-44a6-88d5-bf9db7c2f499
 ms.date: 05/02/2018
 keywords: ["FwpsInjectvSwitchEthernetIngressAsync0 function"]
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
@@ -94,7 +93,7 @@ The virtual  switch source NIC  index.
 
 ### -param netBufferLists
 
-A chain of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to be injected into the virtual switch egress data path.
+A chain of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures to be injected into the virtual switch egress data path.
 
 ### -param completionFn 
 
@@ -103,7 +102,7 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function that is provided by
      the callout driver. The filter engine calls this function after the packet data, at the 
      <i>netBufferLists</i> parameter, has been injected into the virtual switch egress data path. The 
-     <i>completionFn</i> function will be called once for each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> in the chain. <i>completionFn</i> must be specified when injecting cloned or created <b>NET_BUFFER_LIST</b> structures. This parameter can be NULL when injecting original unaltered <b>NET_BUFFER_LIST</b> structures that were received from the filter engine.
+     <i>completionFn</i> function will be called once for each <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> in the chain. <i>completionFn</i> must be specified when injecting cloned or created <b>NET_BUFFER_LIST</b> structures. This parameter can be NULL when injecting original unaltered <b>NET_BUFFER_LIST</b> structures that were received from the filter engine.
 
 ### -param completionContext 
 
@@ -129,7 +128,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The virtual switch <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain was successfully injected.
+The virtual switch <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain was successfully injected.
 
 </td>
 </tr>
@@ -168,7 +167,7 @@ When a callout injects packets with <b>FwpsInjectvSwitchEthernetIngressAsync0</b
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

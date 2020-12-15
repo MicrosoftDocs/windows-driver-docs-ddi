@@ -4,7 +4,6 @@ title: IWDTFActions2::EnableObjectLogging (wdtf.h)
 description: Enable object logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_enableobjectlogging.htm
 tech.root: dtf
-ms.assetid: 854c7770-2857-48ed-8ca6-ad0e26aa412d
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::EnableObjectLogging"]
 ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFActions2.EnableObjectLogging, IWDTFActions2::EnableObjectLogging, dtf.iwdtfactions2_enableobjectlogging, wdtf/IWDTFActions2::EnableObjectLogging
@@ -52,6 +51,4 @@ Enable object logging for all actions in the collection.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
+#

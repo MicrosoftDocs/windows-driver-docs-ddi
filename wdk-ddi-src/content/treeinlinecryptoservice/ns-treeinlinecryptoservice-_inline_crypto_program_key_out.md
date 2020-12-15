@@ -2,8 +2,7 @@
 UID: NS:treeinlinecryptoservice._INLINE_CRYPTO_PROGRAM_KEY_OUT
 title: _INLINE_CRYPTO_PROGRAM_KEY_OUT (treeinlinecryptoservice.h)
 description: 
-ms.assetid: 81c7cd3a-1e68-4903-9a1f-6b7263e1857f
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_PROGRAM_KEY_OUT structure"]
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_OUT, INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT,
 req.header: treeinlinecryptoservice.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _INLINE_CRYPTO_PROGRAM_KEY_OUT
  - treeinlinecryptoservice/_INLINE_CRYPTO_PROGRAM_KEY_OUT
@@ -40,7 +40,6 @@ api_name:
 
 # _INLINE_CRYPTO_PROGRAM_KEY_OUT structure
 
-
 ## -description
 
 ## -struct-fields
@@ -50,4 +49,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

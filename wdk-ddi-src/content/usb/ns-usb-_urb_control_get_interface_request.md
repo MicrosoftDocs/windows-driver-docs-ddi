@@ -4,7 +4,6 @@ title: _URB_CONTROL_GET_INTERFACE_REQUEST (usb.h)
 description: The _URB_CONTROL_GET_INTERFACE_REQUEST structure is used by USB client drivers to retrieve the current alternate interface setting for an interface in the current configuration.
 old-location: buses\_urb_control_get_interface_request.htm
 tech.root: usbref
-ms.assetid: 64f843ba-8462-48d4-ba3a-a028bb921880
 ms.date: 05/07/2018
 keywords: ["URB_CONTROL_GET_INTERFACE_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], buses._urb_control_get_interface_request, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml"
@@ -104,7 +103,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

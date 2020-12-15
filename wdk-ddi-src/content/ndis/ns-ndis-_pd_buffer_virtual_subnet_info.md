@@ -4,7 +4,6 @@ title: _PD_BUFFER_VIRTUAL_SUBNET_INFO (ndis.h)
 description: This structure contains the virtual subnet information.
 old-location: netvista\pd_buffer_virtual_subnet_info.htm
 tech.root: netvista
-ms.assetid: 569424A2-4279-4758-A6F1-402D25F9B04F
 ms.date: 05/02/2018
 keywords: ["PD_BUFFER_VIRTUAL_SUBNET_INFO structure"]
 ms.keywords: PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_VIRTUAL_SUBNET_INFO, PPD_BUFFER_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PPD_BUFFER_VIRTUAL_SUBNET_INFO, netvista.pd_buffer_virtual_subnet_info

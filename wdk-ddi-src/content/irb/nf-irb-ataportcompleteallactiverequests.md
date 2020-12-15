@@ -4,7 +4,6 @@ title: AtaPortCompleteAllActiveRequests function (irb.h)
 description: The AtaPortCompleteAllActiveRequests routine completes all active IRBs for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcompleteallactiverequests.htm
 tech.root: storage
-ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.date: 03/29/2018
 keywords: ["AtaPortCompleteAllActiveRequests function"]
 ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests

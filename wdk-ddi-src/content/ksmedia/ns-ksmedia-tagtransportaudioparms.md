@@ -4,7 +4,6 @@ title: tagTRANSPORTAUDIOPARMS (ksmedia.h)
 description: The TRANSPORTAUDIOPARMS structure is defined but not used.
 old-location: stream\transportaudioparms.htm
 tech.root: stream
-ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.date: 04/23/2018
 keywords: ["tagTRANSPORTAUDIOPARMS structure"]
 ms.keywords: "*PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, tagTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml"

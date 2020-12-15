@@ -2,7 +2,6 @@
 UID: NS:sensorsstructures.__unnamed_struct_0
 title: VEC3D (sensorsstructures.h)
 description: Defines a 3D vector.
-ms.assetid: 44c53c34-c7fd-467a-a969-40ead8f990f3
 ms.date: 10/19/2018
 keywords: ["VEC3D structure"]
 tech.root: sensors

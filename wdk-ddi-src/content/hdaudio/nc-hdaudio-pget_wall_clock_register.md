@@ -4,7 +4,6 @@ title: PGET_WALL_CLOCK_REGISTER (hdaudio.h)
 description: The GetWallClockRegister routine retrieves a pointer to the wall clock register.The function pointer type for a GetWallClockRegister routine is defined as follows.
 old-location: audio\getwallclockregister.htm
 tech.root: audio
-ms.assetid: 4efe4b23-eb4f-4170-8d73-05cae2ba21c2
 ms.date: 05/08/2018
 keywords: ["PGET_WALL_CLOCK_REGISTER callback function"]
 ms.keywords: GetWallClockRegister, GetWallClockRegister callback function [Audio Devices], PGET_WALL_CLOCK_REGISTER, PGET_WALL_CLOCK_REGISTER callback, aud-prop2_1600e03f-4be0-4a61-9596-7970ace3df2f.xml, audio.getwallclockregister, hdaudio/GetWallClockRegister

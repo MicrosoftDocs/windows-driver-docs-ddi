@@ -4,7 +4,6 @@ title: KsResolveRequiredAttributes function (ksproxy.h)
 description: The KsResolveRequiredAttributes function searches the attributes list that is attached to a data range for specified attributes and ensures that all specified attributes were found.
 old-location: stream\ksresolverequiredattributes.htm
 tech.root: stream
-ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.date: 04/23/2018
 keywords: ["KsResolveRequiredAttributes function"]
 ms.keywords: KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], ksproxy/KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, stream.ksresolverequiredattributes

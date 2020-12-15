@@ -4,7 +4,6 @@ title: _UFF_FILEHEADER (prntfont.h)
 description: The UFF_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
 old-location: print\uff_fileheader.htm
 tech.root: print
-ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.date: 04/20/2018
 keywords: ["UFF_FILEHEADER structure"]
 ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"

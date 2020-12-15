@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX
 title: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro adds a media-specific information data structure to the beginning of a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: aa089b07-e623-44c1-9f2e-ee256d7bef16
 ms.date: 04/13/2018
 keywords: ["NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro"]
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** macro adds a media-specific information data structure to the beginning of a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** macro adds a media-specific information data structure to the beginning of a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -57,7 +56,7 @@ A pointer to an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_m
 
 ## -remarks
 
-Any NDIS 6.20 or later driver can use **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** to add media-specific information to a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+Any NDIS 6.20 or later driver can use **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** to add media-specific information to a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -see-also
 
@@ -65,5 +64,5 @@ Any NDIS 6.20 or later driver can use **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** to
 
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

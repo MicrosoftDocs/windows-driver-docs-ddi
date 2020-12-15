@@ -4,7 +4,6 @@ title: PROCESSOR_HALT_ROUTINE (wdm.h)
 description: A Halt callback routine transitions the processor to an idle state.
 old-location: kernel\halt.htm
 tech.root: kernel
-ms.assetid: 425239C1-4FBE-4703-B7DB-9DCC17562A6C
 ms.date: 04/30/2018
 keywords: ["PROCESSOR_HALT_ROUTINE callback function"]
 ms.keywords: Halt, Halt routine [Kernel-Mode Driver Architecture], PROCESSOR_HALT_ROUTINE, kernel.halt, wdm/Halt
@@ -61,7 +60,7 @@ A <i>Halt</i> callback routine may or may not return. If this routine does retur
 
 ## -remarks
 
-This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
+This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
 
 The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called <b>ProcessorHalt</b>.
 

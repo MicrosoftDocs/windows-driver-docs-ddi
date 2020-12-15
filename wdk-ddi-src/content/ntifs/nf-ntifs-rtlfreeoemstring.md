@@ -4,7 +4,6 @@ title: RtlFreeOemString function (ntifs.h)
 description: The RtlFreeOemString routine releases storage that was allocated by any of the Rtl..ToOemString routines.
 old-location: ifsk\rtlfreeoemstring.htm
 tech.root: ifsk
-ms.assetid: cd9bc03d-1f57-420c-9430-d2d742f654e1
 ms.date: 04/16/2018
 keywords: ["RtlFreeOemString function"]
 ms.keywords: RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], ifsk.rtlfreeoemstring, ntifs/RtlFreeOemString, rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml
@@ -63,7 +62,7 @@ None
 
 <b>RtlFreeOemString</b> deallocates memory only for the buffered OEM string. This routine does not free the buffered Unicode string passed in a preceding call to the <b>Rtl..ToOemString</b> routine. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: WdfIoQueueRetrieveFoundRequest function (wdfio.h)
 description: The WdfIoQueueRetrieveFoundRequest method delivers a specified request to the driver, so that the driver can process the request.
 old-location: wdf\wdfioqueueretrievefoundrequest.htm
 tech.root: wdf
-ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueRetrieveFoundRequest function"]
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest

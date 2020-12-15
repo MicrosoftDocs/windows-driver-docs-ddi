@@ -4,7 +4,6 @@ title: RtlAnsiStringToUnicodeString function (wdm.h)
 description: RtlAnsiStringToUnicodeString converts the given ANSI source string into a Unicode string.
 old-location: kernel\rtlansistringtounicodestring.htm
 tech.root: kernel
-ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
 ms.date: 04/30/2018
 keywords: ["RtlAnsiStringToUnicodeString function"]
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
@@ -103,7 +102,7 @@ You can use the following routines to convert single-byte and double-byte charac
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a>
 
 
-For more information about these and other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For more information about these and other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 <b>RtlAnsiCharToUnicodeChar</b> has security deficiencies. Consider using the <b>RtlAnsiStringToUnicodeString</b> routine instead.
 

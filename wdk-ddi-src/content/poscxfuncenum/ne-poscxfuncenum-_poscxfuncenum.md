@@ -2,8 +2,7 @@
 UID: NE:poscxfuncenum._POSCXFUNCENUM
 title: _POSCXFUNCENUM (poscxfuncenum.h)
 description: Provides a list of all PosCx WDF API functions.
-ms.assetid: ecc743f2-db9a-4816-a23b-8b6f072276f8
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["POSCXFUNCENUM enumeration"]
 ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM,
 req.header: poscxfuncenum.h
@@ -18,6 +17,7 @@ req.max-support:
 req.typenames: POSCXFUNCENUM
 targetos: Windows
 ms.custom: RS5
+tech.root: pos
 f1_keywords:
  - _POSCXFUNCENUM
  - poscxfuncenum/_POSCXFUNCENUM
@@ -35,82 +35,80 @@ api_name:
 
 # _POSCXFUNCENUM enumeration
 
-
 ## -description
 
 Provides a list of all PosCx WDF API functions.
 
 ## -enum-fields
 
-### -field PosCxClaimDeviceTableIndex 
+### -field PosCxClaimDeviceTableIndex
 
 Value = 0
 
-### -field PosCxInitTableIndex 
+### -field PosCxInitTableIndex
 
 Value = 1
 
-### -field PosCxRetainDeviceTableIndex 
+### -field PosCxRetainDeviceTableIndex
 
 Value = 2
 
-### -field PosCxRemoteRequestReleaseTableIndex 
+### -field PosCxRemoteRequestReleaseTableIndex
 
 Value = 3
 
-### -field PosCxReleaseDeviceTableIndex 
+### -field PosCxReleaseDeviceTableIndex
 
 Value = 4
 
-### -field PosCxIsDeviceOwnerTableIndex 
+### -field PosCxIsDeviceOwnerTableIndex
 
 Value = 5
 
-### -field PosCxGetDeviceInterfaceTagTableIndex 
+### -field PosCxGetDeviceInterfaceTagTableIndex
 
 Value = 6
 
-### -field PosCxPutPendingEventTableIndex 
+### -field PosCxPutPendingEventTableIndex
 
 Value = 7
 
-### -field PosCxPutPendingEventMemoryTableIndex 
+### -field PosCxPutPendingEventMemoryTableIndex
 
 Value = 8
 
-### -field PosCxGetPendingEventTableIndex 
+### -field PosCxGetPendingEventTableIndex
 
 Value = 9
 
-### -field PosCxCleanupEventsTableIndex 
+### -field PosCxCleanupEventsTableIndex
 
 Value = 10
 
-### -field PosCxCleanPendingRequestsTableIndex 
+### -field PosCxCleanPendingRequestsTableIndex
 
 Value = 11
 
-### -field PosCxIsPosAppTableIndex 
+### -field PosCxIsPosAppTableIndex
 
 Value = 12
 
-### -field PosCxMarkPosAppTableIndex 
+### -field PosCxMarkPosAppTableIndex
 
 Value = 13
 
-### -field PosCxOpenTableIndex 
+### -field PosCxOpenTableIndex
 
 Value = 14
 
-### -field PosCxCloseTableIndex 
+### -field PosCxCloseTableIndex
 
 Value = 15
 
-### -field PoscxFunctionTableNumEntries 
+### -field PoscxFunctionTableNumEntries
 
 Value = 16
 
 ## -remarks
 
 ## -see-also
-

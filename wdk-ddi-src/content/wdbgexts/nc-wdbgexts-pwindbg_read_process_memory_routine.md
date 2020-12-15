@@ -4,7 +4,6 @@ title: PWINDBG_READ_PROCESS_MEMORY_ROUTINE (wdbgexts.h)
 description: The PWINDBG_READ_PROCESS_MEMORY_ROUTINE (ReadMemory) function works like the Win32 ReadProcessMemory function. It reads memory from the process being debugged. The entire area to be read must be accessible, or the operation fails.
 old-location: debugger\readmemory.htm
 tech.root: debugger
-ms.assetid: 36169759-1ee3-4463-a381-67b0277cca25
 ms.date: 05/03/2018
 keywords: ["PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback function"]
 ms.keywords: PWINDBG_READ_PROCESS_MEMORY_ROUTINE, PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback, ReadMemory, ReadMemory callback function [Windows Debugging], WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml, debugger.readmemory, wdbgexts/ReadMemory

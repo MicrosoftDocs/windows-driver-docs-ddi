@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_SETDISPLAYMODE
 title: PFND3DKMT_SETDISPLAYMODE (d3dkmthk.h)
 description: The PFND3DKMT_SETDISPLAYMODE callback function sets the allocation that is used to scan out to the display.
-ms.assetid: 354a3cdc-f353-4c11-bd41-391ac936886a
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SETDISPLAYMODE callback function"]
 req.header: d3dkmthk.h

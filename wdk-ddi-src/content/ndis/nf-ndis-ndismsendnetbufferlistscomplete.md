@@ -4,7 +4,6 @@ title: NdisMSendNetBufferListsComplete function (ndis.h)
 description: Miniport drivers call the NdisMSendNetBufferListsComplete function to return a linked list of NET_BUFFER_LIST structures to an overlying driver and to return the final status of a send request.
 old-location: netvista\ndismsendnetbufferlistscomplete.htm
 tech.root: netvista
-ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
 ms.date: 05/02/2018
 keywords: ["NdisMSendNetBufferListsComplete function"]
 ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
@@ -48,7 +47,7 @@ api_name:
 ## -description
 
 Miniport drivers call the
-**NdisMSendNetBufferListsComplete** function to return a linked list of [NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md) structures to an overlying driver and to return the final status of a send request.
+**NdisMSendNetBufferListsComplete** function to return a linked list of [NET_BUFFER_LIST](./../nbl/ns-nbl-net_buffer_list.md) structures to an overlying driver and to return the final status of a send request.
 
 ## -parameters
 
@@ -69,7 +68,7 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 ## -remarks
 
 A miniport driver calls **NdisMSendNetBufferListsComplete** to complete send requests that NDIS made to the driver's
-[MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md) function. The miniport driver specifies a linked list of [NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md) structures that are
+[MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md) function. The miniport driver specifies a linked list of [NET_BUFFER_LIST](./../nbl/ns-nbl-net_buffer_list.md) structures that are
 associated with the completed send requests. While the status of the send requests is pending, the miniport driver retains ownership of the NET_BUFFER_LIST structures and all the protocol-allocated resources that are associated with the NET_BUFFER_LIST structures.
 
 After a miniport driver calls **NdisMSendNetBufferListsComplete**, NDIS calls the
@@ -103,6 +102,6 @@ A miniport driver's call to
 
 [NET_BUFFER](./ns-ndis-_net_buffer.md)
 
-[NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md)
+[NET_BUFFER_LIST](./../nbl/ns-nbl-net_buffer_list.md)
 
-[NdisSendNetBufferLists](./ns-ndis-_net_buffer_list.md)
+[NdisSendNetBufferLists](./../nbl/ns-nbl-net_buffer_list.md)

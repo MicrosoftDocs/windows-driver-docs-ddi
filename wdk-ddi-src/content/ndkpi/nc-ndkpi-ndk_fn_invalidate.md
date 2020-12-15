@@ -4,7 +4,6 @@ title: NDK_FN_INVALIDATE (ndkpi.h)
 description: The NdkInvalidate (NDK_FN_INVALIDATE) function Invalidates a fast-register NDK memory region (MR) or memory window (MW).
 old-location: netvista\ndk_fn_invalidate.htm
 tech.root: netvista
-ms.assetid: 79A39FEE-173F-4106-9759-97CF6BE5DA65
 ms.date: 05/02/2018
 keywords: ["NDK_FN_INVALIDATE callback function"]
 ms.keywords: NDK_FN_INVALIDATE, NDK_FN_INVALIDATE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate

@@ -4,7 +4,6 @@ title: LPD3DHAL_VALIDATETEXTURESTAGESTATECB (d3dhal.h)
 description: The D3dValidateTextureStageState function returns the number of passes where the hardware can perform the blending operations specified in the current state.
 old-location: display\d3dvalidatetexturestagestate.htm
 tech.root: display
-ms.assetid: 6376842f-ebf5-43b0-81d8-fc5b15f595ab
 ms.date: 05/10/2018
 keywords: ["LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function"]
 ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate

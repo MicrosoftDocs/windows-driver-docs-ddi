@@ -4,7 +4,6 @@ title: IDebugControl::Disassemble (dbgeng.h)
 description: The Disassemble method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemble.htm
 tech.root: debugger
-ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.date: 05/03/2018
 keywords: ["IDebugControl::Disassemble"]
 ms.keywords: Disassemble, Disassemble method [Windows Debugging], Disassemble method [Windows Debugging],IDebugControl interface, Disassemble method [Windows Debugging],IDebugControl2 interface, Disassemble method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Disassemble method, IDebugControl.Disassemble, IDebugControl2 interface [Windows Debugging],Disassemble method, IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging],Disassemble method, IDebugControl3::Disassemble, IDebugControl::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl::Disassemble, debugger.disassemble

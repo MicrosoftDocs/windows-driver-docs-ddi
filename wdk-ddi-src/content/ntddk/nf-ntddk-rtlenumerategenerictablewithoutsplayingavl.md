@@ -4,7 +4,6 @@ title: RtlEnumerateGenericTableWithoutSplayingAvl function (ntddk.h)
 description: The RtlEnumerateGenericTableWithoutSplayingAvl routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplayingavl.htm
 tech.root: ifsk
-ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.date: 04/16/2018
 keywords: ["RtlEnumerateGenericTableWithoutSplayingAvl function"]
 ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl

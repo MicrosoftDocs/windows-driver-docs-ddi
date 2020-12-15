@@ -4,7 +4,6 @@ title: IoReadPartitionTable function (ntddk.h)
 description: The IoReadPartitionTable routine is obsolete and is provided only to support existing drivers.
 old-location: storage\ioreadpartitiontable.htm
 tech.root: storage
-ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
 ms.date: 03/29/2018
 keywords: ["IoReadPartitionTable function"]
 ms.keywords: IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], ntddk/IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, storage.ioreadpartitiontable

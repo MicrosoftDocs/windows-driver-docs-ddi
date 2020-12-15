@@ -4,7 +4,6 @@ title: IWDFUsbTargetPipe::IsInEndPoint (wudfusb.h)
 description: The IsInEndPoint method determines whether a USB pipe (endpoint) is an IN pipe.
 old-location: wdf\iwdfusbtargetpipe_isinendpoint.htm
 tech.root: wdf
-ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::IsInEndPoint"]
 ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint

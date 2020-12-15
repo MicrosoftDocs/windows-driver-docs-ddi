@@ -3,7 +3,6 @@ UID: NF:ndis.NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID
 title: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro (ndis.h)
 description: The NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro sets or gets the identifier of a virtual port (VPort) within the out-of-band (OOB) data in a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: 6ed1f2da-6e14-438e-9f3b-af8d1fbeeec4
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro"]
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro sets or gets the identifier of a virtual port (VPort) within the out-of-band (OOB) data in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro sets or gets the identifier of a virtual port (VPort) within the out-of-band (OOB) data in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -57,11 +56,11 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-Miniport drivers that support the single root I/O virtualization (SR-IOV) interface can use the **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro to set or get the VPort identifier in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure. The **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro accesses the VPort identifier from the **VPortId** member of the [**NDIS_NET_BUFFER_LIST_FILTERING_INFO**](ns-ndis-_ndis_net_buffer_list_filtering_info.md) structure.
+Miniport drivers that support the single root I/O virtualization (SR-IOV) interface can use the **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro to set or get the VPort identifier in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure. The **NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID** macro accesses the VPort identifier from the **VPortId** member of the [**NDIS_NET_BUFFER_LIST_FILTERING_INFO**](ns-ndis-_ndis_net_buffer_list_filtering_info.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
 [**NDIS_NET_BUFFER_LIST_FILTERING_INFO**](ns-ndis-_ndis_net_buffer_list_filtering_info.md)
 

@@ -2,8 +2,7 @@
 UID: NE:treeinlinecryptoservice._INLINE_CRYPTO_DATA_UNIT_SIZE
 title: _INLINE_CRYPTO_DATA_UNIT_SIZE (treeinlinecryptoservice.h)
 description: 
-ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"]
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE,
 req.header: treeinlinecryptoservice.h
@@ -18,6 +17,7 @@ req.max-support:
 req.typenames: INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _INLINE_CRYPTO_DATA_UNIT_SIZE
  - treeinlinecryptoservice/_INLINE_CRYPTO_DATA_UNIT_SIZE
@@ -37,30 +37,28 @@ api_name:
 
 # _INLINE_CRYPTO_DATA_UNIT_SIZE enumeration
 
-
 ## -description
 
 ## -enum-fields
 
-### -field InlineCryptoDataUnitSizeInvalid 
+### -field InlineCryptoDataUnitSizeInvalid
 
-### -field InlineCryptoDataUnitSize512 
+### -field InlineCryptoDataUnitSize512
 
-### -field InlineCryptoDataUnitSize1024 
+### -field InlineCryptoDataUnitSize1024
 
-### -field InlineCryptoDataUnitSize2048 
+### -field InlineCryptoDataUnitSize2048
 
-### -field InlineCryptoDataUnitSize4096 
+### -field InlineCryptoDataUnitSize4096
 
-### -field InlineCryptoDataUnitSize8192 
+### -field InlineCryptoDataUnitSize8192
 
-### -field InlineCryptoDataUnitSize16384 
+### -field InlineCryptoDataUnitSize16384
 
-### -field InlineCryptoDataUnitSize32768 
+### -field InlineCryptoDataUnitSize32768
 
-### -field InlineCryptoDataUnitSize65536 
+### -field InlineCryptoDataUnitSize65536
 
 ## -remarks
 
 ## -see-also
-

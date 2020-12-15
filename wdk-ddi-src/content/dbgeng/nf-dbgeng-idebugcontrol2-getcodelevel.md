@@ -4,7 +4,6 @@ title: IDebugControl2::GetCodeLevel (dbgeng.h)
 description: The GetCodeLevel method returns the current code level and is mainly used when stepping through code.
 old-location: debugger\getcodelevel.htm
 tech.root: debugger
-ms.assetid: 965565ee-ef4c-4a1d-a6f1-77b6d63c6ee8
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetCodeLevel"]
 ms.keywords: GetCodeLevel, GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging],IDebugControl interface, GetCodeLevel method [Windows Debugging],IDebugControl2 interface, GetCodeLevel method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetCodeLevel method, IDebugControl2 interface [Windows Debugging],GetCodeLevel method, IDebugControl2.GetCodeLevel, IDebugControl2::GetCodeLevel, IDebugControl3 interface [Windows Debugging],GetCodeLevel method, IDebugControl3::GetCodeLevel, IDebugControl::GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, dbgeng/IDebugControl2::GetCodeLevel, dbgeng/IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, debugger.getcodelevel

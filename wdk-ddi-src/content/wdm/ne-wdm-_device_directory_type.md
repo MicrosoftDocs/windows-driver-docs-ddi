@@ -2,8 +2,8 @@
 UID: NE:wdm._DEVICE_DIRECTORY_TYPE
 title: _DEVICE_DIRECTORY_TYPE (wdm.h)
 description: The directory from which the driver is loaded.
-ms.assetid: d49e913a-dadb-4669-b3a4-e08a60b2a767
 ms.date: 10/19/2018
+tech.root: kernel
 keywords: ["DEVICE_DIRECTORY_TYPE enumeration"]
 ms.keywords: _DEVICE_DIRECTORY_TYPE, DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE,
 req.header: wdm.h

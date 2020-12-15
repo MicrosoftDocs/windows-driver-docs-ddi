@@ -4,7 +4,6 @@ title: WPD_DEVICE_TRANSPORTS (portabledevice.h)
 description: The WPD_DEVICE_TRANSPORTS enumeration type describes the transport for the device that is currently connected. This enumeration is used by the WPD_DEVICE_TRANSPORT property.
 old-location: wpddk\wpd_device_transports.htm
 tech.root: wpd_dk
-ms.assetid: fa29b986-3106-4f7d-b5c3-bcfe8b3bbbd2
 ms.date: 02/15/2018
 keywords: ["tagWPD_DEVICE_TRANSPORTS enumeration"]
 ms.keywords: WPD_DEVICE_TRANSPORTS, WPD_DEVICE_TRANSPORTS enumeration, WPD_DEVICE_TRANSPORT_BLUETOOTH, WPD_DEVICE_TRANSPORT_IP, WPD_DEVICE_TRANSPORT_UNSPECIFIED, WPD_DEVICE_TRANSPORT_USB, portabledevice/WPD_DEVICE_TRANSPORTS, portabledevice/WPD_DEVICE_TRANSPORT_BLUETOOTH, portabledevice/WPD_DEVICE_TRANSPORT_IP, portabledevice/WPD_DEVICE_TRANSPORT_UNSPECIFIED, portabledevice/WPD_DEVICE_TRANSPORT_USB, tagWPD_DEVICE_TRANSPORTS, wpddk.wpd_device_transports

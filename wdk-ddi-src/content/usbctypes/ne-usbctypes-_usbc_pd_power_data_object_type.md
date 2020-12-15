@@ -2,7 +2,7 @@
 UID: NE:usbctypes._USBC_PD_POWER_DATA_OBJECT_TYPE
 title: _USBC_PD_POWER_DATA_OBJECT_TYPE (usbctypes.h)
 description: Defines Power Data Object types.
-ms.assetid: 12eea3e2-18dc-4c5a-a97d-4776e6c85180
+tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT_TYPE, USBC_PD_POWER_DATA_OBJECT_TYPE,

@@ -4,7 +4,6 @@ title: FWPS_PACKET_LIST_INFORMATION0_ (fwpsk.h)
 description: The FWPS_PACKET_LIST_INFORMATION0 structure defines information associated with a packet list.Note  FWPS_PACKET_LIST_INFORMATION0 is a specific version of FWPS_PACKET_LIST_INFORMATION.
 old-location: netvista\fwps_packet_list_information0.htm
 tech.root: netvista
-ms.assetid: 1fc6ffb1-c6e9-4bca-9d10-541708fe0086
 ms.date: 05/02/2018
 keywords: ["FWPS_PACKET_LIST_INFORMATION0_ structure"]
 ms.keywords: FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INFORMATION0, netvista.fwps_packet_list_information0, wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml

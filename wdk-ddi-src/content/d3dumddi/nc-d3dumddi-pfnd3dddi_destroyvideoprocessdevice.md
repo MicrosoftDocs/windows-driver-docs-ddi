@@ -4,7 +4,6 @@ title: PFND3DDDI_DESTROYVIDEOPROCESSDEVICE (d3dumddi.h)
 description: The DestroyVideoProcessDevice function releases resources for a Microsoft DirectX Video Acceleration (VA) video processing device.
 old-location: display\destroyvideoprocessdevice.htm
 tech.root: display
-ms.assetid: dc0f8dba-afdd-47f4-ba7f-72c510e80052
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DESTROYVIDEOPROCESSDEVICE callback function"]
 ms.keywords: DestroyVideoProcessDevice, DestroyVideoProcessDevice callback function [Display Devices], PFND3DDDI_DESTROYVIDEOPROCESSDEVICE, PFND3DDDI_DESTROYVIDEOPROCESSDEVICE callback, UserModeDisplayDriver_Functions_a10d05fa-387f-469f-b516-17378f2bd655.xml, d3dumddi/DestroyVideoProcessDevice, display.destroyvideoprocessdevice

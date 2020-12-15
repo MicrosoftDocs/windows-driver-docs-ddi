@@ -2,8 +2,7 @@
 UID: NS:ntddk._MCI_STATUS_BITS_COMMON
 title: MCI_STATUS_BITS_COMMON
 description: 
-tech.root: 
-ms.assetid: b2161b51-5758-4d83-bd9b-0d80cedfa562
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS_BITS_COMMON structure"]
 ms.keywords: MCI_STATUS_BITS_COMMON, MCI_STATUS_BITS_COMMON, *PMCI_STATUS_BITS_COMMON,

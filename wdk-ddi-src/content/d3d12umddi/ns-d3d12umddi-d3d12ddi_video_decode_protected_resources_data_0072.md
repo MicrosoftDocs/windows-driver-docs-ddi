@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: d155a473-5e59-4290-8cc1-4d2c1adfd4de
 tech.root: display
 description: Data structure used to check for video decode protected resource support capabilities on a given node index.
 req.construct-type: structure

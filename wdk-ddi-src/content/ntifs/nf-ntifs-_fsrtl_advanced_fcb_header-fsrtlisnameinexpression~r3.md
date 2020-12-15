@@ -4,7 +4,6 @@ title: FsRtlIsNameInExpression function (ntifs.h)
 description: The FsRtlIsNameInExpression routine determines whether a Unicode string matches the specified pattern.
 old-location: ifsk\fsrtlisnameinexpression.htm
 tech.root: ifsk
-ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.date: 03/29/2018
 keywords: ["FsRtlIsNameInExpression function"]
 ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
@@ -153,7 +152,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 </div>
 <div> </div>
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 
 

@@ -4,7 +4,6 @@ title: ScsiPortNotification function (srb.h)
 description: The ScsiPortNotification routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportnotification.htm
 tech.root: storage
-ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.date: 03/29/2018
 keywords: ["ScsiPortNotification function"]
 ms.keywords: ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, storage.scsiportnotification

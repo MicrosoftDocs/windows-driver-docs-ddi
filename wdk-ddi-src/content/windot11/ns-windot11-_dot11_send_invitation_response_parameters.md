@@ -4,7 +4,6 @@ title: _DOT11_SEND_INVITATION_RESPONSE_PARAMETERS (windot11.h)
 description: The parameters for a response to a invitation request are specified in a DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_INVITATION_RESPONSE request to the miniport.
 old-location: netvista\dot11_send_invitation_response_parameters.htm
 tech.root: netvista
-ms.assetid: 0A041372-7EC0-44E3-AD1F-3EA0CBB21425
 ms.date: 02/16/2018
 keywords: ["DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure"]
 ms.keywords: "*PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, netvista.dot11_send_invitation_response_parameters, windot11/DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS"

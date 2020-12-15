@@ -4,7 +4,6 @@ title: _URB_SELECT_CONFIGURATION (usb.h)
 description: The _URB_SELECT_CONFIGURATION structure is used by client drivers to select a configuration for a USB device.
 old-location: buses\_urb_select_configuration.htm
 tech.root: usbref
-ms.assetid: a6a4963b-64d7-4f46-bc19-16925929e7c7
 ms.date: 05/07/2018
 keywords: ["URB_SELECT_CONFIGURATION structure"]
 ms.keywords: "_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], buses._urb_select_configuration, usb/_URB_SELECT_CONFIGURATION, usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml"
@@ -84,7 +83,7 @@ Other members that are part of this structure but not described here should be t
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

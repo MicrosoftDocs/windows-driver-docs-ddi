@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEALLOCATIONPROPERTY
 title: PFND3DKMT_UPDATEALLOCATIONPROPERTY (d3dkmthk.h)
 description: The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation property of a context.
-ms.assetid: 70da6f66-26d7-47c6-8236-2003cfa6edf3
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function"]
 req.header: d3dkmthk.h

@@ -4,7 +4,6 @@ title: _DOT11_DISASSOCIATE_PEER_REQUEST (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_disassociate_peer_request.htm
 tech.root: netvista
-ms.assetid: aa47c030-dcd4-451b-8a4b-03ac566bb394
 ms.date: 02/16/2018
 keywords: ["DOT11_DISASSOCIATE_PEER_REQUEST structure"]
 ms.keywords: "*PDOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, PDOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_DISASSOCIATE_PEER_REQUEST, netvista.dot11_disassociate_peer_request, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST"

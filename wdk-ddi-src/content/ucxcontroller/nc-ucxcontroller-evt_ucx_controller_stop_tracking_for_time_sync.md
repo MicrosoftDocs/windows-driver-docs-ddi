@@ -4,7 +4,6 @@ title: EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC (ucxcontroller.h)
 description: UCX invokes this callback function to the stop time tracking functionality in the controller.
 old-location: buses\evt_ucx_controller_stop_tracking_for_time_sync.htm
 tech.root: usbref
-ms.assetid: C65A250A-594B-4317-AEE6-C3E60D122A1D
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStopTrackingForTimeSync, EvUcxControllerStopTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_stop_tracking_for_time_sync, ucxcontroller/EvUcxControllerStopTrackingForTimeSync

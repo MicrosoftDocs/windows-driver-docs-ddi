@@ -4,7 +4,6 @@ title: POFXCALLBACKREQUESTWORKER (pepfx.h)
 description: The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
 old-location: kernel\requestworker.htm
 tech.root: kernel
-ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKREQUESTWORKER callback function"]
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
@@ -46,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
+The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
 
 ## -parameters
 

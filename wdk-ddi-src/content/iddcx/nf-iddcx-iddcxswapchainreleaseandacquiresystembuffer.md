@@ -2,7 +2,6 @@
 UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireSystemBuffer
 title: IddCxSwapChainReleaseAndAcquireSystemBuffer
 ms.date: 10/20/2020
-ms.assetid: 21034f7b-ba2a-44d3-89c6-1e2162dc1771
 tech.root: display
 ms.topic: language-reference
 targetos: Windows
@@ -20,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 20H2
+req.target-min-winverclnt: Windows 10, version 21H1
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -29,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - iddcx.h
 api_name:
@@ -42,6 +41,9 @@ dev_langs:
 ---
 
 ## -description
+
+> [!NOTE]
+> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **IddCxSwapChainReleaseAndAcquireSystemBuffer** releases and acquires buffers from the swapchain.
 

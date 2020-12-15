@@ -4,7 +4,6 @@ title: _HWN_CLX_EXPORT_INDEX (hwnclx.h)
 description: Defines the position for each of the Hardware Notification exports in the export table.
 old-location: gpiobtn\_hwn_clx_export_index.htm
 tech.root: gpiobtn
-ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.date: 02/15/2018
 keywords: ["HWN_CLX_EXPORT_INDEX enumeration"]
 ms.keywords: "*PHWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, AddDevicePreDeviceCreateIndex, HWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX enumeration, HwNExportLastExportIndex, RegisterClientIndex, UnregisterClientIndex, _HWN_CLX_EXPORT_INDEX, gpiobtn._hwn_clx_export_index, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, hwnclx/RegisterClientIndex, hwnclx/UnregisterClientIndex"
@@ -92,4 +91,4 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

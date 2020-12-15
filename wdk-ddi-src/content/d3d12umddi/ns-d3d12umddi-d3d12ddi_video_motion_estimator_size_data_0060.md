@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060
 title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060
 description: This capability determines the residency size for the motion estimator and the hardware dependent output buffer when called with the same creation parameters.
 tech.root: display
-ms.assetid: 631d2059-49c5-4320-934c-787aba53cdc0
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060 structure"]
 ms.prod: windows-hardware

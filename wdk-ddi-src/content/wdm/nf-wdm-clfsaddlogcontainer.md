@@ -4,7 +4,6 @@ title: ClfsAddLogContainer function (wdm.h)
 description: The ClfsAddLogContainer routine adds a container to a CLFS log.
 old-location: kernel\clfsaddlogcontainer.htm
 tech.root: kernel
-ms.assetid: 05ab9817-3f49-4ab5-b35d-1c89f5fe6e44
 ms.date: 04/30/2018
 keywords: ["ClfsAddLogContainer function"]
 ms.keywords: ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer

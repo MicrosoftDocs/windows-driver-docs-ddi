@@ -4,7 +4,6 @@ title: FltGetFileNameInformation function (fltkernel.h)
 description: The FltGetFileNameInformation routine returns name information for a file or directory.
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
-ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.date: 07/27/2020
 keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation

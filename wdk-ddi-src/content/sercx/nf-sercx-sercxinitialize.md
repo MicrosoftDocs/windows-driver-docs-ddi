@@ -4,7 +4,6 @@ title: SerCxInitialize function (sercx.h)
 description: The SerCxInitialize method completes the initialization of the serial framework extension (SerCx) after this driver creates the associated device object.
 old-location: serports\sercxinitialize.htm
 tech.root: serports
-ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.date: 04/23/2018
 keywords: ["SerCxInitialize function"]
 ms.keywords: 1/SerCxInitialize, SerCxInitialize, SerCxInitialize method [Serial Ports], serports.sercxinitialize

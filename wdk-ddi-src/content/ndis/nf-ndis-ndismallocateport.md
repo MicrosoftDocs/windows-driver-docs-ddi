@@ -4,7 +4,6 @@ title: NdisMAllocatePort function (ndis.h)
 description: The NdisMAllocatePort function allocates an NDIS port that is associated with a miniport adapter.
 old-location: netvista\ndismallocateport.htm
 tech.root: netvista
-ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
 ms.date: 05/02/2018
 keywords: ["NdisMAllocatePort function"]
 ms.keywords: NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport

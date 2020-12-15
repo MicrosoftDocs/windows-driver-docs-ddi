@@ -4,7 +4,6 @@ title: IoDeassignArcName macro (ntddk.h)
 description: The IoDeassignArcName routine removes a symbolic link between the ARC name for a device and the named device object.
 old-location: kernel\iodeassignarcname.htm
 tech.root: kernel
-ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.date: 04/30/2018
 keywords: ["IoDeassignArcName macro"]
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName

@@ -4,7 +4,6 @@ title: IoConnectInterrupt function (wdm.h)
 description: The IoConnectInterrupt routine registers a device driver's InterruptService routine (ISR), so that it will be called when a device interrupts on any of a specified set of processors.
 old-location: kernel\ioconnectinterrupt.htm
 tech.root: kernel
-ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
 ms.date: 04/30/2018
 keywords: ["IoConnectInterrupt function"]
 ms.keywords: IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, wdm/IoConnectInterrupt

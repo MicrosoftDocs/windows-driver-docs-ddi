@@ -4,7 +4,6 @@ title: PRETRIEVEUINT64 (bthsdpddi.h)
 description: The Bluetooth SdpRetrieveUint64 function is used to copy an unaligned 64-bit integer from an SDP stream.
 old-location: bltooth\sdpretrieveuint64.htm
 tech.root: bltooth
-ms.assetid: cc19dd43-447d-47c7-966e-aeb8ca792aa7
 ms.date: 04/27/2018
 keywords: ["PRETRIEVEUINT64 callback function"]
 ms.keywords: PRETRIEVEUINT64, PRETRIEVEUINT64 callback, SdpRetrieveUint64, SdpRetrieveUint64 callback function [Bluetooth Devices], bltooth.sdpretrieveuint64, bth_funcs_1c4d2098-38e4-488f-bb47-d2923a3c1dfc.xml, sdplib/SdpRetrieveUint64

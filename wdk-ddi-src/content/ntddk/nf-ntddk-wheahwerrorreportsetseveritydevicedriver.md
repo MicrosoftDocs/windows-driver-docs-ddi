@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaHwErrorReportSetSeverityDeviceDriver
 title: WheaHwErrorReportSetSeverityDeviceDriver
 ms.date: 04/02/2020
 tech.root: whea
-ms.assetid: 42bc746f-3060-4125-b1c1-967e179571e4
 ms.topic: language-reference
 targetos: Windows
 description: 

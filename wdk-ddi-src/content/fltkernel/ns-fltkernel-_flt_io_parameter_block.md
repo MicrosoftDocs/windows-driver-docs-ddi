@@ -4,7 +4,6 @@ title: FLT_IO_PARAMETER_BLOCK (fltkernel.h)
 description: The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data (FLT_CALLBACK_DATA) structure.
 old-location: ifsk\flt_io_parameter_block.htm
 tech.root: ifsk
-ms.assetid: a62f6db3-baca-492a-b485-062fcc69f563
 ms.date: 07/27/2020
 keywords: ["FLT_IO_PARAMETER_BLOCK structure"]
 ms.keywords: "*PFLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK structure [Installable File System Drivers], FltSystemStructures_8abf39e5-b9d1-4c44-8137-80ee1b35c0a3.xml, PFLT_IO_PARAMETER_BLOCK, PFLT_IO_PARAMETER_BLOCK structure pointer [Installable File System Drivers], _FLT_IO_PARAMETER_BLOCK, fltkernel/FLT_IO_PARAMETER_BLOCK, fltkernel/PFLT_IO_PARAMETER_BLOCK, ifsk.flt_io_parameter_block"

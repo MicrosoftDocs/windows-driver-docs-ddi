@@ -4,7 +4,6 @@ title: _WDF_IO_TARGET_OPEN_TYPE (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_TYPE enumeration specifies how a driver identifies a remote I/O target when the driver calls WdfIoTargetOpen.
 old-location: wdf\wdf_io_target_open_type.htm
 tech.root: wdf
-ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_TYPE enumeration"]
 ms.keywords: DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE enumeration, WdfIoTargetOpenByName, WdfIoTargetOpenLocalTargetByFile, WdfIoTargetOpenReopen, WdfIoTargetOpenUndefined, WdfIoTargetOpenUseExistingDevice, _WDF_IO_TARGET_OPEN_TYPE, kmdf.wdf_io_target_open_type, wdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenByName, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenUseExistingDevice

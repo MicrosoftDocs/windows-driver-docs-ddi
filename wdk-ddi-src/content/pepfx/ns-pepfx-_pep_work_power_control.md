@@ -4,7 +4,6 @@ title: _PEP_WORK_POWER_CONTROL (pepfx.h)
 description: The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver.
 old-location: kernel\pep_work_power_control.htm
 tech.root: kernel
-ms.assetid: 84258422-A2AE-449F-97C8-41336FEA5D8B
 ms.date: 04/30/2018
 keywords: ["PEP_WORK_POWER_CONTROL structure"]
 ms.keywords: "*PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_POWER_CONTROL, kernel.pep_work_power_control, pepfx/PEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL"
@@ -86,7 +85,7 @@ A pointer to a PEP-defined context value. The PEP might use this value to unique
 
 The <b>PowerControl</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
 
-The PEP issues a power control request from a worker thread. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
+The PEP issues a power control request from a worker thread. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
 
 ## -see-also
 

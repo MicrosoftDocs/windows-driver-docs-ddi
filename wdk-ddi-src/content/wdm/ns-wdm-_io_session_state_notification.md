@@ -4,7 +4,6 @@ title: _IO_SESSION_STATE_NOTIFICATION (wdm.h)
 description: The IO_SESSION_STATE_NOTIFICATION structure contains information that a kernel-mode driver supplies to the IoRegisterContainerNotification routine when the driver registers to receive notifications of session events.
 old-location: kernel\io_session_state_notification.htm
 tech.root: kernel
-ms.assetid: 19ff9c3a-d416-4468-b5a5-e2e6e896802a
 ms.date: 04/30/2018
 keywords: ["IO_SESSION_STATE_NOTIFICATION structure"]
 ms.keywords: "*PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_ALL_EVENTS, IO_SESSION_STATE_CONNECT_EVENT, IO_SESSION_STATE_CREATION_EVENT, IO_SESSION_STATE_DISCONNECT_EVENT, IO_SESSION_STATE_LOGOFF_EVENT, IO_SESSION_STATE_LOGON_EVENT, IO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], IO_SESSION_STATE_TERMINATION_EVENT, IO_SESSION_STATE_VALID_EVENT_MASK, PIO_SESSION_STATE_NOTIFICATION, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, wdm/IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION"

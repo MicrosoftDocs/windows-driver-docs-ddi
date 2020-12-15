@@ -4,7 +4,6 @@ title: RtlFindLeastSignificantBit function (wdm.h)
 description: The RtlFindLeastSignificantBit routine returns the zero-based position of the least significant nonzero bit in its parameter.
 old-location: kernel\rtlfindleastsignificantbit.htm
 tech.root: kernel
-ms.assetid: fb260c9b-dece-49ef-9701-d5198b8a08fb
 ms.date: 04/30/2018
 keywords: ["RtlFindLeastSignificantBit function"]
 ms.keywords: RtlFindLeastSignificantBit, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, kernel.rtlfindleastsignificantbit, wdm/RtlFindLeastSignificantBit

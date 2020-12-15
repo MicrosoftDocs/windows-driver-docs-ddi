@@ -4,7 +4,6 @@ title: RILUICCCMDPARAMETERS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicccmdparameters.htm
 tech.root: netvista
-ms.assetid: 02c37c3d-fa5b-4d26-a092-09f6f3dbd46c
 ms.date: 05/02/2018
 keywords: ["RILUICCCMDPARAMETERS structure"]
 ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters, ntddrilapitypes/RILUICCCMDPARAMETERS"

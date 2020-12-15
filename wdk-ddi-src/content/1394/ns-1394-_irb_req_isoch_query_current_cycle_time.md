@@ -4,7 +4,6 @@ title: _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME (1394.h)
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochQueryCurrentCycleTime request.
 old-location: ieee\irb_req_isoch_query_current_cycle_time.htm
 tech.root: IEEE
-ms.assetid: 4C42FB6D-BD5B-4376-A618-15AD6754AD9B
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IEEE.irb_req_isoch_query_current_cycle_time, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure [Buses], _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME

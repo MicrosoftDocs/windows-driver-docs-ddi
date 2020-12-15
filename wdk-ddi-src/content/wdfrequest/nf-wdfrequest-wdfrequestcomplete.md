@@ -4,7 +4,6 @@ title: WdfRequestComplete function (wdfrequest.h)
 description: The WdfRequestComplete method completes a specified I/O request and supplies a completion status.
 old-location: wdf\wdfrequestcomplete.htm
 tech.root: wdf
-ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
 ms.date: 02/26/2018
 keywords: ["WdfRequestComplete function"]
 ms.keywords: DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete, WdfRequestComplete method, kmdf.wdfrequestcomplete, wdf.wdfrequestcomplete, wdfrequest/WdfRequestComplete

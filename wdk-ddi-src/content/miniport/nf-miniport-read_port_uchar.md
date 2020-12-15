@@ -4,7 +4,6 @@ title: READ_PORT_UCHAR function (miniport.h)
 description: The READ_PORT_UCHAR routine reads a byte from the specified port address.
 old-location: kernel\read_port_uchar.htm
 tech.root: kernel
-ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.date: 04/30/2018
 keywords: ["READ_PORT_UCHAR function"]
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR

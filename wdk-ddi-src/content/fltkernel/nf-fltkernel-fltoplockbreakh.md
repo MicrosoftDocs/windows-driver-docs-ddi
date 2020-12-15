@@ -4,7 +4,6 @@ title: FltOplockBreakH function (fltkernel.h)
 description: The FltOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fltoplockbreakh.htm
 tech.root: ifsk
-ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.date: 04/16/2018
 keywords: ["FltOplockBreakH function"]
 ms.keywords: FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH, ifsk.fltoplockbreakh

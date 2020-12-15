@@ -4,7 +4,6 @@ title: _REFS_SMR_VOLUME_GC_METHOD (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_METHOD enum specifies the garbage collection method or strategy for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_method.htm
 tech.root: ifsk
-ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.date: 04/16/2018
 keywords: ["REFS_SMR_VOLUME_GC_METHOD enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], SmrGcMethodCompaction, SmrGcMethodCompression, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation"

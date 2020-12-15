@@ -4,7 +4,6 @@ title: IDARG_OUT_GETVERSION
 ms.date: 10/20/2020
 ms.topic: language-reference
 tech.root: display
-ms.assetid: 038cc69c-a8e7-4f09-ad3a-82c6f1f819c7
 targetos: Windows
 description: The IDARG_OUT_GETVERSION structure is used to store the IddCx (Indirect Display Driver Class eXtension) version.
 req.construct-type: structure
@@ -39,6 +38,9 @@ dev_langs:
 
 ## -description
 
+> [!NOTE]
+> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 The **IDARG_OUT_GETVERSION** structure identifies the IddCx (Indirect Display Driver Class eXtension) version.
 
 ## -struct-fields
@@ -49,7 +51,7 @@ ULONG value that identifies the IddCx version that the driver is running on. **I
 
 | Value                             | Windows 10 Version |
 |-----------------------------------|------------------- |
-| IDDCX_VERSION_MANGANESE (0x1600)  | 20H2               |
+| IDDCX_VERSION_MANGANESE (0x1600)  | 21H1               |
 | IDDCX_VERSION_VIBRAINIUM (0x1500) | 2004               |
 | IDDCX_VERSION_19H1 (0x1400)       | 1903               |
 | IDDCX_VERSION_RS5 (0x1380)        | 1809               |

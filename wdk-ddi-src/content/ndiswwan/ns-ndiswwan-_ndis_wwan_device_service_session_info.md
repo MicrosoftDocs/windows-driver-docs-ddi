@@ -4,7 +4,6 @@ title: _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure represents the status of a device service session.
 old-location: netvista\ndis_wwan_device_service_session_info.htm
 tech.root: netvista
-ms.assetid: B357E186-FE99-448A-B242-13A21A729BC9
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, netvista.ndis_wwan_device_service_session_info"

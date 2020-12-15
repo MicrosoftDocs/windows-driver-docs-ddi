@@ -4,7 +4,6 @@ title: FsRtlSupportsPerFileContexts macro (ntifs.h)
 description: The FsRtlSupportsPerFileContexts macro checks if per file context information is supported by the file system that is associated with a specified FILE_OBJECT.
 old-location: ifsk\fsrtlsupportsperfilecontexts.htm
 tech.root: ifsk
-ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.date: 04/16/2018
 keywords: ["FsRtlSupportsPerFileContexts macro"]
 ms.keywords: FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts , FsRtlSupportsPerFileContexts function [Installable File System Drivers], fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts

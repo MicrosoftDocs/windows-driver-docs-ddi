@@ -2,8 +2,7 @@
 UID: NF:icm.ColorAdapterGetDisplayProfile
 title: ColorAdapterGetDisplayProfile function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: ea95bc91-08fc-47f2-ae34-95f2b5fa2b5d
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterGetDisplayProfile function"]
 ms.keywords: ColorAdapterGetDisplayProfile
 req.header: icm.h
@@ -24,6 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +38,6 @@ f1_keywords:
 ---
 
 # ColorAdapterGetDisplayProfile function
-
 
 ## -description
 
@@ -62,4 +61,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

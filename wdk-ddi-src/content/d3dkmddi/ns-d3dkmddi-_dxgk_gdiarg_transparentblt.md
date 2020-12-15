@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_GDIARG_TRANSPARENTBLT
 title: _DXGK_GDIARG_TRANSPARENTBLT (d3dkmddi.h)
 description: The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) operation with transparency.
 old-location: display\dxgk_gdiarg_transparentblt.htm
-ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.date: 05/10/2018
 keywords: ["DXGK_GDIARG_TRANSPARENTBLT structure"]
 ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt

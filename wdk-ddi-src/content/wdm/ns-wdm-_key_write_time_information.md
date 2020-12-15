@@ -4,7 +4,6 @@ title: _KEY_WRITE_TIME_INFORMATION (wdm.h)
 description: The KEY_WRITE_TIME_INFORMATION structure is used by the system to set the last write time for a registry key.
 old-location: kernel\key_write_time_information.htm
 tech.root: kernel
-ms.assetid: 44f68a5a-c7ad-4555-b6b2-6461ac17960a
 ms.date: 04/30/2018
 keywords: ["KEY_WRITE_TIME_INFORMATION structure"]
 ms.keywords: "*PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, wdm/KEY_WRITE_TIME_INFORMATION, wdm/PKEY_WRITE_TIME_INFORMATION"

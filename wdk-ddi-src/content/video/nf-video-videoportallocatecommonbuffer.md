@@ -4,7 +4,6 @@ title: VideoPortAllocateCommonBuffer function (video.h)
 description: The VideoPortAllocateCommonBuffer function allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.
 old-location: display\videoportallocatecommonbuffer.htm
 tech.root: display
-ms.assetid: 950c2509-688e-4aaa-a12d-4106bb722bbc
 ms.date: 05/10/2018
 keywords: ["VideoPortAllocateCommonBuffer function"]
 ms.keywords: VideoPortAllocateCommonBuffer, VideoPortAllocateCommonBuffer function [Display Devices], VideoPort_Functions_bd747ea0-7963-4008-a91c-eb5598fc6bdd.xml, display.videoportallocatecommonbuffer, video/VideoPortAllocateCommonBuffer

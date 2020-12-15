@@ -4,8 +4,7 @@ title: RegisterOpRegionHandler function (oprghdlr.h)
 description: The RegisterOpRegionHandler routine registers an operation region handler with the ACPI driver.
 old-location: acpi\registeropregionhandler.htm
 tech.root: acpi
-ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
-ms.date: 02/15/2018
+ms.date: 11/19/2020
 keywords: ["RegisterOpRegionHandler function"]
 ms.keywords: RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], acpi.registeropregionhandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler
 req.header: oprghdlr.h
@@ -44,131 +43,54 @@ api_name:
 
 # RegisterOpRegionHandler function
 
-
 ## -description
 
-The <b>RegisterOpRegionHandler</b> routine registers an operation region handler with the <a href="/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a>.
+The **RegisterOpRegionHandler** routine registers an operation region handler with the [ACPI driver](/windows-hardware/drivers/kernel/acpi-driver).
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject
 
 [in]
-Pointer to the physical device object (<a href="/windows-hardware/drivers/">PDO</a>) that represents the ACPI device that defines the operation region.
+Pointer to the [physical device object (PDO)](/windows-hardware/drivers/kernel/types-of-wdm-device-objects) that represents the ACPI device that defines the operation region.
 
-### -param AccessType 
+### -param AccessType
 
 [in]
 Specifies ACPI_OPREGION_ACCESS_AS_COOKED.
 
-### -param RegionSpace 
+### -param RegionSpace
 
 [in]
 Specifies one of the following types of region space.
 
-<table>
-<tr>
-<th>Region Space Identifier</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_MEMORY
+| Region space identifier | Description |
+|--|--|
+| ACPI_OPREGION_REGION_SPACE_MEMORY | System memory |
+| ACPI_OPREGION_REGION_SPACE_IO | I/O space |
+| ACPI_OPREGION_REGION_SPACE_PCI_CONFIG | PCI configuration |
+| ACPI_OPREGION_REGION_SPACE_EC | Embedded controller |
+| ACPI_OPREGION_REGION_SPACE_SMB | System management bus |
+| ACPI_OPREGION_REGION_SPACE_CMOS_CONFIG | CMOS configuration |
+| ACPI_OPREGION_REGION_SPACE_PCIBARTARGET | PCI base address register |
+| Vendor-defined value from 0x80 to 0xFF | Vendor-defined |
 
-</td>
-<td>
-System memory
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_IO
-
-</td>
-<td>
-I/O space
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_PCI_CONFIG
-
-</td>
-<td>
-PCI configuration
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_EC
-
-</td>
-<td>
-Embedded controller
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_SMB
-
-</td>
-<td>
-System Management Bus
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_CMOS_CONFIG
-
-</td>
-<td>
-CMOS configuration
-
-</td>
-</tr>
-<tr>
-<td>
-ACPI_OPREGION_REGION_SPACE_PCIBARTARGET
-
-</td>
-<td>
-PCI Base Address Register
-
-</td>
-</tr>
-<tr>
-<td>
-Vendor-defined value from 0x80 to 0xFF
-
-</td>
-<td>
-Vendor-defined
-
-</td>
-</tr>
-</table>
-
-### -param Handler 
+### -param Handler
 
 [in]
-Pointer to the <a href="/windows-hardware/drivers/ddi/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
+Pointer to the [ACPI_OP_REGION_HANDLER](nc-oprghdlr-acpi_op_region_handler.md)-typed operation region handler (supplied by an ACPI device function driver).
 
-### -param Context 
+### -param Context
 
 [in]
 Pointer to a device-specific operation region context (supplied by an ACPI device function driver).
 
-### -param Flags 
+### -param Flags
 
 [in]
 Reserved for internal use.
 
-### -param OperationRegionObject 
+### -param OperationRegionObject
 
 [out]
 Pointer to caller-allocated buffer that, on output, contains a pointer to the operation region object that the ACPI driver creates for the operation region.
@@ -177,67 +99,21 @@ Pointer to caller-allocated buffer that, on output, contains a pointer to the op
 
 Returns one of the following status values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operating region handler was successfully registered.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACPI_INVALID_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified information is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine could not allocate the necessary system resources.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_Xxx</b></dt>
-</dl>
-</td>
-<td width="60%">
-An internal error occurred.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The operating region handler was successfully registered. |
+| STATUS_ACPI_INVALID_DATA | The specified information is not valid. |
+| STATUS_INSUFFICIENT_RESOURCES | The routine could not allocate the necessary system resources. |
+| STATUS_Xxx | An internal error occurred. |
 
 ## -remarks
 
-The operation region context specified by <i>Context</i> is device-specific and is only used by the function driver. Typically, the context is the device extension for the functional device object (<a href="/windows-hardware/drivers/">FDO</a>). The ACPI driver passes this context back to the function driver when it calls the operation region handler. The operation region object is only used by a function driver to uniquely identify the operation region when it deregisters the operation region handler.
+The operation region context specified by *Context* is device-specific and is only used by the function driver. Typically, the context is the device extension for the [functional device object (FDO)](/windows-hardware/drivers/kernel/types-of-wdm-device-objects). The ACPI driver passes this context back to the function driver when it calls the operation region handler. The operation region object is only used by a function driver to uniquely identify the operation region when it deregisters the operation region handler.
 
-For more information about operation regions, see <a href="/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
+For more information about operation regions, see [Supporting an Operation Region](/windows-hardware/drivers/acpi/supporting-an-operation-region).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>
+[ACPI_OP_REGION_HANDLER](nc-oprghdlr-acpi_op_region_handler.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-deregisteropregionhandler">DeRegisterOpRegionHandler</a>
+[DeRegisterOpRegionHandler](nf-oprghdlr-deregisteropregionhandler.md)

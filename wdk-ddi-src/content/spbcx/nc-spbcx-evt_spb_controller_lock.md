@@ -4,7 +4,6 @@ title: EVT_SPB_CONTROLLER_LOCK (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerLock event callback function locks the SPB controller for accesses of a single target device on the bus.
 old-location: spb\evtspbcontrollerlock.htm
 tech.root: SPB
-ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_CONTROLLER_LOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK callback, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock

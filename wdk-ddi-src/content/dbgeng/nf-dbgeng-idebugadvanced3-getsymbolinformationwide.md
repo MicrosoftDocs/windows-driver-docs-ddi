@@ -4,7 +4,6 @@ title: IDebugAdvanced3::GetSymbolInformationWide (dbgeng.h)
 description: The SetSymbolInformationWide method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwide.htm
 tech.root: debugger
-ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced3::GetSymbolInformationWide"]
 ms.keywords: GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformationWide method, IDebugAdvanced3.GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide

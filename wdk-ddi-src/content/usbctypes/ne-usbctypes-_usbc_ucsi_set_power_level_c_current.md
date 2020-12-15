@@ -2,7 +2,7 @@
 UID: NE:usbctypes._USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
 title: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT (usbctypes.h)
 description: Defines values for current power operation mode.
-ms.assetid: 93cd224b-1baf-4219-b56b-d98ba97ea8c6
+tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_UCSI_SET_POWER_LEVEL_C_CURRENT enumeration"]
 ms.keywords: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, *PUSBPM_UCSI_SET_POWER_LEVEL_C_CURRENT,

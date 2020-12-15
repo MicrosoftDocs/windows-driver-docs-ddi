@@ -4,7 +4,6 @@ title: PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK (pepfx.h)
 description: An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source.
 old-location: kernel\enumerateinterruptsource.htm
 tech.root: kernel
-ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
 ms.date: 02/24/2018
 keywords: ["PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback"]
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
@@ -78,7 +77,7 @@ BOOLEAN EnumerateInterruptSource(
 
 ## -remarks
 
-This callback routine is implemented by a PEP, and is called by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <i>Callback</i> parameter of the <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> routine is a pointer to an <i>EnumerateInterruptSource</i> callback routine.
+This callback routine is implemented by a PEP, and is called by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <i>Callback</i> parameter of the <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> routine is a pointer to an <i>EnumerateInterruptSource</i> callback routine.
 
 After a PEP calls <b>EnumerateUnmaskedInterrupts</b> to enumerate the unmasked interrupt sources, PoFx calls the PEP's <i>EnumerateInterruptSource</i> callback routine once for each unmasked interrupt source. <b>EnumerateUnmaskedInterrupts</b> returns only after the last call to the <i>EnumerateInterruptSource</i> callback routine completes.
 

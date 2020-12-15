@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGKARG_GETMMIORANGES
 title: _DXGKARG_GETMMIORANGES (dispmprt.h)
 description: Arguments used to get the memory mapped input output (MMIO) range.
-ms.assetid: cb991a13-ccc5-4f20-a49f-e084ba38ca80
 ms.date: 10/19/2018
 keywords: ["DXGKARG_GETMMIORANGES structure"]
 ms.keywords: _DXGKARG_GETMMIORANGES, DXGKARG_GETMMIORANGES, *PDXGKARG_GETMMIORANGES,

@@ -4,7 +4,6 @@ title: KSPROPERTY_TUNER_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 old-location: stream\ksproperty_tuner_status_s.htm
 tech.root: stream
-ms.assetid: 5e1b37f2-f567-4c03-b0f4-cc1dbd568907
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STATUS_S, PKSPROPERTY_TUNER_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STATUS_S, ksmedia/PKSPROPERTY_TUNER_STATUS_S, stream.ksproperty_tuner_status_s, vidcapstruct_a36247d8-99d7-4dad-8632-5feb685616d6.xml"

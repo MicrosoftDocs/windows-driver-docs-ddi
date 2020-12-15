@@ -4,7 +4,6 @@ title: StorPortCompleteRequest function (storport.h)
 description: The StorPortCompleteRequest routine completes all outstanding requests setting the SRB status value to SrbStatus.
 old-location: storage\storportcompleterequest.htm
 tech.root: storage
-ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.date: 03/29/2018
 keywords: ["StorPortCompleteRequest function"]
 ms.keywords: StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml

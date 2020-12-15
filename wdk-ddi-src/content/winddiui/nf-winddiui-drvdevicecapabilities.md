@@ -4,7 +4,6 @@ title: DrvDeviceCapabilities function (winddiui.h)
 description: A printer interface DLL's DrvDeviceCapabilities function returns requested information about a printer's capabilities.
 old-location: print\drvdevicecapabilities.htm
 tech.root: print
-ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.date: 04/20/2018
 keywords: ["DrvDeviceCapabilities function"]
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities

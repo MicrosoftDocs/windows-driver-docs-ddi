@@ -4,7 +4,6 @@ title: DXGKDDI_LINK_DEVICE (dispmprt.h)
 description: The optional DxgkDdiLinkDevice function queries the display miniport driver for information on the linked adapter configuration.
 old-location: display\dxgkddilinkdevice.htm
 tech.root: display
-ms.assetid: fb9b7c58-1c4f-42e4-a59f-4a529d3caca2
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_LINK_DEVICE callback function"]
 ms.keywords: DXGKDDI_LINK_DEVICE, DXGKDDI_LINK_DEVICE callback, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml, DxgkDdiLinkDevice, DxgkDdiLinkDevice callback function [Display Devices], display.dxgkddilinkdevice, dispmprt/DxgkDdiLinkDevice

@@ -4,7 +4,6 @@ title: HwNRegisterClient function (hwnclx.h)
 description: Registers the hardware notification client driver and its callback functions with the class extension.
 old-location: gpiobtn\hwnregisterclient.htm
 tech.root: gpiobtn
-ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
 ms.date: 02/15/2018
 keywords: ["HwNRegisterClient function"]
 ms.keywords: HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient, hwnclx/HwNRegisterClient
@@ -86,4 +85,4 @@ FORCEINLINE NTSTATUS  HwNRegisterClient(
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>

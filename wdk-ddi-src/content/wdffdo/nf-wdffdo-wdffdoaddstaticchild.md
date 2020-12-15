@@ -4,7 +4,6 @@ title: WdfFdoAddStaticChild function (wdffdo.h)
 description: The WdfFdoAddStaticChild method adds a specified device to a function driver's list of child devices that have been identified by static enumeration.
 old-location: wdf\wdffdoaddstaticchild.htm
 tech.root: wdf
-ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.date: 02/26/2018
 keywords: ["WdfFdoAddStaticChild function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, WdfFdoAddStaticChild, WdfFdoAddStaticChild method, kmdf.wdffdoaddstaticchild, wdf.wdffdoaddstaticchild, wdffdo/WdfFdoAddStaticChild

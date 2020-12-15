@@ -2,7 +2,7 @@
 UID: NF:sensorsdriversutils.I2CSensorReadRegister
 title: I2CSensorReadRegister function (sensorsdriversutils.h)
 description: The I2CSensorReadRegister function reads the devices register(s) over I2C.
-ms.assetid: fda9f6f9-7cd5-4df2-9654-6d604e0e617e
+tech.root: sensors
 ms.date: 04/19/2018
 keywords: ["I2CSensorReadRegister function"]
 ms.keywords: I2CSensorReadRegister

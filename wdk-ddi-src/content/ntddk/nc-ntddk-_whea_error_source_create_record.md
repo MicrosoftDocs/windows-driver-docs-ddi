@@ -2,8 +2,7 @@
 UID: NC:ntddk._WHEA_ERROR_SOURCE_CREATE_RECORD
 title: _WHEA_ERROR_SOURCE_CREATE_RECORD
 description: 
-tech.root: 
-ms.assetid: 161a7a07-a498-4e45-b356-4083179c71d6
+tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CREATE_RECORD callback function"]
 req.header: ntddk.h

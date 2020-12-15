@@ -4,7 +4,6 @@ title: _VPD_THIRD_PARTY_COPY_PAGE (minitape.h)
 description: The VPD_THIRD_PARTY_COPY_PAGE structure defines the vital product data (VPD) page for offload data transfer operations.
 old-location: storage\vpd_third_party_copy_page.htm
 tech.root: storage
-ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.date: 03/29/2018
 keywords: ["VPD_THIRD_PARTY_COPY_PAGE structure"]
 ms.keywords: "*PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], _VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, scsi/VPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page"

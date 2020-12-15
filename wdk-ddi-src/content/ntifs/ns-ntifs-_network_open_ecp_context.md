@@ -1,11 +1,10 @@
 ---
 UID: NS:ntifs._NETWORK_OPEN_ECP_CONTEXT
-title: _NETWORK_OPEN_ECP_CONTEXT (ntifs.h)
+title: NETWORK_OPEN_ECP_CONTEXT (ntifs.h)
 description: The NETWORK_OPEN_ECP_CONTEXT structure is used to interpret network extra create parameter (ECP) contexts on files.
 old-location: ifsk\network_open_ecp_context.htm
 tech.root: ifsk
-ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
-ms.date: 06/10/2020
+ms.date: 11/24/2020
 keywords: ["NETWORK_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT, ifsk.network_open_ecp_context, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
@@ -46,7 +45,6 @@ api_name:
 ---
 
 # NETWORK_OPEN_ECP_CONTEXT structure
-
 
 ## -description
 
@@ -115,7 +113,7 @@ A [**NETWORK_OPEN_INTEGRITY_QUALIFIER**](ne-ntifs-network_open_integrity_qualifi
 
 For information about how to use ECPs to associate extra information with a file when the file is created, see [Using Extra Create Parameters with an IRP_MJ_CREATE Operation](/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation).
 
-The NETWORK_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the network ECP context on a file only. For more information, see [System-Defined ECPs](/windows-hardware/drivers/ifs/system-defined-ecps).
+A filter driver should consider the NETWORK_OPEN_ECP_CONTEXT structure to be read-only, using it only to retrieve information about the network ECP context on a file. For more information, see [System-Defined ECPs](/windows-hardware/drivers/ifs/system-defined-ecps).
 
 If a caller must verify that the file system acknowledged the **NETWORK_OPEN_ECP_CONTEXT** context structure, the caller should call the [**FltIsEcpAcknowledged**](../fltkernel/nf-fltkernel-fltisecpacknowledged.md) or [**FsRtlIsEcpAcknowledged**](./nf-ntifs-fsrtlisecpacknowledged.md) routine on the ECP after the operation is complete.
 

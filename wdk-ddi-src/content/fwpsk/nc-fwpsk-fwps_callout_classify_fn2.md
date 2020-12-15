@@ -4,7 +4,6 @@ title: FWPS_CALLOUT_CLASSIFY_FN2 (fwpsk.h)
 description: The filter engine calls a callout's classifyFn2 callout function whenever there is data to be processed by the callout.Note  classifyFn2 is the specific version of classifyFn used in Windows 8 and later.
 old-location: netvista\classifyfn2.htm
 tech.root: netvista
-ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.date: 10/28/2019
 keywords: ["FWPS_CALLOUT_CLASSIFY_FN2 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
@@ -75,7 +74,7 @@ A pointer to a structure that describes the raw data in the layer being filtered
      <i>classifyFn2</i> callout function is called. For the stream layer, this parameter points to an 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
      FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure. For all of the other layers, this parameter points to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
      NULL.
 
 ### -param classifyContext 
@@ -192,7 +191,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

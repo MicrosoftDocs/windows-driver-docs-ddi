@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_COLOR_RGBA
 title: D3D11_1DDI_VIDEO_COLOR_RGBA (d3d10umddi.h)
 description: Specifies an RGB color value.
 old-location: display\d3d11_1ddi_video_color_rgba.htm
-ms.assetid: 0d97d6ef-87e6-4ba3-ab4b-aa5b22cb126b
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_COLOR_RGBA structure"]
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_RGBA, D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, display.d3d11_1ddi_video_color_rgba

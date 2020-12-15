@@ -4,7 +4,6 @@ title: _PO_FX_COMPONENT_IDLE_STATE (wdm.h)
 description: The PO_FX_COMPONENT_IDLE_STATE structure specifies the attributes of an Fx power state of a component in a device.
 old-location: kernel\po_fx_component_idle_state.htm
 tech.root: kernel
-ms.assetid: 4F0BF45D-F854-480C-B0AC-8134C6BF3266
 ms.date: 04/30/2018
 keywords: ["PO_FX_COMPONENT_IDLE_STATE structure"]
 ms.keywords: "*PPO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_IDLE_STATE, kernel.po_fx_component_idle_state, wdm/PO_FX_COMPONENT_IDLE_STATE, wdm/PPO_FX_COMPONENT_IDLE_STATE"

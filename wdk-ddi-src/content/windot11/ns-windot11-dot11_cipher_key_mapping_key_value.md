@@ -4,7 +4,6 @@ title: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_key_mapping_key_value.htm
 tech.root: netvista
-ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.date: 02/16/2018
 keywords: ["DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure"]
 ms.keywords: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE"

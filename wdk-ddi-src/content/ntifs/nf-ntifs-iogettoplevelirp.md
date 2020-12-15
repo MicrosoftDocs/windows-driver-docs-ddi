@@ -4,7 +4,6 @@ title: IoGetTopLevelIrp function (ntifs.h)
 description: The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iogettoplevelirp.htm
 tech.root: ifsk
-ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.date: 04/16/2018
 keywords: ["IoGetTopLevelIrp function"]
 ms.keywords: IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, ntifs/IoGetTopLevelIrp

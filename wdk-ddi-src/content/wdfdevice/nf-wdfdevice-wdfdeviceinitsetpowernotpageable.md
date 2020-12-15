@@ -4,7 +4,6 @@ title: WdfDeviceInitSetPowerNotPageable function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerNotPageable method informs the power manager that the driver will not access pageable data while the system is transitioning between a sleeping state and the working (S0) state.
 old-location: wdf\wdfdeviceinitsetpowernotpageable.htm
 tech.root: wdf
-ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerNotPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, WdfDeviceInitSetPowerNotPageable, WdfDeviceInitSetPowerNotPageable method, kmdf.wdfdeviceinitsetpowernotpageable, wdf.wdfdeviceinitsetpowernotpageable, wdfdevice/WdfDeviceInitSetPowerNotPageable

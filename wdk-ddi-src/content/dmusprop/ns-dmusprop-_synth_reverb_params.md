@@ -4,7 +4,6 @@ title: _SYNTH_REVERB_PARAMS (dmusprop.h)
 description: The SYNTH_REVERB_PARAMS structure contains configuration parameters.
 old-location: audio\synth_reverb_params.htm
 tech.root: audio
-ms.assetid: 9537D56C-920E-478E-9061-C4909240D7A0
 ms.date: 05/08/2018
 keywords: ["SYNTH_REVERB_PARAMS structure"]
 ms.keywords: "*PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices], SYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS structure [Audio Devices], _SYNTH_REVERB_PARAMS, audio.synth_reverb_params, dmusprop/PSYNTH_REVERB_PARAMS, dmusprop/SYNTH_REVERB_PARAMS"

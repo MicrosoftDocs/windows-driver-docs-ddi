@@ -4,7 +4,6 @@ title: PoFxPowerControl function (wdm.h)
 description: The PoFxPowerControl routine sends a power control request to the power management framework (PoFx).
 old-location: kernel\pofxpowercontrol.htm
 tech.root: kernel
-ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.date: 04/30/2018
 keywords: ["PoFxPowerControl function"]
 ms.keywords: PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], kernel.pofxpowercontrol, wdm/PoFxPowerControl

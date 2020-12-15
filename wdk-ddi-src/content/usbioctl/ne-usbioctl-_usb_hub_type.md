@@ -4,7 +4,6 @@ title: _USB_HUB_TYPE (usbioctl.h)
 description: The USB_HUB_TYPE enumeration defines constants that indicate the type of USB hub. The hub type is retrieved by the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request.
 old-location: buses\usb_hub_type.htm
 tech.root: usbref
-ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.date: 05/07/2018
 keywords: ["USB_HUB_TYPE enumeration"]
 ms.keywords: USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb20Hub, Usb30Hub, UsbRootHub, _USB_HUB_TYPE, buses.usb_hub_type, usbioctl/USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/Usb30Hub, usbioctl/UsbRootHub

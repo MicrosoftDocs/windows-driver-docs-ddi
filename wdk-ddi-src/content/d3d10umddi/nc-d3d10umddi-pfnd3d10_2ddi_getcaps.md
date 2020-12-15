@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10_2DDI_GETCAPS
 title: PFND3D10_2DDI_GETCAPS (d3d10umddi.h)
 description: The GetCaps(D3D10_2) function queries for capabilities of the graphics adapter.
 old-location: display\getcaps_d3d10_2_.htm
-ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
 ms.date: 05/10/2018
 keywords: ["PFND3D10_2DDI_GETCAPS callback function"]
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3D10_2DDI_GETCAPS, PFND3D10_2DDI_GETCAPS callback, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml, d3d10umddi/GetCaps, display.getcaps_d3d10_2_

@@ -4,7 +4,6 @@ title: _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST (ndischimney.h)
 description: The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is the basic building block of a TCP chimney offload state tree. An offload state tree can contain one or more NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures.
 old-location: netvista\ndis_miniport_offload_block_list.htm
 tech.root: netvista
-ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure"]
 ms.keywords: "*PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml"
@@ -507,7 +506,7 @@ When the host stack specifies a <b>NULL</b> value,
 
 When the host stack specifies a non-<b>NULL</b> value, 
      <b>NetBufferListChain</b> points to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that can be a
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that can be a
      stand-alone structure or the first structure in a linked list of such structures. Each NET_BUFFER_LIST
      structure in the linked list describes one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure

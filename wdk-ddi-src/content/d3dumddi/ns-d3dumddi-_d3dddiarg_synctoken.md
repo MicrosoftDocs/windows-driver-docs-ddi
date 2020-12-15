@@ -2,7 +2,6 @@
 UID: NS:d3dumddi._D3DDDIARG_SYNCTOKEN
 title: _D3DDDIARG_SYNCTOKEN (d3dumddi.h)
 description: A structure to provide sync token info.
-ms.assetid: 1939162a-8e80-4fc5-8eaf-ab299fb40113
 ms.date: 10/19/2018
 keywords: ["D3DDDIARG_SYNCTOKEN structure"]
 ms.keywords: _D3DDDIARG_SYNCTOKEN, D3DDDIARG_SYNCTOKEN,

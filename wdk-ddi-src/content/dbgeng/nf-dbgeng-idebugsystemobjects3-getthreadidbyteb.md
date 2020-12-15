@@ -4,7 +4,6 @@ title: IDebugSystemObjects3::GetThreadIdByTeb (dbgeng.h)
 description: The GetThreadIdByTeb method returns the engine thread ID of the specified thread. The thread is specified by its thread environment block (TEB).
 old-location: debugger\getthreadidbyteb.htm
 tech.root: debugger
-ms.assetid: 64b98d8b-883b-4a2c-a5de-058bb3b732df
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetThreadIdByTeb"]
 ms.keywords: GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects2 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects3 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects3.GetThreadIdByTeb, IDebugSystemObjects3::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb

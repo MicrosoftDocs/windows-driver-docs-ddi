@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 title: _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT (d3dkmddi.h)
 description: Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
-ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.date: 04/16/2018
 keywords: ["DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure"]
 ms.keywords: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkarg_postmultiplaneoverlaypresent

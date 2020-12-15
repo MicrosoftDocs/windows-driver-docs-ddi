@@ -2,7 +2,6 @@
 UID: NE:dbgmodel.LanguageKind
 title: LanguageKind (dbgmodel.h)
 description: Identifies the language of the compiland containing a given symbol.
-ms.assetid: f4f112e3-1a06-441f-92ef-dff2576274ff
 ms.date: 07/16/2018
 keywords: ["LanguageKind enumeration"]
 ms.keywords: LanguageKind, ,

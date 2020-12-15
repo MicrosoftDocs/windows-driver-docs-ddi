@@ -4,7 +4,6 @@ title: _STORAGE_LB_PROVISIONING_MAP_RESOURCES (ntddstor.h)
 description: The STORAGE_LB_PROVISIONING_MAP_RESOURCES structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request.
 old-location: storage\storage_lb_provisioning_map_resources.htm
 tech.root: storage
-ms.assetid: 6F7DE233-D002-4927-80FC-307A3A33653A
 ms.date: 03/29/2018
 keywords: ["STORAGE_LB_PROVISIONING_MAP_RESOURCES structure"]
 ms.keywords: "*PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], _STORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, storage.storage_lb_provisioning_map_resources"

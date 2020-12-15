@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDQUEUE
 title: PFND3D12DDI_DESTROYCOMMANDQUEUE (d3d12umddi.h)
 description: Destroys a command queue.
-ms.assetid: 751d9b9d-9f0e-4ded-a15a-cae5efeea015
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_DESTROYCOMMANDQUEUE callback function"]
 req.header: d3d12umddi.h

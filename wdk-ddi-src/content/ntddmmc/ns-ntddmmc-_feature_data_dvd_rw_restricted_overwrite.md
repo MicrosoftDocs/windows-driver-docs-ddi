@@ -4,7 +4,6 @@ title: _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE (ntddmmc.h)
 description: The FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure contains information for the Restricted Overwrite feature.
 old-location: storage\feature_data_dvd_rw_restricted_overwrite.htm
 tech.root: storage
-ms.assetid: 1669872a-4306-4773-bd7e-6f481c5e689d
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, storage.feature_data_dvd_rw_restricted_overwrite, structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml"

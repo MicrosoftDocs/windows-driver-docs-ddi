@@ -4,7 +4,6 @@ title: OEMDocumentPropertySheets function (printoem.h)
 description: OEMDocumentPropertySheets function
 old-location: print\oemdocumentpropertysheets.htm
 tech.root: print
-ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.date: 04/20/2018
 keywords: ["OEMDocumentPropertySheets function"]
 ms.keywords: OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, printoem/OEMDocumentPropertySheets

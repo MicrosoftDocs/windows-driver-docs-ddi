@@ -4,7 +4,6 @@ title: _UDECX_WDF_DEVICE_CONFIG (udecxwdfdevice.h)
 description: Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling UDECX_WDF_DEVICE_CONFIG_INIT.
 old-location: buses\udecx_wdf_device_config.htm
 tech.root: usbref
-ms.assetid: 54853C39-FA6C-4F9B-A202-F116C43D3A4E
 ms.date: 05/07/2018
 keywords: ["UDECX_WDF_DEVICE_CONFIG structure"]
 ms.keywords: "*PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses], _UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG"

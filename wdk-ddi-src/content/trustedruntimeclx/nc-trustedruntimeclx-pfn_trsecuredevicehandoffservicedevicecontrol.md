@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
 title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL (trustedruntimeclx.h)
 description: 
-ms.assetid: 554690bc-e0aa-411a-9168-40ea01012d88
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
  - trustedruntimeclx/PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
@@ -39,41 +39,40 @@ api_name:
 
 # PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContextObject: 
+### -param BindContextObject
 
-### -param DeviceInit: 
+### -param DeviceInit
 
-### -param ServiceGuid: 
+### -param ServiceGuid
 
-### -param Callbacks: 
+### -param Callbacks
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
 ## -returns
 
-Returns WDFAPI.
+Returns WDFAPI
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL PfnTrsecuredevicehandoffservicedevicecontrol; 
+PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL PfnTrsecuredevicehandoffservicedevicecontrol;
 
 // Definition
 
-WDFAPI PfnTrsecuredevicehandoffservicedevicecontrol 
+WDFAPI PfnTrsecuredevicehandoffservicedevicecontrol
 (
-	WDFOBJECT BindContextObject
-	PWDFDEVICE_INIT DeviceInit
-	LPGUID ServiceGuid
-	PTR_SECURE_SERVICE_CALLBACKS Callbacks
-	WDFDEVICE *ServiceDevice
+    WDFOBJECT BindContextObject
+    PWDFDEVICE_INIT DeviceInit
+    LPGUID ServiceGuid
+    PTR_SECURE_SERVICE_CALLBACKS Callbacks
+    WDFDEVICE *ServiceDevice
 )
 {...}
 
@@ -82,4 +81,3 @@ WDFAPI PfnTrsecuredevicehandoffservicedevicecontrol
 ## -remarks
 
 ## -see-also
-

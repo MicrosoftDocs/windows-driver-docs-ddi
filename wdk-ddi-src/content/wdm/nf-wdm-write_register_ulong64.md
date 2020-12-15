@@ -3,7 +3,6 @@ UID: NF:wdm.WRITE_REGISTER_ULONG64
 title: WRITE_REGISTER_ULONG64 function (wdm.h)
 description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 tech.root: kernel
-ms.assetid: 50C407F2-657F-451F-8A6B-BEEB533D89DE
 ms.date: 09/15/2020
 keywords: ["WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function

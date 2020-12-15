@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._MIPI_DSI2_TRANSMISSION
 title: MIPI_DSI2_TRANSMISSION
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) transmission.
 tech.root: display
-ms.assetid: b9d200d1-255d-40ef-b42b-33b374168ae0
 ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_TRANSMISSION structure"]
 f1_keywords:

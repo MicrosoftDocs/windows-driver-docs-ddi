@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARG_DISPLAYDETECTCONTROL
 title: _DXGKARG_DISPLAYDETECTCONTROL (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_DISPLAYDETECTCONTROL.
 old-location: display\dxgkarg_displaydetectcontrol.htm
-ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.date: 04/16/2018
 keywords: ["DXGKARG_DISPLAYDETECTCONTROL structure"]
 ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol

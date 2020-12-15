@@ -4,7 +4,6 @@ title: _DEBUG_LAST_EVENT_INFO_BREAKPOINT (dbgeng.h)
 description: Describes the breakpoint of the last event.
 old-location: debugger\debug_last_event_info_breakpoint.htm
 tech.root: debugger
-ms.assetid: DAE22E2C-E8A9-4FF0-B9E9-D652C4E7B0B8
 ms.date: 05/03/2018
 keywords: ["DEBUG_LAST_EVENT_INFO_BREAKPOINT structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_BREAKPOINT, PDEBUG_LAST_EVENT_INFO_BREAKPOINT structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT, debugger.debug_last_event_info_breakpoint"

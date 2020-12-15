@@ -4,7 +4,6 @@ title: NDK_FN_CREATE_MR (ndkpi.h)
 description: The NdkCreateMr (NDK_FN_CREATE_MR) function creates an NDK memory region (MR) object.
 old-location: netvista\ndk_fn_create_mr.htm
 tech.root: netvista
-ms.assetid: AD0F1FA1-0CE5-40BE-86B8-537C9C8C0B8F
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_MR callback function"]
 ms.keywords: NDK_FN_CREATE_MR, NDK_FN_CREATE_MR callback, NdkCreateMr, NdkCreateMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMr, netvista.ndk_fn_create_mr

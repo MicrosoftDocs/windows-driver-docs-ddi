@@ -4,7 +4,6 @@ title: POFXCALLBACKREQUESTCOMMON (pep_x.h)
 description: The RequestCommon routine is a generic request handler.
 old-location: kernel\requestcommon.htm
 tech.root: kernel
-ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKREQUESTCOMMON callback function"]
 ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
@@ -66,7 +65,7 @@ A pointer to a data structure that contains the input data and/or result data fo
 
 ## -remarks
 
-This routine is implemented by the <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
+This routine is implemented by the <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
 
 A PEP can call this routine at IRQL <= HIGH_LEVEL.
 

@@ -4,7 +4,6 @@ title: KeSetKernelStackSwapEnable function (ntifs.h)
 description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
 old-location: kernel\kesetkernelstackswapenable.htm
 tech.root: kernel
-ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.date: 08/21/2020
 keywords: ["KeSetKernelStackSwapEnable function"]
 ms.keywords: KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable

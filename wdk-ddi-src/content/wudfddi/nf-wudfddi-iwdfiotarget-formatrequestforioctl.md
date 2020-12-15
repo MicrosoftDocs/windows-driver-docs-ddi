@@ -4,7 +4,6 @@ title: IWDFIoTarget::FormatRequestForIoctl (wudfddi.h)
 description: The FormatRequestForIoctl method formats an I/O request object for an I/O control operation.
 old-location: wdf\iwdfiotarget_formatrequestforioctl.htm
 tech.root: wdf
-ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.date: 02/26/2018
 keywords: ["IWDFIoTarget::FormatRequestForIoctl"]
 ms.keywords: FormatRequestForIoctl, FormatRequestForIoctl method, FormatRequestForIoctl method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForIoctl method, IWDFIoTarget.FormatRequestForIoctl, IWDFIoTarget::FormatRequestForIoctl, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, umdf.iwdfiotarget_formatrequestforioctl, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl

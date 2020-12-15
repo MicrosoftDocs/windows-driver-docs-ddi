@@ -4,7 +4,6 @@ title: FwpsFreeCloneNetBufferList0 function (fwpsk.h)
 description: The FwpsFreeCloneNetBufferList0 function frees a clone NET_BUFFER_LIST structure that was previously allocated by a call to the FwpsAllocateCloneNetBufferList0 function.Note  FwpsFreeCloneNetBufferList0 is a specific version of FwpsFreeCloneNetBufferList. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsfreeclonenetbufferlist0.htm
 tech.root: netvista
-ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.date: 05/02/2018
 keywords: ["FwpsFreeCloneNetBufferList0 function"]
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
@@ -49,7 +48,7 @@ api_name:
 
 The 
   <b>FwpsFreeCloneNetBufferList0</b> function frees a clone 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that was previously
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that was previously
   allocated by a call to the 
   <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
   FwpsAllocateCloneNetBufferList0</a> function.
@@ -61,7 +60,7 @@ The
 
 [in, out]
 A pointer to the clone 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      freed.
 
 ### -param freeCloneFlags 
@@ -74,7 +73,7 @@ There are currently no flags defined for this function. Callout drivers should s
 
 A callout driver calls the 
     <b>FwpsFreeCloneNetBufferList0</b> function to free a clone 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that was
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that was
     previously allocated by a call to the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function.
 
@@ -85,4 +84,4 @@ A callout driver calls the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

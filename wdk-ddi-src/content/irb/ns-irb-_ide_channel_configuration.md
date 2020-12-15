@@ -4,7 +4,6 @@ title: _IDE_CHANNEL_CONFIGURATION (irb.h)
 description: The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_configuration.htm
 tech.root: storage
-ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.date: 03/29/2018
 keywords: ["IDE_CHANNEL_CONFIGURATION structure"]
 ms.keywords: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml"

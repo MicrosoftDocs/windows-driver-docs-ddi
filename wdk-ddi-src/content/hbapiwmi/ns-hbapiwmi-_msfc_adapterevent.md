@@ -4,7 +4,6 @@ title: _MSFC_AdapterEvent (hbapiwmi.h)
 description: The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the T11 committee's Fibre Channel HBA API specification to report adapter events to WMI clients that have registered to be notified of these events.
 old-location: storage\msfc_adapterevent.htm
 tech.root: storage
-ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.date: 03/29/2018
 keywords: ["MSFC_AdapterEvent structure"]
 ms.keywords: "*PMSFC_AdapterEvent, MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], _MSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent, hbapiwmi/PMSFC_AdapterEvent, storage.msfc_adapterevent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml"

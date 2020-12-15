@@ -4,7 +4,6 @@ title: IDebugEventCallbacksWide::SessionStatus (dbgeng.h)
 description: The SessionStatus callback method is called by the engine when a change occurs in the debugger session.
 old-location: debugger\idebugeventcallbackswide_sessionstatus.htm
 tech.root: debugger
-ms.assetid: cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::SessionStatus"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],SessionStatus method, IDebugEventCallbacksWide.SessionStatus, IDebugEventCallbacksWide::SessionStatus, SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::SessionStatus, debugger.idebugeventcallbackswide_sessionstatus

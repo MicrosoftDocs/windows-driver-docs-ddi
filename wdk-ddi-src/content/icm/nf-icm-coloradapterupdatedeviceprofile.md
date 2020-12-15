@@ -2,8 +2,7 @@
 UID: NF:icm.ColorAdapterUpdateDeviceProfile
 title: ColorAdapterUpdateDeviceProfile function (icm.h)
 description: This DDI construct is intended for OEM use only.
-ms.assetid: 87fa4c08-ee0f-47a7-a4d0-b5b053d98bb5
-ms.date: 08/13/2020
+ms.date: 11/18/2020
 keywords: ["ColorAdapterUpdateDeviceProfile function"]
 ms.keywords: ColorAdapterUpdateDeviceProfile
 req.header: icm.h
@@ -24,6 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
+tech.root: print
 topic_type:
  - apiref
 api_type:
@@ -38,7 +38,6 @@ f1_keywords:
 ---
 
 # ColorAdapterUpdateDeviceProfile function
-
 
 ## -description
 
@@ -58,4 +57,3 @@ This function returns HRESULT.
 ## -remarks
 
 ## -see-also
-

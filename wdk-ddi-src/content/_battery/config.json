@@ -4,7 +4,8 @@
     "charging.h",
     "hpmi.h",
     "ntpoapi.h",
-    "upssvc.h"
+    "upssvc.h",
+    "wdm.h"
   ],
   "displayName": "Battery"
 }

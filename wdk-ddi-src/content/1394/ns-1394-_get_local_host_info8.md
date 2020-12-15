@@ -4,7 +4,6 @@ title: _GET_LOCAL_HOST_INFO8 (1394.h)
 description: The GET_LOCAL_HOST_INFO8 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request with u.GetLocalHostInformation.nLevel set to GET_HOST_DDI_VERSION.
 old-location: ieee\get_local_host_info8.htm
 tech.root: IEEE
-ms.assetid: DA30F8BA-B920-458E-B7C7-8D7B7081507A
 ms.date: 02/15/2018
 keywords: ["GET_LOCAL_HOST_INFO8 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], IEEE.get_local_host_info8, PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8"

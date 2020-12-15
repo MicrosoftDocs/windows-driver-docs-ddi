@@ -4,7 +4,6 @@ title: SeSetSecurityDescriptorInfoEx function (ntifs.h)
 description: The SeSetSecurityDescriptorInfoEx routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE).
 old-location: ifsk\sesetsecuritydescriptorinfoex.htm
 tech.root: ifsk
-ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.date: 04/16/2018
 keywords: ["SeSetSecurityDescriptorInfoEx function"]
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml

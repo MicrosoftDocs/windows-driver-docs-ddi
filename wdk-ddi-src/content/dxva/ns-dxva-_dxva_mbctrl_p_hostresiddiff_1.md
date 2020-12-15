@@ -4,7 +4,6 @@ title: _DXVA_MBctrl_P_HostResidDiff_1 (dxva.h)
 description: The DXVA_MBctrl_P_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra picture cases when using host-based IDCT.
 old-location: display\dxva_mbctrl_p_hostresiddiff_1.htm
 tech.root: display
-ms.assetid: be67b423-32a1-4f30-9f2c-fa6347cc960f
 ms.date: 05/10/2018
 keywords: ["DXVA_MBctrl_P_HostResidDiff_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml"

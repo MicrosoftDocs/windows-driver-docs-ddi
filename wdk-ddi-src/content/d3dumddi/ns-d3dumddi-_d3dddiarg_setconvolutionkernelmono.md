@@ -4,7 +4,6 @@ title: _D3DDDIARG_SETCONVOLUTIONKERNELMONO (d3dumddi.h)
 description: The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for setting the monochrome convolution kernel.
 old-location: display\d3dddiarg_setconvolutionkernelmono.htm
 tech.root: display
-ms.assetid: 6a7a19c7-2e2d-4e52-920d-68f1d2d77585
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETCONVOLUTIONKERNELMONO structure"]
 ms.keywords: D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, _D3DDDIARG_SETCONVOLUTIONKERNELMONO, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono

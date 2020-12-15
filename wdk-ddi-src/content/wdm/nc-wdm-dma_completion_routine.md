@@ -4,7 +4,6 @@ title: DMA_COMPLETION_ROUTINE (wdm.h)
 description: The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete.
 old-location: kernel\dmacompletionroutine.htm
 tech.root: kernel
-ms.assetid: 13EC62D0-6C70-46BE-8088-2DEC7012EE1A
 ms.date: 04/30/2018
 keywords: ["DMA_COMPLETION_ROUTINE callback function"]
 ms.keywords: DMA_COMPLETION_ROUTINE, DmaCompletionRoutine, DmaCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.dmacompletionroutine, wdm/DmaCompletionRoutine

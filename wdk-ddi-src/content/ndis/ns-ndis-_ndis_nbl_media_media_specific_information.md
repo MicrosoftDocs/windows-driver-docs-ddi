@@ -4,7 +4,6 @@ title: _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION (ndis.h)
 description: The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure specifies media-specific data that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_nbl_media_specific_information.htm
 tech.root: netvista
-ms.assetid: 01c0d9bb-5935-4b61-a04d-f9fcc5457152
 ms.date: 05/02/2018
 keywords: ["NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure"]
 ms.keywords: "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information"
@@ -52,7 +51,7 @@ api_name:
 
 The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure specifies media-specific data that is associated
   with a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -80,7 +79,7 @@ Any driver in an NDIS driver stack can allocate and manage media-specific inform
     contain driver-allocated and driver-defined data. Structures in the list contain any media-specific
     out-of-band (OOB) data that accompanies the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures associated with a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 If a protocol driver allocated the OOB data, it configured the data for a send operation. If a
     miniport driver allocated the data, it configured the data for a receive indication.
@@ -118,4 +117,4 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

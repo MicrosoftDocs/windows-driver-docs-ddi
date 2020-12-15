@@ -4,7 +4,6 @@ title: KsFilterFactoryGetOuterUnknown function (ks.h)
 description: The KsFilterFactoryGetOuterUnknown function returns the outer IUnknown of the specified filter factory.
 old-location: stream\ksfilterfactorygetouterunknown.htm
 tech.root: stream
-ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.date: 04/23/2018
 keywords: ["KsFilterFactoryGetOuterUnknown function"]
 ms.keywords: KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, ks/KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown

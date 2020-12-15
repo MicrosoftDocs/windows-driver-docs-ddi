@@ -4,7 +4,6 @@ title: StorPortGetLogicalUnit function (storport.h)
 description: The StorPortGetLogicalUnit routine returns a pointer to the miniport driver's per-logical-unit storage area.
 old-location: storage\storportgetlogicalunit.htm
 tech.root: storage
-ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.date: 03/29/2018
 keywords: ["StorPortGetLogicalUnit function"]
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml

@@ -4,7 +4,6 @@ title: KeGetCurrentNodeNumber function (wdm.h)
 description: The KeGetCurrentNodeNumber routine gets the NUMA node number for the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentnodenumber.htm
 tech.root: kernel
-ms.assetid: 9b8601ad-5605-46a3-9dbe-47dc8ed5906c
 ms.date: 04/30/2018
 keywords: ["KeGetCurrentNodeNumber function"]
 ms.keywords: KeGetCurrentNodeNumber, KeGetCurrentNodeNumber routine [Kernel-Mode Driver Architecture], k105_08763d94-700c-4662-aebe-a8aa15a7ed4f.xml, kernel.kegetcurrentnodenumber, wdm/KeGetCurrentNodeNumber

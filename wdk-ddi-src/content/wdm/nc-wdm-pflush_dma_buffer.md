@@ -2,7 +2,7 @@
 UID: NC:wdm.PFLUSH_DMA_BUFFER
 title: PFLUSH_DMA_BUFFER (wdm.h)
 description: 
-ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PFLUSH_DMA_BUFFER callback function"]
 req.header: wdm.h

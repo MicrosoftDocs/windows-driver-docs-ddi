@@ -4,7 +4,6 @@ title: WcsSetUsePerUserProfiles function (icm.h)
 description: The WcsSetUsePerUserProfiles function allows the user to specify whether or not to use a per-user profile association list for the specified device.
 old-location: print\wcssetuseperuserprofiles.htm
 tech.root: print
-ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.date: 08/14/2020
 keywords: ["WcsSetUsePerUserProfiles function"]
 ms.keywords: WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles function [Print Devices], colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, icm/WcsSetUsePerUserProfiles, print.wcssetuseperuserprofiles

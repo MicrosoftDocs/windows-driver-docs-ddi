@@ -4,7 +4,6 @@ title: NfcCxDeviceInitialize function (nfccx.h)
 description: Called by the client driver after a WDF device has been created during the AddDevice routine.
 old-location: nfpdrivers\_nfccxdeviceinitialize.htm
 tech.root: nfpdrivers
-ms.assetid: E9282552-93AB-4380-A270-1A538CCF8C0E
 ms.date: 02/15/2018
 keywords: ["NfcCxDeviceInitialize function"]
 ms.keywords: NfcCxDeviceInitialize, NfcCxDeviceInitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitialize, nfpdrivers._nfccxdeviceinitialize

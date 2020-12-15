@@ -4,7 +4,6 @@ title: TCP_OFFLOAD_RECV_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadReceiveComplete function to complete a receive operation that the driver previously initiated by calling the NdisOffloadTcpReceive function.
 old-location: netvista\protocoltcpoffloadreceivecomplete.htm
 tech.root: netvista
-ms.assetid: 78201512-6b70-4b4b-9016-0f42fed41ac6
 ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
@@ -67,7 +66,7 @@ A handle to a context area allocated by the protocol driver. The driver maintain
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpreceive">
@@ -109,7 +108,7 @@ In response, NDIS calls the overlying driver's
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -4,7 +4,6 @@ title: _LineDisplayStatusType (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaystatustype.htm
 tech.root: pos
-ms.assetid: B3260D6C-F363-4077-BA8C-88BBEDA167D8
 ms.date: 02/23/2018
 keywords: ["LineDisplayStatusType enumeration"]
 ms.keywords: LineDisplayStatusType, LineDisplayStatusType enumeration, PLineDisplayStatusType, PLineDisplayStatusType enumeration pointer, _LineDisplayStatusType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayStatusType, pointofservicecommontypes/PLineDisplayStatusType, pos.linedisplaystatustype

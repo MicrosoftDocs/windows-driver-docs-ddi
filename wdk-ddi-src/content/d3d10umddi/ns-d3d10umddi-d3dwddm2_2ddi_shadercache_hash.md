@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3DWDDM2_2DDI_SHADERCACHE_HASH
 title: D3DWDDM2_2DDI_SHADERCACHE_HASH (d3d10umddi.h)
 description: Contains a hash value for a shader cache.
 old-location: display\d3dwddm2_2ddi_shadercache_hash.htm
-ms.assetid: 1024FF58-7758-473A-8B1F-9CE184B9667A
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_2DDI_SHADERCACHE_HASH structure"]
 ms.keywords: D3DWDDM2_2DDI_SHADERCACHE_HASH, D3DWDDM2_2DDI_SHADERCACHE_HASH structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_SHADERCACHE_HASH, display.d3dwddm2_2ddi_shadercache_hash

@@ -2,8 +2,7 @@
 UID: NE:acpitabl._IVHD_ENTRY_TYPE
 title: _IVHD_ENTRY_TYPE (acpitabl.h)
 description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
-ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["IVHD_ENTRY_TYPE enumeration"]
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE,
 req.header: acpitabl.h
@@ -18,6 +17,7 @@ req.max-support:
 req.typenames: IVRS_TABLE_TYPE
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _IVHD_ENTRY_TYPE
  - acpitabl/_IVHD_ENTRY_TYPE
@@ -35,62 +35,60 @@ api_name:
 
 # _IVHD_ENTRY_TYPE enumeration
 
-
 ## -description
 
 Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 
 ## -enum-fields
 
-### -field IvhdEntryTypePad4 
+### -field IvhdEntryTypePad4
 
 Value is 0.
 
-### -field IvhdEntryTypeAll 
+### -field IvhdEntryTypeAll
 
 Value is 1.
 
-### -field IvhdEntryTypeSelect 
+### -field IvhdEntryTypeSelect
 
 Value is 2.
 
-### -field IvhdEntryTypeStartRange 
+### -field IvhdEntryTypeStartRange
 
 Value is 3.
 
-### -field IvhdEntryTypeEndRange 
+### -field IvhdEntryTypeEndRange
 
 Value is 4.
 
-### -field IvhdEntryTypePad8 
+### -field IvhdEntryTypePad8
 
 Value is 64.
 
-### -field IvhdEntryTypeAliasSelect 
+### -field IvhdEntryTypeAliasSelect
 
 Value is 66.
 
-### -field IvhdEntryTypeAliasStartRange 
+### -field IvhdEntryTypeAliasStartRange
 
 Value is 67.
 
-### -field IvhdEntryTypeExtendedSelect 
+### -field IvhdEntryTypeExtendedSelect
 
 Value is 70.
 
-### -field IvhdEntryTypeExtendedStartRange 
+### -field IvhdEntryTypeExtendedStartRange
 
 Value is 71.
 
-### -field IvhdEntryTypeSpecialDevice 
+### -field IvhdEntryTypeSpecialDevice
 
 Value is 72.
 
-### -field IvhdEntryTypeAcpiDevice 
+### -field IvhdEntryTypeAcpiDevice
 
 Value is 0xF0.
 
 ## -remarks
 
 ## -see-also
-

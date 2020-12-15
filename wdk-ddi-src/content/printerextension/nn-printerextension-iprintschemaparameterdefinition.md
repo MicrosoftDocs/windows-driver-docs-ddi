@@ -4,7 +4,6 @@ title: IPrintSchemaParameterDefinition (printerextension.h)
 description: The IPrintSchemaParameterDefinition interface represents a parameter definition, as defined in the Print Schema Specification.
 old-location: print\iprintschemaparameterdefinition.htm
 tech.root: print
-ms.assetid: 205A4F09-6FE5-459E-A94A-13B1839AF489
 ms.date: 10/01/2020
 keywords: ["IPrintSchemaParameterDefinition interface"]
 ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], IPrintSchemaParameterDefinition interface [Print Devices],described, print.iprintschemaparameterdefinition, printerextension/IPrintSchemaParameterDefinition

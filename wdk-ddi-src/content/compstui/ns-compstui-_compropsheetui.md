@@ -4,7 +4,6 @@ title: _COMPROPSHEETUI (compstui.h)
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
 old-location: print\compropsheetui.htm
 tech.root: print
-ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.date: 04/20/2018
 keywords: ["COMPROPSHEETUI structure"]
 ms.keywords: "*PCOMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices], _COMPROPSHEETUI, compstui/COMPROPSHEETUI, compstui/PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui"

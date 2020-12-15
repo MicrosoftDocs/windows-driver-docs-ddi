@@ -4,7 +4,6 @@ title: RILRADIOSTATEPASSWORD (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostatepassword.htm
 tech.root: netvista
-ms.assetid: 5329a688-ca72-456c-b9fa-32a922783d97
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEPASSWORD structure"]
 ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD"

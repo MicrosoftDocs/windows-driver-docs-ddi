@@ -2,8 +2,7 @@
 UID: NF:amtvuids.OUR_GUID_ENTRY
 title: OUR_GUID_ENTRY macro (amtvuids.h)
 description: 
-ms.assetid: 732b59a0-0445-4ded-9f7a-67ad8a878b84
-ms.date: 10/19/2018
+ms.date: 11/17/2020
 keywords: ["OUR_GUID_ENTRY macro"]
 ms.keywords: OUR_GUID_ENTRY
 req.header: amtvuids.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: stream
 f1_keywords:
  - OUR_GUID_ENTRY
  - amtvuids/OUR_GUID_ENTRY
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # OUR_GUID_ENTRY macro
-
 
 ## -description
 
@@ -104,4 +103,3 @@ Contains an **unsigned char** value.
 ## -remarks
 
 ## -see-also
-

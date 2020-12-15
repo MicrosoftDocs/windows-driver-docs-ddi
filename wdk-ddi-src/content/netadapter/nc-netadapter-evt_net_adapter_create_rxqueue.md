@@ -3,7 +3,6 @@ UID: NC:netadapter.EVT_NET_ADAPTER_CREATE_RXQUEUE
 title: EVT_NET_ADAPTER_CREATE_RXQUEUE (netadapter.h)
 description: The client driver's implementation of the EvtNetAdapterCreateRxQueue event callback function that sets up a receive (Rx) queue.
 tech.root: netvista
-ms.assetid: 30a51b5b-5da7-4cfa-aaff-433c39f90bd0
 ms.date: 01/18/2019
 keywords: ["EVT_NET_ADAPTER_CREATE_RXQUEUE callback function"]
 req.header: netadapter.h

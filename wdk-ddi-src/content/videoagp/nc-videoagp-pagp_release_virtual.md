@@ -4,7 +4,6 @@ title: PAGP_RELEASE_VIRTUAL (videoagp.h)
 description: The AgpReleaseVirtual function frees system memory reserved by a previous call to AgpReserveVirtual.
 old-location: display\agpreleasevirtual.htm
 tech.root: display
-ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.date: 05/10/2018
 keywords: ["PAGP_RELEASE_VIRTUAL callback function"]
 ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL callback, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual

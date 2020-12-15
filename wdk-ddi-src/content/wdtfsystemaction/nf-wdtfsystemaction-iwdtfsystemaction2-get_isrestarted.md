@@ -4,7 +4,6 @@ title: IWDTFSystemAction2::get_IsRestarted (wdtfsystemaction.h)
 description: Gets a value that indicates whether the test script restarted as a result of a call to RebootRestart or RebootRestartWithContext.
 old-location: dtf\iwdtfsystemaction2_isrestarted.htm
 tech.root: dtf
-ms.assetid: EF89D020-BA9F-4698-B82A-7671DBE3FDE8
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2::get_IsRestarted"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],IsRestarted property, IWDTFSystemAction2.IsRestarted, IWDTFSystemAction2.get_IsRestarted, IWDTFSystemAction2::IsRestarted, IWDTFSystemAction2::get_IsRestarted, IsRestarted property [Windows Device Testing Framework], IsRestarted property [Windows Device Testing Framework],IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestarted, Microsoft::WDTF::IWDTFSystemAction2::IsRestarted, dtf.iwdtfsystemaction2_isrestarted, get_IsRestarted, wdtfsystemaction/IWDTFSystemAction2::IsRestarted, wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted

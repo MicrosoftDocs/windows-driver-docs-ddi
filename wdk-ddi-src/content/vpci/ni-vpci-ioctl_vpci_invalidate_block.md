@@ -4,7 +4,6 @@ title: IOCTL_VPCI_INVALIDATE_BLOCK (vpci.h)
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues the IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request in order to be notified of changes to data in one or more VF configuration blocks.
 old-location: pci\IOCTL_VPCI_INVALIDATE_BLOCK.htm
 tech.root: PCI
-ms.assetid: 66D1626A-7F22-48B8-8DB3-7B6E1634BABE
 ms.date: 02/24/2018
 keywords: ["IOCTL_VPCI_INVALIDATE_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_INVALIDATE_BLOCK, IOCTL_VPCI_INVALIDATE_BLOCK control code, PCI.IOCTL_VPCI_INVALIDATE_BLOCK, vpci/IOCTL_VPCI_INVALIDATE_BLOCK

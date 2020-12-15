@@ -4,7 +4,6 @@ title: WRITE_PORT_BUFFER_UCHAR function (miniport.h)
 description: The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port.
 old-location: kernel\write_port_buffer_uchar.htm
 tech.root: kernel
-ms.assetid: 59a7b11a-c6b6-4452-9518-1e5c7c07ec18
 ms.date: 04/30/2018
 keywords: ["WRITE_PORT_BUFFER_UCHAR function"]
 ms.keywords: WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, kernel.write_port_buffer_uchar, wdm/WRITE_PORT_BUFFER_UCHAR

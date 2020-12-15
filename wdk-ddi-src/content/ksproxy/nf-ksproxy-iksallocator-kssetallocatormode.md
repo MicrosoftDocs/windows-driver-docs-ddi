@@ -4,7 +4,6 @@ title: IKsAllocator::KsSetAllocatorMode (ksproxy.h)
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 tech.root: stream
-ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.date: 11/18/2019
 keywords: ["IKsAllocator::KsSetAllocatorMode"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsSetAllocatorMode method, IKsAllocator.KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode

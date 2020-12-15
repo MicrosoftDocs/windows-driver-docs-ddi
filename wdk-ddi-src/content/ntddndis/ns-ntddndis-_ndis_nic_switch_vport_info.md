@@ -4,7 +4,6 @@ title: _NDIS_NIC_SWITCH_VPORT_INFO (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VPORT_INFO structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter.
 old-location: netvista\ndis_nic_switch_vport_info.htm
 tech.root: netvista
-ms.assetid: 5effb179-18e8-4306-84c5-724cb5483449
 ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_VPORT_INFO structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO, PNDIS_NIC_SWITCH_VPORT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO, netvista.ndis_nic_switch_vport_info, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO"

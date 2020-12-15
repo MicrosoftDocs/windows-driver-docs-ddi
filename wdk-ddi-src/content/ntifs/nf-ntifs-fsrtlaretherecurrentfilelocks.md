@@ -4,7 +4,6 @@ title: FsRtlAreThereCurrentFileLocks macro (ntifs.h)
 description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte range locks exist for the specified file.
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk
-ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.date: 06/27/2019
 keywords: ["FsRtlAreThereCurrentFileLocks macro"]
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks

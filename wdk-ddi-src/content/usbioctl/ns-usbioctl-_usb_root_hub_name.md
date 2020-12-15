@@ -4,7 +4,6 @@ title: _USB_ROOT_HUB_NAME (usbioctl.h)
 description: The USB_ROOT_HUB_NAME structure stores the root hub's symbolic device name.
 old-location: buses\usb_root_hub_name.htm
 tech.root: usbref
-ms.assetid: bd9697ce-bd05-4169-9b0f-13877307c0d7
 ms.date: 05/07/2018
 keywords: ["USB_ROOT_HUB_NAME structure"]
 ms.keywords: "*PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME structure pointer [Buses], USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses], _USB_ROOT_HUB_NAME, buses.usb_root_hub_name, usbioctl/PUSB_ROOT_HUB_NAME, usbioctl/USB_ROOT_HUB_NAME, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml"
@@ -68,4 +67,4 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

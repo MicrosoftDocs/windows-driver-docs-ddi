@@ -2,7 +2,6 @@
 UID: NS:ucmucsispec._UCSI_GET_CURRENT_CAM_IN
 title: _UCSI_GET_CURRENT_CAM_IN (ucmucsispec.h)
 description: Used in the GET_CURRENT_CAM command. See Table 4-31.
-ms.assetid: 92a7f060-0cbe-451d-9c99-1668e1604962
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_CURRENT_CAM_IN structure"]

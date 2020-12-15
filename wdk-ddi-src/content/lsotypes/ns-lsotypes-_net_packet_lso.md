@@ -3,7 +3,6 @@ UID: NS:lsotypes._NET_PACKET_LSO
 title: NET_PACKET_LSO (lsotypes.h)
 description: The NET_PACKET_LSO structure contains large send offload (LSO) information for a packet.
 tech.root: netvista
-ms.assetid: dbdc4d6d-06fb-45aa-8792-1bef0538b0d1
 ms.date: 09/23/2019
 keywords: ["NET_PACKET_LSO structure"]
 ms.keywords: NET_PACKET_LSO, NET_PACKET_LSO,

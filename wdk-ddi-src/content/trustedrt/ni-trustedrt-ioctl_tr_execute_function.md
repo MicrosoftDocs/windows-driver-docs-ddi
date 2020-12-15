@@ -2,8 +2,7 @@
 UID: NI:trustedrt.IOCTL_TR_EXECUTE_FUNCTION
 title: IOCTL_TR_EXECUTE_FUNCTION (trustedrt.h)
 description: 
-ms.assetid: 79daccd6-3bda-4ef2-81e4-e68137257369
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["IOCTL_TR_EXECUTE_FUNCTION IOCTL"]
 req.header: trustedrt.h
 req.include-header: 
@@ -19,6 +18,7 @@ req.ddi-compliance:
 req.max-support: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - IOCTL_TR_EXECUTE_FUNCTION
  - trustedrt/IOCTL_TR_EXECUTE_FUNCTION
@@ -36,27 +36,28 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-### -input-buffer-length 
+### -input-buffer-length
 
 ### -output-buffer
 
-### -output-buffer-length 
+### -output-buffer-length
 
 ### -in-out-buffer
 
-### -inout-buffer-length 
+### -inout-buffer-length
 
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
+
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks

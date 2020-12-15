@@ -2,7 +2,6 @@
 UID: NF:sensorsutils.PropKeyFindKeyGetPropVariant
 title: PropKeyFindKeyGetPropVariant function (sensorsutils.h)
 description: This routine finds the PROPVARIANT from a collection list based on the PROPERTYKEY.
-ms.assetid: f649dbee-d3c5-4fd0-afa8-1afa64a97cf6
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetPropVariant function"]
 tech.root: sensors

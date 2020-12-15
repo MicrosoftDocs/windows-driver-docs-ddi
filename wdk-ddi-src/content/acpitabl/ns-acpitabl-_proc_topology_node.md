@@ -2,8 +2,7 @@
 UID: NS:acpitabl._PROC_TOPOLOGY_NODE
 title: _PROC_TOPOLOGY_NODE (acpitabl.h)
 description: Defines the processor topology node structure.
-ms.assetid: f26eebde-0e00-4351-9d22-12d37e15af6b
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE structure"]
 ms.keywords: _PROC_TOPOLOGY_NODE, PROC_TOPOLOGY_NODE, *PPROC_TOPOLOGY_NODE,
 req.header: acpitabl.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: PROC_TOPOLOGY_NODE, *PPROC_TOPOLOGY_NODE
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _PROC_TOPOLOGY_NODE
  - acpitabl/_PROC_TOPOLOGY_NODE
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _PROC_TOPOLOGY_NODE structure
-
 
 ## -description
 
@@ -100,4 +99,3 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
-

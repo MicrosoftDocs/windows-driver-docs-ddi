@@ -3,7 +3,6 @@ UID: NF:lso.NetExtensionGetPacketLso
 title: NetExtensionGetPacketLso function (lso.h)
 description: The NetExtensionGetPacketLso function retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
-ms.assetid: 768d42b2-5b31-42a2-bbc0-86c018205a1b
 ms.date: 09/23/2019
 keywords: ["NetExtensionGetPacketLso function"]
 ms.keywords: NetExtensionGetPacketLso

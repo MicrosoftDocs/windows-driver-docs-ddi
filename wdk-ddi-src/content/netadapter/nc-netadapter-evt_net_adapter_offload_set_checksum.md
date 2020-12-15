@@ -3,7 +3,6 @@ UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM (netadapter.h)
 description: The EvtNetAdapterOffloadSetChecksum callback function is implemented by the client driver to set changes in checksum offload capabilities.
 tech.root: netvista
-ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892
 ms.date: 07/19/2018
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM callback function"]
 req.header: netadapter.h
@@ -80,7 +79,7 @@ VOID EvtNetAdapterOffloadSetChecksum
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md).
 
-For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads).
+For an example implementation of this callback, see [NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/introduction-to-hardware-offloads).
 
 ## -see-also
 

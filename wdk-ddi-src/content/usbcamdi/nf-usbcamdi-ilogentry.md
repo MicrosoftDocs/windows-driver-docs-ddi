@@ -2,8 +2,7 @@
 UID: NF:usbcamdi.ILOGENTRY
 title: ILOGENTRY macro (usbcamdi.h)
 description: 
-ms.assetid: f8206e7e-4474-4cc4-83a8-4973369eab25
-ms.date: 10/19/2018
+ms.date: 11/17/2020
 keywords: ["ILOGENTRY macro"]
 ms.keywords: ILOGENTRY
 req.header: usbcamdi.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: stream
 f1_keywords:
  - ILOGENTRY
  - usbcamdi/ILOGENTRY
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # ILOGENTRY macro
-
 
 ## -description
 
@@ -56,4 +55,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

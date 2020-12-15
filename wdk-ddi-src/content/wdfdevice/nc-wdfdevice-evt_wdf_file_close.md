@@ -4,7 +4,6 @@ title: EVT_WDF_FILE_CLOSE (wdfdevice.h)
 description: A driver's EvtFileClose callback function handles operations that must be performed when all of an application's accesses to a device have been closed.
 old-location: wdf\evtfileclose.htm
 tech.root: wdf
-ms.assetid: 8ddcb9cb-d184-4ec8-a321-599394a8512e
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_FILE_CLOSE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, EVT_WDF_FILE_CLOSE, EVT_WDF_FILE_CLOSE callback, EvtFileClose, EvtFileClose callback function, kmdf.evtfileclose, wdf.evtfileclose, wdfdevice/EvtFileClose

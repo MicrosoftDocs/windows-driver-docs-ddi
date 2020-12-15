@@ -4,7 +4,6 @@ title: _PCI_EXPRESS_ROOT_PORT_INTERFACE (wdm.h)
 description: The PCI_EXPRESS_ROOT_PORT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_express_root_port_interface.htm
 tech.root: PCI
-ms.assetid: c135b69d-864b-4765-903f-3c7a1b236d33
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_ROOT_PORT_INTERFACE structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_PORT_INTERFACE, PCI.pci_express_root_port_interface, PCI_EXPRESS_ROOT_PORT_INTERFACE, PCI_EXPRESS_ROOT_PORT_INTERFACE structure [Buses], _PCI_EXPRESS_ROOT_PORT_INTERFACE, wdm/"

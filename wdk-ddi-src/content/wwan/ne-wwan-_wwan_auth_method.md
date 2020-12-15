@@ -4,7 +4,6 @@ title: _WWAN_AUTH_METHOD (wwan.h)
 description: The WWAN_AUTH_METHOD enumeration lists supported authentication methods.
 old-location: netvista\wwan_auth_method.htm
 tech.root: netvista
-ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_METHOD enumeration"]
 ms.keywords: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, _WWAN_AUTH_METHOD, netvista.wwan_auth_method, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, wwan/WwanAuthSim"

@@ -4,7 +4,6 @@ title: _STOR_RICH_DEVICE_DESCRIPTION (storport.h)
 description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA (direct memory access) adapter.
 old-location: storage\stor_rich_device_description.htm
 tech.root: storage
-ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.date: 03/29/2018
 keywords: ["STOR_RICH_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"

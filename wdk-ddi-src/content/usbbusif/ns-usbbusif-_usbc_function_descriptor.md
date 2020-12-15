@@ -4,7 +4,6 @@ title: _USBC_FUNCTION_DESCRIPTOR (usbbusif.h)
 description: The USBC_FUNCTION_DESCRIPTOR structure describes a USB function and its associated interface collection.
 old-location: buses\usbc_function_descriptor.htm
 tech.root: usbref
-ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.date: 05/07/2018
 keywords: ["USBC_FUNCTION_DESCRIPTOR structure"]
 ms.keywords: "*PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], _USBC_FUNCTION_DESCRIPTOR, buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml"
@@ -92,7 +91,7 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

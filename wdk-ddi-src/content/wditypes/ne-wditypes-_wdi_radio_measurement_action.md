@@ -4,7 +4,6 @@ title: _WDI_RADIO_MEASUREMENT_ACTION (wditypes.h)
 description: The WDI_RADIO_MEASUREMENT_ACTION enumeration defines the radio measurement actions.
 old-location: netvista\wdi_radio_measurement_action.htm
 tech.root: netvista
-ms.assetid: AA17E666-5934-453D-B55D-98F8616F6369
 ms.date: 05/02/2018
 keywords: ["WDI_RADIO_MEASUREMENT_ACTION enumeration"]
 ms.keywords: WDI_RADIO_MEASUREMENT_ACTION, WDI_RADIO_MEASUREMENT_ACTION enumeration [Device and Driver Installation], WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE, _WDI_RADIO_MEASUREMENT_ACTION, netvista.wdi_radio_measurement_action, netvista.wifi_radio_measurement_action, wditypes/WDI_RADIO_MEASUREMENT_ACTION, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE

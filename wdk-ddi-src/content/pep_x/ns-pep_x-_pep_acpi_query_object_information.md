@@ -4,7 +4,6 @@ title: _PEP_ACPI_QUERY_OBJECT_INFORMATION (pep_x.h)
 description: The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object.
 old-location: kernel\pep_acpi_query_object_information.htm
 tech.root: kernel
-ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_QUERY_OBJECT_INFORMATION structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION"
@@ -88,7 +87,7 @@ The number of output arguments produced by the control method.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_kernel_information_struct_v1">PEP_NOTIFY_ACPI_QUERY_OBJECT_INFORMATION</a> notification. The <b>Name</b>, <b>Type</b>, and <b>Flags</b> members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) supplies when this notification is sent. The <b>MethodObject</b> member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_kernel_information_struct_v1">PEP_NOTIFY_ACPI_QUERY_OBJECT_INFORMATION</a> notification. The <b>Name</b>, <b>Type</b>, and <b>Flags</b> members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) supplies when this notification is sent. The <b>MethodObject</b> member contains an output value that the PEP writes to the structure in response to the notification.
 
 ## -see-also
 

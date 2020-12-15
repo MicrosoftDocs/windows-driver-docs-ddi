@@ -4,7 +4,6 @@ title: IDebugBreakpoint2::SetCommandWide (dbgeng.h)
 description: The SetCommandWide method sets the command that is executed when a breakpoint is triggered.
 old-location: debugger\setcommandwide.htm
 tech.root: debugger
-ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetCommandWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetCommandWide method, IDebugBreakpoint2.SetCommandWide, IDebugBreakpoint2::SetCommandWide, SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide

@@ -4,7 +4,6 @@ title: UcxControllerCreate function (ucxcontroller.h)
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
 tech.root: usbref
-ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
 ms.date: 05/07/2018
 keywords: ["UcxControllerCreate function"]
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate

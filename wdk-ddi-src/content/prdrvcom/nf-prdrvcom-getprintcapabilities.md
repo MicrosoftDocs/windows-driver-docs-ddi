@@ -4,7 +4,6 @@ title: GetPrintCapabilities function (prdrvcom.h)
 description: The IPrintTicketProvider::GetPrintCapabilities method queries the provider for a complete print capabilities document that describes the printer's features and parameters.
 old-location: print\iprintticketprovider_getprintcapabilities.htm
 tech.root: print
-ms.assetid: 12dfd953-2336-47ce-8fdc-df8c6138b31d
 ms.date: 04/20/2018
 keywords: ["GetPrintCapabilities function"]
 ms.keywords: GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml

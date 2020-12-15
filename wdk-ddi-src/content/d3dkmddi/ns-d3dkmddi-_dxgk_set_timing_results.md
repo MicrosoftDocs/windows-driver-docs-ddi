@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_SET_TIMING_RESULTS
 title: _DXGK_SET_TIMING_RESULTS (d3dkmddi.h)
 description: Structure to report result flags from the SetTiming call which apply to the complete call rather than individual paths.
 old-location: display\dxgk_set_timing_results.htm
-ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.date: 05/10/2018
 keywords: ["DXGK_SET_TIMING_RESULTS structure"]
 ms.keywords: "*PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices], PDXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], _DXGK_SET_TIMING_RESULTS, d3dkmddi/DXGK_SET_TIMING_RESULTS, d3dkmddi/PDXGK_SET_TIMING_RESULTS, display.dxgk_set_timing_results"

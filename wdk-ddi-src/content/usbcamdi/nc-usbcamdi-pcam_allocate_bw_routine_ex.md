@@ -4,7 +4,6 @@ title: PCAM_ALLOCATE_BW_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamAllocateBandwidthEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camallocatebandwidthex.htm
 tech.root: stream
-ms.assetid: 00d8385e-e339-4e63-a79a-f5fa87d8987d
 ms.date: 04/23/2018
 keywords: ["PCAM_ALLOCATE_BW_ROUTINE_EX callback function"]
 ms.keywords: CamAllocateBandwidthEx, CamAllocateBandwidthEx routine [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE_EX, stream.camallocatebandwidthex, usbcamdi/CamAllocateBandwidthEx, usbcmdpr_dd4a1139-55b9-4342-9eeb-69e902497fa2.xml

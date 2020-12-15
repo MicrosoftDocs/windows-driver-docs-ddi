@@ -3,7 +3,6 @@ UID: NF:ring.NetRingGetElementAtIndex
 title: NetRingGetElementAtIndex function (ring.h)
 description: The NetRingGetElementAtIndex function retrieves an element from a net ring.
 tech.root: netvista
-ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0
 ms.date: 09/25/2019
 keywords: ["NetRingGetElementAtIndex function"]
 ms.keywords: NetRingGetElementAtIndex

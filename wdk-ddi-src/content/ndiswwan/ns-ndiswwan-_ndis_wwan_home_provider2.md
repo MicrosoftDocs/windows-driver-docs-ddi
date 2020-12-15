@@ -4,7 +4,6 @@ title: _NDIS_WWAN_HOME_PROVIDER2 (ndiswwan.h)
 description: The NDIS_WWAN_HOME_PROVIDER2 structure describes details of a home network provider.
 old-location: netvista\ndis_wwan_home_provider2.htm
 tech.root: netvista
-ms.assetid: B01039CF-F4AC-4374-BBB8-ACB204BC40E2
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_HOME_PROVIDER2 structure"]
 ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2 structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER2, PNDIS_WWAN_HOME_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_HOME_PROVIDER2, ndiswwan/NDIS_WWAN_HOME_PROVIDER2, ndiswwan/PNDIS_WWAN_HOME_PROVIDER2, netvista.ndis_wwan_home_provider2"

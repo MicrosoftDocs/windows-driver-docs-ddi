@@ -2,7 +2,7 @@
 UID: NF:ucmucsippm.UcmUcsiPpmCreate
 title: UcmUcsiPpmCreate function (ucmucsippm.h)
 description: Creates a Platform Policy Manager (PPM) object.
-ms.assetid: 2b0d12ae-dc1d-45ff-bde5-a589f0272e3e
+tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmCreate function"]
 ms.keywords: UcmUcsiPpmCreate

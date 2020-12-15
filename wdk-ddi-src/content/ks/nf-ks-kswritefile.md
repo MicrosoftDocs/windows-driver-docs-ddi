@@ -4,7 +4,6 @@ title: KsWriteFile function (ks.h)
 description: The KsWriteFile function performs a write against the specified file object.
 old-location: stream\kswritefile.htm
 tech.root: stream
-ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.date: 04/23/2018
 keywords: ["KsWriteFile function"]
 ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile

@@ -4,7 +4,6 @@ title: RtlStringCchCopyExW function (ntstrsafe.h)
 description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel
-ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyExW function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml

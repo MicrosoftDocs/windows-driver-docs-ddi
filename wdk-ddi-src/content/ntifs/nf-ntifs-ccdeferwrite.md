@@ -4,7 +4,6 @@ title: CcDeferWrite function (ntifs.h)
 description: The CcDeferWrite routine defers writing to a cached file.
 old-location: ifsk\ccdeferwrite.htm
 tech.root: ifsk
-ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.date: 04/16/2018
 keywords: ["CcDeferWrite function"]
 ms.keywords: CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ifsk.ccdeferwrite, ntifs/CcDeferWrite

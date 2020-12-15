@@ -3,6 +3,7 @@ UID: NS:dispmprt._DXGKARG_GETDPADDRESS
 title: DXGKARG_GETDPADDRESS
 ms.date: 03/24/2020
 ms.topic: language-reference
+tech.root: display
 targetos: Windows
 description: The DXGKARG_GETDPADDRESS structure is a parameter for the DXGKDDI_GETDPADDRESS callback.
 req.construct-type: structure

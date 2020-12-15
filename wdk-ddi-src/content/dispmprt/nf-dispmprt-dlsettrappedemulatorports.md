@@ -3,7 +3,6 @@ UID: NF:dispmprt.DlSetTrappedEmulatorPorts
 title: DlSetTrappedEmulatorPorts function
 description: 
 tech.root: display
-ms.assetid: 8a7ee6f8-a1cb-4a92-b6df-cb0c8679599c
 ms.date: 04/04/2019
 keywords: ["DlSetTrappedEmulatorPorts function"]
 ms.keywords: DlSetTrappedEmulatorPorts

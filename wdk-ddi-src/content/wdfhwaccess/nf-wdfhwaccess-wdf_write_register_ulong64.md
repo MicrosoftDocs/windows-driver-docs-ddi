@@ -4,7 +4,6 @@ title: WDF_WRITE_REGISTER_ULONG64 function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 old-location: wdf\wdf_write_register_ulong64.htm
 tech.root: wdf
-ms.assetid: 471B6165-24A0-45E1-AD7F-B7D3468DF573
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WDF_WRITE_REGISTER_ULONG64, WDF_WRITE_REGISTER_ULONG64 function, wdf.wdf_write_register_ulong64, wdfhwaccess/WDF_WRITE_REGISTER_ULONG64

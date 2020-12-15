@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_STATE_OM_DEPTHSTATE_CB
 title: PFND3D10DDI_STATE_OM_DEPTHSTATE_CB (d3d10umddi.h)
 description: The pfnStateOmDepthStateCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger depth state.
 old-location: display\pfnstateomdepthstatecb.htm
-ms.assetid: caa8ea5b-7167-444a-9d81-6e4ea9375dd6
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_STATE_OM_DEPTHSTATE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_OM_DEPTHSTATE_CB, PFND3D10DDI_STATE_OM_DEPTHSTATE_CB callback, d3d10state_functions_85bda608-2aa7-4756-9901-4f568b87ca6b.xml, d3d10umddi/pfnStateOmDepthStateCb, display.pfnstateomdepthstatecb, pfnStateOmDepthStateCb, pfnStateOmDepthStateCb callback function [Display Devices]

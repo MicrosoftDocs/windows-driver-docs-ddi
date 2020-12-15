@@ -4,7 +4,6 @@ title: D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: dc6c65b9-6147-40fc-8012-2a45ecbdc784
 tech.root: display
 description: Deprecated - do not use.
 req.construct-type: structure

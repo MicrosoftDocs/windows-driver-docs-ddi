@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_MMIORANGEINFO
 title: _DXGK_MMIORANGEINFO (dispmprt.h)
 description: The memory management input output range info.
-ms.assetid: 7b745a8e-fdf6-4940-b62e-48886801fc8b
 ms.date: 10/19/2018
 keywords: ["DXGK_MMIORANGEINFO structure"]
 ms.keywords: _DXGK_MMIORANGEINFO, DXGK_MMIORANGEINFO, *PDXGK_MMIORANGEINFO,

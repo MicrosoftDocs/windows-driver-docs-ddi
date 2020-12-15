@@ -4,7 +4,6 @@ title: PoUnregisterPowerSettingCallback function (ntifs.h)
 description: The PoUnregisterPowerSettingCallback routine unregisters a power-setting callback routine that a driver previously registered by calling the PoRegisterPowerSettingCallback routine.
 old-location: kernel\pounregisterpowersettingcallback.htm
 tech.root: kernel
-ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.date: 04/30/2018
 keywords: ["PoUnregisterPowerSettingCallback function"]
 ms.keywords: PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.pounregisterpowersettingcallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, wdm/PoUnregisterPowerSettingCallback

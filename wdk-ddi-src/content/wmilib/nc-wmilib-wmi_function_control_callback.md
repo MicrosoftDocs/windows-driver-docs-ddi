@@ -4,7 +4,6 @@ title: WMI_FUNCTION_CONTROL_CALLBACK (wmilib.h)
 description: The DpWmiFunctionControl routine enables or disables notification of events, and enables or disables data collection for data blocks that the driver registered as expensive to collect. This routine is optional.
 old-location: kernel\dpwmifunctioncontrol.htm
 tech.root: kernel
-ms.assetid: c1480927-eefa-4078-a866-68dc1b7c5e9c
 ms.date: 04/30/2018
 keywords: ["WMI_FUNCTION_CONTROL_CALLBACK callback function"]
 ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK callback, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl

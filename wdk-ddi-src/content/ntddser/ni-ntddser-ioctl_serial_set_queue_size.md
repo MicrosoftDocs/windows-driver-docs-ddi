@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_SET_QUEUE_SIZE (ntddser.h)
 description: The IOCTL_SERIAL_SET_QUEUE_SIZE request sets the size of the internal receive buffer. If the requested size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.
 old-location: serports\ioctl_serial_set_queue_size.htm
 tech.root: serports
-ms.assetid: 532dfe17-c901-4fc5-90d4-d300aa0e5720
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_QUEUE_SIZE IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_QUEUE_SIZE, IOCTL_SERIAL_SET_QUEUE_SIZE control, IOCTL_SERIAL_SET_QUEUE_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE, serports.ioctl_serial_set_queue_size, serref_52ce370d-5e55-4a48-a7d2-87da706bb4e7.xml

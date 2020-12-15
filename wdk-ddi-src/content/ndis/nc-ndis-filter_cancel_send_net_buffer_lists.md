@@ -4,7 +4,6 @@ title: FILTER_CANCEL_SEND_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls a filter driver's FilterCancelSendNetBufferLists function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.Note  You must declare the function by using the FILTER_CANCEL_SEND_NET_BUFFER_LISTS type. For more information, see the following Examples section.
 old-location: netvista\filtercancelsendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
 ms.date: 05/02/2018
 keywords: ["FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
@@ -48,7 +47,7 @@ api_name:
 
 NDIS calls a filter driver's 
   <i>FilterCancelSendNetBufferLists</i> function to cancel the transmission of all 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
   with a specified cancellation identifier.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -77,7 +76,7 @@ The
     NdisFRegisterFilterDriver</a> function.
 
 Filter drivers that queue 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures before sending
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures before sending
     should export a 
     <i>FilterCancelSendNetBufferLists</i> function. The 
     <i>FilterCancelSendNetBufferLists</i> function cancels the pending transmission of the specified
@@ -106,7 +105,7 @@ Traverses its list of queued NET_BUFFER_LIST structures for the specified filter
 </li>
 <li>
 Removes from the send queue (unlinks) all 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures whose
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures whose
       cancellation identifiers match the specified cancellation identifier.
 
 </li>
@@ -169,7 +168,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

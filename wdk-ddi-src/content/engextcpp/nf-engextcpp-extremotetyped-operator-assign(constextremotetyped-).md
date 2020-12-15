@@ -4,7 +4,6 @@ title: ExtRemoteTyped::operator=(const ExtRemoteTyped &) (engextcpp.h)
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_extremotetyped.htm
 tech.root: debugger
-ms.assetid: c6ca8078-a331-4952-9854-831ba95404ee
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::operator=(const ExtRemoteTyped &)"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator= method, ExtRemoteTyped.operator=, ExtRemoteTyped.operator=(const ExtRemoteTyped &), ExtRemoteTyped.operator=(const ExtRemoteTyped&), ExtRemoteTyped::operator=, ExtRemoteTyped::operator=(const ExtRemoteTyped &), debugger.extremotetyped_operatorequals_extremotetyped, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging],ExtRemoteTyped class

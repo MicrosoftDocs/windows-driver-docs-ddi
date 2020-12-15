@@ -2,7 +2,7 @@
 UID: NC:wdm.PGET_DMA_DOMAIN
 title: PGET_DMA_DOMAIN (wdm.h)
 description: 
-ms.assetid: 005216e2-74a5-4048-b855-8616b244d554
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PGET_DMA_DOMAIN callback function"]
 req.header: wdm.h

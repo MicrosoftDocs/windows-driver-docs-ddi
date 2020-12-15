@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_CONNECT_SECURE_ENVIRONMENT
 title: EVT_TR_CONNECT_SECURE_ENVIRONMENT (trustedruntimeclx.h)
 description: 
-ms.assetid: 4fad5c91-d436-46cd-b3ca-41b48b718506
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_CONNECT_SECURE_ENVIRONMENT callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_CONNECT_SECURE_ENVIRONMENT
  - trustedruntimeclx/EVT_TR_CONNECT_SECURE_ENVIRONMENT
@@ -39,12 +39,11 @@ api_name:
 
 # EVT_TR_CONNECT_SECURE_ENVIRONMENT callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param MasterDevice: 
+### -param MasterDevice
 
 ## -returns
 
@@ -55,13 +54,13 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_CONNECT_SECURE_ENVIRONMENT EvtTrConnectSecureEnvironment; 
+EVT_TR_CONNECT_SECURE_ENVIRONMENT EvtTrConnectSecureEnvironment;
 
 // Definition
 
-NTSTATUS EvtTrConnectSecureEnvironment 
+NTSTATUS EvtTrConnectSecureEnvironment
 (
-	WDFDEVICE MasterDevice
+    WDFDEVICE MasterDevice
 )
 {...}
 

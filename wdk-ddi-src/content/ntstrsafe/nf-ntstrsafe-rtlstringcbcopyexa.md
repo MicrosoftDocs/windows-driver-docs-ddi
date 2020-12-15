@@ -4,7 +4,6 @@ title: RtlStringCbCopyExA function (ntstrsafe.h)
 description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopyex.htm
 tech.root: kernel
-ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCopyExA function"]
 ms.keywords: RtlStringCbCopyEx, RtlStringCbCopyExA, RtlStringCbCopyExW, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopyex, ntstrsafe/RtlStringCbCopyExA, ntstrsafe/RtlStringCbCopyExW, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml

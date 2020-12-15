@@ -2,7 +2,7 @@
 UID: NC:wdm.IOMMU_DOMAIN_ATTACH_DEVICE
 title: IOMMU_DOMAIN_ATTACH_DEVICE (wdm.h)
 description: Attaches a device to an existing domain.
-ms.assetid: 9d1b51df-e599-49e4-8465-ad283e60027a
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_ATTACH_DEVICE callback function"]
 req.header: wdm.h

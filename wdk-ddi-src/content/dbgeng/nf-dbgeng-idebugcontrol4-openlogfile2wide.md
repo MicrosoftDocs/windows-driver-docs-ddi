@@ -4,7 +4,6 @@ title: IDebugControl4::OpenLogFile2Wide (dbgeng.h)
 description: The OpenLogFile2Wide method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile2wide.htm
 tech.root: debugger
-ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::OpenLogFile2Wide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2Wide method, IDebugControl4.OpenLogFile2Wide, IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide

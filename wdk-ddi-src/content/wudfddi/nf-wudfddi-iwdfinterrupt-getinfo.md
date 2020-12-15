@@ -4,7 +4,6 @@ title: IWDFInterrupt::GetInfo (wudfddi.h)
 description: The GetInfo method retrieves information about a specified interrupt.
 old-location: wdf\iwdfinterrupt_getinfo.htm
 tech.root: wdf
-ms.assetid: 744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::GetInfo"]
 ms.keywords: GetInfo, GetInfo method, GetInfo method,IWDFInterrupt interface, IWDFInterrupt interface,GetInfo method, IWDFInterrupt.GetInfo, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo

@@ -2,8 +2,7 @@
 UID: NC:wdm.PO_FX_DIRECTED_POWER_DOWN_CALLBACK
 title: PO_FX_DIRECTED_POWER_DOWN_CALLBACK
 description: 
-tech.root: 
-ms.assetid: d4d5aca2-8de7-4cb5-8626-77b0dda843bd
+tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PO_FX_DIRECTED_POWER_DOWN_CALLBACK callback function"]
 req.header: wdm.h

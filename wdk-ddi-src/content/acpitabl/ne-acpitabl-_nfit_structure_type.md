@@ -2,8 +2,7 @@
 UID: NE:acpitabl._NFIT_STRUCTURE_TYPE
 title: _NFIT_STRUCTURE_TYPE enumeration (acpitabl.h)
 description: Describes NVDIMM Firmware Interface Table (NFIT) structure types.
-ms.assetid: a9645635-eb52-45a3-9deb-32a278337646
-ms.date: 10/02/2018
+ms.date: 11/19/2020
 keywords: ["NFIT_STRUCTURE_TYPE enumeration"]
 ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE,
 req.header: acpitabl.h
@@ -17,6 +16,7 @@ req.ddi-compliance:
 req.max-support: 
 req.typenames: NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _NFIT_STRUCTURE_TYPE
  - acpitabl/_NFIT_STRUCTURE_TYPE
@@ -36,48 +36,46 @@ api_name:
 
 # _NFIT_STRUCTURE_TYPE enumeration
 
-
 ## -description
 
 Describes NVDIMM Firmware Interface Table (NFIT) structure types.
 
 ## -enum-fields
 
-### -field NfitSystemPhysicalAddressRange 
+### -field NfitSystemPhysicalAddressRange
 
 Value is 0.
 
-### -field NfitNvdimmRegionMapping 
+### -field NfitNvdimmRegionMapping
 
 Value is 1.
 
-### -field NfitInterleave 
+### -field NfitInterleave
 
 Value is 2.
 
-### -field NfitSmbiosManagementInformation 
+### -field NfitSmbiosManagementInformation
 
 Value is 3.
 
-### -field NfitNvdimmControlRegion 
+### -field NfitNvdimmControlRegion
 
 Value is 4.
 
-### -field NfitNvdimmBlockDataWindowRegion 
+### -field NfitNvdimmBlockDataWindowRegion
 
 Value is 5.
 
-### -field NfitFlushHintAddress 
+### -field NfitFlushHintAddress
 
 Value is 6.
 
-### -field NfitPlatformCapabilities 
+### -field NfitPlatformCapabilities
 
 Value is 7.
 
-### -field NfitMaximum 
+### -field NfitMaximum
 
 ## -remarks
 
 ## -see-also
-

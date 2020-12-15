@@ -2,8 +2,7 @@
 UID: NE:usbcamdi.__unnamed_enum_0
 title: USBCAMD_CamControlFlags (usbcamdi.h)
 description: 
-ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
-ms.date: 10/19/2018
+ms.date: 11/17/2020
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags,
 req.header: usbcamdi.h
@@ -18,6 +17,7 @@ req.max-support:
 req.typenames: USBCAMD_CamControlFlags
 targetos: Windows
 ms.custom: RS5
+tech.root: stream
 f1_keywords:
  - USBCAMD_CamControlFlags
  - usbcamdi/USBCAMD_CamControlFlags
@@ -33,20 +33,18 @@ api_name:
 
 # USBCAMD_CamControlFlags enumeration
 
-
 ## -description
 
 ## -enum-fields
 
-### -field USBCAMD_CamControlFlag_NoVideoRawProcessing 
+### -field USBCAMD_CamControlFlag_NoVideoRawProcessing
 
-### -field USBCAMD_CamControlFlag_NoStillRawProcessing 
+### -field USBCAMD_CamControlFlag_NoStillRawProcessing
 
-### -field USBCAMD_CamControlFlag_AssociatedFormat 
+### -field USBCAMD_CamControlFlag_AssociatedFormat
 
-### -field USBCAMD_CamControlFlag_EnableDeviceEvents 
+### -field USBCAMD_CamControlFlag_EnableDeviceEvents
 
 ## -remarks
 
 ## -see-also
-

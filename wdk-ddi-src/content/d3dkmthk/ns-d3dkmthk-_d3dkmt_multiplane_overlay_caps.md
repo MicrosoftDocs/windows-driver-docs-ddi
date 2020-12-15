@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANE_OVERLAY_CAPS
 title: _D3DKMT_MULTIPLANE_OVERLAY_CAPS (d3dkmthk.h)
 description: Contains multiplane overlay capabilities.
-ms.assetid: 15844fc5-e933-45dc-bbed-e57ed1a26668
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_CAPS structure"]
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_CAPS, D3DKMT_MULTIPLANE_OVERLAY_CAPS,

@@ -4,7 +4,6 @@ title: StorPortSynchronizeAccess function (storport.h)
 description: The StorPortSynchronizeAccess routine provides synchronized access to a miniport driver's device extension.
 old-location: storage\storportsynchronizeaccess.htm
 tech.root: storage
-ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.date: 03/29/2018
 keywords: ["StorPortSynchronizeAccess function"]
 ms.keywords: StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml

@@ -4,7 +4,6 @@ title: IPrintWriteStreamFlush::FlushData (filterpipeline.h)
 description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
 old-location: print\iprintwritestreamflush_flushdata.htm
 tech.root: print
-ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.date: 04/20/2018
 keywords: ["IPrintWriteStreamFlush::FlushData"]
 ms.keywords: FlushData, FlushData method [Print Devices], FlushData method [Print Devices],IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices],FlushData method, IPrintWriteStreamFlush.FlushData, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, print.iprintwritestreamflush_flushdata

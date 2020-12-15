@@ -4,7 +4,6 @@ title: _KEY_VIRTUALIZATION_INFORMATION (ntddk.h)
 description: The KEY_VIRTUALIZATION_INFORMATION structure defines the basic information that is available for a registry key or subkey.
 old-location: kernel\key_virtualization_information.htm
 tech.root: kernel
-ms.assetid: 128dd4ed-12c6-472a-b63c-d2d217b5c716
 ms.date: 04/30/2018
 keywords: ["KEY_VIRTUALIZATION_INFORMATION structure"]
 ms.keywords: "*PKEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VIRTUALIZATION_INFORMATION, kernel.key_virtualization_information, kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, ntddk/KEY_VIRTUALIZATION_INFORMATION, ntddk/PKEY_VIRTUALIZATION_INFORMATION"

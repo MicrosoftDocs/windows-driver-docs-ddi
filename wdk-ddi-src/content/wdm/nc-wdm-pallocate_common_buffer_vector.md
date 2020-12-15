@@ -2,8 +2,7 @@
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_VECTOR
 title: PALLOCATE_COMMON_BUFFER_VECTOR
 description: 
-tech.root: 
-ms.assetid: be2dd87e-6c09-4493-82ef-152dfce0917e
+tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PALLOCATE_COMMON_BUFFER_VECTOR callback function"]
 req.header: wdm.h

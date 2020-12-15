@@ -4,7 +4,6 @@ title: _PEP_COMPONENT_PLATFORM_CONSTRAINTS (pepfx.h)
 description: The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state.
 old-location: kernel\pep_component_platform_constraints.htm
 tech.root: kernel
-ms.assetid: F7C2DFCC-DB74-4E2E-B252-4897FA320C03
 ms.date: 01/11/2019
 keywords: ["PEP_COMPONENT_PLATFORM_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PPEP_COMPONENT_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PLATFORM_CONSTRAINTS, kernel.pep_component_platform_constraints, pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS, pepfx/PPEP_COMPONENT_PLATFORM_CONSTRAINTS"

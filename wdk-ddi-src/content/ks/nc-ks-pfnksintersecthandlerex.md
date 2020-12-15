@@ -4,7 +4,6 @@ title: PFNKSINTERSECTHANDLEREX (ks.h)
 description: AVStream calls a minidriver's AVStrMiniIntersectHandlerEx routine to determine the highest quality intersection of two data ranges.
 old-location: stream\avstrminiintersecthandlerex.htm
 tech.root: stream
-ms.assetid: d80f8bc6-29dc-4cb0-87f5-414ec6418156
 ms.date: 04/23/2018
 keywords: ["PFNKSINTERSECTHANDLEREX callback function"]
 ms.keywords: AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], PFNKSINTERSECTHANDLEREX, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml, ks/AVStrMiniIntersectHandlerEx, stream.avstrminiintersecthandlerex

@@ -2,7 +2,7 @@
 UID: NF:sensorscx.SensorsCxSensorHistoryRetrievalCompleted
 title: SensorsCxSensorHistoryRetrievalCompleted function (sensorscx.h)
 description: The SensorsCxSensorHistoryRetrievalCompleted function indicates that the history retrieval has completed.
-ms.assetid: 69ce718d-117d-45cb-b6fe-7c5ae7c17265
+tech.root: sensors
 ms.date: 10/19/2018
 keywords: ["SensorsCxSensorHistoryRetrievalCompleted function"]
 ms.keywords: SensorsCxSensorHistoryRetrievalCompleted

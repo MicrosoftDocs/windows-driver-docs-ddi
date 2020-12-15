@@ -3,7 +3,6 @@ UID: NE:d3d12umddi.D3D12DDI_BACKGROUND_PROCESSING_MODE_0062
 title: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062
 description: Indicates what level of dynamic profiling and shader recompilation is enabled for background processing.
 tech.root: display
-ms.assetid: 4df549ee-92a9-4b7b-9145-8b532047771c
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_BACKGROUND_PROCESSING_MODE_0062 enumeration"]
 ms.keywords: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, D3D12DDI_BACKGROUND_PROCESSING_MODE_0062,

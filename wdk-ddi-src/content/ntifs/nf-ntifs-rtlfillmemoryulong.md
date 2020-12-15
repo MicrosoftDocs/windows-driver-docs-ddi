@@ -4,7 +4,6 @@ title: RtlFillMemoryUlong function (ntifs.h)
 description: The RtlFillMemoryUlong routine fills the specified range of memory with one or more repetitions of a ULONG value.
 old-location: ifsk\rtlfillmemoryulong.htm
 tech.root: ifsk
-ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.date: 04/16/2018
 keywords: ["RtlFillMemoryUlong function"]
 ms.keywords: RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ifsk.rtlfillmemoryulong, ntifs/RtlFillMemoryUlong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
@@ -69,7 +68,7 @@ ULONG value with which to fill the memory block.
 
 If the block of memory at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlong</b> must be running at IRQL < DISPATCH_LEVEL. 
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>.
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/_kernel/#buffered-data-and-buffer-initialization">Buffered Data and Buffer Initialization</a>.
 
 ## -see-also
 

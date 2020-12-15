@@ -2,7 +2,7 @@
 UID: NF:wdm.KzLowerIrql
 title: KzLowerIrql function (wdm.h)
 description: Restores the IRQL on the current processor to its original value.
-ms.assetid: 516b6d64-447e-427e-a544-88b9dc8bea66
+tech.root: kernel
 ms.date: 09/30/2018
 keywords: ["KzLowerIrql function"]
 ms.keywords: KzLowerIrql, KeLowerIrql

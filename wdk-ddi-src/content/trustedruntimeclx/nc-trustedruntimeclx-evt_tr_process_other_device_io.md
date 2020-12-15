@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_DEVICE_IO
 title: EVT_TR_PROCESS_OTHER_DEVICE_IO (trustedruntimeclx.h)
 description: 
-ms.assetid: 33c1d7c7-75bc-4a1d-a7b4-d85180224a68
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_PROCESS_OTHER_DEVICE_IO callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_PROCESS_OTHER_DEVICE_IO
  - trustedruntimeclx/EVT_TR_PROCESS_OTHER_DEVICE_IO
@@ -39,28 +39,27 @@ api_name:
 
 # EVT_TR_PROCESS_OTHER_DEVICE_IO callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param MasterDevice: 
+### -param MasterDevice
 
-### -param Request: 
+### -param Request
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-EVT_TR_PROCESS_OTHER_DEVICE_IO EvtTrProcessOtherDeviceIo; 
+EVT_TR_PROCESS_OTHER_DEVICE_IO EvtTrProcessOtherDeviceIo;
 
 // Definition
 
-VOID EvtTrProcessOtherDeviceIo 
+VOID EvtTrProcessOtherDeviceIo
 (
-	WDFDEVICE MasterDevice
-	WDFREQUEST Request
+    WDFDEVICE MasterDevice
+    WDFREQUEST Request
 )
 {...}
 
@@ -69,4 +68,3 @@ VOID EvtTrProcessOtherDeviceIo
 ## -remarks
 
 ## -see-also
-

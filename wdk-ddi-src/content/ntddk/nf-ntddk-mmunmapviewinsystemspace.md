@@ -2,7 +2,7 @@
 UID: NF:ntddk.MmUnmapViewInSystemSpace
 title: MmUnmapViewInSystemSpace function (ntddk.h)
 description: 
-ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["MmUnmapViewInSystemSpace function"]
 ms.keywords: MmUnmapViewInSystemSpace

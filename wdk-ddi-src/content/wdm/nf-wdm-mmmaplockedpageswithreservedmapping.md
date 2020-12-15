@@ -4,7 +4,6 @@ title: MmMapLockedPagesWithReservedMapping function (wdm.h)
 description: The MmMapLockedPagesWithReservedMapping routine maps all or part of an address range that was previously reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmmaplockedpageswithreservedmapping.htm
 tech.root: kernel
-ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.date: 04/30/2018
 keywords: ["MmMapLockedPagesWithReservedMapping function"]
 ms.keywords: MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, wdm/MmMapLockedPagesWithReservedMapping

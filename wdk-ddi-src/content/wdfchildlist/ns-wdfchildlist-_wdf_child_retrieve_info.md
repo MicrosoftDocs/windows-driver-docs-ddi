@@ -4,7 +4,6 @@ title: _WDF_CHILD_RETRIEVE_INFO (wdfchildlist.h)
 description: The WDF_CHILD_RETRIEVE_INFO structure contains information about a child device that is obtained by calling WdfChildListRetrieveNextDevice or WdfChildListRetrievePdo.
 old-location: wdf\wdf_child_retrieve_info.htm
 tech.root: wdf
-ms.assetid: 0c48e7cd-e9aa-4ae7-bd44-fe16e1b0d619
 ms.date: 02/26/2018
 keywords: ["WDF_CHILD_RETRIEVE_INFO structure"]
 ms.keywords: "*PWDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, PWDF_CHILD_RETRIEVE_INFO, PWDF_CHILD_RETRIEVE_INFO structure pointer, WDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO structure, _WDF_CHILD_RETRIEVE_INFO, kmdf.wdf_child_retrieve_info, wdf.wdf_child_retrieve_info, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO"

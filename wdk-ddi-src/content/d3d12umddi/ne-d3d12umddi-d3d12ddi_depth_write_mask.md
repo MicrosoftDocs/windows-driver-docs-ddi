@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_DEPTH_WRITE_MASK
 title: D3D12DDI_DEPTH_WRITE_MASK (d3d12umddi.h)
 description: The write properties for a depth stencil state.
-ms.assetid: 68ba6a98-7e27-4550-9f34-ad45788da016
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_DEPTH_WRITE_MASK enumeration"]
 ms.keywords: D3D12DDI_DEPTH_WRITE_MASK, D3D12DDI_DEPTH_WRITE_MASK,

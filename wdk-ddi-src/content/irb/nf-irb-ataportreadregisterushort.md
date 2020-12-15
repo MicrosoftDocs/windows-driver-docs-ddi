@@ -4,7 +4,6 @@ title: AtaPortReadRegisterUshort function (irb.h)
 description: The AtaPortReadRegisterUshort routine reads a USHORT value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterushort.htm
 tech.root: storage
-ms.assetid: a0a9792c-a2a1-4079-9e1c-c41c5b872fa0
 ms.date: 03/29/2018
 keywords: ["AtaPortReadRegisterUshort function"]
 ms.keywords: AtaPortReadRegisterUshort, AtaPortReadRegisterUshort routine [Storage Devices], atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, irb/AtaPortReadRegisterUshort, storage.ataportreadregisterushort

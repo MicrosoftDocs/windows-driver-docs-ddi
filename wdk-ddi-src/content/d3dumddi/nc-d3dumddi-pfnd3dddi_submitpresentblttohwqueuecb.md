@@ -2,7 +2,6 @@
 UID: NC:d3dumddi.PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
 title: PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB (d3dumddi.h)
 description: Implemented by the client driver to submit a present blt to the hardware queue.
-ms.assetid: e699bb81-9414-4396-a08b-11ae38b3d8c2
 ms.date: 10/19/2018
 keywords: ["PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function"]
 req.header: d3dumddi.h

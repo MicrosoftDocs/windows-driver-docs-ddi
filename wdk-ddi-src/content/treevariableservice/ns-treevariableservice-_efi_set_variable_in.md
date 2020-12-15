@@ -2,8 +2,7 @@
 UID: NS:treevariableservice._EFI_SET_VARIABLE_IN
 title: _EFI_SET_VARIABLE_IN (treevariableservice.h)
 description: 
-ms.assetid: 0f757049-c885-429d-9901-200c645c5a94
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_IN structure"]
 ms.keywords: _EFI_SET_VARIABLE_IN, EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN,
 req.header: treevariableservice.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _EFI_SET_VARIABLE_IN
  - treevariableservice/_EFI_SET_VARIABLE_IN
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _EFI_SET_VARIABLE_IN structure
-
 
 ## -description
 
@@ -60,4 +59,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

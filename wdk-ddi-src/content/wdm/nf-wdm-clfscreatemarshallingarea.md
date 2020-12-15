@@ -4,7 +4,6 @@ title: ClfsCreateMarshallingArea function (wdm.h)
 description: The ClfsCreateMarshallingArea routine creates a marshalling area for a CLFS stream and returns a pointer to an opaque context that represents the new marshalling area.
 old-location: kernel\clfscreatemarshallingarea.htm
 tech.root: kernel
-ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.date: 04/30/2018
 keywords: ["ClfsCreateMarshallingArea function"]
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea

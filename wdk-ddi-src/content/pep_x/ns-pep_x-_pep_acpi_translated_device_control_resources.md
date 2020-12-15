@@ -4,7 +4,6 @@ title: _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES (pep_x.h)
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel
-ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
@@ -79,7 +78,7 @@ The <b>PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES</b> structure contains a lis
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_translated_device_control_resources">PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES</a> notification to provide the PEP with a list of translated power control resources. The <b>RequestFlags</b>, <b>ResourceBufferSize</b>, and <b>TranslatedResources</b> members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) supplies when this notification is sent. The <b>Status</b> member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_translated_device_control_resources">PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES</a> notification to provide the PEP with a list of translated power control resources. The <b>RequestFlags</b>, <b>ResourceBufferSize</b>, and <b>TranslatedResources</b> members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) supplies when this notification is sent. The <b>Status</b> member contains an output value that the PEP writes to the structure in response to the notification.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: AtaPortReadRegisterBufferUchar function (irb.h)
 description: The AtaPortReadRegisterBufferUchar routine transfers a specified number of unsigned bytes from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterbufferuchar.htm
 tech.root: storage
-ms.assetid: adc6724b-f3dc-4605-8ee1-198c88bc3fcd
 ms.date: 03/29/2018
 keywords: ["AtaPortReadRegisterBufferUchar function"]
 ms.keywords: AtaPortReadRegisterBufferUchar, AtaPortReadRegisterBufferUchar routine [Storage Devices], atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, irb/AtaPortReadRegisterBufferUchar, storage.ataportreadregisterbufferuchar

@@ -4,7 +4,6 @@ title: PFND3DDDI_CREATELIGHT (d3dumddi.h)
 description: The CreateLight function creates a light source.
 old-location: display\createlight.htm
 tech.root: display
-ms.assetid: 4649b1d1-6fd3-48fb-b25f-1228851bb682
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATELIGHT callback function"]
 ms.keywords: CreateLight, CreateLight callback function [Display Devices], PFND3DDDI_CREATELIGHT, PFND3DDDI_CREATELIGHT callback, UserModeDisplayDriver_Functions_c6b9e247-5a6b-4e90-bcbd-bc02708ca555.xml, d3dumddi/CreateLight, display.createlight

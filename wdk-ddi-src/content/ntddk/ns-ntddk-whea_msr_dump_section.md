@@ -1,6 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_MSR_DUMP_SECTION
 title: WHEA_MSR_DUMP_SECTION
+tech.root: whea
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows

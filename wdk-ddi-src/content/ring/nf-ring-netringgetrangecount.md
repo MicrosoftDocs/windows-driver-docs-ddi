@@ -3,7 +3,6 @@ UID: NF:ring.NetRingGetRangeCount
 title: NetRingGetRangeCount function (ring.h)
 description: Calculates the number of elements contained in a range of the specified net ring buffer.
 tech.root: netvista
-ms.assetid: 665010d3-f177-470c-a721-188c81a4cae7
 ms.date: 01/31/2019
 keywords: ["NetRingGetRangeCount function"]
 ms.keywords: NetRingGetRangeCount

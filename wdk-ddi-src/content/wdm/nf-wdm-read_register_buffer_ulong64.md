@@ -4,7 +4,6 @@ title: READ_REGISTER_BUFFER_ULONG64 function (wdm.h)
 description: The READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_ulong64.htm
 tech.root: kernel
-ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
 ms.date: 09/15/2020
 keywords: ["READ_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function

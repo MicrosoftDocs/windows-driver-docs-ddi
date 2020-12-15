@@ -4,7 +4,6 @@ title: NdisSendNetBufferLists function (ndis.h)
 description: Protocol drivers call the NdisSendNetBufferLists function to send network data that is contained in a list of NET_BUFFER_LIST structures.
 old-location: netvista\ndissendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.date: 05/02/2018
 keywords: ["NdisSendNetBufferLists function"]
 ms.keywords: NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, netvista.ndissendnetbufferlists
@@ -49,7 +48,7 @@ api_name:
 
 Protocol drivers call the 
   <b>NdisSendNetBufferLists</b> function to send network data that is contained in a list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
 ## -parameters
 
@@ -64,7 +63,7 @@ A handle that identifies the target adapter. A previous call to
 
 [in]
 A pointer to a linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
@@ -106,7 +105,7 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
 
 After a protocol driver calls 
     <b>NdisSendNetBufferLists</b>, NDIS submits the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to an underlying
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures to an underlying
     driver's 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">
     MiniportSendNetBufferLists</a> function.
@@ -197,7 +196,7 @@ Until NDIS calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

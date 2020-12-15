@@ -4,7 +4,6 @@ title: IOCTL_PMI_SET_CONFIGURATION (pmi.h)
 description: The IOCTL_PMI_SET_CONFIGURATION request sets the configuration data for a power meter.
 old-location: powermeter\ioctl_pmi_set_configuration.htm
 tech.root: powermeter
-ms.assetid: c8eff87f-b8af-4876-9327-545eeff958c3
 ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_SET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration

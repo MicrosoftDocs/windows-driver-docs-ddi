@@ -4,7 +4,6 @@ title: ExQueryTimerResolution function (wdm.h)
 description: The ExQueryTimerResolution routine reports the range of timer resolutions that are supported by the system clock.
 old-location: kernel\exquerytimerresolution.htm
 tech.root: kernel
-ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.date: 04/30/2018
 keywords: ["ExQueryTimerResolution function"]
 ms.keywords: ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution

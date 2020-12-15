@@ -2,8 +2,8 @@
 UID: NS:minitape._ERROR_HISTORY_DIRECTORY
 title: _ERROR_HISTORY_DIRECTORY (minitape.h)
 description: 
-ms.assetid: 3edc0df4-936f-42ce-bd19-3b81a39a82b0
 ms.date: 10/19/2018
+tech.root: storage
 keywords: ["ERROR_HISTORY_DIRECTORY structure"]
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY,
 req.header: minitape.h

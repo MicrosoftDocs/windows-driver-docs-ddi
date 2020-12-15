@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
 title: PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS (d3dkmthk.h)
 description: The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function sets the scheduling priority for a process.
-ms.assetid: cd229812-8237-46b2-9e13-45248a1e65b7
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function"]
 req.header: d3dkmthk.h

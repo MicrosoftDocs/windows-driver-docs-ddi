@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_DSI2_PACKET
 title: DXGK_DSI2_PACKET
 description: DSI-2 (display serial interface) packet structure.
 tech.root: display
-ms.assetid: 917a6038-213d-42af-b4d5-66b4a9fdbb0d
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_PACKET structure"]
 f1_keywords:

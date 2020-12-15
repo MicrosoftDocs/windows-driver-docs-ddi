@@ -2,8 +2,7 @@
 UID: NS:acpitabl._IVHD_ACPI_DEVICE_ENTRY
 title: _IVHD_ACPI_DEVICE_ENTRY (acpitabl.h)
 description: Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry structure.
-ms.assetid: a21ba0d1-de8c-457a-86b3-2f85ba5abef1
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["IVHD_ACPI_DEVICE_ENTRY structure"]
 ms.keywords: _IVHD_ACPI_DEVICE_ENTRY, IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY,
 req.header: acpitabl.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _IVHD_ACPI_DEVICE_ENTRY
  - acpitabl/_IVHD_ACPI_DEVICE_ENTRY
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _IVHD_ACPI_DEVICE_ENTRY structure
-
 
 ## -description
 
@@ -82,4 +81,3 @@ Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry stru
 ## -remarks
 
 ## -see-also
-

@@ -4,7 +4,6 @@ title: RtlLongToUChar function (ntintsafe.h)
 description: Converts a value of type LONG to a value of type UCHAR.
 old-location: kernel\rtllongtouchar.htm
 tech.root: kernel
-ms.assetid: 22440E1D-8DF5-4391-90F4-6080AAAC65D1
 ms.date: 04/30/2018
 keywords: ["RtlLongToUChar function"]
 ms.keywords: RtlLongToUChar, RtlLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtllongtouchar, ntintsafe/RtlLongToUChar

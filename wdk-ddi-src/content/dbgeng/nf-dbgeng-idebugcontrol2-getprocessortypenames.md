@@ -4,7 +4,6 @@ title: IDebugControl2::GetProcessorTypeNames (dbgeng.h)
 description: The GetProcessorTypeNames method returns the full name and abbreviated name of the specified processor type.
 old-location: debugger\getprocessortypenames.htm
 tech.root: debugger
-ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetProcessorTypeNames"]
 ms.keywords: GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging],IDebugControl interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl2 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl2.GetProcessorTypeNames, IDebugControl2::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames

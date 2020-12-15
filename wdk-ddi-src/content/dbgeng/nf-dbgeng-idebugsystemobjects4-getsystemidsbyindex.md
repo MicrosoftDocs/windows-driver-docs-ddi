@@ -4,7 +4,6 @@ title: IDebugSystemObjects4::GetSystemIdsByIndex (dbgeng.h)
 description: The GetSystemIdsByIndex method returns the engine target IDs for the specified targets.
 old-location: debugger\getsystemidsbyindex.htm
 tech.root: debugger
-ms.assetid: 7b2dcb75-f674-4a66-a483-8c3f644390c1
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects4::GetSystemIdsByIndex"]
 ms.keywords: GetSystemIdsByIndex, GetSystemIdsByIndex method [Windows Debugging], GetSystemIdsByIndex method [Windows Debugging],IDebugSystemObjects3 interface, GetSystemIdsByIndex method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetSystemIdsByIndex method, IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging],GetSystemIdsByIndex method, IDebugSystemObjects4.GetSystemIdsByIndex, IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, debugger.getsystemidsbyindex

@@ -4,7 +4,6 @@ title: IDebugSymbols3::StartSymbolMatchWide (dbgeng.h)
 description: The StartSymbolMatchWide method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatchwide.htm
 tech.root: debugger
-ms.assetid: dbf8c1a3-cc59-40d7-8355-62891b5b45d2
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::StartSymbolMatchWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],StartSymbolMatchWide method, IDebugSymbols3.StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::StartSymbolMatchWide, debugger.startsymbolmatchwide

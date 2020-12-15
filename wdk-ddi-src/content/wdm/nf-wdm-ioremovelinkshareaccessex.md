@@ -2,8 +2,7 @@
 UID: NF:wdm.IoRemoveLinkShareAccessEx
 title: IoRemoveLinkShareAccessEx function
 description: The IoRemoveLinkShareAccessEx routine removes the access and share access information in a file system Share Access structure for a given open instance.
-tech.root: 
-ms.assetid: 27927d21-35cd-4036-b4b0-23d17cc9cde2
+tech.root: ifsk
 ms.date: 03/12/2019
 keywords: ["IoRemoveLinkShareAccessEx function"]
 ms.keywords: IoRemoveLinkShareAccessEx, IoRemoveLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoRemoveLinkShareAccessEx, wdm/IoRemoveLinkShareAccessEx

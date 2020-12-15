@@ -4,7 +4,6 @@ title: IDebugBreakpoint2::GetId (dbgeng.h)
 description: The GetId method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
 old-location: debugger\getid.htm
 tech.root: debugger
-ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::GetId"]
 ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, GetId method [Windows Debugging], GetId method [Windows Debugging],IDebugBreakpoint interface, GetId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetId method, IDebugBreakpoint2 interface [Windows Debugging],GetId method, IDebugBreakpoint2.GetId, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid

@@ -2,7 +2,7 @@
 UID: NF:wdfdriver.WdfDriverErrorReportApiMissing
 title: WdfDriverErrorReportApiMissing function (wdfdriver.h)
 description: 
-ms.assetid: fdd7c033-0b0a-46d7-8488-ac7d49b37676
+tech.root: wdf
 ms.date: 10/19/2018
 keywords: ["WdfDriverErrorReportApiMissing function"]
 ms.keywords: WdfDriverErrorReportApiMissing

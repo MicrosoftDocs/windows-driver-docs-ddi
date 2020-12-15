@@ -4,7 +4,6 @@ title: IMiniportStreamAudioEngineNode::GetStreamChannelCount (portcls.h)
 description: Gets a count of the number of channels available for the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelcount.htm
 tech.root: audio
-ms.assetid: D39376D8-CD1D-4E07-8017-0B552A4D2E59
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelCount"]
 ms.keywords: GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], GetStreamChannelCount method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelCount method, IMiniportStreamAudioEngineNode.GetStreamChannelCount, IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount

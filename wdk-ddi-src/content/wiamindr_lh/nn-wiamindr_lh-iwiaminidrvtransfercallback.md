@@ -4,7 +4,6 @@ title: IWiaMiniDrvTransferCallback (wiamindr_lh.h)
 description: This is a Callback interface that is called by the WIA mini-driver for stream-based transfers.
 old-location: image\iwiaminidrvtransfercallback.htm
 tech.root: image
-ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvTransferCallback interface"]
 ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback

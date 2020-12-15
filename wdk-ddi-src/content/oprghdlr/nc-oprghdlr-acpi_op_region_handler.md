@@ -4,8 +4,7 @@ title: ACPI_OP_REGION_HANDLER (oprghdlr.h)
 description: An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the ACPI driver to the device's operation region.
 old-location: acpi\pacpi_op_region_handler.htm
 tech.root: acpi
-ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
-ms.date: 08/20/2020
+ms.date: 11/19/2020
 keywords: ["ACPI_OP_REGION_HANDLER callback function"]
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
 req.header: oprghdlr.h
@@ -24,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: (See Remarks section)
+req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -43,7 +42,6 @@ api_name:
 
 # ACPI_OP_REGION_HANDLER callback function
 
-
 ## -description
 
 An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the [ACPI driver](/windows-hardware/drivers/kernel/acpi-driver) to the device's operation region.
@@ -61,7 +59,7 @@ Specifies one of the following access types:
 
 ### -param OperationRegionObject
 
-Specifies the operation region object returned by [RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md) for the operation region handler.
+Specifies the operation region object returned by **RegisterOpRegionHandler** for the operation region handler.
 
 ### -param Address
 
@@ -109,6 +107,4 @@ For detailed information about constraints on operation regions, see the [Advanc
 
 ## -see-also
 
-[DeRegisterOpRegionHandler](./nf-oprghdlr-deregisteropregionhandler.md)
-
-[RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md)
+[DeRegisterOpRegionHandler](nf-oprghdlr-deregisteropregionhandler.md)

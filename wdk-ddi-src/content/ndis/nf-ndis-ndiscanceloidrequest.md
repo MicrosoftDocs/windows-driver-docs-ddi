@@ -4,7 +4,6 @@ title: NdisCancelOidRequest function (ndis.h)
 description: Protocol drivers call the NdisCancelOidRequest function to cancel a previous request to the underlying drivers.
 old-location: netvista\ndiscanceloidrequest.htm
 tech.root: netvista
-ms.assetid: 4cb12ac3-7cb6-4773-b680-d77a55b19246
 ms.date: 05/02/2018
 keywords: ["NdisCancelOidRequest function"]
 ms.keywords: NdisCancelOidRequest, NdisCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelOidRequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, netvista.ndiscanceloidrequest

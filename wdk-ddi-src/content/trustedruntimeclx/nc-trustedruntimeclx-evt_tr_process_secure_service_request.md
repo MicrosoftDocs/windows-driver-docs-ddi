@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
 title: EVT_TR_PROCESS_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
-ms.assetid: a79196b5-1c91-4b88-a6a7-8e5dc9814233
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
  - trustedruntimeclx/EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
@@ -39,26 +39,25 @@ api_name:
 
 # EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
-### -param SessionContext: 
+### -param SessionContext
 
-### -param RequestHandle: 
+### -param RequestHandle
 
-### -param Priority: 
+### -param Priority
 
-### -param Request: 
+### -param Request
 
-### -param Flags: 
+### -param Flags
 
-### -param BytesWritten: 
+### -param BytesWritten
 
-### -param RequestContext: 
+### -param RequestContext
 
 ## -returns
 
@@ -69,20 +68,20 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-EVT_TR_PROCESS_SECURE_SERVICE_REQUEST EvtTrProcessSecureServiceRequest; 
+EVT_TR_PROCESS_SECURE_SERVICE_REQUEST EvtTrProcessSecureServiceRequest;
 
 // Definition
 
-NTSTATUS EvtTrProcessSecureServiceRequest 
+NTSTATUS EvtTrProcessSecureServiceRequest
 (
-	WDFDEVICE ServiceDevice
-	WDFOBJECT SessionContext
-	PVOID RequestHandle
-	KPRIORITY Priority
-	PTR_SERVICE_REQUEST Request
-	ULONG Flags
-	PULONG_PTR BytesWritten
-	PVOID * RequestContext
+    WDFDEVICE ServiceDevice
+    WDFOBJECT SessionContext
+    PVOID RequestHandle
+    KPRIORITY Priority
+    PTR_SERVICE_REQUEST Request
+    ULONG Flags
+    PULONG_PTR BytesWritten
+    PVOID * RequestContext
 )
 {...}
 

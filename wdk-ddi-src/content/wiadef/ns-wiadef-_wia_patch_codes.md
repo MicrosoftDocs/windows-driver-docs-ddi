@@ -4,7 +4,6 @@ title: _WIA_PATCH_CODES (wiadef.h)
 description: The WIA_PATCH_CODES structure stores header information for the patch code metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_patch_codes.htm
 tech.root: image
-ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.date: 05/03/2018
 keywords: ["WIA_PATCH_CODES structure"]
 ms.keywords: WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices], _WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES

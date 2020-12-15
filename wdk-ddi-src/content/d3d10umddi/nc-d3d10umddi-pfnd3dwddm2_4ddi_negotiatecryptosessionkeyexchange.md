@@ -2,7 +2,6 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE
 title: PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE (d3d10umddi.h)
 description: Establishes a session key for a cryptographic session object.
-ms.assetid: 29deaace-55a0-406e-949e-c3aca2b8097c
 ms.date: 10/19/2018
 keywords: ["PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE callback function"]
 req.header: d3d10umddi.h

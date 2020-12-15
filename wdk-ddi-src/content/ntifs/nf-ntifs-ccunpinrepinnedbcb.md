@@ -4,7 +4,6 @@ title: CcUnpinRepinnedBcb function (ntifs.h)
 description: The CcUnpinRepinnedBcb routine unpins a repinned buffer control block (BCB).
 old-location: ifsk\ccunpinrepinnedbcb.htm
 tech.root: ifsk
-ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.date: 04/16/2018
 keywords: ["CcUnpinRepinnedBcb function"]
 ms.keywords: CcUnpinRepinnedBcb, CcUnpinRepinnedBcb routine [Installable File System Drivers], ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ifsk.ccunpinrepinnedbcb, ntifs/CcUnpinRepinnedBcb

@@ -4,7 +4,6 @@ title: KSPROPERTY_QUALITY (ks.h)
 description: 
 old-location: stream\ksproperty_quality.htm
 tech.root: stream
-ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_QUALITY enumeration"]
 ms.keywords: KSPROPERTY_QUALITY, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY_REPORT, stream.ksproperty_quality

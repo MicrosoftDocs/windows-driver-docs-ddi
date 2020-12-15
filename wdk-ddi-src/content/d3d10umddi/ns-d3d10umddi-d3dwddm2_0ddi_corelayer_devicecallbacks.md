@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
 title: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS (d3d10umddi.h)
 description: This structure contains the function table for the core layer device callback functions.
 old-location: display\d3dwddm2_0ddi_corelayer_devicecallbacks.htm
-ms.assetid: A8E60BF8-2DFE-479A-9DA9-C3D9B012EBE9
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS structure"]
 ms.keywords: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_0ddi_corelayer_devicecallbacks

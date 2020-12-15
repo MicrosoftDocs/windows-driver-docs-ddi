@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TX_PEER_BACKLOG (dot11wdi.h)
 description: The MiniportWdiTxPeerBacklog handler function is issued when a paused peer has a change in backlog state.
 old-location: netvista\miniportwditxpeerbacklog.htm
 tech.root: netvista
-ms.assetid: 49DC9034-9A50-4B0F-B7F7-A06147D1046F
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TX_PEER_BACKLOG callback function"]
 ms.keywords: MINIPORT_WDI_TX_PEER_BACKLOG, MINIPORT_WDI_TX_PEER_BACKLOG callback, MiniportWdiTxPeerBacklog, MiniportWdiTxPeerBacklog callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxPeerBacklog, netvista.miniportwditxpeerbacklog

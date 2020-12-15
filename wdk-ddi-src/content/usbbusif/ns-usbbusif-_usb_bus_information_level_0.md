@@ -4,7 +4,6 @@ title: _USB_BUS_INFORMATION_LEVEL_0 (usbbusif.h)
 description: The USB_BUS_INFORMATION_LEVEL_0 structure is used in conjunction with the QueryBusInformation interface routine to report information about the bus.
 old-location: buses\usb_bus_information_level_0.htm
 tech.root: usbref
-ms.assetid: b590493d-59a0-460d-b025-8fac63e62f6a
 ms.date: 05/07/2018
 keywords: ["USB_BUS_INFORMATION_LEVEL_0 structure"]
 ms.keywords: "*PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0 structure pointer [Buses], USB_BUS_INFORMATION_LEVEL_0, USB_BUS_INFORMATION_LEVEL_0 structure [Buses], _USB_BUS_INFORMATION_LEVEL_0, buses.usb_bus_information_level_0, usbbusif/PUSB_BUS_INFORMATION_LEVEL_0, usbbusif/USB_BUS_INFORMATION_LEVEL_0, usbstrct_19a2e4ab-663a-4cb9-b21c-182d1de11b68.xml"
@@ -74,4 +73,4 @@ For more information about how to obtain the proper level of USB interface, see 
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

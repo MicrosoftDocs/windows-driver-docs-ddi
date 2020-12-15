@@ -2,8 +2,7 @@
 UID: NS:trustedrt._TR_SERVICE_REQUEST_RESPONSE_V1
 title: _TR_SERVICE_REQUEST_RESPONSE_V1 (trustedrt.h)
 description: 
-ms.assetid: 93266fd6-6a9b-4c83-af71-91b78a4e3387
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TR_SERVICE_REQUEST_RESPONSE_V1 structure"]
 ms.keywords: _TR_SERVICE_REQUEST_RESPONSE_V1, TR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE, TR_SERVICE_REQUEST_RESPONSE
 req.header: trustedrt.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: TR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE_V1
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - _TR_SERVICE_REQUEST_RESPONSE_V1
  - trustedrt/_TR_SERVICE_REQUEST_RESPONSE_V1
@@ -40,7 +40,6 @@ api_name:
 
 # _TR_SERVICE_REQUEST_RESPONSE_V1 structure
 
-
 ## -description
 
 ## -struct-fields
@@ -52,4 +51,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

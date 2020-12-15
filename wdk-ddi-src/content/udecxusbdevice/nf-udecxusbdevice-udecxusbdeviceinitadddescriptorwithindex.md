@@ -4,7 +4,6 @@ title: UdecxUsbDeviceInitAddDescriptorWithIndex function (udecxusbdevice.h)
 description: Adds a USB descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitadddescriptorwithindex.htm
 tech.root: usbref
-ms.assetid: 96DF01F1-2584-4152-8EB9-D2515CA42B03
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitAddDescriptorWithIndex function"]
 ms.keywords: UdecxUsbDeviceInitAddDescriptorWithIndex, UdecxUsbDeviceInitAddDescriptorWithIndex function [Buses], buses.udecxusbdeviceinitadddescriptorwithindex, udecxusbdevice/UdecxUsbDeviceInitAddDescriptorWithIndex
@@ -81,7 +80,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB String Descriptors</a>
+<a href="/windows-hardware/drivers/usbcon/usb-string-descriptors">USB String Descriptors</a>
 
 
 

@@ -4,7 +4,6 @@ title: IWDFWorkItem::Flush (wudfddi.h)
 description: The Flush method returns after this interface's work item has been serviced.
 old-location: wdf\iwdfworkitem_flush.htm
 tech.root: wdf
-ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.date: 02/26/2018
 keywords: ["IWDFWorkItem::Flush"]
 ms.keywords: Flush, Flush method, Flush method,IWDFWorkItem interface, IWDFWorkItem interface,Flush method, IWDFWorkItem.Flush, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush

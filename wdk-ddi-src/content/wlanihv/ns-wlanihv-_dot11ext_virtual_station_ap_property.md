@@ -4,7 +4,6 @@ title: _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_virtual_station_ap_property.htm
 tech.root: netvista
-ms.assetid: b6edad03-63fc-4a27-b999-9014d3735861
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure"]
 ms.keywords: "*PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_13a72b1b-41e4-4651-a4d5-a120a628defd.xml, PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, netvista.dot11ext_virtual_station_ap_property, wlanihv/DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, wlanihv/PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY"

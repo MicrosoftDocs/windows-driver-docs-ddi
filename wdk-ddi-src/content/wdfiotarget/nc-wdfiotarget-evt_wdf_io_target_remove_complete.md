@@ -4,7 +4,6 @@ title: EVT_WDF_IO_TARGET_REMOVE_COMPLETE (wdfiotarget.h)
 description: A driver's EvtIoTargetRemoveComplete event callback function performs operations when the removal of a specified remote I/O target is complete.
 old-location: wdf\evtiotargetremovecomplete.htm
 tech.root: wdf
-ms.assetid: 204f101d-770c-4363-9371-0ee76dfa0b2c
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function"]
 ms.keywords: DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback, EvtIoTargetRemoveComplete, EvtIoTargetRemoveComplete callback function, kmdf.evtiotargetremovecomplete, wdf.evtiotargetremovecomplete, wdfiotarget/EvtIoTargetRemoveComplete

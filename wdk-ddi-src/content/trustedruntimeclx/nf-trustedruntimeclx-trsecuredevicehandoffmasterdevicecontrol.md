@@ -2,8 +2,7 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceHandoffMasterDeviceControl
 title: TrSecureDeviceHandoffMasterDeviceControl function (trustedruntimeclx.h)
 description: 
-ms.assetid: 201bafb2-ac71-4e2b-bda1-d3094b44e86b
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["TrSecureDeviceHandoffMasterDeviceControl function"]
 ms.keywords: TrSecureDeviceHandoffMasterDeviceControl
 req.header: trustedruntimeclx.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - TrSecureDeviceHandoffMasterDeviceControl
  - trustedruntimeclx/TrSecureDeviceHandoffMasterDeviceControl
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # TrSecureDeviceHandoffMasterDeviceControl function
-
 
 ## -description
 
@@ -58,4 +57,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

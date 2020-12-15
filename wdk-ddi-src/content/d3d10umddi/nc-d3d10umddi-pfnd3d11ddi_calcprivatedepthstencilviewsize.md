@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE
 title: PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE (d3d10umddi.h)
 description: The CalcPrivateDepthStencilViewSize(D3D11) function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a depth-stencil view.
 old-location: display\calcprivatedepthstencilviewsize_d3d11_.htm
-ms.assetid: d92e3bde-9527-401e-aafd-4ba39603d4a7
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE callback function"]
 ms.keywords: CalcPrivateDepthStencilViewSize, CalcPrivateDepthStencilViewSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE, PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE callback, UserModeDisplayDriverDx11_Functions_865f13d6-ea1c-4e9f-94b2-7f77d10c8283.xml, d3d10umddi/CalcPrivateDepthStencilViewSize, display.calcprivatedepthstencilviewsize_d3d11_

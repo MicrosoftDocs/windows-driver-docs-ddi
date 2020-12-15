@@ -4,7 +4,6 @@ title: FwpsPendClassify0 function (fwpsk.h)
 description: A callout's classifyFn function calls FwpsPendClassify0 to pend the current classify request.
 old-location: netvista\fwpspendclassify0.htm
 tech.root: netvista
-ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.date: 05/02/2018
 keywords: ["FwpsPendClassify0 function"]
 ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml

@@ -4,7 +4,6 @@ title: RIL_WriteMsg function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_writemsg.htm
 tech.root: netvista
-ms.assetid: 6d8e934a-9f1e-4b65-9491-02cf7f5f9255
 ms.date: 05/02/2018
 keywords: ["RIL_WriteMsg function"]
 ms.keywords: RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg, rilapi/RIL_WriteMsg

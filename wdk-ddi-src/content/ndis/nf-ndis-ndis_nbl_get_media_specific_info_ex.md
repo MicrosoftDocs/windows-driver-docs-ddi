@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
 title: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro gets a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: fb67b64f-e91a-4e9d-8576-6ad7db979fbc
 ms.date: 04/13/2018
 keywords: ["NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro"]
 ms.keywords: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** macro gets a media-specific information data structure from a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** macro gets a media-specific information data structure from a linked list of such structures that are associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -63,7 +62,7 @@ A pointer to an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_m
 
 ## -remarks
 
-Any NDIS 6.20 driver can use **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** to get media-specific information from a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure. When this macro returns, the *\_MediaSpecificInfo* parameter contains a pointer to the first [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md) structure in the media-specific information list that has a **Tag** member matching the value specified in the *\_Tag* parameter.
+Any NDIS 6.20 driver can use **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** to get media-specific information from a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure. When this macro returns, the *\_MediaSpecificInfo* parameter contains a pointer to the first [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md) structure in the media-specific information list that has a **Tag** member matching the value specified in the *\_Tag* parameter.
 
 ## -see-also
 
@@ -71,5 +70,5 @@ Any NDIS 6.20 driver can use **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** to get medi
 
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

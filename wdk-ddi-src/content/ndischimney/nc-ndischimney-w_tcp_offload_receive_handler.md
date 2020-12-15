@@ -4,7 +4,6 @@ title: W_TCP_OFFLOAD_RECEIVE_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadReceive function to post receive requests (receive buffers) on an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloadreceive.htm
 tech.root: netvista
-ms.assetid: 9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_RECEIVE_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadReceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER callback, ndischimney/MiniportTcpOffloadReceive, netvista.miniporttcpoffloadreceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
@@ -77,7 +76,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
@@ -180,7 +179,7 @@ If data is received on an offloaded connection while the push timer is running, 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

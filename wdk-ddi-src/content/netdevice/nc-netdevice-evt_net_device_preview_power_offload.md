@@ -3,7 +3,6 @@ UID: NC:netdevice.EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD
 title: EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD (netdevice.h)
 description: Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 tech.root: netvista
-ms.assetid: 7429f331-19e5-4a1c-8153-b814c57871d6
 ms.date: 10/10/2019
 keywords: ["EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD callback function"]
 req.header: netdevice.h

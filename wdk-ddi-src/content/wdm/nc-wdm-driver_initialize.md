@@ -4,7 +4,6 @@ title: DRIVER_INITIALIZE (wdm.h)
 description: DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver.
 old-location: kernel\driverentry.htm
 tech.root: kernel
-ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.date: 04/30/2018
 keywords: ["DRIVER_INITIALIZE callback function"]
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry

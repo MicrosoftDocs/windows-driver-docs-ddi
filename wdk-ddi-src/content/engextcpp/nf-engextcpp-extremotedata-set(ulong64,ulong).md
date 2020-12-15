@@ -4,7 +4,6 @@ title: ExtRemoteData::Set(ULONG64,ULONG) (engextcpp.h)
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_offset_bytes.htm
 tech.root: debugger
-ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.date: 05/03/2018
 keywords: ["ExtRemoteData::Set(ULONG64,ULONG)"]
 ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(ULONG64,ULONG), ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes

@@ -4,7 +4,6 @@ title: _DOT11EXT_IHV_INDICATION_TYPE (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_indication_type.htm
 tech.root: netvista
-ms.assetid: c4cba30d-f0ba-424b-aa05-2717fa8fcc4e
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_IHV_INDICATION_TYPE enumeration"]
 ms.keywords: "*PDOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], IndicationTypeLinkQuality, IndicationTypeNicSpecificNotification, IndicationTypePhyStateChange, IndicationTypePmkidCandidateList, IndicationTypeTkipMicFailure, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, PDOT11EXT_IHV_INDICATION_TYPE, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_INDICATION_TYPE, netvista.dot11ext_ihv_indication_type, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeLinkQuality, wlanihv/IndicationTypeNicSpecificNotification, wlanihv/IndicationTypePhyStateChange, wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeTkipMicFailure, wlanihv/PDOT11EXT_IHV_INDICATION_TYPE"

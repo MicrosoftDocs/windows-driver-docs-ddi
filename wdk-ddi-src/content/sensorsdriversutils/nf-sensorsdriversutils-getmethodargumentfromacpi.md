@@ -2,7 +2,7 @@
 UID: NF:sensorsdriversutils.GetMethodArgumentFromAcpi
 title: GetMethodArgumentFromAcpi function (sensorsdriversutils.h)
 description: The GetMethodArgumentFromAcpi function reads the requested ACPI entry using the supplied method name.
-ms.assetid: 62776cea-ef29-48be-ae0d-ad460c7f910c
+tech.root: sensors
 ms.date: 04/19/2018
 keywords: ["GetMethodArgumentFromAcpi function"]
 ms.keywords: GetMethodArgumentFromAcpi

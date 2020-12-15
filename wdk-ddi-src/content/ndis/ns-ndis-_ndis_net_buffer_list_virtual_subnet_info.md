@@ -4,7 +4,6 @@ title: _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO (ndis.h)
 description: Defines the group network virtualization information for a network buffer list (NBL).
 old-location: netvista\ndis_net_buffer_list_virtual_subnet_info.htm
 tech.root: netvista
-ms.assetid: E87F9FC0-D408-43D2-A09F-F921617CF3DA
 ms.date: 05/02/2018
 keywords: ["NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, ndis/NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, ndis/PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, netvista.ndis_net_buffer_list_virtual_subnet_info"
@@ -65,7 +64,7 @@ Defines the group network virtualization information for a network buffer list (
 A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. 
       <b>Value</b> contains a pointer value that is type-compatible with the 
       <b>NetBufferListInfo</b> member in the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
 #### - ( unnamed struct )
@@ -95,7 +94,7 @@ This member is reserved and should be set to zero.
 
 ## -remarks
 
-This structure is used in the <b>NetBufferListInfo</b> member in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+This structure is used in the <b>NetBufferListInfo</b> member in the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can be configured on a VM network adapter port as an external virtual subnet to support a third-party network virtualization solution. A Hyper-V extensible Switch forwarding extension may then modify the packet headers, as required, during forwarding. Packets that are being modified must be cloned, and their <b>ParentNetBufferList</b> pointers must be set to the original NBL.
 
@@ -121,7 +120,7 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

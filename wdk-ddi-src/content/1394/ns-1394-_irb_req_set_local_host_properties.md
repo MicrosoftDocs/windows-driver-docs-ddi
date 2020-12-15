@@ -4,7 +4,6 @@ title: _IRB_REQ_SET_LOCAL_HOST_PROPERTIES (1394.h)
 description: This structure contains the fields required to carry out a SetLocalHostProperties request.
 old-location: ieee\irb_req_set_local_host_properties.htm
 tech.root: IEEE
-ms.assetid: 59C1BBEF-ECC8-4852-B2E2-75751B5B25B2
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_SET_LOCAL_HOST_PROPERTIES structure"]
 ms.keywords: 1394/IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IEEE.irb_req_set_local_host_properties, IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IRB_REQ_SET_LOCAL_HOST_PROPERTIES structure [Buses], _IRB_REQ_SET_LOCAL_HOST_PROPERTIES

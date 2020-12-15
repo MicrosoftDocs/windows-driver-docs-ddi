@@ -4,7 +4,6 @@ title: POFXCALLBACKUPDATEPLATFORMIDLESTATE (pep_x.h)
 description: The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
 old-location: kernel\updateplatformidlestate.htm
 tech.root: kernel
-ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function"]
 ms.keywords: POFXCALLBACKUPDATEPLATFORMIDLESTATE, UpdatePlatformIdleState, UpdatePlatformIdleState routine [Kernel-Mode Driver Architecture], kernel.updateplatformidlestate, pepfx/UpdatePlatformIdleState
@@ -53,7 +52,7 @@ The <b>UpdatePlatformIdleState</b> routine is called by the platform extension p
 ### -param ProcessorHandle 
 
 [in]
-A POHANDLE value that represents the registration of the processor (as a device) with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
+A POHANDLE value that represents the registration of the processor (as a device) with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
 
 ### -param PlatformState 
 

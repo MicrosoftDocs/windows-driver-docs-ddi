@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
 title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO (trustedruntimeclx.h)
 description: 
-ms.assetid: 73774bab-6134-40b9-97f7-5ee28aa0929f
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
  - trustedruntimeclx/EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
@@ -39,31 +39,30 @@ api_name:
 
 # EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param ServiceDevice: 
+### -param ServiceDevice
 
-### -param SessionContext: 
+### -param SessionContext
 
-### -param Request: 
+### -param Request
 
 ## -syntax
 
 ```cpp
 //Declaration
 
-EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO EvtTrProcessOtherSecureServiceIo; 
+EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO EvtTrProcessOtherSecureServiceIo;
 
 // Definition
 
-VOID EvtTrProcessOtherSecureServiceIo 
+VOID EvtTrProcessOtherSecureServiceIo
 (
-	WDFDEVICE ServiceDevice
-	WDFOBJECT SessionContext
-	WDFREQUEST Request
+    WDFDEVICE ServiceDevice
+    WDFOBJECT SessionContext
+    WDFREQUEST Request
 )
 {...}
 
@@ -72,4 +71,3 @@ VOID EvtTrProcessOtherSecureServiceIo
 ## -remarks
 
 ## -see-also
-

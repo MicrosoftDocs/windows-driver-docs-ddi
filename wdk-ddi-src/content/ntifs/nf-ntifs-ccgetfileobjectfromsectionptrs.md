@@ -4,7 +4,6 @@ title: CcGetFileObjectFromSectionPtrs function (ntifs.h)
 description: Given a pointer to the section object pointers for a cached file, the CcGetFileObjectFromSectionPtrs routine returns a pointer to the file object that the cache manager is using for the file.
 old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 tech.root: ifsk
-ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
 ms.date: 04/16/2018
 keywords: ["CcGetFileObjectFromSectionPtrs function"]
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
@@ -65,7 +64,7 @@ The file system is responsible for ensuring that the file object remains valid w
 
 By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetfileobjectfromsectionptrsref">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
 
-For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>.
+For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>.
 
 ## -see-also
 

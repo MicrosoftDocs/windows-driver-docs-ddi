@@ -4,7 +4,6 @@ title: RILSUPSERVICEDATAPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsupservicedataparammask.htm
 tech.root: netvista
-ms.assetid: 2b0ff5a7-02b3-4a22-98da-d13825bc2f45
 ms.date: 05/02/2018
 keywords: ["RILSUPSERVICEDATAPARAMMASK enumeration"]
 ms.keywords: RILSUPSERVICEDATAPARAMMASK, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_STATUS, RIL_PARAM_SSDI_VENDOR_ERROR, netvista.rilsupservicedataparammask, ntddrilapitypes/RILSUPSERVICEDATAPARAMMASK, ntddrilapitypes/RIL_PARAM_SSDI_ALL, ntddrilapitypes/RIL_PARAM_SSDI_CC_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_DATA, ntddrilapitypes/RIL_PARAM_SSDI_DATASIZE, ntddrilapitypes/RIL_PARAM_SSDI_SS_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_STATUS, ntddrilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR

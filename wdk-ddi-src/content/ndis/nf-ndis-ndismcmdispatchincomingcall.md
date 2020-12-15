@@ -4,7 +4,6 @@ title: NdisMCmDispatchIncomingCall macro (ndis.h)
 description: NdisMCmDispatchIncomingCall informs the client of an incoming call on a SAP previously registered by that client with the MCM driver.
 old-location: netvista\ndismcmdispatchincomingcall.htm
 tech.root: netvista
-ms.assetid: 24102e1f-375e-4bf4-8a43-6527b90c8564
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCall, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, ndis/NdisMCmDispatchIncomingCall, netvista.ndismcmdispatchincomingcall

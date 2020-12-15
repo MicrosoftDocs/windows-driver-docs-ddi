@@ -2,7 +2,6 @@
 UID: NE:d3dumddi._D3DDDIDEGREETYPE
 title: _D3DDDIDEGREETYPE (d3dumddi.h)
 description: The degree type.
-ms.assetid: 6bd9e98f-470b-4e2e-8565-0bc0fc1ddd5f
 ms.date: 10/19/2018
 keywords: ["D3DDDIDEGREETYPE enumeration"]
 ms.keywords: _D3DDDIDEGREETYPE, D3DDDIDEGREETYPE,

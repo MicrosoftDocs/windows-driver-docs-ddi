@@ -4,7 +4,6 @@ title: RtlOemStringToCountedUnicodeSize macro (ntifs.h)
 description: The RtlOemStringToCountedUnicodeSize routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string.
 old-location: ifsk\rtloemstringtocountedunicodesize.htm
 tech.root: ifsk
-ms.assetid: a618420f-ea69-471d-82a0-1e86f85e270b
 ms.date: 04/16/2018
 keywords: ["RtlOemStringToCountedUnicodeSize macro"]
 ms.keywords: RtlOemStringToCountedUnicodeSize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodesize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml
@@ -58,7 +57,7 @@ The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in byte
 
 <b>RtlOemStringToCountedUnicodeSize</b> can be called to determine how much memory to allocate when translating an OEM string to Unicode with <b>RtlOemStringToCountedUnicodeString</b>. The returned value does not include space for a NULL terminator for the Unicode string.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: SeQuerySubjectContextToken macro (ntifs.h)
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk
-ms.assetid: af326cb1-446a-49b7-a381-472deb9ecc82
 ms.date: 04/16/2018
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml

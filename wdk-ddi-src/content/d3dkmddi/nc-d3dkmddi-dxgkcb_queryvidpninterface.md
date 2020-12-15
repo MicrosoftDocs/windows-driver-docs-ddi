@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_QUERYVIDPNINTERFACE
 title: DXGKCB_QUERYVIDPNINTERFACE (d3dkmddi.h)
 description: The DxgkCbQueryVidPnInterface function returns a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 old-location: display\dxgkcbqueryvidpninterface.htm
-ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
 ms.date: 05/10/2018
 keywords: ["DXGKCB_QUERYVIDPNINTERFACE callback function"]
 ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE callback, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
@@ -45,28 +44,27 @@ product:
 
 # DXGKCB_QUERYVIDPNINTERFACE callback function
 
-
 ## -description
 
-The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
+The **DxgkCbQueryVidPnInterface** function returns a pointer to a [DXGK_VIDPN_INTERFACE](ns-d3dkmddi-_dxgk_vidpn_interface) structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 
 ## -parameters
 
 ### -param hVidPn
 
-[in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
+[in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling [DxgkDdiEnumVidPnCofuncModality](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality), [DxgkDdiIsSupportedVidPn](nc-d3dkmddi-dxgkddi_issupportedvidpn), or [DxgkDdiRecommendFunctionalVidPn](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn).
 
 ### -param VidPnInterfaceVersion
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_vidpn_interface_version">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to <b>DXGK_VIDPN_INTERFACE_VERSION_V1</b>.
+[in] A [DXGK_VIDPN_INTERFACE_VERSION](ne-d3dkmddi-_dxgk_vidpn_interface_version) enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to **DXGK_VIDPN_INTERFACE_VERSION_V1**.
 
 ### -param ppVidPnInterface
 
-[out] A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> structure.
+[out] A pointer to a variable that receives a pointer to the [DXGK_VIDPN_INTERFACE](ns-d3dkmddi-_dxgk_vidpn_interface) structure.
 
 ## -returns
 
-<b>DxgkCbQueryVidPnInterface </b>returns one of the following values:
+**DxgkCbQueryVidPnInterface** returns one of the following values:
 
 |Return code|Description|
 |--- |--- |
@@ -77,20 +75,14 @@ The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="/w
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">Monitor Source Mode Set Interface</a>
+[VidPN Objects and Interfaces](/windows-hardware/drivers/display/vidpn-objects-and-interfaces)
 
+[Monitor Source Mode Set Interface](ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface)
 
+[VidPN Interface](ns-d3dkmddi-_dxgk_vidpn_interface)
 
-<a href="/windows-hardware/drivers/ddi/index">VidPN Interface</a>
+[VidPN Source Mode Set Interface](ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface)
 
+[VidPN Target Mode Set Interface](ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface)
 
-
-<a href="/windows-hardware/drivers/ddi/index">VidPN Source Mode Set Interface</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/index">VidPN Target Mode Set Interface</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/index">VidPN Topology Interface</a>
+[VidPN Topology Interface](ns-d3dkmddi-_dxgk_vidpntopology_interface)

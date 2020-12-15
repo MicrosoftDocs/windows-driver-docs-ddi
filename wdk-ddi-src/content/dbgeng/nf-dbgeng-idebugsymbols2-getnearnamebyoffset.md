@@ -4,7 +4,6 @@ title: IDebugSymbols2::GetNearNameByOffset (dbgeng.h)
 description: The GetNearNameByOffset method returns the name of a symbol that is located near the specified location.
 old-location: debugger\getnearnamebyoffset.htm
 tech.root: debugger
-ms.assetid: bcda26ae-484e-41b9-b86a-552b5cecb9a7
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::GetNearNameByOffset"]
 ms.keywords: GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], GetNearNameByOffset method [Windows Debugging],IDebugSymbols interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols2 interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2.GetNearNameByOffset, IDebugSymbols2::GetNearNameByOffset, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols3::GetNearNameByOffset, IDebugSymbols::GetNearNameByOffset, IDebugSymbols_cdd9bec8-6fe8-4523-ac98-df3ce90fd073.xml, dbgeng/IDebugSymbols2::GetNearNameByOffset, dbgeng/IDebugSymbols3::GetNearNameByOffset, dbgeng/IDebugSymbols::GetNearNameByOffset, debugger.getnearnamebyoffset

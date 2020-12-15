@@ -4,7 +4,6 @@ title: RxNameCacheActivateEntry function (namcache.h)
 description: RxNameCacheActivateEntry takes a name cache entry and updates the expiration time and the network mini-redirector context. It then puts the name cache entry on the active list.
 old-location: ifsk\rxnamecacheactivateentry.htm
 tech.root: ifsk
-ms.assetid: 6ebd4b00-ec25-4383-beba-0478b3241f09
 ms.date: 04/16/2018
 keywords: ["RxNameCacheActivateEntry function"]
 ms.keywords: RxNameCacheActivateEntry, RxNameCacheActivateEntry function [Installable File System Drivers], ifsk.rxnamecacheactivateentry, namcache/RxNameCacheActivateEntry, rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml

@@ -4,7 +4,6 @@ title: _PEP_PLATFORM_IDLE_STATE (pep_x.h)
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel
-ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.date: 04/30/2018
 keywords: ["PEP_PLATFORM_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE"
@@ -56,7 +55,7 @@ The <b>PEP_PLATFORM_IDLE_STATE</b> structure specifies the properties of a platf
 
 ### -field InitiatingProcessor
 
-A <b>POHANDLE</b> value that identifies the processor that initiates the transition to this platform idle state, or <b>NULL</b> if any processor can initiate the transition. If non-NULL, this handle represents the registration of the processor (as a device) with the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+A <b>POHANDLE</b> value that identifies the processor that initiates the transition to this platform idle state, or <b>NULL</b> if any processor can initiate the transition. If non-NULL, this handle represents the registration of the processor (as a device) with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ### -field InitiatingState
 

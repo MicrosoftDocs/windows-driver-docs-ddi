@@ -4,7 +4,6 @@ title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC (ucxendpoint.h)
 description: UCX invokes this callback function to set the priority on an endpoint.
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 tech.root: usbref
-ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic

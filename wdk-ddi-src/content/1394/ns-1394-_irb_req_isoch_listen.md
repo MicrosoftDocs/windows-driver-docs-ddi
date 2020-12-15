@@ -4,7 +4,6 @@ title: _IRB_REQ_ISOCH_LISTEN (1394.h)
 description: This structure contains the fields necessary to carry out a ReqIsochListen request.
 old-location: ieee\irb_req_isoch_listen.htm
 tech.root: IEEE
-ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_LISTEN structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], _IRB_REQ_ISOCH_LISTEN

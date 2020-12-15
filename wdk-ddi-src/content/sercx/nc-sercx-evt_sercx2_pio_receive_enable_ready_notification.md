@@ -4,7 +4,6 @@ title: EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION (sercx.h)
 description: The EvtSerCx2PioReceiveEnableReadyNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to enable the serial controller driver to notify SerCx2 when the serial controller receives new data.
 old-location: serports\evtsercx2pioreceiveenablereadynotification.htm
 tech.root: serports
-ms.assetid: DDD17DF3-9457-40D1-BE18-0A1CAED1389B
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveEnableReadyNotification, EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION, EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION callback, EvtSerCx2PioReceiveEnableReadyNotification, EvtSerCx2PioReceiveEnableReadyNotification callback function [Serial Ports], serports.evtsercx2pioreceiveenablereadynotification

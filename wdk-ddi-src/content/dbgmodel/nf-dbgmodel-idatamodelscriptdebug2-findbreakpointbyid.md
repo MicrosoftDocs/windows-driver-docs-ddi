@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IDataModelScriptDebug2.FindBreakpointById
 title: IDataModelScriptDebug2::FindBreakpointById (dbgmodel.h)
 description: The FindBreakpointById method is used to get an interface to the breakpoint from a given identifier.
-ms.assetid: 0fb78c06-b7dd-43d5-bb14-20b13a34e076
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::FindBreakpointById"]
 ms.keywords: IDataModelScriptDebug2::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById, IDataModelScriptDebug2::FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById

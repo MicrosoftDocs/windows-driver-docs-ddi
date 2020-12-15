@@ -4,7 +4,6 @@ title: FwpsInjectTransportReceiveAsync0 function (fwpsk.h)
 description: The FwpsInjectTransportReceiveAsync0 function injects packet data from the transport, datagram data, or ICMP error layers into the receive data path.Note  FwpsInjectTransportReceiveAsync0 is a specific version of FwpsInjectTransportReceiveAsync.
 old-location: netvista\fwpsinjecttransportreceiveasync0.htm
 tech.root: netvista
-ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.date: 05/02/2018
 keywords: ["FwpsInjectTransportReceiveAsync0 function"]
 ms.keywords: FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
@@ -134,7 +133,7 @@ The index of the subinterface on which the original packet data was received. A 
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a <b>NET_BUFFER_LIST</b> structure to use to
      inject packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function or the 
@@ -177,7 +176,7 @@ The packet data injection was initiated successfully. The filter engine will cal
        function after the filter engine has completed injecting the packet data into the network stack, or
        when an error occurred subsequently. In case of an error, the 
        <b>Status</b> member of the completed 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -377,7 +376,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

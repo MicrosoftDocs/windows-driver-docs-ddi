@@ -2,8 +2,7 @@
 UID: NE:acpitabl._ACPI_PLD_HORIZONTAL_POSITION
 title: _ACPI_PLD_HORIZONTAL_POSITION enumeration (acpitabl.h)
 description: Describes horizontal position bits 72:73.
-ms.assetid: dc0fba3b-758b-4453-8009-3e1311c3ea87
-ms.date: 10/02/2018
+ms.date: 11/19/2020
 keywords: ["ACPI_PLD_HORIZONTAL_POSITION enumeration"]
 ms.keywords: _ACPI_PLD_HORIZONTAL_POSITION, ACPI_PLD_HORIZONTAL_POSITION, *PACPI_PLD_HORIZONTAL_POSITION, AcpiPldHPos
 req.header: acpitabl.h
@@ -17,6 +16,7 @@ req.ddi-compliance:
 req.max-support: 
 req.typenames: ACPI_PLD_HORIZONTAL_POSITION, *PACPI_PLD_HORIZONTAL_POSITION
 targetos: Windows
+tech.root: acpi
 f1_keywords:
  - _ACPI_PLD_HORIZONTAL_POSITION
  - acpitabl/_ACPI_PLD_HORIZONTAL_POSITION
@@ -36,26 +36,24 @@ api_name:
 
 # _ACPI_PLD_HORIZONTAL_POSITION enumeration
 
-
 ## -description
 
 Describes horizontal position bits 72:73.
 
 ## -enum-fields
 
-### -field AcpiPldHPosLeft 
+### -field AcpiPldHPosLeft
 
 Value is 0.
 
-### -field AcpiPldHPosCenter 
+### -field AcpiPldHPosCenter
 
 Value is 1.
 
-### -field AcpiPldHPosRight 
+### -field AcpiPldHPosRight
 
 Value is 2.
 
 ## -remarks
 
 ## -see-also
-

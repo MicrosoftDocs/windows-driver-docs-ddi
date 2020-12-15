@@ -1,6 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_ETW_OVERFLOW_EVENT
 title: WHEA_ETW_OVERFLOW_EVENT
+tech.root: whea
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows

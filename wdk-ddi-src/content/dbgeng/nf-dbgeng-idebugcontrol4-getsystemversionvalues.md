@@ -4,7 +4,6 @@ title: IDebugControl4::GetSystemVersionValues (dbgeng.h)
 description: The GetSystemVersionValues method returns version number information for the current target.
 old-location: debugger\getsystemversionvalues.htm
 tech.root: debugger
-ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetSystemVersionValues"]
 ms.keywords: GetSystemVersionValues, GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionValues method, IDebugControl4.GetSystemVersionValues, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues

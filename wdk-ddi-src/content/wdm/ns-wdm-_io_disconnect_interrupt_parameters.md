@@ -4,7 +4,6 @@ title: _IO_DISCONNECT_INTERRUPT_PARAMETERS (wdm.h)
 description: The IO_DISCONNECT_INTERRUPT_PARAMETERS structure describes the parameters when unregistering an interrupt-handling routine with IoDisconnectInterruptEx.
 old-location: kernel\io_disconnect_interrupt_parameters.htm
 tech.root: kernel
-ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.date: 04/30/2018
 keywords: ["IO_DISCONNECT_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS"

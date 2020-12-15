@@ -4,7 +4,6 @@ title: _MOUNTDEV_UNIQUE_ID (mountdev.h)
 description: The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an IOCTL_MOUNTDEV_QUERY_UNIQUE_ID request.
 old-location: storage\mountdev_unique_id.htm
 tech.root: storage
-ms.assetid: cc6cbda8-4056-41e7-98f9-927a99e66081
 ms.date: 03/29/2018
 keywords: ["MOUNTDEV_UNIQUE_ID structure"]
 ms.keywords: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], _MOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, mountdev/PMOUNTDEV_UNIQUE_ID, storage.mountdev_unique_id, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml"

@@ -2,8 +2,7 @@
 UID: NS:wdm._KBUGCHECK_CALLBACK_RECORD
 title: KBUGCHECK_CALLBACK_RECORD
 description: 
-tech.root: 
-ms.assetid: ed7bd00d-b5ea-423a-a644-f36336beeb16
+tech.root: devtest
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_CALLBACK_RECORD structure"]
 ms.keywords: KBUGCHECK_CALLBACK_RECORD, KBUGCHECK_CALLBACK_RECORD, *PKBUGCHECK_CALLBACK_RECORD,

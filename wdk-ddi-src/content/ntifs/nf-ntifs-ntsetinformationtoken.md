@@ -4,7 +4,6 @@ title: NtSetInformationToken function (ntifs.h)
 description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel
-ms.assetid: fdb1245c-7804-4cb9-9632-bedb9f7f7b2b
 ms.date: 04/30/2018
 keywords: ["NtSetInformationToken function"]
 ms.keywords: NtSetInformationToken, ZwSetInformationToken, ZwSetInformationToken routine [Kernel-Mode Driver Architecture], k111_1122461b-dab8-4a40-8f05-db62ca25763b.xml, kernel.zwsetinformationtoken, ntifs/NtSetInformationToken, ntifs/ZwSetInformationToken

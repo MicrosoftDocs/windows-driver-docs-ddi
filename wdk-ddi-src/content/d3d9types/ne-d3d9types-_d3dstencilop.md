@@ -2,8 +2,8 @@
 UID: NE:d3d9types._D3DSTENCILOP
 title: _D3DSTENCILOP (d3d9types.h)
 description: 
-ms.assetid: 9c7e713d-edef-4725-b55c-600916dfb7aa
 ms.date: 10/19/2018
+tech.root: display
 keywords: ["D3DSTENCILOP enumeration"]
 ms.keywords: _D3DSTENCILOP, D3DSTENCILOP,
 req.header: d3d9types.h

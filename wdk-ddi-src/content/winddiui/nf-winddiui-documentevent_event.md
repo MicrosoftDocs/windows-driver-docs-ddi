@@ -2,8 +2,7 @@
 UID: NF:winddiui.DOCUMENTEVENT_EVENT
 title: DOCUMENTEVENT_EVENT macro (winddiui.h)
 description: 
-ms.assetid: 141f16f3-fa3f-4cec-9854-be81557e97af
-ms.date: 10/19/2018
+ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_EVENT macro"]
 ms.keywords: DOCUMENTEVENT_EVENT
 req.header: winddiui.h
@@ -25,6 +24,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: print
 f1_keywords:
  - DOCUMENTEVENT_EVENT
  - winddiui/DOCUMENTEVENT_EVENT
@@ -40,7 +40,6 @@ api_name:
 
 # DOCUMENTEVENT_EVENT macro
 
-
 ## -description
 
 ## -parameters
@@ -50,4 +49,3 @@ api_name:
 ## -remarks
 
 ## -see-also
-

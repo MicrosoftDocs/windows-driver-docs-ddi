@@ -4,7 +4,6 @@ title: _WIM_PROVIDER_UPDATE_OVERLAY_INPUT (ntifs.h)
 description: A current Windows Image File (WIM) data source is updated with a new WIM file using the FSCTL_UPDATE_OVERLAY control request with a WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_update_overlay_input.htm
 tech.root: ifsk
-ms.assetid: FA100AE0-4725-426F-B57B-C32AC9B75477
 ms.date: 04/16/2018
 keywords: ["WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure"]
 ms.keywords: "*PWIM_PROVIDER_UPDATE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_UPDATE_OVERLAY_INPUT, WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure [Installable File System Drivers], _WIM_PROVIDER_UPDATE_OVERLAY_INPUT, ifsk.wim_provider_update_overlay_input, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT"

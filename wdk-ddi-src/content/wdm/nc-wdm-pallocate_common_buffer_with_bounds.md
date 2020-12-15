@@ -2,7 +2,7 @@
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
 description:
-ms.assetid: c376a156-c7e2-4feb-aa21-4fbce4fe72ed
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
 req.header: wdm.h
@@ -98,14 +98,14 @@ PALLOCATE_COMMON_BUFFER_WITH_BOUNDS PallocateCommonBufferWithBounds;
 
 PVOID PallocateCommonBufferWithBounds 
 (
-	PDMA_ADAPTER DmaAdapter
-	PPHYSICAL_ADDRESS MinimumAddress
-	PPHYSICAL_ADDRESS MaximumAddress
-	ULONG Length
-	ULONG Flags
-	MEMORY_CACHING_TYPE *CacheType
-	NODE_REQUIREMENT PreferredNode
-	PPHYSICAL_ADDRESS LogicalAddress
+    PDMA_ADAPTER DmaAdapter
+    PPHYSICAL_ADDRESS MinimumAddress
+    PPHYSICAL_ADDRESS MaximumAddress
+    ULONG Length
+    ULONG Flags
+    MEMORY_CACHING_TYPE *CacheType
+    NODE_REQUIREMENT PreferredNode
+    PPHYSICAL_ADDRESS LogicalAddress
 )
 {...}
 

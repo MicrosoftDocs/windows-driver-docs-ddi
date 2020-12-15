@@ -4,7 +4,6 @@ title: tagKS_DATAFORMAT_VBIINFOHEADER (ksmedia.h)
 description: The KS_DATAFORMAT_VBIINFOHEADER structure describes a vertical blanking interval (VBI) stream.
 old-location: stream\ks_dataformat_vbiinfoheader.htm
 tech.root: stream
-ms.assetid: 597b081f-d2ff-4e20-b352-2082f1ef4d45
 ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_VBIINFOHEADER structure"]
 ms.keywords: "*PKS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER structure [Streaming Media Devices], PKS_DATAFORMAT_VBIINFOHEADER, PKS_DATAFORMAT_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VBIINFOHEADER, ksmedia/PKS_DATAFORMAT_VBIINFOHEADER, stream.ks_dataformat_vbiinfoheader, tagKS_DATAFORMAT_VBIINFOHEADER, vidcapstruct_67cdb187-7d2b-464b-a871-6b2f18a9839f.xml"

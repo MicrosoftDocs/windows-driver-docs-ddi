@@ -4,7 +4,6 @@ title: IsPtr64 function (wdbgexts.h)
 description: The IsPtr64 function determines if the target uses 64-bit pointers.
 old-location: debugger\isptr64.htm
 tech.root: debugger
-ms.assetid: 0474a8dc-e2e3-4c84-8058-6229bf0e9d62
 ms.date: 05/03/2018
 keywords: ["IsPtr64 function"]
 ms.keywords: IsPtr64, IsPtr64 function [Windows Debugging], WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, debugger.isptr64, wdbgexts/IsPtr64

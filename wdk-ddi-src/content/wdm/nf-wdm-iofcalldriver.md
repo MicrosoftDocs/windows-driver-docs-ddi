@@ -2,7 +2,7 @@
 UID: NF:wdm.IofCallDriver
 title: IofCallDriver function (wdm.h)
 description: Call **IoCallDriver** instead. Sends an IRP to the driver associated with a specified device object.
-ms.assetid: e241d188-273d-430a-9c27-403ddc6fa450
+tech.root: kernel
 ms.date: 04/30/2018
 keywords: ["IofCallDriver function"]
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver

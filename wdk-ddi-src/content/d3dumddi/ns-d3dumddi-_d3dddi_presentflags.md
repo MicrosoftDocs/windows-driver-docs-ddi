@@ -4,7 +4,6 @@ title: _D3DDDI_PRESENTFLAGS (d3dumddi.h)
 description: The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dddi_presentflags.htm
 tech.root: display
-ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.date: 05/10/2018
 keywords: ["D3DDDI_PRESENTFLAGS structure"]
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags

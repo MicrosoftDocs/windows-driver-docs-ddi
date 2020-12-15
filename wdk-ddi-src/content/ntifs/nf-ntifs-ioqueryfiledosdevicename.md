@@ -4,7 +4,6 @@ title: IoQueryFileDosDeviceName function (ntifs.h)
 description: The IoQueryFileDosDeviceName routine retrieves an MS-DOS device name for a file.
 old-location: ifsk\ioqueryfiledosdevicename.htm
 tech.root: ifsk
-ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.date: 04/16/2018
 keywords: ["IoQueryFileDosDeviceName function"]
 ms.keywords: IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName

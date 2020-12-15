@@ -4,7 +4,6 @@ title: _D3DKMT_MOVE_RECT (d3dkmdt.h)
 description: Provides information on a screen-to-screen move and a dirty rectangle copy operation.
 old-location: display\d3dkmt_move_rect.htm
 tech.root: display
-ms.assetid: 2d9e0a8e-9485-427d-bdd0-2d89dec76a77
 ms.date: 05/10/2018
 keywords: ["D3DKMT_MOVE_RECT structure"]
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect

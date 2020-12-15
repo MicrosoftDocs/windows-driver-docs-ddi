@@ -4,7 +4,6 @@ title: UdecxUsbDeviceInitAddStringDescriptorRaw function (udecxusbdevice.h)
 description: Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitaddstringdescriptorraw.htm
 tech.root: usbref
-ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitAddStringDescriptorRaw function"]
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
@@ -89,7 +88,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB String Descriptors</a>
+<a href="/windows-hardware/drivers/usbcon/usb-string-descriptors">USB String Descriptors</a>
 
 
 

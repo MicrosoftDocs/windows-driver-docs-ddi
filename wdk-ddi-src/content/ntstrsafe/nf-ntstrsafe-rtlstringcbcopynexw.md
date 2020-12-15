@@ -4,7 +4,6 @@ title: RtlStringCbCopyNExW function (ntstrsafe.h)
 description: The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopynex.htm
 tech.root: kernel
-ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCopyNExW function"]
 ms.keywords: RtlStringCbCopyNEx, RtlStringCbCopyNExA, RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml

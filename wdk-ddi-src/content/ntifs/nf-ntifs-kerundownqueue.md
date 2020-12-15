@@ -4,7 +4,6 @@ title: KeRundownQueue function (ntifs.h)
 description: The KeRundownQueue routine cleans up a queue object, flushing any queued entries.
 old-location: ifsk\kerundownqueue.htm
 tech.root: ifsk
-ms.assetid: fc496af8-0b4b-4de4-8890-f2290970ced5
 ms.date: 04/16/2018
 keywords: ["KeRundownQueue function"]
 ms.keywords: KeRundownQueue, KeRundownQueue routine [Installable File System Drivers], ifsk.kerundownqueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue
@@ -69,7 +68,7 @@ If the queue object is to be reused, the caller must call <a href="/windows-hard
 
 <b>KeRundownQueue</b> should never be called for a queue if any threads are waiting on the queue object.
 
-For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/index">Driver-Managed Queues</a>.
+For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues">Driver-Managed Queues</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ (fwpsk.h)
 description: The FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure specifies a callout driver-supplied virtual switch event dispatch table.Note  FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 is a specific version of FWPS_VSWITCH_EVENT_DISPATCH_TABLE.
 old-location: netvista\fwps_vswitch_event_dispatch_table0.htm
 tech.root: netvista
-ms.assetid: 7e949e6d-7448-4f76-b8a1-6d050261fb21
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ structure"]
 ms.keywords: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure [Network Drivers Starting with Windows Vista], FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_, fwpsk/FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, netvista.fwps_vswitch_event_dispatch_table0

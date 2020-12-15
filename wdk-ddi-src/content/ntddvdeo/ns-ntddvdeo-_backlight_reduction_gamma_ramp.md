@@ -3,7 +3,6 @@ UID: NS:ntddvdeo._BACKLIGHT_REDUCTION_GAMMA_RAMP
 title: _BACKLIGHT_REDUCTION_GAMMA_RAMP (ntddvdeo.h)
 description: Contains a reduction gamma lookup table.
 tech.root: display
-ms.assetid: f6f14d80-4859-4179-8921-1b28c417c1e3
 ms.date: 08/03/2018
 keywords: ["BACKLIGHT_REDUCTION_GAMMA_RAMP structure"]
 ms.keywords: _BACKLIGHT_REDUCTION_GAMMA_RAMP, BACKLIGHT_REDUCTION_GAMMA_RAMP,

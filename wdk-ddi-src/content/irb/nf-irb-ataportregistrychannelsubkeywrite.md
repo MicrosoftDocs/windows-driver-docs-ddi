@@ -4,7 +4,6 @@ title: AtaPortRegistryChannelSubkeyWrite function (irb.h)
 description: The AtaPortRegistryChannelSubKeyWrite routine writes data to the indicated value name under the registry key HKLM\CurrentControlSet\Services\<service name>\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel.
 old-location: storage\ataportregistrychannelsubkeywrite.htm
 tech.root: storage
-ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.date: 03/29/2018
 keywords: ["AtaPortRegistryChannelSubkeyWrite function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWrite, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite

@@ -4,7 +4,6 @@ title: EVT_SPB_TARGET_DISCONNECT (spbcx.h)
 description: An SPB controller driver's EvtSpbTargetDisconnect event callback function closes a connection to a target device that was previously opened by a call to the driver's EvtSpbTargetConnect event callback function.
 old-location: spb\evtspbtargetdisconnect.htm
 tech.root: SPB
-ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_TARGET_DISCONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect

@@ -4,7 +4,6 @@ title: ScsiPortWmiSetData function (scsiwmi.h)
 description: The ScsiPortWmiSetData routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of the data for an instance.
 old-location: storage\scsiportwmisetdata.htm
 tech.root: storage
-ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.date: 03/29/2018
 keywords: ["ScsiPortWmiSetData function"]
 ms.keywords: ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata

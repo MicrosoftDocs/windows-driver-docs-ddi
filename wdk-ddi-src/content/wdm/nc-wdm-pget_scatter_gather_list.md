@@ -4,7 +4,6 @@ title: PGET_SCATTER_GATHER_LIST (wdm.h)
 description: The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter.
 old-location: kernel\getscattergatherlist.htm
 tech.root: kernel
-ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
 ms.date: 04/30/2018
 keywords: ["PGET_SCATTER_GATHER_LIST callback function"]
 ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, PGET_SCATTER_GATHER_LIST callback, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList

@@ -4,7 +4,6 @@ title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type, as well as default, current, and valid values for a property whose values are defined by a flag.
 old-location: image\cwiaupropertylist_setvalidvalues_flag_.htm
 tech.root: image
-ms.assetid: e61b5bbb-14a8-4dfa-af36-99c5dd1ecc99
 ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues

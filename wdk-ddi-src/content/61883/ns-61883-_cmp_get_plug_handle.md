@@ -4,7 +4,6 @@ title: _CMP_GET_PLUG_HANDLE (61883.h)
 description: This structure is used in getting the handle of a plug.
 old-location: ieee\cmp_get_plug_handle.htm
 tech.root: IEEE
-ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.date: 02/15/2018
 keywords: ["CMP_GET_PLUG_HANDLE structure"]
 ms.keywords: "*PCMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, 61883/PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], IEEE.cmp_get_plug_handle, PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], _CMP_GET_PLUG_HANDLE"

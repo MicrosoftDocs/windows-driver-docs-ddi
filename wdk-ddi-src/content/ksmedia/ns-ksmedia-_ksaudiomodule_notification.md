@@ -4,7 +4,6 @@ title: _KSAUDIOMODULE_NOTIFICATION (ksmedia.h)
 description: The KSAUDIOMODULE_NOTIFICATION structure describes the properties associated with audio modules change notification.
 old-location: audio\ksaudiomodule_notification.htm
 tech.root: audio
-ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.date: 05/08/2018
 keywords: ["KSAUDIOMODULE_NOTIFICATION structure"]
 ms.keywords: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION"

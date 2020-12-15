@@ -4,7 +4,6 @@ title: FwpsCompleteOperation0 function (fwpsk.h)
 description: The FwpsCompleteOperation0 function is called by a callout to resume packet processing that was suspended pending completion of another operation.Note  FwpsCompleteOperation0 is a specific version of FwpsCompleteOperation.
 old-location: netvista\fwpscompleteoperation0.htm
 tech.root: netvista
-ms.assetid: e0d584c4-ec58-4d5f-bddf-86bcfbfa6b97
 ms.date: 05/02/2018
 keywords: ["FwpsCompleteOperation0 function"]
 ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
@@ -64,7 +63,7 @@ A completion context handle that was previously created by a call to the
 
 [in, optional]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data for which processing has been suspended pending completion of another operation.
 
 ## -remarks
@@ -97,4 +96,4 @@ Pended connections are authenticated again after the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

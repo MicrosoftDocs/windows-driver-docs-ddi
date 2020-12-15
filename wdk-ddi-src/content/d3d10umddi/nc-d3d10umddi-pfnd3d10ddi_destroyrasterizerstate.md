@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_DESTROYRASTERIZERSTATE
 title: PFND3D10DDI_DESTROYRASTERIZERSTATE (d3d10umddi.h)
 description: The DestroyRasterizerState function destroys the specified rasterizer state object. The rasterizer state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrasterizerstate.htm
-ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_DESTROYRASTERIZERSTATE callback function"]
 ms.keywords: DestroyRasterizerState, DestroyRasterizerState callback function [Display Devices], PFND3D10DDI_DESTROYRASTERIZERSTATE, PFND3D10DDI_DESTROYRASTERIZERSTATE callback, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml, d3d10umddi/DestroyRasterizerState, display.destroyrasterizerstate

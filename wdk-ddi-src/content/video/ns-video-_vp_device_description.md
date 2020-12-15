@@ -4,7 +4,6 @@ title: _VP_DEVICE_DESCRIPTION (video.h)
 description: The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
 old-location: display\vp_device_description.htm
 tech.root: display
-ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.date: 05/10/2018
 keywords: ["VP_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"

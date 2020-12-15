@@ -4,7 +4,6 @@ title: PrintPropertiesCollection (winspool.h)
 description: 
 old-location: print\printpropertiescollection.htm
 tech.root: print
-ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 ms.date: 04/20/2018
 keywords: ["PrintPropertiesCollection structure"]
 ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection

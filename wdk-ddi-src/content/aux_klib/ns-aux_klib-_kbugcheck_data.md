@@ -4,7 +4,6 @@ title: _KBUGCHECK_DATA (aux_klib.h)
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
 tech.root: kernel
-ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.date: 04/30/2018
 keywords: ["KBUGCHECK_DATA structure"]
 ms.keywords: "*PKBUGCHECK_DATA, KBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data"

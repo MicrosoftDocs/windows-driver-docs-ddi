@@ -4,7 +4,6 @@ title: IDebugControl3::Output (dbgeng.h)
 description: The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\output.htm
 tech.root: debugger
-ms.assetid: 2c748325-3718-4fcc-98a3-3318d361ba6e
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::Output"]
 ms.keywords: IDebugControl interface [Windows Debugging],Output method, IDebugControl2 interface [Windows Debugging],Output method, IDebugControl2::Output, IDebugControl3 interface [Windows Debugging],Output method, IDebugControl3.Output, IDebugControl3::Output, IDebugControl::Output, IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugControl interface, Output method [Windows Debugging],IDebugControl2 interface, Output method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::Output, dbgeng/IDebugControl3::Output, dbgeng/IDebugControl::Output, debugger.output

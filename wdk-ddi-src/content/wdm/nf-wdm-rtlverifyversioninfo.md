@@ -4,7 +4,6 @@ title: RtlVerifyVersionInfo function (wdm.h)
 description: The RtlVerifyVersionInfo routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
 old-location: kernel\rtlverifyversioninfo.htm
 tech.root: kernel
-ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.date: 04/30/2018
 keywords: ["RtlVerifyVersionInfo function"]
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo

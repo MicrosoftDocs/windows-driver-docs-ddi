@@ -4,7 +4,6 @@ title: NtOpenEnlistment function (wdm.h)
 description: The ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
 old-location: kernel\zwopenenlistment.htm
 tech.root: kernel
-ms.assetid: b70d524f-2341-4b19-9c4a-f5095cb7f412
 ms.date: 04/30/2018
 keywords: ["NtOpenEnlistment function"]
 ms.keywords: NtOpenEnlistment, ZwOpenEnlistment, ZwOpenEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwopenenlistment, ktm_ref_cc7719f5-a9a2-42be-9961-01f910f864bc.xml, wdm/NtOpenEnlistment, wdm/ZwOpenEnlistment

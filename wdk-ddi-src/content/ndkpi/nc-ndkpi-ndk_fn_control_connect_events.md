@@ -4,7 +4,6 @@ title: NDK_FN_CONTROL_CONNECT_EVENTS (ndkpi.h)
 description: The NdkControlConnectEvents (NDK_FN_CONTROL_CONNECT_EVENTS) function pauses and restarts NDK connect event callback functions.
 old-location: netvista\ndk_fn_control_connect_events.htm
 tech.root: netvista
-ms.assetid: 3AA50940-A782-4A46-8E45-077BC76D41A7
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CONTROL_CONNECT_EVENTS callback function"]
 ms.keywords: NDK_FN_CONTROL_CONNECT_EVENTS, NDK_FN_CONTROL_CONNECT_EVENTS callback, NdkControlConnectEvents, NdkControlConnectEvents callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlConnectEvents, netvista.ndk_fn_control_connect_events

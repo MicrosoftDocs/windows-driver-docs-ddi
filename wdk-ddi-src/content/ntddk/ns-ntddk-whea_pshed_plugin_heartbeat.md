@@ -1,6 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_HEARTBEAT
 title: WHEA_PSHED_PLUGIN_HEARTBEAT
+tech.root: whea
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows

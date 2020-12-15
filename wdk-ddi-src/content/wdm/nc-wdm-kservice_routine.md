@@ -4,7 +4,6 @@ title: KSERVICE_ROUTINE (wdm.h)
 description: The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.
 old-location: kernel\interruptservice.htm
 tech.root: kernel
-ms.assetid: ad104d4d-5e7f-4730-b898-71ab467f9379
 ms.date: 04/30/2018
 keywords: ["KSERVICE_ROUTINE callback function"]
 ms.keywords: DrvrRtns_ee9bfb68-3d4c-4abf-9d2b-81037c2572d5.xml, InterruptService, InterruptService routine [Kernel-Mode Driver Architecture], KSERVICE_ROUTINE, kernel.interruptservice, wdm/InterruptService

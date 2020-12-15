@@ -4,7 +4,6 @@ title: IPrintOemEngine (prcomoem.h)
 description: 
 old-location: print\iprintoemengine.htm
 tech.root: print
-ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 ms.date: 04/20/2018
 keywords: ["IPrintOemEngine interface"]
 ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices],described, prcomoem/IPrintOemEngine, print.iprintoemengine

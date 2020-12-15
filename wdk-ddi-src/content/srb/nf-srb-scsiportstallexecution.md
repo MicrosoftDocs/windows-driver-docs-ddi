@@ -4,7 +4,6 @@ title: ScsiPortStallExecution function (srb.h)
 description: The ScsiPortStallExecution routine stalls in the miniport driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportstallexecution.htm
 tech.root: storage
-ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.date: 03/29/2018
 keywords: ["ScsiPortStallExecution function"]
 ms.keywords: ScsiPortStallExecution, ScsiPortStallExecution routine [Storage Devices], scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, srb/ScsiPortStallExecution, storage.scsiportstallexecution

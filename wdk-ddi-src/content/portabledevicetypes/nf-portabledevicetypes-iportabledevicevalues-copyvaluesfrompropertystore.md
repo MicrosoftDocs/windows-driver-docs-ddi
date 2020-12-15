@@ -4,7 +4,6 @@ title: IPortableDeviceValues::CopyValuesFromPropertyStore (portabledevicetypes.h
 description: Copies the contents of an IPropertyStore into the collection.
 old-location: wpddk\iportabledevicevalues_copyvaluesfrompropertystore.htm
 tech.root: wpd_dk
-ms.assetid: 2010802f-3803-46f9-9f19-11fd1f593fc8
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::CopyValuesFromPropertyStore"]
 ms.keywords: CopyValuesFromPropertyStore, CopyValuesFromPropertyStore method, CopyValuesFromPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesFromPropertyStore method, IPortableDeviceValues.CopyValuesFromPropertyStore, IPortableDeviceValues::CopyValuesFromPropertyStore, IPortableDeviceValuesCopyValuesFromPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore, wpddk.iportabledevicevalues_copyvaluesfrompropertystore

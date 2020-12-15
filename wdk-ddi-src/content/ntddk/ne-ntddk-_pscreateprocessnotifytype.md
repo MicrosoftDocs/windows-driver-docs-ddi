@@ -4,7 +4,6 @@ title: _PSCREATEPROCESSNOTIFYTYPE (ntddk.h)
 description: Indicates the type of process notification. This enumeration is used in PsSetCreateProcessNotifyRoutineEx2 to register callback notifications.
 old-location: kernel\pscreateprocessnotifytype.htm
 tech.root: kernel
-ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.date: 04/30/2018
 keywords: ["PSCREATEPROCESSNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems

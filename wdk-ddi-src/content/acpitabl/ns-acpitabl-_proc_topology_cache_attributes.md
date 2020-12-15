@@ -2,8 +2,7 @@
 UID: NS:acpitabl._PROC_TOPOLOGY_CACHE_ATTRIBUTES
 title: _PROC_TOPOLOGY_CACHE_ATTRIBUTES (acpitabl.h)
 description: Defines the processor topology cache attributes structure.
-ms.assetid: ebb96134-485b-412c-b147-9428a9dbd309
-ms.date: 10/01/2018
+ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_CACHE_ATTRIBUTES structure"]
 ms.keywords: _PROC_TOPOLOGY_CACHE_ATTRIBUTES, PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES,
 req.header: acpitabl.h
@@ -21,6 +20,7 @@ req.max-support:
 req.typenames: PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES
 targetos: Windows
 ms.custom: RS5
+tech.root: acpi
 f1_keywords:
  - _PROC_TOPOLOGY_CACHE_ATTRIBUTES
  - acpitabl/_PROC_TOPOLOGY_CACHE_ATTRIBUTES
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # _PROC_TOPOLOGY_CACHE_ATTRIBUTES structure
-
 
 ## -description
 
@@ -64,4 +63,3 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
-

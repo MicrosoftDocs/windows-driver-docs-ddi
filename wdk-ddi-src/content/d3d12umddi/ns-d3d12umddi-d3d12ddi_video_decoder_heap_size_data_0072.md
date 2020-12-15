@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
 title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
 ms.date: 03/24/2020
-ms.assetid: 23b19cf9-5afc-4efb-92ee-2dc8c482ec6c
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

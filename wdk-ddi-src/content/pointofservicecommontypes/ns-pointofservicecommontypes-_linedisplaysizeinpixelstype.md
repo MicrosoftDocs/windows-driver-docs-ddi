@@ -4,7 +4,6 @@ title: _LineDisplaySizeInPixelsType (pointofservicecommontypes.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
 tech.root: pos
-ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.date: 02/23/2018
 keywords: ["LineDisplaySizeInPixelsType structure"]
 ms.keywords: LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, PLineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, _LineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pos.linedisplaysizeinpixelstype

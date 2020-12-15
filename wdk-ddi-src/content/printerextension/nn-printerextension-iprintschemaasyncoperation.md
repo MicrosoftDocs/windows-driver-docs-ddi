@@ -4,7 +4,6 @@ title: IPrintSchemaAsyncOperation (printerextension.h)
 description: Represents an asynchronous operation context for validation, merge or commit operations.
 old-location: print\iprintschemaasyncoperation_interface.htm
 tech.root: print
-ms.assetid: CEA80412-4B19-493B-A85E-625915D77CA5
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaAsyncOperation interface"]
 ms.keywords: IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices],described, print.iprintschemaasyncoperation_interface, printerextension/IPrintSchemaAsyncOperation

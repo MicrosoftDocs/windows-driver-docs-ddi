@@ -4,7 +4,6 @@ title: _FLT_REGISTRATION (fltkernel.h)
 description: The FLT_REGISTRATION structure is passed as a parameter to FltRegisterFilter.
 old-location: ifsk\flt_registration.htm
 tech.root: ifsk
-ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.date: 04/16/2018
 keywords: ["FLT_REGISTRATION structure"]
 ms.keywords: "*PFLT_REGISTRATION, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, FLT_REGISTRATION, FLT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, PFLT_REGISTRATION, PFLT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, fltkernel/PFLT_REGISTRATION, ifsk.flt_registration"

@@ -4,7 +4,6 @@ title: PcwCreateInstance function (wdm.h)
 description: The PcwCreateInstance function creates a new instance for the specified registered counterset.
 old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
-ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
 ms.date: 07/28/2020
 keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance

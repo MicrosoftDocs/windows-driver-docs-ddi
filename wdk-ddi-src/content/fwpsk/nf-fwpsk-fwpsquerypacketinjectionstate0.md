@@ -4,7 +4,6 @@ title: FwpsQueryPacketInjectionState0 function (fwpsk.h)
 description: The FwpsQueryPacketInjectionState0 function is called by a callout to query the injection state of packet data.Note  FwpsQueryPacketInjectionState0 is a specific version of FwpsQueryPacketInjectionState.
 old-location: netvista\fwpsquerypacketinjectionstate0.htm
 tech.root: netvista
-ms.assetid: 785d99a5-a8c9-4763-bdd4-e26f604f6be7
 ms.date: 05/02/2018
 keywords: ["FwpsQueryPacketInjectionState0 function"]
 ms.keywords: FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryPacketInjectionState0, netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml
@@ -65,7 +64,7 @@ An injection handle that was previously created by a call to the
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being classified. The packet can originate from the network stack, or it can be
      injected into the network stack by a WFP callout driver.
 
@@ -124,7 +123,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

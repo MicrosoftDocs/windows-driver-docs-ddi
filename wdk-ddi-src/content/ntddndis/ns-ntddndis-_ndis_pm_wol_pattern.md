@@ -4,7 +4,6 @@ title: _NDIS_PM_WOL_PATTERN (ntddndis.h)
 description: The NDIS_PM_WOL_PATTERN structure defines a wake-on-LAN (WOL) pattern.
 old-location: netvista\ndis_pm_wol_pattern.htm
 tech.root: netvista
-ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.date: 05/02/2018
 keywords: ["NDIS_PM_WOL_PATTERN structure"]
 ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"

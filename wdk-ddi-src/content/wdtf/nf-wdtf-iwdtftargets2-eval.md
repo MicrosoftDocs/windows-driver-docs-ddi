@@ -4,7 +4,6 @@ title: IWDTFTargets2::Eval (wdtf.h)
 description: Evaluates whether all items in the collection match an SDEL statement.
 old-location: dtf\iwdtftargets2_eval.htm
 tech.root: dtf
-ms.assetid: 028a1fa9-686d-4f56-a49f-a7e90f960018
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Eval"]
 ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Eval method, IWDTFTargets2.Eval, IWDTFTargets2::Eval, Microsoft.WDTF.IWDTFTargets2.Eval, Microsoft::WDTF::IWDTFTargets2::Eval, dtf.iwdtftargets2_eval, wdtf/IWDTFTargets2::Eval

@@ -4,7 +4,6 @@ title: WdmlibIoGetAffinityInterrupt function (iointex.h)
 description: The WdmlibIoGetAffinityInterrupt function gets the group affinity of an interrupt object.
 old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 tech.root: kernel
-ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.date: 04/30/2018
 keywords: ["WdmlibIoGetAffinityInterrupt function"]
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt

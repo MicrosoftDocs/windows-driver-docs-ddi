@@ -4,7 +4,6 @@ title: _NDK_OBJECT_HEADER_RESERVED_BLOCK (ndkpi.h)
 description: The NDK_OBJECT_HEADER_RESERVED_BLOCK structure specifies reserved information in an NDK object.
 old-location: netvista\ndk_object_header_reserved_block.htm
 tech.root: netvista
-ms.assetid: 39D3265C-ED32-420F-9216-EFD0EDC27C84
 ms.date: 05/02/2018
 keywords: ["NDK_OBJECT_HEADER_RESERVED_BLOCK structure"]
 ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, netvista.ndk_object_header_reserved_block

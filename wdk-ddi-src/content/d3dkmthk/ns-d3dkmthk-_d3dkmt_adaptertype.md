@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_ADAPTERTYPE
 title: _D3DKMT_ADAPTERTYPE (d3dkmthk.h)
 description: Specifies the type of display device that the graphics adapter supports.
 old-location: display\d3dkmt_adaptertype.htm
-ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.date: 05/10/2018
 keywords: ["D3DKMT_ADAPTERTYPE structure"]
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype

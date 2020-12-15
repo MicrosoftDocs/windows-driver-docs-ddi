@@ -4,7 +4,6 @@ title: IoWMISuggestInstanceName function (wdm.h)
 description: The IoWMISuggestInstanceName routine is used to request that WMI suggest a base name which a driver can use to build WMI instance names for the device.
 old-location: kernel\iowmisuggestinstancename.htm
 tech.root: kernel
-ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.date: 04/30/2018
 keywords: ["IoWMISuggestInstanceName function"]
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName

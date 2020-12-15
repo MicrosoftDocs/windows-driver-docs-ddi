@@ -3,7 +3,6 @@ UID: NS:ntddstor._STORAGE_INDICATOR_STATE
 title: STORAGE_INDICATOR_STATE
 description: 
 tech.root: storage
-ms.assetid: 7bd765c6-36da-4bf9-bfb8-a2f2bc9b62fe
 ms.date: 11/30/2019
 ms.topic: struct
 f1_keywords:

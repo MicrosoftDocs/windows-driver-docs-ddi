@@ -4,7 +4,6 @@ title: NdisTerminateOffload function (ndischimney.h)
 description: A protocol driver or intermediate driver calls the NdisTerminateOffload function to terminate the offload of one or more state objects
 old-location: netvista\ndisterminateoffload.htm
 tech.root: netvista
-ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
 ms.date: 05/02/2018
 keywords: ["NdisTerminateOffload function"]
 ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml

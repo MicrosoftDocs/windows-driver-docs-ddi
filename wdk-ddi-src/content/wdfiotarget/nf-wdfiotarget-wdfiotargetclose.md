@@ -4,7 +4,6 @@ title: WdfIoTargetClose function (wdfiotarget.h)
 description: The WdfIoTargetClose method closes a specified remote I/O target.
 old-location: wdf\wdfiotargetclose.htm
 tech.root: wdf
-ms.assetid: 7de1ce11-a2b3-4d68-b279-4652b822297b
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetClose function"]
 ms.keywords: DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, WdfIoTargetClose method, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, wdfiotarget/WdfIoTargetClose

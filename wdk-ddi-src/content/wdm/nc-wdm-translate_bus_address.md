@@ -4,7 +4,6 @@ title: TRANSLATE_BUS_ADDRESS (wdm.h)
 description: The TranslateBusAddress routine translates addresses on the parent bus to logical addresses.
 old-location: kernel\translatebusaddress.htm
 tech.root: kernel
-ms.assetid: DDED1237-74B7-4127-8E86-D0794A1FB49B
 ms.date: 04/30/2018
 keywords: ["TRANSLATE_BUS_ADDRESS callback function"]
 ms.keywords: TRANSLATE_BUS_ADDRESS, TranslateBusAddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml, kernel.bustranslatebusaddress, kernel.translatebusaddress, wdm/TranslateBusAddress

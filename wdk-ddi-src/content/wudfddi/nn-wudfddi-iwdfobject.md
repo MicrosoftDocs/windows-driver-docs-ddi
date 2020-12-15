@@ -4,7 +4,6 @@ title: IWDFObject (wudfddi.h)
 description: The IWDFObject interface exposes the framework base object that provides the basic functionality common across all framework object types. All framework objects are derived from this root object.
 old-location: wdf\iwdfobject.htm
 tech.root: wdf
-ms.assetid: d2668856-a25d-4329-b230-f36992f8f9a4
 ms.date: 02/26/2018
 keywords: ["IWDFObject interface"]
 ms.keywords: IWDFObject, IWDFObject interface, IWDFObject interface,described, UMDFBaseObjectRef_b2026a30-0f91-4793-8622-093ca142f794.xml, umdf.iwdfobject, wdf.iwdfobject, wudfddi/IWDFObject

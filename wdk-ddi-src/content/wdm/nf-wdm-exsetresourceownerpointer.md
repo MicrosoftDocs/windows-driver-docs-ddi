@@ -4,7 +4,6 @@ title: ExSetResourceOwnerPointer function (wdm.h)
 description: The ExSetResourceOwnerPointer routine sets the owner thread pointer for an executive resource.
 old-location: kernel\exsetresourceownerpointer.htm
 tech.root: kernel
-ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.date: 04/30/2018
 keywords: ["ExSetResourceOwnerPointer function"]
 ms.keywords: ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, kernel.exsetresourceownerpointer, wdm/ExSetResourceOwnerPointer

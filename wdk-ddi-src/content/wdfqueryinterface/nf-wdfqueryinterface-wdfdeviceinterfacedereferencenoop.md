@@ -4,7 +4,6 @@ title: WdfDeviceInterfaceDereferenceNoOp function (wdfqueryinterface.h)
 description: The WdfDeviceInterfaceDereferenceNoOp method can be used for driver-defined interfaces that do not require reference counts.
 old-location: wdf\wdfdeviceinterfacedereferencenoop.htm
 tech.root: wdf
-ms.assetid: 76319a0b-a7b3-48f6-804b-e01bc360c441
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInterfaceDereferenceNoOp function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, WdfDeviceInterfaceDereferenceNoOp, WdfDeviceInterfaceDereferenceNoOp method, kmdf.wdfdeviceinterfacedereferencenoop, wdf.wdfdeviceinterfacedereferencenoop, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp

@@ -4,7 +4,6 @@ title: IBidiSpl::UnbindDevice (bidispl.h)
 description: The UnbindDevice method unbinds a printer from a bidi request.
 old-location: print\ibidispl_ibidispl__unbinddevice.htm
 tech.root: print
-ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::UnbindDevice"]
 ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
@@ -50,7 +49,7 @@ The <b>UnbindDevice</b> method unbinds a printer from a bidi request.
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.
 
 <table>
 <tr>

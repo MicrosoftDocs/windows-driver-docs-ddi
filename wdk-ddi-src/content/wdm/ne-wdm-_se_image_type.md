@@ -2,8 +2,8 @@
 UID: NE:wdm._SE_IMAGE_TYPE
 title: _SE_IMAGE_TYPE (wdm.h)
 description: 
-ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
 ms.date: 10/19/2018
+tech.root: kernel
 keywords: ["SE_IMAGE_TYPE enumeration"]
 ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE,
 req.header: wdm.h

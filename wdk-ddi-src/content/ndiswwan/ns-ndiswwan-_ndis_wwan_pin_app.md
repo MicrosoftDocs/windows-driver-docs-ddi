@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_PIN_APP
 title: _NDIS_WWAN_PIN_APP (ndiswwan.h)
 description: The NDIS_WWAN_PIN_APP structure specifies the target application ID for a UICC application whose PIN is being queried.
 tech.root: netvista
-ms.assetid: 9E401F36-21E5-482D-A8A6-952046911E20
 ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_PIN_APP structure"]
 ms.keywords: _NDIS_WWAN_PIN_APP, NDIS_WWAN_PIN_APP, *PNDIS_WWAN_PIN_APP,

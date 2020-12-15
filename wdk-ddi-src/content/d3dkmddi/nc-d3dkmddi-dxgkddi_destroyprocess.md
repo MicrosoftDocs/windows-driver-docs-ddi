@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_DESTROYPROCESS
 title: DXGKDDI_DESTROYPROCESS (d3dkmddi.h)
 description: DxgkDdiDestroyProcess destroys a kernel mode driver process object.
 old-location: display\dxgkddidestroyprocess.htm
-ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_DESTROYPROCESS callback function"]
 ms.keywords: DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS callback, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess

@@ -4,7 +4,6 @@ title: _NDIS_NET_BUFFER_LIST_FILTERING_INFO (ndis.h)
 description: The NDIS_NET_BUFFER_LIST_FILTERING_INFO structure defines filtering information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_net_buffer_list_filtering_info.htm
 tech.root: netvista
-ms.assetid: 992a4c77-e22f-4123-81e8-86c8030accfa
 ms.date: 05/02/2018
 keywords: ["NDIS_NET_BUFFER_LIST_FILTERING_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, netvista.ndis_net_buffer_list_filtering_info"
@@ -52,7 +51,7 @@ api_name:
 
 The <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure defines filtering information that is associated
   with a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -101,7 +100,7 @@ A PVOID type value that is in a union with the
 Starting with NDIS 6.20, miniport drivers  use the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to specify receive
     filter information that accompanies the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 To access the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure from the NET_BUFFER_LIST OOB data, an NDIS
     driver calls the 
@@ -125,7 +124,7 @@ To access the identifier values directly, use the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

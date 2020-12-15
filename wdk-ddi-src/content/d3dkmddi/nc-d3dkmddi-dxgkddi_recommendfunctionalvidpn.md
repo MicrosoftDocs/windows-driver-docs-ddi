@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_RECOMMENDFUNCTIONALVIDPN
 title: DXGKDDI_RECOMMENDFUNCTIONALVIDPN (d3dkmddi.h)
 description: The DxgkDdiRecommendFunctionalVidPn function creates a functional VidPN that can be implemented on a specified display adapter.
 old-location: display\dxgkddirecommendfunctionalvidpn.htm
-ms.assetid: 320a77a7-d7d4-47b9-8a40-2b6e12819e4b
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback function"]
 ms.keywords: DXGKDDI_RECOMMENDFUNCTIONALVIDPN, DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback, DmFunctions_9b5062a8-31fa-4351-bf10-a90f57bbaed8.xml, DxgkDdiRecommendFunctionalVidPn, DxgkDdiRecommendFunctionalVidPn callback function [Display Devices], d3dkmddi/DxgkDdiRecommendFunctionalVidPn, display.dxgkddirecommendfunctionalvidpn

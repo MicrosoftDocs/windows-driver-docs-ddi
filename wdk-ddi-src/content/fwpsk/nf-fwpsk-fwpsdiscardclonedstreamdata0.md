@@ -4,7 +4,6 @@ title: FwpsDiscardClonedStreamData0 function (fwpsk.h)
 description: The FwpsDiscardClonedStreamData0 function frees the memory buffer that is allocated by the FwpsCloneStreamData0 function.Note  FwpsDiscardClonedStreamData0 is a specific version of FwpsDiscardClonedStreamData.
 old-location: netvista\fwpsdiscardclonedstreamdata0.htm
 tech.root: netvista
-ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.date: 05/02/2018
 keywords: ["FwpsDiscardClonedStreamData0 function"]
 ms.keywords: FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml
@@ -58,7 +57,7 @@ The
 
 [in, out]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain that is
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure chain that is
      being freed. This will be the same as the 
      <i>netBufferListChain</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsclonestreamdata0">FwpsCloneStreamData0</a> function.
@@ -78,7 +77,7 @@ A value that indicates the current IRQL = DISPATCH_LEVEL. A callout driver shoul
 ## -remarks
 
 This function can be called when a cloned 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain is to be discarded
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain is to be discarded
     instead of being reinjected back into the data stream.
 
 ## -see-also
@@ -87,4 +86,4 @@ This function can be called when a cloned
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

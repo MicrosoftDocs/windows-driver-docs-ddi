@@ -4,7 +4,6 @@ title: _PEP_PPM_IDLE_EXECUTE (pepfx.h)
 description: The PEP_PPM_IDLE_EXECUTE structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute.htm
 tech.root: kernel
-ms.assetid: 88BE0C4E-0607-48D6-B0E1-7B35BFD70AD4
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_IDLE_EXECUTE structure"]
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, pepfx/PEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE"
@@ -68,7 +67,7 @@ The <b>PEP_PPM_IDLE_EXECUTE</b> structure specifies the idle state that the proc
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The <b>Status</b> member contains an output value that the PEP writes to this member.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The <b>Status</b> member contains an output value that the PEP writes to this member.
 
 ## -see-also
 

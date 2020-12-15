@@ -4,7 +4,6 @@ title: IPortableDeviceValues::GetBufferValue (portabledevicetypes.h)
 description: The GetBufferValue interface retrieves a byte array value (type VT_VECTOR | VT_UI1) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getbuffervalue.htm
 tech.root: wpd_dk
-ms.assetid: 3ce1e4c4-21e0-4e4f-8cf2-3f78b47ee817
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetBufferValue"]
 ms.keywords: GetBufferValue, GetBufferValue method, GetBufferValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBufferValue method, IPortableDeviceValues.GetBufferValue, IPortableDeviceValues::GetBufferValue, IPortableDeviceValuesGetBufferValue, portabledevicetypes/IPortableDeviceValues::GetBufferValue, wpddk.iportabledevicevalues_getbuffervalue

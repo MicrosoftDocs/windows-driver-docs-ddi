@@ -4,7 +4,6 @@ title: WdfPdoInitSetDefaultLocale function (wdfpdo.h)
 description: The WdfPdoInitSetDefaultLocale method sets a device's default locale.
 old-location: wdf\wdfpdoinitsetdefaultlocale.htm
 tech.root: wdf
-ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitSetDefaultLocale function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale method, kmdf.wdfpdoinitsetdefaultlocale, wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale

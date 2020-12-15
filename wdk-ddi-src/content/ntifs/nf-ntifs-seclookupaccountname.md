@@ -4,7 +4,6 @@ title: SecLookupAccountName function (ntifs.h)
 description: SecLookupAccountName accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: ifsk\seclookupaccountname.htm
 tech.root: ifsk
-ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.date: 04/16/2018
 keywords: ["SecLookupAccountName function"]
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName

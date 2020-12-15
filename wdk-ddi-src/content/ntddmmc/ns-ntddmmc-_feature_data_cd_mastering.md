@@ -4,7 +4,6 @@ title: _FEATURE_DATA_CD_MASTERING (ntddmmc.h)
 description: The FEATURE_DATA_CD_MASTERING structure holds information for the CD Mastering feature.
 old-location: storage\feature_data_cd_mastering.htm
 tech.root: storage
-ms.assetid: 340e9675-9d07-4224-ac1b-86e7586c0738
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_CD_MASTERING structure"]
 ms.keywords: "*PFEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING structure [Storage Devices], PFEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING structure pointer [Storage Devices], _FEATURE_DATA_CD_MASTERING, ntddmmc/FEATURE_DATA_CD_MASTERING, ntddmmc/PFEATURE_DATA_CD_MASTERING, storage.feature_data_cd_mastering, structs-CD-ROM_f803f10f-2ef7-4e3b-9c16-1ed2f3c5b2a5.xml"

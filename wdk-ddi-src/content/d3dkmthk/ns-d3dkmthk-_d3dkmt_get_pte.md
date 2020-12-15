@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_GET_PTE
 title: _D3DKMT_GET_PTE (d3dkmthk.h)
 description: Used to get page table entries.
-ms.assetid: bfe177b0-8922-438c-b214-e08f786b8e9c
 ms.date: 10/19/2018
 keywords: ["D3DKMT_GET_PTE structure"]
 ms.keywords: _D3DKMT_GET_PTE, D3DKMT_GET_PTE,

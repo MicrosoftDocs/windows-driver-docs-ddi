@@ -4,7 +4,6 @@ title: SerCxGetActivity function (sercx.h)
 description: The SerCxGetActivity method retrieves the status of pending work for the serial controller driver.
 old-location: serports\sercxgetactivity.htm
 tech.root: serports
-ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.date: 04/23/2018
 keywords: ["SerCxGetActivity function"]
 ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity

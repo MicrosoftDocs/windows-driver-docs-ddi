@@ -4,7 +4,6 @@ title: _PEP_SOC_SUBSYSTEM_METADATA (pep_x.h)
 description: The PEP_SOC_SUBSYSTEM_METADATA structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification sent to a platform extension plug-in (PEP).
 old-location: kernel\pep_soc_subsystem_metadata.htm
 tech.root: kernel
-ms.assetid: 4FAE15C7-7B2F-47A5-B429-B7FF7D3D018C
 ms.date: 04/30/2018
 keywords: ["PEP_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, pepfx/PEP_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_SOC_SUBSYSTEM_METADATA"

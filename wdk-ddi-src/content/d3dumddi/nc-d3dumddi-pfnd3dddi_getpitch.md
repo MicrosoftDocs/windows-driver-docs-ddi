@@ -4,7 +4,6 @@ title: PFND3DDDI_GETPITCH (d3dumddi.h)
 description: The GetPitch function retrieves the pitch of a protected or non-lockable surface.
 old-location: display\getpitch.htm
 tech.root: display
-ms.assetid: 1a5721a3-c03f-4827-9626-c9b6af5059a1
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_GETPITCH callback function"]
 ms.keywords: GetPitch, GetPitch callback function [Display Devices], PFND3DDDI_GETPITCH, PFND3DDDI_GETPITCH callback, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml, d3dumddi/GetPitch, display.getpitch

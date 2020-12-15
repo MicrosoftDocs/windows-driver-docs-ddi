@@ -4,7 +4,6 @@ title: FltIsVolumeSnapshot function (fltkernel.h)
 description: The FltIsVolumeSnapshot routine determines whether a volume or minifilter driver instance is attached to a snapshot volume.
 old-location: ifsk\fltisvolumesnapshot.htm
 tech.root: ifsk
-ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.date: 04/16/2018
 keywords: ["FltIsVolumeSnapshot function"]
 ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot

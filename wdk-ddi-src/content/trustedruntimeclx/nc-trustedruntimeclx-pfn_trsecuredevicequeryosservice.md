@@ -2,8 +2,7 @@
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEQUERYOSSERVICE
 title: PFN_TRSECUREDEVICEQUERYOSSERVICE (trustedruntimeclx.h)
 description: 
-ms.assetid: 28894ef9-7e17-4955-a4c9-6297d1f9fb30
-ms.date: 10/19/2018
+ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -24,6 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 ms.custom: RS5
+tech.root: treedrv
 f1_keywords:
  - PFN_TRSECUREDEVICEQUERYOSSERVICE
  - trustedruntimeclx/PFN_TRSECUREDEVICEQUERYOSSERVICE
@@ -39,18 +39,17 @@ api_name:
 
 # *PFN_TRSECUREDEVICEQUERYOSSERVICE callback function
 
-
 ## -description
 
 ## -parameters
 
-### -param BindContext: 
+### -param BindContext
 
-### -param Device: 
+### -param Device
 
-### -param OSServiceGuid: 
+### -param OSServiceGuid
 
-### -param Information: 
+### -param Information
 
 ## -returns
 
@@ -61,16 +60,16 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 ```cpp
 //Declaration
 
-*PFN_TRSECUREDEVICEQUERYOSSERVICE *PfnTrsecuredevicequeryosservice; 
+*PFN_TRSECUREDEVICEQUERYOSSERVICE *PfnTrsecuredevicequeryosservice;
 
 // Definition
 
-NTSTATUS *PfnTrsecuredevicequeryosservice 
+NTSTATUS *PfnTrsecuredevicequeryosservice
 (
-	WDFOBJECT BindContext
-	WDFDEVICE Device
-	LPCGUID OSServiceGuid
-	PTR_SERVICE_INFORMATION Information
+    WDFOBJECT BindContext
+    WDFDEVICE Device
+    LPCGUID OSServiceGuid
+    PTR_SERVICE_INFORMATION Information
 )
 {...}
 

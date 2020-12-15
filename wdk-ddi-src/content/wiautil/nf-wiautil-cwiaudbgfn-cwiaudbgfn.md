@@ -4,7 +4,6 @@ title: CWiauDbgFn::CWiauDbgFn (wiautil.h)
 description: The CWiauDbgFn::CWiauDbgFn method is used for tracing when a function or method is entered.
 old-location: image\cwiaudbgfn_cwiaudbgfn.htm
 tech.root: image
-ms.assetid: dbb367a7-d7e6-4081-9618-1c4e38cccd31
 ms.date: 08/26/2020
 keywords: ["CWiauDbgFn::CWiauDbgFn"]
 ms.keywords: CWiauDbgFn, CWiauDbgFn interface [Imaging Devices],CWiauDbgFn method, CWiauDbgFn method [Imaging Devices], CWiauDbgFn method [Imaging Devices],CWiauDbgFn interface, CWiauDbgFn.CWiauDbgFn, CWiauDbgFn::CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn

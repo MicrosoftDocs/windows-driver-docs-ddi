@@ -3,7 +3,6 @@ UID: NE:d3d12umddi.D3D12DDI_VARIABLE_SHADING_RATE_TIER
 title: D3D12DDI_VARIABLE_SHADING_RATE_TIER
 description: Indicates the tier at which variable rate shading occurs.
 tech.root: display
-ms.assetid: 52c5d637-560d-4bf7-99f9-484adbbadfd3
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VARIABLE_SHADING_RATE_TIER enumeration"]
 ms.keywords: D3D12DDI_VARIABLE_SHADING_RATE_TIER, D3D12DDI_VARIABLE_SHADING_RATE_TIER,

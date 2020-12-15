@@ -4,7 +4,6 @@ title: IDebugAdvanced (dbgeng.h)
 description: IDebugAdvanced interface
 old-location: debugger\idebugadvanced.htm
 tech.root: debugger
-ms.assetid: 773c93fe-1eec-4951-960e-67164dcb41ce
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced interface"]
 ms.keywords: IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], IDebugAdvanced interface [Windows Debugging],described, IDebugAdvanced_73a2f722-f225-466b-aecc-2c7e6999e25f.xml, dbgeng/IDebugAdvanced, debugger.idebugadvanced

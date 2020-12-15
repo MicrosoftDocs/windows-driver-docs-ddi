@@ -4,7 +4,6 @@ title: PcRemoveStreamResource function (portcls.h)
 description: PcRemoveStreamResource removes an existing stream resource.
 old-location: audio\pcremovestreamresource.htm
 tech.root: audio
-ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.date: 05/08/2018
 keywords: ["PcRemoveStreamResource function"]
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource

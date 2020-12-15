@@ -4,7 +4,6 @@ title: IWDFNamedPropertyStore::GetNameCount (wudfddi.h)
 description: The GetNameCount method retrieves the number of properties in a property store.
 old-location: wdf\iwdfnamedpropertystore_getnamecount.htm
 tech.root: wdf
-ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.date: 02/26/2018
 keywords: ["IWDFNamedPropertyStore::GetNameCount"]
 ms.keywords: GetNameCount, GetNameCount method, GetNameCount method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNameCount method, IWDFNamedPropertyStore.GetNameCount, IWDFNamedPropertyStore::GetNameCount, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, umdf.iwdfnamedpropertystore_getnamecount, wdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount

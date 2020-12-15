@@ -4,7 +4,6 @@ title: IOCTL_CHANGER_MOVE_MEDIUM (ntddchgr.h)
 description: Moves a piece of media from a source element to a destination.
 old-location: storage\ioctl_changer_move_medium.htm
 tech.root: storage
-ms.assetid: 4a410f56-cdc1-4cb0-801c-62402caec4ee
 ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_MOVE_MEDIUM IOCTL"]
 ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], k307_4d55c834-2f72-433b-8e75-015908324d87.xml, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, storage.ioctl_changer_move_medium

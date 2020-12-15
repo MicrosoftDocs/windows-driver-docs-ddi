@@ -4,7 +4,6 @@ title: RIL_GetUiccServiceLock function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccservicelock.htm
 tech.root: netvista
-ms.assetid: cebef749-f7f1-4a33-81fd-1d42da7afafe
 ms.date: 05/02/2018
 keywords: ["RIL_GetUiccServiceLock function"]
 ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock

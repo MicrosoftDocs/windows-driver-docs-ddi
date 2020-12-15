@@ -4,7 +4,6 @@ title: IPortClsRuntimePower::SendPowerControl (portcls.h)
 description: The port class driver (PortCls) uses the SendPowerControl method to send power control codes to the audio adapter.
 old-location: audio\iportclsruntimepower_sendpowercontrol.htm
 tech.root: audio
-ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.date: 05/08/2018
 keywords: ["IPortClsRuntimePower::SendPowerControl"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],SendPowerControl method, IPortClsRuntimePower.SendPowerControl, IPortClsRuntimePower::SendPowerControl, SendPowerControl, SendPowerControl method [Audio Devices], SendPowerControl method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_sendpowercontrol, portcls/IPortClsRuntimePower::SendPowerControl

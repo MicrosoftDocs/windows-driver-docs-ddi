@@ -4,7 +4,6 @@ title: NpdBrokerUninitialize function (knetpwrdepbroker.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\npdbrokeruninitialize.htm
 tech.root: netvista
-ms.assetid: E1CC0E8D-B48E-4F02-AE26-82123A3722E6
 ms.date: 05/02/2018
 keywords: ["NpdBrokerUninitialize function"]
 ms.keywords: NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize, netvista.npdbrokeruninitialize

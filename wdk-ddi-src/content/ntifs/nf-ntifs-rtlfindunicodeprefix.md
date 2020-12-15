@@ -4,7 +4,6 @@ title: RtlFindUnicodePrefix function (ntifs.h)
 description: The RtlFindUnicodePrefix routine searches for the best match for a given Unicode file name in a prefix table.
 old-location: ifsk\rtlfindunicodeprefix.htm
 tech.root: ifsk
-ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
 ms.date: 04/16/2018
 keywords: ["RtlFindUnicodePrefix function"]
 ms.keywords: RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml
@@ -116,7 +115,7 @@ File systems must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtl
 
 Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchronizing access to the prefix table. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

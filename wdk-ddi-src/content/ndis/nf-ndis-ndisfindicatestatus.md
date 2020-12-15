@@ -4,7 +4,6 @@ title: NdisFIndicateStatus function (ndis.h)
 description: The NdisFIndicateStatus function passes on a filtered status indication from an underlying driver or originates a status indication.
 old-location: netvista\ndisfindicatestatus.htm
 tech.root: netvista
-ms.assetid: fd81d777-8479-41e3-8f71-e5f4134b60a0
 ms.date: 05/02/2018
 keywords: ["NdisFIndicateStatus function"]
 ms.keywords: NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, netvista.ndisfindicatestatus

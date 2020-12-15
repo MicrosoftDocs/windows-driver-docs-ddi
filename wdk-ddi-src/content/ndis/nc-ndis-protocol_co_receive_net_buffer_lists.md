@@ -4,7 +4,6 @@ title: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS (ndis.h)
 description: The ProtocolCoReceiveNetBufferLists function processes receive indications from underlying drivers.Note  You must declare the function by using the PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\protocolcoreceivenetbufferlists.htm
 tech.root: netvista
-ms.assetid: 1755804c-d82f-465d-862f-8a2340516f8e
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback, ProtocolCoReceiveNetBufferLists, ProtocolCoReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_cebb36c0-45b2-4318-b70d-aae2eada001f.xml, ndis/ProtocolCoReceiveNetBufferLists, netvista.protocolcoreceivenetbufferlists
@@ -74,14 +73,14 @@ A handle to a protocol driver-allocated context area in which this driver mainta
 
 [in]
 A linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      underlying driver allocated. Each <b>NET_BUFFER_LIST</b> structure is usually associated with one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 ### -param NumberOfNetBufferLists 
 
 [in]
-The number of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
+The number of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 ### -param ReceiveFlags 
@@ -105,7 +104,7 @@ The current IRQL is DISPATCH_LEVEL. For more information about this flag, see
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
-NDIS reclaims ownership of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and any attached NET_BUFFER structures
+NDIS reclaims ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and any attached NET_BUFFER structures
        immediately after the call to 
        <i>ProtocolCoReceiveNetBufferLists</i> returns.
 
@@ -120,7 +119,7 @@ The
 
 If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag in the 
     <i>CoReceiveFlags</i> parameter is not set, the protocol driver retains ownership of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures until it calls
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures until it calls
     the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreturnnetbufferlists">
     NdisReturnNetBufferLists</a> function. If NDIS sets the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag, the protocol
@@ -182,7 +181,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

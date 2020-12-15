@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTGetMultisampleMethodList
 title: D3DKMTGetMultisampleMethodList function (d3dkmthk.h)
 description: The D3DKMTGetMultisampleMethodList function retrieves a list of multiple-sample methods that are used for an allocation.
 old-location: display\d3dkmtgetmultisamplemethodlist.htm
-ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
 ms.date: 05/10/2018
 keywords: ["D3DKMTGetMultisampleMethodList function"]
 ms.keywords: D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList function [Display Devices], OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml, d3dkmthk/D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist

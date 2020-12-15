@@ -4,7 +4,6 @@ title: _STORAGE_ZONE_GROUP (ntddstor.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zone_group.htm
 tech.root: storage
-ms.assetid: 71CEEE58-22CC-4FB4-83E1-5FCC6563D1D2
 ms.date: 03/29/2018
 keywords: ["STORAGE_ZONE_GROUP structure"]
 ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"

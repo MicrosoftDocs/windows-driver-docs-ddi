@@ -4,7 +4,6 @@ title: WdfPdoClearEjectionRelationsDevices function (wdfpdo.h)
 description: The WdfPdoClearEjectionRelationsDevices method removes all devices from the list of devices that must be ejected when a specified device is ejected.
 old-location: wdf\wdfpdoclearejectionrelationsdevices.htm
 tech.root: wdf
-ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.date: 02/26/2018
 keywords: ["WdfPdoClearEjectionRelationsDevices function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices

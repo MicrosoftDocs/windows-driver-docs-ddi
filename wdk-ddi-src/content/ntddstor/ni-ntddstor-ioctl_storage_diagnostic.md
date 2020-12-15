@@ -2,7 +2,6 @@
 UID: NI:ntddstor.IOCTL_STORAGE_DIAGNOSTIC
 title: IOCTL_STORAGE_DIAGNOSTIC
 ms.date: 10/28/2020
-ms.assetid: df32c35c-6563-4420-bd59-04995306ef45
 tech.root: storage
 ms.topic: language-reference
 targetos: Windows

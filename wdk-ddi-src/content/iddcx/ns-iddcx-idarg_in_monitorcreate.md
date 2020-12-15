@@ -4,7 +4,6 @@ title: IDARG_IN_MONITORCREATE (iddcx.h)
 description: Gives information about the monitor object that will be created.
 old-location: display\idarg_in_monitorcreate.htm
 tech.root: display
-ms.assetid: 0de9686f-69e6-4aac-8f58-9e61bcfe3827
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_MONITORCREATE structure"]
 ms.keywords: IDARG_IN_MONITORCREATE, IDARG_IN_MONITORCREATE structure [Display Devices], display.idarg_in_monitorcreate, iddcx/IDARG_IN_MONITORCREATE

@@ -4,7 +4,6 @@ title: NmrClientAttachProvider function (netioddk.h)
 description: The NmrClientAttachProvider function attaches a client module to a provider module.
 old-location: netvista\nmrclientattachprovider.htm
 tech.root: netvista
-ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.date: 05/02/2018
 keywords: ["NmrClientAttachProvider function"]
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml

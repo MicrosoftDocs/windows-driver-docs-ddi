@@ -3,7 +3,6 @@ UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: EVENTACTIONSCALE
 description: Enumeration defining the quality associated with a specific detection.
 tech.root: audio
-ms.assetid: 27155e81-f33f-4342-9847-c5f4326c72fe
 ms.date: 03/22/2019
 keywords: ["EVENTACTIONSCALE enumeration"]
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE,

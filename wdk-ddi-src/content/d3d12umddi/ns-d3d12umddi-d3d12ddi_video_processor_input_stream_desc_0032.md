@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 (d3d12umddi.h)
 description: Describes input stream properties for the video processor.
 old-location: display\d3d12ddi_video_processor_input_stream_desc_0032.htm
-ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, display.d3d12ddi_video_processor_input_stream_desc_0032

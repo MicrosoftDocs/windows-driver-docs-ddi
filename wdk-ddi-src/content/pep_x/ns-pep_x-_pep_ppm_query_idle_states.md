@@ -4,7 +4,6 @@ title: _PEP_PPM_QUERY_IDLE_STATES (pep_x.h)
 description: The PEP_PPM_QUERY_IDLE_STATES structure describes the idle states of a particular processor.
 old-location: kernel\pep_ppm_query_idle_states.htm
 tech.root: kernel
-ms.assetid: 27B43684-6564-41A0-9F0D-D49F88D1F14D
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_IDLE_STATES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states, pep_x/PEP_PPM_QUERY_IDLE_STATES, pep_x/PPEP_PPM_QUERY_IDLE_STATES"

@@ -2,7 +2,7 @@
 UID: NF:wdm.ObReferenceObjectSafe
 title: ObReferenceObjectSafe function (wdm.h)
 description: The ObReferenceObjectSafe function increments the reference count for an object and determines if it is safe to use the object. It returns FALSE if the object is being deleted or TRUE if it's safe to use the object further.
-ms.assetid: a87d4714-9ecf-453c-a689-7eec6ac9ac10
+tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["ObReferenceObjectSafe function"]
 ms.keywords: ObReferenceObjectSafe

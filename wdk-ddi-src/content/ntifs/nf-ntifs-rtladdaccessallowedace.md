@@ -4,7 +4,6 @@ title: RtlAddAccessAllowedAce function (ntifs.h)
 description: The RtlAddAccessAllowedAce routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedace.htm
 tech.root: ifsk
-ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
 ms.date: 04/16/2018
 keywords: ["RtlAddAccessAllowedAce function"]
 ms.keywords: RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml

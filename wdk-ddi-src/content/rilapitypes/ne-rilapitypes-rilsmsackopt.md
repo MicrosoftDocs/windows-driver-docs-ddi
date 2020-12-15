@@ -4,7 +4,6 @@ title: RILSMSACKOPT (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsackopt.htm
 tech.root: netvista
-ms.assetid: 652315db-0cdc-4c32-8fa0-3a538c917497
 ms.date: 05/02/2018
 keywords: ["RILSMSACKOPT enumeration"]
 ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, netvista.rilsmsackopt, ntddrilapitypes/RILSMSACKOPT, ntddrilapitypes/RIL_SMSACKOPT_IMS
