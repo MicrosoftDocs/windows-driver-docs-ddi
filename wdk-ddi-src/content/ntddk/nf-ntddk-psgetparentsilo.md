@@ -57,6 +57,6 @@ A pointer to an <b>EJOB</b> structure that represents the job object.
 
 ## -returns
 
-A pointer to the parent silo of the job. his value may be
+A pointer to the parent silo of the job. This value may be
     PSP_HOST_SILO, because all silos descend from the host.
 
