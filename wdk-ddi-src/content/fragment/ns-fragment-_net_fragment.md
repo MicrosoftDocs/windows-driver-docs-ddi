@@ -27,13 +27,13 @@ f1_keywords:
  - fragment/_NET_FRAGMENT
  - NET_FRAGMENT
  - fragment/NET_FRAGMENT
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - fragment.h
-apiname:
+api_name:
  - NET_FRAGMENT
 ---
 

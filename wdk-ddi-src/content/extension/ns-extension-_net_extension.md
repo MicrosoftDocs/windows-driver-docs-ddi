@@ -27,13 +27,13 @@ f1_keywords:
  - extension/_NET_EXTENSION
  - NET_EXTENSION
  - extension/NET_EXTENSION
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - extension.h
-apiname:
+api_name:
  - NET_EXTENSION
 ---
 

@@ -29,13 +29,13 @@ f1_keywords:
  - ntddndis/PNDIS_UDP_SEGMENTATION_OFFLOAD
  - NDIS_UDP_SEGMENTATION_OFFLOAD
  - ntddndis/NDIS_UDP_SEGMENTATION_OFFLOAD
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ntddndis.h
-apiname:
+api_name:
  - NDIS_UDP_SEGMENTATION_OFFLOAD
 product:
  - Windows

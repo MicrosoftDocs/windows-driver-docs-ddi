@@ -29,13 +29,13 @@ f1_keywords:
  - ndis/PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
  - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
  - ndis/NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ndis.h
-apiname:
+api_name:
  - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 product:
  - Windows

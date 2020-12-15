@@ -27,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetPacketIsIpv6
  - packet/NetPacketIsIpv6
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetPacketIsIpv6
 ---
 

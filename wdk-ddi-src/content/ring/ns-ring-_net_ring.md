@@ -27,13 +27,13 @@ f1_keywords:
  - ring/_NET_RING
  - NET_RING
  - ring/NET_RING
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ring.h
-apiname:
+api_name:
  - NET_RING
 ---
 
