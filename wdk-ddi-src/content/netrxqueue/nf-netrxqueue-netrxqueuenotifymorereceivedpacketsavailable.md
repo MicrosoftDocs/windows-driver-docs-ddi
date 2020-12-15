@@ -29,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetRxQueueNotifyMoreReceivedPacketsAvailable
  - netrxqueue/NetRxQueueNotifyMoreReceivedPacketsAvailable
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netrxqueue.h
-apiname:
+api_name:
  - NetRxQueueNotifyMoreReceivedPacketsAvailable
 ---
 
