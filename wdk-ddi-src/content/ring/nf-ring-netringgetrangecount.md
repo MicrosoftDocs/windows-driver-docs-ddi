@@ -29,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetRingGetRangeCount
  - ring/NetRingGetRangeCount
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ring.h
-apiname:
+api_name:
  - NetRingGetRangeCount
 ---
 
