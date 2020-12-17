@@ -43,7 +43,7 @@ dev_langs:
 ## -description
 
 > [!IMPORTANT]
-> Microsoft is aware of an issue with **ExAllocatePoolPriorityZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. This issue has been fixed in version 10.0.19041.685 of the WDK. For information on downloading the latest WDK, see [Download the Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
+> Microsoft is aware of an issue with **ExAllocatePoolPriorityZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. This issue has been fixed in a security refresh of the WDK for Windows 10, version 2004 and the Enterprise WDK (EWDK) for Windows 10, version 2004 on December 16th, 2020. For information on downloading the latest WDK, see [Download the Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
 This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md).
 
