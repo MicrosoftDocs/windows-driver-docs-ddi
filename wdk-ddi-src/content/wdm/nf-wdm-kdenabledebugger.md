@@ -49,9 +49,9 @@ The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call 
 
 ## -returns
 
-<b>KdEnableDebugger</b> returns STATUS_SUCCESS if the kernel debugger was successfully re-enabled. Otherwise, the return value can be one of the following error status codes:S
+<b>KdEnableDebugger</b> returns STATUS_SUCCESS if the kernel debugger was successfully re-enabled. Otherwise, the return value can be one of the following error status codes:
 
-TATUS_ACCESS_DENIED
+STATUS_ACCESS_DENIED
 
 STATUS_DEBUGGER_INACTIVE
 
