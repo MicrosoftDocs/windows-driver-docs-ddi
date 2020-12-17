@@ -27,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetPacketGetExtension
  - packet/NetPacketGetExtension
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetPacketGetExtension
 ---
 

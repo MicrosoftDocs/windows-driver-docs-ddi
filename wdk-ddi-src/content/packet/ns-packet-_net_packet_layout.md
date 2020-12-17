@@ -27,13 +27,13 @@ f1_keywords:
  - packet/_NET_PACKET_LAYOUT
  - NET_PACKET_LAYOUT
  - packet/NET_PACKET_LAYOUT
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - packet.h
-apiname:
+api_name:
  - NET_PACKET_LAYOUT
 ---
 

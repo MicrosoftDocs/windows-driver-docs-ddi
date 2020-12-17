@@ -27,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetExtensionGetPacketChecksum
  - checksum/NetExtensionGetPacketChecksum
-topictype:
+topic_type:
  - APIRef
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetExtensionGetPacketChecksum
 ---
 

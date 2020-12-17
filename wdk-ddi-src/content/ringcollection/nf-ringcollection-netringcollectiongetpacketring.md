@@ -29,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetRingCollectionGetPacketRing
  - ringcollection/NetRingCollectionGetPacketRing
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ringcollection.h
-apiname:
+api_name:
  - NetRingCollectionGetPacketRing
 ---
 

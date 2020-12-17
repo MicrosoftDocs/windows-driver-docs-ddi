@@ -26,13 +26,13 @@ targetos: Windows
 f1_keywords:
  - EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
  - netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - UserDefined
-apilocation:
+api_location:
  - netreceivescaling.h
-apiname:
+api_name:
  - EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
 ---
 

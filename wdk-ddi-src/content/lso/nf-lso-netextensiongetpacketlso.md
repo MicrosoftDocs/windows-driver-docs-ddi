@@ -30,9 +30,9 @@ f1_keywords:
  - lso/NetExtensionGetPacketLso
 topic_type:
  - apiref
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
 api_name:
  - NetExtensionGetPacketLso

@@ -29,13 +29,13 @@ f1_keywords:
  - wdm/PKBUGCHECK_TRIAGE_DUMP_DATA
  - KBUGCHECK_TRIAGE_DUMP_DATA
  - wdm/KBUGCHECK_TRIAGE_DUMP_DATA
-topictype:
+topic_type:
  - apiref
 api_type:
  - HeaderDef
 api_location:
  - wdm.h
-apiname:
+api_name:
  - _KBUGCHECK_TRIAGE_DUMP_DATA
 product:
  - Windows

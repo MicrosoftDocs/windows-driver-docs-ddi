@@ -25,13 +25,13 @@ f1_keywords:
  - netadapter/_NET_ADAPTER_RX_CAPABILITIES
  - NET_ADAPTER_RX_CAPABILITIES
  - netadapter/NET_ADAPTER_RX_CAPABILITIES
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - _NET_ADAPTER_RX_CAPABILITIES
 ---
 
