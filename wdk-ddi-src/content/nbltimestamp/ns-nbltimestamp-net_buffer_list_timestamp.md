@@ -1,7 +1,7 @@
 ---
 UID: NS:nbltimestamp._NET_BUFFER_LIST_TIMESTAMP
 title: NET_BUFFER_LIST_TIMESTAMP
-ms.date: 11/30/2020
+ms.date: 12/31/2020
 ms.topic: language-reference
 targetos: Windows
 description: This structure is reserved for system use and should not be used in your code.
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2019
+req.target-min-winverclnt: Windows 10, version 21H1. Supported in NDIS 6.82 and later.
+req.target-min-winversvr:
 req.target-type: 
 req.typenames: NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP
 req.umdf-ver: 

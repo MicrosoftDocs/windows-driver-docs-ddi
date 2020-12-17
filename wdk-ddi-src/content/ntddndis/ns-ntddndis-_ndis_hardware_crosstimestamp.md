@@ -9,8 +9,8 @@ ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2019
+req.target-min-winverclnt: Windows 10, version 21H1. Supported in NDIS 6.82 and later.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -52,7 +52,14 @@ This structure is reserved for system use and should not be used in your code.
 
 ### -field Header
 
-Reserved.
+
+The [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) structure that describes this **NDIS_HARDWARE_CROSSTIMESTAMP** structure. Set the members of the **NDIS_OBJECT_HEADER** structure as follows:
+
+* Set the **Type** member to **NDIS_OBJECT_TYPE_DEFAULT**.
+
+* Set the **Revision** member to **NDIS_HARDWARE_CROSSTIMESTAMP_REVISION_1**.
+
+* Set the **Size** member to **NDIS_SIZEOF_HARDWARE_CROSSTIMESTAMP_REVISION_1**.
 
 ### -field Flags
 

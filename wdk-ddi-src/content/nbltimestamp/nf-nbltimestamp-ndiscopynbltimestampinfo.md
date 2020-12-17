@@ -19,8 +19,8 @@ req.lib: ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2019
+req.target-min-winverclnt: Windows 10, version 21H1. Supported in NDIS 6.82 and later.
+req.target-min-winversvr: 
 req.target-type: Universal
 req.type-library: 
 req.umdf-ver: 
@@ -55,11 +55,13 @@ This function is reserved for system use and should not be called in your code.
 
 ### -param NblDest
 
-Reserved.
+[_Inout_]
+A pointer to the destination [NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ### -param NblSrc
 
-Reserved.
+[_In_]
+A pointer to the source [NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
