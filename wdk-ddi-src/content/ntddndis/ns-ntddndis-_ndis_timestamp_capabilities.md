@@ -80,6 +80,22 @@ An [**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_
 
 ## -remarks
 
+During initialization, the miniport driver should indicate its hardware and software timestamp capabilities from within its [**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize) function.
+
+Miniport drivers use the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers.
+
+Miniport drivers use the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report the current timestamping configuration of the NIC hardware.
+
 ## -see-also
 
 [**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_flags.md)
+
+[**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability)
+
+[**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config)
+
+[OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp)
+
+[**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+
+[NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
