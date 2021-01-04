@@ -58,4 +58,3 @@ The action to add to this collection.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-#
