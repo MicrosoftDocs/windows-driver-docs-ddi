@@ -76,7 +76,7 @@ This method returns NTSTATUS which contains STATUS_SUCCESS if the call was succe
 
 The miniport object specified by UnknownMiniport must support the miniport interface that the port driver requires or the Init call will fail.
 
-During the IPort::Init call, the port driver calls the miniport driver's initialization method (for example, see [IMiniportWavePci::Init](nf-iminiportwavepci-init.md)).
+During the IPort::Init call, the port driver calls the miniport driver's initialization method (for example, see [IMiniportWavePci::Init](nf-portcls-iminiportwavepci-init.md)).
 
 Parameter UnknownAdapter points to the COM interface of an adapter object. The adapter driver typically creates this object within its device-startup routine, which is the routine that the operating system calls to start the device (see Startup Sequence). For an example of an interface for an adapter object, see the `CMiniportWaveRT::Init` definition and implementation in the sysvad audio driver sample.
 
@@ -86,4 +86,4 @@ The UnknownMiniport, UnknownAdapter, and ResourceList parameters follow the stan
 
 [IPort](nn-portcls-iport.md)
 
-[IMiniportWavePci::Init](nf-iminiportwavepci-init.md)
+[IMiniportWavePci::Init](nf-portcls-iminiportwavepci-init.md)
