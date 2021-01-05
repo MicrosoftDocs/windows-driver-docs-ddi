@@ -110,18 +110,7 @@ Pointer to a caller-allocated buffer that, on successful return, contains a hand
 </dl>
 </td>
 <td width="60%">
-Possibly indicates that the caller specified an illegal set of <i>DevInstKeyType</i> flags.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Possibly indicates that the <i>DeviceObject</i> is not a valid PDO.
+Possibly indicates that the caller specified an illegal set of <i>DevInstKeyType</i> flags or provided a <i>DeviceObject</i> that is not a valid PDO.
 
 </td>
 </tr>
