@@ -30,8 +30,12 @@ f1_keywords:
  - MmProtectDriverSection
  - wdm/MmProtectDriverSection
 topic_type:
+ - APIRef
+ - kbSyntax
 api_type:
+ - DllExport
 api_location:
+ - NtosKrnl.exe
 api_name:
  - MmProtectDriverSection
 ---
