@@ -161,7 +161,7 @@ Callback routines are defined for the following operations:
 | The cache manager releases a file after flushing a portion of the file from the cache. | PreReleaseForCcFlush, PostReleaseForCcFlush |
 | The modified page writer acquires a file exclusively before writing a portion of the file to disk. | PreAcquireForModifiedPageWriter, PostAcquireForModifiedPageWriter |
 | The modified page writer releases a file after writing a portion of the file to disk. | PreReleaseForModifiedPageWriter, PostReleaseForModifiedPageWriter |
-| A component queries for file information by name without opening the file. | PreQueryOpen, PostQueryOpen |
+| A component queries for file information by name without opening the file.  <em>Note</em> that redirectors will never be called at this Callback | PreQueryOpen, PostQueryOpen |
 
 The filter notification callback routine is invoked before the operation request is passed to lower-level filter drivers and the underlying file system. In the callback routine, the filter driver should perform any needed processing and immediately return STATUS_SUCCESS. If a filter driver's callback routine returns a status value other than STATUS_SUCCESS, this causes the operation request to fail. Repeated failure of certain requests, such as locking requests, can halt system progress. Thus, filter drivers should fail such a request only when absolutely necessary. When failing these requests, the filter driver should return an error status value that describes the error as completely and accurately as possible.
 
