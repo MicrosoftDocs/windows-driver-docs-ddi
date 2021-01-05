@@ -153,8 +153,7 @@ Callback routines are defined for the following operations:
 
 | Operation | Notification callback routines |
 | ---- | ---- |
-| The memory manager acquires a file exclusively before creating a memory-mapped section for a portion of the file. For this operation, **SyncType** is set to **SyncTypeCreateSection**. | PreAcquireForSectionSynchronization,
-PostAcquireForSectionSynchronization |
+| The memory manager acquires a file exclusively before creating a memory-mapped section for a portion of the file. For this operation, **SyncType** is set to **SyncTypeCreateSection**. | PreAcquireForSectionSynchronization, PostAcquireForSectionSynchronization |
 | The memory manager releases a file after creating a memory-mapped section for a portion of the file. | PreReleaseForSectionSynchronization, PostReleaseForSectionSynchronization |
 | A kernel component (such as the cache manager) acquires a file exclusively before temporarily disabling section creation for a portion of the file. For this operation, **SyncType** is set to SyncTypeOther. | PreAcquireForSectionSynchronization, PostAcquireForSectionSynchronization. PreAcquireForSectionSynchronization should always return a success status code (such as STATUS_SUCCESS) for this operation. |
 | A kernel component (such as the cache manager) releases a file after temporarily disabling section creation for a portion of the file. | PreReleaseForSectionSynchronization, PostReleaseForSectionSynchronization |
