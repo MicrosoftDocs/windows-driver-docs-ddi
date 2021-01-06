@@ -4,7 +4,6 @@ title: NdisInitializeString function (ndis.h)
 description: The NdisInitializeString function allocates storage for and initializes a counted string in the system-default character set.
 old-location: netvista\ndisinitializestring.htm
 tech.root: netvista
-ms.assetid: c6945d7d-5152-4968-a628-7850b8083a82
 ms.date: 11/18/2020
 keywords: ["NdisInitializeString function"]
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring

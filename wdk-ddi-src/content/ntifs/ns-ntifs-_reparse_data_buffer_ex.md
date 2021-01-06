@@ -2,7 +2,6 @@
 UID: NS:ntifs._REPARSE_DATA_BUFFER_EX
 title: REPARSE_DATA_BUFFER_EX (ntifs.h)
 description: The REPARSE_DATA_BUFFER_EX structure contains data for a reparse point.
-ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
 ms.date: 11/25/2020
 tech.root: ifsk
 keywords: ["REPARSE_DATA_BUFFER_EX structure"]

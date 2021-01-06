@@ -4,7 +4,6 @@ title: ExtExtension::GetNumUnnamedArgs (engextcpp.h)
 description: The GetNumUnnamedArgs method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 old-location: debugger\getnumunnamedargs.htm
 tech.root: debugger
-ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
 ms.date: 05/03/2018
 keywords: ["ExtExtension::GetNumUnnamedArgs"]
 ms.keywords: EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension class [Windows Debugging],GetNumUnnamedArgs method, ExtExtension.GetNumUnnamedArgs, ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs method [Windows Debugging],ExtExtension class, debugger.getnumunnamedargs

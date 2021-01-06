@@ -4,7 +4,6 @@ title: IWDTFActions2::get_Item (wdtf.h)
 description: Gets an individual action in the collection.
 old-location: dtf\iwdtfactions2_item.htm
 tech.root: dtf
-ms.assetid: 2f06b719-212c-40bb-9e1e-a2473e7c8488
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::get_Item"]
 ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework],Item method, IWDTFActions2.get_Item, IWDTFActions2::Item, IWDTFActions2::get_Item, Item method [Windows Device Testing Framework], Item method [Windows Device Testing Framework],IWDTFActions2 interface, dtf.iwdtfactions2_item, get_Item, wdtf/IWDTFActions2::Item
@@ -65,6 +64,3 @@ The indexed action.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>

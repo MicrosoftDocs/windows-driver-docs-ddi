@@ -3,7 +3,6 @@ UID: NS:ntddk._PCI_FPB_CAPABILITY_HEADER
 title: _PCI_FPB_CAPABILITY_HEADER (ntddk.h)
 description: The Flattening Portal Bridge (FPB) Capabilities header. See section 7.y.1.
 tech.root: PCI
-ms.assetid: 67a5bfcc-d532-4c81-bb65-445307fcedf2
 ms.date: 09/30/2018
 keywords: ["PCI_FPB_CAPABILITY_HEADER structure"]
 ms.keywords: _PCI_FPB_CAPABILITY_HEADER, PCI_FPB_CAPABILITY_HEADER, *PPCI_FPB_CAPABILITY_HEADER,

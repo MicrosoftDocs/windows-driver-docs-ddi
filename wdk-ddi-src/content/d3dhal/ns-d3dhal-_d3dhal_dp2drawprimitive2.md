@@ -4,7 +4,6 @@ title: _D3DHAL_DP2DRAWPRIMITIVE2 (d3dhal.h)
 description: DirectX 8.0 and later versions only. D3DHAL_DRAWPRIMITIVE2 is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_DRAWPRIMITIVE2, and is used to render a primitive.
 old-location: display\d3dhal_dp2drawprimitive2.htm
 tech.root: display
-ms.assetid: de73a814-2406-4976-ae12-909ed820586c
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2DRAWPRIMITIVE2 structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2 structure [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2 structure pointer [Display Devices], _D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE2, d3dstrct_b61a4b46-344e-4f06-9b2b-1434bb8b6dcc.xml, display.d3dhal_dp2drawprimitive2"

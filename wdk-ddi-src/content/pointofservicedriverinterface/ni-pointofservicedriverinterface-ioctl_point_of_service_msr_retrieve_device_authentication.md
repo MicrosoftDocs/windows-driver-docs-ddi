@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION (pointofservice
 description: This I/O control function retrieves the device authentication type.
 old-location: pos\ioctl_point_of_service_msr_retrieve_device_authentication.htm
 tech.root: pos
-ms.assetid: 6f086416-ab50-46fc-933e-a3d48c7dbf4c
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION, IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION control, IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION, pos.ioctl_point_of_service_msr_retrieve_device_authentication

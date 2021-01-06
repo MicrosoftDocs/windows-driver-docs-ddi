@@ -4,7 +4,6 @@ title: PFN_DrvYMoveTo (printoem.h)
 description: The DrvYMoveTo function is obsolete.
 old-location: print\drvymoveto.htm
 tech.root: print
-ms.assetid: 0d8539eb-0b9c-4aae-abbe-bb7ddd6231f5
 ms.date: 04/20/2018
 keywords: ["PFN_DrvYMoveTo callback function"]
 ms.keywords: DrvYMoveTo, DrvYMoveTo callback function [Print Devices], PFN_DrvYMoveTo, PFN_DrvYMoveTo callback, print.drvymoveto, print_obsoletefunctions_90e3798e-8acd-4aad-a3a2-ae8a84934a92.xml, printoem/DrvYMoveTo

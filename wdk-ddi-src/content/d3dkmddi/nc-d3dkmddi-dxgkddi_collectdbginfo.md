@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_COLLECTDBGINFO
 title: DXGKDDI_COLLECTDBGINFO (d3dkmddi.h)
 description: The DxgkDdiCollectDbgInfo function outputs driver information for a debug report.
 old-location: display\dxgkddicollectdbginfo.htm
-ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_COLLECTDBGINFO callback function"]
 ms.keywords: DXGKDDI_COLLECTDBGINFO, DXGKDDI_COLLECTDBGINFO callback, DmFunctions_3b0ed5a8-f56d-4dbd-8426-667ff8f37ee5.xml, DxgkDdiCollectDbgInfo, DxgkDdiCollectDbgInfo callback function [Display Devices], d3dkmddi/DxgkDdiCollectDbgInfo, display.dxgkddicollectdbginfo

@@ -4,7 +4,6 @@ title: WDF_TYPE_NAME_TO_TYPE_INFO macro (wdfobject.h)
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_to_type_info.htm
 tech.root: wdf
-ms.assetid: e0ebbfee-cf47-4bcc-a828-13d51ba14622
 ms.date: 02/26/2018
 keywords: ["WDF_TYPE_NAME_TO_TYPE_INFO macro"]
 ms.keywords: DFGenObjectRef_4f9f25c8-aa26-478f-a8e8-a83e979c109b.xml, WDF_TYPE_NAME_TO_TYPE_INFO, WDF_TYPE_NAME_TO_TYPE_INFO macro, kmdf.wdf_type_name_to_type_info, wdf.wdf_type_name_to_type_info, wdfobject/WDF_TYPE_NAME_TO_TYPE_INFO

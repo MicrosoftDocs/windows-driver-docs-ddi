@@ -4,7 +4,6 @@ title: _PEP_QUERY_COMPONENT_PERF_SET (pepfx.h)
 description: The PEP_QUERY_COMPONENT_PERF_SET structure contains query information about a set of performance state values (P-state set) for a component.
 old-location: kernel\pep_query_component_perf_set.htm
 tech.root: kernel
-ms.assetid: F870E56B-5D80-4E9C-A06E-D21A9BFA1ED8
 ms.date: 04/30/2018
 keywords: ["PEP_QUERY_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
@@ -129,7 +128,7 @@ The maximum value in the range of performance values for this P-state set. This 
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>Set</b>, and <b>Flags</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) when this notification is sent. The <b>Discrete</b> member or <b>Range</b> member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>Set</b>, and <b>Flags</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) when this notification is sent. The <b>Discrete</b> member or <b>Range</b> member contains an output value that the PEP writes to the structure in response to the notification.
 
 ## -see-also
 

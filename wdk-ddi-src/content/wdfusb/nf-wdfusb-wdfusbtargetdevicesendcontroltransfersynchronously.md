@@ -4,7 +4,6 @@ title: WdfUsbTargetDeviceSendControlTransferSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceSendControlTransferSynchronously method builds a USB control transfer request and sends it synchronously to an I/O target.
 old-location: wdf\wdfusbtargetdevicesendcontroltransfersynchronously.htm
 tech.root: wdf
-ms.assetid: 95150a1f-e323-4c29-8a4e-12ab4f231bc6
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceSendControlTransferSynchronously function"]
 ms.keywords: DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml, WdfUsbTargetDeviceSendControlTransferSynchronously, WdfUsbTargetDeviceSendControlTransferSynchronously method, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously

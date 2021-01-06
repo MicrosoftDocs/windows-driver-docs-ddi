@@ -4,7 +4,6 @@ title: OEMSendFontCmd function (printoem.h)
 description: This function is obsolete.
 old-location: print\oemsendfontcmd.htm
 tech.root: print
-ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.date: 11/18/2019
 keywords: ["OEMSendFontCmd function"]
 ms.keywords: OEMSendFontCmd, OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd

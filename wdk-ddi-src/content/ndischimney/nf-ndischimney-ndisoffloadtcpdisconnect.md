@@ -4,7 +4,6 @@ title: NdisOffloadTcpDisconnect function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisOffloadTcpDisconnect function to close the send half of an offloaded TCP connection.
 old-location: netvista\ndisoffloadtcpdisconnect.htm
 tech.root: netvista
-ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.date: 05/02/2018
 keywords: ["NdisOffloadTcpDisconnect function"]
 ms.keywords: NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
@@ -70,7 +69,7 @@ A pointer to an
 
 [in]
 A pointer to a single 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
@@ -157,7 +156,7 @@ When the underlying driver or offload target subsequently completes the disconne
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

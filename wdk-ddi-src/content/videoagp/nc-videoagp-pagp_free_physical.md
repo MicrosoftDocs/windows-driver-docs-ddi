@@ -4,7 +4,6 @@ title: PAGP_FREE_PHYSICAL (videoagp.h)
 description: The AgpFreePhysical function frees system memory that was committed by a previous call to AgpCommitPhysical.
 old-location: display\agpfreephysical.htm
 tech.root: display
-ms.assetid: bb0e3330-5601-47dd-afc6-94a70b42daaf
 ms.date: 05/10/2018
 keywords: ["PAGP_FREE_PHYSICAL callback function"]
 ms.keywords: AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, PAGP_FREE_PHYSICAL callback, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical

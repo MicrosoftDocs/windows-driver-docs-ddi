@@ -4,7 +4,6 @@ title: ExQueryDepthSList function (wdm.h)
 description: The ExQueryDepthSList routine returns the number of entries currently in a given sequenced singly linked list.
 old-location: kernel\exquerydepthslist.htm
 tech.root: kernel
-ms.assetid: fdf40535-4e0d-4db9-9e95-744029eb2bd5
 ms.date: 04/30/2018
 keywords: ["ExQueryDepthSList function"]
 ms.keywords: ExQueryDepthSList, ExQueryDepthSList routine [Kernel-Mode Driver Architecture], k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, kernel.exquerydepthslist, wdm/ExQueryDepthSList

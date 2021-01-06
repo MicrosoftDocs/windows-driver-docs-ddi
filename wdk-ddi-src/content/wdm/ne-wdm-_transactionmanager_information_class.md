@@ -4,7 +4,6 @@ title: _TRANSACTIONMANAGER_INFORMATION_CLASS (wdm.h)
 description: The TRANSACTIONMANAGER_INFORMATION_CLASS enumeration specifies the type of information that the ZwQueryInformationTransactionManager routine can retrieve for a transaction manager object.
 old-location: kernel\transactionmanager_information_class.htm
 tech.root: kernel
-ms.assetid: 71d6db29-0a93-4793-92f4-3e85615e1b61
 ms.date: 04/30/2018
 keywords: ["TRANSACTIONMANAGER_INFORMATION_CLASS enumeration"]
 ms.keywords: TRANSACTIONMANAGER_INFORMATION_CLASS, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionManagerBasicInformation, TransactionManagerLogInformation, TransactionManagerLogPathInformation, TransactionManagerRecoveryInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS, kernel.transactionmanager_information_class, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, wdm/TransactionManagerBasicInformation, wdm/TransactionManagerLogInformation, wdm/TransactionManagerLogPathInformation, wdm/TransactionManagerRecoveryInformation

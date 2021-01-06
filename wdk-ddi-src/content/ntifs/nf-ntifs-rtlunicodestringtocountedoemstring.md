@@ -4,7 +4,6 @@ title: RtlUnicodeStringToCountedOemString function (ntifs.h)
 description: The RtlUnicodeStringToCountedOemString routine translates the specified Unicode source string into a counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlunicodestringtocountedoemstring.htm
 tech.root: ifsk
-ms.assetid: 7479d5d0-69d0-42b8-9aa1-5eab8b71b118
 ms.date: 04/16/2018
 keywords: ["RtlUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUnicodeStringToCountedOemString, RtlUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtocountedoemstring, ntifs/RtlUnicodeStringToCountedOemString, rtlref_dbc62228-043f-43f1-bd19-464adf37b693.xml
@@ -74,7 +73,7 @@ Set to <b>TRUE</b> if <b>RtlUnicodeStringToCountedOemString</b> should allocate 
 
 <b>RtlUnicodeStringToCountedOemString</b> does not modify the source string.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

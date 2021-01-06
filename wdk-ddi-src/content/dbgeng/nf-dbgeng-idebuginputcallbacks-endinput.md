@@ -4,7 +4,6 @@ title: IDebugInputCallbacks::EndInput (dbgeng.h)
 description: The EndInput callback method is called by the engine to indicate that it is no longer waiting for input.
 old-location: debugger\idebuginputcallbacks_endinput.htm
 tech.root: debugger
-ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.date: 05/03/2018
 keywords: ["IDebugInputCallbacks::EndInput"]
 ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput, EndInput method [Windows Debugging], EndInput method [Windows Debugging],IDebugInputCallbacks interface, IDebugInputCallbacks interface [Windows Debugging],EndInput method, IDebugInputCallbacks.EndInput, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput

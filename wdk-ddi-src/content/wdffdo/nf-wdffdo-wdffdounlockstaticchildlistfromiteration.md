@@ -4,7 +4,6 @@ title: WdfFdoUnlockStaticChildListFromIteration function (wdffdo.h)
 description: The WdfFdoUnlockStaticChildListFromIteration method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked.
 old-location: wdf\wdffdounlockstaticchildlistfromiteration.htm
 tech.root: wdf
-ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
 ms.date: 02/26/2018
 keywords: ["WdfFdoUnlockStaticChildListFromIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration

@@ -4,7 +4,6 @@ title: KsRecalculateStackDepth function (ks.h)
 description: The KsRecalculateStackDepth function recalculates the maximum stack depth required by the underlying device object based on all of the objects that have set a target device (they have added themselves to the object list on the underlying device object using the KsSetTargetDeviceObject function). If the PnP device object has been set on the underlying device header using KsSetDevicePnpAndBaseObject, that device is also taken into account when calculating the maximum stack depth.
 old-location: stream\ksrecalculatestackdepth.htm
 tech.root: stream
-ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.date: 04/23/2018
 keywords: ["KsRecalculateStackDepth function"]
 ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth , KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth

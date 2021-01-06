@@ -4,7 +4,6 @@ title: _AddConnectionToSession_IN (iscsiop.h)
 description: The AddConnectionToSession_IN structure holds input data for the AddConnectionToSession method, which is used to add a new connection to an already existing session.
 old-location: storage\addconnectiontosession_in.htm
 tech.root: storage
-ms.assetid: 7fcb0b87-1f9e-4956-a59a-cd83fa04e5db
 ms.date: 03/29/2018
 keywords: ["AddConnectionToSession_IN structure"]
 ms.keywords: "*PAddConnectionToSession_IN, AddConnectionToSession_IN, AddConnectionToSession_IN structure [Storage Devices], PAddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], _AddConnectionToSession_IN, iscsiop/AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN, storage.addconnectiontosession_in, structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml"

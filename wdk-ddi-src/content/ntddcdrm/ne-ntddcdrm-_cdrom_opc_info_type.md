@@ -4,7 +4,6 @@ title: _CDROM_OPC_INFO_TYPE (ntddcdrm.h)
 description: The CDROM_OPC_INFO_TYPE enumeration is a member of the CDROM_SIMPLE_OPC_INFO structure. It defines the Optimum Power Calibration (OPC) request that is used as input to the IOCTL_CDROM_SEND_OPC_INFORMATION I/O control request.
 old-location: storage\cdrom_opc_info_type.htm
 tech.root: storage
-ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.date: 03/29/2018
 keywords: ["CDROM_OPC_INFO_TYPE enumeration"]
 ms.keywords: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], SimpleOpcInfo, _CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, storage.cdrom_opc_info_type"

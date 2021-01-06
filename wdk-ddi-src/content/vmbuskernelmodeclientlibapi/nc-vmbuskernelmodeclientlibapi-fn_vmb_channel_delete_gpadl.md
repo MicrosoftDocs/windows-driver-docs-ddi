@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_DELETE_GPADL
 title: FN_VMB_CHANNEL_DELETE_GPADL (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelDeleteGpadl function deletes a Guest Physical Address Descriptor List (GPADL) mapped by the VmbChannelCreateGpadlFromMdl or VmbChannelCreateGpadlFromBuffer functions.
 tech.root: netvista
-ms.assetid: fa3460be-2cd1-4c04-94b7-2e83f6b243a3
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_DELETE_GPADL callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

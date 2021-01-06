@@ -4,7 +4,6 @@ title: MmPrefetchPages function (ntifs.h)
 description: The MmPrefetchPages routine reads groups of pages from secondary storage in the optimal fashion.
 old-location: ifsk\mmprefetchpages.htm
 tech.root: ifsk
-ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.date: 08/21/2020
 keywords: ["MmPrefetchPages function"]
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages

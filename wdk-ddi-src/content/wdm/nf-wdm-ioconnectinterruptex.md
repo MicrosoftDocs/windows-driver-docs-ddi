@@ -4,7 +4,6 @@ title: IoConnectInterruptEx function (wdm.h)
 description: For more information, see the WdmlibIoConnectInterruptEx function.#define IoConnectInterruptEx WdmlibIoConnectInterruptEx
 old-location: kernel\ioconnectinterruptex.htm
 tech.root: kernel
-ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.date: 04/30/2018
 keywords: ["IoConnectInterruptEx function"]
 ms.keywords: IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, kernel.ioconnectinterruptex, wdm/IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx

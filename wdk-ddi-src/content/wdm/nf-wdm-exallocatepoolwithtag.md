@@ -4,7 +4,6 @@ title: ExAllocatePoolWithTag function (wdm.h)
 description: The ExAllocatePoolWithTag routine allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepoolwithtag.htm
 tech.root: kernel
-ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.date: 04/30/2018
 keywords: ["ExAllocatePoolWithTag function"]
 ms.keywords: ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, kernel.exallocatepoolwithtag, wdm/ExAllocatePoolWithTag

@@ -4,7 +4,6 @@ title: IWDFIoQueue::Drain (wudfddi.h)
 description: The Drain method directs the queue to reject new incoming I/O requests and allow already-queued requests to be delivered to the driver for processing.
 old-location: wdf\iwdfioqueue_drain.htm
 tech.root: wdf
-ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.date: 02/26/2018
 keywords: ["IWDFIoQueue::Drain"]
 ms.keywords: Drain, Drain method, Drain method,IWDFIoQueue interface, IWDFIoQueue interface,Drain method, IWDFIoQueue.Drain, IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, wdf.iwdfioqueue_drain, wudfddi/IWDFIoQueue::Drain

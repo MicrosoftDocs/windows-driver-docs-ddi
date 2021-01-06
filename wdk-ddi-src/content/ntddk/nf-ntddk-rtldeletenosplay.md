@@ -4,7 +4,6 @@ title: RtlDeleteNoSplay function (ntddk.h)
 description: The RtlDeleteNoSplay routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldeletenosplay.htm
 tech.root: ifsk
-ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.date: 04/16/2018
 keywords: ["RtlDeleteNoSplay function"]
 ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml

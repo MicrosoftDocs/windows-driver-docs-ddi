@@ -4,7 +4,6 @@ title: _DLGPAGE (compstui.h)
 description: The DLGPAGE structure is used for specifying a property sheet page to CPSUI's ComPropSheet function. The structure's address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
 old-location: print\dlgpage.htm
 tech.root: print
-ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.date: 04/20/2018
 keywords: ["DLGPAGE structure"]
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"

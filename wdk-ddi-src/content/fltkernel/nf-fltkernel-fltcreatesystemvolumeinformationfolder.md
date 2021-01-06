@@ -4,7 +4,6 @@ title: FltCreateSystemVolumeInformationFolder function (fltkernel.h)
 description: FltCreateSystemVolumeInformationFolder verifies the existence of the "System Volume Information" folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\fltcreatesystemvolumeinformationfolder.htm
 tech.root: ifsk
-ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.date: 04/16/2018
 keywords: ["FltCreateSystemVolumeInformationFolder function"]
 ms.keywords: FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder

@@ -4,7 +4,6 @@ title: RtlULongPtrToLong function (ntintsafe.h)
 description: Converts a value of type ULONG_PTR to a value of type LONG.
 old-location: kernel\rtlulongptrtolong.htm
 tech.root: kernel
-ms.assetid: 7A5F39C8-DCA2-4684-801A-A334960AA523
 ms.date: 04/30/2018
 keywords: ["RtlULongPtrToLong function"]
 ms.keywords: RtlULongPtrToLong, RtlULongPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolong, ntintsafe/RtlULongPtrToLong

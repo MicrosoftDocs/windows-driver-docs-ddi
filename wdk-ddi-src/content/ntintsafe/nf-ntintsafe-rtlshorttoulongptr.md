@@ -4,7 +4,6 @@ title: RtlShortToULongPtr function (ntintsafe.h)
 description: Converts a value of type SHORT to a value of type ULONG_PTR.
 old-location: kernel\rtlshorttoulongptr.htm
 tech.root: kernel
-ms.assetid: 0C279063-D5B1-4C82-8C0A-2B39E831BFB3
 ms.date: 04/30/2018
 keywords: ["RtlShortToULongPtr function"]
 ms.keywords: RtlShortToULongPtr, RtlShortToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulongptr, ntintsafe/RtlShortToULongPtr

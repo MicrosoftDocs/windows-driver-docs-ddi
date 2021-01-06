@@ -4,7 +4,6 @@ title: OEMFontManagement function (printoem.h)
 description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
 old-location: print\oemfontmanagement.htm
 tech.root: print
-ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.date: 04/20/2018
 keywords: ["OEMFontManagement function"]
 ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement

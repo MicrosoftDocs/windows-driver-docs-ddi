@@ -4,7 +4,6 @@ title: IOCTL_EHSTOR_DEVICE_SILO_COMMAND (ehstorioctl.h)
 description: This IOCTL issues a silo command to the targeted silo on the device. Both input and output data are structured according to the definition of silo commands, as found in the IEEE 1667 specification document.
 old-location: storage\ioctl_ehstor_device_silo_command.htm
 tech.root: storage
-ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command

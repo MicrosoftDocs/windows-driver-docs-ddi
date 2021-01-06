@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGKARG_RESUMECONTEXT
 title: _DXGKARG_RESUMECONTEXT (d3dkmddi.h)
 description: Arguments used to resume a context.
-ms.assetid: 08bf3268-16b0-4716-a687-4074c1618e78
 ms.date: 10/19/2018
 keywords: ["DXGKARG_RESUMECONTEXT structure"]
 ms.keywords: _DXGKARG_RESUMECONTEXT, DXGKARG_RESUMECONTEXT,

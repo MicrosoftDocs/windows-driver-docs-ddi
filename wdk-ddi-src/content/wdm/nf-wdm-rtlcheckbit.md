@@ -4,7 +4,6 @@ title: RtlCheckBit macro (wdm.h)
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
 tech.root: kernel
-ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.date: 04/30/2018
 keywords: ["RtlCheckBit macro"]
 ms.keywords: RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, wdm/RtlCheckBit

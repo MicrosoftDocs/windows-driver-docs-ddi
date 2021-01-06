@@ -4,7 +4,6 @@ title: ObQueryNameString function (ntifs.h)
 description: The ObQueryNameString routine supplies the name, if there is one, of a given object to which the caller has a pointer.
 old-location: ifsk\obquerynamestring.htm
 tech.root: ifsk
-ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.date: 04/16/2018
 keywords: ["ObQueryNameString function"]
 ms.keywords: ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], ifsk.obquerynamestring, ntifs/ObQueryNameString, obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml

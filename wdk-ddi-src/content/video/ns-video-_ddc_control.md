@@ -4,7 +4,6 @@ title: _DDC_CONTROL (video.h)
 description: The DDC_CONTROL structure holds function pointers and EDID segment information needed by the VideoPortDDCMonitorHelper function, which is exported by the video port driver.
 old-location: display\ddc_control.htm
 tech.root: display
-ms.assetid: 993c4913-1613-4ffb-86dd-fd8846139a46
 ms.date: 05/10/2018
 keywords: ["DDC_CONTROL structure"]
 ms.keywords: "*PDDC_CONTROL, DDC_CONTROL, DDC_CONTROL structure [Display Devices], PDDC_CONTROL, PDDC_CONTROL structure pointer [Display Devices], Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _DDC_CONTROL, display.ddc_control, video/DDC_CONTROL, video/PDDC_CONTROL"

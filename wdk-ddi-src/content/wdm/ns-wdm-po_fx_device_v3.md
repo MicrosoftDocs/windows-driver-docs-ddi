@@ -1,9 +1,8 @@
-    ---
+---
 UID: NS:wdm._PO_FX_DEVICE_V3
 title: PO_FX_DEVICE_V3
 description: 
 tech.root: kernel
-ms.assetid: d3c6749b-2661-40a6-b4a7-937710bc36fe
 ms.date: 08/19/2019
 keywords: ["PO_FX_DEVICE_V3 structure"]
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE

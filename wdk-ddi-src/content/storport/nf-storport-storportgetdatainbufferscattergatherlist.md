@@ -4,7 +4,6 @@ title: StorPortGetDataInBufferScatterGatherList function (storport.h)
 description: Returns the scatter-gather list associated with the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbufferscattergatherlist.htm
 tech.root: storage
-ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferScatterGatherList function"]
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList

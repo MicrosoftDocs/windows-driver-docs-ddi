@@ -4,7 +4,6 @@ title: FsRtlNotifyFilterChangeDirectory function (ntifs.h)
 description: The FsRtlNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterchangedirectory.htm
 tech.root: ifsk
-ms.assetid: 445b6836-aeac-4183-ba11-a787c1e125ac
 ms.date: 03/29/2018
 keywords: ["FsRtlNotifyFilterChangeDirectory function"]
 ms.keywords: FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml, ifsk.fsrtlnotifyfilterchangedirectory, ntifs/FsRtlNotifyFilterChangeDirectory

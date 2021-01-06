@@ -4,7 +4,6 @@ title: IDebugFailureAnalysis2::GetFailureType (extsfns.h)
 description: The GetFailureType method gets the failure type of a DebugFailureAnalysis object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 old-location: debugger\idebugfailureanalysis2_getfailuretype.htm
 tech.root: debugger
-ms.assetid: 3BE85B65-DAE0-41E7-AB24-B5E8E7073E1A
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::GetFailureType"]
 ms.keywords: GetFailureType, GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureType method, IDebugFailureAnalysis2.GetFailureType, IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, extsfns/IDebugFailureAnalysis2::GetFailureType

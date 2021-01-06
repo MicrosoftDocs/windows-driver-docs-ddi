@@ -4,7 +4,6 @@ title: WdfPdoInitAddDeviceText function (wdfpdo.h)
 description: The WdfPdoInitAddDeviceText method adds a device description and device location to a device, for a specified locale.
 old-location: wdf\wdfpdoinitadddevicetext.htm
 tech.root: wdf
-ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitAddDeviceText function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext, wdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText

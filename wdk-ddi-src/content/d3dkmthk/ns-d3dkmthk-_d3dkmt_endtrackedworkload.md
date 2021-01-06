@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_ENDTRACKEDWORKLOAD
 title: _D3DKMT_ENDTRACKEDWORKLOAD (d3dkmthk.h)
 description: Called when the tracked workload commands are done.
-ms.assetid: 524f2907-19c6-420a-94a2-8366edb5574b
 ms.date: 10/19/2018
 keywords: ["D3DKMT_ENDTRACKEDWORKLOAD structure"]
 f1_keywords:

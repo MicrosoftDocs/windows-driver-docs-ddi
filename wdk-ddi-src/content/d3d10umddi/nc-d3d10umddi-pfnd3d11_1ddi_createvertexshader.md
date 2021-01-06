@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVERTEXSHADER
 title: PFND3D11_1DDI_CREATEVERTEXSHADER (d3d10umddi.h)
 description: Creates a vertex shader.
 old-location: display\createvertexshader_d3d11_1_.htm
-ms.assetid: 8da896d3-b80c-409a-a838-99eb71668a93
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEVERTEXSHADER callback function"]
 ms.keywords: CreateVertexShader(D3D11_1), CreateVertexShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEVERTEXSHADER, PFND3D11_1DDI_CREATEVERTEXSHADER callback, d3d10umddi/CreateVertexShader(D3D11_1), display.createvertexshader_d3d11_1_, display.pfncreatevertexshader

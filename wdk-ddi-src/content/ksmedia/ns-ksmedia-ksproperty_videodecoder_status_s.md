@@ -4,7 +4,6 @@ title: KSPROPERTY_VIDEODECODER_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_VIDEODECODER_STATUS_S structure describes the present status of a video decoding device, such as number of lines in the incoming analog signal and whether the signal is locked in.
 old-location: stream\ksproperty_videodecoder_status_s.htm
 tech.root: stream
-ms.assetid: 12b92834-dcab-4723-91e5-9b7ab0bdd719
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_VIDEODECODER_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_STATUS_S, PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S, ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S, stream.ksproperty_videodecoder_status_s, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml"

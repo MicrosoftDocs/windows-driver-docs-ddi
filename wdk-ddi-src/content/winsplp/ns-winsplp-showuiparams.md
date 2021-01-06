@@ -4,7 +4,6 @@ title: SHOWUIPARAMS (winsplp.h)
 description: The SplPromptUIInUsersSession function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
 old-location: print\showuiparams.htm
 tech.root: print
-ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.date: 04/20/2018
 keywords: ["SHOWUIPARAMS structure"]
 ms.keywords: "*PSHOWUIPARAMS, PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], SHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], print.showuiparams, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, winsplp/PSHOWUIPARAMS, winsplp/SHOWUIPARAMS"

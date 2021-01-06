@@ -4,7 +4,6 @@ title: DriverUnifiedPosHealthCheckLevel (pointofservicecommontypes.h)
 description: This enumeration indicates the type of health check to be performed when CheckHealthAsync is called on a POS device.
 old-location: pos\unifiedposhealthchecklevel.htm
 tech.root: pos
-ms.assetid: 101a74c8-a0c2-4820-b9a1-41e39ee4cf11
 ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosHealthCheckLevel enumeration"]
 ms.keywords: DriverUnifiedPosHealthCheckLevel, DriverUnifiedPosHealthCheckLevel enumeration, External, Interactive, POSInternal, UnknownHealthCheckLevel, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/External, pointofservicecommontypes/Interactive, pointofservicecommontypes/POSInternal, pointofservicecommontypes/UnknownHealthCheckLevel, pos.unifiedposhealthchecklevel

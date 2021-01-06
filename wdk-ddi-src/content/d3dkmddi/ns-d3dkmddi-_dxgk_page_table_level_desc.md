@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PAGE_TABLE_LEVEL_DESC
 title: _DXGK_PAGE_TABLE_LEVEL_DESC (d3dkmddi.h)
 description: The DXGK_PAGE_TABLE_LEVEL_DESC structure describes capabilities that are applied at the page level.
 old-location: display\dxgk_page_table_level_desc.htm
-ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
 ms.date: 05/10/2018
 keywords: ["DXGK_PAGE_TABLE_LEVEL_DESC structure"]
 ms.keywords: DXGK_PAGE_TABLE_LEVEL_DESC, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices], _DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, display.dxgk_page_table_level_desc

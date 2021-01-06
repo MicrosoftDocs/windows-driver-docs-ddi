@@ -4,7 +4,6 @@ title: IPortableDeviceValues::GetStringValue (portabledevicetypes.h)
 description: Retrieves a string value (type VT_LPWSTR) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getstringvalue.htm
 tech.root: wpd_dk
-ms.assetid: 6c63adae-ab57-4826-aaa2-6953ab918ddd
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetStringValue"]
 ms.keywords: GetStringValue, GetStringValue method, GetStringValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetStringValue method, IPortableDeviceValues.GetStringValue, IPortableDeviceValues::GetStringValue, IPortableDeviceValuesGetStringValue, portabledevicetypes/IPortableDeviceValues::GetStringValue, wpddk.iportabledevicevalues_getstringvalue

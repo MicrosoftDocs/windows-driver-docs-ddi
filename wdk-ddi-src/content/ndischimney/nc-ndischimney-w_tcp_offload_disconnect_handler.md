@@ -4,7 +4,6 @@ title: W_TCP_OFFLOAD_DISCONNECT_HANDLER (ndischimney.h)
 description: The MiniportTcpOffloadDisconnect function closes the send half of an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloaddisconnect.htm
 tech.root: netvista
-ms.assetid: f8be12a9-c2c0-4a22-8a57-58c8b27ef69e
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_DISCONNECT_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadDisconnect, MiniportTcpOffloadDisconnect callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_DISCONNECT_HANDLER, W_TCP_OFFLOAD_DISCONNECT_HANDLER callback, ndischimney/MiniportTcpOffloadDisconnect, netvista.miniporttcpoffloaddisconnect, tcp_chim_miniport_func_70f2c816-ff74-4297-9d87-50c983a03f2d.xml
@@ -78,7 +77,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 
 [in]
 A pointer to a single 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
@@ -224,7 +223,7 @@ The offload target must not free resources for the connection on which it has is
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

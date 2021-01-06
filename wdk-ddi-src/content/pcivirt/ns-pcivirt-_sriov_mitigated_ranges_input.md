@@ -4,7 +4,6 @@ title: _SRIOV_MITIGATED_RANGES_INPUT (pcivirt.h)
 description: This structure is the input buffer in the IOCTL_SRIOV_QUERY_MITIGATED_RANGES request to get the specific ranges on which intercepts must be placed.
 old-location: pci\sriov_mitigated_ranges_input.htm
 tech.root: PCI
-ms.assetid: 40b81630-997f-4427-8d02-5004de6fc943
 ms.date: 02/24/2018
 keywords: ["SRIOV_MITIGATED_RANGES_INPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_INPUT, PCI.sriov_mitigated_ranges_input, SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], _SRIOV_MITIGATED_RANGES_INPUT, pcivirt/SRIOV_MITIGATED_RANGES_INPUT"

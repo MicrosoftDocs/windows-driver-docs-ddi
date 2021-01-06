@@ -4,7 +4,6 @@ title: PEPCALLBACKPOWERONCRASHDUMPDEVICE (pepfx.h)
 description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
 tech.root: kernel
-ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.date: 04/30/2018
 keywords: ["PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function"]
 ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback
@@ -63,7 +62,7 @@ This routine returns TRUE if it succeeds in turning on power to the crash-dump d
 
 This routine is implemented by the platform extension plug-in (PEP). The routine handles requests from the Windows kernel to turn on the crash-dump device so that a crash dump can be saved to disk.
 
-The PEP registers its <i>PowerOnDumpDeviceCallback</i> routine in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a> notification from the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+The PEP registers its <i>PowerOnDumpDeviceCallback</i> routine in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a> notification from the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with interrupts disabled. Thus, this routine cannot use timers, events, or any synchronization primitives other than spin locks.
 

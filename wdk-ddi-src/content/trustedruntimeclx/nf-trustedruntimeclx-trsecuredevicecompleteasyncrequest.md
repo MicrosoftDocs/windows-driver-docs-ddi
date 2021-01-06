@@ -2,7 +2,6 @@
 UID: NF:trustedruntimeclx.TrSecureDeviceCompleteAsyncRequest
 title: TrSecureDeviceCompleteAsyncRequest function (trustedruntimeclx.h)
 description: 
-ms.assetid: c41603ac-2509-4a88-920a-ec379c818ba4
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceCompleteAsyncRequest function"]
 ms.keywords: TrSecureDeviceCompleteAsyncRequest

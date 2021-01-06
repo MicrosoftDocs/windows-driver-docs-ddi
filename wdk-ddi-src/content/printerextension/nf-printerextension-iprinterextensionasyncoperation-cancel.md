@@ -4,7 +4,6 @@ title: IPrinterExtensionAsyncOperation::Cancel (printerextension.h)
 description: Cancels the asynchronous operation.
 old-location: print\iprinterextensionasyncoperation_cancel.htm
 tech.root: print
-ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel

@@ -3,7 +3,6 @@ UID: NS:packet._NET_PACKET
 title: _NET_PACKET (packet.h)
 description: Represents a single network packet.
 tech.root: netvista
-ms.assetid: c2fc32da-1979-45fe-96ed-0b79a48e58a3
 ms.date: 01/30/2019
 keywords: ["NET_PACKET structure"]
 ms.keywords: _NET_PACKET, NET_PACKET, *PNET_PACKET,
@@ -28,13 +27,13 @@ f1_keywords:
  - packet/_NET_PACKET
  - NET_PACKET
  - packet/NET_PACKET
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - packet.h
-apiname:
+api_name:
  - NET_PACKET
 ---
 

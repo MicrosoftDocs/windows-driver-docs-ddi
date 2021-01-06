@@ -4,7 +4,6 @@ title: _STORAGE_PROTOCOL_COMMAND (ntddstor.h)
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: storage\storage_protocol_command.htm
 tech.root: storage
-ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.date: 06/11/2019
 keywords: ["STORAGE_PROTOCOL_COMMAND structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], _STORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command"

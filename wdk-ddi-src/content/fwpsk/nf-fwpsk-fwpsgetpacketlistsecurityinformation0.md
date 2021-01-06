@@ -4,7 +4,6 @@ title: FwpsGetPacketListSecurityInformation0 function (fwpsk.h)
 description: The FwpsGetPacketListSecurityInformation0 function retrieves information associated with a packet list.Note  FwpsGetPacketListSecurityInformation0 is a specific version of FwpsGetPacketListSecurityInformation.
 old-location: netvista\fwpsgetpacketlistsecurityinformation0.htm
 tech.root: netvista
-ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.date: 05/02/2018
 keywords: ["FwpsGetPacketListSecurityInformation0 function"]
 ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
@@ -58,7 +57,7 @@ The
 
 [in]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
 ### -param queryFlags 
@@ -163,7 +162,7 @@ A callout driver calls the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

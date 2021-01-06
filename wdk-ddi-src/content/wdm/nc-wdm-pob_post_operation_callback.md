@@ -4,7 +4,6 @@ title: POB_POST_OPERATION_CALLBACK (wdm.h)
 description: The ObjectPostCallback routine is called by the operating system after a process or thread handle operation occurs.
 old-location: kernel\objectpostcallback.htm
 tech.root: kernel
-ms.assetid: cfa73359-58bb-4260-ac16-08f57ead67bb
 ms.date: 04/30/2018
 keywords: ["POB_POST_OPERATION_CALLBACK callback function"]
 ms.keywords: DrvrRtns_f15a2608-233d-47af-84cc-eb5692a6fe9a.xml, ObjectPostCallback, ObjectPostCallback callback function [Kernel-Mode Driver Architecture], POB_POST_OPERATION_CALLBACK, POB_POST_OPERATION_CALLBACK callback, kernel.objectpostcallback, wdm/ObjectPostCallback

@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075
 title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 (d3d12umddi.h)
 description: The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
-ms.assetid: ace3e2e6-5f45-43e3-9446-9e89168a08d1
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function"]
 ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0075, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]

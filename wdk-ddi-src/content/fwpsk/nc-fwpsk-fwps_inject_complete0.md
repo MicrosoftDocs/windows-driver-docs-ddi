@@ -4,7 +4,6 @@ title: FWPS_INJECT_COMPLETE0 (fwpsk.h)
 description: The filter engine calls a callout's completionFn callout function whenever packet data, described by the netBufferList parameter in one of the packet injection functions, has been injected into the network stack.
 old-location: netvista\completionfn.htm
 tech.root: netvista
-ms.assetid: c03656ec-f0fe-49f5-8a04-2d26ef23c50a
 ms.date: 05/02/2018
 keywords: ["FWPS_INJECT_COMPLETE0 callback function"]
 ms.keywords: FWPS_INJECT_COMPLETE0, FWPS_INJECT_COMPLETE0 callback, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
@@ -91,17 +90,17 @@ typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn
 
 The 
     <b>Status</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
     <i>NetBufferList</i> indicates the result of the injection operation.
 
-After packet data in a cloned or created <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
+After packet data in a cloned or created <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
     injected into the network stack by one of the 
     <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, 
     <i>completionFn</i> is called.
 
 If the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function is
-    called to inject a chain of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures, 
+    called to inject a chain of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, 
     <i>completionFn</i> will be called once for each <b>NET_BUFFER_LIST</b> in the chain, each time using the same 
     <i>completionContext</i> parameter specified in 
     <b>FwpsStreamInjectAsync0</b>. In this case, the callout driver's 
@@ -142,7 +141,7 @@ The filter engine calls a callout's
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

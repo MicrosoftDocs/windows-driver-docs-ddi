@@ -4,7 +4,6 @@ title: EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION (sercx.h)
 description: The EvtSerCx2PioReceiveInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller to perform a PIO-receive transaction.
 old-location: serports\evtsercx2pioreceiveinitializetransaction.htm
 tech.root: serports
-ms.assetid: E03B5319-BBBE-4396-8D03-8BC82FB97D15
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2PioReceiveInitializeTransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2pioreceiveinitializetransaction

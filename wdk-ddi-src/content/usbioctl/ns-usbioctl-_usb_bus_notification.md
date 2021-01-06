@@ -3,7 +3,6 @@ UID: NS:usbioctl._USB_BUS_NOTIFICATION
 title: _USB_BUS_NOTIFICATION (usbioctl.h)
 description: 
 tech.root: usbref
-ms.assetid: c6982976-fd7f-4be2-9c2f-f7e2fb8a6260
 ms.date: 10/19/2018
 keywords: ["USB_BUS_NOTIFICATION structure"]
 ms.keywords: _USB_BUS_NOTIFICATION, USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION,

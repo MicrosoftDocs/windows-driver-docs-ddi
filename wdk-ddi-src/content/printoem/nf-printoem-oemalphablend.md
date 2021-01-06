@@ -4,7 +4,6 @@ title: OEMAlphaBlend function (printoem.h)
 description: OEMAlphaBlend function
 old-location: print\oemalphablend.htm
 tech.root: print
-ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.date: 04/20/2018
 keywords: ["OEMAlphaBlend function"]
 ms.keywords: OEMAlphaBlend, OEMAlphaBlend function [Print Devices], print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend

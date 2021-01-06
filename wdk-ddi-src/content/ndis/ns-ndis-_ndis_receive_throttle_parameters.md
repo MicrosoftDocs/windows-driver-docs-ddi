@@ -4,7 +4,6 @@ title: _NDIS_RECEIVE_THROTTLE_PARAMETERS (ndis.h)
 description: The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of NET_BUFFER_LIST structures that a miniport driver should indicate in a deferred procedure call (DPC).
 old-location: netvista\ndis_receive_throttle_parameters.htm
 tech.root: netvista
-ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_THROTTLE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, netvista.ndis_receive_throttle_parameters"
@@ -51,7 +50,7 @@ api_name:
 ## -description
 
 The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
   driver should indicate in a deferred procedure call (DPC).
 
 ## -struct-fields
@@ -59,7 +58,7 @@ The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of
 ### -field MaxNblsToIndicate
 
 The maximum number of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
      driver should include in a receive indication. If this value is NDIS_INDICATE_ALL_NBLS, the miniport can
      indicate all of the NET_BUFFER_LIST structures that it has.
 
@@ -89,7 +88,7 @@ The
 On entry to the DPC handler, the 
     <b>MaxNblsToIndicate</b> member of the NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum
     number of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the miniport
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the miniport
     driver should indicate in the DPC. If this value is NDIS_INDICATE_ALL_NBLS, the miniport driver can
     indicate all of the NET_BUFFER_LIST structures that it has in its queues.
 
@@ -157,7 +156,7 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

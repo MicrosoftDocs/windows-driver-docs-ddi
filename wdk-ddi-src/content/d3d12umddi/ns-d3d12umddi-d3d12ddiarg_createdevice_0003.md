@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATEDEVICE_0003
 title: D3D12DDIARG_CREATEDEVICE_0003 (d3d12umddi.h)
 description: The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to create.
 old-location: display\d3d12ddiarg_createdevice_0003.htm
-ms.assetid: F139A61B-E074-4185-A934-17F6FDBA3F62
 ms.date: 05/10/2018
 keywords: ["D3D12DDIARG_CREATEDEVICE_0003 structure"]
 ms.keywords: D3D12DDIARG_CREATEDEVICE_0003, D3D12DDIARG_CREATEDEVICE_0003 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003, display.d3d12ddiarg_createdevice_0003

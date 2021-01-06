@@ -4,7 +4,6 @@ title: _SPLCLIENT_INFO_3_VISTA (winsplp.h)
 description: Contains a super-set of the information in both a SPLCLIENT_INFO_1 and SPLCLIENT_INFO_2 structure. It also contains additional information needed by the provider.
 old-location: print\splclient_info_3_vista.htm
 tech.root: print
-ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.date: 04/20/2018
 keywords: ["SPLCLIENT_INFO_3_VISTA structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA structure [Print Devices], _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, winsplp/SPLCLIENT_INFO_3_VISTA"

@@ -3,7 +3,6 @@ UID: NC:dispmprt.DXGKDDI_SETGPUPARTITIONCOUNT
 title: DXGKDDI_SETGPUPARTITIONCOUNT
 description: Sets the number of partitions the physical GPU should be divided into.
 tech.root: display
-ms.assetid: c6e2a5ee-45e5-4cd3-82e9-64b74f092799
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SETGPUPARTITIONCOUNT callback function"]
 req.header: dispmprt.h

@@ -3,7 +3,6 @@ UID: NF:netpoweroffloadlist.NetDeviceGetPowerOffloadList
 title: NetDeviceGetPowerOffloadList function (netpoweroffloadlist.h)
 description: The NetDeviceGetPowerOffloadList function gets the list of low power protocol offloads to a net adapter.
 tech.root: netvista
-ms.assetid: 6ec8df81-ab48-413d-848c-2407385c1da7
 ms.date: 10/03/2019
 keywords: ["NetDeviceGetPowerOffloadList function"]
 ms.keywords: NetDeviceGetPowerOffloadList

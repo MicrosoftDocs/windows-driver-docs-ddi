@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_NETWORK_BLACKLIST_INFO
 title: _WWAN_NETWORK_BLACKLIST_INFO (wwan.h)
 description: The WWAN_NETWORK_BLACKLIST_INFO structure contains a list of network blacklists for a mobile broadband (MBB) modem.
 tech.root: netvista
-ms.assetid: 3506024c-79e1-4603-a7a8-a9ed1aae0372
 ms.date: 08/21/2018
 keywords: ["WWAN_NETWORK_BLACKLIST_INFO structure"]
 ms.keywords: _WWAN_NETWORK_BLACKLIST_INFO, WWAN_NETWORK_BLACKLIST_INFO, *PWWAN_NETWORK_BLACKLIST_INFO,

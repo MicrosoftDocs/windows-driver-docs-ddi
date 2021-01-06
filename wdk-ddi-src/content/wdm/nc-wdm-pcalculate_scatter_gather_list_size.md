@@ -4,7 +4,6 @@ title: PCALCULATE_SCATTER_GATHER_LIST_SIZE (wdm.h)
 description: The CalculateScatterGatherList routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer.
 old-location: kernel\calculatescattergatherlist.htm
 tech.root: kernel
-ms.assetid: d7509502-0965-44b9-8efb-cec4fbe3ac88
 ms.date: 04/30/2018
 keywords: ["PCALCULATE_SCATTER_GATHER_LIST_SIZE callback function"]
 ms.keywords: CalculateScatterGatherList, CalculateScatterGatherList callback function [Kernel-Mode Driver Architecture], PCALCULATE_SCATTER_GATHER_LIST_SIZE, PCALCULATE_SCATTER_GATHER_LIST_SIZE callback, kdma_f2e8ba68-4b5d-4a3c-9e81-1bf84cc7cc48.xml, kernel.calculatescattergatherlist, wdm/CalculateScatterGatherList

@@ -3,7 +3,6 @@ UID: NE:ntddk._WHEA_EVENT_LOG_ENTRY_ID
 title: WHEA_EVENT_LOG_ENTRY_ID
 description: 
 tech.root: whea
-ms.assetid: 9fc3e643-2374-4bb2-addc-8824ba4ce064
 ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_ID enumeration"]
 ms.keywords: WHEA_EVENT_LOG_ENTRY_ID, WHEA_EVENT_LOG_ENTRY_ID, *PWHEA_EVENT_LOG_ENTRY_ID,

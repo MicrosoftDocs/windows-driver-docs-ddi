@@ -4,7 +4,6 @@ title: _PEP_DEBUGGER_TRANSITION_REQUIREMENTS (pep_x.h)
 description: The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the platform idle states for which the debugger device must be turned on.
 old-location: kernel\pep_debugger_transition_requirements.htm
 tech.root: kernel
-ms.assetid: 5DF830CA-ECC3-404A-AA5F-3DB487BC85B3
 ms.date: 04/30/2018
 keywords: ["PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure"]
 ms.keywords: "*PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure [Kernel-Mode Driver Architecture], PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PPEP_DEBUGGER_TRANSITION_REQUIREMENTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEBUGGER_TRANSITION_REQUIREMENTS, kernel.pep_debugger_transition_requirements, pepfx/PEP_DEBUGGER_TRANSITION_REQUIREMENTS, pepfx/PPEP_DEBUGGER_TRANSITION_REQUIREMENTS"
@@ -64,7 +63,7 @@ The <b>PEP_DEBUGGER_TRANSITION_REQUIREMENTS</b> structure indicates the platform
 
 ### -field PowerTransitionRequired
 
-[in] An output buffer to which the PEP writes a BOOLEAN array that indicates the platform idle states for which power to the debugger device must be turned on. This buffer is allocated by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>PlatformStateCount</b> member. Set an array element to TRUE if the debugger device must be turned on in the corresponding platform idle state. Set to FALSE to indicate that the device is not required to be turned on in this state. If the platform supports N idle states, the array contains N elements, and idle states are numbered 0 to N–1 in the order in which they are represented in the array.
+[in] An output buffer to which the PEP writes a BOOLEAN array that indicates the platform idle states for which power to the debugger device must be turned on. This buffer is allocated by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>PlatformStateCount</b> member. Set an array element to TRUE if the debugger device must be turned on in the corresponding platform idle state. Set to FALSE to indicate that the device is not required to be turned on in this state. If the platform supports N idle states, the array contains N elements, and idle states are numbered 0 to N–1 in the order in which they are represented in the array.
 
 ## -remarks
 

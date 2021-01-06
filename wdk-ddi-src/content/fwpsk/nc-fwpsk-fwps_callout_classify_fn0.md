@@ -4,7 +4,6 @@ title: FWPS_CALLOUT_CLASSIFY_FN0 (fwpsk.h)
 description: The filter engine calls a callout's classifyFn0 callout function whenever there is data to be processed by the callout.Note  classifyFn0 is the specific version of classifyFn used in Windows Vista and later.
 old-location: netvista\classifyfn0.htm
 tech.root: netvista
-ms.assetid: e8423c27-d3eb-4bef-a835-37fae0e2b68c
 ms.date: 10/28/2019
 keywords: ["FWPS_CALLOUT_CLASSIFY_FN0 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN0, FWPS_CALLOUT_CLASSIFY_FN0 callback, classifyFn0, classifyFn0 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn0, netvista.classifyfn0, wfp_ref_2_funct_4_callout_402ad3d3-74db-4024-8dcb-50459ab669c7.xml
@@ -75,7 +74,7 @@ A pointer to a structure that describes the raw data at the layer being filtered
      <i>classifyFn0</i> callout function is called. For the stream layer, this parameter points to an 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
      FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure. For all of the other layers, this parameter points to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
      <b>NULL</b>.
 
 ### -param filter 
@@ -190,7 +189,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

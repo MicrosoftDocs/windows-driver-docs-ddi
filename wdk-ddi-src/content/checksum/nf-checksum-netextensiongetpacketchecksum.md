@@ -3,7 +3,6 @@ UID: NF:checksum.NetExtensionGetPacketChecksum
 title: NetExtensionGetPacketChecksum function (checksum.h)
 description: The NetExtensionGetPacketChecksum function retrieves checksum information for a packet.
 tech.root: netvista
-ms.assetid: 75774f8a-eeea-4bcd-a15b-2d28a7938e42
 ms.date: 01/30/2019
 keywords: ["NetExtensionGetPacketChecksum function"]
 ms.keywords: NetExtensionGetPacketChecksum
@@ -28,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetExtensionGetPacketChecksum
  - checksum/NetExtensionGetPacketChecksum
-topictype:
+topic_type:
  - APIRef
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetExtensionGetPacketChecksum
 ---
 

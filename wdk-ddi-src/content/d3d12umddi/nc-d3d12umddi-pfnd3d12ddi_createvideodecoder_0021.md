@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODER_0021
 title: PFND3D12DDI_CREATEVIDEODECODER_0021 (d3d12umddi.h)
 description: The pfnCreateVideoDecoder callback function creates a video decoder.
 old-location: display\pfnd3d12ddi_createvideodecoder.htm
-ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_CREATEVIDEODECODER_0021 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0021, PFND3D12DDI_CREATEVIDEODECODER_0021 callback, d3d12umddi/pfnCreateVideoDecoder, display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder, pfnCreateVideoDecoder callback function [Display Devices]

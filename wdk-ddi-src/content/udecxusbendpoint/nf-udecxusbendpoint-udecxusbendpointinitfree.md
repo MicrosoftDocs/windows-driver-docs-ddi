@@ -4,7 +4,6 @@ title: UdecxUsbEndpointInitFree function (udecxusbendpoint.h)
 description: Release the resources that were allocated by the UdecxUsbSimpleEndpointInitAllocate call.
 old-location: buses\udecxusbendpointinitfree.htm
 tech.root: usbref
-ms.assetid: F95BDA95-4667-4EC3-9FE5-C78B453AC0B3
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitFree function"]
 ms.keywords: UdecxUsbEndpointInitFree, UdecxUsbEndpointInitFree function [Buses], buses.udecxusbendpointinitfree, udecxusbendpoint/UdecxUsbEndpointInitFree

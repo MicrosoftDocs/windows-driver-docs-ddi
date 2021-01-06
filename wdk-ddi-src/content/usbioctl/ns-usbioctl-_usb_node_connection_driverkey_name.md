@@ -4,7 +4,6 @@ title: _USB_NODE_CONNECTION_DRIVERKEY_NAME (usbioctl.h)
 description: The USB_NODE_CONNECTION_DRIVERKEY_NAME structure is used with the IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME I/O control request to retrieve the driver key name for the device that is connected to the indicated port.
 old-location: buses\usb_node_connection_driverkey_name.htm
 tech.root: usbref
-ms.assetid: b5939a5b-2856-494c-9673-d32e2fc93384
 ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_DRIVERKEY_NAME structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], USB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], _USB_NODE_CONNECTION_DRIVERKEY_NAME, buses.usb_node_connection_driverkey_name, usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME, usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml"
@@ -72,4 +71,4 @@ On output, the driver key name for the device that is attached to the port that 
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

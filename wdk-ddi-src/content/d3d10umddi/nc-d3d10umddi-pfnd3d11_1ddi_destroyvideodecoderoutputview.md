@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW
 title: PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW (d3d10umddi.h)
 description: Releases resources for the video decoder output view that were created through a call to the CreateVideoDecoderOutputView function.
 old-location: display\destroyvideodecoderoutputview.htm
-ms.assetid: acb174e5-09cc-41e9-8b30-8c64f6193f7b
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback function"]
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback, d3d10umddi/pfnDestroyVideoDecoderOutputView, display.destroyvideodecoderoutputview, pfnDestroyVideoDecoderOutputView, pfnDestroyVideoDecoderOutputView callback function [Display Devices]

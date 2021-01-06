@@ -2,7 +2,6 @@
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_STATUS_COMMAND
 title: _UCSI_GET_CONNECTOR_STATUS_COMMAND (ucmucsispec.h)
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-40.
-ms.assetid: 6eb36f02-8174-4ca4-b614-423badb32815
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_CONNECTOR_STATUS_COMMAND structure"]

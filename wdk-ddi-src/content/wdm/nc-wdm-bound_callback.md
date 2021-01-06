@@ -4,7 +4,6 @@ title: BOUND_CALLBACK (wdm.h)
 description: The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread.
 old-location: kernel\boundcallback.htm
 tech.root: kernel
-ms.assetid: D9047BB2-2FCD-41DE-B1E1-DE89AAA40ED7
 ms.date: 04/30/2018
 keywords: ["BOUND_CALLBACK callback function"]
 ms.keywords: BOUND_CALLBACK, BoundCallback, BoundCallback routine [Kernel-Mode Driver Architecture], kernel.boundcallback, wdm/BoundCallback

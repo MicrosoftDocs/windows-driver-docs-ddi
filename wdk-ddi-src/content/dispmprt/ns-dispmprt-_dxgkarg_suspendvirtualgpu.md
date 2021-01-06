@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_SUSPENDVIRTUALGPU
 title: _DXGKARG_SUSPENDVIRTUALGPU
 description: Used to suspend a virtual GPU.
 tech.root: display
-ms.assetid: 1b750c37-88b5-4ef5-9a05-c484a0e0d5a4
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SUSPENDVIRTUALGPU structure"]
 ms.prod: windows-hardware

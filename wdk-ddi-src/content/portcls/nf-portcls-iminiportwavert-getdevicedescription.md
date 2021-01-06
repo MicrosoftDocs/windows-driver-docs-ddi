@@ -4,7 +4,6 @@ title: IMiniportWaveRT::GetDeviceDescription (portcls.h)
 description: The GetDeviceDescription method returns a pointer to a DEVICE_DESCRIPTION structure describing the device.
 old-location: audio\iminiportwavert_getdevicedescription.htm
 tech.root: audio
-ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRT::GetDeviceDescription"]
 ms.keywords: GetDeviceDescription, GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices],IMiniportWaveRT interface, IMiniportWaveRT interface [Audio Devices],GetDeviceDescription method, IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription

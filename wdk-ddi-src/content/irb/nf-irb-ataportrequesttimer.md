@@ -4,7 +4,6 @@ title: AtaPortRequestTimer function (irb.h)
 description: The AtaPortRequestTimer routine requests a timer callback.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequesttimer.htm
 tech.root: storage
-ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.date: 03/29/2018
 keywords: ["AtaPortRequestTimer function"]
 ms.keywords: AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, irb/AtaPortRequestTimer, storage.ataportrequesttimer

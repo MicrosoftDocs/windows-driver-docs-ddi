@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_PIPELINE_STATE_0075
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 68a5bb92-22cf-4f87-aae6-8e5fc78c0e75
 tech.root: display
 description: Creates a pipeline state.
 req.construct-type: structure

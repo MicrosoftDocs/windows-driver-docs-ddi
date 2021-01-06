@@ -4,7 +4,6 @@ title: _SRV_OPEN_ECP_CONTEXT (ntifs.h)
 description: The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests.
 old-location: ifsk\srv_open_ecp_context.htm
 tech.root: ifsk
-ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.date: 09/09/2019
 keywords: ["SRV_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT"

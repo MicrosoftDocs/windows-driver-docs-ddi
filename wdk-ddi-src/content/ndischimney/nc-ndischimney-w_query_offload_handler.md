@@ -4,7 +4,6 @@ title: W_QUERY_OFFLOAD_HANDLER (ndischimney.h)
 description: The MiniportQueryOffload function queries previously offloaded TCP chimney state objects.
 old-location: netvista\miniportqueryoffload.htm
 tech.root: netvista
-ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.date: 05/02/2018
 keywords: ["W_QUERY_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml

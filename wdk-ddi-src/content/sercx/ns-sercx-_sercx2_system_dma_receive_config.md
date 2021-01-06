@@ -4,7 +4,6 @@ title: _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG (sercx.h)
 description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new system-DMA-receive object.
 old-location: serports\sercx2_system_dma_receive_config.htm
 tech.root: serports
-ms.assetid: 91859391-9BBA-49BA-ACCF-C82430A6CC37
 ms.date: 04/23/2018
 keywords: ["SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure"]
 ms.keywords: "*PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, serports.sercx2_system_dma_receive_config"

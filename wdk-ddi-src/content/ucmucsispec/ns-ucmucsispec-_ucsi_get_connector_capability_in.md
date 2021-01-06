@@ -2,7 +2,6 @@
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_CAPABILITY_IN
 title: _UCSI_GET_CONNECTOR_CAPABILITY_IN (ucmucsispec.h)
 description: Used in the GET_CONNECTOR_CAPABILITY command. See Table 4-17.
-ms.assetid: 2cbd9c0e-f5a8-4b63-9879-3e8d775717b5
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_CONNECTOR_CAPABILITY_IN structure"]

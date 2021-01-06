@@ -4,7 +4,6 @@ title: _SE_TOKEN_USER (ntifs.h)
 description: The SE_TOKEN_USER structure holds the maximum-sized valid user SID that can be returned by SeQueryInformationToken, GetTokenInformation, or ZwQueryInformationToken with the TokenUser information class. This structure is suitable for stack allocation.
 old-location: ifsk\se_token_user.htm
 tech.root: ifsk
-ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.date: 04/16/2018
 keywords: ["SE_TOKEN_USER structure"]
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER

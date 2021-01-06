@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_UICC_ACCESS_RECORD
 title: _WWAN_UICC_ACCESS_RECORD (wwan.h)
 description: The WWAN_UICC_ACCESS_RECORD structure describes information about a UICC linear fixed or cyclic file to read or to which to write.
 tech.root: netvista
-ms.assetid: 04C39F78-66B1-4AC6-A66D-49DB0829DCF1
 ms.date: 04/10/2019
 keywords: ["WWAN_UICC_ACCESS_RECORD structure"]
 ms.keywords: _WWAN_UICC_ACCESS_RECORD, WWAN_UICC_ACCESS_RECORD, *PWWAN_UICC_ACCESS_RECORD,

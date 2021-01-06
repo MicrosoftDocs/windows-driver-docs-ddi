@@ -3,7 +3,6 @@ UID: NS:usbctypes._USBC_PD_REQUEST_DATA_OBJECT
 title: _USBC_PD_REQUEST_DATA_OBJECT (usbctypes.h)
 description: Describes a Request Data Object (RDO).
 tech.root: usbref
-ms.assetid: 53d143ae-6a32-4944-a238-e5bd7814ab99
 ms.date: 09/30/2018
 keywords: ["USBC_PD_REQUEST_DATA_OBJECT structure"]
 ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT,

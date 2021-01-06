@@ -4,7 +4,6 @@ title: _USBDEVICE_ADDRESS (ucxusbdevice.h)
 description: Contains parameters for a request to transition the specified device to the Addressed state. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ADDRESS callback function.
 old-location: buses\_usbdevice_address.htm
 tech.root: usbref
-ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.date: 05/07/2018
 keywords: ["USBDEVICE_ADDRESS structure"]
 ms.keywords: "*PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], _USBDEVICE_ADDRESS, buses._usbdevice_address, ucxusbdevice/P_USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS"

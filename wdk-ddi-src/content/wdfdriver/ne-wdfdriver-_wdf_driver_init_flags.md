@@ -4,7 +4,6 @@ title: _WDF_DRIVER_INIT_FLAGS (wdfdriver.h)
 description: The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 old-location: wdf\wdf_driver_init_flags.htm
 tech.root: wdf
-ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.date: 02/26/2018
 keywords: ["WDF_DRIVER_INIT_FLAGS enumeration"]
 ms.keywords: DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS enumeration, WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver, WdfVerifierOn, WdfVerifyOn, _WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, wdfdriver/WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifierOn, wdfdriver/WdfVerifyOn

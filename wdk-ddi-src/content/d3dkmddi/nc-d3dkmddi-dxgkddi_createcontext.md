@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_CREATECONTEXT
 title: DXGKDDI_CREATECONTEXT (d3dkmddi.h)
 description: The DxgkDdiCreateContext function creates a graphics processing unit (GPU) context.
 old-location: display\dxgkddicreatecontext.htm
-ms.assetid: aea21a36-f3d5-4541-bd2d-aa026668c562
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_CREATECONTEXT callback function"]
 ms.keywords: DXGKDDI_CREATECONTEXT, DXGKDDI_CREATECONTEXT callback, DmFunctions_b1519a67-52c0-4432-9059-ef1c98f075b6.xml, DxgkDdiCreateContext, DxgkDdiCreateContext callback function [Display Devices], d3dkmddi/DxgkDdiCreateContext, display.dxgkddicreatecontext

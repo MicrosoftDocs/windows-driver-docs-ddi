@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGKARG_RESETVIRTUALFUNCTION
 title: _DXGKARG_RESETVIRTUALFUNCTION
 description: Used to reset virtual function.
 tech.root: display
-ms.assetid: 56aad462-fc54-4a1d-9161-2f19f4370ed6
 ms.date: 04/04/2019
 keywords: ["DXGKARG_RESETVIRTUALFUNCTION structure"]
 ms.prod: windows-hardware

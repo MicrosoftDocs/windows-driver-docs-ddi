@@ -4,7 +4,6 @@ title: SeTokenType function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\setokentype.htm
 tech.root: ifsk
-ms.assetid: e869d7f3-f8ec-42f8-ad0a-2d8154f748a2
 ms.date: 04/16/2018
 keywords: ["SeTokenType function"]
 ms.keywords: SeTokenType, SeTokenType function [Installable File System Drivers], ifsk.setokentype, ntifs/SeTokenType, seref_a5e04a8d-d2e6-412e-af9c-45c4caac311a.xml

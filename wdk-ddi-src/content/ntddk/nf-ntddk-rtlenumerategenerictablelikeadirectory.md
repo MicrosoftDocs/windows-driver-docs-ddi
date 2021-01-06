@@ -4,7 +4,6 @@ title: RtlEnumerateGenericTableLikeADirectory function (ntddk.h)
 description: The RtlEnumerateGenericTableLikeADirectory routine returns the elements of a generic table, one-by-one, in collation order.
 old-location: ifsk\rtlenumerategenerictablelikeadirectory.htm
 tech.root: ifsk
-ms.assetid: 206c8b70-575d-47e2-a03d-4c88e0d92fe0
 ms.date: 04/16/2018
 keywords: ["RtlEnumerateGenericTableLikeADirectory function"]
 ms.keywords: RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml

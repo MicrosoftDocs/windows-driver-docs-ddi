@@ -4,7 +4,6 @@ title: ZwDeleteKey function (wdm.h)
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
 tech.root: kernel
-ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.date: 04/30/2018
 keywords: ["ZwDeleteKey function"]
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey

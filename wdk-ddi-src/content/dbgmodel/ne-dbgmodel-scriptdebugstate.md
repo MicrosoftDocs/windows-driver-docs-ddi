@@ -2,7 +2,6 @@
 UID: NE:dbgmodel.ScriptDebugState
 title: ScriptDebugState (dbgmodel.h)
 description: Defines the current debugging state of a script.
-ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
 ms.date: 07/16/2018
 keywords: ["ScriptDebugState enumeration"]
 ms.keywords: ScriptDebugState, ,

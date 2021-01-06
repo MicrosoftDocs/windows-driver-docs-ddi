@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmValidateOutput
 title: DeviceDsmValidateOutput function (ntddstor.h)
 description: The DeviceDsmValidateOutput function validates a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
-ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
 ms.date: 08/23/2019
 keywords: ["DeviceDsmValidateOutput function"]
 ms.keywords: DeviceDsmValidateOutput

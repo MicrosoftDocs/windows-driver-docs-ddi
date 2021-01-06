@@ -4,7 +4,6 @@ title: KsCreateDefaultSecurity function (ks.h)
 description: The KsCreateDefaultSecurity function creates a security descriptor with default security, optionally inheriting parameters from a parent security descriptor.
 old-location: stream\kscreatedefaultsecurity.htm
 tech.root: stream
-ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.date: 04/23/2018
 keywords: ["KsCreateDefaultSecurity function"]
 ms.keywords: KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity

@@ -4,7 +4,6 @@ title: IWDFRemoteTarget::CloseForQueryRemove (wudfddi.h)
 description: The CloseForQueryRemove method closes a remote I/O target because the operating system might allow the device to be removed.
 old-location: wdf\iwdfremotetarget_closeforqueryremove.htm
 tech.root: wdf
-ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.date: 02/26/2018
 keywords: ["IWDFRemoteTarget::CloseForQueryRemove"]
 ms.keywords: CloseForQueryRemove, CloseForQueryRemove method, CloseForQueryRemove method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,CloseForQueryRemove method, IWDFRemoteTarget.CloseForQueryRemove, IWDFRemoteTarget::CloseForQueryRemove, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, umdf.iwdfremotetarget_closeforqueryremove, wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove

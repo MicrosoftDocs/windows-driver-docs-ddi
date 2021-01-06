@@ -4,7 +4,6 @@ title: IPortableDeviceValues::GetCount (portabledevicetypes.h)
 description: Retrieves the number of items in the collection.
 old-location: wpddk\iportabledevicevalues_getcount.htm
 tech.root: wpd_dk
-ms.assetid: 40bf1a26-bba9-4484-b92a-2c2680f66cb5
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetCount method, IPortableDeviceValues.GetCount, IPortableDeviceValues::GetCount, IPortableDeviceValuesGetCount, portabledevicetypes/IPortableDeviceValues::GetCount, wpddk.iportabledevicevalues_getcount

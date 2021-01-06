@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 title: _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE (d3dkmthk.h)
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmt-openprotectedsessionfromnthandle.htm
-ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
 ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_CREATEALLOCATION
 title: DXGKDDI_CREATEALLOCATION (d3dkmddi.h)
 description: The DxgkDdiCreateAllocation function creates allocations of system or video memory.
 old-location: display\dxgkddicreateallocation.htm
-ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_CREATEALLOCATION callback function"]
 ms.keywords: DXGKDDI_CREATEALLOCATION, DXGKDDI_CREATEALLOCATION callback, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation

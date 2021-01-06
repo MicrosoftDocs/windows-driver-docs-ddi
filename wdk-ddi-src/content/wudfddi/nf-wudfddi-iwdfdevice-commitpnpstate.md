@@ -4,7 +4,6 @@ title: IWDFDevice::CommitPnpState (wudfddi.h)
 description: The CommitPnpState method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the IWDFDevice::SetPnpState method set.
 old-location: wdf\iwdfdevice_commitpnpstate.htm
 tech.root: wdf
-ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::CommitPnpState"]
 ms.keywords: CommitPnpState, CommitPnpState method, CommitPnpState method,IWDFDevice interface, IWDFDevice interface,CommitPnpState method, IWDFDevice.CommitPnpState, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState

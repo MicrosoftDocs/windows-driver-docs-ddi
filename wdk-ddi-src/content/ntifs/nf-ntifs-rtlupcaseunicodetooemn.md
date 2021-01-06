@@ -4,7 +4,6 @@ title: RtlUpcaseUnicodeToOemN function (ntifs.h)
 description: The RtlUpcaseUnicodeToOemN routine translates a given Unicode string into an uppercase OEM string, using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodetooemn.htm
 tech.root: ifsk
-ms.assetid: d4d802c1-66e9-4342-ba7d-d9e5a464362e
 ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeToOemN function"]
 ms.keywords: RtlUpcaseUnicodeToOemN, RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetooemn, ntifs/RtlUpcaseUnicodeToOemN, rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml
@@ -87,7 +86,7 @@ For the return value STATUS_SUCCESS, the value at <i>BytesInOemString</i>, if an
 
 This routine does not modify the source string. It returns a null-terminated OEM string if the given <i>BytesInUnicodeString</i> included a NULL terminator and if the given <i>MaxBytesInOemString</i> did not cause truncation.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: SRIOV_RESET_FUNCTION (pcivirt.h)
 description: Resets the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_reset_function.htm
 tech.root: PCI
-ms.assetid: 30c01528-8254-431f-aaba-79c05f66fc00
 ms.date: 02/24/2018
 keywords: ["SRIOV_RESET_FUNCTION callback"]
 ms.keywords: "*PSRIOV_RESET_FUNCTION, *PSRIOV_RESET_FUNCTION callback function pointer [Buses], PCI.sriov_reset_function, SRIOV_RESET_FUNCTION, SriovResetFunction, SriovResetFunction callback function [Buses], pcivirt/SriovResetFunction"

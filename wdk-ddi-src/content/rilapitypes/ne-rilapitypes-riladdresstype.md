@@ -4,7 +4,6 @@ title: RILADDRESSTYPE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladdresstype_2.htm
 tech.root: netvista
-ms.assetid: de21f647-9372-4572-bf45-581361032911
 ms.date: 02/26/2018
 keywords: ["RILADDRESSTYPE enumeration"]
 ms.keywords: RILADDRESSTYPE, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ADDRTYPE_ABBREV, RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_EMAIL, RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_IP, RIL_ADDRTYPE_MAX, RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_SUBSCRIBER, RIL_ADDRTYPE_URI, netvista.riladdresstype_2, rilapitypes/RILADDRESSTYPE, rilapitypes/RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_ALPHANUM, rilapitypes/RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, rilapitypes/RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_MAX, rilapitypes/RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_URI

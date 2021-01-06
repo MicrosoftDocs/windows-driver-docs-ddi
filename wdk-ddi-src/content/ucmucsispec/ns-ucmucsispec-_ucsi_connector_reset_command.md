@@ -3,7 +3,6 @@ UID: NS:ucmucsispec._UCSI_CONNECTOR_RESET_COMMAND
 title: _UCSI_CONNECTOR_RESET_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: Used in the CONNECTOR_RESET command. See Table 4-5.
-ms.assetid: 7bbeb5e9-00ed-4cba-b6d8-eada6c226855
 ms.date: 09/30/2018
 keywords: ["UCSI_CONNECTOR_RESET_COMMAND structure"]
 ms.keywords: _UCSI_CONNECTOR_RESET_COMMAND, UCSI_CONNECTOR_RESET_COMMAND, *PUCSI_CONNECTOR_RESET_COMMAND,

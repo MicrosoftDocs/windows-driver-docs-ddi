@@ -4,7 +4,6 @@ title: IDebugFailureAnalysis2::SetBuffer (extsfns.h)
 description: The SetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it overwrites the data block of the FA entry with the bytes in a specified buffer.
 old-location: debugger\idebugfailureanalysis2_setbuffer.htm
 tech.root: debugger
-ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::SetBuffer"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetBuffer method, IDebugFailureAnalysis2.SetBuffer, IDebugFailureAnalysis2::SetBuffer, SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer

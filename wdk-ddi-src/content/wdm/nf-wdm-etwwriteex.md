@@ -4,7 +4,6 @@ title: EtwWriteEx function (wdm.h)
 description: The EtwWriteEx function is a tracing function for publishing events that support filtering in your kernel-mode driver code.
 old-location: devtest\etwwriteex.htm
 tech.root: devtest
-ms.assetid: E2EF929A-61EB-412B-B8E8-D51FD6944B1D
 ms.date: 02/23/2018
 keywords: ["EtwWriteEx function"]
 ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx

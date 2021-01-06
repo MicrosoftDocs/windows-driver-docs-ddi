@@ -4,7 +4,6 @@ title: KsPinSubmitFrameMdl function (ks.h)
 description: If a pin has been placed into injection mode by a call to KsPinRegisterFrameReturnCallback, the KsPinSubmitFrameMdl function submits a frame directly into the transport circuit.
 old-location: stream\kspinsubmitframemdl.htm
 tech.root: stream
-ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.date: 04/23/2018
 keywords: ["KsPinSubmitFrameMdl function"]
 ms.keywords: KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl

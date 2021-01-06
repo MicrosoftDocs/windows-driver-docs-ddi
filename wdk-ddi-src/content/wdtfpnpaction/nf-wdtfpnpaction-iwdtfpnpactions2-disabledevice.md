@@ -4,7 +4,6 @@ title: IWDTFPNPActions2::DisableDevice (wdtfpnpaction.h)
 description: Disables the target device.
 old-location: dtf\iwdtfpnpactions2_disabledevice.htm
 tech.root: dtf
-ms.assetid: 6aa2c428-d0f7-45e4-b96f-2fbf42cfb32d
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::DisableDevice"]
 ms.keywords: DisableDevice, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],DisableDevice method, IWDTFPNPActions2.DisableDevice, IWDTFPNPActions2::DisableDevice, dtf.iwdtfpnpactions2_disabledevice, wdtfpnpaction/IWDTFPNPActions2::DisableDevice
@@ -59,6 +58,4 @@ True if the operation requires a restart to complete; otherwise, false.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

@@ -4,7 +4,6 @@ title: IoSetShareAccess function (wdm.h)
 description: The IoSetShareAccess routine sets the access rights for sharing the given file object.
 old-location: kernel\iosetshareaccess.htm
 tech.root: kernel
-ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.date: 04/30/2018
 keywords: ["IoSetShareAccess function"]
 ms.keywords: IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess

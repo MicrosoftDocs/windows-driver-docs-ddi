@@ -4,7 +4,6 @@ title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage (w
 description: Sets the charge percentage reported to the OS by the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage.htm
 tech.root: dtf
-ms.assetid: b330c423-b295-4b5b-b6bf-1f48549e8bfa
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage"]
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryChargePercentage method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage
@@ -68,6 +67,3 @@ Specifies charge level percentage, 0-100.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>

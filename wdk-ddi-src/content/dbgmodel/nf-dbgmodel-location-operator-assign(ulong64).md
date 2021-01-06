@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.Location.operator-assign(ULONG64)
 title: operator=(ULONG64) function (dbgmodel.h)
 description: The assignment operator for the location function.
-ms.assetid: bb0ccc46-390f-4bab-b6fb-0050375e1fc4
 ms.date: 09/28/2018
 keywords: ["operator= function"]
 ms.keywords: operator=

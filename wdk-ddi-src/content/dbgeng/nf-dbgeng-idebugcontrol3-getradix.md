@@ -4,7 +4,6 @@ title: IDebugControl3::GetRadix (dbgeng.h)
 description: The GetRadix method returns the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\getradix.htm
 tech.root: debugger
-ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetRadix"]
 ms.keywords: GetRadix, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging],IDebugControl interface, GetRadix method [Windows Debugging],IDebugControl2 interface, GetRadix method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetRadix method, IDebugControl2 interface [Windows Debugging],GetRadix method, IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging],GetRadix method, IDebugControl3.GetRadix, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix

@@ -4,7 +4,6 @@ title: ExtExtension::SetArg (engextcpp.h)
 description: The SetArg method sets a named argument for the current extension command.
 old-location: debugger\setarg.htm
 tech.root: debugger
-ms.assetid: 02d43054-27e9-4f2f-8d0a-506cf052f24f
 ms.date: 05/03/2018
 keywords: ["ExtExtension::SetArg"]
 ms.keywords: EngExtCpp_Ref_20376f38-03cf-4e1c-a4af-6b318a425ebc.xml, ExtExtension class [Windows Debugging],SetArg method, ExtExtension.SetArg, ExtExtension::SetArg, SetArg, SetArg method [Windows Debugging], SetArg method [Windows Debugging],ExtExtension class, debugger.setarg

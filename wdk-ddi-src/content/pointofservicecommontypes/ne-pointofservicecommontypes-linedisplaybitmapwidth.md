@@ -4,7 +4,6 @@ title: LineDisplayBitmapWidth (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaybitmapwidth.htm
 tech.root: pos
-ms.assetid: 062E3340-8545-4867-99E6-8D280F5693A9
 ms.date: 02/23/2018
 keywords: ["LineDisplayBitmapWidth enumeration"]
 ms.keywords: LineDisplayBitmapWidth, LineDisplayBitmapWidth enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayBitmapWidth, pos.linedisplaybitmapwidth

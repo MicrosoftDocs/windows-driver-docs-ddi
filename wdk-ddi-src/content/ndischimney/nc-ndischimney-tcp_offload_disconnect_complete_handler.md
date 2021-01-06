@@ -4,7 +4,6 @@ title: TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolTcpOffloadDisconnectComplete function to complete a disconnect operation that the driver previously initiated by calling the NdisOffloadTcpDisconnect function.
 old-location: netvista\protocoltcpoffloaddisconnectcomplete.htm
 tech.root: netvista
-ms.assetid: 56244148-638f-4d93-82a6-2cced9744046
 ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadDisconnectComplete, ProtocolTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER, TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadDisconnectComplete, netvista.protocoltcpoffloaddisconnectcomplete, tcp_chim_protocol_func_fadc0ea9-acd8-489d-886c-213b909d93b3.xml
@@ -68,7 +67,7 @@ A handle to a context area allocated by the protocol driver. The driver maintain
 
 [in]
 When non-NULL, a pointer to a single 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The driver
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisoffloadtcpdisconnect">
      NdisOffloadTcpDisconnect</a> function.
@@ -110,7 +109,7 @@ Before returning, the
 Note that, if an intermediate driver exports more than one interface to overlying protocols, it must
     determine which protocol should receive the completion of the disconnect. To make this determination, the
     intermediate driver uses information that it stored in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">
     NET_BUFFER_LIST_CONTEXT</a> structure, which is associated with the NET_BUFFER_LIST structure.
 
 ## -see-also
@@ -120,7 +119,7 @@ Note that, if an intermediate driver exports more than one interface to overlyin
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -4,7 +4,6 @@ title: MmFreeMappingAddress function (wdm.h)
 description: The MmFreeMappingAddress routine frees a range of virtual memory reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmfreemappingaddress.htm
 tech.root: kernel
-ms.assetid: df5afc18-da83-46b4-b7ab-8cef4353b951
 ms.date: 04/30/2018
 keywords: ["MmFreeMappingAddress function"]
 ms.keywords: MmFreeMappingAddress, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture], k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, kernel.mmfreemappingaddress, wdm/MmFreeMappingAddress

@@ -4,7 +4,6 @@ title: RtlIsNameLegalDOS8Dot3 function (ntifs.h)
 description: The RtlIsNameLegalDOS8Dot3 routine determines whether a given name represents a valid short (8.3) file name.
 old-location: ifsk\rtlisnamelegaldos8dot3.htm
 tech.root: ifsk
-ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
 ms.date: 04/16/2018
 keywords: ["RtlIsNameLegalDOS8Dot3 function"]
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], ifsk.rtlisnamelegaldos8dot3, ntifs/RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml
@@ -73,7 +72,7 @@ Pointer to an optional BOOLEAN value that receives <b>TRUE</b> if the string at 
 
 <b>RtlIsNameLegalDOS8Dot3</b> translates the Unicode string at <i>Name</i> using the OEM code page that was installed as the current system code page at system boot time, and converts the translated string to uppercase. (If the caller supplied a buffer at <i>OemName</i>, this buffer receives the resulting string.) <b>RtlIsNameLegalDOS8Dot3</b> checks that the name is a properly formatted 8.3 name and contains only legal characters.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>. 
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>. 
 
 If the block of memory at <i>Name</i> is nonpaged, the caller can be running at IRQL <= DISPATCH_LEVEL. Otherwise, callers of <b>RtlIsNameLegalDOS8Dot3</b> must be running at IRQL < DISPATCH_LEVEL.
 

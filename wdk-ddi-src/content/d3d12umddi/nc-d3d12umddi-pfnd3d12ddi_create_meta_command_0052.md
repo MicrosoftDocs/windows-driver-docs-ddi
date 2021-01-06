@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_META_COMMAND_0052
 title: PFND3D12DDI_CREATE_META_COMMAND_0052 (d3d12umddi.h)
 description: Creates a meta-command.
-ms.assetid: 9fafcd8c-e783-4d28-af99-b784cb687430
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATE_META_COMMAND_0052 callback function"]
 req.header: d3d12umddi.h

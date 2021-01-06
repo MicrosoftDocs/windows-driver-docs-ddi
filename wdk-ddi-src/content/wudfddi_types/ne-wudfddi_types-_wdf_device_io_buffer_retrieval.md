@@ -4,7 +4,6 @@ title: _WDF_DEVICE_IO_BUFFER_RETRIEVAL (wudfddi_types.h)
 description: The WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 old-location: wdf\wdf_device_io_buffer_retrieval.htm
 tech.root: wdf
-ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration"]
 ms.keywords: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, WdfDeviceIoBufferRetrievalCopyImmediately, WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalMaximum, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, umdf.wdf_device_io_buffer_retrieval, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wdf.wdf_device_io_buffer_retrieval, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum"

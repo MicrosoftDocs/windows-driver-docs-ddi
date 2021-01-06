@@ -4,7 +4,6 @@ title: _FAST_IO_DISPATCH (wdm.h)
 description: Contains a set of callback routines that a file system driver or file system filter driver (legacy) provides for fast I/O processing.
 old-location: ifsk\fast_io_dispatch.htm
 tech.root: ifsk
-ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.date: 04/16/2018
 keywords: ["FAST_IO_DISPATCH structure"]
 ms.keywords: "*PFAST_IO_DISPATCH, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"

@@ -4,7 +4,6 @@ title: PHW_QUERY_CLOCK_ROUTINE (strmini.h)
 description: Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied StrMiniClock function, provided in each stream's HW_STREAM_OBJECT.
 old-location: stream\strminiclock.htm
 tech.root: stream
-ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
 ms.date: 04/23/2018
 keywords: ["PHW_QUERY_CLOCK_ROUTINE callback function"]
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock

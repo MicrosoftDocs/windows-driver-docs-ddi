@@ -3,7 +3,6 @@ UID: NE:ucmucsispec._UCSI_BATTERY_CHARGING_STATUS
 title: _UCSI_BATTERY_CHARGING_STATUS (ucmucsispec.h)
 tech.root: usbref
 description: See Table 4-42, Offset 64.
-ms.assetid: 46ac6952-3aff-45c8-98b6-f410e20614f9
 ms.date: 09/30/2018
 keywords: ["UCSI_BATTERY_CHARGING_STATUS enumeration"]
 ms.keywords: _UCSI_BATTERY_CHARGING_STATUS, UCSI_BATTERY_CHARGING_STATUS,

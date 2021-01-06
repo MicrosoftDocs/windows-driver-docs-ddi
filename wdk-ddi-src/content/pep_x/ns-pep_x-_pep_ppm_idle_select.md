@@ -4,7 +4,6 @@ title: _PEP_PPM_IDLE_SELECT (pep_x.h)
 description: The PEP_PPM_IDLE_SELECT structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system.
 old-location: kernel\pep_ppm_idle_select.htm
 tech.root: kernel
-ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_IDLE_SELECT structure"]
 ms.keywords: "*PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, pep_x/PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT"
@@ -76,7 +75,7 @@ The <b>PEP_PPM_IDLE_SELECT</b> structure describes the most energy-efficient idl
 
 ### -field DependencyArray
 
-[in] A pointer to an output buffer to which the PEP writes an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_dependency">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
+[in] A pointer to an output buffer to which the PEP writes an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_dependency">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
 
 ### -field PlatformIdleStateIndex
 

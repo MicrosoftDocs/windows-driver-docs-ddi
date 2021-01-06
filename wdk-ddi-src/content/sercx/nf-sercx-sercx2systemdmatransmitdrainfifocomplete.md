@@ -4,7 +4,6 @@ title: SerCx2SystemDmaTransmitDrainFifoComplete function (sercx.h)
 description: The SerCx2SystemDmaTransmitDrainFifoComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished draining the data from the transmit FIFO in the serial controller hardware.
 old-location: serports\sercx2systemdmatransmitdrainfifocomplete.htm
 tech.root: serports
-ms.assetid: 324EB2B8-9CF0-4A8B-B6D0-B5748EBCB53E
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitDrainFifoComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitdrainfifocomplete

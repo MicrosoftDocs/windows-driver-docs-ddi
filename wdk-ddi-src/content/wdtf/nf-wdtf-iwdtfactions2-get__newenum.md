@@ -4,7 +4,6 @@ title: IWDTFActions2::get__NewEnum (wdtf.h)
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtfactions2__newenum.htm
 tech.root: dtf
-ms.assetid: 37f8cccb-2ce3-41aa-b447-024f17ddc262
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::get__NewEnum"]
 ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework],_NewEnum method, IWDTFActions2.get__NewEnum, IWDTFActions2::_NewEnum, IWDTFActions2::get__NewEnum, _NewEnum method [Windows Device Testing Framework], _NewEnum method [Windows Device Testing Framework],IWDTFActions2 interface, dtf.iwdtfactions2__newenum, get__NewEnum, wdtf/IWDTFActions2::_NewEnum
@@ -70,6 +69,3 @@ You must use the Active Template Library (ATL) to implement this functionality.
 For more information about how ATL implements this functionality, see the 
 <b>ICollectionOnSTLImpl </b>interface in the MSDN Library.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>

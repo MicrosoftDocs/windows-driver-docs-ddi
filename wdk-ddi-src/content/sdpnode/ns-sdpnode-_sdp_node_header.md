@@ -4,7 +4,6 @@ title: _SDP_NODE_HEADER (sdpnode.h)
 description: The SDP_NODE_HEADER structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_header.htm
 tech.root: bltooth
-ms.assetid: 2c756db7-b7a9-493a-8fb1-8bbc741f8c63
 ms.date: 04/27/2018
 keywords: ["SDP_NODE_HEADER structure"]
 ms.keywords: "*PSDP_NODE_HEADER, PSDP_NODE_HEADER, PSDP_NODE_HEADER structure pointer [Bluetooth Devices], SDP_NODE_HEADER, SDP_NODE_HEADER structure [Bluetooth Devices], _SDP_NODE_HEADER, bltooth.sdp_node_header, bth_structs_9fc0ef9d-c505-4cd8-8ea7-78988215c68a.xml, sdpnode/PSDP_NODE_HEADER, sdpnode/SDP_NODE_HEADER"

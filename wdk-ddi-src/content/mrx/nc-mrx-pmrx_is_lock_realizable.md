@@ -4,7 +4,6 @@ title: PMRX_IS_LOCK_REALIZABLE (mrx.h)
 description: The MRxIsLockRealizable routine is called by RDBSS to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
 old-location: ifsk\mrxislockrealizable.htm
 tech.root: ifsk
-ms.assetid: 4b8c9a94-a81e-4a02-b68c-10b2fb64157f
 ms.date: 04/16/2018
 keywords: ["PMRX_IS_LOCK_REALIZABLE callback function"]
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml

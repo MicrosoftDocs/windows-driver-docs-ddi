@@ -4,7 +4,6 @@ title: _NDIS_NDK_LOCAL_ENDPOINTS (ntddndis.h)
 description: The NDIS_NDK_LOCAL_ENDPOINTS structure describes the NDK local endpoints that are on a miniport adapter.
 old-location: netvista\ndis_ndk_local_endpoints.htm
 tech.root: netvista
-ms.assetid: AF14B883-780E-42BE-9D8F-75C17011425B
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_LOCAL_ENDPOINTS structure"]
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINTS, NDIS_NDK_LOCAL_ENDPOINTS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINTS, netvista.ndis_ndk_local_endpoints, ntddndis/NDIS_NDK_LOCAL_ENDPOINTS, ntddndis/PNDIS_NDK_LOCAL_ENDPOINTS

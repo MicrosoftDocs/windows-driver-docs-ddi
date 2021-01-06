@@ -4,7 +4,6 @@ title: _USB_TOPOLOGY_ADDRESS (usbioctl.h)
 description: The USB_TOPOLOGY_ADDRESS structure is used with the IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request to retrieve information about a USB device?s location in the USB device tree.
 old-location: buses\usb_topology_address.htm
 tech.root: usbref
-ms.assetid: 5d8d6665-bfa1-4bc5-8168-7508624845e1
 ms.date: 05/07/2018
 keywords: ["USB_TOPOLOGY_ADDRESS structure"]
 ms.keywords: "*PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], _USB_TOPOLOGY_ADDRESS, buses.usb_topology_address, usbioctl/PUSB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS"
@@ -88,4 +87,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

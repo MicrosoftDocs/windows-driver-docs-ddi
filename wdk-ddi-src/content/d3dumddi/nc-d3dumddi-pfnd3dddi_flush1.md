@@ -4,7 +4,6 @@ title: PFND3DDDI_FLUSH1 (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to submit outstanding hardware commands that are in the hardware command buffer to the display miniport driver. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfnflush1.htm
 tech.root: display
-ms.assetid: 6BAC104A-85CE-42FC-AE30-969B2FF6AFEF
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_FLUSH1 callback function"]
 ms.keywords: PFND3DDDI_FLUSH1, PFND3DDDI_FLUSH1 callback, d3dumddi/pfnFlush1, display.pfnflush1, pfnFlush1, pfnFlush1 callback function [Display Devices]

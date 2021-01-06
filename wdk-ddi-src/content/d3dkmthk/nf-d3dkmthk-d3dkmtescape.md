@@ -3,7 +3,6 @@ UID: NF:d3dkmthk.D3DKMTEscape
 title: D3DKMTEscape function (d3dkmthk.h)
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
 old-location: display\d3dkmtescape.htm
-ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
 ms.date: 05/10/2018
 keywords: ["D3DKMTEscape function"]
 ms.keywords: D3DKMTEscape, D3DKMTEscape function [Display Devices], OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, display.d3dkmtescape

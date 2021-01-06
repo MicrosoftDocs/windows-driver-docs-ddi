@@ -4,7 +4,6 @@ title: IPrinterScriptablePropertyBag::GetInt32 (printerextension.h)
 description: Gets an integer property.
 old-location: print\iprinterscriptablepropertybag_getint32.htm
 tech.root: print
-ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptablePropertyBag::GetInt32"]
 ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetInt32 method, IPrinterScriptablePropertyBag.GetInt32, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32

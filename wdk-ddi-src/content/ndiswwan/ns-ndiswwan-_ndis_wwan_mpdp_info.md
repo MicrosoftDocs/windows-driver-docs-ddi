@@ -3,7 +3,6 @@ UID: NS:ndiswwan._NDIS_WWAN_MPDP_INFO
 title: _NDIS_WWAN_MPDP_INFO (ndiswwan.h)
 description: The NDIS_WWAN_MPDP_INFO structure contains information for an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
-ms.assetid: d55a038d-2f2e-45f4-b306-afe5703c5357
 ms.date: 06/25/2018
 keywords: ["NDIS_WWAN_MPDP_INFO structure"]
 ms.keywords: _NDIS_WWAN_MPDP_INFO, NDIS_WWAN_MPDP_INFO, *PNDIS_WWAN_MPDP_INFO,

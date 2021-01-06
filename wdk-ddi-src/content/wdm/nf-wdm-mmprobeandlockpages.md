@@ -4,7 +4,6 @@ title: MmProbeAndLockPages function (wdm.h)
 description: The MmProbeAndLockPages routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockpages.htm
 tech.root: kernel
-ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.date: 04/30/2018
 keywords: ["MmProbeAndLockPages function"]
 ms.keywords: MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages

@@ -4,7 +4,6 @@ title: DOT11_EXTSTA_RECV_CONTEXT (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extsta_recv_context.htm
 tech.root: netvista
-ms.assetid: 517be11b-a15d-43ac-aefd-f425fa6f63e7
 ms.date: 02/16/2018
 keywords: ["DOT11_EXTSTA_RECV_CONTEXT structure"]
 ms.keywords: "*PDOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml, PDOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, windot11/DOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT"
@@ -159,7 +158,7 @@ A pointer to a buffer that contains media-specific infomration. The mininiport d
 The native 802.11 framework copies this pointer to the
      <b>MediaSpecificInformation</b> entry at the
      <b>NetBufferListInfo</b> member of the 802.3
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in NDIS receive
+     <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structures in NDIS receive
      indications.
 
 <div class="alert"><b>Note</b>  IHV extensions are currently unable to receive the
@@ -197,7 +196,7 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
 
 When performing a Native 802.11 receive operation, the miniport driver must format each received
     802.11 packet as a
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure, with the packet
+    <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure, with the packet
     data formatted as a
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure and linked to the
     NET_BUFFER_LIST structure. Each NET_BUFFER_LIST structure must include out-of-band (OOB) data. The OOB
@@ -212,7 +211,7 @@ The miniport driver accesses the Native 802.11 OOB data through the
 <li>
 The
       <i>_NBL</i> parameter, which is passed the pointer to the
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
+      <a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a> structure used for the
       received 802.11 packet.
 
 </li>
@@ -265,7 +264,7 @@ For more information about Native 802.11 receive operations, see
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\nbl\ns-nbl-net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

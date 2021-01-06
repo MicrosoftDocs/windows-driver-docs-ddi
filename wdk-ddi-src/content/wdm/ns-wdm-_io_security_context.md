@@ -4,7 +4,6 @@ title: _IO_SECURITY_CONTEXT (wdm.h)
 description: The IO_SECURITY_CONTEXT structure represents the security context of an IRP_MJ_CREATE request.
 old-location: kernel\io_security_context.htm
 tech.root: kernel
-ms.assetid: 6500c46b-ae39-4c91-8b84-14df0a7046a1
 ms.date: 04/30/2018
 keywords: ["IO_SECURITY_CONTEXT structure"]
 ms.keywords: "*PIO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT structure [Kernel-Mode Driver Architecture], PIO_SECURITY_CONTEXT, PIO_SECURITY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _IO_SECURITY_CONTEXT, kernel.io_security_context, kstruct_b_2c3ede84-cdd5-4e78-99b9-5ff642463f85.xml, wdm/IO_SECURITY_CONTEXT, wdm/PIO_SECURITY_CONTEXT"

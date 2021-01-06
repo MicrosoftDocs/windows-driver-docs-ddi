@@ -4,7 +4,6 @@ title: tagKS_BITMAPINFOHEADER (ksmedia.h)
 description: The KS_BITMAPINFOHEADER structure describes details about the video stream, such as image dimensions and pixel depth.
 old-location: stream\ks_bitmapinfoheader.htm
 tech.root: stream
-ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.date: 04/23/2018
 keywords: ["tagKS_BITMAPINFOHEADER structure"]
 ms.keywords: "*PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices], PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, tagKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml"

@@ -4,7 +4,6 @@ title: _D3DDDICB_FREEGPUVIRTUALADDRESS (d3dumddi.h)
 description: D3DDDICB_FREEGPUVIRTUALADDRESS is used with pfnFreeGpuVirtualAddressCb to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dddicb_freegpuvirtualaddress.htm
 tech.root: display
-ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_FREEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_FREEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress

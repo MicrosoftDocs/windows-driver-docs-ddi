@@ -4,7 +4,6 @@ title: KsPinDataIntersection function (ks.h)
 description: The KsPinDataIntersection function handles the KSPROPERTY_PIN_DATAINTERSECTION property through a callback function and performs much of the initial validation of the parameters that are passed.
 old-location: stream\kspindataintersection.htm
 tech.root: stream
-ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.date: 04/23/2018
 keywords: ["KsPinDataIntersection function"]
 ms.keywords: KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection

@@ -4,7 +4,6 @@ title: StreamClassCallAtNewPriority function (strmini.h)
 description: The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.
 old-location: stream\streamclasscallatnewpriority.htm
 tech.root: stream
-ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.date: 04/23/2018
 keywords: ["StreamClassCallAtNewPriority function"]
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority

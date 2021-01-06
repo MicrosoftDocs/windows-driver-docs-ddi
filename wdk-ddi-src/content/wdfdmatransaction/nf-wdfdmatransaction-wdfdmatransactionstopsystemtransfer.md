@@ -4,7 +4,6 @@ title: WdfDmaTransactionStopSystemTransfer function (wdfdmatransaction.h)
 description: The WdfDmaTransactionStopSystemTransfer method attempts to stop a system-mode DMA transfer after the framework has called EvtProgramDma.
 old-location: wdf\wdfdmatransactionstopsystemtransfer.htm
 tech.root: wdf
-ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionStopSystemTransfer function"]
 ms.keywords: WdfDmaTransactionStopSystemTransfer, WdfDmaTransactionStopSystemTransfer method, kmdf.wdfdmatransactionstopsystemtransfer, wdf.wdfdmatransactionstopsystemtransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer

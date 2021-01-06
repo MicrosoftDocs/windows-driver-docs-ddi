@@ -4,7 +4,6 @@ title: CcCoherencyFlushAndPurgeCache function (ntifs.h)
 description: The CcCoherencyFlushAndPurgeCache routine flushes and/or purges the cache to ensure cache coherency.
 old-location: ifsk\cccoherencyflushandpurgecache.htm
 tech.root: ifsk
-ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.date: 04/16/2018
 keywords: ["CcCoherencyFlushAndPurgeCache function"]
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache

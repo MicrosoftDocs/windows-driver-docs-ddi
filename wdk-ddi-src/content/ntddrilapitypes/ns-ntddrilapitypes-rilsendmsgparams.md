@@ -4,7 +4,6 @@ title: RILSENDMSGPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendmsgparams.htm
 tech.root: netvista
-ms.assetid: de1049a8-e089-4d15-baca-2c760f895894
 ms.date: 05/02/2018
 keywords: ["RILSENDMSGPARAMS structure"]
 ms.keywords: "*LPRILSENDMSGPARAMS, RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgparams, ntddrilapitypes/RILSENDMSGPARAMS"

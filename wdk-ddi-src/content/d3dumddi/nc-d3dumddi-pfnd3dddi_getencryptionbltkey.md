@@ -4,7 +4,6 @@ title: PFND3DDDI_GETENCRYPTIONBLTKEY (d3dumddi.h)
 description: The GetEncryptionBltKey function returns the key that is used to decrypt the data that the driver's EncryptionBlt function returns.
 old-location: display\getencryptionbltkey.htm
 tech.root: display
-ms.assetid: b3c3e792-bc8a-485e-a208-66b7d921cc15
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_GETENCRYPTIONBLTKEY callback function"]
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, PFND3DDDI_GETENCRYPTIONBLTKEY callback, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey

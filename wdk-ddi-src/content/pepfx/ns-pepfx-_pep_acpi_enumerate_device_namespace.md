@@ -4,7 +4,6 @@ title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pepfx.h)
 description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
-ms.assetid: 61315EFB-DEA7-4CF2-97D3-EACD223AFB50
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
@@ -79,7 +78,7 @@ The <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b> structure contains an enumeration
 
 #### - TotalBufferSize
 
-[in, out] On input, the total size, in bytes, of the buffer that the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) allocated for this structure and for any <b>Objects</b> array elements that follow the structure. If the input value of <b>TotalBufferSize</b> is not large enough to contain this structure and all the <b>Objects</b> array elements, the PEP overwrites the input value with the required size and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. For more information, see Remarks.
+[in, out] On input, the total size, in bytes, of the buffer that the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) allocated for this structure and for any <b>Objects</b> array elements that follow the structure. If the input value of <b>TotalBufferSize</b> is not large enough to contain this structure and all the <b>Objects</b> array elements, the PEP overwrites the input value with the required size and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. For more information, see Remarks.
 
 ## -remarks
 

@@ -4,7 +4,6 @@ title: _D3DDDICB_CREATECONTEXT (d3dumddi.h)
 description: The D3DDDICB_CREATECONTEXT structure describes a context to create.
 old-location: display\d3dddicb_createcontext.htm
 tech.root: display
-ms.assetid: 6bee57b5-f4b3-424c-aeb5-3bf65ab16392
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_CREATECONTEXT structure"]
 ms.keywords: D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT structure [Display Devices], D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml, _D3DDDICB_CREATECONTEXT, d3dumddi/D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext

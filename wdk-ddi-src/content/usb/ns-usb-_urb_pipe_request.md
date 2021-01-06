@@ -4,7 +4,6 @@ title: _URB_PIPE_REQUEST (usb.h)
 description: The _URB_PIPE_REQUEST structure is used by USB client drivers to clear a stall condition on an endpoint.
 old-location: buses\_urb_pipe_request.htm
 tech.root: usbref
-ms.assetid: 611bddf9-befd-4d2f-8e7d-7b5fe0744c03
 ms.date: 05/07/2018
 keywords: ["URB_PIPE_REQUEST structure"]
 ms.keywords: "_URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], buses._urb_pipe_request, usb/_URB_PIPE_REQUEST, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml"
@@ -81,7 +80,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

@@ -4,7 +4,6 @@ title: _USB_HUB_DESCRIPTOR (usbspec.h)
 description: The USB_HUB_DESCRIPTOR structure contains a hub descriptor.
 old-location: buses\usb_hub_descriptor.htm
 tech.root: usbref
-ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.date: 05/07/2018
 keywords: ["USB_HUB_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], _USB_HUB_DESCRIPTOR, buses.usb_hub_descriptor, usbspec/PUSB_HUB_DESCRIPTOR, usbspec/USB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml"
@@ -87,7 +86,7 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

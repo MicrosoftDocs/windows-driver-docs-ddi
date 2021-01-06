@@ -4,7 +4,6 @@ title: EVT_VMB_CHANNEL_RESTORE_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelRestorePacket callback function is invoked when the virtualization service provider (VSP) server endpoint must restore the state associated with a packet object.
 old-location: netvista\evt_vmb_channel_restore_packet.htm
 tech.root: netvista
-ms.assetid: 9C89CFCB-4B8A-40D3-B982-2F7836A636A3
 ms.date: 05/02/2018
 keywords: ["EVT_VMB_CHANNEL_RESTORE_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EVT_VMB_CHANNEL_RESTORE_PACKET callback, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket

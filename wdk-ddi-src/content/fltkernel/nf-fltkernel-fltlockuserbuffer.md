@@ -4,7 +4,6 @@ title: FltLockUserBuffer function (fltkernel.h)
 description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
 old-location: ifsk\fltlockuserbuffer.htm
 tech.root: ifsk
-ms.assetid: ab8e873b-b16d-45fc-b732-6d390ae60ce9
 ms.date: 04/16/2018
 keywords: ["FltLockUserBuffer function"]
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer

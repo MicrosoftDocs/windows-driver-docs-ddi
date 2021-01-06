@@ -4,7 +4,6 @@ title: IoQueueWorkItem function (wdm.h)
 description: The IoQueueWorkItem routine associates a WorkItem routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitem.htm
 tech.root: kernel
-ms.assetid: 92ec386e-205a-4704-bd13-941dd6d7d987
 ms.date: 04/30/2018
 keywords: ["IoQueueWorkItem function"]
 ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, kernel.ioqueueworkitem, wdm/IoQueueWorkItem

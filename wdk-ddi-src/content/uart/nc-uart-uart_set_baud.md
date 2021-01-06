@@ -3,7 +3,6 @@ UID: NC:uart.UART_SET_BAUD
 title: UART_SET_BAUD (uart.h)
 description: Changes the baud rate of the UART hardware.
 tech.root: serports
-ms.assetid: 1bce0489-47eb-4e27-b54c-6e920fde2039
 ms.date: 10/19/2018
 keywords: ["UART_SET_BAUD callback function"]
 req.header: uart.h

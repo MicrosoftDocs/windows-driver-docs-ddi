@@ -4,7 +4,6 @@ title: _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT (d3dkmdt.h)
 description: The DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure describes the format of the signal that is transmitted from a physical connector that is associated with a protected output to a monitor.
 old-location: display\dxgkmdt_opm_actual_output_format.htm
 tech.root: display
-ms.assetid: 88b6562d-9703-46c3-b0d3-10567298a9c2
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure"]
 ms.keywords: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure [Display Devices], DmStructs_b3796227-6822-43b8-944a-b435939da72f.xml, _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, d3dkmdt/DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, display.dxgkmdt_opm_actual_output_format

@@ -4,7 +4,6 @@ title: PFLT_CONTEXT_CLEANUP_CALLBACK (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK as the minifilter driver's ContextCleanupCallback routine.
 old-location: ifsk\pflt_context_cleanup_callback.htm
 tech.root: ifsk
-ms.assetid: f17eb108-58d1-4640-a0cc-ae568b0c844c
 ms.date: 04/16/2018
 keywords: ["PFLT_CONTEXT_CLEANUP_CALLBACK callback function"]
 ms.keywords: ContextCleanupCallback, ContextCleanupCallback routine [Installable File System Drivers], FltCallbacks_870edcbe-dbd7-4fad-b4f3-628bffe6fb44.xml, PFLT_CONTEXT_CLEANUP_CALLBACK, fltkernel/ContextCleanupCallback, ifsk.pflt_context_cleanup_callback

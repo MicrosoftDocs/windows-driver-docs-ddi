@@ -2,7 +2,6 @@
 UID: NF:sensorsutils.CollectionsListSerializeToBuffer
 title: CollectionsListSerializeToBuffer function (sensorsutils.h)
 description: This routine serializes a collection list to the caller-allocated buffer.
-ms.assetid: 5006837d-7e09-4dad-b7ef-927b69d67a25
 ms.date: 08/08/2018
 keywords: ["CollectionsListSerializeToBuffer function"]
 tech.root: sensors

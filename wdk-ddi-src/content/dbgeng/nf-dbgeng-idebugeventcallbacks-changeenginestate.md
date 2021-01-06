@@ -4,7 +4,6 @@ title: IDebugEventCallbacks::ChangeEngineState (dbgeng.h)
 description: The ChangeEngineState callback method is called by the engine when its state has changed.
 old-location: debugger\idebugeventcallbacks_changeenginestate.htm
 tech.root: debugger
-ms.assetid: 42ad993a-b12e-49ff-8a1f-f62e2ab968d3
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacks::ChangeEngineState"]
 ms.keywords: ChangeEngineState, ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_fafc4238-0565-410b-9e00-1cbce74737f4.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeEngineState method, IDebugEventCallbacks.ChangeEngineState, IDebugEventCallbacks::ChangeEngineState, dbgeng/IDebugEventCallbacks::ChangeEngineState, debugger.idebugeventcallbacks_changeenginestate

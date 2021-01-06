@@ -3,7 +3,6 @@ UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_GSO
 title: EVT_NET_ADAPTER_OFFLOAD_SET_GSO (netadapteroffload.h)
 description: The EvtNetAdapterOffloadSetGso callback function is implemented by the client driver to set changes in TCP and UDP large send offload capabilities.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/09/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_GSO callback function"]
 f1_keywords:

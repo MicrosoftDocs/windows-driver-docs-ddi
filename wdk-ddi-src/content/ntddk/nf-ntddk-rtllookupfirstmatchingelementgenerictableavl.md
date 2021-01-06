@@ -4,7 +4,6 @@ title: RtlLookupFirstMatchingElementGenericTableAvl function (ntddk.h)
 description: The RtlLookupFirstMatchingElementGenericTableAvl routine finds the left-most element in the tree that matches the indicated data.
 old-location: ifsk\rtllookupfirstmatchingelementgenerictableavl.htm
 tech.root: ifsk
-ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.date: 04/16/2018
 keywords: ["RtlLookupFirstMatchingElementGenericTableAvl function"]
 ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupfirstmatchingelementgenerictableavl, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml

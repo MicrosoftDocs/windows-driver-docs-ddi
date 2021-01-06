@@ -4,7 +4,6 @@ title: AtaPortWriteRegisterBufferUlong function (irb.h)
 description: The AtaPortWriteRegisterBufferUlong routine transfers the indicated number of ULONG values from a buffer to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteregisterbufferulong.htm
 tech.root: storage
-ms.assetid: 95f1e2c2-2b70-4a98-b075-e582b6a56e9d
 ms.date: 03/29/2018
 keywords: ["AtaPortWriteRegisterBufferUlong function"]
 ms.keywords: AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong routine [Storage Devices], atartns_678d25ba-ba41-4a94-b689-5f19a89ace7f.xml, irb/AtaPortWriteRegisterBufferUlong, storage.ataportwriteregisterbufferulong

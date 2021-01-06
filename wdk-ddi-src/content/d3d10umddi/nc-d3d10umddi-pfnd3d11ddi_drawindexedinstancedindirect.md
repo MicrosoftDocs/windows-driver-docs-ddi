@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
 title: PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT (d3d10umddi.h)
 description: The DrawIndexedInstancedIndirect function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstancedindirect.htm
-ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback function"]
 ms.keywords: DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT, PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_18c492b3-4d4b-413c-82c3-7290af5aade6.xml, d3d10umddi/DrawIndexedInstancedIndirect, display.drawindexedinstancedindirect

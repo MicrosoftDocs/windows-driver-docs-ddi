@@ -4,7 +4,6 @@ title: RxGetRDBSSProcess function (rxstruc.h)
 description: RxGetRDBSSProcess returns a pointer to the process of the main thread used by the RDBSS kernel process.
 old-location: ifsk\rxgetrdbssprocess.htm
 tech.root: ifsk
-ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.date: 04/16/2018
 keywords: ["RxGetRDBSSProcess function"]
 ms.keywords: RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], ifsk.rxgetrdbssprocess, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, rxstruc/RxGetRDBSSProcess

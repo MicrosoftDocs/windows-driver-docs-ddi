@@ -4,7 +4,6 @@ title: WdfIoTargetFormatRequestForWrite function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforwrite.htm
 tech.root: wdf
-ms.assetid: 936fe0f7-cff6-45c3-b1dd-cbed2f60438f
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForWrite function"]
 ms.keywords: DFIOTargetRef_d5d06763-e3a8-41bb-aad6-a116f167ff08.xml, WdfIoTargetFormatRequestForWrite, WdfIoTargetFormatRequestForWrite method, kmdf.wdfiotargetformatrequestforwrite, wdf.wdfiotargetformatrequestforwrite, wdfiotarget/WdfIoTargetFormatRequestForWrite

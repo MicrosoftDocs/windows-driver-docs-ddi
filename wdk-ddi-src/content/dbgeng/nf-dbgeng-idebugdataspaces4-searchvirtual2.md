@@ -4,7 +4,6 @@ title: IDebugDataSpaces4::SearchVirtual2 (dbgeng.h)
 description: The SearchVirtual2 method searches the process's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual2.htm
 tech.root: debugger
-ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::SearchVirtual2"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],SearchVirtual2 method, IDebugDataSpaces4.SearchVirtual2, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2

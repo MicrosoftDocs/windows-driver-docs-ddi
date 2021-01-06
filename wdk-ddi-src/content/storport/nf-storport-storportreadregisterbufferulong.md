@@ -4,7 +4,6 @@ title: StorPortReadRegisterBufferUlong macro (storport.h)
 description: The StorPortReadRegisterBufferUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferulong.htm
 tech.root: storage
-ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUlong macro"]
 ms.keywords: StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml

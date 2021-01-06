@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_RX_CAPABILITIES
 title: _NET_ADAPTER_RX_CAPABILITIES (netadapter.h)
 description: The NET_ADAPTER_RX_CAPABILITIES structure describes the receive capabilities of a net adapter.
 tech.root: netvista
-ms.assetid: 32a95b23-291f-4cee-a836-33cd7dba5149
 ms.date: 02/14/2018
 keywords: ["NET_ADAPTER_RX_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_RX_CAPABILITIES, NET_ADAPTER_RX_CAPABILITIES, *PNET_ADAPTER_RX_CAPABILITIES,
@@ -26,13 +25,13 @@ f1_keywords:
  - netadapter/_NET_ADAPTER_RX_CAPABILITIES
  - NET_ADAPTER_RX_CAPABILITIES
  - netadapter/NET_ADAPTER_RX_CAPABILITIES
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - _NET_ADAPTER_RX_CAPABILITIES
 ---
 

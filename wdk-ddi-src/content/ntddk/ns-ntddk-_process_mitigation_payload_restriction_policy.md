@@ -4,7 +4,6 @@ title: _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY (ntddk.h)
 description: Stores information about process mitigation policy.
 old-location: kernel\process_mitigation_payload_restriction_policy.htm
 tech.root: kernel
-ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.date: 04/30/2018
 keywords: ["PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure"]
 ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"

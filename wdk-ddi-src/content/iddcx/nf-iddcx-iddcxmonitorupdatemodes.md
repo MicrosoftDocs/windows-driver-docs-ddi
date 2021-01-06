@@ -4,7 +4,6 @@ title: IddCxMonitorUpdateModes function (iddcx.h)
 description: An OS callback function the driver calls to update the mode list.
 old-location: display\iddcxmonitorupdatemodes.htm
 tech.root: display
-ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorUpdateModes function"]
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes

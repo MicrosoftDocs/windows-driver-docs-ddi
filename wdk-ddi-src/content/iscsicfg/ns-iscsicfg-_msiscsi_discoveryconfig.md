@@ -4,7 +4,6 @@ title: _MSiSCSI_DiscoveryConfig (iscsicfg.h)
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
 tech.root: storage
-ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.date: 03/29/2018
 keywords: ["MSiSCSI_DiscoveryConfig structure"]
 ms.keywords: "*PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], PMSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], _MSiSCSI_DiscoveryConfig, iscsicfg/MSiSCSI_DiscoveryConfig, iscsicfg/PMSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml"

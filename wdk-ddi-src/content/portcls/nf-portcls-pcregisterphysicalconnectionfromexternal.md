@@ -4,7 +4,6 @@ title: PcRegisterPhysicalConnectionFromExternal function (portcls.h)
 description: The PcRegisterPhysicalConnectionFromExternal function registers a physical connection to an audio adapter filter from an external audio adapter filter.
 old-location: audio\pcregisterphysicalconnectionfromexternal.htm
 tech.root: audio
-ms.assetid: 636cf517-5ab0-4709-8026-b51425c81118
 ms.date: 05/08/2018
 keywords: ["PcRegisterPhysicalConnectionFromExternal function"]
 ms.keywords: PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal

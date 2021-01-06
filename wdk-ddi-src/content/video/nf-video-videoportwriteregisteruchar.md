@@ -4,7 +4,6 @@ title: VideoPortWriteRegisterUchar function (video.h)
 description: The VideoPortWriteRegisterUchar function writes a byte to a mapped register.
 old-location: display\videoportwriteregisteruchar.htm
 tech.root: display
-ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterUchar function"]
 ms.keywords: VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar function [Display Devices], VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, display.videoportwriteregisteruchar, video/VideoPortWriteRegisterUchar

@@ -4,7 +4,6 @@ title: VideoPortUnmapDmaMemory function (video.h)
 description: The VideoPortUnmapDmaMemory function is obsolete in Windows 2000 and later.VideoPortUnmapDmaMemory unmaps a range of memory previously mapped by VideoPortMapDmaMemory.
 old-location: display\videoportunmapdmamemory.htm
 tech.root: display
-ms.assetid: f3d05263-5e6b-4875-afff-1166928778db
 ms.date: 05/10/2018
 keywords: ["VideoPortUnmapDmaMemory function"]
 ms.keywords: VideoPortUnmapDmaMemory, VideoPortUnmapDmaMemory function [Display Devices], VideoPort_Functions_f2162fff-c7a8-4dde-aa17-94377f0cf716.xml, display.videoportunmapdmamemory, video/VideoPortUnmapDmaMemory

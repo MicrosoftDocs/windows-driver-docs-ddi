@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetOffloadIsTxChecksumTcpEnabled
 title: NetOffloadIsTxChecksumTcpEnabled function (netadapteroffload.h)
 description: The NetOffloadIsTxChecksumTcpEnabled function determines whether a net adapter has Tx TCP checksum offload enabled.
 tech.root: netvista
-ms.assetid:
 ms.date: 10/06/2020
 keywords: ["NetOffloadIsTxChecksumTcpEnabled function"]
 f1_keywords:

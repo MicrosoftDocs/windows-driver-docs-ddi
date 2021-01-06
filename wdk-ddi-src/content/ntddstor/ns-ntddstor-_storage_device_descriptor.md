@@ -4,7 +4,6 @@ title: _STORAGE_DEVICE_DESCRIPTOR (ntddstor.h)
 description: The STORAGE_DEVICE_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the storage device descriptor data for a device.
 old-location: storage\storage_device_descriptor.htm
 tech.root: storage
-ms.assetid: 99b270a0-0634-41a8-9de7-d2a2d4c3059f
 ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, storage.storage_device_descriptor, structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml

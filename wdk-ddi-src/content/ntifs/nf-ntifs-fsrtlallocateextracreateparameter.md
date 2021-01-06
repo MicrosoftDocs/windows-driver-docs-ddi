@@ -4,7 +4,6 @@ title: FsRtlAllocateExtraCreateParameter function (ntifs.h)
 description: The FsRtlAllocateExtraCreateParameter routine allocates memory for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameter.htm
 tech.root: ifsk
-ms.assetid: 644680a9-ec56-4d65-890f-fbc11badf2b7
 ms.date: 04/16/2018
 keywords: ["FsRtlAllocateExtraCreateParameter function"]
 ms.keywords: FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers], fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, ifsk.fsrtlallocateextracreateparameter, ntifs/FsRtlAllocateExtraCreateParameter

@@ -4,7 +4,6 @@ title: _SECURE_ELEMENT_ROUTING_TYPE (nfcsedev.h)
 description: SECURE_ELEMENT_ROUTING_TYPE is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_routing_type.htm
 tech.root: nfpdrivers
-ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_ROUTING_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, RoutingTypeProtocol, RoutingTypeTech, SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/RoutingTypeAid, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type"

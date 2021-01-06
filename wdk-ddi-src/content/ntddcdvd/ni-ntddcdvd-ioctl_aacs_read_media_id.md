@@ -4,7 +4,6 @@ title: IOCTL_AACS_READ_MEDIA_ID (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS)-specific media identifier data.
 old-location: storage\ioctl_aacs_read_media_id.htm
 tech.root: storage
-ms.assetid: e56f6af5-0391-4044-b6b3-efb27b511db6
 ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_READ_MEDIA_ID IOCTL"]
 ms.keywords: IOCTL_AACS_READ_MEDIA_ID, IOCTL_AACS_READ_MEDIA_ID control, IOCTL_AACS_READ_MEDIA_ID control code [Storage Devices], k307_1f0ffe88-e59a-44e5-bec0-247d38478be8.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_ID, storage.ioctl_aacs_read_media_id

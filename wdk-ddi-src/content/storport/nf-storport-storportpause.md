@@ -4,7 +4,6 @@ title: StorPortPause function (storport.h)
 description: The StorPortPause routine pauses an adapter for the specified period of time.
 old-location: storage\storportpause.htm
 tech.root: storage
-ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.date: 03/29/2018
 keywords: ["StorPortPause function"]
 ms.keywords: StorPortPause, StorPortPause routine [Storage Devices], storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml

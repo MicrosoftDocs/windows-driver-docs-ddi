@@ -3,7 +3,6 @@ UID: NF:storport.StorPortEtwLogError
 title: StorPortEtwLogError function
 description: A miniport can call StorPortEtwLogError to log an Event Tracing for Windows (ETW) event for a device hardware error.
 tech.root: storage
-ms.assetid: 02e3820a-c2f3-45bf-87a9-09d00ab8193e
 ms.date: 03/05/2019
 keywords: ["StorPortEtwLogError function"]
 ms.keywords: StorPortEtwLogError

@@ -4,7 +4,6 @@ title: VideoPortReadRegisterBufferUlong function (video.h)
 description: The VideoPortReadRegisterBufferUlong function reads a number of ULONG values from a mapped device memory range and writes them into a buffer.
 old-location: display\videoportreadregisterbufferulong.htm
 tech.root: display
-ms.assetid: ebef1d9f-9559-436c-b425-92ccf3bbf203
 ms.date: 05/10/2018
 keywords: ["VideoPortReadRegisterBufferUlong function"]
 ms.keywords: VideoPortReadRegisterBufferUlong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml, display.videoportreadregisterbufferulong, video/VideoPortReadRegisterBufferUlong

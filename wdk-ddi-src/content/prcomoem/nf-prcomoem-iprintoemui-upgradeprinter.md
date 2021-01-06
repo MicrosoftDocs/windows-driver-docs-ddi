@@ -4,7 +4,6 @@ title: IPrintOemUI::UpgradePrinter (prcomoem.h)
 description: The IPrintOemUI::UpgradePrinter method allows a user interface plug-in to upgrade device option values that are stored in the registry.
 old-location: print\iprintoemui_upgradeprinter.htm
 tech.root: print
-ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::UpgradePrinter"]
 ms.keywords: IPrintOemUI interface [Print Devices],UpgradePrinter method, IPrintOemUI.UpgradePrinter, IPrintOemUI::UpgradePrinter, UpgradePrinter, UpgradePrinter method [Print Devices], UpgradePrinter method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpgradePrinter, print.iprintoemui_upgradeprinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml

@@ -2,7 +2,6 @@
 UID: NS:ntifs._FILE_DESIRED_STORAGE_CLASS_INFORMATION
 title: _FILE_DESIRED_STORAGE_CLASS_INFORMATION (ntifs.h)
 description: Contains the information for the Desired Storage Class attribute.
-ms.assetid: 0a6927e5-e1cb-439e-a899-1583baff7cbb
 tech.root: ifsk
 ms.date: 09/30/2018
 keywords: ["FILE_DESIRED_STORAGE_CLASS_INFORMATION structure"]

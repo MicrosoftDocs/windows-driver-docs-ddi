@@ -4,7 +4,6 @@ title: NfcCxRegisterSequenceHandler function (nfccx.h)
 description: Called by the client driver during initialization to register for handling specific sequences.
 old-location: nfpdrivers\_nfccxregistersequencehandler.htm
 tech.root: nfpdrivers
-ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
 ms.date: 02/15/2018
 keywords: ["NfcCxRegisterSequenceHandler function"]
 ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler

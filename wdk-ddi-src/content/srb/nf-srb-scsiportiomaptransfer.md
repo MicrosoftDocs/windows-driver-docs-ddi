@@ -4,7 +4,6 @@ title: ScsiPortIoMapTransfer function (srb.h)
 description: The ScsiPortIoMapTransfer routine sets up the system DMA controller for a miniport driver to transfer data through a subordinate HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportiomaptransfer.htm
 tech.root: storage
-ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.date: 03/29/2018
 keywords: ["ScsiPortIoMapTransfer function"]
 ms.keywords: ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer

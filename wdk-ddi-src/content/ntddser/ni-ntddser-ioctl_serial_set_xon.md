@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_SET_XON (ntddser.h)
 description: The IOCTL_SERIAL_SET_XON request emulates the reception of a XON (transmit on) character, which restarts reception of data.
 old-location: serports\ioctl_serial_set_xon.htm
 tech.root: serports
-ms.assetid: 082a02dc-93c2-495d-bc20-cb3510c00d78
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_XON IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml

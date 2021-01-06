@@ -4,7 +4,6 @@ title: _NDIS_NDK_CONNECTIONS (ntddndis.h)
 description: The NDIS_NDK_CONNECTIONS structure describes the NDK connections that are active on a miniport adapter.
 old-location: netvista\ndis_ndk_connections.htm
 tech.root: netvista
-ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_CONNECTIONS structure"]
 ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS

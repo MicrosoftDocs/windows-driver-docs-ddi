@@ -3,7 +3,6 @@ UID: NF:ntddstor.DeviceDsmGetNumberOfDataSetRanges
 title: DeviceDsmGetNumberOfDataSetRanges function (ntddstor.h)
 description: The DeviceDsmGetNumberOfDataSetRanges function gets the number of data set ranges in the payload of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request.
 tech.root: storage
-ms.assetid: a53b0fcc-7286-4d65-b4a0-d46b505073e7
 ms.date: 08/23/2019
 keywords: ["DeviceDsmGetNumberOfDataSetRanges function"]
 ms.keywords: DeviceDsmGetNumberOfDataSetRanges

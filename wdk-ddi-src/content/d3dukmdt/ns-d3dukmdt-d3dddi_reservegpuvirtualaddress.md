@@ -4,7 +4,6 @@ title: D3DDDI_RESERVEGPUVIRTUALADDRESS (d3dukmdt.h)
 description: D3DDDI_RESERVEGPUVIRTUALADDRESS is used with pfnReserveGpuVirtualAddressCb to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
 old-location: display\d3dddi_reservegpuvirtualaddress.htm
 tech.root: display
-ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.date: 05/10/2018
 keywords: ["D3DDDI_RESERVEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress

@@ -4,7 +4,6 @@ title: _KSDEVICE_DISPATCH (ks.h)
 description: The KSDEVICE_DISPATCH structure describes the callbacks that a client can provide to receive notification of device creation and PnP events.
 old-location: stream\ksdevice_dispatch.htm
 tech.root: stream
-ms.assetid: 1ae7af1d-5e1c-4728-82c5-efc8d60b5df6
 ms.date: 04/23/2018
 keywords: ["KSDEVICE_DISPATCH structure"]
 ms.keywords: "*PKSDEVICE_DISPATCH, KSDEVICE_DISPATCH, KSDEVICE_DISPATCH structure [Streaming Media Devices], PKSDEVICE_DISPATCH, PKSDEVICE_DISPATCH structure pointer [Streaming Media Devices], _KSDEVICE_DISPATCH, avstruct_7ceb03b7-6973-46bd-ad3e-32fdce7f4f11.xml, ks/KSDEVICE_DISPATCH, ks/PKSDEVICE_DISPATCH, stream.ksdevice_dispatch"

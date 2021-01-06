@@ -3,7 +3,6 @@ UID: NF:nettxqueue.NetTxQueueGetRingCollection
 title: NetTxQueueGetRingCollection function (nettxqueue.h)
 description: The NetTxQueueGetRingCollection function retrieves the NET_DATAPATH_DESCRIPTOR structure for a transmit (Tx) queue.
 tech.root: netvista
-ms.assetid: 0767d0c0-d648-4dca-a664-a514de495c3d
 ms.date: 01/31/2019
 keywords: ["NetTxQueueGetRingCollection function"]
 ms.keywords: NetTxQueueGetRingCollection
@@ -28,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetTxQueueGetRingCollection
  - nettxqueue/NetTxQueueGetRingCollection
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetTxQueueGetRingCollection
 ---
 

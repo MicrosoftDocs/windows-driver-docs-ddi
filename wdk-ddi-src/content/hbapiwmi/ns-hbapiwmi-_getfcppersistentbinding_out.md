@@ -4,7 +4,6 @@ title: _GetFcpPersistentBinding_OUT (hbapiwmi.h)
 description: The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the GetFcpPersistentBinding WMI method to the WMI client.
 old-location: storage\getfcppersistentbinding_out.htm
 tech.root: storage
-ms.assetid: 1bb7c529-df26-4173-a098-6a19adf6b569
 ms.date: 03/29/2018
 keywords: ["GetFcpPersistentBinding_OUT structure"]
 ms.keywords: "*PGetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT structure [Storage Devices], PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT structure pointer [Storage Devices], _GetFcpPersistentBinding_OUT, hbapiwmi/GetFcpPersistentBinding_OUT, hbapiwmi/PGetFcpPersistentBinding_OUT, storage.getfcppersistentbinding_out, structs-Fibre_6deac9e1-fd5f-4bc1-9349-39bc61c4c6bb.xml"

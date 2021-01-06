@@ -4,7 +4,6 @@ title: IKeywordDetectorOemAdapter::BuildArmingPatternData (keyworddetectoroemada
 description: The BuildArmingPatternData method is called by the operating system to build OEM-specific pattern data that includes any keyword and user-specific model data for detection.
 old-location: audio\ikeyworddetectoroemadapter_buildarmingpatterndata.htm
 tech.root: audio
-ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.date: 05/08/2018
 keywords: ["IKeywordDetectorOemAdapter::BuildArmingPatternData"]
 ms.keywords: BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],BuildArmingPatternData method, IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData

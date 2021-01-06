@@ -4,7 +4,6 @@ title: FwpsStreamInjectAsync0 function (fwpsk.h)
 description: The FwpsStreamInjectAsync0 function injects TCP data segments into a TCP data stream.Note  FwpsStreamInjectAsync0 is a specific version of FwpsStreamInjectAsync.
 old-location: netvista\fwpsstreaminjectasync0.htm
 tech.root: netvista
-ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.date: 05/02/2018
 keywords: ["FwpsStreamInjectAsync0 function"]
 ms.keywords: FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml
@@ -181,7 +180,7 @@ Specifies that the stream is to be disconnected after the data being injected in
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the data that is being injected into the data stream. A callout driver allocates a <b>NET_BUFFER_LIST</b>
      structure to use for injecting data into a data stream by calling the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
@@ -206,7 +205,7 @@ A pointer to a
      <i>netBufferList</i> parameter, has been injected into the network stack. 
 
 If the 
-     <i>netBufferList</i> parameter describes a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain, 
+     <i>netBufferList</i> parameter describes a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain, 
      <i>completionFn</i> will be called once for each <b>NET_BUFFER_LIST</b> in the chain.
 
 If the 
@@ -241,7 +240,7 @@ The
 <td width="60%">
 The injection into the data stream was initiated successfully. The filter engine will call the
        completion function that was specified when the 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was allocated
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure was allocated
        after the filter engine has completed injecting the data into the data stream.
 
 </td>
@@ -366,7 +365,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

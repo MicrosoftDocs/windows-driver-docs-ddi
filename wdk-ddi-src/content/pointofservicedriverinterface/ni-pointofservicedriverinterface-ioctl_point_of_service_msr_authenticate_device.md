@@ -4,7 +4,6 @@ title: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE (pointofservicedriverinter
 description: This IO control function authenticates the magnetic stripe reader (MSR).
 old-location: pos\ioctl_point_of_service_msr_authenticate_device.htm
 tech.root: pos
-ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device

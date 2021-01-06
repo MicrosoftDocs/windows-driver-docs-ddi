@@ -4,7 +4,6 @@ title: RtlSubtreeSuccessor function (ntddk.h)
 description: The RtlSubtreeSuccessor routine returns a pointer to the successor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreesuccessor.htm
 tech.root: ifsk
-ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
 ms.date: 04/16/2018
 keywords: ["RtlSubtreeSuccessor function"]
 ms.keywords: RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], ifsk.rtlsubtreesuccessor, ntddk/RtlSubtreeSuccessor, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml

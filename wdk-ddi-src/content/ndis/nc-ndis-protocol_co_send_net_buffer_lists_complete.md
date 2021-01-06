@@ -4,7 +4,6 @@ title: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE (ndis.h)
 description: The ProtocolCoSendNetBufferListsComplete function completes a send operation that the protocol driver initiated with a call to the NdisCoSendNetBufferLists function.Note  You must declare the function by using the PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocolcosendnetbufferlistscomplete.htm
 tech.root: netvista
-ms.assetid: fb4b00c0-0b14-48dd-a6f2-aae659c6bb28
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolCoSendNetBufferListsComplete, ProtocolCoSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_d2516eb4-44f1-4bae-a4f8-5a1ddd069c5a.xml, ndis/ProtocolCoSendNetBufferListsComplete, netvista.protocolcosendnetbufferlistscomplete
@@ -69,7 +68,7 @@ A handle to a protocol driver-allocated context area in which this driver mainta
 
 [in]
 A pointer to a list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">
      NdisCoSendNetBufferLists</a> function.
@@ -149,7 +148,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

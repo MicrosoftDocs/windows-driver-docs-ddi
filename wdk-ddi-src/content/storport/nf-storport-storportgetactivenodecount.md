@@ -4,7 +4,6 @@ title: StorPortGetActiveNodeCount function (storport.h)
 description: The StorPortGetActiveNodeCount routine returns the number of nodes that are present in the system.
 old-location: storage\storportgetactivenodecount.htm
 tech.root: storage
-ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.date: 03/29/2018
 keywords: ["StorPortGetActiveNodeCount function"]
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml

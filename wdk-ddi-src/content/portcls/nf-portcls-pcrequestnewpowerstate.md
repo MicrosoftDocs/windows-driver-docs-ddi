@@ -4,7 +4,6 @@ title: PcRequestNewPowerState function (portcls.h)
 description: The PcRequestNewPowerState function is used to request a new power state for the device. This function is typically not needed by adapter drivers but can occasionally be useful in working around some kinds of hardware problems.
 old-location: audio\pcrequestnewpowerstate.htm
 tech.root: audio
-ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.date: 05/08/2018
 keywords: ["PcRequestNewPowerState function"]
 ms.keywords: PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState

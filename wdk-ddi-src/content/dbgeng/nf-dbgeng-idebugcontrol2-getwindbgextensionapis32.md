@@ -4,7 +4,6 @@ title: IDebugControl2::GetWindbgExtensionApis32 (dbgeng.h)
 description: The GetWindbgExtensionApis32 method returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\idebugcontrol_getwindbgextensionapis32.htm
 tech.root: debugger
-ms.assetid: 84661E3C-9AC7-4852-BABF-BFC0A793E83D
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetWindbgExtensionApis32"]
 ms.keywords: GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2.GetWindbgExtensionApis32, IDebugControl2::GetWindbgExtensionApis32, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl3::GetWindbgExtensionApis32, IDebugControl::GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl3::GetWindbgExtensionApis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32

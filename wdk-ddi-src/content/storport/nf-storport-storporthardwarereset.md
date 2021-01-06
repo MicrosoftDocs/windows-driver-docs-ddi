@@ -3,7 +3,6 @@ UID: NF:storport.StorPortHardwareReset
 title: StorPortHardwareReset function
 description: A miniport can call StorPortHardwareReset to issue a hardware reset.
 tech.root: storage
-ms.assetid: 99e1fcdc-a727-4198-b02e-f4906f7b3d69
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortHardwareReset

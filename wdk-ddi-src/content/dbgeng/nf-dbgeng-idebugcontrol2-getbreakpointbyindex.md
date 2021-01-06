@@ -4,7 +4,6 @@ title: IDebugControl2::GetBreakpointByIndex (dbgeng.h)
 description: The GetBreakpointByIndex method returns the breakpoint located at the specified index.
 old-location: debugger\getbreakpointbyindex.htm
 tech.root: debugger
-ms.assetid: 9389536e-30c3-4651-bb1e-2c75741694b2
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetBreakpointByIndex"]
 ms.keywords: GetBreakpointByIndex, GetBreakpointByIndex method [Windows Debugging], GetBreakpointByIndex method [Windows Debugging],IDebugControl interface, GetBreakpointByIndex method [Windows Debugging],IDebugControl2 interface, GetBreakpointByIndex method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetBreakpointByIndex method, IDebugControl2 interface [Windows Debugging],GetBreakpointByIndex method, IDebugControl2.GetBreakpointByIndex, IDebugControl2::GetBreakpointByIndex, IDebugControl3 interface [Windows Debugging],GetBreakpointByIndex method, IDebugControl3::GetBreakpointByIndex, IDebugControl::GetBreakpointByIndex, IDebugControl_d290fd1e-da1d-4d02-9503-a3c0f8337cec.xml, dbgeng/IDebugControl2::GetBreakpointByIndex, dbgeng/IDebugControl3::GetBreakpointByIndex, dbgeng/IDebugControl::GetBreakpointByIndex, debugger.getbreakpointbyindex

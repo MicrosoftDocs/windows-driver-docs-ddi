@@ -4,7 +4,6 @@ title: FwpsReferenceNetBufferList0 function (fwpsk.h)
 description: The FwpsReferenceNetBufferList0 function increments the reference count for a NET_BUFFER_LIST structure.Note  FwpsReferenceNetBufferList0 is a specific version of FwpsReferenceNetBufferList.
 old-location: netvista\fwpsreferencenetbufferlist0.htm
 tech.root: netvista
-ms.assetid: ff387b49-fecb-41d0-aac5-0a83eb8835d6
 ms.date: 05/02/2018
 keywords: ["FwpsReferenceNetBufferList0 function"]
 ms.keywords: FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferenceNetBufferList0, netvista.fwpsreferencenetbufferlist0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml
@@ -49,7 +48,7 @@ api_name:
 
 The 
   <b>FwpsReferenceNetBufferList0</b> function increments the reference count for a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 <div class="alert"><b>Note</b>  <b>FwpsReferenceNetBufferList0</b> is a specific version of <b>FwpsReferenceNetBufferList</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
@@ -58,7 +57,7 @@ The
 
 [in, out]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
 ### -param intendToModify 
@@ -75,7 +74,7 @@ A value that indicates whether a callout intends to modify the cloned network bu
 
 A callout driver calls the 
     <b>FwpsReferenceNetBufferList0</b> function to increment the reference count for a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure such that the network
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure such that the network
     buffer list remains valid outside of the 
     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
 
@@ -113,7 +112,7 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054
 title: PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054 (d3d12umddi.h)
 description: Emits post-build properties for a set of acceleration structures.
-ms.assetid: ae08659a-7863-4998-82f2-275aaff4f386
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054 callback function"]
 req.header: d3d12umddi.h

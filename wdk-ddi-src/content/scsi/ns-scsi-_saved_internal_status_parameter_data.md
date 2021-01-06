@@ -2,7 +2,6 @@
 UID: NS:scsi._SAVED_INTERNAL_STATUS_PARAMETER_DATA
 title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA (scsi.h)
 description: 
-ms.assetid: 7af8f82a-ef8e-4942-94ed-a6851b841003
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]

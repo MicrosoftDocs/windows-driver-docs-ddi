@@ -4,7 +4,6 @@ title: WdfFdoInitSetEventCallbacks function (wdffdo.h)
 description: The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device.
 old-location: wdf\wdffdoinitseteventcallbacks.htm
 tech.root: wdf
-ms.assetid: 0a47ea47-590c-4395-b38e-d1f1fb1929e1
 ms.date: 02/26/2018
 keywords: ["WdfFdoInitSetEventCallbacks function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, WdfFdoInitSetEventCallbacks, WdfFdoInitSetEventCallbacks method, kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, wdffdo/WdfFdoInitSetEventCallbacks

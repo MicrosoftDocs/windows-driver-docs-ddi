@@ -4,7 +4,6 @@ title: IOCTL_MOUNTDEV_LINK_CREATED (mountdev.h)
 description: Support for this IOCTL by the mount manager clients is optional. The mount manager uses this IOCTL to alert the client driver that a persistent name has been assigned to its volume. The input for this IOCTL is the persistent name assigned.
 old-location: storage\ioctl_mountdev_link_created.htm
 tech.root: storage
-ms.assetid: 98ccf623-8232-4bcb-bd72-39dd31c7ede3
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_LINK_CREATED IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created

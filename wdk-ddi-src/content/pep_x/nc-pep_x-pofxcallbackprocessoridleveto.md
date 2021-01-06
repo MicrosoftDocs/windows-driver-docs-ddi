@@ -4,7 +4,6 @@ title: POFXCALLBACKPROCESSORIDLEVETO (pep_x.h)
 description: The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state.
 old-location: kernel\processoridleveto.htm
 tech.root: kernel
-ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKPROCESSORIDLEVETO callback function"]
 ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
@@ -53,7 +52,7 @@ The <b>ProcessorIdleVeto</b> routine increments or decrements the veto count for
 ### -param ProcessorHandle 
 
 [in]
-A POHANDLE value that represents the registration of the processor (as a device) with <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
+A POHANDLE value that represents the registration of the processor (as a device) with <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
 
 ### -param ProcessorState 
 

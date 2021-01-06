@@ -4,7 +4,6 @@ title: _DEVICE_DATA_SET_RANGE (ntddstor.h)
 description: The DEVICE_DSM_RANGE (or DEVICE_DATA_SET_RANGE) structure specifies a block of data set ranges for the attributes for a device.
 old-location: storage\device_data_set_range.htm
 tech.root: storage
-ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.date: 08/23/2019
 keywords: ["DEVICE_DATA_SET_RANGE structure"]
 ms.keywords: "DEVICE_DSM_RANGE, PDEVICE_DSM_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure [Storage Devices], PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], _DEVICE_DATA_SET_RANGE, ntddstor/DEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, storage.device_data_set_range, structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml"

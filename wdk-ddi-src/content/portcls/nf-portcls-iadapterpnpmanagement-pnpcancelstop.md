@@ -3,7 +3,6 @@ UID: NF:portcls.IAdapterPnpManagement.PnpCancelStop
 title: IAdapterPnpManagement::PnpCancelStop (portcls.h)
 description: The PnpCancelStop method provides a notification while processing the CancelStop IRP.
 tech.root: audio
-ms.assetid: 882d841c-1e16-4bb6-a9e2-df8fbe5728c9
 ms.date: 10/31/2018
 keywords: ["IAdapterPnpManagement::PnpCancelStop"]
 ms.keywords: IAdapterPnpManagement::PnpCancelStop, PnpCancelStop, IAdapterPnpManagement.PnpCancelStop, IAdapterPnpManagement::PnpCancelStop, IAdapterPnpManagement.PnpCancelStop

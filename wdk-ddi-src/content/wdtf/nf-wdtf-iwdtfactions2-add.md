@@ -4,7 +4,6 @@ title: IWDTFActions2::Add (wdtf.h)
 description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
 tech.root: dtf
-ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Add method, IWDTFActions2.Add, IWDTFActions2::Add, dtf.iwdtfactions2_add, wdtf/IWDTFActions2::Add
@@ -59,6 +58,3 @@ The action to add to this collection.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>

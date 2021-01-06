@@ -4,7 +4,6 @@ title: MINIPORT_SEND_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the MiniportSendNetBufferLists function to transmit network data that is contained in a linked list of NET_BUFFER_LIST structures.
 old-location: netvista\miniportsendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 0bd5966d-66a6-4548-8c84-7cedced2cf40
 ms.date: 05/02/2018
 keywords: ["MINIPORT_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MINIPORT_SEND_NET_BUFFER_LISTS callback, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
@@ -48,7 +47,7 @@ api_name:
 
 NDIS calls the 
    <i>MiniportSendNetBufferLists</i> function to transmit network data that is contained in a linked list of 
-   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> type. For
    more information, see the following Examples section.</div><div> </div>
 
@@ -65,7 +64,7 @@ A handle to a context area that the miniport driver allocated in its
 
 [in]
 A pointer to the first 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
      of NET_BUFFER_LIST structures. Each NET_BUFFER_LIST structure in the list describes a list of 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list maps to a chain of MDLs. The MDLs contain the network data.
@@ -115,19 +114,19 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
 
 When transmitting the network data that NDIS passes in the <i>NetBufferLists</i> parameter, the miniport driver must use the following guidelines:<ol>
 <li>
-The order of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure must be preserved.
+The order of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in each <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure must be preserved.
 
 </li>
 <li>
-The order of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
+The order of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
 
 </li>
 <li>
-If the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
+If the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
 
 <ul>
 <li>
-Receive side scaling (RSS) (The RSS hash value in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
+Receive side scaling (RSS) (The RSS hash value in the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
 
 </li>
 <li>
@@ -222,7 +221,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

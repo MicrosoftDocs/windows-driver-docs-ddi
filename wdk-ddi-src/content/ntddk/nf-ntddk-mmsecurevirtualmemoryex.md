@@ -3,7 +3,6 @@ UID: NF:ntddk.MmSecureVirtualMemoryEx
 title: MmSecureVirtualMemoryEx function
 description: This routine probes the requested address range and protects the specified address range from having its protection made more restrictive and being deleted.
 tech.root: kernel
-ms.assetid: b8dbb7ce-6bc8-4899-92b6-7499b26e8539
 ms.date: 08/19/2019
 keywords: ["MmSecureVirtualMemoryEx function"]
 ms.keywords: MmSecureVirtualMemoryEx

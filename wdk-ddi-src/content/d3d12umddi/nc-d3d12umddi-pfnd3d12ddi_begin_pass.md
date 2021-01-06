@@ -3,7 +3,6 @@ UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_PASS
 title: PFND3D12DDI_BEGIN_PASS (d3d12umddi.h)
 description: The driver is notified that the app has started of a pass of consistent workloads.
 tech.root: display
-ms.assetid: 05d0f76c-4a82-433c-9d97-a4fb2c4b4e1a
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BEGIN_PASS callback function"]
 ms.prod: windows-hardware

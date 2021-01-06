@@ -4,7 +4,6 @@ title: StorPortInterlockedInsertTailList function (storport.h)
 description: The StorPortInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinserttaillist.htm
 tech.root: storage
-ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.date: 03/29/2018
 keywords: ["StorPortInterlockedInsertTailList function"]
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList

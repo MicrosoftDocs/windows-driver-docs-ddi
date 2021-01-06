@@ -4,7 +4,6 @@ title: FltFreeFileLock function (fltkernel.h)
 description: The FltFreeFileLock routine uninitializes and frees an initialized FILE_LOCK structure.
 old-location: ifsk\fltfreefilelock.htm
 tech.root: ifsk
-ms.assetid: bcf2ac97-0aa2-4464-a045-b98866351243
 ms.date: 04/16/2018
 keywords: ["FltFreeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_823e2511-8afe-4151-bbac-a9481c079068.xml, FltFreeFileLock, FltFreeFileLock routine [Installable File System Drivers], fltkernel/FltFreeFileLock, ifsk.fltfreefilelock

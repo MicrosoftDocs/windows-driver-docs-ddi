@@ -3,7 +3,6 @@ UID: NF:ring.NetRingIncrementIndex
 title: NetRingIncrementIndex function (ring.h)
 description: Returns the next index value after the specified index value, wrapping around to the beginning of the ring buffer if necessary.
 tech.root: netvista
-ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54
 ms.date: 09/25/2019
 keywords: ["NetRingIncrementIndex function"]
 ms.keywords: NetRingIncrementIndex
@@ -30,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetRingIncrementIndex
  - ring/NetRingIncrementIndex
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ring.h
-apiname:
+api_name:
  - NetRingIncrementIndex
 ---
 

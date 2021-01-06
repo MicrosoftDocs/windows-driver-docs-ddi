@@ -4,7 +4,6 @@ title: NdisMResetComplete macro (ndis.h)
 description: The NdisMResetComplete function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismresetcomplete.htm
 tech.root: netvista
-ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.date: 05/02/2018
 keywords: ["NdisMResetComplete macro"]
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete

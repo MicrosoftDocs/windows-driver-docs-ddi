@@ -2,7 +2,6 @@
 UID: NC:oprghdlr.ACPI_OP_REGION_CALLBACK
 title: ACPI_OP_REGION_CALLBACK (oprghdlr.h)
 description: Describes the ACPI_OP_REGION_CALLBACK callback function.
-ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
 ms.date: 11/18/2020
 keywords: ["ACPI_OP_REGION_CALLBACK callback function"]
 req.header: oprghdlr.h

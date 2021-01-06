@@ -4,7 +4,6 @@ title: _WIA_PATCH_CODE_INFO (wiadef.h)
 description: The WIA_PATCH_CODE_INFO structure stores information for one decoded patch code.
 old-location: image\wia_patch_code_info.htm
 tech.root: image
-ms.assetid: 476C9269-7A88-4D06-80E8-C80E5F29B6CF
 ms.date: 05/03/2018
 keywords: ["WIA_PATCH_CODE_INFO structure"]
 ms.keywords: WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], _WIA_PATCH_CODE_INFO, image.wia_patch_code_info, wiadef/WIA_PATCH_CODE_INFO

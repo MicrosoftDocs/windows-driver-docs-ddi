@@ -4,7 +4,6 @@ title: _DOT11_WFD_ADDITIONAL_IE (windot11.h)
 description: The DOT11_WFD_ADDITIONAL_IE structure represents an additional Information Element (IE) included in an OID_DOT11_WFD_ADDITIONAL_IE request. An additional IE contains both request and response data for probe and beacon operations.
 old-location: netvista\_dot11_wfd_additional_ie.htm
 tech.root: netvista
-ms.assetid: F381C8DB-DC69-4820-BDCE-2F1DF3482FDD
 ms.date: 02/16/2018
 keywords: ["DOT11_WFD_ADDITIONAL_IE structure"]
 ms.keywords: "*PDOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ADDITIONAL_IE, netvista._dot11_wfd_additional_ie, windot11/ DOT11_WFD_ADDITIONAL_IE, windot11/PDOT11_WFD_ADDITIONAL_IE"

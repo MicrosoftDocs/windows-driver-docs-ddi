@@ -4,7 +4,6 @@ title: _D3DRENDERSTATETYPE (d3d9types.h)
 description: The D3DRENDERSTATETYPE enumerated type lists a variety of attributes, or render states.
 old-location: display\d3drenderstatetype.htm
 tech.root: display
-ms.assetid: 82978b22-1538-4da0-bcf2-c4c52d2e3429
 ms.date: 05/10/2018
 keywords: ["D3DRENDERSTATETYPE enumeration"]
 ms.keywords: D3DRENDERSTATETYPE, D3DRENDERSTATE_EVICTMANAGEDTEXTURES, D3DRENDERSTATE_SCENECAPTURE, D3DRS_DELETERTPATCH, D3DRS_MAXPIXELSHADERINST, D3DRS_MAXVERTEXSHADERINST, _D3DRENDERSTATETYPE, d3d9types/, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3d9types/D3DRENDERSTATE_SCENECAPTURE, d3d9types/D3DRS_DELETERTPATCH, d3d9types/D3DRS_MAXPIXELSHADERINST, d3d9types/D3DRS_MAXVERTEXSHADERINST, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, display.d3drenderstatetype, enumeration [Display Devices]

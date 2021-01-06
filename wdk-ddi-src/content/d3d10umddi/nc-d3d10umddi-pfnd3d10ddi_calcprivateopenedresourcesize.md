@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE
 title: PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE (d3d10umddi.h)
 description: The CalcPrivateOpenedResourceSize function determines the size of the user-mode display driver's private shared region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an opened resource.
 old-location: display\calcprivateopenedresourcesize.htm
-ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function"]
 ms.keywords: CalcPrivateOpenedResourceSize, CalcPrivateOpenedResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml, d3d10umddi/CalcPrivateOpenedResourceSize, display.calcprivateopenedresourcesize

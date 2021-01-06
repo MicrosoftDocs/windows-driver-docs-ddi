@@ -3,7 +3,6 @@ UID: NS:eventdetectoroemadapter.IEventDetectorOemAdapterVtbl
 title: IEventDetectorOemAdapterVtbl
 description: IEventDetectorOemAdapterVtbl structure is an artifact created by the IDL. It is reserved for Microsoft use.
 tech.root: audio
-ms.assetid: 15246179-b019-440a-8984-efae4370e341
 ms.date: 04/05/2019
 keywords: ["IEventDetectorOemAdapterVtbl structure"]
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl,

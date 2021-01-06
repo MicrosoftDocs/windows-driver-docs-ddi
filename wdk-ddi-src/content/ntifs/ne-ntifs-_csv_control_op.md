@@ -3,7 +3,6 @@ UID: NE:ntifs._CSV_CONTROL_OP
 title: _CSV_CONTROL_OP (ntifs.h)
 description: Specifies the type of cluster shared volume (CSV) control operation to use with the FSCTL_CSV_CONTROL control code.
 tech.root: ifsk
-ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
 ms.date: 10/21/2019
 keywords: ["CSV_CONTROL_OP enumeration"]
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP,

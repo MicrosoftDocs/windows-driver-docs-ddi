@@ -4,7 +4,6 @@ title: AtaPortBusChangeDetected function (irb.h)
 description: The AtaPortBusChangeDetected routine notifies the port driver of changes in the device configuration on the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportbuschangedetected.htm
 tech.root: storage
-ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.date: 03/29/2018
 keywords: ["AtaPortBusChangeDetected function"]
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected

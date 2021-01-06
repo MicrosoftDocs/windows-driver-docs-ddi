@@ -4,7 +4,6 @@ title: ISynthSinkDMus::RefTimeToSample (dmusicks.h)
 description: The RefTimeToSample method converts a reference time into a sample time.
 old-location: audio\isynthsinkdmus_reftimetosample.htm
 tech.root: audio
-ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.date: 05/08/2018
 keywords: ["ISynthSinkDMus::RefTimeToSample"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],RefTimeToSample method, ISynthSinkDMus.RefTimeToSample, ISynthSinkDMus::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_reftimetosample, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, dmusicks/ISynthSinkDMus::RefTimeToSample

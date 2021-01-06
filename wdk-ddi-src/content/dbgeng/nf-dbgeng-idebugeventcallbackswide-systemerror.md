@@ -4,7 +4,6 @@ title: IDebugEventCallbacksWide::SystemError (dbgeng.h)
 description: The SystemError callback method is called by the engine when a system error occurs in the target.
 old-location: debugger\idebugeventcallbackswide_systemerror.htm
 tech.root: debugger
-ms.assetid: 938eacb5-7939-43ed-a854-046708fc9c79
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::SystemError"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],SystemError method, IDebugEventCallbacksWide.SystemError, IDebugEventCallbacksWide::SystemError, SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::SystemError, debugger.idebugeventcallbackswide_systemerror

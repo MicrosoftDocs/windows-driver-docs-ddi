@@ -2,7 +2,6 @@
 UID: NE:ntifs.__unnamed_enum_3
 title: _OPLOCK_NOTIFY_REASON (ntifs.h)
 description: OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to FsRtlCheckOplockEx2.
-ms.assetid: fd212e75-7ba1-4764-a860-57b21d8eef4a
 tech.root: ifsk
 ms.date: 03/24/2020
 ms.topic: enum

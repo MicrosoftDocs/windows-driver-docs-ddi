@@ -4,7 +4,6 @@ title: _IO_BLOCK (usbscan.h)
 description: The IO_BLOCK structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_READ_REGISTERS or IOCTL_WRITE_REGISTERS.
 old-location: image\io_block.htm
 tech.root: image
-ms.assetid: aa1ccffc-c742-415d-8b72-fef247dff03c
 ms.date: 05/03/2018
 keywords: ["IO_BLOCK structure"]
 ms.keywords: "*PIO_BLOCK, IO_BLOCK, IO_BLOCK structure [Imaging Devices], PIO_BLOCK, PIO_BLOCK structure pointer [Imaging Devices], _IO_BLOCK, image.io_block, stifnc_94187a6f-5c01-4d4a-a852-469f93d891b9.xml, usbscan/IO_BLOCK, usbscan/PIO_BLOCK"

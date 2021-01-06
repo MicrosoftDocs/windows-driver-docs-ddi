@@ -4,7 +4,6 @@ title: _NDK_OBJECT_HEADER (ndkpi.h)
 description: The NDK_OBJECT_HEADER structure specifies the object version, type, and other information. It is used in the Header member of every NDK object.
 old-location: netvista\ndk_object_header.htm
 tech.root: netvista
-ms.assetid: 12E3ED4A-F078-4489-BC84-69EE735CAEF8
 ms.date: 05/02/2018
 keywords: ["NDK_OBJECT_HEADER structure"]
 ms.keywords: NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, netvista.ndk_object_header

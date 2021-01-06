@@ -4,7 +4,6 @@ title: HidP_GetData function (hidpi.h)
 description: The HidP_GetData routine returns, for a specified report, an array of HIDP_DATA structures that identify the data indices of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values.
 old-location: hid\hidp_getdata.htm
 tech.root: hid
-ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.date: 04/30/2018
 keywords: ["HidP_GetData function"]
 ms.keywords: HidP_GetData, HidP_GetData routine [Human Input Devices], hid.hidp_getdata, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData

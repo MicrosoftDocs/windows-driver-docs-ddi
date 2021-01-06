@@ -4,7 +4,6 @@ title: _BDA_TABLE_SECTION (bdatypes.h)
 description: The BDA_TABLE_SECTION structure describes a table section.
 old-location: stream\bda_table_section.htm
 tech.root: stream
-ms.assetid: f7669c36-6bf0-477e-8466-46a3da015cf3
 ms.date: 04/23/2018
 keywords: ["BDA_TABLE_SECTION structure"]
 ms.keywords: "*PBDA_TABLE_SECTION, BDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices], PBDA_TABLE_SECTION, PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], _BDA_TABLE_SECTION, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, bdatypes/BDA_TABLE_SECTION, bdatypes/PBDA_TABLE_SECTION, stream.bda_table_section"

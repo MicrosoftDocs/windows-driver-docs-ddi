@@ -4,7 +4,6 @@ title: _ENLISTMENT_INFORMATION_CLASS (wdm.h)
 description: The ENLISTMENT_INFORMATION_CLASS enumeration identifies the type of information that the ZwSetInformationEnlistment routine can set and that the ZwQueryInformationEnlistment routine can retrieve for an enlistment object.
 old-location: kernel\enlistment_information_class.htm
 tech.root: kernel
-ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.date: 04/30/2018
 keywords: ["ENLISTMENT_INFORMATION_CLASS enumeration"]
 ms.keywords: ENLISTMENT_INFORMATION_CLASS, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], EnlistmentBasicInformation, EnlistmentCrmInformation, EnlistmentRecoveryInformation, _ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, wdm/ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation, wdm/EnlistmentCrmInformation, wdm/EnlistmentRecoveryInformation

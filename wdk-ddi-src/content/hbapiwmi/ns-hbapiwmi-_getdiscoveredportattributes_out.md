@@ -4,7 +4,6 @@ title: _GetDiscoveredPortAttributes_OUT (hbapiwmi.h)
 description: The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the GetDiscoveredPortAttributes WMI method to the WMI client.
 old-location: storage\getdiscoveredportattributes_out.htm
 tech.root: storage
-ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.date: 03/29/2018
 keywords: ["GetDiscoveredPortAttributes_OUT structure"]
 ms.keywords: "*PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], _GetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml"

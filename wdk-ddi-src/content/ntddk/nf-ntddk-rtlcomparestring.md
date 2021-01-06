@@ -4,7 +4,6 @@ title: RtlCompareString function (ntddk.h)
 description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
 tech.root: kernel
-ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.date: 04/30/2018
 keywords: ["RtlCompareString function"]
 ms.keywords: RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, ntddk/RtlCompareString

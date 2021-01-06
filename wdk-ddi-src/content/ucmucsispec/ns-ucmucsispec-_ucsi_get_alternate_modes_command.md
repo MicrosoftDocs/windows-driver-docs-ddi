@@ -3,7 +3,6 @@ UID: NS:ucmucsispec._UCSI_GET_ALTERNATE_MODES_COMMAND
 title: _UCSI_GET_ALTERNATE_MODES_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_ALTERNATE_MODES command. See Table 4-24.
-ms.assetid: 324916ee-2ed2-4946-a3ab-69a82771a4c7
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_ALTERNATE_MODES_COMMAND structure"]
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_COMMAND, UCSI_GET_ALTERNATE_MODES_COMMAND, *PUCSI_GET_ALTERNATE_MODES_COMMAND,

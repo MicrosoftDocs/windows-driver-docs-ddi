@@ -4,7 +4,6 @@ title: _DXGKMDT_OPM_GET_INFO_PARAMETERS (d3dkmdt.h)
 description: The DXGKMDT_OPM_GET_INFO_PARAMETERS structure contains parameters that are used to retrieve information from a protected output object in a call to the DxgkDdiOPMGetInformation function.
 old-location: display\dxgkmdt_opm_get_info_parameters.htm
 tech.root: display
-ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, PDXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters"

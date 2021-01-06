@@ -4,7 +4,6 @@ title: _DXVA_DeinterlaceBltEx (dxva.h)
 description: The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate-converted video with any supplied video substreams, and for writing the combined output to a destination surface.
 old-location: display\dxva_deinterlacebltex.htm
 tech.root: display
-ms.assetid: dbc32410-119f-4172-8d2a-7d41e8b64ae4
 ms.date: 05/10/2018
 keywords: ["DXVA_DeinterlaceBltEx structure"]
 ms.keywords: DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], _DXVA_DeinterlaceBltEx, display.dxva_deinterlacebltex, dxva/DXVA_DeinterlaceBltEx, dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml

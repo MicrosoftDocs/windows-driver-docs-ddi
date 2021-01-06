@@ -4,7 +4,6 @@ title: CWiaLogProc::CWiaLogProc (wiamdef.h)
 description: The CWiaLogProc constructor is called when the function or method being logged is entered.
 old-location: image\cwialogproc_cwialogproc.htm
 tech.root: image
-ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.date: 08/26/2020
 keywords: ["CWiaLogProc::CWiaLogProc"]
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc

@@ -4,7 +4,6 @@ title: IOCTL_SCSISCAN_SET_TIMEOUT (scsiscan.h)
 description: The IOCTL_SCSISCAN_SET_TIMEOUT control code modifies the time-out value used by the kernel-mode still image driver for SCSI buses when it accesses a device.
 old-location: image\ioctl_scsiscan_set_timeout.htm
 tech.root: image
-ms.assetid: 987816b3-ea5f-4689-b81f-f6d3328516c4
 ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_SET_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_SET_TIMEOUT, IOCTL_SCSISCAN_SET_TIMEOUT control, IOCTL_SCSISCAN_SET_TIMEOUT control code [Imaging Devices], image.ioctl_scsiscan_set_timeout, scsiscan/IOCTL_SCSISCAN_SET_TIMEOUT, stifnc_2b449c8c-c9b5-4f5a-be93-7efc1d8610bc.xml

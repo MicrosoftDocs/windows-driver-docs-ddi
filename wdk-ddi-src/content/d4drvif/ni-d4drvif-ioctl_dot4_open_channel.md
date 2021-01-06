@@ -4,7 +4,6 @@ title: IOCTL_DOT4_OPEN_CHANNEL (d4drvif.h)
 description: This topic describes IOCTL_DOT4_OPEN_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_open_channel.htm
 tech.root: print
-ms.assetid: 9E71A230-5412-4248-A412-B92BE9E119FD
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_OPEN_CHANNEL IOCTL"]
 ms.keywords: IOCTL_DOT4_OPEN_CHANNEL, IOCTL_DOT4_OPEN_CHANNEL control, IOCTL_DOT4_OPEN_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_OPEN_CHANNEL, print.ioctl_ioctl_dot4_open_channel

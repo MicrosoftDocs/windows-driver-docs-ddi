@@ -4,7 +4,6 @@ title: DOT11_STATISTICS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_statistics.htm
 tech.root: netvista
-ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.date: 02/16/2018
 keywords: ["DOT11_STATISTICS structure"]
 ms.keywords: "*PDOT11_STATISTICS, DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_statistics, windot11/DOT11_STATISTICS, windot11/PDOT11_STATISTICS"

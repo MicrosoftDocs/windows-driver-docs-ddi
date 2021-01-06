@@ -4,7 +4,6 @@ title: AtaPortDebugPrint function (irb.h)
 description: The AtaPortDebugPrint routine passes a message string to the kernel debugger for the debugger to print.
 old-location: storage\ataportdebugprint.htm
 tech.root: storage
-ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.date: 03/29/2018
 keywords: ["AtaPortDebugPrint function"]
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint

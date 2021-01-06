@@ -3,7 +3,6 @@ UID: NS:ntddscsi._STORAGE_ENDURANCE_INFO
 title: STORAGE_ENDURANCE_INFO
 description: A miniport uses the **STORAGE_ENDURANCE_INFO** structure to report a device's endurance information.
 tech.root: storage
-ms.assetid: e64f996f-b10a-4f7f-9246-2ab9e2b7e92d
 ms.date: 03/15/2019
 keywords: ["STORAGE_ENDURANCE_INFO structure"]
 ms.keywords: STORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_INFO, *PSTORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_DATA_DESCRIPTOR

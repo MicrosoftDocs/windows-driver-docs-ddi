@@ -4,7 +4,6 @@ title: _PEP_PPM_PARK_SELECTION_V2 (pep_x.h)
 description: The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection_v2.htm
 tech.root: kernel
-ms.assetid: D1EFB30D-E8E2-4585-AB0E-B7903F4D6656
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_PARK_SELECTION_V2 structure"]
 ms.keywords: "*PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION_V2, PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_PARK_TYPE_CORE_PARKING, PROCESSOR_PARK_TYPE_INTERRUPT_STEERING, _PEP_PPM_PARK_SELECTION_V2, kernel.pep_ppm_park_selection_v2, pepfx/PEP_PPM_PARK_SELECTION_V2, pepfx/PPEP_PPM_PARK_SELECTION_V2"
@@ -109,4 +108,4 @@ Interrupts should be steered away from the processor.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) before this notification is sent to the PEP.

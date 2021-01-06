@@ -4,7 +4,6 @@ title: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying a filename.
 old-location: wdf\wdf_io_target_open_params_init_open_by_file.htm
 tech.root: wdf
-ms.assetid: 6C8CA2A8-D39E-4524-A909-102D8310AC72
 ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function"]
 ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, wdf.wdf_io_target_open_params_init_open_by_file, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE

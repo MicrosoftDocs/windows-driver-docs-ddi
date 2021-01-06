@@ -4,7 +4,6 @@ title: POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS (pep_x.h)
 description: The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.
 old-location: kernel\enumerateunmaskedinterrupts.htm
 tech.root: kernel
-ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function"]
 ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
@@ -68,7 +67,7 @@ A pointer to a caller-implemented <a href="/windows-hardware/drivers/ddi/pepfx/n
 ### -param CallbackContext 
 
 [in]
-A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ### -param InterruptInformation 
 

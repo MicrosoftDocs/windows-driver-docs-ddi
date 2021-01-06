@@ -4,7 +4,6 @@ title: IInterruptSync (portcls.h)
 description: The IInterruptSync interface represents an interrupt sync object that synchronizes the execution of a list of interrupt service routines (ISRs) with non-ISR routines.
 old-location: audio\iinterruptsync.htm
 tech.root: audio
-ms.assetid: fffdee8e-6298-45b9-94ee-23426598fbee
 ms.date: 05/08/2018
 keywords: ["IInterruptSync interface"]
 ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], IInterruptSync interface [Audio Devices],described, audio.iinterruptsync, audmp-routines_5b5b2127-b0d5-48de-9840-2cdffa0bea6a.xml, portcls/IInterruptSync

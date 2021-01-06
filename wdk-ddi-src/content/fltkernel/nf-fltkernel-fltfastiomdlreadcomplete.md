@@ -4,7 +4,6 @@ title: FltFastIoMdlReadComplete function (fltkernel.h)
 description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
 old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk
-ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 04/16/2018
 keywords: ["FltFastIoMdlReadComplete function"]
 ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete

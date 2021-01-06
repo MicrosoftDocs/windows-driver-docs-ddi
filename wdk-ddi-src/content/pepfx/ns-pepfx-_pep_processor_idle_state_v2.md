@@ -4,7 +4,6 @@ title: _PEP_PROCESSOR_IDLE_STATE_V2 (pepfx.h)
 description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_processor_idle_state_v2.htm
 tech.root: kernel
-ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
 ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_IDLE_STATE_V2 structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
@@ -78,7 +77,7 @@ The worst-case latency, in 100-nanosecond units,  that the processor requires to
 
 ### -field BreakEvenDuration
 
-The minimum amount of time, specified in 100-nanosecond units, that the processor must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) uses this member value as a hint to avoid switching a processor to an idle state unless the processor is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
+The minimum amount of time, specified in 100-nanosecond units, that the processor must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) uses this member value as a hint to avoid switching a processor to an idle state unless the processor is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 
 
 #### - ( unnamed union )

@@ -4,7 +4,6 @@ title: _DOT11_WFD_DEVICE_INFO (windot11.h)
 description: the DOT11_WFD_DEVICE_INFO structure is included with a OID_DOT11_WFD_DEVICE_INFO request. The structure contains Wi-Fi Direct (WFD) device information related to Peer-to-Peer (P2P) attributes.
 old-location: netvista\_dot11_wfd_device_info.htm
 tech.root: netvista
-ms.assetid: 6E0E9BC9-9C84-4511-A28E-2BB2D6367F74
 ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DEVICE_INFO structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, windot11/ DOT11_WFD_DEVICE_INFO, windot11/PDOT11_WFD_DEVICE_INFO"

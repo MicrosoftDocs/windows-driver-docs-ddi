@@ -4,7 +4,6 @@ title: CcSetDirtyPinnedData function (ntifs.h)
 description: The CcSetDirtyPinnedData routine marks as dirty the buffer control block (BCB) for a pinned buffer whose contents have been modified.
 old-location: ifsk\ccsetdirtypinneddata.htm
 tech.root: ifsk
-ms.assetid: f621a54f-ed40-4ec7-8678-7c72fcd9e704
 ms.date: 04/16/2018
 keywords: ["CcSetDirtyPinnedData function"]
 ms.keywords: CcSetDirtyPinnedData, CcSetDirtyPinnedData routine [Installable File System Drivers], ccref_2cd7571b-289f-4510-a5de-f4e38eb049a2.xml, ifsk.ccsetdirtypinneddata, ntifs/CcSetDirtyPinnedData

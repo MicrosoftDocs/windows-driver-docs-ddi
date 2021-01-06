@@ -4,7 +4,6 @@ title: _DOT11_OFFLOAD_NETWORK_LIST_INFO (windot11.h)
 description: The DOT11_OFFLOAD_NETWORK_LIST_INFO structure describes a network offload-list (NLO).
 old-location: netvista\dot11_offload_network_list_info.htm
 tech.root: netvista
-ms.assetid: 0FB1D72F-B183-408A-BB84-A9D54B6C276F
 ms.date: 02/16/2018
 keywords: ["DOT11_OFFLOAD_NETWORK_LIST_INFO structure"]
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_OFFLOAD_NETWORK_LIST_INFO, netvista.dot11_offload_network_list_info, windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO"

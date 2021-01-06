@@ -4,7 +4,6 @@ title: UdecxUsbEndpointInitSetCallbacks function (udecxusbendpoint.h)
 description: Sets pointers to UDE client driver-implemented callback functions in the initialization parameters of the simple endpoint to create.
 old-location: buses\udecxusbendpointinitsetcallbacks.htm
 tech.root: usbref
-ms.assetid: 0F6EBBDA-FA0B-4044-905B-535D4FFEC5D2
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetCallbacks function"]
 ms.keywords: UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks

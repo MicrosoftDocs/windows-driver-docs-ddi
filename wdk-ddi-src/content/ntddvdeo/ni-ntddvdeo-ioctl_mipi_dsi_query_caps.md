@@ -3,7 +3,6 @@ UID: NI:ntddvdeo.IOCTL_MIPI_DSI_QUERY_CAPS
 title: IOCTL_MIPI_DSI_QUERY_CAPS
 description: IOCTL_MIPI_DSI_QUERY_CAPS retrieves the basic capabilities of the MIPI DSI interface exposed by the graphics driver, and identification information from the panel.
 tech.root: display
-ms.assetid: 8472c449-74ee-4590-a94b-7d726e1707db
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
 req.include-header: 

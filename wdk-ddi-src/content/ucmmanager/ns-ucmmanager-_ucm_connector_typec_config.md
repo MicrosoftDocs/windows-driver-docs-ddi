@@ -4,7 +4,6 @@ title: _UCM_CONNECTOR_TYPEC_CONFIG (ucmmanager.h)
 description: Describes the configuration options for a Type-C connector.
 old-location: buses\ucm_connector_type_c_config.htm
 tech.root: usbref
-ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_TYPEC_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"

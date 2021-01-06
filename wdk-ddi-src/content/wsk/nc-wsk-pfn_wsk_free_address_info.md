@@ -4,7 +4,6 @@ title: PFN_WSK_FREE_ADDRESS_INFO (wsk.h)
 description: The WskFreeAddressInfo function frees address information that the WskGetAddressInfo function has dynamically allocated.
 old-location: netvista\wskfreeaddressinfo.htm
 tech.root: netvista
-ms.assetid: 552b4024-03d3-4e9b-b149-cf584c7e7259
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_FREE_ADDRESS_INFO callback function"]
 ms.keywords: PFN_WSK_FREE_ADDRESS_INFO, PFN_WSK_FREE_ADDRESS_INFO callback, WskFreeAddressInfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskfreeaddressinfo, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml

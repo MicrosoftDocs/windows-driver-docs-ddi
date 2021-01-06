@@ -4,7 +4,6 @@ title: StorPortWriteRegisterBufferUshort macro (storport.h)
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferushort.htm
 tech.root: storage
-ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUshort macro"]
 ms.keywords: StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml

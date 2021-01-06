@@ -4,7 +4,6 @@ title: KS_LogicalMemoryType (ksproxy.h)
 description: 
 old-location: stream\ks_logicalmemorytype.htm
 tech.root: stream
-ms.assetid: B02E5131-6407-4481-BABD-9F5BDA979D85
 ms.date: 04/23/2018
 keywords: ["KS_LogicalMemoryType enumeration"]
 ms.keywords: "*PKS_LogicalMemoryType, KS_LogicalMemoryType, KS_LogicalMemoryType enumeration [Streaming Media Devices], KS_MemoryTypeAnyHost, KS_MemoryTypeDeviceHostMapped, KS_MemoryTypeDeviceSpecific, KS_MemoryTypeDontCare, KS_MemoryTypeKernelNonPaged, KS_MemoryTypeKernelPaged, KS_MemoryTypeUser, ksproxy/KS_LogicalMemoryType, ksproxy/KS_MemoryTypeAnyHost, ksproxy/KS_MemoryTypeDeviceHostMapped, ksproxy/KS_MemoryTypeDeviceSpecific, ksproxy/KS_MemoryTypeDontCare, ksproxy/KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeUser, stream.ks_logicalmemorytype"

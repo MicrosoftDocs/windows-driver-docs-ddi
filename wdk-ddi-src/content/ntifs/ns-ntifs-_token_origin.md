@@ -4,7 +4,6 @@ title: _TOKEN_ORIGIN (ntifs.h)
 description: The TOKEN_ORIGIN structure contains information about the origin of the logon session.
 old-location: ifsk\token_origin.htm
 tech.root: ifsk
-ms.assetid: 6e2175f3-3d63-40d0-854b-440862530aa8
 ms.date: 04/16/2018
 keywords: ["TOKEN_ORIGIN structure"]
 ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Installable File System Drivers], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Installable File System Drivers], _TOKEN_ORIGIN, ifsk.token_origin, ntifs/PTOKEN_ORIGIN, ntifs/TOKEN_ORIGIN, securitystructures_5cc2fc36-4e83-4544-8f24-dcbf768dbb9c.xml"

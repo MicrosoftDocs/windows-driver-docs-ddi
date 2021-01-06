@@ -4,7 +4,6 @@ title: IF_QUERY_OBJECT (ndis.h)
 description: The ProviderQueryObject function retrieves information about a network interface.
 old-location: netvista\providerqueryobject.htm
 tech.root: netvista
-ms.assetid: dea90ff0-7620-4364-90dc-2dc5d2e34ce1
 ms.date: 05/02/2018
 ms.keywords: IFP_QUERY_OBJECT, IFP_QUERY_OBJECT callback function
 req.header: ndis.h

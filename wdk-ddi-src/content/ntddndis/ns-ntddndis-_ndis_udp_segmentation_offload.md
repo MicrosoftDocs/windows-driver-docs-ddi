@@ -3,7 +3,6 @@ UID: NS:ntddndis._NDIS_UDP_SEGMENTATION_OFFLOAD
 title: _NDIS_UDP_SEGMENTATION_OFFLOAD (ntddndis.h)
 description: Specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
 tech.root: netvista
-ms.assetid: C5EF1D54-AA43-4467-85B4-2134F9BA8E05
 ms.date: 02/27/2020
 ms.topic: struct
 ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD, NDIS_UDP_SEGMENTATION_OFFLOAD, *PNDIS_UDP_SEGMENTATION_OFFLOAD,
@@ -30,13 +29,13 @@ f1_keywords:
  - ntddndis/PNDIS_UDP_SEGMENTATION_OFFLOAD
  - NDIS_UDP_SEGMENTATION_OFFLOAD
  - ntddndis/NDIS_UDP_SEGMENTATION_OFFLOAD
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ntddndis.h
-apiname:
+api_name:
  - NDIS_UDP_SEGMENTATION_OFFLOAD
 product:
  - Windows

@@ -4,7 +4,6 @@ title: _DEVICE_DSM_NOTIFICATION_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification operation related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
 tech.root: storage
-ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_NOTIFICATION_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters"

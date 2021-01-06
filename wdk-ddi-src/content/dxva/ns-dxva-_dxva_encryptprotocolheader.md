@@ -4,7 +4,6 @@ title: _DXVA_EncryptProtocolHeader (dxva.h)
 description: The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 old-location: display\dxva_encryptprotocolheader.htm
 tech.root: display
-ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.date: 05/10/2018
 keywords: ["DXVA_EncryptProtocolHeader structure"]
 ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"

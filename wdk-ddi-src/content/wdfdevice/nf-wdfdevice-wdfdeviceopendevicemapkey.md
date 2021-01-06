@@ -4,7 +4,6 @@ title: WdfDeviceOpenDevicemapKey function (wdfdevice.h)
 description: The WdfDeviceOpenDevicemapKey method opens the DEVICEMAP key and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfdeviceopendevicemapkey.htm
 tech.root: wdf
-ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.date: 02/26/2018
 keywords: ["WdfDeviceOpenDevicemapKey function"]
 ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey

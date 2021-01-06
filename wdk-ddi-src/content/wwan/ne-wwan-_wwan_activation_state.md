@@ -4,7 +4,6 @@ title: _WWAN_ACTIVATION_STATE (wwan.h)
 description: The WWAN_ACTIVATION_STATE enumeration lists the different Packet Data Protocol (PDP) context activation states that are supported by the MB device.
 old-location: netvista\wwan_activation_state.htm
 tech.root: netvista
-ms.assetid: ca5caf9d-5c73-4516-bbc9-ee3ff9511e99
 ms.date: 05/02/2018
 keywords: ["WWAN_ACTIVATION_STATE enumeration"]
 ms.keywords: "*PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateActivated, WwanActivationStateActivating, WwanActivationStateDeactivated, WwanActivationStateDeactivating, WwanActivationStateMax, WwanActivationStateUnknown, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, _WWAN_ACTIVATION_STATE, netvista.wwan_activation_state, wwan/PWWAN_ACTIVATION_STATE, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, wwan/WwanActivationStateActivating, wwan/WwanActivationStateDeactivated, wwan/WwanActivationStateDeactivating, wwan/WwanActivationStateMax, wwan/WwanActivationStateUnknown"

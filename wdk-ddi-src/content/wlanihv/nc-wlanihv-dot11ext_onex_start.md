@@ -4,7 +4,6 @@ title: DOT11EXT_ONEX_START (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extstartonex.htm
 tech.root: netvista
-ms.assetid: d4117da4-349a-4143-b2a8-d4edf6c02e7b
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_ONEX_START callback"]
 ms.keywords: DOT11EXT_ONEX_START, Dot11ExtStartOneX, Dot11ExtStartOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_71199b82-64e0-4b96-89f0-e964dd959077.xml, netvista.dot11extstartonex, wlanihv/Dot11ExtStartOneX

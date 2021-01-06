@@ -4,7 +4,6 @@ title: DrvSplClose function (winddiui.h)
 description: The DrvSplClose function is obsolete.
 old-location: print\drvsplclose.htm
 tech.root: print
-ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 ms.date: 11/18/2019
 keywords: ["DrvSplClose function"]
 ms.keywords: DrvSplClose, DrvSplClose function [Print Devices], print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, winddiui/DrvSplClose

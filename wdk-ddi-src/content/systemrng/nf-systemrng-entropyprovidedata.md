@@ -2,7 +2,6 @@
 UID: NF:systemrng.EntropyProvideData
 title: EntropyProvideData function (systemrng.h)
 description: 
-ms.assetid: b4c814cc-3af9-4481-8060-6ea107e6e9a3
 ms.date: 11/19/2020
 keywords: ["EntropyProvideData function"]
 ms.keywords: EntropyProvideData

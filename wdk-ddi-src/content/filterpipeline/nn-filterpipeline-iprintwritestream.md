@@ -4,7 +4,6 @@ title: IPrintWriteStream (filterpipeline.h)
 description: Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.
 old-location: print\iprintwritestream.htm
 tech.root: print
-ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.date: 04/20/2018
 keywords: ["IPrintWriteStream interface"]
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices],described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream

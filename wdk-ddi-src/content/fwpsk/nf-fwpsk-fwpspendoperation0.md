@@ -4,7 +4,6 @@ title: FwpsPendOperation0 function (fwpsk.h)
 description: The FwpsPendOperation0 function is called by a callout to suspend packet processing pending completion of another operation.Note  FwpsPendOperation0 is a specific version of FwpsPendOperation.
 old-location: netvista\fwpspendoperation0.htm
 tech.root: netvista
-ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.date: 05/02/2018
 keywords: ["FwpsPendOperation0 function"]
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml

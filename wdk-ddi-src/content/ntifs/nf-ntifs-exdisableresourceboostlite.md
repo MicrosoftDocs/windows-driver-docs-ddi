@@ -4,7 +4,6 @@ title: ExDisableResourceBoostLite function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\exdisableresourceboostlite.htm
 tech.root: ifsk
-ms.assetid: 0ab2d417-56d8-4047-846d-6ae4cbaa8409
 ms.date: 04/16/2018
 keywords: ["ExDisableResourceBoostLite function"]
 ms.keywords: ExDisableResourceBoostLite, ExDisableResourceBoostLite function [Installable File System Drivers], exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ifsk.exdisableresourceboostlite, ntifs/ExDisableResourceBoostLite

@@ -4,7 +4,6 @@ title: FsRtlPrepareToReuseEcp function (ntifs.h)
 description: The FsRtlPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fsrtlpreparetoreuseecp.htm
 tech.root: ifsk
-ms.assetid: 88967BD6-C633-40D0-BE4F-2B08494EA5B0
 ms.date: 04/16/2018
 keywords: ["FsRtlPrepareToReuseEcp function"]
 ms.keywords: FsRtlPrepareToReuseEcp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers], ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp

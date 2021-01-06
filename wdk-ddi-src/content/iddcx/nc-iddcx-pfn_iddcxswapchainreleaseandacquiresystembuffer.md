@@ -2,7 +2,6 @@
 UID: NC:iddcx.PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 title: PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 ms.date: 10/20/2020
-ms.assetid: 8065ac78-a980-40d4-9ae5-92129f25593e
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

@@ -4,7 +4,6 @@ title: MmIsDriverVerifying function (wdm.h)
 description: The MmIsDriverVerifying routine indicates whether the kernel-mode driver that is identified by the specified driver object is being verified or calls a driver that is being verified by Driver Verifier.
 old-location: kernel\mmisdriververifying.htm
 tech.root: kernel
-ms.assetid: 74bfe9fb-f751-46a6-a95b-f715ebedd2ec
 ms.date: 04/30/2018
 keywords: ["MmIsDriverVerifying function"]
 ms.keywords: MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, kernel.mmisdriververifying, wdm/MmIsDriverVerifying

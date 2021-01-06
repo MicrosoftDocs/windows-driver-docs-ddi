@@ -2,7 +2,6 @@
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 title: PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT callback function destroys synchronization object.
-ms.assetid: 78c47d52-a3aa-4541-9b65-51dbf5a14f11
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT callback function"]
 req.header: d3dkmthk.h

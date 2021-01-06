@@ -4,7 +4,6 @@ title: _DXGKMDT_OPM_CONFIGURE_PARAMETERS (d3dkmdt.h)
 description: The DXGKMDT_OPM_CONFIGURE_PARAMETERS structure contains parameters that are used to configure a protected output object in a call to the DxgkDdiOPMConfigureProtectedOutput function.
 old-location: display\dxgkmdt_opm_configure_parameters.htm
 tech.root: display
-ms.assetid: 7f9a4770-c30d-41ae-bd46-dce106b1811d
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_CONFIGURE_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS structure [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_SET_HDCP_SRM, DXGKMDT_OPM_SET_PROTECTION_LEVEL or DXGKMDT_OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD, DmStructs_98db66f6-39e1-4e08-83c5-ead1c527302f.xml, PDXGKMDT_OPM_CONFIGURE_PARAMETERS, PDXGKMDT_OPM_CONFIGURE_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/DXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_CONFIGURE_PARAMETERS, display.dxgkmdt_opm_configure_parameters"

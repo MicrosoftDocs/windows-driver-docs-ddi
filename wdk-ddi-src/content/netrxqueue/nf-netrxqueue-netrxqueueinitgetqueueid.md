@@ -3,7 +3,6 @@ UID: NF:netrxqueue.NetRxQueueInitGetQueueId
 title: NetRxQueueInitGetQueueId function (netrxqueue.h)
 description: Retrieves the identifier of the receive queue associated with a receive queue.
 tech.root: netvista
-ms.assetid: 588df434-c3f8-4a4a-a9ae-330a825c1d48
 ms.date: 02/09/2018
 keywords: ["NetRxQueueInitGetQueueId function"]
 ms.keywords: NetRxQueueInitGetQueueId

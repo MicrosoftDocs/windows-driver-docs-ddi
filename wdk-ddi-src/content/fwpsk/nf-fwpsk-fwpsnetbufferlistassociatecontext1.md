@@ -4,7 +4,6 @@ title: FwpsNetBufferListAssociateContext1 function (fwpsk.h)
 description: The FwpsNetBufferListAssociateContext1 function associates the callout driver's context with a network buffer list and configures notification for network buffer list events.Note  FwpsNetBufferListAssociateContext1 is the specific version of FwpsNetBufferListAssociateContext used in Windows 8 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FwpsNetBufferListAssociateContext0 is available.
 old-location: netvista\fwpsnetbufferlistassociatecontext1.htm
 tech.root: netvista
-ms.assetid: 86e9662e-d308-4e3a-98c1-4134186f1bad
 ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListAssociateContext1 function"]
 ms.keywords: FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext1, netvista.fwpsnetbufferlistassociatecontext1
@@ -174,7 +173,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

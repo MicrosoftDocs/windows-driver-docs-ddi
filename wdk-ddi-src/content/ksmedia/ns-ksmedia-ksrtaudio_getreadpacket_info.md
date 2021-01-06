@@ -4,7 +4,6 @@ title: KSRTAUDIO_GETREADPACKET_INFO (ksmedia.h)
 description: The KSRTAUDIO_GETREADPACKET_INFO structure describes information for an audio packet.
 old-location: audio\ksrtaudio_getreadpacket_info.htm
 tech.root: audio
-ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_GETREADPACKET_INFO structure"]
 ms.keywords: "*PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_getreadpacket_info, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO"

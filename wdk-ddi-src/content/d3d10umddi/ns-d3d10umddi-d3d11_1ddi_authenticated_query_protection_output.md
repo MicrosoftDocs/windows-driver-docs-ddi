@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT
 title: D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT (d3d10umddi.h)
 description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query with a D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT.QueryType value of D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION.
 old-location: display\d3d11_1ddi_authenticated_query_protection_output.htm
-ms.assetid: e7f7068a-5f61-4b7d-818a-72afd7b63266
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, display.d3d11_1ddi_authenticated_query_protection_output

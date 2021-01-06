@@ -4,7 +4,6 @@ title: PFND3DDDI_DRAWPRIMITIVE (d3dumddi.h)
 description: The DrawPrimitive function draws nonindexed primitives in which the Microsoft Direct3D runtime has not transformed the vertex data.
 old-location: display\drawprimitive.htm
 tech.root: display
-ms.assetid: 1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DRAWPRIMITIVE callback function"]
 ms.keywords: DrawPrimitive, DrawPrimitive callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE, PFND3DDDI_DRAWPRIMITIVE callback, UserModeDisplayDriver_Functions_c433d1f5-68ca-4461-a409-4353d8a581d8.xml, d3dumddi/DrawPrimitive, display.drawprimitive

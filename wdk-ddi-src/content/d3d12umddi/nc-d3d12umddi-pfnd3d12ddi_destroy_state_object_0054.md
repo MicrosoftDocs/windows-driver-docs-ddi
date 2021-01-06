@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_STATE_OBJECT_0054
 title: PFND3D12DDI_DESTROY_STATE_OBJECT_0054 (d3d12umddi.h)
 description: Destroys the state object.
-ms.assetid: 73822e25-6b9a-4593-aaa9-13c375b8e4c1
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_DESTROY_STATE_OBJECT_0054 callback function"]
 req.header: d3d12umddi.h

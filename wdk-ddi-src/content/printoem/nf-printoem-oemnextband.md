@@ -4,7 +4,6 @@ title: OEMNextBand function (printoem.h)
 description: The OEMNextBand function is called by GDI when it has finished drawing a band for a physical page, so that the driver can send the band to the printer.
 old-location: print\oemnextband.htm
 tech.root: print
-ms.assetid: 547af6b1-63cf-4e61-a357-1a7fdc33e43c
 ms.date: 04/20/2018
 keywords: ["OEMNextBand function"]
 ms.keywords: OEMNextBand, OEMNextBand function [Print Devices], print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, printoem/OEMNextBand

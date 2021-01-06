@@ -4,7 +4,6 @@ title: RtlLongLongMult function (ntintsafe.h)
 description: Multiplies one value of type LONGLONG by another.
 old-location: kernel\rtllonglongmult.htm
 tech.root: kernel
-ms.assetid: E5FE5EDB-D11D-4EF7-9CEA-CF059398A063
 ms.date: 04/30/2018
 keywords: ["RtlLongLongMult function"]
 ms.keywords: RtlLongLongMult, RtlLongLongMult function [Kernel-Mode Driver Architecture], kernel.rtllonglongmult, ntintsafe/RtlLongLongMult

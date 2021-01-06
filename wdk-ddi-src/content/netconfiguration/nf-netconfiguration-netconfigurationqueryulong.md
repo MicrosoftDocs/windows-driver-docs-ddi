@@ -3,7 +3,6 @@ UID: NF:netconfiguration.NetConfigurationQueryUlong
 title: NetConfigurationQueryUlong function (netconfiguration.h)
 description: Retrieves the specified unsigned long word (REG_DWORD) data from the adapter configuration object and copies the data to a specified location.
 tech.root: netvista
-ms.assetid: c7ded93c-b025-4b23-b999-fe5d2ed0d75b
 ms.date: 02/07/2018
 keywords: ["NetConfigurationQueryUlong function"]
 ms.keywords: NetConfigurationQueryUlong

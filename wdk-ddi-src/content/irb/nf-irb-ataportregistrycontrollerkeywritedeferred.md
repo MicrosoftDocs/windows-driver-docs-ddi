@@ -4,7 +4,6 @@ title: AtaPortRegistryControllerKeyWriteDeferred function (irb.h)
 description: The AtaPortRegistryControllerKeyWriteDeferred routine writes the data asynchronously to the indicated value name under the registry key HKLM\CurrentControlSet\Services\<service name>\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywritedeferred.htm
 tech.root: storage
-ms.assetid: f4297e91-06ae-4c7a-87bc-12e3f5b0238c
 ms.date: 03/29/2018
 keywords: ["AtaPortRegistryControllerKeyWriteDeferred function"]
 ms.keywords: AtaPortRegistryControllerKeyWriteDeferred, AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred, storage.ataportregistrycontrollerkeywritedeferred

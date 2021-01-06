@@ -4,7 +4,6 @@ title: CallRouterFindFirstPrinterChangeNotification function (winsplp.h)
 description: 
 old-location: print\callrouterfindfirstprinterchangenotification.htm
 tech.root: print
-ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 ms.date: 04/20/2018
 keywords: ["CallRouterFindFirstPrinterChangeNotification function"]
 ms.keywords: CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification

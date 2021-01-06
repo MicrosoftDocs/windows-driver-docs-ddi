@@ -3,7 +3,6 @@ UID: NI:ntddstor.IOCTL_STORAGE_SET_LED
 title: IOCTL_STORAGE_SET_LED
 description: 
 tech.root: storage
-ms.assetid: 11d2bcf1-f7cc-4b15-be59-bb7e4cb51300
 ms.date: 11/30/2019
 ms.topic: ioctl
 f1_keywords:

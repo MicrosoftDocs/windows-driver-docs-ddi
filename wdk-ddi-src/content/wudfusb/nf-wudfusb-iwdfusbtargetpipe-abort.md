@@ -4,7 +4,6 @@ title: IWDFUsbTargetPipe::Abort (wudfusb.h)
 description: The Abort method aborts all pending transfers on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_abort.htm
 tech.root: wdf
-ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::Abort"]
 ms.keywords: Abort, Abort method, Abort method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Abort method, IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort

@@ -4,7 +4,6 @@ title: FltCreateFileEx2 function (fltkernel.h)
 description: Minifilter drivers call FltCreateFileEx2 to create a new file or open an existing file. This routine also includes an optional create context parameter.
 old-location: ifsk\fltcreatefileex2.htm
 tech.root: ifsk
-ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
 ms.date: 11/11/2020
 keywords: ["FltCreateFileEx2 function"]
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2

@@ -4,7 +4,6 @@ title: FltAllocatePoolAlignedWithTag function (fltkernel.h)
 description: FltAllocatePoolAlignedWithTag allocates a device-aligned buffer for use in a noncached I/O operation.
 old-location: ifsk\fltallocatepoolalignedwithtag.htm
 tech.root: ifsk
-ms.assetid: ffb1493f-6076-4b93-8431-b3ffd4679f96
 ms.date: 04/16/2018
 keywords: ["FltAllocatePoolAlignedWithTag function"]
 ms.keywords: FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml, fltkernel/FltAllocatePoolAlignedWithTag, ifsk.fltallocatepoolalignedwithtag

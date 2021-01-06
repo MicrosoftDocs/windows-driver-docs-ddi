@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
 title: _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 (d3dkmddi.h)
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
 old-location: display\dxgk_multiplane_overlay_plane_with_source2.htm
-ms.assetid: A9508EBF-0B33-48D7-AD57-31E38D77F5DA
 ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, display.dxgk_multiplane_overlay_plane_with_source2

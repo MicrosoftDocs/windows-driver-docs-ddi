@@ -4,7 +4,6 @@ title: _DOT11_SEND_INVITATION_REQUEST_PARAMETERS (windot11.h)
 description: The request parameters for an inivitation request are specified in a DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_INVITATION_REQUEST request to the miniport.
 old-location: netvista\dot11_send_invitation_request_parameters.htm
 tech.root: netvista
-ms.assetid: A1177154-4674-425C-A83B-A4A8FCD1729C
 ms.date: 02/16/2018
 keywords: ["DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure"]
 ms.keywords: "*PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS"

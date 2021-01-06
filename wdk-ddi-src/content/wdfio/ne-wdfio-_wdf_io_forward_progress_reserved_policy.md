@@ -4,7 +4,6 @@ title: _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY (wdfio.h)
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy.htm
 tech.root: wdf
-ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.date: 02/26/2018
 keywords: ["WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration"]
 ms.keywords: DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, WdfIoForwardProgressInvalidPolicy, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyUseExamine, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, kmdf.wdf_io_forward_progress_reserved_policy, wdf.wdf_io_forward_progress_reserved_policy, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, wdfio/WdfIoForwardProgressReservedPolicyUseExamine

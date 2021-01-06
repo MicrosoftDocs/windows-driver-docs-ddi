@@ -4,7 +4,6 @@ title: NdisCoSendNetBufferLists function (ndis.h)
 description: The NdisCoSendNetBufferLists function sends network data that is contained in a specified list of NET_BUFFER_LIST structures.
 old-location: netvista\ndiscosendnetbufferlists.htm
 tech.root: netvista
-ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.date: 05/02/2018
 keywords: ["NdisCoSendNetBufferLists function"]
 ms.keywords: NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists
@@ -49,7 +48,7 @@ api_name:
 
 The 
   <b>NdisCoSendNetBufferLists</b> function sends network data that is contained in a specified list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
 ## -parameters
 
@@ -62,7 +61,7 @@ A handle to a virtual connection (VC) that identifies the target of the send req
 
 [in]
 A pointer to a linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
@@ -98,7 +97,7 @@ NDIS should check for loopback. By default, NDIS does not loop back data to the 
 
 After a CoNDIS protocol driver calls 
     <b>NdisCoSendNetBufferLists</b>, NDIS submits the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the 
     <i>NetBufferLists</i> parameter specifies to an underlying driver's 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_send_net_buffer_lists">
     MiniportCoSendNetBufferLists</a> function.
@@ -141,7 +140,7 @@ The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in 
 
 A protocol driver must set the 
     <b>SourceHandle</b> member of each 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure to the same value
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure to the same value
     that it passes at the 
     <i>NdisVcHandle</i> parameter. The source handle provides the information that NDIS requires to return the
     NET_BUFFER_LIST structure to the protocol driver after the underlying miniport driver calls the 
@@ -189,7 +188,7 @@ Until NDIS calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

@@ -3,7 +3,6 @@ UID: NF:portcls.IDmaChannel.FreeBuffer
 title: IDmaChannel::FreeBuffer (portcls.h)
 description: The FreeBuffer method frees the buffer that was allocated by the previous call to IDmaChannel::AllocateBuffer.
 tech.root: audio
-ms.assetid: 151e5da1-e78a-4f72-a132-87ae9f743330
 ms.date: 10/31/2018
 keywords: ["IDmaChannel::FreeBuffer"]
 ms.keywords: IDmaChannel::FreeBuffer, FreeBuffer, IDmaChannel.FreeBuffer, IDmaChannel::FreeBuffer, IDmaChannel.FreeBuffer

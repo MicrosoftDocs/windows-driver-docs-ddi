@@ -4,7 +4,6 @@ title: IOCTL_SMARTCARD_GET_LAST_ERROR (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most previous operation because there is no option to return an error code immediately after an overlapped operation is complete.
 old-location: smartcrd\ioctl_smartcard_get_last_error.htm
 tech.root: smartcrd
-ms.assetid: eb482764-3a78-498b-985c-1efc77000291
 ms.date: 02/22/2018
 keywords: ["IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR

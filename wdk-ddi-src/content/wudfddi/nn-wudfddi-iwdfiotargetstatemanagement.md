@@ -4,7 +4,6 @@ title: IWDFIoTargetStateManagement (wudfddi.h)
 description: The IWDFIoTargetStateManagement interface exposes methods that manage and monitor the state of an I/O target object.
 old-location: wdf\iwdfiotargetstatemanagement.htm
 tech.root: wdf
-ms.assetid: 6870b6fa-1a90-4a7a-935a-4ce8eda940a1
 ms.date: 02/26/2018
 keywords: ["IWDFIoTargetStateManagement interface"]
 ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,described, UMDFIoTargetObjectRef_667496e9-fa1f-4c90-911d-d456ffc3b59e.xml, umdf.iwdfiotargetstatemanagement, wdf.iwdfiotargetstatemanagement, wudfddi/IWDFIoTargetStateManagement

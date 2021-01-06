@@ -4,7 +4,6 @@ title: _D3DHAL_VALIDATETEXTURESTAGESTATEDATA (d3dhal.h)
 description: The D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure contains the information required for the driver to determine and return its ability to support multitexturing using the current state.
 old-location: display\d3dhal_validatetexturestagestatedata.htm
 tech.root: display
-ms.assetid: 25534f3b-5da8-47e0-a956-6d1849c40a3d
 ms.date: 05/10/2018
 keywords: ["D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure"]
 ms.keywords: "*LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, D3DHAL_VALIDATETEXTURESTAGESTATEDATA, D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA structure pointer [Display Devices], _D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dstrct_1f23a380-4c92-44c1-a2ae-7e0558fad221.xml, display.d3dhal_validatetexturestagestatedata"

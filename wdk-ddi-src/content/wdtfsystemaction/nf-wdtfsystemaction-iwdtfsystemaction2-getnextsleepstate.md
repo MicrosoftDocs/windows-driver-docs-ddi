@@ -4,7 +4,6 @@ title: IWDTFSystemAction2::GetNextSleepState (wdtfsystemaction.h)
 description: Returns the next supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getnextsleepstate.htm
 tech.root: dtf
-ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2::GetNextSleepState"]
 ms.keywords: GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework], GetNextSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetNextSleepState method, IWDTFSystemAction2.GetNextSleepState, IWDTFSystemAction2::GetNextSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, dtf.iwdtfsystemaction2_getnextsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState

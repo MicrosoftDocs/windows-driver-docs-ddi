@@ -4,7 +4,6 @@ title: RtlSSIZETAdd function (ntintsafe.h)
 description: Adds two values of type SSIZE_T.
 old-location: kernel\rtlssizetadd.htm
 tech.root: kernel
-ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.date: 04/30/2018
 keywords: ["RtlSSIZETAdd function"]
 ms.keywords: RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd, ntintsafe/RtlSSIZETAdd

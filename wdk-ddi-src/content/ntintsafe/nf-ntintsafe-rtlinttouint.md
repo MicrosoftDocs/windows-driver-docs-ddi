@@ -4,7 +4,6 @@ title: RtlIntToUInt function (ntintsafe.h)
 description: Converts a value of type INT to a value of type UINT.
 old-location: kernel\rtlinttouint.htm
 tech.root: kernel
-ms.assetid: 9D2C7E0F-99E2-4B95-8CB6-9158DA1D906F
 ms.date: 04/30/2018
 keywords: ["RtlIntToUInt function"]
 ms.keywords: RtlIntToUInt, RtlIntToUInt function [Kernel-Mode Driver Architecture], kernel.rtlinttouint, ntintsafe/RtlIntToUInt

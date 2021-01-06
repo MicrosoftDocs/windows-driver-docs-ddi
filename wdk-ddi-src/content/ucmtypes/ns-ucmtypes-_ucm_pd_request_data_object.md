@@ -4,7 +4,6 @@ title: _UCM_PD_REQUEST_DATA_OBJECT (ucmtypes.h)
 description: Describes a Request Data Object (RDO). For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_request_data_object.htm
 tech.root: usbref
-ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.date: 05/07/2018
 keywords: ["UCM_PD_REQUEST_DATA_OBJECT structure"]
 ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"

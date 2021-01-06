@@ -4,7 +4,6 @@ title: ExtRemoteTyped::OutFullValue (engextcpp.h)
 description: The OutFullValue method prints the type and value of the typed data represented by this object.
 old-location: debugger\extremotetyped_outfullvalue.htm
 tech.root: debugger
-ms.assetid: 8f5b3e8b-1b01-4a14-b472-cb5de82e869a
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::OutFullValue"]
 ms.keywords: EngExtCpp_Ref_30c4c99e-e68e-4f44-b72c-fa67cdcac0fd.xml, ExtRemoteTyped interface [Windows Debugging],OutFullValue method, ExtRemoteTyped.OutFullValue, ExtRemoteTyped::OutFullValue, OutFullValue, OutFullValue method [Windows Debugging], OutFullValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outfullvalue

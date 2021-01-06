@@ -3,7 +3,6 @@ UID: NS:dispmprt._DXGK_VIRTUALGPUPROFILE
 title: _DXGK_VIRTUALGPUPROFILE
 description: Information about a virtual GPU profile.
 tech.root: display
-ms.assetid: be1bbb29-bb8c-4948-bebd-7c9dabb2dfd6
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUPROFILE structure"]
 ms.prod: windows-hardware

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION (d3dkmddi.h)
 description: Specifies information about any additional transforms that should occur after the planes are composed.
 old-location: display\dxgk_multiplane_overlay_post_composition.htm
-ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.date: 04/16/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition

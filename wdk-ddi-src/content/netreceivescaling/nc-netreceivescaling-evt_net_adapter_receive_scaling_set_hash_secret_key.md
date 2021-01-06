@@ -3,7 +3,6 @@ UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
 title: EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY (netreceivescaling.h)
 description: The EvtNetAdapterReceiveScalingSetHashSecretKey callback function is implemented by the client driver to set the hash secret key for the network interface controller (NIC).
 tech.root: netvista
-ms.assetid: 9144fad7-c6d6-4d67-9ad7-45e9a0cf31f6
 ms.date: 02/01/2019
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY callback function"]
 req.header: netreceivescaling.h
@@ -27,13 +26,13 @@ targetos: Windows
 f1_keywords:
  - EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
  - netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - UserDefined
-apilocation:
+api_location:
  - netreceivescaling.h
-apiname:
+api_name:
  - EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
 ---
 

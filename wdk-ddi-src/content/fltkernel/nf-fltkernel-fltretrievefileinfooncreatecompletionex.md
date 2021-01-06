@@ -3,7 +3,6 @@ UID: NF:fltkernel.FltRetrieveFileInfoOnCreateCompletionEx
 title: FltRetrieveFileInfoOnCreateCompletionEx function
 description: A minifilter calls FltRetrieveFileInfoOnCreateCompletionEx to query file information upon file creation completion.
 tech.root: ifsk
-ms.assetid: b0a99090-40a5-4e40-8ddb-54816ba789b5
 ms.date: 01/11/2019
 keywords: ["FltRetrieveFileInfoOnCreateCompletionEx function"]
 ms.keywords: FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion

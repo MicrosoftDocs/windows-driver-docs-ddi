@@ -4,7 +4,6 @@ title: UcxEndpointNoPingResponseError function (ucxendpoint.h)
 description: Notifies UCX about a &#0034;No Ping Response&#0034; error for a transfer on the specified endpoint object.
 old-location: buses\_ucxendpointnopingresponseerror.htm
 tech.root: usbref
-ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.date: 05/07/2018
 keywords: ["UcxEndpointNoPingResponseError function"]
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError

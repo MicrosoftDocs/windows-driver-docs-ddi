@@ -4,7 +4,6 @@ title: IPnpCallbackHardware2::OnPrepareHardware (wudfddi.h)
 description: The OnPrepareHardware method performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\ipnpcallbackhardware2_onpreparehardware.htm
 tech.root: wdf
-ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.date: 02/26/2018
 keywords: ["IPnpCallbackHardware2::OnPrepareHardware"]
 ms.keywords: IPnpCallbackHardware2 interface,OnPrepareHardware method, IPnpCallbackHardware2.OnPrepareHardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware

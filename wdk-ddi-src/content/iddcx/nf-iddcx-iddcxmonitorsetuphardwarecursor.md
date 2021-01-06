@@ -4,7 +4,6 @@ title: IddCxMonitorSetupHardwareCursor function (iddcx.h)
 description: An OS callback function the driver calls when it wants to setup hardware cursor support for the path.
 old-location: display\iddcxmonitorsetuphardwarecursor.htm
 tech.root: display
-ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorSetupHardwareCursor function"]
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor

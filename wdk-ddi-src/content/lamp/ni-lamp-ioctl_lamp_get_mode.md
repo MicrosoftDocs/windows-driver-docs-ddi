@@ -4,7 +4,6 @@ title: IOCTL_LAMP_GET_MODE (lamp.h)
 description: The IOCTL_LAMP_GET_MODE control code queries the mode with which the lamp is currently configured.
 old-location: stream\ioctl_lamp_get_mode.htm
 tech.root: stream
-ms.assetid: 741FFB14-B6F1-452B-AD8A-E82C0E34CB6A
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_MODE, IOCTL_LAMP_GET_MODE control, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_MODE, stream.ioctl_lamp_get_mode

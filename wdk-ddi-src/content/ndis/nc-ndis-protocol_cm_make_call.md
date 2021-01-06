@@ -4,7 +4,6 @@ title: PROTOCOL_CM_MAKE_CALL (ndis.h)
 description: The ProtocolCmMakeCall function is a required function that sets up media specific parameters for a virtual connection (VC) and activates the virtual connection.Note  You must declare the function by using the PROTOCOL_CM_MAKE_CALL type.
 old-location: netvista\protocolcmmakecall.htm
 tech.root: netvista
-ms.assetid: ede0a18a-cd3b-4fbb-a16b-e7493940d633
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_MAKE_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall

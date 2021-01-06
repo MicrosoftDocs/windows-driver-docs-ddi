@@ -4,7 +4,6 @@ title: _DDIAUTHENTICATEDCHANNELTYPE (d3dumddi.h)
 description: The DDIAUTHENTICATEDCHANNELTYPE enumeration contains values that identify authenticated-channel types.
 old-location: display\ddiauthenticatedchanneltype.htm
 tech.root: display
-ms.assetid: 431575b7-1173-448c-98a9-790bc2721da0
 ms.date: 05/10/2018
 keywords: ["DDIAUTHENTICATEDCHANNELTYPE enumeration"]
 ms.keywords: D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, DDIAUTHENTICATEDCHANNELTYPE, DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, _DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, display.ddiauthenticatedchanneltype

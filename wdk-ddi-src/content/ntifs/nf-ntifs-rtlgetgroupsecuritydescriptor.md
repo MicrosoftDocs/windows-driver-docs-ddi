@@ -4,7 +4,6 @@ title: RtlGetGroupSecurityDescriptor function (ntifs.h)
 description: The RtlGetGroupSecurityDescriptor routine returns the primary group information for a given security descriptor.
 old-location: ifsk\rtlgetgroupsecuritydescriptor.htm
 tech.root: ifsk
-ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.date: 04/16/2018
 keywords: ["RtlGetGroupSecurityDescriptor function"]
 ms.keywords: RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetgroupsecuritydescriptor, ntifs/RtlGetGroupSecurityDescriptor, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml

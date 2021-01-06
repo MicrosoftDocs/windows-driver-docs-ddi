@@ -4,7 +4,6 @@ title: RIL_GetRadioStateDetails function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getradiostatedetails.htm
 tech.root: netvista
-ms.assetid: 0421fef7-5c59-4824-83a5-38020b933883
 ms.date: 05/02/2018
 keywords: ["RIL_GetRadioStateDetails function"]
 ms.keywords: RIL_GetRadioStateDetails, RIL_GetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostatedetails, rilapi/RIL_GetRadioStateDetails

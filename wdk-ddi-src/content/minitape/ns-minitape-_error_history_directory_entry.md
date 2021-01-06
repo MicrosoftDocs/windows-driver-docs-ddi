@@ -2,7 +2,6 @@
 UID: NS:minitape._ERROR_HISTORY_DIRECTORY_ENTRY
 title: _ERROR_HISTORY_DIRECTORY_ENTRY (minitape.h)
 description: 
-ms.assetid: 0ef3d4b9-aa79-4895-8919-b76a985aca13
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["ERROR_HISTORY_DIRECTORY_ENTRY structure"]

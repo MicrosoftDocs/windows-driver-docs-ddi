@@ -4,7 +4,6 @@ title: FltRollbackComplete function (fltkernel.h)
 description: The FltRollbackComplete routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification.
 old-location: ifsk\fltrollbackcomplete.htm
 tech.root: ifsk
-ms.assetid: 822d3ed1-66ce-48a8-924c-48e1082cbb25
 ms.date: 04/16/2018
 keywords: ["FltRollbackComplete function"]
 ms.keywords: FltApiRef_p_to_z_5a4ebf97-8580-437d-b34d-e873bad7161b.xml, FltRollbackComplete, FltRollbackComplete routine [Installable File System Drivers], fltkernel/FltRollbackComplete, ifsk.fltrollbackcomplete

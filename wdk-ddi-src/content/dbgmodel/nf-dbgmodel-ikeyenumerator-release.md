@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IKeyEnumerator.Release
 title: IKeyEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
-ms.assetid: 66da07a2-92d5-4b16-a550-6678ed1570ec
 ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::Release"]
 ms.keywords: IKeyEnumerator::Release, Release, IKeyEnumerator.Release, IKeyEnumerator::Release, IKeyEnumerator.Release

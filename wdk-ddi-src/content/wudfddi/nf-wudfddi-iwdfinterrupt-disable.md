@@ -4,7 +4,6 @@ title: IWDFInterrupt::Disable (wudfddi.h)
 description: The Disable method disables a specified device interrupt by calling the driver's OnInterruptDisable callback function.
 old-location: wdf\iwdfinterrupt_disable.htm
 tech.root: wdf
-ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::Disable"]
 ms.keywords: Disable, Disable method, Disable method,IWDFInterrupt interface, IWDFInterrupt interface,Disable method, IWDFInterrupt.Disable, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable

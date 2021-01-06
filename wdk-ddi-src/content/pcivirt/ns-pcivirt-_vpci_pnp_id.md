@@ -4,7 +4,6 @@ title: _VPCI_PNP_ID (pcivirt.h)
 description: Stores the PnP identifiers for a virtual PCI device. For example strings, see Identifiers for PCI Devices.
 old-location: pci\vpci_pnp_id.htm
 tech.root: PCI
-ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.date: 02/24/2018
 keywords: ["VPCI_PNP_ID structure"]
 ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID"

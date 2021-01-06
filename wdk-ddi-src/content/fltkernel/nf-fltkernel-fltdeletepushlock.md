@@ -4,7 +4,6 @@ title: FltDeletePushLock function (fltkernel.h)
 description: The FltDeletePushLock routine deletes a given push lock.
 old-location: ifsk\fltdeletepushlock.htm
 tech.root: ifsk
-ms.assetid: 93b4914c-53a1-4594-ac8d-4be1b0c9e4d7
 ms.date: 04/16/2018
 keywords: ["FltDeletePushLock function"]
 ms.keywords: FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers], fltkernel/FltDeletePushLock, ifsk.fltdeletepushlock

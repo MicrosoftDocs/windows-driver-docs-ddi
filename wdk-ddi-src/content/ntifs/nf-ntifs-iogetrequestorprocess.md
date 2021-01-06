@@ -4,7 +4,6 @@ title: IoGetRequestorProcess function (ntifs.h)
 description: The IoGetRequestorProcess routine returns a process pointer for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocess.htm
 tech.root: ifsk
-ms.assetid: 456e2354-1362-43f7-a2b0-3b3bec49b522
 ms.date: 04/16/2018
 keywords: ["IoGetRequestorProcess function"]
 ms.keywords: IoGetRequestorProcess, IoGetRequestorProcess routine [Installable File System Drivers], ifsk.iogetrequestorprocess, ioref_5c1e0075-08db-4db9-aa0c-fa28dced1202.xml, ntifs/IoGetRequestorProcess
@@ -71,7 +70,7 @@ Prior to Windows XP, <b>IoGetRequestorProcess</b> returns a pointer to the proc
 
 An IRP is automatically associated with a thread if it is issued by the I/O Manager or obtained by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>. 
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>.
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="/windows-hardware/drivers/ddi/_kernel/#driver-threads-dispatcher-objects-and-resources">Driver Threads, Dispatcher Objects, and Resources</a>.
 
 ## -see-also
 

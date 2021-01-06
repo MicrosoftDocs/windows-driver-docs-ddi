@@ -4,7 +4,6 @@ title: _IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 old-location: kernel\io_stack_location.htm
 tech.root: kernel
-ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.date: 04/30/2018
 keywords: ["IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
@@ -65,6 +64,8 @@ A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager,
 ### -field Flags
 
 Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> requests.
+
+For documentation of other `SL_*` flags for IRP_MJ_CREATE, see [IRP_MJ_CREATE (IFS)](/windows-hardware/drivers/ifs/irp-mj-create).
 
 Possible flag values include:
 

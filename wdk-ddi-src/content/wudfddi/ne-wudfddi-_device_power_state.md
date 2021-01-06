@@ -4,7 +4,6 @@ title: _DEVICE_POWER_STATE (wudfddi.h)
 description: The DEVICE_POWER_STATE enumeration identifies the device power states that a device can enter.
 old-location: wdf\device_power_state.htm
 tech.root: wdf
-ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.date: 02/26/2018
 keywords: ["DEVICE_POWER_STATE enumeration"]
 ms.keywords: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE, DEVICE_POWER_STATE enumeration, PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer, PowerDeviceD0, PowerDeviceD1, PowerDeviceD2, PowerDeviceD3, PowerDeviceMaximum, PowerDeviceUnspecified, _DEVICE_POWER_STATE, umdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, wdf.device_power_state, wudfddi/DEVICE_POWER_STATE, wudfddi/PDEVICE_POWER_STATE, wudfddi/PowerDeviceD0, wudfddi/PowerDeviceD1, wudfddi/PowerDeviceD2, wudfddi/PowerDeviceD3, wudfddi/PowerDeviceMaximum, wudfddi/PowerDeviceUnspecified"

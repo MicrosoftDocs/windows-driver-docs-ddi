@@ -4,7 +4,6 @@ title: PsGetProcessExitTime function (ntifs.h)
 description: The PsGetProcessExitTime routine returns the exit time for the current process.
 old-location: ifsk\psgetprocessexittime.htm
 tech.root: ifsk
-ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.date: 04/16/2018
 keywords: ["PsGetProcessExitTime function"]
 ms.keywords: PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml
@@ -56,7 +55,7 @@ The <b>PsGetProcessExitTime</b> routine returns the exit time for the current pr
 
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone, use <b>ExSystemTimeToLocalTime</b>.
 
-For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/index">Data Conversions</a>.
+For more information about converting time values, see <a href="/windows-hardware/drivers/ddi/_kernel/#data-conversions">Data Conversions</a>.
 
 ## -see-also
 

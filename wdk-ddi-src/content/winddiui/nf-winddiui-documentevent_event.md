@@ -2,7 +2,6 @@
 UID: NF:winddiui.DOCUMENTEVENT_EVENT
 title: DOCUMENTEVENT_EVENT macro (winddiui.h)
 description: 
-ms.assetid: 141f16f3-fa3f-4cec-9854-be81557e97af
 ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_EVENT macro"]
 ms.keywords: DOCUMENTEVENT_EVENT

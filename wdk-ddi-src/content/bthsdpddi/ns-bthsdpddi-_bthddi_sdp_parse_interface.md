@@ -4,7 +4,6 @@ title: _BTHDDI_SDP_PARSE_INTERFACE (bthsdpddi.h)
 description: The BTHDDI_SDP_PARSE_INTERFACE structure provides functions for parsing SDP records.
 old-location: bltooth\bthddi_sdp_parse_interface.htm
 tech.root: bltooth
-ms.assetid: bb8a1dd5-8207-4034-993e-eed49dc0f9c4
 ms.date: 04/27/2018
 keywords: ["BTHDDI_SDP_PARSE_INTERFACE structure"]
 ms.keywords: "*PBTHDDI_SDP_PARSE_INTERFACE, BTHDDI_SDP_PARSE_INTERFACE, BTHDDI_SDP_PARSE_INTERFACE structure [Bluetooth Devices], PBTHDDI_SDP_PARSE_INTERFACE, PBTHDDI_SDP_PARSE_INTERFACE structure pointer [Bluetooth Devices], _BTHDDI_SDP_PARSE_INTERFACE, bltooth.bthddi_sdp_parse_interface, bth_structs_9c26fcf9-b84e-4b8d-a6bd-f897428cb921.xml, bthsdpddi/BTHDDI_SDP_PARSE_INTERFACE, bthsdpddi/PBTHDDI_SDP_PARSE_INTERFACE"

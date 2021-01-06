@@ -4,7 +4,6 @@ title: FWPS_STREAM_DATA_OFFSET0_ (fwpsk.h)
 description: The FWPS_STREAM_DATA_OFFSET0 structure defines an offset into a portion of a data stream that is described by an FWPS_STREAM_DATA0 structure.Note  FWPS_STREAM_DATA_OFFSET0 is a specific version of FWPS_STREAM_DATA_OFFSET.
 old-location: netvista\fwps_stream_data_offset0.htm
 tech.root: netvista
-ms.assetid: a6b60fa1-23ed-44dd-8300-c66d5f907993
 ms.date: 05/02/2018
 keywords: ["FWPS_STREAM_DATA_OFFSET0_ structure"]
 ms.keywords: FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA_OFFSET0_, fwpsk/FWPS_STREAM_DATA_OFFSET0, netvista.fwps_stream_data_offset0, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml
@@ -58,7 +57,7 @@ The <b>FWPS_STREAM_DATA_OFFSET0</b> structure defines an offset into a portion o
 ### -field netBufferList
 
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in which the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure in which the
      offset lies.
 
 ### -field netBuffer
@@ -106,4 +105,4 @@ The combination of the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

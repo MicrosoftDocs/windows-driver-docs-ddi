@@ -4,7 +4,6 @@ title: IDebugSymbols3::ReloadWide (dbgeng.h)
 description: The ReloadWide method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reloadwide.htm
 tech.root: debugger
-ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::ReloadWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],ReloadWide method, IDebugSymbols3.ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide, ReloadWide method [Windows Debugging], ReloadWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, debugger.reloadwide

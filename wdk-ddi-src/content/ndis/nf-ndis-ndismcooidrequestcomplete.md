@@ -4,7 +4,6 @@ title: NdisMCoOidRequestComplete function (ndis.h)
 description: The NdisMCoOidRequestComplete function returns the final status of an OID requestthat a miniport driver's MiniportCoOidRequest function returned NDIS_STATUS_PENDING for.
 old-location: netvista\ndismcooidrequestcomplete.htm
 tech.root: netvista
-ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.date: 05/02/2018
 keywords: ["NdisMCoOidRequestComplete function"]
 ms.keywords: NdisMCoOidRequestComplete, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete

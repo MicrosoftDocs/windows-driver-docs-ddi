@@ -4,7 +4,6 @@ title: _HDAUDIO_CODEC_POWER_STATE (hdaudio.h)
 description: The HDAUDIO_CODEC_POWER_STATE enumeration defines constants that specify the different power states that HD Audio codecs can support. All states are from DEVICE_POWER_STATE except PowerCodecD3Cold.
 old-location: audio\hdaudio_codec_power_state.htm
 tech.root: audio
-ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.date: 05/08/2018
 keywords: ["HDAUDIO_CODEC_POWER_STATE enumeration"]
 ms.keywords: "*PHDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PHDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], PowerCodecD0, PowerCodecD1, PowerCodecD2, PowerCodecD3, PowerCodecD3Cold, PowerCodecMaximum, PowerCodecUnspecified, _HDAUDIO_CODEC_POWER_STATE, audio.hdaudio_codec_power_state, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, hdaudio/PowerCodecD2, hdaudio/PowerCodecD3, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecMaximum, hdaudio/PowerCodecUnspecified"

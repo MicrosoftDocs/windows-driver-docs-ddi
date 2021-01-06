@@ -4,7 +4,6 @@ title: FwpsInjectNetworkReceiveAsync0 function (fwpsk.h)
 description: The FwpsInjectNetworkReceiveAsync0 function injects packet data into the receive data path.Note  FwpsInjectNetworkReceiveAsync0 is a specific version of FwpsInjectNetworkReceiveAsync.
 old-location: netvista\fwpsinjectnetworkreceiveasync0.htm
 tech.root: netvista
-ms.assetid: c34b2be1-fe1c-4a99-ac9c-ddd40b97d8d0
 ms.date: 05/02/2018
 keywords: ["FwpsInjectNetworkReceiveAsync0 function"]
 ms.keywords: FwpsInjectNetworkReceiveAsync0, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkReceiveAsync0, netvista.fwpsinjectnetworkreceiveasync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml
@@ -109,7 +108,7 @@ The index of the subinterface on which the original packet data was received. A 
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
      inject packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
@@ -154,7 +153,7 @@ The packet data injection was initiated successfully. The filter engine will cal
        function after the filter engine has completed injecting the packet data into the network stack, or
        when an error occurred subsequently. In case of an error, the 
        <b>Status</b> member of the completed 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -275,7 +274,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

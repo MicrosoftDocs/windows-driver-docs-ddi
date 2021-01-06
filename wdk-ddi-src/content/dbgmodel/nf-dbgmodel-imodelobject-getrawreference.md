@@ -2,7 +2,6 @@
 UID: NF:dbgmodel.IModelObject.GetRawReference
 title: IModelObject::GetRawReference (dbgmodel.h)
 description: The GetRawReference method finds a native construct within the given object and returns a reference to it.
-ms.assetid: 2a886a30-3403-4276-be7c-93348e2b9eea
 ms.date: 08/09/2018
 keywords: ["IModelObject::GetRawReference"]
 ms.keywords: IModelObject::GetRawReference, GetRawReference, IModelObject.GetRawReference, IModelObject::GetRawReference, IModelObject.GetRawReference

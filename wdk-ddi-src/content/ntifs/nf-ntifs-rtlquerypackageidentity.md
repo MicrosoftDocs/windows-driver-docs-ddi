@@ -3,7 +3,6 @@ UID: NF:ntifs.RtlQueryPackageIdentity
 title: RtlQueryPackageIdentity function
 description: RtlQueryPackageIdentity
 tech.root: ifsk
-ms.assetid: 2f07c9b4-a7c4-4aad-988c-280b6e575eb3
 ms.date: 10/30/2019
 ms.topic: function
 ms.keywords: RtlQueryPackageIdentity returns the associated full package name, if any, of a token object. It can optionally also return the package relative application name, and whether an application is considered packaged.

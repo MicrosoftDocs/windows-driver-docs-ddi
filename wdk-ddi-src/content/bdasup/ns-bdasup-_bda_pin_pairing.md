@@ -4,7 +4,6 @@ title: _BDA_PIN_PAIRING (bdasup.h)
 description: The BDA_PIN_PAIRING structure describes the topology between a pair of input and output pins.
 old-location: stream\bda_pin_pairing.htm
 tech.root: stream
-ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.date: 04/23/2018
 keywords: ["BDA_PIN_PAIRING structure"]
 ms.keywords: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"

@@ -4,7 +4,6 @@ title: PMRX_EXTRACT_NETROOT_NAME (mrx.h)
 description: The MRxExtractNetRootName routine is called by RDBSS to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
 old-location: ifsk\mrxextractnetrootname.htm
 tech.root: ifsk
-ms.assetid: e990b7fc-a341-419d-b358-eac4fa2dca78
 ms.date: 04/16/2018
 keywords: ["PMRX_EXTRACT_NETROOT_NAME callback function"]
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml

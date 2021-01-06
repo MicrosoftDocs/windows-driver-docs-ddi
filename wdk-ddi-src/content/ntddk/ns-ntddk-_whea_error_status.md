@@ -4,7 +4,6 @@ title: _WHEA_ERROR_STATUS (ntddk.h)
 description: The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 old-location: whea\whea_error_status.htm
 tech.root: whea
-ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_STATUS structure"]
 ms.keywords: "*PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], WHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], _WHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, whea.whea_error_status, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml"

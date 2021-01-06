@@ -2,7 +2,6 @@
 UID: NC:d3dkmddi.DXGKDDI_VALIDATESUBMITCOMMAND
 title: DXGKDDI_VALIDATESUBMITCOMMAND (d3dkmddi.h)
 description: Validates private driver data, which is passed by user mode driver in D3DKMTSubmitCommand or D3DKMTSubmitCommandToHwQueue.
-ms.assetid: bc83b8eb-da96-49f3-8462-1cd0838ba03d
 ms.date: 10/19/2018
 keywords: ["DXGKDDI_VALIDATESUBMITCOMMAND callback function"]
 req.header: d3dkmddi.h

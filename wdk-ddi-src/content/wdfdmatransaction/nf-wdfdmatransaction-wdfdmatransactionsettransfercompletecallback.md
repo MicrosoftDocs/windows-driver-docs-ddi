@@ -4,7 +4,6 @@ title: WdfDmaTransactionSetTransferCompleteCallback function (wdfdmatransaction.
 description: The WdfDmaTransactionSetTransferCompleteCallback method registers a transfer completion event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsettransfercompletecallback.htm
 tech.root: wdf
-ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetTransferCompleteCallback function"]
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback

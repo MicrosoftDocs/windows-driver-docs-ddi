@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS
 title: PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS (d3d10umddi.h)
 description: Queries a specified group of video processing capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: display\getvideoprocessorrateconversioncaps.htm
-ms.assetid: c77b722f-e023-4e3e-9dff-616d0ab0a6a2
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS callback, d3d10umddi/pfnGetVideoProcessorRateConversionCaps, display.getvideoprocessorrateconversioncaps, pfnGetVideoProcessorRateConversionCaps, pfnGetVideoProcessorRateConversionCaps callback function [Display Devices]

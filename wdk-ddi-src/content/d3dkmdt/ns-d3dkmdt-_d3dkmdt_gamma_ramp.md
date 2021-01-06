@@ -4,7 +4,6 @@ title: _D3DKMDT_GAMMA_RAMP (d3dkmdt.h)
 description: The D3DKMDT_GAMMA_RAMP structure contains descriptive information about a gamma lookup table and a pointer to the lookup table.
 old-location: display\d3dkmdt_gamma_ramp.htm
 tech.root: display
-ms.assetid: 3a875a1e-ef4f-4851-9329-f1fd2aca261f
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_GAMMA_RAMP structure"]
 ms.keywords: D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices], DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, _D3DKMDT_GAMMA_RAMP, d3dkmdt/D3DKMDT_GAMMA_RAMP, display.d3dkmdt_gamma_ramp

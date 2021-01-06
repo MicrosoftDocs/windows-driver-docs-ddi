@@ -4,7 +4,6 @@ title: IMiniportWaveRTStream (portcls.h)
 description: The IMiniportWaveRTStream interface represents the wave stream that flows through a pin on the KS filter that wraps a WaveRT rendering or capture device.
 old-location: audio\iminiportwavertstream.htm
 tech.root: audio
-ms.assetid: be398a37-0329-411b-ba41-a03dbc5f72a1
 ms.date: 03/19/2018
 keywords: ["IMiniportWaveRTStream interface"]
 ms.keywords: IMiniportWaveRTStream, IMiniportWaveRTStream interface [Audio Devices], IMiniportWaveRTStream interface [Audio Devices], described, audio.iminiportwavertstream, audmp-routines_9f8c9dbe-8e68-4b7b-b2de-b409d77f15d6.xml, portcls/IMiniportWaveRTStream

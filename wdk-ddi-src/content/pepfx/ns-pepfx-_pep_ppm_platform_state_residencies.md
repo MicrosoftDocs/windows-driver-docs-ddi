@@ -4,7 +4,6 @@ title: _PEP_PPM_PLATFORM_STATE_RESIDENCIES (pepfx.h)
 description: The PEP_PPM_PLATFORM_STATE_RESIDENCIES structure contains the accumulated residency times and transition counts for the idle states that are supported by the hardware platform.
 old-location: kernel\pep_ppm_platform_state_residencies.htm
 tech.root: kernel
-ms.assetid: 5B6186EB-EC08-4C11-9CCF-E07D78FBD535
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_PLATFORM_STATE_RESIDENCIES structure"]
 ms.keywords: "*PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PPEP_PPM_PLATFORM_STATE_RESIDENCIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PLATFORM_STATE_RESIDENCIES, kernel.pep_ppm_platform_state_residencies, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCIES, pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCIES"
@@ -64,7 +63,7 @@ The <b>PEP_PPM_PLATFORM_STATE_RESIDENCIES</b> structure contains the accumulated
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE_RESIDENCIES</a> notification. Both members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) supplies when this notification is sent to the PEP. PoFx allocates the output buffer pointed to by the <b>States</b> member, and the PEP writes to this buffer.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE_RESIDENCIES</a> notification. Both members of the structure contain input values that the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) supplies when this notification is sent to the PEP. PoFx allocates the output buffer pointed to by the <b>States</b> member, and the PEP writes to this buffer.
 
 ## -see-also
 

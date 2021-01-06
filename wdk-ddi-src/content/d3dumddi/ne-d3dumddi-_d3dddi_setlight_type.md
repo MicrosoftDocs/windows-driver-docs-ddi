@@ -2,7 +2,6 @@
 UID: NE:d3dumddi._D3DDDI_SETLIGHT_TYPE
 title: _D3DDDI_SETLIGHT_TYPE (d3dumddi.h)
 description: The set light type.
-ms.assetid: 45ad2d59-7246-49d0-b76a-b4ad792d1bd0
 ms.date: 10/19/2018
 keywords: ["D3DDDI_SETLIGHT_TYPE enumeration"]
 ms.keywords: _D3DDDI_SETLIGHT_TYPE, D3DDDI_SETLIGHT_TYPE,

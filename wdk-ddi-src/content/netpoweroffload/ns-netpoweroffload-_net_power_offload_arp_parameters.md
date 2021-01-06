@@ -3,7 +3,6 @@ UID: NS:netpoweroffload._NET_POWER_OFFLOAD_ARP_PARAMETERS
 title: NET_POWER_OFFLOAD_ARP_PARAMETERS (netpoweroffload.h)
 description: The NET_POWER_OFFLOAD_ARP_PARAMETERS structure contains IPv4 ARP low-power protocol offload parameters for a net adapter.
 tech.root: netvista
-ms.assetid: bec3ab2b-5884-4c7d-895a-76b8a44126bf
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS,

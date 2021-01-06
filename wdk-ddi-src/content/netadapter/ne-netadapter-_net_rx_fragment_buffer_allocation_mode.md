@@ -3,7 +3,6 @@ UID: NE:netadapter._NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
 title: _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE (netadapter.h)
 description: The NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration identifies how the operating system should allocate NET_PACKET_FRAGMENT receive buffers for a net adapter client driver's receive queues.
 tech.root: netvista
-ms.assetid: b7ce305a-ea72-4461-9d91-c4e3fb84eb8a
 ms.date: 02/15/2018
 keywords: ["NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration"]
 ms.keywords: _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE, NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE,
@@ -23,13 +22,13 @@ f1_keywords:
  - netadapter/_NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
  - NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
  - netadapter/NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
 ---
 

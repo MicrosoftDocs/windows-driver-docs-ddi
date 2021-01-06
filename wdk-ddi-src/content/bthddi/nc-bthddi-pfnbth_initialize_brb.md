@@ -4,7 +4,6 @@ title: PFNBTH_INITIALIZE_BRB (bthddi.h)
 description: The BthInitializeBrb function initializes a Bluetooth request block (BRB) allocated on the local stack.
 old-location: bltooth\bthinitializebrb.htm
 tech.root: bltooth
-ms.assetid: 0b822d28-edaa-40cc-a678-112a356d9022
 ms.date: 04/27/2018
 keywords: ["PFNBTH_INITIALIZE_BRB callback function"]
 ms.keywords: BthInitializeBrb, BthInitializeBrb callback function [Bluetooth Devices], PFNBTH_INITIALIZE_BRB, PFNBTH_INITIALIZE_BRB callback, bltooth.bthinitializebrb, bth_funcs_11ec7e91-bfca-404f-a029-a3fbb8c56d47.xml, bthddi/BthInitializeBrb

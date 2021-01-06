@@ -4,7 +4,6 @@ title: DUMP_READ (ntdddump.h)
 description: The Dump_Read callback routine is called after the read from the dump port driver. The filter driver can access the dump data during the call to this routine.
 old-location: storage\dump_read.htm
 tech.root: storage
-ms.assetid: 5F95D38C-8E11-49D4-82C4-718BD846A834
 ms.date: 03/29/2018
 keywords: ["DUMP_READ callback function"]
 ms.keywords: Dump_Read, Dump_Read routine [Storage Devices], PDUMP_READ, ntdddump/Dump_Read, storage.dump_read

@@ -4,7 +4,6 @@ title: RIL_SetCallBarringStatus function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setcallbarringstatus.htm
 tech.root: netvista
-ms.assetid: 2012944f-b889-4084-92c8-95c1340599f3
 ms.date: 05/02/2018
 keywords: ["RIL_SetCallBarringStatus function"]
 ms.keywords: RIL_SetCallBarringStatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallbarringstatus, rilapi/RIL_SetCallBarringStatus

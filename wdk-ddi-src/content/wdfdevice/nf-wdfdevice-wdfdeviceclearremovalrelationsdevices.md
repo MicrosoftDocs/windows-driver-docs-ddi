@@ -4,7 +4,6 @@ title: WdfDeviceClearRemovalRelationsDevices function (wdfdevice.h)
 description: The WdfDeviceClearRemovalRelationsDevices method removes all devices from the list of devices that must be removed when a specified device is removed.
 old-location: wdf\wdfdeviceclearremovalrelationsdevices.htm
 tech.root: wdf
-ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.date: 02/26/2018
 keywords: ["WdfDeviceClearRemovalRelationsDevices function"]
 ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, wdfdevice/WdfDeviceClearRemovalRelationsDevices

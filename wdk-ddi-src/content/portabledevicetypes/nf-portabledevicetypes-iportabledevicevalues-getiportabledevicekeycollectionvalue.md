@@ -4,7 +4,6 @@ title: IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue (portabledevi
 description: Retrieves an IPortableDeviceKeyCollection value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicekeycollectionvalue.htm
 tech.root: wpd_dk
-ms.assetid: 059e46f3-39d9-4d5e-9841-0ccb35ccb851
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue"]
 ms.keywords: GetIPortableDeviceKeyCollectionValue, GetIPortableDeviceKeyCollectionValue method, GetIPortableDeviceKeyCollectionValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIPortableDeviceKeyCollectionValue method, IPortableDeviceValues.GetIPortableDeviceKeyCollectionValue, IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue, IPortableDeviceValuesGetIPortableDeviceKeyCollectionValue, portabledevicetypes/IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue, wpddk.iportabledevicevalues_getiportabledevicekeycollectionvalue

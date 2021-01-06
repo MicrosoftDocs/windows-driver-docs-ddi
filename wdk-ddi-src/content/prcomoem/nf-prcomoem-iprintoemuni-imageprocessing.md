@@ -4,7 +4,6 @@ title: IPrintOemUni::ImageProcessing (prcomoem.h)
 description: The IPrintOemUni::ImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.
 old-location: print\iprintoemuni_imageprocessing.htm
 tech.root: print
-ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.date: 07/03/2018
 keywords: ["IPrintOemUni::ImageProcessing"]
 ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml

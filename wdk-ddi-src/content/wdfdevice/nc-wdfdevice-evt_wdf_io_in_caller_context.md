@@ -4,7 +4,6 @@ title: EVT_WDF_IO_IN_CALLER_CONTEXT (wdfdevice.h)
 description: A driver's EvtIoInCallerContext event callback function preprocesses an I/O request before the framework places it into an I/O queue.
 old-location: wdf\evtioincallercontext.htm
 tech.root: wdf
-ms.assetid: b8bcea29-e404-490e-9d0c-02c96a5690ab
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_IN_CALLER_CONTEXT callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_027a6221-e735-4a5c-a378-d9d9236f21ae.xml, EVT_WDF_IO_IN_CALLER_CONTEXT, EVT_WDF_IO_IN_CALLER_CONTEXT callback, EvtIoInCallerContext, EvtIoInCallerContext callback function, kmdf.evtioincallercontext, wdf.evtioincallercontext, wdfdevice/EvtIoInCallerContext

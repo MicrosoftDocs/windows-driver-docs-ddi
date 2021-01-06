@@ -4,7 +4,6 @@ title: NdisMGetDeviceProperty function (ndis.h)
 description: The NdisMGetDeviceProperty function retrieves device objects required to set up communication with a miniport driver through a bus driver.
 old-location: netvista\ndismgetdeviceproperty.htm
 tech.root: netvista
-ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.date: 05/02/2018
 keywords: ["NdisMGetDeviceProperty function"]
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty

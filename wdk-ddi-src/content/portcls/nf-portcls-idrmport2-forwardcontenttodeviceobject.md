@@ -4,7 +4,6 @@ title: IDrmPort2::ForwardContentToDeviceObject (portcls.h)
 description: The ForwardContentToDeviceObject method accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\idrmport2_forwardcontenttodeviceobject.htm
 tech.root: audio
-ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
 ms.date: 05/08/2018
 keywords: ["IDrmPort2::ForwardContentToDeviceObject"]
 ms.keywords: ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],ForwardContentToDeviceObject method, IDrmPort2.ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject

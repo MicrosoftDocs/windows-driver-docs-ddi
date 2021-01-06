@@ -3,7 +3,6 @@ UID: NF:netwakesourcelist.NET_WAKE_SOURCE_LIST_INIT
 title: NET_WAKE_SOURCE_LIST_INIT function (netwakesourcelist.h)
 description: The NET_WAKE_SOURCE_LIST_INIT function initializes a NET_WAKE_SOURCE_LIST structure.
 tech.root: netvista
-ms.assetid: ec713591-4ac2-4f68-888d-e29c8784d8b6
 ms.date: 10/08/2019
 keywords: ["NET_WAKE_SOURCE_LIST_INIT function"]
 ms.keywords: NET_WAKE_SOURCE_LIST_INIT

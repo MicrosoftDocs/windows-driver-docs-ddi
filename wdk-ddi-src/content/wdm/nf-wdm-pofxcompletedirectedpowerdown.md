@@ -3,7 +3,6 @@ UID: NF:wdm.PoFxCompleteDirectedPowerDown
 title: PoFxCompleteDirectedPowerDown function
 description: A Directed Power Framework (DFx) client driver calls this function to complete the Directed power down transition.
 tech.root: kernel
-ms.assetid: c4ce7279-b8d7-4215-a9d2-e09b73d3ecfd
 ms.date: 08/19/2019
 keywords: ["PoFxCompleteDirectedPowerDown function"]
 ms.keywords: PoFxCompleteDirectedPowerDown
@@ -52,7 +51,7 @@ A DFx (Directed [PoFx](/windows-hardware/drivers/kernel/overview-of-the-power-ma
 
 ### -param Handle
 
-A POHANDLE value that represents the registration of the processor (as a device) with <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+A POHANDLE value that represents the registration of the processor (as a device) with <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ## -remarks
 

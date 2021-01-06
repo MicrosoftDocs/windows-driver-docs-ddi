@@ -4,7 +4,6 @@ title: _NDIS_WWAN_AUTH_RESPONSE (ndiswwan.h)
 description: The NDIS_WWAN_AUTH_RESPONSE structure represents a response from one of the authentication methods.
 old-location: netvista\ndis_wwan_auth_response.htm
 tech.root: netvista
-ms.assetid: 9F991E80-5155-45CE-9547-7354EE7EC4DB
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_AUTH_RESPONSE structure"]
 ms.keywords: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response"

@@ -4,7 +4,6 @@ title: ScsiPortWriteRegisterBufferUshort function (srb.h)
 description: The ScsiPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterbufferushort.htm
 tech.root: storage
-ms.assetid: 663c0543-7059-4fb7-be3d-57edbba6bf83
 ms.date: 03/29/2018
 keywords: ["ScsiPortWriteRegisterBufferUshort function"]
 ms.keywords: ScsiPortWriteRegisterBufferUshort, ScsiPortWriteRegisterBufferUshort routine [Storage Devices], scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, srb/ScsiPortWriteRegisterBufferUshort, storage.scsiportwriteregisterbufferushort

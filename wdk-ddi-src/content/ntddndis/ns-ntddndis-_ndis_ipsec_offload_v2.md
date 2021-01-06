@@ -4,7 +4,6 @@ title: _NDIS_IPSEC_OFFLOAD_V2 (ntddndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec) version 2 task offload capabilities in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_ipsec_offload_v2.htm
 tech.root: netvista
-ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
 ms.date: 05/02/2018
 keywords: ["NDIS_IPSEC_OFFLOAD_V2 structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml"
@@ -388,7 +387,7 @@ The following flags are defined for the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

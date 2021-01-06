@@ -4,7 +4,6 @@ title: DXGK_BRIGHTNESS_GET (dispmprt.h)
 description: The DxgkDdiGetBrightness function retrieves the currently active brightness level of an integrated display panel.
 old-location: display\dxgkddigetbrightness.htm
 tech.root: display
-ms.assetid: e226cd36-45af-4d80-9aba-8919b267483b
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_GET callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET callback, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness

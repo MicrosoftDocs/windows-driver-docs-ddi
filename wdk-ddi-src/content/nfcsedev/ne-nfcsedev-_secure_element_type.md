@@ -4,7 +4,6 @@ title: _SECURE_ELEMENT_TYPE (nfcsedev.h)
 description: Indicates the type of a secure element.
 old-location: nfpdrivers\_secure_element_type.htm
 tech.root: nfpdrivers
-ms.assetid: 118B63D1-713A-4F8C-B97A-53BB6D0B819E
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_TYPE, DeviceHost, External, Integrated, SECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE,*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE,*PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_TYPE, _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/DeviceHost, nfcsedev/External, nfcsedev/Integrated, nfcsedev/_SECURE_ELEMENT_TYPE, nfpdrivers._secure_element_type"

@@ -4,7 +4,6 @@ title: FltQueueGenericWorkItem function (fltkernel.h)
 description: FltQueueGenericWorkItem posts a work item that is not associated with a specific I/O operation to a work queue.
 old-location: ifsk\fltqueuegenericworkitem.htm
 tech.root: ifsk
-ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.date: 04/16/2018
 keywords: ["FltQueueGenericWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem

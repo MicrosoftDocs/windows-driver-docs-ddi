@@ -4,7 +4,6 @@ title: NdisCmRegisterSapComplete function (ndis.h)
 description: NdisCmRegisterSapComplete returns the final status of a client's request, for which the CM previously returned NDIS_STATUS_PENDING, to register a SAP.
 old-location: netvista\ndiscmregistersapcomplete.htm
 tech.root: netvista
-ms.assetid: 0419bbf5-02aa-482f-9e2c-a435302751c4
 ms.date: 05/02/2018
 keywords: ["NdisCmRegisterSapComplete function"]
 ms.keywords: NdisCmRegisterSapComplete, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml, ndis/NdisCmRegisterSapComplete, netvista.ndiscmregistersapcomplete

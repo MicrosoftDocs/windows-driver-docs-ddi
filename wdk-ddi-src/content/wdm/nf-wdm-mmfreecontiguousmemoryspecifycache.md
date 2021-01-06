@@ -4,7 +4,6 @@ title: MmFreeContiguousMemorySpecifyCache function (wdm.h)
 description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that was allocated by an MmAllocateContiguousMemorySpecifyCacheXxx routine.
 old-location: kernel\mmfreecontiguousmemoryspecifycache.htm
 tech.root: kernel
-ms.assetid: e5958dd7-b287-4f0d-8677-75d850885262
 ms.date: 04/30/2018
 keywords: ["MmFreeContiguousMemorySpecifyCache function"]
 ms.keywords: MmFreeContiguousMemorySpecifyCache, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, kernel.mmfreecontiguousmemoryspecifycache, wdm/MmFreeContiguousMemorySpecifyCache

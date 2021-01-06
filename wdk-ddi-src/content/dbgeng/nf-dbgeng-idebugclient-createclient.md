@@ -4,7 +4,6 @@ title: IDebugClient::CreateClient (dbgeng.h)
 description: The CreateClient method creates a new client object for the current thread.
 old-location: debugger\createclient.htm
 tech.root: debugger
-ms.assetid: 61733b3e-87e9-4bb1-bed0-44efeffd7e4f
 ms.date: 05/03/2018
 keywords: ["IDebugClient::CreateClient"]
 ms.keywords: CreateClient, CreateClient method [Windows Debugging], CreateClient method [Windows Debugging],IDebugClient interface, CreateClient method [Windows Debugging],IDebugClient2 interface, CreateClient method [Windows Debugging],IDebugClient3 interface, CreateClient method [Windows Debugging],IDebugClient4 interface, CreateClient method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],CreateClient method, IDebugClient.CreateClient, IDebugClient2 interface [Windows Debugging],CreateClient method, IDebugClient2::CreateClient, IDebugClient3 interface [Windows Debugging],CreateClient method, IDebugClient3::CreateClient, IDebugClient4 interface [Windows Debugging],CreateClient method, IDebugClient4::CreateClient, IDebugClient5 interface [Windows Debugging],CreateClient method, IDebugClient5::CreateClient, IDebugClient::CreateClient, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, dbgeng/IDebugClient2::CreateClient, dbgeng/IDebugClient3::CreateClient, dbgeng/IDebugClient4::CreateClient, dbgeng/IDebugClient5::CreateClient, dbgeng/IDebugClient::CreateClient, debugger.createclient

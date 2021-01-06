@@ -4,7 +4,6 @@ title: _D3DDDICB_DEALLOCATE2 (d3dumddi.h)
 description: The D3DDDICB_DEALLOCATE2 structure describes parameters for releasing allocations with pfnDeallocate2Cb.
 old-location: display\d3dddicb_deallocate2.htm
 tech.root: display
-ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_DEALLOCATE2 structure"]
 ms.keywords: D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], _D3DDDICB_DEALLOCATE2, d3dumddi/D3DDDICB_DEALLOCATE2, display.d3dddicb_deallocate2

@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_LOWER_IRQL
 title: NDIS_LOWER_IRQL macro (ndis.h)
 description: The NDIS_LOWER_IRQL macro sets the IRQL on the current processor to the specified value.
 tech.root: netvista
-ms.assetid: 378ea89f-cad9-410d-88b3-14bd1109e399
 ms.date: 04/16/2018
 keywords: ["NDIS_LOWER_IRQL macro"]
 ms.keywords: NDIS_LOWER_IRQL

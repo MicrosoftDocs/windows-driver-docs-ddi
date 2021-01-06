@@ -4,7 +4,6 @@ title: IF_SET_OBJECT (ndis.h)
 description: The ProviderSetObject function sets information that is associated with a network interface.
 old-location: netvista\providersetobject.htm
 tech.root: netvista
-ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
 ms.date: 05/02/2018
 ms.keywords: IFP_SET_OBJECT, IFP_SET_OBJECT callback function
 req.header: ndis.h

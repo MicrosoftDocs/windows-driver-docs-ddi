@@ -4,7 +4,6 @@ title: AtaPortRequestPowerStateChange function (irb.h)
 description: The AtaPortRequestPowerStateChange routine requests a power state transition for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestpowerstatechange.htm
 tech.root: storage
-ms.assetid: 37cf1552-2cbe-4b80-b220-cfa853674e1b
 ms.date: 03/29/2018
 keywords: ["AtaPortRequestPowerStateChange function"]
 ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange

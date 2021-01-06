@@ -4,7 +4,6 @@ title: FltEnumerateInstanceInformationByDeviceObject function (fltkernel.h)
 description: The FltEnumerateInstanceInformationByDeviceObject routine provides information about minifilter driver instances and legacy filter drivers that are attached to the volume related to a specified device object.
 old-location: ifsk\fltenumerateinstanceinformationbydeviceobject.htm
 tech.root: ifsk
-ms.assetid: 3E7754A3-3A7A-4036-B524-CBA40EF22048
 ms.date: 04/16/2018
 keywords: ["FltEnumerateInstanceInformationByDeviceObject function"]
 ms.keywords: FltEnumerateInstanceInformationByDeviceObject, FltEnumerateInstanceInformationByDeviceObject routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByDeviceObject, ifsk.fltenumerateinstanceinformationbydeviceobject

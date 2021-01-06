@@ -4,7 +4,6 @@ title: SdpFindAttributeInTree function (sdplib.h)
 description: The Bluetooth SdpFindAttributeInTree function is used to locate the specified attribute node in the tree-based representation of an SDP record.
 old-location: bltooth\sdpfindattributeintree.htm
 tech.root: bltooth
-ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.date: 04/27/2018
 keywords: ["SdpFindAttributeInTree function"]
 ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree

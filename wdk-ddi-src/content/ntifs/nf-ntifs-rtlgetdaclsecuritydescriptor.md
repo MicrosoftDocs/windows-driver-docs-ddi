@@ -4,7 +4,6 @@ title: RtlGetDaclSecurityDescriptor function (ntifs.h)
 description: The RtlGetDaclSecurityDescriptor routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
 tech.root: ifsk
-ms.assetid: 23184d88-2c84-4fba-9d17-c4014d0eaea5
 ms.date: 04/16/2018
 keywords: ["RtlGetDaclSecurityDescriptor function"]
 ms.keywords: RtlGetDaclSecurityDescriptor, RtlGetDaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetdaclsecuritydescriptor, ntifs/RtlGetDaclSecurityDescriptor, rtlref_c851a07b-d480-47a7-b0f7-a3f21161dfaa.xml

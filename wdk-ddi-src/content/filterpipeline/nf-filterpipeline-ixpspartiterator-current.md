@@ -4,7 +4,6 @@ title: IXpsPartIterator::Current (filterpipeline.h)
 description: The Current method provides the current URI and part.
 old-location: print\ixpspartiterator_current.htm
 tech.root: print
-ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.date: 04/20/2018
 keywords: ["IXpsPartIterator::Current"]
 ms.keywords: Current, Current method [Print Devices], Current method [Print Devices],IXpsPartIterator interface, IXpsPartIterator interface [Print Devices],Current method, IXpsPartIterator.Current, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current

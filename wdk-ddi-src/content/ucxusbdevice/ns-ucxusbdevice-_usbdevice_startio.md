@@ -4,7 +4,6 @@ title: _USBDEVICE_STARTIO (ucxusbdevice.h)
 description: Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer.
 old-location: buses\_usbdevice_startio.htm
 tech.root: usbref
-ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.date: 05/07/2018
 keywords: ["USBDEVICE_STARTIO structure"]
 ms.keywords: "*PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], _USBDEVICE_STARTIO, buses._usbdevice_startio, ucxusbdevice/P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO"

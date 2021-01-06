@@ -4,7 +4,6 @@ title: D3D12DDI_SAMPLER_FEEDBACK_TIER
 ms.date: 03/24/2020
 ms.topic: language-reference
 tech.root: display
-ms.assetid: eba7226e-0283-4c17-b6ef-614cbf29e5ea
 targetos: Windows
 description: The supported sampler feedback tier.
 req.construct-type: enumeration

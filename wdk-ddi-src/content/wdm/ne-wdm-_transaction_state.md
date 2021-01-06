@@ -4,7 +4,6 @@ title: _TRANSACTION_STATE (wdm.h)
 description: The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction.
 old-location: kernel\transaction_state.htm
 tech.root: kernel
-ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.date: 04/30/2018
 keywords: ["TRANSACTION_STATE enumeration"]
 ms.keywords: TRANSACTION_STATE, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], TransactionStateCommittedNotify, TransactionStateIndoubt, TransactionStateNormal, _TRANSACTION_STATE, kernel.transaction_state, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TRANSACTION_STATE, wdm/TransactionStateCommittedNotify, wdm/TransactionStateIndoubt, wdm/TransactionStateNormal

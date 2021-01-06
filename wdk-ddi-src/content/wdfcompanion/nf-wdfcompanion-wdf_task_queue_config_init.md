@@ -4,7 +4,6 @@ title: WDF_TASK_QUEUE_CONFIG_INIT function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_task_queue_config_init.htm
 tech.root: wdf
-ms.assetid: 51c43509-074c-4118-afe5-2e568d733751
 ms.date: 02/26/2018
 keywords: ["WDF_TASK_QUEUE_CONFIG_INIT function"]
 ms.keywords: WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT

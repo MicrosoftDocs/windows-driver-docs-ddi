@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
 description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to an OS callback function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
-ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
 ms.author: windowsdriverdev
 ms.date: 09/28/2020
 keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback pointer"]

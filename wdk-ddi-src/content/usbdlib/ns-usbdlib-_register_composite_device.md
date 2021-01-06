@@ -4,7 +4,6 @@ title: _REGISTER_COMPOSITE_DEVICE (usbdlib.h)
 description: The REGISTER_COMPOSITE_DEVICE structure is used with the IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE I/O control request to register a parent driver of a Universal Serial Bus (USB) multi-function device (composite driver) with the USB driver stack.
 old-location: buses\register_composite_driver.htm
 tech.root: usbref
-ms.assetid: BBE92635-5230-454E-A6CA-80198B5B2C57
 ms.date: 05/07/2018
 keywords: ["REGISTER_COMPOSITE_DEVICE structure"]
 ms.keywords: "*PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], REGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE structure [Buses], _REGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, usbdlib/PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE"

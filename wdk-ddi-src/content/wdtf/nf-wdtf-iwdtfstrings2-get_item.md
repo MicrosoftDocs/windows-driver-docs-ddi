@@ -4,7 +4,6 @@ title: IWDTFStrings2::get_Item (wdtf.h)
 description: Gets an individual string in the collection.
 old-location: dtf\iwdtfstrings2_item.htm
 tech.root: dtf
-ms.assetid: 01fe6cb0-5867-440f-b4ad-79bc946260b1
 ms.date: 04/04/2018
 keywords: ["IWDTFStrings2::get_Item"]
 ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Item property, IWDTFStrings2.Item, IWDTFStrings2.get_Item, IWDTFStrings2::Item, IWDTFStrings2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFStrings2 interface, Microsoft.WDTF.IWDTFStrings2.Item, Microsoft::WDTF::IWDTFStrings2::Item, dtf.iwdtfstrings2_item, get_Item, wdtf/IWDTFStrings2::Item, wdtf/IWDTFStrings2::get_Item

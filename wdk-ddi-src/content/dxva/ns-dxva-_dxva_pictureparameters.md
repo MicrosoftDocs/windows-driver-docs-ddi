@@ -4,7 +4,6 @@ title: _DXVA_PictureParameters (dxva.h)
 description: The DXVA_PictureParameters structure is sent by the host decoder to the accelerator to provide the picture-level parameters of a compressed picture for decoding on the accelerator.
 old-location: display\dxva_pictureparameters.htm
 tech.root: display
-ms.assetid: e54c1d6a-b0bb-4754-9399-5f3b1b9b2534
 ms.date: 05/10/2018
 keywords: ["DXVA_PictureParameters structure"]
 ms.keywords: "*LPDXVA_PictureParameters, DXVA_PictureParameters, DXVA_PictureParameters structure [Display Devices], LPDXVA_PictureParameters, LPDXVA_PictureParameters structure pointer [Display Devices], _DXVA_PictureParameters, display.dxva_pictureparameters, dxva/DXVA_PictureParameters, dxva/LPDXVA_PictureParameters, dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml"

@@ -4,7 +4,6 @@ title: FsRtlIsTotalDeviceFailure function (ntifs.h)
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk
-ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.date: 03/29/2018
 keywords: ["FsRtlIsTotalDeviceFailure function"]
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure
@@ -80,7 +79,7 @@ If <b>FsRtlIsTotalDeviceFailure</b> returns <b>TRUE</b>, a higher-level driver, 
 
 <b>FsRtlIsTotalDeviceFailure</b> does not return <b>TRUE</b> for either of the status values STATUS_DEVICE_DATA_ERROR and STATUS_CRC_ERROR, which are assumed to indicate a sector failure rather than a total disk failure.
 
-For more information about handling device failure, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
+For more information about handling device failure, see <a href="/windows/win32/seccrypto/common-hresult-values">Error Handling</a>.
 
 
 

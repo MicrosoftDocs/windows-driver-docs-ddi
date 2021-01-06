@@ -4,7 +4,6 @@ title: PHW_INTERRUPT (strmini.h)
 description: StrMiniInterrupt is the minidriver's interrupt service routine.
 old-location: stream\strminiinterrupt.htm
 tech.root: stream
-ms.assetid: a98986c6-f4ac-4e2e-9ba0-49fec6684158
 ms.date: 04/23/2018
 keywords: ["PHW_INTERRUPT callback function"]
 ms.keywords: PHW_INTERRUPT, StrMiniInterrupt, StrMiniInterrupt routine [Streaming Media Devices], stream.strminiinterrupt, strmini-routines_10ec4194-fc96-49da-a7d7-e7e90ead67e3.xml, strmini/StrMiniInterrupt

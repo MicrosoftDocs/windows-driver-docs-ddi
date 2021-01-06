@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072
 ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-ms.assetid: 82053dcb-bf13-4b34-a920-cda01f911db6
 tech.root: display
 description: Data structure used to check for video motion estimator protected resource support capabilities on a given node index.
 req.construct-type: structure

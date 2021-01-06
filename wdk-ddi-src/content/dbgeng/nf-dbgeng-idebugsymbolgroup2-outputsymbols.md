@@ -4,7 +4,6 @@ title: IDebugSymbolGroup2::OutputSymbols (dbgeng.h)
 description: The OutputSymbols method prints the specified symbols to the debugger console.
 old-location: debugger\outputsymbols.htm
 tech.root: debugger
-ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::OutputSymbols"]
 ms.keywords: ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup2 interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup2.OutputSymbols, IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup::OutputSymbols, OutputSymbols, OutputSymbols method [Windows Debugging], OutputSymbols method [Windows Debugging],IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, debugger.outputsymbols

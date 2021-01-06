@@ -4,7 +4,6 @@ title: IOCTL_AACS_GENERATE_BINDING_NONCE (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS) binding nonce starting at the specified byte offset on the disc, as part of the protocol for writing to a protected data area.
 old-location: storage\ioctl_aacs_generate_binding_nonce.htm
 tech.root: storage
-ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
 ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_GENERATE_BINDING_NONCE IOCTL"]
 ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce

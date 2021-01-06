@@ -4,7 +4,6 @@ title: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY (ucxcontroller.h)
 description: The client driver's implementation to determine if the controller supports a specific capability.
 old-location: buses\evt_ucx_controller_query_usb_capability.htm
 tech.root: usbref
-ms.assetid: c01150b6-e6cf-484c-be3e-c63984e97bb3
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability

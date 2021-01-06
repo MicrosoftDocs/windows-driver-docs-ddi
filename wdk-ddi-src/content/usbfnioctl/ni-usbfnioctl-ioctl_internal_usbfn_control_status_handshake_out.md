@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT (usbfnioctl.h)
 description: The class driver sends this request to send a zero-length control status handshake on endpoint 0 in the OUT direction.
 old-location: buses\ioctl_internal_usbfn_control_status_handshake_out.htm
 tech.root: usbref
-ms.assetid: C2CF94F3-E12D-4D31-975B-720FA5AB5ABA
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_internal_usbfn_control_status_handshake_out, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT

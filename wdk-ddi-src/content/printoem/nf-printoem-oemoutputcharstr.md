@@ -4,7 +4,6 @@ title: OEMOutputCharStr function (printoem.h)
 description: This function is obsolete.
 old-location: print\oemoutputcharstr.htm
 tech.root: print
-ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.date: 11/18/2019
 keywords: ["OEMOutputCharStr function"]
 ms.keywords: OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr

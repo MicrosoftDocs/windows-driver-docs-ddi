@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION
 title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION (d3d10umddi.h)
 description: Sets the amount of downsampling to perform on the output.
 old-location: display\videoprocessorsetoutputconstriction.htm
-ms.assetid: 4b34a76b-2e56-4656-9112-ad2e1d53525d
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback, d3d10umddi/pfnVideoProcessorSetOutputConstriction, display.videoprocessorsetoutputconstriction, pfnVideoProcessorSetOutputConstriction, pfnVideoProcessorSetOutputConstriction callback function [Display Devices]

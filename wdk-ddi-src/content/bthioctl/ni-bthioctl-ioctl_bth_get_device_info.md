@@ -4,7 +4,6 @@ title: IOCTL_BTH_GET_DEVICE_INFO (bthioctl.h)
 description: The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, previously discovered remote radios that are Bluetooth-enabled.
 old-location: bltooth\ioctl_bth_get_device_info.htm
 tech.root: bltooth
-ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_DEVICE_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO

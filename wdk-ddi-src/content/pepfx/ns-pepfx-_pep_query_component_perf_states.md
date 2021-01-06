@@ -4,7 +4,6 @@ title: _PEP_QUERY_COMPONENT_PERF_STATES (pepfx.h)
 description: The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set.
 old-location: kernel\pep_query_component_perf_states.htm
 tech.root: kernel
-ms.assetid: D14CB726-2576-490E-B3FD-E970F8B3C87F
 ms.date: 04/30/2018
 keywords: ["PEP_QUERY_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_STATES, kernel.pep_query_component_perf_states, pepfx/PEP_QUERY_COMPONENT_PERF_STATES, pepfx/PPEP_QUERY_COMPONENT_PERF_STATES"
@@ -68,7 +67,7 @@ The <b>PEP_QUERY_COMPONENT_PERF_STATES</b> structure contains a list of discrete
 
 ### -field States
 
-[in] A pointer to an output buffer. The PEP writes an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_perf_state">PEP_PERF_STATE</a> structures to this buffer. Each array element describes one P-state in the P-state set specified by the <b>Set</b> member. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) allocated this buffer, which is guaranteed to be large enough to contain an array of the length that the PEP previously wrote to the <b>Discrete.Count</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_QUERY_COMPONENT_PERF_SET</a> structure in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification.
+[in] A pointer to an output buffer. The PEP writes an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_perf_state">PEP_PERF_STATE</a> structures to this buffer. Each array element describes one P-state in the P-state set specified by the <b>Set</b> member. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) allocated this buffer, which is guaranteed to be large enough to contain an array of the length that the PEP previously wrote to the <b>Discrete.Count</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_QUERY_COMPONENT_PERF_SET</a> structure in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification.
 
 ## -remarks
 

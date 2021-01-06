@@ -4,7 +4,6 @@ title: ExRundownCompleted function (wdm.h)
 description: The ExRundownCompleted routine updates the run-down status of a shared object to indicate that the run down of the object has completed.
 old-location: kernel\exrundowncompleted.htm
 tech.root: kernel
-ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.date: 04/30/2018
 keywords: ["ExRundownCompleted function"]
 ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted

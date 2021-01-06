@@ -4,7 +4,6 @@ title: InterlockedDecrement function (miniport.h)
 description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel
-ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.date: 04/30/2018
 keywords: ["InterlockedDecrement function"]
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement

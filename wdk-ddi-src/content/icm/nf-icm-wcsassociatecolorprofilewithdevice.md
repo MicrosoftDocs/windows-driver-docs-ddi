@@ -4,7 +4,6 @@ title: WcsAssociateColorProfileWithDevice function (icm.h)
 description: The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.
 old-location: print\wcsassociatecolorprofilewithdevice.htm
 tech.root: print
-ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.date: 08/26/2020
 keywords: ["WcsAssociateColorProfileWithDevice function"]
 ms.keywords: WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice function [Print Devices], colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, icm/WcsAssociateColorProfileWithDevice, print.wcsassociatecolorprofilewithdevice

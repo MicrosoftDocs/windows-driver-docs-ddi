@@ -4,7 +4,6 @@ title: IDebugControl4::SetEventFilterCommandWide (dbgeng.h)
 description: The SetEventFilterCommandWide method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommandwide.htm
 tech.root: debugger
-ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::SetEventFilterCommandWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetEventFilterCommandWide method, IDebugControl4.SetEventFilterCommandWide, IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide

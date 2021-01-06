@@ -2,7 +2,6 @@
 UID: NC:trustedruntimeclx.EVT_TR_DISCONNECT_SECURE_SERVICE
 title: EVT_TR_DISCONNECT_SECURE_SERVICE (trustedruntimeclx.h)
 description: 
-ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
 ms.date: 11/20/2020
 keywords: ["EVT_TR_DISCONNECT_SECURE_SERVICE callback function"]
 req.header: trustedruntimeclx.h

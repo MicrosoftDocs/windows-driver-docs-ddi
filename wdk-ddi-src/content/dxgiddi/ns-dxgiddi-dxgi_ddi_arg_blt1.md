@@ -4,7 +4,6 @@ title: DXGI_DDI_ARG_BLT1 (dxgiddi.h)
 description: Describes the parameters of a bit-block transfer (bitblt) that include specifications for a source rectangle. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_blt1.htm
 tech.root: display
-ms.assetid: bc7c2693-6a18-4335-8921-363981a830f1
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_BLT1 structure"]
 ms.keywords: DXGI_DDI_ARG_BLT1, DXGI_DDI_ARG_BLT1 structure [Display Devices], display.dxgi_ddi_arg_blt1, dxgiddi/DXGI_DDI_ARG_BLT1

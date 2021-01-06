@@ -4,7 +4,6 @@ title: GetFieldOffset function (wdbgexts.h)
 description: The GetFieldOffset function returns the offset of a member from the beginning of a structure.
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger
-ms.assetid: 3e5e782b-1a72-446d-9d15-c0f513f3440c
 ms.date: 05/03/2018
 keywords: ["GetFieldOffset function"]
 ms.keywords: GetFieldOffset, GetFieldOffset function [Windows Debugging], WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, debugger.getfieldoffset, wdbgexts/GetFieldOffset

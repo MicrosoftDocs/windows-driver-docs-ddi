@@ -4,7 +4,6 @@ title: _CIP_HDR2_MPEGTS (avcstrm.h)
 description: The CIP_HDR2_MPEGTS structure describes the second quadlet of a CIP header pair for an MPEGTS format stream.
 old-location: stream\cip_hdr2_mpegts.htm
 tech.root: stream
-ms.assetid: e1f46926-8c2b-46ff-9adb-5332fba17e3b
 ms.date: 04/23/2018
 keywords: ["CIP_HDR2_MPEGTS structure"]
 ms.keywords: "*PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS structure [Streaming Media Devices], PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], _CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, avcstrm/CIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts"

@@ -4,7 +4,6 @@ title: NDK_FN_ARM_CQ (ndkpi.h)
 description: The NdkArmCq (NDK_FN_ARM_CQ) function arms an NDK completion queue (CQ) notification.
 old-location: netvista\ndk_fn_arm_cq.htm
 tech.root: netvista
-ms.assetid: 8204EC7B-8F90-4F34-BFFB-9F1574AF69BC
 ms.date: 05/02/2018
 keywords: ["NDK_FN_ARM_CQ callback function"]
 ms.keywords: NDK_FN_ARM_CQ, NDK_FN_ARM_CQ callback, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq

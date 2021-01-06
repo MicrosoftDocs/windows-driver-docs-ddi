@@ -4,7 +4,6 @@ title: FsRtlCheckLockForOplockRequest function (ntifs.h)
 description: The FsRtlCheckLockForOplockRequest routine checks for locks within the allocation size of a file. The file lock object is checked for the presence of byte range locks that would prevent an oplock request from being granted.
 old-location: ifsk\fsrtlchecklockforoplockrequest.htm
 tech.root: ifsk
-ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.date: 03/29/2018
 keywords: ["FsRtlCheckLockForOplockRequest function"]
 ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest

@@ -4,7 +4,6 @@ title: _PosBarcodeScanDataTypeData (pointofservicedriverinterface.h)
 description: This structure describes a buffer of barcode symbologies supported by the driver.
 old-location: pos\posbarcodescandatatypedata.htm
 tech.root: pos
-ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.date: 02/23/2018
 keywords: ["PosBarcodeScanDataTypeData structure"]
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata

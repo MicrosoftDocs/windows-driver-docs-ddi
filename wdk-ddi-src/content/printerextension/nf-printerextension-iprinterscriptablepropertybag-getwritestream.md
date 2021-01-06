@@ -4,7 +4,6 @@ title: IPrinterScriptablePropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream and uses it to write to a stream property.
 old-location: print\iprinterscriptablepropertybag_getwritestream.htm
 tech.root: print
-ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptablePropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetWriteStream method, IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream

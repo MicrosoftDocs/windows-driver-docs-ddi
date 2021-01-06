@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO
 title: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO (d3dkmddi.h)
 description: The pfnReleaseModeInfo function releases a D3DKMDT_VIDPN_TARGET_MODE structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo.htm
-ms.assetid: 0b1d0331-f0fa-40fc-a1d6-15fe3568f3cc
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback, VidPnFunctions_faa4fee3-0bf7-43af-a000-e5b7e891c9e9.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]

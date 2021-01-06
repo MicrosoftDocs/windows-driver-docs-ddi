@@ -4,7 +4,6 @@ title: IOCTL_NFCRM_SET_RADIO_STATE (nfcradiodev.h)
 description: This IOCTL is used by the radio management application or service to set the radio power state of the proximity device.
 old-location: nfpdrivers\ioctl_nfcrm_set_radio_state.htm
 tech.root: nfpdrivers
-ms.assetid: C54C774A-3FBB-4850-BBB2-2B330CC64A8D
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCRM_SET_RADIO_STATE IOCTL"]
 ms.keywords: IOCTL_NFCRM_SET_RADIO_STATE, IOCTL_NFCRM_SET_RADIO_STATE control, IOCTL_NFCRM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCRM_SET_RADIO_STATE, nfcradiodev/IOCTL_NFCRM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcrm_set_radio_state

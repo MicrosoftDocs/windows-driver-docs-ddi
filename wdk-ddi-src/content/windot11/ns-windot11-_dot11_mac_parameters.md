@@ -4,7 +4,6 @@ title: _DOT11_MAC_PARAMETERS (windot11.h)
 description: The DOT11_MAC_PARAMETERS is the optional input for an OID_DOT11_CREATE_MAC request. The device role is defined in an operation mode bitmask included in this structure.
 old-location: netvista\dot11_mac_parameters.htm
 tech.root: netvista
-ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.date: 02/16/2018
 keywords: ["DOT11_MAC_PARAMETERS structure"]
 ms.keywords: "*PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Revision, Size, Type, _DOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, windot11/DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS"

@@ -4,7 +4,6 @@ title: FsRtlAreNamesEqual function (ntifs.h)
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm
 tech.root: ifsk
-ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.date: 04/16/2018
 keywords: ["FsRtlAreNamesEqual function"]
 ms.keywords: FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ifsk.fsrtlarenamesequal, ntifs/FsRtlAreNamesEqual
@@ -85,7 +84,7 @@ Case-insensitive matching is performed by converting both strings to uppercase b
 
 If a pool allocation failure occurs, <b>FsRtlAreNamesEqual</b> raises a STATUS_NO_MEMORY exception. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: FltAllocateFileLock function (fltkernel.h)
 description: The FltAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fltallocatefilelock.htm
 tech.root: ifsk
-ms.assetid: f5a96fc2-e6b8-44df-a827-d10d693f6f2b
 ms.date: 04/16/2018
 keywords: ["FltAllocateFileLock function"]
 ms.keywords: FltAllocateFileLock, FltAllocateFileLock routine [Installable File System Drivers], FltApiRef_a_to_d_f59cead3-059a-4457-9339-c90cc007ca63.xml, fltkernel/FltAllocateFileLock, ifsk.fltallocatefilelock

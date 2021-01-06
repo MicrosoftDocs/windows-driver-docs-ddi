@@ -4,7 +4,6 @@ title: IoCallDriver macro (wdm.h)
 description: The IoCallDriver routine sends an IRP to the driver associated with a specified device object.
 old-location: kernel\iocalldriver.htm
 tech.root: kernel
-ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
 ms.date: 04/30/2018
 keywords: ["IoCallDriver macro"]
 ms.keywords: IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver

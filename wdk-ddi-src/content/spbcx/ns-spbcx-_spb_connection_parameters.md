@@ -4,7 +4,6 @@ title: _SPB_CONNECTION_PARAMETERS (spbcx.h)
 description: The SPB_CONNECTION_PARAMETERS structure contains the connection parameters for a target device on a simple peripheral bus.
 old-location: spb\spb_connection_parameters.htm
 tech.root: SPB
-ms.assetid: 4707b797-6759-426d-89eb-01215af6ce19
 ms.date: 04/30/2018
 keywords: ["SPB_CONNECTION_PARAMETERS structure"]
 ms.keywords: "*PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], SPB.spb_connection_parameters, SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], _SPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, spbcx/SPB_CONNECTION_PARAMETERS"

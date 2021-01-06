@@ -4,7 +4,6 @@ title: WPD_EFFECT_MODES (portabledevice.h)
 description: The WPD_EFFECT_MODES enumeration type describes various visual effects that can be applied to an image.
 old-location: wpddk\wpd_effect_modes.htm
 tech.root: wpd_dk
-ms.assetid: 60789d63-ff36-4085-a1d7-a805c271a385
 ms.date: 02/15/2018
 keywords: ["tagWPD_EFFECT_MODES enumeration"]
 ms.keywords: WPD_EFFECT_MODES, WPD_EFFECT_MODES enumeration, WPD_EFFECT_MODE_BLACK_AND_WHITE, WPD_EFFECT_MODE_COLOR, WPD_EFFECT_MODE_SEPIA, WPD_EFFECT_MODE_UNDEFINED, enumeration, portabledevice/WPD_EFFECT_MODES, portabledevice/WPD_EFFECT_MODE_BLACK_AND_WHITE, portabledevice/WPD_EFFECT_MODE_COLOR, portabledevice/WPD_EFFECT_MODE_SEPIA, portabledevice/WPD_EFFECT_MODE_UNDEFINED, tagWPD_EFFECT_MODES, wpddk.wpd_effect_modes

@@ -4,7 +4,6 @@ title: KSWAVE_BUFFER (ksmedia.h)
 description: The KSWAVE_BUFFER structure is used to describe a sample buffer.
 old-location: stream\kswave_buffer.htm
 tech.root: stream
-ms.assetid: 1bd19fcd-90da-4e1a-ac9a-692c6fddc7ab
 ms.date: 04/30/2019
 keywords: ["KSWAVE_BUFFER structure"]
 ms.keywords: "*PKSWAVE_BUFFER, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"

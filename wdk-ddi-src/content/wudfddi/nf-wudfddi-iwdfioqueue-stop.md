@@ -4,7 +4,6 @@ title: IWDFIoQueue::Stop (wudfddi.h)
 description: The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\iwdfioqueue_stop.htm
 tech.root: wdf
-ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.date: 02/26/2018
 keywords: ["IWDFIoQueue::Stop"]
 ms.keywords: IWDFIoQueue interface,Stop method, IWDFIoQueue.Stop, IWDFIoQueue::Stop, Stop, Stop method, Stop method,IWDFIoQueue interface, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, umdf.iwdfioqueue_stop, wdf.iwdfioqueue_stop, wudfddi/IWDFIoQueue::Stop

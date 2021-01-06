@@ -3,7 +3,6 @@ UID: NF:netconfiguration.NetConfigurationQueryBinary
 title: NetConfigurationQueryBinary function (netconfiguration.h)
 description: Retrieves the data that is currently assigned to a specified registry value, stores the data in a framework-allocated buffer, and creates a framework memory object to represent the buffer.
 tech.root: netvista
-ms.assetid: bc8e68be-3bbd-47b6-ba9a-1ab1ee063b39
 ms.date: 11/02/2018
 keywords: ["NetConfigurationQueryBinary function"]
 ms.keywords: NetConfigurationQueryBinary

@@ -4,7 +4,6 @@ title: DXGKDDI_MIRACAST_DESTROY_CONTEXT (dispmprt.h)
 description: Destroys an instance of a Miracast device.
 old-location: display\dxgkddimiracastdestroycontext.htm
 tech.root: display
-ms.assetid: 2DEEB379-C9E8-45E4-920D-D94F8C27A4EF
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_MIRACAST_DESTROY_CONTEXT callback function"]
 ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DXGKDDI_MIRACAST_DESTROY_CONTEXT callback, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext

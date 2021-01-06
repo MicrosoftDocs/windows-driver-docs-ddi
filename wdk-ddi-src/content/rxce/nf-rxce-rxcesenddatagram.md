@@ -4,7 +4,6 @@ title: RxCeSendDatagram function (rxce.h)
 description: RxCeSendDatagram sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesenddatagram.htm
 tech.root: ifsk
-ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.date: 04/16/2018
 keywords: ["RxCeSendDatagram function"]
 ms.keywords: RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml

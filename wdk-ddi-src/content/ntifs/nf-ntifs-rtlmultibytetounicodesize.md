@@ -4,7 +4,6 @@ title: RtlMultiByteToUnicodeSize function (ntifs.h)
 description: The RtlMultiByteToUnicodeSize routine determines the number of bytes that are required to store the Unicode translation for the specified source string.
 old-location: ifsk\rtlmultibytetounicodesize.htm
 tech.root: ifsk
-ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
 ms.date: 04/16/2018
 keywords: ["RtlMultiByteToUnicodeSize function"]
 ms.keywords: RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], ifsk.rtlmultibytetounicodesize, ntifs/RtlMultiByteToUnicodeSize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml
@@ -75,7 +74,7 @@ Length, in bytes, of the source string.
 
 Like <b>RtlMultiByteToUnicodeN</b>, <b>RtlMultiByteToUnicodeSize</b> supports only precomposed Unicode characters that are mapped to the current system ANSI code page installed at system boot. 
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

@@ -4,7 +4,6 @@ title: PFN_STOP_MIRACAST_SESSION (netdispumdddi.h)
 description: Called by the operating system to start a Miracast connected session that had earlier been started by a call to the StartMiracastSession function.
 old-location: display\stopmiracastsession.htm
 tech.root: display
-ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
 ms.date: 05/10/2018
 keywords: ["PFN_STOP_MIRACAST_SESSION callback function"]
 ms.keywords: PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION callback, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession

@@ -4,7 +4,6 @@ title: IoBuildPartialMdl function (wdm.h)
 description: The IoBuildPartialMdl routine builds a new memory descriptor list (MDL) that represents part of a buffer that is described by an existing MDL.
 old-location: kernel\iobuildpartialmdl.htm
 tech.root: kernel
-ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.date: 04/30/2018
 keywords: ["IoBuildPartialMdl function"]
 ms.keywords: IoBuildPartialMdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, kernel.iobuildpartialmdl, wdm/IoBuildPartialMdl

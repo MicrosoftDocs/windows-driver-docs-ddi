@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 title: _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION (d3dkmthk.h)
 description: The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 old-location: display\d3dkmt_sharedprimaryunlocknotification.htm
-ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure"]
 ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification

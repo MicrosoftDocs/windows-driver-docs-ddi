@@ -4,7 +4,6 @@ title: PFNKSCLOCK_GETTIME (ks.h)
 description: The routine gets system time.KStrClockGetTime is a system-supplied routine that retrieves the current system time.KStrClockGetPhysicalTime is a system-supplied routine that retrieves the current system time minus any suspended delta.
 old-location: stream\kstrclockgettime.htm
 tech.root: stream
-ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
 ms.date: 04/23/2018
 keywords: ["PFNKSCLOCK_GETTIME callback function"]
 ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime

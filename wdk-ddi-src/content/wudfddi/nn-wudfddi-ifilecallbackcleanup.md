@@ -4,7 +4,6 @@ title: IFileCallbackCleanup (wudfddi.h)
 description: The framework can notify a driver when the driver should perform a cleanup operation.
 old-location: wdf\ifilecallbackcleanup.htm
 tech.root: wdf
-ms.assetid: d42eb7d5-6bf6-4f0f-a249-a869db486b6f
 ms.date: 02/26/2018
 keywords: ["IFileCallbackCleanup interface"]
 ms.keywords: IFileCallbackCleanup, IFileCallbackCleanup interface, IFileCallbackCleanup interface,described, UMDFFileObjectRef_8f409e94-4586-4f25-a8ba-1c39544ec661.xml, umdf.ifilecallbackcleanup, wdf.ifilecallbackcleanup, wudfddi/IFileCallbackCleanup

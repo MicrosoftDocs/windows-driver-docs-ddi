@@ -4,7 +4,6 @@ title: OEMEndDoc function (printoem.h)
 description: The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.
 old-location: print\oemenddoc.htm
 tech.root: print
-ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.date: 04/20/2018
 keywords: ["OEMEndDoc function"]
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc

@@ -4,7 +4,6 @@ title: _WDF_PROPERTY_STORE_ROOT_CLASS (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent.
 old-location: wdf\wdf_property_store_root_class.htm
 tech.root: wdf
-ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.date: 02/26/2018
 keywords: ["WDF_PROPERTY_STORE_ROOT_CLASS enumeration"]
 ms.keywords: WDF_PROPERTY_STORE_ROOT_CLASS, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassLegacyHardwareKey, WdfPropertyStoreRootClassSoftwareKey, _WDF_PROPERTY_STORE_ROOT_CLASS, umdf.wdf_property_store_root_class, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, wdf.wdf_property_store_root_class, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey

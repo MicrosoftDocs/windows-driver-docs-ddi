@@ -4,7 +4,6 @@ title: FILTER_SYNCHRONOUS_OID_REQUEST function (ndis.h)
 description: NDIS calls a filter driver's FilterSynchronousOidRequest function to preview a Synchronous OID request before the request is given to the underlying miniport driver.
 old-location: netvista\filter_synchronous_oid_request.htm
 tech.root: netvista
-ms.assetid: AC84B27B-6FBF-429D-A8FA-F3C8F583F738
 ms.date: 05/02/2018
 keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST, FilterSynchronousOidRequest, FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request

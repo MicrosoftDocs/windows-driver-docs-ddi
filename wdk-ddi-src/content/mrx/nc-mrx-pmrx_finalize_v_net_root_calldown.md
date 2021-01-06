@@ -4,7 +4,6 @@ title: PMRX_FINALIZE_V_NET_ROOT_CALLDOWN (mrx.h)
 description: The MRxFinalizeVNetRoot routine is called by RDBSS to request that a network mini-redirector finalize a V_NET_ROOT structure.
 old-location: ifsk\mrxfinalizevnetroot.htm
 tech.root: ifsk
-ms.assetid: 13d0c903-57b6-4a57-977a-bf1bd651660f
 ms.date: 04/16/2018
 keywords: ["PMRX_FINALIZE_V_NET_ROOT_CALLDOWN callback function"]
 ms.keywords: MRxFinalizeVNetRoot, MRxFinalizeVNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_V_NET_ROOT_CALLDOWN, ifsk.mrxfinalizevnetroot, mrx/MRxFinalizeVNetRoot, mrxref_a5cc53ee-2d11-4987-aeb4-fe9cc2cc9b3e.xml

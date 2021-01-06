@@ -4,7 +4,6 @@ title: IWDFIoRequest::GetReadParameters (wudfddi.h)
 description: The GetReadParameters method retrieves the request parameters for a read-type request.
 old-location: wdf\iwdfiorequest_getreadparameters.htm
 tech.root: wdf
-ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::GetReadParameters"]
 ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetReadParameters method, IWDFIoRequest.GetReadParameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters

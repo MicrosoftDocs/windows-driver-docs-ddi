@@ -4,7 +4,6 @@ title: IOCTL_HPMI_BATTERY_UTILIZATION_HINT (hpmi.h)
 description: Set command sent to HPMI to provide battery utilization hints.
 old-location: powermeter\ioctl_hpmi_battery_utilization_hint.htm
 tech.root: powermeter
-ms.assetid: CE326F69-64A4-466E-8A02-5C08AFF8490C
 ms.date: 05/08/2018
 keywords: ["IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL"]
 ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint

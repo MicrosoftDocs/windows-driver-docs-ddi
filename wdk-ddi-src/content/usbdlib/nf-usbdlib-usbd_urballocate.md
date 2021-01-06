@@ -4,7 +4,6 @@ title: USBD_UrbAllocate function (usbdlib.h)
 description: The USBD_UrbAllocate routine allocates a USB Request Block (URB).
 old-location: buses\usbd_urballocate.htm
 tech.root: usbref
-ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
 ms.date: 06/24/2019
 keywords: ["USBD_UrbAllocate function"]
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate

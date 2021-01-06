@@ -4,7 +4,6 @@ title: IDebugOutputCallbacks2 (dbgeng.h)
 description: The IDebugOutputCallbacks2 interface allows clients to receive full debugger markup language (DML) content for presentation.
 old-location: debugger\idebugoutputcallbacks2.htm
 tech.root: debugger
-ms.assetid: D35D8960-AD9F-4493-B6CD-3E3049CC3BBD
 ms.date: 05/03/2018
 keywords: ["IDebugOutputCallbacks2 interface"]
 ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2

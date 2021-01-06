@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_GET_PROPERTIES (sensorscx.h)
 description: This callback function returns the properties for a given sensor.
 old-location: sensors\evtsensorgetproperties.htm
 tech.root: sensors
-ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_GET_PROPERTIES callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES callback, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties

@@ -4,7 +4,6 @@ title: KSP_PIN (ks.h)
 description: Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
 old-location: stream\ksp_pin.htm
 tech.root: stream
-ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.date: 04/23/2018
 keywords: ["KSP_PIN structure"]
 ms.keywords: "*PKSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"

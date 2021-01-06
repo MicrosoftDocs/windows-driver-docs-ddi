@@ -4,7 +4,6 @@ title: NdisMReadDmaCounter function (ndis.h)
 description: The NdisMReadDmaCounter function returns the current value of the system DMA controller's counter.
 old-location: netvista\ndismreaddmacounter.htm
 tech.root: netvista
-ms.assetid: bfce0f28-4cca-48a2-8836-2f77f4b6370a
 ms.date: 05/02/2018
 keywords: ["NdisMReadDmaCounter function"]
 ms.keywords: NdisMReadDmaCounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, ndis/NdisMReadDmaCounter, netvista.ndismreaddmacounter

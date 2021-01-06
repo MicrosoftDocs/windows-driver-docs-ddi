@@ -4,7 +4,6 @@ title: _FSCTL_OFFLOAD_READ_OUTPUT (ntifs.h)
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
 tech.root: ifsk
-ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.date: 04/16/2018
 keywords: ["FSCTL_OFFLOAD_READ_OUTPUT structure"]
 ms.keywords: "*PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, PFSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, ntifs/FSCTL_OFFLOAD_READ_OUTPUT, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT"

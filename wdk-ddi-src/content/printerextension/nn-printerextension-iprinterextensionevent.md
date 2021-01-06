@@ -4,7 +4,6 @@ title: IPrinterExtensionEvent (printerextension.h)
 description: The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
 old-location: print\iprinterextensionevent_interface.htm
 tech.root: print
-ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEvent interface"]
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent

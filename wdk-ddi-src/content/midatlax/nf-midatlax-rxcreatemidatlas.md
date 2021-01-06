@@ -4,7 +4,6 @@ title: RxCreateMidAtlas function (midatlax.h)
 description: RxCreateMidAtlas allocates a new instance of MID_ATLAS data structure and initializes it.
 old-location: ifsk\rxcreatemidatlas.htm
 tech.root: ifsk
-ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.date: 04/16/2018
 keywords: ["RxCreateMidAtlas function"]
 ms.keywords: RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], ifsk.rxcreatemidatlas, midatlax/RxCreateMidAtlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml

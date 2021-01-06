@@ -4,7 +4,6 @@ title: PFND3DDDI_DRAWPRIMITIVE2 (d3dumddi.h)
 description: The DrawPrimitive2 function draws nonindexed primitives in which the Microsoft Direct3D runtime has transformed the vertex data.
 old-location: display\drawprimitive2.htm
 tech.root: display
-ms.assetid: a81080f0-fbb3-4616-9324-642b60befcb3
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DRAWPRIMITIVE2 callback function"]
 ms.keywords: DrawPrimitive2, DrawPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE2, PFND3DDDI_DRAWPRIMITIVE2 callback, UserModeDisplayDriver_Functions_5c08f7ff-b74c-4389-9b35-2f24f9468b5d.xml, d3dumddi/DrawPrimitive2, display.drawprimitive2

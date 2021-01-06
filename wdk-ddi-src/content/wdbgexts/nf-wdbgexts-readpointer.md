@@ -4,7 +4,6 @@ title: ReadPointer function (wdbgexts.h)
 description: The ReadPointer function reads a pointer from the target.
 old-location: debugger\readpointer.htm
 tech.root: debugger
-ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
 ms.date: 05/03/2018
 keywords: ["ReadPointer function"]
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer

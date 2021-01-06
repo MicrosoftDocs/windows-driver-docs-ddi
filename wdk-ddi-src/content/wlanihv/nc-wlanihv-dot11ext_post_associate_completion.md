@@ -4,7 +4,6 @@ title: DOT11EXT_POST_ASSOCIATE_COMPLETION (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extpostassociatecompletion.htm
 tech.root: netvista
-ms.assetid: 25db270c-3de8-4ced-82f1-2cd778006538
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_POST_ASSOCIATE_COMPLETION callback"]
 ms.keywords: DOT11EXT_POST_ASSOCIATE_COMPLETION, Dot11ExtPostAssociateCompletion, Dot11ExtPostAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_d7368927-721a-4cd4-9ccc-ccb02964b811.xml, netvista.dot11extpostassociatecompletion, wlanihv/Dot11ExtPostAssociateCompletion

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_MODEM_LOGGING_LEVEL_CONFIG
 title: _WWAN_MODEM_LOGGING_LEVEL_CONFIG (wwan.h)
 description: The WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration specifies the level for which modem logs are collected.
 tech.root: netvista
-ms.assetid: BA48D00B-4D26-4298-BA39-E87D27F4F299
 ms.date: 04/11/2019
 keywords: ["WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration"]
 ms.keywords: _WWAN_MODEM_LOGGING_LEVEL_CONFIG WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG

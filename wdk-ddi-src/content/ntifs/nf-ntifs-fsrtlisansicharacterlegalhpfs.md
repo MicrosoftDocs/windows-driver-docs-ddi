@@ -4,7 +4,6 @@ title: FsRtlIsAnsiCharacterLegalHpfs macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalHpfs macro determines whether an ANSI character is legal for HPFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalhpfs.htm
 tech.root: ifsk
-ms.assetid: 7c7e79ff-badf-4f5b-bab6-5b9fa1656e23
 ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegalHpfs macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegalHpfs, FsRtlIsAnsiCharacterLegalHpfs function [Installable File System Drivers], fsrtlref_063585f7-66ed-427f-aaea-c19d9d10fb5c.xml, ifsk.fsrtlisansicharacterlegalhpfs, ntifs/FsRtlIsAnsiCharacterLegalHpfs
@@ -60,7 +59,7 @@ The <b>FsRtlIsAnsiCharacterLegalHpfs</b> macro determines whether an ANSI charac
 
 ## -remarks
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 ## -see-also
 

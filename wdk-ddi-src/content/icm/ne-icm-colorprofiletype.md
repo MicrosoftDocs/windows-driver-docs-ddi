@@ -4,7 +4,6 @@ title: COLORPROFILETYPE (icm.h)
 description: The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 old-location: print\colorprofiletype.htm
 tech.root: print
-ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.date: 08/13/2020
 keywords: ["COLORPROFILETYPE enumeration"]
 ms.keywords: "*PCOLORPROFILETYPE, COLORPROFILETYPE, COLORPROFILETYPE enumeration [Print Devices], CPT_CAMP, CPT_DMP, CPT_GMMP, CPT_ICC, colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, icm/COLORPROFILETYPE, icm/CPT_CAMP, icm/CPT_DMP, icm/CPT_GMMP, icm/CPT_ICC, print.colorprofiletype"

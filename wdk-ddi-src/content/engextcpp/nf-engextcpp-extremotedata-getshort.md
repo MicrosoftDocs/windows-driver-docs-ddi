@@ -4,7 +4,6 @@ title: ExtRemoteData::GetShort (engextcpp.h)
 description: The GetShort method returns a SHORT version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getshort.htm
 tech.root: debugger
-ms.assetid: 5e364e83-76db-44b0-b5bc-15eed53bbbdf
 ms.date: 05/03/2018
 keywords: ["ExtRemoteData::GetShort"]
 ms.keywords: EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, ExtRemoteData class [Windows Debugging],GetShort method, ExtRemoteData.GetShort, ExtRemoteData::GetShort, GetShort, GetShort method [Windows Debugging], GetShort method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getshort

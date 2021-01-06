@@ -2,7 +2,6 @@
 UID: NF:fltkernel.FltAcquirePushLockSharedEx
 title: FltAcquirePushLockSharedEx function (fltkernel.h)
 description: The FltAcquirePushLockSharedEx routine acquires the given push lock for shared access by the calling thread.
-ms.assetid: 760a310c-c6eb-493c-8535-9f601fa2882f
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["FltAcquirePushLockSharedEx function"]

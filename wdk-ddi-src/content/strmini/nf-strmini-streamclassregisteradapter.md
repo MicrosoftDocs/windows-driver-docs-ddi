@@ -4,7 +4,6 @@ title: StreamClassRegisterAdapter function (strmini.h)
 description: The StreamClassRegisterAdapter routine registers a stream class minidriver.The name StreamClassRegisterAdapter is supported for backward compatibility only.Instead, Microsoft recommends the use of StreamClassRegisterMinidriver, an alias of StreamClassRegisterAdapter. The name StreamClassRegisterMinidriver more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.The StreamClassRegisterMinidriver routine registers a stream minidriver with the stream class driver.
 old-location: stream\streamclassregisterminidriver.htm
 tech.root: stream
-ms.assetid: 231a0e11-2968-4a51-9a51-ae98a483f85b
 ms.date: 04/23/2018
 keywords: ["StreamClassRegisterAdapter function"]
 ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], StreamClassRegisterMinidriver, strclass-routines_5336cc3e-8abd-4943-a191-12dbf9d25b85.xml, stream.streamclassregisterminidriver, strmini/StreamClassRegisterAdapter

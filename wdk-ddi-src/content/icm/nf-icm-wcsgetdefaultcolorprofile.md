@@ -4,7 +4,6 @@ title: WcsGetDefaultColorProfile function (icm.h)
 description: The WcsGetDefaultColorProfile function retrieves the default color profile for a device, or the device-independent default if the device is not specified.
 old-location: print\wcsgetdefaultcolorprofile.htm
 tech.root: print
-ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.date: 08/26/2020
 keywords: ["WcsGetDefaultColorProfile function"]
 ms.keywords: WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices], colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, icm/WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile

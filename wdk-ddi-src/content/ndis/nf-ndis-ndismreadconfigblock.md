@@ -4,7 +4,6 @@ title: NdisMReadConfigBlock function (ndis.h)
 description: A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the NdisMReadConfigBlock function to read data from a VF configuration block.
 old-location: netvista\ndismreadconfigblock.htm
 tech.root: netvista
-ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.date: 05/02/2018
 keywords: ["NdisMReadConfigBlock function"]
 ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock

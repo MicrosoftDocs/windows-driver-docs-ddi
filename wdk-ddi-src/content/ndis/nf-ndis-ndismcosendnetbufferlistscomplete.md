@@ -4,7 +4,6 @@ title: NdisMCoSendNetBufferListsComplete function (ndis.h)
 description: The NdisMCoSendNetBufferListsComplete function returns a linked list of NET_BUFFER_LIST structures to an overlying driver and returns the final status of a CoNDIS send request.
 old-location: netvista\ndismcosendnetbufferlistscomplete.htm
 tech.root: netvista
-ms.assetid: c4978122-6d13-4e9b-8eb7-d06cd7372268
 ms.date: 05/02/2018
 keywords: ["NdisMCoSendNetBufferListsComplete function"]
 ms.keywords: NdisMCoSendNetBufferListsComplete, NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml, ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete
@@ -49,7 +48,7 @@ api_name:
 
 The 
   <b>NdisMCoSendNetBufferListsComplete</b> function returns a linked list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to an overlying
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures to an overlying
   driver and returns the final status of a CoNDIS send request.
 
 ## -parameters
@@ -67,7 +66,7 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
 
 [in]
 A pointer to a linked list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. The miniport
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. The miniport
      driver received the NET_BUFFER_LIST structures in previous calls to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_send_net_buffer_lists">
      MiniportCoSendNetBufferLists</a> function.
@@ -88,7 +87,7 @@ A miniport driver calls
     <b>NdisMCoSendNetBufferListsComplete</b> to complete send requests that NDIS made to the driver's 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_send_net_buffer_lists">
     MiniportCoSendNetBufferLists</a> function. The miniport driver specifies a linked list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are
     associated with the completed send requests.
 
 While the status of the send requests is pending, the miniport driver retains ownership of the
@@ -134,4 +133,4 @@ A miniport driver's call to
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

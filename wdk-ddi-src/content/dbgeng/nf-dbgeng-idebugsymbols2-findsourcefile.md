@@ -4,7 +4,6 @@ title: IDebugSymbols2::FindSourceFile (dbgeng.h)
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
 tech.root: debugger
-ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::FindSourceFile"]
 ms.keywords: FindSourceFile, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging],IDebugSymbols interface, FindSourceFile method [Windows Debugging],IDebugSymbols2 interface, FindSourceFile method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],FindSourceFile method, IDebugSymbols2 interface [Windows Debugging],FindSourceFile method, IDebugSymbols2.FindSourceFile, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging],FindSourceFile method, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile

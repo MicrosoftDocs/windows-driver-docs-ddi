@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDARG_IN_REPORTCRITICALERROR
 title: IDARG_IN_REPORTCRITICALERROR
 ms.date: 09/24/2020
-ms.assetid: 487793dd-3689-44ea-adc3-5d65738c613a
 tech.root: display
 ms.topic: language-reference
 targetos: Windows

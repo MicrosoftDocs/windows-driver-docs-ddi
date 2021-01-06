@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 title: _D3DKMT_GETPROCESSDEVICELOSTSUPPORT (d3dkmthk.h)
 description: Used to get the indicated process.
 old-location: display\d3dkmt-getprocessdevicelostsupport.htm
-ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.date: 05/10/2018
 keywords: ["D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure"]
 ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport

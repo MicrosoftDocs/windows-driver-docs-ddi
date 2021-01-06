@@ -4,7 +4,6 @@ title: BdaCreateTopology function (bdasup.h)
 description: The BdaCreateTopology function creates the topology between two pins.
 old-location: stream\bdacreatetopology.htm
 tech.root: stream
-ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.date: 04/23/2018
 keywords: ["BdaCreateTopology function"]
 ms.keywords: BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, stream.bdacreatetopology

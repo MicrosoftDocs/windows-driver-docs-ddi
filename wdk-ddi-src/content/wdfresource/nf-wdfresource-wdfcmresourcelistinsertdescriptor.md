@@ -4,7 +4,6 @@ title: WdfCmResourceListInsertDescriptor function (wdfresource.h)
 description: The WdfCmResourceListInsertDescriptor method inserts a resource descriptor into a specified resource list.
 old-location: wdf\wdfcmresourcelistinsertdescriptor.htm
 tech.root: wdf
-ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.date: 02/26/2018
 keywords: ["WdfCmResourceListInsertDescriptor function"]
 ms.keywords: DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, WdfCmResourceListInsertDescriptor, WdfCmResourceListInsertDescriptor method, kmdf.wdfcmresourcelistinsertdescriptor, wdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor

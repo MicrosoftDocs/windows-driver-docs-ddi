@@ -4,7 +4,6 @@ title: RtlInitializeSidEx function (ntifs.h)
 description: The RtlInitializeSidEx routine initializes a pre-allocated security identifier (SID) structure.
 old-location: ifsk\rtlinitializesidex.htm
 tech.root: ifsk
-ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.date: 04/16/2018
 keywords: ["RtlInitializeSidEx function"]
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx

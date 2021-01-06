@@ -4,7 +4,6 @@ title: UfxDeviceNotifyDetach function (ufxclient.h)
 description: Notifies UFX that the device's USB cable has been detached.
 old-location: buses\ufxdevicenotifydetach.htm
 tech.root: usbref
-ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyDetach function"]
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach

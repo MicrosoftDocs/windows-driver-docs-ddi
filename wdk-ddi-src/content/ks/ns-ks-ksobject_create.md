@@ -4,7 +4,6 @@ title: KSOBJECT_CREATE (ks.h)
 description: The KSOBJECT_CREATE structure contains an array of create handlers for base object classes supported by this device object.
 old-location: stream\ksobject_create.htm
 tech.root: stream
-ms.assetid: b59d76eb-77c2-4ae5-8be2-f987d7f58446
 ms.date: 04/23/2018
 keywords: ["KSOBJECT_CREATE structure"]
 ms.keywords: "*PKSOBJECT_CREATE, KSOBJECT_CREATE, KSOBJECT_CREATE structure [Streaming Media Devices], PKSOBJECT_CREATE, PKSOBJECT_CREATE structure pointer [Streaming Media Devices], ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, ks/KSOBJECT_CREATE, ks/PKSOBJECT_CREATE, stream.ksobject_create"

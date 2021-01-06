@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetConstantNameWide (dbgeng.h)
 description: The GetConstantNameWide method returns the name of the specified constant.
 old-location: debugger\getconstantnamewide.htm
 tech.root: debugger
-ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetConstantNameWide"]
 ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide

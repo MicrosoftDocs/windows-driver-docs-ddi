@@ -4,7 +4,6 @@ title: FltAddOpenReparseEntry function (fltkernel.h)
 description: This routine adds a caller allocated open reparse structure, OPEN_REPARSE_LIST_ENTRY, into a create operation.
 old-location: ifsk\fltaddopenreparseentry.htm
 tech.root: ifsk
-ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
 ms.date: 04/16/2018
 keywords: ["FltAddOpenReparseEntry function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry

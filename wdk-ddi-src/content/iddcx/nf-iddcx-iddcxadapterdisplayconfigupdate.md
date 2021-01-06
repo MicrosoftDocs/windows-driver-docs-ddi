@@ -4,7 +4,6 @@ title: IddCxAdapterDisplayConfigUpdate function
 author: windows-driver-content
 description: IddCxAdapterDisplayConfigUpdate updates the display configuration for the remote session.
 tech.root: display
-ms.assetid: 38d12545-6ee4-49d2-93ba-c9c1fa89c968
 ms.date: 09/24/2020
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
 ms.keywords: IddCxAdapterDisplayConfigUpdate

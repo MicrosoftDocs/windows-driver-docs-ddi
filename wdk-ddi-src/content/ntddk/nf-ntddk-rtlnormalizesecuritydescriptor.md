@@ -3,7 +3,6 @@ UID: NF:ntddk.RtlNormalizeSecurityDescriptor
 title: RtlNormalizeSecurityDescriptor function
 description: TBD
 tech.root: kernel
-ms.assetid: 85a58c4d-1c92-481a-8f5f-655fc9cae3b8
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlNormalizeSecurityDescriptor

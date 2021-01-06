@@ -4,7 +4,6 @@ title: WdfIoTargetFormatRequestForRead function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForRead method builds a read request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforread.htm
 tech.root: wdf
-ms.assetid: e7c770de-0508-46e8-9820-aee6716fb7a7
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForRead function"]
 ms.keywords: DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead method, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, wdfiotarget/WdfIoTargetFormatRequestForRead

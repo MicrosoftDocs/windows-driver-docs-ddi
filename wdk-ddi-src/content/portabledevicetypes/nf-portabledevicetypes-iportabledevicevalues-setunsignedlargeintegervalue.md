@@ -4,7 +4,6 @@ title: IPortableDeviceValues::SetUnsignedLargeIntegerValue (portabledevicetypes.
 description: Adds a new ULONGLONG value (type VT_UI8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedlargeintegervalue.htm
 tech.root: wpd_dk
-ms.assetid: 717d1ea8-3315-4fa4-b066-c1529f57090f
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetUnsignedLargeIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetUnsignedLargeIntegerValue method, IPortableDeviceValues.SetUnsignedLargeIntegerValue, IPortableDeviceValues::SetUnsignedLargeIntegerValue, IPortableDeviceValuesSetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue method, SetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_setunsignedlargeintegervalue

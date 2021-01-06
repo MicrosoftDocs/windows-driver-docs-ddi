@@ -4,7 +4,6 @@ title: tag_video_geterrortext_parms (msviddrv.h)
 description: 
 old-location: stream\video_geterrortext_parms.htm
 tech.root: stream
-ms.assetid: 6CF06E9A-D6A1-42A7-9C34-44BC52713621
 ms.date: 04/23/2018
 keywords: ["tag_video_geterrortext_parms structure"]
 ms.keywords: "*LPVIDEO_GETERRORTEXT_PARMS, LPVIDEO_GETERRORTEXT_PARMS, LPVIDEO_GETERRORTEXT_PARMS structure pointer [Streaming Media Devices], VIDEO_GETERRORTEXT_PARMS, VIDEO_GETERRORTEXT_PARMS structure [Streaming Media Devices], msviddrv/LPVIDEO_GETERRORTEXT_PARMS, msviddrv/VIDEO_GETERRORTEXT_PARMS, stream.video_geterrortext_parms, tag_video_geterrortext_parms"

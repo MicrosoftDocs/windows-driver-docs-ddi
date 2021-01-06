@@ -4,7 +4,6 @@ title: IWiaDrvItem::GetNextSiblingItem (wiamindr_lh.h)
 description: The IWiaDrvItem::GetNextSiblingItem method gets the next sibling of the current item in an IWiaDrvItem folder.
 old-location: image\iwiadrvitem_getnextsiblingitem.htm
 tech.root: image
-ms.assetid: bc348f40-aaa4-4cd4-9dee-c02748d7412c
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::GetNextSiblingItem"]
 ms.keywords: DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetNextSiblingItem method, IWiaDrvItem.GetNextSiblingItem, IWiaDrvItem::GetNextSiblingItem, image.iwiadrvitem_getnextsiblingitem, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem

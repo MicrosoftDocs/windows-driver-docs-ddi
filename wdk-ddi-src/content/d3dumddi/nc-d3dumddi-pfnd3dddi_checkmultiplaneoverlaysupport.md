@@ -4,7 +4,6 @@ title: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to check the details on hardware support for multiplane overlays.
 old-location: display\pfncheckmultiplaneoverlaysupport__d3d_.htm
 tech.root: display
-ms.assetid: A439E695-D374-439A-8A69-6D4E247FF134
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function"]
 ms.keywords: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT, PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT (D3D) callback, d3dumddi/pfnCheckMultiPlaneOverlaySupport, display.pfncheckmultiplaneoverlaysupport__d3d_, pfnCheckMultiPlaneOverlaySupport, pfnCheckMultiPlaneOverlaySupport callback function [Display Devices]

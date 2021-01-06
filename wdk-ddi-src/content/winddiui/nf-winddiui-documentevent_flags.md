@@ -2,7 +2,6 @@
 UID: NF:winddiui.DOCUMENTEVENT_FLAGS
 title: DOCUMENTEVENT_FLAGS macro (winddiui.h)
 description: 
-ms.assetid: 2b250a80-2a6c-4427-94b5-4591b15dcdc2
 ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_FLAGS macro"]
 ms.keywords: DOCUMENTEVENT_FLAGS

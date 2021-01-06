@@ -4,7 +4,6 @@ title: _STORAGE_PROTOCOL_UFS_DATA_TYPE (ntddstor.h)
 description: The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_ufs_data_type.htm
 tech.root: storage
-ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.date: 03/29/2018
 keywords: ["STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"

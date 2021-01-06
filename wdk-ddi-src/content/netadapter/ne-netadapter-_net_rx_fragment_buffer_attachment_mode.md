@@ -3,7 +3,6 @@ UID: NE:netadapter._NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 title: _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE (netadapter.h)
 description: The NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration identifies how the operating system should pre-attach NET_PACKET_FRAGMENT buffers to NET_PACKETs for a net adapter client driver's receive queues.
 tech.root: netvista
-ms.assetid: 887f68a8-1154-492e-8af3-0280a8637ef5
 ms.date: 02/15/2018
 keywords: ["NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration"]
 ms.keywords: _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE, NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE,
@@ -23,13 +22,13 @@ f1_keywords:
  - netadapter/_NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
  - NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
  - netadapter/NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 ---
 

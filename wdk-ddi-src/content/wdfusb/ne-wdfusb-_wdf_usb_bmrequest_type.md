@@ -4,7 +4,6 @@ title: _WDF_USB_BMREQUEST_TYPE (wdfusb.h)
 description: The WDF_USB_BMREQUEST_TYPE enumeration identifies the data transfer type for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_type.htm
 tech.root: wdf
-ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.date: 02/26/2018
 keywords: ["WDF_USB_BMREQUEST_TYPE enumeration"]
 ms.keywords: BmRequestClass, BmRequestStandard, BmRequestVendor, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, WDF_USB_BMREQUEST_TYPE, WDF_USB_BMREQUEST_TYPE enumeration, _WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, wdf.wdf_usb_bmrequest_type, wdfusb/BmRequestClass, wdfusb/BmRequestStandard, wdfusb/BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE

@@ -4,7 +4,6 @@ title: StreamClassGetPhysicalAddress function (strmini.h)
 description: The StreamClassGetPhysicalAddress routine translates a virtual memory address to a physical memory address and locks the corresponding physical memory for a DMA operation.
 old-location: stream\streamclassgetphysicaladdress.htm
 tech.root: stream
-ms.assetid: 5a8e7130-00e7-4bff-8939-7cfcc1a2b9aa
 ms.date: 04/23/2018
 keywords: ["StreamClassGetPhysicalAddress function"]
 ms.keywords: StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress

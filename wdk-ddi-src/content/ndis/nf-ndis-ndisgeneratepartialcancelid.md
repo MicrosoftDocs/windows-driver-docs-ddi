@@ -4,7 +4,6 @@ title: NdisGeneratePartialCancelId function (ndis.h)
 description: The NdisGeneratePartialCancelId function returns a value that the calling driver must use as the high-order byte of a cancellation ID.
 old-location: netvista\ndisgeneratepartialcancelid.htm
 tech.root: netvista
-ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.date: 05/02/2018
 keywords: ["NdisGeneratePartialCancelId function"]
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
@@ -59,7 +58,7 @@ The
 ## -remarks
 
 Before marking send 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
     <a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
@@ -91,7 +90,7 @@ Typically, an overlying driver calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

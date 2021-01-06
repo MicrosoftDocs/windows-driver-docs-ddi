@@ -4,7 +4,6 @@ title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB (d3dumddi.h)
 description: pfnWaitForSynchronizationObjectFromGpuCb waits for a monitored fence to reach a certain value before processing subsequent context commands.
 old-location: display\pfnwaitforsynchronizationobjectfromgpucb.htm
 tech.root: display
-ms.assetid: 49023D25-D57E-418F-AD10-133377B90493
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB callback function"]
 ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB callback, d3dumddi/pfnWaitForSynchronizationObjectFromGpuCb, display.pfnwaitforsynchronizationobjectfromgpucb, pfnWaitForSynchronizationObjectFromGpuCb, pfnWaitForSynchronizationObjectFromGpuCb callback function [Display Devices]

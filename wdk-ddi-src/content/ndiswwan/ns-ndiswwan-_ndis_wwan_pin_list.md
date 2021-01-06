@@ -4,7 +4,6 @@ title: _NDIS_WWAN_PIN_LIST (ndiswwan.h)
 description: The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\ndis_wwan_pin_list.htm
 tech.root: netvista
-ms.assetid: 1d3c1084-8f51-4c8a-813e-6700d60c3dab
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_PIN_LIST structure"]
 ms.keywords: "*PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, _NDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, netvista.ndis_wwan_pin_list"

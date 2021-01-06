@@ -4,7 +4,6 @@ title: SENSOR_PROPERTY_LIST (sensorsdef.h)
 description: This structure contains a list of all SENSOR_VALUE_PAIR structures for each sensor. This structure is returned by calling ReadFile.
 old-location: sensors\sensor_property_list.htm
 tech.root: sensors
-ms.assetid: 03E03BB9-95DB-49C0-AF14-FFF1998C98A7
 ms.date: 05/03/2018
 keywords: ["SENSOR_PROPERTY_LIST structure"]
 ms.keywords: "*PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], SENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST"

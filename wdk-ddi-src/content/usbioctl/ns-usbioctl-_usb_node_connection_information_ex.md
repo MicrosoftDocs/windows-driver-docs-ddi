@@ -4,7 +4,6 @@ title: _USB_NODE_CONNECTION_INFORMATION_EX (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION_EX structure is used in conjunction with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request to obtain information about the connection associated with the indicated USB port.
 old-location: buses\usb_node_connection_information_ex.htm
 tech.root: usbref
-ms.assetid: d824e279-50a9-46a1-a93a-9ae17928f146
 ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_INFORMATION_EX structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml"
@@ -100,7 +99,7 @@ The <b>Speed</b> member of the <b>USB_NODE_CONNECTION_INFORMATION_EX</b> structu
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 

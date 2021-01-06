@@ -4,7 +4,6 @@ title: _USB_BUS_INTERFACE_USBDI_V3 (usbbusif.h)
 description: The USB_BUS_INTERFACE_USBDI_V3 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v3.htm
 tech.root: usbref
-ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
 ms.date: 05/07/2018
 keywords: ["USB_BUS_INTERFACE_USBDI_V3 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], _USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3"
@@ -165,4 +164,4 @@ The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL.
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>

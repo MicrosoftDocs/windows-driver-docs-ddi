@@ -4,7 +4,6 @@ title: ExInitializeNPagedLookasideList function (wdm.h)
 description: The ExInitializeNPagedLookasideList routine initializes a lookaside list for nonpaged entries of the specified size.
 old-location: kernel\exinitializenpagedlookasidelist.htm
 tech.root: kernel
-ms.assetid: d783feff-d187-4a2f-8d3d-b5221b03459a
 ms.date: 04/30/2018
 keywords: ["ExInitializeNPagedLookasideList function"]
 ms.keywords: ExInitializeNPagedLookasideList, ExInitializeNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_054ed856-4da7-42e9-a413-baefdd1064ed.xml, kernel.exinitializenpagedlookasidelist, wdm/ExInitializeNPagedLookasideList

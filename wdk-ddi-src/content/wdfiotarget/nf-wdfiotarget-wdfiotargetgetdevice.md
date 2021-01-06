@@ -4,7 +4,6 @@ title: WdfIoTargetGetDevice function (wdfiotarget.h)
 description: The WdfIoTargetGetDevice method returns a handle to the framework device object that is the parent of the specified local or remote I/O target.
 old-location: wdf\wdfiotargetgetdevice.htm
 tech.root: wdf
-ms.assetid: 2e076f2f-59e3-43ca-b83e-3079bbf41df3
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetGetDevice function"]
 ms.keywords: DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, WdfIoTargetGetDevice, WdfIoTargetGetDevice method, kmdf.wdfiotargetgetdevice, wdf.wdfiotargetgetdevice, wdfiotarget/WdfIoTargetGetDevice

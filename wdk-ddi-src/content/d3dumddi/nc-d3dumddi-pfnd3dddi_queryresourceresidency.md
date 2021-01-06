@@ -4,7 +4,6 @@ title: PFND3DDDI_QUERYRESOURCERESIDENCY (d3dumddi.h)
 description: The QueryResourceResidency function determines the residency of the given list of resources.
 old-location: display\queryresourceresidency.htm
 tech.root: display
-ms.assetid: 5b9a2a59-b2d1-468e-998b-902bc2a75cb3
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_QUERYRESOURCERESIDENCY callback function"]
 ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, PFND3DDDI_QUERYRESOURCERESIDENCY callback, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency

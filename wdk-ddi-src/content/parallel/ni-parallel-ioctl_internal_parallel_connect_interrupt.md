@@ -4,7 +4,6 @@ title: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request connects an optional interrupt service routine and an optional deferred port check routine to a parallel port.
 old-location: parports\ioctl_internal_parallel_connect_interrupt.htm
 tech.root: parports
-ms.assetid: 8cf5f2fc-e298-4f5b-bca4-3034e8a4a061
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parports.ioctl_internal_parallel_connect_interrupt

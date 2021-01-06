@@ -4,7 +4,6 @@ title: IOCTL_SERIAL_SET_RTS (ntddser.h)
 description: The IOCTL_SERIAL_SET_RTS request sets RTS (request to send).
 old-location: serports\ioctl_serial_set_rts.htm
 tech.root: serports
-ms.assetid: a3ce8e93-12b1-4f84-82e5-0a384ac44f66
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_RTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml

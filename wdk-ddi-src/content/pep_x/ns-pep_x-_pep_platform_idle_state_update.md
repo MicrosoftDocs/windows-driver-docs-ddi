@@ -4,7 +4,6 @@ title: _PEP_PLATFORM_IDLE_STATE_UPDATE (pep_x.h)
 description: The PEP_PLATFORM_IDLE_STATE_UPDATE structure contains the updated properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state_update.htm
 tech.root: kernel
-ms.assetid: 488DA7B7-FB11-4AEF-902C-E461A281DF68
 ms.date: 04/30/2018
 keywords: ["PEP_PLATFORM_IDLE_STATE_UPDATE structure"]
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE_UPDATE, kernel.pep_platform_idle_state_update, pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE"
@@ -64,7 +63,7 @@ The worst-case latency, in 100-nanosecond units, for the platform to wake from t
 
 ### -field BreakEvenDuration
 
-The minimum amount of time, specified in 100-nanosecond units, that the platform must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) uses this member value as a hint to avoid switching the platform to an idle state unless the platform is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
+The minimum amount of time, specified in 100-nanosecond units, that the platform must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) uses this member value as a hint to avoid switching the platform to an idle state unless the platform is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 
 ## -remarks
 

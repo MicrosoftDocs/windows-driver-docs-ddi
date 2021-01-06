@@ -4,7 +4,6 @@ title: RILGSMNMR (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgsmnmr_2.htm
 tech.root: netvista
-ms.assetid: 9689a069-1235-4898-9610-3023f6e80dda
 ms.date: 02/26/2018
 keywords: ["RILGSMNMR structure"]
 ms.keywords: "*LPRILGSMNMR, RILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr_2, rilapitypes/RILGSMNMR"

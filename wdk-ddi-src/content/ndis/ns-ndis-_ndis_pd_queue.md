@@ -4,7 +4,6 @@ title: _NDIS_PD_QUEUE (ndis.h)
 description: This structure represents a provider's receive or transmit queue.
 old-location: netvista\ndis_pd_queue.htm
 tech.root: netvista
-ms.assetid: 5405A9A6-243B-4E80-85D7-46C6FCC8339F
 ms.date: 05/02/2018
 keywords: ["NDIS_PD_QUEUE structure"]
 ms.keywords: NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, netvista.ndis_pd_queue

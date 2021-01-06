@@ -4,7 +4,6 @@ title: WRITE_REGISTER_ULONG function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: wdf\write_register_ulong.htm
 tech.root: wdf
-ms.assetid: E5C5DAEA-9F4E-4202-90BE-A8D41EE03BDA
 ms.date: 02/26/2018
 keywords: ["WRITE_REGISTER_ULONG function"]
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG function, umdf.write_register_ulong, wdf.write_register_ulong, wudfddi_hwaccess/WRITE_REGISTER_ULONG

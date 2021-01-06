@@ -2,7 +2,6 @@
 UID: NF:systemrng.EntropyRegisterCallback
 title: EntropyRegisterCallback function (systemrng.h)
 description: 
-ms.assetid: 3bb67a7b-ea22-4df5-8008-469786d3ef82
 ms.date: 11/19/2020
 keywords: ["EntropyRegisterCallback function"]
 ms.keywords: EntropyRegisterCallback

@@ -4,7 +4,6 @@ title: IDebugFAEntryTags::GetProperties (extsfns.h)
 description: The GetProperties method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_getproperties.htm
 tech.root: debugger
-ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.date: 05/03/2018
 keywords: ["IDebugFAEntryTags::GetProperties"]
 ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties

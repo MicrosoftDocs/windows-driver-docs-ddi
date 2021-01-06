@@ -4,7 +4,6 @@ title: W_TCP_OFFLOAD_FORWARD_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadForward function to forward unacknowledged received TCP segments to an offload target.
 old-location: netvista\miniporttcpoffloadforward.htm
 tech.root: netvista
-ms.assetid: e5702476-60a3-4bfc-b959-198e98f0f9ba
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_FORWARD_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadForward, MiniportTcpOffloadForward callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_FORWARD_HANDLER, W_TCP_OFFLOAD_FORWARD_HANDLER callback, ndischimney/MiniportTcpOffloadForward, netvista.miniporttcpoffloadforward, tcp_chim_miniport_func_18a2b561-13cd-4337-8ff4-fcd3bfc34b3b.xml
@@ -77,7 +76,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      may be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. Each NET_BUFFER structure
@@ -156,7 +155,7 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

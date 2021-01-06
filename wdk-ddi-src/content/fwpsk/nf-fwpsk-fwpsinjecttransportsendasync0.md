@@ -4,7 +4,6 @@ title: FwpsInjectTransportSendAsync0 function (fwpsk.h)
 description: The FwpsInjectTransportSendAsync0 function injects packet data from the transport, datagram data, or ICMP error layers into the send data path.Note  FwpsInjectTransportSendAsync0 is the specific version of FwpsInjectTransportSendAsync used in Windows Vista and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FwpsInjectTransportSendAsync1 is available.
 old-location: netvista\fwpsinjecttransportsendasync0.htm
 tech.root: netvista
-ms.assetid: 1298a825-16c4-49ab-b038-19247975ea46
 ms.date: 05/02/2018
 keywords: ["FwpsInjectTransportSendAsync0 function"]
 ms.keywords: FwpsInjectTransportSendAsync0, FwpsInjectTransportSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync0, netvista.fwpsinjecttransportsendasync0, wfp_ref_2_funct_3_fwps_I_76082863-1d74-4916-9766-c65b745dca60.xml
@@ -134,7 +133,7 @@ The identifier of the routing compartment into which the packet data is injected
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a <b>NET_BUFFER_LIST</b> structure to use to
      inject packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
@@ -178,7 +177,7 @@ The packet data injection was initiated successfully. The filter engine will cal
        function after the filter engine has completed injecting the packet data into the network stack, or
        when an error occurred subsequently. In case of an error, the 
        <b>Status</b> member of the completed 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -350,7 +349,7 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

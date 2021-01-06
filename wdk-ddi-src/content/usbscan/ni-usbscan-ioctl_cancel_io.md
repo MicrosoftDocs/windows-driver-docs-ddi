@@ -4,7 +4,6 @@ title: IOCTL_CANCEL_IO (usbscan.h)
 description: Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_cancel_io.htm
 tech.root: image
-ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.date: 05/03/2018
 keywords: ["IOCTL_CANCEL_IO IOCTL"]
 ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO

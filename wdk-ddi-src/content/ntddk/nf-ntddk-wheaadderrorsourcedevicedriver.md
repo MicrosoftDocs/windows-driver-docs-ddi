@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaAddErrorSourceDeviceDriver
 title: WheaAddErrorSourceDeviceDriver function
 description: A device driver calls WheaAddErrorSourceDeviceDriver to add an error source.
 tech.root: whea
-ms.assetid: 7a3a1b3d-dc79-4bcf-ba1f-ccce6c685cbe
 ms.date: 04/01/2020
 keywords: ["WheaAddErrorSourceDeviceDriver function"]
 ms.keywords: WheaAddErrorSourceDeviceDriver

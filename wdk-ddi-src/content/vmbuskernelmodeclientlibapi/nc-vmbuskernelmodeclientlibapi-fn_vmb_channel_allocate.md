@@ -3,7 +3,6 @@ UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_ALLOCATE
 title: FN_VMB_CHANNEL_ALLOCATE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelAllocate function allocates a new VMBus channel that has default parameters and callbacks.
 tech.root: netvista
-ms.assetid: b7d23f6f-cc08-4e0b-aca9-9e8234465acb
 ms.date: 05/17/2018
 keywords: ["FN_VMB_CHANNEL_ALLOCATE callback function"]
 req.header: vmbuskernelmodeclientlibapi.h

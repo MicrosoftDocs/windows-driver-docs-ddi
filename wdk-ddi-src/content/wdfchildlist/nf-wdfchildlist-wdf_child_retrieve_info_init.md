@@ -4,7 +4,6 @@ title: WDF_CHILD_RETRIEVE_INFO_INIT function (wdfchildlist.h)
 description: The WDF_CHILD_RETRIEVE_INFO_INIT function initializes a WDF_CHILD_RETRIEVE_INFO structure.
 old-location: wdf\wdf_child_retrieve_info_init.htm
 tech.root: wdf
-ms.assetid: e41a656c-c507-45ca-a232-6926ace3c9d9
 ms.date: 02/26/2018
 keywords: ["WDF_CHILD_RETRIEVE_INFO_INIT function"]
 ms.keywords: DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml, WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT function, kmdf.wdf_child_retrieve_info_init, wdf.wdf_child_retrieve_info_init, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT

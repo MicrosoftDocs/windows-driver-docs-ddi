@@ -2,7 +2,6 @@
 UID: NI:trustedrt.IOCTL_TR_SERVICE_QUERY
 title: IOCTL_TR_SERVICE_QUERY (trustedrt.h)
 description: 
-ms.assetid: f22825f0-a287-4343-a971-1e8765d0c199
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_SERVICE_QUERY IOCTL"]
 req.header: trustedrt.h

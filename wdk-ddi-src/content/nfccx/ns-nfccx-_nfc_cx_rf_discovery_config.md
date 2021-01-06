@@ -4,7 +4,6 @@ title: _NFC_CX_RF_DISCOVERY_CONFIG (nfccx.h)
 description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcDxDeviceInitialize, otherwise an error is returned.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
 tech.root: nfpdrivers
-ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.date: 02/15/2018
 keywords: ["NFC_CX_RF_DISCOVERY_CONFIG structure"]
 ms.keywords: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config"

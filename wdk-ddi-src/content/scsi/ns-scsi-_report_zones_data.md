@@ -4,7 +4,6 @@ title: _REPORT_ZONES_DATA (scsi.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_data.htm
 tech.root: storage
-ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.date: 03/29/2018
 keywords: ["REPORT_ZONES_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, storage.report_zones_data"

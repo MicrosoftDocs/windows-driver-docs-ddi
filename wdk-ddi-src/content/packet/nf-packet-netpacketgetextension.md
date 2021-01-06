@@ -3,7 +3,6 @@ UID: NF:packet.NetPacketGetExtension
 title: NetPacketGetExtension function (packet.h)
 description: The NetPacketGetExtension function retrieves information stored in one of a packet's extensions.
 tech.root: netvista
-ms.assetid: 209d7b54-a5f0-435f-84c6-3ba7ac0dec53
 ms.date: 01/30/2019
 keywords: ["NetPacketGetExtension function"]
 ms.keywords: NetPacketGetExtension
@@ -28,13 +27,13 @@ targetos: Windows
 f1_keywords:
  - NetPacketGetExtension
  - packet/NetPacketGetExtension
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - DllExport
-apilocation:
+api_location:
  - NtosKrnl.exe
-apiname:
+api_name:
  - NetPacketGetExtension
 ---
 

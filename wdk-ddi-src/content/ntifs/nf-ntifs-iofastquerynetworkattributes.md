@@ -4,7 +4,6 @@ title: IoFastQueryNetworkAttributes function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iofastquerynetworkattributes.htm
 tech.root: ifsk
-ms.assetid: 69a3e9c2-8bd5-4f42-9de9-58f1eea8b9a2
 ms.date: 04/16/2018
 keywords: ["IoFastQueryNetworkAttributes function"]
 ms.keywords: IoFastQueryNetworkAttributes, IoFastQueryNetworkAttributes function [Installable File System Drivers], ifsk.iofastquerynetworkattributes, ioref_c2d35e20-00b0-48e3-9c0e-d13f5dd9b7f7.xml, ntifs/IoFastQueryNetworkAttributes

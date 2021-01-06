@@ -4,7 +4,6 @@ title: EVT_WDF_INTERRUPT_DPC (wdfinterrupt.h)
 description: A driver's EvtInterruptDpc event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored.
 old-location: wdf\evtinterruptdpc.htm
 tech.root: wdf
-ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_INTERRUPT_DPC callback function"]
 ms.keywords: DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, EVT_WDF_INTERRUPT_DPC, EVT_WDF_INTERRUPT_DPC callback, EvtInterruptDpc, EvtInterruptDpc callback function, kmdf.evtinterruptdpc, wdf.evtinterruptdpc, wdfinterrupt/EvtInterruptDpc

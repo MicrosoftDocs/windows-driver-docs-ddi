@@ -4,7 +4,6 @@ title: EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE (sercx.h)
 description: The EvtSerCx2SelectNextTransmitTransactionType event callback function is called by version 2 of the serial framework extension (SerCx2) to determine which data-transfer mechanism to use for the next write operation.
 old-location: serports\evtsercx2selectnexttransmittransactiontype.htm
 tech.root: serports
-ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback function"]
 ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype

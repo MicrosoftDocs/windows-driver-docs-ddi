@@ -4,7 +4,6 @@ title: IDebugControl5::GetStackTraceEx (dbgeng.h)
 description: The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see Debugging Optimized Code and Inline Functions.
 old-location: debugger\idebugcontrol5_getstacktraceex.htm
 tech.root: debugger
-ms.assetid: 6DFCA3CB-D5DE-4EF5-892B-776B932E6CE6
 ms.date: 05/03/2018
 keywords: ["IDebugControl5::GetStackTraceEx"]
 ms.keywords: GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex

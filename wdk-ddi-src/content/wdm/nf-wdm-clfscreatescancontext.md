@@ -4,7 +4,6 @@ title: ClfsCreateScanContext function (wdm.h)
 description: The ClfsCreateScanContext routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.
 old-location: kernel\clfscreatescancontext.htm
 tech.root: kernel
-ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.date: 04/30/2018
 keywords: ["ClfsCreateScanContext function"]
 ms.keywords: ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext

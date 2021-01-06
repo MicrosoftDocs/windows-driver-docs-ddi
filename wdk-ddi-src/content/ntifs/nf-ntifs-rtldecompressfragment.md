@@ -4,7 +4,6 @@ title: RtlDecompressFragment function (ntifs.h)
 description: The RtlDecompressFragment function is used to decompress part of a compressed buffer (that is, a buffer &#0034;fragment&#0034;).
 old-location: ifsk\rtldecompressfragment.htm
 tech.root: ifsk
-ms.assetid: 80450bfb-ae3a-46cd-8cf2-905df5adf70d
 ms.date: 04/16/2018
 keywords: ["RtlDecompressFragment function"]
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml

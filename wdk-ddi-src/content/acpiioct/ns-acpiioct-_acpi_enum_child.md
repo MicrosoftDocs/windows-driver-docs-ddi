@@ -4,7 +4,6 @@ title: _ACPI_ENUM_CHILD (acpiioct.h)
 description: The ACPI_ENUM_CHILD structure is a member of the ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure and contains the full path and name of an object in an ACPI namespace.
 old-location: acpi\acpi_enum_child.htm
 tech.root: acpi
-ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.date: 02/15/2018
 keywords: ["ACPI_ENUM_CHILD structure"]
 ms.keywords: "*PACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD"

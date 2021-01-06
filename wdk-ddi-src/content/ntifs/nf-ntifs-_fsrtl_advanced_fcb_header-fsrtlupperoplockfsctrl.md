@@ -4,7 +4,6 @@ title: FsRtlUpperOplockFsctrl function (ntifs.h)
 description: The FsRtlUpperOplockFsctrl routine processes opportunistic lock (oplock) requests and acknowledgments for secondary, or layered, file systems.
 old-location: ifsk\fsrtlupperoplockfsctrl.htm
 tech.root: ifsk
-ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.date: 04/16/2018
 keywords: ["FsRtlUpperOplockFsctrl function"]
 ms.keywords: FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlupperoplockfsctrl, ntifs/FsRtlUpperOplockFsctrl

@@ -4,7 +4,6 @@ title: _D3DDDI_OVERLAYCOLORCONTROLS (d3dumddi.h)
 description: The D3DDDI_OVERLAYCOLORCONTROLS structure describes color-control settings for an overlay.
 old-location: display\d3dddi_overlaycolorcontrols.htm
 tech.root: display
-ms.assetid: 201fd9e8-74c3-4da0-b01d-f43f9aec4894
 ms.date: 05/10/2018
 keywords: ["D3DDDI_OVERLAYCOLORCONTROLS structure"]
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLS, D3DDDI_OVERLAYCOLORCONTROLS structure [Display Devices], D3D_other_Structs_276dd56c-35ba-4ee4-97d7-adb8dfd59c7f.xml, _D3DDDI_OVERLAYCOLORCONTROLS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS, display.d3dddi_overlaycolorcontrols

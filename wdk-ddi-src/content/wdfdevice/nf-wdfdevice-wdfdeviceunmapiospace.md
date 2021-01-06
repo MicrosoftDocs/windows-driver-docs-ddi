@@ -4,7 +4,6 @@ title: WdfDeviceUnmapIoSpace function (wdfdevice.h)
 description: The WdfDeviceUnmapIoSpace function unmaps a specified range of physical addresses previously mapped by the WdfDeviceMapIoSpace function.
 old-location: wdf\wdfdeviceunmapiospace.htm
 tech.root: wdf
-ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.date: 02/26/2018
 keywords: ["WdfDeviceUnmapIoSpace function"]
 ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace

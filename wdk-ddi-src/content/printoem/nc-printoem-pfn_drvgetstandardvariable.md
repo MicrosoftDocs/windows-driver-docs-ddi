@@ -4,7 +4,6 @@ title: PFN_DrvGetStandardVariable (printoem.h)
 description: This DrvGetStandardVariable function is obsolete.
 old-location: print\drvgetstandardvariable.htm
 tech.root: print
-ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
 ms.date: 04/20/2018
 keywords: ["PFN_DrvGetStandardVariable callback function"]
 ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable callback, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable

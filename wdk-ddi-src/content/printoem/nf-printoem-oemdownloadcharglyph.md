@@ -4,7 +4,6 @@ title: OEMDownloadCharGlyph function (printoem.h)
 description: OEMDownloadCharGlyph function
 old-location: print\oemdownloadcharglyph.htm
 tech.root: print
-ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.date: 04/20/2018
 keywords: ["OEMDownloadCharGlyph function"]
 ms.keywords: OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, printoem/OEMDownloadCharGlyph

@@ -4,7 +4,6 @@ title: _WWAN_RADIO_STATE (wwan.h)
 description: The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\wwan_radio_state.htm
 tech.root: netvista
-ms.assetid: 15c02819-bae8-48f5-8782-97823b6907bd
 ms.date: 05/02/2018
 keywords: ["WWAN_RADIO_STATE structure"]
 ms.keywords: "*PWWAN_RADIO_STATE, PWWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, netvista.wwan_radio_state, wwan/PWWAN_RADIO_STATE, wwan/WWAN_RADIO_STATE"

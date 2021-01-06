@@ -4,7 +4,6 @@ title: _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure specifies the security association (SA) offload handle to the tunnel portion of a send packet.
 old-location: netvista\ndis_ipsec_offload_v2_tunnel_net_buffer_list_info.htm
 tech.root: netvista
-ms.assetid: 3ca223a1-75d2-48b6-b4c2-f20e6fc57111
 ms.date: 05/02/2018
 keywords: ["NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info, task_offload_IPsecv2_ref_1a564583-cac3-48d5-96f9-c6fecb5fadce.xml"
@@ -72,7 +71,7 @@ Before the TCP/IP transport passes a send packet that a NIC will perform Interne
     information in the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
     NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> structure that is associated with the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 The TCP/IP transport supplies a handle in the 
     <b>OffloadHandle</b> member of NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO that specifies the handle to the
@@ -101,7 +100,7 @@ To set and get the IPsec tunnel information, use the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

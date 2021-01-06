@@ -4,7 +4,6 @@ title: FwpsConstructIpHeaderForTransportPacket0 function (fwpsk.h)
 description: The FwpsConstructIpHeaderForTransportPacket0 function is called by a callout to construct a new IP header or to rebuild a preexisting IP packet header for only one net buffer.Note  FwpsConstructIpHeaderForTransportPacket0 is a specific version of FwpsConstructIpHeaderForTransportPacket. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsconstructipheaderfortransportpacket0.htm
 tech.root: netvista
-ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.date: 05/02/2018
 keywords: ["FwpsConstructIpHeaderForTransportPacket0 function"]
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
@@ -58,7 +57,7 @@ The
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the cloned transport layer packet data for which a new IP header is to be constructed or rebuilt. To
      construct a new IP header, locate the offset of the cloned NET_BUFFER_LIST structure at the beginning of
      the transport header. To rebuild a preexisting IP packet header, locate the offset at the beginning of
@@ -317,7 +316,7 @@ Call
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

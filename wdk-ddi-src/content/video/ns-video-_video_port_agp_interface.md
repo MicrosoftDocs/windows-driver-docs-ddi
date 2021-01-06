@@ -4,7 +4,6 @@ title: _VIDEO_PORT_AGP_INTERFACE (video.h)
 description: The VIDEO_PORT_AGP_INTERFACE structure describes the AGP service routines provided by the video port driver.
 old-location: display\video_port_agp_interface.htm
 tech.root: display
-ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_AGP_INTERFACE structure"]
 ms.keywords: "*PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, _VIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface, video/PVIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE"

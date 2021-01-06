@@ -4,7 +4,6 @@ title: IDebugControl3::GetDumpFormatFlags (dbgeng.h)
 description: The GetDumpFormatFlags method returns the flags that describe what information is available in a dump file target.
 old-location: debugger\getdumpformatflags.htm
 tech.root: debugger
-ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetDumpFormatFlags"]
 ms.keywords: GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging],IDebugControl2 interface, GetDumpFormatFlags method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl2::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl3.GetDumpFormatFlags, IDebugControl3::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags

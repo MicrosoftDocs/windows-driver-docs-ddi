@@ -4,7 +4,6 @@ title: IKsNotifyEvent::KsNotifyEvent (ksproxy.h)
 description: The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs.
 old-location: stream\iksnotifyevent_ksnotifyevent.htm
 tech.root: stream
-ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.date: 08/20/2020
 keywords: ["IKsNotifyEvent::KsNotifyEvent"]
 ms.keywords: IKsNotifyEvent interface [Streaming Media Devices],KsNotifyEvent method, IKsNotifyEvent.KsNotifyEvent, IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices],IKsNotifyEvent interface, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent

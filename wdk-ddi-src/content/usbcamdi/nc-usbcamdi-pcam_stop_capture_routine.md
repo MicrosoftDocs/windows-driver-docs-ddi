@@ -4,7 +4,6 @@ title: PCAM_STOP_CAPTURE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamStopCapture callback function performs any processing after the stream is stopped.
 old-location: stream\camstopcapture.htm
 tech.root: stream
-ms.assetid: c4403edb-3035-469b-bdb9-c33882a1c90c
 ms.date: 04/23/2018
 keywords: ["PCAM_STOP_CAPTURE_ROUTINE callback function"]
 ms.keywords: CamStopCapture, CamStopCapture callback function [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE, PCAM_STOP_CAPTURE_ROUTINE callback, stream.camstopcapture, usbcamdi/CamStopCapture, usbcmdpr_56cc6085-dfff-4576-b19a-45683a7b62d8.xml

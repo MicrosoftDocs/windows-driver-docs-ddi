@@ -3,7 +3,6 @@ UID: NF:wdm.RtlInitUTF8StringEx
 title: RtlInitUTF8StringEx function (wdm.h)
 description: TBD
 tech.root: kernel
-ms.assetid: 5d8f81aa-6ba6-4181-973f-a5e6dc868f74
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8StringEx

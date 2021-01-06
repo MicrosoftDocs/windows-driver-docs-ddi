@@ -4,7 +4,6 @@ title: _VPCI_WRITE_BLOCK_INPUT (vpci.h)
 description: The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_write_block_input.htm
 tech.root: pci
-ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.date: 04/30/2018
 keywords: ["VPCI_WRITE_BLOCK_INPUT structure"]
 ms.keywords: "*PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, vpci/PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT"

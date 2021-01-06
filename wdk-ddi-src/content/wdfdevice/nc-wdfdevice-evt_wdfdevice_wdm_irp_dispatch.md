@@ -4,7 +4,6 @@ title: EVT_WDFDEVICE_WDM_IRP_DISPATCH (wdfdevice.h)
 description: A driver's EvtDeviceWdmIrpDispatch event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirpdispatch.htm
 tech.root: wdf
-ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.date: 02/26/2018
 keywords: ["EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function"]
 ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch

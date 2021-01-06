@@ -4,7 +4,6 @@ title: FltSupportsFileContexts function (fltkernel.h)
 description: The FltSupportsFileContexts routine determines whether the file system supports file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontexts.htm
 tech.root: ifsk
-ms.assetid: 968c2c6d-3544-45e7-b852-740fa4930349
 ms.date: 05/29/2019
 keywords: ["FltSupportsFileContexts function"]
 ms.keywords: FltApiRef_p_to_z_cad3f45c-7ae0-44dc-840d-a8ec3da65ea6.xml, FltSupportsFileContexts, FltSupportsFileContexts routine [Installable File System Drivers], fltkernel/FltSupportsFileContexts, ifsk.fltsupportsfilecontexts

@@ -4,7 +4,6 @@ title: FwpsNetBufferListRetrieveContext0 function (fwpsk.h)
 description: The FwpsNetBufferListRetrieveContext0 function retrieves the context associated with a network buffer list that was tagged in another layer.Note  FwpsNetBufferListRetrieveContext0 is a specific version of FwpsNetBufferListRetrieveContext.
 old-location: netvista\fwpsnetbufferlistretrievecontext0.htm
 tech.root: netvista
-ms.assetid: 482cec75-8a21-4988-b869-639d019f9460
 ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListRetrieveContext0 function"]
 ms.keywords: FwpsNetBufferListRetrieveContext0, FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRetrieveContext0, netvista.fwpsnetbufferlistretrievecontext0, wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml
@@ -146,4 +145,4 @@ You can also use this function to remove the context association by setting the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>

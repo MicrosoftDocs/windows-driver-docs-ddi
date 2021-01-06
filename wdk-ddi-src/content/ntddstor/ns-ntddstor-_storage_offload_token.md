@@ -4,7 +4,6 @@ title: _STORAGE_OFFLOAD_TOKEN (ntddstor.h)
 description: The STORAGE_OFFLOAD_TOKEN structure contains a token value that serves as a representation of a data set range within a file on a volume. This structure is used in performing offload reads and writes.
 old-location: storage\storage_offload_token.htm
 tech.root: storage
-ms.assetid: C9A0E3A8-CAB6-420D-A0FC-C598CFC9CB12
 ms.date: 03/29/2018
 keywords: ["STORAGE_OFFLOAD_TOKEN structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, Any other value, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, _STORAGE_OFFLOAD_TOKEN, ntddstor/PSTORAGE_OFFLOAD_TOKEN, ntddstor/STORAGE_OFFLOAD_TOKEN, storage.storage_offload_token"

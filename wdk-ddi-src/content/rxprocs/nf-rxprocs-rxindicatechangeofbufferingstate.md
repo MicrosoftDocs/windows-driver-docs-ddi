@@ -4,7 +4,6 @@ title: RxIndicateChangeOfBufferingState function (rxprocs.h)
 description: RxIndicateChangeOfBufferingState is called to register a change buffering state request (an oplock break indication, for example) for later processing. If necessary, worker thread routines for further processing are activated.
 old-location: ifsk\rxindicatechangeofbufferingstate.htm
 tech.root: ifsk
-ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.date: 04/16/2018
 keywords: ["RxIndicateChangeOfBufferingState function"]
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml

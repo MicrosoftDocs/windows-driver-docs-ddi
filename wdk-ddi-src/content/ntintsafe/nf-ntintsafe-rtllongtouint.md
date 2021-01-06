@@ -4,7 +4,6 @@ title: RtlLongToUInt function (ntintsafe.h)
 description: Converts a value of type LONG to a value of type UINT.
 old-location: kernel\rtllongtouint.htm
 tech.root: kernel
-ms.assetid: 8347581C-91CB-4C53-91C5-9560CC88A4B8
 ms.date: 04/30/2018
 keywords: ["RtlLongToUInt function"]
 ms.keywords: RtlLongToUInt, RtlLongToUInt function [Kernel-Mode Driver Architecture], kernel.rtllongtouint, ntintsafe/RtlLongToUInt

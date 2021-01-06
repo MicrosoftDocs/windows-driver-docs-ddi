@@ -4,7 +4,6 @@ title: _DXGI_DDI_ARG_OFFERRESOURCES (dxgiddi.h)
 description: Describes video memory resources that the user-mode display driver offers for reuse. Used with the pfnOfferResources function. Used with the pfnReclaimResources function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_offerresources.htm
 tech.root: display
-ms.assetid: 54d53a48-b2e2-43f6-9e6d-c35c732b07d9
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_OFFERRESOURCES structure"]
 ms.keywords: DXGI_DDI_ARG_OFFERRESOURCES, DXGI_DDI_ARG_OFFERRESOURCES structure [Display Devices], _DXGI_DDI_ARG_OFFERRESOURCES, display.dxgi_ddi_arg_offerresources, dxgiddi/DXGI_DDI_ARG_OFFERRESOURCES

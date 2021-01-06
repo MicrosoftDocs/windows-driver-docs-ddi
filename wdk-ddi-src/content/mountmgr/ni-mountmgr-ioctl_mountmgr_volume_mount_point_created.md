@@ -4,7 +4,6 @@ title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED (mountmgr.h)
 description: This IOCTL alerts the mount manager that a volume mount point has been created, so that the mount manager can replicate the database entry for the given mount point.
 old-location: storage\ioctl_mountmgr_volume_mount_point_created.htm
 tech.root: storage
-ms.assetid: 6042916a-1f0e-48ff-b73b-a37974281f96
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED control, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED control code [Storage Devices], k307_939215e3-3e33-401e-a1d4-c8d82b68f0e8.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED, storage.ioctl_mountmgr_volume_mount_point_created

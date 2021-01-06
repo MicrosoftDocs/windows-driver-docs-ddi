@@ -2,7 +2,6 @@
 UID: NS:d3dkmthk._D3DKMT_GETRUNTIMEDATA
 title: _D3DKMT_GETRUNTIMEDATA (d3dkmthk.h)
 description: Used to get runtime data.
-ms.assetid: cbd30292-94ee-4be6-a4b4-e0a22c2022ee
 ms.date: 10/19/2018
 keywords: ["D3DKMT_GETRUNTIMEDATA structure"]
 ms.keywords: _D3DKMT_GETRUNTIMEDATA, D3DKMT_GETRUNTIMEDATA,

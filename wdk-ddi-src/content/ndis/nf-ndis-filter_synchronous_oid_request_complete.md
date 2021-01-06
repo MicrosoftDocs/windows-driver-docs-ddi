@@ -4,7 +4,6 @@ title: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function (ndis.h)
 description: NDIS calls a filter driver’s FilterSynchronousOidRequestComplete function after a Synchronous OID request has been completed from an underlying driver.
 old-location: netvista\filter_synchronous_oid_request_complete.htm
 tech.root: netvista
-ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.date: 05/02/2018
 keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete

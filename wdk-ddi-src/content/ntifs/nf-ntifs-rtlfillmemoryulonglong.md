@@ -4,7 +4,6 @@ title: RtlFillMemoryUlonglong macro (ntifs.h)
 description: The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value.
 old-location: ifsk\rtlfillmemoryulonglong.htm
 tech.root: ifsk
-ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.date: 04/16/2018
 keywords: ["RtlFillMemoryUlonglong macro"]
 ms.keywords: RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml
@@ -69,7 +68,7 @@ ULONGLONG value with which to fill the range starting at <i>Destination</i> and 
 
 If the range of memory starting at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlonglong</b> must be running at IRQL < DISPATCH_LEVEL.
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>. 
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/_kernel/#buffered-data-and-buffer-initialization">Buffered Data and Buffer Initialization</a>. 
 
 For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine is contained in Ntoskrnl.lib.
 

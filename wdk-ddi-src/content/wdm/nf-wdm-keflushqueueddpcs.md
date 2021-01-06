@@ -4,7 +4,6 @@ title: KeFlushQueuedDpcs function (wdm.h)
 description: The KeFlushQueuedDpcs routine returns after all queued DPCs on all processors have executed.
 old-location: kernel\keflushqueueddpcs.htm
 tech.root: kernel
-ms.assetid: e5237e44-fff1-4928-9029-f1d1691ef2e3
 ms.date: 04/30/2018
 keywords: ["KeFlushQueuedDpcs function"]
 ms.keywords: KeFlushQueuedDpcs, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, kernel.keflushqueueddpcs, wdm/KeFlushQueuedDpcs

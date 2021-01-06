@@ -4,7 +4,6 @@ title: tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE (ksmedia.h)
 description: This structure contains the ROI info structure for exposure.
 old-location: stream\kscamera_extendedprop_roi_exposure.htm
 tech.root: stream
-ms.assetid: DE57E69E-6589-4336-BB3E-50715D6D5332
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, stream.kscamera_extendedprop_roi_exposure, tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE"

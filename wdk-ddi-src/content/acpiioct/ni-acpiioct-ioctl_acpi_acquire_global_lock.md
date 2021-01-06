@@ -4,7 +4,6 @@ title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK (acpiioct.h)
 description: The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for internal use only.
 old-location: acpi\ioctl_acpi_acquire_global_lock.htm
 tech.root: acpi
-ms.assetid: 359bd4d4-2557-4755-8904-32162645cdc0
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL"]
 ms.keywords: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_e6fd9b97-db9e-4a08-88bb-e6e84f08359b.xml, acpi.ioctl_acpi_acquire_global_lock, acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK

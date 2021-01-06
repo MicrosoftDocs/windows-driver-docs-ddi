@@ -4,7 +4,6 @@ title: PFNKSDEVICEIRPVOID (ks.h)
 description: An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL
 old-location: stream\avstrminidevicecancelstop.htm
 tech.root: stream
-ms.assetid: 7c3cb6e2-707a-4f8d-84b7-fce1354c06af
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEIRPVOID callback function"]
 ms.keywords: AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], PFNKSDEVICEIRPVOID, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml, ks/MyAVStrMiniDeviceIRP, stream.avstrminidevicecancelstop

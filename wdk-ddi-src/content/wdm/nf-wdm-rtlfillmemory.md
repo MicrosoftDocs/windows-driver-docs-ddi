@@ -4,7 +4,6 @@ title: RtlFillMemory macro (wdm.h)
 description: The RtlFillMemory routine fills a block of memory with the specified fill value.
 old-location: kernel\rtlfillmemory.htm
 tech.root: kernel
-ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.date: 04/30/2018
 keywords: ["RtlFillMemory macro"]
 ms.keywords: RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, wdm/RtlFillMemory

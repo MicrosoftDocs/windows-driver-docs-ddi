@@ -4,7 +4,6 @@ title: IDebugClient2 (dbgeng.h)
 description: IDebugClient2 interface
 old-location: debugger\idebugclient2.htm
 tech.root: debugger
-ms.assetid: 0ea32baa-b318-44ec-8696-a5b42fe73ed1
 ms.date: 05/03/2018
 keywords: ["IDebugClient2 interface"]
 ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], IDebugClient2 interface [Windows Debugging],described, dbgeng/IDebugClient2, debugger.idebugclient2

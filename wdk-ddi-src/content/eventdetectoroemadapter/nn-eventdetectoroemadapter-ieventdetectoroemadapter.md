@@ -3,7 +3,6 @@ UID: NN:eventdetectoroemadapter.IEventDetectorOemAdapter
 title: IEventDetectorOemAdapter
 description: The IEventDetectorOemAdapter interface is used for hardware keyword spotters.
 tech.root: audio
-ms.assetid: c8b85e0b-cf91-4e9d-895f-66208b5493a7
 ms.date: 02/22/2019
 keywords: ["IEventDetectorOemAdapter interface"]
 req.header: eventdetectoroemadapter.h

@@ -4,7 +4,6 @@ title: KSP_TIMEFORMAT (ks.h)
 description: The KSP_TIMEFORMAT structure corresponds to KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT.
 old-location: stream\ksp_timeformat.htm
 tech.root: stream
-ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.date: 04/23/2018
 keywords: ["KSP_TIMEFORMAT structure"]
 ms.keywords: "*PKSP_TIMEFORMAT, KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, ks/KSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, stream.ksp_timeformat"

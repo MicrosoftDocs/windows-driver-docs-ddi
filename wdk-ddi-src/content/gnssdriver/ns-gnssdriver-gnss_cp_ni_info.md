@@ -4,7 +4,6 @@ title: GNSS_CP_NI_INFO (gnssdriver.h)
 description: This structure contains CP NI information.
 old-location: gnss\gnss_cp_ni_info.htm
 tech.root: gnss
-ms.assetid: FC05C59C-F8B5-4573-A1F0-722A25BDA151
 ms.date: 02/15/2018
 keywords: ["GNSS_CP_NI_INFO structure"]
 ms.keywords: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], gnss.gnss_cp_ni_info, gnssdriver/GNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO"

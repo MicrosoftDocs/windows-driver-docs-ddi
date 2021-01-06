@@ -3,7 +3,6 @@ UID: NC:dispmprt.DXGKDDI_RESUMEVIRTUALGPU
 title: DXGKDDI_RESUMEVIRTUALGPU
 description: Virtual GPU suspend/resume is not supported.
 tech.root: display
-ms.assetid: 00d56e84-4997-4ea5-868b-bd85fa6d3926
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_RESUMEVIRTUALGPU callback function"]
 req.header: dispmprt.h

@@ -4,7 +4,6 @@ title: NDK_FN_CREATE_SHARED_ENDPOINT (ndkpi.h)
 description: The NdkCreateSharedEndpoint (NDK_FN_CREATE_SHARED_ENDPOINT) function creates an NDK shared endpoint.
 old-location: netvista\ndk_fn_create_shared_endpoint.htm
 tech.root: netvista
-ms.assetid: FE65B384-387E-4E04-8CF4-9C218F83A0C8
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_SHARED_ENDPOINT callback function"]
 ms.keywords: NDK_FN_CREATE_SHARED_ENDPOINT, NDK_FN_CREATE_SHARED_ENDPOINT callback, NdkCreateSharedEndpoint, NdkCreateSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSharedEndpoint, netvista.ndk_fn_create_shared_endpoint

@@ -4,7 +4,6 @@ title: _FILE_PIPE_INFORMATION (ntifs.h)
 description: The FILE_PIPE_INFORMATION structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 old-location: ifsk\file_pipe_information.htm
 tech.root: ifsk
-ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.date: 04/16/2018
 keywords: ["FILE_PIPE_INFORMATION structure"]
 ms.keywords: "*PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_INFORMATION, ifsk.file_pipe_information, ntifs/FILE_PIPE_INFORMATION, ntifs/PFILE_PIPE_INFORMATION"

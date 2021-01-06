@@ -4,7 +4,6 @@ title: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM (dot11wdi.h)
 description: The MiniportWdiTalTxRxPeerDeleteConfirm handler function is invoked after the completion of a PeerDeleteIndication call which did not return success.
 old-location: netvista\miniportwditaltxrxpeerdeleteconfirm.htm
 tech.root: netvista
-ms.assetid: 993C600F-E2FA-46D7-AE66-77048B481660
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM, MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback, MiniportWdiTalTxRxPeerDeleteConfirm, MiniportWdiTalTxRxPeerDeleteConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerDeleteConfirm, netvista.miniportwditaltxrxpeerdeleteconfirm

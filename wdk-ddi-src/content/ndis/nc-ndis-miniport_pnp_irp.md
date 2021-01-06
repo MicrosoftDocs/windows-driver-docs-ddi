@@ -4,7 +4,6 @@ title: MINIPORT_PNP_IRP (ndis.h)
 description: The MiniportPnpIrp function enables a miniport driver to optionally manage its Plug and Play (PnP) resources.
 old-location: netvista\miniportstartdevice.htm
 tech.root: netvista
-ms.assetid: ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f
 ms.date: 05/02/2018
 keywords: ["MINIPORT_PNP_IRP callback function"]
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MINIPORT_PNP_IRP callback, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"

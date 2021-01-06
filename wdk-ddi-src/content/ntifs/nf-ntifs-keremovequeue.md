@@ -4,7 +4,6 @@ title: KeRemoveQueue function (ntifs.h)
 description: The KeRemoveQueue routine gives the calling thread a pointer to a dequeued entry from the given queue object or allows the caller to wait, up to an optional timeout interval, on the queue object.
 old-location: ifsk\keremovequeue.htm
 tech.root: ifsk
-ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.date: 04/16/2018
 keywords: ["KeRemoveQueue function"]
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
@@ -87,7 +86,7 @@ If the <i>WaitMode</i> parameter is <b>UserMode</b>, the kernel stack can be swa
 
 Specifying <i>WaitMode</i> as <b>KernelMode</b> in a call to <b>KeRemoveQueue</b> prevents the calling thread's kernel stack from being swapped out, as well as preventing the delivery of user-mode asynchronous procedure calls (APC). It does not prevent the delivery of kernel-mode APCs, such as those used by the I/O Manager to complete IRPs, when a thread calls <b>KeRemoveQueue</b> from IRQL PASSIVE_LEVEL. Delivery of such a kernel-mode APC does not prevent the calling thread from waiting on the queue object nor from being dispatched for execution with an entry after the kernel APC has run. 
 
-For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/index">Driver-Managed Queues</a>.
+For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues">Driver-Managed Queues</a>.
 
 ## -see-also
 

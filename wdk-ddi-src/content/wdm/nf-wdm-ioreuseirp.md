@@ -4,7 +4,6 @@ title: IoReuseIrp function (wdm.h)
 description: The IoReuseIrp routine reinitializes an IRP so that it can be reused.
 old-location: kernel\ioreuseirp.htm
 tech.root: kernel
-ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.date: 04/30/2018
 keywords: ["IoReuseIrp function"]
 ms.keywords: IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp, wdm/IoReuseIrp

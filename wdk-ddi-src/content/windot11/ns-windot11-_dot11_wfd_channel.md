@@ -4,7 +4,6 @@ title: _DOT11_WFD_CHANNEL (windot11.h)
 description: The DOT11_WFD_CHANNEL structure contains the channel information for a Peer-to-Pear (P2P) group.
 old-location: netvista\dot11_wfd_channel.htm
 tech.root: netvista
-ms.assetid: FE05F3D9-B1F0-4DC3-9265-22A76209A3E1
 ms.date: 02/16/2018
 keywords: ["DOT11_WFD_CHANNEL structure"]
 ms.keywords: "*PDOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, windot11/DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL"

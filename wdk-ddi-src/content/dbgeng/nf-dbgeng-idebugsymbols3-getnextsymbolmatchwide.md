@@ -4,7 +4,6 @@ title: IDebugSymbols3::GetNextSymbolMatchWide (dbgeng.h)
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger
-ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetNextSymbolMatchWide"]
 ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide

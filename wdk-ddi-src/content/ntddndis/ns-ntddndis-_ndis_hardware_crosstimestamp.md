@@ -3,7 +3,6 @@ UID: NS:ntddndis._NDIS_HARDWARE_CROSSTIMESTAMP
 title: _NDIS_HARDWARE_CROSSTIMESTAMP (ntddndis.h)
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
-ms.assetid: d12a3c97-8687-42d6-a5ad-5041c57f6685
 ms.date: 08/08/2018
 keywords: ["NDIS_HARDWARE_CROSSTIMESTAMP structure"]
 ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP,

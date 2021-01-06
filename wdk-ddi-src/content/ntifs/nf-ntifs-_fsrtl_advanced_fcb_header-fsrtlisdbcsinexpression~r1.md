@@ -4,7 +4,6 @@ title: FsRtlIsDbcsInExpression function (ntifs.h)
 description: The FsRtlIsDbcsInExpression routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 old-location: ifsk\fsrtlisdbcsinexpression.htm
 tech.root: ifsk
-ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.date: 03/29/2018
 keywords: ["FsRtlIsDbcsInExpression function"]
 ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
@@ -140,7 +139,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
 
 
 

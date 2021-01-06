@@ -4,7 +4,6 @@ title: KSRTAUDIO_HWREGISTER (ksmedia.h)
 description: The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.
 old-location: audio\ksrtaudio_hwregister.htm
 tech.root: audio
-ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_HWREGISTER structure"]
 ms.keywords: "*PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, audio.ksrtaudio_hwregister, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER"

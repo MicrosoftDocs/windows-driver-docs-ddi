@@ -4,7 +4,6 @@ title: PEP_PROCESSOR_IDLE_TYPE (pep_x.h)
 description: The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.
 old-location: kernel\pep_processor_idle_type.htm
 tech.root: kernel
-ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_IDLE_TYPE enumeration"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypePlatform, pep_x/PepIdleTypeProcessor"

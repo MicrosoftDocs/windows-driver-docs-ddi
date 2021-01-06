@@ -4,7 +4,6 @@ title: UcmConnectorChargingStateChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the updated charging state of the partner connector.
 old-location: buses\ucmconnectorchargingstatechanged.htm
 tech.root: usbref
-ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.date: 05/07/2018
 keywords: ["UcmConnectorChargingStateChanged function"]
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged

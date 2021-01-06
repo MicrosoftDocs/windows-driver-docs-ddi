@@ -4,7 +4,6 @@ title: PFLT_INSTANCE_TEARDOWN_CALLBACK (fltkernel.h)
 description: A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's InstanceTeardownStartCallback and InstanceTeardownCompleteCallback routines.
 old-location: ifsk\pflt_instance_teardown_callback.htm
 tech.root: ifsk
-ms.assetid: d2f87c47-7f26-4c22-a5b8-2be8f309d1ba
 ms.date: 07/10/2019
 keywords: ["PFLT_INSTANCE_TEARDOWN_CALLBACK callback"]
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback

@@ -4,7 +4,6 @@ title: _SERIALPERF_STATS (ntddser.h)
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
 tech.root: serports
-ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.date: 04/23/2018
 keywords: ["SERIALPERF_STATS structure"]
 ms.keywords: "*PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, serports.serialperf_stats"

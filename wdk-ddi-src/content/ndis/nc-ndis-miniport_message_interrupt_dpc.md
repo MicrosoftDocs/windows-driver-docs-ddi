@@ -4,7 +4,6 @@ title: MINIPORT_MESSAGE_INTERRUPT_DPC (ndis.h)
 description: A miniport driver must provide a MiniportMessageInterruptDPC handler if the driver calls the NdisMRegisterInterruptEx function to register an interrupt.
 old-location: netvista\miniportmessageinterruptdpc.htm
 tech.root: netvista
-ms.assetid: c1eca20b-eda1-442c-8644-798fa864d5d7
 ms.date: 05/02/2018
 keywords: ["MINIPORT_MESSAGE_INTERRUPT_DPC callback function"]
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT_DPC, MINIPORT_MESSAGE_INTERRUPT_DPC callback, MiniportMessageInterruptDPC, MiniportMessageInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterruptDPC, ndis_interrupts_miniport_functions_ref_eb463565-15ab-4751-be20-4239e6ccb987.xml, netvista.miniportmessageinterruptdpc
@@ -95,7 +94,7 @@ A pointer to a context area that the miniport driver supplied when it called the
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure specifies the maximum number of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that a miniport
      driver should indicate in a DPC.
 
 <div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter is named <i>NdisReserved1</i>, its datatype is <b>PULONG</b>, and it is reserved for NDIS.</div>
@@ -247,7 +246,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

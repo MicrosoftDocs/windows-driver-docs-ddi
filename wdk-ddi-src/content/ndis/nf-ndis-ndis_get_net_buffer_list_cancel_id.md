@@ -3,7 +3,6 @@ UID: NF:ndis.NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 title: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro (ndis.h)
 description: The NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro gets the cancellation identifier from a NET_BUFFER_LIST structure.
 tech.root: netvista
-ms.assetid: 803f83f9-0b3f-42a5-823c-dd5bbcf8f1a2
 ms.date: 04/16/2018
 keywords: ["NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro"]
 ms.keywords: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NDIS_GET_NET_BUFFER_LIST_CANCEL_ID** macro gets the cancellation identifier from a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+The **NDIS_GET_NET_BUFFER_LIST_CANCEL_ID** macro gets the cancellation identifier from a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -parameters
 
@@ -53,13 +52,13 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NDIS_GET_NET_BUFFER_LIST_CANCEL_ID** returns a ULONG value that is a cancellation identifier for the [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+**NDIS_GET_NET_BUFFER_LIST_CANCEL_ID** returns a ULONG value that is a cancellation identifier for the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
 To cancel send requests, filter drivers call the [**NdisFCancelSendNetBufferLists**](nf-ndis-ndisfcancelsendnetbufferlists.md) function. Other NDIS drivers call the [**NdisCancelSendNetBufferLists**](nf-ndis-ndiscancelsendnetbufferlists.md) function.
 
-Drivers can call the [**NDIS_SET_NET_BUFFER_LIST_CANCEL_ID**](nf-ndis-ndis_set_net_buffer_list_cancel_id.md) macro to set a cancellation identifier in a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.
+Drivers can call the [**NDIS_SET_NET_BUFFER_LIST_CANCEL_ID**](nf-ndis-ndis_set_net_buffer_list_cancel_id.md) macro to set a cancellation identifier in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -see-also
 
@@ -69,5 +68,5 @@ Drivers can call the [**NDIS_SET_NET_BUFFER_LIST_CANCEL_ID**](nf-ndis-ndis_set_n
 
 [**NDIS_SET_NET_BUFFER_LIST_CANCEL_ID**](nf-ndis-ndis_set_net_buffer_list_cancel_id.md)
 
-[**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 

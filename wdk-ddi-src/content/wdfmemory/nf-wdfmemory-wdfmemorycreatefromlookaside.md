@@ -4,7 +4,6 @@ title: WdfMemoryCreateFromLookaside function (wdfmemory.h)
 description: The WdfMemoryCreateFromLookaside method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 old-location: wdf\wdfmemorycreatefromlookaside.htm
 tech.root: wdf
-ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCreateFromLookaside function"]
 ms.keywords: DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside

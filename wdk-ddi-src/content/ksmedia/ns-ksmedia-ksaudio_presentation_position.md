@@ -4,7 +4,6 @@ title: KSAUDIO_PRESENTATION_POSITION (ksmedia.h)
 description: The KSAUDIO_PRESENTATION_POSITION structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.
 old-location: audio\ksaudio_presentation_position.htm
 tech.root: audio
-ms.assetid: 6C9F2E99-17B4-49AD-A94F-E3EF9282B649
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_PRESENTATION_POSITION structure"]
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"

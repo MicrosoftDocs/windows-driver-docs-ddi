@@ -4,7 +4,6 @@ title: IPrintWriteStream::WriteBytes (filterpipeline.h)
 description: The WriteBytes method writes a specified number of bytes to a stream.
 old-location: print\iprintwritestream_writebytes.htm
 tech.root: print
-ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
 ms.date: 04/20/2018
 keywords: ["IPrintWriteStream::WriteBytes"]
 ms.keywords: IPrintWriteStream interface [Print Devices],WriteBytes method, IPrintWriteStream.WriteBytes, IPrintWriteStream::WriteBytes, WriteBytes, WriteBytes method [Print Devices], WriteBytes method [Print Devices],IPrintWriteStream interface, filterpipeline/IPrintWriteStream::WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, print.iprintwritestream_writebytes

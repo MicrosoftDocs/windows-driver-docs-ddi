@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_DESTROYCONTEXT
 title: _D3DKMT_DESTROYCONTEXT (d3dkmthk.h)
 description: The D3DKMT_DESTROYCONTEXT structure contains a handle to a kernel-mode device context to release.
 old-location: display\d3dkmt_destroycontext.htm
-ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYCONTEXT structure"]
 ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext

@@ -4,7 +4,6 @@ title: _PosDeviceBasicsType (pointofservicedriverinterface.h)
 description: This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos
-ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.date: 08/21/2020
 keywords: ["PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype

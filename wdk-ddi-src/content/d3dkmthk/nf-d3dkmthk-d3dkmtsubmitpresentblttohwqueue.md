@@ -2,7 +2,6 @@
 UID: NF:d3dkmthk.D3DKMTSubmitPresentBltToHwQueue
 title: D3DKMTSubmitPresentBltToHwQueue function (d3dkmthk.h)
 description: Submits a present Blt to hardware queue.
-ms.assetid: 3dfcbcf4-f07d-4f22-9209-c9f3e6eb45ef
 ms.date: 01/04/2019
 keywords: ["D3DKMTSubmitPresentBltToHwQueue function"]
 ms.keywords: D3DKMTSubmitPresentBltToHwQueue

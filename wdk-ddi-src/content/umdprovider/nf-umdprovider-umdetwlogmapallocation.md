@@ -4,7 +4,6 @@ title: UMDEtwLogMapAllocation function (umdprovider.h)
 description: Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is being used.
 old-location: display\umdetwlogmapallocation.htm
 tech.root: display
-ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.date: 05/10/2018
 keywords: ["UMDEtwLogMapAllocation function"]
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation

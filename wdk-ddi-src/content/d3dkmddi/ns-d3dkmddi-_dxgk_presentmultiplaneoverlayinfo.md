@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYINFO
 title: _DXGK_PRESENTMULTIPLANEOVERLAYINFO (d3dkmddi.h)
 description: Specifies info on a VidPN input and an overlay plane to display.
 old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
-ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.date: 05/10/2018
 keywords: ["DXGK_PRESENTMULTIPLANEOVERLAYINFO structure"]
 ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo

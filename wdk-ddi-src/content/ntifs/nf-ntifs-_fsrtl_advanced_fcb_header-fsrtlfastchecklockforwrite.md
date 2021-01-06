@@ -4,7 +4,6 @@ title: FsRtlFastCheckLockForWrite function (ntifs.h)
 description: The FsRtlFastCheckLockForWrite routine determines whether the specified process has write access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforwrite.htm
 tech.root: ifsk
-ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.date: 04/16/2018
 keywords: ["FsRtlFastCheckLockForWrite function"]
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite

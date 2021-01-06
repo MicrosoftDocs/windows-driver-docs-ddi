@@ -4,7 +4,6 @@ title: IddCxMonitorCreate function (iddcx.h)
 description: An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 old-location: display\iddcxmonitorcreate.htm
 tech.root: display
-ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate

@@ -3,7 +3,6 @@ UID: NS:d3d10umddi.D3D12_DOWNLEVEL_DDI_UMDFILENAME
 title: D3D12_DOWNLEVEL_DDI_UMDFILENAME
 description: 
 tech.root: display
-ms.assetid: 127b2cb2-7877-4bb9-9aa3-6c9e7d5d4e4b
 ms.date: 04/04/2019
 keywords: ["D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"]
 ms.prod: windows-hardware

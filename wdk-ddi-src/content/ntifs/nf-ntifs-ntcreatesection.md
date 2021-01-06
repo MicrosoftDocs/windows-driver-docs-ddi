@@ -4,7 +4,6 @@ title: NtCreateSection function (ntifs.h)
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel
-ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.date: 04/30/2018
 keywords: ["NtCreateSection function"]
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
@@ -225,7 +224,7 @@ Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driv
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>. 
 
-For more information about setting up mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>. 
+For more information about setting up mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>. 
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
 <div> </div>

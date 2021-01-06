@@ -2,7 +2,6 @@
 UID: NC:d3d12umddi.PFND3D12DDI_MAPHEAP
 title: PFND3D12DDI_MAPHEAP (d3d12umddi.h)
 description: A client driver implements PFND3D12DDI_MAPHEAP to map a heap.
-ms.assetid: 2187b018-e5d2-4a82-8232-ba9f1ae3a988
 ms.date: 08/21/2020
 keywords: ["PFND3D12DDI_MAPHEAP callback function"]
 req.header: d3d12umddi.h

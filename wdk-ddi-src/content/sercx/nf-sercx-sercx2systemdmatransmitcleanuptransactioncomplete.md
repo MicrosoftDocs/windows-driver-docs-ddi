@@ -4,7 +4,6 @@ title: SerCx2SystemDmaTransmitCleanupTransactionComplete function (sercx.h)
 description: The SerCx2SystemDmaTransmitCleanupTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a system-DMA-transmit transaction.
 old-location: serports\sercx2systemdmatransmitcleanuptransactioncomplete.htm
 tech.root: serports
-ms.assetid: 9B2899AB-055B-458B-A9C5-958B8B2E809D
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitCleanupTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitcleanuptransactioncomplete

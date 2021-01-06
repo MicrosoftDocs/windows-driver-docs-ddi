@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D10_1DDI_CREATEBLENDSTATE
 title: PFND3D10_1DDI_CREATEBLENDSTATE (d3d10umddi.h)
 description: The CreateBlendState(D3D10_1) function creates a blend state.
 old-location: display\createblendstate_d3d10_1_.htm
-ms.assetid: 1b258f28-c386-477c-92d1-cb5918080dcf
 ms.date: 05/10/2018
 keywords: ["PFND3D10_1DDI_CREATEBLENDSTATE callback function"]
 ms.keywords: CreateBlendState_d3d10_1_, CreateBlendState_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CREATEBLENDSTATE, PFND3D10_1DDI_CREATEBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_46b88f91-736c-4b72-9220-05f347b829f2.xml, d3d10umddi/CreateBlendState_d3d10_1_, display.createblendstate_d3d10_1_

@@ -4,7 +4,6 @@ title: IWDTF2::get_SystemDepot (wdtf.h)
 description: Gets the SystemDepot object.
 old-location: dtf\iwdtf2_systemdepot.htm
 tech.root: dtf
-ms.assetid: 0a377d87-c164-4ac3-9020-7bfe20f78d46
 ms.date: 04/04/2018
 keywords: ["IWDTF2::get_SystemDepot"]
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],SystemDepot property, IWDTF2.SystemDepot, IWDTF2.get_SystemDepot, IWDTF2::SystemDepot, IWDTF2::get_SystemDepot, Microsoft.WDTF.IWDTF2.SystemDepot, Microsoft::WDTF::IWDTF2::SystemDepot, SystemDepot property [Windows Device Testing Framework], SystemDepot property [Windows Device Testing Framework],IWDTF2 interface, dtf.iwdtf2_systemdepot, get_SystemDepot, wdtf/IWDTF2::SystemDepot, wdtf/IWDTF2::get_SystemDepot

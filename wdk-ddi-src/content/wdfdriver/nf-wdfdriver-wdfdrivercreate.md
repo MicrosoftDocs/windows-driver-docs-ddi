@@ -4,7 +4,6 @@ title: WdfDriverCreate function (wdfdriver.h)
 description: The WdfDriverCreate method creates a framework driver object for the calling driver.
 old-location: wdf\wdfdrivercreate.htm
 tech.root: wdf
-ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.date: 02/26/2018
 keywords: ["WdfDriverCreate function"]
 ms.keywords: DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdf.wdfdrivercreate, wdfdriver/WdfDriverCreate

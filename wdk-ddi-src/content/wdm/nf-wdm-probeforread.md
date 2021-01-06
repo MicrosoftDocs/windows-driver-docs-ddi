@@ -4,7 +4,6 @@ title: ProbeForRead function (wdm.h)
 description: The ProbeForRead routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 old-location: kernel\probeforread.htm
 tech.root: kernel
-ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.date: 04/30/2018
 keywords: ["ProbeForRead function"]
 ms.keywords: ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, wdm/ProbeForRead

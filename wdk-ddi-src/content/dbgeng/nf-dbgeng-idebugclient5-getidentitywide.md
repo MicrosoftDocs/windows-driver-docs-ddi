@@ -4,7 +4,6 @@ title: IDebugClient5::GetIdentityWide (dbgeng.h)
 description: The GetIdentityWide method returns a string describing the computer and user this client represents.
 old-location: debugger\getidentitywide.htm
 tech.root: debugger
-ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::GetIdentityWide"]
 ms.keywords: GetIdentityWide, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetIdentityWide method, IDebugClient5.GetIdentityWide, IDebugClient5::GetIdentityWide, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide

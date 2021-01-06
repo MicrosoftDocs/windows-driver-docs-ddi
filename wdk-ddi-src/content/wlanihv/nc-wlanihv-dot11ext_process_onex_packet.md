@@ -4,7 +4,6 @@ title: DOT11EXT_PROCESS_ONEX_PACKET (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extprocessonexpacket.htm
 tech.root: netvista
-ms.assetid: 796c2976-b7b1-49ea-bf23-c018efd228ee
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_PROCESS_ONEX_PACKET callback"]
 ms.keywords: DOT11EXT_PROCESS_ONEX_PACKET, Dot11ExtProcessOneXPacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml, netvista.dot11extprocessonexpacket, wlanihv/Dot11ExtProcessOneXPacket

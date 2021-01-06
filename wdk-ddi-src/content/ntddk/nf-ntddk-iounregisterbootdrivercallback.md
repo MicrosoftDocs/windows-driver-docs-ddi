@@ -4,7 +4,6 @@ title: IoUnregisterBootDriverCallback function (ntddk.h)
 description: The IoUnRegisterBootDriverCallback routine unregisters a previously registered BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\iounregisterbootdrivercallback.htm
 tech.root: kernel
-ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.date: 04/30/2018
 keywords: ["IoUnregisterBootDriverCallback function"]
 ms.keywords: IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback

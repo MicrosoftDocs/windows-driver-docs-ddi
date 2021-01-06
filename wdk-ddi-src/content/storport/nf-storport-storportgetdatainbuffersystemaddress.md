@@ -4,7 +4,6 @@ title: StorPortGetDataInBufferSystemAddress function (storport.h)
 description: Returns the system address for the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffersystemaddress.htm
 tech.root: storage
-ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferSystemAddress function"]
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress

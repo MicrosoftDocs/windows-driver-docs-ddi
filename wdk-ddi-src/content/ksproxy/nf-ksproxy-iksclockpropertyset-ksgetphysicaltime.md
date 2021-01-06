@@ -4,7 +4,6 @@ title: IKsClockPropertySet::KsGetPhysicalTime (ksproxy.h)
 description: The KsGetPhysicalTime method retrieves the physical time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
 tech.root: stream
-ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.date: 04/23/2018
 keywords: ["IKsClockPropertySet::KsGetPhysicalTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetPhysicalTime method, IKsClockPropertySet.KsGetPhysicalTime, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime, KsGetPhysicalTime method [Streaming Media Devices], KsGetPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, stream.iksclockpropertyset_ksgetphysicaltime

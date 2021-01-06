@@ -4,7 +4,6 @@ title: IDebugRegisters2::SetValue (dbgeng.h)
 description: The SetValue method sets the value of one of the target's registers.
 old-location: debugger\setvalue.htm
 tech.root: debugger
-ms.assetid: 78c7bdea-cba5-40df-b9d7-09c7d98b0403
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::SetValue"]
 ms.keywords: IDebugRegisters interface [Windows Debugging],SetValue method, IDebugRegisters2 interface [Windows Debugging],SetValue method, IDebugRegisters2.SetValue, IDebugRegisters2::SetValue, IDebugRegisters::SetValue, IDebugRegisters_f704c31f-5062-47d7-9f44-35bc85e0d0aa.xml, SetValue, SetValue method [Windows Debugging], SetValue method [Windows Debugging],IDebugRegisters interface, SetValue method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValue, dbgeng/IDebugRegisters::SetValue, debugger.setvalue

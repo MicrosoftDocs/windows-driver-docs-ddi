@@ -3,7 +3,6 @@ UID: NF:netrxqueue.NetRxQueueNotifyMoreReceivedPacketsAvailable
 title: NetRxQueueNotifyMoreReceivedPacketsAvailable function (netrxqueue.h)
 description: The client driver calls NetRxQueueNotifyMoreReceivedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_RXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.
 tech.root: netvista
-ms.assetid: 81463460-f494-4265-a557-134a50a91d52
 ms.date: 11/06/2018
 keywords: ["NetRxQueueNotifyMoreReceivedPacketsAvailable function"]
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable
@@ -30,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetRxQueueNotifyMoreReceivedPacketsAvailable
  - netrxqueue/NetRxQueueNotifyMoreReceivedPacketsAvailable
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netrxqueue.h
-apiname:
+api_name:
  - NetRxQueueNotifyMoreReceivedPacketsAvailable
 ---
 

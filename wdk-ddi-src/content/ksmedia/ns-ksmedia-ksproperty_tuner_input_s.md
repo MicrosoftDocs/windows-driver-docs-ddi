@@ -4,7 +4,6 @@ title: KSPROPERTY_TUNER_INPUT_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.
 old-location: stream\ksproperty_tuner_input_s.htm
 tech.root: stream
-ms.assetid: 02873563-7448-4406-a8ab-599569abbf7e
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_INPUT_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_INPUT_S, PKSPROPERTY_TUNER_INPUT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_INPUT_S, ksmedia/PKSPROPERTY_TUNER_INPUT_S, stream.ksproperty_tuner_input_s, vidcapstruct_db1848a6-76f7-4f65-923e-cfd678a90b64.xml"

@@ -4,7 +4,6 @@ title: ZwSetInformationResourceManager function (wdm.h)
 description: The ZwSetInformationResourceManager routine is not used.
 old-location: kernel\zwsetinformationresourcemanager.htm
 tech.root: kernel
-ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.date: 04/30/2018
 keywords: ["ZwSetInformationResourceManager function"]
 ms.keywords: NtSetInformationResourceManager, ZwSetInformationResourceManager, function [Kernel-Mode Driver Architecture], kernel.zwsetinformationresourcemanager, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/, wdm/NtSetInformationResourceManager

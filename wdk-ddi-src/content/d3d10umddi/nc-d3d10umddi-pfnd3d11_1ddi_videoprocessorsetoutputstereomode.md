@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
 title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE (d3d10umddi.h)
 description: Specifies whether the video processor produces stereo video frames.
 old-location: display\videoprocessorsetoutputstereomode.htm
-ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]

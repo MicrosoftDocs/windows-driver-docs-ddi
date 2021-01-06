@@ -4,7 +4,6 @@ title: POFXCALLBACKPROCESSORHALT (pep_x.h)
 description: The ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
 tech.root: kernel
-ms.assetid: DEBE74B2-DFBD-43D7-8B14-86B4DA7D4C98
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKPROCESSORHALT callback function"]
 ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt
@@ -91,7 +90,7 @@ Flags that indicate the properties of the idle state that the processor will ent
 ### -param Context 
 
 [in, out, optional]
-A pointer to a PEP-defined processor-halt context. This pointer is passed as a parameter to the <i>Halt</i> callback routine. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
+A pointer to a PEP-defined processor-halt context. This pointer is passed as a parameter to the <i>Halt</i> callback routine. This context is opaque to the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx).
 
 ### -param Halt 
 

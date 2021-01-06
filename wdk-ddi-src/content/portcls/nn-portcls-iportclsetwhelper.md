@@ -4,7 +4,6 @@ title: IPortClsEtwHelper (portcls.h)
 description: The IPortClsEtwHelper interface allows an audio miniport driver to access the Event Tracing for Windows (ETW) helper functions.
 old-location: audio\iportclsetwhelper.htm
 tech.root: audio
-ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.date: 05/08/2018
 keywords: ["IPortClsEtwHelper interface"]
 ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices],described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper

@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES (sensorscx.h)
 description: This callback function returns the properties of a given data field associated with a sensor.
 old-location: sensors\evtsensorgetdatafieldproperties.htm
 tech.root: sensors
-ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.date: 10/15/2020
 keywords: ["EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties

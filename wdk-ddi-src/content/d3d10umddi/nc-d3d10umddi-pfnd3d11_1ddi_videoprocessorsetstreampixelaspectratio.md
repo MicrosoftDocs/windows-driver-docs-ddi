@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO (d3d10umddi.h)
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampixelaspectratio.htm
-ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback, d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio, display.videoprocessorsetstreampixelaspectratio, pfnVideoProcessorSetStreamPixelAspectRatio, pfnVideoProcessorSetStreamPixelAspectRatio callback function [Display Devices]

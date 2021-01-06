@@ -4,7 +4,6 @@ title: PDEBUG_EXTENSION_CALL (dbgeng.h)
 description: Callback functions of the type PDEBUG_EXTENSION_CALL are called by the engine to execute extension commands. You can give these functions any name you want, as long as it contains no uppercase letters.
 old-location: debugger\pdebug_extension_call.htm
 tech.root: debugger
-ms.assetid: 325af2f4-9fb7-4fb3-9294-cd6d20d803c6
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_CALL callback function"]
 ms.keywords: DebugExtensionCall, DebugExtensionCall callback function [Windows Debugging], Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL callback, dbgeng/DebugExtensionCall, debugger.pdebug_extension_call

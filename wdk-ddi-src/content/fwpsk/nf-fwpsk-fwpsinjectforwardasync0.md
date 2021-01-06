@@ -4,7 +4,6 @@ title: FwpsInjectForwardAsync0 function (fwpsk.h)
 description: The FwpsInjectForwardAsync0 function injects packet data into the forwarding data path.Note  FwpsInjectForwardAsync0 is a specific version of FwpsInjectForwardAsync.
 old-location: netvista\fwpsinjectforwardasync0.htm
 tech.root: netvista
-ms.assetid: b7cb70c6-c672-4a29-983c-c73767af72ea
 ms.date: 05/02/2018
 keywords: ["FwpsInjectForwardAsync0 function"]
 ms.keywords: FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectForwardAsync0, netvista.fwpsinjectforwardasync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
@@ -122,7 +121,7 @@ The index of the destination interface (on which the packet data is to be sent).
 
 [in, out]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to inject
      packet data by calling either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
@@ -167,7 +166,7 @@ The packet data injection was initiated successfully. The filter engine will cal
        function after the filter engine has completed injecting the packet data into the network stack, or
        when an error occurred subsequently, in which case the 
        <b>Status</b> member of the completed 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -259,7 +258,7 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

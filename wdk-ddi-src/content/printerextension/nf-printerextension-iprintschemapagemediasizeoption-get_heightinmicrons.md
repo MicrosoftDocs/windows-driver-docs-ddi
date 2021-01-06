@@ -4,7 +4,6 @@ title: IPrintSchemaPageMediaSizeOption::get_HeightInMicrons (printerextension.h)
 description: Gets the height of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_heightinmicrons.htm
 tech.root: print
-ms.assetid: B419BD5D-A3B7-46D1-8E6B-3100E0940842
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageMediaSizeOption::get_HeightInMicrons"]
 ms.keywords: HeightInMicrons property [Print Devices], HeightInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, IPrintSchemaPageMediaSizeOption interface [Print Devices],HeightInMicrons property, IPrintSchemaPageMediaSizeOption.HeightInMicrons, IPrintSchemaPageMediaSizeOption.get_HeightInMicrons, IPrintSchemaPageMediaSizeOption::HeightInMicrons, IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, get_HeightInMicrons, print.iprintschemapagemediasizeoption_heightinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::HeightInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_HeightInMicrons

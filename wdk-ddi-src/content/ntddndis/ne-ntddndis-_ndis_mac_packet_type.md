@@ -4,7 +4,6 @@ title: _NDIS_MAC_PACKET_TYPE (ntddndis.h)
 description: The NDIS_MAC_PACKET_TYPE enumeration identifies the type of a destination address field in a media access control (MAC) header to be filtered.
 old-location: netvista\ndis_mac_packet_type.htm
 tech.root: netvista
-ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.date: 05/02/2018
 keywords: ["NDIS_MAC_PACKET_TYPE enumeration"]
 ms.keywords: "*PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeBroadcast, NdisMacPacketTypeMaximum, NdisMacPacketTypeMulticast, NdisMacPacketTypeUndefined, NdisMacPacketTypeUnicast, PNDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, ntddndis/NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeMulticast, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUnicast, ntddndis/PNDIS_MAC_PACKET_TYPE"

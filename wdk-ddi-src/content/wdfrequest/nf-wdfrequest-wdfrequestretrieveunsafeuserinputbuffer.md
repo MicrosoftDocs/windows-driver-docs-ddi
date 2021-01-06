@@ -4,7 +4,6 @@ title: WdfRequestRetrieveUnsafeUserInputBuffer function (wdfrequest.h)
 description: The WdfRequestRetrieveUnsafeUserInputBuffer method retrieves an I/O request's input buffer, if the request's technique for accessing data buffers is neither buffered nor direct I/O.
 old-location: wdf\wdfrequestretrieveunsafeuserinputbuffer.htm
 tech.root: wdf
-ms.assetid: 0a5e141d-2ef5-482c-8470-560411241510
 ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveUnsafeUserInputBuffer function"]
 ms.keywords: DFRequestObjectRef_0ac5a2ff-74b6-4e9c-9a3e-0038c3e1420a.xml, WdfRequestRetrieveUnsafeUserInputBuffer, WdfRequestRetrieveUnsafeUserInputBuffer method, kmdf.wdfrequestretrieveunsafeuserinputbuffer, wdf.wdfrequestretrieveunsafeuserinputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserInputBuffer

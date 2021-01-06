@@ -4,7 +4,6 @@ title: UcxEndpointCreate function (ucxendpoint.h)
 description: Creates an endpoint on the specified USB device object.
 old-location: buses\_ucxendpointcreate.htm
 tech.root: usbref
-ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.date: 05/07/2018
 keywords: ["UcxEndpointCreate function"]
 ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate

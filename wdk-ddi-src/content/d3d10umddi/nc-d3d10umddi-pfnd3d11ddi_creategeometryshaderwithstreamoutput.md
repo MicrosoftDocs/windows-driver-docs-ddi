@@ -3,7 +3,6 @@ UID: NC:d3d10umddi.PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 title: PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT (d3d10umddi.h)
 description: The CreateGeometryShaderWithStreamOutput(D3D11) function creates a geometry shader with stream output.
 old-location: display\creategeometryshaderwithstreamoutput_d3d11_.htm
-ms.assetid: 86970ea4-e7d2-4fc3-9f97-75a946a21a17
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback function"]
 ms.keywords: CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput callback function [Display Devices], PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, UserModeDisplayDriverDx11_Functions_65b14f27-0df8-421d-95bb-f8a4ebc7c1c1.xml, d3d10umddi/CreateGeometryShaderWithStreamOutput, display.creategeometryshaderwithstreamoutput_d3d11_

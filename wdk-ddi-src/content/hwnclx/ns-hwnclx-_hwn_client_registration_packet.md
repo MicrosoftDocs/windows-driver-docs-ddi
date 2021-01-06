@@ -4,7 +4,6 @@ title: _HWN_CLIENT_REGISTRATION_PACKET (hwnclx.h)
 description: Hardware Notification client driver registration packet that is passed to the class extension when a client driver is registered. Contains version information and client driver callback functions.
 old-location: gpiobtn\_hwn_client_registration_packet.htm
 tech.root: gpiobtn
-ms.assetid: bf8ac72b-c3d6-4965-a1e9-2408d2fa2196
 ms.date: 02/15/2018
 keywords: ["HWN_CLIENT_REGISTRATION_PACKET structure"]
 ms.keywords: "*PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, _HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
@@ -124,4 +123,4 @@ typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
 
 
 
-<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
+<a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
