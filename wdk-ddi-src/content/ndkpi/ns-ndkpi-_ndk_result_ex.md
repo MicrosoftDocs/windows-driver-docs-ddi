@@ -73,7 +73,10 @@ An <a href="/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_operation_type">ND
 
 ### -field ProviderErrorCode
 
-Provider specific error code.
+If the **Status** member returns STATUS_SUCCESS, then **ProviderErrorCode** must be **zero**.
+
+If the **Status** member does not return STATUS_SUCCESS, then **zero** indicates the NDK provider does not support the **ProviderErrorCode** capability yet or did not provide one. A **non-zero** value provides additional provider information to diagnose the **Status** code.
+
 
 ### -field TypeSpecificCompletionOutput
 
