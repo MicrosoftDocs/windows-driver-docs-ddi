@@ -4,7 +4,7 @@ title: ExAllocatePoolWithQuotaTag function (wdm.h)
 description: The ExAllocatePoolWithQuotaTag routine allocates pool memory, charging the quota against the current process.
 old-location: kernel\exallocatepoolwithquotatag.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/08/2021
 keywords: ["ExAllocatePoolWithQuotaTag function"]
 ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
 req.header: wdm.h
@@ -46,6 +46,9 @@ api_name:
 ## -description
 
 The <b>ExAllocatePoolWithQuotaTag</b> routine allocates pool memory, charging the quota against the current process.
+
+>[!IMPORTANT]
+> ExAllocatePoolWithQuotaTag has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
 
 ## -parameters
 

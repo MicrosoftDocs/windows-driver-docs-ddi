@@ -4,7 +4,7 @@ title: ExAllocatePool function (wdm.h)
 description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/08/2021
 keywords: ["ExAllocatePool function"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 req.header: wdm.h
@@ -48,6 +48,9 @@ api_name:
 The <b>ExAllocatePool</b> routine is <u>obsolete</u>, and is exported only for existing binaries. Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a> instead.
 
 <b>ExAllocatePool</b> allocates pool memory of the specified type and returns a pointer to the allocated block.
+
+>[!IMPORTANT]
+> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
 
 ## -parameters
 

@@ -4,7 +4,7 @@ title: ExAllocatePoolWithTagPriority function (wdm.h)
 description: The ExAllocatePoolWithTagPriority routine allocates pool memory of the specified type.
 old-location: kernel\exallocatepoolwithtagpriority.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/08/2021
 keywords: ["ExAllocatePoolWithTagPriority function"]
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority
 req.header: wdm.h
@@ -46,6 +46,9 @@ api_name:
 ## -description
 
 The <b>ExAllocatePoolWithTagPriority</b> routine allocates pool memory of the specified type.
+
+>[!IMPORTANT]
+> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool3](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool3). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
 
 ## -parameters
 
