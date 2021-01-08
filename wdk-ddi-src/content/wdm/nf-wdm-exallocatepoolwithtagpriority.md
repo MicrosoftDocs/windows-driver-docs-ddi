@@ -48,7 +48,7 @@ api_name:
 The <b>ExAllocatePoolWithTagPriority</b> routine allocates pool memory of the specified type.
 
 >[!IMPORTANT]
-> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool3](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool3). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
+> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool3](nf-wdm-exallocatepool3.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 
 ## -parameters
 

@@ -50,7 +50,7 @@ The <b>ExAllocatePool</b> routine is <u>obsolete</u>, and is exported only for e
 <b>ExAllocatePool</b> allocates pool memory of the specified type and returns a pointer to the allocated block.
 
 >[!IMPORTANT]
-> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
+> ExAllocatePoolWithTagPriority has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](wdm/nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 
 ## -parameters
 

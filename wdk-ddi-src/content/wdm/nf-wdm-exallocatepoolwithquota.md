@@ -50,7 +50,7 @@ The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u>, and is exported o
 <b>ExAllocatePoolWithQuota</b> allocates pool memory, charging quota against the current process.
 
 >[!IMPORTANT]
-> ExAllocatePoolWithQuota has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](updating-deprecated-exallocatepool-calls.md).
+> ExAllocatePoolWithQuota has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 
 ## -parameters
 
