@@ -4,7 +4,7 @@ title: ExAllocatePoolWithQuota function (wdm.h)
 description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
 tech.root: kernel
-ms.date: 01/08/2021
+ms.date: 01/11/2021
 keywords: ["ExAllocatePoolWithQuota function"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
 req.header: wdm.h
@@ -45,12 +45,12 @@ api_name:
 
 ## -description
 
-The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u>, and is exported only for existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a> instead.
+>[!IMPORTANT]
+> The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u> and has been deprecated in Windows 10, version 2004 and has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
+>
+> When developing drivers for version of Windows prior to Windows 10, version 2004, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a> instead.
 
 <b>ExAllocatePoolWithQuota</b> allocates pool memory, charging quota against the current process.
-
->[!IMPORTANT]
-> ExAllocatePoolWithQuota has been deprecated in Windows 10, version 2004 and have been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 
 ## -parameters
 
