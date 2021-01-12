@@ -4,7 +4,7 @@ title: IddCxMonitorCreate function (iddcx.h)
 description: An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 old-location: display\iddcxmonitorcreate.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 01/11/2021
 keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 req.header: iddcx.h
@@ -42,28 +42,36 @@ api_name:
 
 # IddCxMonitorCreate function
 
-
 ## -description
 
-An OS callback function the driver calls to create a monitor object that can later be used for arrival.
+An indirect display driver (IDD) calls **IddCxMonitorCreate** to create a monitor object that can later be used for arrival.
 
 ## -parameters
 
-### -param AdapterObject 
+### -param AdapterObject
 
-[in]
-The adapter object that is hosting the newly arrived monitor
+[in] The [IDDCX_ADAPTER](/windows-hardware/drivers/display/iddcx-objects) object that is hosting the newly arrived monitor.
 
-### -param pInArgs 
+### -param pInArgs
 
-[in]
-Input arguments to the function
+[in] Pointer to an [**IDARG_IN_MONITORCREATE**](ns-iddcx-idarg_in_monitorcreate.md) structure containing information about the monitor.
 
-### -param pOutArgs 
+### -param pOutArgs
 
-[out]
-Output arguments to the function
+[out] Pointer to an [**IDARG_OUT_MONITORCREATE**](ns-iddcx-idarg_out_monitorcreate.md) structure in which the [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object is returned.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+
+## -remarks
+
+An IDD must call [**IddCxMonitorArrival**](nf-iddcx-iddcxmonitorarrival.md) to complete the monitor arrival.
+
+## -see-also
+
+[**IDARG_IN_MONITORCREATE**](ns-iddcx-idarg_in_monitorcreate.md)
+
+[**IDARG_OUT_MONITORCREATE**](ns-iddcx-idarg_out_monitorcreate.md)
+
+[**IddCxMonitorArrival**](nf-iddcx-iddcxmonitorarrival.md)
