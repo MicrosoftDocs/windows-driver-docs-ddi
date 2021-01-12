@@ -4,7 +4,7 @@ title: IDDCX_TARGET_MODE (iddcx.h)
 description: Gives information about the target mode signal, including the bandwidth needed for the mode.
 old-location: display\iddcx_target_mode.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 01/11/2021
 keywords: ["IDDCX_TARGET_MODE structure"]
 ms.keywords: IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE
 req.header: iddcx.h
@@ -42,29 +42,31 @@ api_name:
 
 # IDDCX_TARGET_MODE structure
 
-
 ## -description
 
-                 Gives information about the target mode signal, including the bandwidth needed for the mode.
+**IDDCX_TARGET_MODE** provides information about the target mode signal, including the bandwidth needed for the mode.
 
 ## -struct-fields
 
 ### -field Size
 
-                     Total size of the structure.
+Size of the structure, in bytes.
 
 ### -field TargetVideoSignalInfo
 
-The details of the target mode signal.
+A [**DISPLAYCONFIG_TARGET_MODE**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_target_mode) structure that describes the display path target mode, including information about the video signal for the display.
 
 ### -field RequiredBandwidth
 
-The display pipeline bandwidth required for this mode.
+The display pipeline bandwidth required for this mode. The driver reports pipeline bandwidth in **[IDDCX_ADAPTER_CAPS](ns-iddcx-iddcx_adapter_caps.md).MaxDisplayPipelineRate**. The OS will never pick a combination of modes across all targets that exceeds this value.
 
 ## -remarks
 
-The <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b> is the Vsync rate between the Indirect Display device and the connected monitor.  <b>vSyncFreqDivider</b> is used to calculate the rate at which the OS will update the desktop image.
+Using the values reported in [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) (which is a member of [**DISPLAYCONFIG_TARGET_MODE**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_target_mode)), the desktop update rate will be calculated by the formula ```vSyncFreq / vSyncFreqDivider```, where:
 
-The desktop update rate will be calculated by the formula: <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b>  divided by the <b>DISPLAYCONFIG_VIDEO_SIGNAL_INFO</b> value <b>vSyncFreqDivider</b>. 
+* **vSyncFreq** is the Vsync rate between the indirect display device and the connected monitor
+* **vSyncFreqDivider** is used to calculate the rate at which the OS will update the desktop image. This value cannot be zero.
 
-The <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>  value <b>vSyncFreqDivider</b> cannot be zero
+## -see-also
+
+[**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)

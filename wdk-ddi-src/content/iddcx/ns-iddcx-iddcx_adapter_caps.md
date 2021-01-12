@@ -4,7 +4,7 @@ title: IDDCX_ADAPTER_CAPS (iddcx.h)
 description: Gives information about the capabilities of the adapter.
 old-location: display\iddcx_adapter_caps.htm
 tech.root: display
-ms.date: 09/24/2020
+ms.date: 01/11/2021
 keywords: ["IDDCX_ADAPTER_CAPS structure"]
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 req.header: iddcx.h
@@ -59,6 +59,8 @@ An [**IDDCX_ADAPTER_FLAGS**](ne-iddcx-iddcx_adapter_flags.md) value specifying t
 ### -field MaxDisplayPipelineRate
 
 Value that represents the total display bandwidth for the adapter. Each mode the driver reports to the OS also has a display pipeline rate associated with it and the OS ensures that the combined display pipeline rate of all the active modes will never exceed this value. The driver decides how many units it uses.
+
+Some hardware have resource dependencies that allow them to support all modes in all configurations. For example, an adapter might be able to individually support a 4k mode on each of its two outputs but not 4k on each of the outputs at the same time. If driver does not have these restrictions then it can set all bandwidths to zero.
 
 ### -field MaxMonitorsSupported
 
