@@ -48,7 +48,7 @@ api_name:
 >[!IMPORTANT]
 > The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u> and has been deprecated in Windows 10, version 2004 and has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 >
-> When developing drivers for version of Windows prior to Windows 10, version 2004, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolquotazero">ExAllocatePoolWithQuotaZero</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a> instead.
+> When developing drivers for version of Windows prior to Windows 10, version 2004, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolquotazero">ExAllocatePoolQuotaZero</a>.
 
 <b>ExAllocatePoolWithQuota</b> allocates pool memory, charging quota against the current process.
 
