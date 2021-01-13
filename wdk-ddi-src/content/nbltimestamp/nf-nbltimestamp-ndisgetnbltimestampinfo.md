@@ -1,7 +1,7 @@
 ---
 UID: NF:nbltimestamp.NdisGetNblTimestampInfo
 title: NdisGetNblTimestampInfo
-ms.date: 11/30/2020
+ms.date: 01/31/2021
 ms.topic: language-reference
 targetos: Windows
 description: This function is reserved for system use and should not be called in your code.
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis/nbltimestamp.h
 req.idl: 
-req.include-header: 
+req.include-header: ndis.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: ndis.lib
