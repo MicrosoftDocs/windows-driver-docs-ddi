@@ -4,8 +4,7 @@ title: NdisCopyNblTimestampInfo
 ms.date: 01/31/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
-tech.root: netvista
+description: Call NdisCopyNblTimestampInfo to copy a software or hardware timestamp from a source NET_BUFFER_LIST to a destination NET_BUFFER_LIST.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -46,25 +45,36 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+Miniport drivers call the **NdisCopyNblTimestampInfo** function to copy a software or hardware timestamp from a source [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure to a destination **NET_BUFFER_LIST** structure.
 
 ## -parameters
 
 ### -param NblDest
 
 [_Inout_]
-A pointer to the destination [NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md) structure.
+A pointer to a previously allocated destination [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ### -param NblSrc
 
 [_In_]
-A pointer to the source [NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md) structure.
+A pointer to a previously allocated source **NET_BUFFER_LIST** structure where the timestamp was stored.
 
 ## -remarks
 
+Miniport drivers can use [**NdisSetNblTimestampInfo**](nf-nbltimestamp-ndissetnbltimestampinfo.md) and [**NdisGetNblTimestampInfo**](nf-nbltimestamp-ndisgetnbltimestampinfo.md) to set and retrieve timestamps.
+
+For more information on generating hardware and software timestamps, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets).
+
 ## -see-also
 
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
+[**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md)
+
+[**NdisSetNblTimestampInfo**](nf-nbltimestamp-ndissetnbltimestampinfo.md)
+
+[**NdisGetNblTimestampInfo**](nf-nbltimestamp-ndisgetnbltimestampinfo.md)
+
+[Overview of NDIS packet timestamping](/windows-hardware/drivers/network/overview-of-ndis-packet-timestamping)
+
+[Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets)

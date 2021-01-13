@@ -53,16 +53,18 @@ Miniport drivers call **NdisSetNblTimestampInfo** to store a hardware or softwar
 ### -param Nbl
 
 [_Inout_]
-A pointer to a [NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md) structure.
+A pointer to a [**NET_BUFFER_LIST**] structure.
 
 ### -param NblTimestamp
 
 [_In_]
-A pointer to a [NET_BUFFER_LIST_TIMESTAMP](ns-nbltimestamp-net_buffer_list_timestamp.md) structure.
+A pointer to an initialized [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md) structure.
 
 ## -remarks
 
-To store a software or hardware timestamp in an NBL's **NetBufferListInfo** array, the miniport driver fills the **Timestamp** field of the [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md) and calls **NdisSetNblTimestampInfo**, passing in the **NET_BUFFER_LIST_TIMESTAMP**.
+The miniport driver can store a software or hardware timestamp in an NBL's **NetBufferListInfo** array. The driver fills the **Timestamp** field of the [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md) structure and calls **NdisSetNblTimestampInfo**, passing in the structure.
+
+For more information on generating hardware and software timestamps, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets).
 
 ## -see-also
 
