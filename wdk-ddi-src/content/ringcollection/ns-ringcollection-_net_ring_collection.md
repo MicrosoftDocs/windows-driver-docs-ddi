@@ -27,13 +27,13 @@ f1_keywords:
  - ringcollection/_NET_RING_COLLECTION
  - NET_RING_COLLECTION
  - ringcollection/NET_RING_COLLECTION
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - ringcollection.h
-apiname:
+api_name:
  - NET_RING_COLLECTION
 ---
 

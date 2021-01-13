@@ -4,7 +4,7 @@ title: IddCxMonitorDeparture function (iddcx.h)
 description: An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a monitor departure from the WDDM graphics adapter.
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 01/11/2021
 keywords: ["IddCxMonitorDeparture function"]
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
 req.header: iddcx.h
@@ -50,8 +50,16 @@ An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a mon
 
 ### -param MonitorObject
 
-[in] The monitor object that is departing
+[in] The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that is departing.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+
+## -remarks
+
+[**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md) creates the [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for an arriving monitor.
+
+## -see-also
+
+[**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md)

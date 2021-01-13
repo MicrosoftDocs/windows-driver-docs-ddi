@@ -29,13 +29,13 @@ targetos: Windows
 f1_keywords:
  - NetTxQueueNotifyMoreCompletedPacketsAvailable
  - nettxqueue/NetTxQueueNotifyMoreCompletedPacketsAvailable
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - nettxqueue.h
-apiname:
+api_name:
  - NetTxQueueNotifyMoreCompletedPacketsAvailable
 ---
 

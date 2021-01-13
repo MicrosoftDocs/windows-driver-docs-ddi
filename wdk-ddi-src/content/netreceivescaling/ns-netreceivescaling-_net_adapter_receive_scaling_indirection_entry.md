@@ -25,13 +25,13 @@ f1_keywords:
  - netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
  - NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
  - netreceivescaling/NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netreceivescaling.h
-apiname:
+api_name:
  - _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 ---
 

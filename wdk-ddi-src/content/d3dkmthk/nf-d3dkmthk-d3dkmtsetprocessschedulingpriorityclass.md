@@ -52,13 +52,11 @@ The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling 
 
 ## -parameters
 
-## -param
-
-*Priority* 
+### -param Priority
 
 [in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
 
-*hProcess* 
+### -param hProcess
 
 [in] A handle to the process that scheduling priority is set for.
 

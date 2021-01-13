@@ -4,13 +4,13 @@ title: _NDK_RESULT_EX (ndkpi.h)
 description: The NDK_RESULT_EX structure returns the results for an NDK request operation. It is identical to the NDK_RESULT structure, except that it has additional Type and TypeSpecificCompletionOutput members.
 old-location: netvista\ndk_result_ex.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/30/2020
 keywords: ["NDK_RESULT_EX structure"]
 ms.keywords: NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
-req.target-min-winverclnt: None supported,Supported in NDIS 6.40 and later.
+req.target-min-winverclnt: Supported in NDIS 6.40 and later.
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -70,6 +70,13 @@ A request context value specified by the NDK consumer when  a request is posted.
 ### -field Type
 
 An <a href="/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_operation_type">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
+
+### -field ProviderErrorCode
+
+If **Status** returns STATUS_SUCCESS, then **ProviderErrorCode** must be **zero**.
+
+If **Status** does not return STATUS_SUCCESS, then **zero** indicates the NDK provider does not support the **ProviderErrorCode** capability yet or did not provide an error code. A **non-zero** value provides additional provider information to diagnose the **Status** code.
+
 
 ### -field TypeSpecificCompletionOutput
 

@@ -27,13 +27,13 @@ f1_keywords:
  - checksumtypes/_NET_PACKET_CHECKSUM
  - NET_PACKET_CHECKSUM
  - checksumtypes/NET_PACKET_CHECKSUM
-topictype:
+topic_type:
  - APIRef
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - checksumtypes.h
-apiname:
+api_name:
  - NET_PACKET_CHECKSUM
 ---
 

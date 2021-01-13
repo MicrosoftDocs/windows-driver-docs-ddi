@@ -30,13 +30,13 @@ targetos: Windows
 f1_keywords:
  - NetAdapterSetLinkState
  - netadapter/NetAdapterSetLinkState
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - NetAdapterSetLinkState
 ---
 

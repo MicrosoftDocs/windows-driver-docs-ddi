@@ -4,7 +4,7 @@ title: IddCxMonitorArrival function (iddcx.h)
 description: An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter.
 old-location: display\iddcxmonitorarrival.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 01/11/2021
 keywords: ["IddCxMonitorArrival function"]
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
 req.header: iddcx.h
@@ -42,23 +42,32 @@ api_name:
 
 # IddCxMonitorArrival function
 
-
 ## -description
 
-                An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter
+An indirect display driver (IDD) calls **IddCxMonitorArrival** to report a monitor arrival on the WDDM graphics adapter.
 
 ## -parameters
 
-### -param AdapterObject 
+### -param AdapterObject
 
-[in]
-The adapter object that is hosting the newly arrived monitor
+[in] The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that arrived.
 
-### -param pOutArgs 
+### -param pOutArgs
 
-[out]
-Output arguments to the function
+[out] Pointer to an [**IDARG_OUT_MONITORARRIVAL**](ns-iddcx-idarg_out_monitorarrival.md) structure in which to return details about the monitor that arrived.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+
+## -remarks
+
+An IDD must first call [**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md) to obtain the [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object.
+
+## -see-also
+
+[**IDARG_OUT_MONITORARRIVAL**](ns-iddcx-idarg_out_monitorarrival.md)
+
+[**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md)
+
+[**IddCxMonitorDeparture**](nf-iddcx-iddcxmonitordeparture.md)

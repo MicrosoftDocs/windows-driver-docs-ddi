@@ -22,13 +22,13 @@ f1_keywords:
  - netadapter/_NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
  - NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
  - netadapter/NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
-topictype:
+topic_type:
  - apiref
-apitype:
+api_type:
  - HeaderDef
-apilocation:
+api_location:
  - netadapter.h
-apiname:
+api_name:
  - _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 ---
 
