@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure"]
 ms.keywords: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure [Display Devices], DmStructs_b3796227-6822-43b8-944a-b435939da72f.xml, _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, d3dkmdt/DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, display.dxgkmdt_opm_actual_output_format
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
