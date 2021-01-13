@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration"]
 ms.keywords: DIDDT1_Sync_Negative, DIDDT1_Sync_Positive, DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, DmEnums_7a2bc957-2ae3-4a38-bbe7-8e3e52994e5d.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration [Display Devices], d3dkmdt/DIDDT1_Sync_Negative, d3dkmdt/DIDDT1_Sync_Positive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, display.displayid_detailed_timing_type_i_sync_polarity
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
