@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration"]
 ms.keywords: D3DKMDT_MFRC_ACTIVESIZE, D3DKMDT_MFRC_MAXPIXELRATE, D3DKMDT_MFRC_UNINITIALIZED, D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration [Display Devices], DmEnums_923a6c46-3d71-4d26-8f28-2bf5c6f4bd32.xml, _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, d3dkmdt/D3DKMDT_MFRC_ACTIVESIZE, d3dkmdt/D3DKMDT_MFRC_MAXPIXELRATE, d3dkmdt/D3DKMDT_MFRC_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, display.d3dkmdt_monitor_frequency_range_constraint
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 

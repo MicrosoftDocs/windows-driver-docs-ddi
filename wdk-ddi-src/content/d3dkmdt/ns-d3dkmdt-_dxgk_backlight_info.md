@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BACKLIGHT_INFO structure"]
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
