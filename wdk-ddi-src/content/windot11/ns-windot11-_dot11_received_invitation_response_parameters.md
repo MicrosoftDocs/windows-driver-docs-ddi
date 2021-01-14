@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
+ - PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
  - DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
 product:
  - Windows 10 or later.
@@ -114,3 +116,4 @@ typedef struct _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS {
 ## -see-also
 
 <a href="..\windot11\ns-windot11-_dot11_received_invitation_response_parameters.md">DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_ENDPOINT_INIT_AND_METADATA
+ - PUDECX_USB_ENDPOINT_INIT_AND_METADATA
  - UDECX_USB_ENDPOINT_INIT_AND_METADATA
 ---
 
@@ -72,3 +74,4 @@ Optional. A USB-defined SuperSpeed Endpoint Companion descriptor. For more infor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
+

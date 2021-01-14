@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
  - DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 ---
 
@@ -85,3 +86,4 @@ Note that the <i>NotifyResidency</i> operation will be issued only once during a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

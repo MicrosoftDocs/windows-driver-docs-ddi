@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_ID_GLOBAL_TX_DIR_INFORMATION
+ - PFILE_ID_GLOBAL_TX_DIR_INFORMATION
  - FILE_ID_GLOBAL_TX_DIR_INFORMATION
 ---
 
@@ -189,3 +191,4 @@ The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure can be implemented for fi
   
 
 If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set in <b>TxInfoFlags</b>, <b>LockingTransactionId</b> is ignored.
+

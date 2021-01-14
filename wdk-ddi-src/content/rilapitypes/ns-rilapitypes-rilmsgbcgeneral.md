@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGBCGENERAL
+ - LPRILMSGBCGENERAL
 ---
 
 # RILMSGBCGENERAL structure (rilapitypes.h)

@@ -31,6 +31,8 @@ api_location:
  - ntifs.h
 api_name:
  - _RTL_MEMORY_TYPE
+ - PRTL_MEMORY_TYPE
+ - RTL_MEMORY_TYPE
 ---
 
 # _RTL_MEMORY_TYPE enumeration

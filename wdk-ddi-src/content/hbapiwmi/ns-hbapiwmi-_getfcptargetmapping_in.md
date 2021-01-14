@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFcpTargetMapping_IN
+ - PGetFcpTargetMapping_IN
  - GetFcpTargetMapping_IN
 ---
 
@@ -74,3 +76,4 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structu
 
 
 <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
+

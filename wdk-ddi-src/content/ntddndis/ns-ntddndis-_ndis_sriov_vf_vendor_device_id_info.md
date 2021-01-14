@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
  - NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
 ---
 
@@ -107,3 +109,4 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>
+

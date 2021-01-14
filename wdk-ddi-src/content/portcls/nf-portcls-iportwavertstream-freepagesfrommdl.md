@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.FreePagesFromMdl
+ - IPortWaveRTStream::FreePagesFromMdl
 ---
 
 # IPortWaveRTStream::FreePagesFromMdl
@@ -71,3 +71,4 @@ The miniport driver must call this method to free an MDL that was previously all
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-allocatepagesformdl">IPortWaveRTStream::AllocatePagesForMdl</a>
+

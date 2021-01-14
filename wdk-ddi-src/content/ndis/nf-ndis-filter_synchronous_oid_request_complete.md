@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FilterSynchronousOidRequestComplete
+ - FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE
 ---
 
 # FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function
@@ -114,3 +114,4 @@ Filter drivers must not call [**NdisAllocateCloneOidRequest**](nf-ndis-ndisalloc
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
 [Synchronous OID Request Interface in NDIS 6.80](/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80)
+

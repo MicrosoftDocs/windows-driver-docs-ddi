@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - ntddvdeo
  - ntddvdeo/ntddvdeo
+api_name:
+ - ntddvdeo
 ---
 
 # Ntddvdeo.h header

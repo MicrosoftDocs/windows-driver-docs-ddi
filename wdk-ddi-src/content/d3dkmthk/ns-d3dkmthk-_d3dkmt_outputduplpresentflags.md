@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OUTPUTDUPLPRESENTFLAGS
  - D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ---
 
@@ -82,3 +83,4 @@ This member is reserved and should be set to zero. Setting this member to zero i
 ### -field Value
 
 A 32-bit value that identifies the DDA present options.
+

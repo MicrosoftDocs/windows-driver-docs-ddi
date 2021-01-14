@@ -39,10 +39,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_ALLOCATIONINFO
  - DXGK_ALLOCATIONINFO
 ---
 
 # _DXGK_ALLOCATIONINFO structure
+
 
 ## -description
 
@@ -157,3 +159,4 @@ Ignoring the supported read segment set does not mean that it is no longer suppo
 [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
 [**pfnAllocateCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_DEVICE_OBJECT_ATTRIBUTES
+ - PNDIS_DEVICE_OBJECT_ATTRIBUTES
  - NDIS_DEVICE_OBJECT_ATTRIBUTES
 ---
 
@@ -154,3 +156,4 @@ An NDIS filter or miniport driver can call the
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

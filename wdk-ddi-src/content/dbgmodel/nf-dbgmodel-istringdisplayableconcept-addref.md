@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IStringDisplayableConcept.AddRef
+ - IStringDisplayableConcept::AddRef
 ---
 
 # IStringDisplayableConcept::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IStringDisplayableConcept interface](nn-dbgmodel-istringdisplayableconcept.md)
+

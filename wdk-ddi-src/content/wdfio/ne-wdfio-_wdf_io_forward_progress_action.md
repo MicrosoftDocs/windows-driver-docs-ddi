@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_FORWARD_PROGRESS_ACTION
  - WDF_IO_FORWARD_PROGRESS_ACTION
 ---
 
@@ -72,3 +73,4 @@ The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration is used as the return valu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress">EvtIoWdmIrpForForwardProgress</a>
+

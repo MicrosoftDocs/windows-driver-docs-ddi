@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSendUIRequest
+ - DOT11EXT_SEND_UI_REQUEST
 ---
 
 # DOT11EXT_SEND_UI_REQUEST callback
@@ -138,3 +138,4 @@ The operating system can query the completion status of the request through a ca
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
    Dot11ExtIhvIsUIRequestPending</a>
+

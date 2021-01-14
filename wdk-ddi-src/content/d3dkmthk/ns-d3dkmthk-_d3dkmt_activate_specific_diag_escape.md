@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
  - D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 ---
 
@@ -62,3 +63,4 @@ If <b>TRUE</b>, the escape type is to be activated. If <b>FALSE</b>, the escape 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPETYPE</a>
+

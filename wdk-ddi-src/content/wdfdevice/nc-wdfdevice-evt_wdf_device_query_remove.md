@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceQueryRemove
+ - EVT_WDF_DEVICE_QUERY_REMOVE
 ---
 
 # EVT_WDF_DEVICE_QUERY_REMOVE callback function
@@ -73,3 +73,4 @@ The framework does not synchronize the <i>EvtDeviceQueryRemove</i> callback func
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_query_stop">EvtDeviceQueryStop</a>
+

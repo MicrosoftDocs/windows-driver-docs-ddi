@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hbapiwmi.h
 api_name:
+ - _ScsiReportLuns_IN
+ - PScsiReportLuns_IN
  - ScsiReportLuns_IN
 ---
 
@@ -77,3 +79,4 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/scsireportluns6">ScsiReportLuns</a>
+

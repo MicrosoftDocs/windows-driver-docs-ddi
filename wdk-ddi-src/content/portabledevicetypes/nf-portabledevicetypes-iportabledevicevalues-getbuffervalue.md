@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetBufferValue
+ - IPortableDeviceValues::GetBufferValue
 ---
 
 # IPortableDeviceValues::GetBufferValue
@@ -131,3 +131,4 @@ Retrieving a <b>NULL</b> buffer or a zero-sized buffer is not supported  and wil
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setbuffervalue">IPortableDeviceValues::SetBufferValue</a>
+

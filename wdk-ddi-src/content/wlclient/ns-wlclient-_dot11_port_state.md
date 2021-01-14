@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlclient.h
 api_name:
+ - _DOT11_PORT_STATE
+ - PDOT11_PORT_STATE
  - DOT11_PORT_STATE
 ---
 
@@ -112,3 +114,4 @@ The operating system passes in the current port state of the security session th
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
    Dot11ExtIhvPerformPostAssociate</a>
+

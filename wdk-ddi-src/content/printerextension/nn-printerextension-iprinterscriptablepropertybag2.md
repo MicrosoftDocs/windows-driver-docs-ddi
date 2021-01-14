@@ -38,7 +38,6 @@ api_location:
  - Printerextension.h
 api_name:
  - IPrinterScriptablePropertyBag2
- - IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 ---
 
 # IPrinterScriptablePropertyBag2 interface
@@ -52,3 +51,4 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBa
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - ComposeRects
+ - PFND3DDDI_COMPOSERECTS
 product:
  - Windows
 ---
@@ -136,3 +136,4 @@ for (UINT i=0; i < COMPOSERECTS.NumDstRects; i++) {
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

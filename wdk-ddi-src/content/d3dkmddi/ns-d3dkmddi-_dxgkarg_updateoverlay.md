@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_UPDATEOVERLAY
  - DXGKARG_UPDATEOVERLAY
 ---
 
@@ -62,3 +63,4 @@ The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overla
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updateoverlay">DxgkDdiUpdateOverlay</a>
+

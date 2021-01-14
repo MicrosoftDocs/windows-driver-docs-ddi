@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_MIX_CAPS
  - KSAUDIO_MIX_CAPS
 ---
 
@@ -98,3 +99,4 @@ This scale has a resolution of 1/65536 decibel.
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFile2.RetrieveCountedFileName
+ - IWDFFile2::RetrieveCountedFileName
 ---
 
 # IWDFFile2::RetrieveCountedFileName
@@ -190,7 +190,6 @@ CMyQueue::OnCreateFile(
     ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile2">IWDFFile2</a>
@@ -198,3 +197,4 @@ CMyQueue::OnCreateFile(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile-retrievefilename">IWDFFile::RetrieveFileName</a>
+

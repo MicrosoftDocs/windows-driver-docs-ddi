@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _VOLUME_READ_PLEX_INPUT
+ - PVOLUME_READ_PLEX_INPUT
  - VOLUME_READ_PLEX_INPUT
 ---
 
@@ -68,3 +70,4 @@ Supplies the zero-based plex number.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_read_plex">IOCTL_VOLUME_READ_PLEX</a>
+

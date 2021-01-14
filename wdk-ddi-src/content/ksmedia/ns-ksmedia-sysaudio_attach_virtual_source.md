@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PSYSAUDIO_ATTACH_VIRTUAL_SOURCE
  - SYSAUDIO_ATTACH_VIRTUAL_SOURCE
 ---
 
@@ -70,3 +71,4 @@ This structure is used by the <a href="/windows-hardware/drivers/audio/kspropert
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-attach-virtual-source">KSPROPERTY_SYSAUDIO_ATTACH_VIRTUAL_SOURCE</a>
+

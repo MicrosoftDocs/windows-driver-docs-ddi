@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILEXECUTORCONFIG
+ - LPRILEXECUTORCONFIG
 ---
 
 # RILEXECUTORCONFIG structure (ntddrilapitypes.h)

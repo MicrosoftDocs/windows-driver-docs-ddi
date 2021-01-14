@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_FILTER
  - DXVAHDDDI_FILTER
 ---
 
@@ -82,3 +83,4 @@ A value that specifies that the filter range of anamorphic scaling.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

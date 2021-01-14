@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - iscsifnd
  - iscsifnd/iscsifnd
+api_name:
+ - iscsifnd
 ---
 
 # Iscsifnd.h header

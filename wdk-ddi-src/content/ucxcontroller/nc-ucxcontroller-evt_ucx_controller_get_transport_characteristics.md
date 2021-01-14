@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UcxController.h
 api_name:
- - PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
+ - EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 ---
 
 # EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function
@@ -72,3 +72,4 @@ This callback function is optional. Whenever transport characteristics change, t
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfobject.h
 api_name:
+ - _WDF_SYNCHRONIZATION_SCOPE
  - WDF_SYNCHRONIZATION_SCOPE
 ---
 
@@ -112,3 +113,4 @@ For more information about synchronization of a driver's event callback function
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
+

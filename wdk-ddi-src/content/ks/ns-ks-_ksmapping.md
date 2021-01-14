@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSMAPPING
+ - PKSMAPPING
  - KSMAPPING
 ---
 
@@ -76,3 +78,4 @@ In order for minidrivers to use this structure within the stream pointer offsets
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
+

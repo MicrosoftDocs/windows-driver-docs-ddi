@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - iointex
  - iointex/iointex
+api_name:
+ - iointex
 ---
 
 # Iointex.h header
@@ -23,3 +25,4 @@ This header exposes the programming interfaces to connect and disconnect interru
 
 - [Registering an ISR](/windows-hardware/drivers/kernel/registering-an-isr)
 - [Introduction to Interrupt Service Routines](/windows-hardware/drivers/kernel/introduction-to-interrupt-service-routines)
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceKeyCollection.Clear
+ - IPortableDeviceKeyCollection::Clear
 ---
 
 # IPortableDeviceKeyCollection::Clear
@@ -77,3 +77,4 @@ None.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _DBGKD_GET_VERSION64
+ - PDBGKD_GET_VERSION64
  - DBGKD_GET_VERSION64
 ---
 
@@ -273,3 +275,4 @@ This operation is only available in kernel-mode debugging.
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+

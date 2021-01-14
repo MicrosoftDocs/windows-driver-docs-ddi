@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2INDEXEDTRIANGLELIST
+ - LPD3DHAL_DP2INDEXEDTRIANGLELIST
  - D3DHAL_DP2INDEXEDTRIANGLELIST
 ---
 
@@ -112,3 +114,4 @@ D3DDP2OP_INDEXEDTRIANGLELIST
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

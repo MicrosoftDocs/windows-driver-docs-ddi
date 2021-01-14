@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_INTERRUPT_STATE
  - DXGK_INTERRUPT_STATE
 ---
 
@@ -61,3 +62,4 @@ The interrupt is enabled.
 ### -field DXGK_INTERRUPT_DISABLE
 
 The interrupt is disabled.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateDsSrvCb
+ - PFND3D11DDI_STATE_DS_SRV_CB
 ---
 
 # PFND3D11DDI_STATE_DS_SRV_CB callback function
@@ -74,3 +74,4 @@ The total number of resource views. The number can be -1, which specifies that t
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+

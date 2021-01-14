@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - MyAVStrMiniFilterIRPHandler
+ - PFNKSFILTERIRP
 ---
 
 # PFNKSFILTERIRP callback function
@@ -123,3 +123,4 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
+

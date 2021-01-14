@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _KUSER_SHARED_DATA
+ - PKUSER_SHARED_DATA
  - KUSER_SHARED_DATA
 product:
  - Windows

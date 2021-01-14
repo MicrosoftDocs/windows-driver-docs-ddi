@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_RENDERFLAGS
  - D3DDDICB_RENDERFLAGS
 ---
 
@@ -90,3 +91,4 @@ A member in the union that is contained in D3DDDICB_RENDERFLAGS that can hold on
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

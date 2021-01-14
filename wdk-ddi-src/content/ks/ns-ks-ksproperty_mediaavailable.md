@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_MEDIAAVAILABLE
  - KSPROPERTY_MEDIAAVAILABLE
 ---
 
@@ -66,3 +67,4 @@ This structure corresponds with DirectShow's <b>IMediaSeeking::GetAvailable</b>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-available">KSPROPERTY_MEDIASEEKING_AVAILABLE</a>
+

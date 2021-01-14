@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.StopSynchronously
+ - IWDFIoQueue::StopSynchronously
 ---
 
 # IWDFIoQueue::StopSynchronously
@@ -62,3 +62,4 @@ The <b>StopSynchronously</b> method enables the queue to receive new requests, e
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a>
+

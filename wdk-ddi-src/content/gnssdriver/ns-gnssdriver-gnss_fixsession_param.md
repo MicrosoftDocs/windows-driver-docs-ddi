@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_FIXSESSION_PARAM
  - GNSS_FIXSESSION_PARAM
 ---
 
@@ -130,3 +131,4 @@ Padding buffer.
 ## -remarks
 
 The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
+

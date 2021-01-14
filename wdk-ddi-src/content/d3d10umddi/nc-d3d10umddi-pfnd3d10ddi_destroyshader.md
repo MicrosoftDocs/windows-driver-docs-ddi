@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - DestroyShader
+ - PFND3D10DDI_DESTROYSHADER
 ---
 
 # PFND3D10DDI_DESTROYSHADER callback function
@@ -76,3 +76,4 @@ The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

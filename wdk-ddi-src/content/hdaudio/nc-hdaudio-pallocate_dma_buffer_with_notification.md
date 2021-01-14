@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - AllocateDmaBufferWithNotification
+ - PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION
 ---
 
 # PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function
@@ -211,3 +211,4 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueue.SendBidiQuery
+ - IPrinterQueue::SendBidiQuery
 ---
 
 # IPrinterQueue::SendBidiQuery
@@ -94,3 +94,4 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueevent-onbidiresponsereceived">IPrinterQueueEvent::OnBidiResponseReceived</a>
+

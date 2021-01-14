@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksi.h
 api_name:
+ - PKSCLOCKINSTANCE
  - KSCLOCKINSTANCE
 ---
 

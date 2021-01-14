@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetAccessSubType
+ - CWiauPropertyList::SetAccessSubType
 ---
 
 # CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)

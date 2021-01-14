@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_OVERLAYINFOFLAGS
  - D3DDDI_OVERLAYINFOFLAGS
 ---
 
@@ -138,3 +139,4 @@ A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a>
+

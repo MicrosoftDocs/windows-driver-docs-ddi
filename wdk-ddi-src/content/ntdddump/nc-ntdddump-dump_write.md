@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
- - Dump_Write
+ - DUMP_WRITE
 ---
 
 # DUMP_WRITE callback function
@@ -85,3 +85,4 @@ To safely modify the data for the dump write, a filter driver should allocate a 
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _tagKSTELEPHONY_CALLCONTROL
+ - PKSTELEPHONY_CALLCONTROL
  - KSTELEPHONY_CALLCONTROL
 ---
 
@@ -60,3 +62,4 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 ### -field CallControlOp
 
 Specifies the call control operation (enable or disable).
+

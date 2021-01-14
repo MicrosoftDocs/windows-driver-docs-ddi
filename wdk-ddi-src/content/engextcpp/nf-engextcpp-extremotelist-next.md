@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteList.Next
+ - ExtRemoteList::Next
 ---
 
 # ExtRemoteList::Next
@@ -58,3 +58,4 @@ If <b>Next</b> reaches the end of the list, subsequent calls to <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-hasnode">ExtRemoteList::HasNode</a>
+

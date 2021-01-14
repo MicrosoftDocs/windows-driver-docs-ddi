@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS
+ - PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS
  - NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS
 ---
 
@@ -138,3 +140,4 @@ For more information about extensible switch policies, see <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-enum">OID_SWITCH_PORT_PROPERTY_ENUM</a>
+

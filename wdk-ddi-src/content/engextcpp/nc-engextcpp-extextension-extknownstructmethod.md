@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtKnownStructMethod
+ - ExtExtension::* ExtKnownStructMethod
 ---
 
 # ExtExtension::* ExtKnownStructMethod callback function
@@ -86,3 +86,4 @@ When the debugger engine calls a known structure method, it wraps the call in a 
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
+

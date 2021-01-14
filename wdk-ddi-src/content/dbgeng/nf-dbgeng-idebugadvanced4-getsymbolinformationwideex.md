@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced4.GetSymbolInformationWideEx
+ - IDebugAdvanced4::GetSymbolInformationWideEx
 ---
 
 # IDebugAdvanced4::GetSymbolInformationWideEx
@@ -232,3 +232,4 @@ The method was successful. However, the information would not fit in the buffer 
 </td>
 </tr>
 </table>
+

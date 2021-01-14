@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Smclib.h
 api_name:
+ - _SMARTCARD_REQUEST
+ - PSMARTCARD_REQUEST
  - SMARTCARD_REQUEST
 ---
 
@@ -68,3 +70,4 @@ Number of bytes required for this command.
 ## -see-also
 
 <a href="/previous-versions/dn946593(v=vs.85)">SmcCxGetSmartcardRequestBuffer</a>
+

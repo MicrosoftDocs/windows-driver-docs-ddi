@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
+ - _WDF_IO_QUEUE_STATE
+ - PWDF_IO_QUEUE_STATE
  - WDF_IO_QUEUE_STATE
 ---
 
@@ -95,3 +97,4 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_DIVERSITY_SUPPORT
+ - PDOT11_DIVERSITY_SUPPORT
  - DOT11_DIVERSITY_SUPPORT
 product:
  - Windows 10 or later.
@@ -95,3 +97,4 @@ typedef enum _DOT11_DIVERSITY_SUPPORT {
 
 <a href="/previous-versions/windows/embedded/ee483634(v=winembedded.80)">
    OID_DOT11_DIVERSITY_SELECTION_RX</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLS_CONTAINER_INFORMATION
+ - PCLS_CONTAINER_INFORMATION
  - CLS_CONTAINER_INFORMATION
 ---
 
@@ -185,3 +187,4 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>
+

@@ -29,6 +29,7 @@ api_location:
  - ntifs.h
 api_name:
  - _FS_FILTER_CALLBACK_DATA
+ - PFS_FILTER_CALLBACK_DATA
  - FS_FILTER_CALLBACK_DATA
 f1_keywords:
  - _FS_FILTER_CALLBACK_DATA

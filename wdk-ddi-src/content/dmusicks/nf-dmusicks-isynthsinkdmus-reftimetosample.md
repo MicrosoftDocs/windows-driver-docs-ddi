@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - ISynthSinkDMus.RefTimeToSample
+ - ISynthSinkDMus::RefTimeToSample
 ---
 
 # ISynthSinkDMus::RefTimeToSample
@@ -76,3 +76,4 @@ The calculation of the reference time from the sample time depends on the sampli
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-isynthsinkdmus">ISynthSinkDMus</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbReadDeviceSpace
+ - DXGKCB_READ_DEVICE_SPACE
 ---
 
 # DXGKCB_READ_DEVICE_SPACE callback function
@@ -118,3 +118,4 @@ A pointer to a ULONG-typed variable that receives the number of bytes actually r
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_write_device_space">DxgkCbWriteDeviceSpace</a>
+

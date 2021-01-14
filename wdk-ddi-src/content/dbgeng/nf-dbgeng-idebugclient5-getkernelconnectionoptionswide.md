@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient5.GetKernelConnectionOptionsWide
+ - IDebugClient5::GetKernelConnectionOptionsWide
 ---
 
 # IDebugClient5::GetKernelConnectionOptionsWide
@@ -123,3 +123,4 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

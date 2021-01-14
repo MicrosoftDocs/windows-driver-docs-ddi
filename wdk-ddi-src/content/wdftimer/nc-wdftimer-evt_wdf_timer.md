@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdftimer.h
 api_name:
- - EvtTimerFunc
+ - EVT_WDF_TIMER
 ---
 
 # EVT_WDF_TIMER callback function
@@ -71,3 +71,4 @@ For more information about framework timer objects, see <a href="/windows-hardwa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>
+

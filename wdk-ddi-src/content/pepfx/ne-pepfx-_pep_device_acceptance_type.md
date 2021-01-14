@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_DEVICE_ACCEPTANCE_TYPE
+ - PPEP_DEVICE_ACCEPTANCE_TYPE
  - PEP_DEVICE_ACCEPTANCE_TYPE
 ---
 
@@ -79,3 +81,4 @@ This enumeration is used by <b>DeviceAccepted</b> member of the <a href="/window
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a>
+

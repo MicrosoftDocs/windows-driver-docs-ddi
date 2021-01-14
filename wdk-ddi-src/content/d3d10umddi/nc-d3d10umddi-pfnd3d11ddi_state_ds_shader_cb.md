@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateDsShaderCb
+ - PFND3D11DDI_STATE_DS_SHADER_CB
 ---
 
 # PFND3D11DDI_STATE_DS_SHADER_CB callback function
@@ -62,3 +62,4 @@ A handle to a context for the core Direct3D runtime. This handle is supplied to 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+

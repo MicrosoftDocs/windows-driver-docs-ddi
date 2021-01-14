@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netwakesourcelist
  - netwakesourcelist/netwakesourcelist
+api_name:
+ - netwakesourcelist
 ---
 
 # Netwakesourcelist.h header

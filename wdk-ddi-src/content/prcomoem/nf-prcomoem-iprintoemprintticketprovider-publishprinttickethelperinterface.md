@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
+ - IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 ---
 
 # IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface

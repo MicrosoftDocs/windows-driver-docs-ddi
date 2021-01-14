@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFMemory.SetBuffer
+ - IWDFMemory::SetBuffer
 ---
 
 # IWDFMemory::SetBuffer
@@ -72,3 +72,4 @@ The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+

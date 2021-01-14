@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelNameBinder.AddRef
+ - IDataModelNameBinder::AddRef
 ---
 
 # IDataModelNameBinder::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)
+

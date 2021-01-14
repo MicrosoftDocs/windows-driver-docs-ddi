@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - hidclass
  - hidclass/hidclass
+api_name:
+ - hidclass
 ---
 
 # Hidclass.h header

@@ -29,6 +29,7 @@ api_location:
  - wdm.h
 api_name:
  - _NPEM_CONTROL_INTERFACE
+ - PNPEM_CONTROL_INTERFACE
  - NPEM_CONTROL_INTERFACE
 f1_keywords:
  - _NPEM_CONTROL_INTERFACE

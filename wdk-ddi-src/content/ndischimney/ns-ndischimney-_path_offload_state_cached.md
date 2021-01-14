@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _PATH_OFFLOAD_STATE_CACHED
+ - PPATH_OFFLOAD_STATE_CACHED
  - PATH_OFFLOAD_STATE_CACHED
 ---
 
@@ -113,3 +115,4 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CACHED structure is assoc
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">PATH_OFFLOAD_STATE_DELEGATED</a>
+

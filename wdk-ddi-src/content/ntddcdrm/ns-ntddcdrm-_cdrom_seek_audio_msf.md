@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_SEEK_AUDIO_MSF
+ - PCDROM_SEEK_AUDIO_MSF
  - CDROM_SEEK_AUDIO_MSF
 ---
 
@@ -68,3 +70,4 @@ Contains an integer between 0 and 74 that indicates the frame to seek to.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_seek_audio_msf">IOCTL_CDROM_SEEK_AUDIO_MSF</a>
+

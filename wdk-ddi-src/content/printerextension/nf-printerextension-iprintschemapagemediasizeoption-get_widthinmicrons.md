@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaPageMediaSizeOption.WidthInMicrons
- - IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
+ - IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
 ---
 
 # IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption">IPrintSchemaPageMediaSizeOption</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
  - NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
 ---
 
@@ -153,3 +155,4 @@ The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a>
+

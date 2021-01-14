@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.AddBuffer
+ - IDebugFailureAnalysis2::AddBuffer
 ---
 
 # IDebugFailureAnalysis2::AddBuffer
@@ -95,3 +95,4 @@ This method creates a new <a href="/windows-hardware/drivers/debugger/failure-an
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

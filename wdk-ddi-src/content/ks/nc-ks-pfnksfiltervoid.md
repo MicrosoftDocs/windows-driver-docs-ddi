@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniFilterReset
+ - PFNKSFILTERVOID
 ---
 
 # PFNKSFILTERVOID callback function
@@ -73,3 +73,4 @@ This routine is optional.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a>
+

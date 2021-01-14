@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetIndices
+ - PFND3DDDI_SETINDICES
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexB
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

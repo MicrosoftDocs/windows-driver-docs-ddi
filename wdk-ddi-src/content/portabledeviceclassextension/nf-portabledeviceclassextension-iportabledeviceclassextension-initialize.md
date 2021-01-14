@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceClassExtension.h
 api_name:
- - IPortableDeviceClassExtension.Initialize
+ - IPortableDeviceClassExtension::Initialize
 ---
 
 # IPortableDeviceClassExtension::Initialize
@@ -102,3 +102,4 @@ A required pointer argument was <b>NULL</b>.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff597738(v=vs.85)">WPD Class Extension Properties</a>
+

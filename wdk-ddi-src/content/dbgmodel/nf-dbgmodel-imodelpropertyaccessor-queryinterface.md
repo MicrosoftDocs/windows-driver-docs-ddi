@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelPropertyAccessor.QueryInterface
+ - IModelPropertyAccessor::QueryInterface
 ---
 
 # IModelPropertyAccessor::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)
+

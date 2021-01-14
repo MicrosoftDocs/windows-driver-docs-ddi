@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_CAPABILITIES
+ - PNDIS_RECEIVE_FILTER_CAPABILITIES
  - NDIS_RECEIVE_FILTER_CAPABILITIES
 ---
 
@@ -556,3 +558,4 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
    OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a>
+

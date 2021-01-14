@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_ERROR_RECORD_EVENT
+ - PWHEAP_ERROR_RECORD_EVENT
  - WHEAP_ERROR_RECORD_EVENT
 product:
  - Windows

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_RW_LOCK_REFCOUNT
  - NDIS_RW_LOCK_REFCOUNT
 ---
 

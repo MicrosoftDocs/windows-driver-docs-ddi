@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_USSD_EVENT
+ - PNDIS_WWAN_USSD_EVENT
  - NDIS_WWAN_USSD_EVENT
 ---
 
@@ -198,3 +200,4 @@ A formatted
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
+

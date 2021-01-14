@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_POWER_POLICY_EVENT_CALLBACKS
+ - PWDF_POWER_POLICY_EVENT_CALLBACKS
  - WDF_POWER_POLICY_EVENT_CALLBACKS
 ---
 
@@ -96,3 +98,4 @@ Your driver should initialize its <b>WDF_POWER_POLICY_EVENT_CALLBACKS</b> struct
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_pnppower_event_callbacks">WDF_PNPPOWER_EVENT_CALLBACKS</a>
+

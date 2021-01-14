@@ -39,6 +39,7 @@ api_type:
 api_location:
  - UcmTcpciPortControllerRequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_IOCTL
  - UCMTCPCI_PORT_CONTROLLER_IOCTL
 ---
 
@@ -113,3 +114,4 @@ The <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucm
 The  <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed">IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED</a> request.
 
 ### -field _IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED
+

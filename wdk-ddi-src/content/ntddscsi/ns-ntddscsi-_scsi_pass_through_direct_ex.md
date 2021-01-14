@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_PASS_THROUGH_DIRECT_EX
+ - PSCSI_PASS_THROUGH_DIRECT_EX
  - SCSI_PASS_THROUGH_DIRECT_EX
 ---
 
@@ -143,3 +145,4 @@ The **SCSI_PASS_THROUGH_DIRECT_EX** structure is used with [IOCTL_SCSI_PASS_THRO
 [SCSI_PASS_THROUGH_DIRECT](ns-ntddscsi-_scsi_pass_through_direct.md)
 
 [STOR_ADDR_BTL8](../scsi/ns-scsi-_stor_addr_btl8.md)
+

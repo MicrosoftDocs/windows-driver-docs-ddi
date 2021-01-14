@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _SUB_Q_MEDIA_CATALOG_NUMBER
+ - PSUB_Q_MEDIA_CATALOG_NUMBER
  - SUB_Q_MEDIA_CATALOG_NUMBER
 ---
 
@@ -92,3 +94,4 @@ Contains the catalog number if <b>Mcval</b> is set to 1.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSENDFLASHPARAMS
+ - LPRILSENDFLASHPARAMS
 ---
 
 # RILSENDFLASHPARAMS structure (rilapitypes.h)

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _tagKSAUDIOENGINE_VOLUMELEVEL
+ - PKSAUDIOENGINE_VOLUMELEVEL
  - KSAUDIOENGINE_VOLUMELEVEL
 ---
 
@@ -72,3 +74,4 @@ Specifies the duration, in hundreds of nanoseconds, over which the volume curve 
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
+

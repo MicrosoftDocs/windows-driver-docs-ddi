@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - SystemCorrelatedTime
+ - PFNKSCLOCK_CORRELATEDTIME
 ---
 
 # PFNKSCLOCK_CORRELATEDTIME callback function
@@ -91,3 +91,4 @@ Both time values are specified in 100 nanosecond units.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
+

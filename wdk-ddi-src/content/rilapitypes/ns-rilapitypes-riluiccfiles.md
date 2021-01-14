@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCFILES
+ - LPRILUICCFILES
 ---
 
 # RILUICCFILES structure (rilapitypes.h)

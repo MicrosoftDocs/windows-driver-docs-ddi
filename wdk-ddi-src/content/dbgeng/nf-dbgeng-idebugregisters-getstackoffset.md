@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters.GetStackOffset
- - IDebugRegisters2.GetStackOffset
+ - IDebugRegisters::GetStackOffset
 ---
 
 # IDebugRegisters::GetStackOffset
@@ -96,3 +95,4 @@ For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-i
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
+

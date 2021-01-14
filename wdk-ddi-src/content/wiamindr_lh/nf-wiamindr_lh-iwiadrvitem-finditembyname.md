@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.FindItemByName
+ - IWiaDrvItem::FindItemByName
 ---
 
 # IWiaDrvItem::FindItemByName
@@ -96,3 +96,4 @@ This method starts the search for the specified item at the root item in the dri
 [IWiaDrvItem::FindChildItemByName](./nf-wiamindr_lh-iwiadrvitem-findchilditembyname.md)
 
 [IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md)
+

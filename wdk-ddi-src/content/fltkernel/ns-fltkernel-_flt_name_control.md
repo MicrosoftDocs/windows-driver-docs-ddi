@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_NAME_CONTROL
+ - PFLT_NAME_CONTROL
  - FLT_NAME_CONTROL
 ---
 
@@ -84,3 +86,4 @@ Minifilters must not attempt to free or replace the buffer in the <a href="/wind
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

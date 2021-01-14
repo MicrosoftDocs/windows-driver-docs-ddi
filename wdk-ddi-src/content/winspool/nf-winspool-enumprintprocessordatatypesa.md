@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - EnumPrintProcessorDatatypesA
  - EnumPrintProcessorDatatypes
 ---
 

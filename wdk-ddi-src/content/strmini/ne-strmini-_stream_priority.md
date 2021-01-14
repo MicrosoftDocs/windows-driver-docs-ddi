@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Strmini.h
 api_name:
+ - _STREAM_PRIORITY
+ - PSTREAM_PRIORITY
  - STREAM_PRIORITY
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFAEntryTags.GetType
+ - IDebugFAEntryTags::GetType
 ---
 
 # IDebugFAEntryTags::GetType
@@ -76,3 +76,4 @@ A value in the <a href="/windows-hardware/drivers/ddi/extsfns/ne-extsfns-_fa_ent
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

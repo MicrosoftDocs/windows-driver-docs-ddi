@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbIndicateChildStatus
+ - DXGKCB_INDICATE_CHILD_STATUS
 ---
 
 # DXGKCB_INDICATE_CHILD_STATUS callback function
@@ -139,3 +139,4 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
+

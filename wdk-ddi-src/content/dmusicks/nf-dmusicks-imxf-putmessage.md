@@ -34,7 +34,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IMXF.PutMessage
+ - IMXF::PutMessage
 product:
  - Windows
 ---

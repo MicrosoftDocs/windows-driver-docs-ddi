@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolDirectOidRequestComplete
+ - PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
 ---
 
 # PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback function
@@ -207,3 +207,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+

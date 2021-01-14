@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2
  - DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2
 ---
 
@@ -146,3 +147,4 @@ Specifies the color key value used when color key blending is enabled for legacy
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_video_frame_format">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
+

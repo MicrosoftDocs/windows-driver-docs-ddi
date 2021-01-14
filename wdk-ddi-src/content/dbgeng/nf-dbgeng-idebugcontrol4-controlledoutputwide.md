@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl4.ControlledOutputWide
+ - IDebugControl4::ControlledOutputWide
 ---
 
 # IDebugControl4::ControlledOutputWide
@@ -394,7 +394,6 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 
 ```
 
-
 ### -param param
 
 ####### - ...
@@ -446,3 +445,4 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
+

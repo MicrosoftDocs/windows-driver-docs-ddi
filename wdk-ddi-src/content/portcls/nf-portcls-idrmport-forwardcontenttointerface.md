@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort.ForwardContentToInterface
+ - IDrmPort::ForwardContentToInterface
 product:
  - Windows
 ---
@@ -71,3 +71,4 @@ See comments in [DrmForwardContentToInterface](../drmk/nf-drmk-drmforwardcontent
 ## -see-also
 
 [IDrmPort](nn-portcls-idrmport.md)
+

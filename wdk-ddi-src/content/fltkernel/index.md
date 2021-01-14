@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - fltkernel
  - fltkernel/fltkernel
+api_name:
+ - fltkernel
 ---
 
 # Fltkernel.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsDataTypeHandler.KsQueryExtendedSize
+ - IKsDataTypeHandler::KsQueryExtendedSize
 ---
 
 # IKsDataTypeHandler::KsQueryExtendedSize
@@ -69,3 +69,4 @@ If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients shoul
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">IKsDataTypeHandler::KsPrepareIoOperation</a>
+

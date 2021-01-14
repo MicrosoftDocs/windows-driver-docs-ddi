@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorSetDataThresholds
+ - EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS
 ---
 
 # EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback function
@@ -72,3 +72,4 @@ This function must be implemented by the driver and is called by the class exten
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.RetrieveVersionString
+ - IWDFDriver::RetrieveVersionString
 ---
 
 # IWDFDriver::RetrieveVersionString
@@ -85,3 +85,4 @@ The buffer at <i>pVersion</i> was <b>NULL</b>, the driver preset the variable at
 
 
 <b>RetrieveVersionString</b> might also return other HRESULT values.
+

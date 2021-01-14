@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_SPECIFIC_DATA
+ - PSTORAGE_PROTOCOL_SPECIFIC_DATA
  - STORAGE_PROTOCOL_SPECIFIC_DATA
 ---
 
@@ -125,3 +127,4 @@ To specify a type of ATA protocol-specific information, configure the STORAGE_PR
 [STORAGE_PROTOCOL_SPECIFIC_DATA]()
 
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)
+

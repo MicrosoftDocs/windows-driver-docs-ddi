@@ -40,6 +40,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
+ - _POS_CX_EVENT_ATTRIBUTES
  - POS_CX_EVENT_ATTRIBUTES
 ---
 
@@ -76,3 +77,4 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 
 <a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority">POS_CX_EVENT_PRIORITY</a>
+

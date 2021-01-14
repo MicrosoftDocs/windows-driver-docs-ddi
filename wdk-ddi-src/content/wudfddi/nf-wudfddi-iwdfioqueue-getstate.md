@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.GetState
+ - IWDFIoQueue::GetState
 ---
 
 # IWDFIoQueue::GetState
@@ -76,3 +76,4 @@ The total number of requests that are associated with the I/O queue is the sum o
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>
+

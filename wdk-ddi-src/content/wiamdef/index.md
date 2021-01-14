@@ -12,12 +12,16 @@ tech.root: image
 f1_keywords:
  - wiamdef
  - wiamdef/wiamdef
+api_name:
+ - wiamdef
 ---
 
 # Wiamdef.h header
+
 
 ## -description
 
 This header is used by image. For more information, see:
 
 - [Imaging devices](../_image/index.md)<br><br>
+

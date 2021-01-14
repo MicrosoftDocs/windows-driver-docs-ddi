@@ -36,9 +36,12 @@ api_location:
  - trustedruntimeclx.h
 api_name:
  - _TR_SECURE_SERVICE_CALLBACKS_V1
+ - PTR_SECURE_SERVICE_CALLBACKS_V1
+ - TR_SECURE_SERVICE_CALLBACKS_V1
 ---
 
 # _TR_SECURE_SERVICE_CALLBACKS_V1 structure
+
 
 ## -description
 
@@ -67,3 +70,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

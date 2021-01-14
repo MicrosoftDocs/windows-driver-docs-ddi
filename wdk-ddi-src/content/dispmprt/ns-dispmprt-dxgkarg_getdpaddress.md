@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_GETDPADDRESS
+ - PDXGKARG_GETDPADDRESS
  - DXGKARG_GETDPADDRESS
 f1_keywords:
  - _DXGKARG_GETDPADDRESS
@@ -77,3 +78,4 @@ DP Relative Address. The format is described in the DP specification.
 [**D3DDDI_VIDEO_PRESENT_TARGET_ID**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target.md)
 
 [**DXGKDDI_GETDPADDRESS**](nc-dispmprt-dxgkddi_getdpaddress.md)
+

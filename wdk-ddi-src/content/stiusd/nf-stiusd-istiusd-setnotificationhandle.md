@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.SetNotificationHandle
+ - IStiUSD::SetNotificationHandle
 ---
 
 # IStiUSD::SetNotificationHandle
@@ -64,3 +64,4 @@ If the driver (and device) supports asynchronous notification of <a href="/windo
 If <i>hEvent</i> is an event handle, the <b>IStiUSD::SetNotificationHandle</b> method should store the handle and use it as an input argument to <b>SetEvent</b> (described in the Microsoft Windows SDK documentation). The driver should call <b>SetEvent</b> each time a device event is detected, to notify the event monitor that an event has occurred.
 
 If <i>hEvent</i> is <b>NULL</b>, the method should disable notification of device events.
+

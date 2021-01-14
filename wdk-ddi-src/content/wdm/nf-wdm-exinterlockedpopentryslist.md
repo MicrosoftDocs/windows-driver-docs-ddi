@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ExInterlockedPopEntrySList
- - ExpInterlockedPopEntrySList
 ---
 
 # ExInterlockedPopEntrySList macro
@@ -102,3 +101,4 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - DmaCompletionRoutine
+ - DMA_COMPLETION_ROUTINE
 ---
 
 # DMA_COMPLETION_ROUTINE callback function
@@ -138,3 +138,4 @@ The DMA_COMPLETION_ROUTINE function type is defined in the Wdm.h header file. To
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

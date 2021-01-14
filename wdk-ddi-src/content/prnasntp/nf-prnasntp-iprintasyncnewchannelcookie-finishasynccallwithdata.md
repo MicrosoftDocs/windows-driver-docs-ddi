@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prnasntp.h
 api_name:
- - IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
+ - IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ---
 
 # IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnewchannelcookie">IPrintAsyncNewChannelCookie</a>
+

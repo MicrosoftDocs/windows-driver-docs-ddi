@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VALUERANGE
  - DXVADDI_VALUERANGE
 ---
 
@@ -86,3 +87,4 @@ The DXVADDI_VALUERANGE structure describes values of a property (such as, the va
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3d10umddi
  - d3d10umddi/d3d10umddi
+api_name:
+ - d3d10umddi
 ---
 
 # D3D10Umddi.h header

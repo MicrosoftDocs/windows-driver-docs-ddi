@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_VIDEOINFOHEADER
+ - PKS_VIDEOINFOHEADER
  - KS_VIDEOINFOHEADER
 ---
 
@@ -96,3 +98,4 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>
+

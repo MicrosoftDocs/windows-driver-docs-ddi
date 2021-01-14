@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSSTREAM_POINTER
+ - PKSSTREAM_POINTER
  - KSSTREAM_POINTER
 ---
 
@@ -118,3 +120,4 @@ For general information about stream pointers, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a>
+

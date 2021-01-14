@@ -34,6 +34,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DGPU_PHYSICAL_ADDRESS
+ - D3DGPU_PHYSICAL_ADDRESS
 dev_langs:
  - c++
 ---

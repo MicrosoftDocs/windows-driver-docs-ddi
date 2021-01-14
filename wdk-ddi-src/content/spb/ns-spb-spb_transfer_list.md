@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_LIST
+ - PSPB_TRANSFER_LIST
 ---
 
 # SPB_TRANSFER_LIST structure
@@ -86,3 +87,4 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVCSTRM_FORMAT_INFO
+ - PAVCSTRM_FORMAT_INFO
  - AVCSTRM_FORMAT_INFO
 ---
 
@@ -141,3 +143,4 @@ Reserved. Do not use. Must be set to 0.
 
 
 <a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt">CIP_HDR2_SYT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_DATA_INDICATION
+ - PWSK_DATA_INDICATION
  - WSK_DATA_INDICATION
 ---
 
@@ -82,3 +84,4 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a>
+

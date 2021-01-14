@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.GetInterfaceDescriptor
+ - IWDFUsbInterface::GetInterfaceDescriptor
 ---
 
 # IWDFUsbInterface::GetInterfaceDescriptor
@@ -69,3 +69,4 @@ For a code example of how to use the <b>GetInterfaceDescriptor</b> method, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrieveusbinterface">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
+

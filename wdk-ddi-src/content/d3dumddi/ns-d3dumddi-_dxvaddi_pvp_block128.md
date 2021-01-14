@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PVP_BLOCK128
  - DXVADDI_PVP_BLOCK128
 ---
 
@@ -66,3 +67,4 @@ The DXVADDI_PVP_KEY128 structure contains a 128-bit key that the decode device u
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodebeginframe">DecodeBeginFrame</a>
+

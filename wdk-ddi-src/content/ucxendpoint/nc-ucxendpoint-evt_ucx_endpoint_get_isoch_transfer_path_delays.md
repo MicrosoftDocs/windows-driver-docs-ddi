@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
- - EvtUcxEndpointGetIsochTransferPathDelays
+ - EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS
 ---
 
 # EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS callback function
@@ -77,3 +77,4 @@ The UCX client driver registers this callback function with the USB host control
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_get_isoch_pipe_transfer_path_delays">_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</a>
+

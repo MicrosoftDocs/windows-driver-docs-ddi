@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PRESENT_MULTIPLANE_OVERLAY3
+ - D3DKMT_PRESENT_MULTIPLANE_OVERLAY3
 dev_langs:
  - c++
 ---

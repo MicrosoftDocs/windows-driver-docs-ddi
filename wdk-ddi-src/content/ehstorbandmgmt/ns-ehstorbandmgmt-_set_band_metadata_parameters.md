@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _SET_BAND_METADATA_PARAMETERS
+ - PSET_BAND_METADATA_PARAMETERS
  - SET_BAND_METADATA_PARAMETERS
 ---
 
@@ -127,3 +129,4 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
+

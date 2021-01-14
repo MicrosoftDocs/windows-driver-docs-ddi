@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_WIFI_HARDWARE_INTEGRATION
+ - PWWAN_SAR_WIFI_HARDWARE_INTEGRATION
+ - WWAN_SAR_WIFI_HARDWARE_INTEGRATION
 ---
 
 # _WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration
@@ -63,3 +65,4 @@ This enumeration is used in the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_con
 [OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-sar-config)
 
 [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)
+

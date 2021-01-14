@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.CreateSymbolicLinkWithReferenceString
+ - IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ---
 
 # IWDFDevice2::CreateSymbolicLinkWithReferenceString
@@ -159,7 +159,6 @@ The following code example creates a symbolic name string, obtains the <a href="
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -167,3 +166,4 @@ The following code example creates a symbolic name string, obtains the <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a>
+

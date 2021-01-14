@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcommonbuffer
  - wdfcommonbuffer/wdfcommonbuffer
+api_name:
+ - wdfcommonbuffer
 ---
 
 # Wdfcommonbuffer.h header

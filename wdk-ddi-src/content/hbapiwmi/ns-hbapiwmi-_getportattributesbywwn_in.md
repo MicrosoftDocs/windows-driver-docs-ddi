@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetPortAttributesByWWN_IN
+ - PGetPortAttributesByWWN_IN
  - GetPortAttributesByWWN_IN
 ---
 
@@ -66,3 +68,4 @@ For a definition of FC_Port and a discussion of worldwide names, see the T11 com
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getportattributesbywwn">GetPortAttributesByWWN</a>
+

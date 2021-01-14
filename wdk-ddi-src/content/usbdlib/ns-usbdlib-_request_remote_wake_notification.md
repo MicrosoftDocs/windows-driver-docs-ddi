@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbdlib.h
 api_name:
+ - _REQUEST_REMOTE_WAKE_NOTIFICATION
+ - PREQUEST_REMOTE_WAKE_NOTIFICATION
  - REQUEST_REMOTE_WAKE_NOTIFICATION
 ---
 
@@ -80,3 +82,4 @@ Specifies the device-defined index identifier of the interface with which the fu
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a>
+

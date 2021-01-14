@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_COUNTER_DESCRIPTOR
+ - PPCW_COUNTER_DESCRIPTOR
  - PCW_COUNTER_DESCRIPTOR
 ---
 
@@ -84,3 +86,4 @@ An array of `PCW_COUNTER_DESCRIPTOR` structures is provided during counterset re
 [CTRPP](/windows/win32/perfctrs/ctrpp)
 
 [counter Complex Type](/windows/win32/perfctrs/performance-counters-counter-complex-type)
+

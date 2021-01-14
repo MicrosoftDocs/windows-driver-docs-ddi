@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
+ - PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
  - PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ---
 
@@ -103,3 +105,4 @@ If the input value specified in the <b>TotalBufferSize</b> member is less than t
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+

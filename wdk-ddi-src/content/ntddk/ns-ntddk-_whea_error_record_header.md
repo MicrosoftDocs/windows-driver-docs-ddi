@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_RECORD_HEADER
+ - PWHEA_ERROR_RECORD_HEADER
  - WHEA_ERROR_RECORD_HEADER
 ---
 
@@ -191,3 +193,4 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_timestamp">WHEA_TIMESTAMP</a>
+

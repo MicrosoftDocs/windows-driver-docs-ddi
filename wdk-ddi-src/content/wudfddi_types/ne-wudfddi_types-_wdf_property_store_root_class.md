@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_PROPERTY_STORE_ROOT_CLASS
  - WDF_PROPERTY_STORE_ROOT_CLASS
 ---
 
@@ -76,3 +77,4 @@ The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="/wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a>
+

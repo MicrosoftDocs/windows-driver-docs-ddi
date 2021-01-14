@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_WRITE_SPEED_REQUEST
+ - PCDROM_WRITE_SPEED_REQUEST
  - CDROM_WRITE_SPEED_REQUEST
 ---
 
@@ -64,3 +66,4 @@ As defined in the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_c
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DEPTHFILL
  - D3DDDIARG_DEPTHFILL
 ---
 
@@ -74,3 +75,4 @@ A pixel value that is specified in native format for the fill depth.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
+

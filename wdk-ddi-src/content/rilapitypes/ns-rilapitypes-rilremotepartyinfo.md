@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILREMOTEPARTYINFO
+ - LPRILREMOTEPARTYINFO
 ---
 
 # RILREMOTEPARTYINFO structure (rilapitypes.h)

@@ -41,10 +41,13 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_IO_PARAMETER_BLOCK
+ - PFLT_IO_PARAMETER_BLOCK
  - FLT_IO_PARAMETER_BLOCK
 ---
 
 # _FLT_IO_PARAMETER_BLOCK structure
+
 
 ## -description
 
@@ -235,3 +238,4 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
 [**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)
+

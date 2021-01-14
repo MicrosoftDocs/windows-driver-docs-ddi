@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAC3_ERROR_CONCEALMENT
  - KSAC3_ERROR_CONCEALMENT
 ---
 
@@ -66,3 +67,4 @@ This structure is used by the <a href="/windows-hardware/drivers/audio/kspropert
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-ac3-error-concealment">KSPROPERTY_AC3_ERROR_CONCEALMENT</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.GetInterfaceNumber
+ - IWDFUsbInterface::GetInterfaceNumber
 ---
 
 # IWDFUsbInterface::GetInterfaceNumber
@@ -56,3 +56,4 @@ The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
+

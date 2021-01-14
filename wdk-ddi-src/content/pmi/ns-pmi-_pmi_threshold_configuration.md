@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_THRESHOLD_CONFIGURATION
+ - PPMI_THRESHOLD_CONFIGURATION
  - PMI_THRESHOLD_CONFIGURATION
 ---
 
@@ -81,3 +83,4 @@ Power levels that are monitored by the power meter drop below the <b>UpperThresh
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+

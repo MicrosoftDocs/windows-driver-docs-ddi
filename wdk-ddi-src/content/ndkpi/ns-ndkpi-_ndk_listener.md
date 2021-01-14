@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_LISTENER
  - NDK_LISTENER
 ---
 
@@ -90,3 +91,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
+

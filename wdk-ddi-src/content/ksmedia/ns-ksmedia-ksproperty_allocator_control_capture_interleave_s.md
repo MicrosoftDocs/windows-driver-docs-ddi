@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
  - KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
 ---
 
@@ -62,3 +63,4 @@ Indicates whether interleaved capture is possible. Any nonzero value indicates t
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>
+

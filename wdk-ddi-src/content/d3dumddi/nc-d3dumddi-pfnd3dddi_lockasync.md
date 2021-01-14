@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - LockAsync
+ - PFND3DDDI_LOCKASYNC
 product:
  - Windows
 ---
@@ -129,3 +129,4 @@ In summary, the driver should fail calls to its <i>LockAsync</i> function if ren
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

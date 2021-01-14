@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRequestCompletionParams.GetCompletionStatus
+ - IWDFRequestCompletionParams::GetCompletionStatus
 ---
 
 # IWDFRequestCompletionParams::GetCompletionStatus
@@ -56,3 +56,4 @@ The <b>GetCompletionStatus</b> method retrieves the completion status of an I/O 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>
+

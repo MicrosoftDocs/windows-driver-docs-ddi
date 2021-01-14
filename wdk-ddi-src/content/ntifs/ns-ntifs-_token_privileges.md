@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_PRIVILEGES
+ - PTOKEN_PRIVILEGES
  - TOKEN_PRIVILEGES
 ---
 
@@ -92,3 +94,4 @@ Specifies an array of LUID_AND_ATTRIBUTES structures. Each structure contains th
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

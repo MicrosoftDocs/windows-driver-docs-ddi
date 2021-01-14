@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
- - WdfInterruptReleaseLock
+ - PFN_WDFINTERRUPTRELEASELOCK
 ---
 
 # PFN_WDFINTERRUPTRELEASELOCK callback
@@ -95,3 +95,4 @@ For passive level interrupts, the driver must call <b>WdfInterruptReleaseLock</b
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
+

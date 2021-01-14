@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUni.DrvGetGPDData
+ - IPrintOemDriverUni::DrvGetGPDData
 ---
 
 # IPrintOemDriverUni::DrvGetGPDData
@@ -137,3 +137,4 @@ The method is not implemented.
 ## -remarks
 
 If the buffer specified by <i>pBuffer</i> and <i>cbSize</i> is too small to receive the requested information, Unidrv supplies the required buffer size in the location pointed to by <i>pcbNeeded</i>, returns E_FAIL, and sets the error code to ERROR_INSUFFICIENT_BUFFER.
+

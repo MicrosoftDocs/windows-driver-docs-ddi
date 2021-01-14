@@ -12,6 +12,8 @@ tech.root: battery
 f1_keywords:
  - upssvc
  - upssvc/upssvc
+api_name:
+ - upssvc
 ---
 
 # Upssvc.h header

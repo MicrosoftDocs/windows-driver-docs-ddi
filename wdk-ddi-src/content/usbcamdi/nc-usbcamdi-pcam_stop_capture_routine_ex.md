@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamStopCaptureEx
+ - PCAM_STOP_CAPTURE_ROUTINE_EX
 ---
 
 # PCAM_STOP_CAPTURE_ROUTINE_EX callback function

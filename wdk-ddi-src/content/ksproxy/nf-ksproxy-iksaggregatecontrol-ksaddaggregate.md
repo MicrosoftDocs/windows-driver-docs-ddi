@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsAggregateControl.KsAddAggregate
+ - IKsAggregateControl::KsAddAggregate
 ---
 
 # IKsAggregateControl::KsAddAggregate
@@ -65,3 +65,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate">IKsAggregateControl::KsRemoveAggregate</a>
+

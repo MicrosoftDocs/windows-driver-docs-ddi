@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _GLYPHRUN
+ - PGLYPHRUN
  - GLYPHRUN
 ---
 
@@ -78,3 +80,4 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 
 <a href="/windows/win32/api/winddi/ns-winddi-wcrun">WCRUN</a>
+

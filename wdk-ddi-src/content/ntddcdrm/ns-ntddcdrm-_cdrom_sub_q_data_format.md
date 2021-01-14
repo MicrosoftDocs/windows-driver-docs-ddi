@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_SUB_Q_DATA_FORMAT
+ - PCDROM_SUB_Q_DATA_FORMAT
  - CDROM_SUB_Q_DATA_FORMAT
 ---
 
@@ -108,3 +110,4 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_track_isrc">SUB_Q_TRACK_ISRC</a>
+

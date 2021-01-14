@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePci.NewStream
+ - IMiniportWavePci::NewStream
 ---
 
 # IMiniportWavePci::NewStream
@@ -157,3 +157,4 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
+

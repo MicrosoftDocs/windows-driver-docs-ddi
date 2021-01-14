@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced2.GetSymbolInformation
- - IDebugAdvanced3.GetSymbolInformation
+ - IDebugAdvanced2::GetSymbolInformation
 ---
 
 # IDebugAdvanced2::GetSymbolInformation
@@ -228,3 +227,4 @@ The method was successful. However, the information would not fit in the buffer 
 </td>
 </tr>
 </table>
+

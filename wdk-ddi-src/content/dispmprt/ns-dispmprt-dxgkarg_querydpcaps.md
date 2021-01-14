@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_QUERYDPCAPS
+ - PDXGKARG_QUERYDPCAPS
  - DXGKARG_QUERYDPCAPS
 f1_keywords:
  - _DXGKARG_QUERYDPCAPS

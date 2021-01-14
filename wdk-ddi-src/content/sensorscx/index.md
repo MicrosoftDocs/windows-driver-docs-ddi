@@ -12,6 +12,8 @@ tech.root: sensors
 f1_keywords:
  - sensorscx
  - sensorscx/sensorscx
+api_name:
+ - sensorscx
 ---
 
 # Sensorscx.h header

@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEAP_DEVICE_DRV_EVENT
+ - PWHEAP_DEVICE_DRV_EVENT
  - WHEAP_DEVICE_DRV_EVENT
 f1_keywords:
  - _WHEAP_DEVICE_DRV_EVENT

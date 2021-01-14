@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - AllocateRenderDmaEngine
+ - PALLOCATE_RENDER_DMA_ENGINE
 ---
 
 # PALLOCATE_RENDER_DMA_ENGINE callback function
@@ -183,3 +183,4 @@ A WDM audio driver calls <code>AllocateRenderDmaEngine</code> at pin-creation ti
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
+

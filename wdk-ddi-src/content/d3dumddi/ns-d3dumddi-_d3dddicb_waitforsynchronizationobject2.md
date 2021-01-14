@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2
  - D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2
 ---
 
@@ -84,3 +85,4 @@ Synchronization objects of type <b>D3DDDI_CPU_NOTIFICATION</b> cannot be used to
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb">pfnWaitForSynchronizationObject2Cb</a>
+

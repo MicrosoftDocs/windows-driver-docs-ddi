@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _MONITOR_DISPLAY_STATE
+ - PMONITOR_DISPLAY_STATE
  - MONITOR_DISPLAY_STATE
 ---
 

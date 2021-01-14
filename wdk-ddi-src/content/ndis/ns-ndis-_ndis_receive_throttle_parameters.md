@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_RECEIVE_THROTTLE_PARAMETERS
+ - PNDIS_RECEIVE_THROTTLE_PARAMETERS
  - NDIS_RECEIVE_THROTTLE_PARAMETERS
 ---
 
@@ -162,3 +164,4 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
+

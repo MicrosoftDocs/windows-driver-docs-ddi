@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoWdmIrpForForwardProgress
+ - EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS
 ---
 
 # EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback function
@@ -98,3 +98,4 @@ This callback function can be called at IRQL <= DISPATCH_LEVEL. If the IRQL is P
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request">EvtIoAllocateResourcesForReservedRequest</a>
+

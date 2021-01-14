@@ -7,7 +7,7 @@ ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES,
 req.header: netreceivescaling.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_location:
  - netreceivescaling.h
 api_name:
  - _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
+ - NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 ---
 
 # _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure
@@ -63,3 +64,4 @@ NetAdapterCx passes a pointer to this structure as input to a NIC client driver'
 [**NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY**](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md)
 
 [NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
+

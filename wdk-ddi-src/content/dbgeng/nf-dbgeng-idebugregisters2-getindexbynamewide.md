@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters2.GetIndexByNameWide
+ - IDebugRegisters2::GetIndexByNameWide
 ---
 
 # IDebugRegisters2::GetIndexByNameWide
@@ -95,3 +95,4 @@ The register was not found.
 ## -remarks
 
 For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.
+

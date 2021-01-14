@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetSourceFileLineOffsetsWide
+ - IDebugSymbols3::GetSourceFileLineOffsetsWide
 ---
 
 # IDebugSymbols3::GetSourceFileLineOffsetsWide
@@ -117,3 +117,4 @@ For more information about using the source path, see <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

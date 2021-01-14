@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl6.GetExecutionStatusEx
+ - IDebugControl6::GetExecutionStatusEx
 ---
 
 # IDebugControl6::GetExecutionStatusEx
@@ -83,3 +83,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol6">IDebugControl6</a>
+

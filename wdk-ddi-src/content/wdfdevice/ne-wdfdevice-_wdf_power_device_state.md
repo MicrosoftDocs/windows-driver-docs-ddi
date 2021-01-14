@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_POWER_DEVICE_STATE
+ - PWDF_POWER_DEVICE_STATE
  - WDF_POWER_DEVICE_STATE
 ---
 
@@ -94,3 +96,4 @@ The maximum enumerator value for this enumeration.
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>
+

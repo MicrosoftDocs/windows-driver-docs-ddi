@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxSendRestartIndication
+ - NDIS_WDI_TX_SEND_RESTART_IND
 ---
 
 # NDIS_WDI_TX_SEND_RESTART_IND callback function
@@ -111,3 +111,4 @@ If <b>TargetPriorityQueueing</b> is true, <a href="/windows-hardware/drivers/net
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a>
+

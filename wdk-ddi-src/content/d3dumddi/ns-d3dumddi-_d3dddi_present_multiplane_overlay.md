@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDI_PRESENT_MULTIPLANE_OVERLAY
  - D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ---
 
@@ -74,3 +75,4 @@ A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_multiplane
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_multiplane_overlay_attributes">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+

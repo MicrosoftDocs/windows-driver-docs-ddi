@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _SDEV_IDENTIFIER_INTERFACE
+ - PSDEV_IDENTIFIER_INTERFACE
  - SDEV_IDENTIFIER_INTERFACE
 ---
 

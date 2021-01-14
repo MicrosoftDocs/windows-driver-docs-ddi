@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_TARGETMODE_DETAIL_TIMING structure"]
 ms.keywords: DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, _DXGK_TARGETMODE_DETAIL_TIMING, d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DXGK_TARGETMODE_DETAIL_TIMING
  - DXGK_TARGETMODE_DETAIL_TIMING
 ---
 
@@ -70,3 +71,4 @@ The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_displayid_detailed_timing_type_i">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
+

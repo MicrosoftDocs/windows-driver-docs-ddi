@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UFF_FILEHEADER
+ - PUFF_FILEHEADER
  - UFF_FILEHEADER
 ---
 
@@ -113,3 +115,4 @@ Reserved. Must be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a>
+

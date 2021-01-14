@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_DEVICE_RESET
+ - PNDIS_WWAN_SET_DEVICE_RESET
  - NDIS_WWAN_SET_DEVICE_RESET
 ---
 
@@ -114,3 +116,4 @@ For more information about these members, see
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
+

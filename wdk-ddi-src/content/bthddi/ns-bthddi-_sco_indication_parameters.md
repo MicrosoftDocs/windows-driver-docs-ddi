@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _SCO_INDICATION_PARAMETERS
+ - PSCO_INDICATION_PARAMETERS
  - SCO_INDICATION_PARAMETERS
 ---
 
@@ -123,3 +125,4 @@ When the Bluetooth driver stack passes
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a>
+

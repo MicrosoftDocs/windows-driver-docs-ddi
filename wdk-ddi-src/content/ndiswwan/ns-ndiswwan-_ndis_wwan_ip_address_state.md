@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_IP_ADDRESS_STATE
+ - PNDIS_WWAN_IP_ADDRESS_STATE
  - NDIS_WWAN_IP_ADDRESS_STATE
 ---
 
@@ -110,3 +112,4 @@ The PDP context's IP address.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ip_address_state">WWAN_IP_ADDRESS_STATE</a>
+

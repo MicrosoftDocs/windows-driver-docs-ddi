@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.AddString
+ - IDebugFailureAnalysis2::AddExtensionCommand
 ---
 
 # IDebugFailureAnalysis2::AddExtensionCommand
@@ -92,7 +92,6 @@ typedef struct _FA_TAG_PROPS
 } FA_TAG_PROPS, *PFA_TAG_PROPS;
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>
@@ -112,3 +111,4 @@ typedef struct _FA_TAG_PROPS
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

@@ -12,6 +12,8 @@ tech.root: ieee
 f1_keywords:
  - 1394
  - 1394/1394
+api_name:
+ - 1394
 ---
 
 # 1394.h header

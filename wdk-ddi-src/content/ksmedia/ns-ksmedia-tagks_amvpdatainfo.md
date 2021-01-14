@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_AMVPDATAINFO
+ - PKS_AMVPDATAINFO
  - KS_AMVPDATAINFO
 ---
 
@@ -112,3 +114,4 @@ This structure is used by the <a href="/windows-hardware/drivers/stream/ksproper
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
+

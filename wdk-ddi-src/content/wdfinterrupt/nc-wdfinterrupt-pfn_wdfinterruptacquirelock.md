@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
- - WdfInterruptAcquireLock
+ - PFN_WDFINTERRUPTACQUIRELOCK
 ---
 
 # PFN_WDFINTERRUPTACQUIRELOCK callback
@@ -123,3 +123,4 @@ Doing so avoids the possibility of deadlock, as described in the following scena
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>
+

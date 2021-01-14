@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
+ - PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO
  - NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
 ---
 
@@ -92,3 +94,4 @@ The virtualization stack uses the serial number to map the VF network adapter in
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-vf-serial-number">OID_SRIOV_VF_SERIAL_NUMBER</a>
+

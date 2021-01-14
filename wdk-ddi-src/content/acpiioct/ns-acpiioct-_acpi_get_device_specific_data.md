@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_GET_DEVICE_SPECIFIC_DATA
+ - PACPI_GET_DEVICE_SPECIFIC_DATA
  - ACPI_GET_DEVICE_SPECIFIC_DATA
 ---
 

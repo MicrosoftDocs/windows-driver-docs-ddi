@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUI.GetInfo
+ - IPrintOemUI::GetInfo
 ---
 
 # IPrintOemUI::GetInfo
@@ -152,3 +152,4 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getinfo">IPrintOemUni::GetInfo</a>
+

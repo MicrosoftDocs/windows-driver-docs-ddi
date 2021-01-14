@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SUBMITCOMMANDVIRTUAL
  - DXGKARG_SUBMITCOMMANDVIRTUAL
 ---
 
@@ -118,3 +119,4 @@ The zero-based index of the node that the context is created for. Identifies the
 
 
 <a href="/windows-hardware/drivers/display/supplying-fence-identifiers">Supplying Fence Identifiers</a>
+

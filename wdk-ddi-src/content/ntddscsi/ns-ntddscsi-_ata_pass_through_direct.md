@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _ATA_PASS_THROUGH_DIRECT
+ - PATA_PASS_THROUGH_DIRECT
  - ATA_PASS_THROUGH_DIRECT
 ---
 
@@ -360,3 +362,4 @@ The ATA_PASS_THROUGH_DIRECT structure is used with <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+

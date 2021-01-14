@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.GetType
+ - IWDFUsbTargetPipe::GetType
 ---
 
 # IWDFUsbTargetPipe::GetType
@@ -66,3 +66,4 @@ For a code example of how to use the <b>GetType</b> method, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-getinformation">IWDFUsbTargetPipe::GetInformation</a>
+

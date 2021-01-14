@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - HalExamineMBR
+ - pHalExamineMBR
 ---
 
 # pHalExamineMBR callback function
@@ -82,3 +82,4 @@ For a list of system-defined MBR partition type identifiers, see the table in <a
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>
+

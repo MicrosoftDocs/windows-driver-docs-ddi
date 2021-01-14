@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PTUNER_ANALOG_CAPS_S
  - TUNER_ANALOG_CAPS_S
 ---
 
@@ -161,3 +162,4 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSNODE_CREATE
  - KSNODE_CREATE
 ---
 
@@ -62,3 +63,4 @@ Indicates what node a handle should be created for. This refers to the node iden
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
+

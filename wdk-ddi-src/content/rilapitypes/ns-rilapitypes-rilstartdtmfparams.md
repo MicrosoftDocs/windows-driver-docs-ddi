@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSTARTDTMFPARAMS
+ - LPRILSTARTDTMFPARAMS
 ---
 
 # RILSTARTDTMFPARAMS structure (rilapitypes.h)

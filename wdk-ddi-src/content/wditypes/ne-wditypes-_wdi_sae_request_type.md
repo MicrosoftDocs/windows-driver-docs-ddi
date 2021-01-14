@@ -29,6 +29,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_SAE_REQUEST_TYPE
  - WDI_SAE_REQUEST_TYPE
 ---
 
@@ -66,3 +67,4 @@ This enumeration is a value in the [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardwa
 [WPA3-SAE Authentication](/windows-hardware/drivers/network/wpa3-sae-authentication)
 
 [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
+

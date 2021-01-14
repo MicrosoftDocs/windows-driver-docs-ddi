@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET_
  - FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET
 ---
 
@@ -125,3 +126,4 @@ The virtual switch ingress ethernet flags field.
 #### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_TENANT_NETWORK_ID
 
 The virtual switch ingress tenant network identifier field.
+

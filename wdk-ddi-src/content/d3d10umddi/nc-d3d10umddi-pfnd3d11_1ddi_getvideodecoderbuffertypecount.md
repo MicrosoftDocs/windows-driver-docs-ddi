@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetVideoDecoderBufferTypeCount
+ - PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback function
@@ -74,3 +74,4 @@ The Microsoft Direct3D runtime verifies that the <i>pDecodeDesc</i>  parameter d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_desc">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+

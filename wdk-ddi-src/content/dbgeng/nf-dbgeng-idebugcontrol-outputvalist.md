@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputVaList
- - IDebugControl2.OutputVaList
- - IDebugControl3.OutputVaList
+ - IDebugControl::OutputVaList
 ---
 
 # IDebugControl::OutputVaList
@@ -288,3 +286,4 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
+

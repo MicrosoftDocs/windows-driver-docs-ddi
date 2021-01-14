@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_PARAMETERS
+ - PNDIS_RECEIVE_QUEUE_PARAMETERS
  - NDIS_RECEIVE_QUEUE_PARAMETERS
 ---
 
@@ -239,3 +241,4 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
+

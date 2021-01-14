@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
+ - IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
@@ -68,3 +68,4 @@ code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
+

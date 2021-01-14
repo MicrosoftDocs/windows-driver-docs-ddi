@@ -40,6 +40,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
+ - _POS_CX_EVENT_PRIORITY
  - POS_CX_EVENT_PRIORITY
 ---
 

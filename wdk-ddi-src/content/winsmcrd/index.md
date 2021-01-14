@@ -12,6 +12,8 @@ tech.root: nfpdrivers
 f1_keywords:
  - winsmcrd
  - winsmcrd/winsmcrd
+api_name:
+ - winsmcrd
 ---
 
 # Winsmcrd.h header

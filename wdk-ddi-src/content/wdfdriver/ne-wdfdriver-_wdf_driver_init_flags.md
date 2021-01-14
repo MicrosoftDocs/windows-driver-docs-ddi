@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdriver.h
 api_name:
+ - _WDF_DRIVER_INIT_FLAGS
  - WDF_DRIVER_INIT_FLAGS
 ---
 
@@ -86,3 +87,4 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 
 <a href="/windows-hardware/drivers/ddi/wdfminiport/nf-wdfminiport-wdfdriverminiportunload">WdfDriverMiniportUnload</a>
+

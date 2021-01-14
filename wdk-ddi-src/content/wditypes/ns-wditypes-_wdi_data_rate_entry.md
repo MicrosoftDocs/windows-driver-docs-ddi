@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_DATA_RATE_ENTRY
+ - PWDI_DATA_RATE_ENTRY
  - WDI_DATA_RATE_ENTRY
 ---
 

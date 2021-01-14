@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAM_UVC_METADATA
  - KSSTREAM_UVC_METADATA
 ---
 

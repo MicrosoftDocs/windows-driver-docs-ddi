@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_ENDPOINT_TYPE
+ - PUDECX_ENDPOINT_TYPE
  - UDECX_ENDPOINT_TYPE
 ---
 
@@ -72,3 +74,4 @@ The endpoint is dynamically created in the client driver's implementation of the
 
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype">UdecxUsbDeviceInitSetEndpointsType</a>
+

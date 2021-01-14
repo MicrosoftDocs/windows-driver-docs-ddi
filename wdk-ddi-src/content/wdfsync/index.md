@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfsync
  - wdfsync/wdfsync
+api_name:
+ - wdfsync
 ---
 
 # Wdfsync.h header

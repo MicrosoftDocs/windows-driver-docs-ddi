@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay
+ - DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ See requirements on calling this function in <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

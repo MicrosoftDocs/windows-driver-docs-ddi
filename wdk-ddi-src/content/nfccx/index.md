@@ -12,6 +12,8 @@ tech.root: nfpdrivers
 f1_keywords:
  - nfccx
  - nfccx/nfccx
+api_name:
+ - nfccx
 ---
 
 # Nfccx.h header

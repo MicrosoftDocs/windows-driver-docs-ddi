@@ -38,10 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugClient
- - IDebugClient.GetOutputWidth
- - IDebugClient.SetOutputWidth
- - IDebugClient.GetOutputLinePrefix
- - IDebugClient.SetOutputLinePrefix
 ---
 
 # IDebugClient interface
@@ -71,3 +67,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient</b> interface in
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

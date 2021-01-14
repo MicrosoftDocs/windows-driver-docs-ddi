@@ -12,6 +12,8 @@ tech.root: acpi
 f1_keywords:
  - acpiioct
  - acpiioct/acpiioct
+api_name:
+ - acpiioct
 ---
 
 # Acpiioct.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_GLOBALDRIVERDATA
  - D3DHAL_GLOBALDRIVERDATA
 ---
 
@@ -94,3 +95,4 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 <a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

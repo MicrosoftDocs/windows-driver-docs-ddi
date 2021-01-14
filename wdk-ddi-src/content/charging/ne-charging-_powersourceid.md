@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Charging.h
 api_name:
+ - _POWERSOURCEID
+ - PPOWERSOURCEID
  - POWERSOURCEID
 ---
 

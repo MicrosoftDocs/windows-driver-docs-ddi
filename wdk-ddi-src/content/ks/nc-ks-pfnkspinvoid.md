@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - MyAVStrMiniPin
+ - PFNKSPINVOID
 ---
 
 # PFNKSPINVOID callback function
@@ -81,3 +81,4 @@ This routine is optional.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+

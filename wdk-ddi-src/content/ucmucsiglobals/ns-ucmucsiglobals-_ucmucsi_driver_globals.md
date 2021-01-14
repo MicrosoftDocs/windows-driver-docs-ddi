@@ -36,6 +36,8 @@ api_location:
  - ucmucsiglobals.h
 api_name:
  - _UCMUCSI_DRIVER_GLOBALS
+ - PUCMUCSI_DRIVER_GLOBALS
+ - UCMUCSI_DRIVER_GLOBALS
 ---
 
 # _UCMUCSI_DRIVER_GLOBALS structure

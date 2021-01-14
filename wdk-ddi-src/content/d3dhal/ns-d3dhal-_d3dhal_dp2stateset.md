@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2STATESET
  - D3DHAL_DP2STATESET
 ---
 
@@ -339,3 +340,4 @@ No predefined state group is specified.
 ## -remarks
 
 See <a href="/windows-hardware/drivers/display/accelerated-state-management">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
+

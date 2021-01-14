@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.ReadMultiByteStringVirtualWide
+ - IDebugDataSpaces4::ReadMultiByteStringVirtualWide
 ---
 
 # IDebugDataSpaces4::ReadMultiByteStringVirtualWide
@@ -141,3 +141,4 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readunicodestringvirtualwide">ReadUnicodeStringVirtualWide</a>
+

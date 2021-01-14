@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETTIMINGSFROMVIDPN
  - DXGKARG_SETTIMINGSFROMVIDPN
 ---
 
@@ -72,3 +73,4 @@ Number of pointers in the array pointed to by **pSetTimingPathInfo**.
 ### -field pSetTimingPathInfo
 
 An array of pointers to [DXGK_SET_TIMING_PATH_INFO](ns-d3dkmddi-_dxgk_set_timing_path_info.md) structures that specify per path details of the timings to be set. It also allows feedback from the driver on additional work the OS needs to do either before the timings changes can be made, or after changes are complete.
+

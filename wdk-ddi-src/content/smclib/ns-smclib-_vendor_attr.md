@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smclib.h
 api_name:
+ - _VENDOR_ATTR
+ - PVENDOR_ATTR
  - VENDOR_ATTR
 ---
 
@@ -112,3 +114,4 @@ A pointer to the serial number of the connected reader. This field should only b
 ### -field Reserved
 
 Reserved for system use.
+

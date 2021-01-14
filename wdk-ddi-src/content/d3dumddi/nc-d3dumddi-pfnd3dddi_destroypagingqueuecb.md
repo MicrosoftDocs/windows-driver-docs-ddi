@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDestroyPagingQueueCb
+ - PFND3DDDI_DESTROYPAGINGQUEUECB
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ In addition to <b>hPagingQueue</b>, this device driver interface (DDI) invalidat
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpagingqueuecb">pfnCreatePagingQueueCb</a>
+

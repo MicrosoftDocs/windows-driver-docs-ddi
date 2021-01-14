@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - fcb
  - fcb/fcb
+api_name:
+ - fcb
 ---
 
 # Fcb.h header

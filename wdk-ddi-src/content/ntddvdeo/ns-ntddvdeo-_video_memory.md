@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_MEMORY
+ - PVIDEO_MEMORY
  - VIDEO_MEMORY
 ---
 
@@ -78,3 +80,4 @@ For structures used in mapping into user-mode video memory, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory_information">VIDEO_MEMORY_INFORMATION</a>
+

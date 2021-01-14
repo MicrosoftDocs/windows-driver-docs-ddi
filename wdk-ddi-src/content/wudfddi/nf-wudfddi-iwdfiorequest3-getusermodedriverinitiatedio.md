@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest3.GetUserModeDriverInitiatedIo
+ - IWDFIoRequest3::GetUserModeDriverInitiatedIo
 ---
 
 # IWDFIoRequest3::GetUserModeDriverInitiatedIo
@@ -68,3 +68,4 @@ The UMDF 2 equivalent of this method is <a href="/windows-hardware/drivers/ddi/w
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio">SetUserModeDriverInitiatedIo</a>
+

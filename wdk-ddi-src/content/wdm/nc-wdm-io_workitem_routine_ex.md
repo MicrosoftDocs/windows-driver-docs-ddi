@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - WorkItemEx
+ - IO_WORKITEM_ROUTINE_EX
 ---
 
 # IO_WORKITEM_ROUTINE_EX callback function
@@ -121,3 +121,4 @@ The IO_WORKITEM_ROUTINE_EX function type is defined in the Wdm.h header file. To
 
 
 <a href="/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>
+

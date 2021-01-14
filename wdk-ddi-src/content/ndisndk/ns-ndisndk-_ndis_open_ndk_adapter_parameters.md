@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndisndk.h
 api_name:
+ - _NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
  - NDIS_OPEN_NDK_ADAPTER_PARAMETERS
 ---
 
@@ -76,3 +78,4 @@ To open an NDK adapter, NDIS calls the <a href="/windows-hardware/drivers/ddi/nd
 
 
 <a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
+

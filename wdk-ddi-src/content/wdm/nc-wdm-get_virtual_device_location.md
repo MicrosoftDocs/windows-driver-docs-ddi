@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetLocation
+ - GET_VIRTUAL_DEVICE_LOCATION
 ---
 
 # GET_VIRTUAL_DEVICE_LOCATION callback
@@ -145,3 +145,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_locatio
 
 
 <b></b>
+

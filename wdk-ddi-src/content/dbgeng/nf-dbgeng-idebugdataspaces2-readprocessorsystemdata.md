@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadProcessorSystemData
- - IDebugDataSpaces2.ReadProcessorSystemData
- - IDebugDataSpaces3.ReadProcessorSystemData
- - IDebugDataSpaces4.ReadProcessorSystemData
+ - IDebugDataSpaces2::ReadProcessorSystemData
 ---
 
 # IDebugDataSpaces2::ReadProcessorSystemData
@@ -184,3 +181,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 This method is only available in kernel-mode debugging.
 
 For information about the PCR, PRCB, and KTHREAD structures, as well as information about paging tables, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

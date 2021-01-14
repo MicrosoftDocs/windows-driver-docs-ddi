@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FilterDevicePnPEventNotify
+ - FILTER_DEVICE_PNP_EVENT_NOTIFY
 ---
 
 # FILTER_DEVICE_PNP_EVENT_NOTIFY callback function
@@ -135,3 +135,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a>
+

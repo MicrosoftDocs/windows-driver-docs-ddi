@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSFILTER_DISPATCH
+ - PKSFILTER_DISPATCH
  - KSFILTER_DISPATCH
 ---
 
@@ -89,3 +91,4 @@ Also see <a href="/windows-hardware/drivers/stream/restarting-processing-in-avst
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
+

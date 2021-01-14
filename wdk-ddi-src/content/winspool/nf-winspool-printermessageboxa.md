@@ -40,6 +40,7 @@ api_location:
  - Winspool.h
 api_name:
  - PrinterMessageBoxA
+ - PrinterMessageBox
 ---
 
 # PrinterMessageBoxA function

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _SENDCMDINPARAMS
+ - PSENDCMDINPARAMS
  - SENDCMDINPARAMS
 ---
 
@@ -94,3 +96,4 @@ The SENDCMDINPARAMS structure is also used with the <a href="/previous-versions/
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff566206(v=vs.85)">SMART_SEND_DRIVE_COMMAND</a>
+

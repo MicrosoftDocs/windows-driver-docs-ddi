@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxTransferCompleteIndication
+ - NDIS_WDI_TX_TRANSFER_COMPLETE_IND
 ---
 
 # NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function
@@ -84,3 +84,4 @@ The null-terminated list of frame buffers that have been transferred to the targ
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a>
+

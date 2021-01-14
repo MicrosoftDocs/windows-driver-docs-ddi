@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
  - D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 ---
 
@@ -70,3 +71,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname">D3DKMTOpenSyncObjectNtHandleFromName</a>
+

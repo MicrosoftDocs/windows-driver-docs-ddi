@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwInitialize
+ - IDE_HW_INITIALIZE
 ---
 
 # IDE_HW_INITIALIZE callback function
@@ -80,3 +80,4 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a>
+

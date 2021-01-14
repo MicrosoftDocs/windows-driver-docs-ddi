@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_STREAM_CALLOUT_IO_PACKET0_
  - FWPS_STREAM_CALLOUT_IO_PACKET0
 ---
 
@@ -184,3 +185,4 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

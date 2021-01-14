@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
- - pfnOpenPort
+ - OpenPort
 ---
 
 # OpenPort function
@@ -126,3 +126,4 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
+

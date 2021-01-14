@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiRemoveDevice
+ - DXGKDDI_REMOVE_DEVICE
 ---
 
 # DXGKDDI_REMOVE_DEVICE callback function
@@ -67,3 +67,4 @@ A handle to a context block associated with a display adapter. The display minip
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

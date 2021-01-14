@@ -35,9 +35,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_JOINT_BUFFER
+ - PACPI_PLD_JOINT_BUFFER
+ - ACPI_PLD_JOINT_BUFFER
 ---
 
 # _ACPI_PLD_JOINT_BUFFER structure
+
 
 ## -description
 
@@ -85,3 +88,4 @@ DEFINE_GUID(ACPI_PLD_JOINT_BUFFER_GUID,
 ```
 
 ## -see-also
+

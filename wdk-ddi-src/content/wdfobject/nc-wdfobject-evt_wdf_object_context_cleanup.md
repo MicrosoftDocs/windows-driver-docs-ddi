@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfobject.h
 api_name:
- - EvtCleanupCallback
+ - EVT_WDF_OBJECT_CONTEXT_CLEANUP
 ---
 
 # EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function
@@ -170,3 +170,4 @@ EVT_WDF_OBJECT_CONTEXT_CLEANUP
 
 
 <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemflush">WdfWorkItemFlush</a>
+

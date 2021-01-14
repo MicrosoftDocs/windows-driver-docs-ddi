@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
  - DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
 ---
 
@@ -88,3 +89,4 @@ The <b>CustomRate</b> member must specify one of the custom rates that the drive
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate">SetVideoProcessStreamState</a>
+

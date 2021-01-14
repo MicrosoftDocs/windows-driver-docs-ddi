@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_POWER_NOTIFICATION_DATA
  - WDF_DEVICE_POWER_NOTIFICATION_DATA
 ---
 
@@ -95,3 +96,4 @@ The <b>WDF_DEVICE_POWER_NOTIFICATION_DATA</b> structure is an input argument to 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback">WdfDeviceInitRegisterPowerStateChangeCallback</a>
+

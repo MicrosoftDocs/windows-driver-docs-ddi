@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtRequestVirtualStation
+ - DOT11EXT_REQUEST_VIRTUAL_STATION
 ---
 
 # DOT11EXT_REQUEST_VIRTUAL_STATION callback
@@ -103,3 +103,4 @@ After the operating system creates the new virtual station, the IHV Extensions D
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

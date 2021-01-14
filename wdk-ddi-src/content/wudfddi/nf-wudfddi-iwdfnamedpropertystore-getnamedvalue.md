@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFNamedPropertyStore.GetNamedValue
+ - IWDFNamedPropertyStore::GetNamedValue
 ---
 
 # IWDFNamedPropertyStore::GetNamedValue
@@ -187,3 +187,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-the-regis
 
 
 <a href="/windows/win32/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>
+

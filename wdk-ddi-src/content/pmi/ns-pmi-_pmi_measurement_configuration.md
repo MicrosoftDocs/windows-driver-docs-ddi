@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_MEASUREMENT_CONFIGURATION
+ - PPMI_MEASUREMENT_CONFIGURATION
  - PMI_MEASUREMENT_CONFIGURATION
 ---
 
@@ -75,3 +77,4 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
+

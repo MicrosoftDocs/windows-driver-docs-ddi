@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_PROCINFO
+ - PWHEA_XPF_PROCINFO
  - WHEA_XPF_PROCINFO
 ---
 
@@ -164,3 +166,4 @@ The <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECT
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_tlb_check">WHEA_XPF_TLB_CHECK</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
- - PFN_UCM_CONNECTOR_SET_POWER_ROLE
+ - EVT_UCM_CONNECTOR_SET_POWER_ROLE
 ---
 
 # EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function
@@ -105,7 +105,7 @@ EvtSetPowerRole(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
+

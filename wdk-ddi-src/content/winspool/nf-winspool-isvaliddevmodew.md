@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winspool.drv
 api_name:
+ - IsValidDevmodeW
  - IsValidDevmode
 ---
 

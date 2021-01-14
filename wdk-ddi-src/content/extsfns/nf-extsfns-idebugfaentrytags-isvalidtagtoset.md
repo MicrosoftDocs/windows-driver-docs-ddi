@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFAEntryTags.IsValidTagToSet
+ - IDebugFAEntryTags::IsValidTagToSet
 ---
 
 # IDebugFAEntryTags::IsValidTagToSet
@@ -72,3 +72,4 @@ This method returns TRUE if it is OK to set the data of the specified tag. Other
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

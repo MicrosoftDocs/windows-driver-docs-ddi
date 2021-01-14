@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_SECTION_DATA_UNITS_VALUES
  - WPD_SECTION_DATA_UNITS_VALUES
 ---
 
@@ -63,3 +64,4 @@ The given units are specified in milliseconds.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

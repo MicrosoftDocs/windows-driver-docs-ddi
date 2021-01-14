@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioTransmitEnableReadyNotification
+ - EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback function
@@ -121,3 +121,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type is de
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitready">SerCx2PioTransmitReady</a>
+

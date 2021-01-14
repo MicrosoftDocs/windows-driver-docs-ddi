@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_ENDEXCLUSIVEACCESS
+ - DXGKARG_ENDEXCLUSIVEACCESS
 dev_langs:
  - c++
 ---

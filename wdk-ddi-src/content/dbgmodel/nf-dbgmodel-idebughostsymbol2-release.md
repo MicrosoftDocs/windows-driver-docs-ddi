@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostSymbol2.Release
+ - IDebugHostSymbol2::Release
 ---
 
 # IDebugHostSymbol2::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostSymbol2 interface](nn-dbgmodel-idebughostsymbol2.md)
+

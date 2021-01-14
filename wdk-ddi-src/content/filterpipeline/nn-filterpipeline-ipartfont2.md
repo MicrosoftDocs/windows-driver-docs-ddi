@@ -38,7 +38,6 @@ api_location:
  - Filterpipeline.h
 api_name:
  - IPartFont2
- - IPartFont2.GetFontRestriction
 ---
 
 # IPartFont2 interface
@@ -52,3 +51,4 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartFont2</b> interface inh
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicecommontypes.h
 api_name:
+ - _BarcodeStatus
  - BarcodeStatus
 ---
 
@@ -70,3 +71,4 @@ The device power is off or the device is offline. This is valid if <a href="/win
 ### -field BarcodeStatusUpdateType_Extended
 
 Vendor specific status information.
+

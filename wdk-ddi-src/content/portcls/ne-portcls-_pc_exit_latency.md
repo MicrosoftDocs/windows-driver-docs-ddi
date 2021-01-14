@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
+ - _PC_EXIT_LATENCY
+ - PPC_EXIT_LATENCY
  - PC_EXIT_LATENCY
 ---
 

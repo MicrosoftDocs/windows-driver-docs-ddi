@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_CAM_SUPPORTED_IN
+ - PUCSI_GET_CAM_SUPPORTED_IN
+ - UCSI_GET_CAM_SUPPORTED_IN
 ---
 
 # _UCSI_GET_CAM_SUPPORTED_IN structure

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkQqueryExtensionInterface
+ - NDK_FN_QUERY_EXTENSION_INTERFACE
 ---
 
 # NDK_FN_QUERY_EXTENSION_INTERFACE callback function
@@ -144,3 +144,4 @@ Each NDK object contains an <i>NdkQqueryExtensionInterface</i> (<i>NDK_FN_QUERY_
 
 
 <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
+

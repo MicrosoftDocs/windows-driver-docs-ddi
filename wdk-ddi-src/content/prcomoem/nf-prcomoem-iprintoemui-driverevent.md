@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.DriverEvent
+ - IPrintOemUI::DriverEvent
 ---
 
 # IPrintOemUI::DriverEvent
@@ -193,3 +193,4 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
+

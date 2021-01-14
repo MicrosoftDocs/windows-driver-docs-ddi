@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetPassCount
- - IDebugBreakpoint2.SetPassCount
+ - IDebugBreakpoint2::SetPassCount
 ---
 
 # IDebugBreakpoint2::SetPassCount
@@ -87,3 +86,4 @@ After the target has hit the breakpoint enough times to trigger the breakpoint, 
 If the debugger executes the code at the breakpoint location while stepping through the code, this execution does not contribute to the number of times that remain before the breakpoint is triggered.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

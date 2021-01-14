@@ -36,9 +36,12 @@ api_location:
  - treevariableservice.h
 api_name:
  - _EFI_QUERY_VARIABLE_INFO_OUT
+ - PEFI_QUERY_VARIABLE_INFO_OUT
+ - EFI_QUERY_VARIABLE_INFO_OUT
 ---
 
 # _EFI_QUERY_VARIABLE_INFO_OUT structure
+
 
 ## -description
 
@@ -55,3 +58,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

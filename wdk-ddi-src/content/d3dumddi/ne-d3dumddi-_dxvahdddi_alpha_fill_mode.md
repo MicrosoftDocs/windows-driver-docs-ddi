@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_ALPHA_FILL_MODE
  - DXVAHDDDI_ALPHA_FILL_MODE
 ---
 
@@ -74,3 +75,4 @@ A value that specifies to fill the output with the alpha channel data of the des
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_background_color_data">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>
+

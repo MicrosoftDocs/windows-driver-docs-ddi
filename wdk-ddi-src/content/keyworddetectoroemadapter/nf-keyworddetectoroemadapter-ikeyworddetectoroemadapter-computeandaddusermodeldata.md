@@ -37,7 +37,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
- - IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
+ - IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 ---
 
 # IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
@@ -136,3 +136,4 @@ The processing was unable to complete.
 
 
 <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a>
+

@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - midatlax
  - midatlax/midatlax
+api_name:
+ - midatlax
 ---
 
 # Midatlax.h header

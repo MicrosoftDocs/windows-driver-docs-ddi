@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_VOICE_CLASS
+ - PWWAN_VOICE_CLASS
  - WWAN_VOICE_CLASS
 ---
 
@@ -77,3 +79,4 @@ The total number of supported cellular voice classes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+

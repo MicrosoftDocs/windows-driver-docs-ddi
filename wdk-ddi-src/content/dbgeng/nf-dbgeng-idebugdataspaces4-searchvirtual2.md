@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.SearchVirtual2
+ - IDebugDataSpaces4::SearchVirtual2
 ---
 
 # IDebugDataSpaces4::SearchVirtual2
@@ -130,3 +130,4 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-searchvirtual">SearchVirtual</a>
+

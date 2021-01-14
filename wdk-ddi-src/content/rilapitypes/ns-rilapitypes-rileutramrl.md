@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILEUTRAMRL
+ - LPRILEUTRAMRL
 ---
 
 # RILEUTRAMRL structure (rilapitypes.h)

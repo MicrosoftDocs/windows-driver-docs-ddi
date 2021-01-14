@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PREDICT_FAILURE
+ - PSTORAGE_PREDICT_FAILURE
  - STORAGE_PREDICT_FAILURE
 ---
 
@@ -72,3 +74,4 @@ If the device supports failure prediction, the disk class driver queries the dev
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient2.AddDumpInformationFile
- - IDebugClient3.AddDumpInformationFile
- - IDebugClient4.AddDumpInformationFile
- - IDebugClient5.AddDumpInformationFile
+ - IDebugClient3::AddDumpInformationFile
 ---
 
 # IDebugClient3::AddDumpInformationFile
@@ -125,3 +122,4 @@ For more information about crash dump files, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-opendumpfilewide">OpenDumpFileWide</a>
+

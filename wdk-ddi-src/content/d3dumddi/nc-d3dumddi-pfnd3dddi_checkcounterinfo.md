@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnCheckCounterInfo
+ - PFND3DDDI_CHECKCOUNTERINFO
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ The driver's <i>pfnCheckCounterInfo</i> function cannot call the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

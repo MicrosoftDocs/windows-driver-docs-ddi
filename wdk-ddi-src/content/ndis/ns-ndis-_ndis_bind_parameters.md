@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_BIND_PARAMETERS
+ - PNDIS_BIND_PARAMETERS
  - NDIS_BIND_PARAMETERS
 ---
 
@@ -543,3 +545,4 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+

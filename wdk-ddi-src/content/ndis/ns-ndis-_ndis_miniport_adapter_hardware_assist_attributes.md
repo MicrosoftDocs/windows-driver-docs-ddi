@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
 ---
 
@@ -223,3 +225,4 @@ To register the hardware-assisted capabilities of the underlying network adapter
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_PRESENT
  - D3DDDIARG_PRESENT
 ---
 
@@ -78,3 +79,4 @@ The D3DDDIARG_PRESENT structure describes a resource to display.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_present">Present</a>
+

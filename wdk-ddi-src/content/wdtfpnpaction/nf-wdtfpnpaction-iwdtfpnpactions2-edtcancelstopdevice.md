@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.EDTCancelStopDevice
+ - IWDTFPNPActions2::EDTCancelStopDevice
 ---
 
 # IWDTFPNPActions2::EDTCancelStopDevice
@@ -70,5 +70,4 @@ the query IRP in the DeviceManagement2 helper driver.
 It is possible for the filter drivers that are loaded above the helper driver 
 to fail the query IRP as well. In that case, the helper driver will indicate this condition 
 by setting EDTRS_QueryStopVetoed in ppResult.
-
 

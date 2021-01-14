@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _KTRIAGE_DUMP_DATA_ARRAY
+ - PKTRIAGE_DUMP_DATA_ARRAY
+ - KTRIAGE_DUMP_DATA_ARRAY
 ---
 
 # _KTRIAGE_DUMP_DATA_ARRAY structure
@@ -69,3 +71,4 @@ A driver provides a pointer to a structure of this type when it calls the [**KeA
 ## -see-also
 
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)
+

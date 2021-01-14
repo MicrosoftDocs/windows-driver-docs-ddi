@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_X86_REGISTER_STATE
+ - PWHEA_X86_REGISTER_STATE
  - WHEA_X86_REGISTER_STATE
 ---
 
@@ -160,3 +162,4 @@ If the <b>RegisterContextType</b> member of a <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a>
+

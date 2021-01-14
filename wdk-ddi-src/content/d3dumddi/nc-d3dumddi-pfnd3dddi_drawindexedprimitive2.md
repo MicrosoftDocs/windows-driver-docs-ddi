@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DrawIndexedPrimitive2
+ - PFND3DDDI_DRAWINDEXEDPRIMITIVE2
 ---
 
 # PFND3DDDI_DRAWINDEXEDPRIMITIVE2 callback function
@@ -101,3 +101,4 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawindexedprimitive">DrawIndexedPrimitive</a>
+

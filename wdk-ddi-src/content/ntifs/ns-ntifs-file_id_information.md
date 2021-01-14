@@ -29,6 +29,7 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_ID_INFORMATION
+ - PFILE_ID_INFORMATION
  - FILE_ID_INFORMATION
 f1_keywords:
  - _FILE_ID_INFORMATION

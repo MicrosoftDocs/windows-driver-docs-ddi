@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wudfddi_types.h
 api_name:
+ - _WDF_CALLBACK_CONSTRAINT
  - WDF_CALLBACK_CONSTRAINT
 ---
 

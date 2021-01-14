@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - HDAudioBdlIsr
+ - PHDAUDIO_BDL_ISR
 ---
 
 # PHDAUDIO_BDL_ISR callback function
@@ -82,3 +82,4 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">PSETUP_DMA_ENGINE_WITH_BDL</a>
 
 [hdaudio.h](../hdaudio/index.md)
+

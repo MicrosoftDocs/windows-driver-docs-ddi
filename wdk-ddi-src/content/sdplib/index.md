@@ -12,6 +12,8 @@ tech.root: bltooth
 f1_keywords:
  - sdplib
  - sdplib/sdplib
+api_name:
+ - sdplib
 ---
 
 # Sdplib.h header

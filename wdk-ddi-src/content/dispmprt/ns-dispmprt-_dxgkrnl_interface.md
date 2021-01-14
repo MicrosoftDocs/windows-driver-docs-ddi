@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGKRNL_INTERFACE
+ - PDXGKRNL_INTERFACE
  - DXGKRNL_INTERFACE
 dev_langs:
  - c++
@@ -432,3 +434,4 @@ typedef struct _DXGKRNL_INTERFACE {
 
 
 <a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
+

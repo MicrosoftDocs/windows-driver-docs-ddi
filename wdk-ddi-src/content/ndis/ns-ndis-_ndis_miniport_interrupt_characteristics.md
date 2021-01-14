@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
+ - PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
  - NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 ---
 
@@ -220,3 +222,4 @@ A miniport driver calls the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a>
+

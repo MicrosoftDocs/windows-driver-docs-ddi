@@ -36,6 +36,8 @@ api_location:
  - wdm.h
 api_name:
  - _XSAVE_CET_U_FORMAT
+ - PXSAVE_CET_U_FORMAT
+ - XSAVE_CET_U_FORMAT
 ---
 
 # _XSAVE_CET_U_FORMAT structure

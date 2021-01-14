@@ -39,7 +39,6 @@ api_location:
  - Wdmsec.dll
 api_name:
  - WdmlibIoCreateDeviceSecure
- - IoCreateDeviceSecure
 ---
 
 # WdmlibIoCreateDeviceSecure function
@@ -149,3 +148,4 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletedevice">IoDeleteDevice</a>
+

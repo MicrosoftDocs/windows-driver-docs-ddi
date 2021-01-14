@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
  - USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 ---
 
@@ -60,3 +62,4 @@ The time racking handle received in the previous <a href="/windows-hardware/driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
+

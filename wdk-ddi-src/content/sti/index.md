@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - sti
  - sti/sti
+api_name:
+ - sti
 ---
 
 # Sti.h header

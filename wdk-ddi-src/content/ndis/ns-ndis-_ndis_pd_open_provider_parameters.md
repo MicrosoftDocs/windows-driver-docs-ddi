@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_OPEN_PROVIDER_PARAMETERS
  - NDIS_PD_OPEN_PROVIDER_PARAMETERS
 ---
 
@@ -80,3 +81,4 @@ This structure must be aligned on an 8-byte boundary.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

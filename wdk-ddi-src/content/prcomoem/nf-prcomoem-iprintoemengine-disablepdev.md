@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemEngine.DisablePDEV
+ - IPrintOemEngine::DisablePDEV
 ---
 
 # IPrintOemEngine::DisablePDEV
@@ -56,3 +56,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>
+

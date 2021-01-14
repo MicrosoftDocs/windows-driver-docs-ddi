@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_FREE_VF_PARAMETERS
+ - PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS
  - NDIS_NIC_SWITCH_FREE_VF_PARAMETERS
 ---
 
@@ -101,3 +103,4 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-free-vf">OID_NIC_SWITCH_FREE_VF</a>
+

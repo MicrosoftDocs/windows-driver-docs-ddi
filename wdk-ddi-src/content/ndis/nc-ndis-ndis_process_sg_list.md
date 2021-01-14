@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NetProcessSGList
+ - NDIS_PROCESS_SG_LIST
 ---
 
 # NDIS_PROCESS_SG_LIST callback function
@@ -106,3 +106,4 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

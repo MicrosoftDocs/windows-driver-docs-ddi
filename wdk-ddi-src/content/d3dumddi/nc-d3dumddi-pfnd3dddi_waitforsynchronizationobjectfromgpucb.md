@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnWaitForSynchronizationObjectFromGpuCb
+ - PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ This function semantics are similar to existing <a href="/windows-hardware/drive
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb">pfnWaitForSynchronizationObjectCb</a>
+

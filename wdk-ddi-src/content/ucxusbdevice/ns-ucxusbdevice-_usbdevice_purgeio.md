@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_PURGEIO
+ - PUSBDEVICE_PURGEIO
  - USBDEVICE_PURGEIO
 ---
 
@@ -70,3 +72,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_tree_purgeio">USBDEVICE_TREE_PURGEIO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnLock2Cb
+ - PFND3DDDI_LOCK2CB
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ Synchronization of other lock types (not no-overwrite or discard)
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock2">D3DDDICB_LOCK2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
+ - PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
  - VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 ---
 
@@ -96,3 +98,4 @@ Pointer to the video port driver's <a href="/windows-hardware/drivers/ddi/video/
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_EISA_FUNCTION_INFORMATION
+ - PCM_EISA_FUNCTION_INFORMATION
  - CM_EISA_FUNCTION_INFORMATION
 ---
 
@@ -130,7 +132,6 @@ typedef struct _EISA_MEMORY_CONFIGURATION {
 } EISA_MEMORY_CONFIGURATION, *PEISA_MEMORY_CONFIGURATION;
 ```
 
-
 ### -field EisaIrq
 
 Describes the EISA interrupt configuration information, defined as follows:
@@ -142,7 +143,6 @@ typedef struct _EISA_IRQ_CONFIGURATION {
     UCHAR Reserved;
 } EISA_IRQ_CONFIGURATION, *PEISA_IRQ_CONFIGURATION;
 ```
-
 
 ### -field EisaDma
 
@@ -156,7 +156,6 @@ typedef struct _EISA_DMA_CONFIGURATION {
 } EISA_DMA_CONFIGURATION, *PEISA_DMA_CONFIGURATION;
 ```
 
-
 ### -field EisaPort
 
 Describes the EISA device port configuration information, defined as follows:
@@ -168,7 +167,6 @@ typedef struct _EISA_PORT_CONFIGURATION {
     USHORT PortAddress;
 } EISA_PORT_CONFIGURATION, *PEISA_PORT_CONFIGURATION;
 ```
-
 
 ### -field InitializationData
 
@@ -189,3 +187,4 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_ROUTING_TABLE
+ - PSECURE_ELEMENT_ROUTING_TABLE
  - SECURE_ELEMENT_ROUTING_TABLE
 ---
 
@@ -67,3 +69,4 @@ Number of routing table entries.
 #### - TableEntries[ANYSIZE_ARRAY]
 
 Listen mode routing table.
+

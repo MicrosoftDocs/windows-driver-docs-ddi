@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtExtension.Uninitialize
+ - ExtExtension::Uninitialize
 ---
 
 # ExtExtension::Uninitialize
@@ -68,3 +68,4 @@ There may or may not be a debugging session active when this function is called,
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
+

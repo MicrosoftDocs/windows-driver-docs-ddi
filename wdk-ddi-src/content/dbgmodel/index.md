@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - dbgmodel
  - dbgmodel/dbgmodel
+api_name:
+ - dbgmodel
 ---
 
 # Dbgmodel.h header
@@ -23,3 +25,4 @@ f1_keywords:
 This header is used to create debugger data model apps. For more information, see:
 
 - [Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
+

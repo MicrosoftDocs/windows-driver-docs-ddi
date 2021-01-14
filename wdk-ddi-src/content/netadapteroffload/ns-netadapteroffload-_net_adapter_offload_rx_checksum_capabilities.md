@@ -34,6 +34,7 @@ api_location:
  - netadapteroffload.h
 api_name:
  - _NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES
+ - NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES
 product:
  - Windows
 ---

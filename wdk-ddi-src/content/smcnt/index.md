@@ -12,6 +12,8 @@ tech.root: smartcard
 f1_keywords:
  - smcnt
  - smcnt/smcnt
+api_name:
+ - smcnt
 ---
 
 # Smcnt.h header

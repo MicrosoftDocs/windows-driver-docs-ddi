@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvSendPacketCompletion
+ - DOT11EXTIHV_SEND_PACKET_COMPLETION
 ---
 
 # DOT11EXTIHV_SEND_PACKET_COMPLETION callback
@@ -85,3 +85,4 @@ When the operating system calls the
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - AddNetBufferListDestination
+ - NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION
 ---
 
 # NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback function
@@ -128,3 +128,4 @@ After the extension modifies the destination port information in the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a>
+

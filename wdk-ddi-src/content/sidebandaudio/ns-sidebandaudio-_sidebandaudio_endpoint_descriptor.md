@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+ - PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+ - SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 ---
 
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
@@ -90,3 +92,4 @@ If remote volume control is supported, this member contains the size of the data
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_volumepropertyvalues">IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES</a>
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a>
+

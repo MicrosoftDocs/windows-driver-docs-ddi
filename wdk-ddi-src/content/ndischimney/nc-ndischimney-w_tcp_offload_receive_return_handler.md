@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportTcpOffloadReceiveReturn
+ - W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER
 ---
 
 # W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback function
@@ -123,3 +123,4 @@ Note that the offload target driver should not unload and the offload target ada
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
+

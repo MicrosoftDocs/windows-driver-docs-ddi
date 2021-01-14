@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_ROAM_TRIGGER
  - WDI_ROAM_TRIGGER
 ---
 

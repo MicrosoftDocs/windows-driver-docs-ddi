@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_CREATECONTEXTFLAGS
  - D3DDDI_CREATECONTEXTFLAGS
 ---
 
@@ -82,3 +83,4 @@ A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can ho
 
 
 <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
+

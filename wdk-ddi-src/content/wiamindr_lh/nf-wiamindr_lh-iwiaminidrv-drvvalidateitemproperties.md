@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvValidateItemProperties
+ - IWiaMiniDrv::drvValidateItemProperties
 ---
 
 # IWiaMiniDrv::drvValidateItemProperties
@@ -114,3 +114,4 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [wiasGetItemType](../wiamdef/nf-wiamdef-wiasgetitemtype.md)
 
 [wiasValidateItemProperties](../wiamdef/nf-wiamdef-wiasvalidateitemproperties.md)
+

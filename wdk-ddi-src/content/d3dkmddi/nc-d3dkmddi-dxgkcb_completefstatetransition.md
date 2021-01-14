@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbCompleteFStateTransition
+ - DXGKCB_COMPLETEFSTATETRANSITION
 ---
 
 # DXGKCB_COMPLETEFSTATETRANSITION callback function
@@ -70,3 +70,4 @@ Usually the port driver expects that when this function returns, the F-state tra
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_power_component_flags">DXGK_POWER_COMPONENT_FLAGS</a>
+

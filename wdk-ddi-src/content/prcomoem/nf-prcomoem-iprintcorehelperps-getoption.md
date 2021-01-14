@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperPS.GetOption
+ - IPrintCoreHelperPS::GetOption
 ---
 
 # IPrintCoreHelperPS::GetOption
@@ -154,3 +154,4 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-setoptions">IPrintCoreHelperPS::SetOptions</a>
+

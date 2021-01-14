@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskReceive
+ - PFN_WSK_RECEIVE
 ---
 
 # PFN_WSK_RECEIVE callback function
@@ -321,3 +321,4 @@ If the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send">WskSend</a>
+

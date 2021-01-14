@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsPropagateAcquire
+ - IKsPin::KsPropagateAcquire
 ---
 
 # IKsPin::KsPropagateAcquire
@@ -60,3 +60,4 @@ This method is for proxy use and is not recommended for application use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _BDCB_CLASSIFICATION
+ - PBDCB_CLASSIFICATION
  - BDCB_CLASSIFICATION
 ---
 
@@ -80,3 +82,4 @@ Do not use. Reserved for future use.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+

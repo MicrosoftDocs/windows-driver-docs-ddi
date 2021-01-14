@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_REGISTER_ACTION
+ - PWWAN_REGISTER_ACTION
  - WWAN_REGISTER_ACTION
 ---
 
@@ -69,3 +71,4 @@ The total number of supported registration actions.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>
+

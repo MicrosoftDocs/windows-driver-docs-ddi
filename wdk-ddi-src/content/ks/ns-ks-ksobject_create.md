@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSOBJECT_CREATE
  - KSOBJECT_CREATE
 ---
 
@@ -62,3 +63,4 @@ Points to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_c
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
+

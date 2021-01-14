@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerUnlock
+ - EVT_SPB_CONTROLLER_UNLOCK
 ---
 
 # EVT_SPB_CONTROLLER_UNLOCK callback function
@@ -133,3 +133,4 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFAEntryTags.GetProperties
+ - IDebugFAEntryTags::GetProperties
 ---
 
 # IDebugFAEntryTags::GetProperties
@@ -147,3 +147,4 @@ The caller passed at least one invalid parameter.
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

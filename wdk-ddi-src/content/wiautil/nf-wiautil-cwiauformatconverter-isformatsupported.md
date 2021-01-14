@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauFormatConverter.IsFormatSupported
+ - CWiauFormatConverter::IsFormatSupported
 ---
 
 # CWiauFormatConverter::IsFormatSupported
@@ -64,3 +64,4 @@ The method returns <b>TRUE</b> if the format indicated by the format GUID is sup
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">CWiauFormatConverter::ConvertToBmp</a>
+

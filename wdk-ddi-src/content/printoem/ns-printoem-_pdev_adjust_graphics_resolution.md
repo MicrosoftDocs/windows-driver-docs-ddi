@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_ADJUST_GRAPHICS_RESOLUTION
+ - PPDEV_ADJUST_GRAPHICS_RESOLUTION
  - PDEV_ADJUST_GRAPHICS_RESOLUTION
 ---
 

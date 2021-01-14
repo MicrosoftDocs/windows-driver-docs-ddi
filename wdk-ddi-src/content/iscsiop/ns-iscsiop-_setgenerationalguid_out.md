@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetGenerationalGuid_OUT
+ - PSetGenerationalGuid_OUT
  - SetGenerationalGuid_OUT
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgenerationalguid_in">SetGenerationalGuid_IN</a>
+

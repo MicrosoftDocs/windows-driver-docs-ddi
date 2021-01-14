@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_BUS_SPEED
+ - PUSBFN_BUS_SPEED
  - USBFN_BUS_SPEED
 ---
 

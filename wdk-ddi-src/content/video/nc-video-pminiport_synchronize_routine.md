@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidSynchronizeExecutionCallback
+ - PMINIPORT_SYNCHRONIZE_ROUTINE
 ---
 
 # PMINIPORT_SYNCHRONIZE_ROUTINE callback function
@@ -76,3 +76,4 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_NMI_ERROR_SECTION
+ - PWHEA_NMI_ERROR_SECTION
  - WHEA_NMI_ERROR_SECTION
 ---
 
@@ -103,3 +105,4 @@ The WHEA_NMI_ERROR_SECTION structure describes the error data contained in a non
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+

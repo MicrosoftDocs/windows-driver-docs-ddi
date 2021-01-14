@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NetAllocateSharedMemory
+ - ALLOCATE_SHARED_MEMORY_HANDLER
 ---
 
 # ALLOCATE_SHARED_MEMORY_HANDLER callback function
@@ -153,3 +153,4 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatesharedmemory">NdisAllocateSharedMemory</a>
+

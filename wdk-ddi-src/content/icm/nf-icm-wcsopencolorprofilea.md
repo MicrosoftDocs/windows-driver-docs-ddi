@@ -35,6 +35,7 @@ api_location:
  - Mscms.lib
  - Mscms.dll
 api_name:
+ - WcsOpenColorProfileA
  - WcsOpenColorProfile
 f1_keywords:
  - WcsOpenColorProfileA

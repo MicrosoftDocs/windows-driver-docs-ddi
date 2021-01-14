@@ -38,7 +38,6 @@ api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
  - IAction
- - IAction.SetTarget
 ---
 
 # IAction interface
@@ -79,3 +78,4 @@ For a listing of all action interfaces included in WDTF, see <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-getinterface">IWDTFTarget2::GetInterface</a>
+

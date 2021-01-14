@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_WMDRM_RENEWLICENSE
+ - PBDA_WMDRM_RENEWLICENSE
  - BDA_WMDRM_RENEWLICENSE
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_SYNCHRONIZATIONOBJECTINFO
  - D3DDDI_SYNCHRONIZATIONOBJECTINFO
 ---
 
@@ -90,3 +91,4 @@ An array of 32-bit values that are reserved for future use.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_synchronizationobject_type">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
+

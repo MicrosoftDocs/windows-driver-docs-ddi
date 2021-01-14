@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - BoundCallback
+ - BOUND_CALLBACK
 ---
 
 # BOUND_CALLBACK callback function
@@ -64,3 +64,4 @@ Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">K
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>
+

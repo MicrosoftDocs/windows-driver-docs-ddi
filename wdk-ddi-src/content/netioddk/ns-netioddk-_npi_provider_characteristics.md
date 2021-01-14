@@ -39,6 +39,7 @@ api_type:
 api_location:
  - netioddk.h
 api_name:
+ - _NPI_PROVIDER_CHARACTERISTICS
  - NPI_PROVIDER_CHARACTERISTICS
 ---
 
@@ -121,3 +122,4 @@ A provider module must make sure that this structure remains valid and resident 
 
 
 <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperUni.SetFontSubstitution
+ - IPrintCoreHelperUni::SetFontSubstitution
 ---
 
 # IPrintCoreHelperUni::SetFontSubstitution
@@ -140,3 +140,4 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-getfontsubstitution">IPrintCoreHelperUni::GetFontSubstitution</a>
+

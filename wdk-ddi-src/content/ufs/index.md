@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ufs
  - ufs/ufs
+api_name:
+ - ufs
 ---
 
 # Ufs.h header

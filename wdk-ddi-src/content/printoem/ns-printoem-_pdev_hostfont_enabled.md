@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_HOSTFONT_ENABLED
  - PDEV_HOSTFONT_ENABLED
 ---
 
@@ -81,3 +82,4 @@ a Printer Font Binary (PFB)
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
+

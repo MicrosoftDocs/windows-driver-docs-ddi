@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxAbortConfirm
+ - NDIS_WDI_TX_ABORT_CONFIRM
 ---
 
 # NDIS_WDI_TX_ABORT_CONFIRM callback function
@@ -59,3 +59,4 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
+

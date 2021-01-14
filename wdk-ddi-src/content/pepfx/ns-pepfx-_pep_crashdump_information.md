@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_CRASHDUMP_INFORMATION
+ - PPEP_CRASHDUMP_INFORMATION
  - PEP_CRASHDUMP_INFORMATION
 ---
 
@@ -78,3 +80,4 @@ When a fatal system error occurs, the devices in the crash-dump device chain (st
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbackpoweroncrashdumpdevice">PowerOnDumpDeviceCallback</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_ADDRESS
+ - PUSBDEVICE_ADDRESS
  - USBDEVICE_ADDRESS
 ---
 
@@ -68,3 +70,4 @@ The address of the specified the USB hub or device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_address">EVT_UCX_USBDEVICE_ADDRESS</a>
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _DEBUG_DEVICE_DESCRIPTOR
+ - PDEBUG_DEVICE_DESCRIPTOR
  - DEBUG_DEVICE_DESCRIPTOR
 product:
  - Windows

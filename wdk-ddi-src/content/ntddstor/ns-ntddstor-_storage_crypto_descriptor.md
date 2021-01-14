@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_CRYPTO_DESCRIPTOR
+ - PSTORAGE_CRYPTO_DESCRIPTOR
  - STORAGE_CRYPTO_DESCRIPTOR
 ---
 

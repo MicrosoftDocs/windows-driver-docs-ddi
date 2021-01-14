@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DEVICE_ESCAPE
  - D3DKMT_DEVICE_ESCAPE
 ---
 
@@ -73,3 +74,4 @@ The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device i
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
+

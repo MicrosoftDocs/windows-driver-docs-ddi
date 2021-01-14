@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols.CreateSymbolGroup
- - IDebugSymbols2.CreateSymbolGroup
- - IDebugSymbols3.CreateSymbolGroup
+ - IDebugSymbols::CreateSymbolGroup
 ---
 
 # IDebugSymbols::CreateSymbolGroup
@@ -106,3 +104,4 @@ For more information about symbol groups, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

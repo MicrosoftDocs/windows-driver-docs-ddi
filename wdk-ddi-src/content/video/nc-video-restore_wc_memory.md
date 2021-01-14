@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - VideoPortRestoreWCMemory
+ - RESTORE_WC_MEMORY
 ---
 
 # RESTORE_WC_MEMORY callback function
@@ -74,3 +74,4 @@ After the <a href="/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memor
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
+

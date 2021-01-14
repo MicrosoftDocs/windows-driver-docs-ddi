@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _PARTITION_INFORMATION_EX
+ - PPARTITION_INFORMATION_EX
  - PARTITION_INFORMATION_EX
 ---
 
@@ -96,3 +98,4 @@ This is the extended version of the partition information structure, PARTITION_I
 [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)
 
 [PARTITION_INFORMATION_MBR](ns-ntdddisk-_partition_information_mbr.md)
+

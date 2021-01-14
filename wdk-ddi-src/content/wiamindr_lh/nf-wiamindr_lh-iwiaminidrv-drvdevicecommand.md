@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvDeviceCommand
+ - IWiaMiniDrv::drvDeviceCommand
 ---
 
 # IWiaMiniDrv::drvDeviceCommand
@@ -122,3 +122,4 @@ The WIA service does not write any properties before calling this method. If the
 [IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)
 
 [IWiaMiniDrv::drvWriteItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties.md)
+

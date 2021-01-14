@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_PHOTOMODE
+ - PKSCAMERA_EXTENDEDPROP_PHOTOMODE
  - KSCAMERA_EXTENDEDPROP_PHOTOMODE
 ---
 
@@ -72,3 +74,4 @@ Reserved. Set to 0.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a>
+

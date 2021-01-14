@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETMSGINUICCSTATUSPARAMS
+ - LPRILSETMSGINUICCSTATUSPARAMS
 ---
 
 # RILSETMSGINUICCSTATUSPARAMS structure (ntddrilapitypes.h)

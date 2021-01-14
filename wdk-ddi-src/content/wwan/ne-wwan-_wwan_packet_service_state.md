@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PACKET_SERVICE_STATE
+ - PWWAN_PACKET_SERVICE_STATE
  - WWAN_PACKET_SERVICE_STATE
 ---
 
@@ -82,3 +84,4 @@ The packet service attach or detach state is typically reflected in the device's
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>
+

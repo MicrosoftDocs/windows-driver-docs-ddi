@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbMapMemory
+ - DXGKCB_MAP_MEMORY
 ---
 
 # DXGKCB_MAP_MEMORY callback function
@@ -100,3 +100,4 @@ The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
+

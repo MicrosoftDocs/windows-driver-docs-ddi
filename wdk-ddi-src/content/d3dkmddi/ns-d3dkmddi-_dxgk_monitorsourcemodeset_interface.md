@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MONITORSOURCEMODESET_INTERFACE
  - DXGK_MONITORSOURCEMODESET_INTERFACE
 ---
 
@@ -98,3 +99,4 @@ The display miniport driver calls the <a href="/windows-hardware/drivers/ddi/d3d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a>
+

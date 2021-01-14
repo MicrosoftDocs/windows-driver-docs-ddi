@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVDCOPY_TITLEKEY
+ - PKS_DVDCOPY_TITLEKEY
  - KS_DVDCOPY_TITLEKEY
 ---
 
@@ -195,3 +197,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyrigh
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
+

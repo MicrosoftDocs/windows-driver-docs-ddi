@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputTargetRect
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT
 product:
  - Windows
 ---
@@ -95,3 +95,4 @@ If this function is never called, or if the <i>Enable</i> parameter is FALSE, th
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

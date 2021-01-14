@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsControl.KsEvent
+ - IKsControl::KsEvent
 ---
 
 # IKsControl::KsEvent (ksproxy.h)
@@ -99,3 +99,4 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingenerateevents">KsPinGenerateEvents</a>
+

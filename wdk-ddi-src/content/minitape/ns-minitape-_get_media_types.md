@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _GET_MEDIA_TYPES
+ - PGET_MEDIA_TYPES
  - GET_MEDIA_TYPES
 ---
 
@@ -76,3 +78,4 @@ A storage class driver must handle the <a href="/windows-hardware/drivers/ddi/nt
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+

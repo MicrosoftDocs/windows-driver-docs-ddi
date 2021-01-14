@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_AddPort_OUT
+ - PSM_AddPort_OUT
  - SM_AddPort_OUT
 ---
 
@@ -56,3 +58,4 @@ The SM_AddPort_OUT structure is used to receive output parameters from the SM_Re
 ### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+

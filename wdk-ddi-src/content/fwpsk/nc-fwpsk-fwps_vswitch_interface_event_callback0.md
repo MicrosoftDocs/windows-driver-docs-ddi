@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchInterfaceEventNotifyFn
+ - FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0
 ---
 
 # FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0 callback function
@@ -148,3 +148,4 @@ If the <i>eventType</i> parameter  is set to WPS_VSWITCH_EVENT_INTERFACE_CREATE,
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a>
+

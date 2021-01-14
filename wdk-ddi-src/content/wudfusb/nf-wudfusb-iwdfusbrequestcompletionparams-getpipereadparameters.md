@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbRequestCompletionParams.GetPipeReadParameters
+ - IWDFUsbRequestCompletionParams::GetPipeReadParameters
 ---
 
 # IWDFUsbRequestCompletionParams::GetPipeReadParameters
@@ -73,3 +73,4 @@ A pointer to a variable that receives the offset, in bytes, into the read buffer
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbrequestcompletionparams">IWDFUsbRequestCompletionParams</a>
+

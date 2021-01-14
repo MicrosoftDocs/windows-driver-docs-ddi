@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DecodeExtensionExecute
+ - PFND3DDDI_DECODEEXTENSIONEXECUTE
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ Because of compatibility issues with DirectX VA 1.0 decoders that might make suc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

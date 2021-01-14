@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - hidsdi
  - hidsdi/hidsdi
+api_name:
+ - hidsdi
 ---
 
 # Hidsdi.h header

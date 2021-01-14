@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - DebugExtensionUnload
+ - PDEBUG_EXTENSION_UNLOAD
 ---
 
 # PDEBUG_EXTENSION_UNLOAD callback function
@@ -50,7 +50,6 @@ The <i>DebugExtensionUnload</i> callback function unloads the debug extension.
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_UNLOAD DebugExtensionUnload;
 ```
-
 
 ## -parameters
 
@@ -65,3 +64,4 @@ If and only if <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_ex
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_canunload">DebugExtensionCanUnload</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_CONTINUOUSTRACKING_PARAM
  - GNSS_CONTINUOUSTRACKING_PARAM
 ---
 

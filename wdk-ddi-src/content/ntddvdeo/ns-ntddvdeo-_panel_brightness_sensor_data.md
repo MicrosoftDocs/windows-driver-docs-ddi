@@ -33,6 +33,7 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _PANEL_BRIGHTNESS_SENSOR_DATA
+ - PANEL_BRIGHTNESS_SENSOR_DATA
 product:
  - Windows
 ---

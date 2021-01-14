@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
  - DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 
@@ -80,3 +81,4 @@ If <b>PrimaryAllocation</b> is set to zero, no primary surface is currently asso
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat">DxgkDdiSetDisplayPrivateDriverFormat</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_MODEM_CONFIG_INFO
+ - PWWAN_MODEM_CONFIG_INFO
  - WWAN_MODEM_CONFIG_INFO
 ---
 
@@ -96,3 +98,4 @@ A DWORD value that indicates if the current configuration is the default configu
 
 
 <a href="/previous-versions/mt813894(v=vs.85)">WWAN_MODEM_CONFIG_STATUS</a>
+

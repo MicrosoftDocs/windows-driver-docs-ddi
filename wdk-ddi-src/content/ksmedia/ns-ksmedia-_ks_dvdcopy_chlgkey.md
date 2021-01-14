@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVDCOPY_CHLGKEY
+ - PKS_DVDCOPY_CHLGKEY
  - KS_DVDCOPY_CHLGKEY
 ---
 
@@ -70,3 +72,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyrigh
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-chlg-key">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
+

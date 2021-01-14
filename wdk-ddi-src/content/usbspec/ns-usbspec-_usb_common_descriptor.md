@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_COMMON_DESCRIPTOR
+ - PUSB_COMMON_DESCRIPTOR
  - USB_COMMON_DESCRIPTOR
 ---
 
@@ -68,3 +70,4 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 
 <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_parsedescriptors">USBD_ParseDescriptors</a>
+

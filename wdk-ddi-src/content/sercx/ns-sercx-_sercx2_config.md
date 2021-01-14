@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
+ - _SERCX2_CONFIG
+ - PSERCX2_CONFIG
  - SERCX2_CONFIG
 ---
 
@@ -150,3 +152,4 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _PDOSCSI_ADDR
+ - PPDOSCSI_ADDR
  - PDOSCSI_ADDR
 ---
 

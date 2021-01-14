@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceDisableWakeAtBus
+ - EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS
 ---
 
 # EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback function
@@ -63,3 +63,4 @@ For more information about this callback function, see <a href="/windows-hardwar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_enable_wake_at_bus">EvtDeviceEnableWakeAtBus</a>
+

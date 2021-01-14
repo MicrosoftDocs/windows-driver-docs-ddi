@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDELETEMSGPARAMS
+ - LPRILDELETEMSGPARAMS
 ---
 
 # RILDELETEMSGPARAMS structure (ntddrilapitypes.h)

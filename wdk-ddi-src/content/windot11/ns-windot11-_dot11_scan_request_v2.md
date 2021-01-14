@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SCAN_REQUEST_V2
+ - PDOT11_SCAN_REQUEST_V2
  - DOT11_SCAN_REQUEST_V2
 product:
  - Windows 10 or later.
@@ -279,3 +281,4 @@ For more information about the ExtSTA operation mode, see
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+

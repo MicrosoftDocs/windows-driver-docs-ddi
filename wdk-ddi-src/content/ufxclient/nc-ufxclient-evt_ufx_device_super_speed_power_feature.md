@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+ - EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 ---
 
 # EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function
@@ -143,7 +143,6 @@ Arguments:
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
@@ -151,3 +150,4 @@ Arguments:
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
+

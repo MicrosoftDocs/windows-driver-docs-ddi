@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_OBJECT_HEADER_RESERVED_BLOCK
  - NDK_OBJECT_HEADER_RESERVED_BLOCK
 ---
 
@@ -62,3 +63,4 @@ The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure is used in the <a href="/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_CREATECONTEXT
  - DXGKARG_CREATECONTEXT
 ---
 
@@ -102,3 +103,4 @@ The DXGKARG_CREATECONTEXT structure describes parameters to create a device cont
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

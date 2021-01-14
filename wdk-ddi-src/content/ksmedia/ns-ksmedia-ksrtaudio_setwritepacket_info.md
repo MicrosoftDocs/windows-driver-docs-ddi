@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_SETWRITEPACKET_INFO
  - KSRTAUDIO_SETWRITEPACKET_INFO
 ---
 
@@ -70,3 +71,4 @@ The length of the EOS packet if <i>KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM</i> is s
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-setwritepacket">KSPROPERTY_RTAUDIO_SETWRITEPACKET</a>
+

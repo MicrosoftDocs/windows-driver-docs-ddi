@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CheckDirectFlipSupport
+ - PFND3DDDI_CHECKDIRECTFLIPSUPPORT
 product:
  - Windows
 ---
@@ -89,3 +89,4 @@ Because the DWM typically creates its own device using the highest possible Micr
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

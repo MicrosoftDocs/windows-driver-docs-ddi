@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - TransferCodecVerbs
+ - PTRANSFER_CODEC_VERBS
 ---
 
 # PTRANSFER_CODEC_VERBS callback function
@@ -161,3 +161,4 @@ The caller must allocate the <i>codecTransfer</i> array from the nonpaged pool.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a>
+

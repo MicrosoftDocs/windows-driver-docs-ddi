@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_S_EX
  - KSPROPERTY_CAMERACONTROL_S_EX
 ---
 
@@ -157,3 +158,4 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

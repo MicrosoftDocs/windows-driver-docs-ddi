@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_DELETE_STATUS
+ - PNDIS_WWAN_SMS_DELETE_STATUS
  - NDIS_WWAN_SMS_DELETE_STATUS
 ---
 
@@ -110,3 +112,4 @@ The status of the SMS delete operation.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

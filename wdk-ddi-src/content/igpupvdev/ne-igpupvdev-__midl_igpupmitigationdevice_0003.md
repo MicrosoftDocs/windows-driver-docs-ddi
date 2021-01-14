@@ -30,6 +30,7 @@ api_location:
  - igpupvdev.h
 api_name:
  - __MIDL_IGPUPMitigationDevice_0003
+ - GPUP_SAVE_RESTORE_PAUSE_STATE
 ---
 
 # __MIDL_IGPUPMitigationDevice_0003 enumeration

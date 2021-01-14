@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_CREATECONTEXTVIRTUAL
  - D3DDDICB_CREATECONTEXTVIRTUAL
 ---
 
@@ -82,3 +83,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createcontextvirtualcb">pfnCreateContextVirtualCb</a>
+

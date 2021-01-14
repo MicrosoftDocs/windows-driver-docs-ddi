@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects2.GetImplicitThreadDataOffset
- - IDebugSystemObjects3.GetImplicitThreadDataOffset
- - IDebugSystemObjects4.GetImplicitThreadDataOffset
+ - IDebugSystemObjects4::GetImplicitThreadDataOffset
 ---
 
 # IDebugSystemObjects4::GetImplicitThreadDataOffset
@@ -85,3 +83,4 @@ In kernel-mode debugging, the data structure is the KTHREAD structure for the pr
 In user-mode debugging, the data structure is the thread environment block (TEB) for the process.
 
 For more information about the implicit thread, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on the KTHREAD structure and TEB, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

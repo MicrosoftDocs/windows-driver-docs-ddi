@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _LoginToTarget_IN
+ - PLoginToTarget_IN
  - LoginToTarget_IN
 ---
 
@@ -152,3 +154,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
+

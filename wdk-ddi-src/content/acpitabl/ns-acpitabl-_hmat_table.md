@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _HMAT_TABLE
+ - PHMAT_TABLE
+ - HMAT_TABLE
 ---
 
 # _HMAT_TABLE structure
+
 
 ## -description
 
@@ -57,3 +60,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

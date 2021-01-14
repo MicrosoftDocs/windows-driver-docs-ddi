@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContext.PrinterQueue
- - IPrinterExtensionContext.get_PrinterQueue
+ - IPrinterExtensionContext::get_PrinterQueue
 ---
 
 # IPrinterExtensionContext::get_PrinterQueue
@@ -59,3 +58,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
+

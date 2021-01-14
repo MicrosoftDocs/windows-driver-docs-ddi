@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GDIARG_CLEARTYPEBLEND
  - DXGK_GDIARG_CLEARTYPEBLEND
 ---
 
@@ -173,3 +174,4 @@ The driver must also ensure that when a component of A is 0xFF, the correspondin
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

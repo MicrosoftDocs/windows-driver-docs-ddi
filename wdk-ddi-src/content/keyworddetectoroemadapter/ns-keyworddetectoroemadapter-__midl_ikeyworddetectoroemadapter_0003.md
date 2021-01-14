@@ -39,6 +39,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
+ - __MIDL_IKeywordDetectorOemAdapter_0003
  - KEYWORDSELECTOR
 ---
 

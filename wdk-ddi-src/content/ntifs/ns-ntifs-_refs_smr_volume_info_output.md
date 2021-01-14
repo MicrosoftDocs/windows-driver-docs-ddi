@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _REFS_SMR_VOLUME_INFO_OUTPUT
+ - PREFS_SMR_VOLUME_INFO_OUTPUT
  - REFS_SMR_VOLUME_INFO_OUTPUT
 ---
 
@@ -92,3 +94,4 @@ Specifies the status of the last garbage collection using the specified method i
 ### -field Unused
 
 Reserved for future use.
+

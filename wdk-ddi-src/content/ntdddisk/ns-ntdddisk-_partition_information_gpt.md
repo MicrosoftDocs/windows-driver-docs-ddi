@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _PARTITION_INFORMATION_GPT
+ - PPARTITION_INFORMATION_GPT
  - PARTITION_INFORMATION_GPT
 ---
 
@@ -76,3 +78,4 @@ Specifies the partition name in Unicode.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+

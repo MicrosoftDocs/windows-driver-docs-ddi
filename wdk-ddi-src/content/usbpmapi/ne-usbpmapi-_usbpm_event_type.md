@@ -30,6 +30,7 @@ api_type:
 api_location:
  - usbpmapi.h
 api_name:
+ - _USBPM_EVENT_TYPE
  - USBPM_EVENT_TYPE
 ---
 

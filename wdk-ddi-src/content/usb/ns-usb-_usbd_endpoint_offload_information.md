@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usb.h
 api_name:
+ - _USBD_ENDPOINT_OFFLOAD_INFORMATION
+ - PUSBD_ENDPOINT_OFFLOAD_INFORMATION
  - USBD_ENDPOINT_OFFLOAD_INFORMATION
 ---
 
@@ -149,3 +151,4 @@ The cycle state of the transfer.
 The size of the requested data.
 
 The size of the requested data.
+

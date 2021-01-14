@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
  - DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ---
 
@@ -64,3 +66,4 @@ The revision of the processor.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_all">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+

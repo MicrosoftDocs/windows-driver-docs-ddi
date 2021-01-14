@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _MM_PHYSICAL_ADDRESS_LIST
+ - PMM_PHYSICAL_ADDRESS_LIST
  - MM_PHYSICAL_ADDRESS_LIST
 ---
 
@@ -68,3 +70,4 @@ The first parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mma
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemdlforiospace">MmAllocateMdlForIoSpace</a>
+

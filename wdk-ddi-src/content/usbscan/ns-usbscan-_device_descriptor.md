@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _DEVICE_DESCRIPTOR
+ - PDEVICE_DESCRIPTOR
  - DEVICE_DESCRIPTOR
 ---
 
@@ -68,3 +70,4 @@ BCD-encoded device version number.
 ### -field usLanguageId
 
 <i>Not used</i>.
+

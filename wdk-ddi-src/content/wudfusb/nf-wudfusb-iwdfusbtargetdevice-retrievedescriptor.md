@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.RetrieveDescriptor
+ - IWDFUsbTargetDevice::RetrieveDescriptor
 ---
 
 # IWDFUsbTargetDevice::RetrieveDescriptor
@@ -175,7 +175,6 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
@@ -183,3 +182,4 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_getdescriptor">WinUsb_GetDescriptor</a>
+

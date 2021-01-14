@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaTransaction.h
 api_name:
- - EvtReserveDma
+ - EVT_WDF_RESERVE_DMA
 ---
 
 # EVT_WDF_RESERVE_DMA callback function
@@ -85,3 +85,4 @@ On operating systems earlier than Windows 8, <i>EvtReserveDma</i> must be used 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionfreeresources">WdfDmaTransactionFreeResources</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETROOTPAGETABLE
  - DXGKARG_SETROOTPAGETABLE
 ---
 
@@ -70,3 +71,4 @@ The GPU physical address of the root page table.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setrootpagetable">DxgkDdiSetRootPageTable</a>
+

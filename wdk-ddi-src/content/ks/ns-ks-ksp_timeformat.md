@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSP_TIMEFORMAT
  - KSP_TIMEFORMAT
 ---
 
@@ -74,3 +75,4 @@ The fields of the structure correspond one to one with DirectShow's IMediaSeekin
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-converttimeformat">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>
+

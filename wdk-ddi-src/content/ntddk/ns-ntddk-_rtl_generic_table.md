@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _RTL_GENERIC_TABLE
  - RTL_GENERIC_TABLE
 ---
 
@@ -199,3 +200,4 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelements">RtlNumberGenericTableElements</a>
+

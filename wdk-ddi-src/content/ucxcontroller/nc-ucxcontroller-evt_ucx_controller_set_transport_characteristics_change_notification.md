@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UcxController.h
 api_name:
- - PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
+ - EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 ---
 
 # EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback function
@@ -77,3 +77,4 @@ It is likely that if the client driver keeps looking for changes in transport ch
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
+

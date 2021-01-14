@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLS_IO_STATISTICS_HEADER
+ - PCLS_IO_STATISTICS_HEADER
  - CLS_IO_STATISTICS_HEADER
 ---
 
@@ -80,3 +82,4 @@ The offset, in bytes, from the beginning of the <b>CLFS_IO_STATISTICS</b> struct
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>
+

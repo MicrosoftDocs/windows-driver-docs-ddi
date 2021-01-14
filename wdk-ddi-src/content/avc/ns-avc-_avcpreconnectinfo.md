@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVCPRECONNECTINFO
+ - PAVCPRECONNECTINFO
  - AVCPRECONNECTINFO
 ---
 
@@ -90,3 +92,4 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 
 <a href="/windows-hardware/drivers/ddi/avc/ne-avc-_kspin_flag_avc">KSPIN_FLAG_AVC</a>
+

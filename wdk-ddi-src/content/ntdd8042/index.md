@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - ntdd8042
  - ntdd8042/ntdd8042
+api_name:
+ - ntdd8042
 ---
 
 # Ntdd8042.h header

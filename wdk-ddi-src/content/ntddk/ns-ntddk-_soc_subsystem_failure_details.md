@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _SOC_SUBSYSTEM_FAILURE_DETAILS
+ - PSOC_SUBSYSTEM_FAILURE_DETAILS
  - SOC_SUBSYSTEM_FAILURE_DETAILS
 ---
 
@@ -83,3 +85,4 @@ The size, in bytes, of the <b>UnifiedFailureRegion</b> string including the <b>N
 ### -field UnifiedFailureRegion
 
 A null-terminated string, defined by the vendor, that  contains classification details about the error that occurred.
+

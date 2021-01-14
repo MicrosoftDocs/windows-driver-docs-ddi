@@ -42,6 +42,8 @@ api_location:
  - wdftypes.h
  - wudfddi_types.h
 api_name:
+ - _WDF_TRI_STATE
+ - PWDF_TRI_STATE
  - WDF_TRI_STATE
 ---
 

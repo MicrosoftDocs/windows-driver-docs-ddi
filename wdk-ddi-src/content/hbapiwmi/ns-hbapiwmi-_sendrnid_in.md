@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendRNID_IN
+ - PSendRNID_IN
  - SendRNID_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the SendRNID_IN structure in <i>Hb
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendrnid">SendRNID</a>
+

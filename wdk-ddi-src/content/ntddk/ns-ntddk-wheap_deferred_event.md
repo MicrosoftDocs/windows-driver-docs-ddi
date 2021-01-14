@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_DEFERRED_EVENT
+ - PWHEAP_DEFERRED_EVENT
  - WHEAP_DEFERRED_EVENT
 product:
  - Windows

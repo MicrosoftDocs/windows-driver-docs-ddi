@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
- - pfnTrimResidencySet
+ - PFND3DDDI_TRIMRESIDENCYSET
 product:
  - Windows
 ---
@@ -68,3 +68,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_trimresidencyset">D3DDDIARG_TRIMRESIDENCYSET</a>
+

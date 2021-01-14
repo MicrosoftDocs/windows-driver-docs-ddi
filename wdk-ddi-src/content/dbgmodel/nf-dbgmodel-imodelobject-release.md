@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelObject.Release
+ - IModelObject::Release
 ---
 
 # IModelObject::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

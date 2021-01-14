@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - ProcessIoControl
+ - ISensorClassExtension::ProcessIoControl
 ---
 
 # ISensorClassExtension::ProcessIoControl
@@ -76,3 +76,4 @@ The driver must not complete I/O control requests that it forwards to the sensor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
+

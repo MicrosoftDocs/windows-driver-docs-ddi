@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ClearActiveInterrupts
+ - GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS
 ---
 
 # GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback function
@@ -121,3 +121,4 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

@@ -12,9 +12,12 @@ tech.root: acpi
 f1_keywords:
  - acpitabl
  - acpitabl/acpitabl
+api_name:
+ - acpitabl
 ---
 
 # Acpitabl.h header
+
 
 ## -description
 
@@ -23,3 +26,4 @@ This header is used by ACPI.
 For more information, see:
 
 - [ACPI](../_acpi/index.md)<br><br>
+

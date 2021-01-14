@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSAUDIO_PRESENTATION_POSITION
  - KSAUDIO_PRESENTATION_POSITION
 ---
 
@@ -70,3 +71,4 @@ Specifies the value of the performance counter at the time that the audio driver
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
+

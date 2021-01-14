@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelObject.GetKind
+ - IModelObject::GetKind
 ---
 
 # IModelObject::GetKind
@@ -71,3 +71,4 @@ HRESULT hr = spObject->GetKind(&kind);
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

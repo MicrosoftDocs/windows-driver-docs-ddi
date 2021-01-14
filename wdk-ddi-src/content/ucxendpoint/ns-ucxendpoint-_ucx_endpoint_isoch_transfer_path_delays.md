@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
+ - _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
+ - PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
  - UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 ---
 
@@ -64,3 +66,4 @@ The maximum delay in milliseconds from the time an isochronous transfer is compl
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_get_isoch_transfer_path_delays">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a>
+

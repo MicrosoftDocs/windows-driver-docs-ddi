@@ -36,6 +36,8 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _GPUP_DRIVER_ESCAPE_INPUT
+ - PGPUP_DRIVER_ESCAPE_INPUT
+ - GPUP_DRIVER_ESCAPE_INPUT
 dev_langs:
  - c++
 ---

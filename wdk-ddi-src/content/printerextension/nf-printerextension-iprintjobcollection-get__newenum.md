@@ -38,8 +38,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJobCollection.NewEnum
- - IPrintJobCollection.get_NewEnum
+ - IPrintJobCollection::get__NewEnum
 ---
 
 # IPrintJobCollection::get__NewEnum
@@ -56,3 +55,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
+

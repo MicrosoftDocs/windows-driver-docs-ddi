@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_STATUS_BLOCK
+ - PIO_STATUS_BLOCK
  - IO_STATUS_BLOCK
 ---
 
@@ -92,3 +94,4 @@ For more information, see <a href="/windows-hardware/drivers/kernel/i-o-status-b
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
+

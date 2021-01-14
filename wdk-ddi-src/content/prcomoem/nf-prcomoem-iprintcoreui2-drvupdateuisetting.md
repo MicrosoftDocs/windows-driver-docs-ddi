@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreUI2.DrvUpdateUISetting
+ - IPrintCoreUI2::DrvUpdateUISetting
 ---
 
 # IPrintCoreUI2::DrvUpdateUISetting
@@ -165,3 +165,4 @@ This method is inherited from the <a href="/windows-hardware/drivers/print/iprin
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE
  - DXVAHDDDI_BLT_STATE
 ---
 
@@ -110,3 +111,4 @@ A DXVAHDDDI_BLT_STATE-typed value, which is specified in the <b>State</b> member
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate">SetVideoProcessBltState</a>
+

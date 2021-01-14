@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterDefinition.UnitType
- - IPrintSchemaParameterDefinition.get_UnitType
+ - IPrintSchemaParameterDefinition::get_UnitType
 ---
 
 # IPrintSchemaParameterDefinition::get_UnitType
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+

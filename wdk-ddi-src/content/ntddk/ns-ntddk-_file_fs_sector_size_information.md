@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _FILE_FS_SECTOR_SIZE_INFORMATION
+ - PFILE_FS_SECTOR_SIZE_INFORMATION
  - FILE_FS_SECTOR_SIZE_INFORMATION
 ---
 
@@ -177,3 +179,4 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>
+

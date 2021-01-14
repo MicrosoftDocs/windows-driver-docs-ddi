@@ -38,7 +38,6 @@ api_location:
  - Wdm.h
 api_name:
  - RtlEqualMemory
- - memcmp
 ---
 
 # RtlEqualMemory macro
@@ -89,3 +88,4 @@ Callers of **RtlEqualMemory** can be running at any IRQL if both blocks of memor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
+

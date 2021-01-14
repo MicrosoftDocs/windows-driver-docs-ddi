@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_TYPE
+ - PWWAN_DEVICE_TYPE
  - WWAN_DEVICE_TYPE
 ---
 
@@ -76,3 +78,4 @@ The total number of supported device types.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+

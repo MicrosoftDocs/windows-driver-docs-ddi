@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_CALIBRATION_INFO
+ - PWINBIO_CALIBRATION_INFO
  - WINBIO_CALIBRATION_INFO
 ---
 
@@ -70,3 +72,4 @@ The status detail of the I/O operation.  This is where WINBIO error and informat
 ### -field CalibrationData
 
 A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> that contains calibration data specific to this sensor.  This member is optional.
+

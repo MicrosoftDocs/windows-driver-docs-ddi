@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_NET_BUFFER_LIST_8021Q_INFO
+ - PNDIS_NET_BUFFER_LIST_8021Q_INFO
  - NDIS_NET_BUFFER_LIST_8021Q_INFO
 ---
 
@@ -177,3 +179,4 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
+

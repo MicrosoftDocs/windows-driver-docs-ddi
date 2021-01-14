@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfUsb.h
 api_name:
- - EvtUsbTargetPipeReadersFailed
+ - EVT_WDF_USB_READERS_FAILED
 ---
 
 # EVT_WDF_USB_READERS_FAILED callback function
@@ -93,3 +93,4 @@ For more information about the <i>EvtUsbTargetPipeReadersFailed</i> callback fun
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a>
+

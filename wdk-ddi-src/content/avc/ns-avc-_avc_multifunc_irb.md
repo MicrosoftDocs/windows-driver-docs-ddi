@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_MULTIFUNC_IRB
+ - PAVC_MULTIFUNC_IRB
  - AVC_MULTIFUNC_IRB
 ---
 
@@ -188,3 +190,4 @@ The AVC_MULTIFUNC_IRB structure used with a variety of AV/C functionality. Depen
 
 
 <a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_unique_id">AVC_UNIQUE_ID</a>
+

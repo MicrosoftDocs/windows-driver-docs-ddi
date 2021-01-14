@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _SET_PARTITION_INFORMATION
+ - PSET_PARTITION_INFORMATION
  - SET_PARTITION_INFORMATION
 ---
 
@@ -80,3 +82,4 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>
+

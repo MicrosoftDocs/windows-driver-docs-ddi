@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_SIGNAL_TIMEOUTS
+ - PBDA_SIGNAL_TIMEOUTS
  - BDA_SIGNAL_TIMEOUTS
 ---
 

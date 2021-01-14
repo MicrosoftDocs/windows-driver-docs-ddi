@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PORT_AUTHENTICATION_PARAMETERS
+ - PNDIS_PORT_AUTHENTICATION_PARAMETERS
  - NDIS_PORT_AUTHENTICATION_PARAMETERS
 ---
 
@@ -207,3 +209,4 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in
 
 <a href="/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
+

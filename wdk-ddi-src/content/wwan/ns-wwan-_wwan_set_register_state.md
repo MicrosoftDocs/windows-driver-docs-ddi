@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_REGISTER_STATE
+ - PWWAN_SET_REGISTER_STATE
  - WWAN_SET_REGISTER_STATE
 ---
 
@@ -96,3 +98,4 @@ When multiple data-classes are set as preferred, miniport drivers are expected r
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_action">WWAN_REGISTER_ACTION</a>
+

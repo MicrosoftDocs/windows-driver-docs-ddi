@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_POWER_FRAMEWORK_SETTINGS
+ - PWDF_POWER_FRAMEWORK_SETTINGS
  - WDF_POWER_FRAMEWORK_SETTINGS
 ---
 
@@ -119,3 +121,4 @@ This structure is not applicable to KMDF client drivers for multiple-component d
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+

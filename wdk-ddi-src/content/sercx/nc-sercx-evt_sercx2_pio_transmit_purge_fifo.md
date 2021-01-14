@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioTransmitPurgeFifo
+ - EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback function
@@ -124,3 +124,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type is defined in the Se
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitpurgefifocomplete">SerCx2PioTransmitPurgeFifoComplete</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_FLUSHTLB
  - DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 ---
 
@@ -66,3 +67,4 @@ The start of the affected GPU virtual address range.
 ### -field EndVirtualAddress
 
 The end of the affected GPU virtual address range. When both <b>StartVirtualAddress</b> and <b>EndVirtualAddress</b> are zero, the entire GPU virtual address range is affected.
+

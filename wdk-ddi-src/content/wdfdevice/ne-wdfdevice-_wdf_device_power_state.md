@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_POWER_STATE
+ - PWDF_DEVICE_POWER_STATE
  - WDF_DEVICE_POWER_STATE
 ---
 
@@ -59,3 +61,4 @@ The <b>WDF_DEVICE_POWER_STATE</b> enumeration identifies all of the states that 
 ## -remarks
 
 The <b>WDF_DEVICE_POWER_STATE</b> enumeration is used as a member type in the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_notification_data">WDF_DEVICE_POWER_NOTIFICATION_DATA</a> structure and as the return type for the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepowerstate">WdfDeviceGetDevicePowerState</a> method.
+

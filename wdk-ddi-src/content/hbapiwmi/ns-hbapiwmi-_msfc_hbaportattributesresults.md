@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_HBAPortAttributesResults
+ - PMSFC_HBAPortAttributesResults
  - MSFC_HBAPortAttributesResults
 ---
 
@@ -379,3 +381,4 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PLOOPEDSTREAMING_POSITION_EVENT_DATA
  - LOOPEDSTREAMING_POSITION_EVENT_DATA
 ---
 
@@ -84,3 +85,4 @@ For more information about looped buffers, buffer positions, and play and record
 
 
 <a href="/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
+

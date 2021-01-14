@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _ROOTHUB_20PORT_INFO
+ - PROOTHUB_20PORT_INFO
  - ROOTHUB_20PORT_INFO
 ---
 
@@ -80,3 +82,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRI
 ### -field ControllerUsb20HardwareLpmFlags
 
 A value that indicates Link Power Management (LPM) flags for the controller.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_FC_PHY
+ - PMS_SMHBA_FC_PHY
  - MS_SMHBA_FC_PHY
 ---
 

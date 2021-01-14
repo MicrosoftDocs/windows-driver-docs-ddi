@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSWAVE_COMPATCAPS
  - KSWAVE_COMPATCAPS
 ---
 
@@ -89,3 +90,4 @@ This structure is used by the <a href="/windows-hardware/drivers/stream/ksproper
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
+

@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ - PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 product:
  - Windows 10 or later.
 ---
@@ -225,3 +226,4 @@ If the
 
 
 <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+

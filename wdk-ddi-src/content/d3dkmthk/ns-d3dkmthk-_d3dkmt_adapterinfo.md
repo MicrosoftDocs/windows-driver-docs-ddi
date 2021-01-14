@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_ADAPTERINFO
  - D3DKMT_ADAPTERINFO
 ---
 

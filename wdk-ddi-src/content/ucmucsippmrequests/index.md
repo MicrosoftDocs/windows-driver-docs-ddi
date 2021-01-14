@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - ucmucsippmrequests
  - ucmucsippmrequests/ucmucsippmrequests
+api_name:
+ - ucmucsippmrequests
 ---
 
 # Ucmucsippmrequests.h header
@@ -29,3 +31,4 @@ For information about UCSI commands, see [UCSI spec version 1.1](https://www.int
 For more information, see:
 - [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon)
+

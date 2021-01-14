@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteList.ExtRemoteList
+ - ExtRemoteList::ExtRemoteList
 ---
 
 # ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)
@@ -76,3 +76,4 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(extremotedata__ulong_bool)">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+

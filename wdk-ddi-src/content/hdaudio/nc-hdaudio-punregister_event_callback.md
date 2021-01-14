@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - UnregisterEventCallback
+ - PUNREGISTER_EVENT_CALLBACK
 ---
 
 # PUNREGISTER_EVENT_CALLBACK callback function
@@ -104,3 +104,4 @@ Before calling this routine, the function driver is responsible for programming 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">RegisterEventCallback</a>
  
 [hdaudio.h](../hdaudio/index.md)
+

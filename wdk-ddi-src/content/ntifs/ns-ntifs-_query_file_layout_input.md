@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _QUERY_FILE_LAYOUT_INPUT
+ - PQUERY_FILE_LAYOUT_INPUT
  - QUERY_FILE_LAYOUT_INPUT
 ---
 
@@ -192,7 +194,6 @@ typedef struct _CLUSTER_RANGE {
 } CLUSTER_RANGE, *PCLUSTER_RANGE;
 ```
 
-
 ### -field Filter.FileReferenceRanges
 
 Specifies a set of file reference ranges to filter layout information. The range structure has the following format.
@@ -205,7 +206,6 @@ typedef struct _FILE_REFERENCE_RANGE {
     LARGE_INTEGER    EndingReferenceNumber;
 } FILE_REFERENCE_RANGE, *PFILE_REFERENCE_RANGE;
 ```
-
 
 ## -remarks
 
@@ -224,3 +224,4 @@ When <b>FilterType</b> is <b>QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS</b>, the <b>
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_output">QUERY_FILE_LAYOUT_OUTPUT</a>
+

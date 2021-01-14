@@ -12,6 +12,8 @@ tech.root: debugger
 f1_keywords:
  - engextcpp
  - engextcpp/engextcpp
+api_name:
+ - engextcpp
 ---
 
 # Engextcpp.hpp header
@@ -23,3 +25,4 @@ This header is used by debugger. For more information, see:
 
 - [EngExtCpp Extension Design Guide](/windows-hardware/drivers/debugger/engextcpp-extension-design-guide)
 - [Debugger](../_debugger/index.md)
+

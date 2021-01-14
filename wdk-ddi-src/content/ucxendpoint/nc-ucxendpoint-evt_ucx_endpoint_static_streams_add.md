@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
+ - EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
 ---
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function
@@ -123,3 +123,4 @@ Endpoint_EvtEndpointStaticStreamsAdd(
         }
 
 ```
+

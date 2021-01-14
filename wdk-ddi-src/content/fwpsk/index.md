@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - fwpsk
  - fwpsk/fwpsk
+api_name:
+ - fwpsk
 ---
 
 # Fwpsk.h header

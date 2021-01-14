@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreateDevice
+ - PFND3DDDI_CREATEDEVICE
 product:
  - Windows
 ---
@@ -89,3 +89,4 @@ When the Direct3D runtime calls <b>CreateDevice</b> to create a device, the runt
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroydevice">DestroyDevice</a>
+

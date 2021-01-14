@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxTalSend
+ - MINIPORT_WDI_TX_TAL_SEND
 ---
 
 # MINIPORT_WDI_TX_TAL_SEND callback function
@@ -169,3 +169,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

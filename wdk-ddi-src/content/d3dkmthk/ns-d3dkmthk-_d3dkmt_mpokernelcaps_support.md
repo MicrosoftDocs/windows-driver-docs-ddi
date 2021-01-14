@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MPOKERNELCAPS_SUPPORT
+ - D3DKMT_MPOKERNELCAPS_SUPPORT
 dev_langs:
  - c++
 ---

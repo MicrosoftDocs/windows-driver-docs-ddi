@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_PRESENTFLAGS
  - D3DDDI_PRESENTFLAGS
 ---
 
@@ -88,3 +89,4 @@ A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_present">Present</a>
+

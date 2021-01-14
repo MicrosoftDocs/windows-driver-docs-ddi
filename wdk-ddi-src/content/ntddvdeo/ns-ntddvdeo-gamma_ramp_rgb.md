@@ -33,6 +33,7 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _GAMMA_RAMP_RGB
  - GAMMA_RAMP_RGB
 dev_langs:
  - c++

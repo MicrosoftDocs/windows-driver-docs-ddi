@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_ENUMHANDLECHILDREN
  - DXGKARGCB_ENUMHANDLECHILDREN
 ---
 
@@ -62,3 +63,4 @@ The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_enumhandlechildren">DxgkCbEnumHandleChildren</a>
+

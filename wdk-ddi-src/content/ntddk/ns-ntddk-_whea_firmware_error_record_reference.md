@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+ - PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE
  - WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 ---
 
@@ -74,3 +76,4 @@ The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure contains a reference to a SAL
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+

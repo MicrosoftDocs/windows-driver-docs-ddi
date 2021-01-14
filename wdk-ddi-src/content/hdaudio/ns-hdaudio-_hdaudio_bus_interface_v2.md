@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_BUS_INTERFACE_V2
+ - PHDAUDIO_BUS_INTERFACE_V2
  - HDAUDIO_BUS_INTERFACE_V2
 ---
 
@@ -222,3 +224,4 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-punregister_notification_event">UnregisterNotificationEvent</a>
+

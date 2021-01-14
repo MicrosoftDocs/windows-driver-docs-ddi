@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PREFERRED_PROVIDERS
+ - PNDIS_WWAN_PREFERRED_PROVIDERS
  - NDIS_WWAN_PREFERRED_PROVIDERS
 ---
 
@@ -195,3 +197,4 @@ Response to
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

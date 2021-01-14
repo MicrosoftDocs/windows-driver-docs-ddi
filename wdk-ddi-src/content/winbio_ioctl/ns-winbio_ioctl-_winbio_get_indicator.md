@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_GET_INDICATOR
+ - PWINBIO_GET_INDICATOR
  - WINBIO_GET_INDICATOR
 ---
 
@@ -77,3 +79,4 @@ Possible values are shown in the following table.
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a>
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
+

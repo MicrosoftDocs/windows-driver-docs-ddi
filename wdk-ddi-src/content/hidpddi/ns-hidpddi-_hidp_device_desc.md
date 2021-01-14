@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hidpddi.h
 api_name:
+ - _HIDP_DEVICE_DESC
+ - PHIDP_DEVICE_DESC
  - HIDP_DEVICE_DESC
 ---
 
@@ -78,3 +80,4 @@ A <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_getcoldesc_dbg
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
+

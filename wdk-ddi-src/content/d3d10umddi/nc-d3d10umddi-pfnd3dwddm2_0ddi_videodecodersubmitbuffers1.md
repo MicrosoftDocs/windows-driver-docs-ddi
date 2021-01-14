@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoDecoderSubmitBuffers1
+ - PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
 product:
  - Windows
 ---
@@ -91,3 +91,4 @@ The <b>pBufferDesc</b> member points to an array of one or more <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>
+

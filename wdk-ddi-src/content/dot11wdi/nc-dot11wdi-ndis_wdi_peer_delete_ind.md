@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiPeerDeleteIndication
+ - NDIS_WDI_PEER_DELETE_IND
 ---
 
 # NDIS_WDI_PEER_DELETE_IND callback function
@@ -103,3 +103,4 @@ In PeerQueueing mode, the TxMgr issues a TxAbort for the peer.  If the <a href="
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

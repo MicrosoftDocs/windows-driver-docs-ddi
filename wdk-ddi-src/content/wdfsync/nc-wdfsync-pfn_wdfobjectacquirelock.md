@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wdfsync.h
 api_name:
- - WdfObjectAcquireLock
+ - PFN_WDFOBJECTACQUIRELOCK
 ---
 
 # WdfObjectAcquireLock callback
@@ -89,3 +89,4 @@ For more information about synchronization locks, see <a href="/windows-hardware
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 <a href="/previous-versions/ff548765(v=vs.85)">WdfObjectReleaseLock</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_WMI_ENUM_ADAPTER
+ - PNDIS_WMI_ENUM_ADAPTER
  - NDIS_WMI_ENUM_ADAPTER
 ---
 
@@ -98,3 +100,4 @@ NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport ada
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

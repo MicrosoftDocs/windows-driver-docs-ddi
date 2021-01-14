@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetValidValues
+ - CWiauPropertyList::SetValidValues
 ---
 
 # CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG) (wiautil.h)
+
 
 ## -description
 
@@ -82,3 +83,4 @@ Specifies the increment between two successive values in the range of values.
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
 [CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong).md)
+

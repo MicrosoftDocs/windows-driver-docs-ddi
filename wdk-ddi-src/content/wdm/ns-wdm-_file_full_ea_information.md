@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_FULL_EA_INFORMATION
+ - PFILE_FULL_EA_INFORMATION
  - FILE_FULL_EA_INFORMATION
 ---
 
@@ -82,3 +84,4 @@ The value(s) associated with each entry follows the <b>EaName</b> array. That is
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - WHEA_GENERIC_ERROR_DATA_ENTRY
+ - _WHEA_GENERIC_ERROR_DATA_ENTRY_V2
+ - PWHEA_GENERIC_ERROR_DATA_ENTRY_V2
+ - WHEA_GENERIC_ERROR_DATA_ENTRY_V2
 ---
 
 # _WHEA_GENERIC_ERROR_DATA_ENTRY_V2 structure
@@ -216,3 +218,4 @@ The <b>Data</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-nt
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_blockstatus">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+

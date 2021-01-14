@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MARKDEVICEASERROR
+ - D3DKMT_MARKDEVICEASERROR
 dev_langs:
  - c++
 ---

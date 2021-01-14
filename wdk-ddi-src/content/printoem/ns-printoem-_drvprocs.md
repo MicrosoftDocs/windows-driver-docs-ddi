@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _DRVPROCS
+ - PDRVPROCS
  - DRVPROCS
 ---
 
@@ -113,3 +115,4 @@ All of the functions pointed to by members of this structure are obsolete. For i
 ### -field DrvUnidriverTextOut
 
 ### -field DrvWriteAbortBuf
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSSOUNDDETECTORPROPERTY
  - KSSOUNDDETECTORPROPERTY
 ---
 
@@ -68,3 +69,4 @@ The EventId is used to identify the different voice assistant/agents such as Cor
 <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 <a href="/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>
+

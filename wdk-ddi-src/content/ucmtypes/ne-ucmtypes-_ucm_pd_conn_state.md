@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_PD_CONN_STATE
  - UCM_PD_CONN_STATE
 ---
 
@@ -70,3 +71,4 @@ Indicates the PD negotiation succeeded.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpdconnectionstatechanged">UcmConnectorPdConnectionStateChanged</a>
+

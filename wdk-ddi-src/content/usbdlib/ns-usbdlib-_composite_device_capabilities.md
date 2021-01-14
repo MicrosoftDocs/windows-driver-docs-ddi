@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbdlib.h
 api_name:
+ - _COMPOSITE_DEVICE_CAPABILITIES
+ - PCOMPOSITE_DEVICE_CAPABILITIES
  - COMPOSITE_DEVICE_CAPABILITIES
 ---
 
@@ -80,3 +82,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a>
+

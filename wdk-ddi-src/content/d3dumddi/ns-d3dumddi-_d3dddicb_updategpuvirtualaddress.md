@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_UPDATEGPUVIRTUALADDRESS
  - D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ---
 
@@ -100,3 +101,4 @@ The consolidated value of the <b>Flags</b> union.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb">pfnUpdateGpuVirtualAddressCb</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceBltEx
  - DXVA_DeinterlaceBltEx
 ---
 
@@ -110,3 +111,4 @@ When a single frame is being created from one field in a sample, as defined in t
 
 
 <a href="/windows-hardware/drivers/display/dxva-deinterlacebobdeviceclass-deinterlacebltex">DeinterlaceBltEx</a>
+

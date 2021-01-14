@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiautil.h
 api_name:
+ - wiauRegGetStrA
  - wiauRegGetStr
 ---
 

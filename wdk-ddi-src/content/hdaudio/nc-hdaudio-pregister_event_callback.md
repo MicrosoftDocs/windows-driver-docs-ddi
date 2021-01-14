@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - RegisterEventCallback
+ - PREGISTER_EVENT_CALLBACK
 ---
 
 # PREGISTER_EVENT_CALLBACK callback function
@@ -136,3 +136,4 @@ The first call parameter is a structure of type <a href="/windows-hardware/drive
  
 
 [hdaudio.h](../hdaudio/index.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - (*MINIPORT_PNP_IRP_HANDLER)
+ - MINIPORT_PNP_IRP
 ---
 
 # MINIPORT_PNP_IRP callback function
@@ -349,3 +349,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismconfigmsixtableentry">NdisMConfigMSIXTableEntry</a>
+

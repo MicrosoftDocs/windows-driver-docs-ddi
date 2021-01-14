@@ -34,6 +34,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_ALLOCATIONINFO2
+ - D3DDDI_ALLOCATIONINFO2
 dev_langs:
  - c++
 ---

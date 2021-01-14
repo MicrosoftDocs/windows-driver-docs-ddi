@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnReclaimAllocations2Cb
+ - PFND3DDDI_RECLAIMALLOCATIONS2CB
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ Note  If this error code is returned, the driver's calling function (typically t
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions">pfnReclaimResources</a>
+

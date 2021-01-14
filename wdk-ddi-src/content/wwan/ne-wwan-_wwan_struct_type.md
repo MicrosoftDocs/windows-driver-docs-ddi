@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_STRUCT_TYPE
+ - PWWAN_STRUCT_TYPE
  - WWAN_STRUCT_TYPE
 ---
 
@@ -235,3 +237,4 @@ The elements are of type <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_ww
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>
+

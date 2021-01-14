@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCmOpenAf
+ - PROTOCOL_CM_OPEN_AF
 ---
 
 # PROTOCOL_CM_OPEN_AF callback function
@@ -220,3 +220,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+

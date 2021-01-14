@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_DEBUG_REPORT_INTERFACE
+ - PDXGK_DEBUG_REPORT_INTERFACE
  - DXGK_DEBUG_REPORT_INTERFACE
 ---
 
@@ -178,3 +180,4 @@ VOID DbgReportComplete(
 ## -remarks
 
 The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+

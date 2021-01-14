@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KBUGCHECK_SECONDARY_DUMP_DATA
+ - PKBUGCHECK_SECONDARY_DUMP_DATA
  - KBUGCHECK_SECONDARY_DUMP_DATA
 ---
 
@@ -84,3 +86,4 @@ For more information about how this structure is used, see <a href="/windows-har
 ## -see-also
 
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

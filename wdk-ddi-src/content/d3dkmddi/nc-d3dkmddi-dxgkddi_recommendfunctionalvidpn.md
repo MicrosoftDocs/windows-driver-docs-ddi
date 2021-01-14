@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRecommendFunctionalVidPn
+ - DXGKDDI_RECOMMENDFUNCTIONALVIDPN
 product:
  - Windows
 ---
@@ -106,3 +106,4 @@ Create a new target mode set and add one target mode to the set. Assign the targ
 For information about how to add paths, add mode sets, assign modes, and pin modes, see <a href="/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.
 
 <i>DxgkDdiRecommendFunctionalVidPn</i> should be made pageable.
+

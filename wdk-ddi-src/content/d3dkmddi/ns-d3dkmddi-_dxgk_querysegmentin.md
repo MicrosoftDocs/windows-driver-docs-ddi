@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_QUERYSEGMENTIN
  - DXGK_QUERYSEGMENTIN
 ---
 
@@ -82,3 +83,4 @@ The DXGK_QUERYSEGMENTIN structure describes relevant information for a memory-se
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

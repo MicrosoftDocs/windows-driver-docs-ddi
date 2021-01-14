@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_AGP_INTERFACE_2
+ - PVIDEO_PORT_AGP_INTERFACE_2
  - VIDEO_PORT_AGP_INTERFACE_2
 ---
 
@@ -130,3 +132,4 @@ This structure is identical to the <a href="/windows-hardware/drivers/ddi/video/
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

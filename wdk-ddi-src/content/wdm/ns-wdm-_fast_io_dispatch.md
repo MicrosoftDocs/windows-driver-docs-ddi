@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FAST_IO_DISPATCH
+ - PFAST_IO_DISPATCH
  - FAST_IO_DISPATCH
 ---
 

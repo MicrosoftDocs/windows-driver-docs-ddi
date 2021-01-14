@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_PACKET_LIST_FWP_INFORMATION0_
  - FWPS_PACKET_LIST_FWP_INFORMATION0
 ---
 
@@ -66,3 +67,4 @@ A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
+

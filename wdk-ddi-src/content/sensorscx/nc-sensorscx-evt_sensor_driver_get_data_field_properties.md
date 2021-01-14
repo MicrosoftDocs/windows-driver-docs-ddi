@@ -37,10 +37,11 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorGetDataFieldProperties
+ - EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES
 ---
 
 # EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function
+
 
 ## -description
 
@@ -73,7 +74,7 @@ This function returns **STATUS_SUCCESS** when completed successfully.
 This function must be implemented by the driver and is called by the class extension.
 
 > [!NOTE]
-> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.  
+> The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.
 
 ## -see-also
 
@@ -82,3 +83,4 @@ This function must be implemented by the driver and is called by the class exten
 [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
 
 [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields)
+

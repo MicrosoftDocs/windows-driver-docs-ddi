@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolIndicateOffloadEvent
+ - INDICATE_OFFLOAD_EVENT_HANDLER
 ---
 
 # INDICATE_OFFLOAD_EVENT_HANDLER callback function
@@ -131,3 +131,4 @@ The implementation of this function for intermediate drivers is to be determined
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>
+

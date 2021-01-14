@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxroothub
  - ucxroothub/ucxroothub
+api_name:
+ - ucxroothub
 ---
 
 # Ucxroothub.h header

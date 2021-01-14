@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetFloatValue
+ - IPortableDeviceValues::GetFloatValue
 ---
 
 # IPortableDeviceValues::GetFloatValue
@@ -115,3 +115,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setfloatvalue">IPortableDeviceValues::SetFloatValue</a>
+

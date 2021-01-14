@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_COMMAND
+ - PNDIS_WWAN_DEVICE_SERVICE_COMMAND
  - NDIS_WWAN_DEVICE_SERVICE_COMMAND
 ---
 
@@ -110,3 +112,4 @@ The device service command.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_command">WWAN_DEVICE_SERVICE_COMMAND</a>
+

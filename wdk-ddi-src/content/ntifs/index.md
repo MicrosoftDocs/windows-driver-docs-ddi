@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - ntifs
  - ntifs/ntifs
+api_name:
+ - ntifs
 ---
 
 # Ntifs.h header

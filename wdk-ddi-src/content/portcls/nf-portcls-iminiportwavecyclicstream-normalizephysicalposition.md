@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveCyclicStream.NormalizePhysicalPosition
+ - IMiniportWaveCyclicStream::NormalizePhysicalPosition
 ---
 
 # IMiniportWaveCyclicStream::NormalizePhysicalPosition

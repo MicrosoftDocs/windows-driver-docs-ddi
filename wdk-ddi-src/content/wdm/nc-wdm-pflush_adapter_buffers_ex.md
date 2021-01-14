@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - FlushAdapterBuffersEx
+ - PFLUSH_ADAPTER_BUFFERS_EX
 ---
 
 # PFLUSH_ADAPTER_BUFFERS_EX callback function
@@ -142,3 +142,4 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

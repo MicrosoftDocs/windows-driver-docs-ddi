@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfrequest.h
 api_name:
- - EvtRequestCancel
+ - EVT_WDF_REQUEST_CANCEL
 ---
 
 # EVT_WDF_REQUEST_CANCEL callback function
@@ -85,3 +85,4 @@ For more information about this callback function, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoRead
+ - EVT_WDF_IO_QUEUE_IO_READ
 ---
 
 # EVT_WDF_IO_QUEUE_IO_READ callback function
@@ -109,3 +109,4 @@ A driver's <i>EvtIoRead</i> callback function should not call the following queu
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
+

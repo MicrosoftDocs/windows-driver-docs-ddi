@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_CHILD_LIST_ITERATOR
+ - PWDF_CHILD_LIST_ITERATOR
  - WDF_CHILD_LIST_ITERATOR
 ---
 
@@ -94,3 +96,4 @@ For more information about child lists, see <a href="/windows-hardware/drivers/w
 
 
 <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a>
+

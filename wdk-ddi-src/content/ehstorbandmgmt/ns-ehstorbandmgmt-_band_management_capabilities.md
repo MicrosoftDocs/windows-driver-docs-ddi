@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _BAND_MANAGEMENT_CAPABILITIES
+ - PBAND_MANAGEMENT_CAPABILITIES
  - BAND_MANAGEMENT_CAPABILITIES
 ---
 
@@ -170,3 +172,4 @@ If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionali
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+

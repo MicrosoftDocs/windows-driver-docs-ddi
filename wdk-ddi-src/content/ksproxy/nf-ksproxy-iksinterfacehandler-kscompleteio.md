@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsInterfaceHandler.KsCompleteIo
+ - IKsInterfaceHandler::KsCompleteIo
 ---
 
 # IKsInterfaceHandler::KsCompleteIo
@@ -87,3 +87,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a>
+

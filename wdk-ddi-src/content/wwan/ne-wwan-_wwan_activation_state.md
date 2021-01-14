@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_ACTIVATION_STATE
+ - PWWAN_ACTIVATION_STATE
  - WWAN_ACTIVATION_STATE
 ---
 
@@ -91,3 +93,4 @@ Miniport drivers use the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context_state">WWAN_SET_CONTEXT_STATE</a>
+

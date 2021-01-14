@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+ - PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
  - FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
 ---
 
@@ -72,3 +74,4 @@ This structure holds data for the feature named "Device Serial Number" by the <i
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

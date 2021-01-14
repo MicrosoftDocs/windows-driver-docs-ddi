@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxRestart
+ - MINIPORT_WDI_RX_RESTART
 ---
 
 # MINIPORT_WDI_RX_RESTART callback function
@@ -79,3 +79,4 @@ The port ID.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

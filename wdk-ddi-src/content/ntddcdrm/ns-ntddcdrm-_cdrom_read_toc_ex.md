@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_READ_TOC_EX
+ - PCDROM_READ_TOC_EX
  - CDROM_READ_TOC_EX
 ---
 
@@ -109,3 +111,4 @@ For further information and definitions of terms used in this reference page and
 [CDROM_TOC_SESSION_DATA](./ns-ntddcdrm-_cdrom_toc_session_data.md)
 
 [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)
+

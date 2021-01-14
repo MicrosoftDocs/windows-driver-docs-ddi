@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_SessionStatistics
+ - PMSiSCSI_SessionStatistics
  - MSiSCSI_SessionStatistics
 ---
 
@@ -112,3 +114,4 @@ It is optional that you implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-sessionstatistics-wmi-class">MSiSCSI_SessionStatistics WMI Class</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_POINTERFLAGS
  - DXGK_POINTERFLAGS
 ---
 
@@ -88,3 +89,4 @@ The driver always specifies a color mouse pointer by using a A8R8G8B8 pixel form
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

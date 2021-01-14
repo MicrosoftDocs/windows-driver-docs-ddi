@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
+ - EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
 ---
 
 # EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function
@@ -71,3 +71,4 @@ The handle framework request object that for an <a href="/windows-hardware/drive
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete">UfxDeviceProprietaryChargerDetectComplete</a>
+

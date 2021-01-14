@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+ - PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
  - USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 ---
 
@@ -106,3 +108,4 @@ A client driver that supports streams associated with a bulk endpoint, uses <b>U
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

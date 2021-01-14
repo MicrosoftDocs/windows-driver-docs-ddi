@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_AUTH_RESPONSE
+ - PNDIS_WWAN_AUTH_RESPONSE
  - NDIS_WWAN_AUTH_RESPONSE
 ---
 
@@ -159,3 +161,4 @@ The <a href="/windows-hardware/drivers/network/ndis-status-wwan-auth-response">N
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
+

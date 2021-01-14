@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCCMDPARAMETERS
+ - LPRILUICCCMDPARAMETERS
 ---
 
 # RILUICCCMDPARAMETERS structure (rilapitypes.h)

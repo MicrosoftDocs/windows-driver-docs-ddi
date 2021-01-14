@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ - PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
  - ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---
 
@@ -146,3 +148,4 @@ A string of **InstanceIDLength** in length which contains a number that uniquely
 ## -see-also
 
 [IOCTL_ACPI_GET_DEVICE_INFORMATION](./ni-acpiioct-ioctl_acpi_get_device_information.md)
+

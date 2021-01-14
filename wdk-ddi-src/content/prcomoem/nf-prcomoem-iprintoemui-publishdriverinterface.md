@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.PublishDriverInterface
+ - IPrintOemUI::PublishDriverInterface
 ---
 
 # IPrintOemUI::PublishDriverInterface
@@ -129,3 +129,4 @@ During processing of each DDI function, UI plug-ins should not mix the use of me
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-getinfo">IPrintOemUI::GetInfo</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugOutputCallbacksWide.Output
+ - IDebugOutputCallbacksWide::Output
 ---
 
 # IDebugOutputCallbacksWide::Output
@@ -68,3 +68,4 @@ The return value is ignored by the engine unless it indicates a remote procedure
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
 For more information about debugger engine output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

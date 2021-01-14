@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _EMULATOR_ACCESS_ENTRY
+ - PEMULATOR_ACCESS_ENTRY
  - EMULATOR_ACCESS_ENTRY
 ---
 
@@ -111,3 +113,4 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
+

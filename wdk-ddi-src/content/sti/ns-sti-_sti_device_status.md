@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sti.h
 api_name:
+ - _STI_DEVICE_STATUS
+ - PSTI_DEVICE_STATUS
  - STI_DEVICE_STATUS
 ---
 
@@ -241,3 +243,4 @@ A device event has occurred.
 ### -field dwPollingInterval
 
 Time value, in milliseconds, indicating how often the device should be polled, if polling is required.
+

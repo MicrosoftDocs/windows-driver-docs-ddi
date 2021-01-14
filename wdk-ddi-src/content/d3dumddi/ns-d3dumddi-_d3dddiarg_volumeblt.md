@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_VOLUMEBLT
  - D3DDDIARG_VOLUMEBLT
 ---
 
@@ -78,3 +79,4 @@ The D3DDDIARG_VOLUMEBLT structure describes parameters for a volume bit-block tr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_volblt">VolBlt</a>
+

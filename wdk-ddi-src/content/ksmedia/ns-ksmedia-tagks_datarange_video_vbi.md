@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_VIDEO_VBI
+ - PKS_DATARANGE_VIDEO_VBI
  - KS_DATARANGE_VIDEO_VBI
 ---
 
@@ -92,3 +94,4 @@ Indicates VBI-specific information for the range of formats being described.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.SetProcessOptions
- - IDebugClient2.SetProcessOptions
- - IDebugClient3.SetProcessOptions
- - IDebugClient4.SetProcessOptions
- - IDebugClient5.SetProcessOptions
+ - IDebugClient4::SetProcessOptions
 ---
 
 # IDebugClient4::SetProcessOptions
@@ -125,3 +121,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-removeprocessoptions">RemoveProcessOptions</a>
+

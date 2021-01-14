@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DATA_SET_RANGE
+ - PDEVICE_DATA_SET_RANGE
  - DEVICE_DATA_SET_RANGE
 ---
 
@@ -74,3 +76,4 @@ See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-ma
 [DEVICE_DSM_INPUT](./ns-ntddstor-_device_manage_data_set_attributes.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

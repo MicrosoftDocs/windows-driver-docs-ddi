@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfWMI.h
 api_name:
- - EvtWmiProviderFunctionControl
+ - EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL
 ---
 
 # EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback function
@@ -111,3 +111,4 @@ For more information about the <i>EvtWmiProviderFunctionControl</i> callback fun
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
  - D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contain
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+

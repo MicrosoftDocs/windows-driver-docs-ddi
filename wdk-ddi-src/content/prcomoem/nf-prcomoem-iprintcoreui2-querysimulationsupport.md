@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreUI2.QuerySimulationSupport
+ - IPrintCoreUI2::QuerySimulationSupport
 ---
 
 # IPrintCoreUI2::QuerySimulationSupport
@@ -164,3 +164,4 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler s
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_simulate_caps_1">SIMULATE_CAPS_1</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnDestroyVideoProcessor
+ - PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
 ---
 
 # PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback function

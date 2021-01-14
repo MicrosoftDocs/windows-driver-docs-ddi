@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONTEXT_LTE_ATTACH_STATE
+ - PWWAN_CONTEXT_LTE_ATTACH_STATE
+ - WWAN_CONTEXT_LTE_ATTACH_STATE
 product:
  - Windows
 ---
@@ -67,3 +69,4 @@ This enumeration is used in the [**WWAN_LTE_ATTACH_STATUS**](ns-wwan-_wwan_lte_a
 [MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
 [**WWAN_LTE_ATTACH_STATUS**](ns-wwan-_wwan_lte_attach_status.md)
+

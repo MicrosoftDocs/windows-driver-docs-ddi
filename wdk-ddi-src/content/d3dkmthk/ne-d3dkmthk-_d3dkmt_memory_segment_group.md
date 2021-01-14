@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MEMORY_SEGMENT_GROUP
+ - D3DKMT_MEMORY_SEGMENT_GROUP
 dev_langs:
  - c++
 ---

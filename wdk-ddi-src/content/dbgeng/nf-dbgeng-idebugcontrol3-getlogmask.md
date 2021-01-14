@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetLogMask
- - IDebugControl2.GetLogMask
- - IDebugControl3.GetLogMask
+ - IDebugControl3::GetLogMask
 ---
 
 # IDebugControl3::GetLogMask
@@ -101,3 +99,4 @@ For more information about log files, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setlogmask">SetLogMask</a>
+

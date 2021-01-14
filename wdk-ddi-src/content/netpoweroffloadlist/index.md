@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netpoweroffloadlist
  - netpoweroffloadlist/netpoweroffloadlist
+api_name:
+ - netpoweroffloadlist
 ---
 
 # Netpoweroffloadlist.h header

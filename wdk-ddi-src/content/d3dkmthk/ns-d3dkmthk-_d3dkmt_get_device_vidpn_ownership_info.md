@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
+ - D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
 dev_langs:
  - c++
 ---

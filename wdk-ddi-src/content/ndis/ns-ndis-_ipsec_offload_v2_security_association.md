@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
  - IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
 
@@ -146,3 +148,4 @@ A
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ipsec_offload_v2_operation">IPSEC_OFFLOAD_V2_OPERATION</a>
+

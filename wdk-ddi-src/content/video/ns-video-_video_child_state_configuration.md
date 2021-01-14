@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_CHILD_STATE_CONFIGURATION
+ - PVIDEO_CHILD_STATE_CONFIGURATION
  - VIDEO_CHILD_STATE_CONFIGURATION
 ---
 
@@ -93,3 +95,4 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_UNKNOWN_TOKEN
+ - PHIDP_UNKNOWN_TOKEN
  - HIDP_UNKNOWN_TOKEN
 ---
 
@@ -76,3 +78,4 @@ HIDP_UNKNOWN_TOKEN is designed to be used with the <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a>
+

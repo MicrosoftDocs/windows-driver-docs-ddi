@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _DOMAIN_CONFIGURATION
+ - PDOMAIN_CONFIGURATION
+ - DOMAIN_CONFIGURATION
 ---
 
 # _DOMAIN_CONFIGURATION structure

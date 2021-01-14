@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_POWER_COMPONENT_FLAGS
  - DXGK_POWER_COMPONENT_FLAGS
 ---
 
@@ -82,3 +83,4 @@ A member in the union that <b>DXGK_POWER_COMPONENT_FLAGS</b> contains that can h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a>
+

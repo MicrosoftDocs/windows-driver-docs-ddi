@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
+ - _INTERNAL_I8042_HOOK_KEYBOARD
+ - PINTERNAL_I8042_HOOK_KEYBOARD
  - INTERNAL_I8042_HOOK_KEYBOARD
 ---
 
@@ -108,3 +110,4 @@ This structure is only used with an <a href="/windows-hardware/drivers/ddi/ntdd8
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_queue_packet">PI8042_QUEUE_PACKET</a>
+

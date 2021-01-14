@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_VOLUME_STANDARD_INFORMATION
+ - PFILTER_VOLUME_STANDARD_INFORMATION
  - FILTER_VOLUME_STANDARD_INFORMATION
 ---
 
@@ -125,3 +127,4 @@ A FILTER_VOLUME_STANDARD_INFORMATION structure can be allocated from paged or no
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumes">FltEnumerateVolumes</a>
+

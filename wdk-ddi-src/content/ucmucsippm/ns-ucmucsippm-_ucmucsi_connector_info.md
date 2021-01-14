@@ -36,6 +36,8 @@ api_location:
  - ucmucsippm.h
 api_name:
  - _UCMUCSI_CONNECTOR_INFO
+ - PUCMUCSI_CONNECTOR_INFO
+ - UCMUCSI_CONNECTOR_INFO
 ---
 
 # _UCMUCSI_CONNECTOR_INFO structure

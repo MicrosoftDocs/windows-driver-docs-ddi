@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
  - D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 ---
 
@@ -58,3 +59,4 @@ The ID of the video present network (VidPN).
 ### -field OutputDuplicationCount
 
 The number of current DDA clients that are attached to the VidPN specified by the <b>VidPnSourceId</b> member.
+

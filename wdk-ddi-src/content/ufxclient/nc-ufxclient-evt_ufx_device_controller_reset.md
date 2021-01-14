@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_CONTROLLER_RESET
+ - EVT_UFX_DEVICE_CONTROLLER_RESET
 ---
 
 # EVT_UFX_DEVICE_CONTROLLER_RESET callback function
@@ -71,3 +71,4 @@ The client driver indicates completion of this event by calling the <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
+

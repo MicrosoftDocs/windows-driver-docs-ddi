@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetBusDriverD3ColdSupport
+ - GET_D3COLD_CAPABILITY
 ---
 
 # GET_D3COLD_CAPABILITY callback function
@@ -97,3 +97,4 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-set_d3cold_support">SetD3ColdSupport</a>
+

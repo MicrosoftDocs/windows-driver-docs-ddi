@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDmaChannel.CopyFrom
+ - IDmaChannel::CopyFrom
 product:
  - Windows
 ---

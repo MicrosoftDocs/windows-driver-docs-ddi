@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+ - PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
  - DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 product:
  - Windows 10 or later.
@@ -114,3 +116,4 @@ typedef struct _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
+

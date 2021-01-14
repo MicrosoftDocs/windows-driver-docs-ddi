@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_MODEM_CONFIG_INFO
+ - PNDIS_WWAN_MODEM_CONFIG_INFO
  - NDIS_WWAN_MODEM_CONFIG_INFO
 ---
 
@@ -187,3 +189,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_conf
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
+

@@ -40,6 +40,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAM_HEADER
  - KSSTREAM_HEADER
 ---
 
@@ -133,3 +134,4 @@ If you are using the [IKsReferenceClock](./nn-ks-iksreferenceclock.md) interface
 ## -see-also
 
 [KSDATAFORMAT](./ns-ks-ksdataformat.md)
+

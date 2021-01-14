@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl2.SendRecvXMLStream
+ - IBidiSpl2::SendRecvXMLStream
 ---
 
 # IBidiSpl2::SendRecvXMLStream
@@ -125,3 +125,4 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 <a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
+

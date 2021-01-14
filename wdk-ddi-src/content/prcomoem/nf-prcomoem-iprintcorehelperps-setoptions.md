@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperPS.SetOptions
+ - IPrintCoreHelperPS::SetOptions
 ---
 
 # IPrintCoreHelperPS::SetOptions
@@ -184,3 +184,4 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getoption">IPrintCoreHelperPS::GetOptions</a>
+

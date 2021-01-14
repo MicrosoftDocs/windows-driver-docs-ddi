@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_CAPTURE_PARAMETERS
+ - PWINBIO_CAPTURE_PARAMETERS
  - WINBIO_CAPTURE_PARAMETERS
 ---
 
@@ -102,3 +104,4 @@ The following code example shows the possible bitmask values for WINBIO_BIR_DATA
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
+

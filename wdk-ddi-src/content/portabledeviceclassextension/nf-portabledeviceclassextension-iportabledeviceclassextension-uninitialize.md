@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceClassExtension.h
 api_name:
- - IPortableDeviceClassExtension.Uninitialize
+ - IPortableDeviceClassExtension::Uninitialize
 ---
 
 # IPortableDeviceClassExtension::Uninitialize
@@ -77,3 +77,4 @@ To be supplied.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledeviceclassextension/nn-portabledeviceclassextension-iportabledeviceclassextension">IPortableDeviceClassExtension Interface</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - dot11wdi
  - dot11wdi/dot11wdi
+api_name:
+ - dot11wdi
 ---
 
 # Dot11Wdi.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - StopMiracastSession
+ - PFN_STOP_MIRACAST_SESSION
 ---
 
 # PFN_STOP_MIRACAST_SESSION callback function
@@ -83,3 +83,4 @@ The operating system guarantees that only one of the <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session">StartMiracastSession</a>
+

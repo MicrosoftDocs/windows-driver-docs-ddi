@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUni.DrvGetStandardVariable
+ - IPrintOemDriverUni::DrvGetStandardVariable
 ---
 
 # IPrintOemDriverUni::DrvGetStandardVariable
@@ -112,3 +112,4 @@ The method is not implemented.
 </td>
 </tr>
 </table>
+

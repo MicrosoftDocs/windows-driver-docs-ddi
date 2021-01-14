@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_CAN_SUSTAIN_AP_PARAMETERS
+ - PDOT11_CAN_SUSTAIN_AP_PARAMETERS
  - DOT11_CAN_SUSTAIN_AP_PARAMETERS
 product:
  - Windows 10 or later.
@@ -138,3 +140,4 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

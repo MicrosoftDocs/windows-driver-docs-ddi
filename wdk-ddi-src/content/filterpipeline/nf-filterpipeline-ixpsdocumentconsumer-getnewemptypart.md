@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IXpsDocumentConsumer.GetNewEmptyPart
+ - IXpsDocumentConsumer::GetNewEmptyPart
 ---
 
 # IXpsDocumentConsumer::GetNewEmptyPart
@@ -153,3 +153,4 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ixpsdocumentconsumer">IXpsDocumentConsumer</a>
+

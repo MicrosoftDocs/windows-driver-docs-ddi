@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDICB_LOCKFLAGS
  - D3DDDICB_LOCKFLAGS
 ---
 
@@ -219,3 +220,4 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
+

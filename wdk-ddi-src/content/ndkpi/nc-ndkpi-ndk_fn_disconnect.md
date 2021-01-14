@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkDisconnect
+ - NDK_FN_DISCONNECT
 ---
 
 # NDK_FN_DISCONNECT callback function
@@ -141,3 +141,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
+

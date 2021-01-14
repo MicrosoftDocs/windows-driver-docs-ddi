@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_RATE_SET
+ - PDOT11_RATE_SET
  - DOT11_RATE_SET
 product:
  - Windows 10 or later.
@@ -89,3 +91,4 @@ The values that are specified in the
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-operational-rate-set">OID_DOT11_OPERATIONAL_RATE_SET</a>
+

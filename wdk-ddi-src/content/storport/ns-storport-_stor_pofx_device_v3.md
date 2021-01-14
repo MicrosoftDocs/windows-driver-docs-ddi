@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_POFX_DEVICE_V3
+ - PSTOR_POFX_DEVICE_V3
  - STOR_POFX_DEVICE_V3
 ---
 
@@ -196,3 +198,4 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxidlecomponent">StorPortPoFxIdleComponent</a>
+

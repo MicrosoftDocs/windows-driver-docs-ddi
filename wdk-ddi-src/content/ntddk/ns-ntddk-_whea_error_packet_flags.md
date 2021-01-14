@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_PACKET_FLAGS
+ - PWHEA_ERROR_PACKET_FLAGS
  - WHEA_ERROR_PACKET_FLAGS
 ---
 
@@ -112,3 +114,4 @@ The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by usin
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
+

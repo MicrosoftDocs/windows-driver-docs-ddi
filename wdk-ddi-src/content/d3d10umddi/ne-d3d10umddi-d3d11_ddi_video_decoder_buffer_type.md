@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
+ - D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE
  - D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE
 ---
 
@@ -98,3 +99,4 @@ Note that the <b>D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</b> and <b>D3D11_1DDI_VIDEO
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createresource">D3D11DDIARG_CREATERESOURCE</a>
+

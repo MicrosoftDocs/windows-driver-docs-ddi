@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScript.QueryInterface
+ - IDataModelScript::QueryInterface
 ---
 
 # IDataModelScript::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDataModelScript interface](nn-dbgmodel-idatamodelscript.md)
+

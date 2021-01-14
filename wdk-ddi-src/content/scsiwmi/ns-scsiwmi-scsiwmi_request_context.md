@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
+ - PSCSIWMI_REQUEST_CONTEXT
  - SCSIWMI_REQUEST_CONTEXT
 ---
 
@@ -103,3 +104,4 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

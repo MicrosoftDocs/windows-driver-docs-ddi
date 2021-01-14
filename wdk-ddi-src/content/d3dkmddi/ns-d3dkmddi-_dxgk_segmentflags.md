@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SEGMENTFLAGS
  - DXGK_SEGMENTFLAGS
 ---
 
@@ -252,3 +253,4 @@ The following are common combinations of member values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_PortEvent
+ - PMSFC_PortEvent
  - MSFC_PortEvent
 ---
 
@@ -68,3 +70,4 @@ Contains the worldwide name that indicates the port for which the event occurred
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
+

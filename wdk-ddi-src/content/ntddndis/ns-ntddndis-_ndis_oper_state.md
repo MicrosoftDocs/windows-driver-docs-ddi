@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_OPER_STATE
+ - PNDIS_OPER_STATE
  - NDIS_OPER_STATE
 ---
 
@@ -133,3 +135,4 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 <a href="/windows/win32/api/ifdef/ne-ifdef-net_if_oper_status">NET_IF_OPER_STATUS</a>
+

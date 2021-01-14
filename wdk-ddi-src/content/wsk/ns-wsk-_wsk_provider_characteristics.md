@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_PROVIDER_CHARACTERISTICS
+ - PWSK_PROVIDER_CHARACTERISTICS
  - WSK_PROVIDER_CHARACTERISTICS
 ---
 
@@ -131,3 +133,4 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
+

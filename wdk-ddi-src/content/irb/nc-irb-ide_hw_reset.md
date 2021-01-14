@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwReset
+ - IDE_HW_RESET
 ---
 
 # IDE_HW_RESET callback function
@@ -64,3 +64,4 @@ A pointer to the channel extension.
 The <b><i>IdeHwReset</i></b> routine should complete all pending requests and reset the indicated channel.
 
 <b><i>IdeHwReset</i></b> can be called even if the miniport driver is not ready for another request.
+

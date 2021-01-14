@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IAllocatorMXF.GetBuffer
+ - IAllocatorMXF::GetBuffer
 ---
 
 # IAllocatorMXF::GetBuffer
@@ -76,3 +76,4 @@ The size of the buffer can determined by calling <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffersize">IAllocatorMXF::GetBufferSize</a>
+

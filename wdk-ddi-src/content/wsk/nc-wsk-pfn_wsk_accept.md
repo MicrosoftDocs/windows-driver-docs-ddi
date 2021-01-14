@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskAccept
+ - PFN_WSK_ACCEPT
 ---
 
 # PFN_WSK_ACCEPT callback function
@@ -275,3 +275,4 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

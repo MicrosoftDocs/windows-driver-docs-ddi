@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _tagKSJACK_SINK_INFORMATION
+ - PKSJACK_SINK_INFORMATION
  - KSJACK_SINK_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ Reserved.
 ## -see-also
 
 [LUID](../igpupvdev/ns-igpupvdev-_luid.md)
+

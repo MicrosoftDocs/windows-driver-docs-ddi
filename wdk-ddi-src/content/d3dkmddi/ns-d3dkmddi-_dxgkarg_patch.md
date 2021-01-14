@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_PATCH
  - DXGKARG_PATCH
 ---
 
@@ -218,3 +219,4 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

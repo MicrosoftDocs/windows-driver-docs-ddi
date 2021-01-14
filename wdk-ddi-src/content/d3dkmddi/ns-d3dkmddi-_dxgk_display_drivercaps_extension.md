@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_DISPLAY_DRIVERCAPS_EXTENSION
+ - DXGK_DISPLAY_DRIVERCAPS_EXTENSION
 dev_langs:
  - c++
 ---

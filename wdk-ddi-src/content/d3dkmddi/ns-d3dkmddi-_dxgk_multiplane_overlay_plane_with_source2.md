@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
  - DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
 ---
 

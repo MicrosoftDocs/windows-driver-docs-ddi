@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxReleaseFrameIndication
+ - NDIS_WDI_TX_RELEASE_FRAMES_IND
 ---
 
 # NDIS_WDI_TX_RELEASE_FRAMES_IND callback function
@@ -121,3 +121,4 @@ The TxMgr may return a list of <a href="/windows-hardware/drivers/ddi/ndis/ns-nd
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a>
+

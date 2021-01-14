@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetNumDescriptors
+ - DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
 product:
  - Windows
 ---
@@ -68,3 +68,4 @@ The <b>pfnGetNumDescriptors</b> function returns one of the following values.
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET|The handle supplied in hMonitorDescriptorSet was invalid.|
+

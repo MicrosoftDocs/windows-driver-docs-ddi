@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_MEMORY
  - GETINFO_MEMORY
 ---
 
@@ -66,3 +67,4 @@ To obtain Unidrv's calculation of the amount of printer memory currently availab
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_MPDP_STATE
+ - PNDIS_WWAN_MPDP_STATE
+ - NDIS_WWAN_MPDP_STATE
 ---
 
 # _NDIS_WWAN_MPDP_STATE structure
@@ -78,3 +80,4 @@ This structure is used in an [NDIS_STATUS_WWAN_MPDP_STATE](/windows-hardware/dri
 [NDIS_STATUS_WWAN_MPDP_STATE](/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state)
 
 [OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp)
+

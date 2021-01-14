@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
+ - PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
  - SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 ---
 
@@ -76,3 +78,4 @@ Indicates the value of the generation code
 
 Contains a <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a> for each
 download microcode operation where status is being reported.
+

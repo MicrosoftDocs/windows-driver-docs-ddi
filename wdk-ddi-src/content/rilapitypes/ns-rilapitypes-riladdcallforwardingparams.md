@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILADDCALLFORWARDINGPARAMS
+ - LPRILADDCALLFORWARDINGPARAMS
 ---
 
 # RILADDCALLFORWARDINGPARAMS structure (rilapitypes.h)

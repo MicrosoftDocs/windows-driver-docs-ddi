@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_IHV_UI_REQUEST
+ - PDOT11EXT_IHV_UI_REQUEST
  - DOT11EXT_IHV_UI_REQUEST
 ---
 
@@ -118,3 +120,4 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
+

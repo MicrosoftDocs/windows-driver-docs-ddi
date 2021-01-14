@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - _PRINTER_NOTIFY_INIT
+ - PPRINTER_NOTIFY_INIT
  - PRINTER_NOTIFY_INIT
 ---
 

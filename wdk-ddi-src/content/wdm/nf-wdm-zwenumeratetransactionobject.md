@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwEnumerateTransactionObject
- - NtEnumerateTransactionObject
 ---
 
 # ZwEnumerateTransactionObject function
@@ -272,7 +271,6 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor">KTMOBJECT_CURSOR</a>
@@ -284,3 +282,4 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 
 <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+

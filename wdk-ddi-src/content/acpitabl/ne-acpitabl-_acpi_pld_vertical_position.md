@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_VERTICAL_POSITION
+ - PACPI_PLD_VERTICAL_POSITION
+ - ACPI_PLD_VERTICAL_POSITION
 ---
 
 # _ACPI_PLD_VERTICAL_POSITION enumeration
+
 
 ## -description
 
@@ -57,3 +60,4 @@ Value is 2.
 ## -remarks
 
 ## -see-also
+

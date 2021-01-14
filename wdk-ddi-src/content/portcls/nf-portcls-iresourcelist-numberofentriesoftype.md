@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.NumberOfEntriesOfType
+ - IResourceList::NumberOfEntriesOfType
 ---
 
 # IResourceList::NumberOfEntriesOfType
@@ -69,3 +69,4 @@ For each resource type, a macro is defined to call this method. See <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
+

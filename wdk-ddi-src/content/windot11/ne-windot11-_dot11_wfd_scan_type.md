@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_SCAN_TYPE
+ - PDOT11_WFD_SCAN_TYPE
  - DOT11_WFD_SCAN_TYPE
 product:
  - Windows 10 or later.
@@ -88,3 +90,4 @@ The system will set only one scan type at a time. The driver should use this set
 
 
 <a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
+

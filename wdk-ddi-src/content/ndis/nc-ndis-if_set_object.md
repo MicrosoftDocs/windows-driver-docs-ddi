@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - IFP_SET_OBJECT
+ - IF_SET_OBJECT
 product:
  - Windows
 ---
@@ -150,3 +150,4 @@ NDIS calls
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
+

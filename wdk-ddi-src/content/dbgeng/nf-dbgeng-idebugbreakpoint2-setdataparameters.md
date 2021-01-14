@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetDataParameters
- - IDebugBreakpoint2.SetDataParameters
+ - IDebugBreakpoint2::SetDataParameters
 ---
 
 # IDebugBreakpoint2::SetDataParameters
@@ -97,3 +96,4 @@ This method can also return other error values.  For more information, see <a hr
 ## -remarks
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

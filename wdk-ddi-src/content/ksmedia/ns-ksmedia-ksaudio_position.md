@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_POSITION
  - KSAUDIO_POSITION
 ---
 
@@ -110,3 +111,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/audio-positio
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
+

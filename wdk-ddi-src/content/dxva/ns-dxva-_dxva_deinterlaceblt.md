@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceBlt
  - DXVA_DeinterlaceBlt
 ---
 
@@ -98,3 +99,4 @@ When creating a single frame from one field in a sample, as defined in the <a hr
 
 
 <a href="/windows-hardware/drivers/display/dxva-deinterlacebobdeviceclass-deinterlaceblt">DeinterlaceBlt</a>
+

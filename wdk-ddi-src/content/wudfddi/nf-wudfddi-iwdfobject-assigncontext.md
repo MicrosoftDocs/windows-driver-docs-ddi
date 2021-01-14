@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFObject.AssignContext
+ - IWDFObject::AssignContext
 ---
 
 # IWDFObject::AssignContext
@@ -99,3 +99,4 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-retrievecontext">IWDFObject::RetrieveContext</a>
+

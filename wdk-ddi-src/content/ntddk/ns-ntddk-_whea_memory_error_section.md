@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_MEMORY_ERROR_SECTION
+ - PWHEA_MEMORY_ERROR_SECTION
  - WHEA_MEMORY_ERROR_SECTION
 ---
 
@@ -202,3 +204,4 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section_validbits">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
+

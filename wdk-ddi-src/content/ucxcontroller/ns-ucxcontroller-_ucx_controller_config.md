@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_CONFIG
+ - PUCX_CONTROLLER_CONFIG
  - UCX_CONTROLLER_CONFIG
 ---
 
@@ -140,3 +142,4 @@ Do not use.
 ### -field Reserved7
 
 Do not use.
+

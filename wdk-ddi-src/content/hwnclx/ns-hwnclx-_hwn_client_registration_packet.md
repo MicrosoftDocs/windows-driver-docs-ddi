@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hwnclx.h
 api_name:
+ - _HWN_CLIENT_REGISTRATION_PACKET
+ - PHWN_CLIENT_REGISTRATION_PACKET
  - HWN_CLIENT_REGISTRATION_PACKET
 ---
 
@@ -124,3 +126,4 @@ typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
 
 
 <a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
+

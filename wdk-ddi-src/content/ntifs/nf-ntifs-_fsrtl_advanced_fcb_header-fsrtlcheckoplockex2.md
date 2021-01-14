@@ -34,7 +34,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
- - FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2
+ - FsRtlCheckOplockEx2
 product:
  - Windows
 ---

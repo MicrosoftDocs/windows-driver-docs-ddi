@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvDeinitAdapter
+ - DOT11EXTIHV_DEINIT_ADAPTER
 ---
 
 # DOT11EXTIHV_DEINIT_ADAPTER callback
@@ -99,3 +99,4 @@ For more information about operations that are performed when the WLAN adapter i
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

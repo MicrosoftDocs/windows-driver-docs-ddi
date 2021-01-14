@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_BLT
  - D3DDDIARG_BLT
 ---
 
@@ -100,3 +101,4 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILVERSIONPARAMS
+ - LPRILVERSIONPARAMS
 ---
 
 # RILVERSIONPARAMS structure (ntddrilapitypes.h)

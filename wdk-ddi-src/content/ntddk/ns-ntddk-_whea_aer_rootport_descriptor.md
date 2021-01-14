@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_AER_ROOTPORT_DESCRIPTOR
+ - PWHEA_AER_ROOTPORT_DESCRIPTOR
  - WHEA_AER_ROOTPORT_DESCRIPTOR
 ---
 
@@ -171,3 +173,4 @@ A WHEA_AER_ROOTPORT_DESCRIPTOR structure is contained within the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
+

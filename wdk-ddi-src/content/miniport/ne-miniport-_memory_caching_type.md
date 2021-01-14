@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _MEMORY_CACHING_TYPE
  - MEMORY_CACHING_TYPE
 ---
 
@@ -104,3 +105,4 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
+

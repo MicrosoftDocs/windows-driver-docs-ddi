@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.CreateRemoteInterface
+ - IWDFDevice2::CreateRemoteInterface
 ---
 
 # IWDFDevice2::CreateRemoteInterface
@@ -144,7 +144,6 @@ CMyDevice::OnRemoteInterfaceArrival(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -156,3 +155,4 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
+

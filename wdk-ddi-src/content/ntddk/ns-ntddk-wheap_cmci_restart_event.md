@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEAP_CMCI_RESTART_EVENT
+ - PWHEAP_CMCI_RESTART_EVENT
  - WHEAP_CMCI_RESTART_EVENT
 f1_keywords:
  - _WHEAP_CMCI_RESTART_EVENT

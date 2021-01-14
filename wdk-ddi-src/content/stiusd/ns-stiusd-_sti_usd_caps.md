@@ -41,6 +41,8 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
+ - _STI_USD_CAPS
+ - PSTI_USD_CAPS
  - STI_USD_CAPS
 ---
 
@@ -76,3 +78,4 @@ The driver supports asynchronous device notifications.
 #### STI_USD_GENCAP_OPEN_DEVICE_FOR_ME
 
 <i>Not used.</i>
+

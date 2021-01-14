@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
  - DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 ---
 
@@ -66,3 +67,4 @@ Indicates that a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtinvalidateactivevidpn">D3DKMTInvalidateActiveVidPN</a>
+

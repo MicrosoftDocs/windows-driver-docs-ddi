@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_SERVICE_INHERITANCE_TYPES
  - WPD_SERVICE_INHERITANCE_TYPES
 ---
 

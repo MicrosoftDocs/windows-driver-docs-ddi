@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_MBctrl_I_HostResidDiff_1
  - DXVA_MBctrl_I_HostResidDiff_1
 ---
 
@@ -112,3 +113,4 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
+

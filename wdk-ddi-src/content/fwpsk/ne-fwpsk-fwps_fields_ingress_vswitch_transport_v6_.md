@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_INGRESS_VSWITCH_TRANSPORT_V6_
  - FWPS_FIELDS_INGRESS_VSWITCH_TRANSPORT_V6
 ---
 
@@ -120,3 +121,4 @@ The maximum value for this enumeration. This value might change in future versio
 #### - FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V6_FLAGS
 
 The virtual switch ingress flags field.
+

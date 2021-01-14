@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _L2CAP_CONFIG_RANGE
+ - PL2CAP_CONFIG_RANGE
  - L2CAP_CONFIG_RANGE
 ---
 
@@ -99,3 +101,4 @@ A profile driver negotiates these values separately from the flush timeout setti
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
+

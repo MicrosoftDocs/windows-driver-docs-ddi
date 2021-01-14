@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_CONTROLLER_CONFIGURATION
+ - PMPIO_CONTROLLER_CONFIGURATION
  - MPIO_CONTROLLER_CONFIGURATION
 ---
 

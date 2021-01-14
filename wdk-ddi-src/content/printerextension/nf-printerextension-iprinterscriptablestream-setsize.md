@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptableStream.SetSize
+ - IPrinterScriptableStream::SetSize
 ---
 
 # IPrinterScriptableStream::SetSize
@@ -61,3 +61,4 @@ This method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
+

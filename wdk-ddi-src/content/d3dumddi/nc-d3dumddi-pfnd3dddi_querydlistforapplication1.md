@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - QueryDListForApplication
+ - PFND3DDDI_QUERYDLISTFORAPPLICATION1
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ For more general information on hybrid systems, see <a href="/windows-hardware/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
+

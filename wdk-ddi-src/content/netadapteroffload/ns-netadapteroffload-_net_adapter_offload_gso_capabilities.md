@@ -34,6 +34,7 @@ api_location:
  - netadapteroffload.h
 api_name:
  - _NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES
+ - NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES
 product:
  - Windows
 ---

@@ -12,6 +12,8 @@ tech.root: dtf
 f1_keywords:
  - wdtfinterfaces
  - wdtfinterfaces/wdtfinterfaces
+api_name:
+ - wdtfinterfaces
 ---
 
 # Wdtfinterfaces.h header

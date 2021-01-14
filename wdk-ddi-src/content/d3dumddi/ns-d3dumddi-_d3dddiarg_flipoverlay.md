@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_FLIPOVERLAY
  - D3DDDIARG_FLIPOVERLAY
 ---
 
@@ -74,3 +75,4 @@ The D3DDDIARG_FLIPOVERLAY structure describes a new resource to display on a giv
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_flipoverlay">FlipOverlay</a>
+

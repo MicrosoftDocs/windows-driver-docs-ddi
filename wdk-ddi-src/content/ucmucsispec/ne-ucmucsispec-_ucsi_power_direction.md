@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_POWER_DIRECTION
+ - UCSI_POWER_DIRECTION
 ---
 
 # _UCSI_POWER_DIRECTION enumeration

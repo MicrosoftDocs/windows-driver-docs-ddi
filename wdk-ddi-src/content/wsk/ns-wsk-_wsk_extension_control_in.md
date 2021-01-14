@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_EXTENSION_CONTROL_IN
+ - PWSK_EXTENSION_CONTROL_IN
  - WSK_EXTENSION_CONTROL_IN
 ---
 
@@ -93,3 +95,4 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+

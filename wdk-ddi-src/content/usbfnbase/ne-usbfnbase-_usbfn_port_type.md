@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_PORT_TYPE
+ - PUSBFN_PORT_TYPE
  - USBFN_PORT_TYPE
 ---
 
@@ -84,3 +86,4 @@ The maximum value of the enumeration.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
+

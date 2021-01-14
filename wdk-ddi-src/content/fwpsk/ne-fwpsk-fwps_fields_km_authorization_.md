@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_KM_AUTHORIZATION_
  - FWPS_FIELDS_KM_AUTHORIZATION
 ---
 
@@ -88,3 +89,4 @@ The Network Access Protection (NAP) certificate context.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

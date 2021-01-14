@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_NET_BUFFER_LIST_INFO
+ - PNDIS_NET_BUFFER_LIST_INFO
  - NDIS_NET_BUFFER_LIST_INFO
 ---
 
@@ -368,3 +370,4 @@ Use these enumeration values with the
 <a href="/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
 
 <a href="/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgeneratepartialcancelid">NdisGeneratePartialCancelId</a>
+

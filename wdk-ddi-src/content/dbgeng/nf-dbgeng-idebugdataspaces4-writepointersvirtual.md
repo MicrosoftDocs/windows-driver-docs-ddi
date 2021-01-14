@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.WritePointersVirtual
- - IDebugDataSpaces2.WritePointersVirtual
- - IDebugDataSpaces3.WritePointersVirtual
- - IDebugDataSpaces4.WritePointersVirtual
+ - IDebugDataSpaces4::WritePointersVirtual
 ---
 
 # IDebugDataSpaces4::WritePointersVirtual
@@ -116,3 +113,4 @@ If the target uses 32-bit pointers, this method casts the specified  64-bit valu
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
+

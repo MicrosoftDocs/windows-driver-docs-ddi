@@ -29,6 +29,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_SAE_INDICATION_TYPE
  - WDI_SAE_INDICATION_TYPE
 ---
 
@@ -70,3 +71,4 @@ This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_N
 [WPA3-SAE Authentication](/windows-hardware/drivers/network/wpa3-sae-authentication)
 
 [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)
+

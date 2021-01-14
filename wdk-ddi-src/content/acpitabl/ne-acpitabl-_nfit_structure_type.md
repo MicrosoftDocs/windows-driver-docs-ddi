@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _NFIT_STRUCTURE_TYPE
+ - PNFIT_STRUCTURE_TYPE
+ - NFIT_STRUCTURE_TYPE
 ---
 
 # _NFIT_STRUCTURE_TYPE enumeration
+
 
 ## -description
 
@@ -79,3 +82,4 @@ Value is 7.
 ## -remarks
 
 ## -see-also
+

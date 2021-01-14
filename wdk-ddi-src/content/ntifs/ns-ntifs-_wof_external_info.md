@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _WOF_EXTERNAL_INFO
+ - PWOF_EXTERNAL_INFO
  - WOF_EXTERNAL_INFO
 ---
 
@@ -68,3 +70,4 @@ The identifier of the data source provider. Valid provider identifiers  are WOF_
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>
+

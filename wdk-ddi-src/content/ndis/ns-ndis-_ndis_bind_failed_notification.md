@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_BIND_FAILED_NOTIFICATION
+ - PNDIS_BIND_FAILED_NOTIFICATION
  - NDIS_BIND_FAILED_NOTIFICATION
 ---
 
@@ -67,3 +69,4 @@ The
 
 The NDIS network interface
      name (<i>ifName</i> in RFC 2863) of the miniport adapter.
+

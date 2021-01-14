@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ExTimerDeleteCallback
+ - EXT_DELETE_CALLBACK
 ---
 
 # EXT_DELETE_CALLBACK callback function
@@ -101,3 +101,4 @@ The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To mo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
+

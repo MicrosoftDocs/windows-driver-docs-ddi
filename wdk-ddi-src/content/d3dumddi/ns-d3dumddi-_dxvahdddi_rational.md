@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_RATIONAL
  - DXVAHDDDI_RATIONAL
 ---
 

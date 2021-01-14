@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaTransaction.h
 api_name:
- - EvtDmaTransactionDmaTransferComplete
+ - EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
 ---
 
 # EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function
@@ -304,3 +304,4 @@ The <b>EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE</b> function type is define
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback">WdfDmaTransactionSetTransferCompleteCallback</a>
+

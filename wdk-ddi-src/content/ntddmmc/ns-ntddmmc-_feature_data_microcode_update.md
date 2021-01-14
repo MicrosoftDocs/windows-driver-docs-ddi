@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_MICROCODE_UPDATE
+ - PFEATURE_DATA_MICROCODE_UPDATE
  - FEATURE_DATA_MICROCODE_UPDATE
 ---
 
@@ -76,3 +78,4 @@ When queried, devices supporting this feature must return the information indica
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

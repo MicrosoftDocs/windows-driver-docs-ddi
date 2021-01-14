@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IFixedPage.GetWriteStream
+ - IFixedPage::GetWriteStream
 ---
 
 # IFixedPage::GetWriteStream

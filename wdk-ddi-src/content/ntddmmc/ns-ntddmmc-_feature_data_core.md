@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CORE
+ - PFEATURE_DATA_CORE
  - FEATURE_DATA_CORE
 ---
 
@@ -80,3 +82,4 @@ Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This featu
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

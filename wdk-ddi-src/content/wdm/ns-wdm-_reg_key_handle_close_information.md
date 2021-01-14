@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_KEY_HANDLE_CLOSE_INFORMATION
+ - PREG_KEY_HANDLE_CLOSE_INFORMATION
  - REG_KEY_HANDLE_CLOSE_INFORMATION
 ---
 
@@ -84,3 +86,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
+

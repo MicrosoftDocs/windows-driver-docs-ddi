@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnQueryAdapterInfoCb
+ - PFND3DDDI_QUERYADAPTERINFOCB
 product:
  - Windows
 ---
@@ -133,3 +133,4 @@ The following code example shows how to retrieve graphics adapter information.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

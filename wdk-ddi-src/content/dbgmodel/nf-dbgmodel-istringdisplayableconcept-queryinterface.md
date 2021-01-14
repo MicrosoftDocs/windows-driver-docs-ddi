@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IStringDisplayableConcept.QueryInterface
+ - IStringDisplayableConcept::QueryInterface
 ---
 
 # IStringDisplayableConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IStringDisplayableConcept interface](nn-dbgmodel-istringdisplayableconcept.md)
+

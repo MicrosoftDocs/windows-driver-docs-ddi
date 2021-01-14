@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_STRING_DESCRIPTOR
+ - PUSB_STRING_DESCRIPTOR
  - USB_STRING_DESCRIPTOR
 ---
 
@@ -83,3 +85,4 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+

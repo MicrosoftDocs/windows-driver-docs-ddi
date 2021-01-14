@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_MEDIA_ID
+ - PAACS_MEDIA_ID
  - AACS_MEDIA_ID
 ---
 
@@ -68,3 +70,4 @@ Clients retrieve the AACS certificate with an <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_media_id">IOCTL_AACS_READ_MEDIA_ID</a>
+

@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwFlushBuffersFileEx
  - NtFlushBuffersFileEx
 ---
 
@@ -110,3 +109,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtCreateFile**](./nf-ntifs-ntcreatefile.md)
 
 [**NtOpenFile**](./nf-ntifs-ntopenfile.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_ELEMENT
+ - PCHANGER_ELEMENT
  - CHANGER_ELEMENT
 ---
 
@@ -134,3 +136,4 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioTransmitDrainFifo
+ - EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback function
@@ -121,3 +121,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO</b> function type is defined in the Se
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitdrainfifocomplete">SerCx2PioTransmitDrainFifoComplete</a>
+

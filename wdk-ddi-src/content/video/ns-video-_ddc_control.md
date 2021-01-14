@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _DDC_CONTROL
+ - PDDC_CONTROL
  - DDC_CONTROL
 ---
 
@@ -84,3 +86,4 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>
+

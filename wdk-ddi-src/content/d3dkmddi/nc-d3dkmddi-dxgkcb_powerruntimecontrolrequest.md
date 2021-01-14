@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbPowerRuntimeControlRequest
+ - DXGKCB_POWERRUNTIMECONTROLREQUEST
 ---
 
 # DXGKCB_POWERRUNTIMECONTROLREQUEST callback function
@@ -144,3 +144,4 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

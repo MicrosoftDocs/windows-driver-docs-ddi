@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_LINK_SPEED
+ - PNDIS_LINK_SPEED
  - NDIS_LINK_SPEED
 ---
 
@@ -76,3 +78,4 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>
+

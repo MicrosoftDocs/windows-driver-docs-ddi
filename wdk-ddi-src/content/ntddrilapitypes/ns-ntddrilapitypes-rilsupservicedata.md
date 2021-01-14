@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSUPSERVICEDATA
+ - LPRILSUPSERVICEDATA
 ---
 
 # RILSUPSERVICEDATA structure (ntddrilapitypes.h)

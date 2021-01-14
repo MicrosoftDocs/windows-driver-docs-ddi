@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARALLEL_PORT_INFORMATION
+ - PPARALLEL_PORT_INFORMATION
  - PARALLEL_PORT_INFORMATION
 ---
 
@@ -136,3 +138,4 @@ For more information, see <a href="/previous-versions/ff544223(v=vs.85)">Obtaini
 
 
 <a href="..\parallel\nc-parallel-pparallel_query_waiters_routine.md">PPARALLEL_QUERY_WAITERS_ROUTINE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxDequeueIndication
+ - NDIS_WDI_TX_DEQUEUE_IND
 ---
 
 # NDIS_WDI_TX_DEQUEUE_IND callback function
@@ -113,3 +113,4 @@ The TxMgr may return a list of <a href="/windows-hardware/drivers/ddi/ndis/ns-nd
 
 
 <a href="/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>
+

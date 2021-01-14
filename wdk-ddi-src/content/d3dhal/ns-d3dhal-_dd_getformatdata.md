@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETFORMATDATA
  - DD_GETFORMATDATA
 ---
 
@@ -84,3 +85,4 @@ When processing this <b>GetDriverInfo2</b> request the driver should read the <b
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

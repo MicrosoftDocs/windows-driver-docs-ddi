@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - (*PTM_RM_NOTIFICATION)
+ - PTM_RM_NOTIFICATION
 ---
 
 # PTM_RM_NOTIFICATION callback function
@@ -121,3 +121,4 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntgetnotificationresourcemanager">ZwGetNotificationResourceManager</a>
+

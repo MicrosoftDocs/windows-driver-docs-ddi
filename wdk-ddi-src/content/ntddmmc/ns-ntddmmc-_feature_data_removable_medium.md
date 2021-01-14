@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_REMOVABLE_MEDIUM
+ - PFEATURE_DATA_REMOVABLE_MEDIUM
  - FEATURE_DATA_REMOVABLE_MEDIUM
 ---
 
@@ -102,3 +104,4 @@ This structure holds data for the feature named "Removable Medium" by the <i>MMC
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

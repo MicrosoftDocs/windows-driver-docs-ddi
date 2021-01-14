@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddscsi.h
 api_name:
+ - _HYBRID_INFORMATION
+ - PHYBRID_INFORMATION
  - HYBRID_INFORMATION
 ---
 
@@ -274,3 +276,4 @@ An array of priority level descriptors. The number of descriptors present in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_hybrid">IOCTL_SCSI_MINIPORT_HYBRID</a>
+

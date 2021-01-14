@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects2.GetImplicitProcessDataOffset
- - IDebugSystemObjects3.GetImplicitProcessDataOffset
- - IDebugSystemObjects4.GetImplicitProcessDataOffset
+ - IDebugSystemObjects3::GetImplicitProcessDataOffset
 ---
 
 # IDebugSystemObjects3::GetImplicitProcessDataOffset
@@ -85,3 +83,4 @@ In kernel-mode debugging, the data structure is the KPROCESS structure for the p
 In user-mode debugging, the data structure is the process environment block (PEB) for the process.
 
 For more information about the implicit process, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on the KPROCESS and PEB structures, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

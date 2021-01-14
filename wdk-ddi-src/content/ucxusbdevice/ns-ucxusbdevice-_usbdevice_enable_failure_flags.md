@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_ENABLE_FAILURE_FLAGS
  - USBDEVICE_ENABLE_FAILURE_FLAGS
 ---
 
@@ -70,3 +71,4 @@ Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_enable">USBDEVICE_ENABLE</a>
+

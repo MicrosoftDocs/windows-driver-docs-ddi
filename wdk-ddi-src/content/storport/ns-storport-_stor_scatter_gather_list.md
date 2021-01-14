@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_SCATTER_GATHER_LIST
+ - PSTOR_SCATTER_GATHER_LIST
  - STOR_SCATTER_GATHER_LIST
 ---
 
@@ -76,3 +78,4 @@ Miniport drivers that work with the Storport driver call the Storport support ro
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetscattergatherlist">StorPortGetScatterGatherList</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - IpiGenericCall
+ - KIPI_BROADCAST_WORKER
 ---
 
 # KIPI_BROADCAST_WORKER callback function
@@ -95,3 +95,4 @@ The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall">KeIpiGenericCall</a>
+

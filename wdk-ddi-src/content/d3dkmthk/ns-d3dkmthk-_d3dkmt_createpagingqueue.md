@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEPAGINGQUEUE
  - D3DKMT_CREATEPAGINGQUEUE
 ---
 
@@ -86,3 +87,4 @@ A device can have multiple paging queues created for it. Paging queues can be de
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroypagingqueue">D3DKMTDestroyPagingQueue</a>
+

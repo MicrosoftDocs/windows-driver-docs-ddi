@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - ClearErrorRecord
+ - PSHED_PI_CLEAR_ERROR_RECORD
 ---
 
 # PSHED_PI_CLEAR_ERROR_RECORD callback function
@@ -122,3 +122,4 @@ The Windows kernel calls into the PSHED to clear an error record from the system
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record">WriteErrorRecord</a>
+

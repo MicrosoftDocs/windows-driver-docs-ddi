@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamFilter
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback function
@@ -97,3 +97,4 @@ The filter level. The meaning of this value is defined by the independent hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
+

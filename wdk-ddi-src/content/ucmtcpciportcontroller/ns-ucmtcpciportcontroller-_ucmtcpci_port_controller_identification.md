@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtcpciportcontroller.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+ - PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
  - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 ---
 
@@ -88,3 +90,4 @@ Specifies the vendor identifier assigned by the USB specification committee.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
+

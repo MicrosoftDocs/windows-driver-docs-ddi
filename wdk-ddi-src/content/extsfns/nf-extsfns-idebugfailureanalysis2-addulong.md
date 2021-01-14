@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.AddUlong
+ - IDebugFailureAnalysis2::AddUlong
 ---
 
 # IDebugFailureAnalysis2::AddUlong
@@ -87,3 +87,4 @@ To get a pointer to an <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DISPLAYID_DETAILED_TIMING_TYPE_I structure"]
 ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DISPLAYID_DETAILED_TIMING_TYPE_I
  - DISPLAYID_DETAILED_TIMING_TYPE_I
 ---
 
@@ -138,3 +139,4 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
+

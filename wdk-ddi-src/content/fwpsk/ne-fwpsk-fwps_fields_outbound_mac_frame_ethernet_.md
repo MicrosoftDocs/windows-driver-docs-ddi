@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET_
  - FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET
 ---
 
@@ -119,3 +120,4 @@ The outbound MAC frame IEEE 802.3 flags field.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_fields_inbound_mac_frame_ethernet_">FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET</a>
+

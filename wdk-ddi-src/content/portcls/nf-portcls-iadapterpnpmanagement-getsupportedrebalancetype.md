@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPnpManagement.GetSupportedRebalanceType
+ - IAdapterPnpManagement::GetSupportedRebalanceType
 product:
  - Windows
 ---
@@ -61,3 +61,4 @@ For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](/w
 ## -see-also
 
 [IAdapterPnpManagement](nn-portcls-iadapterpnpmanagement.md)
+

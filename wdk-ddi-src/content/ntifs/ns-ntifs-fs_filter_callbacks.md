@@ -29,6 +29,7 @@ api_location:
  - ntifs.h
 api_name:
  - _FS_FILTER_CALLBACKS
+ - PFS_FILTER_CALLBACKS
  - FS_FILTER_CALLBACKS
 f1_keywords:
  - _FS_FILTER_CALLBACKS

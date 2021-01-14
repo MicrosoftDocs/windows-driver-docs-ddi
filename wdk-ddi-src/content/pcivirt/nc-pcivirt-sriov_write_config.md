@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
- - PSRIOV_WRITE_CONFIG
+ - SRIOV_WRITE_CONFIG
 ---
 
 # SRIOV_WRITE_CONFIG callback
@@ -100,3 +100,4 @@ typedef SRIOV_WRITE_CONFIG *PSRIOV_WRITE_CONFIG;
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to write to the configuration space of a specific virtual function.
 
 The PF driver registers its implementation by setting the <b>WriteVfConfig</b> member of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_device_interface_standard">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+

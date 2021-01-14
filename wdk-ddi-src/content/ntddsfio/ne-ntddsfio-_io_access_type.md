@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_ACCESS_TYPE
  - IO_ACCESS_TYPE
 ---
 

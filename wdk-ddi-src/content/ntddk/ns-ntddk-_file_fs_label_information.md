@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _FILE_FS_LABEL_INFORMATION
+ - PFILE_FS_LABEL_INFORMATION
  - FILE_FS_LABEL_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetvolumeinformationfile">ZwSetVolumeInformationFile</a>
+

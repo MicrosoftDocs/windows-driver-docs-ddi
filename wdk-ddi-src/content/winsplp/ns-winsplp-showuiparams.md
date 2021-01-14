@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - PSHOWUIPARAMS
  - SHOWUIPARAMS
 ---
 
@@ -66,3 +67,4 @@ Specifies a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-messagebox
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
+

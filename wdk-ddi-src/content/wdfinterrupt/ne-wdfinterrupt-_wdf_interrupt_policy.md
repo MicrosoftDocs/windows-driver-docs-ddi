@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_POLICY
+ - PWDF_INTERRUPT_POLICY
  - WDF_INTERRUPT_POLICY
 ---
 
@@ -86,3 +88,4 @@ The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
+

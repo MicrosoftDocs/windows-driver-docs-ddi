@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_CO_CHARACTERISTICS
+ - PNDIS_MINIPORT_CO_CHARACTERISTICS
  - NDIS_MINIPORT_CO_CHARACTERISTICS
 ---
 
@@ -176,3 +178,4 @@ The miniport driver calls
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
+

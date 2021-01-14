@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_BUFFER
  - KSRTAUDIO_BUFFER
 ---
 
@@ -78,3 +79,4 @@ The <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPER
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
+

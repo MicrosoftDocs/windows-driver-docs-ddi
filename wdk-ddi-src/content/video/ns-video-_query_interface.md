@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _QUERY_INTERFACE
+ - PQUERY_INTERFACE
  - QUERY_INTERFACE
 ---
 
@@ -86,3 +88,4 @@ The <i>QueryInterface</i> parameter of the video miniport driver's <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a>
+

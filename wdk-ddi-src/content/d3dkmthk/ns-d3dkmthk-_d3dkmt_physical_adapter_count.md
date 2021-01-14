@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PHYSICAL_ADAPTER_COUNT
+ - D3DKMT_PHYSICAL_ADAPTER_COUNT
 dev_langs:
  - c++
 ---

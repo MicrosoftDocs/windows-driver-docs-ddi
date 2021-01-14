@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TXRX_PARAMETERS
+ - PWDI_TXRX_PARAMETERS
  - WDI_TXRX_PARAMETERS
 ---
 

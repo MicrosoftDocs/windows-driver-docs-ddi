@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_PRESENTMULTIPLANEOVERLAYINFO
  - DXGK_PRESENTMULTIPLANEOVERLAYINFO
 ---
 
@@ -66,3 +67,4 @@ Specifies info on a VidPN input and an overlay plane to display.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
+

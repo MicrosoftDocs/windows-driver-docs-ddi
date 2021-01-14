@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_INIT_PARAMETERS
+ - PNDIS_MINIPORT_INIT_PARAMETERS
  - NDIS_MINIPORT_INIT_PARAMETERS
 ---
 
@@ -162,3 +164,4 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 <a href="/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
+

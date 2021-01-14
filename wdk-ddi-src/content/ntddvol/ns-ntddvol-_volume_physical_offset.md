@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _VOLUME_PHYSICAL_OFFSET
+ - PVOLUME_PHYSICAL_OFFSET
  - VOLUME_PHYSICAL_OFFSET
 ---
 
@@ -68,3 +70,4 @@ Contains the physical offset in bytes of the data on the disk.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_physical_to_logical">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+

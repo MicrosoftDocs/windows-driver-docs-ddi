@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_NET_BUFFER_LIST_EVENT_TYPE0_
  - FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 ---
 
@@ -208,3 +209,4 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+

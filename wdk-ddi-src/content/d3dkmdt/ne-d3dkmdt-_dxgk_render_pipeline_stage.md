@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_RENDER_PIPELINE_STAGE
  - DXGK_RENDER_PIPELINE_STAGE
 ---
 

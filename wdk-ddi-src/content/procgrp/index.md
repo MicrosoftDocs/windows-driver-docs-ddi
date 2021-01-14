@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - procgrp
  - procgrp/procgrp
+api_name:
+ - procgrp
 ---
 
 # Procgrp.h header

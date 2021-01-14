@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_SAR_CONFIG_INFO
+ - PNDIS_WWAN_SAR_CONFIG_INFO
+ - NDIS_WWAN_SAR_CONFIG_INFO
 ---
 
 # _NDIS_WWAN_SAR_CONFIG_INFO structure
@@ -87,3 +89,4 @@ This structure is used in the [NDIS_STATUS_WWAN_SAR_CONFIG](/windows-hardware/dr
 [NDIS_STATUS_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/ndis-status-wwan-sar-config)
 
 [**WWAN_SAR_CONFIG_INFO**](../wwan/ns-wwan-_wwan_sar_config_info.md)
+

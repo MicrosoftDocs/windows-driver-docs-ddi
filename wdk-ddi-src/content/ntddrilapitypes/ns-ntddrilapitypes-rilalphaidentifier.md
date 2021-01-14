@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILALPHAIDENTIFIER
+ - LPRILALPHAIDENTIFIER
 ---
 
 # RILALPHAIDENTIFIER structure (ntddrilapitypes.h)

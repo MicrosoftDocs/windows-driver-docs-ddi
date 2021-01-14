@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_SEND_CDMA
+ - PWWAN_SMS_SEND_CDMA
  - WWAN_SMS_SEND_CDMA
 ---
 
@@ -119,3 +121,4 @@ The encoded content that represents the CDMA-based SMS text message.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - LogMarkerStringTable
+ - PFND3DDDI_LOGSTRINGTABLE
 ---
 
 # PFND3DDDI_LOGSTRINGTABLE callback function
@@ -68,3 +68,4 @@ This function is free-threaded.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddicb_logstringtableentry">LogMarkerStringTableEntry</a>
+

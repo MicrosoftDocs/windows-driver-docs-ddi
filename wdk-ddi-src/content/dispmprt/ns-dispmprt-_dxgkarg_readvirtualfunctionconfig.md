@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_READVIRTUALFUNCTIONCONFIG
+ - PDXGKARG_READVIRTUALFUNCTIONCONFIG
+ - DXGKARG_READVIRTUALFUNCTIONCONFIG
 product:
  - Windows
 dev_langs:

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskListen
+ - PFN_WSK_LISTEN
 ---
 
 # PFN_WSK_LISTEN callback function
@@ -147,3 +147,4 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+

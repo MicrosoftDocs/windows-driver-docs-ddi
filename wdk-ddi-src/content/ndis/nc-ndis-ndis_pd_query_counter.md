@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NdisPDQueryCounter
+ - NDIS_PD_QUERY_COUNTER
 ---
 
 # NDIS_PD_QUERY_COUNTER callback function
@@ -69,3 +69,4 @@ This callback function does not return a value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_counter_value">NDIS_PD_COUNTER_VALUE</a>
+

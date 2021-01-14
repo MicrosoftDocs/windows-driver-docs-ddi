@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - dxva
  - dxva/dxva
+api_name:
+ - dxva
 ---
 
 # Dxva.h header

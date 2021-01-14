@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.RetrieveDeviceName
+ - IWDFDevice::RetrieveDeviceName
 ---
 
 # IWDFDevice::RetrieveDeviceName
@@ -124,7 +124,7 @@ The following code example shows how to retrieve the name of an underlying kerne
                          NULL);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
+

@@ -7,7 +7,7 @@ ms.date: 03/07/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE,
 req.header: netreceivescaling.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_location:
  - netreceivescaling.h
 api_name:
  - _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
+ - NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 ---
 
 # _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration
@@ -66,3 +67,4 @@ The **ReceiveScalingEncapsulationTypes** member of the [NET_ADAPTER_RECEIVE_SCAL
 [NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
 
 [Hyper-V Network Virtualization Technical Details in Windows Server 2016](/windows-server/networking/sdn/technologies/hyper-v-network-virtualization/hyperv-network-virtualization-technical-details-windows-server)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_PORT_CONNECTOR_PROPERTIES
+ - PUSB_PORT_CONNECTOR_PROPERTIES
  - USB_PORT_CONNECTOR_PROPERTIES
 ---
 
@@ -116,3 +118,4 @@ To get information about the operating speed of a device attached to a particula
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_properties">USB_PORT_PROPERTIES</a>
+

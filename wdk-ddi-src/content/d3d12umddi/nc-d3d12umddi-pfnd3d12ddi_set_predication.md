@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnSetPredication
+ - PFND3D12DDI_SET_PREDICATION
 ---
 
 # PFND3D12DDI_SET_PREDICATION callback function
@@ -72,3 +72,4 @@ A predication operation. For more information, see the <a href="/windows-hardwar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_predication_op">D3D12DDI_PREDICATION_OP</a>
+

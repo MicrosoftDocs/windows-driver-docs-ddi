@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _BRB_HEADER
  - BRB_HEADER
 ---
 
@@ -197,3 +198,4 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
+

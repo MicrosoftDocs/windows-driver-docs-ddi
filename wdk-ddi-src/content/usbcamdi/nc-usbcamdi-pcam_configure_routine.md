@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamConfigure
+ - PCAM_CONFIGURE_ROUTINE
 ---
 
 # PCAM_CONFIGURE_ROUTINE callback function
@@ -99,3 +99,4 @@ This function is required.
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a>
+

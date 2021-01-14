@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiQueryVidPnHWCapability
+ - DXGKDDI_QUERYVIDPNHWCAPABILITY
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ For more information on how to process this function, see <a href="/windows-hard
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability">DXGKARG_QUERYVIDPNHWCAPABILITY</a>
+

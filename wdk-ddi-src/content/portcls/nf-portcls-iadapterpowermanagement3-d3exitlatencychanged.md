@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IAdapterPowerManagement3.D3ExitLatencyChanged
+ - IAdapterPowerManagement3::D3ExitLatencyChanged
 ---
 
 # IAdapterPowerManagement3::D3ExitLatencyChanged
@@ -93,3 +93,4 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 
 <a href="/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>
+

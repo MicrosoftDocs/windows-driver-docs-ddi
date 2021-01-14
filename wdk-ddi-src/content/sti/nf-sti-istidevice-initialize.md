@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.Initialize
+ - IStiDevice::Initialize
 ---
 
 # IStiDevice::Initialize
@@ -113,3 +113,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>.
 
 Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.
+

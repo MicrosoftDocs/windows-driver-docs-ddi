@@ -37,7 +37,7 @@ api_type:
 api_location:
  - drmk.h
 api_name:
- - IDrmAudioStream.SetContentId
+ - IDrmAudioStream::SetContentId
 ---
 
 # IDrmAudioStream::SetContentId
@@ -100,3 +100,4 @@ For more information about using this method, see <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/drmk/nn-drmk-idrmaudiostream">IDrmAudioStream</a>
+

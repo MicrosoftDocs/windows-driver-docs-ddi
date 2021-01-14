@@ -35,6 +35,8 @@ api_location:
  - storport.h
 api_name:
  - _ERROR_HISTORY_DIRECTORY_ENTRY
+ - PERROR_HISTORY_DIRECTORY_ENTRY
+ - ERROR_HISTORY_DIRECTORY_ENTRY
 ---
 
 # _ERROR_HISTORY_DIRECTORY_ENTRY structure (storport.h)

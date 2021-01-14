@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_CAPABILITIES
+ - PNDIS_NIC_SWITCH_CAPABILITIES
  - NDIS_NIC_SWITCH_CAPABILITIES
 ---
 
@@ -405,3 +407,4 @@ OID query requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.Purge
+ - IWDFIoQueue::Purge
 ---
 
 # IWDFIoQueue::Purge
@@ -108,7 +108,6 @@ CUmdfHidFile::OnCleanupFile(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackstatechange">IQueueCallbackStateChange</a>
@@ -128,3 +127,4 @@ CUmdfHidFile::OnCleanupFile(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a>
+

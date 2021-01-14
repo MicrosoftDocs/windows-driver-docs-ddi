@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSubmitCommandVirtual
+ - DXGKDDI_SUBMITCOMMANDVIRTUAL
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
+

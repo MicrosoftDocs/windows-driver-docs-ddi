@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_UICC_APP_LIST
+ - PNDIS_WWAN_UICC_APP_LIST
+ - NDIS_WWAN_UICC_APP_LIST
 ---
 
 # _NDIS_WWAN_UICC_APP_LIST structure
@@ -87,3 +89,4 @@ This structure is used in the [NDIS_STATUS_WWAN_UICC_APP_LIST](/windows-hardware
 [NDIS_STATUS_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list)
 
 [**WWAN_UICC_APP_LIST**](../wwan/ns-wwan-_wwan_uicc_app_list.md)
+

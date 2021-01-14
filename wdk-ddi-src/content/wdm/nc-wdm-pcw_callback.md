@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - PcwCallback
+ - PCW_CALLBACK
 ---
 
 # PCW_CALLBACK callback function
@@ -336,3 +336,4 @@ In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` f
 [CTRPP](/windows/win32/perfctrs/ctrpp)
 
 [Performance Counter Library (PERFLIB version 2.0)](/previous-versions/bb756968(v=msdn.10))
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.RetrieveNextRequest
+ - IWDFIoQueue::RetrieveNextRequest
 ---
 
 # IWDFIoQueue::RetrieveNextRequest
@@ -186,7 +186,6 @@ CMyDevice::ServiceSwitchChangeQueue(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
@@ -198,3 +197,4 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

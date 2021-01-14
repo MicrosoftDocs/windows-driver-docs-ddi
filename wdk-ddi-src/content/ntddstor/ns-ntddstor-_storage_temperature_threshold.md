@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_TEMPERATURE_THRESHOLD
+ - PSTORAGE_TEMPERATURE_THRESHOLD
  - STORAGE_TEMPERATURE_THRESHOLD
 ---
 
@@ -107,3 +109,4 @@ Reserved for future use.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
+

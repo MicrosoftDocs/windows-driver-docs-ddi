@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.IsPointer64Bit
- - IDebugControl2.IsPointer64Bit
- - IDebugControl3.IsPointer64Bit
+ - IDebugControl2::IsPointer64Bit
 ---
 
 # IDebugControl2::IsPointer64Bit
@@ -82,3 +80,4 @@ The effective processor does not use 64-bit pointers.
  
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+

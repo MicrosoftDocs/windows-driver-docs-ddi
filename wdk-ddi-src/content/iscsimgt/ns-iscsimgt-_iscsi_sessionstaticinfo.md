@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_SessionStaticInfo
+ - PISCSI_SessionStaticInfo
  - ISCSI_SessionStaticInfo
 ---
 
@@ -185,3 +187,4 @@ A variable length array of <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-is
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

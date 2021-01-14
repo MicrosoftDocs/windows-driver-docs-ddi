@@ -36,9 +36,12 @@ api_location:
  - treeinlinecryptoservice.h
 api_name:
  - _INLINE_CRYPTO_PROGRAM_KEY_IN
+ - PINLINE_CRYPTO_PROGRAM_KEY_IN
+ - INLINE_CRYPTO_PROGRAM_KEY_IN
 ---
 
 # _INLINE_CRYPTO_PROGRAM_KEY_IN structure
+
 
 ## -description
 
@@ -59,3 +62,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - WDTFSystemAction.Interop.dll
 api_name:
- - IWDTFSystemAction2.SleepWakeTimeInSeconds
- - IWDTFSystemAction2.get_SleepWakeTimeInSeconds
- - IWDTFSystemAction2.put_SleepWakeTimeInSeconds
+ - IWDTFSystemAction2::get_SleepWakeTimeInSeconds
 ---
 
 # IWDTFSystemAction2::get_SleepWakeTimeInSeconds
@@ -56,3 +54,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
+

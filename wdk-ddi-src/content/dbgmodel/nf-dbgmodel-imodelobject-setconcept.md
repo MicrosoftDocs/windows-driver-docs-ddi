@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelObject.SetConcept
+ - IModelObject::SetConcept
 ---
 
 # IModelObject::SetConcept
@@ -112,3 +112,4 @@ if (spStringConverter != nullptr)
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

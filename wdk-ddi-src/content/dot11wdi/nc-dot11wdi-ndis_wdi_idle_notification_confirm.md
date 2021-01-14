@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiIdleNotificationConfirm
+ - NDIS_WDI_IDLE_NOTIFICATION_CONFIRM
 ---
 
 # NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback function
@@ -77,3 +77,4 @@ An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_powe
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>
+

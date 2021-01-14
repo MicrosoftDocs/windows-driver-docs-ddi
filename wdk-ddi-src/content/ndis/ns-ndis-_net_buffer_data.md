@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_DATA
+ - PNET_BUFFER_DATA
  - NET_BUFFER_DATA
 ---
 
@@ -170,3 +172,4 @@ The
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
    NdisRetreatNetBufferDataStart</a>
+

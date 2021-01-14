@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.RemoveAssemblyOptions
+ - IDebugControl3::RemoveAssemblyOptions
 ---
 
 # IDebugControl3::RemoveAssemblyOptions
@@ -112,3 +112,4 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setassemblyoptions">SetAssemblyOptions</a>
+

@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_EVENT_LOG_ENTRY_ID
+ - PWHEA_EVENT_LOG_ENTRY_ID
  - WHEA_EVENT_LOG_ENTRY_ID
 product:
  - Windows

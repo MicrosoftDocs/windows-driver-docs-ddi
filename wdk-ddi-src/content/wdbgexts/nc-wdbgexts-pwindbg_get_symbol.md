@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - GetSymbol
+ - PWINDBG_GET_SYMBOL
 ---
 
 # PWINDBG_GET_SYMBOL callback function

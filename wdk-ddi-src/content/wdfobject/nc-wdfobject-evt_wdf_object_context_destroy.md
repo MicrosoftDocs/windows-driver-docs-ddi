@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfobject.h
 api_name:
- - EvtDestroyCallback
+ - EVT_WDF_OBJECT_CONTEXT_DESTROY
 ---
 
 # EVT_WDF_OBJECT_CONTEXT_DESTROY callback function
@@ -140,3 +140,4 @@ EVT_WDF_OBJECT_CONTEXT_DESTROY
 
 
 <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
+

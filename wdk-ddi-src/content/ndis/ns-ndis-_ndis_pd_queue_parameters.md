@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_QUEUE_PARAMETERS
  - NDIS_PD_QUEUE_PARAMETERS
 ---
 
@@ -114,3 +115,4 @@ This structure must be aligned on an 8-byte boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_OPERATION_REGISTRATION
+ - PFLT_OPERATION_REGISTRATION
  - FLT_OPERATION_REGISTRATION
 ---
 
@@ -105,3 +107,4 @@ A single preoperation or postoperation callback routine can be used to process m
 [PFLT_POST_OPERATION_CALLBACK](./nc-fltkernel-pflt_post_operation_callback.md)
 
 [PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md)
+

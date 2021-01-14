@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _DXGK_ESCAPE_GPUMMUCAPS
+ - DXGK_ESCAPE_GPUMMUCAPS
 dev_langs:
  - c++
 ---

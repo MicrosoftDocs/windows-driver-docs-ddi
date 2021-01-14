@@ -38,6 +38,7 @@ api_location:
  - Wiautil.h
 api_name:
  - wiauDbgLegacyError2
+ - wiauDbgLegacyError
 ---
 
 # wiauDbgLegacyError2 function
@@ -68,3 +69,4 @@ The <b>wiauDbgLegacyError2</b> function is identical to the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror">wiauDbgError</a>
+

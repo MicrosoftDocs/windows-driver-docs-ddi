@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_ADAPTER_COMMIT_MODES
+ - EVT_IDD_CX_ADAPTER_COMMIT_MODES
 ---
 
 # EVT_IDD_CX_ADAPTER_COMMIT_MODES callback function
@@ -71,3 +71,4 @@ The OS always provides the IDDCX_PATH for every connected monitor even if it is 
 
 </div>
 <div> </div>
+

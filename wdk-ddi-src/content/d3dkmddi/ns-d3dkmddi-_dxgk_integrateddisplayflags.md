@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_INTEGRATEDDISPLAYFLAGS
+ - PDXGK_INTEGRATEDDISPLAYFLAGS
  - DXGK_INTEGRATEDDISPLAYFLAGS
 ---
 

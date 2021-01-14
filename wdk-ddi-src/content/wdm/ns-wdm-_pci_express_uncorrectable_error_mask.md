@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+ - PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
  - PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 ---
 
@@ -177,3 +179,4 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+

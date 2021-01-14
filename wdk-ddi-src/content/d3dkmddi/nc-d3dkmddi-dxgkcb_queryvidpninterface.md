@@ -37,12 +37,13 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbQueryVidPnInterface
+ - DXGKCB_QUERYVIDPNINTERFACE
 product:
  - Windows
 ---
 
 # DXGKCB_QUERYVIDPNINTERFACE callback function
+
 
 ## -description
 
@@ -86,3 +87,4 @@ The **DxgkCbQueryVidPnInterface** function returns a pointer to a [DXGK_VIDPN_IN
 [VidPN Target Mode Set Interface](ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface)
 
 [VidPN Topology Interface](ns-d3dkmddi-_dxgk_vidpntopology_interface)
+

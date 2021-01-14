@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetLfxState
+ - IMiniportStreamAudioEngineNode::GetLfxState
 ---
 
 # IMiniportStreamAudioEngineNode::GetLfxState
@@ -63,3 +63,4 @@ code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
+

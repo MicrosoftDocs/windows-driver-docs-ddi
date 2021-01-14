@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.CreatePreallocatedWdfMemory
+ - IWDFDriver::CreatePreallocatedWdfMemory
 ---
 
 # IWDFDriver::CreatePreallocatedWdfMemory
@@ -132,7 +132,6 @@ The following code example shows how to create a memory object for a buffer.
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a>
@@ -156,3 +155,4 @@ The following code example shows how to create a memory object for a buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_LISTENER_ORIENTATION
  - KSDS3D_LISTENER_ORIENTATION
 ---
 
@@ -70,3 +71,4 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetOr
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-orientation">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
+

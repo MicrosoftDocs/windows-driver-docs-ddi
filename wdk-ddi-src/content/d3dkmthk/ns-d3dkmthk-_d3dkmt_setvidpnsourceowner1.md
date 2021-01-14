@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_SETVIDPNSOURCEOWNER1
  - D3DKMT_SETVIDPNSOURCEOWNER1
 ---
 
@@ -66,3 +67,4 @@ A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidpnsourc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DeleteVertexShaderFunc
+ - PFND3DDDI_DELETEVERTEXSHADERFUNC
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <b>DeleteVertexShaderFunc</b> function notifies the driver about the deletio
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

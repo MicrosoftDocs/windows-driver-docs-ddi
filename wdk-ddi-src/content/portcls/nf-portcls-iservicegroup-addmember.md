@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IServiceGroup.AddMember
+ - IServiceGroup::AddMember
 ---
 
 # IServiceGroup::AddMember
@@ -69,3 +69,4 @@ The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i>
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>
+

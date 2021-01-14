@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_EVICTION_CRITERIA
+ - D3DKMT_EVICTION_CRITERIA
 dev_langs:
  - c++
 ---

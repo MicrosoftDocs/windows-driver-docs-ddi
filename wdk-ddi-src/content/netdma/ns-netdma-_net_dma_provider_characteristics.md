@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_PROVIDER_CHARACTERISTICS
+ - PNET_DMA_PROVIDER_CHARACTERISTICS
  - NET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
@@ -207,3 +209,4 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
+

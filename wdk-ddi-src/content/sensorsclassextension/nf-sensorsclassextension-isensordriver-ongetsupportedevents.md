@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetSupportedEvents
+ - ISensorDriver::OnGetSupportedEvents
 ---
 
 # ISensorDriver::OnGetSupportedEvents
@@ -75,3 +75,4 @@ You must use CoTaskMemAlloc to create the event ID buffer. The sensor class exte
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

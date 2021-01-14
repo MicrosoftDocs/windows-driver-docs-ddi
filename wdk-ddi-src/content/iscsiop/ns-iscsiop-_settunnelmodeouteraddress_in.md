@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetTunnelModeOuterAddress_IN
+ - PSetTunnelModeOuterAddress_IN
  - SetTunnelModeOuterAddress_IN
 ---
 
@@ -80,3 +82,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_settunnelmodeouteraddress_out">SetTunnelModeOuterAddress_OUT</a>
+

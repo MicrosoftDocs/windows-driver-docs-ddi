@@ -38,7 +38,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXPSRasterizationFactory1.CreateRasterizer
+ - IXpsRasterizationFactory1::CreateRasterizer
 ---
 
 # IXpsRasterizationFactory1::CreateRasterizer
@@ -89,3 +89,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [IXPSRasterizationFactory1](./nn-xpsrassvc-ixpsrasterizationfactory1.md)
+

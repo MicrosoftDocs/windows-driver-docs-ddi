@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UNIFM_HDR
+ - PUNIFM_HDR
  - UNIFM_HDR
 ---
 
@@ -153,3 +155,4 @@ If **lGlyphSetDataRCID** is CC_DEFAULT, there are no restrictions on the value s
 [UNI_CODEPAGEINFO](./ns-prntfont-_uni_codepageinfo.md)
 
 [WIDTHTABLE](./ns-prntfont-_widthtable.md)
+

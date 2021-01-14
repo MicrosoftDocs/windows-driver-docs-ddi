@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEDEVICE
  - D3DKMT_CREATEDEVICE
 ---
 
@@ -106,3 +107,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdeviceflags">D3DKMT_CREATEDEVICEFLAGS</a>
+

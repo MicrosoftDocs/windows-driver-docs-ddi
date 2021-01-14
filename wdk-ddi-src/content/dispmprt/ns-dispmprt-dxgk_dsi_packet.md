@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DSI_PACKET
+ - PDXGK_DSI_PACKET
  - DXGK_DSI_PACKET
 f1_keywords:
  - _DXGK_DSI_PACKET

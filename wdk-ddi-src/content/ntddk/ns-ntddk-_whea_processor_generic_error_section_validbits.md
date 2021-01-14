@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
+ - PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
  - WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
 ---
 
@@ -122,3 +124,4 @@ A WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union is contained within the <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+

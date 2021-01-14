@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.FlushCallbacks
- - IDebugClient2.FlushCallbacks
- - IDebugClient3.FlushCallbacks
- - IDebugClient4.FlushCallbacks
- - IDebugClient5.FlushCallbacks
+ - IDebugClient3::FlushCallbacks
 ---
 
 # IDebugClient3::FlushCallbacks
@@ -110,3 +106,4 @@ For more information about callbacks, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugoutputcallbacks-output">IDebugOutputCallbacks::Output</a>
+

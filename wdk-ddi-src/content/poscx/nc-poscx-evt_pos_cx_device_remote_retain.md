@@ -38,7 +38,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
- - EvtPosCxDeviceRemoteRetain
+ - EVT_POS_CX_DEVICE_REMOTE_RETAIN
 ---
 
 # EVT_POS_CX_DEVICE_REMOTE_RETAIN callback function

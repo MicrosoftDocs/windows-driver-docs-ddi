@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_CONTINUOUS_READER_CONFIG
+ - PWDF_USB_CONTINUOUS_READER_CONFIG
  - WDF_USB_CONTINUOUS_READER_CONFIG
 ---
 
@@ -138,3 +140,4 @@ A <b>NumPendingReads</b> value that is too large can slow down a system's perfor
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader">WdfUsbTargetPipeConfigContinuousReader</a>
+

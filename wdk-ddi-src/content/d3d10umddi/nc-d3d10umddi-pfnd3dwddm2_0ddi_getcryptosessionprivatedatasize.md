@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetCryptoSessionPrivateDataSize
+ - PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE
 product:
  - Windows
 ---
@@ -105,3 +105,4 @@ When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnCheckCounter
+ - PFND3DDDI_CHECKCOUNTER
 ---
 
 # PFND3DDDI_CHECKCOUNTER callback function
@@ -167,3 +167,4 @@ If a counter ID can always be monitored (and it doesn't interfere with monitorin
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_RESTORE_PACKET
+ - EVT_VMB_CHANNEL_RESTORE_PACKET
 ---
 
 # EVT_VMB_CHANNEL_RESTORE_PACKET callback function
@@ -106,3 +106,4 @@ callback function, then this is provided in <i>SaveBuf</i>, and restored by the 
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
+

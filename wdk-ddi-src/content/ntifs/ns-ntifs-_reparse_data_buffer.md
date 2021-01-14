@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _REPARSE_DATA_BUFFER
+ - PREPARSE_DATA_BUFFER
  - REPARSE_DATA_BUFFER
 ---
 
@@ -170,3 +172,4 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
 
 [ZwFsControlFile](/previous-versions/ff566462(v=vs.85))
+

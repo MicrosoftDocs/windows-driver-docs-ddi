@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION_EX
+ - PDRIVE_LAYOUT_INFORMATION_EX
  - DRIVE_LAYOUT_INFORMATION_EX
 ---
 
@@ -98,3 +100,4 @@ This structure is used for both reading and writing disk partition information. 
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a>
+

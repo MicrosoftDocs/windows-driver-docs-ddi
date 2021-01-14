@@ -7,7 +7,7 @@ ms.date: 10/11/2019
 keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure"]
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS, NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS,
 req.header: netdevice.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netdevice.h
 api_name:
+ - _NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS
  - NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS
 product:
  - Windows
@@ -77,3 +78,4 @@ Call [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevic
 [*EvtNetDevicePreviewPowerOffload*](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)
 
 [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevice-net_device_power_policy_event_callbacks_init.md)
+

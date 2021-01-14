@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_DRM_DRMSTATUS
+ - PBDA_DRM_DRMSTATUS
  - BDA_DRM_DRMSTATUS
 ---
 

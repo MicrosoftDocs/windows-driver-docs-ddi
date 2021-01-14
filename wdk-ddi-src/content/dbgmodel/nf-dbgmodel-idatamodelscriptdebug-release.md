@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebug.Release
+ - IDataModelScriptDebug::Release
 ---
 
 # IDataModelScriptDebug::Release
@@ -58,3 +58,4 @@ Standard COM Method.
 ## -see-also
 
 [IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)
+

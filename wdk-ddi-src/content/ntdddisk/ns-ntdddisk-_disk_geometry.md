@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_GEOMETRY
+ - PDISK_GEOMETRY
  - DISK_GEOMETRY
 ---
 
@@ -91,3 +93,4 @@ Indicates the number of bytes in a disk sector.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_media_types">IOCTL_DISK_GET_MEDIA_TYPES</a>
+

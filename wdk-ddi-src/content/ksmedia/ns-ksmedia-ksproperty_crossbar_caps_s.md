@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_CROSSBAR_CAPS_S
  - KSPROPERTY_CROSSBAR_CAPS_S
 ---
 
@@ -74,3 +75,4 @@ Indicates the number of audio and video output pins on the crossbar.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-crossbar">PROPSETID_VIDCAP_CROSSBAR</a>
+

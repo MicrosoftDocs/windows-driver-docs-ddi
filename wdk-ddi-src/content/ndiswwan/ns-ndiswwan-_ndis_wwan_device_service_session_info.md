@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE
  - NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
 ---
 
@@ -114,3 +116,4 @@ The session to obtain status of.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
+

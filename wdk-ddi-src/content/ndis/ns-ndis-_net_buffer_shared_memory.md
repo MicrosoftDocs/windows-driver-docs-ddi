@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_SHARED_MEMORY
+ - PNET_BUFFER_SHARED_MEMORY
  - NET_BUFFER_SHARED_MEMORY
 ---
 
@@ -119,3 +121,4 @@ Use the
 
 
 <a href="/windows-hardware/drivers/network/net-buffer-shared-mem-offset">NET_BUFFER_SHARED_MEM_OFFSET</a>
+

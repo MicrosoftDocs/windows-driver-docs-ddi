@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTIONMANAGER_BASIC_INFORMATION
+ - PTRANSACTIONMANAGER_BASIC_INFORMATION
  - TRANSACTIONMANAGER_BASIC_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure is used with the <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.SendFontCmd
+ - IPrintOemUni::SendFontCmd
 ---
 
 # IPrintOemUni::SendFontCmd
@@ -104,3 +104,4 @@ For additional information see [Customized Font Management](/windows-hardware/dr
 [UNIFONTOBJ](../printoem/ns-printoem-_unifontobj.md)
 
 [UNIFONTOBJ_GetInfo](../printoem/nc-printoem-pfngetinfo.md)
+

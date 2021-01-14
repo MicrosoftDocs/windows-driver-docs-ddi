@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnShaderCacheAddRefCb
+ - PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
 product:
  - Windows
 ---
@@ -62,3 +62,4 @@ Access this callback function by using the <a href="/windows-hardware/drivers/dd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>
+

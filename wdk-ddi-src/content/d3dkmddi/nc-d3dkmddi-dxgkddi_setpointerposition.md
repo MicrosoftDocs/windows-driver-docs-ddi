@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetPointerPosition
+ - DXGKDDI_SETPOINTERPOSITION
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a>
+

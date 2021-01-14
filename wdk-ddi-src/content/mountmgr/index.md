@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - mountmgr
  - mountmgr/mountmgr
+api_name:
+ - mountmgr
 ---
 
 # Mountmgr.h header

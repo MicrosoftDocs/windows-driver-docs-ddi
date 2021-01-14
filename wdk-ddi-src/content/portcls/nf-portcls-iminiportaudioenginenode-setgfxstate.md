@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportAudioEngineNode.SetGfxState
+ - IMiniportAudioEngineNode::SetGfxState
 ---
 
 # IMiniportAudioEngineNode::SetGfxState
@@ -66,3 +66,4 @@ The state of the GFX node.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+

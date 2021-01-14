@@ -37,7 +37,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
- - IKeywordDetectorOemAdapter.VerifyUserKeyword
+ - IKeywordDetectorOemAdapter::VerifyUserKeyword
 ---
 
 # IKeywordDetectorOemAdapter::VerifyUserKeyword
@@ -186,3 +186,4 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 
 <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a>
+

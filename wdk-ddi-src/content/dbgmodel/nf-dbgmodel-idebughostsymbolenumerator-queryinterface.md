@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostSymbolEnumerator.QueryInterface
+ - IDebugHostSymbolEnumerator::QueryInterface
 ---
 
 # IDebugHostSymbolEnumerator::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostSymbolEnumerator interface](nn-dbgmodel-idebughostsymbolenumerator.md)
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntdddisk
  - ntdddisk/ntdddisk
+api_name:
+ - ntdddisk
 ---
 
 # Ntdddisk.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
+ - PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
  - NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
 ---
 
@@ -336,3 +338,4 @@ An MCM driver cannot set the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
+

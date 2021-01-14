@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - bdasup
  - bdasup/bdasup
+api_name:
+ - bdasup
 ---
 
 # Bdasup.h header

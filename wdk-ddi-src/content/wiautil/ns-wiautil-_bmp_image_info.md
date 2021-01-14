@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiautil.h
 api_name:
+ - _BMP_IMAGE_INFO
+ - PBMP_IMAGE_INFO
  - BMP_IMAGE_INFO
 ---
 

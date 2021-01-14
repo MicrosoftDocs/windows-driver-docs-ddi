@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _tagKSTOPOLOGY_ENDPOINTIDPAIR
+ - PKSTOPOLOGY_ENDPOINTIDPAIR
  - KSTOPOLOGY_ENDPOINTIDPAIR
 ---
 
@@ -64,3 +66,4 @@ Specifies the capture endpoint ID.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointid">KSTOPOLOGY_ENDPOINTID</a>
+

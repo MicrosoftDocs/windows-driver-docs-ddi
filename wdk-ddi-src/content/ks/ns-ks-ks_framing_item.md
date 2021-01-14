@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKS_FRAMING_ITEM
  - KS_FRAMING_ITEM
 ---
 
@@ -262,3 +263,4 @@ Each <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSA
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMConfigureProtectedOutput
+ - DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
 ---
 
 # DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback function

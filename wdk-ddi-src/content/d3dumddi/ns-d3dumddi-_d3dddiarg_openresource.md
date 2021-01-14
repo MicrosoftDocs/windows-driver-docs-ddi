@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_OPENRESOURCE
  - D3DDDIARG_OPENRESOURCE
 ---
 
@@ -124,3 +125,4 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_openresource">OpenResource</a>
+

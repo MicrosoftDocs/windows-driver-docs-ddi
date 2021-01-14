@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_MOUNT_POINTS
+ - PMOUNTMGR_MOUNT_POINTS
  - MOUNTMGR_MOUNT_POINTS
 ---
 
@@ -72,3 +74,4 @@ For a discussion of the different between symbolic links, unique IDs, and nonper
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>
+

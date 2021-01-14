@@ -12,6 +12,8 @@ tech.root: dtf
 f1_keywords:
  - wdtfsimulatedbatterysystemaction
  - wdtfsimulatedbatterysystemaction/wdtfsimulatedbatterysystemaction
+api_name:
+ - wdtfsimulatedbatterysystemaction
 ---
 
 # Wdtfsimulatedbatterysystemaction.h header

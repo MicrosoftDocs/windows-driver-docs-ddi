@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_IPADDRESS_ENTRY
+ - PWWAN_IPADDRESS_ENTRY
  - WWAN_IPADDRESS_ENTRY
 ---
 

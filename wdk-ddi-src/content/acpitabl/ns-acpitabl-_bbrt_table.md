@@ -41,6 +41,8 @@ api_type:
 api_location:
  - acpitabl.h
 api_name:
+ - _BBRT_TABLE
+ - PBBRT_TABLE
  - BBRT_TABLE
 ---
 

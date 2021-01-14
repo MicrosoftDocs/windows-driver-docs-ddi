@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _DDPIXELFORMAT
+ - LPDDPIXELFORMAT
  - DDPIXELFORMAT
 ---
 
@@ -267,3 +269,4 @@ ddpf.MultiSampleCaps.wBltMSTypes = (1 << (D3DMULTISAMPLE_4_SAMPLES âˆ’ 1));
 ```
 
 It is not necessary to specify 1 << (D3DMULTISAMPLE_NONE - 1) when reporting formats. It is assumed that any format reported can also be used without multisampling. If the hardware supports multisample rendering with a z-buffer the z-buffer formats reported should also include the supported samples-per-pixels.
+

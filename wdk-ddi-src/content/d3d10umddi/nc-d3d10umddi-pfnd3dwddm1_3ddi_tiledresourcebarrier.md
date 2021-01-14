@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - TiledResourceBarrier
+ - PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
 product:
  - Windows
 ---
@@ -95,3 +95,4 @@ If no calls are made to <i>TiledResourceBarrier</i>,
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

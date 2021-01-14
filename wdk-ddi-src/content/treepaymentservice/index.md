@@ -12,12 +12,16 @@ tech.root: treedrv
 f1_keywords:
  - treepaymentservice
  - treepaymentservice/treepaymentservice
+api_name:
+ - treepaymentservice
 ---
 
 # Treepaymentservice.h header
+
 
 ## -description
 
 This header is used by treedrv. For more information, see:
 
 - [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>
+

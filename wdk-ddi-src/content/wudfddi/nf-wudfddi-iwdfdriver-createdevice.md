@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.CreateDevice
+ - IWDFDriver::CreateDevice
 ---
 
 # IWDFDriver::CreateDevice
@@ -207,7 +207,6 @@ CDriver::OnDeviceAdd(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a>
@@ -251,3 +250,4 @@ CDriver::OnDeviceAdd(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a>
+

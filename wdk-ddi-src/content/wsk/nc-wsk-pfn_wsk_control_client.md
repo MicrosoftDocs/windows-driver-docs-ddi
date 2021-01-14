@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskControlClient
+ - PFN_WSK_CONTROL_CLIENT
 ---
 
 # PFN_WSK_CONTROL_CLIENT callback function
@@ -193,3 +193,4 @@ If the <b>WskControlClient</b> function returns STATUS_PENDING, any buffers that
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
+

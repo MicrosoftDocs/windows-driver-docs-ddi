@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_AddTarget_IN
+ - PSM_AddTarget_IN
  - SM_AddTarget_IN
 ---
 

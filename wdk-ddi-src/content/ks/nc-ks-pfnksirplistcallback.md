@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrIrpListCallback
+ - PFNKSIRPLISTCALLBACK
 ---
 
 # PFNKSIRPLISTCALLBACK callback function
@@ -72,3 +72,4 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCEVENT_ITEM
  - PCEVENT_ITEM
 ---
 
@@ -110,3 +111,4 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a>
+

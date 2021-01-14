@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.GetCapabilities
+ - IStiUSD::GetCapabilities
 ---
 
 # IStiUSD::GetCapabilities
@@ -70,3 +70,4 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

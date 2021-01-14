@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _RemoveLink_OUT
+ - PRemoveLink_OUT
  - RemoveLink_OUT
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the RemoveLink_OUT structure in <i
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removelink">RemoveLink</a>
+

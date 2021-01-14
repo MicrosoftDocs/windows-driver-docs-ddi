@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
+ - PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
  - GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
 ---
 
@@ -111,3 +113,4 @@ The <i>ReconfigureParameters</i> parameter of the <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_NUMBER
+ - PSTORAGE_DEVICE_NUMBER
  - STORAGE_DEVICE_NUMBER
 ---
 
@@ -74,3 +76,4 @@ The values in the STORAGE_DEVICE_NUMBER structure are guaranteed to remain uncha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
+

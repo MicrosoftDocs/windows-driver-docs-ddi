@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortEvents.AddEventToEventList
+ - IPortEvents::AddEventToEventList
 ---
 
 # IPortEvents::AddEventToEventList
@@ -73,3 +73,4 @@ This method is used by a miniport driver's to add events to the event list that 
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
+

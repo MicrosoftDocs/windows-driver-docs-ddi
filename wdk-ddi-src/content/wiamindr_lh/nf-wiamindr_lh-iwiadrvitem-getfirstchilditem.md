@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetFirstChildItem
+ - IWiaDrvItem::GetFirstChildItem
 ---
 
 # IWiaDrvItem::GetFirstChildItem
@@ -74,3 +74,4 @@ Minidrivers typically use this method to retrieve the first child item in a driv
 [IWiaDrvItem::GetNextSiblingItem](./nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem.md)
 
 [IWiaDrvItem::GetParentItem](./nf-wiamindr_lh-iwiadrvitem-getparentitem.md)
+

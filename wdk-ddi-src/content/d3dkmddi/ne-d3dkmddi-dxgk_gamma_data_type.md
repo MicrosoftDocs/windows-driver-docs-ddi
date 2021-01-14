@@ -30,6 +30,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GAMMA_DATA_TYPE
  - DXGK_GAMMA_DATA_TYPE
 product:
  - Windows

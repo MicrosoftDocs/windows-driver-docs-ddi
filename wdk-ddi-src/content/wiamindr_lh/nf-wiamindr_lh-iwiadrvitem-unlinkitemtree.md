@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.UnlinkItemTree
+ - IWiaDrvItem::UnlinkItemTree
 ---
 
 # IWiaDrvItem::UnlinkItemTree
@@ -76,3 +76,4 @@ If the method succeeds, it returns S_OK. If the method is called on a nonroot it
 ## -remarks
 
 Minidrivers must call this method on the root item in the driver item tree when they want to invalidate the tree. This is typically done when the driver is being unloaded or when the minidriver needs to rebuild the driver item tree.
+

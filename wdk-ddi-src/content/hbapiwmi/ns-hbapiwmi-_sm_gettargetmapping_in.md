@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetTargetMapping_IN
+ - PSM_GetTargetMapping_IN
  - SM_GetTargetMapping_IN
 ---
 

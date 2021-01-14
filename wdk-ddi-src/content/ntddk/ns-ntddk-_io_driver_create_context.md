@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _IO_DRIVER_CREATE_CONTEXT
+ - PIO_DRIVER_CREATE_CONTEXT
  - IO_DRIVER_CREATE_CONTEXT
 ---
 
@@ -166,3 +168,4 @@ Upon return from a call to <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext">IoInitializeDriverCreateContext</a>
+

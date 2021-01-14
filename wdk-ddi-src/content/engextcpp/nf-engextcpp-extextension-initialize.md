@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtExtension.Initialize
+ - ExtExtension::Initialize
 ---
 
 # ExtExtension::Initialize
@@ -90,3 +90,4 @@ There may or may not be a debugging session active when this function is called,
 
 
 <a href="/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
+

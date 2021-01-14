@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiMapCpuHostAperture
+ - DXGKDDI_MAPCPUHOSTAPERTURE
 product:
  - Windows
 ---
@@ -64,3 +64,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_mapcpuh
 ## -returns
 
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+

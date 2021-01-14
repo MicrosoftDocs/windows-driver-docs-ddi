@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_MaskInterrupts
+ - GPIO_CLIENT_MASK_INTERRUPTS
 ---
 
 # GPIO_CLIENT_MASK_INTERRUPTS callback function
@@ -121,3 +121,4 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_mask_interrupt_parameters">GPIO_MASK_INTERRUPT_PARAMETERS</a>
+

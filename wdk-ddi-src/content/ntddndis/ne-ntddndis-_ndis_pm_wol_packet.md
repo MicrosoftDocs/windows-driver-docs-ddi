@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_WOL_PACKET
+ - PNDIS_PM_WOL_PACKET
  - NDIS_PM_WOL_PACKET
 ---
 
@@ -103,3 +105,4 @@ The <b>NDIS_PM_WOL_PACKET</b> enumeration is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPrintPipelineFilter.InitializeFilter
+ - IPrintPipelineFilter::InitializeFilter
 ---
 
 # IPrintPipelineFilter::InitializeFilter
@@ -100,3 +100,4 @@ Get the read and write interfaces.
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
+

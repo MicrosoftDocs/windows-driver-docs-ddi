@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects2.GetCurrentProcessUpTime
- - IDebugSystemObjects3.GetCurrentProcessUpTime
- - IDebugSystemObjects4.GetCurrentProcessUpTime
+ - IDebugSystemObjects3::GetCurrentProcessUpTime
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessUpTime
@@ -77,3 +75,4 @@ The method was successful.
 </td>
 </tr>
 </table>
+

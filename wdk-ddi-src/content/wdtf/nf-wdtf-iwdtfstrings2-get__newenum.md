@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFStrings2._NewEnum
- - IWDTFStrings2.get__NewEnum
+ - IWDTFStrings2::get__NewEnum
 ---
 
 # IWDTFStrings2::get__NewEnum
@@ -65,3 +64,4 @@ For more information about how ATL implements this functionality, see the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfstrings2">IWDTFStrings2</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSRATE_CAPABILITY
  - KSRATE_CAPABILITY
 ---
 
@@ -58,3 +59,4 @@ A structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a
 ### -field Rate
 
 A structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksrate">KSRATE</a> that specifies the requested rate.
+

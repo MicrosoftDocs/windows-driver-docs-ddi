@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+ - PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
  - UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 ---
 
@@ -84,3 +86,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxus
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
+

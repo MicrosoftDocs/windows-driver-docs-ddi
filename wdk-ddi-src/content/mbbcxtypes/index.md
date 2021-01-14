@@ -15,12 +15,16 @@ product:
 f1_keywords:
  - mbbcxtypes
  - mbbcxtypes/mbbcxtypes
+api_name:
+ - mbbcxtypes
 ---
 
 # Mbbcxtypes.h header
+
 
 ## -description
 
 This header contains reference material about the Mobile Broadband (MBB) WDF class extension (MBBCx).
 
 For more info, see [Introduction to the Mobile Broadband (MBB) WDF class extension (MBBCx)](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
+

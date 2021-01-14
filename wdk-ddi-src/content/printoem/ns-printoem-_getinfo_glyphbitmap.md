@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_GLYPHBITMAP
+ - PGETINFO_GLYPHBITMAP
  - GETINFO_GLYPHBITMAP
 ---
 
@@ -82,3 +84,4 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

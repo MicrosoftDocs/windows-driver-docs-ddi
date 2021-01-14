@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
+ - _PosDeviceControlType
  - PosDeviceControlType
 ---
 
@@ -206,3 +207,4 @@ Represents <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/
 ## -remarks
 
 This enumeration provides values for each IOCTL that you can send to the device driver. It is a convenient way to indicate which IOCTL to dispatch when calling functions like **SendDeviceCommand()**.
+

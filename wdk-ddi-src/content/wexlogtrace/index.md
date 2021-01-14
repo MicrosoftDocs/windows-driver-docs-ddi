@@ -12,6 +12,8 @@ tech.root: taef
 f1_keywords:
  - wexlogtrace
  - wexlogtrace/wexlogtrace
+api_name:
+ - wexlogtrace
 ---
 
 # Wexlogtrace.h header

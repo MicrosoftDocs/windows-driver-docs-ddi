@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSNODE_DESCRIPTOR
+ - PKSNODE_DESCRIPTOR
  - KSNODE_DESCRIPTOR
 ---
 
@@ -70,3 +72,4 @@ A pointer to a GUID that represents the name of this topology node. This is used
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>
+

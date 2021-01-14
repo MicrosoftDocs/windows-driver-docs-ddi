@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.OutputTypedDataPhysical
- - IDebugSymbols2.OutputTypedDataPhysical
- - IDebugSymbols3.OutputTypedDataPhysical
+ - IDebugSymbols3::OutputTypedDataPhysical
 ---
 
 # IDebugSymbols3::OutputTypedDataPhysical
@@ -105,3 +103,4 @@ This method is only available in kernel mode debugging.
 The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
 
 For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.  For information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

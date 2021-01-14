@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagDEVCAPS
+ - PDEVCAPS
  - DEVCAPS
 ---
 
@@ -264,3 +266,4 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
+

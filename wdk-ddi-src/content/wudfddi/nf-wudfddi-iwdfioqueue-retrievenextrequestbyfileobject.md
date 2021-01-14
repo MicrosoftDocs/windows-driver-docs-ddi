@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.RetrieveNextRequestByFileObject
+ - IWDFIoQueue::RetrieveNextRequestByFileObject
 ---
 
 # IWDFIoQueue::RetrieveNextRequestByFileObject
@@ -153,3 +153,4 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

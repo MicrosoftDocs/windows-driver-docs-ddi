@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - PnpGetLocationString
+ - PGET_LOCATION_STRING
 ---
 
 # PGET_LOCATION_STRING callback function
@@ -86,3 +86,4 @@ The <i>PnpGetLocationString</i> routine calls a routine such as <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pnp_location_interface">PNP_LOCATION_INTERFACE</a>
+

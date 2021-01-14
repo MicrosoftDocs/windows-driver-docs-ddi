@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UcmTcpciPortControllerRequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
  - UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
 ---
 
@@ -66,3 +68,4 @@ Handle to the port controller object that the client driver received in the prev
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_command">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND</a>
+

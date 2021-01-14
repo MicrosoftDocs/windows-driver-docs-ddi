@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wmilib.h
 api_name:
+ - _WMIGUIDREGINFO
+ - PWMIGUIDREGINFO
  - WMIGUIDREGINFO
 ---
 
@@ -130,3 +132,4 @@ Memory for this structure can be allocated from paged pool.
 
 
 <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetLineByOffset
- - IDebugSymbols2.GetLineByOffset
- - IDebugSymbols3.GetLineByOffset
+ - IDebugSymbols::GetLineByOffset
 ---
 
 # IDebugSymbols::GetLineByOffset
@@ -133,3 +131,4 @@ For more information about source files, see <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

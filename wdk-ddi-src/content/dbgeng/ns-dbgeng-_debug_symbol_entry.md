@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_SYMBOL_ENTRY
+ - PDEBUG_SYMBOL_ENTRY
  - DEBUG_SYMBOL_ENTRY
 ---
 
@@ -108,3 +110,4 @@ Set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentryinformation">IdebugSymbols3::GetSymbolEntryInformation</a>
+

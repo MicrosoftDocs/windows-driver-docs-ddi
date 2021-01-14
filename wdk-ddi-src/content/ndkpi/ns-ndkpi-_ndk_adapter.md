@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_ADAPTER
  - NDK_ADAPTER
 ---
 
@@ -84,3 +85,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
+

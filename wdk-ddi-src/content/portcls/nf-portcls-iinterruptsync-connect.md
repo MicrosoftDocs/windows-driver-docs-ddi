@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IInterruptSync.Connect
+ - IInterruptSync::Connect
 ---
 
 # IInterruptSync::Connect
@@ -66,3 +66,4 @@ This method connects the synchronization object to the interrupt that was specif
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a>
+

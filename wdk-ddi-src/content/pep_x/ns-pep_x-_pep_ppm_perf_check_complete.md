@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_PERF_CHECK_COMPLETE
+ - PPEP_PPM_PERF_CHECK_COMPLETE
  - PEP_PPM_PERF_CHECK_COMPLETE
 ---
 
@@ -60,3 +62,4 @@ The <b>PEP_PPM_PERF_CHECK_COMPLETE</b> structure is used to inform the PEP of de
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>
+

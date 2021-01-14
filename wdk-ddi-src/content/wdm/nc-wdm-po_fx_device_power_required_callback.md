@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - DevicePowerRequiredCallback
+ - PO_FX_DEVICE_POWER_REQUIRED_CALLBACK
 ---
 
 # PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function
@@ -113,3 +113,4 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a>
+

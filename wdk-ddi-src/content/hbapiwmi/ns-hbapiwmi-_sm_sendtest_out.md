@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendTEST_OUT
+ - PSM_SendTEST_OUT
  - SM_SendTEST_OUT
 ---
 
@@ -60,3 +62,4 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_SendTEST_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+

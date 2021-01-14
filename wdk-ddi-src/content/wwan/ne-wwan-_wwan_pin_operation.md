@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_OPERATION
+ - PWWAN_PIN_OPERATION
  - WWAN_PIN_OPERATION
 ---
 
@@ -84,3 +86,4 @@ If a PIN disable operation for a given PIN type is tried when that PIN type is l
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
+

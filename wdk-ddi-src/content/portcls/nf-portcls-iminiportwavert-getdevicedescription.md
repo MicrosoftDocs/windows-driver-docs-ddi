@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRT.GetDeviceDescription
+ - IMiniportWaveRT::GetDeviceDescription
 ---
 
 # IMiniportWaveRT::GetDeviceDescription
@@ -73,3 +73,4 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
+

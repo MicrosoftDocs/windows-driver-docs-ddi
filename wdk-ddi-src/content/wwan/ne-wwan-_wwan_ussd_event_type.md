@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_EVENT_TYPE
+ - PWWAN_USSD_EVENT_TYPE
  - WWAN_USSD_EVENT_TYPE
 ---
 
@@ -88,3 +90,4 @@ The value of the <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
+

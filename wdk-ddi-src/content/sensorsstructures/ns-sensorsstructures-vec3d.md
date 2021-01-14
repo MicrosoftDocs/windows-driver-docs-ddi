@@ -33,6 +33,7 @@ api_type:
 api_location:
  - sensorsstructures.h
 api_name:
+ - PVEC3D
  - VEC3D
 product:
  - Windows

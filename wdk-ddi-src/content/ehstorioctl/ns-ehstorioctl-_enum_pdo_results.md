@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _ENUM_PDO_RESULTS
+ - PENUM_PDO_RESULTS
  - ENUM_PDO_RESULTS
 ---
 
@@ -64,3 +66,4 @@ This member contains the array of ENUM_PDO_ENTRY structures.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+

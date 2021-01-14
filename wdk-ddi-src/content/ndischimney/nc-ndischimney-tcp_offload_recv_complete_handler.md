@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolTcpOffloadReceiveComplete
+ - TCP_OFFLOAD_RECV_COMPLETE_HANDLER
 ---
 
 # TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback function
@@ -122,3 +122,4 @@ In response, NDIS calls the overlying driver's
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_UICCSLOT_STATE
+ - PWWAN_UICCSLOT_STATE
  - WWAN_UICCSLOT_STATE
 ---
 
@@ -100,3 +102,4 @@ The set of reported states is constrained by the capability of the slot hardware
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a>
+

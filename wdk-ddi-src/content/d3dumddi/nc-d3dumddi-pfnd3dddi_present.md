@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Present
+ - PFND3DDDI_PRESENT
 product:
  - Windows
 ---
@@ -105,3 +105,4 @@ If a user-mode display driver exposes a DDI version of less than 0x0000000C (the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

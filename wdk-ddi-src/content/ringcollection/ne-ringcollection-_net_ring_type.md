@@ -30,6 +30,7 @@ api_location:
  - ringcollection.h
 api_name:
  - _NET_RING_TYPE
+ - NET_RING_TYPE
 ---
 
 # _NET_RING_TYPE enumeration
@@ -56,3 +57,4 @@ The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a fragment ring.
 [Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings)
 
 [**NET_RING**](../ring/ns-ring-_net_ring.md)
+

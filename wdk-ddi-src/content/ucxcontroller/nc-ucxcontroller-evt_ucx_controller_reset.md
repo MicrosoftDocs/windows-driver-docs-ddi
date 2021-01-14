@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
- - PEVT_UCX_CONTROLLER_RESET
+ - EVT_UCX_CONTROLLER_RESET
 ---
 
 # EVT_UCX_CONTROLLER_RESET callback function
@@ -93,7 +93,6 @@ Controller_EvtControllerReset(
 }
 ```
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
@@ -105,3 +104,4 @@ Controller_EvtControllerReset(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a>
+

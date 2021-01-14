@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSINTERVAL
  - KSINTERVAL
 ---
 
@@ -66,3 +67,4 @@ Specifies a recurrence interval, also 64-bit.
 
 
 <a href="/windows-hardware/drivers/stream/ksevent-clock-position-mark">KSEVENT_CLOCK_POSITION_MARK</a>
+

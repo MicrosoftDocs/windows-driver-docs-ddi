@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
-description:
+description: 
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
@@ -34,7 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
- - AllocateCommonBufferWithBounds
 ---
 
 # PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function
@@ -43,7 +42,6 @@ api_name:
 ## -description
 
 This callback function allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address.
-
 
 ## -parameters
 

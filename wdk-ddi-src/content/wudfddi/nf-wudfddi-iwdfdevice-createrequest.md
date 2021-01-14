@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CreateRequest
+ - IWDFDevice::CreateRequest
 ---
 
 # IWDFDevice::CreateRequest
@@ -146,7 +146,6 @@ CUmdfHidDevice::SendInterruptPipeRead(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
@@ -170,3 +169,4 @@ CUmdfHidDevice::SendInterruptPipeRead(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
+

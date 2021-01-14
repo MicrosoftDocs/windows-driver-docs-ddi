@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _DSM_COUNTERS
+ - PDSM_COUNTERS
  - DSM_COUNTERS
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_CAPABILITIES
+ - PPMI_CAPABILITIES
  - PMI_CAPABILITIES
 ---
 
@@ -125,3 +127,4 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
+

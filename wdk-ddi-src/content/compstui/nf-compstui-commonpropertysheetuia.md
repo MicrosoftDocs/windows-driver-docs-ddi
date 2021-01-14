@@ -39,6 +39,7 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - CommonPropertySheetUIA
  - CommonPropertySheetUI
 ---
 

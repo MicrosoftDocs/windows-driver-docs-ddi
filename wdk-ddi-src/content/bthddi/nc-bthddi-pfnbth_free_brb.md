@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BthFreeBrb
+ - PFNBTH_FREE_BRB
 ---
 
 # PFNBTH_FREE_BRB callback function
@@ -63,3 +63,4 @@ Profile drivers obtain a pointer to the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
     <a href="/previous-versions/ff536769(v=vs.85)">Querying for Bluetooth
     Interfaces</a> for more information about querying the Bluetooth driver stack.
+

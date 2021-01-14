@@ -7,7 +7,7 @@ ms.date: 03/06/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE,
 req.header: netreceivescaling.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_location:
  - netreceivescaling.h
 api_name:
  - _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
+ - NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
 ---
 
 # _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration
@@ -56,3 +57,4 @@ Currently, **NetAdapterReceiveScalingHashTypeToeplitz** is the only hashing func
 ## -see-also
 
 [NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
+

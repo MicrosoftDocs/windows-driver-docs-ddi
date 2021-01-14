@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
+ - PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
  - NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ---
 
@@ -166,3 +168,4 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 <a href="/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
+

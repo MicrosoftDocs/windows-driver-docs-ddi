@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRTTDATA
+ - LPRILRTTDATA
 ---
 
 # RILRTTDATA structure (ntddrilapitypes.h)

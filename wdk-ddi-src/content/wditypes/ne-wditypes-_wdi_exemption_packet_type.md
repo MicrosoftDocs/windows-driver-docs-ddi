@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_EXEMPTION_PACKET_TYPE
  - WDI_EXEMPTION_PACKET_TYPE
 ---
 

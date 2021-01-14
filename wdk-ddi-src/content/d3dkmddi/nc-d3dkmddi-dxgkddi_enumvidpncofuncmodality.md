@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiEnumVidPnCofuncModality
+ - DXGKDDI_ENUMVIDPNCOFUNCMODALITY
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ Update each mode set that is not the pivot and does not already have a pinned mo
 Note that if a source or target is identified as the pivot of the enumeration, the mode set for that source or target must not change. For more information about how to update source and target mode sets, see <a href="/windows-hardware/drivers/display/enumerating-cofunctional-vidpn-source-and-target-modes">Enumerating Cofunctional VidPN Source and Target Modes</a>. 
 
 The <i>DxgkDdiEnumVidPnCofuncModality</i> function should be made pageable.
+

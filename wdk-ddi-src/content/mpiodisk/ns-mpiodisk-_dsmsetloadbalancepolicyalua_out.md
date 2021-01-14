@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _DsmSetLoadBalancePolicyALUA_OUT
+ - PDsmSetLoadBalancePolicyALUA_OUT
  - DsmSetLoadBalancePolicyALUA_OUT
 ---
 
@@ -56,3 +58,4 @@ The<b> DsmSetLoadBalancePolicyALUA_OUT</b> structure reports the output of the <
 ### -field Status
 
 The status of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicyalua">DsmSetLoadBalancePolicyALUA</a> operation.
+

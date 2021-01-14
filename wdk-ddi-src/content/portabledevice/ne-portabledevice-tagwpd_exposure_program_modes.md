@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_EXPOSURE_PROGRAM_MODES
  - WPD_EXPOSURE_PROGRAM_MODES
 ---
 
@@ -91,3 +92,4 @@ Indicates the exposure program mode of the device. This enumeration is used by t
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

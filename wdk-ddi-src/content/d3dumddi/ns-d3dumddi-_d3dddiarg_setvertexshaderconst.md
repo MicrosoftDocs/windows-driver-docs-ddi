@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETVERTEXSHADERCONST
  - D3DDDIARG_SETVERTEXSHADERCONST
 ---
 
@@ -95,3 +96,4 @@ typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>
+

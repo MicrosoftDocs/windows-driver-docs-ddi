@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
  - D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synch
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroysynchronizationobject">D3DKMTDestroySynchronizationObject</a>
+

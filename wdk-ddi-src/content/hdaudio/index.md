@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - hdaudio
  - hdaudio/hdaudio
+api_name:
+ - hdaudio
 ---
 
 # Hdaudio.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_PRESENT_RGNS
  - D3DKMT_PRESENT_RGNS
 ---
 
@@ -70,3 +71,4 @@ A pointer to an array of move rectangles (<a href="/windows/win32/api/windef/ns-
 ## -see-also
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

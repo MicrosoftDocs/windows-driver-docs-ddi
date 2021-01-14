@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_ALIGNMENT_INFORMATION
+ - PFILE_ALIGNMENT_INFORMATION
  - FILE_ALIGNMENT_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ The buffer alignment required by the underlying device. For a list of system-def
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

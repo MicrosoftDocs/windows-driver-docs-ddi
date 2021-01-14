@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TX_PAUSE_REASON
  - WDI_TX_PAUSE_REASON
 ---
 
@@ -78,3 +79,4 @@ Inclusive end of range of valid pause reasons for IHV use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
+

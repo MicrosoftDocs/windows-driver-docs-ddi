@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.SetExtendedPolicy
+ - IWDFInterrupt::SetExtendedPolicy
 ---
 
 # IWDFInterrupt::SetExtendedPolicy
@@ -91,7 +91,6 @@ pInterrupt->SetExtendedPolicy(
  );
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
@@ -103,3 +102,4 @@ pInterrupt->SetExtendedPolicy(
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_extended_policy_init">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+

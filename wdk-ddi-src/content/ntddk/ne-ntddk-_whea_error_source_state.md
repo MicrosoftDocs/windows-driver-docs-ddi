@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_SOURCE_STATE
+ - PWHEA_ERROR_SOURCE_STATE
  - WHEA_ERROR_SOURCE_STATE
 ---
 
@@ -77,3 +79,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_des
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+

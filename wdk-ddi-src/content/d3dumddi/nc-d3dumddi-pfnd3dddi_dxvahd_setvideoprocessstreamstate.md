@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetVideoProcessStreamState
+ - PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <i>SetVideoProcessStreamState</i> function returns one of the following valu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
+

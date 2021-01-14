@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_VOLUME_PROPERTIES
+ - PFLT_VOLUME_PROPERTIES
  - FLT_VOLUME_PROPERTIES
 ---
 
@@ -151,3 +153,4 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

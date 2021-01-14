@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_OID_REQUEST
+ - PNDIS_OID_REQUEST
  - NDIS_OID_REQUEST
 ---
 
@@ -133,7 +135,6 @@ struct _QUERY
 
 ```
 
-
 ### -field DATA.QUERY_INFORMATION.Oid
 
 The object identifier of the requested operation. The value is an OID_
@@ -188,7 +189,6 @@ struct _SET
 
 ```
 
-
 ### -field DATA.SET_INFORMATION.Oid
 
 The object identifier of the requested operation. The value is an OID_
@@ -242,7 +242,6 @@ struct _METHOD
   } METHOD_INFORMATION;
 
 ```
-
 
 ### -field DATA.METHOD_INFORMATION.Oid
 
@@ -437,3 +436,4 @@ The
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-supported-guids">OID_GEN_SUPPORTED_GUIDS</a>
+

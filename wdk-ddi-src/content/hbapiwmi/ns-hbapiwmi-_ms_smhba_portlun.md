@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_PORTLUN
+ - PMS_SMHBA_PORTLUN
  - MS_SMHBA_PORTLUN
 ---
 

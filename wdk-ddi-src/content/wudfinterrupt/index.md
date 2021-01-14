@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wudfinterrupt
  - wudfinterrupt/wudfinterrupt
+api_name:
+ - wudfinterrupt
 ---
 
 # Wudfinterrupt.h header

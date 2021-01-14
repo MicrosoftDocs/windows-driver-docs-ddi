@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_TYPE
+ - PNDIS_RECEIVE_QUEUE_TYPE
  - NDIS_RECEIVE_QUEUE_TYPE
 ---
 
@@ -82,3 +84,4 @@ The NDIS_RECEIVE_QUEUE_TYPE enumeration is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+

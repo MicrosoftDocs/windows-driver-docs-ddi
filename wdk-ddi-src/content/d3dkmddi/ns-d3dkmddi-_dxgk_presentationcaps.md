@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PRESENTATIONCAPS
  - DXGK_PRESENTATIONCAPS
 ---
 
@@ -288,3 +289,4 @@ A display miniport driver can specify presentation capabilities by setting bits 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm">DxgkDdiRenderKm</a>
+

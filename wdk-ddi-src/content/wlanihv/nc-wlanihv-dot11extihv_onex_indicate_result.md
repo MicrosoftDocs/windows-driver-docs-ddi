@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvOneXIndicateResult
+ - DOT11EXTIHV_ONEX_INDICATE_RESULT
 ---
 
 # DOT11EXTIHV_ONEX_INDICATE_RESULT callback
@@ -137,3 +137,4 @@ For more information about using the 802.1X module for authentication, see
 
 
 <a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
+

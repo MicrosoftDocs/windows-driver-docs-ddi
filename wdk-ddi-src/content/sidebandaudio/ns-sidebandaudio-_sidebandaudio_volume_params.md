@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_VOLUME_PARAMS
+ - PSIDEBANDAUDIO_VOLUME_PARAMS
+ - SIDEBANDAUDIO_VOLUME_PARAMS
 ---
 
 # _SIDEBANDAUDIO_VOLUME_PARAMS structure
@@ -70,3 +72,4 @@ dbValue.
 [sidebandaudio.h](index.md)
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_volume_status_update">IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE</a>
+

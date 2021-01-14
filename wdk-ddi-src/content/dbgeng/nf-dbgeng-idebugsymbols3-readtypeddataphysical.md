@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.ReadTypedDataPhysical
- - IDebugSymbols2.ReadTypedDataPhysical
- - IDebugSymbols3.ReadTypedDataPhysical
+ - IDebugSymbols3::ReadTypedDataPhysical
 ---
 
 # IDebugSymbols3::ReadTypedDataPhysical
@@ -124,3 +122,4 @@ The number of bytes this method attempts to read is the smaller of the size of t
 This is a convenience method.  The same result can be obtained by calling <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical">ReadPhysical</a>.
 
 For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.
+

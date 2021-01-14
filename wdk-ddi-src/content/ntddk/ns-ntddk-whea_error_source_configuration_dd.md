@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_SOURCE_CONFIGURATION_DD
+ - PWHEA_ERROR_SOURCE_CONFIGURATION_DD
  - WHEA_ERROR_SOURCE_CONFIGURATION_DD
 product:
  - Windows

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _DDVIDEOPORTCONNECT
+ - LPDDVIDEOPORTCONNECT
  - DDVIDEOPORTCONNECT
 ---
 
@@ -248,3 +250,4 @@ The driver's <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_getvpo
 
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a>
+

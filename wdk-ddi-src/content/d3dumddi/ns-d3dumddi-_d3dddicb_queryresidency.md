@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_QUERYRESIDENCY
  - D3DDDICB_QUERYRESIDENCY
 ---
 
@@ -80,3 +81,4 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresidencycb">pfnQueryResidencyCb</a>
+

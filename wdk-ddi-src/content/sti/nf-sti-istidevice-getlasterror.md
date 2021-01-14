@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.GetLastError
+ - IStiDevice::GetLastError
 ---
 
 # IStiDevice::GetLastError
@@ -61,3 +61,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 ## -remarks
 
 Before calling IStiDevice::GetLastError, clients of the IStiDevice COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an IStiDevice interface pointer, which provides access to a specified device.
+

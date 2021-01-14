@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
+ - DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
 product:
  - Windows
 ---

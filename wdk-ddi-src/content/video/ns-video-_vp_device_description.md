@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VP_DEVICE_DESCRIPTION
+ - PVP_DEVICE_DESCRIPTION
  - VP_DEVICE_DESCRIPTION
 ---
 

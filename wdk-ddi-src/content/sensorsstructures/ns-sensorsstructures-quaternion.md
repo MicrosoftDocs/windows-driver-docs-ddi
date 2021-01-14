@@ -33,6 +33,7 @@ api_type:
 api_location:
  - sensorsstructures.h
 api_name:
+ - PQUATERNION
  - QUATERNION
 product:
  - Windows

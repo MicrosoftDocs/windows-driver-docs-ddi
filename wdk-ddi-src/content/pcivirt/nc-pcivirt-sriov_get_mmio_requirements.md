@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
- - PSRIOV_GET_MMIO_REQUIREMENTS
+ - SRIOV_GET_MMIO_REQUIREMENTS
 ---
 
 # SRIOV_GET_MMIO_REQUIREMENTS callback
@@ -102,3 +102,4 @@ typedef SRIOV_GET_MMIO_REQUIREMENTS *PSRIOV_GET_MMIO_REQUIREMENTS;
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve MMIO requirement of the specified VF.
 
 <code>(Question: How is this registered?)</code>
+

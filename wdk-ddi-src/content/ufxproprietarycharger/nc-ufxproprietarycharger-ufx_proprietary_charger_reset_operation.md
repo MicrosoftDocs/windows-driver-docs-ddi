@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ufxproprietarycharger.h
 api_name:
- - PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
+ - UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 ---
 
 # UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function
@@ -65,3 +65,4 @@ To support handling of proprietary chargers, the USB lower filter driver must pu
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _DISK_EXTENT
+ - PDISK_EXTENT
  - DISK_EXTENT
 ---
 
@@ -72,3 +74,4 @@ Specifies the number of bytes of this extent.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>
+

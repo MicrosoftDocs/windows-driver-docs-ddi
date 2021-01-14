@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidInitialize
+ - PVIDEO_HW_INITIALIZE
 ---
 
 # PVIDEO_HW_INITIALIZE callback function
@@ -78,3 +78,4 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_reset_hw">HwVidResetHw</a>
+

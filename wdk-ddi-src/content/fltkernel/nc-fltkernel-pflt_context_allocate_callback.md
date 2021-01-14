@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - ContextAllocateCallback
+ - PFLT_CONTEXT_ALLOCATE_CALLBACK
 ---
 
 # PFLT_CONTEXT_ALLOCATE_CALLBACK callback function
@@ -113,3 +113,4 @@ For more information about context registration, see the reference entry for <a 
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _CREATE_DISK
+ - PCREATE_DISK
  - CREATE_DISK
 ---
 
@@ -82,3 +84,4 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a>
+

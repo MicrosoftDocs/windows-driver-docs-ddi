@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Stiusd.h
 api_name:
- - IStiDeviceControl.RawDeviceControl
+ - IStiDeviceControl::RawDeviceControl
 ---
 
 # IStiDeviceControl::RawDeviceControl
@@ -80,3 +80,4 @@ Defines the <b>HRESULT</b> return value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugOutputCallbacks2.Output
+ - IDebugOutputCallbacks2::Output
 ---
 
 # IDebugOutputCallbacks2::Output
@@ -66,3 +66,4 @@ This method is not used.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks2">IDebugOutputCallbacks2</a>
+

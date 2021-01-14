@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ndkpi
  - ndkpi/ndkpi
+api_name:
+ - ndkpi
 ---
 
 # Ndkpi.h header

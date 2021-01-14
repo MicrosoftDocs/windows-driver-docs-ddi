@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_LAST_EVENT_INFO_LOAD_MODULE
+ - PDEBUG_LAST_EVENT_INFO_LOAD_MODULE
  - DEBUG_LAST_EVENT_INFO_LOAD_MODULE
 ---
 

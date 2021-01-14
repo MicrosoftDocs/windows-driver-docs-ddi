@@ -33,6 +33,7 @@ api_location:
  - netadapter.h
 api_name:
  - _NET_ADAPTER_RX_CAPABILITIES
+ - NET_ADAPTER_RX_CAPABILITIES
 ---
 
 # _NET_ADAPTER_RX_CAPABILITIES structure

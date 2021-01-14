@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSBUFFER_ITEM
  - KSBUFFER_ITEM
 ---
 
@@ -70,3 +71,4 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgeneratedataevent">KsGenerateDataEvent</a>
+

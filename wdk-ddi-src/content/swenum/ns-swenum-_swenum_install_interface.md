@@ -41,6 +41,8 @@ api_type:
 api_location:
  - swenum.h
 api_name:
+ - _SWENUM_INSTALL_INTERFACE
+ - PSWENUM_INSTALL_INTERFACE
  - SWENUM_INSTALL_INTERFACE
 ---
 
@@ -76,3 +78,4 @@ The <i>swenum</i> driver uses device interface instances as placeholders for sof
 
 
 <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksremovebusenuminterface">KsRemoveBusEnumInterface</a>
+

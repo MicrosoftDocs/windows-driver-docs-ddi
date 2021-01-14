@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_DELETE
+ - PNDIS_WWAN_SMS_DELETE
  - NDIS_WWAN_SMS_DELETE
 ---
 
@@ -116,3 +118,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
+

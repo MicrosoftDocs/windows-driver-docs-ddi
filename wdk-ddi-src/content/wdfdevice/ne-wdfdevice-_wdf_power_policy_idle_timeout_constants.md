@@ -40,6 +40,7 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
  - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---
 

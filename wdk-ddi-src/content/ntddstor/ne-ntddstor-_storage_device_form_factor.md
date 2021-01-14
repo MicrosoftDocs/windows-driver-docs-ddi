@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_FORM_FACTOR
+ - PSTORAGE_DEVICE_FORM_FACTOR
  - STORAGE_DEVICE_FORM_FACTOR
 ---
 

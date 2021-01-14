@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFLongNumbers2._NewEnum
- - IWDTFLongNumbers2.get__NewEnum
+ - IWDTFLongNumbers2::get__NewEnum
 ---
 
 # IWDTFLongNumbers2::get__NewEnum
@@ -65,3 +64,4 @@ For more information about how ATL implements this functionality, see the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflongnumbers2">IWDTFLongNumbers2</a>
+

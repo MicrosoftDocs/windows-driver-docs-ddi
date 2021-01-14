@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_EXTSTA_SEND_CONTEXT
+ - PDOT11_EXTSTA_SEND_CONTEXT
 product:
  - Windows 10 or later.
 ---
@@ -283,3 +284,4 @@ For more information about Native 802.11 send operations, see
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

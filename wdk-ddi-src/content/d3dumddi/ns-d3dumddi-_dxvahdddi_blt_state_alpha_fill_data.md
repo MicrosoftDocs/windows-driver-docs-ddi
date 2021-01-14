@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
  - DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
 ---
 
@@ -99,3 +100,4 @@ If the input stream is disabled or unavailable, the output remains unchanged.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate">SetVideoProcessBltState</a>
+

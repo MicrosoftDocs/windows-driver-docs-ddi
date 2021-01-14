@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TVAUDIO_CAPS_S
  - KSPROPERTY_TVAUDIO_CAPS_S
 ---
 
@@ -135,3 +136,4 @@ Reserved for system use.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
+
