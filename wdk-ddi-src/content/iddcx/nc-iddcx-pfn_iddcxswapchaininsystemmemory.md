@@ -34,7 +34,8 @@ api_location:
 api_name:
  - PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 f1_keywords:
- - iddcx/*PFN_IDDCXSWAPCHAININSYSTEMMEMORY
+ - PFN_IDDCXSWAPCHAININSYSTEMMEMORY
+ - iddcx/PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 dev_langs:
  - c++
 ---
@@ -71,3 +72,4 @@ An indirect display driver (IDD) should not use this pointer to directly call th
 ## -see-also
 
 [**IddCxSwapChainInSystemMemory**](nc-iddcx-pfn_iddcxswapchaininsystemmemory.md)
+

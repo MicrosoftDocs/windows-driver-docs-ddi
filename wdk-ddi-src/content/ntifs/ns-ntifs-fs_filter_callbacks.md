@@ -31,7 +31,11 @@ api_name:
  - _FS_FILTER_CALLBACKS
  - FS_FILTER_CALLBACKS
 f1_keywords:
+ - _FS_FILTER_CALLBACKS
  - ntifs/_FS_FILTER_CALLBACKS
+ - PFS_FILTER_CALLBACKS
+ - ntifs/PFS_FILTER_CALLBACKS
+ - FS_FILTER_CALLBACKS
  - ntifs/FS_FILTER_CALLBACKS
 dev_langs:
  - c++
@@ -180,3 +184,4 @@ The filter completion callback routine is invoked after the operation request is
 [**FS_FILTER_CALLBACK_DATA**](ns-ntifs-fs_filter_callback_data.md)
 
 [**FsRtlRegisterFileSystemFilterCallbacks**](nf-ntifs-fsrtlregisterfilesystemfiltercallbacks.md)
+

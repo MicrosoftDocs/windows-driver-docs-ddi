@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - IsValidDevmodeA
  - winspool/IsValidDevmodeA
+ - IsValidDevmode
+ - winspool/IsValidDevmode
 topic_type:
  - APIRef
  - kbSyntax
@@ -75,3 +77,4 @@ This function does not require the caller to obtain elevated privileges.
 ## -see-also
 
 <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a>
+

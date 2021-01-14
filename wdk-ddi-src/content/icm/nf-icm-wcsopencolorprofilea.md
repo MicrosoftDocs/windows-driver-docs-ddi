@@ -39,6 +39,8 @@ api_name:
 f1_keywords:
  - WcsOpenColorProfileA
  - icm/WcsOpenColorProfileA
+ - WcsOpenColorProfile
+ - icm/WcsOpenColorProfile
 ---
 
 # WcsOpenColorProfileA function
@@ -142,3 +144,4 @@ Use the [CloseColorProfile](/previous-versions//ms536810(v=vs.85)) function to c
 ## -see-also
 
 [CloseColorProfile](/previous-versions//ms536810(v=vs.85))
+

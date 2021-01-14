@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - wiauRegOpenDataA
  - wiautil/wiauRegOpenDataA
+ - wiauRegOpenData
+ - wiautil/wiauRegOpenData
 topic_type:
  - APIRef
  - kbSyntax
@@ -70,3 +72,4 @@ Call this function only in the STI <a href="/windows-hardware/drivers/ddi/stiusd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a>
+

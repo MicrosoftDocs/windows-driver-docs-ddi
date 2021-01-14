@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - wiauRegGetDwordA
  - wiautil/wiauRegGetDwordA
+ - wiauRegGetDword
+ - wiautil/wiauRegGetDword
 topic_type:
  - APIRef
  - kbSyntax
@@ -77,3 +79,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a>
+

@@ -31,7 +31,11 @@ api_name:
  - _FS_FILTER_CALLBACK_DATA
  - FS_FILTER_CALLBACK_DATA
 f1_keywords:
+ - _FS_FILTER_CALLBACK_DATA
  - ntifs/_FS_FILTER_CALLBACK_DATA
+ - PFS_FILTER_CALLBACK_DATA
+ - ntifs/PFS_FILTER_CALLBACK_DATA
+ - FS_FILTER_CALLBACK_DATA
  - ntifs/FS_FILTER_CALLBACK_DATA
 dev_langs:
  - c++
@@ -194,3 +198,4 @@ Structure members of the FS_FILTER_PARAMETERS union are described as follows.
 [**FS_FILTER_CALLBACKS**](ns-ntifs-fs_filter_callbacks.md)
 
 [**FsRtlRegisterFileSystemFilterCallbacks**](nf-ntifs-fsrtlregisterfilesystemfiltercallbacks.md)
+
