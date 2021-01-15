@@ -1,7 +1,7 @@
 ---
 UID: NC:ntifs.PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
 title: PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK (ntifs.h)
-description: A file system filter driver (legacy filter) or a minifilter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's CleanupCallback callback routine for an extra create parameter (ECP) context structure.
+description: A filter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's CleanupCallback callback routine for an extra create parameter (ECP) context structure.
 old-location: ifsk\pfsrtl_extra_create_parameter_cleanup_callback.htm
 tech.root: ifsk
 ms.date: 03/29/2018
@@ -42,76 +42,44 @@ api_name:
 
 # PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK callback
 
-
 ## -description
 
-A file system filter driver (legacy filter) or a minifilter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's <i>CleanupCallback</i> callback routine for an extra create parameter (ECP) context structure.
+A filter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's *CleanupCallback* callback routine for an extra create parameter (ECP) context structure.
 
 ## -parameters
 
-### -param EcpContext 
+### -param EcpContext
 
-[in, out]
-An ECP context pointer that was returned by the routine that allocated the ECP context structure.
+[in, out] An ECP context pointer that was returned by the routine that allocated the ECP context structure.
 
-### -param EcpType 
+### -param EcpType
 
-[in]
-A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see <a href="/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>.
+[in[] A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers).
 
 ## -remarks
 
-When a file system filter driver (legacy filter) or a minifilter driver allocates an ECP context structure, it can optionally specify a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's <i>CleanupCallback</i> callback routine.  If the filter driver specifies a <i>CleanupCallback</i> callback routine, the operating system will invoke the <i>CleanupCallback</i> routine (regardless of IRQ level).  This <i>CleanupCallback</i> routine performs any necessary ECP context-related cleanup processing when the ECP context structure is deleted.
+When a filter driver allocates an ECP context structure, it can optionally specify a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's *CleanupCallback* callback routine.  If the filter driver specifies a *CleanupCallback* callback routine, the operating system will invoke the *CleanupCallback* routine (regardless of IRQ level).  This *CleanupCallback* routine performs any necessary ECP context-related cleanup processing when the ECP context structure is deleted.
 
-To specify a callback routine, a filter driver passes a pointer to the callback routine by using the <i>CleanupCallback</i> parameter of the routine that originally allocated the ECP context structure.  If a callback routine is not needed, a <b>NULL</b> value must be passed to the <i>CleanupCallback</i> parameter.
+To specify a callback routine, a filter driver passes a pointer to the callback routine by using the *CleanupCallback* parameter of the routine that originally allocated the ECP context structure.  If a callback routine is not needed, a **NULL** value must be passed to the *CleanupCallback* parameter.
 
 The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed callback routine:
 
-<ul>
-<li>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a>
-
-
-</li>
-<li>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-</li>
-<li>
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameter">FsRtlAllocateExtraCreateParameter</a>
-
-
-</li>
-</ul>
+* [**FltAllocateExtraCreateParameter**](../fltkernel/nf-fltkernel-fltallocateextracreateparameter.md)
+* [**FltAllocateExtraCreateParameterFromLookasideList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
+* [**FsRtlAllocateExtraCreateParameter**](nf-ntifs-fsrtlallocateextracreateparameter.md)
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+[**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
+[**FltAllocateExtraCreateParameter**](../fltkernel/nf-fltkernel-fltallocateextracreateparameter.md)
 
+[**FltAllocateExtraCreateParameterFromLookasideList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a>
+[**FltAllocateExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md)
 
+[**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
+[**FltFreeExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltfreeextracreateparameterlist.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist">FltAllocateExtraCreateParameterList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist">FltFreeExtraCreateParameterList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
+[**FltRemoveExtraCreateParameter**](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
