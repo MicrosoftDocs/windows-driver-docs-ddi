@@ -35,6 +35,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KMUTANT
+ - PKMUTANT
  - KMUTANT
 product:
  - Windows

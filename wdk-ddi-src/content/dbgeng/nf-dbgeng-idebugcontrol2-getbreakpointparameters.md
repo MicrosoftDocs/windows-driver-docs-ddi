@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetBreakpointParameters
- - IDebugControl2.GetBreakpointParameters
- - IDebugControl3.GetBreakpointParameters
+ - IDebugControl2::GetBreakpointParameters
 ---
 
 # IDebugControl2::GetBreakpointParameters
@@ -131,3 +129,4 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauDbgFn.CWiauDbgFn
+ - CWiauDbgFn::CWiauDbgFn
 ---
 
 # CWiauDbgFn::CWiauDbgFn
@@ -56,3 +56,4 @@ Specifies the name of the function or method being entered.
 ## -see-also
 
 [CWiauDbgFn::~CWiauDbgFn](./nf-wiautil-cwiaudbgfn--cwiaudbgfn.md)
+

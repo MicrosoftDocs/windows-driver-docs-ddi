@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_TYPEC_OPERATING_MODE
+ - USBC_TYPEC_OPERATING_MODE
 ---
 
 # _USBC_TYPEC_OPERATING_MODE enumeration

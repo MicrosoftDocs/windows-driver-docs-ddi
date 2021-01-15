@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_NODE
  - USB_HUB_NODE
 ---
 
@@ -70,3 +71,4 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendLIRR_OUT
+ - PSendLIRR_OUT
  - SendLIRR_OUT
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the SendLIRR_OUT structure in <i>H
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendlirr">SendLIRR</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSSTREAM_POINTER_OFFSET
+ - PKSSTREAM_POINTER_OFFSET
  - KSSTREAM_POINTER_OFFSET
 ---
 
@@ -82,3 +84,4 @@ See also <a href="/windows-hardware/drivers/stream/avstream-dma-services">AVStre
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
+

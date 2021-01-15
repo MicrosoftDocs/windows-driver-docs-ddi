@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IIndexableConcept.QueryInterface
+ - IIndexableConcept::QueryInterface
 ---
 
 # IIndexableConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IIndexableConcept interface](nn-dbgmodel-iindexableconcept.md)
+

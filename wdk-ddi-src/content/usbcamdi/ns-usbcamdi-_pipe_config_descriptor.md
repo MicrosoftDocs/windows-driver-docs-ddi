@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
+ - _pipe_config_descriptor
+ - PUSBCAMD_Pipe_Config_Descriptor
  - USBCAMD_Pipe_Config_Descriptor
 ---
 
@@ -160,3 +162,4 @@ The USBCAMD library requires that the camera must have a single configuration de
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_configure_routine_ex">CamConfigureEx</a>
+

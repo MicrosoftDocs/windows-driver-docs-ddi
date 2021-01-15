@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOTRANSFERFUNCTION
  - DXVADDI_VIDEOTRANSFERFUNCTION
 ---
 
@@ -118,3 +119,4 @@ The following constants can also be used for gamma function:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvaddi_videoprimaries">DXVADDI_VIDEOPRIMARIES</a>
+

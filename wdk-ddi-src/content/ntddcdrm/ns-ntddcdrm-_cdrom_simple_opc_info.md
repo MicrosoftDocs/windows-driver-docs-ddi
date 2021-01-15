@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_SIMPLE_OPC_INFO
+ - PCDROM_SIMPLE_OPC_INFO
  - CDROM_SIMPLE_OPC_INFO
 ---
 
@@ -80,3 +82,4 @@ The  <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_sen
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_send_opc_information">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
+

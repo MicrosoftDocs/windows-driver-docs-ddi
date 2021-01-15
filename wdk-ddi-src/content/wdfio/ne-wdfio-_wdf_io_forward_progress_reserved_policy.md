@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
  - WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
 ---
 
@@ -70,3 +71,4 @@ In a low-memory situation, if the <b>Flags</b> member of the I/O request's <a hr
 ## -remarks
 
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration is used as a member type in the <a href="/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
+

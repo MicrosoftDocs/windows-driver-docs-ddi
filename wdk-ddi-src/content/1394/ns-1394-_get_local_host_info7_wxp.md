@@ -41,7 +41,9 @@ api_type:
 api_location:
  - 1394.h
 api_name:
- - GET_LOCAL_HOST_INFO7
+ - _GET_LOCAL_HOST_INFO7_WXP
+ - PGET_LOCAL_HOST_INFO7_WXP
+ - GET_LOCAL_HOST_INFO7_WXP
 ---
 
 # _GET_LOCAL_HOST_INFO7_WXP structure
@@ -60,3 +62,4 @@ Always set to zero.
 ### -field MaxDmaBufferSize
 
 Specifies the maximum size of a single DMA transfer on the 1394 host controller. A value of 0x80001000 indicates that there is no specific maximum size. Otherwise, the value of MaxDmaBufferSize reflects the number of Map Registers that are available to the 1394 host controller to map DMA transfers. MaxDmaBufferSize is the upper limit for the size of the buffer that is described in a single <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a>.
+

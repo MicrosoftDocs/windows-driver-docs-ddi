@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILSUBSCRIBERINFO
+ - LPRILSUBSCRIBERINFO
 ---
 
 # RILSUBSCRIBERINFO structure (ntddrilapitypes.h)
@@ -86,3 +87,4 @@ struct RILSUBSCRIBERINFO {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - GetCryptoKeyExchangeType
+ - PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
 product:
  - Windows
 ---
@@ -102,3 +102,4 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps">GetContentProtectionCaps</a>
+

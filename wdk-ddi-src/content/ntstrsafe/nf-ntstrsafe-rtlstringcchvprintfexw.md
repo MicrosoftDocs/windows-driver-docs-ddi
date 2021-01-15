@@ -39,8 +39,6 @@ api_location:
  - Ntstrsafe.dll
 api_name:
  - RtlStringCchVPrintfExW
- - RtlStringCchVPrintfExA
- - RtlStringCchVPrintfExW
 ---
 
 # RtlStringCchVPrintfExW function
@@ -282,3 +280,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>
+

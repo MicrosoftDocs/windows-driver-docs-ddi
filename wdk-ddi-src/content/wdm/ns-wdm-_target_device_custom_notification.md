@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _TARGET_DEVICE_CUSTOM_NOTIFICATION
+ - PTARGET_DEVICE_CUSTOM_NOTIFICATION
  - TARGET_DEVICE_CUSTOM_NOTIFICATION
 ---
 
@@ -94,3 +96,4 @@ This structure accommodates both a variable-length binary data buffer and a vari
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreporttargetdevicechangeasynchronous">IoReportTargetDeviceChangeAsynchronous</a>
+

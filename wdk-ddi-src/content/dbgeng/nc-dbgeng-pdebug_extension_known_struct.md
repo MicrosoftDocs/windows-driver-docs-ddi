@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - KnownStructOutput
+ - PDEBUG_EXTENSION_KNOWN_STRUCT
 ---
 
 # PDEBUG_EXTENSION_KNOWN_STRUCT callback function
@@ -54,7 +54,6 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;
 ```
-
 
 ## -parameters
 
@@ -190,3 +189,4 @@ After initializing the extension DLL, the engine calls this function to query th
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_ACPI_INFORMATION
+ - PUCX_CONTROLLER_ACPI_INFORMATION
  - UCX_CONTROLLER_ACPI_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ The revision ID of the ACPI USB controller.
 
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_acpi_info">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
+

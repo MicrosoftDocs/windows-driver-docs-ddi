@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_UICC_ACCESS_RECORD
+ - PNDIS_WWAN_UICC_ACCESS_RECORD
+ - NDIS_WWAN_UICC_ACCESS_RECORD
 ---
 
 # _NDIS_WWAN_UICC_ACCESS_RECORD structure
@@ -76,3 +78,4 @@ This structure is used in the payload of an [OID_WWAN_UICC_ACCESS_RECORD](/windo
 [NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
 
 [**WWAN_UICC_ACCESS_RECORD**](../wwan/ns-wwan-_wwan_uicc_access_record.md)
+

@@ -35,6 +35,8 @@ api_location:
  - ntddstor.h
 api_name:
  - _DEVICE_DSM_FREE_SPACE_OUTPUT
+ - PDEVICE_DSM_FREE_SPACE_OUTPUT
+ - DEVICE_DSM_FREE_SPACE_OUTPUT
 ---
 
 # _DEVICE_DSM_FREE_SPACE_OUTPUT structure

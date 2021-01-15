@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_UICC_FILE_STATUS
+ - PNDIS_WWAN_UICC_FILE_STATUS
+ - NDIS_WWAN_UICC_FILE_STATUS
 ---
 
 # _NDIS_WWAN_UICC_FILE_STATUS structure
@@ -87,3 +89,4 @@ This structure is used in the [NDIS_STATUS_WWAN_UICC_FILE_STATUS](/windows-hardw
 [NDIS_STATUS_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-uicc-file-status)
 
 [**WWAN_UICC_FILE_STATUS**](../wwan/ns-wwan-_wwan_uicc_file_status.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _INVOC
+ - PINVOC
  - INVOC
 ---
 
@@ -82,3 +84,4 @@ INVOC structures are used within <a href="/windows-hardware/drivers/ddi/prntfont
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a>
+

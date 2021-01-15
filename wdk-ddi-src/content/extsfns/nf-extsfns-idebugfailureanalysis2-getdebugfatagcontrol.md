@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.GetDebugFATagControl
+ - IDebugFailureAnalysis2::GetDebugFATagControl
 ---
 
 # IDebugFailureAnalysis2::GetDebugFATagControl
@@ -69,3 +69,4 @@ This method does not return a value.
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.QueryColorProfile
+ - IPrintOemUI::QueryColorProfile
 ---
 
 # IPrintOemUI::QueryColorProfile
@@ -188,3 +188,4 @@ If you provide a user interface plug-in, the printer driver's <b>DrvQueryColorPr
 If <code>IPrintOemUI::QueryColorProfile</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information about creating and installing user interface plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+

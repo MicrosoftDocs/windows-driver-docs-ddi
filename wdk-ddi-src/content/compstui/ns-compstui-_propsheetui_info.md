@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _PROPSHEETUI_INFO
+ - PPROPSHEETUI_INFO
  - PROPSHEETUI_INFO
 ---
 
@@ -133,3 +135,4 @@ Optional, private value or pointer supplied by the associated <a href="/windows-
 Result value supplied by the associated <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed function, initially set to zero by CPSUI. If the function stores a result value in <b>Result</b>, then for subsequent calls to the function, the stored value is unchanged unless changed by the function.
 
 If the PFNPROPSHEETUI-typed function's address was specified as an argument to <a href="/windows-hardware/drivers/ddi/compstui/nf-compstui-commonpropertysheetuia">CommonPropertySheetUI</a>, the last value stored in <b>Result</b> is returned to <b>CommonPropertySheetUI</b> in the location pointed to by its <i>pResult</i> argument.
+

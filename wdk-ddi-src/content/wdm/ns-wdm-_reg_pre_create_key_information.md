@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_PRE_CREATE_KEY_INFORMATION
+ - PREG_PRE_CREATE_KEY_INFORMATION
  - REG_PRE_CREATE_KEY_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
+

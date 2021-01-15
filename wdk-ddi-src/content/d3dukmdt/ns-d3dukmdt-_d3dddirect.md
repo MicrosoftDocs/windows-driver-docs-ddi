@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDIRECT
  - D3DDDIRECT
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIRECT structure defines a rectangle by the coordinates of its upper-lef
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_kerneloverlayinfo">D3DDDI_KERNELOVERLAYINFO</a>
+

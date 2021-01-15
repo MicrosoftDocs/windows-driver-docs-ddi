@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.GetLastErrorInfo
+ - IStiUSD::GetLastErrorInfo
 ---
 
 # IStiUSD::GetLastErrorInfo
@@ -68,3 +68,4 @@ The method should fill in the received <a href="/windows-hardware/drivers/ddi/st
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

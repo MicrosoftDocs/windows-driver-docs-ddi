@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_VBI_FRAME_INFO
+ - PKS_VBI_FRAME_INFO
  - KS_VBI_FRAME_INFO
 ---
 
@@ -189,3 +191,4 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>
+

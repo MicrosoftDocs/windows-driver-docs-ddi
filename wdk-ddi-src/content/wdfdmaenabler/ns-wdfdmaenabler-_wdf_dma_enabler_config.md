@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdmaenabler.h
 api_name:
+ - _WDF_DMA_ENABLER_CONFIG
+ - PWDF_DMA_ENABLER_CONFIG
  - WDF_DMA_ENABLER_CONFIG
 ---
 
@@ -155,3 +157,4 @@ On Windows 7 and Windows Vista, when the driver provides a nonzero value for <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetmaximumlength">WdfDmaTransactionSetMaximumLength</a>
+

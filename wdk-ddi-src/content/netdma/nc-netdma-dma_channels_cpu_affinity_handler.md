@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderSetDmaChannelCpuAffinity
+ - DMA_CHANNELS_CPU_AFFINITY_HANDLER
 ---
 
 # DMA_CHANNELS_CPU_AFFINITY_HANDLER callback function
@@ -172,3 +172,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
+

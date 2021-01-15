@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnSetHardwareProtection
+ - PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION
 ---
 
 # PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback function
@@ -82,3 +82,4 @@ Destroying and re-creating the DWM swap chain buffers is a heavyweight operation
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

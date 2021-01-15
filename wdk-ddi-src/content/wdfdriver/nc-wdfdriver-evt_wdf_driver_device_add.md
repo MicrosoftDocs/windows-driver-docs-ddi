@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdriver.h
 api_name:
- - EvtDriverDeviceAdd
+ - EVT_WDF_DRIVER_DEVICE_ADD
 ---
 
 # EVT_WDF_DRIVER_DEVICE_ADD callback function
@@ -128,3 +128,4 @@ If a filter driver's <i>EvtDriverDeviceAdd</i> callback function does not return
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
+

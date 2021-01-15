@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetStackTrace
- - IDebugControl2.GetStackTrace
- - IDebugControl3.GetStackTrace
+ - IDebugControl::GetStackTrace
 ---
 
 # IDebugControl::GetStackTrace
@@ -159,3 +157,4 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="/windows
 
 
 <a href="/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+

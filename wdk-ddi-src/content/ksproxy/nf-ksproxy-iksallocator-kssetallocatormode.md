@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsAllocator.KsSetAllocatorMode
+ - IKsAllocator::KsSetAllocatorMode
 ---
 
 # IKsAllocator::KsSetAllocatorMode
@@ -59,3 +59,4 @@ The mode in which an allocator allocates memory.
 ## -see-also
 
 [IKsAllocator](./nn-ksproxy-iksallocator.md)
+

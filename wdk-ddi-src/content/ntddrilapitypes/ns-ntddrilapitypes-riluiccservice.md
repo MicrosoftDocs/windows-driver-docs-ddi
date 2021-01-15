@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCSERVICE
+ - LPRILUICCSERVICE
 ---
 
 # RILUICCSERVICE structure (ntddrilapitypes.h)

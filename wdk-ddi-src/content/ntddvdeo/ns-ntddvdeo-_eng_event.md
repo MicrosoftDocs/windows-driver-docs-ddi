@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _ENG_EVENT
+ - PEVENT
  - ENG_EVENT
 ---
 

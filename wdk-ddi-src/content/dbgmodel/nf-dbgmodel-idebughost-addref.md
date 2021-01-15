@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHost.AddRef
+ - IDebugHost::AddRef
 ---
 
 # IDebugHost::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHost interface](nn-dbgmodel-idebughost.md)
+

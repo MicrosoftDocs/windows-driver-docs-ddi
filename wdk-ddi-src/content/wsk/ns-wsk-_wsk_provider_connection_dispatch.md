@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_PROVIDER_CONNECTION_DISPATCH
+ - PWSK_PROVIDER_CONNECTION_DISPATCH
  - WSK_PROVIDER_CONNECTION_DISPATCH
 ---
 
@@ -231,3 +233,4 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

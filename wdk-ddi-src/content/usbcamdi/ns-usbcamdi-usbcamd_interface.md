@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
+ - PUSBCAMD_INTERFACE
  - USBCAMD_INTERFACE
 ---
 
@@ -113,3 +114,4 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pfnusbcamd_waitondeviceevent">USBCAMD_WaitOnDeviceEvent</a>
+

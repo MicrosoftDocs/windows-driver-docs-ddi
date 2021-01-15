@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosEventDataHeader
  - PosEventDataHeader
 ---
 
@@ -62,3 +63,4 @@ The length, in bytes, of the image preview data.
 ## -remarks
 
 The image preview bitmap data immediately follows after this structure in memory for *DataLength* bytes.
+

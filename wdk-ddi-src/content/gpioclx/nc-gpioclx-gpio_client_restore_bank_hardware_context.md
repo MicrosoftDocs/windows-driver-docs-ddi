@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_RestoreBankHardwareContext
+ - GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT
 ---
 
 # GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT callback function
@@ -110,3 +110,4 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_save_restore_bank_hardware_context_parameters">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
+

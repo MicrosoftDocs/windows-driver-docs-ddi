@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
+ - _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
+ - PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
  - SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 ---
 
@@ -73,3 +75,4 @@ The constants in this enumeration are used by the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a>
+

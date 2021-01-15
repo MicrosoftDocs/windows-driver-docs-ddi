@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - hidport
  - hidport/hidport
+api_name:
+ - hidport
 ---
 
 # Hidport.h header

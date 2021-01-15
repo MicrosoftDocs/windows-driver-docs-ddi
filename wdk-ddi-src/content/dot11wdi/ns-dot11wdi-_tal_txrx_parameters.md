@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _TAL_TXRX_PARAMETERS
+ - PTAL_TXRX_PARAMETERS
  - TAL_TXRX_PARAMETERS
 ---
 

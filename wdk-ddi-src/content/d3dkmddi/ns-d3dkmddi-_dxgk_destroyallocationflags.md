@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_DESTROYALLOCATIONFLAGS
  - DXGK_DESTROYALLOCATIONFLAGS
 ---
 
@@ -68,3 +69,4 @@ A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_destroyallocation">DXGKARG_DESTROYALLOCATION</a>
+

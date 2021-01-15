@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_GROUP_JOIN_PARAMETERS
+ - PDOT11_WFD_GROUP_JOIN_PARAMETERS
  - DOT11_WFD_GROUP_JOIN_PARAMETERS
 product:
  - Windows 10 or later.
@@ -109,3 +111,4 @@ typedef struct _DOT11_WFD_GROUP_JOIN_PARAMETERS {
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/-oid-dot11-wfd-group-join-parameters">OID_DOT11_WFD_GROUP_JOIN_PARAMETERS</a>
+

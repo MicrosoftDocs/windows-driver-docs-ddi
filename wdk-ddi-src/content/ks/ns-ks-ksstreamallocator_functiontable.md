@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAMALLOCATOR_FUNCTIONTABLE
  - KSSTREAMALLOCATOR_FUNCTIONTABLE
 ---
 
@@ -78,3 +79,4 @@ This property is only accessible from kernel-mode.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_freeframe">KStrFreeFrame</a>
+

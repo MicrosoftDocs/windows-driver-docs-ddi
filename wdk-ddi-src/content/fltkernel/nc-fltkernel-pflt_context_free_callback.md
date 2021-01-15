@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - ContextFreeCallback
+ - PFLT_CONTEXT_FREE_CALLBACK
 ---
 
 # PFLT_CONTEXT_FREE_CALLBACK callback function
@@ -98,3 +98,4 @@ For more information about context registration, see the reference entry for <a 
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
+

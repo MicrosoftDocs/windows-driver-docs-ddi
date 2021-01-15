@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _ACL
  - ACL
 ---
 
@@ -170,3 +171,4 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
+ - _MsrTrackErrorType
  - MsrTrackErrorType
 ---
 

@@ -40,6 +40,7 @@ api_location:
  - Windot11.h
 api_name:
  - DOT11_CHANNEL_HINT
+ - PDOT11_CHANNEL_HINT
 product:
  - Windows 10 or later.
 ---
@@ -69,3 +70,4 @@ typedef struct _DOT11_CHANNEL_HINT {
   ULONG          uChannelNumber;
 } DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT;
 ```
+

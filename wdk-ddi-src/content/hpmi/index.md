@@ -12,6 +12,8 @@ tech.root: battery
 f1_keywords:
  - hpmi
  - hpmi/hpmi
+api_name:
+ - hpmi
 ---
 
 # Hpmi.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USBD_PIPE_TYPE
  - USBD_PIPE_TYPE
 ---
 
@@ -70,3 +71,4 @@ Indicates that the pipe is a interrupt pipe.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#enumerations">USB Constants and Enumerations</a>
+

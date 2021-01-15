@@ -38,10 +38,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_INTERRUPT_TYPE
  - DXGK_INTERRUPT_TYPE
 ---
 
 # _DXGK_INTERRUPT_TYPE enumeration
+
 
 ## -description
 
@@ -158,3 +160,4 @@ Raised when the suspend context has completed. Supported starting with Windows 
 [**DxgkDdiSubmitCommand**](./nc-d3dkmddi-dxgkddi_submitcommand.md)
 
 [**GetNextChunkData**](../netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_SAVE_PACKET
+ - EVT_VMB_CHANNEL_SAVE_PACKET
 ---
 
 # EVT_VMB_CHANNEL_SAVE_PACKET callback function
@@ -94,3 +94,4 @@ the length stipulated in the first call.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
+

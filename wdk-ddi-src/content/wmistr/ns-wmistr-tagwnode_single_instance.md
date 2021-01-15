@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_SINGLE_INSTANCE
+ - PWNODE_SINGLE_INSTANCE
  - WNODE_SINGLE_INSTANCE
 ---
 
@@ -90,3 +92,4 @@ A driver fills in a <b>WNODE_SINGLE_INSTANCE</b> in response to an <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

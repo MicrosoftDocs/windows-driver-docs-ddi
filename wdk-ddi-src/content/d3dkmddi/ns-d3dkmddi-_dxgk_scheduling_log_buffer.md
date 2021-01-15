@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_SCHEDULING_LOG_BUFFER
+ - DXGK_SCHEDULING_LOG_BUFFER
 dev_langs:
  - c++
 ---

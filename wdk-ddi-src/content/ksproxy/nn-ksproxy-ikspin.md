@@ -38,9 +38,6 @@ api_location:
  - ksproxy.h
 api_name:
  - IKsPin
- - IKsPin.KsReceiveAllocator
- - IKsPin.KsRenegotiateAllocator
- - IKsPin.KsQualityNotify
 ---
 
 # IKsPin interface
@@ -66,3 +63,4 @@ An interface handler (<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_TYPE
+ - PNDIS_NIC_SWITCH_TYPE
  - NDIS_NIC_SWITCH_TYPE
 ---
 
@@ -84,3 +86,4 @@ For more information about the NIC switch, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_parameters">NDIS_NIC_SWITCH_PARAMETERS</a>
+

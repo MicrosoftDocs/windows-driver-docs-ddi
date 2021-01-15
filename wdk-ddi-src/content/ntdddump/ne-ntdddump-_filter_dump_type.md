@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
+ - _FILTER_DUMP_TYPE
+ - PFILTER_DUMP_TYPE
  - FILTER_DUMP_TYPE
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Sti.h
 api_name:
+ - _STI_DEVICE_MJ_TYPE
  - STI_DEVICE_MJ_TYPE
 ---
 

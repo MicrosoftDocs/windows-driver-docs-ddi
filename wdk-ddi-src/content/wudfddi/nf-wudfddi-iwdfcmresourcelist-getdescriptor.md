@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFCmResourceList.GetDescriptor
+ - IWDFCmResourceList::GetDescriptor
 ---
 
 # IWDFCmResourceList::GetDescriptor
@@ -78,3 +78,4 @@ See example code in <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iw
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfcmresourcelist">IWDFCmResourceList</a>
+

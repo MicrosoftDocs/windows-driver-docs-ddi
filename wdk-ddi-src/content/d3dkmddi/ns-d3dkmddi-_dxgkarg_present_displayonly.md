@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARG_PRESENT_DISPLAYONLY
  - DXGKARG_PRESENT_DISPLAYONLY
 ---
 
@@ -110,3 +111,4 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

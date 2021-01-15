@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _RESOURCEMANAGER_BASIC_INFORMATION
+ - PRESOURCEMANAGER_BASIC_INFORMATION
  - RESOURCEMANAGER_BASIC_INFORMATION
 ---
 
@@ -78,3 +80,4 @@ The resource manager's description string, which the <b>Description</b> member r
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
+

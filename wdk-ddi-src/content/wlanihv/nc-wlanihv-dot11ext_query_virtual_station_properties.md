@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtQueryVirtualStationProperties
+ - DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES
 ---
 
 # DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES callback
@@ -100,3 +100,4 @@ DWORD WINAPI * Dot11ExtQueryVirtualStationProperties(
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

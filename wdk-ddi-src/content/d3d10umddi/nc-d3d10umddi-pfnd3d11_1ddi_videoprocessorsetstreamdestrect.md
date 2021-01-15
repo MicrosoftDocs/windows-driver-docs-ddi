@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamDestRect
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT
 product:
  - Windows
 ---
@@ -97,3 +97,4 @@ The default destination rectangle is an empty rectangle (0, 0, 0, 0). If the <i>
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

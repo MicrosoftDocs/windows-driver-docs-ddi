@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.GetSourceEntryStringWide
+ - IDebugSymbols3::GetSourceEntryStringWide
 ---
 
 # IDebugSymbols3::GetSourceEntryStringWide
@@ -83,3 +83,4 @@ This method can return multiple results for a source lookup. This allows for all
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

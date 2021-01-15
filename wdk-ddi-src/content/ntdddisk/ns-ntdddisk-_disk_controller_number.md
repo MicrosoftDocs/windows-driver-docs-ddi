@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_CONTROLLER_NUMBER
+ - PDISK_CONTROLLER_NUMBER
  - DISK_CONTROLLER_NUMBER
 ---
 
@@ -68,3 +70,4 @@ After DISK_CONTROLLER_NUMBER receives the controller number and the disk number,
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_controller_number">IOCTL_DISK_CONTROLLER_NUMBER</a>
+

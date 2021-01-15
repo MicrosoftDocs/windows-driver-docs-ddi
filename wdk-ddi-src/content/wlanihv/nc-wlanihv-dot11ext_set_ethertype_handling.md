@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetEtherTypeHandling
+ - DOT11EXT_SET_ETHERTYPE_HANDLING
 ---
 
 # DOT11EXT_SET_ETHERTYPE_HANDLING callback
@@ -185,3 +185,4 @@ The operating system defaults to an empty list of privacy exemptions and EtherTy
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
+

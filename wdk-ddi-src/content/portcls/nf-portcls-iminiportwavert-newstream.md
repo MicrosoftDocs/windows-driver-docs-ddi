@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRT.NewStream
+ - IMiniportWaveRT::NewStream
 ---
 
 # IMiniportWaveRT::NewStream
@@ -119,3 +119,4 @@ IMiniportWaveRTStream
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>
+

@@ -33,6 +33,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+ - D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 product:
  - Windows
 ---

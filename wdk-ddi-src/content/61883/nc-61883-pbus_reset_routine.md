@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 61883.h
 api_name:
- - BusResetRoutine
+ - PBUS_RESET_ROUTINE
 ---
 
 # PBUS_RESET_ROUTINE callback function
@@ -62,3 +62,4 @@ The bus reset information.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

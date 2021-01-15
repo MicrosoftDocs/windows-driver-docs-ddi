@@ -33,6 +33,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DIAGTYPE_NOTIFICATIONS
+ - DXGK_DIAGTYPE_NOTIFICATIONS
 product:
  - Windows
 ---

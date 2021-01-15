@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnCheckExistingResourceAllocationInfo
+ - PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ This callback function is part of a two step process of resource creation. After
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022">pfnCheckResourceAllocationInfo</a>
+

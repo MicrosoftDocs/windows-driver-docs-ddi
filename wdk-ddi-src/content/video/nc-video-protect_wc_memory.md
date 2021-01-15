@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - VideoPortProtectWCMemory
+ - PROTECT_WC_MEMORY
 ---
 
 # PROTECT_WC_MEMORY callback function
@@ -76,3 +76,4 @@ When WC memory protection is no longer required, the display miniport driver sho
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>
+

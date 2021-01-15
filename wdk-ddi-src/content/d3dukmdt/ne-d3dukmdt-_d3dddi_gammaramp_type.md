@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_GAMMARAMP_TYPE
  - D3DDDI_GAMMARAMP_TYPE
 ---
 
@@ -78,3 +79,4 @@ The <b>GammaRamp</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_color_basis">D3DKMDT_COLOR_BASIS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchRuntimeStateSaveNotifyFn
+ - FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0
 ---
 
 # FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback function
@@ -49,7 +49,6 @@ The filter engine calls the *vSwitchRuntimeStateSaveNotifyFn* (*FWPS_VSWITCH_RUN
 
 > [!NOTE]
 > *FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0* is a specific version of *FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK*. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
-
 
 ## -parameters
 
@@ -158,3 +157,4 @@ See the *vSwitchRuntimeStateRestoreNotifyFn* ([FWPS_VSWITCH_RUNTIME_STATE_RESTOR
 
 
 [OID_SWITCH_NIC_SAVE](/windows-hardware/drivers/network/oid-switch-nic-save)
+

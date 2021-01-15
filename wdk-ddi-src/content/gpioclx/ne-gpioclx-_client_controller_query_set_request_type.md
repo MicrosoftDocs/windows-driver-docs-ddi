@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+ - PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
  - CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---
 
@@ -84,3 +86,4 @@ The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a>
+

@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetValidValues
+ - CWiauPropertyList::SetValidValues
 ---
 
 # CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT) (wiautil.h)
+
 
 ## -description
 
@@ -78,3 +79,4 @@ Points to the first property in the property list. This pointer must remain vali
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
 [CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) method](nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_float_float_float).md)
+

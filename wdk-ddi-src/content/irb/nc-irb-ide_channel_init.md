@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - AtaChannelInitRoutine
+ - IDE_CHANNEL_INIT
 ---
 
 # IDE_CHANNEL_INIT callback function
@@ -100,3 +100,4 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a>
+

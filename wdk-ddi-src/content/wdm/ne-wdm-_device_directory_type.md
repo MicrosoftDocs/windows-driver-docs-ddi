@@ -32,6 +32,8 @@ api_location:
  - wdm.h
 api_name:
  - _DEVICE_DIRECTORY_TYPE
+ - PDEVICE_DIRECTORY_TYPE
+ - DEVICE_DIRECTORY_TYPE
 ---
 
 # _DEVICE_DIRECTORY_TYPE enumeration

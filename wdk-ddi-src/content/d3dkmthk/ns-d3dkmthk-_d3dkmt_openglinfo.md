@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENGLINFO
  - D3DKMT_OPENGLINFO
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD)
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _PERF_CONFIGURATION_DATA
+ - PPERF_CONFIGURATION_DATA
  - PERF_CONFIGURATION_DATA
 ---
 
@@ -196,3 +198,4 @@ For information about enabling message-signaled interrupts for a device, see <a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a>
+

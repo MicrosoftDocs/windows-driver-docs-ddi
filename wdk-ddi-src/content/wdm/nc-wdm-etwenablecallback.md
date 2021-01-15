@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - EtwEnableCallback
+ - ETWENABLECALLBACK
 ---
 
 # ETWENABLECALLBACK callback function
@@ -123,3 +123,4 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 <a href="/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor">Event Filter Descriptor</a>
+

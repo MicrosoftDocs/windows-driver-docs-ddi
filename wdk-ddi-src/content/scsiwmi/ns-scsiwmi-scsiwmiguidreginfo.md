@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
+ - PSCSIWMIGUIDREGINFO
  - SCSIWMIGUIDREGINFO
 ---
 
@@ -103,3 +104,4 @@ For more information about defining blocks, <a href="/windows-hardware/drivers/k
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
+

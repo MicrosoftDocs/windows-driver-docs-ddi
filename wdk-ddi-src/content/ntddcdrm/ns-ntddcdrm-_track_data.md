@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _TRACK_DATA
+ - PTRACK_DATA
  - TRACK_DATA
 ---
 
@@ -89,3 +91,4 @@ This structure contains table of contents information for a track.
 
 [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md
 )
+

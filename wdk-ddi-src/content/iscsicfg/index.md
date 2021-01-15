@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - iscsicfg
  - iscsicfg/iscsicfg
+api_name:
+ - iscsicfg
 ---
 
 # Iscsicfg.h header

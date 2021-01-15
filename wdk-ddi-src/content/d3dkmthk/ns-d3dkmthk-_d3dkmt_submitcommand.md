@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SUBMITCOMMAND
  - D3DKMT_SUBMITCOMMAND
 ---
 
@@ -102,3 +103,4 @@ This member is reserved for future use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommandflags">D3DDDICB_SUBMITCOMMANDFLAGS</a>
+

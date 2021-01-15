@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_ISSUEQUERY
  - D3DDDIARG_ISSUEQUERY
 ---
 
@@ -72,3 +73,4 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a>
+

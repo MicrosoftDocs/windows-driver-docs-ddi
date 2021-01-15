@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _STORAGE_DIAGNOSTIC_MP_REQUEST
+ - PSTORAGE_DIAGNOSTIC_MP_REQUEST
  - STORAGE_DIAGNOSTIC_MP_REQUEST
 ---
 
@@ -102,3 +104,4 @@ Specifies the Diagnostic data buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+

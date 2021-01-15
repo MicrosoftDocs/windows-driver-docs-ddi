@@ -37,7 +37,7 @@ api_type:
 api_location:
  - strmini.h
 api_name:
- - StrMiniReceiveDevicePacket
+ - PHW_RECEIVE_DEVICE_SRB
 ---
 
 # PHW_RECEIVE_DEVICE_SRB callback function
@@ -86,3 +86,4 @@ Upon completion of its handling of the request, the minidriver passes the struct
 See information about relevant SRB codes in <a href="/windows-hardware/drivers/stream/stream-class-srb-reference">Stream Class SRB Reference</a>.
 
 When the minidriver finishes its processing of the request, it enters the return status of the operation in <i>pSrb</i>-><b>Status</b>. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set <i>pSrb</i>-><b>Status</b> to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set <i>pSrb</i>-><b>Status</b> to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFileHandleTargetFactory.CreateFileHandleTarget
+ - IWDFFileHandleTargetFactory::CreateFileHandleTarget
 ---
 
 # IWDFFileHandleTargetFactory::CreateFileHandleTarget
@@ -153,7 +153,6 @@ if (SUCCEEDED(hr)) {
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffilehandletargetfactory">IWDFFileHandleTargetFactory</a>
@@ -165,3 +164,4 @@ if (SUCCEEDED(hr)) {
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
+

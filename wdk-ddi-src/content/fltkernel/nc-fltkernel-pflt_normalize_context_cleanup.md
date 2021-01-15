@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - NormalizeContextCleanupCallback
+ - PFLT_NORMALIZE_CONTEXT_CLEANUP
 ---
 
 # PFLT_NORMALIZE_CONTEXT_CLEANUP callback function
@@ -85,3 +85,4 @@ The filter manager calls this callback routine to allow the minifilter driver to
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDI_COMPOSERECTSOP
+ - D3DDDI_COMPOSERECTSOP
 product:
  - Windows
 dev_langs:

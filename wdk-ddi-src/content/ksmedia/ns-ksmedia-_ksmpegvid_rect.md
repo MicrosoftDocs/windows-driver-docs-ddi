@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSMPEGVID_RECT
+ - PKSMPEGVID_RECT
  - KSMPEGVID_RECT
 ---
 

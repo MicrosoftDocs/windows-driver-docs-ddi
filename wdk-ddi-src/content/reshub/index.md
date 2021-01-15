@@ -12,6 +12,8 @@ tech.root: sd
 f1_keywords:
  - reshub
  - reshub/reshub
+api_name:
+ - reshub
 ---
 
 # Reshub.h header

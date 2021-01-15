@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _D3DKM_TRANSPARENTBLTFLAGS
  - D3DKM_TRANSPARENTBLTFLAGS
 ---
 
@@ -72,3 +73,4 @@ For more information about how to use the members of this structure, see <a href
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>
+

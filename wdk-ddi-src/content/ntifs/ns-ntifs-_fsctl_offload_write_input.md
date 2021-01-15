@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSCTL_OFFLOAD_WRITE_INPUT
+ - PFSCTL_OFFLOAD_WRITE_INPUT
  - FSCTL_OFFLOAD_WRITE_INPUT
 ---
 
@@ -96,3 +98,4 @@ A byte array that contains a token structure, <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+

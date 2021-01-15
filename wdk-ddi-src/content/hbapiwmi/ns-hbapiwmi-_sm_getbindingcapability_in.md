@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetBindingCapability_IN
+ - PSM_GetBindingCapability_IN
  - SM_GetBindingCapability_IN
 ---
 

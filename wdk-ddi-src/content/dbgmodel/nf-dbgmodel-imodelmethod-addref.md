@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelMethod.AddRef
+ - IModelMethod::AddRef
 ---
 
 # IModelMethod::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IModelMethod interface](nn-dbgmodel-imodelmethod.md)
+

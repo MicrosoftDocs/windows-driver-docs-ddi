@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_CREATESYNCHRONIZATIONOBJECT
  - D3DDDICB_CREATESYNCHRONIZATIONOBJECT
 ---
 
@@ -66,3 +67,4 @@ The D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization o
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a>
+

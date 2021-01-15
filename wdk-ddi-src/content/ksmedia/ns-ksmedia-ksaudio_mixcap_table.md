@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_MIXCAP_TABLE
  - KSAUDIO_MIXCAP_TABLE
 ---
 
@@ -100,3 +101,4 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps)
 
 [KSPROPERTY_AUDIO_MIX_LEVEL_TABLE](/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table)
+

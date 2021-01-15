@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetData
+ - ExtRemoteData::GetData
 ---
 
 # ExtRemoteData::GetData
@@ -143,3 +143,4 @@ A number of convenience methods are available for various primitive types. These
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getw32bool">GetW32Bool</a>
+

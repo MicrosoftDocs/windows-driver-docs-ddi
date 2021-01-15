@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateConnector
+ - NDK_FN_CREATE_CONNECTOR
 ---
 
 # NDK_FN_CREATE_CONNECTOR callback function
@@ -150,3 +150,4 @@ The <i>NdkCreateConnector</i> function creates an NDK connector object. If the f
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>
+

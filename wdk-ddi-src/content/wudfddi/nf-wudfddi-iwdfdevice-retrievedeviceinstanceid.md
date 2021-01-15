@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.RetrieveDeviceInstanceId
+ - IWDFDevice::RetrieveDeviceInstanceId
 ---
 
 # IWDFDevice::RetrieveDeviceInstanceId
@@ -83,3 +83,4 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
+

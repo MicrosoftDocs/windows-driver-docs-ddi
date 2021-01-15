@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
+ - _TUPLE_REQUEST
+ - PTUPLE_REQUEST
  - TUPLE_REQUEST
 ---
 
@@ -60,3 +62,4 @@ Indicates the socket number.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/ni-ntddpcm-ioctl_get_tuple_data">IOCTL_GET_TUPLE_DATA</a>
+

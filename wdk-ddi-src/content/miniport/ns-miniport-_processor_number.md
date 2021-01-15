@@ -41,6 +41,8 @@ api_type:
 api_location:
  - miniport.h
 api_name:
+ - _PROCESSOR_NUMBER
+ - PPROCESSOR_NUMBER
  - PROCESSOR_NUMBER
 ---
 
@@ -92,3 +94,4 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a>
+

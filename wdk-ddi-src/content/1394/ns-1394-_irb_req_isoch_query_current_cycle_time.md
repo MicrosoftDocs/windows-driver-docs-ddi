@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
  - IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 ---
 
@@ -55,3 +56,4 @@ api_name:
 ### -field CycleTime
 
 On success, specifies the current isochronous cycle time. See the <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_cycle_time">CYCLE_TIME</a> entry for details.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_RESOURCE_DESCRIPTOR
+ - PIO_RESOURCE_DESCRIPTOR
  - IO_RESOURCE_DESCRIPTOR
 ---
 
@@ -570,3 +572,4 @@ The upper 32 bits of the 64-bit connection ID.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
+

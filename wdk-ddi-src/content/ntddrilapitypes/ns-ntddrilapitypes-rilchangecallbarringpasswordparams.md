@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCHANGECALLBARRINGPASSWORDPARAMS
+ - LPRILCHANGECALLBARRINGPASSWORDPARAMS
 ---
 
 # RILCHANGECALLBARRINGPASSWORDPARAMS structure (ntddrilapitypes.h)

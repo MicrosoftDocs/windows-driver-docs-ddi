@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_ENDPOINTS_CONFIGURE_PARAMS
+ - PUDECX_ENDPOINTS_CONFIGURE_PARAMS
  - UDECX_ENDPOINTS_CONFIGURE_PARAMS
 ---
 
@@ -92,3 +94,4 @@ The number entries in the array pointed to by <i>EndpointsToConfigure</i>. This 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
+

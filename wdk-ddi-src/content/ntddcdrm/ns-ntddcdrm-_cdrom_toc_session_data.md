@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_TOC_SESSION_DATA
+ - PCDROM_TOC_SESSION_DATA
  - CDROM_TOC_SESSION_DATA
 ---
 
@@ -80,3 +82,4 @@ Contains data for the first track of the last finished session. This data includ
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data">TRACK_DATA</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_MAC_ADDRESS
+ - PWDI_MAC_ADDRESS
  - WDI_MAC_ADDRESS
 ---
 

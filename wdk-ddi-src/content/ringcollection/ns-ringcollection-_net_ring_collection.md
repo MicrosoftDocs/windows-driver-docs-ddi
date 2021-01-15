@@ -34,6 +34,7 @@ api_type:
 api_location:
  - ringcollection.h
 api_name:
+ - _NET_RING_COLLECTION
  - NET_RING_COLLECTION
 ---
 
@@ -57,3 +58,4 @@ Call [**NetRxQueueGetRingCollection**](../netrxqueue/nf-netrxqueue-netrxqueueget
 ## -see-also
 
 [Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings)
+

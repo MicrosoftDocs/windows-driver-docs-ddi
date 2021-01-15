@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.EnumerateKey
+ - IRegistryKey::EnumerateKey
 ---
 
 # IRegistryKey::EnumerateKey
@@ -141,3 +141,4 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
+

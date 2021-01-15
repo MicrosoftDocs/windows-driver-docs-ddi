@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosBarcodeScannerCapabilitiesType
  - PosBarcodeScannerCapabilitiesType
 ---
 
@@ -66,3 +67,4 @@ Indicates whether <a href="/windows-hardware/drivers/ddi/pointofservicedriverint
 ### -field IsImagePreviewSupported
 
 Indicates whether image data can be obtained from the barcode scanner device (in other words, whether <a href="/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> events will be sent by the driver).
+

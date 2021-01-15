@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.UnmarkCancelable
+ - IWDFIoRequest::UnmarkCancelable
 ---
 
 # IWDFIoRequest::UnmarkCancelable
@@ -293,3 +293,4 @@ Also see the code example on <a href="/windows-hardware/drivers/ddi/wdfrequest/n
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-markcancelable">IWDFIoRequest::MarkCancelable</a>
+

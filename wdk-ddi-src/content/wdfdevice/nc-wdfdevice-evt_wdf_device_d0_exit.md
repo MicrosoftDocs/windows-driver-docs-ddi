@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceD0Exit
+ - EVT_WDF_DEVICE_D0_EXIT
 ---
 
 # EVT_WDF_DEVICE_D0_EXIT callback function
@@ -106,3 +106,4 @@ For more information about drivers that provide this callback function, see <a h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a>
+

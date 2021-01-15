@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PD_CONFIG
  - NDIS_PD_CONFIG
 ---
 
@@ -84,3 +85,4 @@ This structure must be aligned on an 8-byte boundary.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

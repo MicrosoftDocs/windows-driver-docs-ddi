@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_CHILD_DEVICE_TYPE
+ - PDXGK_CHILD_DEVICE_TYPE
  - DXGK_CHILD_DEVICE_TYPE
 ---
 
@@ -82,3 +84,4 @@ For more information about child devices of display adapters, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

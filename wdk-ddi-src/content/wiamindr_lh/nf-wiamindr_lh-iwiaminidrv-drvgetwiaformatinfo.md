@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvGetWiaFormatInfo
+ - IWiaMiniDrv::drvGetWiaFormatInfo
 ---
 
 # IWiaMiniDrv::drvGetWiaFormatInfo
@@ -118,3 +118,4 @@ The minidriver can define a global array to hold the WIA_FORMAT_INFO structures,
 [IWiaMiniDrv::drvFreeDrvItemContext](./nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext.md)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDATARANGE_MUSIC
  - KSDATARANGE_MUSIC
 ---
 
@@ -124,3 +125,4 @@ For information about data ranges and intersection handling, see <a href="/windo
 ## -see-also
 
 <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+

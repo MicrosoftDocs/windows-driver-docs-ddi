@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - InterruptMessageService
+ - KMESSAGE_SERVICE_ROUTINE
 ---
 
 # KMESSAGE_SERVICE_ROUTINE callback function
@@ -128,3 +128,4 @@ The KMESSAGE_SERVICE_ROUTINE function type is defined in the Wdm.h header file. 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.RawWriteData
+ - IStiDevice::RawWriteData
 ---
 
 # IStiDevice::RawWriteData
@@ -82,3 +82,4 @@ A call to <b>IStiDevice::RawWriteData</b> must be preceded by a call to <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawwritecommand">IStiDevice::RawWriteCommand</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_ACCESS_RANGE
+ - PVIDEO_ACCESS_RANGE
  - VIDEO_ACCESS_RANGE
 ---
 
@@ -181,3 +183,4 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
+

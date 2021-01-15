@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UNI_CODEPAGEINFO
+ - PUNI_CODEPAGEINFO
  - UNI_CODEPAGEINFO
 ---
 
@@ -68,3 +70,4 @@ Is an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC<
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
+

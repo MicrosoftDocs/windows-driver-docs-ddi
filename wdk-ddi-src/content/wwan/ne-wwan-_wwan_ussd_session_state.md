@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_SESSION_STATE
+ - PWWAN_USSD_SESSION_STATE
  - WWAN_USSD_SESSION_STATE
 ---
 

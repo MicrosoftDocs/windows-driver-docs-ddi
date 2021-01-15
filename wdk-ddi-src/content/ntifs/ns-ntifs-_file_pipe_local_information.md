@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_PIPE_LOCAL_INFORMATION
+ - PFILE_PIPE_LOCAL_INFORMATION
  - FILE_PIPE_LOCAL_INFORMATION
 ---
 
@@ -183,3 +185,4 @@ The type of the named pipe end, which specifies whether this is the client or th
 ## -remarks
 
 For information about pipes, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.
+

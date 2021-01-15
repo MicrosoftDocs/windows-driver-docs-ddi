@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCBMSGCONFIG
+ - LPRILCBMSGCONFIG
 ---
 
 # RILCBMSGCONFIG structure (ntddrilapitypes.h)

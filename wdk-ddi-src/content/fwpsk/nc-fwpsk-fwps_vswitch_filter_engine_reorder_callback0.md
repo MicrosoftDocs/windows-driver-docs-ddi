@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchFilterEngineReorderNotifyRn
+ - FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0
 ---
 
 # FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function
@@ -158,3 +158,4 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorder
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartcomplete">NdisFRestartComplete</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvLockWiaDevice
+ - IWiaMiniDrv::drvLockWiaDevice
 ---
 
 # IWiaMiniDrv::drvLockWiaDevice
@@ -96,3 +96,4 @@ The **IWiaMiniDrv::drvLockWiaDevice** method is used to lock access to the devic
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
 [IWiaMiniDrv::drvUnLockWiaDevice](./nf-wiamindr_lh-iwiaminidrv-drvunlockwiadevice.md)
+

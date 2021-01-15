@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
  - NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
 ---
 
@@ -110,3 +112,4 @@ The data to be sent to the MB device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session_write">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
+

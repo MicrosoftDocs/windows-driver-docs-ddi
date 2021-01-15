@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEDECODEDEVICE
  - D3DDDIARG_CREATEDECODEDEVICE
 ---
 
@@ -82,3 +83,4 @@ The D3DDDIARG_CREATEDECODEDEVICE structure describes a Microsoft DirectX Video A
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

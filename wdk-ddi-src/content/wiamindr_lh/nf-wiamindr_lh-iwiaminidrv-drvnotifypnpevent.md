@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvNotifyPnpEvent
+ - IWiaMiniDrv::drvNotifyPnpEvent
 ---
 
 # IWiaMiniDrv::drvNotifyPnpEvent
@@ -80,3 +80,4 @@ If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](/window
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)
+

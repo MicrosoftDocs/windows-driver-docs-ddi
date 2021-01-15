@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_COMPONENT_IDLE_STATE
+ - PPO_FX_COMPONENT_IDLE_STATE
  - PO_FX_COMPONENT_IDLE_STATE
 ---
 
@@ -76,3 +78,4 @@ Do not set <b>TransitionLatency</b> and <b>ResidencyRequirement</b> to <b>PO_FX_
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_v1">PO_FX_COMPONENT</a>
+

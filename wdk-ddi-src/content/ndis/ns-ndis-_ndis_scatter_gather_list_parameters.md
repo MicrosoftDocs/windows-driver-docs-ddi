@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_SCATTER_GATHER_LIST_PARAMETERS
+ - PNDIS_SCATTER_GATHER_LIST_PARAMETERS
  - NDIS_SCATTER_GATHER_LIST_PARAMETERS
 ---
 
@@ -145,3 +147,4 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

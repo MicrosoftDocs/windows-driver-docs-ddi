@@ -33,6 +33,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SAVEMEMORYFORHOTUPDATE
  - DXGKARG_SAVEMEMORYFORHOTUPDATE
 dev_langs:
  - c++

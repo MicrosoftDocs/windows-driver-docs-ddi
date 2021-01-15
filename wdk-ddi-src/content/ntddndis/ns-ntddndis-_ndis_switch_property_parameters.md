@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PROPERTY_PARAMETERS
+ - PNDIS_SWITCH_PROPERTY_PARAMETERS
  - NDIS_SWITCH_PROPERTY_PARAMETERS
 ---
 
@@ -166,3 +168,4 @@ For more information about extensible switch policies, see <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-property-update">OID_SWITCH_PROPERTY_UPDATE</a>
+

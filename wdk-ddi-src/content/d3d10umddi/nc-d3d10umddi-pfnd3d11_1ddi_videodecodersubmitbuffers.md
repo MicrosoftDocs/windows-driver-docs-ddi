@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoDecoderSubmitBuffers
+ - PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
 ---
 
 # PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function
@@ -116,3 +116,4 @@ Each <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
+

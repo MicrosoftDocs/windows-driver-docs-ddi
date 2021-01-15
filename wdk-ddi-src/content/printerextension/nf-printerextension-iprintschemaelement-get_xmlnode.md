@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaElement.XmlNode
- - IPrintSchemaElement.get_XmlNode
+ - IPrintSchemaElement::get_XmlNode
 ---
 
 # IPrintSchemaElement::get_XmlNode
@@ -79,3 +78,4 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 <a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a>
+

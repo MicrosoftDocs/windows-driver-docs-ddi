@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.Set
+ - ExtRemoteTyped::Set
 ---
 
 # ExtRemoteTyped::Set(PCSTR,ULONG64,bool,PULONG64,PCSTR)
@@ -104,3 +104,4 @@ This method does not return a value.
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList</a>
+

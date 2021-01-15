@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _ENLISTMENT_INFORMATION_CLASS
  - ENLISTMENT_INFORMATION_CLASS
 ---
 
@@ -74,3 +75,4 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationenlistment">ZwSetInformationEnlistment</a>
+

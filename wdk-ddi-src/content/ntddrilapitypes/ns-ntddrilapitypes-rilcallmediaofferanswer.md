@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLMEDIAOFFERANSWER
+ - LPRILCALLMEDIAOFFERANSWER
 ---
 
 # RILCALLMEDIAOFFERANSWER structure (ntddrilapitypes.h)

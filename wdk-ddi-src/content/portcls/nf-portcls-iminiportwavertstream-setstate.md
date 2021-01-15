@@ -34,12 +34,13 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStream.SetState
+ - IMiniportWaveRTStream::SetState
 product:
  - Windows
 ---
 
 # IMiniportWaveRTStream::SetState
+
 
 ## -description
 
@@ -76,3 +77,4 @@ The [IMiniportWaveRT::NewStream](nf-portcls-iminiportwavert-newstream.md) method
 [IMiniportWaveRT::NewStream](nf-portcls-iminiportwavert-newstream.md)
 
 [KSSTATE](../ks/ne-ks-ksstate.md)
+

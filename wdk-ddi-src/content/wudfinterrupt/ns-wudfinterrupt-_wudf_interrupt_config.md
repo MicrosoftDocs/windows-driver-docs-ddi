@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
+ - _WUDF_INTERRUPT_CONFIG
+ - PWUDF_INTERRUPT_CONFIG
  - WUDF_INTERRUPT_CONFIG
 ---
 
@@ -116,3 +118,4 @@ UMDF supports edge-triggered, line-based interrupts and message-signaled interru
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a>
+

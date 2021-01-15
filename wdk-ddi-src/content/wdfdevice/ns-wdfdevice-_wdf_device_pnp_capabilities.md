@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_PNP_CAPABILITIES
+ - PWDF_DEVICE_PNP_CAPABILITIES
  - WDF_DEVICE_PNP_CAPABILITIES
 ---
 
@@ -172,3 +174,4 @@ To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a h
 
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassignrawdevice">WdfPdoInitAssignRawDevice</a>
+

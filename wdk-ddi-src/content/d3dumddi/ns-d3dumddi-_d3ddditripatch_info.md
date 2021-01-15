@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDITRIPATCH_INFO
+ - D3DDDITRIPATCH_INFO
 dev_langs:
  - c++
 ---

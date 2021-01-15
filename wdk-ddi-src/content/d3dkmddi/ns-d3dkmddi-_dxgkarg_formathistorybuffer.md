@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARG_FORMATHISTORYBUFFER
  - DXGKARG_FORMATHISTORYBUFFER
 ---
 
@@ -102,3 +103,4 @@ The driver should obtain time stamp entries and the number of usable time stamps
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_formathistorybuffer">DxgkDdiFormatHistoryBuffer</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
+ - _VMB_CHANNEL_STATE_CHANGE_CALLBACKS
+ - PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
  - VMB_CHANNEL_STATE_CHANGE_CALLBACKS
 ---
 

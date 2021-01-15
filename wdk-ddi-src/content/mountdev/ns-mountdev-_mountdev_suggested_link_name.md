@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountdev.h
 api_name:
+ - _MOUNTDEV_SUGGESTED_LINK_NAME
+ - PMOUNTDEV_SUGGESTED_LINK_NAME
  - MOUNTDEV_SUGGESTED_LINK_NAME
 ---
 

@@ -34,6 +34,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_NODEMETADATA_FLAGS
+ - DXGK_NODEMETADATA_FLAGS
 dev_langs:
  - c++
 ---

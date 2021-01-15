@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_AGNSS_REQUEST_PARAM
  - GNSS_AGNSS_REQUEST_PARAM
 ---
 

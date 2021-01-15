@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _GET_LOCAL_HOST_INFO6
+ - PGET_LOCAL_HOST_INFO6
  - GET_LOCAL_HOST_INFO6
 ---
 
@@ -105,3 +107,4 @@ When submitted in a REQUEST_GET_LOCAL_HOST_INFO request, if the <b>CsrDataLength
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
  - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 ---
 
@@ -201,3 +203,4 @@ The <i>InputBuffer</i> parameter of the <a href="/windows-hardware/drivers/ddi/g
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a>
+

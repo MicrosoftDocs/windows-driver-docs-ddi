@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_INT13_DRIVE_PARAMETER
+ - PCM_INT13_DRIVE_PARAMETER
  - CM_INT13_DRIVE_PARAMETER
 ---
 
@@ -80,3 +82,4 @@ The number of drives.
 
 
 <a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+

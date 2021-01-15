@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetVideoDecoderConfig
+ - PFND3D11_1DDI_GETVIDEODECODERCONFIG
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERCONFIG callback function
@@ -88,3 +88,4 @@ The Microsoft Direct3D runtime verifies that the <i>pDecodeDesc</i> and <i>Index
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfigcount">GetVideoDecoderConfigCount</a>
+

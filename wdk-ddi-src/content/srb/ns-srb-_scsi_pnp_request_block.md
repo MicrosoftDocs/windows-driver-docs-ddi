@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _SCSI_PNP_REQUEST_BLOCK
+ - PSCSI_PNP_REQUEST_BLOCK
  - SCSI_PNP_REQUEST_BLOCK
 ---
 
@@ -231,3 +233,4 @@ The Storport driver calls <a href="/windows-hardware/drivers/ddi/storport/nc-sto
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
+

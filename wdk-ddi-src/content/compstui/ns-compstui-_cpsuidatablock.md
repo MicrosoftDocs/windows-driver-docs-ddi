@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _CPSUIDATABLOCK
+ - PCPSUIDATABLOCK
  - CPSUIDATABLOCK
 ---
 
@@ -60,3 +62,4 @@ Size, in bytes of the buffer pointed to by <b>pbData</b>.
 ### -field pbData
 
 Pointer to a caller-allocated buffer.
+

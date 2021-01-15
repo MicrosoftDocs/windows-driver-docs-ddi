@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - DebugExtensionCanUnload
+ - PDEBUG_EXTENSION_CANUNLOAD
 ---
 
 # PDEBUG_EXTENSION_CANUNLOAD callback function
@@ -50,7 +50,6 @@ The <i>DebugExtensionCanUnload</i> callback function checks whether a debug exte
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;
 ```
-
 
 ## -parameters
 
@@ -94,3 +93,4 @@ This callback function is the debugger's equivalent of <a href="/windows/win32/a
 
 
 <a href="/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a>
+

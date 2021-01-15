@@ -29,6 +29,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_SAE_STATUS
  - WDI_SAE_STATUS
 ---
 
@@ -140,3 +141,4 @@ This enumeration is a value in both the [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-h
 [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
 
 [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)
+

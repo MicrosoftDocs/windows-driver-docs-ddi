@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARALLEL_CHIP_MODE
+ - PPARALLEL_CHIP_MODE
  - PARALLEL_CHIP_MODE
 ---
 
@@ -100,3 +102,4 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+

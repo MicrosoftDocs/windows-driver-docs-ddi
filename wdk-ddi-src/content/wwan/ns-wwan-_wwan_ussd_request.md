@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_REQUEST
+ - PWWAN_USSD_REQUEST
  - WWAN_USSD_REQUEST
 ---
 
@@ -68,3 +70,4 @@ The USSD string that accompanies the request.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_string">WWAN_USSD_STRING</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IXpsDocumentConsumer.SendXpsDocument
+ - IXpsDocumentConsumer::SendXpsDocument
 ---
 
 # IXpsDocumentConsumer::SendXpsDocument
@@ -71,3 +71,4 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ixpsdocumentconsumer">IXpsDocumentConsumer</a>
+

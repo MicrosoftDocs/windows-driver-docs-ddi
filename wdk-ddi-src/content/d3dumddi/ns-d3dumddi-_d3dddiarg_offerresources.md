@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_OFFERRESOURCES
  - D3DDDIARG_OFFERRESOURCES
 ---
 
@@ -74,3 +75,4 @@ This structure is pointed to by  the <i>pData</i> parameter of the <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">OfferResources</a>
+

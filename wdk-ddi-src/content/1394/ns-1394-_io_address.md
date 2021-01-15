@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IO_ADDRESS
+ - PIO_ADDRESS
  - IO_ADDRESS
 ---
 
@@ -84,3 +86,4 @@ Holds a structure of type <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_a
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
+

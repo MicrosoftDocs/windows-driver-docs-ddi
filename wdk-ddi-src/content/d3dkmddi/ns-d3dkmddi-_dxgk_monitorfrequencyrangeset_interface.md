@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MONITORFREQUENCYRANGESET_INTERFACE
  - DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ---
 
@@ -66,3 +67,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxg
 ### -field pfnReleaseFrequencyRangeInfo
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo">pfnReleaseFrequencyRangeInfo</a> function.
+

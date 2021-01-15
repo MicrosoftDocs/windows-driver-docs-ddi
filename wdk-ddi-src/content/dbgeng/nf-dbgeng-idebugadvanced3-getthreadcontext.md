@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced.GetThreadContext
- - IDebugAdvanced2.GetThreadContext
- - IDebugAdvanced3.GetThreadContext
+ - IDebugAdvanced3::GetThreadContext
 ---
 
 # IDebugAdvanced3::GetThreadContext
@@ -109,3 +107,4 @@ For more information about the thread context, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-setthreadcontext">SetThreadContext</a>
+

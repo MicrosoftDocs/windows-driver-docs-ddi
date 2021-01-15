@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnDestroyCryptoSession
+ - PFND3D11_1DDI_DESTROYCRYPTOSESSION
 product:
  - Windows
 ---
@@ -58,3 +58,4 @@ A handle to the display device (graphics context).
 ### -param hCryptoSession
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>.
+

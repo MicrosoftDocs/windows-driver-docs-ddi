@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.DumpItemData
+ - IWiaDrvItem::DumpItemData
 ---
 
 # IWiaDrvItem::DumpItemData

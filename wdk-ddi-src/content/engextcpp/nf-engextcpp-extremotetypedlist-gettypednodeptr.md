@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTypedList.GetTypedNodePtr
+ - ExtRemoteTypedList::GetTypedNodePtr
 ---
 
 # ExtRemoteTypedList::GetTypedNodePtr

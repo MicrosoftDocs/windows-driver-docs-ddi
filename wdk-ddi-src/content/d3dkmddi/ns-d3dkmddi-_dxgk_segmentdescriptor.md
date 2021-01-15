@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SEGMENTDESCRIPTOR
  - DXGK_SEGMENTDESCRIPTOR
 ---
 
@@ -139,3 +140,4 @@ Note that for an AGP-type aperture segment, the driver must exclusively set the 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.CommandCallback
+ - IPrintOemUni::CommandCallback
 ---
 
 # IPrintOemUni::CommandCallback
@@ -129,3 +129,4 @@ The method is responsible for constructing a printer command, and then sending t
 The value supplied for <i>piResult</i> should always return zero unless the method is processing a cursor command. For <a href="/windows-hardware/drivers/print/cursor-commands">cursor commands</a> that move the cursor in either the <i>x</i> or <i></i> direction, the method should return the new cursor position.
 
 The <code>IPrintOemUni::CommandCallback</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "CommandCallback" as input.
+

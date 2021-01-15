@@ -39,6 +39,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
+ - _FA_ENTRY_TYPE
  - FA_ENTRY_TYPE
 ---
 
@@ -114,3 +115,4 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+

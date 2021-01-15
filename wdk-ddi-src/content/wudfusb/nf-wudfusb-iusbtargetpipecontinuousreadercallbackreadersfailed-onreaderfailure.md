@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wudfusb.h
 api_name:
- - IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
+ - IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 ---
 
 # IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
@@ -88,3 +88,4 @@ For more information about the <b>OnReaderFailure</b> callback function and USB 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpar.h
 api_name:
+ - _PAR_QUERY_INFORMATION
+ - PPAR_QUERY_INFORMATION
  - PAR_QUERY_INFORMATION
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
  - D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 ---
 
@@ -78,3 +79,4 @@ If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the C
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a>
+

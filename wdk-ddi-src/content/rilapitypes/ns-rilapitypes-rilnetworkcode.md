@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILNETWORKCODE
+ - LPRILNETWORKCODE
 ---
 
 # RILNETWORKCODE structure (rilapitypes.h)

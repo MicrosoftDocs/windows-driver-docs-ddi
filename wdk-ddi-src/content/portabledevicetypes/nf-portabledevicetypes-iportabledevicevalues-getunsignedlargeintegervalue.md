@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetUnsignedLargeIntegerValue
+ - IPortableDeviceValues::GetUnsignedLargeIntegerValue
 ---
 
 # IPortableDeviceValues::GetUnsignedLargeIntegerValue
@@ -115,3 +115,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setunsignedlargeintegervalue">IPortableDeviceValues::SetUnsignedLargeIntegerValue</a>
+

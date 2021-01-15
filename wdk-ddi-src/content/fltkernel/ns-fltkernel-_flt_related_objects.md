@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_RELATED_OBJECTS
+ - PFLT_RELATED_OBJECTS
  - FLT_RELATED_OBJECTS
 ---
 
@@ -150,3 +152,4 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+

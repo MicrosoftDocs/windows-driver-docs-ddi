@@ -41,6 +41,8 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
+ - _VIDEO_PORT_AGP_SERVICES
+ - PVIDEO_PORT_AGP_SERVICES
  - VIDEO_PORT_AGP_SERVICES
 ---
 
@@ -72,3 +74,4 @@ The VIDEO_PORT_AGP_SERVICES structure describes the AGP service routines provide
 ### -field AgpFreeVirtual
 
 ### -field AllocationLimit
+

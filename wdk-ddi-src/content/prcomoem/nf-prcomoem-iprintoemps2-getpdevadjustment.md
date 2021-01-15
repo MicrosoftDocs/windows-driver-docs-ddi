@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPS2.GetPDEVAdjustment
+ - IPrintOemPS2::GetPDEVAdjustment
 ---
 
 # IPrintOemPS2::GetPDEVAdjustment
@@ -132,3 +132,4 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
+

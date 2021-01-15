@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces2.QueryVirtual
+ - IDebugDataSpaces2::QueryVirtual
 ---
 
 # IDebugDataSpaces2::QueryVirtual
@@ -90,3 +90,4 @@ This method returns attributes for a range of pages.  This range is determined b
 MEMORY_BASIC_INFORMATION64 appears in the Microsoft Windows SDK header file winnt.h.  It is the 64-bit equivalent of MEMORY_BASIC_INFORMATION, which is described in the Windows SDK documentation.
 
 This method behaves in a similar way to the Windows SDK function <b>VirtualQuery</b>.  See Windows SDK documentation for details.
+

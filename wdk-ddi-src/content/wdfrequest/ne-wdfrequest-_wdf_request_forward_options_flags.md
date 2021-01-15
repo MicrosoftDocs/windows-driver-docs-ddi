@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_FORWARD_OPTIONS_FLAGS
  - WDF_REQUEST_FORWARD_OPTIONS_FLAGS
 ---
 
@@ -64,3 +65,4 @@ Currently, drivers must set the WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET flag.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_forward_options">WDF_REQUEST_FORWARD_OPTIONS</a>
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvStopPostAssociate
+ - DOT11EXTIHV_STOP_POST_ASSOCIATE
 ---
 
 # DOT11EXTIHV_STOP_POST_ASSOCIATE callback
@@ -161,3 +161,4 @@ For more information about the post-association operation, see
 
 
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+

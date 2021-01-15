@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbfnioctl
  - usbfnioctl/usbfnioctl
+api_name:
+ - usbfnioctl
 ---
 
 # Usbfnioctl.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sti.h
 api_name:
+ - _STISUBSCRIBE
+ - LPSTISUBSCRIBE
  - STISUBSCRIBE
 ---
 
@@ -88,3 +90,4 @@ Handle to a Win32 event created with **CreateEvent**, which the event monitor wi
 ### -field uiNotificationMessage
 
 Window message that should be passed to the **dwWndNotify** window when an event occurs.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY
+ - PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY
  - NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY
 ---
 
@@ -121,3 +123,4 @@ The default isolation ID that will be set on all sent or received packets if unt
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-isolation-parameters">OID_GEN_ISOLATION_PARAMETERS</a>
+

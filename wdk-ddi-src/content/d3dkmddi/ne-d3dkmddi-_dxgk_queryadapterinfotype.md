@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_QUERYADAPTERINFOTYPE
  - DXGK_QUERYADAPTERINFOTYPE
 dev_langs:
  - c++

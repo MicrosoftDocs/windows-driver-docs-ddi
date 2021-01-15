@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoDefault
+ - EVT_WDF_IO_QUEUE_IO_DEFAULT
 ---
 
 # EVT_WDF_IO_QUEUE_IO_DEFAULT callback function
@@ -114,3 +114,4 @@ A driver's <i>EvtIoDefault</i> callback function should not call the following q
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
+

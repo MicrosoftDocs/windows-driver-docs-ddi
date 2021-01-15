@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_DEVICE_DESCRIPTOR
+ - PUSB_DEVICE_DESCRIPTOR
  - USB_DEVICE_DESCRIPTOR
 ---
 
@@ -127,3 +129,4 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+

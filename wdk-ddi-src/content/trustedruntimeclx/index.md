@@ -13,12 +13,16 @@ ms.custom: RS5
 f1_keywords:
  - trustedruntimeclx
  - trustedruntimeclx/trustedruntimeclx
+api_name:
+ - trustedruntimeclx
 ---
 
 # Trustedruntimeclx.h header
+
 
 ## -description
 
 This header is used by treedrv. For more information, see:
 
 - [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>
+

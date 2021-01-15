@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_PrepareController
+ - GPIO_CLIENT_PREPARE_CONTROLLER
 ---
 
 # GPIO_CLIENT_PREPARE_CONTROLLER callback function
@@ -133,3 +133,4 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

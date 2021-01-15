@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.Init
+ - CWiauPropertyList::Init
 ---
 
 # CWiauPropertyList::Init

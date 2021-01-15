@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FilterSendNetBufferListsComplete
+ - FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
 ---
 
 # FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback function
@@ -196,3 +196,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

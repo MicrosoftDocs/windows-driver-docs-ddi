@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_END_OF_FILE_INFORMATION
+ - PFILE_END_OF_FILE_INFORMATION
  - FILE_END_OF_FILE_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ The absolute new end of file position as a byte offset from the start of the fil
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

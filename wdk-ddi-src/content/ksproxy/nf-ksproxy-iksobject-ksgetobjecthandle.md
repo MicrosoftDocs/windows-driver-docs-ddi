@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsObject.KsGetObjectHandle
+ - IKsObject::KsGetObjectHandle
 ---
 
 # IKsObject::KsGetObjectHandle
@@ -58,3 +58,4 @@ Applications can use the handle that <b>KsGetObjectHandle</b> returns to send co
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-kssynchronousdevicecontrol">KsSynchronousDeviceControl</a>
+

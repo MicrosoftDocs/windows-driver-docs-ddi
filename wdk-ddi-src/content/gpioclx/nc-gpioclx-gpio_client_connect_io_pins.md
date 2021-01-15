@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ConnectIoPins
+ - GPIO_CLIENT_CONNECT_IO_PINS
 ---
 
 # GPIO_CLIENT_CONNECT_IO_PINS callback function
@@ -111,3 +111,4 @@ The GPIO_CLIENT_CONNECT_IO_PINS function type is defined in the Gpioclx.h header
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

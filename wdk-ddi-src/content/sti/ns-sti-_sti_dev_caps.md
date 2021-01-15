@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sti.h
 api_name:
+ - _STI_DEV_CAPS
+ - PSTI_DEV_CAPS
  - STI_DEV_CAPS
 ---
 
@@ -106,3 +108,4 @@ A driver with more features exists. An IHV driver with a full set of features sh
 The user-mode still image driver is WIA-capable.
 
 The values assigned to these flags are based on registry contents that the <b>Capabilities</b> entry for the device's setup information (INF) file supplies. See <a href="/windows-hardware/drivers/image/inf-files-for-still-image-devices">INF Files for Still Image Devices</a>.
+

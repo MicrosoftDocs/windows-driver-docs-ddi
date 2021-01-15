@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_LIST_POOL_PARAMETERS
+ - PNET_BUFFER_LIST_POOL_PARAMETERS
  - NET_BUFFER_LIST_POOL_PARAMETERS
 ---
 
@@ -168,3 +170,4 @@ The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/nd
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a>
+

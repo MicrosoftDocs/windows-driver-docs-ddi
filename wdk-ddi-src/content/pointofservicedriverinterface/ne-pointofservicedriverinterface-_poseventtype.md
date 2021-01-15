@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
+ - _PosEventType
  - PosEventType
 ---
 
@@ -112,3 +113,4 @@ Represents the DrawerOpened event.
 ### -field _Max
 
 Represents the _Max event.
+

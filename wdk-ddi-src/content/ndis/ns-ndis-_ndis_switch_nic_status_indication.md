@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_STATUS_INDICATION
+ - PNDIS_SWITCH_NIC_STATUS_INDICATION
  - NDIS_SWITCH_NIC_STATUS_INDICATION
 ---
 
@@ -132,3 +134,4 @@ For guidelines on how to issue NDIS status indications from underlying physical 
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_nic_status_indication">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
+

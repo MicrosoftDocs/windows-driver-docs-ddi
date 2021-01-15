@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - DMA_ TRANSFER _INFO_V1
+ - _DMA_TRANSFER_INFO_V1
+ - PDMA_TRANSFER_INFO_V1
+ - DMA_TRANSFER_INFO_V1
 ---
 
 # _DMA_TRANSFER_INFO_V1 structure
@@ -82,3 +84,4 @@ The <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters to the <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

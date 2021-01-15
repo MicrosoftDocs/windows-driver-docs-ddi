@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwUnlockFile
  - NtUnlockFile
 ---
 
@@ -114,3 +113,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/previous-versions/ff566474(v=vs.85)">NtLockFile</a>
+

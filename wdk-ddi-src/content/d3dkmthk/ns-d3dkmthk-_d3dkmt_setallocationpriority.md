@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SETALLOCATIONPRIORITY
  - D3DKMT_SETALLOCATIONPRIORITY
 ---
 
@@ -88,3 +89,4 @@ For more information about the meanings of the preceding values, see the Remarks
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetallocationpriority">D3DKMTSetAllocationPriority</a>
+

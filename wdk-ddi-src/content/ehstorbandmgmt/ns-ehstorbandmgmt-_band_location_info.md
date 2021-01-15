@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _BAND_LOCATION_INFO
+ - PBAND_LOCATION_INFO
  - BAND_LOCATION_INFO
 ---
 
@@ -88,3 +90,4 @@ A metadata field used as a data area for a band management application.
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+

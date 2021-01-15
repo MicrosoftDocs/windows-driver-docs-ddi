@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SRV_INSTANCE_TYPE
+ - PSRV_INSTANCE_TYPE
  - SRV_INSTANCE_TYPE
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
- - PEVT_UCX_ROOTHUB_GET_INFO
+ - EVT_UCX_ROOTHUB_GET_INFO
 ---
 
 # EVT_UCX_ROOTHUB_GET_INFO callback function
@@ -122,7 +122,7 @@ RootHub_EvtRootHubGetInfo:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_info">_ROOTHUB_INFO</a>
+

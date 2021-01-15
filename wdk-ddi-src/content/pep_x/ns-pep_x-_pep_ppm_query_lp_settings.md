@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PPM_QUERY_LP_SETTINGS
+ - PPEP_PPM_QUERY_LP_SETTINGS
  - PEP_PPM_QUERY_LP_SETTINGS
 ---
 
@@ -66,3 +68,4 @@ The PEP can provide settings for certain key power scenarios such as full-screen
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_lp_settings">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PBLOCK_DEVICE_TOKEN_DESCRIPTOR
  - BLOCK_DEVICE_TOKEN_DESCRIPTOR
 ---
 
@@ -62,3 +63,4 @@ A data value defining a token as a point-in-time representation of data (ROD) fo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+

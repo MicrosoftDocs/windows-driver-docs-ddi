@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - ISensorClassExtension.PostStateChange
+ - ISensorClassExtension::PostStateChange
 ---
 
 # ISensorClassExtension::PostStateChange
@@ -117,3 +117,4 @@ HRESULT PostStateEvent()
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents">ISensorDriver::OnClientUnsubscribeFromEvents</a>
+

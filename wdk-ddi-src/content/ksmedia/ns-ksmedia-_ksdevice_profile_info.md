@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSDEVICE_PROFILE_INFO
+ - PKSDEVICE_PROFILE_INFO
  - KSDEVICE_PROFILE_INFO
 ---
 
@@ -90,3 +92,4 @@ An array of **KSCAMERA_PROFILE_CONCURRENCYINFO** structures describing the concu
 If **CountOfConcurrency** is 0, this parameter must be **NULL**.
 
 If **CountOfConcurrency** is greater than 0, this parameter must not be **NULL**.
+

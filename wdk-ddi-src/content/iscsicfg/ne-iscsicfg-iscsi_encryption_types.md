@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - PISCSI_ENCRYPTION_TYPES
  - ISCSI_ENCRYPTION_TYPES
 ---
 
@@ -74,3 +75,4 @@ The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>
+

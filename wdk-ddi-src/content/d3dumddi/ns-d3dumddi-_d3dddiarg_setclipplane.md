@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETCLIPPLANE
  - D3DDDIARG_SETCLIPPLANE
 ---
 
@@ -66,3 +67,4 @@ The general plane equation in standard form is A<i>x</i> + B<i>y</i> + C<i>z</i>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setclipplane">SetClipPlane</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkQueryAdapterInfo
+ - NDK_FN_QUERY_ADAPTER_INFO
 ---
 
 # NDK_FN_QUERY_ADAPTER_INFO callback function
@@ -127,3 +127,4 @@ An error occurred.
 
 
 <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
+

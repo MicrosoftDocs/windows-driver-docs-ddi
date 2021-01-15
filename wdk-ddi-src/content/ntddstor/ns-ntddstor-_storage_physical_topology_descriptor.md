@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
+ - PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
  - STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 ---
 
@@ -82,3 +84,4 @@ The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is returned from an [IOCTL_ST
 [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md)
 
 [STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md)
+

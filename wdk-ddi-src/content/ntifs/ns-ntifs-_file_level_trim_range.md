@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_LEVEL_TRIM_RANGE
+ - PFILE_LEVEL_TRIM_RANGE
  - FILE_LEVEL_TRIM_RANGE
 ---
 
@@ -68,3 +70,4 @@ Due to alignment requirements, the file system may reduce the of the trim range 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim">FILE_LEVEL_TRIM</a>
+

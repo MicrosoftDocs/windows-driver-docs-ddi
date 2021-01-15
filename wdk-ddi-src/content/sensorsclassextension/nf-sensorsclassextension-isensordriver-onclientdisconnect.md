@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - ISensorDriver.OnClientDisconnect
+ - ISensorDriver::OnClientDisconnect
 ---
 
 # ISensorDriver::OnClientDisconnect
@@ -152,3 +152,4 @@ HRESULT CSensorDdi:: OnClientDisconnect(
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientconnect">ISensorDriver::OnClientConnect</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_SAVE_KEY_INFORMATION
+ - PREG_SAVE_KEY_INFORMATION
  - REG_SAVE_KEY_INFORMATION
 ---
 
@@ -109,3 +111,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+

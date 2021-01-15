@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
+ - PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
  - KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 ---
 
@@ -60,3 +62,4 @@ See the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_ex
 ### -field Reserved
 
 Reserved for future use.
+

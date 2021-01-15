@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptHostContext.Release
+ - IDataModelScriptHostContext::Release
 ---
 
 # IDataModelScriptHostContext::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelScriptHostContext interface](nn-dbgmodel-idatamodelscripthostcontext.md)
+

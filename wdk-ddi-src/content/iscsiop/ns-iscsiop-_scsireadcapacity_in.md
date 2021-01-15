@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _ScsiReadCapacity_IN
+ - PScsiReadCapacity_IN
  - ScsiReadCapacity_IN
 ---
 
@@ -80,3 +82,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_scsireadcapacity_out">ScsiReadCapacity_OUT</a>
+

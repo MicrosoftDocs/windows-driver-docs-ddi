@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_MODULE_PARAMETERS
+ - PDEBUG_MODULE_PARAMETERS
  - DEBUG_MODULE_PARAMETERS
 ---
 
@@ -232,3 +234,4 @@ This structure is returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-d
 To locate the different names for the module, use <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenamestring">GetModuleNameString</a>.
 
 For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.  For details about the different names for the module, see <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenamestring">GetModuleNameString</a>.
+

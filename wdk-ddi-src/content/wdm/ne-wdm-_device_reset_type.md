@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_RESET_TYPE
  - DEVICE_RESET_TYPE
 ---
 
@@ -69,3 +70,4 @@ A platform-level device reset, which affects a specific device and all other dev
 
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
+

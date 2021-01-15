@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.RetrieveInputMemory
+ - IWDFIoRequest2::RetrieveInputMemory
 ---
 
 # IWDFIoRequest2::RetrieveInputMemory
@@ -154,7 +154,6 @@ Exit:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
@@ -178,3 +177,4 @@ Exit:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>
+

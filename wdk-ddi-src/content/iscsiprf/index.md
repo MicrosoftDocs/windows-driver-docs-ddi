@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - iscsiprf
  - iscsiprf/iscsiprf
+api_name:
+ - iscsiprf
 ---
 
 # Iscsiprf.h header

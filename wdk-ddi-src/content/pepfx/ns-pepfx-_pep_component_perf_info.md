@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COMPONENT_PERF_INFO
+ - PPEP_COMPONENT_PERF_INFO
  - PEP_COMPONENT_PERF_INFO
 ---
 
@@ -82,3 +84,4 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_component_perf_states">PEP_REGISTER_COMPONENT_PERF_STATES</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.RetrievePipePolicy
+ - IWDFUsbTargetPipe::RetrievePipePolicy
 ---
 
 # IWDFUsbTargetPipe::RetrievePipePolicy
@@ -133,3 +133,4 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>
+

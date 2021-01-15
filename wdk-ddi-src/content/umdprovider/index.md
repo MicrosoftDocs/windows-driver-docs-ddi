@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - umdprovider
  - umdprovider/umdprovider
+api_name:
+ - umdprovider
 ---
 
 # Umdprovider.h header

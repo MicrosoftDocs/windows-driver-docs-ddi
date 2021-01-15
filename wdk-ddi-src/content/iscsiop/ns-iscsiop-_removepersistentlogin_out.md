@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _RemovePersistentLogin_OUT
+ - PRemovePersistentLogin_OUT
  - RemovePersistentLogin_OUT
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removepersistentlogin_in">RemovePersistentLogin_IN</a>
+

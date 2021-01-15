@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamNewVideoFrameEx
+ - PCAM_NEW_FRAME_ROUTINE_EX
 ---
 
 # PCAM_NEW_FRAME_ROUTINE_EX callback function

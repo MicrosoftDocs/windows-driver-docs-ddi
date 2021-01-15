@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_RemovePersistentBinding_IN
+ - PSM_RemovePersistentBinding_IN
  - SM_RemovePersistentBinding_IN
 ---
 

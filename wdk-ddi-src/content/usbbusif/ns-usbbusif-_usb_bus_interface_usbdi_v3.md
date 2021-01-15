@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
+ - _USB_BUS_INTERFACE_USBDI_V3
+ - PUSB_BUS_INTERFACE_USBDI_V3
  - USB_BUS_INTERFACE_USBDI_V3
 ---
 
@@ -165,3 +167,4 @@ The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_CARD_EMULATION_MODE
+ - PSECURE_ELEMENT_CARD_EMULATION_MODE
  - SECURE_ELEMENT_CARD_EMULATION_MODE
 ---
 

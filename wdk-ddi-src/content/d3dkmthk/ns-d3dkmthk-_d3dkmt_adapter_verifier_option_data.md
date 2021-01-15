@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA
+ - D3DKMT_ADAPTER_VERIFIER_OPTION_DATA
 dev_langs:
  - c++
 ---

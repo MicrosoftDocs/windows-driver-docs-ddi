@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.GetInfo
+ - IWDFInterrupt::GetInfo
 ---
 
 # IWDFInterrupt::GetInfo
@@ -80,7 +80,6 @@ pInterrupt>GetInfo(&Info);
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
@@ -100,3 +99,4 @@ pInterrupt>GetInfo(&Info);
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>
+

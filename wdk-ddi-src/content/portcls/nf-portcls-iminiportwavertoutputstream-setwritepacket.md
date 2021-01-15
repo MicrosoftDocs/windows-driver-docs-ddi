@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTOutputStream.SetWritePacket
+ - IMiniportWaveRTOutputStream::SetWritePacket
 ---
 
 # IMiniportWaveRTOutputStream::SetWritePacket
@@ -100,3 +100,4 @@ Depending on hardware capabilities, if the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>
+

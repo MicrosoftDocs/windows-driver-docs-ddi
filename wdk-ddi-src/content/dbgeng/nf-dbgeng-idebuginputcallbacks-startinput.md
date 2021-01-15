@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugInputCallbacks.StartInput
+ - IDebugInputCallbacks::StartInput
 ---
 
 # IDebugInputCallbacks::StartInput
@@ -67,3 +67,4 @@ After calling this method, the engine waits until it receives some input.  When 
 The <b>IDebugInputCallbacks</b> object can provide the engine with a line of input by calling either the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-returninput">ReturnInput</a> or <b>ReturnInputWide</b> methods.
 
 For more information about debugger engine input, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

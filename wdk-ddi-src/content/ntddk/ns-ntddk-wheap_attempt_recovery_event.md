@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_ATTEMPT_RECOVERY_EVENT
+ - PWHEAP_ATTEMPT_RECOVERY_EVENT
  - WHEAP_ATTEMPT_RECOVERY_EVENT
 product:
  - Windows

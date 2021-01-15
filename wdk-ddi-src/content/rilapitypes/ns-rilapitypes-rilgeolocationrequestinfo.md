@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILGEOLOCATIONREQUESTINFO
+ - LPRILGEOLOCATIONREQUESTINFO
 ---
 
 # RILGEOLOCATIONREQUESTINFO structure (rilapitypes.h)

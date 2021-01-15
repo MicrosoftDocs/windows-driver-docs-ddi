@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS
+ - D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS
 dev_langs:
  - c++
 ---

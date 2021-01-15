@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
+ - D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
 dev_langs:
  - c++
 ---

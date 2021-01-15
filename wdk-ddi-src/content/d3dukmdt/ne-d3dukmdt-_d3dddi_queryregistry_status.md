@@ -30,6 +30,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_QUERYREGISTRY_STATUS
+ - D3DDDI_QUERYREGISTRY_STATUS
 product:
  - Windows
 ---

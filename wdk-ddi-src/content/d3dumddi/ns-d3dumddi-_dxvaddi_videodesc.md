@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEODESC
  - DXVADDI_VIDEODESC
 ---
 
@@ -94,3 +95,4 @@ The DXVADDI_VIDEODESC structure describes a video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_frequency">DXVADDI_FREQUENCY</a>
+

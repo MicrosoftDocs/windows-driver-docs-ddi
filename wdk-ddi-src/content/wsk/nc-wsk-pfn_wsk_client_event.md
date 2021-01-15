@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskClientEvent
+ - PFN_WSK_CLIENT_EVENT
 ---
 
 # PFN_WSK_CLIENT_EVENT callback function
@@ -143,3 +143,4 @@ A WSK application's <i>WskClientEvent</i> event callback function must not wait 
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
+

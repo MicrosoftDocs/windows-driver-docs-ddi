@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
+ - _SCSIWMILIB_CONTEXT
+ - PSCSI_WMILIB_CONTEXT
  - SCSI_WMILIB_CONTEXT
 ---
 
@@ -125,3 +127,4 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
+

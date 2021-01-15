@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiFunctionControl
+ - PSCSIWMI_FUNCTION_CONTROL
 ---
 
 # PSCSIWMI_FUNCTION_CONTROL callback function
@@ -104,3 +104,4 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

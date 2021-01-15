@@ -37,7 +37,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXpsRasterizer.SetMinimalLineWidth
+ - IXpsRasterizer::SetMinimalLineWidth
 ---
 
 # IXpsRasterizer::SetMinimalLineWidth
@@ -81,3 +81,4 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 <a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a>
+

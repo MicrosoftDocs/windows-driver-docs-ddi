@@ -5,41 +5,43 @@ description: The NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function init
 tech.root: netvista
 ms.date: 10/06/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function"]
-f1_keywords:
- - "netadapteroffload/NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 ms.custom: Fe
+f1_keywords:
+ - NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
+ - netadapteroffload/NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
+product:
+ - Windows
 ---
 
 # NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function
+
 
 ## -description
 
@@ -75,3 +77,4 @@ The client driver calls **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT** to
 [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md)
 
 [**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md)
+

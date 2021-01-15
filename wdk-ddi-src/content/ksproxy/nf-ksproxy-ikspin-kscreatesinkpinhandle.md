@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsCreateSinkPinHandle
+ - IKsPin::KsCreateSinkPinHandle
 ---
 
 # IKsPin::KsCreateSinkPinHandle
@@ -82,3 +82,4 @@ This method is for proxy use and is not recommended for application use.
 
 
 <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+

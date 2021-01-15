@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnBeginQuery
+ - PFND3D12DDI_BEGIN_END_QUERY_0003
 ---
 
 # PFND3D12DDI_BEGIN_END_QUERY_0003 callback function

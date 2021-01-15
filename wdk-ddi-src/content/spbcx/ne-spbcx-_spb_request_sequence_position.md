@@ -41,6 +41,8 @@ api_type:
 api_location:
  - spbcx.h
 api_name:
+ - _SPB_REQUEST_SEQUENCE_POSITION
+ - PSPB_REQUEST_SEQUENCE_POSITION
  - SPB_REQUEST_SEQUENCE_POSITION
 ---
 
@@ -142,3 +144,4 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
+

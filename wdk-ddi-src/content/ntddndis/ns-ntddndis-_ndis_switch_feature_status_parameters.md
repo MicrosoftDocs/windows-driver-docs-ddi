@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS
  - NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
 ---
 
@@ -147,3 +149,4 @@ An <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feat
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-feature-status-query">OID_SWITCH_FEATURE_STATUS_QUERY</a>
+

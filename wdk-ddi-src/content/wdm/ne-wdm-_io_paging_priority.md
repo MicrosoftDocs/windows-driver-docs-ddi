@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_PAGING_PRIORITY
  - IO_PAGING_PRIORITY
 ---
 
@@ -78,3 +79,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority"
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority">IoGetPagingIoPriority</a>
+

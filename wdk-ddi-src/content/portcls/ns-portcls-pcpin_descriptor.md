@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCPIN_DESCRIPTOR
  - PCPIN_DESCRIPTOR
 ---
 
@@ -142,3 +143,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/pin-factories
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+

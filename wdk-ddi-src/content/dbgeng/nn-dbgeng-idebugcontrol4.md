@@ -38,9 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugControl4
- - IDebugControl4.GetManagedStatus
- - IDebugControl4.GetManagedStatusWide
- - IDebugControl4.ResetManagedStatus
 ---
 
 # IDebugControl4 interface
@@ -66,3 +63,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

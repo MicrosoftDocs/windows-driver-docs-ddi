@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CheckMultisampleQualityLevels
+ - PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

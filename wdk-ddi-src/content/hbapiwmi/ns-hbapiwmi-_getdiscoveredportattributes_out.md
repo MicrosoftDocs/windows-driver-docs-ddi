@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetDiscoveredPortAttributes_OUT
+ - PGetDiscoveredPortAttributes_OUT
  - GetDiscoveredPortAttributes_OUT
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>
+

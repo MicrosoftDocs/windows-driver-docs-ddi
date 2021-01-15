@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IDriverEntry.OnDeviceAdd
+ - IDriverEntry::OnDeviceAdd
 ---
 
 # IDriverEntry::OnDeviceAdd
@@ -98,3 +98,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/adding-a-device
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

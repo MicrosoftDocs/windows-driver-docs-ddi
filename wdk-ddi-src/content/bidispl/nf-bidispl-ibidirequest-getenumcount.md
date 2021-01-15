@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequest.GetEnumCount
+ - IBidiRequest::GetEnumCount
 ---
 
 # IBidiRequest::GetEnumCount
@@ -128,3 +128,4 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+

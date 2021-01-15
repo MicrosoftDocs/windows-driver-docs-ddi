@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
+ - _USB_BUS_INTERFACE_USBDI_V0
+ - PUSB_BUS_INTERFACE_USBDI_V0
  - USB_BUS_INTERFACE_USBDI_V0
 ---
 
@@ -147,3 +149,4 @@ For information about how to query for these interfaces, see <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

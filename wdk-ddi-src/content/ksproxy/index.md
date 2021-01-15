@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - ksproxy
  - ksproxy/ksproxy
+api_name:
+ - ksproxy
 ---
 
 # Ksproxy.h header

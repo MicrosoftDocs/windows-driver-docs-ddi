@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.GetPhysicalPageAddress
+ - IPortWaveRTStream::GetPhysicalPageAddress
 ---
 
 # IPortWaveRTStream::GetPhysicalPageAddress
@@ -84,3 +84,4 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-getphysicalpagescount">IPortWaveRTStream::GetPhysicalPagesCount </a>
+

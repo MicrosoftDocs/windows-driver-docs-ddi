@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_GEOMETRY_DESCRIPTOR
  - UFS_GEOMETRY_DESCRIPTOR
 ---
 

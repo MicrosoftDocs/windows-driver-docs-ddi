@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NdisPDFreeCounter
+ - NDIS_PD_FREE_COUNTER
 ---
 
 # NDIS_PD_FREE_COUNTER callback function
@@ -64,3 +64,4 @@ This callback function does not return a value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_counter">NdisPDAllocateCounter</a>
+

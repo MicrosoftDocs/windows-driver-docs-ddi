@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoLighting
  - DXVA_VideoLighting
 ---
 
@@ -88,3 +89,4 @@ The video lighting enumerators can be used to alter the gamma to generate a comp
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+

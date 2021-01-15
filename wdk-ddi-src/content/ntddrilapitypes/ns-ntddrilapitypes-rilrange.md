@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRANGE
+ - LPRILRANGE
 ---
 
 # RILRANGE structure (ntddrilapitypes.h)

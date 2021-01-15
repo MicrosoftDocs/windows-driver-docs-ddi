@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIAS_ENDORSER_VALUE
+ - PWIAS_ENDORSER_VALUE
  - WIAS_ENDORSER_VALUE
 ---
 
@@ -70,3 +72,4 @@ This structure is used indirectly by the [wiasParseEndorserString](../wiamdef/nf
 [WIAS_ENDORSER_INFO](./ns-wiamindr_lh-_wias_endorser_info.md)
 
 [wiasParseEndorserString](../wiamdef/nf-wiamdef-wiasparseendorserstring.md)
+

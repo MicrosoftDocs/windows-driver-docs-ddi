@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_ATTRIBUTES
+ - PNDIS_FILTER_ATTRIBUTES
  - NDIS_FILTER_ATTRIBUTES
 ---
 
@@ -79,3 +81,4 @@ A filter drivers passes an NDIS_FILTER_ATTRIBUTES structure to the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsetattributes">NdisFSetAttributes</a>
+

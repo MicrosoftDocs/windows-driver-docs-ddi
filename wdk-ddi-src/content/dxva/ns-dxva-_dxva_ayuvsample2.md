@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_AYUVsample2
+ - LPDXVA_AYUVsample2
  - DXVA_AYUVsample2
 ---
 
@@ -92,3 +94,4 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_bufferdescription">DXVA_BufferDescription</a>
+

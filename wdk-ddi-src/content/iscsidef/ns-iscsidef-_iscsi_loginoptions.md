@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - _ISCSI_LoginOptions
+ - PISCSI_LoginOptions
  - ISCSI_LoginOptions
 ---
 
@@ -250,3 +252,4 @@ A <a href="/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-loginoptions-wmi-class">ISCSI_LoginOptions WMI Class</a>
+

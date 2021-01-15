@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSignalSynchronizationObjectFromCpuCb
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ However, the caller cannot assume that the signal operation will be completed up
 <div class="alert"><b>Note</b>  A signal from a graphics processing unit (GPU) call is not provided. Instead, a driver can signal a new fence value by inserting a GPU write command for <b>FenceValueGPUVirtualAddress</b> into a command buffer.
 </div>
 <div> </div>
+

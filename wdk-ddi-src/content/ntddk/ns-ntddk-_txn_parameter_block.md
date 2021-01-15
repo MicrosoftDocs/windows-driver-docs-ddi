@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _TXN_PARAMETER_BLOCK
+ - PTXN_PARAMETER_BLOCK
  - TXN_PARAMETER_BLOCK
 ---
 
@@ -92,3 +94,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparame
 
 
 <a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+

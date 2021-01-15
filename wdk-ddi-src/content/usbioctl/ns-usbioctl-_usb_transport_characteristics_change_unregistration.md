@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
+ - PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
  - USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 ---
 
@@ -62,3 +64,4 @@ An opaque handle for registration that the client driver obtained in the previou
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_unregister_for_transport_characteristics_change">IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+

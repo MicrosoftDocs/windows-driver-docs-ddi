@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSCAMERA_PROFILE_INFO
+ - PKSCAMERA_PROFILE_INFO
  - KSCAMERA_PROFILE_INFO
 ---
 
@@ -71,3 +73,4 @@ The number of <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamer
 ### -field Pins
 
  An array of <b>KSCAMERA_PROFILE_PININFO</b> structures defining the supported media types on each of the pins of this profile. This field must not be <b>NULL</b>.
+

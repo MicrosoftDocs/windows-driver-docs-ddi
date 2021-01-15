@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOCHROMASUBSAMPLING
  - DXVADDI_VIDEOCHROMASUBSAMPLING
 ---
 
@@ -100,3 +101,4 @@ Cosite variations indicate that the chroma samples are aligned with the luma sam
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
+

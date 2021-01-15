@@ -34,6 +34,7 @@ api_type:
 api_location:
  - ring.h
 api_name:
+ - _NET_RING
  - NET_RING
 ---
 
@@ -103,3 +104,4 @@ For more info about packet and fragment ring buffers, see [Packet descriptors an
 For more info about using net rings, see [Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings).
 
 ## -see-also
+

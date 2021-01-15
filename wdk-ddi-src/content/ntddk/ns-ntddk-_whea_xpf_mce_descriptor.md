@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_MCE_DESCRIPTOR
+ - PWHEA_XPF_MCE_DESCRIPTOR
  - WHEA_XPF_MCE_DESCRIPTOR
 ---
 
@@ -130,3 +132,4 @@ A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _RESOURCEMANAGER_INFORMATION_CLASS
  - RESOURCEMANAGER_INFORMATION_CLASS
 ---
 
@@ -70,3 +71,4 @@ Information about a resource manager object is stored in a <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
+

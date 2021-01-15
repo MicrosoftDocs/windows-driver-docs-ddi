@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_SEL_BUGCHECK_PROGRESS
+ - PWHEA_SEL_BUGCHECK_PROGRESS
  - WHEA_SEL_BUGCHECK_PROGRESS
 product:
  - Windows

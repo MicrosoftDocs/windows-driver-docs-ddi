@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storduid.h
 api_name:
+ - _STORAGE_DEVICE_UNIQUE_IDENTIFIER
+ - PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
  - STORAGE_DEVICE_UNIQUE_IDENTIFIER
 ---
 
@@ -80,3 +82,4 @@ The offset, in bytes, to the drive layout signature (<a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+

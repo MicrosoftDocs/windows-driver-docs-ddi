@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PROCESSOR_INFO
+ - PNDIS_PROCESSOR_INFO
  - NDIS_PROCESSOR_INFO
 ---
 
@@ -91,3 +93,4 @@ The NDIS_PROCESSOR_INFO structure is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
+

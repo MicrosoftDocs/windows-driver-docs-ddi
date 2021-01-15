@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_EVAL_OUTPUT_BUFFER_V1
+ - PACPI_EVAL_OUTPUT_BUFFER
  - ACPI_EVAL_OUTPUT_BUFFER_V1
 ---
 
@@ -96,3 +98,4 @@ For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1">ACPI_METHOD_ARGUMENT</a>
+

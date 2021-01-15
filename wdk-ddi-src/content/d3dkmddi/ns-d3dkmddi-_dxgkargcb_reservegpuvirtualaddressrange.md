@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
  - DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ---
 
@@ -86,3 +87,4 @@ A single value containing the flags set in the structure.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
+

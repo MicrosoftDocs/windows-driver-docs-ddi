@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePciStream.GetPosition
+ - IMiniportWavePciStream::GetPosition
 ---
 
 # IMiniportWavePciStream::GetPosition
@@ -97,3 +97,4 @@ The WavePci port driver implements a property handler for <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

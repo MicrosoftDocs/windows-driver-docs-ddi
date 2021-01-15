@@ -37,7 +37,7 @@ api_type:
 api_location:
  - FltKernel.h
 api_name:
- - OperationStatusCallback
+ - PFLT_GET_OPERATION_STATUS_CALLBACK
 ---
 
 # PFLT_GET_OPERATION_STATUS_CALLBACK callback function
@@ -88,3 +88,4 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_INTERFACE_SETTING_PAIR
+ - PWDF_USB_INTERFACE_SETTING_PAIR
  - WDF_USB_INTERFACE_SETTING_PAIR
 ---
 
@@ -70,3 +72,4 @@ The <b>WDF_USB_INTERFACE_SETTING_PAIR</b> structure is used in the <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_select_config_params">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+

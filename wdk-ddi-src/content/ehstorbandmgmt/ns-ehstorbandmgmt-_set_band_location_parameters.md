@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _SET_BAND_LOCATION_PARAMETERS
+ - PSET_BAND_LOCATION_PARAMETERS
  - SET_BAND_LOCATION_PARAMETERS
 ---
 
@@ -115,3 +117,4 @@ If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
+

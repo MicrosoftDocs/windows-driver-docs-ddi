@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
  - IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 ---
 
@@ -105,3 +106,4 @@ Specifies the priority.
 ## -remarks
 
 By default, the maximum permitted transmission speed is the physical maximum. A driver should use this request to lower the maximum permitted speed.
+

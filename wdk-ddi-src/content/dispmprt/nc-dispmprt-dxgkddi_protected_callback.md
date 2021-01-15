@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkProtectedCallback
+ - DXGKDDI_PROTECTED_CALLBACK
 ---
 
 # DXGKDDI_PROTECTED_CALLBACK callback function

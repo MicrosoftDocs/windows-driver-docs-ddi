@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSP_PIN
  - KSP_PIN
 ---
 
@@ -89,3 +90,4 @@ The client is aware of attributes and handles attribute ranges.
 ## -see-also
 
 <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+

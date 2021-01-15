@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.GetSystemPowerAction
+ - IWDFDevice2::GetSystemPowerAction
 ---
 
 # IWDFDevice2::GetSystemPowerAction
@@ -102,7 +102,7 @@ The following code example obtains the <a href="/windows-hardware/drivers/ddi/wu
     SAFE_RELEASE(pDevice2);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
+

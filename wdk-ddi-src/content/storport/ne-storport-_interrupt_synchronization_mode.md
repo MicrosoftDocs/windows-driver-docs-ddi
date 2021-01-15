@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _INTERRUPT_SYNCHRONIZATION_MODE
  - INTERRUPT_SYNCHRONIZATION_MODE
 ---
 

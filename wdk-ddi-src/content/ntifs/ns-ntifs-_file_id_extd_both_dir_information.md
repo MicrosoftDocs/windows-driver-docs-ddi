@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_ID_EXTD_BOTH_DIR_INFORMATION
+ - PFILE_ID_EXTD_BOTH_DIR_INFORMATION
  - FILE_ID_EXTD_BOTH_DIR_INFORMATION
 ---
 
 # FILE_ID_EXTD_BOTH_DIR_INFORMATION structure
+
 
 ## -description
 
@@ -148,3 +151,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [**ZwQueryDirectoryFile**](/previous-versions/ff567047(v=vs.85))
+

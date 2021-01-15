@@ -41,6 +41,8 @@ api_type:
 api_location:
  - aux_klib.h
 api_name:
+ - _KBUGCHECK_DATA
+ - PKBUGCHECK_DATA
  - KBUGCHECK_DATA
 ---
 
@@ -84,3 +86,4 @@ The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="/windows-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>
+

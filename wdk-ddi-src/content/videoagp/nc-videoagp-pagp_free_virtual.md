@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpFreeVirtual
+ - PAGP_FREE_VIRTUAL
 ---
 
 # PAGP_FREE_VIRTUAL callback function
@@ -78,3 +78,4 @@ A call to <b>AgpFreeVirtual</b> must be paired with a previous call to <a href="
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_virtual">AgpCommitVirtual</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Fwpsk.h
 api_name:
- - completionFn
+ - FWPS_INJECT_COMPLETE0
 ---
 
 # FWPS_INJECT_COMPLETE0 callback function
@@ -146,3 +146,4 @@ The filter engine calls a callout's
 
 
 <a href="/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
+

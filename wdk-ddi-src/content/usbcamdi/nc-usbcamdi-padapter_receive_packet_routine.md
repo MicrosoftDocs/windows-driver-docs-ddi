@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - AdapterReceivePacket
+ - PADAPTER_RECEIVE_PACKET_ROUTINE
 ---
 
 # PADAPTER_RECEIVE_PACKET_ROUTINE callback function
@@ -61,3 +61,4 @@ A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceive
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_driverentry">USBCAMD_DriverEntry</a>
+

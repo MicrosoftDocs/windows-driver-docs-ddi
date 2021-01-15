@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPort.NewRegistryKey
+ - IPort::NewRegistryKey
 product:
  - Windows
 ---

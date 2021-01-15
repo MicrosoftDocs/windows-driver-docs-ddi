@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_TRANSFERFLAGS
  - DXGK_TRANSFERFLAGS
 ---
 
@@ -100,3 +101,4 @@ You can set the transfer-operation type by setting bits in the 32-bit <b>Value</
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
+

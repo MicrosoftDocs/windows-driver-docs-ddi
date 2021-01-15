@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _MPIO_DSM_Path_V2
+ - PMPIO_DSM_Path_V2
  - MPIO_DSM_Path_V2
 ---
 

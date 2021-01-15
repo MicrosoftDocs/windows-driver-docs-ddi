@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_COMPONENT_PERF_SET
+ - PPO_FX_COMPONENT_PERF_SET
  - PO_FX_COMPONENT_PERF_SET
 ---
 
@@ -110,3 +112,4 @@ Most drivers are expected to define a single set of performance states per compo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates">PoFxRegisterComponentPerfStates</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
  - D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to de
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership">D3DKMTCheckVidPnExclusiveOwnership</a>
+

@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.CreateClient
- - IDebugClient2.CreateClient
- - IDebugClient3.CreateClient
- - IDebugClient4.CreateClient
- - IDebugClient5.CreateClient
+ - IDebugClient4::CreateClient
 ---
 
 # IDebugClient4::CreateClient
@@ -113,3 +109,4 @@ For more information about client objects and how they are used in the debugger 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

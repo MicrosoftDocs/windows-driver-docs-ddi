@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
  - D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure describes the priv
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate">GetVideoProcessBltStatePrivate</a>
+

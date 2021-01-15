@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDevicePowerStateChange
+ - EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION
 ---
 
 # EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback function
@@ -79,3 +79,4 @@ If the <i>EvtDevicePowerStateChange</i> callback function calls <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification">EvtDevicePowerPolicyStateChange</a>
+

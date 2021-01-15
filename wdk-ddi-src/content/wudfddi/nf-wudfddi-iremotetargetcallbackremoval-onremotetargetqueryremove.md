@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove
+ - IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 ---
 
 # IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
@@ -95,3 +95,4 @@ For more information about the <b>OnRemoteTargetQueryRemove</b> event callback f
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecomplete">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
+

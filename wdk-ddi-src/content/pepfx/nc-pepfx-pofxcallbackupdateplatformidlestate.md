@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - UpdatePlatformIdleState
+ - POFXCALLBACKUPDATEPLATFORMIDLESTATE
 ---
 
 # POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function (pepfx.h)
@@ -124,3 +124,4 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state_update">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreHelper.WhyConstrained
+ - IPrintCoreHelper::WhyConstrained
 ---
 
 # IPrintCoreHelper::WhyConstrained
@@ -136,3 +136,4 @@ Note that the results from this method might not contain all of the options that
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelper-enumconstrainedoptions">IPrintCoreHelper::EnumConstrainedOptions</a>
+

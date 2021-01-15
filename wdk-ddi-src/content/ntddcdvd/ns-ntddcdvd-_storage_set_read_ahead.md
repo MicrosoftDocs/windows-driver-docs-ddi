@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _STORAGE_SET_READ_AHEAD
+ - PSTORAGE_SET_READ_AHEAD
  - STORAGE_SET_READ_AHEAD
 ---
 
@@ -64,3 +66,4 @@ Indicates the address to jump to.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_storage_set_read_ahead">IOCTL_STORAGE_SET_READ_AHEAD</a>
+

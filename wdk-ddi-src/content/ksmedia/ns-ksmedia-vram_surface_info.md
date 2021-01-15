@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PVRAM_SURFACE_INFO
  - VRAM_SURFACE_INFO
 ---
 
@@ -98,3 +99,4 @@ The data in these members persists for the lifetime of the stream header. When a
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-map-capture-handle-to-vram-address">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
+

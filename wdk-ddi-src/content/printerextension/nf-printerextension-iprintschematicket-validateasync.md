@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printerextension.h
 api_name:
- - IPrintSchemaTicket.ValidateAsync
+ - IPrintSchemaTicket::ValidateAsync
 ---
 
 # IPrintSchemaTicket::ValidateAsync
@@ -77,3 +77,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

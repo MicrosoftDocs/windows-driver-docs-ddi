@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAC3_ROOM_TYPE
  - KSAC3_ROOM_TYPE
 ---
 
@@ -66,3 +67,4 @@ For more information about bit stream modes, see the AC-3 specification at the [
 ## -see-also
 
 [KSPROPERTY_AC3_ROOM_TYPE](/windows-hardware/drivers/audio/ksproperty-ac3-room-type)
+

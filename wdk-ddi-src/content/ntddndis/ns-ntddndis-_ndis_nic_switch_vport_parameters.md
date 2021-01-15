@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - PNDIS_NIC_SWITCH_VPORT_PARAMETERS
  - NDIS_NIC_SWITCH_VPORT_PARAMETERS
 ---
 
@@ -200,3 +202,4 @@ For more information about the SR-IOV interface, see 	<a href="/windows-hardware
 <a href="/windows-hardware/drivers/network/oid-nic-switch-enum-switches">OID_NIC_SWITCH_ENUM_SWITCHES</a>
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
+

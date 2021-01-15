@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_GAMMA_RAMP_DXGI_1
  - D3DDDI_GAMMA_RAMP_DXGI_1
 ---
 
@@ -66,3 +67,4 @@ An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_dxgi_rgb">D3DDDI_DXGI_RGB</a>
+

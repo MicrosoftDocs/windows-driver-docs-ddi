@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelNameBinder.QueryInterface
+ - IDataModelNameBinder::QueryInterface
 ---
 
 # IDataModelNameBinder::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDataModelNameBinder interface](nn-dbgmodel-idatamodelnamebinder.md)
+

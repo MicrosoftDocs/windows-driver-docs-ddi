@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ptpusd.h
 api_name:
+ - _PTP_VENDOR_DATA_IN
+ - PPTP_VENDOR_DATA_IN
  - PTP_VENDOR_DATA_IN
 ---
 
@@ -96,3 +98,4 @@ For more information about the opcodes used in the **OpCode** member, see [ISO 1
 ## -see-also
 
 [PTP_VENDOR_DATA_OUT](./ns-ptpusd-_ptp_vendor_data_out.md)
+

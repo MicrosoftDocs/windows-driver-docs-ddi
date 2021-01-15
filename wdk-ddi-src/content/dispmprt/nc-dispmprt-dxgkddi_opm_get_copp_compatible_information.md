@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMGetCOPPCompatibleInformation
+ - DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
 ---
 
 # DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback function

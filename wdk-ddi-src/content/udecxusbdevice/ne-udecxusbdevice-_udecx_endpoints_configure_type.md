@@ -41,6 +41,8 @@ api_type:
 api_location:
  - udecxusbdevice.h
 api_name:
+ - _UDECX_ENDPOINTS_CONFIGURE_TYPE
+ - PUDECX_ENDPOINTS_CONFIGURE_TYPE
  - UDECX_ENDPOINTS_CONFIGURE_TYPE
 ---
 
@@ -76,3 +78,4 @@ The requested change applies to an endpoint of an interface setting.
 
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_endpoints_configure_params">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a>
+

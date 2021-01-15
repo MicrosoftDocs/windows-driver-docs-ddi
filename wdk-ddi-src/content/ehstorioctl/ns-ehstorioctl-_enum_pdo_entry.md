@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _ENUM_PDO_ENTRY
+ - PENUM_PDO_ENTRY
  - ENUM_PDO_ENTRY
 ---
 
@@ -84,3 +86,4 @@ The string contained in this member is the device instance path in a form suitab
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+

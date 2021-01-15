@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_DISPLAY_INFORMATION structure"]
 ms.keywords: "*PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], PDXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, d3dkmdt/DXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information"
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -41,6 +41,8 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_DISPLAY_INFORMATION
+ - PDXGK_DISPLAY_INFORMATION
  - DXGK_DISPLAY_INFORMATION
 ---
 
@@ -99,3 +101,4 @@ For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+

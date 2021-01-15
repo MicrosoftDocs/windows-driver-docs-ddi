@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_ROUTING_DOMAIN_ENTRY
+ - PNDIS_ROUTING_DOMAIN_ENTRY
  - NDIS_ROUTING_DOMAIN_ENTRY
 ---
 
@@ -111,3 +113,4 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <b>NDIS_R
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-isolation-parameters">OID_GEN_ISOLATION_PARAMETERS</a>
+

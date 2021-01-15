@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TXRX_PEER_QOS_CAPS
  - WDI_TXRX_PEER_QOS_CAPS
 ---
 

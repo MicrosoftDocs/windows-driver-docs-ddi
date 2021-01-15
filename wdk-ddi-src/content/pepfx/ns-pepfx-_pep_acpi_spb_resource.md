@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_SPB_RESOURCE
+ - PPEP_ACPI_SPB_RESOURCE
  - PEP_ACPI_SPB_RESOURCE
 ---
 
@@ -122,3 +124,4 @@ A pointer to optional data that is specific to the serial bus connection type.
 ### -field VendorDataLength
 
 The length of the buffer pointed to by <b>VendorData</b>.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - VideoProcessEndFrame
+ - PFND3DDDI_VIDEOPROCESSENDFRAME
 product:
  - Windows
 ---
@@ -89,3 +89,4 @@ The <i>VideoProcessEndFrame</i> function notifies the user-mode display driver t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a>
+

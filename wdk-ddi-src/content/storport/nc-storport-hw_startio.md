@@ -37,10 +37,11 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorStartIo
+ - HW_STARTIO
 ---
 
 # HW_STARTIO callback function
+
 
 ## -description
 
@@ -135,3 +136,4 @@ The **HW_STARTIO** function type is defined in the Storport.h header file. To mo
 [**STORAGE_REQUEST_BLOCK**](../srb/ns-srb-_storage_request_block.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKCB_GETHANDLEDATAFLAGS
  - DXGKCB_GETHANDLEDATAFLAGS
 ---
 
@@ -68,3 +69,4 @@ A member in the union that DXGKCB_GETHANDLEDATAFLAGS contains that can hold a 32
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a>
+

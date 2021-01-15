@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_COUNTER_PARAMETERS
  - NDIS_PD_COUNTER_PARAMETERS
 ---
 
@@ -84,3 +85,4 @@ An <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_counter_type">NDI
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_counter">NdisPDAllocateCounter</a>
+

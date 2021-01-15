@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCLOCKCREDENTIAL
+ - LPRILUICCLOCKCREDENTIAL
 ---
 
 # RILUICCLOCKCREDENTIAL structure (ntddrilapitypes.h)

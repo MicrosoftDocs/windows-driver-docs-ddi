@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_STREAM_INFORMATION
+ - PFILE_STREAM_INFORMATION
  - FILE_STREAM_INFORMATION
 ---
 
@@ -142,3 +144,4 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>
+

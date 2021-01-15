@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbspec
  - usbspec/usbspec
+api_name:
+ - usbspec
 ---
 
 # Usbspec.h header

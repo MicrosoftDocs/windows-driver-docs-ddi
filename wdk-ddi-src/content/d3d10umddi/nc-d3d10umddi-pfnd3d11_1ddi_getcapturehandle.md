@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - GetCaptureHandle
+ - PFND3D11_1DDI_GETCAPTUREHANDLE
 product:
  - Windows
 ---
@@ -69,3 +69,4 @@ Before the Microsoft Direct3D runtime calls the <i>GetCaptureHandle</i> function
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a>
+

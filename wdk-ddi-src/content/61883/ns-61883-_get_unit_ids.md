@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _GET_UNIT_IDS
+ - PGET_UNIT_IDS
  - GET_UNIT_IDS
 ---
 
@@ -96,3 +98,4 @@ Points to a buffer that receives the "friendly name" for the model represented a
 ## -see-also
 
 <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
+

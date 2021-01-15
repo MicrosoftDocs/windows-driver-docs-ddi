@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderAppendDma
+ - DMA_APPEND_HANDLER
 ---
 
 # DMA_APPEND_HANDLER callback function
@@ -169,3 +169,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
+

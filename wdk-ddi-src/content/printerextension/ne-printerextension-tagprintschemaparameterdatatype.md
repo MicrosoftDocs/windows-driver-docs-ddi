@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
+ - tagPrintSchemaParameterDataType
  - PrintSchemaParameterDataType
 ---
 
@@ -69,3 +70,4 @@ This maps to the Print Schema’s StringParamType parameters, with UnitType not 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype">IPrintSchemaParameterDefinition::DataType</a>
+

@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _IVRS_IVINFO
+ - PIVRS_IVINFO
+ - IVRS_IVINFO
 ---
 
 # _IVRS_IVINFO structure
+
 
 ## -description
 
@@ -69,3 +72,4 @@ Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtualization str
 ## -remarks
 
 ## -see-also
+

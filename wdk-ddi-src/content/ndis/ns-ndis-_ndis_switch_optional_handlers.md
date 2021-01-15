@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_SWITCH_OPTIONAL_HANDLERS
+ - PNDIS_SWITCH_OPTIONAL_HANDLERS
  - NDIS_SWITCH_OPTIONAL_HANDLERS
 ---
 
@@ -217,3 +219,4 @@ When the extensible switch extension calls <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a>
+

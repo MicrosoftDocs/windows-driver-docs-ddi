@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFMemory.GetDataBuffer
+ - IWDFMemory::GetDataBuffer
 ---
 
 # IWDFMemory::GetDataBuffer
@@ -70,3 +70,4 @@ For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetInterruptTimeout
- - IDebugControl2.SetInterruptTimeout
- - IDebugControl3.SetInterruptTimeout
+ - IDebugControl::SetInterruptTimeout
 ---
 
 # IDebugControl::SetInterruptTimeout
@@ -109,3 +107,4 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupt">SetInterrupt</a>
+

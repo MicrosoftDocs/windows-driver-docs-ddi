@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetBindingCapability_OUT
+ - PGetBindingCapability_OUT
  - GetBindingCapability_OUT
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>
+

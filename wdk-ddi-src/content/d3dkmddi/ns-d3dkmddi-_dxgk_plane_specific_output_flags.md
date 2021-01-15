@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
  - DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 ---
 

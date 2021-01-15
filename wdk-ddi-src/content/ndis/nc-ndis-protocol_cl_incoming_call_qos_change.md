@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClIncomingCallQoSChange
+ - PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE
 ---
 
 # PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback function
@@ -115,3 +115,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_modify_qos_call">ProtocolCmModifyCallQoS</a>
+

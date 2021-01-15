@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - ITracing.SetTraceLevel
+ - ITracing::SetTraceLevel
 ---
 
 # ITracing::SetTraceLevel
@@ -147,7 +147,6 @@ else
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">ITracer</a>
@@ -159,3 +158,4 @@ else
 
 
 <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>
+

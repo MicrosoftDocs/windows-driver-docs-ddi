@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcPrivateDeviceSize
+ - PFND3D10DDI_CALCPRIVATEDEVICESIZE
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a>
+

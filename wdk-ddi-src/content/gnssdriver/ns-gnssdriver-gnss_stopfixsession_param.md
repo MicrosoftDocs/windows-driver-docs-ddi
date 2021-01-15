@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_STOPFIXSESSION_PARAM
  - GNSS_STOPFIXSESSION_PARAM
 ---
 

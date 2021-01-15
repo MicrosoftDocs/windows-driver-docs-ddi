@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.SetNextEventIndex
+ - IDebugControl3::SetNextEventIndex
 ---
 
 # IDebugControl3::SetNextEventIndex
@@ -143,3 +143,4 @@ This method is only useful if the target offers a list of events.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

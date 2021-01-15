@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ADJUSTFULLSCREENGAMMA
+ - D3DKMT_ADJUSTFULLSCREENGAMMA
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_PERF_STATE_UNIT
+ - PPO_FX_PERF_STATE_UNIT
  - PO_FX_PERF_STATE_UNIT
 ---
 
@@ -80,3 +82,4 @@ The <b>Unit</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates">PoFxRegisterComponentPerfStates</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USB_CONTROLLER_FLAVOR
  - USB_CONTROLLER_FLAVOR
 ---
 
@@ -164,3 +165,4 @@ Indicates an Intel Medfield host controller.
 
 
 <a href="/windows/win32/api/usbuser/ns-usbuser-usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
+

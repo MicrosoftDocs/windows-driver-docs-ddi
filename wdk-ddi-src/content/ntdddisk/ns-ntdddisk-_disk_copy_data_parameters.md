@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_COPY_DATA_PARAMETERS
+ - PDISK_COPY_DATA_PARAMETERS
  - DISK_COPY_DATA_PARAMETERS
 ---
 
@@ -76,3 +78,4 @@ The source and destination areas must not overlap.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_copy_data">IOCTL_DISK_COPY_DATA</a>
+

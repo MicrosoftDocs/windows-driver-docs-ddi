@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2SetWaitMask
+ - EVT_SERCX2_SET_WAIT_MASK
 ---
 
 # EVT_SERCX2_SET_WAIT_MASK callback function
@@ -151,3 +151,4 @@ The <b>EVT_SERCX2_SET_WAIT_MASK</b> function type is defined in the Sercx.h head
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>
+

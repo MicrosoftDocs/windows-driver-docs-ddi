@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
- - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
+ - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 ---
 
 # IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
@@ -57,3 +56,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+

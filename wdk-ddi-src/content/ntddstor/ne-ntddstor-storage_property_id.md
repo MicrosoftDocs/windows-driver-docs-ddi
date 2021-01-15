@@ -32,12 +32,15 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROPERTY_ID
+ - PSTORAGE_PROPERTY_ID
  - STORAGE_PROPERTY_ID
 product:
  - Windows
 ---
 
 # STORAGE_PROPERTY_ID enumeration
+
 
 ## -description
 
@@ -193,7 +196,6 @@ Provides the unsafe shutdown count value used to determine if the device data mi
 
 Provides info on how many bytes have been read/write from a solid-state drive (SSD). This property is supported only for Non-Volatile Memory Express (NVMe) devices that implement a certain NVMe feature.
 
-
 ## -remarks
 
 The [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) structure is passed as input to an [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) request to retrieve the properties of a storage device or adapter.
@@ -205,3 +207,4 @@ The optional output buffer returned from an **IOCTL_STORAGE_QUERY_PROPERTY** con
 [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
 [**STORAGE_QUERY_TYPE**](ne-ntddstor-_storage_query_type.md)
+

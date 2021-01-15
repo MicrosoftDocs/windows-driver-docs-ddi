@@ -37,11 +37,11 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwQuerySecurityObject
  - NtQuerySecurityObject
 ---
 
 # NtQuerySecurityObject function
+
 
 ## -description
 
@@ -111,3 +111,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information)
 
 [**NtSetSecurityObject**](nf-ntifs-ntsetsecurityobject.md)
+

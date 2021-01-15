@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTION_INFORMATION_CLASS
  - TRANSACTION_INFORMATION_CLASS
 ---
 
@@ -74,3 +75,4 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a>
+

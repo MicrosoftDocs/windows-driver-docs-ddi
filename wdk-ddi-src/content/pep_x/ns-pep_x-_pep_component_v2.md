@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COMPONENT_V2
+ - PPEP_COMPONENT_V2
  - PEP_COMPONENT_V2
 ---
 
@@ -80,3 +82,4 @@ This structure
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a>
+

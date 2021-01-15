@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SCHEDULINGPRIORITYCLASS
  - D3DKMT_SCHEDULINGPRIORITYCLASS
 ---
 
@@ -82,3 +83,4 @@ The scheduling priority of the process is in real time.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass">D3DKMTSetProcessSchedulingPriorityClass</a>
+

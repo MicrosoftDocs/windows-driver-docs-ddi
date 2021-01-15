@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_VOLUME_ID
+ - PAACS_VOLUME_ID
  - AACS_VOLUME_ID
 ---
 
@@ -68,3 +70,4 @@ Clients retrieve an AACS volume ID with an <a href="/windows-hardware/drivers/dd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_volume_id">IOCTL_AACS_READ_VOLUME_ID</a>
+

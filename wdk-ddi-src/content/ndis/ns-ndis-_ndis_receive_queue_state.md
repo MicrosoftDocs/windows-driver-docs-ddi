@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_STATE
+ - PNDIS_RECEIVE_QUEUE_STATE
  - NDIS_RECEIVE_QUEUE_STATE
 ---
 
@@ -99,3 +101,4 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+

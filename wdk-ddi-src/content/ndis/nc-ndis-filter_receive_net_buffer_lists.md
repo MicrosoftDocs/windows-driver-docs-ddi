@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FilterReceiveNetBufferLists
+ - FILTER_RECEIVE_NET_BUFFER_LISTS
 ---
 
 # FILTER_RECEIVE_NET_BUFFER_LISTS callback function
@@ -364,3 +364,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
    ProtocolReceiveNetBufferLists</a>
+

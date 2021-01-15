@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfdpc
  - wdfdpc/wdfdpc
+api_name:
+ - wdfdpc
 ---
 
 # Wdfdpc.h header

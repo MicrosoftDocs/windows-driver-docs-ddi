@@ -30,6 +30,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _KMTQUERYADAPTERINFOTYPE
+ - KMTQUERYADAPTERINFOTYPE
 product:
  - Windows
 ---
@@ -255,3 +256,4 @@ Support for this type started with Windows 10 April 2018 Update (aka. version 18
 - [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
 - [D3DKMTQueryAdapterInfo](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
 - [PFND3DKMT_QUERYADAPTERINFO](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)
+

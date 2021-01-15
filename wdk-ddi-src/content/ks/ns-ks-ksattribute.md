@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSATTRIBUTE
  - KSATTRIBUTE
 ---
 
@@ -74,3 +75,4 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 
 <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+

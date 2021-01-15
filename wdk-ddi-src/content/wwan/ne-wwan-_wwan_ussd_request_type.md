@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_REQUEST_TYPE
+ - PWWAN_USSD_REQUEST_TYPE
  - WWAN_USSD_REQUEST_TYPE
 ---
 

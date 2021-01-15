@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_SCALE_CAPABILITIES
+ - PNDIS_RECEIVE_SCALE_CAPABILITIES
  - NDIS_RECEIVE_SCALE_CAPABILITIES
 ---
 
@@ -299,3 +301,4 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 
 <a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+

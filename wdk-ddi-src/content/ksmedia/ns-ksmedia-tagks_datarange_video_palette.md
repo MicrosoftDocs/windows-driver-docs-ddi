@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_VIDEO_PALETTE
+ - PKS_DATARANGE_VIDEO_PALETTE
  - KS_DATARANGE_VIDEO_PALETTE
 ---
 
@@ -92,3 +94,4 @@ Specifies the details of the video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

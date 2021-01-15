@@ -37,7 +37,7 @@ api_type:
 api_location:
  - vhf.h
 api_name:
- - EvtVhfAsyncOperation
+ - EVT_VHF_ASYNC_OPERATION
 ---
 
 # EVT_VHF_ASYNC_OPERATION callback function
@@ -86,3 +86,4 @@ When the operation is complete, HID source calls <a href="/windows-hardware/driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+

@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONTEXT_MEDIA_TYPE
+ - PWWAN_CONTEXT_MEDIA_TYPE
+ - WWAN_CONTEXT_MEDIA_TYPE
 product:
  - Windows
 ---

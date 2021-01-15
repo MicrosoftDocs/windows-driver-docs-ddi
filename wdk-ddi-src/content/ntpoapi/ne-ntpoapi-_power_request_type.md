@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _POWER_REQUEST_TYPE
+ - PPOWER_REQUEST_TYPE
  - POWER_REQUEST_TYPE
 ---
 
@@ -110,3 +112,4 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 <a href="/windows/win32/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
+

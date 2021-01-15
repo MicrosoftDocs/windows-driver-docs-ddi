@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTargets2.Remove
+ - IWDTFTargets2::Remove
 ---
 
 # IWDTFTargets2::Remove
@@ -67,3 +67,4 @@ not destroyed.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
+

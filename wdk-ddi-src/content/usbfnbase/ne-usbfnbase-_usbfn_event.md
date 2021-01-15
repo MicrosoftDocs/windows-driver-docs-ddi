@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_EVENT
+ - PUSBFN_EVENT
  - USBFN_EVENT
 ---
 
@@ -128,3 +130,4 @@ USBFN has received a SET_INTERFACE setup packet.  On receiving this
 ### -field UsbfnEventMaximum
 
 The minimum value in this enumeration.
+

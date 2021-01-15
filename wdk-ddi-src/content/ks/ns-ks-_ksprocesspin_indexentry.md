@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSPROCESSPIN_INDEXENTRY
+ - PKSPROCESSPIN_INDEXENTRY
  - KSPROCESSPIN_INDEXENTRY
 ---
 
@@ -70,3 +72,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/filter-centr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
+

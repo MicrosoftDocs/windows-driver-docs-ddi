@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidQueryNamedValueCallback
+ - PMINIPORT_GET_REGISTRY_ROUTINE
 ---
 
 # PMINIPORT_GET_REGISTRY_ROUTINE callback function
@@ -110,3 +110,4 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsetregistryparameters">VideoPortSetRegistryParameters</a>
+

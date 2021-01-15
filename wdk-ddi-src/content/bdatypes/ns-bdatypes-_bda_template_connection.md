@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_TEMPLATE_CONNECTION
+ - PBDA_TEMPLATE_CONNECTION
  - BDA_TEMPLATE_CONNECTION
 ---
 
@@ -92,3 +94,4 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
+

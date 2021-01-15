@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetPersistentBinding2_IN
+ - PGetPersistentBinding2_IN
  - GetPersistentBinding2_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the GetPersistentBinding2_IN struc
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a>
+

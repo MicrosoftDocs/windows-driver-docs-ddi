@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_CAPABILITIES_EX
+ - PUSB_HUB_CAPABILITIES_EX
  - USB_HUB_CAPABILITIES_EX
 ---
 
@@ -68,3 +70,4 @@ A <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_cap_flags
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_cap_flags">USB_HUB_CAP_FLAGS</a>
+

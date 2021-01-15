@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - ReadClockLine
+ - PVIDEO_READ_CLOCK_LINE
 ---
 
 # PVIDEO_READ_CLOCK_LINE callback function
@@ -84,3 +84,4 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>
+

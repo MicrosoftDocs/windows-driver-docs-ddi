@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - PrinterMessageBoxW
  - winspool/PrinterMessageBoxW
+ - PrinterMessageBox
+ - winspool/PrinterMessageBox
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,6 +40,7 @@ api_location:
  - Winspool.h
 api_name:
  - PrinterMessageBoxW
+ - PrinterMessageBox
 ---
 
 # PrinterMessageBoxW function

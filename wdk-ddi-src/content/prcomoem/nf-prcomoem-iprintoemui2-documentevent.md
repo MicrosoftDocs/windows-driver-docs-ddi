@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI2.DocumentEvent
+ - IPrintOemUI2::DocumentEvent
 ---
 
 # IPrintOemUI2::DocumentEvent
@@ -567,3 +567,4 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui2">IPrintOemUI2</a>
+

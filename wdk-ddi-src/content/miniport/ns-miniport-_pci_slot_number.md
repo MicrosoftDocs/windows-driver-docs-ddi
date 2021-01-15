@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_SLOT_NUMBER
+ - PPCI_SLOT_NUMBER
  - PCI_SLOT_NUMBER
 ---
 
@@ -98,3 +100,4 @@ For example, a driver might search for devices it supports on all PCI buses in t
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff537455(v=vs.85)">PCI_COMMON_CONFIG</a>
+

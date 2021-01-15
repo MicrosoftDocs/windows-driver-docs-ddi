@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_VOLUME_BASIC_INFORMATION
+ - PFILTER_VOLUME_BASIC_INFORMATION
  - FILTER_VOLUME_BASIC_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>
+

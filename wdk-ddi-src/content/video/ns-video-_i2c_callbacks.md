@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _I2C_CALLBACKS
+ - PI2C_CALLBACKS
  - I2C_CALLBACKS
 ---
 
@@ -84,3 +86,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_re
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper">VideoPortDDCMonitorHelper</a>
+

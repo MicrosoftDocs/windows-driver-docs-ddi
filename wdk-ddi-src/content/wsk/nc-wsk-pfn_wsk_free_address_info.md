@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskFreeAddressInfo
+ - PFN_WSK_FREE_ADDRESS_INFO
 ---
 
 # PFN_WSK_FREE_ADDRESS_INFO callback function
@@ -92,3 +92,4 @@ The <a href="/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> st
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a>
+

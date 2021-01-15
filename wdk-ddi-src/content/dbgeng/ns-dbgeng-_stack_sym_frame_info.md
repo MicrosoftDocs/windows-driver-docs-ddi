@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
+ - _STACK_SYM_FRAME_INFO
+ - PSTACK_SYM_FRAME_INFO
  - STACK_SYM_FRAME_INFO
 ---
 
@@ -68,3 +70,4 @@ Stack source information as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-d
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a>
+

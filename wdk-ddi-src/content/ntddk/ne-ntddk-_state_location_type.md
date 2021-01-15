@@ -30,6 +30,7 @@ api_location:
  - ntddk.h
 api_name:
  - _STATE_LOCATION_TYPE
+ - STATE_LOCATION_TYPE
 ---
 
 # _STATE_LOCATION_TYPE enumeration

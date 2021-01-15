@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_TYPEC_OPERATING_MODE
  - UCM_TYPEC_OPERATING_MODE
 ---
 
@@ -70,3 +71,4 @@ Indicates the operating mode is set to dual-role port.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_typec_config_init">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>
+

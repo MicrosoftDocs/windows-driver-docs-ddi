@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_POWER_DESCRIPTOR
+ - PDEVICE_POWER_DESCRIPTOR
  - DEVICE_POWER_DESCRIPTOR
 ---
 
@@ -103,3 +105,4 @@ The idle timeout value in milliseconds. This member is ignored unless
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

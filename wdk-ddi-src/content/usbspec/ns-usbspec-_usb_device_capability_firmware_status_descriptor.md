@@ -36,9 +36,12 @@ api_location:
  - usbspec.h
 api_name:
  - _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
+ - PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
+ - USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 ---
 
 # _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure
+
 
 ## -description
 
@@ -67,3 +70,4 @@ For information about the descriptions see USB the 3.2 ENGINEERING CHANGE NOTICE
 ## -remarks
 
 ## -see-also
+

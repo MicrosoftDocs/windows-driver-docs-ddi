@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxTargetDescInit
+ - MINIPORT_WDI_TX_TARGET_DESC_INIT
 ---
 
 # MINIPORT_WDI_TX_TARGET_DESC_INIT callback function
@@ -131,3 +131,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a>
+

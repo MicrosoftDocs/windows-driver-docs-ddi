@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtFileClose
+ - EVT_WDF_FILE_CLOSE
 ---
 
 # EVT_WDF_FILE_CLOSE callback function
@@ -73,3 +73,4 @@ For more information about framework file objects and the <i>EvtFileClose</i> ca
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a>
+

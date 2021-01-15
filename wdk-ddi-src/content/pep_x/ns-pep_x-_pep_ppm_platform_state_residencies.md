@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_PLATFORM_STATE_RESIDENCIES
+ - PPEP_PPM_PLATFORM_STATE_RESIDENCIES
  - PEP_PPM_PLATFORM_STATE_RESIDENCIES
 ---
 
@@ -76,3 +78,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residency">PEP_PPM_PLATFORM_STATE_RESIDENCY</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_INTERCONNECT_TYPE
  - WDI_INTERCONNECT_TYPE
 ---
 

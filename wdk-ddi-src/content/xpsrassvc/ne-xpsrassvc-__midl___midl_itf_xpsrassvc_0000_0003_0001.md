@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Xpsrassvc.h
 api_name:
+ - __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001
  - XPSRAS_PIXEL_FORMAT
 ---
 
@@ -74,3 +75,4 @@ For more information about rasterizing XPS documents, see [Using the XPS Rasteri
 [IXpsRasterizationFactory1::CreateRasterizer1](/previous-versions/windows/hardware/drivers/hh802468(v=vs.85))
 
 [Using the XPS Rasterization Service](/windows-hardware/drivers/print/using-the-xps-rasterization-service)
+

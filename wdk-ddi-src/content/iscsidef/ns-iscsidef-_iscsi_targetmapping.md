@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - _ISCSI_TargetMapping
+ - PISCSI_TargetMapping
  - ISCSI_TargetMapping
 ---
 
@@ -106,3 +108,4 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

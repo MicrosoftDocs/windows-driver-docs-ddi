@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorPassiveInitializeRoutine
+ - HW_PASSIVE_INITIALIZE_ROUTINE
 ---
 
 # HW_PASSIVE_INITIALIZE_ROUTINE callback function
@@ -107,3 +107,4 @@ The <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type is defined in the Storpor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportenablepassiveinitialization">StorPortEnablePassiveInitialization</a>
+

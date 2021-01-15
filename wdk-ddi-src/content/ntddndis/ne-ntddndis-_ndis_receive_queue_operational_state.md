@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
+ - PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
  - NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
 ---
 
@@ -125,3 +127,4 @@ The <b>
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
+

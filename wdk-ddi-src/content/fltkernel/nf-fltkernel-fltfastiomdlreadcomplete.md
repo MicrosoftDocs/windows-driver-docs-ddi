@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - FsRtlMdlReadCompleteDev
+ - FltFastIoMdlReadComplete
 ---
 
 # FltFastIoMdlReadComplete function
@@ -74,3 +74,4 @@ The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory th
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a>
+

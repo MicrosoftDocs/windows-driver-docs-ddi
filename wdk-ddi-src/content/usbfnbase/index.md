@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbfnbase
  - usbfnbase/usbfnbase
+api_name:
+ - usbfnbase
 ---
 
 # Usbfnbase.h header

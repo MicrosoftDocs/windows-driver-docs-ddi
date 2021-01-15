@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DRIVERSTATUS
+ - PDRIVERSTATUS
  - DRIVERSTATUS
 ---
 
@@ -76,3 +78,4 @@ Reserved.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff566206(v=vs.85)">SMART_SEND_DRIVE_COMMAND</a>
+

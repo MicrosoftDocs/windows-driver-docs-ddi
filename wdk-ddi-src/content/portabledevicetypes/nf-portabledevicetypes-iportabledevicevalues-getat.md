@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetAt
+ - IPortableDeviceValues::GetAt
 ---
 
 # IPortableDeviceValues::GetAt
@@ -109,3 +109,4 @@ If a property indicates a value of type VT_UNKNOWN, the property will be one of 
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
+

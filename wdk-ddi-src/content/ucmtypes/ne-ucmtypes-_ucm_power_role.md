@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_POWER_ROLE
  - UCM_POWER_ROLE
 ---
 
@@ -74,3 +75,4 @@ Indicates the power role is set to source power.
 
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorpowerdirectionchanged">UcmConnectorPowerDirectionChanged</a>
+

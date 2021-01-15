@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DESCRIPTOR_HEADER
+ - PSTORAGE_DESCRIPTOR_HEADER
  - STORAGE_DESCRIPTOR_HEADER
 ---
 
@@ -74,3 +76,4 @@ The IOCTL_STORAGE_QUERY_PROPERTY request reports one of three types of propertie
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+

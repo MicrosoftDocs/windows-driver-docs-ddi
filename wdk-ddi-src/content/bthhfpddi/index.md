@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - bthhfpddi
  - bthhfpddi/bthhfpddi
+api_name:
+ - bthhfpddi
 ---
 
 # Bthhfpddi.h header

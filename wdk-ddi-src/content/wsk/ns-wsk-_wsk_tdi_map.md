@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_TDI_MAP
+ - PWSK_TDI_MAP
  - WSK_TDI_MAP
 ---
 
@@ -99,3 +101,4 @@ For more information about using TDI transports, see
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a>
+

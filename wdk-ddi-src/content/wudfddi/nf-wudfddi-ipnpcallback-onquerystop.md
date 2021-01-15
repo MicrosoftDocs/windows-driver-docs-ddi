@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallback.OnQueryStop
+ - IPnpCallback::OnQueryStop
 ---
 
 # IPnpCallback::OnQueryStop
@@ -83,3 +83,4 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

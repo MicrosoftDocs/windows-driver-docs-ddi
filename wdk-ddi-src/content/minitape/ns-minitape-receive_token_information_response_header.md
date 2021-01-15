@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
  - RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 ---
 
@@ -72,3 +73,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-receive_token_information_header">RECEIVE_TOKEN_INFORMATION_HEADER</a>
+

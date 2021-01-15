@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUni2.GetImplementedMethod
+ - IPrintOemUni2::GetImplementedMethod
 ---
 
 # IPrintOemUni2::GetImplementedMethod

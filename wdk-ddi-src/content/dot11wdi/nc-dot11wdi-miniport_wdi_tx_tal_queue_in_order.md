@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxTalQueueInOrder
+ - MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER
 ---
 
 # MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback function
@@ -132,3 +132,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a>
+

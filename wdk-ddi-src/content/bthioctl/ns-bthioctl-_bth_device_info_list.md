@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_DEVICE_INFO_LIST
+ - PBTH_DEVICE_INFO_LIST
  - BTH_DEVICE_INFO_LIST
 ---
 
@@ -82,3 +84,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a>
+

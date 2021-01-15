@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_SHARED_MEMORY_PARAMETERS
+ - PNDIS_SHARED_MEMORY_PARAMETERS
  - NDIS_SHARED_MEMORY_PARAMETERS
 ---
 
@@ -175,3 +177,4 @@ NDIS drivers pass this structure to the
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

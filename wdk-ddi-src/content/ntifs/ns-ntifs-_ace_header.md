@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _ACE_HEADER
  - ACE_HEADER
 ---
 
@@ -210,3 +211,4 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
+

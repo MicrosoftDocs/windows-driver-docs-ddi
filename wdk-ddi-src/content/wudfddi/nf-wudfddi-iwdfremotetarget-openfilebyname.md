@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.OpenFileByName
+ - IWDFRemoteTarget::OpenFileByName
 ---
 
 # IWDFRemoteTarget::OpenFileByName
@@ -138,7 +138,6 @@ hr = fxTarget->OpenFileByName(FILE_PATH,
  
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremotetarget">IWDFDevice2::CreateRemoteTarget</a>
@@ -150,3 +149,4 @@ hr = fxTarget->OpenFileByName(FILE_PATH,
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
+

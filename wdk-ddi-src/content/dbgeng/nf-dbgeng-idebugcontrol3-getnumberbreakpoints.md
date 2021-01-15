@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetNumberBreakpoints
- - IDebugControl2.GetNumberBreakpoints
- - IDebugControl3.GetNumberBreakpoints
+ - IDebugControl3::GetNumberBreakpoints
 ---
 
 # IDebugControl3::GetNumberBreakpoints
@@ -97,3 +95,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a>
+

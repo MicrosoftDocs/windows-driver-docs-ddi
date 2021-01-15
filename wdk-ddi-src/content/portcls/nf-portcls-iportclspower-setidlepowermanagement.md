@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortClsPower.SetIdlePowerManagement
+ - IPortClsPower::SetIdlePowerManagement
 ---
 
 # IPortClsPower::SetIdlePowerManagement
@@ -78,3 +78,4 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 
 <a href="/windows-hardware/drivers/audio/immediate-idle-timeout-opt-in">Immediate Idle Timeout Opt-in</a>
+

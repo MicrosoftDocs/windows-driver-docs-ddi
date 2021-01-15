@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DMA_ADAPTER_INFO
+ - PDMA_ADAPTER_INFO
  - DMA_ADAPTER_INFO
 ---
 
@@ -74,3 +76,4 @@ The unnamed union in this structure contains a <b>DMA_ADAPTER_INFO_</b><i>XXX</i
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a>
+

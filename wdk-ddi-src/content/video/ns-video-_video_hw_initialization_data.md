@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_HW_INITIALIZATION_DATA
+ - PVIDEO_HW_INITIALIZATION_DATA
  - VIDEO_HW_INITIALIZATION_DATA
 ---
 
@@ -164,3 +166,4 @@ The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLega
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
+

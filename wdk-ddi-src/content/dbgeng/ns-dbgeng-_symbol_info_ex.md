@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _SYMBOL_INFO_EX
+ - PSYMBOL_INFO_EX
  - SYMBOL_INFO_EX
 ---
 

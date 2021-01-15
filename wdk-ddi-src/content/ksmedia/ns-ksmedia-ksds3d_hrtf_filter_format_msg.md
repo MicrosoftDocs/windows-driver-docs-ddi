@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_HRTF_FILTER_FORMAT_MSG
  - KSDS3D_HRTF_FILTER_FORMAT_MSG
 ---
 
@@ -103,3 +104,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/kspropsetid-h
 
 
 <a href="/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
+

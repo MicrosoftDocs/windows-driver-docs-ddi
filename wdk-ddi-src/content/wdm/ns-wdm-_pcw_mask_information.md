@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_MASK_INFORMATION
+ - PPCW_MASK_INFORMATION
  - PCW_MASK_INFORMATION
 ---
 

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlclient.h
 api_name:
+ - _DOT11_BSS_LIST
+ - PDOT11_BSS_LIST
  - DOT11_BSS_LIST
 ---
 
@@ -111,3 +113,4 @@ The 802.11 Beacon and Probe Response frames within the
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
+

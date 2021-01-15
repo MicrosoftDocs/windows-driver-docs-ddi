@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - EnumPrintProcessorDatatypesA
  - winspool/EnumPrintProcessorDatatypesA
+ - EnumPrintProcessorDatatypes
+ - winspool/EnumPrintProcessorDatatypes
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,6 +39,7 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - EnumPrintProcessorDatatypesA
  - EnumPrintProcessorDatatypes
 ---
 
@@ -95,3 +98,4 @@ The function must return an array of DATATYPES_INFO_1 structures, with each stru
 The function should return the number of DATATYPES_INFO_1 structures returned (that is, the number of data types supported) in the location pointed to by <i>pcReturned</i>.
 
 The function should return the minimum required buffer size in the location pointed to by <i>pcbNeeded</i>. If the supplied buffer is too small, the function should specify a value for <i>pcbNeeded</i>, set the error code to ERROR_INSUFFICIENT_BUFFER, and return <b>FALSE</b>.
+

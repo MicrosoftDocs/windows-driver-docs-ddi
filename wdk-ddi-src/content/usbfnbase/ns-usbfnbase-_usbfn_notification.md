@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_NOTIFICATION
+ - PUSBFN_NOTIFICATION
  - USBFN_NOTIFICATION
 ---
 
@@ -79,3 +81,4 @@ Possible port types supported by a function controller indicated by a <a href="/
 ### -field u.AlternateInterface
 
 Alternate setting of the interface indicated by <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_alternate_interface">ALTERNATE_INTERFACE</a>.
+

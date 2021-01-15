@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TX_FRAME_STATUS
  - WDI_TX_FRAME_STATUS
 ---
 
@@ -82,3 +83,4 @@ The transfer failed.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETEXECUTORCONFIGPARAMS
+ - LPRILSETEXECUTORCONFIGPARAMS
 ---
 
 # RILSETEXECUTORCONFIGPARAMS structure (ntddrilapitypes.h)

@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_POWER_DIRECTION_MODE
+ - UCSI_POWER_DIRECTION_MODE
 ---
 
 # _UCSI_POWER_DIRECTION_MODE enumeration

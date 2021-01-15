@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_RESULT_EX
  - NDK_RESULT_EX
 ---
 
@@ -90,3 +91,4 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+

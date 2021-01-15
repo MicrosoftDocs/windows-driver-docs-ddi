@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_LIST_DATA
+ - PNET_BUFFER_LIST_DATA
  - NET_BUFFER_LIST_DATA
 ---
 
@@ -83,3 +85,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a>
+

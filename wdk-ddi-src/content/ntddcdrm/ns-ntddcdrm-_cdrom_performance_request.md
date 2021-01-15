@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_PERFORMANCE_REQUEST
+ - PCDROM_PERFORMANCE_REQUEST
  - CDROM_PERFORMANCE_REQUEST
 ---
 
@@ -83,3 +85,4 @@ The starting logical block address field.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_SENSOR_ATTRIBUTES
+ - PWINBIO_SENSOR_ATTRIBUTES
  - WINBIO_SENSOR_ATTRIBUTES
 ---
 
@@ -132,3 +134,4 @@ A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a>
+

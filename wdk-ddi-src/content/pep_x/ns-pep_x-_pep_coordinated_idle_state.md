@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COORDINATED_IDLE_STATE
+ - PPEP_COORDINATED_IDLE_STATE
  - PEP_COORDINATED_IDLE_STATE
 ---
 
@@ -76,3 +78,4 @@ Supplies the maximum size of a single dependency.
 
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+

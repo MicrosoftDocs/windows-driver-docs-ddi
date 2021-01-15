@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportInitiateOffload
+ - W_INITIATE_OFFLOAD_HANDLER
 ---
 
 # W_INITIATE_OFFLOAD_HANDLER callback function
@@ -141,3 +141,4 @@ For each state object that it offloads, the offload target must also supply a PV
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols2.GetFieldName
- - IDebugSymbols3.GetFieldName
+ - IDebugSymbols2::GetFieldName
 ---
 
 # IDebugSymbols2::GetFieldName
@@ -116,3 +115,4 @@ The method was successful. However, <i>NameBuffer</i> was not large enough to ho
 ## -remarks
 
 For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR
  - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
 ---
 
@@ -274,3 +276,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WH
 
 
 <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+

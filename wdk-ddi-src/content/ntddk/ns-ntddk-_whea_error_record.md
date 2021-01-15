@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_RECORD
+ - PWHEA_ERROR_RECORD
  - WHEA_ERROR_RECORD
 ---
 
@@ -76,3 +78,4 @@ A user-mode application can retrieve the error record from the hardware error ev
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+

@@ -31,6 +31,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_DRIVERESCAPETYPE
+ - D3DDDI_DRIVERESCAPETYPE
 dev_langs:
  - c++
 ---

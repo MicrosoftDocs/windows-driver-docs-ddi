@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - IoGetCurrentProcess
- - PsGetCurrentProcess
 ---
 
 # IoGetCurrentProcess function
@@ -61,3 +60,4 @@ This routine is identical to **PsGetCurrentProcess**.
 ## -see-also
 
 [PsGetCurrentThread](../ntddk/nf-ntddk-psgetcurrentthread.md)
+

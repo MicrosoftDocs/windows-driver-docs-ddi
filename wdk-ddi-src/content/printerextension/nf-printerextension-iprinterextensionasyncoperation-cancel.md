@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionAsyncOperation.Cancel
+ - IPrinterExtensionAsyncOperation::Cancel
 ---
 
 # IPrinterExtensionAsyncOperation::Cancel
@@ -59,3 +59,4 @@ Also, note that this method does not wait for the cancellation to be processed -
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
+

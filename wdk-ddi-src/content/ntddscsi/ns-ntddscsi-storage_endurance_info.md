@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _STORAGE_ENDURANCE_INFO
+ - PSTORAGE_ENDURANCE_INFO
  - STORAGE_ENDURANCE_INFO
 product:
  - Windows

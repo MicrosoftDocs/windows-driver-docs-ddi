@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CsqCompleteCanceledIrp
+ - IO_CSQ_COMPLETE_CANCELED_IRP
 ---
 
 # IO_CSQ_COMPLETE_CANCELED_IRP callback function
@@ -153,3 +153,4 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
+

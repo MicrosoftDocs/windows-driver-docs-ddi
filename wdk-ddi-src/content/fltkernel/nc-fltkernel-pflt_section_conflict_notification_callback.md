@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - SectionNotificationCallback
+ - PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK
 ---
 
 # PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback function

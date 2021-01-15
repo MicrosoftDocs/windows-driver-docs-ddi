@@ -29,6 +29,8 @@ req.typenames:
 f1_keywords:
  - CommonPropertySheetUIA
  - compstui/CommonPropertySheetUIA
+ - CommonPropertySheetUI
+ - compstui/CommonPropertySheetUI
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,6 +39,7 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - CommonPropertySheetUIA
  - CommonPropertySheetUI
 ---
 
@@ -162,3 +165,4 @@ When the user chooses the <b>OK</b> or <b>Cancel</b> button, the <b>CommonProper
 For more information about the sequence of operation, see <a href="/windows-hardware/drivers/print/using-cpsui-with-printer-drivers">Using CPSUI with Printer Drivers</a>, in the section entitled <a href="/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a>.
 
 The <b>CommonPropertySheetUI</b> function actually calls the <i>pfnPropSheetUI</i> callback several times, specifying different <b>Reason</b> member values in the callback's <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's <b>Result</b> member. When the <b>CommonPropertySheetUI</b> function returns, it copies the final contents of <b>Result</b> into the location pointed to by <i>pResult</i>.
+

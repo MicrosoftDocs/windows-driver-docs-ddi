@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnFinishSessionKeyRefresh
+ - PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
 product:
  - Windows
 ---
@@ -66,3 +66,4 @@ A handle to the driver's private data for the cryptographic session. This handle
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEDCFROMMEMORY
  - D3DKMT_CREATEDCFROMMEMORY
 ---
 
@@ -94,3 +95,4 @@ The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the di
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedcfrommemory">D3DKMTCreateDCFromMemory</a>
+

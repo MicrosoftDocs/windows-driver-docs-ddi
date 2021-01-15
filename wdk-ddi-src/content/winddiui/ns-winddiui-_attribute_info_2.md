@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _ATTRIBUTE_INFO_2
+ - PATTRIBUTE_INFO_2
  - ATTRIBUTE_INFO_2
 ---
 
@@ -195,3 +197,4 @@ For more information about other structure members, see <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a>
+

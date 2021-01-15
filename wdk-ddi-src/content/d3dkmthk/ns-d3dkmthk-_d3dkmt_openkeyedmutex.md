@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENKEYEDMUTEX
  - D3DKMT_OPENKEYEDMUTEX
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenkeyedmutex">D3DKMTOpenKeyedMutex</a>
+

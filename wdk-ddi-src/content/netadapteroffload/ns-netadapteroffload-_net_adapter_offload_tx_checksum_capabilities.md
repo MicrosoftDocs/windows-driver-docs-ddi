@@ -5,37 +5,42 @@ description: The NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure describe
 tech.root: netvista
 ms.date: 10/06/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure"]
-f1_keywords:
- - "netadapteroffload/_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES"
-ms.keywords: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, 
+ms.keywords: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES,
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- netadapteroffload.h
-api_name: 
-- _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ms.custom: Fe
+f1_keywords:
+ - _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+ - netadapteroffload/_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+ - NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+ - netadapteroffload/NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netadapteroffload.h
+api_name:
+ - _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+ - NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
+product:
+ - Windows
 ---
 
 # _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure
+
 
 ## -description
 
@@ -78,7 +83,7 @@ The flags should be a combination of:
 | NetAdapterOffloadLayer4FlagTcpNoOptions | Set if the NIC is capable of performing TCP checksum offload |
 | NetAdapterOffloadLayer4FlagTcpWithOptions | Set if the NIC is capable of performing Tx checksum offload on TCP packets with options |
 | NetAdapterOffloadLayer4FlagUdp | Set if the NIC is capable of performing UDP checksum offload |
- 
+
 ### -field Layer3HeaderOffsetLimit
 
 The maximum layer 3 header offset that the NIC supports in bytes. This member is optional.
@@ -104,3 +109,4 @@ Call [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffloa
 [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md)
 
 [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md)
+

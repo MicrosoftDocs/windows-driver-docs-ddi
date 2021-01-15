@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PROTOCOL_RESTART_PARAMETERS
+ - PNDIS_PROTOCOL_RESTART_PARAMETERS
  - NDIS_PROTOCOL_RESTART_PARAMETERS
 ---
 
@@ -133,3 +135,4 @@ Each name that is specified in the buffer in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETSTREAMSOURCEUM
  - D3DDDIARG_SETSTREAMSOURCEUM
 ---
 
@@ -68,3 +69,4 @@ In a call to the user-mode display driver's <a href="/windows-hardware/drivers/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsourceum">SetStreamSourceUM</a>
+

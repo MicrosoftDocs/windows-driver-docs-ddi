@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - filterpipeline
  - filterpipeline/filterpipeline
+api_name:
+ - filterpipeline
 ---
 
 # Filterpipeline.h header

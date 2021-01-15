@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_PARENT_BUS_TYPE
  - UCX_CONTROLLER_PARENT_BUS_TYPE
 ---
 
@@ -68,3 +69,4 @@ Parent is ACPI.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
+

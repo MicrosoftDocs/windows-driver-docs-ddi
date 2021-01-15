@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamStopCapture
+ - PCAM_STOP_CAPTURE_ROUTINE
 ---
 
 # PCAM_STOP_CAPTURE_ROUTINE callback function
@@ -79,3 +79,4 @@ This function is required.
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
+

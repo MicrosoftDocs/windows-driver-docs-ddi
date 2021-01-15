@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxbase.h
 api_name:
+ - _USBFN_ACTION
+ - PUSBFN_ACTION
  - USBFN_ACTION
 ---
 
@@ -64,3 +66,4 @@ UFX should not notify the battery manager about the detected port type or the ma
 ### -field UsbfnActionDetectProprietaryCharger
 
 UFX should initiate proprietary charger detection by calling the client driver’s <a href="/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_detect">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
+

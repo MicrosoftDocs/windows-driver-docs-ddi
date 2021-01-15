@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoInternalDeviceControl
+ - EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL
 ---
 
 # EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback function
@@ -129,3 +129,4 @@ A driver's <i>EvtIoInternalDeviceControl</i> callback function should not call t
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
+

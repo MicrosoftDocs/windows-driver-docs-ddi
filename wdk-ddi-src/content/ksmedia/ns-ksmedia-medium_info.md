@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PMEDIUM_INFO
  - MEDIUM_INFO
 ---
 

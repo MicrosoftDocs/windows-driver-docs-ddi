@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwCreateEvent
- - NtCreateEvent
 ---
 
 # ZwCreateEvent function
@@ -160,3 +159,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**ZwSetEvent**](./nf-ntifs-zwsetevent.md)
 
 [**ZwWaitForSingleObject**](./nf-ntifs-zwwaitforsingleobject.md)
+

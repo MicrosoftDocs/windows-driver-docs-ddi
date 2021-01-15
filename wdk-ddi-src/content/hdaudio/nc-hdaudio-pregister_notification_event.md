@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - RegisterNotificationEvent
+ - PREGISTER_NOTIFICATION_EVENT
 ---
 
 # PREGISTER_NOTIFICATION_EVENT callback function
@@ -93,3 +93,4 @@ A pointer to a kernel event that must be notified as DMA progresses.  Depending 
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-punregister_notification_event">UnregisterNotificationEvent</a>
+

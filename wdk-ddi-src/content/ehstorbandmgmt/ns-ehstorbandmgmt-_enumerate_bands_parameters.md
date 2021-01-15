@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _ENUMERATE_BANDS_PARAMETERS
+ - PENUMERATE_BANDS_PARAMETERS
  - ENUMERATE_BANDS_PARAMETERS
 ---
 
@@ -129,3 +131,4 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+

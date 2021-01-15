@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols5.SetScopeFrameByIndexEx
+ - IDebugSymbols5::SetScopeFrameByIndexEx
 ---
 
 # IDebugSymbols5::SetScopeFrameByIndexEx
@@ -66,3 +66,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols5">IDebugSymbols5</a>
+

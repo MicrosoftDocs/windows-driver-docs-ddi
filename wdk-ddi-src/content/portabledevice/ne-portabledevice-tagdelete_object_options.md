@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagDELETE_OBJECT_OPTIONS
  - DELETE_OBJECT_OPTIONS
 ---
 
@@ -67,3 +68,4 @@ An application can retrieve the deletion options that the device supports by cal
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnRenderCb
+ - PFND3DDDI_RENDERCB
 product:
  - Windows
 ---
@@ -165,3 +165,4 @@ VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
 
 
 <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
+

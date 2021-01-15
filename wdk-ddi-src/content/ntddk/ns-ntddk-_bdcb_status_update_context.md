@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _BDCB_STATUS_UPDATE_CONTEXT
+ - PBDCB_STATUS_UPDATE_CONTEXT
  - BDCB_STATUS_UPDATE_CONTEXT
 ---
 
@@ -72,3 +74,4 @@ Boot-start drivers must not unregister their boot-start driver callbacks during 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iounregisterbootdrivercallback">IoUnRegisterBootDriverCallback</a>
+

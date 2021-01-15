@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_CONTEXTCREATEDATA
  - D3DHAL_CONTEXTCREATEDATA
 ---
 
@@ -118,3 +119,4 @@ If the driver successfully creates a context, the driver returns the context ID 
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+

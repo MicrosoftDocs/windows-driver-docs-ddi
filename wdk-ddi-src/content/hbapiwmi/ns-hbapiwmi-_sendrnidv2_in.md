@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendRNIDV2_IN
+ - PSendRNIDV2_IN
  - SendRNIDV2_IN
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the SendRNIDV2_IN structure in <i>
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendrnidv2">SendRNIDV2</a>
+

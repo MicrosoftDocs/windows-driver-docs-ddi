@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_GENERAL_ERROR_CODE
  - DXGK_GENERAL_ERROR_CODE
 ---
 
@@ -62,3 +63,4 @@ Indicates that the GPU encountered an invalid instruction in the DMA command buf
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+

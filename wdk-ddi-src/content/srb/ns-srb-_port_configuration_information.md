@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _PORT_CONFIGURATION_INFORMATION
+ - PPORT_CONFIGURATION_INFORMATION
  - PORT_CONFIGURATION_INFORMATION
 ---
 
@@ -314,3 +316,4 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportvalidaterange">ScsiPortValidateRange</a>
+

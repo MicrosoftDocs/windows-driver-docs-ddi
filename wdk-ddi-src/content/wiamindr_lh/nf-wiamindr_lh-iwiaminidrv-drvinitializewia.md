@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvInitializeWia
+ - IWiaMiniDrv::drvInitializeWia
 ---
 
 # IWiaMiniDrv::drvInitializeWia
@@ -164,3 +164,4 @@ For example, if the user right-clicks a WIA scanner icon in **My Computer**, the
 [IWiaMiniDrv::drvUnInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvuninitializewia.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
+

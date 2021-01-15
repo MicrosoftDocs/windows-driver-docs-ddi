@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskInspectEvent
+ - PFN_WSK_INSPECT_EVENT
 ---
 
 # PFN_WSK_INSPECT_EVENT callback function
@@ -228,3 +228,4 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

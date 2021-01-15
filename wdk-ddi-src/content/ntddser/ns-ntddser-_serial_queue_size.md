@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_QUEUE_SIZE
+ - PSERIAL_QUEUE_SIZE
  - SERIAL_QUEUE_SIZE
 ---
 
@@ -72,3 +74,4 @@ This structure is used by <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntdd
 
 
 <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
+

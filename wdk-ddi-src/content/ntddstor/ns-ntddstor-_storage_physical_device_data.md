@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PHYSICAL_DEVICE_DATA
+ - PSTORAGE_PHYSICAL_DEVICE_DATA
  - STORAGE_PHYSICAL_DEVICE_DATA
 ---
 
@@ -119,3 +121,4 @@ Specifies if the storage device is reserved.
 #### - Vendor[8]
 
 The vendor name of the storage device.
+

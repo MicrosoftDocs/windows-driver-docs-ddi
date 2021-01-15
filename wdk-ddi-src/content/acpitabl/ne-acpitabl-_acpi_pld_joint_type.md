@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_JOINT_TYPE
+ - PACPI_PLD_JOINT_TYPE
+ - ACPI_PLD_JOINT_TYPE
 ---
 
 # _ACPI_PLD_JOINT_TYPE enumeration
+
 
 ## -description
 
@@ -65,3 +68,4 @@ Value is 4.
 ## -remarks
 
 ## -see-also
+

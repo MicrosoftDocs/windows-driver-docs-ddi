@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxPeerConfig
+ - MINIPORT_WDI_TAL_TXRX_PEER_CONFIG
 ---
 
 # MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback function
@@ -93,3 +93,4 @@ Pointer to a <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_tx
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_peer_cfg">WDI_TXRX_PEER_CFG</a>
+

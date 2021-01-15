@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_FS_PERSISTENT_VOLUME_INFORMATION
+ - PFILE_FS_PERSISTENT_VOLUME_INFORMATION
  - FILE_FS_PERSISTENT_VOLUME_INFORMATION
 ---
 
@@ -207,3 +209,4 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 
 <a href="/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
+

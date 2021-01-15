@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_CALLBACK_REGISTRATION
+ - POB_CALLBACK_REGISTRATION
  - OB_CALLBACK_REGISTRATION
 ---
 
@@ -92,3 +94,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+

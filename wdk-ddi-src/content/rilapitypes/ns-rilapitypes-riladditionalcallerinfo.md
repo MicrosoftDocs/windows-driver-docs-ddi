@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILADDITIONALCALLERINFO
+ - LPRILADDITIONALCALLERINFO
 ---
 
 # RILADDITIONALCALLERINFO structure (rilapitypes.h)

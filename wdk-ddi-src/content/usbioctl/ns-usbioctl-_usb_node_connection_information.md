@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_NODE_CONNECTION_INFORMATION
+ - PUSB_NODE_CONNECTION_INFORMATION
  - USB_NODE_CONNECTION_INFORMATION
 ---
 
@@ -128,3 +130,4 @@ The <b>Speed</b> member of the <a href="/windows-hardware/drivers/ddi/usbioctl/n
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_pipe_info">USB_PIPE_INFO</a>
+

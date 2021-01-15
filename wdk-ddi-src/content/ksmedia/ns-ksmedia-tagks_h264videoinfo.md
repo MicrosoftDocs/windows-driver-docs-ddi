@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKS_H264VIDEOINFO
+ - PKS_H264VIDEOINFO
  - KS_H264VIDEOINFO
 ---
 
@@ -614,3 +616,4 @@ The KS_H264VIDEOINFO structure contains the frame and the format descriptor info
 [KS_DATAFORMAT_H264VIDEOINFO](./ns-ksmedia-tagks_dataformat_h264videoinfo.md)
 
 [KS_DATARANGE_H264_VIDEO](./ns-ksmedia-tagks_datarange_h264_video.md)
+

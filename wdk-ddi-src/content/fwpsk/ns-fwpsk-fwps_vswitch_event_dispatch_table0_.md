@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_
  - FWPS_VSWITCH_EVENT_DISPATCH_TABLE0
 ---
 
@@ -119,3 +120,4 @@ The following definition is in fwpvi.h:
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+

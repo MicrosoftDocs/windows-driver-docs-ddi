@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_VIDSCHESCAPETYPE
  - D3DKMT_VIDSCHESCAPETYPE
 ---
 
@@ -68,3 +69,4 @@ The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="/windows-hardwa
 ### -field D3DKMT_VIDSCHESCAPETYPE_VGPU_RESET
 
 ### -field D3DKMT_VIDSCHESCAPETYPE_PFN_CONTROL
+

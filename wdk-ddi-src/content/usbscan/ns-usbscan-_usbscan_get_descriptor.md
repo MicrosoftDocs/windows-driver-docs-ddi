@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _USBSCAN_GET_DESCRIPTOR
+ - PUSBSCAN_GET_DESCRIPTOR
  - USBSCAN_GET_DESCRIPTOR
 ---
 
@@ -64,3 +66,4 @@ Same as the <i>Index</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
 ### -field LanguageId
 
 Same as the <i>LanguageId</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
+

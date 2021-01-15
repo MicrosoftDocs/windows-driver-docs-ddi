@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_VIDPN_INTERFACE_VERSION
  - DXGK_VIDPN_INTERFACE_VERSION
 ---
 
@@ -66,3 +67,4 @@ The <i>VidPnInterfaceVersion</i> parameter of the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">VidPn Interface</a>
+

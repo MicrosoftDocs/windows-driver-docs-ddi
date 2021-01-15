@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - DXVAHDDDI_NOMINAL_RANGE
+ - D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration
@@ -64,3 +64,4 @@ The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusiv
 ## -remarks
 
 For more information on luminance range, see <a href="/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
+

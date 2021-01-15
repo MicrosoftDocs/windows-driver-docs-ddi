@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
  - IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
 ---
 
@@ -118,3 +119,4 @@ Specifies the actual speed selected in allocating bandwidth. The value is one of
 ### -field nBandwidthUnitsRequired
 
 This is a pre-calculated value.
+

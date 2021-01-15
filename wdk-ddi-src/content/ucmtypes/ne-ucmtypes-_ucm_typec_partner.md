@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_TYPEC_PARTNER
  - UCM_TYPEC_PARTNER
 ---
 
@@ -106,3 +107,4 @@ The partner is an Upstream Facing Port (UFP).
 
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
+

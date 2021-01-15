@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadVirtual
- - IDebugDataSpaces2.ReadVirtual
- - IDebugDataSpaces3.ReadVirtual
- - IDebugDataSpaces4.ReadVirtual
+ - IDebugDataSpaces3::ReadVirtual
 ---
 
 # IDebugDataSpaces3::ReadVirtual
@@ -126,3 +123,4 @@ When reading memory that contains pointers, these pointers are for the target's 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
+

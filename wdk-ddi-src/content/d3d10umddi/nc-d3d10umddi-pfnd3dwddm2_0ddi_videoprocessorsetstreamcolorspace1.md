@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamColorSpace1
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ The legacy <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

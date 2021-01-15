@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_STUCK_ERROR_EVENT
+ - PWHEAP_STUCK_ERROR_EVENT
  - WHEAP_STUCK_ERROR_EVENT
 product:
  - Windows

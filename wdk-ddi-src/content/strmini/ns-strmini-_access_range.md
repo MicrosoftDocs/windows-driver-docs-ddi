@@ -42,6 +42,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _ACCESS_RANGE
+ - PACCESS_RANGE
  - ACCESS_RANGE
 ---
 
@@ -108,3 +110,4 @@ The corresponding base logical address returned by **ScsiPortGetDeviceBase** sho
 [ScsiPortConvertUlongToPhysicalAddress](../srb/nf-srb-scsiportconvertulongtophysicaladdress.md)
 
 [HwScsiFindAdapter](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85))
+

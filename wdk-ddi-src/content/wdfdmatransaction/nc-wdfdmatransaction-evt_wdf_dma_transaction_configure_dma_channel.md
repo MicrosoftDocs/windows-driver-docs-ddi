@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaTransaction.h
 api_name:
- - EvtDmaTransactionConfigureDmaChannel
+ - EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL
 ---
 
 # EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback function
@@ -105,3 +105,4 @@ If the driver experiences an error while configuring the channel, it can stop th
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback">WdfDmaTransactionSetChannelConfigurationCallback</a>
+

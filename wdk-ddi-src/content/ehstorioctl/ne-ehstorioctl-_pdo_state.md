@@ -39,6 +39,7 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _PDO_STATE
  - PDO_STATE
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_RESTART_PARAMETERS
+ - PNDIS_FILTER_RESTART_PARAMETERS
  - NDIS_FILTER_RESTART_PARAMETERS
 ---
 
@@ -136,3 +138,4 @@ Filter drivers can modify the restart attributes that are specified by underlyin
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _DISPLAY_BRIGHTNESS
+ - PDISPLAY_BRIGHTNESS
  - DISPLAY_BRIGHTNESS
 ---
 

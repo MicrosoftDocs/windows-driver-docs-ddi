@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _SCSI_REQUEST_BLOCK
+ - PSCSI_REQUEST_BLOCK
  - SCSI_REQUEST_BLOCK
 ---
 
@@ -875,3 +877,4 @@ The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI minipo
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportnotification">ScsiPortNotification</a>
+

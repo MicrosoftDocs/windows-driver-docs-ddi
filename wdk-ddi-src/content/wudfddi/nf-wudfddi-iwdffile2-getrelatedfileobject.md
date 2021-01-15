@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFile2.GetRelatedFileObject
+ - IWDFFile2::GetRelatedFileObject
 ---
 
 # IWDFFile2::GetRelatedFileObject
@@ -93,7 +93,7 @@ CMyQueue::OnCreateFile(
     ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile2">IWDFFile2</a>
+

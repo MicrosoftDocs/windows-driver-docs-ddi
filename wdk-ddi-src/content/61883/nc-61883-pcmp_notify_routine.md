@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 61883.h
 api_name:
- - CmpNotifyRoutine
+ - PCMP_NOTIFY_ROUTINE
 ---
 
 # PCMP_NOTIFY_ROUTINE callback function

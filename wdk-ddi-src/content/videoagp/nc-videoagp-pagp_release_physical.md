@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpReleasePhysical
+ - PAGP_RELEASE_PHYSICAL
 ---
 
 # PAGP_RELEASE_PHYSICAL callback function
@@ -70,3 +70,4 @@ The miniport driver must call <a href="/windows-hardware/drivers/ddi/videoagp/nc
 
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
+

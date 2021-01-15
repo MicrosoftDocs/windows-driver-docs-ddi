@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces3.EndEnumTagged
- - IDebugDataSpaces4.EndEnumTagged
+ - IDebugDataSpaces3::EndEnumTagged
 ---
 
 # IDebugDataSpaces3::EndEnumTagged
@@ -80,3 +79,4 @@ The method was successful.
 ## -remarks
 
 After a handle has been passed to this method it is no longer valid and must not be used again.
+

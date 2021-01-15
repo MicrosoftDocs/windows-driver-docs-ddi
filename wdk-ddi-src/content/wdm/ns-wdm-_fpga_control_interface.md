@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _FPGA_CONTROL_INTERFACE
+ - PFPGA_CONTROL_INTERFACE
+ - FPGA_CONTROL_INTERFACE
 ---
 
 # _FPGA_CONTROL_INTERFACE structure

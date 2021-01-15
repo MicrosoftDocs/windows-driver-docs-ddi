@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetCurrentValue
+ - CWiauPropertyList::SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME) (wiautil.h)
+
 
 ## -description
 
@@ -68,3 +69,4 @@ The **SYSTEMTIME** structure is described in the Microsoft Windows SDK documenta
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
+

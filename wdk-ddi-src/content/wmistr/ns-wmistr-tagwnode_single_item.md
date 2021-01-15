@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_SINGLE_ITEM
+ - PWNODE_SINGLE_ITEM
  - WNODE_SINGLE_ITEM
 ---
 
@@ -94,3 +96,4 @@ A driver builds a <b>WNODE_SINGLE_ITEM</b> to generate an event that consists of
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

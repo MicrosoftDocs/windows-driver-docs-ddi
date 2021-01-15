@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_COMMAND_IRB
+ - PAVC_COMMAND_IRB
  - AVC_COMMAND_IRB
 ---
 
@@ -136,3 +138,4 @@ This structure is used with the <a href="/windows-hardware/drivers/stream/avc-fu
 
 
 <a href="/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a>
+

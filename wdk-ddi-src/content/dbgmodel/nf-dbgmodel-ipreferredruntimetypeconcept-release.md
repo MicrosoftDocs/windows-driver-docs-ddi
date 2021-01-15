@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IPreferredRuntimeTypeConcept.Release
+ - IPreferredRuntimeTypeConcept::Release
 ---
 
 # IPreferredRuntimeTypeConcept::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IPreferredRuntimeTypeConcept interface](nn-dbgmodel-ipreferredruntimetypeconcept.md)
+

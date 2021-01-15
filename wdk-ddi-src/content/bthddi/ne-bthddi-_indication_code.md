@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _INDICATION_CODE
+ - PINDICATION_CODE
  - INDICATION_CODE
 ---
 
@@ -160,3 +162,4 @@ A value from this enumeration is passed to a profile driver's
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>
+

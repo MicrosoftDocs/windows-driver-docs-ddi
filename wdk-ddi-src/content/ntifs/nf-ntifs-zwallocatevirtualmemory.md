@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwAllocateVirtualMemory
- - NtAllocateVirtualMemory
 ---
 
 # ZwAllocateVirtualMemory function
@@ -333,3 +332,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/previous-versions/ff566460(v=vs.85)">ZwFreeVirtualMemory</a>
+

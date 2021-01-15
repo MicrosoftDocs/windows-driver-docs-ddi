@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_TIMER_CHARACTERISTICS
+ - PNDIS_TIMER_CHARACTERISTICS
  - NDIS_TIMER_CHARACTERISTICS
 ---
 
@@ -103,3 +105,4 @@ To allocate and initialize a timer object, NDIS drivers call the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
+

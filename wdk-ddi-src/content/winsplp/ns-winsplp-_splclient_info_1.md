@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _SPLCLIENT_INFO_1
+ - PSPLCLIENT_INFO_1
  - SPLCLIENT_INFO_1
 ---
 
@@ -84,3 +86,4 @@ The client's processor architecture, as returned by the Window SDK <b>GetSystemI
 ## -remarks
 
 Values for all structure members are supplied by the print spooler before the spooler calls <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>.
+

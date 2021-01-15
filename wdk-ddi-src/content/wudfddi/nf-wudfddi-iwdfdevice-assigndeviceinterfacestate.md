@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.AssignDeviceInterfaceState
+ - IWDFDevice::AssignDeviceInterfaceState
 ---
 
 # IWDFDevice::AssignDeviceInterfaceState
@@ -94,3 +94,4 @@ For a code example of how to use the <b>AssignDeviceInterfaceState</b> method, s
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createdeviceinterface">IWDFDevice::CreateDeviceInterface</a>
+

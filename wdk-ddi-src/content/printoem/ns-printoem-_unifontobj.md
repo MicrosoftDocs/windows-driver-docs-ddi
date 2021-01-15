@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _UNIFONTOBJ
+ - PUNIFONTOBJ
  - UNIFONTOBJ
 ---
 
@@ -157,3 +159,4 @@ Pointer to Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

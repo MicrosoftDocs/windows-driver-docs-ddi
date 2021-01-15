@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTarget2.GetValue
+ - IWDTFTarget2::GetValue
 ---
 
 # IWDTFTarget2::GetValue
@@ -90,3 +90,4 @@ see <a href="/windows-hardware/drivers/wdtf/simple-data-evaluation-language-over
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+

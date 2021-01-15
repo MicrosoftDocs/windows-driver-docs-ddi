@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printerextension.h
 api_name:
- - IPrintSchemaTicket.CommitAsync
+ - IPrintSchemaTicket::CommitAsync
 ---
 
 # IPrintSchemaTicket::CommitAsync
@@ -78,3 +78,4 @@ To perform the commit operation, call the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

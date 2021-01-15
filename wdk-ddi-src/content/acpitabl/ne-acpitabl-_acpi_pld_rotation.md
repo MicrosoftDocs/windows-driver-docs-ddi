@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_ROTATION
+ - PACPI_PLD_ROTATION
+ - ACPI_PLD_ROTATION
 ---
 
 # _ACPI_PLD_ROTATION enumeration
+
 
 ## -description
 
@@ -77,3 +80,4 @@ Value is 7.
 ## -remarks
 
 ## -see-also
+

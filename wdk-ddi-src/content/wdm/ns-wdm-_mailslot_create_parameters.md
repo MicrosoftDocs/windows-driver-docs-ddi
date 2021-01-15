@@ -40,6 +40,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _MAILSLOT_CREATE_PARAMETERS
+ - PMAILSLOT_CREATE_PARAMETERS
  - MAILSLOT_CREATE_PARAMETERS
 ---
 
@@ -77,3 +79,4 @@ For an [IRP_MJ_CREATE_MAILSLOT](/windows-hardware/drivers/ifs/irp-mj-create-mail
 [FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md)
 
 [IRP_MJ_CREATE_MAILSLOT](/windows-hardware/drivers/ifs/irp-mj-create-mailslot)
+

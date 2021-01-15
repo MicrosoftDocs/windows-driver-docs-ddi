@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_DESTINATION
+ - PNDIS_SWITCH_PORT_DESTINATION
  - NDIS_SWITCH_PORT_DESTINATION
 ---
 
@@ -98,3 +100,4 @@ For more information on destination ports, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_forwarding_destination_array">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+

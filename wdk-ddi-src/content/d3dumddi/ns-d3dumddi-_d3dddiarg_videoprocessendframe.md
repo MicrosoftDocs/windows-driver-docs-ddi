@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_VIDEOPROCESSENDFRAME
  - D3DDDIARG_VIDEOPROCESSENDFRAME
 ---
 
@@ -66,3 +67,4 @@ This member is reserved and should be set to <b>NULL</b>.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessendframe">VideoProcessEndFrame</a>
+

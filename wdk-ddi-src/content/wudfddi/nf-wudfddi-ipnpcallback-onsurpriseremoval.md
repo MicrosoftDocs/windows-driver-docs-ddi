@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallback.OnSurpriseRemoval
+ - IPnpCallback::OnSurpriseRemoval
 ---
 
 # IPnpCallback::OnSurpriseRemoval
@@ -75,3 +75,4 @@ For more information about when the framework calls this callback function, and 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

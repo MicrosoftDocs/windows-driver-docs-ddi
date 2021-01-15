@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient7.SetClientContext
+ - IDebugClient7::SetClientContext
 ---
 
 # IDebugClient7::SetClientContext
@@ -70,3 +70,4 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient7">IDebugClient7</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_POINTER_ATTRIBUTES
+ - PVIDEO_POINTER_ATTRIBUTES
  - VIDEO_POINTER_ATTRIBUTES
 ---
 
@@ -99,3 +101,4 @@ The pointer data, in device-compatible DIB format. Mask data is always in 1-bpp 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>
+

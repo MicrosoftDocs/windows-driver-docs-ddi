@@ -41,6 +41,8 @@ api_type:
 api_location:
  - swenum.h
 api_name:
+ - _BUS_INTERFACE_SWENUM
+ - PBUS_INTERFACE_SWENUM
  - BUS_INTERFACE_SWENUM
 ---
 
@@ -95,3 +97,4 @@ If your request is successful, the system fills in the BUS_INTERFACE_SWENUM stru
 
 </li>
 </ul>
+

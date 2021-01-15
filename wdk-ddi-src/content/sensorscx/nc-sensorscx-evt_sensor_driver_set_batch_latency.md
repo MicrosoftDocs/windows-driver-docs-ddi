@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorSetBatchLatency
+ - EVT_SENSOR_DRIVER_SET_BATCH_LATENCY
 ---
 
 # EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback function
@@ -78,3 +78,4 @@ For more information about the VT_FILETIME data type, see <a href="/windows/win3
 
 
 <a href="/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensordataready">SensorsCxSensorDataReady</a>
+

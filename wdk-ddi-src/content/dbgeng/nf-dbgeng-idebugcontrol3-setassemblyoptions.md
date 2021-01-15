@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.SetAssemblyOptions
+ - IDebugControl3::SetAssemblyOptions
 ---
 
 # IDebugControl3::SetAssemblyOptions
@@ -169,3 +169,4 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeassemblyoptions">RemoveAssemblyOptions</a>
+

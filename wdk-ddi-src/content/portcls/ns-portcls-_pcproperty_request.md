@@ -41,6 +41,8 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - _PCPROPERTY_REQUEST
+ - PPCPROPERTY_REQUEST
  - PCPROPERTY_REQUEST
 ---
 
@@ -184,3 +186,4 @@ For background information about audio properties, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcproperty_item">PCPROPERTY_ITEM</a>
+

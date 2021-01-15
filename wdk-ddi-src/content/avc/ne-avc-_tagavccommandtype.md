@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _tagAvcCommandType
  - AvcCommandType
 ---
 
@@ -82,3 +83,4 @@ Specifies a general inquiry command type. This permits a controller to query a t
 
 
 <a href="/windows-hardware/drivers/stream/avc-function-get-request">AVC_FUNCTION_GET_REQUEST</a>
+

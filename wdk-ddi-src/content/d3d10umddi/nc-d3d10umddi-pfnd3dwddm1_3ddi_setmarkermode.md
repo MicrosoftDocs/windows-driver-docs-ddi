@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - SetMarkerMode
+ - PFND3DWDDM1_3DDI_SETMARKERMODE
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ Follow these guidelines when you set up profile-type marker events in your user-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3dwddm1_3ddi_marker_type">D3DWDDM1_3DDI_MARKER_TYPE</a>
+

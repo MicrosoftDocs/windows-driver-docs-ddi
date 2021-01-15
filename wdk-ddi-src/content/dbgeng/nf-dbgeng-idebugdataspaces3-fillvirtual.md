@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces2.FillVirtual
- - IDebugDataSpaces3.FillVirtual
- - IDebugDataSpaces4.FillVirtual
+ - IDebugDataSpaces3::FillVirtual
 ---
 
 # IDebugDataSpaces3::FillVirtual
@@ -119,3 +117,4 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
+

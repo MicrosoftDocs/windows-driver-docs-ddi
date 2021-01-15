@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CMP_MONITOR_INFO
+ - PCMP_MONITOR_INFO
  - CMP_MONITOR_INFO
 ---
 

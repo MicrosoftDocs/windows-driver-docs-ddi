@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPROVISIONSTATUS
+ - LPRILPROVISIONSTATUS
 ---
 
 # RILPROVISIONSTATUS structure (rilapitypes.h)

@@ -34,6 +34,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_SEGMENTPREFERENCE
+ - D3DDDI_SEGMENTPREFERENCE
 dev_langs:
  - c++
 ---

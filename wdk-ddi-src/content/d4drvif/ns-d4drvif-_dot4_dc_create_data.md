@@ -41,6 +41,8 @@ api_type:
 api_location:
  - D4drvif.h
 api_name:
+ - _DOT4_DC_CREATE_DATA
+ - PDOT4_DC_CREATE_DATA
  - DOT4_DC_CREATE_DATA
 ---
 

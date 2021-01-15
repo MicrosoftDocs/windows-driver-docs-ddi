@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskInspectComplete
+ - PFN_WSK_INSPECT_COMPLETE
 ---
 
 # PFN_WSK_INSPECT_COMPLETE callback function
@@ -231,3 +231,4 @@ If the WSK application calls the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
+

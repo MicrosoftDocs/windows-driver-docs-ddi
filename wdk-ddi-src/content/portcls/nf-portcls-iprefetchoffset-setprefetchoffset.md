@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPreFetchOffset.SetPreFetchOffset
+ - IPreFetchOffset::SetPreFetchOffset
 ---
 
 # IPreFetchOffset::SetPreFetchOffset
@@ -93,3 +93,4 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
+

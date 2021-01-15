@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_OBJECT_TYPE
  - NDK_OBJECT_TYPE
 ---
 
@@ -146,3 +147,4 @@ NDK objects include an <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_nd
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
+

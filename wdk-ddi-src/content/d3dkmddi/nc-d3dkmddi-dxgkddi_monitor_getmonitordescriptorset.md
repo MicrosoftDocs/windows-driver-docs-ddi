@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetMonitorDescriptorSet
+ - DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
 product:
  - Windows
 ---
@@ -94,3 +94,4 @@ This function is also available in the <a href="/windows-hardware/drivers/ddi/d3
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
+

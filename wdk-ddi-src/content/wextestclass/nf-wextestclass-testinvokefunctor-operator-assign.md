@@ -38,7 +38,7 @@ api_type:
 api_location:
  - arrayofelements.hpp
 api_name:
- - ExtRemoteTyped.operator=
+ - TestInvokeFunctor::operator=
 ---
 
 # operator= function
@@ -81,3 +81,4 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+

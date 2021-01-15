@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_PNP_EVENT_COMPLETE
+ - PSRIOV_PNP_EVENT_COMPLETE
  - SRIOV_PNP_EVENT_COMPLETE
 ---
 
@@ -68,3 +70,4 @@ typedef struct _SRIOV_PNP_EVENT_COMPLETE {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>
+

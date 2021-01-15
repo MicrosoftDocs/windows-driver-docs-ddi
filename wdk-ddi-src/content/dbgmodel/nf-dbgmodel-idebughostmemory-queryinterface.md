@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostMemory.QueryInterface
+ - IDebugHostMemory::QueryInterface
 ---
 
 # IDebugHostMemory::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostMemory interface](nn-dbgmodel-idebughostmemory.md)
+

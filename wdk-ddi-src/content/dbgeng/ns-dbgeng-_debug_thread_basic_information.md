@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_THREAD_BASIC_INFORMATION
+ - PDEBUG_THREAD_BASIC_INFORMATION
  - DEBUG_THREAD_BASIC_INFORMATION
 ---
 

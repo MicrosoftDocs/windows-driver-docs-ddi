@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_RECLAIMRESOURCES
  - D3DDDIARG_RECLAIMRESOURCES
 ---
 
@@ -76,3 +77,4 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimresources">ReclaimResources</a>
+

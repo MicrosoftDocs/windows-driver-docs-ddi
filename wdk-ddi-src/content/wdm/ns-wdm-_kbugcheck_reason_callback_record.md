@@ -34,6 +34,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KBUGCHECK_REASON_CALLBACK_RECORD
+ - PKBUGCHECK_REASON_CALLBACK_RECORD
  - KBUGCHECK_REASON_CALLBACK_RECORD
 product:
  - Windows
@@ -65,3 +67,4 @@ For more information about how this structure is used, see <a href="/windows-har
 ## -see-also
 
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

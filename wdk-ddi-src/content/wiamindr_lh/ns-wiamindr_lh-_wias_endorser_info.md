@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIAS_ENDORSER_INFO
+ - PWIAS_ENDORSER_INFO
  - WIAS_ENDORSER_INFO
 ---
 
@@ -74,3 +76,4 @@ Currently, [wiasParseEndorserString](../wiamdef/nf-wiamdef-wiasparseendorserstri
 [WIAS_ENDORSER_VALUE](./ns-wiamindr_lh-_wias_endorser_value.md)
 
 [wiasParseEndorserString](../wiamdef/nf-wiamdef-wiasparseendorserstring.md)
+

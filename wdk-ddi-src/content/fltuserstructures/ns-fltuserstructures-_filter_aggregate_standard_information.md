@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_AGGREGATE_STANDARD_INFORMATION
+ - PFILTER_AGGREGATE_STANDARD_INFORMATION
  - FILTER_AGGREGATE_STANDARD_INFORMATION
 ---
 
@@ -213,3 +215,4 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>
+

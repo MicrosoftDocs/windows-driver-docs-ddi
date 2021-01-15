@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_RELEASEKEYEDMUTEX
  - D3DKMT_RELEASEKEYEDMUTEX
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href=
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a>
+

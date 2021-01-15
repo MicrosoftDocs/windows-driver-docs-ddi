@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosStatusUpdatedEventData
  - PosStatusUpdatedEventData
 ---
 
@@ -62,3 +63,4 @@ Indicates a device-specific enumeration value.
 ### -field ExtendedStatus
 
 Indicates a driver-specific value intended to be used by the vendor for diagnostic purposes.
+

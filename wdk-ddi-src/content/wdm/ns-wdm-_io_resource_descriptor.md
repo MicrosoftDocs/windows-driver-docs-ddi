@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_RESOURCE_DESCRIPTOR
+ - PIO_RESOURCE_DESCRIPTOR
  - IO_RESOURCE_DESCRIPTOR
 ---
 
@@ -601,3 +603,4 @@ The maximum bus-relative I/O port address that can be assigned to the device.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
+

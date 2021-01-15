@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortClsRuntimePower.UnregisterPowerControlCallback
+ - IPortClsRuntimePower::UnregisterPowerControlCallback
 ---
 
 # IPortClsRuntimePower::UnregisterPowerControlCallback
@@ -61,3 +61,4 @@ The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
+

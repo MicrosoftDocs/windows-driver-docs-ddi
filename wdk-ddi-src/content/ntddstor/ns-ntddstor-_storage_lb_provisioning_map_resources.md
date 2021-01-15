@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_LB_PROVISIONING_MAP_RESOURCES
+ - PSTORAGE_LB_PROVISIONING_MAP_RESOURCES
  - STORAGE_LB_PROVISIONING_MAP_RESOURCES
 ---
 
@@ -250,3 +252,4 @@ Resource counts are in bytes instead of totals of blocks or slabs.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_lb_provisioning_map_resources"> IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a>
+

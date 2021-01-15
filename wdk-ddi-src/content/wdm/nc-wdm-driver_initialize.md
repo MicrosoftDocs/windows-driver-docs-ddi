@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - DriverEntry
+ - DRIVER_INITIALIZE
 ---
 
 # DRIVER_INITIALIZE callback function
@@ -110,3 +110,4 @@ The DRIVER_INITIALIZE function type is defined in the Wdm.h header file. To more
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+

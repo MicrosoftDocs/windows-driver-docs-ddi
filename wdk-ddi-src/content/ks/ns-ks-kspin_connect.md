@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPIN_CONNECT
  - KSPIN_CONNECT
 ---
 
@@ -86,3 +87,4 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatepin">KsCreatePin</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - PowerOnDumpDeviceCallback
+ - PEPCALLBACKPOWERONCRASHDUMPDEVICE
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function (pep_x.h)
@@ -73,3 +73,4 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a>
+

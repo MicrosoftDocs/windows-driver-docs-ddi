@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _PingIPAddress_OUT
+ - PPingIPAddress_OUT
  - PingIPAddress_OUT
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATECONTEXTVIRTUAL
  - D3DKMT_CREATECONTEXTVIRTUAL
 ---
 
@@ -90,3 +91,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsReferenceClock.GetCorrelatedPhysicalTime
+ - IKsReferenceClock::GetCorrelatedPhysicalTime
 ---
 
 # IKsReferenceClock::GetCorrelatedPhysicalTime
@@ -69,3 +69,4 @@ AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-cor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+

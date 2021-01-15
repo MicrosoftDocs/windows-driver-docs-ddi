@@ -40,6 +40,7 @@ api_location:
  - Sensorsdef.h
 api_name:
  - SENSOR_PROPERTY_LIST
+ - PSENSOR_PROPERTY_LIST
 ---
 
 # SENSOR_PROPERTY_LIST structure
@@ -80,3 +81,4 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 <a href="/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
+

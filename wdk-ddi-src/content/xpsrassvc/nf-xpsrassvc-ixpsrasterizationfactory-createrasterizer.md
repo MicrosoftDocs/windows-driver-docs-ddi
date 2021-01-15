@@ -37,7 +37,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXpsRasterizationFactory.CreateRasterizer
+ - IXpsRasterizationFactory::CreateRasterizer
 ---
 
 # IXpsRasterizationFactory::CreateRasterizer
@@ -112,3 +112,4 @@ For a code example that calls the **CreateRasterizer** method, see the XPSRasFil
 [IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md)
 
 [XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md)
+

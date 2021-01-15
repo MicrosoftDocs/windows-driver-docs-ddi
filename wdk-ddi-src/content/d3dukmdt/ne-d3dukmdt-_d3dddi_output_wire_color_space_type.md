@@ -30,6 +30,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+ - D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
 product:
  - Windows
 ---

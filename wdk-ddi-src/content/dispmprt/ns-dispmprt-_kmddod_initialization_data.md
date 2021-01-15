@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _KMDDOD_INITIALIZATION_DATA
+ - PKMDDOD_INITIALIZATION_DATA
  - KMDDOD_INITIALIZATION_DATA
 ---
 
@@ -244,3 +246,4 @@ If the kernel mode display-only driver (KMDOD) supports the VSync control featur
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nf-dispmprt-dxgkinitializedisplayonlydriver">DxgkInitializeDisplayOnlyDriver</a>
+

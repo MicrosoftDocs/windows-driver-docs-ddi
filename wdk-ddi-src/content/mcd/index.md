@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - mcd
  - mcd/mcd
+api_name:
+ - mcd
 ---
 
 # Mcd.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
+ - _KSSTREAM_SEGMENT
+ - PKSSTREAM_SEGMENT
  - KSSTREAM_SEGMENT
 ---
 
@@ -115,3 +117,4 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspin-ksmediasamplescompleted">IKsPin::KsMediaSamplesCompleted</a>
+

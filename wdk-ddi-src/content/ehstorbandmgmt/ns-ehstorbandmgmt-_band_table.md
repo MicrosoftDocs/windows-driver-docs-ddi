@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _BAND_TABLE
+ - PBAND_TABLE
  - BAND_TABLE
 ---
 
@@ -80,3 +82,4 @@ The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instea
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+

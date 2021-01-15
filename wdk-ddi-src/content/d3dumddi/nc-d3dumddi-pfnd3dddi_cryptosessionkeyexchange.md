@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CryptoSessionKeyExchange
+ - PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
 product:
  - Windows
 ---
@@ -79,3 +79,4 @@ For D3DKEYEXCHANGE_RSAES_OAEP, the <b>pData</b> member of the <a href="/windows-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_cryptosessionkeyexchange">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a>
+

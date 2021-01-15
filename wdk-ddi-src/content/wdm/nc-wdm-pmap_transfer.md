@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - MapTransfer
+ - PMAP_TRANSFER
 ---
 
 # PMAP_TRANSFER callback function
@@ -135,3 +135,4 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+

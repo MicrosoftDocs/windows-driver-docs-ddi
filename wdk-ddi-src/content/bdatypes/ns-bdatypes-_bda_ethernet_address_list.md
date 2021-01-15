@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_ETHERNET_ADDRESS_LIST
+ - PBDA_ETHERNET_ADDRESS_LIST
  - BDA_ETHERNET_ADDRESS_LIST
 ---
 

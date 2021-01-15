@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sdplib.h
 api_name:
- - SdpRetrieveUint128
+ - PRETRIEVEUINT64
 ---
 
 # PRETRIEVEUINT64 callback function
@@ -83,3 +83,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
+

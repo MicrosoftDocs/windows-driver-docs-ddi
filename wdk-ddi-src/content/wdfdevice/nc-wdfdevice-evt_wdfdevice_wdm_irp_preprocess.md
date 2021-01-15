@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceWdmIrpPreprocess
+ - EVT_WDFDEVICE_WDM_IRP_PREPROCESS
 ---
 
 # EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function
@@ -110,3 +110,4 @@ The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>
+

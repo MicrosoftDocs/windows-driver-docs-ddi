@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbEnumHandleChildren
+ - DXGKCB_ENUMHANDLECHILDREN
 ---
 
 # DXGKCB_ENUMHANDLECHILDREN callback function
@@ -78,3 +78,4 @@ The display miniport driver can call the <b>DxgkCbEnumHandleChildren</b> functio
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a>
+

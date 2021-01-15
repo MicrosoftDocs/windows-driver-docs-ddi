@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETDMPROFILECONFIGINFOPARAMS
+ - LPRILSETDMPROFILECONFIGINFOPARAMS
 ---
 
 # RILSETDMPROFILECONFIGINFOPARAMS structure (rilapitypes.h)

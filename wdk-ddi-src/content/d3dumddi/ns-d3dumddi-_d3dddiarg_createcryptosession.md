@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATECRYPTOSESSION
  - D3DDDIARG_CREATECRYPTOSESSION
 ---
 
@@ -80,3 +81,4 @@ A GUID that indicates a proprietary encryption algorithm.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ntddndis
  - ntddndis/ntddndis
+api_name:
+ - ntddndis
 ---
 
 # Ntddndis.h header

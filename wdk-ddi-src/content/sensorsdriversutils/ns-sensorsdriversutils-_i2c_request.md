@@ -35,6 +35,8 @@ api_location:
  - sensorsdriversutils.h
 api_name:
  - _I2C_REQUEST
+ - PI2C_REQUEST
+ - I2C_REQUEST
 product:
  - Windows
 ---

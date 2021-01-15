@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_START_INFO
+ - PDXGK_START_INFO
  - DXGK_START_INFO
 ---
 
@@ -72,3 +74,4 @@ A locally unique identifier (LUID) that will serve as an identifier for the adap
 The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>.
 
 The <i>DxgkStartInfo</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure.
+

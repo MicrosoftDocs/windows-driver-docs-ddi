@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni3.GetPDEVAdjustment
+ - IPrintOemUni3::GetPDEVAdjustment
 ---
 
 # IPrintOemUni3::GetPDEVAdjustment
@@ -144,3 +144,4 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
+

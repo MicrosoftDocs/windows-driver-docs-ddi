@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
- - Dump_Read
+ - DUMP_READ
 ---
 
 # DUMP_READ callback function
@@ -81,3 +81,4 @@ Filter drivers can modify the contents of the data buffer contained in <b>Mdl</b
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
+

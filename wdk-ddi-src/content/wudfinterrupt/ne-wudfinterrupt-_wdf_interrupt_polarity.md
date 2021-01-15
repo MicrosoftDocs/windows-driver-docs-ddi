@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_POLARITY
+ - PWDF_INTERRUPT_POLARITY
  - WDF_INTERRUPT_POLARITY
 ---
 
@@ -70,3 +72,4 @@ The interrupt signal is active when it is low.
 ## -remarks
 
 The <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a> enumeration type is used to specify a member of the <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure.
+

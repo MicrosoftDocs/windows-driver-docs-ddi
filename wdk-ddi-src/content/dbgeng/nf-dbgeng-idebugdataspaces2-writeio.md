@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.WriteIo
- - IDebugDataSpaces2.WriteIo
- - IDebugDataSpaces3.WriteIo
- - IDebugDataSpaces4.WriteIo
+ - IDebugDataSpaces2::WriteIo
 ---
 
 # IDebugDataSpaces2::WriteIo
@@ -112,3 +109,4 @@ The method was successful.
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENADAPTERFROMHDC
  - D3DKMT_OPENADAPTERFROMHDC
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_OPENADAPTERFROMHDC structure describes the mapping of a device contex
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a>
+

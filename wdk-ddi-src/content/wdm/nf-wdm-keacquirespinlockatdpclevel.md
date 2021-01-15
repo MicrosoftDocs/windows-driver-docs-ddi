@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - KeAcquireSpinLockAtDpcLevel
- - KefAcquireSpinLockAtDpcLevel
 ---
 
 # KeAcquireSpinLockAtDpcLevel macro
@@ -88,3 +87,4 @@ For more information about spin locks, see <a href="/windows-hardware/drivers/ke
 
 
 <a href="/previous-versions/ff553317(v=vs.85)">KeTryToAcquireSpinLockAtDpcLevel</a>
+

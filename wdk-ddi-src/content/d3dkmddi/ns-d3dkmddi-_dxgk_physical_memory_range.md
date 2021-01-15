@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_PHYSICAL_MEMORY_RANGE
+ - DXGK_PHYSICAL_MEMORY_RANGE
 product:
  - Windows
 ---

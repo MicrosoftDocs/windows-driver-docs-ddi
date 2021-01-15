@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_WRITE_PROTECT
+ - PFEATURE_DATA_WRITE_PROTECT
  - FEATURE_DATA_WRITE_PROTECT
 ---
 
@@ -86,3 +88,4 @@ This structure holds data for the feature named "Write Protect" by the <i>MMC-3 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

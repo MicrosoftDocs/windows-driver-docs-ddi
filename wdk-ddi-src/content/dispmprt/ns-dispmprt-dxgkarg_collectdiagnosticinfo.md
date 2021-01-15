@@ -33,6 +33,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGKARG_COLLECTDIAGNOSTICINFO
  - DXGKARG_COLLECTDIAGNOSTICINFO
 dev_langs:
  - c++

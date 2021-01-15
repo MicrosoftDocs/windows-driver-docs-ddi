@@ -38,7 +38,7 @@ api_location:
  - Portcls.lib
  - Portcls.dll
 api_name:
- - PcRegisterAdapterPnPManagement
+ - PcRegisterAdapterPnpManagement
 ---
 
 # PcRegisterAdapterPnpManagement function
@@ -84,3 +84,4 @@ For more information,  see <a href="/windows-hardware/drivers/audio/implement-pn
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcunregisteradapterpnpmanagement">PcUnregisterAdapterPnpManagement</a>
+

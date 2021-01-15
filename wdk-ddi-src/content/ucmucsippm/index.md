@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - ucmucsippm
  - ucmucsippm/ucmucsippm
+api_name:
+ - ucmucsippm
 ---
 
 # Ucmucsippm.h header
@@ -27,3 +29,4 @@ This header provides declarations for UCM-UCSI Platform Policy Manager (PPM) abs
 For more information, see:
 - [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon)
+

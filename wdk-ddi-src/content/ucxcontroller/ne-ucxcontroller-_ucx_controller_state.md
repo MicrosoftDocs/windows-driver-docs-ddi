@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_STATE
  - UCX_CONTROLLER_STATE
 ---
 
@@ -62,3 +63,4 @@ Indicates the controller state was preserved after reset.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_reset_complete_info">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
+

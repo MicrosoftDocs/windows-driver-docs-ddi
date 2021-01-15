@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wlanihv.h
 api_name:
- - Dot11ExtIhvControl
+ - DOT11EXTIHV_CONTROL
 ---
 
 # DOT11EXTIHV_CONTROL callback
@@ -129,3 +129,4 @@ The data buffer pointed to by the
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

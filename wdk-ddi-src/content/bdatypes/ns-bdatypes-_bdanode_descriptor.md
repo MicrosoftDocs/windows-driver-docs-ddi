@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDANODE_DESCRIPTOR
+ - PBDANODE_DESCRIPTOR
  - BDANODE_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ GUID that can be used to store a string containing the name of the node. Applica
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor">KSNODE_DESCRIPTOR</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchRuntimeStateRestoreNotifyFn
+ - FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
 ---
 
 # FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 callback function
@@ -177,3 +177,4 @@ A callout can return STATUS_PENDING from <i>vSwitchRuntimeStateRestoreNotifyFn</
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
+

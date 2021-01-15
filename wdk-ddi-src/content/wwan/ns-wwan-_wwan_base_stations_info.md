@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_BASE_STATIONS_INFO
+ - PWWAN_BASE_STATIONS_INFO
  - WWAN_BASE_STATIONS_INFO
 ---
 
@@ -187,3 +189,4 @@ The data buffer containing the base stations information. This buffer is where t
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_serving_cell_info">WWAN_UMTS_SERVING_CELL_INFO</a>
+

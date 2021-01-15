@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchematicket2.GetParameterInitializer
+ - IPrintSchemaTicket2::GetParameterInitializer
 ---
 
 # IPrintSchemaTicket2::GetParameterInitializer
@@ -75,3 +75,4 @@ The **GetParameterInitializer** method returns an **HRESULT** value. If the prop
 [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md)
 
 [IPrintSchematicket2](./nn-printerextension-iprintschematicket2.md)
+

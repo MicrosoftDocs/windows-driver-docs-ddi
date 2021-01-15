@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARALLEL_INTERRUPT_INFORMATION
+ - PPARALLEL_INTERRUPT_INFORMATION
  - PARALLEL_INTERRUPT_INFORMATION
 ---
 
@@ -106,3 +108,4 @@ A kernel-mode driver can use the parallel interrupt information in the context o
 
 
 <a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a>
+

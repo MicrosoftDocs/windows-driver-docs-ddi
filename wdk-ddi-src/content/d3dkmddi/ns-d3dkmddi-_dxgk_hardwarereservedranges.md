@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_HARDWARERESERVEDRANGES
+ - DXGK_HARDWARERESERVEDRANGES
 product:
  - Windows
 ---

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDevicePrepareHardware
+ - EVT_WDF_DEVICE_PREPARE_HARDWARE
 ---
 
 # EVT_WDF_DEVICE_PREPARE_HARDWARE callback function
@@ -121,3 +121,4 @@ For more information about drivers that provide this callback function, see <a h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_release_hardware">EvtDeviceReleaseHardware</a>
+

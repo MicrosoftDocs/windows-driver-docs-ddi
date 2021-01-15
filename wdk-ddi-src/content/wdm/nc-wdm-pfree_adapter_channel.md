@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - FreeAdapterChannel
+ - PFREE_ADAPTER_CHANNEL
 ---
 
 # PFREE_ADAPTER_CHANNEL callback function
@@ -92,3 +92,4 @@ After a driver has transferred all the data and called <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>
+

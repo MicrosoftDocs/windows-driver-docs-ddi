@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Msviddrv.h
 api_name:
+ - tag_video_stream_init_parms
+ - LPVIDEO_STREAM_INIT_PARMS
  - VIDEO_STREAM_INIT_PARMS
 ---
 

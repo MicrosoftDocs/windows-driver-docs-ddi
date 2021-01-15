@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwSetSecurityObject
  - NtSetSecurityObject
 ---
 
@@ -85,8 +84,6 @@ The **NtSetSecurityObject** routine sets an object's security state.
 | STATUS_OBJECT_TYPE_MISMATCH | **Handle** is not a handle of the expected type.|
 | STATUS_UNKNOWN_REVISION | The revision level of the object's security descriptor was unknown or not supported. |
 
-
-
 ## -remarks
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors). 
@@ -115,3 +112,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtQuerySecurityObject**](nf-ntifs-ntquerysecurityobject.md)
 
 [**ZwSetSecurityObject**](nf-ntifs-zwsetsecurityobject.md)
+

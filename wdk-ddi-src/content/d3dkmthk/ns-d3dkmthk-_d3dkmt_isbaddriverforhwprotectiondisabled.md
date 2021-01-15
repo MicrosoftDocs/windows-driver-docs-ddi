@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
+ - D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
 dev_langs:
  - c++
 ---

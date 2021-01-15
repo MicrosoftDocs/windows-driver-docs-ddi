@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - RtlInitString
+ - RtlInitStringEx
 ---
 
 # RtlInitStringEx function (wdm.h)
@@ -76,3 +76,4 @@ Callers of <b>RtlInitStringEx</b> can be running at IRQL <= DISPATCH_LEVEL if th
 ## -see-also
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
+

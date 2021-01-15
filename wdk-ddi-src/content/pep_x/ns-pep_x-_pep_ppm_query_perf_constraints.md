@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_PERF_CONSTRAINTS
+ - PPEP_PPM_PERF_CONSTRAINTS
  - PEP_PPM_PERF_CONSTRAINTS
 ---
 
@@ -110,3 +112,4 @@ The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-spec
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_perf_constraints">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
+

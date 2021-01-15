@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_WMI_METHOD_HEADER
+ - PNDIS_WMI_METHOD_HEADER
  - NDIS_WMI_METHOD_HEADER
 ---
 
@@ -128,3 +130,4 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

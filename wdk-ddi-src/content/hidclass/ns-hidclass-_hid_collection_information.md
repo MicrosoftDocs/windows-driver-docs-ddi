@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidclass.h
 api_name:
+ - _HID_COLLECTION_INFORMATION
+ - PHID_COLLECTION_INFORMATION
  - HID_COLLECTION_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ Kernel-mode drivers can use an <a href="/windows-hardware/drivers/ddi/hidclass/n
 
 
 <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
+

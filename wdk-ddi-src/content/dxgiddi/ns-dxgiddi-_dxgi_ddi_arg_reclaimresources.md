@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_RECLAIMRESOURCES
  - DXGI_DDI_ARG_RECLAIMRESOURCES
 ---
 
@@ -78,3 +79,4 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions">pfnReclaimResources</a>
+

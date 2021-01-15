@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_ERP_PHY_ATTRIBUTES
+ - PDOT11_ERP_PHY_ATTRIBUTES
 product:
  - Windows 10 or later.
 ---
@@ -115,3 +116,4 @@ The miniport driver defines the attributes of a PHY on the 802.11 station throug
 
 
 <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoCanceledOnQueue
+ - EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
 ---
 
 # EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback function
@@ -153,3 +153,4 @@ The <b>EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE</b> function type is defined in the
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoioqueue">WdfRequestForwardToIoQueue</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
+ - _UMDF_IO_TARGET_OPEN_PARAMS
+ - PUMDF_IO_TARGET_OPEN_PARAMS
  - UMDF_IO_TARGET_OPEN_PARAMS
 ---
 
@@ -78,3 +80,4 @@ The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
+

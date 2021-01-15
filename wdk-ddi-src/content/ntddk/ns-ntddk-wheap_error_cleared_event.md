@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_ERROR_CLEARED_EVENT
+ - PWHEAP_ERROR_CLEARED_EVENT
  - WHEAP_ERROR_CLEARED_EVENT
 product:
  - Windows

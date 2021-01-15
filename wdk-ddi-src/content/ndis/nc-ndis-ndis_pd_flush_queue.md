@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NDIS_PD_FLUSH_QUEUE_HANDLER
+ - NDIS_PD_FLUSH_QUEUE
 product:
  - Windows
 ---
@@ -91,3 +91,4 @@ VOID
 The <b>NDIS_PD_FLUSH_QUEUE</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_FLUSH_QUEUE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
+

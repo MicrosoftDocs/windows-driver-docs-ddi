@@ -38,9 +38,7 @@ api_location:
  - Ntstrsafe.lib
  - Ntstrsafe.dll
 api_name:
- - RtlStringCchCopyNExW
  - RtlStringCchCopyNExA
- - RtlStringCchCopyNExW
 ---
 
 # RtlStringCchCopyNExA function
@@ -259,3 +257,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopyna">RtlStringCchCopyN</a>
+

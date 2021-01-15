@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - AuthenticatedChannelKeyExchange
+ - PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
 product:
  - Windows
 ---
@@ -79,3 +79,4 @@ The driver decrypts this secret key and uses the secret key in calls to the driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_authenticatedchannelkeyexchange">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a>
+

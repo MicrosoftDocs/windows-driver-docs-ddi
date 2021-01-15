@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _QAI_DRIVERVERSION
  - D3DKMT_DRIVERVERSION
 product:
  - Windows

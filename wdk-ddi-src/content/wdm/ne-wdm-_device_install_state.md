@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _DEVICE_INSTALL_STATE
+ - PDEVICE_INSTALL_STATE
  - DEVICE_INSTALL_STATE
 ---
 
@@ -80,3 +82,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGet
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
+

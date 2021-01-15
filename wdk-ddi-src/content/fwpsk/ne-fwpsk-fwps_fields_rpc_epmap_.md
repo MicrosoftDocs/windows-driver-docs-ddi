@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_RPC_EPMAP_
  - FWPS_FIELDS_RPC_EPMAP
 ---
 
@@ -117,3 +118,4 @@ The remote IPv6 address.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

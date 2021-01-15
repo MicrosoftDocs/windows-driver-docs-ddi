@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - stiusd
  - stiusd/stiusd
+api_name:
+ - stiusd
 ---
 
 # Stiusd.h header

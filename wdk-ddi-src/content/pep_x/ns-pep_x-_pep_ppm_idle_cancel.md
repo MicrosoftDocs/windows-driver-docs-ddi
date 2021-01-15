@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PPM_IDLE_CANCEL
+ - PPEP_PPM_IDLE_CANCEL
  - PEP_PPM_IDLE_CANCEL
 ---
 
@@ -68,3 +70,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ne-pep_x-pep_processor_idle_cancel_code">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA
  - DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA
 ---
 
@@ -86,3 +87,4 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate">SetVideoProcessBltState</a>
+

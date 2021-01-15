@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_RESET
+ - PUSBDEVICE_RESET
  - USBDEVICE_RESET
 ---
 
@@ -72,3 +74,4 @@ A pointer to an array of handles to endpoints to disable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_reset">EVT_UCX_USBDEVICE_RESET</a>
+

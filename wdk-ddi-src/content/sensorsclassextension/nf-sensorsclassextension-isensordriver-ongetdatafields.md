@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetDataFields
+ - ISensorDriver::OnGetDataFields
 ---
 
 # ISensorDriver::OnGetDataFields
@@ -92,3 +92,4 @@ The sensor class extension calls this method only for sensors for which the user
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

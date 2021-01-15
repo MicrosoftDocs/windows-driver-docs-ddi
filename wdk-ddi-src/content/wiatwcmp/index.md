@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - wiatwcmp
  - wiatwcmp/wiatwcmp
+api_name:
+ - wiatwcmp
 ---
 
 # Wiatwcmp.h header

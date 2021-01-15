@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugPlmClient3.EnablePlmPackageDebugWide
+ - IDebugPlmClient3::EnablePlmPackageDebugWide
 ---
 
 # IDebugPlmClient3::EnablePlmPackageDebugWide
@@ -66,3 +66,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient3">IDebugPlmClient3</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OFFERALLOCATIONS
  - D3DKMT_OFFERALLOCATIONS
 ---
 
@@ -87,3 +88,4 @@ Flag options.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>
+

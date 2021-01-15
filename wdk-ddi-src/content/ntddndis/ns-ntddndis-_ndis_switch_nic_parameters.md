@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_PARAMETERS
+ - PNDIS_SWITCH_NIC_PARAMETERS
  - NDIS_SWITCH_NIC_PARAMETERS
 ---
 
@@ -341,3 +343,4 @@ For more information, see <a href="/windows-hardware/drivers/network/ndis-status
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+

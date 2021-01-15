@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_QUERYMITIGATEDRANGECOUNT
+ - PDXGKARG_QUERYMITIGATEDRANGECOUNT
+ - DXGKARG_QUERYMITIGATEDRANGECOUNT
 product:
  - Windows
 dev_langs:

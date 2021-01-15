@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_FRAME_HEADER
+ - PNDIS_FRAME_HEADER
  - NDIS_FRAME_HEADER
 ---
 
@@ -93,3 +95,4 @@ The NDIS_FRAME_HEADER enumeration is used in the
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _CIP_HDR1
+ - PCIP_HDR1
  - CIP_HDR1
 ---
 
@@ -96,3 +98,4 @@ Must be set to 0:0.
 
 
 <a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt">CIP_HDR2_SYT</a>
+

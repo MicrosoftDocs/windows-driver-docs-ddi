@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_VF_INFO_ARRAY
+ - PNDIS_NIC_SWITCH_VF_INFO_ARRAY
  - NDIS_NIC_SWITCH_VF_INFO_ARRAY
 ---
 
@@ -133,3 +135,4 @@ NDIS returns an <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure when it handles a
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-enum-vfs">OID_NIC_SWITCH_ENUM_VFS</a>
+

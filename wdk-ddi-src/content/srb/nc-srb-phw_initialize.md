@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_INITIALIZE)
+ - PHW_INITIALIZE
 ---
 
 # PHW_INITIALIZE callback
@@ -74,3 +74,4 @@ For more information about the miniport driver initialization routine that is us
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>
+

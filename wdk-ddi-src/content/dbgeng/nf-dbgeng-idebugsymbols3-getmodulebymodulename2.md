@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetModuleByModuleName2
+ - IDebugSymbols3::GetModuleByModuleName2
 ---
 
 # IDebugSymbols3::GetModuleByModuleName2
@@ -147,3 +147,4 @@ For more information about modules, see <a href="/windows-hardware/drivers/debug
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

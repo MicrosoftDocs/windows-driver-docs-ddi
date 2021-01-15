@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetAuthAlgorithm
+ - DOT11EXT_SET_AUTH_ALGORITHM
 ---
 
 # DOT11EXT_SET_AUTH_ALGORITHM callback
@@ -119,3 +119,4 @@ DWORD WINAPI * Dot11ExtSetAuthAlgorithm(
 
 <a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+

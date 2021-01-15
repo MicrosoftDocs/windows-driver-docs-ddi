@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _SILO_MONITOR_REGISTRATION
+ - PSILO_MONITOR_REGISTRATION
  - SILO_MONITOR_REGISTRATION
 ---
 

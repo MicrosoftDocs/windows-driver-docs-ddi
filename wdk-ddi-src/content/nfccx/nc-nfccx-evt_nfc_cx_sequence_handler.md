@@ -37,7 +37,7 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
- - EvtNfcCxSequenceHandler
+ - EVT_NFC_CX_SEQUENCE_HANDLER
 ---
 
 # EVT_NFC_CX_SEQUENCE_HANDLER callback function
@@ -80,3 +80,4 @@ On completion of handling the sequence, the client driver notifies the NFC CX th
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

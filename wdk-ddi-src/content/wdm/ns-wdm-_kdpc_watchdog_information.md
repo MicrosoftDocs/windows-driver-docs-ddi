@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KDPC_WATCHDOG_INFORMATION
+ - PKDPC_WATCHDOG_INFORMATION
  - KDPC_WATCHDOG_INFORMATION
 ---
 
@@ -80,3 +82,4 @@ Time figures stored in each member are dimensionless.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerydpcwatchdoginformation">KeQueryDpcWatchdogInformation</a>
+

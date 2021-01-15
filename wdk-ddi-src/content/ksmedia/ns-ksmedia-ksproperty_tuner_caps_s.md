@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_CAPS_S
  - KSPROPERTY_TUNER_CAPS_S
 ---
 
@@ -143,3 +144,4 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

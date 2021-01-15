@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiDescribeAllocation
+ - DXGKDDI_DESCRIBEALLOCATION
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ Allocations that might be the source of a presentation (that is, allocations tha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
+

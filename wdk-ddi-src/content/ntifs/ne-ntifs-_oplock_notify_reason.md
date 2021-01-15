@@ -28,12 +28,13 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
- - _OPLOCK_NOTIFY_REASON
+ - OPLOCK_NOTIFY_REASON
 dev_langs:
  - c++
 ---
 
 # _OPLOCK_NOTIFY_REASON enumeration
+
 
 ## -description
 
@@ -58,3 +59,4 @@ The OPLOCK_NOTIFY_REASON is specified in the *NotifyReason* member of the OPLOCK
 [**FsRtlCheckOplockEx2**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex2.md)
 
 [OPLOCK_NOTIFY_PARAMS](ns-ntifs-_oplock_notify_params.md)
+

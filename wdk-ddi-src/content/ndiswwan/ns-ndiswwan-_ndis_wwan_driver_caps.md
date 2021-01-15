@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DRIVER_CAPS
+ - PNDIS_WWAN_DRIVER_CAPS
  - NDIS_WWAN_DRIVER_CAPS
 ---
 
@@ -116,3 +118,4 @@ A
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_driver_caps">WWAN_DRIVER_CAPS</a>
+

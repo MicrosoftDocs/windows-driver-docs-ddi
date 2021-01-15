@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_NETWORK_BLACKLIST_PROVIDER
+ - PWWAN_NETWORK_BLACKLIST_PROVIDER
+ - WWAN_NETWORK_BLACKLIST_PROVIDER
 product:
  - Windows
 ---
@@ -77,3 +79,4 @@ A list of **WWAN_NETWORK_BLACKLIST_PROVIDER** structures follows the **Blacklist
 [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_network_blacklist_info.md)
 
 [**WWAN_NETWORK_BLACKLIST_TYPE**](ne-wwan-_wwan_network_blacklist_type.md)
+

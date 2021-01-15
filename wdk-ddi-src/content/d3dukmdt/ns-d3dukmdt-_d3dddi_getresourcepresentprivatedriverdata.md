@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
  - D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ---
 
@@ -69,3 +70,4 @@ api_name:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a>
+

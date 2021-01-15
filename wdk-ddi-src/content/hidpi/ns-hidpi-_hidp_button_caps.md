@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_BUTTON_CAPS
+ - PHIDP_BUTTON_CAPS
  - HIDP_BUTTON_CAPS
 ---
 
@@ -206,3 +208,4 @@ For information about the capabilities of HID control values, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>
+

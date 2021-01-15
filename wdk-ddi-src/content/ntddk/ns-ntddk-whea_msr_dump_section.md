@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_MSR_DUMP_SECTION
+ - PWHEA_MSR_DUMP_SECTION
  - WHEA_MSR_DUMP_SECTION
 f1_keywords:
  - _WHEA_MSR_DUMP_SECTION

@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_CREATEVIRTUALGPU
+ - PDXGKARG_CREATEVIRTUALGPU
+ - DXGKARG_CREATEVIRTUALGPU
 product:
  - Windows
 dev_langs:

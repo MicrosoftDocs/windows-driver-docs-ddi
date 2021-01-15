@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GetEncryptionBltKey
+ - PFND3DDDI_GETENCRYPTIONBLTKEY
 product:
  - Windows
 ---
@@ -91,3 +91,4 @@ Each time the Direct3D runtime calls the driver's <i>GetEncryptionBltKey</i> fun
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_encryptionblt">EncryptionBlt</a>
+

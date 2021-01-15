@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_LOGICAL_ADDRESS_MAPPING
  - NDK_LOGICAL_ADDRESS_MAPPING
 ---
 
@@ -77,3 +78,4 @@ The <b>NDK_LOGICAL_ADDRESS</b> datatype is defined as follows:
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_release_lam">NDK_FN_RELEASE_LAM</a>
+

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - 1394.h
 api_name:
- - GET_LOCAL_HOST_INFO7
+ - _GET_LOCAL_HOST_INFO7_W2K
+ - PGET_LOCAL_HOST_INFO7_W2K
+ - GET_LOCAL_HOST_INFO7_W2K
 ---
 
 # _GET_LOCAL_HOST_INFO7_W2K structure
@@ -64,3 +66,4 @@ Specifies the maximum size of a single DMA transfer on the 1394 host controller.
 ### -field MaxOutstandingXmitRequests
 
 ### -field MaxOutstandingXmitResponses
+

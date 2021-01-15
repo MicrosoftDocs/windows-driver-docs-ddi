@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CreateWdfFile
+ - IWDFDevice::CreateWdfFile
 ---
 
 # IWDFDevice::CreateWdfFile
@@ -78,3 +78,4 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdrivercreatedfile">IWDFDriverCreatedFile</a>
+

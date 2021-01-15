@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
+ - PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
  - KSCAMERA_EXTENDEDPROP_EVCOMPENSATION
 ---
 
@@ -84,3 +86,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-evcompensation">KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION</a>
+

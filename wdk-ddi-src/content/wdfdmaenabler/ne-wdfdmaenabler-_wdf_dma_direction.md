@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdmaenabler.h
 api_name:
+ - _WDF_DMA_DIRECTION
  - WDF_DMA_DIRECTION
 ---
 
@@ -76,3 +77,4 @@ The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest">WdfDmaTransactionInitializeUsingRequest</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+ - PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
  - BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ---
 
@@ -100,3 +102,4 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 <a href="/windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange">SdpAttributeRange</a>
+

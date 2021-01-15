@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wpprecorder.h
 api_name:
- - imp_WppRecorderLinkCounters
+ - WppRecorderLinkCounters
 ---
 
 # WppRecorderLinkCounters macro

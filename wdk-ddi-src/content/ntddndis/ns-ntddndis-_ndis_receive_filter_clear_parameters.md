@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
  - NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 ---
 
@@ -135,3 +137,4 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+

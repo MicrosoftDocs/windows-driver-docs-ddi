@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARCLASS_INFORMATION
+ - PPARCLASS_INFORMATION
  - PARCLASS_INFORMATION
 ---
 
@@ -206,3 +208,4 @@ For more information, see <a href="/previous-versions/ff543942(v=vs.85)">Connect
 
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+

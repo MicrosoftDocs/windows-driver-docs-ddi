@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dcaps.h
 api_name:
+ - _D3DTRANSFORMCAPS
+ - LPD3DTRANSFORMCAPS
  - D3DTRANSFORMCAPS
 ---
 
@@ -78,3 +80,4 @@ This structure is a member of the <a href="/windows-hardware/drivers/ddi/d3dhal/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
+

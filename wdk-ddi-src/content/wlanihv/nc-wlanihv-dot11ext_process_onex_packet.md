@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtProcessOneXPacket
+ - DOT11EXT_PROCESS_ONEX_PACKET
 ---
 
 # DOT11EXT_PROCESS_ONEX_PACKET callback
@@ -135,3 +135,4 @@ For more information about using the 802.1X module for authentication, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+

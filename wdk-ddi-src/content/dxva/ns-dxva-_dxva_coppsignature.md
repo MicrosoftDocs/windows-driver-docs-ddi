@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPSignature
+ - LPDXVA_COPPSignature
  - DXVA_COPPSignature
 ---
 
@@ -89,3 +91,4 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 
 <a href="/windows-hardware/drivers/display/coppsequencestart">COPPSequenceStart</a>
+

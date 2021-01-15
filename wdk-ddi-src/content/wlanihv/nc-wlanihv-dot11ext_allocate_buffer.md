@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtAllocateBuffer
+ - DOT11EXT_ALLOCATE_BUFFER
 ---
 
 # DOT11EXT_ALLOCATE_BUFFER callback
@@ -146,3 +146,4 @@ In this situation, the DLL must free the memory buffer by calling
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+

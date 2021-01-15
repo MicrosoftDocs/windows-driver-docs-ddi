@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+ - PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
  - NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
 ---
 
@@ -114,3 +116,4 @@ This member points to the list of the GUIDs (WwanStructDeviceServiceGuid) by usi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

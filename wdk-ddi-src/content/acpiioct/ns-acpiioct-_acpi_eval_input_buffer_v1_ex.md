@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_EVAL_INPUT_BUFFER_V1_EX
+ - PACPI_EVAL_INPUT_BUFFER_V1_EX
  - ACPI_EVAL_INPUT_BUFFER_V1_EX
 ---
 
@@ -88,3 +90,4 @@ For more information about how to use this structure, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method_ex">IOCTL_ACPI_EVAL_METHOD_EX</a>
+

@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - mrxfcb
  - mrxfcb/mrxfcb
+api_name:
+ - mrxfcb
 ---
 
 # Mrxfcb.h header

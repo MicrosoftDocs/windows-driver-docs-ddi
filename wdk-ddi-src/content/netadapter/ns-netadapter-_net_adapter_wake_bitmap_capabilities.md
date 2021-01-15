@@ -7,7 +7,7 @@ ms.date: 10/24/2019
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, NET_ADAPTER_WAKE_BITMAP_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netadapter.h
 api_name:
+ - _NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
  - NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
 product:
  - Windows
@@ -76,3 +77,4 @@ Call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter
 [**NetAdapterWakeSetBitmapCapabilities**](../netadapter/nf-netadapter-netadapterwakesetbitmapcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+

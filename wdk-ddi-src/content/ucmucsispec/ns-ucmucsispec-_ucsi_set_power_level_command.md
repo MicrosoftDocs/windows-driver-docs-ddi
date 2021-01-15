@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_SET_POWER_LEVEL_COMMAND
+ - PUCSI_SET_POWER_LEVEL_COMMAND
+ - UCSI_SET_POWER_LEVEL_COMMAND
 ---
 
 # _UCSI_SET_POWER_LEVEL_COMMAND structure

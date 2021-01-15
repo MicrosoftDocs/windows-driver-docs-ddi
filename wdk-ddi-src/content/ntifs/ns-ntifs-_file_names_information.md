@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_NAMES_INFORMATION
+ - PFILE_NAMES_INFORMATION
  - FILE_NAMES_INFORMATION
 ---
 
@@ -98,3 +100,4 @@ This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains
 
 
 <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
+

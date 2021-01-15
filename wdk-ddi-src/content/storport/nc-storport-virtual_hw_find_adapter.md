@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - VirtualHwStorFindAdapter
+ - VIRTUAL_HW_FIND_ADAPTER
 ---
 
 # VIRTUAL_HW_FIND_ADAPTER callback function
@@ -204,3 +204,4 @@ The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h he
 
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>
+

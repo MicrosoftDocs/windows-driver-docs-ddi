@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - npivwmi
  - npivwmi/npivwmi
+api_name:
+ - npivwmi
 ---
 
 # Npivwmi.h header

@@ -35,6 +35,8 @@ api_location:
  - minitape.h
 api_name:
  - _VPD_EXTENDED_INQUIRY_DATA_PAGE
+ - PVPD_EXTENDED_INQUIRY_DATA_PAGE
+ - VPD_EXTENDED_INQUIRY_DATA_PAGE
 ---
 
 # _VPD_EXTENDED_INQUIRY_DATA_PAGE structure (minitape.h)

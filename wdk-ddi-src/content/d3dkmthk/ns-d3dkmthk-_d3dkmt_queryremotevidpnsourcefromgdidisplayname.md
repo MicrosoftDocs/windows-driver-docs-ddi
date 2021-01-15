@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
  - D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 ---
 
@@ -62,3 +63,4 @@ Describes information that is required to map a GDI display name to a remote vid
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryremotevidpnsourcefromgdidisplayname">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
+

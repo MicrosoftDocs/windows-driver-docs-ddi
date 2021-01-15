@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWMIRegistration.RegisterWMIProvider
+ - IPortWMIRegistration::RegisterWMIProvider
 ---
 
 # IPortWMIRegistration::RegisterWMIProvider
@@ -87,3 +87,4 @@ For more information about ETW, see <a href="/archive/msdn-magazine/2007/april/e
 
 
 <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
+

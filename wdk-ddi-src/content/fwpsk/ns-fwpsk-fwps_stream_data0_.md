@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_STREAM_DATA0_
  - FWPS_STREAM_DATA0
 ---
 
@@ -157,3 +158,4 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

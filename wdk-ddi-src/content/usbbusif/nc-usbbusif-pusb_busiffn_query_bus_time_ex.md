@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - QueryBusTimeEx
+ - PUSB_BUSIFFN_QUERY_BUS_TIME_EX
 ---
 
 # PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function
@@ -114,3 +114,4 @@ The function definition that is provided on this reference page is an example fu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>
+

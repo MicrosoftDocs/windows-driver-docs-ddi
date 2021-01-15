@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_DISPLAY_OWNERSHIP_FLAGS
+ - PDXGK_DISPLAY_OWNERSHIP_FLAGS
  - DXGK_DISPLAY_OWNERSHIP_FLAGS
 ---
 

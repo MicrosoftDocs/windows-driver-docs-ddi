@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_RECEIVED_GO_NEGOTIATION_RESPONSE_PARAMETERS
+ - PDOT11_RECEIVED_GO_NEGOTIATION_RESPONSE_PARAMETERS
  - DOT11_RECEIVED_GO_NEGOTIATION_RESPONSE_PARAMETERS
 product:
  - Windows 10 or later.
@@ -122,3 +124,4 @@ If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid un
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-go-negotiation-confirmation">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a>
+

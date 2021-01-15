@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_DEVICE_HEALTH_DESCRIPTOR
  - UFS_DEVICE_HEALTH_DESCRIPTOR
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PERF_STATE
+ - PPEP_PERF_STATE
  - PEP_PERF_STATE
 ---
 
@@ -74,3 +76,4 @@ Device drivers use the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_perf_state">PO_FX_PERF_STATE</a>
+

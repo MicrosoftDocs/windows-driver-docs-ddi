@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_PDU_RECORD
+ - PWWAN_SMS_PDU_RECORD
  - WWAN_SMS_PDU_RECORD
 ---
 
@@ -94,3 +96,4 @@ For CDMA-based devices that support reading SMS messages in binary format (as re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_msg_status">WWAN_MSG_STATUS</a>
+

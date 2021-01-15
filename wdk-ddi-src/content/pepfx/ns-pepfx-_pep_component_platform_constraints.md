@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COMPONENT_PLATFORM_CONSTRAINTS
+ - PPEP_COMPONENT_PLATFORM_CONSTRAINTS
  - PEP_COMPONENT_PLATFORM_CONSTRAINTS
 ---
 
@@ -82,3 +84,4 @@ This structure is used by the [PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](/windows-hard
 [PEP_DPM_REGISTER_DEVICE](/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_register_device)
 
 [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md)
+

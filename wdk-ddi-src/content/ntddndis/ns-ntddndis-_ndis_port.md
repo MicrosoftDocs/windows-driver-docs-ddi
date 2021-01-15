@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PORT
+ - PNDIS_PORT
  - NDIS_PORT
 ---
 
@@ -84,3 +86,4 @@ The NDIS_PORT structure is used to create a linked list of ports. Such a linked 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_port_characteristics">NDIS_PORT_CHARACTERISTICS</a>
+

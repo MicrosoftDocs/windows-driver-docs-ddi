@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_RedirectPortalInfoClass
+ - PMSiSCSI_RedirectPortalInfoClass
  - MSiSCSI_RedirectPortalInfoClass
 ---
 

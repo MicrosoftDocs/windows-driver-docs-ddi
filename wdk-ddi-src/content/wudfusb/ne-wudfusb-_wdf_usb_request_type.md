@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wudfusb.h
 api_name:
+ - _WDF_USB_REQUEST_TYPE
+ - PWDF_USB_REQUEST_TYPE
  - WDF_USB_REQUEST_TYPE
 ---
 
@@ -75,3 +77,4 @@ The request object is sent when the application calls the Win32 <b>WriteFile</b>
 ### -field WdfUsbRequestTypePipeRead
 
 The request object is sent when the application calls the Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function on the file object that is associated with the target device.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - AgpFreePool
+ - DXGKCB_AGP_FREE_POOL
 ---
 
 # DXGKCB_AGP_FREE_POOL callback function
@@ -82,3 +82,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
+

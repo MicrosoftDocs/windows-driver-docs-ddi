@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLERIDSETTINGS
+ - LPRILCALLERIDSETTINGS
 ---
 
 # RILCALLERIDSETTINGS structure (rilapitypes.h)

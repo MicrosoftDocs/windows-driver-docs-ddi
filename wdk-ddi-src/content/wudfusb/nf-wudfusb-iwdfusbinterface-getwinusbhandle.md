@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.GetWinUsbHandle
+ - IWDFUsbInterface::GetWinUsbHandle
 ---
 
 # IWDFUsbInterface::GetWinUsbHandle
@@ -74,3 +74,4 @@ The UMDF driver should not call the <a href="/windows/win32/api/winusb/nf-winusb
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+

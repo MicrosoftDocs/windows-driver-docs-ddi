@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnMakeResidentCb
+ - PFND3DDDI_MAKERESIDENTCB
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3ddd
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_evictcb">pfnEvictCb</a>
+

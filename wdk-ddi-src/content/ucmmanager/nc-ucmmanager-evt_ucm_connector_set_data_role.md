@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
- - PFN_UCM_CONNECTOR_SET_DATA_ROLE
+ - EVT_UCM_CONNECTOR_SET_DATA_ROLE
 ---
 
 # EVT_UCM_CONNECTOR_SET_DATA_ROLE callback function
@@ -102,7 +102,7 @@ EvtSetDataRole(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
+

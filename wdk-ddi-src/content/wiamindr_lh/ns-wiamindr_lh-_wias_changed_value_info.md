@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIAS_CHANGED_VALUE_INFO
+ - PWIAS_CHANGED_VALUE_INFO
  - WIAS_CHANGED_VALUE_INFO
 ---
 
@@ -116,3 +118,4 @@ The **wiasGetChangedValue**_Xxx_ functions, use this structure to determine whet
 [wiasGetChangedValueLong](../wiamdef/nf-wiamdef-wiasgetchangedvaluelong.md)
 
 [wiasGetChangedValueStr](../wiamdef/nf-wiamdef-wiasgetchangedvaluestr.md)
+

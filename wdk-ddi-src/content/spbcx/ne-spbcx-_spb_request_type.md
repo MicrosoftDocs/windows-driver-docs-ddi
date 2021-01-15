@@ -41,6 +41,8 @@ api_type:
 api_location:
  - spbcx.h
 api_name:
+ - _SPB_REQUEST_TYPE
+ - PSPB_REQUEST_TYPE
  - SPB_REQUEST_TYPE
 ---
 
@@ -136,3 +138,4 @@ The <a href="/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a> st
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteList.HasNode
+ - ExtRemoteList::HasNode
 ---
 
 # ExtRemoteList::HasNode
@@ -64,3 +64,4 @@ If this method returns <code>true</code>, <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-getnodeoffset">ExtRemoteList::GetNodeOffset</a>
+

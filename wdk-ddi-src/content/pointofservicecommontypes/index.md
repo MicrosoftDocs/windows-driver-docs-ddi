@@ -12,6 +12,8 @@ tech.root: pos
 f1_keywords:
  - pointofservicecommontypes
  - pointofservicecommontypes/pointofservicecommontypes
+api_name:
+ - pointofservicecommontypes
 ---
 
 # Pointofservicecommontypes.h header

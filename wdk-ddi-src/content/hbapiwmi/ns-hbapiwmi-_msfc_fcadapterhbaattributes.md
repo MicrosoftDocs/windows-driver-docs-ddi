@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_FCAdapterHBAAttributes
+ - PMSFC_FCAdapterHBAAttributes
  - MSFC_FCAdapterHBAAttributes
 ---
 
@@ -124,3 +126,4 @@ Contains the name of the HBA manufacturer.
 
 
 <a href="/windows-hardware/drivers/storage/msfc-fcadapterhbaattributes-wmi-class">MSFC_FCAdapterHBAAttributes WMI Class</a>
+

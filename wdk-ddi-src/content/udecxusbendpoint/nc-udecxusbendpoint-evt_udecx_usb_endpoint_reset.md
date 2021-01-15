@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxUsbEndpoint.h
 api_name:
- - EvtUsbEndpointReset
+ - EVT_UDECX_USB_ENDPOINT_RESET
 ---
 
 # EVT_UDECX_USB_ENDPOINT_RESET callback function
@@ -80,3 +80,4 @@ The reset request clears the error condition in the endpoint that causes failed 
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendTEST_IN
+ - PSM_SendTEST_IN
  - SM_SendTEST_IN
 ---
 

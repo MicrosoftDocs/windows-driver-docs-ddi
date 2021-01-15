@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - EnumerateUnmaskedInterrupts
+ - POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
 ---
 
 # POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function (pepfx.h)
@@ -115,3 +115,4 @@ The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+

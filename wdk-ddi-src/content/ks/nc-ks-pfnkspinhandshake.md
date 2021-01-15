@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniPinHandshake
+ - PFNKSPINHANDSHAKE
 ---
 
 # PFNKSPINHANDSHAKE callback function
@@ -88,3 +88,4 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterhandshakecallback">KsPinRegisterHandshakeCallback</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
+ - PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
  - USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 ---
 
@@ -66,3 +68,4 @@ A <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_transport_cha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+

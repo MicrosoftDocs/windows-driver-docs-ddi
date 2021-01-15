@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _DXGK_PTE
  - DXGK_PTE
 ---
 
@@ -116,3 +117,4 @@ The high 52 bits of the 64 bit physical address of a memory page. The low 12 bit
 The high 52 bits of the 64 bit physical address of a lower level page table. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 
 Supported starting with Windows 10.
+

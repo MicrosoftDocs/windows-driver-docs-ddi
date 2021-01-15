@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_PATCH_CODES
  - WIA_PATCH_CODES
 ---
 
@@ -74,3 +75,4 @@ Placeholder for a sequence of <b>Count</b> contiguous <a href="/windows-hardware
 ## -remarks
 
 The header must be followed by a sequence of patch code information structures, one for each detected patch code, in the order the patch codes were found and decoded.
+

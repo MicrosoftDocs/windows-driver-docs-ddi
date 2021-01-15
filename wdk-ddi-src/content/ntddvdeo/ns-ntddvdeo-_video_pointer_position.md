@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddvdeo.h
 api_name:
+ - _VIDEO_POINTER_POSITION
+ - PVIDEO_POINTER_POSITION
  - VIDEO_POINTER_POSITION
 ---
 

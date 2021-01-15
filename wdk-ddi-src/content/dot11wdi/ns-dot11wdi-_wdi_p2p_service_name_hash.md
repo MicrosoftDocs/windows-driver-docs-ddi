@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_P2P_SERVICE_NAME_HASH
+ - PWDI_P2P_SERVICE_NAME_HASH
  - WDI_P2P_SERVICE_NAME_HASH
 ---
 

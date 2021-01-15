@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_PRIMARY_GROUP
+ - PTOKEN_PRIMARY_GROUP
  - TOKEN_PRIMARY_GROUP
 ---
 
@@ -76,3 +78,4 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

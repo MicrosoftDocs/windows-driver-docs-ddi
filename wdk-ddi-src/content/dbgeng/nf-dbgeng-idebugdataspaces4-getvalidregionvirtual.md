@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.GetValidRegionVirtual
+ - IDebugDataSpaces4::GetValidRegionVirtual
 ---
 
 # IDebugDataSpaces4::GetValidRegionVirtual
@@ -98,3 +98,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+

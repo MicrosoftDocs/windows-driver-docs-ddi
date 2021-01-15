@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVDCOPY_REGION
+ - PKS_DVDCOPY_REGION
  - KS_DVDCOPY_REGION
 ---
 
@@ -141,3 +143,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyrigh
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-region">KSPROPERTY_DVDCOPY_REGION</a>
+

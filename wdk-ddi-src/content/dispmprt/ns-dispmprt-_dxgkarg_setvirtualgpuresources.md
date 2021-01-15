@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_SETVIRTUALGPURESOURCES
+ - PDXGKARG_SETVIRTUALGPURESOURCES
+ - DXGKARG_SETVIRTUALGPURESOURCES
 product:
  - Windows
 dev_langs:

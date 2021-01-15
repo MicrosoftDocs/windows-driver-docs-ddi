@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - kbdmou
  - kbdmou/kbdmou
+api_name:
+ - kbdmou
 ---
 
 # Kbdmou.h header

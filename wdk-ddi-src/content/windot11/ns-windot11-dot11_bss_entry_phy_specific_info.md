@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+ - PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 product:
  - Windows 10 or later.
 ---
@@ -108,3 +109,4 @@ The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY]
 ## -see-also
 
 [DOT11_BSS_ENTRY](../windot11/ns-windot11-dot11_bss_entry.md)
+

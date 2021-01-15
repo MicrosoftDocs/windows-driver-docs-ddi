@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_REGISTERED_DSM
+ - PMPIO_REGISTERED_DSM
  - MPIO_REGISTERED_DSM
 ---
 

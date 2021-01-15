@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.GetInformation
+ - IWDFUsbTargetPipe::GetInformation
 ---
 
 # IWDFUsbTargetPipe::GetInformation
@@ -67,3 +67,4 @@ After a UMDF driver calls the <a href="/windows-hardware/drivers/ddi/wudfusb/nf-
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+

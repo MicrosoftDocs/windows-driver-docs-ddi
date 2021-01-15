@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.SetStringValue
+ - IPortableDeviceValues::SetStringValue
 ---
 
 # IPortableDeviceValues::SetStringValue
@@ -93,3 +93,4 @@ Any existing key memory will be released appropriately.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
+

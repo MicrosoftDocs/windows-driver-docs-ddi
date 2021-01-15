@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSCTL_OFFLOAD_READ_INPUT
+ - PFSCTL_OFFLOAD_READ_INPUT
  - FSCTL_OFFLOAD_READ_INPUT
 ---
 
@@ -95,3 +97,4 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_output">FSCTL_OFFLOAD_READ_OUTPUT</a>
+

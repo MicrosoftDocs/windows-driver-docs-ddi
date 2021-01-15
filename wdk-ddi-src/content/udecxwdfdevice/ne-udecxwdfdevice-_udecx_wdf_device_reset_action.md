@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxWdfDevice.h
 api_name:
+ - _UDECX_WDF_DEVICE_RESET_ACTION
+ - PUDECX_WDF_DEVICE_RESET_ACTION
  - UDECX_WDF_DEVICE_RESET_ACTION
 ---
 
@@ -68,3 +70,4 @@ The emulated host controller is reset.
 
 
 <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_INBOUND_IPPACKET_V6_
  - FWPS_FIELDS_INBOUND_IPPACKET_V6
 ---
 
@@ -118,3 +119,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.QueryRegistryValues
+ - IRegistryKey::QueryRegistryValues
 ---
 
 # IRegistryKey::QueryRegistryValues
@@ -105,3 +105,4 @@ The <i>QueryTable</i> parameter points to an array of RTL_QUERY_REGISTRY_TABLE s
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
+

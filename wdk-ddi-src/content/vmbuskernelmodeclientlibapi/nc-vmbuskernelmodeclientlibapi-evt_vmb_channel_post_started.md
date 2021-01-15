@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_POST_STARTED
+ - EVT_VMB_CHANNEL_POST_STARTED
 ---
 
 # EVT_VMB_CHANNEL_POST_STARTED callback function
@@ -85,3 +85,4 @@ You can wait for sent packets to complete in this function, such as by using the
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest">VmbChannelSendSynchronousRequest</a>
+

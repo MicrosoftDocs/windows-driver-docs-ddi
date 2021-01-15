@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - mpiodisk
  - mpiodisk/mpiodisk
+api_name:
+ - mpiodisk
 ---
 
 # Mpiodisk.h header

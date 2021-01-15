@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTEnumAdapters
+ - PFND3DKMT_ENUMADAPTERS
 ---
 
 # PFND3DKMT_ENUMADAPTERS callback function
@@ -73,3 +73,4 @@ The operating system enumerates graphics adapters in the same sequence as their 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a>
+

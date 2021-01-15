@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_COPY_PROTECTION
  - KSAUDIO_COPY_PROTECTION
 ---
 
@@ -70,3 +71,4 @@ The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to 
 ## -see-also
 
 [KSPROPERTY_AUDIO_COPY_PROTECTION](/windows-hardware/drivers/audio/ksproperty-audio-copy-protection)
+

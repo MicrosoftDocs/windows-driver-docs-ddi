@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.Write
+ - ExtRemoteData::Write
 ---
 
 # ExtRemoteData::Write
@@ -64,7 +64,6 @@ ext_remote_data.m_Data = (ULONG64) my_ushort;
 ext_remote_data.Write();
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
@@ -72,3 +71,4 @@ ext_remote_data.Write();
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a>
+

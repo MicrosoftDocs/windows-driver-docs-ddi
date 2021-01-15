@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaFeature.SelectedOption
- - IPrintSchemaFeature.get_SelectedOption
+ - IPrintSchemaFeature::get_SelectedOption
 ---
 
 # IPrintSchemaFeature::get_SelectedOption
@@ -63,3 +62,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
+

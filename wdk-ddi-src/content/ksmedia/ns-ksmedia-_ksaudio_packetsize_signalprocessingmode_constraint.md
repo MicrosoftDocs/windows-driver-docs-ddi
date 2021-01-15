@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT
  - KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ---
 
@@ -66,3 +67,4 @@ The processing frame size for the processing mode, expressed in hundred-nanoseco
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksaudio_packetsize_constraints">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>
+

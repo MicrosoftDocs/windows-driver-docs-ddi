@@ -39,6 +39,7 @@ api_type:
 api_location:
  - igpupvdev.h
 api_name:
+ - _LUID
  - LUID
 ---
 

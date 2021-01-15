@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_INVALIDATECACHE
+ - D3DKMT_INVALIDATECACHE
 dev_langs:
  - c++
 ---

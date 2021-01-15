@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_NODE_CONNECTION_ATTRIBUTES
+ - PUSB_NODE_CONNECTION_ATTRIBUTES
  - USB_NODE_CONNECTION_ATTRIBUTES
 ---
 
@@ -80,3 +82,4 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ne-usbioctl-_usb_connection_status">USB_CONNECTION_STATUS</a>
+

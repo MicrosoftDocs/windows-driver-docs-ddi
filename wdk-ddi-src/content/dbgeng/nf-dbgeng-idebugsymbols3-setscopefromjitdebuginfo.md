@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.SetScopeFromJitDebugInfo
+ - IDebugSymbols3::SetScopeFromJitDebugInfo
 ---
 
 # IDebugSymbols3::SetScopeFromJitDebugInfo
@@ -72,3 +72,4 @@ This method is equivalent to '.jdinfo' command.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

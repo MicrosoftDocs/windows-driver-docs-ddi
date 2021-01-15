@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCONFPARTICIPANTSTATUS
+ - LPRILCONFPARTICIPANTSTATUS
 ---
 
 # RILCONFPARTICIPANTSTATUS structure (rilapitypes.h)

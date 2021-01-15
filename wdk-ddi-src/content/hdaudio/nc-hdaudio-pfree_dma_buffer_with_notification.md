@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - FreeDmaBufferWithNotification
+ - PFREE_DMA_BUFFER_WITH_NOTIFICATION
 ---
 
 # PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function
@@ -136,3 +136,4 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
+

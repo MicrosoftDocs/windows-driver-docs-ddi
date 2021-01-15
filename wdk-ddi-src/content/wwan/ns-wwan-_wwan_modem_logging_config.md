@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_MODEM_LOGGING_CONFIG
+ - PWWAN_MODEM_LOGGING_CONFIG
+ - WWAN_MODEM_LOGGING_CONFIG
 ---
 
 # _WWAN_MODEM_LOGGING_CONFIG structure
@@ -74,3 +76,4 @@ This structure is used in the [**NDIS_WWAN_MODEM_LOGGING_CONFIG**](../ndiswwan/n
 [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
 
 [**NDIS_WWAN_MODEM_LOGGING_CONFIG**](../ndiswwan/ns-ndiswwan-_ndis_wwan_modem_logging_config.md)
+

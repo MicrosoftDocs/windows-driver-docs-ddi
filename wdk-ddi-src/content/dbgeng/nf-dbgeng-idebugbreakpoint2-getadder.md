@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetAdder
- - IDebugBreakpoint2.GetAdder
+ - IDebugBreakpoint2::GetAdder
 ---
 
 # IDebugBreakpoint2::GetAdder
@@ -83,3 +82,4 @@ This method can also return error values.  For more information, see <a href="/w
 The client that owns the breakpoint is the client that created the breakpoint by using the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addbreakpoint">AddBreakpoint</a> method.  A breakpoint might not have an owner. If a breakpoint does not have an owner, <i>Adder</i> is set to <b>NULL</b>.
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

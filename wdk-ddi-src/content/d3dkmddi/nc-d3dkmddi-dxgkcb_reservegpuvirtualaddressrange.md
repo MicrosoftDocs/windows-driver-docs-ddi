@@ -38,7 +38,7 @@ api_location:
  - dispmprt.h
  - d3dkmddi.h
 api_name:
- - DxgkCbReserveGpuVirtualAddressRange
+ - DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_reser
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
+

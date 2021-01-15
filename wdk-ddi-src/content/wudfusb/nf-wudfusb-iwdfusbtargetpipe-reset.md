@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.Reset
+ - IWDFUsbTargetPipe::Reset
 ---
 
 # IWDFUsbTargetPipe::Reset
@@ -108,3 +108,4 @@ For more information about how <b>Reset</b> works, see the <a href="/windows/win
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILACCESSTECHNOLOGY
+ - LPRILACCESSTECHNOLOGY
 ---
 
 # RILACCESSTECHNOLOGY structure (rilapitypes.h)

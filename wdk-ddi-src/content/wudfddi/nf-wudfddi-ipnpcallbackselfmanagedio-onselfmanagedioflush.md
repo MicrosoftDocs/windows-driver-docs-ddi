@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush
+ - IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 ---
 
 # IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
@@ -71,3 +71,4 @@ A driver registers the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

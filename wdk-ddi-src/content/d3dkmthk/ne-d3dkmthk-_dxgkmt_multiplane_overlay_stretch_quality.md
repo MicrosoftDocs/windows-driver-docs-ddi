@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+ - DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 dev_langs:
  - c++
 ---

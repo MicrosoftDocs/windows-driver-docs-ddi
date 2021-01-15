@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_CHECKDIRECTFLIPSUPPORT
  - D3DDDIARG_CHECKDIRECTFLIPSUPPORT
 ---
 
@@ -70,3 +71,4 @@ Specifies resources used for Direct Flip operations, in which video memory is se
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_checkdirectflipsupport">CheckDirectFlipSupport</a>
+

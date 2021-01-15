@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - bdatypes
  - bdatypes/bdatypes
+api_name:
+ - bdatypes
 ---
 
 # Bdatypes.h header

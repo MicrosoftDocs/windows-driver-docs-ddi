@@ -39,6 +39,7 @@ api_type:
 api_location:
  - netioddk.h
 api_name:
+ - _NPI_REGISTRATION_INSTANCE
  - NPI_REGISTRATION_INSTANCE
 ---
 
@@ -74,7 +75,6 @@ A pointer to the
 typedef GUID NPIID;
 typedef CONST NPIID *PNPIID;
 ```
-
 
 ### -field ModuleId
 
@@ -155,3 +155,4 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
+

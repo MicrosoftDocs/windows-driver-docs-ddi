@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_COLLECTDBGINFO
  - DXGKARG_COLLECTDBGINFO
 ---
 
@@ -84,3 +85,4 @@ Available starting in Windows 8. |
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
+

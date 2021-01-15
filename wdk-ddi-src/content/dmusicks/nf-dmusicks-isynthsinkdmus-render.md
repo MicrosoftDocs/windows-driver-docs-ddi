@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - ISynthSinkDMus.Render
+ - ISynthSinkDMus::Render
 ---
 
 # ISynthSinkDMus::Render

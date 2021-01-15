@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_STATE_NAME
+ - PPEP_PPM_QUERY_STATE_NAME
  - PEP_PPM_QUERY_STATE_NAME
 ---
 
@@ -73,3 +75,4 @@ If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, 
 
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
+

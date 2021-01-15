@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdriver.h
 api_name:
+ - _WDF_DRIVER_VERSION_AVAILABLE_PARAMS
+ - PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
  - WDF_DRIVER_VERSION_AVAILABLE_PARAMS
 ---
 
@@ -78,3 +80,4 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriverisversionavailable">WdfDriverIsVersionAvailable</a>
+

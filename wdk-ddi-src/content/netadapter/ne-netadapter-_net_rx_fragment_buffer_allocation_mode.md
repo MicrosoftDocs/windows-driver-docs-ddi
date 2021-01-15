@@ -7,7 +7,7 @@ ms.date: 02/15/2018
 keywords: ["NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration"]
 ms.keywords: _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE, NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE,
 req.header: netadapter.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_location:
  - netadapter.h
 api_name:
  - _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
+ - NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
 ---
 
 # _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration

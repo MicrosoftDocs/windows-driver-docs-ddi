@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - _ISCSI_TargetPortalGroup
+ - PISCSI_TargetPortalGroup
  - ISCSI_TargetPortalGroup
 ---
 
@@ -68,3 +70,4 @@ A variable-length array of <a href="/windows-hardware/drivers/ddi/iscsidef/ns-is
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-targetportalgroup-wmi-class">ISCSI_TargetPortalGroup WMI Class</a>
+

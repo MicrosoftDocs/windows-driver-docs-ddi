@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxForceClosed
+ - PMRX_FORCECLOSED_CALLDOWN
 ---
 
 # PMRX_FORCECLOSED_CALLDOWN callback function
@@ -142,3 +142,4 @@ This routine is not implemented.
 
 
 <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvopen">RxFinalizeSrvOpen</a>
+

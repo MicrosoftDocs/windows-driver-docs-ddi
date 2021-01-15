@@ -12,11 +12,11 @@ req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
-req.umdf-ver:
+req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support:
+req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - PPOWER_ACTION
  - POWER_ACTION
 ---
 
@@ -47,9 +48,7 @@ api_name:
 
 ## -description
 
-
 The <b>POWER_ACTION</b> enumeration identifies the <a href="/windows-hardware/drivers/kernel/system-power-actions">system power actions</a> that can occur on a computer.
-
 
 ## -enum-fields
 
@@ -87,5 +86,5 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 
 ### -field PowerActionDisplayOff
 
-
 ## -remarks
+

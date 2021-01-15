@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_WRITE_PINS_PARAMETERS
+ - PGPIO_WRITE_PINS_PARAMETERS
  - GPIO_WRITE_PINS_PARAMETERS
 ---
 
@@ -92,3 +94,4 @@ The <i>WriteParameters</i> parameter of the <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_write_pins">CLIENT_WriteGpioPins</a>
+

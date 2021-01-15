@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_UNLOCKASYNC
  - D3DDDIARG_UNLOCKASYNC
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_UNLOCKASYNC structure describes a resource or a surface within the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockasync">UnlockAsync</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.RawWriteData
+ - IStiUSD::RawWriteData
 ---
 
 # IStiUSD::RawWriteData
@@ -79,3 +79,4 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - PSTOR_POWER_ACTION
  - STOR_POWER_ACTION
 ---
 
@@ -86,3 +87,4 @@ The system is preparing for ejection.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
+

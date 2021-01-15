@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CONNECTION_STATUS
+ - PDXGK_CONNECTION_STATUS
  - DXGK_CONNECTION_STATUS
 ---
 

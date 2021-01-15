@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauFormatConverter.CWiauFormatConverter
+ - CWiauFormatConverter::CWiauFormatConverter
 ---
 
 # CWiauFormatConverter::CWiauFormatConverter
@@ -50,3 +50,4 @@ The **CWiauFormatConverter::CWiauFormatConverter** method is the constructor for
 ## -see-also
 
 [CWiauFormatConverter::~CWiauFormatConverter](./nf-wiautil-cwiauformatconverter--cwiauformatconverter.md)
+

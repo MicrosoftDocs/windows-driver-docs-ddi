@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_POWER_ROLE
+ - USBC_POWER_ROLE
 ---
 
 # _USBC_POWER_ROLE enumeration

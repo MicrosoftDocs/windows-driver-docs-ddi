@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_UICC_RESET
+ - PWWAN_SET_UICC_RESET
  - WWAN_SET_UICC_RESET
 ---
 
@@ -68,3 +70,4 @@ The passthrough action specified by the host. For more info, see <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _ZONE_DESCRIPTIOR
+ - PZONE_DESCRIPTIOR
  - ZONE_DESCRIPTIOR
 ---
 

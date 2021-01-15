@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_ROUTING_TYPE
+ - PSECURE_ELEMENT_ROUTING_TYPE
  - SECURE_ELEMENT_ROUTING_TYPE
 ---
 
@@ -65,3 +67,4 @@ NFC Forum protocol-based routing type.
 ### -field RoutingTypeAid
 
 NFC Forum AID-based routing type.
+

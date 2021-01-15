@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_EXTAP_ATTRIBUTES
+ - PDOT11_EXTAP_ATTRIBUTES
  - DOT11_EXTAP_ATTRIBUTES
 product:
  - Windows 10 or later.
@@ -212,3 +214,4 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 
 [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+

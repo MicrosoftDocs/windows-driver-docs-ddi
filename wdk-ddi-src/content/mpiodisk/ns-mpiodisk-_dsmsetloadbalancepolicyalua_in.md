@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _DsmSetLoadBalancePolicyALUA_IN
+ - PDsmSetLoadBalancePolicyALUA_IN
  - DsmSetLoadBalancePolicyALUA_IN
 ---
 

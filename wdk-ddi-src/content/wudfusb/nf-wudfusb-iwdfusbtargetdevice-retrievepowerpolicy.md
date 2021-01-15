@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.RetrievePowerPolicy
+ - IWDFUsbTargetDevice::RetrievePowerPolicy
 ---
 
 # IWDFUsbTargetDevice::RetrievePowerPolicy
@@ -133,3 +133,4 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_getpowerpolicy">WinUsb_GetPowerPolicy</a>
+

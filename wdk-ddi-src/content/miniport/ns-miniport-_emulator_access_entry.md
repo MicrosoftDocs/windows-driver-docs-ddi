@@ -41,6 +41,8 @@ api_type:
 api_location:
  - miniport.h
 api_name:
+ - _EMULATOR_ACCESS_ENTRY
+ - PEMULATOR_ACCESS_ENTRY
  - EMULATOR_ACCESS_ENTRY
 ---
 

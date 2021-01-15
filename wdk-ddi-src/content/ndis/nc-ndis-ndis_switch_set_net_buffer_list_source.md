@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - SetNetBufferListSource
+ - NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE
 ---
 
 # NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback function
@@ -129,3 +129,4 @@ For more information on packet send and receive operations, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
+

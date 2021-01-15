@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsControl.KsProperty
+ - IKsControl::KsProperty
 ---
 
 # IKsControl::KsProperty (ksproxy.h)
@@ -89,3 +89,4 @@ To determine the buffer size that is required for a specific property request, y
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILREMOVECALLFORWARDINGPARAMS
+ - LPRILREMOVECALLFORWARDINGPARAMS
 ---
 
 # RILREMOVECALLFORWARDINGPARAMS structure (rilapitypes.h)

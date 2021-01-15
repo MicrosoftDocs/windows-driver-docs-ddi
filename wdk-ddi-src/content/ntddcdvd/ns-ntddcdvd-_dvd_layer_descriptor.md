@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_LAYER_DESCRIPTOR
+ - PDVD_LAYER_DESCRIPTOR
  - DVD_LAYER_DESCRIPTOR
 ---
 
@@ -392,3 +394,4 @@ For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specif
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

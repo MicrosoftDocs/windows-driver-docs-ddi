@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihvtypes.h
 api_name:
+ - _DOT11EXT_IHV_PROFILE_PARAMS
+ - PDOT11EXT_IHV_PROFILE_PARAMS
  - DOT11EXT_IHV_PROFILE_PARAMS
 ---
 
@@ -142,3 +144,4 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 <a href="/previous-versions/windows/hardware/wireless/ff553752(v=vs.85)">
    IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced3.FindSourceFileAndTokenWide
+ - IDebugAdvanced3::FindSourceFileAndTokenWide
 ---
 
 # IDebugAdvanced3::FindSourceFileAndTokenWide
@@ -197,3 +197,4 @@ For more information about source files, see <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
+

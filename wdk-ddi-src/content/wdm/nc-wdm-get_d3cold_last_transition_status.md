@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetLastTransitionStatus
+ - GET_D3COLD_LAST_TRANSITION_STATUS
 ---
 
 # GET_D3COLD_LAST_TRANSITION_STATUS callback function
@@ -79,3 +79,4 @@ For more information, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_d3c
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a>
+

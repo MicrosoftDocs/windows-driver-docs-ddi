@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_WRITE_CACHE_PROPERTY
+ - PSTORAGE_WRITE_CACHE_PROPERTY
  - STORAGE_WRITE_CACHE_PROPERTY
 ---
 
@@ -96,3 +98,4 @@ All of the parameter values that are described in this topic refer to the output
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

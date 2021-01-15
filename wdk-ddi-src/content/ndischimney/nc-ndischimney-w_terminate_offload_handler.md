@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportTerminateOffload
+ - W_TERMINATE_OFFLOAD_HANDLER
 ---
 
 # W_TERMINATE_OFFLOAD_HANDLER callback function
@@ -129,3 +129,4 @@ All outstanding receive and disconnect calls have returned.
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
+

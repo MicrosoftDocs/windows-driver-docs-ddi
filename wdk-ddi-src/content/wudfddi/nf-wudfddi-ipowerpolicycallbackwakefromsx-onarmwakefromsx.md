@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
+ - IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
 ---
 
 # IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
@@ -105,3 +105,4 @@ For more information about this callback function, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefromsx-onwakefromsxtriggered">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
+

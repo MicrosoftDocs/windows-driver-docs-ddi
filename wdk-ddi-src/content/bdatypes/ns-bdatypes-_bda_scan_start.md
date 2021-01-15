@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_SCAN_START
+ - PBDA_SCAN_START
  - BDA_SCAN_START
 ---
 

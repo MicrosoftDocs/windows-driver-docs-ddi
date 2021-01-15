@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ks.h
 api_name:
+ - PBUS_INTERFACE_MEDIUMS
  - BUS_INTERFACE_MEDIUMS
 ---
 

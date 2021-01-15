@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _DISK_SIGNATURE
+ - PDISK_SIGNATURE
  - DISK_SIGNATURE
 ---
 
@@ -76,3 +78,4 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreaddisksignature">IoReadDiskSignature</a>
+

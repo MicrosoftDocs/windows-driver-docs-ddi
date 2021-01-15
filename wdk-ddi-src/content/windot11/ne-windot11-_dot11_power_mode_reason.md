@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_POWER_MODE_REASON
  - DOT11_POWER_MODE_REASON
 product:
  - Windows 10 or later.
@@ -89,3 +90,4 @@ typedef enum _DOT11_POWER_MODE_REASON {
   dot11_power_mode_reason_others                = 5
 } DOT11_POWER_MODE_REASON;
 ```
+

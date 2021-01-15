@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_UMTS_MRL
+ - PWWAN_UMTS_MRL
  - WWAN_UMTS_MRL
 ---
 
@@ -76,3 +78,4 @@ The array of MRL records, each specified as a <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_serving_cell_info">WWAN_UMTS_SERVING_CELL_INFO</a>
+

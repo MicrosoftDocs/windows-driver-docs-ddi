@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnQueryVideoCapabilities
+ - PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES
 product:
  - Windows
 ---
@@ -96,3 +96,4 @@ Pointer to a structure containing data further identifying input parameters and 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_video_decoder_caps">D3DWDDM2_0DDI_VIDEO_DECODER_CAPS</a>
+

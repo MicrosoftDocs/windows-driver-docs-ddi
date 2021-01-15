@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2SelectNextTransmitTransactionType
+ - EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE
 ---
 
 # EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback function
@@ -163,3 +163,4 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
+

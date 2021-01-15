@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - wmidata
  - wmidata/wmidata
+api_name:
+ - wmidata
 ---
 
 # Wmidata.h header
@@ -22,3 +24,4 @@ f1_keywords:
 This header is used in providing kernel-mode Windows Management Instrumentation (WMI) extensions to WDM. For more information, see:
 
 - [Implementing WMI](/windows-hardware/drivers/kernel/implementing-wmi)
+

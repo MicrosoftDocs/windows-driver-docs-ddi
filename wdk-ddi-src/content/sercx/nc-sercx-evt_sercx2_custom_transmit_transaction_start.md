@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2CustomTransmitTransactionStart
+ - EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START
 ---
 
 # EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback function
@@ -161,3 +161,4 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START</b> function type is defined
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_REGISTRATION
+ - PFLT_REGISTRATION
  - FLT_REGISTRATION
 ---
 
@@ -219,3 +221,4 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_transaction_notification_callback">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
+

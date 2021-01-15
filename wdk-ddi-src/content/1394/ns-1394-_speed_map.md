@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _SPEED_MAP
+ - PSPEED_MAP
  - SPEED_MAP
 ---
 

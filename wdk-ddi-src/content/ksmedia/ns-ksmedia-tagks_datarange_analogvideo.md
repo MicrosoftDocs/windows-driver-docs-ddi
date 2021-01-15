@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_ANALOGVIDEO
+ - PKS_DATARANGE_ANALOGVIDEO
  - KS_DATARANGE_ANALOGVIDEO
 ---
 
@@ -68,3 +70,4 @@ Specifies the details of the analog video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>
+

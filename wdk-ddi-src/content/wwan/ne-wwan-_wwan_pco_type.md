@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PCO_TYPE
+ - PWWAN_PCO_TYPE
  - WWAN_PCO_TYPE
 ---
 
@@ -83,3 +85,4 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>
+

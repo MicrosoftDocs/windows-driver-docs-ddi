@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _GPIO_PIN_IORESTRICTION_TYPE
  - GPIO_PIN_IORESTRICTION_TYPE
 ---
 

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetLogMask
- - IDebugControl2.SetLogMask
- - IDebugControl3.SetLogMask
+ - IDebugControl3::SetLogMask
 ---
 
 # IDebugControl3::SetLogMask
@@ -97,3 +95,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a>
+

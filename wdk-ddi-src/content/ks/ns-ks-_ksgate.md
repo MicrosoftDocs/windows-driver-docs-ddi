@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSGATE
+ - PKSGATE
  - KSGATE
 ---
 
@@ -82,3 +84,4 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgateinitializeor">KsGateInitializeOr</a>
+

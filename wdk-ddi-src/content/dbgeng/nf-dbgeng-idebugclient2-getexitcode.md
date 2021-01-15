@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.GetExitCode
- - IDebugClient2.GetExitCode
- - IDebugClient3.GetExitCode
- - IDebugClient4.GetExitCode
- - IDebugClient5.GetExitCode
+ - IDebugClient2::GetExitCode
 ---
 
 # IDebugClient2::GetExitCode
@@ -94,3 +90,4 @@ The process is still running.
 ## -remarks
 
 This method is available only for live user-mode debugging.
+

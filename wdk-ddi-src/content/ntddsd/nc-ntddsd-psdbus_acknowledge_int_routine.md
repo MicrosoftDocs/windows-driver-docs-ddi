@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddsd.h
 api_name:
- - AcknowledgeInterrupt
+ - PSDBUS_ACKNOWLEDGE_INT_ROUTINE
 ---
 
 # PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback function
@@ -73,3 +73,4 @@ The caller must be running at IRQL <= DISPATCH_LEVEL when it acknowledges that i
 
 
 <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
+

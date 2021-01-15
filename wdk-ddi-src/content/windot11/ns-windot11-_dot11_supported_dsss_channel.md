@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_DSSS_CHANNEL
+ - PDOT11_SUPPORTED_DSSS_CHANNEL
  - DOT11_SUPPORTED_DSSS_CHANNEL
 product:
  - Windows 10 or later.
@@ -96,3 +98,4 @@ typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL {
 
 <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel_list.md">
    DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>
+

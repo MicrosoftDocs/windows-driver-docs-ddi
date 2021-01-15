@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.GetSTILaunchInformation
+ - IStillImageW::GetSTILaunchInformation
 ---
 
 # IStillImageW::GetSTILaunchInformation
@@ -73,3 +73,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 If the still image event monitor started the application, the <i>pwszDeviceName</i> and <i>pwszEventName</i> values identify the <b>/StiDevice</b> and <b>/StiEvent</b> command-line arguments (see the description of <a href="/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)">IStillImage::RegisterLaunchApplication</a>). If the event monitor did not start the application, the method returns STIERR_GENERIC.
 
 Before calling <b>IStillImage::GetSTILaunchInformation</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILIMSSIPCAUSE
+ - LPRILIMSSIPCAUSE
 ---
 
 # RILIMSSIPCAUSE structure (rilapitypes.h)

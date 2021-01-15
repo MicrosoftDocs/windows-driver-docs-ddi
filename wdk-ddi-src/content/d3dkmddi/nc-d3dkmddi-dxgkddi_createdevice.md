@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCreateDevice
+ - DXGKDDI_CREATEDEVICE
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ Generally, devices are independent of each other; in other words, resources that
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

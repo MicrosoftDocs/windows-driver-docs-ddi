@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_MULTISAMPLEQUALITYLEVELSDATA
  - DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
@@ -105,3 +106,4 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnGetResourcePresentPrivateDriverDataCb
+ - PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dd
 
 
 This method may return other <b>HRESULT</b> values.
+

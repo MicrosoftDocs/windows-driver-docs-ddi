@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
- - PDRIVER_FS_NOTIFICATION
+ - DRIVER_FS_NOTIFICATION
 ---
 
 # DRIVER_FS_NOTIFICATION callback function
@@ -98,7 +98,6 @@ DRIVER_FS_NOTIFICATION (
 typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a>
@@ -114,3 +113,4 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a>
+

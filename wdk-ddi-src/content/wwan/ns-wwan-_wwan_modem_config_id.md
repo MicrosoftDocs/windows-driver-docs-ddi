@@ -35,6 +35,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_MODEM_CONFIG_ID
+ - PWWAN_MODEM_CONFIG_ID
+ - WWAN_MODEM_CONFIG_ID
 ---
 
 # _WWAN_MODEM_CONFIG_ID structure

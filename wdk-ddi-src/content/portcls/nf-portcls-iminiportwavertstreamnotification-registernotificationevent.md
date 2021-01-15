@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStreamNotification.RegisterNotificationEvent
+ - IMiniportWaveRTStreamNotification::RegisterNotificationEvent
 ---
 
 # IMiniportWaveRTStreamNotification::RegisterNotificationEvent
@@ -77,3 +77,4 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_notification_event_property">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_PUBLIC_ACCESS_RANGES
+ - PVIDEO_PUBLIC_ACCESS_RANGES
  - VIDEO_PUBLIC_ACCESS_RANGES
 ---
 
@@ -86,3 +88,4 @@ VIDEO_PUBLIC_ACCESS_RANGES is used as an input buffer with the <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>
+

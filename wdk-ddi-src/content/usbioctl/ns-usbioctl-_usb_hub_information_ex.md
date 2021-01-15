@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_INFORMATION_EX
+ - PUSB_HUB_INFORMATION_EX
  - USB_HUB_INFORMATION_EX
 ---
 
@@ -86,3 +88,4 @@ If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a 
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ne-usbioctl-_usb_hub_type">USB_HUB_TYPE</a>
+

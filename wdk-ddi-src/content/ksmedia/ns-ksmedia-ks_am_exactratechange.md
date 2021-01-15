@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKS_AM_ExactRateChange
  - KS_AM_ExactRateChange
 ---
 
@@ -62,3 +63,4 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ks-am-rate-exactratechange">KS_AM_RATE_ExactRateChange</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_IDENTIFIER
+ - PSTORAGE_IDENTIFIER
  - STORAGE_IDENTIFIER
 ---
 
@@ -88,3 +90,4 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff566990(v=vs.85)">STORAGE_IDENTIFIER_TYPE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _tagKSTOPOLOGY_ENDPOINTID
+ - PKSTOPOLOGY_ENDPOINTID
  - KSTOPOLOGY_ENDPOINTID
 ---
 
@@ -64,3 +66,4 @@ The pin ID of the topology endpoint.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointidpair">KSTOPOLOGY_ENDPOINTIDPAIR</a>
+

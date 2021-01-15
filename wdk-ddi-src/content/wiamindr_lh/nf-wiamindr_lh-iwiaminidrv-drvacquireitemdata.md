@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvAcquireItemData
+ - IWiaMiniDrv::drvAcquireItemData
 ---
 
 # IWiaMiniDrv::drvAcquireItemData
@@ -127,3 +127,4 @@ A potential problem for ADF-equipped scanners is running out of paper during a s
 [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md)
 
 [wiasGetImageInformation](../wiamdef/nf-wiamdef-wiasgetimageinformation.md)
+

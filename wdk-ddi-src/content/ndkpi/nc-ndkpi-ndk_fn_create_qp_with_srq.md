@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateQpWithSrq
+ - NDK_FN_CREATE_QP_WITH_SRQ
 ---
 
 # NDK_FN_CREATE_QP_WITH_SRQ callback function
@@ -210,3 +210,4 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
+

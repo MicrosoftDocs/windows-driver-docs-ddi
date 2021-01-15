@@ -37,10 +37,11 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
+ - EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 ---
 
 # EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function
+
 
 ## -description
 
@@ -80,3 +81,4 @@ The format of the surfaces will be one of the formats supported by the driver, b
 [**EvtIddCxMonitorUnassignSwapChain**](./nc-iddcx-evt_idd_cx_monitor_unassign_swapchain.md)
 
 [**IDARG_IN_SETSWAPCHAIN**](ns-iddcx-idarg_in_setswapchain.md)
+

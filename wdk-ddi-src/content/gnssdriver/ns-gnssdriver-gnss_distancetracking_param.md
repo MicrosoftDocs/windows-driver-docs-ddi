@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_DISTANCETRACKING_PARAM
  - GNSS_DISTANCETRACKING_PARAM
 ---
 

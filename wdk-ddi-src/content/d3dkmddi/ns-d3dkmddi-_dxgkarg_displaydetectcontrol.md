@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_DISPLAYDETECTCONTROL
  - DXGKARG_DISPLAYDETECTCONTROL
 ---
 
@@ -69,3 +70,4 @@ If FALSE, the driver should perform any action necessary to detect the status of
 ### -field Reserved
 
 This value is reserved for system use.
+

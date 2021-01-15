@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosBarcodeScanDataTypeData
  - PosBarcodeScanDataTypeData
 ---
 

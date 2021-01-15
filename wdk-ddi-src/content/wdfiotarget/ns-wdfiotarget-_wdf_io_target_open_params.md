@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfiotarget.h
 api_name:
+ - _WDF_IO_TARGET_OPEN_PARAMS
+ - PWDF_IO_TARGET_OPEN_PARAMS
  - WDF_IO_TARGET_OPEN_PARAMS
 ---
 
@@ -286,3 +288,4 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+

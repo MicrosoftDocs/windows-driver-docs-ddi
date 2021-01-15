@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_POWER_RUNTIME_COMPONENT
  - DXGK_POWER_RUNTIME_COMPONENT
 ---
 
@@ -101,3 +102,4 @@ Multiple power components should not be mapped to the same engine (node), to the
 [DXGK_POWER_COMPONENT_MAPPING](./ns-d3dkmddi-_dxgk_power_component_mapping.md)
 
 [DXGK_POWER_RUNTIME_STATE](./ns-d3dkmddi-_dxgk_power_runtime_state.md)
+

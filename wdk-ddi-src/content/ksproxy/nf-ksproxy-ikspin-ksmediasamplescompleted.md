@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsMediaSamplesCompleted
+ - IKsPin::KsMediaSamplesCompleted
 ---
 
 # IKsPin::KsMediaSamplesCompleted
@@ -75,3 +75,4 @@ When a client calls the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksprox
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a>
+

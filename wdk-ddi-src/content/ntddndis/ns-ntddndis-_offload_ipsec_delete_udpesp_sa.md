@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _OFFLOAD_IPSEC_DELETE_UDPESP_SA
+ - POFFLOAD_IPSEC_DELETE_UDPESP_SA
  - OFFLOAD_IPSEC_DELETE_UDPESP_SA
 ---
 
@@ -73,3 +75,4 @@ The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure is used with the
 
 <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a>
+

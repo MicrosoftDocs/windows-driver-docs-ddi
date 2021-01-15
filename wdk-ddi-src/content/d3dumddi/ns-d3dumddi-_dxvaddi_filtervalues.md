@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_FILTERVALUES
  - DXVADDI_FILTERVALUES
 ---
 
@@ -66,3 +67,4 @@ The DXVADDI_FILTERVALUES structure describes values that are related to a filter
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a>
+

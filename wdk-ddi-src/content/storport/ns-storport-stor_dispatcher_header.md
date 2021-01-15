@@ -34,6 +34,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DISPATCHER_HEADER
+ - PSTOR_DISPATCHER_HEADER
  - STOR_DISPATCHER_HEADER
 product:
  - Windows
@@ -96,3 +98,4 @@ Reserved for system use.
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
+

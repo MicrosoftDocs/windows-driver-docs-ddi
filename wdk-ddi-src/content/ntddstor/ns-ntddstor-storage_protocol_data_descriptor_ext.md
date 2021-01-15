@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT
+ - PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT
  - STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT
 product:
  - Windows

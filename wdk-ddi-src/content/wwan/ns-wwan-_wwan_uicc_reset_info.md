@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_UICC_RESET_INFO
+ - PWWAN_UICC_RESET_INFO
  - WWAN_UICC_RESET_INFO
 ---
 
@@ -68,3 +70,4 @@ The passthrough status of the miniport adapter. For more info, see <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_status">WWAN_UICC_PASSTHROUGH_STATUS</a>
+

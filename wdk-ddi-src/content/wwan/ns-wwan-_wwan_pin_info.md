@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_INFO
+ - PWWAN_PIN_INFO
  - WWAN_PIN_INFO
 ---
 
@@ -81,3 +83,4 @@ The number of attempts that remain for any pin-related operations such as enter,
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pin_type">WWAN_PIN_TYPE</a>
+

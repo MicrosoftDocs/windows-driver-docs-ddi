@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCheckMultiPlaneOverlaySupport
+ - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
 product:
  - Windows
 ---

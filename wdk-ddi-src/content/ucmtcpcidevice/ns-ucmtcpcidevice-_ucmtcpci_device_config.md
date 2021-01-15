@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtcpcidevice.h
 api_name:
+ - _UCMTCPCI_DEVICE_CONFIG
+ - PUCMTCPCI_DEVICE_CONFIG
  - UCMTCPCI_DEVICE_CONFIG
 ---
 
@@ -61,3 +63,4 @@ Size of this structure.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendCTPassThru_IN
+ - PSendCTPassThru_IN
  - SendCTPassThru_IN
 ---
 
@@ -72,3 +74,4 @@ The WMI tool suite generates a declaration of the SendCTPassThru_IN structure in
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendctpassthru">SendCTPassThru</a>
+

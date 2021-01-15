@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hwnclx.h
 api_name:
+ - _CLIENT_DEVICE_INFORMATION
+ - PCLIENT_DEVICE_INFORMATION
  - CLIENT_DEVICE_INFORMATION
 ---
 
@@ -82,3 +84,4 @@ typedef struct _CLIENT_DEVICE_INFORMATION {
 
 
 <a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
+

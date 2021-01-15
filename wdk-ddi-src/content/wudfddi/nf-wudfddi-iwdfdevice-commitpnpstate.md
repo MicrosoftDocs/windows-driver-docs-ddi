@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CommitPnpState
+ - IWDFDevice::CommitPnpState
 ---
 
 # IWDFDevice::CommitPnpState
@@ -71,3 +71,4 @@ For a code example of how to use the <b>CommitPnpState</b> method, see <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>
+

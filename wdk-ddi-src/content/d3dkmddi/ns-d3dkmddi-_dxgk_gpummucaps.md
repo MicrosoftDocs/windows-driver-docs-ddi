@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GPUMMUCAPS
  - DXGK_GPUMMUCAPS
 dev_langs:
  - c++
@@ -135,3 +136,4 @@ When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizab
 When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
 
 ### -field LegacyBehaviors.Reserved
+

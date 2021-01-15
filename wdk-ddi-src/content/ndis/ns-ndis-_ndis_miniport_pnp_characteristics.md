@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_PNP_CHARACTERISTICS
+ - PNDIS_MINIPORT_PNP_CHARACTERISTICS
  - NDIS_MINIPORT_PNP_CHARACTERISTICS
 ---
 
@@ -131,3 +133,4 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

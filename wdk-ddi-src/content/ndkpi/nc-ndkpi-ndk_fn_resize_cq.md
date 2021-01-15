@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkResizeCq
+ - NDK_FN_RESIZE_CQ
 ---
 
 # NDK_FN_RESIZE_CQ callback function
@@ -164,3 +164,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
+

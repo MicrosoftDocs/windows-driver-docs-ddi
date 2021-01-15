@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
+ - D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
 dev_langs:
  - c++
 ---

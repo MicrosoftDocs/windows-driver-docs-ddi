@@ -36,9 +36,12 @@ api_location:
  - treerpmbservice.h
 api_name:
  - _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
+ - PTREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
+ - TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
 ---
 
 # _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure
+
 
 ## -description
 
@@ -53,3 +56,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

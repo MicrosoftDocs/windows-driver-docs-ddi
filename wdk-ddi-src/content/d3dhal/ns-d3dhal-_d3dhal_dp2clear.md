@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2CLEAR
  - D3DHAL_DP2CLEAR
 ---
 
@@ -97,3 +98,4 @@ D3DDP2OP_CLEAR
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+

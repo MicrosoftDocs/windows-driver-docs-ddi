@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PLATFORM_IDLE_STATE_UPDATE
+ - PPEP_PLATFORM_IDLE_STATE_UPDATE
  - PEP_PLATFORM_IDLE_STATE_UPDATE
 ---
 
@@ -72,3 +74,4 @@ The <i>Update</i> parameter of the <a href="/windows-hardware/drivers/ddi/pepfx/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackupdateplatformidlestate">UpdatePlatformIdleState</a>
+

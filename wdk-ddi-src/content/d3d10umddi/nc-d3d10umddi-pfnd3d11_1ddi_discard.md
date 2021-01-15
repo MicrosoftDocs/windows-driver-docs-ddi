@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - Discard(D3D11_1)
+ - PFND3D11_1DDI_DISCARD
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ typedef RECT D3D10_DDI_RECT;
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a>
+

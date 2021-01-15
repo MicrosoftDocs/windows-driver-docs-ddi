@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ufxproprietarycharger.h
 api_name:
- - PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+ - UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 ---
 
 # UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function
@@ -72,3 +72,4 @@ In this callback function, the driver sets the specified property value. For exa
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

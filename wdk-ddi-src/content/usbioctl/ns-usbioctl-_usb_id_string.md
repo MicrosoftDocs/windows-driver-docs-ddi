@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_ID_STRING
+ - PUSB_ID_STRING
  - USB_ID_STRING
 ---
 
@@ -74,3 +76,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

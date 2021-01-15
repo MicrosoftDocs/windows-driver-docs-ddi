@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
  - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
 ---
 
@@ -100,3 +101,4 @@ This value applies only if the GPU synchronization object is of type <b>D3DDDI_F
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a>
+

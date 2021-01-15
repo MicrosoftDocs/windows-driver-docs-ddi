@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_SliceInfo
+ - LPDXVA_SliceInfo
  - DXVA_SliceInfo
 ---
 
@@ -111,3 +113,4 @@ In H.261 bitstreams, a GOB is considered a slice. In H.263 bitstreams, a sequenc
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>
+

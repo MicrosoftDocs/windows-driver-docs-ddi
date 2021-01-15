@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Fwpsk.h
 api_name:
- - notifyFn0
+ - FWPS_CALLOUT_NOTIFY_FN0
 ---
 
 # FWPS_CALLOUT_NOTIFY_FN0 callback function
@@ -208,3 +208,4 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
+

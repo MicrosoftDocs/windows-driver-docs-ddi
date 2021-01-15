@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_WMDRMTUNER_PIDPROTECTION
+ - PBDA_WMDRMTUNER_PIDPROTECTION
  - BDA_WMDRMTUNER_PIDPROTECTION
 ---
 

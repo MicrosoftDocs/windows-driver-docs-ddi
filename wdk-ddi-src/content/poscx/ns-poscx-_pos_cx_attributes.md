@@ -40,6 +40,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
+ - _POS_CX_ATTRIBUTES
  - POS_CX_ATTRIBUTES
 ---
 
@@ -77,3 +78,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx
 
 
 <a href="/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxinit">PosCxInit</a>
+

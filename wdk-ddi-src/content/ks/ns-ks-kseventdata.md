@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSEVENTDATA
  - KSEVENTDATA
 ---
 
@@ -233,3 +234,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-events">K
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_work_queue_type">WORK_QUEUE_TYPE</a>
+

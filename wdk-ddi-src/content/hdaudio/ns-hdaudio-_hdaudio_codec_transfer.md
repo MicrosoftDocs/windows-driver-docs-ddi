@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_CODEC_TRANSFER
+ - PHDAUDIO_CODEC_TRANSFER
  - HDAUDIO_CODEC_TRANSFER
 ---
 
@@ -87,3 +89,4 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a>
+

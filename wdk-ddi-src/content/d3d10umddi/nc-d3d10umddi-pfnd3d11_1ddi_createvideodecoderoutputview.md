@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateVideoDecoderOutputView
+ - PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
 product:
  - Windows
 ---
@@ -106,3 +106,4 @@ When the runtime  calls <i>CreateVideoDecoderOutputView</i>, it passes the handl
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe">VideoDecoderBeginFrame</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOPROCAMP_S
  - KSPROPERTY_VIDEOPROCAMP_S
 ---
 
@@ -164,3 +165,4 @@ The device supports automatic setting of the specified property.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLINFO_V4
+ - LPRILCALLINFO_V4
 ---
 
 # RILCALLINFO_V4 structure (rilapitypes.h)

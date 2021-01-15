@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxFinalizeNetRoot
+ - PMRX_FINALIZE_NET_ROOT_CALLDOWN
 ---
 
 # PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function
@@ -99,3 +99,4 @@ RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
+

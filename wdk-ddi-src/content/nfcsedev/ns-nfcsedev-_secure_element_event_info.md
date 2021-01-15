@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_EVENT_INFO
+ - PSECURE_ELEMENT_EVENT_INFO
  - SECURE_ELEMENT_EVENT_INFO
 ---
 
@@ -79,3 +81,4 @@ This is the event data buffer. When <b>eEventType</b> is <b>HceActivated</b> or 
 When <b>eEventType</b> is <b>ExternalReaderArrival</b> or <b>ExternalReaderDeparture</b>, <b>pbEventData</b> is empty and <b>cbEventData</b> is 0.
 
 When <b>eEventType</b> is <b>Transaction</b>, <b>pbEventData</b> contains a list of parameters that is encoded in BER-TLV fields. This event is mapped to EVT_TRANSACTION.
+

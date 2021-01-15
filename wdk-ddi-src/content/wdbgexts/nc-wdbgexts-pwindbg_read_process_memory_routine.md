@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - ReadMemory
+ - PWINDBG_READ_PROCESS_MEMORY_ROUTINE
 ---
 
 # PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback function
@@ -72,3 +72,4 @@ If the routine succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FA
 ## -remarks
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
+

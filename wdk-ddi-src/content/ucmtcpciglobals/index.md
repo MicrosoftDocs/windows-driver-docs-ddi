@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucmtcpciglobals
  - ucmtcpciglobals/ucmtcpciglobals
+api_name:
+ - ucmtcpciglobals
 ---
 
 # Ucmtcpciglobals.h header

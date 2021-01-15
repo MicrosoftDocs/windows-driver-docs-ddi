@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDEACTIVATEPERSOPARAMS
+ - LPRILDEACTIVATEPERSOPARAMS
 ---
 
 # RILDEACTIVATEPERSOPARAMS structure (rilapitypes.h)

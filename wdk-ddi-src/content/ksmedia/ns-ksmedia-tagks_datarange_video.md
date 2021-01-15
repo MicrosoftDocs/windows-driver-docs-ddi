@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_VIDEO
+ - PKS_DATARANGE_VIDEO
  - KS_DATARANGE_VIDEO
 ---
 
@@ -108,3 +110,4 @@ For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

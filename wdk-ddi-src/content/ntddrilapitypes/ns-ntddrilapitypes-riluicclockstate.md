@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUICCLOCKSTATE
+ - LPRILUICCLOCKSTATE
 ---
 
 # RILUICCLOCKSTATE structure (ntddrilapitypes.h)
@@ -91,3 +92,4 @@ struct RILUICCLOCKSTATE {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.ConnectSession
- - IDebugClient2.ConnectSession
- - IDebugClient3.ConnectSession
- - IDebugClient4.ConnectSession
- - IDebugClient5.ConnectSession
+ - IDebugClient2::ConnectSession
 ---
 
 # IDebugClient2::ConnectSession
@@ -151,3 +147,4 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startserver">StartServer</a>
+

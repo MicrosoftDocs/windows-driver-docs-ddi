@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.MapAllocatedPages
+ - IPortWaveRTStream::MapAllocatedPages
 ---
 
 # IPortWaveRTStream::MapAllocatedPages
@@ -100,3 +100,4 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>
+

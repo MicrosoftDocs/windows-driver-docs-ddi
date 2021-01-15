@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
  - D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
 ---
 

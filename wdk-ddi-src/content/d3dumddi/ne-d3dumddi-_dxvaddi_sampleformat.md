@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_SAMPLEFORMAT
  - DXVADDI_SAMPLEFORMAT
 ---
 
@@ -90,3 +91,4 @@ One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleForma
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
+

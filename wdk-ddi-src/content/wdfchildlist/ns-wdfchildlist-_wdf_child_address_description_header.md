@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
+ - PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER
  - WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
 ---
 
@@ -100,3 +102,4 @@ For more information about address descriptions, see <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a>
+

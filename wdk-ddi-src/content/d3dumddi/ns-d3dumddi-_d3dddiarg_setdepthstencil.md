@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETDEPTHSTENCIL
  - D3DDDIARG_SETDEPTHSTENCIL
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdepthstencil">SetDepthStencil</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
  - D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure describes a Microsoft Direct
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a>
+

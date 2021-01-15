@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PRESENT_STATS_DWM
+ - D3DKMT_PRESENT_STATS_DWM
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
+ - PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
  - WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
 ---
 
@@ -83,3 +85,4 @@ If a driver specifies <b>WdfReleaseHardwareOrderOnFailureAfterDescendants</b>, t
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>
+

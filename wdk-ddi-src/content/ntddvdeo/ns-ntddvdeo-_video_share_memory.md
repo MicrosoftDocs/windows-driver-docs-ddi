@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_SHARE_MEMORY
+ - PVIDEO_SHARE_MEMORY
  - VIDEO_SHARE_MEMORY
 ---
 
@@ -86,3 +88,4 @@ For structures used in mapping into kernel-mode video memory, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a>
+

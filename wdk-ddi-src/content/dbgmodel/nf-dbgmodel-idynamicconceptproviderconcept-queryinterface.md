@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDynamicConceptProviderConcept.QueryInterface
+ - IDynamicConceptProviderConcept::QueryInterface
 ---
 
 # IDynamicConceptProviderConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDynamicConceptProviderConcept interface](nn-dbgmodel-idynamicconceptproviderconcept.md)
+

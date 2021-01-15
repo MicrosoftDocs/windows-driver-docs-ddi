@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_VWIFI_ATTRIBUTES
+ - PDOT11_VWIFI_ATTRIBUTES
 product:
  - Windows 10 or later.
 ---
@@ -121,3 +122,4 @@ typedef struct DOT11_VWIFI_ATTRIBUTES {
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

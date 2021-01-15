@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_USERACTIVITY_INTERVAL
+ - P_BDA_USERACTIVITY_INTERVAL
  - BDA_USERACTIVITY_INTERVAL
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DDeviceDesc_V1
+ - LPD3DDEVICEDESC_V1
  - D3DDEVICEDESC_V1
 ---
 
@@ -181,3 +183,4 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 <a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

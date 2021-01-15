@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _KERNDATA
+ - PKERNDATA
  - KERNDATA
 ---
 
@@ -76,3 +78,4 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
+

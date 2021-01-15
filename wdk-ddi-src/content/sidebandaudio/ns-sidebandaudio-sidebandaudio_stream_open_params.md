@@ -33,6 +33,7 @@ api_type:
 api_location:
  - sidebandaudio.h
 api_name:
+ - PSIDEBANDAUDIO_STREAM_OPEN_PARAMS
  - SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 ---
 

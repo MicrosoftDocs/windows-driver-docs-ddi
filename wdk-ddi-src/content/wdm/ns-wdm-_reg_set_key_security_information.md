@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _REG_SET_KEY_SECURITY_INFORMATION
+ - PREG_SET_KEY_SECURITY_INFORMATION
  - REG_SET_KEY_SECURITY_INFORMATION
 ---
 
@@ -102,3 +104,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/previous-versions/ff567106(v=vs.85)">ZwSetSecurityObject</a>
+

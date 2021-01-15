@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _ERASE_BAND_PARAMETERS
+ - PERASE_BAND_PARAMETERS
  - ERASE_BAND_PARAMETERS
 ---
 
@@ -136,3 +138,4 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_GROUPS
+ - PTOKEN_GROUPS
  - TOKEN_GROUPS
 ---
 
@@ -92,3 +94,4 @@ You can use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefiltertoken"
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

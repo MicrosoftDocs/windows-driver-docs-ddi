@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkBind
+ - NDK_FN_BIND
 ---
 
 # NDK_FN_BIND callback function
@@ -248,3 +248,4 @@ This function does not support a zero-based virtual address.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+

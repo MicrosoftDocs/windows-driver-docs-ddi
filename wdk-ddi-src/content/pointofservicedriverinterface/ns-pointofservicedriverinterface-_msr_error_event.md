@@ -41,6 +41,8 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _MSR_ERROR_EVENT
+ - PMSR_ERROR_EVENT
  - MSR_ERROR_EVENT
 ---
 
@@ -92,3 +94,4 @@ Data read from a swiped magnetic stripe card.
 ### -field Message
 
 NULL terminated error message.
+

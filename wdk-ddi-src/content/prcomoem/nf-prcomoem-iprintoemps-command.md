@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPS.Command
+ - IPrintOemPS::Command
 ---
 
 # IPrintOemPS::Command
@@ -470,3 +470,4 @@ If **IPrintOemPS::Command** methods are exported by multiple rendering plug-ins,
 * If the injection point is one for which supplied data replaces the data that the printer driver provides, the plug-ins are called until one **IPrintOemPS::Command** method supplies ERROR_SUCCESS for *dwResult*. No other plug-ins are called. If all plug-ins supply ERROR_NOT_SUPPORTED, the driver-supplied data is not replaced.
 
 * If the injection point is one for which supplied data replaces the data that the printer driver provides, and if an application has already replaced the driver-supplied data by using the [POSTSCRIPT_INJECTION](/windows-hardware/drivers/print/pscript-supported-escapes) printer escape function, no plug-ins are called.
+

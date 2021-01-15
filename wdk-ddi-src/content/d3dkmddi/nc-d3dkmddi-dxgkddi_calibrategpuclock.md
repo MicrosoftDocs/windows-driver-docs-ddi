@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiCalibrateGpuClock
+ - DXGKDDI_CALIBRATEGPUCLOCK
 product:
  - Windows
 ---
@@ -93,3 +93,4 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

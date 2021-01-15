@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsReferenceClock.GetTime
+ - IKsReferenceClock::GetTime
 ---
 
 # IKsReferenceClock::GetTime
@@ -62,3 +62,4 @@ AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-tim
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+

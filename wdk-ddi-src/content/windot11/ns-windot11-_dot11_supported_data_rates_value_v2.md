@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_DATA_RATES_VALUE_V2
+ - PDOT11_SUPPORTED_DATA_RATES_VALUE_V2
  - DOT11_SUPPORTED_DATA_RATES_VALUE_V2
 product:
  - Windows 10 or later.
@@ -110,3 +112,4 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
    OID_DOT11_SUPPORTED_DATA_RATES_VALUE</a>
+

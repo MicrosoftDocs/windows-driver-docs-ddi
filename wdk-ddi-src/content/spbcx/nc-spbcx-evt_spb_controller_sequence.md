@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerIoSequence
+ - EVT_SPB_CONTROLLER_SEQUENCE
 ---
 
 # EVT_SPB_CONTROLLER_SEQUENCE callback function
@@ -157,3 +157,4 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters">SpbRequestGetTransferParameters</a>
+

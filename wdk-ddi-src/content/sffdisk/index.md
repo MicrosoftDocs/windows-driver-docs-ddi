@@ -12,6 +12,8 @@ tech.root: sd
 f1_keywords:
  - sffdisk
  - sffdisk/sffdisk
+api_name:
+ - sffdisk
 ---
 
 # Sffdisk.h header

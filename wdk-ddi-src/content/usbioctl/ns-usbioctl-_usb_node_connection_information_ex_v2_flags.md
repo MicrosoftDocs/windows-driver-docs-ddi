@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
+ - PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
  - USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
 ---
 
@@ -84,3 +86,4 @@ Reserved. Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex_v2_flags">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>
+

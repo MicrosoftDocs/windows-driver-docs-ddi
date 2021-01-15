@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTarget.CancelSentRequestsForFile
+ - IWDFIoTarget::CancelSentRequestsForFile
 ---
 
 # IWDFIoTarget::CancelSentRequestsForFile
@@ -63,3 +63,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdff
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_BOUNDS_LONGLONG
  - KSPROPERTY_BOUNDS_LONGLONG
 ---
 
@@ -98,3 +99,4 @@ Also see related information in <a href="/windows-hardware/drivers/stream/ks-pro
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
+

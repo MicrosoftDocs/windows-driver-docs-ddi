@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Sti.h
 api_name:
- - IStiDevice.UnSubscribe
+ - IStiDevice::UnSubscribe
 ---
 
 # IStiDevice::UnSubscribe
@@ -62,3 +62,4 @@ Before calling <b>IStiDevice::UnSubscribe</b>, clients of the <b>IStiDevice</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>
+

@@ -40,7 +40,7 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
- - imp_WppRecorderGetTriageInfo
+ - WppRecorderGetTriageInfo
 ---
 
 # WppRecorderGetTriageInfo macro

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _FILE_STANDARD_INFORMATION_EX
+ - PFILE_STANDARD_INFORMATION_EX
  - FILE_STANDARD_INFORMATION_EX
 ---
 
@@ -96,3 +98,4 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

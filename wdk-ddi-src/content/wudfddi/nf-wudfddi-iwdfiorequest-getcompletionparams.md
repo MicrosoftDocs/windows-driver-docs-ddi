@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetCompletionParams
+ - IWDFIoRequest::GetCompletionParams
 ---
 
 # IWDFIoRequest::GetCompletionParams
@@ -67,3 +67,4 @@ A pointer to a variable that receives a pointer to the <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>
+

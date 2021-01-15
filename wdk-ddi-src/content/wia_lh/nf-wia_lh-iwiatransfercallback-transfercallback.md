@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaTransferCallback.TransferCallback
+ - IWiaTransferCallback::TransferCallback
 ---
 
 # IWiaTransferCallback::TransferCallback

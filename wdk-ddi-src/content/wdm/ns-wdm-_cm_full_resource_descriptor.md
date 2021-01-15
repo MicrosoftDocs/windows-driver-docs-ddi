@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_FULL_RESOURCE_DESCRIPTOR
+ - PCM_FULL_RESOURCE_DESCRIPTOR
  - CM_FULL_RESOURCE_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list">C
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a>
+

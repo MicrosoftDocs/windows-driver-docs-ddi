@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA
  - DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 ---
 
@@ -120,3 +121,4 @@ For more information about color space, see <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

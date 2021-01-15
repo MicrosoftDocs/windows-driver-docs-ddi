@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.Escape
+ - IStiUSD::Escape
 ---
 
 # IStiUSD::Escape
@@ -91,3 +91,4 @@ A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O o
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_INQUIRY_DATA
+ - PSCSI_INQUIRY_DATA
  - SCSI_INQUIRY_DATA
 ---
 
@@ -97,3 +99,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_i
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_bus_data">SCSI_BUS_DATA</a>
+

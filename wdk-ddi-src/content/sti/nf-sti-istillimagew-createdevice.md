@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.CreateDevice
+ - IStillImageW::CreateDevice
 ---
 
 # IStillImageW::CreateDevice
@@ -122,3 +122,4 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

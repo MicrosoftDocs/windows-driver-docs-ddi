@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dukmdt.h
 api_name:
+ - _DXGK_MIRACAST_CHUNK_TYPE
  - DXGK_MIRACAST_CHUNK_TYPE
 ---
 

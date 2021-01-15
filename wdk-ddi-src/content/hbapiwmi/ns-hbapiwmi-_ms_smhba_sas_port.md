@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_SAS_Port
+ - PMS_SMHBA_SAS_Port
  - MS_SMHBA_SAS_Port
 ---
 

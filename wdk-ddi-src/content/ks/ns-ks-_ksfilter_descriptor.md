@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSFILTER_DESCRIPTOR
+ - PKSFILTER_DESCRIPTOR
  - KSFILTER_DESCRIPTOR
 ---
 
@@ -283,3 +285,4 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory">KsCreateFilterFactory</a>
+

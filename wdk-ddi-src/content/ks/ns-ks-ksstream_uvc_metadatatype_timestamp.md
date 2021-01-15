@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
  - KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 ---
 

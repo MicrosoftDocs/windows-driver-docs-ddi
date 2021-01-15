@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateVsConstBufCb
+ - PFND3D10DDI_STATE_VS_CONSTBUF_CB
 ---
 
 # PFND3D10DDI_STATE_VS_CONSTBUF_CB callback function
@@ -82,3 +82,4 @@ The <i>Base</i> and <i>Count</i> parameters that the driver passes to the <b>pfn
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setconstantbuffers">VsSetConstantBuffers</a>
+

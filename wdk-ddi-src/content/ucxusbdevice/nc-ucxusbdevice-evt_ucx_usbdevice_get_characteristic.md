@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
+ - EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
 ---
 
 # EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback function
@@ -71,3 +71,4 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 ## -remarks
 
 The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
+

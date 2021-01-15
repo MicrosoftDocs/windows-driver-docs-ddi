@@ -7,7 +7,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE,
 req.header: netpoweroffload.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_type:
 api_location:
  - netpoweroffload.h
 api_name:
+ - _NET_POWER_OFFLOAD_TYPE
  - NET_POWER_OFFLOAD_TYPE
 product:
  - Windows
@@ -59,3 +60,4 @@ Call [**NetPowerOffloadGetType**](../netpoweroffload/nf-netpoweroffload-netpower
 ## -see-also
 
 [Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
+

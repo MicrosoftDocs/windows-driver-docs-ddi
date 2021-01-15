@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - DebugExtensionProvideValue
+ - PDEBUG_EXTENSION_PROVIDE_VALUE
 ---
 
 # PDEBUG_EXTENSION_PROVIDE_VALUE callback function
@@ -50,7 +50,6 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="/windows-h
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
 ```
-
 
 ## -parameters
 
@@ -166,3 +165,4 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 <i>KnownStructOutput</i>
+

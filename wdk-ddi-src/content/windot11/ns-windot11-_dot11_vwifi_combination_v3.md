@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_VWIFI_COMBINATION_V3
+ - PDOT11_VWIFI_COMBINATION_V3
  - DOT11_VWIFI_COMBINATION_V3
 product:
  - Windows 10 or later.
@@ -114,3 +116,4 @@ typedef struct _DOT11_VWIFI_COMBINATION_V3 {
 ## -remarks
 
 When <b>uNumWFDGroup</b> > 0, the miniport driver is required to support one more 802.11 MAC entity in addition to the number in <b>uNumWFDGroup</b>. This additional entity is used for WFD device functionality and is the only entity configured as <b>DOT11_OPERATION_MODE_WFD_DEVICE</b>.
+

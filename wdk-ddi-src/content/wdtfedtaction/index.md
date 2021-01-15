@@ -12,6 +12,8 @@ tech.root: dtf
 f1_keywords:
  - wdtfedtaction
  - wdtfedtaction/wdtfedtaction
+api_name:
+ - wdtfedtaction
 ---
 
 # Wdtfedtaction.h header

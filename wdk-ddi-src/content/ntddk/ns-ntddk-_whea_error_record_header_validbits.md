@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_RECORD_HEADER_VALIDBITS
+ - PWHEA_ERROR_RECORD_HEADER_VALIDBITS
  - WHEA_ERROR_RECORD_HEADER_VALIDBITS
 ---
 
@@ -90,3 +92,4 @@ The following bitfield constants can be used to test the bits in the <b>AsULONG 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
+

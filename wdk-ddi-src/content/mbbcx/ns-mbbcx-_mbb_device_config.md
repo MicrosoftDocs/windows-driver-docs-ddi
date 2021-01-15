@@ -36,6 +36,8 @@ api_location:
  - mbbcx.h
 api_name:
  - _MBB_DEVICE_CONFIG
+ - PMBB_DEVICE_CONFIG
+ - MBB_DEVICE_CONFIG
 ---
 
 # _MBB_DEVICE_CONFIG structure

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _OPTPARAM
+ - POPTPARAM
  - OPTPARAM
 ---
 
@@ -174,3 +176,4 @@ Reserved, must be initialized to zero.
 ## -remarks
 
 If the OPTPF_HIDE flag is set in all the OPTPARAM structures associated with an option, CPSUI hides the entire option.
+

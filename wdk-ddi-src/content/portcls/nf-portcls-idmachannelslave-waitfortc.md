@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDmaChannelSlave.WaitForTC
+ - IDmaChannelSlave::WaitForTC
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ Because this method simply waits until the DMA transfer either completes or time
 ## -see-also
 
 [IDmaChannelSlave interface](nn-portcls-idmachannelslave.md)
+

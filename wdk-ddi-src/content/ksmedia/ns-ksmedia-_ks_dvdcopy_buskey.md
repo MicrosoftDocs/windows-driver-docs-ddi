@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVDCOPY_BUSKEY
+ - PKS_DVDCOPY_BUSKEY
  - KS_DVDCOPY_BUSKEY
 ---
 
@@ -74,3 +76,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyrigh
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-dvd-key1">KSPROPERTY_DVDCOPY_DVD_KEY1</a>
+

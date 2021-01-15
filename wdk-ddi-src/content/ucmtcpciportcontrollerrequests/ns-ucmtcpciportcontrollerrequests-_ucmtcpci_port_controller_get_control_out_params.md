@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmtcpciportcontrollerrequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
  - UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
 ---
 
@@ -77,3 +79,4 @@ api_name:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
+

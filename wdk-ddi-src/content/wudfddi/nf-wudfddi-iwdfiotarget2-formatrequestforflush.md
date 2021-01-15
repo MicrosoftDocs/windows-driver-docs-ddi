@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTarget2.FormatRequestForFlush
+ - IWDFIoTarget2::FormatRequestForFlush
 ---
 
 # IWDFIoTarget2::FormatRequestForFlush
@@ -148,7 +148,6 @@ CMyQueue::OnDefaultIoHandler(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
@@ -160,3 +159,4 @@ CMyQueue::OnDefaultIoHandler(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget2">IWDFIoTarget2</a>
+

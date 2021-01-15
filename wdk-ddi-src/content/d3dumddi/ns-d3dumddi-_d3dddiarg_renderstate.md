@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_RENDERSTATE
  - D3DDDIARG_RENDERSTATE
 ---
 
@@ -62,3 +63,4 @@ The D3DDDIARG_RENDERSTATE structure describes how to update a specific render st
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setrenderstate">SetRenderState</a>
+

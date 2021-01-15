@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfcommonbuffer.h
 api_name:
+ - _WDF_COMMON_BUFFER_CONFIG
+ - PWDF_COMMON_BUFFER_CONFIG
  - WDF_COMMON_BUFFER_CONFIG
 ---
 
@@ -84,3 +86,4 @@ For more information about specifying alignment requirements, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress">WdfCommonBufferGetAlignedVirtualAddress</a>
+

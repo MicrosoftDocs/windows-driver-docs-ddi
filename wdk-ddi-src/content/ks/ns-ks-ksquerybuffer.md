@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSQUERYBUFFER
  - KSQUERYBUFFER
 ---
 
@@ -135,3 +136,4 @@ life is good.
 
 
 <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+

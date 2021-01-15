@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PROTECTED_SESSION_STATUS
  - DXGK_PROTECTED_SESSION_STATUS
 ---
 

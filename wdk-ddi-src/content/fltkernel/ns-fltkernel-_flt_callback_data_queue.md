@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_CALLBACK_DATA_QUEUE
+ - PFLT_CALLBACK_DATA_QUEUE
  - FLT_CALLBACK_DATA_QUEUE
 ---
 
@@ -76,3 +78,4 @@ FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callb
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
- - pfnDeletePortUI
+ - DeletePortUI
 ---
 
 # DeletePortUI function
@@ -126,3 +126,4 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
+

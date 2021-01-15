@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxResetPort
+ - MINIPORT_WDI_TAL_TXRX_RESET_PORT
 ---
 
 # MINIPORT_WDI_TAL_TXRX_RESET_PORT callback function
@@ -79,3 +79,4 @@ Port ID for the port being reset.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

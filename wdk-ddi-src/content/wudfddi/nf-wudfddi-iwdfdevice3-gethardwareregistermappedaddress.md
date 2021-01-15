@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.GetHardwareRegisterMappedAddress
+ - IWDFDevice3::GetHardwareRegisterMappedAddress
 ---
 
 # IWDFDevice3::GetHardwareRegisterMappedAddress
@@ -73,3 +73,4 @@ If you do use <b>GetHardwareRegisterMappedAddress</b>, you must set the <b>UmdfR
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnFlush1
+ - PFND3DDDI_FLUSH1
 product:
  - Windows
 ---
@@ -66,3 +66,4 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_flush_flags">D3DDDI_FLUSH_FLAGS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
+ - _DEVICE_POWER_STATE
+ - PDEVICE_POWER_STATE
  - DEVICE_POWER_STATE
 ---
 
@@ -90,3 +92,4 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-assignsxwakesettings">IWDFDevice2::AssignSxWakeSettings</a>
+

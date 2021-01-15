@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnResourceBarrier
+ - PFND3D12DDI_RESOURCEBARRIER_0022
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ Access this callback function by using a command list functions structure, such 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
+

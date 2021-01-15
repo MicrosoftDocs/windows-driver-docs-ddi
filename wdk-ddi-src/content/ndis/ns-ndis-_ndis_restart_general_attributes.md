@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_RESTART_GENERAL_ATTRIBUTES
+ - PNDIS_RESTART_GENERAL_ATTRIBUTES
  - NDIS_RESTART_GENERAL_ATTRIBUTES
 ---
 
@@ -285,3 +287,4 @@ If the
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>
+

@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfminiport
  - wdfminiport/wdfminiport
+api_name:
+ - wdfminiport
 ---
 
 # Wdfminiport.h header

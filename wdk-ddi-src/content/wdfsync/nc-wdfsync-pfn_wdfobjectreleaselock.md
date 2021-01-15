@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wdfsync.h
 api_name:
- - WdfObjectReleaseLock
+ - PFN_WDFOBJECTRELEASELOCK
 ---
 
 # WdfObjectReleaseLock callback
@@ -79,3 +79,4 @@ For more information about synchronization locks, see <a href="/windows-hardware
 ## -see-also
 
 <a href="/previous-versions/ff548721(v=vs.85)">WdfObjectAcquireLock</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ComponentActiveConditionCallback
+ - PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
 ---
 
 # PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function
@@ -105,3 +105,4 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a>
+

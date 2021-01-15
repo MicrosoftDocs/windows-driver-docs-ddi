@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SET_TIMING_FLAGS
  - DXGK_SET_TIMING_FLAGS
 ---
 

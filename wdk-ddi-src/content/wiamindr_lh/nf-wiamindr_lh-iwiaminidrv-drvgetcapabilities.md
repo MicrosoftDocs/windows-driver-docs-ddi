@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvGetCapabilities
+ - IWiaMiniDrv::drvGetCapabilities
 ---
 
 # IWiaMiniDrv::drvGetCapabilities
@@ -128,3 +128,4 @@ The *Wiadef.h* header lists several predefined commands and events.
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
 [WIA_DEV_CAP_DRV](./ns-wiamindr_lh-_wia_dev_cap_drv.md)
+

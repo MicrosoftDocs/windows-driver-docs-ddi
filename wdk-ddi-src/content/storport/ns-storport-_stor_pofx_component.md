@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_POFX_COMPONENT
+ - PSTOR_POFX_COMPONENT
  - STOR_POFX_COMPONENT
 ---
 

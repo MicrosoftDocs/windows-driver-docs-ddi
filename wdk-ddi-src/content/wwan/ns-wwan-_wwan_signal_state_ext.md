@@ -40,6 +40,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SIGNAL_STATE_EXT
+ - PWWAN_SIGNAL_STATE_EXT
  - WWAN_SIGNAL_STATE_EXT
 ---
 
@@ -131,3 +133,4 @@ Indicates the data class for which the parameters are valid. Only if either **WW
 
  
 [**WWAN_SIGNAL_STATE**](../wwan/ns-wwan-_wwan_signal_state.md)
+

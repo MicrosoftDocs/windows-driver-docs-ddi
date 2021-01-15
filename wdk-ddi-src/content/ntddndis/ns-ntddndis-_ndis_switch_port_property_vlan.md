@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_VLAN
+ - PNDIS_SWITCH_PORT_PROPERTY_VLAN
  - NDIS_SWITCH_PORT_PROPERTY_VLAN
 ---
 
@@ -226,3 +228,4 @@ For more information on forwarding extensions, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+

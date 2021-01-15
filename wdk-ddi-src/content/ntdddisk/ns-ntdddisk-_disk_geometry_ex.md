@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_GEOMETRY_EX
+ - PDISK_GEOMETRY_EX
  - DISK_GEOMETRY_EX
 ---
 
@@ -100,3 +102,4 @@ Because the partition and detect information are not at fixed locations within t
 [IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-ntdddisk-ioctl_disk_get_drive_geometry.md)
 
 [IOCTL_DISK_GET_MEDIA_TYPES](./ni-ntdddisk-ioctl_disk_get_media_types.md)
+

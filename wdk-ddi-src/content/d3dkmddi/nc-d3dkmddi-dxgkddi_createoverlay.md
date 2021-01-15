@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCreateOverlay
+ - DXGKDDI_CREATEOVERLAY
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ The <i>DxgkDdiCreateOverlay</i> function enables the overlay hardware if the har
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

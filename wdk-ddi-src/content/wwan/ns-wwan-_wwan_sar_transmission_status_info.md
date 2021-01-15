@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_TRANSMISSION_STATUS_INFO
+ - PWWAN_SAR_TRANSMISSION_STATUS_INFO
+ - WWAN_SAR_TRANSMISSION_STATUS_INFO
 ---
 
 # _WWAN_SAR_TRANSMISSION_STATUS_INFO structure
@@ -76,3 +78,4 @@ This structure is used in the [**NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO**](../nd
 [**WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE**](ne-wwan-_wwan_sar_transmission_status_notification_state.md)
 
 [**WWAN_SAR_TRANSMISSION_STATUS**](ne-wwan-_wwan_sar_transmission_status.md)
+

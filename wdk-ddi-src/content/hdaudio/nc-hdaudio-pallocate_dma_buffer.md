@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - AllocateDmaBuffer
+ - PALLOCATE_DMA_BUFFER
 ---
 
 # PALLOCATE_DMA_BUFFER callback function
@@ -232,3 +232,4 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

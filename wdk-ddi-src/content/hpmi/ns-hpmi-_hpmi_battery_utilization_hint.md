@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hpmi.h
 api_name:
+ - _HPMI_BATTERY_UTILIZATION_HINT
+ - PHPMI_BATTERY_UTILIZATION_HINT
  - HPMI_BATTERY_UTILIZATION_HINT
 ---
 
@@ -76,3 +78,4 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 <a href="/windows-hardware/drivers/ddi/hpmi/ni-hpmi-ioctl_hpmi_battery_utilization_hint">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 <a href="/windows-hardware/drivers/ddi/hpmi/index">hpmi.h</a>
+

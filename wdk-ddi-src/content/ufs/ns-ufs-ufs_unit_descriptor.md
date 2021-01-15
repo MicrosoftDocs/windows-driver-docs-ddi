@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_UNIT_DESCRIPTOR
  - UFS_UNIT_DESCRIPTOR
 ---
 
@@ -167,3 +168,4 @@ Specifies the boot LUN id.
 
 
 <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>
+

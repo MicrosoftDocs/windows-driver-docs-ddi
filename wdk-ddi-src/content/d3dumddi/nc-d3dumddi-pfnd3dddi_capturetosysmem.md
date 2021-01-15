@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CaptureToSysMem
+ - PFND3DDDI_CAPTURETOSYSMEM
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ The <b>CaptureToSysMem</b> function is similar to the <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

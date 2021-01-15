@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetProcessIdByPeb
- - IDebugSystemObjects2.GetProcessIdByPeb
- - IDebugSystemObjects3.GetProcessIdByPeb
- - IDebugSystemObjects4.GetProcessIdByPeb
+ - IDebugSystemObjects2::GetProcessIdByPeb
 ---
 
 # IDebugSystemObjects2::GetProcessIdByPeb
@@ -100,3 +97,4 @@ The target is a kernel-mode target.  This method is currently not available in k
 This method is not available in kernel-mode debugging.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

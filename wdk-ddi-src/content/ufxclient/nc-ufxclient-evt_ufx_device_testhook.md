@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - EVT_UFX_DEVICE_TESTHOOK callback
+ - EVT_UFX_DEVICE_TESTHOOK
 ---
 
 # EVT_UFX_DEVICE_TESTHOOK callback function

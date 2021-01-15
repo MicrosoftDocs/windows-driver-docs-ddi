@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSendPacket
+ - DOT11EXT_SEND_PACKET
 ---
 
 # DOT11EXT_SEND_PACKET callback
@@ -169,3 +169,4 @@ This packet data is passed to the miniport driver.
 
 
 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 MAC Header Management</a>
+

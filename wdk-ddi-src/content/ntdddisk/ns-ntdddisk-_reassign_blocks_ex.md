@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _REASSIGN_BLOCKS_EX
+ - PREASSIGN_BLOCKS_EX
  - REASSIGN_BLOCKS_EX
 ---
 
@@ -68,3 +70,4 @@ Contains an array of block numbers corresponding to damaged blocks. These number
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+

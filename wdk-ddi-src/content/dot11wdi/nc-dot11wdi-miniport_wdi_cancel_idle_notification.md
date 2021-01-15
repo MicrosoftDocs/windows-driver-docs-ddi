@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiCancelIdleNotification
+ - MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION
 ---
 
 # MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback function
@@ -61,3 +61,4 @@ The handle to the context area that the miniport driver allocated.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
