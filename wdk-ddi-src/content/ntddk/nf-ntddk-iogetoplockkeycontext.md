@@ -38,7 +38,7 @@ api_location:
  - ntoskrnl.lib
  - ntoskrnl.dll
 api_name:
- - IoGetOplockKeyContextEx
+ - IoGetOplockKeyContext
 ---
 
 # IoGetOplockKeyContext function
@@ -77,3 +77,4 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 
 <a href="/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a>
+

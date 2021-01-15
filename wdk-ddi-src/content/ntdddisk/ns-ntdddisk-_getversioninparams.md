@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _GETVERSIONINPARAMS
+ - PGETVERSIONINPARAMS
  - GETVERSIONINPARAMS
 ---
 
@@ -204,3 +206,4 @@ Reserved.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a>
+

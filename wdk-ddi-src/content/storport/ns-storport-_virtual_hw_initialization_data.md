@@ -41,10 +41,13 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _VIRTUAL_HW_INITIALIZATION_DATA
+ - PVIRTUAL_HW_INITIALIZATION_DATA
  - VIRTUAL_HW_INITIALIZATION_DATA
 ---
 
 # VIRTUAL_HW_INITIALIZATION_DATA structure
+
 
 ## -description
 
@@ -228,3 +231,4 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 [**HwStorStartIo**](nc-storport-hw_startio.md)
 
 [**VirtualHwStorFindAdapter**](nc-storport-virtual_hw_find_adapter.md)
+

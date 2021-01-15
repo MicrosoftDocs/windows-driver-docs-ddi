@@ -37,11 +37,11 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterInitializer.Value
- - IPrintSchemaParameterInitializer.get_Value
+ - IPrintSchemaParameterInitializer::get_Value
 ---
 
 # IPrintSchemaParameterInitializer::get_Value
+
 
 ## -description
 
@@ -66,3 +66,4 @@ The **Value** (get_Value) property returns the current value of the **IPrintSche
 ## -see-also
 
 [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md)
+

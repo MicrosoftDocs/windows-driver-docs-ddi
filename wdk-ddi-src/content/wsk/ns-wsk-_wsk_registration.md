@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_REGISTRATION
+ - PWSK_REGISTRATION
  - WSK_REGISTRATION
 ---
 
@@ -74,3 +76,4 @@ This structure is provided by a client application to register or unregister a W
 For more information about attaching a WSK application to the WSK subsystem, see 
     <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
+

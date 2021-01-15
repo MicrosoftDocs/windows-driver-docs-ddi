@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2ZRANGE
  - D3DHAL_DP2ZRANGE
 ---
 
@@ -62,3 +63,4 @@ Specifies the maximum z value for the Mvs matrix described in the <a href="/wind
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_OPC_INFO_TYPE
+ - PCDROM_OPC_INFO_TYPE
  - CDROM_OPC_INFO_TYPE
 ---
 
@@ -64,3 +66,4 @@ Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia C
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_send_opc_information">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
+

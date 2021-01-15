@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFActions2.Clear
+ - IWDTFActions2::Clear
 ---
 
 # IWDTFActions2::Clear

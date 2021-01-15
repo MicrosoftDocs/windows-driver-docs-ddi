@@ -39,6 +39,7 @@ api_type:
 api_location:
  - UcxController.h
 api_name:
+ - _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
  - UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 ---
 
@@ -76,3 +77,4 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_set_transport_characteristics_change_notification">EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a>
+

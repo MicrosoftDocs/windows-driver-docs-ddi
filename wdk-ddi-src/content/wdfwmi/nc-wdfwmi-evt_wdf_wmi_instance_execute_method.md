@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfWMI.h
 api_name:
- - EvtWmiInstanceExecuteMethod
+ - EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD
 ---
 
 # EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback function
@@ -118,3 +118,4 @@ For more information about the <i>EvtWmiInstanceExecuteMethod</i> callback funct
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
+

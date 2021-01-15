@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.GetNumEndPoints
+ - IWDFUsbInterface::GetNumEndPoints
 ---
 
 # IWDFUsbInterface::GetNumEndPoints
@@ -93,7 +93,6 @@ The following code example retrieves the number of pipes on a USB interface and 
           }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
@@ -105,3 +104,4 @@ The following code example retrieves the number of pipes on a USB interface and 
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>
+

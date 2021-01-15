@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_POFX_COMPONENT_IDLE_STATE
+ - PSTOR_POFX_COMPONENT_IDLE_STATE
  - STOR_POFX_COMPONENT_IDLE_STATE
 ---
 
@@ -82,3 +84,4 @@ When the miniport driver registers a device with the Storport power management f
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a>
+

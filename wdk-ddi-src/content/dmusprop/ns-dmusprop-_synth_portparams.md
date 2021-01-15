@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTH_PORTPARAMS
+ - PSYNTH_PORTPARAMS
  - SYNTH_PORTPARAMS
 ---
 
@@ -148,3 +150,4 @@ A <a href="/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS
 ## -see-also
 
 <a href="/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
+

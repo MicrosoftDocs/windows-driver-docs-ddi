@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
- - SetVpp
+ - PCMCIA_SET_VPP
 ---
 
 # PCMCIA_SET_VPP callback function
@@ -98,3 +98,4 @@ Callers of this routine can run at IRQL <= DISPATCH_LEVEL. To maintain overall s
 
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+

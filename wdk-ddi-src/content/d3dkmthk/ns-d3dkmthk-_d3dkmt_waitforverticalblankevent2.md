@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_WAITFORVERTICALBLANKEVENT2
  - D3DKMT_WAITFORVERTICALBLANKEVENT2
 ---
 

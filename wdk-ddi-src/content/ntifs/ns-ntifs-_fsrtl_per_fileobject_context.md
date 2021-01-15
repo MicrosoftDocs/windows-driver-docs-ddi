@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_PER_FILEOBJECT_CONTEXT
+ - PFSRTL_PER_FILEOBJECT_CONTEXT
  - FSRTL_PER_FILEOBJECT_CONTEXT
 ---
 
@@ -240,3 +242,4 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlremoveperfileobjectcontext">FsRtlRemovePerFileObjectContext</a>
+

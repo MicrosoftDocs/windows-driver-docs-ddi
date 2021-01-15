@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - scsi
  - scsi/scsi
+api_name:
+ - scsi
 ---
 
 # Scsi.h header

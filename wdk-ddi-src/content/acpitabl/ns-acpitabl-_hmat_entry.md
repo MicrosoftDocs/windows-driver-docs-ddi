@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _HMAT_ENTRY
+ - PHMAT_ENTRY
+ - HMAT_ENTRY
 ---
 
 # _HMAT_ENTRY structure
+
 
 ## -description
 
@@ -151,3 +154,4 @@ A ULONG value containing the size of the table.
 ## -remarks
 
 ## -see-also
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_ENTRY
+ - PWWAN_DEVICE_SERVICE_ENTRY
  - WWAN_DEVICE_SERVICE_ENTRY
 ---
 
@@ -72,3 +74,4 @@ Device service OIDs and NDIS Status Notifications use the device service's GUID 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_device_service_session_capability">WWAN_DEVICE_SERVICE_SESSION_CAPABILITY</a>
+

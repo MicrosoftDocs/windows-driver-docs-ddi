@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PPOPULATE_TOKEN_HEADER
  - POPULATE_TOKEN_HEADER
 ---
 
@@ -92,3 +93,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+

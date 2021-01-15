@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - AttemptRecovery
+ - PSHED_PI_ATTEMPT_ERROR_RECOVERY
 ---
 
 # PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function
@@ -130,3 +130,4 @@ The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IR
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

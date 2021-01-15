@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
+ - PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
  - FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
 ---
 
@@ -94,3 +96,4 @@ Devices that support this feature can only write on block boundaries. These devi
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netconfiguration
  - netconfiguration/netconfiguration
+api_name:
+ - netconfiguration
 ---
 
 # Netconfiguration.h header

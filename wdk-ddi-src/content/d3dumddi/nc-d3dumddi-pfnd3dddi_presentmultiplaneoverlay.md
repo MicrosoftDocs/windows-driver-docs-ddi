@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnPresentMultiPlaneOverlay
+ - PFND3DDDI_PRESENTMULTIPLANEOVERLAY
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ When the user-mode display driver successfully completes its processing of a cal
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlaycb">pfnPresentMultiPlaneOverlayCb (D3D)</a>
+

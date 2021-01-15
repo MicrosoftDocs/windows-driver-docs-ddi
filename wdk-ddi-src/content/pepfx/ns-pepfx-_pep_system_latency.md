@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_SYSTEM_LATENCY
+ - PPEP_SYSTEM_LATENCY
  - PEP_SYSTEM_LATENCY
 ---
 
@@ -64,3 +66,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_system_latency">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>
+

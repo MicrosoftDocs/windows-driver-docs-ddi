@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_REMOVE_LOCK_OPTIONS
+ - PWDF_REMOVE_LOCK_OPTIONS
  - WDF_REMOVE_LOCK_OPTIONS
 ---
 
@@ -75,3 +77,4 @@ The bitwise <b>OR</b> of values from the <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetremovelockoptions">WdfDeviceInitSetRemoveLockOptions</a>
+

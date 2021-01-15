@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFNumbers2.Remove
+ - IWDTFNumbers2::Remove
 ---
 
 # IWDTFNumbers2::Remove
@@ -61,3 +61,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfnumbers2">IWDTFNumbers2</a>
+

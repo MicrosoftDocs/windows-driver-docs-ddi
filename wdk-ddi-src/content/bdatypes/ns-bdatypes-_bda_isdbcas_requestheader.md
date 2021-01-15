@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_ISDBCAS_REQUESTHEADER
+ - PBDA_ISDBCAS_REQUESTHEADER
  - BDA_ISDBCAS_REQUESTHEADER
 ---
 

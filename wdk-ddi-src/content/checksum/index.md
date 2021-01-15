@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - checksum
  - checksum/checksum
+api_name:
+ - checksum
 ---
 
 # Checksum.h header

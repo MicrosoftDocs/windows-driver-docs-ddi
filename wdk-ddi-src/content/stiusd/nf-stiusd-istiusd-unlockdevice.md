@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Stiusd.h
 api_name:
- - IStiUSD.UnLockDevice
+ - IStiUSD::UnLockDevice
 ---
 
 # IStiUSD::UnLockDevice
@@ -62,3 +62,4 @@ If a driver's <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lo
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
  - STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
 product:
  - Windows
@@ -80,3 +82,4 @@ The miniport uses [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-st
 [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-storage_endurance_data_descriptor.md)
 
 [STORAGE_HW_ENDURANCE_INFO](ns-ntddstor-storage_hw_endurance_info.md)
+

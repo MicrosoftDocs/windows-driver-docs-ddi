@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_UPDATE_SA
+ - PIPSEC_OFFLOAD_V2_UPDATE_SA
  - IPSEC_OFFLOAD_V2_UPDATE_SA
 ---
 
@@ -112,3 +114,4 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+

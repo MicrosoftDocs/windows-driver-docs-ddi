@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_SERIAL_NUMBER
+ - PAACS_SERIAL_NUMBER
  - AACS_SERIAL_NUMBER
 ---
 
@@ -68,3 +70,4 @@ Clients retrieve the AACS serial number with an <a href="/windows-hardware/drive
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_serial_number">IOCTL_AACS_READ_SERIAL_NUMBER</a>
+

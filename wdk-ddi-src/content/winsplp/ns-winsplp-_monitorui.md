@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITORUI
+ - PMONITORUI
  - MONITORUI
 ---
 
@@ -70,3 +72,4 @@ All structure members must be initialized by the port monitor UI DLL. The struct
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a>
+

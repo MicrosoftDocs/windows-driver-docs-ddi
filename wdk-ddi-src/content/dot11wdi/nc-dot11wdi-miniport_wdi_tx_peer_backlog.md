@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxPeerBacklog
+ - MINIPORT_WDI_TX_PEER_BACKLOG
 ---
 
 # MINIPORT_WDI_TX_PEER_BACKLOG callback function
@@ -91,3 +91,4 @@ The backlog state.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
+

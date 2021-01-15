@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnGetMultisampleMethodListCb
+ - PFND3DDDI_GETMULTISAMPLEMETHODLISTCB
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ The user-mode display driver typically uses the <b>pfnGetMultisampleMethodListCb
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

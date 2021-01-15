@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.Evaluate
- - IDebugControl2.Evaluate
- - IDebugControl3.Evaluate
+ - IDebugControl2::Evaluate
 ---
 
 # IDebugControl2::Evaluate
@@ -135,3 +133,4 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
+

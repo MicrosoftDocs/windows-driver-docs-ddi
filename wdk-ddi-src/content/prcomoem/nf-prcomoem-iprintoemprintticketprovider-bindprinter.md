@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.BindPrinter
+ - IPrintOemPrintTicketProvider::BindPrinter
 ---
 
 # IPrintOemPrintTicketProvider::BindPrinter
@@ -146,3 +146,4 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-getsupportedversions">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
+

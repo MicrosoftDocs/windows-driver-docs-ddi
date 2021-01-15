@@ -40,6 +40,7 @@ api_location:
  - Windot11.h
 api_name:
  - DOT11_EXTSTA_ATTRIBUTES
+ - PDOT11_EXTSTA_ATTRIBUTES
 product:
  - Windows 10 or later.
 ---
@@ -578,3 +579,4 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+

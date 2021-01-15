@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
+ - PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
  - KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
 ---
 
@@ -62,3 +64,4 @@ The AttributeHeader member specifies the attribute header using a <a href="/wind
 ### -field SignalProcessingMode
 
 The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
+

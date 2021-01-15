@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY
+ - PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY
  - DOT11EXT_VIRTUAL_STATION_AP_PROPERTY
 ---
 
@@ -141,3 +143,4 @@ If
 
 
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+

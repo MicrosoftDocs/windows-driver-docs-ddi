@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_MAC_PACKET_TYPE
+ - PNDIS_MAC_PACKET_TYPE
  - NDIS_MAC_PACKET_TYPE
 ---
 
@@ -84,3 +86,4 @@ The <b>NDIS_MAC_PACKET_TYPE</b> enumeration is used in the
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - GetScatterGatherList
+ - PGET_SCATTER_GATHER_LIST
 ---
 
 # PGET_SCATTER_GATHER_LIST callback function
@@ -177,3 +177,4 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

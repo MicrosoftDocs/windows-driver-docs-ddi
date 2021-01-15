@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _PPTT
+ - PPPTT
+ - PPTT
 ---
 
 # _PPTT structure
+
 
 ## -description
 
@@ -53,3 +56,4 @@ Defines the Processor Properties Topology Table (PPTT) structure.
 ## -remarks
 
 ## -see-also
+

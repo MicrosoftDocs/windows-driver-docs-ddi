@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortWavePci.Notify
+ - IPortWavePci::Notify
 ---
 
 # IPortWavePci::Notify
@@ -79,3 +79,4 @@ The <i>ServiceGroup</i> parameter follows the <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+

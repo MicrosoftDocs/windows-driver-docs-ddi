@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_PORTATTRIBUTES
+ - PMS_SMHBA_PORTATTRIBUTES
  - MS_SMHBA_PORTATTRIBUTES
 ---
 

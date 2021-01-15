@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskSocketConnect
+ - PFN_WSK_SOCKET_CONNECT
 ---
 
 # PFN_WSK_SOCKET_CONNECT callback function
@@ -305,3 +305,4 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

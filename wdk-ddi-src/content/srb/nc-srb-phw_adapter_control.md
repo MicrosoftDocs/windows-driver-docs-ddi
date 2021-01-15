@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_ADAPTER_CONTROL)
+ - PHW_ADAPTER_CONTROL
 ---
 
 # PHW_ADAPTER_CONTROL callback
@@ -84,3 +84,4 @@ For more information about the adapter control routine that is used with the Sto
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+

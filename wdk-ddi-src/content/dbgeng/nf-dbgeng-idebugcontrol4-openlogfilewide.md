@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.OpenLogFileWide
+ - IDebugControl4::OpenLogFileWide
 ---
 
 # IDebugControl4::OpenLogFileWide
@@ -120,3 +120,4 @@ For more information about log files, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setlogmask">SetLogMask</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
- - IsWriteProtected
+ - PCMCIA_IS_WRITE_PROTECTED
 ---
 
 # PCMCIA_IS_WRITE_PROTECTED callback function
@@ -71,3 +71,4 @@ Callers of this routine must be running at IRQL <= DISPATCH_LEVEL. To maintain o
 
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>
+

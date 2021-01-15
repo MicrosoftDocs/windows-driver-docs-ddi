@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARG_RESETENGINE
  - DXGKARG_RESETENGINE
 ---
 
@@ -70,3 +71,4 @@ For more information, see <a href="/windows-hardware/drivers/display/tdr-changes
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
+

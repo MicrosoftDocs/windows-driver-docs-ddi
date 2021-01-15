@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_FIXDATA_BASIC
  - GNSS_FIXDATA_BASIC
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DOCUMENTPROPERTYHEADER
+ - PDOCUMENTPROPERTYHEADER
  - DOCUMENTPROPERTYHEADER
 ---
 
@@ -213,3 +215,4 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>
+

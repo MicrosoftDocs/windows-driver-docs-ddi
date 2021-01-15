@@ -37,7 +37,7 @@ api_type:
 api_location:
  - udecxusbdevice.h
 api_name:
- - EvtUsbDeviceLinkPowerEntry
+ - EVT_UDECX_USB_DEVICE_D0_ENTRY
 ---
 
 # EVT_UDECX_USB_DEVICE_D0_ENTRY callback function
@@ -90,3 +90,4 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

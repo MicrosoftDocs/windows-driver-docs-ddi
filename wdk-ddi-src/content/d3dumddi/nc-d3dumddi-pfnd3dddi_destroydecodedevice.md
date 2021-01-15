@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyDecodeDevice
+ - PFND3DDDI_DESTROYDECODEDEVICE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <b>DestroyDecodeDevice</b> function notifies the driver to destroy the handl
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

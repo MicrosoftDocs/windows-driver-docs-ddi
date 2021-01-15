@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl.UnbindDevice
+ - IBidiSpl::UnbindDevice
 ---
 
 # IBidiSpl::UnbindDevice
@@ -102,3 +102,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
+

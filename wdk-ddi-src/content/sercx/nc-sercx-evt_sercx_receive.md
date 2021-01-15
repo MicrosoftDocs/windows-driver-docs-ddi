@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxReceive
+ - EVT_SERCX_RECEIVE
 ---
 
 # EVT_SERCX_RECEIVE callback function
@@ -119,3 +119,4 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _SET_CMP_ADDRESS_TYPE
+ - PSET_CMP_ADDRESS_TYPE
  - SET_CMP_ADDRESS_TYPE
 ---
 

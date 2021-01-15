@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
- - pfnPresentMultiPlaneOverlayCb
+ - PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB
 ---
 
 # PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback function
@@ -74,3 +74,4 @@ When the user-mode display driver successfully completes its processing of a cal
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+

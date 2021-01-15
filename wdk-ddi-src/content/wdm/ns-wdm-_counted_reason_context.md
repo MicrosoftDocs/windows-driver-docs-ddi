@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _COUNTED_REASON_CONTEXT
+ - PCOUNTED_REASON_CONTEXT
  - COUNTED_REASON_CONTEXT
 ---
 
@@ -110,3 +112,4 @@ The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localiz
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+

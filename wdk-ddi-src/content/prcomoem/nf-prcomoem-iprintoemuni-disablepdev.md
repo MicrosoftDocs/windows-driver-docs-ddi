@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUni.DisablePDEV
+ - IPrintOemUni::DisablePDEV
 ---
 
 # IPrintOemUni::DisablePDEV
@@ -91,3 +91,4 @@ The operation failed
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DisablePDEV</code> method.
 
 The <code>IPrintOemUni::DisablePDEV</code> method performs the same types of operations as the <a href="/windows/win32/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a> function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's <b>pdevOEM</b> member. This PDEV structure is one that was allocated by the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> method.
+

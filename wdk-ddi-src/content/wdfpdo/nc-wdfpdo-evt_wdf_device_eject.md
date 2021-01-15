@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceEject
+ - EVT_WDF_DEVICE_EJECT
 ---
 
 # EVT_WDF_DEVICE_EJECT callback function
@@ -75,3 +75,4 @@ For more information about device ejection, see <a href="/windows-hardware/drive
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_set_lock">EvtDeviceSetLock</a>
+

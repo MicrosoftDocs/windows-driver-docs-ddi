@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetNumPathsFromSource
+ - DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths">pfnGetNumPaths</a>
+

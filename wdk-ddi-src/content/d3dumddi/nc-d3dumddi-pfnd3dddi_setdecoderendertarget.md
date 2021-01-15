@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetDecodeRenderTarget
+ - PFND3DDDI_SETDECODERENDERTARGET
 product:
  - Windows
 ---
@@ -103,3 +103,4 @@ Decode render targets are always created atomically through calls to the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeendframe">DecodeEndFrame</a>
+

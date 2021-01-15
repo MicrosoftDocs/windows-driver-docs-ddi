@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_SEND_INVITATION_REQUEST_PARAMETERS
+ - PDOT11_SEND_INVITATION_REQUEST_PARAMETERS
  - DOT11_SEND_INVITATION_REQUEST_PARAMETERS
 product:
  - Windows 10 or later.
@@ -158,3 +160,4 @@ typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
 
 
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-invitation-request-send-complete">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a>
+

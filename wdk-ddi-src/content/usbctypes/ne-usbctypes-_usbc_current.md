@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_CURRENT
+ - USBC_CURRENT
 ---
 
 # _USBC_CURRENT enumeration

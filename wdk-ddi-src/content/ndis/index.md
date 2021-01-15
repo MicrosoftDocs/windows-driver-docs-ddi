@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ndis
  - ndis/ndis
+api_name:
+ - ndis
 ---
 
 # Ndis.h header

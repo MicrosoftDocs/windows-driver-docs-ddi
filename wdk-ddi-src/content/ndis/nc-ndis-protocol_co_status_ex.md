@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCoStatusEx
+ - PROTOCOL_CO_STATUS_EX
 ---
 
 # PROTOCOL_CO_STATUS_EX callback function
@@ -137,3 +137,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
+

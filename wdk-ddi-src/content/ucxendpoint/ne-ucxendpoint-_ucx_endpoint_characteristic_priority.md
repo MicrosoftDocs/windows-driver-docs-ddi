@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
+ - _UCX_ENDPOINT_CHARACTERISTIC_PRIORITY
  - UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
 ---
 
@@ -70,3 +71,4 @@ Bulk endpoint with interactive has the priority.
 ## -see-also
 
 <a href="/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_BufferDescription
+ - LPDXVA_BufferDescription
  - DXVA_BufferDescription
 ---
 
@@ -143,3 +145,4 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_sliceinfo">DXVA_SliceInfo</a>
+

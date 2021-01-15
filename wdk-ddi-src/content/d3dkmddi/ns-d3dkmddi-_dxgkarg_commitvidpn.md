@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_COMMITVIDPN
  - DXGKARG_COMMITVIDPN
 ---
 
@@ -82,3 +83,4 @@ The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>
+

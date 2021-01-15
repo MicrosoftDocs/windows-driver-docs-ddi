@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddcdvd
  - ntddcdvd/ntddcdvd
+api_name:
+ - ntddcdvd
 ---
 
 # Ntddcdvd.h header

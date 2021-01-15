@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets
- - IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
- - IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
+ - IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets
 ---
 
 # IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets
@@ -113,3 +111,4 @@ Translating a virtual address to a physical address requires Windows  to walk do
 The address at the last level of the hierarchy is the physical address corresponding to the specified virtual address.  This is what <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-virtualtophysical">VirtualToPhysical</a> would return.
 
 For details on how virtual addresses are translated into physical addresses, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

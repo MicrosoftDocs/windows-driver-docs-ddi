@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - HDAudioTransferCompleteCallback
+ - PHDAUDIO_TRANSFER_COMPLETE_CALLBACK
 ---
 
 # PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback function
@@ -69,3 +69,4 @@ For more information, see <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdau
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
+

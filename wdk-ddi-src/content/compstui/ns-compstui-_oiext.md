@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _OIEXT
+ - POIEXT
  - OIEXT
 ---
 
@@ -93,3 +95,4 @@ Pointer to a NULL-terminated string representing a path to a help file containin
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
+

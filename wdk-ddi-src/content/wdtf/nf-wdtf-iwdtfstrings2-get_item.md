@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFStrings2.Item
- - IWDTFStrings2.get_Item
+ - IWDTFStrings2::get_Item
 ---
 
 # IWDTFStrings2::get_Item
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfstrings2">IWDTFStrings2</a>
+

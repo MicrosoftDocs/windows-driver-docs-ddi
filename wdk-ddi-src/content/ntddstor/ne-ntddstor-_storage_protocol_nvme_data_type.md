@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_NVME_DATA_TYPE
+ - PSTORAGE_PROTOCOL_NVME_DATA_TYPE
  - STORAGE_PROTOCOL_NVME_DATA_TYPE
 ---
 
 # _STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration
+
 
 ## -description
 
@@ -100,3 +103,4 @@ To specify a type of NVMe protocol-specific information,  configure the [**STORA
 [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
 [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md)
+

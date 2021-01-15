@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.HasUnnamedArg
+ - ExtExtension::HasUnnamedArg
 ---
 
 # ExtExtension::HasUnnamedArg
@@ -71,3 +71,4 @@ This method should only be called during the execution of an extension command p
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff548001(v=vs.85)">GetNumUnnamedArgs</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IAllocatorMXF.GetBufferSize
+ - IAllocatorMXF::GetBufferSize
 ---
 
 # IAllocatorMXF::GetBufferSize
@@ -62,3 +62,4 @@ The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a>
+

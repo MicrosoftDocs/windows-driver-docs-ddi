@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetPriority
+ - PFND3DDDI_SETPRIORITY
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ The Microsoft Direct3D runtime calls <i>SetPriority</i> to set the priority leve
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setprioritycb">pfnSetPriorityCb</a>
+

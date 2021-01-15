@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkGetCqResults
+ - NDK_FN_GET_CQ_RESULTS
 ---
 
 # NDK_FN_GET_CQ_RESULTS callback function
@@ -89,3 +89,4 @@ Zero means there were no completions in the CQ.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+

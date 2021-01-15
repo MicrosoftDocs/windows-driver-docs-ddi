@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvProcessSessionChange
+ - DOT11EXTIHV_PROCESS_SESSION_CHANGE
 ---
 
 # DOT11EXTIHV_PROCESS_SESSION_CHANGE callback
@@ -191,3 +191,4 @@ If the
     <i>uEventType</i> parameter is set to WTS_SESSION_LOGOFF, the IHV Extensions DLL must cancel all pending
     user interface requests internally and must release any allocated resources for the user interface
     requests.
+

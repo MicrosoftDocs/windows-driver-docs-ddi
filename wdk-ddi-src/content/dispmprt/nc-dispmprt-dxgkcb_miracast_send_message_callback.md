@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkCbMiracastSendMessageCallback
+ - DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
 ---
 
 # DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK callback function
@@ -74,3 +74,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>
+

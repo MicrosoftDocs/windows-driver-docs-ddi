@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
+ - IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
@@ -67,3 +67,4 @@ code.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndisndk.h
 api_name:
- - CloseNdkAdapterHandler
+ - CLOSE_NDK_ADAPTER_HANDLER
 ---
 
 # CLOSE_NDK_ADAPTER_HANDLER callback function
@@ -79,3 +79,4 @@ The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidFindAdapter
+ - PVIDEO_HW_FIND_ADAPTER
 ---
 
 # PVIDEO_HW_FIND_ADAPTER callback function
@@ -222,3 +222,4 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
+

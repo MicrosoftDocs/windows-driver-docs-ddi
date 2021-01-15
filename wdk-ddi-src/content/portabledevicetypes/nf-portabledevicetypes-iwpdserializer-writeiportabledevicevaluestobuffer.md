@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IWpdSerializer.WriteIPortableDeviceValuesToBuffer
+ - IWpdSerializer::WriteIPortableDeviceValuesToBuffer
 ---
 
 # IWpdSerializer::WriteIPortableDeviceValuesToBuffer
@@ -121,3 +121,4 @@ This method copies an <b>IPortableDeviceValues</b> interface into an existing bu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
+

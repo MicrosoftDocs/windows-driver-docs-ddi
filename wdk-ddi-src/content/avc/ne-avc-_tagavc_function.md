@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _tagAVC_FUNCTION
  - AVC_FUNCTION
 ---
 
@@ -186,3 +187,4 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 <a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_unique_id">AVC_UNIQUE_ID</a>
+

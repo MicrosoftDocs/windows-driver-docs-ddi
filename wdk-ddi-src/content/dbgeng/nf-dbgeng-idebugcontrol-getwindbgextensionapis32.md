@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetWindbgExtensionApis32
- - IDebugControl2.GetWindbgExtensionApis32
- - IDebugControl3.GetWindbgExtensionApis32
+ - IDebugControl::GetWindbgExtensionApis32
 ---
 
 # IDebugControl::GetWindbgExtensionApis32
@@ -116,3 +114,4 @@ For a list of the functions provided by the WdbgExts API, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/debugger/wdbgexts-functions">WdbgExts Functions</a>
+

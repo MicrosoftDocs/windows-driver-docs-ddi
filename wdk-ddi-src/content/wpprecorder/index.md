@@ -12,6 +12,8 @@ tech.root: devtest
 f1_keywords:
  - wpprecorder
  - wpprecorder/wpprecorder
+api_name:
+ - wpprecorder
 ---
 
 # Wpprecorder.h header

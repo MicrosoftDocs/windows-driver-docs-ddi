@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequest.GetOutputData
+ - IBidiRequest::GetOutputData
 ---
 
 # IBidiRequest::GetOutputData
@@ -237,3 +237,4 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+

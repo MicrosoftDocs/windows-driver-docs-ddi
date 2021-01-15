@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
  - PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 ---
 
@@ -155,3 +157,4 @@ A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every e
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_serial_number_capability">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
+

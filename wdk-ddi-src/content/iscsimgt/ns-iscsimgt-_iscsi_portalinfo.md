@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_PortalInfo
+ - PISCSI_PortalInfo
  - ISCSI_PortalInfo
 ---
 
@@ -119,3 +121,4 @@ The portal group tag to which the portal belongs.
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-portalinfo-wmi-class">ISCSI_PortalInfo WMI Class</a>
+

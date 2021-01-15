@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdmaenabler.h
 api_name:
+ - _WDF_DMA_SYSTEM_PROFILE_CONFIG
+ - PWDF_DMA_SYSTEM_PROFILE_CONFIG
  - WDF_DMA_SYSTEM_PROFILE_CONFIG
 ---
 
@@ -99,3 +101,4 @@ If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the fram
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a>
+

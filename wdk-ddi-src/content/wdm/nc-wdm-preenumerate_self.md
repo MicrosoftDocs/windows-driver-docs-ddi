@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - ReenumerateSelf
+ - PREENUMERATE_SELF
 ---
 
 # PREENUMERATE_SELF callback function
@@ -75,3 +75,4 @@ If the bus driver can process the request at the time of the routine call, the b
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reenumerate_self_interface_standard">REENUMERATE_SELF_INTERFACE_STANDARD</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEODECODER_S
  - KSPROPERTY_VIDEODECODER_S
 ---
 
@@ -78,3 +79,4 @@ The KSPROPERTY_VIDEODECODER_S structure is shared among the KSPROPERTY_VIDEODECO
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-vcr-timing">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
+

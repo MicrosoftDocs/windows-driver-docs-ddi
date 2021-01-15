@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPHONEBOOKENTRY
+ - LPRILPHONEBOOKENTRY
 ---
 
 # RILPHONEBOOKENTRY structure (rilapitypes.h)

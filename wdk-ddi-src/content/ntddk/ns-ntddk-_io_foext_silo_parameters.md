@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _IO_FOEXT_SILO_PARAMETERS
+ - PIO_FOEXT_SILO_PARAMETERS
  - IO_FOEXT_SILO_PARAMETERS
 ---
 
@@ -66,3 +68,4 @@ The length of the structure. This also serves as the structure version.
 ### -field SiloContext
 
 The container context.
+

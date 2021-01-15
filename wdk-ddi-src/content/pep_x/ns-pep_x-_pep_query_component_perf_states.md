@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_COMPONENT_PERF_STATES
+ - PPEP_QUERY_COMPONENT_PERF_STATES
  - PEP_QUERY_COMPONENT_PERF_STATES
 ---
 
@@ -88,3 +90,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_perf_state">PEP_PERF_STATE</a>
+

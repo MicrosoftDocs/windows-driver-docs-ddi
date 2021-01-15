@@ -34,6 +34,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_GPUCLOCKDATA_FLAGS
+ - DXGK_GPUCLOCKDATA_FLAGS
 dev_langs:
  - c++
 ---

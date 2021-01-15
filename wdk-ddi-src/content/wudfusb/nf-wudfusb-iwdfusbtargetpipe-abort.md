@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.Abort
+ - IWDFUsbTargetPipe::Abort
 ---
 
 # IWDFUsbTargetPipe::Abort
@@ -108,3 +108,4 @@ For more information about how <b>Abort</b> works, see the <a href="/windows/win
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_abortpipe">WinUsb_AbortPipe</a>
+

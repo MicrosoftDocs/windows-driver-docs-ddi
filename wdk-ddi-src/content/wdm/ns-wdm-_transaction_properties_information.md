@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTION_PROPERTIES_INFORMATION
+ - PTRANSACTION_PROPERTIES_INFORMATION
  - TRANSACTION_PROPERTIES_INFORMATION
 ---
 
@@ -100,3 +102,4 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a>
+

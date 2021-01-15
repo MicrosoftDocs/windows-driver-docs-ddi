@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsControl.KsEvent
+ - IKsControl::KsEvent
 ---
 
 # IKsControl::KsEvent (ks.h)
@@ -84,3 +84,4 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a>
+

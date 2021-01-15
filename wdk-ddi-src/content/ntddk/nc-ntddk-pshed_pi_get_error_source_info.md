@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - GetErrorSourceInfo
+ - PSHED_PI_GET_ERROR_SOURCE_INFO
 ---
 
 # PSHED_PI_GET_ERROR_SOURCE_INFO callback function
@@ -115,3 +115,4 @@ If a PSHED plug-in is registered to participate in error source discovery and it
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

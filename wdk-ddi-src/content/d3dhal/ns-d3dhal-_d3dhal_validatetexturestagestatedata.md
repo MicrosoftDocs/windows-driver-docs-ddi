@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_VALIDATETEXTURESTAGESTATEDATA
  - D3DHAL_VALIDATETEXTURESTAGESTATEDATA
 ---
 
@@ -74,3 +75,4 @@ Specifies the location where the driver writes the return value of the <a href="
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_validatetexturestagestatecb">D3dValidateTextureStageState</a>
+

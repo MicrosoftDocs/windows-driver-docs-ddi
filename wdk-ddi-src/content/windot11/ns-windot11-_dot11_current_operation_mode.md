@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_CURRENT_OPERATION_MODE
+ - PDOT11_CURRENT_OPERATION_MODE
  - DOT11_CURRENT_OPERATION_MODE
 product:
  - Windows 10 or later.
@@ -141,3 +143,4 @@ For more information about Native 802.11 operation modes, see
 
 <a href="/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
    OID_DOT11_CURRENT_OPERATION_MODE</a>
+

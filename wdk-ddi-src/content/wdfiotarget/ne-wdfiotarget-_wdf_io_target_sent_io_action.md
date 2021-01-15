@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfiotarget.h
 api_name:
+ - _WDF_IO_TARGET_SENT_IO_ACTION
  - WDF_IO_TARGET_SENT_IO_ACTION
 ---
 
@@ -84,3 +85,4 @@ For the UMDF version of this enumeration, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetstop">WdfIoTargetStop</a>
+

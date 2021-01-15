@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_FIRMWARE_TABLE_INTERFACE
+ - PDXGK_FIRMWARE_TABLE_INTERFACE
  - DXGK_FIRMWARE_TABLE_INTERFACE
 ---
 
@@ -247,3 +249,4 @@ A pointer to a value that receives the minimum size of the  buffer pointed to by
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">ReadSystemFirmwareTable</a>
+

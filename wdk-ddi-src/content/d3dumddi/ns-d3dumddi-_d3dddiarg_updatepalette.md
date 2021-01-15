@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_UPDATEPALETTE
  - D3DDDIARG_UPDATEPALETTE
 ---
 
@@ -70,3 +71,4 @@ The Microsoft Direct3D runtime passes palette data for updating to the <i>pPalet
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatepalette">UpdatePalette</a>
+

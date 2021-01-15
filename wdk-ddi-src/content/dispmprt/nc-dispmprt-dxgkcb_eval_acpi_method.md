@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbEvalAcpiMethod
+ - DXGKCB_EVAL_ACPI_METHOD
 ---
 
 # DXGKCB_EVAL_ACPI_METHOD callback function
@@ -186,3 +186,4 @@ if (HwDeviceExtension->AcpiChildren != NULL) {
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

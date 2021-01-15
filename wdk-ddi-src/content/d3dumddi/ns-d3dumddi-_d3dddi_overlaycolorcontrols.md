@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_OVERLAYCOLORCONTROLS
  - D3DDDI_OVERLAYCOLORCONTROLS
 ---
 
@@ -94,3 +95,4 @@ The D3DDDI_OVERLAYCOLORCONTROLS structure describes color-control settings for a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrolsflags">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a>
+

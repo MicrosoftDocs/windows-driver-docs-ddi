@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _ALTERNATE_INTERFACE
+ - PALTERNATE_INTERFACE
  - ALTERNATE_INTERFACE
 ---
 
@@ -64,3 +66,4 @@ The index number for the alternate USB interface setting.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>
+

@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILPOSITIONINFOUMTS
+ - LPRILPOSITIONINFOUMTS
 ---
 
 # RILPOSITIONINFOUMTS structure (rilapitypes.h)

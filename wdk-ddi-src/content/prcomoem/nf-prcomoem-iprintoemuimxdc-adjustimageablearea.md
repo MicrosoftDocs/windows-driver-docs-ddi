@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUIMXDC.AdjustImageableArea
+ - IPrintOemUIMXDC::AdjustImageableArea
 ---
 
 # IPrintOemUIMXDC::AdjustImageableArea
@@ -90,3 +90,4 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 
 <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
+

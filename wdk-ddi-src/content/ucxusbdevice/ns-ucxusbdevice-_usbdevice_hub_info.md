@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_HUB_INFO
+ - PUSBDEVICE_HUB_INFO
  - USBDEVICE_HUB_INFO
 ---
 
@@ -72,3 +74,4 @@ The ThinkTime property of the TT hub, filled by the client driver.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_hub_info">EVT_UCX_USBDEVICE_HUB_INFO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsDataTypeHandler.KsIsMediaTypeInRanges
+ - IKsDataTypeHandler::KsIsMediaTypeInRanges
 ---
 
 # IKsDataTypeHandler::KsIsMediaTypeInRanges
@@ -73,3 +73,4 @@ A client first calls the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-kspro
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a>
+

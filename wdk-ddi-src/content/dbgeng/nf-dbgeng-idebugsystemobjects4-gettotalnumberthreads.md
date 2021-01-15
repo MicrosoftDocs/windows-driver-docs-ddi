@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetTotalNumberThreads
- - IDebugSystemObjects2.GetTotalNumberThreads
- - IDebugSystemObjects3.GetTotalNumberThreads
- - IDebugSystemObjects4.GetTotalNumberThreads
+ - IDebugSystemObjects4::GetTotalNumberThreads
 ---
 
 # IDebugSystemObjects4::GetTotalNumberThreads
@@ -87,3 +84,4 @@ The method was successful.
 ## -remarks
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

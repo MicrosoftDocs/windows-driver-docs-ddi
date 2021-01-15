@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_ACCESS_BINARY
+ - PWWAN_UICC_ACCESS_BINARY
+ - WWAN_UICC_ACCESS_BINARY
 ---
 
 # _WWAN_UICC_ACCESS_BINARY structure
@@ -94,3 +96,4 @@ This structure is used in the [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-
 [OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
 
 [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_access_binary.md)
+

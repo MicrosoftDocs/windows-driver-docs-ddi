@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _ROOTHUB_30PORT_INFO_EX
+ - PROOTHUB_30PORT_INFO_EX
  - ROOTHUB_30PORT_INFO_EX
 ---
 
@@ -68,3 +70,4 @@ The count of bus speeds supported.
 ### -field Speeds
 
 A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1capability's sublink speed attributes. For structure declaration, see Usbspec.h
+

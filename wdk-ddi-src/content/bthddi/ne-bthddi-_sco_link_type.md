@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _SCO_LINK_TYPE
+ - PSCO_LINK_TYPE
  - SCO_LINK_TYPE
 ---
 
@@ -71,3 +73,4 @@ The
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
+

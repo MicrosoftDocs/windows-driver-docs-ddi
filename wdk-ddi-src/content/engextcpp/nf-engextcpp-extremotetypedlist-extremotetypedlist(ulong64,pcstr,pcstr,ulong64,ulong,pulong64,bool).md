@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTypedList.ExtRemoteTypedList
+ - ExtRemoteTypedList::ExtRemoteTypedList
 ---
 
 # ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
@@ -136,3 +136,4 @@ Specifies whether the list is singly-linked or doubly-linked.  If <i>Double</i> 
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+

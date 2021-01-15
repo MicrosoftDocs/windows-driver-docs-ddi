@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLS_SCAN_CONTEXT
+ - PCLS_SCAN_CONTEXT
  - CLS_SCAN_CONTEXT
 ---
 
@@ -127,3 +129,4 @@ The scan is closed. No containers are scanned.
 ### -field pinfoContainer
 
 A pointer to an array of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures. The <i>cContainers</i> parameter specifies the number of elements in this array.
+

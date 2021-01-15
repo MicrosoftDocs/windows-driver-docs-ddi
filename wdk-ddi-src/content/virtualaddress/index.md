@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - virtualaddress
  - virtualaddress/virtualaddress
+api_name:
+ - virtualaddress
 ---
 
 # Virtualaddress.h header

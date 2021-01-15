@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_CREATE_KEY_INFORMATION_V1
+ - PREG_CREATE_KEY_INFORMATION_V1
  - REG_CREATE_KEY_INFORMATION_V1
 ---
 
@@ -252,3 +254,4 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_PREPARE
+ - PTAPE_PREPARE
  - TAPE_PREPARE
 ---
 
@@ -135,3 +137,4 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniPrepare</a>
+

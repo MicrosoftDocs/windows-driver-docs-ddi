@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTOfferAllocations
+ - PFND3DKMT_OFFERALLOCATIONS
 ---
 
 # PFND3DKMT_OFFERALLOCATIONS callback function
@@ -72,3 +72,4 @@ Returns one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_offerallocations">D3DKMT_OFFERALLOCATIONS</a>
+

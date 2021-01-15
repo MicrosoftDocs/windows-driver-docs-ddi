@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.TTYGetInfo
+ - IPrintOemUni::TTYGetInfo
 ---
 
 # IPrintOemUni::TTYGetInfo
@@ -148,3 +148,4 @@ The method is not implemented.
 ## -remarks
 
 The <code>IPrintOemUni::TTYGetInfo</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TTYGetInfo" as input.
+

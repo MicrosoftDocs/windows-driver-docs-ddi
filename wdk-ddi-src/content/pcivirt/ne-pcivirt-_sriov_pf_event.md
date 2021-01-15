@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_PF_EVENT
+ - PSRIOV_PF_EVENT
  - SRIOV_PF_EVENT
 ---
 
@@ -82,3 +84,4 @@ typedef enum _SRIOV_PF_EVENT {
 
 
 <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a>
+

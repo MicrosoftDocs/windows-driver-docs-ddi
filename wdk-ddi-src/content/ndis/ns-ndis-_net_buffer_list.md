@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_LIST
+ - PNET_BUFFER_LIST
  - NET_BUFFER_LIST
 ---
 
@@ -601,3 +603,4 @@ For more information on how to use net buffers, see
 
 
 <a href="/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>
+

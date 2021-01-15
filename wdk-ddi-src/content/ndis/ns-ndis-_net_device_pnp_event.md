@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_DEVICE_PNP_EVENT
+ - PNET_DEVICE_PNP_EVENT
  - NET_DEVICE_PNP_EVENT
 ---
 
@@ -146,3 +148,4 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

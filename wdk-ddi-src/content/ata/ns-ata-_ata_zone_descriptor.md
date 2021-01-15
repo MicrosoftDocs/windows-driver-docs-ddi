@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ata.h
 api_name:
+ - _ATA_ZONE_DESCRIPTOR
+ - PATA_ZONE_DESCRIPTOR
  - ATA_ZONE_DESCRIPTOR
 ---
 

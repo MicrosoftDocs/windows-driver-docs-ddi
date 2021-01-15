@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _IPMI_OS_SEL_RECORD
+ - PIPMI_OS_SEL_RECORD
  - IPMI_OS_SEL_RECORD
 product:
  - Windows

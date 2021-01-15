@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _BUS_DATA_TYPE
+ - PBUS_DATA_TYPE
  - BUS_DATA_TYPE
 ---
 
@@ -124,3 +126,4 @@ Indicates the upper limit of the bus configuration space types.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalSetBusDataByOffset</a>
+

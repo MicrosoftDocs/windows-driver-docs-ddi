@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _GET_CHANGER_PARAMETERS
+ - PGET_CHANGER_PARAMETERS
  - GET_CHANGER_PARAMETERS
 ---
 
@@ -556,3 +558,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetparameters">ChangerGetParameters</a>
+

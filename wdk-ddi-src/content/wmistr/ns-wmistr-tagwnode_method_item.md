@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_METHOD_ITEM
+ - PWNODE_METHOD_ITEM
  - WNODE_METHOD_ITEM
 ---
 
@@ -90,3 +92,4 @@ If a method generates output, a driver overwrites the input data with the output
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

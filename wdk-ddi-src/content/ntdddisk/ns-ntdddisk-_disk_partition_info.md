@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_PARTITION_INFO
+ - PDISK_PARTITION_INFO
  - DISK_PARTITION_INFO
 ---
 
@@ -90,3 +92,4 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a>
+

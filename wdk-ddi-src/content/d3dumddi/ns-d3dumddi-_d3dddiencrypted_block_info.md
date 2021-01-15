@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIENCRYPTED_BLOCK_INFO
  - D3DDDIENCRYPTED_BLOCK_INFO
 ---
 
@@ -93,3 +94,4 @@ The following examples show how the runtime can partition a buffer's encryption.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decryptionblt">DecryptionBlt</a>
+

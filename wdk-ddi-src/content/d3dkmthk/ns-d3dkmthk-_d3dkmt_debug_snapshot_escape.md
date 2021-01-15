@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DEBUG_SNAPSHOT_ESCAPE
  - D3DKMT_DEBUG_SNAPSHOT_ESCAPE
 ---
 
@@ -69,3 +70,4 @@ The D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure describes a debug snapshot that is re
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
+

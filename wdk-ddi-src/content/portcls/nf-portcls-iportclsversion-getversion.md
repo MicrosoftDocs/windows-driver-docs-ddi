@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortClsVersion.GetVersion
+ - IPortClsVersion::GetVersion
 ---
 
 # IPortClsVersion::GetVersion
@@ -85,3 +85,4 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioiswdmversionavailable">IoIsWdmVersionAvailable</a>
+

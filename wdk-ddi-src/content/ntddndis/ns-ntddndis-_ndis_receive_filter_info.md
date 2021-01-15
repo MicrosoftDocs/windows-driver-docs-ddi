@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_INFO
+ - PNDIS_RECEIVE_FILTER_INFO
  - NDIS_RECEIVE_FILTER_INFO
 ---
 
@@ -129,3 +131,4 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_CONFIGURATION_OBJECT
+ - PNDIS_CONFIGURATION_OBJECT
  - NDIS_CONFIGURATION_OBJECT
 ---
 
@@ -99,3 +101,4 @@ To configuration parameters in the registry, an NDIS driver can use the NDIS_CON
 
 
 <a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>
+

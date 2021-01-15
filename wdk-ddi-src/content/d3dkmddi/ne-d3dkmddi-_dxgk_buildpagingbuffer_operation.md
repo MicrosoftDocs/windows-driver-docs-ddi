@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_OPERATION
  - DXGK_BUILDPAGINGBUFFER_OPERATION
 ---
 
@@ -120,3 +121,4 @@ This operation is called to copy page table entries from one location to another
 The paging operation is issued every time an allocation residency is changed (when allocation is evicted or committed).
 
 ### -field DXGK_OPERATION_SIGNAL_MONITORED_FENCE
+

@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - ucmucsicx
  - ucmucsicx/ucmucsicx
+api_name:
+ - ucmucsicx
 ---
 
 # Ucmucsicx.h header
@@ -41,3 +43,4 @@ Ucmucsicx includes these headers:
 For more information, see:
 - [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+

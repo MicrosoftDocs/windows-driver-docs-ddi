@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIA_PROPERTY_CONTEXT
+ - PWIA_PROPERTY_CONTEXT
  - WIA_PROPERTY_CONTEXT
 ---
 
@@ -92,3 +94,4 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 [wiasUpdateScanRect](../wiamdef/nf-wiamdef-wiasupdatescanrect.md)
 
 [wiasUpdateValidFormat](../wiamdef/nf-wiamdef-wiasupdatevalidformat.md)
+

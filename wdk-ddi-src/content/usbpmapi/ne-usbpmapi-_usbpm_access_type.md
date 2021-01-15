@@ -32,6 +32,8 @@ api_type:
 api_location:
  - usbpmapi.h
 api_name:
+ - _USBPM_ACCESS_TYPE
+ - PUSBPM_ACCESS_TYPE
  - USBPM_ACCESS_TYPE
 ---
 

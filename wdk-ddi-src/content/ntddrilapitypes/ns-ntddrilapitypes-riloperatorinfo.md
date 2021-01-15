@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILOPERATORINFO
+ - LPRILOPERATORINFO
 ---
 
 # RILOPERATORINFO structure (ntddrilapitypes.h)

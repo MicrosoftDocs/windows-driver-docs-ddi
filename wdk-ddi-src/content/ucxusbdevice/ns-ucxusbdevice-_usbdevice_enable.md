@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_ENABLE
+ - PUSBDEVICE_ENABLE
  - USBDEVICE_ENABLE
 ---
 
@@ -72,3 +74,4 @@ The errors, if any, that occurred when attempting to enable the hub or device fo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
+

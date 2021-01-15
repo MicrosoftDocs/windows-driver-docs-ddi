@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.EnumerateValueKey
+ - IRegistryKey::EnumerateValueKey
 ---
 
 # IRegistryKey::EnumerateValueKey
@@ -152,3 +152,4 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
+

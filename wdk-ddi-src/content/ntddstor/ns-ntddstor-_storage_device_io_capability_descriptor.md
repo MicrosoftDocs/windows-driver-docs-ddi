@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
  - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 ---
 
@@ -68,3 +70,4 @@ The logical unit number (LUN) max outstanding I/O count.
 ### -field AdapterMaxIoCount
 
 The adapter max outstanding I/O count.
+

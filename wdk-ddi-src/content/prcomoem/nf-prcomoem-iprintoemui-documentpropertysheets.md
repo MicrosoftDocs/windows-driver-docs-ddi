@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.DocumentPropertySheets
+ - IPrintOemUI::DocumentPropertySheets
 ---
 
 # IPrintOemUI::DocumentPropertySheets
@@ -102,3 +102,4 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>
+

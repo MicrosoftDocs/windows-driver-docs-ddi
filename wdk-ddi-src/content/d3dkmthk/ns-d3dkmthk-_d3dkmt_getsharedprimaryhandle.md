@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETSHAREDPRIMARYHANDLE
  - D3DKMT_GETSHAREDPRIMARYHANDLE
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a>
+

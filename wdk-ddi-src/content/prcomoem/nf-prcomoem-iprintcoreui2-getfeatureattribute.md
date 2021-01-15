@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreUI2.GetFeatureAttribute
+ - IPrintCoreUI2::GetFeatureAttribute
 ---
 
 # IPrintCoreUI2::GetFeatureAttribute
@@ -179,3 +179,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-getfeat
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
+

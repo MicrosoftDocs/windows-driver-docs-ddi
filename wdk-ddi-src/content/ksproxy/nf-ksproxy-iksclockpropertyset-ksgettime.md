@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsClockPropertySet.KsGetTime
+ - IKsClockPropertySet::KsGetTime
 ---
 
 # IKsClockPropertySet::KsGetTime
@@ -69,3 +69,4 @@ The proxy uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-ti
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-clock-time">KSPROPERTY_CLOCK_TIME</a>
+

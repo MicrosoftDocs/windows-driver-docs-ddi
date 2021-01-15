@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - CleanupCallback
+ - SILO_CONTEXT_CLEANUP_CALLBACK
 ---
 
 # SILO_CONTEXT_CLEANUP_CALLBACK callback function
@@ -53,3 +53,4 @@ This callback is invoked when the context object reaches a reference count of ze
 
 [in]
 A pointer provided by the user with the call to <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a>.
+

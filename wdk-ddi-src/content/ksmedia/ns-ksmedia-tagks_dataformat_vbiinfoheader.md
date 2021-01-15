@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_VBIINFOHEADER
+ - PKS_DATAFORMAT_VBIINFOHEADER
  - KS_DATAFORMAT_VBIINFOHEADER
 ---
 
@@ -72,3 +74,4 @@ This structure is used when a connection to a VBI pin is being proposed.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>
+

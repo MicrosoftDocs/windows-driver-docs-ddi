@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
  - D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobject">D3DKMTWaitForSynchronizationObject</a>
+

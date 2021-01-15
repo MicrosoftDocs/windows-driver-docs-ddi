@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceBltEx32
  - DXVA_DeinterlaceBltEx32
 ---
 
@@ -104,3 +105,4 @@ Specifies a collection of flags that indicate changes in the current destination
 
 
 <a href="/windows-hardware/drivers/display/dxva-deinterlacebobdeviceclass-deinterlacebltex">DeinterlaceBltEx</a>
+

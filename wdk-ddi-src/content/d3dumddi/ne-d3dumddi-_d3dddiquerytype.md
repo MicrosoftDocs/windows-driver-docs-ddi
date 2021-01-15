@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDIQUERYTYPE
+ - D3DDDIQUERYTYPE
 product:
  - Windows
 dev_langs:
@@ -119,3 +120,4 @@ Query for device-dependent counters.
 ## -remarks
 
 ## -see-also
+

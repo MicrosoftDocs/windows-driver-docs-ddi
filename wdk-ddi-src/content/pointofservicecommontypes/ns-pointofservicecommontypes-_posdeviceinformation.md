@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceCommonTypes.h
 api_name:
+ - _PosDeviceInformation
  - PosDeviceInformation
 ---
 

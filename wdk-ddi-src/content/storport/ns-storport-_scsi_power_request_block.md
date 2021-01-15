@@ -41,10 +41,13 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _SCSI_POWER_REQUEST_BLOCK
+ - PSCSI_POWER_REQUEST_BLOCK
  - SCSI_POWER_REQUEST_BLOCK
 ---
 
 # _SCSI_POWER_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -156,3 +159,4 @@ The following conditions must exist before the Storport driver will send a **SCS
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
+

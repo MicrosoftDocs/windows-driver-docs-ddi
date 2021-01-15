@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _ATTRIBUTE_INFO_1
+ - PATTRIBUTE_INFO_1
  - ATTRIBUTE_INFO_1
 ---
 
@@ -158,3 +160,4 @@ The print processor uses <b>dwJobNumberOfCopies</b> and <b>dwDrvNumberOfCopies</
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - iscsidef
  - iscsidef/iscsidef
+api_name:
+ - iscsidef
 ---
 
 # Iscsidef.h header

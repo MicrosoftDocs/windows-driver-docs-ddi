@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndisndk.h
 api_name:
- - OpenNdkAdapterHandler
+ - OPEN_NDK_ADAPTER_HANDLER
 ---
 
 # OPEN_NDK_ADAPTER_HANDLER callback function
@@ -166,3 +166,4 @@ The miniport driver calls the <a href="/windows-hardware/drivers/ddi/ndisndk/nc-
 
 
 <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
+

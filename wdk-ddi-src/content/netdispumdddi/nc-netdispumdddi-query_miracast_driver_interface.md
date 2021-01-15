@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - QueryMiracastDriverInterface
+ - QUERY_MIRACAST_DRIVER_INTERFACE
 ---
 
 # QUERY_MIRACAST_DRIVER_INTERFACE callback function
@@ -84,3 +84,4 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>
+

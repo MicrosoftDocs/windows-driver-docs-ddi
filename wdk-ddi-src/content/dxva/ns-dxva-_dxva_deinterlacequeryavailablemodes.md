@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceQueryAvailableModes
  - DXVA_DeinterlaceQueryAvailableModes
 ---
 

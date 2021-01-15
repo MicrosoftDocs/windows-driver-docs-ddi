@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdffdo.h
 api_name:
- - EvtDeviceRemoveAddedResources
+ - EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
 ---
 
 # EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback function
@@ -93,3 +93,4 @@ For more information about hardware resources, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>
+

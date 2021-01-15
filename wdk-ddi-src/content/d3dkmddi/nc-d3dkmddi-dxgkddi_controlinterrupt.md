@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiControlInterrupt
+ - DXGKDDI_CONTROLINTERRUPT
 product:
  - Windows
 ---
@@ -93,3 +93,4 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

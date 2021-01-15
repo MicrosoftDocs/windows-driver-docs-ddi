@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DESTROYALLOCATION2
  - D3DKMT_DESTROYALLOCATION2
 ---
 
@@ -78,3 +79,4 @@ The <b>D3DKMT_DESTROYALLOCATION2</b> structure describes parameters for releasin
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyallocation2">D3DKMTDestroyAllocation2</a>
+

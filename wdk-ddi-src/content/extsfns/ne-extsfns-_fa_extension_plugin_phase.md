@@ -39,6 +39,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
+ - _FA_EXTENSION_PLUGIN_PHASE
  - FA_EXTENSION_PLUGIN_PHASE
 ---
 
@@ -85,3 +86,4 @@ The analysis is in the initialization phase. This is after the primary data such
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

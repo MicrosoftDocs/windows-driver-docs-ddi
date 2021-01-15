@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamNewVideoFrame
+ - PCAM_NEW_FRAME_ROUTINE
 ---
 
 # PCAM_NEW_FRAME_ROUTINE callback function
@@ -71,3 +71,4 @@ This function is optional.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine_ex">CamNewVideoFrameEx</a>
+

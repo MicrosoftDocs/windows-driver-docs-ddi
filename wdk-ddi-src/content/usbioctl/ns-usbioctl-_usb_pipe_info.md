@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_PIPE_INFO
+ - PUSB_PIPE_INFO
  - USB_PIPE_INFO
 ---
 
@@ -143,3 +145,4 @@ The USB specification labels isochronous and interrupt transfers as "periodic," 
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>
+

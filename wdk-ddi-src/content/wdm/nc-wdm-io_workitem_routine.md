@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - WorkItem
+ - IO_WORKITEM_ROUTINE
 ---
 
 # IO_WORKITEM_ROUTINE callback function
@@ -103,3 +103,4 @@ The IO_WORKITEM_ROUTINE function type is defined in the Wdm.h header file. To mo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+

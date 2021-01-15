@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _NDIS_WDI_INIT_PARAMETERS
+ - PNDIS_WDI_INIT_PARAMETERS
  - NDIS_WDI_INIT_PARAMETERS
 ---
 
@@ -101,3 +103,4 @@ The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11w
 ### -field UeIdleNotificationComplete
 
 The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_complete">NdisWdiIdleNotificationComplete</a> callback function.
+

@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - strmini
  - strmini/strmini
+api_name:
+ - strmini
 ---
 
 # Strmini.h header

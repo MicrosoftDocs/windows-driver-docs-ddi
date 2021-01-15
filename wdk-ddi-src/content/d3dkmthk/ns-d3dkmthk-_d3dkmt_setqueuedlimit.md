@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SETQUEUEDLIMIT
  - D3DKMT_SETQUEUEDLIMIT
 ---
 
@@ -78,3 +79,4 @@ The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrievi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_queuedlimit_type">D3DKMT_QUEUEDLIMIT_TYPE</a>
+

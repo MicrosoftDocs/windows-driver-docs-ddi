@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _READ_ELEMENT_ADDRESS_INFO
+ - PREAD_ELEMENT_ADDRESS_INFO
  - READ_ELEMENT_ADDRESS_INFO
 ---
 
@@ -76,3 +78,4 @@ Contains an array holding the first <a href="/windows-hardware/drivers/ddi/ntddc
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
+

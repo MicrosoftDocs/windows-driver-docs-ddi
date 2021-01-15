@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkGetConnectionData
+ - NDK_FN_GET_CONNECTION_DATA
 ---
 
 # NDK_FN_GET_CONNECTION_DATA callback function
@@ -147,3 +147,4 @@ If <i>*pPrivateDataLength</i> is greater than or equal to <i>RDS</i>, the provid
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>
+

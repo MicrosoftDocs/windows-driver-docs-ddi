@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmilib.h
 api_name:
+ - _WMILIB_CONTEXT
+ - PWMILIB_CONTEXT
  - WMILIB_CONTEXT
 ---
 
@@ -124,3 +126,4 @@ Memory for this structure can be allocated from paged pool.
 
 
 <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
+

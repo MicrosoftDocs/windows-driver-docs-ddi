@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_PF_LUID_INFO
+ - PNDIS_SRIOV_PF_LUID_INFO
  - NDIS_SRIOV_PF_LUID_INFO
 ---
 
@@ -105,3 +107,4 @@ An overlying driver queries this LUID through OID query requests of <a href="/wi
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-pf-luid">OID_SRIOV_PF_LUID</a>
+

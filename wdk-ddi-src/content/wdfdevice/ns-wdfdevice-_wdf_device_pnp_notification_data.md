@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_PNP_NOTIFICATION_DATA
  - WDF_DEVICE_PNP_NOTIFICATION_DATA
 ---
 
@@ -101,3 +102,4 @@ The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver'
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback">WdfDeviceInitRegisterPnpStateChangeCallback</a>
+

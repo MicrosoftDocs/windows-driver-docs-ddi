@@ -37,10 +37,11 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
- - imp_WppRecorderLogCreate
+ - WppRecorderLogCreate
 ---
 
 # WppRecorderLogCreate macro
+
 
 ## -description
 
@@ -81,3 +82,4 @@ If a successful NTSTATUS is not returned, the driver must use a **RECORDER_LOG**
 
 >[!NOTE]
 >This method allocates memory for the log buffer from the non-paged pool.
+

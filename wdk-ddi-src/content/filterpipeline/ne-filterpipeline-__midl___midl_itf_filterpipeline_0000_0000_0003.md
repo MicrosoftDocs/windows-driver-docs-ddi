@@ -39,6 +39,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
+ - __MIDL___MIDL_itf_filterpipeline_0000_0000_0003
  - EXpsJobConsumption
 ---
 
@@ -70,3 +71,4 @@ A rendering filter uses the <a href="/windows-hardware/drivers/ddi/filterpipelin
 Rendering filters convert XPS to the page description language (PDL). 
 
 A pipeline does not necessarily need one of the EXpsJobConsumption enumeration values.
+

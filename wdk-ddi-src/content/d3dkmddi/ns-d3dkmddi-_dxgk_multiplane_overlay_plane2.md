@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_PLANE2
  - DXGK_MULTIPLANE_OVERLAY_PLANE2
 ---
 
@@ -84,3 +85,4 @@ A structure of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
+

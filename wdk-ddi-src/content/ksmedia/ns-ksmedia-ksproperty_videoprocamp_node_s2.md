@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOPROCAMP_NODE_S2
  - KSPROPERTY_VIDEOPROCAMP_NODE_S2
 ---
 
@@ -128,3 +129,4 @@ Specifies the second value of a request. For set requests, the minidriver should
 ## -remarks
 
 This structure is used by <a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-whitebalance-component">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE_COMPONENT</a>.
+

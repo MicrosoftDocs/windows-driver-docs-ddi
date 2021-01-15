@@ -33,11 +33,13 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARGCB_PINFRAMEBUFFERFORSAVE
+ - DXGKARGCB_PINFRAMEBUFFERFORSAVE
 product:
  - Windows
 ---
 
 # _DXGKARGCB_PINFRAMEBUFFERFORSAVE structure
+
 
 ## -description
 
@@ -62,3 +64,4 @@ An MDL pointing to the pages of the frame buffer save area. These pages are guar
 ## -see-also
 
 [DxgkcbPinFrameBufferForSave](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md)
+

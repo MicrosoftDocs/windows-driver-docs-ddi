@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - PPRO_PARAMETER_LIST
  - PRO_PARAMETER_LIST
 ---
 
@@ -116,3 +117,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_pe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
+

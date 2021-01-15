@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetDmaAlignment
+ - PGET_DMA_ALIGNMENT
 ---
 
 # PGET_DMA_ALIGNMENT callback function
@@ -82,3 +82,4 @@ A driver can call this routine to determine alignment requirements for DMA buffe
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

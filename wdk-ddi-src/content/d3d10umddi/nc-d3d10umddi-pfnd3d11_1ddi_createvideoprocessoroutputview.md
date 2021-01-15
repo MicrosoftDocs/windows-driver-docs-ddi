@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateVideoProcessorOutputView
+ - PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ When the runtime  calls <i>CreateVideoProcessorOutputView</i>, it passes the han
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a>
+

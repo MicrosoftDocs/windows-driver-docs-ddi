@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_ERASE
+ - PTAPE_ERASE
  - TAPE_ERASE
 ---
 
@@ -64,3 +66,4 @@ Indicates that the target device should return status immediately, when set to <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a>
+

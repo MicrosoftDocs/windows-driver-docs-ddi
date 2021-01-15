@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.DisassembleWide
+ - IDebugControl4::DisassembleWide
 ---
 
 # IDebugControl4::DisassembleWide
@@ -135,3 +135,4 @@ For an overview of using assembly in debugger applications, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/debugger/u--unassemble-">u (Unassemble)</a>
+

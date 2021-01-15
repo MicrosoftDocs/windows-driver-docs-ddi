@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_ORIGIN
+ - PTOKEN_ORIGIN
  - TOKEN_ORIGIN
 ---
 
@@ -104,3 +106,4 @@ The TOKEN_ORIGIN structure is available on Windows Server 2003 or later.
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

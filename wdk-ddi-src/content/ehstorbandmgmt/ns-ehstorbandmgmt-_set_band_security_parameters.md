@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _SET_BAND_SECURITY_PARAMETERS
+ - PSET_BAND_SECURITY_PARAMETERS
  - SET_BAND_SECURITY_PARAMETERS
 ---
 
@@ -171,3 +173,4 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
+

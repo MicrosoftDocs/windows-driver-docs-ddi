@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.CopyValuesFromPropertyStore
+ - IPortableDeviceValues::CopyValuesFromPropertyStore
 ---
 
 # IPortableDeviceValues::CopyValuesFromPropertyStore
@@ -90,3 +90,4 @@ Many external applications or components that communicate with your application,
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-copyvaluestopropertystore">IPortableDeviceValues::CopyValuesToPropertyStore</a>
+

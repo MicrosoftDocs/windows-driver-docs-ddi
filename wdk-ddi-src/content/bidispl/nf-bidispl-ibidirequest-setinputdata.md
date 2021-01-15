@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequest.SetInputData
+ - IBidiRequest::SetInputData
 ---
 
 # IBidiRequest::SetInputData
@@ -232,3 +232,4 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+

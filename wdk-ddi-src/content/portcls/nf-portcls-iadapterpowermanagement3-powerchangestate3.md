@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPowerManagement3.PowerChangeState3
+ - IAdapterPowerManagement3::PowerChangeState3
 product:
  - Windows
 ---

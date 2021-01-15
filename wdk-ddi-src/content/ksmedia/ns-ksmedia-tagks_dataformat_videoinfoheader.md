@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_VIDEOINFOHEADER
+ - PKS_DATAFORMAT_VIDEOINFOHEADER
  - KS_DATAFORMAT_VIDEOINFOHEADER
 ---
 
@@ -78,3 +80,4 @@ Minidrivers that must specify a data format that contains settings for bob or we
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
+

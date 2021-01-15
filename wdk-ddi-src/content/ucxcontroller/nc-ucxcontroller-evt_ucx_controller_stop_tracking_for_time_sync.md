@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
- - EvUcxControllerStopTrackingForTimeSync
+ - EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC
 ---
 
 # EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback function
@@ -74,3 +74,4 @@ The length, in bytes, of the request's input buffer, if an input buffer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdfdmatransaction.h
 api_name:
- - EvtProgramDma
+ - EVT_WDF_PROGRAM_DMA
 ---
 
 # EVT_WDF_PROGRAM_DMA callback function
@@ -103,3 +103,4 @@ For more information about this callback function, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest">WdfDmaTransactionInitializeUsingRequest</a>
+

@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - WdmlibIoValidateDeviceIoControlAccess
- - IoValidateDeviceIoControlAccess
 ---
 
 # WdmlibIoValidateDeviceIoControlAccess function
@@ -143,3 +142,4 @@ The access checks are only performed if the <b>RequestorMode</b> member of the <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+

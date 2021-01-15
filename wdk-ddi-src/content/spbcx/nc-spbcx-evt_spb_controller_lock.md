@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerLock
+ - EVT_SPB_CONTROLLER_LOCK
 ---
 
 # EVT_SPB_CONTROLLER_LOCK callback function
@@ -147,3 +147,4 @@ The EVT_SPB_CONTROLLER_LOCK function type is defined in the Spbcx.h header file.
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

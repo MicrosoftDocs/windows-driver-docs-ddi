@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_SEND_STATUS
+ - PNDIS_WWAN_SMS_SEND_STATUS
  - NDIS_WWAN_SMS_SEND_STATUS
 ---
 
@@ -116,3 +118,4 @@ A reference number that is returned upon successful delivery of the SMS text mes
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

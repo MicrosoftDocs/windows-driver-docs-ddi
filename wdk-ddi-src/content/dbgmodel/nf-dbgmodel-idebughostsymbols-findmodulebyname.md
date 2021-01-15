@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostSymbols.FindModuleByName
+ - IDebugHostSymbols::FindModuleByName
 ---
 
 # IDebugHostSymbols::FindModuleByName
@@ -102,3 +102,4 @@ Calling FindModuleByName and then CreateTypeSignature with that module will crea
 [CreateTypeSignature](nf-dbgmodel-idebughostsymbols-createtypesignature.md)  
 
 [CreateTypeSignatureForModuleRange](nf-dbgmodel-idebughostsymbols-createtypesignatureformodulerange.md)
+

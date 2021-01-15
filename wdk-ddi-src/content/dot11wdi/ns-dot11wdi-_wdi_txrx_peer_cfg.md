@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TXRX_PEER_CFG
+ - PWDI_TXRX_PEER_CFG
  - WDI_TXRX_PEER_CFG
 ---
 
@@ -56,3 +58,4 @@ The WDI_TXRX_PEER_CFG structure defines peer configuration.
 ### -field PeerQoSConfig
 
 The peer's QoS capability as defined in <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_txrx_peer_qos_caps">WDI_TXRX_PEER_QOS_CAPS</a>.
+

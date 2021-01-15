@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2SETPRIORITY
  - D3DHAL_DP2SETPRIORITY
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - PLOGINSESSIONTYPE
  - LOGINSESSIONTYPE
 ---
 
@@ -68,3 +69,4 @@ The logon session is full-featured. It reports the target LUNs to the PnP manage
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

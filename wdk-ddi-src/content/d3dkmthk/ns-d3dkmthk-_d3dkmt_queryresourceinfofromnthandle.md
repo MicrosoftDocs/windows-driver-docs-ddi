@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
  - D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
 
@@ -84,3 +85,4 @@ Describes information that is required to map a global NT handle to resource inf
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfofromnthandle">D3DKMTQueryResourceInfoFromNtHandle</a>
+

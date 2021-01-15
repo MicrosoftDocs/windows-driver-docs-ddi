@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DETECTION_TYPE
  - DETECTION_TYPE
 ---
 
@@ -70,3 +71,4 @@ Possible formatting types are the standard INT 13h partition format or the exten
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_detection_info">DISK_DETECTION_INFO</a>
+

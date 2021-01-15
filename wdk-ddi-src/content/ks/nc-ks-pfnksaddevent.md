@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniAddEvent
+ - PFNKSADDEVENT
 ---
 
 # PFNKSADDEVENT callback function
@@ -113,3 +113,4 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingenerateevents">KsPinGenerateEvents</a>
+

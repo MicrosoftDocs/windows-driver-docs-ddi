@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_CO_CLIENT_OPTIONAL_HANDLERS
+ - PNDIS_CO_CLIENT_OPTIONAL_HANDLERS
  - NDIS_CO_CLIENT_OPTIONAL_HANDLERS
 ---
 
@@ -299,3 +301,4 @@ The client calls
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
+

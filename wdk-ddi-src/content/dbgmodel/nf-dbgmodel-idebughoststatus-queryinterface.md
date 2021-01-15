@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostStatus.QueryInterface
+ - IDebugHostStatus::QueryInterface
 ---
 
 # IDebugHostStatus::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostStatus interface](nn-dbgmodel-idebughoststatus.md)
+

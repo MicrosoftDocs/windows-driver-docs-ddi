@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiDestroyAllocation
+ - DXGKDDI_DESTROYALLOCATION
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ The display miniport driver can release the entire resource as well as allocatio
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
+

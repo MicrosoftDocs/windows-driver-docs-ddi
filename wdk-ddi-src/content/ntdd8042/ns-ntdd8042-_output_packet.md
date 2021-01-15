@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
+ - _OUTPUT_PACKET
+ - POUTPUT_PACKET
  - OUTPUT_PACKET
 ---
 
@@ -110,3 +112,4 @@ This structure is used with a <a href="/windows-hardware/drivers/ddi/ntdd8042/nc
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a>
+

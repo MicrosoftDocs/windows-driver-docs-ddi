@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_MODEM_CONFIG_STATE
+ - PWWAN_MODEM_CONFIG_STATE
  - WWAN_MODEM_CONFIG_STATE
 ---
 
@@ -73,3 +75,4 @@ The maximum value for this enumeration. This value might change in future versio
 ## -see-also
 
 <a href="/previous-versions/mt813894(v=vs.85)">WWAN_MODEM_CONFIG_STATUS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _PD_BUFFER
  - PD_BUFFER
 ---
 
@@ -317,3 +318,4 @@ When posting <b>PD_BUFFER</b> structures to receive queues, DataLength is ignore
     When posting <b>PD_BUFFER</b> structures to transmit queues, DataLength denotes the length
     of the packet to be sent. When draining completed <b>PD_BUFFER</b> structures from
     transmit queues, the provider leaves the DataLength field unmodified.
+

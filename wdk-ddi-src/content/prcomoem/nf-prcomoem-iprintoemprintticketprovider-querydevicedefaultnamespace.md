@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
+ - IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 ---
 
 # IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
@@ -101,3 +101,4 @@ The plug-in should specify the name of the private namespace URI that the core d
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a>
+

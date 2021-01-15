@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_MMIPSECStats
+ - PMSiSCSI_MMIPSECStats
  - MSiSCSI_MMIPSECStats
 ---
 
@@ -144,3 +146,4 @@ It is optional that you implement this class.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msiscsi-mmipsecstats-wmi-class">MSiSCSI_MMIPSECStats WMI Class</a>
+

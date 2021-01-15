@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_BUFFER_ALL
  - KSDS3D_BUFFER_ALL
 ---
 
@@ -116,3 +117,4 @@ The members of this structure are similar to those defined for the DS3DBUFFER st
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-all">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
+

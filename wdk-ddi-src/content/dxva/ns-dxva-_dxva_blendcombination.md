@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_BlendCombination
+ - LPDXVA_BlendCombination
  - DXVA_BlendCombination
 ---
 
@@ -299,3 +301,4 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

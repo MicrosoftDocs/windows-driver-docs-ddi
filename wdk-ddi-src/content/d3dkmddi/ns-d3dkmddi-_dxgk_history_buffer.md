@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_HISTORY_BUFFER
  - DXGK_HISTORY_BUFFER
 ---
 
@@ -76,3 +77,4 @@ The driver specifies the precision of time stamps with the <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer_header">DXGK_HISTORY_BUFFER_HEADER</a>
+

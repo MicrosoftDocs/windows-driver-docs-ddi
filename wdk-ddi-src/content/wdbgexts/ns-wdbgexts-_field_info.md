@@ -41,6 +41,8 @@ api_type:
 api_location:
  - WdbgExts.h
 api_name:
+ - _FIELD_INFO
+ - PFIELD_INFO
  - FIELD_INFO
 ---
 
@@ -154,3 +156,4 @@ When calling the <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sy
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-psym_dump_field_callback">PSYM_DUMP_FIELD_CALLBACK</a>
+

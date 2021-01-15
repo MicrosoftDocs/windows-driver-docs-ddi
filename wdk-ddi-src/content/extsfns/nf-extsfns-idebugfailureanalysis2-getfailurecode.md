@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.GetFailureCode
+ - IDebugFailureAnalysis2::GetFailureCode
 ---
 
 # IDebugFailureAnalysis2::GetFailureCode
@@ -74,3 +74,4 @@ When the <a href="/windows-hardware/drivers/debugger/-analyze">!analyze</a> debu
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

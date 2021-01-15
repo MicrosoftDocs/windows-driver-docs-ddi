@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _CHANNEL_CONFIG_PARAMETERS
+ - PCHANNEL_CONFIG_PARAMETERS
  - CHANNEL_CONFIG_PARAMETERS
 ---
 
@@ -136,3 +138,4 @@ The QoS settings for the specified channel direction.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
+

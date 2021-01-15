@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfWMI.h
 api_name:
- - EvtWmiInstanceQueryInstance
+ - EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
 ---
 
 # EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback function
@@ -118,3 +118,4 @@ For more information about WMI, see <a href="/windows-hardware/drivers/wdf/suppo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
+

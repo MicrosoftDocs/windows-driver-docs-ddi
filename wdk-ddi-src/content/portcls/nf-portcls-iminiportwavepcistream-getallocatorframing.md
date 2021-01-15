@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePciStream.GetAllocatorFraming
+ - IMiniportWavePciStream::GetAllocatorFraming
 ---
 
 # IMiniportWavePciStream::GetAllocatorFraming
@@ -71,3 +71,4 @@ See the discussion of allocator framing in <a href="/windows-hardware/drivers/au
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
+

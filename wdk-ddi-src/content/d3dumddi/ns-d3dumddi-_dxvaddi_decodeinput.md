@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_DECODEINPUT
  - DXVADDI_DECODEINPUT
 ---
 
@@ -82,3 +83,4 @@ A pointer to the DXVADDI_DECODEINPUT structure is specified in the <b>pInfo</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

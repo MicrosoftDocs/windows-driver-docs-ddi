@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.SetOutputCallbacks
- - IDebugClient2.SetOutputCallbacks
- - IDebugClient3.SetOutputCallbacks
- - IDebugClient4.SetOutputCallbacks
- - IDebugClient5.SetOutputCallbacks
+ - IDebugClient::SetOutputCallbacks
 ---
 
 # IDebugClient::SetOutputCallbacks
@@ -115,3 +111,4 @@ For more information about callbacks, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.RetrieveUsbPipeObject
+ - IWDFUsbInterface::RetrieveUsbPipeObject
 ---
 
 # IWDFUsbInterface::RetrieveUsbPipeObject
@@ -125,3 +125,4 @@ For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+

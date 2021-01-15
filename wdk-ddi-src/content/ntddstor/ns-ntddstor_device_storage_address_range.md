@@ -27,6 +27,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_STORAGE_ADDRESS_RANGE
+ - PDEVICE_STORAGE_ADDRESS_RANGE
  - DEVICE_STORAGE_ADDRESS_RANGE
 product:
  - Windows
@@ -67,3 +69,4 @@ The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES]
 [DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT](ns-ntddstor-_device_dsm_physical_addresses_output.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

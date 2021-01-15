@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_PRE_OPERATION_PARAMETERS
+ - POB_PRE_OPERATION_PARAMETERS
  - OB_PRE_OPERATION_PARAMETERS
 ---
 
@@ -72,3 +74,4 @@ An <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_pre_duplicate_handle_in
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+

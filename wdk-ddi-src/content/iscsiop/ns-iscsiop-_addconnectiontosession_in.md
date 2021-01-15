@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _AddConnectionToSession_IN
+ - PAddConnectionToSession_IN
  - AddConnectionToSession_IN
 ---
 
@@ -124,3 +126,4 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.UntranslatedList
+ - IResourceList::UntranslatedList
 ---
 
 # IResourceList::UntranslatedList
@@ -58,3 +58,4 @@ The <code>UntranslatedList</code> method returns the list of untranslated resour
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
+

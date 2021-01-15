@@ -12,6 +12,8 @@ tech.root: sd
 f1_keywords:
  - sddef
  - sddef/sddef
+api_name:
+ - sddef
 ---
 
 # Sddef.h header

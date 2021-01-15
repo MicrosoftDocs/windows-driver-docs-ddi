@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_PROVIDER_EXTERNAL_INFO_V1
+ - PFILE_PROVIDER_EXTERNAL_INFO_V1
  - FILE_PROVIDER_EXTERNAL_INFO_V1
 ---
 
@@ -75,3 +77,4 @@ Specifies flags for the operation. Reserved for future use, should be 0.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v0">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
+

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_ROOT_PORT_INTERFACE
+ - PPCI_EXPRESS_ROOT_PORT_INTERFACE
  - PCI_EXPRESS_ROOT_PORT_INTERFACE
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_DiscoveryConfig
+ - PMSiSCSI_DiscoveryConfig
  - MSiSCSI_DiscoveryConfig
 ---
 
@@ -86,3 +88,4 @@ Initiators are required to implement the MSiSCSI_DiscoveryConfig class. You must
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-discoveryconfig-wmi-class">MSiSCSI_DiscoveryConfig WMI Class</a>
+

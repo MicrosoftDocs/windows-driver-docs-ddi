@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClIncomingDropParty
+ - PROTOCOL_CL_INCOMING_DROP_PARTY
 ---
 
 # PROTOCOL_CL_INCOMING_DROP_PARTY callback function
@@ -189,3 +189,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingdropparty">
    NdisMCmDispatchIncomingDropParty</a>
+

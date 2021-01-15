@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAC3_ALTERNATE_AUDIO
  - KSAC3_ALTERNATE_AUDIO
 ---
 
@@ -74,3 +75,4 @@ For more information about the encoding of AC-3 program channels, see the AC-3 s
 ## -see-also
 
 [KSPROPERTY_AC3_ALTERNATE_AUDIO](/windows-hardware/drivers/audio/ksproperty-ac3-alternate-audio)
+

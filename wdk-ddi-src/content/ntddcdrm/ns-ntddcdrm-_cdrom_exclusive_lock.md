@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_EXCLUSIVE_LOCK
+ - PCDROM_EXCLUSIVE_LOCK
  - CDROM_EXCLUSIVE_LOCK
 ---
 
@@ -68,3 +70,4 @@ A <b>NULL</b>-terminated string that identifies the application or system compon
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+

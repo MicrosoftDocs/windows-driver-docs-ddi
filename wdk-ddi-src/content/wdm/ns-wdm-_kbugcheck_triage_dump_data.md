@@ -37,6 +37,8 @@ api_location:
  - wdm.h
 api_name:
  - _KBUGCHECK_TRIAGE_DUMP_DATA
+ - PKBUGCHECK_TRIAGE_DUMP_DATA
+ - KBUGCHECK_TRIAGE_DUMP_DATA
 product:
  - Windows
 ---
@@ -97,3 +99,4 @@ From the callback routine, the driver calls the [**KeAddTriageDumpDataBlock**](.
 ## -see-also
 
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

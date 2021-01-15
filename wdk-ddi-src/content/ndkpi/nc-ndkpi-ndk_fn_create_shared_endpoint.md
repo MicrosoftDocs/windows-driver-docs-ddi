@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateSharedEndpoint
+ - NDK_FN_CREATE_SHARED_ENDPOINT
 ---
 
 # NDK_FN_CREATE_SHARED_ENDPOINT callback function
@@ -198,3 +198,4 @@ The <i>NdkCreateSharedEndpoint</i> function creates an NDK shared endpoint to us
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
+

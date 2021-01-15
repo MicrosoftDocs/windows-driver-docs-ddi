@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CONFIGURESHAREDRESOURCE
  - D3DKMT_CONFIGURESHAREDRESOURCE
 ---
 
@@ -74,3 +75,4 @@ The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the <a hr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtconfiguresharedresource">D3DKMTConfigureSharedResource</a>
+

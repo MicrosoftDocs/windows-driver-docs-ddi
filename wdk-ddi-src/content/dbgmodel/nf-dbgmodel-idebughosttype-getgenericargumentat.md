@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostType.GetGenericArgumentAt
+ - IDebugHostType::GetGenericArgumentAt
 ---
 
 # IDebugHostType::GetGenericArgumentAt

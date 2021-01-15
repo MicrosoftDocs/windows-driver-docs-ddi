@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CopyTileMappings
+ - PFND3DWDDM1_3DDI_COPYTILEMAPPINGS
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d1
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_CDMA_MRL_INFO
+ - PWWAN_CDMA_MRL_INFO
  - WWAN_CDMA_MRL_INFO
 ---
 
@@ -104,3 +106,4 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>
+

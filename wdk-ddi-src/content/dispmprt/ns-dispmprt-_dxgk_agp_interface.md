@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_AGP_INTERFACE
+ - PDXGK_AGP_INTERFACE
  - DXGK_AGP_INTERFACE
 ---
 
@@ -88,3 +90,4 @@ A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/di
 ## -remarks
 
 The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+

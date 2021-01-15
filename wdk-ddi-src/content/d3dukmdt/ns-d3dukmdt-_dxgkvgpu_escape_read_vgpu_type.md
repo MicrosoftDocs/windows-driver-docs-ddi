@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _DXGKVGPU_ESCAPE_READ_VGPU_TYPE
  - DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 ---
 

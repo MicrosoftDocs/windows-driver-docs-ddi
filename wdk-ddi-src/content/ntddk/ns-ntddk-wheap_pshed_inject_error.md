@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_PSHED_INJECT_ERROR
+ - PWHEAP_PSHED_INJECT_ERROR
  - WHEAP_PSHED_INJECT_ERROR
 product:
  - Windows

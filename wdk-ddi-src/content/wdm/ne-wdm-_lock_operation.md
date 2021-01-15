@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _LOCK_OPERATION
  - LOCK_OPERATION
 ---
 
@@ -70,3 +71,4 @@ This value indicates that a driver can examine and change the contents of a buff
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
+

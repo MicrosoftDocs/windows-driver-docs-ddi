@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PRECEIVE_TOKEN_INFORMATION_HEADER
  - RECEIVE_TOKEN_INFORMATION_HEADER
 ---
 
@@ -318,3 +319,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+

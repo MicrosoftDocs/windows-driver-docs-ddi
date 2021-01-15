@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _VERIFY_INFORMATION
+ - PVERIFY_INFORMATION
  - VERIFY_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ VERIFY_INFORMATION is the output buffer for the <a href="/windows-hardware/drive
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_verify">IOCTL_DISK_VERIFY</a>
+

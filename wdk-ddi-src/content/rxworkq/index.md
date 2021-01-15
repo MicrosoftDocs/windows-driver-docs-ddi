@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxworkq
  - rxworkq/rxworkq
+api_name:
+ - rxworkq
 ---
 
 # Rxworkq.h header

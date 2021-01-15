@@ -40,6 +40,7 @@ api_location:
  - oemrilapitypes.h
 api_name:
  - RILDEVSPECIFICREQUEST
+ - LPRILDEVSPECIFICREQUEST
 ---
 
 # RILDEVSPECIFICREQUEST structure

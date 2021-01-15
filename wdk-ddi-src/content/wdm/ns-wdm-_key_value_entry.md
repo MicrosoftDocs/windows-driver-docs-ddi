@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KEY_VALUE_ENTRY
+ - PKEY_VALUE_ENTRY
  - KEY_VALUE_ENTRY
 ---
 
@@ -80,3 +82,4 @@ The <b>ValueEntries</b> member of <a href="/windows-hardware/drivers/ddi/wdm/ns-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
+

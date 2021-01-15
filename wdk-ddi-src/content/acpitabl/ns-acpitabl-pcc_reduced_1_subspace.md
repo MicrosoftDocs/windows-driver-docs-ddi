@@ -29,6 +29,7 @@ api_location:
  - acpitabl.h
 api_name:
  - _PCC_REDUCED_1_SUBSPACE
+ - PPCC_REDUCED_1_SUBSPACE
  - PCC_REDUCED_1_SUBSPACE
 f1_keywords:
  - _PCC_REDUCED_1_SUBSPACE

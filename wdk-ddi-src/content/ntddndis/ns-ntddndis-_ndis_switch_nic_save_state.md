@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_SAVE_STATE
+ - PNDIS_SWITCH_NIC_SAVE_STATE
  - NDIS_SWITCH_NIC_SAVE_STATE
 ---
 
@@ -168,3 +170,4 @@ For more information on how to save or restore run-time port information, see <a
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
+

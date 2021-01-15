@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _GETSETBUSDATA
+ - PBUSDATA
  - BUSDATA
 ---
 
@@ -90,3 +92,4 @@ The properties of the data in the bus depends on the system, bus, and slot.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+

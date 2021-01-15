@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION
+ - PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION
  - NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
 ---
 
@@ -110,3 +112,4 @@ The requested session state set operation.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
+

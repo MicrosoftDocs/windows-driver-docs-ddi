@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - wiadevd
  - wiadevd/wiadevd
+api_name:
+ - wiadevd
 ---
 
 # Wiadevd.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnWaitForSynchronizationObjectCb
+ - PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ For a code example of how to use the <b>pfnWaitForSynchronizationObjectCb</b> fu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_waitforsynchronizationobject">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a>
+

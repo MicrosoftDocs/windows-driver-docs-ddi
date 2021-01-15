@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoDeviceControl
+ - EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
 ---
 
 # EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback function
@@ -129,3 +129,4 @@ A driver's <i>EvtIoDeviceControl</i> callback function should not call the follo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
+

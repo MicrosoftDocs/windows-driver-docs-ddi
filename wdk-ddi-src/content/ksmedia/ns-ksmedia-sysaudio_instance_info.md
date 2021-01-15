@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PSYSAUDIO_INSTANCE_INFO
  - SYSAUDIO_INSTANCE_INFO
 ---
 
@@ -88,3 +89,4 @@ This property is similar to <a href="/windows-hardware/drivers/audio/ksproperty-
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-instance-info">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
+

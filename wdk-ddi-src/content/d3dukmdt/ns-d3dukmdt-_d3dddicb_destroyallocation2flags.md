@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDICB_DESTROYALLOCATION2FLAGS
  - D3DDDICB_DESTROYALLOCATION2FLAGS
 ---
 
@@ -84,3 +85,4 @@ The consolidated value of the fields in the structure.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation2">D3DKMT_DESTROYALLOCATION2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_OPM_INTERFACE_3
+ - PDXGK_OPM_INTERFACE_3
  - DXGK_OPM_INTERFACE_3
 ---
 
@@ -120,3 +122,4 @@ A pointer to the display miniport driver's [**DxgkDdiOPMSetSrmList**](nc-dispmpr
 ### -field DxgkDdiOPMGetSrmListVersion
 
 A pointer to the display miniport driver's [**DxgkDdiOPMGetSrmListVersion**](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md) function.
+

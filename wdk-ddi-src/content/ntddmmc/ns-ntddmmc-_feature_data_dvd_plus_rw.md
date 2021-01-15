@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DVD_PLUS_RW
+ - PFEATURE_DATA_DVD_PLUS_RW
  - FEATURE_DATA_DVD_PLUS_RW
 ---
 
@@ -86,3 +88,4 @@ This structure holds data for the feature named "DVD+RW" by the <i>SCSI Multimed
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

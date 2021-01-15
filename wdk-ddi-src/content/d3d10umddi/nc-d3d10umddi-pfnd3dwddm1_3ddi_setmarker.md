@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - SetMarker
+ - PFND3DWDDM1_3DDI_SETMARKER
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="/window
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode">SetMarkerMode</a>
+

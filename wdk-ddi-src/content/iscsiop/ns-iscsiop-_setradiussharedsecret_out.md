@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetRADIUSSharedSecret_OUT
+ - PSetRADIUSSharedSecret_OUT
  - SetRADIUSSharedSecret_OUT
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setradiussharedsecret_in">SetRADIUSSharedSecret_IN</a>
+

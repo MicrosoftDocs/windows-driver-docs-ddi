@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetCurrentValue
+ - CWiauPropertyList::SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,LONG) (wiautil.h)
+
 
 ## -description
 
@@ -66,3 +67,4 @@ This method does not return a value.
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
+

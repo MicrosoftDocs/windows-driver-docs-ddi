@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - tagKS_DATARANGE_MPEG2TS_AVC
+ - PKS_DATARANGE_MPEG2TS_AVC
  - KS_DATARANGE_MPEG2TS_AVC
 ---
 
@@ -68,3 +70,4 @@ Specifies the AV/C preconnection info.
 
 
 <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+

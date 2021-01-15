@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_DEVICE_INFO
+ - PDOT11_WFD_DEVICE_INFO
  - DOT11_WFD_DEVICE_INFO
 product:
  - Windows 10 or later.
@@ -105,3 +107,4 @@ typedef struct _DOT11_WFD_DEVICE_INFO {
   DOT11_WPS_DEVICE_NAME DeviceName;
 } DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO;
 ```
+

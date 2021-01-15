@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - PPEP_QUERY_SOC_SUBSYSTEM_METADATA
  - PEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
 
@@ -84,3 +86,4 @@ This member is reserved and should be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_SOC_SUBSYSTEM_METADATA</a>
+

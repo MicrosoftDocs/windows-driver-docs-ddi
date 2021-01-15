@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.AddEntryFromParent
+ - IResourceList::AddEntryFromParent
 ---
 
 # IResourceList::AddEntryFromParent
@@ -114,3 +114,4 @@ The <i>Parent</i> parameter follows the <a href="/windows-hardware/drivers/audio
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iresourcelist-numberofentriesoftype">IResourceList::NumberOfEntriesOfType</a>
+

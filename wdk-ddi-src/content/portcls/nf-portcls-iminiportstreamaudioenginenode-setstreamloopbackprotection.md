@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
+ - IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
@@ -73,3 +73,4 @@ CONSTRICTOR_OPTION
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
+

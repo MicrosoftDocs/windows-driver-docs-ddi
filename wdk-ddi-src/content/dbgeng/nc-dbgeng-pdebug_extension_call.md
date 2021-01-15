@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - DebugExtensionCall
+ - PDEBUG_EXTENSION_CALL
 ---
 
 # PDEBUG_EXTENSION_CALL callback function
@@ -104,3 +104,4 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+

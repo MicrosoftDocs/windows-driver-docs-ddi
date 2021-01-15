@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.ExecuteWide
+ - IDebugControl4::ExecuteWide
 ---
 
 # IDebugControl4::ExecuteWide
@@ -134,3 +134,4 @@ This method executes the given command string.  If the string has multiple comma
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

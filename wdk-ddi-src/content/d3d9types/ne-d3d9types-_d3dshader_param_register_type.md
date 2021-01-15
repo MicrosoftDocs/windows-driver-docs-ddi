@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3d9types.h
 api_name:
+ - _D3DSHADER_PARAM_REGISTER_TYPE
  - D3DSHADER_PARAM_REGISTER_TYPE
 ---
 

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_BRIDGE_AER_CAPABILITY
+ - PPCI_EXPRESS_BRIDGE_AER_CAPABILITY
  - PCI_EXPRESS_BRIDGE_AER_CAPABILITY
 ---
 
@@ -190,3 +192,4 @@ For additional information about the PCIe advanced error reporting capability st
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_mask">PCI_EXPRESS_CORRECTABLE_ERROR_MASK</a>
+

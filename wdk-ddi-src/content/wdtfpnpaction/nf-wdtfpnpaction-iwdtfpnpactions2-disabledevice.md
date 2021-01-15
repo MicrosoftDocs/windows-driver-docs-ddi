@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.DisableDevice
+ - IWDTFPNPActions2::DisableDevice
 ---
 
 # IWDTFPNPActions2::DisableDevice
@@ -57,5 +57,4 @@ True if the operation requires a restart to complete; otherwise, false.
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
 

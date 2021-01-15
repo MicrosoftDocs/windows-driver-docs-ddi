@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - rilapi
  - rilapi/rilapi
+api_name:
+ - rilapi
 ---
 
 # Rilapi.h header

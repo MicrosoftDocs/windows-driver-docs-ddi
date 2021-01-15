@@ -41,6 +41,8 @@ api_type:
 api_location:
  - udecxwdfdevice.h
 api_name:
+ - _UDECX_WDF_DEVICE_CONFIG
+ - PUDECX_WDF_DEVICE_CONFIG
  - UDECX_WDF_DEVICE_CONFIG
 ---
 
@@ -84,3 +86,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwd
 
 
 <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>
+

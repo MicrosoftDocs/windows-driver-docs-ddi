@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSNODEPROPERTY
  - KSNODEPROPERTY
 ---
 
@@ -76,3 +77,4 @@ See the discussion of the KSNODEPROPERTY structure in <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
+

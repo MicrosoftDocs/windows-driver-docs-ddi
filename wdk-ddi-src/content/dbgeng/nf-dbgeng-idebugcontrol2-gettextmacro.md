@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetTextMacro
- - IDebugControl2.GetTextMacro
- - IDebugControl3.GetTextMacro
+ - IDebugControl2::GetTextMacro
 ---
 
 # IDebugControl2::GetTextMacro
@@ -126,3 +124,4 @@ For an overview of aliases used by the <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/debugger/r--registers-">r (Registers)</a>
+

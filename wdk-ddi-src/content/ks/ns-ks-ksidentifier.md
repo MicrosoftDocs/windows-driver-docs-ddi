@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSIDENTIFIER
  - KSIDENTIFIER
 ---
 
@@ -396,3 +397,4 @@ Because <b>Flags</b> contains a ULONG value, multiple Skip requests may be neede
 
 
 <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+

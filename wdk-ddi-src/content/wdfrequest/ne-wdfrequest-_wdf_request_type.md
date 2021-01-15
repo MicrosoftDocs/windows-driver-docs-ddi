@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_TYPE
  - WDF_REQUEST_TYPE
 ---
 
@@ -204,3 +205,4 @@ For the UMDF version of this enumeration, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a>
+

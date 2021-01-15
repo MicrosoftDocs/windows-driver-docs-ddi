@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - wsk
  - wsk/wsk
+api_name:
+ - wsk
 ---
 
 # Wsk.h header

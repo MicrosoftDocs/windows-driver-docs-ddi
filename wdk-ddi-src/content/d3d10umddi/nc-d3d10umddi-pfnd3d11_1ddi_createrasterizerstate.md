@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateRasterizerState(D3D11_1)
+ - PFND3D11_1DDI_CREATERASTERIZERSTATE
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

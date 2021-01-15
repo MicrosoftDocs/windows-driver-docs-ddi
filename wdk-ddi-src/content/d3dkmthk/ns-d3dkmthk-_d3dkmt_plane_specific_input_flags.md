@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
+ - D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
 dev_langs:
  - c++
 ---

@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MIRACASTCOMPANIONDRIVERNAME
+ - D3DKMT_MIRACASTCOMPANIONDRIVERNAME
 dev_langs:
  - c++
 ---

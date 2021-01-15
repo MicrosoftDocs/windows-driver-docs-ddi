@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_PID_MAP
+ - PBDA_PID_MAP
  - BDA_PID_MAP
 ---
 
@@ -72,3 +74,4 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 [KSPROPSETID_BdaPIDFilter](/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 
 [MEDIA_SAMPLE_CONTENT](/windows/win32/directshow/media-sample-content)
+

@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_DEVICE_DESCRIPTOR
+ - PSIDEBANDAUDIO_DEVICE_DESCRIPTOR
+ - SIDEBANDAUDIO_DEVICE_DESCRIPTOR
 ---
 
 # _SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure
@@ -61,3 +63,4 @@ Driver should call <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sideb
 [sidebandaudio.h](index.md)
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a>
+

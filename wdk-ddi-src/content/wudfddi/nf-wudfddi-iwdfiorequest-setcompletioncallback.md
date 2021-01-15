@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.SetCompletionCallback
+ - IWDFIoRequest::SetCompletionCallback
 ---
 
 # IWDFIoRequest::SetCompletionCallback
@@ -87,3 +87,4 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

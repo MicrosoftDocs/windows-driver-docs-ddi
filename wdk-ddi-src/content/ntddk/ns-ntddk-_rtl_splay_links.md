@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _RTL_SPLAY_LINKS
  - RTL_SPLAY_LINKS
 ---
 
@@ -112,3 +113,4 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
- - EvtNfcCxWriteNciPacket
+ - EVT_NFC_CX_WRITE_NCI_PACKET
 ---
 
 # EVT_NFC_CX_WRITE_NCI_PACKET callback function
@@ -70,3 +70,4 @@ The client driver should not make any blocking calls when handling this function
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

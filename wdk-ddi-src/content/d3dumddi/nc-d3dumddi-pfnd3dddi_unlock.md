@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Unlock
+ - PFND3DDDI_UNLOCK
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a>
+

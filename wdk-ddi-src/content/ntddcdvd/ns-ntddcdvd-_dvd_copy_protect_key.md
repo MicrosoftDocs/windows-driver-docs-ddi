@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_COPY_PROTECT_KEY
+ - PDVD_COPY_PROTECT_KEY
  - DVD_COPY_PROTECT_KEY
 ---
 
@@ -96,3 +98,4 @@ Contains the key data that was returned.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_key">IOCTL_DVD_READ_KEY</a>
+

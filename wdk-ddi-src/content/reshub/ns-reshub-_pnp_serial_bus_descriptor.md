@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Reshub.h
 api_name:
+ - _PNP_SERIAL_BUS_DESCRIPTOR
+ - PPNP_SERIAL_BUS_DESCRIPTOR
  - PNP_SERIAL_BUS_DESCRIPTOR
 ---
 
@@ -113,3 +115,4 @@ This structure defines the data fields in a serial bus connection descriptor, as
 For example, for a device on an I2C bus, the <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure (and its bus-type-specific extension) specify the bus address of the device, the address mode (7-bit or 10-bit), and the frequency at which to run the bus clock when the device is accessed. For a code example that shows how an I2C controller driver extracts this information from the structure, see <a href="/windows-hardware/drivers/spb/how-to-get-the-connection-settings-for-a-device">How to Get the Connection Settings for a Device</a>.
 
 The <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure definition in the Reshub.h header file is preceded by an include statement for the Pshpack1.h header file, which configures the compiler to pack adjacent structure members to byte boundaries, without intervening gaps. Software can then overlay the packed structure over the memory image of the serial bus connection descriptor to access the individual fields of this descriptor. The USHORT members of the structure might not be aligned to even byte boundaries in memory. The bytes in the USHORT members are stored in little-endian order for the x86, x64, and ARM processor architectures.
+

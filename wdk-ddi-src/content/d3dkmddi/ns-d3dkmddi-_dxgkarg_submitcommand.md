@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SUBMITCOMMAND
  - DXGKARG_SUBMITCOMMAND
 ---
 
@@ -192,3 +193,4 @@ The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
+

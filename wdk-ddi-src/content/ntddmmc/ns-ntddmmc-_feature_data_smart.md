@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_SMART
+ - PFEATURE_DATA_SMART
  - FEATURE_DATA_SMART
 ---
 
@@ -80,3 +82,4 @@ This structure holds data for the feature named "S.M.A.R.T." by the <i>SCSI Mult
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

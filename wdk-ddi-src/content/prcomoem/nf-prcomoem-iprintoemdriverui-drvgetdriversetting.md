@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUI.DrvGetDriverSetting
+ - IPrintOemDriverUI::DrvGetDriverSetting
 ---
 
 # IPrintOemDriverUI::DrvGetDriverSetting
@@ -137,3 +137,4 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
+

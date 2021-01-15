@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVD_YUV
+ - PKS_DVD_YUV
  - KS_DVD_YUV
 ---
 
@@ -76,3 +78,4 @@ The KS_DVD_YUV structure is used
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvd_ycrcb">KS_DVD_YCrCb</a>
+

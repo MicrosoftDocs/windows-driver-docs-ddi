@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
+ - PDXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
  - DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 f1_keywords:
  - _DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
@@ -59,3 +60,4 @@ dev_langs:
 ## -see-also
 
 [**DxgkddiSystemDisplayEnable**](./nc-dispmprt-dxgkddi_system_display_enable.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DRIVER_UPGRADE_INFO_1
+ - PDRIVER_UPGRADE_INFO_1
  - DRIVER_UPGRADE_INFO_1
 ---
 
@@ -68,3 +70,4 @@ Pointer to a NULL-terminated string that specifies the local directory in which 
 
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>
+

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - ReadControlSpace64
+ - _READCONTROLSPACE64
+ - PREADCONTROLSPACE64
+ - READCONTROLSPACE64
 ---
 
 # _READCONTROLSPACE64 structure
@@ -121,3 +123,4 @@ This macro does not return a value.
 
 
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
+

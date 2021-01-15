@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCollectDbgInfo
+ - DXGKDDI_COLLECTDBGINFO
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ For more information, see <a href="/windows-hardware/drivers/display/tdr-changes
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetfromtimeout">DxgkDdiResetFromTimeout</a>
+

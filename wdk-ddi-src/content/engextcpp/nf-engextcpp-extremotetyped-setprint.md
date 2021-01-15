@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.SetPrint
+ - ExtRemoteTyped::SetPrint
 ---
 
 # ExtRemoteTyped::SetPrint
@@ -86,3 +86,4 @@ This method does not return a value.
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr)">ExtRemoteTyped::Set(pcstr)</a>
+

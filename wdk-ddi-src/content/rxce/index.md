@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxce
  - rxce/rxce
+api_name:
+ - rxce
 ---
 
 # Rxce.h header

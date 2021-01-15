@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_POST_OPERATION_INFORMATION
+ - POB_POST_OPERATION_INFORMATION
  - OB_POST_OPERATION_INFORMATION
 ---
 
@@ -118,3 +120,4 @@ Unlike the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_pre_operation_i
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+

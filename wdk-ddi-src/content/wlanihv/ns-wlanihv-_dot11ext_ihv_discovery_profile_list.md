@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST
+ - PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST
  - DOT11EXT_IHV_DISCOVERY_PROFILE_LIST
 ---
 
@@ -79,3 +81,4 @@ typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST {
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
    DOT11EXT_IHV_DISCOVERY_PROFILE</a>
+

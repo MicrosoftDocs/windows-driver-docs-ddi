@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiamdef.h
 api_name:
- - CWiaLogProc.~CWiaLogProc
+ - CWiaLogProc::~CWiaLogProc
 ---
 
 # CWiaLogProc::~CWiaLogProc
@@ -50,3 +50,4 @@ The **~CWiaLogProc** destructor is called when the function or method being logg
 ## -see-also
 
 [CWiaLogProc](./nf-wiamdef-cwialogproc-cwialogproc.md)
+

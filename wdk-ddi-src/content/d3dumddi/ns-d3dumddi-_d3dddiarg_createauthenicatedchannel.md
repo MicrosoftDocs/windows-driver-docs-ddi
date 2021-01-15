@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEAUTHENICATEDCHANNEL
  - D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
 ---
 
@@ -71,3 +72,4 @@ The D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure identifies a channel to creat
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_ddiauthenticatedchanneltype">DDIAUTHENTICATEDCHANNELTYPE</a>
+

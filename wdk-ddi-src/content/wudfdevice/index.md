@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wudfdevice
  - wudfdevice/wudfdevice
+api_name:
+ - wudfdevice
 ---
 
 # Wudfdevice.h header

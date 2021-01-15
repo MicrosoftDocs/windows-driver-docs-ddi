@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_DEVICE_INTERFACE_STANDARD
+ - PSRIOV_DEVICE_INTERFACE_STANDARD
  - SRIOV_DEVICE_INTERFACE_STANDARD
 ---
 
@@ -147,3 +149,4 @@ typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
 
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
+

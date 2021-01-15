@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLFS_CONTEXT_MODE
+ - PCLFS_CONTEXT_MODE
  - CLFS_CONTEXT_MODE
 ---
 
@@ -84,3 +86,4 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
+

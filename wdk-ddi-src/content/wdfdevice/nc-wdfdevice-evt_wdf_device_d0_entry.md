@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceD0Entry
+ - EVT_WDF_DEVICE_D0_ENTRY
 ---
 
 # EVT_WDF_DEVICE_D0_ENTRY callback function
@@ -122,3 +122,4 @@ The <i>EvtDeviceD0Entry</i> callback function is called at IRQL = PASSIVE_LEVEL.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>
+

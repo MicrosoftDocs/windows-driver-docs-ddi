@@ -33,6 +33,7 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _GAMMA_RAMP_DXGI_1
  - GAMMA_RAMP_DXGI_1
 dev_langs:
  - c++

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _VPB
+ - PVPB
  - VPB
 ---
 
@@ -190,3 +192,4 @@ Drivers must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioacquir
 
 
 <a href="/windows-hardware/drivers/ifs/how-the-volume-is-mounted">How the Volume Is Mounted</a>
+

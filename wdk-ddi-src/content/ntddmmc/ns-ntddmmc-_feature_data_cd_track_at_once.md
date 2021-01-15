@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CD_TRACK_AT_ONCE
+ - PFEATURE_DATA_CD_TRACK_AT_ONCE
  - FEATURE_DATA_CD_TRACK_AT_ONCE
 ---
 
@@ -108,3 +110,4 @@ This structure holds data for the feature named "CD Track at Once" by the <i>MMC
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

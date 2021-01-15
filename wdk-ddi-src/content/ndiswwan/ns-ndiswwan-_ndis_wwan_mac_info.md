@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_MAC_INFO
+ - PNDIS_WWAN_MAC_INFO
  - NDIS_WWAN_MAC_INFO
 ---
 

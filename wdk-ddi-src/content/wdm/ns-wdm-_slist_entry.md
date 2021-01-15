@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _SLIST_ENTRY
+ - PSLIST_ENTRY
  - SLIST_ENTRY
 ---
 
@@ -76,3 +78,4 @@ For more information about how to use <b>SLIST_ENTRY</b> structures to implement
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinterlockedpushentryslist">ExInterlockedPushEntrySList</a>
+

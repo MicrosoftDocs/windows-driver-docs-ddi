@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_IKEEXT_V4_
  - FWPS_FIELDS_IKEEXT_V4
 ---
 
@@ -89,3 +90,4 @@ The maximum value for this enumeration. This value might change in future versio
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - wlclient
  - wlclient/wlclient
+api_name:
+ - wlclient
 ---
 
 # Wlclient.h header

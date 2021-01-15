@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_RedirectPortalInfo
+ - PISCSI_RedirectPortalInfo
  - ISCSI_RedirectPortalInfo
 ---
 
@@ -88,3 +90,4 @@ This value is <b>true</b> if redirection is temporary.
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

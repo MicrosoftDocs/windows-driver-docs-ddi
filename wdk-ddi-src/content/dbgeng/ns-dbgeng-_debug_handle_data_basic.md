@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_HANDLE_DATA_BASIC
+ - PDEBUG_HANDLE_DATA_BASIC
  - DEBUG_HANDLE_DATA_BASIC
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _RemoveiSNSServer_OUT
+ - PRemoveiSNSServer_OUT
  - RemoveiSNSServer_OUT
 ---
 
@@ -68,3 +70,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeisnsserver_in">RemoveiSNSServer_IN</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
+ - PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT
  - WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
 ---
 
@@ -72,3 +74,4 @@ An identifier value for the WIM file data source to suspend.
 
 
 <a href="/windows-hardware/drivers/ifs/fsctl-update-overlay">FSCTL_UPDATE_OVERLAY</a>
+

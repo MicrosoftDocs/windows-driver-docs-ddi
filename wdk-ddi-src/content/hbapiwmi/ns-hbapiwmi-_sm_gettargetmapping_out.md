@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetTargetMapping_OUT
+ - PSM_GetTargetMapping_OUT
  - SM_GetTargetMapping_OUT
 ---
 
@@ -72,3 +74,4 @@ An array of structures of type SMHBA_SCSIENTRY that describes an HBA's bindings 
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_GetTargetMapping_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+

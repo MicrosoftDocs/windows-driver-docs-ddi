@@ -12,6 +12,8 @@ tech.root: wpd_dk
 f1_keywords:
  - portabledevicetypes
  - portabledevicetypes/portabledevicetypes
+api_name:
+ - portabledevicetypes
 ---
 
 # portabledevicetypes.h header

@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - logicaladdress
  - logicaladdress/logicaladdress
+api_name:
+ - logicaladdress
 ---
 
 # Logicaladdress.h header

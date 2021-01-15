@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.SelectSetting
+ - IWDFUsbInterface::SelectSetting
 ---
 
 # IWDFUsbInterface::SelectSetting
@@ -118,3 +118,4 @@ hr = pIWDFUsbInterface->SelectSetting(SettingNumber);</code></pre>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
+

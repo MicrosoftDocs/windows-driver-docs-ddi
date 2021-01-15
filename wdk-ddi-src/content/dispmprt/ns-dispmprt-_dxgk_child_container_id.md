@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_CHILD_CONTAINER_ID
+ - PDXGK_CHILD_CONTAINER_ID
  - DXGK_CHILD_CONTAINER_ID
 ---
 
@@ -94,3 +96,4 @@ For more information about Container IDs, see <a href="/windows/desktop/com/com-
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a>
+

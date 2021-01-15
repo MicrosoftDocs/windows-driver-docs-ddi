@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_VENDOR_SPECIFIC
+ - PWWAN_VENDOR_SPECIFIC
  - WWAN_VENDOR_SPECIFIC
 ---
 
@@ -66,3 +68,4 @@ NDIS_WWAN_VENDOR_SPECIFIC should have the data following the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_vendor_specific">NDIS_WWAN_VENDOR_SPECIFIC</a>
+

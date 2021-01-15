@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SETPOINTERPOSITIONFLAGS
  - DXGK_SETPOINTERPOSITIONFLAGS
 ---
 
@@ -76,3 +77,4 @@ Supported starting with Windows 8.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a>
+

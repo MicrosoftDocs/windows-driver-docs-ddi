@@ -41,6 +41,8 @@ api_type:
 api_location:
  - npivwmi.h
 api_name:
+ - _MSFC_VirtualFibrePortAttributes
+ - PMSFC_VirtualFibrePortAttributes
  - MSFC_VirtualFibrePortAttributes
 ---
 
@@ -84,3 +86,4 @@ The world wide port name of the fabric.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msfc-virtualfibreportattributes-wmi-class">MSFC_VirtualFibrePortAttributes WMI Class</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaSegmentationFilter.DetectRegions
+ - IWiaSegmentationFilter::DetectRegions
 ---
 
 # IWiaSegmentationFilter::DetectRegions
@@ -97,3 +97,4 @@ If an application changes any properties into <i>pWiaItem2</i>, between acquirin
 The application must reset the <b>IStream </b>preview if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling <b>IWiaSegmentationFilter::DetectRegions</b>.
 
 The <b>IStream,IWiaItem2</b> and <b>IWiaPropertyStorage </b>interfaces are described in the Microsoft Windows SDK documentation.
+

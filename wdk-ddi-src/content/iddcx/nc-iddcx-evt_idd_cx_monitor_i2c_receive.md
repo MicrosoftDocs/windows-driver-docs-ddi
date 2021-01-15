@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_I2C_RECEIVE
+ - EVT_IDD_CX_MONITOR_I2C_RECEIVE
 ---
 
 # EVT_IDD_CX_MONITOR_I2C_RECEIVE callback function
@@ -84,3 +84,4 @@ If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> must
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
+

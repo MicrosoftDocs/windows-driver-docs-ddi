@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - CreateCallback
+ - SILO_MONITOR_CREATE_CALLBACK
 ---
 
 # SILO_MONITOR_CREATE_CALLBACK callback function

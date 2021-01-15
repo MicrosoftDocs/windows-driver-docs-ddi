@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IEquatableConcept.Release
+ - IEquatableConcept::Release
 ---
 
 # IEquatableConcept::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IEquatableConcept interface](nn-dbgmodel-iequatableconcept.md)
+

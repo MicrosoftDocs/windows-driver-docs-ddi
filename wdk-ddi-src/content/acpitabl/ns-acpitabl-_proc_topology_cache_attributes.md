@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _PROC_TOPOLOGY_CACHE_ATTRIBUTES
+ - PPROC_TOPOLOGY_CACHE_ATTRIBUTES
+ - PROC_TOPOLOGY_CACHE_ATTRIBUTES
 ---
 
 # _PROC_TOPOLOGY_CACHE_ATTRIBUTES structure
+
 
 ## -description
 
@@ -63,3 +66,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

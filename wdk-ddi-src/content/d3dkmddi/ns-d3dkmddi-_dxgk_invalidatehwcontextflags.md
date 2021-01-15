@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_INVALIDATEHWCONTEXTFLAGS
+ - DXGK_INVALIDATEHWCONTEXTFLAGS
 dev_langs:
  - c++
 ---

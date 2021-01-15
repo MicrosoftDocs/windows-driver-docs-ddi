@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_USB_STRING
+ - PUSBFN_USB_STRING
  - USBFN_USB_STRING
 ---
 
@@ -64,3 +66,4 @@ Pointer to the string.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_register_usb_string">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
+

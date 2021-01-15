@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPowerManagement.QueryPowerChangeState
+ - IAdapterPowerManagement::QueryPowerChangeState
 ---
 
 # IAdapterPowerManagement::QueryPowerChangeState
@@ -75,3 +75,4 @@ The code for this method must reside in paged memory.
 
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>
+

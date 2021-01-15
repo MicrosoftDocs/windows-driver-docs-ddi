@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnAllocateCb
+ - PFND3DDDI_ALLOCATECB
 product:
  - Windows
 ---
@@ -190,3 +190,4 @@ The following code example shows how to allocate memory for a resource.
  
 
 [Direct3D Runtime Functions Called by the User-Mode Display Drivers](/windows-hardware/drivers/display/direct3d-runtime-functions-called-by-user-mode)
+

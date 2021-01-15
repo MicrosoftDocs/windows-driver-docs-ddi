@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnAllocateCb
+ - PFND3D12DDI_ALLOCATE_CB_0022
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ The driver must check the return value of the function.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022">pfnDeallocateCb</a>
+

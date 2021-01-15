@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _DEVICE_INTERFACE_CHANGE_NOTIFICATION
+ - PDEVICE_INTERFACE_CHANGE_NOTIFICATION
  - DEVICE_INTERFACE_CHANGE_NOTIFICATION
 ---
 
@@ -92,3 +94,4 @@ This structure is allocated from paged memory.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+

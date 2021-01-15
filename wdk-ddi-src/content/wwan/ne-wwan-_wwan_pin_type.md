@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_PIN_TYPE
+ - PWWAN_PIN_TYPE
+ - WWAN_PIN_TYPE
 ---
 
 # _WWAN_PIN_TYPE enumeration
@@ -147,3 +149,4 @@ This enumeration is used in the following structures:
 [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md)
 
 [**WWAN_PIN_ACTION_EX2**](../wwan/ns-wwan-_wwan_pin_action_ex2.md)
+

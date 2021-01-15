@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.GetSourceEntryOffsetRegions
+ - IDebugSymbols3::GetSourceEntryOffsetRegions
 ---
 
 # IDebugSymbols3::GetSourceEntryOffsetRegions
@@ -94,3 +94,4 @@ This function returns all known memory regions that associated
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentryoffsetregions">IDebugSymbols3::GetSymbolEntryOffsetRegions</a>
+

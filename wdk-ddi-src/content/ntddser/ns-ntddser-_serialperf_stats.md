@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIALPERF_STATS
+ - PSERIALPERF_STATS
  - SERIALPERF_STATS
 ---
 
@@ -90,3 +92,4 @@ To reset the performance statistics to zero, send an <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>
+

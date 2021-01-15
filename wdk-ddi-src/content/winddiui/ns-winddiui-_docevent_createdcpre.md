@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DOCEVENT_CREATEDCPRE
+ - PDCEVENT_CREATEDCPRE
  - DOCEVENT_CREATEDCPRE
 ---
 
@@ -82,3 +84,4 @@ This structure is used in conjunction with a call to <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>
+

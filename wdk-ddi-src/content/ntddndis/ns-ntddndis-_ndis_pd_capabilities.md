@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PD_CAPABILITIES
  - NDIS_PD_CAPABILITIES
 ---
 
@@ -172,3 +173,4 @@ If a provider can partition Rx or Tx queues flexibly between virtual ports then 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

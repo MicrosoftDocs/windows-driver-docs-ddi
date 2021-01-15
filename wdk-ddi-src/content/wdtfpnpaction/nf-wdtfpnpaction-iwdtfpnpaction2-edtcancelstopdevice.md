@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.EDTCancelStopDevice
+ - IWDTFPNPAction2::EDTCancelStopDevice
 ---
 
 # IWDTFPNPAction2::EDTCancelStopDevice
@@ -74,3 +74,4 @@ by setting EDTRS_QueryStopVetoed in ppResult.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

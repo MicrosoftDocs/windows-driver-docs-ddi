@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_WRITE_SPEED_DESCRIPTOR
+ - PCDROM_WRITE_SPEED_DESCRIPTOR
  - CDROM_WRITE_SPEED_DESCRIPTOR
 ---
 
@@ -103,3 +105,4 @@ specification for the Write Speed Descriptor.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>
+

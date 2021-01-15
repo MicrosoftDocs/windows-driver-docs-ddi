@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPERSODEACTIVATIONSTATE
+ - LPRILPERSODEACTIVATIONSTATE
 ---
 
 # RILPERSODEACTIVATIONSTATE structure (ntddrilapitypes.h)

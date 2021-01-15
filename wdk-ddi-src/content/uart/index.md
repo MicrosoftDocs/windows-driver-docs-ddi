@@ -12,6 +12,8 @@ tech.root: serports
 f1_keywords:
  - uart
  - uart/uart
+api_name:
+ - uart
 ---
 
 # Uart.h header

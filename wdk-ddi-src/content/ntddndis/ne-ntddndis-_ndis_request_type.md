@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_REQUEST_TYPE
+ - PNDIS_REQUEST_TYPE
  - NDIS_REQUEST_TYPE
 ---
 
@@ -134,3 +136,4 @@ The NDIS_REQUEST_TYPE enumeration is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+

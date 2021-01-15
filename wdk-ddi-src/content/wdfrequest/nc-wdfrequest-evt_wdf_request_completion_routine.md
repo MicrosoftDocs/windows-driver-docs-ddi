@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfrequest.h
 api_name:
- - CompletionRoutine
+ - EVT_WDF_REQUEST_COMPLETION_ROUTINE
 ---
 
 # EVT_WDF_REQUEST_COMPLETION_ROUTINE callback function
@@ -123,7 +123,6 @@ VOID
   {...}
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a>
@@ -131,3 +130,4 @@ VOID
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetcompletionroutine">WdfRequestSetCompletionRoutine</a>
+

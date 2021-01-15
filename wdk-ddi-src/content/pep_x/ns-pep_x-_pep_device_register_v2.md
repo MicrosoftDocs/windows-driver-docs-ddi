@@ -40,6 +40,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_DEVICE_REGISTER_V2
+ - PPEP_DEVICE_REGISTER_V2
  - PEP_DEVICE_REGISTER_V2
 ---
 
@@ -75,3 +77,4 @@ The <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE</a>
+

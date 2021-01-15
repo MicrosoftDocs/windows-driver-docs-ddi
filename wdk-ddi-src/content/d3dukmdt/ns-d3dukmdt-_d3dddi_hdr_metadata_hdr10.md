@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_HDR_METADATA_HDR10
  - D3DDDI_HDR_METADATA_HDR10
 ---
 

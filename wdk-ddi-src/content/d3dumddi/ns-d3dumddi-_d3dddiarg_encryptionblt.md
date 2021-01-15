@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_ENCRYPTIONBLT
  - D3DDDIARG_ENCRYPTIONBLT
 ---
 
@@ -82,3 +83,4 @@ The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted b
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_encryptionblt">EncryptionBlt</a>
+

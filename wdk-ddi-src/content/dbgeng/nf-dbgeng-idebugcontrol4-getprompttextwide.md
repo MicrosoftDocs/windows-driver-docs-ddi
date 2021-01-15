@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetPromptTextWide
+ - IDebugControl4::GetPromptTextWide
 ---
 
 # IDebugControl4::GetPromptTextWide
@@ -112,3 +112,4 @@ For more information about prompting the user, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a>
+

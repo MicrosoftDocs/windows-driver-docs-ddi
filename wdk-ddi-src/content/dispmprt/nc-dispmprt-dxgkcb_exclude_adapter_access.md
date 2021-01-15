@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbExcludeAdapterAccess
+ - DXGKCB_EXCLUDE_ADAPTER_ACCESS
 ---
 
 # DXGKCB_EXCLUDE_ADAPTER_ACCESS callback function
@@ -111,3 +111,4 @@ An exception to this blocking of application requests occurs when the user-mode 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_protected_callback">DxgkProtectedCallback</a>
+

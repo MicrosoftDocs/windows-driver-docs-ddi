@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.ExpandIntentOptions
+ - IPrintOemPrintTicketProvider::ExpandIntentOptions
 ---
 
 # IPrintOemPrintTicketProvider::ExpandIntentOptions
@@ -63,3 +63,4 @@ A pointer to a print ticket.
 The Unidrv or Pscript5 driver calls <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> to enable the plug-in to expand options that represent intent into their individual settings in other features in the print ticket before print ticket validation. Such option expansion has two important effects: the client receives information about the results of the intent expansion, and the core driver resolves constraints against the individual features that are affected by the intent.
 
 We recommend that the driver preserve the state of the intent option in the driver's private <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure when it converts a print ticket to a DEVMODEW, and then from a DEVMODEW back to a print ticket.
+

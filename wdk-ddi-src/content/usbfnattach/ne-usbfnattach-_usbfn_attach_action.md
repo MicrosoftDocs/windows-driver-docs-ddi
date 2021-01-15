@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnattach.h
 api_name:
+ - _USBFN_ATTACH_ACTION
+ - PUSBFN_ATTACH_ACTION
  - USBFN_ATTACH_ACTION
 ---
 
@@ -78,3 +80,4 @@ The USB function stack calls the <a href="/windows-hardware/drivers/ddi/ufxpropr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
+

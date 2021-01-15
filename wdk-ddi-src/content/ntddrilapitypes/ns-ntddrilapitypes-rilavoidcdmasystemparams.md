@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILAVOIDCDMASYSTEMPARAMS
+ - LPRILAVOIDCDMASYSTEMPARAMS
 ---
 
 # RILAVOIDCDMASYSTEMPARAMS structure (ntddrilapitypes.h)

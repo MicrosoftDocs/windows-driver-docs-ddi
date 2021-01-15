@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_GET_VISIBLE_PROVIDERS
+ - PNDIS_WWAN_GET_VISIBLE_PROVIDERS
  - NDIS_WWAN_GET_VISIBLE_PROVIDERS
 ---
 
@@ -110,3 +112,4 @@ A formatted WWAN_GET_VISIBLE_PROVIDERS object that provides additional informati
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_visible_providers">WWAN_GET_VISIBLE_PROVIDERS</a>
+

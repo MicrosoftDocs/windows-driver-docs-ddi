@@ -33,10 +33,12 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_PACKETVREGISTER_PROPERTY
  - KSRTAUDIO_PACKETVREGISTER_PROPERTY
 ---
 
 # KSRTAUDIO_PACKETVREGISTER_PROPERTY structure
+
 
 ## -description
 
@@ -57,3 +59,4 @@ A PVOID pointer to the property's base address.
 ## -see-also
 
 [KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)
+

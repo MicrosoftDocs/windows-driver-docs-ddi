@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - NegotiateCryptoSessionKeyExchange
+ - PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
 product:
  - Windows
 ---
@@ -91,3 +91,4 @@ The key exchange for a cryptographic session is identical to the key exchange fo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+

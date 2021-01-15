@@ -40,6 +40,7 @@ api_location:
  - Windot11.h
 api_name:
  - DOT11_OFFLOAD_NETWORK
+ - PDOT11_OFFLOAD_NETWORK
 product:
  - Windows 10 or later.
 ---
@@ -81,3 +82,4 @@ typedef struct _DOT11_OFFLOAD_NETWORK {
   DOT11_CHANNEL_HINT     Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS];
 } DOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK;
 ```
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrIntersectHandler
+ - PFNKSINTERSECTHANDLER
 ---
 
 # PFNKSINTERSECTHANDLER callback function
@@ -116,3 +116,4 @@ If there is no intersection.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersection">KsPinDataIntersection</a>
+

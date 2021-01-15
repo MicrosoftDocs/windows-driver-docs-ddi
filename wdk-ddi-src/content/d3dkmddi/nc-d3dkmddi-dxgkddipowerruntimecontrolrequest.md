@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiPowerRuntimeControlRequest
+ - DXGKDDIPOWERRUNTIMECONTROLREQUEST
 product:
  - Windows
 ---
@@ -200,3 +200,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

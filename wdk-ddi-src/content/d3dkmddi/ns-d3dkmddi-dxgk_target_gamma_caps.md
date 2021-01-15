@@ -35,6 +35,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_TARGET_GAMMA_CAPS
+ - PDXGK_TARGET_GAMMA_CAPS
  - DXGK_TARGET_GAMMA_CAPS
 dev_langs:
  - c++

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
+ - DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 product:
  - Windows
 ---

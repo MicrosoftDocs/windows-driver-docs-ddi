@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_HASH_PARAMETERS
+ - PNDIS_RECEIVE_HASH_PARAMETERS
  - NDIS_RECEIVE_HASH_PARAMETERS
 ---
 
@@ -188,3 +190,4 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-receive-hash">OID_GEN_RECEIVE_HASH</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdffdo.h
 api_name:
+ - _WDF_FDO_EVENT_CALLBACKS
+ - PWDF_FDO_EVENT_CALLBACKS
  - WDF_FDO_EVENT_CALLBACKS
 ---
 
@@ -94,3 +96,4 @@ A driver that specifies an <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdff
 
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>
+

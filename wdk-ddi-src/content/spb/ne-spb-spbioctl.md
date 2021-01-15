@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SpbIoctl
+ - PSpbIoctl
 ---
 
 # SpbIoctl enumeration
@@ -76,3 +77,4 @@ The <a href="/windows-hardware/drivers/spb/spb-ioctls">IOCTL_SPB_UNLOCK_CONNECTI
 ### -field IOCTL_SPB_FULL_DUPLEX
 
 The <a href="/windows-hardware/drivers/spb/spb-ioctls">IOCTL_SPB_FULL_DUPLEX</a> control code is used by a client (peripheral driver) to request a full-duplex I/O operation. Full-duplex I/O operations are supported by controllers for buses such as SPI that can simultaneously read and write data.
+

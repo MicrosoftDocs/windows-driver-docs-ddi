@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_CLOSED
+ - EVT_VMB_CHANNEL_CLOSED
 ---
 
 # EVT_VMB_CHANNEL_CLOSED callback function
@@ -83,3 +83,4 @@ After this  is function invoked, packets can be queued, but they cannot be sent.
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable">VmbChannelEnable</a>
+

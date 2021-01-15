@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaEnabler.h
 api_name:
- - EvtDmaEnablerSelfManagedIoStart
+ - EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START
 ---
 
 # EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback function
@@ -79,3 +79,4 @@ The <i>EvtDmaEnablerSelfManagedIoStart</i> callback function is called at IRQL =
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfcompanion.h
 api_name:
+ - _WDF_TASK_QUEUE_CONFIG
+ - PWDF_TASK_QUEUE_CONFIG
  - WDF_TASK_QUEUE_CONFIG
 ---
 

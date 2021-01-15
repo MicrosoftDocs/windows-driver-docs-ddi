@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CreateDevice
+ - PFND3D10DDI_CREATEDEVICE
 product:
  - Windows
 ---
@@ -94,3 +94,4 @@ Generally, devices are independent of each other, so that resources that are cre
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a>
+

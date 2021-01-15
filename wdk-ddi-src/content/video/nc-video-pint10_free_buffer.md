@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - Int10FreeBuffer
+ - PINT10_FREE_BUFFER
 ---
 
 # PINT10_FREE_BUFFER callback function
@@ -75,3 +75,4 @@ The video port implements this function, which can be accessed through a pointer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a>
+

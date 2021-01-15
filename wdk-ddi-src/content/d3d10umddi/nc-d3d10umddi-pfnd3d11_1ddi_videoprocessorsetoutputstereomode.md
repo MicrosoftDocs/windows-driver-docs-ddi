@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputStereoMode
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function
@@ -89,3 +89,4 @@ The driver reports its ability to support stereo video modes through the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
+

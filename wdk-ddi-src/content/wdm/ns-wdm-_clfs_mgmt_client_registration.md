@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLFS_MGMT_CLIENT_REGISTRATION
+ - PCLFS_MGMT_CLIENT_REGISTRATION
  - CLFS_MGMT_CLIENT_REGISTRATION
 ---
 
@@ -92,3 +94,4 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_log_unpinned_callback">ClfsLogUnpinnedCallback</a>
+

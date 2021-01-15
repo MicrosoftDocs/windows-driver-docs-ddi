@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IInterruptSync.Disconnect
+ - IInterruptSync::Disconnect
 ---
 
 # IInterruptSync::Disconnect
@@ -54,3 +54,4 @@ The <code>Disconnect</code> method disconnects the synchronization object from t
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterrupt">IoDisconnectInterrupt</a>
+

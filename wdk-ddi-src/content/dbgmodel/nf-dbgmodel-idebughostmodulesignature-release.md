@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostModuleSignature.Release
+ - IDebugHostModuleSignature::Release
 ---
 
 # IDebugHostModuleSignature::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostModuleSignature interface](nn-dbgmodel-idebughostmodulesignature.md)
+

@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - bdamedia
  - bdamedia/bdamedia
+api_name:
+ - bdamedia
 ---
 
 # Bdamedia.h header

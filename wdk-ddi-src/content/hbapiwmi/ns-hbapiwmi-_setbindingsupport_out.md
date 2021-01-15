@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SetBindingSupport_OUT
+ - PSetBindingSupport_OUT
  - SetBindingSupport_OUT
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the SetBindingSupport_OUT structur
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/setbindingsupport">SetBindingSupport</a>
+

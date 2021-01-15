@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KEY_INFORMATION_CLASS
  - KEY_INFORMATION_CLASS
 ---
 
@@ -126,3 +127,4 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePci.Service
+ - IMiniportWavePci::Service
 ---
 
 # IMiniportWavePci::Service
@@ -72,3 +72,4 @@ When the miniport driver's ISR calls the port driver's <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>
+

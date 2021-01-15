@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsReferenceClock.GetPhysicalTime
+ - IKsReferenceClock::GetPhysicalTime
 ---
 
 # IKsReferenceClock::GetPhysicalTime
@@ -66,3 +66,4 @@ AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-phy
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+

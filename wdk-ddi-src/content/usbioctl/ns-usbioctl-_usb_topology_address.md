@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_TOPOLOGY_ADDRESS
+ - PUSB_TOPOLOGY_ADDRESS
  - USB_TOPOLOGY_ADDRESS
 ---
 
@@ -88,3 +90,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

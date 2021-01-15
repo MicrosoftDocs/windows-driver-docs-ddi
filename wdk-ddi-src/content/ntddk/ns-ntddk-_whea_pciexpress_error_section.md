@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PCIEXPRESS_ERROR_SECTION
+ - PWHEA_PCIEXPRESS_ERROR_SECTION
  - WHEA_PCIEXPRESS_ERROR_SECTION
 ---
 
@@ -372,3 +374,4 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section_validbits">WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS</a>
+

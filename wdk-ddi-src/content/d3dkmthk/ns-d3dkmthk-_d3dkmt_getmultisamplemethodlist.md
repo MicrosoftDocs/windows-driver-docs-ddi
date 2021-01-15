@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETMULTISAMPLEMETHODLIST
  - D3DKMT_GETMULTISAMPLEMETHODLIST
 ---
 
@@ -94,3 +95,4 @@ If the runtime returns a non-<b>NULL</b> value in <b>pMethodList</b>, the runtim
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_multisamplemethod">D3DKMT_MULTISAMPLEMETHOD</a>
+

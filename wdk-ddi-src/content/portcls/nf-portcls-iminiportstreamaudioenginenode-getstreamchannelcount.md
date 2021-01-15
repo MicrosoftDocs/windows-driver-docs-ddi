@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetStreamChannelCount
+ - IMiniportStreamAudioEngineNode::GetStreamChannelCount
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelCount
@@ -72,3 +72,4 @@ code.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a>
+

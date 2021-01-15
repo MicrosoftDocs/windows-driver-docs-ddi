@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_SESSION_EVENT
+ - PIO_SESSION_EVENT
  - IO_SESSION_EVENT
 ---
 
@@ -96,3 +98,4 @@ A session event causes a transition from one session state to another. For more 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>
+

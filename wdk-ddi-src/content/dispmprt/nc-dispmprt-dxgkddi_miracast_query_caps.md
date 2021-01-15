@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiMiracastQueryCaps
+ - DXGKDDI_MIRACAST_QUERY_CAPS
 ---
 
 # DXGKDDI_MIRACAST_QUERY_CAPS callback function
@@ -83,3 +83,4 @@ The operating system guarantees that this function follows the third-level synch
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

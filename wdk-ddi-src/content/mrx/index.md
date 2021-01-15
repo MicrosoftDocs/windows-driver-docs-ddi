@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - mrx
  - mrx/mrx
+api_name:
+ - mrx
 ---
 
 # Mrx.h header

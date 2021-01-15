@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_DEVICE_PLATFORM_CONSTRAINTS
+ - PPEP_DEVICE_PLATFORM_CONSTRAINTS
  - PEP_DEVICE_PLATFORM_CONSTRAINTS
 ---
 
@@ -80,3 +82,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+

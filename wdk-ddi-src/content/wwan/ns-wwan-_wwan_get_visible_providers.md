@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_GET_VISIBLE_PROVIDERS
+ - PWWAN_GET_VISIBLE_PROVIDERS
  - WWAN_GET_VISIBLE_PROVIDERS
 ---
 
@@ -96,3 +98,4 @@ Only providers that are currently visible and that can be set as home provider s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_get_visible_providers">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
+

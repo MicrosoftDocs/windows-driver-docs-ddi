@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _BRB
+ - PBRB
  - BRB
 ---
 
@@ -278,3 +280,4 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_unregister_server">_BRB_SCO_UNREGISTER_SERVER</a>
+

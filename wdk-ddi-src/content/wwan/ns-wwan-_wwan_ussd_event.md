@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_EVENT
+ - PWWAN_USSD_EVENT
  - WWAN_USSD_EVENT
 ---
 
@@ -76,3 +78,4 @@ The USSD string that accompanies the event.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_string">WWAN_USSD_STRING</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_PROBED_BARS_INFO
+ - PNDIS_SRIOV_PROBED_BARS_INFO
  - NDIS_SRIOV_PROBED_BARS_INFO
 ---
 
@@ -100,3 +102,4 @@ For more information about the base address registers of a PCI device, see the <
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a>
+

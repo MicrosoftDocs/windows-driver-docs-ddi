@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_FLOPPY_DEVICE_DATA
+ - PCM_FLOPPY_DEVICE_DATA
  - CM_FLOPPY_DEVICE_DATA
 ---
 
@@ -136,3 +138,4 @@ The value written to the Datarate register before accessing the media.
 
 
 <a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+

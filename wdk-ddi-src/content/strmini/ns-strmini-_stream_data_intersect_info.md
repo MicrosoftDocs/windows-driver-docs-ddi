@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _STREAM_DATA_INTERSECT_INFO
+ - PSTREAM_DATA_INTERSECT_INFO
  - STREAM_DATA_INTERSECT_INFO
 ---
 
@@ -72,3 +74,4 @@ Specifies the size in bytes of the <b>DataFormatBuffer</b>.
 ## -remarks
 
 The class driver passes this data structure when it submits a <a href="/windows-hardware/drivers/stream/srb-get-data-intersection">SRB_GET_DATA_INTERSECTION</a> request to the minidriver's <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a>.
+

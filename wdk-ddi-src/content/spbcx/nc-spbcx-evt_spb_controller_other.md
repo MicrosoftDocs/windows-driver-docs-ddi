@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerIoOther
+ - EVT_SPB_CONTROLLER_OTHER
 ---
 
 # EVT_SPB_CONTROLLER_OTHER callback function
@@ -147,3 +147,4 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbcontrollersetioothercallback">SpbControllerSetIoOther</a>
+

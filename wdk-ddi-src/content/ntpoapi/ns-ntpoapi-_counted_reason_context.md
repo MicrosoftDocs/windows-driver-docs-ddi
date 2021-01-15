@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _COUNTED_REASON_CONTEXT
+ - PCOUNTED_REASON_CONTEXT
  - COUNTED_REASON_CONTEXT
 ---
 
@@ -112,3 +114,4 @@ The power manager retrieves the resource strings from [STRINGTABLE resources](/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+

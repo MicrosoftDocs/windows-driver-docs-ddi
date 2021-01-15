@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pepfx.h
 api_name:
+ - _PEP_PPM_PERF_SET_STATE
+ - PPEP_PPM_PERF_SET_STATE
  - PEP_PPM_PERF_SET_STATE
 ---
 
@@ -75,3 +77,4 @@ On input, the new requested desired performance state. This state is defined as 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
+

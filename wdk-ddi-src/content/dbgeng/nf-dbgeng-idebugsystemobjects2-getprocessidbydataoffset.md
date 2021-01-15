@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetProcessIdByDataOffset
- - IDebugSystemObjects2.GetProcessIdByDataOffset
- - IDebugSystemObjects3.GetProcessIdByDataOffset
- - IDebugSystemObjects4.GetProcessIdByDataOffset
+ - IDebugSystemObjects2::GetProcessIdByDataOffset
 ---
 
 # IDebugSystemObjects2::GetProcessIdByDataOffset
@@ -102,3 +99,4 @@ This method is currently not available in kernel-mode debugging.
 In user-mode debugging, this method behaves the same as <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbypeb">GetProcessIdByPeb</a>.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

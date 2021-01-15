@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_COMMITVIDPN_FLAGS
  - DXGKARG_COMMITVIDPN_FLAGS
 ---
 
@@ -100,3 +101,4 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_set_power_state">DxgkDdiSetPowerState</a>
+

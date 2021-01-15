@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiGetNodeMetadata
+ - DXGKDDI_GETNODEMETADATA
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ For more information on how to implement this function, see <a href="/windows-ha
 [DXGK_NODEMETADATA](../d3dkmdt/ns-d3dkmdt-_dxgk_nodemetadata.md)
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

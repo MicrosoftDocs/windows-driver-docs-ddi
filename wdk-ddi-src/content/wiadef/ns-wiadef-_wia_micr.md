@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_MICR
  - WIA_MICR
 ---
 
@@ -80,3 +81,4 @@ Placeholder for a sequence of <b>Count</b> contiguous <a href="/windows-hardware
 ## -remarks
 
 The header must be followed by a sequence of MICR information structures, one for each decoded MICR code, in the order the MICR codes were found and decoded.
+

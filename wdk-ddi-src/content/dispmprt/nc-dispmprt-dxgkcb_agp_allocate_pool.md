@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - AgpAllocatePool
+ - DXGKCB_AGP_ALLOCATE_POOL
 ---
 
 # DXGKCB_AGP_ALLOCATE_POOL callback function
@@ -102,3 +102,4 @@ Call <b>AgpAllocatePool</b> in the display miniport driver's <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
+

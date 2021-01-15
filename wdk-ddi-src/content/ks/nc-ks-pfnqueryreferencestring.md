@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrQueryReferenceString
+ - PFNQUERYREFERENCESTRING
 ---
 
 # PFNQUERYREFERENCESTRING callback function (ks.h)
@@ -66,3 +66,4 @@ None.
 ## -remarks
 
 The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-bus_interface_reference">BUS_INTERFACE_REFERENCE</a> structure.
+

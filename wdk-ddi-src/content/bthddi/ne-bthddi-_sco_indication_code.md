@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _SCO_INDICATION_CODE
+ - PSCO_INDICATION_CODE
  - SCO_INDICATION_CODE
 ---
 
@@ -89,3 +91,4 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
+

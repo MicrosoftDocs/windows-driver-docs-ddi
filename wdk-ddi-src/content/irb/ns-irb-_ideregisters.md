@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDEREGISTERS
+ - PIDEREGISTERS
  - IDEREGISTERS
 ---
 
@@ -93,3 +95,4 @@ The information reported in the IDEREGISTERS structure is intended to be a super
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>
+

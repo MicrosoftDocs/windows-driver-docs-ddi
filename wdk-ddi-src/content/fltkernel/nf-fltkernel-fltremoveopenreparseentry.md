@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltKernel.h
 api_name:
- - FltAddOpenReparseEntry
+ - FltRemoveOpenReparseEntry
 ---
 
 # FltRemoveOpenReparseEntry function
@@ -72,3 +72,4 @@ The open reparse information to remove, of type <a href="/previous-versions/mt73
 ## -returns
 
 This routine does not return a value.
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetStringValue
+ - IPortableDeviceValues::GetStringValue
 ---
 
 # IPortableDeviceValues::GetStringValue
@@ -119,3 +119,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setstringvalue">IPortableDeviceValues::SetStringValue</a>
+

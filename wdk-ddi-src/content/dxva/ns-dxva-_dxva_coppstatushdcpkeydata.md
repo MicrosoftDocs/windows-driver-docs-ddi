@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPStatusHDCPKeyData
  - DXVA_COPPStatusHDCPKeyData
 ---
 
@@ -107,3 +108,4 @@ Applications initiate a query for HDCP key data to determine if the receiver or 
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusoutput">DXVA_COPPStatusOutput</a>
+

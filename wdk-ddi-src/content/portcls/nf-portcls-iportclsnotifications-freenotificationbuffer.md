@@ -38,7 +38,7 @@ api_location:
  - Portcls.lib
  - Portcls.dll
 api_name:
- - IPortClsNotifications.FreeNotificationBuffer
+ - IPortClsNotifications::FreeNotificationBuffer
 ---
 
 # IPortClsNotifications::FreeNotificationBuffer
@@ -60,3 +60,4 @@ The address of the notification buffer returned in the <a href="/windows-hardwar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
+

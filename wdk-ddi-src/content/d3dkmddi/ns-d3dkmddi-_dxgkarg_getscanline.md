@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_GETSCANLINE
  - DXGKARG_GETSCANLINE
 ---
 
@@ -70,3 +71,4 @@ A video present path represents a connection between a video present source (vie
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a>
+

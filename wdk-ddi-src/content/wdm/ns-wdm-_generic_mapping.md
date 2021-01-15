@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _GENERIC_MAPPING
  - GENERIC_MAPPING
 ---
 
@@ -84,3 +85,4 @@ For more information about generic access rights, see the reference page for <b>
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlmapgenericmask">RtlMapGenericMask</a>
+

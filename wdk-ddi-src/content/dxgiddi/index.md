@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - dxgiddi
  - dxgiddi/dxgiddi
+api_name:
+ - dxgiddi
 ---
 
 # Dxgiddi.h header

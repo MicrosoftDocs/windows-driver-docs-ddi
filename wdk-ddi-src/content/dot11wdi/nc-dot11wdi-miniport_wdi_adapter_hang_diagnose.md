@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiAdapterHangDiagnose
+ - MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE
 ---
 
 # MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback function
@@ -96,3 +96,4 @@ The return value is ignored.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a>
+

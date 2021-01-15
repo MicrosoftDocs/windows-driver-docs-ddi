@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_COMPRESSION_INFORMATION
+ - PFILE_COMPRESSION_INFORMATION
  - FILE_COMPRESSION_INFORMATION
 ---
 
@@ -127,3 +129,4 @@ Reserved
 
 
 <a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>
+

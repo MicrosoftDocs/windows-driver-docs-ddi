@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HCD_DRIVERKEY_NAME
+ - PUSB_HCD_DRIVERKEY_NAME
  - USB_HCD_DRIVERKEY_NAME
 ---
 
@@ -68,3 +70,4 @@ A NULL-terminated Unicode driver key name for the USB host controller.
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

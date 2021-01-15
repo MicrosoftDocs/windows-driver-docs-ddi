@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _PDO_INFORMATION
+ - PPDO_INFORMATION
  - PDO_INFORMATION
 ---
 

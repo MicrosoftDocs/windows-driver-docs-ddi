@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.SetIUnknownValue
+ - IPortableDeviceValues::SetIUnknownValue
 ---
 
 # IPortableDeviceValues::SetIUnknownValue
@@ -93,3 +93,4 @@ If an existing value has the same key that is specified by the <i>key</i> parame
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getiunknownvalue">IPortableDeviceValues::GetIUnknownValue</a>
+

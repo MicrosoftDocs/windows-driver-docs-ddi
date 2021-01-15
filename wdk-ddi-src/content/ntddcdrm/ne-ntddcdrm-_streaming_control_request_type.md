@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _STREAMING_CONTROL_REQUEST_TYPE
+ - PSTREAMING_CONTROL_REQUEST_TYPE
  - STREAMING_CONTROL_REQUEST_TYPE
 ---
 
@@ -76,3 +78,4 @@ Streaming read and streaming write requests will be enabled for the requested fi
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_enable_streaming">IOCTL_CDROM_ENABLE_STREAMING</a>
+

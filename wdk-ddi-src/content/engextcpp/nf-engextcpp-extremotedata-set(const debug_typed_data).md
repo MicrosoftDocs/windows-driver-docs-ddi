@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.Set
+ - ExtRemoteData::Set
 ---
 
 # ExtRemoteData::Set(const DEBUG_TYPED_DATA)
@@ -74,3 +74,4 @@ The <b>Set</b> method will read the contents of the specified region of  memory 
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set (Offset, Bytes)</a>
+

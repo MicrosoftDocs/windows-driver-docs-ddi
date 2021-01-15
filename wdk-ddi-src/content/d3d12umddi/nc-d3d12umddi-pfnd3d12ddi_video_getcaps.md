@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnGetCaps
+ - PFND3D12DDI_VIDEO_GETCAPS
 product:
  - Windows
 ---
@@ -179,3 +179,4 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
+

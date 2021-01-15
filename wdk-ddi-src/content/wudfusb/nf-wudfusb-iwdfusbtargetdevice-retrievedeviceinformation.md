@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.RetrieveDeviceInformation
+ - IWDFUsbTargetDevice::RetrieveDeviceInformation
 ---
 
 # IWDFUsbTargetDevice::RetrieveDeviceInformation
@@ -134,3 +134,4 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a>
+

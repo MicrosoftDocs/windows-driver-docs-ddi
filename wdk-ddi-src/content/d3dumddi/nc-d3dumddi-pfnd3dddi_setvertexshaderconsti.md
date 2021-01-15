@@ -38,7 +38,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetVertexShaderConstI
+ - PFND3DDDI_SETVERTEXSHADERCONSTI
 product:
  - Windows
 dev_langs:
@@ -82,3 +82,4 @@ A pointer to a buffer that contains INT values to copy.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

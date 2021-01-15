@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - InterfaceDereference
+ - PINTERFACE_DEREFERENCE
 ---
 
 # PINTERFACE_DEREFERENCE callback function (wdm.h)
@@ -73,3 +73,4 @@ The driver that imports the interface is responsible for calling the <i>Interfac
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
+

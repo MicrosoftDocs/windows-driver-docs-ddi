@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - MyCamState
+ - PCAM_STATE_ROUTINE
 ---
 
 # PCAM_STATE_ROUTINE callback function
@@ -90,3 +90,4 @@ This function is optional.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/srb-change-power-state">SRB_CHANGE_POWER_STATE</a>
+

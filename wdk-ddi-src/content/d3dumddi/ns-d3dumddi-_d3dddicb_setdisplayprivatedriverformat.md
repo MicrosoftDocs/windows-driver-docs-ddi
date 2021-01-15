@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
  - D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 
@@ -62,3 +63,4 @@ The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-forma
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb">pfnSetDisplayPrivateDriverFormatCb</a>
+

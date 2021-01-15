@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_FILE_NAME_INFORMATION
+ - PFLT_FILE_NAME_INFORMATION
  - FLT_FILE_NAME_INFORMATION
 ---
 
@@ -331,3 +333,4 @@ Minifilters are responsible for calling <a href="/windows-hardware/drivers/ddi/f
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

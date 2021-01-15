@@ -37,10 +37,11 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXpsRasterizer.RasterizeRect
+ - IXpsRasterizer::RasterizeRect
 ---
 
 # IXpsRasterizer::RasterizeRect
+
 
 ## -description
 
@@ -125,3 +126,4 @@ For a code example that calls the **RasterizeRect** method, see the XPSRasFilter
 [IXpsRasterizer::SetMinimalLineWidth](./nf-xpsrassvc-ixpsrasterizer-setminimallinewidth.md)
 
 [IXpsRasterizerNotificationCallback](./nn-xpsrassvc-ixpsrasterizernotificationcallback.md)
+

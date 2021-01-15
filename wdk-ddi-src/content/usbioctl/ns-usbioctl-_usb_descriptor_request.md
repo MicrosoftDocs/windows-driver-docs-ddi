@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_DESCRIPTOR_REQUEST
+ - PUSB_DESCRIPTOR_REQUEST
  - USB_DESCRIPTOR_REQUEST
 ---
 
@@ -153,3 +155,4 @@ If the caller specifies a value of USB_CONFIGURATION_DESCRIPTOR_TYPE in the <b>w
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

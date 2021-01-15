@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_CONFIGURATION_DESCRIPTOR
+ - PUSB_CONFIGURATION_DESCRIPTOR
  - USB_CONFIGURATION_DESCRIPTOR
 ---
 
@@ -152,3 +154,4 @@ Other members that are part of this structure but not described here should be t
 
 
 <a href="/previous-versions/ff538943(v=vs.85)">UsbBuildGetDescriptorRequest</a>
+

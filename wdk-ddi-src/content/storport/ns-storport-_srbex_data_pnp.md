@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_PNP
+ - PSRBEX_DATA_PNP
  - SRBEX_DATA_PNP
 ---
 
@@ -169,3 +171,4 @@ This member is reserved. Set to 0.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

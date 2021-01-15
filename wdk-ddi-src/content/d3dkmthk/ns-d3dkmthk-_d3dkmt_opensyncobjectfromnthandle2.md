@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
  - D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ---
 
@@ -90,3 +91,4 @@ The consolidated value of the <b>MonitoredFence</b> structure.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>
+

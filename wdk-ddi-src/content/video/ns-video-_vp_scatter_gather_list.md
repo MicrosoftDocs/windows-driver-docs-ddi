@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VP_SCATTER_GATHER_LIST
+ - PVP_SCATTER_GATHER_LIST
  - VP_SCATTER_GATHER_LIST
 ---
 
@@ -78,3 +80,4 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_element">VP_SCATTER_GATHER_ELEMENT</a>
+

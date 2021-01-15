@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.SearchVirtual
- - IDebugDataSpaces2.SearchVirtual
- - IDebugDataSpaces3.SearchVirtual
- - IDebugDataSpaces4.SearchVirtual
+ - IDebugDataSpaces4::SearchVirtual
 ---
 
 # IDebugDataSpaces4::SearchVirtual
@@ -146,3 +143,4 @@ For additional options, including the ability to restrict the search to writable
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-searchvirtual2">SearchVirtual2</a>
+

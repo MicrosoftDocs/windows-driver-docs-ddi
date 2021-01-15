@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_ADDITIONAL_IE
+ - PDOT11_WFD_ADDITIONAL_IE
  - DOT11_WFD_ADDITIONAL_IE
 product:
  - Windows 10 or later.
@@ -119,3 +121,4 @@ typedef struct _DOT11_WFD_ADDITIONAL_IE {
 ## -remarks
 
 The additional IEs at  <b>uDefaultRequestIEsOffset</b> are for probe requests originating from the driver only. Explicit device discovery requests from the system are initiated in an <a href="/windows-hardware/drivers/network/oid-dot11-wfd-discover-request">OID_DOT11_WFD_DISCOVER_REQUEST</a>. The IEs for an explicit discovery request should come from those IEs in the OID_DOT11_WFD_DISCOVER_REQUEST request and not from the IEs at <b>uDefaultRequestIEsOffset</b>.
+

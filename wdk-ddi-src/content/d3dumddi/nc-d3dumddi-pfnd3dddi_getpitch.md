@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GetPitch
+ - PFND3DDDI_GETPITCH
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ The surface for which the <i>GetPitch</i> function returns the pitch can be non-
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_encryptionblt">EncryptionBlt</a>
+

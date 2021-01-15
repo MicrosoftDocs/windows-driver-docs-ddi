@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdmaenabler.h
 api_name:
+ - _WDF_DMA_ENABLER_CONFIG_FLAGS
  - WDF_DMA_ENABLER_CONFIG_FLAGS
 ---
 
@@ -100,3 +101,4 @@ You can specify a valid bitwise OR of the values on this page for the <b>Flags</
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetsingletransferrequirement">WdfDmaTransactionSetSingleTransferRequirement</a>
+

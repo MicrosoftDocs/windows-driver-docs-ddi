@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxDeallocateForFobx
+ - PMRX_DEALLOCATE_FOR_FOBX
 ---
 
 # PMRX_DEALLOCATE_FOR_FOBX callback function
@@ -128,3 +128,4 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizenetfobx">RxFinalizeNetFOBX</a>
+

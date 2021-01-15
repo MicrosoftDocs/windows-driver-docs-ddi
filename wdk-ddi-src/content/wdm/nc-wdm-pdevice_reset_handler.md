@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ResetDevice
+ - PDEVICE_RESET_HANDLER
 ---
 
 # PDEVICE_RESET_HANDLER callback function
@@ -91,3 +91,4 @@ For more information about function-level and platform-level resets, see [Workin
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
+

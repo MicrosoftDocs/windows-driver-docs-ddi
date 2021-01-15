@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsAllocatorEx.KsSetAllocatorHandle
+ - IKsAllocatorEx::KsSetAllocatorHandle
 ---
 
 # IKsAllocatorEx::KsSetAllocatorHandle
@@ -59,3 +59,4 @@ The handle for an allocator.
 ## -see-also
 
 [IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)
+

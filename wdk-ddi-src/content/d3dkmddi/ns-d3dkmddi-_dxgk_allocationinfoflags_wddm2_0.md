@@ -38,10 +38,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
  - DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 ---
 
 # _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
+
 
 ## -description
 
@@ -264,3 +266,4 @@ You can specify properties of an allocation by setting bits in the 32-bit **Valu
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
 
 [**pfnUnlockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb.md)
+

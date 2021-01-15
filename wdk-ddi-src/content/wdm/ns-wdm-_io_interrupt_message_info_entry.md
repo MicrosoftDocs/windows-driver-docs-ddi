@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_INTERRUPT_MESSAGE_INFO_ENTRY
+ - PIO_INTERRUPT_MESSAGE_INFO_ENTRY
  - IO_INTERRUPT_MESSAGE_INFO_ENTRY
 ---
 
@@ -88,3 +90,4 @@ Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polari
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
+

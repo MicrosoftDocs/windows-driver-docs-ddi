@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_QUERYMITIGATEDRANGES
+ - PDXGKARG_QUERYMITIGATEDRANGES
+ - DXGKARG_QUERYMITIGATEDRANGES
 product:
  - Windows
 dev_langs:

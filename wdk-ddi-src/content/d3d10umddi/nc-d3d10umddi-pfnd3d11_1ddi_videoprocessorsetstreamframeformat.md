@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamFrameFormat
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT callback function
@@ -80,3 +80,4 @@ A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_vid
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_frame_format">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
+

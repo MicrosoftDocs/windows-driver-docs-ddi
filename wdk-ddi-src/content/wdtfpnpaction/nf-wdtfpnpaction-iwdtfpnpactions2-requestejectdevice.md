@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.RequestEjectDevice
+ - IWDTFPNPActions2::RequestEjectDevice
 ---
 
 # IWDTFPNPActions2::RequestEjectDevice
@@ -62,5 +62,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 This will in essence call <b>CM_Request_Device_Eject()</b>. 
 See the MSDN documentation for details.
-
 

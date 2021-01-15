@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SRB_IO_CONTROL
+ - PSRB_IO_CONTROL
  - SRB_IO_CONTROL
 ---
 
@@ -88,3 +90,4 @@ SCSI Port I/O Control Codes
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
+

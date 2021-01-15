@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - (*MINIPORT_WDI_START_OPERATION_HANDLER)
+ - MINIPORT_WDI_START_ADAPTER_OPERATION
 ---
 
 # MINIPORT_WDI_START_ADAPTER_OPERATION callback function
@@ -98,3 +98,4 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+

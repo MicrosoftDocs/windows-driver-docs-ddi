@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetBindingCapability_OUT
+ - PSM_GetBindingCapability_OUT
  - SM_GetBindingCapability_OUT
 ---
 
@@ -64,3 +66,4 @@ The HBA_BIND_CAPABILITY binding capabilities.
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_GetBindingCapability_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+

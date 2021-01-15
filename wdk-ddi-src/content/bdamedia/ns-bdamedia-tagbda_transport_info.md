@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - tagBDA_TRANSPORT_INFO
+ - PBDA_TRANSPORT_INFO
  - BDA_TRANSPORT_INFO
 ---
 
@@ -86,3 +88,4 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 <a href="/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-tagks_datarange_bda_transport">KS_DATARANGE_BDA_TRANSPORT</a>
+

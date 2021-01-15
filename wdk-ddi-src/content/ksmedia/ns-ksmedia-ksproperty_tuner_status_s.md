@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_STATUS_S
  - KSPROPERTY_TUNER_STATUS_S
 ---
 
@@ -180,3 +181,4 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - AtaControllerChannelEnabled
+ - IDE_CHANNEL_ENABLED
 ---
 
 # IDE_CHANNEL_ENABLED callback function
@@ -130,3 +130,4 @@ This routine should not have steps that are critical to the operation of the con
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
+

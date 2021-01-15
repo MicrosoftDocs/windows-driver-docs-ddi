@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_SPECIAL_FILE_TYPE
+ - PWDF_SPECIAL_FILE_TYPE
  - WDF_SPECIAL_FILE_TYPE
 ---
 
@@ -86,3 +88,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/supporting-spec
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetspecialfilesupport">WdfDeviceSetSpecialFileSupport</a>
+

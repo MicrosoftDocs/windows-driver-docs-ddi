@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreUI2.SetOptions
+ - IPrintCoreUI2::SetOptions
 ---
 
 # IPrintCoreUI2::SetOptions
@@ -234,3 +234,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-getopti
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
+

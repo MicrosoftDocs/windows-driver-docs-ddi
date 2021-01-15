@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUMTSMRL
+ - LPRILUMTSMRL
 ---
 
 # RILUMTSMRL structure (rilapitypes.h)

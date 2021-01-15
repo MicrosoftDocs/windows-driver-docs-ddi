@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_TRANSPORT_CHARACTERISTICS
+ - PUSB_TRANSPORT_CHARACTERISTICS
  - USB_TRANSPORT_CHARACTERISTICS
 ---
 
@@ -90,3 +92,4 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_transport_characteristics">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>
+

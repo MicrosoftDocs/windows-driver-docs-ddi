@@ -41,6 +41,8 @@ api_type:
 api_location:
  - drmk.h
 api_name:
+ - tagDRMRIGHTS
+ - PDRMRIGHTS
  - DRMRIGHTS
 ---
 
@@ -258,3 +260,4 @@ This macro does not return a value.
 
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
+

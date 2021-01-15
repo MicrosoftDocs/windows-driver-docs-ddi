@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_OSC_IMPLEMENTED
+ - PWHEAP_OSC_IMPLEMENTED
  - WHEAP_OSC_IMPLEMENTED
 product:
  - Windows

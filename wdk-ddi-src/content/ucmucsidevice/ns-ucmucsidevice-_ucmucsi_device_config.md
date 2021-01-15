@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ucmucsidevice.h
 api_name:
+ - _UCMUCSI_DEVICE_CONFIG
+ - PUCMUCSI_DEVICE_CONFIG
  - UCMUCSI_DEVICE_CONFIG
 ---
 
@@ -62,3 +64,4 @@ Size of this structure.
 [**UCMUCSI_DEVICE_CONFIG_INIT**](nf-ucmucsidevice-ucmucsi_device_config_init.md)
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+

@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
+ - PWWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
+ - WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
 product:
  - Windows
 ---
@@ -67,3 +69,4 @@ The maximum value for this enumeration.
 ## -see-also
 
 [MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
+

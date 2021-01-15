@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkcbAcquirePostDisplayOwnership2
+ - DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback function
@@ -68,3 +68,4 @@ A pointer to a DXGK_DISPLAY_OWNERSHIP_FLAGS structure that is allocated by the d
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of  and then calling .
+

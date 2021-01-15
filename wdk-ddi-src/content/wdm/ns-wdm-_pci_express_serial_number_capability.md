@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
+ - PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
  - PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 ---
 
@@ -85,3 +87,4 @@ The PCIe device serial number capability is an optional extended capability that
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
+

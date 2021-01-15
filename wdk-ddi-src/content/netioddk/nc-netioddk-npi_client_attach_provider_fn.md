@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netioddk.h
 api_name:
- - PNPI_CLIENT_ATTACH_PROVIDER_FN
+ - NPI_CLIENT_ATTACH_PROVIDER_FN
 ---
 
 # NPI_CLIENT_ATTACH_PROVIDER_FN callback function
@@ -188,3 +188,4 @@ The NMR calls a client module's
 
 
 <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILGETDRIVERVERSIONPARAMS
+ - LPRILGETDRIVERVERSIONPARAMS
 ---
 
 # RILGETDRIVERVERSIONPARAMS structure (ntddrilapitypes.h)

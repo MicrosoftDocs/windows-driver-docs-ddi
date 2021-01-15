@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnEvictCb
+ - PFND3DDDI_EVICTCB
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_evict">D3DDDICB_EVICT</a>
+

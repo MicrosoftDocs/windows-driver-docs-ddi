@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptablePropertyBag.GetBool
+ - IPrinterScriptablePropertyBag::GetBool
 ---
 
 # IPrinterScriptablePropertyBag::GetBool
@@ -70,3 +70,4 @@ A call to <b>GetBool</b> will throw an exception, if the specified property is n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+

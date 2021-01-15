@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsifnd.h
 api_name:
+ - _ISCSI_DiscoveredTarget2
+ - PISCSI_DiscoveredTarget2
  - ISCSI_DiscoveredTarget2
 ---
 
@@ -90,3 +92,4 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportalgroup">ISCSI_DiscoveredTargetPortalGroup</a>
+

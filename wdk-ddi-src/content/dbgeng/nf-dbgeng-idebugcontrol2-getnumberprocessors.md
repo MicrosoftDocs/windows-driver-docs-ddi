@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetNumberProcessors
- - IDebugControl2.GetNumberProcessors
- - IDebugControl3.GetNumberProcessors
+ - IDebugControl2::GetNumberProcessors
 ---
 
 # IDebugControl2::GetNumberProcessors
@@ -81,3 +79,4 @@ The method was successful.
 ## -remarks
 
 For more information, see <a href="/windows-hardware/drivers/debugger/target-information">Target Information</a>.
+

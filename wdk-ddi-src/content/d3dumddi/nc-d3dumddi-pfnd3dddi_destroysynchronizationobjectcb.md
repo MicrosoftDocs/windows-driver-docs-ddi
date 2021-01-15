@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDestroySynchronizationObjectCb
+ - PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ This function might also return other HRESULT values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb">pfnCreateSynchronizationObjectCb</a>
+

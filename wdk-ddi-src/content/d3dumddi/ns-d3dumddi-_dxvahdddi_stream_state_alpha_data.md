@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_ALPHA_DATA
  - DXVAHDDDI_STREAM_STATE_ALPHA_DATA
 ---
 
@@ -82,3 +83,4 @@ The Ad parameter is set with values from the <a href="/windows-hardware/drivers/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_alpha_fill_mode">DXVAHDDDI_ALPHA_FILL_MODE</a>
+

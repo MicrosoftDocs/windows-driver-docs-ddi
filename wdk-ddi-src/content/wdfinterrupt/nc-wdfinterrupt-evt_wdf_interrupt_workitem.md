@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfinterrupt.h
 api_name:
- - EvtInterruptWorkItem
+ - EVT_WDF_INTERRUPT_WORKITEM
 ---
 
 # EVT_WDF_INTERRUPT_WORKITEM callback function
@@ -90,3 +90,4 @@ If  <b>AutomaticSerialization</b> is set to TRUE, a driver's <i>EvtInterruptWork
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptdisable">WdfInterruptDisable</a>
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptenable">WdfInterruptEnable</a>
 For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+

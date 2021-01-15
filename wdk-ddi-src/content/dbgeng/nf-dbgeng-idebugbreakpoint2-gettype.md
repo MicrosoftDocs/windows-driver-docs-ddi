@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetType
- - IDebugBreakpoint2.GetType
+ - IDebugBreakpoint2::GetType
 ---
 
 # IDebugBreakpoint2::GetType
@@ -117,3 +116,4 @@ If changes are made to the breakpoint, the processor type might change.
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the information that is returned in <i>BreakType</i> and <i>ProcType</i>.
 
 For more information about breakpoint types, see <a href="/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>.
+

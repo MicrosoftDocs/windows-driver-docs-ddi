@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_TYPE
  - NDIS_SWITCH_PORT_TYPE
 ---
 
@@ -102,3 +103,4 @@ For more information on the extensible switch ports, see <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETERS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
  - DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 
@@ -76,3 +77,4 @@ Specifies limitations on hardware support of multiplane overlays.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport">DxgkDdiCheckMultiPlaneOverlaySupport</a>
+

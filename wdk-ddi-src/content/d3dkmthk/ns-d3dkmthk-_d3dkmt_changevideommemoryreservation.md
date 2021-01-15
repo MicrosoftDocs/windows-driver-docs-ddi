@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
+ - D3DKMT_CHANGEVIDEOMEMORYRESERVATION
 dev_langs:
  - c++
 ---

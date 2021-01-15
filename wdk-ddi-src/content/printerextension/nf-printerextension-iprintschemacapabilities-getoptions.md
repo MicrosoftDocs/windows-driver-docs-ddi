@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaCapabilities.GetOptions
+ - IPrintSchemaCapabilities::GetOptions
 ---
 
 # IPrintSchemaCapabilities::GetOptions
@@ -71,3 +71,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
+

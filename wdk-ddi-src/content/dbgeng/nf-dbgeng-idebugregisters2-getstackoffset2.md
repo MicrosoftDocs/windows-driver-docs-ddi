@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters2.GetStackOffset2
+ - IDebugRegisters2::GetStackOffset2
 ---
 
 # IDebugRegisters2::GetStackOffset2
@@ -129,3 +129,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
+

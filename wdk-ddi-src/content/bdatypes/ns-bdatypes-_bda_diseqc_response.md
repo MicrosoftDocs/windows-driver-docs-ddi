@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_DISEQC_RESPONSE
+ - PBDA_DISEQC_RESPONSE
  - BDA_DISEQC_RESPONSE
 ---
 

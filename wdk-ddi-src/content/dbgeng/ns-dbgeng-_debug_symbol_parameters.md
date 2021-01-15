@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_SYMBOL_PARAMETERS
+ - PDEBUG_SYMBOL_PARAMETERS
  - DEBUG_SYMBOL_PARAMETERS
 ---
 
@@ -76,3 +78,4 @@ The symbol flags.  See <a href="/windows-hardware/drivers/debugger/debug-symbol-
 ### -field Reserved
 
 Set to zero.
+

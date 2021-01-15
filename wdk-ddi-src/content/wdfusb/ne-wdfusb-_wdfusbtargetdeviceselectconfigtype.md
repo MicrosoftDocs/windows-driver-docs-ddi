@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WdfUsbTargetDeviceSelectConfigType
  - WdfUsbTargetDeviceSelectConfigType
 ---
 
@@ -96,3 +97,4 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a>
+

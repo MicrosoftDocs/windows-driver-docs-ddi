@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetVideoProcessorCustomRate
+ - PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE
 product:
  - Windows
 ---
@@ -102,3 +102,4 @@ The display miniport driver returns the maximum number of custom rates that it s
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>
+

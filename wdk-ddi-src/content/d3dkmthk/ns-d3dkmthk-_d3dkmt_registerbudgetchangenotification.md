@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
+ - D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 dev_langs:
  - c++
 ---

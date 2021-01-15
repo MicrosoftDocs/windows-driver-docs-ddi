@@ -33,6 +33,7 @@ api_type:
 api_location:
  - lsotypes.h
 api_name:
+ - _NET_PACKET_LSO
  - NET_PACKET_LSO
 product:
  - Windows
@@ -71,3 +72,4 @@ Client drivers can obtain this structure for a packet by calling [**NetExtension
 ## -see-also
 
 [Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+

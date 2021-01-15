@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _ScsiInquiry_IN
+ - PScsiInquiry_IN
  - ScsiInquiry_IN
 ---
 
@@ -88,3 +90,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_scsiinquiry_out">ScsiInquiry_OUT</a>
+

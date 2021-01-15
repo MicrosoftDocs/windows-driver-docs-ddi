@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiGetBrightness
+ - DXGK_BRIGHTNESS_GET
 ---
 
 # DXGK_BRIGHTNESS_GET callback function
@@ -84,3 +84,4 @@ Because the monitor driver always gets the brightness level for the integrated d
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+

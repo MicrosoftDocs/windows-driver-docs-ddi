@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - prnasntp
  - prnasntp/prnasntp
+api_name:
+ - prnasntp
 ---
 
 # Prnasntp.h header

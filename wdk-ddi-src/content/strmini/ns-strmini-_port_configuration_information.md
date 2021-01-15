@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _PORT_CONFIGURATION_INFORMATION
+ - PPORT_CONFIGURATION_INFORMATION
  - PORT_CONFIGURATION_INFORMATION
 ---
 
@@ -128,3 +130,4 @@ Reserved for system use. Do not use.
 ## -remarks
 
 Most of the members of PORT_CONFIGURATION_INFORMATION provide information to the minidriver about its use of hardware resources, such as its interrupt vector and the IRQL for its interrupts.
+

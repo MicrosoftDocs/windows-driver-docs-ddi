@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
+ - PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
  - PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
 ---
 
@@ -168,3 +170,4 @@ A PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a hr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+

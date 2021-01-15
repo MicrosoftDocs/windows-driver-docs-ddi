@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEVERTEXSHADERDECL
  - D3DDDIARG_CREATEVERTEXSHADERDECL
 ---
 
@@ -68,3 +69,4 @@ For more information about programming shader assemblers, see <a href="/windows-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a>
+

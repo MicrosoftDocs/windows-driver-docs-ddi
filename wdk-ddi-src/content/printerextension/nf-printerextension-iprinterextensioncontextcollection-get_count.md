@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContextCollection.Count
- - IPrinterExtensionContextCollection.get_Count
+ - IPrinterExtensionContextCollection::get_Count
 ---
 
 # IPrinterExtensionContextCollection::get_Count
@@ -59,3 +58,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
+

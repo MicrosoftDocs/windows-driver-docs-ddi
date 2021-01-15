@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_InitiatorLoginStatistics
+ - PMSiSCSI_InitiatorLoginStatistics
  - MSiSCSI_InitiatorLoginStatistics
 ---
 
@@ -104,3 +106,4 @@ It is optional that you implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-initiatorloginstatistics-wmi-class">MSiSCSI_InitiatorLoginStatistics WMI Class</a>
+

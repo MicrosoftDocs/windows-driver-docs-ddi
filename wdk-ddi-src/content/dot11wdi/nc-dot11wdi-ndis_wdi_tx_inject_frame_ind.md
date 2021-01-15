@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxInjectFrameIndication
+ - NDIS_WDI_TX_INJECT_FRAME_IND
 ---
 
 # NDIS_WDI_TX_INJECT_FRAME_IND callback function
@@ -119,3 +119,4 @@ Specifies the ExemptionAction of the frames.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

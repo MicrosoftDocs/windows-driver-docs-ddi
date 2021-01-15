@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MONITOR_INTERFACE_VERSION
  - DXGK_MONITOR_INTERFACE_VERSION
 ---
 
@@ -66,3 +67,4 @@ Indicates version 1, available in Windows Vista and later versions of the Window
 ## -remarks
 
 The <b>Version</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
+

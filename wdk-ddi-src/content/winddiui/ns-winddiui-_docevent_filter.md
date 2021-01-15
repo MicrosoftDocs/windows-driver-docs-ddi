@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DOCEVENT_FILTER
+ - PDOCEVENT_FILTER
  - DOCEVENT_FILTER
 ---
 
@@ -118,3 +120,4 @@ If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should re
 ## -see-also
 
 [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md)
+

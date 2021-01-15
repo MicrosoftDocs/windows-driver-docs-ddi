@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ufxbase
  - ufxbase/ufxbase
+api_name:
+ - ufxbase
 ---
 
 # Ufxbase.h header

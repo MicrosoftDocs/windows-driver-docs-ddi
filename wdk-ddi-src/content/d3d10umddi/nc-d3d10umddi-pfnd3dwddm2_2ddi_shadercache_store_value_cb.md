@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnShaderCacheStoreValue
+ - PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
 product:
  - Windows
 ---

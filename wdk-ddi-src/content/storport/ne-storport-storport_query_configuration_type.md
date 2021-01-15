@@ -32,6 +32,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STORPORT_QUERY_CONFIGURATION_TYPE
+ - PSTORPORT_QUERY_CONFIGURATION_TYPE
  - STORPORT_QUERY_CONFIGURATION_TYPE
 product:
  - Windows

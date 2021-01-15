@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
+ - _SERCX2_PIO_TRANSMIT_CONFIG
+ - PSERCX2_PIO_TRANSMIT_CONFIG
  - SERCX2_PIO_TRANSMIT_CONFIG
 ---
 
@@ -132,3 +134,4 @@ The <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreat
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>
+

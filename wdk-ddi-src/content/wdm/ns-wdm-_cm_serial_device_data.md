@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CM_SERIAL_DEVICE_DATA
+ - PCM_SERIAL_DEVICE_DATA
  - CM_SERIAL_DEVICE_DATA
 ---
 
@@ -76,3 +78,4 @@ The clock baud rate, in megahertz, at which data is transferred.
 
 
 <a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+

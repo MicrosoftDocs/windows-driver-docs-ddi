@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - ResourceIsStagingBusy
+ - PFND3D10DDI_RESOURCEISSTAGINGBUSY
 ---
 
 # PFND3D10DDI_RESOURCEISSTAGINGBUSY callback function
@@ -84,3 +84,4 @@ The user-mode display driver is not required to flush any partially built comman
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

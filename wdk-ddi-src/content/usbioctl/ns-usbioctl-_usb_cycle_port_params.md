@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_CYCLE_PORT_PARAMS
+ - PUSB_CYCLE_PORT_PARAMS
  - USB_CYCLE_PORT_PARAMS
 ---
 
@@ -64,3 +66,4 @@ On return, contains the USBD status of the operation.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_hub_cycle_port">IOCTL_USB_HUB_CYCLE_PORT</a>
+

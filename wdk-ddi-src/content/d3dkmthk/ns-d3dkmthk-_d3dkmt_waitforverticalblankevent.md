@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_WAITFORVERTICALBLANKEVENT
  - D3DKMT_WAITFORVERTICALBLANKEVENT
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforverticalblankevent">D3DKMTWaitForVerticalBlankEvent</a>
+

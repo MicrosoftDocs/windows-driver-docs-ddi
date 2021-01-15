@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSEVENT_TIME_INTERVAL
  - KSEVENT_TIME_INTERVAL
 ---
 
@@ -70,3 +71,4 @@ Specifies the subsequent interval when the event should continue to be signaled.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_time_mark">KSEVENT_TIME_MARK</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueue.GetProperties
+ - IPrinterQueue::GetProperties
 ---
 
 # IPrinterQueue::GetProperties
@@ -65,3 +65,4 @@ This method returns and <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
+

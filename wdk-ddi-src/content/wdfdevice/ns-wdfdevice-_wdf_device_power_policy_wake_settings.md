@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
  - WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
 ---
 
@@ -187,3 +189,4 @@ For more information about how to support a device's wake ability, see <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceindicatewakestatus">WdfDeviceIndicateWakeStatus</a>
+

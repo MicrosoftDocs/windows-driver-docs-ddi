@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_QOS_PARAMETERS
+ - PNDIS_QOS_PARAMETERS
  - NDIS_QOS_PARAMETERS
 ---
 
@@ -311,3 +313,4 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 <a href="/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
+

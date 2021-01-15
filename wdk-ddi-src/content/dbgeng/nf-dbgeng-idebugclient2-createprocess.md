@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.CreateProcess
- - IDebugClient2.CreateProcess
- - IDebugClient3.CreateProcess
- - IDebugClient4.CreateProcess
- - IDebugClient5.CreateProcess
+ - IDebugClient2::CreateProcess
 ---
 
 # IDebugClient2::CreateProcess
@@ -137,3 +133,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

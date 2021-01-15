@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnUpdateAllocationPropertyCb
+ - PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3ddd
 |E_INVALIDARG|Invalid call with bad arguments provided.|
 |E_OUTOFMEMORY|Desired supported memory segment is full.|
 |E_FAIL|An unknown error has occurred.|
+

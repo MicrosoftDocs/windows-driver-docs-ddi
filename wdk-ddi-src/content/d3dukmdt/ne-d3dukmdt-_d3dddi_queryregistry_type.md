@@ -30,6 +30,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_QUERYREGISTRY_TYPE
+ - D3DDDI_QUERYREGISTRY_TYPE
 product:
  - Windows
 ---
@@ -68,3 +69,4 @@ This enum value is invalid to use, and merely exists to simplify maintaining the
 ## -see-also
 
 - [D3DDDI_QUERYREGISTRY_INFO](ns-d3dukmdt-_d3dddi_queryregistry_info.md)
+

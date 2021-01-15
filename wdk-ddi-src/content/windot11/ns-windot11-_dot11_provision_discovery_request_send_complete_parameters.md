@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
+ - PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
  - DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
 product:
  - Windows 10 or later.
@@ -123,3 +125,4 @@ typedef struct _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS {
 
 
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-provision-discovery-request-send-complete">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a>
+

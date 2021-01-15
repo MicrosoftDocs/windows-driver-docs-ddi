@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - ntpoapi
  - ntpoapi/ntpoapi
+api_name:
+ - ntpoapi
 ---
 
 # Ntpoapi.h header
@@ -22,3 +24,4 @@ f1_keywords:
 This header contains functions and data structures that an application can use power management. For more information, see:
 
 - [About Power Management](/windows/win32/power/about-power-management)
+

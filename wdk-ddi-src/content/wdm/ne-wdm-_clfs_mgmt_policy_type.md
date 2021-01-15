@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLFS_MGMT_POLICY_TYPE
+ - PCLFS_MGMT_POLICY_TYPE
  - CLFS_MGMT_POLICY_TYPE
 ---
 
@@ -104,3 +106,4 @@ Each type of CLFS management policy corresponds to a specific interpretation of 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
+

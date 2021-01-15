@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_CONTROL
+ - PUCSI_CONTROL
+ - UCSI_CONTROL
 ---
 
 # _UCSI_CONTROL structure

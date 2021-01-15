@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
  - WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ---
 
@@ -193,3 +195,4 @@ Starting in KMDF 1.11 and UMDF 2.0, a device that <a href="/windows-hardware/dri
 For information about registry entries that control a device's idle capabilities, see <a href="/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
 
 To initialize its <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your driver should call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_power_policy_idle_settings_init">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>.
+

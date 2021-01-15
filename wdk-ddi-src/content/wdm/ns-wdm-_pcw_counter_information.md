@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_COUNTER_INFORMATION
+ - PPCW_COUNTER_INFORMATION
  - PCW_COUNTER_INFORMATION
 ---
 

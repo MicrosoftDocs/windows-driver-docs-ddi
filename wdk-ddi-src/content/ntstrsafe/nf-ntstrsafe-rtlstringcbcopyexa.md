@@ -38,9 +38,7 @@ api_location:
  - Ntstrsafe.lib
  - Ntstrsafe.dll
 api_name:
- - RtlStringCbCopyExW
  - RtlStringCbCopyExA
- - RtlStringCbCopyExW
 ---
 
 # RtlStringCbCopyExA function
@@ -269,3 +267,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopyexa">RtlStringCchCopyEx</a>
+

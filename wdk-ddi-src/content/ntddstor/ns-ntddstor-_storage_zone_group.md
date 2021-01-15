@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_ZONE_GROUP
+ - PSTORAGE_ZONE_GROUP
  - STORAGE_ZONE_GROUP
 ---
 

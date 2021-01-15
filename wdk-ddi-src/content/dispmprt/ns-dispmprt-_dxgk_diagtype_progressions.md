@@ -34,6 +34,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DIAGTYPE_PROGRESSIONS
+ - DXGK_DIAGTYPE_PROGRESSIONS
 dev_langs:
  - c++
 ---

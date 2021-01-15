@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETPALETTE
  - D3DDDIARG_SETPALETTE
 ---
 
@@ -76,3 +77,4 @@ The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpalette">SetPalette</a>
+

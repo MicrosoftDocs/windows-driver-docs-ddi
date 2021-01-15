@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentThreadId
- - IDebugSystemObjects2.GetCurrentThreadId
- - IDebugSystemObjects3.GetCurrentThreadId
- - IDebugSystemObjects4.GetCurrentThreadId
+ - IDebugSystemObjects2::GetCurrentThreadId
 ---
 
 # IDebugSystemObjects2::GetCurrentThreadId
@@ -82,3 +79,4 @@ The method was successful.
 ## -remarks
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

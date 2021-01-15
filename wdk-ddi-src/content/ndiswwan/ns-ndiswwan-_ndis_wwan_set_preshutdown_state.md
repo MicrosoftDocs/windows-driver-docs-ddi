@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - PNDIS_WWAN_SET_PRESHUTDOWN_STATE
  - NDIS_WWAN_SET_PRESHUTDOWN_STATE
 ---
 
@@ -102,3 +104,4 @@ For more information about these members, see
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
+

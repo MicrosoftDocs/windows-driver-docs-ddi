@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetPresharedKeyForId_OUT
+ - PSetPresharedKeyForId_OUT
  - SetPresharedKeyForId_OUT
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setpresharedkeyforid_in">SetPresharedKeyForId_IN</a>
+

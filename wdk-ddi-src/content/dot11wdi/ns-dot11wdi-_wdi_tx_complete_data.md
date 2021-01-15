@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TX_COMPLETE_DATA
+ - PWDI_TX_COMPLETE_DATA
  - WDI_TX_COMPLETE_DATA
 ---
 

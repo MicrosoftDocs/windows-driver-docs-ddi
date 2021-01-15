@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_GPIO_RESOURCE
+ - PPEP_ACPI_GPIO_RESOURCE
  - PEP_ACPI_GPIO_RESOURCE
 ---
 
@@ -132,3 +134,4 @@ The size of the <b>VendorData</b> buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a>
+

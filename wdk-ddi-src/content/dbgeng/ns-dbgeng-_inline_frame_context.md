@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
+ - _INLINE_FRAME_CONTEXT
  - INLINE_FRAME_CONTEXT
 ---
 

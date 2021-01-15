@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_BITRATE_TYPES
  - WPD_BITRATE_TYPES
 ---
 
@@ -71,3 +72,4 @@ Free format bit rate. (This is a constant bit rate that is lower than the maximu
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

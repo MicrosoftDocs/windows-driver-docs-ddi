@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.OnSessionActive
+ - ExtExtension::OnSessionActive
 ---
 
 # ExtExtension::OnSessionActive
@@ -87,3 +87,4 @@ If a target is suspended, <a href="/previous-versions/windows/hardware/prevision
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff552318(v=vs.85)">OnSessionInactive</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hpmi.h
 api_name:
+ - _HPMI_QUERY_CAPABILITIES
+ - PHPMI_QUERY_CAPABILITIES
  - HPMI_QUERY_CAPABILITIES
 ---
 
@@ -70,3 +72,4 @@ Set to HPMI_QUERY_CAPABILITIES_VERSION_1.
 
 
 <a href="/windows-hardware/drivers/ddi/hpmi/index">hpmi.h</a>
+

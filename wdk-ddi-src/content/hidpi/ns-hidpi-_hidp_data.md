@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_DATA
+ - PHIDP_DATA
  - HIDP_DATA
 ---
 
@@ -80,3 +82,4 @@ See <a href="/windows-hardware/drivers/hid/extracting-and-setting-control-data-b
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
+

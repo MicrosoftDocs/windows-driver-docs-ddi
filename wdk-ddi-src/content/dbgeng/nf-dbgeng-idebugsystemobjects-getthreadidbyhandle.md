@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetThreadIdByHandle
- - IDebugSystemObjects2.GetThreadIdByHandle
- - IDebugSystemObjects3.GetThreadIdByHandle
- - IDebugSystemObjects4.GetThreadIdByHandle
+ - IDebugSystemObjects::GetThreadIdByHandle
 ---
 
 # IDebugSystemObjects::GetThreadIdByHandle
@@ -89,3 +86,4 @@ The method was successful.
 In kernel-mode debugging, because the handle is an artificial handle for a processor,  this method returns the engine thread ID for the virtual thread representing that processor.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="/windows-hardware/drivers/">Handles</a>.
+

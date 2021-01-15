@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _COLORSPACE_TRANSFORM_STAGE_CONTROL
+ - PCOLORSPACE_TRANSFORM_STAGE_CONTROL
  - COLORSPACE_TRANSFORM_STAGE_CONTROL
 dev_langs:
  - c++

@@ -35,10 +35,13 @@ api_location:
  - Mscms.lib
  - Mscms.dll
 api_name:
+ - WcsOpenColorProfileW
  - WcsOpenColorProfile
 f1_keywords:
  - WcsOpenColorProfileW
  - icm/WcsOpenColorProfileW
+ - WcsOpenColorProfile
+ - icm/WcsOpenColorProfile
 ---
 
 # WcsOpenColorProfileW function
@@ -122,3 +125,4 @@ Use the [CloseColorProfile](/previous-versions//ms536810(v=vs.85)) function to c
 ## -see-also
 
 [CloseColorProfile](/previous-versions//ms536810(v=vs.85))
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnioctl.h
 api_name:
+ - _USBFN_POWER_FILTER_STATE
+ - PUSBFN_POWER_FILTER_STATE
  - USBFN_POWER_FILTER_STATE
 ---
 
@@ -72,3 +74,4 @@ Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+

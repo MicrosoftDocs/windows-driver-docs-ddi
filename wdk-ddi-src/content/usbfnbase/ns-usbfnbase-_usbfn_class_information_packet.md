@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_CLASS_INFORMATION_PACKET
+ - PUSBFN_CLASS_INFORMATION_PACKET
  - USBFN_CLASS_INFORMATION_PACKET
 ---
 
@@ -94,3 +96,4 @@ A string that contains the interface name.
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate">WdfDeviceSetDeviceInterfaceState</a>
+

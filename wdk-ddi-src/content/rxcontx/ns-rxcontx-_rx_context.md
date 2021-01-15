@@ -41,6 +41,8 @@ api_type:
 api_location:
  - rxcontx.h
 api_name:
+ - _RX_CONTEXT
+ - PRX_CONTEXT
  - RX_CONTEXT
 ---
 
@@ -706,3 +708,4 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a>
+

@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SET_TIMING_PATH_INFO
  - DXGK_SET_TIMING_PATH_INFO
 dev_langs:
  - c++
@@ -229,3 +230,4 @@ typedef struct _DXGK_SET_TIMING_PATH_INFO {
   };
 } DXGK_SET_TIMING_PATH_INFO, *PDXGK_SET_TIMING_PATH_INFO;
 ```
+

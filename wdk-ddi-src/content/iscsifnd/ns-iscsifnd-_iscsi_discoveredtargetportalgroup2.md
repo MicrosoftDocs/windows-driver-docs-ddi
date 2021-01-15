@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsifnd.h
 api_name:
+ - _ISCSI_DiscoveredTargetPortalGroup2
+ - PISCSI_DiscoveredTargetPortalGroup2
  - ISCSI_DiscoveredTargetPortalGroup2
 ---
 
@@ -84,3 +86,4 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-discoveredtargetportalgroup2-wmi-class">ISCSI_DiscoveredTargetPortalGroup2 WMI Class</a>
+

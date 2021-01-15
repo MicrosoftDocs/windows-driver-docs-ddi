@@ -41,6 +41,8 @@ api_type:
 api_location:
  - WdbgExts.h
 api_name:
+ - _DEBUG_TYPED_DATA
+ - PDEBUG_TYPED_DATA
  - DEBUG_TYPED_DATA
 ---
 
@@ -173,3 +175,4 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>
+

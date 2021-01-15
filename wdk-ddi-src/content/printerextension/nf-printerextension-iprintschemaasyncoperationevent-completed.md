@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaAsyncOperationEvent.Completed
+ - IPrintSchemaAsyncOperationEvent::Completed
 ---
 
 # IPrintSchemaAsyncOperationEvent::Completed
@@ -74,3 +74,4 @@ The print ticket passed to the <b>Completed</b> method is the final validated, m
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

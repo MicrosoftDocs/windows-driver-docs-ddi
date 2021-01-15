@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.GetDeviceInfo
+ - IStillImageW::GetDeviceInfo
 ---
 
 # IStillImageW::GetDeviceInfo
@@ -78,3 +78,4 @@ When the caller has finished using the STI_DEVICE_INFORMATION structure referenc
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

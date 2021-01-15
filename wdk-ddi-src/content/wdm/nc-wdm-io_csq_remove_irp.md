@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CsqRemoveIrp
+ - IO_CSQ_REMOVE_IRP
 ---
 
 # IO_CSQ_REMOVE_IRP callback function
@@ -147,3 +147,4 @@ The IO_CSQ_REMOVE_IRP function type is defined in the Wdm.h header file. To more
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
+

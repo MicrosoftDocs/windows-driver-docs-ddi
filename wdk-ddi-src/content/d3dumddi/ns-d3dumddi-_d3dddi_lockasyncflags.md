@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_LOCKASYNCFLAGS
  - D3DDDI_LOCKASYNCFLAGS
 ---
 
@@ -104,3 +105,4 @@ A member in the union that is contained in D3DDDI_LOCKASYNCFLAGS that can hold o
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_lockasync">D3DDDIARG_LOCKASYNC</a>
+

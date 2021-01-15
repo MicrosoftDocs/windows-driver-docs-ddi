@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - PO_FX_COMPONENT_V2
+ - _PO_FX_COMPONENT_V1
+ - PPO_FX_COMPONENT_V1
+ - PO_FX_COMPONENT_V1
 ---
 
 # _PO_FX_COMPONENT_V1 structure
@@ -116,3 +118,4 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
+

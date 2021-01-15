@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdmaenabler.h
 api_name:
+ - _WDF_DMA_PROFILE
  - WDF_DMA_PROFILE
 ---
 
@@ -102,3 +103,4 @@ Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drive
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a>
+

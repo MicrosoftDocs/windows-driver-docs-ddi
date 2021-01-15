@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSDEVICE_DESCRIPTOR
+ - PKSDEVICE_DESCRIPTOR
  - KSDEVICE_DESCRIPTOR
 ---
 
@@ -146,3 +148,4 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>
+

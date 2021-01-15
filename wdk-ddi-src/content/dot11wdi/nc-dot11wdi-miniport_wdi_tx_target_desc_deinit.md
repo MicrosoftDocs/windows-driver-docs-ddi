@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxTargetDescDeInit
+ - MINIPORT_WDI_TX_TARGET_DESC_DEINIT
 ---
 
 # MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback function
@@ -113,3 +113,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
 ---
 
@@ -102,3 +104,4 @@ To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

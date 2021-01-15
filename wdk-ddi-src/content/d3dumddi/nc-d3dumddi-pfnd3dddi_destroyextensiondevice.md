@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyExtensionDevice
+ - PFND3DDDI_DESTROYEXTENSIONDEVICE
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ The <b>DestroyExtensionDevice</b> function notifies the driver to destroy the ha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

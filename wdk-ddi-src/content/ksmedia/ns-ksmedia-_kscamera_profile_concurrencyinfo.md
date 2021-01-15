@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSCAMERA_PROFILE_CONCURRENCYINFO
+ - PKSCAMERA_PROFILE_CONCURRENCYINFO
  - KSCAMERA_PROFILE_CONCURRENCYINFO
 ---
 
@@ -76,3 +78,4 @@ Currently, an application has no knowledge as to whether it can attempt to strea
 For multiple applications, concurrency will not be sufficient to guarantee concurrent operation.  The concurrency information will not attempt to solve this scenario.  Instead, the existing camera yanking feature will be leveraged.
 
 If both <b>Camera.CountOfConcurrency</b> and the <b>Camera.Concurrency</b> fields are 0 and <b>NULL</b> respectively, it indicates to the OS that the profile defined by the KSCAMERA_PROFILE_INFO is not a concurrent profile.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_SCAN_CAPABILTIES
+ - PBDA_SCAN_CAPABILTIES
  - BDA_SCAN_CAPABILTIES
 ---
 

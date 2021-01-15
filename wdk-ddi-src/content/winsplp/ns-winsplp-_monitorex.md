@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITOREX
+ - LPMONITOREX
  - MONITOREX
 ---
 
@@ -71,3 +73,4 @@ Print monitors are responsible for filling in the MONITOREX and MONITOR structur
 ## -see-also
 
 [MONITOR](./ns-winsplp-_monitor.md)
+

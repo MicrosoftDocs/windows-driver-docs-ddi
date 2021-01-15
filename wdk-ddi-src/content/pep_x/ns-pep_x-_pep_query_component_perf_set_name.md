@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_COMPONENT_PERF_SET_NAME
+ - PPEP_QUERY_COMPONENT_PERF_SET_NAME
  - PEP_QUERY_COMPONENT_PERF_SET_NAME
 ---
 
@@ -94,3 +96,4 @@ The string that the PEP writes to the output buffer should contain a descriptive
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+

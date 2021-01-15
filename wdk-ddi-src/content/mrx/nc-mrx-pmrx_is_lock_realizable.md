@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxIsLockRealizable
+ - PMRX_IS_LOCK_REALIZABLE
 ---
 
 # PMRX_IS_LOCK_REALIZABLE callback function
@@ -154,3 +154,4 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 
 
 <a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
+

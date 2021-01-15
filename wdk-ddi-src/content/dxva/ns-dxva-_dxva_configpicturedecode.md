@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ConfigPictureDecode
+ - LPDXVA_ConfigPictureDecode
  - DXVA_ConfigPictureDecode
 ---
 
@@ -226,3 +228,4 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
+

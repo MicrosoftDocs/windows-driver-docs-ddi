@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkModifySrq
+ - NDK_FN_MODIFY_SRQ
 ---
 
 # NDK_FN_MODIFY_SRQ callback function
@@ -153,3 +153,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
+

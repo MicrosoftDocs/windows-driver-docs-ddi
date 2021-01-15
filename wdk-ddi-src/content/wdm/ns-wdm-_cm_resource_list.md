@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_RESOURCE_LIST
+ - PCM_RESOURCE_LIST
  - CM_RESOURCE_LIST
 ---
 
@@ -125,7 +127,6 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_floppy_device_data">CM_FLOPPY_DEVICE_DATA</a>
@@ -169,3 +170,4 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection">IoReportResourceForDetection</a>
+

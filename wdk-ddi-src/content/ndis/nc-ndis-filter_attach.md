@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndis.h
 api_name:
- - FilterAttach
+ - FILTER_ATTACH
 ---
 
 # FILTER_ATTACH callback function
@@ -242,3 +242,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a>
+

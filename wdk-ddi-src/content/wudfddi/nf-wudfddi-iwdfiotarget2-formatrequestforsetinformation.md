@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTarget2.FormatRequestForSetInformation
+ - IWDFIoTarget2::FormatRequestForSetInformation
 ---
 
 # IWDFIoTarget2::FormatRequestForSetInformation
@@ -184,7 +184,6 @@ Error;
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget2">IWDFIoTarget2</a>
@@ -192,3 +191,4 @@ Error;
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotarget2-formatrequestforqueryinformation">IWDFIoTarget2::FormatRequestForQueryInformation</a>
+

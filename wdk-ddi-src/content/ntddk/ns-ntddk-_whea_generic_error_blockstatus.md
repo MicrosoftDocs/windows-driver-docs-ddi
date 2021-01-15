@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_GENERIC_ERROR_BLOCKSTATUS
+ - PWHEA_GENERIC_ERROR_BLOCKSTATUS
  - WHEA_GENERIC_ERROR_BLOCKSTATUS
 ---
 
@@ -94,3 +96,4 @@ A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_data_entry_v2">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
+

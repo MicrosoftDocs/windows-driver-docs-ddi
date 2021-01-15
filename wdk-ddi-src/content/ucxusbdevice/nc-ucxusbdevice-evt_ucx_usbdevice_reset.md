@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_RESET
+ - EVT_UCX_USBDEVICE_RESET
 ---
 
 # EVT_UCX_USBDEVICE_RESET callback function
@@ -94,7 +94,6 @@ UsbDevice_EvtUcxUsbDeviceReset(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_reset">USBDEVICE_RESET</a>
@@ -102,3 +101,4 @@ UsbDevice_EvtUcxUsbDeviceReset(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
+

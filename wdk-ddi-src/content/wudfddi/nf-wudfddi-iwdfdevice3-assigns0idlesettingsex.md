@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.AssignS0IdleSettingsEx
+ - IWDFDevice3::AssignS0IdleSettingsEx
 ---
 
 # IWDFDevice3::AssignS0IdleSettingsEx
@@ -105,7 +105,6 @@ SAFE_RELEASE(pIWDFDevice3);
    
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-assigns0idlesettings">IWDFDevice2::AssignS0IdleSettings</a>
@@ -117,3 +116,4 @@ SAFE_RELEASE(pIWDFDevice3);
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings">WdfDeviceAssignS0IdleSettings</a>
+

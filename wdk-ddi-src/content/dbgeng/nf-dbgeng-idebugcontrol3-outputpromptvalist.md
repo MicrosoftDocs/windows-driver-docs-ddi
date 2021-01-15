@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputPromptVaList
- - IDebugControl2.OutputPromptVaList
- - IDebugControl3.OutputPromptVaList
+ - IDebugControl3::OutputPromptVaList
 ---
 
 # IDebugControl3::OutputPromptVaList
@@ -301,3 +299,4 @@ For more information about prompting the user, see <a href="/windows-hardware/dr
 
 
 <a href="/previous-versions/ff553227(v=vs.85)">OutputPrompt</a>
+

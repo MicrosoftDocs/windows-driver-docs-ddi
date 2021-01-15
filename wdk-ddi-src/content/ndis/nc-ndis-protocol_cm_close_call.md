@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCmCloseCall
+ - PROTOCOL_CM_CLOSE_CALL
 ---
 
 # PROTOCOL_CM_CLOSE_CALL callback function
@@ -223,3 +223,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>
+

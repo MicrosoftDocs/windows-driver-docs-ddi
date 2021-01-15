@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSCLOCK_FUNCTIONTABLE
  - KSCLOCK_FUNCTIONTABLE
 ---
 
@@ -76,3 +77,4 @@ The function pointers returned in this structure are valid until the clock's fil
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
+

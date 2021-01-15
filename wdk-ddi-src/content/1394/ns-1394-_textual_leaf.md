@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _TEXTUAL_LEAF
+ - PTEXTUAL_LEAF
  - TEXTUAL_LEAF
 ---
 

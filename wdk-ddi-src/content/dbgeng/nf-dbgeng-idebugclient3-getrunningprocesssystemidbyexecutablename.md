@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.GetRunningProcessSystemIdByExecutableName
- - IDebugClient2.GetRunningProcessSystemIdByExecutableName
- - IDebugClient3.GetRunningProcessSystemIdByExecutableName
- - IDebugClient4.GetRunningProcessSystemIdByExecutableName
- - IDebugClient5.GetRunningProcessSystemIdByExecutableName
+ - IDebugClient3::GetRunningProcessSystemIdByExecutableName
 ---
 
 # IDebugClient3::GetRunningProcessSystemIdByExecutableName
@@ -191,3 +187,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

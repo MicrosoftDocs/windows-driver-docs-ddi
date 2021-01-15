@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ConfigAlphaCombine
+ - LPDXVA_ConfigAlphaCombine
  - DXVA_ConfigAlphaCombine
 ---
 
@@ -90,3 +92,4 @@ Specifies whether a whole-plane alpha opacity value can be applied to the graphi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a>
+

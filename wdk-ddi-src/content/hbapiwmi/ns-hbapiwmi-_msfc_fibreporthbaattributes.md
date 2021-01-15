@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_FibrePortHBAAttributes
+ - PMSFC_FibrePortHBAAttributes
  - MSFC_FibrePortHBAAttributes
 ---
 
@@ -72,3 +74,4 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-
 
 
 <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a>
+

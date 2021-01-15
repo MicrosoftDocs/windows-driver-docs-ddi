@@ -42,6 +42,8 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_DEVICE_HWACCESS_TARGET_TYPE
+ - PWDF_DEVICE_HWACCESS_TARGET_TYPE
  - WDF_DEVICE_HWACCESS_TARGET_TYPE
 ---
 
@@ -88,3 +90,4 @@ The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/">UMDF Structures and Enumeration Types</a>
+

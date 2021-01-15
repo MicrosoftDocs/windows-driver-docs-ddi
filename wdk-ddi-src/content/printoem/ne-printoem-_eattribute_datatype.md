@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _EATTRIBUTE_DATATYPE
  - EATTRIBUTE_DATATYPE
 ---
 
@@ -98,3 +99,4 @@ The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in prin
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_customsizeparam">CUSTOMSIZEPARAM</a>
+

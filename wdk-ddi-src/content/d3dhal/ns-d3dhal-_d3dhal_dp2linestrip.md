@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2LINESTRIP
+ - LPD3DHAL_DP2LINESTRIP
  - D3DHAL_DP2LINESTRIP
 ---
 
@@ -79,3 +81,4 @@ D3DDP2OP_LINESTRIP
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

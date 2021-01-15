@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetNearInstruction
- - IDebugControl2.GetNearInstruction
- - IDebugControl3.GetNearInstruction
+ - IDebugControl2::GetNearInstruction
 ---
 
 # IDebugControl2::GetNearInstruction
@@ -91,3 +89,4 @@ The method was successful.
 ## -remarks
 
 On some architectures, like x86 and x64, the size of an instruction may vary.  On these architectures, when <i>Delta</i> is negative, the desired instruction location might not be uniquely defined.  In this case, the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> will search backward from <i>Offset</i> until it encounters a location such that there are the <i>Delta</i> number of instructions between that location and <i>Offset</i>.
+

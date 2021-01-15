@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxResume
+ - MINIPORT_WDI_RX_RESUME
 ---
 
 # MINIPORT_WDI_RX_RESUME callback function
@@ -69,3 +69,4 @@ TAL device handle returned by the IHV miniport in <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/network/wdi-rx-path">WDI RX path</a>
+

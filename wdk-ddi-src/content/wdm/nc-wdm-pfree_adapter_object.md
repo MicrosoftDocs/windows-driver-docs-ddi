@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - FreeAdapterObject
+ - PFREE_ADAPTER_OBJECT
 ---
 
 # PFREE_ADAPTER_OBJECT callback function
@@ -123,3 +123,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_adapter_channel">Fre
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

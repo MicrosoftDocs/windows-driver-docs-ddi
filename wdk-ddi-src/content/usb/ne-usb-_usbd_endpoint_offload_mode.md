@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Usb.h
 api_name:
+ - _USBD_ENDPOINT_OFFLOAD_MODE
  - USBD_ENDPOINT_OFFLOAD_MODE
 ---
 
@@ -66,3 +67,4 @@ Endpoint offloading is handled in the USB device or host controller hardware.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>
+

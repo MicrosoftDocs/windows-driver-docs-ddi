@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSCORRELATED_TIME
  - KSCORRELATED_TIME
 ---
 
@@ -72,3 +73,4 @@ The system time is acquired from <a href="/windows-hardware/drivers/ddi/ntifs/nf
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
+

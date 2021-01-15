@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - POEMMEMORYUSAGE
  - OEMMEMORYUSAGE
 ---
 
@@ -74,3 +75,4 @@ The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPerc
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a>
+

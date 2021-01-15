@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetExcludeUnencrypted
+ - DOT11EXT_SET_EXCLUDE_UNENCRYPTED
 ---
 
 # DOT11EXT_SET_EXCLUDE_UNENCRYPTED callback
@@ -107,3 +107,4 @@ A call to the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.RemoveDevice
+ - IWDTFPNPActions2::RemoveDevice
 ---
 
 # IWDTFPNPActions2::RemoveDevice
@@ -61,5 +61,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -remarks
 
 Under the covers, this will call DIF_REMOVE.
-
 

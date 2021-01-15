@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_OID_REQUEST
+ - PNDIS_SWITCH_NIC_OID_REQUEST
  - NDIS_SWITCH_NIC_OID_REQUEST
 ---
 
@@ -140,3 +142,4 @@ For guidelines on how to issue OID requests to underlying physical adapters, see
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-request">OID_SWITCH_NIC_REQUEST</a>
+

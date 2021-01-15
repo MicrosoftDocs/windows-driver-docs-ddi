@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
  - DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 ---
 
@@ -76,3 +77,4 @@ A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_fla
 [**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT**](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md)
 
 [**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](./nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
+

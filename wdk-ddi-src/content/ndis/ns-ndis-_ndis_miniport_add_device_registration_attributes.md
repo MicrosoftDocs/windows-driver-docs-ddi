@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
+ - PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
  - NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
 ---
 
@@ -125,3 +127,4 @@ NDIS later passes the context handle in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

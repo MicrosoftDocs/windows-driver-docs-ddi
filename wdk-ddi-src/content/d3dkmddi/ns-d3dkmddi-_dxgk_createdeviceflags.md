@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CREATEDEVICEFLAGS
  - DXGK_CREATEDEVICEFLAGS
 ---
 
@@ -86,3 +87,4 @@ A member in the union that DXGK_CREATEDEVICEFLAGS contains that can hold a 32-bi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

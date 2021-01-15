@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - ReadErrorRecord
+ - PSHED_PI_READ_ERROR_RECORD
 ---
 
 # PSHED_PI_READ_ERROR_RECORD callback function
@@ -159,3 +159,4 @@ The Windows kernel calls into the PSHED to read an error record from the system'
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record">WriteErrorRecord</a>
+

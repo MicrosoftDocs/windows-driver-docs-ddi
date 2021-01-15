@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_CAPABILITIES
+ - PNDIS_NDK_CAPABILITIES
  - NDIS_NDK_CAPABILITIES
 ---
 
@@ -137,3 +139,4 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="/windows-hard
 
 
 <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
+

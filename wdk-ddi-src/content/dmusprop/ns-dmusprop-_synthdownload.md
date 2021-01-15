@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTHDOWNLOAD
+ - PSYNTHDOWNLOAD
  - SYNTHDOWNLOAD
 ---
 
@@ -74,3 +76,4 @@ If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</
 
 
 <a href="/previous-versions/ff537398(v=vs.85)">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
+

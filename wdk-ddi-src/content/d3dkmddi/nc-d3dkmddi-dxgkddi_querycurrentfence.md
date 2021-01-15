@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiQueryCurrentFence
+ - DXGKDDI_QUERYCURRENTFENCE
 ---
 
 # DXGKDDI_QUERYCURRENTFENCE callback function
@@ -126,3 +126,4 @@ At device interrupt IRQL, calls <a href="/windows-hardware/drivers/ddi/d3dkmddi/
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>
+

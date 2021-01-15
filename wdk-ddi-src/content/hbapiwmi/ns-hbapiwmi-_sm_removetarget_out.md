@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_RemoveTarget_OUT
+ - PSM_RemoveTarget_OUT
  - SM_RemoveTarget_OUT
 ---
 
@@ -60,3 +62,4 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_RemoveTarget_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+

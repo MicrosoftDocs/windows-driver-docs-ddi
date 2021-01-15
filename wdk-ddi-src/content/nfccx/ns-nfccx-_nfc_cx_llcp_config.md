@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_LLCP_CONFIG
+ - PNFC_CX_LLCP_CONFIG
  - NFC_CX_LLCP_CONFIG
 ---
 
@@ -76,3 +78,4 @@ The receive window size per LLCP spec. Default value is 5.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

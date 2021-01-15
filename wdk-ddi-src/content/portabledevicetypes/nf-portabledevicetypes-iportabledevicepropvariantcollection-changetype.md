@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDevicePropVariantCollection.ChangeType
+ - IPortableDevicePropVariantCollection::ChangeType
 ---
 
 # IPortableDevicePropVariantCollection::ChangeType
@@ -84,3 +84,4 @@ If this method fails, the collection may be left in an intermediate state, with 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+

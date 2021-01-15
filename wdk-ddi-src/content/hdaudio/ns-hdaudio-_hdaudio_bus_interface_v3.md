@@ -38,6 +38,8 @@ api_location:
  - hdaudio.h
 api_name:
  - _HDAUDIO_BUS_INTERFACE_V3
+ - PHDAUDIO_BUS_INTERFACE_V3
+ - HDAUDIO_BUS_INTERFACE_V3
 product:
  - Windows
 ---
@@ -160,3 +162,4 @@ The names and definitions of the first five members of the HDAUDIO_BUS_INTERFACE
 [IRP_MN_QUERY_INTERFACE IOCTL](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
 [hdaudio.h](../hdaudio/index.md)
+

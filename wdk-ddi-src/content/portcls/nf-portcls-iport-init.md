@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPort.Init
+ - IPort::Init
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ The UnknownMiniport, UnknownAdapter, and ResourceList parameters follow the stan
 [IPort](nn-portcls-iport.md)
 
 [IMiniportWavePci::Init](nf-portcls-iminiportwavepci-init.md)
+

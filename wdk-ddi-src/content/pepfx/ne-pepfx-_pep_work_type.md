@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_TYPE
+ - PPEP_WORK_TYPE
  - PEP_WORK_TYPE
 ---
 
@@ -120,3 +122,4 @@ This enumeration is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
+

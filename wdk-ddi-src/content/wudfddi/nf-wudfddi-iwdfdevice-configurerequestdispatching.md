@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.ConfigureRequestDispatching
+ - IWDFDevice::ConfigureRequestDispatching
 ---
 
 # IWDFDevice::ConfigureRequestDispatching
@@ -81,3 +81,4 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
+

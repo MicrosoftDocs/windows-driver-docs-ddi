@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _ATA_PASS_THROUGH_EX
+ - PATA_PASS_THROUGH_EX
  - ATA_PASS_THROUGH_EX
 ---
 
@@ -360,3 +362,4 @@ Reserved
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+

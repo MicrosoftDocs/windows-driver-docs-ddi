@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_PRIVACY_EXEMPTION
+ - PDOT11_PRIVACY_EXEMPTION
 product:
  - Windows 10 or later.
 ---
@@ -128,3 +129,4 @@ The 802.11 station's packet exemption list if configured through a set request o
 
 <a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.EvaluateWide
+ - IDebugControl4::EvaluateWide
 ---
 
 # IDebugControl4::EvaluateWide
@@ -125,3 +125,4 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - RtlNtStatusToDosError
+ - RtlNtStatusToDosErrorNoTeb
 ---
 
 # RtlNtStatusToDosErrorNoTeb function

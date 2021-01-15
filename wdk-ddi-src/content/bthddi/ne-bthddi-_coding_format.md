@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _CODING_FORMAT
+ - PCODING_FORMAT
  - CODING_FORMAT
 ---
 

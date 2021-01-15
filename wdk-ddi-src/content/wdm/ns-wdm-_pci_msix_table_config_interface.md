@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PCI_MSIX_TABLE_CONFIG_INTERFACE
+ - PPCI_MSIX_TABLE_CONFIG_INTERFACE
  - PCI_MSIX_TABLE_CONFIG_INTERFACE
 ---
 
@@ -124,3 +126,4 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 
 <a href="/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>
+

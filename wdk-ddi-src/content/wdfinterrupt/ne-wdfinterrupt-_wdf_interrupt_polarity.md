@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_POLARITY
+ - PWDF_INTERRUPT_POLARITY
  - WDF_INTERRUPT_POLARITY
 ---
 
@@ -74,3 +76,4 @@ The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member o
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a>
+

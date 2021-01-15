@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IMasterClock.GetTime
+ - IMasterClock::GetTime
 ---
 
 # IMasterClock::GetTime
@@ -65,3 +65,4 @@ Output pointer for the reference time. This parameter points to a caller-allocat
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-newstream">IMiniportDMus::NewStream</a>
+

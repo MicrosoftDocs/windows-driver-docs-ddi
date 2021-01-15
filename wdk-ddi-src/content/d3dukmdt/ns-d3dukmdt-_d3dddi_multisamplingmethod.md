@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_MULTISAMPLINGMETHOD
  - D3DDDI_MULTISAMPLINGMETHOD
 ---
 
@@ -74,3 +75,4 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_describeallocation">DxgkDdiDescribeAllocation</a>
+

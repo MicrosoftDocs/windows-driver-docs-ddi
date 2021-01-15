@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
  - DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 ---
 
@@ -88,3 +89,4 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">pfnGetMultiplaneOverlayGroupCaps</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_GET_SLOT_INFO
+ - PWWAN_GET_SLOT_INFO
  - WWAN_GET_SLOT_INFO
 ---
 
@@ -60,3 +62,4 @@ Represents the index of the SIM slot. <b>SlotIndex</b> can be mapped to either a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_get_slot_info">NDIS_WWAN_GET_SLOT_INFO</a>
+

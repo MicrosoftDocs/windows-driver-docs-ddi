@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_CONFIGURATION_PARAMETER
+ - PNDIS_CONFIGURATION_PARAMETER
  - NDIS_CONFIGURATION_PARAMETER
 ---
 
@@ -133,3 +135,4 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

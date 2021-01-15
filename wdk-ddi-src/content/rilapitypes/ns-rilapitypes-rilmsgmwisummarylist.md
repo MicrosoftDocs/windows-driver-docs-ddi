@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGMWISUMMARYLIST
+ - LPRILMSGMWISUMMARYLIST
 ---
 
 # RILMSGMWISUMMARYLIST structure (rilapitypes.h)

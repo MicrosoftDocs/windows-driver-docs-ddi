@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.FindChildItemByName
+ - IWiaDrvItem::FindChildItemByName
 ---
 
 # IWiaDrvItem::FindChildItemByName
@@ -84,3 +84,4 @@ Minidrivers typically use this method to search a driver item tree for a specifi
 [IWiaDrvItem::FindItemByName](./nf-wiamindr_lh-iwiadrvitem-finditembyname.md)
 
 [IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetEngineFormatSize
+ - IMiniportAudioEngineNode::GetEngineFormatSize
 ---
 
 # IMiniportAudioEngineNode::GetEngineFormatSize
@@ -75,3 +75,4 @@ The data buffer size for the format type.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a>
+

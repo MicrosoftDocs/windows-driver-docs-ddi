@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvIsUIRequestPending
+ - DOT11EXTIHV_IS_UI_REQUEST_PENDING
 ---
 
 # DOT11EXTIHV_IS_UI_REQUEST_PENDING callback
@@ -118,3 +118,4 @@ The operating system can periodically call the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDI_DEVICEEXECUTION_STATE
  - D3DDDI_DEVICEEXECUTION_STATE
 ---
 

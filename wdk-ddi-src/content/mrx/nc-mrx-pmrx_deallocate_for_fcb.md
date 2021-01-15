@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxDeallocateForFcb
+ - PMRX_DEALLOCATE_FOR_FCB
 ---
 
 # PMRX_DEALLOCATE_FOR_FCB callback function
@@ -122,3 +122,4 @@ A pointer to the FCB structure to deallocate.
 
 
 <a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxfinalizenetfcb">RxFinalizeNetFCB</a>
+

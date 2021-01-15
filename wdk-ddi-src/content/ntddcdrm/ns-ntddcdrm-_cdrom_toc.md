@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_TOC
+ - PCDROM_TOC
  - CDROM_TOC
 ---
 
@@ -80,3 +82,4 @@ The output data contains table of contents information for one or more of the sp
 [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)
 
 [TRACK_DATA](./ns-ntddcdrm-_track_data.md)
+

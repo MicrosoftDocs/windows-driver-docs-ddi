@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UNI_GLYPHSETDATA
+ - PUNI_GLYPHSETDATA
  - UNI_GLYPHSETDATA
 ---
 
@@ -112,3 +114,4 @@ A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt fil
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a>
+

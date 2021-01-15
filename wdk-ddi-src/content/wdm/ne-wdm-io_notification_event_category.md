@@ -30,6 +30,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_NOTIFICATION_EVENT_CATEGORY
  - IO_NOTIFICATION_EVENT_CATEGORY
 product:
  - Windows
@@ -69,3 +70,4 @@ Reserved for system use.
 ## -see-also
 
 [**IoRegisterPlugPlayNotification**](./nf-wdm-ioregisterplugplaynotification.md)
+

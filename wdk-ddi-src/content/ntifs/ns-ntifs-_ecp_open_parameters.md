@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _ECP_OPEN_PARAMETERS
+ - PECP_OPEN_PARAMETERS
  - ECP_OPEN_PARAMETERS
 ---
 
@@ -82,3 +84,4 @@ The ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR_READ and ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR
 [**FltAllocateExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md)
 
 [**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
+

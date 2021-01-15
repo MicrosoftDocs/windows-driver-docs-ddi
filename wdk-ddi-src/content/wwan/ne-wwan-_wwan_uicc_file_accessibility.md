@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_FILE_ACCESSIBILITY
+ - PWWAN_UICC_FILE_ACCESSIBILITY
+ - WWAN_UICC_FILE_ACCESSIBILITY
 ---
 
 # _WWAN_UICC_FILE_ACCESSIBILITY enumeration
@@ -71,3 +73,4 @@ This enumeration is used in the [**WWAN_UICC_FILE_STATUS*](../wwan/ns-wwan-_wwan
 [OID_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
 
 [**WWAN_UICC_FILE_STATUS*](../wwan/ns-wwan-_wwan_uicc_file_status.md)
+

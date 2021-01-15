@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_QUERYADAPTERINFOFLAGS
+ - DXGK_QUERYADAPTERINFOFLAGS
 product:
  - Windows
 ---

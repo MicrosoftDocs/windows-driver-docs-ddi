@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+ - PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
  - NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ---
 
@@ -155,3 +157,4 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-tcp_offload_send_complete_handler">
    ProtocolTcpOffloadSendComplete</a>
+

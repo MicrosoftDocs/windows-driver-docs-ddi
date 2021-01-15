@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IRQ_PRIORITY
+ - PIRQ_PRIORITY
  - IRQ_PRIORITY
 ---
 
@@ -76,3 +78,4 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+

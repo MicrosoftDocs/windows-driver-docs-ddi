@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
+ - PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
  - PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
 ---
 
@@ -91,3 +93,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_translated_device_control_resources">PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES</a>
+

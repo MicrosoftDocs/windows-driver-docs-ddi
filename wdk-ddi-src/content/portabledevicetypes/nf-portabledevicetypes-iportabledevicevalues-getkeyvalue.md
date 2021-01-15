@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetKeyValue
+ - IPortableDeviceValues::GetKeyValue
 ---
 
 # IPortableDeviceValues::GetKeyValue
@@ -115,3 +115,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setkeyvalue">IPortableDeviceValues::SetKeyValue</a>
+

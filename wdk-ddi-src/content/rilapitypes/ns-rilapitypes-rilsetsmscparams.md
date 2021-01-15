@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETSMSCPARAMS
+ - LPRILSETSMSCPARAMS
 ---
 
 # RILSETSMSCPARAMS structure (rilapitypes.h)

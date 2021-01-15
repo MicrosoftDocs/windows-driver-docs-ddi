@@ -39,7 +39,7 @@ api_location:
  - ndis.lib
  - ndis.dll
 api_name:
- - NdisMSynchronizeWithInterruptEx
+ - _VIDEO_PORT_DEBUG_REPORT_INTERFACE::BOOLEAN
 ---
 
 # BOOLEAN function
@@ -144,3 +144,4 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+

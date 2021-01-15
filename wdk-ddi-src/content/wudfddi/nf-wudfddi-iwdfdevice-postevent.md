@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.PostEvent
+ - IWDFDevice::PostEvent
 ---
 
 # IWDFDevice::PostEvent
@@ -153,3 +153,4 @@ For information about creating device events, see <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>
+

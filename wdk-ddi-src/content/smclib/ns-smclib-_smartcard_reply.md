@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Smclib.h
 api_name:
+ - _SMARTCARD_REPLY
+ - PSMARTCARD_REPLY
  - SMARTCARD_REPLY
 ---
 
@@ -72,3 +74,4 @@ The client driver must receive data in this buffer and   adjust <i>BufferLength<
 ## -see-also
 
 <a href="/previous-versions/dn946592(v=vs.85)">SmcCxGetSmartcardReplyBuffer</a>
+

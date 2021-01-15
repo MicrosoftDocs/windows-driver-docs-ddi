@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLS_IO_STATISTICS
+ - PCLS_IO_STATISTICS
  - CLS_IO_STATISTICS
 ---
 
@@ -80,3 +82,4 @@ The number of bytes of metadata flushed.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>
+

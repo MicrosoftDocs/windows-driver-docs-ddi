@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetLUNStatistics_IN
+ - PSM_GetLUNStatistics_IN
  - SM_GetLUNStatistics_IN
 ---
 
@@ -60,3 +62,4 @@ A structure of type <a href="/previous-versions/ff557191(v=vs.85)">HBA_ScsiId</a
 ## -remarks
 
 When the WMI tool suite compiles the MS_SM_TargetInformationMethods WMI class, it generates a declaration of the SM_GetLUNStatistics_IN structure in <i>Hbapiwmi.h</i>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _PARTITION_INFORMATION_MBR
+ - PPARTITION_INFORMATION_MBR
  - PARTITION_INFORMATION_MBR
 ---
 
@@ -78,3 +80,4 @@ Contains the number of hidden sectors in the partition.
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
 
 [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)
+

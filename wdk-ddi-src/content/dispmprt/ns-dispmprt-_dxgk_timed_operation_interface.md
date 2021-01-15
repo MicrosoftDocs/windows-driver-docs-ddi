@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_TIMED_OPERATION_INTERFACE
+ - PDXGK_TIMED_OPERATION_INTERFACE
  - DXGK_TIMED_OPERATION_INTERFACE
 ---
 
@@ -188,3 +190,4 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationWaitForSingleObject</a>
+

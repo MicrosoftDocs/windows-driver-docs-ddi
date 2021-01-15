@@ -34,7 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PALLOCATE_DOMAIN_COMMON_BUFFER
- - AllocateDomainCommonBuffer
 ---
 
 # PALLOCATE_DOMAIN_COMMON_BUFFER callback function
@@ -116,3 +115,4 @@ NTSTATUS PallocateDomainCommonBuffer
 ## -remarks
 
 ## -see-also
+

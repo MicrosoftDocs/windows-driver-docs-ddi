@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - SymbolSearchInfo
+ - SymbolSearchInfo::SymbolSearchInfo
 ---
 
 # SymbolSearchInfo function (dbgmodel.h)
@@ -62,3 +62,4 @@ This function is a constructor and does not return a value.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

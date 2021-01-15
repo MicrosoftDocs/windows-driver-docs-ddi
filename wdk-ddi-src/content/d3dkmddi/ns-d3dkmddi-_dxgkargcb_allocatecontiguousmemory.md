@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+ - DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 product:
  - Windows
 ---

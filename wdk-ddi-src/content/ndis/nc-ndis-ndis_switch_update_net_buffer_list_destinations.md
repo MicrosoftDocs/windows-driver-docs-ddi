@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - UpdateNetBufferListDestinations
+ - NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS
 ---
 
 # NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback function
@@ -147,3 +147,4 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-delete">OID_SWITCH_NIC_DELETE</a>
+

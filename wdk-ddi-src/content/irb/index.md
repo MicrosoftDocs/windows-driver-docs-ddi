@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - irb
  - irb/irb
+api_name:
+ - irb
 ---
 
 # Irb.h header

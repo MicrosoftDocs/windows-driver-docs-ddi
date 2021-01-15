@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_MIC_ARRAY_GEOMETRY
  - KSAUDIO_MIC_ARRAY_GEOMETRY
 ---
 
@@ -110,3 +111,4 @@ For more information about how to process a microphone array in Windows, see the
 ## -see-also
 
 [KSAUDIO_MICROPHONE_COORDINATES](./ns-ksmedia-ksaudio_microphone_coordinates.md)
+

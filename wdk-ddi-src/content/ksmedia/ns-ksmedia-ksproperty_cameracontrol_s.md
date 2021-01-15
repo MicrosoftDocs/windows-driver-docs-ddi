@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_S
  - KSPROPERTY_CAMERACONTROL_S
 ---
 
@@ -172,3 +173,4 @@ Indicates that the device settings are in relative values.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
+

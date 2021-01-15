@@ -33,6 +33,7 @@ api_type:
 api_location:
  - rsctypes.h
 api_name:
+ - _NET_PACKET_RSC_TIMESTAMP
  - NET_PACKET_RSC_TIMESTAMP
 product:
  - Windows
@@ -67,3 +68,4 @@ Client drivers can obtain this structure for a packet by calling [**NetExtension
 ## -see-also
 
 [Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+

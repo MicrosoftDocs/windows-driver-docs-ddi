@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_ACTION
+ - PWWAN_PIN_ACTION
  - WWAN_PIN_ACTION
 ---
 
@@ -106,3 +108,4 @@ When
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pin_type">WWAN_PIN_TYPE</a>
+

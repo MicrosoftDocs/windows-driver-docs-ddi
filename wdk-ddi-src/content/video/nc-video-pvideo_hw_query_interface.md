@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidQueryInterface
+ - PVIDEO_HW_QUERY_INTERFACE
 ---
 
 # PVIDEO_HW_QUERY_INTERFACE callback function
@@ -114,3 +114,4 @@ A child device is enumerated by <a href="/windows-hardware/drivers/ddi/video/nc-
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasedevicelock">VideoPortReleaseDeviceLock</a>
+

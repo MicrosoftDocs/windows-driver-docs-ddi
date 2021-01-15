@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdfqueryinterface.h
 api_name:
+ - _WDF_QUERY_INTERFACE_CONFIG
+ - PWDF_QUERY_INTERFACE_CONFIG
  - WDF_QUERY_INTERFACE_CONFIG
 ---
 
@@ -150,3 +152,4 @@ For more information about driver-defined interfaces, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
+

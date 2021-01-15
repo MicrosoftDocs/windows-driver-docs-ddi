@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RSC_STATISTICS_INFO
+ - PNDIS_RSC_STATISTICS_INFO
  - NDIS_RSC_STATISTICS_INFO
 ---
 
@@ -92,3 +94,4 @@ The total number of RSC abort events. That is, the number of exceptions other th
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-rsc-statistics">OID_TCP_RSC_STATISTICS</a>
+

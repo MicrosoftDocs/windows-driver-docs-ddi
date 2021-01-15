@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - MapTransferEx
+ - PMAP_TRANSFER_EX
 ---
 
 # PMAP_TRANSFER_EX callback function
@@ -248,3 +248,4 @@ For more information, see <a href="/windows-hardware/drivers/kernel/using-the-ma
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _WHEA_NOTIFICATION_DESCRIPTOR
+ - PWHEA_NOTIFICATION_DESCRIPTOR
  - WHEA_NOTIFICATION_DESCRIPTOR
 ---
 
@@ -391,3 +393,4 @@ A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>
+

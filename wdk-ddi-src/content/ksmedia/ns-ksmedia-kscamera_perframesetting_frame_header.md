@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSCAMERA_PERFRAMESETTING_FRAME_HEADER
  - KSCAMERA_PERFRAMESETTING_FRAME_HEADER
 ---
 

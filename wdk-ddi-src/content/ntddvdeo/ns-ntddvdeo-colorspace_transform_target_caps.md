@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _COLORSPACE_TRANSFORM_TARGET_CAPS
+ - PCOLORSPACE_TRANSFORM_TARGET_CAPS
  - COLORSPACE_TRANSFORM_TARGET_CAPS
 dev_langs:
  - c++

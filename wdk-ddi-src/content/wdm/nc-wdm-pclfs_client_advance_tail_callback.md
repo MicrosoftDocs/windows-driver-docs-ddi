@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ClfsAdvanceTailCallback
+ - PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
 ---
 
 # PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback function
@@ -101,3 +101,4 @@ When a client calls the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmg
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmttailadvancefailure">ClfsMgmtTailAdvanceFailure</a>
+

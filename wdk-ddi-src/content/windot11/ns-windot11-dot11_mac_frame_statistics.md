@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_MAC_FRAME_STATISTICS
+ - PDOT11_MAC_FRAME_STATISTICS
 product:
  - Windows 10 or later.
 ---
@@ -203,3 +204,4 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 <a href="/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>
+

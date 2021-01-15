@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_OBJECT_HEADER
  - NDK_OBJECT_HEADER
 ---
 
@@ -157,3 +158,4 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
+

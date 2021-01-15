@@ -42,6 +42,8 @@ api_location:
  - ntifs.h
  - wdm.h
 api_name:
+ - _FILE_INFORMATION_CLASS
+ - PFILE_INFORMATION_CLASS
  - FILE_INFORMATION_CLASS
 ---
 
@@ -455,3 +457,4 @@ typedef enum _FILE_INFORMATION_CLASS {
     FileMaximumInformation
 } FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS;
 ```
+

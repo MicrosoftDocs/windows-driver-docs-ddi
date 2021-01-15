@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_INCOMING_ASSOC_DECISION_V2
+ - PDOT11_INCOMING_ASSOC_DECISION_V2
  - DOT11_INCOMING_ASSOC_DECISION_V2
 product:
  - Windows 10 or later.
@@ -119,3 +121,4 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION_V2 {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_DISPOSITION_INFORMATION
+ - PFILE_DISPOSITION_INFORMATION
  - FILE_DISPOSITION_INFORMATION
 ---
 
@@ -70,3 +72,4 @@ A file marked for deletion is not actually deleted until all open handles for th
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

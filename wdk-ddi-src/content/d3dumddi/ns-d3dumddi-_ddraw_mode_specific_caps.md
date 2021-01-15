@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DDRAW_MODE_SPECIFIC_CAPS
  - DDRAW_MODE_SPECIFIC_CAPS
 ---
 
@@ -123,3 +124,4 @@ Capabilities can change between heads of a multiple-headed graphics card and can
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

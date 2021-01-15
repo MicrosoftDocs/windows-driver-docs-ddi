@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _SELF_ID_MORE
+ - PSELF_ID_MORE
  - SELF_ID_MORE
 ---
 
@@ -200,3 +202,4 @@ This structure corresponds to self ID packet 1, as described in the <i>P1394a</i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_topology_map">TOPOLOGY_MAP</a>
+

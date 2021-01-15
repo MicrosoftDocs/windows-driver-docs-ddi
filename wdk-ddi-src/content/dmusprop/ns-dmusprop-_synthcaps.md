@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTHCAPS
+ - PSYNTHCAPS
  - SYNTHCAPS
 ---
 
@@ -192,3 +194,4 @@ In this example, the 0xFFFFFFFF values indicate that the handler has no way of k
 
 
 <a href="/previous-versions/ff537389(v=vs.85)">KSPROPERTY_SYNTH_CAPS</a>
+

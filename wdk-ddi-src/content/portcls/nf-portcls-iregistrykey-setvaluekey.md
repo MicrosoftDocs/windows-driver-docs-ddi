@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.SetValueKey
+ - IRegistryKey::SetValueKey
 ---
 
 # IRegistryKey::SetValueKey
@@ -143,3 +143,4 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
+

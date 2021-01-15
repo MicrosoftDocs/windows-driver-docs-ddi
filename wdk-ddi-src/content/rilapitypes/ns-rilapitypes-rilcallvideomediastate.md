@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLVIDEOMEDIASTATE
+ - LPRILCALLVIDEOMEDIASTATE
 ---
 
 # RILCALLVIDEOMEDIASTATE structure (rilapitypes.h)

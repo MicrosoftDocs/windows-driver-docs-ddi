@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputDisassembly
- - IDebugControl2.OutputDisassembly
- - IDebugControl3.OutputDisassembly
+ - IDebugControl2::OutputDisassembly
 ---
 
 # IDebugControl2::OutputDisassembly
@@ -165,3 +163,4 @@ For an overview of using assembly in debugger applications, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputdisassemblylines">OutputDisassemblyLines</a>
+

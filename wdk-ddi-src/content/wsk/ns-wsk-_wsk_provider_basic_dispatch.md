@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_PROVIDER_BASIC_DISPATCH
+ - PWSK_PROVIDER_BASIC_DISPATCH
  - WSK_PROVIDER_BASIC_DISPATCH
 ---
 
@@ -117,3 +119,4 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

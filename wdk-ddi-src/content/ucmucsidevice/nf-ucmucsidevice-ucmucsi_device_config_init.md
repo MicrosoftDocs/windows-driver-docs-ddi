@@ -35,7 +35,7 @@ api_type:
 api_location:
  - UcmUcsiCxStub.lib
 api_name:
- - UcmUcsiDeviceInitialize
+ - UCMUCSI_DEVICE_CONFIG_INIT
 ---
 
 # UCMUCSI_DEVICE_CONFIG_INIT function
@@ -62,3 +62,4 @@ The client driver must call this initialization function before calling [**UcmUc
 [**UCMUCSI_DEVICE_CONFIG**](ns-ucmucsidevice-_ucmucsi_device_config.md)
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+

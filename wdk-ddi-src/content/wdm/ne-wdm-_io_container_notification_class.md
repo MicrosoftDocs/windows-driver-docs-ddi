@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_CONTAINER_NOTIFICATION_CLASS
  - IO_CONTAINER_NOTIFICATION_CLASS
 ---
 
@@ -66,3 +67,4 @@ To register for notifications, a driver calls the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistercontainernotification">IoRegisterContainerNotification</a>
+

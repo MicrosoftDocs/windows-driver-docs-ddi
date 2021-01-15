@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_DEVICE_POWER_STATE
+ - PNDIS_DEVICE_POWER_STATE
  - NDIS_DEVICE_POWER_STATE
 ---
 
@@ -128,3 +130,4 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-set-power">OID_PNP_SET_POWER</a>
+

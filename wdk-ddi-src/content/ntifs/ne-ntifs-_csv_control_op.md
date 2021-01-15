@@ -32,6 +32,8 @@ api_location:
  - ntifs.h
 api_name:
  - _CSV_CONTROL_OP
+ - PCSV_CONTROL_OP
+ - CSV_CONTROL_OP
 ---
 
 # _CSV_CONTROL_OP enumeration
@@ -112,3 +114,4 @@ An alternative to calling the [FSCTL_CSV_CONTROL](/windows/win32/api/winioctl/ni
 [CSV_QUERY_REDIRECT_STATE](/windows/win32/api/winioctl/ns-winioctl-csv_query_redirect_state)
 
 [FSCTL_CSV_CONTROL](/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_control)
+

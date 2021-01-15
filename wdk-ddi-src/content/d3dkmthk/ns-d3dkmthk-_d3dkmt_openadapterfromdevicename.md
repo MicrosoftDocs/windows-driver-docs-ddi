@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENADAPTERFROMDEVICENAME
  - D3DKMT_OPENADAPTERFROMDEVICENAME
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the give
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromdevicename">D3DKMTOpenAdapterFromDeviceName</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGOUTSUBMIT
+ - LPRILMSGOUTSUBMIT
 ---
 
 # RILMSGOUTSUBMIT structure (ntddrilapitypes.h)

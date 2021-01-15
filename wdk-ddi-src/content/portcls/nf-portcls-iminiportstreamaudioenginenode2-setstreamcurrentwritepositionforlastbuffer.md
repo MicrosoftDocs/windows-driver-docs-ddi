@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
+ - IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 ---
 
 # IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
@@ -71,3 +71,4 @@ If the buffer is only partially filled, then the audio driver needs to notify th
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-lastbuffer-position">KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION</a>
+

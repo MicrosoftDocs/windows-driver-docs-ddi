@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _GetPresharedKeyForId_OUT
+ - PGetPresharedKeyForId_OUT
  - GetPresharedKeyForId_OUT
 ---
 
@@ -84,3 +86,4 @@ You must initiate this method if the initiator supports IKE.
 
 
 <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
+

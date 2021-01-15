@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCompleteConnect
+ - NDK_FN_COMPLETE_CONNECT
 ---
 
 # NDK_FN_COMPLETE_CONNECT callback function
@@ -183,3 +183,4 @@ The <i>NdkCompleteConnect</i> function completes a connection request that was  
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetLUNStatistics_OUT
+ - PSM_GetLUNStatistics_OUT
  - SM_GetLUNStatistics_OUT
 ---
 
@@ -64,3 +66,4 @@ A structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_GetLUNStatistics_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+

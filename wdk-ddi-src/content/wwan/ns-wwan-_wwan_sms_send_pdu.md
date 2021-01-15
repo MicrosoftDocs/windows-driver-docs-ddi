@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_SEND_PDU
+ - PWWAN_SMS_SEND_PDU
  - WWAN_SMS_SEND_PDU
 ---
 
@@ -140,3 +142,4 @@ For CDMA-based devices that support sending SMS messages in binary format (that 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
+

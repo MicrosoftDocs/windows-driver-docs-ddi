@@ -38,7 +38,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - EnumLogEntry
+ - PUSB_BUSIFFN_ENUM_LOG_ENTRY
 ---
 
 # PUSB_BUSIFFN_ENUM_LOG_ENTRY callback
@@ -108,5 +108,4 @@ typedef NTSTATUS
     IN ULONG
 );
 ```
-
 

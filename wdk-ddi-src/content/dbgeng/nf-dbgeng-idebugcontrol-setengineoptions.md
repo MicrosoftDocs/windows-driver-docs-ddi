@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetEngineOptions
- - IDebugControl2.SetEngineOptions
- - IDebugControl3.SetEngineOptions
+ - IDebugControl::SetEngineOptions
 ---
 
 # IDebugControl::SetEngineOptions
@@ -343,3 +341,4 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeengineoptions">RemoveEngineOptions</a>
+

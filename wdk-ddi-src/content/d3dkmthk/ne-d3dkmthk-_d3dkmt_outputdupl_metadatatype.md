@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OUTPUTDUPL_METADATATYPE
+ - D3DKMT_OUTPUTDUPL_METADATATYPE
 dev_langs:
  - c++
 ---

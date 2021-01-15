@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.RescanParentDevice
+ - IWDTFPNPAction2::RescanParentDevice
 ---
 
 # IWDTFPNPAction2::RescanParentDevice
@@ -67,3 +67,4 @@ In essence, <b>RescanParentDevice</b> calls
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - EnableErrorSource
+ - PSHED_PI_ENABLE_ERROR_SOURCE
 ---
 
 # PSHED_PI_ENABLE_ERROR_SOURCE callback function
@@ -130,3 +130,4 @@ If the PSHED plug-in successfully enables the error source, the PSHED will updat
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _STORAGE_ENDURANCE_DATA_DESCRIPTOR
+ - PSTORAGE_ENDURANCE_DATA_DESCRIPTOR
  - STORAGE_ENDURANCE_DATA_DESCRIPTOR
 product:
  - Windows
@@ -80,3 +82,4 @@ The storage port driver uses [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](../ntddstor/
 [STORAGE_ENDURANCE_INFO](ns-ntddscsi-storage_endurance_info.md)
 
 [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](../ntddstor/ns-ntddstor-storage_hw_endurance_data_descriptor.md)
+

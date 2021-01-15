@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PACKET_SERVICE
+ - PWWAN_PACKET_SERVICE
  - WWAN_PACKET_SERVICE
 ---
 
@@ -170,3 +172,4 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_packet_service_state">WWAN_PACKET_SERVICE_STATE</a>
+

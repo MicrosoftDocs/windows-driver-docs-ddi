@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetFileObject
+ - IWDFIoRequest::GetFileObject
 ---
 
 # IWDFIoRequest::GetFileObject
@@ -83,7 +83,6 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
   
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
@@ -91,3 +90,4 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

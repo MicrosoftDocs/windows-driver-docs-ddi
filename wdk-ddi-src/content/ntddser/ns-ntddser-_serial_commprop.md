@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_COMMPROP
+ - PSERIAL_COMMPROP
  - SERIAL_COMMPROP
 ---
 
@@ -440,3 +442,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddser/ni-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a>
+

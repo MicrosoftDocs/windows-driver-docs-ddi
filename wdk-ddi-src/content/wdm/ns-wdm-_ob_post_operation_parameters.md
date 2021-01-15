@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_POST_OPERATION_PARAMETERS
+ - POB_POST_OPERATION_PARAMETERS
  - OB_POST_OPERATION_PARAMETERS
 ---
 
@@ -72,3 +74,4 @@ An <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_duplicate_handle_i
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
+

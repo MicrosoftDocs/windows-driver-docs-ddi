@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SE_TOKEN_USER
  - SE_TOKEN_USER
 ---
 
@@ -82,3 +83,4 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
+

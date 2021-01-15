@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_QmatrixData
+ - LPDXVA_QmatrixData
  - DXVA_QmatrixData
 ---
 
@@ -96,3 +98,4 @@ The order of the data values within the inverse-quantization matrix is as specif
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
+

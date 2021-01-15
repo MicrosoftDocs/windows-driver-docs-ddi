@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
+ - _USBCAMD_DEVICE_DATA2
+ - PUSBCAMD_DEVICE_DATA2
  - USBCAMD_DEVICE_DATA2
 ---
 
@@ -162,3 +164,4 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_initializenewinterface">USBCAMD_InitializeNewInterface</a>
+

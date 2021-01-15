@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DecodeBeginFrame
+ - PFND3DDDI_DECODEBEGINFRAME
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a>
+

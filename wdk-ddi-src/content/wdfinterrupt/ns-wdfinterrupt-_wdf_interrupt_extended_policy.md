@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_EXTENDED_POLICY
+ - PWDF_INTERRUPT_EXTENDED_POLICY
  - WDF_INTERRUPT_EXTENDED_POLICY
 ---
 
@@ -84,3 +86,4 @@ To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetextendedpolicy">WdfInterruptSetExtendedPolicy</a>
+

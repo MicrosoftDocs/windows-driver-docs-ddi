@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_DISPLAYMODELIST
  - D3DKMT_DISPLAYMODELIST
 ---
 
@@ -62,3 +63,4 @@ Describes a list of display modes.
 ### -field pModeList
 
 [out] An array of <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
+

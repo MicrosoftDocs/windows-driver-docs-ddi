@@ -33,6 +33,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DKGK_GAMMA_DATA_CAP
  - DKGK_GAMMA_DATA_CAP
 dev_langs:
  - c++

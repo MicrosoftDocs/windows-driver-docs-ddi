@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.UnregisterLaunchApplication
+ - IStillImageW::UnregisterLaunchApplication
 ---
 
 # IStillImageW::UnregisterLaunchApplication
@@ -71,3 +71,4 @@ Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

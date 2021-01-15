@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_ADAPTER_INFORMATION
+ - PMPIO_ADAPTER_INFORMATION
  - MPIO_ADAPTER_INFORMATION
 ---
 

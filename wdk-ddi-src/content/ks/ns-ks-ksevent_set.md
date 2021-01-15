@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSEVENT_SET
  - KSEVENT_SET
 ---
 
@@ -70,3 +71,4 @@ Microsoft provides several system-defined kernel streaming event set GUIDs. Mini
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item">KSEVENT_ITEM</a>
+

@@ -33,6 +33,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _D3DKMT_WDDM_2_0_CAPS
+ - D3DKMT_WDDM_2_0_CAPS
 product:
  - Windows
 ---

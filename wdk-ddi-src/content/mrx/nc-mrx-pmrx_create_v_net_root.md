@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxCreateVNetRoot
+ - PMRX_CREATE_V_NET_ROOT
 ---
 
 # PMRX_CREATE_V_NET_ROOT callback function
@@ -190,3 +190,4 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
 
 <a href="/windows-hardware/drivers/ddi/rxstruc/nf-rxstruc-rxgetrdbssprocess">RxGetRDBSSProcess</a>
+

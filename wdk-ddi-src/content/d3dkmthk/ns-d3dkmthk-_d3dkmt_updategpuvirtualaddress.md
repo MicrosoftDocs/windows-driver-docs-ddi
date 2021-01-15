@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_UPDATEGPUVIRTUALADDRESS
  - D3DKMT_UPDATEGPUVIRTUALADDRESS
 ---
 
@@ -98,3 +99,4 @@ This member is reserved and should be set to zero.
 ### -field Flags.Value
 
 The consolidated value of the <b>Flags</b> union.
+

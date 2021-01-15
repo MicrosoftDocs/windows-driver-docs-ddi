@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - InterfaceReference
+ - PINTERFACE_REFERENCE
 ---
 
 # PINTERFACE_REFERENCE callback function (wdm.h)
@@ -75,3 +75,4 @@ Note that the <i>InterfaceReference</i> routine is a per interface contract, so 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_COLCON
+ - PKS_COLCON
  - KS_COLCON
 ---
 
@@ -92,3 +94,4 @@ The KS_COLCON structure is used by the <a href="/windows-hardware/drivers/ddi/ks
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksproperty_sphli">KSPROPERTY_SPHLI</a>
+

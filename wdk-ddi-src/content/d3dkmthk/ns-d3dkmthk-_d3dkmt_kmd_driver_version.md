@@ -33,6 +33,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_KMD_DRIVER_VERSION
+ - D3DKMT_KMD_DRIVER_VERSION
 product:
  - Windows
 ---

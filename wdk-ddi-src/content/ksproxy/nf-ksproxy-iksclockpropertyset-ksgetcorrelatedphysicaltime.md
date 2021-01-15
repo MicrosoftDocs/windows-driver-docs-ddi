@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsClockPropertySet.KsGetCorrelatedPhysicalTime
+ - IKsClockPropertySet::KsGetCorrelatedPhysicalTime
 ---
 
 # IKsClockPropertySet::KsGetCorrelatedPhysicalTime
@@ -73,3 +73,4 @@ The proxy uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-co
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-clock-correlatedphysicaltime">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
+

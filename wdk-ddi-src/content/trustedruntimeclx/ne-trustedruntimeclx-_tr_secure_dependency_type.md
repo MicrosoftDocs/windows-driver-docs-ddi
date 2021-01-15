@@ -31,9 +31,11 @@ api_location:
  - trustedruntimeclx.h
 api_name:
  - _TR_SECURE_DEPENDENCY_TYPE
+ - TR_SECURE_DEPENDENCY_TYPE
 ---
 
 # _TR_SECURE_DEPENDENCY_TYPE enumeration
+
 
 ## -description
 
@@ -46,3 +48,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

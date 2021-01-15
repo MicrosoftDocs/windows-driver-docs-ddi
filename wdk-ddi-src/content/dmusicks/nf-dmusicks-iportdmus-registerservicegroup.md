@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IPortDMus.RegisterServiceGroup
+ - IPortDMus::RegisterServiceGroup
 ---
 
 # IPortDMus::RegisterServiceGroup
@@ -87,3 +87,4 @@ The <i>pServiceGroup</i> parameter follows the <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>
+

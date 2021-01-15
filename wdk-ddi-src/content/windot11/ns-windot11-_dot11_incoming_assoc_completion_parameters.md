@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ - PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
  - DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 product:
  - Windows 10 or later.
@@ -272,3 +274,4 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

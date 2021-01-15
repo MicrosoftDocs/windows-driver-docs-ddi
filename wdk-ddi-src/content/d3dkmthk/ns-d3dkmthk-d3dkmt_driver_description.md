@@ -33,6 +33,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DRIVER_DESCRIPTION
  - D3DKMT_DRIVER_DESCRIPTION
 dev_langs:
  - c++

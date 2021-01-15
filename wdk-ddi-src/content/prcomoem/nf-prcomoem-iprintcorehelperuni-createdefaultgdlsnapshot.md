@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreHelperUni.CreateDefaultGDLSnapshot
+ - IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 ---
 
 # IPrintCoreHelperUni::CreateDefaultGDLSnapshot
@@ -70,3 +70,4 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-creategdlsnapshot">IPrintCoreHelperUni::CreateGDLSnapshot</a>
+

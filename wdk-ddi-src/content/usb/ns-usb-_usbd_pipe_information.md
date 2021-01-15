@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USBD_PIPE_INFORMATION
+ - PUSBD_PIPE_INFORMATION
  - USBD_PIPE_INFORMATION
 ---
 
@@ -262,3 +264,4 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>
+

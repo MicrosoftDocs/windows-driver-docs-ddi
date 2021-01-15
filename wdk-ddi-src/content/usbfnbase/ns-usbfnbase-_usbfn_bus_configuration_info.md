@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_BUS_CONFIGURATION_INFO
+ - PUSBFN_BUS_CONFIGURATION_INFO
  - USBFN_BUS_CONFIGURATION_INFO
 ---
 

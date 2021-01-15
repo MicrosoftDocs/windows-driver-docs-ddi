@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - ntddk
  - ntddk/ntddk
+api_name:
+ - ntddk
 ---
 
 # Ntddk.h header

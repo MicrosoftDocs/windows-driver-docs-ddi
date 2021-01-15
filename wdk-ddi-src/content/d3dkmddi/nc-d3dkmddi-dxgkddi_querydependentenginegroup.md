@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiQueryDependentEngineGroup
+ - DXGKDDI_QUERYDEPENDENTENGINEGROUP
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ For more information, see [TDR changes in Windows 8](/windows-hardware/drivers/d
 [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
 
 [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md)
+

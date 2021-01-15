@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_DESCRIPTOR
+ - PNET_DMA_DESCRIPTOR
  - NET_DMA_DESCRIPTOR
 ---
 
@@ -402,3 +404,4 @@ The NetDMA interface calls a DMA provider driver's
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
+

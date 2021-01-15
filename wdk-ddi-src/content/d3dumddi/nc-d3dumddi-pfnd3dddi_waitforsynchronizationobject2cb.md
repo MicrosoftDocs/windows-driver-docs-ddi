@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnWaitForSynchronizationObject2Cb
+ - PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB
 product:
  - Windows
 ---
@@ -120,3 +120,4 @@ Do not call this function if the synchronization object is of type <b>D3DDDI_CPU
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a>
+

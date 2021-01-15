@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - PKSP_NODE_ESPID
  - KSP_NODE_ESPID
 ---
 
@@ -62,3 +63,4 @@ Packet identifier (PID) that identifies packets in the elementary stream.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_AGGREGATE_BASIC_INFORMATION
+ - PFILTER_AGGREGATE_BASIC_INFORMATION
  - FILTER_AGGREGATE_BASIC_INFORMATION
 ---
 
@@ -163,3 +165,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>
+

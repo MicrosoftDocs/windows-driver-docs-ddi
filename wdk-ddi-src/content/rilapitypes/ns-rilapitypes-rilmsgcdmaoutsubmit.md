@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGCDMAOUTSUBMIT
+ - LPRILMSGCDMAOUTSUBMIT
 ---
 
 # RILMSGCDMAOUTSUBMIT structure (rilapitypes.h)

@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - printoem
  - printoem/printoem
+api_name:
+ - printoem
 ---
 
 # Printoem.h header

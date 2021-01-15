@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_GETRUNTIMEDATA
+ - D3DKMT_GETRUNTIMEDATA
 dev_langs:
  - c++
 ---

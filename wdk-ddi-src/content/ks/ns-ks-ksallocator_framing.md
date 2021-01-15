@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSALLOCATOR_FRAMING
  - KSALLOCATOR_FRAMING
 ---
 
@@ -231,3 +232,4 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
+

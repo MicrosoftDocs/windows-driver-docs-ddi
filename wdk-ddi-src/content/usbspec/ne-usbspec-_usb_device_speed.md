@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Usbspec.h
 api_name:
+ - _USB_DEVICE_SPEED
  - USB_DEVICE_SPEED
 ---
 
@@ -70,3 +71,4 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#enumerations">USB Constants and Enumerations</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
+ - PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
  - NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 ---
 
@@ -195,3 +197,4 @@ To obtain the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure, a driv
 
 
 <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+

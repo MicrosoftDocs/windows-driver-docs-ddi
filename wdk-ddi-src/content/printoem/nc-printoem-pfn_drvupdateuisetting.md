@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvUpdateUISetting
+ - PFN_DrvUpdateUISetting
 ---
 
 # PFN_DrvUpdateUISetting callback function
@@ -60,3 +60,4 @@ This function pointer prototype defines the type of the <b>DrvUpdateUISetting</b
 ### -param dwPreviousSelection
 
 ### -param dwMode
+

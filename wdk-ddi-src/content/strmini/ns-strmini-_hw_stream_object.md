@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_STREAM_OBJECT
+ - PHW_STREAM_OBJECT
  - HW_STREAM_OBJECT
 ---
 
@@ -118,3 +120,4 @@ When the class driver opens the stream and issues the SRB_OPEN_STREAM request to
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a>
+

@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEAP_PLUGIN_PFA_EVENT
+ - PWHEAP_PLUGIN_PFA_EVENT
  - WHEAP_PLUGIN_PFA_EVENT
 f1_keywords:
  - _WHEAP_PLUGIN_PFA_EVENT

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_VWIFI_COMBINATION
+ - PDOT11_VWIFI_COMBINATION
  - DOT11_VWIFI_COMBINATION
 product:
  - Windows 10 or later.
@@ -139,3 +141,4 @@ Starting with Windows 7, the 802.11 miniport driver must only report one or more
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

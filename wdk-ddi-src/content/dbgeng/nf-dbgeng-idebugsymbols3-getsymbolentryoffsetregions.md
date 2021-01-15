@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.GetSymbolEntryOffsetRegions
+ - IDebugSymbols3::GetSymbolEntryOffsetRegions
 ---
 
 # IDebugSymbols3::GetSymbolEntryOffsetRegions
@@ -97,3 +97,4 @@ The quality of information returned is highly
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourceentryoffsetregions">IDebugSymbols3::GetSourceEntryOffsetRegions</a>
+

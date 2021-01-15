@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _CREATE_DISK_GPT
+ - PCREATE_DISK_GPT
  - CREATE_DISK_GPT
 ---
 
@@ -68,3 +70,4 @@ Specifies the maximum number of partitions allowed on the disk.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
+

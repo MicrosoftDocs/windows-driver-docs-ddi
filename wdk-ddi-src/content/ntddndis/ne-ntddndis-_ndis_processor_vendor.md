@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PROCESSOR_VENDOR
+ - PNDIS_PROCESSOR_VENDOR
  - NDIS_PROCESSOR_VENDOR
 ---
 
@@ -76,3 +78,4 @@ The NDIS_PROCESSOR_VENDOR enumeration is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
+

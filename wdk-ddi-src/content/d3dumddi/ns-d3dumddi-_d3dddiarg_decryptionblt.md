@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DECRYPTIONBLT
  - D3DDDIARG_DECRYPTIONBLT
 ---
 
@@ -98,3 +99,4 @@ A pointer to a populated D3DDDIARG_DECRYPTIONBLT structure is passed to the driv
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decryptionblt">DecryptionBlt</a>
+

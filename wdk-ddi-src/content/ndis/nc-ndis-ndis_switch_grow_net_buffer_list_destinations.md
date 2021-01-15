@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - GrowNetBufferListDestinations
+ - NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS
 ---
 
 # NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback function
@@ -115,3 +115,4 @@ For more information on how to add destination ports to a packet, see <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a>
+

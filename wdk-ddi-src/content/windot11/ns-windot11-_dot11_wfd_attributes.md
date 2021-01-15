@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_ATTRIBUTES
+ - PDOT11_WFD_ATTRIBUTES
  - DOT11_WFD_ATTRIBUTES
 product:
  - Windows 10 or later.
@@ -169,3 +171,4 @@ typedef struct _DOT11_WFD_ATTRIBUTES {
 
 
 <a href="/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+

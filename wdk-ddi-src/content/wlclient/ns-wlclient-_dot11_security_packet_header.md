@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlclient.h
 api_name:
+ - _DOT11_SECURITY_PACKET_HEADER
+ - PDOT11_SECURITY_PACKET_HEADER
  - DOT11_SECURITY_PACKET_HEADER
 ---
 
@@ -84,3 +86,4 @@ typedef struct _DOT11_SECURITY_PACKET_HEADER {
 ## -see-also
 
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+

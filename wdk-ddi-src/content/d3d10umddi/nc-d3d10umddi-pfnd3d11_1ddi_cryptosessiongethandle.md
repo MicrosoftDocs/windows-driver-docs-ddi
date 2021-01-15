@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CryptoSessionGetHandle
+ - PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ This function allows the driver to define its own handle to its state data for t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+

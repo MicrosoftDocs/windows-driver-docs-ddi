@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT
+ - EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT
 ---
 
 # EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT callback function
@@ -57,3 +57,4 @@ The object for the OPM context that will be destroyed.
 ## -returns
 
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+

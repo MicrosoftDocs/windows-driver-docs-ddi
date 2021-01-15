@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamLumaKey
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback function
@@ -125,3 +125,4 @@ The driver reports its ability to support stereo alpha blending for an input str
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a>
+

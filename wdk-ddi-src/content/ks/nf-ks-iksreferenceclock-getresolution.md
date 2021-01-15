@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsReferenceClock.GetResolution
+ - IKsReferenceClock::GetResolution
 ---
 
 # IKsReferenceClock::GetResolution
@@ -71,3 +71,4 @@ AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-res
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+

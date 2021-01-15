@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PROCESSOR_PARK_PREFERENCE
+ - PPEP_PROCESSOR_PARK_PREFERENCE
  - PEP_PROCESSOR_PARK_PREFERENCE
 ---
 
@@ -107,3 +109,4 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_PPM_PARK_SELECTION</a>
+

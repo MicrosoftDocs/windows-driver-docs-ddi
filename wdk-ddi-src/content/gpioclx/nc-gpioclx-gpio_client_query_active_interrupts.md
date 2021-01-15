@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_QueryActiveInterrupts
+ - GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
 ---
 
 # GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback function
@@ -123,3 +123,4 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_active_interrupts_parameters">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorGetBehaviorHints
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ This function uses the current state, set via the <b>VideoProcessorSetOutput</b>
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>
+

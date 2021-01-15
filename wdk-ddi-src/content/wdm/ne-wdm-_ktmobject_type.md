@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KTMOBJECT_TYPE
+ - PKTMOBJECT_TYPE
  - KTMOBJECT_TYPE
 ---
 
@@ -82,3 +84,4 @@ For more information about KTM objects, see <a href="/windows-hardware/drivers/k
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
+

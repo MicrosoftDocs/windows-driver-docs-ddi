@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - ProcessorHalt
+ - POFXCALLBACKPROCESSORHALT
 ---
 
 # POFXCALLBACKPROCESSORHALT callback function (pepfx.h)
@@ -181,3 +181,4 @@ The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_execute">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>
+

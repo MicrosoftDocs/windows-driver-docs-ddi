@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.GetLastError
+ - IStiUSD::GetLastError
 ---
 
 # IStiUSD::GetLastError
@@ -64,3 +64,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

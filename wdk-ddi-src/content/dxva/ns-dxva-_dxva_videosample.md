@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoSample
+ - LPDXVA_VideoSample
  - DXVA_VideoSample
 ---
 
@@ -80,3 +82,4 @@ Pointer to a <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
+

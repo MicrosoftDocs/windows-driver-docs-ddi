@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - scsiwmi
  - scsiwmi/scsiwmi
+api_name:
+ - scsiwmi
 ---
 
 # Scsiwmi.h header

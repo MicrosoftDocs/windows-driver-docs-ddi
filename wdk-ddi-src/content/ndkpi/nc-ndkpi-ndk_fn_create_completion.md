@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateCompletion
+ - NDK_FN_CREATE_COMPLETION
 ---
 
 # NDK_FN_CREATE_COMPLETION callback function
@@ -123,3 +123,4 @@ For create requests that return STATUS_PENDING and later complete with STATUS_SU
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
+

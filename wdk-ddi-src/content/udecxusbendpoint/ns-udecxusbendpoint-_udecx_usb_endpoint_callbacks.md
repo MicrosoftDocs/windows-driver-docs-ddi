@@ -41,6 +41,8 @@ api_type:
 api_location:
  - udecxusbendpoint.h
 api_name:
+ - _UDECX_USB_ENDPOINT_CALLBACKS
+ - PUDECX_USB_ENDPOINT_CALLBACKS
  - UDECX_USB_ENDPOINT_CALLBACKS
 ---
 
@@ -76,3 +78,4 @@ Optional. A pointer to an <a href="/windows-hardware/drivers/ddi/udecxusbendpoin
 
 
 <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks">UdecxUsbEndpointInitSetCallbacks</a>
+

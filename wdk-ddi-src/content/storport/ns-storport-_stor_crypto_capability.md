@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_CRYPTO_CAPABILITY
+ - PSTOR_CRYPTO_CAPABILITY
  - STOR_CRYPTO_CAPABILITY
 ---
 

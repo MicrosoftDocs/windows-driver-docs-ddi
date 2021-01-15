@@ -5,40 +5,42 @@ description: The client driver implements the EvtNetAdapterOffloadSetTxChecksum 
 tech.root: netvista
 ms.date: 10/06/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM callback function"]
-f1_keywords:
- - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM"
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- netadapteroffload.h
-api_name: 
-- EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM
-product:
-- Windows
 targetos: Windows
 ms.custom: Fe
+f1_keywords:
+ - EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM
+ - netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netadapteroffload.h
+api_name:
+ - EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM
+product:
+ - Windows
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM callback function
+
 
 ## -description
 
@@ -74,3 +76,4 @@ For an example implementation of this callback, see [Checksum Offload](/windows-
 [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md)
 
 [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - CopyNetBufferListInfo
+ - NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO
 ---
 
 # NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback function
@@ -138,3 +138,4 @@ For example, the extension can call <a href="/windows-hardware/drivers/ddi/ndis/
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
+

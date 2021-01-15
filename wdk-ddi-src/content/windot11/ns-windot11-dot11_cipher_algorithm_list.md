@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_CIPHER_ALGORITHM_LIST
+ - PDOT11_CIPHER_ALGORITHM_LIST
 product:
  - Windows 10 or later.
 ---
@@ -134,3 +135,4 @@ When these OIDs are queried, the miniport driver must verify that the **Informat
 
 
 [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+

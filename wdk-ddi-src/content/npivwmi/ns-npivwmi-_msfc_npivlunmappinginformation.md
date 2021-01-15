@@ -41,6 +41,8 @@ api_type:
 api_location:
  - npivwmi.h
 api_name:
+ - _MSFC_NPIVLUNMappingInformation
+ - PMSFC_NPIVLUNMappingInformation
  - MSFC_NPIVLUNMappingInformation
 ---
 
@@ -76,3 +78,4 @@ The LUN mapped to the virtual port.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msfc-npivlunmappinginformation-wmi-class">MSFC_NPIVLUNMappingInformation WMI Class</a>
+

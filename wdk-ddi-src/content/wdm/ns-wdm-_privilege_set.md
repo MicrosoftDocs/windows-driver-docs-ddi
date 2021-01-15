@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PRIVILEGE_SET
+ - PPRIVILEGE_SET
  - PRIVILEGE_SET
 ---
 
@@ -56,3 +58,4 @@ The <b>PRIVILEGE_SET</b> structure specifies a set of security privileges. For m
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
+

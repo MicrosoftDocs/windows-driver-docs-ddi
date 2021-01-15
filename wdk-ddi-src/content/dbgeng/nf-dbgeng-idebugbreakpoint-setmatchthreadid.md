@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetMatchThreadId
- - IDebugBreakpoint2.SetMatchThreadId
+ - IDebugBreakpoint::SetMatchThreadId
 ---
 
 # IDebugBreakpoint::SetMatchThreadId
@@ -107,3 +106,4 @@ If you have set a thread for the breakpoint, the breakpoint can be triggered onl
 If you have set a thread, you can remove the setting by setting <i>Id</i> to DEBUG_ANY_ID.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

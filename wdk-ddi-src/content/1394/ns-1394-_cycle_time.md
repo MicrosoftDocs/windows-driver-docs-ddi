@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _CYCLE_TIME
+ - PCYCLE_TIME
  - CYCLE_TIME
 ---
 
@@ -88,3 +90,4 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - FsRtlIsPagingFile
+ - FsRtlIsSystemPagingFile
 ---
 
 # FsRtlIsSystemPagingFile function
@@ -69,3 +69,4 @@ Pointer to a file object for the file.
 
 
 <a href="/previous-versions/ff547285(v=vs.85)">FsRtlSupportsPerStreamContexts</a>
+

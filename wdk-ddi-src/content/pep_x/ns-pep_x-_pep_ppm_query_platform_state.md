@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_PLATFORM_STATE
+ - PPEP_PPM_QUERY_PLATFORM_STATE
  - PEP_PPM_QUERY_PLATFORM_STATE
 ---
 
@@ -78,3 +80,4 @@ The buffer that PoFx allocates to hold the <b>PEP_PPM_QUERY_PLATFORM_STATE</b> s
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state">PEP_PLATFORM_IDLE_STATE</a>
+

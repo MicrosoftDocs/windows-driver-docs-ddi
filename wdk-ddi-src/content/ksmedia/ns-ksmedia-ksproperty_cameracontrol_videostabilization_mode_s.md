@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
  - KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 ---
 
@@ -112,3 +113,4 @@ The video stabilization settings specified with this structure affect only the d
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-video-stabilization-mode-property">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
+

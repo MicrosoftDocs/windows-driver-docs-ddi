@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.TranslatedList
+ - IResourceList::TranslatedList
 ---
 
 # IResourceList::TranslatedList
@@ -58,3 +58,4 @@ The <code>TranslatedList</code> method returns the list of translated resources.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
+

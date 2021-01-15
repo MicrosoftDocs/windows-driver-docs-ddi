@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_EVENT
+ - PPMI_EVENT
  - PMI_EVENT
 ---
 
@@ -202,3 +204,4 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_event_type">PMI_EVENT_TYPE</a>
+

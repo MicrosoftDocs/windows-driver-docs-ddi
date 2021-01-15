@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+ - D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 dev_langs:
  - c++
 ---

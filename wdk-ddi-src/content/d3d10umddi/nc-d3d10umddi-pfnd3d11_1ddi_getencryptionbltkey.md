@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnGetEncryptionBltKey
+ - PFND3D11_1DDI_GETENCRYPTIONBLTKEY
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ When the <b>GetEncryptionBltKey</b> function is called, the display miniport dri
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a>
+

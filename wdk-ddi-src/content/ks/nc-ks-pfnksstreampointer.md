@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniCancelCallback
+ - PFNKSSTREAMPOINTER
 ---
 
 # PFNKSSTREAMPOINTER callback function
@@ -77,3 +77,4 @@ Finally, the minidriver must call <a href="/windows-hardware/drivers/ddi/ks/nf-k
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
+

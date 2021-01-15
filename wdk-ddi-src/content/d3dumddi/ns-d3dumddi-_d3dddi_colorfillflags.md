@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_COLORFILLFLAGS
  - D3DDDI_COLORFILLFLAGS
 ---
 
@@ -72,3 +73,4 @@ A member in the union that is contained in D3DDDI_COLORFILLFLAGS that can hold o
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_colorfill">D3DDDIARG_COLORFILL</a>
+

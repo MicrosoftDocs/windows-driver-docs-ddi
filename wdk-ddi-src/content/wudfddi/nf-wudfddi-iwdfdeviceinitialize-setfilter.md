@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.SetFilter
+ - IWDFDeviceInitialize::SetFilter
 ---
 
 # IWDFDeviceInitialize::SetFilter
@@ -73,3 +73,4 @@ For a code example of how to use the <b>SetFilter</b> method, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiGetBacklightReduction
+ - DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION
 ---
 
 # DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback function
@@ -85,3 +85,4 @@ As an example, if <i>BRR</i> = 0.2, the driver will typically boost brightness b
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_POWER_COMPONENT_MAPPING
  - DXGK_POWER_COMPONENT_MAPPING
 ---
 
@@ -119,3 +120,4 @@ Each component must be mapped to an engine, display, memory or other. Dxgkrnl wi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component">DXGK_POWER_RUNTIME_COMPONENT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
  - NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
 ---
 
@@ -110,3 +112,4 @@ For more information about backchannel communication within the single root I/O 
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
+

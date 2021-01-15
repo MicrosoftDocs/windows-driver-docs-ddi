@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_ConnectionStaticInfo
+ - PISCSI_ConnectionStaticInfo
  - ISCSI_ConnectionStaticInfo
 ---
 
@@ -227,3 +229,4 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsQualityForwarder.KsFlushClient
+ - IKsQualityForwarder::KsFlushClient
 ---
 
 # IKsQualityForwarder::KsFlushClient
@@ -57,3 +57,4 @@ Pointer to the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin"
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
+

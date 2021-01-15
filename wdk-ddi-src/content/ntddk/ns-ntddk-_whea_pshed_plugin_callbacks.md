@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PSHED_PLUGIN_CALLBACKS
+ - PWHEA_PSHED_PLUGIN_CALLBACKS
  - WHEA_PSHED_PLUGIN_CALLBACKS
 ---
 
@@ -176,3 +178,4 @@ A WHEA_PSHED_PLUGIN_CALLBACKS structure is contained within the <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record">WriteErrorRecord</a>
+

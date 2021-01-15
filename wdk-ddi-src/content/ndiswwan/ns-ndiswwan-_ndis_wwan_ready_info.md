@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_READY_INFO
+ - PNDIS_WWAN_READY_INFO
  - NDIS_WWAN_READY_INFO
 ---
 
@@ -117,3 +119,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info">WWAN_READY_INFO</a>
+

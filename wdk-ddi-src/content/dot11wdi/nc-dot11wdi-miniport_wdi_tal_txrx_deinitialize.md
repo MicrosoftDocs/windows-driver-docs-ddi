@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxDeinitialize
+ - MINIPORT_WDI_TAL_TXRX_DEINITIALIZE
 ---
 
 # MINIPORT_WDI_TAL_TXRX_DEINITIALIZE callback function
@@ -70,3 +70,4 @@ TAL device handle returned by the IHV miniport in <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/network/wdi-general-datapath-interfaces">WDI general datapath interfaces</a>
+

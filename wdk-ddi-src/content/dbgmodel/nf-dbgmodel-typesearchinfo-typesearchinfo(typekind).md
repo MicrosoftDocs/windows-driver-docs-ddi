@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - TypeSearchInfo
+ - TypeSearchInfo::TypeSearchInfo
 ---
 
 # TypeSearchInfo(TypeKind) function (dbgmodel.h)
@@ -60,3 +60,4 @@ This function is a constructor and does not return a value.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

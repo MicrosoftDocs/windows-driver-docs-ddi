@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetSymbolModule
- - IDebugSymbols2.GetSymbolModule
- - IDebugSymbols3.GetSymbolModule
+ - IDebugSymbols3::GetSymbolModule
 ---
 
 # IDebugSymbols3::GetSymbolModule
@@ -99,3 +97,4 @@ The symbol or module could not be found.
 The string <i>Symbol</i> must contain an exclamation point ( <b>!</b> ).  If <i>Symbol</i> is a module-qualified symbol name (for example, <b>mymodules!main</b>) or if the module name is omitted (for example, <b>!main</b>), the engine will search for this symbol and return the module in which it is found.  If <i>Symbol</i> contains just a module name (for example, <b>mymodule!</b>) the engine returns the first module with this module name.
 
 For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
+

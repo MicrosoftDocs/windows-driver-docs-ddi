@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_DVBT2_L1_SIGNALLING_DATA
+ - PBDA_DVBT2_L1_SIGNALLING_DATA
  - BDA_DVBT2_L1_SIGNALLING_DATA
 ---
 

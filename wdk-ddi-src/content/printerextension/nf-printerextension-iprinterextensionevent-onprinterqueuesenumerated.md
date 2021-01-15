@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionEvent.OnPrinterQueuesEnumerated
+ - IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 ---
 
 # IPrinterExtensionEvent::OnPrinterQueuesEnumerated
@@ -73,3 +73,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent">IPrinterExtensionEvent</a>
+

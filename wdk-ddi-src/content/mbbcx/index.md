@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - mbbcx
  - mbbcx/mbbcx
+api_name:
+ - mbbcx
 ---
 
 # Mbbcx.h header
@@ -25,3 +27,4 @@ f1_keywords:
 This header contains reference material about the Mobile Broadband (MBB) WDF class extension (MBBCx).
 
 For more info, see [Introduction to the Mobile Broadband (MBB) WDF class extension (MBBCx)](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
+

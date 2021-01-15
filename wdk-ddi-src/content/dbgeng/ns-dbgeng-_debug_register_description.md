@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_REGISTER_DESCRIPTION
+ - PDEBUG_REGISTER_DESCRIPTION
  - DEBUG_REGISTER_DESCRIPTION
 ---
 
@@ -86,3 +88,4 @@ Reserved for system use.
 If this register is a subregister, the value of the full register can be turned into the value of the sub-register by first shifting <b>SubregShift</b> bits to the right and then combining the result with <b>SubregMask</b> using the bitwise-AND operator.  The size of the sub-register (<b>SubregLength</b>) is the number of bits set in <b>SubregMask</b>.
 
 For general information about registers, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SendToWia
+ - CWiauPropertyList::SendToWia
 ---
 
 # CWiauPropertyList::SendToWia
@@ -66,3 +66,4 @@ The **CWiauPropertyList::SendToWia** method should be called only after all prop
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [IWiaMiniDrv::drvInitItemProperties](../wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties.md)
+

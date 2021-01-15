@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Charging.h
 api_name:
- - BATTERY_INFORMATION
+ - _CAD_POWER_SOURCE_INFO_USB
+ - PCAD_POWER_SOURCE_INFO_USB
+ - CAD_POWER_SOURCE_INFO_USB
 ---
 
 # _CAD_POWER_SOURCE_INFO_USB structure

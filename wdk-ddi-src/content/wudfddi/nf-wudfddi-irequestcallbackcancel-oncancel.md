@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IRequestCallbackCancel.OnCancel
+ - IRequestCallbackCancel::OnCancel
 ---
 
 # IRequestCallbackCancel::OnCancel
@@ -81,3 +81,4 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-markcancelable">IWDFIoRequest::MarkCancelable</a>
+

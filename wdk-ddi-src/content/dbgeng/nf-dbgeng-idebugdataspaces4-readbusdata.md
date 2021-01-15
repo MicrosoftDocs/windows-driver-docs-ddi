@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadBusData
- - IDebugDataSpaces2.ReadBusData
- - IDebugDataSpaces3.ReadBusData
- - IDebugDataSpaces4.ReadBusData
+ - IDebugDataSpaces4::ReadBusData
 ---
 
 # IDebugDataSpaces4::ReadBusData
@@ -115,3 +112,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 This method is only available in kernel-mode debugging.
 
 The nature of the data read from the bus is system, bus, and slot dependent.
+

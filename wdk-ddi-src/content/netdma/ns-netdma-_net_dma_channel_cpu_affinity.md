@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_CHANNEL_CPU_AFFINITY
+ - PNET_DMA_CHANNEL_CPU_AFFINITY
  - NET_DMA_CHANNEL_CPU_AFFINITY
 ---
 
@@ -93,3 +95,4 @@ The NetDMA interface calls
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
    ProviderSetDmaChannelCpuAffinity</a>
+

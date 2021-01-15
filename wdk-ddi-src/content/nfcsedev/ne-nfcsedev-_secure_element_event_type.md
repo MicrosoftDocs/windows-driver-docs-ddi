@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_EVENT_TYPE
+ - PSECURE_ELEMENT_EVENT_TYPE
  - SECURE_ELEMENT_EVENT_TYPE
 ---
 

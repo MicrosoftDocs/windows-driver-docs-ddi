@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Filterpipeline.h
 api_name:
- - IXpsDocumentConsumer.CloseSender
+ - IXpsDocumentConsumer::CloseSender
 ---
 
 # IXpsDocumentConsumer::CloseSender

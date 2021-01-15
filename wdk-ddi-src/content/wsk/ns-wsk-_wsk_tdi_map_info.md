@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_TDI_MAP_INFO
+ - PWSK_TDI_MAP_INFO
  - WSK_TDI_MAP_INFO
 ---
 
@@ -96,3 +98,4 @@ For more information about using TDI transports, see
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
+

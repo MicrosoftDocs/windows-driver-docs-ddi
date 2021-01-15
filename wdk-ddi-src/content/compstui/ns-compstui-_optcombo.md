@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Compstui.h
 api_name:
+ - _OPTCOMBO
+ - POPTCOMBO
  - OPTCOMBO
 ---
 

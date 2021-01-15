@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_InitiatorSessionInfo
+ - PMSiSCSI_InitiatorSessionInfo
  - MSiSCSI_InitiatorSessionInfo
 ---
 
@@ -80,3 +82,4 @@ You must implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-initiatorsessioninfo-wmi-class">MSiSCSI_InitiatorSessionInfo WMI Class</a>
+

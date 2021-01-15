@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetEffectiveProcessorType
- - IDebugControl2.GetEffectiveProcessorType
- - IDebugControl3.GetEffectiveProcessorType
+ - IDebugControl2::GetEffectiveProcessorType
 ---
 
 # IDebugControl2::GetEffectiveProcessorType
@@ -105,3 +103,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>
+

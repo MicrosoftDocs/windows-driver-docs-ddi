@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
+ - EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
 ---
 
 # EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function
@@ -71,3 +71,4 @@ The client driver sends a request to the lower filter driver to determine if a p
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete">UfxDeviceProprietaryChargerDetectComplete</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_VIDEOPROCESSBLT
  - D3DDDIARG_VIDEOPROCESSBLT
 ---
 
@@ -150,3 +151,4 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a>
+

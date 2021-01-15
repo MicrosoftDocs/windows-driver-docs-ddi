@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_TOC_FULL_TOC_DATA
+ - PCDROM_TOC_FULL_TOC_DATA
  - CDROM_TOC_FULL_TOC_DATA
 ---
 
@@ -80,3 +82,4 @@ Contains zero or more track descriptors. See <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex">IOCTL_CDROM_READ_TOC_EX</a>
+

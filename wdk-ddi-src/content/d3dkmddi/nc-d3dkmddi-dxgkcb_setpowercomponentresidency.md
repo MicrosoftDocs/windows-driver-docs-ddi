@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbSetPowerComponentResidency
+ - DXGKCB_SETPOWERCOMPONENTRESIDENCY
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ If the driver sets <i>Residency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (def
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

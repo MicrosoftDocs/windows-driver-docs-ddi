@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfControl.h
 api_name:
- - EvtDeviceShutdownNotification
+ - EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
 ---
 
 # EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback function
@@ -71,3 +71,4 @@ For more information about control device objects and the <i>EvtDeviceShutdownNo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
  - DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 ---
 

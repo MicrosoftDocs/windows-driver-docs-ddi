@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLHANDOVERSTATE
+ - LPRILCALLHANDOVERSTATE
 ---
 
 # RILCALLHANDOVERSTATE structure (ntddrilapitypes.h)

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
+ - _SENSOR_CONTROLLER_CONFIG
+ - PSENSOR_CONTROLLER_CONFIG
  - SENSOR_CONTROLLER_CONFIG
 ---
 
@@ -145,3 +147,4 @@ Each function returns STATUS_SUCCESS when completed successfully.
 
 </div>
 <div> </div>
+

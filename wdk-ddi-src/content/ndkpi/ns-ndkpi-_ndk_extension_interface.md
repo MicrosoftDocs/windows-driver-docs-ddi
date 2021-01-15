@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_EXTENSION_INTERFACE
  - NDK_EXTENSION_INTERFACE
 ---
 
@@ -67,3 +68,4 @@ Each NDK object contains a <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_query_extension_interface">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+

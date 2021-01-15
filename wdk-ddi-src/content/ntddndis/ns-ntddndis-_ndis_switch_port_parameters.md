@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PARAMETERS
+ - PNDIS_SWITCH_PORT_PARAMETERS
  - NDIS_SWITCH_PORT_PARAMETERS
 ---
 
@@ -189,3 +191,4 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-teardown">OID_SWITCH_PORT_TEARDOWN</a>
+

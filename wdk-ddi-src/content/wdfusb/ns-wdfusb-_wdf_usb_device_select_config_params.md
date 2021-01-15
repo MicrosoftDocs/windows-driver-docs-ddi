@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
+ - PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS
  - WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
 ---
 
@@ -152,3 +154,4 @@ If the driver sets the <b>Type</b> member to <b>WdfUsbTargetDeviceSelectConfigTy
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdfusbtargetdeviceselectconfigtype">WdfUsbTargetDeviceSelectConfigType</a>
+

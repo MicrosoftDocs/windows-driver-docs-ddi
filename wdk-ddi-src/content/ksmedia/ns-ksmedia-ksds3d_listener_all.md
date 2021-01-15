@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_LISTENER_ALL
  - KSDS3D_LISTENER_ALL
 ---
 
@@ -92,3 +93,4 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAl
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-all">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a>
+

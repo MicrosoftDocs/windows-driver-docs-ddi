@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMGetRandomNumber
+ - DXGKDDI_OPM_GET_RANDOM_NUMBER
 ---
 
 # DXGKDDI_OPM_GET_RANDOM_NUMBER callback function
@@ -95,3 +95,4 @@ For more information about cryptographically secure random numbers, see section 
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
+

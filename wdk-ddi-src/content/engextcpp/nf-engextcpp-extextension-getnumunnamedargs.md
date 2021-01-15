@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtExtension.GetNumUnnamedArgs
+ - ExtExtension::GetNumUnnamedArgs
 ---
 
 # ExtExtension::GetNumUnnamedArgs
@@ -58,3 +58,4 @@ The indices of the unnamed arguments returned by <b>GetNumUnnamedArgs</b> range 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
+

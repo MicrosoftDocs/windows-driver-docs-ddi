@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPHONEBOOKADDITIONALNUMBER
+ - LPRILPHONEBOOKADDITIONALNUMBER
 ---
 
 # RILPHONEBOOKADDITIONALNUMBER structure (rilapitypes.h)

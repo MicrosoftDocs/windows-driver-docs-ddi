@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_WIN32K_CALLBACKS
+ - PVIDEO_WIN32K_CALLBACKS
  - VIDEO_WIN32K_CALLBACKS
 ---
 

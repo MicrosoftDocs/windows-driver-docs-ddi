@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Fwpsk.h
 api_name:
- - flowDeleteFn
+ - FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0
 ---
 
 # FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback function
@@ -129,3 +129,4 @@ The filter engine calls a callout's
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a>
+

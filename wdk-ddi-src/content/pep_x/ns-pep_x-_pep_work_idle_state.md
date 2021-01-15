@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_WORK_IDLE_STATE
+ - PPEP_WORK_IDLE_STATE
  - PEP_WORK_IDLE_STATE
 ---
 
@@ -80,3 +82,4 @@ The <b>IdleState</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

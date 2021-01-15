@@ -37,7 +37,7 @@ api_type:
 api_location:
  - vhf.h
 api_name:
- - EvtVhfCleanup
+ - EVT_VHF_CLEANUP
 ---
 
 # EVT_VHF_CLEANUP callback function
@@ -65,3 +65,4 @@ The HID source driver must not use the VHFHANDLE for the virtual HID device (cre
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+

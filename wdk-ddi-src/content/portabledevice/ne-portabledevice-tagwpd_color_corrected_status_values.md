@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_COLOR_CORRECTED_STATUS_VALUES
  - WPD_COLOR_CORRECTED_STATUS_VALUES
 ---
 
@@ -71,3 +72,4 @@ Indicates the color corrected status of an image. This enumeration is used by th
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

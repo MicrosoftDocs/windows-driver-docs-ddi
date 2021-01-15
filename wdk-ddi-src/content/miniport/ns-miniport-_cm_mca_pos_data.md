@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CM_MCA_POS_DATA
+ - PCM_MCA_POS_DATA
  - CM_MCA_POS_DATA
 ---
 
@@ -74,3 +76,4 @@ This structure is used by the obsolete <a href="/previous-versions/windows/hardw
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskGetLocalAddress
+ - PFN_WSK_GET_LOCAL_ADDRESS
 ---
 
 # PFN_WSK_GET_LOCAL_ADDRESS callback function
@@ -251,3 +251,4 @@ If the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

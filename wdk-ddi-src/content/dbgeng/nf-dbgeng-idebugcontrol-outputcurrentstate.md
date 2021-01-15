@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputCurrentState
- - IDebugControl2.OutputCurrentState
- - IDebugControl3.OutputCurrentState
+ - IDebugControl::OutputCurrentState
 ---
 
 # IDebugControl::OutputCurrentState
@@ -140,3 +138,4 @@ Setting the flags contained in <i>Flags</i> merely allows the information to be 
 This is the same status information that is printed when breaking into the debugger.
 
 For more information, see <a href="/windows-hardware/drivers/debugger/target-information">Target Information</a>.
+

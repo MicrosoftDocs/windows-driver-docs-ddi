@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
  - NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 ---
 
@@ -122,3 +124,4 @@ This member points to the list of the GUIDs by using the WWAN_LIST_HEADER struct
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

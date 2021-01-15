@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsifnd.h
 api_name:
+ - _ISCSI_DiscoveredTarget
+ - PISCSI_DiscoveredTarget
  - ISCSI_DiscoveredTarget
 ---
 
@@ -84,3 +86,4 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 <a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportalgroup">ISCSI_DiscoveredTargetPortalGroup</a>
+

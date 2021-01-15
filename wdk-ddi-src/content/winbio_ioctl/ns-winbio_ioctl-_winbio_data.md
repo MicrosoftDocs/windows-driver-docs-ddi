@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_DATA
+ - PWINBIO_DATA
  - WINBIO_DATA
 ---
 
@@ -64,3 +66,4 @@ Specifies an array that contains the payload. Frequently this member contains a 
 ## -remarks
 
 The WINBIO_DATA structure associates a length, in bytes, with an arbitrary block of contiguous memory.
+

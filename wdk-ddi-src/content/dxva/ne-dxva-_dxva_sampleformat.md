@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_SampleFormat
  - DXVA_SampleFormat
 ---
 
@@ -100,3 +101,4 @@ Specifies that the sample contains a video substream.
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample2">DXVA_VideoSample2</a>
+

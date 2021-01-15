@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxusbdevice
  - ucxusbdevice/ucxusbdevice
+api_name:
+ - ucxusbdevice
 ---
 
 # Ucxusbdevice.h header
@@ -27,3 +29,4 @@ For more information, see:
 
 - [Developing Windows drivers for USB host controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
 - [Universal Serial Bus (USB)](../_usbref/index.md)
+

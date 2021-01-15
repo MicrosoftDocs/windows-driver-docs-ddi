@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_PRIORITY
+ - PWDF_INTERRUPT_PRIORITY
  - WDF_INTERRUPT_PRIORITY
 ---
 
@@ -78,3 +80,4 @@ The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a hr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportProcessSGList
+ - MINIPORT_PROCESS_SG_LIST
 ---
 
 # MINIPORT_PROCESS_SG_LIST callback function
@@ -136,3 +136,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
+

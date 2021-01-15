@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_TIMER)
+ - PHW_TIMER
 ---
 
 # PHW_TIMER callback
@@ -64,3 +64,4 @@ Miniport drivers that work with the StorPort driver do not use this timer routin
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff557327(v=vs.85)">HwScsiTimer</a>
+

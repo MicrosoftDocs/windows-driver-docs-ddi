@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_HANDFLOW
+ - PSERIAL_HANDFLOW
  - SERIAL_HANDFLOW
 ---
 
@@ -168,3 +170,4 @@ SerCx2 and SerCx support only subsets of the flags that are defined for the <b>C
 
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_handflow">IOCTL_SERIAL_SET_HANDFLOW</a>
+

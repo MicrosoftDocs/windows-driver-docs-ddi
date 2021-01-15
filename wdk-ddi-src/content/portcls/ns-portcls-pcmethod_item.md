@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCMETHOD_ITEM
  - PCMETHOD_ITEM
 ---
 
@@ -143,3 +144,4 @@ The <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>
+

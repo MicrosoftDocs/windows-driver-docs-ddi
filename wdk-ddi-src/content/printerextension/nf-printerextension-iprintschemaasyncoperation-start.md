@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaAsyncOperation.Start
+ - IPrintSchemaAsyncOperation::Start
 ---
 
 # IPrintSchemaAsyncOperation::Start
@@ -54,3 +54,4 @@ This method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation">IPrintSchemaAsyncOperation</a>
+

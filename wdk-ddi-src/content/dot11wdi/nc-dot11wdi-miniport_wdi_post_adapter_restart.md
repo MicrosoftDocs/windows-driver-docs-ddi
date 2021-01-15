@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiPostAdapterRestart
+ - MINIPORT_WDI_POST_ADAPTER_RESTART
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_RESTART callback function
@@ -124,3 +124,4 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_restart_parameters">NDIS_MINIPORT_RESTART_PARAMETERS</a>
+

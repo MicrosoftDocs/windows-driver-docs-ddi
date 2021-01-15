@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
+ - _UCM_CONNECTOR_CONFIG
+ - PUCM_CONNECTOR_CONFIG
  - UCM_CONNECTOR_CONFIG
 ---
 
@@ -83,3 +85,4 @@ Initialize this structure by calling <a href="/windows-hardware/drivers/ddi/ucmm
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
+

@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxsstreams
  - ucxsstreams/ucxsstreams
+api_name:
+ - ucxsstreams
 ---
 
 # Ucxsstreams.h header

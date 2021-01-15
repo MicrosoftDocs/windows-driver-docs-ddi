@@ -40,6 +40,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _NAMED_PIPE_CREATE_PARAMETERS
+ - PNAMED_PIPE_CREATE_PARAMETERS
  - NAMED_PIPE_CREATE_PARAMETERS
 ---
 
@@ -91,3 +93,4 @@ For an [IRP_MJ_CREATE_NAMED_PIPE](/windows-hardware/drivers/ifs/irp-mj-create-na
 ## -see-also
 
 [FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _ClearCache_OUT
+ - PClearCache_OUT
  - ClearCache_OUT
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
+

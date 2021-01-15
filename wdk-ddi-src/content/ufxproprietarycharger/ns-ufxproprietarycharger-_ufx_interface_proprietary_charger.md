@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxproprietarycharger.h
 api_name:
+ - _UFX_INTERFACE_PROPRIETARY_CHARGER
+ - PUFX_INTERFACE_PROPRIETARY_CHARGER
  - UFX_INTERFACE_PROPRIETARY_CHARGER
 ---
 
@@ -76,3 +78,4 @@ A pointer to the driver's implementation of the <a href="/windows-hardware/drive
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

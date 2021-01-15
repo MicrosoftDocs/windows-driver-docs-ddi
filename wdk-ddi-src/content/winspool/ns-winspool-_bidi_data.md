@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BIDI_DATA
+ - PBIDI_DATA
  - BIDI_DATA
 ---
 
@@ -98,3 +100,4 @@ The <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_da
 
 
 <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_binary_container">BINARY_CONTAINER</a>
+

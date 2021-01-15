@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _VOLUME_CONTROL
+ - PVOLUME_CONTROL
  - VOLUME_CONTROL
 ---
 
@@ -60,3 +62,4 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a>
+

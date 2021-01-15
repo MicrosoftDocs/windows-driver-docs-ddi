@@ -35,6 +35,8 @@ api_location:
  - minitape.h
 api_name:
  - _ERROR_HISTORY_DIRECTORY
+ - PERROR_HISTORY_DIRECTORY
+ - ERROR_HISTORY_DIRECTORY
 ---
 
 # _ERROR_HISTORY_DIRECTORY structure (minitape.h)

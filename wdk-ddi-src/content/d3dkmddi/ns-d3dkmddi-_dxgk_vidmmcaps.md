@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_VIDMMCAPS
  - DXGK_VIDMMCAPS
 ---
 
@@ -196,3 +197,4 @@ typedef struct _DXGK_VIDMMCAPS
 [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)
 
 [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md)
+

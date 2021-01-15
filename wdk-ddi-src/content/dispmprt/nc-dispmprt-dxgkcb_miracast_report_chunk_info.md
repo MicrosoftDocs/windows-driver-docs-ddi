@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkCbReportChunkInfo
+ - DXGKCB_MIRACAST_REPORT_CHUNK_INFO
 ---
 
 # DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback function
@@ -92,3 +92,4 @@ The display miniport driver  calls this function when it wants to report chunk i
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a>
+

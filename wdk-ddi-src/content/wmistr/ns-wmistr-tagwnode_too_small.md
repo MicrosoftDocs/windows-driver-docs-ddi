@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_TOO_SMALL
+ - PWNODE_TOO_SMALL
  - WNODE_TOO_SMALL
 ---
 
@@ -68,3 +70,4 @@ When the buffer for a WMI request is too small to receive all of the data to be 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

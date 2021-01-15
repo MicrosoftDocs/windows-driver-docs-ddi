@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - DebugExtensionNotify
+ - PDEBUG_EXTENSION_NOTIFY
 ---
 
 # PDEBUG_EXTENSION_NOTIFY callback function
@@ -50,7 +50,6 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
 ```
-
 
 ## -parameters
 
@@ -122,3 +121,4 @@ After the extension DLL is initialized, the engine will use this function to not
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+

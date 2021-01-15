@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - DefaultConstantBufferUpdateSubresourceUP(D3D11_1)
+ - PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP
 ---
 
 # PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback function
@@ -117,3 +117,4 @@ The driver should not encounter any error, except for <b>D3DDDIERR_DEVICEREMOVED
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

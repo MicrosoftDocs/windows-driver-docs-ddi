@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT
  - D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT
 ---
 
@@ -62,3 +63,4 @@ The D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a syn
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb">pfnDestroySynchronizationObjectCb</a>
+

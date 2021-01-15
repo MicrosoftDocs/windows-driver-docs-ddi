@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaEnabler.h
 api_name:
- - EvtDmaEnablerFlush
+ - EVT_WDF_DMA_ENABLER_FLUSH
 ---
 
 # EVT_WDF_DMA_ENABLER_FLUSH callback function
@@ -77,3 +77,4 @@ For more information about the <i>EvtDmaEnablerFlush</i> callback function, see 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
+

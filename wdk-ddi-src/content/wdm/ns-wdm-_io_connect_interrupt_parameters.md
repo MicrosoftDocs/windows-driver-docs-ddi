@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_CONNECT_INTERRUPT_PARAMETERS
+ - PIO_CONNECT_INTERRUPT_PARAMETERS
  - IO_CONNECT_INTERRUPT_PARAMETERS
 ---
 
@@ -341,3 +343,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoCo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
+

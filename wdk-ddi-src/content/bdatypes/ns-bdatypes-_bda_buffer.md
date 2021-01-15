@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_BUFFER
+ - PBDA_BUFFER
  - BDA_BUFFER
 ---
 

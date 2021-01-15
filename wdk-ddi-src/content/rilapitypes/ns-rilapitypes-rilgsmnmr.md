@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILGSMNMR
+ - LPRILGSMNMR
 ---
 
 # RILGSMNMR structure (rilapitypes.h)

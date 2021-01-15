@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSWAVE_OUTPUT_CAPABILITIES
  - KSWAVE_OUTPUT_CAPABILITIES
 ---
 
@@ -138,3 +139,4 @@ This structure is used by the <a href="/windows-hardware/drivers/stream/ksproper
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-wave-output-capabilities">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>
+

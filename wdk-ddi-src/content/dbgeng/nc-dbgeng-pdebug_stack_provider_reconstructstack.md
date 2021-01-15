@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - ReconstructStack
+ - PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
 ---
 
 # PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback function
@@ -50,7 +50,6 @@ The <i>ReconstructStack</i> callback function queries dump stream provider on a 
 ```cpp
  CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;
 ```
-
 
 ## -parameters
 

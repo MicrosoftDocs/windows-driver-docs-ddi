@@ -33,6 +33,7 @@ api_location:
  - netadapter.h
 api_name:
  - _NET_ADAPTER_DMA_CAPABILITIES
+ - NET_ADAPTER_DMA_CAPABILITIES
 ---
 
 # _NET_ADAPTER_DMA_CAPABILITIES structure

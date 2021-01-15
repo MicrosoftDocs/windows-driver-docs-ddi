@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT
+ - D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT
 dev_langs:
  - c++
 ---

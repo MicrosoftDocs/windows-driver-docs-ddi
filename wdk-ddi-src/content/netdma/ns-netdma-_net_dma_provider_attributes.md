@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_PROVIDER_ATTRIBUTES
+ - PNET_DMA_PROVIDER_ATTRIBUTES
  - NET_DMA_PROVIDER_ATTRIBUTES
 ---
 
@@ -122,3 +124,4 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
+

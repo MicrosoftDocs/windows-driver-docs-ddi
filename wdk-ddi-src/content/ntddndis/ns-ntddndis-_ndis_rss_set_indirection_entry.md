@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RSS_SET_INDIRECTION_ENTRY
+ - PNDIS_RSS_SET_INDIRECTION_ENTRY
  - NDIS_RSS_SET_INDIRECTION_ENTRY
 ---
 
@@ -148,3 +150,4 @@ If an error occurs with this move command, set **EntryStatus** to one of the fol
 
 
 <a href="/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
+

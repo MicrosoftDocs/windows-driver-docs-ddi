@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_SCSI_DEVICE_DATA
+ - PCM_SCSI_DEVICE_DATA
  - CM_SCSI_DEVICE_DATA
 ---
 
@@ -76,3 +78,4 @@ The SCSI bus identifier used by the ARC firmware.
 
 
 <a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+

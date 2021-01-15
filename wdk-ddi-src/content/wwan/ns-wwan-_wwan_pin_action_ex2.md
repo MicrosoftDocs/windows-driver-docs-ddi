@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_PIN_ACTION_EX2
+ - PWWAN_PIN_ACTION_EX2
+ - WWAN_PIN_ACTION_EX2
 ---
 
 # _WWAN_PIN_ACTION_EX2 structure
@@ -82,3 +84,4 @@ This structure is used in the [**NDIS_WWAN_SET_PIN_EX2**](../ndiswwan/ns-ndiswwa
 [OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
 [**NDIS_WWAN_SET_PIN_EX2**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_pin_ex2.md)
+

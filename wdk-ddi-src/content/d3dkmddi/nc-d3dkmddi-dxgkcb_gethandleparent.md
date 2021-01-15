@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbGetHandleParent
+ - DXGKCB_GETHANDLEPARENT
 ---
 
 # DXGKCB_GETHANDLEPARENT callback function

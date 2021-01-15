@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_PATH_INFORMATION
+ - PMPIO_PATH_INFORMATION
  - MPIO_PATH_INFORMATION
 ---
 

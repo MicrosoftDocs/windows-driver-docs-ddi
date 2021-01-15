@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_VIDEO2
+ - PKS_DATARANGE_VIDEO2
  - KS_DATARANGE_VIDEO2
 ---
 
@@ -96,3 +98,4 @@ This structure should be used instead of a <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

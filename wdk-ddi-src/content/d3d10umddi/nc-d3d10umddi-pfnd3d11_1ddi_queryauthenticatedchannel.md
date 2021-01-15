@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - QueryAuthenticatedChannel
+ - PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -154,3 +154,4 @@ The <i>OutputDataSize</i> parameter is less than size of the structure specified
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_output">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
+

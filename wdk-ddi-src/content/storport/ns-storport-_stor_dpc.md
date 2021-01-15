@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_DPC
+ - PSTOR_DPC
  - STOR_DPC
 ---
 
@@ -60,3 +62,4 @@ The STOR_DPC structure is an opaque structure that represents a DPC object. Do n
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
+

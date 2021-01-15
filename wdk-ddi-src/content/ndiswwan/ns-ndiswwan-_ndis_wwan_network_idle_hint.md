@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_NETWORK_IDLE_HINT
+ - PNDIS_WWAN_NETWORK_IDLE_HINT
  - NDIS_WWAN_NETWORK_IDLE_HINT
 ---
 
@@ -98,3 +100,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_network_id
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_network_idle_hint">WWAN_NETWORK_IDLE_HINT</a>
+

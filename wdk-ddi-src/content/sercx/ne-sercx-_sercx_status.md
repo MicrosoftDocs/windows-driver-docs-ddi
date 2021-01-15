@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
+ - _SERCX_STATUS
+ - PSERCX_STATUS
  - SERCX_STATUS
 ---
 
@@ -80,3 +82,4 @@ The <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
+

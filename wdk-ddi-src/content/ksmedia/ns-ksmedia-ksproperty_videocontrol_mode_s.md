@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCONTROL_MODE_S
  - KSPROPERTY_VIDEOCONTROL_MODE_S
 ---
 
@@ -82,3 +83,4 @@ Specifies the video control mode. For a Set request, this member contains the re
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+

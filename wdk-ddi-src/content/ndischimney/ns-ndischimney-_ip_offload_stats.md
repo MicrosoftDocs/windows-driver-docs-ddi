@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _IP_OFFLOAD_STATS
+ - PIP_OFFLOAD_STATS
  - IP_OFFLOAD_STATS
 ---
 
@@ -188,3 +190,4 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 <a href="/windows-hardware/drivers/network/oid-ip6-offload-stats">OID_IP6_OFFLOAD_STATS</a>
+

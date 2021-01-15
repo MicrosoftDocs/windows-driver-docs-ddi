@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetFloat
+ - ExtRemoteData::GetFloat
 ---
 
 # ExtRemoteData::GetFloat
@@ -66,3 +66,4 @@ The size of the memory represented by the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdouble">ExtRemoteData::GetDouble</a>
+

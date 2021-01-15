@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdpc.h
 api_name:
+ - _WDF_DPC_CONFIG
+ - PWDF_DPC_CONFIG
  - WDF_DPC_CONFIG
 ---
 
@@ -96,3 +98,4 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>
+

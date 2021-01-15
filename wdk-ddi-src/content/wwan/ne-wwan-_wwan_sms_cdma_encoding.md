@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_CDMA_ENCODING
+ - PWWAN_SMS_CDMA_ENCODING
  - WWAN_SMS_CDMA_ENCODING
 ---
 
@@ -105,3 +107,4 @@ The total number of supported SMS CDMA encoding formats.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>
+

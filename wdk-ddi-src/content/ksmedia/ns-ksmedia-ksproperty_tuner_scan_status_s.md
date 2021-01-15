@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_SCAN_STATUS_S
  - KSPROPERTY_TUNER_SCAN_STATUS_S
 ---
 
@@ -115,3 +116,4 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

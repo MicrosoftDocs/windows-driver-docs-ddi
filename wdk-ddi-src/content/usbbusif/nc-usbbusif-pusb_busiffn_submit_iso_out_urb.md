@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - SubmitIsoOutUrb
+ - PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB
 ---
 
 # PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback function
@@ -112,3 +112,4 @@ typedef NTSTATUS
 ```
 
   );
+

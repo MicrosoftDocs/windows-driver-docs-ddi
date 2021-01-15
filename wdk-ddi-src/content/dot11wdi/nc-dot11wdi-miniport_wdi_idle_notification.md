@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiIdleNotification
+ - MINIPORT_WDI_IDLE_NOTIFICATION
 ---
 
 # MINIPORT_WDI_IDLE_NOTIFICATION callback function
@@ -83,3 +83,4 @@ MiniportWdiIdleNotification can return any of the following return values.
 
 
 [NdisWdiIdleNotificationComplete](nc-dot11wdi-ndis_wdi_idle_notification_complete.md)
+

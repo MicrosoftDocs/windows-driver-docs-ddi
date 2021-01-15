@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _ACCESS_RANGE
+ - PACCESS_RANGE
  - ACCESS_RANGE
 ---
 
@@ -103,3 +105,4 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportvalidaterange">ScsiPortValidateRange</a>
+

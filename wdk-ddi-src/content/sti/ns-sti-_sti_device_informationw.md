@@ -41,7 +41,9 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - STI_DEVICE_INFORMATION
+ - _STI_DEVICE_INFORMATIONW
+ - PSTI_DEVICE_INFORMATIONW
+ - STI_DEVICE_INFORMATIONW
 ---
 
 # _STI_DEVICE_INFORMATIONW structure
@@ -102,3 +104,4 @@ Pointer to a string containing the file name and entry point of a DLL for adding
 ### -field pszLocalName
 
 Pointer to the local device name the user supplied during installation, for use in displays.
+

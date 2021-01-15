@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PCI_EXPRESS_CAPABILITY
+ - PPCI_EXPRESS_CAPABILITY
  - PCI_EXPRESS_CAPABILITY
 ---
 
@@ -197,3 +199,4 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_status_register">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
+

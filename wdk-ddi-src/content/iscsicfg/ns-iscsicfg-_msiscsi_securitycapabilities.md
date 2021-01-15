@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_SecurityCapabilities
+ - PMSiSCSI_SecurityCapabilities
  - MSiSCSI_SecurityCapabilities
 ---
 
@@ -88,3 +90,4 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>
+

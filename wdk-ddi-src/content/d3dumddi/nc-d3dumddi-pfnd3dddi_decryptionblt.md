@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DecryptionBlt
+ - PFND3DDDI_DECRYPTIONBLT
 product:
  - Windows
 ---
@@ -100,3 +100,4 @@ The Direct3D runtime verifies that the source surface specified by the <b>SrcSub
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendCTPassThru_IN
+ - PSM_SendCTPassThru_IN
  - SM_SendCTPassThru_IN
 ---
 

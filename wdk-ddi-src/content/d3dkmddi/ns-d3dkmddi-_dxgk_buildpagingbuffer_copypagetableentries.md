@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
  - DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
 ---
 
@@ -66,3 +67,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
+

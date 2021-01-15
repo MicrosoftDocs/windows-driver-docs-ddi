@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniPinIrpCompletion
+ - PFNKSPINIRPCOMPLETION
 ---
 
 # PFNKSPINIRPCOMPLETION callback function
@@ -70,3 +70,4 @@ The minidriver specifies this routine's address in the <i>IrpCompletion</i> para
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterirpcompletioncallback">KsPinRegisterIrpCompletionCallback</a>
+

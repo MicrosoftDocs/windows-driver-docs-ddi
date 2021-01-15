@@ -12,6 +12,8 @@ tech.root: buses
 f1_keywords:
  - charging
  - charging/charging
+api_name:
+ - charging
 ---
 
 # Charging.h header

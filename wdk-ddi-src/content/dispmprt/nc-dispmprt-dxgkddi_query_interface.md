@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiQueryInterface
+ - DXGKDDI_QUERY_INTERFACE
 ---
 
 # DXGKDDI_QUERY_INTERFACE callback function
@@ -104,3 +104,4 @@ Initialize all additional interface-specific members to point to the appropriate
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_query_interface">QUERY_INTERFACE</a>
+

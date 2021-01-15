@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PROCESS_VERIFIER_OPTION_TYPE
+ - D3DKMT_PROCESS_VERIFIER_OPTION_TYPE
 dev_langs:
  - c++
 ---

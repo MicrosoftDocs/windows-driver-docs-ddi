@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchPortEventNotifyFn
+ - FWPS_VSWITCH_PORT_EVENT_CALLBACK0
 ---
 
 # FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback function
@@ -166,3 +166,4 @@ After the port is deleted, the WFP filter driver calls <i>vSwitchPortEventNotify
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETERS</a>
+

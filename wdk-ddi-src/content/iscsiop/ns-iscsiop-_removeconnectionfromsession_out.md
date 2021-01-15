@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _RemoveConnectionFromSession_OUT
+ - PRemoveConnectionFromSession_OUT
  - RemoveConnectionFromSession_OUT
 ---
 
@@ -64,3 +66,4 @@ You must implement this class.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpCommitPhysical
+ - PAGP_COMMIT_PHYSICAL
 ---
 
 # PAGP_COMMIT_PHYSICAL callback function
@@ -96,3 +96,4 @@ When a video miniport driver calls <b>AgpCommitPhysical</b>, a portion of the ph
 
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>
+

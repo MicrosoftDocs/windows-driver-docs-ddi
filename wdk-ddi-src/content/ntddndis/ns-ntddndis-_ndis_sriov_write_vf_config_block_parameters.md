@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
  - NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 ---
 
@@ -128,3 +130,4 @@ For more information about backchannel communication within the single root I/O 
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-write-vf-config-block">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
+

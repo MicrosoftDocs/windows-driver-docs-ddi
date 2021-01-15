@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceWdmPostPoFxRegisterDevice
+ - EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
 ---
 
 # EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback function
@@ -90,3 +90,4 @@ A KMDF driver for a multiple component device does not provide <i>EvtDeviceWdmPo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+

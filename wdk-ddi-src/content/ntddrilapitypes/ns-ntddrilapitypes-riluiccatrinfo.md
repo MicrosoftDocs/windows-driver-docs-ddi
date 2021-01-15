@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCATRINFO
+ - LPRILUICCATRINFO
 ---
 
 # RILUICCATRINFO structure (ntddrilapitypes.h)

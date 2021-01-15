@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_PROCESSOR_ERROR_SECTION
+ - PWHEA_XPF_PROCESSOR_ERROR_SECTION
  - WHEA_XPF_PROCESSOR_ERROR_SECTION
 ---
 
@@ -87,3 +89,4 @@ The following diagram shows how the data structures that contain the processor e
 - [WHEA_XPF_CONTEXT_INFO](./ns-ntddk-_whea_xpf_context_info.md)
 - [WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS](./ns-ntddk-_whea_xpf_processor_error_section_validbits.md)
 - [WHEA_XPF_PROCINFO](./ns-ntddk-_whea_xpf_procinfo.md)
+

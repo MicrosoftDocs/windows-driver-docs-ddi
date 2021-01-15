@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJobCollection.GetAt
+ - IPrintJobCollection::GetAt
 ---
 
 # IPrintJobCollection::GetAt
@@ -70,3 +70,4 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
+

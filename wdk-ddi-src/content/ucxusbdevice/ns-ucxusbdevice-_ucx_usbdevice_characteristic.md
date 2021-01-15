@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxusbdevice.h
 api_name:
+ - _UCX_USBDEVICE_CHARACTERISTIC
+ - PUCX_USBDEVICE_CHARACTERISTIC
  - UCX_USBDEVICE_CHARACTERISTIC
 ---
 
@@ -68,3 +70,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_ucx_usbde
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+

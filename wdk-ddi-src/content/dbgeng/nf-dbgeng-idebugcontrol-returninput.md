@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.ReturnInput
- - IDebugControl2.ReturnInput
- - IDebugControl3.ReturnInput
+ - IDebugControl::ReturnInput
 ---
 
 # IDebugControl::ReturnInput
@@ -93,3 +91,4 @@ This method may also return error values.  See <a href="/windows-hardware/driver
 ## -remarks
 
 For an overview of input in the debugger engine, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

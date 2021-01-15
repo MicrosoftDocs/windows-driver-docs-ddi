@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_SUSPENDVIRTUALGPU
+ - PDXGKARG_SUSPENDVIRTUALGPU
+ - DXGKARG_SUSPENDVIRTUALGPU
 product:
  - Windows
 dev_langs:

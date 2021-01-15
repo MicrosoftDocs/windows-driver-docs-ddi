@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _TRACK_MODE_TYPE
+ - PTRACK_MODE_TYPE
  - TRACK_MODE_TYPE
 ---
 
@@ -84,3 +86,4 @@ CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-__raw_read_info">RAW_READ_INFO</a>
+

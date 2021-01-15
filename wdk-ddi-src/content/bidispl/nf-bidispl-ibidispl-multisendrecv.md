@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl.MultiSendRecv
+ - IBidiSpl::MultiSendRecv
 ---
 
 # IBidiSpl::MultiSendRecv
@@ -149,3 +149,4 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
+

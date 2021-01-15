@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - GetAllErrorSources
+ - PSHED_PI_GET_ALL_ERROR_SOURCES
 ---
 
 # PSHED_PI_GET_ALL_ERROR_SOURCES callback function
@@ -154,3 +154,4 @@ A PSHED plug-in that participates in error source discovery can also implement a
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

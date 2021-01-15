@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyDevice
+ - PFND3DDDI_DESTROYDEVICE
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ Before the driver calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a>
+

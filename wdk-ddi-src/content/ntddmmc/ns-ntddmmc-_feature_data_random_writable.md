@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_RANDOM_WRITABLE
+ - PFEATURE_DATA_RANDOM_WRITABLE
  - FEATURE_DATA_RANDOM_WRITABLE
 ---
 
@@ -92,3 +94,4 @@ This structure holds data for the feature named "Random Writable" by the <i>MMC-
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

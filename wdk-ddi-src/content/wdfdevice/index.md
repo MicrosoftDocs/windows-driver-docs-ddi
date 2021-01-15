@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfdevice
  - wdfdevice/wdfdevice
+api_name:
+ - wdfdevice
 ---
 
 # Wdfdevice.h header
@@ -225,3 +227,4 @@ The categories on this page are:
 - [**WDF_POWER_FRAMEWORK_SETTINGS_INIT**](./nf-wdfdevice-wdf_power_framework_settings_init.md)
 - [**WDF_POWER_POLICY_EVENT_CALLBACKS_INIT**](./nf-wdfdevice-wdf_power_policy_event_callbacks_init.md)
 - [**WDF_REMOVE_LOCK_OPTIONS_INIT**](./nf-wdfdevice-wdf_remove_lock_options_init.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendRPS_IN
+ - PSendRPS_IN
  - SendRPS_IN
 ---
 
@@ -80,3 +82,4 @@ The WMI tool suite generates a declaration of the SendRPS_IN structure in <i>Hba
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendrps">SendRPS</a>
+

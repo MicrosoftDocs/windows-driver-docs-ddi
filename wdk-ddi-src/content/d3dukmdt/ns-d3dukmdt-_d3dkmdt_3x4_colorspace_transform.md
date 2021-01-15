@@ -36,6 +36,8 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DKMDT_3X4_COLORSPACE_TRANSFORM
+ - PD3DDDI_3x4_COLORSPACE_TRANSFORM
+ - D3DKMDT_3x4_COLORSPACE_TRANSFORM
 dev_langs:
  - c++
 ---

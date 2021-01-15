@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_CAS_CLOSEMMIDATA
+ - PBDA_CAS_CLOSEMMIDATA
  - BDA_CAS_CLOSEMMIDATA
 ---
 

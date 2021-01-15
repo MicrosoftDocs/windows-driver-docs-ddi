@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_MESSAGE_HEADER
+ - PWDI_MESSAGE_HEADER
  - WDI_MESSAGE_HEADER
 ---
 

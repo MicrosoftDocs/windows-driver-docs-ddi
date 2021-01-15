@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hpmi.h
 api_name:
+ - _HPMI_QUERY_CAPABILITIES_RESPONSE
+ - PHPMI_QUERY_CAPABILITIES_RESPONSE
  - HPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
@@ -81,3 +83,4 @@ Specifies Software Defined Battery (SDB) features supported by the system.
 
 
 <a href="/windows-hardware/drivers/ddi/hpmi/index">hpmi.h</a>
+

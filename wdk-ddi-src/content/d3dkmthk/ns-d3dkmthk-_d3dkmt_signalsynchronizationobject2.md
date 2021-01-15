@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
  - D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
 ---
 
@@ -102,3 +103,4 @@ An array of 64-bit values that are reserved for future use. The union in D3DKMT_
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject2">D3DKMTSignalSynchronizationObject2</a>
+

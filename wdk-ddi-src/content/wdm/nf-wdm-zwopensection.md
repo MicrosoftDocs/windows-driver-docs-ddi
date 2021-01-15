@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwOpenSection
- - NtOpenSection
 ---
 
 # ZwOpenSection function
@@ -104,3 +103,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunmapviewofsection">ZwUnmapViewOfSection</a>
+

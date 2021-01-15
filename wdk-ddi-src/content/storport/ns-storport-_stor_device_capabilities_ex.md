@@ -41,10 +41,13 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DEVICE_CAPABILITIES_EX
+ - PSTOR_DEVICE_CAPABILITIES_EX
  - STOR_DEVICE_CAPABILITIES_EX
 ---
 
 # _STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
+
 
 ## -description
 
@@ -145,3 +148,4 @@ The eject, removal, and install characteristics for the device are set in the **
 [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
+

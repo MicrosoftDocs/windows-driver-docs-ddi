@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sdpnode.h
 api_name:
+ - _SDP_TREE_ROOT_NODE
+ - PSDP_TREE_ROOT_NODE
  - SDP_TREE_ROOT_NODE
 ---
 
@@ -114,3 +116,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a>
+

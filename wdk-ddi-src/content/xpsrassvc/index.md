@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - xpsrassvc
  - xpsrassvc/xpsrassvc
+api_name:
+ - xpsrassvc
 ---
 
 # Xpsrassvc.h header

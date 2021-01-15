@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_SUBUNIT_ADDR_SPEC
+ - PAVC_SUBUNIT_ADDR_SPEC
  - AVC_SUBUNIT_ADDR_SPEC
 ---
 
@@ -91,3 +93,4 @@ A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interfa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_bus_reset">IOCTL_AVC_BUS_RESET</a>
+

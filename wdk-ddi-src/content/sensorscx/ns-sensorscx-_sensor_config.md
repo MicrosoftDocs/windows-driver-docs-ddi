@@ -41,6 +41,8 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
+ - _SENSOR_CONFIG
+ - PSENSOR_CONFIG
  - SENSOR_CONFIG
 ---
 
@@ -70,3 +72,4 @@ The SENSOR_CONFIG structure works with the following helper function:
 <a href="/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensor_config_init">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
+

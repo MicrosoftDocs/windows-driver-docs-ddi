@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IXpsDocumentConsumer.SendXpsUnknown
+ - IXpsDocumentConsumer::SendXpsUnknown
 ---
 
 # IXpsDocumentConsumer::SendXpsUnknown
@@ -61,3 +61,4 @@ A pointer to an unrecognized document part interface.
 ## -remarks
 
 If the <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentprovider-getxpspart">IXpsDocumentProvider::GetXpsPart</a> method returns an object that the filter cannot identify, the filter should forward the unrecognized object to the next filter in the filter pipeline by calling <code>SendXpsUnknown</code>. Passing unrecognized objects to the next filter helps the filter maintain compatibility with future document formats.
+

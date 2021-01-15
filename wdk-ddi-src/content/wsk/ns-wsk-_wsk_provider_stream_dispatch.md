@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_PROVIDER_STREAM_DISPATCH
+ - PWSK_PROVIDER_STREAM_DISPATCH
  - WSK_PROVIDER_STREAM_DISPATCH
 ---
 
@@ -162,3 +164,4 @@ A WSK application receives a pointer to a WSK_PROVIDER_STREAM_DISPATCH structure
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

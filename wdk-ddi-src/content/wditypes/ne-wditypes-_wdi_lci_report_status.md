@@ -29,6 +29,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_LCI_REPORT_STATUS
  - WDI_LCI_REPORT_STATUS
 ---
 
@@ -68,3 +69,4 @@ This enumeration is a value in the [WDI_TLV_FTM_RESPONSE](/windows-hardware/driv
 [NDIS_STATUS_WDI_INDICATION_REQUEST_FTM_COMPLETE](/windows-hardware/drivers/network/ndis-status-wdi-indication-request-ftm-complete)
 
 [OID_WDI_TASK_REQUEST_FTM](/windows-hardware/drivers/network/oid-wdi-task-request-ftm)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _TRANSDATA
+ - PTRANSDATA
  - TRANSDATA
 ---
 
@@ -217,3 +219,4 @@ A .gtt file's TRANSDATA structure array, which contains glyph mapping informatio
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a>
+

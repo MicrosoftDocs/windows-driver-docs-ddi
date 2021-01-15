@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClDeregisterSapComplete
+ - PROTOCOL_CL_DEREGISTER_SAP_COMPLETE
 ---
 
 # PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback function
@@ -171,3 +171,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>
+

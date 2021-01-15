@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - (*PPARALLEL_TRY_SELECT_ROUTINE)
+ - PPARALLEL_TRY_SELECT_ROUTINE
 ---
 
 # PPARALLEL_TRY_SELECT_ROUTINE callback
@@ -196,3 +196,4 @@ For more information, see <a href="/previous-versions/ff544793(v=vs.85)">Selecti
 
 
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+

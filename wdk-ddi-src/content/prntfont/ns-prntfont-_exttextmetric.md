@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _EXTTEXTMETRIC
+ - PEXTTEXTMETRIC
  - EXTTEXTMETRIC
 ---
 
@@ -174,3 +176,4 @@ Specifies the number of character kerning pairs defined for this font.
 ### -field emKernTracks
 
 Specifies the number of kerning tracks defined for this font.
+

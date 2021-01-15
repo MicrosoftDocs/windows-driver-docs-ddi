@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _MM_COPY_ADDRESS
+ - PMMCOPY_ADDRESS
  - MM_COPY_ADDRESS
 ---
 
@@ -85,3 +87,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-nt
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmcopymemory">MmCopyMemory</a>
+

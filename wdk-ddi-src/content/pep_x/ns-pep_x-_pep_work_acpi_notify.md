@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_ACPI_NOTIFY
+ - PPEP_WORK_ACPI_NOTIFY
  - PEP_WORK_ACPI_NOTIFY
 ---
 
@@ -72,3 +74,4 @@ The <b>AcpiNotify</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+
